@@ -1,0 +1,39 @@
+# One block per city: its card on the home page and its own page (_layouts/city.html, at
+# /cities/<id>/). The game itself is at /<id>/. A new city needs a block here and a
+# cities/<id>/index.html saying `city: <id>`.
+- id: ghent
+  name: Ghent
+  country: Belgium
+  game: Instant Gent
+  title: "Instant Gent: a free 3D game of Ghent, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of Ghent in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the city of Artevelde!"
+  lead: "All of Ghent inside the R40 ring road in 3D, every building at its real height."
+  card: "About 40,000 buildings at their real height, from the Belfry to the Overpoort."
+  image: menu
+  hero_alt: "The Instant Gent start screen: pick your animal and your mode"
+  features:
+    - { icon: city, title: "The real Ghent", text: "About 40,000 buildings from OpenStreetMap, each at its measured height. The Belfry stands 95 metres tall; the Gravensteen, Stadshal and St Bavo's are drawn to measure." }
+    - { icon: flag, title: "Four routes", text: "Gent Centrum past the three towers, the narrow streets of the Brugse Poort, Sint-Pieters to Dampoort right across the city, and the Overpoort to the S.M.A.K." }
+    - { icon: compass, title: "Quests against the clock", text: "Four short missions, from the stolen Ghent Altarpiece to student zombies in the Overpoort." }
+  shots:
+    - { id: boat, caption: "Vrijdagmarkt: on the way to the last boat" }
+    - { id: zombies, caption: "Student zombies in the Overpoort" }
+    - { id: quest-lamb, caption: "Quest: the Mystic Lamb is stolen" }
+    - { id: bigmap, caption: "The city map: teleport wherever you like" }
+  credits: "Map data © OpenStreetMap contributors (ODbL). 3D models: Stad Gent, Gent in 3D. Heights: Digitaal Vlaanderen, DHMV II."
+
+- id: lecce
+  name: Lecce
+  country: Italy
+  game: Instant Lecce
+  title: "Instant Lecce: a free 3D game of baroque Lecce, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the baroque old town of Lecce in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through baroque Lecce!"
+  lead: "The old town of Lecce in Puglia, in its honey-coloured pietra leccese, with shutters and flat roof terraces."
+  card: "The baroque old town of Puglia, from Santa Croce to the Roman amphitheatre."
+  features:
+    - { icon: church, title: "Baroque Lecce", text: "Santa Croce, the Piazza del Duomo, the Roman amphitheatre under Piazza Sant'Oronzo, Charles V's castle and the three city gates." }
+    - { icon: flag, title: "Two routes", text: "Lecce Centre, a loop past the Duomo, Porta Rudiae, Porta Napoli and Santa Croce, and from the station to Sant'Oronzo." }
+    - { icon: compass, title: "Its own quests", text: "Short missions against the clock, like catching the thief who ran off with the papier-mâché statue of Sant'Oronzo." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."

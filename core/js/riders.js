@@ -1,0 +1,173 @@
+import * as THREE from 'three';
+import { labelSprite, dizzyStars, cop } from './horse.js';
+
+// The other ways to get about: on foot, or on a bike. Each character of the stable keeps its name
+// and colours (shirt in its silk, cap in its cap colour). The models work like the animals in
+// horse.js: they face +Z, stand on y = 0 and offer the same root, spin, stars, label, animate.
+
+const SKINS = [0xf1c27d, 0xe0ac69, 0xc68642, 0x8d5524, 0xffdbac, 0xe0ac69, 0xf1c27d, 0xc68642];
+const mat = (color, roughness = 0.7, extra = {}) => new THREE.MeshStandardMaterial({ color, roughness, ...extra });
+
+function part(geo, material, parent, x = 0, y = 0, z = 0) {
+  const m = new THREE.Mesh(geo, material);
+  m.position.set(x, y, z);
+  m.castShadow = true;
+  m.receiveShadow = true;
+  parent.add(m);
+  return m;
+}
+
+// A limb that swings from a pivot at (x, y, z), hanging down `len`.
+function limb(parent, x, y, z, w, len, material) {
+  const pivot = new THREE.Group();
+  pivot.position.set(x, y, z);
+  parent.add(pivot);
+  part(new THREE.BoxGeometry(w, len, w * 1.1).translate(0, -len / 2, 0), material, pivot);
+  return pivot;
+}
+
+// Head with a cap, its peak forward. A cop's peak is darker, with a badge above it and a moustache below.
+function head(parent, y, z, c) {
+  part(new THREE.SphereGeometry(0.17, 12, 10), c.skin, parent, 0, y, z);
+  part(new THREE.SphereGeometry(0.18, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), c.cap, parent, 0, y + 0.03, z);
+  part(new THREE.BoxGeometry(0.24, 0.03, 0.14), c.peak ?? c.cap, parent, 0, y + 0.05, z + 0.17);
+  if (!c.badge) return;
+  part(new THREE.SphereGeometry(0.035, 8, 6), c.badge, parent, 0, y + 0.13, z + 0.15);
+  part(new THREE.BoxGeometry(0.15, 0.035, 0.05), c.tache, parent, 0, y - 0.06, z + 0.16);
+}
+
+function shell(def, i, labelY) {
+  const root = new THREE.Group(), spin = new THREE.Group(), body = new THREE.Group();
+  root.add(spin);
+  spin.add(body);
+  const stars = dizzyStars(root, labelY - 0.6);
+  const label = labelSprite();
+  label.userData.setText(def.name, def.silk);
+  label.position.set(0, labelY, 0);
+  label.layers.set(def.labelLayer);
+  root.add(label);
+  const colors = { shirt: mat(def.silk, 0.6), cap: mat(def.cap, 0.4), skin: mat(SKINS[i % SKINS.length], 0.8), pants: mat(def.cop ? 0x16243d : 0x2c3e66, 0.8), shoe: mat(0x1d1a17, 0.6) };
+  if (def.cop) Object.assign(colors, cop());
+  return { root, spin, body, stars, label, colors };
+}
+
+// Someone running: arms and legs swing, a little bounce in each stride.
+export function createWalker(def, i) {
+  const { root, spin, body, stars, label, colors: c } = shell(def, i, 2.45);
+  const HIP = 0.95;
+  const legs = [-0.12, 0.12].map(x => {
+    const hip = limb(body, x, HIP, 0, 0.15, 0.5, c.pants);
+    const knee = limb(hip, 0, -0.5, 0, 0.14, 0.45, c.pants);
+    part(new THREE.BoxGeometry(0.16, 0.1, 0.28), c.shoe, knee, 0, -0.47, 0.06);
+    return { hip, knee };
+  });
+  const torso = new THREE.Group();
+  torso.position.y = HIP;
+  body.add(torso);
+  part(new THREE.BoxGeometry(0.44, 0.62, 0.26), c.shirt, torso, 0, 0.33, 0);
+  head(torso, 0.82, 0.02, c);
+  const arms = [-0.29, 0.29].map(x => {
+    const arm = limb(torso, x, 0.6, 0, 0.11, 0.56, c.shirt);
+    part(new THREE.SphereGeometry(0.065, 8, 6), c.skin, arm, 0, -0.58, 0);
+    return arm;
+  });
+
+  let phase = Math.random() * Math.PI * 2;
+  function animate(dt, speed, steer, time, pose = {}) {
+    const sp = Math.abs(speed), k = Math.min(1, sp / 8), air = pose.air || 0;
+    const rearK = pose.rear ? Math.sin(pose.rear * Math.PI) : 0;
+    const stumbleK = pose.stumble ? Math.sin(pose.stumble * Math.PI) : 0;
+    phase += dt * (speed * 0.9 + Math.sign(speed) * (sp > 0.3 ? 2 : 0)) * (1 - air * 0.9);
+    legs.forEach((L, s) => {
+      const a = phase + s * Math.PI;
+      let hip = Math.sin(a) * 0.9 * k, knee = Math.max(0, -Math.cos(a)) * 1.3 * k;
+      // legs tucked up in a jump
+      hip += (1.0 - hip) * air * (s ? 0.6 : 1);
+      knee += (1.6 - knee) * air;
+      L.hip.rotation.x = -hip;
+      L.knee.rotation.x = knee;
+    });
+    arms.forEach((arm, s) => {
+      arm.rotation.x = Math.sin(phase + s * Math.PI) * 0.9 * k - air * 0.6 - rearK * 2.6;
+      arm.rotation.z = (s ? -1 : 1) * (0.08 + rearK * 0.5);
+    });
+    const bob = Math.abs(Math.sin(phase)) * 0.09 * k * (1 - air);
+    body.position.y = bob;
+    torso.rotation.x = 0.12 * k + stumbleK * 0.6 - rearK * 0.35;
+    body.rotation.z = -steer * 0.1 * k;
+    if (stars.visible) stars.rotation.y = time * 7;
+  }
+
+  return {
+    root, spin, stars, label, animate, species: 'foot',
+    setName: (name, color = def.silk) => label.userData.setText(name, color),
+    get phase() { return phase; },
+  };
+}
+
+// Someone on a bike: the wheels turn, the legs pedal, the bike leans into the corners.
+export function createCyclist(def, i) {
+  const { root, spin, body, stars, label, colors: c } = shell(def, i, 2.6);
+  const frame = mat(def.silk, 0.35, { metalness: 0.3 }), tyre = mat(0x1d1a17, 0.9), steel = mat(0x9ea3a8, 0.3, { metalness: 0.7 });
+  const R = 0.36;
+  const wheels = [0.58, -0.58].map(z => {
+    const w = new THREE.Group();
+    w.position.set(0, R, z);
+    body.add(w);
+    part(new THREE.TorusGeometry(R, 0.05, 6, 20).rotateY(Math.PI / 2), tyre, w);
+    for (let k = 0; k < 3; k++) part(new THREE.BoxGeometry(0.02, R * 1.9, 0.02), steel, w).rotation.x = (k * Math.PI) / 3;
+    return w;
+  });
+  part(new THREE.BoxGeometry(0.06, 0.06, 1.0), frame, body, 0, 0.66, 0);
+  part(new THREE.BoxGeometry(0.06, 0.6, 0.06), frame, body, 0, 0.64, -0.14).rotation.x = -0.25;
+  part(new THREE.BoxGeometry(0.06, 0.55, 0.06), frame, body, 0, 0.78, 0.5).rotation.x = 0.3;
+  part(new THREE.BoxGeometry(0.6, 0.05, 0.05), steel, body, 0, 1.06, 0.44); // handlebar
+  part(new THREE.BoxGeometry(0.2, 0.07, 0.3), c.shoe, body, 0, 0.98, -0.22); // saddle
+  // the rider, leaning forward over the handlebar
+  const rider = new THREE.Group();
+  rider.position.set(0, 1.0, -0.2);
+  body.add(rider);
+  const torso = part(new THREE.BoxGeometry(0.42, 0.6, 0.26), c.shirt, rider, 0, 0.32, 0.12);
+  torso.rotation.x = 0.45;
+  head(rider, 0.78, 0.4, c);
+  for (const x of [-0.21, 0.21]) part(new THREE.BoxGeometry(0.1, 0.1, 0.52), c.shirt, rider, x, 0.36, 0.42).rotation.x = 0.6;
+  const crank = new THREE.Group();
+  crank.position.set(0, 0.42, 0.02);
+  body.add(crank);
+  const legs = [-0.13, 0.13].map(x => {
+    const hip = limb(rider, x, 0, 0.02, 0.14, 0.46, c.pants);
+    const knee = limb(hip, 0, -0.46, 0, 0.13, 0.44, c.pants);
+    part(new THREE.BoxGeometry(0.15, 0.09, 0.26), c.shoe, knee, 0, -0.45, 0.06);
+    return { hip, knee };
+  });
+
+  let phase = Math.random() * Math.PI * 2, roll = 0;
+  function animate(dt, speed, steer, time, pose = {}) {
+    const sp = Math.abs(speed), air = pose.air || 0;
+    const rearK = pose.rear ? Math.sin(pose.rear * Math.PI) : 0;
+    const stumbleK = pose.stumble ? Math.sin(pose.stumble * Math.PI) : 0;
+    roll += (speed / R) * dt * 0.8;
+    for (const w of wheels) w.rotation.x = roll;
+    // pedalling: slower than the wheels, and not at all when freewheeling in the air
+    phase += dt * speed * 0.55 * (1 - air);
+    crank.rotation.x = phase;
+    legs.forEach((L, s) => {
+      const a = phase + s * Math.PI;
+      L.hip.rotation.x = -0.9 + Math.sin(a) * 0.45;
+      L.knee.rotation.x = 1.3 + Math.cos(a) * 0.45;
+    });
+    const k = Math.min(1, sp / 10);
+    body.rotation.z = -steer * 0.28 * k;
+    // a wheelie when it rears up, nose down in a stumble, front up a little in a jump
+    body.rotation.x = -rearK * 0.5 + stumbleK * 0.25 - air * 0.15;
+    body.position.z = rearK * 0.2;
+    rider.position.y = 1.0 + Math.abs(Math.sin(phase)) * 0.03;
+    if (stars.visible) stars.rotation.y = time * 7;
+  }
+
+  return {
+    root, spin, stars, label, animate, species: 'bike', quiet: true, // no footsteps
+    setName: (name, color = def.silk) => label.userData.setText(name, color),
+    get phase() { return phase; },
+  };
+}

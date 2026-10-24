@@ -1,0 +1,71 @@
+{%- comment -%} The home page: what Instant City is, and a card per city (_data/cities.yml). Its words are in _data/home.yml. {%- endcomment -%}
+{%- assign H = site.data.home -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = H.title -%}{%- assign description = H.description -%}{%- assign path = '/' -%}{%- assign image = '/og-image.jpg' %}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero home-hero">
+      <div class="hero-text">
+        <h1>Instant City <span class="beta">BETA</span></h1>
+        <p class="tagline">{{ H.tagline }}</p>
+        <p class="lead">{{ H.lead }}</p>
+        <p class="note">{{ H.play_note }}</p>
+      </div>
+    </section>
+
+    <section class="vibe">
+      <p>{{ H.vibe }}</p>
+    </section>
+
+    <section id="cities" class="cities">
+      <h2>{{ H.cities_title }}</h2>
+      <div class="grid">
+        {%- for c in site.data.cities %}
+        <article class="card city-card">
+          <h3><a href="/cities/{{ c.id }}/">{{ c.name }}</a> <small>{{ c.country }}</small></h3>
+          <p>{{ c.card }}</p>
+          <p class="city-links">
+            <a class="play small" href="/{{ c.id }}/">{% include icon.html name="play" %} Play</a>
+            <a href="/cities/{{ c.id }}/">About {{ c.game }}</a>
+          </p>
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>{{ H.features_title }}</h2>
+      <div class="grid">
+        {%- for f in H.features %}
+        <article class="card">
+          <div class="icon">{% include icon.html name=f.icon %}</div>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt">Cities:
+      {%- for c in site.data.cities %}
+      <a href="/cities/{{ c.id }}/">{{ c.name }}</a>
+      {%- endfor %}
+    </p>
+    <p>{{ H.beta }}</p>
+    <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

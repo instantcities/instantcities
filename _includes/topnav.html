@@ -1,0 +1,14 @@
+{%- comment -%}
+  The bar on top of every page: the logo, home and a link per city (_data/cities.yml). On narrow screens
+  the links fold away behind a hamburger button on the right. It stays on top as the page scrolls.
+{%- endcomment -%}
+<header class="top" id="top">
+  <a class="brand" href="/"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant City</span></a>
+  <nav class="nav" id="menu" aria-label="Menu">
+    <a href="/"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Home</a>
+    {%- for c in site.data.cities %}
+    <a href="/cities/{{ c.id }}/"{% if page.city == c.id %} aria-current="page"{% endif %}>{{ c.name }}</a>
+    {%- endfor %}
+  </nav>
+  <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="Menu" data-burger>{% include icon.html name="menu" %}{% include icon.html name="close" %}</button>
+</header>

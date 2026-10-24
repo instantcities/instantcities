@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+.kilo/
+tools/cache/
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
+Gemfile.lock
+.claude/worktrees/
+.vscode/
+project_screenshot_*.png

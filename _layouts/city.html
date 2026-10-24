@@ -1,0 +1,97 @@
+{%- comment -%} A city's page (/cities/<id>/): its block in _data/cities.yml, named by the page's `city`. The game itself is at /<id>/. {%- endcomment -%}
+{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- assign H = site.data.home -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = C.title -%}{%- assign description = C.description -%}{%- assign path = '/cities/' | append: C.id | append: '/' -%}
+{%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
+{% include head.html %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": {{ C.game | jsonify }},
+      "url": "{{ site.url }}/{{ C.id }}/",
+      "description": {{ C.description | jsonify }},
+      "genre": ["Racing", "Open world"],
+      "gamePlatform": "Web browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "inLanguage": ["en"],
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "contentLocation": { "@type": "City", "name": {{ C.name | jsonify }} },
+      "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero{% unless C.image %} home-hero{% endunless %}">
+      <div class="hero-text">
+        <h1>{{ C.game }} <span class="beta">BETA</span></h1>
+        <p class="tagline">{{ C.tagline }}</p>
+        <p class="lead">{{ C.lead }}</p>
+        <a class="play" href="/{{ C.id }}/">{% include icon.html name="play" %} Play now</a>
+        <p class="note">{{ H.play_note }}</p>
+      </div>
+      {%- if C.image %}
+      <a class="hero-shot" href="/{{ C.id }}/">
+        <img src="/assets/img/{{ C.image }}.jpg" width="1440" height="810" alt="{{ C.hero_alt }}" fetchpriority="high">
+        <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
+      </a>
+      {%- endif %}
+    </section>
+
+    <section id="features" class="features">
+      <h2>What there is to do</h2>
+      <div class="grid">
+        {%- for f in C.features %}
+        <article class="card">
+          <div class="icon">{% include icon.html name=f.icon %}</div>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+
+    {%- if C.shots %}
+    <section id="screens" class="screens">
+      <h2>Screenshots</h2>
+      <div class="shots">
+        {%- for s in C.shots %}
+        <figure>
+          <img src="/assets/img/{{ s.id }}.jpg" alt="{{ s.caption }}" loading="lazy" width="1440" height="810">
+          <figcaption>{{ s.caption }}</figcaption>
+        </figure>
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
+
+    <section class="cta">
+      <h2>Ready to go?</h2>
+      <a class="play" href="/{{ C.id }}/">{% include icon.html name="play" %} Play {{ C.game }}</a>
+      <p class="note">{{ H.beta }}</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt">Other cities:
+      {%- for c in site.data.cities %}{% if c.id != C.id %}
+      <a href="/cities/{{ c.id }}/">{{ c.name }}</a>
+      {%- endif %}{% endfor %}
+    </p>
+    <p>{{ C.credits }} Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

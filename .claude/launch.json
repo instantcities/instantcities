@@ -1,0 +1,51 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "instant-city",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "serve.py"
+      ],
+      "port": 8321,
+      "autoPort": true
+    },
+    {
+      "name": "instant-city-wifi",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "HOST=0.0.0.0 python3 serve.py 8322"
+      ],
+      "port": 8322
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "PATH=/opt/homebrew/opt/ruby@3.3/bin:$PATH LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --port 4000"
+      ],
+      "port": 4000
+    },
+    {
+      "name": "site-main",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "PATH=/opt/homebrew/opt/ruby@3.3/bin:$PATH LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --port 4001"
+      ],
+      "port": 4001
+    },
+    {
+      "name": "site-auto",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "PATH=/opt/homebrew/opt/ruby@3.3/bin:$PATH LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --port ${PORT:-4002}"
+      ],
+      "port": 4002,
+      "autoPort": true
+    }
+  ]
+}

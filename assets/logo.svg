@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Instant City: a skyline of towers in white on black. -->
+  <rect width="64" height="64" rx="14" fill="#111"/>
+  <g fill="#fff">
+    <rect x="10" y="30" width="9" height="22"/>
+    <rect x="21" y="18" width="9" height="34"/>
+    <path d="M32 52V24l4.5-10 4.5 10v28z"/>
+    <rect x="43" y="34" width="11" height="18"/>
+  </g>
+  <rect x="8" y="51" width="48" height="2" fill="#fff"/>
+</svg>

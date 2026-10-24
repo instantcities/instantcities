@@ -1,0 +1,25 @@
+title: Instant City
+url: https://instantcities.net # tools/pages.mjs reads it too; CNAME has the same domain
+
+# Only the site's pages are Jekyll pages: the home page (index.html) and one page per city
+# (cities/<id>/index.html, its words in _data/cities.yml). The game (core/, and each city's folder:
+# ghent/, lecce/) has no front matter, so it is copied as it is; core's pages are only templates
+# for tools/pages.mjs.
+exclude:
+  - core/game.html
+  - core/dev.html
+  - core/facade-lab.html
+  - core/places.html
+  - tools
+  - docs
+  - README.md
+  - serve.py
+  - netlify.toml
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude
+  - .vscode
+  - project_screenshot_instant_gent_1.png
+  - project_screenshot_instant_gent_3.png
+  - project_screenshot_instant_gent_7.png

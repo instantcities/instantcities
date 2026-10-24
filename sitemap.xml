@@ -1,0 +1,11 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+{%- for c in site.data.cities %}
+  <url><loc>{{ site.url }}/cities/{{ c.id }}/</loc></url>
+  <url><loc>{{ site.url }}/{{ c.id }}/</loc></url>
+{%- endfor %}
+</urlset>

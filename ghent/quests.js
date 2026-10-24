@@ -1,0 +1,230 @@
+// The quests in Ghent: a short mission somewhere in the city, against the clock (the rules for each
+// kind are in js/quests.js). Positions are game metres on this city's map, as [x, z]; the big map in
+// the game shows them when you ride about freely.
+//   thief:   catch someone who runs off along the streets (from `thief`, if given; `stand`: where
+//            you start, if not on the street nearest `start`, looking at `look`)
+//   reach:   get to `goal` within `radius` in time (`stand`: where you start, if not on the street
+//            nearest `start`, looking at `look` if given; `runners`: a stream of them along the streets through `route`, `per`
+//            runner a metre, that you may not run into)
+//   collect: pick up `count` things lying about without being caught
+// player: what player 1 rides, and in whose colours (a character in core/js/horses.js), whenever the
+// mission is picked on the menu; they can still change it there.
+// text: the words for each language. title and where on the menu card, story before the start, hud
+// while playing, done the moment it is won, then win or lose (losePuke: lost by being thrown up on,
+// loseRun: by running into a runner).
+export const QUESTS = [
+  {
+    id: 'lamb', emoji: '🖼️', player: { mount: 'bike', pick: 'agent' }, kind: 'thief', time: 150, start: [226.7, 12.2], stand: [190, -7], look: [231, 38], thief: [209.5, 50.4],
+    text: {
+      nl: {
+        title: 'Het Lam Gods is gestolen!',
+        where: 'Start aan de Sint-Baafskathedraal. Vang de dief met het schilderij.',
+        story: 'Oh nee, iemand heeft Het Lam Gods weer gestolen uit de Sint-Baafskathedraal! Daar loopt de dief, met het schilderij boven het hoofd. Vang de dief voor die ontsnapt.',
+        hud: '🦹 Vang de dief!',
+        done: 'GEVANGEN! 🖼️',
+        win: '🖼️ Het Lam Gods is terug in de Sint-Baafs!',
+        lose: '🦹 De dief is ontsnapt. Het Lam Gods is weer weg…',
+      },
+      en: {
+        title: 'The Mystic Lamb is stolen!',
+        where: 'Start at St Bavo’s Cathedral. Catch the thief with the painting.',
+        story: 'Oh no, somebody stole the Adoration of the Mystic Lamb from St Bavo’s Cathedral again! There goes the thief, painting held high. Catch them before they get away.',
+        hud: '🦹 Catch the thief!',
+        done: 'CAUGHT! 🖼️',
+        win: '🖼️ The Mystic Lamb is back in St Bavo’s!',
+        lose: '🦹 The thief got away. The Mystic Lamb is gone again…',
+      },
+      fr: {
+        title: 'L’Agneau mystique volé !',
+        where: 'Départ à la cathédrale Saint-Bavon. Attrape le voleur avec le tableau.',
+        story: 'Oh non, quelqu’un a encore volé l’Agneau mystique dans la cathédrale Saint-Bavon ! Voilà le voleur qui file, le tableau au-dessus de la tête. Attrape-le avant qu’il s’échappe.',
+        hud: '🦹 Attrape le voleur !',
+        done: 'ATTRAPÉ ! 🖼️',
+        win: '🖼️ L’Agneau mystique est de retour à Saint-Bavon !',
+        lose: '🦹 Le voleur s’est échappé. L’Agneau mystique a encore disparu…',
+      },
+      es: {
+        title: '¡Robaron el Cordero Místico!',
+        where: 'Empiezas en la catedral de San Bavón. Atrapa al ladrón del cuadro.',
+        story: '¡Oh no, alguien ha vuelto a robar el Cordero Místico de la catedral de San Bavón! Ahí va el ladrón, con el cuadro en alto. Atrápalo antes de que escape.',
+        hud: '🦹 ¡Atrapa al ladrón!',
+        done: '¡ATRAPADO! 🖼️',
+        win: '🖼️ ¡El Cordero Místico vuelve a San Bavón!',
+        lose: '🦹 El ladrón escapó. El Cordero Místico ha vuelto a desaparecer…',
+      },
+    },
+  },
+  {
+    id: 'boat', emoji: '⛴️', player: { mount: 'foot', pick: 'bliksem' }, kind: 'reach', time: 60, start: [-364, -451], stand: [-364, -451], look: [-280, -488], goal: [-262, -150], radius: 12, boat: true,
+    text: {
+      nl: {
+        title: 'Het laatste bootje',
+        where: 'Start in de Burgstraat, bij het Gravensteen. Haal het laatste bootje aan de Graslei.',
+        story: 'Het laatste bootje van Gent vertrekt over één minuut aan de Graslei, en jij staat nog in de Burgstraat, bij het Gravensteen! Haast je naar de kade.',
+        hud: '⛴️ Naar de Graslei!',
+        done: 'NET OP TIJD! ⛴️',
+        win: '⛴️ Net op tijd! Je vaart mee over de Leie.',
+        lose: '⛴️ Te laat, het bootje is weg.',
+      },
+      en: {
+        title: 'The last boat',
+        where: 'Start in the Burgstraat, by the Gravensteen. Catch the last boat at the Graslei.',
+        story: 'The last boat of Ghent leaves the Graslei in one minute, and you are still in the Burgstraat, by the Gravensteen! Hurry to the quay.',
+        hud: '⛴️ To the Graslei!',
+        done: 'JUST IN TIME! ⛴️',
+        win: '⛴️ Just in time! Off you sail down the Leie.',
+        lose: '⛴️ Too late, the boat has gone.',
+      },
+      fr: {
+        title: 'Le dernier bateau',
+        where: 'Départ dans la Burgstraat, près du Gravensteen. Attrape le dernier bateau au Graslei.',
+        story: 'Le dernier bateau de Gand quitte le Graslei dans une minute, et tu es encore dans la Burgstraat, près du Gravensteen ! Vite, au quai.',
+        hud: '⛴️ Au Graslei !',
+        done: 'JUSTE À TEMPS ! ⛴️',
+        win: '⛴️ Juste à temps ! En route sur la Lys.',
+        lose: '⛴️ Trop tard, le bateau est parti.',
+      },
+      es: {
+        title: 'El último barco',
+        where: 'Empiezas en la Burgstraat, junto al Gravensteen. Coge el último barco en el Graslei.',
+        story: 'El último barco de Gante sale del Graslei en un minuto, ¡y tú sigues en la Burgstraat, junto al Gravensteen! Corre al muelle.',
+        hud: '⛴️ ¡Al Graslei!',
+        done: '¡JUSTO A TIEMPO! ⛴️',
+        win: '⛴️ ¡Justo a tiempo! A navegar por el Lys.',
+        lose: '⛴️ Demasiado tarde, el barco se ha ido.',
+      },
+    },
+  },
+  {
+    id: 'train', emoji: '🚆', player: { mount: 'horse', pick: 'karamel' }, kind: 'reach', time: 240, start: [1388, -420], goal: [-1100, 2330], radius: 22,
+    text: {
+      nl: {
+        title: 'De trein naar Brugge',
+        where: 'Start in Gent-Dampoort. Ren naar Gent-Sint-Pieters.',
+        story: 'Oeps, je bent naar het verkeerde station gegaan! Je staat in Gent-Dampoort, maar de trein naar Brugge vertrekt in Gent-Sint-Pieters, aan de andere kant van de stad. Zo snel als je kan!',
+        hud: '🚆 Naar Gent-Sint-Pieters!',
+        done: 'GEHAALD! 🚆',
+        win: '🚆 Gehaald! Op naar Brugge.',
+        lose: '🚆 De trein is vertrokken zonder jou.',
+      },
+      en: {
+        title: 'The train to Bruges',
+        where: 'Start at Gent-Dampoort. Run to Gent-Sint-Pieters.',
+        story: 'Oops, you went to the wrong station! You are at Gent-Dampoort, but the train to Bruges leaves from Gent-Sint-Pieters, across town. As fast as you can!',
+        hud: '🚆 To Gent-Sint-Pieters!',
+        done: 'MADE IT! 🚆',
+        win: '🚆 Made it! Off to Bruges.',
+        lose: '🚆 The train left without you.',
+      },
+      fr: {
+        title: 'Le train pour Bruges',
+        where: 'Départ à Gent-Dampoort. Cours jusqu’à Gent-Sint-Pieters.',
+        story: 'Oups, tu t’es trompé de gare ! Tu es à Gent-Dampoort, mais le train pour Bruges part de Gent-Sint-Pieters, de l’autre côté de la ville. Le plus vite possible !',
+        hud: '🚆 À Gent-Sint-Pieters !',
+        done: 'RÉUSSI ! 🚆',
+        win: '🚆 Réussi ! En route pour Bruges.',
+        lose: '🚆 Le train est parti sans toi.',
+      },
+      es: {
+        title: 'El tren a Brujas',
+        where: 'Empiezas en Gent-Dampoort. Corre a Gent-Sint-Pieters.',
+        story: '¡Uy, fuiste a la estación equivocada! Estás en Gent-Dampoort, pero el tren a Brujas sale de Gent-Sint-Pieters, al otro lado de la ciudad. ¡Lo más rápido que puedas!',
+        hud: '🚆 ¡A Gent-Sint-Pieters!',
+        done: '¡LO LOGRASTE! 🚆',
+        win: '🚆 ¡Lo lograste! Rumbo a Brujas.',
+        lose: '🚆 El tren se fue sin ti.',
+      },
+    },
+  },
+  {
+    id: 'zombies', emoji: '🧟', player: { mount: 'foot', pick: 'spekkie' }, kind: 'collect', time: 180, start: [160, 1860], count: 10, zombies: 30, crowd: { street: 'Overpoortstraat', every: 5, clear: 18 },
+    text: {
+      nl: {
+        title: 'Studentenzombies',
+        where: 'Start in de Overpoort. Zoek 10 studentenpetten zonder dat er iemand op je kotst.',
+        story: 'Het is september: de Gentse studenten hebben een cantus gehad en veel te veel gedronken. Nu waggelen ze als zombies door de Overpoort, in hun witte labojas met hun lint. Zoek de 10 verloren studentenpetten, zonder dat er ook maar één op je kotst!',
+        hud: '🎓 Zoek de petten!',
+        done: 'ALLE PETTEN! 🎓',
+        win: '🎓 Alle 10 petten gevonden, en nog helemaal proper!',
+        lose: '🎓 De tijd is om, er liggen nog petten.',
+        losePuke: '🤮 Bleeeh! Er heeft een student op je gekotst.',
+      },
+      en: {
+        title: 'Student zombies',
+        where: 'Start in the Overpoort. Find 10 student caps without anyone throwing up on you.',
+        story: 'It’s September: Ghent’s students had a cantus and drank far too much. Now they stagger through the Overpoort like zombies, in their white lab coats and sashes. Find the 10 lost student caps without a single one of them throwing up on you!',
+        hud: '🎓 Find the caps!',
+        done: 'ALL THE CAPS! 🎓',
+        win: '🎓 All 10 caps found, and still spotless!',
+        lose: '🎓 Time’s up, there are caps left.',
+        losePuke: '🤮 Bleeeh! A student threw up on you.',
+      },
+      fr: {
+        title: 'Zombies étudiants',
+        where: 'Départ dans l’Overpoort. Trouve 10 casquettes d’étudiant sans te faire vomir dessus.',
+        story: 'C’est septembre : les étudiants gantois ont fait une cantus et ont beaucoup trop bu. Ils titubent maintenant comme des zombies dans l’Overpoort, en blouse blanche et écharpe. Trouve les 10 casquettes perdues sans qu’un seul ne te vomisse dessus !',
+        hud: '🎓 Trouve les casquettes !',
+        done: 'TOUTES LES CASQUETTES ! 🎓',
+        win: '🎓 Les 10 casquettes trouvées, et toujours tout propre !',
+        lose: '🎓 Le temps est écoulé, il reste des casquettes.',
+        losePuke: '🤮 Beurk ! Un étudiant t’a vomi dessus.',
+      },
+      es: {
+        title: 'Zombis estudiantes',
+        where: 'Empiezas en la Overpoort. Encuentra 10 gorras de estudiante sin que nadie te vomite encima.',
+        story: 'Es septiembre: los estudiantes de Gante tuvieron una cantus y bebieron demasiado. Ahora se tambalean como zombis por la Overpoort, con su bata blanca y su banda. ¡Encuentra las 10 gorras perdidas sin que ninguno te vomite encima!',
+        hud: '🎓 ¡Busca las gorras!',
+        done: '¡TODAS LAS GORRAS! 🎓',
+        win: '🎓 ¡Las 10 gorras encontradas, y sigues limpio!',
+        lose: '🎓 Se acabó el tiempo, quedan gorras.',
+        losePuke: '🤮 ¡Puaj! Un estudiante te vomitó encima.',
+      },
+    },
+  },
+  {
+    id: 'cityrun', emoji: '🏃', player: { mount: 'bike', pick: 'vla' }, kind: 'reach', time: 210, start: [292, 50], goal: [-248, -190], radius: 12,
+    runners: { route: [[-30, 700], [-137, 38], [-151, -186], [-264, -526], [-150, -1100]], per: 1.5 },
+    text: {
+      nl: {
+        title: 'De Stadsloop',
+        where: 'Start aan de Sint-Baafs. Geraak aan de Graslei zonder door de lopers te gaan.',
+        story: 'Vandaag is De Stadsloop: duizenden lopers stromen van de Nederkouter over de Veldstraat en de Korenmarkt tot voorbij het Gravensteen. En jij moet dringend naar de Graslei, aan de overkant! Er dwars door gaan lukt niet: zoek een weg rond de lopers. Kijk op de kaart waar ze lopen.',
+        hud: '🏃 Naar de Graslei, rond de lopers!',
+        done: 'GEHAALD! 🏃',
+        win: '🏃 Aan de Graslei, zonder één loper te raken!',
+        lose: '🏃 Te laat, de Graslei is nog ver.',
+        loseRun: '💥 Bots! Je liep dwars door De Stadsloop.',
+      },
+      en: {
+        title: 'The City Run',
+        where: 'Start at St Bavo’s. Get to the Graslei without going through the runners.',
+        story: 'It’s City Run day: thousands of runners stream from the Nederkouter along the Veldstraat and the Korenmarkt to past the Gravensteen. And you urgently need to get to the Graslei, on the other side! Straight through won’t work: find a way round the runners. The map shows where they run.',
+        hud: '🏃 To the Graslei, round the runners!',
+        done: 'MADE IT! 🏃',
+        win: '🏃 At the Graslei, without touching a single runner!',
+        lose: '🏃 Too late, the Graslei is still far away.',
+        loseRun: '💥 Bump! You ran straight into the City Run.',
+      },
+      fr: {
+        title: 'La City Run',
+        where: 'Départ à Saint-Bavon. Rejoins le Graslei sans traverser les coureurs.',
+        story: 'C’est le jour de la City Run : des milliers de coureurs déferlent du Nederkouter par la Veldstraat et le Korenmarkt jusqu’au-delà du Gravensteen. Et toi, tu dois filer au Graslei, de l’autre côté ! Passer au travers, impossible : trouve un chemin autour des coureurs. La carte montre où ils courent.',
+        hud: '🏃 Au Graslei, autour des coureurs !',
+        done: 'RÉUSSI ! 🏃',
+        win: '🏃 Au Graslei, sans toucher un seul coureur !',
+        lose: '🏃 Trop tard, le Graslei est encore loin.',
+        loseRun: '💥 Boum ! Tu as foncé dans la City Run.',
+      },
+      es: {
+        title: 'La City Run',
+        where: 'Empiezas en San Bavón. Llega al Graslei sin cruzar entre los corredores.',
+        story: 'Hoy es la City Run: miles de corredores bajan del Nederkouter por la Veldstraat y el Korenmarkt hasta más allá del Gravensteen. ¡Y tú tienes que llegar ya al Graslei, al otro lado! Cruzar entre ellos no se puede: busca un camino alrededor de los corredores. El mapa muestra por dónde corren.',
+        hud: '🏃 ¡Al Graslei, rodeando a los corredores!',
+        done: '¡LO LOGRASTE! 🏃',
+        win: '🏃 ¡En el Graslei, sin tocar a ningún corredor!',
+        lose: '🏃 Demasiado tarde, el Graslei aún queda lejos.',
+        loseRun: '💥 ¡Pum! Te metiste de lleno en la City Run.',
+      },
+    },
+  },
+];

@@ -1,0 +1,15 @@
+# The home page's words. Its markup is _layouts/home.html; each city on it comes from _data/cities.yml.
+title: "Instant City: play through real cities in 3D, by bike, on foot or on horseback"
+description: "Free 3D browser games set in real cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through Ghent or Lecce: explore, race or play quests, alone or two players on one keyboard."
+tagline: "Real cities in 3D, to explore or race by bike, on foot or on horseback."
+lead: "Every street and building from OpenStreetMap, at its real height. Free in your browser, nothing to install."
+cities_title: "Pick a city"
+features_title: "In every city"
+features:
+  - { icon: city, title: "The real city", text: "Rebuilt from OpenStreetMap, every building at its measured height, with the landmarks drawn to measure." }
+  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong." }
+  - { icon: compass, title: "Quests and races", text: "Short missions against the clock, races along real streets, or just ride about and look." }
+play_note: "Free · no account · works on PC, tablet and phone"
+beta: "Still in development: expect some rough edges."
+vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'
+credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
