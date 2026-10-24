@@ -288,3 +288,37 @@
     - { icon: city, title: "Mitte", text: "The Brandenburg Gate and the Reichstag, Unter den Linden, the Gendarmenmarkt and the Holocaust Memorial, out to Museum Island." }
     - { icon: flag, title: "A race: Mitte", text: "Along Unter den Linden to the Gendarmenmarkt, through the streets of Mitte to the Holocaust Memorial and up the Wilhelmstraße back to Unter den Linden." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: avignon
+  name: Avignon
+  country: France
+  lat: 43.9493
+  lon: 4.8059
+  game: Instant Avignon
+  title: "Instant Avignon: a free 3D game of Avignon, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the historic centre of Avignon in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the city of the popes!"
+  lead: "The walled town of Avignon in 3D: the Palais des Papes, the Place de l’Horloge and the Pont Saint-Bénezet, every building from OpenStreetMap."
+  card: "The city of the popes: the Palais des Papes, the Place de l’Horloge and the bridge on the Rhône."
+  features:
+    - { icon: city, title: "The real Avignon", text: "About 4,300 buildings from OpenStreetMap, a small first piece of the historic centre. More of the city comes later." }
+    - { icon: castle, title: "The city of the popes", text: "The Palais des Papes and the cathedral on the Rocher des Doms, the Place de l’Horloge, Les Halles and the Pont Saint-Bénezet on the Rhône." }
+    - { icon: flag, title: "A race: Intra-muros", text: "From the Place de l’Horloge in the shadow of the Palais des Papes down the Rue de la République, along the Rue Joseph Vernet and back up the Rue Saint-Agricol." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: madrid
+  name: Madrid
+  country: Spain
+  lat: 40.4169
+  lon: -3.7035
+  game: Instant Madrid
+  title: "Instant Madrid: a free 3D game of Madrid, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the historic centre of Madrid in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through old Madrid!"
+  lead: "Old Madrid in 3D: the Puerta del Sol, the Plaza Mayor, the Royal Palace and the Plaza de Oriente, every building from OpenStreetMap."
+  card: "From the Puerta del Sol along the Calle Mayor to the Royal Palace and the Plaza de Oriente."
+  features:
+    - { icon: city, title: "The real Madrid", text: "About 3,800 buildings from OpenStreetMap, a small first piece of the historic centre. More of the city comes later." }
+    - { icon: columns, title: "Madrid de los Austrias", text: "The Puerta del Sol, the Calle Mayor and the Plaza Mayor, the Royal Palace and the Almudena, the Plaza de Oriente and the Teatro Real." }
+    - { icon: flag, title: "A race: Sol and Oriente", text: "From the Puerta del Sol along the Calle Mayor to the Royal Palace, across the Plaza de Oriente, past Santo Domingo to Callao and back down the Calle del Carmen." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."

@@ -1,6 +1,6 @@
-# First maps: fourteen cities
+# First maps: sixteen cities
 
-Fourteen cities got a first playable map, six and then eight at a time, each with a small piece of its centre
+Sixteen cities got a first playable map, six, eight and then two at a time, each with a small piece of its centre
 (about 1.5 by 2 km), one race and free riding. They were made the way Lecce was
 (`docs/lecce-exercise.md`), from OpenStreetMap only, with no quests, sights, monuments or fronts yet.
 
@@ -20,6 +20,8 @@ Fourteen cities got a first playable map, six and then eight at a time, each wit
 | Vienna    | Stephansdom, Graben, Hofburg, Ring, Opera              | `innerestadt`, loop, 4.3 km              | 1,802 |
 | Copenhagen| Kongens Nytorv, Nyhavn, Slotsholmen, Strøget           | `stroget`, loop, 4.2 km                  | 3,376 |
 | Berlin    | Unter den Linden, Gendarmenmarkt, Holocaust Memorial   | `mitte`, loop, 3.0 km                    | 4,171 |
+| Avignon   | Place de l’Horloge, Rue de la République, by the Palais des Papes | `intramuros`, loop, 1.4 km   | 4,334 |
+| Madrid    | Puerta del Sol, Calle Mayor, Palacio Real, Callao      | `sol`, loop, 3.2 km                      | 3,848 |
 
 ## How each one was made
 
