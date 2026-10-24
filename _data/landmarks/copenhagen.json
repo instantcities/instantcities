@@ -1,0 +1,157 @@
+[
+  {
+    "id": "nyhavn",
+    "name": "Nyhavn",
+    "emoji": "⛵",
+    "kind": "place",
+    "lat": 55.6798,
+    "lon": 12.59,
+    "blurb": "The 17th-century harbour of coloured houses, wooden ships and café terraces.",
+    "text": [
+      "Nyhavn, the new harbour, was dug in the 1670s by Swedish prisoners of war to bring ships into the heart of the city. Its north side is a row of brightly painted townhouses from the 17th and 18th centuries, once full of sailors’ pubs.",
+      "Hans Christian Andersen lived at numbers 20, 67 and 18. Today old wooden ships lie along the quay, and the terraces fill as soon as the sun comes out."
+    ]
+  },
+  {
+    "id": "kongens-nytorv",
+    "name": "Kongens Nytorv",
+    "emoji": "🐎",
+    "kind": "place",
+    "lat": 55.6795,
+    "lon": 12.5857,
+    "blurb": "The King’s New Square, with the Royal Danish Theatre and a bronze king on horseback.",
+    "text": [
+      "Kongens Nytorv was laid out in 1670 by King Christian V, whose bronze statue on horseback stands in the middle. Around it stand the Royal Danish Theatre, the Hotel d’Angleterre and the Charlottenborg palace.",
+      "It is the start of the Strøget and the gateway to Nyhavn."
+    ]
+  },
+  {
+    "id": "christiansborg",
+    "name": "Christiansborg",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 55.6761,
+    "lon": 12.58,
+    "blurb": "The palace on Slotsholmen that holds the parliament, the prime minister’s office and the supreme court.",
+    "text": [
+      "There has been a castle on Slotsholmen since Bishop Absalon founded the city in 1167. The present palace, the third Christiansborg, was finished in 1928 after its two predecessors burned down.",
+      "It is the only building in the world that houses all three branches of a country’s power. From its tower, the tallest in the city, there is a free view over Copenhagen."
+    ]
+  },
+  {
+    "id": "borsen",
+    "name": "Børsen",
+    "emoji": "🐉",
+    "kind": "place",
+    "lat": 55.6757,
+    "lon": 12.5832,
+    "blurb": "Christian IV’s stock exchange of 1640, with a spire of four dragons’ tails, burned in 2024.",
+    "text": [
+      "King Christian IV built Børsen in the 1620s to make Copenhagen a trading capital. Its spire was made of the tails of four dragons twisted together, a symbol of the city.",
+      "On 16 April 2024 fire broke out during restoration and the spire collapsed, while passers-by helped carry out the paintings. The building is being rebuilt."
+    ]
+  },
+  {
+    "id": "rundetaarn",
+    "name": "Round Tower",
+    "emoji": "🔭",
+    "kind": "place",
+    "lat": 55.6813,
+    "lon": 12.5757,
+    "blurb": "Christian IV’s observatory of 1642, climbed by a spiral ramp instead of stairs.",
+    "text": [
+      "The Rundetaarn was built in the 1640s as an observatory for the university. Instead of stairs, a broad spiral ramp winds up inside, seven and a half turns, wide enough for a horse and carriage.",
+      "Peter the Great of Russia is said to have ridden up it on horseback in 1716. At the top is the oldest working observatory in Europe."
+    ]
+  },
+  {
+    "id": "stroget",
+    "name": "Strøget",
+    "emoji": "🛍️",
+    "kind": "place",
+    "lat": 55.6786,
+    "lon": 12.579,
+    "blurb": "One of the longest pedestrian shopping streets in Europe, from the City Hall Square to Kongens Nytorv.",
+    "text": [
+      "In 1962 Copenhagen closed the Strøget to cars, then a bold experiment. The string of streets runs some 1.1 kilometres through the old town, from the City Hall Square to Kongens Nytorv.",
+      "At Amagertorv, halfway, stands the Stork Fountain; in the game the race comes back along it."
+    ]
+  },
+  {
+    "id": "radhuspladsen",
+    "name": "City Hall Square",
+    "local": "Rådhuspladsen",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 55.6757,
+    "lon": 12.5689,
+    "blurb": "The square in front of Copenhagen’s red-brick city hall, with its 105-metre tower.",
+    "text": [
+      "Copenhagen’s city hall was finished in 1905, in red brick with a tower of 105 metres. Inside is Jens Olsen’s World Clock, one of the most accurate mechanical clocks ever built.",
+      "Hans Christian Andersen sits in bronze on the boulevard that bears his name, looking towards the Tivoli."
+    ]
+  },
+  {
+    "id": "tivoli",
+    "name": "Tivoli",
+    "emoji": "🎢",
+    "kind": "place",
+    "lat": 55.6737,
+    "lon": 12.5681,
+    "blurb": "One of the oldest amusement parks in the world, opened in 1843 in the middle of the city.",
+    "text": [
+      "Georg Carstensen opened Tivoli in 1843 outside the city walls, with gardens, a concert hall and rides. It still has a wooden roller coaster from 1914.",
+      "Walt Disney visited several times while planning Disneyland. At night thousands of lights come on among its trees."
+    ]
+  },
+  {
+    "id": "amalienborg",
+    "name": "Amalienborg",
+    "emoji": "👑",
+    "kind": "place",
+    "lat": 55.684,
+    "lon": 12.593,
+    "blurb": "Four identical rococo palaces round an octagonal square, home of the Danish royal family.",
+    "text": [
+      "Amalienborg was built in the 1750s as four palaces for noble families round an octagon, with a statue of King Frederik V on horseback in the middle. After Christiansborg burned in 1794 the royal family moved in.",
+      "The Royal Life Guards, in bearskins, change guard here every day at noon."
+    ]
+  },
+  {
+    "id": "lille-havfrue",
+    "name": "The Little Mermaid",
+    "local": "Den lille Havfrue",
+    "emoji": "🧜",
+    "kind": "place",
+    "lat": 55.6929,
+    "lon": 12.5993,
+    "blurb": "Edvard Eriksen’s statue of Andersen’s mermaid on a rock by the harbour, beyond this small map.",
+    "text": [
+      "The bronze statue was given to the city by the brewer Carl Jacobsen in 1913, after he saw a ballet of Andersen’s tale. She sits on a rock at Langelinie, looking out over the water.",
+      "She is famously small, barely 1.25 metres, and has lost her head twice to vandals. She lies a little north of the piece of Copenhagen in the game."
+    ]
+  },
+  {
+    "id": "cykler",
+    "name": "Bikes and cargo bikes",
+    "local": "Cykler",
+    "emoji": "🚲",
+    "kind": "vehicle",
+    "blurb": "More than half of Copenhageners bike to work or school, many on cargo bikes with the children in front.",
+    "text": [
+      "Copenhagen has some 400 kilometres of cycle tracks, raised kerbs apart from the road, and bridges just for bikes. More bikes than cars cross the city centre every day.",
+      "The Christiania cargo bike, with a box in front, was built in the free town of Christiania in the 1980s; parents ride their children to school in it."
+    ]
+  },
+  {
+    "id": "smorrebrod",
+    "name": "Smørrebrød",
+    "emoji": "🥪",
+    "kind": "food",
+    "blurb": "Open sandwiches on dark rye bread, piled with herring, roast beef or shrimps.",
+    "text": [
+      "Smørrebrød means butter and bread: a slice of dense rye bread, buttered and covered with toppings, pickled herring, egg and shrimps, liver pâté, roast beef with remoulade and crispy onions.",
+      "It is eaten with knife and fork at lunch, often with a cold beer and a glass of akvavit."
+    ]
+  }
+]

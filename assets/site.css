@@ -166,6 +166,37 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .over-live .live-hero { padding-top: 120px !important; }
 .brand-city { font-weight: 500; }
 
+/* The landmarks: a card each on the city's page (_includes/landmark-card.html), and a page each
+   (_layouts/landmark.html) with its words, a map from OpenStreetMap and its dates beside them */
+.landmarks { border-top: 1px solid var(--line); }
+.landmark-card { display: flex; gap: 14px; align-items: flex-start; padding: 18px 20px; text-decoration: none; color: var(--ink); transition: border-color .15s; }
+.landmark-card:hover { border-color: #bbb; color: var(--ink); }
+.landmark-card .emoji { font-size: 26px; line-height: 1.1; }
+.landmark-card b { display: block; font-size: 16px; margin-bottom: 4px; }
+.landmark-card small { display: block; font-size: 14px; line-height: 1.5; color: #555; }
+.crumbs { font-size: 14px; color: var(--muted); margin-bottom: 14px; }
+.crumbs a { color: var(--muted); }
+.landmark-hero h1 .emoji { font-size: .8em; }
+.landmark-hero .local { margin: -10px 0 12px; color: var(--muted); font-style: italic; }
+.hero-btns.left { justify-content: flex-start; }
+.ghost {
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 6px;
+  border: 1px solid var(--ink); color: var(--ink); text-decoration: none; font-size: 16px; font-weight: 600; line-height: 1;
+}
+.ghost:hover { background: var(--ink); color: var(--paper); }
+.ghost .ic { width: .95em; height: .95em; }
+.landmark-body { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 48px; align-items: start; }
+.prose p { margin-bottom: 1.1em; max-width: 68ch; }
+.prose h2 { margin: 1.6em 0 .6em; }
+.osm { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.osm iframe { display: block; width: 100%; aspect-ratio: 4 / 3; border: 0; }
+.osm figcaption { padding: 10px 14px; font-size: 14px; }
+.dates { margin-top: 28px; }
+.dates h2 { font-size: 20px; margin-bottom: 12px; }
+.dates dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; font-size: 15px; }
+.dates dt { font-weight: 600; white-space: nowrap; }
+.dates dd { color: #444; }
+
 /* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
 .map { border-top: 1px solid var(--line); }
 .europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }
@@ -188,6 +219,7 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 @media (max-width: 680px) {
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
   .europe { overflow-x: auto; }
+  .landmark-body { grid-template-columns: 1fr; }
   .europe svg { width: 760px; max-width: none; }
   .live-hero { min-height: 82vh; }
   main > section { padding-block: 44px; }

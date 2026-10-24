@@ -31,6 +31,12 @@ with its cards, starting straight away: the pages' "Watch the tour" button. The 
 home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
 `node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
 
+Every city's page lists its places, elements and landmarks (not only buildings: Venice's gondolas,
+London's black cabs, Brussels' fries), each with a page of its own at `/<id>/landmark/<landmark>/`:
+its story, a map from OpenStreetMap and a link that drops you right there in the game. They are in
+`_data/landmarks/<id>.json`; `node tools/landmarks.mjs` writes their pages (`<id>/landmark/`).
+Ghent's texts and pictures come from the sight pages of Instant Gent.
+
 ```bash
 python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/
 bundle install && bundle exec jekyll serve   # the whole site: http://localhost:4000/

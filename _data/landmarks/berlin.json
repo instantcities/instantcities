@@ -1,0 +1,169 @@
+[
+  {
+    "id": "brandenburger-tor",
+    "name": "Brandenburg Gate",
+    "local": "Brandenburger Tor",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 52.5163,
+    "lon": 13.3777,
+    "blurb": "The neoclassical gate of 1791 crowned by the Quadriga, symbol of a divided and reunited Germany.",
+    "text": [
+      "Carl Gotthard Langhans built the gate in 1791 as an entrance to Unter den Linden, modelled on the gateway of the Acropolis. On top a goddess of victory drives the Quadriga, a chariot of four horses; Napoleon took it to Paris in 1806, and it came back in 1814.",
+      "From 1961 the gate stood in the no man’s land of the Berlin Wall. On 22 December 1989 it opened again, and it became the symbol of a reunited Germany."
+    ]
+  },
+  {
+    "id": "reichstag",
+    "name": "Reichstag",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 52.5186,
+    "lon": 13.3762,
+    "blurb": "The parliament building of 1894, crowned since 1999 by a glass dome you can walk up.",
+    "text": [
+      "The Reichstag was finished in 1894 for the parliament of the German Empire. It burned in 1933, a fire the Nazis used to seize full power, and was left in ruins after the war.",
+      "After reunification Norman Foster rebuilt it for the Bundestag, crowned by a glass dome with a spiral ramp from which visitors look down into the debating chamber."
+    ]
+  },
+  {
+    "id": "unter-den-linden",
+    "name": "Unter den Linden",
+    "emoji": "🌳",
+    "kind": "place",
+    "lat": 52.517,
+    "lon": 13.388,
+    "blurb": "The boulevard under the lime trees, from the Brandenburg Gate to Museum Island.",
+    "text": [
+      "Unter den Linden began as a bridle path for the Prussian princes, planted with lime trees in 1647. It became the grandest street of Berlin, lined with the opera, the university, the arsenal and embassies.",
+      "In the game the race rides along it, from the corner of Wilhelmstraße."
+    ]
+  },
+  {
+    "id": "gendarmenmarkt",
+    "name": "Gendarmenmarkt",
+    "emoji": "🎻",
+    "kind": "place",
+    "lat": 52.5137,
+    "lon": 13.3927,
+    "blurb": "The French and the German church facing each other across the square, with the concert hall between.",
+    "text": [
+      "The square was laid out at the end of the 17th century and named after a regiment of gendarmes stationed here. The French church was built for the Huguenot refugees, the German church for the Lutherans; their domed towers were added in 1785.",
+      "Between them stands Schinkel’s Konzerthaus of 1821. In December the square fills with a Christmas market."
+    ]
+  },
+  {
+    "id": "holocaust-mahnmal",
+    "name": "Holocaust Memorial",
+    "local": "Denkmal für die ermordeten Juden Europas",
+    "emoji": "🕯️",
+    "kind": "place",
+    "lat": 52.5139,
+    "lon": 13.3787,
+    "blurb": "The Memorial to the Murdered Jews of Europe: 2,711 concrete slabs on a sloping field.",
+    "text": [
+      "Peter Eisenman’s memorial opened in 2005 on a site of 19,000 square metres near the Brandenburg Gate. Its 2,711 grey concrete slabs stand in a grid on ground that dips and rises, so that walking in you lose sight of the city.",
+      "Beneath it an information centre tells the stories of the victims."
+    ]
+  },
+  {
+    "id": "bebelplatz",
+    "name": "Bebelplatz",
+    "emoji": "📚",
+    "kind": "place",
+    "lat": 52.5165,
+    "lon": 13.394,
+    "blurb": "The square where the Nazis burned books in 1933, now marked by a library of empty shelves under the ground.",
+    "text": [
+      "On 10 May 1933 students and Nazi officials burned some 20,000 books on this square, works by Heinrich Heine, Thomas Mann and many others.",
+      "A glass pane in the paving looks down into Micha Ullman’s memorial, an underground room of empty white shelves with room for 20,000 books. Around the square stand the State Opera and St Hedwig’s Cathedral."
+    ]
+  },
+  {
+    "id": "museumsinsel",
+    "name": "Museum Island",
+    "local": "Museumsinsel",
+    "emoji": "🏺",
+    "kind": "place",
+    "lat": 52.5194,
+    "lon": 13.3986,
+    "blurb": "Five great museums on an island in the Spree, from the Pergamon Altar to Nefertiti.",
+    "text": [
+      "From 1830 to 1930 Prussia built five museums on the northern tip of the island in the Spree: the Altes Museum, the Neues Museum, the Alte Nationalgalerie, the Bode Museum and the Pergamon Museum.",
+      "The bust of Nefertiti is in the Neues Museum, the Ishtar Gate of Babylon in the Pergamon. The island is a World Heritage site."
+    ]
+  },
+  {
+    "id": "berliner-dom",
+    "name": "Berlin Cathedral",
+    "local": "Berliner Dom",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 52.5191,
+    "lon": 13.401,
+    "blurb": "The great domed Protestant cathedral on Museum Island, finished in 1905.",
+    "text": [
+      "Emperor Wilhelm II had the Berliner Dom built from 1894 to 1905, a huge Protestant answer to St Peter’s in Rome, with a green dome. Below it lie the tombs of the Hohenzollerns.",
+      "You can climb up round the outside of the dome for a view over the Spree and the city."
+    ]
+  },
+  {
+    "id": "fernsehturm",
+    "name": "TV Tower",
+    "local": "Fernsehturm",
+    "emoji": "📡",
+    "kind": "place",
+    "lat": 52.5208,
+    "lon": 13.4094,
+    "blurb": "East Berlin’s 368-metre TV tower of 1969, with a ball that throws a cross of light in the sun.",
+    "text": [
+      "East Germany built the Fernsehturm in 1969 to show off its capital: at 368 metres it is still the tallest building in Germany. Its steel ball holds a viewing floor and a restaurant that turns round once every hour.",
+      "When the sun shines on the ball, its panels reflect a cross of light, which Berliners called the Pope’s revenge."
+    ]
+  },
+  {
+    "id": "mauer",
+    "name": "Berlin Wall",
+    "local": "Berliner Mauer",
+    "emoji": "🧱",
+    "kind": "thing",
+    "blurb": "The wall that split the city from 1961 to 1989, its line now marked by a double row of cobbles.",
+    "text": [
+      "On 13 August 1961 East Germany sealed off West Berlin with barbed wire and then a wall, 155 kilometres long, with a death strip behind it. It ran just west of the Brandenburg Gate.",
+      "On 9 November 1989 it fell. A double row of cobblestones now marks where it stood across the streets of the centre."
+    ]
+  },
+  {
+    "id": "ampelmann",
+    "name": "Ampelmännchen",
+    "emoji": "🚦",
+    "kind": "thing",
+    "blurb": "The little man with a hat on East Berlin’s traffic lights, saved after reunification.",
+    "text": [
+      "In 1961 the traffic psychologist Karl Peglau designed a little man in a hat for East Germany’s pedestrian lights, striding in green and standing with arms out in red.",
+      "After reunification he was to be replaced by the West’s plain figure, but Berliners protested, and today he walks on lights all over the city."
+    ]
+  },
+  {
+    "id": "trabant",
+    "name": "Trabant",
+    "emoji": "🚗",
+    "kind": "vehicle",
+    "blurb": "The little East German car with a plastic body, which chugged across the open border in 1989.",
+    "text": [
+      "The Trabant was built in East Germany from 1957 to 1991, with a two-stroke engine and a body of Duroplast, a plastic made with cotton waste. Families waited more than ten years for one.",
+      "In November 1989 columns of smoking Trabis crossed into the West, and the little car became a symbol of the fall of the Wall."
+    ]
+  },
+  {
+    "id": "currywurst",
+    "name": "Currywurst",
+    "emoji": "🌭",
+    "kind": "food",
+    "blurb": "A sliced pork sausage in curried ketchup, invented in Berlin in 1949.",
+    "text": [
+      "In 1949 Herta Heuwer, at her snack stand in Charlottenburg, mixed ketchup and curry powder she got from British soldiers and poured it over a fried sausage. Berlin has eaten it ever since.",
+      "It is served cut in pieces with a little wooden fork, with or without the skin, often with fries."
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{%- comment -%} A landmark's page (/<city>/landmark/<id>/): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark` (tools/landmarks.mjs writes the pages, with x and z: where it lies in the game). Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. {%- endcomment -%}
+{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- assign H = site.data.home -%}
+{%- assign all = site.data.landmarks[page.city] -%}
+{%- assign L = all | where: 'id', page.landmark | first -%}
+{%- if L.sight %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: L.sight %}
+{%- elsif page.x %}{% assign nm = L.name | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: page.x | append: ',' | append: page.z | append: '&n=' | append: nm %}
+{%- else %}{% assign play = '/' | append: C.id | append: '/play/' %}{% endif -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = L.name | append: ' in ' | append: C.name | append: ' · Instant Cities' -%}{%- assign description = L.blurb -%}
+{%- assign path = '/' | append: C.id | append: '/landmark/' | append: L.id | append: '/' -%}
+{%- if L.image %}{% assign image = L.image %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero landmark-hero{% unless L.image %} home-hero{% endunless %}">
+      <div class="hero-text">
+        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › <a href="/{{ C.id }}/#landmarks">Places and landmarks</a></p>
+        <h1><span class="emoji" aria-hidden="true">{{ L.emoji }}</span> {{ L.name }}</h1>
+        {%- if L.local %}<p class="local">{{ L.local }}</p>{% endif %}
+        <p class="tagline">{{ L.blurb }}</p>
+        <p class="hero-btns{% if L.image %} left{% endif %}">
+          <a class="play" href="{{ play }}">{% include icon.html name="play" %} {% if L.sight or page.x %}See it in 3D{% else %}Play {{ C.name }}{% endif %}</a>
+          <a class="ghost" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+        </p>
+      </div>
+      {%- if L.image %}
+      <a class="hero-shot" href="{{ play }}">
+        <img src="{{ L.image }}" width="1200" height="675" alt="{{ L.name }} in Instant {{ C.name }}" fetchpriority="high">
+        <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
+      </a>
+      {%- endif %}
+    </section>
+
+    <section class="landmark-body">
+      <div class="prose">
+        {%- for p in L.text %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+        {%- if L.history %}
+        <h2>History</h2>
+        {%- for p in L.history %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+        {%- endif %}
+        {%- if L.visit %}
+        <h2>Going to see it</h2>
+        {%- for p in L.visit %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+        {%- endif %}
+      </div>
+      <aside class="landmark-side">
+        {%- if L.lat %}
+        {%- assign s = L.lat | minus: 0.0025 %}{% assign n = L.lat | plus: 0.0025 %}{% assign w = L.lon | minus: 0.004 %}{% assign e = L.lon | plus: 0.004 %}
+        <figure class="osm">
+          <iframe title="{{ L.name }} on OpenStreetMap" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={{ w }}%2C{{ s }}%2C{{ e }}%2C{{ n }}&amp;layer=mapnik&amp;marker={{ L.lat }}%2C{{ L.lon }}"></iframe>
+          <figcaption><a href="https://www.openstreetmap.org/?mlat={{ L.lat }}&amp;mlon={{ L.lon }}#map=18/{{ L.lat }}/{{ L.lon }}" rel="noopener">{% include icon.html name="pin" %} Open in OpenStreetMap</a></figcaption>
+        </figure>
+        {%- endif %}
+        {%- if L.dates %}
+        <div class="dates">
+          <h2>Dates</h2>
+          <dl>
+            {%- for d in L.dates %}
+            <dt>{{ d[0] }}</dt><dd>{{ d[1] }}</dd>
+            {%- endfor %}
+          </dl>
+        </div>
+        {%- endif %}
+      </aside>
+    </section>
+
+    <section id="landmarks" class="landmarks">
+      <h2>More in {{ C.name }}</h2>
+      <div class="grid">
+        {%- for o in all %}{% if o.id != L.id %}
+        {% include landmark-card.html landmark=o city=C.id %}
+        {%- endif %}{% endfor %}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt"><a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

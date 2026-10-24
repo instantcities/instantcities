@@ -1,0 +1,152 @@
+[
+  {
+    "id": "notre-dame",
+    "name": "Notre-Dame",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 48.853,
+    "lon": 2.3499,
+    "blurb": "The Gothic cathedral on the Île de la Cité, begun in 1163 and open again since the fire of 2019.",
+    "text": [
+      "Notre-Dame de Paris was begun in 1163 and finished almost two centuries later, with its twin towers, its great rose windows and the flying buttresses that hold up its walls. Victor Hugo’s novel of 1831 made it famous all over the world and helped save it from decay.",
+      "On 15 April 2019 fire destroyed its roof and its spire. After five years of work it opened again in December 2024, with a new spire built to the old design."
+    ]
+  },
+  {
+    "id": "sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "emoji": "✨",
+    "kind": "place",
+    "lat": 48.8554,
+    "lon": 2.345,
+    "blurb": "Louis IX’s royal chapel of 1248, its walls almost all stained glass.",
+    "text": [
+      "King Louis IX built the Sainte-Chapelle in the courtyard of his palace to hold the Crown of Thorns, which he had bought from the emperor of Constantinople. It was consecrated in 1248.",
+      "Its upper chapel is famous for its fifteen tall stained-glass windows, telling the Bible in more than a thousand scenes, which make the walls seem to be made of coloured light."
+    ]
+  },
+  {
+    "id": "louvre",
+    "name": "Louvre",
+    "emoji": "🖼️",
+    "kind": "place",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "blurb": "A royal palace turned into the world’s most visited museum, with the glass pyramid in its courtyard.",
+    "text": [
+      "The Louvre began as a fortress around 1200, became the palace of the kings of France and, after the Revolution, a museum, opened in 1793. It holds the Mona Lisa, the Venus de Milo and the Winged Victory of Samothrace.",
+      "In 1989 I. M. Pei’s glass pyramid became its new entrance, controversial at first, now one of the sights of Paris itself."
+    ]
+  },
+  {
+    "id": "pont-neuf",
+    "name": "Pont Neuf",
+    "emoji": "🌉",
+    "kind": "place",
+    "lat": 48.8572,
+    "lon": 2.3413,
+    "blurb": "The “new bridge”, which is in fact the oldest bridge still standing across the Seine in Paris.",
+    "text": [
+      "Finished in 1607 under Henri IV, the Pont Neuf was the first bridge in Paris without houses on it, and the first with pavements, so people could stand and look at the river. It crosses the tip of the Île de la Cité in two arms.",
+      "On the island, a bronze Henri IV rides at the middle of the bridge; behind him the little Square du Vert-Galant reaches out into the Seine."
+    ]
+  },
+  {
+    "id": "hotel-de-ville",
+    "name": "Hôtel de Ville",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "blurb": "The city hall of Paris, on this spot since 1357 and rebuilt after the Commune burned it in 1871.",
+    "text": [
+      "Paris has been governed from this square, then called the Place de Grève, since 1357. The Renaissance city hall that stood here was set on fire during the Commune of 1871 and rebuilt in the same style, larger and richer, by 1892.",
+      "Its front carries more than a hundred statues of famous Parisians. In winter the square in front becomes an ice rink."
+    ]
+  },
+  {
+    "id": "conciergerie",
+    "name": "Conciergerie",
+    "emoji": "⚖️",
+    "kind": "place",
+    "lat": 48.856,
+    "lon": 2.3456,
+    "blurb": "A medieval royal palace on the island, later the prison where Marie-Antoinette awaited the guillotine.",
+    "text": [
+      "The Conciergerie is what is left of the Palais de la Cité, the palace of the kings of France in the Middle Ages, with its great Gothic hall and its round towers along the Seine.",
+      "During the Revolution it was the prison of those sent before the Revolutionary Tribunal; Queen Marie-Antoinette spent her last weeks here in 1793."
+    ]
+  },
+  {
+    "id": "tour-saint-jacques",
+    "name": "Tour Saint-Jacques",
+    "emoji": "🗼",
+    "kind": "place",
+    "lat": 48.858,
+    "lon": 2.3488,
+    "blurb": "A lone Gothic bell tower, all that remains of a church on the pilgrims’ road to Santiago.",
+    "text": [
+      "The tower is all that is left of the church of Saint-Jacques-de-la-Boucherie, where pilgrims gathered before setting off for Santiago de Compostela. The church was pulled down after the Revolution; the tower, finished in 1523, was kept.",
+      "Blaise Pascal is said to have repeated his experiments on air pressure here; his statue stands at its foot."
+    ]
+  },
+  {
+    "id": "centre-pompidou",
+    "name": "Centre Pompidou",
+    "emoji": "🎨",
+    "kind": "place",
+    "lat": 48.8606,
+    "lon": 2.3522,
+    "blurb": "The museum of modern art with its pipes, ducts and escalators on the outside, opened in 1977.",
+    "text": [
+      "Renzo Piano and Richard Rogers turned a building inside out: the pipes, ducts and escalators are on the outside, painted in bright colours by their use, blue for air, green for water, yellow for electricity.",
+      "Inside is one of the largest collections of modern art in the world. The sloping square in front is a stage for street performers."
+    ]
+  },
+  {
+    "id": "bouquinistes",
+    "name": "Bouquinistes",
+    "emoji": "📚",
+    "kind": "thing",
+    "lat": 48.8538,
+    "lon": 2.3452,
+    "blurb": "The green boxes of second-hand booksellers along the quays of the Seine.",
+    "text": [
+      "Since the 16th century booksellers have sold their wares along the Seine. Today some 200 bouquinistes keep their dark green boxes fixed to the parapets of the quays, opened in the morning and locked again at night.",
+      "Together the boxes stretch for some three kilometres, with old books, prints, postcards and posters. They are part of the banks of the Seine that UNESCO lists as World Heritage."
+    ]
+  },
+  {
+    "id": "metro",
+    "name": "Métro entrances",
+    "emoji": "🚇",
+    "kind": "thing",
+    "blurb": "The green Art Nouveau entrances of the Paris Métro, drawn by Hector Guimard around 1900.",
+    "text": [
+      "When the first Métro line opened in 1900, Hector Guimard designed its entrances: cast-iron stalks and leaves painted green, with lamps like flower buds and the word Métropolitain in curling letters.",
+      "Some 85 of them are still in use, and two of the rare ones with a glass roof survive, at Porte Dauphine and Abbesses."
+    ]
+  },
+  {
+    "id": "bateaux-mouches",
+    "name": "Bateaux-mouches",
+    "emoji": "🛥️",
+    "kind": "vehicle",
+    "blurb": "The sightseeing boats that glide up and down the Seine, past Notre-Dame and under the bridges.",
+    "text": [
+      "The first bateaux-mouches carried passengers along the Seine in the 19th century; today the name covers all the glass-roofed sightseeing boats that sail from the Eiffel Tower to beyond Notre-Dame and back.",
+      "From the water you see Paris from below its bridges, and at night the quays and monuments are lit up."
+    ]
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "emoji": "🥐",
+    "kind": "food",
+    "blurb": "The flaky, buttery crescent of a Paris breakfast, from the boulangerie on every corner.",
+    "text": [
+      "The croissant came to Paris from Vienna in the 19th century, as a bread roll in the shape of a crescent; French bakers made it with layers of butter folded into the dough, which puff up into hundreds of flaky sheets.",
+      "With a café crème at the counter it is the classic Paris breakfast; a croissant au beurre, made with butter only, is shaped straight, the others curved."
+    ]
+  }
+]

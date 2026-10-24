@@ -1,0 +1,169 @@
+[
+  {
+    "id": "piazza-san-marco",
+    "name": "Piazza San Marco",
+    "emoji": "🕊️",
+    "kind": "place",
+    "lat": 45.4342,
+    "lon": 12.3388,
+    "blurb": "The only square in Venice called a piazza, ringed by arcades and opening onto the lagoon.",
+    "text": [
+      "Napoleon is said to have called it the finest drawing room in Europe. On three sides the long arcaded Procuratie, once the offices of the procurators of Saint Mark, close it off; on the fourth rise the basilica and the bell tower.",
+      "When the tide is high the square is the first place to flood, as water rises through the drains. Its cafés, such as the Florian from 1720, have orchestras playing outside."
+    ]
+  },
+  {
+    "id": "basilica-di-san-marco",
+    "name": "St Mark’s Basilica",
+    "local": "Basilica di San Marco",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 45.4345,
+    "lon": 12.3397,
+    "blurb": "Built for the relics of Saint Mark, covered inside with golden mosaics.",
+    "text": [
+      "Venetian merchants smuggled the body of Saint Mark out of Alexandria in 828, hidden under pork so the Muslim guards would not search the basket. The basilica was built to hold it, and rebuilt in its present form from 1063.",
+      "Its five domes and its walls of marble and gold mosaic show Venice’s ties with Byzantium. On its front stand copies of the four bronze horses brought from Constantinople in 1204; the originals are inside."
+    ]
+  },
+  {
+    "id": "palazzo-ducale",
+    "name": "Doge’s Palace",
+    "local": "Palazzo Ducale",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 45.4337,
+    "lon": 12.3404,
+    "blurb": "The pink and white Gothic palace from which the doges ruled the Republic of Venice.",
+    "text": [
+      "For centuries the Doge’s Palace was the seat of the doge, the elected head of the Republic, and of its councils and courts. Its front of pink and white marble sits on two storeys of arcades, so the heavy part seems to float.",
+      "Inside, the Hall of the Great Council holds Tintoretto’s Paradise, one of the largest oil paintings in the world. The prisons lay across the canal, over the Bridge of Sighs."
+    ]
+  },
+  {
+    "id": "campanile",
+    "name": "Campanile di San Marco",
+    "emoji": "🔔",
+    "kind": "place",
+    "lat": 45.434,
+    "lon": 12.339,
+    "blurb": "The bell tower of St Mark’s, which fell down in 1902 and was rebuilt “where it was, as it was”.",
+    "text": [
+      "The brick bell tower rises almost 99 metres over the square. On 14 July 1902 it collapsed into a heap of rubble; by a miracle only the caretaker’s cat died.",
+      "Venice rebuilt it exactly as before, “com’era, dov’era”, and it opened again in 1912. A lift takes you to the top, where Galileo once showed his telescope to the doge."
+    ]
+  },
+  {
+    "id": "ponte-dei-sospiri",
+    "name": "Bridge of Sighs",
+    "local": "Ponte dei Sospiri",
+    "emoji": "😮‍💨",
+    "kind": "place",
+    "lat": 45.434,
+    "lon": 12.3409,
+    "blurb": "The covered stone bridge between the Doge’s Palace and the prisons, built in 1600.",
+    "text": [
+      "The enclosed bridge of white limestone links the courtrooms of the Doge’s Palace with the New Prisons across the Rio di Palazzo. It was built around 1600.",
+      "Its name comes from Lord Byron and the romantics: the sighs are said to be those of prisoners taking a last look at Venice through its little barred windows."
+    ]
+  },
+  {
+    "id": "ponte-di-rialto",
+    "name": "Rialto Bridge",
+    "local": "Ponte di Rialto",
+    "emoji": "🌉",
+    "kind": "place",
+    "lat": 45.438,
+    "lon": 12.3359,
+    "blurb": "The stone bridge of 1591 over the Grand Canal, with shops along its arch.",
+    "text": [
+      "For centuries the Rialto was the only bridge across the Grand Canal, first of boats, then of wood. The wooden one collapsed twice; in 1591 Antonio da Ponte finished the stone bridge that stands today, with a single arch high enough for galleys to pass.",
+      "Two rows of shops line its steps. Around its foot lies the Rialto market, where Venice has bought its fish and vegetables for a thousand years."
+    ]
+  },
+  {
+    "id": "canal-grande",
+    "name": "Grand Canal",
+    "local": "Canal Grande",
+    "emoji": "🌊",
+    "kind": "thing",
+    "lat": 45.437,
+    "lon": 12.3345,
+    "blurb": "The great S-shaped waterway through the middle of Venice, lined with palaces.",
+    "text": [
+      "The Grand Canal winds nearly four kilometres through the city in a reversed S, lined by some 170 palaces built over five centuries by the city’s great families, their doors opening onto the water.",
+      "It is Venice’s main street: vaporetti, water taxis, delivery barges and gondolas all share it, and only four bridges cross it."
+    ]
+  },
+  {
+    "id": "mercerie",
+    "name": "Mercerie",
+    "emoji": "🛍️",
+    "kind": "place",
+    "lat": 45.4362,
+    "lon": 12.3375,
+    "blurb": "The chain of narrow shopping lanes from St Mark’s to the Rialto, the race route in the game.",
+    "text": [
+      "The Mercerie are a string of narrow streets that link the two centres of old Venice, the political one at St Mark’s and the trading one at the Rialto. They pass under the clock tower and wind past shops that have lined them since the Middle Ages.",
+      "They are the busiest calli in the city, and in the game the race runs along them, over the little bridges, from the piazza to the Rialto."
+    ]
+  },
+  {
+    "id": "la-fenice",
+    "name": "La Fenice",
+    "emoji": "🎭",
+    "kind": "place",
+    "lat": 45.4337,
+    "lon": 12.3336,
+    "blurb": "Venice’s opera house, which has risen from its ashes more than once, as its name promises.",
+    "text": [
+      "La Fenice, the phoenix, opened in 1792 and saw the first nights of operas by Rossini, Bellini and Verdi, among them La Traviata.",
+      "It burned down in 1836 and again, through arson, in 1996. Rebuilt as it was, it reopened in 2003."
+    ]
+  },
+  {
+    "id": "gondola",
+    "name": "Gondola",
+    "emoji": "🛶",
+    "kind": "vehicle",
+    "blurb": "The long black boat of Venice, rowed standing up with a single oar.",
+    "text": [
+      "A gondola is about eleven metres long, black and built a little lopsided, so that the gondolier standing at the back can keep it straight with one oar. Its iron prow, the ferro, is said to stand for the six districts of the city.",
+      "Once there were thousands; today some four hundred carry visitors along the canals, and a few traghetti, gondola ferries, still take people across the Grand Canal for a couple of euros."
+    ]
+  },
+  {
+    "id": "vaporetto",
+    "name": "Vaporetto",
+    "emoji": "⛴️",
+    "kind": "vehicle",
+    "blurb": "The water bus of Venice, chugging up and down the Grand Canal from stop to stop.",
+    "text": [
+      "With no cars in the city, the vaporetto is its public transport: a broad, low water bus run by the ACTV, stopping at floating platforms along the Grand Canal and out to the islands of the lagoon.",
+      "Line 1 runs the whole length of the Grand Canal, slowly enough to see every palace."
+    ]
+  },
+  {
+    "id": "carnevale",
+    "name": "Carnival",
+    "local": "Carnevale",
+    "emoji": "🎭",
+    "kind": "tradition",
+    "blurb": "Two weeks of masks and costumes before Lent, filling the squares of Venice.",
+    "text": [
+      "Venice’s carnival goes back to the Middle Ages, when masks let people of every rank mix in the streets. Napoleon banned it; it was revived in 1979.",
+      "Today it brings costumes and masks back to St Mark’s for the two weeks before Lent, from the white bauta to the long-nosed mask of the plague doctor."
+    ]
+  },
+  {
+    "id": "acqua-alta",
+    "name": "Acqua alta",
+    "emoji": "💧",
+    "kind": "thing",
+    "blurb": "The high tides that flood St Mark’s Square, now held back by the MOSE barriers.",
+    "text": [
+      "Several times a year, mostly in autumn and winter, the tides of the Adriatic rise high enough to flood the lowest parts of Venice, St Mark’s Square first. Raised walkways go up, and sirens warn the city.",
+      "In 1966 and 2019 the water rose to almost two metres. Since 2020 the MOSE, a row of barriers on the seabed at the mouths of the lagoon, can be raised to hold the tide back."
+    ]
+  }
+]
