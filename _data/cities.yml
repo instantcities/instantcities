@@ -3,6 +3,7 @@
 # here and an <id>/index.html saying `layout: city` and `city: <id>`.
 # A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
 # playable ones, and search engines leave it alone. It needs only id, name, country and card.
+# (None is, for now: every city on the list has a first map.)
 - id: ghent
   name: Ghent
   country: Belgium
@@ -43,35 +44,89 @@
 - id: rome
   name: Rome
   country: Italy
-  soon: true
-  card: "From the Colosseum past the Pantheon to Piazza Navona."
+  game: Instant Rome
+  title: "Instant Rome: a free 3D game of Rome, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Rome in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through ancient Rome!"
+  lead: "The heart of Rome in 3D: the Via del Corso, the Pantheon, Piazza Navona and the Trevi Fountain, every building from OpenStreetMap."
+  card: "From Piazza Venezia along the Via del Corso to the Pantheon, with the Forum and the Colosseum at the edge."
+  features:
+    - { icon: city, title: "The real Rome", text: "About 6,000 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: columns, title: "Ancient and baroque Rome", text: "Piazza Venezia, the Via del Corso, the column on Piazza Colonna, the Pantheon and Piazza Navona, with the Trevi Fountain, the Forum and the Colosseum to ride to." }
+    - { icon: flag, title: "A race: Rome Centre", text: "From Piazza Venezia up the Via del Corso to the column on Piazza Colonna, past the Pantheon and back by Largo di Torre Argentina." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: paris
   name: Paris
   country: France
-  soon: true
-  card: "Along the Seine from Notre-Dame to the Eiffel Tower."
+  game: Instant Paris
+  title: "Instant Paris: a free 3D game of Paris, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Paris in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback along the Seine!"
+  lead: "The middle of Paris in 3D: Notre-Dame, the Sainte-Chapelle, the Pont Neuf and the Rue de Rivoli, every building from OpenStreetMap."
+  card: "The Île de la Cité and the banks of the Seine, from Notre-Dame to the Pont Neuf and the Louvre."
+  features:
+    - { icon: city, title: "The real Paris", text: "About 5,500 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: church, title: "Around the Île de la Cité", text: "Notre-Dame, the Sainte-Chapelle and the Pont Neuf on the island, the Hôtel de Ville and the Rue de Rivoli on the right bank, the Louvre at the edge." }
+    - { icon: flag, title: "A race: Île de la Cité", text: "From the Hôtel de Ville over the Seine to Notre-Dame, along the island’s quays to the Pont Neuf and back down the Rue de Rivoli." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: amsterdam
   name: Amsterdam
   country: Netherlands
-  soon: true
-  card: "The canal ring, its bridges and gabled houses, and bikes everywhere."
+  game: Instant Amsterdam
+  title: "Instant Amsterdam: a free 3D game of Amsterdam, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Amsterdam in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback along the canals!"
+  lead: "The old centre of Amsterdam in 3D: the Dam, the Royal Palace, the Singel and the Spui, every canal house from OpenStreetMap."
+  card: "From the Dam along the Singel to the Spui, between the canals and their gabled houses."
+  features:
+    - { icon: city, title: "The real Amsterdam", text: "About 7,900 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: gables, title: "Between the canals", text: "The Dam and the Royal Palace, the Singel, the Spui and the Rokin, with the Westerkerk, the Nieuwmarkt and Centraal Station to ride to." }
+    - { icon: flag, title: "A race: Dam and Singel", text: "From the Dam past the Royal Palace to the Singel, along the canal to the Spui and back up the Rokin to the Dam." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: venice
   name: Venice
   country: Italy
-  soon: true
-  card: "On foot over the bridges and along the canals, from the Rialto to San Marco."
+  game: Instant Venice
+  title: "Instant Venice: a free 3D game of Venice, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Venice in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the calli of Venice!"
+  lead: "The heart of Venice in 3D: Piazza San Marco, the Doge’s Palace, the Mercerie and the Rialto bridge, every calle from OpenStreetMap."
+  card: "From Piazza San Marco through the Mercerie to the Rialto bridge, between the canals."
+  features:
+    - { icon: city, title: "The real Venice", text: "About 2,500 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: bridge, title: "Over the canals", text: "Piazza San Marco, the Doge’s Palace and the Bridge of Sighs, the narrow lanes of the Mercerie and the Rialto bridge over the Grand Canal." }
+    - { icon: flag, title: "A race: San Marco → Rialto", text: "From Piazza San Marco under the clock tower, through the narrow shopping lanes of the Mercerie to the Rialto bridge." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: barcelona
   name: Barcelona
   country: Spain
-  soon: true
-  card: "The Gothic Quarter, the grid of the Eixample and Gaudí's Sagrada Família."
+  game: Instant Barcelona
+  title: "Instant Barcelona: a free 3D game of Barcelona, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Barcelona in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback down the Rambla!"
+  lead: "The old town of Barcelona in 3D: the Rambla, the Gothic Quarter, the cathedral and Plaça de Sant Jaume, every building from OpenStreetMap."
+  card: "Down the Rambla to the Columbus monument, and back through the Gothic Quarter past the cathedral."
+  features:
+    - { icon: city, title: "The real Barcelona", text: "About 4,300 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: palette, title: "The old town", text: "The Rambla from Plaça de Catalunya to the Columbus monument, La Boqueria, Plaça Reial, and the Gothic Quarter round the cathedral." }
+    - { icon: flag, title: "A race: Rambla and Gothic Quarter", text: "From Plaça de Catalunya down the Rambla to the Columbus monument, through the Gothic Quarter past Plaça de Sant Jaume and the cathedral, and back up Portal de l’Àngel." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: london
   name: London
   country: United Kingdom
-  soon: true
-  card: "From Westminster along the Thames to Tower Bridge."
+  game: Instant London
+  title: "Instant London: a free 3D game of London, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of London in your browser. Explore the city or race, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Westminster!"
+  lead: "Westminster in 3D: Trafalgar Square, Whitehall, Parliament Square and Westminster Abbey, every building from OpenStreetMap."
+  card: "From Trafalgar Square down Whitehall to Big Ben, and back along the Thames."
+  features:
+    - { icon: city, title: "The real London", text: "About 2,600 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
+    - { icon: tower, title: "Westminster", text: "Trafalgar Square, Whitehall and Downing Street, Parliament Square with Big Ben and Westminster Abbey, and the London Eye across the Thames. Traffic keeps to the left." }
+    - { icon: flag, title: "A race: Westminster", text: "From Charing Cross down Whitehall past Downing Street to Parliament Square and Big Ben, and back along the Thames on the Victoria Embankment." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."

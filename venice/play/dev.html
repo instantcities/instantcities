@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- venice: made from core/dev.html by `node tools/pages.mjs`, do not edit by hand. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Instant Venice: developer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../core/style.css">
+  <style>
+    /* The asset viewer: a list of models on the left, the picked one on a turntable. */
+    #dev { position: fixed; top: 0; left: 0; bottom: 0; width: 240px; overflow-y: auto; padding: 12px; background: var(--paper); color: var(--ink); border-right: 3px solid var(--ink); z-index: 1; user-select: text; }
+    #dev h1 { font: 400 26px 'Lilita One', system-ui, sans-serif; color: var(--accent); }
+    #dev h2 { font: 400 17px 'Lilita One', system-ui, sans-serif; margin: 14px 0 6px; }
+    #dev .chip { display: block; width: 100%; margin-bottom: 4px; text-align: left; font-size: 14px; padding: 3px 12px; }
+    .tabs { display: flex; gap: 4px; margin: 6px 0 2px; }
+    .tabs a { flex: 1; text-align: center; padding: 3px 8px; border: 2px solid var(--ink); border-radius: 10px; font-weight: 800; text-decoration: none; color: var(--ink); background: #fff; }
+    .tabs a.on { background: var(--ink); color: #fff; }
+    #dev a.back { display: inline-block; margin: 4px 0 2px; font-weight: 800; color: var(--accent); }
+    #dev .tools { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 14px; }
+    #dev .tools .chip { width: auto; }
+    #info { position: fixed; left: 256px; bottom: 12px; padding: 6px 12px; border-radius: 12px; background: rgba(29, 26, 23, 0.75); font: 800 13px 'Nunito', system-ui, sans-serif; white-space: pre; z-index: 1; user-select: text; }
+    @media (max-width: 640px) {
+      #dev { width: auto; right: 0; bottom: auto; max-height: 40vh; border-right: 0; border-bottom: 3px solid var(--ink); }
+      #info { left: 16px; }
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+        "city": "../city.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <nav id="dev">
+    <h1>Developer</h1>
+    <div class="tabs"><a class="on" href="dev.html">Assets</a><a href="facade-lab.html">Facade lab</a><a href="places.html">Places</a></div>
+    <a class="back" href="./">‹ back to the game</a>
+    <div id="lists"></div>
+    <div class="tools">
+      <button class="chip" id="spinBtn">turn</button>
+      <button class="chip" id="wireBtn">wireframe</button>
+      <button class="chip" id="gridBtn">grid</button>
+    </div>
+  </nav>
+  <div id="info"></div>
+  <script type="module" src="../../core/js/dev.js"></script>
+</body>
+</html>

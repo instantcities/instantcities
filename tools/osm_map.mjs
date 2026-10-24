@@ -11,7 +11,8 @@
 // [lat, lon]; else everything near the routes is kept), scale, hw, corner, margin, heights
 // ("dhmv": every roof at its measured height, Flanders only, see tools/dhmv.mjs), roofs ("flat":
 // no pitched roof unless OSM gives the building a roof:shape), floors (the most storeys guessed for
-// a building OSM gives none), car_free (street names closed to cars that OSM doesn't tag so), bridges
+// a building OSM gives none), gables (false: old houses get no Flemish stepped gable; Ghent's and
+// Amsterdam's do), car_free (street names closed to cars that OSM doesn't tag so), bridges
 // ({ name: "arched" | "grand" } for the bridges that are not level with the street, see BRIDGES). The builder
 // itself is tools/osmbuild.mjs. Map data © OpenStreetMap contributors, available under the ODbL.
 import fs from 'node:fs';

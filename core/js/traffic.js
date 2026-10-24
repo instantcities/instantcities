@@ -1,8 +1,12 @@
 import * as THREE from 'three';
 import { CAR_TYPES, randomCar, carInstances } from './cars.js';
 import { buildRelief } from './relief.js';
+import { THEME } from './city.js';
 
-// Cars driving about the city's streets, on the right, turning off at junctions and keeping clear
+// Traffic keeps to the right, or to the left where the city drives on the left (THEME.left: London).
+const LEFT = !!THEME?.left;
+
+// Cars driving about the city's streets, on the right (or the left, LEFT), turning off at junctions and keeping clear
 // of the race routes. Few in the old centre, and those mostly taxis; more further out. Only the
 // streets round whoever is watching have traffic: a fixed pool of cars, one instanced mesh per
 // type, and a car that falls too far behind turns up again on some other street round the viewer.
@@ -149,7 +153,7 @@ export function addTraffic(ctx, map, tracks, busLines = [], signals = null) {
     while (c.k > 0 && p.cum[c.k] > c.s) c.k--;
     while (c.k < pts.length - 2 && p.cum[c.k + 1] < c.s) c.k++;
     const a = pts[c.k], b = pts[c.k + 1], L = p.cum[c.k + 1] - p.cum[c.k] || 1, f = Math.max(0, Math.min(1, (c.s - p.cum[c.k]) / L));
-    const ux = ((b[0] - a[0]) / L) * c.dir, uz = ((b[2] - a[2]) / L) * c.dir, lane = p.lane[c.dir > 0 ? 1 : 0];
+    const ux = ((b[0] - a[0]) / L) * c.dir, uz = ((b[2] - a[2]) / L) * c.dir, lane = LEFT ? -p.lane[c.dir > 0 ? 0 : 1] : p.lane[c.dir > 0 ? 1 : 0];
     out.x = a[0] + (b[0] - a[0]) * f - uz * lane;
     out.y = a[1] + (b[1] - a[1]) * f;
     out.z = a[2] + (b[2] - a[2]) * f + ux * lane;
