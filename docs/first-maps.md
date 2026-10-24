@@ -55,6 +55,26 @@ way, and its own welcome line (`tour.welcomeSub` in its `WORDS`, as the shared o
   stepped gable everywhere. `"gables": false` in `area.json` turns that off; Paris had 50 of them.
 - **Traffic on the left**: `THEME.left` (London) puts the cars on the left of the street.
 
+## What each city is known for
+
+“What do people think of when they think of this city?” Each city got some of it:
+
+- **Vehicles** (`TRAFFIC` in `city.js`, the models in `core/js/cars.js`): London’s black cabs and red
+  double-deckers (and traffic on the left), Vespas and old Fiat 500s in Rome, Florence and Lecce,
+  Citroën 2CVs in Paris and Avignon, Trabants in Berlin, and each city’s own taxis (white in Rome
+  and Madrid, black in Barcelona, cream in Berlin); `TRAFFIC.taxis` keeps them from crowding out
+  the rest in the centre.
+- **Boats** (`BOATS`): gondolas with their gondoliers on Venice’s canals; elsewhere the tour boats
+  no longer carry Ghent’s name.
+- **A quest each** (`quests.js`), from real stories where there are some: the Mona Lisa stolen from
+  the Louvre (as in 1911), Michelangelo’s Madonna carried off from Bruges (as in 1944), the Manneken
+  Pis stolen again, Brabo gone from his fountain, a coin in the Trevi before the coach leaves, Big
+  Ben striking noon, the twelve grapes at the Puerta del Sol, the dance on the Pont d’Avignon.
+- **Landmark pages** (`_data/landmarks/`) for the rest: gondolas, black cabs, fries, Sachertorte.
+
+Still to come: horse carriages (Bruges, Vienna), Prague’s and Vienna’s trams, bateaux-mouches and
+Amsterdam’s canal boats as models of their own, and the landmarks themselves as 3D models.
+
 ## Rough edges to pick up next
 
 - The big landmarks are OpenStreetMap boxes: the Colosseum, Notre-Dame, St Mark's, Big Ben and the
@@ -63,4 +83,4 @@ way, and its own welcome line (`tour.welcomeSub` in its `WORDS`, as the shared o
   corners along the Mercerie are cut back.
 - Amsterdam's big buildings on the Dam get the grey stone look; its canal houses are fine.
 - The traffic lights in London still stand for traffic on the right.
-- No quests and no sights cards yet: the "Missions" tab only has free exploring.
+- No sight cards yet, and one quest per city (see below).

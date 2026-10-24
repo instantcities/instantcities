@@ -5,19 +5,21 @@
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
 //   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
+//   quests.js        the quests and their words (hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs venice`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs venice`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs venice`
-// No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
+export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
-export const QUESTS = [], SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
@@ -35,6 +37,9 @@ export const WORDS = {
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the city gets.
 export const THEME = { ground: '#a19a90', paving: '#b9b2a6', verge: 0xb9b2a6, kerb: 0xd8d2c6, fog: [140, 560], weathers: ['clear', 'rain'] };
+
+// No cars in Venice: gondolas on the canals instead of tour boats (js/scenery.js).
+export const BOATS = { kind: 'gondola' };
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): plaster in
 // Venetian red, rose, ochre and cream over brick, white Istrian stone round the windows, green

@@ -1,10 +1,12 @@
 import * as THREE from 'three';
 import { CAR_TYPES, randomCar, carInstances } from './cars.js';
 import { buildRelief } from './relief.js';
-import { THEME } from './city.js';
+import { THEME, TRAFFIC } from './city.js';
 
 // Traffic keeps to the right, or to the left where the city drives on the left (THEME.left: London).
 const LEFT = !!THEME?.left;
+// The city's taxis (TRAFFIC.taxi: { type, colors }, e.g. London's black cabs), or saloons with a sign.
+const TAXI = TRAFFIC?.taxi ?? { type: 'taxi', colors: [0x1c1c1c, 0x1c1c1c, 0x1c1c1c, 0x1c1c1c, 0xf5f5f5] };
 
 // Cars driving about the city's streets, on the right (or the left, LEFT), turning off at junctions and keeping clear
 // of the race routes. Few in the old centre, and those mostly taxis; more further out. Only the
@@ -136,10 +138,11 @@ export function addTraffic(ctx, map, tracks, busLines = [], signals = null) {
   const cx = map.route.reduce((s, p) => s + p[0], 0) / map.route.length, cz = map.route.reduce((s, p) => s + p[1], 0) / map.route.length;
   const fromCentre = (x, z) => Math.hypot(x - cx, z - cz);
   const density = (x, z) => { const d = fromCentre(x, z); return d < 450 ? 0.15 : Math.min(1, 0.15 + ((d - 450) / 700) * 0.85); };
-  const taxis = (x, z) => { const d = fromCentre(x, z); return d < 550 ? 0.75 : d < 950 ? 0.3 : 0.05; };
+  const taxis = (x, z) => { const d = fromCentre(x, z); return (TRAFFIC?.taxis ?? 1) * (d < 550 ? 0.75 : d < 950 ? 0.3 : 0.05); }; // fewer where the city says (TRAFFIC.taxis)
 
-  const meshes = {};
+  const meshes = {}, own = new Set([...(TRAFFIC?.mix ?? []).map(([t]) => t), TAXI.type]);
   for (const type of Object.keys(CAR_TYPES)) {
+    if (CAR_TYPES[type].colors && !own.has(type)) continue; // a city's own vehicles, only in that city
     meshes[type] = carInstances(type, POOL);
     for (const im of Object.values(meshes[type])) if (im) ctx.group.add(im);
   }
@@ -177,7 +180,7 @@ export function addTraffic(ctx, map, tracks, busLines = [], signals = null) {
       if (!c.bus && r() > density(spot.x, spot.z)) continue;
       if (viewers.some(o => (o.x - spot.x) ** 2 + (o.z - spot.z) ** 2 < min * min)) continue;
       if (cars.some(o => o.on && (o.pos.x - spot.x) ** 2 + (o.pos.z - spot.z) ** 2 < (c.bus ? 400 : 144))) continue;
-      const pick = c.bus ? { type: 'bus', c: 0xffffff } : r() < taxis(spot.x, spot.z) ? { type: 'taxi', c: r() < 0.8 ? 0x1c1c1c : 0xf5f5f5 } : randomCar(r);
+      const pick = c.bus ? { type: 'bus', c: 0xffffff } : r() < taxis(spot.x, spot.z) ? { type: TAXI.type, c: TAXI.colors[Math.floor(r() * TAXI.colors.length)] } : randomCar(r);
       Object.assign(c, pick, { on: true, speed: p.speed * 0.8, yaw: spot.yaw });
       c.cruise = cruiseOn(c, p);
       c.pos.set(spot.x, spot.y, spot.z);

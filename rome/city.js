@@ -5,19 +5,21 @@
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
 //   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
+//   quests.js        the quests and their words (hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs rome`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs rome`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs rome`
-// No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
+export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
-export const QUESTS = [], SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
@@ -35,6 +37,9 @@ export const WORDS = {
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the city gets.
 export const THEME = { ground: '#a39a8c', paving: '#c9bda6', verge: 0xc9bda6, kerb: 0xddd3bf, fog: [160, 620], weathers: ['clear', 'rain'] };
+
+// What drives here besides the usual cars (js/cars.js): Vespas everywhere, old Fiat 500s, and white taxis.
+export const TRAFFIC = { mix: [['vespa', 0.45], ['cinquecento', 0.12]], taxis: 0.25, taxi: { type: 'taxi', colors: [0xf5f5f5] } };
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): plaster in
 // ochre, terracotta, sienna and cream, green and brown shutters, low roofs of terracotta tiles,

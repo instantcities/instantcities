@@ -5,19 +5,21 @@
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
 //   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
+//   quests.js        the quests and their words (hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs barcelona`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs barcelona`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs barcelona`
-// No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
+export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
-export const QUESTS = [], SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
@@ -35,6 +37,9 @@ export const WORDS = {
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the city gets.
 export const THEME = { ground: '#a49d92', paving: '#c9c1b2', verge: 0xc9c1b2, kerb: 0xddd6c8, fog: [160, 620], weathers: ['clear', 'rain'] };
+
+// What drives here besides the usual cars (js/cars.js): scooters, and black taxis.
+export const TRAFFIC = { mix: [['vespa', 0.2]], taxis: 0.5, taxi: { type: 'taxi', colors: [0x141414] } };
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): plaster and
 // sandstone in cream, ochre and pale rose, the dark stone of the Gothic Quarter, green and brown

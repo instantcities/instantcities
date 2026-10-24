@@ -131,6 +131,9 @@ export const SIGHT_PAGES = 'https://instantgent.be/en/sights/';
 // A race can bring its own.
 export const THEME = { ground: '#929497', fog: [160, 620] };
 
+// The tour boats on the Leie and the canals carry the name of the Bootjes van Gent (js/scenery.js).
+export const BOATS = { name: 'Bootjes van Gent' };
+
 // People everyone in town knows, each always on their own street: walking it up and down, end to
 // end, on its pavement, each drawn in full (js/figure.js): shirt is the coat, then a beard, a bag
 // in each hand (bagSize: how much bigger than usual), a cap, and stash: how far along the street (0 to 1)
