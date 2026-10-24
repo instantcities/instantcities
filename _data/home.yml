@@ -1,14 +1,13 @@
 # The words of the home page (_layouts/home.html) and the cities page (_layouts/cities.html); each
 # city on them comes from _data/cities.yml.
 title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
-description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Ghent, Rome, Paris, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
+description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
 tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
 map_title: "On the map"
-live_city: ghent # whose tour plays behind the home page's hero
-live_poster: /assets/img/boat.jpg
-live_caption: "Live: the tour of Ghent"
+live_city: paris # whose tour plays behind the home page's hero
+live_caption: "Live: the tour of Paris"
 live_watch: "Watch the tour"
 soon_title: "Coming soon"
 cities_page_title: "Cities: the historic centres of Europe to play in 3D"
