@@ -813,7 +813,7 @@ export function buildMap(data, area) {
       }
       if (flatRoof) {
         // a flat roof: no ridge
-      } else if (old && sa != null && a / Math.max(1, L * W) > 0.7 && a < 700 && floors <= 5 && (!m || m.pitched)) {
+      } else if (old && A.gables !== false && sa != null && a / Math.max(1, L * W) > 0.7 && a < 700 && floors <= 5 && (!m || m.pitched)) {
         // an old house: its gable end faces the street, behind a stepped gable, if it is narrow enough
         const along = Math.abs(Math.cos(sa - ang)) > 0.7;
         const [ridge, span, rang] = along ? [W, L, ang + Math.PI / 2] : [L, W, ang];
