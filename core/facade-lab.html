@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- The page for the facade lab, shared by every city: `node tools/pages.mjs` makes each city's copy in its folder, filling {{key}} from its page.json. Paths are from a city's folder. -->
+<!-- The page for the facade lab, shared by every city: `node tools/pages.mjs` makes each city's copy in its play/ folder (<city>/play/), filling {{key}} from its page.json. Paths are from there: the city's own files are one folder up, core/ two. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -54,8 +54,8 @@
   </nav>
   <main id="main"></main>
   <script type="importmap">
-    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/", "city": "./city.js" } }
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/", "city": "../city.js" } }
   </script>
-  <script type="module" src="../core/js/facade-lab.js"></script>
+  <script type="module" src="../../core/js/facade-lab.js"></script>
 </body>
 </html>

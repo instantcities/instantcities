@@ -1,14 +1,17 @@
-{%- comment -%} The head every site page shares. Expects title, description, path (this page's) and image (a path). {%- endcomment -%}
+{%- comment -%} The head every site page shares. Expects title, description, path (this page's) and image (a path); noindex keeps search engines away. {%- endcomment -%}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111111">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
+{%- if noindex %}
+  <meta name="robots" content="noindex">
+{%- endif %}
   <link rel="canonical" href="{{ site.url }}{{ path }}">
   <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Instant City">
+  <meta property="og:site_name" content="Instant Cities">
   <meta property="og:url" content="{{ site.url }}{{ path }}">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">

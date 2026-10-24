@@ -1,6 +1,8 @@
-# One block per city: its card on the home page and its own page (_layouts/city.html, at
-# /cities/<id>/). The game itself is at /<id>/. A new city needs a block here and a
-# cities/<id>/index.html saying `city: <id>`.
+# One block per city: its card on the cities page (/cities/) and its own page (_layouts/city.html,
+# at /<id>/). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new city needs a block
+# here and an <id>/index.html saying `layout: city` and `city: <id>`.
+# A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
+# playable ones, and search engines leave it alone. It needs only id, name, country and card.
 - id: ghent
   name: Ghent
   country: Belgium
@@ -37,3 +39,51 @@
     - { icon: flag, title: "Two routes", text: "Lecce Centre, a loop past the Duomo, Porta Rudiae, Porta Napoli and Santa Croce, and from the station to Sant'Oronzo." }
     - { icon: compass, title: "Its own quests", text: "Short missions against the clock, like catching the thief who ran off with the papier-mâché statue of Sant'Oronzo." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: rome
+  name: Rome
+  country: Italy
+  soon: true
+  card: "From the Colosseum past the Pantheon to Piazza Navona."
+
+- id: paris
+  name: Paris
+  country: France
+  soon: true
+  card: "Along the Seine from Notre-Dame to the Eiffel Tower."
+
+- id: amsterdam
+  name: Amsterdam
+  country: Netherlands
+  soon: true
+  card: "The canal ring, its bridges and gabled houses, and bikes everywhere."
+
+- id: venice
+  name: Venice
+  country: Italy
+  soon: true
+  card: "On foot over the bridges and along the canals, from the Rialto to San Marco."
+
+- id: barcelona
+  name: Barcelona
+  country: Spain
+  soon: true
+  card: "The Gothic Quarter, the grid of the Eixample and Gaudí's Sagrada Família."
+
+- id: london
+  name: London
+  country: United Kingdom
+  soon: true
+  card: "From Westminster along the Thames to Tower Bridge."
+
+- id: florence
+  name: Florence
+  country: Italy
+  soon: true
+  card: "The Renaissance city on the Arno, from the Duomo to the Ponte Vecchio."
+
+- id: bruges
+  name: Bruges
+  country: Belgium
+  soon: true
+  card: "Ghent's neighbour: the canals, the Markt and its Belfry."

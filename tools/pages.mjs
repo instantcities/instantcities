@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-// Each city's pages, from the shared ones in core/: the game (core/game.html -> <city>/index.html),
-// the developer's asset viewer (core/dev.html -> <city>/dev.html), the facade lab where the city has
-// fronts to draw (core/facade-lab.html, if <city>/spots.json is there), the list of its shops and
-// restaurants (core/places.html, reading <city>/places.json from tools/places.mjs) and the offline worker
-// (<city>/sw.js, which runs core/sw.js). The words that differ per city, its name and what search
+// Each city's game pages, in its play/ folder (played at /<city>/play/; the city's own page at
+// /<city>/ is the site's, _layouts/city.html), from the shared ones in core/: the game
+// (core/game.html -> <city>/play/index.html), the developer's asset viewer (core/dev.html ->
+// <city>/play/dev.html), the facade lab where the city has fronts to draw (core/facade-lab.html, if
+// <city>/spots.json is there), the list of its shops and restaurants (core/places.html, reading
+// <city>/places.json from tools/places.mjs) and the offline worker (<city>/play/sw.js, which runs
+// core/sw.js). The words that differ per city, its name and what search
 // engines and shares show, come from <city>/page.json, and the loading screen's scene from
 // <city>/loader.html; {{key}} in a page is that key's value.
 //
@@ -31,18 +33,19 @@ const fill = (html, page, file) => html
   });
 
 for (const id of cities) {
-  const dir = path.join(ROOT, id);
+  const dir = path.join(ROOT, id), play = path.join(dir, 'play');
+  fs.mkdirSync(play, { recursive: true });
   // style: CSS for the page's head, e.g. the city's colours (the variables at the top of
   // core/style.css); loader: the scene on the loading screen, from <city>/loader.html
   const page = { style: '', site: SITE, ...JSON.parse(fs.readFileSync(path.join(dir, 'page.json'), 'utf8')), loader: fs.readFileSync(path.join(dir, 'loader.html'), 'utf8') };
   const pages = [['game.html', 'index.html'], ['dev.html', 'dev.html'], ['places.html', 'places.html']];
   if (fs.existsSync(path.join(dir, 'spots.json'))) pages.push(['facade-lab.html', 'facade-lab.html']);
   for (const [from, to] of pages) {
-    fs.writeFileSync(path.join(dir, to), fill(fs.readFileSync(path.join(ROOT, 'core', from), 'utf8'), page, from));
+    fs.writeFileSync(path.join(play, to), fill(fs.readFileSync(path.join(ROOT, 'core', from), 'utf8'), page, from));
   }
-  fs.writeFileSync(path.join(dir, 'sw.js'), `// ${id}: made by \`node tools/pages.mjs\`, do not edit by hand. The offline copy of this city's game
-// (core/sw.js), registered from here so that it looks after this folder.
-importScripts('../core/sw.js');
+  fs.writeFileSync(path.join(play, 'sw.js'), `// ${id}: made by \`node tools/pages.mjs\`, do not edit by hand. The offline copy of this city's game
+// (core/sw.js), registered from here so that it looks after this folder (the game), not the city's page.
+importScripts('../../core/sw.js');
 `);
-  console.error(`${id}: ${pages.map(p => p[1]).join(', ')}, sw.js`);
+  console.error(`${id}/play/: ${pages.map(p => p[1]).join(', ')}, sw.js`);
 }

@@ -1,0 +1,15 @@
+{%- comment -%} An old address that moved: sends the visitor on to the page's `to` (a path on this site). The city pages used to be at /cities/<id>/. {%- endcomment -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Moved to {{ site.url }}{{ page.to }}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.to }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ page.to }}">
+  <script>location.replace({{ page.to | jsonify }} + location.search + location.hash);</script>
+</head>
+<body>
+  <p>This page moved to <a href="{{ page.to }}">{{ site.url }}{{ page.to }}</a>.</p>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- The page for the places list, shared by every city: `node tools/pages.mjs` makes each city's copy in its folder, filling {{key}} from its page.json. Paths are from a city's folder. -->
+<!-- The page for the places list, shared by every city: `node tools/pages.mjs` makes each city's copy in its play/ folder (<city>/play/), filling {{key}} from its page.json. Paths are from there: the city's own files are one folder up, core/ two. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -44,6 +44,6 @@
     <div id="kinds"></div>
   </nav>
   <main id="main"></main>
-  <script type="module" src="../core/js/places.js"></script>
+  <script type="module" src="../../core/js/places.js"></script>
 </body>
 </html>

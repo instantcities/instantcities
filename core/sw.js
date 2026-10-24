@@ -1,6 +1,6 @@
-// Keeps a copy of a city's game in the browser, so it starts without a network. Each city's folder
-// has a little sw.js that runs this one (tools/pages.mjs writes it), so the copy looks after that
-// folder: self.location is the city's sw.js, not this file.
+// Keeps a copy of a city's game in the browser, so it starts without a network. Each city's play/
+// folder has a little sw.js that runs this one (tools/pages.mjs writes it), so the copy looks after
+// that folder: self.location is the city's play/sw.js, not this file.
 // The game's own files come from the network when it is there (so a new version shows up straight
 // away) and from the copy when it is not. Three.js and the fonts never change at their address, so
 // they come from the copy first.

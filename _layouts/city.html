@@ -1,18 +1,25 @@
-{%- comment -%} A city's page (/cities/<id>/): its block in _data/cities.yml, named by the page's `city`. The game itself is at /<id>/. {%- endcomment -%}
+{%- comment -%} A city's page (/<id>/): its block in _data/cities.yml, named by the page's `city`. The game itself is at /<id>/play/. A city marked `soon` has no game yet: its page says so and points to the ones there are. {%- endcomment -%}
 {%- assign C = site.data.cities | where: 'id', page.city | first -%}
 {%- assign H = site.data.home -%}
+{%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
 <html lang="en">
 <head>
-{%- assign title = C.title -%}{%- assign description = C.description -%}{%- assign path = '/cities/' | append: C.id | append: '/' -%}
+{%- if C.soon -%}
+{%- assign title = C.name | append: ' in 3D: coming soon to Instant Cities' -%}{%- assign description = C.card -%}{%- assign noindex = true -%}
+{%- else -%}
+{%- assign title = C.title -%}{%- assign description = C.description -%}
+{%- endif -%}
+{%- assign path = '/' | append: C.id | append: '/' -%}
 {%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
+{%- unless C.soon %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "VideoGame",
       "name": {{ C.game | jsonify }},
-      "url": "{{ site.url }}/{{ C.id }}/",
+      "url": "{{ site.url }}/{{ C.id }}/play/",
       "description": {{ C.description | jsonify }},
       "genre": ["Racing", "Open world"],
       "gamePlatform": "Web browser",
@@ -25,22 +32,38 @@
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
     }
   </script>
+{%- endunless %}
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   {% include topnav.html %}
 
   <main id="main">
+    {%- if C.soon %}
+    <section class="hero home-hero">
+      <div class="hero-text">
+        <h1>{{ C.name }} <span class="beta">COMING SOON</span></h1>
+        <p class="tagline">{{ C.card }}</p>
+        <p class="lead">There is no game of {{ C.name }} yet: we are still building it. In the meantime, ride through one of these:</p>
+        <p class="city-links centred">
+          {%- for c in playable %}
+          <a class="play small" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ c.name }}</a>
+          {%- endfor %}
+        </p>
+        <p class="note"><a href="/cities/">All cities</a></p>
+      </div>
+    </section>
+    {%- else %}
     <section class="hero{% unless C.image %} home-hero{% endunless %}">
       <div class="hero-text">
         <h1>{{ C.game }} <span class="beta">BETA</span></h1>
         <p class="tagline">{{ C.tagline }}</p>
         <p class="lead">{{ C.lead }}</p>
-        <a class="play" href="/{{ C.id }}/">{% include icon.html name="play" %} Play now</a>
+        <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play now</a>
         <p class="note">{{ H.play_note }}</p>
       </div>
       {%- if C.image %}
-      <a class="hero-shot" href="/{{ C.id }}/">
+      <a class="hero-shot" href="/{{ C.id }}/play/">
         <img src="/assets/img/{{ C.image }}.jpg" width="1440" height="810" alt="{{ C.hero_alt }}" fetchpriority="high">
         <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
       </a>
@@ -76,18 +99,20 @@
 
     <section class="cta">
       <h2>Ready to go?</h2>
-      <a class="play" href="/{{ C.id }}/">{% include icon.html name="play" %} Play {{ C.game }}</a>
+      <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
       <p class="note">{{ H.beta }}</p>
     </section>
+    {%- endif %}
   </main>
 
   <footer>
     <p class="alt">Other cities:
-      {%- for c in site.data.cities %}{% if c.id != C.id %}
-      <a href="/cities/{{ c.id }}/">{{ c.name }}</a>
+      {%- for c in playable %}{% if c.id != C.id %}
+      <a href="/{{ c.id }}/">{{ c.name }}</a>
       {%- endif %}{% endfor %}
+      <a href="/cities/">All cities</a>
     </p>
-    <p>{{ C.credits }} Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
   </footer>
 
   <script>

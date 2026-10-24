@@ -1,6 +1,6 @@
 // The places list (places.html): every shop, café and restaurant the game puts in a building, from
-// the city's places.json (tools/places.mjs), by the kind of shop front the game draws for it, with
-// what OpenStreetMap calls it and its address.
+// the city's places.json (tools/places.mjs, one folder up from the page), by the kind of shop front
+// the game draws for it, with what OpenStreetMap calls it and its address.
 const $ = id => document.getElementById(id);
 const esc = s => s.replace(/[&<>"]/g, c => `&${{ '&': 'amp', '<': 'lt', '>': 'gt', '"': 'quot' }[c]};`);
 
@@ -11,7 +11,7 @@ const KINDS = {
   florist: '💐 Florists', books: '📚 Books', shop: '🏪 Other shops',
 };
 
-const data = await fetch('places.json').then(r => (r.ok ? r.json() : null)).catch(() => null);
+const data = await fetch('../places.json').then(r => (r.ok ? r.json() : null)).catch(() => null);
 if (!data) {
   $('main').innerHTML = '<p>No places.json for this city yet: <code>node tools/places.mjs &lt;city&gt;</code> (needs the map download in tools/cache/).</p>';
 } else {
