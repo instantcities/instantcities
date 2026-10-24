@@ -1,0 +1,385 @@
+<!doctype html>
+<!-- prague: made from core/game.html by `node tools/pages.mjs`, do not edit by hand. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1d1a17">
+  <title>Instant Prague: a free 3D game of Prague, by bike, on foot or on horseback</title>
+  <meta name="description" content="Cycle, walk or gallop through a 3D version of the centre of Prague in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.">
+  <link rel="canonical" href="https://instantcities.net/prague/play/">
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Instant Cities">
+  <meta property="og:url" content="https://instantcities.net/prague/play/">
+  <meta property="og:title" content="Instant Prague: play through Prague in 3D">
+  <meta property="og:description" content="Cycle, walk or gallop through Prague in your browser. Explore or race, alone or with two. Free.">
+  <meta property="og:image" content="https://instantcities.net/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="nl_BE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Instant Prague: play through Prague in 3D">
+  <meta name="twitter:description" content="Cycle, walk or gallop through Prague in your browser. Explore or race, alone or with two. Free.">
+  <meta name="twitter:image" content="https://instantcities.net/og-image.jpg">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Instant Prague",
+      "url": "https://instantcities.net/prague/play/",
+      "image": "https://instantcities.net/og-image.jpg",
+      "description": "A free 3D browser game set in the centre of Prague, Czechia: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+      "genre": ["Racing", "Open world"],
+      "gamePlatform": "Web browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "inLanguage": ["en", "nl"],
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "contentLocation": { "@type": "City", "name": "Prague" },
+      "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../core/style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+        "city": "../city.js"
+      }
+    }
+  </script>
+  <style>:root { --accent: #b0302a; --accent-soft: #f5dcda; --gold: #e8b23a; --sky: #ece6dc; --skyline: #b9a99a; } .tag { color: #6e2a26; }</style>
+</head>
+<body class="booting">
+  <div id="loader" aria-live="polite">
+    <!-- A bike riding past Prague: the two spiky towers of the Týn church, the bridge tower, baroque houses under red roofs -->
+    <div class="loader-scene" aria-hidden="true">
+      <svg class="loader-skyline" viewBox="0 0 960 110">
+        <defs>
+          <g id="loaderCity">
+            <path fill="currentColor" fill-rule="evenodd" d="
+              M0 110V68h28v42zM-1 68l15-12 15 12z M30 110V64h26v46zM29 64c0-8 6-12 13-16 7 4 13 8 13 16z
+              M66 110V60h60v50zM74 60V24h14v36zM104 60V24h14v36zM72 24l9-24 9 24zM102 24l9-24 9 24zM70 30h4v-4h-4zM88 30h4v-4h-4zM100 30h4v-4h-4zM118 30h4v-4h-4z
+              M136 110V72h24v38zM135 72l13-10 13 10z
+              M172 110V40h28v70zM170 40h32l-16-22z
+              M210 110V66h26v44zM209 66c0-8 6-12 13-16 7 4 13 8 13 16z M240 110V70h36v40zM239 70l19-14 19 14z M282 110V66h38v44zM281 66l20-12 20 12z"/>
+            <path fill="var(--sky)" d="
+              M6 92v-8h5v8zM16 92v-8h5v8zM36 88v-8h5v8zM46 88v-8h5v8z
+              M78 54v-10h6v10zM108 54v-10h6v10zM88 100v-14a8 8 0 0 1 16 0v14z
+              M142 96v-8h5v8zM150 96v-8h5v8zM180 110V92a6 6 0 0 1 12 0v18zM182 70v-10h8v10z
+              M216 90v-8h5v8zM226 90v-8h5v8zM248 94v-8h5v8zM262 94v-8h5v8zM290 90v-8h5v8zM304 90v-8h5v8z"/>
+          </g>
+        </defs>
+        <use href="#loaderCity"/><use href="#loaderCity" x="320"/><use href="#loaderCity" x="640"/>
+      </svg>
+      <div class="loader-road"></div>
+      <svg class="loader-bike" viewBox="0 -30 80 80">
+        <g class="loader-thigh" fill="none" stroke="#16243d" stroke-width="4" stroke-linecap="round">
+          <path d="M31 9L36.3 24.1"/>
+          <g class="loader-shin"><path d="M36.3 24.1L38 41"/><path class="loader-foot" d="M38 41h3"/></g>
+        </g>
+        <g transform="translate(16 34)"><g class="loader-wheel">
+          <circle r="12.5" fill="none" stroke="#1d1a17" stroke-width="3"/>
+          <g stroke="#1d1a17" stroke-width="1.4"><path d="M0 0L12 0"/><path d="M0 0L-6 10.4"/><path d="M0 0L-6 -10.4"/><path d="M0 0L-12 0M0 0L6 -10.4M0 0L6 10.4"/></g>
+          <circle r="2" fill="#1d1a17"/>
+        </g></g>
+        <g transform="translate(64 34)"><g class="loader-wheel">
+          <circle r="12.5" fill="none" stroke="#1d1a17" stroke-width="3"/>
+          <g stroke="#1d1a17" stroke-width="1.4"><path d="M0 0L12 0"/><path d="M0 0L-6 10.4"/><path d="M0 0L-6 -10.4"/><path d="M0 0L-12 0M0 0L6 -10.4M0 0L6 10.4"/></g>
+          <circle r="2" fill="#1d1a17"/>
+        </g></g>
+        <g fill="none" stroke="#e4572e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 34 38 34 31 15M16 34 31 15 56 15M38 34 58 11 64 34"/>
+        </g>
+        <path d="M58 11 55 6h5" fill="none" stroke="#1d1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M25 13c0-2 3-2.5 6-2.5s6 .5 6 2c0 1.2-2 1.5-6 1.5s-6-.2-6-1z" fill="#1d1a17"/>
+        <path d="M25 13c0-2 3-2.5 6-2.5s6 .5 6 2c0 1.2-2 1.5-6 1.5s-6-.2-6-1z" fill="#1d1a17"/>
+        <g transform="translate(38 34)"><g class="loader-crank" stroke="#1d1a17" stroke-width="2.5" stroke-linecap="round">
+          <path d="M0 0 0 -7M0 0 0 7"/><path d="M-3 -7h6M-3 7h6"/>
+          <circle r="3.5" fill="#fffaf0" stroke-width="2"/>
+        </g></g>
+        <g class="loader-thigh near" fill="none" stroke="#23395d" stroke-width="4" stroke-linecap="round">
+          <path d="M31 9L36.3 24.1"/>
+          <g class="loader-shin"><path d="M36.3 24.1L38 41"/><path class="loader-foot" d="M38 41h3"/></g>
+        </g>
+        <path d="M31 8 40 -8" stroke="#23395d" stroke-width="10" stroke-linecap="round"/>
+        <path d="M33 4h6" stroke="#1d1a17" stroke-width="2"/>
+        <path d="M41 -6 48 1 56 6" fill="none" stroke="#23395d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="56.5" cy="6" r="2" fill="#f2c49b"/>
+        <circle cx="44" cy="-15" r="6.5" fill="#f2c49b"/>
+        <circle cx="50" cy="-14" r="2" fill="#e8806a"/>
+        <circle cx="46.5" cy="-17" r="1" fill="#1d1a17"/>
+        <path d="M44.5 -19.5 48 -19" stroke="#1d1a17" stroke-width="1.1" stroke-linecap="round"/>
+        <path d="M43 -11.5c2-2 5-2 7.5-1-.5 2-3 3-4.5 2-1 1-2.5 .5-3-1z" fill="#4a2c17"/>
+        <path d="M37 -19c0-6 4-8.5 8-8.5s7 1.5 7.5 5.5l-1 3z" fill="#23395d"/>
+        <path d="M44 -19.5h10.5c0 1.6-1.6 2.3-4 2.3H44z" fill="#16243d"/>
+        <circle cx="47" cy="-23.5" r="1.6" fill="var(--gold)"/>
+      </svg>
+    </div>
+    <div class="loader-title title">Instant Prague <span class="beta">BETA</span></div>
+    <ol class="loader-steps" id="loaderSteps"></ol>
+  </div>
+  <script>
+    // The loading screen's steps. This runs before the game's own scripts, so it carries its own
+    // words; main.js ticks the steps off with bootStep() as it gets through them.
+    (() => {
+      const WORDS = {
+        en: { download: 'Downloading the 3D engine and maps', horses: 'Saddling the horses', city: 'Building the city', paint: 'Drawing the first frame' },
+        nl: { download: '3D-motor en kaarten downloaden', horses: 'Paarden zadelen', city: 'De stad bouwen', paint: 'Eerste beeld tekenen' },
+      };
+      let lang = 'en';
+      try { lang = JSON.parse(localStorage.getItem('ghent3d.settings.v1'))?.lang || 'en'; } catch {}
+      const words = WORDS[lang] || WORDS.en, list = document.getElementById('loaderSteps');
+      const items = Object.keys(WORDS.en).map(key => {
+        const li = document.createElement('li');
+        li.innerHTML = '<span class="mark"></span><span></span><small></small>';
+        li.children[1].textContent = words[key];
+        list.append(li);
+        return [key, li];
+      });
+      window.bootStep = key => {
+        const at = items.findIndex(([k]) => k === key);
+        items.forEach(([, li], i) => li.className = i < at ? 'done' : i === at ? 'now' : '');
+      };
+      bootStep('download');
+      // How much has come in so far: the 3D engine, the game's code and the city maps are a few MB.
+      let bytes = 0;
+      const size = items[0][1].lastChild;
+      try {
+        new PerformanceObserver(list => {
+          for (const e of list.getEntries()) bytes += e.encodedBodySize || e.transferSize || 0;
+          size.textContent = (bytes / 1e6).toFixed(1).replace('.', lang === 'nl' ? ',' : '.') + ' MB';
+        }).observe({ type: 'resource', buffered: true });
+      } catch {}
+    })();
+  </script>
+  <noscript>
+    <h1>Instant Prague</h1>
+    <p>Ride a bike, walk or gallop through a 3D Prague in your browser. Turn on JavaScript to play.</p>
+  </noscript>
+  <canvas id="game"></canvas>
+  <div id="divider" class="hidden"></div>
+  <canvas id="minimap" class="hidden"></canvas>
+  <div id="streetbar" class="hidden"></div>
+  <div id="mute" class="hidden"></div>
+  <div id="toast" class="hidden"></div>
+  <button id="menuBtn" class="hidden" data-i18n="menu"></button>
+
+  <!-- The tour: the street below, how far along, and a card at each stop -->
+  <div id="tour" class="hidden">
+    <div id="tourBar"></div>
+    <button id="tourSpeed">1×</button>
+    <button id="tourMusic">🎵</button>
+    <div id="tourName"></div>
+    <div id="tourWelcome"><b id="tourWelcomeTitle"></b><small data-i18n="tour.welcomeSub"></small></div>
+    <div id="tourCard">
+      <div class="tour-head"><span id="tourEmoji"></span><div><small id="tourLabel"></small><b id="tourTitle"></b></div></div>
+      <div id="tourText"></div>
+      <div class="tour-btns">
+        <a class="chip" id="tourMore" target="_blank" rel="noopener" data-i18n="tour.more"></a>
+        <button class="chip hidden" id="tourMenu" data-i18n="menu"></button>
+        <button class="start" id="tourNext"></button>
+      </div>
+      <div class="tour-timer"><i id="tourTimer"></i></div>
+    </div>
+  </div>
+
+  <!-- On-screen controls for phones and tablets -->
+  <div id="touch" class="hidden">
+    <div id="steerZone">
+      <div class="steer-hint race-hint" data-i18n="tb.steer"></div>
+      <div class="steer-hint roam-hint" data-i18n="tb.ride"></div>
+      <div class="stick rest" id="stick"><div class="knob" id="knob"></div></div>
+    </div>
+    <div class="tbtns">
+      <button class="tbtn" id="tItem" aria-label="Item"><span class="ico"></span><span class="queue"></span><small data-i18n="tb.item"></small></button>
+      <button class="tbtn big" id="tJump" aria-label="Jump"><span>⤒</span><small data-i18n="tb.jump"></small></button>
+    </div>
+  </div>
+
+  <div id="menu" class="overlay">
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
+    <a class="site-link dev-link" href="dev.html">Dev</a>
+    <div class="card">
+      <div class="corner left">
+        <div class="row" data-row="mode">
+          <div class="opts" id="modeOpts">
+            <button class="chip" data-v="1"></button>
+            <button class="chip" data-v="2"></button>
+          </div>
+        </div>
+      </div>
+      <div class="corner">
+        <div class="row" data-row="audio">
+          <div class="opts">
+            <button class="chip" id="soundBtn"></button>
+          </div>
+        </div>
+        <div class="row" data-row="lang">
+          <div class="dropdown" id="langOpts">
+            <button class="chip" id="langBtn" aria-haspopup="listbox" aria-expanded="false"></button>
+            <div class="dd-list hidden" id="langList" role="listbox"></div>
+          </div>
+        </div>
+      </div>
+      <header>
+        <h1 class="title">Instant Prague <span class="beta">BETA</span></h1>
+        <p class="tag" data-i18n="tag"></p>
+      </header>
+
+      <div class="quad">
+        <div class="row" data-row="kind">
+          <div class="opts" id="kindOpts">
+            <button class="chip" data-k="mission" data-i18n="kind.mission"></button>
+            <button class="chip" data-k="race" data-i18n="kind.race"></button>
+            <button class="chip" data-k="tour" data-i18n="kind.tour"></button>
+          </div>
+        </div>
+      </div>
+      <div class="quad">
+        <div class="row" data-row="laps">
+          <div class="opts laps">
+            <button class="arrow" data-d="-1">‹</button><b id="lapCount"></b><button class="arrow" data-d="1">›</button>
+          </div>
+        </div>
+        <div class="row" data-row="weapons">
+          <div class="opts" id="weaponOpts">
+            <button class="chip" data-w="1" data-i18n="weapons.on"></button>
+            <button class="chip" data-w="0" data-i18n="weapons.off"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols">
+        <div class="settings">
+          <div class="row questrow" data-row="quest">
+            <div class="quests" id="questCards"></div>
+          </div>
+          <div class="row questrow" data-row="tour">
+            <div class="quests" id="tourCards"></div>
+          </div>
+          <div class="row" data-row="track">
+            <span class="label" id="trackLabel"></span>
+            <div class="opts">
+              <div class="tracks" id="trackCards"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="side">
+          <div class="row animals">
+            <div class="pcols" id="playerCols"></div>
+          </div>
+          <button class="start" id="startBtn" data-row="start"></button>
+          <p class="credit">© OpenStreetMap</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pause" class="overlay hidden">
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
+    <div class="card small">
+      <h2 class="title mid" data-i18n="paused"></h2>
+      <div class="btnrow pausetools">
+        <button class="chip" id="pauseSoundBtn"></button>
+        <select class="chip" id="skySelect"></select>
+        <button class="chip" id="pauseMapBtn" data-i18n="pause.map"></button>
+      </div>
+      <div class="btnrow">
+        <button class="chip" id="pauseTitleBtn" data-i18n="backToMenu"></button>
+        <button class="chip" id="restartBtn" data-i18n="restart"></button>
+        <button class="start still" id="resumeBtn" data-i18n="resume"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="brief" class="overlay hidden">
+    <div class="card small">
+      <div class="brief-emoji" id="briefEmoji"></div>
+      <h2 class="title mid" id="briefTitle"></h2>
+      <p class="brief-story" id="briefStory"></p>
+      <p class="brief-time" id="briefTime"></p>
+      <div class="btnrow">
+        <button class="start" id="briefBtn" data-i18n="quest.go"></button>
+        <button class="chip" id="briefMenuBtn" data-i18n="menu"></button>
+      </div>
+      <p class="foot kb" id="briefFoot"></p>
+    </div>
+  </div>
+  <div id="bigmap" class="overlay hidden">
+    <div id="bigTabs" class="btnrow">
+      <button class="chip on" id="bigTabMap" data-i18n="bigmap.tabMap"></button>
+      <button class="chip" id="bigTabIndex" data-i18n="bigmap.tabIndex"></button>
+    </div>
+    <div id="bigBody">
+      <div id="bigIndex" class="hidden">
+        <input id="bigSearch" type="search" autocomplete="off" spellcheck="false">
+        <div id="bigList"></div>
+      </div>
+      <canvas id="bigCanvas"></canvas>
+    </div>
+    <p class="bighint" data-i18n="bigmap.hint"></p>
+    <button class="chip" id="bigClose" data-i18n="bigmap.close"></button>
+    <div id="bigAsk" class="hidden">
+      <b id="bigAskText"></b>
+      <div class="btnrow">
+        <button class="chip on" id="bigYes" data-i18n="bigmap.yes"></button>
+        <button class="chip" id="bigNo" data-i18n="bigmap.no"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="results" class="overlay hidden">
+    <div class="card small">
+      <h2 class="title mid" data-i18n="results"></h2>
+      <p class="winner" id="winner"></p>
+      <table id="resultTable"></table>
+      <p class="duel" id="duel"></p>
+      <div class="btnrow">
+        <button class="start" id="againBtn" data-i18n="again"></button>
+        <button class="chip" id="resultsTitleBtn" data-i18n="menu"></button>
+      </div>
+      <p class="foot kb" data-i18n="results.foot"></p>
+    </div>
+  </div>
+
+  <script type="module" src="../../core/js/sound.js"></script>
+  <script type="module" src="../../core/js/main.js"></script>
+  <script>
+    // Keep a copy of the game for playing offline (sw.js). Not on a dev server, where every edit
+    // should show up on reload; ?sw turns it on there too, to try it out.
+    (() => {
+      const local = ['localhost', '127.0.0.1'].includes(location.hostname) && !location.search.includes('sw');
+      if ('serviceWorker' in navigator && !local) {
+        addEventListener('load', async () => {
+          try {
+            await navigator.serviceWorker.register('sw.js');
+            // the game used to be in the city's folder itself, its worker looking after that folder:
+            // now the city's page is there, which needs no offline copy
+            const before = new URL('../', location.href).href;
+            for (const r of await navigator.serviceWorker.getRegistrations()) if (r.scope === before) r.unregister();
+            const sw = (await navigator.serviceWorker.ready).active;
+            // what this first visit loaded before the worker was there to see it
+            const urls = performance.getEntriesByType('resource').map(e => e.name).filter(u => u.startsWith('http'));
+            sw?.postMessage({ type: 'keep', urls: [location.origin + location.pathname, ...urls] });
+          } catch { /* no offline copy: the game plays the same */ }
+        });
+      } else if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister()));
+      }
+    })();
+  </script>
+</body>
+</html>

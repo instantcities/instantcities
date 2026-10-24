@@ -5,6 +5,7 @@
 // folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
+//   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs london`, do not edit by hand
@@ -13,6 +14,7 @@
 // No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
+export { TOUR } from './tour.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
@@ -25,10 +27,10 @@ export const NAME = { nl: 'Londen', en: 'London', fr: 'Londres', es: 'Londres' }
 
 // The game's name and tagline here, in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant London', tag: 'Exploreer of race te fiets, te voet of te paard door Westminster!' },
-  en: { title: 'Instant London', tag: 'Explore or race by bike, on foot or on horseback through Westminster!' },
-  fr: { title: 'Instant London', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans Westminster !' },
-  es: { title: 'Instant London', tag: '¡Explora o corre en bici, a pie o a caballo por Westminster!' },
+  nl: { title: 'Instant London', tag: 'Exploreer of race te fiets, te voet of te paard door Westminster!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs Horse Guards, Downing Street, Big Ben en Trafalgar Square. Leun achterover en geniet!' },
+  en: { title: 'Instant London', tag: 'Explore or race by bike, on foot or on horseback through Westminster!', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Horse Guards, Downing Street, Big Ben and Trafalgar Square. Sit back and enjoy!' },
+  fr: { title: 'Instant London', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans Westminster !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Horse Guards, Downing Street, Big Ben et Trafalgar Square. Installe-toi et profite !' },
+  es: { title: 'Instant London', tag: '¡Explora o corre en bici, a pie o a caballo por Westminster!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Horse Guards, Downing Street, Big Ben y Trafalgar Square. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)

@@ -4,9 +4,10 @@
 
 Real cities in 3D in the browser (Three.js), rebuilt from OpenStreetMap: ride a bike, walk or
 gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. There are eight cities to play: Ghent and Lecce in full, and a small first piece
-of the centre of Rome, Paris, Amsterdam, Venice, Barcelona and London (see docs/first-maps.md). The
-site is in English, the game in English and Dutch.
+on one keyboard. There are sixteen cities to play: Ghent and Lecce in full, and a small first piece
+of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
+Florence, Prague, Vienna, Copenhagen and Berlin, each with a race and a tour (see docs/first-maps.md).
+The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
 the Dutch, French and Spanish site, the game in French and Spanish, the Ghent guide pages and the iOS
@@ -52,7 +53,7 @@ ghent/, lecce/   a city: its page and everything about it
   play/          the game (/ghent/play/), made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
   page.json      what the game's page says: the game's name, the title, what shares and search engines show
   city.js        what the city is: its map, routes, quests, sights, look; see its header for the rest
-rome/, paris/ …  the same, smaller: a first map and a race, no quests or sights yet (docs/first-maps.md)
+rome/, paris/ …  the same, smaller: a first map, a race and a tour, no quests or sights yet (docs/first-maps.md)
 cities/          the cities page (/cities/), and the old city pages that send visitors on
 tools/           making the maps and the pages (not on the site)
 ```

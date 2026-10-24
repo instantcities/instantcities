@@ -1,6 +1,6 @@
-# First maps: Rome, Paris, Amsterdam, Venice, Barcelona and London
+# First maps: fourteen cities
 
-Six cities went from "coming soon" to playable in one go, each with a small piece of its centre
+Fourteen cities got a first playable map, six and then eight at a time, each with a small piece of its centre
 (about 1.5 by 2 km), one race and free riding. They were made the way Lecce was
 (`docs/lecce-exercise.md`), from OpenStreetMap only, with no quests, sights, monuments or fronts yet.
 
@@ -12,6 +12,14 @@ Six cities went from "coming soon" to playable in one go, each with a small piec
 | Venice    | San Marco, Mercerie, Rialto                            | `mercerie`, open (start to finish), 0.9 km | 2,537 |
 | Barcelona | Plaça de Catalunya, Rambla, Barri Gòtic, Colom         | `rambla`, loop, 4.2 km                   | 4,367 |
 | London    | Trafalgar Square, Whitehall, Westminster, Embankment   | `westminster`, loop, 2.3 km              | 2,648 |
+| Bruges    | Markt, Burg, Rozenhoedkaai, Dijver, Our Lady          | `brugge`, loop, 1.3 km                   | 8,390 (measured heights) |
+| Antwerp   | Grote Markt, Het Steen, Scheldt, Groenplaats           | `antwerpen`, loop, 1.8 km                | 6,557 (measured heights) |
+| Brussels  | Grand-Place, Bourse, Manneken Pis                      | `grandplace`, loop, 2.5 km               | 4,646 |
+| Florence  | Duomo, Signoria, Ponte Vecchio, Santa Trinita          | `firenze`, loop, 1.9 km                  | 4,199 |
+| Prague    | Old Town Square, Josefov, the river by Charles Bridge  | `staremesto`, loop, 1.7 km               | 1,861 |
+| Vienna    | Stephansdom, Graben, Hofburg, Ring, Opera              | `innerestadt`, loop, 4.3 km              | 1,802 |
+| Copenhagen| Kongens Nytorv, Nyhavn, Slotsholmen, Strøget           | `stroget`, loop, 4.2 km                  | 3,376 |
+| Berlin    | Unter den Linden, Gendarmenmarkt, Holocaust Memorial   | `mitte`, loop, 3.0 km                    | 4,171 |
 
 ## How each one was made
 
@@ -31,6 +39,14 @@ Six cities went from "coming soon" to playable in one go, each with a small piec
 5. `city.js` (the look, the weathers, the names on the big map), `races.js`, `page.json` and
    `loader.html` (a skyline with the city's landmark), then `node tools/pages.mjs <city>`.
 
+Bruges and Antwerp lie in Flanders, so their `area.json` has `"heights": "dhmv"` like Ghent's: every
+roof at its measured height (the Belfry of Bruges stands its real 83 m). Prague and Vienna map their
+old towns as few, big outlines, so they have fewer buildings than their size suggests.
+
+Every city but Ghent also has a tour (`tour.js`): a flight along its race route over the roofs, made
+from the route in `map.js`, with a stop and a card (English and Dutch) at three to five sights on the
+way, and its own welcome line (`tour.welcomeSub` in its `WORDS`, as the shared one is Ghent's).
+
 ## What changed in the shared code
 
 - **No stepped gables outside Flanders and Amsterdam**: old houses (heritage-tagged) got a Flemish
@@ -45,4 +61,4 @@ Six cities went from "coming soon" to playable in one go, each with a small piec
   corners along the Mercerie are cut back.
 - Amsterdam's big buildings on the Dam get the grey stone look; its canal houses are fine.
 - The traffic lights in London still stand for traffic on the right.
-- No quests, no sights cards and no tour yet. The "Missions" tab only has free exploring.
+- No quests and no sights cards yet: the "Missions" tab only has free exploring.
