@@ -155,7 +155,16 @@ const game = {
 };
 
 
+// ?watch: the tour plays by itself, without the menu, the buttons or the cards, and nothing is
+// saved. For the site's pages, which show it behind their own words (an iframe; core/game.html marks
+// the page early, core/style.css hides the rest); a page can pause it while it is out of sight.
+// ?watch=cards: the whole tour with its cards, as from the menu, starting straight away (the
+// site's "watch the tour" link).
+const WATCH = new URLSearchParams(location.search).get('watch');
+let watchPaused = false;
+
 function saveSettings() {
+  if (WATCH != null) return;
   try {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify({
       mode: game.mode, track: game.trackIdx, laps: game.laps, sound: sfx.musicOn,
@@ -2226,7 +2235,7 @@ function updateTour(dt) {
     $('tourName').textContent = name;
     $('tourName').classList.toggle('show', !!name);
   }
-  if (tour.done && auto && game.time - tourEndAt > TOUR_AGAIN) startTour(); // and round again
+  if (tour.done && auto && game.time - tourEndAt > (WATCH === '' ? 1 : TOUR_AGAIN)) startTour(); // and round again
 }
 
 // The bar at the top: the tour's phases side by side, each as long as it is, with a gap between
@@ -3710,6 +3719,7 @@ let last = performance.now();
 function frame(now) {
   const dt = Math.min(0.05, (now - last) / 1000);
   last = now;
+  if (watchPaused) return requestAnimationFrame(frame);
   pollPads();
   step(dt);
   tickFade(dt);
@@ -3971,6 +3981,16 @@ setLanguage(game.lang);
 toMenu();
 setTouchMode(LOW_POWER);
 visitFromLink();
+if (WATCH != null && TOUR) {
+  game.tourMode = 'auto';
+  game.tourMusic = false;
+  game.tourSpeed = 1;
+  startTour();
+  // the page around it says when it scrolls out of sight, and back
+  addEventListener('message', e => {
+    if (e.origin === location.origin && e.data?.type === 'instant-cities:watch') watchPaused = !e.data.on;
+  });
+}
 await bootStep('paint');
 requestAnimationFrame(frame);
 music.ahead = 0.15; // loaded: back to short notice, so the music stops as soon as a game starts
@@ -3978,6 +3998,8 @@ music.ahead = 0.15; // loaded: back to short notice, so the music stops as soon 
 requestAnimationFrame(() => requestAnimationFrame(() => {
   document.body.classList.remove('booting');
   setTimeout(() => document.getElementById('loader').remove(), 500);
+  // and to the page around it, watching: it can show the tour now
+  if (WATCH != null && parent !== window) parent.postMessage({ type: 'instant-cities:ready' }, location.origin);
 }));
 
 // Handy for poking at the game from the dev console.

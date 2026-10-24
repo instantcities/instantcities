@@ -23,6 +23,13 @@ page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city
 `_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
 `/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
 
+The heroes of the home page and of every city's page play that city's tour live behind their words:
+the game in watch mode (`/<id>/play/?watch`: no menu, buttons or cards, nothing saved) in an iframe,
+`_includes/live.html`, paused while it is scrolled out of sight. `?watch=cards` is the whole tour
+with its cards, starting straight away: the pages' "Watch the tour" button. The map of Europe on the
+home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
+`node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
+
 ```bash
 python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/
 bundle install && bundle exec jekyll serve   # the whole site: http://localhost:4000/

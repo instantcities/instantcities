@@ -49,6 +49,11 @@ export const TOUR = {
       },
     },
   ],
+  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  skies: [
+    { at: [269, 324], sky: 'day:clear' },
+    { at: [42, 394], sky: 'night:clear' },
+  ],
   end: { look: [437, 15, 419] },
   names: [
     { name: 'Via del Plebiscito', at: [361, 305] },

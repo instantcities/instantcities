@@ -1,0 +1,8 @@
+{%- comment -%}
+  A city's tour, live, behind a hero: {% include live.html city="ghent" poster="/assets/img/boat.jpg" %}.
+  The game in watch mode (/<city>/play/?watch, see core/js/main.js) goes in an iframe once the page
+  itself has loaded (_includes/live.js); the poster, or a dark sky, shows until the tour is ready.
+{%- endcomment -%}
+<div class="live" data-src="/{{ include.city }}/play/?watch" aria-hidden="true">
+  {%- if include.poster %}<img class="poster" src="{{ include.poster }}" alt="" fetchpriority="high">{% endif %}
+</div>

@@ -20,6 +20,10 @@
       </div>
     </section>
 
+    <section id="map" class="map">
+      {% include europe.html %}
+    </section>
+
     <section id="play" class="cities">
       <h2>{{ H.cities_title }}</h2>
       <div class="grid">
@@ -48,6 +52,7 @@
 
   <script>
     {% include topnav.js %}
+    {% include europe.js %}
   </script>
 </body>
 </html>

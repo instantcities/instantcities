@@ -51,6 +51,11 @@ export const TOUR = {
       },
     },
   ],
+  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  skies: [
+    { at: [202, -203], sky: 'day:clear' },
+    { at: [27, -276], sky: 'night:clear' },
+  ],
   end: { look: [266, 15, -332] },
   names: [
     { name: 'Piazza del Duomo', at: [199, -285] },

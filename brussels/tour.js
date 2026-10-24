@@ -40,6 +40,11 @@ export const TOUR = {
       },
     },
   ],
+  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  skies: [
+    { at: [92, -73], sky: 'day:clear' },
+    { at: [299, 70], sky: 'night:clear' },
+  ],
   end: { look: [118, 15, 0] },
   names: [
     { name: 'Grand-Place - Grote Markt', at: [157, -16] },

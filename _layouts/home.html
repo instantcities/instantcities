@@ -1,4 +1,4 @@
-{%- comment -%} The home page: what Instant Cities is, a card per playable city (_data/cities.yml) and a link to the cities page for the rest. Its words are in _data/home.yml. {%- endcomment -%}
+{%- comment -%} The home page: what Instant Cities is over Ghent's tour playing live, a card per playable city (_data/cities.yml), the map of Europe and a link to the cities page. Its words are in _data/home.yml. {%- endcomment -%}
 {%- assign H = site.data.home -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
@@ -13,13 +13,19 @@
   {% include topnav.html %}
 
   <main id="main">
-    <section class="hero home-hero">
+    <section class="hero home-hero live-hero">
+      {% include live.html city=H.live_city poster=H.live_poster %}
       <div class="hero-text">
         <h1>Instant Cities <span class="beta">BETA</span></h1>
         <p class="tagline">{{ H.tagline }}</p>
         <p class="lead">{{ H.lead }}</p>
+        <p class="hero-btns">
+          <a class="play" href="#cities">{% include icon.html name="play" %} {{ H.cities_title }}</a>
+          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+        </p>
         <p class="note">{{ H.play_note }}</p>
       </div>
+      <a class="live-caption" href="/{{ H.live_city }}/">{{ H.live_caption }}</a>
     </section>
 
     <section class="vibe">
@@ -34,6 +40,11 @@
         {%- endfor %}
       </div>
       <p class="more"><a href="/cities/">All cities{% if soon.size > 0 %}, and the {{ soon.size }} still to come{% endif %} →</a></p>
+    </section>
+
+    <section id="map" class="map">
+      <h2>{{ H.map_title }}</h2>
+      {% include europe.html %}
     </section>
 
     <section id="features" class="features">
@@ -63,6 +74,8 @@
 
   <script>
     {% include topnav.js %}
+    {% include live.js %}
+    {% include europe.js %}
   </script>
 </body>
 </html>

@@ -5,6 +5,11 @@ description: "Free 3D browser games set in real cities, rebuilt from OpenStreetM
 tagline: "Real cities in 3D, to explore or race by bike, on foot or on horseback."
 lead: "Every street and building from OpenStreetMap, at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
+map_title: "On the map"
+live_city: ghent # whose tour plays behind the home page's hero
+live_poster: /assets/img/boat.jpg
+live_caption: "Live: the tour of Ghent"
+live_watch: "Watch the tour"
 soon_title: "Coming soon"
 cities_page_title: "Cities: every city in Instant Cities, to play in 3D or still to come"
 cities_page_description: "Every city in Instant Cities: the ones to play in 3D in your browser today, by bike, on foot or on horseback, and the ones we are building next."

@@ -1,7 +1,8 @@
-# One block per city (lat, lon: where it is, for the map of Europe; run `node tools/europe.mjs` after
-# adding a city): its card on the cities page (/cities/) and its own page (_layouts/city.html,
-# at /<id>/). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new city needs a block
-# here and an <id>/index.html saying `layout: city` and `city: <id>`.
+# One block per city: its card on the cities page (/cities/), its own page (_layouts/city.html, at
+# /<id>/) and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b
+# where the right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new
+# city needs a block here, an <id>/index.html saying `layout: city` and `city: <id>`, and
+# `node tools/europe.mjs` to place it on the map.
 # A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
 # playable ones, and search engines leave it alone. It needs only id, name, country and card.
 # (None is, for now: every city on the list has a first map.)
@@ -10,6 +11,7 @@
   country: Belgium
   lat: 51.0543
   lon: 3.7174
+  map_label: t
   game: Instant Gent
   title: "Instant Gent: a free 3D game of Ghent, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of Ghent in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
@@ -136,6 +138,7 @@
   country: United Kingdom
   lat: 51.5072
   lon: -0.1276
+  map_label: l
   game: Instant London
   title: "Instant London: a free 3D game of London, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of London in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -153,6 +156,7 @@
   country: Belgium
   lat: 51.2089
   lon: 3.2242
+  map_label: l
   game: Instant Bruges
   title: "Instant Bruges: a free 3D game of Bruges, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Bruges in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
@@ -187,6 +191,7 @@
   country: Belgium
   lat: 50.8467
   lon: 4.3525
+  map_label: b
   game: Instant Brussels
   title: "Instant Brussels: a free 3D game of Brussels, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Brussels in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."

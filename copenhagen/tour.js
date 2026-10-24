@@ -54,6 +54,11 @@ export const TOUR = {
       },
     },
   ],
+  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  skies: [
+    { at: [475, -409], sky: 'day:clear' },
+    { at: [87, -225], sky: 'night:clear' },
+  ],
   end: { look: [693, 15, -258] },
   names: [
     { name: 'Kongens Nytorv', at: [394, -449] },
