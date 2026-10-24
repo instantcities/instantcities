@@ -72,6 +72,7 @@ export class Tour {
     };
     const inOrder = list => { let s = 0; return (list ?? []).map(it => ({ ...it, s: (s = along(it.at, s)) })); };
     this.stops = inOrder(def.stops);
+    this.from = def.from ? along(def.from) : 0; // where along the path it sets off (the start of it, unless the tour says)
     this.names = inOrder(def.names);
     // the tour's parts, each from s to end
     this.phases = inOrder(def.phases ?? [{ at: def.path[0] }]).map((p, i, all) => ({ ...p, end: all[i + 1]?.s ?? this.length }));
@@ -105,9 +106,9 @@ export class Tour {
   }
 
   reset() {
-    this.s = 0;
+    this.s = this.from;
     this.v = 0;
-    this.next = 0; // the stop flown to (or waiting at)
+    this.next = this.stops.filter(st => st.s < this.from).length; // the stop flown to (or waiting at): the first ahead of where it sets off
     this.held = false; // waiting at that stop
     this.done = false; // at the end of the path
     this.roll = 0;
