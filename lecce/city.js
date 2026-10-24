@@ -3,6 +3,7 @@
 // docs/lecce-exercise.md). The files in this folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
+//   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
 //   quests.js        the quests and their words (hand-written)
 //   sights.js        the sights, and what a card tells you about each when you ride up (hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
@@ -18,6 +19,7 @@
 // for what it lacks.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
+export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGHTS } from './sights.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
@@ -35,10 +37,10 @@ export const NAME = { nl: 'Lecce', en: 'Lecce', fr: 'Lecce', es: 'Lecce' };
 // The game's name and tagline here, and the warnings of the dancers who pull you into the pizzica
 // (the collect quest's crowd), in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant Lecce', tag: 'Exploreer of race te fiets, te voet of te paard door het barokke Lecce!', 'quest.retch': '🌀 PAS OP, ZE TREKKEN JE DE DANS IN!', 'quest.puked': 'PIZZICA! 💃' },
-  en: { title: 'Instant Lecce', tag: 'Explore or race by bike, on foot or on horseback through baroque Lecce!', 'quest.retch': '🌀 WATCH OUT, THEY’LL PULL YOU INTO THE DANCE!', 'quest.puked': 'PIZZICA! 💃' },
-  fr: { title: 'Instant Lecce', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans la Lecce baroque !', 'quest.retch': '🌀 ATTENTION, ILS VONT T’ENTRAÎNER DANS LA DANSE !', 'quest.puked': 'PIZZICA ! 💃' },
-  es: { title: 'Instant Lecce', tag: '¡Explora o corre en bici, a pie o a caballo por la Lecce barroca!', 'quest.retch': '🌀 ¡CUIDADO, TE VAN A METER EN EL BAILE!', 'quest.puked': '¡PIZZICA! 💃' },
+  nl: { title: 'Instant Lecce', tag: 'Exploreer of race te fiets, te voet of te paard door het barokke Lecce!', 'quest.retch': '🌀 PAS OP, ZE TREKKEN JE DE DANS IN!', 'quest.puked': 'PIZZICA! 💃', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs de Porta Rudiae, de Duomo, Sant’Oronzo en de Santa Croce. Leun achterover en geniet!' },
+  en: { title: 'Instant Lecce', tag: 'Explore or race by bike, on foot or on horseback through baroque Lecce!', 'quest.retch': '🌀 WATCH OUT, THEY’LL PULL YOU INTO THE DANCE!', 'quest.puked': 'PIZZICA! 💃', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Porta Rudiae, the Duomo, Sant’Oronzo and Santa Croce. Sit back and enjoy!' },
+  fr: { title: 'Instant Lecce', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans la Lecce baroque !', 'quest.retch': '🌀 ATTENTION, ILS VONT T’ENTRAÎNER DANS LA DANSE !', 'quest.puked': 'PIZZICA ! 💃', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Porta Rudiae, the Duomo, Sant’Oronzo et Santa Croce. Installe-toi et profite !' },
+  es: { title: 'Instant Lecce', tag: '¡Explora o corre en bici, a pie o a caballo por la Lecce barroca!', 'quest.retch': '🌀 ¡CUIDADO, TE VAN A METER EN EL BAILE!', 'quest.puked': '¡PIZZICA! 💃', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Porta Rudiae, the Duomo, Sant’Oronzo y Santa Croce. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground (the courtyards inside the blocks, paved) and how far the fog lets

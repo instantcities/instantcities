@@ -4,6 +4,7 @@
 // Lecce (see docs/lecce-exercise.md), from OpenStreetMap only. The files in this folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
+//   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs barcelona`, do not edit by hand
@@ -12,6 +13,7 @@
 // No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
+export { TOUR } from './tour.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
@@ -24,10 +26,10 @@ export const NAME = { nl: 'Barcelona', en: 'Barcelona', fr: 'Barcelone', es: 'Ba
 
 // The game's name and tagline here, in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant Barcelona', tag: 'Exploreer of race te fiets, te voet of te paard over de Rambla!' },
-  en: { title: 'Instant Barcelona', tag: 'Explore or race by bike, on foot or on horseback down the Rambla!' },
-  fr: { title: 'Instant Barcelona', tag: 'Explore ou fais la course à vélo, à pied ou à cheval sur la Rambla !' },
-  es: { title: 'Instant Barcelona', tag: '¡Explora o corre en bici, a pie o a caballo por la Rambla!' },
+  nl: { title: 'Instant Barcelona', tag: 'Exploreer of race te fiets, te voet of te paard over de Rambla!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs Liceu, Monument a Colom, Plaça Reial, Plaça de Sant Jaume en Catedral. Leun achterover en geniet!' },
+  en: { title: 'Instant Barcelona', tag: 'Explore or race by bike, on foot or on horseback down the Rambla!', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Liceu, Monument a Colom, Plaça Reial, Plaça de Sant Jaume and Catedral. Sit back and enjoy!' },
+  fr: { title: 'Instant Barcelona', tag: 'Explore ou fais la course à vélo, à pied ou à cheval sur la Rambla !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Liceu, Monument a Colom, Plaça Reial, Plaça de Sant Jaume et Catedral. Installe-toi et profite !' },
+  es: { title: 'Instant Barcelona', tag: '¡Explora o corre en bici, a pie o a caballo por la Rambla!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Liceu, Monument a Colom, Plaça Reial, Plaça de Sant Jaume y Catedral. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)

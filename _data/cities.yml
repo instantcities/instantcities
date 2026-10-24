@@ -1,12 +1,17 @@
-# One block per city: its card on the cities page (/cities/) and its own page (_layouts/city.html,
-# at /<id>/). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new city needs a block
-# here and an <id>/index.html saying `layout: city` and `city: <id>`.
+# One block per city: its card on the cities page (/cities/), its own page (_layouts/city.html, at
+# /<id>/) and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b
+# where the right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new
+# city needs a block here, an <id>/index.html saying `layout: city` and `city: <id>`, and
+# `node tools/europe.mjs` to place it on the map.
 # A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
 # playable ones, and search engines leave it alone. It needs only id, name, country and card.
 # (None is, for now: every city on the list has a first map.)
 - id: ghent
   name: Ghent
   country: Belgium
+  lat: 51.0543
+  lon: 3.7174
+  map_label: t
   game: Instant Gent
   title: "Instant Gent: a free 3D game of Ghent, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of Ghent in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
@@ -29,6 +34,8 @@
 - id: lecce
   name: Lecce
   country: Italy
+  lat: 40.3529
+  lon: 18.1743
   game: Instant Lecce
   title: "Instant Lecce: a free 3D game of baroque Lecce, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the baroque old town of Lecce in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
@@ -44,6 +51,8 @@
 - id: rome
   name: Rome
   country: Italy
+  lat: 41.8986
+  lon: 12.4769
   game: Instant Rome
   title: "Instant Rome: a free 3D game of Rome, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Rome in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -59,6 +68,8 @@
 - id: paris
   name: Paris
   country: France
+  lat: 48.8566
+  lon: 2.3522
   game: Instant Paris
   title: "Instant Paris: a free 3D game of Paris, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Paris in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -74,6 +85,8 @@
 - id: amsterdam
   name: Amsterdam
   country: Netherlands
+  lat: 52.3731
+  lon: 4.8926
   game: Instant Amsterdam
   title: "Instant Amsterdam: a free 3D game of Amsterdam, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Amsterdam in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -89,6 +102,8 @@
 - id: venice
   name: Venice
   country: Italy
+  lat: 45.4342
+  lon: 12.3388
   game: Instant Venice
   title: "Instant Venice: a free 3D game of Venice, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Venice in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -104,6 +119,8 @@
 - id: barcelona
   name: Barcelona
   country: Spain
+  lat: 41.3851
+  lon: 2.1734
   game: Instant Barcelona
   title: "Instant Barcelona: a free 3D game of Barcelona, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of Barcelona in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -119,6 +136,9 @@
 - id: london
   name: London
   country: United Kingdom
+  lat: 51.5072
+  lon: -0.1276
+  map_label: l
   game: Instant London
   title: "Instant London: a free 3D game of London, by bike, on foot or on horseback"
   description: "Cycle, walk or gallop through a 3D version of the centre of London in your browser. Explore the city or race, alone or two players on one keyboard."
@@ -129,4 +149,142 @@
     - { icon: city, title: "The real London", text: "About 2,600 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
     - { icon: tower, title: "Westminster", text: "Trafalgar Square, Whitehall and Downing Street, Parliament Square with Big Ben and Westminster Abbey, and the London Eye across the Thames. Traffic keeps to the left." }
     - { icon: flag, title: "A race: Westminster", text: "From Charing Cross down Whitehall past Downing Street to Parliament Square and Big Ben, and back along the Thames on the Victoria Embankment." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: bruges
+  name: Bruges
+  country: Belgium
+  lat: 51.2089
+  lon: 3.2242
+  map_label: l
+  game: Instant Bruges
+  title: "Instant Bruges: a free 3D game of Bruges, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Bruges in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback along the canals of Bruges!"
+  lead: "The middle of Bruges in 3D: the Markt, the Belfry, the Rozenhoedkaai and the Dijver, every roof at its measured height."
+  card: "From the Markt and its Belfry along the canals to the Church of Our Lady."
+  features:
+    - { icon: city, title: "The real Bruges", text: "About 8,400 buildings from OpenStreetMap, each at the height Flanders measured it. A small first piece of the centre; more of the city comes later." }
+    - { icon: castle, title: "Markt and canals", text: "The Markt and its Belfry, the Burg, the Rozenhoedkaai and the Dijver along the canals, the Church of Our Lady and the Begijnhof." }
+    - { icon: flag, title: "A race: Markt and Dijver", text: "From the Markt under the Belfry to the Rozenhoedkaai, along the Dijver past the Gruuthuse to the Church of Our Lady, and back up the Steenstraat." }
+  credits: "Map data © OpenStreetMap contributors (ODbL). Heights: Digitaal Vlaanderen, DHMV II."
+
+- id: antwerp
+  name: Antwerp
+  country: Belgium
+  lat: 51.2213
+  lon: 4.3997
+  game: Instant Antwerp
+  title: "Instant Antwerp: a free 3D game of Antwerp, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Antwerp in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through old Antwerp!"
+  lead: "The old town of Antwerp in 3D: the Grote Markt, the cathedral, Het Steen and Groenplaats, every roof at its measured height."
+  card: "From the Grote Markt to Het Steen on the Scheldt, and back past the cathedral."
+  features:
+    - { icon: city, title: "The real Antwerp", text: "About 6,600 buildings from OpenStreetMap, each at the height Flanders measured it. A small first piece of the centre; more of the city comes later." }
+    - { icon: gables, title: "The old town", text: "The Grote Markt and its guild houses, the cathedral, Het Steen on the Scheldt and Groenplaats, out to the Meir and the Rubenshuis." }
+    - { icon: flag, title: "A race: Grote Markt and Scheldt", text: "From the Grote Markt to Het Steen, south along the Scheldt, through the lanes to Groenplaats and back past the cathedral." }
+  credits: "Map data © OpenStreetMap contributors (ODbL). Heights: Digitaal Vlaanderen, DHMV II."
+
+- id: brussels
+  name: Brussels
+  country: Belgium
+  lat: 50.8467
+  lon: 4.3525
+  map_label: b
+  game: Instant Brussels
+  title: "Instant Brussels: a free 3D game of Brussels, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Brussels in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback round the Grand-Place of Brussels!"
+  lead: "The heart of Brussels in 3D: the Grand-Place, the Bourse, the Manneken Pis and the Galeries Saint-Hubert, every building from OpenStreetMap."
+  card: "Round the Grand-Place, past the Bourse and the Manneken Pis."
+  features:
+    - { icon: city, title: "The real Brussels", text: "About 4,600 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: flower, title: "Round the Grand-Place", text: "The guild houses and the town hall on the Grand-Place, the Bourse, the Manneken Pis and the Galeries Royales Saint-Hubert." }
+    - { icon: flag, title: "A race: Grand-Place", text: "From the Grand-Place to the Bourse, down the Rue du Midi to the Manneken Pis and back by the Rue des Éperonniers and the Marché aux Herbes." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: florence
+  name: Florence
+  country: Italy
+  lat: 43.7731
+  lon: 11.256
+  game: Instant Florence
+  title: "Instant Florence: a free 3D game of Florence, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Florence in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Renaissance Florence!"
+  lead: "The heart of Florence in 3D: the Duomo, Piazza della Signoria, the Uffizi and the Ponte Vecchio, every building from OpenStreetMap."
+  card: "From the Duomo to Piazza della Signoria and the Ponte Vecchio over the Arno."
+  features:
+    - { icon: city, title: "The real Florence", text: "About 4,200 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: church, title: "Renaissance Florence", text: "The Duomo and the Baptistery, Piazza della Signoria and the Uffizi, the Ponte Vecchio, with Santa Croce and Santa Maria Novella to ride to." }
+    - { icon: flag, title: "A race: Duomo and Ponte Vecchio", text: "From the Duomo down the Via dei Calzaiuoli to Piazza della Signoria, on to the Ponte Vecchio, along the Arno and back by Santa Trinita to the Baptistery." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: prague
+  name: Prague
+  country: Czechia
+  lat: 50.0875
+  lon: 14.4213
+  game: Instant Prague
+  title: "Instant Prague: a free 3D game of Prague, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Prague in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the Old Town of Prague!"
+  lead: "The Old Town of Prague in 3D: the Old Town Square, the astronomical clock, the Týn church and the Charles Bridge, every building from OpenStreetMap."
+  card: "From the Old Town Square through the Jewish Quarter to the river by the Charles Bridge."
+  features:
+    - { icon: city, title: "The real Prague", text: "About 1,900 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: tower, title: "The Old Town", text: "The Old Town Square with its astronomical clock and the Týn church, the Jewish Quarter and the river by the Charles Bridge." }
+    - { icon: flag, title: "A race: Old Town", text: "From the Old Town Square up the Pařížská through the Jewish Quarter to the river, past the Charles Bridge and back along the Karlova to the astronomical clock." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: vienna
+  name: Vienna
+  country: Austria
+  lat: 48.2085
+  lon: 16.3731
+  game: Instant Vienna
+  title: "Instant Vienna: a free 3D game of Vienna, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Vienna in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the heart of Vienna!"
+  lead: "The heart of Vienna in 3D: the Stephansdom, the Graben, the Hofburg and the State Opera, every building from OpenStreetMap."
+  card: "From the Stephansdom down the Graben to the Hofburg, and round the Ring to the Opera."
+  features:
+    - { icon: city, title: "The real Vienna", text: "About 1,800 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: columns, title: "Innere Stadt", text: "The Stephansdom and the Graben, the Hofburg on Michaelerplatz, the Ringstraße, the State Opera and the Albertina." }
+    - { icon: flag, title: "A race: Innere Stadt and Ring", text: "From the Stephansdom down the Graben to the Hofburg, round the Ringstraße to the State Opera and back past the Albertina and the Neuer Markt." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: copenhagen
+  name: Copenhagen
+  country: Denmark
+  lat: 55.6761
+  lon: 12.5683
+  game: Instant Copenhagen
+  title: "Instant Copenhagen: a free 3D game of Copenhagen, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Copenhagen in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Copenhagen, the city of bikes!"
+  lead: "The middle of Copenhagen in 3D: Nyhavn, Kongens Nytorv, Christiansborg and the Strøget, every building from OpenStreetMap."
+  card: "From Nyhavn past Christiansborg to the City Hall Square, and back along the Strøget."
+  features:
+    - { icon: city, title: "The real Copenhagen", text: "About 3,400 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: bike, title: "The city of bikes", text: "Nyhavn and Kongens Nytorv, Børsen and Christiansborg on Slotsholmen, the City Hall Square and the Strøget, with Tivoli and Amalienborg at the edges." }
+    - { icon: flag, title: "A race: Nyhavn and Strøget", text: "From Kongens Nytorv along Nyhavn, over Slotsholmen past Børsen and Christiansborg to the City Hall Square, and back along the Strøget." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: berlin
+  name: Berlin
+  country: Germany
+  lat: 52.5163
+  lon: 13.3777
+  game: Instant Berlin
+  title: "Instant Berlin: a free 3D game of Berlin, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Berlin in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through the heart of Berlin!"
+  lead: "The heart of Berlin in 3D: the Brandenburg Gate, Unter den Linden, the Gendarmenmarkt and Museum Island, every building from OpenStreetMap."
+  card: "From the Brandenburg Gate along Unter den Linden to the Gendarmenmarkt."
+  features:
+    - { icon: city, title: "The real Berlin", text: "About 4,200 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
+    - { icon: city, title: "Mitte", text: "The Brandenburg Gate and the Reichstag, Unter den Linden, the Gendarmenmarkt and the Holocaust Memorial, out to Museum Island." }
+    - { icon: flag, title: "A race: Mitte", text: "Along Unter den Linden to the Gendarmenmarkt, through the streets of Mitte to the Holocaust Memorial and up the Wilhelmstraße back to Unter den Linden." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."

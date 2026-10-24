@@ -1345,3 +1345,9 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
 .lmp b { font-weight: 800; }
 .lmp small { font-weight: 700; font-size: 11px; opacity: 0.8; }
 @media (max-width: 760px), (max-height: 560px) { .lm { display: none; } }
+
+/* ?watch (js/main.js): the tour on its own, for the site's pages to show behind their words: no
+   loading screen, menu, buttons, street names or cards. (?watch=cards is the whole tour, as from the
+   menu, starting straight away.) */
+html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #tourBar, #tourSpeed, #tourMusic,
+  #tourWelcome, #tourName, #tourCard) { display: none !important; }

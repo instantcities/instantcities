@@ -60,6 +60,11 @@
     }
   </script>
   <style>:root { --accent: #b3122e; --accent-soft: #f5d9de; --sky: #dfe4ea; --skyline: #9aa5b3; } .tag { color: #5e1a26; }</style>
+  <!-- ?watch, the tour on its own for the site's pages (js/main.js): marked before anything shows -->
+  <script>
+    const watch = new URLSearchParams(location.search).get('watch');
+    if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
+  </script>
 </head>
 <body class="booting">
   <div id="loader" aria-live="polite">

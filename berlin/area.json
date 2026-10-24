@@ -1,0 +1,46 @@
+{
+  "city": "Berlin",
+  "bbox": [
+    52.511,
+    13.374,
+    52.523,
+    13.412
+  ],
+  "zone_points": [
+    [
+      52.523,
+      13.374
+    ],
+    [
+      52.523,
+      13.412
+    ],
+    [
+      52.511,
+      13.412
+    ],
+    [
+      52.511,
+      13.374
+    ]
+  ],
+  "routes": [
+    {
+      "id": "mitte",
+      "route": [
+        "Unter den Linden",
+        "Charlottenstraße",
+        "Taubenstraße",
+        "Mauerstraße",
+        "Französische Straße",
+        "Hannah-Arendt-Straße",
+        "Cora-Berliner-Straße",
+        "Behrenstraße",
+        "Wilhelmstraße"
+      ]
+    }
+  ],
+  "floors": 6,
+  "hw": 4.5,
+  "gables": false
+}

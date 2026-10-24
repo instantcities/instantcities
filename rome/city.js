@@ -4,6 +4,7 @@
 // Made like Lecce (see docs/lecce-exercise.md), from OpenStreetMap only. The files in this folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
+//   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs rome`, do not edit by hand
@@ -12,6 +13,7 @@
 // No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
+export { TOUR } from './tour.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
@@ -24,10 +26,10 @@ export const NAME = { nl: 'Rome', en: 'Rome', fr: 'Rome', es: 'Roma' };
 
 // The game's name and tagline here, in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant Rome', tag: 'Exploreer of race te fiets, te voet of te paard door het oude Rome!' },
-  en: { title: 'Instant Rome', tag: 'Explore or race by bike, on foot or on horseback through ancient Rome!' },
-  fr: { title: 'Instant Rome', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans la Rome antique !' },
-  es: { title: 'Instant Rome', tag: '¡Explora o corre en bici, a pie o a caballo por la Roma antigua!' },
+  nl: { title: 'Instant Rome', tag: 'Exploreer of race te fiets, te voet of te paard door het oude Rome!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs Piazza Venezia, Piazza Colonna, Pantheon en Largo di Torre Argentina. Leun achterover en geniet!' },
+  en: { title: 'Instant Rome', tag: 'Explore or race by bike, on foot or on horseback through ancient Rome!', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Piazza Venezia, Piazza Colonna, Pantheon and Largo di Torre Argentina. Sit back and enjoy!' },
+  fr: { title: 'Instant Rome', tag: 'Explore ou fais la course à vélo, à pied ou à cheval dans la Rome antique !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Piazza Venezia, Piazza Colonna, Pantheon et Largo di Torre Argentina. Installe-toi et profite !' },
+  es: { title: 'Instant Rome', tag: '¡Explora o corre en bici, a pie o a caballo por la Roma antigua!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Piazza Venezia, Piazza Colonna, Pantheon y Largo di Torre Argentina. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)

@@ -54,20 +54,19 @@
       </div>
     </section>
     {%- else %}
-    <section class="hero{% unless C.image %} home-hero{% endunless %}">
+    <section class="hero home-hero live-hero">
+      {%- if C.image %}{% assign poster = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign poster = nil %}{% endif %}
+      {% include live.html city=C.id poster=poster %}
       <div class="hero-text">
         <h1>{{ C.game }} <span class="beta">BETA</span></h1>
         <p class="tagline">{{ C.tagline }}</p>
         <p class="lead">{{ C.lead }}</p>
-        <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play now</a>
+        <p class="hero-btns">
+          <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play now</a>
+          <a class="watch" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+        </p>
         <p class="note">{{ H.play_note }}</p>
       </div>
-      {%- if C.image %}
-      <a class="hero-shot" href="/{{ C.id }}/play/">
-        <img src="/assets/img/{{ C.image }}.jpg" width="1440" height="810" alt="{{ C.hero_alt }}" fetchpriority="high">
-        <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
-      </a>
-      {%- endif %}
     </section>
 
     <section id="features" class="features">
@@ -117,6 +116,7 @@
 
   <script>
     {% include topnav.js %}
+    {% include live.js %}
   </script>
 </body>
 </html>

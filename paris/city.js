@@ -4,6 +4,7 @@
 // docs/lecce-exercise.md), from OpenStreetMap only. The files in this folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
+//   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs paris`, do not edit by hand
@@ -12,6 +13,7 @@
 // No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
+export { TOUR } from './tour.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
@@ -24,10 +26,10 @@ export const NAME = { nl: 'Parijs', en: 'Paris', fr: 'Paris', es: 'París' };
 
 // The game's name and tagline here, in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant Paris', tag: 'Exploreer of race te fiets, te voet of te paard langs de Seine!' },
-  en: { title: 'Instant Paris', tag: 'Explore or race by bike, on foot or on horseback along the Seine!' },
-  fr: { title: 'Instant Paris', tag: 'Explore ou fais la course à vélo, à pied ou à cheval au bord de la Seine !' },
-  es: { title: 'Instant Paris', tag: '¡Explora o corre en bici, a pie o a caballo junto al Sena!' },
+  nl: { title: 'Instant Paris', tag: 'Exploreer of race te fiets, te voet of te paard langs de Seine!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf en Châtelet. Leun achterover en geniet!' },
+  en: { title: 'Instant Paris', tag: 'Explore or race by bike, on foot or on horseback along the Seine!', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf and Châtelet. Sit back and enjoy!' },
+  fr: { title: 'Instant Paris', tag: 'Explore ou fais la course à vélo, à pied ou à cheval au bord de la Seine !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf et Châtelet. Installe-toi et profite !' },
+  es: { title: 'Instant Paris', tag: '¡Explora o corre en bici, a pie o a caballo junto al Sena!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf y Châtelet. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)

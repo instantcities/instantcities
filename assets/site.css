@@ -127,12 +127,55 @@ footer a { color: var(--muted); }
 footer a:hover { color: var(--ink); }
 footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px; color: var(--muted); }
 
+/* A hero over a live tour (_includes/live.html): the flight fills it, darkened at the top and the
+   bottom, and the words are white on it. The poster (or a dark sky) shows until the tour is ready. */
+.live-hero { position: relative; overflow: hidden; isolation: isolate; min-height: min(78vh, 720px); align-content: center; background: #1f2830; color: #fff; border-bottom: 0; }
+.live { position: absolute; inset: 0; z-index: -1; }
+.live img, .live iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; pointer-events: none; }
+.live iframe { opacity: 0; transition: opacity 1.4s; }
+.live.ready iframe { opacity: 1; }
+.live::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(10, 14, 18, .55), rgba(10, 14, 18, .3) 40%, rgba(10, 14, 18, .6)); }
+.live-hero .tagline, .live-hero h1 { color: #fff; text-shadow: 0 2px 18px rgba(0, 0, 0, .35); }
+.live-hero .lead, .live-hero .note { color: rgba(255, 255, 255, .86); }
+.live-hero .beta { color: rgba(255, 255, 255, .8); }
+.live-hero .play { background: #fff; color: var(--ink); }
+.live-hero .play:hover { background: #e9e9e6; color: var(--ink); }
+.hero-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.watch {
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, .7); color: #fff; text-decoration: none;
+  font-size: 16px; font-weight: 600; line-height: 1; transition: background .15s;
+}
+.watch:hover { background: rgba(255, 255, 255, .14); color: #fff; }
+.watch .ic { width: .95em; height: .95em; }
+.live-caption { position: absolute; right: max(16px, calc((100vw - 1100px) / 2)); bottom: 16px; font-size: 13px; color: rgba(255, 255, 255, .8); text-decoration: none; }
+.live-caption::before { content: ''; display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 50%; background: #e5484d; vertical-align: 1px; }
+.live-caption:hover { color: #fff; }
+
+/* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
+.map { border-top: 1px solid var(--line); }
+.europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }
+.europe svg { display: block; width: 100%; height: auto; }
+.europe .land { fill: #e6e6e2; stroke: #fff; stroke-width: 1.2; stroke-linejoin: round; }
+.europe .pin { color: var(--ink); text-decoration: none; }
+.europe .pin circle { fill: var(--ink); stroke: #fff; stroke-width: 2; transition: r .15s; }
+.europe .pin .halo { fill: transparent; stroke: none; }
+.europe .pin text { font: 600 17px 'Inter', system-ui, sans-serif; fill: var(--ink); paint-order: stroke; stroke: #f7f8f9; stroke-width: 4px; stroke-linejoin: round; }
+.europe .side-l text { text-anchor: end; }
+.europe .side-t text, .europe .side-b text { text-anchor: middle; }
+.europe .pin:hover circle:not(.halo), .europe .pin:focus-visible circle:not(.halo) { r: 9; fill: #e5484d; }
+.europe .pin:hover text { fill: #e5484d; }
+.europe .soon circle:not(.halo) { fill: #fff; stroke: var(--muted); }
+
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 680px) {
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
+  .europe { overflow-x: auto; }
+  .europe svg { width: 760px; max-width: none; }
+  .live-hero { min-height: 82vh; }
   main > section { padding-block: 44px; }
   .home-hero { padding-block: 56px !important; }
   .burger { display: inline-flex; }
