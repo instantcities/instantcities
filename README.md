@@ -4,7 +4,7 @@
 
 Real cities in 3D in the browser (Three.js), rebuilt from OpenStreetMap: ride a bike, walk or
 gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. For now there are two cities to play, Ghent and Lecce, and eight more on the cities
+on one keyboard. For now there are two cities to play, Ghent and Lecce, and six more on the cities
 page as "coming soon". The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
