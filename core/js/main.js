@@ -1818,7 +1818,7 @@ function pickSky(v) {
 // Either way the first sky is there straight away, the later ones fade in.
 function startSky() {
   if (game.state === 'menu') return rollSky(MENU_SKY_EVERY, false);
-  if (game.state === 'tour') return setSky(COMBOS.includes('night:snow') ? 'night:snow' : 'night:clear', false); // and fades into the day as the tour sets off (updateTour)
+  if (game.state === 'tour') return setSky(tourSky(tour.sky ?? 'day:clear'), false); // the tour's own sky where it starts, or a clear day (updateTour fades over to the next)
   if (game.sky === 'auto') return rideSky(0, false);
   setSky(game.sky, false);
 }

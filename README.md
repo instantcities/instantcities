@@ -2,8 +2,8 @@
 
 > Still in development: expect rough edges, and saved settings may reset between versions.
 
-Real cities in 3D in the browser (Three.js), rebuilt from OpenStreetMap: ride a bike, walk or
-gallop through them, race along their streets or play quests. Alone, or two players split-screen
+The historic centres of European cities in 3D in the browser (Three.js), rebuilt from
+OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests. Alone, or two players split-screen
 on one keyboard. There are sixteen cities to play: Ghent and Lecce in full, and a small first piece
 of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
 Florence, Prague, Vienna, Copenhagen and Berlin, each with a race and a tour (see docs/first-maps.md).

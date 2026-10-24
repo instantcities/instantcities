@@ -43,7 +43,7 @@ export const TOUR = {
       },
     },
   ],
-  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  // a clear day from the start, and night only near the end
   skies: [
     { at: [209, -19], sky: 'day:clear' },
     { at: [134, 175], sky: 'night:clear' },

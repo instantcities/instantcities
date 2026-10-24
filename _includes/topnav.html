@@ -1,9 +1,12 @@
 {%- comment -%}
-  The bar on top of every page: the logo, home and the cities page (which links every city). On narrow screens
-  the links fold away behind a hamburger button on the right. It stays on top as the page scrolls.
+  The bar on top of every page: the logo (with the city's name on a city's pages), home and the cities
+  page (which links every city). On narrow screens the links fold away behind a hamburger button on
+  the right. It stays on top as the page scrolls; over a live hero (body.over-live) it starts out
+  see-through and fills in white as the page scrolls (_includes/topnav.js).
 {%- endcomment -%}
+{%- if page.city %}{% assign bar_city = site.data.cities | where: 'id', page.city | first %}{% endif %}
 <header class="top" id="top">
-  <a class="brand" href="/"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities</span></a>
+  <a class="brand" href="/"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities{% if bar_city %}<span class="brand-city">: {{ bar_city.name }}</span>{% endif %}</span></a>
   <nav class="nav" id="menu" aria-label="Menu">
     <a href="/"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Home</a>
     <a href="/cities/"{% if page.layout == 'cities' or page.city %} aria-current="page"{% endif %}>Cities</a>
