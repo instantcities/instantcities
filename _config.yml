@@ -1,10 +1,11 @@
-title: Instant City
+title: Instant Cities
 url: https://instantcities.net # tools/pages.mjs reads it too; CNAME has the same domain
 
-# Only the site's pages are Jekyll pages: the home page (index.html) and one page per city
-# (cities/<id>/index.html, its words in _data/cities.yml). The game (core/, and each city's folder:
-# ghent/, lecce/) has no front matter, so it is copied as it is; core's pages are only templates
-# for tools/pages.mjs.
+# Only the site's pages are Jekyll pages: the home page (index.html), the cities page
+# (cities/index.html) and one page per city (<id>/index.html, its words in _data/cities.yml);
+# cities/<id>/ only sends old links on to /<id>/. The game (core/, and the rest of each city's
+# folder, its game pages in <id>/play/) has no front matter, so it is copied as it is; core's pages
+# are only templates for tools/pages.mjs.
 exclude:
   - core/game.html
   - core/dev.html

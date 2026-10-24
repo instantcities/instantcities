@@ -6,13 +6,13 @@ import { outline, rowParts } from './fronts.js';
 import { drawSpec, defaultSpec } from './facade-spec.js';
 import { ID, STREETS } from './city.js';
 
-// the page is in the city's folder: its spots.json is next to it, the photos in tools/
-const BASE = `../tools/streets/${ID}`, FLOOR = 3.4;
+// the page is in the city's play/ folder: its spots.json is one folder up, the photos in tools/
+const BASE = `../../tools/streets/${ID}`, FLOOR = 3.4;
 const $ = id => document.getElementById(id);
 let street = null, current = null;
 
 // the top spots of spots.json; the ones tools/street.mjs has fetched are in index.json
-const spots = (await fetch('spots.json').then(r => r.json()).catch(() => ({ spots: [] }))).spots;
+const spots = (await fetch('../spots.json').then(r => r.json()).catch(() => ({ spots: [] }))).spots;
 const index = await fetch(`${BASE}/index.json`).then(r => r.ok ? r.json() : []).catch(() => []);
 const ids = [...spots.map(s => s.id), ...index.filter(i => !spots.some(s => s.id === i))];
 $('street').innerHTML = ids.map(id => `<option value="${id}">${index.includes(id) ? '' : '(not fetched) '}${spots.find(s => s.id === id)?.name ?? id}</option>`).join('');

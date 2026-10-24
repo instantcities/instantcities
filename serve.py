@@ -12,5 +12,5 @@ class NoCache(http.server.SimpleHTTPRequestHandler):
 
 
 port = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get('PORT', 8321))
-print(f'Instant City (BETA): the games on http://localhost:{port}/ghent/ and http://localhost:{port}/lecce/')
+print(f'Instant Cities (BETA): the games on http://localhost:{port}/ghent/play/ and http://localhost:{port}/lecce/play/')
 http.server.ThreadingHTTPServer((os.environ.get('HOST', '127.0.0.1'), port), NoCache).serve_forever()

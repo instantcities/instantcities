@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- The page for the game, shared by every city: `node tools/pages.mjs` makes each city's copy in its folder, filling {{key}} from its page.json. Paths are from a city's folder. -->
+<!-- The page for the game, shared by every city: `node tools/pages.mjs` makes each city's copy in its play/ folder (<city>/play/), filling {{key}} from its page.json. Paths are from there: the city's own files are one folder up, core/ two. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,12 +10,12 @@
   <meta name="theme-color" content="#1d1a17">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
-  <link rel="canonical" href="{{site}}/{{id}}/">
-  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="canonical" href="{{site}}/{{id}}/play/">
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="{{name}}">
-  <meta property="og:url" content="{{site}}/{{id}}/">
+  <meta property="og:site_name" content="Instant Cities">
+  <meta property="og:url" content="{{site}}/{{id}}/play/">
   <meta property="og:title" content="{{share_title}}">
   <meta property="og:description" content="{{share_description}}">
   <meta property="og:image" content="{{site}}/og-image.jpg">
@@ -32,7 +32,7 @@
       "@context": "https://schema.org",
       "@type": "VideoGame",
       "name": "{{name}}",
-      "url": "{{site}}/{{id}}/",
+      "url": "{{site}}/{{id}}/play/",
       "image": "{{site}}/og-image.jpg",
       "description": "{{ld_description}}",
       "genre": ["Racing", "Open world"],
@@ -49,13 +49,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../core/style.css">
+  <link rel="stylesheet" href="../../core/style.css">
   <script type="importmap">
     {
       "imports": {
         "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
         "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
-        "city": "./city.js"
+        "city": "../city.js"
       }
     }
   </script>
@@ -145,7 +145,7 @@
   </div>
 
   <div id="menu" class="overlay">
-    <a class="site-link" href="/" data-site-link data-i18n="site.back"></a>
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
     <a class="site-link dev-link" href="dev.html">Dev</a>
     <div class="card">
       <div class="corner left">
@@ -225,7 +225,7 @@
   </div>
 
   <div id="pause" class="overlay hidden">
-    <a class="site-link" href="/" data-site-link data-i18n="site.back"></a>
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
     <div class="card small">
       <h2 class="title mid" data-i18n="paused"></h2>
       <div class="btnrow pausetools">
@@ -291,8 +291,8 @@
     </div>
   </div>
 
-  <script type="module" src="../core/js/sound.js"></script>
-  <script type="module" src="../core/js/main.js"></script>
+  <script type="module" src="../../core/js/sound.js"></script>
+  <script type="module" src="../../core/js/main.js"></script>
   <script>
     // Keep a copy of the game for playing offline (sw.js). Not on a dev server, where every edit
     // should show up on reload; ?sw turns it on there too, to try it out.
@@ -302,6 +302,10 @@
         addEventListener('load', async () => {
           try {
             await navigator.serviceWorker.register('sw.js');
+            // the game used to be in the city's folder itself, its worker looking after that folder:
+            // now the city's page is there, which needs no offline copy
+            const before = new URL('../', location.href).href;
+            for (const r of await navigator.serviceWorker.getRegistrations()) if (r.scope === before) r.unregister();
             const sw = (await navigator.serviceWorker.ready).active;
             // what this first visit loaded before the worker was there to see it
             const urls = performance.getEntriesByType('resource').map(e => e.name).filter(u => u.startsWith('http'));

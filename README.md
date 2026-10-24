@@ -1,11 +1,11 @@
-# Instant City (BETA)
+# Instant Cities (BETA)
 
 > Still in development: expect rough edges, and saved settings may reset between versions.
 
 Real cities in 3D in the browser (Three.js), rebuilt from OpenStreetMap: ride a bike, walk or
 gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. For now there are two cities, Ghent and Lecce. The site is in English, the game in
-English and Dutch.
+on one keyboard. For now there are two cities to play, Ghent and Lecce, and eight more on the cities
+page as "coming soon". The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
 the Dutch, French and Spanish site, the game in French and Spanish, the Ghent guide pages and the iOS
@@ -13,14 +13,16 @@ app.
 
 ## Run locally
 
-Each city is a folder of its own with its game: `ghent/` (played at `/ghent/`) and `lecce/`
-(`/lecce/`). What they share, the game itself, is in `core/`. Around them is a small Jekyll site:
-the home page (`/`, `_layouts/home.html`, its words in `_data/home.yml`) and a page per city
-(`/cities/ghent/`, `/cities/lecce/`, `_layouts/city.html`, their words in `_data/cities.yml`).
-Screenshots are in `assets/img/`.
+Every city has the same two addresses: its page at `/<id>/` (`/ghent/`) and its game at
+`/<id>/play/` (`/ghent/play/`). Each is a folder of its own, `ghent/` and `lecce/`, with the game's
+pages in its `play/`; what the cities share, the game itself, is in `core/`. Around them is a small
+Jekyll site: the home page (`/`, `_layouts/home.html`, its words in `_data/home.yml`), the cities
+page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city (`/ghent/`,
+`_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
+`/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
 
 ```bash
-python3 serve.py        # just the games: http://localhost:8321/ghent/ and /lecce/
+python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/
 bundle install && bundle exec jekyll serve   # the whole site: http://localhost:4000/
 ```
 
@@ -42,21 +44,25 @@ core/            the game, the same for every city
   js/            the engine: riders, tracks, scenery, quests, sound (no city in it)
   sounds/        the recorded loops
   style.css
-  game.html      the page, a template: tools/pages.mjs makes each city's index.html from it
+  game.html      the page, a template: tools/pages.mjs makes each city's play/index.html from it
   dev.html, facade-lab.html, sw.js
 ghent/, lecce/   a city: its page and everything about it
-  index.html     made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
-  page.json      what its page says: the game's name, the title, what shares and search engines show
+  index.html     the city's page on the site (/ghent/): only `layout: city`, its words in _data/cities.yml
+  play/          the game (/ghent/play/), made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
+  page.json      what the game's page says: the game's name, the title, what shares and search engines show
   city.js        what the city is: its map, routes, quests, sights, look; see its header for the rest
-cities/          the site's page per city (its words in _data/cities.yml)
+rome/, paris/ …  a city still to come: only its page, marked `soon: true` in _data/cities.yml
+cities/          the cities page (/cities/), and the old city pages that send visitors on
 tools/           making the maps and the pages (not on the site)
 ```
 
 The engine reads the city from `core/js/city.js`, which takes it from the bare name `city`: each
 city's page maps that to its own `city.js` in its import map. A new city is a new folder with an
 `area.json` (for `tools/osm_map.mjs`), a `city.js`, a `page.json` (its words and colours) and a
-`loader.html` (the scene on its loading screen), and `node tools/pages.mjs` for its pages; on the
-site, a block in `_data/cities.yml` and a `cities/<id>/index.html`.
+`loader.html` (the scene on its loading screen), and `node tools/pages.mjs` for its game pages; on
+the site, a block in `_data/cities.yml` and an `<id>/index.html` with `layout: city` and `city: <id>`.
+A city's id is also its address, so it cannot be one of the site's own folders (`core`, `assets`,
+`cities`, `docs`, `tools`).
 
 ## Controls
 
@@ -142,7 +148,7 @@ the game as it was with them.
 
 ### A second city: Lecce
 
-`/lecce/` plays in the baroque old town of Lecce (Puglia) instead, from `lecce/`, in sand and brown
+`/lecce/play/` plays in the baroque old town of Lecce (Puglia) instead, from `lecce/`, in sand and brown
 rather than Ghent's blue. It has two routes (**Lecce
 Centro**, a loop past the Duomo, Porta Rudiae, Porta Napoli and Santa Croce, and **Stazione →
 Sant'Oronzo**), its own quests and sights, and its own look (`LOOK` in its `city.js`: pietra

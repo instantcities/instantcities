@@ -1,0 +1,16 @@
+{%- comment -%}
+  A city's card, on the home page and the cities page: {% include city-card.html city=c %}, c a block of _data/cities.yml.
+{%- endcomment -%}
+{%- assign it = include.city -%}
+        <article class="card city-card{% if it.soon %} is-soon{% endif %}">
+          <h3><a href="/{{ it.id }}/">{{ it.name }}</a> <small>{{ it.country }}</small></h3>
+          <p>{{ it.card }}</p>
+          <p class="city-links">
+            {%- if it.soon %}
+            <span class="soon-tag">Coming soon</span>
+            {%- else %}
+            <a class="play small" href="/{{ it.id }}/play/">{% include icon.html name="play" %} Play</a>
+            <a href="/{{ it.id }}/">About {{ it.game }}</a>
+            {%- endif %}
+          </p>
+        </article>

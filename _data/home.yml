@@ -1,9 +1,14 @@
-# The home page's words. Its markup is _layouts/home.html; each city on it comes from _data/cities.yml.
-title: "Instant City: play through real cities in 3D, by bike, on foot or on horseback"
-description: "Free 3D browser games set in real cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through Ghent or Lecce: explore, race or play quests, alone or two players on one keyboard."
+# The words of the home page (_layouts/home.html) and the cities page (_layouts/cities.html); each
+# city on them comes from _data/cities.yml.
+title: "Instant Cities: play through real cities in 3D, by bike, on foot or on horseback"
+description: "Free 3D browser games set in real cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through Ghent or Lecce, with more cities on the way: explore, race or play quests, alone or two players on one keyboard."
 tagline: "Real cities in 3D, to explore or race by bike, on foot or on horseback."
 lead: "Every street and building from OpenStreetMap, at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
+soon_title: "Coming soon"
+cities_page_title: "Cities: every city in Instant Cities, to play in 3D or still to come"
+cities_page_description: "Every city in Instant Cities: the ones to play in 3D in your browser today, by bike, on foot or on horseback, and the ones we are building next."
+cities_page_tagline: "Every city we have rebuilt in 3D, and the ones we are building next."
 features_title: "In every city"
 features:
   - { icon: city, title: "The real city", text: "Rebuilt from OpenStreetMap, every building at its measured height, with the landmarks drawn to measure." }

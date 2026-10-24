@@ -1,0 +1,53 @@
+{%- comment -%} The cities page (/cities/): a card per city in _data/cities.yml, the playable ones first, then the ones still to come. Its words are in _data/home.yml. {%- endcomment -%}
+{%- assign H = site.data.home -%}
+{%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
+{%- assign soon = site.data.cities | where: 'soon', true -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = H.cities_page_title -%}{%- assign description = H.cities_page_description -%}{%- assign path = '/cities/' -%}{%- assign image = '/og-image.jpg' %}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero home-hero">
+      <div class="hero-text">
+        <h1>Cities</h1>
+        <p class="tagline">{{ H.cities_page_tagline }}</p>
+      </div>
+    </section>
+
+    <section id="play" class="cities">
+      <h2>{{ H.cities_title }}</h2>
+      <div class="grid">
+        {%- for c in playable %}
+        {% include city-card.html city=c %}
+        {%- endfor %}
+      </div>
+    </section>
+
+    {%- if soon.size > 0 %}
+    <section id="soon" class="cities soon">
+      <h2>{{ H.soon_title }}</h2>
+      <div class="grid">
+        {%- for c in soon %}
+        {% include city-card.html city=c %}
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
+  </main>
+
+  <footer>
+    <p>{{ H.beta }}</p>
+    <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

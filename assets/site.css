@@ -102,6 +102,14 @@ h3 { font-size: 18px; margin-bottom: 6px; }
 .city-card h3 a { color: var(--ink); text-decoration: none; }
 .city-card h3 small { color: var(--muted); font-weight: 500; font-size: 14px; letter-spacing: 0; margin-left: 6px; }
 .city-links { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 18px; margin-top: 18px; font-size: 14px; font-weight: 500; }
+.city-links.centred { justify-content: center; }
+.cities .more { margin-top: 24px; font-weight: 500; }
+.cities .more a { text-decoration: none; }
+/* A city still to come: greyed, its tag where the play button would be */
+.soon { border-top: 1px solid var(--line); }
+.is-soon { background: var(--soft); }
+.is-soon h3 a { color: var(--muted); }
+.soon-tag { padding: 4px 9px; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; background: var(--paper); }
 .features { border-top: 1px solid var(--line); }
 
 .screens { border-top: 1px solid var(--line); }
