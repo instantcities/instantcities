@@ -1,0 +1,91 @@
+{
+  "intro": "Antwerp is the largest city of Flanders and Belgium’s great port, on the River Scheldt in the north of the country. In the 16th century it was the richest trading city of northern Europe, and a generation later Peter Paul Rubens painted here for churches and courts across the continent. Today it is known for its port, its diamond trade, its fashion designers and the Cathedral of Our Lady, whose spire rises 123 metres over the old town.",
+  "famous": [
+    "The Cathedral of Our Lady, with its 123-metre spire and altarpieces by Rubens",
+    "The Grote Markt, with the Renaissance City Hall and the Brabo Fountain",
+    "Its port, the second-largest in Europe, and the diamond district by the Central Station",
+    "Fashion designers trained at its Royal Academy of Fine Arts, among them the Antwerp Six"
+  ],
+  "facts": [
+    ["Country", "Belgium"],
+    ["Region", "Flanders"],
+    ["Province", "Antwerp, of which it is the capital"],
+    ["Population", "Over 500,000 (city), the largest municipality in Belgium"],
+    ["River", "The Scheldt (Schelde)"],
+    ["Language", "Dutch"],
+    ["Local names", "Antwerpen (Dutch), Anvers (French)"],
+    ["Nickname", "’t Stad, ‘the city’, as its people call it"],
+    ["UNESCO World Heritage", "The Plantin-Moretus printing house and museum, since 2005"]
+  ],
+  "overview": [
+    "Antwerp grew on a bend of the Scheldt, around a small castle, and the river made its fortune: from the Middle Ages to today, ships from all over the world have come up the Scheldt to its quays. Its old town keeps the Gothic cathedral, the guild houses of the Grote Markt and the Baroque churches and houses of Rubens’s time, while the port has moved north, to docks that reach the Dutch border.",
+    "The centre, the part you ride through in Instant Antwerp, lies between the Scheldt and the Meir. From Het Steen on the river, the Suikerrui leads to the Grote Markt, and behind it the cathedral spire rises over the Handschoenmarkt and the Groenplaats. Narrow lanes run south to the Vrijdagmarkt and the Plantin-Moretus Museum, and east the wide Meir leads past Rubens’s house towards the Central Station."
+  ],
+  "setting": [
+    "Antwerp lies in the north of Belgium, in the Flemish Region, close to the Dutch border, and is the capital of the province of Antwerp. Brussels lies about 45 kilometres to the south and Ghent about 50 kilometres to the south-west. The old town stands on the right bank of the Scheldt; the left bank across the river is newer and greener.",
+    "The Scheldt is a tidal river here, and ocean ships reach the port from the North Sea through the Western Scheldt, in the Netherlands, some 80 kilometres downstream. No bridge crosses the river in the city: road, rail and foot tunnels run under it. Antwerp’s climate is mild and wet, like the rest of Flanders."
+  ],
+  "history": [
+    {
+      "title": "A castle on the Scheldt",
+      "text": [
+        "Legend says that a giant, Druon Antigoon, made every boatman on the Scheldt pay a toll and cut off the hand of anyone who refused, until the Roman soldier Silvius Brabo cut off the giant’s own hand and threw it into the river; hand werpen, ‘to throw a hand’, would have given Antwerp its name. Historians think the name more likely comes from aanwerp, a mound of land thrown up by the river.",
+        "A settlement stood on the river bend by the 9th century, and the Vikings sacked it in 836. A fortress, of which Het Steen remains, guarded the river, and the town grew into a market of the duchy of Brabant. In 1352 the people of Antwerp began to build the Cathedral of Our Lady, which took almost 170 years to finish."
+      ]
+    },
+    {
+      "title": "The golden century",
+      "text": [
+        "When the Zwin silted up and Bruges lost its link to the sea, the foreign merchants moved to Antwerp. By the middle of the 16th century it was the trading capital of northern Europe, where Portuguese spices, English cloth and German silver changed hands, and it had about 100,000 inhabitants. The city opened a purpose-built exchange, the Bourse, in 1531, built its Renaissance City Hall in the 1560s, and Christophe Plantin ran one of the largest printing houses in Europe here.",
+        "The religious wars ended it. In 1576 unpaid Spanish soldiers plundered the city and killed thousands in the Spanish Fury, and in 1585 the Spanish general Alexander Farnese took Antwerp after a long siege. Protestants had to leave, many of them for Amsterdam, and the Dutch closed the Scheldt to shipping. The city still flourished as a centre of art: Rubens came home from Italy in 1608 and ran his great workshop here, with Anthony van Dyck and Jacob Jordaens working in the same city."
+      ]
+    },
+    {
+      "title": "The port reopens",
+      "text": [
+        "The French reopened the Scheldt in 1795, and Napoleon built new docks to make Antwerp a naval base against Britain. In 1863 Belgium bought off the toll that the Dutch charged on the river, and the port began to grow again. The city hosted World’s Fairs in 1885, 1894 and 1930, opened its Central Station in 1905 and held the Olympic Games in 1920.",
+        "In the Second World War British troops took the port undamaged in September 1944, and the Germans then hit Antwerp with more V-2 rockets than any other city. After the war the port spread north towards the Netherlands and became the second-largest in Europe. In the 1980s six young designers from the Royal Academy, the Antwerp Six, put the city on the map of world fashion."
+      ]
+    }
+  ],
+  "timeline": [
+    ["836", "The Vikings sack Antwerp"],
+    ["1352", "Work begins on the Cathedral of Our Lady"],
+    ["1521", "The cathedral is finished, with its 123-metre spire"],
+    ["1531", "The city opens a purpose-built exchange, the Bourse"],
+    ["1555", "Christophe Plantin starts printing in Antwerp"],
+    ["1565", "The new City Hall on the Grote Markt is finished"],
+    ["1576", "Spanish soldiers plunder the city in the Spanish Fury"],
+    ["1585", "Alexander Farnese takes Antwerp and the Dutch close the Scheldt"],
+    ["1608", "Rubens returns from Italy and settles in Antwerp"],
+    ["1863", "Belgium buys off the Dutch toll on the Scheldt"],
+    ["1920", "Antwerp hosts the Olympic Games"],
+    ["2022", "The ports of Antwerp and Zeebrugge merge into the Port of Antwerp-Bruges"]
+  ],
+  "today": [
+    "Antwerp lives from its port, the chemical plants along the Scheldt, the diamond trade around the Central Station and its shops and fashion houses. Its people speak their own strong dialect and are proud of their city, which they call simply ’t Stad, ‘the city’.",
+    "The old docks north of the centre, the Eilandje, have turned into a quarter of flats and museums around the MAS, the Museum aan de Stroom, opened in 2011. The Royal Museum of Fine Arts reopened in 2022 after a long restoration, and the Central Station, a cathedral of iron and stone, is often called one of the most beautiful in the world."
+  ],
+  "places": [
+    { "id": "grote-markt", "name": "Grote Markt", "kind": "square", "lat": 51.22119, "lon": 4.40105, "blurb": "The main square of the old town, with the Renaissance City Hall, the guild houses and the Brabo Fountain.", "landmark": "grote-markt" },
+    { "id": "handschoenmarkt", "name": "Handschoenmarkt", "kind": "square", "lat": 51.22033, "lon": 4.40036, "blurb": "The little ‘glove market’ in front of the cathedral, with an old well whose iron canopy legend credits to the painter Quinten Matsys.", "landmark": "kathedraal" },
+    { "id": "groenplaats", "name": "Groenplaats", "kind": "square", "lat": 51.2195, "lon": 4.40216, "blurb": "Once the cathedral’s graveyard, now a big square of café terraces around a statue of Rubens.", "landmark": "groenplaats" },
+    { "id": "meir", "name": "Meir", "kind": "street", "lat": 51.21834, "lon": 4.40514, "blurb": "Antwerp’s wide main shopping street, with the 18th-century royal palace, the Paleis op de Meir.", "landmark": "meir" },
+    { "id": "wapper", "name": "Wapper", "kind": "square", "lat": 51.21779, "lon": 4.40912, "blurb": "The small square off the Meir where Rubens lived and kept his workshop, in the house he bought in 1610.", "landmark": "rubenshuis" },
+    { "id": "steenplein", "name": "Steenplein", "kind": "square", "lat": 51.22148, "lon": 4.39659, "blurb": "The square on the river around Het Steen, the oldest building in the city, with the statue of the giant Lange Wapper.", "landmark": "het-steen" },
+    { "id": "schelde", "name": "The Scheldt", "local": "Schelde", "kind": "waterway", "lat": 51.222, "lon": 4.394, "blurb": "The wide tidal river that made Antwerp’s fortune. Raised promenades run along its quays." },
+    { "id": "suikerrui", "name": "Suikerrui", "kind": "street", "lat": 51.22094, "lon": 4.39831, "blurb": "The street from the Grote Markt to the river, laid over one of the old town canals, the ruien, which still run vaulted beneath the streets." },
+    { "id": "hoogstraat", "name": "Hoogstraat", "kind": "street", "lat": 51.22058, "lon": 4.3991, "blurb": "An old street of shops and bars that runs south from the Grote Markt towards Sint-Jansvliet." },
+    { "id": "oude-koornmarkt", "name": "Oude Koornmarkt", "kind": "street", "lat": 51.22, "lon": 4.4001, "blurb": "The old corn market, a street of cafés just south of the cathedral." },
+    { "id": "vlaaikensgang", "name": "Vlaaikensgang", "kind": "street", "lat": 51.22029, "lon": 4.39949, "blurb": "A hidden alley of 16th-century houses behind the Oude Koornmarkt, where shoemakers once lived." },
+    { "id": "vrijdagmarkt", "name": "Vrijdagmarkt", "kind": "square", "lat": 51.21834, "lon": 4.39904, "blurb": "The square of the Plantin-Moretus printing house, where second-hand goods are still auctioned on Friday mornings.", "landmark": "plantin-moretus" },
+    { "id": "sint-jansvliet", "name": "Sint-Jansvliet", "kind": "square", "lat": 51.21851, "lon": 4.3971, "blurb": "A square on a filled-in harbour canal, where wooden escalators lead down to the St Anna foot tunnel under the Scheldt, opened in 1933." },
+    { "id": "hendrik-conscienceplein", "name": "Hendrik Conscienceplein", "kind": "square", "lat": 51.22082, "lon": 4.40411, "blurb": "A quiet square in front of the Baroque Jesuit church of St Charles Borromeo, with a statue of the writer Hendrik Conscience." }
+  ],
+  "links": [
+    { "title": "Visit Antwerpen", "url": "https://visit.antwerpen.be/en", "note": "The city’s official tourist information" },
+    { "title": "City of Antwerp", "url": "https://www.antwerpen.be/en", "note": "The city council" },
+    { "title": "Plantin-Moretus on UNESCO", "url": "https://whc.unesco.org/en/list/1185/", "note": "The World Heritage listing of the printing house and museum" },
+    { "title": "Antwerp on Wikipedia", "url": "https://en.wikipedia.org/wiki/Antwerp", "note": "The encyclopedia article" }
+  ]
+}

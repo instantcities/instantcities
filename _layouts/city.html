@@ -69,6 +69,18 @@
       </div>
     </section>
 
+    {%- assign G = site.data.about[C.id] %}
+    <nav class="subnav" aria-label="On this page">
+      <div class="subnav-links">
+        <a href="#features">What there is to do</a>
+        {%- if G %}<a href="#about">This is {{ C.name }}</a>{% endif %}
+        {%- if site.data.landmarks[C.id] %}<a href="#landmarks">Places and landmarks</a>{% endif %}
+        {%- if C.shots %}<a href="#screens">Screenshots</a>{% endif %}
+        {%- if G %}<a class="away" href="/{{ C.id }}/about-the-city/">About the city ›</a>{% endif %}
+      </div>
+      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
+    </nav>
+
     <section id="features" class="features">
       <h2>What there is to do</h2>
       <div class="grid">
@@ -82,15 +94,35 @@
       </div>
     </section>
 
+    {%- comment -%} With a guide (_data/about/<id>.json) the city gets its "This is …" section, and the landmarks stop at nine with a link to all of them on /<id>/places-and-landmarks/. {%- endcomment -%}
+    {%- if G %}
+    <section id="about" class="about-city">
+      <div class="about-text">
+        <h2>This is {{ C.name }}</h2>
+        <p>{{ G.intro }}</p>
+        <ul class="known">
+          {%- for f in G.famous %}
+          <li>{{ f }}</li>
+          {%- endfor %}
+        </ul>
+        <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/">{% include icon.html name="compass" %} About the city</a></p>
+      </div>
+      {% include country-map.html city=C %}
+    </section>
+    {%- endif %}
+
     {%- assign landmarks = site.data.landmarks[C.id] %}
     {%- if landmarks %}
     <section id="landmarks" class="landmarks">
       <h2>Places, elements and landmarks</h2>
       <div class="grid">
-        {%- for l in landmarks %}
+        {%- for l in landmarks %}{% if G and forloop.index > 9 %}{% break %}{% endif %}
         {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
+      {%- if G %}
+      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
+      {%- endif %}
     </section>
     {%- endif %}
 
@@ -129,6 +161,7 @@
   <script>
     {% include topnav.js %}
     {% include live.js %}
+    {% include subnav.js %}
   </script>
 </body>
 </html>

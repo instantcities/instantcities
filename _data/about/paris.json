@@ -1,0 +1,92 @@
+{
+  "intro": "Paris is the capital of France and, with its suburbs, the largest city in the European Union. It grew from a small island in the Seine into the seat of the French kings, the stage of the Revolution and the city that Baron Haussmann rebuilt with wide boulevards in the 19th century. Today people come for its museums, its cathedral and its cafés, and for the views along the river.",
+  "famous": [
+    "Notre-Dame, the Louvre and the Eiffel Tower",
+    "The Seine with its stone bridges and the booksellers’ green boxes along the quays",
+    "Haussmann’s boulevards, lined with cream stone buildings and grey zinc roofs",
+    "Cafés with their terraces on the pavement, bakeries, croissants and the baguette"
+  ],
+  "facts": [
+    ["Country", "France"],
+    ["Region", "Île-de-France"],
+    ["Population", "About 2.1 million (city), more than 12 million (metropolitan area)"],
+    ["Founded", "As the Roman town of Lutetia, in the 1st century BC"],
+    ["River", "The Seine"],
+    ["Language", "French"],
+    ["Nickname", "The City of Light (la Ville Lumière)"],
+    ["UNESCO World Heritage", "The banks of the Seine, since 1991"]
+  ],
+  "overview": [
+    "Paris lies on the Seine in the north of France, in a wide, low basin that the French call the Paris Basin. Inside its ring road, the Boulevard Périphérique, the city is small, about 105 square kilometres, and densely built: six- and seven-storey apartment buildings line almost every street, with shops and cafés on the ground floor.",
+    "Instant Paris takes you through the oldest part of the city. The Île de la Cité, the island where Paris began, carries Notre-Dame at its eastern end, the Sainte-Chapelle and the Palais de Justice in the middle and the Pont Neuf across its western tip. On the right bank the Rue de Rivoli runs past the Louvre and the Hôtel de Ville, and the Centre Pompidou rises a few streets further north; on the left bank the lanes of the Latin Quarter start behind Place Saint-Michel."
+  ],
+  "setting": [
+    "Paris is the capital of the Île-de-France region, which holds almost a fifth of the people of France. The Seine comes in from the south-east, splits around two islands in the centre, the Île de la Cité and the Île Saint-Louis, and leaves the city to the south-west on its way to the English Channel at Le Havre. Parisians speak of the Right Bank to the north of the river and the Left Bank to the south.",
+    "The city is divided into twenty districts, the arrondissements, numbered in a spiral that starts at the Louvre and turns clockwise outwards. Montmartre, in the north, is its highest hill. Paris has a mild oceanic climate, with cool winters, warm summers and rain spread through the year."
+  ],
+  "history": [
+    {
+      "title": "Lutetia and the first kings",
+      "text": [
+        "A Celtic tribe, the Parisii, lived on the islands and banks of the Seine when Julius Caesar’s legions conquered the region in 52 BC. The Romans built the town of Lutetia on the Left Bank, with a forum, baths and an arena that still exists, the Arènes de Lutèce. By the 4th century the town had taken the name of its tribe, Paris, and around 508 Clovis, king of the Franks, made it his capital.",
+        "In 987 Hugh Capet became king, and his descendants made Paris the capital of France for good. Philip Augustus walled the city around 1200 and built a fortress on the Right Bank, the first Louvre. Bishop Maurice de Sully began Notre-Dame in 1163, and Louis IX built the Sainte-Chapelle to hold the Crown of Thorns. On the Left Bank, teachers and students formed one of the first universities in Europe."
+      ]
+    },
+    {
+      "title": "Kings and revolutions",
+      "text": [
+        "Henry IV finished the Pont Neuf in 1607, the first bridge in Paris without houses on it, and laid out Place Dauphine behind it. Louis XIV enlarged the Louvre but moved his court to Versailles in 1682, and the kings lived outside Paris for the next hundred years.",
+        "On 14 July 1789 a crowd stormed the Bastille, a royal prison, and the French Revolution began. The revolutionaries executed Louis XVI in 1793 on what is now Place de la Concorde. Napoleon crowned himself emperor in Notre-Dame in 1804 and began the arcades of the Rue de Rivoli. In the decades after him, Parisians rose against their rulers again in 1830 and 1848."
+      ]
+    },
+    {
+      "title": "The modern capital",
+      "text": [
+        "From 1853 Napoleon III and his prefect, Baron Haussmann, tore down much of the crowded medieval city. Their workers cut long, straight boulevards such as the Boulevard de Sébastopol, built sewers, parks and railway stations, and lined the new streets with the stone buildings that still give Paris its look. On the Île de la Cité they cleared most of the old houses around Notre-Dame. During the Paris Commune of 1871 fires destroyed the Hôtel de Ville and the Tuileries Palace.",
+        "Gustave Eiffel built his tower for the World’s Fair of 1889, and the first Métro line opened in 1900. German troops occupied Paris from 1940 until its liberation in August 1944. In 2019 a fire destroyed the roof and spire of Notre-Dame; craftsmen rebuilt them, and the cathedral reopened in December 2024, the year Paris hosted the Olympic Games for the third time."
+      ]
+    }
+  ],
+  "timeline": [
+    ["52 BC", "The Romans conquer the Parisii; Lutetia grows on the Left Bank"],
+    ["c. 508", "Clovis makes Paris the capital of the Franks"],
+    ["1163", "Work begins on Notre-Dame"],
+    ["1248", "The Sainte-Chapelle is consecrated"],
+    ["1607", "Henry IV opens the Pont Neuf"],
+    ["1682", "Louis XIV moves the court to Versailles"],
+    ["1789", "A crowd storms the Bastille on 14 July"],
+    ["1853", "Baron Haussmann begins to rebuild the city"],
+    ["1889", "The Eiffel Tower opens for the World’s Fair"],
+    ["1900", "The first Métro line opens"],
+    ["1944", "Paris is liberated in August"],
+    ["1977", "The Centre Pompidou opens"],
+    ["2024", "Notre-Dame reopens, five years after the fire"]
+  ],
+  "today": [
+    "Paris is the seat of the French president, the government and parliament, and of international bodies such as UNESCO and the OECD. Its region produces almost a third of France’s wealth, from banking in the towers of La Défense, just outside the city, to fashion, luxury goods and tourism. It is one of the most visited cities in the world, yet the centre stays lived in: Parisians shop at the street markets, queue at the bakery and fill the café terraces in every season.",
+    "The city has been making room for people on foot and by bike: the riverside roads through the centre are closed to cars, and the Rue de Rivoli belongs mostly to cyclists. Since the summer of 2025 Parisians can swim in the Seine again at a few places. Paris Saint-Germain, the city’s football club, plays at the Parc des Princes."
+  ],
+  "places": [
+    { "id": "seine", "name": "The Seine", "local": "La Seine", "kind": "waterway", "lat": 48.8574, "lon": 2.344, "blurb": "Paris’s river, between stone quays where the booksellers, the bouquinistes, keep their green boxes. Its banks through the centre are a World Heritage site." },
+    { "id": "ile-de-la-cite", "name": "Île de la Cité", "kind": "quarter", "lat": 48.8553, "lon": 2.3468, "blurb": "The island in the Seine where Paris began, home to Notre-Dame, the Sainte-Chapelle and the law courts." },
+    { "id": "pont-neuf", "name": "Pont Neuf", "kind": "bridge", "lat": 48.8579, "lon": 2.342, "blurb": "Despite its name, the ‘New Bridge’ is the oldest bridge in Paris, finished in 1607 across the western tip of the island.", "landmark": "pont-neuf" },
+    { "id": "place-dauphine", "name": "Place Dauphine", "kind": "square", "lat": 48.85612, "lon": 2.34279, "blurb": "A quiet triangle of houses and chestnut trees behind the Pont Neuf, laid out by Henry IV in 1607." },
+    { "id": "parvis-notre-dame", "name": "Parvis Notre-Dame", "osm": "Parvis Notre-Dame - Place Jean-Paul II", "kind": "square", "lat": 48.85366, "lon": 2.34846, "blurb": "The open square in front of the cathedral, where a bronze star in the paving marks the point from which French roads measure their distances to Paris.", "landmark": "notre-dame" },
+    { "id": "boulevard-du-palais", "name": "Boulevard du Palais", "kind": "street", "lat": 48.85456, "lon": 2.34504, "blurb": "The street across the island past the Palais de Justice, whose courtyard hides the Sainte-Chapelle." },
+    { "id": "place-du-chatelet", "name": "Place du Châtelet", "kind": "square", "lat": 48.85743, "lon": 2.34752, "blurb": "A square at the end of the Pont au Change, with a fountain and two theatres facing each other, and the Gothic Tour Saint-Jacques a few steps away." },
+    { "id": "place-de-l-hotel-de-ville", "name": "Place de l’Hôtel de Ville", "osm": "Place de l'Hôtel de Ville", "kind": "square", "lat": 48.8568, "lon": 2.35106, "blurb": "The square in front of the city hall, which was called the Place de Grève until 1803 and for centuries served as the city’s place of execution.", "landmark": "hotel-de-ville" },
+    { "id": "rue-de-rivoli", "name": "Rue de Rivoli", "kind": "street", "lat": 48.86265, "lon": 2.3357, "blurb": "The long, straight street of the Right Bank, begun under Napoleon, with arcades along the Louvre and the Tuileries Garden." },
+    { "id": "pont-des-arts", "name": "Pont des Arts", "kind": "bridge", "lat": 48.85841, "lon": 2.33755, "blurb": "The metal footbridge from the Louvre to the Institut de France, with a view down the river to the tip of the island." },
+    { "id": "boulevard-de-sebastopol", "name": "Boulevard de Sébastopol", "kind": "street", "lat": 48.8619, "lon": 2.35013, "blurb": "One of Haussmann’s first boulevards, cut straight north from the Châtelet in the 1850s." },
+    { "id": "place-georges-pompidou", "name": "Place Georges-Pompidou", "osm": "Place Georges Pompidou", "kind": "square", "lat": 48.86156, "lon": 2.352, "blurb": "The sloping square in front of the Centre Pompidou, with its pipes and escalators on the outside.", "landmark": "centre-pompidou" },
+    { "id": "place-saint-michel", "name": "Place Saint-Michel", "kind": "square", "lat": 48.85362, "lon": 2.34389, "blurb": "The square at the foot of the Boulevard Saint-Michel, with a fountain of the archangel fighting the devil, where the Latin Quarter begins." },
+    { "id": "rue-de-la-huchette", "name": "Rue de la Huchette", "kind": "street", "lat": 48.85281, "lon": 2.34639, "blurb": "A narrow medieval lane of the Latin Quarter, full of Greek restaurants, with a small theatre that has played Ionesco’s The Bald Soprano since 1957." }
+  ],
+  "links": [
+    { "title": "Paris je t’aime", "url": "https://parisjetaime.com/eng/", "note": "The official tourist office of Paris" },
+    { "title": "Ville de Paris", "url": "https://www.paris.fr/", "note": "The city council (in French)" },
+    { "title": "Paris, Banks of the Seine on UNESCO", "url": "https://whc.unesco.org/en/list/600/", "note": "The World Heritage listing" },
+    { "title": "Musée du Louvre", "url": "https://www.louvre.fr/en", "note": "Tickets and opening hours for the Louvre" },
+    { "title": "Paris on Wikipedia", "url": "https://en.wikipedia.org/wiki/Paris", "note": "The encyclopedia article" }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "intro": "Berlin is the capital of Germany and its largest city, on the River Spree in the north-east of the country. It grew from a pair of medieval trading towns into the capital of Prussia and of the German Empire, was bombed to ruins in 1945 and split by a wall for 28 years, and it carries the marks of all of that in its streets, from the Brandenburg Gate to the remains of the Wall.",
+  "famous": [
+    "The Brandenburg Gate and the Reichstag, symbols of a divided and then united Germany",
+    "The Berlin Wall, which split the city from 1961 to 1989",
+    "Museum Island, with the Pergamon Museum and the bust of Nefertiti",
+    "Currywurst, döner kebab and a nightlife that runs until morning"
+  ],
+  "facts": [
+    [
+      "Country",
+      "Germany"
+    ],
+    [
+      "Region",
+      "Berlin is a federal state of its own"
+    ],
+    [
+      "Population",
+      "About 3.9 million (city), 6 million (Berlin-Brandenburg capital region)"
+    ],
+    [
+      "Founded",
+      "First mentioned in 1237 (Cölln) and 1244 (Berlin)"
+    ],
+    [
+      "River",
+      "The Spree, which joins the Havel in the west of the city"
+    ],
+    [
+      "Language",
+      "German"
+    ],
+    [
+      "Nicknames",
+      "Spree-Athen (Athens on the Spree)"
+    ],
+    [
+      "UNESCO World Heritage",
+      "Museum Island, since 1999"
+    ]
+  ],
+  "overview": [
+    "Berlin lies on flat, sandy ground in the valley of the Spree, among lakes and forests. It is a big, spread-out city with several centres, because Greater Berlin swallowed dozens of towns and villages in 1920, and because the city was divided into East and West for four decades, each with its own heart.",
+    "The centre you ride through in Instant Berlin is the old heart of the city, the district of Mitte. From the Brandenburg Gate and the Reichstag the boulevard Unter den Linden runs east past Bebelplatz and the State Opera to Museum Island in the Spree, where the cathedral and the rebuilt royal palace stand. South of the Linden lie the grid of the Friedrichstadt and the Gendarmenmarkt, and across the river the Nikolaiviertel and the TV Tower mark where Berlin began."
+  ],
+  "setting": [
+    "Berlin lies in the north-east of Germany, less than 100 kilometres from the Polish border, in the middle of the state of Brandenburg. The Spree winds through the centre and joins the Havel at Spandau; the Havel, with its chain of lakes, forms much of the city’s western edge.",
+    "Parks, forests and lakes cover a large part of the city: the Tiergarten lies right next to the government quarter, and the Grunewald and the Müggelsee lie on its edges. The climate is mild continental, with warm summers and cold winters."
+  ],
+  "history": [
+    {
+      "title": "From trading towns to royal capital",
+      "text": [
+        "Berlin began as two trading towns on either bank of the Spree, Cölln on the island and Berlin on the east bank, first mentioned in 1237 and 1244. They shared a town hall from 1307. In the 15th century the Hohenzollern electors of Brandenburg settled there and built a palace on the island, and the town became their capital.",
+        "The Thirty Years’ War left Berlin half empty. The Great Elector refilled it by welcoming Huguenots driven out of France, and in 1701 his son crowned himself king in Prussia, which made Berlin a royal capital. Frederick the Great built the opera and the buildings around Bebelplatz on Unter den Linden, and in 1791 the Brandenburg Gate was finished. Napoleon marched through it in 1806 and took its Quadriga to Paris; the Prussians brought it back in 1814."
+      ]
+    },
+    {
+      "title": "Imperial capital and Nazi Berlin",
+      "text": [
+        "In 1871 Berlin became the capital of the new German Empire and grew into one of Europe’s great industrial cities, home to firms such as Siemens and AEG. In 1920 it absorbed its suburbs to form Greater Berlin, a city of nearly four million. In the 1920s, under the Weimar Republic, it was a capital of cinema, theatre, cabaret and science.",
+        "In 1933 the Nazis took power. Students burned books on Bebelplatz, the regime persecuted its opponents, and from 1941 it deported Berlin’s Jews to the ghettos and death camps. Allied bombing and the Soviet assault in the spring of 1945 left the centre in ruins."
+      ]
+    },
+    {
+      "title": "The divided city and the new capital",
+      "text": [
+        "The victors split Berlin into four sectors. When the Soviets blockaded the western sectors in 1948, the Western Allies supplied them from the air for almost a year. In 1949 East Berlin became the capital of the German Democratic Republic, and on 13 August 1961 its government sealed off West Berlin with what grew into the Berlin Wall.",
+        "On 9 November 1989, after weeks of protest in the East, the border opened and Berliners climbed onto the Wall at the Brandenburg Gate. Germany was reunited on 3 October 1990, and Berlin became the capital again. The Bundestag moved into the rebuilt Reichstag in 1999, and the government quarter, Potsdamer Platz and the rebuilt palace on Museum Island filled the gaps that the war and the Wall had left."
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "1237",
+      "Cölln, Berlin’s twin town, is first mentioned"
+    ],
+    [
+      "1701",
+      "Berlin becomes the capital of the Kingdom of Prussia"
+    ],
+    [
+      "1791",
+      "The Brandenburg Gate is finished"
+    ],
+    [
+      "1871",
+      "Berlin becomes the capital of the German Empire"
+    ],
+    [
+      "1920",
+      "Greater Berlin absorbs the surrounding towns"
+    ],
+    [
+      "1933",
+      "The Nazis take power"
+    ],
+    [
+      "1945",
+      "The Battle of Berlin ends the war in Europe"
+    ],
+    [
+      "1948",
+      "The Berlin Airlift begins"
+    ],
+    [
+      "1961",
+      "East Germany builds the Berlin Wall"
+    ],
+    [
+      "1989",
+      "The Wall falls on 9 November"
+    ],
+    [
+      "1990",
+      "Germany is reunited and Berlin is its capital"
+    ],
+    [
+      "1999",
+      "The Bundestag moves into the Reichstag"
+    ]
+  ],
+  "today": [
+    "Berlin is the seat of the German parliament, the chancellor and the president, and, by population within its city limits, the largest city of the European Union. Its economy runs on government, services, science, tourism and start-ups, and its universities and the Charité hospital draw students and researchers from all over the world.",
+    "Berliners have a reputation for blunt humour, and the city is known for its clubs, its galleries and its cheap, international food. Hertha BSC and Union Berlin are its two big football clubs, and Berlin hosts one of the world’s major marathons every September."
+  ],
+  "places": [
+    {
+      "id": "platz-der-republik",
+      "name": "Platz der Republik",
+      "kind": "square",
+      "lat": 52.51858,
+      "lon": 13.37517,
+      "blurb": "The great lawn in front of the Reichstag, the seat of the Bundestag, under Norman Foster’s glass dome.",
+      "landmark": "reichstag"
+    },
+    {
+      "id": "pariser-platz",
+      "name": "Pariser Platz",
+      "kind": "square",
+      "lat": 52.51623,
+      "lon": 13.37903,
+      "blurb": "The square inside the Brandenburg Gate, with the French and American embassies and the Hotel Adlon. It takes its name from the Allies’ capture of Paris in 1814.",
+      "landmark": "brandenburger-tor"
+    },
+    {
+      "id": "ebertstrasse",
+      "name": "Ebertstraße",
+      "kind": "street",
+      "lat": 52.51215,
+      "lon": 13.37701,
+      "blurb": "The street along the edge of the Tiergarten from the Reichstag past the Brandenburg Gate to Potsdamer Platz. The Wall ran along it, and the Holocaust Memorial lies beside it."
+    },
+    {
+      "id": "unter-den-linden",
+      "name": "Unter den Linden",
+      "kind": "street",
+      "lat": 52.517,
+      "lon": 13.39092,
+      "blurb": "The boulevard from the Brandenburg Gate to Museum Island, where the Great Elector had lime trees planted in 1647, lined with the State Opera, the Humboldt University and the old Arsenal.",
+      "landmark": "unter-den-linden"
+    },
+    {
+      "id": "friedrichstrasse",
+      "name": "Friedrichstraße",
+      "kind": "street",
+      "lat": 52.51846,
+      "lon": 13.38857,
+      "blurb": "The long shopping street of the Baroque Friedrichstadt, which crosses Unter den Linden. Further south it passed through the Wall at Checkpoint Charlie."
+    },
+    {
+      "id": "wilhelmstrasse",
+      "name": "Wilhelmstraße",
+      "kind": "street",
+      "lat": 52.51246,
+      "lon": 13.38408,
+      "blurb": "For a century the street of the Prussian and German government, where Bismarck and later Hitler had their chancelleries. The British Embassy stands on it today."
+    },
+    {
+      "id": "gendarmenmarkt",
+      "name": "Gendarmenmarkt",
+      "kind": "square",
+      "lat": 52.5136,
+      "lon": 13.3928,
+      "blurb": "Often called Berlin’s finest square, with the Konzerthaus between the twin French and German Churches. It takes its name from a cavalry regiment, the Gens d’armes, that kept its stables here.",
+      "landmark": "gendarmenmarkt"
+    },
+    {
+      "id": "bebelplatz",
+      "name": "Bebelplatz",
+      "kind": "square",
+      "lat": 52.51678,
+      "lon": 13.39524,
+      "blurb": "Frederick the Great’s square between the State Opera, St Hedwig’s Cathedral and the old royal library. A glass plate in the paving looks down on empty shelves, in memory of the Nazi book burning of 1933.",
+      "landmark": "bebelplatz"
+    },
+    {
+      "id": "lustgarten",
+      "name": "Lustgarten",
+      "kind": "park",
+      "lat": 52.5186,
+      "lon": 13.399,
+      "blurb": "The lawn between the Altes Museum, the cathedral and the palace, once the pleasure garden of the electors."
+    },
+    {
+      "id": "museumsinsel",
+      "name": "Museum Island",
+      "local": "Museumsinsel",
+      "kind": "quarter",
+      "lat": 52.5206,
+      "lon": 13.397,
+      "blurb": "The north end of the island in the Spree, where Prussia built five museums between 1830 and 1930, from the Altes Museum to the Pergamon.",
+      "landmark": "museumsinsel"
+    },
+    {
+      "id": "schlossplatz",
+      "name": "Schlossplatz",
+      "local": "Schloßplatz",
+      "kind": "square",
+      "lat": 52.51634,
+      "lon": 13.40212,
+      "blurb": "The square in front of the Hohenzollerns’ palace, which the East German government blew up in 1950. Germany rebuilt its façades for the Humboldt Forum, which opened in 2021."
+    },
+    {
+      "id": "spree",
+      "name": "The Spree",
+      "local": "Spree",
+      "kind": "waterway",
+      "lat": 52.5186,
+      "lon": 13.4028,
+      "blurb": "Berlin’s river, which splits around the island that holds Museum Island and old Cölln. Tour boats run along it past the cathedral and the Reichstag."
+    },
+    {
+      "id": "nikolaiviertel",
+      "name": "Nikolaiviertel",
+      "kind": "quarter",
+      "lat": 52.5167,
+      "lon": 13.4073,
+      "blurb": "The quarter around the Nikolaikirche, Berlin’s oldest church, where the city began. East Germany rebuilt it for the city’s 750th anniversary in 1987, partly with copies of lost houses."
+    },
+    {
+      "id": "karl-liebknecht-strasse",
+      "name": "Karl-Liebknecht-Straße",
+      "kind": "street",
+      "lat": 52.52184,
+      "lon": 13.40858,
+      "blurb": "The wide East German avenue from the cathedral towards Alexanderplatz, past the medieval Marienkirche and the TV Tower."
+    },
+    {
+      "id": "alexanderplatz",
+      "name": "Alexanderplatz",
+      "kind": "square",
+      "lat": 52.5219,
+      "lon": 13.4132,
+      "blurb": "The big square of East Berlin, named after the visit of Tsar Alexander I in 1805, with the World Clock and the TV Tower beside it."
+    }
+  ],
+  "links": [
+    {
+      "title": "visitBerlin",
+      "url": "https://www.visitberlin.de/en",
+      "note": "The city’s official tourist information"
+    },
+    {
+      "title": "Berlin.de",
+      "url": "https://www.berlin.de/en/",
+      "note": "The official portal of the city and its government"
+    },
+    {
+      "title": "National Museums in Berlin",
+      "url": "https://www.smb.museum/en/home/",
+      "note": "Tickets and opening hours for the museums of Museum Island"
+    },
+    {
+      "title": "Museumsinsel (Museum Island) on UNESCO",
+      "url": "https://whc.unesco.org/en/list/896/",
+      "note": "The World Heritage listing"
+    },
+    {
+      "title": "Berlin on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berlin",
+      "note": "The encyclopedia article"
+    }
+  ]
+}

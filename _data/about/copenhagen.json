@@ -1,0 +1,90 @@
+{
+  "intro": "Copenhagen is the capital of Denmark, a harbour city on the Øresund, the strait between Denmark and Sweden. It grew from a fishing village into the seat of the Danish kings, and today its canals, its copper spires and its colourful harbour fronts sit in a modern city where bicycles far outnumber cars.",
+  "famous": [
+    "Nyhavn, the canal of painted houses and old wooden ships",
+    "Tivoli Gardens, one of the oldest amusement parks in the world",
+    "The Little Mermaid, Hans Christian Andersen and the royal guard at Amalienborg",
+    "Bicycles everywhere, smørrebrød and New Nordic cooking"
+  ],
+  "facts": [
+    ["Country", "Denmark"],
+    ["Region", "Capital Region of Denmark"],
+    ["Population", "About 660,000 (municipality), 1.4 million (urban area)"],
+    ["Founded", "1167, when Bishop Absalon built a castle on Slotsholmen"],
+    ["Waterfront", "The Øresund and the city’s inner harbour"],
+    ["Language", "Danish"],
+    ["Nicknames", "The City of Spires"]
+  ],
+  "overview": [
+    "Copenhagen lies on the east coast of the island of Zealand and on the smaller island of Amager, on both sides of a long harbour. Its name, København, means ‘merchants’ harbour’. Until the 1850s ramparts and moats closed in the old town; when the city tore them down, it kept stretches of the moat in a ring of parks, among them the Botanical Garden and the lake inside Tivoli.",
+    "The centre you ride through in Instant Copenhagen is the medieval town and the royal districts beside it. Strøget, a chain of pedestrian streets, runs from City Hall Square to Kongens Nytorv, with Nyhavn just beyond. To the south the canals wrap around Slotsholmen and Christiansborg Palace, to the north-east lies the planned Rococo quarter of Frederiksstaden with Amalienborg, and across the harbour lies Christianshavn."
+  ],
+  "setting": [
+    "Copenhagen lies at the eastern edge of Denmark, facing Sweden across the Øresund. Since 2000 a bridge and tunnel link the city to Malmö, the third-largest city in Sweden, and the two form one region where many people live on one side and work on the other.",
+    "The land is flat and low, and the sea is never far away: the harbour runs right through the city and is clean enough to swim in at the harbour baths. The climate is mild and maritime, with cool summers, grey winters and wind all year."
+  ],
+  "history": [
+    {
+      "title": "The merchants’ harbour",
+      "text": [
+        "A fishing and trading village called Havn, ‘harbour’, stood here by the 11th century. In 1167 Bishop Absalon of Roskilde built a castle on the small island of Slotsholmen to protect it from pirates, and the town grew rich on the herring of the Øresund. In 1417 King Eric of Pomerania took the town from the bishops, and in the course of the 15th century it became the capital of Denmark.",
+        "The kings built their palace on Slotsholmen, on the ruins of Absalon’s castle, and the university opened in 1479. In 1536 the Reformation made Denmark Lutheran, and the crown seized the property of the Church."
+      ]
+    },
+    {
+      "title": "Kings, fires and a golden age",
+      "text": [
+        "Christian IV, who reigned from 1588 to 1648, gave Copenhagen much of its skyline: the stock exchange Børsen with its spire of twisted dragon tails, the Round Tower, Rosenborg Castle and the new district of Christianshavn across the harbour. Christian V laid out Kongens Nytorv and had Nyhavn dug, and in 1749 Frederik V began the planned quarter of Frederiksstaden around Amalienborg.",
+        "Plague and fire hit the city hard in the 18th century: great fires in 1728 and 1795 destroyed much of the medieval town. In 1807 a British fleet bombarded Copenhagen and carried off the Danish navy. Yet the decades that followed became the Danish Golden Age, the time of Hans Christian Andersen, the philosopher Søren Kierkegaard and the sculptor Bertel Thorvaldsen."
+      ]
+    },
+    {
+      "title": "The modern capital",
+      "text": [
+        "Tivoli opened in 1843, Denmark got a constitution in 1849, and in the following decades the city tore down its ramparts and spread out into new working-class districts. Nazi Germany occupied Denmark from 1940 to 1945. In October 1943 Danes helped almost all of the country’s Jews escape across the Øresund to neutral Sweden.",
+        "In 1962 the city closed Strøget to cars, and from then on it gave more and more of its streets to pedestrians and cyclists. The Øresund Bridge opened in 2000 and the metro in 2002, and the old harbour, once lined with docks and warehouses, has filled with housing, the Opera, cycle bridges and harbour baths."
+      ]
+    }
+  ],
+  "timeline": [
+    ["1167", "Bishop Absalon builds a castle on Slotsholmen"],
+    ["1417", "King Eric of Pomerania takes the town from the bishops"],
+    ["1479", "The University of Copenhagen opens"],
+    ["1642", "Christian IV finishes the Round Tower"],
+    ["1673", "Nyhavn is finished"],
+    ["1728", "A great fire destroys much of the medieval town"],
+    ["1749", "Frederik V begins the Frederiksstaden quarter"],
+    ["1807", "A British fleet bombards the city"],
+    ["1843", "Tivoli opens"],
+    ["1943", "Danes help the country’s Jews escape to Sweden"],
+    ["1962", "Strøget becomes a pedestrian street"],
+    ["2000", "The Øresund Bridge links Copenhagen with Malmö"]
+  ],
+  "today": [
+    "Copenhagen is the seat of the Danish government, and Christiansborg Palace houses the parliament, the Supreme Court and the prime minister’s office under one roof. The royal family lives at Amalienborg. The city’s economy runs on services, shipping, pharmaceuticals, design and tourism, and its restaurants, Noma first among them, made New Nordic cooking famous.",
+    "Copenhageners ride bikes in every weather, along cycle lanes that the city has built over decades, and many swim in the harbour in summer. FC Copenhagen plays at Parken, the national stadium, and on summer evenings people crowd the quays of Nyhavn and Christianshavn."
+  ],
+  "places": [
+    { "id": "radhuspladsen", "name": "City Hall Square", "local": "Rådhuspladsen", "kind": "square", "lat": 55.67591, "lon": 12.56903, "blurb": "The big square in front of the red-brick City Hall of 1905, where Strøget begins. Tivoli lies across the boulevard.", "landmark": "radhuspladsen" },
+    { "id": "tivoli", "name": "Tivoli Gardens", "local": "Tivoli", "kind": "park", "lat": 55.6737, "lon": 12.5681, "blurb": "The pleasure garden that opened in 1843 beside the old city moat, now a lake inside it, with rides, concerts and thousands of lights in the evening.", "landmark": "tivoli" },
+    { "id": "stroget", "name": "Strøget", "kind": "street", "lat": 55.6786, "lon": 12.579, "blurb": "The chain of pedestrian streets from City Hall Square to Kongens Nytorv. The city closed it to cars in 1962, which made it one of the first long pedestrian streets in Europe.", "landmark": "stroget" },
+    { "id": "gammeltorv", "name": "Gammeltorv", "kind": "square", "lat": 55.67813, "lon": 12.57145, "blurb": "Copenhagen’s oldest square, on Strøget, with the Caritas Fountain of 1608. The old courthouse stands on Nytorv next to it." },
+    { "id": "grabrodretorv", "name": "Gråbrødretorv", "kind": "square", "lat": 55.67972, "lon": 12.57585, "blurb": "A small cobbled square on the site of a Franciscan friary, the Grey Friars, lined with colourful old houses and restaurant terraces." },
+    { "id": "kobmagergade", "name": "Købmagergade", "kind": "street", "lat": 55.6816, "lon": 12.57493, "blurb": "A pedestrian street running north from Strøget past the Round Tower, the observatory that Christian IV built with a spiral ramp in place of stairs.", "landmark": "rundetaarn" },
+    { "id": "amagertorv", "name": "Amagertorv", "kind": "square", "lat": 55.67874, "lon": 12.57816, "blurb": "The widest stretch of Strøget, with the Stork Fountain, named after the farmers from Amager who sold their produce here." },
+    { "id": "hojbro-plads", "name": "Højbro Plads", "kind": "square", "lat": 55.67788, "lon": 12.58019, "blurb": "The square at the end of Strøget facing Slotsholmen, with an equestrian statue of Bishop Absalon, the founder of the city." },
+    { "id": "gammel-strand", "name": "Gammel Strand", "kind": "street", "lat": 55.67751, "lon": 12.5782, "blurb": "The old shoreline across the canal from Christiansborg, where fishwives once sold the catch and canal boats leave today." },
+    { "id": "slotsholmen", "name": "Slotsholmen", "kind": "quarter", "lat": 55.6761, "lon": 12.58, "blurb": "The island where Absalon built his castle, now home to Christiansborg Palace and the old stock exchange, Børsen.", "landmark": "christiansborg" },
+    { "id": "kongens-nytorv", "name": "Kongens Nytorv", "kind": "square", "lat": 55.67979, "lon": 12.58557, "blurb": "The city’s largest square, laid out under Christian V in the 1670s, with his equestrian statue in the middle and the Royal Danish Theatre beside it.", "landmark": "kongens-nytorv" },
+    { "id": "nyhavn", "name": "Nyhavn", "kind": "waterway", "lat": 55.68, "lon": 12.5895, "blurb": "The canal dug from Kongens Nytorv to the harbour in the 1670s, lined with brightly painted houses and old wooden ships. Hans Christian Andersen lived in three of its houses.", "landmark": "nyhavn" },
+    { "id": "bredgade", "name": "Bredgade", "kind": "street", "lat": 55.68423, "lon": 12.59017, "blurb": "The broad main street of Frederiksstaden, running north from Kongens Nytorv past the Marble Church to the Design Museum." },
+    { "id": "amalienborg", "name": "Amalienborg Palace Square", "local": "Amalienborg Slotsplads", "kind": "square", "lat": 55.68397, "lon": 12.59359, "blurb": "The octagonal square of four matching palaces, home to the royal family since 1794, with Frederik V on horseback in the middle. The guard changes here every day at noon.", "landmark": "amalienborg" },
+    { "id": "christianshavns-kanal", "name": "Christianshavn Canal", "local": "Christianshavns Kanal", "kind": "waterway", "lat": 55.6735, "lon": 12.5925, "blurb": "The canal through Christianshavn, the district across the harbour that Christian IV laid out on reclaimed land from 1619, on the model of Amsterdam." }
+  ],
+  "links": [
+    { "title": "VisitCopenhagen", "url": "https://www.visitcopenhagen.com/", "note": "The city’s official tourist information" },
+    { "title": "City of Copenhagen", "url": "https://international.kk.dk/", "note": "The city council’s English pages" },
+    { "title": "Tivoli Gardens", "url": "https://www.tivoli.dk/en", "note": "Tickets and opening hours" },
+    { "title": "Copenhagen on Wikipedia", "url": "https://en.wikipedia.org/wiki/Copenhagen", "note": "The encyclopedia article" }
+  ]
+}
