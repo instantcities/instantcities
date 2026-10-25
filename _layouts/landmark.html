@@ -42,7 +42,7 @@
     <section class="landmark-body">
       <div class="prose">
         {%- for p in L.text %}
-        <p>{{ p }}</p>
+        <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">{% if L.sight or page.x %}Visit it in 3D{% else %}Ride through {{ C.name }} in 3D{% endif %} ›</a>{% endif %}</p>
         {%- endfor %}
         {%- if L.history %}
         <h2>History</h2>
@@ -62,7 +62,10 @@
         {%- assign s = L.lat | minus: 0.0025 %}{% assign n = L.lat | plus: 0.0025 %}{% assign w = L.lon | minus: 0.004 %}{% assign e = L.lon | plus: 0.004 %}
         <figure class="osm">
           <iframe title="{{ L.name }} on OpenStreetMap" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={{ w }}%2C{{ s }}%2C{{ e }}%2C{{ n }}&amp;layer=mapnik&amp;marker={{ L.lat }}%2C{{ L.lon }}"></iframe>
-          <figcaption><a href="https://www.openstreetmap.org/?mlat={{ L.lat }}&amp;mlon={{ L.lon }}#map=18/{{ L.lat }}/{{ L.lon }}" rel="noopener">{% include icon.html name="pin" %} Open in OpenStreetMap</a></figcaption>
+          <figcaption>
+            <a href="https://www.openstreetmap.org/?mlat={{ L.lat }}&amp;mlon={{ L.lon }}#map=18/{{ L.lat }}/{{ L.lon }}" rel="noopener">{% include icon.html name="pin" %} Open in OpenStreetMap</a>
+            <a href="{{ play }}">{% include icon.html name="play" %} {% if L.sight or page.x %}Open in 3D{% else %}Ride through {{ C.name }} in 3D{% endif %}</a>
+          </figcaption>
         </figure>
         {%- endif %}
         {%- if L.dates %}
