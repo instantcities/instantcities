@@ -33,6 +33,115 @@ const LANE = 1.6 * 1.25; // the two tracks of a double track lie this far either
 const JOIN = 1.2, TURN = 0.75; // as in core/js/tramnet.js: track ends this near are joined, and the sharpest bend
 const GAP_END = 15; // metres: a gap's tracks stop this far short of the street's ends, for the curve onto the tracks there
 
+// ------------------------------------------------------------------ down the middle
+
+// Along a race route the map's double tracks can lie wider apart than the street drawn for the race
+// (OpenStreetMap has them some 6 m apart in the Cataloniestraat), the outer rails over the kerbs.
+// There each track is moved in to LANE off the route's middle, like the gaps' tracks, and back out
+// to where the map has it over RAMP metres either end. Points of a track and the ends of the
+// tracks that join it move together, so the tracks stay joined.
+const ROUTE_HW = 4.5; // how wide the race routes are drawn, either side of the middle (core/js/realtrack.js)
+const STEP = 3, RAMP = 15; // metres
+const moved = new Map(); // a map track's index -> its points, moved
+// the car-free squares (<city>/squares.js): no street drawn there, the rails lie in its stones as
+// they are. Their outlines read from the file itself, as it needs three.js to load.
+const squares = (() => {
+  const file = path.join(DIR, 'squares.js');
+  if (!fs.existsSync(file)) return [];
+  const src = fs.readFileSync(file, 'utf8'), from = src.indexOf('export const SQUARES');
+  return from < 0 ? [] : [...src.slice(from).matchAll(/\n {4}p: (\[[^\]]*\])/g)].map(m => JSON.parse(m[1]));
+})();
+const inside = (x, z, p) => {
+  let r = false;
+  for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) {
+    if (p[i + 1] > z !== p[j + 1] > z && x < ((p[j] - p[i]) * (z - p[i + 1])) / (p[j + 1] - p[i + 1]) + p[i]) r = !r;
+  }
+  return r;
+};
+{
+  // the routes' segments in a grid
+  const C = 10, cellKey = (i, j) => i * 100003 + j, cells = new Map();
+  for (const rt of MAP.routes) {
+    const pts = rt.route;
+    for (let k = 0; k + 1 < pts.length; k++) {
+      const [ax, az] = pts[k], [bx, bz] = pts[k + 1], L = Math.hypot(bx - ax, bz - az);
+      if (L < 1e-6) continue;
+      const seg = { ax, az, ux: (bx - ax) / L, uz: (bz - az) / L, L };
+      for (let i = Math.floor((Math.min(ax, bx) - 8) / C); i <= Math.floor((Math.max(ax, bx) + 8) / C); i++) {
+        for (let j = Math.floor((Math.min(az, bz) - 8) / C); j <= Math.floor((Math.max(az, bz) + 8) / C); j++) (cells.get(cellKey(i, j)) ?? cells.set(cellKey(i, j), []).get(cellKey(i, j))).push(seg);
+      }
+    }
+  }
+  // how far (x, z) is off the nearest route's middle, along which way, or null off the routes
+  const offRoute = (x, z) => {
+    let best = null;
+    for (const g of cells.get(cellKey(Math.floor(x / C), Math.floor(z / C))) ?? []) {
+      const along = (x - g.ax) * g.ux + (z - g.az) * g.uz;
+      if (along < -0.5 || along > g.L + 0.5) continue;
+      const lat = (x - g.ax) * g.uz - (z - g.az) * g.ux;
+      if (!best || Math.abs(lat) < Math.abs(best.lat)) best = { lat, ux: g.ux, uz: g.uz };
+    }
+    return best;
+  };
+  // every track in points STEP apart at most, and how far each must move
+  const verts = [], ways = MAP.trams.map((t, ti) => {
+    const ids = [];
+    for (let k = 0; k < t.p.length / 2; k++) {
+      const x = t.p[k * 2], z = t.p[k * 2 + 1];
+      if (k) {
+        const px = t.p[k * 2 - 2], pz = t.p[k * 2 - 1], n = Math.ceil(Math.hypot(x - px, z - pz) / STEP);
+        for (let q = 1; q < n; q++) ids.push(verts.push({ x: px + ((x - px) * q) / n, z: pz + ((z - pz) * q) / n, ti, made: true }) - 1);
+      }
+      ids.push(verts.push({ x, z, ti }) - 1);
+    }
+    return ids;
+  });
+  const near = new Map(); // joins: vertices in the same spot
+  const spot = v => `${Math.round(verts[v].x * 2)},${Math.round(verts[v].z * 2)}`;
+  verts.forEach((_, v) => (near.get(spot(v)) ?? near.set(spot(v), []).get(spot(v))).push(v));
+  const links = verts.map(() => []);
+  ways.forEach(ids => ids.forEach((v, k) => {
+    if (k) { const u = ids[k - 1], d = Math.hypot(verts[u].x - verts[v].x, verts[u].z - verts[v].z); links[u].push([v, d]); links[v].push([u, d]); }
+    for (const w of near.get(spot(v))) if (w !== v) links[v].push([w, 0]);
+  }));
+  // the points on a track running along a route, next to its kerb: the way to the middle
+  const shift = verts.map(() => null), dist = verts.map(() => Infinity), open = [];
+  ways.forEach((ids, ti) => {
+    if (MAP.trams[ti].y) return; // over a bridge: leave it be
+    ids.forEach((v, k) => {
+      const a = verts[ids[Math.max(0, k - 1)]], b = verts[ids[Math.min(ids.length - 1, k + 1)]], L = Math.hypot(b.x - a.x, b.z - a.z);
+      const o = L > 0 && !squares.some(q => inside(verts[v].x, verts[v].z, q)) && offRoute(verts[v].x, verts[v].z);
+      if (!o || Math.abs(((b.x - a.x) * o.ux + (b.z - a.z) * o.uz) / L) < Math.cos(0.4)) return;
+      if (Math.abs(o.lat) <= LANE + 0.2 || Math.abs(o.lat) > ROUTE_HW + 1) return;
+      const by = Math.sign(o.lat) * LANE - o.lat;
+      shift[v] = [o.uz * by, -o.ux * by];
+      dist[v] = 0;
+      open.push([0, v]);
+    });
+  });
+  // and from there out along the tracks, less and less
+  while (open.length) {
+    open.sort((a, b) => a[0] - b[0]);
+    const [d, u] = open.shift();
+    if (d > dist[u]) continue;
+    for (const [v, w] of links[u]) {
+      if (d + w < dist[v] && d + w < RAMP) { dist[v] = d + w; shift[v] = shift[u]; open.push([d + w, v]); }
+    }
+  }
+  ways.forEach((ids, ti) => {
+    if (!ids.some(v => shift[v] && Math.hypot(...shift[v]) * (1 - dist[v] / RAMP) > 0.05)) return;
+    const p = [];
+    ids.forEach(v => {
+      const { x, z, made } = verts[v], f = shift[v] ? 1 - dist[v] / RAMP : 0;
+      if (made && !shift[v]) return; // the points put in, where nothing moves
+      p.push(r1(x + (shift[v]?.[0] ?? 0) * f), r1(z + (shift[v]?.[1] ?? 0) * f));
+    });
+    moved.set(ti, p);
+  });
+  for (const [ti, p] of moved) MAP.trams[ti] = { ...MAP.trams[ti], p };
+  console.log(`${moved.size} tracks moved in to the middle of a race route (${squares.length} squares left as they are)`);
+}
+
 // ------------------------------------------------------------------ the gaps
 
 // the way along the streets from (ax, az) to (bx, bz): the shortest, over the map's roads
@@ -449,12 +558,14 @@ console.log(`${signs.length} stop signs, ${signs.filter(s => s.put).length} of t
 fs.writeFileSync(path.join(DIR, 'tramlines.js'), `// ${city}: the tram lines, made from tramlines.json by \`node tools/tramlines.mjs ${city}\`, do not edit by hand.
 // Map data © OpenStreetMap contributors, available under the Open Database License (ODbL).
 // TRAM_TRACKS: the tracks laid over the gaps, { p: flat [x, z, ...] }, drawn and driven like the map's own.
+// TRAM_MOVED: the map's tracks moved in to the middle of a race route, { index in the map's trams: p }.
 // TRAM_LINES: each line each way, { ref, colour, to, from, p: flat [x, z, ...] along the track it runs on,
 //   y?: heights, stops: { at: metres along p, name } }
 // TRAM_STOPS: where to wait, by a stop sign: { x, z, y, a (the way the sign faces, as in transit.js), name,
 //   serves: [line (its index in TRAM_LINES), metres along it], put: a new sign, not one of transit.js's,
 //   w?: how wide its platform is, metres }
 export const TRAM_TRACKS = ${JSON.stringify(extra.map(({ p }) => ({ p })))};
+export const TRAM_MOVED = ${JSON.stringify(Object.fromEntries(moved))};
 export const TRAM_LINES = ${JSON.stringify(lines)};
 export const TRAM_STOPS = ${JSON.stringify(signs.map(s => ({ ...s, serves: s.serves.map(([run, at]) => [run, r1(at)]) })))};
 `);

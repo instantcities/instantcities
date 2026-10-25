@@ -108,9 +108,10 @@ const TUNES = {
   },
 };
 
-// Each song plays its tunes in turn, one full pass each. There is one: the menu's, as the game
-// itself plays without music.
+// Each song cycles through its tunes, one full pass each, in its own arrangement.
 const SONGS = {
+  // The original gameplay arrangement, restored from before October 4, 2026.
+  race: { bpm: 150, style: 'galop', leadType: 'square', leadVol: 0.1, transpose: 0, tunes: ['vliegerke', 'klokke', 'kernkraft'] },
   // Title screen: straight, at 100 bpm, with an echoing triangle lead.
   menu: { bpm: 100, leadType: 'triangle', leadVol: 0.2, transpose: -12, echo: true, tunes: ['vliegerke', 'klokke', 'kernkraft'] },
 };
@@ -134,6 +135,12 @@ function prepare(song, tune) {
 
 const PREPARED = Object.fromEntries(Object.entries(SONGS).map(([k, s]) => [k, s.tunes.map(t => prepare(s, TUNES[t]))]));
 
+// Recorded music, played as it is and once instead of a tune: its file in core/sounds, and
+// how loud. The tour's: "Epic Piano" by Nastelbom (Pixabay, free to use), from 0:15 on.
+const RECORDINGS = {
+  tour: { url: new URL('../sounds/tour.mp3', import.meta.url).href, vol: 0.45 },
+};
+
 export class Music {
   constructor(audio) {
     this.a = audio;
@@ -143,11 +150,21 @@ export class Music {
     this.next = 0;
     this.timer = null;
     this.ahead = 0.15; // seconds of music scheduled ahead
+    this.loaded = {}; // the recordings, decoded: a promise of each's buffer
+    this.playing = null; // the recording playing: { src, gain }
   }
 
-  play(name) {
+  // from: seconds into a recording to start at (the demo's music)
+  play(name, from = 0) {
     if (this.name === name) return;
+    this.hush();
     this.name = name;
+    this.from = from;
+    if (RECORDINGS[name]) {
+      this.song = null;
+      this.record();
+      return;
+    }
     this.tunes = PREPARED[name];
     this.tune = 0;
     this.song = this.tunes[0];
@@ -159,11 +176,41 @@ export class Music {
   stop() {
     this.name = null;
     this.song = null;
+    this.hush();
+  }
+
+  // The recording for this.name, from its start (or this.from), fading in (once the browser allows audio).
+  async record() {
+    const ctx = this.a.ctx, name = this.name, rec = RECORDINGS[name];
+    if (!ctx || !rec || this.playing) return;
+    this.loaded[name] ??= fetch(rec.url).then(r => r.arrayBuffer()).then(b => ctx.decodeAudioData(b));
+    let buf;
+    try { buf = await this.loaded[name]; } catch { delete this.loaded[name]; return; } // offline: next time
+    if (this.name !== name || this.playing) return; // something else asked for meanwhile
+    const src = ctx.createBufferSource(), gain = ctx.createGain(), t = ctx.currentTime;
+    src.buffer = buf;
+    gain.gain.setValueAtTime(0, t);
+    gain.gain.linearRampToValueAtTime(rec.vol, t + 1.5);
+    src.connect(gain).connect(this.a.musicBus); // the music switch turns it down with the rest
+    src.start(t, this.from ?? 0);
+    this.playing = { src, gain };
+  }
+
+  // The recording playing fades out and stops.
+  hush() {
+    const p = this.playing;
+    if (!p) return;
+    this.playing = null;
+    const t = this.a.ctx.currentTime;
+    p.gain.gain.cancelScheduledValues(t);
+    p.gain.gain.setTargetAtTime(0, t, 0.25);
+    p.src.stop(t + 1.5);
   }
 
   // Called once the browser allows audio (first key press or click).
   restart() {
     const ctx = this.a.ctx;
+    if (RECORDINGS[this.name]) return this.record();
     if (!ctx || !this.song) return;
     this.next = ctx.currentTime + 0.08;
     if (!this.timer) this.timer = setInterval(() => this.tick(), 25);
@@ -211,18 +258,28 @@ export class Music {
     const ch = song.chord[step];
     if (song.div === 2 && song.meter === 8) {
       // Polka in 2/4, counted in sixteenths: bass on the beats, chords on the off-beats.
-      const e = dur * 2;
-      if (s === 0 || s === 4) a.tone(hz(s === 0 ? ch.root : ch.root + 7), e * 2.5, { type: 'triangle', vol: 0.4, at, bus });
-      if (s === 2 || s === 6) for (const n of ch.notes) a.tone(hz(n), e * 1.4, { type: 'triangle', vol: 0.05, at, bus });
-      if (s === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
-      if (s % 4 === 2) a.noise(0.03, { vol: 0.03, freq: 6000, type: 'highpass', at, bus });
+      const race = song.style === 'galop', e = dur * 2;
+      if (s === 0 || s === 4) a.tone(hz(s === 0 ? ch.root : ch.root + 7), e * (race ? 1.7 : 2.5), { type: 'triangle', vol: race ? 0.45 : 0.4, at, bus });
+      if (s === 2 || s === 6) for (const n of ch.notes) a.tone(hz(n), e * (race ? 0.55 : 1.4), { type: race ? 'square' : 'triangle', vol: race ? 0.03 : 0.05, at, bus });
+      if (race && (s === 0 || s === 4)) a.tone(150, 0.14, { to: 45, vol: 0.5, at, bus });
+      if (!race && s === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
+      if (race && (s === 2 || s === 6)) a.noise(0.1, { vol: 0.16, freq: 1800, q: 0.8, at, bus });
+      if (s % 2 === 0 && (race || s % 4)) a.noise(0.03, { vol: race ? (s % 4 ? 0.06 : 0.035) : 0.03, freq: race ? 8000 : 6000, type: 'highpass', at, bus });
     } else if (s % song.div === 0) {
       // 4/4: patterns on the eighths, also when the tune is counted in sixteenths.
       const q = s / song.div, e = dur * song.div;
-      if (q === 0 || q === 4) a.tone(hz(q === 0 ? ch.root : ch.root + 7), e * 3, { type: 'triangle', vol: 0.4, at, bus });
-      if (q === 2 || q === 6) for (const n of ch.notes) a.tone(hz(n), e * 1.6, { type: 'triangle', vol: 0.05, at, bus });
-      if (q === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
-      if (q % 2) a.noise(0.05, { vol: 0.03, freq: 6000, type: 'highpass', at, bus });
+      if (song.style === 'galop') {
+        if (q % 2 === 0) a.tone(hz(q % 4 === 0 ? ch.root : ch.root + 7), e * 1.7, { type: 'triangle', vol: 0.45, at, bus });
+        else for (const n of ch.notes) a.tone(hz(n), e * 0.55, { type: 'square', vol: 0.03, at, bus });
+        if (q === 0 || q === 4) a.tone(150, 0.14, { to: 45, vol: 0.5, at, bus });
+        if (q === 2 || q === 6) a.noise(0.1, { vol: 0.16, freq: 1800, q: 0.8, at, bus });
+        a.noise(0.03, { vol: q % 2 ? 0.06 : 0.035, freq: 8000, type: 'highpass', at, bus });
+      } else {
+        if (q === 0 || q === 4) a.tone(hz(q === 0 ? ch.root : ch.root + 7), e * 3, { type: 'triangle', vol: 0.4, at, bus });
+        if (q === 2 || q === 6) for (const n of ch.notes) a.tone(hz(n), e * 1.6, { type: 'triangle', vol: 0.05, at, bus });
+        if (q === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
+        if (q % 2) a.noise(0.05, { vol: 0.03, freq: 6000, type: 'highpass', at, bus });
+      }
     }
     const note = song.lead[step];
     if (note) a.tone(hz(note.m), note.len * dur * 0.92, { type: song.leadType, vol: song.leadVol, at, bus: song.echo ? this.echoBus() : bus });

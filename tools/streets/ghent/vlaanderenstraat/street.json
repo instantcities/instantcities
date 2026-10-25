@@ -1,0 +1,7217 @@
+{
+ "city": "ghent",
+ "street": "Vlaanderenstraat",
+ "slug": "vlaanderenstraat",
+ "photos": {
+  "1036760264304303": {
+   "file": "photos/1036760264304303.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1036760264304303",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-08-31",
+   "cam": [
+    51.049699,
+    3.7306106,
+    338,
+    0.535
+   ]
+  },
+  "924491751647715": {
+   "file": "photos/924491751647715.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=924491751647715",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-19",
+   "cam": [
+    51.0497824,
+    3.7301745,
+    42,
+    0.988
+   ]
+  },
+  "208419060822838": {
+   "file": "photos/208419060822838.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=208419060822838",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-11-02",
+   "cam": [
+    51.0497281,
+    3.7305846,
+    338,
+    0.996
+   ]
+  },
+  "1384122875878302-31": {
+   "file": "photos/1384122875878302-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1384122875878302",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0514829,
+    3.72873,
+    31,
+    0.5
+   ]
+  },
+  "410851628699035-31": {
+   "file": "photos/410851628699035-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=410851628699035",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0514813,
+    3.7287299,
+    31,
+    0.5
+   ]
+  },
+  "1082961420123930-27": {
+   "file": "photos/1082961420123930-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1082961420123930",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0514776,
+    3.7287361,
+    27,
+    0.5
+   ]
+  },
+  "546566804476132-47": {
+   "file": "photos/546566804476132-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=546566804476132",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0505947,
+    3.7297587,
+    47,
+    0.5
+   ]
+  },
+  "494217010078422-64": {
+   "file": "photos/494217010078422-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=494217010078422",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0506008,
+    3.7297267,
+    64,
+    0.5
+   ]
+  },
+  "1926346521122703-40": {
+   "file": "photos/1926346521122703-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1926346521122703",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0505896,
+    3.7297662,
+    40,
+    0.5
+   ]
+  },
+  "871581928475921-57": {
+   "file": "photos/871581928475921-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=871581928475921",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0505485,
+    3.7298147,
+    57,
+    0.5
+   ]
+  },
+  "1565211101068834-61": {
+   "file": "photos/1565211101068834-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1565211101068834",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0505513,
+    3.7298087,
+    61,
+    0.5
+   ]
+  },
+  "896408119059543-63": {
+   "file": "photos/896408119059543-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=896408119059543",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0505525,
+    3.729809,
+    63,
+    0.5
+   ]
+  },
+  "1190682769113694-51": {
+   "file": "photos/1190682769113694-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1190682769113694",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-23",
+   "pano": true,
+   "cam": [
+    51.0504356,
+    3.7299439,
+    51,
+    0.5
+   ]
+  },
+  "1247721093246673-48": {
+   "file": "photos/1247721093246673-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1247721093246673",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0504343,
+    3.7299463,
+    48,
+    0.5
+   ]
+  },
+  "515948001186984-60": {
+   "file": "photos/515948001186984-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515948001186984",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0504421,
+    3.7299354,
+    60,
+    0.5
+   ]
+  },
+  "1732754930889175-47": {
+   "file": "photos/1732754930889175-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1732754930889175",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.051241,
+    3.7290104,
+    47,
+    0.5
+   ]
+  },
+  "1058027649126735-45": {
+   "file": "photos/1058027649126735-45.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1058027649126735",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0512395,
+    3.7290109,
+    45,
+    0.5
+   ]
+  },
+  "2023552864788433-61": {
+   "file": "photos/2023552864788433-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2023552864788433",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-23",
+   "pano": true,
+   "cam": [
+    51.0512368,
+    3.7289553,
+    61,
+    0.5
+   ]
+  },
+  "1047907496746556-55": {
+   "file": "photos/1047907496746556-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1047907496746556",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0511914,
+    3.7290673,
+    55,
+    0.5
+   ]
+  },
+  "1229091011576014-56": {
+   "file": "photos/1229091011576014-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1229091011576014",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0511922,
+    3.7290681,
+    56,
+    0.5
+   ]
+  },
+  "8482998221739391-55": {
+   "file": "photos/8482998221739391-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8482998221739391",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0511916,
+    3.7290668,
+    55,
+    0.5
+   ]
+  },
+  "3763722757177981-63": {
+   "file": "photos/3763722757177981-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3763722757177981",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0511667,
+    3.7290956,
+    63,
+    0.5
+   ]
+  },
+  "904043131631903-65": {
+   "file": "photos/904043131631903-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=904043131631903",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0511677,
+    3.7290941,
+    65,
+    0.5
+   ]
+  },
+  "1247939546126610-42": {
+   "file": "photos/1247939546126610-42.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1247939546126610",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0511508,
+    3.7291138,
+    42,
+    0.5
+   ]
+  },
+  "558496506731043-50": {
+   "file": "photos/558496506731043-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=558496506731043",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.051089,
+    3.7291849,
+    50,
+    0.5
+   ]
+  },
+  "1241083323757403-44": {
+   "file": "photos/1241083323757403-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1241083323757403",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0510797,
+    3.7291823,
+    44,
+    0.5
+   ]
+  },
+  "879664183661393-66": {
+   "file": "photos/879664183661393-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=879664183661393",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0511011,
+    3.7291723,
+    66,
+    0.5
+   ]
+  },
+  "497074096558622-55": {
+   "file": "photos/497074096558622-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497074096558622",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.051037,
+    3.7292469,
+    55,
+    0.5
+   ]
+  },
+  "8732487506795612-52": {
+   "file": "photos/8732487506795612-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8732487506795612",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0510344,
+    3.7292502,
+    52,
+    0.5
+   ]
+  },
+  "3710427335884234-61": {
+   "file": "photos/3710427335884234-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3710427335884234",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0510405,
+    3.7292408,
+    61,
+    0.5
+   ]
+  },
+  "2200807656962331-55": {
+   "file": "photos/2200807656962331-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2200807656962331",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0509899,
+    3.7293015,
+    55,
+    0.5
+   ]
+  },
+  "546797291357057-61": {
+   "file": "photos/546797291357057-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=546797291357057",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.050994,
+    3.7292961,
+    61,
+    0.5
+   ]
+  },
+  "3457404431223802-61": {
+   "file": "photos/3457404431223802-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3457404431223802",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0509889,
+    3.7292795,
+    61,
+    0.5
+   ]
+  },
+  "1186256466001083-54": {
+   "file": "photos/1186256466001083-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1186256466001083",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0509236,
+    3.7293777,
+    54,
+    0.5
+   ]
+  },
+  "1208663333709375-52": {
+   "file": "photos/1208663333709375-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208663333709375",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0509219,
+    3.7293787,
+    52,
+    0.5
+   ]
+  },
+  "1048617076921534-59": {
+   "file": "photos/1048617076921534-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1048617076921534",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0509211,
+    3.7293571,
+    59,
+    0.5
+   ]
+  },
+  "1076011947226251-54": {
+   "file": "photos/1076011947226251-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1076011947226251",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0508586,
+    3.7294537,
+    54,
+    0.5
+   ]
+  },
+  "1242083017209708-57": {
+   "file": "photos/1242083017209708-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1242083017209708",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0508604,
+    3.7294506,
+    57,
+    0.5
+   ]
+  },
+  "1040094597759780-58": {
+   "file": "photos/1040094597759780-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1040094597759780",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0508616,
+    3.7294512,
+    58,
+    0.5
+   ]
+  },
+  "2331332713872684-55": {
+   "file": "photos/2331332713872684-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2331332713872684",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0507886,
+    3.7295098,
+    55,
+    0.5
+   ]
+  },
+  "1057658485954424-57": {
+   "file": "photos/1057658485954424-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1057658485954424",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0507974,
+    3.7295247,
+    57,
+    0.5
+   ]
+  },
+  "505823268820020-59": {
+   "file": "photos/505823268820020-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=505823268820020",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0507987,
+    3.7295225,
+    59,
+    0.5
+   ]
+  },
+  "1746745156154623-49": {
+   "file": "photos/1746745156154623-49.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1746745156154623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0506665,
+    3.7296757,
+    49,
+    0.5
+   ]
+  },
+  "1653431618833559-43": {
+   "file": "photos/1653431618833559-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1653431618833559",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.050662,
+    3.7296808,
+    43,
+    0.5
+   ]
+  },
+  "1098625108297499-44": {
+   "file": "photos/1098625108297499-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1098625108297499",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0506539,
+    3.7296658,
+    44,
+    0.5
+   ]
+  },
+  "1162874094174932": {
+   "file": "photos/1162874094174932.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1162874094174932",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-19",
+   "cam": [
+    51.0500658,
+    3.7301449,
+    30,
+    0.982
+   ]
+  },
+  "507790935291507-56": {
+   "file": "photos/507790935291507-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=507790935291507",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0504972,
+    3.7298733,
+    56,
+    0.5
+   ]
+  },
+  "1050038039525394-60": {
+   "file": "photos/1050038039525394-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1050038039525394",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0505002,
+    3.7298709,
+    60,
+    0.5
+   ]
+  },
+  "886839892826583-47": {
+   "file": "photos/886839892826583-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=886839892826583",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0504813,
+    3.7298634,
+    47,
+    0.5
+   ]
+  },
+  "1079812936840483-51": {
+   "file": "photos/1079812936840483-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1079812936840483",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0503782,
+    3.7300108,
+    51,
+    0.5
+   ]
+  },
+  "482538241353297-49": {
+   "file": "photos/482538241353297-49.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=482538241353297",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0503767,
+    3.7300126,
+    49,
+    0.5
+   ]
+  },
+  "865556019008914-47": {
+   "file": "photos/865556019008914-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=865556019008914",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0503649,
+    3.7299957,
+    47,
+    0.5
+   ]
+  },
+  "1874327726421768-56": {
+   "file": "photos/1874327726421768-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1874327726421768",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.050331,
+    3.730066,
+    56,
+    0.5
+   ]
+  },
+  "1021964886335921-51": {
+   "file": "photos/1021964886335921-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1021964886335921",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0503181,
+    3.7300492,
+    51,
+    0.5
+   ]
+  },
+  "1541793326517194-49": {
+   "file": "photos/1541793326517194-49.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1541793326517194",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0503264,
+    3.730072,
+    49,
+    0.5
+   ]
+  },
+  "1637945650114404-55": {
+   "file": "photos/1637945650114404-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1637945650114404",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0507538,
+    3.7295744,
+    55,
+    0.5
+   ]
+  },
+  "493110926880820-53": {
+   "file": "photos/493110926880820-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=493110926880820",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0507444,
+    3.7295614,
+    53,
+    0.5
+   ]
+  },
+  "509564181718341-50": {
+   "file": "photos/509564181718341-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=509564181718341",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0507497,
+    3.729579,
+    50,
+    0.5
+   ]
+  },
+  "1062926592017448-68": {
+   "file": "photos/1062926592017448-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1062926592017448",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0496697,
+    3.7306339,
+    68,
+    0.5
+   ]
+  },
+  "1192411615344224-72": {
+   "file": "photos/1192411615344224-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192411615344224",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0496739,
+    3.7306349,
+    72,
+    0.5
+   ]
+  },
+  "720210630292740-73": {
+   "file": "photos/720210630292740-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=720210630292740",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.049675,
+    3.7306378,
+    73,
+    0.5
+   ]
+  },
+  "1025366382457883-67": {
+   "file": "photos/1025366382457883-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025366382457883",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0493426,
+    3.7308751,
+    67,
+    0.5
+   ]
+  },
+  "1100781038075099-67": {
+   "file": "photos/1100781038075099-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1100781038075099",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0493381,
+    3.7308588,
+    67,
+    0.5
+   ]
+  },
+  "1725320944935186-69": {
+   "file": "photos/1725320944935186-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1725320944935186",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0493443,
+    3.7308754,
+    69,
+    0.5
+   ]
+  },
+  "550614190830846-72": {
+   "file": "photos/550614190830846-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=550614190830846",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0491076,
+    3.7310468,
+    72,
+    0.5
+   ]
+  },
+  "1255275032555764-74": {
+   "file": "photos/1255275032555764-74.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1255275032555764",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.049108,
+    3.7310436,
+    74,
+    0.5
+   ]
+  },
+  "1526901757925050-50": {
+   "file": "photos/1526901757925050-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1526901757925050",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0490847,
+    3.7310412,
+    50,
+    0.5
+   ]
+  },
+  "344744813652165": {
+   "file": "photos/344744813652165.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=344744813652165",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-19",
+   "cam": [
+    51.0497053,
+    3.7301263,
+    65,
+    0.982
+   ]
+  },
+  "390291393935758-66": {
+   "file": "photos/390291393935758-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=390291393935758",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.049516,
+    3.730749,
+    66,
+    0.5
+   ]
+  },
+  "3732089373670657-72": {
+   "file": "photos/3732089373670657-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3732089373670657",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.049514,
+    3.7307174,
+    72,
+    0.5
+   ]
+  },
+  "840662901581820-75": {
+   "file": "photos/840662901581820-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=840662901581820",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.049523,
+    3.7307461,
+    75,
+    0.5
+   ]
+  },
+  "1527548638155625-76": {
+   "file": "photos/1527548638155625-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1527548638155625",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0492598,
+    3.7309152,
+    76,
+    0.5
+   ]
+  },
+  "1049405110027930-81": {
+   "file": "photos/1049405110027930-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1049405110027930",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0492662,
+    3.7309321,
+    81,
+    0.5
+   ]
+  },
+  "538675405187841-51": {
+   "file": "photos/538675405187841-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=538675405187841",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0492454,
+    3.730944,
+    51,
+    0.5
+   ]
+  },
+  "541136641708178-76": {
+   "file": "photos/541136641708178-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=541136641708178",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0491848,
+    3.7309916,
+    76,
+    0.5
+   ]
+  },
+  "844321530793790-52": {
+   "file": "photos/844321530793790-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844321530793790",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0491683,
+    3.7310014,
+    52,
+    0.5
+   ]
+  },
+  "2166793137035864-79": {
+   "file": "photos/2166793137035864-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2166793137035864",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0491846,
+    3.7309695,
+    79,
+    0.5
+   ]
+  },
+  "1997653480695314-76": {
+   "file": "photos/1997653480695314-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1997653480695314",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0490303,
+    3.7311017,
+    76,
+    0.5
+   ]
+  },
+  "996824828793685-78": {
+   "file": "photos/996824828793685-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=996824828793685",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0490309,
+    3.7310985,
+    78,
+    0.5
+   ]
+  },
+  "3907610906163199-79": {
+   "file": "photos/3907610906163199-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3907610906163199",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.04903,
+    3.7310806,
+    79,
+    0.5
+   ]
+  },
+  "867964761955358-69": {
+   "file": "photos/867964761955358-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=867964761955358",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0489724,
+    3.7311413,
+    69,
+    0.5
+   ]
+  },
+  "2019245978515303-81": {
+   "file": "photos/2019245978515303-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2019245978515303",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0489807,
+    3.7311372,
+    81,
+    0.5
+   ]
+  },
+  "424000807367304-52": {
+   "file": "photos/424000807367304-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=424000807367304",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0489539,
+    3.7311351,
+    52,
+    0.5
+   ]
+  },
+  "922524199899883-71": {
+   "file": "photos/922524199899883-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=922524199899883",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0489249,
+    3.7311771,
+    71,
+    0.5
+   ]
+  },
+  "809145784738265-73": {
+   "file": "photos/809145784738265-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=809145784738265",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0489261,
+    3.7311759,
+    73,
+    0.5
+   ]
+  },
+  "8167736056615328-77": {
+   "file": "photos/8167736056615328-77.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8167736056615328",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0489288,
+    3.7311739,
+    77,
+    0.5
+   ]
+  },
+  "1521788311771364-70": {
+   "file": "photos/1521788311771364-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1521788311771364",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0488742,
+    3.7312133,
+    70,
+    0.5
+   ]
+  },
+  "480196731670145-71": {
+   "file": "photos/480196731670145-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=480196731670145",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0488754,
+    3.7312132,
+    71,
+    0.5
+   ]
+  },
+  "1519988348631049-75": {
+   "file": "photos/1519988348631049-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1519988348631049",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0488778,
+    3.7312108,
+    75,
+    0.5
+   ]
+  },
+  "1236263237797469-62": {
+   "file": "photos/1236263237797469-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1236263237797469",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0488017,
+    3.7312628,
+    62,
+    0.5
+   ]
+  },
+  "1556894495226008-60": {
+   "file": "photos/1556894495226008-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1556894495226008",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.048796,
+    3.7312525,
+    60,
+    0.5
+   ]
+  },
+  "400833736120838-56": {
+   "file": "photos/400833736120838-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=400833736120838",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0487984,
+    3.7312662,
+    56,
+    0.5
+   ]
+  },
+  "516902539684740": {
+   "file": "photos/516902539684740.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516902539684740",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-11",
+   "cam": [
+    51.0486183,
+    3.7313837,
+    68,
+    0.475
+   ]
+  },
+  "316136150079303": {
+   "file": "photos/316136150079303.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=316136150079303",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0485298,
+    3.7313764,
+    54,
+    0.382
+   ]
+  },
+  "1205120059925689": {
+   "file": "photos/1205120059925689.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1205120059925689",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.049,
+    3.7311949,
+    193,
+    0.757
+   ]
+  },
+  "513358813176435": {
+   "file": "photos/513358813176435.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=513358813176435",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-11",
+   "cam": [
+    51.0490019,
+    3.7310833,
+    159,
+    0.475
+   ]
+  },
+  "1179137819214340": {
+   "file": "photos/1179137819214340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179137819214340",
+   "author": "joostjakob",
+   "licence": "CC BY-SA 4.0",
+   "date": "2014-03-15",
+   "cam": [
+    51.0490506,
+    3.7310712,
+    158,
+    0.806
+   ]
+  },
+  "970806390412597": {
+   "file": "photos/970806390412597.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970806390412597",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0514572,
+    3.7288115,
+    230,
+    0.757
+   ]
+  },
+  "265462948648910": {
+   "file": "photos/265462948648910.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=265462948648910",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0514041,
+    3.7289925,
+    244,
+    0.338
+   ]
+  },
+  "246343617242042": {
+   "file": "photos/246343617242042.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=246343617242042",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2014-06-30",
+   "cam": [
+    51.0516195,
+    3.7286233,
+    184,
+    0.908
+   ]
+  },
+  "392361822373423": {
+   "file": "photos/392361822373423.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=392361822373423",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0514582,
+    3.7287816,
+    209,
+    0.757
+   ]
+  },
+  "496263291804068": {
+   "file": "photos/496263291804068.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=496263291804068",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0514041,
+    3.7289924,
+    243,
+    0.338
+   ]
+  },
+  "206039334522540": {
+   "file": "photos/206039334522540.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=206039334522540",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0514525,
+    3.7287611,
+    190,
+    0.757
+   ]
+  },
+  "2819788151669914": {
+   "file": "photos/2819788151669914.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2819788151669914",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0514397,
+    3.7288613,
+    185,
+    0.338
+   ]
+  },
+  "534535134217448": {
+   "file": "photos/534535134217448.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534535134217448",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0510015,
+    3.7293687,
+    200,
+    0.757
+   ]
+  },
+  "835745270656832": {
+   "file": "photos/835745270656832.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=835745270656832",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0509496,
+    3.7294152,
+    190,
+    0.757
+   ]
+  },
+  "646492967974784-232": {
+   "file": "photos/646492967974784-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=646492967974784",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-23",
+   "pano": true,
+   "cam": [
+    51.050799,
+    3.7295505,
+    232,
+    0.5
+   ]
+  },
+  "524575107177787-234": {
+   "file": "photos/524575107177787-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=524575107177787",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0507882,
+    3.7295352,
+    234,
+    0.5
+   ]
+  },
+  "2331332713872684-227": {
+   "file": "photos/2331332713872684-227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2331332713872684",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0507886,
+    3.7295098,
+    227,
+    0.5
+   ]
+  },
+  "1746745156154623-237": {
+   "file": "photos/1746745156154623-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1746745156154623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0506665,
+    3.7296757,
+    237,
+    0.5
+   ]
+  },
+  "1595668391327815-227": {
+   "file": "photos/1595668391327815-227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1595668391327815",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0506794,
+    3.7296609,
+    227,
+    0.5
+   ]
+  },
+  "1098625108297499-242": {
+   "file": "photos/1098625108297499-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1098625108297499",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0506539,
+    3.7296658,
+    242,
+    0.5
+   ]
+  },
+  "1039645517639119-233": {
+   "file": "photos/1039645517639119-233.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1039645517639119",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0506126,
+    3.7297385,
+    233,
+    0.5
+   ]
+  },
+  "2939959119514548-235": {
+   "file": "photos/2939959119514548-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2939959119514548",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-23",
+   "pano": true,
+   "cam": [
+    51.0506112,
+    3.729743,
+    235,
+    0.5
+   ]
+  },
+  "1242467496763824-233": {
+   "file": "photos/1242467496763824-233.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1242467496763824",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0506125,
+    3.7297387,
+    233,
+    0.5
+   ]
+  },
+  "1446237712732942-235": {
+   "file": "photos/1446237712732942-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1446237712732942",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0505528,
+    3.7297818,
+    235,
+    0.5
+   ]
+  },
+  "512432381736140-231": {
+   "file": "photos/512432381736140-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=512432381736140",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0505659,
+    3.7297933,
+    231,
+    0.5
+   ]
+  },
+  "527831756281814-230": {
+   "file": "photos/527831756281814-230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527831756281814",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.050567,
+    3.729793,
+    230,
+    0.5
+   ]
+  },
+  "1686686092215996-235": {
+   "file": "photos/1686686092215996-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1686686092215996",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-23",
+   "pano": true,
+   "cam": [
+    51.0505211,
+    3.7298426,
+    235,
+    0.5
+   ]
+  },
+  "1701356293981245-236": {
+   "file": "photos/1701356293981245-236.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1701356293981245",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0505216,
+    3.7298452,
+    236,
+    0.5
+   ]
+  },
+  "1204810117451036-232": {
+   "file": "photos/1204810117451036-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1204810117451036",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0505263,
+    3.7298411,
+    232,
+    0.5
+   ]
+  },
+  "1323872338638682-233": {
+   "file": "photos/1323872338638682-233.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1323872338638682",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0504781,
+    3.7298962,
+    233,
+    0.5
+   ]
+  },
+  "944192857432685-229": {
+   "file": "photos/944192857432685-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=944192857432685",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0504839,
+    3.7298887,
+    229,
+    0.5
+   ]
+  },
+  "1067436015102762-228": {
+   "file": "photos/1067436015102762-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1067436015102762",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0504839,
+    3.7298868,
+    228,
+    0.5
+   ]
+  },
+  "904655024884924-234": {
+   "file": "photos/904655024884924-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=904655024884924",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0504136,
+    3.7299701,
+    234,
+    0.5
+   ]
+  },
+  "926842522798384-228": {
+   "file": "photos/926842522798384-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=926842522798384",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0504118,
+    3.7299424,
+    228,
+    0.5
+   ]
+  },
+  "1526506508004578-228": {
+   "file": "photos/1526506508004578-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1526506508004578",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0504219,
+    3.7299592,
+    228,
+    0.5
+   ]
+  },
+  "1046309150132477-232": {
+   "file": "photos/1046309150132477-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1046309150132477",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0503392,
+    3.730056,
+    232,
+    0.5
+   ]
+  },
+  "1874327726421768-239": {
+   "file": "photos/1874327726421768-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1874327726421768",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.050331,
+    3.730066,
+    239,
+    0.5
+   ]
+  },
+  "1021964886335921-243": {
+   "file": "photos/1021964886335921-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1021964886335921",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0503181,
+    3.7300492,
+    243,
+    0.5
+   ]
+  },
+  "827402192932121-228": {
+   "file": "photos/827402192932121-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=827402192932121",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0502485,
+    3.7301296,
+    228,
+    0.5
+   ]
+  },
+  "493113903615581-239": {
+   "file": "photos/493113903615581-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=493113903615581",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0502439,
+    3.7301659,
+    239,
+    0.5
+   ]
+  },
+  "1262153234814991-240": {
+   "file": "photos/1262153234814991-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1262153234814991",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0502426,
+    3.7301673,
+    240,
+    0.5
+   ]
+  },
+  "487592534238124-235": {
+   "file": "photos/487592534238124-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=487592534238124",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0507231,
+    3.7296103,
+    235,
+    0.5
+   ]
+  },
+  "882329543323733-239": {
+   "file": "photos/882329543323733-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=882329543323733",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0507184,
+    3.7296151,
+    239,
+    0.5
+   ]
+  },
+  "872706894799158-229": {
+   "file": "photos/872706894799158-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=872706894799158",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0507224,
+    3.7295869,
+    229,
+    0.5
+   ]
+  },
+  "2489711414563774-246": {
+   "file": "photos/2489711414563774-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2489711414563774",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.049759,
+    3.7305731,
+    246,
+    0.5
+   ]
+  },
+  "1156554818767945-239": {
+   "file": "photos/1156554818767945-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1156554818767945",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.04977,
+    3.7305646,
+    239,
+    0.5
+   ]
+  },
+  "401955369346925-251": {
+   "file": "photos/401955369346925-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=401955369346925",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.049752,
+    3.7305803,
+    251,
+    0.5
+   ]
+  },
+  "1247715943070435-239": {
+   "file": "photos/1247715943070435-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1247715943070435",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0494895,
+    3.7307361,
+    239,
+    0.5
+   ]
+  },
+  "1753199042089847-241": {
+   "file": "photos/1753199042089847-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1753199042089847",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0494957,
+    3.7307636,
+    241,
+    0.5
+   ]
+  },
+  "495139560034626-250": {
+   "file": "photos/495139560034626-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=495139560034626",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0494825,
+    3.7307743,
+    250,
+    0.5
+   ]
+  },
+  "1704540396397277": {
+   "file": "photos/1704540396397277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1704540396397277",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-03",
+   "cam": [
+    51.0492767,
+    3.7309953,
+    206,
+    0.757
+   ]
+  },
+  "1582000795688676-248": {
+   "file": "photos/1582000795688676-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1582000795688676",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.048901,
+    3.7311727,
+    248,
+    0.5
+   ]
+  },
+  "2378117802520216-249": {
+   "file": "photos/2378117802520216-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2378117802520216",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0489037,
+    3.7311921,
+    249,
+    0.5
+   ]
+  },
+  "1423294801671231-252": {
+   "file": "photos/1423294801671231-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1423294801671231",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0488995,
+    3.7311952,
+    252,
+    0.5
+   ]
+  },
+  "1343937226583631-245": {
+   "file": "photos/1343937226583631-245.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1343937226583631",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0498384,
+    3.7305153,
+    245,
+    0.5
+   ]
+  },
+  "543001818301040-248": {
+   "file": "photos/543001818301040-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=543001818301040",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0498347,
+    3.7305213,
+    248,
+    0.5
+   ]
+  },
+  "2684227878631435-251": {
+   "file": "photos/2684227878631435-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2684227878631435",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0498283,
+    3.7305241,
+    251,
+    0.5
+   ]
+  },
+  "1062926592017448-240": {
+   "file": "photos/1062926592017448-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1062926592017448",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0496697,
+    3.7306339,
+    240,
+    0.5
+   ]
+  },
+  "2289020461467742-253": {
+   "file": "photos/2289020461467742-253.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2289020461467742",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0496512,
+    3.7306528,
+    253,
+    0.5
+   ]
+  },
+  "1192411615344224-238": {
+   "file": "photos/1192411615344224-238.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192411615344224",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0496739,
+    3.7306349,
+    238,
+    0.5
+   ]
+  },
+  "1043152330461182-248": {
+   "file": "photos/1043152330461182-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1043152330461182",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0495908,
+    3.7306714,
+    248,
+    0.5
+   ]
+  },
+  "908174268036422-246": {
+   "file": "photos/908174268036422-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=908174268036422",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0495995,
+    3.7306906,
+    246,
+    0.5
+   ]
+  },
+  "1037091397900860-249": {
+   "file": "photos/1037091397900860-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1037091397900860",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0495936,
+    3.7306937,
+    249,
+    0.5
+   ]
+  },
+  "848767554053812-249": {
+   "file": "photos/848767554053812-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=848767554053812",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0494281,
+    3.730813,
+    249,
+    0.5
+   ]
+  },
+  "1699435457566768-239": {
+   "file": "photos/1699435457566768-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1699435457566768",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.049436,
+    3.7307813,
+    239,
+    0.5
+   ]
+  },
+  "1020309059774071-252": {
+   "file": "photos/1020309059774071-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020309059774071",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0494233,
+    3.7308169,
+    252,
+    0.5
+   ]
+  },
+  "1044951027039904-247": {
+   "file": "photos/1044951027039904-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1044951027039904",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.04937,
+    3.7308552,
+    247,
+    0.5
+   ]
+  },
+  "393741577102505-248": {
+   "file": "photos/393741577102505-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=393741577102505",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0493686,
+    3.7308576,
+    248,
+    0.5
+   ]
+  },
+  "1486510348667149-250": {
+   "file": "photos/1486510348667149-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1486510348667149",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0493617,
+    3.730842,
+    250,
+    0.5
+   ]
+  },
+  "1959808881123261-250": {
+   "file": "photos/1959808881123261-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1959808881123261",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0492959,
+    3.7309082,
+    250,
+    0.5
+   ]
+  },
+  "1043753253707366-251": {
+   "file": "photos/1043753253707366-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1043753253707366",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0492938,
+    3.7309104,
+    251,
+    0.5
+   ]
+  },
+  "1049975126507550-253": {
+   "file": "photos/1049975126507550-253.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1049975126507550",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.049288,
+    3.7308951,
+    253,
+    0.5
+   ]
+  },
+  "538675405187841-250": {
+   "file": "photos/538675405187841-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=538675405187841",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0492454,
+    3.730944,
+    250,
+    0.5
+   ]
+  },
+  "1053790586123179-251": {
+   "file": "photos/1053790586123179-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1053790586123179",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0492432,
+    3.7309469,
+    251,
+    0.5
+   ]
+  },
+  "1527548638155625-237": {
+   "file": "photos/1527548638155625-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1527548638155625",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0492598,
+    3.7309152,
+    237,
+    0.5
+   ]
+  },
+  "541808311852960-246": {
+   "file": "photos/541808311852960-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=541808311852960",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0489987,
+    3.7311218,
+    246,
+    0.5
+   ]
+  },
+  "1243582793315687-241": {
+   "file": "photos/1243582793315687-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1243582793315687",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0490066,
+    3.7311187,
+    241,
+    0.5
+   ]
+  },
+  "522808583778978-240": {
+   "file": "photos/522808583778978-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=522808583778978",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.049008,
+    3.7311163,
+    240,
+    0.5
+   ]
+  },
+  "831865235656976-247": {
+   "file": "photos/831865235656976-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=831865235656976",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0489526,
+    3.7311572,
+    247,
+    0.5
+   ]
+  },
+  "558843566473668-247": {
+   "file": "photos/558843566473668-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=558843566473668",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0489511,
+    3.7311572,
+    247,
+    0.5
+   ]
+  },
+  "880135770235100-244": {
+   "file": "photos/880135770235100-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=880135770235100",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0489564,
+    3.7311537,
+    244,
+    0.5
+   ]
+  },
+  "2239619603083366-244": {
+   "file": "photos/2239619603083366-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2239619603083366",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0488473,
+    3.7312116,
+    244,
+    0.5
+   ]
+  },
+  "340734695790526-246": {
+   "file": "photos/340734695790526-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=340734695790526",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0488488,
+    3.7312313,
+    246,
+    0.5
+   ]
+  },
+  "1997998110619907-246": {
+   "file": "photos/1997998110619907-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1997998110619907",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0488489,
+    3.7312316,
+    246,
+    0.5
+   ]
+  },
+  "316061571569161-243": {
+   "file": "photos/316061571569161-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=316061571569161",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0497176,
+    3.7306029,
+    243,
+    0.5
+   ]
+  },
+  "1067344911499195-241": {
+   "file": "photos/1067344911499195-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1067344911499195",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0497193,
+    3.7305997,
+    241,
+    0.5
+   ]
+  },
+  "832663702394179-255": {
+   "file": "photos/832663702394179-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=832663702394179",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0497003,
+    3.7306195,
+    255,
+    0.5
+   ]
+  },
+  "1041594593845992-246": {
+   "file": "photos/1041594593845992-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1041594593845992",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0495418,
+    3.7307306,
+    246,
+    0.5
+   ]
+  },
+  "2166145893769990-241": {
+   "file": "photos/2166145893769990-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2166145893769990",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0495402,
+    3.7306998,
+    241,
+    0.5
+   ]
+  },
+  "470360262667034-243": {
+   "file": "photos/470360262667034-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=470360262667034",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0495476,
+    3.7307286,
+    243,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 16450,
+   "at": [
+    589.05,
+    460.55
+   ],
+   "centre": [
+    597.1,
+    436.4
+   ],
+   "width": 10.1,
+   "faces": 107,
+   "toStreet": 13.3,
+   "floors": 6,
+   "eaves": 23.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    581.2,
+    452.8,
+    585.7,
+    430.4,
+    586.2,
+    427.8,
+    591.1,
+    402.5,
+    613.9,
+    406.9,
+    610.8,
+    410,
+    608.8,
+    411.5,
+    608,
+    410.5,
+    593.7,
+    431.4,
+    598.1,
+    435.2,
+    594.4,
+    440.5,
+    595.5,
+    440.9,
+    594.5,
+    445.6,
+    597.4,
+    447.2,
+    597.9,
+    448.8,
+    597.6,
+    450.6,
+    599.4,
+    451.3,
+    602,
+    448.8,
+    605.2,
+    451,
+    593.9,
+    462,
+    584.2,
+    459.1
+   ],
+   "id": "vlaanderenstraat-107-01",
+   "latLon": [
+    51.050042,
+    3.730498
+   ],
+   "photos": [
+    {
+     "id": "1036760264304303",
+     "metres": 39,
+     "off": 10,
+     "span": [
+      0.55,
+      0.651
+     ]
+    },
+    {
+     "id": "924491751647715",
+     "metres": 37,
+     "off": 4,
+     "span": [
+      0.328,
+      0.532
+     ]
+    },
+    {
+     "id": "208419060822838",
+     "metres": 35,
+     "off": 12,
+     "span": [
+      0.615,
+      0.828
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16344,
+   "at": [
+    440.5,
+    251.25
+   ],
+   "centre": [
+    447.4,
+    245.3
+   ],
+   "width": 13.5,
+   "faces": 121,
+   "toStreet": 12.9,
+   "floors": 7,
+   "eaves": 24.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    448.5,
+    226.7,
+    455,
+    231.5,
+    455.7,
+    231,
+    465.5,
+    236.4,
+    464.2,
+    239.6,
+    453.3,
+    258.9,
+    452.3,
+    258.3,
+    452.3,
+    258.1,
+    446.3,
+    254.6,
+    446.3,
+    254.7,
+    434.7,
+    247.8,
+    434.8,
+    247.7,
+    434.3,
+    247.5,
+    433.6,
+    243.6,
+    433.8,
+    243.6
+   ],
+   "id": "vlaanderenstraat-121-01",
+   "latLon": [
+    51.051556,
+    3.7288
+   ],
+   "photos": [
+    {
+     "id": "1384122875878302-31",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.217,
+      0.783
+     ]
+    },
+    {
+     "id": "410851628699035-31",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.217,
+      0.774
+     ]
+    },
+    {
+     "id": "1082961420123930-27",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.237,
+      0.785
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16152,
+   "at": [
+    529.5,
+    379.45000000000005
+   ],
+   "centre": [
+    543.8,
+    368.4
+   ],
+   "width": 9.6,
+   "faces": 143,
+   "toStreet": 9.2,
+   "floors": 6,
+   "eaves": 22.4,
+   "top": 24.9,
+   "kind": "house",
+   "ring": [
+    525.6,
+    374.3,
+    547.5,
+    358.3,
+    550.3,
+    361.7,
+    549.8,
+    362.2,
+    548.9,
+    362.9,
+    549.7,
+    364.2,
+    546.8,
+    366.3,
+    549.4,
+    370.1,
+    549.7,
+    370.6,
+    548.5,
+    371.5,
+    532.4,
+    383.3,
+    526.6,
+    375.6
+   ],
+   "id": "vlaanderenstraat-143-02",
+   "latLon": [
+    51.050629,
+    3.729818
+   ],
+   "photos": [
+    {
+     "id": "546566804476132-47",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.184,
+      0.871
+     ]
+    },
+    {
+     "id": "494217010078422-64",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.201,
+      0.741
+     ]
+    },
+    {
+     "id": "1926346521122703-40",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.209,
+      0.887
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16151,
+   "at": [
+    535,
+    386.8
+   ],
+   "centre": [
+    548.9,
+    376.7
+   ],
+   "width": 8.7,
+   "faces": 143,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": 24.6,
+   "kind": "house",
+   "ring": [
+    532.4,
+    383.3,
+    548.5,
+    371.5,
+    551,
+    374.9,
+    556,
+    371.2,
+    557.4,
+    371.3,
+    559.5,
+    374.2,
+    537.6,
+    390.3
+   ],
+   "id": "vlaanderenstraat-143-03",
+   "latLon": [
+    51.050576,
+    3.729881
+   ],
+   "photos": [
+    {
+     "id": "871581928475921-57",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.166,
+      0.801
+     ]
+    },
+    {
+     "id": "1565211101068834-61",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.175,
+      0.784
+     ]
+    },
+    {
+     "id": "896408119059543-63",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.155,
+      0.774
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16146,
+   "at": [
+    545.8499999999999,
+    401.79999999999995
+   ],
+   "centre": [
+    564,
+    392.1
+   ],
+   "width": 11.5,
+   "faces": 143,
+   "toStreet": 9.5,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    542.4,
+    397.2,
+    560.3,
+    384.1,
+    561.2,
+    383.5,
+    566.2,
+    384.5,
+    567.4,
+    386.8,
+    573.6,
+    388.1,
+    581.1,
+    389.7,
+    578.6,
+    402.2,
+    560.1,
+    398.5,
+    549.3,
+    406.4
+   ],
+   "id": "vlaanderenstraat-143-04",
+   "latLon": [
+    51.050467,
+    3.730005
+   ],
+   "photos": [
+    {
+     "id": "1190682769113694-51",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.089,
+      0.927
+     ]
+    },
+    {
+     "id": "1247721093246673-48",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.11,
+      0.955
+     ]
+    },
+    {
+     "id": "515948001186984-60",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.045,
+      0.874
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16340,
+   "at": [
+    464.35,
+    289.79999999999995
+   ],
+   "centre": [
+    468,
+    285.9
+   ],
+   "width": 12.7,
+   "faces": 144,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 20.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    460.6,
+    284.7,
+    462.8,
+    282.4,
+    465,
+    280.1,
+    473.8,
+    285.5,
+    477.6,
+    287.8,
+    468.1,
+    294.9
+   ],
+   "id": "vlaanderenstraat-144-05",
+   "latLon": [
+    51.051278,
+    3.729073
+   ],
+   "photos": [
+    {
+     "id": "1732754930889175-47",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.117,
+      0.975
+     ]
+    },
+    {
+     "id": "1058027649126735-45",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.139,
+      0.987
+     ]
+    },
+    {
+     "id": "2023552864788433-61",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.213,
+      0.754
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16417,
+   "at": [
+    470,
+    297.5
+   ],
+   "centre": [
+    475.3,
+    293.6
+   ],
+   "width": 6.4,
+   "faces": 144,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 20.5,
+   "top": 23.3,
+   "kind": "house",
+   "ring": [
+    483.6,
+    291.4,
+    471.9,
+    300.1,
+    468.1,
+    294.9,
+    477.6,
+    287.8
+   ],
+   "id": "vlaanderenstraat-144-06",
+   "latLon": [
+    51.051222,
+    3.729137
+   ],
+   "photos": [
+    {
+     "id": "1047907496746556-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.286,
+      0.718
+     ]
+    },
+    {
+     "id": "1229091011576014-56",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.276,
+      0.715
+     ]
+    },
+    {
+     "id": "8482998221739391-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.29,
+      0.72
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16416,
+   "at": [
+    473.04999999999995,
+    301.70000000000005
+   ],
+   "centre": [
+    479.3,
+    299.4
+   ],
+   "width": 3.9,
+   "faces": 144,
+   "toStreet": 9.2,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": 23,
+   "kind": "house",
+   "ring": [
+    471.9,
+    300.1,
+    483.6,
+    291.4,
+    490.6,
+    295.7,
+    476.3,
+    306.3,
+    474.2,
+    303.3
+   ],
+   "id": "vlaanderenstraat-144-07",
+   "latLon": [
+    51.051191,
+    3.729172
+   ],
+   "photos": [
+    {
+     "id": "3763722757177981-63",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.365,
+      0.622
+     ]
+    },
+    {
+     "id": "904043131631903-65",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.359,
+      0.614
+     ]
+    },
+    {
+     "id": "1247939546126610-42",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.382,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16415,
+   "at": [
+    479.85,
+    311.1
+   ],
+   "centre": [
+    488,
+    305.1
+   ],
+   "width": 11.9,
+   "faces": 144,
+   "toStreet": 9.1,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 23.3,
+   "kind": "house",
+   "ring": [
+    476.3,
+    306.3,
+    490.6,
+    295.7,
+    501.8,
+    302.5,
+    483.4,
+    315.9
+   ],
+   "id": "vlaanderenstraat-144-08",
+   "latLon": [
+    51.051123,
+    3.72925
+   ],
+   "photos": [
+    {
+     "id": "558496506731043-50",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.121,
+      0.924
+     ]
+    },
+    {
+     "id": "1241083323757403-44",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.194,
+      0.898
+     ]
+    },
+    {
+     "id": "879664183661393-66",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.026,
+      0.832
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16413,
+   "at": [
+    485.65,
+    318.95
+   ],
+   "centre": [
+    496.5,
+    312
+   ],
+   "width": 7.6,
+   "faces": 144,
+   "toStreet": 9.1,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 23.3,
+   "kind": "house",
+   "ring": [
+    483.4,
+    315.9,
+    501.8,
+    302.5,
+    508.8,
+    306.7,
+    500.4,
+    312.8,
+    487.9,
+    322
+   ],
+   "id": "vlaanderenstraat-144-09",
+   "latLon": [
+    51.051067,
+    3.729316
+   ],
+   "photos": [
+    {
+     "id": "497074096558622-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.246,
+      0.766
+     ]
+    },
+    {
+     "id": "8732487506795612-52",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.246,
+      0.767
+     ]
+    },
+    {
+     "id": "3710427335884234-61",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.234,
+      0.738
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16412,
+   "at": [
+    490.35,
+    325.4
+   ],
+   "centre": [
+    496.4,
+    320.6
+   ],
+   "width": 8.4,
+   "faces": 144,
+   "toStreet": 9.1,
+   "floors": 6,
+   "eaves": 22.5,
+   "top": 24.9,
+   "kind": "house",
+   "ring": [
+    487.9,
+    322,
+    500.4,
+    312.8,
+    504.4,
+    318.7,
+    492.8,
+    328.8
+   ],
+   "id": "vlaanderenstraat-144-10",
+   "latLon": [
+    51.05102,
+    3.72937
+   ],
+   "photos": [
+    {
+     "id": "2200807656962331-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.21,
+      0.787
+     ]
+    },
+    {
+     "id": "546797291357057-61",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.195,
+      0.763
+     ]
+    },
+    {
+     "id": "3457404431223802-61",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.257,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16410,
+   "at": [
+    496.95000000000005,
+    334.45000000000005
+   ],
+   "centre": [
+    502.9,
+    329.7
+   ],
+   "width": 14,
+   "faces": 144,
+   "toStreet": 9.1,
+   "floors": 6,
+   "eaves": 21.4,
+   "top": 25.7,
+   "kind": "house",
+   "ring": [
+    492.8,
+    328.8,
+    504.4,
+    318.7,
+    513.1,
+    331.2,
+    501.1,
+    340.1
+   ],
+   "id": "vlaanderenstraat-144-11",
+   "latLon": [
+    51.050955,
+    3.729446
+   ],
+   "photos": [
+    {
+     "id": "1186256466001083-54",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.023,
+      0.982
+     ]
+    },
+    {
+     "id": "1208663333709375-52",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.044,
+      0.995
+     ]
+    },
+    {
+     "id": "1048617076921534-59",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.085,
+      0.865
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16408,
+   "at": [
+    503.55,
+    343.5
+   ],
+   "centre": [
+    519.4,
+    329.5
+   ],
+   "width": 8.4,
+   "faces": 144,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    501.1,
+    340.1,
+    513.1,
+    331.2,
+    518.3,
+    327.5,
+    520.4,
+    330.5,
+    523.5,
+    325.2,
+    520.5,
+    323.5,
+    524.6,
+    316.3,
+    525.2,
+    316.7,
+    533,
+    321.3,
+    533.6,
+    321.7,
+    525.7,
+    334.6,
+    507,
+    348.3,
+    506,
+    346.9
+   ],
+   "id": "vlaanderenstraat-144-12",
+   "latLon": [
+    51.050889,
+    3.729521
+   ],
+   "photos": [
+    {
+     "id": "1076011947226251-54",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.212,
+      0.794
+     ]
+    },
+    {
+     "id": "1242083017209708-57",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.205,
+      0.78
+     ]
+    },
+    {
+     "id": "1040094597759780-58",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.196,
+      0.782
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16162,
+   "at": [
+    509.9,
+    352.25
+   ],
+   "centre": [
+    523.8,
+    342.2
+   ],
+   "width": 9.8,
+   "faces": 144,
+   "toStreet": 9,
+   "floors": 6,
+   "eaves": 22.1,
+   "top": 24.8,
+   "kind": "house",
+   "ring": [
+    535.3,
+    339.2,
+    512.8,
+    356.2,
+    507,
+    348.3,
+    525.7,
+    334.6,
+    528.6,
+    338.9,
+    533.1,
+    335.9
+   ],
+   "id": "vlaanderenstraat-144-13",
+   "latLon": [
+    51.050826,
+    3.729594
+   ],
+   "photos": [
+    {
+     "id": "2331332713872684-55",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.222,
+      0.771
+     ]
+    },
+    {
+     "id": "1057658485954424-57",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.144,
+      0.829
+     ]
+    },
+    {
+     "id": "505823268820020-59",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.141,
+      0.818
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16156,
+   "at": [
+    522.35,
+    369.8
+   ],
+   "centre": [
+    535.1,
+    359.8
+   ],
+   "width": 11.1,
+   "faces": 144,
+   "toStreet": 9,
+   "floors": 5,
+   "eaves": 20.1,
+   "top": 24.8,
+   "kind": "house",
+   "ring": [
+    519.1,
+    365.3,
+    532.2,
+    355.9,
+    536.5,
+    352.8,
+    540.1,
+    357.8,
+    544.5,
+    354.3,
+    547.5,
+    358.3,
+    525.6,
+    374.3
+   ],
+   "id": "vlaanderenstraat-144-14",
+   "latLon": [
+    51.050699,
+    3.729736
+   ],
+   "photos": [
+    {
+     "id": "1746745156154623-49",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.13,
+      0.937
+     ]
+    },
+    {
+     "id": "1653431618833559-43",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.165,
+      0.964
+     ]
+    },
+    {
+     "id": "1098625108297499-44",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.222,
+      0.858
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16141,
+   "at": [
+    564.0999999999999,
+    427
+   ],
+   "centre": [
+    569,
+    423.3
+   ],
+   "width": 16.2,
+   "faces": 144,
+   "toStreet": 9.7,
+   "floors": 6,
+   "eaves": 21.6,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    559.3,
+    420.5,
+    568,
+    414.1,
+    576,
+    415.9,
+    572.7,
+    432.7,
+    568.9,
+    433.5
+   ],
+   "id": "vlaanderenstraat-144-15",
+   "latLon": [
+    51.050285,
+    3.730213
+   ],
+   "photos": [
+    {
+     "id": "1162874094174932",
+     "metres": 25,
+     "off": 19,
+     "span": [
+      0,
+      0.394
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16147,
+   "at": [
+    540,
+    393.75
+   ],
+   "centre": [
+    559.6,
+    381
+   ],
+   "width": 8.4,
+   "faces": 145,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 20.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    537.6,
+    390.3,
+    559.5,
+    374.2,
+    562.4,
+    372.1,
+    565.8,
+    372.5,
+    567,
+    379.5,
+    567.2,
+    380.5,
+    565.4,
+    380.2,
+    564.6,
+    380.8,
+    562,
+    380.5,
+    561.5,
+    379.8,
+    560.2,
+    379.6,
+    559.3,
+    381.4,
+    559.3,
+    382.3,
+    560.3,
+    384.1,
+    542.4,
+    397.2
+   ],
+   "id": "vlaanderenstraat-145-16",
+   "latLon": [
+    51.050525,
+    3.729938
+   ],
+   "photos": [
+    {
+     "id": "507790935291507-56",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.182,
+      0.797
+     ]
+    },
+    {
+     "id": "1050038039525394-60",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.165,
+      0.785
+     ]
+    },
+    {
+     "id": "886839892826583-47",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.278,
+      0.747
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16144,
+   "at": [
+    551.75,
+    409.85
+   ],
+   "centre": [
+    558.3,
+    405.6
+   ],
+   "width": 8.5,
+   "faces": 145,
+   "toStreet": 9.6,
+   "floors": 5,
+   "eaves": 19.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    549.3,
+    406.4,
+    560.1,
+    398.5,
+    564.2,
+    403.5,
+    563.8,
+    406.2,
+    554.2,
+    413.3
+   ],
+   "id": "vlaanderenstraat-145-17",
+   "latLon": [
+    51.050409,
+    3.730072
+   ],
+   "photos": [
+    {
+     "id": "1079812936840483-51",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.206,
+      0.828
+     ]
+    },
+    {
+     "id": "482538241353297-49",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.212,
+      0.833
+     ]
+    },
+    {
+     "id": "865556019008914-47",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.285,
+      0.754
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16143,
+   "at": [
+    556.75,
+    416.9
+   ],
+   "centre": [
+    566.4,
+    413.2
+   ],
+   "width": 8.8,
+   "faces": 145,
+   "toStreet": 9.6,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    554.2,
+    413.3,
+    563.8,
+    406.2,
+    577.3,
+    409.1,
+    576,
+    415.9,
+    568,
+    414.1,
+    559.3,
+    420.5
+   ],
+   "id": "vlaanderenstraat-145-18",
+   "latLon": [
+    51.050358,
+    3.730129
+   ],
+   "photos": [
+    {
+     "id": "1874327726421768-56",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.164,
+      0.826
+     ]
+    },
+    {
+     "id": "1021964886335921-51",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.266,
+      0.761
+     ]
+    },
+    {
+     "id": "1541793326517194-49",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.189,
+      0.853
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16158,
+   "at": [
+    514.15,
+    358.2
+   ],
+   "centre": [
+    527,
+    352.6
+   ],
+   "width": 4.8,
+   "faces": 146,
+   "toStreet": 9,
+   "floors": 6,
+   "eaves": 21.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    512.8,
+    356.2,
+    535.3,
+    339.2,
+    536.2,
+    339.6,
+    537.4,
+    341.7,
+    536.2,
+    342.5,
+    536.7,
+    343.2,
+    536.6,
+    344.1,
+    529.1,
+    349.6,
+    529.8,
+    350.5,
+    529,
+    351.5,
+    532.2,
+    355.9,
+    519.1,
+    365.3,
+    518.5,
+    364.3,
+    518.7,
+    364.1,
+    517.8,
+    362.9,
+    517.7,
+    363.1,
+    515.5,
+    360.2
+   ],
+   "id": "vlaanderenstraat-146-19",
+   "latLon": [
+    51.050783,
+    3.729642
+   ],
+   "photos": [
+    {
+     "id": "1637945650114404-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.34,
+      0.677
+     ]
+    },
+    {
+     "id": "493110926880820-53",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.366,
+      0.638
+     ]
+    },
+    {
+     "id": "509564181718341-50",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.341,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12123,
+   "at": [
+    607.1,
+    509.55
+   ],
+   "centre": [
+    614.9,
+    506.1
+   ],
+   "width": 12.4,
+   "faces": 155,
+   "toStreet": 9.7,
+   "floors": 6,
+   "eaves": 23.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    604.5,
+    503.9,
+    614.5,
+    499.3,
+    615.5,
+    501.6,
+    616.8,
+    500.9,
+    620.2,
+    508.5,
+    618.9,
+    509,
+    619.4,
+    510.7,
+    609.7,
+    515.2
+   ],
+   "id": "vlaanderenstraat-155-20",
+   "latLon": [
+    51.049688,
+    3.730705
+   ],
+   "photos": [
+    {
+     "id": "1062926592017448-68",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.012,
+      0.946
+     ]
+    },
+    {
+     "id": "1192411615344224-72",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.938
+     ]
+    },
+    {
+     "id": "720210630292740-73",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.945
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12120,
+   "at": [
+    627.45,
+    554.95
+   ],
+   "centre": [
+    648,
+    546.8
+   ],
+   "width": 19,
+   "faces": 155,
+   "toStreet": 9.8,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    623.5,
+    546.3,
+    644.9,
+    536.2,
+    647.3,
+    542.6,
+    655.2,
+    539,
+    658.2,
+    542.3,
+    655.8,
+    544.8,
+    653.8,
+    546.9,
+    658.4,
+    551.7,
+    651.6,
+    554.7,
+    631.4,
+    563.6
+   ],
+   "id": "vlaanderenstraat-155-21",
+   "latLon": [
+    51.049359,
+    3.730937
+   ],
+   "photos": [
+    {
+     "id": "1025366382457883-67",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1100781038075099-67",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1725320944935186-69",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40474,
+   "at": [
+    642.45,
+    588.05
+   ],
+   "centre": [
+    658.1,
+    583.1
+   ],
+   "width": 15.5,
+   "faces": 155,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    639.2,
+    581,
+    659.3,
+    571.8,
+    668.1,
+    567.8,
+    673.1,
+    576.4,
+    675.6,
+    581.4,
+    661.1,
+    588,
+    658.8,
+    589.1,
+    656.8,
+    584.3,
+    654.4,
+    585.4,
+    654,
+    584.6,
+    653.1,
+    584.9,
+    655.7,
+    590.5,
+    645.7,
+    595.1
+   ],
+   "id": "vlaanderenstraat-155-22",
+   "latLon": [
+    51.04912,
+    3.731109
+   ],
+   "photos": [
+    {
+     "id": "550614190830846-72",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1255275032555764-74",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1526901757925050-50",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.116,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16678,
+   "at": [
+    597.85,
+    489.15
+   ],
+   "centre": [
+    602.9,
+    486.7
+   ],
+   "width": 15.7,
+   "faces": 156,
+   "toStreet": 9.5,
+   "floors": 7,
+   "eaves": 25.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    612.3,
+    483.5,
+    609.4,
+    492.5,
+    601.1,
+    496.3,
+    594.6,
+    482,
+    597.2,
+    479.1
+   ],
+   "id": "vlaanderenstraat-156-23",
+   "latLon": [
+    51.049835,
+    3.730599
+   ],
+   "photos": [
+    {
+     "id": "344744813652165",
+     "metres": 36,
+     "off": 1,
+     "span": [
+      0.352,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12124,
+   "at": [
+    602.8,
+    500.1
+   ],
+   "centre": [
+    611.2,
+    494.3
+   ],
+   "width": 8.3,
+   "faces": 156,
+   "toStreet": 9.6,
+   "floors": 5,
+   "eaves": 18,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    601.1,
+    496.3,
+    609.4,
+    492.5,
+    612.3,
+    483.5,
+    620.3,
+    486,
+    616.3,
+    498.5,
+    614.5,
+    499.3,
+    604.5,
+    503.9
+   ],
+   "id": "vlaanderenstraat-156-24",
+   "latLon": [
+    51.049756,
+    3.730656
+   ],
+   "photos": [
+    {
+     "id": "344744813652165",
+     "metres": 37,
+     "off": 16,
+     "span": [
+      0.696,
+      0.879
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12122,
+   "at": [
+    616.6,
+    530.75
+   ],
+   "centre": [
+    643.2,
+    521.4
+   ],
+   "width": 34,
+   "faces": 156,
+   "toStreet": 9.7,
+   "floors": 6,
+   "eaves": 22.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    661.4,
+    515.9,
+    662.6,
+    516.3,
+    661.2,
+    518.3,
+    658.4,
+    522.4,
+    659,
+    524.1,
+    660.2,
+    525.4,
+    664.3,
+    529.5,
+    663.3,
+    530.5,
+    659.2,
+    534.8,
+    655.2,
+    539,
+    647.3,
+    542.6,
+    644.9,
+    536.2,
+    623.5,
+    546.3,
+    609.7,
+    515.2,
+    619.4,
+    510.7,
+    621.2,
+    509.9,
+    622.8,
+    511.3,
+    626.2,
+    508.3,
+    626.9,
+    505.9,
+    627.2,
+    504.6,
+    632.9,
+    509.2,
+    638.5,
+    519.8,
+    647.8,
+    515.4
+   ],
+   "id": "vlaanderenstraat-156-25",
+   "latLon": [
+    51.049534,
+    3.730813
+   ],
+   "photos": [
+    {
+     "id": "390291393935758-66",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "3732089373670657-72",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "840662901581820-75",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12387,
+   "at": [
+    632.8499999999999,
+    566.9000000000001
+   ],
+   "centre": [
+    642.9,
+    562.4
+   ],
+   "width": 7.2,
+   "faces": 156,
+   "toStreet": 9.9,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 18.5,
+   "kind": "yes",
+   "ring": [
+    631.4,
+    563.6,
+    651.6,
+    554.7,
+    654.4,
+    561.1,
+    634.3,
+    570.2
+   ],
+   "id": "vlaanderenstraat-156-26",
+   "latLon": [
+    51.049273,
+    3.730999
+   ],
+   "photos": [
+    {
+     "id": "1527548638155625-76",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.245,
+      0.72
+     ]
+    },
+    {
+     "id": "1049405110027930-81",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.153,
+      0.756
+     ]
+    },
+    {
+     "id": "538675405187841-51",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.259,
+      0.844
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12364,
+   "at": [
+    637.7,
+    577.65
+   ],
+   "centre": [
+    647.8,
+    573.1
+   ],
+   "width": 7.3,
+   "faces": 156,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 18.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    636.2,
+    574.3,
+    656.4,
+    565.5,
+    659.3,
+    571.8,
+    639.2,
+    581
+   ],
+   "id": "vlaanderenstraat-156-27",
+   "latLon": [
+    51.049195,
+    3.731055
+   ],
+   "photos": [
+    {
+     "id": "541136641708178-76",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.139,
+      0.783
+     ]
+    },
+    {
+     "id": "844321530793790-52",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.236,
+      0.846
+     ]
+    },
+    {
+     "id": "2166793137035864-79",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.236,
+      0.713
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12366,
+   "at": [
+    647.4000000000001,
+    599
+   ],
+   "centre": [
+    657,
+    593.5
+   ],
+   "width": 8.5,
+   "faces": 156,
+   "toStreet": 10.1,
+   "floors": 6,
+   "eaves": 23.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    645.7,
+    595.1,
+    655.7,
+    590.5,
+    658.8,
+    589.1,
+    661.1,
+    588,
+    663.6,
+    593.1,
+    664.8,
+    595.9,
+    649.1,
+    602.9
+   ],
+   "id": "vlaanderenstraat-156-28",
+   "latLon": [
+    51.04904,
+    3.731165
+   ],
+   "photos": [
+    {
+     "id": "1997653480695314-76",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.079,
+      0.823
+     ]
+    },
+    {
+     "id": "996824828793685-78",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.084,
+      0.798
+     ]
+    },
+    {
+     "id": "3907610906163199-79",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.184,
+      0.743
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12368,
+   "at": [
+    650.6500000000001,
+    606.3499999999999
+   ],
+   "centre": [
+    660.2,
+    602.9
+   ],
+   "width": 7.6,
+   "faces": 156,
+   "toStreet": 10,
+   "floors": 7,
+   "eaves": 26.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    649.1,
+    602.9,
+    664.8,
+    595.9,
+    667.7,
+    602.8,
+    667.2,
+    603,
+    652.2,
+    609.8
+   ],
+   "id": "vlaanderenstraat-156-29",
+   "latLon": [
+    51.048987,
+    3.731203
+   ],
+   "photos": [
+    {
+     "id": "867964761955358-69",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.156,
+      0.82
+     ]
+    },
+    {
+     "id": "2019245978515303-81",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.116,
+      0.772
+     ]
+    },
+    {
+     "id": "424000807367304-52",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.279,
+      0.779
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12371,
+   "at": [
+    653.7,
+    613.2
+   ],
+   "centre": [
+    661.1,
+    609.8
+   ],
+   "width": 7.4,
+   "faces": 156,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 19.9,
+   "top": 22.5,
+   "kind": "yes",
+   "ring": [
+    652.2,
+    609.8,
+    667.2,
+    603,
+    669.7,
+    609.9,
+    655.2,
+    616.6
+   ],
+   "id": "vlaanderenstraat-156-30",
+   "latLon": [
+    51.048938,
+    3.731237
+   ],
+   "photos": [
+    {
+     "id": "922524199899883-71",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.151,
+      0.818
+     ]
+    },
+    {
+     "id": "809145784738265-73",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.146,
+      0.806
+     ]
+    },
+    {
+     "id": "8167736056615328-77",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.138,
+      0.788
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12363,
+   "at": [
+    656.75,
+    620.05
+   ],
+   "centre": [
+    671.9,
+    611.3
+   ],
+   "width": 7.6,
+   "faces": 156,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 19.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    655.2,
+    616.6,
+    669.7,
+    609.9,
+    674.6,
+    607.6,
+    685.7,
+    602.5,
+    686,
+    603,
+    673.6,
+    616.2,
+    658.3,
+    623.5
+   ],
+   "id": "vlaanderenstraat-156-31",
+   "latLon": [
+    51.048888,
+    3.731272
+   ],
+   "photos": [
+    {
+     "id": "1521788311771364-70",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.132,
+      0.825
+     ]
+    },
+    {
+     "id": "480196731670145-71",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.131,
+      0.829
+     ]
+    },
+    {
+     "id": "1519988348631049-75",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.12,
+      0.805
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12369,
+   "at": [
+    660.95,
+    629.35
+   ],
+   "centre": [
+    668.6,
+    626.6
+   ],
+   "width": 12.8,
+   "faces": 156,
+   "toStreet": 10,
+   "floors": 6,
+   "eaves": 21.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    658.3,
+    623.5,
+    673.6,
+    616.2,
+    680,
+    622.4,
+    667.3,
+    635.8,
+    663.6,
+    635.2
+   ],
+   "id": "vlaanderenstraat-156-32",
+   "latLon": [
+    51.048821,
+    3.73132
+   ],
+   "photos": [
+    {
+     "id": "1236263237797469-62",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1556894495226008-60",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.075,
+      1
+     ]
+    },
+    {
+     "id": "400833736120838-56",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.039,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12030,
+   "at": [
+    674.8499999999999,
+    655.4
+   ],
+   "centre": [
+    681.4,
+    650.1
+   ],
+   "width": 20.5,
+   "faces": 160,
+   "toStreet": 13,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    680,
+    636.6,
+    683.9,
+    643.4,
+    693.2,
+    659.5,
+    678.4,
+    665,
+    671.3,
+    645.8
+   ],
+   "id": "vlaanderenstraat-160-01",
+   "latLon": [
+    51.048632,
+    3.731479
+   ],
+   "photos": [
+    {
+     "id": "516902539684740",
+     "metres": 7,
+     "off": 9,
+     "span": [
+      0.024,
+      1
+     ]
+    },
+    {
+     "id": "316136150079303",
+     "metres": 13,
+     "off": 22,
+     "span": [
+      0.169,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11771,
+   "at": [
+    642,
+    652.6
+   ],
+   "centre": [
+    555.7,
+    669.7
+   ],
+   "width": 7.3,
+   "faces": 287,
+   "toStreet": 16.7,
+   "floors": 6,
+   "eaves": null,
+   "top": null,
+   "kind": "retail",
+   "ring": [
+    485.3,
+    716.3,
+    490.7,
+    718.5,
+    489.6,
+    720.2,
+    507.7,
+    726,
+    516.1,
+    723,
+    521.9,
+    721,
+    523.5,
+    721.3,
+    525.5,
+    721.4,
+    528,
+    721,
+    530.7,
+    719.9,
+    532.6,
+    718.4,
+    534.3,
+    716.2,
+    564.5,
+    705.1,
+    569.2,
+    703.4,
+    601.2,
+    691.6,
+    603.6,
+    691.7,
+    606.3,
+    691.3,
+    609.1,
+    690.4,
+    611.6,
+    688.9,
+    613.6,
+    687,
+    645.8,
+    676,
+    648.7,
+    673.1,
+    650.9,
+    667.8,
+    651.5,
+    662.5,
+    649.5,
+    657.5,
+    645.5,
+    653.7,
+    638.5,
+    651.5,
+    638.5,
+    650.1,
+    549.2,
+    619.4,
+    547.3,
+    618.7,
+    544.5,
+    616.3,
+    540.1,
+    614.8,
+    536.1,
+    614.5,
+    533.4,
+    614.5,
+    531.5,
+    615.9,
+    524.1,
+    613.4,
+    520.1,
+    623.7,
+    518.1,
+    623.1,
+    517.3,
+    625.1,
+    514.7,
+    627.9,
+    513.9,
+    630.4,
+    513,
+    633.4,
+    513,
+    636.9,
+    511.6,
+    639.9,
+    513.6,
+    640.4,
+    487,
+    711.7
+   ],
+   "id": "vlaanderenstraat-287-01",
+   "latLon": [
+    51.048653,
+    3.731104
+   ],
+   "photos": [
+    {
+     "id": "1205120059925689",
+     "metres": 39,
+     "off": 3,
+     "span": [
+      0.401,
+      0.513
+     ]
+    },
+    {
+     "id": "513358813176435",
+     "metres": 39,
+     "off": 19,
+     "span": [
+      0.631,
+      0.707
+     ]
+    },
+    {
+     "id": "1179137819214340",
+     "metres": 44,
+     "off": 19,
+     "span": [
+      0.727,
+      0.839
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16349,
+   "at": [
+    413.85,
+    287.04999999999995
+   ],
+   "centre": [
+    411.4,
+    294.4
+   ],
+   "width": 11.9,
+   "faces": 310,
+   "toStreet": 10.2,
+   "floors": 6,
+   "eaves": 23.3,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    400.2,
+    301.1,
+    401.4,
+    297.1,
+    403.4,
+    290.5,
+    405.4,
+    284.2,
+    409.3,
+    283.2,
+    418.4,
+    290.9,
+    419.1,
+    291.5,
+    415.9,
+    295.8,
+    415.8,
+    296.3,
+    414.9,
+    297.1,
+    414,
+    298.3,
+    415.7,
+    298.6,
+    414.7,
+    302.8
+   ],
+   "id": "vlaanderenstraat-310-01",
+   "latLon": [
+    51.051297,
+    3.728495
+   ],
+   "photos": [
+    {
+     "id": "970806390412597",
+     "metres": 28,
+     "off": 1,
+     "span": [
+      0.39,
+      0.64
+     ]
+    },
+    {
+     "id": "265462948648910",
+     "metres": 37,
+     "off": 8,
+     "span": [
+      0.505,
+      0.582
+     ]
+    },
+    {
+     "id": "246343617242042",
+     "metres": 37,
+     "off": 10,
+     "span": [
+      0.552,
+      0.77
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16348,
+   "at": [
+    423.8,
+    295.5
+   ],
+   "centre": [
+    417.8,
+    299.4
+   ],
+   "width": 12.3,
+   "faces": 310,
+   "toStreet": 12.7,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 24.7,
+   "kind": "house",
+   "ring": [
+    419.1,
+    291.5,
+    428.5,
+    299.5,
+    420.7,
+    308.1,
+    418.3,
+    306.2,
+    414.7,
+    302.8,
+    415.7,
+    298.6,
+    414,
+    298.3,
+    414.9,
+    297.1,
+    415.8,
+    296.3,
+    415.9,
+    295.8
+   ],
+   "id": "vlaanderenstraat-310-02",
+   "latLon": [
+    51.051236,
+    3.728609
+   ],
+   "photos": [
+    {
+     "id": "392361822373423",
+     "metres": 27,
+     "off": 3,
+     "span": [
+      0.326,
+      0.591
+     ]
+    },
+    {
+     "id": "496263291804068",
+     "metres": 33,
+     "off": 8,
+     "span": [
+      0.397,
+      0.498
+     ]
+    },
+    {
+     "id": "246343617242042",
+     "metres": 43,
+     "off": 3,
+     "span": [
+      0.373,
+      0.538
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16347,
+   "at": [
+    430.7,
+    301.35
+   ],
+   "centre": [
+    426.3,
+    306.4
+   ],
+   "width": 5.7,
+   "faces": 310,
+   "toStreet": 14.5,
+   "floors": 6,
+   "eaves": 21.5,
+   "top": 24.5,
+   "kind": "house",
+   "ring": [
+    420.7,
+    308.1,
+    428.5,
+    299.5,
+    432.9,
+    303.2,
+    425.2,
+    310.5,
+    424,
+    310.6
+   ],
+   "id": "vlaanderenstraat-310-03",
+   "latLon": [
+    51.051194,
+    3.728688
+   ],
+   "photos": [
+    {
+     "id": "206039334522540",
+     "metres": 29,
+     "off": 0,
+     "span": [
+      0.453,
+      0.556
+     ]
+    },
+    {
+     "id": "2819788151669914",
+     "metres": 30,
+     "off": 19,
+     "span": [
+      0.587,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16182,
+   "at": [
+    477.85,
+    346.25
+   ],
+   "centre": [
+    465.4,
+    347.2
+   ],
+   "width": 13.9,
+   "faces": 316,
+   "toStreet": 13.3,
+   "floors": 7,
+   "eaves": 26.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    445.3,
+    339.9,
+    445.6,
+    339.6,
+    458.7,
+    326.5,
+    464.6,
+    332.6,
+    473,
+    341.3,
+    482.7,
+    351.2,
+    476.9,
+    355.8,
+    473.8,
+    363.1,
+    469.8,
+    363.8,
+    464,
+    358.2
+   ],
+   "id": "vlaanderenstraat-316-04",
+   "latLon": [
+    51.050869,
+    3.729227
+   ],
+   "photos": [
+    {
+     "id": "534535134217448",
+     "metres": 18,
+     "off": 14,
+     "span": [
+      0.477,
+      0.984
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16176,
+   "at": [
+    486.1,
+    355.04999999999995
+   ],
+   "centre": [
+    479.9,
+    363.5
+   ],
+   "width": 10.3,
+   "faces": 319,
+   "toStreet": 11.9,
+   "floors": 5,
+   "eaves": 18.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    473.8,
+    363.1,
+    476.9,
+    355.8,
+    482.7,
+    351.2,
+    489.5,
+    358.9,
+    490.2,
+    359.7,
+    480.3,
+    368.2,
+    476.8,
+    377.3,
+    469.2,
+    373.8
+   ],
+   "id": "vlaanderenstraat-319-05",
+   "latLon": [
+    51.050805,
+    3.729321
+   ],
+   "photos": [
+    {
+     "id": "835745270656832",
+     "metres": 17,
+     "off": 13,
+     "span": [
+      0.522,
+      0.868
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16170,
+   "at": [
+    494.4,
+    365
+   ],
+   "centre": [
+    487.7,
+    369.5
+   ],
+   "width": 13.5,
+   "faces": 322,
+   "toStreet": 11,
+   "floors": 6,
+   "eaves": 21.4,
+   "top": 24.5,
+   "kind": "house",
+   "ring": [
+    480.3,
+    368.2,
+    490.2,
+    359.7,
+    498.6,
+    370.3,
+    487.5,
+    378.4,
+    482.1,
+    371
+   ],
+   "id": "vlaanderenstraat-322-06",
+   "latLon": [
+    51.050733,
+    3.729416
+   ],
+   "photos": [
+    {
+     "id": "646492967974784-232",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.273,
+      0.73
+     ]
+    },
+    {
+     "id": "524575107177787-234",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.23,
+      0.756
+     ]
+    },
+    {
+     "id": "2331332713872684-227",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.213,
+      0.817
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16169,
+   "at": [
+    506.2,
+    381.35
+   ],
+   "centre": [
+    493.1,
+    391.1
+   ],
+   "width": 10.1,
+   "faces": 323,
+   "toStreet": 10.9,
+   "floors": 6,
+   "eaves": 21.8,
+   "top": 24.4,
+   "kind": "house",
+   "ring": [
+    481,
+    393.2,
+    503.2,
+    377.3,
+    509.2,
+    385.4,
+    496.4,
+    394.6,
+    487,
+    401.3,
+    482,
+    394.6
+   ],
+   "id": "vlaanderenstraat-323-07",
+   "latLon": [
+    51.050615,
+    3.729551
+   ],
+   "photos": [
+    {
+     "id": "1746745156154623-237",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.298,
+      0.687
+     ]
+    },
+    {
+     "id": "1595668391327815-227",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.316,
+      0.701
+     ]
+    },
+    {
+     "id": "1098625108297499-242",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.261,
+      0.704
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16165,
+   "at": [
+    512.2,
+    389.4
+   ],
+   "centre": [
+    502,
+    397
+   ],
+   "width": 10,
+   "faces": 323,
+   "toStreet": 10.7,
+   "floors": 6,
+   "eaves": 21.2,
+   "top": 23.2,
+   "kind": "yes",
+   "ring": [
+    496.4,
+    394.6,
+    509.2,
+    385.4,
+    515.2,
+    393.4,
+    502.1,
+    402,
+    500.5,
+    403.1,
+    500.6,
+    401,
+    499,
+    398.7,
+    497,
+    398.1,
+    498.3,
+    397.1
+   ],
+   "id": "vlaanderenstraat-323-08",
+   "latLon": [
+    51.050557,
+    3.72962
+   ],
+   "photos": [
+    {
+     "id": "1039645517639119-233",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.309,
+      0.696
+     ]
+    },
+    {
+     "id": "2939959119514548-235",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.307,
+      0.688
+     ]
+    },
+    {
+     "id": "1242467496763824-233",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.31,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16164,
+   "at": [
+    517.3,
+    396.25
+   ],
+   "centre": [
+    509.7,
+    402.2
+   ],
+   "width": 7.1,
+   "faces": 324,
+   "toStreet": 10.5,
+   "floors": 5,
+   "eaves": 20.1,
+   "top": 22.9,
+   "kind": "house",
+   "ring": [
+    502.1,
+    402,
+    515.2,
+    393.4,
+    519.4,
+    399.1,
+    510.7,
+    405.8,
+    506.9,
+    408.6,
+    503.8,
+    404.3
+   ],
+   "id": "vlaanderenstraat-324-09",
+   "latLon": [
+    51.050507,
+    3.729678
+   ],
+   "photos": [
+    {
+     "id": "1446237712732942-235",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.339,
+      0.661
+     ]
+    },
+    {
+     "id": "512432381736140-231",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.365,
+      0.64
+     ]
+    },
+    {
+     "id": "527831756281814-230",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.37,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16161,
+   "at": [
+    521.2,
+    401.6
+   ],
+   "centre": [
+    514,
+    407.5
+   ],
+   "width": 6.2,
+   "faces": 324,
+   "toStreet": 10.5,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    510.7,
+    405.8,
+    519.4,
+    399.1,
+    523,
+    404.1,
+    513.6,
+    410.9,
+    510.4,
+    413.2,
+    508.6,
+    411,
+    512.6,
+    408.2
+   ],
+   "id": "vlaanderenstraat-324-10",
+   "latLon": [
+    51.050469,
+    3.729723
+   ],
+   "photos": [
+    {
+     "id": "1686686092215996-235",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.379,
+      0.623
+     ]
+    },
+    {
+     "id": "1701356293981245-236",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.375,
+      0.614
+     ]
+    },
+    {
+     "id": "1204810117451036-232",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.384,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16157,
+   "at": [
+    525.95,
+    408.1
+   ],
+   "centre": [
+    520.7,
+    412.8
+   ],
+   "width": 9.9,
+   "faces": 324,
+   "toStreet": 10.4,
+   "floors": 6,
+   "eaves": 21.3,
+   "top": 25.3,
+   "kind": "house",
+   "ring": [
+    513.6,
+    410.9,
+    523,
+    404.1,
+    528.9,
+    412.1,
+    519.2,
+    418.4,
+    518.9,
+    418.6
+   ],
+   "id": "vlaanderenstraat-324-11",
+   "latLon": [
+    51.050422,
+    3.729777
+   ],
+   "photos": [
+    {
+     "id": "1323872338638682-233",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.311,
+      0.692
+     ]
+    },
+    {
+     "id": "944192857432685-229",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.312,
+      0.691
+     ]
+    },
+    {
+     "id": "1067436015102762-228",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.316,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16155,
+   "at": [
+    532.25,
+    416.70000000000005
+   ],
+   "centre": [
+    527.4,
+    420
+   ],
+   "width": 11.4,
+   "faces": 324,
+   "toStreet": 10.2,
+   "floors": 5,
+   "eaves": 20.2,
+   "top": 23.6,
+   "kind": "yes",
+   "ring": [
+    519.2,
+    418.4,
+    528.9,
+    412.1,
+    535.6,
+    421.3,
+    525.9,
+    428.2
+   ],
+   "id": "vlaanderenstraat-324-12",
+   "latLon": [
+    51.050359,
+    3.729849
+   ],
+   "photos": [
+    {
+     "id": "904655024884924-234",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.285,
+      0.725
+     ]
+    },
+    {
+     "id": "926842522798384-228",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.256,
+      0.778
+     ]
+    },
+    {
+     "id": "1526506508004578-228",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.29,
+      0.73
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16153,
+   "at": [
+    540,
+    427.45000000000005
+   ],
+   "centre": [
+    532.1,
+    433
+   ],
+   "width": 15.1,
+   "faces": 324,
+   "toStreet": 10.2,
+   "floors": 5,
+   "eaves": 18.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    522.2,
+    439.3,
+    525.5,
+    429.5,
+    527.8,
+    430.1,
+    525.9,
+    428.2,
+    535.6,
+    421.3,
+    544.4,
+    433.6,
+    538.9,
+    437.8,
+    536.6,
+    443.9
+   ],
+   "id": "vlaanderenstraat-324-13",
+   "latLon": [
+    51.050282,
+    3.729938
+   ],
+   "photos": [
+    {
+     "id": "1046309150132477-232",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.219,
+      0.798
+     ]
+    },
+    {
+     "id": "1874327726421768-239",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.194,
+      0.77
+     ]
+    },
+    {
+     "id": "1021964886335921-243",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.115,
+      0.805
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16148,
+   "at": [
+    548.5999999999999,
+    439.4
+   ],
+   "centre": [
+    547.6,
+    444.3
+   ],
+   "width": 14.3,
+   "faces": 324,
+   "toStreet": 10.1,
+   "floors": 6,
+   "eaves": 23.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    536.6,
+    443.9,
+    538.9,
+    437.8,
+    544.4,
+    433.6,
+    552.8,
+    445.2,
+    553,
+    445.4,
+    552.8,
+    445.8,
+    553.1,
+    445.9,
+    551.3,
+    448.3,
+    551.1,
+    448.3,
+    550.7,
+    448.4,
+    538.9,
+    444.7
+   ],
+   "id": "vlaanderenstraat-324-14",
+   "latLon": [
+    51.050195,
+    3.730036
+   ],
+   "photos": [
+    {
+     "id": "827402192932121-228",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.197,
+      0.845
+     ]
+    },
+    {
+     "id": "493113903615581-239",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.218,
+      0.76
+     ]
+    },
+    {
+     "id": "1262153234814991-240",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.216,
+      0.757
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16173,
+   "at": [
+    501,
+    373.70000000000005
+   ],
+   "centre": [
+    489.3,
+    381.2
+   ],
+   "width": 8.3,
+   "faces": 325,
+   "toStreet": 10.7,
+   "floors": 6,
+   "eaves": 22.1,
+   "top": 25.6,
+   "kind": "house",
+   "ring": [
+    475.7,
+    386.1,
+    482.3,
+    381.6,
+    485.6,
+    386.1,
+    489.5,
+    383.1,
+    486.5,
+    379.1,
+    487.5,
+    378.4,
+    498.6,
+    370.3,
+    503.4,
+    377.1,
+    503.2,
+    377.3,
+    481,
+    393.2
+   ],
+   "id": "vlaanderenstraat-325-15",
+   "latLon": [
+    51.050671,
+    3.729492
+   ],
+   "photos": [
+    {
+     "id": "487592534238124-235",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.334,
+      0.662
+     ]
+    },
+    {
+     "id": "882329543323733-239",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.326,
+      0.655
+     ]
+    },
+    {
+     "id": "872706894799158-229",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.32,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11882,
+   "at": [
+    583.45,
+    504.95000000000005
+   ],
+   "centre": [
+    572,
+    509.4
+   ],
+   "width": 6.9,
+   "faces": 335,
+   "toStreet": 10.1,
+   "floors": 6,
+   "eaves": 22.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    561.4,
+    511.6,
+    564.5,
+    503.6,
+    572,
+    506.5,
+    582,
+    501.8,
+    584.9,
+    508.1,
+    572.6,
+    513.1,
+    572.1,
+    512.2,
+    569.2,
+    513.5,
+    569.1,
+    514.6
+   ],
+   "id": "vlaanderenstraat-335-16",
+   "latLon": [
+    51.049721,
+    3.730434
+   ],
+   "photos": [
+    {
+     "id": "2489711414563774-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.372,
+      0.634
+     ]
+    },
+    {
+     "id": "1156554818767945-239",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.374,
+      0.634
+     ]
+    },
+    {
+     "id": "401955369346925-251",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.371,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12051,
+   "at": [
+    600.3,
+    542.6500000000001
+   ],
+   "centre": [
+    582.5,
+    550.1
+   ],
+   "width": 9.8,
+   "faces": 335,
+   "toStreet": 10,
+   "floors": 6,
+   "eaves": 20.7,
+   "top": 23.1,
+   "kind": "house",
+   "ring": [
+    576.8,
+    554.4,
+    578.5,
+    557.6,
+    602.4,
+    547.1,
+    598.2,
+    538.2,
+    578,
+    547.3,
+    579.1,
+    549.5,
+    578,
+    550.4,
+    577.6,
+    551.1,
+    577.7,
+    552.2,
+    578.4,
+    553.6
+   ],
+   "id": "vlaanderenstraat-335-17",
+   "latLon": [
+    51.049448,
+    3.730627
+   ],
+   "photos": [
+    {
+     "id": "1247715943070435-239",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.29,
+      0.73
+     ]
+    },
+    {
+     "id": "1753199042089847-241",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.325,
+      0.685
+     ]
+    },
+    {
+     "id": "495139560034626-250",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.313,
+      0.671
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12355,
+   "at": [
+    623.05,
+    593.1
+   ],
+   "centre": [
+    607.8,
+    599.8
+   ],
+   "width": 6.8,
+   "faces": 335,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": 21,
+   "kind": "house",
+   "ring": [
+    594.8,
+    602.7,
+    595,
+    600.8,
+    621.6,
+    590,
+    624.5,
+    596.2,
+    607.8,
+    603.4,
+    603.3,
+    605.4
+   ],
+   "id": "vlaanderenstraat-335-18",
+   "latLon": [
+    51.049083,
+    3.730887
+   ],
+   "photos": [
+    {
+     "id": "1704540396397277",
+     "metres": 23,
+     "off": 7,
+     "span": [
+      0.351,
+      0.48
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12349,
+   "at": [
+    636.45,
+    623
+   ],
+   "centre": [
+    626.8,
+    627.9
+   ],
+   "width": 6.4,
+   "faces": 335,
+   "toStreet": 9.8,
+   "floors": 4,
+   "eaves": 14.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    619.2,
+    632.1,
+    621.3,
+    626,
+    622.5,
+    625.5,
+    635.1,
+    620.1,
+    637.8,
+    625.9,
+    626.2,
+    631.3,
+    625.2,
+    634.1
+   ],
+   "id": "vlaanderenstraat-335-19",
+   "latLon": [
+    51.048867,
+    3.73104
+   ],
+   "photos": [
+    {
+     "id": "1582000795688676-248",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.367,
+      0.624
+     ]
+    },
+    {
+     "id": "2378117802520216-249",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.385,
+      0.61
+     ]
+    },
+    {
+     "id": "1423294801671231-252",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.38,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11880,
+   "at": [
+    578.65,
+    494.35
+   ],
+   "centre": [
+    572.9,
+    497.2
+   ],
+   "width": 16.3,
+   "faces": 336,
+   "toStreet": 10.2,
+   "floors": 5,
+   "eaves": 20.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    564.5,
+    503.6,
+    570.6,
+    487.2,
+    575.3,
+    486.9,
+    582,
+    501.8,
+    572,
+    506.5
+   ],
+   "id": "vlaanderenstraat-336-20",
+   "latLon": [
+    51.049798,
+    3.73038
+   ],
+   "photos": [
+    {
+     "id": "1343937226583631-245",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.188,
+      0.811
+     ]
+    },
+    {
+     "id": "543001818301040-248",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.184,
+      0.794
+     ]
+    },
+    {
+     "id": "2684227878631435-251",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.18,
+      0.794
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11877,
+   "at": [
+    589.45,
+    518.55
+   ],
+   "centre": [
+    578.2,
+    524.3
+   ],
+   "width": 8.5,
+   "faces": 336,
+   "toStreet": 10.1,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": 24.2,
+   "kind": "house",
+   "ring": [
+    568.8,
+    523.2,
+    587.7,
+    514.7,
+    591.2,
+    522.4,
+    571.8,
+    530.8,
+    571.7,
+    530.4
+   ],
+   "id": "vlaanderenstraat-336-21",
+   "latLon": [
+    51.049623,
+    3.730503
+   ],
+   "photos": [
+    {
+     "id": "1062926592017448-240",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.346,
+      0.668
+     ]
+    },
+    {
+     "id": "2289020461467742-253",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.34,
+      0.65
+     ]
+    },
+    {
+     "id": "1192411615344224-238",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.353,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11879,
+   "at": [
+    593.45,
+    527.3499999999999
+   ],
+   "centre": [
+    575.9,
+    533.8
+   ],
+   "width": 10.9,
+   "faces": 336,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 19.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    569.2,
+    529.9,
+    571.8,
+    530.8,
+    591.2,
+    522.4,
+    595.7,
+    532.3,
+    580.4,
+    539.4,
+    577.8,
+    533.3,
+    574.1,
+    535,
+    573.4,
+    535.3,
+    571.5,
+    540.6,
+    568,
+    539.2,
+    569.9,
+    534.2,
+    567.9,
+    533.4
+   ],
+   "id": "vlaanderenstraat-336-22",
+   "latLon": [
+    51.049559,
+    3.730549
+   ],
+   "photos": [
+    {
+     "id": "1043152330461182-248",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.256,
+      0.728
+     ]
+    },
+    {
+     "id": "908174268036422-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.295,
+      0.697
+     ]
+    },
+    {
+     "id": "1037091397900860-249",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.295,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12049,
+   "at": [
+    603.8,
+    550.3
+   ],
+   "centre": [
+    591.9,
+    555.6
+   ],
+   "width": 7,
+   "faces": 336,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 18.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    578.5,
+    557.6,
+    602.4,
+    547.1,
+    605.2,
+    553.5,
+    581.5,
+    564.4
+   ],
+   "id": "vlaanderenstraat-336-23",
+   "latLon": [
+    51.049393,
+    3.730667
+   ],
+   "photos": [
+    {
+     "id": "848767554053812-249",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.37,
+      0.627
+     ]
+    },
+    {
+     "id": "1699435457566768-239",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.356,
+      0.656
+     ]
+    },
+    {
+     "id": "1020309059774071-252",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.37,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12048,
+   "at": [
+    607.6500000000001,
+    558.9
+   ],
+   "centre": [
+    593.7,
+    566
+   ],
+   "width": 11.9,
+   "faces": 336,
+   "toStreet": 9.9,
+   "floors": 7,
+   "eaves": 25.3,
+   "top": 27.5,
+   "kind": "house",
+   "ring": [
+    581.5,
+    564.4,
+    605.2,
+    553.5,
+    610.1,
+    564.3,
+    586.1,
+    574.6,
+    585.5,
+    573.3
+   ],
+   "id": "vlaanderenstraat-336-24",
+   "latLon": [
+    51.049331,
+    3.730711
+   ],
+   "photos": [
+    {
+     "id": "1044951027039904-247",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.277,
+      0.712
+     ]
+    },
+    {
+     "id": "393741577102505-248",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.278,
+      0.709
+     ]
+    },
+    {
+     "id": "1486510348667149-250",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.242,
+      0.73
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12050,
+   "at": [
+    611.95,
+    568.45
+   ],
+   "centre": [
+    589,
+    581
+   ],
+   "width": 9.1,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 18.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    574.9,
+    588.4,
+    580.6,
+    590.6,
+    594.5,
+    584.2,
+    595.7,
+    583.7,
+    594.8,
+    580.7,
+    613.8,
+    572.6,
+    610.1,
+    564.3,
+    586.1,
+    574.6,
+    576.7,
+    578.6,
+    579.1,
+    584.3,
+    580.6,
+    583.7,
+    581.4,
+    585.7
+   ],
+   "id": "vlaanderenstraat-336-25",
+   "latLon": [
+    51.049262,
+    3.73076
+   ],
+   "photos": [
+    {
+     "id": "1959808881123261-250",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.328,
+      0.66
+     ]
+    },
+    {
+     "id": "1043753253707366-251",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.332,
+      0.661
+     ]
+    },
+    {
+     "id": "1049975126507550-253",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.304,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12356,
+   "at": [
+    615.05,
+    575.4000000000001
+   ],
+   "centre": [
+    601.8,
+    581.1
+   ],
+   "width": 6.1,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 20.3,
+   "kind": "yes",
+   "ring": [
+    594.5,
+    584.2,
+    595.7,
+    583.7,
+    594.8,
+    580.7,
+    613.8,
+    572.6,
+    616.3,
+    578.2,
+    595.9,
+    587.4
+   ],
+   "id": "vlaanderenstraat-336-26",
+   "latLon": [
+    51.049211,
+    3.730796
+   ],
+   "photos": [
+    {
+     "id": "538675405187841-250",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.387,
+      0.608
+     ]
+    },
+    {
+     "id": "1053790586123179-251",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.392,
+      0.611
+     ]
+    },
+    {
+     "id": "1527548638155625-237",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.384,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12354,
+   "at": [
+    617.55,
+    581
+   ],
+   "centre": [
+    607.3,
+    585.5
+   ],
+   "width": 6.1,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    595.9,
+    587.4,
+    616.3,
+    578.2,
+    618.8,
+    583.8,
+    598.4,
+    592.8
+   ],
+   "id": "vlaanderenstraat-336-27",
+   "latLon": [
+    51.049171,
+    3.730824
+   ],
+   "photos": [
+    {
+     "id": "1704540396397277",
+     "metres": 17,
+     "off": 19,
+     "span": [
+      0.66,
+      0.895
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12358,
+   "at": [
+    620.2,
+    586.9
+   ],
+   "centre": [
+    600.7,
+    589.9
+   ],
+   "width": 6.8,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 19.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    580.6,
+    590.6,
+    594.5,
+    584.2,
+    595.9,
+    587.4,
+    598.4,
+    592.8,
+    618.8,
+    583.8,
+    621.6,
+    590,
+    595,
+    600.8
+   ],
+   "id": "vlaanderenstraat-336-28",
+   "latLon": [
+    51.049128,
+    3.730855
+   ],
+   "photos": [
+    {
+     "id": "1704540396397277",
+     "metres": 19,
+     "off": 5,
+     "span": [
+      0.481,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12352,
+   "at": [
+    627.05,
+    601.95
+   ],
+   "centre": [
+    618.9,
+    605.5
+   ],
+   "width": 12.6,
+   "faces": 336,
+   "toStreet": 9.7,
+   "floors": 5,
+   "eaves": 20.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    607.8,
+    603.4,
+    624.5,
+    596.2,
+    629.6,
+    607.7,
+    613.5,
+    614.8
+   ],
+   "id": "vlaanderenstraat-336-29",
+   "latLon": [
+    51.049019,
+    3.730933
+   ],
+   "photos": [
+    {
+     "id": "1704540396397277",
+     "metres": 29,
+     "off": 17,
+     "span": [
+      0.193,
+      0.351
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12350,
+   "at": [
+    630.85,
+    610.55
+   ],
+   "centre": [
+    622.2,
+    614.9
+   ],
+   "width": 6.2,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": 21.5,
+   "kind": "house",
+   "ring": [
+    613.5,
+    614.8,
+    629.6,
+    607.7,
+    632.1,
+    613.4,
+    619.5,
+    618.7,
+    616.2,
+    620.1
+   ],
+   "id": "vlaanderenstraat-336-30",
+   "latLon": [
+    51.048957,
+    3.730976
+   ],
+   "photos": [
+    {
+     "id": "541808311852960-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.384,
+      0.607
+     ]
+    },
+    {
+     "id": "1243582793315687-241",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.393,
+      0.611
+     ]
+    },
+    {
+     "id": "522808583778978-240",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.392,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12348,
+   "at": [
+    633.6,
+    616.75
+   ],
+   "centre": [
+    627.3,
+    619.4
+   ],
+   "width": 7.3,
+   "faces": 336,
+   "toStreet": 9.8,
+   "floors": 6,
+   "eaves": 24,
+   "top": 27.5,
+   "kind": "yes",
+   "ring": [
+    619.5,
+    618.7,
+    632.1,
+    613.4,
+    635.1,
+    620.1,
+    622.5,
+    625.5
+   ],
+   "id": "vlaanderenstraat-336-31",
+   "latLon": [
+    51.048912,
+    3.731008
+   ],
+   "photos": [
+    {
+     "id": "831865235656976-247",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.368,
+      0.625
+     ]
+    },
+    {
+     "id": "558843566473668-247",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.374,
+      0.633
+     ]
+    },
+    {
+     "id": "880135770235100-244",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.374,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12347,
+   "at": [
+    640.2,
+    631.2
+   ],
+   "centre": [
+    634.3,
+    633.4
+   ],
+   "width": 11.6,
+   "faces": 336,
+   "toStreet": 9.7,
+   "floors": 5,
+   "eaves": 20.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    625.2,
+    634.1,
+    626.2,
+    631.3,
+    637.8,
+    625.9,
+    642.6,
+    636.5,
+    639.9,
+    639.3
+   ],
+   "id": "vlaanderenstraat-336-32",
+   "latLon": [
+    51.048808,
+    3.731083
+   ],
+   "photos": [
+    {
+     "id": "2239619603083366-244",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.269,
+      0.735
+     ]
+    },
+    {
+     "id": "340734695790526-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.295,
+      0.707
+     ]
+    },
+    {
+     "id": "1997998110619907-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.296,
+      0.707
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11878,
+   "at": [
+    586.3,
+    511.40000000000003
+   ],
+   "centre": [
+    574.3,
+    514.3
+   ],
+   "width": 7.2,
+   "faces": 337,
+   "toStreet": 10.1,
+   "floors": 6,
+   "eaves": 20.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    568.8,
+    523.2,
+    570.2,
+    515,
+    569.1,
+    514.6,
+    569.2,
+    513.5,
+    572.1,
+    512.2,
+    572.6,
+    513.1,
+    584.9,
+    508.1,
+    587.7,
+    514.7
+   ],
+   "id": "vlaanderenstraat-337-33",
+   "latLon": [
+    51.049674,
+    3.730467
+   ],
+   "photos": [
+    {
+     "id": "316061571569161-243",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.368,
+      0.639
+     ]
+    },
+    {
+     "id": "1067344911499195-241",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.373,
+      0.646
+     ]
+    },
+    {
+     "id": "832663702394179-255",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.364,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11876,
+   "at": [
+    596.95,
+    535.25
+   ],
+   "centre": [
+    580.1,
+    542.6
+   ],
+   "width": 6.4,
+   "faces": 337,
+   "toStreet": 10.1,
+   "floors": 5,
+   "eaves": 18.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    574.7,
+    541.9,
+    580.4,
+    539.4,
+    595.7,
+    532.3,
+    598.2,
+    538.2,
+    578,
+    547.3,
+    571.4,
+    550.3,
+    569.7,
+    547.5,
+    572.6,
+    544.2
+   ],
+   "id": "vlaanderenstraat-337-34",
+   "latLon": [
+    51.049502,
+    3.730589
+   ],
+   "photos": [
+    {
+     "id": "1041594593845992-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.38,
+      0.617
+     ]
+    },
+    {
+     "id": "2166145893769990-241",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.361,
+      0.65
+     ]
+    },
+    {
+     "id": "470360262667034-243",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.381,
+      0.613
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -4,6 +4,27 @@
 // rest of the city; no photo goes into the game.
 import * as THREE from 'three';
 
+// Once a texture is on the GPU its canvas is no longer needed, and there are hundreds of them (a
+// phone counts every canvas's pixels against the page): shrink it to nothing. The city's are drawn
+// once and never again. Only when the GPU loses them (a phone short of memory takes the page's
+// WebGL away, and gives it back empty) are they wanted again: draw() puts the picture back.
+const drawn = new Map(); // texture -> draw()
+export function letGo(t, draw) {
+  t.onUpdate = () => { t.image.width = t.image.height = 1; };
+  drawn.set(t, draw);
+  t.addEventListener('dispose', () => drawn.delete(t));
+  return t;
+}
+
+// WebGL back after it was lost: the renderer uploads every texture again from its canvas, which
+// would be the 1 pixel left of it (a black ground, black walls) were it not drawn again first.
+export function drawAgain() {
+  for (const [t, draw] of drawn) {
+    draw();
+    t.needsUpdate = true;
+  }
+}
+
 // A canvas for an elevation `w` metres wide and `h` metres tall, at `px` pixels a metre, that draw()
 // paints in metres: x from -w/2 to w/2 across the middle of the wall, y up from the ground.
 export function elevation(w, h, px, draw) {

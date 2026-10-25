@@ -50,6 +50,17 @@ export function inPolygon(x, z, p) {
   return hit;
 }
 
+// a car is a row of overlapping circles from nose to tail (two for a car, more for a lorry); kept on the car, so a stolen one can be taken away
+export function addCarColliders(things, c) {
+  const t0 = CAR_TYPES[c.type], f0 = t0.len / 2 - t0.w / 2, n = Math.max(1, Math.ceil(f0 / t0.w));
+  c.cols = [];
+  for (let k = -n; k <= n; k += 2) {
+    const f = (f0 * k) / n, t = { x: c.x + Math.sin(c.yaw) * f, z: c.z + Math.cos(c.yaw) * f, r: t0.w / 2 + 0.1, h: t0.h };
+    c.cols.push(t);
+    things.add(t, t.x - 2, t.z - 2, t.x + 2, t.z + 2);
+  }
+}
+
 // cars: [{x, z, yaw}] parked cars to bump into (not the ones riders run over on the race route)
 // posts: [{x, z, r, h}] the street lamps, bollards, bins and benches (js/furniture.js)
 export function buildColliders(map, cars, posts = []) {
@@ -60,18 +71,11 @@ export function buildColliders(map, cars, posts = []) {
       grid.add(s, Math.min(s[0], s[2]) - 2, Math.min(s[1], s[3]) - 2, Math.max(s[0], s[2]) + 2, Math.max(s[1], s[3]) + 2);
     }
   };
-  for (const b of map.buildings) if (!(b.b > 2 && !b.h)) wall(b.p); // not the floors over a passage
+  for (const b of map.buildings) if (!b.gone && !(b.b > 2 && !b.h)) wall(b.p); // not the floors over a passage
   for (const p of map.walls ?? []) wall(p);
   for (const p of map.ledges ?? []) wall(p, ledges); // the walls down into a hollow (js/hollows.js)
   wall(map.zone);
-  for (const c of cars) {
-    // a car is a row of overlapping circles from nose to tail (two for a car, more for a lorry)
-    const t0 = CAR_TYPES[c.type], f0 = t0.len / 2 - t0.w / 2, n = Math.max(1, Math.ceil(f0 / t0.w));
-    for (let k = -n; k <= n; k += 2) {
-      const f = (f0 * k) / n, t = { x: c.x + Math.sin(c.yaw) * f, z: c.z + Math.cos(c.yaw) * f, r: t0.w / 2 + 0.1, h: t0.h };
-      things.add(t, t.x - 2, t.z - 2, t.x + 2, t.z + 2);
-    }
-  }
+  for (const c of cars) addCarColliders(things, c);
   for (let k = 0; k < map.trees.length; k += 2) {
     const t = { x: map.trees[k], z: map.trees[k + 1], r: 0.5, h: 99 };
     things.add(t, t.x - 2, t.z - 2, t.x + 2, t.z + 2);
@@ -87,7 +91,7 @@ export function buildColliders(map, cars, posts = []) {
     if (a.k !== 'water') continue;
     let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
     for (let k = 0; k < a.p.length; k += 2) { x0 = Math.min(x0, a.p[k]); x1 = Math.max(x1, a.p[k]); z0 = Math.min(z0, a.p[k + 1]); z1 = Math.max(z1, a.p[k + 1]); }
-    water.add({ poly: a.p, level: a.level, bank: a.bank }, x0, z0, x1, z1);
+    water.add({ poly: a.p, level: a.level, bank: a.bank, swim: a.swim }, x0, z0, x1, z1);
   }
   for (const rd of map.roads) {
     if (rd.br) {
@@ -117,8 +121,9 @@ export function collide(col, r, R) {
   const into = (nx, nz) => Math.max(0, -(r.fx * nx + r.fz * nz) * Math.sign(r.speed));
   for (let pass = 0; pass < 2; pass++) {
     const rails = col.rails.near(r.pos.x, r.pos.z).filter(s => Math.abs((r.base ?? 0) + r.y - s[4]) < 0.8);
-    // a hollow's walls: jumped clear over the railing on top, or already dropping down into it
-    const over = (r.base ?? 0) + r.y > RAIL - 0.25 || r.baseV < 0;
+    // a hollow's walls: jumped clear over the railing on top, already dropping down into it, or up
+    // on a bridge across it
+    const over = (r.base ?? 0) + r.y > RAIL - 0.25 || r.baseV < 0 || (r.base ?? 0) > 0.1;
     for (const s of [...col.walls.near(r.pos.x, r.pos.z), ...(over ? [] : col.ledges.near(r.pos.x, r.pos.z)), ...rails]) {
       const { d, cx, cz } = segDist(r.pos.x, r.pos.z, s[0], s[1], s[2], s[3]);
       if (d >= R || d < 1e-6) continue;
@@ -129,7 +134,7 @@ export function collide(col, r, R) {
     }
   }
   for (const t of col.things.near(r.pos.x, r.pos.z)) {
-    if (r.y > t.h - 0.3) continue; // jumped over it
+    if (t.dead || r.y > t.h - 0.3) continue; // (dead: its car was driven off) // jumped over it
     const dx = r.pos.x - t.x, dz = r.pos.z - t.z, d = Math.hypot(dx, dz), min = R * 0.8 + t.r;
     if (d >= min || d < 1e-6) continue;
     r.pos.x = t.x + (dx / d) * min;
@@ -167,6 +172,11 @@ export function bankAt(col, x, z) {
 // (a city's own, on its map area), else undefined for the usual WATER (js/relief.js).
 export function waterLevel(col, x, z) {
   return col.water.near(x, z).find(s => s.poly && s.level !== undefined && inPolygon(x, z, s.poly))?.level;
+}
+
+// Is (x, z) in a lake for swimming (a map area marked swim), not for rowing?
+export function swimAt(col, x, z) {
+  return col.water.near(x, z).some(s => s.swim && inPolygon(x, z, s.poly));
 }
 
 // Name of the street at (x, z), or '' away from the streets.

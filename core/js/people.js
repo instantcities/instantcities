@@ -11,6 +11,8 @@ export const PANTS = [0x283593, 0x3e2723, 0x212121, 0x546e7a, 0x8d6e63, 0x1565c0
 export const SKINS = [0xf1c27d, 0xe0ac69, 0xc68642, 0x8d5524, 0xffdbac];
 export const HAIRS = [0x2b1d14, 0x5d4037, 0xd7b56d, 0x1d1a17, 0xb0a99f, 0xa0522d];
 const DOGS = [0x8d6e63, 0x3e2723, 0xf5e6c8, 0x1d1a17, 0xd7a35b];
+const LEAP = 0.35; // seconds for a walker's leap out of a borrowed car's way
+const SPLASH = new THREE.SphereGeometry(1, 6, 5); // the paint on a character's chest
 
 // A path to walk along: a polyline of [x, z] points, closed or not.
 function makePath(points, closed) {
@@ -146,6 +148,7 @@ function makeParts(group, people, dogs) {
     arm: P(new THREE.BoxGeometry(0.1, 0.58, 0.11).translate(0, -0.29, 0), 2, people),
     head: P(new THREE.SphereGeometry(0.15, 8, 6), 1, people),
     hair: P(new THREE.SphereGeometry(0.16, 8, 4, 0, Math.PI * 2, 0, Math.PI / 2), 1, people),
+    paint: P(new THREE.BoxGeometry(0.2, 0.5, 0.27), 1, people), // blue paint on one side of the chest, once hit
     dogBody: P(new THREE.BoxGeometry(0.26, 0.26, 0.62), 1, dogs),
     dogHead: P(new THREE.BoxGeometry(0.22, 0.22, 0.28), 1, dogs),
     dogLeg: P(new THREE.BoxGeometry(0.08, 0.32, 0.08).translate(0, -0.16, 0), 4, dogs),
@@ -211,6 +214,8 @@ export class People {
       set(this.parts.torso, i, w.colors.shirt);
       set(this.parts.head, i, w.colors.skin);
       set(this.parts.hair, i, w.colors.hair);
+      set(this.parts.paint, i, 0x1e66f5);
+      this.parts.paint.setMatrixAt(i, new THREE.Matrix4().makeScale(0, 0, 0));
       if (!w.dog) return;
       w.dog.i = d;
       for (const part of ['dogBody', 'dogHead', 'tail']) set(this.parts[part], d, w.dog.color);
@@ -230,6 +235,7 @@ export class People {
     this.tmp = new THREE.Matrix4();
     this.q = new THREE.Quaternion();
     this.e = new THREE.Euler();
+    this.fe = new THREE.Euler(); // for the ones who fall over (yaw first, then tipping over)
     this.v = new THREE.Vector3();
     this.one = new THREE.Vector3(1, 1, 1);
   }
@@ -238,6 +244,76 @@ export class People {
   pose(part, i, base, x, y, z, rx = 0, ry = 0) {
     this.local.compose(this.v.set(x, y, z), this.q.setFromEuler(this.e.set(rx, ry, 0)), this.one.set(1, 1, 1));
     this.parts[part].setMatrixAt(i, this.tmp.multiplyMatrices(base, this.local));
+  }
+
+  // Where one of the characters (city.js CHARACTERS) is, by name: { x, z }, or null.
+  where(name) {
+    const w = this.walkers.find(w => w.path.who?.name === name);
+    return w ? w.path.at(w.s) : null;
+  }
+
+  // Put a character on the point of their path nearest [x, z], walking on towards [tx, tz].
+  put(name, [x, z], [tx, tz]) {
+    const w = this.walkers.find(w => w.path.who?.name === name);
+    if (!w) return;
+    let best = Infinity;
+    for (let s = 0; s <= w.path.length; s += 0.5) {
+      const p = w.path.at(s), d = Math.hypot(p.x - x, p.z - z);
+      if (d < best) { best = d; w.s = s; }
+    }
+    const p = w.path.at(w.s);
+    w.dir = p.dx * (tx - p.x) + p.dz * (tz - p.z) >= 0 ? 1 : -1;
+  }
+
+  // A paintball flying from (x0, z0) to (x1, z1) at height y: the first walker it hits (the city's
+  // characters too) is covered in blue and falls over, and stays down until resetHits. Generous in
+  // height, as js/splat.js. Returns { x, y, z } or null.
+  paintHit(x0, z0, x1, z1, y) {
+    const dx = x1 - x0, dz = z1 - z0, L2 = dx * dx + dz * dz || 1;
+    let best = null, bu = Infinity;
+    this.walkers.forEach((w, i) => {
+      if (w.hitT !== undefined || w.x === undefined) return;
+      const u = Math.max(0, Math.min(1, ((w.x - x0) * dx + (w.z - z0) * dz) / L2));
+      const h = y - (w.path.y + (w.up ?? 0));
+      if (u < bu && Math.hypot(w.x - x0 - dx * u, w.z - z0 - dz * u) < 0.55 * w.scale + 0.3 && h > -1.2 && h < 1.9 * w.scale + 0.9) { best = { w, i }; bu = u; }
+    });
+    if (!best) return null;
+    const { w, i } = best, c = new THREE.Color(0x1e66f5);
+    w.hitT = 0;
+    // on the side facing the shooter: half the chest and that arm
+    w.paintSide = (x0 - w.x) * Math.cos(w.yaw ?? 0) - (z0 - w.z) * Math.sin(w.yaw ?? 0) >= 0 ? 1 : -1;
+    if (w.figure) {
+      // a character: a splash of blue on the chest, on the shooter's side
+      w.splash = new THREE.Mesh(SPLASH, new THREE.MeshStandardMaterial({ color: 0x1e66f5, roughness: 0.5 }));
+      w.splash.position.set(w.paintSide * 0.1, 1.2, 0.16);
+      w.splash.scale.set(0.16, 0.18, 0.06);
+      w.figure.group.add(w.splash);
+      w.figure.group.rotation.order = 'YXZ';
+    } else {
+      this.parts.arm.setColorAt(i * 2 + (w.paintSide > 0 ? 1 : 0), c);
+      this.parts.arm.instanceColor.needsUpdate = true;
+    }
+    return { x: w.x, y: y, z: w.z };
+  }
+
+  // A new round: everyone knocked over (by paint, or by a borrowed car) is up and walking again.
+  resetHits() {
+    const c = new THREE.Color();
+    this.walkers.forEach((w, i) => {
+      if (w.hitT === undefined) return;
+      w.hitT = undefined;
+      w.paintSide = 0;
+      if (w.figure) {
+        w.splash?.removeFromParent();
+        w.splash = null;
+        w.figure.group.rotation.x = 0;
+        return;
+      }
+      for (const k of [0, 1]) this.parts.arm.setColorAt(i * 2 + k, c.setHex(w.colors.shirt));
+      this.parts.arm.instanceColor.needsUpdate = true;
+      this.parts.paint.setMatrixAt(i, new THREE.Matrix4().makeScale(0, 0, 0));
+      this.parts.paint.instanceMatrix.needsUpdate = true;
+    });
   }
 
   // onBump(rider, x, y, z): a horse ran into this walker, who shouts from (x, y, z)
@@ -251,7 +327,10 @@ export class People {
       let p = w.path.at(w.s);
       const nx = p.dz, nz = -p.dx;
       let target = 0;
-      for (const r of riders) {
+      const struck = w.hitT !== undefined;
+      if (struck) w.hitT += dt;
+      const fall = struck ? Math.min(1, Math.max(0, (w.hitT - 0.5) * 2.5)) : 0; // a moment's staggering, then down
+      if (!struck) for (const r of riders) {
         const dx = r.pos.x - p.x, dz = r.pos.z - p.z;
         if (dx * dx + dz * dz < 16) target = (dx * nx + dz * nz > 0 ? -1 : 1) * 1.1;
       }
@@ -264,12 +343,52 @@ export class People {
         }
       }
       w.off += Math.max(-dt * 3, Math.min(dt * 3, target - w.off));
-      const hurry = Math.abs(target) > 0 ? 0.3 : 1;
+      const hurry = struck ? 0 : Math.abs(target) > 0 ? 0.3 : 1;
       w.s += w.dir * w.speed * hurry * dt;
       if (!w.path.closed && (w.s <= 0 || w.s >= w.path.length)) w.dir = -w.dir;
       p = w.path.at(w.s);
-      const yaw = Math.atan2(p.dx * w.dir, p.dz * w.dir), x = p.x + nx * w.off, z = p.z + nz * w.off;
-      if (!w.cool) {
+      // a borrowed car coming at them: a quick leap aside, out of its way (and back onto the pavement after)
+      if (!struck && !w.leap && w.x !== undefined) {
+        for (const r of riders) {
+          if (!r.car || Math.abs(r.speed) < 3) continue;
+          const fx = Math.sin(r.yaw) * Math.sign(r.speed), fz = Math.cos(r.yaw) * Math.sign(r.speed);
+          const ax = w.x - r.pos.x, az = w.z - r.pos.z, ahead = ax * fx + az * fz, side = ax * fz - az * fx;
+          if (ahead > -1 && ahead < 3 + Math.abs(r.speed) * 0.7 && Math.abs(side) < 2.6) {
+            const away = (side === 0 ? (Math.random() < 0.5 ? 1 : -1) : Math.sign(side)) * (3.6 - Math.abs(side));
+            w.leap = { t: 0, x: fz * away, z: -fx * away };
+            w.lx ??= 0; w.lz ??= 0;
+            w.leap.x0 = w.lx; w.leap.z0 = w.lz;
+            break;
+          }
+        }
+      }
+      let hop = 0;
+      if (w.leap) {
+        const L = w.leap;
+        L.t += dt;
+        const k = Math.min(1, L.t / LEAP);
+        w.lx = L.x0 + L.x * Math.sin((k * Math.PI) / 2);
+        w.lz = L.z0 + L.z * Math.sin((k * Math.PI) / 2);
+        hop = k < 1 ? Math.sin(k * Math.PI) * 0.55 : 0;
+        if (L.t > LEAP + 1.5) w.leap = null; // a moment to get over the fright
+      } else if (w.lx) {
+        // drifting back onto the path
+        const back = Math.max(0, 1 - dt * 0.8);
+        w.lx *= back; w.lz *= back;
+        if (Math.abs(w.lx) + Math.abs(w.lz) < 0.02) w.lx = w.lz = 0;
+      }
+      const yaw = Math.atan2(p.dx * w.dir, p.dz * w.dir), x = p.x + nx * w.off + (w.lx ?? 0), z = p.z + nz * w.off + (w.lz ?? 0);
+      w.x = x;
+      w.z = z;
+      w.yaw = yaw;
+      // run over by a borrowed car at speed (only those who couldn't leap clear): down they go
+      const car = !struck && !hop && riders.find(o => o.car && Math.abs(o.speed) > 4 && o.y < 1.6 && (o.pos.x - x) ** 2 + (o.pos.z - z) ** 2 < 1.7 * 1.7);
+      if (car) {
+        w.hitT = 0;
+        onBump?.(car, x, w.path.y + (w.up ?? 0) + 2.3 * w.scale, z);
+        return;
+      }
+      if (!w.cool && !struck) {
         const r = riders.find(o => o.y < 1.6 && (o.pos.x - x) ** 2 + (o.pos.z - z) ** 2 < 1.3 * 1.3);
         if (r) {
           w.cool = 4;
@@ -278,12 +397,17 @@ export class People {
       }
       w.up = this.relief ? this.relief.at(x, z, w.up ?? 0) : 0;
       const stride = w.run ? 2.7 : 5.2, reach = w.run ? 0.85 : 0.55;
-      const step = t * w.speed * stride + w.phase, swing = Math.sin(step) * reach * hurry, bob = Math.abs(Math.cos(step)) * (w.run ? 0.09 : 0.04);
-      if (w.figure) return w.figure.walk(x, w.path.y + w.up, z, yaw, w.scale, step, hurry, bob);
-      base.compose(this.v.set(x, w.path.y + w.up + bob, z), this.q.setFromEuler(this.e.set(0, yaw, 0)), this.one.set(w.scale, w.scale, w.scale));
+      const step = t * w.speed * stride + w.phase, swing = Math.sin(step) * reach * hurry, bob = struck ? 0 : Math.abs(Math.cos(step)) * (w.run ? 0.09 : 0.04);
+      if (w.figure) {
+        w.figure.walk(x, w.path.y + w.up + hop, z, yaw, w.scale, step, hurry, bob);
+        if (struck) w.figure.group.rotation.x = -fall * 1.5; // knocked over: down on their back
+        return;
+      }
+      base.compose(this.v.set(x, w.path.y + w.up + bob + hop + 0.12 * w.scale * fall, z), this.q.setFromEuler(this.fe.set(-fall * 1.5, yaw, 0, 'YXZ')), this.one.set(w.scale, w.scale, w.scale));
       this.pose('leg', i * 2, base, -0.1, 0.85, 0, swing);
       this.pose('leg', i * 2 + 1, base, 0.1, 0.85, 0, -swing);
       this.pose('torso', i, base, 0, 1.16, 0);
+      if (w.paintSide) this.pose('paint', i, base, w.paintSide * 0.12, 1.16, 0.004);
       // the dog's side holds the lead; a runner's arms are bent and pump
       const arm = w.run ? -0.9 : 0;
       this.pose('arm', i * 2, base, -0.28, 1.42, 0, w.dog ? -0.6 : arm - swing * 0.8);

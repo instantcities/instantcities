@@ -1,0 +1,6322 @@
+{
+ "city": "ghent",
+ "street": "Reginald Warnefordstraat",
+ "slug": "reginald-warnefordstraat",
+ "photos": {
+  "180547844954778": {
+   "file": "photos/180547844954778.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=180547844954778",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0578559,
+    3.7446332,
+    316,
+    0.722
+   ]
+  },
+  "29924162100563498-341": {
+   "file": "photos/29924162100563498-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29924162100563498",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585981,
+    3.7456577,
+    341,
+    0.5
+   ]
+  },
+  "2827696457364709": {
+   "file": "photos/2827696457364709.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2827696457364709",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0579821,
+    3.7445433,
+    1,
+    0.722
+   ]
+  },
+  "4383700165192017-310": {
+   "file": "photos/4383700165192017-310.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4383700165192017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0589543,
+    3.7466749,
+    310,
+    0.5
+   ]
+  },
+  "1061142422564805-358": {
+   "file": "photos/1061142422564805-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1061142422564805",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0590265,
+    3.7468446,
+    358,
+    0.5
+   ]
+  },
+  "30273129165618856-349": {
+   "file": "photos/30273129165618856-349.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=30273129165618856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0591717,
+    3.7471796,
+    349,
+    0.5
+   ]
+  },
+  "1623547704977699-332": {
+   "file": "photos/1623547704977699-332.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1623547704977699",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0592392,
+    3.7473369,
+    332,
+    0.5
+   ]
+  },
+  "1724640051475284-358": {
+   "file": "photos/1724640051475284-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724640051475284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0595467,
+    3.7480772,
+    358,
+    0.5
+   ]
+  },
+  "703091115987466-310": {
+   "file": "photos/703091115987466-310.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=703091115987466",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0596536,
+    3.7483692,
+    310,
+    0.5
+   ]
+  },
+  "29924162100563498-9": {
+   "file": "photos/29924162100563498-9.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29924162100563498",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585981,
+    3.7456577,
+    9,
+    0.5
+   ]
+  },
+  "515240294911653-334": {
+   "file": "photos/515240294911653-334.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515240294911653",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0586629,
+    3.7458105,
+    334,
+    0.5
+   ]
+  },
+  "1208964050532786-346": {
+   "file": "photos/1208964050532786-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208964050532786",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587352,
+    3.7459708,
+    346,
+    0.5
+   ]
+  },
+  "29845287588453256-301": {
+   "file": "photos/29845287588453256-301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29845287588453256",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587347,
+    3.7461674,
+    301,
+    0.5
+   ]
+  },
+  "29845287588453256-321": {
+   "file": "photos/29845287588453256-321.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29845287588453256",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587347,
+    3.7461674,
+    321,
+    0.5
+   ]
+  },
+  "29845287588453256-1": {
+   "file": "photos/29845287588453256-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29845287588453256",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587347,
+    3.7461674,
+    1,
+    0.5
+   ]
+  },
+  "4260565294221460-308": {
+   "file": "photos/4260565294221460-308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4260565294221460",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588125,
+    3.7463477,
+    308,
+    0.5
+   ]
+  },
+  "4260565294221460-333": {
+   "file": "photos/4260565294221460-333.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4260565294221460",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588125,
+    3.7463477,
+    333,
+    0.5
+   ]
+  },
+  "1452172442450783-309": {
+   "file": "photos/1452172442450783-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1452172442450783",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588825,
+    3.7465086,
+    309,
+    0.5
+   ]
+  },
+  "4260565294221460-356": {
+   "file": "photos/4260565294221460-356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4260565294221460",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588125,
+    3.7463477,
+    356,
+    0.5
+   ]
+  },
+  "1452172442450783-333": {
+   "file": "photos/1452172442450783-333.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1452172442450783",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588825,
+    3.7465086,
+    333,
+    0.5
+   ]
+  },
+  "1452172442450783-357": {
+   "file": "photos/1452172442450783-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1452172442450783",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0588825,
+    3.7465086,
+    357,
+    0.5
+   ]
+  },
+  "4383700165192017-337": {
+   "file": "photos/4383700165192017-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4383700165192017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0589543,
+    3.7466749,
+    337,
+    0.5
+   ]
+  },
+  "1059473699033763-306": {
+   "file": "photos/1059473699033763-306.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1059473699033763",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0590993,
+    3.7470124,
+    306,
+    0.5
+   ]
+  },
+  "30273129165618856-290": {
+   "file": "photos/30273129165618856-290.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=30273129165618856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0591717,
+    3.7471796,
+    290,
+    0.5
+   ]
+  },
+  "30273129165618856-317": {
+   "file": "photos/30273129165618856-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=30273129165618856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0591717,
+    3.7471796,
+    317,
+    0.5
+   ]
+  },
+  "699526179508054-294": {
+   "file": "photos/699526179508054-294.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=699526179508054",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0592999,
+    3.7474808,
+    294,
+    0.5
+   ]
+  },
+  "699526179508054-328": {
+   "file": "photos/699526179508054-328.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=699526179508054",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0592999,
+    3.7474808,
+    328,
+    0.5
+   ]
+  },
+  "671125919077531-346": {
+   "file": "photos/671125919077531-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671125919077531",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0593649,
+    3.7476296,
+    346,
+    0.5
+   ]
+  },
+  "1350571709369722-298": {
+   "file": "photos/1350571709369722-298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1350571709369722",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0594841,
+    3.7479231,
+    298,
+    0.5
+   ]
+  },
+  "1724640051475284-293": {
+   "file": "photos/1724640051475284-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724640051475284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0595467,
+    3.7480772,
+    293,
+    0.5
+   ]
+  },
+  "1724640051475284-326": {
+   "file": "photos/1724640051475284-326.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724640051475284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0595467,
+    3.7480772,
+    326,
+    0.5
+   ]
+  },
+  "1684238782228919-330": {
+   "file": "photos/1684238782228919-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1684238782228919",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0596071,
+    3.7482237,
+    330,
+    0.5
+   ]
+  },
+  "29845287588453256-342": {
+   "file": "photos/29845287588453256-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29845287588453256",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587347,
+    3.7461674,
+    342,
+    0.5
+   ]
+  },
+  "1061142422564805-308": {
+   "file": "photos/1061142422564805-308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1061142422564805",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0590265,
+    3.7468446,
+    308,
+    0.5
+   ]
+  },
+  "4383700165192017-0": {
+   "file": "photos/4383700165192017-0.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4383700165192017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0589543,
+    3.7466749,
+    0,
+    0.5
+   ]
+  },
+  "1061142422564805-339": {
+   "file": "photos/1061142422564805-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1061142422564805",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0590265,
+    3.7468446,
+    339,
+    0.5
+   ]
+  },
+  "1059473699033763-337": {
+   "file": "photos/1059473699033763-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1059473699033763",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0590993,
+    3.7470124,
+    337,
+    0.5
+   ]
+  },
+  "1623547704977699-301": {
+   "file": "photos/1623547704977699-301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1623547704977699",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0592392,
+    3.7473369,
+    301,
+    0.5
+   ]
+  },
+  "691937469607860": {
+   "file": "photos/691937469607860.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=691937469607860",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0579291,
+    3.7445787,
+    352,
+    0.722
+   ]
+  },
+  "782822249916564": {
+   "file": "photos/782822249916564.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=782822249916564",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0578805,
+    3.7446149,
+    1,
+    0.722
+   ]
+  },
+  "619481663219453": {
+   "file": "photos/619481663219453.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=619481663219453",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0579078,
+    3.7445926,
+    350,
+    0.722
+   ]
+  },
+  "1808233719740954-342": {
+   "file": "photos/1808233719740954-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1808233719740954",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583791,
+    3.7450412,
+    342,
+    0.5
+   ]
+  },
+  "1014311247571726-7": {
+   "file": "photos/1014311247571726-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1014311247571726",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584344,
+    3.7451965,
+    7,
+    0.5
+   ]
+  },
+  "1056719543076979-308": {
+   "file": "photos/1056719543076979-308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1056719543076979",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585444,
+    3.7455028,
+    308,
+    0.5
+   ]
+  },
+  "1967504110659360-14": {
+   "file": "photos/1967504110659360-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1967504110659360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584893,
+    3.7453485,
+    14,
+    0.5
+   ]
+  },
+  "1208964050532786-174": {
+   "file": "photos/1208964050532786-174.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208964050532786",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587352,
+    3.7459708,
+    174,
+    0.5
+   ]
+  },
+  "515240294911653-169": {
+   "file": "photos/515240294911653-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515240294911653",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0586629,
+    3.7458105,
+    169,
+    0.5
+   ]
+  },
+  "515240294911653-130": {
+   "file": "photos/515240294911653-130.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515240294911653",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0586629,
+    3.7458105,
+    130,
+    0.5
+   ]
+  },
+  "1208964050532786-138": {
+   "file": "photos/1208964050532786-138.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208964050532786",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587352,
+    3.7459708,
+    138,
+    0.5
+   ]
+  },
+  "1208964050532786-108": {
+   "file": "photos/1208964050532786-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208964050532786",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0587352,
+    3.7459708,
+    108,
+    0.5
+   ]
+  },
+  "29924162100563498-154": {
+   "file": "photos/29924162100563498-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29924162100563498",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585981,
+    3.7456577,
+    154,
+    0.5
+   ]
+  },
+  "1056719543076979-179": {
+   "file": "photos/1056719543076979-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1056719543076979",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585444,
+    3.7455028,
+    179,
+    0.5
+   ]
+  },
+  "579523878530029-141": {
+   "file": "photos/579523878530029-141.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    141,
+    0.5
+   ]
+  },
+  "529315383480677-121": {
+   "file": "photos/529315383480677-121.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=529315383480677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582728,
+    3.7447199,
+    121,
+    0.5
+   ]
+  },
+  "1195335759006233-130": {
+   "file": "photos/1195335759006233-130.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1195335759006233",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583318,
+    3.7448968,
+    130,
+    0.5
+   ]
+  },
+  "1195335759006233-180": {
+   "file": "photos/1195335759006233-180.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1195335759006233",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583318,
+    3.7448968,
+    180,
+    0.5
+   ]
+  },
+  "1808233719740954-109": {
+   "file": "photos/1808233719740954-109.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1808233719740954",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583791,
+    3.7450412,
+    109,
+    0.5
+   ]
+  },
+  "1014311247571726-127": {
+   "file": "photos/1014311247571726-127.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1014311247571726",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584344,
+    3.7451965,
+    127,
+    0.5
+   ]
+  },
+  "1967504110659360-191": {
+   "file": "photos/1967504110659360-191.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1967504110659360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584893,
+    3.7453485,
+    191,
+    0.5
+   ]
+  },
+  "1056719543076979-120": {
+   "file": "photos/1056719543076979-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1056719543076979",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0585444,
+    3.7455028,
+    120,
+    0.5
+   ]
+  },
+  "579523878530029-122": {
+   "file": "photos/579523878530029-122.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    122,
+    0.5
+   ]
+  },
+  "529315383480677-168": {
+   "file": "photos/529315383480677-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=529315383480677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582728,
+    3.7447199,
+    168,
+    0.5
+   ]
+  },
+  "1808233719740954-158": {
+   "file": "photos/1808233719740954-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1808233719740954",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583791,
+    3.7450412,
+    158,
+    0.5
+   ]
+  },
+  "1014311247571726-184": {
+   "file": "photos/1014311247571726-184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1014311247571726",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584344,
+    3.7451965,
+    184,
+    0.5
+   ]
+  },
+  "1967504110659360-153": {
+   "file": "photos/1967504110659360-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1967504110659360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584893,
+    3.7453485,
+    153,
+    0.5
+   ]
+  },
+  "1967504110659360-112": {
+   "file": "photos/1967504110659360-112.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1967504110659360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584893,
+    3.7453485,
+    112,
+    0.5
+   ]
+  },
+  "579523878530029-189": {
+   "file": "photos/579523878530029-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    189,
+    0.5
+   ]
+  },
+  "579523878530029-214": {
+   "file": "photos/579523878530029-214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    214,
+    0.5
+   ]
+  },
+  "563055073298918-229": {
+   "file": "photos/563055073298918-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=563055073298918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.058209,
+    3.7445442,
+    229,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 28292,
+   "at": [
+    1798.6,
+    -665.5999999999999
+   ],
+   "centre": [
+    1792.7,
+    -666
+   ],
+   "width": 14.8,
+   "faces": 50,
+   "toStreet": 15.7,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1784,
+    -663.4,
+    1784.8,
+    -660.7,
+    1790,
+    -664.4,
+    1792.9,
+    -660.9,
+    1804.3,
+    -670.3,
+    1800.1,
+    -676.6
+   ],
+   "id": "reginald-warnefordstraat-50-01",
+   "latLon": [
+    51.05819,
+    3.744326
+   ],
+   "photos": [
+    {
+     "id": "180547844954778",
+     "metres": 43,
+     "off": 14,
+     "span": [
+      0.578,
+      0.788
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28183,
+   "at": [
+    1910.85,
+    -734.4000000000001
+   ],
+   "centre": [
+    1913.8,
+    -740.7
+   ],
+   "width": 15.6,
+   "faces": 53,
+   "toStreet": 13.5,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1899.8,
+    -736.2,
+    1904.6,
+    -729.7,
+    1917.1,
+    -739.1,
+    1923.9,
+    -743.8,
+    1921.7,
+    -747,
+    1916,
+    -742.9,
+    1913.5,
+    -746.1
+   ],
+   "id": "reginald-warnefordstraat-53-02",
+   "latLon": [
+    51.058688,
+    3.745609
+   ],
+   "photos": [
+    {
+     "id": "29924162100563498-341",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.156,
+      0.74
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28272,
+   "at": [
+    1820.7,
+    -685.2
+   ],
+   "centre": [
+    1824.2,
+    -690.2
+   ],
+   "width": 8.6,
+   "faces": 54,
+   "toStreet": 13.8,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    1810.3,
+    -683.9,
+    1813.3,
+    -679.9,
+    1817.2,
+    -682.7,
+    1824.2,
+    -687.7,
+    1825.3,
+    -688.6,
+    1828.6,
+    -690.9,
+    1832.1,
+    -693.4,
+    1831.3,
+    -694.9,
+    1829.5,
+    -698.1,
+    1828.3,
+    -697.2,
+    1825.7,
+    -695.3
+   ],
+   "id": "reginald-warnefordstraat-54-03",
+   "latLon": [
+    51.058332,
+    3.744579
+   ],
+   "photos": [
+    {
+     "id": "2827696457364709",
+     "metres": 39,
+     "off": 2,
+     "span": [
+      0.479,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28237,
+   "at": [
+    1994.05,
+    -779.45
+   ],
+   "centre": [
+    1988.6,
+    -788.1
+   ],
+   "width": 6.2,
+   "faces": 56,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    1980.5,
+    -795.3,
+    1991.4,
+    -777.8,
+    1991.5,
+    -777.7,
+    1996.6,
+    -781.2,
+    1986,
+    -798,
+    1985.5,
+    -798.8
+   ],
+   "id": "reginald-warnefordstraat-56-04",
+   "latLon": [
+    51.059014,
+    3.746561
+   ],
+   "photos": [
+    {
+     "id": "4383700165192017-310",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.388,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28239,
+   "at": [
+    2018.45,
+    -795.35
+   ],
+   "centre": [
+    2010.6,
+    -805.7
+   ],
+   "width": 5.9,
+   "faces": 56,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    2004.4,
+    -812.1,
+    2006.9,
+    -808.1,
+    2006.7,
+    -808,
+    2016,
+    -793.7,
+    2020.9,
+    -797,
+    2008.8,
+    -815.5
+   ],
+   "id": "reginald-warnefordstraat-56-05",
+   "latLon": [
+    51.059129,
+    3.74684
+   ],
+   "photos": [
+    {
+     "id": "1061142422564805-358",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.403,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28215,
+   "at": [
+    2045.85,
+    -813.25
+   ],
+   "centre": [
+    2038.6,
+    -823.6
+   ],
+   "width": 6.6,
+   "faces": 56,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": 18.4,
+   "kind": "house",
+   "ring": [
+    2029.8,
+    -833,
+    2036.5,
+    -822.2,
+    2043.1,
+    -811.4,
+    2048.6,
+    -815.1,
+    2034.8,
+    -836.5
+   ],
+   "id": "reginald-warnefordstraat-56-06",
+   "latLon": [
+    51.059258,
+    3.747153
+   ],
+   "photos": [
+    {
+     "id": "30273129165618856-349",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.361,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28204,
+   "at": [
+    2056.7,
+    -820.35
+   ],
+   "centre": [
+    2047.3,
+    -835.8
+   ],
+   "width": 6.3,
+   "faces": 56,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    2039.1,
+    -842.9,
+    2043.9,
+    -835.2,
+    2047.5,
+    -829.3,
+    2054.1,
+    -818.6,
+    2059.3,
+    -822.1,
+    2051.8,
+    -834.8,
+    2049.5,
+    -833.4,
+    2045.5,
+    -839.4,
+    2047.6,
+    -840.7,
+    2045,
+    -844.7,
+    2042.7,
+    -843.5,
+    2041.7,
+    -844.8
+   ],
+   "id": "reginald-warnefordstraat-56-07",
+   "latLon": [
+    51.059309,
+    3.747277
+   ],
+   "photos": [
+    {
+     "id": "1623547704977699-332",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.352,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28933,
+   "at": [
+    2126.1499999999996,
+    -865.65
+   ],
+   "centre": [
+    2120.4,
+    -873.1
+   ],
+   "width": 5.9,
+   "faces": 56,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": 17.8,
+   "kind": "house",
+   "ring": [
+    2113.9,
+    -877.6,
+    2115.8,
+    -875,
+    2123.7,
+    -864,
+    2128.6,
+    -867.3,
+    2119.9,
+    -881.7
+   ],
+   "id": "reginald-warnefordstraat-56-08",
+   "latLon": [
+    51.059637,
+    3.748071
+   ],
+   "photos": [
+    {
+     "id": "1724640051475284-358",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.381,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28940,
+   "at": [
+    2142.45,
+    -876.15
+   ],
+   "centre": [
+    2133.6,
+    -889.4
+   ],
+   "width": 7.6,
+   "faces": 56,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2125.5,
+    -895.2,
+    2128.5,
+    -890.6,
+    2139.3,
+    -874,
+    2145.6,
+    -878.3,
+    2142.1,
+    -883.7,
+    2137.6,
+    -890.6,
+    2136.7,
+    -892,
+    2133.4,
+    -890.1,
+    2132.5,
+    -891.5,
+    2131.1,
+    -892,
+    2130.3,
+    -892.1,
+    2127.6,
+    -896.4,
+    2126.5,
+    -895.8
+   ],
+   "id": "reginald-warnefordstraat-56-09",
+   "latLon": [
+    51.059713,
+    3.748257
+   ],
+   "photos": [
+    {
+     "id": "703091115987466-310",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.37,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28190,
+   "at": [
+    1916.05,
+    -728.55
+   ],
+   "centre": [
+    1911.5,
+    -728.6
+   ],
+   "width": 13.7,
+   "faces": 57,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1904.6,
+    -729.7,
+    1908.1,
+    -724.9,
+    1908.1,
+    -724.7,
+    1910.3,
+    -724.7,
+    1910.3,
+    -724.8,
+    1921.8,
+    -732.3,
+    1917.1,
+    -739.1
+   ],
+   "id": "reginald-warnefordstraat-57-10",
+   "latLon": [
+    51.058645,
+    3.745669
+   ],
+   "photos": [
+    {
+     "id": "29924162100563498-9",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28209,
+   "at": [
+    1926.3,
+    -735.25
+   ],
+   "centre": [
+    1923.9,
+    -739.8
+   ],
+   "width": 10.8,
+   "faces": 57,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 4,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1917.1,
+    -739.1,
+    1921.8,
+    -732.3,
+    1930.8,
+    -738.2,
+    1925.8,
+    -745.5,
+    1923.9,
+    -743.8
+   ],
+   "id": "reginald-warnefordstraat-57-11",
+   "latLon": [
+    51.058694,
+    3.745786
+   ],
+   "photos": [
+    {
+     "id": "515240294911653-334",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.987
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28243,
+   "at": [
+    1934.6,
+    -740.7
+   ],
+   "centre": [
+    1932,
+    -744.5
+   ],
+   "width": 9.1,
+   "faces": 57,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1925.8,
+    -745.5,
+    1930.8,
+    -738.2,
+    1938.4,
+    -743.2,
+    1933.1,
+    -751.1
+   ],
+   "id": "reginald-warnefordstraat-57-12",
+   "latLon": [
+    51.058733,
+    3.745881
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28203,
+   "at": [
+    1941.45,
+    -745.2
+   ],
+   "centre": [
+    1938.7,
+    -749.4
+   ],
+   "width": 7.3,
+   "faces": 57,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1933.1,
+    -751.1,
+    1938.4,
+    -743.2,
+    1944.5,
+    -747.2,
+    1941.2,
+    -751.8,
+    1938.5,
+    -749.8,
+    1936.3,
+    -753.3
+   ],
+   "id": "reginald-warnefordstraat-57-13",
+   "latLon": [
+    51.058766,
+    3.745959
+   ],
+   "photos": [
+    {
+     "id": "1208964050532786-346",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.814
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28234,
+   "at": [
+    1946.65,
+    -748.6
+   ],
+   "centre": [
+    1940.3,
+    -757.4
+   ],
+   "width": 5.1,
+   "faces": 57,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1931.7,
+    -765.3,
+    1938.8,
+    -755.3,
+    1941.2,
+    -751.8,
+    1944.5,
+    -747.2,
+    1948.8,
+    -750,
+    1940,
+    -763.8,
+    1936.9,
+    -768.7
+   ],
+   "id": "reginald-warnefordstraat-57-14",
+   "latLon": [
+    51.05879,
+    3.746019
+   ],
+   "photos": [
+    {
+     "id": "29845287588453256-301",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.427,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28217,
+   "at": [
+    1950.9499999999998,
+    -751.4
+   ],
+   "centre": [
+    1946.5,
+    -758.3
+   ],
+   "width": 5.1,
+   "faces": 57,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1940,
+    -763.8,
+    1948.8,
+    -750,
+    1953.1,
+    -752.8,
+    1944.3,
+    -766.6
+   ],
+   "id": "reginald-warnefordstraat-57-15",
+   "latLon": [
+    51.058811,
+    3.746068
+   ],
+   "photos": [
+    {
+     "id": "29845287588453256-321",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.405,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28241,
+   "at": [
+    1959.85,
+    -757.1500000000001
+   ],
+   "centre": [
+    1951.5,
+    -770
+   ],
+   "width": 5.6,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1945.3,
+    -775.4,
+    1946.4,
+    -773.7,
+    1957.5,
+    -755.6,
+    1962.2,
+    -758.7,
+    1951.8,
+    -775.5,
+    1949.4,
+    -773.9,
+    1947.6,
+    -776.9
+   ],
+   "id": "reginald-warnefordstraat-57-16",
+   "latLon": [
+    51.058852,
+    3.74617
+   ],
+   "photos": [
+    {
+     "id": "29845287588453256-1",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.418,
+      0.562
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28178,
+   "at": [
+    1964.5,
+    -760.2
+   ],
+   "centre": [
+    1956.8,
+    -774.3
+   ],
+   "width": 5.5,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1951.8,
+    -775.5,
+    1962.2,
+    -758.7,
+    1966.8,
+    -761.7,
+    1955,
+    -780.7,
+    1954.7,
+    -780.5,
+    1954.9,
+    -780,
+    1954.1,
+    -779.4,
+    1955.1,
+    -777.6
+   ],
+   "id": "reginald-warnefordstraat-57-17",
+   "latLon": [
+    51.058874,
+    3.746223
+   ],
+   "photos": [
+    {
+     "id": "4260565294221460-308",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.414,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28184,
+   "at": [
+    1969.4499999999998,
+    -763.4000000000001
+   ],
+   "centre": [
+    1962,
+    -775.3
+   ],
+   "width": 6.3,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1955,
+    -780.7,
+    1966.8,
+    -761.7,
+    1972.1,
+    -765.1,
+    1961.6,
+    -782,
+    1959,
+    -780.2,
+    1957.6,
+    -782.3
+   ],
+   "id": "reginald-warnefordstraat-57-18",
+   "latLon": [
+    51.058897,
+    3.746279
+   ],
+   "photos": [
+    {
+     "id": "4260565294221460-333",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.38,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28248,
+   "at": [
+    1979.15,
+    -769.75
+   ],
+   "centre": [
+    1973.4,
+    -778.6
+   ],
+   "width": 5.6,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1965.2,
+    -785.8,
+    1976.8,
+    -768.2,
+    1981.5,
+    -771.3,
+    1970,
+    -788.9
+   ],
+   "id": "reginald-warnefordstraat-57-19",
+   "latLon": [
+    51.058943,
+    3.74639
+   ],
+   "photos": [
+    {
+     "id": "1452172442450783-309",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.408,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28216,
+   "at": [
+    1974.4499999999998,
+    -766.6500000000001
+   ],
+   "centre": [
+    1966.6,
+    -778.9
+   ],
+   "width": 5.6,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1959.9,
+    -784.8,
+    1961.6,
+    -782,
+    1972.1,
+    -765.1,
+    1976.8,
+    -768.2,
+    1965.2,
+    -785.8,
+    1964.1,
+    -787.5
+   ],
+   "id": "reginald-warnefordstraat-57-20",
+   "latLon": [
+    51.058921,
+    3.746336
+   ],
+   "photos": [
+    {
+     "id": "4260565294221460-356",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.414,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28189,
+   "at": [
+    1983.8,
+    -772.8
+   ],
+   "centre": [
+    1976.4,
+    -783.3
+   ],
+   "width": 5.5,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1969.7,
+    -789.3,
+    1970,
+    -788.9,
+    1981.5,
+    -771.3,
+    1986.1,
+    -774.3,
+    1974.6,
+    -792.8
+   ],
+   "id": "reginald-warnefordstraat-57-21",
+   "latLon": [
+    51.058965,
+    3.746443
+   ],
+   "photos": [
+    {
+     "id": "1452172442450783-333",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.397,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28181,
+   "at": [
+    1988.75,
+    -776.05
+   ],
+   "centre": [
+    1981,
+    -788.6
+   ],
+   "width": 6.4,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1973.9,
+    -793.9,
+    1974.6,
+    -792.8,
+    1986.1,
+    -774.3,
+    1991.4,
+    -777.8,
+    1980.5,
+    -795.3,
+    1979.3,
+    -797.4
+   ],
+   "id": "reginald-warnefordstraat-57-22",
+   "latLon": [
+    51.058989,
+    3.7465
+   ],
+   "photos": [
+    {
+     "id": "1452172442450783-357",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.396,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40564,
+   "at": [
+    1999.1999999999998,
+    -782.9000000000001
+   ],
+   "centre": [
+    1993.9,
+    -791.3
+   ],
+   "width": 6.2,
+   "faces": 57,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1986,
+    -798,
+    1996.6,
+    -781.2,
+    2001.8,
+    -784.6,
+    1991.3,
+    -801.2
+   ],
+   "id": "reginald-warnefordstraat-57-23",
+   "latLon": [
+    51.059038,
+    3.746619
+   ],
+   "photos": [
+    {
+     "id": "4383700165192017-337",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.379,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28201,
+   "at": [
+    2023.4,
+    -798.65
+   ],
+   "centre": [
+    2015.4,
+    -811.6
+   ],
+   "width": 6,
+   "faces": 57,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    2008.8,
+    -815.5,
+    2020.9,
+    -797,
+    2025.9,
+    -800.3,
+    2014.8,
+    -817.9,
+    2014.4,
+    -817.7,
+    2011.8,
+    -815.9,
+    2010.9,
+    -817.1
+   ],
+   "id": "reginald-warnefordstraat-57-24",
+   "latLon": [
+    51.059152,
+    3.746896
+   ],
+   "photos": [
+    {
+     "id": "1059473699033763-306",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.397,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28231,
+   "at": [
+    2034.9,
+    -806.05
+   ],
+   "centre": [
+    2026.4,
+    -818.8
+   ],
+   "width": 6.7,
+   "faces": 57,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.8,
+   "kind": "house",
+   "ring": [
+    2017.4,
+    -827.6,
+    2025.6,
+    -814.6,
+    2032.1,
+    -804.2,
+    2037.7,
+    -807.9,
+    2027.1,
+    -824.7,
+    2024.5,
+    -823.2,
+    2020.7,
+    -829.5
+   ],
+   "id": "reginald-warnefordstraat-57-25",
+   "latLon": [
+    51.059206,
+    3.747028
+   ],
+   "photos": [
+    {
+     "id": "30273129165618856-290",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.415,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28191,
+   "at": [
+    2040.4,
+    -809.65
+   ],
+   "centre": [
+    2032.8,
+    -821.1
+   ],
+   "width": 6.4,
+   "faces": 57,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2024.2,
+    -829.3,
+    2027.1,
+    -824.7,
+    2037.7,
+    -807.9,
+    2043.1,
+    -811.4,
+    2036.5,
+    -822.2,
+    2034,
+    -820.7,
+    2027.3,
+    -831.5
+   ],
+   "id": "reginald-warnefordstraat-57-26",
+   "latLon": [
+    51.059232,
+    3.74709
+   ],
+   "photos": [
+    {
+     "id": "30273129165618856-317",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.37,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28246,
+   "at": [
+    2062.8500000000004,
+    -824.35
+   ],
+   "centre": [
+    2057.3,
+    -830.3
+   ],
+   "width": 6.1,
+   "faces": 57,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    2050.8,
+    -836.4,
+    2051.8,
+    -834.8,
+    2059.3,
+    -822.1,
+    2060.3,
+    -822.7,
+    2065.4,
+    -826,
+    2056.5,
+    -840
+   ],
+   "id": "reginald-warnefordstraat-57-27",
+   "latLon": [
+    51.059338,
+    3.747347
+   ],
+   "photos": [
+    {
+     "id": "699526179508054-294",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.416,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28174,
+   "at": [
+    2068.75,
+    -828.2
+   ],
+   "centre": [
+    2060,
+    -842.5
+   ],
+   "width": 8,
+   "faces": 57,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    2053.7,
+    -844.3,
+    2056.5,
+    -840,
+    2065.4,
+    -826,
+    2072.1,
+    -830.4,
+    2064.2,
+    -843.1,
+    2061,
+    -848.1,
+    2057.4,
+    -853.8,
+    2053.9,
+    -851.6,
+    2055.4,
+    -845.5
+   ],
+   "id": "reginald-warnefordstraat-57-28",
+   "latLon": [
+    51.059366,
+    3.747415
+   ],
+   "photos": [
+    {
+     "id": "699526179508054-328",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.314,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28926,
+   "at": [
+    2085.1000000000004,
+    -837.95
+   ],
+   "centre": [
+    2079.8,
+    -847.6
+   ],
+   "width": 28,
+   "faces": 57,
+   "toStreet": 5.8,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    2089,
+    -859.5,
+    2085.5,
+    -857,
+    2082.1,
+    -854.6,
+    2081.2,
+    -855.9,
+    2078.7,
+    -854.4,
+    2079.7,
+    -853.2,
+    2078.7,
+    -852.6,
+    2073.8,
+    -849.4,
+    2072.9,
+    -850.3,
+    2070.6,
+    -849,
+    2071.2,
+    -847.8,
+    2064.2,
+    -843.1,
+    2072.1,
+    -830.4,
+    2072.9,
+    -831,
+    2073.4,
+    -830.3,
+    2096.8,
+    -845.6,
+    2096.3,
+    -846.2,
+    2097.3,
+    -846.9
+   ],
+   "id": "reginald-warnefordstraat-57-29",
+   "latLon": [
+    51.059437,
+    3.747601
+   ],
+   "photos": [
+    {
+     "id": "671125919077531-346",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.945
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28937,
+   "at": [
+    2102.5,
+    -850.25
+   ],
+   "centre": [
+    2096,
+    -863.2
+   ],
+   "width": 12.4,
+   "faces": 57,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2082.7,
+    -868.9,
+    2089,
+    -859.5,
+    2097.3,
+    -846.9,
+    2107.7,
+    -853.6,
+    2112,
+    -856.4,
+    2105.2,
+    -867.4,
+    2101.2,
+    -864.6,
+    2097.8,
+    -862.2,
+    2097.3,
+    -861.8,
+    2095.9,
+    -864.3,
+    2095.1,
+    -865.7,
+    2093.8,
+    -864.9,
+    2093.1,
+    -864.4,
+    2092.2,
+    -865.9,
+    2088.4,
+    -871.8,
+    2088,
+    -872.4
+   ],
+   "id": "reginald-warnefordstraat-57-30",
+   "latLon": [
+    51.059526,
+    3.7478
+   ],
+   "photos": [
+    {
+     "id": "1350571709369722-298",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.324,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28928,
+   "at": [
+    2114.75,
+    -858.2
+   ],
+   "centre": [
+    2109.3,
+    -866.9
+   ],
+   "width": 6.6,
+   "faces": 57,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    2103.2,
+    -870.8,
+    2105.2,
+    -867.4,
+    2112,
+    -856.4,
+    2117.5,
+    -860,
+    2109.2,
+    -873,
+    2108.6,
+    -874
+   ],
+   "id": "reginald-warnefordstraat-57-31",
+   "latLon": [
+    51.059583,
+    3.74794
+   ],
+   "photos": [
+    {
+     "id": "1724640051475284-293",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.408,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28943,
+   "at": [
+    2120.6,
+    -862
+   ],
+   "centre": [
+    2114.8,
+    -870.7
+   ],
+   "width": 7.4,
+   "faces": 57,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    2109.2,
+    -873,
+    2117.5,
+    -860,
+    2123.7,
+    -864,
+    2115.8,
+    -875,
+    2114.3,
+    -874.1,
+    2113.3,
+    -875.5,
+    2109.9,
+    -873.4
+   ],
+   "id": "reginald-warnefordstraat-57-32",
+   "latLon": [
+    51.059611,
+    3.748007
+   ],
+   "photos": [
+    {
+     "id": "1724640051475284-326",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.326,
+      0.669
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28932,
+   "at": [
+    2134.25,
+    -870.75
+   ],
+   "centre": [
+    2127.6,
+    -876.1
+   ],
+   "width": 12,
+   "faces": 57,
+   "toStreet": 6.3,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": 19.2,
+   "kind": "house",
+   "ring": [
+    2118.4,
+    -884.1,
+    2119.9,
+    -881.7,
+    2128.6,
+    -867.3,
+    2129.2,
+    -867.6,
+    2129.2,
+    -867.5,
+    2139.3,
+    -874,
+    2128.5,
+    -890.6
+   ],
+   "id": "reginald-warnefordstraat-57-33",
+   "latLon": [
+    51.059674,
+    3.748163
+   ],
+   "photos": [
+    {
+     "id": "1684238782228919-330",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.215,
+      0.776
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28186,
+   "at": [
+    1955.3,
+    -754.2
+   ],
+   "centre": [
+    1948.6,
+    -763.9
+   ],
+   "width": 5.2,
+   "faces": 58,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1941.6,
+    -770.7,
+    1944.3,
+    -766.6,
+    1953.1,
+    -752.8,
+    1957.5,
+    -755.6,
+    1946.4,
+    -773.7
+   ],
+   "id": "reginald-warnefordstraat-58-34",
+   "latLon": [
+    51.058831,
+    3.746118
+   ],
+   "photos": [
+    {
+     "id": "29845287588453256-342",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.406,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28227,
+   "at": [
+    2008.9,
+    -789
+   ],
+   "centre": [
+    2000.3,
+    -801.8
+   ],
+   "width": 5.7,
+   "faces": 58,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1994,
+    -807.4,
+    1998,
+    -801.1,
+    2006.5,
+    -787.5,
+    2011.3,
+    -790.5,
+    1998.8,
+    -809.3,
+    1996.9,
+    -808,
+    1996.4,
+    -809.1
+   ],
+   "id": "reginald-warnefordstraat-58-35",
+   "latLon": [
+    51.059083,
+    3.74673
+   ],
+   "photos": [
+    {
+     "id": "1061142422564805-308",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.401,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28194,
+   "at": [
+    2004.15,
+    -786.05
+   ],
+   "centre": [
+    1996.4,
+    -797.5
+   ],
+   "width": 5.5,
+   "faces": 58,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1989.7,
+    -803.8,
+    1991.3,
+    -801.2,
+    2001.8,
+    -784.6,
+    2006.5,
+    -787.5,
+    1998,
+    -801.1,
+    1995.5,
+    -799.4,
+    1991.9,
+    -805.1
+   ],
+   "id": "reginald-warnefordstraat-58-36",
+   "latLon": [
+    51.059061,
+    3.746676
+   ],
+   "photos": [
+    {
+     "id": "4383700165192017-0",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.417,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28244,
+   "at": [
+    2014.35,
+    -792.6500000000001
+   ],
+   "centre": [
+    2005.6,
+    -803.6
+   ],
+   "width": 3.9,
+   "faces": 58,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1998.2,
+    -810.3,
+    1998.8,
+    -809.3,
+    2011.3,
+    -790.5,
+    2012.8,
+    -791.5,
+    2012.7,
+    -791.6,
+    2016,
+    -793.7,
+    2006.7,
+    -808,
+    2005.6,
+    -807.4,
+    2001.4,
+    -813.8,
+    1999,
+    -812.5,
+    1999.1,
+    -811
+   ],
+   "id": "reginald-warnefordstraat-58-37",
+   "latLon": [
+    51.059109,
+    3.746793
+   ],
+   "photos": [
+    {
+     "id": "1061142422564805-339",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.414,
+      0.57
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28240,
+   "at": [
+    2029,
+    -802.25
+   ],
+   "centre": [
+    2021.5,
+    -813.1
+   ],
+   "width": 7.3,
+   "faces": 58,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2013.3,
+    -820.2,
+    2014.8,
+    -817.9,
+    2025.9,
+    -800.3,
+    2032.1,
+    -804.2,
+    2025.6,
+    -814.6,
+    2022.5,
+    -812.7,
+    2016.6,
+    -822.1
+   ],
+   "id": "reginald-warnefordstraat-58-38",
+   "latLon": [
+    51.059178,
+    3.74696
+   ],
+   "photos": [
+    {
+     "id": "1059473699033763-337",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.345,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28211,
+   "at": [
+    2051.35,
+    -816.85
+   ],
+   "centre": [
+    2043.1,
+    -830.4
+   ],
+   "width": 6.5,
+   "faces": 58,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 18.6,
+   "kind": "house",
+   "ring": [
+    2033.3,
+    -838.8,
+    2034.8,
+    -836.5,
+    2048.6,
+    -815.1,
+    2054.1,
+    -818.6,
+    2047.5,
+    -829.3,
+    2043.8,
+    -826.8,
+    2042.9,
+    -828.2,
+    2044.2,
+    -829,
+    2041.4,
+    -833.5,
+    2043.9,
+    -835.2,
+    2039.1,
+    -842.9
+   ],
+   "id": "reginald-warnefordstraat-58-39",
+   "latLon": [
+    51.059284,
+    3.747216
+   ],
+   "photos": [
+    {
+     "id": "1623547704977699-301",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.391,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28266,
+   "at": [
+    1819.6,
+    -673.8
+   ],
+   "centre": [
+    1817.4,
+    -677.5
+   ],
+   "width": 4.3,
+   "faces": 62,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1813.3,
+    -679.9,
+    1817.7,
+    -672.8,
+    1821.5,
+    -674.8,
+    1817.2,
+    -682.7
+   ],
+   "id": "reginald-warnefordstraat-62-40",
+   "latLon": [
+    51.058249,
+    3.744566
+   ],
+   "photos": [
+    {
+     "id": "691937469607860",
+     "metres": 36,
+     "off": 6,
+     "span": [
+      0.549,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28264,
+   "at": [
+    1825.35,
+    -676.8499999999999
+   ],
+   "centre": [
+    1823.8,
+    -681.4
+   ],
+   "width": 8.7,
+   "faces": 62,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1817.2,
+    -682.7,
+    1821.5,
+    -674.8,
+    1829.2,
+    -678.9,
+    1826.9,
+    -682.9,
+    1824.2,
+    -687.7
+   ],
+   "id": "reginald-warnefordstraat-62-41",
+   "latLon": [
+    51.058271,
+    3.744632
+   ],
+   "photos": [
+    {
+     "id": "782822249916564",
+     "metres": 43,
+     "off": 1,
+     "span": [
+      0.456,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28258,
+   "at": [
+    1831.4,
+    -680.05
+   ],
+   "centre": [
+    1829.7,
+    -685.9
+   ],
+   "width": 5,
+   "faces": 62,
+   "toStreet": 4.2,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1824.2,
+    -687.7,
+    1826.9,
+    -682.9,
+    1829.2,
+    -678.9,
+    1833.6,
+    -681.2,
+    1837.6,
+    -683.4,
+    1832.1,
+    -693.4,
+    1828.6,
+    -690.9,
+    1825.3,
+    -688.6
+   ],
+   "id": "reginald-warnefordstraat-62-42",
+   "latLon": [
+    51.058294,
+    3.744701
+   ],
+   "photos": [
+    {
+     "id": "619481663219453",
+     "metres": 44,
+     "off": 20,
+     "span": [
+      0.736,
+      0.796
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28263,
+   "at": [
+    1841.5,
+    -685.5
+   ],
+   "centre": [
+    1835.7,
+    -697.1
+   ],
+   "width": 8.9,
+   "faces": 62,
+   "toStreet": 4.2,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1830,
+    -706.8,
+    1834.3,
+    -698.6,
+    1835.8,
+    -699.5,
+    1836.5,
+    -698,
+    1831.3,
+    -694.9,
+    1832.1,
+    -693.4,
+    1837.6,
+    -683.4,
+    1845.4,
+    -687.6,
+    1839.8,
+    -698.7,
+    1834.3,
+    -710.3
+   ],
+   "id": "reginald-warnefordstraat-62-43",
+   "latLon": [
+    51.058334,
+    3.744817
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28260,
+   "at": [
+    1847.7,
+    -688.8
+   ],
+   "centre": [
+    1843.9,
+    -700.3
+   ],
+   "width": 5.2,
+   "faces": 62,
+   "toStreet": 4.1,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1834.3,
+    -710.3,
+    1839.8,
+    -698.7,
+    1845.4,
+    -687.6,
+    1850,
+    -690,
+    1852.5,
+    -691.3,
+    1848.1,
+    -699.7,
+    1845.6,
+    -698.4,
+    1842.3,
+    -696.7,
+    1840.8,
+    -699.3,
+    1844,
+    -701.2,
+    1846.6,
+    -702.7,
+    1841.2,
+    -713.3,
+    1839.9,
+    -714.9
+   ],
+   "id": "reginald-warnefordstraat-62-44",
+   "latLon": [
+    51.058358,
+    3.744887
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28257,
+   "at": [
+    1854.95,
+    -692.5999999999999
+   ],
+   "centre": [
+    1848,
+    -705.5
+   ],
+   "width": 5.5,
+   "faces": 62,
+   "toStreet": 4,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1841.2,
+    -713.3,
+    1846.6,
+    -702.7,
+    1848.1,
+    -699.7,
+    1852.5,
+    -691.3,
+    1857.4,
+    -693.9,
+    1850.3,
+    -707.1,
+    1847.6,
+    -705.6,
+    1844.2,
+    -711.5,
+    1847,
+    -713.3,
+    1845.2,
+    -716.6
+   ],
+   "id": "reginald-warnefordstraat-62-45",
+   "latLon": [
+    51.058385,
+    3.74497
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28267,
+   "at": [
+    1860,
+    -695.35
+   ],
+   "centre": [
+    1854.4,
+    -704.4
+   ],
+   "width": 5,
+   "faces": 62,
+   "toStreet": 4,
+   "floors": 3,
+   "eaves": 10,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1847.8,
+    -711.8,
+    1850.3,
+    -707.1,
+    1857.4,
+    -693.9,
+    1857.8,
+    -694.2,
+    1862.2,
+    -696.5,
+    1853.2,
+    -713,
+    1852.3,
+    -714.5
+   ],
+   "id": "reginald-warnefordstraat-62-46",
+   "latLon": [
+    51.058405,
+    3.745028
+   ],
+   "photos": [
+    {
+     "id": "1808233719740954-342",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.136,
+      0.795
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28255,
+   "at": [
+    1869.3,
+    -700.2
+   ],
+   "centre": [
+    1862.7,
+    -714.6
+   ],
+   "width": 7.2,
+   "faces": 62,
+   "toStreet": 3.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1855.3,
+    -718.2,
+    1857,
+    -715.2,
+    1866.1,
+    -698.5,
+    1872.5,
+    -701.9,
+    1867.6,
+    -711.2,
+    1866.9,
+    -712.6,
+    1865.7,
+    -714.8,
+    1863.3,
+    -719.4,
+    1860.2,
+    -725.3,
+    1856.5,
+    -723.3,
+    1858.3,
+    -719.9
+   ],
+   "id": "reginald-warnefordstraat-62-47",
+   "latLon": [
+    51.05844,
+    3.745134
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28274,
+   "at": [
+    1875.25,
+    -703.3499999999999
+   ],
+   "centre": [
+    1870.3,
+    -712.5
+   ],
+   "width": 6.2,
+   "faces": 62,
+   "toStreet": 3.8,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1865.7,
+    -714.8,
+    1866.9,
+    -712.6,
+    1870.1,
+    -714.2,
+    1870.8,
+    -712.9,
+    1867.6,
+    -711.2,
+    1872.5,
+    -701.9,
+    1878,
+    -704.8,
+    1872,
+    -717,
+    1871.2,
+    -718.6,
+    1868.2,
+    -716.5
+   ],
+   "id": "reginald-warnefordstraat-62-48",
+   "latLon": [
+    51.058463,
+    3.745202
+   ],
+   "photos": [
+    {
+     "id": "1014311247571726-7",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28256,
+   "at": [
+    1881.05,
+    -706.4
+   ],
+   "centre": [
+    1876.1,
+    -714.9
+   ],
+   "width": 6.9,
+   "faces": 62,
+   "toStreet": 3.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1872,
+    -717,
+    1878,
+    -704.8,
+    1884.1,
+    -708,
+    1876.3,
+    -722.2,
+    1872.5,
+    -719.5,
+    1873.5,
+    -717.8
+   ],
+   "id": "reginald-warnefordstraat-62-49",
+   "latLon": [
+    51.058485,
+    3.745269
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28273,
+   "at": [
+    1886.6999999999998,
+    -709.4
+   ],
+   "centre": [
+    1883.1,
+    -718.6
+   ],
+   "width": 5.9,
+   "faces": 62,
+   "toStreet": 3.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1876.3,
+    -722.2,
+    1884.1,
+    -708,
+    1889.3,
+    -710.8,
+    1885.7,
+    -718.1,
+    1884.8,
+    -719.9,
+    1883.7,
+    -722,
+    1882.3,
+    -721.3,
+    1881.7,
+    -721,
+    1879.7,
+    -724.5
+   ],
+   "id": "reginald-warnefordstraat-62-50",
+   "latLon": [
+    51.058507,
+    3.745333
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28265,
+   "at": [
+    1894.55,
+    -713.65
+   ],
+   "centre": [
+    1894.4,
+    -717.2
+   ],
+   "width": 11.9,
+   "faces": 62,
+   "toStreet": 3.6,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1885.7,
+    -718.1,
+    1889.3,
+    -710.8,
+    1899.8,
+    -716.5,
+    1900.2,
+    -718.1,
+    1897.1,
+    -722.3
+   ],
+   "id": "reginald-warnefordstraat-62-51",
+   "latLon": [
+    51.058537,
+    3.745423
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28269,
+   "at": [
+    1864.15,
+    -697.5
+   ],
+   "centre": [
+    1859.6,
+    -705.8
+   ],
+   "width": 4.4,
+   "faces": 63,
+   "toStreet": 3.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1853.2,
+    -713,
+    1862.2,
+    -696.5,
+    1866.1,
+    -698.5,
+    1857,
+    -715.2
+   ],
+   "id": "reginald-warnefordstraat-63-52",
+   "latLon": [
+    51.058421,
+    3.745076
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28253,
+   "at": [
+    1888.7,
+    -724.5
+   ],
+   "centre": [
+    1887.2,
+    -726.6
+   ],
+   "width": 11.2,
+   "faces": 63,
+   "toStreet": 16,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1881.3,
+    -725.6,
+    1883.7,
+    -722,
+    1893.7,
+    -727,
+    1890.2,
+    -731.8
+   ],
+   "id": "reginald-warnefordstraat-63-53",
+   "latLon": [
+    51.058616,
+    3.745356
+   ],
+   "photos": [
+    {
+     "id": "1056719543076979-308",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.362,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28254,
+   "at": [
+    1891.4,
+    -720.2
+   ],
+   "centre": [
+    1889,
+    -721.9
+   ],
+   "width": 12.1,
+   "faces": 70,
+   "toStreet": 10.9,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1883.7,
+    -722,
+    1884.8,
+    -719.9,
+    1885.7,
+    -718.1,
+    1897.1,
+    -722.3,
+    1893.7,
+    -727
+   ],
+   "id": "reginald-warnefordstraat-70-01",
+   "latLon": [
+    51.058585,
+    3.745387
+   ],
+   "photos": [
+    {
+     "id": "1967504110659360-14",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.26,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28445,
+   "at": [
+    1943.5,
+    -731.7
+   ],
+   "centre": [
+    1952.1,
+    -720.3
+   ],
+   "width": 5,
+   "faces": 236,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1941.4,
+    -730.3,
+    1951.3,
+    -714.7,
+    1953.4,
+    -716.1,
+    1956.8,
+    -711.2,
+    1959.4,
+    -712.9,
+    1956.1,
+    -717.7,
+    1952.9,
+    -722.4,
+    1951.6,
+    -724.3,
+    1945.6,
+    -733.1
+   ],
+   "id": "reginald-warnefordstraat-236-01",
+   "latLon": [
+    51.058668,
+    3.745983
+   ],
+   "photos": [
+    {
+     "id": "1208964050532786-174",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.362,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28454,
+   "at": [
+    2053.05,
+    -803.0999999999999
+   ],
+   "centre": [
+    2057.9,
+    -795.7
+   ],
+   "width": 6.1,
+   "faces": 236,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    2050.5,
+    -801.4,
+    2060,
+    -786.6,
+    2065.6,
+    -790,
+    2055.6,
+    -804.8
+   ],
+   "id": "reginald-warnefordstraat-236-02",
+   "latLon": [
+    51.059185,
+    3.747235
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28954,
+   "at": [
+    2085.6,
+    -824.2
+   ],
+   "centre": [
+    2095.6,
+    -809.4
+   ],
+   "width": 5.8,
+   "faces": 236,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    2083.2,
+    -822.6,
+    2093.8,
+    -806.3,
+    2095.3,
+    -804,
+    2098.5,
+    -805.9,
+    2101.6,
+    -801.8,
+    2103.4,
+    -802.9,
+    2101.3,
+    -806,
+    2088,
+    -825.8
+   ],
+   "id": "reginald-warnefordstraat-236-03",
+   "latLon": [
+    51.059337,
+    3.747607
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28447,
+   "at": [
+    1929.9499999999998,
+    -722.9
+   ],
+   "centre": [
+    1936.5,
+    -711.5
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1927.6,
+    -721.4,
+    1933.2,
+    -713,
+    1935.4,
+    -709.7,
+    1936.6,
+    -708,
+    1938.9,
+    -704.5,
+    1940,
+    -705.3,
+    1939.6,
+    -705.8,
+    1942.8,
+    -708,
+    1938.4,
+    -714.9,
+    1932.3,
+    -724.4
+   ],
+   "id": "reginald-warnefordstraat-237-04",
+   "latLon": [
+    51.058604,
+    3.745828
+   ],
+   "photos": [
+    {
+     "id": "515240294911653-169",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.325,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28489,
+   "at": [
+    1934.6,
+    -725.9
+   ],
+   "centre": [
+    1940.7,
+    -715.1
+   ],
+   "width": 5.5,
+   "faces": 237,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1932.3,
+    -724.4,
+    1938.4,
+    -714.9,
+    1939.1,
+    -715.3,
+    1939.9,
+    -714.3,
+    1940.5,
+    -714.5,
+    1941.4,
+    -713.2,
+    1942,
+    -713.5,
+    1947,
+    -705.8,
+    1949.9,
+    -707.5,
+    1936.9,
+    -727.4
+   ],
+   "id": "reginald-warnefordstraat-237-05",
+   "latLon": [
+    51.058626,
+    3.745881
+   ],
+   "photos": [
+    {
+     "id": "515240294911653-130",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.348,
+      0.68
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28476,
+   "at": [
+    1939.15,
+    -728.8499999999999
+   ],
+   "centre": [
+    1947.4,
+    -716.2
+   ],
+   "width": 5.4,
+   "faces": 237,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1936.9,
+    -727.4,
+    1949.9,
+    -707.5,
+    1950.3,
+    -707.1,
+    1954.3,
+    -709.9,
+    1951.3,
+    -714.7,
+    1941.4,
+    -730.3
+   ],
+   "id": "reginald-warnefordstraat-237-06",
+   "latLon": [
+    51.058647,
+    3.745933
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28504,
+   "at": [
+    1948.05,
+    -734.7
+   ],
+   "centre": [
+    1951.9,
+    -729.6
+   ],
+   "width": 5.9,
+   "faces": 237,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1945.6,
+    -733.1,
+    1951.6,
+    -724.3,
+    1955.4,
+    -726.9,
+    1956.3,
+    -727.5,
+    1950.5,
+    -736.3
+   ],
+   "id": "reginald-warnefordstraat-237-07",
+   "latLon": [
+    51.05869,
+    3.746035
+   ],
+   "photos": [
+    {
+     "id": "1208964050532786-138",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.34,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28468,
+   "at": [
+    1952.75,
+    -737.75
+   ],
+   "centre": [
+    1959.2,
+    -728.5
+   ],
+   "width": 5.4,
+   "faces": 237,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1950.5,
+    -736.3,
+    1956.3,
+    -727.5,
+    1956.7,
+    -726.9,
+    1959.7,
+    -728.8,
+    1959.6,
+    -726.7,
+    1964.5,
+    -719.5,
+    1967,
+    -721.3,
+    1962.1,
+    -728.6,
+    1960.8,
+    -730.5,
+    1955,
+    -739.2
+   ],
+   "id": "reginald-warnefordstraat-237-08",
+   "latLon": [
+    51.058712,
+    3.746088
+   ],
+   "photos": [
+    {
+     "id": "1208964050532786-108",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.412,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28438,
+   "at": [
+    1961.85,
+    -743.6500000000001
+   ],
+   "centre": [
+    1968.4,
+    -732.3
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1959.5,
+    -742.1,
+    1965.4,
+    -733.5,
+    1971.5,
+    -724.6,
+    1972.6,
+    -722.9,
+    1977.3,
+    -725.6,
+    1964.2,
+    -745.2
+   ],
+   "id": "reginald-warnefordstraat-237-09",
+   "latLon": [
+    51.058755,
+    3.746192
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28483,
+   "at": [
+    1957.25,
+    -740.6500000000001
+   ],
+   "centre": [
+    1961,
+    -735.6
+   ],
+   "width": 5.4,
+   "faces": 237,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1955,
+    -739.2,
+    1960.8,
+    -730.5,
+    1964.5,
+    -732.9,
+    1965.4,
+    -733.5,
+    1959.5,
+    -742.1
+   ],
+   "id": "reginald-warnefordstraat-237-10",
+   "latLon": [
+    51.058733,
+    3.74614
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28469,
+   "at": [
+    1966.35,
+    -746.6
+   ],
+   "centre": [
+    1975.6,
+    -732.2
+   ],
+   "width": 5.1,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1964.2,
+    -745.2,
+    1977.3,
+    -725.6,
+    1977.9,
+    -725.9,
+    1979.2,
+    -726.7,
+    1979.7,
+    -726.1,
+    1982.5,
+    -728,
+    1968.5,
+    -748
+   ],
+   "id": "reginald-warnefordstraat-237-11",
+   "latLon": [
+    51.058776,
+    3.746244
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28437,
+   "at": [
+    1971,
+    -749.65
+   ],
+   "centre": [
+    1980,
+    -738.4
+   ],
+   "width": 6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1968.5,
+    -748,
+    1982.5,
+    -728,
+    1987.3,
+    -731.3,
+    1985.3,
+    -734.4,
+    1983.1,
+    -737.5,
+    1973.5,
+    -751.3
+   ],
+   "id": "reginald-warnefordstraat-237-12",
+   "latLon": [
+    51.058798,
+    3.746297
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28433,
+   "at": [
+    1985.35,
+    -758.95
+   ],
+   "centre": [
+    1990.6,
+    -750
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1983,
+    -757.4,
+    1988.9,
+    -748.4,
+    1994.2,
+    -740.3,
+    1999.4,
+    -743.2,
+    1987.7,
+    -760.5
+   ],
+   "id": "reginald-warnefordstraat-237-13",
+   "latLon": [
+    51.058865,
+    3.746461
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28450,
+   "at": [
+    1980.7,
+    -755.9
+   ],
+   "centre": [
+    1986.5,
+    -746.7
+   ],
+   "width": 5.5,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1978.4,
+    -754.4,
+    1987.5,
+    -740.4,
+    1988.7,
+    -738.7,
+    1991.4,
+    -740.4,
+    1987.3,
+    -747.2,
+    1988.9,
+    -748.4,
+    1983,
+    -757.4
+   ],
+   "id": "reginald-warnefordstraat-237-14",
+   "latLon": [
+    51.058843,
+    3.746408
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28485,
+   "at": [
+    1990.0500000000002,
+    -762.05
+   ],
+   "centre": [
+    1997.2,
+    -751.8
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1987.7,
+    -760.5,
+    1999.4,
+    -743.2,
+    2002.1,
+    -744.8,
+    1999.8,
+    -748.6,
+    2001.6,
+    -749.8,
+    1992.4,
+    -763.6
+   ],
+   "id": "reginald-warnefordstraat-237-15",
+   "latLon": [
+    51.058888,
+    3.746515
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28466,
+   "at": [
+    1994.75,
+    -765.1500000000001
+   ],
+   "centre": [
+    2000.2,
+    -755.9
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1992.4,
+    -763.6,
+    2001.6,
+    -749.8,
+    2002.6,
+    -748.2,
+    2007.1,
+    -751.1,
+    1997.1,
+    -766.7
+   ],
+   "id": "reginald-warnefordstraat-237-16",
+   "latLon": [
+    51.05891,
+    3.746569
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28432,
+   "at": [
+    1999.4499999999998,
+    -768.2
+   ],
+   "centre": [
+    2006.8,
+    -756.4
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1997.1,
+    -766.7,
+    2007.1,
+    -751.1,
+    2010,
+    -746.4,
+    2013,
+    -748.3,
+    2008.3,
+    -755.7,
+    2010.2,
+    -757,
+    2001.8,
+    -769.7
+   ],
+   "id": "reginald-warnefordstraat-237-17",
+   "latLon": [
+    51.058932,
+    3.746622
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28449,
+   "at": [
+    2008.9,
+    -774.3499999999999
+   ],
+   "centre": [
+    2015.5,
+    -763.9
+   ],
+   "width": 5.7,
+   "faces": 237,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    2006.5,
+    -772.8,
+    2016.7,
+    -757.8,
+    2017.3,
+    -758.2,
+    2019,
+    -759.4,
+    2018,
+    -760.8,
+    2020,
+    -762.1,
+    2011.3,
+    -775.9
+   ],
+   "id": "reginald-warnefordstraat-237-18",
+   "latLon": [
+    51.058977,
+    3.74673
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28493,
+   "at": [
+    2004.15,
+    -771.25
+   ],
+   "centre": [
+    2013.1,
+    -758.7
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    2001.8,
+    -769.7,
+    2010.2,
+    -757,
+    2014.9,
+    -750,
+    2017.8,
+    -752,
+    2015.4,
+    -755.5,
+    2017,
+    -756.5,
+    2017.4,
+    -756.7,
+    2016.7,
+    -757.8,
+    2006.5,
+    -772.8
+   ],
+   "id": "reginald-warnefordstraat-237-19",
+   "latLon": [
+    51.058954,
+    3.746676
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28442,
+   "at": [
+    2018.3000000000002,
+    -780.3499999999999
+   ],
+   "centre": [
+    2023.5,
+    -771.9
+   ],
+   "width": 5.7,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    2015.9,
+    -778.8,
+    2025.1,
+    -765.1,
+    2025.7,
+    -765.4,
+    2030.3,
+    -768.2,
+    2020.7,
+    -781.9
+   ],
+   "id": "reginald-warnefordstraat-237-20",
+   "latLon": [
+    51.05902,
+    3.746838
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28467,
+   "at": [
+    2027.9,
+    -786.65
+   ],
+   "centre": [
+    2033.1,
+    -778.9
+   ],
+   "width": 6,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    2025.4,
+    -785,
+    2035.8,
+    -769.6,
+    2040.9,
+    -772.7,
+    2030.4,
+    -788.3
+   ],
+   "id": "reginald-warnefordstraat-237-21",
+   "latLon": [
+    51.059066,
+    3.746948
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28473,
+   "at": [
+    2023.0500000000002,
+    -783.45
+   ],
+   "centre": [
+    2030.4,
+    -772.1
+   ],
+   "width": 5.6,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    2020.7,
+    -781.9,
+    2030.3,
+    -768.2,
+    2032,
+    -765.7,
+    2032.4,
+    -765.9,
+    2036.1,
+    -768.4,
+    2035.8,
+    -769.6,
+    2025.4,
+    -785
+   ],
+   "id": "reginald-warnefordstraat-237-22",
+   "latLon": [
+    51.059042,
+    3.746892
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28501,
+   "at": [
+    2033.0500000000002,
+    -790.05
+   ],
+   "centre": [
+    2040.6,
+    -778.8
+   ],
+   "width": 6.4,
+   "faces": 237,
+   "toStreet": 5.8,
+   "floors": 4,
+   "eaves": 14,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    2030.4,
+    -788.3,
+    2040.9,
+    -772.7,
+    2042.9,
+    -769.8,
+    2048.1,
+    -773,
+    2045.6,
+    -777.1,
+    2035.7,
+    -791.8
+   ],
+   "id": "reginald-warnefordstraat-237-23",
+   "latLon": [
+    51.05909,
+    3.747006
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28446,
+   "at": [
+    2042.75,
+    -796.3
+   ],
+   "centre": [
+    2051,
+    -784.2
+   ],
+   "width": 5.9,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    2040.3,
+    -794.7,
+    2051.7,
+    -778.5,
+    2053.3,
+    -776.3,
+    2057.8,
+    -778.8,
+    2057.6,
+    -779.2,
+    2045.2,
+    -797.9
+   ],
+   "id": "reginald-warnefordstraat-237-24",
+   "latLon": [
+    51.059135,
+    3.747117
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28430,
+   "at": [
+    2047.85,
+    -799.65
+   ],
+   "centre": [
+    2055.2,
+    -789.5
+   ],
+   "width": 6.4,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    2045.2,
+    -797.9,
+    2057.6,
+    -779.2,
+    2062.8,
+    -782.3,
+    2060,
+    -786.6,
+    2050.5,
+    -801.4
+   ],
+   "id": "reginald-warnefordstraat-237-25",
+   "latLon": [
+    51.05916,
+    3.747176
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28444,
+   "at": [
+    2063.3,
+    -809.75
+   ],
+   "centre": [
+    2070.2,
+    -799.1
+   ],
+   "width": 5.7,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    2060.9,
+    -808.2,
+    2071.2,
+    -793.2,
+    2073.1,
+    -794.3,
+    2073.9,
+    -793,
+    2076.5,
+    -794.7,
+    2065.7,
+    -811.3
+   ],
+   "id": "reginald-warnefordstraat-237-26",
+   "latLon": [
+    51.059233,
+    3.747352
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28488,
+   "at": [
+    2058.25,
+    -806.5
+   ],
+   "centre": [
+    2066.4,
+    -795.1
+   ],
+   "width": 6.3,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    2055.6,
+    -804.8,
+    2065.6,
+    -790,
+    2066.5,
+    -788.7,
+    2070.5,
+    -790.9,
+    2069.8,
+    -792,
+    2071.3,
+    -792.9,
+    2071.2,
+    -793.2,
+    2060.9,
+    -808.2
+   ],
+   "id": "reginald-warnefordstraat-237-27",
+   "latLon": [
+    51.059209,
+    3.747295
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28959,
+   "at": [
+    2068.3,
+    -813
+   ],
+   "centre": [
+    2076.2,
+    -800.4
+   ],
+   "width": 6.2,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    2065.7,
+    -811.3,
+    2076.5,
+    -794.7,
+    2078.4,
+    -791.7,
+    2081.9,
+    -793.8,
+    2079,
+    -797.8,
+    2081.1,
+    -799.1,
+    2070.9,
+    -814.7
+   ],
+   "id": "reginald-warnefordstraat-237-28",
+   "latLon": [
+    51.059256,
+    3.747409
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28949,
+   "at": [
+    2073.5,
+    -816.4000000000001
+   ],
+   "centre": [
+    2079.5,
+    -806.2
+   ],
+   "width": 6.2,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    2070.9,
+    -814.7,
+    2081.1,
+    -799.1,
+    2081.9,
+    -797.9,
+    2087.3,
+    -801.4,
+    2076.1,
+    -818.1
+   ],
+   "id": "reginald-warnefordstraat-237-29",
+   "latLon": [
+    51.059281,
+    3.747469
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28961,
+   "at": [
+    2090.45,
+    -827.4
+   ],
+   "centre": [
+    2099.7,
+    -813.8
+   ],
+   "width": 5.9,
+   "faces": 237,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    2088,
+    -825.8,
+    2101.3,
+    -806,
+    2104.3,
+    -807.6,
+    2104.8,
+    -806.7,
+    2106.7,
+    -807.8,
+    2092.9,
+    -829
+   ],
+   "id": "reginald-warnefordstraat-237-30",
+   "latLon": [
+    51.05936,
+    3.747663
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28948,
+   "at": [
+    2099.1000000000004,
+    -833.1
+   ],
+   "centre": [
+    2114.6,
+    -810.3
+   ],
+   "width": 14.9,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2092.9,
+    -829,
+    2106.7,
+    -807.8,
+    2111.7,
+    -800.1,
+    2113.9,
+    -796.6,
+    2119.6,
+    -799.7,
+    2120.4,
+    -798.4,
+    2128.8,
+    -801.7,
+    2127.8,
+    -803,
+    2119.7,
+    -815.3,
+    2113.9,
+    -824.2,
+    2105.3,
+    -837.2
+   ],
+   "id": "reginald-warnefordstraat-237-31",
+   "latLon": [
+    51.059402,
+    3.747762
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28958,
+   "at": [
+    2108.1000000000004,
+    -839.05
+   ],
+   "centre": [
+    2114.6,
+    -830.2
+   ],
+   "width": 6.7,
+   "faces": 237,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    2105.3,
+    -837.2,
+    2113.9,
+    -824.2,
+    2116.6,
+    -826.1,
+    2117.2,
+    -825.2,
+    2120.4,
+    -827.3,
+    2118.2,
+    -830.5,
+    2110.9,
+    -840.9
+   ],
+   "id": "reginald-warnefordstraat-237-32",
+   "latLon": [
+    51.059445,
+    3.747864
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28952,
+   "at": [
+    2130.05,
+    -853.2
+   ],
+   "centre": [
+    2137,
+    -842.9
+   ],
+   "width": 6.3,
+   "faces": 237,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2127.4,
+    -851.5,
+    2133.8,
+    -841.6,
+    2135.8,
+    -838.7,
+    2137.3,
+    -839.6,
+    2140,
+    -835.5,
+    2143.7,
+    -838,
+    2142.1,
+    -840.4,
+    2140.1,
+    -839.1,
+    2136.1,
+    -845.4,
+    2138,
+    -846.7,
+    2132.7,
+    -854.9
+   ],
+   "id": "reginald-warnefordstraat-237-33",
+   "latLon": [
+    51.059547,
+    3.748115
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28957,
+   "at": [
+    2124.9,
+    -849.85
+   ],
+   "centre": [
+    2132.6,
+    -840.4
+   ],
+   "width": 6,
+   "faces": 237,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2122.4,
+    -848.2,
+    2129,
+    -837.7,
+    2130.2,
+    -835.8,
+    2140,
+    -835.5,
+    2137.3,
+    -839.6,
+    2135.8,
+    -838.7,
+    2136.2,
+    -838.1,
+    2134.2,
+    -836.8,
+    2131.8,
+    -840.4,
+    2133.8,
+    -841.6,
+    2127.4,
+    -851.5
+   ],
+   "id": "reginald-warnefordstraat-237-34",
+   "latLon": [
+    51.059523,
+    3.748056
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28502,
+   "at": [
+    1925.1,
+    -719.8499999999999
+   ],
+   "centre": [
+    1931.2,
+    -711.4
+   ],
+   "width": 5.9,
+   "faces": 238,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1922.6,
+    -718.3,
+    1929.7,
+    -707.7,
+    1931.6,
+    -704.8,
+    1936.6,
+    -708,
+    1935.4,
+    -709.7,
+    1933.1,
+    -708.1,
+    1930.9,
+    -711.6,
+    1933.2,
+    -713,
+    1927.6,
+    -721.4
+   ],
+   "id": "reginald-warnefordstraat-238-35",
+   "latLon": [
+    51.058582,
+    3.745772
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28490,
+   "at": [
+    1975.95,
+    -752.8499999999999
+   ],
+   "centre": [
+    1980.6,
+    -745.9
+   ],
+   "width": 5.8,
+   "faces": 238,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1973.5,
+    -751.3,
+    1983.1,
+    -737.5,
+    1987.5,
+    -740.4,
+    1978.4,
+    -754.4
+   ],
+   "id": "reginald-warnefordstraat-238-36",
+   "latLon": [
+    51.058821,
+    3.746354
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28481,
+   "at": [
+    2013.6,
+    -777.3499999999999
+   ],
+   "centre": [
+    2021.7,
+    -764.8
+   ],
+   "width": 5.4,
+   "faces": 238,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    2011.3,
+    -775.9,
+    2020,
+    -762.1,
+    2020.4,
+    -762.4,
+    2023.1,
+    -758.1,
+    2026,
+    -759.7,
+    2025.8,
+    -760.1,
+    2027.6,
+    -761.4,
+    2025.1,
+    -765.1,
+    2015.9,
+    -778.8
+   ],
+   "id": "reginald-warnefordstraat-238-37",
+   "latLon": [
+    51.058998,
+    3.746784
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28487,
+   "at": [
+    2038,
+    -793.25
+   ],
+   "centre": [
+    2045,
+    -782.9
+   ],
+   "width": 5.4,
+   "faces": 238,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 13,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    2035.7,
+    -791.8,
+    2045.6,
+    -777.1,
+    2047.7,
+    -778.5,
+    2049,
+    -776.7,
+    2051.7,
+    -778.5,
+    2040.3,
+    -794.7
+   ],
+   "id": "reginald-warnefordstraat-238-38",
+   "latLon": [
+    51.059113,
+    3.747063
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28946,
+   "at": [
+    2079.6499999999996,
+    -820.35
+   ],
+   "centre": [
+    2087.4,
+    -807.8
+   ],
+   "width": 8.4,
+   "faces": 238,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    2076.1,
+    -818.1,
+    2087.3,
+    -801.4,
+    2088.5,
+    -799.6,
+    2092.4,
+    -801.9,
+    2090.8,
+    -804.4,
+    2093.8,
+    -806.3,
+    2083.2,
+    -822.6
+   ],
+   "id": "reginald-warnefordstraat-238-39",
+   "latLon": [
+    51.059309,
+    3.747539
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28953,
+   "at": [
+    2119.05,
+    -846.1
+   ],
+   "centre": [
+    2122.4,
+    -840.8
+   ],
+   "width": 7.9,
+   "faces": 238,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    2115.7,
+    -844,
+    2122.6,
+    -833.4,
+    2129,
+    -837.7,
+    2122.4,
+    -848.2
+   ],
+   "id": "reginald-warnefordstraat-238-40",
+   "latLon": [
+    51.059496,
+    3.74799
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28451,
+   "at": [
+    1918.1999999999998,
+    -715.65
+   ],
+   "centre": [
+    1924.4,
+    -706.1
+   ],
+   "width": 10.3,
+   "faces": 239,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1913.8,
+    -713,
+    1921.8,
+    -698.4,
+    1925.5,
+    -700.8,
+    1924.6,
+    -702.4,
+    1927.4,
+    -704.2,
+    1927.6,
+    -704.3,
+    1926.4,
+    -705.4,
+    1929.7,
+    -707.7,
+    1922.6,
+    -718.3
+   ],
+   "id": "reginald-warnefordstraat-239-41",
+   "latLon": [
+    51.058552,
+    3.745693
+   ],
+   "photos": [
+    {
+     "id": "29924162100563498-154",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.115,
+      0.838
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28458,
+   "at": [
+    1901.7,
+    -706.4
+   ],
+   "centre": [
+    1907.1,
+    -694.5
+   ],
+   "width": 5.7,
+   "faces": 241,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1899.2,
+    -705,
+    1907,
+    -689.2,
+    1909.4,
+    -684.4,
+    1912.2,
+    -685.7,
+    1907.8,
+    -694.3,
+    1909.6,
+    -695.3,
+    1904.2,
+    -707.8
+   ],
+   "id": "reginald-warnefordstraat-241-42",
+   "latLon": [
+    51.058485,
+    3.745505
+   ],
+   "photos": [
+    {
+     "id": "1056719543076979-179",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.316,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28497,
+   "at": [
+    1823.8,
+    -665.6
+   ],
+   "centre": [
+    1830.4,
+    -651.7
+   ],
+   "width": 6.8,
+   "faces": 242,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1820.8,
+    -664,
+    1824.4,
+    -654.1,
+    1826.9,
+    -647.2,
+    1827.8,
+    -647.5,
+    1830.2,
+    -641,
+    1841,
+    -645.1,
+    1839,
+    -650.3,
+    1836.5,
+    -648.8,
+    1826.8,
+    -667.2
+   ],
+   "id": "reginald-warnefordstraat-242-43",
+   "latLon": [
+    51.05819,
+    3.744614
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-141",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.404,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28439,
+   "at": [
+    1839,
+    -673.45
+   ],
+   "centre": [
+    1846.7,
+    -658.9
+   ],
+   "width": 5,
+   "faces": 242,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1836.8,
+    -672.3,
+    1847.4,
+    -652.2,
+    1849.5,
+    -648.3,
+    1854.3,
+    -649.9,
+    1850.9,
+    -656.3,
+    1841.2,
+    -674.6
+   ],
+   "id": "reginald-warnefordstraat-242-44",
+   "latLon": [
+    51.058247,
+    3.744788
+   ],
+   "photos": [
+    {
+     "id": "529315383480677-121",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.373,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28478,
+   "at": [
+    1843.65,
+    -675.9000000000001
+   ],
+   "centre": [
+    1851.4,
+    -661.3
+   ],
+   "width": 5.5,
+   "faces": 242,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1841.2,
+    -674.6,
+    1850.9,
+    -656.3,
+    1854.3,
+    -649.9,
+    1859.4,
+    -651.7,
+    1856.2,
+    -657.8,
+    1846.1,
+    -677.2
+   ],
+   "id": "reginald-warnefordstraat-242-45",
+   "latLon": [
+    51.058264,
+    3.744841
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28498,
+   "at": [
+    1853.45,
+    -681.0999999999999
+   ],
+   "centre": [
+    1861.1,
+    -666.3
+   ],
+   "width": 5.5,
+   "faces": 242,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1851,
+    -679.8,
+    1860.1,
+    -662.3,
+    1864.6,
+    -653.6,
+    1869.7,
+    -655.5,
+    1865.3,
+    -663.9,
+    1855.9,
+    -682.4
+   ],
+   "id": "reginald-warnefordstraat-242-46",
+   "latLon": [
+    51.058302,
+    3.744953
+   ],
+   "photos": [
+    {
+     "id": "1195335759006233-130",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.33,
+      0.737
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28455,
+   "at": [
+    1848.55,
+    -678.5
+   ],
+   "centre": [
+    1855,
+    -666.3
+   ],
+   "width": 5.5,
+   "faces": 242,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1846.1,
+    -677.2,
+    1856.2,
+    -657.8,
+    1859,
+    -659.1,
+    1857.8,
+    -661.3,
+    1860.1,
+    -662.3,
+    1851,
+    -679.8
+   ],
+   "id": "reginald-warnefordstraat-242-47",
+   "latLon": [
+    51.058283,
+    3.744897
+   ],
+   "photos": [
+    {
+     "id": "1195335759006233-180",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.275,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28462,
+   "at": [
+    1858.35,
+    -683.7
+   ],
+   "centre": [
+    1865.2,
+    -671.1
+   ],
+   "width": 5.5,
+   "faces": 242,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1855.9,
+    -682.4,
+    1865.3,
+    -663.9,
+    1868.8,
+    -665.8,
+    1869.5,
+    -664.5,
+    1870.8,
+    -665.3,
+    1860.8,
+    -685
+   ],
+   "id": "reginald-warnefordstraat-242-48",
+   "latLon": [
+    51.058321,
+    3.745009
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28472,
+   "at": [
+    1868.75,
+    -689.1
+   ],
+   "centre": [
+    1873.4,
+    -678.5
+   ],
+   "width": 6.4,
+   "faces": 242,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1865.9,
+    -687.6,
+    1873.4,
+    -672.8,
+    1875.2,
+    -669.4,
+    1880.8,
+    -672.3,
+    1871.6,
+    -690.6
+   ],
+   "id": "reginald-warnefordstraat-242-49",
+   "latLon": [
+    51.05836,
+    3.745128
+   ],
+   "photos": [
+    {
+     "id": "1808233719740954-109",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.388,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28486,
+   "at": [
+    1880.3,
+    -695.15
+   ],
+   "centre": [
+    1886.8,
+    -684.1
+   ],
+   "width": 7.9,
+   "faces": 242,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1876.8,
+    -693.3,
+    1884.3,
+    -678.8,
+    1886.4,
+    -674.6,
+    1893.6,
+    -678.8,
+    1891.4,
+    -682.8,
+    1891.2,
+    -683.2,
+    1883.8,
+    -697
+   ],
+   "id": "reginald-warnefordstraat-242-50",
+   "latLon": [
+    51.058404,
+    3.74526
+   ],
+   "photos": [
+    {
+     "id": "1014311247571726-127",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.297,
+      0.841
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28492,
+   "at": [
+    1886.25,
+    -698.3
+   ],
+   "centre": [
+    1894.9,
+    -679.8
+   ],
+   "width": 5.5,
+   "faces": 242,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1883.8,
+    -697,
+    1891.2,
+    -683.2,
+    1891.4,
+    -682.8,
+    1893.6,
+    -678.8,
+    1895.1,
+    -675.4,
+    1896.8,
+    -676.2,
+    1897.7,
+    -674.1,
+    1896,
+    -673.4,
+    1899.3,
+    -666.4,
+    1904.2,
+    -668.2,
+    1899.7,
+    -677.4,
+    1896,
+    -684.9,
+    1888.7,
+    -699.6
+   ],
+   "id": "reginald-warnefordstraat-242-51",
+   "latLon": [
+    51.058426,
+    3.745328
+   ],
+   "photos": [
+    {
+     "id": "1967504110659360-191",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.356,
+      0.603
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28494,
+   "at": [
+    1909,
+    -710.4
+   ],
+   "centre": [
+    1913.6,
+    -695
+   ],
+   "width": 10.9,
+   "faces": 242,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1904.2,
+    -707.8,
+    1909.6,
+    -695.3,
+    1907.8,
+    -694.3,
+    1912.2,
+    -685.7,
+    1912.7,
+    -685.9,
+    1913.7,
+    -683.9,
+    1926.2,
+    -690.4,
+    1921.8,
+    -698.4,
+    1913.8,
+    -713
+   ],
+   "id": "reginald-warnefordstraat-242-52",
+   "latLon": [
+    51.058514,
+    3.745588
+   ],
+   "photos": [
+    {
+     "id": "1056719543076979-120",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.295,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28453,
+   "at": [
+    1829.35,
+    -668.5
+   ],
+   "centre": [
+    1836.6,
+    -654.6
+   ],
+   "width": 5.7,
+   "faces": 243,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1826.8,
+    -667.2,
+    1836.5,
+    -648.8,
+    1839,
+    -650.3,
+    1841,
+    -645.1,
+    1844.5,
+    -646.6,
+    1831.9,
+    -669.8
+   ],
+   "id": "reginald-warnefordstraat-243-53",
+   "latLon": [
+    51.058211,
+    3.744678
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-122",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.437,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28482,
+   "at": [
+    1834.35,
+    -671.05
+   ],
+   "centre": [
+    1842,
+    -656.5
+   ],
+   "width": 5.5,
+   "faces": 243,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1831.9,
+    -669.8,
+    1844.5,
+    -646.6,
+    1846.5,
+    -647.3,
+    1844.7,
+    -650.8,
+    1847.4,
+    -652.2,
+    1836.8,
+    -672.3
+   ],
+   "id": "reginald-warnefordstraat-243-54",
+   "latLon": [
+    51.058229,
+    3.744735
+   ],
+   "photos": [
+    {
+     "id": "529315383480677-168",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.256,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28448,
+   "at": [
+    1863.35,
+    -686.3
+   ],
+   "centre": [
+    1872.5,
+    -669.7
+   ],
+   "width": 5.7,
+   "faces": 243,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1860.8,
+    -685,
+    1870.8,
+    -665.3,
+    1874.9,
+    -657.4,
+    1880.2,
+    -659.4,
+    1876.9,
+    -665.9,
+    1876.5,
+    -666.8,
+    1874.2,
+    -665.4,
+    1871.2,
+    -671.4,
+    1873.4,
+    -672.8,
+    1865.9,
+    -687.6
+   ],
+   "id": "reginald-warnefordstraat-243-55",
+   "latLon": [
+    51.05834,
+    3.745066
+   ],
+   "photos": [
+    {
+     "id": "1808233719740954-158",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.251,
+      0.731
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28500,
+   "at": [
+    1874.1999999999998,
+    -691.95
+   ],
+   "centre": [
+    1880.2,
+    -680.2
+   ],
+   "width": 5.9,
+   "faces": 243,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1871.6,
+    -690.6,
+    1880.8,
+    -672.3,
+    1881.2,
+    -671.6,
+    1886.4,
+    -674.6,
+    1884.3,
+    -678.8,
+    1876.8,
+    -693.3
+   ],
+   "id": "reginald-warnefordstraat-243-56",
+   "latLon": [
+    51.05838,
+    3.74519
+   ],
+   "photos": [
+    {
+     "id": "1014311247571726-184",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.29,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28471,
+   "at": [
+    1891.25,
+    -700.9000000000001
+   ],
+   "centre": [
+    1900.1,
+    -684.3
+   ],
+   "width": 5.7,
+   "faces": 243,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1888.7,
+    -699.6,
+    1896,
+    -684.9,
+    1899,
+    -686.3,
+    1902.9,
+    -678.8,
+    1899.7,
+    -677.4,
+    1904.2,
+    -668.2,
+    1909.8,
+    -670.2,
+    1903.9,
+    -683.5,
+    1902.2,
+    -686.8,
+    1900.9,
+    -689.1,
+    1893.8,
+    -702.2
+   ],
+   "id": "reginald-warnefordstraat-243-57",
+   "latLon": [
+    51.058445,
+    3.745385
+   ],
+   "photos": [
+    {
+     "id": "1967504110659360-153",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.288,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28503,
+   "at": [
+    1896.5,
+    -703.6
+   ],
+   "centre": [
+    1901.7,
+    -693
+   ],
+   "width": 6.1,
+   "faces": 243,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1893.8,
+    -702.2,
+    1900.9,
+    -689.1,
+    1902.7,
+    -690,
+    1903.8,
+    -687.6,
+    1904.4,
+    -687.9,
+    1907,
+    -689.2,
+    1899.2,
+    -705
+   ],
+   "id": "reginald-warnefordstraat-243-58",
+   "latLon": [
+    51.058465,
+    3.745445
+   ],
+   "photos": [
+    {
+     "id": "1967504110659360-112",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.396,
+      0.661
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28316,
+   "at": [
+    1809.5,
+    -650
+   ],
+   "centre": [
+    1812.8,
+    -641.4
+   ],
+   "width": 7.7,
+   "faces": 250,
+   "toStreet": 16.7,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1805.9,
+    -648.7,
+    1810.5,
+    -633.3,
+    1816.6,
+    -635.4,
+    1818,
+    -638.1,
+    1813.1,
+    -651.3
+   ],
+   "id": "reginald-warnefordstraat-250-01",
+   "latLon": [
+    51.058077,
+    3.744451
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-189",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.433,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28285,
+   "at": [
+    1806.4,
+    -667.15
+   ],
+   "centre": [
+    1796.8,
+    -658.6
+   ],
+   "width": 7.6,
+   "faces": 326,
+   "toStreet": 8,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    1789,
+    -657.7,
+    1790.7,
+    -654.9,
+    1792.4,
+    -656.3,
+    1794.6,
+    -653.3,
+    1796.2,
+    -654.5,
+    1796.5,
+    -654.7,
+    1802.6,
+    -659.4,
+    1808.5,
+    -664,
+    1804.3,
+    -670.3,
+    1792.9,
+    -660.9
+   ],
+   "id": "reginald-warnefordstraat-326-01",
+   "latLon": [
+    51.058201,
+    3.744415
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-214",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.377,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28308,
+   "at": [
+    1803.65,
+    -656
+   ],
+   "centre": [
+    1801.9,
+    -647.6
+   ],
+   "width": 7.1,
+   "faces": 343,
+   "toStreet": 14.6,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1796.2,
+    -654.5,
+    1797.5,
+    -650.2,
+    1801,
+    -651.4,
+    1803.1,
+    -644.6,
+    1799.5,
+    -643.6,
+    1803.3,
+    -631.1,
+    1810.5,
+    -633.3,
+    1805.9,
+    -648.7,
+    1804.7,
+    -652.6,
+    1802.6,
+    -659.4,
+    1796.5,
+    -654.7
+   ],
+   "id": "reginald-warnefordstraat-343-01",
+   "latLon": [
+    51.05812,
+    3.744384
+   ],
+   "photos": [
+    {
+     "id": "563055073298918-229",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.416,
+      0.592
+     ]
+    }
+   ]
+  }
+ ]
+}

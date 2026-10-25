@@ -17,7 +17,10 @@
 //                    the Celestini (hand-written)
 // Ghent has more (3D landmarks and their facades, the hollow squares); Lecce exports empty lists
 // for what it lacks.
-export { MAP } from './map.js';
+import { MAP as OSM } from './map.js';
+// its only water, the basins of a few fountains, lies just under the street, not down at the
+// canals' level (core/js/ground.js WATER)
+export const MAP = { ...OSM, areas: OSM.areas.map(a => (a.k === 'water' ? { ...a, level: -1 } : a)) };
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

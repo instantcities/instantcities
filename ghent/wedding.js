@@ -29,7 +29,8 @@ export function person(o) {
   const top = std(o.top), skin = std(o.skin, 0.6), hair = std(o.hair, 0.95), shoes = std(o.shoes ?? 0x1c1a19, 0.4);
   if (o.skirt) {
     const [color, length, flare] = o.skirt;
-    add(g, lathe([[0.001, 0.96], [0.17, 0.96], [0.2 + flare * 0.3, 0.96 - length * 0.5], [0.22 + flare, 0.96 - length], [0.001, 0.96 - length]]), std(color, 0.75));
+    // (from the hem up, like the body: a lathe drawn from the top down faces inwards, and was seen from inside through its back)
+    add(g, lathe([[0.001, 0.96 - length], [0.22 + flare, 0.96 - length], [0.2 + flare * 0.3, 0.96 - length * 0.5], [0.17, 0.96], [0.001, 0.96]]), std(color, 0.75));
     if (length < 0.8) for (const s of [-1, 1]) add(g, limb(0.05, 0.96 - length), skin, s * 0.08, 0.96 - length);
   } else if (o.shorts) {
     for (const s of [-1, 1]) {
@@ -69,9 +70,9 @@ export function person(o) {
 
 function bride() {
   const p = person({ top: 0xfbfaf6, skin: 0xefcfb4, hair: 0x6a4428, long: true, skirt: [0xfbfaf6, 0.94, 0.42], shoes: 0xf2efe8, arms: ['front', 'front'], tall: 0.97 });
-  const white = std(0xfbfaf6, 0.6), veil = std(0xffffff, 0.5, { transparent: true, opacity: 0.45, side: THREE.DoubleSide, depthWrite: false });
+  const white = std(0xfbfaf6, 0.6, { side: THREE.DoubleSide }), veil = std(0xffffff, 0.5, { transparent: true, opacity: 0.45, side: THREE.DoubleSide, depthWrite: false });
   // the train behind her, and the veil from a little tiara down her back
-  add(p.g, lathe([[0.001, 0.02], [0.5, 0.0], [0.001, 0.02]]), white, 0, 0, -0.35).scale.set(0.8, 1, 1.6);
+  add(p.g, new THREE.CircleGeometry(0.5, 24).rotateX(-Math.PI / 2), white, 0, 0.02, -0.35).scale.set(0.8, 1, 1.6); // (flat and facing up: the cone it was came out black)
   add(p.head, new THREE.ConeGeometry(0.34, 1.2, 20, 1, true, Math.PI * 0.55, Math.PI * 0.9), veil, 0, -0.5, -0.12, -0.12);
   add(p.head, new THREE.TorusGeometry(0.08, 0.008, 6, 16, Math.PI), std(0xd8c27a, 0.3, { metalness: 0.6 }), 0, 0.09, 0.01, -0.4);
   // the bouquet, held in both hands in front: roses on a ribbon

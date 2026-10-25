@@ -17,6 +17,7 @@ import * as THREE from 'three';
 import { elevation, ashlar, lancet, stringCourse, balustrade, clock, archPath, shade, crossWindow, roundArch, pilaster, rose, niche, brick, rng } from '../core/js/facades.js';
 import { gravensteen, CASTLE_WALL, CASTLE_STONE } from './gravensteen.js';
 import { LANDMARKS } from './landmarks.js';
+import { standing } from '../core/js/tour.js';
 
 const BELFORT_STONE = '#b4ad9e';
 const facing = (w, deg) => Math.cos(Math.atan2(w.n.z, w.n.x) - (deg * Math.PI) / 180) > 0.7; // within 45° of
@@ -71,7 +72,11 @@ export const FACADES = {
     },
     // above the parapet: the spire in the middle is dark slate, the turrets at the corners stone
     part: t => (t.c.y > 73 ? (t.r < 7.5 ? 'slate' : 'stone') : undefined),
-    props: (lm, top) => dragon(top),
+    props: (lm, top) => { // (the tour keeps it out of sight until it lands there, its rod already waiting: ghent/tour.js flyer)
+      const d = dragon(top);
+      standing('dragon', d.userData.body);
+      return d;
+    },
   },
 
   // The Lakenhalle (1441, finished 1903): the cloth hall at the Belfort's foot, in pale Balegem
@@ -276,6 +281,25 @@ export const FACADES = {
       if (w.span < 2) return undefined;
       if (w.span < 8 && w.top > 48) return 'tower';
       return facing(w, EAST) || facing(w, 180) ? 'front' : 'side';
+    },
+  },
+
+  // The Oud Gerechtsgebouw (Louis Roelandt, 1836-1846), the old law courts on the Koophandelsplein, by
+  // the Leie: neoclassical in warm buff sandstone, a rusticated ground floor of round-arched windows
+  // in white frames, a first floor of tall windows with pediments over little balustrades, a row of
+  // small windows under the cornice; on the square the portico of six Corinthian columns under its
+  // pediment, the sculpted tympanum in ochre (the model has it, low, on the portico's front).
+  'oud-justitiepaleis': {
+    drawings: {
+      bay: { width: 6.2, height: 27, px: 14, fit: 'bays', draw: justitieBay },
+      // the portico's front is two walls, either side of the pediment's peak: each its half
+      porticoLeft: { width: 6.5, height: 29.8, px: 16, fit: 'fit', draw: (g, w, h) => { g.translate(w / 2, 0); justitiePortico(g, 2 * w, h); } },
+      porticoRight: { width: 6.5, height: 29.8, px: 16, fit: 'fit', draw: (g, w, h) => { g.translate(-w / 2, 0); justitiePortico(g, 2 * w, h); } },
+      plain: { width: 4, height: 27, px: 10, fit: 'run', draw: (g, w, h) => ashlar(g, -w / 2, 0, w / 2, h, JUSTITIE_STONE, { seed: 121, course: 0.6, vary: 0.04 }) },
+    },
+    wall: w => {
+      if (facing(w, EAST) && w.c.x > -235.5 && w.c.z > 500 && w.c.z < 516) return w.c.z > PORTICO_PEAK ? 'porticoLeft' : 'porticoRight';
+      return w.span >= 3 ? 'bay' : 'plain';
     },
   },
 
@@ -668,7 +692,7 @@ function schouwburgBay(g, w, h) {
 // legs, a pair of raised bat wings cut into hooked scallops and a tail curling up behind them. It
 // turns on a rod out of its belly. About 4 m from the tail's curl to the tongue's tip; x runs
 // forward, y up, z to its left. All of it one mesh.
-function dragon([x, y, z]) {
+export function dragon([x, y, z]) {
   const gold = new THREE.MeshStandardMaterial({ color: 0xe0ad3c, metalness: 0.55, roughness: 0.32, emissive: 0x3a2804 });
   const V = (a, b, c) => new THREE.Vector3(a, b, c);
   const parts = [];
@@ -765,24 +789,35 @@ function dragon([x, y, z]) {
     hole.absarc(c.x, c.y, 0.07, 0, Math.PI * 2, true);
     wing.holes.push(hole);
   }
+  // each its own mesh on a hinge at its root, so the one flying along on the tour can beat them
   const plate = new THREE.ExtrudeGeometry(wing, { depth: 0.04, bevelEnabled: false, curveSegments: 5 }).translate(0, 0, -0.02);
-  for (const s of [-1, 1]) {
-    const m = at(0.15, 2.5, s * 0.2, s * 0.38, 0, 0);
-    put(plate.clone(), m);
-    for (const r of ribs) {
-      const end = r.clone().lerp(ROOT, 0.06);
-      put(taper([[ROOT.x, ROOT.y, 0], [(ROOT.x + end.x) / 2, (ROOT.y + end.y) / 2, 0.015], [end.x, end.y, 0]], t => 0.045 - 0.025 * t, 8, 6), m);
-    }
+  const wingParts = [plate];
+  for (const r of ribs) {
+    const end = r.clone().lerp(ROOT, 0.06);
+    wingParts.push(taper([[ROOT.x, ROOT.y, 0], [(ROOT.x + end.x) / 2, (ROOT.y + end.y) / 2, 0.015], [end.x, end.y, 0]], t => 0.045 - 0.025 * t, 8, 6));
   }
+  const wingGeo = merged(wingParts);
+  const wings = [-1, 1].map(s => {
+    const hinge = new THREE.Group();
+    hinge.position.set(0.15, 2.5, s * 0.2);
+    hinge.rotation.x = s * 0.38;
+    hinge.userData.side = s;
+    const m = new THREE.Mesh(wingGeo, gold);
+    m.castShadow = true;
+    hinge.add(m);
+    return hinge;
+  });
 
-  // the rod it turns on, out of its belly
-  put(new THREE.CylinderGeometry(0.05, 0.06, 2.0, 8), at(0, 1.0, 0));
-  put(new THREE.SphereGeometry(0.1, 10, 6), at(0, 0.35, 0));
 
   const mesh = new THREE.Mesh(merged(parts), gold);
   mesh.castShadow = true;
+  // the rod it turns on, out of its belly (its own mesh: the one flying along on the tour has none)
+  const rod = new THREE.Mesh(merged([new THREE.CylinderGeometry(0.05, 0.06, 2.0, 8).translate(0, 1.0, 0), new THREE.SphereGeometry(0.1, 10, 6).translate(0, 0.35, 0)]), gold);
+  const body = new THREE.Group(); // all of it but the rod
+  body.add(mesh, ...wings);
   const d = new THREE.Group();
-  d.add(mesh);
+  d.add(body, rod);
+  Object.assign(d.userData, { wings, rod, body });
   d.position.set(x, y - 0.3, z);
   d.rotation.y = 0.7;
   d.name = 'dragon';
@@ -1022,6 +1057,114 @@ function concrete(g, w, h, seed) {
   for (let y = 1.1; y < h; y += 1.1) g.fillRect(L, y, w, 0.05);
   g.fillStyle = shade(C, -0.2);
   g.fillRect(L, 0, w, 0.8); // the foot
+}
+
+// ------------------------------------------------------------------ the Oud Gerechtsgebouw
+
+const JUSTITIE_STONE = '#d4c39c';
+const PORTICO_PEAK = 508; // the model's portico front peaks here (game z), looking out east over the Koophandelsplein
+
+// a window in a white frame with glazing bars, w by h from y0 (a round head when `arched`)
+function sash(g, cx, y0, w, h, arched, S) {
+  if (arched) roundArch(g, cx, y0 - 0.25, w + 0.5, h + 0.5, shade(S, -0.3));
+  else { g.fillStyle = shade(S, -0.3); g.fillRect(cx - w / 2 - 0.25, y0 - 0.25, w + 0.5, h + 0.5); }
+  if (arched) roundArch(g, cx, y0, w, h, '#eeebe2'); else { g.fillStyle = '#eeebe2'; g.fillRect(cx - w / 2, y0, w, h); }
+  const t = 0.14, glass = '#2d353d';
+  const lights = arched ? h - w / 2 : h;
+  g.fillStyle = glass;
+  for (const [x0, x1] of [[cx - w / 2 + t, cx - t / 2], [cx + t / 2, cx + w / 2 - t]]) {
+    for (let y = y0 + t, k = 0; y < y0 + lights - t; y += (lights - t) / 3, k++) g.fillRect(x0, y, x1 - x0, (lights - t) / 3 - t);
+  }
+  if (arched) roundArch(g, cx, y0 + lights + t, w - 2 * t, (w - 2 * t) / 2, glass); // the fanlight
+  if (arched) { g.fillStyle = '#eeebe2'; g.fillRect(cx - t / 2, y0 + lights, t, w / 2); }
+}
+
+// a bay of its walls: rusticated ground floor with an arched window, the tall pedimented window
+// over its balustrade, a small window above, the cornice
+function justitieBay(g, w, h) {
+  const S = JUSTITIE_STONE, L = -w / 2, R = w / 2;
+  ashlar(g, L, 0, R, h, S, { seed: 122, course: 0.6, vary: 0.04 });
+  ashlar(g, L, 0, R, 9.6, shade(S, -0.03), { seed: 123, course: 0.8, vary: 0.05 });
+  g.fillStyle = shade(S, -0.4);
+  for (let y = 0.8; y < 9.6; y += 0.8) g.fillRect(L, y - 0.1, w, 0.1); // its deep joints
+  g.fillStyle = '#8d8a83';
+  g.fillRect(L, 0, w, 1.2); // a plinth of bluestone
+  sash(g, 0, 1.8, 2.6, 6.2, true, S);
+  g.fillStyle = shade(S, 0.14);
+  g.fillRect(-0.35, 7.6, 0.7, 1.4); // the keystone
+  stringCourse(g, L, R, 9.9, S, 0.7);
+  balustrade(g, -1.8, 1.8, 10.3, 1.3, S, 0.6);
+  sash(g, 0, 11.7, 2.3, 5.8, false, S);
+  g.fillStyle = shade(S, 0.12);
+  g.fillRect(-1.75, 17.75, 3.5, 0.35);
+  g.beginPath(); g.moveTo(-1.9, 18.1); g.lineTo(0, 19.3); g.lineTo(1.9, 18.1); g.closePath(); g.fill();
+  g.fillStyle = shade(S, -0.22);
+  g.beginPath(); g.moveTo(-1.35, 18.2); g.lineTo(0, 18.95); g.lineTo(1.35, 18.2); g.closePath(); g.fill();
+  stringCourse(g, L, R, 20.4, S, 0.5);
+  sash(g, 0, 21.2, 1.8, 2.4, false, S);
+  g.fillStyle = shade(S, 0.05);
+  g.fillRect(L, 24.1, w, 0.9);
+  stringCourse(g, L, R, 25.4, S, 1.0);
+  g.fillStyle = shade(S, -0.35);
+  for (let x = L + 0.1; x < R; x += 0.45) g.fillRect(x, 24.6, 0.22, 0.32); // dentils under the cornice
+}
+
+// the portico on the Koophandelsplein: a rusticated base with three arched doorways, six
+// Corinthian columns before the dark loggia and its windows, the entablature, and the low pediment
+// with its sculpted tympanum
+function justitiePortico(g, w, h) {
+  const S = JUSTITIE_STONE, L = -w / 2, R = w / 2, base = 5.2, cap = 23.6, ent = 26.8;
+  ashlar(g, L, 0, R, h, S, { seed: 124, course: 0.6, vary: 0.04 });
+  // the loggia behind the columns, in shadow, a window between each pair
+  ashlar(g, L + 0.4, base, R - 0.4, cap, shade(S, -0.42), { seed: 125, course: 0.6, vary: 0.04 });
+  const step = (w - 1.6) / 5;
+  for (let k = 0; k < 5; k++) {
+    const x = L + 0.8 + step * (k + 0.5);
+    roundArch(g, x, base + 2.2, 1.2, 6.6, '#23292e');
+    g.fillStyle = '#23292e';
+    g.fillRect(x - 0.55, base + 11.6, 1.1, 3.8);
+  }
+  // the base, a stair up the middle
+  ashlar(g, L, 0, R, base, shade(S, -0.03), { seed: 126, course: 0.8, vary: 0.05 });
+  g.fillStyle = shade(S, -0.4);
+  for (let y = 0.8; y < base; y += 0.8) g.fillRect(L, y - 0.1, w, 0.1);
+  for (const x of [-step, 0, step]) { roundArch(g, x, 0, 1.8, 4.2, shade(S, -0.35)); roundArch(g, x, 0, 1.4, 3.9, '#3a2b22'); }
+  stringCourse(g, L, R, base, S, 0.5);
+  // the columns: a base, the fluted shaft, the capital's leaves
+  for (let k = 0; k < 6; k++) {
+    const x = L + 0.8 + step * k, cw = 1.5;
+    g.fillStyle = shade(S, 0.1);
+    g.fillRect(x - cw * 0.75, base, cw * 1.5, 0.5);
+    g.fillStyle = shade(S, 0.08);
+    g.fillRect(x - cw / 2, base + 0.5, cw, cap - base - 1.6);
+    g.fillStyle = shade(S, -0.12);
+    for (const f of [-0.3, 0, 0.3]) g.fillRect(x + f * cw - 0.03, base + 0.8, 0.06, cap - base - 2.2);
+    g.fillStyle = shade(S, -0.3);
+    g.fillRect(x + cw / 2 - 0.2, base + 0.5, 0.2, cap - base - 1.6);
+    g.fillStyle = shade(S, 0.16);
+    g.fillRect(x - cw * 0.8, cap - 1.1, cw * 1.6, 1.1);
+    g.fillStyle = shade(S, -0.2);
+    for (const f of [-0.5, 0, 0.5]) { g.beginPath(); g.arc(x + f * cw, cap - 0.65, 0.22, 0, Math.PI * 2); g.fill(); }
+  }
+  // the entablature: architrave, frieze, cornice
+  g.fillStyle = shade(S, 0.1);
+  g.fillRect(L, cap, w, 1);
+  g.fillStyle = shade(S, 0.02);
+  g.fillRect(L, cap + 1, w, 1.4);
+  stringCourse(g, L, R, ent - 0.2, S, 0.8);
+  // the pediment: its raking cornices, the tympanum full of figures in ochre
+  const peak = h - 0.25, eave = ent + 0.3;
+  g.fillStyle = '#c7924e';
+  g.beginPath(); g.moveTo(L + 1, eave + 0.1); g.lineTo(0, peak - 0.55); g.lineTo(R - 1, eave + 0.1); g.closePath(); g.fill();
+  g.fillStyle = '#e0b46c';
+  for (let x = L + 2; x < R - 2; x += 0.9) {
+    const top = eave + 0.15 + (peak - 0.6 - eave) * (1 - Math.abs(x) / (R - 1)) * 0.85;
+    g.fillRect(x - 0.2, eave + 0.15, 0.4, Math.max(0, top - eave - 0.15));
+    g.beginPath(); g.arc(x, top, 0.24, 0, Math.PI * 2); g.fill();
+  }
+  g.strokeStyle = shade(S, 0.15);
+  g.lineWidth = 0.35;
+  g.beginPath(); g.moveTo(L, eave); g.lineTo(0, peak); g.lineTo(R, eave); g.stroke();
 }
 
 // a broad face of the Boekentoren: three tall strips of small panes up its middle

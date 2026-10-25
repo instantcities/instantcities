@@ -1,0 +1,5568 @@
+{
+ "city": "ghent",
+ "street": "Keizer Karelstraat",
+ "slug": "keizer-karelstraat",
+ "photos": {
+  "135626928518499": {
+   "file": "photos/135626928518499.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=135626928518499",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0517885,
+    3.7324891,
+    61,
+    0.494
+   ]
+  },
+  "162289545833930": {
+   "file": "photos/162289545833930.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=162289545833930",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0516959,
+    3.7323162,
+    55,
+    0.715
+   ]
+  },
+  "474031693813766": {
+   "file": "photos/474031693813766.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=474031693813766",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0517966,
+    3.7324987,
+    45,
+    0.678
+   ]
+  },
+  "1287043032286107-78": {
+   "file": "photos/1287043032286107-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1287043032286107",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0501251,
+    3.7337951,
+    78,
+    0.5
+   ]
+  },
+  "546411864611758-55": {
+   "file": "photos/546411864611758-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=546411864611758",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.050802,
+    3.7332139,
+    55,
+    0.5
+   ]
+  },
+  "3009657569186703-76": {
+   "file": "photos/3009657569186703-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3009657569186703",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0506396,
+    3.7333658,
+    76,
+    0.5
+   ]
+  },
+  "3698905627089216-39": {
+   "file": "photos/3698905627089216-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3698905627089216",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0505396,
+    3.7334378,
+    39,
+    0.5
+   ]
+  },
+  "1044556363536435-66": {
+   "file": "photos/1044556363536435-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1044556363536435",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.050505,
+    3.7334742,
+    66,
+    0.5
+   ]
+  },
+  "1203306364225788-59": {
+   "file": "photos/1203306364225788-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1203306364225788",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.050201,
+    3.7337332,
+    59,
+    0.5
+   ]
+  },
+  "701539172310869-89": {
+   "file": "photos/701539172310869-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=701539172310869",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0502707,
+    3.7335915,
+    89,
+    0.5
+   ]
+  },
+  "914934000447974-23": {
+   "file": "photos/914934000447974-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=914934000447974",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0497916,
+    3.7340135,
+    23,
+    0.5
+   ]
+  },
+  "914934000447974-68": {
+   "file": "photos/914934000447974-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=914934000447974",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0497916,
+    3.7340135,
+    68,
+    0.5
+   ]
+  },
+  "1321288702050277-54": {
+   "file": "photos/1321288702050277-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1321288702050277",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0522826,
+    3.7320137,
+    54,
+    0.5
+   ]
+  },
+  "1563732490905063-84": {
+   "file": "photos/1563732490905063-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1563732490905063",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0522521,
+    3.7320413,
+    84,
+    0.5
+   ]
+  },
+  "1068766814663735-71": {
+   "file": "photos/1068766814663735-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1068766814663735",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520677,
+    3.7321727,
+    71,
+    0.5
+   ]
+  },
+  "480989396310917": {
+   "file": "photos/480989396310917.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=480989396310917",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0517177,
+    3.7323483,
+    34,
+    0.678
+   ]
+  },
+  "4462378527130277": {
+   "file": "photos/4462378527130277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4462378527130277",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0517415,
+    3.7323904,
+    33,
+    0.678
+   ]
+  },
+  "550391915943646": {
+   "file": "photos/550391915943646.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=550391915943646",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0516681,
+    3.7322638,
+    55,
+    0.494
+   ]
+  },
+  "476026080181137": {
+   "file": "photos/476026080181137.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=476026080181137",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.051808,
+    3.732551,
+    67,
+    0.494
+   ]
+  },
+  "1120652948438603": {
+   "file": "photos/1120652948438603.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1120652948438603",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0516963,
+    3.7323147,
+    55,
+    0.715
+   ]
+  },
+  "292941875816573": {
+   "file": "photos/292941875816573.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=292941875816573",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0516235,
+    3.7321887,
+    54,
+    0.715
+   ]
+  },
+  "1161808135454493-73": {
+   "file": "photos/1161808135454493-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1161808135454493",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0516469,
+    3.732657,
+    73,
+    0.5
+   ]
+  },
+  "528173499685052-66": {
+   "file": "photos/528173499685052-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=528173499685052",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0516018,
+    3.7325508,
+    66,
+    0.5
+   ]
+  },
+  "627425463562167-78": {
+   "file": "photos/627425463562167-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=627425463562167",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0515669,
+    3.7327219,
+    78,
+    0.5
+   ]
+  },
+  "1733660184061823-70": {
+   "file": "photos/1733660184061823-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1733660184061823",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0515264,
+    3.7326229,
+    70,
+    0.5
+   ]
+  },
+  "993556025947212-71": {
+   "file": "photos/993556025947212-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=993556025947212",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0514849,
+    3.7327904,
+    71,
+    0.5
+   ]
+  },
+  "3814299462179629-58": {
+   "file": "photos/3814299462179629-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3814299462179629",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0514224,
+    3.7327058,
+    58,
+    0.5
+   ]
+  },
+  "1195284431944727-66": {
+   "file": "photos/1195284431944727-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1195284431944727",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0513668,
+    3.7327982,
+    66,
+    0.5
+   ]
+  },
+  "2518736541643509-65": {
+   "file": "photos/2518736541643509-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2518736541643509",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0513556,
+    3.7327693,
+    65,
+    0.5
+   ]
+  },
+  "872063114872514-58": {
+   "file": "photos/872063114872514-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=872063114872514",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0512295,
+    3.7328728,
+    58,
+    0.5
+   ]
+  },
+  "1195284431944727-102": {
+   "file": "photos/1195284431944727-102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1195284431944727",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0513668,
+    3.7327982,
+    102,
+    0.5
+   ]
+  },
+  "1036758058004115-59": {
+   "file": "photos/1036758058004115-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1036758058004115",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.051129,
+    3.7329516,
+    59,
+    0.5
+   ]
+  },
+  "2829186923914753-55": {
+   "file": "photos/2829186923914753-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2829186923914753",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0510252,
+    3.733035,
+    55,
+    0.5
+   ]
+  },
+  "542303188453523-63": {
+   "file": "photos/542303188453523-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=542303188453523",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0509523,
+    3.7330913,
+    63,
+    0.5
+   ]
+  },
+  "418059917973623-73": {
+   "file": "photos/418059917973623-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418059917973623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0509263,
+    3.7332821,
+    73,
+    0.5
+   ]
+  },
+  "1025611975714408-71": {
+   "file": "photos/1025611975714408-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025611975714408",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0507699,
+    3.7332859,
+    71,
+    0.5
+   ]
+  },
+  "3009657569186703-26": {
+   "file": "photos/3009657569186703-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3009657569186703",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0506396,
+    3.7333658,
+    26,
+    0.5
+   ]
+  },
+  "3698905627089216-61": {
+   "file": "photos/3698905627089216-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3698905627089216",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0505396,
+    3.7334378,
+    61,
+    0.5
+   ]
+  },
+  "3009657569186703-97": {
+   "file": "photos/3009657569186703-97.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3009657569186703",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0506396,
+    3.7333658,
+    97,
+    0.5
+   ]
+  },
+  "537111308797511-61": {
+   "file": "photos/537111308797511-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=537111308797511",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0504292,
+    3.7335381,
+    61,
+    0.5
+   ]
+  },
+  "1467638761293916-64": {
+   "file": "photos/1467638761293916-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1467638761293916",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0500466,
+    3.7338511,
+    64,
+    0.5
+   ]
+  },
+  "1467638761293916-90": {
+   "file": "photos/1467638761293916-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1467638761293916",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0500466,
+    3.7338511,
+    90,
+    0.5
+   ]
+  },
+  "7633052253461052-88": {
+   "file": "photos/7633052253461052-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7633052253461052",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0497646,
+    3.7340267,
+    88,
+    0.5
+   ]
+  },
+  "3081171282035074-67": {
+   "file": "photos/3081171282035074-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3081171282035074",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.05029,
+    3.7336302,
+    67,
+    0.5
+   ]
+  },
+  "2633582553495496-58": {
+   "file": "photos/2633582553495496-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2633582553495496",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0502786,
+    3.7336736,
+    58,
+    0.5
+   ]
+  },
+  "914934000447974-43": {
+   "file": "photos/914934000447974-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=914934000447974",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0497916,
+    3.7340135,
+    43,
+    0.5
+   ]
+  },
+  "1054261032975676-69": {
+   "file": "photos/1054261032975676-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1054261032975676",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0501504,
+    3.7337748,
+    69,
+    0.5
+   ]
+  },
+  "2127389440995298-229": {
+   "file": "photos/2127389440995298-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2127389440995298",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0502639,
+    3.7336689,
+    229,
+    0.5
+   ]
+  },
+  "1309633297023744-210": {
+   "file": "photos/1309633297023744-210.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1309633297023744",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0503274,
+    3.733691,
+    210,
+    0.5
+   ]
+  },
+  "970383481255991-239": {
+   "file": "photos/970383481255991-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970383481255991",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0517234,
+    3.7325982,
+    239,
+    0.5
+   ]
+  },
+  "1025611975714408-204": {
+   "file": "photos/1025611975714408-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025611975714408",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0507699,
+    3.7332859,
+    204,
+    0.5
+   ]
+  },
+  "573219532368434-260": {
+   "file": "photos/573219532368434-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=573219532368434",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0507363,
+    3.7335374,
+    260,
+    0.5
+   ]
+  },
+  "745075090585538": {
+   "file": "photos/745075090585538.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=745075090585538",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.05342,
+    3.7315125,
+    283,
+    0.493
+   ]
+  },
+  "660733392352701": {
+   "file": "photos/660733392352701.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=660733392352701",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-06-12",
+   "cam": [
+    51.0534187,
+    3.731537,
+    278,
+    0.708
+   ]
+  },
+  "1127522445262151-208": {
+   "file": "photos/1127522445262151-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1127522445262151",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0507649,
+    3.7335974,
+    208,
+    0.5
+   ]
+  },
+  "1606426684091350-214": {
+   "file": "photos/1606426684091350-214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1606426684091350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0504143,
+    3.7338475,
+    214,
+    0.5
+   ]
+  },
+  "839068254589934": {
+   "file": "photos/839068254589934.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=839068254589934",
+   "author": "lebeno",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-08-10",
+   "cam": [
+    51.0497613,
+    3.7347246,
+    261,
+    0.49
+   ]
+  },
+  "991114088093756": {
+   "file": "photos/991114088093756.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=991114088093756",
+   "author": "smer",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-27",
+   "cam": [
+    51.0497038,
+    3.7344776,
+    281,
+    0.884
+   ]
+  },
+  "189346950817608": {
+   "file": "photos/189346950817608.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=189346950817608",
+   "author": "lebeno",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-08-10",
+   "cam": [
+    51.0497472,
+    3.734653,
+    252,
+    0.49
+   ]
+  },
+  "820214802236436": {
+   "file": "photos/820214802236436.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=820214802236436",
+   "author": "smer",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-27",
+   "cam": [
+    51.0497116,
+    3.7345729,
+    265,
+    0.884
+   ]
+  },
+  "184426001257348": {
+   "file": "photos/184426001257348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=184426001257348",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-06-12",
+   "cam": [
+    51.053402,
+    3.7316803,
+    274,
+    0.708
+   ]
+  },
+  "115572721521409": {
+   "file": "photos/115572721521409.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=115572721521409",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.0534137,
+    3.7315819,
+    280,
+    0.493
+   ]
+  },
+  "870545701021937": {
+   "file": "photos/870545701021937.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=870545701021937",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-06-12",
+   "cam": [
+    51.0534018,
+    3.7317133,
+    274,
+    0.708
+   ]
+  },
+  "741618654174385": {
+   "file": "photos/741618654174385.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=741618654174385",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.0533991,
+    3.7318488,
+    280,
+    0.493
+   ]
+  },
+  "438218014931487": {
+   "file": "photos/438218014931487.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=438218014931487",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-22",
+   "cam": [
+    51.0531381,
+    3.7317164,
+    281,
+    0.722
+   ]
+  },
+  "463419463366311-263": {
+   "file": "photos/463419463366311-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=463419463366311",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0517915,
+    3.7328181,
+    263,
+    0.5
+   ]
+  },
+  "969483311602859-243": {
+   "file": "photos/969483311602859-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969483311602859",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0517887,
+    3.7328137,
+    243,
+    0.5
+   ]
+  },
+  "969483311602859-223": {
+   "file": "photos/969483311602859-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969483311602859",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0517887,
+    3.7328137,
+    223,
+    0.5
+   ]
+  },
+  "969483311602859-206": {
+   "file": "photos/969483311602859-206.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969483311602859",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0517887,
+    3.7328137,
+    206,
+    0.5
+   ]
+  },
+  "1724792261684808-287": {
+   "file": "photos/1724792261684808-287.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724792261684808",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0510452,
+    3.7332623,
+    287,
+    0.5
+   ]
+  },
+  "1724792261684808-235": {
+   "file": "photos/1724792261684808-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724792261684808",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0510452,
+    3.7332623,
+    235,
+    0.5
+   ]
+  },
+  "418059917973623-278": {
+   "file": "photos/418059917973623-278.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418059917973623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0509263,
+    3.7332821,
+    278,
+    0.5
+   ]
+  },
+  "418059917973623-215": {
+   "file": "photos/418059917973623-215.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418059917973623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0509263,
+    3.7332821,
+    215,
+    0.5
+   ]
+  },
+  "1127522445262151-284": {
+   "file": "photos/1127522445262151-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1127522445262151",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0507649,
+    3.7335974,
+    284,
+    0.5
+   ]
+  },
+  "1606426684091350-215": {
+   "file": "photos/1606426684091350-215.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1606426684091350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0504143,
+    3.7338475,
+    215,
+    0.5
+   ]
+  },
+  "1127522445262151-257": {
+   "file": "photos/1127522445262151-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1127522445262151",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0507649,
+    3.7335974,
+    257,
+    0.5
+   ]
+  },
+  "1606426684091350-269": {
+   "file": "photos/1606426684091350-269.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1606426684091350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0504143,
+    3.7338475,
+    269,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 16784,
+   "at": [
+    786.15,
+    207.25
+   ],
+   "centre": [
+    793.9,
+    200.5
+   ],
+   "width": 11.2,
+   "faces": 139,
+   "toStreet": 12.9,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    782.5,
+    203,
+    791.3,
+    195.5,
+    798.5,
+    189.2,
+    807.5,
+    203.2,
+    789.8,
+    211.5
+   ],
+   "id": "keizer-karelstraat-139-01",
+   "latLon": [
+    51.051875,
+    3.732752
+   ],
+   "photos": [
+    {
+     "id": "135626928518499",
+     "metres": 21,
+     "off": 1,
+     "span": [
+      0.403,
+      0.612
+     ]
+    },
+    {
+     "id": "162289545833930",
+     "metres": 36,
+     "off": 1,
+     "span": [
+      0.429,
+      0.605
+     ]
+    },
+    {
+     "id": "474031693813766",
+     "metres": 20,
+     "off": 19,
+     "span": [
+      0.564,
+      0.897
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16744,
+   "at": [
+    896.5999999999999,
+    445.1
+   ],
+   "centre": [
+    905.4,
+    440.8
+   ],
+   "width": 5,
+   "faces": 151,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 22.2,
+   "kind": "house",
+   "ring": [
+    915.8,
+    438.3,
+    897.8,
+    447.3,
+    895.4,
+    442.9,
+    912.4,
+    434.5
+   ],
+   "id": "keizer-karelstraat-151-02",
+   "latLon": [
+    51.050154,
+    3.734014
+   ],
+   "photos": [
+    {
+     "id": "1287043032286107-78",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.438,
+      0.561
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16795,
+   "at": [
+    738.55,
+    122
+   ],
+   "centre": [
+    754.1,
+    114.9
+   ],
+   "width": 11.4,
+   "faces": 153,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 20,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    736,
+    116.9,
+    759.9,
+    105.1,
+    762.6,
+    103.8,
+    765,
+    109.3,
+    755,
+    114.7,
+    756.4,
+    117.6,
+    755.6,
+    119.4,
+    755.5,
+    120,
+    741.1,
+    127.1
+   ],
+   "id": "keizer-karelstraat-153-03",
+   "latLon": [
+    51.052492,
+    3.732208
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16690,
+   "at": [
+    846.3,
+    341.9
+   ],
+   "centre": [
+    856.4,
+    335.9
+   ],
+   "width": 8,
+   "faces": 153,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    844.5,
+    338.3,
+    858.5,
+    330.9,
+    861.4,
+    329.3,
+    863.6,
+    332,
+    858.1,
+    335.2,
+    860.5,
+    339.9,
+    848.1,
+    345.5
+   ],
+   "id": "keizer-karelstraat-153-04",
+   "latLon": [
+    51.050901,
+    3.733439
+   ],
+   "photos": [
+    {
+     "id": "546411864611758-55",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.421,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16577,
+   "at": [
+    861.4,
+    372.85
+   ],
+   "centre": [
+    866.1,
+    369.5
+   ],
+   "width": 11.1,
+   "faces": 153,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    865.8,
+    360.1,
+    874.9,
+    370.5,
+    875.8,
+    371.4,
+    872.6,
+    372.9,
+    870.4,
+    374.2,
+    863.9,
+    377.8,
+    858.9,
+    367.9,
+    859.6,
+    367.6,
+    859.8,
+    366.4,
+    859.3,
+    365.9
+   ],
+   "id": "keizer-karelstraat-153-05",
+   "latLon": [
+    51.050677,
+    3.733612
+   ],
+   "photos": [
+    {
+     "id": "3009657569186703-76",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.375,
+      0.621
+     ]
+    },
+    {
+     "id": "3698905627089216-39",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.402,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16572,
+   "at": [
+    868.85,
+    387.9
+   ],
+   "centre": [
+    881.9,
+    380.5
+   ],
+   "width": 7.4,
+   "faces": 153,
+   "toStreet": 9.1,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    867.2,
+    384.6,
+    877.8,
+    380.8,
+    881.5,
+    377,
+    881,
+    376.1,
+    884.4,
+    372.5,
+    885.1,
+    373.2,
+    890.7,
+    378.8,
+    888.6,
+    380.9,
+    887.4,
+    382,
+    885.9,
+    383.6,
+    882.1,
+    385.4,
+    870.5,
+    391.2
+   ],
+   "id": "keizer-karelstraat-153-06",
+   "latLon": [
+    51.050568,
+    3.733697
+   ],
+   "photos": [
+    {
+     "id": "1044556363536435-66",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.411,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16566,
+   "at": [
+    888.5999999999999,
+    428.55
+   ],
+   "centre": [
+    895.1,
+    426.3
+   ],
+   "width": 14,
+   "faces": 153,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": 21.6,
+   "kind": "house",
+   "ring": [
+    885.4,
+    422.3,
+    894.8,
+    418.9,
+    900,
+    425.4,
+    898.1,
+    426.8,
+    900.6,
+    429.9,
+    891.8,
+    434.8
+   ],
+   "id": "keizer-karelstraat-153-07",
+   "latLon": [
+    51.050274,
+    3.733923
+   ],
+   "photos": [
+    {
+     "id": "1203306364225788-59",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.321,
+      0.682
+     ]
+    },
+    {
+     "id": "701539172310869-89",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.38,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16740,
+   "at": [
+    908.15,
+    468.4
+   ],
+   "centre": [
+    920.1,
+    464.1
+   ],
+   "width": 9.6,
+   "faces": 153,
+   "toStreet": 7.6,
+   "floors": 5,
+   "eaves": 18,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    927.2,
+    464.5,
+    928.4,
+    463.9,
+    926.6,
+    460.2,
+    920.3,
+    463.3,
+    917.8,
+    458.3,
+    906,
+    464.1,
+    910.3,
+    472.7,
+    924,
+    466.1
+   ],
+   "id": "keizer-karelstraat-153-08",
+   "latLon": [
+    51.049985,
+    3.734146
+   ],
+   "photos": [
+    {
+     "id": "914934000447974-23",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.446,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16738,
+   "at": [
+    917.05,
+    486.79999999999995
+   ],
+   "centre": [
+    932.5,
+    484.7
+   ],
+   "width": 9.2,
+   "faces": 153,
+   "toStreet": 7.1,
+   "floors": 5,
+   "eaves": 18.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    915,
+    482.7,
+    931.9,
+    475.2,
+    936,
+    483.7,
+    938.7,
+    481.7,
+    939.5,
+    483.2,
+    936.8,
+    484.9,
+    939.6,
+    489.5,
+    936.4,
+    491.1,
+    932.2,
+    484,
+    919.1,
+    490.9
+   ],
+   "id": "keizer-karelstraat-153-09",
+   "latLon": [
+    51.049852,
+    3.734248
+   ],
+   "photos": [
+    {
+     "id": "914934000447974-68",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.391,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16855,
+   "at": [
+    707.35,
+    58.45
+   ],
+   "centre": [
+    724.5,
+    35.4
+   ],
+   "width": 24.4,
+   "faces": 154,
+   "toStreet": 8.4,
+   "floors": 9,
+   "eaves": 35.4,
+   "top": null,
+   "kind": "residential",
+   "ring": [
+    701.1,
+    17.9,
+    706.5,
+    15.3,
+    716.2,
+    10.6,
+    719.7,
+    10.9,
+    725.3,
+    12.8,
+    725.8,
+    12.5,
+    727,
+    11.5,
+    742.6,
+    12.9,
+    747.1,
+    22.2,
+    753.7,
+    35.7,
+    754.4,
+    37.1,
+    743,
+    43.5,
+    740.5,
+    44.9,
+    740.5,
+    45.3,
+    733.7,
+    44.4,
+    732.6,
+    52.7,
+    732.5,
+    53.1,
+    729.5,
+    54.5,
+    731.3,
+    58.3,
+    731.6,
+    60.5,
+    729.8,
+    61.2,
+    728.9,
+    61.6,
+    712.7,
+    69.4,
+    702,
+    47.5,
+    692.9,
+    28.6,
+    694.1,
+    25.1,
+    695.5,
+    21.2,
+    695.7,
+    20.5
+   ],
+   "id": "keizer-karelstraat-154-10",
+   "latLon": [
+    51.052951,
+    3.731851
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16799,
+   "at": [
+    718.5999999999999,
+    81.4
+   ],
+   "centre": [
+    729.5,
+    76.4
+   ],
+   "width": 15.1,
+   "faces": 154,
+   "toStreet": 8.3,
+   "floors": 7,
+   "eaves": 26.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    743.2,
+    84.3,
+    724.5,
+    93.5,
+    721.9,
+    88.2,
+    715.3,
+    74.6,
+    712.7,
+    69.4,
+    728.9,
+    61.6,
+    730.8,
+    65.4,
+    733.6,
+    63.9,
+    742.5,
+    81.4,
+    741.9,
+    81.7
+   ],
+   "id": "keizer-karelstraat-154-11",
+   "latLon": [
+    51.052785,
+    3.731979
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16796,
+   "at": [
+    730.0999999999999,
+    105.2
+   ],
+   "centre": [
+    742.2,
+    99
+   ],
+   "width": 19,
+   "faces": 154,
+   "toStreet": 8,
+   "floors": 6,
+   "eaves": 23.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    724.5,
+    93.5,
+    743.2,
+    84.3,
+    744.9,
+    87.7,
+    747.1,
+    92.1,
+    749.5,
+    91,
+    753.6,
+    98.8,
+    755.6,
+    97.8,
+    756.5,
+    98,
+    759.9,
+    105.1,
+    736,
+    116.9,
+    734.4,
+    113.6,
+    734.3,
+    113.7,
+    725.9,
+    96.7,
+    726,
+    96.6
+   ],
+   "id": "keizer-karelstraat-154-12",
+   "latLon": [
+    51.052613,
+    3.732111
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16794,
+   "at": [
+    744.5,
+    134.1
+   ],
+   "centre": [
+    754.4,
+    127.5
+   ],
+   "width": 15.6,
+   "faces": 154,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 19.8,
+   "top": 26.4,
+   "kind": "house",
+   "ring": [
+    741.1,
+    127.1,
+    755.5,
+    120,
+    760.2,
+    117.7,
+    767.2,
+    131.5,
+    747.9,
+    141.1
+   ],
+   "id": "keizer-karelstraat-154-13",
+   "latLon": [
+    51.052404,
+    3.732276
+   ],
+   "photos": [
+    {
+     "id": "1321288702050277-54",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.367,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16793,
+   "at": [
+    753.25,
+    152.05
+   ],
+   "centre": [
+    801.9,
+    126.6
+   ],
+   "width": 24.4,
+   "faces": 154,
+   "toStreet": 7.8,
+   "floors": 5,
+   "eaves": 20.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    747.9,
+    141.1,
+    767.2,
+    131.5,
+    809.7,
+    110.9,
+    810.1,
+    110.8,
+    810.5,
+    112.6,
+    818,
+    108.2,
+    819.4,
+    111,
+    817.3,
+    112.1,
+    823.5,
+    124.5,
+    825.5,
+    128.6,
+    821.8,
+    131,
+    816.8,
+    134.2,
+    781,
+    152.4,
+    758.6,
+    163
+   ],
+   "id": "keizer-karelstraat-154-14",
+   "latLon": [
+    51.052274,
+    3.732376
+   ],
+   "photos": [
+    {
+     "id": "1563732490905063-84",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.272,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16792,
+   "at": [
+    762.6500000000001,
+    171.3
+   ],
+   "centre": [
+    777.9,
+    166.5
+   ],
+   "width": 18.5,
+   "faces": 154,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 25.2,
+   "kind": "house",
+   "ring": [
+    758.6,
+    163,
+    781,
+    152.4,
+    783.8,
+    159.7,
+    786.9,
+    165.4,
+    781.2,
+    168.4,
+    782.8,
+    171.6,
+    782,
+    172,
+    766.7,
+    179.6
+   ],
+   "id": "keizer-karelstraat-154-15",
+   "latLon": [
+    51.052135,
+    3.732483
+   ],
+   "photos": [
+    {
+     "id": "1068766814663735-71",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.333,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16791,
+   "at": [
+    768.6,
+    183.45
+   ],
+   "centre": [
+    778.3,
+    180.4
+   ],
+   "width": 8.6,
+   "faces": 154,
+   "toStreet": 7.6,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": 21.1,
+   "kind": "house",
+   "ring": [
+    766.7,
+    179.6,
+    782,
+    172,
+    786,
+    180.1,
+    783.5,
+    181.2,
+    781.2,
+    182.2,
+    770.5,
+    187.3
+   ],
+   "id": "keizer-karelstraat-154-16",
+   "latLon": [
+    51.052047,
+    3.732551
+   ],
+   "photos": [
+    {
+     "id": "480989396310917",
+     "metres": 39,
+     "off": 13,
+     "span": [
+      0.298,
+      0.39
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16790,
+   "at": [
+    772.75,
+    191.9
+   ],
+   "centre": [
+    777.8,
+    188.7
+   ],
+   "width": 10.2,
+   "faces": 154,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": 20.5,
+   "kind": "house",
+   "ring": [
+    770.5,
+    187.3,
+    781.2,
+    182.2,
+    784.3,
+    188.6,
+    775,
+    196.5
+   ],
+   "id": "keizer-karelstraat-154-17",
+   "latLon": [
+    51.051986,
+    3.732598
+   ],
+   "photos": [
+    {
+     "id": "4462378527130277",
+     "metres": 31,
+     "off": 5,
+     "span": [
+      0.37,
+      0.517
+     ]
+    },
+    {
+     "id": "550391915943646",
+     "metres": 42,
+     "off": 21,
+     "span": [
+      0.261,
+      0.356
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16787,
+   "at": [
+    781.6,
+    209.95
+   ],
+   "centre": [
+    783.9,
+    208.6
+   ],
+   "width": 9.7,
+   "faces": 154,
+   "toStreet": 7.7,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    782.5,
+    203,
+    789.8,
+    211.5,
+    783.7,
+    214.3,
+    779.5,
+    205.6
+   ],
+   "id": "keizer-karelstraat-154-18",
+   "latLon": [
+    51.051855,
+    3.7327
+   ],
+   "photos": [
+    {
+     "id": "476026080181137",
+     "metres": 12,
+     "off": 4,
+     "span": [
+      0.297,
+      0.629
+     ]
+    },
+    {
+     "id": "1120652948438603",
+     "metres": 32,
+     "off": 1,
+     "span": [
+      0.431,
+      0.603
+     ]
+    },
+    {
+     "id": "474031693813766",
+     "metres": 15,
+     "off": 20,
+     "span": [
+      0.567,
+      0.955
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16710,
+   "at": [
+    787.05,
+    221.05
+   ],
+   "centre": [
+    806.7,
+    211.8
+   ],
+   "width": 15.1,
+   "faces": 154,
+   "toStreet": 7.8,
+   "floors": 5,
+   "eaves": 20,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    816.8,
+    198.9,
+    819.2,
+    202.5,
+    825.6,
+    211.7,
+    820.2,
+    214.1,
+    816.4,
+    207.5,
+    805.5,
+    212.8,
+    805.4,
+    213.2,
+    802.1,
+    214.7,
+    804.9,
+    221.1,
+    790.4,
+    227.8,
+    783.7,
+    214.3,
+    789.8,
+    211.5,
+    807.5,
+    203.2
+   ],
+   "id": "keizer-karelstraat-154-19",
+   "latLon": [
+    51.051775,
+    3.732762
+   ],
+   "photos": [
+    {
+     "id": "292941875816573",
+     "metres": 43,
+     "off": 13,
+     "span": [
+      0.563,
+      0.774
+     ]
+    },
+    {
+     "id": "550391915943646",
+     "metres": 37,
+     "off": 16,
+     "span": [
+      0.559,
+      0.735
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16707,
+   "at": [
+    793.45,
+    234
+   ],
+   "centre": [
+    811.8,
+    224.3
+   ],
+   "width": 13.8,
+   "faces": 154,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 18.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    790.4,
+    227.8,
+    804.9,
+    221.1,
+    820.2,
+    214.1,
+    825.6,
+    211.7,
+    833,
+    222.5,
+    811.8,
+    232.8,
+    796.5,
+    240.2
+   ],
+   "id": "keizer-karelstraat-154-20",
+   "latLon": [
+    51.051681,
+    3.732835
+   ],
+   "photos": [
+    {
+     "id": "1161808135454493-73",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.274,
+      0.697
+     ]
+    },
+    {
+     "id": "528173499685052-66",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.372,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16705,
+   "at": [
+    799.55,
+    246.45
+   ],
+   "centre": [
+    814.6,
+    239.6
+   ],
+   "width": 13.9,
+   "faces": 154,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    796.5,
+    240.2,
+    811.8,
+    232.8,
+    812.2,
+    233.7,
+    813.7,
+    233.7,
+    815.1,
+    236.5,
+    816,
+    238.2,
+    822.6,
+    235.2,
+    826.4,
+    242.2,
+    822,
+    245.9,
+    821.2,
+    244.1,
+    802.6,
+    252.7
+   ],
+   "id": "keizer-karelstraat-154-21",
+   "latLon": [
+    51.051591,
+    3.732905
+   ],
+   "photos": [
+    {
+     "id": "627425463562167-78",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.27,
+      0.689
+     ]
+    },
+    {
+     "id": "1733660184061823-70",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.363,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16701,
+   "at": [
+    804.3,
+    256.2
+   ],
+   "centre": [
+    814.5,
+    249.9
+   ],
+   "width": 7.8,
+   "faces": 154,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 19.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    802.6,
+    252.7,
+    821.2,
+    244.1,
+    822,
+    245.9,
+    820.8,
+    247,
+    806,
+    259.7
+   ],
+   "id": "keizer-karelstraat-154-22",
+   "latLon": [
+    51.051521,
+    3.732959
+   ],
+   "photos": [
+    {
+     "id": "993556025947212-71",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.375,
+      0.625
+     ]
+    },
+    {
+     "id": "3814299462179629-58",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.429,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16698,
+   "at": [
+    810.3,
+    268.5
+   ],
+   "centre": [
+    826,
+    259.5
+   ],
+   "width": 19.6,
+   "faces": 154,
+   "toStreet": 8.5,
+   "floors": 6,
+   "eaves": 20.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    806,
+    259.7,
+    820.8,
+    247,
+    823.5,
+    252.3,
+    825.9,
+    257.2,
+    830.8,
+    254.9,
+    832.3,
+    255.1,
+    834,
+    258.2,
+    833.4,
+    259.9,
+    830.4,
+    261.3,
+    828.2,
+    262.3,
+    831.8,
+    269,
+    814.6,
+    277.3
+   ],
+   "id": "keizer-karelstraat-154-23",
+   "latLon": [
+    51.051432,
+    3.733028
+   ],
+   "photos": [
+    {
+     "id": "1195284431944727-66",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.271,
+      0.719
+     ]
+    },
+    {
+     "id": "2518736541643509-65",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.301,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16696,
+   "at": [
+    817.6,
+    283.35
+   ],
+   "centre": [
+    837.4,
+    272.2
+   ],
+   "width": 13.5,
+   "faces": 154,
+   "toStreet": 8.6,
+   "floors": 5,
+   "eaves": 20.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    814.6,
+    277.3,
+    831.8,
+    269,
+    856.7,
+    256.9,
+    861.2,
+    263.5,
+    839.5,
+    277.3,
+    820.6,
+    289.4
+   ],
+   "id": "keizer-karelstraat-154-24",
+   "latLon": [
+    51.051324,
+    3.733111
+   ],
+   "photos": [
+    {
+     "id": "872063114872514-58",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.365,
+      0.638
+     ]
+    },
+    {
+     "id": "1195284431944727-102",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.39,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16695,
+   "at": [
+    824.6500000000001,
+    297.7
+   ],
+   "centre": [
+    840.1,
+    288.4
+   ],
+   "width": 18.5,
+   "faces": 154,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": 25.2,
+   "kind": "house",
+   "ring": [
+    820.6,
+    289.4,
+    839.5,
+    277.3,
+    843.1,
+    282.3,
+    840.9,
+    283.9,
+    841.7,
+    284,
+    843.1,
+    285,
+    843.5,
+    286.4,
+    843.3,
+    287.9,
+    842.7,
+    289,
+    842.6,
+    289.2,
+    845.7,
+    293.9,
+    846,
+    294.3,
+    828.7,
+    306
+   ],
+   "id": "keizer-karelstraat-154-25",
+   "latLon": [
+    51.05122,
+    3.733192
+   ],
+   "photos": [
+    {
+     "id": "1036758058004115-59",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.316,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16693,
+   "at": [
+    831,
+    310.65
+   ],
+   "centre": [
+    854,
+    312.5
+   ],
+   "width": 10.4,
+   "faces": 154,
+   "toStreet": 8.7,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    828.7,
+    306,
+    846,
+    294.3,
+    845.7,
+    293.9,
+    847.4,
+    292.4,
+    848.8,
+    292.6,
+    849.7,
+    293.4,
+    854.7,
+    290.4,
+    856.7,
+    293.5,
+    846.2,
+    301.9,
+    869.2,
+    328.5,
+    876.9,
+    337.5,
+    872,
+    341.8,
+    867.6,
+    336.6,
+    863.6,
+    332,
+    861.4,
+    329.3,
+    859,
+    326.6,
+    856.7,
+    324.2,
+    842.6,
+    307.3,
+    833.3,
+    315.3
+   ],
+   "id": "keizer-karelstraat-154-26",
+   "latLon": [
+    51.051127,
+    3.733264
+   ],
+   "photos": [
+    {
+     "id": "2829186923914753-55",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.397,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16692,
+   "at": [
+    837.4,
+    323.70000000000005
+   ],
+   "centre": [
+    843.5,
+    319.7
+   ],
+   "width": 18.7,
+   "faces": 154,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    833.3,
+    315.3,
+    842.6,
+    307.3,
+    856.7,
+    324.2,
+    841.5,
+    332.1
+   ],
+   "id": "keizer-karelstraat-154-27",
+   "latLon": [
+    51.051032,
+    3.733338
+   ],
+   "photos": [
+    {
+     "id": "542303188453523-63",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.305,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16691,
+   "at": [
+    843,
+    335.20000000000005
+   ],
+   "centre": [
+    853.6,
+    330.2
+   ],
+   "width": 6.9,
+   "faces": 154,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 22.1,
+   "kind": "house",
+   "ring": [
+    841.5,
+    332.1,
+    856.7,
+    324.2,
+    859,
+    326.6,
+    861.4,
+    329.3,
+    858.5,
+    330.9,
+    844.5,
+    338.3
+   ],
+   "id": "keizer-karelstraat-154-28",
+   "latLon": [
+    51.050949,
+    3.733402
+   ],
+   "photos": [
+    {
+     "id": "418059917973623-73",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.336,
+      0.65
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16688,
+   "at": [
+    851.9000000000001,
+    353.4
+   ],
+   "centre": [
+    858.2,
+    346.7
+   ],
+   "width": 6,
+   "faces": 154,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 17.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    848.1,
+    345.5,
+    860.5,
+    339.9,
+    867.6,
+    336.6,
+    872,
+    341.8,
+    855.4,
+    356.4,
+    853.2,
+    356.1,
+    850.6,
+    350.7
+   ],
+   "id": "keizer-karelstraat-154-29",
+   "latLon": [
+    51.050817,
+    3.733503
+   ],
+   "photos": [
+    {
+     "id": "1025611975714408-71",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.423,
+      0.572
+     ]
+    },
+    {
+     "id": "3009657569186703-26",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.459,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16575,
+   "at": [
+    865.55,
+    381.20000000000005
+   ],
+   "centre": [
+    877.5,
+    374.7
+   ],
+   "width": 7.6,
+   "faces": 154,
+   "toStreet": 9,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    863.9,
+    377.8,
+    870.4,
+    374.2,
+    872.6,
+    372.9,
+    875.8,
+    371.4,
+    882.8,
+    365.6,
+    887.1,
+    370.7,
+    885.1,
+    373.2,
+    884.4,
+    372.5,
+    881,
+    376.1,
+    881.5,
+    377,
+    877.8,
+    380.8,
+    867.2,
+    384.6
+   ],
+   "id": "keizer-karelstraat-154-30",
+   "latLon": [
+    51.050616,
+    3.733659
+   ],
+   "photos": [
+    {
+     "id": "3698905627089216-61",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.416,
+      0.589
+     ]
+    },
+    {
+     "id": "3009657569186703-97",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.435,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16570,
+   "at": [
+    873.3,
+    396.9
+   ],
+   "centre": [
+    878.5,
+    393.4
+   ],
+   "width": 12.7,
+   "faces": 154,
+   "toStreet": 9.2,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 20.3,
+   "kind": "house",
+   "ring": [
+    870.5,
+    391.2,
+    882.1,
+    385.4,
+    885.5,
+    394.5,
+    876.1,
+    402.6
+   ],
+   "id": "keizer-karelstraat-154-31",
+   "latLon": [
+    51.050503,
+    3.733748
+   ],
+   "photos": [
+    {
+     "id": "537111308797511-61",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.35,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16742,
+   "at": [
+    899.9,
+    451.55
+   ],
+   "centre": [
+    912.9,
+    445.6
+   ],
+   "width": 9.5,
+   "faces": 154,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 5,
+   "top": 23.5,
+   "kind": "house",
+   "ring": [
+    897.8,
+    447.3,
+    915.8,
+    438.3,
+    920,
+    443.1,
+    919.8,
+    443.3,
+    921.9,
+    445.7,
+    902,
+    455.8
+   ],
+   "id": "keizer-karelstraat-154-32",
+   "latLon": [
+    51.050107,
+    3.734052
+   ],
+   "photos": [
+    {
+     "id": "1467638761293916-64",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.381,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16741,
+   "at": [
+    904,
+    459.95000000000005
+   ],
+   "centre": [
+    920.8,
+    452.9
+   ],
+   "width": 9.2,
+   "faces": 154,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 22.6,
+   "kind": "house",
+   "ring": [
+    902,
+    455.8,
+    921.9,
+    445.7,
+    922.2,
+    445.4,
+    925.8,
+    449.1,
+    925.7,
+    449.2,
+    927.4,
+    451.1,
+    927.6,
+    451,
+    929.3,
+    452.6,
+    924.3,
+    455.1,
+    920.1,
+    457.2,
+    917.8,
+    458.3,
+    906,
+    464.1
+   ],
+   "id": "keizer-karelstraat-154-33",
+   "latLon": [
+    51.050047,
+    3.734099
+   ],
+   "photos": [
+    {
+     "id": "1467638761293916-90",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.394,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12132,
+   "at": [
+    922.6,
+    498
+   ],
+   "centre": [
+    930.7,
+    493.5
+   ],
+   "width": 15.8,
+   "faces": 154,
+   "toStreet": 6.8,
+   "floors": 6,
+   "eaves": 21.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    919.1,
+    490.9,
+    932.2,
+    484,
+    936.4,
+    491.1,
+    939.7,
+    496.4,
+    926.1,
+    505.1
+   ],
+   "id": "keizer-karelstraat-154-34",
+   "latLon": [
+    51.049771,
+    3.734312
+   ],
+   "photos": [
+    {
+     "id": "7633052253461052-88",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.332,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16567,
+   "at": [
+    883.25,
+    417.70000000000005
+   ],
+   "centre": [
+    885,
+    413.3
+   ],
+   "width": 10.2,
+   "faces": 155,
+   "toStreet": 8.9,
+   "floors": 4,
+   "eaves": 16.8,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    894.8,
+    418.9,
+    885.4,
+    422.3,
+    881.1,
+    413.1,
+    881,
+    412.9,
+    880.9,
+    412.6,
+    880.9,
+    412.3,
+    880.9,
+    412,
+    881,
+    411.7,
+    881.1,
+    411.5,
+    881.2,
+    411.3,
+    881.4,
+    411.1,
+    888.2,
+    405.3,
+    895,
+    413.8,
+    897.4,
+    416.8
+   ],
+   "id": "keizer-karelstraat-155-35",
+   "latLon": [
+    51.050352,
+    3.733862
+   ],
+   "photos": [
+    {
+     "id": "3081171282035074-67",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.382,
+      0.614
+     ]
+    },
+    {
+     "id": "2633582553495496-58",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.374,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16739,
+   "at": [
+    912.65,
+    477.7
+   ],
+   "centre": [
+    927.1,
+    471
+   ],
+   "width": 11,
+   "faces": 155,
+   "toStreet": 7.4,
+   "floors": 5,
+   "eaves": 18.4,
+   "top": 22.2,
+   "kind": "apartments",
+   "ring": [
+    910.3,
+    472.7,
+    915,
+    482.7,
+    931.9,
+    475.2,
+    935.9,
+    473,
+    934.8,
+    471.3,
+    933.4,
+    472,
+    930.3,
+    465.6,
+    928,
+    466.5,
+    927.2,
+    464.5,
+    924,
+    466.1
+   ],
+   "id": "keizer-karelstraat-155-36",
+   "latLon": [
+    51.049918,
+    3.734198
+   ],
+   "photos": [
+    {
+     "id": "914934000447974-43",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.397,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16563,
+   "at": [
+    893.5999999999999,
+    438.85
+   ],
+   "centre": [
+    902.5,
+    432.1
+   ],
+   "width": 8.9,
+   "faces": 156,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 21.7,
+   "kind": "house",
+   "ring": [
+    891.8,
+    434.8,
+    900.6,
+    429.9,
+    905.6,
+    427.5,
+    905.6,
+    427.6,
+    906,
+    427.3,
+    912.4,
+    434.5,
+    895.4,
+    442.9
+   ],
+   "id": "keizer-karelstraat-156-37",
+   "latLon": [
+    51.050199,
+    3.73398
+   ],
+   "photos": [
+    {
+     "id": "1054261032975676-69",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.385,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16892,
+   "at": [
+    795.55,
+    290.05
+   ],
+   "centre": [
+    791.9,
+    292.9
+   ],
+   "width": 11,
+   "faces": 316,
+   "toStreet": 14.2,
+   "floors": 5,
+   "eaves": 18.7,
+   "top": 20.6,
+   "kind": "yes",
+   "ring": [
+    791.7,
+    286.1,
+    791.2,
+    286.7,
+    782.3,
+    295.3,
+    788,
+    301.1,
+    798.6,
+    294.5,
+    799.4,
+    294
+   ],
+   "id": "keizer-karelstraat-316-01",
+   "latLon": [
+    51.051276,
+    3.732859
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16579,
+   "at": [
+    860.2,
+    435.29999999999995
+   ],
+   "centre": [
+    859.9,
+    442.2
+   ],
+   "width": 8.5,
+   "faces": 317,
+   "toStreet": 19.6,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    851.2,
+    437.8,
+    857.3,
+    432.2,
+    863.1,
+    438.4,
+    859.6,
+    440.4,
+    862.8,
+    444.1,
+    860.7,
+    444.9,
+    863.2,
+    449.6,
+    861.6,
+    450.4
+   ],
+   "id": "keizer-karelstraat-317-02",
+   "latLon": [
+    51.050225,
+    3.733598
+   ],
+   "photos": [
+    {
+     "id": "2127389440995298-229",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.234,
+      0.752
+     ]
+    },
+    {
+     "id": "1309633297023744-210",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.382,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16459,
+   "at": [
+    763.45,
+    233.64999999999998
+   ],
+   "centre": [
+    759,
+    232.8
+   ],
+   "width": 8,
+   "faces": 320,
+   "toStreet": 18.9,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    751.1,
+    230.7,
+    756.8,
+    225.7,
+    760.9,
+    230.6,
+    766,
+    236.7,
+    760,
+    240.1
+   ],
+   "id": "keizer-karelstraat-320-03",
+   "latLon": [
+    51.051684,
+    3.732492
+   ],
+   "photos": [
+    {
+     "id": "970383481255991-239",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.308,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16599,
+   "at": [
+    828.9,
+    369.05
+   ],
+   "centre": [
+    824.7,
+    368.9
+   ],
+   "width": 13.7,
+   "faces": 320,
+   "toStreet": 18.7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    816.1,
+    365.4,
+    819.5,
+    362.2,
+    818.2,
+    360.7,
+    820.3,
+    358.8,
+    824.5,
+    363.8,
+    833.3,
+    374.3,
+    834.2,
+    375.3,
+    828.5,
+    380.5,
+    827.7,
+    379.3
+   ],
+   "id": "keizer-karelstraat-320-04",
+   "latLon": [
+    51.050704,
+    3.73324
+   ],
+   "photos": [
+    {
+     "id": "1025611975714408-204",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.259,
+      0.938
+     ]
+    },
+    {
+     "id": "573219532368434-260",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.372,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21279,
+   "at": [
+    652.1500000000001,
+    -14.8
+   ],
+   "centre": [
+    645.7,
+    -11.8
+   ],
+   "width": 6.5,
+   "faces": 333,
+   "toStreet": 8.7,
+   "floors": 6,
+   "eaves": 23.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    636.3,
+    -18.2,
+    642.4,
+    -20.6,
+    648.2,
+    -22.7,
+    650.7,
+    -17.7,
+    653.6,
+    -11.9,
+    648.3,
+    -9.4,
+    648.2,
+    -9.5,
+    647,
+    -12.4,
+    644.8,
+    -11.3,
+    645.7,
+    -8.1,
+    646.9,
+    -3.7,
+    641.6,
+    -2.4,
+    640.4,
+    -5.8
+   ],
+   "id": "keizer-karelstraat-333-05",
+   "latLon": [
+    51.053481,
+    3.73122
+   ],
+   "photos": [
+    {
+     "id": "745075090585538",
+     "metres": 22,
+     "off": 6,
+     "span": [
+      0.503,
+      0.588
+     ]
+    },
+    {
+     "id": "660733392352701",
+     "metres": 23,
+     "off": 10,
+     "span": [
+      0.56,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16806,
+   "at": [
+    709.3,
+    101.9
+   ],
+   "centre": [
+    693.4,
+    109.1
+   ],
+   "width": 7.6,
+   "faces": 333,
+   "toStreet": 9.2,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    688.5,
+    107.7,
+    707.6,
+    98.5,
+    711,
+    105.3,
+    690.2,
+    114.7,
+    688.1,
+    115.7,
+    686.3,
+    111.7,
+    688.5,
+    110.8,
+    687.3,
+    108.3
+   ],
+   "id": "keizer-karelstraat-333-06",
+   "latLon": [
+    51.052637,
+    3.731873
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16803,
+   "at": [
+    717.3,
+    118.1
+   ],
+   "centre": [
+    706.4,
+    124.6
+   ],
+   "width": 13.9,
+   "faces": 333,
+   "toStreet": 9.2,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 22.9,
+   "kind": "house",
+   "ring": [
+    700.4,
+    118.3,
+    714.2,
+    111.9,
+    720.4,
+    124.3,
+    707,
+    130.7,
+    706.4,
+    131,
+    705,
+    127.8,
+    701.6,
+    129.3,
+    699.6,
+    124.8,
+    702.8,
+    123.1
+   ],
+   "id": "keizer-karelstraat-333-07",
+   "latLon": [
+    51.05252,
+    3.731965
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16717,
+   "at": [
+    789,
+    264.3
+   ],
+   "centre": [
+    780.6,
+    268.9
+   ],
+   "width": 16.1,
+   "faces": 333,
+   "toStreet": 8.9,
+   "floors": 5,
+   "eaves": 17,
+   "top": 22.6,
+   "kind": "house",
+   "ring": [
+    771.2,
+    264.3,
+    785.4,
+    257.1,
+    792.6,
+    271.5,
+    780.6,
+    283.2,
+    773.2,
+    268.2
+   ],
+   "id": "keizer-karelstraat-333-08",
+   "latLon": [
+    51.051462,
+    3.732784
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16590,
+   "at": [
+    847.5999999999999,
+    383.70000000000005
+   ],
+   "centre": [
+    841.8,
+    387.1
+   ],
+   "width": 7.6,
+   "faces": 333,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    829.4,
+    392.7,
+    840.3,
+    382.9,
+    843.7,
+    379.9,
+    845.9,
+    380.3,
+    849.3,
+    387.1,
+    850.3,
+    389,
+    833.8,
+    397.6
+   ],
+   "id": "keizer-karelstraat-333-09",
+   "latLon": [
+    51.050598,
+    3.733454
+   ],
+   "photos": [
+    {
+     "id": "1127522445262151-208",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.448,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16588,
+   "at": [
+    851.9,
+    392.15
+   ],
+   "centre": [
+    841.7,
+    397.9
+   ],
+   "width": 7.1,
+   "faces": 333,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    833.8,
+    397.6,
+    850.3,
+    389,
+    853.5,
+    395.3,
+    841.1,
+    401.3,
+    836.5,
+    403.6,
+    835,
+    400.7
+   ],
+   "id": "keizer-karelstraat-333-10",
+   "latLon": [
+    51.050537,
+    3.733503
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16578,
+   "at": [
+    869,
+    427.9
+   ],
+   "centre": [
+    865.5,
+    429.5
+   ],
+   "width": 4.5,
+   "faces": 333,
+   "toStreet": 8.4,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    857.3,
+    432.2,
+    861.6,
+    428.3,
+    864.9,
+    425.3,
+    865.6,
+    426,
+    867.1,
+    426.3,
+    868,
+    425.9,
+    870,
+    429.9,
+    871.5,
+    433.1,
+    863.1,
+    438.4
+   ],
+   "id": "keizer-karelstraat-333-11",
+   "latLon": [
+    51.050278,
+    3.733699
+   ],
+   "photos": [
+    {
+     "id": "1606426684091350-214",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.463,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16581,
+   "at": [
+    878.55,
+    447.5
+   ],
+   "centre": [
+    862.9,
+    448.3
+   ],
+   "width": 9.2,
+   "faces": 333,
+   "toStreet": 9,
+   "floors": 5,
+   "eaves": 18.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    846,
+    457.5,
+    851,
+    455.2,
+    858.2,
+    451.9,
+    859.7,
+    451.2,
+    861.6,
+    450.4,
+    863.2,
+    449.6,
+    860.7,
+    444.9,
+    862.8,
+    444.1,
+    859.6,
+    440.4,
+    863.1,
+    438.4,
+    871.5,
+    433.1,
+    873.4,
+    437.4,
+    876.5,
+    443.4,
+    880.6,
+    451.6,
+    865.4,
+    459.1,
+    852.9,
+    465.2
+   ],
+   "id": "keizer-karelstraat-333-12",
+   "latLon": [
+    51.050137,
+    3.733808
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12134,
+   "at": [
+    904.4000000000001,
+    500.05
+   ],
+   "centre": [
+    899.1,
+    502.5
+   ],
+   "width": 8,
+   "faces": 333,
+   "toStreet": 10.3,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 20.8,
+   "kind": "house",
+   "ring": [
+    892.1,
+    501.3,
+    902.6,
+    496.5,
+    906.2,
+    503.6,
+    895.6,
+    508.6
+   ],
+   "id": "keizer-karelstraat-333-13",
+   "latLon": [
+    51.049756,
+    3.734104
+   ],
+   "photos": [
+    {
+     "id": "839068254589934",
+     "metres": 43,
+     "off": 8,
+     "span": [
+      0.536,
+      0.603
+     ]
+    },
+    {
+     "id": "991114088093756",
+     "metres": 27,
+     "off": 1,
+     "span": [
+      0.435,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12133,
+   "at": [
+    908.8,
+    508.75
+   ],
+   "centre": [
+    901.8,
+    511.1
+   ],
+   "width": 11.5,
+   "faces": 333,
+   "toStreet": 10.4,
+   "floors": 5,
+   "eaves": 19.8,
+   "top": 25.6,
+   "kind": "house",
+   "ring": [
+    894.6,
+    509,
+    895.6,
+    508.6,
+    906.2,
+    503.6,
+    911.4,
+    513.9,
+    901.3,
+    520.3
+   ],
+   "id": "keizer-karelstraat-333-14",
+   "latLon": [
+    51.049693,
+    3.734154
+   ],
+   "photos": [
+    {
+     "id": "189346950817608",
+     "metres": 35,
+     "off": 8,
+     "span": [
+      0.505,
+      0.629
+     ]
+    },
+    {
+     "id": "820214802236436",
+     "metres": 29,
+     "off": 1,
+     "span": [
+      0.385,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21278,
+   "at": [
+    656.6,
+    -5.7
+   ],
+   "centre": [
+    648.6,
+    -3.8
+   ],
+   "width": 13.8,
+   "faces": 334,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 16.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    641.6,
+    -2.4,
+    646.9,
+    -3.7,
+    645.7,
+    -8.1,
+    648.3,
+    -9.4,
+    653.6,
+    -11.9,
+    659.6,
+    0.5,
+    644.3,
+    8.2
+   ],
+   "id": "keizer-karelstraat-334-15",
+   "latLon": [
+    51.053415,
+    3.731271
+   ],
+   "photos": [
+    {
+     "id": "184426001257348",
+     "metres": 29,
+     "off": 1,
+     "span": [
+      0.359,
+      0.601
+     ]
+    },
+    {
+     "id": "115572721521409",
+     "metres": 22,
+     "off": 10,
+     "span": [
+      0.282,
+      0.519
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21277,
+   "at": [
+    662.3,
+    6.05
+   ],
+   "centre": [
+    650.9,
+    12.1
+   ],
+   "width": 12.3,
+   "faces": 334,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    644.3,
+    8.2,
+    659.6,
+    0.5,
+    665,
+    11.6,
+    649.7,
+    18.9,
+    647.8,
+    19.8,
+    644.4,
+    13.1,
+    645.4,
+    12.4
+   ],
+   "id": "keizer-karelstraat-334-16",
+   "latLon": [
+    51.05333,
+    3.731336
+   ],
+   "photos": [
+    {
+     "id": "870545701021937",
+     "metres": 28,
+     "off": 21,
+     "span": [
+      0.074,
+      0.364
+     ]
+    },
+    {
+     "id": "741618654174385",
+     "metres": 37,
+     "off": 22,
+     "span": [
+      0.222,
+      0.373
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16860,
+   "at": [
+    667.65,
+    16.95
+   ],
+   "centre": [
+    652.4,
+    25.7
+   ],
+   "width": 11.9,
+   "faces": 334,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 18.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    641.5,
+    31.3,
+    648.2,
+    28.2,
+    648.2,
+    29.4,
+    651.6,
+    27.7,
+    651.8,
+    28,
+    656.3,
+    25.8,
+    654.5,
+    21.8,
+    651.7,
+    22.9,
+    649.7,
+    18.9,
+    665,
+    11.6,
+    670.3,
+    22.3,
+    649.5,
+    32.2,
+    643,
+    34.3
+   ],
+   "id": "keizer-karelstraat-334-17",
+   "latLon": [
+    51.053252,
+    3.731397
+   ],
+   "photos": [
+    {
+     "id": "438218014931487",
+     "metres": 26,
+     "off": 19,
+     "span": [
+      0.649,
+      0.822
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16859,
+   "at": [
+    674.1,
+    29.85
+   ],
+   "centre": [
+    660.3,
+    36.9
+   ],
+   "width": 8.6,
+   "faces": 334,
+   "toStreet": 8.6,
+   "floors": 6,
+   "eaves": 20.9,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    643,
+    34.3,
+    649.5,
+    32.2,
+    670.3,
+    22.3,
+    672,
+    26.1,
+    672.2,
+    26,
+    676,
+    33.7,
+    675.8,
+    33.8,
+    677.7,
+    37.5,
+    662.2,
+    44.9,
+    647.4,
+    52.1,
+    644.9,
+    47.1,
+    658,
+    40.3,
+    659.1,
+    43.5,
+    664.7,
+    40.9,
+    661.1,
+    33.8,
+    646.1,
+    40.9,
+    645.3,
+    38.5
+   ],
+   "id": "keizer-karelstraat-334-18",
+   "latLon": [
+    51.053158,
+    3.731471
+   ],
+   "photos": [
+    {
+     "id": "438218014931487",
+     "metres": 17,
+     "off": 3,
+     "span": [
+      0.322,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16856,
+   "at": [
+    680.05,
+    42.25
+   ],
+   "centre": [
+    667.7,
+    50.4
+   ],
+   "width": 10.6,
+   "faces": 334,
+   "toStreet": 8.8,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    662.2,
+    44.9,
+    677.7,
+    37.5,
+    682.4,
+    47,
+    663.2,
+    56.2,
+    662.4,
+    54.6,
+    664,
+    53.8,
+    664.1,
+    54.3,
+    667.9,
+    52.6,
+    667.2,
+    51.3,
+    666.1,
+    51.8
+   ],
+   "id": "keizer-karelstraat-334-19",
+   "latLon": [
+    51.053069,
+    3.731539
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16857,
+   "at": [
+    684.9,
+    52.05
+   ],
+   "centre": [
+    666.5,
+    61
+   ],
+   "width": 11.3,
+   "faces": 334,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 18,
+   "top": 23.4,
+   "kind": "house",
+   "ring": [
+    663.2,
+    56.2,
+    682.4,
+    47,
+    687.4,
+    57.1,
+    668,
+    66.5,
+    664.7,
+    68,
+    663.6,
+    66,
+    661.2,
+    66.9,
+    659.9,
+    64.5,
+    665.1,
+    62,
+    663.8,
+    59.2,
+    660.1,
+    60.8,
+    658.9,
+    58.3
+   ],
+   "id": "keizer-karelstraat-334-20",
+   "latLon": [
+    51.052998,
+    3.731594
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16858,
+   "at": [
+    689.5999999999999,
+    61.55
+   ],
+   "centre": [
+    669.1,
+    73.5
+   ],
+   "width": 9.9,
+   "faces": 334,
+   "toStreet": 8.9,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    668,
+    66.5,
+    687.4,
+    57.1,
+    691.8,
+    66,
+    669.3,
+    77.2,
+    671.8,
+    82.5,
+    663,
+    86.7,
+    660.6,
+    81.6,
+    656.3,
+    72.1,
+    659.4,
+    71,
+    662,
+    75.8,
+    670.3,
+    72
+   ],
+   "id": "keizer-karelstraat-334-21",
+   "latLon": [
+    51.052929,
+    3.731648
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16809,
+   "at": [
+    702.35,
+    87.6
+   ],
+   "centre": [
+    687.5,
+    83.6
+   ],
+   "width": 10.2,
+   "faces": 334,
+   "toStreet": 9,
+   "floors": 5,
+   "eaves": 18.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    704.6,
+    92.2,
+    685.4,
+    101.2,
+    665.1,
+    110.8,
+    662.1,
+    104.5,
+    669.4,
+    100.2,
+    663,
+    86.7,
+    671.8,
+    82.5,
+    669.3,
+    77.2,
+    691.8,
+    66,
+    693.7,
+    70,
+    692.5,
+    70.6,
+    693.1,
+    72,
+    693.5,
+    71.8,
+    697.4,
+    79.9,
+    697.6,
+    80.2,
+    697.6,
+    80.5,
+    697.5,
+    80.8,
+    697.3,
+    81,
+    697.1,
+    81.1,
+    698.4,
+    83.8,
+    700.1,
+    83
+   ],
+   "id": "keizer-karelstraat-334-22",
+   "latLon": [
+    51.05274,
+    3.731794
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16805,
+   "at": [
+    712.6,
+    108.6
+   ],
+   "centre": [
+    700.5,
+    115.1
+   ],
+   "width": 7.3,
+   "faces": 334,
+   "toStreet": 9.2,
+   "floors": 4,
+   "eaves": 14.5,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    690.2,
+    114.7,
+    711,
+    105.3,
+    714.2,
+    111.9,
+    700.4,
+    118.3,
+    698.2,
+    119.4,
+    697.2,
+    117,
+    692.2,
+    119.4
+   ],
+   "id": "keizer-karelstraat-334-23",
+   "latLon": [
+    51.052589,
+    3.731911
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16801,
+   "at": [
+    723.05,
+    129.8
+   ],
+   "centre": [
+    716.4,
+    132.9
+   ],
+   "width": 12.2,
+   "faces": 334,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": 23.3,
+   "kind": "house",
+   "ring": [
+    707,
+    130.7,
+    720.4,
+    124.3,
+    725.7,
+    135.3,
+    712.4,
+    141.2
+   ],
+   "id": "keizer-karelstraat-334-24",
+   "latLon": [
+    51.052435,
+    3.73203
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16800,
+   "at": [
+    728.95,
+    141.85000000000002
+   ],
+   "centre": [
+    719.8,
+    144.4
+   ],
+   "width": 14.6,
+   "faces": 334,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 23.2,
+   "kind": "house",
+   "ring": [
+    712.4,
+    141.2,
+    725.7,
+    135.3,
+    732.2,
+    148.4,
+    717.8,
+    154.9,
+    710.9,
+    142
+   ],
+   "id": "keizer-karelstraat-334-25",
+   "latLon": [
+    51.052348,
+    3.732098
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16798,
+   "at": [
+    735.1,
+    154.3
+   ],
+   "centre": [
+    723.2,
+    160.8
+   ],
+   "width": 13.1,
+   "faces": 334,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 21.7,
+   "kind": "house",
+   "ring": [
+    717.8,
+    154.9,
+    732.2,
+    148.4,
+    738,
+    160.2,
+    725.4,
+    166.3,
+    724.3,
+    164.2,
+    720.2,
+    166.2,
+    719.5,
+    164.7,
+    717.7,
+    165.3,
+    713.7,
+    156.7
+   ],
+   "id": "keizer-karelstraat-334-26",
+   "latLon": [
+    51.052258,
+    3.732168
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16797,
+   "at": [
+    741.5,
+    167.39999999999998
+   ],
+   "centre": [
+    728.1,
+    173.5
+   ],
+   "width": 16,
+   "faces": 334,
+   "toStreet": 9.5,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": 21.5,
+   "kind": "house",
+   "ring": [
+    725.4,
+    166.3,
+    738,
+    160.2,
+    745,
+    174.6,
+    727.8,
+    183,
+    727.6,
+    182.4,
+    726.2,
+    183,
+    721.5,
+    173.8,
+    721.9,
+    172.6,
+    724.7,
+    171.4,
+    722.6,
+    167.7
+   ],
+   "id": "keizer-karelstraat-334-27",
+   "latLon": [
+    51.052163,
+    3.732241
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16720,
+   "at": [
+    768.1,
+    221.65
+   ],
+   "centre": [
+    763.5,
+    224.9
+   ],
+   "width": 9.2,
+   "faces": 334,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 16.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    770.1,
+    225.8,
+    760.9,
+    230.6,
+    756.8,
+    225.7,
+    766.1,
+    217.5
+   ],
+   "id": "keizer-karelstraat-334-28",
+   "latLon": [
+    51.051771,
+    3.732545
+   ],
+   "photos": [
+    {
+     "id": "463419463366311-263",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.403,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16719,
+   "at": [
+    771.75,
+    229.2
+   ],
+   "centre": [
+    767.6,
+    231.4
+   ],
+   "width": 7.6,
+   "faces": 334,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    760.9,
+    230.6,
+    770.1,
+    225.8,
+    773.4,
+    232.6,
+    766,
+    236.7
+   ],
+   "id": "keizer-karelstraat-334-29",
+   "latLon": [
+    51.051716,
+    3.732587
+   ],
+   "photos": [
+    {
+     "id": "969483311602859-243",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.414,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16457,
+   "at": [
+    775.3499999999999,
+    236.64999999999998
+   ],
+   "centre": [
+    762.1,
+    243.7
+   ],
+   "width": 9,
+   "faces": 334,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": 22.9,
+   "kind": "house",
+   "ring": [
+    759.4,
+    240.4,
+    760,
+    240.1,
+    766,
+    236.7,
+    773.4,
+    232.6,
+    777.3,
+    240.7,
+    761.6,
+    249.2,
+    757.1,
+    251.7,
+    755.4,
+    249.1,
+    756.6,
+    248.3,
+    756,
+    247.4,
+    760.8,
+    244.1
+   ],
+   "id": "keizer-karelstraat-334-30",
+   "latLon": [
+    51.051662,
+    3.732628
+   ],
+   "photos": [
+    {
+     "id": "969483311602859-223",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.415,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16454,
+   "at": [
+    779.15,
+    244.45
+   ],
+   "centre": [
+    766,
+    251.8
+   ],
+   "width": 8.4,
+   "faces": 334,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 18.6,
+   "top": 22.6,
+   "kind": "house",
+   "ring": [
+    761.6,
+    249.2,
+    777.3,
+    240.7,
+    781,
+    248.2,
+    762.9,
+    257.3,
+    758.9,
+    259.4,
+    757.1,
+    255.7,
+    763.1,
+    252.1
+   ],
+   "id": "keizer-karelstraat-334-31",
+   "latLon": [
+    51.051606,
+    3.732672
+   ],
+   "photos": [
+    {
+     "id": "969483311602859-206",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.446,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16451,
+   "at": [
+    783.2,
+    252.65
+   ],
+   "centre": [
+    773.5,
+    258.6
+   ],
+   "width": 9.9,
+   "faces": 334,
+   "toStreet": 9.2,
+   "floors": 5,
+   "eaves": 18.6,
+   "top": 22.8,
+   "kind": "house",
+   "ring": [
+    762.9,
+    257.3,
+    781,
+    248.2,
+    785.4,
+    257.1,
+    771.2,
+    264.3,
+    767.2,
+    266.3
+   ],
+   "id": "keizer-karelstraat-334-32",
+   "latLon": [
+    51.051546,
+    3.732718
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16709,
+   "at": [
+    805.1500000000001,
+    297.45
+   ],
+   "centre": [
+    795.4,
+    301.3
+   ],
+   "width": 11,
+   "faces": 334,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 21.7,
+   "kind": "house",
+   "ring": [
+    783.9,
+    305,
+    788,
+    301.1,
+    798.6,
+    294.5,
+    799.4,
+    294,
+    802.7,
+    292.5,
+    807.6,
+    302.4,
+    793.1,
+    309.6,
+    789.7,
+    311.3
+   ],
+   "id": "keizer-karelstraat-334-33",
+   "latLon": [
+    51.051222,
+    3.732969
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16708,
+   "at": [
+    809.4000000000001,
+    306.04999999999995
+   ],
+   "centre": [
+    795.5,
+    313.4
+   ],
+   "width": 8.1,
+   "faces": 334,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 18.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    786.9,
+    318.2,
+    790.5,
+    316.2,
+    791.3,
+    314.3,
+    794,
+    313.2,
+    795,
+    313.4,
+    793.1,
+    309.6,
+    807.6,
+    302.4,
+    811.2,
+    309.7,
+    796.6,
+    316.7,
+    789.1,
+    320.6
+   ],
+   "id": "keizer-karelstraat-334-34",
+   "latLon": [
+    51.05116,
+    3.733017
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16706,
+   "at": [
+    814.75,
+    316.95
+   ],
+   "centre": [
+    800.6,
+    331.2
+   ],
+   "width": 16.1,
+   "faces": 334,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    796.6,
+    316.7,
+    811.2,
+    309.7,
+    818.3,
+    324.2,
+    804.2,
+    335.6,
+    798.3,
+    340.4,
+    795.6,
+    342.5,
+    794.2,
+    340,
+    792.7,
+    337,
+    797.1,
+    334.7,
+    796,
+    332.5,
+    802.8,
+    329.6
+   ],
+   "id": "keizer-karelstraat-334-35",
+   "latLon": [
+    51.051081,
+    3.733079
+   ],
+   "photos": [
+    {
+     "id": "1724792261684808-287",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.242,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16700,
+   "at": [
+    820.65,
+    329
+   ],
+   "centre": [
+    812.4,
+    336.3
+   ],
+   "width": 10.7,
+   "faces": 334,
+   "toStreet": 8.6,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    804.2,
+    335.6,
+    818.3,
+    324.2,
+    823,
+    333.8,
+    811.8,
+    339.1,
+    811.4,
+    339.4,
+    809,
+    341,
+    808.8,
+    340.8
+   ],
+   "id": "keizer-karelstraat-334-36",
+   "latLon": [
+    51.050994,
+    3.733146
+   ],
+   "photos": [
+    {
+     "id": "1724792261684808-235",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.3,
+      0.729
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16697,
+   "at": [
+    824.7,
+    337.25
+   ],
+   "centre": [
+    816.7,
+    341.3
+   ],
+   "width": 7.7,
+   "faces": 334,
+   "toStreet": 8.6,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": 21.3,
+   "kind": "house",
+   "ring": [
+    811.4,
+    339.4,
+    811.8,
+    339.1,
+    823,
+    333.8,
+    826.4,
+    340.7,
+    815.3,
+    346.2,
+    815.1,
+    346.5,
+    813.7,
+    343.7
+   ],
+   "id": "keizer-karelstraat-334-37",
+   "latLon": [
+    51.050934,
+    3.733192
+   ],
+   "photos": [
+    {
+     "id": "418059917973623-278",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.222,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16606,
+   "at": [
+    828.25,
+    344.45
+   ],
+   "centre": [
+    811.4,
+    354.4
+   ],
+   "width": 8.4,
+   "faces": 334,
+   "toStreet": 8.6,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    830.1,
+    348.2,
+    819.5,
+    354,
+    815.4,
+    357.5,
+    812,
+    360.5,
+    811.4,
+    359.9,
+    808.7,
+    357.4,
+    803.7,
+    362.1,
+    803.2,
+    362.4,
+    798.8,
+    357.9,
+    803.1,
+    353.8,
+    803.3,
+    353.6,
+    804.9,
+    354.8,
+    815.1,
+    346.5,
+    815.3,
+    346.2,
+    826.4,
+    340.7
+   ],
+   "id": "keizer-karelstraat-334-38",
+   "latLon": [
+    51.050882,
+    3.733233
+   ],
+   "photos": [
+    {
+     "id": "418059917973623-215",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.307,
+      0.839
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16600,
+   "at": [
+    832.95,
+    354
+   ],
+   "centre": [
+    825.4,
+    358.4
+   ],
+   "width": 12.9,
+   "faces": 334,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    815.4,
+    357.5,
+    819.5,
+    354,
+    830.1,
+    348.2,
+    835.8,
+    359.8,
+    832.8,
+    361.3,
+    830,
+    358.6,
+    827.7,
+    361,
+    824.5,
+    363.8,
+    820.3,
+    358.8,
+    818.2,
+    360.7
+   ],
+   "id": "keizer-karelstraat-334-39",
+   "latLon": [
+    51.050813,
+    3.733287
+   ],
+   "photos": [
+    {
+     "id": "1127522445262151-284",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.394,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16587,
+   "at": [
+    855.75,
+    400
+   ],
+   "centre": [
+    843,
+    406.8
+   ],
+   "width": 10.4,
+   "faces": 334,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    834.3,
+    412,
+    838.4,
+    410,
+    838.1,
+    409.5,
+    843.8,
+    406.7,
+    841.1,
+    401.3,
+    853.5,
+    395.3,
+    858,
+    404.7,
+    837.1,
+    415.1
+   ],
+   "id": "keizer-karelstraat-334-40",
+   "latLon": [
+    51.05048,
+    3.733547
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16576,
+   "at": [
+    869.15,
+    427.35
+   ],
+   "centre": [
+    866.2,
+    426.9
+   ],
+   "width": 5.2,
+   "faces": 334,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    870,
+    429.9,
+    868,
+    425.9,
+    867.1,
+    426.3,
+    865.6,
+    426,
+    864.9,
+    425.3,
+    861.6,
+    428.3,
+    861.4,
+    428,
+    865.3,
+    424.4,
+    868,
+    425,
+    870.3,
+    429.7
+   ],
+   "id": "keizer-karelstraat-334-41",
+   "latLon": [
+    51.050282,
+    3.733701
+   ],
+   "photos": [
+    {
+     "id": "1606426684091350-215",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.452,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16574,
+   "at": [
+    883.05,
+    456.55
+   ],
+   "centre": [
+    871.4,
+    461.4
+   ],
+   "width": 11,
+   "faces": 334,
+   "toStreet": 9.2,
+   "floors": 5,
+   "eaves": 19,
+   "top": 23.4,
+   "kind": "house",
+   "ring": [
+    865.4,
+    459.1,
+    880.6,
+    451.6,
+    885.5,
+    461.5,
+    869.8,
+    468.7,
+    868,
+    464.5,
+    865.8,
+    463.6,
+    864.8,
+    460.7
+   ],
+   "id": "keizer-karelstraat-334-42",
+   "latLon": [
+    51.050071,
+    3.733859
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16669,
+   "at": [
+    895.9,
+    482.79999999999995
+   ],
+   "centre": [
+    881.3,
+    487.4
+   ],
+   "width": 13.1,
+   "faces": 334,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 19.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    868.7,
+    489.5,
+    872.1,
+    486.5,
+    878.8,
+    483.4,
+    893,
+    476.9,
+    898.8,
+    488.7,
+    886.2,
+    494.4,
+    882.4,
+    486.9,
+    870.6,
+    492.5
+   ],
+   "id": "keizer-karelstraat-334-43",
+   "latLon": [
+    51.049881,
+    3.734006
+   ],
+   "photos": [
+    {
+     "id": "991114088093756",
+     "metres": 38,
+     "off": 20,
+     "span": [
+      0.736,
+      0.887
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12135,
+   "at": [
+    900.7,
+    492.6
+   ],
+   "centre": [
+    894,
+    496.6
+   ],
+   "width": 8.7,
+   "faces": 334,
+   "toStreet": 10.1,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": 22,
+   "kind": "house",
+   "ring": [
+    902.6,
+    496.5,
+    892.1,
+    501.3,
+    890.1,
+    502.2,
+    886.2,
+    494.4,
+    898.8,
+    488.7
+   ],
+   "id": "keizer-karelstraat-334-44",
+   "latLon": [
+    51.04981,
+    3.734061
+   ],
+   "photos": [
+    {
+     "id": "991114088093756",
+     "metres": 31,
+     "off": 11,
+     "span": [
+      0.599,
+      0.736
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16807,
+   "at": [
+    706.1,
+    95.35
+   ],
+   "centre": [
+    696.5,
+    99.9
+   ],
+   "width": 7,
+   "faces": 335,
+   "toStreet": 9.1,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 22.1,
+   "kind": "house",
+   "ring": [
+    685.4,
+    101.2,
+    704.6,
+    92.2,
+    707.6,
+    98.5,
+    688.5,
+    107.7
+   ],
+   "id": "keizer-karelstraat-335-45",
+   "latLon": [
+    51.052684,
+    3.731837
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 16593,
+   "at": [
+    838.7,
+    365.75
+   ],
+   "centre": [
+    833.5,
+    364.3
+   ],
+   "width": 5.6,
+   "faces": 335,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    824.5,
+    363.8,
+    827.7,
+    361,
+    830,
+    358.6,
+    832.8,
+    361.3,
+    835.8,
+    359.8,
+    836.5,
+    361.2,
+    837.5,
+    363.2,
+    839.9,
+    368.3,
+    836.8,
+    371.2,
+    833.3,
+    374.3
+   ],
+   "id": "keizer-karelstraat-335-46",
+   "latLon": [
+    51.050728,
+    3.733352
+   ],
+   "photos": [
+    {
+     "id": "1127522445262151-257",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.432,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16586,
+   "at": [
+    860.25,
+    409.54999999999995
+   ],
+   "centre": [
+    847.4,
+    417.1
+   ],
+   "width": 10.7,
+   "faces": 335,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 18,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    837.1,
+    415.1,
+    858,
+    404.7,
+    862.5,
+    414.4,
+    853,
+    422.8,
+    851.4,
+    420.4,
+    849.2,
+    416.9,
+    845.1,
+    420.8,
+    843.2,
+    418.4,
+    839.4,
+    421.5,
+    834.9,
+    416.2
+   ],
+   "id": "keizer-karelstraat-335-47",
+   "latLon": [
+    51.050411,
+    3.733599
+   ],
+   "photos": [
+    {
+     "id": "1606426684091350-269",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.373,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16569,
+   "at": [
+    890.7,
+    472
+   ],
+   "centre": [
+    880.7,
+    476.6
+   ],
+   "width": 10.8,
+   "faces": 335,
+   "toStreet": 9.5,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": 23.2,
+   "kind": "house",
+   "ring": [
+    872.8,
+    474.7,
+    888.4,
+    467.1,
+    893,
+    476.9,
+    878.8,
+    483.4,
+    876.2,
+    478.4,
+    875,
+    479
+   ],
+   "id": "keizer-karelstraat-335-48",
+   "latLon": [
+    51.049959,
+    3.733947
+   ],
+   "photos": []
+  }
+ ]
+}

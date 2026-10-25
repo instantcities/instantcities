@@ -1,0 +1,5957 @@
+{
+ "city": "ghent",
+ "street": "Sint-Kwintensberg",
+ "slug": "sint-kwintensberg",
+ "photos": {
+  "144224251006025": {
+   "file": "photos/144224251006025.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=144224251006025",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0461127,
+    3.7224558,
+    289,
+    1.206
+   ]
+  },
+  "465369351437654": {
+   "file": "photos/465369351437654.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=465369351437654",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0461088,
+    3.7223079,
+    300,
+    0.964
+   ]
+  },
+  "217870886529025": {
+   "file": "photos/217870886529025.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=217870886529025",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463536,
+    3.7221799,
+    311,
+    0.441
+   ]
+  },
+  "465573708080368": {
+   "file": "photos/465573708080368.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=465573708080368",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0463808,
+    3.7221899,
+    321,
+    0.394
+   ]
+  },
+  "190810086209859": {
+   "file": "photos/190810086209859.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=190810086209859",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0462555,
+    3.722318,
+    324,
+    0.891
+   ]
+  },
+  "544874175351467-8": {
+   "file": "photos/544874175351467-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=544874175351467",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0452012,
+    3.7231991,
+    8,
+    0.5
+   ]
+  },
+  "144238241475516-70": {
+   "file": "photos/144238241475516-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=144238241475516",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0451882,
+    3.7232241,
+    70,
+    0.5
+   ]
+  },
+  "544874175351467-93": {
+   "file": "photos/544874175351467-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=544874175351467",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0452012,
+    3.7231991,
+    93,
+    0.5
+   ]
+  },
+  "459078551831177": {
+   "file": "photos/459078551831177.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=459078551831177",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0453279,
+    3.7228108,
+    79,
+    0.865
+   ]
+  },
+  "825770621657408": {
+   "file": "photos/825770621657408.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=825770621657408",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0452918,
+    3.7230847,
+    57,
+    1
+   ]
+  },
+  "501772730960419": {
+   "file": "photos/501772730960419.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=501772730960419",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0446528,
+    3.7233745,
+    47,
+    0.953
+   ]
+  },
+  "164190366049616-88": {
+   "file": "photos/164190366049616-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=164190366049616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0447548,
+    3.7237867,
+    88,
+    0.5
+   ]
+  },
+  "1639043806470640-38": {
+   "file": "photos/1639043806470640-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1639043806470640",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445871,
+    3.7239869,
+    38,
+    0.5
+   ]
+  },
+  "221406582687094": {
+   "file": "photos/221406582687094.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=221406582687094",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0448874,
+    3.7235395,
+    25,
+    0.953
+   ]
+  },
+  "1716667971874741": {
+   "file": "photos/1716667971874741.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1716667971874741",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0447534,
+    3.7234431,
+    32,
+    0.953
+   ]
+  },
+  "309265073932529": {
+   "file": "photos/309265073932529.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=309265073932529",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-01-23",
+   "cam": [
+    51.0457727,
+    3.7221212,
+    54,
+    0.85
+   ]
+  },
+  "272463837876562": {
+   "file": "photos/272463837876562.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=272463837876562",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0458374,
+    3.7219641,
+    62,
+    0.97
+   ]
+  },
+  "484244336252544": {
+   "file": "photos/484244336252544.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=484244336252544",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0455056,
+    3.7227734,
+    99,
+    0.865
+   ]
+  },
+  "172475308018982": {
+   "file": "photos/172475308018982.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=172475308018982",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-01-23",
+   "cam": [
+    51.0457649,
+    3.722172,
+    55,
+    0.85
+   ]
+  },
+  "175395647787443": {
+   "file": "photos/175395647787443.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=175395647787443",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0458377,
+    3.7219639,
+    78,
+    0.97
+   ]
+  },
+  "1393232191119553-57": {
+   "file": "photos/1393232191119553-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1393232191119553",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0457575,
+    3.7226323,
+    57,
+    0.5
+   ]
+  },
+  "2032513933945419-87": {
+   "file": "photos/2032513933945419-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2032513933945419",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.045775,
+    3.7225962,
+    87,
+    0.5
+   ]
+  },
+  "908557099996796": {
+   "file": "photos/908557099996796.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=908557099996796",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0458382,
+    3.7219642,
+    58,
+    0.97
+   ]
+  },
+  "806241613649609": {
+   "file": "photos/806241613649609.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=806241613649609",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-01-23",
+   "cam": [
+    51.0457994,
+    3.722142,
+    32,
+    0.85
+   ]
+  },
+  "586359298947506": {
+   "file": "photos/586359298947506.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=586359298947506",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-01-23",
+   "cam": [
+    51.04584,
+    3.722159,
+    28,
+    0.85
+   ]
+  },
+  "966948497412554": {
+   "file": "photos/966948497412554.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=966948497412554",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463689,
+    3.7220578,
+    107,
+    0.444
+   ]
+  },
+  "158927016239445": {
+   "file": "photos/158927016239445.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=158927016239445",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463657,
+    3.7220802,
+    93,
+    0.444
+   ]
+  },
+  "790702741809065": {
+   "file": "photos/790702741809065.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=790702741809065",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463668,
+    3.7220679,
+    106,
+    0.444
+   ]
+  },
+  "498635791284038": {
+   "file": "photos/498635791284038.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=498635791284038",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463713,
+    3.7221126,
+    62,
+    0.444
+   ]
+  },
+  "140986294682060": {
+   "file": "photos/140986294682060.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=140986294682060",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463688,
+    3.7221028,
+    76,
+    0.444
+   ]
+  },
+  "311356900383763": {
+   "file": "photos/311356900383763.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=311356900383763",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0452616,
+    3.7231609,
+    112,
+    0.865
+   ]
+  },
+  "153768643419065": {
+   "file": "photos/153768643419065.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=153768643419065",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0445349,
+    3.724096,
+    115,
+    1.004
+   ]
+  },
+  "159088623253801-200": {
+   "file": "photos/159088623253801-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=159088623253801",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0440386,
+    3.7244189,
+    200,
+    0.5
+   ]
+  },
+  "461337805139549": {
+   "file": "photos/461337805139549.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=461337805139549",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0451524,
+    3.7234883,
+    241,
+    0.983
+   ]
+  },
+  "711118074670292-195": {
+   "file": "photos/711118074670292-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=711118074670292",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0447637,
+    3.7237695,
+    195,
+    0.5
+   ]
+  },
+  "164190366049616-203": {
+   "file": "photos/164190366049616-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=164190366049616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0447548,
+    3.7237867,
+    203,
+    0.5
+   ]
+  },
+  "1639043806470640-229": {
+   "file": "photos/1639043806470640-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1639043806470640",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445871,
+    3.7239869,
+    229,
+    0.5
+   ]
+  },
+  "4158387764444214-255": {
+   "file": "photos/4158387764444214-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4158387764444214",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0445622,
+    3.7240212,
+    255,
+    0.5
+   ]
+  },
+  "516174476642547-215": {
+   "file": "photos/516174476642547-215.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516174476642547",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0448412,
+    3.7236866,
+    215,
+    0.5
+   ]
+  },
+  "986457997030731-195": {
+   "file": "photos/986457997030731-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986457997030731",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0448704,
+    3.7236495,
+    195,
+    0.5
+   ]
+  },
+  "1056848341565592-237": {
+   "file": "photos/1056848341565592-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1056848341565592",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0446676,
+    3.72389,
+    237,
+    0.5
+   ]
+  },
+  "3162691370554632-249": {
+   "file": "photos/3162691370554632-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3162691370554632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0446551,
+    3.7239039,
+    249,
+    0.5
+   ]
+  },
+  "2926293837643784": {
+   "file": "photos/2926293837643784.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2926293837643784",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0450712,
+    3.7234516,
+    232,
+    1.003
+   ]
+  },
+  "243055370842630": {
+   "file": "photos/243055370842630.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=243055370842630",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.045324,
+    3.7236376,
+    195,
+    0.495
+   ]
+  },
+  "1172570576499100": {
+   "file": "photos/1172570576499100.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1172570576499100",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0450353,
+    3.7234296,
+    218,
+    1.003
+   ]
+  },
+  "223694592514369": {
+   "file": "photos/223694592514369.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=223694592514369",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0451648,
+    3.7235556,
+    202,
+    0.495
+   ]
+  },
+  "711118074670292-251": {
+   "file": "photos/711118074670292-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=711118074670292",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0447637,
+    3.7237695,
+    251,
+    0.5
+   ]
+  },
+  "164190366049616-259": {
+   "file": "photos/164190366049616-259.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=164190366049616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0447548,
+    3.7237867,
+    259,
+    0.5
+   ]
+  },
+  "711118074670292-219": {
+   "file": "photos/711118074670292-219.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=711118074670292",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0447637,
+    3.7237695,
+    219,
+    0.5
+   ]
+  },
+  "164190366049616-230": {
+   "file": "photos/164190366049616-230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=164190366049616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0447548,
+    3.7237867,
+    230,
+    0.5
+   ]
+  },
+  "3162691370554632-202": {
+   "file": "photos/3162691370554632-202.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3162691370554632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0446551,
+    3.7239039,
+    202,
+    0.5
+   ]
+  },
+  "1639043806470640-264": {
+   "file": "photos/1639043806470640-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1639043806470640",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445871,
+    3.7239869,
+    264,
+    0.5
+   ]
+  },
+  "1253854371815069-221": {
+   "file": "photos/1253854371815069-221.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1253854371815069",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445121,
+    3.7240772,
+    221,
+    0.5
+   ]
+  },
+  "1047444473988554-265": {
+   "file": "photos/1047444473988554-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1047444473988554",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0444664,
+    3.7241308,
+    265,
+    0.5
+   ]
+  },
+  "326426609063849": {
+   "file": "photos/326426609063849.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=326426609063849",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0451959,
+    3.7235769,
+    199,
+    0.495
+   ]
+  },
+  "302019928096828": {
+   "file": "photos/302019928096828.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=302019928096828",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0451966,
+    3.7235451,
+    197,
+    0.997
+   ]
+  },
+  "4158387764444214-214": {
+   "file": "photos/4158387764444214-214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4158387764444214",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0445622,
+    3.7240212,
+    214,
+    0.5
+   ]
+  },
+  "1253854371815069-262": {
+   "file": "photos/1253854371815069-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1253854371815069",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445121,
+    3.7240772,
+    262,
+    0.5
+   ]
+  },
+  "544874175351467-259": {
+   "file": "photos/544874175351467-259.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=544874175351467",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0452012,
+    3.7231991,
+    259,
+    0.5
+   ]
+  },
+  "144238241475516-270": {
+   "file": "photos/144238241475516-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=144238241475516",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0451882,
+    3.7232241,
+    270,
+    0.5
+   ]
+  },
+  "523759679413026-223": {
+   "file": "photos/523759679413026-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=523759679413026",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0452895,
+    3.7231058,
+    223,
+    0.5
+   ]
+  },
+  "4277248692494860-210": {
+   "file": "photos/4277248692494860-210.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4277248692494860",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0453392,
+    3.723031,
+    210,
+    0.5
+   ]
+  },
+  "523759679413026-267": {
+   "file": "photos/523759679413026-267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=523759679413026",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0452895,
+    3.7231058,
+    267,
+    0.5
+   ]
+  },
+  "1922782148532677-201": {
+   "file": "photos/1922782148532677-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1922782148532677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0454952,
+    3.7228665,
+    201,
+    0.5
+   ]
+  },
+  "1605688673677234-207": {
+   "file": "photos/1605688673677234-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1605688673677234",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456395,
+    3.7229952,
+    207,
+    0.5
+   ]
+  },
+  "1018012435774228-215": {
+   "file": "photos/1018012435774228-215.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1018012435774228",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0453993,
+    3.7229713,
+    215,
+    0.5
+   ]
+  },
+  "4277248692494860-279": {
+   "file": "photos/4277248692494860-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4277248692494860",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0453392,
+    3.723031,
+    279,
+    0.5
+   ]
+  },
+  "534484631581636-241": {
+   "file": "photos/534484631581636-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534484631581636",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0458548,
+    3.7225475,
+    241,
+    0.5
+   ]
+  },
+  "1223131862510886-263": {
+   "file": "photos/1223131862510886-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1223131862510886",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0456451,
+    3.7227217,
+    263,
+    0.5
+   ]
+  },
+  "1040814560116987-268": {
+   "file": "photos/1040814560116987-268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1040814560116987",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.045642,
+    3.7227393,
+    268,
+    0.5
+   ]
+  },
+  "3804878899778036-271": {
+   "file": "photos/3804878899778036-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3804878899778036",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456365,
+    3.7229545,
+    271,
+    0.5
+   ]
+  },
+  "1018012435774228-277": {
+   "file": "photos/1018012435774228-277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1018012435774228",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0453993,
+    3.7229713,
+    277,
+    0.5
+   ]
+  },
+  "706648393813914-258": {
+   "file": "photos/706648393813914-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=706648393813914",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0459442,
+    3.7224687,
+    258,
+    0.5
+   ]
+  },
+  "2032513933945419-234": {
+   "file": "photos/2032513933945419-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2032513933945419",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.045775,
+    3.7225962,
+    234,
+    0.5
+   ]
+  },
+  "1393232191119553-248": {
+   "file": "photos/1393232191119553-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1393232191119553",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0457575,
+    3.7226323,
+    248,
+    0.5
+   ]
+  },
+  "1393232191119553-201": {
+   "file": "photos/1393232191119553-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1393232191119553",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0457575,
+    3.7226323,
+    201,
+    0.5
+   ]
+  },
+  "1223131862510886-255": {
+   "file": "photos/1223131862510886-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1223131862510886",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0456451,
+    3.7227217,
+    255,
+    0.5
+   ]
+  },
+  "1040814560116987-257": {
+   "file": "photos/1040814560116987-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1040814560116987",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.045642,
+    3.7227393,
+    257,
+    0.5
+   ]
+  },
+  "1208034843736477-270": {
+   "file": "photos/1208034843736477-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208034843736477",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456177,
+    3.7228904,
+    270,
+    0.5
+   ]
+  },
+  "547754154576496-245": {
+   "file": "photos/547754154576496-245.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=547754154576496",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0455637,
+    3.7228185,
+    245,
+    0.5
+   ]
+  },
+  "447966553753452-246": {
+   "file": "photos/447966553753452-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=447966553753452",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0455213,
+    3.7228413,
+    246,
+    0.5
+   ]
+  },
+  "1034352258165047-231": {
+   "file": "photos/1034352258165047-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034352258165047",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456368,
+    3.7230406,
+    231,
+    0.5
+   ]
+  },
+  "1922782148532677-279": {
+   "file": "photos/1922782148532677-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1922782148532677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0454952,
+    3.7228665,
+    279,
+    0.5
+   ]
+  },
+  "1922782148532677-239": {
+   "file": "photos/1922782148532677-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1922782148532677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0454952,
+    3.7228665,
+    239,
+    0.5
+   ]
+  },
+  "1034352258165047-222": {
+   "file": "photos/1034352258165047-222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034352258165047",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456368,
+    3.7230406,
+    222,
+    0.5
+   ]
+  },
+  "447966553753452-205": {
+   "file": "photos/447966553753452-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=447966553753452",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0455213,
+    3.7228413,
+    205,
+    0.5
+   ]
+  },
+  "326682092732706-211": {
+   "file": "photos/326682092732706-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=326682092732706",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0460936,
+    3.72235,
+    211,
+    0.5
+   ]
+  },
+  "3247152452170175-226": {
+   "file": "photos/3247152452170175-226.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3247152452170175",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.046189,
+    3.7225417,
+    226,
+    0.5
+   ]
+  },
+  "2032513933945419-278": {
+   "file": "photos/2032513933945419-278.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2032513933945419",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.045775,
+    3.7225962,
+    278,
+    0.5
+   ]
+  },
+  "1208034843736477-257": {
+   "file": "photos/1208034843736477-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208034843736477",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0456177,
+    3.7228904,
+    257,
+    0.5
+   ]
+  },
+  "1040814560116987-204": {
+   "file": "photos/1040814560116987-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1040814560116987",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.045642,
+    3.7227393,
+    204,
+    0.5
+   ]
+  },
+  "479791586579167": {
+   "file": "photos/479791586579167.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=479791586579167",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440114,
+    3.7246602,
+    275,
+    0.449
+   ]
+  },
+  "508383977413162-245": {
+   "file": "photos/508383977413162-245.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=508383977413162",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0444376,
+    3.7241503,
+    245,
+    0.5
+   ]
+  },
+  "1047444473988554-222": {
+   "file": "photos/1047444473988554-222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1047444473988554",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0444664,
+    3.7241308,
+    222,
+    0.5
+   ]
+  },
+  "1817146032167542-254": {
+   "file": "photos/1817146032167542-254.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1817146032167542",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0443718,
+    3.7242151,
+    254,
+    0.5
+   ]
+  },
+  "1293599887715297-262": {
+   "file": "photos/1293599887715297-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1293599887715297",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0443586,
+    3.7242082,
+    262,
+    0.5
+   ]
+  },
+  "1530461940916847-282": {
+   "file": "photos/1530461940916847-282.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1530461940916847",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0442998,
+    3.7244184,
+    282,
+    0.5
+   ]
+  },
+  "1749868485928087-274": {
+   "file": "photos/1749868485928087-274.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1749868485928087",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0442746,
+    3.724291,
+    274,
+    0.5
+   ]
+  },
+  "1530461940916847-265": {
+   "file": "photos/1530461940916847-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1530461940916847",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-23",
+   "pano": true,
+   "cam": [
+    51.0442998,
+    3.7244184,
+    265,
+    0.5
+   ]
+  },
+  "497159162139289-270": {
+   "file": "photos/497159162139289-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497159162139289",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.044282,
+    3.7242631,
+    270,
+    0.5
+   ]
+  },
+  "773368303323841": {
+   "file": "photos/773368303323841.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=773368303323841",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.044019,
+    3.724598,
+    287,
+    0.449
+   ]
+  },
+  "560067502046215": {
+   "file": "photos/560067502046215.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=560067502046215",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440143,
+    3.7246284,
+    283,
+    0.449
+   ]
+  },
+  "1367359426961203": {
+   "file": "photos/1367359426961203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1367359426961203",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440099,
+    3.7246937,
+    273,
+    0.449
+   ]
+  },
+  "334410801539315": {
+   "file": "photos/334410801539315.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=334410801539315",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440088,
+    3.7247279,
+    276,
+    0.449
+   ]
+  },
+  "556234765344240": {
+   "file": "photos/556234765344240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556234765344240",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440076,
+    3.7247633,
+    273,
+    0.449
+   ]
+  },
+  "706648393813914-269": {
+   "file": "photos/706648393813914-269.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=706648393813914",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0459442,
+    3.7224687,
+    269,
+    0.5
+   ]
+  },
+  "1012771340569878-293": {
+   "file": "photos/1012771340569878-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1012771340569878",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0458991,
+    3.7224794,
+    293,
+    0.5
+   ]
+  },
+  "1416609509343286-270": {
+   "file": "photos/1416609509343286-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1416609509343286",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0460054,
+    3.7223773,
+    270,
+    0.5
+   ]
+  },
+  "1785938248464248-251": {
+   "file": "photos/1785938248464248-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1785938248464248",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0460273,
+    3.7224032,
+    251,
+    0.5
+   ]
+  },
+  "1012771340569878-264": {
+   "file": "photos/1012771340569878-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1012771340569878",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0458991,
+    3.7224794,
+    264,
+    0.5
+   ]
+  },
+  "534484631581636-283": {
+   "file": "photos/534484631581636-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534484631581636",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0458548,
+    3.7225475,
+    283,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 8141,
+   "at": [
+    -152.85,
+    989.1
+   ],
+   "centre": [
+    -171.4,
+    983.7
+   ],
+   "width": 13,
+   "faces": 1,
+   "toStreet": 16.6,
+   "floors": 5,
+   "eaves": 18.9,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -186.5,
+    977,
+    -179.6,
+    978.1,
+    -164.5,
+    980.7,
+    -161.3,
+    981.2,
+    -160.3,
+    981.4,
+    -153.6,
+    982.5,
+    -152.7,
+    982.6,
+    -153,
+    995.6,
+    -166.4,
+    992.8,
+    -179,
+    991.2,
+    -182.6,
+    990.8,
+    -181.1,
+    981.3,
+    -189.7,
+    979.9,
+    -189.1,
+    976.5
+   ],
+   "id": "sint-kwintensberg-1-01",
+   "latLon": [
+    51.046218,
+    3.722017
+   ],
+   "photos": [
+    {
+     "id": "144224251006025",
+     "metres": 33,
+     "off": 2,
+     "span": [
+      0.35,
+      0.712
+     ]
+    },
+    {
+     "id": "465369351437654",
+     "metres": 24,
+     "off": 1,
+     "span": [
+      0.315,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11696,
+   "at": [
+    -155.7,
+    955.6
+   ],
+   "centre": [
+    -161.3,
+    949.8
+   ],
+   "width": 3.6,
+   "faces": 52,
+   "toStreet": 17.7,
+   "floors": 5,
+   "eaves": 19.8,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -166.5,
+    945.3,
+    -168.6,
+    952.4,
+    -157.1,
+    956.7,
+    -154.3,
+    954.5,
+    -155.2,
+    945.5,
+    -166.1,
+    944.1
+   ],
+   "id": "sint-kwintensberg-52-01",
+   "latLon": [
+    51.04646,
+    3.721984
+   ],
+   "photos": [
+    {
+     "id": "217870886529025",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.464,
+      0.533
+     ]
+    },
+    {
+     "id": "465573708080368",
+     "metres": 17,
+     "off": 19,
+     "span": [
+      0.329,
+      0.399
+     ]
+    },
+    {
+     "id": "190810086209859",
+     "metres": 33,
+     "off": 10,
+     "span": [
+      0.304,
+      0.385
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8088,
+   "at": [
+    -48.599999999999994,
+    1123.35
+   ],
+   "centre": [
+    -37.7,
+    1119
+   ],
+   "width": 10.3,
+   "faces": 140,
+   "toStreet": 5.3,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -51.9,
+    1119.4,
+    -45.3,
+    1127.3,
+    -37.6,
+    1121.8,
+    -36.4,
+    1120.9,
+    -35.2,
+    1121.4,
+    -32.1,
+    1122.3,
+    -31.5,
+    1119.3,
+    -34.3,
+    1118.8,
+    -32.9,
+    1110.7,
+    -38.3,
+    1113.1,
+    -39.2,
+    1113.5
+   ],
+   "id": "sint-kwintensberg-140-01",
+   "latLon": [
+    51.045247,
+    3.723209
+   ],
+   "photos": [
+    {
+     "id": "544874175351467-8",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.303,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8085,
+   "at": [
+    -43.099999999999994,
+    1129.9
+   ],
+   "centre": [
+    -38.5,
+    1129.2
+   ],
+   "width": 6.8,
+   "faces": 140,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -45.3,
+    1127.3,
+    -40.9,
+    1132.5,
+    -40.6,
+    1132.7,
+    -40.3,
+    1133,
+    -40,
+    1133.1,
+    -39.7,
+    1133.2,
+    -39.3,
+    1133.2,
+    -38.9,
+    1133.2,
+    -32.7,
+    1131.9,
+    -34.2,
+    1125.6,
+    -35.2,
+    1121.4,
+    -36.4,
+    1120.9,
+    -37.6,
+    1121.8
+   ],
+   "id": "sint-kwintensberg-140-02",
+   "latLon": [
+    51.045199,
+    3.723272
+   ],
+   "photos": [
+    {
+     "id": "144238241475516-70",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.003,
+      0.782
+     ]
+    },
+    {
+     "id": "544874175351467-93",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.178,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8076,
+   "at": [
+    -60.65,
+    1108.15
+   ],
+   "centre": [
+    -48,
+    1103.2
+   ],
+   "width": 10.4,
+   "faces": 141,
+   "toStreet": 4,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    -41.1,
+    1093.2,
+    -50.9,
+    1096.7,
+    -63.9,
+    1104.1,
+    -57.4,
+    1112.2,
+    -46.6,
+    1106.2,
+    -45.5,
+    1105.6,
+    -44.5,
+    1105,
+    -44.7,
+    1104.5,
+    -37.4,
+    1101
+   ],
+   "id": "sint-kwintensberg-141-03",
+   "latLon": [
+    51.045357,
+    3.723071
+   ],
+   "photos": [
+    {
+     "id": "459078551831177",
+     "metres": 18,
+     "off": 1,
+     "span": [
+      0.318,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8089,
+   "at": [
+    -54.65,
+    1115.8000000000002
+   ],
+   "centre": [
+    -43,
+    1108.9
+   ],
+   "width": 9.1,
+   "faces": 143,
+   "toStreet": 4.8,
+   "floors": 5,
+   "eaves": 17.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -32.9,
+    1110.7,
+    -34.8,
+    1106.7,
+    -37.4,
+    1101,
+    -44.7,
+    1104.5,
+    -44.5,
+    1105,
+    -45.5,
+    1105.6,
+    -46.6,
+    1106.2,
+    -57.4,
+    1112.2,
+    -51.9,
+    1119.4,
+    -39.2,
+    1113.5,
+    -38.3,
+    1113.1
+   ],
+   "id": "sint-kwintensberg-143-04",
+   "latLon": [
+    51.045301,
+    3.72314
+   ],
+   "photos": [
+    {
+     "id": "825770621657408",
+     "metres": 4,
+     "off": 18,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7964,
+   "at": [
+    -6.95,
+    1172.3
+   ],
+   "centre": [
+    1.8,
+    1165.4
+   ],
+   "width": 6.2,
+   "faces": 143,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -8.8,
+    1169.8,
+    1.7,
+    1162,
+    7.1,
+    1157.9,
+    10.2,
+    1161.8,
+    5.5,
+    1165.8,
+    -5.1,
+    1174.8
+   ],
+   "id": "sint-kwintensberg-143-05",
+   "latLon": [
+    51.044893,
+    3.723685
+   ],
+   "photos": [
+    {
+     "id": "501772730960419",
+     "metres": 34,
+     "off": 8,
+     "span": [
+      0.307,
+      0.444
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7787,
+   "at": [
+    6.65,
+    1191.25
+   ],
+   "centre": [
+    25.2,
+    1180.1
+   ],
+   "width": 8.1,
+   "faces": 143,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    18.2,
+    1176.6,
+    4.2,
+    1188,
+    9.1,
+    1194.5,
+    22.9,
+    1182.8,
+    23.7,
+    1183.9,
+    28.3,
+    1180.9,
+    41.4,
+    1177,
+    41.6,
+    1176,
+    32,
+    1174.9,
+    31.3,
+    1174.1,
+    26.9,
+    1178.8,
+    26.4,
+    1177.9,
+    25.9,
+    1178.3,
+    25,
+    1177.2,
+    21.3,
+    1180.2
+   ],
+   "id": "sint-kwintensberg-143-06",
+   "latLon": [
+    51.044756,
+    3.72384
+   ],
+   "photos": [
+    {
+     "id": "164190366049616-88",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.742
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7813,
+   "at": [
+    22.9,
+    1210.1
+   ],
+   "centre": [
+    28.9,
+    1196.7
+   ],
+   "width": 27.3,
+   "faces": 143,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    9.1,
+    1194.5,
+    22.9,
+    1182.8,
+    23.7,
+    1183.9,
+    28.3,
+    1180.9,
+    41.4,
+    1177,
+    41.6,
+    1176,
+    41.7,
+    1175.5,
+    46.7,
+    1176.4,
+    39.6,
+    1215.8,
+    39,
+    1216.3,
+    34.9,
+    1210.8,
+    32.7,
+    1212.6,
+    31.7,
+    1217.9,
+    31.1,
+    1221,
+    14.7,
+    1199.2,
+    13.9,
+    1199.8,
+    14.2,
+    1200.3,
+    13.7,
+    1200.6
+   ],
+   "id": "sint-kwintensberg-143-07",
+   "latLon": [
+    51.044619,
+    3.724026
+   ],
+   "photos": [
+    {
+     "id": "1639043806470640-38",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7975,
+   "at": [
+    -14.299999999999999,
+    1162.1999999999998
+   ],
+   "centre": [
+    -10.1,
+    1158.4
+   ],
+   "width": 7.2,
+   "faces": 144,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -16.4,
+    1159.3,
+    -14.6,
+    1159,
+    -8.2,
+    1154.8,
+    -6.1,
+    1154.2,
+    -3,
+    1158.2,
+    -12.2,
+    1165.1
+   ],
+   "id": "sint-kwintensberg-144-08",
+   "latLon": [
+    51.044966,
+    3.723601
+   ],
+   "photos": [
+    {
+     "id": "221406582687094",
+     "metres": 10,
+     "off": 1,
+     "span": [
+      0.293,
+      0.804
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7970,
+   "at": [
+    -10.5,
+    1167.4499999999998
+   ],
+   "centre": [
+    -1.3,
+    1160
+   ],
+   "width": 5.8,
+   "faces": 144,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -12.2,
+    1165.1,
+    -3,
+    1158.2,
+    2.9,
+    1153.8,
+    3.5,
+    1154.6,
+    5,
+    1156.5,
+    0.2,
+    1159.9,
+    1.7,
+    1162,
+    -8.8,
+    1169.8
+   ],
+   "id": "sint-kwintensberg-144-09",
+   "latLon": [
+    51.044928,
+    3.723644
+   ],
+   "photos": [
+    {
+     "id": "1716667971874741",
+     "metres": 24,
+     "off": 4,
+     "span": [
+      0.478,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7810,
+   "at": [
+    -3.75,
+    1176.75
+   ],
+   "centre": [
+    1.6,
+    1172.2
+   ],
+   "width": 4.7,
+   "faces": 145,
+   "toStreet": 6.1,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": 21.2,
+   "kind": "house",
+   "ring": [
+    5.5,
+    1165.8,
+    8.4,
+    1169.6,
+    -2.4,
+    1178.7,
+    -5.1,
+    1174.8
+   ],
+   "id": "sint-kwintensberg-145-10",
+   "latLon": [
+    51.04486,
+    3.723721
+   ],
+   "photos": [
+    {
+     "id": "501772730960419",
+     "metres": 33,
+     "off": 0,
+     "span": [
+      0.444,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7809,
+   "at": [
+    0.9000000000000001,
+    1183.35
+   ],
+   "centre": [
+    9.8,
+    1172
+   ],
+   "width": 11.4,
+   "faces": 145,
+   "toStreet": 5.9,
+   "floors": 5,
+   "eaves": 19.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2.4,
+    1178.7,
+    8.4,
+    1169.6,
+    5.5,
+    1165.8,
+    10.2,
+    1161.8,
+    13,
+    1165.3,
+    12,
+    1166.1,
+    19.2,
+    1175.8,
+    18.2,
+    1176.6,
+    4.2,
+    1188
+   ],
+   "id": "sint-kwintensberg-145-11",
+   "latLon": [
+    51.044813,
+    3.723775
+   ],
+   "photos": [
+    {
+     "id": "501772730960419",
+     "metres": 33,
+     "off": 11,
+     "span": [
+      0.551,
+      0.824
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8178,
+   "at": [
+    -90.1,
+    1058.6
+   ],
+   "centre": [
+    -76.5,
+    1061
+   ],
+   "width": 8,
+   "faces": 148,
+   "toStreet": 4.1,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -92.2,
+    1055.2,
+    -91.8,
+    1054.9,
+    -80.6,
+    1052.1,
+    -77.7,
+    1051.4,
+    -76.6,
+    1051.2,
+    -74.4,
+    1055.4,
+    -73.3,
+    1057.3,
+    -71,
+    1056.6,
+    -67.8,
+    1062,
+    -68.6,
+    1062.3,
+    -64.6,
+    1070.2,
+    -65.9,
+    1070.8,
+    -67.6,
+    1067.8,
+    -73.4,
+    1069.4,
+    -82.2,
+    1071.9,
+    -84.9,
+    1066.8,
+    -88,
+    1062
+   ],
+   "id": "sint-kwintensberg-148-12",
+   "latLon": [
+    51.045715,
+    3.722734
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 8086,
+   "at": [
+    -109.25,
+    1023.25
+   ],
+   "centre": [
+    -90,
+    1018.9
+   ],
+   "width": 5.9,
+   "faces": 150,
+   "toStreet": 4.6,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -111.5,
+    1019.3,
+    -110.7,
+    1020.7,
+    -107.8,
+    1025.8,
+    -99,
+    1024.5,
+    -93.3,
+    1023.7,
+    -92.3,
+    1023.6,
+    -91.6,
+    1023.5,
+    -90,
+    1023.3,
+    -83.8,
+    1022.4,
+    -82.7,
+    1022.2,
+    -72.2,
+    1020.7,
+    -73,
+    1013.8,
+    -73,
+    1009,
+    -74.6,
+    1009.4,
+    -85.3,
+    1011.7,
+    -84.8,
+    1015.5,
+    -92.5,
+    1016.6,
+    -93.9,
+    1016.8,
+    -97.4,
+    1017.3
+   ],
+   "id": "sint-kwintensberg-150-13",
+   "latLon": [
+    51.045971,
+    3.722515
+   ],
+   "photos": [
+    {
+     "id": "309265073932529",
+     "metres": 35,
+     "off": 3,
+     "span": [
+      0.397,
+      0.51
+     ]
+    },
+    {
+     "id": "272463837876562",
+     "metres": 41,
+     "off": 7,
+     "span": [
+      0.564,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8177,
+   "at": [
+    -71.5,
+    1090.6999999999998
+   ],
+   "centre": [
+    -64.9,
+    1080.5
+   ],
+   "width": 30.8,
+   "faces": 150,
+   "toStreet": 4.7,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -82.2,
+    1071.9,
+    -73.4,
+    1069.4,
+    -67.6,
+    1067.8,
+    -65.9,
+    1070.8,
+    -64.6,
+    1070.2,
+    -63.6,
+    1069.7,
+    -50.8,
+    1093.5,
+    -52.2,
+    1094.2,
+    -50.9,
+    1096.7,
+    -63.9,
+    1104.1,
+    -79.1,
+    1077.3
+   ],
+   "id": "sint-kwintensberg-150-14",
+   "latLon": [
+    51.045483,
+    3.722947
+   ],
+   "photos": [
+    {
+     "id": "484244336252544",
+     "metres": 12,
+     "off": 2,
+     "span": [
+      0,
+      0.931
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8073,
+   "at": [
+    -105.35,
+    1030.1999999999998
+   ],
+   "centre": [
+    -90.9,
+    1027.1
+   ],
+   "width": 10.1,
+   "faces": 151,
+   "toStreet": 4.6,
+   "floors": 4,
+   "eaves": 14,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    -83.9,
+    1032.1,
+    -81.2,
+    1031.8,
+    -82.7,
+    1022.2,
+    -83.8,
+    1022.4,
+    -90,
+    1023.3,
+    -91.6,
+    1023.5,
+    -92.3,
+    1023.6,
+    -93.3,
+    1023.7,
+    -99,
+    1024.5,
+    -107.8,
+    1025.8,
+    -102.9,
+    1034.6,
+    -88.5,
+    1032.7,
+    -85.1,
+    1032.3
+   ],
+   "id": "sint-kwintensberg-151-15",
+   "latLon": [
+    51.045921,
+    3.72256
+   ],
+   "photos": [
+    {
+     "id": "172475308018982",
+     "metres": 32,
+     "off": 3,
+     "span": [
+      0.434,
+      0.648
+     ]
+    },
+    {
+     "id": "175395647787443",
+     "metres": 43,
+     "off": 0,
+     "span": [
+      0.403,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8072,
+   "at": [
+    -94.55,
+    1049.9
+   ],
+   "centre": [
+    -88.4,
+    1040.6
+   ],
+   "width": 11.4,
+   "faces": 151,
+   "toStreet": 4.4,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -102.9,
+    1034.6,
+    -100.7,
+    1038.7,
+    -97.3,
+    1044.9,
+    -91.8,
+    1054.9,
+    -80.6,
+    1052.1,
+    -77.7,
+    1051.4,
+    -81.2,
+    1036,
+    -82.9,
+    1036.4,
+    -83.9,
+    1032.1,
+    -85.1,
+    1032.3,
+    -88.5,
+    1032.7
+   ],
+   "id": "sint-kwintensberg-151-16",
+   "latLon": [
+    51.045778,
+    3.722683
+   ],
+   "photos": [
+    {
+     "id": "1393232191119553-57",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.004,
+      1
+     ]
+    },
+    {
+     "id": "2032513933945419-87",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.752
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8075,
+   "at": [
+    -113.85,
+    1015.25
+   ],
+   "centre": [
+    -104.5,
+    1014
+   ],
+   "width": 9.1,
+   "faces": 153,
+   "toStreet": 4.5,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -117.1,
+    1008.8,
+    -115.9,
+    1011.2,
+    -111.8,
+    1019.3,
+    -111.5,
+    1019.3,
+    -97.4,
+    1017.3,
+    -93.9,
+    1016.8,
+    -94.1,
+    1012.6,
+    -99,
+    1013.1,
+    -99.4,
+    1007.9
+   ],
+   "id": "sint-kwintensberg-153-17",
+   "latLon": [
+    51.046029,
+    3.722463
+   ],
+   "photos": [
+    {
+     "id": "908557099996796",
+     "metres": 41,
+     "off": 0,
+     "span": [
+      0.42,
+      0.594
+     ]
+    },
+    {
+     "id": "806241613649609",
+     "metres": 34,
+     "off": 9,
+     "span": [
+      0.551,
+      0.726
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7689,
+   "at": [
+    -118,
+    1006.8499999999999
+   ],
+   "centre": [
+    -105.6,
+    1006.8
+   ],
+   "width": 4.3,
+   "faces": 155,
+   "toStreet": 4.9,
+   "floors": 4,
+   "eaves": 16.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -94.6,
+    1001.7,
+    -115.9,
+    1002.4,
+    -117.5,
+    1002.4,
+    -118.9,
+    1004.9,
+    -117.1,
+    1008.8,
+    -99.4,
+    1007.9,
+    -99,
+    1013.1,
+    -94.1,
+    1012.6,
+    -94.3,
+    1007.7
+   ],
+   "id": "sint-kwintensberg-155-18",
+   "latLon": [
+    51.04609,
+    3.722415
+   ],
+   "photos": [
+    {
+     "id": "586359298947506",
+     "metres": 33,
+     "off": 4,
+     "span": [
+      0.531,
+      0.607
+     ]
+    },
+    {
+     "id": "908557099996796",
+     "metres": 42,
+     "off": 10,
+     "span": [
+      0.292,
+      0.371
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7697,
+   "at": [
+    -127.95,
+    981.7
+   ],
+   "centre": [
+    -112.9,
+    979.7
+   ],
+   "width": 5.9,
+   "faces": 161,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 16.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -128.9,
+    978.9,
+    -128.7,
+    978.9,
+    -109.5,
+    976.3,
+    -110,
+    974,
+    -102.2,
+    972.6,
+    -101.5,
+    976.6,
+    -108.3,
+    977.6,
+    -107.1,
+    978.6,
+    -106.5,
+    981.4,
+    -107.2,
+    982.9,
+    -107.1,
+    984,
+    -110.6,
+    984.2,
+    -126.5,
+    984.9,
+    -127,
+    984.5
+   ],
+   "id": "sint-kwintensberg-161-01",
+   "latLon": [
+    51.046272,
+    3.722302
+   ],
+   "photos": [
+    {
+     "id": "966948497412554",
+     "metres": 20,
+     "off": 15,
+     "span": [
+      0.584,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11500,
+   "at": [
+    -130.75,
+    971.95
+   ],
+   "centre": [
+    -97.7,
+    968.5
+   ],
+   "width": 5.9,
+   "faces": 163,
+   "toStreet": 11.1,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -131.6,
+    969.1,
+    -93.6,
+    962.9,
+    -93.4,
+    962.8,
+    -93.2,
+    962.8,
+    -84.1,
+    961.3,
+    -83,
+    969,
+    -83.3,
+    969.1,
+    -84.4,
+    969.3,
+    -89.7,
+    970.3,
+    -97.5,
+    971.7,
+    -98.8,
+    971.9,
+    -102.2,
+    972.6,
+    -102.5,
+    970.9,
+    -129.9,
+    974.8
+   ],
+   "id": "sint-kwintensberg-163-02",
+   "latLon": [
+    51.046342,
+    3.72227
+   ],
+   "photos": [
+    {
+     "id": "158927016239445",
+     "metres": 14,
+     "off": 8,
+     "span": [
+      0.488,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8148,
+   "at": [
+    -129.45,
+    976.5
+   ],
+   "centre": [
+    -117.6,
+    975.6
+   ],
+   "width": 3.5,
+   "faces": 165,
+   "toStreet": 10,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -129.9,
+    974.8,
+    -102.5,
+    970.9,
+    -102.2,
+    972.6,
+    -110,
+    974,
+    -109.5,
+    976.3,
+    -128.7,
+    978.9,
+    -128.9,
+    978.9,
+    -129,
+    978.2
+   ],
+   "id": "sint-kwintensberg-165-03",
+   "latLon": [
+    51.046309,
+    3.722284
+   ],
+   "photos": [
+    {
+     "id": "790702741809065",
+     "metres": 16,
+     "off": 7,
+     "span": [
+      0.519,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11499,
+   "at": [
+    -133.39999999999998,
+    961.1500000000001
+   ],
+   "centre": [
+    -97.6,
+    957.4
+   ],
+   "width": 7.3,
+   "faces": 167,
+   "toStreet": 14.7,
+   "floors": 1,
+   "eaves": 5.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -134.2,
+    957.6,
+    -117.1,
+    954.7,
+    -116.6,
+    955.1,
+    -90.7,
+    949.3,
+    -90.4,
+    951.7,
+    -79.9,
+    949.7,
+    -78.9,
+    955.8,
+    -78.3,
+    960.3,
+    -83.3,
+    961.2,
+    -84.1,
+    961.3,
+    -93.2,
+    962.8,
+    -93.8,
+    959.3,
+    -95.4,
+    959.5,
+    -95.5,
+    958.6,
+    -132.6,
+    964.7
+   ],
+   "id": "sint-kwintensberg-167-04",
+   "latLon": [
+    51.04642,
+    3.722239
+   ],
+   "photos": [
+    {
+     "id": "498635791284038",
+     "metres": 10,
+     "off": 4,
+     "span": [
+      0.357,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11714,
+   "at": [
+    -132.1,
+    966.9000000000001
+   ],
+   "centre": [
+    -103.6,
+    962.5
+   ],
+   "width": 4.5,
+   "faces": 167,
+   "toStreet": 12.5,
+   "floors": 1,
+   "eaves": 2.5,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -132.6,
+    964.7,
+    -95.5,
+    958.6,
+    -95.4,
+    959.5,
+    -93.8,
+    959.3,
+    -93.2,
+    962.8,
+    -93.4,
+    962.8,
+    -93.6,
+    962.9,
+    -131.6,
+    969.1
+   ],
+   "id": "sint-kwintensberg-167-05",
+   "latLon": [
+    51.046379,
+    3.722254
+   ],
+   "photos": [
+    {
+     "id": "140986294682060",
+     "metres": 11,
+     "off": 8,
+     "span": [
+      0.487,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8080,
+   "at": [
+    -33.45,
+    1128.75
+   ],
+   "centre": [
+    -29.9,
+    1124.5
+   ],
+   "width": 6.5,
+   "faces": 167,
+   "toStreet": 14.4,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -35.2,
+    1121.4,
+    -34.2,
+    1125.6,
+    -32.7,
+    1131.9,
+    -26.7,
+    1130.8,
+    -25.2,
+    1129.1,
+    -23.5,
+    1120.6,
+    -28.1,
+    1119.8,
+    -31.5,
+    1119.3,
+    -32.1,
+    1122.3
+   ],
+   "id": "sint-kwintensberg-167-06",
+   "latLon": [
+    51.045208,
+    3.723382
+   ],
+   "photos": [
+    {
+     "id": "311356900383763",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.371,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40446,
+   "at": [
+    51.5,
+    1235.25
+   ],
+   "centre": [
+    123,
+    1228.8
+   ],
+   "width": 19.1,
+   "faces": 182,
+   "toStreet": 16.9,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "university",
+   "ring": [
+    85.5,
+    1206.3,
+    84.4,
+    1224.3,
+    74.6,
+    1223.7,
+    73.8,
+    1223.8,
+    73.3,
+    1224.2,
+    73,
+    1224.9,
+    71.3,
+    1224.9,
+    52.4,
+    1225,
+    52.2,
+    1225.1,
+    52,
+    1225.2,
+    51.9,
+    1225.4,
+    51.8,
+    1225.7,
+    51.2,
+    1244.8,
+    51.3,
+    1245,
+    51.5,
+    1245.3,
+    51.7,
+    1245.4,
+    51.9,
+    1245.5,
+    54.4,
+    1245.6,
+    57.8,
+    1245.7,
+    57.9,
+    1244.2,
+    64.1,
+    1244.5,
+    72.4,
+    1244.8,
+    71.9,
+    1258.5,
+    71.7,
+    1262,
+    71.6,
+    1265.5,
+    71.4,
+    1271.4,
+    70.7,
+    1290.1,
+    70.7,
+    1290.5,
+    70.8,
+    1290.7,
+    70.9,
+    1290.9,
+    71.1,
+    1291,
+    71.4,
+    1291.1,
+    90.5,
+    1291.8,
+    90.7,
+    1291.7,
+    90.9,
+    1291.6,
+    91,
+    1291.4,
+    91.1,
+    1291.2,
+    91.2,
+    1286.7,
+    93.1,
+    1286.8,
+    140.2,
+    1288.6,
+    150.5,
+    1288.9,
+    175.7,
+    1289.8,
+    175.7,
+    1291.8,
+    208.1,
+    1293,
+    208.3,
+    1292.9,
+    208.5,
+    1292.8,
+    208.6,
+    1292.6,
+    208.7,
+    1292.3,
+    209,
+    1281.7,
+    213.2,
+    1281.9,
+    217.2,
+    1267.4,
+    203.2,
+    1265,
+    203,
+    1266.4,
+    177.3,
+    1265.4,
+    178.6,
+    1230.4,
+    175,
+    1230.3,
+    176.7,
+    1197.2,
+    187.9,
+    1197.9,
+    188.8,
+    1182.8,
+    190.5,
+    1182.9,
+    190.8,
+    1178.7,
+    193.5,
+    1178.9,
+    196.2,
+    1179.1,
+    196.9,
+    1170.7,
+    194.1,
+    1170.6,
+    191.7,
+    1170.5,
+    192.1,
+    1163.8,
+    191.7,
+    1163.8,
+    191.9,
+    1161.6,
+    191.3,
+    1161.6,
+    191.7,
+    1153.2,
+    192.4,
+    1153.2,
+    192.4,
+    1151.1,
+    192.9,
+    1151.1,
+    192.9,
+    1144.9,
+    185.8,
+    1144.5,
+    175.8,
+    1143.9,
+    168.8,
+    1143.4,
+    168.7,
+    1144.7,
+    70.7,
+    1138.4,
+    69.8,
+    1152,
+    64.8,
+    1151.8,
+    52.4,
+    1217.5,
+    65.5,
+    1219.6,
+    66,
+    1209.5,
+    73.4,
+    1209.7,
+    74.7,
+    1209.3,
+    75.6,
+    1208.6,
+    76.1,
+    1207.5,
+    76.3,
+    1205.7
+   ],
+   "id": "sint-kwintensberg-182-07",
+   "latLon": [
+    51.044437,
+    3.724353
+   ],
+   "photos": [
+    {
+     "id": "153768643419065",
+     "metres": 21,
+     "off": 6,
+     "span": [
+      0.226,
+      0.888
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7921,
+   "at": [
+    47.7,
+    1316.05
+   ],
+   "centre": [
+    39.6,
+    1320.3
+   ],
+   "width": 6.5,
+   "faces": 253,
+   "toStreet": 17.3,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    31.1,
+    1318.5,
+    43.8,
+    1314.6,
+    44.6,
+    1317,
+    50.8,
+    1315.1,
+    52.9,
+    1321.2,
+    41,
+    1324.9,
+    40.1,
+    1322.5,
+    38.1,
+    1323.1,
+    37.7,
+    1322.1,
+    28.4,
+    1324.8,
+    26.7,
+    1319.8
+   ],
+   "id": "sint-kwintensberg-253-01",
+   "latLon": [
+    51.043853,
+    3.72431
+   ],
+   "photos": [
+    {
+     "id": "159088623253801-200",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.452,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7844,
+   "at": [
+    -52.150000000000006,
+    1140.4
+   ],
+   "centre": [
+    -67.8,
+    1157.6
+   ],
+   "width": 4.8,
+   "faces": 319,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -89.9,
+    1185.1,
+    -81.7,
+    1170.4,
+    -77.1,
+    1163.3,
+    -62.8,
+    1147.7,
+    -61.9,
+    1148.2,
+    -60.8,
+    1146.9,
+    -60.4,
+    1147.1,
+    -53.7,
+    1138.6,
+    -50.6,
+    1142.2,
+    -62.6,
+    1156.9,
+    -84.2,
+    1187.7
+   ],
+   "id": "sint-kwintensberg-319-01",
+   "latLon": [
+    51.045123,
+    3.723168
+   ],
+   "photos": [
+    {
+     "id": "461337805139549",
+     "metres": 23,
+     "off": 21,
+     "span": [
+      0.797,
+      0.959
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7969,
+   "at": [
+    -46.95,
+    1146.45
+   ],
+   "centre": [
+    -52.8,
+    1153.7
+   ],
+   "width": 11.2,
+   "faces": 319,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -43.3,
+    1150.7,
+    -50.5,
+    1156.8,
+    -52.4,
+    1154.8,
+    -57.4,
+    1161,
+    -62.6,
+    1156.9,
+    -50.6,
+    1142.2
+   ],
+   "id": "sint-kwintensberg-319-02",
+   "latLon": [
+    51.04508,
+    3.723228
+   ],
+   "photos": [
+    {
+     "id": "461337805139549",
+     "metres": 20,
+     "off": 5,
+     "span": [
+      0.369,
+      0.797
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7820,
+   "at": [
+    -2.8,
+    1202.6999999999998
+   ],
+   "centre": [
+    -16.3,
+    1218
+   ],
+   "width": 5.5,
+   "faces": 319,
+   "toStreet": 8.6,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    -16.6,
+    1213.9,
+    -12.8,
+    1209.7,
+    -4.6,
+    1200.6,
+    -1,
+    1204.8,
+    -14.2,
+    1219.7,
+    -24.8,
+    1233.2,
+    -26.8,
+    1231.8,
+    -29.3,
+    1230.1
+   ],
+   "id": "sint-kwintensberg-319-03",
+   "latLon": [
+    51.044673,
+    3.723732
+   ],
+   "photos": [
+    {
+     "id": "711118074670292-195",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.417,
+      0.593
+     ]
+    },
+    {
+     "id": "164190366049616-203",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.406,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7804,
+   "at": [
+    12.15,
+    1220.8000000000002
+   ],
+   "centre": [
+    2.3,
+    1232.9
+   ],
+   "width": 6.9,
+   "faces": 319,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -5.1,
+    1239.5,
+    0.8,
+    1232.1,
+    -0.8,
+    1230.4,
+    9.9,
+    1218.2,
+    14.4,
+    1223.4,
+    2.3,
+    1237,
+    -0.9,
+    1240.6,
+    -2,
+    1242
+   ],
+   "id": "sint-kwintensberg-319-04",
+   "latLon": [
+    51.044542,
+    3.723903
+   ],
+   "photos": [
+    {
+     "id": "1639043806470640-229",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.323,
+      0.682
+     ]
+    },
+    {
+     "id": "4158387764444214-255",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.327,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7811,
+   "at": [
+    -13.65,
+    1189.1999999999998
+   ],
+   "centre": [
+    -18.4,
+    1194.8
+   ],
+   "width": 5.5,
+   "faces": 320,
+   "toStreet": 9.3,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 19.8,
+   "kind": "yes",
+   "ring": [
+    -22.3,
+    1194.7,
+    -15.4,
+    1187.1,
+    -11.9,
+    1191.3,
+    -18.6,
+    1198.8,
+    -19.1,
+    1198.5,
+    -19.6,
+    1198.1,
+    -21.8,
+    1195.4
+   ],
+   "id": "sint-kwintensberg-320-05",
+   "latLon": [
+    51.04477,
+    3.723608
+   ],
+   "photos": [
+    {
+     "id": "516174476642547-215",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.394,
+      0.617
+     ]
+    },
+    {
+     "id": "986457997030731-195",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.426,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7808,
+   "at": [
+    2.45,
+    1208.9499999999998
+   ],
+   "centre": [
+    -7,
+    1221.4
+   ],
+   "width": 10.8,
+   "faces": 320,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 16.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -14.2,
+    1219.7,
+    -11.7,
+    1221.7,
+    -13.7,
+    1224.2,
+    -11.9,
+    1225.6,
+    -9.9,
+    1223,
+    -8.9,
+    1223.8,
+    -6.1,
+    1220.3,
+    -3.4,
+    1222.4,
+    -7.7,
+    1227.9,
+    -6.7,
+    1228.6,
+    -1.9,
+    1222.7,
+    5.9,
+    1213.1,
+    -1,
+    1204.8
+   ],
+   "id": "sint-kwintensberg-320-06",
+   "latLon": [
+    51.044628,
+    3.723792
+   ],
+   "photos": [
+    {
+     "id": "1056848341565592-237",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.217,
+      0.747
+     ]
+    },
+    {
+     "id": "3162691370554632-249",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.202,
+      0.706
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7965,
+   "at": [
+    -41.349999999999994,
+    1153.2
+   ],
+   "centre": [
+    -49.8,
+    1159.6
+   ],
+   "width": 6.3,
+   "faces": 322,
+   "toStreet": 8,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -50.5,
+    1156.8,
+    -43.3,
+    1150.7,
+    -39.4,
+    1155.7,
+    -45.8,
+    1161,
+    -52.1,
+    1165.9,
+    -55.9,
+    1162.7,
+    -54.8,
+    1161.6,
+    -53.4,
+    1162.6,
+    -50.5,
+    1160.2,
+    -52,
+    1158.4
+   ],
+   "id": "sint-kwintensberg-322-07",
+   "latLon": [
+    51.045031,
+    3.723292
+   ],
+   "photos": [
+    {
+     "id": "2926293837643784",
+     "metres": 12,
+     "off": 16,
+     "span": [
+      0.565,
+      1
+     ]
+    },
+    {
+     "id": "243055370842630",
+     "metres": 41,
+     "off": 22,
+     "span": [
+      0.665,
+      0.734
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7974,
+   "at": [
+    -36.599999999999994,
+    1159.3000000000002
+   ],
+   "centre": [
+    -40.4,
+    1165.8
+   ],
+   "width": 9.1,
+   "faces": 322,
+   "toStreet": 8.7,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -45.8,
+    1161,
+    -39.4,
+    1155.7,
+    -33.8,
+    1162.9,
+    -33.5,
+    1165.5,
+    -39,
+    1177.8,
+    -47.6,
+    1173.7,
+    -43.4,
+    1164.1
+   ],
+   "id": "sint-kwintensberg-322-08",
+   "latLon": [
+    51.044987,
+    3.723346
+   ],
+   "photos": [
+    {
+     "id": "1172570576499100",
+     "metres": 8,
+     "off": 9,
+     "span": [
+      0.239,
+      1
+     ]
+    },
+    {
+     "id": "223694592514369",
+     "metres": 25,
+     "off": 15,
+     "span": [
+      0.559,
+      0.711
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7807,
+   "at": [
+    -10,
+    1193.6999999999998
+   ],
+   "centre": [
+    -18.1,
+    1201.3
+   ],
+   "width": 6.1,
+   "faces": 322,
+   "toStreet": 9,
+   "floors": 4,
+   "eaves": 15,
+   "top": 19,
+   "kind": "house",
+   "ring": [
+    -19.6,
+    1198.1,
+    -19.1,
+    1198.5,
+    -18.6,
+    1198.8,
+    -11.9,
+    1191.3,
+    -8.1,
+    1196.1,
+    -16.7,
+    1206.6,
+    -18.2,
+    1208.6,
+    -22.1,
+    1205.5,
+    -22.7,
+    1205.1,
+    -24,
+    1204.1
+   ],
+   "id": "sint-kwintensberg-322-09",
+   "latLon": [
+    51.044738,
+    3.72365
+   ],
+   "photos": [
+    {
+     "id": "711118074670292-251",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.356,
+      0.62
+     ]
+    },
+    {
+     "id": "164190366049616-259",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.372,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7806,
+   "at": [
+    -6.35,
+    1198.35
+   ],
+   "centre": [
+    -10.6,
+    1203.3
+   ],
+   "width": 5.7,
+   "faces": 322,
+   "toStreet": 8.9,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    -16.7,
+    1206.6,
+    -12.8,
+    1209.7,
+    -4.6,
+    1200.6,
+    -8.1,
+    1196.1
+   ],
+   "id": "sint-kwintensberg-322-10",
+   "latLon": [
+    51.044704,
+    3.723692
+   ],
+   "photos": [
+    {
+     "id": "711118074670292-219",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.381,
+      0.642
+     ]
+    },
+    {
+     "id": "164190366049616-230",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.368,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7815,
+   "at": [
+    7.9,
+    1215.65
+   ],
+   "centre": [
+    0.6,
+    1224.2
+   ],
+   "width": 6.5,
+   "faces": 322,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": 17.8,
+   "kind": "house",
+   "ring": [
+    -6.7,
+    1228.6,
+    -1.9,
+    1222.7,
+    5.9,
+    1213.1,
+    9.9,
+    1218.2,
+    -0.8,
+    1230.4,
+    -2.7,
+    1232.4
+   ],
+   "id": "sint-kwintensberg-322-11",
+   "latLon": [
+    51.044579,
+    3.723855
+   ],
+   "photos": [
+    {
+     "id": "3162691370554632-202",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.393,
+      0.646
+     ]
+    },
+    {
+     "id": "1639043806470640-264",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.365,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7794,
+   "at": [
+    21.049999999999997,
+    1232.2
+   ],
+   "centre": [
+    8.9,
+    1239.6
+   ],
+   "width": 7.1,
+   "faces": 322,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    5.9,
+    1240,
+    11.3,
+    1234.8,
+    18.9,
+    1229.4,
+    23.2,
+    1235,
+    5.5,
+    1248,
+    1.1,
+    1243.9,
+    2.2,
+    1242.6,
+    2.9,
+    1243
+   ],
+   "id": "sint-kwintensberg-322-12",
+   "latLon": [
+    51.044459,
+    3.724005
+   ],
+   "photos": [
+    {
+     "id": "1253854371815069-221",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.329,
+      0.691
+     ]
+    },
+    {
+     "id": "1047444473988554-265",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.334,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7812,
+   "at": [
+    -18.25,
+    1183.3
+   ],
+   "centre": [
+    -22.4,
+    1186.6
+   ],
+   "width": 9.5,
+   "faces": 323,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -29.3,
+    1191.8,
+    -24,
+    1179.7,
+    -21.1,
+    1179.5,
+    -15.4,
+    1187.1,
+    -22.3,
+    1194.7
+   ],
+   "id": "sint-kwintensberg-323-13",
+   "latLon": [
+    51.044813,
+    3.723556
+   ],
+   "photos": [
+    {
+     "id": "326426609063849",
+     "metres": 43,
+     "off": 17,
+     "span": [
+      0.321,
+      0.382
+     ]
+    },
+    {
+     "id": "302019928096828",
+     "metres": 43,
+     "off": 18,
+     "span": [
+      0.113,
+      0.23
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7824,
+   "at": [
+    16.65,
+    1226.4
+   ],
+   "centre": [
+    10.6,
+    1232.9
+   ],
+   "width": 7.5,
+   "faces": 323,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 16.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2.3,
+    1237,
+    14.4,
+    1223.4,
+    18.9,
+    1229.4,
+    11.3,
+    1234.8,
+    5.9,
+    1240
+   ],
+   "id": "sint-kwintensberg-323-14",
+   "latLon": [
+    51.044501,
+    3.723955
+   ],
+   "photos": [
+    {
+     "id": "4158387764444214-214",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.35,
+      0.701
+     ]
+    },
+    {
+     "id": "1253854371815069-262",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.317,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7976,
+   "at": [
+    -59.3,
+    1131.45
+   ],
+   "centre": [
+    -70.8,
+    1135
+   ],
+   "width": 9.1,
+   "faces": 325,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -74.1,
+    1143.4,
+    -77.9,
+    1142.7,
+    -85.9,
+    1130.5,
+    -77.4,
+    1130.6,
+    -70.4,
+    1130.6,
+    -61.9,
+    1127.7,
+    -56.7,
+    1135.2,
+    -62.4,
+    1139
+   ],
+   "id": "sint-kwintensberg-325-15",
+   "latLon": [
+    51.045188,
+    3.723086
+   ],
+   "photos": [
+    {
+     "id": "544874175351467-259",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.251,
+      0.681
+     ]
+    },
+    {
+     "id": "144238241475516-270",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.301,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7996,
+   "at": [
+    -64.05,
+    1124.5
+   ],
+   "centre": [
+    -76.1,
+    1126.8
+   ],
+   "width": 7.7,
+   "faces": 326,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 14.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -84.3,
+    1122.6,
+    -66.2,
+    1121.3,
+    -61.9,
+    1127.7,
+    -70.4,
+    1130.6,
+    -77.4,
+    1130.6,
+    -77.7,
+    1127.3,
+    -81.5,
+    1127.6,
+    -81.6,
+    1126.7,
+    -84,
+    1126.9
+   ],
+   "id": "sint-kwintensberg-326-16",
+   "latLon": [
+    51.045239,
+    3.723032
+   ],
+   "photos": [
+    {
+     "id": "523759679413026-223",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.314,
+      0.709
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7992,
+   "at": [
+    -68.4,
+    1117.9499999999998
+   ],
+   "centre": [
+    -82,
+    1119.6
+   ],
+   "width": 8,
+   "faces": 327,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    -94.4,
+    1116.4,
+    -70.6,
+    1114.6,
+    -66.2,
+    1121.3,
+    -84.3,
+    1122.6,
+    -94.3,
+    1123.3
+   ],
+   "id": "sint-kwintensberg-327-17",
+   "latLon": [
+    51.045286,
+    3.722982
+   ],
+   "photos": [
+    {
+     "id": "4277248692494860-210",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.327,
+      0.765
+     ]
+    },
+    {
+     "id": "523759679413026-267",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.306,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8134,
+   "at": [
+    -81.4,
+    1096.5500000000002
+   ],
+   "centre": [
+    -90.2,
+    1098.8
+   ],
+   "width": 5,
+   "faces": 329,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -97.4,
+    1096.5,
+    -96,
+    1100.6,
+    -94.9,
+    1103.9,
+    -80.1,
+    1098.7,
+    -82.7,
+    1094.4
+   ],
+   "id": "sint-kwintensberg-329-18",
+   "latLon": [
+    51.045441,
+    3.722834
+   ],
+   "photos": [
+    {
+     "id": "1922782148532677-201",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.396,
+      0.647
+     ]
+    },
+    {
+     "id": "1605688673677234-207",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.468,
+      0.536
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7995,
+   "at": [
+    -74,
+    1109
+   ],
+   "centre": [
+    -90.6,
+    1111.4
+   ],
+   "width": 13.1,
+   "faces": 329,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -97.4,
+    1109.2,
+    -93.4,
+    1108.2,
+    -82.6,
+    1105.6,
+    -77.4,
+    1103.4,
+    -70.6,
+    1114.6,
+    -94.4,
+    1116.4,
+    -97.2,
+    1116.5,
+    -97.9,
+    1116.6,
+    -98.3,
+    1111.7,
+    -97.1,
+    1111.6
+   ],
+   "id": "sint-kwintensberg-329-19",
+   "latLon": [
+    51.045351,
+    3.722918
+   ],
+   "photos": [
+    {
+     "id": "1018012435774228-215",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.221,
+      1
+     ]
+    },
+    {
+     "id": "4277248692494860-279",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.065,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8117,
+   "at": [
+    -111.5,
+    1042
+   ],
+   "centre": [
+    -118.2,
+    1043.4
+   ],
+   "width": 8.5,
+   "faces": 330,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -122.9,
+    1043.3,
+    -122.8,
+    1047.4,
+    -121,
+    1047.4,
+    -109.4,
+    1045.7,
+    -113.6,
+    1038.3,
+    -119.6,
+    1038.6,
+    -118.4,
+    1043.1
+   ],
+   "id": "sint-kwintensberg-330-20",
+   "latLon": [
+    51.045835,
+    3.72249
+   ],
+   "photos": [
+    {
+     "id": "534484631581636-241",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.131,
+      0.876
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8135,
+   "at": [
+    -96.65,
+    1069.05
+   ],
+   "centre": [
+    -101.6,
+    1072.4
+   ],
+   "width": 7.5,
+   "faces": 330,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -107,
+    1070.3,
+    -104.7,
+    1074.4,
+    -103.4,
+    1076.3,
+    -101.2,
+    1075.3,
+    -94.8,
+    1072.3,
+    -98.5,
+    1065.8
+   ],
+   "id": "sint-kwintensberg-330-21",
+   "latLon": [
+    51.04564,
+    3.722659
+   ],
+   "photos": [
+    {
+     "id": "1223131862510886-263",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.06,
+      0.743
+     ]
+    },
+    {
+     "id": "1040814560116987-268",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.174,
+      0.686
+     ]
+    },
+    {
+     "id": "3804878899778036-271",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.432,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8105,
+   "at": [
+    -78.75,
+    1101.0500000000002
+   ],
+   "centre": [
+    -85.7,
+    1104
+   ],
+   "width": 5.4,
+   "faces": 330,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    -94.9,
+    1103.9,
+    -93.4,
+    1108.2,
+    -82.6,
+    1105.6,
+    -77.4,
+    1103.4,
+    -80.1,
+    1098.7
+   ],
+   "id": "sint-kwintensberg-330-22",
+   "latLon": [
+    51.045408,
+    3.722864
+   ],
+   "photos": [
+    {
+     "id": "1018012435774228-277",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.367,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8109,
+   "at": [
+    -119.25,
+    1028.1999999999998
+   ],
+   "centre": [
+    -123.3,
+    1029.2
+   ],
+   "width": 11.2,
+   "faces": 331,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -127.2,
+    1024,
+    -125.5,
+    1030.4,
+    -125.2,
+    1035.4,
+    -116.5,
+    1033.1,
+    -122,
+    1023.3
+   ],
+   "id": "sint-kwintensberg-331-23",
+   "latLon": [
+    51.045935,
+    3.722401
+   ],
+   "photos": [
+    {
+     "id": "706648393813914-258",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.851
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8123,
+   "at": [
+    -115.05,
+    1035.6999999999998
+   ],
+   "centre": [
+    -120.7,
+    1036.9
+   ],
+   "width": 6,
+   "faces": 331,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -125.2,
+    1035.4,
+    -125.1,
+    1037.3,
+    -122.7,
+    1036.8,
+    -122.4,
+    1038.7,
+    -119.6,
+    1038.6,
+    -113.6,
+    1038.3,
+    -116.5,
+    1033.1
+   ],
+   "id": "sint-kwintensberg-331-24",
+   "latLon": [
+    51.045881,
+    3.722449
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 8130,
+   "at": [
+    -113.5,
+    1058.4499999999998
+   ],
+   "centre": [
+    -116.3,
+    1059.3
+   ],
+   "width": 4.9,
+   "faces": 331,
+   "toStreet": 16.3,
+   "floors": 2,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -119.1,
+    1057.5,
+    -118.9,
+    1061,
+    -116.4,
+    1061,
+    -112.3,
+    1060.6,
+    -114.7,
+    1056.3
+   ],
+   "id": "sint-kwintensberg-331-25",
+   "latLon": [
+    51.045716,
+    3.722467
+   ],
+   "photos": [
+    {
+     "id": "2032513933945419-234",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.416,
+      0.592
+     ]
+    },
+    {
+     "id": "1393232191119553-248",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.424,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8116,
+   "at": [
+    -101.8,
+    1059.75
+   ],
+   "centre": [
+    -107.6,
+    1062.6
+   ],
+   "width": 13.8,
+   "faces": 331,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    -114.7,
+    1056.3,
+    -112.3,
+    1060.6,
+    -107.7,
+    1068.9,
+    -107,
+    1070.3,
+    -98.5,
+    1065.8,
+    -105.1,
+    1053.7
+   ],
+   "id": "sint-kwintensberg-331-26",
+   "latLon": [
+    51.045707,
+    3.722601
+   ],
+   "photos": [
+    {
+     "id": "1393232191119553-201",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.283,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8129,
+   "at": [
+    -105.85,
+    1072.35
+   ],
+   "centre": [
+    -108.8,
+    1071.5
+   ],
+   "width": 4.7,
+   "faces": 331,
+   "toStreet": 16.4,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -112.5,
+    1069.1,
+    -112.3,
+    1074.8,
+    -104.7,
+    1074.4,
+    -107,
+    1070.3,
+    -107.7,
+    1068.9
+   ],
+   "id": "sint-kwintensberg-331-27",
+   "latLon": [
+    51.045616,
+    3.722554
+   ],
+   "photos": [
+    {
+     "id": "1223131862510886-255",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.417,
+      0.568
+     ]
+    },
+    {
+     "id": "1040814560116987-257",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.432,
+      0.569
+     ]
+    },
+    {
+     "id": "1208034843736477-270",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.459,
+      0.53
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8114,
+   "at": [
+    -89.2,
+    1082.55
+   ],
+   "centre": [
+    -98.6,
+    1084.7
+   ],
+   "width": 7,
+   "faces": 331,
+   "toStreet": 6.8,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -105.9,
+    1083.9,
+    -103.9,
+    1089.5,
+    -102.6,
+    1089.4,
+    -87.5,
+    1085.6,
+    -90.9,
+    1079.5,
+    -99.3,
+    1083.4,
+    -100.3,
+    1081.4
+   ],
+   "id": "sint-kwintensberg-331-28",
+   "latLon": [
+    51.045542,
+    3.722745
+   ],
+   "photos": [
+    {
+     "id": "547754154576496-245",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.246,
+      0.738
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8113,
+   "at": [
+    -86.3,
+    1087.8
+   ],
+   "centre": [
+    -94.2,
+    1089.5
+   ],
+   "width": 5,
+   "faces": 331,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -102.6,
+    1089.4,
+    -101.7,
+    1093.1,
+    -85.1,
+    1090,
+    -87.5,
+    1085.6
+   ],
+   "id": "sint-kwintensberg-331-29",
+   "latLon": [
+    51.045504,
+    3.722778
+   ],
+   "photos": [
+    {
+     "id": "447966553753452-246",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.291,
+      0.705
+     ]
+    },
+    {
+     "id": "1034352258165047-231",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.461,
+      0.545
+     ]
+    },
+    {
+     "id": "1922782148532677-279",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.343,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8122,
+   "at": [
+    -83.9,
+    1092.2
+   ],
+   "centre": [
+    -96.5,
+    1096.7
+   ],
+   "width": 5,
+   "faces": 331,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -103.2,
+    1096.9,
+    -102.5,
+    1101.3,
+    -98.6,
+    1100.9,
+    -96,
+    1100.6,
+    -97.4,
+    1096.5,
+    -82.7,
+    1094.4,
+    -85.1,
+    1090,
+    -101.7,
+    1093.1,
+    -100.9,
+    1096.7
+   ],
+   "id": "sint-kwintensberg-331-30",
+   "latLon": [
+    51.045472,
+    3.722805
+   ],
+   "photos": [
+    {
+     "id": "1922782148532677-239",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.303,
+      0.705
+     ]
+    },
+    {
+     "id": "1034352258165047-222",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.462,
+      0.539
+     ]
+    },
+    {
+     "id": "447966553753452-205",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.386,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7994,
+   "at": [
+    -127.65,
+    1012.95
+   ],
+   "centre": [
+    -131.1,
+    1010.3
+   ],
+   "width": 18.7,
+   "faces": 332,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -134.2,
+    1004.8,
+    -132.4,
+    1004.5,
+    -132.3,
+    1004.5,
+    -132.2,
+    1004.6,
+    -132.1,
+    1004.6,
+    -132.1,
+    1004.7,
+    -123.2,
+    1021.2,
+    -127.7,
+    1021.9,
+    -128.1,
+    1015.3,
+    -130.6,
+    1015.4,
+    -130.8,
+    1011.8,
+    -132.6,
+    1011.8,
+    -132.7,
+    1009.5,
+    -134.1,
+    1009.5
+   ],
+   "id": "sint-kwintensberg-332-31",
+   "latLon": [
+    51.046046,
+    3.722305
+   ],
+   "photos": [
+    {
+     "id": "326682092732706-211",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.179,
+      1
+     ]
+    },
+    {
+     "id": "3247152452170175-226",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.357,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8131,
+   "at": [
+    -107.25,
+    1049.7
+   ],
+   "centre": [
+    -115.7,
+    1052.9
+   ],
+   "width": 9.1,
+   "faces": 332,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -121,
+    1047.4,
+    -121,
+    1054.9,
+    -119.3,
+    1054.9,
+    -119.1,
+    1057.5,
+    -114.7,
+    1056.3,
+    -105.1,
+    1053.7,
+    -109.4,
+    1045.7
+   ],
+   "id": "sint-kwintensberg-332-32",
+   "latLon": [
+    51.04578,
+    3.722538
+   ],
+   "photos": [
+    {
+     "id": "2032513933945419-278",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.734
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8107,
+   "at": [
+    -92.85,
+    1075.9
+   ],
+   "centre": [
+    -98.5,
+    1078
+   ],
+   "width": 8.2,
+   "faces": 332,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 14.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -102.3,
+    1077.4,
+    -100.3,
+    1081.4,
+    -99.3,
+    1083.4,
+    -90.9,
+    1079.5,
+    -94.8,
+    1072.3,
+    -101.2,
+    1075.3,
+    -100.6,
+    1076.5
+   ],
+   "id": "sint-kwintensberg-332-33",
+   "latLon": [
+    51.04559,
+    3.722703
+   ],
+   "photos": [
+    {
+     "id": "1208034843736477-257",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.372,
+      0.61
+     ]
+    },
+    {
+     "id": "1040814560116987-204",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.344,
+      0.801
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7830,
+   "at": [
+    41.55,
+    1288.25
+   ],
+   "centre": [
+    31,
+    1292.3
+   ],
+   "width": 9.9,
+   "faces": 340,
+   "toStreet": 10.5,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    21.2,
+    1289.8,
+    39.9,
+    1283.6,
+    43.2,
+    1292.9,
+    34.1,
+    1295.5,
+    33.2,
+    1292.8,
+    26.7,
+    1294.3,
+    26.5,
+    1293.9,
+    23,
+    1295.2
+   ],
+   "id": "sint-kwintensberg-340-02",
+   "latLon": [
+    51.044054,
+    3.724239
+   ],
+   "photos": [
+    {
+     "id": "479791586579167",
+     "metres": 30,
+     "off": 4,
+     "span": [
+      0.478,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7829,
+   "at": [
+    24.75,
+    1239.45
+   ],
+   "centre": [
+    16.1,
+    1246.5
+   ],
+   "width": 9.4,
+   "faces": 341,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    5.5,
+    1248,
+    23.2,
+    1235,
+    26.3,
+    1243.9,
+    14,
+    1251.9,
+    11.5,
+    1253.6
+   ],
+   "id": "sint-kwintensberg-341-03",
+   "latLon": [
+    51.044407,
+    3.724047
+   ],
+   "photos": [
+    {
+     "id": "508383977413162-245",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.272,
+      0.745
+     ]
+    },
+    {
+     "id": "1047444473988554-222",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.341,
+      0.73
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7816,
+   "at": [
+    27.6,
+    1247.7
+   ],
+   "centre": [
+    21.2,
+    1250.8
+   ],
+   "width": 8,
+   "faces": 341,
+   "toStreet": 9.8,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    14,
+    1251.9,
+    26.3,
+    1243.9,
+    28.9,
+    1251.5,
+    15.8,
+    1255.8
+   ],
+   "id": "sint-kwintensberg-341-04",
+   "latLon": [
+    51.044347,
+    3.72408
+   ],
+   "photos": [
+    {
+     "id": "1817146032167542-254",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.333,
+      0.659
+     ]
+    },
+    {
+     "id": "1293599887715297-262",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.313,
+      0.663
+     ]
+    },
+    {
+     "id": "1530461940916847-282",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.444,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7834,
+   "at": [
+    30.7,
+    1256.75
+   ],
+   "centre": [
+    7.5,
+    1259.4
+   ],
+   "width": 11.1,
+   "faces": 341,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": null,
+   "kind": "chapel",
+   "ring": [
+    18.2,
+    1266.8,
+    32.5,
+    1262,
+    28.9,
+    1251.5,
+    15.8,
+    1255.8,
+    4.9,
+    1259.4,
+    3.9,
+    1258.6,
+    3.2,
+    1259,
+    -5.8,
+    1251.2,
+    -7.5,
+    1249.7,
+    -2.8,
+    1263.3,
+    -2.3,
+    1263.1,
+    0.6,
+    1272.8
+   ],
+   "id": "sint-kwintensberg-341-05",
+   "latLon": [
+    51.044282,
+    3.724115
+   ],
+   "photos": [
+    {
+     "id": "1749868485928087-274",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.302,
+      0.644
+     ]
+    },
+    {
+     "id": "1530461940916847-265",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.389,
+      0.593
+     ]
+    },
+    {
+     "id": "497159162139289-270",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.261,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8182,
+   "at": [
+    34.650000000000006,
+    1268.2
+   ],
+   "centre": [
+    23.3,
+    1271.4
+   ],
+   "width": 6.4,
+   "faces": 341,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 21.6,
+   "kind": "house",
+   "ring": [
+    16.7,
+    1273.7,
+    20.2,
+    1272.5,
+    21.4,
+    1276,
+    35.7,
+    1271.2,
+    33.6,
+    1265.2,
+    19.3,
+    1270.1,
+    15.9,
+    1271.3
+   ],
+   "id": "sint-kwintensberg-341-06",
+   "latLon": [
+    51.044199,
+    3.72416
+   ],
+   "photos": [
+    {
+     "id": "773368303323841",
+     "metres": 37,
+     "off": 16,
+     "span": [
+      0.606,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7819,
+   "at": [
+    38.4,
+    1279.1999999999998
+   ],
+   "centre": [
+    20.5,
+    1283.8
+   ],
+   "width": 9.3,
+   "faces": 341,
+   "toStreet": 10.3,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    6.5,
+    1285.1,
+    7.7,
+    1288.3,
+    17.3,
+    1285.1,
+    16.9,
+    1283.9,
+    19,
+    1283.1,
+    21.2,
+    1289.8,
+    39.9,
+    1283.6,
+    36.9,
+    1274.8,
+    19.1,
+    1280.8
+   ],
+   "id": "sint-kwintensberg-341-07",
+   "latLon": [
+    51.044119,
+    3.724203
+   ],
+   "photos": [
+    {
+     "id": "560067502046215",
+     "metres": 32,
+     "off": 9,
+     "span": [
+      0.524,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7918,
+   "at": [
+    44.85,
+    1297.65
+   ],
+   "centre": [
+    32,
+    1301.6
+   ],
+   "width": 10.1,
+   "faces": 341,
+   "toStreet": 10.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    46.5,
+    1302.4,
+    27.9,
+    1307.6,
+    24.7,
+    1308.6,
+    23.7,
+    1305,
+    29,
+    1303.4,
+    27,
+    1297.5,
+    34.1,
+    1295.5,
+    43.2,
+    1292.9
+   ],
+   "id": "sint-kwintensberg-341-08",
+   "latLon": [
+    51.043986,
+    3.724277
+   ],
+   "photos": [
+    {
+     "id": "1367359426961203",
+     "metres": 29,
+     "off": 9,
+     "span": [
+      0.366,
+      0.491
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7825,
+   "at": [
+    36.3,
+    1273
+   ],
+   "centre": [
+    25.6,
+    1276.5
+   ],
+   "width": 3.8,
+   "faces": 342,
+   "toStreet": 10.2,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": 21.6,
+   "kind": "house",
+   "ring": [
+    18.4,
+    1278.6,
+    21.8,
+    1277.4,
+    21.4,
+    1276,
+    35.7,
+    1271.2,
+    36.9,
+    1274.8,
+    19.1,
+    1280.8
+   ],
+   "id": "sint-kwintensberg-342-09",
+   "latLon": [
+    51.044164,
+    3.724179
+   ],
+   "photos": [
+    {
+     "id": "334410801539315",
+     "metres": 42,
+     "off": 19,
+     "span": [
+      0.638,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7917,
+   "at": [
+    48.2,
+    1307.5500000000002
+   ],
+   "centre": [
+    39.8,
+    1311.2
+   ],
+   "width": 10.8,
+   "faces": 342,
+   "toStreet": 11.1,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    27.9,
+    1307.6,
+    46.5,
+    1302.4,
+    49.9,
+    1312.7,
+    43.8,
+    1314.6,
+    31.1,
+    1318.5
+   ],
+   "id": "sint-kwintensberg-342-10",
+   "latLon": [
+    51.043914,
+    3.724315
+   ],
+   "photos": [
+    {
+     "id": "556234765344240",
+     "metres": 33,
+     "off": 21,
+     "span": [
+      0.256,
+      0.392
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8104,
+   "at": [
+    -126.35,
+    1027.2
+   ],
+   "centre": [
+    -131.4,
+    1028.3
+   ],
+   "width": 6.6,
+   "faces": 345,
+   "toStreet": 12.3,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -138.7,
+    1031,
+    -126.9,
+    1030.4,
+    -125.5,
+    1030.4,
+    -127.2,
+    1024,
+    -138.7,
+    1025.7
+   ],
+   "id": "sint-kwintensberg-345-11",
+   "latLon": [
+    51.045942,
+    3.72232
+   ],
+   "photos": [
+    {
+     "id": "706648393813914-269",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.368,
+      0.616
+     ]
+    },
+    {
+     "id": "1012771340569878-293",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.404,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7991,
+   "at": [
+    -127.9,
+    1018.5999999999999
+   ],
+   "centre": [
+    -130.9,
+    1015.4
+   ],
+   "width": 6.6,
+   "faces": 357,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -134.2,
+    1004.8,
+    -134.1,
+    1009.5,
+    -132.7,
+    1009.5,
+    -132.6,
+    1011.8,
+    -130.8,
+    1011.8,
+    -130.6,
+    1015.4,
+    -128.1,
+    1015.3,
+    -127.7,
+    1021.9,
+    -123.2,
+    1021.2,
+    -122,
+    1023.3,
+    -127.2,
+    1024,
+    -138.7,
+    1025.7,
+    -140.4,
+    1005.6
+   ],
+   "id": "sint-kwintensberg-357-12",
+   "latLon": [
+    51.046005,
+    3.722302
+   ],
+   "photos": [
+    {
+     "id": "1416609509343286-270",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.233,
+      0.738
+     ]
+    },
+    {
+     "id": "1785938248464248-251",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.34,
+      0.683
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8106,
+   "at": [
+    -126.80000000000001,
+    1034.65
+   ],
+   "centre": [
+    -131.7,
+    1035.8
+   ],
+   "width": 8.5,
+   "faces": 359,
+   "toStreet": 16.3,
+   "floors": 5,
+   "eaves": 17.2,
+   "top": 20.8,
+   "kind": "house",
+   "ring": [
+    -138.7,
+    1039.5,
+    -127.5,
+    1039,
+    -126.7,
+    1038.9,
+    -126.9,
+    1030.4,
+    -138.7,
+    1031
+   ],
+   "id": "sint-kwintensberg-359-13",
+   "latLon": [
+    51.045889,
+    3.722315
+   ],
+   "photos": [
+    {
+     "id": "1012771340569878-264",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.358,
+      0.653
+     ]
+    },
+    {
+     "id": "534484631581636-283",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.395,
+      0.595
+     ]
+    }
+   ]
+  }
+ ]
+}

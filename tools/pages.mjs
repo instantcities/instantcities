@@ -29,15 +29,16 @@ const fill = (html, page, file) => html
   .replace(/^<!doctype html>\n<!--.*?-->\n/is, `<!doctype html>\n<!-- ${page.id}: made from core/${file} by \`node tools/pages.mjs\`, do not edit by hand. -->\n`)
   .replace(/\{\{(\w+)\}\}/g, (_, k) => {
     if (!(k in page)) throw new Error(`${page.id}/page.json has no "${k}" (asked for by ${file})`);
-    return page[k];
+    return typeof page[k] === 'string' ? page[k] : JSON.stringify(page[k]);
   });
 
 for (const id of cities) {
   const dir = path.join(ROOT, id), play = path.join(dir, 'play');
   fs.mkdirSync(play, { recursive: true });
   // style: CSS for the page's head, e.g. the city's colours (the variables at the top of
-  // core/style.css); loader: the scene on the loading screen, from <city>/loader.html
-  const page = { style: '', site: SITE, ...JSON.parse(fs.readFileSync(path.join(dir, 'page.json'), 'utf8')), loader: fs.readFileSync(path.join(dir, 'loader.html'), 'utf8') };
+  // core/style.css); loader_jokes: funny lines about the city (a list, or one per language), 2 of which, at random, name the
+  // loading screen's last two steps; loader: the scene on the loading screen, from <city>/loader.html
+  const page = { style: '', site: SITE, loader_jokes: [], ...JSON.parse(fs.readFileSync(path.join(dir, 'page.json'), 'utf8')), loader: fs.readFileSync(path.join(dir, 'loader.html'), 'utf8') };
   const pages = [['game.html', 'index.html'], ['dev.html', 'dev.html'], ['places.html', 'places.html']];
   if (fs.existsSync(path.join(dir, 'spots.json'))) pages.push(['facade-lab.html', 'facade-lab.html']);
   for (const [from, to] of pages) {

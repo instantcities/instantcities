@@ -1,6 +1,6 @@
 // Ghent's pavilions, modelled by hand: the Kouter's bandstand and its blue kiosk, the bus station
 // canopies at Zuid, the flower sellers' stalls on the Kouter and the Vrijdagmarkt, and the two
-// neuzekes carts on the Groentenmarkt. They join
+// neuzekes carts and the Bij Filip chip shop on the Groentenmarkt. They join
 // the statues (ghent/monuments.js), with what they add to them:
 //   chairs  [{ x, z, yaw }] the terrace chairs in the model (its own metres, before turning), for
 //           people to sit on (js/sitters.js)
@@ -69,7 +69,7 @@ function bandstand() {
 // The blue kiosk on the Kouter: a wooden pavilion painted deep ultramarine, panelled below and
 // glazed all round above a counter, under a low roof with a scalloped valance and little white
 // dormers, now a bar. Its terrace round it, tables and chairs, full on a sunny day.
-const KIOSK = { w: 9, d: 4.2 };
+const KIOSK = { w: 6.4, d: 3 }; // a small one: half the ground of a market hall's bar
 
 // where the terrace chairs stand, the kiosk's own metres: tables in rows in front and behind, a
 // chair on either side of each, facing the table
@@ -77,9 +77,9 @@ function kioskChairs() {
   const chairs = [], tables = [];
   for (const side of [-1, 1]) {
     for (const row of [1, 2]) {
-      for (let x = -4.2; x <= 4.2; x += 2.1) {
+      for (let x = -3.15; x <= 3.15; x += 2.1) {
         const z = side * (KIOSK.d / 2 + 0.9 + row * 1.9), tx = x + (row % 2 ? 0 : 1.05);
-        if (Math.abs(tx) > 4.6) continue;
+        if (Math.abs(tx) > 3.4) continue;
         tables.push([tx, z]);
         chairs.push({ x: tx - 0.55, z, yaw: Math.PI / 2 }, { x: tx + 0.55, z, yaw: -Math.PI / 2 });
       }
@@ -120,17 +120,17 @@ function blueKiosk() {
   // the low hipped roof, and its white dormers
   const roof = new THREE.ConeGeometry(1, 0.9, 4, 1, false, Math.PI / 4).scale((w + 1.2) / Math.SQRT2, 1, (d + 1.2) / Math.SQRT2);
   k.add(roof, NAVY, 0, 3.53, 0);
-  for (const side of [-1, 1]) for (const x of [-2.6, 0, 2.6]) {
+  for (const side of [-1, 1]) for (const x of [-1.8, 1.8]) {
     k.box(1.0, 0.6, 0.5, CREAM, x, 3.45, side * (d / 2 - 0.1));
     k.add(new THREE.ConeGeometry(0.75, 0.35, 4, 1, false, Math.PI / 4).scale(1, 1, 0.5), NAVY, x, 3.92, side * (d / 2 - 0.1));
   }
   // its name over the counter, and round white badges on the end panels
   for (const side of [-1, 1]) {
-    k.box(1.6, 0.4, 0.04, CREAM, side * -2.6, 2.8, side * (d / 2 + 0.07));
+    k.box(1.6, 0.4, 0.04, CREAM, side * -1.6, 2.8, side * (d / 2 + 0.07));
     k.add(new THREE.CylinderGeometry(0.22, 0.22, 0.03, 12).rotateZ(Math.PI / 2), CREAM, side * (w / 2 + 0.03), 0.6, 0);
   }
   // glasses ready on the counter
-  for (let x = -3.6; x < 3.8; x += 0.24) k.add(new THREE.CylinderGeometry(0.035, 0.03, 0.14, 6), 0xe8eef0, x, 1.24, d / 2 + 0.1);
+  for (let x = -w / 2 + 0.6; x < w / 2 - 0.4; x += 0.24) k.add(new THREE.CylinderGeometry(0.035, 0.03, 0.14, 6), 0xe8eef0, x, 1.24, d / 2 + 0.1);
   // the terrace: round white tables on a dark leg, brown chairs
   const { chairs, tables } = kioskChairs();
   for (const [x, z] of tables) {
@@ -301,6 +301,87 @@ function carts({ x, z, turn, gap }) {
   }));
 }
 
+// ------------------------------------------------------------------ Bij Filip
+
+// Frituur Bij Filip (Pensmarkt 8), the little wooden chip shop built against the Groot Vleeshuis
+// where it meets the Groentenmarkt: an oak box with panelled sides under a brown lean-to roof, a
+// white counter in front of a big window, the flap over it propped up on two rods as an awning,
+// the frier behind the glass and a black bin beside it. W along the hall's wall, its back against
+// it, the counter side towards +z.
+const FRIT = { w: 4.4, d: 2.6 };
+
+function filipSign() {
+  const c = document.createElement('canvas');
+  c.width = 512; c.height = 96;
+  const g = c.getContext('2d');
+  g.fillStyle = '#f4efe2'; g.fillRect(0, 0, 512, 96);
+  g.fillStyle = '#7a2a1c';
+  g.font = 'bold 54px Georgia, "Times New Roman", serif';
+  g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillText('Bij Filip', 256, 50);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+
+function frituurFilip() {
+  const k = new Kit(), { w, d } = FRIT, f = d / 2;
+  const OAK = 0x9a6233, OAK_DARK = 0x6e4322, BROWN = 0x4e3322, ALU = 0xa7abad, WHITE = 0xeeeeea, CREAM = 0xe9dfc4, STEEL = 0xb8bcbf;
+  const BASE = 1.0, TOP = 2.35, H = 2.75;
+  // the oak base, its panels framed in darker strips, front and sides
+  k.box(w, BASE, d, OAK, 0, BASE / 2, 0);
+  for (let i = 0; i < 4; i++) k.box(0.06, BASE - 0.1, 0.03, OAK_DARK, -w / 2 + (w / 4) * (i + 0.5) - w / 8 + 0.02, BASE / 2, f + 0.01);
+  for (const y of [0.08, BASE - 0.06]) k.box(w, 0.08, 0.04, OAK_DARK, 0, y, f + 0.01);
+  for (const sx of [-1, 1]) {
+    k.box(0.04, 0.08, d, OAK_DARK, sx * (w / 2 + 0.01), BASE - 0.06, 0);
+    k.box(0.03, BASE - 0.1, 0.06, OAK_DARK, sx * (w / 2 + 0.01), BASE / 2, 0);
+  }
+  // the white counter, sticking out over the base
+  k.box(w - 0.3, 0.06, 0.6, WHITE, -0.1, BASE + 0.03, f + 0.18);
+  // the walls round the window: oak sides, a narrow oak post at the right end where the door is,
+  // the brown band over the glass, and the back against the hall
+  for (const sx of [-1, 1]) k.box(0.08, TOP - BASE, d, OAK, sx * (w / 2 - 0.04), (BASE + TOP) / 2, 0);
+  k.box(0.5, TOP - BASE, 0.08, OAK, w / 2 - 0.25, (BASE + TOP) / 2, f - 0.04);
+  k.box(w, H - TOP, d, BROWN, 0, (TOP + H) / 2, 0);
+  k.box(w, H - BASE, 0.08, CREAM, 0, (BASE + H) / 2, -f + 0.04);
+  // the window's aluminium frame: posts and a sill
+  for (const x of [-w / 2 + 0.1, -0.35, w / 2 - 0.52]) k.box(0.06, TOP - BASE, 0.06, ALU, x, (BASE + TOP) / 2, f - 0.03);
+  k.box(w - 0.6, 0.05, 0.06, ALU, -0.2, TOP - 0.03, f - 0.03);
+  // inside: the frier and its hood, a shelf, the lamp
+  k.box(1.6, 0.35, 0.6, STEEL, -0.6, BASE + 0.175, -f + 0.45);
+  k.box(1.7, 0.35, 0.7, STEEL, -0.6, TOP - 0.25, -f + 0.45);
+  k.box(1.2, 0.04, 0.35, OAK_DARK, 1.1, BASE + 0.8, -f + 0.25);
+  // the roof: a brown lean-to falling to the front, overhanging all round
+  const RW = w + 0.4, RD = d + 0.5, fall = 0.3;
+  k.box(RW, 0.08, Math.hypot(RD, fall), BROWN, 0, H + 0.12, 0.1, Math.atan2(fall, RD));
+  // the flap over the counter, propped up on two rods as an awning, and a lamp under it
+  const FL = 1.35, tilt = 0.42;
+  const fz = f + Math.cos(tilt) * FL / 2, fy = TOP + 0.05 + Math.sin(tilt) * FL / 2;
+  k.box(w - 0.5, 0.05, FL, BROWN, -0.2, fy, fz, -tilt);
+  for (const sx of [-1, 1]) k.rod([sx * (w / 2 - 0.4), BASE + 0.1, f], [sx * (w / 2 - 0.4), TOP + 0.05 + Math.sin(tilt) * FL - 0.03, f + Math.cos(tilt) * FL - 0.05], 0.025, 0x1f1f1f);
+  k.box(0.3, 0.12, 0.2, 0x2a2a2a, -0.2, fy - 0.1, fz);
+  // the seller behind the counter
+  const z = f - 0.75;
+  k.box(0.44, 0.62, 0.26, 0x2f3b4a, 0.2, BASE + 0.4, z);
+  k.add(new THREE.SphereGeometry(0.15, 8, 6), 0xe0ac69, 0.2, BASE + 0.9, z);
+  k.add(new THREE.SphereGeometry(0.16, 8, 4, 0, Math.PI * 2, 0, Math.PI / 2), 0x4a3b30, 0.2, BASE + 0.94, z - 0.01);
+  // the black bin beside it on the square, with its lid
+  k.add(new THREE.CylinderGeometry(0.33, 0.28, 0.85, 12), 0x1b1b1b, w / 2 + 0.45, 0.425, f + 0.9);
+  k.add(new THREE.CylinderGeometry(0.36, 0.36, 0.05, 12), 0x111111, w / 2 + 0.45, 0.87, f + 0.9);
+  const g = new THREE.Group();
+  g.add(k.mesh(kitMat(0.8)));
+  // the glass, lit a little from inside
+  const glass = new THREE.Mesh(new THREE.PlaneGeometry(w - 0.8, TOP - BASE - 0.1),
+    new THREE.MeshStandardMaterial({ color: 0xcfe2e6, roughness: 0.1, metalness: 0.1, transparent: true, opacity: 0.35, emissive: 0x332a10 }));
+  glass.position.set(-0.3, (BASE + TOP) / 2, f - 0.02);
+  g.add(glass);
+  // the name on a board hanging from the flap's front edge
+  const sign = new THREE.Mesh(new THREE.PlaneGeometry(1.6, 0.3), new THREE.MeshStandardMaterial({ map: filipSign(), roughness: 0.85 }));
+  sign.position.set(-0.2, TOP + Math.sin(tilt) * FL - 0.15, f + Math.cos(tilt) * FL + 0.03);
+  g.add(sign);
+  return g;
+}
+
 // ------------------------------------------------------------------ the pavilions and the stalls
 
 const { chairs: KIOSK_CHAIRS } = kioskChairs();
@@ -310,8 +391,9 @@ export const PAVILIONS = [
   // the bandstand, on the OpenStreetMap outline in the middle of the Kouter (game metres), its long
   // side along the square
   { id: 'kouter-bandstand', name: 'Kiosk op de Kouter', x: 6.6, z: 460, turn: 0.12, size: [13.2, 8.8], make: bandstand },
-  // the blue kiosk at the Kouter's west end, at the Schouwburgstraat
-  { id: 'blauwe-kiosk', name: 'Blauwe kiosk', x: -71.9, z: 462.9, turn: 0.12, size: [KIOSK.w + 0.6, KIOSK.d + 0.6], chairs: KIOSK_CHAIRS, make: blueKiosk },
+  // the blue kiosk right in the Kouter's north-east corner, between the trees along the north side
+  // and the glass pavilion over the car park's stairs (ghent/kouter.js)
+  { id: 'blauwe-kiosk', name: 'Blauwe kiosk', x: 85, z: 431, turn: 0.12, size: [KIOSK.w + 0.6, KIOSK.d + 0.6], chairs: KIOSK_CHAIRS, make: blueKiosk },
   // the two canopies over the bus platforms at Zuid, on the outlines OpenStreetMap has for them
   { id: 'zuid-perron-3', name: 'Busstation Gent Zuid', x: 690.9, z: 715.2, turn: -1.207, size: [22.5, 6.7], posts: A.posts, make: () => A.m.clone() },
   { id: 'zuid-perron-5', x: 675.5, z: 717.8, turn: -1.22, size: [27.7, 6.8], posts: B.posts, make: () => B.m.clone() },
@@ -335,8 +417,8 @@ export const STALLS = [
   // the Kouter's Sunday flower market (the Bloemenmarkt): two rows facing each other across an
   // aisle, north of the bandstand, along the square
   ...rows({ id: 'bloemenmarkt', x: 6.6, z: 460, turn: 0.12, rows: [
-    { v: -21, face: 1, from: -45, to: 54, step: 9 },
-    { v: -12.5, face: -1, from: -45, to: 54, step: 9 },
+    { v: -21, face: 1, from: -54, to: 45, step: 9 },
+    { v: -12.5, face: -1, from: -54, to: 45, step: 9 },
   ] }),
   // a few on the Vrijdagmarkt, in the open middle of the square, inside its ring of trees
   ...rows({ id: 'vrijdagmarkt-kraam', x: 150, z: -505, turn: -0.532, rows: [
@@ -345,4 +427,8 @@ export const STALLS = [
   ] }),
   // the two neuzekes carts on the Groentenmarkt
   ...carts({ x: -120, z: -318.9, turn: -2.209, gap: 3 }),
+  // Bij Filip, against the Groot Vleeshuis's side on the Groentenmarkt, in the gap between two of
+  // its low lean-tos (OpenStreetMap has Frituur Filip, Pensmarkt 8, at its corner), its back on
+  // the hall's wall and its counter on the square
+  { id: 'frituur-filip', name: 'Frituur Bij Filip', x: -181.1, z: -340, turn: 0.736, size: [FRIT.w + 1.4, FRIT.d + 0.8], make: frituurFilip },
 ];

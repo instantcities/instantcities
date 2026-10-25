@@ -91,6 +91,31 @@ export function labelSprite() {
 }
 
 // Dizzy stars over a rider's head, shown while spinning out.
+// A paintball machine gun (car+paintball mode), its barrel along -Y from the shoulder at the origin:
+// receiver, shroud, long barrel with a muzzle, a drum magazine underneath, a stock and a blue hopper on top.
+// Held in a walker's raised arm; mounted riders hold it forward with paintGun(true): grip at the origin, barrel along +Z.
+export function paintGun(forward = false) {
+  const gunMat = mat(0x2b2f36, 0.5, { metalness: 0.4 }), gunBlue = mat(0x1e66f5, 0.4), gunTan = mat(0x6b5a3c, 0.7), gun = new THREE.Group();
+  part(new THREE.BoxGeometry(0.1, 0.4, 0.14), gunMat, gun, 0, -0.7, 0);
+  part(new THREE.BoxGeometry(0.08, 0.34, 0.09), gunMat, gun, 0, -1.08, 0.01);
+  part(new THREE.CylinderGeometry(0.024, 0.024, 0.55, 8), gunMat, gun, 0, -1.5, 0.02);
+  part(new THREE.CylinderGeometry(0.04, 0.04, 0.07, 8), gunMat, gun, 0, -1.8, 0.02);
+  part(new THREE.CylinderGeometry(0.11, 0.11, 0.12, 12).rotateZ(Math.PI / 2), gunMat, gun, 0, -0.74, -0.17); // drum
+  part(new THREE.BoxGeometry(0.06, 0.28, 0.1), gunTan, gun, 0, -0.38, -0.02); // stock
+  part(new THREE.BoxGeometry(0.05, 0.14, 0.06), gunMat, gun, 0, -0.62, -0.12).rotation.x = 0.35; // grip
+  part(new THREE.SphereGeometry(0.075, 8, 6), gunBlue, gun, 0, -0.78, 0.15);
+  gun.visible = false;
+  if (!forward) return gun;
+  const held = new THREE.Group();
+  gun.visible = true;
+  gun.position.y = 0.62;
+  held.add(gun);
+  held.rotation.x = -Math.PI / 2;
+  held.scale.setScalar(0.8);
+  held.visible = false;
+  return held;
+}
+
 export function dizzyStars(parent, y, z = 0) {
   const stars = new THREE.Group();
   stars.position.set(0, y, z);
@@ -124,6 +149,16 @@ const SPECIES = {
 };
 SPECIES.unicorn = { ...SPECIES.horse, head: 'long' };
 
+// The coat and mane every animal of a species has when `standardCoat` is set (riding about, not in a
+// race): a brown horse, a white cow, a pink pig, a white unicorn, an orange tiger.
+const COATS = {
+  horse: { coat: 0x8b4a2b, mane: 0x2b1a10 },
+  cow: { coat: 0xf6f3ee, mane: 0x16120f },
+  pig: { coat: 0xf7b8c4, mane: 0xe98ea0 },
+  unicorn: { coat: 0xfaf7ff, mane: 0xff80ab },
+  tiger: { coat: 0xf08a24, mane: 0x16120f },
+};
+
 const RAINBOW = [0xe53935, 0xff9800, 0xfdd835, 0x43a047, 0x1e88e5, 0x8e24aa];
 
 // What a cop wears on top of the uniform: the darker peak, the gold badge, the moustache.
@@ -132,6 +167,7 @@ export const cop = () => ({ peak: mat(0x16243d, 0.4), badge: mat(0xf2b632, 0.3, 
 // A cartoon racing animal with a jockey. The model faces +Z and stands on y = 0.
 export function createAnimal(def) {
   const species = def.species ?? 'horse';
+  if (def.standardCoat) def = { ...def, ...COATS[species] };
   const P = SPECIES[species];
   const pattern = species === 'cow' ? 'patches' : species === 'tiger' ? 'stripes' : null;
   const coat = mat(0xffffff, 0.6, { map: pattern ? coatTexture(pattern, def.coat) : null, color: pattern ? 0xffffff : def.coat });
@@ -284,6 +320,9 @@ export function createAnimal(def) {
     arm.rotation.x = 0.55;
     part(new THREE.SphereGeometry(0.06, 6, 4), white, jockey, s * 0.16, 0.14, 0.9);
   }
+  const gun = paintGun(true); // car+paintball mode: in the right hand, pointing ahead past the head
+  gun.position.set(0.18, 0.3, 0.85);
+  jockey.add(gun);
   const torsoJ = part(new THREE.BoxGeometry(0.44, 0.62, 0.3), silk, jockey, 0, 0.26, 0.22);
   torsoJ.rotation.x = 1.15;
   part(new THREE.SphereGeometry(0.15, 12, 10), skin, jockey, 0, 0.5, 0.62);
@@ -306,8 +345,15 @@ export function createAnimal(def) {
 
   let phase = Math.random() * Math.PI * 2;
 
+  // Sitting down to wait (for the tram): the animal on its haunches, front legs straight, nose up,
+  // and the jockey off it, on the ground beside it with the legs out. The pitch that puts the hind
+  // hips just off the ground with the front hooves still on it; the jockey's place, in spin's frame.
+  const SIT_HIP = 0.4, sitPitch = Math.asin(Math.max(-0.9, Math.min(0, (SIT_HIP - P.hipY) / (2 * P.legZ))));
+  const sitAt = new THREE.Vector3(P.bodyR + 0.6, 0.14, 0.25);
+  const sitTurn = new THREE.Quaternion().setFromEuler(new THREE.Euler(-0.9, -0.35, 0, 'YXZ')), q = new THREE.Quaternion(), inv = new THREE.Matrix4();
+
   // pose: { air: 0..1 how airborne, vy: vertical speed, rear: 0..1 progress of rearing up,
-  //         stumble: 0..1 progress of a stumble }
+  //         stumble: 0..1 progress of a stumble, sit: 0..1 how far sat down to wait }
   function animate(dt, speed, steer, time, pose = {}) {
     const sp = Math.abs(speed);
     const k = Math.min(1, sp / 12);
@@ -340,7 +386,28 @@ export function createAnimal(def) {
       + stumbleK * 0.45 - rearK * 0.3 - air * 0.15;
     tail.rotation.x = (species === 'pig' ? -0.3 : 0.35 + 0.85 * Math.max(k, air)) + Math.sin(phase) * 0.12 * k;
     tail.rotation.z = Math.sin(time * 2.1) * 0.15 * (1 - k) + Math.sin(phase * 0.5) * 0.06 * k;
-    jockey.position.y = jockeyY - bob * 0.7 + air * 0.12;
+    jockey.position.set(0, jockeyY - bob * 0.7 + air * 0.12, 0.05);
+    jockey.quaternion.identity();
+    gun.visible = !!pose.gun;
+    const sit = pose.sit || 0;
+    if (sit > 0) {
+      const e = sit * sit * (3 - 2 * sit), th = sitPitch * e;
+      for (const L of legs) {
+        L.hip.rotation.x += ((L.front ? -sitPitch : -1.2 - sitPitch) - L.hip.rotation.x) * e;
+        L.knee.rotation.x += ((L.front ? 0 : 2.4) - L.knee.rotation.x) * e;
+      }
+      // turn about the hind hips, which come down to just off the ground
+      const c = Math.cos(th), sn = Math.sin(th), hy = P.hipY * c + P.legZ * sn, hz = P.hipY * sn - P.legZ * c;
+      body.position.set(0, body.position.y * (1 - e) + (SIT_HIP * e + P.hipY * (1 - e)) - hy, body.position.z * (1 - e) + (-P.legZ - hz));
+      body.rotation.set(th + body.rotation.x * (1 - e), 0, body.rotation.z * (1 - e));
+      tail.rotation.x += (-0.9 - tail.rotation.x) * e; // lying along the ground behind
+      // the jockey: from the saddle (in the body's frame) to the ground beside it
+      body.updateMatrix();
+      inv.copy(body.matrix).invert();
+      jockey.position.lerp(sitAt.clone().applyMatrix4(inv), e);
+      q.setFromRotationMatrix(inv).multiply(sitTurn);
+      jockey.quaternion.slerp(q, e);
+    }
     if (stars.visible) stars.rotation.y = time * 7;
   }
 

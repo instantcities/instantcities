@@ -21,14 +21,25 @@ const CARD_IN = 45, CARD_OUT = 55; // the card shows this far before a stop, and
 const LOW_EASE = 60; // metres over which the camera climbs out of a low stretch, or comes down into it
 const NAME_FOR = 60; // metres a street's name stays up after it is passed
 const PACE = 1.5; // how much faster than the speeds above it all goes at 1x (the speed button: 0.5x to 1.5x of that)
-// The camera turns to what it looks at like on a spring, never faster than TURN_MAX, so no bend or
-// glance swings it round abruptly.
-const AIM = 2.6, TURN_MAX = 1.3; // the spring's stiffness (1/s), and radians a second at most
+// The camera turns to what it looks at like on a spring, never faster than TURN_MAX and never
+// speeding up or slowing down its turn faster than TURN_ACC, so no bend or glance swings it round
+// abruptly, nor jolts it to a halt.
+const AIM = 2.6, TURN_MAX = 1.3, TURN_ACC = 2; // the spring's stiffness (1/s), radians a second at most, and radians a second per second
 
 const smooth = k => (k <= 0 ? 0 : k >= 1 ? 1 : k * k * (3 - 2 * k));
 
+// What stands in the city at a place the tour brings it to itself (its flyer and its runner, below:
+// Ghent's dragon on the Belfort, Artevelde on his statue): each registers here under its name as it
+// is made, so main.js can keep it out of sight on the tour until the one coming along gets there.
+export const STANDING = new Map();
+export function standing(name, obj) {
+  STANDING.set(name, obj);
+  return obj;
+}
+
 // Centripetal Catmull-Rom through the path's points, sampled every metre or so: [{ x, y, z, s }],
-// s the distance along it. y is the height, eased between the points that give one.
+// s the distance along it. y is the height, on the same curve, so it climbs and comes down smoothly
+// and not in steps from one point to the next.
 function sample(path, height) {
   let h = height;
   const P = path.map(([x, z, y]) => ({ x, z, y: (h = y ?? h) }));
@@ -49,10 +60,10 @@ function sample(path, height) {
         const b2 = ((t3 - t) * a2 + (t - t1) * a3) / (t3 - t1);
         return ((t2 - t) * b1 + (t - t1) * b2) / (t2 - t1);
       };
-      const x = at('x'), z = at('z'), e = smooth(k / n);
+      const x = at('x'), z = at('z');
       const prev = out[out.length - 1];
       if (prev) s += Math.hypot(x - prev.x, z - prev.z);
-      out.push({ x, z, y: p1.y + (p2.y - p1.y) * e, s });
+      out.push({ x, z, y: Math.max(1, at('y')), s });
     }
   }
   return out;
@@ -78,7 +89,9 @@ export class Tour {
     this.phases = inOrder(def.phases ?? [{ at: def.path[0] }]).map((p, i, all) => ({ ...p, end: all[i + 1]?.s ?? this.length }));
     this.anchors = [0, ...this.stops.map(st => st.s), this.length]; // where the camera comes down
     // glances: on the way, without stopping, the camera slows down and looks aside for a moment
-    this.glances = inOrder(def.glances).map(g => ({ before: 35, after: 25, slow: 9, ...g }));
+    // (who: one of the characters, looked at wherever they are, and put in place as the camera
+    // passes who.when)
+    this.glances = inOrder(def.glances).map(g => ({ before: 35, after: 25, slow: 9, ...g, who: g.who && { ...g.who, s: along(g.who.when) } }));
     // low: stretches where it skims the street or the water instead of climbing over the roofs
     this.low = (def.low ?? []).map(([a, b]) => { const sa = along(a); return [sa, along(b, sa)]; });
     this.endLook = def.end?.look; // what it turns to look at as it comes to the end
@@ -102,6 +115,24 @@ export class Tour {
       for (let k = 1; k < line.length; k++) cum.push(cum[k - 1] + Math.hypot(line[k][0] - line[k - 1][0], line[k][1] - line[k - 1][1]));
       this.busRun = { ahead: 8, lane: 2, pace: 1, gone: 600, ...def.bus, cum };
     }
+    // flyer: one that comes flying in as the camera passes `join` (taking `over` seconds) to fly
+    // along with it (main.js keeps it low in the picture), and from `leave` on away to its place,
+    // where it sits from `land` on (`settle` seconds later the one standing there takes over)
+    if (def.flyer) {
+      const sj = along(def.flyer.join), sa = along(def.flyer.leave, sj);
+      this.flyRun = { over: 2.5, settle: 2.5, ...def.flyer, sj, sa, sb: along(def.flyer.land, sa) };
+    }
+    // runner: one who waits in the street at `from` and sets off down the path as the camera gets to
+    // `go`, pace times as fast as it (with a head start, so it only catches up with him at the end,
+    // and then keeps lead metres behind him), leaves the path at `off` straight for `to`, and gets
+    // there as the camera gets to `arrive`; then `climb` seconds of his own to get up on his statue
+    if (def.runner) {
+      const r = { lane: 2.5, pace: 0.5, lead: 6, climb: 5, ...def.runner };
+      const s0 = along(r.from), sg = along(r.go), s1 = along(r.off, s0);
+      const sOff = Math.min(sg + (s1 - s0) / r.pace, s1 - r.lead); // where the camera is as he leaves the path
+      this.runRun = { ...r, s0, sg, s1, sOff, sw: Math.max(sOff + 1, along(r.arrive, s1)) };
+    }
+    this.along = along;
     this.reset();
   }
 
@@ -117,9 +148,13 @@ export class Tour {
     this.dismissed = null; // the stop whose card was clicked away (auto)
     this.wait = 0; // seconds left hovering at a glance that holds
     this.waited = new Set(); // the glances it has hovered at
+    this.met = new Set(); // the glances whose character it has put in place
     this.boatT = 0; // seconds the boat has sailed on by itself
     this.clock = 0; // seconds of the tour played, at its speed (the fleet sails by it)
     this.fellAt = null; // the clock when the cyclist came off
+    this.joinAt = null; // when (t) the flyer came flying in
+    this.landedAt = null; // and landed at its place
+    this.climbAt = null; // when (t) the runner got to his statue
     this.aim = null; // where the camera looks: { yaw, pitch, vy, vp, d }, turned towards view() on a spring
   }
 
@@ -198,21 +233,57 @@ export class Tour {
     });
   }
 
-  // how much higher than the path the camera flies at s: nothing at a stop, the most between two
-  soar(s) {
-    const d = Math.min(...this.anchors.map(a => Math.abs(s - a)));
-    const low = Math.max(0, ...this.low.map(([a, b]) => smooth(1 - Math.max(a - s, s - b, 0) / LOW_EASE)));
-    return SOAR * smooth((d - SOAR_FROM) / SOAR_OVER) * (1 - low);
+  // How far the flyer is: { in: 0 not there yet to 1 come to fly along, k: 0 along with the camera
+  // to 1 at its place, settle: 0 just landed there to 1 settled (`settle` seconds), landed: and so
+  // the one standing there from then on }.
+  flyer() {
+    const f = this.flyRun;
+    if (!f) return null;
+    if (this.s >= f.sj) this.joinAt ??= this.t;
+    if (this.s >= f.sb) this.landedAt ??= this.t;
+    const settle = this.landedAt == null ? 0 : Math.min(1, (this.t - this.landedAt) / f.settle);
+    return { in: this.joinAt == null ? 0 : Math.min(1, (this.t - this.joinAt) / f.over), k: smooth((this.s - f.sa) / (f.sb - f.sa)), settle, landed: settle >= 1 };
   }
 
-  // how much the camera looks aside to a glance at s (0 to 1), and which
-  glanceAt(s) {
-    let w = 0, on = null;
-    for (const g of this.glances) {
-      const d = s - g.s, k = d < 0 ? smooth(1 + d / g.before) : smooth(1 - d / g.after);
-      if (k > w) { w = k; on = g; }
+  // Where the runner is: { x, z, yaw, climb: seconds since he got to his statue, or -1 on the way,
+  // done: up there }. Waiting at `from` he looks at the camera coming.
+  runner() {
+    const r = this.runRun;
+    if (!r) return null;
+    const d = this.s < r.sg ? r.s0 : Math.max(r.s0 + (this.s - r.sg) * r.pace, this.s + r.lead);
+    const side = s => {
+      const p = this.at(s), q = this.at(s + 1), b = this.at(s - 1), n = Math.hypot(q.x - b.x, q.z - b.z) || 1, tx = (q.x - b.x) / n, tz = (q.z - b.z) / n;
+      return { x: p.x - tz * r.lane, z: p.z + tx * r.lane, yaw: Math.atan2(tx, tz) };
+    };
+    if (this.s < r.sOff) {
+      const p = side(Math.min(d, r.s1));
+      if (this.s >= r.sg) return { ...p, climb: -1, done: false };
+      const cam = this.at(this.s); // waiting, turned to the camera
+      return { ...p, yaw: Math.atan2(cam.x - p.x, cam.z - p.z), climb: -1, done: false, waiting: true };
     }
-    return { w, on };
+    // off the path, straight across to `to`, getting there as the camera gets to `arrive`
+    const a = side(r.s1), [tx, tz] = r.to, u = Math.min(1, (this.s - r.sOff) / (r.sw - r.sOff));
+    const yaw = Math.atan2(tx - a.x, tz - a.z);
+    if (u < 1) return { x: a.x + (tx - a.x) * u, z: a.z + (tz - a.z) * u, yaw, climb: -1, done: false };
+    this.climbAt ??= this.t;
+    const climb = this.t - this.climbAt;
+    return { x: tx, z: tz, yaw, climb, done: climb >= r.climb };
+  }
+
+  // whether what stands at a place the tour brings it to (STANDING) is there by now
+  home(name) {
+    if (this.flyRun?.stands === name) return !!this.flyer()?.landed;
+    if (this.runRun?.stands === name) return !!this.runner()?.done;
+    return true;
+  }
+
+  // how much higher than the path the camera flies at s: nothing at a stop, the most between two
+  // (climbing away from the one and coming down to the next, so no sharp top halfway)
+  soar(s) {
+    const k = this.anchors.findIndex(a => a > s), a = this.anchors[Math.max(0, k - 1)], b = this.anchors[k < 0 ? this.anchors.length - 1 : k];
+    const up = smooth((s - a - SOAR_FROM) / SOAR_OVER) * smooth((b - s - SOAR_FROM) / SOAR_OVER);
+    const low = Math.max(0, ...this.low.map(([a, b]) => smooth(1 - Math.max(a - s, s - b, 0) / LOW_EASE)));
+    return SOAR * up * (1 - low);
   }
 
   // which way the path turns at s, in radians per metre (positive: to the left)
@@ -301,6 +372,18 @@ export class Tour {
     if (this.next < 0) this.next = this.stops.length;
     for (const g of this.glances) if (g.s < phase.s) this.waited.add(g);
     if (this.fallRun && phase.s > this.fallRun.s) this.fellAt = this.clock - 99; // long since come off
+    if (this.flyRun && phase.s > this.flyRun.sj) this.joinAt = -1e4; // long since come to fly along
+    if (this.flyRun && phase.s > this.flyRun.sb) this.landedAt = -1e4; // and settled at its place
+    if (this.runRun && phase.s > this.runRun.sw) this.climbAt = -1e4; // long since up on his statue
+  }
+
+  // On from the point of the path nearest [x, z], as seek() does from a phase's start (the demo's shots).
+  seekTo(at) { this.seek({ s: this.along(at) }); }
+
+  // The glances whose character is to be put in place now, the camera just past their who.when
+  // (each once, and not when it set off past the glance itself)
+  meeting() {
+    return this.glances.filter(g => g.who && !this.met.has(g) && this.s >= g.who.s && this.s < g.s - g.before && this.met.add(g));
   }
 
   // Autoplay: a card clicked away, on without waiting for it any more.
@@ -325,8 +408,9 @@ export class Tour {
     pos.y += this.soar(this.s);
     // coming up to a glance it stands still or turns back at, it looks no further than there: not round the bend
     // the path makes after it, nor at the stop after that
-    const gate = this.gate();
-    const far = Math.min(this.s + LOOK_AHEAD, gate);
+    const gate = this.gate(), past = this.passed();
+    // after one it turned back at, the view reaches out ahead again bit by bit, not all at once
+    const far = Math.min(this.s + Math.min(LOOK_AHEAD, Math.max(8, (this.s - past) * 2)), gate);
     const ahead = this.at(far), high = ahead.y + this.soar(far);
     // looking down at the street ahead from high up, and straight ahead skimming it
     const look = { x: ahead.x, y: Math.max(1.5, high - Math.min(14, high * 0.5)), z: ahead.z };
@@ -337,29 +421,43 @@ export class Tour {
       look.x = end.x + (end.x - back.x) / n * d;
       look.z = end.z + (end.z - back.z) / n * d;
     }
-    let w = 0, stop = null;
+    // what it turns to (the stops, the glances, the end), each by how much: blended, so that as one
+    // takes over from another the view swings over smoothly rather than jumping
+    let w = 0, sw = 0;
+    const mix = { x: 0, y: 0, z: 0 };
+    const add = ([x, y, z], k) => {
+      if (k <= 0) return;
+      w = Math.max(w, k);
+      sw += k;
+      mix.x += x * k; mix.y += y * k; mix.z += z * k;
+    };
+    // a stop past a glance it turns back at only comes in once that is passed, and then gradually
+    const after = smooth((this.s - past) / 30);
     for (const st of this.stops) {
       if (st.s > gate) break;
       const d = this.s - st.s;
       const k = d < 0 ? smooth(1 + d / TURN_IN) : (this.stops.indexOf(st) < this.next ? smooth(1 - d / TURN_OUT) : 1);
-      if (k > w) { w = k; stop = st; }
+      add(st.look, k * (st.s > past ? after : 1));
     }
-    const g = this.glanceAt(this.s);
-    if (g.w > w) { w = g.w; stop = g.on; }
+    for (const g of this.glances) {
+      const d = this.s - g.s;
+      add(g.look, d < 0 ? smooth(1 + d / g.before) : smooth(1 - d / g.after));
+    }
     // the end: turn round to what it looks at there
-    const e = this.endLook ? smooth(1 - (this.length - this.s) / TURN_IN) : 0;
-    if (e > w) { w = e; stop = { look: this.endLook }; }
-    if (stop) {
-      const [x, y, z] = stop.look;
-      look.x += (x - look.x) * w;
-      look.y += (y - look.y) * w;
-      look.z += (z - look.z) * w;
+    if (this.endLook) add(this.endLook, smooth(1 - (this.length - this.s) / TURN_IN));
+    if (w > 0) {
+      look.x += (mix.x / sw - look.x) * w;
+      look.y += (mix.y / sw - look.y) * w;
+      look.z += (mix.z / sw - look.z) * w;
     }
     return { pos, look, roll: this.roll };
   }
 
   // where the glance it will stand still at, or turn back at, next is, if one comes up
   gate() { return this.glances.find(g => ((g.hold && !this.waited.has(g)) || g.reach) && g.s > this.s)?.s ?? Infinity; }
+
+  // and where the last one it passed was
+  passed() { return this.glances.findLast(g => (g.hold || g.reach) && g.s <= this.s)?.s ?? -Infinity; }
 
   // the sky at s, as 'time:weather' (null: the city's own)
   get sky() { return this.skies.findLast(k => k.s <= this.s + 0.01)?.sky ?? null; }
@@ -375,7 +473,8 @@ export class Tour {
     // Belfort) without lagging behind; a jump in what it looks at it turns to in its own time
     const spring = (from, to, v, was) => {
       const follow = dt > 0 ? cap(wrap(to - was) / dt) : 0;
-      return cap(v + (AIM * AIM * wrap(to - from) + 2 * AIM * (follow - v)) * dt);
+      const acc = Math.max(-TURN_ACC, Math.min(TURN_ACC, AIM * AIM * wrap(to - from) + 2 * AIM * (follow - v)));
+      return cap(v + acc * dt);
     };
     a.vy = spring(a.yaw, yaw, a.vy, a.ty);
     a.vp = spring(a.pitch, pitch, a.vp, a.tp);

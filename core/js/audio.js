@@ -17,6 +17,7 @@ export class Sfx {
       this.master.gain.value = 0.6;
       this.master.connect(this.ctx.destination);
       this.fxBus = this.ctx.createGain();
+      this.fxBus.gain.value = this.sfxOn ? 1 : 0;
       this.fxBus.connect(this.master);
       this.musicBus = this.ctx.createGain();
       this.musicBus.gain.value = this.musicOn ? 0.55 : 0;
@@ -29,6 +30,11 @@ export class Sfx {
     }
     // 'interrupted' is where iOS leaves it after a call or a stay in the background
     if (this.ctx.state !== 'running') this.ctx.resume();
+  }
+
+  setSfx(on) {
+    this.sfxOn = on;
+    if (this.fxBus) this.fxBus.gain.setTargetAtTime(on ? 1 : 0, this.ctx.currentTime, 0.05);
   }
 
   setMusic(on) {
@@ -92,6 +98,87 @@ export class Sfx {
   hoof(v, pan) {
     this.noise(0.045, { vol: 0.3 * v, freq: 700 + Math.random() * 500, q: 2.5, pan });
     this.tone(110 + Math.random() * 30, 0.07, { vol: 0.22 * v, to: 60, pan });
+  }
+
+  // A car engine that runs on while you drive: v is 0 (idling) to 1 (flat out), or null for off.
+  engine(v) {
+    if (!this.ctx) return;
+    const now = this.ctx.currentTime;
+    if (v === null) {
+      if (!this.eng) return;
+      const e = this.eng;
+      this.eng = null;
+      e.gain.gain.setTargetAtTime(0, now, 0.08);
+      for (const o of e.oscs) o.stop(now + 0.6);
+      return;
+    }
+    if (!this.eng) {
+      const filter = this.ctx.createBiquadFilter(), gain = this.ctx.createGain();
+      filter.type = 'lowpass';
+      gain.gain.value = 0;
+      filter.connect(gain).connect(this.fxBus);
+      const oscs = ['sawtooth', 'square', 'sawtooth'].map(type => {
+        const o = this.ctx.createOscillator();
+        o.type = type;
+        o.connect(filter);
+        o.start();
+        return o;
+      });
+      this.eng = { oscs, filter, gain };
+    }
+    const { oscs, filter, gain } = this.eng, f = 38 + v * 95 + (Math.sin(now * 23) * 1.5); // a little rumble
+    oscs[0].frequency.setTargetAtTime(f, now, 0.06);
+    oscs[1].frequency.setTargetAtTime(f * 0.5, now, 0.06);
+    oscs[2].frequency.setTargetAtTime(f * 1.51, now, 0.06);
+    filter.frequency.setTargetAtTime(240 + v * 1100, now, 0.08);
+    gain.gain.setTargetAtTime(0.09 + v * 0.07, now, 0.08);
+  }
+
+  // The helicopter's rotor while you fly it: v is 0 (hovering) to 1 (flat out), or null for off. The
+  // blades' whump (low noise and a low hum, pulsed as each blade goes by, quicker as it works
+  // harder) and the turbine's whine faintly over it; quieter than a car's engine.
+  rotor(v) {
+    if (!this.ctx) return;
+    const now = this.ctx.currentTime;
+    if (v === null) {
+      if (!this.rot) return;
+      const r = this.rot;
+      this.rot = null;
+      r.gain.gain.setTargetAtTime(0, now, 0.15);
+      for (const n of r.nodes) n.stop(now + 1);
+      return;
+    }
+    if (!this.rot) {
+      const gain = this.ctx.createGain(), pulse = this.ctx.createGain(), depth = this.ctx.createGain(), low = this.ctx.createBiquadFilter();
+      gain.gain.value = 0;
+      pulse.gain.value = 0.55; // half way, and the beat swings it from nearly nothing to full
+      depth.gain.value = 0.45;
+      low.type = 'lowpass';
+      low.Q.value = 0.8;
+      const noise = this.ctx.createBufferSource();
+      noise.buffer = this.noiseBuf;
+      noise.loop = true;
+      const hum = this.ctx.createOscillator(), beat = this.ctx.createOscillator(), whine = this.ctx.createOscillator(), whineGain = this.ctx.createGain();
+      hum.type = 'triangle';
+      beat.type = 'sine';
+      whine.type = 'sine';
+      whineGain.gain.value = 0.035;
+      noise.connect(low);
+      hum.connect(low);
+      low.connect(pulse).connect(gain);
+      beat.connect(depth).connect(pulse.gain);
+      whine.connect(whineGain).connect(gain);
+      gain.connect(this.fxBus);
+      const nodes = [noise, hum, beat, whine];
+      for (const n of nodes) n.start();
+      this.rot = { gain, low, hum, beat, whine, nodes };
+    }
+    const { gain, low, hum, beat, whine } = this.rot;
+    beat.frequency.setTargetAtTime(9 + v * 3.5, now, 0.3); // blades going by, a second
+    hum.frequency.setTargetAtTime(48 + v * 10, now, 0.3);
+    low.frequency.setTargetAtTime(260 + v * 220, now, 0.2);
+    whine.frequency.setTargetAtTime(1150 + v * 350, now, 0.4);
+    gain.gain.setTargetAtTime(0.07 + v * 0.05, now, 0.2);
   }
 
   pickup(kind, pan) {
@@ -238,6 +325,23 @@ export class Sfx {
     this.noise(0.5, { vol: 0.45, freq: 1800, to: 500, q: 0.6, pan });
     this.noise(0.25, { vol: 0.3, freq: 300, type: 'lowpass', pan });
     this.tone(500, 0.12, { to: 900, type: 'sine', vol: 0.12, pan, delay: 0.05 });
+  }
+
+  // The tram's bell (sounds/tram-bell.mp3), rung three times in quick succession.
+  tramBell(pan = 0, vol = 0.7) {
+    if (!this.ctx || !this.sfxOn) return;
+    this.bellBuf ??= fetch(new URL('../sounds/tram-bell.mp3', import.meta.url).href)
+      .then(r => r.arrayBuffer()).then(b => this.ctx.decodeAudioData(b)).catch(() => null);
+    this.bellBuf.then(buf => {
+      if (!buf) return;
+      for (let i = 0; i < 3; i++) {
+        const s = this.ctx.createBufferSource(), g = this.ctx.createGain();
+        s.buffer = buf;
+        g.gain.value = vol;
+        s.connect(g).connect(this.out(pan));
+        s.start(this.ctx.currentTime + i * 0.3);
+      }
+    });
   }
 
   bump(pan) {

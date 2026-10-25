@@ -1,0 +1,11095 @@
+{
+ "city": "ghent",
+ "street": "Drongensesteenweg",
+ "slug": "drongensesteenweg",
+ "photos": {
+  "190041853848954": {
+   "file": "photos/190041853848954.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=190041853848954",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.0578937,
+    3.7021718,
+    242,
+    0.485
+   ]
+  },
+  "241157694972924": {
+   "file": "photos/241157694972924.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=241157694972924",
+   "author": "dsmm",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-08-11",
+   "cam": [
+    51.0561665,
+    3.6948844,
+    284,
+    0.733
+   ]
+  },
+  "175714801103615": {
+   "file": "photos/175714801103615.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=175714801103615",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-04-19",
+   "cam": [
+    51.0562465,
+    3.6947887,
+    270,
+    0.447
+   ]
+  },
+  "792468448068299": {
+   "file": "photos/792468448068299.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=792468448068299",
+   "author": "maleadt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-07-12",
+   "cam": [
+    51.0565445,
+    3.6987867,
+    328,
+    0.845
+   ]
+  },
+  "986018072958000-309": {
+   "file": "photos/986018072958000-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986018072958000",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0579119,
+    3.7021981,
+    309,
+    0.5
+   ]
+  },
+  "2423061011369035-338": {
+   "file": "photos/2423061011369035-338.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2423061011369035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0579218,
+    3.7020636,
+    338,
+    0.5
+   ]
+  },
+  "1137561807690893-320": {
+   "file": "photos/1137561807690893-320.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1137561807690893",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0579222,
+    3.7022195,
+    320,
+    0.5
+   ]
+  },
+  "496637366766375-318": {
+   "file": "photos/496637366766375-318.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=496637366766375",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0570098,
+    3.7004201,
+    318,
+    0.5
+   ]
+  },
+  "1838802826885144-312": {
+   "file": "photos/1838802826885144-312.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1838802826885144",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0569731,
+    3.700456,
+    312,
+    0.5
+   ]
+  },
+  "1833505147484412-294": {
+   "file": "photos/1833505147484412-294.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1833505147484412",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0576087,
+    3.7015253,
+    294,
+    0.5
+   ]
+  },
+  "944776514517379-305": {
+   "file": "photos/944776514517379-305.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=944776514517379",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0568555,
+    3.7002405,
+    305,
+    0.5
+   ]
+  },
+  "944776514517379-343": {
+   "file": "photos/944776514517379-343.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=944776514517379",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0568555,
+    3.7002405,
+    343,
+    0.5
+   ]
+  },
+  "1109164087680677-325": {
+   "file": "photos/1109164087680677-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1109164087680677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0569776,
+    3.7001328,
+    325,
+    0.5
+   ]
+  },
+  "506361918865864-327": {
+   "file": "photos/506361918865864-327.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=506361918865864",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.057029,
+    3.7002446,
+    327,
+    0.5
+   ]
+  },
+  "1838802826885144-357": {
+   "file": "photos/1838802826885144-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1838802826885144",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0569731,
+    3.700456,
+    357,
+    0.5
+   ]
+  },
+  "504442132424616-317": {
+   "file": "photos/504442132424616-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=504442132424616",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0571648,
+    3.7005483,
+    317,
+    0.5
+   ]
+  },
+  "504442132424616-4": {
+   "file": "photos/504442132424616-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=504442132424616",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0571648,
+    3.7005483,
+    4,
+    0.5
+   ]
+  },
+  "1395726615134657-289": {
+   "file": "photos/1395726615134657-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1395726615134657",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572284,
+    3.7006945,
+    289,
+    0.5
+   ]
+  },
+  "1395726615134657-359": {
+   "file": "photos/1395726615134657-359.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1395726615134657",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572284,
+    3.7006945,
+    359,
+    0.5
+   ]
+  },
+  "970694938459475-309": {
+   "file": "photos/970694938459475-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970694938459475",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572929,
+    3.7008342,
+    309,
+    0.5
+   ]
+  },
+  "991191446280526-316": {
+   "file": "photos/991191446280526-316.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=991191446280526",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0573534,
+    3.7009769,
+    316,
+    0.5
+   ]
+  },
+  "571139455385293-340": {
+   "file": "photos/571139455385293-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=571139455385293",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574141,
+    3.7011223,
+    340,
+    0.5
+   ]
+  },
+  "2397086627317797-345": {
+   "file": "photos/2397086627317797-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2397086627317797",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574809,
+    3.7012517,
+    345,
+    0.5
+   ]
+  },
+  "9160829837345485-349": {
+   "file": "photos/9160829837345485-349.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9160829837345485",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0575443,
+    3.7013861,
+    349,
+    0.5
+   ]
+  },
+  "629524872995735-327": {
+   "file": "photos/629524872995735-327.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=629524872995735",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0575558,
+    3.7016229,
+    327,
+    0.5
+   ]
+  },
+  "3118819131603689-1": {
+   "file": "photos/3118819131603689-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3118819131603689",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0576742,
+    3.7016638,
+    1,
+    0.5
+   ]
+  },
+  "970694938459475-3": {
+   "file": "photos/970694938459475-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970694938459475",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572929,
+    3.7008342,
+    3,
+    0.5
+   ]
+  },
+  "629524872995735-346": {
+   "file": "photos/629524872995735-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=629524872995735",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0575558,
+    3.7016229,
+    346,
+    0.5
+   ]
+  },
+  "1518597319648399-335": {
+   "file": "photos/1518597319648399-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1518597319648399",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.05569,
+    3.6920559,
+    335,
+    0.5
+   ]
+  },
+  "2834030576785356-12": {
+   "file": "photos/2834030576785356-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2834030576785356",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0558113,
+    3.6918862,
+    12,
+    0.5
+   ]
+  },
+  "974930158479656-357": {
+   "file": "photos/974930158479656-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=974930158479656",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.055545,
+    3.6910482,
+    357,
+    0.5
+   ]
+  },
+  "3269256093213995-26": {
+   "file": "photos/3269256093213995-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3269256093213995",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557169,
+    3.6909961,
+    26,
+    0.5
+   ]
+  },
+  "1692514718606698-3": {
+   "file": "photos/1692514718606698-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1692514718606698",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0557323,
+    3.6923603,
+    3,
+    0.5
+   ]
+  },
+  "1258622215653320": {
+   "file": "photos/1258622215653320.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1258622215653320",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0557883,
+    3.6931334,
+    307,
+    0.49
+   ]
+  },
+  "647398474967680": {
+   "file": "photos/647398474967680.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=647398474967680",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0557723,
+    3.6932357,
+    325,
+    0.49
+   ]
+  },
+  "718709880733071": {
+   "file": "photos/718709880733071.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=718709880733071",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0557672,
+    3.6932413,
+    341,
+    0.49
+   ]
+  },
+  "4243731752577406": {
+   "file": "photos/4243731752577406.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4243731752577406",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0557023,
+    3.6932793,
+    348,
+    0.49
+   ]
+  },
+  "1498566484460768": {
+   "file": "photos/1498566484460768.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1498566484460768",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0556586,
+    3.6932927,
+    349,
+    0.49
+   ]
+  },
+  "947224421677260-3": {
+   "file": "photos/947224421677260-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947224421677260",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559035,
+    3.6936931,
+    3,
+    0.5
+   ]
+  },
+  "988814644110450-3": {
+   "file": "photos/988814644110450-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988814644110450",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559828,
+    3.6941971,
+    3,
+    0.5
+   ]
+  },
+  "1288946743411187-348": {
+   "file": "photos/1288946743411187-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1288946743411187",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0555996,
+    3.6913861,
+    348,
+    0.5
+   ]
+  },
+  "1173207744150798-14": {
+   "file": "photos/1173207744150798-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1173207744150798",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557383,
+    3.6912907,
+    14,
+    0.5
+   ]
+  },
+  "1693480768260961-339": {
+   "file": "photos/1693480768260961-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1693480768260961",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557537,
+    3.6914455,
+    339,
+    0.5
+   ]
+  },
+  "1720196139300194-333": {
+   "file": "photos/1720196139300194-333.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1720196139300194",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0556275,
+    3.6915619,
+    333,
+    0.5
+   ]
+  },
+  "1720196139300194-348": {
+   "file": "photos/1720196139300194-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1720196139300194",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0556275,
+    3.6915619,
+    348,
+    0.5
+   ]
+  },
+  "1693480768260961-23": {
+   "file": "photos/1693480768260961-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1693480768260961",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557537,
+    3.6914455,
+    23,
+    0.5
+   ]
+  },
+  "534175689709162-353": {
+   "file": "photos/534175689709162-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534175689709162",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.055772,
+    3.6915978,
+    353,
+    0.5
+   ]
+  },
+  "1542097634211458-334": {
+   "file": "photos/1542097634211458-334.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1542097634211458",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0556505,
+    3.6917318,
+    334,
+    0.5
+   ]
+  },
+  "2598462917239274-339": {
+   "file": "photos/2598462917239274-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2598462917239274",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0556709,
+    3.6918967,
+    339,
+    0.5
+   ]
+  },
+  "2211883019246707-16": {
+   "file": "photos/2211883019246707-16.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2211883019246707",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557913,
+    3.6917447,
+    16,
+    0.5
+   ]
+  },
+  "612738814874524-4": {
+   "file": "photos/612738814874524-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=612738814874524",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0558313,
+    3.6920184,
+    4,
+    0.5
+   ]
+  },
+  "1518597319648399-355": {
+   "file": "photos/1518597319648399-355.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1518597319648399",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.05569,
+    3.6920559,
+    355,
+    0.5
+   ]
+  },
+  "1637972513924423-347": {
+   "file": "photos/1637972513924423-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1637972513924423",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0557521,
+    3.6925181,
+    347,
+    0.5
+   ]
+  },
+  "1637972513924423-5": {
+   "file": "photos/1637972513924423-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1637972513924423",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0557521,
+    3.6925181,
+    5,
+    0.5
+   ]
+  },
+  "1331748385548053-348": {
+   "file": "photos/1331748385548053-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1331748385548053",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0557743,
+    3.6926826,
+    348,
+    0.5
+   ]
+  },
+  "1235862528251259": {
+   "file": "photos/1235862528251259.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1235862528251259",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0557606,
+    3.6932457,
+    330,
+    0.49
+   ]
+  },
+  "1829732334265264": {
+   "file": "photos/1829732334265264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1829732334265264",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.055753,
+    3.6932519,
+    334,
+    0.49
+   ]
+  },
+  "1775428396733031": {
+   "file": "photos/1775428396733031.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1775428396733031",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0556481,
+    3.6932948,
+    352,
+    0.49
+   ]
+  },
+  "1315873386635977-348": {
+   "file": "photos/1315873386635977-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1315873386635977",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.055878,
+    3.6935223,
+    348,
+    0.5
+   ]
+  },
+  "1315873386635977-3": {
+   "file": "photos/1315873386635977-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1315873386635977",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.055878,
+    3.6935223,
+    3,
+    0.5
+   ]
+  },
+  "947224421677260-346": {
+   "file": "photos/947224421677260-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947224421677260",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559035,
+    3.6936931,
+    346,
+    0.5
+   ]
+  },
+  "1020400770386588-346": {
+   "file": "photos/1020400770386588-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020400770386588",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559355,
+    3.6938615,
+    346,
+    0.5
+   ]
+  },
+  "1020400770386588-4": {
+   "file": "photos/1020400770386588-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020400770386588",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559355,
+    3.6938615,
+    4,
+    0.5
+   ]
+  },
+  "937542505980651-345": {
+   "file": "photos/937542505980651-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=937542505980651",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559601,
+    3.6940334,
+    345,
+    0.5
+   ]
+  },
+  "937542505980651-3": {
+   "file": "photos/937542505980651-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=937542505980651",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559601,
+    3.6940334,
+    3,
+    0.5
+   ]
+  },
+  "988814644110450-345": {
+   "file": "photos/988814644110450-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988814644110450",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0559828,
+    3.6941971,
+    345,
+    0.5
+   ]
+  },
+  "908885264654522-347": {
+   "file": "photos/908885264654522-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=908885264654522",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0557281,
+    3.6911431,
+    347,
+    0.5
+   ]
+  },
+  "2049730959274679-345": {
+   "file": "photos/2049730959274679-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2049730959274679",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0555717,
+    3.6912122,
+    345,
+    0.5
+   ]
+  },
+  "1396535705841555": {
+   "file": "photos/1396535705841555.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1396535705841555",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-30",
+   "cam": [
+    51.0559249,
+    3.6954924,
+    328,
+    0.475
+   ]
+  },
+  "304810704594640": {
+   "file": "photos/304810704594640.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=304810704594640",
+   "author": "cvndmm",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-12-18",
+   "cam": [
+    51.0558825,
+    3.6954639,
+    329,
+    0.808
+   ]
+  },
+  "482402829963961": {
+   "file": "photos/482402829963961.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=482402829963961",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-22",
+   "cam": [
+    51.0558947,
+    3.6954821,
+    323,
+    1.367
+   ]
+  },
+  "1038151728137262-357": {
+   "file": "photos/1038151728137262-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1038151728137262",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0561829,
+    3.6964706,
+    357,
+    0.5
+   ]
+  },
+  "776979973004708": {
+   "file": "photos/776979973004708.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=776979973004708",
+   "author": "maleadt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-07-12",
+   "cam": [
+    51.0564778,
+    3.6988704,
+    325,
+    0.845
+   ]
+  },
+  "1312967627450244": {
+   "file": "photos/1312967627450244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1312967627450244",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-30",
+   "cam": [
+    51.0558825,
+    3.6955462,
+    328,
+    0.475
+   ]
+  },
+  "1624270254732668-357": {
+   "file": "photos/1624270254732668-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1624270254732668",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0562321,
+    3.6962488,
+    357,
+    0.5
+   ]
+  },
+  "1311211940089201-353": {
+   "file": "photos/1311211940089201-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1311211940089201",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.056222,
+    3.6964053,
+    353,
+    0.5
+   ]
+  },
+  "983385213470005-30": {
+   "file": "photos/983385213470005-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=983385213470005",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0562008,
+    3.6964297,
+    30,
+    0.5
+   ]
+  },
+  "1355943908930042-31": {
+   "file": "photos/1355943908930042-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1355943908930042",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0564585,
+    3.6986763,
+    31,
+    0.5
+   ]
+  },
+  "840351165807323-351": {
+   "file": "photos/840351165807323-351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=840351165807323",
+   "author": "Mizuna",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-05-21",
+   "pano": true,
+   "cam": [
+    51.0560045,
+    3.6943562,
+    351,
+    0.5
+   ]
+  },
+  "984352809759037": {
+   "file": "photos/984352809759037.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=984352809759037",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-05-15",
+   "cam": [
+    51.0561766,
+    3.6949633,
+    29,
+    0.477
+   ]
+  },
+  "1303643740173544": {
+   "file": "photos/1303643740173544.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1303643740173544",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-09-22",
+   "cam": [
+    51.0561675,
+    3.6948961,
+    38,
+    0.499
+   ]
+  },
+  "302474461410449": {
+   "file": "photos/302474461410449.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=302474461410449",
+   "author": "anastasio",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-12-26",
+   "cam": [
+    51.0561651,
+    3.6949265,
+    29,
+    0.85
+   ]
+  },
+  "1442133059495783": {
+   "file": "photos/1442133059495783.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1442133059495783",
+   "author": "live",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-07-24",
+   "cam": [
+    51.0565677,
+    3.6985387,
+    99,
+    0.728
+   ]
+  },
+  "1196847165147357": {
+   "file": "photos/1196847165147357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1196847165147357",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "cam": [
+    51.056329,
+    3.6946226,
+    146,
+    0.48
+   ]
+  },
+  "1756660394669050": {
+   "file": "photos/1756660394669050.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1756660394669050",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0563443,
+    3.6946001,
+    154,
+    0.486
+   ]
+  },
+  "1539692186833099": {
+   "file": "photos/1539692186833099.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1539692186833099",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-12-26",
+   "cam": [
+    51.0563272,
+    3.694587,
+    162,
+    0.486
+   ]
+  },
+  "970694938459475-161": {
+   "file": "photos/970694938459475-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970694938459475",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572929,
+    3.7008342,
+    161,
+    0.5
+   ]
+  },
+  "571139455385293-166": {
+   "file": "photos/571139455385293-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=571139455385293",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574141,
+    3.7011223,
+    166,
+    0.5
+   ]
+  },
+  "9160829837345485-177": {
+   "file": "photos/9160829837345485-177.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9160829837345485",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0575443,
+    3.7013861,
+    177,
+    0.5
+   ]
+  },
+  "645285284669016-130": {
+   "file": "photos/645285284669016-130.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645285284669016",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0577411,
+    3.7018048,
+    130,
+    0.5
+   ]
+  },
+  "2167421623704255-178": {
+   "file": "photos/2167421623704255-178.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2167421623704255",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0569408,
+    3.7001103,
+    178,
+    0.5
+   ]
+  },
+  "1109164087680677-139": {
+   "file": "photos/1109164087680677-139.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1109164087680677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0569776,
+    3.7001328,
+    139,
+    0.5
+   ]
+  },
+  "506361918865864-144": {
+   "file": "photos/506361918865864-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=506361918865864",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.057029,
+    3.7002446,
+    144,
+    0.5
+   ]
+  },
+  "607241042223524-132": {
+   "file": "photos/607241042223524-132.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=607241042223524",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0570968,
+    3.7003978,
+    132,
+    0.5
+   ]
+  },
+  "504442132424616-165": {
+   "file": "photos/504442132424616-165.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=504442132424616",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0571648,
+    3.7005483,
+    165,
+    0.5
+   ]
+  },
+  "1395726615134657-181": {
+   "file": "photos/1395726615134657-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1395726615134657",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572284,
+    3.7006945,
+    181,
+    0.5
+   ]
+  },
+  "1395726615134657-133": {
+   "file": "photos/1395726615134657-133.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1395726615134657",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572284,
+    3.7006945,
+    133,
+    0.5
+   ]
+  },
+  "1395726615134657-105": {
+   "file": "photos/1395726615134657-105.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1395726615134657",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572284,
+    3.7006945,
+    105,
+    0.5
+   ]
+  },
+  "970694938459475-105": {
+   "file": "photos/970694938459475-105.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=970694938459475",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0572929,
+    3.7008342,
+    105,
+    0.5
+   ]
+  },
+  "571139455385293-112": {
+   "file": "photos/571139455385293-112.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=571139455385293",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574141,
+    3.7011223,
+    112,
+    0.5
+   ]
+  },
+  "2397086627317797-121": {
+   "file": "photos/2397086627317797-121.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2397086627317797",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574809,
+    3.7012517,
+    121,
+    0.5
+   ]
+  },
+  "1833505147484412-103": {
+   "file": "photos/1833505147484412-103.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1833505147484412",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0576087,
+    3.7015253,
+    103,
+    0.5
+   ]
+  },
+  "3118819131603689-111": {
+   "file": "photos/3118819131603689-111.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3118819131603689",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0576742,
+    3.7016638,
+    111,
+    0.5
+   ]
+  },
+  "3118819131603689-147": {
+   "file": "photos/3118819131603689-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3118819131603689",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0576742,
+    3.7016638,
+    147,
+    0.5
+   ]
+  },
+  "9372801846140787-181": {
+   "file": "photos/9372801846140787-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9372801846140787",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0578,
+    3.7019433,
+    181,
+    0.5
+   ]
+  },
+  "9372801846140787-146": {
+   "file": "photos/9372801846140787-146.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9372801846140787",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0578,
+    3.7019433,
+    146,
+    0.5
+   ]
+  },
+  "1355353512553223-152": {
+   "file": "photos/1355353512553223-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1355353512553223",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0579472,
+    3.7019322,
+    152,
+    0.5
+   ]
+  },
+  "991191446280526-133": {
+   "file": "photos/991191446280526-133.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=991191446280526",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0573534,
+    3.7009769,
+    133,
+    0.5
+   ]
+  },
+  "2397086627317797-164": {
+   "file": "photos/2397086627317797-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2397086627317797",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0574809,
+    3.7012517,
+    164,
+    0.5
+   ]
+  },
+  "9160829837345485-136": {
+   "file": "photos/9160829837345485-136.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9160829837345485",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0575443,
+    3.7013861,
+    136,
+    0.5
+   ]
+  },
+  "645285284669016-169": {
+   "file": "photos/645285284669016-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645285284669016",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0577411,
+    3.7018048,
+    169,
+    0.5
+   ]
+  },
+  "355869317145298": {
+   "file": "photos/355869317145298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=355869317145298",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-12-26",
+   "cam": [
+    51.0562222,
+    3.6945756,
+    205,
+    0.486
+   ]
+  },
+  "467404064941243": {
+   "file": "photos/467404064941243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=467404064941243",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0562312,
+    3.694593,
+    205,
+    0.477
+   ]
+  },
+  "3355920578033209": {
+   "file": "photos/3355920578033209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3355920578033209",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-12-26",
+   "cam": [
+    51.0562642,
+    3.6945964,
+    187,
+    0.486
+   ]
+  },
+  "1224471838123301": {
+   "file": "photos/1224471838123301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1224471838123301",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0562783,
+    3.6946157,
+    185,
+    0.477
+   ]
+  },
+  "1393234038259840": {
+   "file": "photos/1393234038259840.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1393234038259840",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-12-26",
+   "cam": [
+    51.0563072,
+    3.6945951,
+    170,
+    0.486
+   ]
+  },
+  "811273146891236": {
+   "file": "photos/811273146891236.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=811273146891236",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0563013,
+    3.6946169,
+    174,
+    0.477
+   ]
+  },
+  "110782548317768": {
+   "file": "photos/110782548317768.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=110782548317768",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0563233,
+    3.6946124,
+    164,
+    0.486
+   ]
+  },
+  "368749619177496": {
+   "file": "photos/368749619177496.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=368749619177496",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-12-26",
+   "cam": [
+    51.0563458,
+    3.6945746,
+    155,
+    0.486
+   ]
+  },
+  "1553646685593011": {
+   "file": "photos/1553646685593011.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1553646685593011",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "cam": [
+    51.0563806,
+    3.6945552,
+    147,
+    0.48
+   ]
+  },
+  "978118174473505-198": {
+   "file": "photos/978118174473505-198.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    198,
+    0.5
+   ]
+  },
+  "978118174473505-179": {
+   "file": "photos/978118174473505-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    179,
+    0.5
+   ]
+  },
+  "525332340410451-176": {
+   "file": "photos/525332340410451-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=525332340410451",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0565948,
+    3.6985023,
+    176,
+    0.5
+   ]
+  },
+  "1354649449200764-174": {
+   "file": "photos/1354649449200764-174.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1354649449200764",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0563274,
+    3.6963093,
+    174,
+    0.5
+   ]
+  },
+  "978118174473505-189": {
+   "file": "photos/978118174473505-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    189,
+    0.5
+   ]
+  },
+  "978118174473505-168": {
+   "file": "photos/978118174473505-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    168,
+    0.5
+   ]
+  },
+  "525332340410451-153": {
+   "file": "photos/525332340410451-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=525332340410451",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0565948,
+    3.6985023,
+    153,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 12824,
+   "at": [
+    -1926.3,
+    -616.9
+   ],
+   "centre": [
+    -1931.1,
+    -613
+   ],
+   "width": 12,
+   "faces": 10,
+   "toStreet": 13.8,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1928.1,
+    -606.2,
+    -1929.4,
+    -605.2,
+    -1933.5,
+    -610.9,
+    -1933.8,
+    -611.4,
+    -1944.2,
+    -625.9,
+    -1925.3,
+    -622.8,
+    -1927.3,
+    -611,
+    -1927.4,
+    -610.6
+   ],
+   "id": "drongensesteenweg-10-01",
+   "latLon": [
+    51.057837,
+    3.701743
+   ],
+   "photos": [
+    {
+     "id": "190041853848954",
+     "metres": 31,
+     "off": 16,
+     "span": [
+      0.573,
+      0.728
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11064,
+   "at": [
+    -2563.6,
+    -398.25
+   ],
+   "centre": [
+    -2569,
+    -400.2
+   ],
+   "width": 9.8,
+   "faces": 18,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2560.6,
+    -407.8,
+    -2562.1,
+    -402.9,
+    -2565.1,
+    -393.6,
+    -2566.7,
+    -388.8,
+    -2573.4,
+    -387,
+    -2576.6,
+    -399,
+    -2577.5,
+    -402.8,
+    -2573.6,
+    -406.2,
+    -2565.3,
+    -413.4
+   ],
+   "id": "drongensesteenweg-18-02",
+   "latLon": [
+    51.056256,
+    3.694457
+   ],
+   "photos": [
+    {
+     "id": "241157694972924",
+     "metres": 31,
+     "off": 5,
+     "span": [
+      0.47,
+      0.655
+     ]
+    },
+    {
+     "id": "175714801103615",
+     "metres": 23,
+     "off": 2,
+     "span": [
+      0.449,
+      0.596
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12525,
+   "at": [
+    -2194.8,
+    -459.65
+   ],
+   "centre": [
+    -2191.7,
+    -465.2
+   ],
+   "width": 10,
+   "faces": 46,
+   "toStreet": 17.5,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2201.5,
+    -459.4,
+    -2198.4,
+    -456.2,
+    -2191.2,
+    -463.1,
+    -2187.4,
+    -466.8,
+    -2184.6,
+    -469.4,
+    -2187.4,
+    -472.4,
+    -2191.2,
+    -468.9
+   ],
+   "id": "drongensesteenweg-46-01",
+   "latLon": [
+    51.0567,
+    3.698673
+   ],
+   "photos": [
+    {
+     "id": "792468448068299",
+     "metres": 19,
+     "off": 7,
+     "span": [
+      0.429,
+      0.771
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12471,
+   "at": [
+    -1898.4,
+    -636.8499999999999
+   ],
+   "centre": [
+    -1900.2,
+    -639.5
+   ],
+   "width": 15.7,
+   "faces": 50,
+   "toStreet": 14.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1910.9,
+    -632.9,
+    -1904.4,
+    -631.8,
+    -1892.4,
+    -641.9,
+    -1894.1,
+    -643.9,
+    -1896.4,
+    -642.1,
+    -1897.7,
+    -643.7,
+    -1898.7,
+    -642.9,
+    -1906.6,
+    -636.5
+   ],
+   "id": "drongensesteenweg-50-02",
+   "latLon": [
+    51.057982,
+    3.702062
+   ],
+   "photos": [
+    {
+     "id": "986018072958000-309",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.272,
+      0.779
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12491,
+   "at": [
+    -1902.65,
+    -639.7
+   ],
+   "centre": [
+    -1905.9,
+    -640.4
+   ],
+   "width": 10.2,
+   "faces": 51,
+   "toStreet": 19,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 9.7,
+   "kind": "house",
+   "ring": [
+    -1918,
+    -634.1,
+    -1910.9,
+    -632.9,
+    -1906.6,
+    -636.5,
+    -1898.7,
+    -642.9,
+    -1901.1,
+    -645.6,
+    -1902.2,
+    -644.6,
+    -1903.7,
+    -646.1
+   ],
+   "id": "drongensesteenweg-51-03",
+   "latLon": [
+    51.058002,
+    3.702013
+   ],
+   "photos": [
+    {
+     "id": "2423061011369035-338",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.273,
+      0.684
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12850,
+   "at": [
+    -1890.2,
+    -635.2
+   ],
+   "centre": [
+    -1893.2,
+    -637.8
+   ],
+   "width": 14.9,
+   "faces": 51,
+   "toStreet": 12.4,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -1904.4,
+    -631.8,
+    -1896,
+    -630.5,
+    -1884.4,
+    -639.9,
+    -1888.8,
+    -645,
+    -1892.4,
+    -641.9
+   ],
+   "id": "drongensesteenweg-51-04",
+   "latLon": [
+    51.05797,
+    3.702155
+   ],
+   "photos": [
+    {
+     "id": "1137561807690893-320",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.073,
+      0.933
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13117,
+   "at": [
+    -2118.35,
+    -467.7
+   ],
+   "centre": [
+    -2130.4,
+    -479.7
+   ],
+   "width": 4.4,
+   "faces": 53,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2116.6,
+    -469,
+    -2120.1,
+    -466.4,
+    -2131.8,
+    -477.3,
+    -2149.9,
+    -494.3,
+    -2145.7,
+    -498.3,
+    -2118.2,
+    -473.1
+   ],
+   "id": "drongensesteenweg-53-05",
+   "latLon": [
+    51.056758,
+    3.699547
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13110,
+   "at": [
+    -2095.3500000000004,
+    -484.4
+   ],
+   "centre": [
+    -2101.3,
+    -489.7
+   ],
+   "width": 3.6,
+   "faces": 53,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -2093.9,
+    -485.5,
+    -2096.8,
+    -483.3,
+    -2108.5,
+    -493.5,
+    -2106.1,
+    -496.4
+   ],
+   "id": "drongensesteenweg-53-06",
+   "latLon": [
+    51.056879,
+    3.69981
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13098,
+   "at": [
+    -2053.25,
+    -515.1
+   ],
+   "centre": [
+    -2060.3,
+    -524.6
+   ],
+   "width": 3.6,
+   "faces": 53,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2051.8,
+    -516.2,
+    -2054.7,
+    -514,
+    -2057.9,
+    -517.6,
+    -2064.4,
+    -525.7,
+    -2063.4,
+    -526.5,
+    -2065.2,
+    -528.7,
+    -2064.3,
+    -529.4,
+    -2065.9,
+    -531.1,
+    -2064.4,
+    -532.2,
+    -2063,
+    -530.4,
+    -2060.9,
+    -527.8,
+    -2058.4,
+    -524.6,
+    -2055.4,
+    -520.8,
+    -2054.8,
+    -520.1
+   ],
+   "id": "drongensesteenweg-53-07",
+   "latLon": [
+    51.057101,
+    3.700291
+   ],
+   "photos": [
+    {
+     "id": "496637366766375-318",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.451,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13067,
+   "at": [
+    -2056.25,
+    -512.85
+   ],
+   "centre": [
+    -2067.2,
+    -526.8
+   ],
+   "width": 3.9,
+   "faces": 53,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2054.7,
+    -514,
+    -2057.8,
+    -511.7,
+    -2061.9,
+    -515.7,
+    -2062,
+    -515.8,
+    -2070.2,
+    -523.7,
+    -2071.7,
+    -525.3,
+    -2070.2,
+    -526.5,
+    -2070.9,
+    -527.4,
+    -2071.8,
+    -528.4,
+    -2070.7,
+    -529.3,
+    -2071.9,
+    -531.1,
+    -2071.9,
+    -531.1,
+    -2073.6,
+    -533.5,
+    -2073.8,
+    -533.8,
+    -2068.8,
+    -537.9,
+    -2066.6,
+    -535.1,
+    -2064.4,
+    -532.2,
+    -2065.9,
+    -531.1,
+    -2067.6,
+    -529.9,
+    -2068.4,
+    -529.4,
+    -2068.4,
+    -529.4,
+    -2064.4,
+    -525.7,
+    -2057.9,
+    -517.6
+   ],
+   "id": "drongensesteenweg-53-08",
+   "latLon": [
+    51.057085,
+    3.700257
+   ],
+   "photos": [
+    {
+     "id": "1838802826885144-312",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.457,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12808,
+   "at": [
+    -1952.65,
+    -588.45
+   ],
+   "centre": [
+    -1957.4,
+    -595.1
+   ],
+   "width": 7.1,
+   "faces": 53,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1959.4,
+    -603.9,
+    -1949.8,
+    -590.6,
+    -1955.5,
+    -586.3,
+    -1965.1,
+    -599.5
+   ],
+   "id": "drongensesteenweg-53-09",
+   "latLon": [
+    51.057632,
+    3.701441
+   ],
+   "photos": [
+    {
+     "id": "1833505147484412-294",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.336,
+      0.742
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12602,
+   "at": [
+    -2107.55,
+    -475.54999999999995
+   ],
+   "centre": [
+    -2143.5,
+    -513.6
+   ],
+   "width": 6.3,
+   "faces": 54,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    -2156.9,
+    -559.5,
+    -2173.8,
+    -541.2,
+    -2169.3,
+    -537,
+    -2162.2,
+    -530.4,
+    -2157.9,
+    -526.4,
+    -2154.7,
+    -523.5,
+    -2150.9,
+    -520,
+    -2147.3,
+    -516.6,
+    -2145.3,
+    -514.8,
+    -2143.5,
+    -513.1,
+    -2141.3,
+    -511,
+    -2139.7,
+    -509.6,
+    -2136.2,
+    -506.3,
+    -2132.5,
+    -502.9,
+    -2128.8,
+    -499.5,
+    -2127.2,
+    -498,
+    -2125.4,
+    -496.3,
+    -2124.2,
+    -495.2,
+    -2121.7,
+    -492.9,
+    -2117.8,
+    -489.3,
+    -2115.7,
+    -487.3,
+    -2105,
+    -477.4,
+    -2110.1,
+    -473.7,
+    -2152.4,
+    -513.1,
+    -2152.6,
+    -512.7,
+    -2160.5,
+    -519.9,
+    -2160.7,
+    -519.6,
+    -2185.9,
+    -542.8,
+    -2163.1,
+    -564.9
+   ],
+   "id": "drongensesteenweg-54-10",
+   "latLon": [
+    51.056815,
+    3.699671
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13112,
+   "at": [
+    -2102.85,
+    -478.95
+   ],
+   "centre": [
+    -2109.3,
+    -485.3
+   ],
+   "width": 5.3,
+   "faces": 54,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -2112.3,
+    -490.4,
+    -2100.7,
+    -480.5,
+    -2105,
+    -477.4,
+    -2115.7,
+    -487.3,
+    -2112.7,
+    -490.7
+   ],
+   "id": "drongensesteenweg-54-11",
+   "latLon": [
+    51.056839,
+    3.699724
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13109,
+   "at": [
+    -2091.8,
+    -487
+   ],
+   "centre": [
+    -2100.5,
+    -494.6
+   ],
+   "width": 5.2,
+   "faces": 54,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2098.3,
+    -495.9,
+    -2089.7,
+    -488.5,
+    -2093.9,
+    -485.5,
+    -2106.1,
+    -496.4,
+    -2109,
+    -499,
+    -2105.9,
+    -502.4
+   ],
+   "id": "drongensesteenweg-54-12",
+   "latLon": [
+    51.056898,
+    3.699851
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13093,
+   "at": [
+    -2079.3999999999996,
+    -496
+   ],
+   "centre": [
+    -2089.4,
+    -503.8
+   ],
+   "width": 5.7,
+   "faces": 54,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2099.5,
+    -509.9,
+    -2096.4,
+    -513.6,
+    -2077.1,
+    -497.7,
+    -2081.7,
+    -494.3,
+    -2092.1,
+    -503.4
+   ],
+   "id": "drongensesteenweg-54-13",
+   "latLon": [
+    51.056963,
+    3.699992
+   ],
+   "photos": [
+    {
+     "id": "944776514517379-305",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.446,
+      0.549
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13089,
+   "at": [
+    -2065.5,
+    -506.1
+   ],
+   "centre": [
+    -2075.6,
+    -514.5
+   ],
+   "width": 6.2,
+   "faces": 54,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -2076,
+    -518.7,
+    -2063,
+    -507.9,
+    -2068,
+    -504.3,
+    -2081.5,
+    -515.5,
+    -2084.3,
+    -517.8,
+    -2080.8,
+    -522.7
+   ],
+   "id": "drongensesteenweg-54-14",
+   "latLon": [
+    51.057036,
+    3.700151
+   ],
+   "photos": [
+    {
+     "id": "944776514517379-343",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.439,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13091,
+   "at": [
+    -2070.3,
+    -502.6
+   ],
+   "centre": [
+    -2080.4,
+    -511.2
+   ],
+   "width": 5.7,
+   "faces": 54,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2081.5,
+    -515.5,
+    -2068,
+    -504.3,
+    -2072.6,
+    -500.9,
+    -2089.7,
+    -515.1,
+    -2087.6,
+    -517.5,
+    -2082.9,
+    -513.7
+   ],
+   "id": "drongensesteenweg-54-15",
+   "latLon": [
+    51.057011,
+    3.700096
+   ],
+   "photos": [
+    {
+     "id": "1109164087680677-325",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.243,
+      0.754
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13088,
+   "at": [
+    -2060.4,
+    -509.79999999999995
+   ],
+   "centre": [
+    -2066.6,
+    -517.5
+   ],
+   "width": 6.4,
+   "faces": 54,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2057.8,
+    -511.7,
+    -2063,
+    -507.9,
+    -2076,
+    -518.7,
+    -2070.9,
+    -523.1,
+    -2070.8,
+    -523.2,
+    -2070.2,
+    -523.7,
+    -2062,
+    -515.8,
+    -2061.9,
+    -515.7
+   ],
+   "id": "drongensesteenweg-54-16",
+   "latLon": [
+    51.057063,
+    3.70021
+   ],
+   "photos": [
+    {
+     "id": "506361918865864-327",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.202,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12821,
+   "at": [
+    -2040.45,
+    -524.3
+   ],
+   "centre": [
+    -2046.8,
+    -536
+   ],
+   "width": 8.1,
+   "faces": 54,
+   "toStreet": 6,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2037.2,
+    -526.7,
+    -2043.7,
+    -521.9,
+    -2050.4,
+    -530.3,
+    -2055,
+    -535.9,
+    -2049.4,
+    -540.3,
+    -2052.6,
+    -543.6,
+    -2051.6,
+    -545,
+    -2051.2,
+    -545.6,
+    -2048.3,
+    -541.7,
+    -2047,
+    -540,
+    -2043.9,
+    -535.8,
+    -2042.8,
+    -534.4,
+    -2040.9,
+    -531.8,
+    -2040.5,
+    -531.2
+   ],
+   "id": "drongensesteenweg-54-17",
+   "latLon": [
+    51.057168,
+    3.700438
+   ],
+   "photos": [
+    {
+     "id": "1838802826885144-357",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.428,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12820,
+   "at": [
+    -2034.9,
+    -528.4000000000001
+   ],
+   "centre": [
+    -2043.2,
+    -538
+   ],
+   "width": 5.7,
+   "faces": 54,
+   "toStreet": 6.1,
+   "floors": 2,
+   "eaves": 5.6,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -2032.6,
+    -530.1,
+    -2037.2,
+    -526.7,
+    -2040.5,
+    -531.2,
+    -2040.9,
+    -531.8,
+    -2042.8,
+    -534.4,
+    -2043.9,
+    -535.8,
+    -2047,
+    -540,
+    -2048.3,
+    -541.7,
+    -2051.2,
+    -545.6,
+    -2047.7,
+    -550.4,
+    -2043.7,
+    -545.1,
+    -2042.2,
+    -543
+   ],
+   "id": "drongensesteenweg-54-18",
+   "latLon": [
+    51.057197,
+    3.700501
+   ],
+   "photos": [
+    {
+     "id": "504442132424616-317",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.284,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12818,
+   "at": [
+    -2030.3,
+    -531.8
+   ],
+   "centre": [
+    -2039.4,
+    -544.1
+   ],
+   "width": 5.7,
+   "faces": 54,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2028,
+    -533.5,
+    -2032.6,
+    -530.1,
+    -2042.2,
+    -543,
+    -2043.7,
+    -545.1,
+    -2047.7,
+    -550.4,
+    -2045.2,
+    -553.8,
+    -2042.2,
+    -550.8,
+    -2037.9,
+    -546.5,
+    -2035.2,
+    -543.8
+   ],
+   "id": "drongensesteenweg-54-19",
+   "latLon": [
+    51.057222,
+    3.700554
+   ],
+   "photos": [
+    {
+     "id": "504442132424616-4",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.314,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12817,
+   "at": [
+    -2025.55,
+    -535.3
+   ],
+   "centre": [
+    -2031.4,
+    -542.3
+   ],
+   "width": 6.1,
+   "faces": 54,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 4,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2023.1,
+    -537.1,
+    -2028,
+    -533.5,
+    -2035.2,
+    -543.8,
+    -2037.9,
+    -546.5,
+    -2032.7,
+    -550.4
+   ],
+   "id": "drongensesteenweg-54-20",
+   "latLon": [
+    51.057247,
+    3.700608
+   ],
+   "photos": [
+    {
+     "id": "1395726615134657-289",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.371,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12816,
+   "at": [
+    -2018.15,
+    -540.6
+   ],
+   "centre": [
+    -2026,
+    -548.4
+   ],
+   "width": 10.5,
+   "faces": 54,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    -2019.3,
+    -551.1,
+    -2013.9,
+    -543.7,
+    -2022.4,
+    -537.5,
+    -2023.1,
+    -537.1,
+    -2032.7,
+    -550.4,
+    -2032.9,
+    -550.6,
+    -2036.2,
+    -555.2,
+    -2027.4,
+    -561.5
+   ],
+   "id": "drongensesteenweg-54-21",
+   "latLon": [
+    51.057285,
+    3.700693
+   ],
+   "photos": [
+    {
+     "id": "1395726615134657-359",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.058,
+      0.694
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12815,
+   "at": [
+    -2011.0500000000002,
+    -545.8
+   ],
+   "centre": [
+    -2017,
+    -554
+   ],
+   "width": 7.1,
+   "faces": 54,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2008.2,
+    -547.9,
+    -2013.9,
+    -543.7,
+    -2019.3,
+    -551.1,
+    -2017.6,
+    -552.3,
+    -2020.9,
+    -557,
+    -2018.4,
+    -558.8,
+    -2019.5,
+    -560.2,
+    -2018.3,
+    -561.3
+   ],
+   "id": "drongensesteenweg-54-22",
+   "latLon": [
+    51.057323,
+    3.700774
+   ],
+   "photos": [
+    {
+     "id": "970694938459475-309",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.272,
+      0.789
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12813,
+   "at": [
+    -1998.25,
+    -555.05
+   ],
+   "centre": [
+    -2005.7,
+    -562.8
+   ],
+   "width": 10.3,
+   "faces": 54,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1994.1,
+    -558.1,
+    -2002.4,
+    -552,
+    -2008,
+    -559.5,
+    -2013.6,
+    -567,
+    -2011.2,
+    -568.6,
+    -2008.3,
+    -564.8,
+    -2002.3,
+    -569.3
+   ],
+   "id": "drongensesteenweg-54-23",
+   "latLon": [
+    51.05739,
+    3.70092
+   ],
+   "photos": [
+    {
+     "id": "991191446280526-316",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.17,
+      0.896
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12812,
+   "at": [
+    -1991.55,
+    -559.95
+   ],
+   "centre": [
+    -1998.8,
+    -569.9
+   ],
+   "width": 6.3,
+   "faces": 54,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": null,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1997.2,
+    -573.1,
+    -1989,
+    -561.8,
+    -1994.1,
+    -558.1,
+    -2002.3,
+    -569.3,
+    -2007.6,
+    -576.5,
+    -2002.5,
+    -580.5
+   ],
+   "id": "drongensesteenweg-54-24",
+   "latLon": [
+    51.057425,
+    3.700997
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12811,
+   "at": [
+    -1983.3,
+    -566
+   ],
+   "centre": [
+    -1996,
+    -582.7
+   ],
+   "width": 6.9,
+   "faces": 54,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 16.7,
+   "kind": "house",
+   "ring": [
+    -1980.5,
+    -568,
+    -1986.1,
+    -564,
+    -1994.3,
+    -575.2,
+    -1991,
+    -577.7,
+    -1993,
+    -581,
+    -1996.3,
+    -579.1,
+    -2002.9,
+    -588,
+    -2002.4,
+    -588.4,
+    -2007.1,
+    -595.1,
+    -2005.9,
+    -596.3,
+    -2003,
+    -599.2,
+    -1989.7,
+    -580.7
+   ],
+   "id": "drongensesteenweg-54-25",
+   "latLon": [
+    51.057469,
+    3.701091
+   ],
+   "photos": [
+    {
+     "id": "571139455385293-340",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.272,
+      0.685
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12810,
+   "at": [
+    -1971.2,
+    -574.85
+   ],
+   "centre": [
+    -1980.4,
+    -581.7
+   ],
+   "width": 7.9,
+   "faces": 54,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 4,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1989.7,
+    -580.7,
+    -1980.5,
+    -568,
+    -1974.4,
+    -572.5,
+    -1968,
+    -577.2,
+    -1977,
+    -589.7,
+    -1980.3,
+    -587.4,
+    -1982,
+    -589.7,
+    -1986.8,
+    -586.3,
+    -1985.2,
+    -583.9
+   ],
+   "id": "drongensesteenweg-54-26",
+   "latLon": [
+    51.057533,
+    3.701229
+   ],
+   "photos": [
+    {
+     "id": "2397086627317797-345",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.198,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12809,
+   "at": [
+    -1959,
+    -583.75
+   ],
+   "centre": [
+    -1967.4,
+    -589.4
+   ],
+   "width": 8.7,
+   "faces": 54,
+   "toStreet": 7.7,
+   "floors": 2,
+   "eaves": 9,
+   "top": 17.1,
+   "kind": "house",
+   "ring": [
+    -1965.1,
+    -599.5,
+    -1955.5,
+    -586.3,
+    -1962.5,
+    -581.2,
+    -1968,
+    -577.2,
+    -1977,
+    -589.7,
+    -1978,
+    -591.1,
+    -1965.8,
+    -600.5
+   ],
+   "id": "drongensesteenweg-54-27",
+   "latLon": [
+    51.057598,
+    3.701369
+   ],
+   "photos": [
+    {
+     "id": "9160829837345485-349",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.149,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12823,
+   "at": [
+    -1946.55,
+    -592.95
+   ],
+   "centre": [
+    -1959.1,
+    -611.4
+   ],
+   "width": 8,
+   "faces": 54,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1959.5,
+    -616.8,
+    -1943.3,
+    -595.3,
+    -1949.8,
+    -590.6,
+    -1959.4,
+    -603.9,
+    -1955.7,
+    -606.7,
+    -1966.5,
+    -620.7,
+    -1965.8,
+    -621.2,
+    -1967.1,
+    -623,
+    -1965.2,
+    -624.4
+   ],
+   "id": "drongensesteenweg-54-28",
+   "latLon": [
+    51.057664,
+    3.701511
+   ],
+   "photos": [
+    {
+     "id": "629524872995735-327",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.388,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12819,
+   "at": [
+    -1933.1,
+    -602.5
+   ],
+   "centre": [
+    -1939,
+    -613.5
+   ],
+   "width": 9.2,
+   "faces": 54,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 9.3,
+   "kind": "house",
+   "ring": [
+    -1944.2,
+    -625.9,
+    -1933.8,
+    -611.4,
+    -1933.5,
+    -610.9,
+    -1929.4,
+    -605.2,
+    -1936.8,
+    -599.8,
+    -1956.4,
+    -628
+   ],
+   "id": "drongensesteenweg-54-29",
+   "latLon": [
+    51.057733,
+    3.701665
+   ],
+   "photos": [
+    {
+     "id": "3118819131603689-1",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.157,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12814,
+   "at": [
+    -2005.3000000000002,
+    -549.95
+   ],
+   "centre": [
+    -2012.9,
+    -559.4
+   ],
+   "width": 7.1,
+   "faces": 55,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2008,
+    -559.5,
+    -2002.4,
+    -552,
+    -2008.2,
+    -547.9,
+    -2018.3,
+    -561.3,
+    -2021.3,
+    -565.5,
+    -2019.3,
+    -566.8,
+    -2015.2,
+    -561.3,
+    -2013.3,
+    -562.8,
+    -2009.8,
+    -557.9
+   ],
+   "id": "drongensesteenweg-55-30",
+   "latLon": [
+    51.057353,
+    3.700839
+   ],
+   "photos": [
+    {
+     "id": "970694938459475-3",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.276,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12822,
+   "at": [
+    -1941.4,
+    -596.65
+   ],
+   "centre": [
+    -1955,
+    -616.4
+   ],
+   "width": 4.7,
+   "faces": 55,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -1939.5,
+    -598,
+    -1943.3,
+    -595.3,
+    -1959.5,
+    -616.8,
+    -1965.2,
+    -624.4,
+    -1967,
+    -626.9,
+    -1967,
+    -629.8,
+    -1960.2,
+    -628.7,
+    -1956.4,
+    -628,
+    -1936.8,
+    -599.8
+   ],
+   "id": "drongensesteenweg-55-31",
+   "latLon": [
+    51.057691,
+    3.70157
+   ],
+   "photos": [
+    {
+     "id": "629524872995735-346",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.442,
+      0.556
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13118,
+   "at": [
+    -2122.55,
+    -465.4
+   ],
+   "centre": [
+    -2127.6,
+    -471
+   ],
+   "width": 5.3,
+   "faces": 68,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2120.1,
+    -466.4,
+    -2125,
+    -464.4,
+    -2128.5,
+    -470.2,
+    -2132.7,
+    -476.8,
+    -2131.8,
+    -477.3
+   ],
+   "id": "drongensesteenweg-68-01",
+   "latLon": [
+    51.056741,
+    3.699499
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13119,
+   "at": [
+    -2127.4,
+    -463.5
+   ],
+   "centre": [
+    -2131.1,
+    -470.9
+   ],
+   "width": 5.1,
+   "faces": 69,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2125,
+    -464.4,
+    -2129.8,
+    -462.6,
+    -2133.2,
+    -472.2,
+    -2133.9,
+    -474.2,
+    -2134.5,
+    -475.8,
+    -2132.7,
+    -476.8,
+    -2128.5,
+    -470.2
+   ],
+   "id": "drongensesteenweg-69-02",
+   "latLon": [
+    51.056728,
+    3.699444
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13120,
+   "at": [
+    -2132.8500000000004,
+    -461.6
+   ],
+   "centre": [
+    -2139.7,
+    -477.2
+   ],
+   "width": 6.4,
+   "faces": 72,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2149.9,
+    -494.3,
+    -2131.8,
+    -477.3,
+    -2132.7,
+    -476.8,
+    -2134.5,
+    -475.8,
+    -2133.9,
+    -474.2,
+    -2133.2,
+    -472.2,
+    -2129.8,
+    -462.6,
+    -2135.9,
+    -460.6,
+    -2139.2,
+    -471.3,
+    -2140.4,
+    -472.6,
+    -2144.1,
+    -476.8,
+    -2158.7,
+    -493.3,
+    -2151.6,
+    -495.8
+   ],
+   "id": "drongensesteenweg-72-03",
+   "latLon": [
+    51.056714,
+    3.699381
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 11217,
+   "at": [
+    -2786.3,
+    -346.8
+   ],
+   "centre": [
+    -2787.9,
+    -356.5
+   ],
+   "width": 12.2,
+   "faces": 76,
+   "toStreet": 16,
+   "floors": 2,
+   "eaves": 7,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -2792.2,
+    -345.3,
+    -2794.6,
+    -356.5,
+    -2789.9,
+    -357.5,
+    -2790.5,
+    -359.8,
+    -2786,
+    -360.6,
+    -2786.3,
+    -361.7,
+    -2783.3,
+    -362.4,
+    -2780.4,
+    -348.3
+   ],
+   "id": "drongensesteenweg-76-04",
+   "latLon": [
+    51.055883,
+    3.691911
+   ],
+   "photos": [
+    {
+     "id": "1518597319648399-335",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.401,
+      0.603
+     ]
+    },
+    {
+     "id": "2834030576785356-12",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.14,
+      0.713
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 270,
+   "at": [
+    -2863.25,
+    -330.04999999999995
+   ],
+   "centre": [
+    -2870.9,
+    -339.1
+   ],
+   "width": 7.7,
+   "faces": 77,
+   "toStreet": 15,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2861.9,
+    -342.3,
+    -2859.5,
+    -330.9,
+    -2867,
+    -329.2,
+    -2867.5,
+    -331.3,
+    -2868.7,
+    -331.1,
+    -2870.5,
+    -339.2,
+    -2880.4,
+    -338.2,
+    -2881.1,
+    -341.9,
+    -2877.4,
+    -342.4,
+    -2878.2,
+    -346.3,
+    -2873.8,
+    -347.3,
+    -2872.8,
+    -342.2,
+    -2867.2,
+    -343.4,
+    -2866.6,
+    -341.3
+   ],
+   "id": "drongensesteenweg-77-05",
+   "latLon": [
+    51.055762,
+    3.691031
+   ],
+   "photos": [
+    {
+     "id": "974930158479656-357",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.438,
+      0.563
+     ]
+    },
+    {
+     "id": "3269256093213995-26",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.174,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11115,
+   "at": [
+    -2745.85,
+    -349.45000000000005
+   ],
+   "centre": [
+    -2748.5,
+    -360.9
+   ],
+   "width": 7.7,
+   "faces": 77,
+   "toStreet": 10,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2745.2,
+    -365.3,
+    -2742.1,
+    -350.3,
+    -2749.6,
+    -348.6,
+    -2752,
+    -359.2,
+    -2747.1,
+    -360.3,
+    -2747.9,
+    -364.2,
+    -2753,
+    -363.2,
+    -2754,
+    -367.9,
+    -2746,
+    -369.5
+   ],
+   "id": "drongensesteenweg-77-06",
+   "latLon": [
+    51.055902,
+    3.692373
+   ],
+   "photos": [
+    {
+     "id": "1692514718606698-3",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.416,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11107,
+   "at": [
+    -2716.5,
+    -355.9
+   ],
+   "centre": [
+    -2718.7,
+    -367.4
+   ],
+   "width": 7.4,
+   "faces": 77,
+   "toStreet": 10.4,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2716,
+    -371.6,
+    -2712.9,
+    -356.7,
+    -2720.1,
+    -355.1,
+    -2722.6,
+    -366.8,
+    -2723.4,
+    -370.9,
+    -2719,
+    -371.8,
+    -2719.2,
+    -372.8,
+    -2716.4,
+    -373.4
+   ],
+   "id": "drongensesteenweg-77-07",
+   "latLon": [
+    51.055949,
+    3.692709
+   ],
+   "photos": [
+    {
+     "id": "1258622215653320",
+     "metres": 35,
+     "off": 6,
+     "span": [
+      0.419,
+      0.478
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11096,
+   "at": [
+    -2694.3999999999996,
+    -360.75
+   ],
+   "centre": [
+    -2694.8,
+    -368.2
+   ],
+   "width": 7.8,
+   "faces": 77,
+   "toStreet": 10.7,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2691,
+    -364.1,
+    -2690.9,
+    -363.7,
+    -2691,
+    -363.6,
+    -2690.6,
+    -361.6,
+    -2698.2,
+    -359.9,
+    -2701.3,
+    -374.8,
+    -2698.6,
+    -375.4,
+    -2698.5,
+    -374.6,
+    -2693.4,
+    -375.8
+   ],
+   "id": "drongensesteenweg-77-08",
+   "latLon": [
+    51.055984,
+    3.692962
+   ],
+   "photos": [
+    {
+     "id": "647398474967680",
+     "metres": 30,
+     "off": 5,
+     "span": [
+      0.417,
+      0.508
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11092,
+   "at": [
+    -2680.5,
+    -366.35
+   ],
+   "centre": [
+    -2682.8,
+    -377.1
+   ],
+   "width": 7.6,
+   "faces": 77,
+   "toStreet": 13.4,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2679.3,
+    -379.1,
+    -2676.8,
+    -367.2,
+    -2684.2,
+    -365.5,
+    -2687.6,
+    -381.3,
+    -2688.1,
+    -383.9,
+    -2680.7,
+    -385.5
+   ],
+   "id": "drongensesteenweg-77-09",
+   "latLon": [
+    51.056025,
+    3.69312
+   ],
+   "photos": [
+    {
+     "id": "718709880733071",
+     "metres": 30,
+     "off": 2,
+     "span": [
+      0.471,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11091,
+   "at": [
+    -2673.2,
+    -368
+   ],
+   "centre": [
+    -2675.1,
+    -377.9
+   ],
+   "width": 7.4,
+   "faces": 77,
+   "toStreet": 13.4,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2669.6,
+    -368.8,
+    -2676.8,
+    -367.2,
+    -2679.3,
+    -379.1,
+    -2675.9,
+    -379.7,
+    -2675.3,
+    -381.9,
+    -2675.7,
+    -383.9,
+    -2673,
+    -384.5
+   ],
+   "id": "drongensesteenweg-77-10",
+   "latLon": [
+    51.056037,
+    3.693204
+   ],
+   "photos": [
+    {
+     "id": "4243731752577406",
+     "metres": 38,
+     "off": 4,
+     "span": [
+      0.497,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11087,
+   "at": [
+    -2658.65,
+    -371.15
+   ],
+   "centre": [
+    -2660.8,
+    -381.5
+   ],
+   "width": 7.7,
+   "faces": 77,
+   "toStreet": 13.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2654.9,
+    -372,
+    -2662.4,
+    -370.3,
+    -2664.8,
+    -381.9,
+    -2665.4,
+    -384.8,
+    -2659.6,
+    -386.1,
+    -2660,
+    -387.4,
+    -2658.5,
+    -387.7
+   ],
+   "id": "drongensesteenweg-77-11",
+   "latLon": [
+    51.056059,
+    3.69337
+   ],
+   "photos": [
+    {
+     "id": "1498566484460768",
+     "metres": 45,
+     "off": 18,
+     "span": [
+      0.625,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11080,
+   "at": [
+    -2628.8999999999996,
+    -375.15
+   ],
+   "centre": [
+    -2631.5,
+    -380.9
+   ],
+   "width": 7.8,
+   "faces": 77,
+   "toStreet": 10.7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2628.2,
+    -390.9,
+    -2625.1,
+    -376,
+    -2632.7,
+    -374.3,
+    -2633.2,
+    -376.3,
+    -2633.3,
+    -376.3,
+    -2633.3,
+    -376.3,
+    -2633.4,
+    -376.7,
+    -2634.6,
+    -385.5,
+    -2630.3,
+    -386.5,
+    -2631.1,
+    -390.3
+   ],
+   "id": "drongensesteenweg-77-12",
+   "latLon": [
+    51.056088,
+    3.69371
+   ],
+   "photos": [
+    {
+     "id": "947224421677260-3",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.427,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11073,
+   "at": [
+    -2584.95,
+    -384.85
+   ],
+   "centre": [
+    -2584.1,
+    -396.3
+   ],
+   "width": 7.5,
+   "faces": 77,
+   "toStreet": 10.5,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2581.3,
+    -385.7,
+    -2588.6,
+    -384,
+    -2591.7,
+    -398.9,
+    -2584.8,
+    -400.6,
+    -2584.2,
+    -400.7,
+    -2584.7,
+    -402.7,
+    -2582.6,
+    -403,
+    -2582.5,
+    -403,
+    -2581.4,
+    -397.9,
+    -2578.7,
+    -386.3
+   ],
+   "id": "drongensesteenweg-77-13",
+   "latLon": [
+    51.056159,
+    3.694213
+   ],
+   "photos": [
+    {
+     "id": "988814644110450-3",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.425,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 268,
+   "at": [
+    -2838.3,
+    -335.3
+   ],
+   "centre": [
+    -2839.6,
+    -343.7
+   ],
+   "width": 9.4,
+   "faces": 78,
+   "toStreet": 15.6,
+   "floors": 2,
+   "eaves": 7.7,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -2839.8,
+    -349.8,
+    -2836.7,
+    -350.6,
+    -2833.7,
+    -336.3,
+    -2842.9,
+    -334.3,
+    -2845.3,
+    -344.9,
+    -2839,
+    -346.4
+   ],
+   "id": "drongensesteenweg-78-14",
+   "latLon": [
+    51.0558,
+    3.691316
+   ],
+   "photos": [
+    {
+     "id": "1288946743411187-348",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.415,
+      0.58
+     ]
+    },
+    {
+     "id": "1173207744150798-14",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.198,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 267,
+   "at": [
+    -2830.1499999999996,
+    -337.05
+   ],
+   "centre": [
+    -2832.4,
+    -345.4
+   ],
+   "width": 7.3,
+   "faces": 78,
+   "toStreet": 15.8,
+   "floors": 2,
+   "eaves": 6.2,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    -2833.7,
+    -347.9,
+    -2829,
+    -349,
+    -2826.6,
+    -337.8,
+    -2833.7,
+    -336.3,
+    -2836.7,
+    -350.6,
+    -2834.4,
+    -351.1
+   ],
+   "id": "drongensesteenweg-78-15",
+   "latLon": [
+    51.055813,
+    3.69141
+   ],
+   "photos": [
+    {
+     "id": "1693480768260961-339",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.308,
+      0.72
+     ]
+    },
+    {
+     "id": "1720196139300194-333",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.438,
+      0.56
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 266,
+   "at": [
+    -2822.85,
+    -338.6
+   ],
+   "centre": [
+    -2824.8,
+    -347.8
+   ],
+   "width": 7.7,
+   "faces": 78,
+   "toStreet": 15.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -2822.1,
+    -353.8,
+    -2819.1,
+    -339.4,
+    -2826.6,
+    -337.8,
+    -2829,
+    -349,
+    -2829.7,
+    -352.5,
+    -2822.2,
+    -354.2
+   ],
+   "id": "drongensesteenweg-78-16",
+   "latLon": [
+    51.055824,
+    3.691493
+   ],
+   "photos": [
+    {
+     "id": "1720196139300194-348",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.428,
+      0.565
+     ]
+    },
+    {
+     "id": "1693480768260961-23",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.314,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 265,
+   "at": [
+    -2814.8,
+    -340.35
+   ],
+   "centre": [
+    -2813,
+    -348.2
+   ],
+   "width": 8.8,
+   "faces": 78,
+   "toStreet": 16.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 11.1,
+   "kind": "house",
+   "ring": [
+    -2809.5,
+    -353.8,
+    -2808,
+    -346.6,
+    -2811.4,
+    -345.9,
+    -2810.5,
+    -341.3,
+    -2819.1,
+    -339.4,
+    -2822.1,
+    -353.8,
+    -2810.2,
+    -356.6
+   ],
+   "id": "drongensesteenweg-78-17",
+   "latLon": [
+    51.055837,
+    3.691585
+   ],
+   "photos": [
+    {
+     "id": "534175689709162-353",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.247,
+      0.732
+     ]
+    },
+    {
+     "id": "1542097634211458-334",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.426,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11121,
+   "at": [
+    -2798.05,
+    -344.05
+   ],
+   "centre": [
+    -2801.9,
+    -352.2
+   ],
+   "width": 12,
+   "faces": 78,
+   "toStreet": 16,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2794.6,
+    -356.5,
+    -2792.2,
+    -345.3,
+    -2803.9,
+    -342.8,
+    -2804.8,
+    -347.2,
+    -2808,
+    -346.6,
+    -2809.5,
+    -353.8,
+    -2805.6,
+    -354.7,
+    -2805.5,
+    -354.1,
+    -2800.1,
+    -355.4,
+    -2800.9,
+    -358.5,
+    -2795.3,
+    -359.7
+   ],
+   "id": "drongensesteenweg-78-18",
+   "latLon": [
+    51.055863,
+    3.691777
+   ],
+   "photos": [
+    {
+     "id": "2598462917239274-339",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.397,
+      0.603
+     ]
+    },
+    {
+     "id": "2211883019246707-16",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.146,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11117,
+   "at": [
+    -2776.15,
+    -349.20000000000005
+   ],
+   "centre": [
+    -2779.2,
+    -358.4
+   ],
+   "width": 8.7,
+   "faces": 78,
+   "toStreet": 16.2,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2780.4,
+    -348.3,
+    -2783.3,
+    -362.4,
+    -2783.7,
+    -364.4,
+    -2781.3,
+    -364.9,
+    -2779.8,
+    -358.6,
+    -2774,
+    -359.9,
+    -2771.9,
+    -350.1
+   ],
+   "id": "drongensesteenweg-78-19",
+   "latLon": [
+    51.055901,
+    3.692027
+   ],
+   "photos": [
+    {
+     "id": "612738814874524-4",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.258,
+      0.695
+     ]
+    },
+    {
+     "id": "1518597319648399-355",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.426,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11113,
+   "at": [
+    -2738.45,
+    -351.1
+   ],
+   "centre": [
+    -2740.5,
+    -359.8
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.2,
+   "floors": 1,
+   "eaves": 5.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2737,
+    -363.5,
+    -2734.8,
+    -351.9,
+    -2742.1,
+    -350.3,
+    -2745.2,
+    -365.3,
+    -2742.6,
+    -365.7,
+    -2741.6,
+    -362.3
+   ],
+   "id": "drongensesteenweg-78-20",
+   "latLon": [
+    51.055914,
+    3.692458
+   ],
+   "photos": [
+    {
+     "id": "1637972513924423-347",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.419,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11111,
+   "at": [
+    -2731.15,
+    -352.7
+   ],
+   "centre": [
+    -2732.7,
+    -361.7
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.3,
+   "floors": 2,
+   "eaves": 7.2,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2727.5,
+    -353.5,
+    -2734.8,
+    -351.9,
+    -2737,
+    -363.5,
+    -2732.8,
+    -364.7,
+    -2733.5,
+    -367.8,
+    -2730.4,
+    -368.5
+   ],
+   "id": "drongensesteenweg-78-21",
+   "latLon": [
+    51.055926,
+    3.692541
+   ],
+   "photos": [
+    {
+     "id": "1637972513924423-5",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.421,
+      0.569
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11109,
+   "at": [
+    -2723.8,
+    -354.3
+   ],
+   "centre": [
+    -2725.8,
+    -363.1
+   ],
+   "width": 7.6,
+   "faces": 78,
+   "toStreet": 10.3,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2722.6,
+    -366.8,
+    -2720.1,
+    -355.1,
+    -2727.5,
+    -353.5,
+    -2730.4,
+    -368.5,
+    -2727.6,
+    -369.1,
+    -2726.8,
+    -365.7
+   ],
+   "id": "drongensesteenweg-78-22",
+   "latLon": [
+    51.055938,
+    3.692625
+   ],
+   "photos": [
+    {
+     "id": "1331748385548053-348",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.415,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11106,
+   "at": [
+    -2709.2,
+    -357.5
+   ],
+   "centre": [
+    -2710.2,
+    -366
+   ],
+   "width": 7.6,
+   "faces": 78,
+   "toStreet": 10.5,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2708.1,
+    -370.1,
+    -2705.5,
+    -358.3,
+    -2712.9,
+    -356.7,
+    -2716,
+    -371.6,
+    -2708.7,
+    -373.1
+   ],
+   "id": "drongensesteenweg-78-23",
+   "latLon": [
+    51.055961,
+    3.692792
+   ],
+   "photos": [
+    {
+     "id": "647398474967680",
+     "metres": 37,
+     "off": 21,
+     "span": [
+      0.276,
+      0.342
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11098,
+   "at": [
+    -2701.85,
+    -359.1
+   ],
+   "centre": [
+    -2703.5,
+    -368.1
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.6,
+   "floors": 2,
+   "eaves": 7.7,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -2698.2,
+    -359.9,
+    -2705.5,
+    -358.3,
+    -2708.1,
+    -370.1,
+    -2703.5,
+    -371.3,
+    -2704.2,
+    -374.2,
+    -2701.3,
+    -374.8
+   ],
+   "id": "drongensesteenweg-78-24",
+   "latLon": [
+    51.055972,
+    3.692876
+   ],
+   "photos": [
+    {
+     "id": "1235862528251259",
+     "metres": 35,
+     "off": 18,
+     "span": [
+      0.305,
+      0.38
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11094,
+   "at": [
+    -2687.6,
+    -364.8
+   ],
+   "centre": [
+    -2689.2,
+    -374.1
+   ],
+   "width": 6.9,
+   "faces": 78,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2684.2,
+    -365.5,
+    -2691,
+    -364.1,
+    -2693.4,
+    -375.8,
+    -2688.9,
+    -376.7,
+    -2690,
+    -381,
+    -2687.6,
+    -381.3
+   ],
+   "id": "drongensesteenweg-78-25",
+   "latLon": [
+    51.056014,
+    3.693039
+   ],
+   "photos": [
+    {
+     "id": "1829732334265264",
+     "metres": 33,
+     "off": 2,
+     "span": [
+      0.447,
+      0.527
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11088,
+   "at": [
+    -2666,
+    -369.55
+   ],
+   "centre": [
+    -2668.2,
+    -378.6
+   ],
+   "width": 7.4,
+   "faces": 78,
+   "toStreet": 13.4,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2664.8,
+    -381.9,
+    -2662.4,
+    -370.3,
+    -2669.6,
+    -368.8,
+    -2673,
+    -384.5,
+    -2670.3,
+    -385,
+    -2669.3,
+    -381
+   ],
+   "id": "drongensesteenweg-78-26",
+   "latLon": [
+    51.056048,
+    3.693286
+   ],
+   "photos": [
+    {
+     "id": "1775428396733031",
+     "metres": 44,
+     "off": 7,
+     "span": [
+      0.531,
+      0.596
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11085,
+   "at": [
+    -2651.25,
+    -372.8
+   ],
+   "centre": [
+    -2653.5,
+    -381.9
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2650,
+    -385.2,
+    -2647.6,
+    -373.6,
+    -2654.9,
+    -372,
+    -2658.5,
+    -387.7,
+    -2655.7,
+    -388.4,
+    -2654.5,
+    -384.3
+   ],
+   "id": "drongensesteenweg-78-27",
+   "latLon": [
+    51.056071,
+    3.693455
+   ],
+   "photos": [
+    {
+     "id": "1315873386635977-348",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.429,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11084,
+   "at": [
+    -2643.95,
+    -374.4
+   ],
+   "centre": [
+    -2646,
+    -384.7
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 13.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2640.3,
+    -375.2,
+    -2647.6,
+    -373.6,
+    -2650,
+    -385.2,
+    -2650.6,
+    -388,
+    -2644.9,
+    -389.1,
+    -2645.2,
+    -390.6,
+    -2643.4,
+    -391
+   ],
+   "id": "drongensesteenweg-78-28",
+   "latLon": [
+    51.056083,
+    3.693538
+   ],
+   "photos": [
+    {
+     "id": "1315873386635977-3",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.433,
+      0.56
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11082,
+   "at": [
+    -2636.8500000000004,
+    -375.95
+   ],
+   "centre": [
+    -2637.2,
+    -385.6
+   ],
+   "width": 7.1,
+   "faces": 78,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2641.1,
+    -391.6,
+    -2639.8,
+    -386.8,
+    -2635.7,
+    -387.8,
+    -2634.6,
+    -388.1,
+    -2634.4,
+    -386.9,
+    -2634.8,
+    -386.7,
+    -2634.6,
+    -385.5,
+    -2633.4,
+    -376.7,
+    -2640.3,
+    -375.2,
+    -2643.4,
+    -391
+   ],
+   "id": "drongensesteenweg-78-29",
+   "latLon": [
+    51.056094,
+    3.693619
+   ],
+   "photos": [
+    {
+     "id": "947224421677260-346",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.438,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11079,
+   "at": [
+    -2621.45,
+    -376.8
+   ],
+   "centre": [
+    -2623,
+    -384.2
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.7,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2617.8,
+    -377.6,
+    -2625.1,
+    -376,
+    -2628.2,
+    -390.9,
+    -2620.8,
+    -392.4
+   ],
+   "id": "drongensesteenweg-78-30",
+   "latLon": [
+    51.0561,
+    3.693796
+   ],
+   "photos": [
+    {
+     "id": "1020400770386588-346",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.42,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11078,
+   "at": [
+    -2614.15,
+    -378.4
+   ],
+   "centre": [
+    -2615.8,
+    -389.9
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.6,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2613.6,
+    -394,
+    -2610.5,
+    -379.2,
+    -2617.8,
+    -377.6,
+    -2620.8,
+    -392.4,
+    -2616.4,
+    -393.3,
+    -2617.1,
+    -396,
+    -2614.2,
+    -396.7
+   ],
+   "id": "drongensesteenweg-78-31",
+   "latLon": [
+    51.056112,
+    3.693879
+   ],
+   "photos": [
+    {
+     "id": "1020400770386588-4",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.42,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11077,
+   "at": [
+    -2606.85,
+    -380
+   ],
+   "centre": [
+    -2607.7,
+    -388.4
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2605.3,
+    -392.3,
+    -2603.2,
+    -380.8,
+    -2610.5,
+    -379.2,
+    -2613.6,
+    -394,
+    -2605.9,
+    -395.7
+   ],
+   "id": "drongensesteenweg-78-32",
+   "latLon": [
+    51.056124,
+    3.693962
+   ],
+   "photos": [
+    {
+     "id": "937542505980651-345",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.419,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11076,
+   "at": [
+    -2599.55,
+    -381.6
+   ],
+   "centre": [
+    -2601.1,
+    -390.4
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.6,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2605.3,
+    -392.3,
+    -2601.2,
+    -393.3,
+    -2601.8,
+    -396.6,
+    -2599,
+    -397.2,
+    -2595.9,
+    -382.4,
+    -2603.2,
+    -380.8
+   ],
+   "id": "drongensesteenweg-78-33",
+   "latLon": [
+    51.056135,
+    3.694046
+   ],
+   "photos": [
+    {
+     "id": "937542505980651-3",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.419,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11074,
+   "at": [
+    -2592.25,
+    -383.2
+   ],
+   "centre": [
+    -2593.8,
+    -390.6
+   ],
+   "width": 7.5,
+   "faces": 78,
+   "toStreet": 10.5,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2591.7,
+    -398.9,
+    -2588.6,
+    -384,
+    -2595.9,
+    -382.4,
+    -2599,
+    -397.2
+   ],
+   "id": "drongensesteenweg-78-34",
+   "latLon": [
+    51.056147,
+    3.694129
+   ],
+   "photos": [
+    {
+     "id": "988814644110450-345",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.425,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 269,
+   "at": [
+    -2854.95,
+    -331.75
+   ],
+   "centre": [
+    -2852.5,
+    -337.1
+   ],
+   "width": 9.3,
+   "faces": 79,
+   "toStreet": 15.1,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    -2859.5,
+    -330.9,
+    -2861.9,
+    -342.3,
+    -2851.6,
+    -344.6,
+    -2851.3,
+    -343.3,
+    -2852.1,
+    -343.1,
+    -2850.6,
+    -335.9,
+    -2850,
+    -336,
+    -2849.7,
+    -335,
+    -2851.5,
+    -334.4,
+    -2851.3,
+    -333.5,
+    -2850.7,
+    -333.6,
+    -2850.4,
+    -332.6
+   ],
+   "id": "drongensesteenweg-79-35",
+   "latLon": [
+    51.055774,
+    3.691126
+   ],
+   "photos": [
+    {
+     "id": "908885264654522-347",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.157,
+      0.861
+     ]
+    },
+    {
+     "id": "2049730959274679-345",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.422,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10028,
+   "at": [
+    -2490.15,
+    -397.9
+   ],
+   "centre": [
+    -2491.1,
+    -402.6
+   ],
+   "width": 6.4,
+   "faces": 79,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2495.1,
+    -406.6,
+    -2493.3,
+    -397.3,
+    -2487,
+    -398.5,
+    -2488.8,
+    -407.8
+   ],
+   "id": "drongensesteenweg-79-36",
+   "latLon": [
+    51.056253,
+    3.695297
+   ],
+   "photos": [
+    {
+     "id": "1396535705841555",
+     "metres": 39,
+     "off": 11,
+     "span": [
+      0.563,
+      0.627
+     ]
+    },
+    {
+     "id": "304810704594640",
+     "metres": 43,
+     "off": 15,
+     "span": [
+      0.67,
+      0.774
+     ]
+    },
+    {
+     "id": "482402829963961",
+     "metres": 42,
+     "off": 19,
+     "span": [
+      0.887,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13287,
+   "at": [
+    -2388.8500000000004,
+    -415.35
+   ],
+   "centre": [
+    -2390,
+    -425.5
+   ],
+   "width": 7,
+   "faces": 79,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2391.5,
+    -432.9,
+    -2388.4,
+    -433.2,
+    -2386.8,
+    -424.3,
+    -2385.4,
+    -416,
+    -2392.3,
+    -414.7,
+    -2394.7,
+    -428.4,
+    -2390.7,
+    -429.1
+   ],
+   "id": "drongensesteenweg-79-37",
+   "latLon": [
+    51.056379,
+    3.696455
+   ],
+   "photos": [
+    {
+     "id": "1038151728137262-357",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.436,
+      0.563
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13127,
+   "at": [
+    -2183.05,
+    -451.29999999999995
+   ],
+   "centre": [
+    -2184.3,
+    -462.3
+   ],
+   "width": 4.4,
+   "faces": 79,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2183.3,
+    -464.9,
+    -2180.9,
+    -451.7,
+    -2185.2,
+    -450.9,
+    -2187.4,
+    -466.8,
+    -2184.6,
+    -469.4,
+    -2184.2,
+    -469.8
+   ],
+   "id": "drongensesteenweg-79-38",
+   "latLon": [
+    51.056639,
+    3.698807
+   ],
+   "photos": [
+    {
+     "id": "776979973004708",
+     "metres": 18,
+     "off": 21,
+     "span": [
+      0.735,
+      0.919
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13125,
+   "at": [
+    -2174.45,
+    -452.79999999999995
+   ],
+   "centre": [
+    -2176.3,
+    -460.8
+   ],
+   "width": 4.4,
+   "faces": 79,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2174.5,
+    -463.7,
+    -2172.3,
+    -453.2,
+    -2176.6,
+    -452.4,
+    -2178.9,
+    -465.9,
+    -2179.3,
+    -468.6
+   ],
+   "id": "drongensesteenweg-79-39",
+   "latLon": [
+    51.05665,
+    3.698906
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13124,
+   "at": [
+    -2168.9,
+    -453.85
+   ],
+   "centre": [
+    -2170.8,
+    -457.1
+   ],
+   "width": 6.9,
+   "faces": 79,
+   "toStreet": 6.9,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2165.5,
+    -454.5,
+    -2172.3,
+    -453.2,
+    -2174.5,
+    -463.7
+   ],
+   "id": "drongensesteenweg-79-40",
+   "latLon": [
+    51.056658,
+    3.698969
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13123,
+   "at": [
+    -2162.65,
+    -455.05
+   ],
+   "centre": [
+    -2176.3,
+    -470.5
+   ],
+   "width": 5.8,
+   "faces": 79,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 4.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2172.1,
+    -473.7,
+    -2163.7,
+    -467.6,
+    -2159.8,
+    -455.6,
+    -2165.5,
+    -454.5,
+    -2174.5,
+    -463.7,
+    -2179.3,
+    -468.6,
+    -2182.3,
+    -471.7,
+    -2185.1,
+    -474.5,
+    -2186.6,
+    -476.7,
+    -2183.9,
+    -479,
+    -2182.2,
+    -477.4,
+    -2181.6,
+    -478,
+    -2178.3,
+    -475,
+    -2174,
+    -470.6
+   ],
+   "id": "drongensesteenweg-79-41",
+   "latLon": [
+    51.056667,
+    3.699041
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13121,
+   "at": [
+    -2150.8,
+    -457.25
+   ],
+   "centre": [
+    -2159.9,
+    -471.3
+   ],
+   "width": 6.9,
+   "faces": 79,
+   "toStreet": 6.8,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2158.2,
+    -475.8,
+    -2151.2,
+    -469.8,
+    -2147.4,
+    -457.9,
+    -2154.2,
+    -456.6,
+    -2158.3,
+    -468.5,
+    -2169.7,
+    -477.8,
+    -2171.9,
+    -479.5,
+    -2168.1,
+    -484.2
+   ],
+   "id": "drongensesteenweg-79-42",
+   "latLon": [
+    51.056682,
+    3.699176
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 14333,
+   "at": [
+    -2143.95,
+    -458.54999999999995
+   ],
+   "centre": [
+    -2146,
+    -470.3
+   ],
+   "width": 7,
+   "faces": 79,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2158.2,
+    -475.8,
+    -2155.1,
+    -479.1,
+    -2152.8,
+    -479.3,
+    -2148.9,
+    -475.7,
+    -2148.3,
+    -473.9,
+    -2148.3,
+    -471.7,
+    -2145,
+    -472.8,
+    -2144.8,
+    -472.4,
+    -2144.2,
+    -471.5,
+    -2143.7,
+    -470.7,
+    -2140.4,
+    -472.6,
+    -2139.2,
+    -471.3,
+    -2135.9,
+    -460.6,
+    -2137.5,
+    -460.1,
+    -2140.5,
+    -459.2,
+    -2147.4,
+    -457.9,
+    -2151.2,
+    -469.8
+   ],
+   "id": "drongensesteenweg-79-43",
+   "latLon": [
+    51.056692,
+    3.699254
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10027,
+   "at": [
+    -2476.7,
+    -400.20000000000005
+   ],
+   "centre": [
+    -2479.4,
+    -410.4
+   ],
+   "width": 6.9,
+   "faces": 80,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2480.1,
+    -399.6,
+    -2473.3,
+    -400.8,
+    -2476.7,
+    -415.7,
+    -2477,
+    -417,
+    -2483.4,
+    -415.9,
+    -2483.2,
+    -414.8,
+    -2482,
+    -409
+   ],
+   "id": "drongensesteenweg-80-44",
+   "latLon": [
+    51.05627,
+    3.69545
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10026,
+   "at": [
+    -2463.6499999999996,
+    -402.5
+   ],
+   "centre": [
+    -2462.5,
+    -413.2
+   ],
+   "width": 7.2,
+   "faces": 80,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2457.4,
+    -419.9,
+    -2463.8,
+    -417.9,
+    -2464.5,
+    -419.7,
+    -2467,
+    -418.8,
+    -2465.6,
+    -414.8,
+    -2469.4,
+    -414.4,
+    -2467.2,
+    -401.9,
+    -2460.1,
+    -403.1,
+    -2453.7,
+    -404.2,
+    -2456,
+    -417.2
+   ],
+   "id": "drongensesteenweg-80-45",
+   "latLon": [
+    51.056286,
+    3.6956
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10024,
+   "at": [
+    -2443.7,
+    -405.9
+   ],
+   "centre": [
+    -2445.5,
+    -418.3
+   ],
+   "width": 6.9,
+   "faces": 80,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2450.1,
+    -419.8,
+    -2449.3,
+    -418.6,
+    -2447.1,
+    -405.3,
+    -2440.3,
+    -406.5,
+    -2443.2,
+    -422.2,
+    -2443.3,
+    -422.8,
+    -2444.8,
+    -422.5,
+    -2445.1,
+    -422.5,
+    -2446.2,
+    -422.3,
+    -2445.9,
+    -420.5
+   ],
+   "id": "drongensesteenweg-80-46",
+   "latLon": [
+    51.056311,
+    3.695828
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10023,
+   "at": [
+    -2437,
+    -407.1
+   ],
+   "centre": [
+    -2439.5,
+    -418
+   ],
+   "width": 6.7,
+   "faces": 80,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2440.3,
+    -406.5,
+    -2433.7,
+    -407.7,
+    -2435.4,
+    -416.3,
+    -2437.3,
+    -425.6,
+    -2443.5,
+    -424.6,
+    -2443.3,
+    -422.8,
+    -2443.2,
+    -422.2
+   ],
+   "id": "drongensesteenweg-80-47",
+   "latLon": [
+    51.05632,
+    3.695904
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13286,
+   "at": [
+    -2368.15,
+    -418.9
+   ],
+   "centre": [
+    -2370.7,
+    -432
+   ],
+   "width": 6.8,
+   "faces": 80,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2366.3,
+    -429.9,
+    -2364.8,
+    -419.5,
+    -2371.5,
+    -418.3,
+    -2377.1,
+    -447.1,
+    -2374,
+    -448,
+    -2370.2,
+    -429.1
+   ],
+   "id": "drongensesteenweg-80-48",
+   "latLon": [
+    51.056405,
+    3.696691
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13283,
+   "at": [
+    -2321.6,
+    -426.9
+   ],
+   "centre": [
+    -2322.6,
+    -432.8
+   ],
+   "width": 5.9,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2318.7,
+    -427.4,
+    -2324.5,
+    -426.4,
+    -2326.5,
+    -438.2,
+    -2320.7,
+    -439.2
+   ],
+   "id": "drongensesteenweg-80-49",
+   "latLon": [
+    51.056463,
+    3.697223
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13282,
+   "at": [
+    -2315.8999999999996,
+    -427.9
+   ],
+   "centre": [
+    -2318.8,
+    -443.9
+   ],
+   "width": 5.7,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2316.7,
+    -449.2,
+    -2316.4,
+    -447.4,
+    -2313.1,
+    -428.4,
+    -2318.7,
+    -427.4,
+    -2320.7,
+    -439.2,
+    -2322.1,
+    -448.1,
+    -2320.8,
+    -448.3,
+    -2321.3,
+    -450.9,
+    -2319.3,
+    -451.1,
+    -2318.9,
+    -448.8
+   ],
+   "id": "drongensesteenweg-80-50",
+   "latLon": [
+    51.05647,
+    3.697289
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13281,
+   "at": [
+    -2310.2,
+    -428.9
+   ],
+   "centre": [
+    -2311,
+    -439.9
+   ],
+   "width": 5.9,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": null,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2309.7,
+    -444,
+    -2310.4,
+    -448.6,
+    -2316.4,
+    -447.4,
+    -2313.1,
+    -428.4,
+    -2307.3,
+    -429.4,
+    -2309.3,
+    -441.5
+   ],
+   "id": "drongensesteenweg-80-51",
+   "latLon": [
+    51.056477,
+    3.697354
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13280,
+   "at": [
+    -2304.95,
+    -429.79999999999995
+   ],
+   "centre": [
+    -2306.3,
+    -442.4
+   ],
+   "width": 4.8,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2307.3,
+    -429.4,
+    -2302.6,
+    -430.2,
+    -2301.2,
+    -430.5,
+    -2304.8,
+    -451.2,
+    -2306.6,
+    -450.9,
+    -2306.9,
+    -450.8,
+    -2307.7,
+    -450.7,
+    -2306.7,
+    -444.3,
+    -2309.7,
+    -444,
+    -2309.3,
+    -441.5
+   ],
+   "id": "drongensesteenweg-80-52",
+   "latLon": [
+    51.056484,
+    3.697414
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13278,
+   "at": [
+    -2288,
+    -432.75
+   ],
+   "centre": [
+    -2290.3,
+    -444
+   ],
+   "width": 8.7,
+   "faces": 80,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2292.3,
+    -432,
+    -2283.7,
+    -433.5,
+    -2285.8,
+    -445.2,
+    -2289,
+    -444.7,
+    -2289.7,
+    -449.9,
+    -2290.9,
+    -449.8,
+    -2295.6,
+    -449.1,
+    -2295.4,
+    -447.9
+   ],
+   "id": "drongensesteenweg-80-53",
+   "latLon": [
+    51.056505,
+    3.697608
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13277,
+   "at": [
+    -2278.75,
+    -434.35
+   ],
+   "centre": [
+    -2281.9,
+    -453.4
+   ],
+   "width": 10,
+   "faces": 80,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 7.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2283.7,
+    -433.5,
+    -2273.8,
+    -435.2,
+    -2279.5,
+    -466.7,
+    -2280.2,
+    -470.4,
+    -2283.7,
+    -469.9,
+    -2281,
+    -453.5,
+    -2287.2,
+    -452.4,
+    -2285.8,
+    -445.2
+   ],
+   "id": "drongensesteenweg-80-54",
+   "latLon": [
+    51.056517,
+    3.697713
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13276,
+   "at": [
+    -2267.6000000000004,
+    -436.25
+   ],
+   "centre": [
+    -2270.6,
+    -458.1
+   ],
+   "width": 12.6,
+   "faces": 80,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2265.8,
+    -461.6,
+    -2264.7,
+    -455.5,
+    -2261.4,
+    -437.3,
+    -2273.8,
+    -435.2,
+    -2279.5,
+    -466.7,
+    -2275.1,
+    -467.5,
+    -2275,
+    -466.9,
+    -2270.5,
+    -467.6,
+    -2269.7,
+    -462.1,
+    -2270.3,
+    -460.8
+   ],
+   "id": "drongensesteenweg-80-55",
+   "latLon": [
+    51.05653,
+    3.697841
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13275,
+   "at": [
+    -2255.05,
+    -438.4
+   ],
+   "centre": [
+    -2255.8,
+    -449.9
+   ],
+   "width": 12.9,
+   "faces": 80,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    -2251.1,
+    -453.7,
+    -2248.7,
+    -439.5,
+    -2261.4,
+    -437.3,
+    -2264.7,
+    -455.5,
+    -2256.9,
+    -456.9,
+    -2256.3,
+    -453,
+    -2251.2,
+    -453.7
+   ],
+   "id": "drongensesteenweg-80-56",
+   "latLon": [
+    51.056546,
+    3.697984
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13290,
+   "at": [
+    -2238.6,
+    -441.20000000000005
+   ],
+   "centre": [
+    -2241.6,
+    -454.4
+   ],
+   "width": 7.1,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2239,
+    -458.7,
+    -2235.1,
+    -441.8,
+    -2242.1,
+    -440.6,
+    -2245,
+    -454.6,
+    -2245.3,
+    -456,
+    -2242.6,
+    -456.5,
+    -2242.9,
+    -458.2,
+    -2243,
+    -459,
+    -2241.7,
+    -459.2,
+    -2239.2,
+    -459.6
+   ],
+   "id": "drongensesteenweg-80-57",
+   "latLon": [
+    51.056566,
+    3.698172
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13274,
+   "at": [
+    -2232.2,
+    -442.3
+   ],
+   "centre": [
+    -2234.5,
+    -452.6
+   ],
+   "width": 5.9,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2232.4,
+    -456.6,
+    -2229.3,
+    -442.8,
+    -2235.1,
+    -441.8,
+    -2239,
+    -458.7,
+    -2235.8,
+    -459.4,
+    -2235.1,
+    -456.1
+   ],
+   "id": "drongensesteenweg-80-58",
+   "latLon": [
+    51.056574,
+    3.698245
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13289,
+   "at": [
+    -2224.15,
+    -443.70000000000005
+   ],
+   "centre": [
+    -2224.7,
+    -454.9
+   ],
+   "width": 10.5,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 2,
+   "eaves": 7.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2219.5,
+    -456.7,
+    -2211.2,
+    -447.9,
+    -2211.7,
+    -445.9,
+    -2219,
+    -444.6,
+    -2229.3,
+    -442.8,
+    -2232.4,
+    -456.6,
+    -2234.1,
+    -464.6,
+    -2234.4,
+    -465.9,
+    -2231.1,
+    -469
+   ],
+   "id": "drongensesteenweg-80-59",
+   "latLon": [
+    51.056584,
+    3.698338
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13128,
+   "at": [
+    -2187.3999999999996,
+    -450.5
+   ],
+   "centre": [
+    -2188.4,
+    -457.7
+   ],
+   "width": 4.5,
+   "faces": 80,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 8,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2187.4,
+    -466.8,
+    -2185.2,
+    -450.9,
+    -2189.6,
+    -450.1,
+    -2191.2,
+    -463.1
+   ],
+   "id": "drongensesteenweg-80-60",
+   "latLon": [
+    51.056634,
+    3.698758
+   ],
+   "photos": [
+    {
+     "id": "776979973004708",
+     "metres": 19,
+     "off": 10,
+     "span": [
+      0.576,
+      0.736
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13122,
+   "at": [
+    -2157,
+    -456.1
+   ],
+   "centre": [
+    -2163,
+    -466.6
+   ],
+   "width": 5.7,
+   "faces": 80,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2154.2,
+    -456.6,
+    -2159.8,
+    -455.6,
+    -2163.7,
+    -467.6,
+    -2172.1,
+    -473.7,
+    -2169.7,
+    -477.8,
+    -2158.3,
+    -468.5
+   ],
+   "id": "drongensesteenweg-80-61",
+   "latLon": [
+    51.056674,
+    3.699105
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 11321,
+   "at": [
+    -2483.55,
+    -399.05
+   ],
+   "centre": [
+    -2485.3,
+    -404.5
+   ],
+   "width": 7,
+   "faces": 81,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2487,
+    -398.5,
+    -2480.1,
+    -399.6,
+    -2482,
+    -409,
+    -2488.4,
+    -407.8,
+    -2488.8,
+    -407.8
+   ],
+   "id": "drongensesteenweg-81-62",
+   "latLon": [
+    51.056261,
+    3.695372
+   ],
+   "photos": [
+    {
+     "id": "1312967627450244",
+     "metres": 44,
+     "off": 16,
+     "span": [
+      0.601,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10025,
+   "at": [
+    -2450.3999999999996,
+    -404.75
+   ],
+   "centre": [
+    -2452.9,
+    -416.9
+   ],
+   "width": 6.7,
+   "faces": 81,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2453.7,
+    -404.2,
+    -2447.1,
+    -405.3,
+    -2449.3,
+    -418.6,
+    -2450.1,
+    -419.8,
+    -2451.5,
+    -422,
+    -2452.9,
+    -424.2,
+    -2458,
+    -421.2,
+    -2457.4,
+    -419.9,
+    -2456,
+    -417.2
+   ],
+   "id": "drongensesteenweg-81-63",
+   "latLon": [
+    51.056303,
+    3.695751
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10030,
+   "at": [
+    -2431.55,
+    -408.04999999999995
+   ],
+   "centre": [
+    -2432.4,
+    -412.4
+   ],
+   "width": 4.4,
+   "faces": 81,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2433.7,
+    -407.7,
+    -2429.4,
+    -408.4,
+    -2431.2,
+    -417.2,
+    -2435.4,
+    -416.3
+   ],
+   "id": "drongensesteenweg-81-64",
+   "latLon": [
+    51.056326,
+    3.695966
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 11365,
+   "at": [
+    -2407.85,
+    -412.1
+   ],
+   "centre": [
+    -2410.9,
+    -436.2
+   ],
+   "width": 7.6,
+   "faces": 81,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2405.6,
+    -450.4,
+    -2404.7,
+    -445.4,
+    -2401.7,
+    -428.2,
+    -2399.1,
+    -413.6,
+    -2404.1,
+    -412.6,
+    -2404.1,
+    -412.7,
+    -2411.6,
+    -411.5,
+    -2411.5,
+    -411.3,
+    -2416.4,
+    -410.5,
+    -2423.5,
+    -452,
+    -2427.5,
+    -463,
+    -2426,
+    -464.4,
+    -2408.5,
+    -467.1,
+    -2407.9,
+    -464
+   ],
+   "id": "drongensesteenweg-81-65",
+   "latLon": [
+    51.056356,
+    3.696237
+   ],
+   "photos": [
+    {
+     "id": "1624270254732668-357",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.385,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13288,
+   "at": [
+    -2395.7,
+    -414.15
+   ],
+   "centre": [
+    -2398.2,
+    -427.5
+   ],
+   "width": 6.9,
+   "faces": 81,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -2394.7,
+    -428.4,
+    -2392.3,
+    -414.7,
+    -2399.1,
+    -413.6,
+    -2401.7,
+    -428.2,
+    -2400.3,
+    -428.5,
+    -2402,
+    -439,
+    -2397,
+    -440
+   ],
+   "id": "drongensesteenweg-81-66",
+   "latLon": [
+    51.056371,
+    3.696376
+   ],
+   "photos": [
+    {
+     "id": "1311211940089201-353",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.417,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14313,
+   "at": [
+    -2375.55,
+    -417.65
+   ],
+   "centre": [
+    -2384.6,
+    -442.7
+   ],
+   "width": 8.2,
+   "faces": 81,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2375.3,
+    -469.7,
+    -2373.4,
+    -458.8,
+    -2372.9,
+    -455.8,
+    -2372,
+    -451,
+    -2377.8,
+    -451.6,
+    -2377.1,
+    -447.1,
+    -2371.5,
+    -418.3,
+    -2379.6,
+    -417,
+    -2382.3,
+    -416.5,
+    -2385.4,
+    -416,
+    -2386.8,
+    -424.3,
+    -2388.4,
+    -433.2,
+    -2391,
+    -448.2,
+    -2391.7,
+    -452.7,
+    -2398.8,
+    -451.5,
+    -2405.6,
+    -450.4,
+    -2407.9,
+    -464
+   ],
+   "id": "drongensesteenweg-81-67",
+   "latLon": [
+    51.056396,
+    3.696607
+   ],
+   "photos": [
+    {
+     "id": "983385213470005-30",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.442,
+      0.545
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13285,
+   "at": [
+    -2361.5,
+    -420.05
+   ],
+   "centre": [
+    -2364,
+    -436.1
+   ],
+   "width": 6.7,
+   "faces": 81,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2362.9,
+    -446.1,
+    -2361.1,
+    -436.5,
+    -2358.2,
+    -420.6,
+    -2364.8,
+    -419.5,
+    -2366.3,
+    -429.9,
+    -2367.2,
+    -435.4,
+    -2364.5,
+    -436,
+    -2367,
+    -450.6,
+    -2363.7,
+    -450.3
+   ],
+   "id": "drongensesteenweg-81-68",
+   "latLon": [
+    51.056413,
+    3.696767
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13284,
+   "at": [
+    -2347.95,
+    -422.45
+   ],
+   "centre": [
+    -2348.8,
+    -435.1
+   ],
+   "width": 12.9,
+   "faces": 81,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    -2343.7,
+    -435.3,
+    -2341.6,
+    -423.5,
+    -2354.3,
+    -421.4,
+    -2358.6,
+    -446.7,
+    -2346,
+    -448.8
+   ],
+   "id": "drongensesteenweg-81-69",
+   "latLon": [
+    51.056431,
+    3.696922
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13279,
+   "at": [
+    -2299.35,
+    -430.8
+   ],
+   "centre": [
+    -2300.8,
+    -444.8
+   ],
+   "width": 3.7,
+   "faces": 81,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    -2301.2,
+    -430.5,
+    -2297.5,
+    -431.1,
+    -2295.6,
+    -431.4,
+    -2298.4,
+    -447.4,
+    -2300,
+    -455.8,
+    -2302.8,
+    -455.6,
+    -2305.7,
+    -455.3,
+    -2304.8,
+    -451.2
+   ],
+   "id": "drongensesteenweg-81-70",
+   "latLon": [
+    51.056491,
+    3.697478
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13294,
+   "at": [
+    -2245.3999999999996,
+    -440.05
+   ],
+   "centre": [
+    -2246.7,
+    -447.1
+   ],
+   "width": 6.7,
+   "faces": 81,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2242.1,
+    -440.6,
+    -2248.7,
+    -439.5,
+    -2251.1,
+    -453.7,
+    -2245,
+    -454.6
+   ],
+   "id": "drongensesteenweg-81-71",
+   "latLon": [
+    51.056558,
+    3.698095
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13126,
+   "at": [
+    -2178.75,
+    -452.04999999999995
+   ],
+   "centre": [
+    -2179.9,
+    -458.7
+   ],
+   "width": 4.4,
+   "faces": 81,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2176.6,
+    -452.4,
+    -2180.9,
+    -451.7,
+    -2183.3,
+    -464.9,
+    -2178.9,
+    -465.9
+   ],
+   "id": "drongensesteenweg-81-72",
+   "latLon": [
+    51.056645,
+    3.698857
+   ],
+   "photos": [
+    {
+     "id": "1355943908930042-31",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.474,
+      0.529
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11072,
+   "at": [
+    -2576.05,
+    -386.65
+   ],
+   "centre": [
+    -2577.5,
+    -392.5
+   ],
+   "width": 5.3,
+   "faces": 82,
+   "toStreet": 10.3,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2573.4,
+    -387,
+    -2578.7,
+    -386.3,
+    -2581.4,
+    -397.9,
+    -2576.6,
+    -399
+   ],
+   "id": "drongensesteenweg-82-73",
+   "latLon": [
+    51.056172,
+    3.694315
+   ],
+   "photos": [
+    {
+     "id": "840351165807323-351",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.445,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10029,
+   "at": [
+    -2509.4,
+    -405.3
+   ],
+   "centre": [
+    -2501.2,
+    -409.4
+   ],
+   "width": 25.7,
+   "faces": 116,
+   "toStreet": 18.7,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2520.9,
+    -411,
+    -2497.9,
+    -399.6,
+    -2493.3,
+    -397.3,
+    -2495.1,
+    -406.6,
+    -2495.9,
+    -410.5,
+    -2496.8,
+    -414.3,
+    -2501.8,
+    -413.4,
+    -2508,
+    -422.1
+   ],
+   "id": "drongensesteenweg-116-01",
+   "latLon": [
+    51.056307,
+    3.695076
+   ],
+   "photos": [
+    {
+     "id": "984352809759037",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.194,
+      0.789
+     ]
+    },
+    {
+     "id": "1303643740173544",
+     "metres": 20,
+     "off": 1,
+     "span": [
+      0.23,
+      0.737
+     ]
+    },
+    {
+     "id": "302474461410449",
+     "metres": 19,
+     "off": 4,
+     "span": [
+      0.094,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13225,
+   "at": [
+    -2170.95,
+    -430.65
+   ],
+   "centre": [
+    -2168.1,
+    -429.7
+   ],
+   "width": 11.2,
+   "faces": 228,
+   "toStreet": 15.5,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2163.1,
+    -429.3,
+    -2170.8,
+    -422.2,
+    -2175.1,
+    -426.9,
+    -2166.8,
+    -434.4,
+    -2166.5,
+    -433,
+    -2166.2,
+    -432.6
+   ],
+   "id": "drongensesteenweg-228-01",
+   "latLon": [
+    51.05649,
+    3.698946
+   ],
+   "photos": [
+    {
+     "id": "1442133059495783",
+     "metres": 30,
+     "off": 8,
+     "span": [
+      0.513,
+      0.707
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11245,
+   "at": [
+    -2527.55,
+    -359.9
+   ],
+   "centre": [
+    -2527.3,
+    -354.2
+   ],
+   "width": 11.4,
+   "faces": 231,
+   "toStreet": 15.1,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2518.1,
+    -357.5,
+    -2532.1,
+    -346.1,
+    -2535.4,
+    -343.4,
+    -2535.8,
+    -349,
+    -2530.2,
+    -353.9,
+    -2532,
+    -356.3,
+    -2523.1,
+    -363.5,
+    -2519.9,
+    -359.6,
+    -2519.3,
+    -358.9
+   ],
+   "id": "drongensesteenweg-231-02",
+   "latLon": [
+    51.055978,
+    3.694869
+   ],
+   "photos": [
+    {
+     "id": "1196847165147357",
+     "metres": 43,
+     "off": 10,
+     "span": [
+      0.533,
+      0.635
+     ]
+    },
+    {
+     "id": "1756660394669050",
+     "metres": 45,
+     "off": 1,
+     "span": [
+      0.458,
+      0.554
+     ]
+    },
+    {
+     "id": "1539692186833099",
+     "metres": 44,
+     "off": 9,
+     "span": [
+      0.374,
+      0.476
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13004,
+   "at": [
+    -2002.9,
+    -533.25
+   ],
+   "centre": [
+    -1995.3,
+    -523.7
+   ],
+   "width": 5.5,
+   "faces": 233,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1992.8,
+    -523.9,
+    -1991.3,
+    -521.8,
+    -1992.9,
+    -520.6,
+    -1990.9,
+    -517.6,
+    -1993.7,
+    -515.8,
+    -2005.1,
+    -531.6,
+    -2000.7,
+    -534.9
+   ],
+   "id": "drongensesteenweg-233-03",
+   "latLon": [
+    51.057232,
+    3.700867
+   ],
+   "photos": [
+    {
+     "id": "970694938459475-161",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.34,
+      0.636
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12998,
+   "at": [
+    -1978.65,
+    -551.05
+   ],
+   "centre": [
+    -1971.2,
+    -540.1
+   ],
+   "width": 6.1,
+   "faces": 233,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1969.8,
+    -544.4,
+    -1963.3,
+    -533.9,
+    -1963.9,
+    -533.4,
+    -1965.5,
+    -532.2,
+    -1969,
+    -537.6,
+    -1969.6,
+    -537.2,
+    -1971.7,
+    -540.2,
+    -1973.9,
+    -538.8,
+    -1975.1,
+    -540.5,
+    -1975.7,
+    -541.3,
+    -1981.1,
+    -549.2,
+    -1976.2,
+    -552.9
+   ],
+   "id": "drongensesteenweg-233-04",
+   "latLon": [
+    51.057361,
+    3.701144
+   ],
+   "photos": [
+    {
+     "id": "571139455385293-166",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.276,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12989,
+   "at": [
+    -1957,
+    -566.85
+   ],
+   "centre": [
+    -1950.2,
+    -555.2
+   ],
+   "width": 6.2,
+   "faces": 233,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1943.1,
+    -550,
+    -1943.7,
+    -549.6,
+    -1945.8,
+    -548,
+    -1949.7,
+    -553.5,
+    -1952.1,
+    -552.1,
+    -1953.5,
+    -554.5,
+    -1959.5,
+    -565,
+    -1954.5,
+    -568.7
+   ],
+   "id": "drongensesteenweg-233-05",
+   "latLon": [
+    51.057475,
+    3.701392
+   ],
+   "photos": [
+    {
+     "id": "9160829837345485-177",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.338,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12940,
+   "at": [
+    -1914.1,
+    -597.95
+   ],
+   "centre": [
+    -1906.2,
+    -586.5
+   ],
+   "width": 6.5,
+   "faces": 233,
+   "toStreet": 8.7,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -1906,
+    -578.2,
+    -1900.3,
+    -581.7,
+    -1900.6,
+    -582.2,
+    -1902.7,
+    -585.6,
+    -1903.2,
+    -586.4,
+    -1911.5,
+    -599.9,
+    -1916.7,
+    -596,
+    -1908.3,
+    -582.1
+   ],
+   "id": "drongensesteenweg-233-06",
+   "latLon": [
+    51.0577,
+    3.701882
+   ],
+   "photos": [
+    {
+     "id": "645285284669016-130",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.333,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13248,
+   "at": [
+    -2106.45,
+    -457.9
+   ],
+   "centre": [
+    -2091.1,
+    -438.6
+   ],
+   "width": 7.5,
+   "faces": 234,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2096.5,
+    -450.9,
+    -2100.4,
+    -448.1,
+    -2093.9,
+    -439.5,
+    -2090,
+    -442.3,
+    -2082.8,
+    -432.5,
+    -2080.7,
+    -429.8,
+    -2073.6,
+    -420.1,
+    -2080.3,
+    -415.9,
+    -2090.5,
+    -429.3,
+    -2109.5,
+    -455.7,
+    -2103.4,
+    -460.1
+   ],
+   "id": "drongensesteenweg-234-07",
+   "latLon": [
+    51.056687,
+    3.699683
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13247,
+   "at": [
+    -2100.3500000000004,
+    -462.3
+   ],
+   "centre": [
+    -2092.4,
+    -452.5
+   ],
+   "width": 7.5,
+   "faces": 234,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2086.8,
+    -450.4,
+    -2084.1,
+    -446.6,
+    -2090,
+    -442.3,
+    -2096.5,
+    -450.9,
+    -2103.4,
+    -460.1,
+    -2097.3,
+    -464.5,
+    -2088.4,
+    -452.5
+   ],
+   "id": "drongensesteenweg-234-08",
+   "latLon": [
+    51.056719,
+    3.699753
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13246,
+   "at": [
+    -2095.25,
+    -466
+   ],
+   "centre": [
+    -2090.2,
+    -459.2
+   ],
+   "width": 5.1,
+   "faces": 234,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2093,
+    -467.1,
+    -2082.4,
+    -453.2,
+    -2086.8,
+    -450.4,
+    -2088.4,
+    -452.5,
+    -2097.3,
+    -464.5,
+    -2093.2,
+    -467.5
+   ],
+   "id": "drongensesteenweg-234-09",
+   "latLon": [
+    51.056746,
+    3.699811
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13054,
+   "at": [
+    -2089.6000000000004,
+    -469.65
+   ],
+   "centre": [
+    -2084.8,
+    -463.7
+   ],
+   "width": 5.7,
+   "faces": 234,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    -2082.3,
+    -464.7,
+    -2078.4,
+    -459.4,
+    -2081.9,
+    -456.6,
+    -2086.2,
+    -462.5,
+    -2087.3,
+    -461.8,
+    -2091.9,
+    -468,
+    -2087.3,
+    -471.3,
+    -2082.7,
+    -465.2
+   ],
+   "id": "drongensesteenweg-234-10",
+   "latLon": [
+    51.056772,
+    3.699876
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13052,
+   "at": [
+    -2080.05,
+    -477
+   ],
+   "centre": [
+    -2072.5,
+    -465.5
+   ],
+   "width": 7.8,
+   "faces": 234,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 5.5,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    -2064.1,
+    -461.5,
+    -2069.9,
+    -457.2,
+    -2070.8,
+    -457.9,
+    -2071.5,
+    -458.4,
+    -2072.1,
+    -459.2,
+    -2078.1,
+    -467.5,
+    -2083,
+    -474.3,
+    -2083.2,
+    -474.7,
+    -2076.9,
+    -479.3,
+    -2070.9,
+    -471,
+    -2065.1,
+    -462.9,
+    -2064.5,
+    -462.1
+   ],
+   "id": "drongensesteenweg-234-11",
+   "latLon": [
+    51.056825,
+    3.699985
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13050,
+   "at": [
+    -2068.8,
+    -485.25
+   ],
+   "centre": [
+    -2052.2,
+    -462.2
+   ],
+   "width": 11.9,
+   "faces": 234,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2056.8,
+    -478.7,
+    -2060,
+    -476.4,
+    -2056.2,
+    -471.2,
+    -2043.7,
+    -453.4,
+    -2045.1,
+    -452.3,
+    -2037.5,
+    -442.7,
+    -2039.2,
+    -441.5,
+    -2042.2,
+    -439.4,
+    -2055.7,
+    -457.6,
+    -2073.6,
+    -481.7,
+    -2064,
+    -488.8
+   ],
+   "id": "drongensesteenweg-234-12",
+   "latLon": [
+    51.056885,
+    3.700114
+   ],
+   "photos": [
+    {
+     "id": "2167421623704255-178",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13049,
+   "at": [
+    -2061,
+    -490.95000000000005
+   ],
+   "centre": [
+    -2041.2,
+    -472.1
+   ],
+   "width": 7.4,
+   "faces": 234,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2046.4,
+    -483,
+    -2044.8,
+    -480.8,
+    -2039,
+    -484.7,
+    -2037.9,
+    -483.1,
+    -2035.1,
+    -478.9,
+    -2014.2,
+    -447.9,
+    -2016.8,
+    -446.1,
+    -2025.2,
+    -440.2,
+    -2031.1,
+    -448.8,
+    -2034,
+    -446.8,
+    -2034.3,
+    -447.3,
+    -2056.8,
+    -478.7,
+    -2064,
+    -488.8,
+    -2058,
+    -493.1,
+    -2057.5,
+    -493.5,
+    -2055.2,
+    -495.2,
+    -2050.4,
+    -488.5
+   ],
+   "id": "drongensesteenweg-234-13",
+   "latLon": [
+    51.056926,
+    3.700203
+   ],
+   "photos": [
+    {
+     "id": "1109164087680677-139",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.314,
+      0.708
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13048,
+   "at": [
+    -2051.75,
+    -497.7
+   ],
+   "centre": [
+    -2045.7,
+    -490.8
+   ],
+   "width": 8.5,
+   "faces": 234,
+   "toStreet": 8.6,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2041.3,
+    -494.1,
+    -2044.4,
+    -492.4,
+    -2040.6,
+    -487,
+    -2039,
+    -484.7,
+    -2044.8,
+    -480.8,
+    -2046.4,
+    -483,
+    -2050.4,
+    -488.5,
+    -2055.2,
+    -495.2,
+    -2048.3,
+    -500.2,
+    -2046.5,
+    -501.6
+   ],
+   "id": "drongensesteenweg-234-14",
+   "latLon": [
+    51.056975,
+    3.700308
+   ],
+   "photos": [
+    {
+     "id": "506361918865864-144",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.266,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13047,
+   "at": [
+    -2037.1,
+    -508.3
+   ],
+   "centre": [
+    -2030.8,
+    -501.7
+   ],
+   "width": 12.6,
+   "faces": 234,
+   "toStreet": 9,
+   "floors": 2,
+   "eaves": 7,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2023.3,
+    -499.5,
+    -2033.7,
+    -492.4,
+    -2042.2,
+    -504.6,
+    -2032,
+    -512,
+    -2022.8,
+    -499.9
+   ],
+   "id": "drongensesteenweg-234-15",
+   "latLon": [
+    51.057052,
+    3.700476
+   ],
+   "photos": [
+    {
+     "id": "607241042223524-132",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.211,
+      0.893
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13045,
+   "at": [
+    -2028.15,
+    -514.2
+   ],
+   "centre": [
+    -2007,
+    -493.3
+   ],
+   "width": 7.8,
+   "faces": 234,
+   "toStreet": 9.4,
+   "floors": 1,
+   "eaves": 5.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2015.6,
+    -504.6,
+    -1999.4,
+    -481,
+    -1987.5,
+    -489.3,
+    -1973.4,
+    -468.1,
+    -1970,
+    -463.2,
+    -1972.4,
+    -461.6,
+    -1973.9,
+    -460.6,
+    -1988.9,
+    -450.5,
+    -2018.2,
+    -492.6,
+    -2022.8,
+    -499.9,
+    -2032,
+    -512,
+    -2031.5,
+    -512.3,
+    -2031.3,
+    -511.9,
+    -2025,
+    -516.5,
+    -2025.2,
+    -516.9,
+    -2022.9,
+    -518.7,
+    -2017,
+    -510.7,
+    -2018.8,
+    -509.3
+   ],
+   "id": "drongensesteenweg-234-16",
+   "latLon": [
+    51.057094,
+    3.700578
+   ],
+   "photos": [
+    {
+     "id": "504442132424616-165",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.291,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13012,
+   "at": [
+    -2018.2,
+    -522.1
+   ],
+   "centre": [
+    -2009.1,
+    -509.7
+   ],
+   "width": 11.6,
+   "faces": 234,
+   "toStreet": 8.6,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1998.8,
+    -505,
+    -2000.4,
+    -503.8,
+    -2000.8,
+    -504.9,
+    -2002.6,
+    -503.8,
+    -2006.6,
+    -509.4,
+    -2005.8,
+    -509.9,
+    -2006.4,
+    -510.8,
+    -2015.6,
+    -504.6,
+    -2018.8,
+    -509.3,
+    -2017,
+    -510.7,
+    -2022.9,
+    -518.7,
+    -2013.5,
+    -525.5
+   ],
+   "id": "drongensesteenweg-234-17",
+   "latLon": [
+    51.057152,
+    3.700692
+   ],
+   "photos": [
+    {
+     "id": "1395726615134657-181",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.18,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13010,
+   "at": [
+    -2011.6,
+    -526.9
+   ],
+   "centre": [
+    -2002.6,
+    -513.9
+   ],
+   "width": 4.7,
+   "faces": 234,
+   "toStreet": 8.5,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2000.2,
+    -515.1,
+    -2001.9,
+    -514,
+    -1995.9,
+    -505.4,
+    -1998,
+    -504,
+    -1998.8,
+    -505,
+    -2013.5,
+    -525.5,
+    -2009.7,
+    -528.3
+   ],
+   "id": "drongensesteenweg-234-18",
+   "latLon": [
+    51.057186,
+    3.700767
+   ],
+   "photos": [
+    {
+     "id": "1395726615134657-133",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.369,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13008,
+   "at": [
+    -2007.4,
+    -529.95
+   ],
+   "centre": [
+    -1999.3,
+    -518.6
+   ],
+   "width": 5.7,
+   "faces": 234,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -1993.7,
+    -515.8,
+    -1991,
+    -512.1,
+    -1995.8,
+    -509,
+    -2000.2,
+    -515.1,
+    -2009.7,
+    -528.3,
+    -2005.1,
+    -531.6
+   ],
+   "id": "drongensesteenweg-234-19",
+   "latLon": [
+    51.057208,
+    3.700815
+   ],
+   "photos": [
+    {
+     "id": "1395726615134657-105",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.411,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13002,
+   "at": [
+    -1995.25,
+    -538.8499999999999
+   ],
+   "centre": [
+    -1984.7,
+    -525.2
+   ],
+   "width": 13.5,
+   "faces": 234,
+   "toStreet": 8.1,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1976.8,
+    -525,
+    -1975.3,
+    -522.9,
+    -1979,
+    -520.3,
+    -1976.7,
+    -517.1,
+    -1981,
+    -513.9,
+    -1989.8,
+    -525.8,
+    -1992.8,
+    -523.9,
+    -2000.7,
+    -534.9,
+    -1989.8,
+    -542.8
+   ],
+   "id": "drongensesteenweg-234-20",
+   "latLon": [
+    51.057273,
+    3.700954
+   ],
+   "photos": [
+    {
+     "id": "970694938459475-105",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.325,
+      0.896
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12996,
+   "at": [
+    -1972.85,
+    -555.3499999999999
+   ],
+   "centre": [
+    -1959.2,
+    -534.5
+   ],
+   "width": 8.3,
+   "faces": 234,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1961.3,
+    -543.9,
+    -1958.6,
+    -539.2,
+    -1958.3,
+    -538.7,
+    -1955.1,
+    -533.3,
+    -1954.8,
+    -532.8,
+    -1951.5,
+    -527,
+    -1951.1,
+    -526.3,
+    -1947.5,
+    -520.2,
+    -1947.2,
+    -519.7,
+    -1946.7,
+    -518.8,
+    -1952.9,
+    -514.4,
+    -1956.4,
+    -521,
+    -1959.3,
+    -526.4,
+    -1963.3,
+    -533.9,
+    -1961.3,
+    -535,
+    -1965.6,
+    -541.9,
+    -1966.4,
+    -541.6,
+    -1968.6,
+    -545.2,
+    -1969.8,
+    -544.4,
+    -1976.2,
+    -552.9,
+    -1969.5,
+    -557.8,
+    -1961.7,
+    -544.6
+   ],
+   "id": "drongensesteenweg-234-21",
+   "latLon": [
+    51.057392,
+    3.70121
+   ],
+   "photos": [
+    {
+     "id": "571139455385293-112",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.329,
+      0.786
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12992,
+   "at": [
+    -1961.95,
+    -563.2
+   ],
+   "centre": [
+    -1957.3,
+    -554.8
+   ],
+   "width": 6.1,
+   "faces": 234,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1953.5,
+    -554.5,
+    -1955.2,
+    -553.6,
+    -1952.8,
+    -549.7,
+    -1956.4,
+    -547.3,
+    -1959,
+    -551.9,
+    -1964.4,
+    -561.4,
+    -1959.5,
+    -565
+   ],
+   "id": "drongensesteenweg-234-22",
+   "latLon": [
+    51.057449,
+    3.701335
+   ],
+   "photos": [
+    {
+     "id": "2397086627317797-121",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.358,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12909,
+   "at": [
+    -1934.9499999999998,
+    -582.8
+   ],
+   "centre": [
+    -1926.8,
+    -573.9
+   ],
+   "width": 10.2,
+   "faces": 234,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1924.1,
+    -575.6,
+    -1930.8,
+    -585.8,
+    -1939.1,
+    -579.8,
+    -1930.1,
+    -564.2,
+    -1921,
+    -569.6,
+    -1920.4,
+    -569.9,
+    -1922,
+    -572.3
+   ],
+   "id": "drongensesteenweg-234-23",
+   "latLon": [
+    51.057591,
+    3.701644
+   ],
+   "photos": [
+    {
+     "id": "1833505147484412-103",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.365,
+      0.771
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12899,
+   "at": [
+    -1923.95,
+    -590.8
+   ],
+   "centre": [
+    -1917.1,
+    -579
+   ],
+   "width": 6.1,
+   "faces": 234,
+   "toStreet": 8.6,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1921.5,
+    -592.6,
+    -1926.4,
+    -589,
+    -1916.5,
+    -572.3,
+    -1914.3,
+    -573.6,
+    -1913.5,
+    -572.3,
+    -1910.5,
+    -574.2
+   ],
+   "id": "drongensesteenweg-234-24",
+   "latLon": [
+    51.057649,
+    3.701769
+   ],
+   "photos": [
+    {
+     "id": "3118819131603689-111",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.389,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12901,
+   "at": [
+    -1928.6,
+    -587.4
+   ],
+   "centre": [
+    -1922.1,
+    -577.6
+   ],
+   "width": 5.4,
+   "faces": 234,
+   "toStreet": 8.2,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1920.3,
+    -574.4,
+    -1919.5,
+    -574.9,
+    -1917.5,
+    -571.6,
+    -1916.5,
+    -572.3,
+    -1926.4,
+    -589,
+    -1930.8,
+    -585.8,
+    -1924.1,
+    -575.6,
+    -1921.7,
+    -577
+   ],
+   "id": "drongensesteenweg-234-25",
+   "latLon": [
+    51.057624,
+    3.701716
+   ],
+   "photos": [
+    {
+     "id": "3118819131603689-147",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.333,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12938,
+   "at": [
+    -1908.85,
+    -601.8
+   ],
+   "centre": [
+    -1902,
+    -589.9
+   ],
+   "width": 6.5,
+   "faces": 234,
+   "toStreet": 8.5,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1900.6,
+    -582.2,
+    -1897,
+    -584.2,
+    -1898.1,
+    -586.7,
+    -1899.1,
+    -589.1,
+    -1899.9,
+    -591,
+    -1906.2,
+    -603.7,
+    -1911.5,
+    -599.9,
+    -1903.2,
+    -586.4,
+    -1902.7,
+    -585.6
+   ],
+   "id": "drongensesteenweg-234-26",
+   "latLon": [
+    51.057728,
+    3.701942
+   ],
+   "photos": [
+    {
+     "id": "9372801846140787-181",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.334,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12925,
+   "at": [
+    -1904.2,
+    -605.1500000000001
+   ],
+   "centre": [
+    -1900.2,
+    -597.5
+   ],
+   "width": 4.9,
+   "faces": 234,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1899.9,
+    -591,
+    -1898,
+    -592.2,
+    -1894.7,
+    -594.2,
+    -1902.2,
+    -606.6,
+    -1906.2,
+    -603.7
+   ],
+   "id": "drongensesteenweg-234-27",
+   "latLon": [
+    51.057752,
+    3.701995
+   ],
+   "photos": [
+    {
+     "id": "9372801846140787-146",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.341,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12896,
+   "at": [
+    -1897.9,
+    -609.75
+   ],
+   "centre": [
+    -1894.1,
+    -603.3
+   ],
+   "width": 10.7,
+   "faces": 234,
+   "toStreet": 8.3,
+   "floors": 2,
+   "eaves": 9,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -1885.8,
+    -599.6,
+    -1893.6,
+    -612.9,
+    -1902.2,
+    -606.6,
+    -1894.7,
+    -594.2
+   ],
+   "id": "drongensesteenweg-234-28",
+   "latLon": [
+    51.057786,
+    3.702067
+   ],
+   "photos": [
+    {
+     "id": "1355353512553223-152",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.395,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13053,
+   "at": [
+    -2085.15,
+    -472.8
+   ],
+   "centre": [
+    -2078.9,
+    -463.8
+   ],
+   "width": 5.2,
+   "faces": 235,
+   "toStreet": 8.5,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2078.1,
+    -467.5,
+    -2072.1,
+    -459.2,
+    -2071.5,
+    -458.4,
+    -2075.5,
+    -455.6,
+    -2078.4,
+    -459.4,
+    -2076.8,
+    -460.3,
+    -2080.2,
+    -466.1,
+    -2082.3,
+    -464.7,
+    -2082.7,
+    -465.2,
+    -2087.3,
+    -471.3,
+    -2083,
+    -474.3
+   ],
+   "id": "drongensesteenweg-235-29",
+   "latLon": [
+    51.056795,
+    3.699927
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13000,
+   "at": [
+    -1987.4,
+    -544.5
+   ],
+   "centre": [
+    -1978.6,
+    -534.6
+   ],
+   "width": 5.9,
+   "faces": 235,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1978.7,
+    -538.2,
+    -1978.4,
+    -537.7,
+    -1977,
+    -535.7,
+    -1977.5,
+    -535.5,
+    -1979.6,
+    -534.4,
+    -1977.6,
+    -531.7,
+    -1975.8,
+    -533,
+    -1973.3,
+    -527.6,
+    -1974,
+    -527.1,
+    -1976.8,
+    -525,
+    -1989.8,
+    -542.8,
+    -1985,
+    -546.2
+   ],
+   "id": "drongensesteenweg-235-30",
+   "latLon": [
+    51.057314,
+    3.701044
+   ],
+   "photos": [
+    {
+     "id": "991191446280526-133",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.335,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12994,
+   "at": [
+    -1966.95,
+    -559.5999999999999
+   ],
+   "centre": [
+    -1962.2,
+    -550.9
+   ],
+   "width": 6.2,
+   "faces": 235,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1959,
+    -551.9,
+    -1961,
+    -550.7,
+    -1958.2,
+    -545.7,
+    -1961.3,
+    -543.9,
+    -1961.7,
+    -544.6,
+    -1969.5,
+    -557.8,
+    -1964.4,
+    -561.4
+   ],
+   "id": "drongensesteenweg-235-31",
+   "latLon": [
+    51.057423,
+    3.701278
+   ],
+   "photos": [
+    {
+     "id": "2397086627317797-164",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.302,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12987,
+   "at": [
+    -1951.9,
+    -570.55
+   ],
+   "centre": [
+    -1945.2,
+    -560.4
+   ],
+   "width": 6.4,
+   "faces": 235,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 7.5,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1940.6,
+    -557.5,
+    -1938.3,
+    -553.6,
+    -1943.1,
+    -550,
+    -1954.5,
+    -568.7,
+    -1949.3,
+    -572.4
+   ],
+   "id": "drongensesteenweg-235-32",
+   "latLon": [
+    51.057502,
+    3.70145
+   ],
+   "photos": [
+    {
+     "id": "9160829837345485-136",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.319,
+      0.712
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12943,
+   "at": [
+    -1919.1,
+    -594.3
+   ],
+   "centre": [
+    -1909.5,
+    -580.3
+   ],
+   "width": 5.9,
+   "faces": 235,
+   "toStreet": 8.8,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1921.5,
+    -592.6,
+    -1910.5,
+    -574.2,
+    -1906.8,
+    -576.3,
+    -1903.8,
+    -571.3,
+    -1902.4,
+    -572.1,
+    -1906,
+    -578.2,
+    -1908.3,
+    -582.1,
+    -1916.7,
+    -596
+   ],
+   "id": "drongensesteenweg-235-33",
+   "latLon": [
+    51.057674,
+    3.701825
+   ],
+   "photos": [
+    {
+     "id": "645285284669016-169",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.341,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13249,
+   "at": [
+    -2112.1,
+    -454.1
+   ],
+   "centre": [
+    -2097.8,
+    -435.1
+   ],
+   "width": 6.1,
+   "faces": 238,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 19.9,
+   "kind": "house",
+   "ring": [
+    -2090.5,
+    -429.3,
+    -2091.7,
+    -428.4,
+    -2088.1,
+    -423.7,
+    -2092,
+    -421,
+    -2114.7,
+    -452.5,
+    -2109.5,
+    -455.7
+   ],
+   "id": "drongensesteenweg-238-34",
+   "latLon": [
+    51.05666,
+    3.699618
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13252,
+   "at": [
+    -2122.2,
+    -449.65
+   ],
+   "centre": [
+    -2116.4,
+    -435
+   ],
+   "width": 6.2,
+   "faces": 248,
+   "toStreet": 8.7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -2112.8,
+    -425.1,
+    -2115.5,
+    -424,
+    -2125.1,
+    -448.5,
+    -2119.3,
+    -450.8,
+    -2109.5,
+    -426.4
+   ],
+   "id": "drongensesteenweg-248-01",
+   "latLon": [
+    51.056627,
+    3.699503
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13250,
+   "at": [
+    -2117,
+    -451.65
+   ],
+   "centre": [
+    -2102.7,
+    -428.4
+   ],
+   "width": 4.9,
+   "faces": 250,
+   "toStreet": 8.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2092,
+    -421,
+    -2091.2,
+    -420,
+    -2095.2,
+    -417.5,
+    -2098.4,
+    -422.2,
+    -2097.6,
+    -422.8,
+    -2101.4,
+    -428.2,
+    -2108.1,
+    -422.8,
+    -2109.5,
+    -426.4,
+    -2119.3,
+    -450.8,
+    -2114.7,
+    -452.5
+   ],
+   "id": "drongensesteenweg-250-02",
+   "latLon": [
+    51.056642,
+    3.699562
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13253,
+   "at": [
+    -2133.15,
+    -445.95
+   ],
+   "centre": [
+    -2122.4,
+    -422.5
+   ],
+   "width": 8.1,
+   "faces": 252,
+   "toStreet": 8.5,
+   "floors": 1,
+   "eaves": 5.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2115.5,
+    -424,
+    -2109.3,
+    -408.3,
+    -2115.2,
+    -402.7,
+    -2116.1,
+    -403.5,
+    -2119.6,
+    -406.4,
+    -2123.1,
+    -409.4,
+    -2124.5,
+    -412.9,
+    -2120.2,
+    -414.5,
+    -2123.6,
+    -423.3,
+    -2127.9,
+    -421.5,
+    -2137,
+    -444.7,
+    -2129.3,
+    -447.2,
+    -2127.5,
+    -447.8,
+    -2125.1,
+    -448.5
+   ],
+   "id": "drongensesteenweg-252-03",
+   "latLon": [
+    51.056601,
+    3.699378
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 276,
+   "at": [
+    -2570.6000000000004,
+    -352.35
+   ],
+   "centre": [
+    -2569.1,
+    -339.8
+   ],
+   "width": 13.7,
+   "faces": 258,
+   "toStreet": 13,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2562.8,
+    -349,
+    -2559,
+    -330.1,
+    -2561.9,
+    -329.4,
+    -2562.6,
+    -329.2,
+    -2564,
+    -335.7,
+    -2576.4,
+    -332.8,
+    -2576.9,
+    -335.4,
+    -2579,
+    -345.3,
+    -2576.2,
+    -346,
+    -2577.3,
+    -350.9,
+    -2563.9,
+    -353.8
+   ],
+   "id": "drongensesteenweg-258-04",
+   "latLon": [
+    51.055923,
+    3.694377
+   ],
+   "photos": [
+    {
+     "id": "355869317145298",
+     "metres": 36,
+     "off": 2,
+     "span": [
+      0.413,
+      0.536
+     ]
+    },
+    {
+     "id": "467404064941243",
+     "metres": 37,
+     "off": 1,
+     "span": [
+      0.431,
+      0.545
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 274,
+   "at": [
+    -2554.8,
+    -360.95000000000005
+   ],
+   "centre": [
+    -2552.5,
+    -348.2
+   ],
+   "width": 6.1,
+   "faces": 258,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    -2549.7,
+    -351.8,
+    -2547.2,
+    -339.6,
+    -2550.9,
+    -338.8,
+    -2551.8,
+    -342.5,
+    -2552.7,
+    -342.4,
+    -2553.6,
+    -347.3,
+    -2552.9,
+    -347.5,
+    -2553.3,
+    -349.4,
+    -2555.3,
+    -349,
+    -2557.8,
+    -360.3,
+    -2551.8,
+    -361.6
+   ],
+   "id": "drongensesteenweg-258-05",
+   "latLon": [
+    51.055986,
+    3.694557
+   ],
+   "photos": [
+    {
+     "id": "3355920578033209",
+     "metres": 31,
+     "off": 1,
+     "span": [
+      0.45,
+      0.523
+     ]
+    },
+    {
+     "id": "1224471838123301",
+     "metres": 33,
+     "off": 2,
+     "span": [
+      0.483,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11247,
+   "at": [
+    -2546.6000000000004,
+    -362.75
+   ],
+   "centre": [
+    -2544.6,
+    -354.8
+   ],
+   "width": 10.7,
+   "faces": 258,
+   "toStreet": 8.3,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2538.6,
+    -350.9,
+    -2542.4,
+    -347.9,
+    -2543.5,
+    -353,
+    -2549.7,
+    -351.8,
+    -2551.8,
+    -361.6,
+    -2541.4,
+    -363.9
+   ],
+   "id": "drongensesteenweg-258-06",
+   "latLon": [
+    51.055999,
+    3.694651
+   ],
+   "photos": [
+    {
+     "id": "1393234038259840",
+     "metres": 34,
+     "off": 4,
+     "span": [
+      0.47,
+      0.591
+     ]
+    },
+    {
+     "id": "811273146891236",
+     "metres": 34,
+     "off": 2,
+     "span": [
+      0.454,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11246,
+   "at": [
+    -2535.65,
+    -365.15
+   ],
+   "centre": [
+    -2533,
+    -360.2
+   ],
+   "width": 11.8,
+   "faces": 258,
+   "toStreet": 8.3,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2529.9,
+    -366.4,
+    -2523.1,
+    -363.5,
+    -2532,
+    -356.3,
+    -2538.6,
+    -350.9,
+    -2541.4,
+    -363.9
+   ],
+   "id": "drongensesteenweg-258-07",
+   "latLon": [
+    51.056016,
+    3.694776
+   ],
+   "photos": [
+    {
+     "id": "110782548317768",
+     "metres": 36,
+     "off": 2,
+     "span": [
+      0.419,
+      0.546
+     ]
+    },
+    {
+     "id": "368749619177496",
+     "metres": 39,
+     "off": 4,
+     "span": [
+      0.478,
+      0.594
+     ]
+    },
+    {
+     "id": "1553646685593011",
+     "metres": 43,
+     "off": 12,
+     "span": [
+      0.553,
+      0.661
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13231,
+   "at": [
+    -2176.1000000000004,
+    -437.45000000000005
+   ],
+   "centre": [
+    -2174.2,
+    -433.8
+   ],
+   "width": 8.8,
+   "faces": 259,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2166.8,
+    -434.4,
+    -2175.1,
+    -426.9,
+    -2176,
+    -427.9,
+    -2181.4,
+    -433.7,
+    -2180.4,
+    -436.6,
+    -2171.8,
+    -438.3,
+    -2167.6,
+    -439.1
+   ],
+   "id": "drongensesteenweg-259-08",
+   "latLon": [
+    51.056539,
+    3.698887
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13257,
+   "at": [
+    -2153.3,
+    -441.70000000000005
+   ],
+   "centre": [
+    -2151.4,
+    -431.4
+   ],
+   "width": 4.3,
+   "faces": 259,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2148.1,
+    -425.3,
+    -2150.3,
+    -424.9,
+    -2150.9,
+    -427.6,
+    -2152.8,
+    -427.2,
+    -2155.4,
+    -441.3,
+    -2151.2,
+    -442.1
+   ],
+   "id": "drongensesteenweg-259-09",
+   "latLon": [
+    51.05657,
+    3.699147
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13255,
+   "at": [
+    -2145.2,
+    -443.20000000000005
+   ],
+   "centre": [
+    -2142.3,
+    -425
+   ],
+   "width": 4.3,
+   "faces": 259,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2143.1,
+    -443.6,
+    -2138.1,
+    -419.2,
+    -2140.7,
+    -416.9,
+    -2142.1,
+    -415.7,
+    -2142.4,
+    -418.5,
+    -2141,
+    -418.7,
+    -2142,
+    -424.9,
+    -2143.6,
+    -424.6,
+    -2147.3,
+    -442.8
+   ],
+   "id": "drongensesteenweg-259-10",
+   "latLon": [
+    51.056581,
+    3.69924
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10033,
+   "at": [
+    -2451.6,
+    -389.35
+   ],
+   "centre": [
+    -2459.4,
+    -376.3
+   ],
+   "width": 41.8,
+   "faces": 260,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -2418.4,
+    -377.7,
+    -2418.3,
+    -377.6,
+    -2463,
+    -341.3,
+    -2486,
+    -369.4,
+    -2490.6,
+    -375,
+    -2478.5,
+    -384.9,
+    -2476.4,
+    -382.3,
+    -2472.2,
+    -385.8,
+    -2431,
+    -392.9
+   ],
+   "id": "drongensesteenweg-260-11",
+   "latLon": [
+    51.056191,
+    3.695737
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13177,
+   "at": [
+    -2381.4,
+    -401.55
+   ],
+   "centre": [
+    -2379.4,
+    -389.3
+   ],
+   "width": 5.1,
+   "faces": 260,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2378.9,
+    -402,
+    -2376.4,
+    -386.8,
+    -2376.1,
+    -385.1,
+    -2377.5,
+    -383.7,
+    -2379.2,
+    -382.1,
+    -2381,
+    -384.5,
+    -2381.5,
+    -387.2,
+    -2378,
+    -387.8,
+    -2378.6,
+    -391.1,
+    -2382.1,
+    -390.9,
+    -2383.9,
+    -401.1
+   ],
+   "id": "drongensesteenweg-260-12",
+   "latLon": [
+    51.056279,
+    3.69654
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13176,
+   "at": [
+    -2376.1000000000004,
+    -402.5
+   ],
+   "centre": [
+    -2373.5,
+    -389.6
+   ],
+   "width": 5.7,
+   "faces": 260,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2370.5,
+    -386.4,
+    -2369.5,
+    -380.4,
+    -2372.5,
+    -381.5,
+    -2373.6,
+    -387.4,
+    -2376.4,
+    -386.8,
+    -2378.9,
+    -402,
+    -2373.3,
+    -403
+   ],
+   "id": "drongensesteenweg-260-13",
+   "latLon": [
+    51.056286,
+    3.6966
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13173,
+   "at": [
+    -2365,
+    -404.4
+   ],
+   "centre": [
+    -2363.6,
+    -396
+   ],
+   "width": 5.7,
+   "faces": 260,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2364.9,
+    -387.1,
+    -2367.8,
+    -403.9,
+    -2362.2,
+    -404.9,
+    -2359.3,
+    -388.1
+   ],
+   "id": "drongensesteenweg-260-14",
+   "latLon": [
+    51.0563,
+    3.696727
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13171,
+   "at": [
+    -2354,
+    -406.3
+   ],
+   "centre": [
+    -2351,
+    -392
+   ],
+   "width": 5.7,
+   "faces": 260,
+   "toStreet": 7.7,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    -2347,
+    -382.6,
+    -2352.7,
+    -381.6,
+    -2356.8,
+    -405.8,
+    -2351.2,
+    -406.8,
+    -2347.2,
+    -383.4
+   ],
+   "id": "drongensesteenweg-260-15",
+   "latLon": [
+    51.056314,
+    3.696853
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13170,
+   "at": [
+    -2348.45,
+    -407.3
+   ],
+   "centre": [
+    -2346.4,
+    -395.6
+   ],
+   "width": 5.6,
+   "faces": 260,
+   "toStreet": 7.7,
+   "floors": 2,
+   "eaves": 7,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -2341.7,
+    -384.5,
+    -2347.2,
+    -383.4,
+    -2351.2,
+    -406.8,
+    -2345.7,
+    -407.8
+   ],
+   "id": "drongensesteenweg-260-16",
+   "latLon": [
+    51.056321,
+    3.696917
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13168,
+   "at": [
+    -2333.95,
+    -409.75
+   ],
+   "centre": [
+    -2332.3,
+    -399.9
+   ],
+   "width": 6.4,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2327.5,
+    -390.8,
+    -2333.7,
+    -389.5,
+    -2337.1,
+    -409.2,
+    -2330.8,
+    -410.3
+   ],
+   "id": "drongensesteenweg-260-17",
+   "latLon": [
+    51.056339,
+    3.697082
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13211,
+   "at": [
+    -2320.95,
+    -411.95
+   ],
+   "centre": [
+    -2318.5,
+    -394.3
+   ],
+   "width": 5.2,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -2313.5,
+    -383.4,
+    -2318.6,
+    -382,
+    -2318.6,
+    -382.4,
+    -2323.5,
+    -411.5,
+    -2318.4,
+    -412.4
+   ],
+   "id": "drongensesteenweg-260-18",
+   "latLon": [
+    51.056355,
+    3.697231
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13164,
+   "at": [
+    -2309.55,
+    -413.85
+   ],
+   "centre": [
+    -2306.9,
+    -399
+   ],
+   "width": 5.4,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2304.1,
+    -397.7,
+    -2306.4,
+    -397.3,
+    -2304.5,
+    -385.8,
+    -2307.5,
+    -385.3,
+    -2312.2,
+    -413.4,
+    -2306.9,
+    -414.3
+   ],
+   "id": "drongensesteenweg-260-19",
+   "latLon": [
+    51.056368,
+    3.697361
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13161,
+   "at": [
+    -2299.8500000000004,
+    -415.55
+   ],
+   "centre": [
+    -2297.4,
+    -401.2
+   ],
+   "width": 5,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2294,
+    -396,
+    -2293.2,
+    -391.4,
+    -2298.2,
+    -390.5,
+    -2299.5,
+    -398.4,
+    -2302.3,
+    -415.1,
+    -2297.4,
+    -416
+   ],
+   "id": "drongensesteenweg-260-20",
+   "latLon": [
+    51.056381,
+    3.697472
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13163,
+   "at": [
+    -2304.6000000000004,
+    -414.70000000000005
+   ],
+   "centre": [
+    -2302.4,
+    -399.2
+   ],
+   "width": 4.7,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2299.5,
+    -398.4,
+    -2301.4,
+    -398,
+    -2300.3,
+    -390.1,
+    -2301.6,
+    -389.9,
+    -2302.8,
+    -389.8,
+    -2304.1,
+    -397.7,
+    -2306.9,
+    -414.3,
+    -2302.3,
+    -415.1
+   ],
+   "id": "drongensesteenweg-260-21",
+   "latLon": [
+    51.056375,
+    3.697418
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13160,
+   "at": [
+    -2294.25,
+    -416.55
+   ],
+   "centre": [
+    -2290.3,
+    -396.9
+   ],
+   "width": 6.4,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2285.7,
+    -385.4,
+    -2287.8,
+    -385,
+    -2289,
+    -391.9,
+    -2289.9,
+    -391.7,
+    -2290.8,
+    -396.6,
+    -2294,
+    -396,
+    -2297.4,
+    -416,
+    -2291.1,
+    -417.1,
+    -2287,
+    -392.7
+   ],
+   "id": "drongensesteenweg-260-22",
+   "latLon": [
+    51.056388,
+    3.697536
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13158,
+   "at": [
+    -2282.95,
+    -418.5
+   ],
+   "centre": [
+    -2280.7,
+    -405
+   ],
+   "width": 5.6,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2276.9,
+    -399.2,
+    -2276.1,
+    -394.5,
+    -2281.6,
+    -393.8,
+    -2283.6,
+    -405.7,
+    -2285.7,
+    -418,
+    -2280.2,
+    -419
+   ],
+   "id": "drongensesteenweg-260-23",
+   "latLon": [
+    51.056402,
+    3.697665
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13155,
+   "at": [
+    -2264.1,
+    -421.75
+   ],
+   "centre": [
+    -2261.4,
+    -403.8
+   ],
+   "width": 5.1,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2256.8,
+    -393.7,
+    -2261.8,
+    -393.1,
+    -2262.4,
+    -396.6,
+    -2263.4,
+    -402.6,
+    -2266.6,
+    -421.3,
+    -2261.6,
+    -422.2,
+    -2257.4,
+    -397.4
+   ],
+   "id": "drongensesteenweg-260-24",
+   "latLon": [
+    51.056426,
+    3.697881
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13156,
+   "at": [
+    -2269.1,
+    -420.85
+   ],
+   "centre": [
+    -2266.5,
+    -404.8
+   ],
+   "width": 5.1,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2263.4,
+    -402.6,
+    -2262.4,
+    -396.6,
+    -2265.8,
+    -396.1,
+    -2267.4,
+    -395.9,
+    -2268.2,
+    -400.6,
+    -2271.6,
+    -420.4,
+    -2266.6,
+    -421.3
+   ],
+   "id": "drongensesteenweg-260-25",
+   "latLon": [
+    51.056419,
+    3.697824
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13153,
+   "at": [
+    -2254.3500000000004,
+    -423.45
+   ],
+   "centre": [
+    -2251.9,
+    -410.7
+   ],
+   "width": 5,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2249.3,
+    -407.7,
+    -2248.9,
+    -405.1,
+    -2251.2,
+    -404.6,
+    -2251.4,
+    -405.6,
+    -2253.8,
+    -405.2,
+    -2256.8,
+    -423,
+    -2251.9,
+    -423.9
+   ],
+   "id": "drongensesteenweg-260-26",
+   "latLon": [
+    51.056438,
+    3.697992
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13152,
+   "at": [
+    -2248.8,
+    -424.45
+   ],
+   "centre": [
+    -2246.7,
+    -415.1
+   ],
+   "width": 6.3,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": null,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2243.3,
+    -410.3,
+    -2243.1,
+    -408.8,
+    -2249.3,
+    -407.7,
+    -2251.9,
+    -423.9,
+    -2245.7,
+    -425
+   ],
+   "id": "drongensesteenweg-260-27",
+   "latLon": [
+    51.056445,
+    3.698056
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13148,
+   "at": [
+    -2228.55,
+    -427.95
+   ],
+   "centre": [
+    -2227.2,
+    -416.9
+   ],
+   "width": 5,
+   "faces": 260,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2223,
+    -411,
+    -2227.8,
+    -410.1,
+    -2228.1,
+    -411.7,
+    -2225.8,
+    -412.2,
+    -2226.8,
+    -417.5,
+    -2229.1,
+    -417.1,
+    -2231,
+    -427.5,
+    -2226.1,
+    -428.4
+   ],
+   "id": "drongensesteenweg-260-28",
+   "latLon": [
+    51.05647,
+    3.698287
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-198",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.461,
+      0.535
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13149,
+   "at": [
+    -2233.55,
+    -427.05
+   ],
+   "centre": [
+    -2231,
+    -416.9
+   ],
+   "width": 5.2,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2229.1,
+    -417.1,
+    -2228.1,
+    -411.7,
+    -2227.8,
+    -410.1,
+    -2230.3,
+    -410,
+    -2231.4,
+    -416.4,
+    -2234.3,
+    -416.2,
+    -2236.1,
+    -426.6,
+    -2231,
+    -427.5
+   ],
+   "id": "drongensesteenweg-260-29",
+   "latLon": [
+    51.056464,
+    3.69823
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13146,
+   "at": [
+    -2218.6499999999996,
+    -429.65
+   ],
+   "centre": [
+    -2216.4,
+    -418.6
+   ],
+   "width": 5,
+   "faces": 260,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2213.8,
+    -416.8,
+    -2213.1,
+    -412.8,
+    -2215.5,
+    -412.4,
+    -2215.8,
+    -414.1,
+    -2215.8,
+    -414.3,
+    -2216.6,
+    -419,
+    -2219.4,
+    -418.8,
+    -2221.1,
+    -429.2,
+    -2216.2,
+    -430.1
+   ],
+   "id": "drongensesteenweg-260-30",
+   "latLon": [
+    51.056483,
+    3.6984
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-179",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.449,
+      0.541
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13199,
+   "at": [
+    -2208.8,
+    -431.35
+   ],
+   "centre": [
+    -2206.1,
+    -420.9
+   ],
+   "width": 5.3,
+   "faces": 260,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2204.8,
+    -424.5,
+    -2203.6,
+    -418.1,
+    -2203.4,
+    -417.3,
+    -2204.8,
+    -416.3,
+    -2205.6,
+    -420.7,
+    -2206.9,
+    -420.4,
+    -2206,
+    -415.5,
+    -2208.4,
+    -413.7,
+    -2211.4,
+    -430.9,
+    -2206.2,
+    -431.8
+   ],
+   "id": "drongensesteenweg-260-31",
+   "latLon": [
+    51.056495,
+    3.698513
+   ],
+   "photos": [
+    {
+     "id": "525332340410451-176",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.405,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13260,
+   "at": [
+    -2164.6,
+    -439.65
+   ],
+   "centre": [
+    -2163.4,
+    -433
+   ],
+   "width": 6.1,
+   "faces": 260,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2159.7,
+    -429.6,
+    -2159.4,
+    -428.2,
+    -2163.1,
+    -429.3,
+    -2166.2,
+    -432.6,
+    -2166.5,
+    -433,
+    -2166.8,
+    -434.4,
+    -2167.6,
+    -439.1,
+    -2161.6,
+    -440.2,
+    -2159.8,
+    -430.7
+   ],
+   "id": "drongensesteenweg-260-32",
+   "latLon": [
+    51.056555,
+    3.699018
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13258,
+   "at": [
+    -2158.5,
+    -440.75
+   ],
+   "centre": [
+    -2157.4,
+    -429.8
+   ],
+   "width": 6.3,
+   "faces": 260,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -2152.8,
+    -427.2,
+    -2152.5,
+    -425.4,
+    -2158.7,
+    -424.2,
+    -2158.8,
+    -425,
+    -2159.3,
+    -427.4,
+    -2159.4,
+    -428.2,
+    -2155.5,
+    -428.9,
+    -2155.7,
+    -429.9,
+    -2159.7,
+    -429.6,
+    -2159.8,
+    -430.7,
+    -2161.6,
+    -440.2,
+    -2155.4,
+    -441.3
+   ],
+   "id": "drongensesteenweg-260-33",
+   "latLon": [
+    51.056563,
+    3.699088
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13256,
+   "at": [
+    -2149.25,
+    -442.45000000000005
+   ],
+   "centre": [
+    -2147.6,
+    -431.7
+   ],
+   "width": 4,
+   "faces": 260,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2143.6,
+    -424.6,
+    -2147.9,
+    -423.8,
+    -2148.1,
+    -425.3,
+    -2151.2,
+    -442.1,
+    -2147.3,
+    -442.8
+   ],
+   "id": "drongensesteenweg-260-34",
+   "latLon": [
+    51.056575,
+    3.699194
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13254,
+   "at": [
+    -2140.05,
+    -444.15
+   ],
+   "centre": [
+    -2132,
+    -419.9
+   ],
+   "width": 6.2,
+   "faces": 260,
+   "toStreet": 8.1,
+   "floors": 2,
+   "eaves": 5.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2127.9,
+    -421.5,
+    -2124.5,
+    -412.9,
+    -2123.1,
+    -409.4,
+    -2126.5,
+    -406.4,
+    -2131.5,
+    -411.9,
+    -2133.5,
+    -414.1,
+    -2134.8,
+    -415.5,
+    -2138.1,
+    -419.2,
+    -2143.1,
+    -443.6,
+    -2137,
+    -444.7
+   ],
+   "id": "drongensesteenweg-260-35",
+   "latLon": [
+    51.056588,
+    3.699299
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13201,
+   "at": [
+    -2400.45,
+    -398.29999999999995
+   ],
+   "centre": [
+    -2398.2,
+    -394.9
+   ],
+   "width": 7.6,
+   "faces": 261,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2387,
+    -389.8,
+    -2396.2,
+    -388.6,
+    -2396.8,
+    -391.6,
+    -2401.6,
+    -390.9,
+    -2405.2,
+    -394.7,
+    -2405.3,
+    -394.7,
+    -2404.3,
+    -397.7,
+    -2404.2,
+    -397.7,
+    -2396.7,
+    -398.9,
+    -2393.7,
+    -399.4,
+    -2388.8,
+    -400.3
+   ],
+   "id": "drongensesteenweg-261-36",
+   "latLon": [
+    51.056256,
+    3.696322
+   ],
+   "photos": [
+    {
+     "id": "1354649449200764-174",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.303,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13178,
+   "at": [
+    -2386.3500000000004,
+    -400.70000000000005
+   ],
+   "centre": [
+    -2384.4,
+    -388.7
+   ],
+   "width": 5,
+   "faces": 261,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -2384.5,
+    -381.3,
+    -2385.4,
+    -380.5,
+    -2385.8,
+    -382.9,
+    -2387,
+    -389.8,
+    -2388.8,
+    -400.3,
+    -2383.9,
+    -401.1,
+    -2382.1,
+    -390.9,
+    -2381.5,
+    -387.2,
+    -2381,
+    -384.5
+   ],
+   "id": "drongensesteenweg-261-37",
+   "latLon": [
+    51.056273,
+    3.696483
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13174,
+   "at": [
+    -2370.55,
+    -403.45
+   ],
+   "centre": [
+    -2367.7,
+    -389.1
+   ],
+   "width": 5.6,
+   "faces": 261,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2364.9,
+    -387.1,
+    -2364.2,
+    -383.2,
+    -2366.1,
+    -382.8,
+    -2366.4,
+    -384.3,
+    -2367.8,
+    -384.1,
+    -2368.2,
+    -386.8,
+    -2370.5,
+    -386.4,
+    -2373.3,
+    -403,
+    -2367.8,
+    -403.9
+   ],
+   "id": "drongensesteenweg-261-38",
+   "latLon": [
+    51.056293,
+    3.696664
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13172,
+   "at": [
+    -2359.5,
+    -405.35
+   ],
+   "centre": [
+    -2355.7,
+    -384.6
+   ],
+   "width": 5.5,
+   "faces": 261,
+   "toStreet": 7.7,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2351.3,
+    -372.9,
+    -2353.8,
+    -372.5,
+    -2353.9,
+    -373.4,
+    -2354.4,
+    -373.4,
+    -2357,
+    -388.6,
+    -2359.3,
+    -388.1,
+    -2362.2,
+    -404.9,
+    -2356.8,
+    -405.8,
+    -2352.7,
+    -381.6
+   ],
+   "id": "drongensesteenweg-261-39",
+   "latLon": [
+    51.056307,
+    3.69679
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13169,
+   "at": [
+    -2341.3999999999996,
+    -408.5
+   ],
+   "centre": [
+    -2335.4,
+    -379.6
+   ],
+   "width": 8.7,
+   "faces": 261,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2333.7,
+    -389.5,
+    -2331.9,
+    -378.6,
+    -2331.6,
+    -376.8,
+    -2331.4,
+    -376,
+    -2331.2,
+    -374.8,
+    -2330.2,
+    -368.6,
+    -2327.9,
+    -359.6,
+    -2338.1,
+    -363.3,
+    -2339.4,
+    -371,
+    -2340,
+    -374.5,
+    -2341.7,
+    -384.5,
+    -2345.7,
+    -407.8,
+    -2337.1,
+    -409.2
+   ],
+   "id": "drongensesteenweg-261-40",
+   "latLon": [
+    51.05633,
+    3.696997
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13167,
+   "at": [
+    -2327.15,
+    -410.9
+   ],
+   "centre": [
+    -2323.4,
+    -387.2
+   ],
+   "width": 7.4,
+   "faces": 261,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2318.6,
+    -382,
+    -2321.7,
+    -381.6,
+    -2321.4,
+    -380.5,
+    -2321.9,
+    -380.4,
+    -2322.5,
+    -380.3,
+    -2325.6,
+    -379.8,
+    -2325.7,
+    -379.8,
+    -2327.5,
+    -390.8,
+    -2330.8,
+    -410.3,
+    -2323.5,
+    -411.5,
+    -2318.6,
+    -382.4
+   ],
+   "id": "drongensesteenweg-261-41",
+   "latLon": [
+    51.056347,
+    3.69716
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13165,
+   "at": [
+    -2315.3,
+    -412.9
+   ],
+   "centre": [
+    -2312.8,
+    -381.6
+   ],
+   "width": 6.3,
+   "faces": 261,
+   "toStreet": 8,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2307.5,
+    -385.3,
+    -2303.3,
+    -360.7,
+    -2314.6,
+    -358.9,
+    -2316.6,
+    -370.6,
+    -2317.3,
+    -374.5,
+    -2312.1,
+    -375.3,
+    -2313.5,
+    -383.4,
+    -2318.4,
+    -412.4,
+    -2312.2,
+    -413.4
+   ],
+   "id": "drongensesteenweg-261-42",
+   "latLon": [
+    51.056362,
+    3.697295
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13159,
+   "at": [
+    -2288.3999999999996,
+    -417.55
+   ],
+   "centre": [
+    -2285.8,
+    -403.4
+   ],
+   "width": 5.5,
+   "faces": 261,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2283.6,
+    -405.7,
+    -2281.6,
+    -393.8,
+    -2285.8,
+    -393,
+    -2287,
+    -392.7,
+    -2291.1,
+    -417.1,
+    -2285.7,
+    -418
+   ],
+   "id": "drongensesteenweg-261-43",
+   "latLon": [
+    51.056395,
+    3.697603
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13157,
+   "at": [
+    -2275.8999999999996,
+    -419.7
+   ],
+   "centre": [
+    -2274.2,
+    -409.8
+   ],
+   "width": 8.7,
+   "faces": 261,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -2268.2,
+    -400.6,
+    -2276.9,
+    -399.2,
+    -2280.2,
+    -419,
+    -2271.6,
+    -420.4
+   ],
+   "id": "drongensesteenweg-261-44",
+   "latLon": [
+    51.056411,
+    3.697746
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13154,
+   "at": [
+    -2259.2,
+    -422.6
+   ],
+   "centre": [
+    -2255.8,
+    -404.6
+   ],
+   "width": 4.9,
+   "faces": 261,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -2253.8,
+    -405.2,
+    -2252.3,
+    -396.3,
+    -2252,
+    -394.5,
+    -2256.8,
+    -393.7,
+    -2257.4,
+    -397.4,
+    -2261.6,
+    -422.2,
+    -2256.8,
+    -423
+   ],
+   "id": "drongensesteenweg-261-45",
+   "latLon": [
+    51.056432,
+    3.697937
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13150,
+   "at": [
+    -2240.8999999999996,
+    -425.8
+   ],
+   "centre": [
+    -2238.6,
+    -410.5
+   ],
+   "width": 9.7,
+   "faces": 261,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -2234.3,
+    -416.2,
+    -2234.3,
+    -416.2,
+    -2232.5,
+    -406,
+    -2237.2,
+    -405.1,
+    -2236.7,
+    -402,
+    -2241.8,
+    -401.1,
+    -2241.9,
+    -402.1,
+    -2242.7,
+    -406.7,
+    -2237.5,
+    -407.5,
+    -2238.1,
+    -411.2,
+    -2243.3,
+    -410.3,
+    -2245.7,
+    -425,
+    -2236.1,
+    -426.6
+   ],
+   "id": "drongensesteenweg-261-46",
+   "latLon": [
+    51.056455,
+    3.698146
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13147,
+   "at": [
+    -2223.6,
+    -428.79999999999995
+   ],
+   "centre": [
+    -2220.7,
+    -418.1
+   ],
+   "width": 5.1,
+   "faces": 261,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2219.4,
+    -418.8,
+    -2218.6,
+    -413.9,
+    -2218.6,
+    -413.7,
+    -2218.2,
+    -411.9,
+    -2223,
+    -411,
+    -2226.1,
+    -428.4,
+    -2221.1,
+    -429.2
+   ],
+   "id": "drongensesteenweg-261-47",
+   "latLon": [
+    51.056477,
+    3.698344
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-189",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.453,
+      0.54
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13200,
+   "at": [
+    -2213.8,
+    -430.5
+   ],
+   "centre": [
+    -2212,
+    -420.3
+   ],
+   "width": 4.9,
+   "faces": 261,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2208.4,
+    -413.7,
+    -2210.7,
+    -413.3,
+    -2211.3,
+    -417,
+    -2213.8,
+    -416.8,
+    -2216.2,
+    -430.1,
+    -2211.4,
+    -430.9
+   ],
+   "id": "drongensesteenweg-261-48",
+   "latLon": [
+    51.056489,
+    3.698456
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-168",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.453,
+      0.545
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13198,
+   "at": [
+    -2203.1499999999996,
+    -432.3
+   ],
+   "centre": [
+    -2199.8,
+    -425.8
+   ],
+   "width": 6.2,
+   "faces": 261,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2195.5,
+    -430.8,
+    -2188.8,
+    -423.5,
+    -2200.7,
+    -414.5,
+    -2203.4,
+    -417.3,
+    -2203.6,
+    -418.1,
+    -2199.2,
+    -421.7,
+    -2202.2,
+    -424.9,
+    -2204.8,
+    -424.5,
+    -2206.2,
+    -431.8,
+    -2200.1,
+    -432.8,
+    -2200,
+    -432.2,
+    -2197.7,
+    -432.6,
+    -2195.8,
+    -430.5
+   ],
+   "id": "drongensesteenweg-261-49",
+   "latLon": [
+    51.056502,
+    3.698578
+   ],
+   "photos": [
+    {
+     "id": "525332340410451-153",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.405,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13237,
+   "at": [
+    -2161.25,
+    -428.75
+   ],
+   "centre": [
+    -2163.1,
+    -424.9
+   ],
+   "width": 3.9,
+   "faces": 287,
+   "toStreet": 19.2,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2159.4,
+    -428.2,
+    -2159.3,
+    -427.4,
+    -2162.1,
+    -425.9,
+    -2160.2,
+    -423.7,
+    -2166.6,
+    -417.6,
+    -2170.8,
+    -422.2,
+    -2163.1,
+    -429.3
+   ],
+   "id": "drongensesteenweg-287-50",
+   "latLon": [
+    51.056476,
+    3.699057
+   ],
+   "photos": []
+  }
+ ]
+}

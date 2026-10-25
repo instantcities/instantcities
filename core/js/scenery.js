@@ -12,12 +12,15 @@ import { WATER } from './relief.js';
 import { settTexture, slabTexture } from './track.js';
 import { addLandmarks } from './landmarks.js';
 import { later, TILE } from './tiles.js';
-import { elevation, shade } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, BOATS } from './city.js';
+import { elevation, shade, letGo } from './facades.js';
+import { liftShader } from './terrain.js';
+export { drawAgain } from './facades.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
 import { addSitters } from './sitters.js';
+import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
 
@@ -33,20 +36,17 @@ function mulberry32(seed) {
 
 const mat = (color, roughness = 0.8, extra = {}) => new THREE.MeshStandardMaterial({ color, roughness, ...extra });
 
-// Once a texture is on the GPU its canvas is no longer needed, and there are hundreds of them (a
-// phone counts every canvas's pixels against the page): shrink it to nothing. The city's are drawn
-// once and never again.
-function letGo(t) {
-  t.onUpdate = () => { t.image.width = t.image.height = 1; };
-  return t;
-}
-
 function canvasTexture(w, h, draw, repeat = null) {
   const c = document.createElement('canvas');
   c.width = w;
   c.height = h;
-  draw(c.getContext('2d', { willReadFrequently: true }), w, h); // on the CPU: noise() reads its pixels back
-  const t = letGo(new THREE.CanvasTexture(c));
+  const paint = () => {
+    c.width = w; // (back from the 1 pixel letGo left, and cleared)
+    c.height = h;
+    draw(c.getContext('2d', { willReadFrequently: true }), w, h); // on the CPU: noise() reads its pixels back
+  };
+  paint();
+  const t = letGo(new THREE.CanvasTexture(c), paint);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 8;
   if (repeat) {
@@ -63,6 +63,32 @@ function noise(g, w, h, r, amount, tint = [0.6, 1, 0.5]) {
     d[i] += v * tint[0]; d[i + 1] += v * tint[1]; d[i + 2] += v * tint[2];
   }
   g.putImageData(img, 0, 0);
+}
+
+// A house front in the colour its photos show (LOOKS) is drawn in one texture with every house of
+// its kind, whatever its colour: the wall in it is painted NEUTRAL and left half see-through
+// (tintable), and tinted() colours it by the house's own colour, given to its corners, leaving what
+// is drawn over it (windows, doors) as it is. A texture per colour, as it was, put hundreds of
+// textures on a phone in a street of coloured fronts, more than it has the memory for.
+const NEUTRAL = '#b4b4b4', NEUTRAL_LIN = new THREE.Color(NEUTRAL).r;
+function tintable(g, w, h) {
+  const img = g.getImageData(0, 0, w, h), d = img.data;
+  for (let i = 3; i < d.length; i += 4) d[i] = 128;
+  g.putImageData(img, 0, 0);
+}
+// its corners' colour: the wall's (linear, as three.js has it) over NEUTRAL's
+const tintOf = hex => new THREE.Color(hex).multiplyScalar(1 / NEUTRAL_LIN);
+const tintShader = s => {
+  liftShader(s); // (onto the hills, as every material is)
+  s.fragmentShader = s.fragmentShader.replace('#include <color_fragment>', '').replace('#include <map_fragment>', `#include <map_fragment>
+    diffuseColor.rgb *= mix(vColor, vec3(1.0), clamp(sampledDiffuseColor.a * 2.0 - 1.0, 0.0, 1.0));
+    diffuseColor.a = 1.0;`);
+};
+function tinted(map) {
+  const m = mat(0xffffff, 0.9, { map, vertexColors: true });
+  m.onBeforeCompile = tintShader;
+  m.customProgramCacheKey = () => 'wallTint';
+  return m;
 }
 
 function mesh(ctx, geo, material, x, y, z, { shadow = true, parent = ctx.group } = {}) {
@@ -212,8 +238,25 @@ function waterMaterial(ctx, color = 0x4f6b55) {
     }
   });
   tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
-  ctx.updaters.push(dt => { tex.offset.x += dt * 0.05; });
-  return mat(color, 0.15, { metalness: 0.1, map: tex });
+  const drift = { value: 0 }; // the second ripple layer's scroll, against the first
+  ctx.updaters.push(dt => { tex.offset.x += dt * 0.05; drift.value += dt * 0.03; });
+  // the ripples also bend the surface (bumpMap), so the sun's highlight and the sky's sheen wobble
+  const water = mat(color, 0.15, { metalness: 0.1, map: tex, bumpMap: tex, bumpScale: 1 });
+  water.onBeforeCompile = shader => {
+    shader.uniforms.drift = drift;
+    shader.fragmentShader = shader.fragmentShader
+      // a second, mirrored layer of ripples drifting the other way: the water shimmers, not slides
+      .replace('void main() {', 'uniform float drift;\nvoid main() {')
+      .replace('#include <map_fragment>', `#include <map_fragment>
+      diffuseColor *= texture2D(map, vec2(-1.3 * vMapUv.x + drift, 1.3 * vMapUv.y + 0.37));`)
+      // the sky's sheen at a low angle (fresnel), in the fog's colour, so it follows day, night and rain
+      .replace('#include <fog_fragment>', `#ifdef USE_FOG
+      float sheen = pow(1.0 - saturate(dot(normalize(vViewPosition), normal)), 4.0);
+      gl_FragColor.rgb = mix(gl_FragColor.rgb, fogColor, 0.65 * sheen);
+    #endif
+    #include <fog_fragment>`);
+  };
+  return water;
 }
 
 const DOORS = LOOK?.doors ?? ['#1f5e3a', '#1d3f6e', '#7a1f1f', '#2b2b2b', '#c98a1b', '#3f6f78'];
@@ -284,10 +327,17 @@ const BIG_KINDS = new Set(['school', 'industrial', 'commercial', 'apartments', '
   'public', 'civic', 'church', 'hospital', 'college', 'sports_hall', 'kindergarten', 'hotel']);
 const SMALL_KINDS = new Set(['garage', 'garages', 'shed', 'roof', 'carport', 'hut', 'greenhouse']);
 const STONE_KINDS = new Set(['church', 'cathedral', 'chapel', 'part']); // 'part': a tower or spire (building:part)
+const BOAT_KINDS = new Set(['houseboat', 'boat', 'ship']); // moored in the water: drawn as boats (mooredBoats), not houses
 const STONE_TILE = 9; // metres of wall per repeat of the stone texture
 const FLOOR = 3.4; // game metres per storey (the map is scaled up a little)
 const MODULE = 6.5; // one house front of the facade texture, in metres along a wall
 const hashOf = i => ((Math.imul(i + 1, 2654435761) >>> 0) % 100000) / 100000;
+// a building's key in LOOKS: the average of its outline's corners, to 0.1 m (as tools/street.mjs has it)
+function centreKey(p) {
+  let x = 0, z = 0;
+  for (let k = 0; k < p.length; k += 2) { x += p[k]; z += p[k + 1]; }
+  return `${+((2 * x) / p.length).toFixed(1)},${+((2 * z) / p.length).toFixed(1)}`;
+}
 
 // A front in a city whose LOOK has style: 'italian' (js/italian.js): plaster over the whole
 // wall, then draw(g) in the usual frame (128 a house wide, 80 a storey), at twice the resolution,
@@ -303,7 +353,7 @@ function italianTexture(wall, floors, r, draw) {
 }
 
 // A row-house front with the given number of storeys: two windows upstairs, a window and the door below.
-function floorsTexture(wall, brick, door, floors, r, v = 0) {
+function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false) {
   if (LOOK?.style === 'italian') {
     return italianTexture(wall, floors, r, g => {
       italianUpper(g, floors, LOOK.shutters, v, r);
@@ -318,6 +368,7 @@ function floorsTexture(wall, brick, door, floors, r, v = 0) {
       g.fillStyle = 'rgba(255,255,255,0.08)';
       for (let y = 0; y < h; y += 5) g.fillRect(0, y, w, 1);
     }
+    if (tint) tintable(g, w, h);
     const win = (x, y, ww, hh) => {
       g.fillStyle = '#f5f1e8';
       g.fillRect(x - 3, y - 3, ww + 6, hh + 6);
@@ -394,10 +445,11 @@ function blockTexture(wall, floors, r, v = 0) {
 // right, `small` adds the window over it, `white` gives it a white door of frosted panels, `knee`
 // a low strip of wall over the top storey, under the eaves, with a small window in it (KNEE pixels).
 const KNEE = 28;
-function workerTexture(wall, brick, door, floors, r, { flip = false, small = false, white = false, knee = false } = {}) {
+// (tint: wall is NEUTRAL, tintable, and light says whether the colour it is tinted is a light one)
+function workerTexture(wall, brick, door, floors, r, { flip = false, small = false, white = false, knee = false, tint = false, light: lit } = {}) {
   const K = knee ? KNEE : 0;
   return canvasTexture(128, 80 * floors + K, (g, w, h) => {
-    const light = rgbOf(wall).reduce((s, v) => s + v, 0) > 560;
+    const light = lit ?? rgbOf(wall).reduce((s, v) => s + v, 0) > 560;
     g.fillStyle = wall;
     g.fillRect(0, 0, w, h);
     noise(g, w, h, r, brick ? 22 : 8, [1, 0.9, 0.8]);
@@ -409,6 +461,7 @@ function workerTexture(wall, brick, door, floors, r, { flip = false, small = fal
         for (let x = (y / 5) % 2 ? 0 : 6; x < w; x += 12) g.fillRect(x, y, 1, 5);
       }
     }
+    if (tint) tintable(g, w, h);
     if (flip) { g.translate(w, 0); g.scale(-1, 1); }
     const trim = '#f4f2ec', sill = '#55595c';
     // a shallow arch over an opening: rowlock bricks on brick, a darker reveal on plaster
@@ -419,7 +472,10 @@ function workerTexture(wall, brick, door, floors, r, { flip = false, small = fal
     };
     const head = (x, y, ww, hh) => {
       g.fillStyle = brick ? shade(wall, light ? -0.12 : -0.2) : shade(wall, -0.15);
+      // (part of the wall, so tinted with it)
+      if (tint) g.globalCompositeOperation = 'source-atop';
       arched(x - 3, y - 4, ww + 6, hh + 4, 4); g.fill();
+      g.globalCompositeOperation = 'source-over';
     };
     const glass = (x, y, ww, hh) => {
       const gr = g.createLinearGradient(x, y, x + ww, y + hh);
@@ -537,13 +593,18 @@ class Grow {
   done() { return this.a.slice(0, this.length); } // trimmed to size
 }
 
+// (coloured: its corners take the colour of this.tint, a THREE.Color, as they come)
 class Batch {
-  constructor() { this.pos = new Grow(Float32Array); this.nrm = new Grow(Float32Array); this.uv = new Grow(Float32Array); this.idx = new Grow(Uint32Array); }
+  constructor(coloured = false) {
+    this.pos = new Grow(Float32Array); this.nrm = new Grow(Float32Array); this.uv = new Grow(Float32Array); this.idx = new Grow(Uint32Array);
+    this.col = coloured ? new Grow(Float32Array) : null;
+  }
   get count() { return this.pos.length / 3; }
   vert(x, y, z, nx, ny, nz, u, v) {
     this.pos.push(x, y, z);
     this.nrm.push(nx, ny, nz);
     this.uv.push(u, v);
+    this.col?.push(this.tint.r, this.tint.g, this.tint.b);
     return this.pos.length / 3 - 1;
   }
   // a triangle facing up, whichever way round its corners come
@@ -559,8 +620,9 @@ class Batch {
     geo.setAttribute('position', new THREE.BufferAttribute(this.pos.done(), 3));
     geo.setAttribute('normal', new THREE.BufferAttribute(this.nrm.done(), 3));
     geo.setAttribute('uv', new THREE.BufferAttribute(this.uv.done(), 2));
+    if (this.col) geo.setAttribute('color', new THREE.BufferAttribute(this.col.done(), 3));
     geo.setIndex(new THREE.BufferAttribute(this.count > 65535 ? idx : Uint16Array.from(idx), 1));
-    this.pos = this.nrm = this.uv = this.idx = null; // built: let the numbers go
+    this.pos = this.nrm = this.uv = this.idx = this.col = null; // built: let the numbers go
     const m = new THREE.Mesh(geo, material);
     m.castShadow = shadow;
     m.receiveShadow = true;
@@ -695,6 +757,30 @@ function pointIn(x, z, p) {
   return hit;
 }
 
+// pointIn for a polygon asked about many times: its edges sorted into bands BAND metres deep
+// across z, so each point only looks at the edges in its own band (a river's outline has thousands).
+function inside(p, BAND = 8) {
+  const bands = new Map();
+  for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) {
+    const lo = Math.floor(Math.min(p[i + 1], p[j + 1]) / BAND), hi = Math.floor(Math.max(p[i + 1], p[j + 1]) / BAND);
+    for (let b = lo; b <= hi; b++) {
+      if (!bands.has(b)) bands.set(b, []);
+      bands.get(b).push(p[i], p[i + 1], p[j], p[j + 1]);
+    }
+  }
+  return (x, z) => {
+    const e = bands.get(Math.floor(z / BAND));
+    let hit = false;
+    if (e) {
+      for (let k = 0; k < e.length; k += 4) {
+        const ax = e[k], az = e[k + 1], bx = e[k + 2], bz = e[k + 3];
+        if ((az > z) !== (bz > z) && x < ax + ((z - az) * (bx - ax)) / (bz - az)) hit = !hit;
+      }
+    }
+    return hit;
+  };
+}
+
 function polyArea(p) {
   let a = 0;
   for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) a += p[j] * p[i + 1] - p[i] * p[j + 1];
@@ -741,13 +827,14 @@ const SHOP_STYLES = {
 // A house front whose ground floor is a shop: a big window full of things, the door, and a blank
 // band for the sign. The name goes on the band separately (shopSigns): a texture per shop name,
 // over a thousand of them in Ghent, ran a phone out of memory.
-function shopTexture(wall, brick, terrace, floors, r, v = 0) {
+function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false) {
   // in an Italian town the storeys above the shop are the houses' own (js/italian.js)
   const italian = LOOK?.style === 'italian', k = italian ? 2 : 1;
   return canvasTexture(128 * k, 80 * floors * k, (g, cw, ch) => {
     g.fillStyle = wall;
     g.fillRect(0, 0, cw, ch);
     noise(g, cw, ch, r, brick ? 24 : 10, [1, 0.85, 0.75]);
+    if (tint) tintable(g, cw, ch);
     g.scale(k, k);
     const w = 128;
     if (italian) {
@@ -866,7 +953,7 @@ function shopFronts(ctx, fronts) {
   });
   stripes.wrapS = THREE.RepeatWrapping;
   stripes.repeat.set(4, 1);
-  const d = ctx.dummy, awnings = [], tables = [], chairs = [], parasols = [];
+  const d = ctx.dummy, awnings = [], tables = [], chairs = [], parasols = [], onRails = nearTrams(ctx.cfg.map.trams, 3.4);
   for (const f of fronts) {
     const len = Math.min(f.L - 0.6, 7);
     d.position.set(f.mx, f.y, f.mz);
@@ -884,7 +971,8 @@ function shopFronts(ctx, fronts) {
       spots.forEach((along, k) => {
         const x = f.mx + f.nx * out + f.ux * along, z = f.mz + f.nz * out + f.uz * along;
         if (ctx.track.distTo(x, z) < ctx.hw + 1.2) return; // no tables in the raced street
-        if (row > 0 && (!ctx.clear?.(x, z, 1) || ctx.track.distTo(x, z) < ctx.hw + 3.5)) return; // nor in another street, the water or a house
+        // nor in another street (the streets across a square are its paving, but the tram's rails stay clear), the water or a house
+        if (row > 0 && (!ctx.clear?.(x, z, 1, true) || ctx.track.distTo(x, z) < ctx.hw + 3.5 || onRails(x, z))) return;
         if (row > 0 && tables.some(q => Math.abs(q.x - x) < 1.6 && Math.abs(q.z - z) < 1.6)) return; // the next café's terrace
         tables.push({ x, z });
         for (const side of [-1, 1]) chairs.push({ x: x + f.ux * side * 0.55, z: z + f.uz * side * 0.55, yaw: Math.atan2(-f.ux * side, -f.uz * side) });
@@ -924,16 +1012,25 @@ const GENT_WALLS = LOOK?.walls ?? [
 ];
 const GENT_ROOFS = LOOK?.roofs ?? [0x3d4248, 0x34383d, 0x4a4f55, 0x2c2f33, 0x55504b, 0x7a3a2a, 0x8d4a35];
 const rgbOf = hex => [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16));
-// the wall colour nearest a building:colour from the map
-function nearestWall(hex) {
+// the wall colour nearest a building:colour from the map, or one read off a photo
+function nearestWall(hex, walls = GENT_WALLS) {
   const c = rgbOf(hex);
   let best = 0, bd = Infinity;
-  GENT_WALLS.forEach(([w], i) => {
+  walls.forEach(([w], i) => {
     const d = rgbOf(w).reduce((sum, v, k) => sum + (v - c[k]) ** 2, 0);
     if (d < bd) { bd = d; best = i; }
   });
   return best;
 }
+// A wall colour read off a photo (LOOKS), as it is rather than the nearest of the city's. Brick if
+// it is red-brown (brick reads paler on a dull day than any of the palettes' bricks), else as the
+// nearest of the palette's colours is.
+function photoWall(hex, walls = GENT_WALLS) {
+  const [r, g, b] = rgbOf(hex);
+  return [hex, (r > g + 25 && r > b + 35) || walls[nearestWall(hex, walls)][1]];
+}
+// an Italian town's fronts are drawn otherwise (js/italian.js), and not tinted: a texture per colour
+const TINTS = LOOK?.style !== 'italian';
 
 // The houses in the old town (OLD_TOWN, <city>/city.js) that turn a gable end to the street or a
 // square, by their index: narrow enough for a stepped gable, with open ground just past an end of
@@ -987,6 +1084,39 @@ function steppedGableGeometry(steps = 5) {
   return new THREE.ExtrudeGeometry(shape, { depth: 1, bevelEnabled: false }).translate(0, 0, -0.5).rotateY(Math.PI / 2);
 }
 
+// A gable end's attic windows, on a see-through picture laid just outside it: the windows only, as
+// the gable behind may be stepped or plain. Across the gable (0 to 1) and up it (0 to 1, the ridge
+// at the top), so a taller gable gets more rows, each inside the triangle. Made once, for all tiles.
+const GABLE_ROWS = [
+  [2.2, [[0.15, 0.5, [0.5], 0.16]]],
+  [5, [[0.1, 0.33, [0.32, 0.68], 0.12], [0.45, 0.62, [0.5], 0.1]]],
+  [9, [[0.08, 0.24, [0.3, 0.7], 0.1], [0.33, 0.47, [0.38, 0.62], 0.08], [0.57, 0.69, [0.5], 0.07]]],
+];
+const gableWindowTextures = [];
+function gableWindows(kind) {
+  if (gableWindowTextures[kind]) return gableWindowTextures[kind];
+  const t = canvasTexture(256, 256, (g, w, h) => {
+    for (const [v0, v1, us, ww] of GABLE_ROWS[kind][1]) {
+      for (const u of us) {
+        const x = (u - ww / 2) * w, y = (1 - v1) * h, cw = ww * w, ch = (v1 - v0) * h;
+        g.fillStyle = '#f5f1e8';
+        g.fillRect(x - 4, y - 4, cw + 8, ch + 8);
+        const glass = g.createLinearGradient(x, y, x + cw, y + ch);
+        glass.addColorStop(0, '#6f879a');
+        glass.addColorStop(1, '#22303c');
+        g.fillStyle = glass;
+        g.fillRect(x, y, cw, ch);
+        g.fillStyle = '#f5f1e8';
+        g.fillRect(x + cw / 2 - 2, y, 4, ch);
+        g.fillRect(x, y + ch * 0.4, cw, 4);
+      }
+    }
+  });
+  t.userData.shared = true;
+  return (gableWindowTextures[kind] = t);
+}
+const gableKind = rh => GABLE_ROWS.findLastIndex(([min]) => rh >= min);
+
 // The long fronts round a square, drawn by hand (a square's walls, see <city>/squares.js):
 // the one whose `at` is this outline's middle, with the way it looks as a unit vector.
 function dressFor(dressed, p) {
@@ -1025,7 +1155,8 @@ function dressWall(ctx, dress, edges, y0, h) {
     const b1 = batch.vert(bx, top, bz, nx, 0, nz, ub, 1), a1 = batch.vert(ax, top, az, nx, 0, nz, ua, 1);
     batch.idx.push(a0, b0, b1, a0, b1, a1);
   }
-  const map = letGo(elevation(w, top, dress.px ?? 14, (g, ww, hh) => dress.draw(g, ww, hh, h)));
+  const paint = () => elevation(w, top, dress.px ?? 14, (g, ww, hh) => dress.draw(g, ww, hh, h));
+  const map = letGo(paint(), () => { map.image = paint().image; });
   const m = batch.mesh(ctx, mat(0xffffff, 0.9, { map, alphaTest: 0.5, side: THREE.DoubleSide }), { shadow: true });
   m.name = dress.id;
 }
@@ -1039,24 +1170,31 @@ function osmBuildings(ctx, map) {
   const shopStreets = new Set(map.shopStreets ?? []);
   const dressed = SQUARES.flatMap(sq => sq.walls ?? []), oldGables = oldTownGables(map);
   map.buildings.forEach((b, i) => {
-    if (b.gone || ctx.landmarks.covers(b.p)) return; // drawn as its real 3D model instead (gone: by the city's own say)
+    if (b.gone || ctx.landmarks.covers(b.p) || BOAT_KINDS.has(b.k)) return; // drawn as its real 3D model instead (gone: by the city's own say), or as a boat
     const p = b.p, signed = polyArea(p), area = Math.abs(signed);
     const dress = dressed.length ? dressFor(dressed, p) : null;
     // a large outline is flats or a school, unless the city maps whole blocks of houses as one
     // (LOOK.houseBlocks: an old town of terraced houses, Lecce's)
-    const big = BIG_KINDS.has(b.k) || (area > 700 && !LOOK?.houseBlocks), small = SMALL_KINDS.has(b.k);
+    // what the photos of its street say it looks like (LOOKS, <city>/looks.js): a wall colour, and
+    // now and then what sort of front it is
+    const look = LOOKS?.[centreKey(p)], t = look?.t;
+    const big = t === 'block' || (!t && (BIG_KINDS.has(b.k) || (area > 700 && !LOOK?.houseBlocks))), small = SMALL_KINDS.has(b.k);
     const hv = hashOf(i);
     // measured walls (b.e, from a height model) can stand taller than the storeys guessed from OSM
     const floors = Math.max(1, Math.min(b.e != null ? 8 : big ? 6 : 5, b.f));
-    const stone = !!b.h || STONE_KINDS.has(b.k), y0 = b.b ?? 0;
+    const stone = t === 'stone' || !!b.h || (!t && STONE_KINDS.has(b.k)), y0 = b.b ?? 0;
     // a slim tower ends in a spire, inside its real height
     const spire = b.h && area < 400 && LOOK?.spires !== false ? Math.min(b.h * 0.35, Math.sqrt(area) * 1.3) : 0;
     // (a building standing on others, b.b, from there up: a tower on a church, the floors over a passage)
     let h = b.h ? b.h - spire : b.e != null ? Math.max(y0 + 2.5, b.e) : small ? y0 + 3 : y0 + floors * (big ? 3.7 : FLOOR) + 0.4;
-    // a house's colours: its own from the map if it has them, else Ghent's
-    const hc = b.wc ? nearestWall(b.wc) : Math.floor(hv * GENT_WALLS.length);
+    // a house's colours: as its photos show them, its own from the map if it has them, else Ghent's
+    // (hc still picks the door, and the texture's variations)
+    const hc = look ? nearestWall(look.c) : b.wc ? nearestWall(b.wc) : Math.floor(hv * GENT_WALLS.length);
+    const own = look ? photoWall(look.c) : null;
+    // its colour given to its corners, its texture shared with every house of its kind (tinted())
+    const tint = look && TINTS ? tintOf(look.c) : null;
     let wall, module = MODULE, houseFronts = 0;
-    const quarter = stone || big || small || b.wc || b.fe == null ? null : quarterOf(p[0], p[1]);
+    const quarter = stone || big || small || (b.wc && !look) || b.fe == null ? null : quarterOf(p[0], p[1]);
     // the street front, along its edge b.fe
     const fa = b.fe == null ? null : edgeOf(p, b.fe), fit = quarter ? fitFronts(fa.L, quarter.module ?? MODULE) : 0;
     // the quarter's houses all stand as high (QUARTERS' storeys): the height model often has their
@@ -1067,11 +1205,12 @@ function osmBuildings(ctx, map) {
     if (fit) {
       // a quarter's own kind of house front, a whole number of them across the street front (a
       // front they would not fit on keeps Ghent's), in its own colours, the door on either side
-      const walls = quarter.walls ?? GENT_WALLS, qc = Math.floor(hv * walls.length), [wc, brick] = walls[qc];
+      const walls = quarter.walls ?? GENT_WALLS, qc = look ? nearestWall(look.c, walls) : Math.floor(hv * walls.length);
+      const [wc, brick] = look ? photoWall(look.c, walls) : walls[qc];
       const flip = hashOf(i + 11) < 0.4, small = hashOf(i + 13) < 0.35, white = hashOf(i + 17) < 0.5;
-      const qf = even ? quarter.storeys : floors;
-      wall = [`q${quarter.name}-${qc}-${qf}-${+flip}${+small}${+white}${+even}`,
-        rr => QUARTER_FRONTS[quarter.front](wc, brick, DOORS[qc % DOORS.length], qf, rr, { flip, small, white, knee: even })];
+      const qf = even ? quarter.storeys : floors, light = rgbOf(wc).reduce((s, v) => s + v, 0) > 560;
+      wall = [`q${quarter.name}-${tint ? `t${qc}${+brick}${+light}` : look ? wc + +brick : qc}-${qf}-${+flip}${+small}${+white}${+even}`,
+        rr => QUARTER_FRONTS[quarter.front](tint ? NEUTRAL : wc, brick, DOORS[qc % DOORS.length], qf, rr, { flip, small, white, knee: even, tint: !!tint, light }), !!tint];
       module = quarter.module ?? MODULE;
       houseFronts = fit;
     } else if (stone) {
@@ -1080,8 +1219,8 @@ function osmBuildings(ctx, map) {
       const c = Math.floor(hv * BIG_WALLS.length), f = small ? 1 : floors;
       wall = [`b${c}-${f}`, rr => blockTexture(BIG_WALLS[c], f, rr, c)];
     } else {
-      const [wc, brick] = GENT_WALLS[hc], wf = even ? quarter.storeys : floors;
-      wall = [`h${hc}-${wf}`, rr => floorsTexture(wc, brick, DOORS[hc % DOORS.length], wf, rr, hc)];
+      const [wc, brick] = own ?? GENT_WALLS[hc], wf = even ? quarter.storeys : floors;
+      wall = [`h${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${wf}`, rr => floorsTexture(tint ? NEUTRAL : wc, brick, DOORS[hc % DOORS.length], wf, rr, hc, !!tint), !!tint];
     }
     // on a shopping street, about half the fronts get a shop on the ground floor
     let shop = null;
@@ -1091,7 +1230,7 @@ function osmBuildings(ctx, map) {
       // a real one: its kind and name from the map
       const [kind, name] = b.shop, st = SHOP_STYLES[kind] ?? SHOP_STYLES.shop;
       shop = { ...st, color: st.colors[Math.floor(hashOf(i + 5) * st.colors.length)], name: hashOf(i + 9) < st.named ? name : '' };
-    } else if (!small && !stone && shopStreets.has(b.st) && hashOf(i + 3) < SHOP_SHARE) {
+    } else if (!small && !stone && (t === 'shop' || (!t && shopStreets.has(b.st) && hashOf(i + 3) < SHOP_SHARE))) {
       // a map without shops in it, but with shopping streets: made-up ones
       const kind = SHOPS[Math.floor(hashOf(i + 5) * SHOPS.length)];
       shop = { ...kind, name: kind.names[Math.floor(hashOf(i + 9) * kind.names.length)] };
@@ -1099,8 +1238,8 @@ function osmBuildings(ctx, map) {
     const shopFloors = Math.min(5, floors);
     let shopWall = null;
     if (shop) {
-      const [wc, brick] = GENT_WALLS[hc];
-      shopWall = [`s${hc}-${shopFloors}-${!!shop.terrace}`, rr => shopTexture(wc, brick, !!shop.terrace, shopFloors, rr, hc)];
+      const [wc, brick] = own ?? GENT_WALLS[hc];
+      shopWall = [`s${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${shopFloors}-${!!shop.terrace}`, rr => shopTexture(tint ? NEUTRAL : wc, brick, !!shop.terrace, shopFloors, rr, hc, !!tint), !!tint];
     }
     let roof = null;
     if (!spire && b.r && (b.t != null || (!big && !small && !stone))) {
@@ -1117,9 +1256,9 @@ function osmBuildings(ctx, map) {
       if (!b.sg && sg) rh = Math.min(rh, span * 1.2);
       // and a row house's roof is a low one, about 30 degrees and at most 3 m, mostly out of sight from the street
       if (row) rh = Math.min(rh, 3, Math.max(1, span * 0.29));
-      roof = { cx, cz, ang, ridge, span, h, rh, sg, wall: GENT_WALLS[hc][0], c: b.rc ?? GENT_ROOFS[Math.floor(hashOf(i + 7) * GENT_ROOFS.length)] };
+      roof = { cx, cz, ang, ridge, span, h, rh, sg, wall: own?.[0] ?? GENT_WALLS[hc][0], c: b.rc ?? GENT_ROOFS[Math.floor(hashOf(i + 7) * GENT_ROOFS.length)] };
     }
-    const house = { p, signed, stone, y0, h, spire, wall, module, houseFronts, shop, shopWall, shopFloors, fe: b.fe, roof, dress, frontK: dress ? frontEdges(p, signed, dress) : null };
+    const house = { p, signed, stone, y0, h, spire, wall, tint, module, houseFronts, shop, shopWall, shopFloors, fe: b.fe, roof, dress, frontK: dress ? frontEdges(p, signed, dress) : null };
     eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
       if (!shop || k !== b.fe) return;
       // the shop's front: its sign above the window, an awning, a terrace
@@ -1182,12 +1321,14 @@ function buildHouses(city, houses) {
   const group = new THREE.Group(), ctx = { ...city, group };
   const walls = new Map(), roofCaps = new Batch(), spires = new Batch(), gables = [];
   const batchOf = wall => {
-    if (!walls.has(wall[0])) walls.set(wall[0], { batch: new Batch(), wall });
+    if (!walls.has(wall[0])) walls.set(wall[0], { batch: new Batch(wall[2]), wall });
     return walls.get(wall[0]).batch;
   };
   for (const house of houses) {
     const { p, signed, stone, y0, h, spire, shop, roof } = house, n = p.length / 2, front = [];
     const batch = batchOf(house.wall), shopBatch = shop ? batchOf(house.shopWall) : null;
+    batch.tint = house.tint;
+    if (shopBatch) shopBatch.tint = house.tint;
     if (house.frontK) {
       for (let k = 0; k < n; k++) {
         if (!house.frontK.has(k)) continue;
@@ -1230,7 +1371,7 @@ function buildHouses(city, houses) {
   }
   for (const { batch, wall } of walls.values()) {
     if (!batch.idx.length) continue;
-    batch.mesh(ctx, mat(0xffffff, 0.9, { map: takeWall(wall) }), { shadow: true });
+    batch.mesh(ctx, wall[2] ? tinted(takeWall(wall)) : mat(0xffffff, 0.9, { map: takeWall(wall) }), { shadow: true });
   }
   const used = [...walls.values()].filter(w => w.batch.pos === null).map(w => w.wall[0]); // built: its numbers let go
   group.userData.gone = () => used.forEach(dropWall);
@@ -1244,8 +1385,32 @@ function buildHouses(city, houses) {
       d.scale.set(g.ridge + (g.sg ? -0.2 : 0.3), g.rh, g.span + 0.6);
     }, { color: g => new THREE.Color(g.c) });
   }
+  // a plain gable's ends in the colour of its walls, over the roof's own (in the roof's colour)
+  const ends = gables.flatMap(g => [{ ...g, e: 1 }, { ...g, e: -1 }]);
+  const plain = ends.filter(g => !g.sg);
+  if (plain.length) {
+    const tri = new THREE.ShapeGeometry(new THREE.Shape([new THREE.Vector2(-0.5, 0), new THREE.Vector2(0.5, 0), new THREE.Vector2(0, 1)])).rotateY(Math.PI / 2);
+    instanced(ctx, tri, mat(0xffffff, 0.9), plain, (d, g) => {
+      const o = g.e * ((g.ridge + 0.3) / 2 + 0.02);
+      d.position.set(g.cx + Math.cos(g.ang) * o, g.h, g.cz + Math.sin(g.ang) * o);
+      d.rotation.set(0, -g.ang + (g.e < 0 ? Math.PI : 0), 0);
+      d.scale.set(1, g.rh, g.span + 0.6);
+    }, { color: g => new THREE.Color(g.wall), shadow: false });
+  }
+  // and attic windows in every gable end, stepped or plain, as many rows as it is tall
+  const quad = new THREE.PlaneGeometry(1, 1).translate(0, 0.5, 0).rotateY(Math.PI / 2);
+  for (let kind = 0; kind < GABLE_ROWS.length; kind++) {
+    const these = ends.filter(g => gableKind(g.rh) === kind);
+    if (!these.length) continue;
+    instanced(ctx, quad, mat(0xffffff, 0.6, { map: gableWindows(kind), alphaTest: 0.5 }), these, (d, g) => {
+      const o = g.e * (g.sg ? g.ridge / 2 + 0.06 : (g.ridge + 0.3) / 2 + 0.05);
+      d.position.set(g.cx + Math.cos(g.ang) * o, g.h, g.cz + Math.sin(g.ang) * o);
+      d.rotation.set(0, -g.ang + (g.e < 0 ? Math.PI : 0), 0);
+      d.scale.set(1, g.rh, g.sg ? g.span + 0.3 : g.span + 0.6);
+    }, { shadow: false });
+  }
   // the stepped gables, at both ends of the ridge
-  const stepped = gables.filter(g => g.sg).flatMap(g => [{ ...g, e: 1 }, { ...g, e: -1 }]);
+  const stepped = ends.filter(g => g.sg);
   if (stepped.length) {
     instanced(ctx, steppedGableGeometry(), mat(0xffffff, 0.9), stepped, (d, g) => {
       const o = g.e * (g.ridge / 2 - 0.2);
@@ -1307,10 +1472,14 @@ function quayStepsGeometry() {
 
 function sunkenWater(ctx, map, layers, foot = () => false) {
   const bodies = []; // { poly } or { p: [ax, az, bx, bz], half }, to tell the water's edge
-  const grid = new Map(), CELL = 16, key = (i, j) => (i + 4096) * 8192 + (j + 4096);
+  // (a body spanning many cells is not put in each, but kept aside with the cells it spans)
+  const grid = new Map(), wide = [], CELL = 16, key = (i, j) => (i + 4096) * 8192 + (j + 4096);
   const add = (b, x0, z0, x1, z1) => {
-    for (let i = Math.floor(x0 / CELL); i <= Math.floor(x1 / CELL); i++) {
-      for (let j = Math.floor(z0 / CELL); j <= Math.floor(z1 / CELL); j++) {
+    b.n = bodies.push(b) - 1;
+    const i0 = Math.floor(x0 / CELL), i1 = Math.floor(x1 / CELL), j0 = Math.floor(z0 / CELL), j1 = Math.floor(z1 / CELL);
+    if ((i1 - i0 + 1) * (j1 - j0 + 1) > 256) { wide.push({ b, i0, i1, j0, j1 }); return; }
+    for (let i = i0; i <= i1; i++) {
+      for (let j = j0; j <= j1; j++) {
         if (!grid.has(key(i, j))) grid.set(key(i, j), []);
         grid.get(key(i, j)).push(b);
       }
@@ -1321,10 +1490,9 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
     if (a.k !== 'water') continue;
     flatPolygon(water, a.p, a.level ?? WATER, 12);
     flatPolygon(mask, a.p, 0, 12);
-    const b = { poly: a.p, level: a.level ?? WATER, bank: a.bank };
+    const b = { poly: a.p, in: inside(a.p), level: a.level ?? WATER, bank: a.bank };
     let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
     for (let k = 0; k < a.p.length; k += 2) { x0 = Math.min(x0, a.p[k]); x1 = Math.max(x1, a.p[k]); z0 = Math.min(z0, a.p[k + 1]); z1 = Math.max(z1, a.p[k + 1]); }
-    bodies.push(b);
     add(b, x0, z0, x1, z1);
   }
   for (const w of map.water) {
@@ -1332,18 +1500,22 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
     groundStrip(mask, w.p, w.w, 0, 12);
     for (let k = 0; k + 3 < w.p.length; k += 2) {
       const b = { p: w.p.slice(k, k + 4), half: w.w / 2, level: WATER };
-      bodies.push(b);
       add(b, Math.min(b.p[0], b.p[2]) - b.half, Math.min(b.p[1], b.p[3]) - b.half, Math.max(b.p[0], b.p[2]) + b.half, Math.max(b.p[1], b.p[3]) + b.half);
     }
   }
   if (!bodies.length) return;
-  // the body of water at (x, z), or undefined on dry land
-  const wet = (x, z) => (grid.get(key(Math.floor(x / CELL), Math.floor(z / CELL))) ?? []).find(b => {
-    if (b.poly) return pointIn(x, z, b.poly);
+  // the body of water at (x, z), or undefined on dry land (the first of them, if bodies overlap)
+  const has = (x, z) => b => {
+    if (b.poly) return b.in(x, z);
     const [ax, az, bx, bz] = b.p, dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9;
     const t = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / L));
     return Math.hypot(x - ax - t * dx, z - az - t * dz) < b.half;
-  });
+  };
+  const wet = (x, z) => {
+    const i = Math.floor(x / CELL), j = Math.floor(z / CELL), on = has(x, z);
+    const near = (grid.get(key(i, j)) ?? []).find(on), far = wide.find(w => i >= w.i0 && i <= w.i1 && j >= w.j0 && j <= w.j1 && on(w.b))?.b;
+    return near && far ? (near.n < far.n ? near : far) : near ?? far;
+  };
   // quay walls: every outline of every water body, cut into short pieces, keeping those with
   // water on one side and dry land on the other (not where two bodies of water meet). A body with
   // a bank (a canal lying lower, its map area's bank and level) gets a slope of grass down to the
@@ -1383,7 +1555,9 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
       // steps down to the water where people walk along the quay
       if (L > 3 && foot(mx - nx * s * 3, mz - nz * s * 3)) landings.push({ x: x0, z: z0, ux: (bx - ax) / L, uz: (bz - az) / L, nx: nx * s / 0.3, nz: nz * s / 0.3 });
       if (foot(mx - nx * s * 3, mz - nz * s * 3)) ctx.quays.push({ x: mx, z: mz, ux: (bx - ax) / L, uz: (bz - az) / L, nx: nx * s / 0.3, nz: nz * s / 0.3 });
-      const a = walls.vert(x0, 0.01, z0, nx * s / 0.3, 0, nz * s / 0.3, 0, 1), b = walls.vert(x1, 0.01, z1, nx * s / 0.3, 0, nz * s / 0.3, 1, 1);
+      // from the ground's height on the land side (a quay lying lower than the street, js/hollows.js)
+      const top = (x, z) => Math.min(0, sunk(x - nx * s * 2, z - nz * s * 2)) + 0.01;
+      const a = walls.vert(x0, top(x0, z0), z0, nx * s / 0.3, 0, nz * s / 0.3, 0, 1), b = walls.vert(x1, top(x1, z1), z1, nx * s / 0.3, 0, nz * s / 0.3, 1, 1);
       const c = walls.vert(x1, WATER - 0.1, z1, nx * s / 0.3, 0, nz * s / 0.3, 1, 0), d = walls.vert(x0, WATER - 0.1, z0, nx * s / 0.3, 0, nz * s / 0.3, 0, 0);
       walls.idx.push(a, b, c, a, c, d);
     }
@@ -1414,7 +1588,7 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
     flights.push(q);
   }
   instanced(ctx, quayStepsGeometry(), mat(0x9c9384, 0.95, { side: THREE.DoubleSide }), flights, (d, q) => {
-    d.position.set(q.x, 0.01, q.z);
+    d.position.set(q.x, Math.min(0, sunk(q.x - q.nx * 0.6, q.z - q.nz * 0.6)) + 0.01, q.z); // down from a quay lying lower too
     // local x along the wall, local z out over the water
     d.rotation.set(0, Math.atan2(-q.uz, q.ux), 0);
     d.scale.set(1, 1, q.ux * q.nz - q.uz * q.nx > 0 ? 1 : -1);
@@ -1556,7 +1730,8 @@ function medians(batch, duals, y) {
 // broken off where another street or a path crosses.
 function laneLines(batch, map, y) {
   const names = new Set((TWO_LANES ?? []).map(n => map.names.indexOf(n)));
-  const roads = map.roads.filter(rd => rd.one && !rd.foot && names.has(rd.n));
+  const roads = map.roads.filter(rd => !rd.foot && (rd.bay || (rd.one && names.has(rd.n)))); // and a bay street's centre line
+  for (const rd of roads) names.add(rd.n);
   const CELL = 12, grid = new Map(), key = (i, j) => i + ',' + j;
   for (const rd of map.roads) {
     if (names.has(rd.n)) continue;
@@ -1777,7 +1952,7 @@ function osmGround(ctx, map, m) {
     if (rd.foot && !rd.c) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
     else if (rd.foot) groundStrip(rd.c === 2 ? footSlabs : footSetts, rd.p, rd.w, (rd.c === 2 ? GROUND.footSlabs : GROUND.footSetts) + up, 6, rd.y);
     else {
-      groundStrip(kerbs, rd.p, rd.w + 2.6, GROUND.kerbs + up, 3, rd.y);
+      groundStrip(kerbs, rd.p, rd.w + (rd.bay ? 2 * BAY_WIDTH : 2.6), GROUND.kerbs + up, 3, rd.y); // a bay street has its parking bays paved either side
       if (!rd.c && bikeNames.has(rd.n)) groundStrip(bike, rd.p, rd.w, GROUND.bike + up, 8, rd.y); // a fietsstraat's red
       else if (!rd.c) groundStrip(asphalt, rd.p, rd.w, GROUND.asphalt + up, 8, rd.y);
       else groundStrip(rd.c === 2 ? slabs : setts, rd.p, rd.w, (rd.c === 2 ? GROUND.slabs : GROUND.setts) + up, 6, rd.y); // cobbles, or big flat slabs
@@ -1871,7 +2046,28 @@ function fountains(ctx, list) {
 function osmTrees(ctx, map) {
   const { r } = ctx;
   const list = { pine: [], round: [], poplar: [] };
-  for (let k = 0; k < map.trees.length; k += 2) list.round.push({ x: map.trees[k], z: map.trees[k + 1], s: 0.8 + r() * 0.5, rot: r() * 6 });
+  // (a map tree stands off the houses: its crown is 2.5 m across, and some stand against a front or in
+  // a block the city built up again, as in the Belfortstraat)
+  const cells = new Map(), cell = (x, z) => `${Math.floor(x / 24)},${Math.floor(z / 24)}`;
+  for (const b of map.buildings) {
+    if (b.gone) continue;
+    const [x0, z0, x1, z1] = boxOf(b.p);
+    for (let x = Math.floor((x0 - 3) / 24); x <= Math.floor((x1 + 3) / 24); x++) {
+      for (let z = Math.floor((z0 - 3) / 24); z <= Math.floor((z1 + 3) / 24); z++) {
+        const key = `${x},${z}`;
+        if (!cells.has(key)) cells.set(key, []);
+        cells.get(key).push(b.p);
+      }
+    }
+  }
+  const onHouse = (x, z) => (cells.get(cell(x, z)) ?? []).some(p => pointIn(x, z, p) || nearLine(x, z, p, 2.5, true));
+  // none in the city's own AREAS, laid over the map's ground (the Blaarmeersen's lake, which the map has as a wood)
+  const over = (AREAS ?? []).map(a => a.p), overBoxes = over.map(boxOf);
+  const underArea = (x, z) => over.some((p, i) => x > overBoxes[i][0] && x < overBoxes[i][2] && z > overBoxes[i][1] && z < overBoxes[i][3] && pointIn(x, z, p));
+  for (let k = 0; k < map.trees.length; k += 2) {
+    const x = map.trees[k], z = map.trees[k + 1], size = 0.8 + r() * 0.5, rot = r() * 6; // (drawn either way: the rest keep their sizes)
+    if (!onHouse(x, z) && !underArea(x, z)) list.round.push({ x, z, s: size, rot });
+  }
   for (const a of map.areas) {
     if (a.k !== 'green' && a.k !== 'wood') continue;
     const p = a.p, count = Math.min(80, Math.floor(Math.abs(polyArea(p)) / (a.k === 'wood' ? 70 : 380)));
@@ -1879,7 +2075,7 @@ function osmTrees(ctx, map) {
     for (let k = 0; k < p.length; k += 2) { x0 = Math.min(x0, p[k]); x1 = Math.max(x1, p[k]); z0 = Math.min(z0, p[k + 1]); z1 = Math.max(z1, p[k + 1]); }
     for (let n = 0, tries = 0; n < count && tries < count * 20; tries++) {
       const x = x0 + r() * (x1 - x0), z = z0 + r() * (z1 - z0);
-      if (!pointIn(x, z, p) || !ctx.free(x, z, 3)) continue;
+      if (!pointIn(x, z, p) || !ctx.free(x, z, 3) || underArea(x, z)) continue;
       (r() < 0.15 ? list.poplar : list.round).push({ x, z, s: 0.8 + r() * 0.7, rot: r() * 6 });
       n++;
     }
@@ -1955,6 +2151,7 @@ function nearLine(x, z, p, d, closed = false) {
 // car-free street. On the race route the parked cars come from the track (see parking.js), because
 // riders run over them. On the city's FULL_PARKING streets every spot is taken, nose to tail, and
 // its PARKED_CARS stand where they are put, the others making room for them.
+const BAY_WIDTH = 2.5; // how far out from the asphalt a parking bay reaches, on a street with them (BAY_STREETS)
 function osmCars(ctx, map) {
   const { r, track, hw } = ctx;
   const placed = (PARKED_CARS ?? []).map(c => ({ ...c }));
@@ -1965,20 +2162,21 @@ function osmCars(ctx, map) {
   const atStop = (x, z) => STOPS.some(st => (st.x - x) ** 2 + (st.z - z) ** 2 < 14 * 14);
   map.roads.forEach((rd, i) => {
     if (rd.foot || rd.nc || rd.w > 11.5) return;
-    const sides = rd.one ? [1, -1] : [hashOf(i) < 0.5 ? 1 : -1], p = rd.p;
+    const sides = rd.one || rd.bay ? [1, -1] : [hashOf(i) < 0.5 ? 1 : -1], p = rd.p;
     for (const side of sides) {
       for (let k = 0; k + 3 < p.length; k += 2) {
         const ax = p[k], az = p[k + 1], bx = p[k + 2], bz = p[k + 3], L = Math.hypot(bx - ax, bz - az);
         const ux = (bx - ax) / L, uz = (bz - az) / L;
         for (let s = 4; s < L - 4;) {
-          const car = randomCar(r), { len, w } = CAR_TYPES[car.type], off = side * (rd.w / 2 - w / 2 - 0.15);
+          // on the carriageway's edge, or on a bay street in the middle of its bay beside it
+          const car = randomCar(r), { len, w } = CAR_TYPES[car.type], off = side * (rd.bay ? rd.w / 2 + BAY_WIDTH / 2 : rd.w / 2 - w / 2 - 0.15);
           const x = ax + ux * (s + len / 2) - uz * off, z = az + uz * (s + len / 2) + ux * off;
           // nose to tail, or a gap (drawn all the same on a full street, to keep the rest as it was)
-          const gap = r() > (rd.one ? 0.75 : 0.5) ? 4 + r() * 6 : 0;
+          const gap = r() > (rd.one || rd.bay ? 0.75 : 0.5) ? 4 + r() * 6 : 0;
           s += len + (gap && !full.has(rd.n) ? gap : 0.7);
           if (r() > PARKED && !full.has(rd.n)) continue; // a free spot
           if (s > L - 4 || taken(x, z, len) || track.distTo(x, z) < hw + 4 || onRails(x, z) || atStop(x, z) || squareAt(x, z) || (rd.y && (rd.y[k / 2] > 0.05 || rd.y[k / 2 + 1] > 0.05))) continue;
-          // on a one-way street they all face the same way
+          // on a one-way street they all face the same way, on a two-way one with the traffic beside them
           cars.push({ x, z, yaw: Math.atan2(ux, uz) + (side > 0 || rd.one ? 0 : Math.PI), ...car });
         }
       }
@@ -2053,27 +2251,32 @@ function clearance(map) {
     for (let k = 0; k < p.length; k += 2) { x0 = Math.min(x0, p[k]); x1 = Math.max(x1, p[k]); z0 = Math.min(z0, p[k + 1]); z1 = Math.max(z1, p[k + 1]); }
     add({ poly: p }, x0, z0, x1, z1);
   };
-  const line = (p, half) => {
+  const line = (p, half, road = false) => {
     for (let k = 0; k + 3 < p.length; k += 2) {
-      const b = { p: p.slice(k, k + 4), half };
+      const b = { p: p.slice(k, k + 4), half, road };
       add(b, Math.min(b.p[0], b.p[2]) - half, Math.min(b.p[1], b.p[3]) - half, Math.max(b.p[0], b.p[2]) + half, Math.max(b.p[1], b.p[3]) + half);
     }
   };
   for (const b of map.buildings) poly(b.p);
   for (const a of map.areas) if (a.k === 'water') poly(a.p);
   for (const w of map.water) line(w.p, w.w / 2);
-  for (const rd of map.roads) if (!rd.foot) line(rd.p, rd.w / 2 + 0.3);
-  const blocks = (x, z) => b => {
+  for (const rd of map.roads) if (!rd.foot) line(rd.p, rd.w / 2 + 0.3, true);
+  const blocks = (x, z, skip) => b => {
+    if (skip && b.road) return false; // a street across a square is the square's paving
     if (b.poly) return pointIn(x, z, b.poly);
     const [ax, az, bx, bz] = b.p, dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9;
     const t = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / L));
     return Math.hypot(x - ax - t * dx, z - az - t * dz) < b.half;
   };
-  const hit = (x, z) => {
-    const i = Math.floor(x / CELL), j = Math.floor(z / CELL), on = blocks(x, z);
+  const hit = (x, z, skip) => {
+    const i = Math.floor(x / CELL), j = Math.floor(z / CELL), on = blocks(x, z, skip);
     return (grid.get(key(i, j)) ?? []).some(on) || wide.some(w => i >= w.i0 && i <= w.i1 && j >= w.j0 && j <= w.j1 && on(w.b));
   };
-  return (x, z, m = 0) => !hit(x, z) && (!m || ![[m, 0], [-m, 0], [0, m], [0, -m]].some(([ox, oz]) => hit(x + ox, z + oz)));
+  // squares: the streets across a square (SQUARES, tables stand out on its paving) do not count
+  return (x, z, m = 0, squares = false) => {
+    const skip = squares && !!squareAt(x, z);
+    return !hit(x, z, skip) && (!m || ![[m, 0], [-m, 0], [0, m], [0, -m]].some(([ox, oz]) => hit(x + ox, z + oz, skip)));
+  };
 }
 
 // A polyline [x, z, x, z, ...] moved d metres to its left.
@@ -2128,14 +2331,17 @@ function osmTrams(ctx, map) {
 }
 
 // A tour boat (rondvaartboot): a long, low, open boat with benches full of people. Its bow is +z.
-function boatGeometry(r) {
-  const parts = [];
-  const paint = (geo, hex) => {
+export function painter(parts) {
+  return (geo, hex) => {
     const g = geo.index ? geo.toNonIndexed() : geo, c = new THREE.Color(hex), n = g.attributes.position.count;
     g.setAttribute('color', new THREE.Float32BufferAttribute(Array.from({ length: n * 3 }, (_, i) => [c.r, c.g, c.b][i % 3]), 3));
     g.deleteAttribute('uv');
     parts.push(g);
   };
+}
+
+function boatGeometry(r) {
+  const parts = [], paint = painter(parts);
   const outline = s => {
     const sh = new THREE.Shape();
     sh.moveTo(-1.5 * s, 5.5 * s);
@@ -2244,6 +2450,112 @@ export function tourBoat() {
   return boat;
 }
 
+// A racing boat of the Watersportbaan: a long, narrow shell with a row of rowers one behind the
+// other, each with an oar out to either side. Its bow is +z, its waterline y = 0.
+export function rowingBoat() {
+  const parts = [], paint = painter(parts);
+  const hull = new THREE.Shape();
+  hull.moveTo(-0.28, 0);
+  hull.quadraticCurveTo(-0.3, 3.2, 0, 4.6);
+  hull.quadraticCurveTo(0.3, 3.2, 0.28, 0);
+  hull.quadraticCurveTo(0.3, -3.2, 0, -4.6);
+  hull.quadraticCurveTo(-0.3, -3.2, -0.28, 0);
+  paint(new THREE.ExtrudeGeometry(hull, { depth: 0.3, bevelEnabled: false }).rotateX(-Math.PI / 2).translate(0, -0.1, 0), 0xf2c230);
+  const kits = [0xe53935, 0x1e88e5, 0xffffff, 0x43a047];
+  for (let i = 0; i < 4; i++) {
+    const z = -2.4 + i * 1.5, kit = kits[i];
+    paint(new THREE.BoxGeometry(0.34, 0.5, 0.28).translate(0, 0.55, z), kit); // torso
+    paint(new THREE.SphereGeometry(0.12, 8, 6).translate(0, 0.98, z), 0xf1c9a5); // head
+    paint(new THREE.BoxGeometry(0.1, 0.1, 0.5).translate(-0.17, 0.5, z + 0.3), kit); // arms, reaching to the oar
+    paint(new THREE.BoxGeometry(0.1, 0.1, 0.5).translate(0.17, 0.5, z + 0.3), kit);
+    for (const s of [-1, 1]) { // the oar: a rigger, a long loom out to the side and a blade
+      paint(new THREE.BoxGeometry(1.7, 0.04, 0.04).translate(s * 0.95, 0.4, z + 0.1), 0x4b5563);
+      paint(new THREE.BoxGeometry(0.5, 0.02, 0.16).translate(s * 2.05, 0.1, z + 0.1), 0x1d3557);
+    }
+  }
+  return new THREE.Mesh(mergeGeometries(parts), new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.7 }));
+}
+
+// Someone swimming in the Blaarmeersen's lake in swimming trunks, bare-chested, doing the crawl.
+// Facing +z, seen from behind and above, with the water at y = 0. Its stroke(t, speed) turns the
+// arms and kicks the legs.
+export function swimmer() {
+  const skin = 0xf1c9a5, material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.8 });
+  const part = (make, x, y, z) => { // a limb or the body, its own mesh turning about (x, y, z)
+    const parts = [];
+    make(painter(parts));
+    const mesh = new THREE.Mesh(mergeGeometries(parts), material), pivot = new THREE.Group();
+    pivot.position.set(x, y, z);
+    pivot.add(mesh);
+    return pivot;
+  };
+  const group = new THREE.Group();
+  group.add(part(paint => {
+    paint(new THREE.BoxGeometry(0.5, 0.2, 0.5).translate(0, 0, -0.1), skin); // the bare back and shoulders
+    paint(new THREE.BoxGeometry(0.44, 0.2, 0.4).translate(0, -0.02, -0.55), 0x1e88e5); // the swimming trunks
+    paint(new THREE.SphereGeometry(0.13, 8, 6).translate(0, 0.05, 0.28), 0x5b3a29); // the head
+  }, 0, 0, 0));
+  const limb = (geo, x, y, z) => { const l = part(paint => paint(geo, skin), x, y, z); group.add(l); return l; };
+  const arms = [-1, 1].map(s => limb(new THREE.BoxGeometry(0.12, 0.08, 0.6).translate(0, 0, 0.3), s * 0.34, 0.05, 0.1));
+  const legs = [-1, 1].map(s => limb(new THREE.BoxGeometry(0.13, 0.1, 0.5).translate(0, 0, -0.25), s * 0.1, -0.05, -0.7));
+  group.scale.setScalar(1.2);
+  group.userData.stroke = (t, speed) => {
+    const k = 3 + Math.min(1, Math.abs(speed) / 6) * 4; // strokes come faster as you swim faster
+    arms.forEach((a, i) => { a.rotation.x = -t * k + i * Math.PI; });
+    legs.forEach((l, i) => { l.rotation.x = Math.sin(t * k * 2.5 + i * Math.PI) * 0.35; });
+    group.rotation.z = Math.sin(t * k) * 0.12; // rolling a little with each stroke
+  };
+  return group;
+}
+
+// The houseboats and the old ships moored along the quays, which the map has as buildings standing
+// in the water: each a hull afloat on the water's surface, as long and wide as its outline, with
+// a low cabin on its deck, a row of windows down each side and a flat roof. All of them one mesh.
+function mooredBoats(ctx, map) {
+  const boats = map.buildings.filter(b => BOAT_KINDS.has(b.k) && !b.gone);
+  if (!boats.length) return;
+  const pools = map.areas.filter(a => a.k === 'water' && a.level != null);
+  const hulls = [0x22313f, 0x3b2a22, 0x1f3b2e, 0x6b1f1f, 0x2b2b2b], cabins = [0xece7da, 0xd8c6a0, 0x8fa89a, 0xa9bccf, 0x9a6b4a, 0xf2f0ea];
+  const parts = [];
+  boats.forEach((b, n) => {
+    const p = b.p;
+    // its outline's tightest box, turned along one of its edges: the hull
+    let best = null;
+    for (let k = 0; k < p.length; k += 2) {
+      const j = (k + 2) % p.length, dx = p[j] - p[k], dz = p[j + 1] - p[k + 1], L = Math.hypot(dx, dz);
+      if (L < 0.5) continue;
+      const ux = dx / L, uz = dz / L;
+      let a0 = Infinity, a1 = -Infinity, c0 = Infinity, c1 = -Infinity;
+      for (let m = 0; m < p.length; m += 2) {
+        const a = p[m] * ux + p[m + 1] * uz, c = -p[m] * uz + p[m + 1] * ux;
+        a0 = Math.min(a0, a); a1 = Math.max(a1, a); c0 = Math.min(c0, c); c1 = Math.max(c1, c);
+      }
+      const box = { ux, uz, len: a1 - a0, wid: c1 - c0, ma: (a0 + a1) / 2, mc: (c0 + c1) / 2 };
+      if (box.len < box.wid) Object.assign(box, { ux: -uz, uz: ux, len: box.wid, wid: box.len, ma: box.mc, mc: -box.ma });
+      if (!best || box.len * box.wid < best.len * best.wid) best = box;
+    }
+    if (!best) return;
+    const { ux, uz, len, wid } = best, cx = best.ma * ux - best.mc * uz, cz = best.ma * uz + best.mc * ux;
+    const level = pools.find(a => pointIn(cx, cz, a.p))?.level ?? WATER;
+    const h1 = hashOf(n + 7), h2 = hashOf(n + 19), kit = new Kit();
+    const hull = hulls[Math.floor(h1 * hulls.length)], cabin = cabins[Math.floor(h2 * cabins.length)];
+    kit.box(len, 1.3, wid, hull, 0, level - 0.25, 0); // the hull, half of it under water
+    kit.box(len + 0.06, 0.12, wid + 0.06, 0xf4f2ec, 0, level + 0.36, 0); // a white band along its rim
+    kit.box(len - 0.3, 0.06, wid - 0.3, 0x8a6a48, 0, level + 0.43, 0); // the deck
+    // the cabin: most of its length, off towards the stern, a little in from the sides
+    const cl = Math.max(2, len - Math.min(4, len * 0.25)), cw = Math.max(1.5, wid - 0.9), ch = len > 30 ? 2.6 : 2.3, co = -(len - cl) / 2 + 0.4;
+    kit.box(cl, ch, cw, cabin, co, level + 0.46 + ch / 2, 0);
+    kit.box(cl + 0.5, 0.16, cw + 0.5, 0x3a3d40, co, level + 0.46 + ch + 0.08, 0); // its flat roof, overhanging
+    for (let x = -cl / 2 + 1.2; x <= cl / 2 - 1; x += 2.2) {
+      for (const side of [1, -1]) kit.box(1.2, 0.85, 0.05, 0x2a3440, co + x, level + 0.46 + ch * 0.6, side * (cw / 2 + 0.02));
+    }
+    const geo = kit.geometry();
+    geo.rotateY(Math.atan2(-uz, ux)).translate(cx, 0, cz);
+    parts.push(geo);
+  });
+  if (parts.length) mesh(ctx, mergeGeometries(parts), kitMat(0.8), 0, 0, 0);
+}
+
 // Tour boats going slowly up and down the river and the canals, keeping to the right; or, where
 // the city has them (BOATS.kind 'gondola': Venice), gondolas, more of them, slower, nearer the
 // middle of the narrow canals.
@@ -2302,6 +2614,7 @@ export function buildCity(group, tracks, cfg) {
   const all = { hw: tracks[0].hw, distTo: (x, z) => Math.min(...tracks.map(t => t.distTo(x, z))) };
   const ctx = context(group, all, cfg, 9000), map = cfg.map;
   ctx.clear = clearance(map);
+  ctx.targets = []; // who stands or sits still and can be hit by a paintball (js/splat.js)
   const paintSky = sky(ctx);
   ground(ctx);
   const mats = groundMats(ctx);
@@ -2314,13 +2627,14 @@ export function buildCity(group, tracks, cfg) {
   const signals = addSignals(ctx, SIGNALS, CROSSINGS);
   const traffic = addTraffic(ctx, map, tracks, BUS_LINES, signals);
   osmBoats(ctx, map);
+  mooredBoats(ctx, map);
   ctx.landmarks = addLandmarks(ctx.group, (x, z, r, make) => later(ctx.group, x, z, r, make)); // each built once in sight
   osmBuildings(ctx, map);
   addSitters(ctx, map);
   const posts = addFurniture(ctx, map);
   clouds(ctx);
   return {
-    clear: ctx.clear, update: ctx.update, traffic, trams, ledges, posts, setNight: furnitureNight,
+    clear: ctx.clear, update: ctx.update, traffic, trams, ledges, posts, targets: ctx.targets, setNight: furnitureNight,
     paintSky, cloudMat: ctx.cloudMat, grass: [ctx.groundPlane.material, mats.garden, mats.park], // what snow covers
   };
 }

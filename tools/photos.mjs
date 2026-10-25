@@ -12,7 +12,7 @@
 // --category "..."  a Commons category to take the pictures from as well (without "Category:")
 // --n 8             how many photos to keep from each source
 //
-// Mapillary needs a free access token (mapillary.com/dashboard/developers) in MAPILLARY_TOKEN;
+// Mapillary needs a free access token (mapillary.com/dashboard/developers) in MAPILLARY_TOKEN (or in .env);
 // without it only Commons is asked. Each folder gets a sources.json with the author, licence and
 // link of every photo, for the credits.
 import fs from 'node:fs';
@@ -21,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { mapCoords } from './mapcoords.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
+try { process.loadEnvFile(path.join(HERE, '..', '.env')); } catch {} // MAPILLARY_TOKEN, kept out of git
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
 const MAPILLARY = 'https://graph.mapillary.com/images';
 const HEADERS = { 'User-Agent': 'instant-gent photo tool (https://github.com/woutersmet/instant-gent)' };
@@ -178,7 +179,8 @@ for (const id of targets) {
   fs.mkdirSync(dir, { recursive: true });
 
   const mapillary = await fromMapillary(t);
-  const picked = [...(await fromCommons(t)).slice(0, N), ...(mapillary ?? []).slice(0, N)];
+  const fromWiki = await fromCommons(t).catch(e => (console.error(`  Commons skipped: ${e.cause?.code ?? e.message}`), []));
+  const picked = [...fromWiki.slice(0, N), ...(mapillary ?? []).slice(0, N)];
   const kept = [];
   for (const [k, p] of picked.entries()) {
     const file = `${String(k + 1).padStart(2, '0')}-${p.source}.jpg`;

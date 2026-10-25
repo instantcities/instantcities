@@ -44,6 +44,16 @@ phone emulation (375×812, `pointer: coarse`, so `LOW_POWER` is on), on `/ghent/
    all, to compare). A phone parks half of those bikes again, as before.
 6. **A phone sees less far**: its fog closes in at 70% of the distance (`SIGHT` in `device.js`).
 
+7. **The trams' and the tram stops' signs shared.** Every tram had a canvas of its own for the
+   destination display at each end (~17 MB for the fleet); now there is one texture per line and
+   way, which every tram on it shows (`signFor` in `trams.js`). A stop's platforms share their sign
+   face (`signTexture` in `tramplatform.js`), and both let their canvas go once uploaded. Canvases
+   held round the Korenmarkt and the Graslei: 117–139 → 94–117 MB. (The departure boards keep theirs:
+   they are drawn again every few seconds.)
+8. **A phone lets go sooner:** `SLACK` (`tiles.js`) is 80 m on a phone, 200 m on a computer. Riding
+   round the old centre (Kouter, Korenmarkt, Graslei, Vleeshuis, Gravensteen, Vrijdagmarkt, Belfort,
+   Sint-Baafs and back), the GPU process ended at ~495 MB instead of ~535 MB.
+
 **Memory, phone emulation, before → after (2):** geometry 149 → 88–100 MB, canvases 150–154 →
 81–91 MB in town and 7–23 MB out of it, JS heap (as read, not collected) ~770 → 420–480 MB.
 
@@ -66,6 +76,14 @@ phone emulation (375×812, `pointer: coarse`, so `LOW_POWER` is on), on `/ghent/
   `ghent3d.render()`, timing each `render()` (it also builds what came into sight), and watch
   `ghent3d.renderer.info.programs.length` for shader compiles. In a hidden browser tab the timers
   are throttled: step in synchronous chunks, and compare runs from the same session only.
+- **The centre is the peak, not a leak.** Riding the centre and out west and back, three times, the
+  GPU's geometry and texture counts come back to the same numbers each time (headless Chrome, iPhone
+  13 emulation, Oct 2026): the tab ~900–980 MB, its GPU process ~340–550 MB, the JS heap ~300 MB
+  (of it ~170 MB small plain arrays: the map's and the routes' outlines and points, `p`, `pts`), the
+  geometry's arrays ~140 MB. Canvases still held in town: ~75–115 MB, nearly all the houses' walls
+  and the drawn fronts built within sight but not yet drawn (their canvas goes once uploaded).
+  Bigger steps from here: draw those canvases only when first uploaded (but a turn round would then
+  draw many in one frame), or fewer pixels a metre on a phone (blurrier fronts up close).
 - **The ground** (~65 MB, built all at once) is only tiled, not built when in sight: its water,
   quays, hollows and the steps people sit on hang together more than the houses do.
 - **Each route's world** keeps its trees, cars and bikes for the whole city, and a route ridden
@@ -74,6 +92,50 @@ phone emulation (375×812, `pointer: coarse`, so `LOW_POWER` is on), on `/ghent/
   peak lower.
 - Freeing the geometry's own arrays after upload would save more, but the game does not handle a
   lost WebGL context, which iOS does: meshes would come back empty.
+
+## Startup time
+
+Every start (a new tab, the app opened again after iOS closed it) builds the whole city again from
+its map: nothing of it is kept between starts. The loading screen's steps time it: "Building the
+city" is `getCity()` + the first route's `getWorld()`, "Drawing the first frame" is `lookAround()`
+building what the menu's camera sees and the shaders compiling (only ~35 programs: not where it goes).
+
+Measured with a CPU profile of headless Chrome (WebGL on the CPU, so slower than a phone's GPU but
+the JavaScript in proportion), on the app's build (`app/www`):
+
+| | before | after |
+|---|---|---|
+| "Building the city" | 11.0–12.1 s | 9.2–9.4 s |
+| loading screen in all | 27.7–28.4 s | 24.8–24.9 s |
+
+What was made quicker (the city it builds is the same, checked with a fingerprint of every still
+mesh's geometry, placing, materials and textures):
+
+- `fitToHills` → `cut()` (`terrain.js`): the ground's height at a corner is looked up only when a
+  triangle needs it, and the index is read in place until a mesh is really cut. Most meshes lie where
+  the ground hardly bends and come back as they were.
+- `addFronts` (`fronts.js`): finds each hand-drawn house's building through a grid of the buildings'
+  middles, instead of working out every building's middle again for every house (~1 s).
+- `within` (`landmarks.js`, asked for every building of the map): each landmark ring's box first.
+- `sunkenWater` (`scenery.js`): the water's edge test (`wet`) looks only at the edges of a
+  water polygon in the point's band of z (`inside()`), and a body spanning many grid cells is kept
+  aside instead of put in each.
+- `cutMesh` (`tiles.js`): reads the positions straight from the array, with a number for a tile's key.
+
+Where the rest goes, largest first (profile, ms, of the "after"): `buildCity` ~5400 (the ground
+~1900, of it the quay walls ~500 and the street strips ~360; the furniture ~870, mostly `room()`
+asking `ctx.free`/`ctx.clear` with `pointIn` on buildings; `osmBuildings` ~680; the tram stops
+~350; the traffic network ~360), `fitToHills` ~1800 (the loop over every triangle in `cut()`),
+`tileUp` ~600, and in the first frame `lookAround()` ~3000 (houses' wall textures, the drawn
+fronts' `elevation()` canvases, the landmarks). Ideas for later:
+
+- Work out at build time (`tools/`) what only depends on the map, e.g. which quay pieces get a wall,
+  where lamps and benches stand, which buildings `covers()` leaves out, and ship it with the map.
+- Keep what was built (geometry, canvas textures) in IndexedDB between starts, keyed by the
+  version. The biggest win, but a large change: ~100 MB of geometry and ~160 MB of textures, and
+  every builder's closures (`update`, `setNight`, the traffic) would need rebuilding round it.
+- Drop the loading screen before `lookAround()` has built everything round the menu's camera,
+  letting it pop in behind the menu.
 
 ## Lecce
 

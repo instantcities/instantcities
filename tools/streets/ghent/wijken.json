@@ -1,0 +1,30 @@
+{
+ "about": "Ghent's 25 official wijken, for tools/todo.mjs: each named by a few streets well inside it. Each house goes to the wijk of the anchor street nearest it, and a street to the wijk most of its houses are in, so near a border it can land in the neighbouring wijk; move it by adding it (or a street next to it) to the right wijk here. Long roads that cross several wijken make poor anchors. The outer wijken are mostly outside the map.",
+ "wijken": {
+  "Binnenstad": ["Korenmarkt", "Veldstraat", "Vrijdagmarkt", "Sint-Baafsplein", "Kouter", "Graslei", "Kraanlei", "Hoogpoort", "Lange Kruisstraat", "Brabantdam", "Onderbergen", "Burgstraat", "Oudburg", "Sint-Jacobsnieuwstraat", "Ajuinlei", "Kortrijksepoortstraat"],
+  "Brugse Poort - Rooigem": ["Cederstraat", "Phoenixstraat", "Kastanjestraat", "Haspelstraat", "Emilius Seghersplein", "Malemstraat", "Luiklaan", "Heldenplein", "Weerstandsplein", "Schaverdijnstraat", "Nadine Crappéstraat", "Ooievaarstraat", "Leiekaai", "Charlotte Despardstraat"],
+  "Rabot - Blaisantvest": ["Wondelgemstraat", "Opgeëistenlaan", "Blaisantvest", "Rabotstraat", "Begijnhoflaan", "Tweebruggenstraat"],
+  "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-Michiels": ["Prinsenhof", "Abrahamstraat", "Begijnhofdries", "Sint-Michielsstraat", "Papegaaistraat", "Hoogstraat", "Holstraat", "Pijndersstraat"],
+  "Watersportbaan - Ekkergem": ["Ekkergemstraat", "Watersportlaan", "Strandlaan", "Noorderlaan", "Zuiderlaan", "Neermeerskaai", "Jan Delvinlaan", "Bijlokemeers", "Groot-Brittanniëlaan"],
+  "Stationsbuurt-Noord": ["Koning Albertlaan", "Meersstraat", "Smidsestraat", "Paul Fredericqstraat", "Overpoortstraat", "Sint-Pietersnieuwstraat", "Citadellaan", "Kunstlaan", "Hoveniersberg", "Sint-Pietersplein", "Baliestraat", "Eedverbondkaai"],
+  "Stationsbuurt-Zuid": ["Krijgslaan", "Sint-Denijslaan", "Koningin Fabiolalaan", "Ganzendries", "Jozef Cantréstraat", "Wiemersdreef", "Prosper Claeysstraat", "Désiré Van Monckhovenstraat", "Koningin Elisabethlaan"],
+  "Sluizeken - Tolhuis - Ham": ["Sleepstraat", "Sluizeken", "Tolhuislaan", "Ham", "Lange Steenstraat", "Goudstraat"],
+  "Muide - Meulestede - Afrikalaan": ["Afrikalaan", "Voormuide", "Muidelaan"],
+  "Dampoort": ["Dampoortstraat", "Land van Waaslaan", "Antwerpenplein", "Lange Violettestraat", "Karperstraat"],
+  "Sint-Amandsberg": ["Visserij", "Heilig-Hartstraat", "Jean Béthunestraat", "Doornakkerstraat", "Joseph Gérardstraat"],
+  "Gentbrugge": [],
+  "Oud Gentbrugge": ["Oude Brusselseweg"],
+  "Ledeberg": ["Bellevue", "Scheldekaai"],
+  "Macharius - Heirnis": ["Forelstraat", "Kasteellaan", "Hagelandkaai"],
+  "Nieuw Gent - UZ": [],
+  "Bloemekenswijk": ["Hortensiastraat", "Dahliastraat", "Groendreef", "Palinghuizen", "Tortelduifstraat", "Virginiastraat", "Textielstraat"],
+  "Mariakerke": [],
+  "Sint-Denijs-Westrem - Afsnee": [],
+  "Zwijnaarde": [],
+  "Moscou - Vogelhoek": [],
+  "Wondelgem": [],
+  "Oostakker": [],
+  "Drongen": [],
+  "Kanaaldorpen en -zone": []
+ }
+}

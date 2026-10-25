@@ -1,5 +1,6 @@
 import * as THREE from 'three';
-import { tramPlatform } from './tramplatform.js';
+import { tramPlatform, HIGH } from './tramplatform.js';
+import { addWaiting } from './stops.js';
 
 // The tram stops of the city's tram lines (TRAM_STOPS, see tramlines.js): at each a platform
 // (tramplatform.js) beside the track where the tram halts, on the side its doors open, its board
@@ -7,7 +8,7 @@ import { tramPlatform } from './tramplatform.js';
 // it is bent along with it.
 //
 // Each stop gets a `post`: { x, z, y }, where its sign stands on the platform, the place to wait at
-// (main.js); the platforms' tops are returned as ledges, for the ground to step up onto (relief.js).
+// (main.js), and a `platform`: [x0, z0, x1, z1] down its middle; the platforms' tops are returned as ledges, for the ground to step up onto (relief.js).
 
 const LONG = 36; // metres: a platform, a little shorter than the tram
 
@@ -15,24 +16,33 @@ const LONG = 36; // metres: a platform, a little shorter than the tram
 export function addTramStops(ctx, stops, trams) {
   if (!stops?.length || !trams) return [];
   const { net, fleet, LENGTH } = trams;
-  const ledges = [], boards = [];
+  const ledges = [], boards = [], waiting = [];
   stops.forEach((s, k) => {
     const [run, at] = s.serves[0], e = net.edges[run];
     const lines = [...new Map(s.serves.map(([r]) => net.edges[r].line).map(l => [l.ref, l])).values()];
-    const p = tramPlatform({ length: LONG, width: s.w ?? 2.6, lines, name: s.name, seed: k + 1 });
+    const p = tramPlatform({ length: LONG, width: s.w ?? 2.6, lines, name: s.name, seed: k + 1, crowd: false });
     const bend = along(e, at);
     p.traverse(m => { if (m.isMesh) m.geometry = bent(m.geometry, bend); });
     ctx.group.add(p);
     const { post, ledge, board } = p.userData, [ax, az, bx, bz, half] = ledge;
     const q = bend(post.x, post.y, post.z);
     s.post = { x: q[0], y: q[1], z: q[2] };
+    // the platform's middle line, end to end, for how near the stop someone is (main.js)
+    const a0 = bend(ax, post.y, az), a1 = bend(bx, post.y, bz);
+    s.platform = [a0[0], a0[2], a1[0], a1[2]];
     // its top down its middle, a piece every 4 m
     for (let t = 0; t < 1; t += 0.125) {
       const l0 = bend(ax + (bx - ax) * t, post.y, az + (bz - az) * t), l1 = bend(ax + (bx - ax) * (t + 0.125), post.y, az + (bz - az) * (t + 0.125));
       ledges.push([l0[0], l0[2], l1[0], l1[2], l0[1], l1[1], half]);
     }
     boards.push({ s, board, text: null });
+    // the people waiting stand on their own (they can be hit by a paintball, see splat.js)
+    for (const w of p.userData.waiting) {
+      const a = bend(w.x, HIGH, w.z), b = bend(w.x, HIGH, w.z - 1); // the way the platform runs there (-z)
+      waiting.push({ x: a[0], y: a[1], z: a[2], yaw: Math.atan2(b[0] - a[0], b[2] - a[2]) + Math.PI + w.turn, size: w.size, c: w.c });
+    }
   });
+  addWaiting(ctx, waiting, w => { ctx.dummy.position.set(w.x, w.y, w.z); ctx.dummy.rotation.set(0, w.yaw, 0); ctx.dummy.scale.setScalar(w.size); });
 
   // the boards, a few each frame: when the next trams are due, from where they are now
   let next = 0;

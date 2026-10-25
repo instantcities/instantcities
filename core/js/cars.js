@@ -386,6 +386,7 @@ export function addCars(group, cars) {
           d.rotation.set(0, c.yaw, 0);
           d.updateMatrix();
           im.setMatrixAt(i, d.matrix);
+          (c.slots ??= []).push([im, i]); // so a car can be taken away (stolen) again
           if (m === CAR_MAT) im.setColorAt(i, new THREE.Color(c.c ?? 0xffffff));
         });
         im.castShadow = im.receiveShadow = true;

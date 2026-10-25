@@ -1,0 +1,5678 @@
+{
+ "city": "ghent",
+ "street": "Kogelstraat",
+ "slug": "kogelstraat",
+ "photos": {
+  "297828751961415": {
+   "file": "photos/297828751961415.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=297828751961415",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0589522,
+    3.7415335,
+    268,
+    0.426
+   ]
+  },
+  "4005340899558501": {
+   "file": "photos/4005340899558501.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4005340899558501",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0586808,
+    3.7415009,
+    316,
+    0.727
+   ]
+  },
+  "389571432177363": {
+   "file": "photos/389571432177363.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=389571432177363",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0589469,
+    3.7415401,
+    308,
+    0.426
+   ]
+  },
+  "1372943470339089-252": {
+   "file": "photos/1372943470339089-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1372943470339089",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0595749,
+    3.7413568,
+    252,
+    0.5
+   ]
+  },
+  "2430025260678136-268": {
+   "file": "photos/2430025260678136-268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2430025260678136",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0593124,
+    3.7412885,
+    268,
+    0.5
+   ]
+  },
+  "1167461515385945-303": {
+   "file": "photos/1167461515385945-303.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1167461515385945",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.059839,
+    3.7414165,
+    303,
+    0.5
+   ]
+  },
+  "1133873998372621-290": {
+   "file": "photos/1133873998372621-290.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133873998372621",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0597501,
+    3.7413923,
+    290,
+    0.5
+   ]
+  },
+  "1133873998372621-254": {
+   "file": "photos/1133873998372621-254.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133873998372621",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0597501,
+    3.7413923,
+    254,
+    0.5
+   ]
+  },
+  "634873649001243-279": {
+   "file": "photos/634873649001243-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634873649001243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0601993,
+    3.7415289,
+    279,
+    0.5
+   ]
+  },
+  "935589752006792-298": {
+   "file": "photos/935589752006792-298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=935589752006792",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.060105,
+    3.7415047,
+    298,
+    0.5
+   ]
+  },
+  "935589752006792-273": {
+   "file": "photos/935589752006792-273.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=935589752006792",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.060105,
+    3.7415047,
+    273,
+    0.5
+   ]
+  },
+  "1123989755686510-292": {
+   "file": "photos/1123989755686510-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1123989755686510",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0600158,
+    3.7414704,
+    292,
+    0.5
+   ]
+  },
+  "1123989755686510-263": {
+   "file": "photos/1123989755686510-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1123989755686510",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0600158,
+    3.7414704,
+    263,
+    0.5
+   ]
+  },
+  "1275856087043600-283": {
+   "file": "photos/1275856087043600-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1275856087043600",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0599276,
+    3.7414401,
+    283,
+    0.5
+   ]
+  },
+  "888557433205546-291": {
+   "file": "photos/888557433205546-291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888557433205546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0603845,
+    3.7415741,
+    291,
+    0.5
+   ]
+  },
+  "888557433205546-266": {
+   "file": "photos/888557433205546-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888557433205546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0603845,
+    3.7415741,
+    266,
+    0.5
+   ]
+  },
+  "797105955947143-285": {
+   "file": "photos/797105955947143-285.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=797105955947143",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0602938,
+    3.7415516,
+    285,
+    0.5
+   ]
+  },
+  "797105955947143-260": {
+   "file": "photos/797105955947143-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=797105955947143",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0602938,
+    3.7415516,
+    260,
+    0.5
+   ]
+  },
+  "2430025260678136-322": {
+   "file": "photos/2430025260678136-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2430025260678136",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0593124,
+    3.7412885,
+    322,
+    0.5
+   ]
+  },
+  "1167461515385945-269": {
+   "file": "photos/1167461515385945-269.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1167461515385945",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.059839,
+    3.7414165,
+    269,
+    0.5
+   ]
+  },
+  "604010905576930-271": {
+   "file": "photos/604010905576930-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604010905576930",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0596623,
+    3.7413791,
+    271,
+    0.5
+   ]
+  },
+  "1157821112393426-282": {
+   "file": "photos/1157821112393426-282.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1157821112393426",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0606454,
+    3.7416786,
+    282,
+    0.5
+   ]
+  },
+  "9274169779272020-302": {
+   "file": "photos/9274169779272020-302.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9274169779272020",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0604727,
+    3.7415984,
+    302,
+    0.5
+   ]
+  },
+  "1138062461443617-263": {
+   "file": "photos/1138062461443617-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138062461443617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0607277,
+    3.7417397,
+    263,
+    0.5
+   ]
+  },
+  "1649981045726262-292": {
+   "file": "photos/1649981045726262-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1649981045726262",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.06056,
+    3.7416351,
+    292,
+    0.5
+   ]
+  },
+  "3998520346935030": {
+   "file": "photos/3998520346935030.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3998520346935030",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608603,
+    3.7420348,
+    315,
+    0.426
+   ]
+  },
+  "1138062461443617-293": {
+   "file": "photos/1138062461443617-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138062461443617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0607277,
+    3.7417397,
+    293,
+    0.5
+   ]
+  },
+  "1138062461443617-331": {
+   "file": "photos/1138062461443617-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138062461443617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0607277,
+    3.7417397,
+    331,
+    0.5
+   ]
+  },
+  "1178946673789677-307": {
+   "file": "photos/1178946673789677-307.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1178946673789677",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0608026,
+    3.741826,
+    307,
+    0.5
+   ]
+  },
+  "661726299851214-274": {
+   "file": "photos/661726299851214-274.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=661726299851214",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0608387,
+    3.7420633,
+    274,
+    0.5
+   ]
+  },
+  "806854440225412": {
+   "file": "photos/806854440225412.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=806854440225412",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608677,
+    3.7420223,
+    307,
+    0.426
+   ]
+  },
+  "822714921956708": {
+   "file": "photos/822714921956708.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=822714921956708",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608724,
+    3.7420095,
+    289,
+    0.426
+   ]
+  },
+  "264245065423665": {
+   "file": "photos/264245065423665.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=264245065423665",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608392,
+    3.7420553,
+    338,
+    0.426
+   ]
+  },
+  "484253892690946": {
+   "file": "photos/484253892690946.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=484253892690946",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608512,
+    3.7420461,
+    330,
+    0.426
+   ]
+  },
+  "1603878057562373": {
+   "file": "photos/1603878057562373.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1603878057562373",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0582641,
+    3.7413161,
+    56,
+    0.676
+   ]
+  },
+  "1102465260219701": {
+   "file": "photos/1102465260219701.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1102465260219701",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0588195,
+    3.7413512,
+    88,
+    0.426
+   ]
+  },
+  "1756082641616455-30": {
+   "file": "photos/1756082641616455-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1756082641616455",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0586262,
+    3.7415181,
+    30,
+    0.5
+   ]
+  },
+  "1510845253715719": {
+   "file": "photos/1510845253715719.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1510845253715719",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0583257,
+    3.7415971,
+    74,
+    0.676
+   ]
+  },
+  "1155059708293900": {
+   "file": "photos/1155059708293900.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155059708293900",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0583646,
+    3.741765,
+    83,
+    0.425
+   ]
+  },
+  "939376002352789": {
+   "file": "photos/939376002352789.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=939376002352789",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0583135,
+    3.7415366,
+    85,
+    0.676
+   ]
+  },
+  "300035144961509": {
+   "file": "photos/300035144961509.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=300035144961509",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0582593,
+    3.741386,
+    74,
+    0.425
+   ]
+  },
+  "1627741298279907": {
+   "file": "photos/1627741298279907.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1627741298279907",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0578129,
+    3.7419268,
+    43,
+    0.574
+   ]
+  },
+  "919423328850074": {
+   "file": "photos/919423328850074.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=919423328850074",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0577764,
+    3.7420306,
+    40,
+    0.727
+   ]
+  },
+  "1262908592064475": {
+   "file": "photos/1262908592064475.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1262908592064475",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0583514,
+    3.7417185,
+    93,
+    0.676
+   ]
+  },
+  "1166899477064942": {
+   "file": "photos/1166899477064942.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1166899477064942",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0582652,
+    3.7414159,
+    71,
+    0.425
+   ]
+  },
+  "1568716993833132-77": {
+   "file": "photos/1568716993833132-77.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1568716993833132",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0591337,
+    3.7412325,
+    77,
+    0.5
+   ]
+  },
+  "1372943470339089-120": {
+   "file": "photos/1372943470339089-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1372943470339089",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0595749,
+    3.7413568,
+    120,
+    0.5
+   ]
+  },
+  "2430025260678136-65": {
+   "file": "photos/2430025260678136-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2430025260678136",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0593124,
+    3.7412885,
+    65,
+    0.5
+   ]
+  },
+  "604010905576930-69": {
+   "file": "photos/604010905576930-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604010905576930",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0596623,
+    3.7413791,
+    69,
+    0.5
+   ]
+  },
+  "935589752006792-96": {
+   "file": "photos/935589752006792-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=935589752006792",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.060105,
+    3.7415047,
+    96,
+    0.5
+   ]
+  },
+  "797105955947143-127": {
+   "file": "photos/797105955947143-127.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=797105955947143",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0602938,
+    3.7415516,
+    127,
+    0.5
+   ]
+  },
+  "1824451537723829": {
+   "file": "photos/1824451537723829.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1824451537723829",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0607106,
+    3.7417295,
+    58,
+    0.575
+   ]
+  },
+  "2430025260678136-104": {
+   "file": "photos/2430025260678136-104.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2430025260678136",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0593124,
+    3.7412885,
+    104,
+    0.5
+   ]
+  },
+  "1167461515385945-69": {
+   "file": "photos/1167461515385945-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1167461515385945",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.059839,
+    3.7414165,
+    69,
+    0.5
+   ]
+  },
+  "1167461515385945-113": {
+   "file": "photos/1167461515385945-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1167461515385945",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.059839,
+    3.7414165,
+    113,
+    0.5
+   ]
+  },
+  "1133873998372621-88": {
+   "file": "photos/1133873998372621-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133873998372621",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0597501,
+    3.7413923,
+    88,
+    0.5
+   ]
+  },
+  "604010905576930-107": {
+   "file": "photos/604010905576930-107.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604010905576930",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0596623,
+    3.7413791,
+    107,
+    0.5
+   ]
+  },
+  "1372943470339089-87": {
+   "file": "photos/1372943470339089-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1372943470339089",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0595749,
+    3.7413568,
+    87,
+    0.5
+   ]
+  },
+  "634873649001243-84": {
+   "file": "photos/634873649001243-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634873649001243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0601993,
+    3.7415289,
+    84,
+    0.5
+   ]
+  },
+  "634873649001243-134": {
+   "file": "photos/634873649001243-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634873649001243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0601993,
+    3.7415289,
+    134,
+    0.5
+   ]
+  },
+  "1123989755686510-69": {
+   "file": "photos/1123989755686510-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1123989755686510",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0600158,
+    3.7414704,
+    69,
+    0.5
+   ]
+  },
+  "1275856087043600-80": {
+   "file": "photos/1275856087043600-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1275856087043600",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0599276,
+    3.7414401,
+    80,
+    0.5
+   ]
+  },
+  "888557433205546-108": {
+   "file": "photos/888557433205546-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888557433205546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0603845,
+    3.7415741,
+    108,
+    0.5
+   ]
+  },
+  "797105955947143-71": {
+   "file": "photos/797105955947143-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=797105955947143",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0602938,
+    3.7415516,
+    71,
+    0.5
+   ]
+  },
+  "3369259023224227": {
+   "file": "photos/3369259023224227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3369259023224227",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0580479,
+    3.7420622,
+    149,
+    0.809
+   ]
+  },
+  "284502020025308": {
+   "file": "photos/284502020025308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=284502020025308",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0580023,
+    3.7422212,
+    172,
+    0.426
+   ]
+  },
+  "1343643664245932": {
+   "file": "photos/1343643664245932.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1343643664245932",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0581291,
+    3.7419722,
+    147,
+    0.676
+   ]
+  },
+  "561036131543843": {
+   "file": "photos/561036131543843.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=561036131543843",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.05812,
+    3.7420814,
+    155,
+    0.427
+   ]
+  },
+  "2415782188835057": {
+   "file": "photos/2415782188835057.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2415782188835057",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0581195,
+    3.7420406,
+    145,
+    0.809
+   ]
+  },
+  "1051357272021789": {
+   "file": "photos/1051357272021789.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1051357272021789",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0580001,
+    3.7422095,
+    148,
+    0.427
+   ]
+  },
+  "1160128851076977": {
+   "file": "photos/1160128851076977.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160128851076977",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608595,
+    3.7419582,
+    191,
+    0.426
+   ]
+  },
+  "4009200809138250": {
+   "file": "photos/4009200809138250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4009200809138250",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0589232,
+    3.7415139,
+    201,
+    0.426
+   ]
+  },
+  "1041225472950415": {
+   "file": "photos/1041225472950415.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1041225472950415",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0589049,
+    3.7414996,
+    207,
+    0.426
+   ]
+  },
+  "1281320069839998-279": {
+   "file": "photos/1281320069839998-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1281320069839998",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.058545,
+    3.7416067,
+    279,
+    0.5
+   ]
+  },
+  "1281320069839998-222": {
+   "file": "photos/1281320069839998-222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1281320069839998",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.058545,
+    3.7416067,
+    222,
+    0.5
+   ]
+  },
+  "1873489263397277": {
+   "file": "photos/1873489263397277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1873489263397277",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0584967,
+    3.7418212,
+    248,
+    0.667
+   ]
+  },
+  "1634288756742671": {
+   "file": "photos/1634288756742671.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1634288756742671",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0584058,
+    3.7418491,
+    209,
+    0.43
+   ]
+  },
+  "217980234312714": {
+   "file": "photos/217980234312714.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=217980234312714",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-13",
+   "cam": [
+    51.0580716,
+    3.7426734,
+    261,
+    0.498
+   ]
+  },
+  "1746496085764158": {
+   "file": "photos/1746496085764158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1746496085764158",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-01-08",
+   "cam": [
+    51.0580716,
+    3.7426732,
+    261,
+    0.493
+   ]
+  },
+  "180527513939415": {
+   "file": "photos/180527513939415.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=180527513939415",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0589138,
+    3.7415069,
+    213,
+    0.426
+   ]
+  },
+  "1674140316840742-195": {
+   "file": "photos/1674140316840742-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1674140316840742",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0581941,
+    3.741995,
+    195,
+    0.5
+   ]
+  },
+  "597425989929828-251": {
+   "file": "photos/597425989929828-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=597425989929828",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0581296,
+    3.7420684,
+    251,
+    0.5
+   ]
+  },
+  "1677357656036017": {
+   "file": "photos/1677357656036017.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1677357656036017",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-13",
+   "cam": [
+    51.0580631,
+    3.7426483,
+    251,
+    0.498
+   ]
+  },
+  "253134850561916": {
+   "file": "photos/253134850561916.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=253134850561916",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-01-08",
+   "cam": [
+    51.0580631,
+    3.7426483,
+    251,
+    0.493
+   ]
+  },
+  "1398735810491697": {
+   "file": "photos/1398735810491697.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1398735810491697",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0583861,
+    3.7417502,
+    206,
+    0.425
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 28068,
+   "at": [
+    1522.05,
+    -780.5999999999999
+   ],
+   "centre": [
+    1518.2,
+    -781
+   ],
+   "width": 4.4,
+   "faces": 6,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1513.6,
+    -783.8,
+    1522.3,
+    -782.8,
+    1521.8,
+    -778.4,
+    1514.9,
+    -779.1
+   ],
+   "id": "kogelstraat-6-01",
+   "latLon": [
+    51.059022,
+    3.741165
+   ],
+   "photos": [
+    {
+     "id": "297828751961415",
+     "metres": 27,
+     "off": 19,
+     "span": [
+      0.618,
+      0.679
+     ]
+    },
+    {
+     "id": "4005340899558501",
+     "metres": 45,
+     "off": 12,
+     "span": [
+      0.639,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28071,
+   "at": [
+    1524.65,
+    -802.25
+   ],
+   "centre": [
+    1517.7,
+    -803.6
+   ],
+   "width": 4.3,
+   "faces": 7,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1516.7,
+    -805.6,
+    1524.9,
+    -804.4,
+    1524.4,
+    -800.1,
+    1511.6,
+    -801.6,
+    1511,
+    -806.5
+   ],
+   "id": "kogelstraat-7-02",
+   "latLon": [
+    51.059178,
+    3.741194
+   ],
+   "photos": [
+    {
+     "id": "389571432177363",
+     "metres": 35,
+     "off": 9,
+     "span": [
+      0.553,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28070,
+   "at": [
+    1524.15,
+    -797.95
+   ],
+   "centre": [
+    1518,
+    -798.6
+   ],
+   "width": 4.3,
+   "faces": 7,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1511.6,
+    -801.6,
+    1524.4,
+    -800.1,
+    1523.9,
+    -795.8,
+    1512.1,
+    -797
+   ],
+   "id": "kogelstraat-7-03",
+   "latLon": [
+    51.059147,
+    3.741189
+   ],
+   "photos": [
+    {
+     "id": "389571432177363",
+     "metres": 33,
+     "off": 5,
+     "span": [
+      0.516,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28069,
+   "at": [
+    1523.1,
+    -789.3
+   ],
+   "centre": [
+    1518,
+    -789.8
+   ],
+   "width": 13.1,
+   "faces": 7,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1512.1,
+    -797,
+    1523.9,
+    -795.8,
+    1522.3,
+    -782.8,
+    1513.6,
+    -783.8
+   ],
+   "id": "kogelstraat-7-04",
+   "latLon": [
+    51.059085,
+    3.741177
+   ],
+   "photos": [
+    {
+     "id": "389571432177363",
+     "metres": 30,
+     "off": 6,
+     "span": [
+      0.375,
+      0.516
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27882,
+   "at": [
+    1531.1,
+    -854.6
+   ],
+   "centre": [
+    1523.8,
+    -855.5
+   ],
+   "width": 6.8,
+   "faces": 7,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    1516.2,
+    -853,
+    1530.7,
+    -851.2,
+    1531.5,
+    -858,
+    1517,
+    -859.7
+   ],
+   "id": "kogelstraat-7-05",
+   "latLon": [
+    51.059557,
+    3.741268
+   ],
+   "photos": [
+    {
+     "id": "1372943470339089-252",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.342,
+      0.737
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27881,
+   "at": [
+    1530.3000000000002,
+    -847.8
+   ],
+   "centre": [
+    1518.4,
+    -849.5
+   ],
+   "width": 6.8,
+   "faces": 7,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    1516.2,
+    -853,
+    1530.7,
+    -851.2,
+    1529.9,
+    -844.4,
+    1518.5,
+    -845.8,
+    1518.9,
+    -848.4,
+    1513.3,
+    -848.8,
+    1513.5,
+    -850.1,
+    1512.1,
+    -850.2,
+    1512.4,
+    -853.6
+   ],
+   "id": "kogelstraat-7-06",
+   "latLon": [
+    51.059508,
+    3.741259
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27879,
+   "at": [
+    1528.6,
+    -834.2
+   ],
+   "centre": [
+    1520.2,
+    -835.6
+   ],
+   "width": 6.8,
+   "faces": 7,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    1514.6,
+    -836.9,
+    1517.4,
+    -836.5,
+    1516.9,
+    -832.3,
+    1528.2,
+    -830.8,
+    1529,
+    -837.6,
+    1514.9,
+    -839.4
+   ],
+   "id": "kogelstraat-7-07",
+   "latLon": [
+    51.05941,
+    3.741239
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27877,
+   "at": [
+    1526.9,
+    -820.5
+   ],
+   "centre": [
+    1520.8,
+    -820.4
+   ],
+   "width": 7,
+   "faces": 7,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    1516.6,
+    -825.4,
+    1527.3,
+    -824,
+    1526.5,
+    -817,
+    1517.9,
+    -817.7,
+    1515.6,
+    -818
+   ],
+   "id": "kogelstraat-7-08",
+   "latLon": [
+    51.059311,
+    3.74122
+   ],
+   "photos": [
+    {
+     "id": "2430025260678136-268",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.231,
+      0.815
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28067,
+   "at": [
+    1525.7,
+    -810.7
+   ],
+   "centre": [
+    1521.5,
+    -811.2
+   ],
+   "width": 12.7,
+   "faces": 7,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1516.7,
+    -805.6,
+    1517.9,
+    -817.7,
+    1526.5,
+    -817,
+    1524.9,
+    -804.4
+   ],
+   "id": "kogelstraat-7-09",
+   "latLon": [
+    51.05924,
+    3.741206
+   ],
+   "photos": [
+    {
+     "id": "389571432177363",
+     "metres": 40,
+     "off": 17,
+     "span": [
+      0.586,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27887,
+   "at": [
+    1532.35,
+    -901.2
+   ],
+   "centre": [
+    1521.2,
+    -902.6
+   ],
+   "width": 7.5,
+   "faces": 7,
+   "toStreet": 11.9,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    1513.7,
+    -907.3,
+    1521.4,
+    -906.3,
+    1532.8,
+    -904.9,
+    1531.9,
+    -897.5,
+    1514.4,
+    -899.7,
+    1512.9,
+    -899.9
+   ],
+   "id": "kogelstraat-7-10",
+   "latLon": [
+    51.059894,
+    3.741282
+   ],
+   "photos": [
+    {
+     "id": "1167461515385945-303",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.366,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27885,
+   "at": [
+    1530.35,
+    -885.55
+   ],
+   "centre": [
+    1518.6,
+    -887.1
+   ],
+   "width": 7.4,
+   "faces": 7,
+   "toStreet": 11.8,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1514.1,
+    -891.3,
+    1530.8,
+    -889.2,
+    1529.9,
+    -881.9,
+    1517.6,
+    -883.5,
+    1516.4,
+    -883.6,
+    1516.9,
+    -887.7,
+    1511.3,
+    -888.3,
+    1511.6,
+    -891.6
+   ],
+   "id": "kogelstraat-7-11",
+   "latLon": [
+    51.059781,
+    3.741259
+   ],
+   "photos": [
+    {
+     "id": "1133873998372621-290",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.347,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27884,
+   "at": [
+    1529.4,
+    -877.5999999999999
+   ],
+   "centre": [
+    1523.1,
+    -878.4
+   ],
+   "width": 8.7,
+   "faces": 7,
+   "toStreet": 11.8,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1516.1,
+    -875,
+    1517.6,
+    -883.5,
+    1529.9,
+    -881.9,
+    1528.9,
+    -873.3
+   ],
+   "id": "kogelstraat-7-12",
+   "latLon": [
+    51.059724,
+    3.741249
+   ],
+   "photos": [
+    {
+     "id": "1133873998372621-254",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.361,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33954,
+   "at": [
+    1537.9,
+    -945.9
+   ],
+   "centre": [
+    1527.5,
+    -947.7
+   ],
+   "width": 8.3,
+   "faces": 7,
+   "toStreet": 12.3,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    1521.2,
+    -952.2,
+    1523.4,
+    -951.9,
+    1538.4,
+    -950,
+    1537.4,
+    -941.8,
+    1525.2,
+    -943.4,
+    1525.8,
+    -947,
+    1520.8,
+    -947.4
+   ],
+   "id": "kogelstraat-7-13",
+   "latLon": [
+    51.060218,
+    3.741346
+   ],
+   "photos": [
+    {
+     "id": "634873649001243-279",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.371,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27895,
+   "at": [
+    1536.95,
+    -938.2
+   ],
+   "centre": [
+    1530.8,
+    -939
+   ],
+   "width": 7.3,
+   "faces": 7,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1524.1,
+    -936.2,
+    1525.2,
+    -943.4,
+    1537.4,
+    -941.8,
+    1536.5,
+    -934.6
+   ],
+   "id": "kogelstraat-7-14",
+   "latLon": [
+    51.060162,
+    3.741335
+   ],
+   "photos": [
+    {
+     "id": "935589752006792-298",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.391,
+      0.596
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27894,
+   "at": [
+    1536.05,
+    -931
+   ],
+   "centre": [
+    1528.6,
+    -932.7
+   ],
+   "width": 7.3,
+   "faces": 7,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1522.8,
+    -929,
+    1523.8,
+    -936.2,
+    1524.1,
+    -936.2,
+    1536.5,
+    -934.6,
+    1535.6,
+    -927.4
+   ],
+   "id": "kogelstraat-7-15",
+   "latLon": [
+    51.06011,
+    3.741325
+   ],
+   "photos": [
+    {
+     "id": "935589752006792-273",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.381,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27893,
+   "at": [
+    1535.1,
+    -923.5
+   ],
+   "centre": [
+    1525,
+    -925.6
+   ],
+   "width": 7.9,
+   "faces": 7,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    1515.7,
+    -922,
+    1516.5,
+    -929.8,
+    1522.8,
+    -929,
+    1535.6,
+    -927.4,
+    1534.6,
+    -919.6
+   ],
+   "id": "kogelstraat-7-16",
+   "latLon": [
+    51.060056,
+    3.741314
+   ],
+   "photos": [
+    {
+     "id": "1123989755686510-292",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.361,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27889,
+   "at": [
+    1534.15,
+    -916.05
+   ],
+   "centre": [
+    1522.4,
+    -918.3
+   ],
+   "width": 7.2,
+   "faces": 7,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1513.7,
+    -915.1,
+    1514.3,
+    -922.1,
+    1515.7,
+    -922,
+    1534.6,
+    -919.6,
+    1533.7,
+    -912.5
+   ],
+   "id": "kogelstraat-7-17",
+   "latLon": [
+    51.060002,
+    3.741303
+   ],
+   "photos": [
+    {
+     "id": "1123989755686510-263",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.383,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27888,
+   "at": [
+    1533.25,
+    -908.7
+   ],
+   "centre": [
+    1521.3,
+    -909.8
+   ],
+   "width": 7.7,
+   "faces": 7,
+   "toStreet": 12,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1513.1,
+    -910,
+    1517,
+    -909.5,
+    1517.1,
+    -910.3,
+    1521.9,
+    -909.7,
+    1521.4,
+    -906.3,
+    1532.8,
+    -904.9,
+    1533.7,
+    -912.5,
+    1513.7,
+    -915.1
+   ],
+   "id": "kogelstraat-7-18",
+   "latLon": [
+    51.059949,
+    3.741293
+   ],
+   "photos": [
+    {
+     "id": "1275856087043600-283",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.348,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33958,
+   "at": [
+    1541.5,
+    -975.1500000000001
+   ],
+   "centre": [
+    1528.4,
+    -980.4
+   ],
+   "width": 8,
+   "faces": 7,
+   "toStreet": 12.6,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1541,
+    -971.2,
+    1523.7,
+    -973.4,
+    1524.7,
+    -982.1,
+    1515.6,
+    -983.2,
+    1517.1,
+    -988.9,
+    1528.8,
+    -985.9,
+    1528.1,
+    -980.3,
+    1531.4,
+    -980,
+    1531.4,
+    -980.3,
+    1542,
+    -979.1
+   ],
+   "id": "kogelstraat-7-19",
+   "latLon": [
+    51.060429,
+    3.741387
+   ],
+   "photos": [
+    {
+     "id": "888557433205546-291",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.381,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33957,
+   "at": [
+    1540.6,
+    -967.8
+   ],
+   "centre": [
+    1527.6,
+    -969.6
+   ],
+   "width": 6.8,
+   "faces": 7,
+   "toStreet": 12.5,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    1523.7,
+    -973.4,
+    1541,
+    -971.2,
+    1540.2,
+    -964.4,
+    1524.8,
+    -966.3,
+    1525.1,
+    -968.5,
+    1518.8,
+    -969.4,
+    1519.3,
+    -973.9
+   ],
+   "id": "kogelstraat-7-20",
+   "latLon": [
+    51.060376,
+    3.741377
+   ],
+   "photos": [
+    {
+     "id": "888557433205546-266",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.408,
+      0.603
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33956,
+   "at": [
+    1539.75,
+    -960.7
+   ],
+   "centre": [
+    1526.2,
+    -963.1
+   ],
+   "width": 7.5,
+   "faces": 7,
+   "toStreet": 12.4,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    1524.8,
+    -966.3,
+    1540.2,
+    -964.4,
+    1539.3,
+    -957,
+    1520.6,
+    -959.4,
+    1521.1,
+    -963.5,
+    1518.5,
+    -963.7,
+    1519.1,
+    -967.1
+   ],
+   "id": "kogelstraat-7-21",
+   "latLon": [
+    51.060325,
+    3.741367
+   ],
+   "photos": [
+    {
+     "id": "797105955947143-285",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.385,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33955,
+   "at": [
+    1538.85,
+    -953.5
+   ],
+   "centre": [
+    1525.1,
+    -954.8
+   ],
+   "width": 7.1,
+   "faces": 7,
+   "toStreet": 12.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    1520.6,
+    -959.4,
+    1539.3,
+    -957,
+    1538.4,
+    -950,
+    1523.4,
+    -951.9,
+    1521.2,
+    -952.2,
+    1515.8,
+    -952.9,
+    1516.8,
+    -959.9
+   ],
+   "id": "kogelstraat-7-22",
+   "latLon": [
+    51.060273,
+    3.741357
+   ],
+   "photos": [
+    {
+     "id": "797105955947143-260",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.409,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27880,
+   "at": [
+    1529.45,
+    -841
+   ],
+   "centre": [
+    1518.5,
+    -842.4
+   ],
+   "width": 6.9,
+   "faces": 8,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    1514.9,
+    -839.4,
+    1508.9,
+    -840.2,
+    1509.9,
+    -846.9,
+    1518.5,
+    -845.8,
+    1529.9,
+    -844.4,
+    1529,
+    -837.6
+   ],
+   "id": "kogelstraat-8-23",
+   "latLon": [
+    51.059459,
+    3.741249
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27878,
+   "at": [
+    1527.75,
+    -827.4
+   ],
+   "centre": [
+    1517.4,
+    -829.3
+   ],
+   "width": 6.9,
+   "faces": 8,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1516.9,
+    -832.3,
+    1528.2,
+    -830.8,
+    1527.3,
+    -824,
+    1516.6,
+    -825.4,
+    1516.8,
+    -829.3,
+    1508.3,
+    -829.8,
+    1508,
+    -833.5
+   ],
+   "id": "kogelstraat-8-24",
+   "latLon": [
+    51.05936,
+    3.74123
+   ],
+   "photos": [
+    {
+     "id": "2430025260678136-322",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.299,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27886,
+   "at": [
+    1531.35,
+    -893.35
+   ],
+   "centre": [
+    1519.9,
+    -894.3
+   ],
+   "width": 8.4,
+   "faces": 8,
+   "toStreet": 11.9,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1514.4,
+    -899.7,
+    1531.9,
+    -897.5,
+    1530.8,
+    -889.2,
+    1514.1,
+    -891.3,
+    1514.4,
+    -894,
+    1513.8,
+    -894
+   ],
+   "id": "kogelstraat-8-25",
+   "latLon": [
+    51.059838,
+    3.741271
+   ],
+   "photos": [
+    {
+     "id": "1167461515385945-269",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.345,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27883,
+   "at": [
+    1528.95,
+    -869.3
+   ],
+   "centre": [
+    1521.5,
+    -871.6
+   ],
+   "width": 8.1,
+   "faces": 8,
+   "toStreet": 11.3,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1516.1,
+    -875,
+    1528.9,
+    -873.3,
+    1529.5,
+    -873.3,
+    1528.4,
+    -865.3,
+    1512.7,
+    -867.4,
+    1513.7,
+    -875.3
+   ],
+   "id": "kogelstraat-8-26",
+   "latLon": [
+    51.059664,
+    3.741243
+   ],
+   "photos": [
+    {
+     "id": "604010905576930-271",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.335,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33961,
+   "at": [
+    1554.0500000000002,
+    -1007.9000000000001
+   ],
+   "centre": [
+    1544.9,
+    -1010.6
+   ],
+   "width": 6.8,
+   "faces": 14,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1538.4,
+    -1015.8,
+    1537.7,
+    -1012.7,
+    1542.9,
+    -1011.5,
+    1542,
+    -1008,
+    1553.2,
+    -1004.6,
+    1554.9,
+    -1011.2
+   ],
+   "id": "kogelstraat-14-27",
+   "latLon": [
+    51.060666,
+    3.74153
+   ],
+   "photos": [
+    {
+     "id": "1157821112393426-282",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.378,
+      0.636
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33959,
+   "at": [
+    1548.6,
+    -988.0999999999999
+   ],
+   "centre": [
+    1537.1,
+    -991.9
+   ],
+   "width": 6.8,
+   "faces": 15,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1537.7,
+    -994.8,
+    1549.5,
+    -991.4,
+    1547.7,
+    -984.8,
+    1534.4,
+    -988.3,
+    1535.4,
+    -992.3,
+    1527.1,
+    -994.2,
+    1527.9,
+    -997.6
+   ],
+   "id": "kogelstraat-15-28",
+   "latLon": [
+    51.060523,
+    3.741468
+   ],
+   "photos": [
+    {
+     "id": "9274169779272020-302",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.364,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33962,
+   "at": [
+    1555.8000000000002,
+    -1014.5
+   ],
+   "centre": [
+    1545.7,
+    -1018.3
+   ],
+   "width": 6.8,
+   "faces": 15,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1554.9,
+    -1011.2,
+    1556.7,
+    -1017.8,
+    1547.8,
+    -1022.3,
+    1539.4,
+    -1026.6,
+    1536.9,
+    -1016.2,
+    1538.4,
+    -1015.8
+   ],
+   "id": "kogelstraat-15-29",
+   "latLon": [
+    51.060714,
+    3.74155
+   ],
+   "photos": [
+    {
+     "id": "1138062461443617-263",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.415,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33960,
+   "at": [
+    1551.35,
+    -998
+   ],
+   "centre": [
+    1544.8,
+    -1001.4
+   ],
+   "width": 13.7,
+   "faces": 16,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1537.7,
+    -994.8,
+    1541.4,
+    -1008.1,
+    1542,
+    -1008,
+    1553.2,
+    -1004.6,
+    1549.5,
+    -991.4
+   ],
+   "id": "kogelstraat-16-30",
+   "latLon": [
+    51.060595,
+    3.7415
+   ],
+   "photos": [
+    {
+     "id": "1649981045726262-292",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.218,
+      0.755
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34381,
+   "at": [
+    1583.75,
+    -1048.95
+   ],
+   "centre": [
+    1572.9,
+    -1059
+   ],
+   "width": 5.4,
+   "faces": 40,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1571.6,
+    -1063.9,
+    1585.5,
+    -1051,
+    1582,
+    -1046.9,
+    1568.9,
+    -1058.1,
+    1570.4,
+    -1059.9,
+    1569,
+    -1061.1,
+    1569.8,
+    -1061.9,
+    1568.4,
+    -1063,
+    1570.2,
+    -1065.1
+   ],
+   "id": "kogelstraat-40-01",
+   "latLon": [
+    51.060963,
+    3.74187
+   ],
+   "photos": [
+    {
+     "id": "3998520346935030",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.442,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33963,
+   "at": [
+    1559.95,
+    -1021.55
+   ],
+   "centre": [
+    1554.1,
+    -1025.5
+   ],
+   "width": 9.9,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1547.8,
+    -1022.3,
+    1552,
+    -1027,
+    1550.7,
+    -1028.1,
+    1554.5,
+    -1032.4,
+    1563.2,
+    -1025.3,
+    1556.7,
+    -1017.8
+   ],
+   "id": "kogelstraat-41-02",
+   "latLon": [
+    51.060765,
+    3.741598
+   ],
+   "photos": [
+    {
+     "id": "1138062461443617-293",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.34,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33964,
+   "at": [
+    1565.65,
+    -1028.1
+   ],
+   "centre": [
+    1555.7,
+    -1035.8
+   ],
+   "width": 7.4,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1559,
+    -1038.2,
+    1568.1,
+    -1030.9,
+    1563.2,
+    -1025.3,
+    1554.5,
+    -1032.4,
+    1547.4,
+    -1038.8,
+    1549.3,
+    -1041.1,
+    1551,
+    -1039.6,
+    1551.7,
+    -1040.4,
+    1557.3,
+    -1035.7
+   ],
+   "id": "kogelstraat-41-03",
+   "latLon": [
+    51.060813,
+    3.741663
+   ],
+   "photos": [
+    {
+     "id": "1138062461443617-331",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.352,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33965,
+   "at": [
+    1570.55,
+    -1033.75
+   ],
+   "centre": [
+    1562,
+    -1041.7
+   ],
+   "width": 7.5,
+   "faces": 41,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1559.1,
+    -1048.6,
+    1573,
+    -1036.6,
+    1568.1,
+    -1030.9,
+    1559,
+    -1038.2,
+    1561.6,
+    -1041.1,
+    1555.3,
+    -1046.7,
+    1557.9,
+    -1049.7
+   ],
+   "id": "kogelstraat-41-04",
+   "latLon": [
+    51.060853,
+    3.741719
+   ],
+   "photos": [
+    {
+     "id": "1178946673789677-307",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.344,
+      0.664
+     ]
+    },
+    {
+     "id": "661726299851214-274",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.453,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33967,
+   "at": [
+    1579.75,
+    -1044.35
+   ],
+   "centre": [
+    1571.9,
+    -1051.9
+   ],
+   "width": 6.8,
+   "faces": 41,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    1563.4,
+    -1053.9,
+    1577.5,
+    -1041.8,
+    1582,
+    -1046.9,
+    1568.9,
+    -1058.1,
+    1567.8,
+    -1059
+   ],
+   "id": "kogelstraat-41-05",
+   "latLon": [
+    51.06093,
+    3.741824
+   ],
+   "photos": [
+    {
+     "id": "806854440225412",
+     "metres": 15,
+     "off": 10,
+     "span": [
+      0.347,
+      0.498
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33966,
+   "at": [
+    1575.25,
+    -1039.1999999999998
+   ],
+   "centre": [
+    1564.7,
+    -1048.8
+   ],
+   "width": 6.9,
+   "faces": 41,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 10,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    1563.4,
+    -1053.9,
+    1577.5,
+    -1041.8,
+    1573,
+    -1036.6,
+    1559.1,
+    -1048.6,
+    1561.2,
+    -1050.9,
+    1558.2,
+    -1053.6,
+    1560.5,
+    -1056.3
+   ],
+   "id": "kogelstraat-41-06",
+   "latLon": [
+    51.060893,
+    3.741773
+   ],
+   "photos": [
+    {
+     "id": "822714921956708",
+     "metres": 17,
+     "off": 11,
+     "span": [
+      0.358,
+      0.481
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34379,
+   "at": [
+    1591.15,
+    -1057.4
+   ],
+   "centre": [
+    1580.9,
+    -1066.2
+   ],
+   "width": 5.3,
+   "faces": 41,
+   "toStreet": 12.7,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1578.5,
+    -1072.1,
+    1592.9,
+    -1059.4,
+    1589.4,
+    -1055.4,
+    1580.2,
+    -1063.4,
+    1576.7,
+    -1066.8,
+    1577.8,
+    -1068.1,
+    1574.7,
+    -1070.8,
+    1577.1,
+    -1073.4
+   ],
+   "id": "kogelstraat-41-07",
+   "latLon": [
+    51.061024,
+    3.741955
+   ],
+   "photos": [
+    {
+     "id": "264245065423665",
+     "metres": 22,
+     "off": 3,
+     "span": [
+      0.483,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34380,
+   "at": [
+    1587.45,
+    -1053.2
+   ],
+   "centre": [
+    1579.7,
+    -1060.1
+   ],
+   "width": 5.9,
+   "faces": 42,
+   "toStreet": 9.3,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1571.6,
+    -1063.9,
+    1573.2,
+    -1065.8,
+    1578.3,
+    -1061.3,
+    1580.2,
+    -1063.4,
+    1589.4,
+    -1055.4,
+    1585.5,
+    -1051
+   ],
+   "id": "kogelstraat-42-08",
+   "latLon": [
+    51.060994,
+    3.741912
+   ],
+   "photos": [
+    {
+     "id": "484253892690946",
+     "metres": 18,
+     "off": 1,
+     "span": [
+      0.441,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28323,
+   "at": [
+    1574.6,
+    -715.8
+   ],
+   "centre": [
+    1580.3,
+    -722.6
+   ],
+   "width": 15,
+   "faces": 131,
+   "toStreet": 9.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 17.5,
+   "kind": "apartments",
+   "ring": [
+    1568.9,
+    -720.7,
+    1581.2,
+    -735.6,
+    1590.6,
+    -723.1,
+    1580.3,
+    -710.9
+   ],
+   "id": "kogelstraat-131-01",
+   "latLon": [
+    51.058553,
+    3.741765
+   ],
+   "photos": [
+    {
+     "id": "1603878057562373",
+     "metres": 45,
+     "off": 12,
+     "span": [
+      0.261,
+      0.449
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40791,
+   "at": [
+    1548.1,
+    -749.5
+   ],
+   "centre": [
+    1553.2,
+    -753.8
+   ],
+   "width": 13.3,
+   "faces": 144,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    1544.2,
+    -754.9,
+    1552,
+    -744.1,
+    1562.2,
+    -752.2,
+    1561,
+    -753.8,
+    1554.5,
+    -762.2,
+    1545.3,
+    -755.6
+   ],
+   "id": "kogelstraat-144-02",
+   "latLon": [
+    51.058797,
+    3.741462
+   ],
+   "photos": [
+    {
+     "id": "1102465260219701",
+     "metres": 8,
+     "off": 20,
+     "span": [
+      0.352,
+      0.789
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27834,
+   "at": [
+    1558.4,
+    -735.3
+   ],
+   "centre": [
+    1563.5,
+    -739.4
+   ],
+   "width": 21.8,
+   "faces": 144,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 17.9,
+   "kind": "terrace",
+   "ring": [
+    1552,
+    -744.1,
+    1564.8,
+    -726.5,
+    1575.1,
+    -734.7,
+    1562.2,
+    -752.2
+   ],
+   "id": "kogelstraat-144-03",
+   "latLon": [
+    51.058694,
+    3.74158
+   ],
+   "photos": [
+    {
+     "id": "1756082641616455-30",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.175,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28343,
+   "at": [
+    1589.8,
+    -691.6
+   ],
+   "centre": [
+    1594.6,
+    -697.4
+   ],
+   "width": 7.4,
+   "faces": 144,
+   "toStreet": 8,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1595.3,
+    -705.8,
+    1603.8,
+    -697.2,
+    1604.3,
+    -696.7,
+    1592,
+    -688.6,
+    1587.6,
+    -694.6,
+    1587.8,
+    -697.3,
+    1591.6,
+    -701.6
+   ],
+   "id": "kogelstraat-144-04",
+   "latLon": [
+    51.058378,
+    3.741939
+   ],
+   "photos": [
+    {
+     "id": "1510845253715719",
+     "metres": 25,
+     "off": 2,
+     "span": [
+      0.449,
+      0.6
+     ]
+    },
+    {
+     "id": "1155059708293900",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.396,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28370,
+   "at": [
+    1597.3000000000002,
+    -681.2
+   ],
+   "centre": [
+    1605,
+    -686.8
+   ],
+   "width": 5.4,
+   "faces": 144,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 17.6,
+   "kind": "house",
+   "ring": [
+    1595.7,
+    -683.4,
+    1608.4,
+    -692.6,
+    1610.1,
+    -690.6,
+    1611.7,
+    -688.2,
+    1598.9,
+    -679
+   ],
+   "id": "kogelstraat-144-05",
+   "latLon": [
+    51.058303,
+    3.742025
+   ],
+   "photos": [
+    {
+     "id": "939376002352789",
+     "metres": 34,
+     "off": 7,
+     "span": [
+      0.543,
+      0.612
+     ]
+    },
+    {
+     "id": "300035144961509",
+     "metres": 45,
+     "off": 10,
+     "span": [
+      0.558,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28374,
+   "at": [
+    1615.25,
+    -655.9
+   ],
+   "centre": [
+    1622.3,
+    -663.2
+   ],
+   "width": 21.9,
+   "faces": 144,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1608.9,
+    -664.8,
+    1619.1,
+    -672.3,
+    1622.4,
+    -678.7,
+    1626.4,
+    -673.5,
+    1626.2,
+    -673.2,
+    1621.3,
+    -663,
+    1630,
+    -649.9,
+    1625,
+    -646.5,
+    1621.6,
+    -647
+   ],
+   "id": "kogelstraat-144-06",
+   "latLon": [
+    51.05812,
+    3.74223
+   ],
+   "photos": [
+    {
+     "id": "1627741298279907",
+     "metres": 40,
+     "off": 11,
+     "span": [
+      0.268,
+      0.51
+     ]
+    },
+    {
+     "id": "919423328850074",
+     "metres": 41,
+     "off": 20,
+     "span": [
+      0.103,
+      0.397
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28658,
+   "at": [
+    1593.85,
+    -686
+   ],
+   "centre": [
+    1600.1,
+    -690.3
+   ],
+   "width": 6.4,
+   "faces": 145,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 14.9,
+   "kind": "apartments",
+   "ring": [
+    1592,
+    -688.6,
+    1604.3,
+    -696.7,
+    1608.4,
+    -692.6,
+    1595.7,
+    -683.4
+   ],
+   "id": "kogelstraat-145-07",
+   "latLon": [
+    51.058337,
+    3.741985
+   ],
+   "photos": [
+    {
+     "id": "1262908592064475",
+     "metres": 19,
+     "off": 2,
+     "span": [
+      0.442,
+      0.586
+     ]
+    },
+    {
+     "id": "1166899477064942",
+     "metres": 41,
+     "off": 8,
+     "span": [
+      0.533,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28371,
+   "at": [
+    1600.6,
+    -676.6
+   ],
+   "centre": [
+    1610.4,
+    -683.8
+   ],
+   "width": 5.9,
+   "faces": 145,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 17.6,
+   "kind": "house",
+   "ring": [
+    1598.9,
+    -679,
+    1611.7,
+    -688.2,
+    1614,
+    -690.1,
+    1616.6,
+    -686.6,
+    1614.3,
+    -685.1,
+    1613.1,
+    -685.5,
+    1610.5,
+    -684,
+    1612.6,
+    -681.4,
+    1602.3,
+    -674.2
+   ],
+   "id": "kogelstraat-145-08",
+   "latLon": [
+    51.058269,
+    3.742063
+   ],
+   "photos": [
+    {
+     "id": "939376002352789",
+     "metres": 37,
+     "off": 12,
+     "span": [
+      0.612,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28372,
+   "at": [
+    1603.9499999999998,
+    -671.85
+   ],
+   "centre": [
+    1612.4,
+    -678.8
+   ],
+   "width": 5.7,
+   "faces": 145,
+   "toStreet": 8.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1602.3,
+    -674.2,
+    1612.6,
+    -681.4,
+    1617.7,
+    -685.1,
+    1618.7,
+    -683.8,
+    1614,
+    -680.2,
+    1615.8,
+    -677.1,
+    1605.6,
+    -669.5
+   ],
+   "id": "kogelstraat-145-09",
+   "latLon": [
+    51.058235,
+    3.742101
+   ],
+   "photos": [
+    {
+     "id": "939376002352789",
+     "metres": 40,
+     "off": 17,
+     "span": [
+      0.679,
+      0.736
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28373,
+   "at": [
+    1607.25,
+    -667.15
+   ],
+   "centre": [
+    1612.4,
+    -670.9
+   ],
+   "width": 5.7,
+   "faces": 145,
+   "toStreet": 9,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1605.6,
+    -669.5,
+    1608.9,
+    -664.8,
+    1619.1,
+    -672.3,
+    1615.8,
+    -677.1
+   ],
+   "id": "kogelstraat-145-10",
+   "latLon": [
+    51.058201,
+    3.742139
+   ],
+   "photos": [
+    {
+     "id": "939376002352789",
+     "metres": 44,
+     "off": 21,
+     "span": [
+      0.736,
+      0.787
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27865,
+   "at": [
+    1544.1999999999998,
+    -799.6500000000001
+   ],
+   "centre": [
+    1551.2,
+    -799.6
+   ],
+   "width": 25.1,
+   "faces": 186,
+   "toStreet": 12,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 12.7,
+   "kind": "terrace",
+   "ring": [
+    1554.6,
+    -785.8,
+    1542.8,
+    -787.2,
+    1545.6,
+    -812.1,
+    1556.5,
+    -810.9,
+    1556.6,
+    -802.2
+   ],
+   "id": "kogelstraat-186-01",
+   "latLon": [
+    51.05916,
+    3.741418
+   ],
+   "photos": [
+    {
+     "id": "1568716993833132-77",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.214,
+      0.983
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27869,
+   "at": [
+    1550.55,
+    -850.25
+   ],
+   "centre": [
+    1563.1,
+    -848.3
+   ],
+   "width": 8,
+   "faces": 186,
+   "toStreet": 12.4,
+   "floors": 2,
+   "eaves": 7.1,
+   "top": 10.4,
+   "kind": "house",
+   "ring": [
+    1551,
+    -854.2,
+    1550.1,
+    -846.3,
+    1565.7,
+    -844.6,
+    1565.7,
+    -845,
+    1571.6,
+    -844.1,
+    1572.5,
+    -851.7,
+    1565,
+    -852.5
+   ],
+   "id": "kogelstraat-186-02",
+   "latLon": [
+    51.059526,
+    3.74149
+   ],
+   "photos": [
+    {
+     "id": "1372943470339089-120",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.348,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27867,
+   "at": [
+    1547.5,
+    -827.5
+   ],
+   "centre": [
+    1559.3,
+    -826.3
+   ],
+   "width": 9.1,
+   "faces": 186,
+   "toStreet": 12,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1558.2,
+    -821.6,
+    1558.7,
+    -826.6,
+    1570.1,
+    -825.2,
+    1573.6,
+    -829.1,
+    1548,
+    -832,
+    1547,
+    -823
+   ],
+   "id": "kogelstraat-186-03",
+   "latLon": [
+    51.059361,
+    3.741456
+   ],
+   "photos": [
+    {
+     "id": "2430025260678136-65",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.394,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27872,
+   "at": [
+    1553.35,
+    -873.9
+   ],
+   "centre": [
+    1560.7,
+    -873.8
+   ],
+   "width": 8.1,
+   "faces": 186,
+   "toStreet": 12.4,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1565.4,
+    -868.4,
+    1566.6,
+    -876.4,
+    1565,
+    -876.6,
+    1553.8,
+    -877.9,
+    1552.9,
+    -869.9
+   ],
+   "id": "kogelstraat-186-04",
+   "latLon": [
+    51.059697,
+    3.741522
+   ],
+   "photos": [
+    {
+     "id": "604010905576930-69",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.381,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27891,
+   "at": [
+    1560,
+    -929.45
+   ],
+   "centre": [
+    1570.4,
+    -928.9
+   ],
+   "width": 7.3,
+   "faces": 186,
+   "toStreet": 11.8,
+   "floors": 3,
+   "eaves": 10,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1575.1,
+    -924.1,
+    1575.5,
+    -927.8,
+    1574.5,
+    -928.1,
+    1574.9,
+    -931.5,
+    1572.8,
+    -931.7,
+    1560.4,
+    -933.1,
+    1559.6,
+    -925.8
+   ],
+   "id": "kogelstraat-186-05",
+   "latLon": [
+    51.060099,
+    3.741598
+   ],
+   "photos": [
+    {
+     "id": "935589752006792-96",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.278,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33950,
+   "at": [
+    1562.6,
+    -951.45
+   ],
+   "centre": [
+    1573.5,
+    -950.1
+   ],
+   "width": 7.3,
+   "faces": 186,
+   "toStreet": 11.5,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1573.8,
+    -946.5,
+    1573.9,
+    -949.6,
+    1583.7,
+    -948.5,
+    1584.3,
+    -952.8,
+    1563,
+    -955.1,
+    1562.2,
+    -947.8
+   ],
+   "id": "kogelstraat-186-06",
+   "latLon": [
+    51.060258,
+    3.741628
+   ],
+   "photos": [
+    {
+     "id": "797105955947143-127",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.252,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34256,
+   "at": [
+    1602,
+    -1044.3000000000002
+   ],
+   "centre": [
+    1608.1,
+    -1046.4
+   ],
+   "width": 6.2,
+   "faces": 186,
+   "toStreet": 10.9,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1609.7,
+    -1055.9,
+    1606.4,
+    -1052.1,
+    1602.3,
+    -1047.4,
+    1601.7,
+    -1041.2,
+    1603.9,
+    -1036.5,
+    1613.5,
+    -1041.5,
+    1611.3,
+    -1045.6,
+    1615.7,
+    -1050.6
+   ],
+   "id": "kogelstraat-186-07",
+   "latLon": [
+    51.06093,
+    3.742079
+   ],
+   "photos": [
+    {
+     "id": "1824451537723829",
+     "metres": 35,
+     "off": 13,
+     "span": [
+      0.336,
+      0.392
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27868,
+   "at": [
+    1548.5,
+    -835.85
+   ],
+   "centre": [
+    1563.1,
+    -833.8
+   ],
+   "width": 7.8,
+   "faces": 187,
+   "toStreet": 12.1,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1573.6,
+    -829.1,
+    1574.9,
+    -830.5,
+    1569.2,
+    -831.4,
+    1569.5,
+    -834.4,
+    1560.2,
+    -835.6,
+    1560.5,
+    -838,
+    1549,
+    -839.7,
+    1548,
+    -832
+   ],
+   "id": "kogelstraat-187-08",
+   "latLon": [
+    51.059422,
+    3.741467
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27866,
+   "at": [
+    1546.3,
+    -817.55
+   ],
+   "centre": [
+    1555,
+    -817.3
+   ],
+   "width": 11,
+   "faces": 187,
+   "toStreet": 12,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1545.6,
+    -812.1,
+    1547,
+    -823,
+    1558.2,
+    -821.6,
+    1560.5,
+    -821.3,
+    1560,
+    -816.2,
+    1557,
+    -816.3,
+    1556.5,
+    -810.9
+   ],
+   "id": "kogelstraat-187-09",
+   "latLon": [
+    51.059289,
+    3.741442
+   ],
+   "photos": [
+    {
+     "id": "2430025260678136-104",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.286,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27875,
+   "at": [
+    1556.25,
+    -898.25
+   ],
+   "centre": [
+    1568.9,
+    -897.2
+   ],
+   "width": 11.4,
+   "faces": 187,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1567.5,
+    -891.3,
+    1568.4,
+    -895.8,
+    1577.7,
+    -894.6,
+    1578.5,
+    -901.2,
+    1577.7,
+    -901.3,
+    1556.9,
+    -903.9,
+    1555.6,
+    -892.6
+   ],
+   "id": "kogelstraat-187-10",
+   "latLon": [
+    51.059873,
+    3.741556
+   ],
+   "photos": [
+    {
+     "id": "1167461515385945-69",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.337,
+      0.741
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27874,
+   "at": [
+    1555.15,
+    -889.05
+   ],
+   "centre": [
+    1563.3,
+    -888.9
+   ],
+   "width": 7.2,
+   "faces": 187,
+   "toStreet": 12.3,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1568.8,
+    -883.9,
+    1570,
+    -891,
+    1567.5,
+    -891.3,
+    1555.6,
+    -892.6,
+    1554.7,
+    -885.5
+   ],
+   "id": "kogelstraat-187-11",
+   "latLon": [
+    51.059806,
+    3.741543
+   ],
+   "photos": [
+    {
+     "id": "1167461515385945-113",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.334,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27873,
+   "at": [
+    1554.25,
+    -881.7
+   ],
+   "centre": [
+    1563.9,
+    -880.9
+   ],
+   "width": 7.7,
+   "faces": 187,
+   "toStreet": 12.4,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1565,
+    -876.6,
+    1565.3,
+    -879.5,
+    1569.6,
+    -879.1,
+    1570.1,
+    -883.7,
+    1568.8,
+    -883.9,
+    1554.7,
+    -885.5,
+    1553.8,
+    -877.9
+   ],
+   "id": "kogelstraat-187-12",
+   "latLon": [
+    51.059753,
+    3.741533
+   ],
+   "photos": [
+    {
+     "id": "1133873998372621-88",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.351,
+      0.663
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27871,
+   "at": [
+    1552.4,
+    -865.65
+   ],
+   "centre": [
+    1561.9,
+    -864.5
+   ],
+   "width": 8.6,
+   "faces": 187,
+   "toStreet": 12.5,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1565.9,
+    -859.8,
+    1567.2,
+    -859.6,
+    1568.3,
+    -868.1,
+    1565.4,
+    -868.4,
+    1552.9,
+    -869.9,
+    1551.9,
+    -861.4
+   ],
+   "id": "kogelstraat-187-13",
+   "latLon": [
+    51.059637,
+    3.741512
+   ],
+   "photos": [
+    {
+     "id": "604010905576930-107",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.31,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27870,
+   "at": [
+    1551.45,
+    -857.8
+   ],
+   "centre": [
+    1558.5,
+    -857
+   ],
+   "width": 7.3,
+   "faces": 187,
+   "toStreet": 12.4,
+   "floors": 3,
+   "eaves": 10,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1565,
+    -852.5,
+    1565.9,
+    -859.8,
+    1551.9,
+    -861.4,
+    1551,
+    -854.2
+   ],
+   "id": "kogelstraat-187-14",
+   "latLon": [
+    51.05958,
+    3.741501
+   ],
+   "photos": [
+    {
+     "id": "1372943470339089-87",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.359,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33949,
+   "at": [
+    1561.75,
+    -944.0999999999999
+   ],
+   "centre": [
+    1572.6,
+    -942.8
+   ],
+   "width": 7.5,
+   "faces": 187,
+   "toStreet": 11.6,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1582.2,
+    -938.2,
+    1582.6,
+    -941.4,
+    1573.6,
+    -942.5,
+    1573.8,
+    -946.5,
+    1562.2,
+    -947.8,
+    1561.3,
+    -940.4
+   ],
+   "id": "kogelstraat-187-15",
+   "latLon": [
+    51.060205,
+    3.741618
+   ],
+   "photos": [
+    {
+     "id": "634873649001243-84",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.293,
+      0.766
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27892,
+   "at": [
+    1560.85,
+    -936.75
+   ],
+   "centre": [
+    1575.1,
+    -935.7
+   ],
+   "width": 7.4,
+   "faces": 187,
+   "toStreet": 11.7,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1572.8,
+    -931.7,
+    1573.1,
+    -935.3,
+    1580.7,
+    -934.2,
+    1580.8,
+    -935,
+    1582.3,
+    -934.9,
+    1582.6,
+    -938.2,
+    1582.2,
+    -938.2,
+    1561.3,
+    -940.4,
+    1560.4,
+    -933.1
+   ],
+   "id": "kogelstraat-187-16",
+   "latLon": [
+    51.060152,
+    3.741608
+   ],
+   "photos": [
+    {
+     "id": "634873649001243-134",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.295,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27890,
+   "at": [
+    1559.1,
+    -921.9
+   ],
+   "centre": [
+    1571,
+    -921
+   ],
+   "width": 7.9,
+   "faces": 187,
+   "toStreet": 11.9,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1559.6,
+    -925.8,
+    1558.6,
+    -918,
+    1570.8,
+    -916.5,
+    1571.3,
+    -920.5,
+    1580.4,
+    -919,
+    1581.1,
+    -923.4,
+    1575.1,
+    -924.1
+   ],
+   "id": "kogelstraat-187-17",
+   "latLon": [
+    51.060044,
+    3.741588
+   ],
+   "photos": [
+    {
+     "id": "1123989755686510-69",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.364,
+      0.692
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27876,
+   "at": [
+    1557.35,
+    -907.8
+   ],
+   "centre": [
+    1571.4,
+    -906.9
+   ],
+   "width": 7.9,
+   "faces": 187,
+   "toStreet": 12,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    1577.7,
+    -901.3,
+    1578.1,
+    -905.8,
+    1577.7,
+    -905.8,
+    1578.1,
+    -908.1,
+    1572.3,
+    -909,
+    1572.4,
+    -909.7,
+    1557.8,
+    -911.7,
+    1556.9,
+    -903.9
+   ],
+   "id": "kogelstraat-187-18",
+   "latLon": [
+    51.059942,
+    3.741568
+   ],
+   "photos": [
+    {
+     "id": "1275856087043600-80",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.347,
+      0.684
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33952,
+   "at": [
+    1564.4,
+    -966.75
+   ],
+   "centre": [
+    1577.4,
+    -965.5
+   ],
+   "width": 8.2,
+   "faces": 187,
+   "toStreet": 11.2,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": 10.7,
+   "kind": "house",
+   "ring": [
+    1583.7,
+    -960.4,
+    1584.4,
+    -967.7,
+    1582,
+    -967.9,
+    1582,
+    -968.4,
+    1564.9,
+    -970.8,
+    1563.9,
+    -962.7,
+    1581.1,
+    -960.7
+   ],
+   "id": "kogelstraat-187-19",
+   "latLon": [
+    51.060369,
+    3.741649
+   ],
+   "photos": [
+    {
+     "id": "888557433205546-108",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.175,
+      0.769
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33951,
+   "at": [
+    1563.45,
+    -958.9000000000001
+   ],
+   "centre": [
+    1576.8,
+    -958.7
+   ],
+   "width": 7.7,
+   "faces": 187,
+   "toStreet": 11.3,
+   "floors": 2,
+   "eaves": 9,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1584.3,
+    -952.8,
+    1585,
+    -960.3,
+    1583.7,
+    -960.4,
+    1581.1,
+    -960.7,
+    1563.9,
+    -962.7,
+    1563,
+    -955.1
+   ],
+   "id": "kogelstraat-187-20",
+   "latLon": [
+    51.060312,
+    3.741638
+   ],
+   "photos": [
+    {
+     "id": "797105955947143-71",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.323,
+      0.785
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33968,
+   "at": [
+    1565.55,
+    -993.5999999999999
+   ],
+   "centre": [
+    1583.6,
+    -993.8
+   ],
+   "width": 11,
+   "faces": 195,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1576.5,
+    -986.3,
+    1584.1,
+    -984.7,
+    1607.7,
+    -996.6,
+    1602.5,
+    -1006.6,
+    1587.3,
+    -998.9,
+    1585.4,
+    -998,
+    1588.1,
+    -992.7,
+    1584.8,
+    -990.9,
+    1584.4,
+    -991.6,
+    1582.8,
+    -990.7,
+    1577.6,
+    -991.4,
+    1578.4,
+    -997.2,
+    1567,
+    -998.9,
+    1564.1,
+    -988.3
+   ],
+   "id": "kogelstraat-195-21",
+   "latLon": [
+    51.060563,
+    3.741662
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 33953,
+   "at": [
+    1563,
+    -984.4
+   ],
+   "centre": [
+    1569.2,
+    -983
+   ],
+   "width": 8.1,
+   "faces": 196,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    1564.1,
+    -988.3,
+    1561.9,
+    -980.5,
+    1574.2,
+    -976.9,
+    1576.5,
+    -986.3
+   ],
+   "id": "kogelstraat-196-22",
+   "latLon": [
+    51.060496,
+    3.741633
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34023,
+   "at": [
+    1569,
+    -1006.0999999999999
+   ],
+   "centre": [
+    1574.8,
+    -1005.3
+   ],
+   "width": 8.9,
+   "faces": 196,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1579.8,
+    -1003.4,
+    1580.6,
+    -1003.8,
+    1574.8,
+    -1015.9,
+    1570.2,
+    -1010.4,
+    1567.8,
+    -1001.8,
+    1574.8,
+    -1000.8,
+    1575.5,
+    -1001.2
+   ],
+   "id": "kogelstraat-196-23",
+   "latLon": [
+    51.060653,
+    3.741701
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28384,
+   "at": [
+    1617.1999999999998,
+    -611.4000000000001
+   ],
+   "centre": [
+    1624.8,
+    -603.9
+   ],
+   "width": 5.9,
+   "faces": 235,
+   "toStreet": 17.9,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1619.6,
+    -613.1,
+    1614.8,
+    -609.7,
+    1621.8,
+    -600.4,
+    1632.4,
+    -595.4,
+    1633.8,
+    -599.6,
+    1626.2,
+    -603.4,
+    1625.1,
+    -605.4
+   ],
+   "id": "kogelstraat-235-01",
+   "latLon": [
+    51.057798,
+    3.742252
+   ],
+   "photos": [
+    {
+     "id": "3369259023224227",
+     "metres": 31,
+     "off": 5,
+     "span": [
+      0.51,
+      0.633
+     ]
+    },
+    {
+     "id": "284502020025308",
+     "metres": 23,
+     "off": 2,
+     "span": [
+      0.477,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28383,
+   "at": [
+    1621.8,
+    -614.6500000000001
+   ],
+   "centre": [
+    1624.5,
+    -610.7
+   ],
+   "width": 5.4,
+   "faces": 235,
+   "toStreet": 14,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1624,
+    -616.2,
+    1619.6,
+    -613.1,
+    1625.1,
+    -605.4,
+    1629.4,
+    -608
+   ],
+   "id": "kogelstraat-235-02",
+   "latLon": [
+    51.057821,
+    3.742305
+   ],
+   "photos": [
+    {
+     "id": "1343643664245932",
+     "metres": 41,
+     "off": 1,
+     "span": [
+      0.45,
+      0.521
+     ]
+    },
+    {
+     "id": "561036131543843",
+     "metres": 37,
+     "off": 0,
+     "span": [
+      0.474,
+      0.524
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28382,
+   "at": [
+    1625.95,
+    -617.55
+   ],
+   "centre": [
+    1628.7,
+    -613.3
+   ],
+   "width": 4.7,
+   "faces": 235,
+   "toStreet": 11.9,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1627.9,
+    -618.9,
+    1624,
+    -616.2,
+    1629.4,
+    -608,
+    1633.3,
+    -610.2
+   ],
+   "id": "kogelstraat-235-03",
+   "latLon": [
+    51.057842,
+    3.742352
+   ],
+   "photos": [
+    {
+     "id": "2415782188835057",
+     "metres": 38,
+     "off": 0,
+     "span": [
+      0.462,
+      0.543
+     ]
+    },
+    {
+     "id": "1051357272021789",
+     "metres": 20,
+     "off": 3,
+     "span": [
+      0.481,
+      0.561
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34384,
+   "at": [
+    1577.65,
+    -1002.3
+   ],
+   "centre": [
+    1578.7,
+    -1000
+   ],
+   "width": 4.8,
+   "faces": 243,
+   "toStreet": 16.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1578.4,
+    -997.2,
+    1582.7,
+    -996.6,
+    1585.4,
+    -998,
+    1587.3,
+    -998.9,
+    1585.5,
+    -1002.4,
+    1581.3,
+    -1000.4,
+    1579.8,
+    -1003.4,
+    1575.5,
+    -1001.2,
+    1574.8,
+    -1000.8,
+    1567.8,
+    -1001.8,
+    1567,
+    -998.9
+   ],
+   "id": "kogelstraat-243-04",
+   "latLon": [
+    51.060626,
+    3.7418
+   ],
+   "photos": [
+    {
+     "id": "1160128851076977",
+     "metres": 28,
+     "off": 12,
+     "span": [
+      0.572,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34024,
+   "at": [
+    1585.9499999999998,
+    -1023.4
+   ],
+   "centre": [
+    1587.1,
+    -1017.4
+   ],
+   "width": 14.2,
+   "faces": 243,
+   "toStreet": 10.3,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    1596.6,
+    -1018.3,
+    1592.3,
+    -1026.6,
+    1579.6,
+    -1020.2,
+    1583.2,
+    -1012.8,
+    1585.2,
+    -1013.8,
+    1585.6,
+    -1012.9
+   ],
+   "id": "kogelstraat-243-05",
+   "latLon": [
+    51.060779,
+    3.741895
+   ],
+   "photos": [
+    {
+     "id": "1160128851076977",
+     "metres": 10,
+     "off": 16,
+     "span": [
+      0.374,
+      0.731
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27836,
+   "at": [
+    1545.5,
+    -727.45
+   ],
+   "centre": [
+    1539,
+    -722.7
+   ],
+   "width": 4.6,
+   "faces": 323,
+   "toStreet": 7.3,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1534,
+    -716,
+    1546.9,
+    -725.6,
+    1544.1,
+    -729.3,
+    1531.1,
+    -719.9
+   ],
+   "id": "kogelstraat-323-01",
+   "latLon": [
+    51.058637,
+    3.741433
+   ],
+   "photos": [
+    {
+     "id": "4009200809138250",
+     "metres": 32,
+     "off": 11,
+     "span": [
+      0.4,
+      0.437
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27837,
+   "at": [
+    1548.35,
+    -723.6500000000001
+   ],
+   "centre": [
+    1541.2,
+    -717.8
+   ],
+   "width": 4.9,
+   "faces": 323,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1536.9,
+    -712.3,
+    1538.6,
+    -713.5,
+    1549.8,
+    -721.7,
+    1546.9,
+    -725.6,
+    1534,
+    -716
+   ],
+   "id": "kogelstraat-323-02",
+   "latLon": [
+    51.05861,
+    3.741465
+   ],
+   "photos": [
+    {
+     "id": "4009200809138250",
+     "metres": 35,
+     "off": 15,
+     "span": [
+      0.365,
+      0.4
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27835,
+   "at": [
+    1539.85,
+    -735.25
+   ],
+   "centre": [
+    1534.5,
+    -731.4
+   ],
+   "width": 4.6,
+   "faces": 324,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1530.9,
+    -728.9,
+    1532.3,
+    -727,
+    1541.2,
+    -733.4,
+    1538.5,
+    -737.1,
+    1529.7,
+    -730.6
+   ],
+   "id": "kogelstraat-324-03",
+   "latLon": [
+    51.058694,
+    3.741368
+   ],
+   "photos": [
+    {
+     "id": "1041225472950415",
+     "metres": 25,
+     "off": 6,
+     "span": [
+      0.429,
+      0.482
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27838,
+   "at": [
+    1551.3,
+    -719.6500000000001
+   ],
+   "centre": [
+    1545.3,
+    -714.7
+   ],
+   "width": 5.1,
+   "faces": 324,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1538.6,
+    -713.5,
+    1541.5,
+    -709.5,
+    1543.9,
+    -711.3,
+    1552.8,
+    -717.6,
+    1549.8,
+    -721.7
+   ],
+   "id": "kogelstraat-324-04",
+   "latLon": [
+    51.058581,
+    3.741499
+   ],
+   "photos": [
+    {
+     "id": "4009200809138250",
+     "metres": 38,
+     "off": 19,
+     "span": [
+      0.334,
+      0.365
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27839,
+   "at": [
+    1554.25,
+    -715.6
+   ],
+   "centre": [
+    1547,
+    -710.7
+   ],
+   "width": 4.9,
+   "faces": 324,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1543.9,
+    -711.3,
+    1545,
+    -709.5,
+    1541.5,
+    -707.4,
+    1543.1,
+    -704.8,
+    1555.7,
+    -713.6,
+    1552.8,
+    -717.6
+   ],
+   "id": "kogelstraat-324-05",
+   "latLon": [
+    51.058552,
+    3.741533
+   ],
+   "photos": [
+    {
+     "id": "1281320069839998-279",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.307,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27840,
+   "at": [
+    1557.5,
+    -711.1500000000001
+   ],
+   "centre": [
+    1551.6,
+    -706.5
+   ],
+   "width": 6.1,
+   "faces": 324,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.1,
+    -704.8,
+    1545.6,
+    -701.7,
+    1550.2,
+    -703.8,
+    1555.6,
+    -706.2,
+    1559.3,
+    -708.7,
+    1555.7,
+    -713.6
+   ],
+   "id": "kogelstraat-324-06",
+   "latLon": [
+    51.058519,
+    3.74157
+   ],
+   "photos": [
+    {
+     "id": "1281320069839998-222",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.226,
+      0.861
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27842,
+   "at": [
+    1564.4,
+    -702.05
+   ],
+   "centre": [
+    1562.7,
+    -700.6
+   ],
+   "width": 16.7,
+   "faces": 324,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1555.6,
+    -706.2,
+    1563.4,
+    -691,
+    1569,
+    -693.5,
+    1569.3,
+    -695.3,
+    1559.5,
+    -708.8,
+    1559.3,
+    -708.7
+   ],
+   "id": "kogelstraat-324-07",
+   "latLon": [
+    51.058454,
+    3.741649
+   ],
+   "photos": [
+    {
+     "id": "1873489263397277",
+     "metres": 13,
+     "off": 1,
+     "span": [
+      0.126,
+      0.804
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28358,
+   "at": [
+    1577.4,
+    -683.4000000000001
+   ],
+   "centre": [
+    1574.3,
+    -681.6
+   ],
+   "width": 9.2,
+   "faces": 324,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1568.9,
+    -684.5,
+    1574.7,
+    -687.1,
+    1580.1,
+    -679.7,
+    1573.3,
+    -675.1
+   ],
+   "id": "kogelstraat-324-08",
+   "latLon": [
+    51.058319,
+    3.741797
+   ],
+   "photos": [
+    {
+     "id": "1634288756742671",
+     "metres": 10,
+     "off": 8,
+     "span": [
+      0.325,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28359,
+   "at": [
+    1584.9,
+    -673.05
+   ],
+   "centre": [
+    1580.6,
+    -669.3
+   ],
+   "width": 16.4,
+   "faces": 324,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1573.3,
+    -675.1,
+    1580.1,
+    -679.7,
+    1589.7,
+    -666.4,
+    1584.7,
+    -663.8,
+    1579.8,
+    -661.3,
+    1575.9,
+    -669.5
+   ],
+   "id": "kogelstraat-324-09",
+   "latLon": [
+    51.058244,
+    3.741883
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28361,
+   "at": [
+    1606.45,
+    -642.8499999999999
+   ],
+   "centre": [
+    1601.9,
+    -644.2
+   ],
+   "width": 14.6,
+   "faces": 324,
+   "toStreet": 5.1,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1593.6,
+    -649.8,
+    1599,
+    -653.3,
+    1602.2,
+    -648.8,
+    1610.7,
+    -636.9,
+    1603.8,
+    -632.2
+   ],
+   "id": "kogelstraat-324-10",
+   "latLon": [
+    51.058025,
+    3.742129
+   ],
+   "photos": [
+    {
+     "id": "217980234312714",
+     "metres": 38,
+     "off": 1,
+     "span": [
+      0.435,
+      0.57
+     ]
+    },
+    {
+     "id": "1746496085764158",
+     "metres": 38,
+     "off": 1,
+     "span": [
+      0.436,
+      0.569
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27841,
+   "at": [
+    1542.65,
+    -731.3499999999999
+   ],
+   "centre": [
+    1535.3,
+    -726.7
+   ],
+   "width": 5,
+   "faces": 325,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1531.1,
+    -719.9,
+    1544.1,
+    -729.3,
+    1541.2,
+    -733.4,
+    1532.3,
+    -727,
+    1528,
+    -723.8
+   ],
+   "id": "kogelstraat-325-11",
+   "latLon": [
+    51.058666,
+    3.7414
+   ],
+   "photos": [
+    {
+     "id": "180527513939415",
+     "metres": 29,
+     "off": 18,
+     "span": [
+      0.336,
+      0.387
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28360,
+   "at": [
+    1593.35,
+    -661.3
+   ],
+   "centre": [
+    1591.5,
+    -658.3
+   ],
+   "width": 6.4,
+   "faces": 325,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 0.2,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    1586.6,
+    -660.8,
+    1591.5,
+    -663.9,
+    1595.2,
+    -658.7,
+    1592.6,
+    -656.7,
+    1592.7,
+    -655.4,
+    1590.7,
+    -654.4
+   ],
+   "id": "kogelstraat-325-12",
+   "latLon": [
+    51.058159,
+    3.74198
+   ],
+   "photos": [
+    {
+     "id": "1674140316840742-195",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.33,
+      0.908
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28640,
+   "at": [
+    1597.1,
+    -656
+   ],
+   "centre": [
+    1594,
+    -654.7
+   ],
+   "width": 6.6,
+   "faces": 325,
+   "toStreet": 5.6,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1590.7,
+    -654.4,
+    1592.7,
+    -655.4,
+    1592.6,
+    -656.7,
+    1595.2,
+    -658.7,
+    1599,
+    -653.3,
+    1593.6,
+    -649.8
+   ],
+   "id": "kogelstraat-325-13",
+   "latLon": [
+    51.05812,
+    3.742023
+   ],
+   "photos": [
+    {
+     "id": "597425989929828-251",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.032,
+      0.821
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28362,
+   "at": [
+    1598.6999999999998,
+    -641
+   ],
+   "centre": [
+    1590.7,
+    -649.9
+   ],
+   "width": 20.3,
+   "faces": 330,
+   "toStreet": 12.6,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1579.8,
+    -661.3,
+    1584.7,
+    -663.8,
+    1586.6,
+    -660.8,
+    1590.7,
+    -654.4,
+    1593.6,
+    -649.8,
+    1603.8,
+    -632.2,
+    1595.9,
+    -626.9
+   ],
+   "id": "kogelstraat-330-14",
+   "latLon": [
+    51.058012,
+    3.742041
+   ],
+   "photos": [
+    {
+     "id": "1677357656036017",
+     "metres": 43,
+     "off": 11,
+     "span": [
+      0.505,
+      0.688
+     ]
+    },
+    {
+     "id": "253134850561916",
+     "metres": 43,
+     "off": 11,
+     "span": [
+      0.505,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27843,
+   "at": [
+    1559.5,
+    -698.6
+   ],
+   "centre": [
+    1557.1,
+    -697.5
+   ],
+   "width": 17.1,
+   "faces": 333,
+   "toStreet": 12.9,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1550.2,
+    -703.8,
+    1559,
+    -689.1,
+    1563.4,
+    -691,
+    1555.6,
+    -706.2
+   ],
+   "id": "kogelstraat-333-15",
+   "latLon": [
+    51.058429,
+    3.741593
+   ],
+   "photos": [
+    {
+     "id": "1873489263397277",
+     "metres": 18,
+     "off": 3,
+     "span": [
+      0.195,
+      0.716
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27857,
+   "at": [
+    1571.1,
+    -679.8
+   ],
+   "centre": [
+    1569.6,
+    -674.2
+   ],
+   "width": 10.4,
+   "faces": 335,
+   "toStreet": 14.1,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1562.1,
+    -681.3,
+    1568.9,
+    -684.5,
+    1573.3,
+    -675.1,
+    1575.9,
+    -669.5,
+    1569.2,
+    -666.4,
+    1568.2,
+    -668.3
+   ],
+   "id": "kogelstraat-335-16",
+   "latLon": [
+    51.058293,
+    3.741725
+   ],
+   "photos": [
+    {
+     "id": "1398735810491697",
+     "metres": 11,
+     "off": 16,
+     "span": [
+      0.294,
+      0.515
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28363,
+   "at": [
+    1577.85,
+    -665.4
+   ],
+   "centre": [
+    1580,
+    -650.8
+   ],
+   "width": 9.1,
+   "faces": 335,
+   "toStreet": 16.4,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    1569.2,
+    -666.4,
+    1575.9,
+    -669.5,
+    1579.8,
+    -661.3,
+    1595.9,
+    -626.9,
+    1589.8,
+    -622.9,
+    1576.2,
+    -651.5,
+    1573.4,
+    -657.4
+   ],
+   "id": "kogelstraat-335-17",
+   "latLon": [
+    51.058188,
+    3.741803
+   ],
+   "photos": [
+    {
+     "id": "1634288756742671",
+     "metres": 24,
+     "off": 21,
+     "span": [
+      0.299,
+      0.379
+     ]
+    }
+   ]
+  }
+ ]
+}

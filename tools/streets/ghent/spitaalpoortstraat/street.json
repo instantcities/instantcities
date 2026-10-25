@@ -1,0 +1,5658 @@
+{
+ "city": "ghent",
+ "street": "Spitaalpoortstraat",
+ "slug": "spitaalpoortstraat",
+ "photos": {
+  "3998520346935030": {
+   "file": "photos/3998520346935030.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3998520346935030",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608603,
+    3.7420348,
+    315,
+    0.426
+   ]
+  },
+  "806854440225412": {
+   "file": "photos/806854440225412.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=806854440225412",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608677,
+    3.7420223,
+    307,
+    0.426
+   ]
+  },
+  "264245065423665": {
+   "file": "photos/264245065423665.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=264245065423665",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608392,
+    3.7420553,
+    338,
+    0.426
+   ]
+  },
+  "484253892690946": {
+   "file": "photos/484253892690946.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=484253892690946",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0608512,
+    3.7420461,
+    330,
+    0.426
+   ]
+  },
+  "1367609250277334": {
+   "file": "photos/1367609250277334.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1367609250277334",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0588101,
+    3.7436913,
+    330,
+    0.425
+   ]
+  },
+  "305081721284248": {
+   "file": "photos/305081721284248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=305081721284248",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0587255,
+    3.7437588,
+    331,
+    0.425
+   ]
+  },
+  "511613124904571-34": {
+   "file": "photos/511613124904571-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=511613124904571",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0594992,
+    3.7430917,
+    34,
+    0.5
+   ]
+  },
+  "1206194307694987-38": {
+   "file": "photos/1206194307694987-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1206194307694987",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0593483,
+    3.7432825,
+    38,
+    0.5
+   ]
+  },
+  "2255458661535546-66": {
+   "file": "photos/2255458661535546-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2255458661535546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602442,
+    3.7425273,
+    66,
+    0.5
+   ]
+  },
+  "3596727527291794-54": {
+   "file": "photos/3596727527291794-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3596727527291794",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599811,
+    3.7427384,
+    54,
+    0.5
+   ]
+  },
+  "616205088011992-66": {
+   "file": "photos/616205088011992-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=616205088011992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592982,
+    3.7430091,
+    66,
+    0.5
+   ]
+  },
+  "1824451537723829": {
+   "file": "photos/1824451537723829.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1824451537723829",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0607106,
+    3.7417295,
+    58,
+    0.575
+   ]
+  },
+  "494810998330351": {
+   "file": "photos/494810998330351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=494810998330351",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0607121,
+    3.7417211,
+    52,
+    0.662
+   ]
+  },
+  "1881587479334705-45": {
+   "file": "photos/1881587479334705-45.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1881587479334705",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0607146,
+    3.7421765,
+    45,
+    0.5
+   ]
+  },
+  "892509336160230-53": {
+   "file": "photos/892509336160230-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=892509336160230",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0606365,
+    3.7422335,
+    53,
+    0.5
+   ]
+  },
+  "581290821575656-65": {
+   "file": "photos/581290821575656-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581290821575656",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.060559,
+    3.7422943,
+    65,
+    0.5
+   ]
+  },
+  "1145332154041644-84": {
+   "file": "photos/1145332154041644-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1145332154041644",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604808,
+    3.7423502,
+    84,
+    0.5
+   ]
+  },
+  "643251885023350-33": {
+   "file": "photos/643251885023350-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=643251885023350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604047,
+    3.742408,
+    33,
+    0.5
+   ]
+  },
+  "2255458661535546-108": {
+   "file": "photos/2255458661535546-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2255458661535546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602442,
+    3.7425273,
+    108,
+    0.5
+   ]
+  },
+  "980900980149778-85": {
+   "file": "photos/980900980149778-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=980900980149778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0601569,
+    3.7425946,
+    85,
+    0.5
+   ]
+  },
+  "1876940486443204-24": {
+   "file": "photos/1876940486443204-24.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1876940486443204",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600686,
+    3.7426621,
+    24,
+    0.5
+   ]
+  },
+  "1876940486443204-70": {
+   "file": "photos/1876940486443204-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1876940486443204",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600686,
+    3.7426621,
+    70,
+    0.5
+   ]
+  },
+  "641937338223652-19": {
+   "file": "photos/641937338223652-19.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=641937338223652",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598977,
+    3.7428161,
+    19,
+    0.5
+   ]
+  },
+  "2982793848568296-43": {
+   "file": "photos/2982793848568296-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2982793848568296",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598135,
+    3.7428726,
+    43,
+    0.5
+   ]
+  },
+  "651291124132155-95": {
+   "file": "photos/651291124132155-95.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651291124132155",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059728,
+    3.7429211,
+    95,
+    0.5
+   ]
+  },
+  "992219749495961-47": {
+   "file": "photos/992219749495961-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=992219749495961",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596479,
+    3.7429758,
+    47,
+    0.5
+   ]
+  },
+  "992219749495961-78": {
+   "file": "photos/992219749495961-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=992219749495961",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596479,
+    3.7429758,
+    78,
+    0.5
+   ]
+  },
+  "1963260414201698-36": {
+   "file": "photos/1963260414201698-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1963260414201698",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595748,
+    3.7430371,
+    36,
+    0.5
+   ]
+  },
+  "1963260414201698-92": {
+   "file": "photos/1963260414201698-92.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1963260414201698",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595748,
+    3.7430371,
+    92,
+    0.5
+   ]
+  },
+  "616205088011992-80": {
+   "file": "photos/616205088011992-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=616205088011992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592982,
+    3.7430091,
+    80,
+    0.5
+   ]
+  },
+  "630123996631009-36": {
+   "file": "photos/630123996631009-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=630123996631009",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592656,
+    3.7433419,
+    36,
+    0.5
+   ]
+  },
+  "560512767033995-31": {
+   "file": "photos/560512767033995-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=560512767033995",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0591781,
+    3.7434164,
+    31,
+    0.5
+   ]
+  },
+  "573799095653577-97": {
+   "file": "photos/573799095653577-97.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=573799095653577",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0590867,
+    3.7434888,
+    97,
+    0.5
+   ]
+  },
+  "29058320107116780-73": {
+   "file": "photos/29058320107116780-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=29058320107116780",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589957,
+    3.7435591,
+    73,
+    0.5
+   ]
+  },
+  "1065783725358279-32": {
+   "file": "photos/1065783725358279-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1065783725358279",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589051,
+    3.7436237,
+    32,
+    0.5
+   ]
+  },
+  "1317907909458859-98": {
+   "file": "photos/1317907909458859-98.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1317907909458859",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587331,
+    3.7437337,
+    98,
+    0.5
+   ]
+  },
+  "651291124132155-55": {
+   "file": "photos/651291124132155-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651291124132155",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059728,
+    3.7429211,
+    55,
+    0.5
+   ]
+  },
+  "560512767033995-107": {
+   "file": "photos/560512767033995-107.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=560512767033995",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0591781,
+    3.7434164,
+    107,
+    0.5
+   ]
+  },
+  "1065783725358279-93": {
+   "file": "photos/1065783725358279-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1065783725358279",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589051,
+    3.7436237,
+    93,
+    0.5
+   ]
+  },
+  "1317907909458859-50": {
+   "file": "photos/1317907909458859-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1317907909458859",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587331,
+    3.7437337,
+    50,
+    0.5
+   ]
+  },
+  "650747194193923-147": {
+   "file": "photos/650747194193923-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=650747194193923",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586691,
+    3.7438068,
+    147,
+    0.5
+   ]
+  },
+  "1162712515234841-192": {
+   "file": "photos/1162712515234841-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1162712515234841",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.058607,
+    3.7439897,
+    192,
+    0.5
+   ]
+  },
+  "1007609038086000-115": {
+   "file": "photos/1007609038086000-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007609038086000",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0584931,
+    3.7437315,
+    115,
+    0.5
+   ]
+  },
+  "650747194193923-176": {
+   "file": "photos/650747194193923-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=650747194193923",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586691,
+    3.7438068,
+    176,
+    0.5
+   ]
+  },
+  "511613124904571-227": {
+   "file": "photos/511613124904571-227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=511613124904571",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0594992,
+    3.7430917,
+    227,
+    0.5
+   ]
+  },
+  "560512767033995-264": {
+   "file": "photos/560512767033995-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=560512767033995",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0591781,
+    3.7434164,
+    264,
+    0.5
+   ]
+  },
+  "294234385530362": {
+   "file": "photos/294234385530362.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=294234385530362",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0610036,
+    3.7421415,
+    211,
+    0.428
+   ]
+  },
+  "467677637652898": {
+   "file": "photos/467677637652898.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=467677637652898",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0610831,
+    3.7422464,
+    215,
+    0.428
+   ]
+  },
+  "1881587479334705-244": {
+   "file": "photos/1881587479334705-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1881587479334705",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0607146,
+    3.7421765,
+    244,
+    0.5
+   ]
+  },
+  "892509336160230-258": {
+   "file": "photos/892509336160230-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=892509336160230",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0606365,
+    3.7422335,
+    258,
+    0.5
+   ]
+  },
+  "581290821575656-232": {
+   "file": "photos/581290821575656-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581290821575656",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.060559,
+    3.7422943,
+    232,
+    0.5
+   ]
+  },
+  "1145332154041644-220": {
+   "file": "photos/1145332154041644-220.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1145332154041644",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604808,
+    3.7423502,
+    220,
+    0.5
+   ]
+  },
+  "1294806935142772-231": {
+   "file": "photos/1294806935142772-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1294806935142772",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.060395,
+    3.7424452,
+    231,
+    0.5
+   ]
+  },
+  "941843731167473-244": {
+   "file": "photos/941843731167473-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=941843731167473",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603275,
+    3.7424655,
+    244,
+    0.5
+   ]
+  },
+  "941843731167473-209": {
+   "file": "photos/941843731167473-209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=941843731167473",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603275,
+    3.7424655,
+    209,
+    0.5
+   ]
+  },
+  "2255458661535546-244": {
+   "file": "photos/2255458661535546-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2255458661535546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602442,
+    3.7425273,
+    244,
+    0.5
+   ]
+  },
+  "980900980149778-265": {
+   "file": "photos/980900980149778-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=980900980149778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0601569,
+    3.7425946,
+    265,
+    0.5
+   ]
+  },
+  "1876940486443204-247": {
+   "file": "photos/1876940486443204-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1876940486443204",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600686,
+    3.7426621,
+    247,
+    0.5
+   ]
+  },
+  "1876940486443204-211": {
+   "file": "photos/1876940486443204-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1876940486443204",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600686,
+    3.7426621,
+    211,
+    0.5
+   ]
+  },
+  "2982793848568296-271": {
+   "file": "photos/2982793848568296-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2982793848568296",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598135,
+    3.7428726,
+    271,
+    0.5
+   ]
+  },
+  "651291124132155-272": {
+   "file": "photos/651291124132155-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651291124132155",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059728,
+    3.7429211,
+    272,
+    0.5
+   ]
+  },
+  "651291124132155-211": {
+   "file": "photos/651291124132155-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651291124132155",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059728,
+    3.7429211,
+    211,
+    0.5
+   ]
+  },
+  "992219749495961-241": {
+   "file": "photos/992219749495961-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=992219749495961",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596479,
+    3.7429758,
+    241,
+    0.5
+   ]
+  },
+  "1963260414201698-212": {
+   "file": "photos/1963260414201698-212.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1963260414201698",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595748,
+    3.7430371,
+    212,
+    0.5
+   ]
+  },
+  "630123996631009-272": {
+   "file": "photos/630123996631009-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=630123996631009",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592656,
+    3.7433419,
+    272,
+    0.5
+   ]
+  },
+  "630123996631009-261": {
+   "file": "photos/630123996631009-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=630123996631009",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592656,
+    3.7433419,
+    261,
+    0.5
+   ]
+  },
+  "560512767033995-235": {
+   "file": "photos/560512767033995-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=560512767033995",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0591781,
+    3.7434164,
+    235,
+    0.5
+   ]
+  },
+  "1065783725358279-224": {
+   "file": "photos/1065783725358279-224.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1065783725358279",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589051,
+    3.7436237,
+    224,
+    0.5
+   ]
+  },
+  "499024771296328": {
+   "file": "photos/499024771296328.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=499024771296328",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0586434,
+    3.7438908,
+    281,
+    0.425
+   ]
+  },
+  "581290821575656-273": {
+   "file": "photos/581290821575656-273.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581290821575656",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.060559,
+    3.7422943,
+    273,
+    0.5
+   ]
+  },
+  "643251885023350-252": {
+   "file": "photos/643251885023350-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=643251885023350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604047,
+    3.742408,
+    252,
+    0.5
+   ]
+  },
+  "3596727527291794-257": {
+   "file": "photos/3596727527291794-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3596727527291794",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599811,
+    3.7427384,
+    257,
+    0.5
+   ]
+  },
+  "1963260414201698-267": {
+   "file": "photos/1963260414201698-267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1963260414201698",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595748,
+    3.7430371,
+    267,
+    0.5
+   ]
+  },
+  "630123996631009-226": {
+   "file": "photos/630123996631009-226.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=630123996631009",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592656,
+    3.7433419,
+    226,
+    0.5
+   ]
+  },
+  "469609022756699-250": {
+   "file": "photos/469609022756699-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=469609022756699",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0588169,
+    3.7436803,
+    250,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 34381,
+   "at": [
+    1583.75,
+    -1048.95
+   ],
+   "centre": [
+    1572.9,
+    -1059
+   ],
+   "width": 5.4,
+   "faces": 40,
+   "toStreet": 8.5,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1571.6,
+    -1063.9,
+    1585.5,
+    -1051,
+    1582,
+    -1046.9,
+    1568.9,
+    -1058.1,
+    1570.4,
+    -1059.9,
+    1569,
+    -1061.1,
+    1569.8,
+    -1061.9,
+    1568.4,
+    -1063,
+    1570.2,
+    -1065.1
+   ],
+   "id": "spitaalpoortstraat-40-01",
+   "latLon": [
+    51.060963,
+    3.74187
+   ],
+   "photos": [
+    {
+     "id": "3998520346935030",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.442,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33967,
+   "at": [
+    1579.75,
+    -1044.35
+   ],
+   "centre": [
+    1571.9,
+    -1051.9
+   ],
+   "width": 6.8,
+   "faces": 41,
+   "toStreet": 11.4,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    1563.4,
+    -1053.9,
+    1577.5,
+    -1041.8,
+    1582,
+    -1046.9,
+    1568.9,
+    -1058.1,
+    1567.8,
+    -1059
+   ],
+   "id": "spitaalpoortstraat-41-02",
+   "latLon": [
+    51.06093,
+    3.741824
+   ],
+   "photos": [
+    {
+     "id": "806854440225412",
+     "metres": 15,
+     "off": 10,
+     "span": [
+      0.347,
+      0.498
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34379,
+   "at": [
+    1591.15,
+    -1057.4
+   ],
+   "centre": [
+    1580.9,
+    -1066.2
+   ],
+   "width": 5.3,
+   "faces": 41,
+   "toStreet": 12.7,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1578.5,
+    -1072.1,
+    1592.9,
+    -1059.4,
+    1589.4,
+    -1055.4,
+    1580.2,
+    -1063.4,
+    1576.7,
+    -1066.8,
+    1577.8,
+    -1068.1,
+    1574.7,
+    -1070.8,
+    1577.1,
+    -1073.4
+   ],
+   "id": "spitaalpoortstraat-41-03",
+   "latLon": [
+    51.061024,
+    3.741955
+   ],
+   "photos": [
+    {
+     "id": "264245065423665",
+     "metres": 22,
+     "off": 3,
+     "span": [
+      0.483,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34380,
+   "at": [
+    1587.45,
+    -1053.2
+   ],
+   "centre": [
+    1579.7,
+    -1060.1
+   ],
+   "width": 5.9,
+   "faces": 42,
+   "toStreet": 9.3,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1571.6,
+    -1063.9,
+    1573.2,
+    -1065.8,
+    1578.3,
+    -1061.3,
+    1580.2,
+    -1063.4,
+    1589.4,
+    -1055.4,
+    1585.5,
+    -1051
+   ],
+   "id": "spitaalpoortstraat-42-04",
+   "latLon": [
+    51.060994,
+    3.741912
+   ],
+   "photos": [
+    {
+     "id": "484253892690946",
+     "metres": 18,
+     "off": 1,
+     "span": [
+      0.441,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28413,
+   "at": [
+    1685.05,
+    -756.95
+   ],
+   "centre": [
+    1673,
+    -767.2
+   ],
+   "width": 6.5,
+   "faces": 44,
+   "toStreet": 13.5,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1656.9,
+    -777,
+    1660.9,
+    -781.6,
+    1671.1,
+    -773,
+    1675.9,
+    -768.9,
+    1687.3,
+    -759.3,
+    1682.8,
+    -754.6,
+    1680,
+    -757,
+    1669.2,
+    -766.4
+   ],
+   "id": "spitaalpoortstraat-44-05",
+   "latLon": [
+    51.058851,
+    3.743028
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28652,
+   "at": [
+    1699.65,
+    -764.7
+   ],
+   "centre": [
+    1697.8,
+    -766.4
+   ],
+   "width": 5,
+   "faces": 44,
+   "toStreet": 8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1694.2,
+    -766.3,
+    1697.7,
+    -769.9,
+    1701.4,
+    -766.5,
+    1697.9,
+    -762.9
+   ],
+   "id": "spitaalpoortstraat-44-06",
+   "latLon": [
+    51.058907,
+    3.743195
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28653,
+   "at": [
+    1696.15,
+    -761.0999999999999
+   ],
+   "centre": [
+    1694.3,
+    -762.8
+   ],
+   "width": 5,
+   "faces": 44,
+   "toStreet": 8.1,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1690.8,
+    -762.8,
+    1694.2,
+    -766.3,
+    1697.9,
+    -762.9,
+    1694.4,
+    -759.3
+   ],
+   "id": "spitaalpoortstraat-44-07",
+   "latLon": [
+    51.058881,
+    3.743155
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28649,
+   "at": [
+    1706.4,
+    -771.65
+   ],
+   "centre": [
+    1704.6,
+    -773.4
+   ],
+   "width": 4.6,
+   "faces": 44,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1701.2,
+    -773.4,
+    1704.5,
+    -776.9,
+    1708,
+    -773.3,
+    1704.8,
+    -770
+   ],
+   "id": "spitaalpoortstraat-44-08",
+   "latLon": [
+    51.058957,
+    3.743272
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28650,
+   "at": [
+    1703.1,
+    -768.25
+   ],
+   "centre": [
+    1701.3,
+    -770
+   ],
+   "width": 4.9,
+   "faces": 44,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1697.7,
+    -769.9,
+    1701.2,
+    -773.4,
+    1704.8,
+    -770,
+    1701.4,
+    -766.5
+   ],
+   "id": "spitaalpoortstraat-44-09",
+   "latLon": [
+    51.058933,
+    3.743234
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28915,
+   "at": [
+    1709.35,
+    -781.8499999999999
+   ],
+   "centre": [
+    1705.1,
+    -785.9
+   ],
+   "width": 13.9,
+   "faces": 44,
+   "toStreet": 12.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1700.2,
+    -787.5,
+    1695.7,
+    -784.9,
+    1704.5,
+    -776.9,
+    1714.2,
+    -786.8,
+    1710.9,
+    -793.4
+   ],
+   "id": "spitaalpoortstraat-44-10",
+   "latLon": [
+    51.059031,
+    3.743306
+   ],
+   "photos": [
+    {
+     "id": "1367609250277334",
+     "metres": 36,
+     "off": 18,
+     "span": [
+      0.288,
+      0.432
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28654,
+   "at": [
+    1690.5500000000002,
+    -755.4
+   ],
+   "centre": [
+    1688.4,
+    -757.5
+   ],
+   "width": 11,
+   "faces": 45,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1686.7,
+    -751.5,
+    1694.4,
+    -759.3,
+    1690.8,
+    -762.8,
+    1687.3,
+    -759.3,
+    1682.8,
+    -754.6
+   ],
+   "id": "spitaalpoortstraat-45-11",
+   "latLon": [
+    51.05884,
+    3.743091
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28647,
+   "at": [
+    1712.3000000000002,
+    -777.55
+   ],
+   "centre": [
+    1711.3,
+    -779.2
+   ],
+   "width": 10.1,
+   "faces": 45,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1704.5,
+    -776.9,
+    1714.2,
+    -786.8,
+    1716.2,
+    -783.2,
+    1715.9,
+    -781.1,
+    1708.7,
+    -774,
+    1708,
+    -773.3
+   ],
+   "id": "spitaalpoortstraat-45-12",
+   "latLon": [
+    51.059,
+    3.74334
+   ],
+   "photos": [
+    {
+     "id": "305081721284248",
+     "metres": 42,
+     "off": 15,
+     "span": [
+      0.343,
+      0.43
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28577,
+   "at": [
+    1700.45,
+    -860.8
+   ],
+   "centre": [
+    1702.1,
+    -862.8
+   ],
+   "width": 14.1,
+   "faces": 132,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1695.2,
+    -865.5,
+    1698.7,
+    -869.8,
+    1709,
+    -859.9,
+    1705.7,
+    -856.1
+   ],
+   "id": "spitaalpoortstraat-132-01",
+   "latLon": [
+    51.059602,
+    3.743204
+   ],
+   "photos": [
+    {
+     "id": "511613124904571-34",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.313,
+      0.718
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28552,
+   "at": [
+    1714.5500000000002,
+    -834.75
+   ],
+   "centre": [
+    1717.9,
+    -835.6
+   ],
+   "width": 11.8,
+   "faces": 132,
+   "toStreet": 14.2,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1710.2,
+    -838.7,
+    1714.4,
+    -843.4,
+    1725.4,
+    -833.8,
+    1720.4,
+    -831.5,
+    1718.9,
+    -830.8
+   ],
+   "id": "spitaalpoortstraat-132-02",
+   "latLon": [
+    51.059414,
+    3.743365
+   ],
+   "photos": [
+    {
+     "id": "1206194307694987-38",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.259,
+      0.768
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34249,
+   "at": [
+    1616.15,
+    -1012.25
+   ],
+   "centre": [
+    1627.7,
+    -1018.8
+   ],
+   "width": 6.2,
+   "faces": 152,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    1614.7,
+    -1015,
+    1631.9,
+    -1023.7,
+    1635.8,
+    -1025.7,
+    1638.6,
+    -1020.2,
+    1617.6,
+    -1009.5
+   ],
+   "id": "spitaalpoortstraat-152-03",
+   "latLon": [
+    51.060698,
+    3.74224
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34246,
+   "at": [
+    1622.15,
+    -1000.55
+   ],
+   "centre": [
+    1632.4,
+    -1006
+   ],
+   "width": 6.2,
+   "faces": 152,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 11.3,
+   "kind": "yes",
+   "ring": [
+    1620.7,
+    -1003.3,
+    1623.6,
+    -997.8,
+    1637.4,
+    -1004.8,
+    1635.7,
+    -1008.3,
+    1639,
+    -1009.9,
+    1637.9,
+    -1012.1
+   ],
+   "id": "spitaalpoortstraat-152-04",
+   "latLon": [
+    51.060613,
+    3.742309
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34091,
+   "at": [
+    1646.95,
+    -951.95
+   ],
+   "centre": [
+    1654.9,
+    -957.1
+   ],
+   "width": 6.2,
+   "faces": 152,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    1645.5,
+    -954.7,
+    1654.1,
+    -959,
+    1655.3,
+    -956.7,
+    1658.2,
+    -958.4,
+    1657,
+    -960.9,
+    1658.8,
+    -962.1,
+    1662,
+    -956.1,
+    1648.4,
+    -949.2
+   ],
+   "id": "spitaalpoortstraat-152-05",
+   "latLon": [
+    51.060262,
+    3.742592
+   ],
+   "photos": [
+    {
+     "id": "2255458661535546-66",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.249,
+      0.751
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28587,
+   "at": [
+    1661.95,
+    -922.35
+   ],
+   "centre": [
+    1670.6,
+    -927.2
+   ],
+   "width": 5.3,
+   "faces": 152,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1660.7,
+    -924.7,
+    1669.2,
+    -929.4,
+    1670.7,
+    -930.2,
+    1672.1,
+    -927.4,
+    1678.5,
+    -930.7,
+    1680,
+    -927.8,
+    1663.2,
+    -920
+   ],
+   "id": "spitaalpoortstraat-152-06",
+   "latLon": [
+    51.060047,
+    3.742764
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28586,
+   "at": [
+    1664.85,
+    -916.85
+   ],
+   "centre": [
+    1675.5,
+    -921.8
+   ],
+   "width": 7.1,
+   "faces": 152,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    1663.2,
+    -920,
+    1680,
+    -927.8,
+    1681.6,
+    -924.5,
+    1680.1,
+    -923.7,
+    1681.4,
+    -921.3,
+    1666.5,
+    -913.7
+   ],
+   "id": "spitaalpoortstraat-152-07",
+   "latLon": [
+    51.060008,
+    3.742797
+   ],
+   "photos": [
+    {
+     "id": "3596727527291794-54",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.244,
+      0.806
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28553,
+   "at": [
+    1708.95,
+    -829.8
+   ],
+   "centre": [
+    1710.9,
+    -832.9
+   ],
+   "width": 7.5,
+   "faces": 152,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1710.2,
+    -838.7,
+    1718.9,
+    -830.8,
+    1710.7,
+    -826.5,
+    1707.2,
+    -833.1,
+    1707.4,
+    -835.6
+   ],
+   "id": "spitaalpoortstraat-152-08",
+   "latLon": [
+    51.059378,
+    3.743301
+   ],
+   "photos": [
+    {
+     "id": "616205088011992-66",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.437,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34255,
+   "at": [
+    1605.35,
+    -1033.7
+   ],
+   "centre": [
+    1619.3,
+    -1040.9
+   ],
+   "width": 6.3,
+   "faces": 153,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1616.6,
+    -1035.9,
+    1625.4,
+    -1040.5,
+    1627.2,
+    -1041.4,
+    1628.3,
+    -1042,
+    1625.4,
+    -1047.6,
+    1624.8,
+    -1047.2,
+    1621.5,
+    -1045.5,
+    1613.5,
+    -1041.5,
+    1603.9,
+    -1036.5,
+    1606.8,
+    -1030.9
+   ],
+   "id": "spitaalpoortstraat-153-09",
+   "latLon": [
+    51.060853,
+    3.742117
+   ],
+   "photos": [
+    {
+     "id": "1824451537723829",
+     "metres": 31,
+     "off": 1,
+     "span": [
+      0.466,
+      0.559
+     ]
+    },
+    {
+     "id": "494810998330351",
+     "metres": 32,
+     "off": 9,
+     "span": [
+      0.547,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34251,
+   "at": [
+    1613.45,
+    -1017.45
+   ],
+   "centre": [
+    1623,
+    -1022.4
+   ],
+   "width": 5.5,
+   "faces": 153,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1612.2,
+    -1019.9,
+    1623.8,
+    -1025.8,
+    1624.9,
+    -1023.7,
+    1630.5,
+    -1026.5,
+    1631.9,
+    -1023.7,
+    1614.7,
+    -1015
+   ],
+   "id": "spitaalpoortstraat-153-10",
+   "latLon": [
+    51.060735,
+    3.742209
+   ],
+   "photos": [
+    {
+     "id": "1881587479334705-45",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.233,
+      0.904
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34248,
+   "at": [
+    1619.15,
+    -1006.4
+   ],
+   "centre": [
+    1634.1,
+    -1013.7
+   ],
+   "width": 6.9,
+   "faces": 153,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1617.6,
+    -1009.5,
+    1638.6,
+    -1020.2,
+    1640.1,
+    -1021,
+    1642.2,
+    -1016.8,
+    1637.2,
+    -1014.2,
+    1638.2,
+    -1012.2,
+    1637.9,
+    -1012.1,
+    1620.7,
+    -1003.3
+   ],
+   "id": "spitaalpoortstraat-153-11",
+   "latLon": [
+    51.060656,
+    3.742275
+   ],
+   "photos": [
+    {
+     "id": "892509336160230-53",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.169,
+      0.95
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34244,
+   "at": [
+    1625,
+    -995.05
+   ],
+   "centre": [
+    1638.1,
+    -1001.8
+   ],
+   "width": 6.2,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1623.6,
+    -997.8,
+    1626.4,
+    -992.3,
+    1642.6,
+    -1000.6,
+    1645,
+    -1001.8,
+    1643.4,
+    -1004.9,
+    1643.7,
+    -1005,
+    1642.5,
+    -1007.4,
+    1637.4,
+    -1004.8
+   ],
+   "id": "spitaalpoortstraat-153-12",
+   "latLon": [
+    51.060573,
+    3.742342
+   ],
+   "photos": [
+    {
+     "id": "581290821575656-65",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.145,
+      0.824
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34242,
+   "at": [
+    1627.85,
+    -989.5
+   ],
+   "centre": [
+    1637.3,
+    -993.6
+   ],
+   "width": 6.3,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1626.4,
+    -992.3,
+    1629.3,
+    -986.7,
+    1642.7,
+    -993.6,
+    1645.4,
+    -995,
+    1642.6,
+    -1000.6
+   ],
+   "id": "spitaalpoortstraat-153-13",
+   "latLon": [
+    51.060533,
+    3.742374
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34241,
+   "at": [
+    1631.25,
+    -982.85
+   ],
+   "centre": [
+    1637.9,
+    -986.3
+   ],
+   "width": 8.6,
+   "faces": 153,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1629.3,
+    -986.7,
+    1633.2,
+    -979,
+    1646.5,
+    -985.8,
+    1642.7,
+    -993.6
+   ],
+   "id": "spitaalpoortstraat-153-14",
+   "latLon": [
+    51.060485,
+    3.742413
+   ],
+   "photos": [
+    {
+     "id": "1145332154041644-84",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.784
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34239,
+   "at": [
+    1634.2,
+    -977
+   ],
+   "centre": [
+    1640.6,
+    -978.4
+   ],
+   "width": 4.5,
+   "faces": 153,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1633.2,
+    -979,
+    1635.2,
+    -975,
+    1637.5,
+    -974.2,
+    1642.1,
+    -976.5,
+    1649.3,
+    -980.2,
+    1646.5,
+    -985.8
+   ],
+   "id": "spitaalpoortstraat-153-15",
+   "latLon": [
+    51.060443,
+    3.742447
+   ],
+   "photos": [
+    {
+     "id": "643251885023350-33",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.365,
+      0.685
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34092,
+   "at": [
+    1643.9,
+    -957.8
+   ],
+   "centre": [
+    1650.8,
+    -961.5
+   ],
+   "width": 7,
+   "faces": 153,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1655,
+    -969.4,
+    1658.8,
+    -962.1,
+    1657,
+    -960.9,
+    1654.1,
+    -959,
+    1645.5,
+    -954.7,
+    1642.3,
+    -960.9,
+    1643.1,
+    -963.3
+   ],
+   "id": "spitaalpoortstraat-153-16",
+   "latLon": [
+    51.060304,
+    3.742558
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34090,
+   "at": [
+    1649.5500000000002,
+    -946.9000000000001
+   ],
+   "centre": [
+    1657.2,
+    -949.1
+   ],
+   "width": 5.1,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1648.4,
+    -949.2,
+    1662,
+    -956.1,
+    1664.3,
+    -952.1,
+    1661.3,
+    -950.6,
+    1660.8,
+    -951.6,
+    1658.8,
+    -950.6,
+    1660.4,
+    -947.3,
+    1653.1,
+    -943.6,
+    1652.3,
+    -945.3,
+    1650.7,
+    -944.6
+   ],
+   "id": "spitaalpoortstraat-153-17",
+   "latLon": [
+    51.060225,
+    3.742622
+   ],
+   "photos": [
+    {
+     "id": "2255458661535546-108",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.366,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28590,
+   "at": [
+    1653.9499999999998,
+    -938.0999999999999
+   ],
+   "centre": [
+    1660.8,
+    -941.7
+   ],
+   "width": 5.1,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": 10.4,
+   "kind": "house",
+   "ring": [
+    1666.5,
+    -947.6,
+    1668.8,
+    -943.1,
+    1655.1,
+    -935.8,
+    1652.8,
+    -940.4
+   ],
+   "id": "spitaalpoortstraat-153-18",
+   "latLon": [
+    51.060161,
+    3.742672
+   ],
+   "photos": [
+    {
+     "id": "980900980149778-85",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.296,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28589,
+   "at": [
+    1656.5,
+    -933.05
+   ],
+   "centre": [
+    1665.7,
+    -938.6
+   ],
+   "width": 6.2,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1655.1,
+    -935.8,
+    1668.8,
+    -943.1,
+    1671.9,
+    -944.7,
+    1674.8,
+    -939,
+    1657.9,
+    -930.3
+   ],
+   "id": "spitaalpoortstraat-153-19",
+   "latLon": [
+    51.060125,
+    3.742702
+   ],
+   "photos": [
+    {
+     "id": "1876940486443204-24",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.384,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28588,
+   "at": [
+    1659.3000000000002,
+    -927.5
+   ],
+   "centre": [
+    1672.5,
+    -933.8
+   ],
+   "width": 6.3,
+   "faces": 153,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1657.9,
+    -930.3,
+    1674.8,
+    -939,
+    1680.2,
+    -941.7,
+    1683.1,
+    -936.2,
+    1680,
+    -934.7,
+    1678.8,
+    -937,
+    1668,
+    -931.4,
+    1669.2,
+    -929.4,
+    1660.7,
+    -924.7
+   ],
+   "id": "spitaalpoortstraat-153-20",
+   "latLon": [
+    51.060085,
+    3.742734
+   ],
+   "photos": [
+    {
+     "id": "1876940486443204-70",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.252,
+      0.726
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28585,
+   "at": [
+    1668.95,
+    -908.9000000000001
+   ],
+   "centre": [
+    1675.7,
+    -915.4
+   ],
+   "width": 10.8,
+   "faces": 153,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1666.5,
+    -913.7,
+    1681.4,
+    -921.3,
+    1683.4,
+    -922.3,
+    1671.4,
+    -904.1
+   ],
+   "id": "spitaalpoortstraat-153-21",
+   "latLon": [
+    51.05995,
+    3.742844
+   ],
+   "photos": [
+    {
+     "id": "641937338223652-19",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.327,
+      0.989
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28584,
+   "at": [
+    1675.95,
+    -894.85
+   ],
+   "centre": [
+    1693.5,
+    -920.5
+   ],
+   "width": 9.8,
+   "faces": 153,
+   "toStreet": 5.8,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1701.4,
+    -941.6,
+    1701.9,
+    -941.1,
+    1704.2,
+    -938.6,
+    1704.8,
+    -932.5,
+    1705,
+    -930.1,
+    1678.8,
+    -890.4,
+    1678.2,
+    -890.5,
+    1673.7,
+    -899.2
+   ],
+   "id": "spitaalpoortstraat-153-22",
+   "latLon": [
+    51.059848,
+    3.742924
+   ],
+   "photos": [
+    {
+     "id": "2982793848568296-43",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.22,
+      0.966
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28582,
+   "at": [
+    1684.8000000000002,
+    -877.35
+   ],
+   "centre": [
+    1690.9,
+    -883.4
+   ],
+   "width": 4.8,
+   "faces": 153,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1683.7,
+    -879.5,
+    1690.7,
+    -885.7,
+    1696.1,
+    -890.4,
+    1698.1,
+    -886.2,
+    1685.9,
+    -875.2
+   ],
+   "id": "spitaalpoortstraat-153-23",
+   "latLon": [
+    51.059722,
+    3.743025
+   ],
+   "photos": [
+    {
+     "id": "651291124132155-95",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.373,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28581,
+   "at": [
+    1686.95,
+    -873.1500000000001
+   ],
+   "centre": [
+    1693.9,
+    -878.9
+   ],
+   "width": 4.6,
+   "faces": 153,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1685.9,
+    -875.2,
+    1698.1,
+    -886.2,
+    1700.1,
+    -882.2,
+    1697.4,
+    -879.8,
+    1688,
+    -871.1
+   ],
+   "id": "spitaalpoortstraat-153-24",
+   "latLon": [
+    51.059691,
+    3.74305
+   ],
+   "photos": [
+    {
+     "id": "992219749495961-47",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.382,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28580,
+   "at": [
+    1689.05,
+    -869
+   ],
+   "centre": [
+    1694.9,
+    -874.3
+   ],
+   "width": 4.7,
+   "faces": 153,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 9,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1699.3,
+    -876.5,
+    1699.7,
+    -877,
+    1697.4,
+    -879.8,
+    1688,
+    -871.1,
+    1690.1,
+    -866.9
+   ],
+   "id": "spitaalpoortstraat-153-25",
+   "latLon": [
+    51.059661,
+    3.743074
+   ],
+   "photos": [
+    {
+     "id": "992219749495961-78",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.356,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28579,
+   "at": [
+    1691.3,
+    -864.55
+   ],
+   "centre": [
+    1697.1,
+    -869.8
+   ],
+   "width": 5.3,
+   "faces": 153,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1690.1,
+    -866.9,
+    1692.5,
+    -862.2,
+    1695.2,
+    -865.5,
+    1698.7,
+    -869.8,
+    1701.7,
+    -873.5,
+    1702.1,
+    -874,
+    1699.3,
+    -876.5
+   ],
+   "id": "spitaalpoortstraat-153-26",
+   "latLon": [
+    51.059629,
+    3.743099
+   ],
+   "photos": [
+    {
+     "id": "1963260414201698-36",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.386,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28578,
+   "at": [
+    1695.35,
+    -856.6500000000001
+   ],
+   "centre": [
+    1698.9,
+    -855.3
+   ],
+   "width": 12.5,
+   "faces": 153,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1692.5,
+    -862.2,
+    1695.2,
+    -865.5,
+    1705.7,
+    -856.1,
+    1701.1,
+    -850.8,
+    1701.1,
+    -850.7,
+    1698.2,
+    -851,
+    1698.2,
+    -851.1
+   ],
+   "id": "spitaalpoortstraat-153-27",
+   "latLon": [
+    51.059572,
+    3.743146
+   ],
+   "photos": [
+    {
+     "id": "1963260414201698-92",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.079,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28551,
+   "at": [
+    1712.15,
+    -823.7
+   ],
+   "centre": [
+    1720.8,
+    -829.4
+   ],
+   "width": 6.3,
+   "faces": 153,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1710.7,
+    -826.5,
+    1718.9,
+    -830.8,
+    1720.4,
+    -831.5,
+    1725.4,
+    -833.8,
+    1726.5,
+    -832.7,
+    1730.2,
+    -829.5,
+    1713.6,
+    -820.9
+   ],
+   "id": "spitaalpoortstraat-153-28",
+   "latLon": [
+    51.059334,
+    3.743338
+   ],
+   "photos": [
+    {
+     "id": "616205088011992-80",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.449,
+      0.552
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28550,
+   "at": [
+    1715.15,
+    -817.9
+   ],
+   "centre": [
+    1726,
+    -824.2
+   ],
+   "width": 6.8,
+   "faces": 153,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1713.6,
+    -820.9,
+    1730.2,
+    -829.5,
+    1733.1,
+    -831,
+    1736.2,
+    -824.7,
+    1716.7,
+    -814.9
+   ],
+   "id": "spitaalpoortstraat-153-29",
+   "latLon": [
+    51.059292,
+    3.743372
+   ],
+   "photos": [
+    {
+     "id": "630123996631009-36",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.249,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28546,
+   "at": [
+    1721.1999999999998,
+    -805.8
+   ],
+   "centre": [
+    1732.8,
+    -811.9
+   ],
+   "width": 4.9,
+   "faces": 153,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1720.1,
+    -808,
+    1738.2,
+    -817.8,
+    1739.7,
+    -818.6,
+    1742.1,
+    -813.8,
+    1734.5,
+    -809.9,
+    1722.3,
+    -803.6
+   ],
+   "id": "spitaalpoortstraat-153-30",
+   "latLon": [
+    51.059204,
+    3.743441
+   ],
+   "photos": [
+    {
+     "id": "560512767033995-31",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.312,
+      0.856
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28543,
+   "at": [
+    1726.65,
+    -794.9
+   ],
+   "centre": [
+    1737.9,
+    -800
+   ],
+   "width": 6.8,
+   "faces": 153,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1725.1,
+    -797.9,
+    1743.6,
+    -807.5,
+    1746.7,
+    -801.6,
+    1746,
+    -801.2,
+    1728.2,
+    -791.9
+   ],
+   "id": "spitaalpoortstraat-153-31",
+   "latLon": [
+    51.059125,
+    3.743504
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28541,
+   "at": [
+    1729.6,
+    -789.0999999999999
+   ],
+   "centre": [
+    1739.8,
+    -793.7
+   ],
+   "width": 6.3,
+   "faces": 153,
+   "toStreet": 8.5,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1728.2,
+    -791.9,
+    1746,
+    -801.2,
+    1749.1,
+    -795.6,
+    1744.8,
+    -793.4,
+    1731,
+    -786.3
+   ],
+   "id": "spitaalpoortstraat-153-32",
+   "latLon": [
+    51.059083,
+    3.743537
+   ],
+   "photos": [
+    {
+     "id": "573799095653577-97",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.714
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28540,
+   "at": [
+    1732.5,
+    -783.4
+   ],
+   "centre": [
+    1744.8,
+    -789.2
+   ],
+   "width": 6.5,
+   "faces": 153,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1731,
+    -786.3,
+    1744.8,
+    -793.4,
+    1746.7,
+    -791,
+    1754,
+    -794.3,
+    1756,
+    -791.7,
+    1747.3,
+    -787.5,
+    1734,
+    -780.5
+   ],
+   "id": "spitaalpoortstraat-153-33",
+   "latLon": [
+    51.059042,
+    3.74357
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28538,
+   "at": [
+    1735.15,
+    -778.2
+   ],
+   "centre": [
+    1741.8,
+    -781.7
+   ],
+   "width": 5.1,
+   "faces": 153,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1734,
+    -780.5,
+    1747.3,
+    -787.5,
+    1749.6,
+    -782.8,
+    1736.3,
+    -775.9
+   ],
+   "id": "spitaalpoortstraat-153-34",
+   "latLon": [
+    51.059004,
+    3.743601
+   ],
+   "photos": [
+    {
+     "id": "29058320107116780-73",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.114,
+      0.784
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28537,
+   "at": [
+    1737.5,
+    -773.55
+   ],
+   "centre": [
+    1744.1,
+    -777
+   ],
+   "width": 5.3,
+   "faces": 153,
+   "toStreet": 8.6,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1736.3,
+    -775.9,
+    1749.6,
+    -782.8,
+    1751.9,
+    -778.1,
+    1738.7,
+    -771.2
+   ],
+   "id": "spitaalpoortstraat-153-35",
+   "latLon": [
+    51.058971,
+    3.743628
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28536,
+   "at": [
+    1739.9,
+    -768.85
+   ],
+   "centre": [
+    1746.5,
+    -772.3
+   ],
+   "width": 5.3,
+   "faces": 153,
+   "toStreet": 8.6,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    1738.7,
+    -771.2,
+    1751.9,
+    -778.1,
+    1754.2,
+    -773.4,
+    1741.1,
+    -766.5
+   ],
+   "id": "spitaalpoortstraat-153-36",
+   "latLon": [
+    51.058937,
+    3.743655
+   ],
+   "photos": [
+    {
+     "id": "1065783725358279-32",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.326,
+      0.797
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28531,
+   "at": [
+    1751.9,
+    -740
+   ],
+   "centre": [
+    1757,
+    -741.1
+   ],
+   "width": 9.2,
+   "faces": 153,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    1748.2,
+    -752.3,
+    1755.5,
+    -737.6,
+    1758.6,
+    -739.1,
+    1759.3,
+    -738.2,
+    1758.9,
+    -737.9,
+    1759.1,
+    -737.6,
+    1768.8,
+    -744.5,
+    1770.1,
+    -742.7,
+    1755.6,
+    -732.5,
+    1754,
+    -735.9,
+    1749.8,
+    -744.1,
+    1746.2,
+    -751.3
+   ],
+   "id": "spitaalpoortstraat-153-37",
+   "latLon": [
+    51.058728,
+    3.743792
+   ],
+   "photos": [
+    {
+     "id": "1317907909458859-98",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.741
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34254,
+   "at": [
+    1608.1,
+    -1028.25
+   ],
+   "centre": [
+    1613.1,
+    -1030.8
+   ],
+   "width": 5.9,
+   "faces": 154,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1606.8,
+    -1030.9,
+    1609.4,
+    -1025.6,
+    1619.4,
+    -1030.6,
+    1616.6,
+    -1035.9
+   ],
+   "id": "spitaalpoortstraat-154-38",
+   "latLon": [
+    51.060814,
+    3.742148
+   ],
+   "photos": [
+    {
+     "id": "1824451537723829",
+     "metres": 31,
+     "off": 10,
+     "span": [
+      0.559,
+      0.648
+     ]
+    },
+    {
+     "id": "494810998330351",
+     "metres": 32,
+     "off": 17,
+     "span": [
+      0.655,
+      0.762
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34253,
+   "at": [
+    1610.8000000000002,
+    -1022.75
+   ],
+   "centre": [
+    1620.3,
+    -1027.6
+   ],
+   "width": 6.4,
+   "faces": 154,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1609.4,
+    -1025.6,
+    1612.2,
+    -1019.9,
+    1623.8,
+    -1025.8,
+    1630,
+    -1028.9,
+    1627.1,
+    -1034.5,
+    1619.4,
+    -1030.6
+   ],
+   "id": "spitaalpoortstraat-154-39",
+   "latLon": [
+    51.060774,
+    3.742179
+   ],
+   "photos": [
+    {
+     "id": "1824451537723829",
+     "metres": 32,
+     "off": 19,
+     "span": [
+      0.648,
+      0.747
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28918,
+   "at": [
+    1682.15,
+    -882.65
+   ],
+   "centre": [
+    1686.9,
+    -888.1
+   ],
+   "width": 7,
+   "faces": 154,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1687.2,
+    -896,
+    1680.6,
+    -885.8,
+    1683.7,
+    -879.5,
+    1690.7,
+    -885.7,
+    1687.9,
+    -888.2,
+    1691.2,
+    -893.4
+   ],
+   "id": "spitaalpoortstraat-154-40",
+   "latLon": [
+    51.05976,
+    3.742995
+   ],
+   "photos": [
+    {
+     "id": "651291124132155-55",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.296,
+      0.74
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28548,
+   "at": [
+    1718.4,
+    -811.45
+   ],
+   "centre": [
+    1735.6,
+    -821.1
+   ],
+   "width": 7.7,
+   "faces": 154,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1716.7,
+    -814.9,
+    1736.2,
+    -824.7,
+    1739.7,
+    -826.5,
+    1747.7,
+    -830.6,
+    1749.3,
+    -826.2,
+    1737.2,
+    -820.2,
+    1738.2,
+    -817.8,
+    1720.1,
+    -808
+   ],
+   "id": "spitaalpoortstraat-154-41",
+   "latLon": [
+    51.059245,
+    3.743409
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28544,
+   "at": [
+    1723.6999999999998,
+    -800.75
+   ],
+   "centre": [
+    1733.9,
+    -806.1
+   ],
+   "width": 6.4,
+   "faces": 154,
+   "toStreet": 8.1,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1722.3,
+    -803.6,
+    1734.5,
+    -809.9,
+    1735.8,
+    -807.2,
+    1742.1,
+    -810.4,
+    1743.6,
+    -807.5,
+    1725.1,
+    -797.9
+   ],
+   "id": "spitaalpoortstraat-154-42",
+   "latLon": [
+    51.059168,
+    3.74347
+   ],
+   "photos": [
+    {
+     "id": "560512767033995-107",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.068,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28534,
+   "at": [
+    1742.25,
+    -764.15
+   ],
+   "centre": [
+    1748.9,
+    -767.4
+   ],
+   "width": 5.2,
+   "faces": 154,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1741.1,
+    -766.5,
+    1754.2,
+    -773.4,
+    1757,
+    -768,
+    1743.4,
+    -761.8
+   ],
+   "id": "spitaalpoortstraat-154-43",
+   "latLon": [
+    51.058903,
+    3.743682
+   ],
+   "photos": [
+    {
+     "id": "1065783725358279-93",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.208,
+      0.683
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28533,
+   "at": [
+    1751.85,
+    -744.95
+   ],
+   "centre": [
+    1757.8,
+    -750.2
+   ],
+   "width": 16.4,
+   "faces": 154,
+   "toStreet": 8.2,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1743.4,
+    -761.8,
+    1757,
+    -768,
+    1758.1,
+    -765.9,
+    1761.8,
+    -758.9,
+    1760.1,
+    -757.9,
+    1763.1,
+    -753.3,
+    1768.8,
+    -744.5,
+    1759.1,
+    -737.6,
+    1758.9,
+    -737.9,
+    1759.3,
+    -738.2,
+    1758.6,
+    -739.1,
+    1755.5,
+    -737.6,
+    1748.2,
+    -752.3
+   ],
+   "id": "spitaalpoortstraat-154-44",
+   "latLon": [
+    51.058764,
+    3.743792
+   ],
+   "photos": [
+    {
+     "id": "1317907909458859-50",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.037,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34256,
+   "at": [
+    1602,
+    -1044.3000000000002
+   ],
+   "centre": [
+    1608.1,
+    -1046.4
+   ],
+   "width": 6.2,
+   "faces": 186,
+   "toStreet": 9.5,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1609.7,
+    -1055.9,
+    1606.4,
+    -1052.1,
+    1602.3,
+    -1047.4,
+    1601.7,
+    -1041.2,
+    1603.9,
+    -1036.5,
+    1613.5,
+    -1041.5,
+    1611.3,
+    -1045.6,
+    1615.7,
+    -1050.6
+   ],
+   "id": "spitaalpoortstraat-186-01",
+   "latLon": [
+    51.06093,
+    3.742079
+   ],
+   "photos": [
+    {
+     "id": "1824451537723829",
+     "metres": 35,
+     "off": 13,
+     "span": [
+      0.336,
+      0.392
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28426,
+   "at": [
+    1699,
+    -737.3499999999999
+   ],
+   "centre": [
+    1711.2,
+    -728.6
+   ],
+   "width": 5.2,
+   "faces": 221,
+   "toStreet": 11.8,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1697.3,
+    -735.4,
+    1700.7,
+    -739.3,
+    1701.7,
+    -740.5,
+    1712.2,
+    -728.4,
+    1717.4,
+    -731.8,
+    1730.3,
+    -716.2,
+    1718.8,
+    -708.7
+   ],
+   "id": "spitaalpoortstraat-221-01",
+   "latLon": [
+    51.058709,
+    3.743188
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28645,
+   "at": [
+    1712.65,
+    -760.5
+   ],
+   "centre": [
+    1715.5,
+    -758.1
+   ],
+   "width": 7.7,
+   "faces": 223,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1710,
+    -757.7,
+    1715.3,
+    -763.3,
+    1718.6,
+    -758.7,
+    1719.7,
+    -756.9,
+    1714,
+    -753.8
+   ],
+   "id": "spitaalpoortstraat-223-02",
+   "latLon": [
+    51.058876,
+    3.743344
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28421,
+   "at": [
+    1721.8,
+    -762.1500000000001
+   ],
+   "centre": [
+    1722.6,
+    -760.6
+   ],
+   "width": 9.4,
+   "faces": 223,
+   "toStreet": 10.1,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1718.6,
+    -758.7,
+    1725,
+    -765.6,
+    1727.3,
+    -761,
+    1719.7,
+    -756.9
+   ],
+   "id": "spitaalpoortstraat-223-03",
+   "latLon": [
+    51.058888,
+    3.743448
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28651,
+   "at": [
+    1698.85,
+    -746.15
+   ],
+   "centre": [
+    1701.2,
+    -743.4
+   ],
+   "width": 7.9,
+   "faces": 224,
+   "toStreet": 4,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1696.1,
+    -743.3,
+    1701.6,
+    -749,
+    1705.8,
+    -745,
+    1701.7,
+    -740.5,
+    1700.7,
+    -739.3
+   ],
+   "id": "spitaalpoortstraat-224-04",
+   "latLon": [
+    51.058773,
+    3.743186
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28648,
+   "at": [
+    1704.1,
+    -751.6
+   ],
+   "centre": [
+    1706.3,
+    -750.6
+   ],
+   "width": 7.2,
+   "faces": 224,
+   "toStreet": 4.2,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1701.6,
+    -749,
+    1706.6,
+    -754.2,
+    1706.6,
+    -754.3,
+    1710.8,
+    -750.3,
+    1705.8,
+    -745
+   ],
+   "id": "spitaalpoortstraat-224-05",
+   "latLon": [
+    51.058812,
+    3.743246
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28644,
+   "at": [
+    1718.25,
+    -766.4
+   ],
+   "centre": [
+    1721.1,
+    -766.4
+   ],
+   "width": 8.6,
+   "faces": 224,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1715.3,
+    -763.3,
+    1721.2,
+    -769.5,
+    1721.2,
+    -769.5,
+    1723.3,
+    -769.1,
+    1723.3,
+    -769,
+    1725,
+    -765.6,
+    1718.6,
+    -758.7
+   ],
+   "id": "spitaalpoortstraat-224-06",
+   "latLon": [
+    51.058919,
+    3.743408
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28646,
+   "at": [
+    1708.3,
+    -756
+   ],
+   "centre": [
+    1710.4,
+    -754
+   ],
+   "width": 4.8,
+   "faces": 225,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "terrace",
+   "ring": [
+    1706.6,
+    -754.3,
+    1710,
+    -757.7,
+    1714,
+    -753.8,
+    1710.8,
+    -750.3
+   ],
+   "id": "spitaalpoortstraat-225-07",
+   "latLon": [
+    51.058844,
+    3.743294
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28286,
+   "at": [
+    1766.5500000000002,
+    -710.95
+   ],
+   "centre": [
+    1775.9,
+    -696.1
+   ],
+   "width": 12.7,
+   "faces": 237,
+   "toStreet": 13.8,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1761.2,
+    -707.5,
+    1774.7,
+    -686.9,
+    1777.6,
+    -682.5,
+    1779.6,
+    -679.3,
+    1792.2,
+    -688.1,
+    1774.4,
+    -713.9,
+    1771.9,
+    -714.4
+   ],
+   "id": "spitaalpoortstraat-237-08",
+   "latLon": [
+    51.058518,
+    3.74396
+   ],
+   "photos": [
+    {
+     "id": "650747194193923-147",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.377,
+      0.632
+     ]
+    },
+    {
+     "id": "1162712515234841-192",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.224,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28301,
+   "at": [
+    1755.0500000000002,
+    -703.6
+   ],
+   "centre": [
+    1761.8,
+    -693.4
+   ],
+   "width": 14.6,
+   "faces": 238,
+   "toStreet": 16.3,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 25.1,
+   "kind": "house",
+   "ring": [
+    1748.9,
+    -699.7,
+    1762.3,
+    -679.4,
+    1774.7,
+    -686.9,
+    1761.2,
+    -707.5
+   ],
+   "id": "spitaalpoortstraat-238-09",
+   "latLon": [
+    51.058465,
+    3.743828
+   ],
+   "photos": [
+    {
+     "id": "1007609038086000-115",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.269,
+      1
+     ]
+    },
+    {
+     "id": "650747194193923-176",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.373,
+      0.603
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28408,
+   "at": [
+    1679.5,
+    -836.25
+   ],
+   "centre": [
+    1675.9,
+    -836.3
+   ],
+   "width": 13.8,
+   "faces": 312,
+   "toStreet": 16.5,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1684.6,
+    -831.6,
+    1680.9,
+    -827.3,
+    1666.7,
+    -839.1,
+    1672.8,
+    -842.4,
+    1674.4,
+    -840.9
+   ],
+   "id": "spitaalpoortstraat-312-01",
+   "latLon": [
+    51.059424,
+    3.742965
+   ],
+   "photos": [
+    {
+     "id": "511613124904571-227",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.264,
+      0.717
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28407,
+   "at": [
+    1686.25,
+    -842.5999999999999
+   ],
+   "centre": [
+    1682.8,
+    -840.4
+   ],
+   "width": 9.7,
+   "faces": 332,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1683.8,
+    -846.8,
+    1684,
+    -846.9,
+    1688.5,
+    -838.3,
+    1688.2,
+    -835.7,
+    1684.6,
+    -831.6,
+    1674.4,
+    -840.9,
+    1675.9,
+    -842.9
+   ],
+   "id": "spitaalpoortstraat-332-02",
+   "latLon": [
+    51.05947,
+    3.743042
+   ],
+   "photos": [
+    {
+     "id": "511613124904571-227",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.177,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28420,
+   "at": [
+    1707.05,
+    -800.95
+   ],
+   "centre": [
+    1695.2,
+    -794.4
+   ],
+   "width": 6.2,
+   "faces": 332,
+   "toStreet": 6.9,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1688.9,
+    -790.6,
+    1690.6,
+    -793.2,
+    1692.4,
+    -794.1,
+    1694.6,
+    -795.3,
+    1693.5,
+    -797.2,
+    1705.6,
+    -803.7,
+    1708.5,
+    -798.2,
+    1697.7,
+    -792.5,
+    1691,
+    -788.9,
+    1689.2,
+    -790.4
+   ],
+   "id": "spitaalpoortstraat-332-03",
+   "latLon": [
+    51.059169,
+    3.74328
+   ],
+   "photos": [
+    {
+     "id": "560512767033995-264",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.367,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34024,
+   "at": [
+    1594.4499999999998,
+    -1022.4499999999999
+   ],
+   "centre": [
+    1587.1,
+    -1017.4
+   ],
+   "width": 9.3,
+   "faces": 333,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    1596.6,
+    -1018.3,
+    1592.3,
+    -1026.6,
+    1579.6,
+    -1020.2,
+    1583.2,
+    -1012.8,
+    1585.2,
+    -1013.8,
+    1585.6,
+    -1012.9
+   ],
+   "id": "spitaalpoortstraat-333-04",
+   "latLon": [
+    51.060772,
+    3.741992
+   ],
+   "photos": [
+    {
+     "id": "294234385530362",
+     "metres": 28,
+     "off": 9,
+     "span": [
+      0.389,
+      0.479
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34025,
+   "at": [
+    1597.85,
+    -1015.8
+   ],
+   "centre": [
+    1589.6,
+    -1011.7
+   ],
+   "width": 5.6,
+   "faces": 333,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 9,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    1585.6,
+    -1012.9,
+    1583,
+    -1011.7,
+    1585.7,
+    -1006.4,
+    1587.4,
+    -1007.3,
+    1599.1,
+    -1013.3,
+    1596.6,
+    -1018.3
+   ],
+   "id": "spitaalpoortstraat-333-05",
+   "latLon": [
+    51.060724,
+    3.742031
+   ],
+   "photos": [
+    {
+     "id": "467677637652898",
+     "metres": 43,
+     "off": 14,
+     "span": [
+      0.374,
+      0.409
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34026,
+   "at": [
+    1600.8,
+    -1009.95
+   ],
+   "centre": [
+    1591.8,
+    -1005.4
+   ],
+   "width": 7.5,
+   "faces": 333,
+   "toStreet": 7.3,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1602.5,
+    -1006.6,
+    1599.1,
+    -1013.3,
+    1587.4,
+    -1007.3,
+    1589,
+    -1004.1,
+    1585.5,
+    -1002.4,
+    1587.3,
+    -998.9
+   ],
+   "id": "spitaalpoortstraat-333-06",
+   "latLon": [
+    51.060681,
+    3.742065
+   ],
+   "photos": [
+    {
+     "id": "1881587479334705-244",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.33,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 33968,
+   "at": [
+    1605.1,
+    -1001.6
+   ],
+   "centre": [
+    1583.6,
+    -993.8
+   ],
+   "width": 11.3,
+   "faces": 333,
+   "toStreet": 7.3,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1576.5,
+    -986.3,
+    1584.1,
+    -984.7,
+    1607.7,
+    -996.6,
+    1602.5,
+    -1006.6,
+    1587.3,
+    -998.9,
+    1585.4,
+    -998,
+    1588.1,
+    -992.7,
+    1584.8,
+    -990.9,
+    1584.4,
+    -991.6,
+    1582.8,
+    -990.7,
+    1577.6,
+    -991.4,
+    1578.4,
+    -997.2,
+    1567,
+    -998.9,
+    1564.1,
+    -988.3
+   ],
+   "id": "spitaalpoortstraat-333-07",
+   "latLon": [
+    51.060621,
+    3.742114
+   ],
+   "photos": [
+    {
+     "id": "892509336160230-258",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.204,
+      0.728
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34028,
+   "at": [
+    1612.7,
+    -986.65
+   ],
+   "centre": [
+    1598.2,
+    -979.6
+   ],
+   "width": 8.7,
+   "faces": 333,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1591,
+    -980.8,
+    1588.2,
+    -979.5,
+    1592.2,
+    -971.6,
+    1595.7,
+    -973.3,
+    1593.4,
+    -977.9,
+    1600.4,
+    -981.3,
+    1602.7,
+    -976.7,
+    1614.7,
+    -982.8,
+    1610.7,
+    -990.5,
+    1592.5,
+    -981.6
+   ],
+   "id": "spitaalpoortstraat-333-08",
+   "latLon": [
+    51.060513,
+    3.742201
+   ],
+   "photos": [
+    {
+     "id": "581290821575656-232",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.307,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34385,
+   "at": [
+    1618.95,
+    -974.3
+   ],
+   "centre": [
+    1607.7,
+    -968.2
+   ],
+   "width": 6.3,
+   "faces": 333,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1599.8,
+    -968.8,
+    1601.5,
+    -965.3,
+    1603.6,
+    -966.4,
+    1604.8,
+    -963.9,
+    1606.3,
+    -964.7,
+    1620.4,
+    -971.5,
+    1617.5,
+    -977.1
+   ],
+   "id": "spitaalpoortstraat-333-09",
+   "latLon": [
+    51.060423,
+    3.742272
+   ],
+   "photos": [
+    {
+     "id": "1145332154041644-220",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.379,
+      0.661
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34031,
+   "at": [
+    1624.65,
+    -962.95
+   ],
+   "centre": [
+    1614.4,
+    -957.1
+   ],
+   "width": 6.8,
+   "faces": 333,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1604.9,
+    -957.1,
+    1608,
+    -950.7,
+    1609.8,
+    -951.6,
+    1626.2,
+    -959.9,
+    1623.1,
+    -966
+   ],
+   "id": "spitaalpoortstraat-333-10",
+   "latLon": [
+    51.060341,
+    3.742338
+   ],
+   "photos": [
+    {
+     "id": "1294806935142772-231",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.373,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34032,
+   "at": [
+    1627.6,
+    -957.15
+   ],
+   "centre": [
+    1617.9,
+    -951.5
+   ],
+   "width": 6.2,
+   "faces": 333,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1609.8,
+    -951.6,
+    1611.5,
+    -948.1,
+    1614.1,
+    -949.4,
+    1615,
+    -947.5,
+    1619.4,
+    -949.7,
+    1629,
+    -954.4,
+    1626.2,
+    -959.9
+   ],
+   "id": "spitaalpoortstraat-333-11",
+   "latLon": [
+    51.060299,
+    3.742371
+   ],
+   "photos": [
+    {
+     "id": "941843731167473-244",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.332,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34033,
+   "at": [
+    1630.45,
+    -951.5999999999999
+   ],
+   "centre": [
+    1620.7,
+    -947.1
+   ],
+   "width": 6.3,
+   "faces": 333,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1619.4,
+    -949.7,
+    1620.5,
+    -947.4,
+    1610.9,
+    -942.7,
+    1612.6,
+    -939.3,
+    1631.9,
+    -948.8,
+    1629,
+    -954.4
+   ],
+   "id": "spitaalpoortstraat-333-12",
+   "latLon": [
+    51.060259,
+    3.742404
+   ],
+   "photos": [
+    {
+     "id": "941843731167473-209",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.401,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28396,
+   "at": [
+    1633.45,
+    -945.8
+   ],
+   "centre": [
+    1623.2,
+    -940
+   ],
+   "width": 6.8,
+   "faces": 333,
+   "toStreet": 7.4,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1612.6,
+    -939.3,
+    1615.6,
+    -933.3,
+    1621,
+    -935.9,
+    1635,
+    -942.8,
+    1631.9,
+    -948.8
+   ],
+   "id": "spitaalpoortstraat-333-13",
+   "latLon": [
+    51.060217,
+    3.742438
+   ],
+   "photos": [
+    {
+     "id": "2255458661535546-244",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.303,
+      0.698
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28397,
+   "at": [
+    1638.1,
+    -936.7
+   ],
+   "centre": [
+    1629.4,
+    -933
+   ],
+   "width": 13.7,
+   "faces": 333,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 13.7,
+   "kind": "apartments",
+   "ring": [
+    1621,
+    -935.9,
+    1623.4,
+    -931.3,
+    1626,
+    -932.6,
+    1629.8,
+    -925,
+    1641.2,
+    -930.6,
+    1635,
+    -942.8
+   ],
+   "id": "spitaalpoortstraat-333-14",
+   "latLon": [
+    51.060151,
+    3.742491
+   ],
+   "photos": [
+    {
+     "id": "980900980149778-265",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.009,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28398,
+   "at": [
+    1645.55,
+    -922.1
+   ],
+   "centre": [
+    1630.6,
+    -914.3
+   ],
+   "width": 5.6,
+   "faces": 333,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    1646.8,
+    -919.6,
+    1644.3,
+    -924.6,
+    1620.7,
+    -913.1,
+    1622.2,
+    -910.5,
+    1624.9,
+    -909.7,
+    1625.5,
+    -911.2,
+    1628.2,
+    -912.6,
+    1628.5,
+    -914,
+    1631.7,
+    -915.4,
+    1632.7,
+    -912.7
+   ],
+   "id": "spitaalpoortstraat-333-15",
+   "latLon": [
+    51.060046,
+    3.742576
+   ],
+   "photos": [
+    {
+     "id": "1876940486443204-247",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.322,
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28399,
+   "at": [
+    1648.1,
+    -917.1
+   ],
+   "centre": [
+    1636.8,
+    -911.5
+   ],
+   "width": 5.6,
+   "faces": 333,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1632.7,
+    -912.7,
+    1627.3,
+    -910.1,
+    1630,
+    -907.7,
+    1632,
+    -905.9,
+    1639.3,
+    -909.6,
+    1649.4,
+    -914.6,
+    1646.8,
+    -919.6
+   ],
+   "id": "spitaalpoortstraat-333-16",
+   "latLon": [
+    51.060009,
+    3.742606
+   ],
+   "photos": [
+    {
+     "id": "1876940486443204-211",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.392,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28401,
+   "at": [
+    1661.75,
+    -890.2
+   ],
+   "centre": [
+    1650.2,
+    -890.8
+   ],
+   "width": 14.8,
+   "faces": 333,
+   "toStreet": 8.9,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1652.7,
+    -907.9,
+    1656.1,
+    -901.2,
+    1657.3,
+    -898.9,
+    1658.4,
+    -896.8,
+    1665.1,
+    -883.6,
+    1656.5,
+    -872.5,
+    1654.7,
+    -870.2,
+    1648.8,
+    -874.6,
+    1642,
+    -888.4,
+    1645.1,
+    -890,
+    1643.9,
+    -892.4,
+    1642.8,
+    -894.5,
+    1640.4,
+    -899.3,
+    1639.5,
+    -901.2
+   ],
+   "id": "spitaalpoortstraat-333-17",
+   "latLon": [
+    51.059815,
+    3.742762
+   ],
+   "photos": [
+    {
+     "id": "2982793848568296-271",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28402,
+   "at": [
+    1667.75,
+    -878.45
+   ],
+   "centre": [
+    1663,
+    -874.7
+   ],
+   "width": 11.6,
+   "faces": 333,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1665.1,
+    -883.6,
+    1670.4,
+    -873.3,
+    1660,
+    -869.5,
+    1656.5,
+    -872.5
+   ],
+   "id": "spitaalpoortstraat-333-18",
+   "latLon": [
+    51.05973,
+    3.74283
+   ],
+   "photos": [
+    {
+     "id": "651291124132155-272",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.736
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28403,
+   "at": [
+    1671.5,
+    -871.15
+   ],
+   "centre": [
+    1658.8,
+    -863.4
+   ],
+   "width": 4.8,
+   "faces": 333,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1670.4,
+    -873.3,
+    1672.6,
+    -869,
+    1658.4,
+    -861.5,
+    1657.3,
+    -860.9,
+    1652.8,
+    -849.6,
+    1648.3,
+    -857.7,
+    1652.7,
+    -864.2,
+    1654.6,
+    -861.4,
+    1661.2,
+    -867.1,
+    1660,
+    -869.5
+   ],
+   "id": "spitaalpoortstraat-333-19",
+   "latLon": [
+    51.059677,
+    3.742873
+   ],
+   "photos": [
+    {
+     "id": "651291124132155-211",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.39,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28404,
+   "at": [
+    1675.1,
+    -864.05
+   ],
+   "centre": [
+    1667.5,
+    -858.7
+   ],
+   "width": 11.1,
+   "faces": 333,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1672.6,
+    -869,
+    1677.6,
+    -859.1,
+    1664.8,
+    -852.3,
+    1663.9,
+    -851.8,
+    1658.4,
+    -861.5
+   ],
+   "id": "spitaalpoortstraat-333-20",
+   "latLon": [
+    51.059626,
+    3.742914
+   ],
+   "photos": [
+    {
+     "id": "992219749495961-241",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.058,
+      0.956
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28406,
+   "at": [
+    1681.85,
+    -850.55
+   ],
+   "centre": [
+    1670.6,
+    -844.1
+   ],
+   "width": 8.5,
+   "faces": 333,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1679.9,
+    -854.3,
+    1683.8,
+    -846.8,
+    1675.9,
+    -842.9,
+    1674.4,
+    -840.9,
+    1672.8,
+    -842.4,
+    1666.7,
+    -839.1,
+    1660.4,
+    -835.8,
+    1657.4,
+    -841.2,
+    1665.5,
+    -845.6,
+    1666.7,
+    -843.6,
+    1672.3,
+    -846.8,
+    1670.9,
+    -849.4
+   ],
+   "id": "spitaalpoortstraat-333-21",
+   "latLon": [
+    51.059528,
+    3.742991
+   ],
+   "photos": [
+    {
+     "id": "1963260414201698-212",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.311,
+      0.83
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28418,
+   "at": [
+    1700.15,
+    -814.75
+   ],
+   "centre": [
+    1696.4,
+    -814.4
+   ],
+   "width": 12.2,
+   "faces": 333,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1691,
+    -816.3,
+    1694.5,
+    -820.5,
+    1697.4,
+    -820.2,
+    1702.9,
+    -809.3,
+    1696.4,
+    -805.9
+   ],
+   "id": "spitaalpoortstraat-333-22",
+   "latLon": [
+    51.059269,
+    3.743201
+   ],
+   "photos": [
+    {
+     "id": "630123996631009-272",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.216,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28417,
+   "at": [
+    1693.7,
+    -811.0999999999999
+   ],
+   "centre": [
+    1691.5,
+    -809.1
+   ],
+   "width": 11.7,
+   "faces": 333,
+   "toStreet": 14.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1685.7,
+    -810.2,
+    1691,
+    -816.3,
+    1696.4,
+    -805.9,
+    1693,
+    -804.1
+   ],
+   "id": "spitaalpoortstraat-333-23",
+   "latLon": [
+    51.059243,
+    3.743127
+   ],
+   "photos": [
+    {
+     "id": "630123996631009-261",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.331,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28914,
+   "at": [
+    1709.7,
+    -795.8
+   ],
+   "centre": [
+    1704.3,
+    -792.9
+   ],
+   "width": 5.4,
+   "faces": 333,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1710.9,
+    -793.4,
+    1708.5,
+    -798.2,
+    1697.7,
+    -792.5,
+    1700.2,
+    -787.5
+   ],
+   "id": "spitaalpoortstraat-333-24",
+   "latLon": [
+    51.059132,
+    3.74331
+   ],
+   "photos": [
+    {
+     "id": "560512767033995-235",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.388,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28422,
+   "at": [
+    1729.55,
+    -756.6
+   ],
+   "centre": [
+    1722.2,
+    -753.9
+   ],
+   "width": 9.9,
+   "faces": 333,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1714,
+    -753.8,
+    1719.7,
+    -756.9,
+    1727.3,
+    -761,
+    1731.8,
+    -752.2,
+    1718.1,
+    -745.6
+   ],
+   "id": "spitaalpoortstraat-333-25",
+   "latLon": [
+    51.058848,
+    3.743537
+   ],
+   "photos": [
+    {
+     "id": "1065783725358279-224",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.312,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28424,
+   "at": [
+    1739.45,
+    -737.0999999999999
+   ],
+   "centre": [
+    1733.8,
+    -732.2
+   ],
+   "width": 19.8,
+   "faces": 333,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1720.4,
+    -738.6,
+    1734.9,
+    -745.9,
+    1744,
+    -728.3,
+    1743.4,
+    -725.8,
+    1736.2,
+    -720.1,
+    1723.9,
+    -734.5
+   ],
+   "id": "spitaalpoortstraat-333-26",
+   "latLon": [
+    51.058707,
+    3.74365
+   ],
+   "photos": [
+    {
+     "id": "499024771296328",
+     "metres": 18,
+     "off": 11,
+     "span": [
+      0.414,
+      0.684
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34027,
+   "at": [
+    1609.2,
+    -993.55
+   ],
+   "centre": [
+    1592.7,
+    -984.8
+   ],
+   "width": 6.8,
+   "faces": 334,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1584.1,
+    -984.7,
+    1584.9,
+    -980.7,
+    1587.1,
+    -981.8,
+    1586.7,
+    -982.6,
+    1589.4,
+    -983.9,
+    1591,
+    -980.8,
+    1592.5,
+    -981.6,
+    1610.7,
+    -990.5,
+    1607.7,
+    -996.6
+   ],
+   "id": "spitaalpoortstraat-334-27",
+   "latLon": [
+    51.060563,
+    3.742161
+   ],
+   "photos": [
+    {
+     "id": "581290821575656-273",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.345,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34030,
+   "at": [
+    1621.75,
+    -968.75
+   ],
+   "centre": [
+    1605.9,
+    -961.1
+   ],
+   "width": 6.1,
+   "faces": 334,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1606.3,
+    -964.7,
+    1607.6,
+    -962.1,
+    1604.7,
+    -960.7,
+    1604.9,
+    -960.4,
+    1601.3,
+    -958.6,
+    1599.9,
+    -961.5,
+    1597.6,
+    -960.4,
+    1599.8,
+    -955.8,
+    1600.3,
+    -954.8,
+    1604.9,
+    -957.1,
+    1623.1,
+    -966,
+    1620.4,
+    -971.5
+   ],
+   "id": "spitaalpoortstraat-334-28",
+   "latLon": [
+    51.060383,
+    3.742304
+   ],
+   "photos": [
+    {
+     "id": "643251885023350-252",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.33,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28400,
+   "at": [
+    1651.0500000000002,
+    -911.25
+   ],
+   "centre": [
+    1640,
+    -903.3
+   ],
+   "width": 7.5,
+   "faces": 334,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1639.3,
+    -909.6,
+    1640.7,
+    -907.1,
+    1630.4,
+    -901.8,
+    1633.6,
+    -895.6,
+    1636.8,
+    -898.4,
+    1637.2,
+    -897.6,
+    1640.4,
+    -899.3,
+    1639.5,
+    -901.2,
+    1652.7,
+    -907.9,
+    1649.4,
+    -914.6
+   ],
+   "id": "spitaalpoortstraat-334-29",
+   "latLon": [
+    51.059967,
+    3.742639
+   ],
+   "photos": [
+    {
+     "id": "3596727527291794-257",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.275,
+      0.692
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28405,
+   "at": [
+    1678.75,
+    -856.7
+   ],
+   "centre": [
+    1672.1,
+    -852.6
+   ],
+   "width": 5.3,
+   "faces": 334,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1677.6,
+    -859.1,
+    1679.9,
+    -854.3,
+    1670.9,
+    -849.4,
+    1667.3,
+    -847.7,
+    1664.8,
+    -852.3
+   ],
+   "id": "spitaalpoortstraat-334-30",
+   "latLon": [
+    51.059572,
+    3.742956
+   ],
+   "photos": [
+    {
+     "id": "1963260414201698-267",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.301,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28419,
+   "at": [
+    1704.25,
+    -806.5
+   ],
+   "centre": [
+    1695.8,
+    -802.3
+   ],
+   "width": 6.2,
+   "faces": 334,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1688.1,
+    -799.4,
+    1693,
+    -804.1,
+    1696.4,
+    -805.9,
+    1702.9,
+    -809.3,
+    1705.6,
+    -803.7,
+    1693.5,
+    -797.2,
+    1691.4,
+    -796.4
+   ],
+   "id": "spitaalpoortstraat-334-31",
+   "latLon": [
+    51.059209,
+    3.743248
+   ],
+   "photos": [
+    {
+     "id": "630123996631009-226",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.384,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28423,
+   "at": [
+    1733.35,
+    -749.05
+   ],
+   "centre": [
+    1724.1,
+    -745.3
+   ],
+   "width": 7,
+   "faces": 334,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1718.1,
+    -745.6,
+    1731.8,
+    -752.2,
+    1734.9,
+    -745.9,
+    1720.4,
+    -738.6,
+    1715.5,
+    -744.4
+   ],
+   "id": "spitaalpoortstraat-334-32",
+   "latLon": [
+    51.058794,
+    3.74358
+   ],
+   "photos": [
+    {
+     "id": "469609022756699-250",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.302,
+      0.678
+     ]
+    }
+   ]
+  }
+ ]
+}

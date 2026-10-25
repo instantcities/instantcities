@@ -20,6 +20,7 @@ import readline from 'node:readline';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { lambert72, surface, terrain } from './dhmv.mjs';
+import { hallShell } from './hall.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const CACHE = path.join(HERE, 'cache', 'gent3d');
@@ -231,49 +232,37 @@ async function dhmvRoof(lm, lring, toGame) {
   for (let i = 0; i <= nu; i++) for (let j = 0; j <= nw; j++) { errAlong += Math.abs(H[i][j] - along[i]); errAcross += Math.abs(H[i][j] - across[j]); }
   const smooth = p => p.map((_, k) => median([p[k - 1] ?? p[k], p[k], p[k + 1] ?? p[k]]));
   const profile = smooth(errAlong < errAcross ? along : across);
-  // The roof as a hood over that cross-section, `gables` side by side (the Stadshal has two): the
-  // eaves at both sides, each gable's ridge where the measured profile is highest and the valley
-  // between two where it is lowest, on upright sides down to its underside `under` m above the
-  // street; one shell `thick` m thick and open at both ends, so you see the timber inside.
-  // `skin` names what each triangle is: g the glass outside, w the timber inside, e its edges,
-  // p the concrete pillars.
+  // The hall over that cross-section, `gables` side by side (the Stadshal has two): each gable's
+  // ridge where the measured profile is highest and the valley between two where it is lowest, the
+  // slopes going straight down to its underside `under` m above the street (the profile's edges are
+  // left out: the LiDAR's median there leans on the roof only, so it reads too high), see
+  // tools/hall.mjs. Its skin letters name what each triangle is, p the concrete pillars.
   const flip = errAlong < errAcross; // does the profile run along u (and the roof along w)?
   const len = flip ? lu : lw, n = profile.length - 1;
   const meas = flip ? along : across, pt = k => [(k / n) * len, meas[k]], g = lm.gables ?? 1;
   const extreme = (k0, k1, sign) => { let b = k0; for (let k = k0; k <= k1; k++) if (sign * (meas[k] - meas[b]) > 0) b = k; return b; };
   const ridges = [...Array(g).keys()].map(q => extreme(Math.round((q * n) / g) + 1, Math.round(((q + 1) * n) / g) - 1, 1));
-  const eave = median([meas[1], meas[2], meas[n - 2], meas[n - 1]]);
   const tops = ridges.flatMap((k, q) => (q ? [pt(extreme(ridges[q - 1], k, -1)), pt(k)] : [pt(k)]));
-  const under = lm.under ?? low, thick = lm.thick ?? 1;
-  const outer = [[0, under], [0, eave], ...tops, [len, eave], [len, under]];
-  const inner = outer.map((q, k) => {
-    // the inside: every corner moved in by `thick`, square to both its sides (a mitre)
-    const nOf = (a, b) => { const dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy); return [dy / L, -dx / L]; };
-    const n1 = k > 0 ? nOf(outer[k - 1], q) : null, n2 = k < outer.length - 1 ? nOf(q, outer[k + 1]) : null;
-    const [a, b] = [n1 ?? n2, n2 ?? n1], d = 1 + a[0] * b[0] + a[1] * b[1];
-    return [q[0] + (thick * (a[0] + b[0])) / d, q[1] + (thick * (a[1] + b[1])) / d];
-  });
-  const V = [], I = [];
-  let skin = '';
+  const under = lm.under ?? low;
+  // the pillars stand at the four corners, under the gable ends (set back a metre from them), so
+  // the opening in each end runs from the inner face of one to the other's
+  const side = (lm.pillar ?? 0.9) / S, Lh = flip ? lw : lu, inS = side / 2 + 0.3, inE = side / 2 + 1;
+  const V = [];
   const vert = (x, y, h) => { const [gx, gz] = toGame(x, y); V.push(r1(gx), r1(h * S), r1(gz)); return V.length / 3 - 1; };
-  const at2 = ([s, h], along) => vert(...(flip ? P(s / len, along) : P(along, s / len)), h);
+  const place = (s, along) => (flip ? P(s / len, along) : P(along, s / len));
+  const shell = hallShell({ tops, len, under, apex: lm.apex, margin: inS + side / 2 }, (s, along, h) => vert(...place(s, along), h));
+  const I = shell.I;
+  let skin = shell.skin;
   const quad = (kind, a, b, c, d) => { I.push(a, b, c, a, c, d); skin += kind + kind; };
-  for (let k = 0; k + 1 < outer.length; k++) {
-    quad('g', at2(outer[k], 0), at2(outer[k + 1], 0), at2(outer[k + 1], 1), at2(outer[k], 1));
-    quad('w', at2(inner[k], 0), at2(inner[k], 1), at2(inner[k + 1], 1), at2(inner[k + 1], 0));
-    for (const e of [0, 1]) quad('e', at2(outer[k], e), at2(inner[k], e), at2(inner[k + 1], e), at2(outer[k + 1], e));
-  }
-  for (const k of [0, outer.length - 1]) quad('e', at2(outer[k], 0), at2(outer[k], 1), at2(inner[k], 1), at2(inner[k], 0));
-  // a square pillar near each corner, up to the underside of the shell
-  const side = (lm.pillar ?? 0.9) / S, pillars = [];
-  for (const [a, b] of [[0.12, 0.2], [0.88, 0.2], [0.12, 0.8], [0.88, 0.8]]) {
-    const ua = side / 2 / lu, wb = side / 2 / lw;
-    const cs = [[a - ua, b - wb], [a + ua, b - wb], [a + ua, b + wb], [a - ua, b + wb]].map(([p, q]) => P(p, q));
+  // a square pillar at each corner, up to the underside of the shell
+  const pillars = [];
+  for (const s of [inS, len - inS]) for (const m of [inE, Lh - inE]) {
+    const cs = [[-1, -1], [1, -1], [1, 1], [-1, 1]].map(([p, q]) => place(s + (p * side) / 2, (m + (q * side) / 2) / Lh));
     const lo = cs.map(c => vert(...c, 0)), hi = cs.map(c => vert(...c, under));
     pillars.push(cs.flatMap(c => toGame(...c).map(r1)));
     for (let k = 0; k < 4; k++) quad('p', lo[k], lo[(k + 1) % 4], hi[(k + 1) % 4], hi[k]);
   }
-  console.error(`${lm.name}: cross-section ${outer.map(([s, h]) => `${s.toFixed(1)}/${h.toFixed(1)}`).join(' ')} (metres across/up)`);
+  console.error(`${lm.name}: cross-section ${[[0, under], ...tops, [len, under]].map(([s, h]) => `${s.toFixed(1)}/${h.toFixed(1)}`).join(' ')} (metres across/up)`);
   return { v: V, i: I, top: peak * S, pillars, skin };
 }
 

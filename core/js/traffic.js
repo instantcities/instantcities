@@ -53,7 +53,7 @@ function network(map, tracks, hw) {
     const pts = [];
     for (let k = 0; k < rd.p.length / 2; k++) pts.push([rd.p[k * 2], rd.y?.[k] ?? 0, rd.p[k * 2 + 1]]);
     // the lane on each side: clear of the parked cars where there are any (see osmCars)
-    const parked = rd.one ? 0 : rd.w > 11.5 ? 2 : hashOf(i) < 0.5 ? 1 : -1;
+    const parked = rd.one || rd.bay ? 0 : rd.w > 11.5 ? 2 : hashOf(i) < 0.5 ? 1 : -1;
     const lane = side => {
       if (rd.one) return 0;
       const free = rd.w / 2 - (side === parked ? 2.05 : 0.4);
@@ -118,7 +118,9 @@ function busNetwork(lines, relief) {
           pts.push([px, relief.at(px, pz, pts.at(-1)[1]), pz]);
         }
       }
-      pts.push([x, relief ? relief.at(x, z, prev ? prev[1] : y) : y, z]);
+      // (stepping on from the point just before, not the line's last one: up a steep ramp that is more
+      // than a step; a line starting up on a bridge, as the map's rough height says, starts on its deck)
+      pts.push([x, relief ? relief.at(x, z, pts.at(-1)?.[1] ?? (y > 0.3 ? Infinity : y)) : y, z]);
     }
     const cum = [0];
     for (let k = 1; k < pts.length; k++) cum.push(cum[k - 1] + Math.hypot(pts[k][0] - pts[k - 1][0], pts[k][2] - pts[k - 1][2]));
@@ -346,6 +348,17 @@ export function addTraffic(ctx, map, tracks, busLines = [], signals = null) {
           if (im.instanceColor) im.instanceColor.needsUpdate = true;
         }
       }
+    },
+
+    // Where bus c halts next, { x, z }, or null when no stop is left on its line (for riding it).
+    nextStop(c) {
+      const s = c.p.stops?.find(q => q > c.served && q > c.s - 0.5);
+      return s === undefined ? null : where({ p: c.p, k: c.k, s, dir: c.dir }, {});
+    },
+
+    // Where bus c last halted, { x, z }, or null when it has not yet (for getting off back there).
+    prevStop(c) {
+      return c.served >= 0 ? where({ p: c.p, k: c.k, s: c.served, dir: c.dir }, {}) : null;
     },
 
     // Push a rider of radius R out of the cars (riding about freely). Returns how hard it hit one.
