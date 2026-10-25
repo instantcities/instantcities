@@ -28,7 +28,7 @@
 import { FACTS } from './tourfacts.js';
 
 export const TOUR = {
-  from: [-255, -70], // already on the Sint-Michielsbrug: the Leie, the Graslei and the three towers right ahead
+  from: [-330, -65], // on the Sint-Michielshelling: the bridge, the Leie by the Graslei and St Nicholas’ Church right ahead
   path: [
     [-425, -54, 5], [-395, -59], [-355, -63], [-318, -66, 9], [-292, -68, 12], [-262, -69, 10], [-245, -70],
     [-215, -70, 6], [-190, -71, 5], [-172, -70, 8], [-160, -67, 14], [-140, -63, 30], [-118, -58], [-93, -50],

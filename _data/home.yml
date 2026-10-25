@@ -7,7 +7,7 @@ lead: "Old towns from Bruges to Rome, every street and building from OpenStreetM
 cities_title: "Pick a city"
 map_title: "On the map"
 live_city: ghent # whose tour plays behind the home page's hero
-live_poster: /assets/img/boat.jpg
+live_poster: /assets/img/ghent-tour.jpg # the tour's first shot, until it plays
 live_caption: "Live: the tour of Ghent"
 live_watch: "Watch the tour"
 soon_title: "Coming soon"
