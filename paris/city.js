@@ -23,6 +23,7 @@ export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';
 
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 
 // The Louvre's glass pyramid in the Cour Napoléon, in place of the box the map makes of it (its

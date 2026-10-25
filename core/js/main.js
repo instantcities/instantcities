@@ -889,7 +889,7 @@ function updateSight(h, r) {
         h.sightText.replaceChildren(ul);
       }
     }
-    const href = s.secret || s.inside ? '' : sightPage(s.id); // (what hangs inside a building has no page of its own)
+    const href = s.secret || s.inside ? '' : s.page ?? sightPage(s.id); // (what hangs inside a building has no page of its own; a landmark's card, site-sights.js, has its page on the site)
     if (h.sightMore._href !== href) {
       h.sightMore._href = href;
       h.sightMore.hidden = !href;
@@ -2230,11 +2230,11 @@ function buildMenu() {
   $('restartBtn').addEventListener('click', () => startRace(true)); // exploring: back at the city's own spot
   $('pauseTitleBtn').addEventListener('click', () => toMenu());
   $('pauseCloseBtn').addEventListener('click', () => setPaused(false));
-  // come from a landmark's page on the site (?from=<its id>, on its "See it in 3D" link): the pause
-  // menu gets a button back to that page, and the website links go there too
-  const fromLandmark = new URLSearchParams(location.search).get('from');
-  if (/^[a-z0-9-]+$/.test(fromLandmark ?? '')) {
-    const back = `../landmark/${fromLandmark}/`;
+  // come from a page on the site (a landmark's "See it in 3D", ?from=<its id>, or any other link to the
+  // game there): the pause menu gets a button back to that page, and the website links go there too.
+  // The tab remembers it, so it is still there after a reload or a trip through a door and back.
+  const back = siteBack();
+  if (back) {
     document.querySelectorAll('[data-site-link], #pauseSiteBtn').forEach(a => { a.href = back; });
     $('pauseSiteRow').classList.remove('hidden');
   }
@@ -2615,6 +2615,25 @@ function setLaps(n) {
 }
 
 // A short tap keeps the simple all-sound switch. A two-second hold opens the mixer.
+// The page on the site the game was opened from, for the pause menu's way back: a landmark's page
+// (?from=<its id>), or the site page the link to the game was on (not another game's, say a door's,
+// and not the game in the site's own little window, ?watch). Kept for the tab in sessionStorage, by
+// the game's address, so a reload or a door out and back in keeps it. null when there is none.
+function siteBack() {
+  const key = `ghent3d.siteBack.${location.pathname}`;
+  const from = new URLSearchParams(location.search).get('from');
+  let page = /^[a-z0-9-]+$/.test(from ?? '') ? new URL(`../landmark/${from}/`, location.href).pathname : null;
+  if (!page && document.referrer && window === top) {
+    const ref = new URL(document.referrer);
+    if (ref.origin === location.origin && !/\/play\/|\.html$/.test(ref.pathname)) page = ref.pathname + ref.hash;
+  }
+  try {
+    if (page) sessionStorage.setItem(key, page);
+    else page = sessionStorage.getItem(key);
+  } catch { /* no storage: only this visit's link */ }
+  return page;
+}
+
 function bindSoundButton(button) {
   let timer = null, held = false, origin = null;
   const cancel = () => { clearTimeout(timer); timer = null; };

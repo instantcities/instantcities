@@ -16,4 +16,8 @@ export const {
 // monuments of their own, out of the city's sight, and the cards in them join the city's sights.
 export const INSIDE = annex(C.INSIDE, C.MAP);
 export const MONUMENTS = [...(C.MONUMENTS ?? []), ...INSIDE.monuments];
-export const SIGHTS = [...(C.SIGHTS ?? []), ...INSIDE.sights];
+// The cards from the city's landmark pages on the site (<city>/site-sights.js, tools/landmarks.mjs),
+// for a city without hand-written ones there: one that stands where a hand-written sight is gives way.
+const own = C.SIGHTS ?? [];
+const SITE = (C.SITE_SIGHTS ?? []).filter(s => !own.some(o => Math.hypot(o.x - s.x, o.z - s.z) < o.r));
+export const SIGHTS = [...own, ...SITE, ...INSIDE.sights];
