@@ -13,8 +13,8 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs paris`
 //   inside.js        the buildings you can go into: the Louvre, its rooms in inside/ (hand-written)
 //   saint-jacques.js the Tour Saint-Jacques, modelled by hand on core/js/arcade.js, in place of the map's block of it
-// No sights or fronts yet, and two monuments, the Louvre's pyramid and the Tour Saint-Jacques: empty
-// lists for the rest, and for what only Ghent has.
+//   notre-dame.js    Notre-Dame, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -24,6 +24,7 @@ export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';
 import { SAINT_JACQUES } from './saint-jacques.js';
+import { NOTRE_DAME } from './notre-dame.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
@@ -34,7 +35,7 @@ const PYRAMID = [-974, -628, -931, -612, -947, -570, -990, -585];
 export const MONUMENTS = [{
   id: 'pyramide-du-louvre', name: 'Pyramide du Louvre', x: -960.5, z: -598.8, turn: 1.214, size: 1, reach: 120,
   area: [PYRAMID], foot: [PYRAMID], make: () => pyramid(22.9, 0, 27, 0.62),
-}, ...SAINT_JACQUES];
+}, ...SAINT_JACQUES, ...NOTRE_DAME];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

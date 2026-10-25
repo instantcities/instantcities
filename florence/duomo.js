@@ -14,7 +14,7 @@
 //     to the cathedral and the scarsella, its square apse, to the west
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
-import { linePath, square, polygon, wall, sweep, pointedRing, archRing, onMap, rect } from '../core/js/arcade.js';
+import { linePath, square, polygon, wall, sweep, gable, pointedRing, archRing, onMap, rect } from '../core/js/arcade.js';
 import { shade } from '../core/js/facades.js';
 
 const WHITE = '#ece7da', GREEN = '#4c6a55', PINK = '#cf9a8f', TILE = '#b5603e', TILE2 = '#a85536', DARK = '#3a3a3c', GOLD = '#d4ad4a';
@@ -36,18 +36,6 @@ function panels(kit, path, s0, s1, y0, y1, cols, rows, o = 0, pink = true) {
     const s = s0 + (c + 0.5) * w, y = y0 + (r + 0.5) * h, a = Math.min(w, h) * 0.22;
     wall(kit, path, [[s, y - a], [s + a, y], [s, y + a], [s - a, y]], { o0: o, o1: o + 0.06, hex: PINK });
   }
-}
-
-// a gable roof over a rectangle from u0 to u1 along x, half-width hw, its eaves at y and ridge at top
-function gable(kit, u0, u1, hw, y, top, hex) {
-  const g = new THREE.BufferGeometry(), pos = [];
-  const P = (u, v, h) => [u, h, v];
-  const quad = (a, b, c, d) => pos.push(...a, ...b, ...c, ...a, ...c, ...d);
-  quad(P(u0, -hw, y), P(u0, 0, top), P(u1, 0, top), P(u1, -hw, y));
-  quad(P(u1, hw, y), P(u1, 0, top), P(u0, 0, top), P(u0, hw, y));
-  pos.push(...P(u0, -hw, y), ...P(u0, hw, y), ...P(u0, 0, top), ...P(u1, hw, y), ...P(u1, -hw, y), ...P(u1, 0, top));
-  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
-  kit.add(g, hex);
 }
 
 // ---- Santa Maria del Fiore ----

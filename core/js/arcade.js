@@ -134,6 +134,19 @@ export function fin(kit, path, s, ring, thick, hex) {
   return kit.add(geo, hex);
 }
 
+// A gable roof over a rectangle from x = u0 to u1, hw either side of z = 0, its eaves at y and its
+// ridge at top, closed at both ends; turned by `turn` about the origin and moved to (x, z)
+export function gable(kit, u0, u1, hw, y, top, hex, { x = 0, z = 0, turn = 0 } = {}) {
+  const g = new THREE.BufferGeometry(), pos = [];
+  const P = (u, v, h) => [u, h, v];
+  const quad = (a, b, c, d) => pos.push(...a, ...b, ...c, ...a, ...c, ...d);
+  quad(P(u0, -hw, y), P(u0, 0, top), P(u1, 0, top), P(u1, -hw, y));
+  quad(P(u1, hw, y), P(u1, 0, top), P(u0, 0, top), P(u0, hw, y));
+  pos.push(...P(u0, -hw, y), ...P(u0, hw, y), ...P(u0, 0, top), ...P(u1, hw, y), ...P(u1, -hw, y), ...P(u1, 0, top));
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  kit.add(g.rotateY(turn).translate(x, 0, z), hex);
+}
+
 // a round arch's opening as a ring in (s, y): w wide, from y0 to its crown at y1
 export function archRing(s, w, y0, y1, n = 10) {
   const r = w / 2, spring = Math.max(y0, y1 - r), ring = [[s - r, y0], [s + r, y0], [s + r, spring]];
