@@ -37,7 +37,20 @@
       </div>
     </section>
 
-    <section class="glance">
+    <nav class="subnav" aria-label="On this page">
+      <div class="subnav-links">
+        <a href="#glance">At a glance</a>
+        <a href="#city">The city</a>
+        <a href="#centre">The centre on a map</a>
+        <a href="#history">History</a>
+        <a href="#today">{{ C.name }} today</a>
+        <a href="#links">Read on</a>
+        <a class="away" href="/{{ C.id }}/places-and-landmarks/">Places and landmarks ›</a>
+      </div>
+      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
+    </nav>
+
+    <section id="glance" class="glance">
       <div class="glance-text">
         <h2>{{ C.name }} at a glance</h2>
         <dl class="facts">
@@ -55,7 +68,7 @@
       {% include country-map.html city=C %}
     </section>
 
-    <section class="guide-body">
+    <section id="city" class="guide-body">
       <div class="prose">
         <h2>The city</h2>
         {%- for p in G.overview %}
@@ -84,7 +97,7 @@
         <p>{{ p }}</p>
         {%- endfor %}
         {%- endfor %}
-        <h2>{{ C.name }} today</h2>
+        <h2 id="today">{{ C.name }} today</h2>
         {%- for p in G.today %}
         <p>{{ p }}</p>
         {%- endfor %}
@@ -123,6 +136,7 @@
   <script>
     {% include topnav.js %}
     {% include city-map.js %}
+    {% include subnav.js %}
   </script>
 </body>
 </html>

@@ -30,6 +30,16 @@
       </div>
     </section>
 
+    <nav class="subnav" aria-label="On this page">
+      <div class="subnav-links">
+        <a href="#landmarks">Landmarks</a>
+        {%- if others.size > 0 %}<a href="#also">Also part of {{ C.name }}</a>{% endif %}
+        <a href="#centre">Streets, squares and waterways</a>
+        <a class="away" href="/{{ C.id }}/about-the-city/">About {{ C.name }} ›</a>
+      </div>
+      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
+    </nav>
+
     <section id="landmarks" class="landmarks">
       <h2>Landmarks</h2>
       <div class="grid">
@@ -38,7 +48,7 @@
         {%- endfor %}
       </div>
       {%- if others.size > 0 %}
-      <h2 class="sub">Also part of {{ C.name }}</h2>
+      <h2 class="sub" id="also">Also part of {{ C.name }}</h2>
       <div class="grid">
         {%- for l in others %}
         {% include landmark-card.html landmark=l city=C.id %}
@@ -68,6 +78,7 @@
   <script>
     {% include topnav.js %}
     {% include city-map.js %}
+    {% include subnav.js %}
   </script>
 </body>
 </html>
