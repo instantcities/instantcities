@@ -43,6 +43,15 @@ Ghent's texts and pictures come from the sight pages of Instant Gent. Each landm
 licence and source) comes from Wikimedia Commons, freely licensed (CC BY, CC BY-SA, CC0 or public
 domain) and credited on its page; a landmark's `icon` names one of `_includes/icon.html`'s.
 
+The famous art in the buildings you can go into (the Mona Lisa in the Louvre, the Night Watch in
+the Rijksmuseum, the Ghent Altarpiece in Sint-Baafs: 31 paintings, statues and treasures in 13
+buildings) has a page of its own too: all of them at `/art/` and each at `/art/<id>/`, its story,
+its facts and a link that drops you right in front of it in the game
+(`/<id>/play/?inside=<building>&view=x,z,tx,tz`). They are in `_data/art.json`; `node tools/art.mjs`
+writes their pages (`art/`) and `node tools/art.mjs photos` fetches their photos from Wikimedia
+Commons into `assets/img/art/`, credited in `_data/art_photos.json`. In the game the paintings'
+real photos are painted over their drawings once they have loaded (`core/js/inside/photo.js`).
+
 Every city also has a guide: a "This is <city>" section on its page, a page about the city at
 `/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre
 on a map, its history and official links) and a page of all its places at

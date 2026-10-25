@@ -49,7 +49,7 @@ export function makeDuomo() {
   pews(p, zW + 10, -a - 6, 6, 2);
   // Hawkwood on the north aisle wall, and his twin Niccolò da Tolentino beside him
   framed(p, hawkwood(), 6, 9.4, -b + 0.9, 7, -a - 2.4 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false });
-  framed(p, hawkwood(), 6, 9.4, -b + 0.9, 7, -a - 3.2 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false });
+  framed(p, hawkwood(false), 6, 9.4, -b + 0.9, 7, -a - 3.2 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false });
 
   // the dome: an octagon of painted vault over the crossing, the Last Judgment in rings up to the
   // lantern's eye, on its drum with the round windows
@@ -59,7 +59,7 @@ export function makeDuomo() {
   drum.rotation.y = Math.PI / 8;
   g.add(drum);
   for (let k = 0; k < 8; k++) { const t = (k / 8) * Math.PI * 2 + Math.PI / 8; p.daylight.add(new THREE.CircleGeometry(1.1, 16).rotateY(t + Math.PI), 0xf6f0dc, Math.sin(t) * (R - 0.2), y0 - 3, Math.cos(t) * (R - 0.2)); }
-  const dome = new THREE.Mesh(new THREE.SphereGeometry(R, 8, 12, Math.PI / 8, Math.PI * 2, 0.08, Math.PI / 2 - 0.08), new THREE.MeshStandardMaterial({ map: lastJudgment(), roughness: 0.9, side: THREE.DoubleSide, flatShading: true }));
+  const dome = new THREE.Mesh(new THREE.SphereGeometry(R, 8, 12, Math.PI / 8, Math.PI * 2, 0.08, Math.PI / 2 - 0.08), new THREE.MeshStandardMaterial({ map: lastJudgment(false), roughness: 0.9, side: THREE.DoubleSide, flatShading: true }));
   dome.position.set(0, y0, 0);
   dome.scale.y = 1.35;
   g.add(dome);

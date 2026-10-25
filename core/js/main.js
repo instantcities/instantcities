@@ -2616,13 +2616,15 @@ function setLaps(n) {
 
 // A short tap keeps the simple all-sound switch. A two-second hold opens the mixer.
 // The page on the site the game was opened from, for the pause menu's way back: a landmark's page
-// (?from=<its id>), or the site page the link to the game was on (not another game's, say a door's,
+// (?from=<its id>), a painting's or a statue's (?from=art:<its id>), or the site page the link to the game was on (not another game's, say a door's,
 // and not the game in the site's own little window, ?watch). Kept for the tab in sessionStorage, by
 // the game's address, so a reload or a door out and back in keeps it. null when there is none.
 function siteBack() {
   const key = `ghent3d.siteBack.${location.pathname}`;
   const from = new URLSearchParams(location.search).get('from');
-  let page = /^[a-z0-9-]+$/.test(from ?? '') ? new URL(`../landmark/${from}/`, location.href).pathname : null;
+  const art = /^art:([a-z0-9-]+)$/.exec(from ?? '')?.[1];
+  let page = art ? new URL(`../../art/${art}/`, location.href).pathname
+    : /^[a-z0-9-]+$/.test(from ?? '') ? new URL(`../landmark/${from}/`, location.href).pathname : null;
   if (!page && document.referrer && window === top) {
     const ref = new URL(document.referrer);
     if (ref.origin === location.origin && !/\/play\/|\.html$/.test(ref.pathname)) page = ref.pathname + ref.hash;
@@ -6042,7 +6044,9 @@ function shareSpot() {
 // that way, as whoever shared it was. Nothing of it is saved in the settings.
 function visitFromLink() {
   const q = new URLSearchParams(location.search);
-  // ?inside=<id>: straight in through a building's door (<city>/inside.js)
+  // ?inside=<id>: straight in through a building's door (<city>/inside.js); with
+  // &view=x,z,tx,tz standing at x, z in it looking at tx, tz (the building's own metres): before a
+  // painting or a statue, from its page on the site (/art/<id>/)
   const room = q.get('inside') && INSIDE.list.find(b => b.id === q.get('inside'));
   if (room) {
     report('visit_from_link', { sight: `inside:${room.id}` });
@@ -6050,7 +6054,9 @@ function visitFromLink() {
     missionPlayer();
     setTrack(game.trackIdx);
     startRace();
-    putAt(humans[0], room.inside.x, room.inside.z, room.inside.yaw);
+    const [x, z, tx, tz] = (q.get('view') || '').split(',').map(Number);
+    if ([x, z, tx, tz].every(Number.isFinite)) putAt(humans[0], room.x + x, room.z + z, Math.atan2(tx - x, tz - z));
+    else putAt(humans[0], room.inside.x, room.inside.z, room.inside.yaw);
     return;
   }
   const sight = q.get('at') && SIGHTS?.find(s => s.id === q.get('at'));

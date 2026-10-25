@@ -1,0 +1,331 @@
+{
+  "museums": [
+    { "id": "louvre", "city": "paris", "name": "The Louvre", "blurb": "Five of its key rooms, from the glass pyramid to the Mona Lisa’s." },
+    { "id": "national-gallery", "city": "london", "name": "The National Gallery", "blurb": "On Trafalgar Square: Van Eyck, Constable, Turner and Van Gogh." },
+    { "id": "british-museum", "city": "london", "name": "The British Museum", "blurb": "The Great Court, the Egyptian sculpture gallery and the Parthenon’s marbles." },
+    { "id": "uffizi", "city": "florence", "name": "The Uffizi", "blurb": "The Medici’s gallery, with Botticelli’s room and the Tribuna." },
+    { "id": "duomo", "city": "florence", "name": "Florence Cathedral", "blurb": "The Duomo under Brunelleschi’s dome." },
+    { "id": "sistina", "city": "rome", "name": "The Sistine Chapel", "blurb": "Michelangelo’s ceiling and his Last Judgment, in the Vatican." },
+    { "id": "rijksmuseum", "city": "amsterdam", "name": "The Rijksmuseum", "blurb": "The Gallery of Honour and the Night Watch at its end." },
+    { "id": "prado", "city": "madrid", "name": "The Prado", "blurb": "The Spanish kings’ collection: Velázquez, Goya and Bosch." },
+    { "id": "kunsthistorisches", "city": "vienna", "name": "The Kunsthistorisches Museum", "blurb": "The Habsburgs’ collection, with the most Bruegels anywhere." },
+    { "id": "neues-museum", "city": "berlin", "name": "The Neues Museum", "blurb": "Egypt on the Museum Island, Nefertiti in her own domed room." },
+    { "id": "pergamon", "city": "berlin", "name": "The Pergamon Museum", "blurb": "A Greek altar and the gate of Babylon, rebuilt indoors." },
+    { "id": "san-marco", "city": "venice", "name": "St Mark’s Basilica", "blurb": "Five domes of gold mosaic and the golden altarpiece." },
+    { "id": "sint-baafs", "city": "ghent", "name": "St Bavo’s Cathedral", "blurb": "Ghent’s cathedral, home of the Van Eyck brothers’ altarpiece." }
+  ],
+  "pieces": [
+    {
+      "id": "mona-lisa", "title": "Mona Lisa", "local": "La Gioconda · La Joconde", "artist": "Leonardo da Vinci", "date": "c. 1503–1519",
+      "kind": "painting", "medium": "Oil on poplar panel", "size": "77 × 53 cm", "museum": "louvre", "room": "Salle des États",
+      "commons": "Mona_Lisa.jpg", "view": [16, 194, 16, 201.66],
+      "blurb": "Leonardo’s portrait of a Florentine silk merchant’s wife, the most visited painting in the world.",
+      "text": [
+        "Leonardo began painting Lisa Gherardini, the wife of the silk merchant Francesco del Giocondo, in Florence around 1503. He never handed it over: he kept working on it for years and took it with him to France, where King Francis I acquired it. That is why it is in Paris, and why the Italians still call it La Gioconda.",
+        "It is only 77 by 53 cm. Leonardo blurred every outline into soft shadow (sfumato), so the corners of her mouth never quite settle into a smile, and the landscape behind her does not line up on either side.",
+        "On 21 August 1911 a handyman, Vincenzo Peruggia, walked out of the Louvre with it under his smock. It turned up in Florence two years later, and the theft made it the most famous painting in the world. Since 2005 it has hung alone behind bulletproof glass in the Salle des États, opposite the Wedding at Cana."
+      ]
+    },
+    {
+      "id": "the-wedding-at-cana", "title": "The Wedding at Cana", "local": "Le Nozze di Cana", "artist": "Paolo Veronese", "date": "1563",
+      "kind": "painting", "medium": "Oil on canvas", "size": "677 × 994 cm", "museum": "louvre", "room": "Salle des États",
+      "commons": "Paolo_Veronese_008.jpg", "view": [8.2, 180, 8.2, 169.43],
+      "blurb": "Veronese’s Venetian feast, the biggest painting in the Louvre, across the room from the Mona Lisa.",
+      "text": [
+        "Veronese painted it for the refectory of the Benedictine monastery of San Giorgio Maggiore in Venice, where the monks ate under it. Christ’s first miracle, turning water into wine, becomes a sixteenth-century Venetian banquet with more than 130 guests, servants, musicians, dogs and a cat.",
+        "Napoleon’s troops carried it off in 1797, cutting it apart to roll it up for the journey. When the looted art went back after 1815, the Louvre kept it and sent Venice a painting by Le Brun instead. Nearly ten metres wide, it covers a whole wall of the Salle des États."
+      ]
+    },
+    {
+      "id": "the-raft-of-the-medusa", "title": "The Raft of the Medusa", "local": "Le Radeau de la Méduse", "artist": "Théodore Géricault", "date": "1818–1819",
+      "kind": "painting", "medium": "Oil on canvas", "size": "491 × 716 cm", "museum": "louvre", "room": "Grande Galerie",
+      "commons": "JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg", "view": [24, 150, 13.43, 150],
+      "blurb": "Survivors of a shipwreck wave at a ship on the horizon: a scandal of 1816, painted life-size.",
+      "text": [
+        "In July 1816 the French frigate Méduse ran aground off the coast of West Africa. Its officers took the lifeboats and left some 150 people on a makeshift raft; after thirteen days only fifteen were still alive when the brig Argus found them.",
+        "Géricault, 27 years old, interviewed survivors, had a model of the raft built and studied the dying in hospitals and the dead in the morgue. He painted the moment the survivors spot the Argus, a speck on the horizon, and a man waves a cloth at it. Shown at the Salon of 1819, it read as an attack on the government that had given the ship to an incompetent captain."
+      ]
+    },
+    {
+      "id": "liberty-leading-the-people", "title": "Liberty Leading the People", "local": "La Liberté guidant le peuple", "artist": "Eugène Delacroix", "date": "1830",
+      "kind": "painting", "medium": "Oil on canvas", "size": "260 × 325 cm", "museum": "louvre", "room": "Grande Galerie",
+      "commons": "La_Liberté_guidant_le_peuple_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_129_-_après_restauration_2024.jpg", "view": [16, 150, 26.47, 150],
+      "blurb": "Liberty climbs the barricade with the tricolour: Delacroix’s picture of the revolution of July 1830.",
+      "text": [
+        "In three days of July 1830 Parisians rose against King Charles X and drove him from the throne. Delacroix, who had not fought, painted it that autumn: Liberty in a Phrygian cap strides over the dead with the flag in one hand and a musket in the other, a boy with two pistols and a man in a top hat beside her, and the towers of Notre-Dame far off in the smoke.",
+        "The state bought it in 1831 and then hid it away for years as too inflammatory. It has hung in the Louvre since 1874, and its figure of Liberty became Marianne, the face of the French Republic. A restoration in 2024 took off the yellowed varnish and brought back the blue, white and red of the flag."
+      ]
+    },
+    {
+      "id": "venus-de-milo", "title": "Venus de Milo", "local": "Aphrodite of Milos", "artist": "Probably Alexandros of Antioch", "date": "c. 150–125 BC",
+      "kind": "sculpture", "medium": "Parian marble", "size": "204 cm high", "museum": "louvre", "room": "Gallery of the Venus de Milo",
+      "commons": "Front_views_of_the_Venus_de_Milo.jpg", "view": [0, 27, 0, 36],
+      "blurb": "The armless goddess found by a farmer on the Greek island of Milos in 1820.",
+      "text": [
+        "A farmer digging among ruins on the island of Milos found her in April 1820, in two pieces and already without arms. A French naval officer saw her, the French ambassador in Constantinople bought her, and she was given to King Louis XVIII, who gave her to the Louvre in 1821.",
+        "She is probably Aphrodite, the goddess of love, carved around 150–125 BC. A piece of her base, now lost, bore the name of the sculptor Alexandros of Antioch. Nobody knows what her arms were doing: holding an apple, a mirror or a shield are the usual guesses."
+      ]
+    },
+    {
+      "id": "winged-victory-of-samothrace", "title": "Winged Victory of Samothrace", "local": "Nikè de Samothrace", "artist": "Unknown Greek sculptor", "date": "c. 190 BC",
+      "kind": "sculpture", "medium": "Parian marble on a prow of grey marble", "size": "244 cm high, without the prow", "museum": "louvre", "room": "Daru staircase",
+      "commons": "Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg", "view": [0, 55, 0, 77],
+      "blurb": "Nike, goddess of victory, landing on a warship’s prow at the top of the Louvre’s great staircase.",
+      "text": [
+        "Nike, the goddess of victory, alights on the prow of a warship, the wind pressing her wet robe against her body. She stood in the sanctuary of the Great Gods on the island of Samothrace, probably as a thank-offering for a sea battle won around 190 BC.",
+        "The French consul Charles Champoiseau dug her up in 1863, in pieces. Since 1884 she has stood on her prow at the top of the Daru staircase, where you see her from the foot of it. Her head and arms were never found; her right hand turned up on Samothrace in 1950."
+      ]
+    },
+    {
+      "id": "sunflowers", "title": "Sunflowers", "local": "Zonnebloemen", "artist": "Vincent van Gogh", "date": "1888",
+      "kind": "painting", "medium": "Oil on canvas", "size": "92.1 × 73 cm", "museum": "national-gallery", "room": "The Impressionists’ room",
+      "commons": "Vincent_Willem_van_Gogh_127.jpg", "view": [0, 57, 0, 63.47],
+      "blurb": "Fifteen sunflowers in a yellow pot, painted in Arles to welcome Gauguin.",
+      "text": [
+        "In August 1888 Van Gogh was waiting in Arles for his friend Paul Gauguin to come and stay in the Yellow House. To decorate Gauguin’s room he painted four pictures of sunflowers in a few days, working fast before the flowers wilted. This one, yellow on yellow, is one of the two he thought good enough to sign, on the vase.",
+        "He painted repeats of his sunflowers the next winter, now in Amsterdam, Philadelphia and Tokyo. The National Gallery bought this one in 1924."
+      ]
+    },
+    {
+      "id": "the-hay-wain", "title": "The Hay Wain", "artist": "John Constable", "date": "1821",
+      "kind": "painting", "medium": "Oil on canvas", "size": "130.2 × 185.4 cm", "museum": "national-gallery", "room": "The British room",
+      "commons": "John_Constable_-_The_Hay_Wain_(1821).jpg", "view": [18.95, 17, 18.95, 25.47],
+      "blurb": "A hay cart crossing the river Stour in Suffolk, under big summer clouds.",
+      "text": [
+        "Constable painted the countryside he grew up in: the river Stour at Flatford Mill, where his father had a mill, with Willy Lott’s cottage on the left and an empty hay cart splashing through the shallows to the fields beyond.",
+        "Shown at the Royal Academy in 1821 as Landscape: Noon, it did not sell. In Paris three years later it won a gold medal from King Charles X, and young French painters such as Delacroix studied its fresh greens and broken touches of white."
+      ]
+    },
+    {
+      "id": "the-arnolfini-portrait", "title": "The Arnolfini Portrait", "artist": "Jan van Eyck", "date": "1434",
+      "kind": "painting", "medium": "Oil on oak", "size": "82.2 × 60 cm", "museum": "national-gallery", "room": "The Van Eyck room",
+      "commons": "The_Arnolfini_portrait_(1434).jpg", "view": [-21, 14, -25.47, 14],
+      "blurb": "An Italian merchant and his wife in their room in Bruges, and Van Eyck himself in the mirror.",
+      "text": [
+        "Giovanni Arnolfini, a merchant from Lucca, stands with his wife in their house in Bruges: an orange on the windowsill, a little dog at their feet, a brass chandelier with one candle burning in broad daylight.",
+        "In the round mirror on the back wall two more people stand in the doorway, one of them probably the painter. Over the mirror he wrote “Johannes de eyck fuit hic 1434”: Jan van Eyck was here. The National Gallery bought it in 1842."
+      ]
+    },
+    {
+      "id": "the-fighting-temeraire", "title": "The Fighting Temeraire", "artist": "J. M. W. Turner", "date": "1839",
+      "kind": "painting", "medium": "Oil on canvas", "size": "90.7 × 121.6 cm", "museum": "national-gallery", "room": "The British room",
+      "commons": "The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg", "view": [18.95, 12, 18.95, 4.53],
+      "blurb": "An old warship of Trafalgar towed up the Thames to be broken up, under a blazing sunset.",
+      "text": [
+        "HMS Temeraire fought at Trafalgar in 1805, second in line behind Nelson’s Victory. In 1838 a steam tug towed her up the Thames to Rotherhithe to be broken up for timber. Turner painted her pale as a ghost behind the black tug, with the sun going down on the other side of the picture.",
+        "He called it his darling and never sold it; it came to the nation with his bequest. In 2005 listeners of BBC Radio 4 voted it Britain’s greatest painting, and since 2020 it has been on the £20 note."
+      ]
+    },
+    {
+      "id": "rosetta-stone", "title": "The Rosetta Stone", "artist": "Scribes of Ptolemy V", "date": "196 BC",
+      "kind": "artefact", "medium": "Granodiorite", "size": "112 × 76 × 28 cm", "museum": "british-museum", "room": "Egyptian sculpture gallery",
+      "commons": "Rosetta_Stone.JPG", "view": [-48, 0, -53.83, 0],
+      "blurb": "The same decree in three scripts: the stone that let us read Egyptian hieroglyphs again.",
+      "text": [
+        "Priests meeting at Memphis in 196 BC issued a decree in honour of the young king Ptolemy V, and it was carved on stone three times: in hieroglyphs, in Demotic (the everyday Egyptian script) and in ancient Greek.",
+        "French soldiers found the broken slab in 1799 at Rashid, which Europeans called Rosetta, built into an old fort. The British took it under the treaty of 1801, and it has been in the British Museum since 1802. Because the Greek could be read, Thomas Young and then Jean-François Champollion worked out the hieroglyphs from it, Champollion announcing it in 1822."
+      ]
+    },
+    {
+      "id": "younger-memnon", "title": "Ramesses II, the Younger Memnon", "artist": "Egyptian sculptors", "date": "c. 1250 BC",
+      "kind": "sculpture", "medium": "Granite", "size": "267 cm high, 7.25 tonnes", "museum": "british-museum", "room": "Egyptian sculpture gallery",
+      "commons": "BM,_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II,_the_'Younger_Memnon'_(1250_BC)_(Room_4).jpg", "view": [-72, 0, -72, 7],
+      "blurb": "The colossal head and shoulders of Ramesses II, carried from Thebes to London in 1816–1818.",
+      "text": [
+        "The upper part of a seated statue of Ramesses II from his mortuary temple at Thebes, the Ramesseum, cut from one block of granite with a darker and a lighter part, so his face is pink and his body grey.",
+        "In 1816 the strongman and explorer Giovanni Belzoni had it dragged on rollers to the Nile and shipped to London; it reached the British Museum in 1818. The news of it is said to have inspired Shelley’s sonnet Ozymandias, about a shattered statue of a forgotten king of kings."
+      ]
+    },
+    {
+      "id": "parthenon-sculptures", "title": "The Parthenon Sculptures", "local": "The Elgin Marbles", "artist": "Workshop of Pheidias", "date": "c. 447–432 BC",
+      "kind": "sculpture", "medium": "Pentelic marble", "size": "75 m of frieze, 15 metopes, 17 figures", "museum": "british-museum", "room": "The Duveen Gallery",
+      "commons": "Elgin-marbles-jan-2024.jpg", "view": [60, 0, 95, 0],
+      "blurb": "Gods, horsemen and centaurs from the Parthenon in Athens, and the most argued-over sculptures in the world.",
+      "text": [
+        "The frieze ran round the Parthenon, the temple of Athena on the Acropolis: the procession of the Panathenaic festival, horsemen, chariots and animals for sacrifice, up to the gods seated waiting. Its pediments held the gods themselves, and its metopes the battle of the Lapiths and the centaurs.",
+        "From 1801 men working for Lord Elgin, the British ambassador to the Ottoman Empire, which then ruled Athens, took down about half of what survived and shipped it to Britain. Parliament bought it in 1816. Greece has asked for the sculptures back since 1983 and built the Acropolis Museum (2009) with a gallery waiting for them."
+      ]
+    },
+    {
+      "id": "the-birth-of-venus", "title": "The Birth of Venus", "local": "La nascita di Venere", "artist": "Sandro Botticelli", "date": "c. 1484–1486",
+      "kind": "painting", "medium": "Tempera on canvas", "size": "172.5 × 278.5 cm", "museum": "uffizi", "room": "The Botticelli room",
+      "commons": "Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg", "view": [-20.45, 75, -20.45, 83.47],
+      "blurb": "The goddess of love blown ashore on a scallop shell, painted for the Medici.",
+      "text": [
+        "Venus, born of the sea foam, drifts ashore on a scallop shell. The winds blow her in from the left, roses falling round them, and on the right one of the Hours, the goddesses of the seasons, waits with a flowered cloak to cover her.",
+        "Botticelli painted it in Florence for the Medici circle in the mid-1480s. It was one of the first big paintings since antiquity of a naked goddess that was not a story from the Bible, and one of the first in Tuscany on canvas rather than on wood."
+      ]
+    },
+    {
+      "id": "primavera", "title": "Primavera", "local": "Spring", "artist": "Sandro Botticelli", "date": "c. 1480",
+      "kind": "painting", "medium": "Tempera on panel", "size": "207 × 319 cm", "museum": "uffizi", "room": "The Botticelli room",
+      "commons": "Botticelli-primavera.jpg", "view": [-25, 70, -33.47, 70],
+      "blurb": "Venus in her orange grove with the three Graces, Flora and the winds of spring.",
+      "text": [
+        "In a dark grove of orange trees, Venus stands in the middle with Cupid aiming his arrow over her head. On the left the three Graces dance and Mercury pokes at the clouds; on the right Zephyr, the west wind, catches the nymph Chloris, who turns into Flora, strewing flowers in her painted dress.",
+        "It hung in a Medici house in Florence. Botanists have counted some 500 plants on its meadow, about 190 of them different flowers, nearly all of them ones that bloom around Florence in spring."
+      ]
+    },
+    {
+      "id": "venus-de-medici", "title": "Venus de’ Medici", "artist": "Signed by Kleomenes", "date": "1st century BC",
+      "kind": "sculpture", "medium": "Marble", "size": "153 cm high", "museum": "uffizi", "room": "The Tribuna",
+      "commons": "Cleomene_di_Apollodoro,_venere_medici,_I_secolo_ac_ca.jpg", "view": [-16.5, 25.5, -16.5, 30],
+      "blurb": "The marble goddess in the middle of the Tribuna, once the most admired statue in Europe.",
+      "text": [
+        "Venus turns as if surprised while bathing, a dolphin at her feet. A Greek sculptor carved her in the first century BC, after the Aphrodite of Knidos of Praxiteles; the base names Kleomenes, son of Apollodoros, of Athens.",
+        "The Medici kept her in their villa in Rome and brought her to Florence in 1677, to the red-velvet octagon of the Tribuna. Travellers on the Grand Tour came to see her above all else. Napoleon took her to Paris in 1802; she came back in 1815."
+      ]
+    },
+    {
+      "id": "sir-john-hawkwood", "title": "Sir John Hawkwood", "local": "Monumento equestre a Giovanni Acuto", "artist": "Paolo Uccello", "date": "1436",
+      "kind": "fresco", "medium": "Fresco, moved onto canvas", "size": "820 × 515 cm", "museum": "duomo", "room": "North aisle",
+      "commons": "Paolo_uccello,_Monumento_equestre_di_John_Hawkwood,_1436,_01.JPG", "view": [-12, -62.8, -18.04, -62.8],
+      "blurb": "An English mercenary on horseback, painted to look like a bronze statue on the cathedral wall.",
+      "text": [
+        "John Hawkwood, an Essex tanner’s son, fought for whoever paid best in fourteenth-century Italy and ended up captain-general of Florence’s army. The city promised him a marble monument in the cathedral; when he died in 1394, it never came.",
+        "In 1436 Paolo Uccello painted one instead, in greenish earth colours so that the horse and rider look like bronze, standing on a plinth seen from below. Twenty years later Andrea del Castagno painted another condottiere, Niccolò da Tolentino, beside it."
+      ]
+    },
+    {
+      "id": "the-creation-of-adam", "title": "The Creation of Adam", "local": "La creazione di Adamo", "artist": "Michelangelo", "date": "c. 1508–1512",
+      "kind": "fresco", "medium": "Fresco", "size": "280 × 570 cm", "museum": "sistina", "room": "The ceiling",
+      "commons": "Michelangelo_-_Creation_of_Adam_(cropped).jpg", "view": [0, -1, 0, 6],
+      "blurb": "God reaches out to give life to Adam, their fingers nearly touching, on the Sistine ceiling.",
+      "text": [
+        "Pope Julius II asked Michelangelo, who thought of himself as a sculptor, to paint the ceiling of the Sistine Chapel. From 1508 to 1512 he painted more than 300 figures on it, standing on a scaffold he designed himself: the prophets and sibyls round the edges, and nine stories from Genesis down the middle.",
+        "The Creation of Adam is the fourth of them from the altar. Adam lies on the bare earth, his hand limp; God sweeps towards him in a red cloak full of angels, and the gap between their fingers is the moment life passes over. Some see the shape of a human brain in the cloak round God."
+      ]
+    },
+    {
+      "id": "the-last-judgment", "title": "The Last Judgment", "local": "Il Giudizio universale", "artist": "Michelangelo", "date": "1536–1541",
+      "kind": "fresco", "medium": "Fresco", "size": "1370 × 1200 cm", "museum": "sistina", "room": "The altar wall",
+      "commons": "Last_Judgement_(Michelangelo).jpg", "view": [0, 12, 0, 25],
+      "blurb": "Michelangelo’s vision of the end of the world, covering the whole altar wall of the Sistine Chapel.",
+      "text": [
+        "More than twenty years after the ceiling, Michelangelo came back, aged about sixty, to paint the wall behind the altar. Christ raises his arm in the middle, Mary beside him; the saved rise on the left and the damned fall on the right, down to Charon ferrying them across the river to hell. St Bartholomew holds up his own flayed skin, and the face on it is Michelangelo’s.",
+        "Over 300 figures, nearly all of them naked: so many objected that after Michelangelo’s death Daniele da Volterra was paid to paint loincloths over them, and was nicknamed the breeches-maker. The restoration of 1990–1994 took some of them off again."
+      ]
+    },
+    {
+      "id": "the-night-watch", "title": "The Night Watch", "local": "De Nachtwacht", "artist": "Rembrandt van Rijn", "date": "1642",
+      "kind": "painting", "medium": "Oil on canvas", "size": "379.5 × 453.5 cm", "museum": "rijksmuseum", "room": "The Night Watch Gallery",
+      "commons": "La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg", "view": [0, 85, 0, 94.47],
+      "blurb": "An Amsterdam militia company marching out, the painting the whole Rijksmuseum was built round.",
+      "text": [
+        "The civic guard of Captain Frans Banninck Cocq commissioned it for the hall of their guild house. Instead of a neat row of portraits, Rembrandt painted them in the commotion of moving off: the captain in black with a red sash giving the order, his lieutenant in pale gold, a drummer, muskets going off, and a girl in gold lit up among them with a chicken at her belt.",
+        "It is not a night scene: the varnish darkened over the centuries and gave it its name. In 1715 it was cut down on all four sides to fit a wall of the town hall. Since 2019 it has been restored in a glass room in the museum, where visitors can watch the work."
+      ]
+    },
+    {
+      "id": "las-meninas", "title": "Las Meninas", "local": "The Ladies-in-Waiting", "artist": "Diego Velázquez", "date": "1656",
+      "kind": "painting", "medium": "Oil on canvas", "size": "318 × 276 cm", "museum": "prado", "room": "The Velázquez room",
+      "commons": "Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg", "view": [-22, 40, -29.47, 40],
+      "blurb": "The little Infanta among her maids, the painter at his canvas, and the king and queen in the mirror.",
+      "text": [
+        "In a room of the royal palace in Madrid, the five-year-old Infanta Margarita stands among her maids of honour, the meninas, with two court dwarfs and a big sleepy dog. On the left Velázquez himself looks out from behind a huge canvas.",
+        "In the mirror at the back are King Philip IV and Queen Mariana: they stand where you stand, and the whole scene looks out at them. The red cross on the painter’s chest is the Order of Santiago, which he was given in 1659, three years after he painted himself."
+      ]
+    },
+    {
+      "id": "saturn-devouring-his-son", "title": "Saturn Devouring His Son", "local": "Saturno devorando a su hijo", "artist": "Francisco de Goya", "date": "c. 1819–1823",
+      "kind": "painting", "medium": "Oil mural, moved onto canvas", "size": "143.5 × 81.4 cm", "museum": "prado", "room": "The Black Paintings",
+      "commons": "Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg", "view": [19, 20, 25.47, 20],
+      "blurb": "The wild-eyed giant eating his child, one of the Black Paintings from the walls of Goya’s house.",
+      "text": [
+        "In his seventies, deaf and disillusioned, Goya painted fourteen dark pictures straight onto the plaster walls of his house outside Madrid, the Quinta del Sordo. He gave them no titles and showed them to nobody. Saturn, the god who ate his children for fear one would overthrow him, hung in the dining room.",
+        "Fifty years later a new owner had them taken off the walls and moved onto canvas, and gave them to the Prado in 1881."
+      ]
+    },
+    {
+      "id": "the-garden-of-earthly-delights", "title": "The Garden of Earthly Delights", "local": "De Tuin der Lusten", "artist": "Hieronymus Bosch", "date": "c. 1490–1510",
+      "kind": "painting", "medium": "Oil on oak panels", "size": "205.5 × 384.9 cm", "museum": "prado", "room": "The Bosch room",
+      "commons": "The_Garden_of_earthly_delights.jpg", "view": [16.95, 55, 16.95, 62.04],
+      "blurb": "Eden, a garden full of naked pleasure-seekers and giant fruit, and a hell of musical torture.",
+      "text": [
+        "Three panels: on the left God presents Eve to Adam in Eden; in the middle hundreds of naked people play among giant strawberries, birds and fountains; on the right is a nightmare hell, where a man is crucified on a harp and a bird-headed monster swallows sinners. Closed, the wings show the world on the third day of creation, in grey.",
+        "Bosch painted it in ’s-Hertogenbosch, perhaps for the counts of Nassau in Brussels. King Philip II of Spain, who collected Bosch, sent it to his monastery-palace of El Escorial in 1593, and it has been in the Prado since 1939."
+      ]
+    },
+    {
+      "id": "the-tower-of-babel", "title": "The Tower of Babel", "artist": "Pieter Bruegel the Elder", "date": "1563",
+      "kind": "painting", "medium": "Oil on oak panel", "size": "114 × 155 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
+      "commons": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg", "view": [33, 43, 39.47, 43],
+      "blurb": "The tower that was meant to reach heaven, rising in rings of arches over a Flemish port.",
+      "text": [
+        "Bruegel built his tower like the Colosseum in Rome, which he had seen, ring upon ring of arches spiralling up into the clouds, already crumbling at the bottom before the top is finished. Around it lies a busy Flemish harbour like Antwerp’s, ships unloading stone.",
+        "In the corner King Nimrod, who ordered it built, visits the stonemasons, who kneel before him. Thousands of tiny workers swarm over it, with cranes, ladders and scaffolding. A smaller version by Bruegel hangs in Rotterdam."
+      ]
+    },
+    {
+      "id": "the-hunters-in-the-snow", "title": "The Hunters in the Snow", "artist": "Pieter Bruegel the Elder", "date": "1565",
+      "kind": "painting", "medium": "Oil on oak panel", "size": "117 × 162 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
+      "commons": "Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg", "view": [26.45, 47, 26.45, 53.47],
+      "blurb": "Three tired hunters coming home over the snowy hill, the village below skating on the ice.",
+      "text": [
+        "Three hunters and their dogs trudge down the hill past bare trees, with just one fox to show for the day. Below them the frozen ponds are full of skaters, curlers and children with spinning tops, under a cold grey-green sky.",
+        "It is one of a series of six paintings of the times of the year that the Antwerp merchant Niclaes Jongelinck ordered for his house; five survive, and three of them hang in Vienna."
+      ]
+    },
+    {
+      "id": "the-peasant-wedding", "title": "The Peasant Wedding", "local": "De boerenbruiloft", "artist": "Pieter Bruegel the Elder", "date": "c. 1567",
+      "kind": "painting", "medium": "Oil on oak panel", "size": "114 × 164 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
+      "commons": "Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project_2.jpg", "view": [26.45, 39, 26.45, 32.53],
+      "blurb": "A crowded wedding feast in a barn, the bride under her paper crown.",
+      "text": [
+        "The guests crowd round a long table in a barn, the bride sitting smugly under a paper crown in front of a green cloth. Two men carry in bowls of porridge on a door taken off its hinges, a bagpiper looks hungrily at the food and a child in a big hat licks a plate clean.",
+        "Nobody is sure which one is the groom. Bruegel painted the people of the Flemish countryside like this, eating, dancing and fighting, so often that he was called Peasant Bruegel."
+      ]
+    },
+    {
+      "id": "nefertiti-bust", "title": "Bust of Nefertiti", "artist": "Workshop of Thutmose", "date": "c. 1345 BC",
+      "kind": "sculpture", "medium": "Limestone and painted plaster", "size": "47 cm high", "museum": "neues-museum", "room": "The north dome room",
+      "commons": "Nofretete_Neues_Museum.jpg", "view": [0, 16, 0, 22],
+      "blurb": "The painted queen of Egypt, found in a sculptor’s workshop where she had stood for 3,300 years.",
+      "text": [
+        "Nefertiti was the great royal wife of the pharaoh Akhenaten, who moved Egypt’s capital to a new city at Amarna. Her bust, with its tall blue crown, was probably a model for other portraits of her, which is why one eye was never inlaid.",
+        "A German expedition led by Ludwig Borchardt found it on 6 December 1912 in the ruins of the workshop of the sculptor Thutmose. It has been in Berlin since 1913, on show since 1924, and Egypt has asked for it back many times."
+      ]
+    },
+    {
+      "id": "pergamon-altar", "title": "The Pergamon Altar", "artist": "Greek sculptors of Pergamon", "date": "c. 170 BC",
+      "kind": "artefact", "medium": "Marble", "size": "about 36 × 34 m, frieze 113 m long", "museum": "pergamon", "room": "The altar hall",
+      "commons": "Pergamon_Museum_in_Berlin.jpg", "view": [0, -11, 0, -2],
+      "blurb": "A whole Greek altar with its battle of the gods and the giants, rebuilt inside a museum.",
+      "text": [
+        "King Eumenes II built the altar on the acropolis of Pergamon, in what is now western Turkey, in the first half of the second century BC. Round its base runs a frieze 113 m long of the gods fighting the giants, figures more than life-size twisting out of the marble.",
+        "The German engineer Carl Humann dug it up from 1878 and the pieces went to Berlin, where the museum was built round it. The hall is closed for rebuilding until about 2027."
+      ]
+    },
+    {
+      "id": "ishtar-gate", "title": "The Ishtar Gate", "artist": "Builders of Nebuchadnezzar II", "date": "c. 575 BC",
+      "kind": "artefact", "medium": "Glazed brick", "size": "14 m high as rebuilt", "museum": "pergamon", "room": "The Processional Way",
+      "commons": "Berlín,_Museo_de_Pérgamo_05.jpg", "view": [0, 36, 0, 51],
+      "blurb": "The blue-glazed gate of Babylon, with its lions, bulls and dragons, at the end of the Processional Way.",
+      "text": [
+        "King Nebuchadnezzar II built it around 575 BC as the eighth gate into Babylon, dedicated to the goddess Ishtar. Its bricks are glazed deep blue, with rows of bulls and dragons in yellow and white; the walls of the Processional Way leading up to it are lined with lions.",
+        "Robert Koldewey’s German expedition dug up the fragments from 1902 and the museum put the gate together again from them in the 1930s. Only the smaller front gate is here: the larger one behind it was too tall for the building."
+      ]
+    },
+    {
+      "id": "pala-d-oro", "title": "The Pala d’Oro", "artist": "Goldsmiths of Constantinople and Venice", "date": "976–1345",
+      "kind": "artefact", "medium": "Gold, silver gilt, enamel, pearls and gems", "size": "212 × 334 cm", "museum": "san-marco", "room": "Behind the high altar",
+      "commons": "ItVenice1342-4741-San-Marco-Pala-d'Oro-HiR.jpg", "view": [0, 14, 0, 23.54],
+      "blurb": "The golden altarpiece of St Mark’s, made over four centuries from Byzantine enamels and gems.",
+      "text": [
+        "The doge Pietro Orseolo ordered the first one from Constantinople in 976. It was enlarged in 1105, again in 1209 with enamels looted from Constantinople by the crusaders in 1204, and given its Gothic gold frame by the goldsmith Giovanni Paolo Boninsegna in 1345.",
+        "About 250 enamels of Christ, saints and prophets sit in it among almost two thousand pearls and gemstones. It stands behind the high altar, over the tomb of St Mark himself, and on feast days it is turned round to face the church."
+      ]
+    },
+    {
+      "id": "ghent-altarpiece", "title": "The Ghent Altarpiece", "local": "Het Lam Gods", "artist": "Hubert and Jan van Eyck", "date": "1432",
+      "kind": "painting", "medium": "Oil on oak panels", "size": "375 × 520 cm open", "museum": "sint-baafs", "room": "Its own chapel, at the back",
+      "commons": "Ghent_Altarpiece_Google_Art_Project.jpg", "view": [0, 46, 0, 52.4],
+      "blurb": "The Adoration of the Mystic Lamb, the Van Eyck brothers’ masterpiece and the most stolen painting in the world.",
+      "text": [
+        "Joos Vijd and his wife Elisabeth Borluut paid for it for their chapel in the church of St John, now St Bavo’s. The verse on its frame says Hubert van Eyck began it and his brother Jan finished it, and it was unveiled on 6 May 1432. Open, it shows God, Mary and John the Baptist above, Adam and Eve at the ends, and below them crowds of saints, judges, knights, hermits and pilgrims coming to worship the Lamb on an altar in a meadow full of flowers.",
+        "Few paintings have had more adventures. Napoleon took the middle panels to the Louvre; the wings were sold and hung in Berlin until the Treaty of Versailles brought them back in 1920. In 1934 the panel of the Just Judges was stolen, and it has never been found. The Nazis carried the rest off to a salt mine in Austria, where the Monuments Men found it in 1945.",
+        "A restoration since 2012 took off centuries of overpainting, and in 2020 the Lamb looked out again with the strangely human face the Van Eycks gave it."
+      ]
+    }
+  ]
+}

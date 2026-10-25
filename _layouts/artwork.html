@@ -1,0 +1,97 @@
+{%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, from=art:<id> for the pause menu's way back), and the other pieces in the same building. {%- endcomment -%}
+{%- assign A = site.data.art -%}
+{%- assign P = A.pieces | where: 'id', page.art | first -%}
+{%- assign M = A.museums | where: 'id', P.museum | first -%}
+{%- assign C = site.data.cities | where: 'id', M.city | first -%}
+{%- assign ph = site.data.art_photos[P.id] -%}
+{%- assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] | append: '&from=art:' | append: P.id -%}
+{%- case P.kind %}{% when 'painting' %}{% assign kind_icon = 'frame' %}{% when 'fresco' %}{% assign kind_icon = 'palette' %}{% when 'sculpture' %}{% assign kind_icon = 'statue' %}{% else %}{% assign kind_icon = 'gem' %}{% endcase -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = P.title | append: ' by ' | append: P.artist | append: ' · ' | append: M.name | append: ' in 3D · Instant Cities' -%}{%- assign description = P.blurb -%}
+{%- assign path = '/art/' | append: P.id | append: '/' -%}
+{%- assign image = '/assets/img/art/' | append: P.id | append: '.jpg' -%}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero artwork-hero">
+      <div class="hero-text">
+        <p class="crumbs"><a href="/art/">Art</a> › <a href="/art/#{{ M.id }}">{{ M.name }}</a></p>
+        <h1>{{ P.title }}</h1>
+        {%- if P.local %}<p class="local">{{ P.local }}</p>{% endif %}
+        <p class="byline">{% include icon.html name=kind_icon %} {{ P.artist }}, {{ P.date }}</p>
+        <p class="tagline">{{ P.blurb }}</p>
+        <p class="hero-btns left">
+          <a class="play" href="{{ play }}">{% include icon.html name="play" %} See it in 3D</a>
+          <a class="ghost" href="/{{ C.id }}/">{% include icon.html name="city" %} {{ C.name }}</a>
+        </p>
+      </div>
+      <figure class="artwork-shot">
+        <a href="/assets/img/art/{{ P.id }}.jpg"><img src="/assets/img/art/{{ P.id }}.jpg" alt="{{ P.title }}, {{ P.artist }}" fetchpriority="high"></a>
+        {%- if ph %}
+        <figcaption>{% if P.kind == 'painting' or P.kind == 'fresco' %}Image{% else %}Photo{% endif %}: <a href="{{ ph.source }}" rel="noopener">{{ ph.author | truncate: 60 }}</a>, {% if ph.license_url != '' %}<a href="{{ ph.license_url }}" rel="noopener license">{{ ph.license }}</a>{% else %}{{ ph.license }}{% endif %}, via Wikimedia Commons</figcaption>
+        {%- endif %}
+      </figure>
+    </section>
+
+    <section class="landmark-body">
+      <div class="prose">
+        {%- for p in P.text %}
+        <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">Stand before it in 3D ›</a>{% endif %}</p>
+        {%- endfor %}
+      </div>
+      <aside class="landmark-side">
+        <div class="dates art-facts">
+          <h2>At a glance</h2>
+          <dl>
+            <dt>By</dt><dd>{{ P.artist }}</dd>
+            <dt>When</dt><dd>{{ P.date }}</dd>
+            <dt>Made of</dt><dd>{{ P.medium }}</dd>
+            <dt>Size</dt><dd>{{ P.size }}</dd>
+            <dt>Where</dt><dd>{{ M.name }}, {{ C.name }}<br><small>{{ P.room }}</small></dd>
+          </dl>
+          <p class="art-go"><a href="{{ play }}">{% include icon.html name="play" %} Go there in {{ C.game | default: C.name }}</a></p>
+        </div>
+      </aside>
+    </section>
+
+    {%- assign others = A.pieces | where: 'museum', M.id | where_exp: 'a', 'a.id != P.id' %}
+    {%- if others.size > 0 %}
+    <section class="landmarks">
+      <h2>More in {{ M.name }}</h2>
+      <div class="grid art-grid">
+        {%- for a in others %}
+        {% include art-card.html art=a %}
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
+
+    <section class="landmarks">
+      <h2>More famous art</h2>
+      <div class="grid art-grid">
+        {%- assign shown = 0 %}
+        {%- for a in A.pieces %}{% if a.museum != M.id and shown < 4 %}{% assign mod = forloop.index | modulo: 7 %}{% if mod == 1 %}
+        {% include art-card.html art=a %}{% assign shown = shown | plus: 1 %}
+        {%- endif %}{% endif %}{% endfor %}
+      </div>
+      <p class="card-more"><a href="/art/">All {{ A.pieces.size }} pieces ›</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt"><a href="/art/">Famous art</a> <a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p>Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>
