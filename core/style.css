@@ -1707,55 +1707,64 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
 body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tourMusic, body.demo #tourBar, body.demo #mute, body.demo #toast { display: none !important; }
 
 /* ---------- the menus: black, white and greys like the site (assets/site.css), one plain typeface,
-   hairlines and small corners; the city's accent still marks what is picked and the start button.
-   The HUD over the game keeps its own bold look. ---------- */
+   thin borders and small corners. What is picked is black; the city's accent is kept for the start
+   button and a few small marks, and the emoji stay grey until picked. The HUD over the game keeps
+   its own bold look. ---------- */
 
-.overlay { font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
-#menu.overlay { background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)); }
+.overlay { --edge: rgba(17, 17, 17, 0.18); --soft: #f2f2f1; font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
+#menu.overlay { background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45)); }
 .overlay :is(.title, .label, .chip, .start, .arrow, .laps, .tcard b, .qcard b, .phead, .phead input, .brief-time, .site-link, .madeby, .foot, kbd) { font-family: var(--sans); }
-.overlay .card { border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18); }
+.overlay .card { color: var(--ink); background: #fff; border: 2px solid var(--ink); border-radius: 10px; box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3); }
+#menu .card { background: rgba(255, 255, 255, 0.9); }
 
 .overlay .title, #loader .title { font-family: var(--sans); font-weight: 800; letter-spacing: -0.04em; }
-.overlay .title, #menu .title, #loader .title { color: var(--ink); -webkit-text-stroke: 0; text-shadow: none; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; }
+.overlay .title, #menu .title, #loader .title { color: #111; -webkit-text-stroke: 0; text-shadow: none; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; }
 .overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
 .overlay .title .beta, #loader .title .beta {
   vertical-align: 0.9em; margin-left: 8px; padding: 3px 7px;
   font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted);
   background: none; border: 1px solid currentColor; border-radius: 4px; transform: none;
 }
-.overlay .tag { font-weight: 500; font-size: 16px; }
+.overlay .tag { font-weight: 500; font-size: 16px; color: var(--muted); }
 
-.overlay .row { border-width: 1px; border-radius: 8px; }
+.overlay .row { border-width: 2px; border-radius: 8px; }
+.overlay .row.focus { border-color: #111; background: none; }
 .overlay .label { font-weight: 600; font-size: 15px; }
-.overlay .chip { font-weight: 500; background: #fff; border: 1px solid var(--line); border-radius: 6px; transition: border-color 0.15s; }
-.overlay .chip:hover { border-color: rgba(17, 17, 17, 0.4); }
-.overlay .chip.on { color: #fff; background: var(--accent); border-color: var(--accent); }
-.overlay .chip.copied { border-color: #2e9d57; }
-.overlay .arrow { line-height: 1; font-weight: 500; border: 1px solid var(--line); border-radius: 6px; }
+.overlay .chip { font-weight: 500; color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 6px; transition: border-color 0.15s; }
+.overlay .chip:hover { border-color: #111; }
+.overlay .chip.on { color: #fff; background: #111; border-color: #111; }
+.overlay .chip.copied { color: #fff; background: #111; border-color: #111; }
+.overlay .arrow { line-height: 1; font-weight: 500; color: #111; border: 2px solid var(--edge); border-radius: 6px; }
+.overlay .arrow:hover { border-color: #111; }
 .overlay .laps, .overlay .laps b { font-weight: 600; }
+/* the emoji in the chips and cards grey, in colour once picked */
+.overlay :is(.chip, .tcard, .qcard):not(.on) { filter: grayscale(1); }
 
-.overlay :is(.tcard, .qcard) { background: #fff; border: 1px solid var(--line); border-radius: 8px; transition: border-color 0.15s; }
-.overlay :is(.tcard, .qcard):hover { border-color: rgba(17, 17, 17, 0.4); }
-.overlay :is(.tcard, .qcard).on { background: var(--accent); border-color: var(--accent); box-shadow: none; }
+.overlay :is(.tcard, .qcard) { color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 8px; transition: border-color 0.15s; }
+.overlay :is(.tcard, .qcard):hover { border-color: #111; }
+.overlay :is(.tcard, .qcard).on { color: #fff; background: #111; border-color: #111; box-shadow: inset 0 -4px 0 var(--accent); }
 .overlay :is(.tcard, .qcard) b { font-weight: 600; letter-spacing: -0.01em; }
 .overlay :is(.tcard, .qcard) small { font-weight: 500; color: var(--muted); }
-.overlay :is(.tcard, .qcard).on small { color: rgba(255, 255, 255, 0.8); }
-.overlay .qcard.won { border-color: #2e9e4f; }
-.overlay .qcard.won::after { top: -7px; right: -7px; width: 20px; height: 20px; font-size: 12px; line-height: 20px; box-shadow: none; }
-.overlay .gunmode { border: 1px solid var(--line); border-radius: 6px; box-shadow: none; }
+.overlay :is(.tcard, .qcard).on small { color: rgba(255, 255, 255, 0.7); }
+.overlay .qcard.won { border-color: var(--edge); }
+.overlay .qcard.won::after { top: -7px; right: -7px; width: 20px; height: 20px; font-size: 12px; line-height: 20px; background: var(--accent); box-shadow: none; }
+.overlay .gunmode { border: 2px solid var(--edge); border-radius: 6px; box-shadow: none; }
+.overlay .gunmode:has(input:checked) { background: var(--soft); border-color: #111; }
 
-.overlay .start { font-weight: 600; letter-spacing: -0.01em; border: 1px solid var(--accent); border-radius: 6px; box-shadow: none; animation: none; transition: filter 0.15s; }
-.overlay .start:hover { filter: brightness(0.92); }
-.overlay .start.alt { color: var(--ink); background: #fff; border-color: var(--line); }
-#menu .start.focus, #pause .psel { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* the one button in colour: the city's accent */
+.overlay .start { font-weight: 600; letter-spacing: -0.01em; color: #fff; background: var(--accent); border: 2px solid var(--accent); border-radius: 6px; box-shadow: none; animation: none; transition: filter 0.15s; }
+.overlay .start:hover { filter: brightness(0.9); }
+.overlay .start.alt { color: #111; background: #fff; border-color: var(--edge); }
+.overlay .start.alt:hover { filter: none; border-color: #111; }
+#menu .start.focus, #pause .psel { outline: 2px solid #111; outline-offset: 2px; }
 
-/* the player cards: a hairline in the player's colour, a plain header (black with one player) */
-#menu .pcol, .solo #menu .pcol { border-width: 1px; border-radius: 8px; box-shadow: none; }
-.solo #menu .pcol { border-color: var(--line); }
-.overlay .phead { padding: 5px 0; font-weight: 600; font-size: 14px; letter-spacing: 0.01em; -webkit-text-stroke: 0; }
+/* the player cards: black header and border; with two players a bar in each player's colour under the header */
+#menu .pcol, .solo #menu .pcol { border: 2px solid #111; border-radius: 8px; box-shadow: none; }
+.overlay .phead { padding: 5px 0; font-weight: 600; font-size: 14px; letter-spacing: 0.01em; color: #fff; background: #111; -webkit-text-stroke: 0; box-shadow: inset 0 -4px 0 var(--c, #111); }
+.solo .overlay .phead { box-shadow: none; }
 .overlay .phead input { font-weight: 600; border-width: 1px; border-radius: 4px; }
 .overlay :is(.ppick, .pcolor) { border-radius: 6px; }
-.overlay :is(.ppick, .pcolor).focus { box-shadow: 0 0 0 1px var(--ink); }
+.overlay :is(.ppick, .pcolor).focus { background: var(--soft); box-shadow: 0 0 0 2px #111; }
 .overlay :is(.pcolor b, .pmount b) { font-weight: 600; }
 .overlay .pcol .pkeys { font-weight: 500; color: var(--muted); }
 .overlay .dot { border-width: 1px; }
@@ -1764,9 +1773,12 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .overlay :is(.madeby, .foot), .overlay .madeby .legal { font-weight: 500; color: var(--muted); }
 .overlay .site-link { font-weight: 500; color: #fff; -webkit-text-stroke: 0; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
 .overlay .brief-story { font-weight: 400; color: #444; }
-.overlay .brief-time { font-weight: 700; letter-spacing: -0.01em; }
+.overlay .brief-time { font-weight: 700; letter-spacing: -0.01em; color: #111; }
 .overlay .winner { font-weight: 700; }
 .overlay .duel { font-weight: 500; color: var(--muted); }
+.overlay #resultTable tr.human td { background: var(--soft); }
+.overlay #bigList button:hover, .overlay #bigList button.focus { background: var(--soft); }
+.overlay #bigList .listask .yes { background: #111; border-color: #111; }
 
 /* ---------- professional style (the menu's style choice): mostly white and navy, a serious serif ---------- */
 
