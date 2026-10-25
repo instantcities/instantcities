@@ -1,19 +1,19 @@
 {
   "museums": [
-    { "id": "louvre", "city": "paris", "name": "The Louvre", "blurb": "Five of its key rooms, from the glass pyramid to the Mona Lisa’s." },
-    { "id": "national-gallery", "city": "london", "name": "The National Gallery", "blurb": "On Trafalgar Square: Van Eyck, Constable, Turner and Van Gogh." },
-    { "id": "british-museum", "city": "london", "name": "The British Museum", "blurb": "The Great Court, the Egyptian sculpture gallery and the Parthenon’s marbles." },
-    { "id": "uffizi", "city": "florence", "name": "The Uffizi", "blurb": "The Medici’s gallery, with Botticelli’s room and the Tribuna." },
-    { "id": "duomo", "city": "florence", "name": "Florence Cathedral", "blurb": "The Duomo under Brunelleschi’s dome." },
-    { "id": "piazza-della-signoria", "city": "florence", "name": "Piazza della Signoria", "blurb": "Out in the open, before the Palazzo Vecchio: the copy of Michelangelo’s David at its door.", "at": "piazza-della-signoria" },
-    { "id": "sistina", "city": "rome", "name": "The Sistine Chapel", "blurb": "Michelangelo’s ceiling and his Last Judgment, in the Vatican." },
-    { "id": "rijksmuseum", "city": "amsterdam", "name": "The Rijksmuseum", "blurb": "The Gallery of Honour and the Night Watch at its end." },
-    { "id": "prado", "city": "madrid", "name": "The Prado", "blurb": "The Spanish kings’ collection: Velázquez, Goya and Bosch." },
-    { "id": "kunsthistorisches", "city": "vienna", "name": "The Kunsthistorisches Museum", "blurb": "The Habsburgs’ collection, with the most Bruegels anywhere." },
-    { "id": "neues-museum", "city": "berlin", "name": "The Neues Museum", "blurb": "Egypt on the Museum Island, Nefertiti in her own domed room." },
-    { "id": "pergamon", "city": "berlin", "name": "The Pergamon Museum", "blurb": "A Greek altar and the gate of Babylon, rebuilt indoors." },
-    { "id": "san-marco", "city": "venice", "name": "St Mark’s Basilica", "blurb": "Five domes of gold mosaic and the golden altarpiece." },
-    { "id": "sint-baafs", "city": "ghent", "name": "St Bavo’s Cathedral", "blurb": "Ghent’s cathedral, home of the Van Eyck brothers’ altarpiece." }
+    { "id": "louvre", "city": "paris", "landmark": "louvre", "name": "The Louvre", "blurb": "Five of its key rooms, from the glass pyramid to the Mona Lisa’s." },
+    { "id": "national-gallery", "city": "london", "landmark": "national-gallery", "name": "The National Gallery", "blurb": "On Trafalgar Square: Van Eyck, Constable, Turner and Van Gogh." },
+    { "id": "british-museum", "city": "london", "landmark": "british-museum", "name": "The British Museum", "blurb": "The Great Court, the Egyptian sculpture gallery and the Parthenon’s marbles." },
+    { "id": "uffizi", "city": "florence", "landmark": "uffizi", "name": "The Uffizi", "blurb": "The Medici’s gallery, with Botticelli’s room and the Tribuna." },
+    { "id": "duomo", "city": "florence", "landmark": "duomo", "name": "Florence Cathedral", "blurb": "The Duomo under Brunelleschi’s dome." },
+    { "id": "piazza-della-signoria", "city": "florence", "landmark": "piazza-della-signoria", "name": "Piazza della Signoria", "blurb": "Out in the open, before the Palazzo Vecchio: the copy of Michelangelo’s David at its door.", "at": "piazza-della-signoria" },
+    { "id": "sistina", "city": "rome", "landmark": "sistina", "name": "The Sistine Chapel", "blurb": "Michelangelo’s ceiling and his Last Judgment, in the Vatican." },
+    { "id": "rijksmuseum", "city": "amsterdam", "landmark": "rijksmuseum", "name": "The Rijksmuseum", "blurb": "The Gallery of Honour and the Night Watch at its end." },
+    { "id": "prado", "city": "madrid", "landmark": "prado", "name": "The Prado", "blurb": "The Spanish kings’ collection: Velázquez, Goya and Bosch." },
+    { "id": "kunsthistorisches", "city": "vienna", "landmark": "kunsthistorisches", "name": "The Kunsthistorisches Museum", "blurb": "The Habsburgs’ collection, with the most Bruegels anywhere." },
+    { "id": "neues-museum", "city": "berlin", "landmark": "museumsinsel", "name": "The Neues Museum", "blurb": "Egypt on the Museum Island, Nefertiti in her own domed room." },
+    { "id": "pergamon", "city": "berlin", "landmark": "museumsinsel", "name": "The Pergamon Museum", "blurb": "A Greek altar and the gate of Babylon, rebuilt indoors." },
+    { "id": "san-marco", "city": "venice", "landmark": "basilica-di-san-marco", "name": "St Mark’s Basilica", "blurb": "Five domes of gold mosaic and the golden altarpiece." },
+    { "id": "sint-baafs", "city": "ghent", "landmark": "sint-baafs-kathedraal", "name": "St Bavo’s Cathedral", "blurb": "Ghent’s cathedral, home of the Van Eyck brothers’ altarpiece." }
   ],
   "pieces": [
     {

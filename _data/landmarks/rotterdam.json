@@ -1,0 +1,277 @@
+[
+  {
+    "id": "stadhuis",
+    "name": "City Hall",
+    "local": "Stadhuis",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 51.92248,
+    "lon": 4.47955,
+    "blurb": "Rotterdam’s town hall of 1920 on the Coolsingel, one of the few buildings in the centre that came through the bombing of 1940.",
+    "text": [
+      "Henri Evers built the town hall from 1914 to 1920, in a mix of old Dutch styles, with a tall tower and a courtyard garden. It stands on the Coolsingel, the broad avenue that was once a canal along the old town wall.",
+      "On 14 May 1940 the fire after the German bombing stopped just short of it. With the post office beside it and the Beurs a little further on, it is one of the few pieces of the old Coolsingel still standing, and the city still runs from it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/stadhuis.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Coolsingel_met_het_stadhuis_RM513763_foto4_2016-02-28_10.00.jpg"
+    }
+  },
+  {
+    "id": "erasmusbrug",
+    "name": "Erasmus Bridge",
+    "local": "Erasmusbrug",
+    "emoji": "🦢",
+    "icon": "bridge",
+    "kind": "place",
+    "lat": 51.90972,
+    "lon": 4.48562,
+    "blurb": "The white cable-stayed bridge over the Maas, nicknamed the Swan, which became the sign of the new Rotterdam.",
+    "text": [
+      "Ben van Berkel designed the Erasmusbrug, and Queen Beatrix opened it in 1996. Its bent white pylon, 139 metres tall, holds the deck on a fan of cables, and at its southern end a bascule bridge opens for the ships.",
+      "It joined the centre to the Kop van Zuid, the old docks on the south bank, which filled up with towers after it opened. The Rotterdammers call it de Zwaan, the Swan."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/erasmusbrug.jpg",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Erasmusbrug,_September_2019.jpg"
+    }
+  },
+  {
+    "id": "witte-huis",
+    "name": "Witte Huis",
+    "emoji": "🏢",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 51.91883,
+    "lon": 4.49173,
+    "blurb": "The white office building of 1898 by the Oude Haven, one of the first high-rise buildings in Europe.",
+    "text": [
+      "When it was finished in 1898, the Witte Huis was among the tallest office buildings in Europe: 43 metres and ten floors of white glazed brick, with its corner towers and its roof like a castle’s. Its builders took the idea from the new office blocks of America.",
+      "It survived the bombing of 1940, and it stands at the corner of the Oude Haven and the Wijnhaven, looking out over the old boats to the red Willemsbrug."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/witte-huis.jpg",
+      "author": "Thomas Dahlstrøm Nielsen",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Witte_Huis_(Rotterdam)_-_2025.jpg"
+    }
+  },
+  {
+    "id": "oude-haven",
+    "name": "Oude Haven",
+    "emoji": "⚓",
+    "icon": "boat",
+    "kind": "place",
+    "lat": 51.91908,
+    "lon": 4.4922,
+    "blurb": "Rotterdam’s oldest harbour, full of old sailing barges, with terraces along its quays.",
+    "text": [
+      "The Oude Haven was dug in the 14th century, when Rotterdam was still a small town on the dam in the Rotte. Today it is a museum harbour where old Dutch barges and tugs lie moored, with cafés on the quays.",
+      "Around it stand the Witte Huis, the cube houses and the new blocks of the 1980s, and in the evening it is one of the busiest corners of the city."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/oude-haven.jpg",
+      "author": "Thomas Dahlstrøm Nielsen",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oude_Haven_(Rotterdam)_-_2025.jpg"
+    }
+  },
+  {
+    "id": "kubuswoningen",
+    "name": "Cube houses",
+    "local": "Kubuswoningen",
+    "emoji": "🟨",
+    "icon": "gables",
+    "kind": "place",
+    "lat": 51.9203,
+    "lon": 4.4904,
+    "blurb": "Piet Blom’s yellow houses tilted on their corners, a forest of cubes on top of a footbridge over the Blaak.",
+    "text": [
+      "Piet Blom built the cube houses from 1982 to 1984: 38 houses, each a cube tipped 45 degrees on its corner and set on a hexagonal pillar, so that together they look like a forest of trees. They stand on a bridge over the busy Blaak, with a street for people on foot running through underneath.",
+      "People live in them, with sloping walls everywhere, and one of them, the Kijk-Kubus, is open to visitors. The tall tower with the pointed top beside them is Blom’s too, and the Rotterdammers call it het Potlood, the pencil."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/kubuswoningen.jpg",
+      "author": "Trougnouf (Benoit Brummer)",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cube_houses_(DSC_3076).jpg"
+    }
+  },
+  {
+    "id": "markthal",
+    "name": "Markthal",
+    "emoji": "🌈",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 51.92011,
+    "lon": 4.48687,
+    "blurb": "A horseshoe arch of flats over a covered market, with the biggest artwork in the Netherlands on its ceiling.",
+    "text": [
+      "MVRDV designed the Markthal, and Queen Máxima opened it in 2014: a market hall of food stalls and restaurants under an arch of 228 flats, with tall glass fronts at both ends.",
+      "The inside of the arch is covered in the Hoorn des Overvloeds, the horn of plenty by Arno Coenen and Iris Roskam: giant fruit, vegetables, fish, flowers and insects over some 11,000 square metres. On Tuesdays and Saturdays the open-air market fills the Binnenrotte outside."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/markthal.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Markthal_Rotterdam_2024-12-02.jpg"
+    }
+  },
+  {
+    "id": "laurenskerk",
+    "name": "Laurenskerk",
+    "local": "Grote of Sint-Laurenskerk",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 51.92157,
+    "lon": 4.48541,
+    "blurb": "The great late-Gothic church of the city, burnt out in 1940 and rebuilt, the last medieval building of the centre.",
+    "text": [
+      "The Grote of Sint-Laurenskerk was built from 1449 to 1525, the parish church of the medieval town, with a heavy square tower. In the bombing of 1940 it burned out, but its walls and tower stood, and it was rebuilt by 1968. It is the only medieval building left in the centre of Rotterdam.",
+      "Inside are big organs and the tombs of Dutch admirals. On the square in front stands Hendrick de Keyser’s statue of Erasmus, born in Rotterdam, reading a book; cast in 1622, it is the oldest bronze statue in the Netherlands."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/laurenskerk.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Sint_Laurenskerk_RM32783_foto4_2016-02-28_11.00.jpg"
+    }
+  },
+  {
+    "id": "schielandshuis",
+    "name": "Schielandshuis",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 51.91895,
+    "lon": 4.48184,
+    "blurb": "A 17th-century classical palace among the towers, which came through the bombing of 1940.",
+    "text": [
+      "The Schielandshuis was built from 1662 to 1665 for the Hoogheemraadschap van Schieland, the water board that kept the land around Rotterdam dry. It is one of the few 17th-century buildings left in the centre.",
+      "Its stone front and red shutters now stand at the foot of glass office towers, which makes it one of the most photographed contrasts of the city."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/schielandshuis.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rotterdam_Schielandshuis_seen_from_the_southeast.jpg"
+    }
+  },
+  {
+    "id": "maritiem-museum",
+    "name": "Maritiem Museum",
+    "emoji": "🚢",
+    "icon": "boat",
+    "kind": "place",
+    "lat": 51.91756,
+    "lon": 4.48268,
+    "blurb": "The maritime museum on the Leuvehaven, with old cranes, a lightship and working boats moored outside.",
+    "text": [
+      "The Maritiem Museum, founded in 1874, is the oldest maritime museum in the Netherlands. It tells the story of Rotterdam and its port, of ships, sailors and the sea.",
+      "Outside, the Leuvehaven is a harbour museum of its own, with old cargo ships, tugs and cranes that you can walk along."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/maritiem-museum.jpg",
+      "author": "Calips",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Maritiem_Museum_Rotterdam,_the_Netherlands_03.jpg"
+    }
+  },
+  {
+    "id": "de-verwoeste-stad",
+    "name": "De Verwoeste Stad",
+    "emoji": "🗿",
+    "icon": "statue",
+    "kind": "place",
+    "lat": 51.916,
+    "lon": 4.4839,
+    "blurb": "Ossip Zadkine’s bronze figure with a hole torn through its body, the memorial to the bombing of 1940.",
+    "text": [
+      "The sculptor Ossip Zadkine visited Rotterdam in 1946 and saw the empty space where the centre had been. His figure De Verwoeste Stad, the destroyed city, was unveiled in 1953: a figure throwing up its arms, with the heart torn out of its body.",
+      "It stands on Plein 1940, the square by the Leuvehaven named after the year of the bombing."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/de-verwoeste-stad.jpg",
+      "author": "Валерий Дед",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:De_Verwoeste_Stad_by_Zadkine_-_panoramio.jpg"
+    }
+  },
+  {
+    "id": "lijnbaan",
+    "name": "Lijnbaan",
+    "emoji": "🛍️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 51.9196,
+    "lon": 4.47628,
+    "blurb": "Europe’s first shopping street built for people on foot, opened in 1953 in the rebuilt centre.",
+    "text": [
+      "Van den Broek and Bakema designed the Lijnbaan as part of the plan to rebuild the bombed centre, and it opened in 1953: low shops along a street closed to cars, with canopies to walk under and flats behind.",
+      "It was the first street of its kind in Europe, and town planners came from all over the world to see it. It is still the main shopping street of Rotterdam."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/lijnbaan.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Lijnbaan,_Rotterdam_2024-12-02.jpg"
+    }
+  },
+  {
+    "id": "euromast",
+    "name": "Euromast",
+    "emoji": "🗼",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 51.90539,
+    "lon": 4.46664,
+    "blurb": "The tower in Het Park by the Maas, built for the Floriade of 1960 and raised to 185 metres in 1970.",
+    "text": [
+      "The Euromast was built for the Floriade flower show of 1960, a concrete tower of 101 metres with a restaurant in its crow’s nest. In 1970 a slim Space Tower was put on top, which brought it to 185 metres.",
+      "From the top you see the whole city, the river and the port out towards the sea. It stands west of the centre, beyond the edge of the game’s map."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/euromast.jpg",
+      "author": "Thomas Dahlstrøm Nielsen",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eastern_Rock_(ship,_2019)_in_front_of_Euromast_(Rotterdam).jpg"
+    }
+  },
+  {
+    "id": "haven",
+    "name": "The port",
+    "emoji": "🏗️",
+    "icon": "boat",
+    "kind": "thing",
+    "blurb": "The biggest port in Europe, which runs some 40 kilometres from the city to the North Sea.",
+    "text": [
+      "Rotterdam grew with its port, where the Rhine and the Maas reach the sea. From 1962 to 2004 it was the busiest port in the world, and it is still the biggest of Europe, with docks, oil terminals and container quays all the way out to the Maasvlakte on reclaimed land in the North Sea.",
+      "Boats take visitors on harbour tours from the foot of the Erasmusbrug, past the cranes and the ships of the Waalhaven and the Eemhaven."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rotterdam/haven.jpg",
+      "author": "AgainErick",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Waalhaven_basin_6_-_Port_of_Rotterdam_-_north_quay_-_with_port_cranes_-_seen_from_the_Central_(CG)_channel_towards_the_west.jpg"
+    }
+  }
+]

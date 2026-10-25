@@ -24,7 +24,16 @@ export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { MONUMENTS as STATUES } from './monuments.js';
 import { LOGGIA } from './loggia.js';
-export const MONUMENTS = [...STATUES, ...LOGGIA];
+import { DUOMO } from './duomo.js';
+import { CAMPANILE } from './campanile.js';
+import { BATTISTERO } from './battistero.js';
+import { PALAZZO_VECCHIO } from './palazzo-vecchio.js';
+import { UFFIZI } from './uffizi.js';
+import { PONTE_VECCHIO } from './ponte-vecchio.js';
+import { SANTA_CROCE } from './santa-croce.js';
+import { SANTA_MARIA_NOVELLA } from './santa-maria-novella.js';
+import { PORCELLINO } from './porcellino.js';
+export const MONUMENTS = [...STATUES, ...LOGGIA, ...DUOMO, ...CAMPANILE, ...BATTISTERO, ...PALAZZO_VECCHIO, ...UFFIZI, ...PONTE_VECCHIO, ...SANTA_CROCE, ...SANTA_MARIA_NOVELLA, ...PORCELLINO];
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];

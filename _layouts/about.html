@@ -63,8 +63,9 @@
         </dl>
         <h3>Known for</h3>
         <ul class="known">
+          {%- assign lms = site.data.landmarks[C.id] %}
           {%- for f in G.famous %}
-          <li>{{ f }}</li>
+          <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
       </div>

@@ -1,4 +1,4 @@
-{%- comment -%} The page of famous art (/art/): every piece in _data/art.json, building by building, each card leading to its page (_layouts/artwork.html). tools/art.mjs writes art/index.html. {%- endcomment -%}
+{%- comment -%} The page of famous art (/art/): every piece in _data/art.json, building by building, each card leading to its page (_layouts/artwork.html), each building to its landmark page (m.landmark) and its city's page. tools/art.mjs writes art/index.html. {%- endcomment -%}
 {%- assign A = site.data.art -%}
 <!doctype html>
 <html lang="en">
@@ -33,11 +33,12 @@
     {%- for m in A.museums %}
     {%- assign C = site.data.cities | where: 'id', m.city | first -%}
     {%- assign list = A.pieces | where: 'museum', m.id %}
+    {%- assign lm_url = nil %}{% if m.landmark %}{% assign lm_url = '/' | append: C.id | append: '/landmark/' | append: m.landmark | append: '/' %}{% endif %}
     <section id="{{ m.id }}" class="art-museum">
       <div class="art-museum-head">
         <div>
-          <h2>{{ m.name }} <small>{{ C.name }}</small></h2>
-          <p>{{ m.blurb }}</p>
+          <h2>{% if lm_url %}<a href="{{ lm_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %} <small><a href="/{{ C.id }}/">{{ C.name }}</a></small></h2>
+          <p>{{ m.blurb }}{% if lm_url %} <a href="{{ lm_url }}">More about {{ m.name | replace_first: 'The ', 'the ' }} ›</a>{% endif %}</p>
         </div>
         {%- if m.at %}
         <a class="ghost" href="/{{ C.id }}/play/?at={{ m.at }}">{% include icon.html name="pin" %} Go there</a>

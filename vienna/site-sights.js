@@ -11,4 +11,5 @@ export const SITE_SIGHTS = [
   {"id":"albertina","emoji":"🖼️","x":156,"z":244,"r":73,"page":"/vienna/landmark/albertina/","text":{"en":{"name":"Albertina","text":"A Habsburg palace with one of the world’s largest collections of prints and drawings, Dürer’s Hare among them."}}},
   {"id":"burgtheater","emoji":"🎭","x":-484,"z":-571,"r":114,"page":"/vienna/landmark/burgtheater/","text":{"en":{"name":"Burgtheater","text":"One of the most important German-language theatres, on the Ringstraße, opposite the town hall."}}},
   {"id":"ringstrasse","emoji":"🛤️","x":-410,"z":37,"r":55,"page":"/vienna/landmark/ringstrasse/","text":{"en":{"name":"Ringstraße","text":"The grand boulevard round the old town, built where the city walls stood."}}},
+  {"id":"kunsthistorisches","emoji":"🖼️","x":-465,"z":341,"r":172,"page":"/vienna/landmark/kunsthistorisches/","text":{"en":{"name":"Kunsthistorisches Museum","text":"The Habsburgs’ art museum on Maria-Theresien-Platz, with the largest collection of Bruegel’s paintings in the world."}}},
 ];

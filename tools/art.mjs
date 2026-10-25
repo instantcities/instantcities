@@ -19,8 +19,10 @@
 // ?pos=x,z&yaw=: with yaw, where you stand and the way you face (radians, 0: +z); without, where the
 // piece stands, and the game puts you on a street a little way off, looking at it. With no pos
 // either, the link is its museum's ?at=.
-// A museum: { id, city, name, blurb, at? (a sight's id in <city>/site-sights.js: not a building
-// you go into but a square, its link ?at=<sight>) }.
+// A museum: { id, city, name, blurb, landmark? (its page, an id in _data/landmarks/<city>.json: the
+// pieces link to it and it lists them), at? (a sight's id in <city>/site-sights.js: not a building
+// you go into but a square, its link ?at=<sight>) }. A museum without a landmark page links to its
+// place on the art page and to the city; give it one in landmarks/<city>.json, then its `landmark` here.
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -46,6 +48,7 @@ for (const a of pieces) {
   ids.add(a.id);
 }
 for (const m of museums) {
+  if (m.landmark && !JSON.parse(fs.readFileSync(path.join(ROOT, '_data', 'landmarks', m.city + '.json'), 'utf8')).some(l => l.id === m.landmark)) throw new Error(`${m.id}: no landmark "${m.landmark}" in _data/landmarks/${m.city}.json`);
   if (m.at && !fs.readFileSync(path.join(ROOT, m.city, 'site-sights.js'), 'utf8').includes(`"id":"${m.at}"`)) throw new Error(`${m.id}: no sight "${m.at}" in ${m.city}/site-sights.js`);
 }
 

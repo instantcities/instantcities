@@ -1,0 +1,274 @@
+[
+  {
+    "id": "markt",
+    "name": "Markt",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 52.0118,
+    "lon": 4.3595,
+    "blurb": "The long market square between the town hall and the Nieuwe Kerk, one of the largest in the Netherlands.",
+    "text": [
+      "The Markt stretches from the Stadhuis at its west end to the Nieuwe Kerk at its east end, lined on both sides with tall, narrow houses that are cafés, shops and pancake houses today. Every Thursday the market fills it, as it has for centuries.",
+      "In the middle stands the statue of Hugo de Groot, the lawyer born in Delft, and from the tower of the Nieuwe Kerk the whole square looks like a long carpet of brick."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/markt.jpg",
+      "author": "Jan Geerling",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0804_Delft,_Markt_with_Nieuwe_Kerk,_Delft_407.jpg"
+    }
+  },
+  {
+    "id": "nieuwe-kerk",
+    "name": "Nieuwe Kerk",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 52.0123,
+    "lon": 4.36079,
+    "blurb": "The great Gothic church on the Markt, with a tower of 108 metres, where the princes of Orange lie buried.",
+    "text": [
+      "The Nieuwe Kerk was built from 1396 to 1496, on the spot where a Delft man is said to have seen the Virgin Mary in a vision. Its stone tower is about 108 metres tall, the second highest church tower in the Netherlands after the Dom in Utrecht, and you can climb its 376 steps.",
+      "William of Orange, the leader of the Dutch Revolt, was buried here after he was murdered in 1584, and since then nearly every member of the House of Orange has been laid in the family vault below. Hendrick de Keyser made his marble tomb from 1614."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/nieuwe-kerk.jpg",
+      "author": "Jsamwrites",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delft_-_Nieuwe_Kerk_-_20160815131926.jpg"
+    }
+  },
+  {
+    "id": "stadhuis",
+    "name": "Stadhuis",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 52.01133,
+    "lon": 4.35836,
+    "blurb": "Delft’s Renaissance town hall at the west end of the Markt, built round a medieval stone tower.",
+    "text": [
+      "After a fire burnt the old town hall in 1618, Hendrick de Keyser built the new one in the Dutch Renaissance style, with red shutters and stone ornament against the brick.",
+      "He kept the 13th-century tower of the old one, Het Steen, which was once the town’s prison, so the medieval tower now rises from the middle of the 17th-century building. The Delft council still meets and marries couples here."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/stadhuis.jpg",
+      "author": "Natuur12",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Stadhuis_van_Delft_(2013).jpg"
+    }
+  },
+  {
+    "id": "oude-kerk",
+    "name": "Oude Kerk",
+    "local": "Sint-Hippolytuskerk",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 52.01261,
+    "lon": 4.35581,
+    "blurb": "The oldest church in Delft, on the Oude Delft, with a tower that leans about two metres over the canal.",
+    "text": [
+      "The Oude Kerk, the church of Saint Hippolytus, goes back to the 13th century. Its brick tower was built on the bank of a filled-in canal, and the soft ground made it lean almost from the start: its top now hangs about two metres out of line, and the people of Delft call it Scheve Jan, crooked John.",
+      "Johannes Vermeer lies buried here, and so do the admirals Piet Hein and Maarten Tromp, whose marble tombs stand in the choir."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/oude-kerk.jpg",
+      "author": "Sergey Ashmarin",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oude_Kerk_-_Delft,_Holland_-_panoramio.jpg"
+    }
+  },
+  {
+    "id": "prinsenhof",
+    "name": "Prinsenhof",
+    "local": "Museum Prinsenhof Delft",
+    "emoji": "🔫",
+    "icon": "castle",
+    "kind": "place",
+    "lat": 52.01227,
+    "lon": 4.35471,
+    "blurb": "The old convent where William of Orange lived, and where he was shot in 1584. The bullet holes are still in the wall.",
+    "text": [
+      "The Prinsenhof was the convent of Saint Agatha until the Reformation. William of Orange, the prince who led the Dutch Revolt against Spain, made it his home in Delft.",
+      "On 10 July 1584 Balthasar Gérard, a Catholic who wanted the reward that King Philip II of Spain had put on the prince’s head, shot him on the stairs. The holes the bullets left are still in the wall. Today the Prinsenhof is a museum of the history of Delft and its Golden Age."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/prinsenhof.jpg",
+      "author": "Jan Geerling",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0804_Delft,_Prinsenhof_Delft_392.jpg"
+    }
+  },
+  {
+    "id": "oude-delft",
+    "name": "Oude Delft",
+    "emoji": "🛶",
+    "icon": "wave",
+    "kind": "place",
+    "lat": 52.0109,
+    "lon": 4.3562,
+    "blurb": "The oldest canal of the town, which gave Delft its name, lined with merchants’ houses and the Gemeenlandshuis.",
+    "text": [
+      "In the Middle Ages a canal was dug here, a delf, to drain the land and carry boats, and the town that grew up along it took its name. The Oude Delft still runs straight through the old town, with trees on both sides and bridges every hundred metres.",
+      "Along it stand some of the finest houses of Delft: the Gemeenlandshuis of 1505, with its painted coats of arms, and the merchants’ houses of the Golden Age, with the leaning tower of the Oude Kerk at the end of the view."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/oude-delft.jpg",
+      "author": "Michiel1972",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delft_-_Oude_Delft_89-91.jpg"
+    }
+  },
+  {
+    "id": "koornmarkt",
+    "name": "Koornmarkt",
+    "emoji": "🌾",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 52.0099,
+    "lon": 4.3583,
+    "blurb": "The canal where the grain was traded, now lined with cafés, houseboats and terraces by the water.",
+    "text": [
+      "The Koornmarkt runs south from the Wijnhaven, along a canal where barges once unloaded the grain that was sold here. Its tall houses with step and neck gables still look out over the water.",
+      "In summer the cafés put their terraces on the quay and on pontoons in the canal, and the boats of the canal tours pass under its bridges."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/koornmarkt.jpg",
+      "author": "Michiel1972",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delft_-_Koornmarkt.jpg"
+    }
+  },
+  {
+    "id": "oostpoort",
+    "name": "Oostpoort",
+    "local": "Oosterpoort",
+    "emoji": "🏰",
+    "icon": "castle",
+    "kind": "place",
+    "lat": 52.00777,
+    "lon": 4.36527,
+    "blurb": "The last of Delft’s town gates, with two slim towers mirrored in the water.",
+    "text": [
+      "Delft was once ringed by walls with gates on every road and canal. The Oostpoort is the only gate left: its gate dates from about 1400, and the two slender octagonal towers with their pointed roofs were added in the early 16th century.",
+      "It stands on the water at the south-east corner of the old town, with a white drawbridge beside it, and people live in it to this day."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/oostpoort.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delft,_de_Oostpoort_RM11968_foto11_2016-03-13_10.32.jpg"
+    }
+  },
+  {
+    "id": "waag",
+    "name": "Waag",
+    "emoji": "⚖️",
+    "icon": "scale",
+    "kind": "place",
+    "lat": 52.01125,
+    "lon": 4.35792,
+    "blurb": "The weigh house by the Markt, where goods were weighed for the town’s taxes.",
+    "text": [
+      "Every Dutch market town had a weigh house, where traders brought their goods to be weighed and taxed. Delft’s stands at the west end of the Markt, behind the town hall, with its back to the canal of the Wijnhaven.",
+      "Next to it stands the Vleeshal, the old meat hall, with carved heads of cows and sheep over its door."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/waag.jpg",
+      "author": "Michiel1972",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Waag_Delft.jpg"
+    }
+  },
+  {
+    "id": "vermeer",
+    "name": "Johannes Vermeer",
+    "emoji": "🎨",
+    "icon": "palette",
+    "kind": "thing",
+    "lat": 52.01191,
+    "lon": 4.35903,
+    "blurb": "The painter of the Girl with a Pearl Earring and the View of Delft, who was born, worked and buried in Delft.",
+    "text": [
+      "Johannes Vermeer was born in Delft in 1632 and spent his whole life here. He painted slowly, quiet rooms full of light, a woman reading a letter, a maid pouring milk, and only some 37 of his paintings survive. He died poor in 1675 and lies buried in the Oude Kerk.",
+      "His View of Delft, painted about 1660 from across the water by the Schiedam and Rotterdam gates, now hangs in the Mauritshuis in The Hague. The Vermeer Centrum on the Voldersgracht stands on the spot of the Guild of Saint Luke, the painters’ guild that he led."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/vermeer.jpg",
+      "author": "Johannes Vermeer",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Vermeer-view-of-delft.jpg"
+    }
+  },
+  {
+    "id": "delfts-blauw",
+    "name": "Delfts blauw",
+    "emoji": "🏺",
+    "icon": "palette",
+    "kind": "tradition",
+    "blurb": "The blue and white pottery that made Delft famous, first made to stand in for Chinese porcelain.",
+    "text": [
+      "In the 17th century the Dutch East India Company brought Chinese porcelain to Europe, and Delft’s potters set out to copy it in earthenware with a white tin glaze and cobalt blue painting. When the supply from China stopped in the middle of the century, Delft took over the market, and dozens of potteries worked in old breweries across the town.",
+      "Of all of them only De Porceleyne Fles, founded in 1653, still works today, as Royal Delft. Its painters still paint tiles, plates and vases by hand."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/delfts-blauw.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Painter_working_in_Royal_Delft_2024-12-02.jpg"
+    }
+  },
+  {
+    "id": "donderslag",
+    "name": "Delftse Donderslag",
+    "emoji": "💥",
+    "icon": "flame",
+    "kind": "thing",
+    "lat": 52.0164,
+    "lon": 4.3585,
+    "blurb": "The gunpowder explosion of 12 October 1654, which flattened a quarter of the town.",
+    "text": [
+      "On the morning of 12 October 1654 the town’s gunpowder store, with tonnes of powder in it, blew up. The blast was heard far beyond the town; it destroyed the whole north-east of Delft and killed more than a hundred people, among them the painter Carel Fabritius, Rembrandt’s pupil.",
+      "The quarter was never rebuilt as it was: where the store stood lies the Paardenmarkt, an open square, to this day."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/donderslag.jpg",
+      "author": "Egbert van der Poel",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Egbert_van_der_Poel_-_A_view_of_Delft_with_the_explosion_of_1654.jpg"
+    }
+  },
+  {
+    "id": "hugo-de-groot",
+    "name": "Hugo de Groot",
+    "emoji": "⚖️",
+    "icon": "statue",
+    "kind": "thing",
+    "lat": 52.01175,
+    "lon": 4.35955,
+    "blurb": "The lawyer born in Delft who wrote the first great book on the law between nations, and escaped from prison in a book chest.",
+    "text": [
+      "Hugo de Groot, Grotius, was born in Delft in 1583. A prodigy who went to university at eleven, he wrote On the Law of War and Peace in 1625, one of the founding books of international law.",
+      "Caught up in the religious quarrels of the Republic, he was locked up in Loevestein Castle in 1619 and escaped two years later in a chest that was meant for his books. He died in 1645 and lies buried in the Nieuwe Kerk; his statue has stood on the Markt since 1886."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/delft/hugo-de-groot.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delft_standbeeld_Hugo_de_Groot_op_de_Markt_foto3_2016-03-13_10.08.jpg"
+    }
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": "domtoren",
+    "name": "Dom Tower",
+    "local": "Domtoren",
+    "emoji": "🗼",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 52.09061,
+    "lon": 5.12132,
+    "blurb": "The tallest church tower in the Netherlands, 112 metres of Gothic brick and stone, standing on its own since a storm blew down the nave.",
+    "text": [
+      "The Domtoren was built from 1321 to 1382 as the bell tower of the cathedral of Saint Martin, and at 112 metres it is still the tallest church tower in the country. You can see it from far out in the flat land round Utrecht.",
+      "Since 1674 it stands apart from its church: a storm blew down the nave in between, and the gap was never rebuilt. A guide takes you up its 465 steps, past the bells and the carillon, to a view over the whole province."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/domtoren.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Utrecht,_de_Domtoren_(RM36075)_vanaf_de_Oudegracht_230_ongeveer_foto5_2015-11-01_08.56.jpg"
+    }
+  },
+  {
+    "id": "domkerk",
+    "name": "Dom Church",
+    "local": "Domkerk",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 52.09083,
+    "lon": 5.12247,
+    "blurb": "What is left of Utrecht’s Gothic cathedral: the choir and transept, cut off from their tower since the nave fell in 1674.",
+    "text": [
+      "The cathedral of Saint Martin was begun in 1254 in the Gothic style of the French cathedrals, on the spot where the first bishops of Utrecht had built their churches since the 7th century. It took nearly three centuries to build and was never quite finished.",
+      "On 1 August 1674 a tornado blew down its nave, which had no flying buttresses to hold it. The rubble was not cleared until 1826. The Domplein now fills the gap, with the outline of the old nave set out in its paving, and under it lie the remains of the Roman fort that Utrecht grew out of. The church has been Protestant since 1580."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/domkerk.jpg",
+      "author": "Jan dijkstra",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Domplein_met_de_Domkerk_in_de_Domstad_Utrecht.jpg"
+    }
+  },
+  {
+    "id": "pandhof",
+    "name": "Pandhof",
+    "emoji": "🌿",
+    "icon": "flower",
+    "kind": "place",
+    "lat": 52.09058,
+    "lon": 5.12255,
+    "blurb": "The quiet cloister garden beside the Dom Church, planted with the herbs of a medieval monastery garden.",
+    "text": [
+      "The Pandhof is the cloister of the cathedral, built in the 15th century round a square garden.",
+      "The garden is laid out with the medicinal herbs and plants of the Middle Ages, and in summer concerts are held in it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/pandhof.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Pandhof_9079.jpg"
+    }
+  },
+  {
+    "id": "oudegracht",
+    "name": "Oudegracht",
+    "emoji": "🛶",
+    "icon": "boat",
+    "kind": "place",
+    "lat": 52.0905,
+    "lon": 5.1195,
+    "blurb": "Utrecht’s medieval canal, with its quays down at the water and the old cellars under the street now full of cafés.",
+    "text": [
+      "The Oudegracht runs right through the old town, from south to north. It was dug in the 12th and 13th centuries, and it has a feature no other Dutch canal has: the quays lie low, at the water, and the merchants dug cellars from them under the street to store their goods.",
+      "Those wharf cellars are now restaurants, cafés and workshops with terraces on the quays, and the street above runs over their roofs. You can see the canal best from one of its bridges, or from a boat."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/oudegracht.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Oudegracht_aan_de_Werf_next_to_Jansbrug_seen_from_the_west.jpg"
+    }
+  },
+  {
+    "id": "janskerkhof",
+    "name": "Janskerkhof",
+    "emoji": "💐",
+    "icon": "flower",
+    "kind": "place",
+    "lat": 52.0933,
+    "lon": 5.122,
+    "blurb": "The leafy square round the Janskerk, with a flower market every Saturday.",
+    "text": [
+      "The Janskerk is one of the churches that Bishop Bernold set round the cathedral in the 11th century, so that the four of them made a cross on the map, with the Dom at its heart. The square round it, the old churchyard, is lined with canons’ houses and university buildings.",
+      "On Saturdays the whole square becomes a flower and plant market, as it has been for generations."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/janskerkhof.jpg",
+      "author": "Fons Heijnsbroek",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:2024_-_free_download_photo,_view_over_the_colorful_flower_street_market_at_the_church_square_Janskerkhof_in_winter_time_with_bare_trees_-_Utrecht_city_photo_in_high_resolution._Street_photography_by_Fons_Heijnsbroek,_The_Netherlands.tif"
+    }
+  },
+  {
+    "id": "pieterskerk",
+    "name": "Pieterskerk",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 52.09133,
+    "lon": 5.12456,
+    "blurb": "One of the oldest churches in the Netherlands, a Romanesque church of 1048 with a crypt under its choir.",
+    "text": [
+      "Bishop Bernold had the Pieterskerk built as the eastern arm of his cross of churches, and it was consecrated in 1048. It is one of the few Romanesque churches left in the Netherlands, with red sandstone columns inside and a crypt under the raised choir.",
+      "Since the 17th century the Walloon congregation, French-speaking Protestants, has used it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/pieterskerk.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Pieterskerk9118.jpg"
+    }
+  },
+  {
+    "id": "speelklok",
+    "name": "Museum Speelklok",
+    "emoji": "🎶",
+    "icon": "music",
+    "kind": "place",
+    "lat": 52.09055,
+    "lon": 5.11925,
+    "blurb": "A museum of self-playing music, from music boxes to great dance organs, inside the medieval Buurkerk.",
+    "text": [
+      "The Buurkerk was the parish church of the people of the town, the oldest in Utrecht. Today it holds Museum Speelklok, full of instruments that play by themselves: musical clocks, music boxes, barrel organs and the huge, painted dance organs of Dutch fairs.",
+      "The guides set them playing as you walk round, and the street organs of Utrecht come from the same tradition."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/speelklok.jpg",
+      "author": "Johan Bakker",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:De_Buurkerk_te_Utrecht2.jpg"
+    }
+  },
+  {
+    "id": "academiegebouw",
+    "name": "Academiegebouw",
+    "emoji": "🎓",
+    "icon": "book",
+    "kind": "place",
+    "lat": 52.09025,
+    "lon": 5.1224,
+    "blurb": "The main building of Utrecht University on the Domplein, where the Union of Utrecht was signed in 1579.",
+    "text": [
+      "The university’s main hall stands on the Domplein, with its Neo-Renaissance front of 1892. Behind it is the old chapter house of the cathedral, now the Aula, where the northern provinces of the Low Countries signed the Union of Utrecht in 1579, the pact against Spain that became the start of the Dutch Republic.",
+      "The university was founded in 1636 and is now one of the largest in the country, and PhD graduates still get their degrees in the Aula."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/academiegebouw.jpg",
+      "author": "Choinowski",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Academiegebouw_Utrecht_2015.jpg"
+    }
+  },
+  {
+    "id": "paushuize",
+    "name": "Paushuize",
+    "emoji": "👑",
+    "icon": "crown",
+    "kind": "place",
+    "lat": 52.09043,
+    "lon": 5.12429,
+    "blurb": "The house on the Kromme Nieuwegracht built for Adrian of Utrecht, who became the only Dutch pope.",
+    "text": [
+      "Adriaan Florensz, born in Utrecht in 1459, taught at Leuven and tutored the young emperor Charles V. He had this house built for when he would come home, but in 1522 he was elected pope as Adrian VI, the only Dutchman ever to be pope.",
+      "He died in Rome the next year and never lived in it. The house now belongs to the province, which uses it for receptions."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/paushuize.jpg",
+      "author": "China Crisis",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paushuize.Utrecht.jpg"
+    }
+  },
+  {
+    "id": "catharijneconvent",
+    "name": "Museum Catharijneconvent",
+    "emoji": "🖼️",
+    "icon": "frame",
+    "kind": "place",
+    "lat": 52.08773,
+    "lon": 5.12501,
+    "blurb": "The national museum of Christian art and history, in a medieval convent on the Oudegracht.",
+    "text": [
+      "The convent of Saint Catherine belonged to the Knights of Saint John in the Middle Ages. It now houses the national museum of the history of Christianity in the Netherlands, with medieval manuscripts, altarpieces, church silver and paintings.",
+      "The church beside it, the Catharijnekerk, became the Catholic cathedral of Utrecht in the 19th century."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/catharijneconvent.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Museum_Catharijneconvent_018_2562.jpg"
+    }
+  },
+  {
+    "id": "centraal-museum",
+    "name": "Centraal Museum",
+    "emoji": "🪑",
+    "icon": "frame",
+    "kind": "place",
+    "lat": 52.08364,
+    "lon": 5.12604,
+    "blurb": "The oldest city museum in the Netherlands, with the Utrecht painters of the Golden Age and the furniture of Gerrit Rietveld.",
+    "text": [
+      "The Centraal Museum opened in 1838 and is the oldest municipal museum in the country. It has the work of the Utrecht Caravaggisti, the painters who brought Caravaggio’s light and dark back from Rome in the 1620s, and the largest collection of Gerrit Rietveld’s chairs and designs.",
+      "Rietveld’s Red Blue Chair is here, and his Schröder House, a World Heritage Site, lies on the edge of town."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/utrecht/centraal-museum.jpg",
+      "author": "Centraal Museum / fotograaf: Vincent Zedelius",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Exterieur_Centraal_Museum.jpg"
+    }
+  },
+  {
+    "id": "nijntje",
+    "name": "Miffy",
+    "emoji": "🐰",
+    "icon": "sparkle",
+    "kind": "thing",
+    "blurb": "Dick Bruna’s little white rabbit, born in Utrecht in 1955, who even has her own traffic lights in the town.",
+    "text": [
+      "Dick Bruna lived and drew in Utrecht all his life, and in 1955 he made his first book about Nijntje, the little rabbit known in English as Miffy. She has since appeared in more than 120 books in over 50 languages.",
+      "Utrecht has a Miffy Museum opposite the Centraal Museum, a statue of her on the Nijntjepleintje, and a pedestrian crossing on Lange Viestraat where the lights show Miffy standing and walking."
+    ]
+  }
+]
