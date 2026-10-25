@@ -55,6 +55,34 @@ comes into sight. `core/js/arcade.js` has the parts that come back in landmark a
   of seats along it, `fin`: a wall across it, `column`: a column in one of the orders.
 - `arcade`: bays of arches in storeys, with their columns, entablatures, attic windows and
   brackets, and `stand` for a ruin (storeys gone, or broken off through their arches).
+- `square`, `polygon`: the sides of a tower (square, or an octagon) as paths, each with its outside
+  to its right, `archRing` and `pointedRing`: a round or a Gothic arch's opening, to cut through a
+  wall or to lay on it as a panel.
+- `onMap` and `rect`: a ring in the model's own metres placed on the map at the monument's x, z and
+  turn, for its `area`, `foot` and `paths`.
 
-Next in line for it: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San
-Marco, the Arena of Verona, the Roman theatre of Lecce.
+Built on it so far, each in its city's folder and listed in its `city.js`:
+
+| City | Landmark | File | Riders |
+| --- | --- | --- | --- |
+| Rome | Colosseo | `rome/colosseo.js` | bump into its outer wall |
+| Rome | Arco di Costantino | `rome/arco.js` | go through its three arches |
+| Florence | Loggia dei Lanzi | `florence/loggia.js` | bump into it (it stands on its steps) |
+| Berlin | Brandenburger Tor | `berlin/tor.js` | go through its five passages |
+| Venice | Campanile di San Marco and the Loggetta | `venice/campanile.js` | bump into both |
+| Copenhagen | Rundetårn | `copenhagen/rundetaarn.js` | bump into it |
+| Prague | Prašná brána | `prague/prasna-brana.js` | ride through it along Celetná |
+| London | Elizabeth Tower (Big Ben) | `london/elizabeth-tower.js` | bump into it |
+| Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
+| Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
+| Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+
+They were drawn from their measurements and from memory of photos, without Mapillary or Commons
+photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
+The Belfort stands without the Halle behind it, which the map does not have as a building; the
+Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+
+Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
+the Arena of Verona, the Roman theatre of Lecce, the Pont Saint-Bénezet in Avignon (its arches
+broken off in the Rhône, but the map has a footway along it at the water's level: the deck would
+have to be lifted with it, a map fix of its own).
