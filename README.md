@@ -30,7 +30,7 @@ page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city
 The home page plays **website preview tours**: separate 18-second silent MP4s, rotating Ghent →
 Rome → Paris → London → Barcelona → Ghent. It loads one video at a time, with no game engine,
 city map or WebGL on the home page. Playback pauses offscreen or in a hidden tab; reduced motion
-and data saving keep the poster. The caption and “Watch the tour” link follow the current city.
+and data saving keep the poster. The caption and “Watch a tour” link follow the current city.
 
 Each city's `<city>/website-preview.json` is its preview edit: three six-second shots with a
 name, an `at` point on the full tour's path, `before` (metres before that point), `seconds`, and
