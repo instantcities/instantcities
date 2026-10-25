@@ -347,7 +347,12 @@
   <div id="pause" class="overlay hidden">
     <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
     <div class="card small" id="pauseCard">
+      <div class="pause-nav">
       <button class="chip pause-home" id="pauseTitleBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/></svg><span data-i18n="backToMenu"></span></button>
+      <div class="hidden" id="pauseSiteRow">
+        <a class="chip site-chip" id="pauseSiteBtn" href="../"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg><span data-i18n="pause.site"></span></a>
+      </div>
+      </div>
       <button class="chip pause-close" id="pauseCloseBtn" aria-label="✕">✕</button>
       <div class="btnrow pausetools">
         <button class="chip" id="pauseMapBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="pause.map"></span></button>
@@ -363,9 +368,6 @@
         <button class="chip" id="pauseMountPrev" aria-label="‹">‹</button>
         <span class="chip on" id="pauseMountName"></span>
         <button class="chip" id="pauseMountNext" aria-label="›">›</button>
-      </div>
-      <div class="btnrow hidden" id="pauseSiteRow">
-        <a class="chip site-chip" id="pauseSiteBtn" href="../"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg><span data-i18n="pause.site"></span></a>
       </div>
       <div class="btnrow">
         <button class="start still alt" id="restartBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v5h5"/></svg><span data-i18n="restart"></span></button>
