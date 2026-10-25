@@ -34,7 +34,7 @@
   </script>
 {%- endunless %}
 </head>
-<body>
+<body{% unless C.soon %} class="over-live"{% endunless %}>
   <a class="skip" href="#main">Skip to content</a>
   {% include topnav.html %}
 

@@ -152,6 +152,20 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .live-caption::before { content: ''; display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 50%; background: #e5484d; vertical-align: 1px; }
 .live-caption:hover { color: #fff; }
 
+/* Over a live hero (body.over-live) the bar lies on the tour: see-through and white at the top,
+   filling in white with dark words as the page scrolls (--solid, set by _includes/topnav.js) */
+.over-live .top {
+  position: fixed; left: 0; right: 0;
+  background: rgba(255, 255, 255, calc(var(--solid, 0) * .94)); border-bottom-color: rgba(226, 226, 224, var(--solid, 0));
+  backdrop-filter: blur(calc(var(--solid, 0) * 8px));
+}
+.over-live .top.menu-open { background: rgba(255, 255, 255, .94); }
+.over-live .top:not(.solid):not(.menu-open) :is(.brand, .nav a, .nav a:hover) { color: #fff; text-shadow: 0 1px 8px rgba(0, 0, 0, .3); }
+.over-live .top:not(.solid):not(.menu-open) .nav a[aria-current] { border-bottom-color: #fff; }
+.over-live .top:not(.solid):not(.menu-open) .burger { background: transparent; color: #fff; border-color: rgba(255, 255, 255, .5); }
+.over-live .live-hero { padding-top: 120px !important; }
+.brand-city { font-weight: 500; }
+
 /* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
 .map { border-top: 1px solid var(--line); }
 .europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }

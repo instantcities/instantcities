@@ -1,9 +1,9 @@
 # The words of the home page (_layouts/home.html) and the cities page (_layouts/cities.html); each
 # city on them comes from _data/cities.yml.
-title: "Instant Cities: play through real cities in 3D, by bike, on foot or on horseback"
-description: "Free 3D browser games set in real cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through Ghent or Lecce, with more cities on the way: explore, race or play quests, alone or two players on one keyboard."
-tagline: "Real cities in 3D, to explore or race by bike, on foot or on horseback."
-lead: "Every street and building from OpenStreetMap, at its real height. Free in your browser, nothing to install."
+title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
+description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Ghent, Rome, Paris, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
+tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
+lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
 map_title: "On the map"
 live_city: ghent # whose tour plays behind the home page's hero
@@ -11,14 +11,14 @@ live_poster: /assets/img/boat.jpg
 live_caption: "Live: the tour of Ghent"
 live_watch: "Watch the tour"
 soon_title: "Coming soon"
-cities_page_title: "Cities: every city in Instant Cities, to play in 3D or still to come"
-cities_page_description: "Every city in Instant Cities: the ones to play in 3D in your browser today, by bike, on foot or on horseback, and the ones we are building next."
-cities_page_tagline: "Every city we have rebuilt in 3D, and the ones we are building next."
+cities_page_title: "Cities: the historic centres of Europe to play in 3D"
+cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
+cities_page_tagline: "The historic centres of Europe we have rebuilt in 3D, from Bruges to Rome."
 features_title: "In every city"
 features:
-  - { icon: city, title: "The real city", text: "Rebuilt from OpenStreetMap, every building at its measured height, with the landmarks drawn to measure." }
+  - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals." }
   - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong." }
-  - { icon: compass, title: "Quests and races", text: "Short missions against the clock, races along real streets, or just ride about and look." }
+  - { icon: compass, title: "Races, quests and tours", text: "Races along real streets, short missions against the clock, a tour that flies you past the sights, or just ride about and look." }
 play_note: "Free · no account · works on PC, tablet and phone"
 beta: "Still in development: expect some rough edges."
 vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'

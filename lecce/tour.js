@@ -24,7 +24,7 @@ export const TOUR = {
     { sight: 'santa-croce', at: [428,-106], look: [482, 6, -118] },
     { sight: 'sant-oronzo', at: [439,62], look: [409, 6, 141] },
   ],
-  // it sets off at night (core/js/main.js), it is day as soon as it is on its way, and evening at the end
+  // a clear day from the start, and night only near the end
   skies: [
     { at: [290, 116], sky: 'day:clear' },
     { at: [428, -106], sky: 'night:clear' },

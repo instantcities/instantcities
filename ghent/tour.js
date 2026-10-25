@@ -127,14 +127,10 @@ export const TOUR = {
   // wheel caught in one and comes off, as you see them do there all the time (pace: how fast, the
   // camera's 1; it comes off as the camera gets to at)
   fall: { line: [[-123.3, -63.2], [-132.2, -65.3], [-145.7, -68.4], [-155, -72.2], [-157.6, -73.9]], at: [-196, -70.5], pace: 0.35 },
-  // the sky as it goes, each from [x, z] on: it sets off on a snowy night, which turns to day just as
-  // it goes onto the bridge (its card up by then); night from the Belfortstraat to the Dulle Griet,
-  // day again from there; snow by day after the neuzekes; and a snowy night again halfway along the Graslei on the boat
+  // the sky as it goes, each from [x, z] on: a clear day from the start, snow by day after the
+  // neuzekes, and night only late, halfway along the Graslei on the boat
   skies: [
-    { at: [-425, -54], sky: 'night:snow' },
-    { at: [-305, -67], sky: 'day:clear' },
-    { at: [215, -224], sky: 'night:clear' },
-    { at: [104, -494], sky: 'day:clear' },
+    { at: [-425, -54], sky: 'day:clear' },
     { at: [-127, -357], sky: 'day:snow' },
     { at: [-290, -173], sky: 'night:snow' },
   ],
