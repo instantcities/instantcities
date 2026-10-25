@@ -1,4 +1,4 @@
-{%- comment -%} The home page: what Instant Cities is over Ghent's tour playing live, a card per playable city (_data/cities.yml), the map of Europe and a link to the cities page. Its words are in _data/home.yml. {%- endcomment -%}
+{%- comment -%} The home page: what Instant Cities is over a city's tour playing live, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page. Its words are in _data/home.yml. {%- endcomment -%}
 {%- assign H = site.data.home -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
@@ -32,19 +32,19 @@
       <p>{{ H.vibe }}</p>
     </section>
 
-    <section id="cities" class="cities">
+    <section id="cities" class="cities city-map">
       <h2>{{ H.cities_title }}</h2>
-      <div class="grid">
-        {%- for c in playable %}
-        {% include city-card.html city=c %}
-        {%- endfor %}
+      <div class="city-map-grid">
+        <ul class="city-list">
+          {%- for c in playable %}
+          <li><a href="/{{ c.id }}/" data-city="{{ c.id }}"><span class="city-name"><b>{{ c.name }}</b> <small>{{ c.country }}</small></span><span class="city-line">{{ c.card }}</span><span class="go" aria-hidden="true">{% include icon.html name="chevron" %}</span></a></li>
+          {%- endfor %}
+        </ul>
+        <div class="city-map-side">
+          {% include europe.html %}
+        </div>
       </div>
       <p class="more"><a href="/cities/">All cities{% if soon.size > 0 %}, and the {{ soon.size }} still to come{% endif %} →</a></p>
-    </section>
-
-    <section id="map" class="map">
-      <h2>{{ H.map_title }}</h2>
-      {% include europe.html %}
     </section>
 
     <section id="features" class="features">
