@@ -14,8 +14,8 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs london`
 //   inside.js        the buildings you can go into: the British Museum, its rooms in inside/ (hand-written)
 //   elizabeth-tower.js the Elizabeth Tower (Big Ben), modelled by hand on core/js/arcade.js, in place of the map's pieces of it
-// No sights or fronts yet, and one monument, the Elizabeth Tower: empty lists for the rest, and for
-// what only Ghent has.
+//   london-eye.js    the London Eye, modelled by hand in place of the map's 300 pieces of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -24,9 +24,10 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { ELIZABETH_TOWER } from './elizabeth-tower.js';
+import { LONDON_EYE } from './london-eye.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...ELIZABETH_TOWER];
+export const MONUMENTS = [...ELIZABETH_TOWER, ...LONDON_EYE];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
