@@ -43,6 +43,7 @@
       <div class="subnav-links">
         <a href="#glance">At a glance</a>
         <a href="#city">The city</a>
+        {%- if site.data.landmarks[C.id] %}<a href="#landmarks">Landmarks</a>{% endif %}
         <a href="#centre">The centre on a map</a>
         <a href="#history">History</a>
         <a href="#today">{{ C.name }} today</a>
@@ -82,6 +83,28 @@
         {%- endfor %}
       </div>
     </section>
+
+    {%- comment -%} The city's main landmarks: three of them with their photo, large, then six more as cards, each a link to its page, and a link to all of them. {%- endcomment -%}
+    {%- assign landmarks = site.data.landmarks[C.id] %}
+    {%- if landmarks %}
+    {%- assign pictured = landmarks | where_exp: 'l', 'l.photo' %}
+    {%- capture tiled %}{% for l in pictured limit: 3 %}|{{ l.id }}|{% endfor %}{% endcapture %}
+    <section id="landmarks" class="landmarks about-landmarks">
+      <h2>Places and landmarks</h2>
+      <div class="photo-tiles">
+        {%- for l in pictured limit: 3 %}
+        <a class="photo-tile" href="/{{ C.id }}/landmark/{{ l.id }}/" style="--photo: url('{{ l.photo.src }}')"><span><b>{{ l.name }}</b><small>{{ l.blurb }}</small></span></a>
+        {%- endfor %}
+      </div>
+      <div class="grid">
+        {%- assign more = 0 %}
+        {%- for l in landmarks %}{% assign key = '|' | append: l.id | append: '|' %}{% if tiled contains key %}{% continue %}{% endif %}{% if more == 6 %}{% break %}{% endif %}{% assign more = more | plus: 1 %}
+        {% include landmark-card.html landmark=l city=C.id %}
+        {%- endfor %}
+      </div>
+      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
+    </section>
+    {%- endif %}
 
     <section id="centre" class="centre">
       <h2>The centre on a map</h2>
