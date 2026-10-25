@@ -422,7 +422,8 @@ export class Parts {
 //
 //   pitch, a (half the clear width of the nave), aisle (an aisle's width), nave, choir (bays),
 //   arm (how far a transept arm reaches out past the arcades), ySA/rA (the aisle arches' springing
-//   and rise), ySV/rV (the vault of the nave's), chapels: [{ x, w, d, name }], tint: colours.
+//   and rise), ySV/rV (the vault of the nave's), chapels: [{ x, w, d, name }], tint: colours;
+//   lantern (a tall vault over the crossing) or dome (none: the crossing open for a dome to stand on).
 //
 // Returns { parts (a Parts: add the furniture to it, then parts.mesh() is the building), foot, and the plan's numbers }.
 export function cruciform(cfg) {
@@ -481,7 +482,15 @@ export function cruciform(cfg) {
 
   // ---- vaults over the nave, the choir and the crossing
   for (let k = 0; k < N; k++) p.vault(-a, -a - (k + 1) * P, a, -a - k * P, ySV, rV);
-  if (cfg.lantern) {
+  if (cfg.dome) {
+    // a dome over the crossing (Florence's): no vault there, walls closing it up to the top of the
+    // nave's vault over the four arches and across the corners, an octagon for the dome to stand on
+    const L = 2 * a, open = archOutline(1.9, L - 1.9, 0, ySV, rV, 8, 0.9), t = Math.tan(Math.PI / 8) * a;
+    for (const [from, to] of [[[-a, -a], [a, -a]], [[-a, a], [a, a]], [[-a, -a], [-a, a]], [[a, -a], [a, a]]]) {
+      p.panel(from, to, { ySpring: ySV, rise: rV, holes: [open], kit: up, color: tint.wall, solid: false });
+    }
+    for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]]) p.rectWall([sx * t, sz * a], [sx * a, sz * t], { y0: ySV - 4, y1: ySV + rV, kit: up, color: tint.wall, solid: false });
+  } else if (cfg.lantern) {
     // a lantern tower over the crossing: a taller vault, and walls closing the gap over each of the four arches, windowed
     p.vault(-a, -a, a, a, ySV, cfg.lantern);
     const L = 2 * a, open = archOutline(1.9, L - 1.9, 0, ySV, rV, 8, 0.9), lw = window(3.4, L - 3.4, ySV + rV + 3.4, ySV + rV + 5.6, 2.4);

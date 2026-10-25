@@ -1,8 +1,11 @@
 // The famous pictures, drawn from memory with a few shapes on a canvas, after the real ones: the
 // Mona Lisa, the Wedding at Cana, the Raft of the Medusa and Liberty Leading the People (the Louvre),
 // the Birth of Venus and Primavera (the Uffizi), Michelangelo's ceiling and Last Judgment (the
-// Sistine Chapel), the Rosetta Stone and the Parthenon's frieze (the British Museum), and any number
-// of old masters to fill the walls round them. Far too simple, and meant to be seen from a few metres
+// Sistine Chapel), the Rosetta Stone and the Parthenon's frieze (the British Museum), the
+// Sunflowers, the Hay Wain, the Arnolfini and the Temeraire (the National Gallery), Bruegel's Babel,
+// Hunters and Wedding (Vienna), the Night Watch, Las Meninas, Saturn and the Garden of Earthly
+// Delights, the churches' rose windows, San Marco's gold and the Ishtar Gate's blue bricks, and any
+// number of old masters to fill the walls round them. Far too simple, and meant to be seen from a few metres
 // off, like the Lam Gods (lamgods.js).
 import * as THREE from 'three';
 
@@ -465,3 +468,266 @@ export const rotondaView = () => art('rotonda', 1024, 512, (g, w, h) => {
   ellipse(g, w / 2, 430, 120, 26, '#d8d2c4'); ellipse(g, w / 2, 425, 100, 18, '#8ab0c8');
   poly(g, [[w / 2 - 10, 420], [w / 2 + 10, 420], [w / 2 + 5, 120], [w / 2, 100], [w / 2 - 5, 120]], '#d8c8a8');
 });
+
+// ------------------------------------------------------------------ the National Gallery
+
+// Sunflowers (Van Gogh, 1888): fifteen sunflowers in a yellow pot on a yellow ground, some
+// fresh, some going to seed
+export const sunflowers = () => art('sunflowers', 380, 480, (g, w, h) => {
+  g.fillStyle = '#e8c860'; g.fillRect(0, 0, w, h);
+  g.fillStyle = '#d8a83a'; g.fillRect(0, h * 0.68, w, h * 0.32);
+  g.strokeStyle = '#3a6a8a'; g.lineWidth = 3; g.beginPath(); g.moveTo(0, h * 0.68); g.lineTo(w, h * 0.68); g.stroke();
+  poly(g, [[110, 460], [270, 460], [285, 330], [95, 330]], '#e0b040'); // the pot
+  g.fillStyle = '#c88a2a'; g.fillRect(95, 380, 190, 10);
+  const rnd = rngOf(1888);
+  for (let k = 0; k < 15; k++) {
+    const x = 70 + rnd() * 240, y = 60 + rnd() * 240, r = 22 + rnd() * 18;
+    g.strokeStyle = '#6a8a3a'; g.lineWidth = 4; g.beginPath(); g.moveTo(190, 340); g.lineTo(x, y); g.stroke();
+    for (let q = 0; q < 14; q++) { const a = (q / 14) * Math.PI * 2 + rnd(); ellipse(g, x + Math.cos(a) * r, y + Math.sin(a) * r, r * 0.45, r * 0.16, k % 4 ? '#f0b020' : '#d88a1a', a); }
+    ellipse(g, x, y, r * 0.6, r * 0.6, k % 3 ? '#8a5a1a' : '#5a3a12');
+  }
+  g.font = 'italic 700 22px Georgia, serif'; g.fillStyle = '#3a5aa8'; g.fillText('Vincent', 180, 420);
+});
+
+// The Hay Wain (Constable, 1821): a hay cart crossing the shallow mill stream, Willy Lott's
+// cottage on the left, big white clouds over the fields of Suffolk
+export const hayWain = () => art('haywain', 640, 440, (g, w, h) => {
+  sky(g, w, h, '#7a9ac0', '#e8e8e0', 0, h * 0.55);
+  const rnd = rngOf(1821);
+  for (let k = 0; k < 9; k++) ellipse(g, 120 + rnd() * 480, 50 + rnd() * 120, 70 + rnd() * 50, 30 + rnd() * 20, 'rgba(250,250,245,0.85)');
+  poly(g, [[0, 240], [640, 220], [640, 330], [0, 340]], '#6a8a3a');
+  for (let k = 0; k < 7; k++) ellipse(g, 330 + k * 45, 200 + (k % 2) * 20, 50, 70, '#3a5a2a');
+  ellipse(g, 120, 210, 90, 110, '#2f4a24');
+  g.fillStyle = '#c8b090'; g.fillRect(40, 220, 110, 90); poly(g, [[30, 222], [95, 170], [160, 222]], '#8a5a3a'); // the cottage
+  poly(g, [[0, 330], [640, 320], [640, 440], [0, 440]], '#5a6a4a');
+  for (let y = 340; y < 440; y += 8) { g.fillStyle = 'rgba(200,210,200,0.25)'; g.fillRect(0, y, w, 2); }
+  // the cart in the water, its horses
+  poly(g, [[260, 300], [400, 296], [395, 340], [265, 345]], '#8a3a22'); ellipse(g, 300, 350, 22, 22, '#3a2a1a'); ellipse(g, 375, 348, 22, 22, '#3a2a1a');
+  ellipse(g, 430, 320, 34, 16, '#4a3a2a'); ellipse(g, 455, 302, 9, 14, '#4a3a2a');
+  varnish(g, w, h, 0.3);
+});
+
+// The Arnolfini Portrait (Van Eyck, 1434): the merchant and his wife in their room, she in green,
+// he in a great black hat, the round mirror on the wall behind them and the brass chandelier
+export const arnolfini = () => art('arnolfini', 340, 460, (g, w, h) => {
+  g.fillStyle = '#4a3a24'; g.fillRect(0, 0, w, h);
+  g.fillStyle = '#6a4a2a'; g.fillRect(0, 300, w, 160);
+  poly(g, [[0, 0], [70, 0], [70, 260], [0, 290]], '#c8b890'); // the window on the left
+  poly(g, [[240, 90], [340, 60], [340, 330], [240, 310]], '#7a1a1a'); // the red bed
+  ellipse(g, 170, 150, 26, 26, '#a89a7a'); ellipse(g, 170, 150, 20, 20, '#d8d0b8'); // the mirror
+  g.strokeStyle = '#b8963c'; g.lineWidth = 3; for (let k = 0; k < 6; k++) { const a = (k / 6) * Math.PI; g.beginPath(); g.moveTo(170, 40); g.lineTo(170 + Math.cos(a) * 40, 60 + Math.sin(a) * 10); g.stroke(); }
+  // him on the left in his fur-trimmed black, the hat; her on the right in green over blue
+  poly(g, [[70, 460], [90, 220], [150, 210], [160, 460]], '#2a1a22'); ellipse(g, 120, 190, 18, 22, '#e2c0a0'); poly(g, [[85, 178], [155, 178], [140, 120], [100, 120]], '#1a1210');
+  g.strokeStyle = '#e2c0a0'; g.lineWidth = 7; g.beginPath(); g.moveTo(140, 250); g.lineTo(175, 240); g.stroke();
+  poly(g, [[170, 460], [180, 230], [230, 220], [290, 460]], '#2f6a3a'); ellipse(g, 210, 200, 16, 20, '#f0d8c0'); ellipse(g, 210, 188, 22, 14, '#f4f0e6');
+  ellipse(g, 120, 440, 20, 14, '#8a6a3a'); // the little dog
+  varnish(g, w, h, 0.4);
+});
+
+// The Fighting Temeraire (Turner, 1839): the old warship, pale as a ghost, towed up the Thames by
+// a black steam tug to be broken up, under a blazing sunset
+export const temeraire = () => art('temeraire', 640, 480, (g, w, h) => {
+  const s = g.createLinearGradient(0, 0, 0, h * 0.7); s.addColorStop(0, '#6a8ab0'); s.addColorStop(0.5, '#e8c070'); s.addColorStop(1, '#e8703a'); g.fillStyle = s; g.fillRect(0, 0, w, h * 0.7);
+  ellipse(g, 470, 300, 40, 40, '#fff0b0'); ellipse(g, 470, 300, 160, 60, 'rgba(255,200,90,0.4)');
+  poly(g, [[0, 330], [w, 330], [w, h], [0, h]], '#8a7a5a');
+  for (let y = 340; y < h; y += 10) { g.fillStyle = 'rgba(255,200,120,0.18)'; g.fillRect(380, y, 180, 3); }
+  // the Temeraire, pale, with its three masts
+  poly(g, [[120, 330], [280, 330], [270, 290], [130, 280]], '#e8e0c8');
+  g.strokeStyle = '#d8d0b8'; g.lineWidth = 4; for (const x of [160, 205, 245]) { g.beginPath(); g.moveTo(x, 285); g.lineTo(x, 110 + (x % 3) * 10); g.stroke(); }
+  // the tug, black, with its tall funnel and its smoke
+  poly(g, [[280, 340], [360, 340], [355, 318], [285, 318]], '#2a2420'); g.fillStyle = '#2a2420'; g.fillRect(320, 270, 10, 50);
+  ellipse(g, 315, 250, 30, 18, 'rgba(60,40,30,0.7)'); ellipse(g, 290, 235, 40, 20, 'rgba(80,60,40,0.5)');
+  varnish(g, w, h, 0.25);
+});
+
+// ------------------------------------------------------------------ the Kunsthistorisches, the Rijksmuseum, the Prado
+
+// The Tower of Babel (Bruegel, 1563): the vast tower of arches rising in rings into the clouds
+// over a Flemish port, unfinished on one side
+export const towerOfBabel = () => art('babel', 640, 460, (g, w, h) => {
+  sky(g, w, h, '#8aa8c0', '#e0e4dc', 0, h);
+  poly(g, [[0, 400], [w, 380], [w, h], [0, h]], '#6a7a5a');
+  ellipse(g, 560, 420, 90, 18, '#7a9ab0'); // the harbour
+  for (let k = 0; k < 8; k++) {
+    const y = 400 - k * 42, half = 230 - k * 24;
+    g.fillStyle = k % 2 ? '#b8946a' : '#c8a47a'; g.fillRect(310 - half, y - 42, half * 2, 42);
+    for (let x = 310 - half + 6; x < 310 + half - 10; x += 16) { g.fillStyle = '#5a3a22'; g.beginPath(); g.ellipse(x + 6, y - 14, 5, 10, 0, Math.PI, 0); g.fill(); g.fillRect(x + 1, y - 14, 10, 12); }
+  }
+  poly(g, [[310 - 40, 64], [310 + 40, 64], [310 + 20, 30], [310 - 15, 40]], '#c8a47a');
+  ellipse(g, 250, 40, 90, 26, 'rgba(255,255,255,0.7)');
+  varnish(g, w, h, 0.35);
+});
+
+// The Hunters in the Snow (Bruegel, 1565): three hunters and their dogs coming down the snowy hill
+// past bare trees, the frozen ponds below full of skaters, the grey-green winter sky
+export const huntersInSnow = () => art('hunters', 640, 460, (g, w, h) => {
+  sky(g, w, h, '#a8b8a8', '#c8d0c0', 0, 200);
+  poly(g, [[0, 180], [640, 220], [640, 460], [0, 460]], '#e8ecec');
+  poly(g, [[300, 300], [640, 260], [640, 380], [260, 400]], '#9ab0a8'); poly(g, [[440, 250], [520, 120], [600, 250]], '#e8ecec');
+  for (let k = 0; k < 24; k++) ellipse(g, 330 + (k * 37) % 300, 300 + (k * 23) % 80, 3, 6, '#2a2420');
+  const tree = (x, y, s) => { g.strokeStyle = '#2a2018'; g.lineWidth = 5 * s; g.beginPath(); g.moveTo(x, y); g.lineTo(x, y - 200 * s); g.stroke(); g.lineWidth = 2 * s; for (let q = 0; q < 6; q++) { g.beginPath(); g.moveTo(x, y - (60 + q * 25) * s); g.lineTo(x + (q % 2 ? 30 : -30) * s, y - (80 + q * 25) * s); g.stroke(); } };
+  for (const [x, s] of [[110, 1.3], [200, 1.2], [280, 1.0], [360, 0.8]]) tree(x, 420 - (x / 8), s);
+  for (let k = 0; k < 3; k++) { ellipse(g, 120 + k * 50, 390 - k * 10, 10, 22, '#3a2a1a'); ellipse(g, 120 + k * 50, 365 - k * 10, 6, 6, '#5a3a2a'); }
+  for (let k = 0; k < 7; k++) ellipse(g, 90 + k * 30, 420 - k * 4, 12, 5, '#3a2a1a');
+  for (let k = 0; k < 6; k++) ellipse(g, 30 + k * 8, 160 + k * 5, 6, 3, '#1a1a1a', 0.3); // the crows
+  varnish(g, w, h, 0.25);
+});
+
+// The Peasant Wedding (Bruegel, 1567): the barn crowded with guests at a long table, the bride under
+// her paper crown before the green cloth, two men carrying in the plates of porridge on a door
+export const peasantWedding = () => art('pwedding', 640, 460, (g, w, h) => {
+  g.fillStyle = '#b89a6a'; g.fillRect(0, 0, w, h);
+  poly(g, [[0, 0], [640, 0], [640, 90], [0, 140]], '#d8c088'); // the stacked hay
+  g.fillStyle = '#2f5a3a'; g.fillRect(300, 110, 90, 90); // the green cloth
+  poly(g, [[140, 230], [640, 190], [640, 260], [140, 300]], '#e8dcc0'); // the table
+  for (let k = 0; k < 12; k++) figure(g, 180 + k * 38, 150 + k * -3, 0.9, ['#a3202c', '#2f4a6a', '#d8c08a', '#3a3a3a', '#8a5a2a'][k % 5], { skin: '#d89a70' });
+  figure(g, 345, 140, 1.0, '#1a1a1a', { skin: '#e8b890' });
+  poly(g, [[320, 120], [370, 120], [360, 105], [330, 105]], '#e8d070'); // her crown
+  poly(g, [[40, 380], [300, 360], [300, 380], [40, 400]], '#8a6a3a'); // the door with the plates
+  for (let k = 0; k < 8; k++) ellipse(g, 70 + k * 30, 370, 12, 5, '#f0e8d0');
+  figure(g, 50, 270, 1.4, '#a3202c', { skin: '#d89a70' }); figure(g, 290, 260, 1.4, '#e8dcc0', { skin: '#d89a70' });
+  varnish(g, w, h, 0.35);
+});
+
+// The Night Watch (Rembrandt, 1642): Captain Banninck Cocq in black with a red sash striding out
+// of the dark, his lieutenant in pale gold beside him, the militia with pikes and muskets behind,
+// a girl in gold lit up among them
+export const nightWatch = () => art('nightwatch', 820, 680, (g, w, h) => {
+  const s = g.createRadialGradient(w * 0.45, h * 0.6, 40, w * 0.5, h * 0.5, w * 0.6); s.addColorStop(0, '#6a4a22'); s.addColorStop(1, '#140e08'); g.fillStyle = s; g.fillRect(0, 0, w, h);
+  g.strokeStyle = '#3a2a1a'; g.lineWidth = 6;
+  for (let k = 0; k < 9; k++) { g.beginPath(); g.moveTo(200 + k * 50, 560); g.lineTo(150 + k * 60, 60 + (k % 3) * 30); g.stroke(); } // the pikes
+  for (let k = 0; k < 14; k++) figure(g, 60 + k * 54, 260 + (k % 3) * 20, 1.4, ['#2a1a10', '#3a2a1a', '#4a3a2a'][k % 3], { skin: '#a8805a', hair: '#1a1208' });
+  ellipse(g, 260, 340, 26, 60, '#e8c050'); ellipse(g, 260, 285, 16, 18, '#e8c090'); // the girl in gold
+  figure(g, 380, 260, 2.6, '#141010', { skin: '#d8a878' }); poly(g, [[350, 330], [420, 300], [425, 318], [355, 348]], '#c82a2a'); // the captain and his sash
+  figure(g, 480, 270, 2.5, '#e0c070', { skin: '#d8a878' }); // the lieutenant
+  for (const [x, y] of [[380, 225], [480, 235]]) { ellipse(g, x, y - 18, 32, 8, '#1a1210'); }
+  varnish(g, w, h, 0.6);
+});
+
+// Las Meninas (Velázquez, 1656): the little Infanta Margarita in her wide pale dress among her
+// maids, a dwarf and the dog, Velázquez himself at his huge canvas on the left, the king and queen
+// in the mirror at the back, a man on the stair in the bright doorway
+export const lasMeninas = () => art('meninas', 560, 640, (g, w, h) => {
+  g.fillStyle = '#3a3226'; g.fillRect(0, 0, w, h);
+  g.fillStyle = '#2a241c'; g.fillRect(0, 0, w, 300);
+  for (let k = 0; k < 4; k++) { g.fillStyle = '#1e1a14'; g.fillRect(180 + k * 90, 70, 60, 50); }
+  g.fillStyle = '#e8d8a0'; g.fillRect(380, 200, 50, 110); figure(g, 405, 230, 0.7, '#2a2018'); // the open door
+  g.fillStyle = '#c8c0a0'; g.fillRect(300, 210, 40, 50); // the mirror
+  poly(g, [[0, 120], [150, 100], [150, 600], [0, 620]], '#4a3a26'); // the back of the great canvas
+  figure(g, 190, 330, 1.6, '#1a1612', { skin: '#d8b090' }); // Velázquez
+  // the Infanta in the middle, the maids either side, the dwarfs and the dog on the right
+  poly(g, [[230, 600], [250, 420], [330, 420], [350, 600]], '#e8e0c8'); ellipse(g, 290, 395, 22, 26, '#f0d8c0'); ellipse(g, 290, 380, 28, 18, '#e8d090');
+  figure(g, 215, 400, 1.6, '#e0d8c0', { skin: '#f0d8c0', hair: '#d8b070' }); figure(g, 370, 400, 1.6, '#d8d0b8', { skin: '#f0d8c0', hair: '#c8a060' });
+  figure(g, 440, 450, 1.2, '#2a3a5a', { skin: '#d8a878' }); figure(g, 490, 470, 1.1, '#a3202c', { skin: '#d8a878' });
+  ellipse(g, 450, 600, 50, 22, '#a8885a');
+  varnish(g, w, h, 0.4);
+});
+
+// Saturn Devouring His Son (Goya, c. 1820), one of the Black Paintings from the walls of his house:
+// the wild-eyed giant in the dark, a body in his hands
+export const saturn = () => art('saturn', 320, 520, (g, w, h) => {
+  g.fillStyle = '#0e0c0a'; g.fillRect(0, 0, w, h);
+  ellipse(g, 150, 280, 90, 200, '#5a4632');
+  ellipse(g, 140, 110, 42, 50, '#6a5a44'); ellipse(g, 126, 100, 9, 9, '#f0e8d8'); ellipse(g, 158, 100, 9, 9, '#f0e8d8');
+  ellipse(g, 140, 135, 18, 12, '#1a0e0a');
+  ellipse(g, 160, 230, 30, 70, '#c8a088'); ellipse(g, 160, 200, 12, 14, '#a3202c');
+  for (const s of [-1, 1]) ellipse(g, 150 + s * 50, 220, 22, 34, '#5a4632');
+  varnish(g, w, h, 0.5);
+});
+
+// The Garden of Earthly Delights (Bosch, c. 1500), its three panels open: Eden on the left, the
+// garden full of naked people, fruit, birds and strange fountains in the middle, hell in the dark on
+// the right
+export const gardenOfDelights = () => art('delights', 1024, 560, (g, w, h) => {
+  const third = w / 3, rnd = rngOf(1500);
+  sky(g, third, h, '#a8c8d8', '#7aa87a', 0, h); poly(g, [[0, 320], [third, 300], [third, h], [0, h]], '#6a9a5a');
+  ellipse(g, third / 2, 200, 14, 60, '#e8b0b8'); figure(g, 120, 360, 1.2, '#f0d0b8', { skin: '#f0d0b8' }); figure(g, 220, 360, 1.2, '#f0d0b8', { skin: '#f0d0b8' });
+  g.save(); g.translate(third, 0); sky(g, third, h, '#c8d8e0', '#8ab88a', 0, h);
+  for (let k = 0; k < 5; k++) { ellipse(g, 60 + k * 60, 120, 14, 50, ['#e8b0b8', '#a8c8f0', '#e8d070'][k % 3]); }
+  for (let k = 0; k < 90; k++) ellipse(g, rnd() * third, 200 + rnd() * 340, 4 + rnd() * 6, 6 + rnd() * 6, rnd() < 0.6 ? '#f0d0b8' : ['#c23a3a', '#e85a8a', '#3a8ac8', '#e8d070'][k % 4]);
+  g.restore();
+  g.save(); g.translate(2 * third, 0); g.fillStyle = '#140c08'; g.fillRect(0, 0, third, h);
+  for (let k = 0; k < 10; k++) ellipse(g, rnd() * third, 40 + rnd() * 160, 30, 12, '#e86a1a');
+  for (let k = 0; k < 40; k++) ellipse(g, rnd() * third, 220 + rnd() * 320, 5, 8, rnd() < 0.5 ? '#c8a088' : '#3a3a4a');
+  ellipse(g, third / 2, 300, 50, 40, '#d8d0c0');
+  g.restore();
+  g.strokeStyle = '#3a2a1a'; g.lineWidth = 10; for (const x of [third, 2 * third]) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, h); g.stroke(); }
+  varnish(g, w, h, 0.3);
+});
+
+// ------------------------------------------------------------------ the churches
+
+// A rose window: rings of petals and lancets of jewel-coloured glass round a figure in the middle,
+// in a stone tracery; on a transparent ground, so it can be hung over a round hole
+export const roseWindow = (seed = 1) => art(`rose${seed}`, 512, 512, (g, w, h) => {
+  g.clearRect(0, 0, w, h);
+  const cx = w / 2, cy = h / 2, R = w / 2 - 4, rnd = rngOf(seed * 77);
+  const jewels = seed % 2 ? ['#1f3f9c', '#a3202c', '#2a56b8', '#d8a52c', '#5c2f86'] : ['#2a56b8', '#c23a3a', '#2f7a45', '#e5c15a', '#1f3f9c'];
+  ellipse(g, cx, cy, R, R, '#1a1714');
+  for (let ring = 0; ring < 4; ring++) {
+    const r0 = R * (0.18 + ring * 0.2), r1 = r0 + R * 0.18, n = 12 * (ring + 1);
+    for (let k = 0; k < n; k++) {
+      const a0 = (k / n) * Math.PI * 2, a1 = ((k + 1) / n) * Math.PI * 2;
+      g.fillStyle = jewels[Math.floor(rnd() * jewels.length)];
+      g.beginPath(); g.arc(cx, cy, r1 - 3, a0 + 0.02, a1 - 0.02); g.arc(cx, cy, r0 + 3, a1 - 0.02, a0 + 0.02, true); g.closePath(); g.fill();
+    }
+  }
+  ellipse(g, cx, cy, R * 0.16, R * 0.16, '#e5c15a'); ellipse(g, cx, cy, R * 0.08, R * 0.08, '#f0e6c8');
+  g.strokeStyle = '#d8d0c0'; g.lineWidth = 6; g.beginPath(); g.arc(cx, cy, R - 2, 0, 7); g.stroke();
+});
+
+// gold mosaic for San Marco's domes and vaults: tesserae of gold, a little uneven, with a figure here
+// and there in blue and red
+export const goldMosaic = () => {
+  const tex = art('goldmosaic', 512, 256, (g, w, h) => {
+    const rnd = rngOf(1094);
+    for (let y = 0; y < h; y += 4) for (let x = 0; x < w; x += 4) { const v = 180 + rnd() * 60; g.fillStyle = `rgb(${v}, ${v * 0.78 | 0}, ${v * 0.3 | 0})`; g.fillRect(x, y, 4, 4); }
+    for (let k = 0; k < 5; k++) { const x = 50 + k * 100; ellipse(g, x, 90, 14, 16, '#e8c8a8'); ellipse(g, x, 88, 22, 22, 'rgba(255,240,180,0.5)'); poly(g, [[x - 22, 230], [x - 14, 110], [x + 14, 110], [x + 22, 230]], k % 2 ? '#2a3a8a' : '#8a1a22'); }
+  });
+  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+  return tex;
+};
+
+// The Pala d'Oro: the golden altarpiece of San Marco, enamels of saints in rows of gold frames,
+// pearls and gems between them
+export const palaDoro = () => art('paladoro', 640, 360, (g, w, h) => {
+  g.fillStyle = '#c9a24a'; g.fillRect(0, 0, w, h);
+  const rnd = rngOf(976);
+  for (let row = 0; row < 3; row++) for (let k = 0; k < 10; k++) {
+    const x = 20 + k * 61, y = 20 + row * 110;
+    g.fillStyle = '#8a6a22'; g.fillRect(x, y, 52, 96);
+    g.fillStyle = ['#1f3f9c', '#2f7a45', '#a3202c'][(row + k) % 3]; g.fillRect(x + 6, y + 6, 40, 84);
+    ellipse(g, x + 26, y + 26, 9, 10, '#e8c8a8'); ellipse(g, x + 26, y + 24, 14, 14, 'rgba(255,230,140,0.6)');
+    for (let q = 0; q < 4; q++) ellipse(g, x + 2 + rnd() * 48, y + rnd() * 96, 3, 3, rnd() < 0.5 ? '#f4f0e6' : '#c23a3a');
+  }
+  ellipse(g, w / 2, h / 2, 70, 90, '#e0b850'); ellipse(g, w / 2, h / 2 - 30, 16, 18, '#e8c8a8');
+});
+
+// The fresco of Sir John Hawkwood (Uccello, 1436) on the Duomo's north wall: the condottiere on his
+// horse on a tall plinth, painted green-earth as if a bronze statue
+export const hawkwood = () => art('hawkwood', 360, 560, (g, w, h) => {
+  g.fillStyle = '#6a3a2a'; g.fillRect(0, 0, w, h);
+  g.fillStyle = '#c8b890'; g.fillRect(40, 300, 280, 240); g.fillStyle = '#b8a880'; g.fillRect(30, 290, 300, 20);
+  ellipse(g, 180, 230, 110, 44, '#8a9a6a'); ellipse(g, 270, 170, 22, 36, '#8a9a6a', -0.4);
+  for (const x of [100, 130, 230, 260]) { g.fillStyle = '#7a8a5a'; g.fillRect(x, 250, 14, 50); }
+  ellipse(g, 170, 150, 20, 46, '#7a8a5a'); ellipse(g, 170, 98, 14, 16, '#8a9a6a');
+  g.strokeStyle = '#d8c890'; g.lineWidth = 8; g.strokeRect(4, 4, w - 8, h - 8);
+});
+
+// Nefertiti's bust in her case: see statues.js. The glazed blue bricks of the Ishtar Gate of
+// Babylon (575 BC): rows of yellow and white lions and aurochs on deep blue, bands of rosettes
+export const ishtar = () => {
+  const tex = art('ishtar', 512, 256, (g, w, h) => {
+    const rnd = rngOf(575);
+    for (let y = 0; y < h; y += 8) for (let x = (y / 8) % 2 ? -8 : 0; x < w; x += 16) { const v = rnd() * 20; g.fillStyle = `rgb(${30 + v}, ${70 + v}, ${140 + v})`; g.fillRect(x + 1, y + 1, 14, 6); }
+    for (let k = 0; k < 4; k++) {
+      const x = 30 + k * 125, y = 120, c = k % 2 ? '#e8c050' : '#f0ece0';
+      ellipse(g, x + 40, y, 44, 20, c); ellipse(g, x + 88, y - 14, 14, 14, c);
+      g.strokeStyle = c; g.lineWidth = 7; for (const lx of [10, 25, 55, 70]) { g.beginPath(); g.moveTo(x + lx, y + 14); g.lineTo(x + lx, y + 46); g.stroke(); }
+      g.lineWidth = 4; g.beginPath(); g.moveTo(x, y - 4); g.quadraticCurveTo(x - 20, y - 30, x - 8, y - 40); g.stroke();
+    }
+    for (let x = 16; x < w; x += 32) { ellipse(g, x, 20, 9, 9, '#f0ece0'); ellipse(g, x, 20, 4, 4, '#e8c050'); ellipse(g, x, 236, 9, 9, '#f0ece0'); ellipse(g, x, 236, 4, 4, '#e8c050'); }
+  });
+  tex.wrapS = THREE.RepeatWrapping;
+  return tex;
+};
