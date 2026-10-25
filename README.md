@@ -45,9 +45,10 @@ domain) and credited on its page; a landmark's `icon` names one of `_includes/ic
 
 The famous art in the buildings you can go into (the Mona Lisa in the Louvre, the Night Watch in
 the Rijksmuseum, the Ghent Altarpiece in Sint-Baafs: 31 paintings, statues and treasures in 13
-buildings) has a page of its own too: all of them at `/art/` and each at `/art/<id>/`, its story,
-its facts and a link that drops you right in front of it in the game
-(`/<id>/play/?inside=<building>&view=x,z,tx,tz`). They are in `_data/art.json`; `node tools/art.mjs`
+buildings, and Michelangelo's David out on Florence's Piazza della Signoria) has a page of its own
+too: all of them at `/art/` and each at `/art/<id>/`, its story, its facts and a link that drops you
+right in front of it in the game (`/<id>/play/?inside=<building>&view=x,z,tx,tz`, or for one out in
+the open `?pos=x,z&yaw=`). They are in `_data/art.json`; `node tools/art.mjs`
 writes their pages (`art/`) and `node tools/art.mjs photos` fetches their photos from Wikimedia
 Commons into `assets/img/art/`, credited in `_data/art_photos.json`. In the game the paintings'
 real photos are painted over their drawings once they have loaded (`core/js/inside/photo.js`).

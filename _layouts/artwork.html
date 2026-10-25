@@ -1,10 +1,15 @@
-{%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, from=art:<id> for the pause menu's way back), and the other pieces in the same building. {%- endcomment -%}
+{%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, or for one out in the open ?pos=x,z&yaw= or ?at=<sight>; from=art:<id> for the pause menu's way back), and the other pieces in the same building. {%- endcomment -%}
 {%- assign A = site.data.art -%}
 {%- assign P = A.pieces | where: 'id', page.art | first -%}
 {%- assign M = A.museums | where: 'id', P.museum | first -%}
 {%- assign C = site.data.cities | where: 'id', M.city | first -%}
 {%- assign ph = site.data.art_photos[P.id] -%}
-{%- assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] | append: '&from=art:' | append: P.id -%}
+{%- comment -%} in a building: ?inside=<it>&view=; out in the open: ?pos=x,z(&yaw=) or its square's ?at=<sight> {%- endcomment -%}
+{%- if P.view %}{% assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] -%}
+{%- elsif P.pos %}{% assign n = P.title | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: P.pos[0] | append: ',' | append: P.pos[1] -%}
+{%- if P.pos.size > 2 %}{% assign play = play | append: '&yaw=' | append: P.pos[2] %}{% endif %}{% assign play = play | append: '&n=' | append: n -%}
+{%- else %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: M.at -%}{% endif -%}
+{%- assign play = play | append: '&from=art:' | append: P.id -%}
 {%- case P.kind %}{% when 'painting' %}{% assign kind_icon = 'frame' %}{% when 'fresco' %}{% assign kind_icon = 'palette' %}{% when 'sculpture' %}{% assign kind_icon = 'statue' %}{% else %}{% assign kind_icon = 'gem' %}{% endcase -%}
 <!doctype html>
 <html lang="en">

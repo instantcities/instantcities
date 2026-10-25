@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 {%- assign title = 'Famous art in 3D: the Mona Lisa, the Night Watch and more · Instant Cities' -%}
-{%- capture description %}{{ A.pieces.size }} famous paintings, statues and treasures in the museums and churches of Instant Cities, each with its story and a link that takes you right in front of it in the game.{% endcapture -%}
+{%- capture description %}{{ A.pieces.size }} famous paintings, statues and treasures in the museums, churches and squares of Instant Cities, each with its story and a link that takes you right in front of it in the game.{% endcapture -%}
 {%- assign path = '/art/' -%}
 {%- assign image = '/assets/img/art/the-night-watch.jpg' -%}
 {% include head.html %}
@@ -18,7 +18,7 @@
       <div class="hero-text">
         <p class="crumbs"><a href="/">Home</a> › Art</p>
         <h1>Famous art</h1>
-        <p class="tagline">{{ A.pieces.size }} paintings, statues and treasures in {{ A.museums.size }} museums and churches you can walk into, from the Mona Lisa to the Ghent Altarpiece.</p>
+        <p class="tagline">{{ A.pieces.size }} paintings, statues and treasures in the museums and churches you can walk into, and out on the squares, from the Mona Lisa to the Ghent Altarpiece.</p>
         <p class="lead">Each hangs in the game where it hangs in real life. Read its story, then step right in front of it in 3D.</p>
       </div>
       <p class="photo-credit">The Night Watch, Rembrandt, 1642, public domain, via Wikimedia Commons</p>
@@ -39,7 +39,11 @@
           <h2>{{ m.name }} <small>{{ C.name }}</small></h2>
           <p>{{ m.blurb }}</p>
         </div>
+        {%- if m.at %}
+        <a class="ghost" href="/{{ C.id }}/play/?at={{ m.at }}">{% include icon.html name="pin" %} Go there</a>
+        {%- else %}
         <a class="ghost" href="/{{ C.id }}/play/?inside={{ m.id }}">{% include icon.html name="door" %} Walk in</a>
+        {%- endif %}
       </div>
       <div class="grid art-grid">
         {%- for a in list %}

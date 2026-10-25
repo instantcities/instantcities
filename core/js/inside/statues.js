@@ -1,5 +1,6 @@
 // Statues for the museums, from plain shapes in marble or stone, added to a Parts (gothic.js): the
-// Venus de Milo, the Winged Victory of Samothrace on her ship's prow, a Roman marble of a god or an
+// Venus de Milo, Michelangelo's David (out on Florence's Piazza della Signoria, florence/monuments.js),
+// the Winged Victory of Samothrace on her ship's prow, a Roman marble of a god or an
 // emperor, a portrait bust, the colossal bust of Ramesses II, a sarcophagus. Each stands at (x, y, z)
 // with its feet at y (on a plinth: its height), facing ry (0: +z), `s` times life size in game metres.
 import * as THREE from 'three';
@@ -28,6 +29,57 @@ export function venusDeMilo(p, x, y, z, s = 2.5, ry = 0) {
   k.add(lathe([[0.001, 0.9], [0.19, 0.95], [0.16, 1.15], [0.2, 1.35], [0.13, 1.47], [0.001, 1.5]]).scale(s, s, s * 0.7), MARBLE, ...at(0.02, 0, 0), 0, 0, -0.06);
   k.add(new THREE.SphereGeometry(0.115 * s, 10, 8), MARBLE, ...at(0.06, 1.62, 0.02));
   for (const side of [-1, 1]) k.add(new THREE.SphereGeometry(0.06 * s, 6, 5), MARBLE, ...at(side * 0.22, 1.4, 0)); // the stumps of her arms
+}
+
+// a limb from a to b ([x, y, z], already placed), ra thick at a and rb at b
+function limb(k, a, b, ra, rb, color) {
+  const d = new THREE.Vector3(b[0] - a[0], b[1] - a[1], b[2] - a[2]), L = d.length();
+  const g = new THREE.CylinderGeometry(rb, ra, L, 7).translate(0, L / 2, 0);
+  g.applyQuaternion(new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize()));
+  k.add(g, color, ...a);
+  k.add(new THREE.SphereGeometry(rb, 7, 5), color, ...b); // the joint
+}
+
+// Michelangelo's David (1501–1504): standing easy, his weight on his right leg against a tree
+// stump, the left foot forward; the right arm hanging with the stone in his big hand, the left
+// raised to his shoulder holding the sling, which runs down his back; his head of curls turned to
+// his left, looking out for Goliath. 4.34 m real without its base, 5.4 here (s = 3.1); his left is +x.
+export function david(p, x, y, z, s = 3.1, ry = 0) {
+  const at = placer(x, y, z, s, ry), k = p.marble, r = v => v * s;
+  // the rough marble he stands on, and the stump behind his right leg
+  k.add(new THREE.CylinderGeometry(r(0.36), r(0.4), r(0.08), 9).translate(0, r(0.04), 0), SHADE, ...at(0, 0, 0));
+  k.add(new THREE.CylinderGeometry(r(0.07), r(0.1), r(0.5), 7).translate(0, r(0.25), 0), SHADE, ...at(-0.15, 0.06, -0.12));
+  // the legs: the right straight under him, the left knee bent forward, its foot out and ahead
+  const [rHip, rKnee, rAnkle] = [at(-0.09, 0.92, 0), at(-0.1, 0.5, 0.01), at(-0.11, 0.1, 0)];
+  const [lHip, lKnee, lAnkle] = [at(0.09, 0.89, 0), at(0.15, 0.48, 0.09), at(0.2, 0.1, 0.04)];
+  limb(k, rHip, rKnee, r(0.085), r(0.055), MARBLE); limb(k, rKnee, rAnkle, r(0.055), r(0.035), MARBLE);
+  limb(k, lHip, lKnee, r(0.085), r(0.055), MARBLE); limb(k, lKnee, lAnkle, r(0.055), r(0.035), MARBLE);
+  k.add(new THREE.BoxGeometry(r(0.09), r(0.05), r(0.24)).translate(0, 0, r(0.06)), MARBLE, ...at(-0.11, 0.105, 0), 0, ry, 0);
+  k.add(new THREE.BoxGeometry(r(0.09), r(0.05), r(0.24)).translate(0, 0, r(0.06)), MARBLE, ...at(0.21, 0.105, 0.05), 0, ry + 0.35, 0);
+  // the hips, the right one higher, and the torso the other way: the left shoulder up
+  k.add(new THREE.SphereGeometry(r(0.17), 10, 8).scale(1, 0.75, 0.7), MARBLE, ...at(0, 0.93, 0), 0, ry, -0.08);
+  k.add(lathe([[0.001, 0.92], [0.17, 0.96], [0.15, 1.12], [0.19, 1.3], [0.21, 1.4], [0.12, 1.47], [0.001, 1.49]]).scale(s, s, s * 0.62), MARBLE, ...at(0, 0, 0), 0, ry + 0.1, 0.05);
+  limb(k, at(0, 1.46, 0), at(0.01, 1.55, 0.01), r(0.05), r(0.045), MARBLE); // the neck
+  // the head turned to his left, a nose to show which way he looks, a cap of curls
+  const look = ry + 0.7;
+  k.add(new THREE.SphereGeometry(r(0.1), 10, 8).scale(0.9, 1.15, 1), MARBLE, ...at(0.01, 1.63, 0.01));
+  k.add(new THREE.ConeGeometry(r(0.022), r(0.06), 4).rotateX(Math.PI / 2), MARBLE, ...at(0.01 + Math.sin(0.7) * 0.095, 1.62, 0.01 + Math.cos(0.7) * 0.095), 0, look, 0);
+  k.add(new THREE.SphereGeometry(r(0.105), 9, 7, 0, Math.PI * 2, 0, Math.PI * 0.55), SHADE, ...at(0, 1.65, -0.01), -0.3, look, 0);
+  for (let q = 0; q < 7; q++) {
+    const a = (q / 7) * Math.PI * 2;
+    k.add(new THREE.SphereGeometry(r(0.035), 6, 4), SHADE, ...at(0.01 + Math.sin(a) * 0.07, 1.68 + (q % 2) * 0.02, -0.01 + Math.cos(a) * 0.065));
+  }
+  // the right arm down his side, the hand big, the stone in it
+  const [rSh, rEl, rWr] = [at(-0.2, 1.39, 0), at(-0.25, 1.12, -0.01), at(-0.25, 0.88, 0.03)];
+  limb(k, rSh, rEl, r(0.055), r(0.042), MARBLE); limb(k, rEl, rWr, r(0.042), r(0.03), MARBLE);
+  k.add(new THREE.SphereGeometry(r(0.05), 7, 5).scale(0.8, 1.2, 0.9), MARBLE, ...at(-0.25, 0.83, 0.035));
+  // the left arm bent up, the hand at his shoulder holding the sling
+  const [lSh, lEl, lHand] = [at(0.21, 1.42, 0), at(0.29, 1.17, 0.1), at(0.16, 1.41, 0.1)];
+  limb(k, lSh, lEl, r(0.055), r(0.042), MARBLE); limb(k, lEl, lHand, r(0.042), r(0.032), MARBLE);
+  k.add(new THREE.SphereGeometry(r(0.042), 7, 5), MARBLE, ...lHand);
+  // the sling over his left shoulder and down his back to his right hand
+  const sling = [at(0.16, 1.44, 0.08), at(0.17, 1.51, -0.08), at(-0.08, 1.05, -0.14), at(-0.24, 0.86, -0.03)];
+  for (let q = 1; q < sling.length; q++) k.rod(sling[q - 1], sling[q], r(0.012), SHADE, 4);
 }
 
 // The Winged Victory of Samothrace (c. 190 BC): no head, no arms, her wings spread behind her and
