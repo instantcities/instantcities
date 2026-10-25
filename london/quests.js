@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-267, -533], pad: [-267, -533], radius: 16,
+    victims: [[305, 158, 'London Eye'], [218, 780, 'St Thomas’']], drop: [-172, 503, 'Parliament Square'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan Trafalgar Square. Red twee zwemmers en breng ze naar Parliament Square, onder de Big Ben.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de Theems, onder het London Eye, en nóg iemand gaat bijna kopje-onder in de Theems, bij het St Thomas’ ziekenhuis! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar Parliament Square, onder de Big Ben, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar het London Eye!', '🚁 Naar St Thomas’!', '🚁 Naar Parliament Square, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at Trafalgar Square. Save two swimmers and fly them to Parliament Square, under Big Ben.',
+        story: 'Alarm! A swimmer is in trouble in the Thames, under the London Eye, and a second one is about to go under in the Thames, by St Thomas’ Hospital! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to Parliament Square, under Big Ben, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the London Eye!', '🚁 To St Thomas’!', '🚁 To Parliament Square, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

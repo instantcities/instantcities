@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [146, 139], pad: [146, 139], radius: 16,
+    victims: [[-306, -442, 'Het Steen'], [248, -1123, 'Eilandje']], drop: [16, -179, 'Grote Markt'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Groenplaats. Red twee zwemmers en breng ze naar de Grote Markt.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de Schelde, naast het Steen, en nóg iemand gaat bijna kopje-onder in de dokken van het Eilandje, bij het MAS! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Grote Markt, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar het Steen!', '🚁 Naar het MAS!', '🚁 Naar de Grote Markt, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Groenplaats. Save two swimmers and fly them to the Grote Markt.',
+        story: 'Alarm! A swimmer is in trouble in the Scheldt, beside Het Steen, and a second one is about to go under in the docks of the Eilandje, by the MAS! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Grote Markt, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To Het Steen!', '🚁 To the MAS!', '🚁 To the Grote Markt, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

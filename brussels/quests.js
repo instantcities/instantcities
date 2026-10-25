@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 240,
+    start: [514, 373], pad: [514, 373], radius: 16,
+    victims: [[-365, -923, 'Vismet'], [1128, 150, 'Parc de Bruxelles']], drop: [118, 0, 'Grand-Place'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Kunstberg. Red twee zwemmers en breng ze naar de Grote Markt.',
+        story: 'Alarm! Er raakt een zwemmer in nood in het oude havenbekken aan de Vismet, en nóg iemand gaat bijna kopje-onder in de vijver van het Warandepark! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Grote Markt, waar de ambulance wacht. Land in de lichtzuil. Je hebt 4 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar de Vismet!', '🚁 Naar het Warandepark!', '🚁 Naar de Grote Markt, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Mont des Arts. Save two swimmers and fly them to the Grand-Place.',
+        story: 'Alarm! A swimmer is in trouble in the old harbour basin at the Vismet, and a second one is about to go under in the pond of the Parc de Bruxelles! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Grand-Place, where the ambulance is waiting. Land in the beam of light. You have 4 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Vismet!', '🚁 To the Parc de Bruxelles!', '🚁 To the Grand-Place, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

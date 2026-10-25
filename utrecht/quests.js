@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-91, -207], pad: [-91, -207], radius: 16,
+    victims: [[-533, 606, 'Catharijnesingel'], [-49, 871, 'Oudegracht']], drop: [-140, 101, 'Domplein'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan het Janskerkhof. Red twee zwemmers en breng ze naar het Domplein, onder de Domtoren.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de Catharijnesingel, en nóg iemand gaat bijna kopje-onder in de Oudegracht, beneden bij de werven! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar het Domplein, onder de Domtoren, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar de Catharijnesingel!', '🚁 Naar de Oudegracht!', '🚁 Naar het Domplein, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Janskerkhof. Save two swimmers and fly them to the Domplein, under the Dom Tower.',
+        story: 'Alarm! A swimmer is in trouble in the Catharijnesingel, and a second one is about to go under in the Oudegracht, down by the wharves! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Domplein, under the Dom Tower, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Catharijnesingel!', '🚁 To the Oudegracht!', '🚁 To the Domplein, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];
