@@ -1,0 +1,16 @@
+{
+  "appId": "net.instantcities.app",
+  "appName": "Instant Cities",
+  "webDir": "www",
+  "backgroundColor": "#1d1a17",
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "backgroundColor": "#1d1a17"
+    }
+  }
+}
