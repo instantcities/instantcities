@@ -6,11 +6,27 @@
 // Hunters and Wedding (Vienna), the Night Watch, Las Meninas, Saturn and the Garden of Earthly
 // Delights, the churches' rose windows, San Marco's gold and the Ishtar Gate's blue bricks, and any
 // number of old masters to fill the walls round them. Far too simple, and meant to be seen from a few metres
-// off, like the Lam Gods (lamgods.js).
+// off, like the Lam Gods (lamgods.js). The famous ones (REAL below) get their real photo painted over
+// the drawing as soon as it has loaded (photo.js); the drawing stays where it cannot load.
 import * as THREE from 'three';
+import { photo } from './photo.js';
 
 const rngOf = seed => () => ((seed = (seed * 16807 + 11) % 2147483647) / 2147483647);
 const CACHE = new Map();
+
+// The ones with a real photo to paint over the drawing once it has loaded (photo.js), by their key
+// here: the id of the piece on the site (/art/<id>/), and how the photo goes on.
+const BAY = 2048 / 9; // the Sistine ceiling's bays, along its canvas
+const REAL = {
+  monalisa: 'mona-lisa', cana: 'the-wedding-at-cana', medusa: 'the-raft-of-the-medusa', liberty: 'liberty-leading-the-people',
+  venus: 'the-birth-of-venus', primavera: 'primavera',
+  sistine: ['the-creation-of-adam', { fit: 'contain', ground: '#c8c0a8', rect: [5 * BAY + 10, 150, BAY - 20, 212], turn: true, stretch: 2 }],
+  judgment: 'the-last-judgment',
+  sunflowers: 'sunflowers', haywain: 'the-hay-wain', arnolfini: 'the-arnolfini-portrait', temeraire: 'the-fighting-temeraire',
+  babel: 'the-tower-of-babel', hunters: 'the-hunters-in-the-snow', pwedding: 'the-peasant-wedding',
+  nightwatch: 'the-night-watch', meninas: 'las-meninas', saturn: 'saturn-devouring-his-son', delights: 'the-garden-of-earthly-delights',
+  paladoro: 'pala-d-oro', hawkwood: 'sir-john-hawkwood',
+};
 
 // a canvas w × h, drawn once by draw(g, w, h) and kept under `key`
 function art(key, w, h, draw) {
@@ -23,6 +39,7 @@ function art(key, w, h, draw) {
   tex.anisotropy = 4;
   tex.userData.shared = true; // the tiles let go of a texture when what uses it goes, unless it is shared (js/tiles.js)
   CACHE.set(key, tex);
+  if (REAL[key]) photo(tex, ...[REAL[key]].flat());
   return tex;
 }
 
@@ -286,7 +303,8 @@ export const sistineCeiling = () => art('sistine', 2048, 512, (g, w, h) => {
 // The Last Judgment (Michelangelo, 1536–1541), over the altar: a deep blue sky full of bodies,
 // Christ raising his arm in the middle with Mary beside him, the saints round them, the saved rising
 // on the left, the damned falling on the right, the trumpeting angels below, Charon's boat at the bottom.
-export const lastJudgment = () => art('judgment', 1024, 1152, (g, w, h) => {
+// (real: false for the Duomo's dome, painted after it by Vasari and Zuccari, not the real one)
+export const lastJudgment = (real = true) => art(real ? 'judgment' : 'judgment-dome', 1024, 1152, (g, w, h) => {
   sky(g, w, h, '#4a72b0', '#6a8ac0', 0, h * 0.8);
   poly(g, [[0, h * 0.8], [w, h * 0.8], [w, h], [0, h]], '#6a5a44');
   const rnd = rngOf(1541);
@@ -705,7 +723,8 @@ export const palaDoro = () => art('paladoro', 640, 360, (g, w, h) => {
 
 // The fresco of Sir John Hawkwood (Uccello, 1436) on the Duomo's north wall: the condottiere on his
 // horse on a tall plinth, painted green-earth as if a bronze statue
-export const hawkwood = () => art('hawkwood', 360, 560, (g, w, h) => {
+// (real: false for his twin Niccolò da Tolentino beside him, Castagno's, drawn the same)
+export const hawkwood = (real = true) => art(real ? 'hawkwood' : 'tolentino', 360, 560, (g, w, h) => {
   g.fillStyle = '#6a3a2a'; g.fillRect(0, 0, w, h);
   g.fillStyle = '#c8b890'; g.fillRect(40, 300, 280, 240); g.fillStyle = '#b8a880'; g.fillRect(30, 290, 300, 20);
   ellipse(g, 180, 230, 110, 44, '#8a9a6a'); ellipse(g, 270, 170, 22, 36, '#8a9a6a', -0.4);

@@ -1,0 +1,63 @@
+{%- comment -%} The page of famous art (/art/): every piece in _data/art.json, building by building, each card leading to its page (_layouts/artwork.html). tools/art.mjs writes art/index.html. {%- endcomment -%}
+{%- assign A = site.data.art -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = 'Famous art in 3D: the Mona Lisa, the Night Watch and more · Instant Cities' -%}
+{%- capture description %}{{ A.pieces.size }} famous paintings, statues and treasures in the museums and churches of Instant Cities, each with its story and a link that takes you right in front of it in the game.{% endcapture -%}
+{%- assign path = '/art/' -%}
+{%- assign image = '/assets/img/art/the-night-watch.jpg' -%}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero home-hero page-hero photo-hero art-hero" style="--photo: url('/assets/img/art/the-night-watch.jpg')">
+      <div class="hero-text">
+        <p class="crumbs"><a href="/">Home</a> › Art</p>
+        <h1>Famous art</h1>
+        <p class="tagline">{{ A.pieces.size }} paintings, statues and treasures in {{ A.museums.size }} museums and churches you can walk into, from the Mona Lisa to the Ghent Altarpiece.</p>
+        <p class="lead">Each hangs in the game where it hangs in real life. Read its story, then step right in front of it in 3D.</p>
+      </div>
+      <p class="photo-credit">The Night Watch, Rembrandt, 1642, public domain, via Wikimedia Commons</p>
+    </section>
+
+    <nav class="art-index" aria-label="Museums">
+      {%- for m in A.museums %}{% assign C = site.data.cities | where: 'id', m.city | first %}
+      <a href="#{{ m.id }}">{{ m.name }} <small>{{ C.name }}</small></a>
+      {%- endfor %}
+    </nav>
+
+    {%- for m in A.museums %}
+    {%- assign C = site.data.cities | where: 'id', m.city | first -%}
+    {%- assign list = A.pieces | where: 'museum', m.id %}
+    <section id="{{ m.id }}" class="art-museum">
+      <div class="art-museum-head">
+        <div>
+          <h2>{{ m.name }} <small>{{ C.name }}</small></h2>
+          <p>{{ m.blurb }}</p>
+        </div>
+        <a class="ghost" href="/{{ C.id }}/play/?inside={{ m.id }}">{% include icon.html name="door" %} Walk in</a>
+      </div>
+      <div class="grid art-grid">
+        {%- for a in list %}
+        {% include art-card.html art=a %}
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endfor %}
+  </main>
+
+  <footer>
+    <p class="alt"><a href="/">Instant Cities</a> <a href="/cities/">All cities</a></p>
+    <p>Photos from Wikimedia Commons, credited on each piece’s page. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

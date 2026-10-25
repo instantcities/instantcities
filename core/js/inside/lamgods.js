@@ -3,8 +3,9 @@
 // Virgin, God, John the Baptist, the angels with instruments and Eve, over the lower row where
 // the Adoration of the Mystic Lamb fills the middle, the Just Judges and the Knights of Christ on its
 // left and the Holy Hermits and the Pilgrims on its right. Far too simple, and meant to be seen from a
-// few metres behind glass.
+// few metres behind glass. Its real photo goes over it once that has loaded (photo.js).
 import * as THREE from 'three';
+import { photo } from './photo.js';
 
 const rngOf = seed => () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
 
@@ -147,7 +148,8 @@ export function lamGodsTexture() {
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = 4;
   tex.userData.shared = true;
-  return tex;
+  // the real one over it once its photo has loaded, all of it on the frame's brown (photo.js)
+  return photo(tex, 'ghent-altarpiece', { fit: 'contain', ground: '#3b2616' });
 }
 
 // A big dark baroque painting, a saint in the light: for the transept wall (Rubens hangs there, in
