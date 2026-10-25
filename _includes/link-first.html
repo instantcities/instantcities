@@ -1,0 +1,32 @@
+{%- comment -%}
+  Links the first whole-word mention of a name in a text: {% include link-first.html text=t name='Paris' url='/paris/' %}
+  prints the text with that mention in an <a>, or the text as it was when it has none. A mention is
+  whole when a space, a bracket, a quote or a mark comes before and after it ("Parisians" and "Paris-based"
+  are not "Paris"), and a mention already in a link is not one (the > before it is no mark). To link
+  several names, capture the result and pass it in again: each pass links its name once.
+{%- endcomment -%}
+{%- assign lf_name = include.name -%}
+{%- assign lf_marks = ' ,.;:!?()“”‘’—–' -%}
+{%- if include.text contains lf_name -%}
+  {%- assign lf_parts = include.text | prepend: ' ' | append: ' ' | split: lf_name -%}
+  {%- assign lf_out = '' -%}
+  {%- assign lf_done = false -%}
+  {%- for lf_part in lf_parts -%}
+    {%- if forloop.first -%}
+      {%- assign lf_out = lf_part -%}
+    {%- else -%}
+      {%- assign lf_i = forloop.index0 | minus: 1 -%}
+      {%- assign lf_before = lf_parts[lf_i] | slice: -1 -%}
+      {%- assign lf_after = lf_part | slice: 0 -%}
+      {%- if lf_done == false and lf_before != '' and lf_after != '' and lf_marks contains lf_before and lf_marks contains lf_after -%}
+        {%- assign lf_out = lf_out | append: '<a href="' | append: include.url | append: '">' | append: lf_name | append: '</a>' | append: lf_part -%}
+        {%- assign lf_done = true -%}
+      {%- else -%}
+        {%- assign lf_out = lf_out | append: lf_name | append: lf_part -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {{- lf_out | strip -}}
+{%- else -%}
+  {{- include.text -}}
+{%- endif -%}

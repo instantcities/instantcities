@@ -12,7 +12,8 @@
 //
 // A landmark: { id, name, local? (its name in the city's language, where that differs), emoji,
 // kind ('place' | 'vehicle' | 'food' | 'tradition' | 'thing'), lat?, lon?, sight? (the id of the
-// game's sight card, for ?at=), image? (a path on the site), blurb (a line or two, on the city's
+// game's sight card, for ?at=), inside? (a building to walk into, its id in <city>/inside.js: the
+// page's link opens the game inside it, also for one off the city's map), image? (a path on the site), blurb (a line or two, on the city's
 // page), text (paragraphs), and optionally history (paragraphs), dates ([when, what]) and visit
 // (paragraphs) }.
 import fs from 'node:fs';
@@ -36,6 +37,7 @@ for (const city of cities) {
     if (!/^[a-z0-9-]+$/.test(l.id)) throw new Error(`${city}: landmark id "${l.id}" is not a-z, 0-9 and -`);
     if (ids.has(l.id)) throw new Error(`${city}: landmark id "${l.id}" twice`);
     ids.add(l.id);
+    if (l.inside && !fs.readFileSync(path.join(dir, 'inside.js'), 'utf8').includes(`id: '${l.inside}'`)) throw new Error(`${city}: landmark "${l.id}" has no building "${l.inside}" in ${city}/inside.js`);
     const front = ['---', 'layout: landmark', `city: ${city}`, `landmark: ${l.id}`];
     if (onMap(l)) {
       const [x, z] = game(l.lat, l.lon);

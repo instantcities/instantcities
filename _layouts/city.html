@@ -90,8 +90,9 @@
         <h2>This is {{ C.name }}</h2>
         <p>{{ G.intro }}</p>
         <ul class="known">
+          {%- assign lms = site.data.landmarks[C.id] %}
           {%- for f in G.famous %}
-          <li>{{ f }}</li>
+          <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
         <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/">{% include icon.html name="compass" %} About the city</a></p>
@@ -112,6 +113,20 @@
       {%- if G %}
       <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
       {%- endif %}
+    </section>
+    {%- endif %}
+
+    {%- comment -%} the art in its museums (_data/art.json), each card leading to the piece's page, which leads back to the museum's landmark page above {%- endcomment -%}
+    {%- assign art_museums = site.data.art.museums | where: 'city', C.id %}
+    {%- if art_museums.size > 0 %}
+    <section id="art" class="landmarks">
+      <h2>Famous art in {{ C.name }}</h2>
+      <div class="grid art-grid">
+        {%- for m in art_museums %}{% assign pieces = site.data.art.pieces | where: 'museum', m.id %}{% for a in pieces %}
+        {% include art-card.html art=a %}
+        {%- endfor %}{% endfor %}
+      </div>
+      <p class="card-more"><a href="/art/">All famous art ›</a></p>
     </section>
     {%- endif %}
 
