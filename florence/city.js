@@ -14,6 +14,7 @@
 //   inside.js        the buildings you can go into: the Uffizi, its rooms in inside/ (hand-written)
 //   monuments.js     the statues out in the streets: the David at the Palazzo Vecchio (hand-written)
 //   loggia.js        the Loggia dei Lanzi, modelled by hand on core/js/arcade.js
+//   mercato-nuovo.js the Loggia del Mercato Nuovo, modelled by hand in place of the map's block of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -33,7 +34,8 @@ import { PONTE_VECCHIO } from './ponte-vecchio.js';
 import { SANTA_CROCE } from './santa-croce.js';
 import { SANTA_MARIA_NOVELLA } from './santa-maria-novella.js';
 import { PORCELLINO } from './porcellino.js';
-export const MONUMENTS = [...STATUES, ...LOGGIA, ...DUOMO, ...CAMPANILE, ...BATTISTERO, ...PALAZZO_VECCHIO, ...UFFIZI, ...PONTE_VECCHIO, ...SANTA_CROCE, ...SANTA_MARIA_NOVELLA, ...PORCELLINO];
+import { MERCATO_NUOVO } from './mercato-nuovo.js';
+export const MONUMENTS = [...STATUES, ...LOGGIA, ...DUOMO, ...CAMPANILE, ...BATTISTERO, ...PALAZZO_VECCHIO, ...UFFIZI, ...PONTE_VECCHIO, ...SANTA_CROCE, ...SANTA_MARIA_NOVELLA, ...PORCELLINO, ...MERCATO_NUOVO];
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
