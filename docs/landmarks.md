@@ -89,6 +89,14 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Copenhagen | Rundetårn | `copenhagen/rundetaarn.js` | bump into it |
 | Prague | Prašná brána | `prague/prasna-brana.js` | ride through it along Celetná |
 | London | Elizabeth Tower (Big Ben) | `london/elizabeth-tower.js` | bump into it |
+| London | Houses of Parliament | `london/parliament.js` | bump into it |
+| London | Westminster Abbey | `london/westminster-abbey.js` | bump into it |
+| London | Westminster Bridge | `london/westminster-bridge.js` | ride over the map's deck, as before |
+| London | London Eye | `london/london-eye.js` | bump into the feet of its legs |
+| London | Horse Guards | `london/horse-guards.js` | ride through its arches into the courtyard |
+| London | No. 10 Downing Street (its front) | `london/downing-street.js` | bump into the railings |
+| London | National Gallery | `london/national-gallery.js` | bump into it and the portico's podium |
+| London | Nelson's Column | `london/nelson.js` | bump into its steps and the lions' plinths |
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
@@ -113,6 +121,14 @@ In Rome:
   heap of rocks round an opening rather than a carved cliff.
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+
+London's two Gothic buildings, the Houses of Parliament and Westminster Abbey, share
+`london/gothic.js`: a range of walls with rows of pointed windows between buttresses that rise as
+pinnacles, and its roof; gables, rose windows, pinnacles and octagonal turrets. The palace fills its
+courtyards only where the map has buildings, and Westminster Hall stands turned a little to the rest,
+as it is. No. 10 is only its front, on the map's house. Westminster Bridge keeps the map's deck,
+which lies 2.6 m above the river, so its arches are far flatter than the real ones: lifting the deck
+would be a map fix of its own.
 
 Florence's marble churches share `florence/marble.js` on top of `arcade.js`: a map outline's sides as
 paths, the green frames of the marble panels, Gothic and round windows laid on a wall's face, blocks
