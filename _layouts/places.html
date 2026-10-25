@@ -18,7 +18,7 @@
   {% include topnav.html %}
 
   <main id="main">
-    <section class="hero home-hero guide-hero">
+    <section class="hero home-hero guide-hero page-hero">
       <div class="hero-text">
         <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › Places and landmarks</p>
         <h1>Places and landmarks in {{ C.name }}</h1>
@@ -29,16 +29,6 @@
         </p>
       </div>
     </section>
-
-    <nav class="subnav" aria-label="On this page">
-      <div class="subnav-links">
-        <a href="#landmarks">Landmarks</a>
-        {%- if others.size > 0 %}<a href="#also">Also part of {{ C.name }}</a>{% endif %}
-        <a href="#centre">Streets, squares and waterways</a>
-        <a class="away" href="/{{ C.id }}/about-the-city/">About {{ C.name }} ›</a>
-      </div>
-      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
-    </nav>
 
     <section id="landmarks" class="landmarks">
       <h2>Landmarks</h2>
@@ -78,7 +68,6 @@
   <script>
     {% include topnav.js %}
     {% include city-map.js %}
-    {% include subnav.js %}
   </script>
 </body>
 </html>

@@ -263,6 +263,17 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
 .facts dd { color: #444; }
 .guide-hero .crumbs { margin-bottom: 18px; }
 .guide-hero .tagline { font-weight: 500; font-size: 19px; line-height: 1.55; margin-bottom: 28px; }
+/* The hero of a page inside the site (a city's About and Places pages, a landmark, the cities page,
+   a city still to come): lower than a landing page's, its words on the left */
+.page-hero { padding-block: 40px 36px !important; text-align: left; }
+.page-hero .hero-text { max-width: 760px; margin: 0; }
+.page-hero h1 { font-size: clamp(30px, 4vw, 44px) !important; margin-bottom: 10px; }
+.page-hero .tagline { font-size: 18px; margin-bottom: 18px; }
+.page-hero .lead { margin-bottom: 18px; }
+.page-hero .hero-btns { justify-content: flex-start; }
+.page-hero .crumbs { margin-bottom: 10px; }
+.page-hero .hero-shot img { max-height: 320px; object-fit: cover; }
+.page-hero .note { margin-top: 10px; }
 .guide-body { border-top: 1px solid var(--line); }
 .guide-body .prose h2:first-child { margin-top: 0; }
 .guide-body .prose h3 { margin: 1.4em 0 .5em; font-size: 20px; }
@@ -334,6 +345,7 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
   .live-hero { min-height: 82vh; }
   main > section { padding-block: 44px; }
   .home-hero { padding-block: 56px !important; }
+  .page-hero { padding-block: 28px 26px !important; }
   .burger { display: inline-flex; }
   .nav {
     display: none; position: absolute; right: 16px; top: 56px;
