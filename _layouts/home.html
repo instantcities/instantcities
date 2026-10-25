@@ -20,8 +20,11 @@
         <p class="tagline">{{ H.tagline }}</p>
         <p class="lead">{{ H.lead }}</p>
         <p class="hero-btns">
+          {%- for id in H.hero_play_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}
+          <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} Play: {{ c.name }}</a>
+          {%- endif %}{% endfor %}
           <a class="play" href="#cities">{% include icon.html name="play" %} {{ H.cities_title }}</a>
-          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.home_watch }}</a>
         </p>
         <p class="note">{{ H.play_note }}</p>
       </div>

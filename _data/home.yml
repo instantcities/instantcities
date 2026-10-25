@@ -2,13 +2,15 @@
 # city on them comes from _data/cities.yml.
 title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
 description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
-tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
+tagline: "Explore the historic centres of Europe in 3D by bike, on foot or even on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
+hero_play_cities: [paris, rome] # Play buttons before it in the home page's hero
 live_city: ghent # initial preview and full-tour link
 live_poster: /assets/previews/ghent.jpg # compiled preview's first frame
 live_caption: "Preview: Ghent"
 live_watch: "Watch the tour"
+home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
 soon_title: "Coming soon"
 cities_page_title: "Cities: the historic centres of Europe to play in 3D"
 cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
