@@ -7,7 +7,7 @@ import { FACTS } from './tourfacts.js';
 
 export const SIGHTS = [
   {
-    enter: 'sint-baafs', id: 'sint-baafs', emoji: '🖼️', x: 292, z: 50, r: 100,
+    enter: 'sint-baafs', id: 'sint-baafs', page: 'sint-baafs-kathedraal', emoji: '🖼️', x: 292, z: 50, r: 100,
     text: {
       nl: { name: 'Sint-Baafskathedraal', text: 'Gebouwd van de 13de tot de 16de eeuw, met een toren van 89 m. Binnen hangt Het Lam Gods van de gebroeders Van Eyck (1432), een van de beroemdste en meest gestolen schilderijen ter wereld. Het paneel De Rechtvaardige Rechters, gestolen in 1934, is nooit teruggevonden.' },
       en: { name: 'St Bavo’s Cathedral', text: 'Built from the 13th to the 16th century, with an 89 m tower. Inside hangs the Van Eyck brothers’ Adoration of the Mystic Lamb (1432), one of the most famous and most stolen paintings in the world. Its Just Judges panel, stolen in 1934, has never been found.' },
@@ -52,7 +52,7 @@ export const SIGHTS = [
     },
   },
   {
-    enter: 'sint-niklaas', id: 'sint-niklaas', emoji: '⛪', x: -71, z: -79, r: 70,
+    enter: 'sint-niklaas', id: 'sint-niklaas', page: 'sint-niklaaskerk', emoji: '⛪', x: -71, z: -79, r: 70,
     text: {
       nl: { name: 'Sint-Niklaaskerk', text: 'De kerk van de kooplui, uit de 13de eeuw, in blauwgrijze Doornikse steen: Scheldegotiek. Haar toren staat midden op het dak en diende ook als uitkijkpost, lang voor het Belfort er stond. Vandaag gaan er ook concerten en tentoonstellingen door.' },
       en: { name: 'St Nicholas’ Church', text: 'The merchants’ church, from the 13th century, in blue-grey Tournai stone: Scheldt Gothic. Its tower sits right on the middle of the roof and doubled as a lookout, long before the Belfry stood. Today it also hosts concerts and exhibitions.' },
@@ -146,7 +146,7 @@ export const SIGHTS = [
   },
   {
     // the Provinciehuis in the old Leopoldskazerne, modelled by hand (ghent/provinciehuis.js): the card counts from its courtyard garden
-    id: 'provinciehuis', emoji: '🏰', x: -75, z: 1805, r: 70,
+    id: 'provinciehuis', page: null, emoji: '🏰', x: -75, z: 1805, r: 70,
     text: {
       nl: { name: 'Provinciehuis (Leopoldskazerne)', text: 'Deze kazerne met torentjes en kantelen, als een burcht, werd gebouwd van 1902 tot 1906. Tot 1955 woonde hier het 2de Linieregiment, meer dan 1.300 soldaten. Sinds 2024 werkt de provincie Oost-Vlaanderen hier, in de oude vleugels en een nieuwe grijsgroene erbij, rond een tuin met PROVINCIEHUIS in grote letters.' },
       en: { name: 'Provincial House (Leopold Barracks)', text: 'These barracks, with turrets and battlements like a castle, were built from 1902 to 1906. Until 1955 they were home to the 2nd Line Regiment, over 1,300 soldiers. Since 2024 the province of East Flanders has worked here, in the old wings and a new grey-green one, around a garden with PROVINCIEHUIS in big letters.' },

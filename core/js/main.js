@@ -31,7 +31,7 @@ import { sfx, music } from './sound.js';
 import { buzz } from './haptics.js';
 import { Ambient } from './ambient.js';
 import { Quest } from './quests.js';
-import { QUESTS, PLACES, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, STOPS, TOUR, TOUR_PROPS, NAME, FREE_START, ROWING, DEMO, INSIDE } from './city.js';
+import { QUESTS, PLACES, SIGHTS, ID, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, STOPS, TOUR, TOUR_PROPS, NAME, FREE_START, ROWING, DEMO, INSIDE } from './city.js';
 import { LIGHT as INDOOR_LIGHT } from './interiors.js';
 import { Tour, STANDING } from './tour.js';
 import { hoopsAlong, Course, hoopMeshes } from './dragonfly.js';
@@ -276,9 +276,13 @@ const exploring = () => roaming() && !questing();
 const heliMode = () => (questing() && !!QUESTS[game.mission - 1]?.heli) || (exploring() && game.mounts[0] === 'heli');
 const freeStick = () => exploring() || (questing() && (!!QUESTS[game.mission - 1]?.zombies || !!QUESTS[game.mission - 1]?.heli)); // the touch stick rides forward and back itself, no automatic forward (exploring, and the zombie missions)
 const touring = () => game.kind === 'tour';
-// A sight's own page, where the city has them (SIGHT_PAGES in its city.js: the address the sight's id
-// goes after). '' when the city has no such pages.
-const sightPage = id => (SIGHT_PAGES ? `${SIGHT_PAGES}${id}/` : '');
+// A sight's own page on the Instant Cities site: <city>/landmark/<landmark id>/ (the landmark is the
+// sight's id, or its `page` where that differs; `page: null` for a sight without a page). The sights
+// inside Ghent's churches are Ghent's. '' for one that has none.
+const sightPage = id => {
+  const s = SIGHTS.find(x => x.id === id), page = s?.page === undefined ? id : s.page;
+  return page ? `https://instantcities.net/${ID === 'ghentinside' ? 'ghent' : ID}/landmark/${page}/` : '';
+};
 const flying = () => touring() && game.tourMode === 'fly'; // the tour flown yourself (dragonfly.js)
 const touringNow = () => game.state === 'tour' || (game.state === 'paused' && game.resumeState === 'tour'); // flying the tour, or paused in it
 const aerial = () => game.state === 'menu' || touringNow(); // the camera flies over the city, nobody rides it
