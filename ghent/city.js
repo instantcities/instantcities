@@ -14,6 +14,7 @@
 //   streets.js       fronts per street from a spec each, read off Mapillary photos (see facade-lab.html)
 //   squares.js       the car-free squares, paved wall to wall (hand-written)
 //   sights.js        the sights, and what a card tells you about each when you ride up (hand-written)
+//   inside.js        the buildings you can go into, their doors and cards; their rooms in inside/ (hand-written)
 //   tour.js          the tour: the flight through the old town and its stops (hand-written)
 //   infill.js        a block the map leaves empty, built up, and a map house a landmark stands on (hand-written)
 //   passages.js      the passages through a building at street level, cut out of it (hand-written)
@@ -110,6 +111,7 @@ export { FURNITURE } from './furniture.js';
 export { RACES } from './races.js';
 export { QUESTS } from './quests.js';
 export { SIGHTS } from './sights.js';
+export { INSIDE } from './inside.js';
 export { AREAS, BEACHES, RUNS } from './blaarmeersen.js';
 export { TERRAIN } from './terrain.js';
 export { FAMOUS } from './famous.js';

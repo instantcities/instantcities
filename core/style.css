@@ -1301,8 +1301,40 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
 .tramcard b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 21px; line-height: 1.15; }
 .tramcard p { margin-top: 2px; font-weight: 700; font-size: 13px; line-height: 1.35; color: #4a3f35; }
 .tramcard kbd { padding: 0 5px; border: 2px solid var(--ink); border-radius: 5px; font: inherit; font-size: 11px; background: #fff; }
+/* By a door into a building (js/interiors.js): its name, and the key that takes you in. A click or a
+   tap on it does too. */
+.doorcard {
+  position: absolute;
+  top: calc(96px + env(safe-area-inset-top));
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  max-width: min(440px, calc(100% - 32px));
+  padding: 8px 12px 8px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  font: inherit;
+  text-align: left;
+  opacity: 0;
+  transform: translate(-50%, -12px);
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+  cursor: pointer;
+}
+.doorcard.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.doorcard:hover { background: #fff; }
+.door-emoji { font-size: 34px; line-height: 1; }
+.doorcard small { display: block; font-weight: 900; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+.doorcard b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 21px; line-height: 1.15; }
+.doorcard kbd { padding: 2px 7px; border: 2px solid var(--ink); border-radius: 6px; font: 900 12px/1.2 system-ui, sans-serif; background: #fff; }
 @media (max-width: 760px), (max-height: 560px) {
-  .tramcard { top: calc(70px + env(safe-area-inset-top)); gap: 8px; padding: 6px 10px 6px 6px; border-width: 2px; box-shadow: 0 3px 0 var(--ink); }
+  .tramcard, .doorcard { top: calc(70px + env(safe-area-inset-top)); gap: 8px; padding: 6px 10px 6px 6px; border-width: 2px; box-shadow: 0 3px 0 var(--ink); }
+  .doorcard b { font-size: 17px; }
   .tram-badge { min-width: 36px; height: 36px; font-size: 22px; }
   .tramcard b { font-size: 17px; }
   .tramcard p { font-size: 12px; }

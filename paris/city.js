@@ -11,15 +11,27 @@
 //                    `node tools/osm_map.mjs paris`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs paris`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs paris`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   inside.js        the buildings you can go into: the Louvre, its rooms in inside/ (hand-written)
+// No sights or fronts yet, and one monument, the Louvre's pyramid: empty lists for the rest, and for
+// what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+export { INSIDE } from './inside.js';
+import { pyramid } from './inside/louvre.js';
 
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+
+// The Louvre's glass pyramid in the Cour Napoléon, in place of the box the map makes of it (its
+// corners from the map), turned the way the Louvre is: its door is the way into the museum (inside.js).
+const PYRAMID = [-974, -628, -931, -612, -947, -570, -990, -585];
+export const MONUMENTS = [{
+  id: 'pyramide-du-louvre', name: 'Pyramide du Louvre', x: -960.5, z: -598.8, turn: 1.214, size: 1, reach: 120,
+  area: [PYRAMID], foot: [PYRAMID], make: () => pyramid(22.9, 0, 27, 0.62),
+}];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
