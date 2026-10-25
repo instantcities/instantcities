@@ -13,8 +13,8 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs bruges`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs bruges`
 //   belfort.js       the Belfort, modelled by hand on core/js/arcade.js, in place of the map's block of it
-// No sights or fronts yet, and one monument, the Belfort: empty lists for the rest, and for what
-// only Ghent has.
+//   olv-toren.js     the tower of the Onze-Lieve-Vrouwekerk, modelled by hand in place of the map's block of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -22,9 +22,10 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 import { BELFORT } from './belfort.js';
+import { OLV_TOREN } from './olv-toren.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...BELFORT];
+export const MONUMENTS = [...BELFORT, ...OLV_TOREN];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

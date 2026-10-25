@@ -15,6 +15,7 @@
 //   prasna-brana.js  the Prašná brána, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
 //   tyn.js           the towers of the Týn church, modelled by hand in place of the map's pieces of them
 //   orloj.js         the Old Town Hall's tower and the Orloj, modelled by hand in place of the map's pieces of them
+//   mostecka-vez.js  the Old Town Bridge Tower, modelled by hand in place of the map's pieces of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -26,9 +27,10 @@ export { INSIDE } from './inside.js';
 import { PRASNA_BRANA } from './prasna-brana.js';
 import { TYN } from './tyn.js';
 import { ORLOJ } from './orloj.js';
+import { MOSTECKA_VEZ } from './mostecka-vez.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...PRASNA_BRANA, ...TYN, ...ORLOJ];
+export const MONUMENTS = [...PRASNA_BRANA, ...TYN, ...ORLOJ, ...MOSTECKA_VEZ];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
