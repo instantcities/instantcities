@@ -4,10 +4,10 @@
 
 The historic centres of European cities in 3D in the browser (Three.js), rebuilt from
 OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. There are eighteen cities to play: Ghent and Lecce in full, and a small first piece
+on one keyboard. There are nineteen cities to play: Ghent and Lecce in full, and a small first piece
 of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
-Florence, Prague, Vienna, Copenhagen, Berlin, Avignon and Madrid, each with a race and a tour (see
-docs/first-maps.md).
+Florence, Prague, Vienna, Copenhagen, Berlin, Avignon, Madrid and Salerno, each with a race and a
+tour (see docs/first-maps.md).
 The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
