@@ -189,6 +189,29 @@
     }
   },
   {
+    "id": "sistina",
+    "name": "Sistine Chapel",
+    "local": "Cappella Sistina",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 41.9029,
+    "lon": 12.4545,
+    "inside": "sistina",
+    "blurb": "The Vatican’s papal chapel, where the cardinals elect the pope, under Michelangelo’s ceiling and his Last Judgment.",
+    "text": [
+      "Pope Sixtus IV had the chapel built between 1473 and 1481, and it carries his name. Botticelli, Perugino and other painters decorated its walls; between 1508 and 1512 Michelangelo painted the ceiling for Pope Julius II, with the Creation of Adam at its heart, and from 1536 to 1541 the Last Judgment on the altar wall.",
+      "It is still a working chapel, where the cardinals gather in a conclave to elect a new pope. It stands in the Vatican, west of the part of Rome the game maps, but you can still walk in."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/sistina.jpg",
+      "author": "Gary Todd",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_Ceiling_by_Michelangelo_(48466107736).jpg"
+    }
+  },
+  {
     "id": "vespa",
     "name": "Vespa",
     "emoji": "🛵",

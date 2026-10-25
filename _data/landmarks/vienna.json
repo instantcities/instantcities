@@ -214,6 +214,28 @@
     }
   },
   {
+    "id": "kunsthistorisches",
+    "name": "Kunsthistorisches Museum",
+    "emoji": "🖼️",
+    "icon": "frame",
+    "kind": "place",
+    "lat": 48.2038,
+    "lon": 16.3614,
+    "inside": "kunsthistorisches",
+    "blurb": "The Habsburgs’ art museum on Maria-Theresien-Platz, with the largest collection of Bruegel’s paintings in the world.",
+    "text": [
+      "Emperor Franz Joseph had Gottfried Semper and Karl von Hasenauer build the museum for the Habsburg collections, and it opened in 1891. It faces its twin, the Natural History Museum, across Maria-Theresien-Platz, with the monument to Empress Maria Theresa in between.",
+      "Its Bruegel room holds the Hunters in the Snow, the Tower of Babel and the Peasant Wedding, the largest collection of Pieter Bruegel the Elder’s paintings in the world. In Instant Vienna you can walk into three of its rooms."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/kunsthistorisches.jpg",
+      "author": "Manfred Werner (Tsui)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Maria-Theresien-Platz_Kunsthistorisches_Museum_Wien_2010.jpg"
+    }
+  },
+  {
     "id": "fiaker",
     "name": "Fiaker",
     "emoji": "🐴",
