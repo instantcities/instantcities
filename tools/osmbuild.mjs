@@ -505,6 +505,44 @@ function rings(parts) {
   return out;
 }
 
+// The sea, as polygons in the coordinates of P: OSM draws the coast as lines (natural=coastline)
+// with the land on their left, so the water lies to the right of them. Each line that crosses the
+// box [x0, z0, x1, z1] (x east, z south) is cut to it and closed round the box's edge on its right,
+// clockwise on the map. Islands (closed lines) are left out.
+function sea(ways, P, [x0, z0, x1, z1]) {
+  const parts = ways.filter(wy => wy.tags?.natural === 'coastline').map(wy => wy.nodes.map(String).filter(i => P.has(i)));
+  // join the pieces end to start, keeping their direction
+  const lines = [];
+  while (parts.length) {
+    let line = parts.shift();
+    for (let i = 0; i < parts.length; i++) {
+      if (parts[i][0] === line[line.length - 1]) line = line.concat(parts.splice(i, 1)[0].slice(1));
+      else if (parts[i][parts[i].length - 1] === line[0]) line = parts.splice(i, 1)[0].slice(0, -1).concat(line);
+      else continue;
+      i = -1;
+    }
+    if (line[0] !== line[line.length - 1]) lines.push(line.map(i => P.get(i)));
+  }
+  const inBox = ([x, z]) => x > x0 && x < x1 && z > z0 && z < z1;
+  const clamp = ([x, z]) => [Math.min(x1, Math.max(x0, x)), Math.min(z1, Math.max(z0, z))];
+  const W = x1 - x0, H = z1 - z0;
+  // where a point on the box's edge lies along it, clockwise from the north-west corner
+  const along = ([x, z]) => (z <= z0 ? x - x0 : x >= x1 ? W + z - z0 : z >= z1 ? W + H + x1 - x : 2 * W + H + z1 - z);
+  const corners = [[x1, z0], [x1, z1], [x0, z1], [x0, z0]].map(c => [along(c) || 2 * (W + H), c]);
+  const out = [];
+  for (const line of lines) {
+    const a = line.findIndex(inBox), b = line.findLastIndex(inBox);
+    if (a < 0 || a === 0 || b === line.length - 1) continue; // it has to come in and go out again
+    const poly = [clamp(line[a - 1]), ...line.slice(a, b + 1), clamp(line[b + 1])];
+    // round the edge clockwise, from where the coast leaves the box to where it came in
+    const t0 = along(poly[poly.length - 1]), t1 = along(poly[0]), lap = 2 * (W + H);
+    const ahead = t => (t - t0 + lap) % lap;
+    corners.filter(([t]) => ahead(t) < ahead(t1)).sort((p, q) => ahead(p[0]) - ahead(q[0])).forEach(([, c]) => poly.push(c));
+    out.push(poly);
+  }
+  return out;
+}
+
 // ------------------------------------------------------------------ the map
 
 // area: { bbox: [s, w, n, e], routes: [{ id, route: [street names] }] (or one route: [street names]),
@@ -935,6 +973,9 @@ export function buildMap(data, area) {
     else if (Object.entries(GREEN).some(([k, v]) => v.has(t[k]))) kind = WOODED.some(([k, v]) => t[k] === v) ? 'wood' : 'green';
     if (kind) out.areas.push({ k: kind, p: flat(ring.map(G)) });
   }
+  // the sea along the coast, out to a little beyond the box
+  const [bx0, bz1] = project({ lat: s, lon: w }), [bx1, bz0] = project({ lat: n, lon: e });
+  for (const poly of sea(ways, P, [bx0 - 200, bz0 - 200, bx1 + 200, bz1 + 200])) out.areas.push({ k: 'water', sea: 1, p: flat(poly.map(G)) });
 
   // church parts are stone like their church; tall parts of anything else are towers too
   const STONE = new Set(['church', 'cathedral', 'chapel']);

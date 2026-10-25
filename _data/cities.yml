@@ -282,6 +282,23 @@
     - { icon: flag, title: "A race: Intra-muros", text: "From the Place de l’Horloge in the shadow of the Palais des Papes down the Rue de la République, along the Rue Joseph Vernet and back up the Rue Saint-Agricol." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
+- id: salerno
+  name: Salerno
+  country: Italy
+  lat: 40.6785
+  lon: 14.7594
+  game: Instant Salerno
+  title: "Instant Salerno: a free 3D game of Salerno, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Salerno in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Salerno, between the sea and the hills!"
+  lead: "The centre of Salerno in 3D, on its gulf at the start of the Amalfi Coast: the Duomo, Via dei Mercanti, the Corso and the Lungomare, every building from OpenStreetMap."
+  card: "The town on the gulf at the start of the Amalfi Coast: the Duomo, the old merchants’ street and the palms of the Lungomare."
+  features:
+    - { icon: city, title: "The real Salerno", text: "About 1,000 buildings from OpenStreetMap, mapped as whole blocks, a small first piece of the centre with the sea in front. More of the city comes later." }
+    - { icon: church, title: "Between the sea and the hills", text: "The Duomo of San Matteo and the medieval lanes of Via dei Mercanti, the Corso, the Villa Comunale and the Teatro Verdi, and Zaha Hadid’s ferry terminal on the Molo Manfredi." }
+    - { icon: flag, title: "A race: Duomo and Lungomare", text: "From below the Duomo through Via dei Mercanti and along the Corso, down to the sea, under the palms of the Lungomare and back along Via Roma." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
 - id: lecce
   name: Lecce
   country: Italy
