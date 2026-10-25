@@ -52,6 +52,9 @@ button { touch-action: manipulation; }
   align-items: center;
   justify-content: center;
   gap: 14px;
+  /* light grey whatever the city's sky, like the site's grey sections; the skyline and road in greys too */
+  --sky: #f4f4f3;
+  --skyline: #d8d8d5;
   background: var(--sky);
   color: var(--ink);
   transition: opacity 0.4s ease;
@@ -68,9 +71,9 @@ body.booting #menu { visibility: hidden; }
 .loader-skyline { position: absolute; left: 0; bottom: 14px; width: 960px; height: 110px; color: var(--skyline); animation: slide 9s linear infinite; }
 .loader-road {
   position: absolute; left: 0; right: 0; bottom: 0; height: 14px;
-  background: repeating-linear-gradient(90deg, #b8a37c 0 13px, #9c8862 13px 16px) 0 0 / 32px 100%,
-              #b8a37c;
-  border-top: 3px solid #8c7752;
+  background: repeating-linear-gradient(90deg, #cfcfcc 0 13px, #b9b9b6 13px 16px) 0 0 / 32px 100%,
+              #cfcfcc;
+  border-top: 3px solid #a9a9a6;
   animation: road 0.45s linear infinite;
 }
 .loader-bike { position: absolute; left: 50%; bottom: 10px; width: 72px; height: 72px; margin-left: -70px; animation: bob 0.3s ease-in-out infinite alternate; }
@@ -1707,10 +1710,11 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
 body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tourMusic, body.demo #tourBar, body.demo #mute, body.demo #toast { display: none !important; }
 
 /* ---------- the menus: black, white and greys like the site (assets/site.css), one plain typeface,
-   thin borders and small corners. What is picked is black; the city's accent is kept for the start
-   button and a few small marks, and the emoji stay grey until picked. The HUD over the game keeps
-   its own bold look. ---------- */
+   thin borders and small corners. What is picked is black, the accent is dark grey in every city
+   (the city's own colour stays for the HUD), and the emoji stay grey until picked. The HUD over the
+   game keeps its own bold look. ---------- */
 
+.overlay, #musicSettings, #gunInfo { --accent: #2b2b2b; --accent-soft: #f2f2f1; }
 .overlay { --edge: rgba(17, 17, 17, 0.18); --soft: #f2f2f1; font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
 #menu.overlay { background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45)); }
 .overlay :is(.title, .label, .chip, .start, .arrow, .laps, .tcard b, .qcard b, .phead, .phead input, .brief-time, .site-link, .madeby, .foot, kbd) { font-family: var(--sans); }
@@ -1742,7 +1746,7 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 
 .overlay :is(.tcard, .qcard) { color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 8px; transition: border-color 0.15s; }
 .overlay :is(.tcard, .qcard):hover { border-color: #111; }
-.overlay :is(.tcard, .qcard).on { color: #fff; background: #111; border-color: #111; box-shadow: inset 0 -4px 0 var(--accent); }
+.overlay :is(.tcard, .qcard).on { color: #fff; background: #111; border-color: #111; box-shadow: none; }
 .overlay :is(.tcard, .qcard) b { font-weight: 600; letter-spacing: -0.01em; }
 .overlay :is(.tcard, .qcard) small { font-weight: 500; color: var(--muted); }
 .overlay :is(.tcard, .qcard).on small { color: rgba(255, 255, 255, 0.7); }
@@ -1751,7 +1755,7 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .overlay .gunmode { border: 2px solid var(--edge); border-radius: 6px; box-shadow: none; }
 .overlay .gunmode:has(input:checked) { background: var(--soft); border-color: #111; }
 
-/* the one button in colour: the city's accent */
+/* the start button in the accent */
 .overlay .start { font-weight: 600; letter-spacing: -0.01em; color: #fff; background: var(--accent); border: 2px solid var(--accent); border-radius: 6px; box-shadow: none; animation: none; transition: filter 0.15s; }
 .overlay .start:hover { filter: brightness(0.9); }
 .overlay .start.alt { color: #111; background: #fff; border-color: var(--edge); }
