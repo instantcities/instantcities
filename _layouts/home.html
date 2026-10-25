@@ -1,4 +1,4 @@
-{%- comment -%} The home page: what Instant Cities is over a city's tour playing live, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page; what there is in every city, a few words about the project (the whole story is on /about/) and a Play button for a few cities. Its words are in _data/home.yml. {%- endcomment -%}
+{%- comment -%} The home page: what Instant Cities is over compiled mini tours of five cities, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page; what there is in every city, a few words about the project (the whole story is on /about/) and a Play button for a few cities. Its words are in _data/home.yml. {%- endcomment -%}
 {%- assign H = site.data.home -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
@@ -14,7 +14,7 @@
 
   <main id="main">
     <section class="hero home-hero live-hero">
-      {% include live.html city=H.live_city poster=H.live_poster %}
+      {% include website-preview.html %}
       <div class="hero-text">
         <h1>Instant Cities <span class="beta">BETA</span></h1>
         <p class="tagline">{{ H.tagline }}</p>
@@ -100,7 +100,7 @@
 
   <script>
     {% include topnav.js %}
-    {% include live.js %}
+    {% include website-preview.js %}
     {% include europe.js %}
   </script>
 </body>
