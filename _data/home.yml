@@ -5,9 +5,9 @@ description: "Free 3D browser games set in the historic centres of European citi
 tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
-live_city: ghent # whose tour plays behind the home page's hero
-live_poster: /assets/img/ghent-tour.jpg # the tour's first shot, until it plays
-live_caption: "Live: the tour of Ghent"
+live_city: ghent # initial preview and full-tour link
+live_poster: /assets/previews/ghent.jpg # compiled preview's first frame
+live_caption: "Preview: Ghent"
 live_watch: "Watch the tour"
 soon_title: "Coming soon"
 cities_page_title: "Cities: the historic centres of Europe to play in 3D"
@@ -33,3 +33,6 @@ play_note: "Free · no account · works on PC, tablet and phone"
 beta: "Still in development: expect some rough edges."
 vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'
 credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
+
+# Compiled website previews, in playback order (each is 18 seconds).
+preview_cities: [ghent, rome, paris, london, barcelona]

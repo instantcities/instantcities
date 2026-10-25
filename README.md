@@ -27,10 +27,33 @@ page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city
 `_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
 `/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
 
-The heroes of the home page and of every city's page play that city's tour live behind their words:
-the game in watch mode (`/<id>/play/?watch`: no menu, buttons or cards, nothing saved) in an iframe,
-`_includes/live.html`, paused while it is scrolled out of sight. `?watch=cards` is the whole tour
-with its cards, starting straight away: the pages' "Watch the tour" button. The map of Europe on the
+The home page plays **website preview tours**: separate 18-second silent MP4s, rotating Ghent →
+Rome → Paris → London → Barcelona → Ghent. It loads one video at a time, with no game engine,
+city map or WebGL on the home page. Playback pauses offscreen or in a hidden tab; reduced motion
+and data saving keep the poster. The caption and “Watch the tour” link follow the current city.
+
+Each city's `<city>/website-preview.json` is its preview edit: three six-second shots with a
+name, an `at` point on the full tour's path, `before` (metres before that point), `seconds`, and
+`speed`. Optional `cameraFrom`, `cameraTo`, and `look` ([x, y, z]) define an independent
+camera move when a wider view works better for the website. These select highlights without changing the full in-game tour. To compile the clips:
+
+```bash
+node tools/website-preview.mjs                # all five, sequentially in one Chrome window
+node tools/website-preview.mjs paris         # rebuild only Paris after map or shot changes
+```
+
+Requires Chrome, `playwright` or `playwright-core` (local or global), and `ffmpeg`. The compiler
+renders fixed steps at 960×540 / 24 fps and writes silent H.264 videos and posters to
+`assets/previews/`. Commit those outputs: normal Jekyll builds simply copy them, and visitors
+never render them themselves. Temporary frames stay in ignored `tools/cache/website-preview/`.
+Use `--headless` only if needed; the default Chrome window uses the GPU to avoid slow CPU WebGL.
+The compiler rejects previews outside 10–20 seconds. Recompile a city when its map or full tour
+path changes. Playback order lives in `_data/home.yml` (`preview_cities`).
+
+City-page heroes still play their live tour in watch mode (`/<id>/play/?watch`: no menu, buttons
+or cards, nothing saved) in an iframe, `_includes/live.html`, paused while scrolled out of sight.
+`?watch=cards` is the whole tour with its cards, starting straight away: the “Watch the tour” button.
+The map of Europe on the
 home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
 `node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
 

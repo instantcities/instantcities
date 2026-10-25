@@ -1,0 +1,35 @@
+{
+  "name": "Paris",
+  "shots": [
+    {
+      "name": "Notre-Dame",
+      "at": [
+        260,
+        425
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    },
+    {
+      "name": "Pont Neuf",
+      "at": [
+        -442,
+        -73
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    },
+    {
+      "name": "Hôtel de Ville",
+      "at": [
+        462,
+        -102
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    }
+  ]
+}
