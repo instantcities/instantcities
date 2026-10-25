@@ -1723,6 +1723,8 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 
 .overlay .title, #loader .title { font-family: var(--sans); font-weight: 800; letter-spacing: -0.04em; }
 .overlay .title, #menu .title, #loader .title { color: #111; -webkit-text-stroke: 0; text-shadow: none; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; }
+/* "Instant Cities" small above the city's name */
+.title .brandline { display: block; margin-bottom: 0.15em; font-size: max(13px, 0.26em); font-weight: 600; letter-spacing: 0; color: var(--muted); }
 .overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
 .overlay .title .beta, #loader .title .beta {
   vertical-align: 0.9em; margin-left: 8px; padding: 3px 7px;
