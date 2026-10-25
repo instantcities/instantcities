@@ -2229,6 +2229,14 @@ function buildMenu() {
   $('restartBtn').addEventListener('click', () => startRace(true)); // exploring: back at the city's own spot
   $('pauseTitleBtn').addEventListener('click', () => toMenu());
   $('pauseCloseBtn').addEventListener('click', () => setPaused(false));
+  // come from a landmark's page on the site (?from=<its id>, on its "See it in 3D" link): the pause
+  // menu gets a button back to that page, and the website links go there too
+  const fromLandmark = new URLSearchParams(location.search).get('from');
+  if (/^[a-z0-9-]+$/.test(fromLandmark ?? '')) {
+    const back = `../landmark/${fromLandmark}/`;
+    document.querySelectorAll('[data-site-link], #pauseSiteBtn').forEach(a => { a.href = back; });
+    $('pauseSiteRow').classList.remove('hidden');
+  }
   $('pauseSettingsBtn').addEventListener('click', () => {
     const open = $('pauseSettings').classList.toggle('hidden') === false;
     $('pauseSettingsBtn').setAttribute('aria-expanded', open);
