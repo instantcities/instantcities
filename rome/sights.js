@@ -2,7 +2,7 @@
 // Made by tools/sights.mjs from _data/landmarks/rome.json; { id, emoji, x, z (game metres), r (how close), text: { <lang>: { name, text } } }.
 export const SIGHTS = [
   {
-    id: "colosseo", emoji: "🏟️", x: 1431.7, z: 1193.2, r: 60,
+    id: "colosseo", emoji: "🏟️", x: 1431.7, z: 1193.2, r: 140,
     text: { en: { name: "Colosseum", text: "The great amphitheatre of ancient Rome, opened in AD 80 for gladiator fights before some 50,000 people." } },
   },
   {

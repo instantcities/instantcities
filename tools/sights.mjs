@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import { mapCoords } from './mapcoords.mjs';
 
 const R = 60; // game metres a rider has to be within
+const WIDE = { rome: { colosseo: 140 } }; // the big ones, which a rider rides round rather than up to
 const cities = process.argv.slice(2);
 if (!cities.length) {
   for (const d of fs.readdirSync('.')) {
@@ -17,7 +18,7 @@ for (const city of cities) {
   const marks = JSON.parse(fs.readFileSync(`_data/landmarks/${city}.json`, 'utf8')).filter(l => l.kind === 'place');
   const out = marks.map(l => {
     const [x, z] = game(l.lat, l.lon);
-    return `  {\n    id: ${JSON.stringify(l.id)}, emoji: ${JSON.stringify(l.emoji)}, x: ${x.toFixed(1)}, z: ${z.toFixed(1)}, r: ${R},\n` +
+    return `  {\n    id: ${JSON.stringify(l.id)}, emoji: ${JSON.stringify(l.emoji)}, x: ${x.toFixed(1)}, z: ${z.toFixed(1)}, r: ${WIDE[city]?.[l.id] ?? R},\n` +
       `    text: { en: { name: ${JSON.stringify(l.name)}, text: ${JSON.stringify(l.blurb)} } },\n  },`;
   });
   fs.writeFileSync(`${city}/sights.js`,
