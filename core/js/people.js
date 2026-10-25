@@ -196,7 +196,7 @@ export class People {
         dog: null, colors: who.colors, figure: createFigure(who),
       });
       group.add(this.walkers.at(-1).figure.group);
-      // and their things, on the pavement beside their path (main.js finds the spot)
+      // and their things, on the pavement beside their path (game/worlds.js finds the spot)
       if (path.stash) {
         const pile = createStash(who.bags ?? [0xf2f2ee], 3);
         pile.position.set(path.stash.x, path.y, path.stash.z);
