@@ -299,6 +299,40 @@
     - { icon: flag, title: "A race: Duomo and Lungomare", text: "From below the Duomo through Via dei Mercanti and along the Corso, down to the sea, under the palms of the Lungomare and back along Via Roma." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
+- id: siena
+  name: Siena
+  country: Italy
+  lat: 43.3186
+  lon: 11.3306
+  game: Instant Siena
+  title: "Instant Siena: a free 3D game of Siena, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Siena in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Siena, round the Piazza del Campo!"
+  lead: "The centre of Siena in 3D, on its three hills in Tuscany: the Piazza del Campo, the Torre del Mangia, the striped cathedral and the brick lanes of the contrade, every building from OpenStreetMap."
+  card: "The Gothic town of brick on three hills: the shell of the Campo, the Torre del Mangia and the striped cathedral."
+  features:
+    - { icon: city, title: "The real Siena", text: "About 1,900 buildings from OpenStreetMap, a small first piece of the centre, with the Duomo and the Torre del Mangia at their real height. More of the city comes later." }
+    - { icon: church, title: "The Campo and the Duomo", text: "The shell of red brick below the Palazzo Pubblico and the Fonte Gaia, the Loggia della Mercanzia, the striped cathedral with Santa Maria della Scala, and San Domenico across the valley." }
+    - { icon: flag, title: "A race: Campo and Duomo", text: "Down Banchi di Sopra to the Loggia della Mercanzia, into the Campo below the Torre del Mangia, up the Casato to the Duomo and back past the Baptistery along Via delle Terme." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: pisa
+  name: Pisa
+  country: Italy
+  lat: 43.7166
+  lon: 10.4001
+  game: Instant Pisa
+  title: "Instant Pisa: a free 3D game of Pisa, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of Pisa in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through Pisa, from the Leaning Tower down to the Arno!"
+  lead: "The centre of Pisa in 3D, from the Piazza dei Miracoli down to the Arno: the Leaning Tower and the Duomo, Via Santa Maria, the Lungarni and the Ponte di Mezzo, every building from OpenStreetMap."
+  card: "The old sea republic on the Arno: the Leaning Tower on the Piazza dei Miracoli, the university streets and the palazzi along the river."
+  features:
+    - { icon: city, title: "The real Pisa", text: "About 3,000 buildings from OpenStreetMap, a small first piece of the centre on both banks of the Arno. More of the city comes later." }
+    - { icon: tower, title: "From the tower to the river", text: "The Duomo, the Baptistery, the Leaning Tower and the Camposanto on the Piazza dei Miracoli, the Piazza dei Cavalieri and Borgo Stretto, Santa Maria della Spina on the Lungarno and Corso Italia out to the station." }
+    - { icon: flag, title: "A race: Tower and Arno", text: "Up Via Roma to the Leaning Tower, down Via Santa Maria to the Arno, across the Ponte di Mezzo, past Santa Maria della Spina and back over the Ponte Solferino." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
 - id: lecce
   name: Lecce
   country: Italy

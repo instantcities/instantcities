@@ -1,0 +1,263 @@
+[
+  {
+    "id": "torre",
+    "name": "Leaning Tower of Pisa",
+    "local": "Torre pendente, the Campanile",
+    "emoji": "🗼",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 43.72301,
+    "lon": 10.39663,
+    "blurb": "The cathedral’s bell tower, which started to lean before its third floor was finished and has leaned ever since, some four degrees today.",
+    "text": [
+      "Pisa began the bell tower of its cathedral in 1173. By the time the builders reached the third floor, the soft clay and sand under it had given way on the south side and the tower had started to lean. Work stopped for almost a century, and when it went on, the builders made the upper floors a little taller on the low side to straighten it, which is why the tower is slightly bent. The bell chamber on top was finished around 1372.",
+      "The tower is about 56 metres tall, with 294 steps up a spiral staircase inside the wall, and seven bells at the top. By 1990 it leaned so far that it was closed. Engineers drew soil out from under the high side, and by 2001 they had brought it back by about 40 centimetres, to roughly four degrees, safe for centuries. In the game it stands upright, as it is drawn from OpenStreetMap’s outline and height."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/torre.jpg",
+      "author": "Luca Aless",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pisa_-_Torre_Pendente.JPG"
+    }
+  },
+  {
+    "id": "duomo",
+    "name": "Duomo di Pisa",
+    "local": "Cattedrale di Santa Maria Assunta",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 43.72329,
+    "lon": 10.39593,
+    "blurb": "The marble cathedral of 1064, paid for with the spoils of a raid on Palermo, the first great building of the Pisan Romanesque.",
+    "text": [
+      "Pisa was one of the great sea powers of the Mediterranean when it began its cathedral in 1064, with the treasure its fleet had taken from Palermo the year before. The architect Buscheto designed it as a cross of five naves, in white and grey marble with rows of arches, and Rainaldo lengthened it and added the façade in the 12th century. Pope Gelasius II consecrated it in 1118.",
+      "Inside are Giovanni Pisano’s carved pulpit of 1302 to 1310 and the bronze lamp that, the story goes, set the young Galileo thinking about the swing of a pendulum. The lamp there now was hung a few years after he would have watched it, but the story stuck."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/duomo.jpg",
+      "author": "Mithodic",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Duomo_di_Pisa,_visto_dal_Battistero.jpg"
+    }
+  },
+  {
+    "id": "battistero",
+    "name": "Baptistery",
+    "local": "Battistero di San Giovanni",
+    "emoji": "🕍",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 43.72327,
+    "lon": 10.39421,
+    "blurb": "The largest baptistery in Italy, round and domed, where a guard sings a few notes every half hour to let you hear its echo.",
+    "text": [
+      "Diotisalvi began the baptistery in 1152, in front of the cathedral’s façade. It took two centuries to finish, so its lower floors are Romanesque and its upper ones Gothic, with pinnacles and pointed gables added by Nicola and Giovanni Pisano. It is the largest in Italy, more than 100 metres round, and it leans a little too, towards the cathedral.",
+      "Nicola Pisano carved its marble pulpit in 1260, one of the first works of the new sculpture that looked back to ancient Rome. Under the dome the sound carries so well that a guard sings a few notes every half hour, and the echo turns them into a chord."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/battistero.jpg",
+      "author": "MenkinAlRire",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pisa,_Battistero_di_San_Giovanni,_1152-1363,_view_from_northwest.jpg"
+    }
+  },
+  {
+    "id": "camposanto",
+    "name": "Camposanto",
+    "local": "Camposanto Monumentale",
+    "emoji": "🕊️",
+    "icon": "wall",
+    "kind": "place",
+    "lat": 43.72403,
+    "lon": 10.39505,
+    "blurb": "The marble cloister of a cemetery on the north side of the square, said to stand on earth brought back from Golgotha.",
+    "text": [
+      "Legend says that Archbishop Ubaldo Lanfranchi brought shiploads of earth from Golgotha back from the Crusades, and that the cemetery was laid out on it. The long marble cloister round the lawn was begun in 1278 by Giovanni di Simone, and Pisa’s great families buried their dead there in Roman sarcophagi.",
+      "Its walls were covered in frescoes, among them the Triumph of Death. In July 1944 a shell set the roof on fire, the melting lead ran down the walls and most of the paintings were ruined. Restorers took off what was left and found the artists’ drawings underneath, the sinopie, now in a museum of their own across the square."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/camposanto.jpg",
+      "author": "Monica Rondoni",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pisa_-_Camposanto_monumentale_-_cortile_interno.jpg"
+    }
+  },
+  {
+    "id": "santa-maria-della-spina",
+    "name": "Santa Maria della Spina",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 43.71522,
+    "lon": 10.39664,
+    "blurb": "A tiny Gothic church on the bank of the Arno, all pinnacles and statues, once home to a thorn from Christ’s crown.",
+    "text": [
+      "The little oratory on Lungarno Gambacorti was built around 1230 and made over in the 14th century into the spiky Gothic church you see now, covered with pinnacles, tabernacles and statues by the workshop of the Pisanos. It takes its name from a thorn of Christ’s crown of thorns, which was brought to it in 1333.",
+      "The church stood right at the water’s edge and the Arno kept flooding it, so in 1871 the city took it apart stone by stone and built it up again a little higher, on the same bank."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/santa-maria-della-spina.jpg",
+      "author": "John Samuel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_Santa_Maria_della_Spina_(Pisa)_01.jpg"
+    }
+  },
+  {
+    "id": "piazza-dei-cavalieri",
+    "name": "Piazza dei Cavalieri",
+    "emoji": "🛡️",
+    "icon": "shield",
+    "kind": "place",
+    "lat": 43.71938,
+    "lon": 10.40022,
+    "blurb": "The square of the Knights of Saint Stephen, with Vasari’s painted palace, now the Scuola Normale, and the tower where Count Ugolino starved.",
+    "text": [
+      "The square was the political heart of medieval Pisa. After Florence took the city, Cosimo I de’ Medici made it the seat of his new order of knights, the Knights of Saint Stephen, founded in 1561 to fight the pirates of the Mediterranean. Giorgio Vasari rebuilt the Palazzo della Carovana for them, its front covered in black and white sgraffito, and Cosimo’s statue stands in front of it.",
+      "Since 1810 the palace has housed the Scuola Normale Superiore, one of Italy’s most selective universities. The Palazzo dell’Orologio across the square takes in the old Torre della Muda, where Count Ugolino della Gherardesca was locked up with his sons and grandsons in 1289 and left to starve, as Dante tells in the Inferno."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/piazza-dei-cavalieri.jpg",
+      "author": "Zairon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pisa_Piazza_dei_Cavalieri_1.jpg"
+    }
+  },
+  {
+    "id": "borgo-stretto",
+    "name": "Borgo Stretto",
+    "emoji": "🛍️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 43.71734,
+    "lon": 10.40228,
+    "blurb": "Pisa’s old shopping street under the arcades, from the Ponte di Mezzo north into the medieval town.",
+    "text": [
+      "Borgo Stretto runs north from Piazza Garibaldi, at the end of the Ponte di Mezzo, into the old town. Its houses stand on arcades, so you shop and walk under the porticoes, past cafés and old pastry shops and the church of San Michele in Borgo.",
+      "Just off it lie the market squares, Piazza delle Vettovaglie with its arcades and Piazza San Omobono, where the stalls of fruit and vegetables go up every morning."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/borgo-stretto.jpg",
+      "author": "Sailko",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Borgo_stretto.JPG"
+    }
+  },
+  {
+    "id": "lungarni",
+    "name": "The Lungarni",
+    "local": "Lungarni",
+    "emoji": "🌊",
+    "icon": "wave",
+    "kind": "place",
+    "lat": 43.71631,
+    "lon": 10.39854,
+    "blurb": "The streets along both banks of the Arno, lined with palazzi in ochre and pink, lit with thousands of candles every 16 June.",
+    "text": [
+      "The Arno makes a wide bend through the middle of Pisa, and both its banks are lined with streets, the Lungarni, and with palazzi in yellow, ochre and pink. On the north bank run Lungarno Pacinotti and Lungarno Mediceo; on the south bank Lungarno Gambacorti and Lungarno Galilei, with the Palazzo Blu, painted the colour its name says.",
+      "On the evening of 16 June, the eve of the feast of the city’s patron saint Ranieri, Pisa holds the Luminara: some 70,000 little lights are set along the windows, cornices and bridges, and the whole bend of the river shines. The next day the four quarters of the city row their boats against each other up the Arno."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/lungarni.jpg",
+      "author": "PaestumPaestum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lungarno_(Pisa).jpg"
+    }
+  },
+  {
+    "id": "ponte-di-mezzo",
+    "name": "Ponte di Mezzo",
+    "emoji": "🌉",
+    "icon": "bridge",
+    "kind": "place",
+    "lat": 43.71591,
+    "lon": 10.40191,
+    "blurb": "The middle bridge, where the city has crossed the Arno since Roman times, and where the north and the south of Pisa fight every June.",
+    "text": [
+      "There has been a bridge here since Roman times, linking the old town on the north bank with the quarter of Kinzica on the south. The stone bridge of the 17th century was blown up in the Second World War, and the single wide arch of today replaced it after the war.",
+      "On the last Saturday of June the bridge hosts the Gioco del Ponte: the teams of the north bank, Tramontana, and the south bank, Mezzogiorno, push a heavy cart along a rail across it, each trying to drive it into the other half."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/ponte-di-mezzo.jpg",
+      "author": "Passiflora41",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_di_Mezzo,_Pisa,_8_marzo_2015.jpg"
+    }
+  },
+  {
+    "id": "logge-di-banchi",
+    "name": "Logge di Banchi",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 43.71523,
+    "lon": 10.40138,
+    "blurb": "The open loggia at the south end of the Ponte di Mezzo, built around 1605 for the silk and wool traders.",
+    "text": [
+      "Grand Duke Ferdinando I de’ Medici had the loggia built between 1603 and 1605, to a design by Bernardo Buontalenti, as a covered market for the trade in silk and wool. Its big arches stand open on every side, right where Corso Italia comes down to the river.",
+      "Today it shelters markets and fairs, and in the evening the young people of Pisa meet under its arches and on the steps by the bridge."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/logge-di-banchi.jpg",
+      "author": "Zairon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pisa_Riva_dell%27Arno_Logge_di_Banchi_1.jpg"
+    }
+  },
+  {
+    "id": "tuttomondo",
+    "name": "Tuttomondo",
+    "emoji": "🎨",
+    "icon": "palette",
+    "kind": "place",
+    "lat": 43.7109,
+    "lon": 10.3983,
+    "blurb": "Keith Haring’s last big mural, painted in 1989 on the back wall of the convent of Sant’Antonio, near the station.",
+    "text": [
+      "In June 1989 the American artist Keith Haring painted Tuttomondo, “the whole world”, on the back wall of the convent of the church of Sant’Antonio Abate. In a few days he covered about 180 square metres with some thirty of his bright figures, linked together, about peace and harmony in the world.",
+      "It was one of the last public works he made before he died in February 1990, and one of the few he meant to last. It is on the way from the station to the centre, so many visitors pass it on their first walk into town."
+    ]
+  },
+  {
+    "id": "gioco-del-ponte",
+    "name": "Gioco del Ponte",
+    "emoji": "⚔️",
+    "icon": "flag",
+    "kind": "tradition",
+    "blurb": "On the last Saturday of June the north and the south of Pisa push a cart across the Ponte di Mezzo, after a parade in Renaissance costume.",
+    "text": [
+      "The Game of the Bridge goes back to the battles of the Middle Ages, when the two halves of the city fought on the Ponte di Mezzo with wooden shields. Today the north bank, Tramontana, and the south bank, Mezzogiorno, each field six quarters, and their teams push a heavy cart along a rail laid across the bridge.",
+      "The side that drives the cart into the other’s half wins the round, and the side that wins most of the rounds takes the day. Before the game hundreds of people parade along the Lungarni in Renaissance costume and armour."
+    ]
+  },
+  {
+    "id": "cecina",
+    "name": "Cecina",
+    "local": "Cecina, or torta di ceci",
+    "emoji": "🫓",
+    "icon": "utensils",
+    "kind": "food",
+    "blurb": "A thin, golden flatbread of chickpea flour, water and olive oil, baked in a copper pan in a wood oven and eaten hot with pepper.",
+    "text": [
+      "In Pisa and along the coast to Livorno, the pizzerias bake cecina: a batter of chickpea flour, water, olive oil and salt, poured thin into a wide copper pan and baked in a very hot oven until the top is golden and the inside still soft.",
+      "It comes in slices, hot, with black pepper, on its own or, as in Livorno, in a roll. Pisans eat it as a snack in the afternoon or before the pizza."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pisa/cecina.jpg",
+      "author": "Catia Giaccherini",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cecina_01.jpg"
+    }
+  }
+]

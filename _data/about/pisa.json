@@ -1,0 +1,324 @@
+{
+  "intro": "Pisa lies on the Arno in Tuscany, a few kilometres from the sea. In the Middle Ages it was one of Italy’s great sea republics, and its fleet paid for the white marble cathedral, baptistery and bell tower on the Piazza dei Miracoli. The bell tower began to lean while it was being built and has leaned ever since. Today Pisa is above all a university town, with its students on the squares and its palazzi along the river.",
+  "famous": [
+    "The Leaning Tower, the bell tower that started to lean before it was finished",
+    "The Piazza dei Miracoli, with the Duomo, the Baptistery and the Camposanto in white marble on a green lawn",
+    "Galileo Galilei, who was born here and studied and taught at the university",
+    "The Lungarni along the bend of the Arno, lit with 70,000 candles at the Luminara every June",
+    "The Scuola Normale and the University of Pisa, among the oldest and most selective in Italy"
+  ],
+  "facts": [
+    [
+      "Country",
+      "Italy"
+    ],
+    [
+      "Region",
+      "Tuscany"
+    ],
+    [
+      "Province",
+      "Pisa, of which it is the capital"
+    ],
+    [
+      "Population",
+      "About 89,000 (city)"
+    ],
+    [
+      "River",
+      "The Arno, which reaches the sea some 10 kilometres downstream"
+    ],
+    [
+      "Language",
+      "Italian"
+    ],
+    [
+      "Patron saint",
+      "Saint Ranieri, feast day 17 June"
+    ],
+    [
+      "World Heritage",
+      "The Piazza del Duomo, on UNESCO’s list since 1987"
+    ]
+  ],
+  "overview": [
+    "The old town of Pisa lies on both banks of the Arno, which makes a wide bend through the middle of it. North of the river, the medieval town stretches from the Lungarni up to the walls, with Borgo Stretto and its arcades, the market squares and the Piazza dei Cavalieri. In the north-west corner, against the walls, the Duomo, the Baptistery, the bell tower and the Camposanto stand on their lawn. South of the river, in the old quarter of Kinzica, Corso Italia leads from the Logge di Banchi to the station.",
+    "Instant Pisa takes you through the heart of it: from the Leaning Tower down Via Santa Maria, the street of the university, to the river, along the Lungarni on both banks, across the Ponte di Mezzo and the Ponte Solferino, past Santa Maria della Spina, and south along Corso Italia to the station. The game draws the tower from OpenStreetMap’s outline and height, so in the game it stands upright."
+  ],
+  "setting": [
+    "Pisa lies in the flat plain of the lower Arno, about 10 kilometres from the Tyrrhenian Sea, between Florence, 80 kilometres upstream, and the port of Livorno to the south. In Roman and medieval times the sea came much closer, and the city had its harbour on the coast. The river has brought down so much silt since then that the coast now lies far to the west, beyond the pine woods of San Rossore.",
+    "The ground under the city is soft clay and sand, which is why not only the bell tower leans: the Baptistery and many other towers and churches lean too. The climate is Mediterranean, with hot summers and mild, rainy winters, and the Apuan Alps and the Monti Pisani shelter the plain from the north."
+  ],
+  "history": [
+    {
+      "title": "A sea republic",
+      "text": [
+        "Pisa was an Etruscan and then a Roman town, with its port on what was then the coast. In the 11th century it grew into one of the four great sea republics of Italy, with Genoa, Venice and Amalfi. Its fleet fought the Saracens, raided Palermo in 1063, sailed with the Crusades and won trading posts all over the Mediterranean, from Sardinia and Corsica to the Levant.",
+        "With the spoils the city began its cathedral in 1064, then the Baptistery and the bell tower, and later the Camposanto. Pisan merchants brought new knowledge home too: Leonardo Fibonacci, the son of a Pisan official in North Africa, introduced the Hindu-Arabic numerals to Europe in his Liber Abaci of 1202."
+      ]
+    },
+    {
+      "title": "Defeat, and Florence",
+      "text": [
+        "In 1284 Genoa destroyed the Pisan fleet in the battle of Meloria, and Pisa never recovered its power at sea. Count Ugolino della Gherardesca, accused of treason after the defeat, was starved to death in a tower on the Piazza dei Cavalieri, as Dante tells in the Inferno. The harbour silted up, and in 1406 Florence took the city after a long siege.",
+        "Pisa rose against Florence in 1494 and held out for fifteen years before it fell again in 1509. Under the Medici it became a city of learning: Cosimo I refounded the university, set up the Knights of Saint Stephen on the Piazza dei Cavalieri and laid out the botanical garden. Galileo Galilei was born in Pisa in 1564, studied at its university and taught mathematics there."
+      ]
+    },
+    {
+      "title": "War and the tower",
+      "text": [
+        "Pisa became part of the new Kingdom of Italy in 1860. In the Second World War Allied bombs hit the city in 1943, and in the summer of 1944 the front line ran along the Arno for weeks: the retreating Germans blew up the bridges, and a shell set the roof of the Camposanto on fire.",
+        "After the war the city rebuilt its bridges and its Lungarni. In 1990 the bell tower leaned so far that it was closed to visitors, and engineers spent eleven years drawing soil out from under its high side until it stood safe again; it reopened in 2001."
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "1063",
+      "The Pisan fleet raids Palermo, and its spoils pay for the cathedral"
+    ],
+    [
+      "1064",
+      "Work begins on the Duomo"
+    ],
+    [
+      "1118",
+      "Pope Gelasius II consecrates the Duomo"
+    ],
+    [
+      "1152",
+      "Diotisalvi begins the Baptistery"
+    ],
+    [
+      "1173",
+      "Work begins on the bell tower, which soon starts to lean"
+    ],
+    [
+      "1202",
+      "Leonardo Fibonacci writes his Liber Abaci"
+    ],
+    [
+      "1278",
+      "Work begins on the Camposanto"
+    ],
+    [
+      "1284",
+      "Genoa defeats the Pisan fleet at Meloria"
+    ],
+    [
+      "1343",
+      "The pope founds the University of Pisa"
+    ],
+    [
+      "1406",
+      "Florence takes Pisa after a long siege"
+    ],
+    [
+      "1561",
+      "Cosimo I de’ Medici founds the Knights of Saint Stephen"
+    ],
+    [
+      "1564",
+      "Galileo Galilei is born in Pisa"
+    ],
+    [
+      "1810",
+      "Napoleon founds the Scuola Normale"
+    ],
+    [
+      "1871",
+      "Santa Maria della Spina is taken apart and rebuilt a metre higher"
+    ],
+    [
+      "1944",
+      "The front runs along the Arno, the bridges are blown up and the Camposanto burns"
+    ],
+    [
+      "1987",
+      "The Piazza del Duomo goes on UNESCO’s World Heritage list"
+    ],
+    [
+      "1989",
+      "Keith Haring paints Tuttomondo"
+    ],
+    [
+      "1990",
+      "The Leaning Tower closes to visitors"
+    ],
+    [
+      "2001",
+      "The tower reopens, straightened by about 40 centimetres"
+    ]
+  ],
+  "today": [
+    "Pisa is a university town first: with the University, the Scuola Normale and the Sant’Anna school it has some 50,000 students in a city of under 90,000 people. Millions of visitors come for the Piazza dei Miracoli, many for a day, by train from Florence or through Galileo Galilei airport, the busiest in Tuscany, just south of the centre.",
+    "Pisans keep their festivals in June, the Giugno Pisano: the Luminara on the evening of 16 June, when thousands of candles light the Lungarni, the boat race of San Ranieri on the 17th, and the Gioco del Ponte on the last Saturday of the month, when the north and the south of the city fight for the Ponte di Mezzo."
+  ],
+  "places": [
+    {
+      "id": "piazza-dei-miracoli",
+      "name": "Piazza dei Miracoli",
+      "local": "Piazza del Duomo",
+      "kind": "square",
+      "lat": 43.72311,
+      "lon": 10.39595,
+      "blurb": "The cathedral square on its green lawn, with the Duomo, the Baptistery, the tower and the Camposanto.",
+      "landmark": "duomo"
+    },
+    {
+      "id": "torre",
+      "name": "Leaning Tower",
+      "local": "Torre pendente",
+      "kind": "building",
+      "lat": 43.72301,
+      "lon": 10.39663,
+      "blurb": "The cathedral’s bell tower, leaning about four degrees since the Middle Ages.",
+      "landmark": "torre"
+    },
+    {
+      "id": "battistero",
+      "name": "Baptistery",
+      "local": "Battistero di San Giovanni",
+      "kind": "building",
+      "lat": 43.72327,
+      "lon": 10.39421,
+      "blurb": "The largest baptistery in Italy, famous for its echo.",
+      "landmark": "battistero"
+    },
+    {
+      "id": "camposanto",
+      "name": "Camposanto",
+      "kind": "building",
+      "lat": 43.72403,
+      "lon": 10.39505,
+      "blurb": "The marble cloister of the cemetery, its frescoes burnt in 1944.",
+      "landmark": "camposanto"
+    },
+    {
+      "id": "via-santa-maria",
+      "name": "Via Santa Maria",
+      "kind": "street",
+      "lat": 43.71917,
+      "lon": 10.39689,
+      "blurb": "The street of the university, from the Duomo down to the Arno."
+    },
+    {
+      "id": "orto-botanico",
+      "name": "Orto Botanico",
+      "kind": "park",
+      "lat": 43.7197,
+      "lon": 10.39634,
+      "blurb": "The university’s botanical garden, founded in 1544, one of the oldest in Europe."
+    },
+    {
+      "id": "piazza-dei-cavalieri",
+      "name": "Piazza dei Cavalieri",
+      "kind": "square",
+      "lat": 43.71938,
+      "lon": 10.40022,
+      "blurb": "The square of the Knights of Saint Stephen and of the Scuola Normale.",
+      "landmark": "piazza-dei-cavalieri"
+    },
+    {
+      "id": "borgo-stretto",
+      "name": "Borgo Stretto",
+      "kind": "street",
+      "lat": 43.71734,
+      "lon": 10.40228,
+      "blurb": "The old shopping street under the arcades.",
+      "landmark": "borgo-stretto"
+    },
+    {
+      "id": "arno",
+      "name": "Arno",
+      "kind": "waterway",
+      "lat": 43.716,
+      "lon": 10.39913,
+      "blurb": "The river that bends through the middle of the city, on its way from Florence to the sea.",
+      "landmark": "lungarni"
+    },
+    {
+      "id": "lungarno-gambacorti",
+      "name": "Lungarno Gambacorti",
+      "kind": "street",
+      "lat": 43.71549,
+      "lon": 10.39868,
+      "blurb": "The south bank of the Arno, with Santa Maria della Spina and the Palazzo Blu.",
+      "landmark": "lungarni"
+    },
+    {
+      "id": "ponte-di-mezzo",
+      "name": "Ponte di Mezzo",
+      "kind": "bridge",
+      "lat": 43.71591,
+      "lon": 10.40191,
+      "blurb": "The middle bridge, the battlefield of the Gioco del Ponte.",
+      "landmark": "ponte-di-mezzo"
+    },
+    {
+      "id": "santa-maria-della-spina",
+      "name": "Santa Maria della Spina",
+      "kind": "building",
+      "lat": 43.71522,
+      "lon": 10.39664,
+      "blurb": "The tiny Gothic church on the river bank.",
+      "landmark": "santa-maria-della-spina"
+    },
+    {
+      "id": "logge-di-banchi",
+      "name": "Logge di Banchi",
+      "kind": "building",
+      "lat": 43.71523,
+      "lon": 10.40138,
+      "blurb": "The open loggia of the silk and wool market, at the south end of the Ponte di Mezzo.",
+      "landmark": "logge-di-banchi"
+    },
+    {
+      "id": "corso-italia",
+      "name": "Corso Italia",
+      "kind": "street",
+      "lat": 43.71302,
+      "lon": 10.40025,
+      "blurb": "The shopping street of the south bank, closed to cars, from the river to the station."
+    },
+    {
+      "id": "tuttomondo",
+      "name": "Tuttomondo",
+      "kind": "building",
+      "lat": 43.7109,
+      "lon": 10.3983,
+      "blurb": "Keith Haring’s mural of 1989 on the wall of the convent of Sant’Antonio.",
+      "landmark": "tuttomondo"
+    },
+    {
+      "id": "stazione",
+      "name": "Pisa Centrale",
+      "kind": "building",
+      "lat": 43.70841,
+      "lon": 10.39858,
+      "blurb": "The main station, on the line along the coast and to Florence."
+    }
+  ],
+  "links": [
+    {
+      "title": "Comune di Pisa",
+      "url": "https://www.comune.pisa.it/",
+      "note": "The city council (in Italian)"
+    },
+    {
+      "title": "Opera della Primaziale Pisana",
+      "url": "https://www.opapisa.it/",
+      "note": "The Piazza dei Miracoli: tickets for the tower, the cathedral and the museums"
+    },
+    {
+      "title": "University of Pisa",
+      "url": "https://www.unipi.it/",
+      "note": "The university, founded in 1343"
+    },
+    {
+      "title": "Pisa on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pisa",
+      "note": "The encyclopedia article"
+    }
+  ]
+}
