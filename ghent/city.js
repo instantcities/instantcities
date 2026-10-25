@@ -15,6 +15,7 @@
 //   streets.js       fronts per street from a spec each, read off Mapillary photos (see facade-lab.html)
 //   squares.js       the car-free squares, paved wall to wall (hand-written)
 //   sights.js        the sights, and what a card tells you about each when you ride up (hand-written)
+//   inside.js        the buildings you can go into, their doors and cards; their rooms in inside/ (hand-written)
 //   tour.js          the tour: the flight through the old town and its stops (hand-written)
 //   infill.js        a block the map leaves empty, built up, and a map house a landmark stands on (hand-written)
 //   graffitistraat.js the narrow Werregarenstraat, with graffiti on both courtyard walls (hand-written)
@@ -193,18 +194,11 @@ import { HOLLOWS as KOUTER_RAMP, onRamp as onKouterRamp, rampRoad as kouterRampR
 // The car parks under the Kouter and under Dok Noord are one: ride into a mouth of the one and you
 // come up the other's ramp (core/js/main.js); from Dok Noord, up the Kouter's way out. Each portal:
 // where its mouth is, and where it lets you out.
-// And the doors into three buildings, whose insides are a map of their own (ghentinside/): ride into
-// one and that page opens, with you just inside its door. A portal with an href is such a door;
-// yaw is the way out of the building, away from the door.
-const INSIDE = [
-  { x: 226.2, z: 49, yaw: -Math.PI / 2, href: '/ghentinside/play/?at=sint-baafs', name: 'Sint-Baafskathedraal' }, // the west door, on the Sint-Baafsplein
-  { x: -56.7, z: -56.8, yaw: -0.243, href: '/ghentinside/play/?at=sint-niklaas', name: 'Sint-Niklaaskerk' }, // the south door, on the Veldstraat
-  { x: 118, z: -111.1, yaw: 0, href: '/ghentinside/play/?at=stadhuis', name: 'Stadhuis' }, // the Renaissance front on the Botermarkt
-].map(d => ({ ...d, icon: '🚪' }));
+// (The doors into Sint-Baafs, Sint-Niklaas and the Stadhuis are in inside.js: their rooms stand on
+// this map, js/interiors.js.)
 export const PORTALS = [
   ...KOUTER_MOUTHS.map(m => ({ ...m, to: DOK_NOORD_MOUTH, name: 'Parking Dok Noord' })),
   { ...DOK_NOORD_MOUTH, to: KOUTER_MOUTHS[0], name: 'Parking Kouter' },
-  ...INSIDE,
 ];
 export { LANDMARKS } from './landmarks.js';
 // the squares lower than their streets (measured, landmarks.js), the ramps down to Dok Noord's and
@@ -227,6 +221,7 @@ export { FURNITURE } from './furniture.js';
 export { RACES } from './races.js';
 export { QUESTS } from './quests.js';
 export { SIGHTS } from './sights.js';
+export { INSIDE } from './inside.js';
 export { AREAS, BEACHES, RUNS, ROWING } from './blaarmeersen.js';
 export { TERRAIN } from './terrain.js';
 export { FAMOUS } from './famous.js';

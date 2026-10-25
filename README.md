@@ -203,6 +203,34 @@ SGOL's terrace down on the sunken forecourt below it, and out at
 the Blaarmeersen a beach full of sunbathers and runners doing laps round the Watersportbaan
 (`ghent/pavilions.js`, `stadshal.js`, `blaarmeersen.js`; the stall itself is `core/js/stall.js`).
 
+## Going inside
+
+Some buildings can be entered: Sint-Baafs (with Het Lam Gods), the Stadhuis and the Sint-Niklaaskerk
+in Ghent, the Louvre in Paris, the Uffizi in Florence, the British Museum in London, and the
+Pantheon and the Sistine Chapel in Rome. By the door a card names the building: ride into the door,
+click the card or press the item key (E / Enter, Y on a gamepad) to go in. Inside everybody goes on
+foot and at a walk, and the door inside takes you back to the street on what you rode in on. The big
+map shows each door as 🚪 and its index lists the buildings under *Go inside*, so the British Museum
+and the Sistine Chapel, which lie just off their maps, are reached from there (their doors out let
+you into the city on the way to them). `/<city>/play/?inside=<id>` goes straight in. Not during a
+quest.
+
+A big museum is a few of its key rooms joined by doorways, not its real plan: the Louvre is the Hall
+Napoléon under the pyramid, the Venus de Milo, the Daru stair with the Winged Victory, the Grande
+Galerie and the Mona Lisa's room. Each room has cards for what is in it, and in the two buildings
+that are about their ceilings (the Sistine Chapel, the Pantheon) the camera looks up when you stand
+still.
+
+How it works (`core/js/interiors.js`): a city lists its buildings in `<city>/inside.js` (`INSIDE`:
+each its rooms' builder, its size, its door in the street, its cards, its light) and builds the rooms
+in `<city>/inside/`. Every building stands on the city's own map, in a row 2 km east of it where
+nobody sees it from the streets, so going in is a teleport, with nothing to load, and two players can
+be one inside and one out. Their light is put on per player's view: always daylight under a roof, no
+rain. What the rooms are built from is shared, in `core/js/inside/`: `gothic.js` (walls, vaults,
+stained glass, a cruciform church from a plan), `rooms.js` (halls with doorways, skylights, painted
+vaults, frames, plinths, ropes, glass cases, visitors), `art.js` (the famous pictures, drawn after
+the real ones), `statues.js`, `props.js` and `pictures.js`.
+
 ## Missions
 
 **Missions**, next to Race, lists the missions as cards. The first, **Vrij verkennen**, is riding

@@ -31,7 +31,8 @@ import { sfx, music } from './sound.js';
 import { buzz } from './haptics.js';
 import { Ambient } from './ambient.js';
 import { Quest } from './quests.js';
-import { QUESTS, PLACES, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, STOPS, TOUR, TOUR_PROPS, NAME, FREE_START, ROWING, DEMO } from './city.js';
+import { QUESTS, PLACES, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, STOPS, TOUR, TOUR_PROPS, NAME, FREE_START, ROWING, DEMO, INSIDE } from './city.js';
+import { LIGHT as INDOOR_LIGHT } from './interiors.js';
 import { Tour, STANDING } from './tour.js';
 import { hoopsAlong, Course, hoopMeshes } from './dragonfly.js';
 import { Demo } from './demo.js';
@@ -629,7 +630,9 @@ class Racer {
   }
 
   setHorse(h, mount) {
+    if (this.model) scene.remove(this.model.root);
     this.def = h;
+    this.mount = mount;
     this.model = riderModel(h, mount);
     this.model.label.layers.set(1 + this.i); // this slot's camera never shows its own tag
     scene.add(this.model.root);
@@ -732,6 +735,11 @@ huds.forEach((h, p) => h.tram.addEventListener('pointerdown', e => {
   e.stopPropagation();
   if (game.state === 'race') tramAction(humans[p]);
 }));
+// the door card goes through the door
+huds.forEach((h, p) => h.door.addEventListener('pointerdown', e => {
+  e.stopPropagation();
+  if (game.state === 'race') doorAction(humans[p]);
+}));
 huds.forEach((h, p) => h.tramSeat.addEventListener('pointerdown', e => {
   e.stopPropagation();
   const r = humans[p];
@@ -747,6 +755,11 @@ huds.forEach(h => {
   h.sightX.addEventListener('click', () => { h.sightMini = true; h.sightPinned = false; });
   h.sightI.addEventListener('click', () => { h.sightMini = false; h.sightPinned = true; });
 });
+huds.forEach((h, p) => h.sightEnter.addEventListener('click', e => {
+  e.preventDefault();
+  const room = h.sightRoom;
+  if (room && game.state === 'race') { putAt(humans[p], room.inside.x, room.inside.z, room.inside.yaw); hudMsg(p, `${room.emoji} ${roomName(room)}`); }
+}));
 
 function buildHud(p) {
   const el = document.createElement('div');
@@ -773,7 +786,8 @@ function buildHud(p) {
     <div class="flash"></div>
     <div class="lm l">${LM_PILL.repeat(2)}</div><div class="lm r">${LM_PILL.repeat(2)}</div>
     <div class="sight"><button class="sight-i" type="button" aria-label="Info">ⓘ</button><button class="sight-x" type="button">✕</button><div class="sight-head">${EYE}<b></b></div><div class="sight-text"></div><div class="sight-btns"><a class="chip sight-more" target="_blank" rel="noopener"></a><a class="chip sight-enter"></a></div></div>
-    <div class="tramcard"><div class="tram-head"></div><div class="tram-row"><span class="tram-badge"></span><div class="tram-info"><small></small><b></b><p></p></div></div><div class="tram-btns"><button class="chip tram-go" type="button"></button><button class="chip tram-seat" type="button" hidden></button></div></div>`;
+    <div class="tramcard"><div class="tram-head"></div><div class="tram-row"><span class="tram-badge"></span><div class="tram-info"><small></small><b></b><p></p></div></div><div class="tram-btns"><button class="chip tram-go" type="button"></button><button class="chip tram-seat" type="button" hidden></button></div></div>
+    <button class="doorcard" type="button"><span class="door-emoji"></span><span><small></small><b></b></span><kbd></kbd></button>`;
   el.insertAdjacentHTML('afterbegin', '<div class="seatview"><div class="pane"></div><div class="sill"></div><div class="pole"></div><div class="seatback"></div></div>'
     + '<div class="cabview"><div class="roof"></div><div class="pillar l"></div><div class="pillar r"></div><div class="mirror"></div><div class="dash"></div><div class="wheel"></div></div>');
   document.body.appendChild(el);
@@ -790,6 +804,7 @@ function buildHud(p) {
     wrong: q('.wrong'), incoming: q('.incoming'), finished: q('.finished'), hint: q('.hint'),
     items: q('.items'), slots: [...el.querySelectorAll('.slot')], icons: [...el.querySelectorAll('.ico')],
     flash: q('.flash'), qnav: q('.qnav'), qarrow: q('.qarrow'), qinfo: q('.qinfo'), qhp: q('.qhp'), qbars: [...el.querySelectorAll('.qhp i')], qfries: q('.qfries'), street, streetNow: street.querySelector('.now'), streetNext: street.querySelector('.next'),
+    door: q('.doorcard'), doorEmoji: q('.door-emoji'), doorLabel: q('.doorcard small'), doorName: q('.doorcard b'), doorKey: q('.doorcard kbd'),
     tram: q('.tramcard'), tramBadge: q('.tram-badge'), tramLabel: q('.tramcard small'), tramName: q('.tramcard b'), tramText: q('.tramcard p'), tramSeat: q('.tram-seat'), tramHead: q('.tram-head'), tramGo: q('.tram-go'), seatView: q('.seatview'), cabView: q('.cabview'),
     sight: q('.sight'), sightName: q('.sight b'), sightText: q('.sight-text'), sightX: q('.sight-x'), sightMore: q('.sight-more'), sightEnter: q('.sight-enter'), sightI: q('.sight-i'), sightMini: false, sightPinned: false, sightAt: null, sightShut: null,
     // the pointers to the sights out of view: [left, right], two each
@@ -873,7 +888,7 @@ function updateSight(h, r) {
         h.sightText.replaceChildren(ul);
       }
     }
-    const href = s.secret ? '' : sightPage(s.id);
+    const href = s.secret || s.inside ? '' : sightPage(s.id); // (what hangs inside a building has no page of its own)
     if (h.sightMore._href !== href) {
       h.sightMore._href = href;
       h.sightMore.hidden = !href;
@@ -881,13 +896,9 @@ function updateSight(h, r) {
       h.sightX.title = h.sightX.ariaLabel = t_('sight.close');
     }
     setText(h.sightMore, t_('sight.more'));
-    // a building you can go into (its page: ghentinside) has a button for that
-    const enter = s.enter ? `${s.enter}` : '';
-    if (h.sightEnter._href !== enter) {
-      h.sightEnter._href = enter;
-      h.sightEnter.hidden = !enter;
-      if (enter) h.sightEnter.href = enter;
-    }
+    // a building you can go into (<city>/inside.js) has a button for that, which takes you in
+    h.sightRoom = (s.enter && INSIDE.list.find(b => b.id === s.enter)) || null;
+    h.sightEnter.hidden = !h.sightRoom;
     setText(h.sightEnter, t_('sight.enter'));
   }
   // the pointers in the card's corner make room for it
@@ -905,6 +916,7 @@ function updatePointers(h, r, p) {
   if (roaming() && !questing() && !r.finished) {
     for (const s of SIGHTS) {
       if (s.secret) continue; // to be found, not pointed to
+      if (s.inside !== r.room) continue; // inside a building, only what is in it; outside, nothing inside
       const dx = s.x - r.pos.x, dz = s.z - r.pos.z, d = Math.hypot(dx, dz);
       const a = wrapAngle(Math.atan2(dx, dz) - camYaw[p]); // > 0 is to the left
       // out of view a little past the screen's edge, back in view right at it: no flicker at the rim
@@ -943,12 +955,13 @@ function updateHud() {
     updateSight(h, r);
     updatePointers(h, r, p);
     updateTramCard(h, r, p);
+    updateDoorCard(h, r, p);
     h.hint.classList.toggle('hidden', riding(r)); // no jumping off a moving tram
     h.seatView.classList.toggle('show', seated(r) && p < game.players);
     h.cabView.classList.toggle('show', !!cabOf(r) && game.state !== 'menu' && p < game.players);
     h.cabView.dataset.type = r.car?.type ?? '';
     if (roaming()) {
-      setText(h.streetNow, r.street || '…');
+      setText(h.streetNow, r.room ? `${r.room.emoji} ${roomName(r.room)}` : r.street || '…'); // inside a building: its name
       setText(h.streetNext, quest ? questHud(r) : t_('roam.hud'));
       h.streetNext.classList.remove('soon');
     } else if (st) {
@@ -1280,7 +1293,7 @@ function drawMinimap() {
   g.clearRect(0, 0, mm.width, mm.height);
   if (mmRoam) {
     // centred on the riders
-    const cx = humans.reduce((s, r) => s + r.pos.x, 0) / humans.length, cz = humans.reduce((s, r) => s + r.pos.z, 0) / humans.length;
+    const cx = humans.reduce((s, r) => s + onMap(r).x, 0) / humans.length, cz = humans.reduce((s, r) => s + onMap(r).z, 0) / humans.length;
     const { c, x0, z0, k } = mmRoam, f = k / (ROAM_SCALE * mmDpr), sw = mm.width * f, sh = mm.height * f; // (f < 1: the map's canvas is coarser than the minimap)
     g.drawImage(c, (cx - x0) * k - sw / 2, (cz - z0) * k - sh / 2, sw, sh, 0, 0, mm.width, mm.height);
     mmMap = (x, z) => [MM_W / 2 + (x - cx) * ROAM_SCALE, MM_H / 2 + (z - cz) * ROAM_SCALE];
@@ -1301,7 +1314,7 @@ function drawMarks(g, map) {
   }
   const drawOrder = [...field].sort((a, b) => (a.human >= 0) - (b.human >= 0));
   for (const r of drawOrder) {
-    const [x, y] = dot(g, r.pos.x, r.pos.z, r.human >= 0 ? 6.5 : 4.5, hex(r.human >= 0 ? PLAYER_COLORS[r.human] : r.def.silk), '#1d1a17', map);
+    const [x, y] = dot(g, onMap(r).x, onMap(r).z, r.human >= 0 ? 6.5 : 4.5, hex(r.human >= 0 ? PLAYER_COLORS[r.human] : r.def.silk), '#1d1a17', map);
     if (r.human >= 0) {
       g.fillStyle = '#fff';
       g.font = '900 9px Nunito, system-ui, sans-serif';
@@ -1602,7 +1615,7 @@ function drawPlaces(g, map) {
   g.font = '900 13px Nunito, system-ui, sans-serif';
   g.textBaseline = 'middle';
   g.lineJoin = 'round';
-  return PLACES.map(pl => {
+  const labels = PLACES.map(pl => {
     const [px, py] = dot(g, pl.x, pl.z, 4, '#ffd640', '#1d1a17', map);
     const w = g.measureText(pl.name).width, tx = pl.side === 'l' ? px - 8 - w : px + 8;
     g.lineWidth = 4;
@@ -1612,6 +1625,16 @@ function drawPlaces(g, map) {
     g.fillText(pl.name, tx, py);
     return { pl, x0: Math.min(tx, px - 8), x1: Math.max(tx + w, px + 8), y0: py - 10, y1: py + 10 };
   });
+  // the doors into buildings: a door on a white disc where each is, to click on (the index has their names)
+  g.font = '16px system-ui, sans-serif';
+  g.textAlign = 'center';
+  for (const b of INSIDE.list) {
+    const [px, py] = dot(g, b.street.x, b.street.z, 11, '#fffaf0', '#1d1a17', map);
+    g.fillText('🚪', px, py + 1);
+    labels.push({ pl: { name: roomName(b), x: b.street.x, z: b.street.z, room: b }, x0: px - 12, x1: px + 12, y0: py - 12, y1: py + 12 });
+  }
+  g.textAlign = 'start';
+  return labels;
 }
 
 // A place picked out in the index, lit up on the map: a street along its whole length, a landmark or
@@ -1670,6 +1693,7 @@ function lightUp(g, map, it) {
 // Landing at a named place: on the nearest bit of road you can stand on, so never inside the
 // building itself (some paths run straight through a castle or a station).
 function placeLanding(pl) {
+  if (pl.room) return { x: pl.x, z: pl.z, ok: true, place: pl.name, room: pl.room }; // through its door
   const spots = [];
   for (const rd of world.cfg.map.roads) {
     for (let k = 0; k < rd.p.length; k += 2) spots.push([(rd.p[k] - pl.x) ** 2 + (rd.p[k + 1] - pl.z) ** 2, rd.p[k], rd.p[k + 1]]);
@@ -1886,7 +1910,9 @@ function placesIndex() {
   });
   // a landmark's footprint to light up on the map, where the index has one by that name
   const foot = new Map((LANDMARKS ?? []).filter(l => l.foot?.[0]).map(l => [l.name, l.foot[0]]));
+  const rooms = { key: 'bigmap.inside', items: INSIDE.list.map(b => ({ name: roomName(b), x: b.street.x, z: b.street.z, emoji: b.emoji, room: b })) };
   return [
+    ...(rooms.items.length ? [rooms] : []),
     group('bigmap.sights', [
       ...(SIGHTS ?? []).filter(s => !s.secret).map(s => ({ name: local(s.text).name, x: s.x, z: s.z, emoji: s.emoji })),
       ...(LANDMARKS ?? []).filter(l => l.foot?.[0]).map(l => { const [x, z] = middle(l.foot[0]); return { name: l.name, x, z, emoji: '🏛️', outline: l.foot[0] }; }),
@@ -2021,7 +2047,8 @@ function confirmTeleport() {
   if (!big?.pick?.ok) return;
   const pick = big.pick;
   closeBigMapAndPlay();
-  teleport(pick);
+  if (pick.room) humans.slice(0, game.players).forEach((r, p) => { const at = pick.room.inside; putAt(r, at.x + (game.players > 1 ? (p ? 1.2 : -1.2) : 0), at.z, at.yaw); });
+  else teleport(pick);
 }
 
 function closeBigMapAndPlay() {
@@ -3494,6 +3521,115 @@ function aiItems(r, dt) {
   if (r.items[0] !== kind) r.aiItemTimer = rand(1.2, 3.5);
 }
 
+// ------------------------------------------------------------------ inside buildings
+
+// The buildings you can go into (<city>/inside.js) stand out of the city's sight (js/interiors.js):
+// by a door in the street a card says which one it is, and riding into the door, the card, or the
+// item key takes you in, on foot and at a walk. The door inside takes you back out to the street,
+// on what you rode in on. Not in a quest: its targets are all in the streets.
+const INSIDE_PACE = 0.7;
+const DOOR_NEAR = 9, DOOR_REACH = 2.2; // where the card shows, and how close riding into it goes through
+const roomName = b => (typeof b.name === 'string' ? b.name : local(b.name));
+
+// which building a rider is in, if any; walking in and out of one is on foot, whatever you ride
+function inRoom(r) {
+  const room = INSIDE.at(r.pos.x, r.pos.z);
+  if (room === r.room) return;
+  r.room = room;
+  const mount = room ? 'foot' : game.mounts[r.human];
+  if (r.mount !== mount && r.def) r.setHorse(r.def, mount);
+}
+
+// the door a player is by: the nearest within DOOR_NEAR, while riding about freely
+function doorBy(r) {
+  if (!exploring() || riding(r) || game.state !== 'race') return null;
+  let best = null, bd = DOOR_NEAR;
+  for (const d of INSIDE.doors) {
+    const k = Math.hypot(r.pos.x - d.x, r.pos.z - d.z);
+    if (k < bd) { best = d; bd = k; }
+  }
+  return best;
+}
+
+// riding into a door, heading the way into it, takes you through
+function intoDoor(r) {
+  const d = doorBy(r);
+  if (!d || Math.hypot(r.pos.x - d.x, r.pos.z - d.z) > DOOR_REACH) return;
+  const into = -(Math.sin(r.yaw) * Math.sin(d.yaw) + Math.cos(r.yaw) * Math.cos(d.yaw)) * r.speed;
+  if (into > 0.5) through(r, d);
+}
+
+// the card, the item key or the touch button: through the door you are by. False when there is none.
+function doorAction(r) {
+  const d = doorBy(r);
+  if (d) through(r, d);
+  return !!d;
+}
+
+function through(r, d) {
+  if (d.way === 'in') {
+    const at = d.room.inside;
+    putAt(r, at.x, at.z, at.yaw);
+    hudMsg(r.human, `${d.room.emoji} ${roomName(d.room)}`);
+  } else {
+    const s = d.room.street;
+    putAt(r, s.x + Math.sin(s.yaw) * 2.5, s.z + Math.cos(s.yaw) * 2.5, s.yaw);
+    hudMsg(r.human, `🚪 ${s.name ?? NAME?.[getLang()] ?? ''}`);
+  }
+  report('door', { room: d.room.id, way: d.way });
+}
+
+// one rider put down somewhere else, standing still (teleport() puts both players side by side)
+function putAt(r, x, z, yaw) {
+  r.tram = null;
+  r.pos.x = x;
+  r.pos.z = z;
+  r.onRoute = undefined;
+  r.streetT = 0;
+  Object.assign(r, { yaw, speed: 0, steer: 0, y: 0, vy: 0, ground: 0, base: world.relief?.at(x, z) ?? 0, baseV: 0 });
+  camYaw[r.human] = yaw;
+  inRoom(r);
+  particles.burst(x, 1, z, 24, { color: 0xffe680, speed: 5, up: 3, life: 0.7, size: 0.25, grow: 0.5, opacity: 0.9, drag: 3 });
+  if (loud()) sfx.jump(PAN[r.human]);
+}
+
+// where a rider shows on the maps: inside a building, at its door in the street
+const onMap = r => (r.room ? r.room.street : r.pos);
+
+// The light inside, for one player's view (render()): the building's own, no rain or snow and no
+// lamp carried, in place of the sky outside. Gives back what puts the outside back.
+function lightInside(room) {
+  const L = { ...INDOOR_LIGHT, ...room.look };
+  const was = {
+    bg: scene.background.clone(), fog: scene.fog.color.clone(), near: scene.fog.near, far: scene.fog.far,
+    sky: hemi.color.clone(), ground: hemi.groundColor.clone(), hemi: hemi.intensity, sunColor: sun.color.clone(), sun: sun.intensity,
+    rain: weather.rain.visible, snow: weather.snow.visible, lamps: headlamps.map(l => l.visible),
+  };
+  scene.background.set(L.horizon);
+  scene.fog.color.set(L.horizon);
+  [scene.fog.near, scene.fog.far] = L.fog;
+  hemi.color.set(L.hemi[0]);
+  hemi.groundColor.set(L.hemi[1]);
+  hemi.intensity = L.hemi[2];
+  sun.color.set(L.sun[0]);
+  sun.intensity = L.sun[1];
+  weather.rain.visible = weather.snow.visible = false;
+  headlamps.forEach(l => (l.visible = false));
+  return () => {
+    scene.background.copy(was.bg);
+    scene.fog.color.copy(was.fog);
+    [scene.fog.near, scene.fog.far] = [was.near, was.far];
+    hemi.color.copy(was.sky);
+    hemi.groundColor.copy(was.ground);
+    hemi.intensity = was.hemi;
+    sun.color.copy(was.sunColor);
+    sun.intensity = was.sun;
+    weather.rain.visible = was.rain;
+    weather.snow.visible = was.snow;
+    headlamps.forEach((l, k) => (l.visible = was.lamps[k]));
+  };
+}
+
 // ------------------------------------------------------------------ physics
 
 // car+paintball mode everywhere can be picked on the menu once the hidden settings opened it up
@@ -3793,7 +3929,7 @@ function stepRacer(r, dt, c) {
 
   const airborne = !r.grounded;
   if (!airborne) {
-    const max = MAX_SPEED * (world.cfg.pace ?? 1) * r.speedFactor * (r.soakTime > 0 ? SOAK_SLOW : 1);
+    const max = MAX_SPEED * (world.cfg.pace ?? 1) * r.speedFactor * (r.soakTime > 0 ? SOAK_SLOW : 1) * (r.room ? INSIDE_PACE : 1);
     if (c.throttle > 0) {
       if (r.speed < 0) r.speed += BRAKE * dt;
       else if (r.speed < max) r.speed = Math.min(max, r.speed + ACCEL * c.throttle * (1 - 0.55 * r.speed / MAX_SPEED) * dt);
@@ -3821,6 +3957,7 @@ function stepRacer(r, dt, c) {
   r.pos.z += Math.cos(r.yaw) * r.speed * dt;
   if (roaming()) { roamAbout(r, dt); if (!throughPortal(r, was)) railCheck(r, was); }
   else followTrack(r, dt);
+  if (r.human >= 0) { inRoom(r); if (roaming()) intoDoor(r); }
   if (!roaming() && r.onRoute !== false) hitObstacles(r);
   stepHeight(r, dt, was, airborne);
   stepRelief(r, dt);
@@ -4768,6 +4905,18 @@ function leaveTram(r, end = false, stop = null) {
   particles.burst(r.pos.x, 1, r.pos.z, 18, { color: 0xffe680, speed: 4, up: 3, life: 0.6, size: 0.22, grow: 0.5, opacity: 0.9, drag: 3 });
 }
 
+// By a door: which building it is and how to go in, or, inside, the way back out to the street.
+function updateDoorCard(h, r, p) {
+  const d = p < game.players ? doorBy(r) : null;
+  h.door.classList.toggle('show', !!d);
+  if (!d) return;
+  const out = d.way === 'out';
+  setText(h.doorEmoji, out ? '🚪' : d.room.emoji);
+  setText(h.doorLabel, t_(out ? 'door.out' : 'door.in'));
+  setText(h.doorName, out ? d.room.street.name ?? NAME?.[getLang()] ?? '' : roomName(d.room));
+  setText(h.doorKey, touch.on && p === 0 ? t_('door.tap') : ctl(p).label.fire);
+}
+
 // Inside the tram, sitting by a window, or back out for the view from outside (the jump key, or the
 // card's button). On a bus you are always inside.
 function toggleSeat(r) {
@@ -5183,8 +5332,13 @@ function updateCameras(dt, t, order) {
       // on a hill the camera keeps its height over the street behind, and looks up or down the street ahead
       const here = heightAt(r.pos.x, r.pos.z), behind = heightAt(r.pos.x - fx * back, r.pos.z - fz * back) - here;
       const ahead = heightAt(r.pos.x + fx * 6, r.pos.z + fz * 6) - here;
-      cam.position.set(r.pos.x - fx * back, r.base + 4.1 + (r.afloat ? 1.8 : 0) + r.y * 0.5 + behind, r.pos.z - fz * back);
-      cam.lookAt(r.pos.x + fx * 6, r.base + 1.7 + r.y * 0.7 + ahead, r.pos.z + fz * 6);
+      // inside a building that is all about its ceiling (the Sistine's, the Pantheon's dome), standing
+      // still, the camera comes down and looks up at it
+      const still = r.room?.lookUp && Math.abs(r.speed) < 0.6;
+      r.lookUp = approach(r.lookUp ?? 0, still ? 1 : 0, dt * (still ? 0.45 : 2.5));
+      const up = r.lookUp * r.lookUp * (3 - 2 * r.lookUp);
+      cam.position.set(r.pos.x - fx * back * (1 - up * 0.5), r.base + 4.1 + (r.afloat ? 1.8 : 0) + r.y * 0.5 + behind - up * 2.6, r.pos.z - fz * back * (1 - up * 0.5));
+      cam.lookAt(r.pos.x + fx * 6, r.base + 1.7 + r.y * 0.7 + ahead + up * (r.room?.lookUp ?? 0), r.pos.z + fz * 6);
       fov = 66 + (Math.max(0, r.speed) / MAX_SPEED) * 10;
     }
     cam.fov += (fov - cam.fov) * Math.min(1, dt * 4);
@@ -5193,7 +5347,8 @@ function updateCameras(dt, t, order) {
 
 // On a big map the shadows only cover the area round the riders, so the sun moves along with them.
 function followSun() {
-  const theme = world.cfg.theme, who = aerial() ? [menuLook] : humans.map(r => r.pos);
+  // (the shadows go with the players out in the streets: a building inside lies far off)
+  const out = humans.filter(r => !r.room), theme = world.cfg.theme, who = aerial() ? [menuLook] : (out.length ? out : humans).map(r => r.pos);
   const x = Math.round(who.reduce((s, p) => s + p.x, 0) / who.length);
   const z = Math.round(who.reduce((s, p) => s + p.z, 0) / who.length);
   sun.target.position.set(x, 0, z);
@@ -5224,7 +5379,9 @@ function render() {
     if (cam.aspect < 1) cam.fov = fov + (1 - cam.aspect) * 40; // keep a usable sideways view in portrait
     cam.updateProjectionMatrix();
     weather.follow(cam);
+    const room = !aerial() && INSIDE.at(from.x, from.z), outside = room && lightInside(room);
     renderer.render(scene, cam);
+    outside?.();
     cam.fov = fov;
   };
   renderer.setScissorTest(true);
@@ -5344,7 +5501,7 @@ function pollPads() {
       if (edge('start')) onPress('Escape');
       if (game.state === 'race' && k < humans.length) {
         if (edge('x') || edge('rb')) jump(humans[k]);
-        if ((edge('y') || edge('lb')) && !tramAction(humans[k]) && !throwFries(humans[k])) useItem(humans[k], pads.input[k].back);
+        if ((edge('y') || edge('lb')) && !doorAction(humans[k]) && !tramAction(humans[k]) && !throwFries(humans[k])) useItem(humans[k], pads.input[k].back);
       }
     } else if (game.state === 'tour' && flying()) {
       if (edge('start')) setPaused(true); // (A, B and the rest fly it: flyControl)
@@ -5642,7 +5799,7 @@ function onPress(code) {
       humans.forEach((r, p) => {
         const k = ctl(p);
         if (r.heli) return; // in the helicopter jump and fire are up and down (humanControl)
-        if (k.fire.includes(code) && tramAction(r)) return; // at a tram stop, or on the tram
+        if (k.fire.includes(code) && (doorAction(r) || tramAction(r))) return; // by a door, at a tram stop, or on the tram
         if (k.fire.includes(code) && throwFries(r)) return;
         if (k.fire.includes(code) && paintballOn(r)) return shoot(r);
         if (k.fire.includes(code)) useItem(r, held(k.down));
@@ -5817,7 +5974,7 @@ function touchButton(el, down, up = () => {}) {
   el.addEventListener('pointercancel', release);
 }
 touchButton($('tJump'), () => { touch.climb = racers[0].heli || flying(); if (game.state === 'race') jump(racers[0]); }, () => { touch.climb = false; });
-touchButton(tItem, () => { if (game.state === 'race') useItem(racers[0], touch.throttle < -0.5); });
+touchButton(tItem, () => { if (game.state === 'race' && !doorAction(racers[0])) useItem(racers[0], touch.throttle < -0.5); });
 touchButton(tFries, () => throwFries(racers[0]));
 touchButton($('tSink'), () => { touch.sink = true; }, () => { touch.sink = false; });
 touchButton($('tShoot'), () => shoot(racers[0]));
@@ -5847,13 +6004,24 @@ function shareSpot() {
   (navigator.clipboard?.writeText(url) ?? Promise.reject()).then(done, () => window.prompt(t_('pause.share'), url));
 }
 
-// A link to one sight, ?at=<its id> (the site's page about it has one), or to any place,
+// A link to one sight, ?at=<its id> (the site's page about it has one), into a building, ?inside=<its id>, or to any place,
 // ?pos=<x>,<z>&n=<its name> (the site's map page): straight into riding about freely, alone, on a
 // street a little way back from it (so it is in view, not a wall up close) and looking at it.
 // A link shared from the pause menu also has &yaw=<radians>: it puts you on that very spot, facing
 // that way, as whoever shared it was. Nothing of it is saved in the settings.
 function visitFromLink() {
   const q = new URLSearchParams(location.search);
+  // ?inside=<id>: straight in through a building's door (<city>/inside.js)
+  const room = q.get('inside') && INSIDE.list.find(b => b.id === q.get('inside'));
+  if (room) {
+    report('visit_from_link', { sight: `inside:${room.id}` });
+    Object.assign(game, { kind: 'mission', mission: 0, mode: 1 });
+    missionPlayer();
+    setTrack(game.trackIdx);
+    startRace();
+    putAt(humans[0], room.inside.x, room.inside.z, room.inside.yaw);
+    return;
+  }
   const sight = q.get('at') && SIGHTS?.find(s => s.id === q.get('at'));
   const [px, pz] = (q.get('pos') || '').split(',').map(Number);
   const yaw = Number(q.get('yaw'));
@@ -5922,5 +6090,5 @@ requestAnimationFrame(() => requestAnimationFrame(() => {
 }));
 
 // Handy for poking at the game from the dev console.
-window.ghent3d = { get city() { return city; }, touch, setTouchMode, setLanguage, pickAnimal, cycleAnimal, pads, pollPads, game, racers, get field() { return field; }, traps, thrown, clouds, get world() { return world; }, get tour() { return tour; }, get quest() { return quest; }, setSky, startRace, toMenu, selectTrack, setMode, setKind, useItem, jump, music, sfx, renderer, scene, step, render, menuCam, menuLook, get demo() { return demo; }, demoFrame };
+window.ghent3d = { INSIDE, get city() { return city; }, touch, setTouchMode, setLanguage, pickAnimal, cycleAnimal, pads, pollPads, game, racers, get field() { return field; }, traps, thrown, clouds, get world() { return world; }, get tour() { return tour; }, get quest() { return quest; }, setSky, startRace, toMenu, selectTrack, setMode, setKind, useItem, jump, music, sfx, renderer, scene, step, render, menuCam, menuLook, get demo() { return demo; }, demoFrame };
 window.__pr = { teleport, get world() { return world; }, get humans() { return humans; }, game, stealCar }; // DEBUG-RELIEF

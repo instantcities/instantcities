@@ -1,5 +1,5 @@
 // Ghent's sights: ride up to one while exploring and a card tells you what you are looking at.
-// Each { id, enter? (a page to go inside by, a button on the card), emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
+// Each { id, enter? (the building to go into, inside.js: a button on the card), emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
 // metres), text: { <lang>: { name, text } }, facts (three short ones, from tourfacts.js), secret?: true for one to find by yourself, which is not
 // counted, pointed to, put on the big map or given a page on the site }. In order of how much you
 // should not miss them.
@@ -7,7 +7,7 @@ import { FACTS } from './tourfacts.js';
 
 export const SIGHTS = [
   {
-    enter: '/ghentinside/play/?at=sint-baafs', id: 'sint-baafs', emoji: '🖼️', x: 292, z: 50, r: 100,
+    enter: 'sint-baafs', id: 'sint-baafs', emoji: '🖼️', x: 292, z: 50, r: 100,
     text: {
       nl: { name: 'Sint-Baafskathedraal', text: 'Gebouwd van de 13de tot de 16de eeuw, met een toren van 89 m. Binnen hangt Het Lam Gods van de gebroeders Van Eyck (1432), een van de beroemdste en meest gestolen schilderijen ter wereld. Het paneel De Rechtvaardige Rechters, gestolen in 1934, is nooit teruggevonden.' },
       en: { name: 'St Bavo’s Cathedral', text: 'Built from the 13th to the 16th century, with an 89 m tower. Inside hangs the Van Eyck brothers’ Adoration of the Mystic Lamb (1432), one of the most famous and most stolen paintings in the world. Its Just Judges panel, stolen in 1934, has never been found.' },
@@ -52,7 +52,7 @@ export const SIGHTS = [
     },
   },
   {
-    enter: '/ghentinside/play/?at=sint-niklaas', id: 'sint-niklaas', emoji: '⛪', x: -71, z: -79, r: 70,
+    enter: 'sint-niklaas', id: 'sint-niklaas', emoji: '⛪', x: -71, z: -79, r: 70,
     text: {
       nl: { name: 'Sint-Niklaaskerk', text: 'De kerk van de kooplui, uit de 13de eeuw, in blauwgrijze Doornikse steen: Scheldegotiek. Haar toren staat midden op het dak en diende ook als uitkijkpost, lang voor het Belfort er stond. Vandaag gaan er ook concerten en tentoonstellingen door.' },
       en: { name: 'St Nicholas’ Church', text: 'The merchants’ church, from the 13th century, in blue-grey Tournai stone: Scheldt Gothic. Its tower sits right on the middle of the roof and doubled as a lookout, long before the Belfry stood. Today it also hosts concerts and exhibitions.' },
@@ -61,7 +61,7 @@ export const SIGHTS = [
     },
   },
   {
-    enter: '/ghentinside/play/?at=stadhuis', id: 'stadhuis', emoji: '🏛️', x: 120, z: -165, r: 65,
+    enter: 'stadhuis', id: 'stadhuis', emoji: '🏛️', x: 120, z: -165, r: 65,
     text: {
       nl: { name: 'Stadhuis', text: 'Een stadhuis in twee stijlen: sierlijke laatgotiek aan de Hoogpoort, strakke renaissance aan de Botermarkt. Het geld en de godsdienstoorlogen legden de bouw telkens stil. Hier werd in 1576 de Pacificatie van Gent getekend, een vrede tussen de Nederlandse gewesten.' },
       en: { name: 'City Hall', text: 'A city hall in two styles: ornate late Gothic on the Hoogpoort, sober Renaissance on the Botermarkt. Running out of money and the wars of religion kept halting the building work. The Pacification of Ghent, a peace between the Low Countries’ provinces, was signed here in 1576.' },
