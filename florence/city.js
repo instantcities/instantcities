@@ -13,8 +13,8 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs florence`
 //   inside.js        the buildings you can go into: the Uffizi, its rooms in inside/ (hand-written)
 //   loggia.js        the Loggia dei Lanzi, modelled by hand on core/js/arcade.js, in place of the map's block of it
-// No sights or fronts yet, and one monument, the Loggia dei Lanzi: empty lists for the rest, and
-// for what only Ghent has.
+//   duomo.js         the Duomo, Giotto's Campanile and the Baptistery, modelled by hand in place of the map's pieces of them
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -23,9 +23,10 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { LOGGIA } from './loggia.js';
+import { DUOMO } from './duomo.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...LOGGIA];
+export const MONUMENTS = [...LOGGIA, ...DUOMO];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

@@ -13,7 +13,8 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs madrid`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs madrid`
 //   inside.js        the buildings you can go into: the Prado, its rooms in inside/ (hand-written)
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   oso.js           the bear and the strawberry tree at the Puerta del Sol, modelled by hand
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -21,9 +22,11 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
+import { OSO } from './oso.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...OSO];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

@@ -12,7 +12,8 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs vienna`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs vienna`
 //   inside.js        the buildings you can go into: St Stephen's Cathedral and the Kunsthistorisches Museum, their rooms in inside/ (hand-written)
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   pestsaeule.js    the Pestsäule on the Graben, modelled by hand
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -20,9 +21,11 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
+import { PESTSAEULE } from './pestsaeule.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...PESTSAEULE];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
