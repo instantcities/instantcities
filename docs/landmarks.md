@@ -67,6 +67,13 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | --- | --- | --- | --- |
 | Rome | Colosseo | `rome/colosseo.js` | bump into its outer wall |
 | Rome | Arco di Costantino | `rome/arco.js` | go through its three arches |
+| Rome | Pantheon | `rome/pantheon.js` | ride in under the porch between the columns, up to the doors |
+| Rome | Fontana di Trevi | `rome/trevi.js` | bump into the front, the rocks and the basin's rim |
+| Rome | Colonna di Marco Aurelio | `rome/colonna.js` | bump into its pedestal |
+| Rome | Vittoriano | `rome/vittoriano.js` | bump into it from the foot of its steps |
+| Rome | Foro Romano: the Curia Iulia, the Arco di Settimio Severo, the temples of Saturn, Vespasian, the Dioscuri, Vesta, Antoninus and Faustina and Romulus, the Colonna di Foca, the Basilica di Massenzio, and the rest of its ruins | `rome/foro.js` | bump into the ruins, ride through the arch's three arches and in under the basilica's vaults |
+| Rome | Piazza Navona: the Fontana dei Quattro Fiumi, the Fontana del Moro, the Fontana del Nettuno, Sant'Agnese in Agone | `rome/navona.js` | bump into the basins' rims and the church's front |
+| Rome | The temples of Largo di Torre Argentina | `rome/argentina.js` | bump into the podiums and the railing, which has two ways in |
 | Florence | Loggia dei Lanzi | `florence/loggia.js` | bump into it (it stands on its steps) |
 | Florence | Santa Maria del Fiore (the Duomo) | `florence/duomo.js` | bump into it |
 | Florence | Campanile di Giotto | `florence/campanile.js` | bump into it |
@@ -88,6 +95,22 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
+
+In Rome:
+
+- The Forum's ruins that are only walls, stumps and podiums on the map (the Basilica Iulia's
+  piers, the Basilica Aemilia, the Regia, the House of the Vestals) were put up as houses with
+  windows and roofs. `rome/foro.js` stands each one up as a plain ruin on its outline instead: a
+  stump of marble, a wall of brick or tuff, a low podium. Their heights are a guess per piece.
+- Largo di Torre Argentina is a dig about 6 m below the street, and the Forum lies below the
+  streets round it too; the game's ground is flat, so both stand at street level. A relief that
+  sinks them would make them read much better.
+- Sant'Agnese's front and dome stand in front of and over the map's church, which stays behind
+  them (it also holds the Palazzo Pamphilj's part of the block).
+- The statues (Oceanus, the river gods, the Moor, the quadrigas) are rough figures of a few
+  shapes; with photos at hand they deserve better ones.
+- The fountains' water is the map's sunk pool, and the Fontana dei Quattro Fiumi's grotto is a
+  heap of rocks round an opening rather than a carved cliff.
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
 
