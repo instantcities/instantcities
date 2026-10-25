@@ -8,6 +8,7 @@
   "ld_description": "A free 3D browser game set in Ghent, Belgium: explore the city, race or play quests by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Ghent in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Ghent",
+  "style": ":root { --accent: #45494e; --accent-soft: #e4e5e7; --sky: #e1e3e5; --skyline: #a6abb0; }",
   "loader_jokes": {
     "en": [
       "Looking for a bike that hasn't been nicked yet",

@@ -148,8 +148,9 @@
       let lang = 'en';
       try { lang = JSON.parse(localStorage.getItem('ghent3d.settings.v1'))?.lang || 'en'; } catch {}
       const words = WORDS[lang] || WORDS.en, list = document.getElementById('loaderSteps');
-      // the last two steps are called after two of the city's funny lines, picked at random
-      const jokes = [].map(j => [j, Math.random()]).sort((a, b) => a[1] - b[1]).map(j => j[0]);
+      // the last two steps are called after two of the city's funny lines, picked at random (a list,
+      // or one per language)
+      const told = [], jokes = (Array.isArray(told) ? told : told[lang] || told.en || []).map(j => [j, Math.random()]).sort((a, b) => a[1] - b[1]).map(j => j[0]);
       const text = { ...words, city: jokes[0] || words.city, paint: jokes[1] || words.paint };
       const items = Object.keys(WORDS.en).map(key => {
         const li = document.createElement('li');
@@ -335,7 +336,7 @@
             <label class="gunmode" data-row="gun" id="gunMode"><input id="gunModeSetting" type="checkbox"><span aria-hidden="true">🚗🔫</span></label>
           </div>
           <button class="start" id="startBtn" data-row="start"></button>
-          <p class="madeby"><span data-i18n="made.by"></span> <a href="https://instantcities.net/" target="_blank" rel="noopener">Wouter</a> <span class="legal">· <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a><span class="buildtag"></span></span></p>
+          <p class="credit"><a href="https://instantcities.net/" target="_blank" rel="noopener">Instant Cities</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a></p>
         </div>
       </div>
     </div>

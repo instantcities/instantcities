@@ -2113,7 +2113,7 @@ function buildTrackCards() {
 // One card per mission: exploring freely first, then the quests.
 function buildQuestCards() {
   const wrap = $('questCards');
-  wrap.innerHTML = ['🗺️', ...QUESTS.map(q => q.emoji)].map((emoji, i) => `<button class="qcard" data-i="${i}"><span class="qemoji">${emoji}</span><b></b></button>`).join('');
+  wrap.innerHTML = ['🗺️', ...QUESTS.map(q => q.emoji)].map((emoji, i) => `<button class="qcard" data-i="${i}"><span class="qemoji">${emoji}</span><b></b><small></small></button>`).join('');
   wrap.querySelectorAll('.qcard').forEach((card, i) => card.addEventListener('click', () => {
     card.blur();
     focusRow('quest');
@@ -2306,6 +2306,7 @@ function renderMenu() {
     c.classList.toggle('on', i === game.mission);
     c.classList.toggle('won', !!q && game.questsWon.includes(q.id));
     c.querySelector('b').textContent = q ? qt(q, 'title') : t_('mission.free');
+    c.querySelector('small').textContent = q ? (q.time ? '⏱ ' + fmtTime(q.time).replace(/\.\d+$/, '') : '') : t_('mission.freeTime');
   });
   document.querySelectorAll('#tourCards .qcard').forEach(c => {
     c.classList.toggle('on', c.dataset.m === game.tourMode);
@@ -2366,7 +2367,7 @@ function renderMenu() {
   $('pauseCardsBtn').innerHTML = icon('<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (game.cards ? '' : '<path d="M4 20 20 4"/>')) + `<span>${plain(game.cards ? 'cards.on' : 'cards.off')}</span>`;
   $('pauseCardsBtn').classList.toggle('on', game.cards);
   for (const el of document.querySelectorAll('#pause [data-i18n]')) el.textContent = plain(el.dataset.i18n);
-  $('startBtn').textContent = t_('start.go');
+  $('startBtn').textContent = t_((touch.on ? 'start.tap' : 'start.keys') + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
 }
 
 function openLangList(open) {
