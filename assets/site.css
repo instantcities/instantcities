@@ -249,6 +249,20 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
 .photo-credit a { color: inherit; }
 .landmark-hero h1 .lm-icon .ic { width: .8em; height: .8em; vertical-align: -.05em; }
 
+/* A city's main landmarks on its About page: three photo tiles, the name and its line in white over
+   the bottom of the photo, above the cards of a few more (_layouts/about.html) */
+.photo-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 14px; }
+.photo-tile {
+  position: relative; display: flex; align-items: flex-end; aspect-ratio: 4 / 3; border-radius: 8px; overflow: hidden;
+  background: #26292d var(--photo) center / cover no-repeat; color: #fff; text-decoration: none;
+}
+.photo-tile::before { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(10, 12, 14, .82)); transition: background .2s; }
+.photo-tile:hover::before { background: linear-gradient(transparent 25%, rgba(10, 12, 14, .9)); }
+.photo-tile span { position: relative; padding: 14px 16px; }
+.photo-tile b { display: block; font-size: 18px; margin-bottom: 3px; }
+.photo-tile small { display: block; font-size: 13.5px; line-height: 1.45; color: rgba(255, 255, 255, .85); }
+.photo-tile:hover { color: #fff; }
+
 /* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
 .map { border-top: 1px solid var(--line); }
 .europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }
@@ -354,6 +368,8 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
   .europe { overflow-x: auto; }
   .landmark-body { grid-template-columns: 1fr; }
+  .photo-tiles { grid-template-columns: 1fr; }
+  .photo-tile { aspect-ratio: 16 / 9; }
   .city-map-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .city-map-side { position: static; }
   .europe svg { width: 760px; max-width: none; }
