@@ -1,4 +1,4 @@
-{%- comment -%} The home page: what Instant Cities is over a city's tour playing live, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page. Its words are in _data/home.yml. {%- endcomment -%}
+{%- comment -%} The home page: what Instant Cities is over a city's tour playing live, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page; what there is in every city, a few words about the project (the whole story is on /about/) and a Play button for a few cities. Its words are in _data/home.yml. {%- endcomment -%}
 {%- assign H = site.data.home -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
@@ -55,9 +55,35 @@
           <div class="icon">{% include icon.html name=f.icon %}</div>
           <h3>{{ f.title }}</h3>
           <p>{{ f.text }}</p>
+          {%- if f.more %}
+          <p class="card-more"><a href="{{ f.more }}">{{ H.features_more }}</a></p>
+          {%- endif %}
         </article>
         {%- endfor %}
       </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="prose">
+        <h2>{{ H.project_title }}</h2>
+        {%- for p in H.project_text %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+      </div>
+      <p class="hero-btns left">
+        <a class="ghost" href="/about/">{% include icon.html name="book" %} {{ H.project_more }}</a>
+        <a class="ghost" href="{{ H.github }}" rel="noopener">{% include icon.html name="code" %} Code on GitHub</a>
+      </p>
+    </section>
+
+    <section class="cta">
+      <h2>{{ H.cta_title }}</h2>
+      <p class="city-links centred">
+        {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}
+        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} Play: {{ c.name }}</a>
+        {%- endif %}{% endfor %}
+      </p>
+      <p class="note"><a href="#cities">Or pick another city</a> · {{ H.beta }}</p>
     </section>
   </main>
 
@@ -67,8 +93,8 @@
       <a href="/{{ c.id }}/">{{ c.name }}</a>
       {%- endfor %}
       <a href="/cities/">All cities</a>
+      <a href="/about/">About the project</a>
     </p>
-    <p>{{ H.beta }}</p>
     <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
   </footer>
 

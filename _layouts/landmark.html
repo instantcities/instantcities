@@ -3,9 +3,10 @@
 {%- assign H = site.data.home -%}
 {%- assign all = site.data.landmarks[page.city] -%}
 {%- assign L = all | where: 'id', page.landmark | first -%}
-{%- if L.sight %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: L.sight %}
-{%- elsif page.x %}{% assign nm = L.name | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: page.x | append: ',' | append: page.z | append: '&n=' | append: nm %}
-{%- else %}{% assign play = '/' | append: C.id | append: '/play/' %}{% endif -%}
+{%- comment -%} &from= (?from= without a place) tells the game which page you came from, so its pause menu leads back here. {%- endcomment -%}
+{%- if L.sight %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: L.sight | append: '&from=' | append: L.id %}
+{%- elsif page.x %}{% assign nm = L.name | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: page.x | append: ',' | append: page.z | append: '&n=' | append: nm | append: '&from=' | append: L.id %}
+{%- else %}{% assign play = '/' | append: C.id | append: '/play/?from=' | append: L.id %}{% endif -%}
 <!doctype html>
 <html lang="en">
 <head>
