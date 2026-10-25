@@ -7,7 +7,7 @@ Seventeen cities got a first playable map, six, eight, two and then one at a tim
 | City      | Piece of the centre                                   | Race                                     | Buildings |
 |-----------|--------------------------------------------------------|------------------------------------------|-----------|
 | Rome      | Piazza Venezia, Via del Corso, Pantheon, Navona, up to the Colosseum | `romacentro`, loop, 3.0 km | 6,093 |
-| Paris     | Île de la Cité, Hôtel de Ville, Rue de Rivoli, Louvre  | `cite`, loop, 2.8 km                     | 5,566 |
+| Paris     | Île de la Cité, Hôtel de Ville, Rue de Rivoli, Louvre, and west along the Seine to the Eiffel Tower and the Champ de Mars | `cite`, loop, 2.8 km | 11,470 |
 | Amsterdam | Dam, Singel, Spui, Rokin, Westerkerk to Nieuwmarkt     | `grachten`, loop, 1.7 km                 | 7,915 |
 | Venice    | San Marco, Mercerie, Rialto                            | `mercerie`, open (start to finish), 0.9 km | 2,537 |
 | Barcelona | Plaça de Catalunya, Rambla, Barri Gòtic, Colom         | `rambla`, loop, 4.2 km                   | 4,367 |
