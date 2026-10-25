@@ -1,6 +1,6 @@
-# First maps: sixteen cities
+# First maps: twenty-two cities
 
-Sixteen cities got a first playable map, six, eight and then two at a time, each with a small piece of its centre
+Twenty-two cities got a first playable map, six, eight, two, one, two and then three at a time, each with a small piece of its centre
 (about 1.5 by 2 km), one race and free riding. They were made the way Lecce was
 (`docs/lecce-exercise.md`), from OpenStreetMap only, with no quests, sights, monuments or fronts yet.
 
@@ -22,6 +22,12 @@ Sixteen cities got a first playable map, six, eight and then two at a time, each
 | Berlin    | Unter den Linden, Gendarmenmarkt, Holocaust Memorial   | `mitte`, loop, 3.0 km                    | 4,171 |
 | Avignon   | Place de l’Horloge, Rue de la République, by the Palais des Papes | `intramuros`, loop, 1.4 km   | 4,334 |
 | Madrid    | Puerta del Sol, Calle Mayor, Palacio Real, Callao      | `sol`, loop, 3.2 km                      | 3,848 |
+| Salerno   | Duomo, Via dei Mercanti, Corso, Lungomare, Villa Comunale, Molo Manfredi | `salerno`, loop, 2.3 km      | 1,046 (whole blocks) |
+| Siena     | Banchi di Sopra, Campo, Casato, Duomo, Santa Maria della Scala | `siena`, loop, 2.2 km     | 1,938 |
+| Pisa      | Piazza dei Miracoli, Via Santa Maria, the Lungarni, Ponte di Mezzo | `pisa`, loop, 3.4 km     | 3,035 |
+| Utrecht   | Janskerkhof, Kromme Nieuwegracht, Domplein, Vismarkt by the Oudegracht | `utrecht`, loop, 1.7 km | 6,481 |
+| Rotterdam | Coolsingel, Blaak, Markthal, cube houses, Oude Haven, Laurenskerk | `rotterdam`, loop, 2.2 km | 3,333 (flat roofs) |
+| Delft     | Markt, Voldersgracht, Oude Kerk, Oude Delft, Koornmarkt | `delft`, loop, 2.3 km      | 7,779 (534 stepped gables) |
 
 ## How each one was made
 
@@ -54,6 +60,12 @@ way, and its own welcome line (`tour.welcomeSub` in its `WORDS`, as the shared o
 - **No stepped gables outside Flanders and Amsterdam**: old houses (heritage-tagged) got a Flemish
   stepped gable everywhere. `"gables": false` in `area.json` turns that off; Paris had 50 of them.
 - **Traffic on the left**: `THEME.left` (London) puts the cars on the left of the street.
+- **The sea** (Salerno): OpenStreetMap draws a coast as a line (`natural=coastline`, the land on
+  its left), not as water. The builder now cuts each coastline that crosses the box to it and
+  closes it round the box's edge on the water side, so the sea is one water area (`sea: 1`) with its
+  quay along the shore, and riding into it puts you in a boat. Any city rebuilt with a coast in its
+  download gets its sea this way. `LOOK.water` gives the water a colour of its own (Salerno's
+  bluer sea; the canals' green otherwise).
 
 ## What each city is known for
 
@@ -84,3 +96,14 @@ Amsterdam’s canal boats as models of their own, and the landmarks themselves a
 - Amsterdam's big buildings on the Dam get the grey stone look; its canal houses are fine.
 - The traffic lights in London still stand for traffic on the right.
 - No sight cards yet, and one quest per city (see below).
+- Salerno climbs its hill in real life but lies flat in the game (the height models are Flanders-only), so the
+  Castello di Arechi stays off the map; its old town is mapped as whole blocks, so it has few, big buildings.
+- Siena lies flat in the game too, though every street of it climbs or falls; the Campo is level instead of
+  sloping down to the Palazzo Pubblico.
+- Pisa's tower stands upright in the game (OpenStreetMap's outline, at its 56 m); a leaning model is still to come.
+- Utrecht's Oudegracht has its quays down at the water and cellars under the street; in the game it is a
+  canal like any other, and its wharves are missing. The race leaves out the Oudegracht itself, which
+  OpenStreetMap has in pieces.
+- Rotterdam's landmarks are plain OpenStreetMap blocks: the Markthal has no arch, the cube houses are not
+  tilted, and the Erasmusbrug has no pylon or cables.
+- Delft's Oude Kerk tower stands straight in the game; it really leans about two metres.

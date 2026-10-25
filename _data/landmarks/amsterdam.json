@@ -192,6 +192,28 @@
     }
   },
   {
+    "id": "rijksmuseum",
+    "name": "Rijksmuseum",
+    "emoji": "🖼️",
+    "icon": "frame",
+    "kind": "place",
+    "lat": 52.36,
+    "lon": 4.8852,
+    "inside": "rijksmuseum",
+    "blurb": "The Netherlands’ national museum on the Museumplein, where Rembrandt’s Night Watch hangs and a bike path runs through the building.",
+    "text": [
+      "The Rijksmuseum began in The Hague in 1800 and moved to Amsterdam in 1808. Pierre Cuypers’ red-brick building opened in 1885; King William III refused to open it, because it looked too much like a cathedral.",
+      "Its Gallery of Honour ends in Rembrandt’s Night Watch and holds Vermeer’s Milkmaid. The museum reopened in 2013 after a ten-year renovation, and a bike path still runs through the passage under the building. It stands south of the part of Amsterdam the game maps, but you can still walk into three of its rooms."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/rijksmuseum.jpg",
+      "author": "Fred Romero",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_Rijksmuseum_front_(detail).jpg"
+    }
+  },
+  {
     "id": "fietsen",
     "name": "Bikes",
     "local": "Fietsen",

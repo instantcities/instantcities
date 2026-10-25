@@ -4,10 +4,10 @@
 
 The historic centres of European cities in 3D in the browser (Three.js), rebuilt from
 OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. There are eighteen cities to play: Ghent and Lecce in full, and a small first piece
+on one keyboard. There are twenty-four cities to play: Ghent and Lecce in full, and a small first piece
 of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
-Florence, Prague, Vienna, Copenhagen, Berlin, Avignon and Madrid, each with a race and a tour (see
-docs/first-maps.md).
+Florence, Prague, Vienna, Copenhagen, Berlin, Avignon, Madrid, Salerno, Siena, Pisa, Utrecht,
+Rotterdam and Delft, each with a race and a tour (see docs/first-maps.md).
 The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
@@ -27,10 +27,33 @@ page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city
 `_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
 `/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
 
-The heroes of the home page and of every city's page play that city's tour live behind their words:
-the game in watch mode (`/<id>/play/?watch`: no menu, buttons or cards, nothing saved) in an iframe,
-`_includes/live.html`, paused while it is scrolled out of sight. `?watch=cards` is the whole tour
-with its cards, starting straight away: the pages' "Watch the tour" button. The map of Europe on the
+The home page plays **website preview tours**: separate 18-second silent MP4s, rotating Ghent →
+Rome → Paris → London → Barcelona → Ghent. It loads one video at a time, with no game engine,
+city map or WebGL on the home page. Playback pauses offscreen or in a hidden tab; reduced motion
+and data saving keep the poster. The caption and “Watch a tour” link follow the current city.
+
+Each city's `<city>/website-preview.json` is its preview edit: three six-second shots with a
+name, an `at` point on the full tour's path, `before` (metres before that point), `seconds`, and
+`speed`. Optional `cameraFrom`, `cameraTo`, and `look` ([x, y, z]) define an independent
+camera move when a wider view works better for the website. These select highlights without changing the full in-game tour. To compile the clips:
+
+```bash
+node tools/website-preview.mjs                # all five, sequentially in one Chrome window
+node tools/website-preview.mjs paris         # rebuild only Paris after map or shot changes
+```
+
+Requires Chrome, `playwright` or `playwright-core` (local or global), and `ffmpeg`. The compiler
+renders fixed steps at 960×540 / 24 fps and writes silent H.264 videos and posters to
+`assets/previews/`. Commit those outputs: normal Jekyll builds simply copy them, and visitors
+never render them themselves. Temporary frames stay in ignored `tools/cache/website-preview/`.
+Use `--headless` only if needed; the default Chrome window uses the GPU to avoid slow CPU WebGL.
+The compiler rejects previews outside 10–20 seconds. Recompile a city when its map or full tour
+path changes. Playback order lives in `_data/home.yml` (`preview_cities`).
+
+City-page heroes still play their live tour in watch mode (`/<id>/play/?watch`: no menu, buttons
+or cards, nothing saved) in an iframe, `_includes/live.html`, paused while scrolled out of sight.
+`?watch=cards` is the whole tour with its cards, starting straight away: the “Watch the tour” button.
+The map of Europe on the
 home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
 `node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
 
@@ -45,12 +68,23 @@ domain) and credited on its page; a landmark's `icon` names one of `_includes/ic
 
 The famous art in the buildings you can go into (the Mona Lisa in the Louvre, the Night Watch in
 the Rijksmuseum, the Ghent Altarpiece in Sint-Baafs: 31 paintings, statues and treasures in 13
-buildings) has a page of its own too: all of them at `/art/` and each at `/art/<id>/`, its story,
-its facts and a link that drops you right in front of it in the game
-(`/<id>/play/?inside=<building>&view=x,z,tx,tz`). They are in `_data/art.json`; `node tools/art.mjs`
+buildings, and Michelangelo's David out on Florence's Piazza della Signoria) has a page of its own
+too: all of them at `/art/` and each at `/art/<id>/`, its story, its facts and a link that drops you
+right in front of it in the game (`/<id>/play/?inside=<building>&view=x,z,tx,tz`, or for one out in
+the open `?pos=x,z&yaw=`). They are in `_data/art.json`; `node tools/art.mjs`
 writes their pages (`art/`) and `node tools/art.mjs photos` fetches their photos from Wikimedia
 Commons into `assets/img/art/`, credited in `_data/art_photos.json`. In the game the paintings'
 real photos are painted over their drawings once they have loaded (`core/js/inside/photo.js`).
+
+The art, its museums and the cities link to each other. A museum in `_data/art.json` whose
+`landmark` is the id of a landmark page in `_data/landmarks/<city>.json` (`"landmark": "louvre"`) gets
+that page linked from its pieces and from `/art/`, and the landmark page lists its pieces. A piece's
+and a landmark's story link the first mention of the city, of the museum and of the pieces in it
+(`_includes/link-first.html`), and the "This is <city>" bullets link the landmarks and pieces they
+name (`_includes/link-landmarks.html`). A museum without a landmark page (give it one, then its
+`landmark`) links to its city only. A landmark's `inside` (a building's id in `<city>/inside.js`) makes
+its "See it in 3D" open the game inside the building: the British Museum, the Sistine Chapel, the
+Rijksmuseum and the Prado lie off their city's map, so they have no place on it to drop you at.
 
 Every city also has a guide: a "This is <city>" section on its page, a page about the city at
 `/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre

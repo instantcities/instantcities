@@ -131,7 +131,7 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
    bottom, and the words are white on it. The poster (or a dark sky) shows until the tour is ready. */
 .live-hero { position: relative; overflow: hidden; isolation: isolate; min-height: min(78vh, 720px); align-content: center; background: #1f2830; color: #fff; border-bottom: 0; }
 .live { position: absolute; inset: 0; z-index: -1; }
-.live img, .live iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; pointer-events: none; }
+.live img, .live iframe, .live video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; pointer-events: none; }
 .live iframe { opacity: 0; transition: opacity 1.4s; }
 .live.ready iframe { opacity: 1; }
 .live::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(10, 14, 18, .55), rgba(10, 14, 18, .3) 40%, rgba(10, 14, 18, .6)); }
@@ -443,3 +443,6 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
   .nav a[aria-current] { background: var(--ink); color: var(--paper); }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.website-preview video { opacity: 0; transition: opacity .35s; }
+.website-preview.ready video { opacity: 1; }

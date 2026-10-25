@@ -13,8 +13,17 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs london`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs london`
 //   inside.js        the buildings you can go into: the British Museum, its rooms in inside/ (hand-written)
-//   elizabeth-tower.js the Elizabeth Tower (Big Ben), modelled by hand on core/js/arcade.js, in place of the map's pieces of it
-//   london-eye.js    the London Eye, modelled by hand in place of the map's 300 pieces of it
+//   the landmarks, each modelled by hand on core/js/arcade.js in place of the map's pieces of it:
+//   elizabeth-tower.js the Elizabeth Tower (Big Ben)
+//   parliament.js    the Houses of Parliament: the river front, the Victoria and Central Towers, Westminster Hall
+//   westminster-abbey.js Westminster Abbey: the west towers, nave, transepts, Lady Chapel and Chapter House
+//   gothic.js        the Gothic ranges, roofs, pinnacles and turrets those two share
+//   westminster-bridge.js the green arches, piers, parapet and lamps along the map's deck
+//   london-eye.js    the London Eye
+//   horse-guards.js  Horse Guards, its clock tower and the sentries on Whitehall
+//   downing-street.js the front of No. 10 Downing Street, on the map's house
+//   national-gallery.js the National Gallery's front, portico and dome
+//   nelson.js        Nelson's Column and its lions on Trafalgar Square
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -24,10 +33,17 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { ELIZABETH_TOWER } from './elizabeth-tower.js';
+import { NELSON } from './nelson.js';
+import { DOWNING_STREET } from './downing-street.js';
 import { LONDON_EYE } from './london-eye.js';
+import { WESTMINSTER_BRIDGE } from './westminster-bridge.js';
+import { HORSE_GUARDS } from './horse-guards.js';
+import { NATIONAL_GALLERY } from './national-gallery.js';
+import { WESTMINSTER_ABBEY } from './westminster-abbey.js';
+import { PARLIAMENT } from './parliament.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...ELIZABETH_TOWER, ...LONDON_EYE];
+export const MONUMENTS = [...ELIZABETH_TOWER, ...NELSON, ...DOWNING_STREET, ...LONDON_EYE, ...WESTMINSTER_BRIDGE, ...HORSE_GUARDS, ...NATIONAL_GALLERY, ...WESTMINSTER_ABBEY, ...PARLIAMENT];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

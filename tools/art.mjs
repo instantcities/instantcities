@@ -14,8 +14,15 @@
 // ('painting' | 'fresco' | 'sculpture' | 'artefact'), medium, size, museum (a museum's id: the
 // building's id in <city>/inside.js), room, commons (the file on Commons, without "File:"),
 // view: [x, z, tx, tz] (where you stand in the building, in its own metres, and what you look at:
-// the game's ?inside=<museum>&view=), blurb, text (paragraphs) }.
-// A museum: { id, city, name, blurb }.
+// the game's ?inside=<museum>&view=), blurb, text (paragraphs) }. A piece out in the open (its
+// museum has `at`) has no view but pos: [x, z, yaw?] in the city's game metres, the game's
+// ?pos=x,z&yaw=: with yaw, where you stand and the way you face (radians, 0: +z); without, where the
+// piece stands, and the game puts you on a street a little way off, looking at it. With no pos
+// either, the link is its museum's ?at=.
+// A museum: { id, city, name, blurb, landmark? (its page, an id in _data/landmarks/<city>.json: the
+// pieces link to it and it lists them), at? (a sight's id in <city>/site-sights.js: not a building
+// you go into but a square, its link ?at=<sight>) }. A museum without a landmark page links to its
+// place on the art page and to the city; give it one in landmarks/<city>.json, then its `landmark` here.
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -34,9 +41,15 @@ const ids = new Set();
 for (const a of pieces) {
   if (!/^[a-z0-9-]+$/.test(a.id)) throw new Error(`art id "${a.id}" is not a-z, 0-9 and -`);
   if (ids.has(a.id)) throw new Error(`art id "${a.id}" twice`);
-  if (!museums.some(m => m.id === a.museum)) throw new Error(`${a.id}: no museum "${a.museum}"`);
-  if (a.view?.length !== 4) throw new Error(`${a.id}: view is not [x, z, tx, tz]`);
+  const m = museums.find(m => m.id === a.museum);
+  if (!m) throw new Error(`${a.id}: no museum "${a.museum}"`);
+  if (!m.at && a.view?.length !== 4) throw new Error(`${a.id}: view is not [x, z, tx, tz]`);
+  if (a.pos && a.pos.length !== 2 && a.pos.length !== 3) throw new Error(`${a.id}: pos is not [x, z] or [x, z, yaw]`);
   ids.add(a.id);
+}
+for (const m of museums) {
+  if (m.landmark && !JSON.parse(fs.readFileSync(path.join(ROOT, '_data', 'landmarks', m.city + '.json'), 'utf8')).some(l => l.id === m.landmark)) throw new Error(`${m.id}: no landmark "${m.landmark}" in _data/landmarks/${m.city}.json`);
+  if (m.at && !fs.readFileSync(path.join(ROOT, m.city, 'site-sights.js'), 'utf8').includes(`"id":"${m.at}"`)) throw new Error(`${m.id}: no sight "${m.at}" in ${m.city}/site-sights.js`);
 }
 
 if (cmd === 'photos') await photos(only.length ? pieces.filter(a => only.includes(a.id)) : pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))));
@@ -53,7 +66,7 @@ function pages() {
     if (old !== 'index.html' && !ids.has(old)) fs.rmSync(path.join(PAGES, old), { recursive: true });
   }
   const missing = pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))).map(a => a.id);
-  console.error(`${pieces.length} pieces in ${museums.length} buildings${missing.length ? `; no photo yet: ${missing.join(', ')} (node tools/art.mjs photos)` : ''}`);
+  console.error(`${pieces.length} pieces in ${museums.length} buildings and squares${missing.length ? `; no photo yet: ${missing.join(', ')} (node tools/art.mjs photos)` : ''}`);
 }
 
 // Each piece's photo from Commons, scaled down by Commons and then by sips (macOS) or ImageMagick,

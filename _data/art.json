@@ -1,18 +1,19 @@
 {
   "museums": [
-    { "id": "louvre", "city": "paris", "name": "The Louvre", "blurb": "Five of its key rooms, from the glass pyramid to the Mona Lisa’s." },
-    { "id": "national-gallery", "city": "london", "name": "The National Gallery", "blurb": "On Trafalgar Square: Van Eyck, Constable, Turner and Van Gogh." },
-    { "id": "british-museum", "city": "london", "name": "The British Museum", "blurb": "The Great Court, the Egyptian sculpture gallery and the Parthenon’s marbles." },
-    { "id": "uffizi", "city": "florence", "name": "The Uffizi", "blurb": "The Medici’s gallery, with Botticelli’s room and the Tribuna." },
-    { "id": "duomo", "city": "florence", "name": "Florence Cathedral", "blurb": "The Duomo under Brunelleschi’s dome." },
-    { "id": "sistina", "city": "rome", "name": "The Sistine Chapel", "blurb": "Michelangelo’s ceiling and his Last Judgment, in the Vatican." },
-    { "id": "rijksmuseum", "city": "amsterdam", "name": "The Rijksmuseum", "blurb": "The Gallery of Honour and the Night Watch at its end." },
-    { "id": "prado", "city": "madrid", "name": "The Prado", "blurb": "The Spanish kings’ collection: Velázquez, Goya and Bosch." },
-    { "id": "kunsthistorisches", "city": "vienna", "name": "The Kunsthistorisches Museum", "blurb": "The Habsburgs’ collection, with the most Bruegels anywhere." },
-    { "id": "neues-museum", "city": "berlin", "name": "The Neues Museum", "blurb": "Egypt on the Museum Island, Nefertiti in her own domed room." },
-    { "id": "pergamon", "city": "berlin", "name": "The Pergamon Museum", "blurb": "A Greek altar and the gate of Babylon, rebuilt indoors." },
-    { "id": "san-marco", "city": "venice", "name": "St Mark’s Basilica", "blurb": "Five domes of gold mosaic and the golden altarpiece." },
-    { "id": "sint-baafs", "city": "ghent", "name": "St Bavo’s Cathedral", "blurb": "Ghent’s cathedral, home of the Van Eyck brothers’ altarpiece." }
+    { "id": "louvre", "city": "paris", "landmark": "louvre", "name": "The Louvre", "blurb": "Five of its key rooms, from the glass pyramid to the Mona Lisa’s." },
+    { "id": "national-gallery", "city": "london", "landmark": "national-gallery", "name": "The National Gallery", "blurb": "On Trafalgar Square: Van Eyck, Constable, Turner and Van Gogh." },
+    { "id": "british-museum", "city": "london", "landmark": "british-museum", "name": "The British Museum", "blurb": "The Great Court, the Egyptian sculpture gallery and the Parthenon’s marbles." },
+    { "id": "uffizi", "city": "florence", "landmark": "uffizi", "name": "The Uffizi", "blurb": "The Medici’s gallery, with Botticelli’s room and the Tribuna." },
+    { "id": "duomo", "city": "florence", "landmark": "duomo", "name": "Florence Cathedral", "blurb": "The Duomo under Brunelleschi’s dome." },
+    { "id": "piazza-della-signoria", "city": "florence", "landmark": "piazza-della-signoria", "name": "Piazza della Signoria", "blurb": "Out in the open, before the Palazzo Vecchio: the copy of Michelangelo’s David at its door.", "at": "piazza-della-signoria" },
+    { "id": "sistina", "city": "rome", "landmark": "sistina", "name": "The Sistine Chapel", "blurb": "Michelangelo’s ceiling and his Last Judgment, in the Vatican." },
+    { "id": "rijksmuseum", "city": "amsterdam", "landmark": "rijksmuseum", "name": "The Rijksmuseum", "blurb": "The Gallery of Honour and the Night Watch at its end." },
+    { "id": "prado", "city": "madrid", "landmark": "prado", "name": "The Prado", "blurb": "The Spanish kings’ collection: Velázquez, Goya and Bosch." },
+    { "id": "kunsthistorisches", "city": "vienna", "landmark": "kunsthistorisches", "name": "The Kunsthistorisches Museum", "blurb": "The Habsburgs’ collection, with the most Bruegels anywhere." },
+    { "id": "neues-museum", "city": "berlin", "landmark": "museumsinsel", "name": "The Neues Museum", "blurb": "Egypt on the Museum Island, Nefertiti in her own domed room." },
+    { "id": "pergamon", "city": "berlin", "landmark": "museumsinsel", "name": "The Pergamon Museum", "blurb": "A Greek altar and the gate of Babylon, rebuilt indoors." },
+    { "id": "san-marco", "city": "venice", "landmark": "basilica-di-san-marco", "name": "St Mark’s Basilica", "blurb": "Five domes of gold mosaic and the golden altarpiece." },
+    { "id": "sint-baafs", "city": "ghent", "landmark": "sint-baafs-kathedraal", "name": "St Bavo’s Cathedral", "blurb": "Ghent’s cathedral, home of the Van Eyck brothers’ altarpiece." }
   ],
   "pieces": [
     {
@@ -184,6 +185,17 @@
       "text": [
         "John Hawkwood, an Essex tanner’s son, fought for whoever paid best in fourteenth-century Italy and ended up captain-general of Florence’s army. The city promised him a marble monument in the cathedral; when he died in 1394, it never came.",
         "In 1436 Paolo Uccello painted one instead, in greenish earth colours so that the horse and rider look like bronze, standing on a plinth seen from below. Twenty years later Andrea del Castagno painted another condottiere, Niccolò da Tolentino, beside it."
+      ]
+    },
+    {
+      "id": "david", "title": "David", "local": "Il Gigante", "artist": "Michelangelo", "date": "1501–1504",
+      "kind": "sculpture", "medium": "Carrara marble", "size": "517 cm high, with its base", "museum": "piazza-della-signoria", "room": "At the door of the Palazzo Vecchio, a copy (the original is in the Galleria dell’Accademia)",
+      "commons": "'David'_by_Michelangelo_Fir_JBU004.jpg", "pos": [243.8, 187.1, 1.01],
+      "blurb": "The young giant-killer Michelangelo carved from an abandoned block of marble, the emblem of the Florentine Republic.",
+      "text": [
+        "In 1501 the cathedral’s works and the wool guild gave a 26-year-old Michelangelo a block of Carrara marble more than five metres tall that Agostino di Duccio had begun carving nearly forty years before and given up on; the Florentines called it the Giant. He worked on it in the courtyard of the cathedral’s works, boarded off from prying eyes, until 1504.",
+        "He chose the moment before the fight: David has the sling over his left shoulder and the stone in his right hand, his weight on one leg, and turns his head to look at Goliath. The statue was meant for a buttress high on the cathedral, but a committee that included Leonardo da Vinci and Botticelli put it at the door of the Palazzo Vecchio instead, where it was unveiled in September 1504: the young hero who killed a giant, standing for the Republic of Florence against its powerful enemies.",
+        "In 1527, in a revolt against the Medici, a bench thrown from a window of the palace broke his left arm into three pieces. In 1873 he was moved indoors, to a tribuna built for him at the end of the Galleria dell’Accademia, and in 1910 a marble copy took his place by the palace door, on the left as you face it, where it stands in the game."
       ]
     },
     {

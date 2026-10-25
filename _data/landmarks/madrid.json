@@ -213,6 +213,29 @@
     }
   },
   {
+    "id": "prado",
+    "name": "Prado",
+    "local": "Museo del Prado",
+    "emoji": "🖼️",
+    "icon": "frame",
+    "kind": "place",
+    "lat": 40.4138,
+    "lon": -3.6921,
+    "inside": "prado",
+    "blurb": "Spain’s national art museum on the Paseo del Prado, with the royal collection: Velázquez, Goya and Bosch.",
+    "text": [
+      "King Charles III commissioned the building from Juan de Villanueva in 1785 as a home for the natural sciences. In 1819 his grandson Ferdinand VII opened it instead as a museum of the royal collection.",
+      "It holds Velázquez’s Las Meninas, Goya’s Black Paintings, among them Saturn Devouring His Son, and Bosch’s Garden of Earthly Delights. It stands east of the part of Madrid the game maps, but you can still walk into five of its rooms."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/madrid/prado.jpg",
+      "author": "Fernando",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_del_Prado_Entrance_2024.jpg"
+    }
+  },
+  {
     "id": "churros",
     "name": "Chocolate con churros",
     "emoji": "🍫",

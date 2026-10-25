@@ -2,13 +2,15 @@
 # city on them comes from _data/cities.yml.
 title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
 description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
-tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
+tagline: "Explore the historic centres of Europe in 3D by bike, on foot or even on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
-live_city: ghent # whose tour plays behind the home page's hero
-live_poster: /assets/img/ghent-tour.jpg # the tour's first shot, until it plays
-live_caption: "Live: the tour of Ghent"
+hero_play_cities: [paris, rome] # Play buttons before it in the home page's hero
+live_city: ghent # initial preview and full-tour link
+live_poster: /assets/previews/ghent.jpg # compiled preview's first frame
+live_caption: "Preview: Ghent"
 live_watch: "Watch the tour"
+home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
 soon_title: "Coming soon"
 cities_page_title: "Cities: the historic centres of Europe to play in 3D"
 cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
@@ -33,3 +35,6 @@ play_note: "Free · no account · works on PC, tablet and phone"
 beta: "Still in development: expect some rough edges."
 vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'
 credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
+
+# Compiled website previews, in playback order (each is 18 seconds).
+preview_cities: [ghent, rome, paris, london, barcelona]

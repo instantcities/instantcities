@@ -189,6 +189,28 @@
     }
   },
   {
+    "id": "british-museum",
+    "name": "British Museum",
+    "emoji": "🏺",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 51.5194,
+    "lon": -0.127,
+    "inside": "british-museum",
+    "blurb": "The world’s first national public museum, in Bloomsbury, with the Rosetta Stone and the Parthenon’s marbles.",
+    "text": [
+      "Parliament bought the physician Sir Hans Sloane’s collection in 1753 and founded the British Museum around it; it opened in 1759. Sir Robert Smirke’s Greek Revival building, with its front of Ionic columns, was finished in 1852, and in 2000 Norman Foster roofed its Great Court in glass.",
+      "It holds some eight million objects, among them the Rosetta Stone, the Parthenon Sculptures and Ramesses II, the Younger Memnon. Like Britain’s other national museums it is free to visit. It stands north of the part of London the game maps, but you can still walk into three of its rooms."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/london/british-museum.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_British_Museum-London.jpg"
+    }
+  },
+  {
     "id": "black-cab",
     "name": "Black cab",
     "emoji": "🚕",

@@ -1,274 +1,245 @@
-// The cathedral group of Florence, modelled by hand in place of the map's pieces of it, from
-// measurements and photos, in game metres (the real ones times 1.25), on the map's outlines. All of
-// it in the white marble of Carrara, the green of Prato and the pink of the Maremma, laid out in
-// panels:
-//   Santa Maria del Fiore: the nave with its aisles and their tall windows, the 19th-century front
-//     with its three portals, rose windows and pinnacles; the octagonal drum with a round window in
-//     each face, the three tribunes round it with their little domes, and Brunelleschi's dome of red
-//     tiles between its eight white ribs, with the lantern, the gilded ball and the cross on top
-//   Giotto's Campanile at the front's south corner: five storeys of panelling between its corner
-//     piers, the two-light windows of the middle storeys, the tall three-light ones at the top, and
-//     the cornice on its brackets (the map has only its top, floating at 100 m)
-//   the Baptistery of San Giovanni across the square: its octagon in three storeys of panels and
-//     blind arches, the low white pyramid of its roof and the lantern, the gilded Gates of Paradise
-//     to the cathedral and the scarsella, its square apse, to the west
+// Santa Maria del Fiore (1296-1436, its front 1871-87), Florence's cathedral, modelled by hand in
+// place of the map's pieces of it, from its measurements and photos, in game metres (the real ones
+// times 1.25), on the map's outline: 153 m from the front to the end of the east tribune, 90 m across
+// the tribunes, the dome's lantern at 114.5 m. White marble from Carrara, green from Prato and pink
+// from the Maremma, laid in panels:
+//   the nave of four great bays with its two aisles, tall two-light windows between buttresses, a
+//     round window to each bay high in the nave's walls, roofs of red tiles
+//   the front of the 19th century: three portals with their mosaics, a row of niches, three rose
+//     windows, the gable with the Virgin, and the four buttresses topped with tabernacles
+//   the octagon of the crossing, its three tribunes of chapels round it, each a half octagon with a
+//     sloping roof, and the four little round exedrae in its corners
+//   the drum with a round window in each of its eight faces, and Brunelleschi's dome: a pointed
+//     octagonal vault of red tiles between eight white ribs, up to the lantern with its buttresses,
+//     its cone, the gilded ball and the cross
+// It stands on its own, so riders bump into the whole of it.
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
-import { linePath, square, polygon, wall, sweep, gable, pointedRing, archRing, onMap, rect } from '../core/js/arcade.js';
+import { linePath, wall, onMap } from '../core/js/arcade.js';
 import { shade } from '../core/js/facades.js';
+import { MARBLE, VERDE, ROSA, GLASS, TILE, sides, panel, inlay, lancet, oculus, prism, ngon, shell, gable } from './marble.js';
 
-const WHITE = '#ece7da', GREEN = '#4c6a55', PINK = '#cf9a8f', TILE = '#b5603e', TILE2 = '#a85536', DARK = '#3a3a3c', GOLD = '#d4ad4a';
-const TURN = -0.035; // the cathedral's axis, and the others with it, turned from east
+const X = 324.1, Z = -336.6, TURN = -0.0236; // on the nave's axis, which runs east (local +x) from the front to the tribunes
+const FRONT = -97.3, CROSS = 3.2, HW = 27.4; // the front, where the nave meets the octagon, the nave's half width
+const NAVE = 12.2; // the half width of the nave's upper walls, over the arcades
+const AISLE = 29, CLERE = 50, RIDGE = 57; // the aisles' walls, the nave's, its ridge
+const OC = 37, OA = 33.5; // the octagon's middle along the axis, its apothem
+const DRUM = [52.5, 68.75], DA = 32, DOME = 45, DOME_A = 31, TOP_A = 6.2; // the drum, the dome's rise and apothems
+const LANTERN = DRUM[1] + DOME; // where the lantern stands
+const TRIB = 36; // the tribunes' walls
+const STONE = shade(MARBLE, -0.06);
 
-// The marble panels on a stretch of wall: green strips round `cols` by `rows` panels from s0 to s1
-// and y0 to y1, standing a little proud of its face at o, and a pink one inside every other panel.
-function panels(kit, path, s0, s1, y0, y1, cols, rows, o = 0, pink = true) {
-  const w = (s1 - s0) / cols, h = (y1 - y0) / rows, t = Math.min(0.35, w * 0.08), slab = { o0: o, o1: o + 0.08 };
-  for (let c = 0; c <= cols; c++) {
-    const s = s0 + c * w;
-    wall(kit, path, [[s - t, y0], [s + t, y0], [s + t, y1], [s - t, y1]], { ...slab, hex: GREEN });
-  }
-  for (let r = 0; r <= rows; r++) {
-    const y = y0 + r * h;
-    wall(kit, path, [[s0, y - t], [s1, y - t], [s1, y + t], [s0, y + t]], { ...slab, hex: GREEN });
-  }
-  if (pink) for (let c = 0; c < cols; c++) for (let r = 0; r < rows; r++) if ((c + r) % 2 === 0) {
-    const s = s0 + (c + 0.5) * w, y = y0 + (r + 0.5) * h, a = Math.min(w, h) * 0.22;
-    wall(kit, path, [[s, y - a], [s + a, y], [s, y + a], [s - a, y]], { o0: o, o1: o + 0.06, hex: PINK });
-  }
+// the outline, in the model's metres (from the map's outline of it)
+const FOOT = [[-97.3, -27.5], [-97.3, 27.4], [-0.6, 27.4], [3, 27.3], [4, 28.9], [9.3, 33.9], [14.2, 33.7], [13.8, 47.4], [28.3, 61.3], [47.7, 61.5], [59.8, 47.7], [59.5, 34.4], [63.8, 34.3], [70.4, 29.1], [70.5, 23], [83.1, 23.3], [96.9, 10.3], [97.3, -8.9], [84.2, -22.3], [70.2, -22.4], [69.7, -29], [64.8, -33.6], [60.4, -33.7], [60.5, -45.7], [47.4, -59.1], [27.7, -59], [15.2, -46.4], [14.8, -34.5], [9.5, -34.6], [4.4, -30.7], [3, -27.6], [-1.7, -27.6]];
+
+// a bay of a marble wall from s0 to s1, y0 to y1: its panels, and a tall two-light window or not
+function bay(kit, path, s0, s1, y0, y1, { window = true, rows = 4 } = {}) {
+  inlay(kit, path, s0, s1, y0, y1, { cols: 3, rows, w: 0.45 });
+  if (!window) return;
+  const c = (s0 + s1) / 2, w = Math.min(5.4, (s1 - s0) * 0.32), wy0 = y0 + (y1 - y0) * 0.42, wy1 = y1 - 2.2;
+  panel(kit, path, c - w / 2 - 1.2, c + w / 2 + 1.2, wy0 - 1.2, wy1 + 1, MARBLE, 0.1, 0.12);
+  lancet(kit, path, c, w, wy0, wy1, { frame: ROSA, rim: 0.55, o: 0.22 });
+  panel(kit, path, c - 0.25, c + 0.25, wy0, wy1 - w * 0.6, MARBLE, 0.42, 0.12); // the mullion
 }
 
-// ---- Santa Maria del Fiore ----
-const DX = 362.2, DZ = -334.6; // the middle of the dome
-const FRONT = -135.5, NAVE = -26, HW = 23.5, AISLE = 34, CLERE = 46, RIDGE = 55;
-const DRUM = 34, DRUM_TOP = 70, DOME_R = 31.5;
+// a buttress at s: a pier standing out of the wall, with a little tabernacle on top
+function buttress(kit, path, s, y1, w = 2.2, out = 1.6, top = true) {
+  const p = path.at(s), x = p.x + (out / 2) * p.tz, z = p.z - (out / 2) * p.tx, turn = Math.atan2(-p.tz, p.tx);
+  kit.box(w, y1, out, MARBLE, x, y1 / 2, z, 0, turn);
+  for (let y = 6; y < y1 - 2; y += 7.5) kit.box(w + 0.1, 0.6, out + 0.1, VERDE, x, y, z, 0, turn);
+  if (!top) return;
+  kit.box(w + 0.6, 0.6, out + 0.6, STONE, x, y1 + 0.3, z, 0, turn);
+  kit.add(new THREE.ConeGeometry(w * 0.55, 4.2, 4).rotateY(Math.PI / 4), MARBLE, x, y1 + 2.7, z, 0, turn);
+}
 
 export function duomo() {
   const kit = new Kit();
-  // the aisles' walls along both sides, their tall windows, panels, and the cornice
+  // the plinth all round and the steps of the parvis before the front
+  prism(kit, FOOT, 0, 1, shade(MARBLE, -0.12));
+  for (let k = 0; k < 3; k++) kit.box(2.6 - 0.8 * k, 0.35 * (k + 1), 2 * HW + 4, shade(MARBLE, -0.1), FRONT - 1.3 + 0.4 * k, 0.175 * (k + 1), 0);
+  nave(kit);
+  front(kit);
+  octagon(kit);
+  dome(kit);
+  return kit.mesh(kitMat(0.85));
+}
+
+// the aisles' walls, four bays to a side, the nave's upper walls with their round windows, the roofs
+function nave(kit) {
+  const len = CROSS - FRONT, step = len / 4;
   for (const side of [-1, 1]) {
-    const path = side < 0 ? linePath(FRONT, -HW, NAVE, -HW) : linePath(NAVE, HW, FRONT, HW), len = path.length;
-    const bays = 4, bay = len / bays, holes = [];
-    for (let b = 0; b < bays; b++) holes.push(pointedRing((b + 0.5) * bay, 3.2, 14, 27, 1, 6));
-    wall(kit, path, [[0, 0], [len, 0], [len, AISLE], [0, AISLE]], { holes, o0: -1.2, o1: 0, hex: WHITE });
-    for (const ring of holes) wall(kit, path, ring, { o0: -1, o1: -0.8, hex: DARK });
-    for (let b = 0; b < bays; b++) {
-      panels(kit, path, b * bay + 0.6, b * bay + bay * 0.5 - 2.2, 1, AISLE - 3, 2, 5);
-      panels(kit, path, b * bay + bay * 0.5 + 2.2, (b + 1) * bay - 0.6, 1, AISLE - 3, 2, 5);
-    }
-    sweep(kit, path, 0, len, [[-0.2, AISLE - 1], [0.6, AISLE - 1], [0.6, AISLE], [-0.2, AISLE]], WHITE, { step: len });
-    // the clerestory over the aisle, its round windows
-    const cp = side < 0 ? linePath(FRONT + 6, -11, NAVE, -11) : linePath(NAVE, 11, FRONT + 6, 11), cl = cp.length;
-    const oculi = Array.from({ length: 4 }, (_, b) => archRing((b + 0.5) * (cl / 4), 3.4, CLERE - 7.6, CLERE - 4.2, 10)).map(r => [...r, ...r.slice(2).map(([s, y]) => [s, 2 * (CLERE - 5.9) - y]).reverse()].filter((p, i, a) => i === 0 || p[1] !== a[i - 1][1] || p[0] !== a[i - 1][0]));
-    wall(kit, cp, [[0, AISLE], [cl, AISLE], [cl, CLERE], [0, CLERE]], { o0: -1, o1: 0, hex: WHITE });
-    panels(kit, cp, 0.5, cl - 0.5, AISLE + 0.6, CLERE - 0.6, 8, 2, 0, false);
-    for (let b = 0; b < 4; b++) {
-      const s = (b + 0.5) * (cl / 4), ring = Array.from({ length: 16 }, (_, k) => [s + 1.7 * Math.cos((k / 16) * 2 * Math.PI), CLERE - 5.9 + 1.7 * Math.sin((k / 16) * 2 * Math.PI)]);
-      wall(kit, cp, ring, { o0: 0, o1: 0.1, hex: DARK });
-    }
+    const path = side < 0 ? linePath(FRONT, -HW, CROSS, -HW) : linePath(CROSS, HW, FRONT, HW);
+    wall(kit, path, [[0, 1], [len, 1], [len, AISLE], [0, AISLE]], { o0: -2, o1: 0, hex: MARBLE });
+    for (let k = 0; k < 4; k++) bay(kit, path, k * step + 1.4, (k + 1) * step - 1.4, 1.5, AISLE - 2, { rows: 5 });
+    for (let k = 0; k <= 4; k++) buttress(kit, path, Math.min(len - 1.1, Math.max(1.1, k * step)), AISLE + 1);
+    // the cornice on its little arches, and the balustrade of the aisle's roof
+    panel(kit, path, 0, len, AISLE - 1.6, AISLE, STONE, 0, 0.5);
+    for (let s = 1; s < len; s += 2) panel(kit, path, s, s + 1, AISLE - 3, AISLE - 1.6, VERDE, 0, 0.3);
+    // the nave's upper wall, its round windows and its cornice
+    const up = side < 0 ? linePath(FRONT + 1, -NAVE, CROSS, -NAVE) : linePath(CROSS, NAVE, FRONT + 1, NAVE), ulen = up.length;
+    wall(kit, up, [[0, AISLE], [ulen, AISLE], [ulen, CLERE], [0, CLERE]], { o0: -1.6, o1: 0, hex: MARBLE });
+    inlay(kit, up, 0, ulen, AISLE + 4, CLERE - 1, { cols: 8, rows: 2, w: 0.4 });
+    for (let k = 0; k < 4; k++) oculus(kit, up, (k + 0.5) * (ulen / 4), (AISLE + 4 + CLERE) / 2 + 1, 3, { rim: 0.8, o: 0.1 });
+    panel(kit, up, 0, ulen, CLERE - 1, CLERE + 0.4, STONE, 0, 0.6);
+    // the aisle's roof sloping up to the nave's wall
+    const lean = new THREE.Shape([new THREE.Vector2(0, 0), new THREE.Vector2(HW - NAVE + 0.6, 0), new THREE.Vector2(0, (HW - NAVE) * 0.32)]);
+    const geo = new THREE.ExtrudeGeometry(lean, { depth: len, bevelEnabled: false }).rotateY(Math.PI / 2);
+    // shape x outward from the nave's wall, extruded along +u
+    if (side > 0) geo.scale(1, 1, -1);
+    kit.add(geo, TILE, FRONT, AISLE, side * NAVE);
   }
-  // the aisles' and the nave's roofs
-  gable(kit, FRONT + 1, NAVE, HW + 0.6, AISLE, AISLE + 4, TILE2);
-  kit.box(NAVE - FRONT - 1, CLERE - AISLE, 22, WHITE, (FRONT + 1 + NAVE) / 2, (AISLE + CLERE) / 2, 0);
-  gable(kit, FRONT + 6, NAVE, 12, CLERE, RIDGE, TILE);
-  // the front: its three portals, the rose windows, the pinnacles, the gable on top
-  const fp = linePath(FRONT, HW, FRONT, -HW), fl = fp.length, mid = fl / 2;
-  wall(kit, fp, [[0, 0], [fl, 0], [fl, AISLE + 4], [mid + 11, AISLE + 4], [mid + 11, CLERE + 2], [mid + 3, CLERE + 8], [mid, 61], [mid - 3, CLERE + 8], [mid - 11, CLERE + 2], [mid - 11, AISLE + 4], [0, AISLE + 4]], { o0: -2, o1: 0, hex: WHITE });
-  for (const [s, w, h] of [[mid, 7, 15], [mid - 14.5, 4, 11], [mid + 14.5, 4, 11]]) {
-    wall(kit, fp, pointedRing(s, w + 2.4, 0, h + 4.6, 1, 8), { o0: 0, o1: 0.4, hex: PINK });
-    wall(kit, fp, pointedRing(s, w, 0, h, 1, 8), { o0: 0.4, o1: 0.5, hex: '#5c4630' });
-    wall(kit, fp, [[s - w / 2 - 1.2, h + 3.2], [s + w / 2 + 1.2, h + 3.2], [s, h + 8]], { o0: 0, o1: 0.45, hex: WHITE });
-  }
-  for (const [s, y, r] of [[mid, 29, 4.2], [mid - 14.5, 24, 2], [mid + 14.5, 24, 2], [mid, 47, 2.2]]) {
-    const ring = n => Array.from({ length: 24 }, (_, k) => [s + n * Math.cos((k / 24) * 2 * Math.PI), y + n * Math.sin((k / 24) * 2 * Math.PI)]);
-    wall(kit, fp, ring(r + 0.9), { o0: 0, o1: 0.3, hex: GREEN });
-    wall(kit, fp, ring(r), { o0: 0.3, o1: 0.4, hex: '#33444f' });
-  }
-  panels(kit, fp, 1, fl - 1, 19, AISLE + 3, 12, 2, 0, false);
-  for (const s of [1.2, mid - 9.6, mid - 4.6, mid + 4.6, mid + 9.6, fl - 1.2]) {
-    const p = fp.at(s), x = p.x + 0.8 * p.tz, z = p.z - 0.8 * p.tx, top = Math.abs(s - mid) < 6 ? CLERE + 4 : AISLE + 6;
-    kit.box(1.6, top, 1.6, WHITE, x, top / 2, z);
-    kit.add(new THREE.ConeGeometry(1.1, 4.4, 4).rotateY(Math.PI / 4), WHITE, x, top + 2.2, z);
-    for (let y = 3; y < top - 1; y += 4) kit.box(1.65, 0.4, 1.65, GREEN, x, y, z);
-  }
-  // the octagonal drum, its round windows, and the tribunes round it to the north, east and south
-  kit.add(new THREE.CylinderGeometry(DRUM - 2, DRUM - 2, DRUM_TOP, 8).rotateY(Math.PI / 8), WHITE, 0, DRUM_TOP / 2, 0);
-  for (const path of polygon(DRUM, 8, Math.PI / 8)) {
-    const len = path.length, m = len / 2;
-    wall(kit, path, [[0, 46], [len, 46], [len, DRUM_TOP], [0, DRUM_TOP]], { o0: -2.2, o1: 0, hex: WHITE, ends: false });
-    panels(kit, path, 0.6, len - 0.6, 47, DRUM_TOP - 1, 6, 2, 0, false);
-    const ring = n => Array.from({ length: 24 }, (_, k) => [m + n * Math.cos((k / 24) * 2 * Math.PI), 58 + n * Math.sin((k / 24) * 2 * Math.PI)]);
-    wall(kit, path, ring(4.6), { o0: 0, o1: 0.3, hex: WHITE });
-    wall(kit, path, ring(3.3), { o0: 0.3, o1: 0.4, hex: '#33444f' });
-    sweep(kit, path, 0, len, [[-0.4, DRUM_TOP - 1.2], [0.8, DRUM_TOP - 1.2], [0.8, DRUM_TOP], [-0.4, DRUM_TOP]], WHITE, { step: len });
-  }
-  for (const [cx, cz] of [[0, -38], [38, 0], [0, 38]]) {
-    const a = Math.atan2(cz, cx), turnIt = (x, z) => [cx + x * Math.cos(a) - z * Math.sin(a), cz + x * Math.sin(a) + z * Math.cos(a)];
-    kit.add(new THREE.CylinderGeometry(20, 20, 40, 8).rotateY(Math.PI / 8 - a), WHITE, cx, 20, cz);
-    for (const path of polygon(21, 8, Math.PI / 8 + a)) {
-      const p0 = path.at(0), p1 = path.at(path.length);
-      if (Math.hypot((p0.x + p1.x) / 2 + cx, (p0.z + p1.z) / 2 + cz) < 26) continue; // the sides against the drum
-      const shifted = linePath(p0.x + cx, p0.z + cz, p1.x + cx, p1.z + cz), len = shifted.length;
-      wall(kit, shifted, [[0, 0], [len, 0], [len, 40], [0, 40]], { holes: [pointedRing(len / 2, 2.6, 13, 26, 1, 6)], o0: -1.2, o1: 0, hex: WHITE, ends: false });
-      wall(kit, shifted, pointedRing(len / 2, 2.6, 13, 26, 1, 6), { o0: -1, o1: -0.9, hex: DARK });
-      panels(kit, shifted, 0.6, len - 0.6, 1, 39, 2, 5, 0, true);
-    }
-    kit.add(new THREE.CylinderGeometry(21.6, 21.6, 1.2, 8).rotateY(Math.PI / 8 - a), WHITE, cx, 40.6, cz);
-    kit.add(new THREE.ConeGeometry(20.5, 8, 8).rotateY(Math.PI / 8 - a), TILE2, cx, 45.2, cz);
-    // the little dome over each tribune
-    const [lx, lz] = turnIt(-8, 0);
-    kit.add(new THREE.CylinderGeometry(6.5, 6.5, 6, 8), WHITE, lx, 44, lz);
-    kit.add(new THREE.SphereGeometry(6.5, 8, 5, 0, Math.PI * 2, 0, Math.PI / 2), TILE, lx, 47, lz);
-    kit.add(new THREE.CylinderGeometry(0.8, 1, 3, 8), WHITE, lx, 54, lz);
-  }
-  // the dome: eight red sails between the white ribs, pointed in the quinto acuto, and the lantern
-  const prof = [], Rc = 1.6 * DOME_R, cx = DOME_R - Rc, rise = Math.sqrt(Rc * Rc - cx * cx), N = 14;
-  for (let k = 0; k <= N; k++) {
-    const a = (k / N) * Math.asin(rise / Rc);
-    prof.push(new THREE.Vector2(Math.max(0.01, cx + Rc * Math.cos(a)) * (k === N ? 0 : 1) + (k === N ? 4.2 : 0), DRUM_TOP + Rc * Math.sin(a)));
-  }
-  const top = DRUM_TOP + rise;
-  kit.add(new THREE.LatheGeometry(prof, 8).rotateY(Math.PI / 8), TILE);
-  for (let k = 0; k < 8; k++) {
-    // a rib up each of the lathe's corners, which stand where the drum's do
-    const ang = Math.PI / 8 + (k / 8) * 2 * Math.PI, rib = new THREE.Curve();
-    rib.getPoint = (t, out = new THREE.Vector3()) => {
-      const b = t * Math.asin(rise / Rc), r = Math.max(0, cx + Rc * Math.cos(b)) + 0.2;
-      return out.set(r * Math.cos(ang), DRUM_TOP + Rc * Math.sin(b), r * Math.sin(ang));
-    };
-    kit.add(new THREE.TubeGeometry(rib, 16, 0.9, 4, false), WHITE);
-  }
-  kit.add(new THREE.CylinderGeometry(5.6, 5.6, 1.4, 8), WHITE, 0, top - 0.6, 0);
-  kit.add(new THREE.CylinderGeometry(3.8, 4.4, 9, 8), WHITE, 0, top + 4.4, 0);
-  for (let k = 0; k < 8; k++) {
-    const a = (k / 8) * 2 * Math.PI;
-    kit.box(1, 7, 2.4, WHITE, 5 * Math.cos(a), top + 3.2, 5 * Math.sin(a), 0, -a); // the lantern's buttresses
-  }
-  kit.add(new THREE.ConeGeometry(3.6, 8, 8), WHITE, 0, top + 12.9, 0);
-  kit.add(new THREE.SphereGeometry(1.4, 12, 10), GOLD, 0, top + 18.2, 0);
-  kit.box(0.4, 3, 0.4, GOLD, 0, top + 21, 0).box(1.6, 0.4, 0.4, GOLD, 0, top + 21.6, 0);
-  return kit.mesh(kitMat(0.85));
+  gable(kit, (FRONT + CROSS) / 2 + 0.5, CLERE + 0.3, 0, CROSS - FRONT - 1, 2 * NAVE + 1.4, RIDGE - CLERE, TILE);
 }
 
-// ---- Giotto's Campanile ----
-const CX = 235.8, CZ = -297.6, CH = 7.6, CTOP = 102;
-const LEVELS = [0, 16, 32, 50, 68, 97];
-
-export function giotto() {
-  const kit = new Kit();
-  kit.box(2 * CH - 0.6, CTOP, 2 * CH - 0.6, DARK, 0, CTOP / 2, 0); // the inside, dark behind the windows
-  square(CH, CH, 0.5).forEach((path, f) => {
-    const len = path.length, off = f % 2 ? -0.5 : 0, mid = CH + off;
-    for (let l = 0; l + 1 < LEVELS.length; l++) {
-      const [y0, y1] = [LEVELS[l], LEVELS[l + 1]], holes = [];
-      if (l === 2 || l === 3) for (const k of [-1, 1]) holes.push(pointedRing(mid + k * 2.6, 3.4, y0 + 4, y1 - 2.4, 1, 7));
-      if (l === 4) holes.push(pointedRing(mid, 7.2, y0 + 4, y1 - 4, 1, 9));
-      wall(kit, path, [[0, y0], [len, y0], [len, y1], [0, y1]], { holes, o0: -0.5, o1: 0, hex: WHITE });
-      for (const ring of holes) wall(kit, path, ring, { o0: -0.45, o1: -0.35, hex: DARK });
-      if (l === 4) for (const d of [-1.2, 1.2]) wall(kit, path, [[mid + d - 0.15, y0 + 4], [mid + d + 0.15, y0 + 4], [mid + d + 0.15, y1 - 8], [mid + d - 0.15, y1 - 8]], { o0: -0.45, o1: 0, hex: WHITE });
-      if (l === 2 || l === 3) for (const k of [-1, 1]) wall(kit, path, [[mid + k * 2.6 - 0.12, y0 + 4], [mid + k * 2.6 + 0.12, y0 + 4], [mid + k * 2.6 + 0.12, y1 - 5], [mid + k * 2.6 - 0.12, y1 - 5]], { o0: -0.45, o1: 0, hex: WHITE });
-      if (l < 2) {
-        panels(kit, path, 1.6, len - 1.6, y0 + 1, y1 - 1, l === 0 ? 4 : 5, 2);
-        if (l === 0) for (let k = 0; k < 4; k++) { // the reliefs in their hexagons
-          const s = 1.6 + (k + 0.5) * ((len - 3.2) / 4), y = y0 + 11, hex = Array.from({ length: 6 }, (_, q) => [s + 1.1 * Math.cos((q / 6) * 2 * Math.PI), y + 1.1 * Math.sin((q / 6) * 2 * Math.PI)]);
-          wall(kit, path, hex, { o0: 0, o1: 0.15, hex: '#c9c2b0' });
-        }
-      } else if (l < 4) {
-        panels(kit, path, 1.6, mid - 4.9, y0 + 1, y1 - 1, 1, 3, 0, false);
-        panels(kit, path, mid + 4.9, len - 1.6, y0 + 1, y1 - 1, 1, 3, 0, false);
-      } else {
-        panels(kit, path, 1.6, mid - 4.4, y0 + 1, y1 - 1, 1, 5, 0, false);
-        panels(kit, path, mid + 4.4, len - 1.6, y0 + 1, y1 - 1, 1, 5, 0, false);
-      }
-      sweep(kit, path, 0, len, [[-0.1, y1 - 0.6], [0.35, y1 - 0.6], [0.35, y1], [-0.1, y1]], GREEN, { step: len });
-    }
-  });
-  // the corner piers, panelled, and the cornice on its brackets, and its parapet
-  for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]]) {
-    kit.add(new THREE.CylinderGeometry(0.95, 0.95, LEVELS[5], 8), WHITE, sx * (CH - 0.2), LEVELS[5] / 2, sz * (CH - 0.2));
-    for (const y of LEVELS.slice(1, 5)) kit.add(new THREE.CylinderGeometry(1, 1, 0.6, 8), GREEN, sx * (CH - 0.2), y - 0.3, sz * (CH - 0.2));
+// the 19th-century front, facing west (local -x)
+function front(kit) {
+  const path = linePath(FRONT, HW + 0.4, FRONT, -HW - 0.4), len = path.length; // s from south to north
+  const C = len / 2, MID = NAVE + 0.6; // the middle part as wide as the nave
+  const outline = [[0, 0], [len, 0], [len, AISLE + 10], [C + MID, AISLE + 10], [C + MID, RIDGE + 1], [C, RIDGE + 11], [C - MID, RIDGE + 1], [C - MID, AISLE + 10], [0, AISLE + 10]];
+  wall(kit, path, outline, { o0: -2.6, o1: 0, hex: MARBLE });
+  // the marble's panels: tall ones below, smaller over the niches, round the roses
+  for (const [a, b] of [[1.6, C - MID - 1.2], [C + MID + 1.2, len - 1.6]]) {
+    inlay(kit, path, a, b, 1, 22, { cols: 2, rows: 3, w: 0.5 });
+    inlay(kit, path, a, b, 26, AISLE + 9, { cols: 2, rows: 2, w: 0.45, hex: ROSA });
   }
-  kit.box(2 * CH + 2.4, 1.6, 2 * CH + 2.4, WHITE, 0, LEVELS[5] + 0.8, 0);
-  square(CH + 1.2).forEach(path => {
-    for (let k = 0; k <= 12; k++) {
-      const p = path.at((k / 12) * path.length);
-      kit.box(0.5, 1.2, 0.5, PINK, p.x - 0.3 * p.tz, LEVELS[5] - 0.6, p.z + 0.3 * p.tx);
-    }
+  inlay(kit, path, C - MID + 1, C + MID - 1, 26, RIDGE, { cols: 4, rows: 5, w: 0.45 });
+  // the three portals: their jambs, their mosaics in the lunettes, the bronze doors
+  for (const [c, w, h] of [[C, 7.6, 15.5], [C - 18.5, 4.6, 11], [C + 18.5, 4.6, 11]]) {
+    lancet(kit, path, c, w + 3, 1, h + 2.6, { frame: ROSA, glass: MARBLE, rim: 0.6, round: false, r: 0.9, o: 0.1 });
+    lancet(kit, path, c, w, 1, h, { frame: VERDE, glass: '#3e3426', rim: 0.4, round: true, o: 0.3 });
+    lancet(kit, path, c, w * 0.8, h - w * 0.35, h + 1.8, { frame: '#c9a64a', glass: '#c9a64a', rim: 0.1, round: false, r: 0.9, o: 0.55 });
+    panel(kit, path, c - w / 2 - 2.2, c + w / 2 + 2.2, h + 3.4, h + 5, '#d2c7b2', 0.1, 0.4); // the gable's cornice
+  }
+  // the row of niches with their statues across the whole front
+  panel(kit, path, 0.6, len - 0.6, 22.5, 23.2, STONE, 0, 0.7);
+  for (let k = 0; k < 15; k++) {
+    const s = 3 + (k * (len - 6)) / 14;
+    lancet(kit, path, s, 1.5, 23.4, 26.6, { frame: ROSA, glass: shade(MARBLE, -0.25), rim: 0.3, round: true, o: 0.1 });
+    const p = path.at(s);
+    kit.add(new THREE.CylinderGeometry(0.32, 0.42, 2.4, 6), shade(MARBLE, 0.04), p.x - 0.5, 24.6, p.z);
+  }
+  // the rose windows: the big one over the middle portal, the two small ones over the side portals
+  oculus(kit, path, C, 38.5, 5.4, { frame: ROSA, rim: 1.4, o: 0.1 });
+  oculus(kit, path, C, 38.5, 3.6, { frame: '#3c6a8c', glass: '#6c4f6c', rim: 0.6, o: 0.4 });
+  for (const s of [C - 18.5, C + 18.5]) oculus(kit, path, s, 31.5, 2.4, { frame: ROSA, rim: 0.8, o: 0.1 });
+  // the row of the apostles under the gable, the gable's tondo of the Virgin, its cornice
+  panel(kit, path, C - MID, C + MID, RIDGE - 7, RIDGE - 6.3, STONE, 0, 0.7);
+  for (let k = 0; k < 9; k++) lancet(kit, path, C - MID + 1.6 + (k * (2 * MID - 3.2)) / 8, 1.2, RIDGE - 6, RIDGE - 2.6, { frame: VERDE, glass: shade(MARBLE, -0.2), rim: 0.25, round: true, o: 0.1 });
+  wall(kit, path, [[C - MID - 0.4, RIDGE + 0.6], [C + MID + 0.4, RIDGE + 0.6], [C, RIDGE + 11.5]], { o0: -0.2, o1: 0.6, hex: STONE });
+  wall(kit, path, [[C - MID + 1.2, RIDGE + 1.4], [C + MID - 1.2, RIDGE + 1.4], [C, RIDGE + 10]], { o0: 0.6, o1: 0.7, hex: MARBLE });
+  oculus(kit, path, C, RIDGE + 4.6, 2.4, { frame: '#c9a64a', glass: '#4a6fa0', rim: 0.5, o: 0.7 });
+  kit.add(new THREE.CylinderGeometry(0.3, 0.6, 2.4, 6), MARBLE, FRONT - 0.3, RIDGE + 12.6, 0); // the cross's plinth
+  kit.box(0.3, 2.4, 0.3, MARBLE, FRONT - 0.3, RIDGE + 14.4, 0).box(0.3, 0.3, 1.5, MARBLE, FRONT - 0.3, RIDGE + 14.8, 0);
+  // the side parts' tops: a balustrade of little arches
+  for (const [a, b] of [[0, C - MID], [C + MID, len]]) for (let s = a + 0.6; s < b - 0.6; s += 1.3) panel(kit, path, s, s + 0.7, AISLE + 10, AISLE + 11.4, MARBLE, -0.8, 0.5);
+  // the four buttresses, with their tabernacles on top
+  for (const [s, h] of [[1.2, AISLE + 13], [C - MID, RIDGE + 1], [C + MID, RIDGE + 1], [len - 1.2, AISLE + 13]]) {
+    const p = path.at(s), x = p.x - 1.2;
+    kit.box(2.6, h, 2.8, MARBLE, x, h / 2, p.z);
+    for (let y = 4; y < h; y += 6.5) kit.box(2.7, 0.7, 2.9, VERDE, x, y, p.z);
+    for (let y = 9; y < h - 3; y += 13) kit.box(0.2, 3.2, 1.2, ROSA, x - 1.35, y, p.z);
+    kit.box(3.2, 0.7, 3.4, STONE, x, h + 0.35, p.z);
+    for (const [dx, dz] of [[-1.1, -1.2], [1.1, -1.2], [-1.1, 1.2], [1.1, 1.2]]) kit.box(0.5, 3, 0.5, MARBLE, x + dx, h + 2.2, p.z + dz);
+    kit.add(new THREE.ConeGeometry(2, 6, 4).rotateY(Math.PI / 4), MARBLE, x, h + 6.7, p.z);
+  }
+}
+
+// the octagon of the crossing up to the drum, the three tribunes and the four exedrae round it
+function octagon(kit) {
+  const ring = ngon(OA, 8, Math.PI / 8, OC, 0);
+  for (const path of sides(ring)) {
     const len = path.length;
-    wall(kit, path, [[0, LEVELS[5] + 1.6], [len, LEVELS[5] + 1.6], [len, CTOP + 1.8], [0, CTOP + 1.8]], { holes: Array.from({ length: 10 }, (_, k) => archRing((k + 0.5) * (len / 10), 1, LEVELS[5] + 2.4, CTOP + 1, 5)), o0: -0.5, o1: 0, hex: WHITE });
-  });
-  return kit.mesh(kitMat(0.85));
-}
-
-// ---- the Baptistery ----
-const BX = 171.1, BZ = -338.8, BR = 22.6, BTOP = 26.4;
-
-export function battistero() {
-  const kit = new Kit(), start = Math.PI / 8;
-  kit.add(new THREE.CylinderGeometry(BR - 1.6, BR - 1.6, BTOP, 8).rotateY(Math.PI / 2 - start), WHITE, 0, BTOP / 2, 0);
-  polygon(BR, 8, start).forEach((path, k) => {
-    const len = path.length, m = len / 2, n = path.at(m), out = Math.atan2(n.x, n.z);
-    const east = Math.abs(Math.sin(out) - 1) < 0.1, door = east || Math.abs(Math.cos(out)) > 0.95;
-    // the ground storey: pilasters and panels, and the doors on three sides
-    wall(kit, path, [[0, 0], [len, 0], [len, BTOP], [0, BTOP]], { o0: -1.6, o1: 0, hex: WHITE, ends: false });
-    for (const s of [0.6, m, len - 0.6]) wall(kit, path, [[s - 0.5, 0.8], [s + 0.5, 0.8], [s + 0.5, 10.6], [s - 0.5, 10.6]], { o0: 0, o1: 0.4, hex: GREEN });
-    if (door && !(Math.abs(Math.sin(out) + 1) < 0.1)) {
-      wall(kit, path, [[m - 2.8, 0.4], [m + 2.8, 0.4], [m + 2.8, 8], [m - 2.8, 8]], { o0: 0, o1: 0.3, hex: east ? GOLD : '#7a6234' });
-      for (let q = 0; q < 5; q++) wall(kit, path, [[m - 2.6, 0.8 + q * 1.45], [m + 2.6, 0.8 + q * 1.45], [m + 2.6, 0.95 + q * 1.45], [m - 2.6, 0.95 + q * 1.45]], { o0: 0.3, o1: 0.35, hex: shade(GOLD, -0.3) });
-      wall(kit, path, [[m - 3.4, 8], [m + 3.4, 8], [m + 3.4, 9], [m - 3.4, 9]], { o0: 0, o1: 0.5, hex: WHITE });
-    } else {
-      panels(kit, path, 1.2, m - 0.6, 1, 10.4, 1, 2, 0, false);
-      panels(kit, path, m + 0.6, len - 1.2, 1, 10.4, 1, 2, 0, false);
-    }
-    // the middle storey: three blind arches with windows, and the attic of panels
-    sweep(kit, path, 0, len, [[-0.1, 11], [0.6, 11], [0.6, 11.6], [-0.1, 11.6]], WHITE, { step: len });
-    for (let a = 0; a < 3; a++) {
-      const s = (a + 0.5) * (len / 3);
-      const outer = archRing(s, len / 3 - 0.9, 11.8, 21).slice(2), inner = archRing(s, len / 3 - 2, 11.8, 20.2).slice(2);
-      wall(kit, path, [...outer, ...inner.reverse()], { o0: 0, o1: 0.3, hex: GREEN });
-      wall(kit, path, [[s - 0.9, 14], [s + 0.9, 14], [s + 0.9, 17.4], [s, 18.4], [s - 0.9, 17.4]], { o0: 0, o1: 0.1, hex: DARK });
-    }
-    for (const s of [0.4, len / 3, (2 * len) / 3, len - 0.4]) wall(kit, path, [[s - 0.35, 11.6], [s + 0.35, 11.6], [s + 0.35, 20.6], [s - 0.35, 20.6]], { o0: 0, o1: 0.4, hex: GREEN });
-    sweep(kit, path, 0, len, [[-0.1, 21.2], [0.6, 21.2], [0.6, 21.8], [-0.1, 21.8]], WHITE, { step: len });
-    panels(kit, path, 0.4, len - 0.4, 22, BTOP - 0.4, 6, 1, 0, false);
-    void k;
-  });
-  // the roof, the lantern, and the scarsella to the west
-  kit.add(new THREE.CylinderGeometry(BR + 0.6, BR + 0.6, 0.8, 8).rotateY(Math.PI / 2 - start), WHITE, 0, BTOP + 0.4, 0);
-  kit.add(new THREE.ConeGeometry(BR, 7.2, 8).rotateY(Math.PI / 2 - start), '#e4dfd2', 0, BTOP + 4.4, 0);
-  kit.add(new THREE.CylinderGeometry(3.2, 3.2, 6, 8), WHITE, 0, BTOP + 10, 0);
-  for (let k = 0; k < 8; k++) {
-    const a = (k / 8) * 2 * Math.PI;
-    kit.box(0.5, 4.8, 0.5, GREEN, 3.25 * Math.cos(a), BTOP + 10, 3.25 * Math.sin(a));
+    wall(kit, path, [[0, 1], [len, 1], [len, DRUM[0]], [0, DRUM[0]]], { o0: -2.5, o1: 0, hex: MARBLE });
+    inlay(kit, path, 0.6, len - 0.6, TRIB + 4, DRUM[0] - 1, { cols: 4, rows: 2, w: 0.45 });
+    panel(kit, path, 0, len, DRUM[0] - 1.2, DRUM[0], STONE, 0, 0.6);
   }
-  kit.add(new THREE.ConeGeometry(3.6, 3.4, 8), WHITE, 0, BTOP + 14.7, 0);
-  kit.add(new THREE.SphereGeometry(0.7, 10, 8), GOLD, 0, BTOP + 16.8, 0);
-  kit.box(10.4, 17.6, 16.4, WHITE, -(BR - 1) - 4.7, 8.8, 0);
-  const sp = linePath(-(BR - 1) - 9.9, 8.2, -(BR - 1) - 9.9, -8.2);
-  panels(kit, sp, 0.6, 15.8, 1, 16.6, 4, 3);
-  gable(kit, -(BR - 1) - 9.9, -(BR - 1) + 0.5, 8.6, 17.6, 20.2, '#e4dfd2');
-  return kit.mesh(kitMat(0.85));
+  // the tribunes, north, east and south: half octagons of five chapels each
+  const TRI = [[0, -23], [13, -23], [27, -9.8], [27, 9.8], [13, 23], [0, 23]];
+  for (const turn of [Math.PI / 2, 0, -Math.PI / 2]) {
+    const c = Math.cos(turn), s = Math.sin(turn);
+    // t outward from the octagon's face, w across: to the model's u, v
+    const at = ([t, w]) => [OC + (OA + t) * c + w * s, (OA + t) * -s + w * c];
+    const pts = TRI.map(at);
+    for (const path of sides(pts).slice(0, 5)) {
+      const len = path.length;
+      wall(kit, path, [[0, 1], [len, 1], [len, TRIB], [0, TRIB]], { o0: -2, o1: 0, hex: MARBLE });
+      bay(kit, path, 1, len - 1, 1.5, TRIB - 2, { rows: 4 });
+      panel(kit, path, 0, len, TRIB - 1.4, TRIB, STONE, 0, 0.5);
+    }
+    for (const p of pts.slice(1, -1)) kit.box(2.4, TRIB + 1, 2.4, MARBLE, p[0], (TRIB + 1) / 2, p[1]);
+    // its roof, sloping from the walls up against the octagon
+    const roof = [], hi = TRIB + 10, top = TRI.map(([t, w]) => [Math.max(0, t - 18), Math.max(-12, Math.min(12, w * 0.55))]);
+    for (let k = 0; k < 5; k++) {
+      const a = [...at(TRI[k])], b = [...at(TRI[k + 1])], a2 = at(top[k]), b2 = at(top[k + 1]);
+      roof.push([a, TRIB], [b, TRIB], [b2, hi], [a, TRIB], [b2, hi], [a2, hi]);
+    }
+    const pos = roof.flatMap(([[x, z], y]) => [x, y, z]);
+    const geo = new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+    kit.add(geo, TILE);
+    const back = new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(pos.slice(), 3));
+    const arr = back.attributes.position.array;
+    for (let i = 0; i < arr.length; i += 9) for (let j = 0; j < 3; j++) [arr[i + 3 + j], arr[i + 6 + j]] = [arr[i + 6 + j], arr[i + 3 + j]];
+    kit.add(back, TILE); // its other face, so the roof shows whichever way its triangles wind
+    // the little lantern over the tribune's roof
+    const [lx, lz] = at([6, 0]);
+    shell(kit, [[3.4, hi - 1], [3.4, hi + 3], [3.9, hi + 3], [3.9, hi + 3.6], [2.4, hi + 6], [0.3, hi + 8], [0, hi + 8.2]], MARBLE, { cx: lx, cz: lz });
+  }
+  // the four little round exedrae in the octagon's corners, against its diagonal faces
+  for (const a of [Math.PI / 4, 3 * Math.PI / 4, -Math.PI / 4, -3 * Math.PI / 4]) {
+    const r = OA + 3.4, x = OC + r * Math.cos(a), z = r * Math.sin(a);
+    if (x < CROSS + 2) continue;
+    kit.add(new THREE.CylinderGeometry(5.4, 5.4, 15, 14), MARBLE, x, 8.5, z);
+    for (let y = 3; y < 15; y += 4.5) kit.add(new THREE.CylinderGeometry(5.5, 5.5, 0.5, 14), VERDE, x, y, z);
+    kit.add(new THREE.SphereGeometry(5.4, 14, 6, 0, 2 * Math.PI, 0, Math.PI / 2), TILE, x, 16, z);
+  }
 }
 
-const octagon = (x, z, r, n = 16) => onMap(x, z, TURN, Array.from({ length: n }, (_, k) => [r * Math.cos((k / n) * 2 * Math.PI), r * Math.sin((k / n) * 2 * Math.PI)]));
-// The cathedral stands in for the nave's, the tribunes' and the dome's pieces, the campanile for its
-// floating top, the baptistery for its octagon, its lantern's bits and the scarsella
-export const DUOMO = [
-  {
-    id: 'santa-maria-del-fiore', name: 'Santa Maria del Fiore', x: DX, z: DZ, turn: TURN, reach: 260,
-    area: [onMap(DX, DZ, TURN, rect(FRONT - 1.5, -HW - 2, NAVE, HW + 2)), octagon(DX, DZ, 66)],
-    foot: [onMap(DX, DZ, TURN, rect(FRONT, -HW, NAVE, HW)), octagon(DX, DZ, 58, 24)],
-    make: duomo,
-  },
-  {
-    id: 'campanile-di-giotto', name: 'Campanile di Giotto', x: CX, z: CZ, turn: TURN, reach: 200,
-    area: [onMap(CX, CZ, TURN, rect(-CH - 2, -CH - 2, CH + 2, CH + 2))], foot: [onMap(CX, CZ, TURN, rect(-CH - 0.7, -CH - 0.7, CH + 0.7, CH + 0.7))],
-    make: giotto,
-  },
-  {
-    id: 'battistero-di-san-giovanni', name: 'Battistero di San Giovanni', x: BX, z: BZ, turn: TURN, reach: 140,
-    area: [octagon(BX, BZ, BR + 2), onMap(BX, BZ, TURN, rect(-BR - 12, -9.5, -BR + 2, 9.5))],
-    foot: [octagon(BX, BZ, BR + 0.4), onMap(BX, BZ, TURN, rect(-BR - 9.9, -8.2, -BR + 2, 8.2))],
-    make: battistero,
-  },
-];
+// the drum, the dome and its lantern
+function dome(kit) {
+  const ring = ngon(DA, 8, Math.PI / 8, OC, 0);
+  for (const path of sides(ring)) {
+    const len = path.length, c = len / 2;
+    wall(kit, path, [[0, DRUM[0]], [len, DRUM[0]], [len, DRUM[1]], [0, DRUM[1]]], { o0: -2.5, o1: 0, hex: MARBLE });
+    inlay(kit, path, 0.4, len - 0.4, DRUM[0] + 0.5, DRUM[1] - 1.4, { cols: 6, rows: 1, w: 0.5 });
+    oculus(kit, path, c, (DRUM[0] + DRUM[1]) / 2, 3.6, { rim: 1.1, o: 0.15 });
+    panel(kit, path, 0, len, DRUM[1] - 1.6, DRUM[1], STONE, 0, 0.9);
+  }
+  // the vault: every section an octagon, its apothem on a pointed arc of radius RHO from the
+  // springing (DOME_A) to the lantern's ring (TOP_A)
+  const RHO = (DOME * DOME + (DOME_A - TOP_A) ** 2) / (2 * (DOME_A - TOP_A));
+  const prof = Array.from({ length: 17 }, (_, k) => {
+    const y = (k / 16) * DOME;
+    return [DOME_A - RHO + Math.sqrt(RHO * RHO - y * y), DRUM[1] + y];
+  });
+  shell(kit, prof, TILE, { cx: OC });
+  // the eight white ribs on its corners, and the ring of the eye under the lantern
+  const corner = (a, y, k) => {
+    const R = a / Math.cos(Math.PI / 8) + 0.35, t = Math.PI / 8 + (k / 8) * 2 * Math.PI;
+    return [OC + R * Math.cos(t), y, R * Math.sin(t)];
+  };
+  for (let k = 0; k < 8; k++) for (let j = 0; j + 1 < prof.length; j++) kit.rod(corner(...prof[j], k), corner(...prof[j + 1], k), 1, MARBLE, 4);
+  // the bands of little round windows in the vault's lower part
+  shell(kit, [[DOME_A + 0.2, DRUM[1]], [DOME_A + 0.2, DRUM[1] + 1.2], [DOME_A - 0.1, DRUM[1] + 1.2]], MARBLE, { cx: OC });
+  shell(kit, [[TOP_A + 1.4, LANTERN - 0.6], [TOP_A + 1.4, LANTERN + 1], [TOP_A - 0.4, LANTERN + 1]], MARBLE, { cx: OC });
+  // the lantern: its eight faces with their tall openings, the buttresses with their volutes, the
+  // cone, the ball and the cross
+  const L0 = LANTERN + 1, L1 = L0 + 11, LA = 4.6;
+  shell(kit, [[LA, L0], [LA, L1], [LA + 0.8, L1], [LA + 0.8, L1 + 1.2], [LA - 0.4, L1 + 1.2]], MARBLE, { cx: OC });
+  for (const path of sides(ngon(LA, 8, Math.PI / 8, OC, 0))) lancet(kit, path, path.length / 2, 1.5, L0 + 2, L1 - 1.6, { frame: shade(MARBLE, -0.1), rim: 0.3, round: true });
+  for (let k = 0; k < 8; k++) {
+    const t = Math.PI / 8 + (k / 8) * 2 * Math.PI, R = LA / Math.cos(Math.PI / 8);
+    const x = OC + (R + 1.3) * Math.cos(t), z = (R + 1.3) * Math.sin(t);
+    kit.box(2.6, L1 - L0, 0.9, MARBLE, x, (L0 + L1) / 2, z, 0, -t);
+    kit.box(2.4, 2, 0.8, MARBLE, OC + (R + 2.6) * Math.cos(t), L0 + 1, (R + 2.6) * Math.sin(t), 0, -t, 0.5); // the volute at its foot
+  }
+  shell(kit, [[LA - 0.4, L1 + 1.2], [LA - 1.4, L1 + 4], [1.2, L1 + 11], [0.6, L1 + 13], [0, L1 + 13.4]], MARBLE, { cx: OC, n: 16 });
+  kit.add(new THREE.SphereGeometry(1.7, 12, 8), '#d4b04a', OC, L1 + 15, 0);
+  kit.box(0.35, 4.6, 0.35, '#d4b04a', OC, L1 + 18.6, 0).box(0.35, 0.35, 2, '#d4b04a', OC, L1 + 19.6, 0);
+}
+
+// it stands in for the map's pieces of the cathedral (area), and riders bump into its outline (foot)
+const RING = onMap(X, Z, TURN, FOOT);
+export const DUOMO = [{
+  id: 'duomo', name: 'Santa Maria del Fiore', x: X, z: Z, turn: TURN, reach: 220, area: [RING], foot: [RING],
+  make: duomo,
+}];

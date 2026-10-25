@@ -1922,7 +1922,7 @@ function bikeDiscTexture() {
 }
 
 function osmGround(ctx, map, m) {
-  const water = waterMaterial(ctx);
+  const water = waterMaterial(ctx, LOOK?.water); // a city on the sea can have it bluer than the canals' green
   const layers = {
     water: [new Batch(), water, 0.008, 12],
     green: [new Batch(), m.park, 0.012, 6], wood: [new Batch(), mat(0xffffff, 1, { map: m.garden.map }), 0.013, 6],

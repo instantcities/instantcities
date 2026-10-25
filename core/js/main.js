@@ -159,7 +159,7 @@ const game = {
   // which mission: 0 is exploring freely, after it the quests (QUESTS[mission - 1])
   mission: clamp(Math.floor(saved.mission ?? (saved.kind === 'quest' ? (saved.quest ?? 0) + 1 : 0)), 0, QUESTS.length),
   mounts: [0, 1].map(p => (MOUNTS.includes(saved.mounts?.[p]) || (saved.mounts?.[p] === 'heli' && saved.questsWon?.includes('heli')) ? saved.mounts[p] : 'bike')), // what each player rides, or on foot (or flies)
-  lang: saved.lang === 'nl' ? 'nl' : 'en', // English, unless Dutch was picked
+  lang: Object.hasOwn(LANGS, saved.lang) ? saved.lang : 'en', // Restore any supported language
   style: saved.style === 'pro' ? 'pro' : 'fun', // the look of the menus: playful, or professional (white and navy, a serif)
   trackIdx: clamp(Math.floor(saved.track ?? 0), 0, TRACKS.length - 1),
   laps: clamp(Math.floor(saved.laps ?? 3), 1, 9),
@@ -3163,7 +3163,7 @@ function showTourCard(st) {
     $('tourText').replaceChildren(ul);
   } else $('tourText').textContent = words.text;
   // the sight's own page on the site, in the game's language; a stop without one keeps its link
-  const link = (st.sight && sightPage(st.sight)) || (st.link && (st.link[getLang()] ?? st.link.nl));
+  const link = (st.sight && sightPage(st.sight)) || (st.link && (st.link[getLang()] ?? st.link.en ?? st.link.nl));
   $('tourMore').classList.toggle('hidden', !link);
   if (link) $('tourMore').href = link;
   $('tourNext').textContent = t_(st.end ? 'tour.again' : 'tour.next');

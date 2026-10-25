@@ -1,10 +1,29 @@
-{%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, from=art:<id> for the pause menu's way back), and the other pieces in the same building. {%- endcomment -%}
+{%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, or for one out in the open ?pos=x,z&yaw= or ?at=<sight>; from=art:<id> for the pause menu's way back), and the other pieces in the same building. Its museum's page (a landmark, M.landmark) and its city's page are linked from its crumbs, its buttons, its facts and the first mention of each in its story, as is the first mention of another piece in the same museum. {%- endcomment -%}
 {%- assign A = site.data.art -%}
 {%- assign P = A.pieces | where: 'id', page.art | first -%}
 {%- assign M = A.museums | where: 'id', P.museum | first -%}
 {%- assign C = site.data.cities | where: 'id', M.city | first -%}
 {%- assign ph = site.data.art_photos[P.id] -%}
-{%- assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] | append: '&from=art:' | append: P.id -%}
+{%- assign city_url = '/' | append: C.id | append: '/' -%}
+{%- if M.landmark %}{% assign LM = site.data.landmarks[C.id] | where: 'id', M.landmark | first %}{% assign lm_url = city_url | append: 'landmark/' | append: LM.id | append: '/' %}{% endif -%}
+{%- comment -%} the story, its first mention of the museum and then of the city in a link (the paragraphs run together with a pilcrow between them, so a mention at the start of one counts) {%- endcomment -%}
+{%- assign story = P.text | join: ' ¶ ' -%}
+{%- if LM %}
+{%- capture story %}{% include link-first.html text=story name=LM.name url=lm_url %}{% endcapture -%}
+{%- unless story contains lm_url %}{% assign short = M.name | remove_first: 'The ' %}{% capture story %}{% include link-first.html text=story name=short url=lm_url %}{% endcapture %}{% endunless -%}
+{%- endif -%}
+{%- assign others = A.pieces | where: 'museum', M.id | where_exp: 'a', 'a.id != P.id' -%}
+{%- for a in others %}{% assign art_url = '/art/' | append: a.id | append: '/' %}{% assign art_name = a.title | remove_first: 'The ' %}
+{%- capture story %}{% include link-first.html text=story name=art_name url=art_url %}{% endcapture -%}
+{%- endfor -%}
+{%- capture story %}{% include link-first.html text=story name=C.name url=city_url %}{% endcapture -%}
+{%- assign paras = story | split: ' ¶ ' -%}
+{%- comment -%} in a building: ?inside=<it>&view=; out in the open: ?pos=x,z(&yaw=) or its square's ?at=<sight> {%- endcomment -%}
+{%- if P.view %}{% assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] -%}
+{%- elsif P.pos %}{% assign n = P.title | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: P.pos[0] | append: ',' | append: P.pos[1] -%}
+{%- if P.pos.size > 2 %}{% assign play = play | append: '&yaw=' | append: P.pos[2] %}{% endif %}{% assign play = play | append: '&n=' | append: n -%}
+{%- else %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: M.at -%}{% endif -%}
+{%- assign play = play | append: '&from=art:' | append: P.id -%}
 {%- case P.kind %}{% when 'painting' %}{% assign kind_icon = 'frame' %}{% when 'fresco' %}{% assign kind_icon = 'palette' %}{% when 'sculpture' %}{% assign kind_icon = 'statue' %}{% else %}{% assign kind_icon = 'gem' %}{% endcase -%}
 <!doctype html>
 <html lang="en">
@@ -21,14 +40,17 @@
   <main id="main">
     <section class="hero artwork-hero">
       <div class="hero-text">
-        <p class="crumbs"><a href="/art/">Art</a> › <a href="/art/#{{ M.id }}">{{ M.name }}</a></p>
+        <p class="crumbs"><a href="/art/">Art</a> › <a href="{{ city_url }}">{{ C.name }}</a> › <a href="{% if LM %}{{ lm_url }}{% else %}/art/#{{ M.id }}{% endif %}">{{ M.name }}</a></p>
         <h1>{{ P.title }}</h1>
         {%- if P.local %}<p class="local">{{ P.local }}</p>{% endif %}
         <p class="byline">{% include icon.html name=kind_icon %} {{ P.artist }}, {{ P.date }}</p>
         <p class="tagline">{{ P.blurb }}</p>
         <p class="hero-btns left">
           <a class="play" href="{{ play }}">{% include icon.html name="play" %} See it in 3D</a>
-          <a class="ghost" href="/{{ C.id }}/">{% include icon.html name="city" %} {{ C.name }}</a>
+          {%- if LM %}
+          <a class="ghost" href="{{ lm_url }}">{% include icon.html name="pin" %} {{ M.name }}</a>
+          {%- endif %}
+          <a class="ghost" href="{{ city_url }}">{% include icon.html name="city" %} {{ C.name }}</a>
         </p>
       </div>
       <figure class="artwork-shot">
@@ -41,7 +63,7 @@
 
     <section class="landmark-body">
       <div class="prose">
-        {%- for p in P.text %}
+        {%- for p in paras %}
         <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">Stand before it in 3D ›</a>{% endif %}</p>
         {%- endfor %}
       </div>
@@ -53,22 +75,22 @@
             <dt>When</dt><dd>{{ P.date }}</dd>
             <dt>Made of</dt><dd>{{ P.medium }}</dd>
             <dt>Size</dt><dd>{{ P.size }}</dd>
-            <dt>Where</dt><dd>{{ M.name }}, {{ C.name }}<br><small>{{ P.room }}</small></dd>
+            <dt>Where</dt><dd>{% if LM %}<a href="{{ lm_url }}">{{ M.name }}</a>{% else %}{{ M.name }}{% endif %}, <a href="{{ city_url }}">{{ C.name }}</a><br><small>{{ P.room }}</small></dd>
           </dl>
           <p class="art-go"><a href="{{ play }}">{% include icon.html name="play" %} Go there in {{ C.game | default: C.name }}</a></p>
         </div>
       </aside>
     </section>
 
-    {%- assign others = A.pieces | where: 'museum', M.id | where_exp: 'a', 'a.id != P.id' %}
     {%- if others.size > 0 %}
     <section class="landmarks">
-      <h2>More in {{ M.name }}</h2>
+      <h2>More in {% if LM %}<a href="{{ lm_url }}">{{ M.name }}</a>{% else %}{{ M.name }}{% endif %}</h2>
       <div class="grid art-grid">
         {%- for a in others %}
         {% include art-card.html art=a %}
         {%- endfor %}
       </div>
+      <p class="card-more"><a href="/art/#{{ M.id }}">All art in {{ M.name }} ›</a></p>
     </section>
     {%- endif %}
 

@@ -584,12 +584,12 @@ a.chip { text-decoration: none; }
 .credit { margin: 8px 0 0; font-weight: 700; font-size: 11px; color: #8a7a68; }
 .credit a { color: inherit; }
 .loader-build { position: absolute; bottom: calc(10px + env(safe-area-inset-bottom)); left: 0; right: 0; text-align: center; font: 700 11px 'Nunito', system-ui, sans-serif; opacity: 0.55; } /* build: <commit> · when */
-#pauseCard { position: relative; padding: 58px 28px 24px; }
+#pauseCard { position: relative; padding: 12px 28px 24px; }
 #pauseCard .btnrow { margin-top: 12px; }
 #pauseCard .btnrow:last-child { margin-top: 22px; }
-.pause-home, .pause-close { position: absolute; top: 12px; font-size: 14px; padding: 4px 12px; }
-.pause-home { left: 14px; }
-.pause-close { right: 14px; }
+.pause-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-right: 34px; margin: 0 -14px 18px; }
+.pause-nav .chip, .pause-close { font-size: 14px; padding: 4px 12px; }
+.pause-close { position: absolute; top: 12px; right: 14px; }
 #pauseCard .btnrow:last-child { flex-wrap: nowrap; }
 #pauseCard .btnrow:last-child .start { flex: 1 1 0; min-width: 0; padding: 10px 12px; }
 .start.alt { color: var(--ink); background: #fff; }
