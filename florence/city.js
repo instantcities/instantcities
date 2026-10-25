@@ -13,6 +13,7 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs florence`
 //   inside.js        the buildings you can go into: the Uffizi, its rooms in inside/ (hand-written)
 //   monuments.js     the statues out in the streets: the David at the Palazzo Vecchio (hand-written)
+//   loggia.js        the Loggia dei Lanzi, modelled by hand on core/js/arcade.js
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -21,7 +22,9 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
-export { MONUMENTS } from './monuments.js';
+import { MONUMENTS as STATUES } from './monuments.js';
+import { LOGGIA } from './loggia.js';
+export const MONUMENTS = [...STATUES, ...LOGGIA];
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
