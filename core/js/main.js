@@ -2,8 +2,8 @@ import * as THREE from 'three';
 import { Track } from './track.js';
 import { TRACKS } from './tracks.js';
 import { createAnimal } from './horse.js';
-import { createWalker, createCyclist } from './riders.js';
-import { STABLE, MOUNTS, MOUNT_COLORS, PLAYER_COLORS } from './horses.js';
+import { createWalker, createCyclist, createScooterist } from './riders.js';
+import { STABLE, MOUNTS, MOUNT_COLORS, PLAYER_COLORS, ITALIAN } from './horses.js';
 import { LANGS, t, ordinal, local, applyStatic, setLang, getLang } from './i18n.js';
 
 const t_ = t; // plain t is often a track or a time below; t_ always means translate
@@ -610,6 +610,7 @@ function createRider(h, mount) {
   const def = { ...h, number: STABLE.indexOf(h) + 1, labelLayer: 1, standardCoat: roaming() };
   if (mount === 'foot' || mount === 'heli') return createWalker(def, STABLE.indexOf(h)); // (in the helicopter, out of sight)
   if (mount === 'bike') return createCyclist(def, STABLE.indexOf(h));
+  if (mount === 'vespa') return createScooterist(def, STABLE.indexOf(h));
   return createAnimal({ ...def, species: mount });
 }
 // one model per character and mount, made when first needed
@@ -2066,7 +2067,7 @@ const navRows = () => ['kind', touring() ? 'tour' : roaming() ? 'quest' : 'track
 let menuRow = 0;
 const focusRow = name => { const i = navRows().indexOf(name); if (i >= 0) menuRow = i; };
 const thumbs = new Map(); // character and mount -> portrait
-const THUMB_SCALE = { bike: 1.55, foot: 1.65, heli: 0.32 }; // in the picker, as tall as a rider on a horse (the helicopter: in the picture whole)
+const THUMB_SCALE = { bike: 1.55, vespa: 1.5, foot: 1.65, heli: 0.32 }; // in the picker, as tall as a rider on a horse (the helicopter: in the picture whole)
 let studio = null;
 
 // A portrait for the character picker, rendered from its real 3D model (a fresh one, so the model
@@ -2523,7 +2524,7 @@ function setKind(kind) {
 // What a player rides: any animal, or on foot, or on a bike. They are all equally fast.
 // A phone's narrow picker only offers the three the missions use. Riding about freely, the
 // helicopter comes after them once its rescue quest has been won.
-const PHONE_MOUNTS = ['foot', 'bike', 'horse'];
+const PHONE_MOUNTS = ['foot', 'bike', ...(ITALIAN ? ['vespa'] : []), 'horse'];
 const withHeli = list => (exploring() && game.questsWon.includes('heli') ? [...list, 'heli'] : list);
 function syncHeli() {
   document.body.classList.toggle('heli', heliMode());
@@ -5560,8 +5561,9 @@ function updateAmbient(dt) {
       if (b.state === 'ride') src.push({ key: b, kind: 'bike', x: b.model.root.position.x, z: b.model.root.position.z, speed: b.speed });
     }
     for (const r of field) {
-      if (r.model.species !== 'bike' || !r.grounded || riding(r)) continue; // on the tram the bike is out of sight
-      src.push({ key: r, kind: 'bike', x: r.pos.x, z: r.pos.z, speed: Math.abs(r.speed), own: r.human >= 0 && r.human < game.players ? r.human : null });
+      const kind = { bike: 'bike', vespa: 'scooter' }[r.model.species];
+      if (!kind || !r.grounded || riding(r)) continue; // on the tram the bike is out of sight
+      src.push({ key: r, kind, x: r.pos.x, z: r.pos.z, speed: Math.abs(r.speed), own: r.human >= 0 && r.human < game.players ? r.human : null });
     }
   }
   ambient.update(dt, on, listeners, src);

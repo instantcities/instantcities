@@ -1,11 +1,12 @@
-// The hum of the street: engines of passing cars and bikes riding by, your own included. A few voices that never stop, each following one of the nearest sources: louder close
+// The hum of the street: engines of passing cars and bikes riding by, your own included (and your Vespa's buzz). A few voices that never stop, each following one of the nearest sources: louder close
 // by, panned to where it is from the camera, pitched up coming at you and down going away. Police
 // cars have their siren on (sounds/siren.wav: Work With Sounds / Konrad Gutkowski, CC BY 4.0).
 
 const CAR = { voices: 5, ref: 7, max: 110, vol: 0.16 };
 const BIKE = { voices: 4, ref: 2.5, max: 40, vol: 0.22 };
 const SIREN = { voices: 2, ref: 14, max: 220, vol: 0.32 };
-const KINDS = { car: CAR, bike: BIKE, siren: SIREN };
+const SCOOTER = { voices: 2, ref: 3, max: 60, vol: 0.07 };
+const KINDS = { car: CAR, bike: BIKE, siren: SIREN, scooter: SCOOTER };
 const SOUND_SPEED = 140; // slower than real, for a Doppler you can hear
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
@@ -14,7 +15,7 @@ export class Ambient {
   constructor(sfx) {
     this.sfx = sfx;
     this.bus = null;
-    this.prev = { car: new WeakMap(), bike: new WeakMap(), siren: new WeakMap() }; // per kind, source key -> last position, for its speed towards the listener
+    this.prev = { car: new WeakMap(), bike: new WeakMap(), siren: new WeakMap(), scooter: new WeakMap() }; // per kind, source key -> last position, for its speed towards the listener
   }
 
   build() {
@@ -25,6 +26,7 @@ export class Ambient {
     this.cars = Array.from({ length: CAR.voices }, () => this.carVoice(ctx));
     this.bikes = Array.from({ length: BIKE.voices }, () => this.bikeVoice(ctx));
     this.sirens = Array.from({ length: SIREN.voices }, () => this.bikeVoice(ctx));
+    this.scooters = Array.from({ length: SCOOTER.voices }, () => this.scooterVoice(ctx));
     this.loadLoop(ctx, new URL('../sounds/bike.wav', import.meta.url).href, this.bikes); // core/sounds, whichever city's page
     this.loadLoop(ctx, new URL('../sounds/siren.wav', import.meta.url).href, this.sirens);
   }
@@ -72,6 +74,27 @@ export class Ambient {
     return v;
   }
 
+  // A Vespa: the high buzz of a small two-stroke, two squares an octave apart through a lowpass.
+  scooterVoice(ctx) {
+    const v = { src: null, ...this.voiceOut(ctx) };
+    const lp = ctx.createBiquadFilter();
+    lp.type = 'lowpass';
+    lp.frequency.value = 900;
+    lp.Q.value = 3;
+    v.oscs = [1, 2.01].map(k => {
+      const o = ctx.createOscillator();
+      o.type = 'square';
+      o.frequency.value = 70 * k;
+      o.k = k;
+      o.connect(lp);
+      o.start();
+      return o;
+    });
+    lp.connect(v.gain);
+    v.lp = lp;
+    return v;
+  }
+
   // A bike or a siren: a recorded loop (sounds/bike.wav, sounds/siren.wav), a bike's played faster
   // the faster it goes. The loop arrives after the voices are built; until then they stay silent.
   bikeVoice(ctx) {
@@ -93,7 +116,7 @@ export class Ambient {
   }
 
   // listeners: [{ x, z, dx, dz (looking direction), pan }], one per player's camera.
-  // sources: [{ key, kind: 'car' | 'bike' | 'siren', x, z, speed, own? }]; own = that player's own bike.
+  // sources: [{ key, kind: 'car' | 'bike' | 'siren' | 'scooter', x, z, speed, own? }]; own = that player's own bike or Vespa.
   update(dt, on, listeners, sources) {
     const sfx = this.sfx;
     if (!sfx.ctx) return;
@@ -131,6 +154,12 @@ export class Ambient {
     this.assign(this.bikes, sources.filter(s => s.kind === 'bike'), now, (v, s) => {
       v.rate?.setTargetAtTime(clamp(0.6 + s.speed / 20, 0.6, 1.3) * s.pitch, now, 0.1);
       return BIKE.vol * clamp(s.speed / 10, 0, 1);
+    });
+    this.assign(this.scooters, sources.filter(s => s.kind === 'scooter'), now, (v, s) => {
+      const rev = 70 + s.speed * 8 + Math.sin(now * 3.1 + v.oscs[0].k) * 2;
+      for (const o of v.oscs) o.frequency.setTargetAtTime(rev * o.k * s.pitch, now, 0.08);
+      v.lp.frequency.setTargetAtTime(700 + s.speed * 40, now, 0.1);
+      return SCOOTER.vol * (0.5 + 0.5 * clamp(s.speed / 12, 0, 1));
     });
     this.assign(this.sirens, sources.filter(s => s.kind === 'siren'), now, (v, s) => {
       v.rate?.setTargetAtTime(s.pitch, now, 0.1);
