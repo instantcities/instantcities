@@ -3,6 +3,7 @@
     "id": "santa-croce",
     "name": "Basilica di Santa Croce",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 40.35467,
     "lon": 18.17324,
@@ -11,12 +12,20 @@
     "text": [
       "The Basilica di Santa Croce is the showpiece of the style named after the city, Lecce Baroque. It took almost 150 years to build, from 1549 to 1695, and several architects, among them Gabriele Riccardi and, for the upper façade, Giuseppe Zimbalo and Cesare Penna.",
       "Its front is a riot of carving in the soft local stone: a balcony held up by monsters and figures said to be defeated Turks, a great rose window ringed with fruit and leaves, cherubs, lions and saints. Next door the long front of the Palazzo dei Celestini, once a monastery, now houses the province’s government."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/santa-croce.jpg",
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lecce_-_Santa_Croce_-_16.jpg"
+    }
   },
   {
     "id": "piazza-duomo",
     "name": "Piazza del Duomo",
     "emoji": "🔔",
+    "icon": "bell",
     "kind": "place",
     "lat": 40.35175,
     "lon": 18.16933,
@@ -25,12 +34,20 @@
     "text": [
       "The Piazza del Duomo is closed off on almost every side, so it only opens up once you walk in through the narrow gap from the Via Vittorio Emanuele. Then the whole square appears at once: the cathedral, its tall bell tower, the Bishop’s Palace and the Seminary, all in the same golden stone.",
       "The cathedral was rebuilt from 1659 by Giuseppe Zimbalo, who gave it two fronts, one towards the square and a showier one towards the street. His bell tower rises 70 metres in five storeys; from the top you could once see the sea on a clear day."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/piazza-duomo.jpg",
+      "author": "Giuseppe Milo",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Del_Duomo_Lecce_Italy_Travel_Photography_(171395721).jpeg"
+    }
   },
   {
     "id": "sant-oronzo",
     "name": "Piazza Sant’Oronzo",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 40.3528,
     "lon": 18.17255,
@@ -39,12 +56,20 @@
     "text": [
       "Piazza Sant’Oronzo is where Lecce meets: cafés, the old town hall called the Sedile from 1592, and a hole in the middle of the square in which half a Roman amphitheatre lies. Built in the 2nd century, it could seat some 25,000 people; the other half is still under the buildings around it.",
       "The column in the square came from Brindisi, where it marked the end of the Via Appia. Lecce set Saint Oronzo on top of it, the patron saint credited with saving the city from the plague in the 17th century, and every August his feast fills the streets."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/sant-oronzo.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Sant%27Oronzo_(Lecce).jpg"
+    }
   },
   {
     "id": "castello-carlo-v",
     "name": "Charles V Castle",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 40.35246,
     "lon": 18.17488,
@@ -53,12 +78,20 @@
     "text": [
       "The castle stands just east of the old town, a broad square block with arrow-shaped bastions at its corners. Emperor Charles V had it rebuilt in the 1530s around an older keep, part of the defences he raised all along the coast of Apulia against attacks by the Ottomans.",
       "Over the centuries it served as a prison, a barracks and offices. Today it is open to visit, with exhibitions and the museum of papier-mâché, the craft Lecce is famous for."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/castello-carlo-v.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lecce_chateau_cour.jpg"
+    }
   },
   {
     "id": "porta-napoli",
     "name": "Porta Napoli",
     "emoji": "🚪",
+    "icon": "door",
     "kind": "place",
     "lat": 40.35647,
     "lon": 18.16856,
@@ -67,12 +100,20 @@
     "text": [
       "Porta Napoli is the grandest of Lecce’s three gates: a triumphal arch put up in 1548 in honour of Charles V, with his coat of arms over the passage and columns on either side. It stands where the road to Naples left the city, hence its name.",
       "On the square in front rises an obelisk from 1822, raised for King Ferdinand I of the Two Sicilies. In the game the race rides through the arch."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/porta-napoli.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Porta_Napoli,_Lecce.jpg"
+    }
   },
   {
     "id": "teatro-romano",
     "name": "Roman Theatre",
     "emoji": "🎭",
+    "icon": "mask",
     "kind": "place",
     "lat": 40.35134,
     "lon": 18.17053,
@@ -81,12 +122,20 @@
     "text": [
       "Lecce’s Roman theatre lay hidden for centuries among the gardens and houses of the old town, until it was found by chance in the 1930s. It dates from the time of Augustus and could seat about 5,000 people.",
       "You can still see the curved tiers of its seats and parts of the stage area. A small museum beside it tells the story of Roman Lupiae, as Lecce was called."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/teatro-romano.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_theatre_(Lecce)_01.jpg"
+    }
   },
   {
     "id": "porta-rudiae",
     "name": "Porta Rudiae",
     "emoji": "🚪",
+    "icon": "door",
     "kind": "place",
     "lat": 40.35133,
     "lon": 18.16458,
@@ -95,12 +144,20 @@
     "text": [
       "Porta Rudiae is the western gate of the old town and its oldest, though what you see today was rebuilt in Baroque style in 1703. It is named after Rudiae, the ancient town just outside Lecce where the Roman poet Ennius was born.",
       "On top stands Saint Oronzo again, the city’s patron, between Saint Domenico and Saint Irene. In the game the race leaves the old town through this gate."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/porta-rudiae.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Porta_Rudiae_(Lecce)_02.jpg"
+    }
   },
   {
     "id": "porta-san-biagio",
     "name": "Porta San Biagio",
     "emoji": "🚪",
+    "icon": "door",
     "kind": "place",
     "lat": 40.34953,
     "lon": 18.17262,
@@ -109,12 +166,20 @@
     "text": [
       "Porta San Biagio, the southern gate, was built in 1774 and dedicated to Saint Blaise, whose statue stands on top. It opens onto the road towards Otranto and the Adriatic coast.",
       "Like Porta Napoli and Porta Rudiae it stands in the line of the old walls, which have otherwise largely gone, replaced by the ring of broad avenues around the old town."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/porta-san-biagio.jpg",
+      "author": "Lupiae",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Porta_San_Biagio_Lecce.jpg"
+    }
   },
   {
     "id": "villa-comunale",
     "name": "Villa Comunale",
     "emoji": "🌳",
+    "icon": "tree",
     "kind": "place",
     "lat": 40.35519,
     "lon": 18.17537,
@@ -123,12 +188,20 @@
     "text": [
       "The Villa Comunale, the Giuseppe Garibaldi park, lies just outside the old town by the castle. Laid out in the 19th century, it is a green island of palms, pines and flower beds, with paths, benches and busts of famous people from Lecce.",
       "On a hot afternoon in the Salento, its shade is the best place in town; in the evening it fills with families and children."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/villa-comunale.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Giardini_Pubblici_Giuseppe_Garibaldi_02.jpg"
+    }
   },
   {
     "id": "santa-chiara",
     "name": "Chiesa di Santa Chiara",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 40.35183,
     "lon": 18.17128,
@@ -137,57 +210,97 @@
     "text": [
       "Santa Chiara is a small Baroque church from 1687, just off Piazza Sant’Oronzo and beside the Roman theatre. Its plan is octagonal, and its façade is one of the liveliest in the city.",
       "Inside, look up: the ceiling is made of cartapesta, painted papier-mâché, made to look like carved wood or stone. It is the craft Lecce is known for, and here it covers a whole church."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/santa-chiara.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lecce_santa_chiara_face.jpg"
+    }
   },
   {
     "id": "pietra-leccese",
     "name": "Pietra leccese",
     "emoji": "🪨",
+    "icon": "wall",
     "kind": "thing",
     "blurb": "The soft, honey-coloured limestone that the whole old town is built and carved from.",
     "text": [
       "Pietra leccese is a fine-grained limestone quarried around the city. Fresh from the ground it is so soft that it can be carved almost like wood; in the air it slowly hardens and takes on its warm golden colour.",
       "That is what made Lecce Baroque possible: the stone carvers could cover whole façades with flowers, fruit, cherubs and monsters. It is still quarried and carved today, and in the game every house is drawn in its colours."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/pietra-leccese.jpg",
+      "author": "\"Teresa Menduni\"",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2048x1536-Cava_pietra_leccese_in_Melpignano_(Lecce).JPG"
+    }
   },
   {
     "id": "pasticciotto",
     "name": "Pasticciotto",
     "emoji": "🥮",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "A small oval pastry of shortcrust filled with warm custard, eaten for breakfast in every bar of the Salento.",
     "text": [
       "The pasticciotto is Lecce’s pastry: a little oval pie of shortcrust made with lard, filled with custard and baked until it is golden on top. It is best eaten warm, in the morning, with a coffee at the bar.",
       "The town of Galatina, south of Lecce, claims to have invented it in the 18th century. In the game it is what you collect in one of the quests, among the pizzica dancers."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/pasticciotto.jpg",
+      "author": "I, Calcagnile Floriano, User:Florixc https://www.flickr.com/photos/florixc/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pasticciotto_galatina.jpg"
+    }
   },
   {
     "id": "cartapesta",
     "name": "Papier-mâché",
     "local": "Cartapesta",
     "emoji": "🎎",
+    "icon": "statue",
     "kind": "thing",
     "blurb": "Statues of saints made of paper, straw and glue, a craft Lecce has practised for four centuries.",
     "text": [
       "Lecce’s cartapesta workshops make statues of saints, Madonnas and nativity figures out of paper and rags on a frame of straw and wire, finished with plaster and paint, and sometimes fired with hot irons to set the folds of their robes. Light and cheap, they could stand in churches that could not afford marble or wood.",
       "The craft is still alive, with workshops in the old town and a museum in the castle. In the game a thief runs off with a papier-mâché Saint Oronzo, and you have to catch him."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/cartapesta.jpg",
+      "author": "Fabrizio Garrisi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:12-_Cristo_deposto,_cartapesta,_Santa_Teresa_a_Lecce_-FG10.jpg"
+    }
   },
   {
     "id": "pizzica",
     "name": "Pizzica",
     "emoji": "💃",
+    "icon": "music",
     "kind": "tradition",
     "blurb": "The fast, whirling folk dance of the Salento, played on tambourines through the summer nights.",
     "text": [
       "Pizzica is a form of tarantella from the Salento. It once belonged to tarantism, the belief that women bitten by the tarantula could only be healed by dancing for days to the music of tambourines and violins.",
       "Today it is a summer festival music: the Notte della Taranta, a night of pizzica in Melpignano, draws crowds of many thousands every August. In the game a crowd of dancers tries to pull you into the dance."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/lecce/pizzica.jpg",
+      "author": "Florixc",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Allabuasanarica.jpg"
+    }
   },
   {
     "id": "caffe-leccese",
     "name": "Caffè leccese",
     "emoji": "☕",
+    "icon": "coffee",
     "kind": "food",
     "blurb": "An espresso poured over ice and sweet almond milk: Lecce’s answer to the summer heat.",
     "text": [

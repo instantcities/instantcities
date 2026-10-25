@@ -25,7 +25,8 @@
   {% include topnav.html %}
 
   <main id="main">
-    <section class="hero home-hero guide-hero page-hero">
+{%- assign pics = site.data.landmarks[C.id] | where_exp: 'l', 'l.photo' %}{% assign pic = pics[0] | default: pics[0] %}
+    <section class="hero home-hero guide-hero page-hero{% if pic %} photo-hero" style="--photo: url('{{ pic.photo.src }}'){% endif %}">
       <div class="hero-text">
         <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › About the city</p>
         <h1>This is {{ C.name }}</h1>
@@ -35,6 +36,7 @@
           <a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} Places and landmarks</a>
         </p>
       </div>
+      {%- if pic %}{% include photo-hero.html photo=pic.photo %}{% endif %}
     </section>
 
     <nav class="subnav" aria-label="On this page">

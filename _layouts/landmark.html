@@ -11,7 +11,7 @@
 <head>
 {%- assign title = L.name | append: ' in ' | append: C.name | append: ' · Instant Cities' -%}{%- assign description = L.blurb -%}
 {%- assign path = '/' | append: C.id | append: '/landmark/' | append: L.id | append: '/' -%}
-{%- if L.image %}{% assign image = L.image %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
+{%- if L.photo %}{% assign image = L.photo.src %}{% elsif L.image %}{% assign image = L.image %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
 </head>
 <body>
@@ -19,10 +19,10 @@
   {% include topnav.html %}
 
   <main id="main">
-    <section class="hero landmark-hero page-hero{% unless L.image %} home-hero{% endunless %}">
+    <section class="hero landmark-hero page-hero{% unless L.image %} home-hero{% endunless %}{% if L.photo %} photo-hero" style="--photo: url('{{ L.photo.src }}'){% endif %}">
       <div class="hero-text">
         <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › <a href="/{{ C.id }}/{% if site.data.about[C.id] %}places-and-landmarks/{% else %}#landmarks{% endif %}">Places and landmarks</a></p>
-        <h1><span class="emoji" aria-hidden="true">{{ L.emoji }}</span> {{ L.name }}</h1>
+        <h1><span class="lm-icon" aria-hidden="true">{% include icon.html name=L.icon %}</span> {{ L.name }}</h1>
         {%- if L.local %}<p class="local">{{ L.local }}</p>{% endif %}
         <p class="tagline">{{ L.blurb }}</p>
         <p class="hero-btns">
@@ -36,6 +36,7 @@
         <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
       </a>
       {%- endif %}
+      {%- if L.photo %}{% include photo-hero.html photo=L.photo %}{% endif %}
     </section>
 
     <section class="landmark-body">

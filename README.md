@@ -38,7 +38,10 @@ Every city's page lists its places, elements and landmarks (not only buildings: 
 London's black cabs, Brussels' fries), each with a page of its own at `/<id>/landmark/<landmark>/`:
 its story, a map from OpenStreetMap and a link that drops you right there in the game. They are in
 `_data/landmarks/<id>.json`; `node tools/landmarks.mjs` writes their pages (`<id>/landmark/`).
-Ghent's texts and pictures come from the sight pages of Instant Gent.
+Ghent's texts and pictures come from the sight pages of Instant Gent. Each landmark's photo (its
+`photo`: the file in `assets/img/photos/<id>/`, a square `-s.jpg` for its card, and its author,
+licence and source) comes from Wikimedia Commons, freely licensed (CC BY, CC BY-SA, CC0 or public
+domain) and credited on its page; a landmark's `icon` names one of `_includes/icon.html`'s.
 
 Every city also has a guide: a "This is <city>" section on its page, a page about the city at
 `/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre

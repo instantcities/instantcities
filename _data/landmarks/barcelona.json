@@ -3,6 +3,7 @@
     "id": "la-rambla",
     "name": "La Rambla",
     "emoji": "🚶",
+    "icon": "tree",
     "kind": "place",
     "lat": 41.3815,
     "lon": 2.173,
@@ -10,12 +11,20 @@
     "text": [
       "La Rambla follows the bed of a seasonal stream that once ran along the medieval walls; its name comes from the Arabic for sandy riverbed. In the 18th century the walls came down and it became a promenade, with plane trees and a broad walk down the middle between two narrow roads.",
       "For 1.2 kilometres it runs from Plaça de Catalunya to the port, past flower stalls, the Boqueria market, the Liceu and Joan Miró’s mosaic in the pavement."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/la-rambla.jpg",
+      "author": "JopkeB",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:La_Rambla_Barcelona_bird_stall_1991.jpg"
+    }
   },
   {
     "id": "placa-de-catalunya",
     "name": "Plaça de Catalunya",
     "emoji": "⛲",
+    "icon": "drop",
     "kind": "place",
     "lat": 41.387,
     "lon": 2.17,
@@ -23,12 +32,20 @@
     "text": [
       "Plaça de Catalunya was laid out in the early 20th century on open ground between the old town and the new grid of the Eixample. Fountains, statues and pigeons fill its middle.",
       "It is the city’s crossroads: the Rambla, the Passeig de Gràcia and the Portal de l’Àngel all start here, and metro and train lines meet beneath it."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/placa-de-catalunya.jpg",
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Catalunya_Barcelona1_tango7174.jpg"
+    }
   },
   {
     "id": "la-boqueria",
     "name": "La Boqueria",
     "emoji": "🍓",
+    "icon": "bag",
     "kind": "place",
     "lat": 41.3818,
     "lon": 2.1716,
@@ -36,12 +53,20 @@
     "text": [
       "There has been a market here since the Middle Ages; the iron roof of the Mercat de Sant Josep, as it is officially called, was put up in 1914. Behind its stained-glass sign hundreds of stalls sell fruit, ham, fish, cheese and sweets.",
       "Little counter bars inside cook what the market sells, and at lunchtime there is hardly a stool to be had."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/la-boqueria.jpg",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Mercat_de_Sant_Josep_(la_Boqueria)_-_Entrance.jpg"
+    }
   },
   {
     "id": "liceu",
     "name": "Gran Teatre del Liceu",
     "emoji": "🎭",
+    "icon": "mask",
     "kind": "place",
     "lat": 41.3806,
     "lon": 2.1735,
@@ -49,12 +74,20 @@
     "text": [
       "The Liceu opened in 1847 and became one of the great opera houses of Europe, paid for not by a king but by the city’s own citizens. It burned in 1861 and again in 1994.",
       "Each time it was rebuilt, and it reopened in 1999 with its gilded horseshoe hall as before."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/liceu.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Liceu_Barcelone_3.jpg"
+    }
   },
   {
     "id": "placa-reial",
     "name": "Plaça Reial",
     "emoji": "🌴",
+    "icon": "tree",
     "kind": "place",
     "lat": 41.3801,
     "lon": 2.1752,
@@ -62,13 +95,21 @@
     "text": [
       "Plaça Reial was built in the 1850s on the site of a convent, a square of yellow arcaded houses around a fountain of the Three Graces and a row of tall palms.",
       "Its two six-armed street lamps were the first public commission of Antoni Gaudí, in 1879, when he had just finished his studies."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/placa-reial.jpg",
+      "author": "Mummelgrummel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Nacht_-_Placa_Reial_004.jpg"
+    }
   },
   {
     "id": "catedral",
     "name": "Cathedral",
     "local": "Catedral de Barcelona",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 41.384,
     "lon": 2.1762,
@@ -76,12 +117,20 @@
     "text": [
       "The Cathedral of the Holy Cross and Saint Eulalia was built from the end of the 13th century to the 15th; its neo-Gothic front only followed in the late 19th century. Saint Eulalia, a girl martyred in Roman times, lies in its crypt.",
       "In the cloister, among palms and a fountain, live thirteen white geese, one for each year of her life."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/catedral.jpg",
+      "author": "Josep Renalias",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Barcelona_-_Interior2.JPG"
+    }
   },
   {
     "id": "placa-de-sant-jaume",
     "name": "Plaça de Sant Jaume",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 41.3827,
     "lon": 2.177,
@@ -89,13 +138,21 @@
     "text": [
       "Plaça de Sant Jaume lies where the forum of Roman Barcino stood. On one side is the Palau de la Generalitat, the seat of the government of Catalonia since the 15th century; on the other the Ajuntament, Barcelona’s city hall.",
       "It is the stage for the city’s festivals, from the human towers of the castellers to the giants and fire runners of La Mercè."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/placa-de-sant-jaume.jpg",
+      "author": "Enric",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:164_Pla%C3%A7a_de_Sant_Jaume_(Barcelona),_amb_la_Generalitat_al_fons,_el_dia_de_Sant_Jordi.jpg"
+    }
   },
   {
     "id": "monument-a-colom",
     "name": "Columbus Monument",
     "local": "Monument a Colom",
     "emoji": "🧭",
+    "icon": "compass",
     "kind": "place",
     "lat": 41.3758,
     "lon": 2.1778,
@@ -103,13 +160,21 @@
     "text": [
       "The monument was put up for the Universal Exhibition of 1888, where Columbus reported to the Catholic Monarchs in Barcelona after his first voyage. A lift inside the iron column takes you up to a lookout below his feet.",
       "He points out to sea, over the port, from the bottom of the Rambla."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/monument-a-colom.jpg",
+      "author": "Mike McBey",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_(47934011408).jpg"
+    }
   },
   {
     "id": "barri-gotic",
     "name": "Gothic Quarter",
     "local": "Barri Gòtic",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 41.383,
     "lon": 2.176,
@@ -117,12 +182,20 @@
     "text": [
       "The Barri Gòtic is the oldest part of Barcelona: narrow lanes, small squares and stone palaces, with bits of the Roman wall still showing between the houses.",
       "Some of its “Gothic” look dates from the early 20th century, when the city restored and even added to it, like the lacy bridge over the Carrer del Bisbe from 1928."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/barri-gotic.jpg",
+      "author": "Ginosal",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Carrer_de_Ferran.JPG"
+    }
   },
   {
     "id": "palau-de-la-musica",
     "name": "Palau de la Música Catalana",
     "emoji": "🎶",
+    "icon": "music",
     "kind": "place",
     "lat": 41.3875,
     "lon": 2.1753,
@@ -130,12 +203,20 @@
     "text": [
       "Lluís Domènech i Montaner built the Palau for the Orfeó Català choir between 1905 and 1908. Its front is covered in mosaic and sculpture, and its hall is lit by a great inverted dome of stained glass.",
       "It is a World Heritage site and still a working concert hall, a short ride from the Portal de l’Àngel."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/palau-de-la-musica.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Musica_May_2026-4.jpg"
+    }
   },
   {
     "id": "sagrada-familia",
     "name": "Sagrada Família",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 41.4036,
     "lon": 2.1744,
@@ -143,28 +224,51 @@
     "text": [
       "Antoni Gaudí took over the church in 1883 and spent the rest of his life on it; when he died in 1926 less than a quarter was built. Work has gone on ever since, paid for by visitors.",
       "Its tallest tower, of Jesus Christ, is to reach 172.5 metres. It lies in the Eixample, outside the piece of Barcelona the game has so far."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/sagrada-familia.jpg",
+      "author": "Richard Mortel from Riyadh, Saudi Arabia",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_Nativity_facade_(2)_(30477190154).jpg"
+    }
   },
   {
     "id": "castellers",
     "name": "Castellers",
     "emoji": "🧍",
+    "icon": "users",
     "kind": "tradition",
     "blurb": "Human towers of up to ten storeys, built by teams standing on one another’s shoulders.",
     "text": [
       "Castells are towers of people: a broad base of dozens of team members, then storeys of two to five people standing on shoulders, and at the top a child who raises a hand to crown it.",
       "The tradition comes from the Tarragona area and is on UNESCO’s list of intangible heritage. In Barcelona the teams build them on Plaça de Sant Jaume at La Mercè, in September."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/castellers.jpg",
+      "author": "Carlos ZGZ",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Castellers_in_pla%C3%A7a_Sant_Jaume,_Barcelona.jpg"
+    }
   },
   {
     "id": "tapas",
     "name": "Tapas",
     "emoji": "🍤",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "Small dishes to share at the bar: patatas bravas, pan con tomate, croquetas and anchovies.",
     "text": [
       "In Barcelona you eat small: pa amb tomàquet, bread rubbed with tomato, oil and salt; patatas bravas with their spicy sauce; croquetas; anchovies from L’Escala.",
       "The bars of the Barri Gòtic and around the Boqueria serve them at the counter, often with a glass of vermouth before lunch."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/barcelona/tapas.jpg",
+      "author": "Elemaki",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:TapasenBarcelona.JPG"
+    }
   }
 ]

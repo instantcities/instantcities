@@ -3,6 +3,7 @@
     "id": "palais-des-papes",
     "name": "Palais des Papes",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 43.9508,
     "lon": 4.8076,
@@ -10,12 +11,20 @@
     "text": [
       "In 1309 Pope Clement V settled in Avignon instead of Rome, and for nearly seventy years the popes ruled the Church from here. Benedict XII and Clement VI built the great palace in just twenty years, a fortress and a court in one.",
       "Its vast halls are almost bare now, but some walls still show the frescoes painted for Clement VI. Every July its courtyard is the main stage of the Avignon Festival."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/palais-des-papes.jpg",
+      "author": "François de Dijon",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_Palais_des_Papes_2013.jpg"
+    }
   },
   {
     "id": "pont-saint-benezet",
     "name": "Pont Saint-Bénezet",
     "emoji": "🌉",
+    "icon": "bridge",
     "kind": "place",
     "lat": 43.9539,
     "lon": 4.805,
@@ -23,12 +32,20 @@
     "text": [
       "Legend says a shepherd boy, Bénezet, was told by angels to build a bridge across the Rhône, and lifted the first stone himself. Built in the 12th century, it was swept away by floods again and again, and was given up in the 17th century.",
       "Four of its 22 arches still stand, ending in the middle of the river, with a little chapel on one of the piers."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/pont-saint-benezet.jpg",
+      "author": "Henk Monster",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%22Sur_le_Pont_d%27Avignon_on_y_danse%22_is_the_famous_song,_but_now_we_see_only_many_tourist_just_standing_there_-_panoramio.jpg"
+    }
   },
   {
     "id": "place-de-l-horloge",
     "name": "Place de l’Horloge",
     "emoji": "🕰️",
+    "icon": "clock",
     "kind": "place",
     "lat": 43.9493,
     "lon": 4.8059,
@@ -36,12 +53,20 @@
     "text": [
       "The square is named after the Gothic tower of the old palace behind the 19th-century town hall, where two figures, the jaquemarts, strike the hours.",
       "Café terraces, a theatre and an old carousel fill it; in the game the race starts and ends here."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/place-de-l-horloge.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_-_Place_de_l%27Horloge_-_View_South_along_Man%C3%A8ge_des_Enfants_-_Platanus.jpg"
+    }
   },
   {
     "id": "rocher-des-doms",
     "name": "Rocher des Doms",
     "emoji": "🌳",
+    "icon": "tree",
     "kind": "place",
     "lat": 43.953,
     "lon": 4.8072,
@@ -49,12 +74,20 @@
     "text": [
       "The Rocher des Doms is the rock where Avignon began, high above the river. In the 19th century it was turned into a garden with a pond, ducks and shady paths.",
       "From its edge you look down on the Pont Saint-Bénezet, across the Rhône to Villeneuve-lès-Avignon and, on a clear day, to Mont Ventoux."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/rocher-des-doms.jpg",
+      "author": "Véronique PAGNIER",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_-_rocher_des_Doms_(cropped).jpg"
+    }
   },
   {
     "id": "notre-dame-des-doms",
     "name": "Notre-Dame des Doms",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 43.9517,
     "lon": 4.8077,
@@ -62,12 +95,20 @@
     "text": [
       "The cathedral was built in the 12th century, before the popes came, and two of them are buried inside. In 1859 a gilded statue of the Virgin was set on top of its tower.",
       "She shines over the whole town, high above the Palais des Papes."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/notre-dame-des-doms.jpg",
+      "author": "Romainbehar",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_-_Calvaire_de_la_cath%C3%A9drale_Notre-Dame-des-Doms_01.jpg"
+    }
   },
   {
     "id": "hotel-de-ville",
     "name": "Hôtel de Ville",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 43.9491,
     "lon": 4.8055,
@@ -75,12 +116,20 @@
     "text": [
       "The town hall was built in the 1850s on the Place de l’Horloge, a classical front of columns. Behind it rises the Gothic tower of the earlier palace, with its clock and jaquemarts.",
       "Next to it stands the Opera, opened in 1847."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/hotel-de-ville.jpg",
+      "author": "Bjs",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon-H%C3%B4tel_de_ville-bjs180817-01.jpg"
+    }
   },
   {
     "id": "les-halles",
     "name": "Les Halles",
     "emoji": "🧺",
+    "icon": "bag",
     "kind": "place",
     "lat": 43.9476,
     "lon": 4.8087,
@@ -88,13 +137,21 @@
     "text": [
       "Avignon’s covered market on the Place Pie is open every morning but Monday, with some forty stalls of vegetables, cheese, olives, fish and bread.",
       "Its front is a vertical garden by Patrick Blanc, a wall of plants growing up the building."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/les-halles.jpg",
+      "author": "No machine-readable author provided. Superbus~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mur_vegetal_avignon_jour1.jpg"
+    }
   },
   {
     "id": "remparts",
     "name": "Ramparts",
     "local": "Remparts",
     "emoji": "🧱",
+    "icon": "wall",
     "kind": "place",
     "lat": 43.944,
     "lon": 4.801,
@@ -102,12 +159,20 @@
     "text": [
       "The popes ringed Avignon with walls in the 14th century, and they still stand almost whole: 4.3 kilometres of battlements and towers, with gates on the roads in.",
       "Inside, the town of the popes; outside, the ring road and the Rhône."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/remparts.jpg",
+      "author": "Henk Monster",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Citywalls_with_defending_towers_at_Avignon_-_panoramio.jpg"
+    }
   },
   {
     "id": "rue-de-la-republique",
     "name": "Rue de la République",
     "emoji": "🛍️",
+    "icon": "bag",
     "kind": "place",
     "lat": 43.946,
     "lon": 4.806,
@@ -115,12 +180,20 @@
     "text": [
       "Like Paris under Haussmann, Avignon cut a broad street through its medieval lanes in the 1850s, from the new railway station to the town hall. It is lined with shops and cafés.",
       "In the game the race rides down it."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/rue-de-la-republique.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_-_Rue_de_la_Republique_-_View_NW_-_Beaux-Arts_architecture.jpg"
+    }
   },
   {
     "id": "musee-calvet",
     "name": "Musée Calvet",
     "emoji": "🖼️",
+    "icon": "frame",
     "kind": "place",
     "lat": 43.9445,
     "lon": 4.803,
@@ -128,24 +201,40 @@
     "text": [
       "The doctor Esprit Calvet left his collections to the city in 1810, and they became one of the oldest museums of France outside Paris. It is housed in an 18th-century town house on the Rue Joseph Vernet.",
       "It holds paintings, sculpture and antiquities, among them works by the Vernet family, painters born in Avignon."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/musee-calvet.jpg",
+      "author": "Shoshanah",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Calvet.jpg"
+    }
   },
   {
     "id": "festival",
     "name": "Avignon Festival",
     "local": "Festival d’Avignon",
     "emoji": "🎭",
+    "icon": "mask",
     "kind": "tradition",
     "blurb": "Every July the town becomes one great theatre, with plays in the palace courtyard and in every hall.",
     "text": [
       "Jean Vilar founded the festival in 1947 with three plays in the courtyard of the Palais des Papes. It has become one of the largest theatre festivals in the world.",
       "Alongside it runs the Off: well over a thousand shows in every chapel, cellar and school of the town, advertised on posters covering every wall."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/festival.jpg",
+      "author": "Jialiang Gao www.peace-on-earth.org",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon_festival_2006_asobu_popes_palace.jpg"
+    }
   },
   {
     "id": "mistral",
     "name": "Mistral",
     "emoji": "💨",
+    "icon": "wind",
     "kind": "thing",
     "blurb": "The cold wind that sweeps down the Rhône valley, clearing the sky over Avignon.",
     "text": [
@@ -158,11 +247,19 @@
     "name": "Cicadas",
     "local": "Cigales",
     "emoji": "🦗",
+    "icon": "sun",
     "kind": "thing",
     "blurb": "The sound of a Provençal summer: cicadas singing in the plane trees in the heat.",
     "text": [
       "In summer the male cicadas sing in the plane trees and pines, loudest in the midday heat. In Provence they are a symbol of good luck and the warm south.",
       "Painted cicadas in pottery hang on walls and doors all over the region."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/avignon/cigales.jpg",
+      "author": "Anaxibia",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lyristes_plebejus,_male_from_Kemer,_Turkey.jpg"
+    }
   }
 ]
