@@ -96,9 +96,8 @@ export class Tour {
       this.fallRun = { pace: 0.35, gone: 700, ...def.fall, cum, s: along(def.fall.at) };
     }
     this.fleet = def.boats ?? []; // more of them on the water, moored or sailing a line of their own
-    // bus: one that drives along beside the camera from the start, on a line of its own (not when the
-    // tour sets off further along, from: it would fill the first shot)
-    if (def.bus && !this.from) {
+    // bus: one that drives along beside the camera from the start, on a line of its own
+    if (def.bus) {
       const line = def.bus.line, cum = [0];
       for (let k = 1; k < line.length; k++) cum.push(cum[k - 1] + Math.hypot(line[k][0] - line[k - 1][0], line[k][1] - line[k - 1][1]));
       this.busRun = { ahead: 8, lane: 2, pace: 1, gone: 600, ...def.bus, cum };
