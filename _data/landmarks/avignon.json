@@ -1,0 +1,168 @@
+[
+  {
+    "id": "palais-des-papes",
+    "name": "Palais des Papes",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 43.9508,
+    "lon": 4.8076,
+    "blurb": "The largest Gothic palace in the world, built when the popes lived in Avignon, from 1309 to 1377.",
+    "text": [
+      "In 1309 Pope Clement V settled in Avignon instead of Rome, and for nearly seventy years the popes ruled the Church from here. Benedict XII and Clement VI built the great palace in just twenty years, a fortress and a court in one.",
+      "Its vast halls are almost bare now, but some walls still show the frescoes painted for Clement VI. Every July its courtyard is the main stage of the Avignon Festival."
+    ]
+  },
+  {
+    "id": "pont-saint-benezet",
+    "name": "Pont Saint-Bénezet",
+    "emoji": "🌉",
+    "kind": "place",
+    "lat": 43.9539,
+    "lon": 4.805,
+    "blurb": "The bridge of the song “Sur le pont d’Avignon”, of which only four arches are left.",
+    "text": [
+      "Legend says a shepherd boy, Bénezet, was told by angels to build a bridge across the Rhône, and lifted the first stone himself. Built in the 12th century, it was swept away by floods again and again, and was given up in the 17th century.",
+      "Four of its 22 arches still stand, ending in the middle of the river, with a little chapel on one of the piers."
+    ]
+  },
+  {
+    "id": "place-de-l-horloge",
+    "name": "Place de l’Horloge",
+    "emoji": "🕰️",
+    "kind": "place",
+    "lat": 43.9493,
+    "lon": 4.8059,
+    "blurb": "The town square, named after the Gothic clock tower behind the town hall, with a carousel and café terraces.",
+    "text": [
+      "The square is named after the Gothic tower of the old palace behind the 19th-century town hall, where two figures, the jaquemarts, strike the hours.",
+      "Café terraces, a theatre and an old carousel fill it; in the game the race starts and ends here."
+    ]
+  },
+  {
+    "id": "rocher-des-doms",
+    "name": "Rocher des Doms",
+    "emoji": "🌳",
+    "kind": "place",
+    "lat": 43.953,
+    "lon": 4.8072,
+    "blurb": "The rocky hill above the palace, a garden with a view over the Rhône and the bridge.",
+    "text": [
+      "The Rocher des Doms is the rock where Avignon began, high above the river. In the 19th century it was turned into a garden with a pond, ducks and shady paths.",
+      "From its edge you look down on the Pont Saint-Bénezet, across the Rhône to Villeneuve-lès-Avignon and, on a clear day, to Mont Ventoux."
+    ]
+  },
+  {
+    "id": "notre-dame-des-doms",
+    "name": "Notre-Dame des Doms",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 43.9517,
+    "lon": 4.8077,
+    "blurb": "The Romanesque cathedral beside the palace, topped by a gilded statue of the Virgin.",
+    "text": [
+      "The cathedral was built in the 12th century, before the popes came, and two of them are buried inside. In 1859 a gilded statue of the Virgin was set on top of its tower.",
+      "She shines over the whole town, high above the Palais des Papes."
+    ]
+  },
+  {
+    "id": "hotel-de-ville",
+    "name": "Hôtel de Ville",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 43.9491,
+    "lon": 4.8055,
+    "blurb": "The town hall of 1856 on the Place de l’Horloge, built round an older Gothic tower.",
+    "text": [
+      "The town hall was built in the 1850s on the Place de l’Horloge, a classical front of columns. Behind it rises the Gothic tower of the earlier palace, with its clock and jaquemarts.",
+      "Next to it stands the Opera, opened in 1847."
+    ]
+  },
+  {
+    "id": "les-halles",
+    "name": "Les Halles",
+    "emoji": "🧺",
+    "kind": "place",
+    "lat": 43.9476,
+    "lon": 4.8087,
+    "blurb": "The covered market behind a living wall of plants, with Provençal food under one roof.",
+    "text": [
+      "Avignon’s covered market on the Place Pie is open every morning but Monday, with some forty stalls of vegetables, cheese, olives, fish and bread.",
+      "Its front is a vertical garden by Patrick Blanc, a wall of plants growing up the building."
+    ]
+  },
+  {
+    "id": "remparts",
+    "name": "Ramparts",
+    "local": "Remparts",
+    "emoji": "🧱",
+    "kind": "place",
+    "lat": 43.944,
+    "lon": 4.801,
+    "blurb": "The 4.3-kilometre stone wall built by the popes, which still rings the whole old town.",
+    "text": [
+      "The popes ringed Avignon with walls in the 14th century, and they still stand almost whole: 4.3 kilometres of battlements and towers, with gates on the roads in.",
+      "Inside, the town of the popes; outside, the ring road and the Rhône."
+    ]
+  },
+  {
+    "id": "rue-de-la-republique",
+    "name": "Rue de la République",
+    "emoji": "🛍️",
+    "kind": "place",
+    "lat": 43.946,
+    "lon": 4.806,
+    "blurb": "The broad street from the station gate to the Place de l’Horloge, cut through the old town in the 19th century.",
+    "text": [
+      "Like Paris under Haussmann, Avignon cut a broad street through its medieval lanes in the 1850s, from the new railway station to the town hall. It is lined with shops and cafés.",
+      "In the game the race rides down it."
+    ]
+  },
+  {
+    "id": "musee-calvet",
+    "name": "Musée Calvet",
+    "emoji": "🖼️",
+    "kind": "place",
+    "lat": 43.9445,
+    "lon": 4.803,
+    "blurb": "A museum of fine arts in an 18th-century town house, founded on a doctor’s collection.",
+    "text": [
+      "The doctor Esprit Calvet left his collections to the city in 1810, and they became one of the oldest museums of France outside Paris. It is housed in an 18th-century town house on the Rue Joseph Vernet.",
+      "It holds paintings, sculpture and antiquities, among them works by the Vernet family, painters born in Avignon."
+    ]
+  },
+  {
+    "id": "festival",
+    "name": "Avignon Festival",
+    "local": "Festival d’Avignon",
+    "emoji": "🎭",
+    "kind": "tradition",
+    "blurb": "Every July the town becomes one great theatre, with plays in the palace courtyard and in every hall.",
+    "text": [
+      "Jean Vilar founded the festival in 1947 with three plays in the courtyard of the Palais des Papes. It has become one of the largest theatre festivals in the world.",
+      "Alongside it runs the Off: well over a thousand shows in every chapel, cellar and school of the town, advertised on posters covering every wall."
+    ]
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "emoji": "💨",
+    "kind": "thing",
+    "blurb": "The cold wind that sweeps down the Rhône valley, clearing the sky over Avignon.",
+    "text": [
+      "The mistral is a strong, cold north wind that blows down the Rhône valley towards the Mediterranean, sometimes for days on end. A saying claims that “Avignon venteuse, sans vent venimeuse”: Avignon, windy, and without wind, poisonous.",
+      "It brings bright blue skies and clear air, and farmers in Provence plant rows of cypresses to break it."
+    ]
+  },
+  {
+    "id": "cigales",
+    "name": "Cicadas",
+    "local": "Cigales",
+    "emoji": "🦗",
+    "kind": "thing",
+    "blurb": "The sound of a Provençal summer: cicadas singing in the plane trees in the heat.",
+    "text": [
+      "In summer the male cicadas sing in the plane trees and pines, loudest in the midday heat. In Provence they are a symbol of good luck and the warm south.",
+      "Painted cicadas in pottery hang on walls and doors all over the region."
+    ]
+  }
+]

@@ -82,6 +82,18 @@
       </div>
     </section>
 
+    {%- assign landmarks = site.data.landmarks[C.id] %}
+    {%- if landmarks %}
+    <section id="landmarks" class="landmarks">
+      <h2>Places, elements and landmarks</h2>
+      <div class="grid">
+        {%- for l in landmarks %}
+        {% include landmark-card.html landmark=l city=C.id %}
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
+
     {%- if C.shots %}
     <section id="screens" class="screens">
       <h2>Screenshots</h2>

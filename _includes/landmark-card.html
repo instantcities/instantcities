@@ -1,0 +1,9 @@
+{%- comment -%}
+  A landmark's card, on its city's page and on the other landmarks' pages:
+  {% include landmark-card.html landmark=l city=c %}, l a block of _data/landmarks/<c>.json.
+{%- endcomment -%}
+{%- assign lm = include.landmark -%}
+        <a class="card landmark-card" href="/{{ include.city }}/landmark/{{ lm.id }}/">
+          <span class="emoji" aria-hidden="true">{{ lm.emoji }}</span>
+          <span><b>{{ lm.name }}</b><small>{{ lm.blurb }}</small></span>
+        </a>

@@ -3,6 +3,7 @@
 // down the Langemunt, right onto the Groentenmarkt past the neuzekes, by the Gravensteen, and low on
 // the Leie between the Graslei and the Korenlei back to where it set off (hand-written).
 //
+// from:  where on the path [x, z] it sets off, if not at its start.
 // path:  where the camera flies, [x, z, height] in game metres (the height above the street; left
 //        out, the one before it). It follows the streets, a little over the roofs, and down in the
 //        street at the start and the end; between the stops it climbs higher still (core/js/tour.js).
@@ -27,6 +28,7 @@
 import { FACTS } from './tourfacts.js';
 
 export const TOUR = {
+  from: [-255, -70], // already on the Sint-Michielsbrug: the Leie, the Graslei and the three towers right ahead
   path: [
     [-425, -54, 5], [-395, -59], [-355, -63], [-318, -66, 9], [-292, -68, 12], [-262, -69, 10], [-245, -70],
     [-215, -70, 6], [-190, -71, 5], [-172, -70, 8], [-160, -67, 14], [-140, -63, 30], [-118, -58], [-93, -50],

@@ -4,9 +4,10 @@
 
 The historic centres of European cities in 3D in the browser (Three.js), rebuilt from
 OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. There are sixteen cities to play: Ghent and Lecce in full, and a small first piece
+on one keyboard. There are eighteen cities to play: Ghent and Lecce in full, and a small first piece
 of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
-Florence, Prague, Vienna, Copenhagen and Berlin, each with a race and a tour (see docs/first-maps.md).
+Florence, Prague, Vienna, Copenhagen, Berlin, Avignon and Madrid, each with a race and a tour (see
+docs/first-maps.md).
 The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
@@ -29,6 +30,12 @@ the game in watch mode (`/<id>/play/?watch`: no menu, buttons or cards, nothing 
 with its cards, starting straight away: the pages' "Watch the tour" button. The map of Europe on the
 home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
 `node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
+
+Every city's page lists its places, elements and landmarks (not only buildings: Venice's gondolas,
+London's black cabs, Brussels' fries), each with a page of its own at `/<id>/landmark/<landmark>/`:
+its story, a map from OpenStreetMap and a link that drops you right there in the game. They are in
+`_data/landmarks/<id>.json`; `node tools/landmarks.mjs` writes their pages (`<id>/landmark/`).
+Ghent's texts and pictures come from the sight pages of Instant Gent.
 
 ```bash
 python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/

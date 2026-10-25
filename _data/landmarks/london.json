@@ -1,0 +1,163 @@
+[
+  {
+    "id": "big-ben",
+    "name": "Big Ben",
+    "emoji": "🕰️",
+    "kind": "place",
+    "lat": 51.5007,
+    "lon": -0.1246,
+    "blurb": "The great bell in the clock tower of the Houses of Parliament, whose tower is now the Elizabeth Tower.",
+    "text": [
+      "Big Ben is strictly the name of the 13.7-tonne bell inside the tower, cast in 1858; the tower itself was renamed the Elizabeth Tower in 2012 for the Queen’s Diamond Jubilee. Its clock, with four faces seven metres across, has kept time since 1859.",
+      "The bell’s chimes are broadcast on the BBC, and at New Year all of Britain listens for them."
+    ]
+  },
+  {
+    "id": "houses-of-parliament",
+    "name": "Houses of Parliament",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 51.4995,
+    "lon": -0.1248,
+    "blurb": "The Palace of Westminster on the Thames, rebuilt in Gothic style after the fire of 1834.",
+    "text": [
+      "Kings lived in the Palace of Westminster from the 11th century; from the 16th it was the home of Parliament. Almost all of it burned down in 1834, except Westminster Hall from 1097.",
+      "Charles Barry and Augustus Pugin rebuilt it in Gothic Revival style, with more than a thousand rooms, the House of Commons and the House of Lords, and the Victoria Tower at the south end."
+    ]
+  },
+  {
+    "id": "westminster-abbey",
+    "name": "Westminster Abbey",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 51.4993,
+    "lon": -0.1273,
+    "blurb": "The church where English and British monarchs have been crowned since 1066.",
+    "text": [
+      "Every coronation since William the Conqueror’s on Christmas Day 1066 has taken place in Westminster Abbey, most recently that of Charles III in 2023. The Gothic church we see was begun under Henry III in 1245.",
+      "Kings and queens are buried here, and in Poets’ Corner writers from Chaucer to Dickens; Isaac Newton and Charles Darwin lie in the nave."
+    ]
+  },
+  {
+    "id": "trafalgar-square",
+    "name": "Trafalgar Square",
+    "emoji": "🦁",
+    "kind": "place",
+    "lat": 51.508,
+    "lon": -0.1281,
+    "blurb": "Nelson on his column, four bronze lions and the National Gallery along the north side.",
+    "text": [
+      "Trafalgar Square was laid out in the 1840s to remember Admiral Nelson’s victory at Trafalgar in 1805. Nelson stands on a column some 52 metres high, guarded by four bronze lions by Edwin Landseer.",
+      "Along its north side stands the National Gallery. Its fourth plinth, empty for over 150 years, now shows a changing work of contemporary art."
+    ]
+  },
+  {
+    "id": "national-gallery",
+    "name": "National Gallery",
+    "emoji": "🖼️",
+    "kind": "place",
+    "lat": 51.5089,
+    "lon": -0.1283,
+    "blurb": "Britain’s collection of European paintings, free to visit, along the north side of Trafalgar Square.",
+    "text": [
+      "The National Gallery opened in 1824 with 38 paintings and moved to Trafalgar Square in 1838. It now holds some 2,300 works, from Van Eyck’s Arnolfini Portrait to Van Gogh’s Sunflowers.",
+      "Like Britain’s other national museums, it is free to visit."
+    ]
+  },
+  {
+    "id": "downing-street",
+    "name": "Downing Street",
+    "emoji": "🚪",
+    "kind": "place",
+    "lat": 51.5034,
+    "lon": -0.1276,
+    "blurb": "Number 10, the home of British prime ministers since 1735, behind black gates off Whitehall.",
+    "text": [
+      "George II offered number 10 to Robert Walpole, Britain’s first prime minister, who moved in in 1735. Behind its famous black door with the brass knocker lies a house far bigger than it looks.",
+      "Since 1989 the street has been closed off by gates. A cat, the Chief Mouser to the Cabinet Office, also lives there."
+    ]
+  },
+  {
+    "id": "horse-guards",
+    "name": "Horse Guards",
+    "emoji": "🐎",
+    "kind": "place",
+    "lat": 51.505,
+    "lon": -0.1272,
+    "blurb": "Mounted troopers of the Household Cavalry stand sentry on Whitehall every day.",
+    "text": [
+      "Horse Guards was built in the 1750s as the entrance to the royal palaces. Two mounted troopers of the Household Cavalry stand guard at its gate on Whitehall from ten until four, in plumed helmets and shining breastplates.",
+      "Behind it, on Horse Guards Parade, the Trooping the Colour marks the King’s official birthday every June."
+    ]
+  },
+  {
+    "id": "london-eye",
+    "name": "London Eye",
+    "emoji": "🎡",
+    "kind": "place",
+    "lat": 51.5033,
+    "lon": -0.1196,
+    "blurb": "The giant observation wheel across the Thames, built for the year 2000.",
+    "text": [
+      "The London Eye opened at the turn of the millennium, 135 metres high, then the tallest Ferris wheel in the world. Its 32 glass capsules take half an hour to go round, slowly enough to step on and off while it moves.",
+      "From the top you see the whole of Westminster below you, and on a clear day some forty kilometres."
+    ]
+  },
+  {
+    "id": "westminster-bridge",
+    "name": "Westminster Bridge",
+    "emoji": "🌉",
+    "kind": "place",
+    "lat": 51.5008,
+    "lon": -0.1219,
+    "blurb": "The green bridge over the Thames beside Big Ben, painted the colour of the House of Commons’ benches.",
+    "text": [
+      "The present bridge was opened in 1862, of cast iron on seven arches. It is painted green, the colour of the leather seats in the House of Commons, the side of Parliament closest to it.",
+      "Lambeth Bridge, at the other end of the palace, is red, like the benches of the House of Lords."
+    ]
+  },
+  {
+    "id": "black-cab",
+    "name": "Black cab",
+    "emoji": "🚕",
+    "kind": "vehicle",
+    "blurb": "London’s taxis, tall enough for a man in a top hat, driven by cabbies who know every street by heart.",
+    "text": [
+      "The black cab is built to London’s own rules: tall enough, it is said, for a gentleman to keep his bowler hat on, and with a turning circle of just 25 feet, so it can turn round in the narrow Savoy Court.",
+      "To get their licence, drivers spend years learning The Knowledge: some 25,000 streets and every landmark within six miles of Charing Cross, without a map."
+    ]
+  },
+  {
+    "id": "double-decker",
+    "name": "Red double-decker",
+    "emoji": "🚌",
+    "kind": "vehicle",
+    "blurb": "The red two-storey buses that have carried London since the days of the horse bus.",
+    "text": [
+      "London has run double-decker buses since horse-drawn omnibuses put seats on their roofs in the 19th century. The Routemaster of 1956, with its open platform at the back, became the city’s emblem.",
+      "Today’s buses are still red and still two storeys high. From the front seats upstairs you get the best view in town for the price of a bus fare."
+    ]
+  },
+  {
+    "id": "red-phone-box",
+    "name": "Red phone box",
+    "emoji": "☎️",
+    "kind": "thing",
+    "blurb": "The red cast-iron telephone kiosks of Giles Gilbert Scott, from the 1920s and 1930s.",
+    "text": [
+      "The red telephone box was designed by Giles Gilbert Scott, the K2 in 1924 and the smaller K6 in 1935 for King George V’s jubilee. Tens of thousands went up across the country.",
+      "Few are still used for phone calls; many have become tiny libraries, defibrillator boxes or coffee stands, and a few still stand on Whitehall."
+    ]
+  },
+  {
+    "id": "changing-the-guard",
+    "name": "Changing of the Guard",
+    "emoji": "💂",
+    "kind": "tradition",
+    "blurb": "The ceremony in which the King’s Guard hands over to the new guard, in red tunics and bearskins.",
+    "text": [
+      "In front of Buckingham Palace the Foot Guards, in red tunics and tall bearskin caps, hand the guard over to the next company with a band playing. At Horse Guards the mounted guard changes every morning.",
+      "The guardsmen are working soldiers; they are not allowed to talk to the visitors who come to look at them."
+    ]
+  }
+]

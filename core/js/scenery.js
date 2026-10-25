@@ -13,7 +13,7 @@ import { settTexture, slabTexture } from './track.js';
 import { addLandmarks } from './landmarks.js';
 import { later, TILE } from './tiles.js';
 import { elevation, shade } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -2167,9 +2167,54 @@ function boatGeometry(r) {
   return mergeGeometries(parts);
 }
 
-// "Bootjes van Gent" across a boat's flat stern, under the rim, where you see it from behind.
+// A gondola: long, slender and black, its ends curving up, the steel ferro on its bow, two
+// passengers on red cushions and the gondolier standing at the back in a striped shirt and a straw
+// hat, his oar in the water. Its bow is +z.
+function gondolaGeometry(r) {
+  const parts = [];
+  const paint = (geo, hex) => {
+    const g = geo.index ? geo.toNonIndexed() : geo, c = new THREE.Color(hex), n = g.attributes.position.count;
+    g.setAttribute('color', new THREE.Float32BufferAttribute(Array.from({ length: n * 3 }, (_, i) => [c.r, c.g, c.b][i % 3]), 3));
+    g.deleteAttribute('uv');
+    parts.push(g);
+  };
+  const hull = new THREE.Shape();
+  hull.moveTo(0, 5.4);
+  hull.quadraticCurveTo(0.8, 2.5, 0.72, 0);
+  hull.quadraticCurveTo(0.68, -3, 0, -5.2);
+  hull.quadraticCurveTo(-0.62, -3, -0.66, 0);
+  hull.quadraticCurveTo(-0.74, 2.5, 0, 5.4);
+  paint(new THREE.ExtrudeGeometry(hull, { depth: 0.62, bevelEnabled: false }).rotateX(-Math.PI / 2).translate(0, -0.25, 0), 0x111111);
+  // the ends rising out of the water, and the ferro on the bow
+  paint(new THREE.BoxGeometry(0.14, 0.9, 1.2).rotateX(-0.6).translate(0, 0.55, 5.3), 0x111111);
+  paint(new THREE.BoxGeometry(0.05, 0.75, 0.42).translate(0, 1.2, 5.75), 0xd8dde2);
+  paint(new THREE.BoxGeometry(0.14, 0.6, 1.0).rotateX(0.5).translate(0, 0.4, -5.1), 0x111111);
+  // the seats for the passengers, and the passengers
+  paint(new THREE.BoxGeometry(0.9, 0.18, 1.6).translate(0, 0.45, 0.6), 0xb71c1c);
+  const shirts = [0xe53935, 0x1e88e5, 0xfdd835, 0x43a047, 0xffffff, 0x8e24aa, 0xff7043];
+  for (const x of [-0.22, 0.22]) {
+    if (r() < 0.3) continue;
+    paint(new THREE.BoxGeometry(0.38, 0.5, 0.3).translate(x, 0.8, 0.5), shirts[Math.floor(r() * shirts.length)]);
+    paint(new THREE.SphereGeometry(0.14, 8, 6).translate(x, 1.18, 0.5), r() < 0.5 ? 0xf1c9a5 : 0x9c6b4a);
+  }
+  // the gondolier, standing on the stern deck: dark trousers, a shirt of navy and white stripes
+  const z = -3.9;
+  paint(new THREE.BoxGeometry(0.36, 0.8, 0.26).translate(0, 0.75, z), 0x1d2a3a);
+  for (let k = 0; k < 4; k++) paint(new THREE.BoxGeometry(0.42, 0.14, 0.3).translate(0, 1.22 + k * 0.14, z), k % 2 ? 0xffffff : 0x1d3557);
+  paint(new THREE.SphereGeometry(0.15, 8, 6).translate(0, 1.92, z), 0xf1c9a5);
+  paint(new THREE.CylinderGeometry(0.28, 0.28, 0.03, 12).translate(0, 2.04, z), 0xe8c872); // the boater's brim
+  paint(new THREE.CylinderGeometry(0.16, 0.16, 0.12, 12).translate(0, 2.1, z), 0xe8c872);
+  paint(new THREE.CylinderGeometry(0.165, 0.165, 0.04, 12).translate(0, 2.06, z), 0xc62828); // its ribbon
+  // the oar, from his hands down into the water on the right
+  paint(new THREE.BoxGeometry(0.06, 0.06, 4.2).rotateX(0.55).rotateY(0.25).translate(0.55, 0.8, z + 1.2), 0x8a6a48);
+  return mergeGeometries(parts);
+}
+
+// The name across a boat's flat stern, under the rim, where you see it from behind: the city's
+// boats' own (BOATS.name, <city>/city.js: Ghent's "Bootjes van Gent"), or none.
 let nameMat = null;
 function boatName() {
+  if (!BOATS?.name) return new THREE.Group();
   if (!nameMat) {
     const c = document.createElement('canvas');
     c.width = 512;
@@ -2179,7 +2224,7 @@ function boatName() {
     g.font = 'italic bold 44px Georgia, serif';
     g.textAlign = 'center';
     g.textBaseline = 'middle';
-    g.fillText('Bootjes van Gent', 256, 34);
+    g.fillText(BOATS.name, 256, 34);
     const tex = new THREE.CanvasTexture(c);
     tex.colorSpace = THREE.SRGBColorSpace;
     tex.anisotropy = 4;
@@ -2199,21 +2244,23 @@ export function tourBoat() {
   return boat;
 }
 
-// Tour boats going slowly up and down the river and the canals, keeping to the right.
+// Tour boats going slowly up and down the river and the canals, keeping to the right; or, where
+// the city has them (BOATS.kind 'gondola': Venice), gondolas, more of them, slower, nearer the
+// middle of the narrow canals.
 function osmBoats(ctx, map) {
-  const { r } = ctx;
+  const { r } = ctx, gondolas = BOATS?.kind === 'gondola';
   const lineLength = p => { let L = 0; for (let k = 0; k + 3 < p.length; k += 2) L += Math.hypot(p[k + 2] - p[k], p[k + 3] - p[k + 1]); return L; };
-  const lines = map.water.filter(w => w.w >= 10).map(w => ({ ...w, L: lineLength(w.p) })).filter(w => w.L > 80).sort((a, b) => b.L - a.L);
+  const lines = map.water.filter(w => w.w >= 10).map(w => ({ ...w, L: lineLength(w.p) })).filter(w => w.L > (gondolas ? 40 : 80)).sort((a, b) => b.L - a.L);
   if (!lines.length) return;
   const material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.7 });
-  const boats = [];
+  const most = gondolas ? 16 : 8, every = gondolas ? 160 : 400, boats = [];
   for (const w of lines) {
-    for (let k = 0; k < Math.max(1, Math.round(w.L / 400)) && boats.length < 8; k++) boats.push({ w, s: r() * w.L, dir: r() < 0.5 ? 1 : -1, v: 1.6 + r() * 0.8 });
-    if (boats.length >= 8) break;
+    for (let k = 0; k < Math.max(1, Math.round(w.L / every)) && boats.length < most; k++) boats.push({ w, s: r() * w.L, dir: r() < 0.5 ? 1 : -1, v: gondolas ? 0.9 + r() * 0.5 : 1.6 + r() * 0.8 });
+    if (boats.length >= most) break;
   }
   for (const b of boats) {
-    b.mesh = mesh(ctx, boatGeometry(r), material, 0, WATER, 0);
-    b.mesh.add(boatName());
+    b.mesh = mesh(ctx, gondolas ? gondolaGeometry(r) : boatGeometry(r), material, 0, WATER, 0);
+    if (!gondolas) b.mesh.add(boatName());
   }
   const at = (w, s) => {
     let k = 0;
@@ -2230,7 +2277,7 @@ function osmBoats(ctx, map) {
   const place = (b, dt) => {
     b.s += b.dir * b.v * dt;
     if (b.s < 8 || b.s > b.w.L - 8) { b.dir = -b.dir; b.s = Math.max(8, Math.min(b.w.L - 8, b.s)); } // turn round at the end
-    const [x, z, ux, uz] = at(b.w, b.s), dx = ux * b.dir, dz = uz * b.dir, off = b.w.w * 0.22;
+    const [x, z, ux, uz] = at(b.w, b.s), dx = ux * b.dir, dz = uz * b.dir, off = b.w.w * (gondolas ? 0.06 : 0.22);
     // a turn takes a while: ease the heading round
     const yaw = Math.atan2(dx, dz);
     b.yaw = b.yaw == null ? yaw : b.yaw + Math.atan2(Math.sin(yaw - b.yaw), Math.cos(yaw - b.yaw)) * Math.min(1, dt * 0.8);

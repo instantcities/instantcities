@@ -1,0 +1,160 @@
+[
+  {
+    "id": "grand-place",
+    "name": "Grand-Place",
+    "local": "Grote Markt",
+    "emoji": "🌸",
+    "kind": "place",
+    "lat": 50.8467,
+    "lon": 4.3525,
+    "blurb": "Guild houses and a Gothic town hall round one of the most beautiful squares in Europe.",
+    "text": [
+      "In 1695 the French army of Louis XIV bombarded Brussels and flattened almost everything around the Grand-Place but the town hall. Within a few years the guilds rebuilt their houses in rich Baroque, crowded with gilded statues, scrolls and gables.",
+      "The square is a World Heritage site. Every other August its cobbles disappear under a carpet of a million begonias."
+    ]
+  },
+  {
+    "id": "hotel-de-ville",
+    "name": "Town Hall",
+    "local": "Hôtel de Ville",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 50.8463,
+    "lon": 4.3517,
+    "blurb": "The Gothic town hall with its 96-metre tower, topped by Saint Michael slaying the dragon.",
+    "text": [
+      "The town hall was built in the 15th century, its slender tower finished in 1455 by Jan van Ruysbroeck. On the very top, some 96 metres up, a gilded Saint Michael, patron of the city, slays the devil in the shape of a dragon.",
+      "Look closely and you will see the tower does not stand quite in the middle of the front, and the two wings do not match."
+    ]
+  },
+  {
+    "id": "maison-du-roi",
+    "name": "King’s House",
+    "local": "Maison du Roi",
+    "emoji": "👑",
+    "kind": "place",
+    "lat": 50.847,
+    "lon": 4.3528,
+    "blurb": "The neo-Gothic house facing the town hall, home of the city museum and Manneken Pis’ wardrobe.",
+    "text": [
+      "It never housed a king: the Breadhouse of the Middle Ages took the name when it passed to the dukes of Brabant, who also ruled Spain. The building you see was rebuilt in neo-Gothic style at the end of the 19th century.",
+      "Today it is the Brussels City Museum, with the original Manneken Pis and a part of his wardrobe of costumes."
+    ]
+  },
+  {
+    "id": "manneken-pis",
+    "name": "Manneken Pis",
+    "emoji": "💦",
+    "kind": "place",
+    "lat": 50.845,
+    "lon": 4.35,
+    "blurb": "A bronze boy barely half a metre tall, with a wardrobe of more than a thousand costumes.",
+    "text": [
+      "Jérôme Duquesnoy the Elder cast the little bronze boy in 1619 for a fountain that supplied drinking water to the neighbourhood. Legends abound about who he was: a boy who saved the city by putting out a burning fuse, or a lost lordling found peeing.",
+      "The statue on the corner is a copy; the original is in the city museum. He is dressed in costumes several times a week, and on special days he pours beer."
+    ]
+  },
+  {
+    "id": "galeries-saint-hubert",
+    "name": "Galeries Royales Saint-Hubert",
+    "emoji": "🛍️",
+    "kind": "place",
+    "lat": 50.848,
+    "lon": 4.3549,
+    "blurb": "One of the first covered shopping arcades in Europe, opened in 1847 under a glass roof.",
+    "text": [
+      "Jean-Pierre Cluysenaar designed the arcade, and King Leopold I opened it in 1847: more than 200 metres of shops, cafés, a theatre and a cinema under a long arched roof of glass and iron.",
+      "Chocolatiers, booksellers and glove makers still keep shop in its three galleries, the King’s, the Queen’s and the Princes’."
+    ]
+  },
+  {
+    "id": "bourse",
+    "name": "Bourse",
+    "local": "Bourse",
+    "emoji": "📈",
+    "kind": "place",
+    "lat": 50.8483,
+    "lon": 4.3497,
+    "blurb": "The old stock exchange of 1873, on a boulevard that has been free of cars since 2015.",
+    "text": [
+      "The Bourse was built from 1868 to 1873 over the river Senne, which had just been covered over to make room for the grand boulevards. Its front of columns, statues and lions was meant to show off the wealth of young Belgium.",
+      "In 2015 the boulevard in front of it was closed to cars, and since 2023 the building has been the Belgian Beer World, a museum of beer."
+    ]
+  },
+  {
+    "id": "cathedrale",
+    "name": "Cathedral of St Michael and St Gudula",
+    "local": "Cathédrale Saints-Michel-et-Gudule",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 50.848,
+    "lon": 4.36,
+    "blurb": "Brussels’ Gothic cathedral on the slope towards the upper town, where royal weddings are held.",
+    "text": [
+      "The cathedral was built over some three centuries, from 1226, in the Gothic style of Brabant, with two square towers on its white front. Its stained-glass windows include ones given by Charles V.",
+      "It is where Belgian royal weddings and state funerals take place, and where the national Te Deum is sung."
+    ]
+  },
+  {
+    "id": "mont-des-arts",
+    "name": "Mont des Arts",
+    "emoji": "🌳",
+    "kind": "place",
+    "lat": 50.844,
+    "lon": 4.357,
+    "blurb": "The garden steps between the lower and the upper town, with a view over the city.",
+    "text": [
+      "The Mont des Arts links the old lower town with the royal quarter on the hill. Its formal garden and steps, laid out in the 1950s, lead up between the Royal Library and the Square conference centre.",
+      "From the top the view runs over the roofs to the town hall’s tower. The Magritte Museum and the Musical Instruments Museum, in an Art Nouveau department store, are close by."
+    ]
+  },
+  {
+    "id": "sablon",
+    "name": "Sablon",
+    "emoji": "🍫",
+    "kind": "place",
+    "lat": 50.841,
+    "lon": 4.356,
+    "blurb": "The square of antique dealers and chocolatiers, below the Gothic church of Notre-Dame du Sablon.",
+    "text": [
+      "The Grand Sablon is lined with antique shops and the windows of Brussels’ grandest chocolate makers. On weekends an antiques market fills it.",
+      "Above it stands the late-Gothic church of Notre-Dame du Sablon, famous for its tall windows; across the road lies the little garden of the Petit Sablon with its 48 bronze statues of the old guilds."
+    ]
+  },
+  {
+    "id": "frites",
+    "name": "Fries",
+    "local": "Frites",
+    "emoji": "🍟",
+    "kind": "food",
+    "blurb": "Thick fries fried twice in beef fat, served in a paper cone with mayonnaise.",
+    "text": [
+      "Belgians fry their potatoes twice, first to cook them through and then hot to make them crisp, traditionally in beef fat. They are eaten from a paper cone, with mayonnaise or one of dozens of sauces.",
+      "Every neighbourhood has its friterie, or frietkot; some of the most famous in Brussels stand in little kiosks on squares."
+    ]
+  },
+  {
+    "id": "chocolat",
+    "name": "Chocolate",
+    "local": "Chocolat",
+    "emoji": "🍫",
+    "kind": "food",
+    "blurb": "The praline was invented in Brussels, in the Galeries Saint-Hubert, in 1912.",
+    "text": [
+      "In 1912 Jean Neuhaus, in his shop in the Galeries Saint-Hubert, filled a chocolate shell with cream and nuts and called it a praline. In 1915 his wife designed the little box, the ballotin, to keep them from getting crushed.",
+      "Today the Grand Sablon and the galleries are lined with chocolatiers, from old houses to young makers."
+    ]
+  },
+  {
+    "id": "bd",
+    "name": "Comic-strip walls",
+    "local": "Parcours BD",
+    "emoji": "💬",
+    "kind": "thing",
+    "blurb": "Tintin, the Smurfs and Lucky Luke painted on the gable walls of the old town.",
+    "text": [
+      "Brussels is the capital of the bande dessinée: Hergé, the creator of Tintin, was born here, and many great comics came out of the city. Since 1991 more than sixty gable walls have been painted with comic scenes.",
+      "A walk through the old town takes you past Tintin and Captain Haddock on a fire escape, Asterix, the Smurfs and Lucky Luke. The Comics Museum is in an Art Nouveau department store by Victor Horta."
+    ]
+  }
+]

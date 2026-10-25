@@ -6,19 +6,21 @@
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
 //   tour.js          the tour: a flight along the race route (made from map.js once, then hand-written)
+//   quests.js        the quests and their words (hand-written)
 //   area.json        what to download from OpenStreetMap: the bounding box, the zone and the routes
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs london`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs london`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs london`
-// No quests, sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
+export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
-export const QUESTS = [], SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
@@ -36,6 +38,10 @@ export const WORDS = {
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the city gets.
 export const THEME = { ground: '#8f9193', fog: [150, 600], left: true };
+
+// What drives here besides the usual cars (js/cars.js): red double-deckers among the traffic, and
+// black cabs for taxis. Traffic keeps to the left (THEME.left).
+export const TRAFFIC = { mix: [['double', 0.14]], taxi: { type: 'cab', colors: [0x141414, 0x141414, 0x141414, 0x1d2a3a] } };
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): Portland stone
 // for the ministries and the big buildings, London stock brick (yellow-grey) and red brick for the

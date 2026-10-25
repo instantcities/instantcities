@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { SIGHT } from './device.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { liftShader } from './terrain.js';
+import { TRAFFIC } from './city.js';
 
 // Vehicle models. Each is drawn as side profiles (a rounded outline in the length/height plane,
 // wheel arches cut out of it) pulled out across the vehicle's width, so bonnets slope, windscreens
@@ -138,11 +139,71 @@ export const CAR_TYPES = {
 };
 // a taxi: the saloon with a lit sign on its roof (only driving about, never parked)
 CAR_TYPES.taxi = { ...CAR_TYPES.sedan, boxes: [...CAR_TYPES.sedan.boxes, [0.62, 1.46, 1.64, -0.5, -0.2, 0xffe36e]] };
+
+// The vehicles a city is known for, which only drive where its TRAFFIC asks for them (<city>/city.js).
+// colors: the paints it comes in, if not the usual greys and whites.
+// London's black cab: tall and upright, a rounded bonnet, the amber TAXI sign on the roof
+CAR_TYPES.cab = car(4.58, 1.88, 0.35, [-1.45, 1.42], [0.78, 2.3, 0.86, -2.26],
+  [[2.25, 0.32, 0.16], [2.3, 0.8, 0.26], [2.02, 1.04, 0.38], [1.15, 1.1, 0.1], [-2.1, 1.12, 0.2], [-2.27, 0.88, 0.14], [-2.26, 0.32, 0.1]],
+  [[1.16, 1.07, 0], [0.98, 1.76, 0.1], [-1.95, 1.8, 0.14], [-2.14, 1.08, 0]],
+  [[1.0, 1.72, 0], [0.92, 1.9, 0.12], [-1.95, 1.92, 0.14], [-2.06, 1.72, 0]], [0.1, -1.0],
+  { colors: [0x141414, 0x141414, 0x141414, 0x1d2a3a, 0x5a1720] });
+CAR_TYPES.cab.boxes.push([0.5, 1.92, 2.06, 0.55, 0.8, 0xffb300], [0.72, 0.42, 0.86, 2.27, 2.33, 0xc0c4c8]); // the TAXI sign and the chrome grille
+// London's red double-decker: two rows of windows all along, the route number lit over the windscreen
+CAR_TYPES.double = {
+  len: 10.6, w: 2.52, wheel: 0.5, axles: [-3.1, 3.4], lights: [0.75, 5.32, 0.95, -5.28], tall: true, colors: [0xc8102e],
+  parts: [{ p: [[5.25, 0.32, 0.1], [5.32, 4.12, 0.4], [-5.15, 4.2, 0.4], [-5.3, 0.32, 0.1]], w: 2.52, m: 'paint', arches: true, top: true }],
+  boxes: [
+    [2.54, 1.25, 2.2, -4.8, 4.5, 'glass'], [2.54, 2.75, 3.75, -4.95, 4.95, 'glass'], // the two decks' windows
+    [2.2, 1.15, 2.25, 5.22, 5.33, 'glass'], [2.2, 2.8, 3.8, 5.18, 5.33, 'glass'],   // the windscreen and the top deck's front
+    [2.1, 1.3, 2.2, -5.33, -5.25, 'glass'], [2.1, 2.8, 3.75, -5.33, -5.2, 'glass'], // and the back
+    [1.9, 2.32, 2.66, 5.26, 5.36, 0x1c1c1c], [1.2, 2.4, 2.58, 5.34, 5.37, 0xffa000], // the destination display
+    [2.55, 0.3, 0.52, -5.25, 5.28, 0x3a3a3a], [2.6, 0.35, 2.25, 3.6, 4.5, 0x4a4f54], // the skirt and the door
+  ],
+};
+// a Vespa and its rider (the paint is the scooter's and the helmet's): narrow, one wheel at each end
+CAR_TYPES.vespa = {
+  len: 1.85, w: 0.28, wheel: 0.24, axles: [-0.62, 0.64], lights: [0.95, 0.94, 0.62, -0.93], short: true,
+  colors: [0x8ec9c0, 0xd32f2f, 0xf5f0e1, 0x9ccc65, 0x1565c0, 0xf5f5f5, 0x546e7a, 0xffca28],
+  parts: [
+    { p: [[0.92, 0.26, 0.05], [0.96, 0.6, 0.1], [0.8, 1.02, 0.05], [0.66, 1.04, 0], [0.58, 0.42, 0.05], [-0.18, 0.4, 0.05], [-0.42, 0.74, 0.15], [-0.9, 0.7, 0.15], [-0.93, 0.26, 0.08]], w: 0.62, m: 'paint', arches: true, top: true },
+  ],
+  boxes: [
+    [0.66, 1.04, 1.09, 0.6, 0.68, 0x222222],                   // the handlebar
+    [0.4, 0.74, 0.82, -0.78, -0.12, 0x3b2a1e],                 // the seat
+    [0.38, 0.5, 0.86, -0.32, 0.3, 0x2b3a55],                   // the rider's legs, feet on the floor
+    [0.42, 0.86, 1.46, -0.5, -0.16, 0x37474f],                 // the jacket
+    [0.1, 1.1, 1.2, -0.26, 0.62, 0x37474f, -0.22], [0.1, 1.1, 1.2, -0.26, 0.62, 0x37474f, 0.22], // the arms, out to the handlebar
+    [0.24, 1.46, 1.66, -0.44, -0.2, 0xf1c9a5],                 // the face
+    [0.3, 1.58, 1.82, -0.48, -0.14, 'paint'],                  // the helmet
+  ],
+};
+// the Fiat 500 of the 1960s: tiny and round
+CAR_TYPES.cinquecento = car(2.97, 1.32, 0.27, [-0.92, 0.92], [0.6, 1.5, 0.66, -1.5],
+  [[1.47, 0.26, 0.1], [1.5, 0.56, 0.16], [1.3, 0.74, 0.28], [0.6, 0.82, 0.1], [-1.25, 0.84, 0.25], [-1.49, 0.6, 0.14], [-1.48, 0.26, 0.08]],
+  [[0.64, 0.8, 0], [0.25, 1.24, 0.12], [-0.85, 1.26, 0.14], [-1.15, 0.82, 0]],
+  [[0.28, 1.2, 0], [0.18, 1.32, 0.08], [-0.85, 1.33, 0.1], [-0.95, 1.2, 0]], [],
+  { colors: [0xf5f0e1, 0x8ec9c0, 0xd32f2f, 0xffca28, 0x90caf9, 0xf5f5f5, 0x2e7d32] });
+// the East German Trabant: small, boxy and plastic, in pastels
+CAR_TYPES.trabant = car(3.56, 1.5, 0.29, [-1.0, 1.02], [0.6, 1.78, 0.72, -1.78],
+  [[1.78, 0.28, 0.08], [1.8, 0.62, 0.1], [1.6, 0.78, 0.1], [0.65, 0.84, 0.05], [-1.7, 0.86, 0.06], [-1.78, 0.7, 0.06], [-1.78, 0.28, 0.06]],
+  [[0.7, 0.82, 0], [0.25, 1.32, 0.05], [-1.2, 1.33, 0.05], [-1.45, 0.84, 0]],
+  [[0.3, 1.3, 0], [0.25, 1.4, 0.03], [-1.2, 1.41, 0.03], [-1.3, 1.3, 0]], [-0.45],
+  { colors: [0xd7ccc8, 0x90caf9, 0xa5d6a7, 0xf5f5f5, 0xffe082, 0xef9a9a] });
+// the Citroën 2CV: a tall rounded roof, the bonnet sloping away in front
+CAR_TYPES.deuxcv = car(3.83, 1.48, 0.33, [-1.2, 1.18], [0.78, 1.9, 0.72, -1.9],
+  [[1.88, 0.3, 0.1], [1.92, 0.62, 0.16], [1.5, 0.92, 0.35], [0.7, 1.0, 0.08], [-1.4, 0.96, 0.35], [-1.9, 0.62, 0.2], [-1.9, 0.3, 0.08]],
+  [[0.75, 0.98, 0], [0.45, 1.48, 0.12], [-0.95, 1.52, 0.25], [-1.45, 0.98, 0]],
+  [[0.48, 1.44, 0], [0.38, 1.58, 0.12], [-0.9, 1.6, 0.3], [-1.2, 1.3, 0]], [-0.25],
+  { colors: [0x5d4037, 0xf5f0e1, 0x90a4ae, 0xd32f2f, 0xffca28, 0x1e3a5f] });
 for (const t of Object.values(CAR_TYPES)) {
   t.h = Math.max(...t.parts.flatMap(p => p.p.map(q => q[1])), ...t.boxes.map(b => b[2]));
 }
 
-const MIX = [['hatch', 0.3], ['sedan', 0.23], ['estate', 0.17], ['mini', 0.15], ['van', 0.11], ['police', 0.025], ['bins', 0.06]];
+// the usual mix of vehicles, and what the city adds to it (its TRAFFIC.mix: [type, weight], e.g.
+// Rome's Vespas and London's double-deckers)
+const MIX = [['hatch', 0.3], ['sedan', 0.23], ['estate', 0.17], ['mini', 0.15], ['van', 0.11], ['police', 0.025], ['bins', 0.06], ...(TRAFFIC?.mix ?? [])];
+const MIX_TOTAL = MIX.reduce((t, [, w]) => t + w, 0);
 // Mostly greys and whites, like real streets; a bright colour now and then.
 const COLORS = [
   0xf5f5f5, 0xfafafa, 0xeceff1, 0xe0e0e0, 0xcfd8dc, 0xbdbdbd, 0xb0bec5, 0x9e9e9e, 0x90a4ae, 0x757575,
@@ -154,10 +215,11 @@ const COLORS = [
 // ride over, short: true to the ones no longer than a car.
 export function randomCar(rand, { low = false, short = false } = {}) {
   for (;;) {
-    let k = rand();
+    let k = rand() * MIX_TOTAL;
     const type = (MIX.find(([, w]) => (k -= w) < 0) ?? MIX[0])[0], t = CAR_TYPES[type];
     if ((low && t.tall) || (short && t.len > 5)) continue;
-    return { type, c: type === 'van' && rand() < 0.6 ? 0xf5f5f5 : COLORS[Math.floor(rand() * COLORS.length)] };
+    const colors = t.colors ?? COLORS;
+    return { type, c: type === 'van' && rand() < 0.6 ? 0xf5f5f5 : colors[Math.floor(rand() * colors.length)] };
   }
 }
 

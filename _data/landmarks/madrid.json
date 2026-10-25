@@ -1,0 +1,157 @@
+[
+  {
+    "id": "puerta-del-sol",
+    "name": "Puerta del Sol",
+    "emoji": "☀️",
+    "kind": "place",
+    "lat": 40.4169,
+    "lon": -3.7035,
+    "blurb": "Kilometre zero of Spain’s roads, where Spain eats its twelve grapes at midnight on New Year’s Eve.",
+    "text": [
+      "The Puerta del Sol was once a gate in the walls, facing the rising sun. Today it is the busiest square in Madrid, with the clock tower of the Real Casa de Correos, the seat of the regional government.",
+      "A plaque in the pavement marks kilometre zero, from which Spain’s main roads are measured. On New Year’s Eve, Spain eats a grape on each of the twelve strokes of its clock, broadcast live on television."
+    ]
+  },
+  {
+    "id": "oso-y-madrono",
+    "name": "Bear and Strawberry Tree",
+    "local": "El Oso y el Madroño",
+    "emoji": "🐻",
+    "kind": "place",
+    "lat": 40.417,
+    "lon": -3.7032,
+    "blurb": "The bronze bear reaching up into a strawberry tree, Madrid’s coat of arms on the Puerta del Sol.",
+    "text": [
+      "The bear and the madroño, the strawberry tree, have been on Madrid’s coat of arms since the Middle Ages. The bronze statue on the Puerta del Sol, from 1967, is a favourite meeting point.",
+      "Madrileños say “meet you at the bear”."
+    ]
+  },
+  {
+    "id": "plaza-mayor",
+    "name": "Plaza Mayor",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 40.4155,
+    "lon": -3.7074,
+    "blurb": "The arcaded square of 1619, where Madrid held markets, bullfights and the trials of the Inquisition.",
+    "text": [
+      "The Plaza Mayor was finished in 1619 under Philip III, whose statue on horseback stands in the middle. Its arcaded houses have 237 balconies, from which people watched markets, bullfights, coronations, executions and the autos-da-fé of the Inquisition.",
+      "The painted front of the Casa de la Panadería, the old bakers’ guild house, is its centrepiece. At Christmas a market fills it."
+    ]
+  },
+  {
+    "id": "palacio-real",
+    "name": "Royal Palace",
+    "local": "Palacio Real",
+    "emoji": "👑",
+    "kind": "place",
+    "lat": 40.418,
+    "lon": -3.7143,
+    "blurb": "With more than 3,000 rooms the largest royal palace in western Europe, still used for state occasions.",
+    "text": [
+      "After the old Alcázar burned on Christmas Eve 1734, Philip V ordered a new palace of stone, so it could never burn again. It was finished in 1764, with some 3,400 rooms.",
+      "The king no longer lives here, but receives state visitors in its throne room. On the first Wednesday of the month the guard changes in the courtyard."
+    ]
+  },
+  {
+    "id": "almudena",
+    "name": "Almudena Cathedral",
+    "local": "Catedral de la Almudena",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 40.4157,
+    "lon": -3.7146,
+    "blurb": "Madrid’s cathedral, begun in 1883 and only consecrated in 1993, facing the Royal Palace.",
+    "text": [
+      "Madrid only became a bishop’s see in 1885, and its cathedral took more than a century to build. Its outside was designed to match the palace across the square; inside, its ceilings are painted in bright modern colours.",
+      "Pope John Paul II consecrated it in 1993."
+    ]
+  },
+  {
+    "id": "plaza-de-oriente",
+    "name": "Plaza de Oriente",
+    "emoji": "🌳",
+    "kind": "place",
+    "lat": 40.4185,
+    "lon": -3.712,
+    "blurb": "The gardens between the Royal Palace and the opera, with a famous statue of Philip IV on a rearing horse.",
+    "text": [
+      "Joseph Bonaparte, Napoleon’s brother and king of Spain, cleared the old houses in front of the palace to make the square. Its gardens are lined with statues of Spanish kings.",
+      "In the middle stands Philip IV on a horse rearing on its hind legs, cast by Pietro Tacca in 1640; Galileo is said to have helped him work out how to balance it."
+    ]
+  },
+  {
+    "id": "teatro-real",
+    "name": "Teatro Real",
+    "emoji": "🎭",
+    "kind": "place",
+    "lat": 40.4184,
+    "lon": -3.711,
+    "blurb": "Madrid’s opera house, facing the Royal Palace across the Plaza de Oriente.",
+    "text": [
+      "The Teatro Real opened in 1850 under Queen Isabella II. It closed in 1925 for fear it would collapse, was rebuilt, and opened again as an opera house only in 1997.",
+      "Today it is one of the leading opera houses of Europe."
+    ]
+  },
+  {
+    "id": "mercado-de-san-miguel",
+    "name": "Mercado de San Miguel",
+    "emoji": "🫒",
+    "kind": "place",
+    "lat": 40.4154,
+    "lon": -3.709,
+    "blurb": "An iron-and-glass market hall of 1916, now a gourmet food hall next to the Plaza Mayor.",
+    "text": [
+      "The market hall of iron and glass opened in 1916 beside the Plaza Mayor. Restored in 2009, it is now a hall of tapas counters: oysters, ham, olives, croquetas and vermouth.",
+      "It is busiest in the evening, before dinner, which in Madrid comes late."
+    ]
+  },
+  {
+    "id": "plaza-de-la-villa",
+    "name": "Plaza de la Villa",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 40.4153,
+    "lon": -3.7101,
+    "blurb": "A small square of three buildings from three centuries, the old heart of Madrid’s government.",
+    "text": [
+      "On this little square off the Calle Mayor stand the Casa de la Villa, the old town hall of the 17th century, the Torre de los Lujanes from the 15th, one of the oldest buildings in the city, and the Casa de Cisneros from the 16th.",
+      "Madrid’s council met here until 2007."
+    ]
+  },
+  {
+    "id": "gran-via",
+    "name": "Gran Vía",
+    "emoji": "🎬",
+    "kind": "place",
+    "lat": 40.4199,
+    "lon": -3.7059,
+    "blurb": "The great avenue of 1910 to the 1950s, Madrid’s Broadway of cinemas, theatres and early skyscrapers.",
+    "text": [
+      "The Gran Vía was cut through the old town from 1910, a showcase of the new century with banks, hotels, department stores and some of the first tall buildings in Europe, like the Telefónica tower of 1929.",
+      "At Callao its cinemas and theatres stand side by side under neon signs. At its far end the dome of the Metrópolis building is crowned by a winged victory."
+    ]
+  },
+  {
+    "id": "churros",
+    "name": "Chocolate con churros",
+    "emoji": "🍫",
+    "kind": "food",
+    "blurb": "Fried dough sticks dipped in thick hot chocolate, at any hour of the day or night.",
+    "text": [
+      "Churros are strips of dough fried crisp; porras are their thicker cousins. In Madrid you dip them in a cup of hot chocolate so thick it is almost a pudding.",
+      "The Chocolatería San Ginés, in a lane off the Calle Mayor, has served them since 1894, until late at night."
+    ]
+  },
+  {
+    "id": "bocadillo-de-calamares",
+    "name": "Bocadillo de calamares",
+    "emoji": "🦑",
+    "kind": "food",
+    "blurb": "A fried-squid sandwich, Madrid’s own snack, sold in the bars around the Plaza Mayor.",
+    "text": [
+      "Madrid is far from the sea, but it loves seafood. Its own snack is a crusty roll stuffed with rings of squid fried in batter.",
+      "The bars in the lanes around the Plaza Mayor sell them for a few euros, with a small beer, a caña."
+    ]
+  }
+]

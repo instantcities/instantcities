@@ -8,5 +8,8 @@ layout: null
 {%- for c in site.data.cities %}{% unless c.soon %}
   <url><loc>{{ site.url }}/{{ c.id }}/</loc></url>
   <url><loc>{{ site.url }}/{{ c.id }}/play/</loc></url>
+{%- for l in site.data.landmarks[c.id] %}
+  <url><loc>{{ site.url }}/{{ c.id }}/landmark/{{ l.id }}/</loc></url>
+{%- endfor %}
 {%- endunless %}{% endfor %}
 </urlset>

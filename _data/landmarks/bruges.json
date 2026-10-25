@@ -1,0 +1,186 @@
+[
+  {
+    "id": "markt",
+    "name": "Markt",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 51.2089,
+    "lon": 3.2242,
+    "blurb": "Bruges’ market square, with the Belfry on its south side and the Provincial Court on the east.",
+    "text": [
+      "For eight centuries the Markt has been the heart of Bruges, where markets and tournaments were held. The Belfry rises on its south side; on the east stands the neo-Gothic Provincial Court.",
+      "In the middle stand Jan Breydel and Pieter de Coninck, the two Bruges men who led the uprising against the French in 1302, before the Battle of the Golden Spurs."
+    ]
+  },
+  {
+    "id": "belfort",
+    "name": "Belfry",
+    "local": "Belfort",
+    "emoji": "🔔",
+    "kind": "place",
+    "lat": 51.2085,
+    "lon": 3.2247,
+    "blurb": "The 83-metre belfry over the Markt: 366 steps up to its carillon of 47 bells.",
+    "text": [
+      "The Belfry was the town’s watchtower and treasury, where the city’s charters were kept safe. Its lower part dates from the 13th century; the octagonal top was added in the 15th. It leans about a metre to the east.",
+      "Climb its 366 steps and you reach the carillon of 47 bells, still played by the city carillonneur."
+    ]
+  },
+  {
+    "id": "burg",
+    "name": "Burg",
+    "emoji": "⚖️",
+    "kind": "place",
+    "lat": 51.2083,
+    "lon": 3.2272,
+    "blurb": "The square of the city hall, the Basilica of the Holy Blood and the old court.",
+    "text": [
+      "The Burg is where the first counts of Flanders built their castle, which gave the square its name. Around it now stand the city hall, the Basilica of the Holy Blood and the Renaissance front of the old court of justice.",
+      "Every Belgian era seems to have left one building here: Romanesque, Gothic, Renaissance, Baroque and neoclassical."
+    ]
+  },
+  {
+    "id": "stadhuis",
+    "name": "City Hall",
+    "local": "Stadhuis",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 51.2078,
+    "lon": 3.2275,
+    "blurb": "One of the oldest city halls in the Low Countries, begun in 1376, with a Gothic Hall full of murals.",
+    "text": [
+      "Bruges began its city hall in 1376, and it became the model for those of Brussels, Leuven and Ghent. Its front of white stone carries statues of the counts and countesses of Flanders.",
+      "Inside, the Gothic Hall has a vaulted oak ceiling from the 14th century and walls painted with the history of the city."
+    ]
+  },
+  {
+    "id": "heilig-bloedbasiliek",
+    "name": "Basilica of the Holy Blood",
+    "local": "Heilig-Bloedbasiliek",
+    "emoji": "🩸",
+    "kind": "place",
+    "lat": 51.208,
+    "lon": 3.2268,
+    "blurb": "A Romanesque chapel with a Gothic one above it, holding a relic of the blood of Christ.",
+    "text": [
+      "The lower chapel dates from the 12th century and is one of the best Romanesque buildings in Flanders. Above it, the richly painted upper chapel keeps a relic said to hold drops of the blood of Christ.",
+      "Every year on Ascension Day the relic is carried through the city in the Procession of the Holy Blood, with hundreds of townspeople in costume."
+    ]
+  },
+  {
+    "id": "rozenhoedkaai",
+    "name": "Rozenhoedkaai",
+    "emoji": "📸",
+    "kind": "place",
+    "lat": 51.2066,
+    "lon": 3.2275,
+    "blurb": "The most photographed corner of Bruges, where the canal turns under the Belfry.",
+    "text": [
+      "At the Rozenhoedkaai the Dijver canal turns a corner, and the old houses, the bridge and the Belfry above them line up into the picture everyone knows from postcards.",
+      "It was once the quay where the rosary sellers worked, hence its name, the quay of the rosary."
+    ]
+  },
+  {
+    "id": "gruuthuse",
+    "name": "Gruuthuse",
+    "emoji": "🍺",
+    "kind": "place",
+    "lat": 51.2054,
+    "lon": 3.2254,
+    "blurb": "The palace of the lords of Gruuthuse, who could tax gruut, the herbs for brewing beer.",
+    "text": [
+      "The lords of Gruuthuse grew rich on a monopoly: every brewer had to buy gruut, the mix of herbs used to flavour beer before hops, from them. Their 15th-century palace on the Dijver now houses a museum of the city’s history.",
+      "A little wooden oratory links it to the Church of Our Lady next door, so the lords could hear mass without going outside."
+    ]
+  },
+  {
+    "id": "onze-lieve-vrouwekerk",
+    "name": "Church of Our Lady",
+    "local": "Onze-Lieve-Vrouwekerk",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 51.2047,
+    "lon": 3.2245,
+    "blurb": "Its brick tower of 115 metres is one of the tallest in the world; inside is Michelangelo’s Madonna.",
+    "text": [
+      "The Church of Our Lady was built from the 13th to the 15th century. Its brick tower, 115.6 metres tall, is the highest building in Bruges and one of the tallest brick towers in the world.",
+      "Inside is the Madonna and Child by Michelangelo, the only one of his statues to leave Italy in his lifetime, bought by a Bruges merchant in 1506. Charles the Bold and his daughter Mary of Burgundy lie in the choir."
+    ]
+  },
+  {
+    "id": "sint-salvatorskathedraal",
+    "name": "St Saviour’s Cathedral",
+    "local": "Sint-Salvatorskathedraal",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 51.2055,
+    "lon": 3.222,
+    "blurb": "Bruges’ oldest parish church, which became its cathedral in the 19th century.",
+    "text": [
+      "St Saviour’s is the oldest parish church of Bruges, rebuilt in brick from the 13th century on. When the old cathedral of St Donatian on the Burg was pulled down after the French Revolution, St Saviour’s took its place.",
+      "Its tower got its odd, romantic top in the 19th century. Inside hang tapestries and paintings by Flemish masters."
+    ]
+  },
+  {
+    "id": "begijnhof",
+    "name": "Begijnhof",
+    "emoji": "🌳",
+    "kind": "place",
+    "lat": 51.2015,
+    "lon": 3.2235,
+    "blurb": "The beguinage of 1245: white houses round a lawn of tall trees, still home to a community of nuns.",
+    "text": [
+      "The Princely Beguinage of the Vineyard was founded in 1245 for beguines, single women who lived a religious life without taking vows. Its whitewashed houses stand round a quiet lawn under tall trees.",
+      "The last beguine died in 1927; since then Benedictine sisters live here. In spring the lawn is covered in daffodils."
+    ]
+  },
+  {
+    "id": "minnewater",
+    "name": "Minnewater",
+    "emoji": "🦢",
+    "kind": "place",
+    "lat": 51.201,
+    "lon": 3.226,
+    "blurb": "The “lake of love” at the south end of the old town, with swans and a lock house.",
+    "text": [
+      "The Minnewater was once the harbour basin where boats from Ghent unloaded. Today it is a quiet lake in a park, with the old lock house and a 15th-century powder tower.",
+      "Its name has been read as “lake of love”, and lovers come to its bridge; the swans on it are said to be kept by the city since the 15th century as a penance for beheading a hated official, Pieter Lanchals, whose name means long neck."
+    ]
+  },
+  {
+    "id": "koetsen",
+    "name": "Horse carriages",
+    "local": "Koetsen",
+    "emoji": "🐴",
+    "kind": "vehicle",
+    "blurb": "Horse-drawn carriages clip-clop through the old town from the Markt.",
+    "text": [
+      "The carriages wait on the Markt and take visitors round the old town on cobbled streets. The horses stop for water at the fountain at the Begijnhof halfway round.",
+      "In the game you can ride a horse too, through the same streets."
+    ]
+  },
+  {
+    "id": "reien",
+    "name": "Canal boats",
+    "local": "Reien",
+    "emoji": "🛶",
+    "kind": "vehicle",
+    "blurb": "Little open boats glide along the reien, the canals of Bruges, under low bridges.",
+    "text": [
+      "The canals of Bruges, the reien, once linked the city to the sea and made it a trading port of all Europe in the Middle Ages. Today small open boats take visitors along them, from the Rozenhoedkaai to the Begijnhof.",
+      "Some bridges are so low that the guide asks everyone to duck."
+    ]
+  },
+  {
+    "id": "kant",
+    "name": "Bruges lace",
+    "local": "Kant",
+    "emoji": "🧶",
+    "kind": "thing",
+    "blurb": "Bobbin lace, made by hand in Bruges since the 16th century.",
+    "text": [
+      "Bruges lace is made with bobbins: dozens of threads on wooden spools, crossed and twisted over a pattern pinned to a cushion. For centuries it was the work of women in the city’s beguinages and convents.",
+      "A few lacemakers still work in the old town, and the lace centre near the Jerusalem church keeps the craft alive."
+    ]
+  }
+]

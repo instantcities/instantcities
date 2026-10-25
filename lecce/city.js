@@ -47,6 +47,9 @@ export const WORDS = {
 // you see, in game metres. The pavements are the same pale limestone as the houses.
 export const THEME = { ground: '#a59d8f', paving: '#cfc4ae', verge: 0xcfc4ae, kerb: 0xe2d9c4, fog: [160, 620], weathers: ['clear', 'rain'] };
 
+// What drives here besides the usual cars (js/cars.js): Vespas, old Fiat 500s, and white taxis.
+export const TRAFFIC = { mix: [['vespa', 0.3], ['cinquecento', 0.12]], taxis: 0.3, taxi: { type: 'taxi', colors: [0xf5f5f5] } };
+
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): the honey-coloured
 // pietra leccese the whole old town is built of, a few houses plastered white or ochre, green and
 // brown louvred shutters, flat roof terraces (area.json has roofs: 'flat') and bell towers that end

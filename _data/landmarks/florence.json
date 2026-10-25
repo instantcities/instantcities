@@ -1,0 +1,173 @@
+[
+  {
+    "id": "duomo",
+    "name": "Duomo",
+    "local": "Santa Maria del Fiore",
+    "emoji": "🔴",
+    "kind": "place",
+    "lat": 43.7731,
+    "lon": 11.256,
+    "blurb": "Florence’s cathedral, crowned by Brunelleschi’s dome, still the largest brick dome ever built.",
+    "text": [
+      "Santa Maria del Fiore was begun in 1296, but for over a century no one knew how to cover its vast crossing. In 1420 Filippo Brunelleschi began a dome without scaffolding from the ground, two shells with bricks laid in a herringbone pattern; it was finished in 1436.",
+      "Its red tiles still rise over every view of the city. Some 460 steps lead between its two shells to the lantern on top."
+    ]
+  },
+  {
+    "id": "campanile-di-giotto",
+    "name": "Giotto’s Bell Tower",
+    "local": "Campanile di Giotto",
+    "emoji": "🔔",
+    "kind": "place",
+    "lat": 43.7728,
+    "lon": 11.2554,
+    "blurb": "The slender bell tower beside the cathedral, clad in white, green and pink marble.",
+    "text": [
+      "The painter Giotto designed the bell tower and began it in 1334; after his death Andrea Pisano and Francesco Talenti finished it, some 85 metres tall. Like the cathedral it is clad in white marble from Carrara, green from Prato and pink from the Maremma.",
+      "Its 414 steps have no lift, but the view from the top takes in the dome face to face."
+    ]
+  },
+  {
+    "id": "battistero",
+    "name": "Baptistery",
+    "local": "Battistero di San Giovanni",
+    "emoji": "🚪",
+    "kind": "place",
+    "lat": 43.7731,
+    "lon": 11.2549,
+    "blurb": "The octagonal baptistery with Ghiberti’s bronze doors, which Michelangelo called the Gates of Paradise.",
+    "text": [
+      "The Baptistery of San Giovanni is one of the oldest buildings in the city, its striped marble octagon from the 11th century. Every Florentine was baptised here, Dante among them.",
+      "Its east doors, which Lorenzo Ghiberti spent 27 years casting in gilded bronze, show stories from the Old Testament in ten panels; Michelangelo is said to have called them fit to be the Gates of Paradise. The ones in place are copies."
+    ]
+  },
+  {
+    "id": "piazza-della-signoria",
+    "name": "Piazza della Signoria",
+    "emoji": "🗿",
+    "kind": "place",
+    "lat": 43.7696,
+    "lon": 11.2558,
+    "blurb": "The square of the Palazzo Vecchio, with a copy of Michelangelo’s David at its door.",
+    "text": [
+      "For seven centuries this has been Florence’s political square, in front of its town hall. Here the preacher Savonarola held his bonfire of the vanities in 1497, and was burned himself a year later.",
+      "Its statues make it an open-air museum: the copy of Michelangelo’s David, Ammannati’s Neptune fountain and Cosimo I on horseback."
+    ]
+  },
+  {
+    "id": "palazzo-vecchio",
+    "name": "Palazzo Vecchio",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 43.7694,
+    "lon": 11.2563,
+    "blurb": "Florence’s fortress-like town hall since 1299, with its tall tower off to one side.",
+    "text": [
+      "The Palazzo Vecchio was begun in 1299 as the seat of the city’s government, a stone fortress with a battlemented top and a tower 94 metres high. The Medici lived here before moving across the river to the Palazzo Pitti.",
+      "It is still the town hall. Inside, the vast Hall of the Five Hundred was painted by Vasari."
+    ]
+  },
+  {
+    "id": "loggia-dei-lanzi",
+    "name": "Loggia dei Lanzi",
+    "emoji": "🛡️",
+    "kind": "place",
+    "lat": 43.7692,
+    "lon": 11.2556,
+    "blurb": "An open arcade on the square, full of statues, among them Cellini’s Perseus with the head of Medusa.",
+    "text": [
+      "The loggia was built in the 14th century for public ceremonies; it takes its name from the Landsknechts, the German pikemen of Cosimo I who were quartered there.",
+      "Today it shelters statues: Benvenuto Cellini’s bronze Perseus holding up Medusa’s head, and Giambologna’s Rape of the Sabine Women, carved from a single block."
+    ]
+  },
+  {
+    "id": "uffizi",
+    "name": "Uffizi",
+    "local": "Galleria degli Uffizi",
+    "emoji": "🖼️",
+    "kind": "place",
+    "lat": 43.7678,
+    "lon": 11.2553,
+    "blurb": "The Medici’s offices turned into one of the world’s great museums, with Botticelli’s Birth of Venus.",
+    "text": [
+      "Giorgio Vasari built the Uffizi for Cosimo I de’ Medici from 1560, as offices for the magistrates of Florence, in a long U from the square down to the Arno. The Medici filled its top floor with their art collection.",
+      "Their last heir, Anna Maria Luisa, left everything to the city in 1737 on condition that it never left Florence. Today it holds Botticelli’s Birth of Venus and Primavera, Leonardo, Raphael, Titian and Caravaggio."
+    ]
+  },
+  {
+    "id": "ponte-vecchio",
+    "name": "Ponte Vecchio",
+    "emoji": "💍",
+    "kind": "place",
+    "lat": 43.768,
+    "lon": 11.2531,
+    "blurb": "The bridge of goldsmiths over the Arno, the only one the retreating Germans left standing in 1944.",
+    "text": [
+      "The Ponte Vecchio was rebuilt in stone in 1345 after a flood, with shops along both sides. In 1593 the Medici threw out the butchers and tanners and put goldsmiths in their place.",
+      "Above the shops runs the Vasari Corridor, built so the Medici could walk from the Palazzo Vecchio to the Palazzo Pitti without going outside. In 1944 the retreating Germans blew up every other bridge in Florence and spared this one."
+    ]
+  },
+  {
+    "id": "piazza-della-repubblica",
+    "name": "Piazza della Repubblica",
+    "emoji": "🎠",
+    "kind": "place",
+    "lat": 43.7714,
+    "lon": 11.2539,
+    "blurb": "Where the Roman forum was, now a square with a carousel and old cafés under a triumphal arch.",
+    "text": [
+      "The square lies where the forum of Roman Florentia stood and, later, the old market and the Jewish ghetto, all cleared in the 1880s to make a grand modern square, with a triumphal arch.",
+      "Its old cafés, like the Giubbe Rosse where writers and artists met, and a carousel make it a meeting point day and night."
+    ]
+  },
+  {
+    "id": "santa-croce",
+    "name": "Santa Croce",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 43.7686,
+    "lon": 11.2622,
+    "blurb": "The great Franciscan church where Michelangelo, Galileo and Machiavelli are buried.",
+    "text": [
+      "Santa Croce was begun in 1294 for the Franciscans, one of the largest churches in Italy. Its chapels were painted by Giotto.",
+      "So many great Florentines lie here that it is called the Temple of the Italian Glories: Michelangelo, Galileo, Machiavelli and Rossini, with a memorial to Dante, who is buried in Ravenna."
+    ]
+  },
+  {
+    "id": "santa-maria-novella",
+    "name": "Santa Maria Novella",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 43.7745,
+    "lon": 11.2492,
+    "blurb": "The Dominican church with its white and green marble front by Alberti, by the station that bears its name.",
+    "text": [
+      "Santa Maria Novella was built by the Dominicans from the 13th century. Leon Battista Alberti finished its front of white and green marble in 1470, a model for Renaissance church fronts.",
+      "Inside is Masaccio’s Trinity, one of the first paintings in perspective. Nearby, its old pharmacy has made perfumes since 1612."
+    ]
+  },
+  {
+    "id": "il-porcellino",
+    "name": "Il Porcellino",
+    "emoji": "🐗",
+    "kind": "place",
+    "lat": 43.7697,
+    "lon": 11.2537,
+    "blurb": "The bronze boar at the Mercato Nuovo: rub its nose and you will come back to Florence.",
+    "text": [
+      "The bronze wild boar was cast by Pietro Tacca in the 17th century after an ancient marble one. Florentines call it the little pig.",
+      "Rubbing its shining nose is said to bring you back to Florence; put a coin in its mouth and let it drop through the grate for luck."
+    ]
+  },
+  {
+    "id": "bistecca",
+    "name": "Bistecca alla fiorentina",
+    "emoji": "🥩",
+    "kind": "food",
+    "blurb": "A huge T-bone steak, grilled over coals and served rare, by the kilo.",
+    "text": [
+      "The bistecca alla fiorentina is a T-bone steak cut at least three fingers thick, traditionally from Chianina cattle, grilled over hot coals with only salt, pepper and olive oil.",
+      "It is served rare, priced by weight, and usually shared: one steak weighs well over a kilo."
+    ]
+  }
+]

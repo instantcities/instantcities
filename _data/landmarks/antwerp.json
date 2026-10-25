@@ -1,0 +1,158 @@
+[
+  {
+    "id": "grote-markt",
+    "name": "Grote Markt",
+    "emoji": "🖐️",
+    "kind": "place",
+    "lat": 51.2213,
+    "lon": 4.3997,
+    "blurb": "The square of the city hall and the guild houses, with the Brabo fountain in the middle.",
+    "text": [
+      "The Grote Markt is the heart of old Antwerp, where the guilds built their tall houses with stepped and gilded gables in the 16th century. On the west side stands the Renaissance city hall.",
+      "In the middle, Brabo throws the giant Antigoon’s hand into the river, on a fountain by Jef Lambeaux from 1887."
+    ]
+  },
+  {
+    "id": "brabofontein",
+    "name": "Brabo Fountain",
+    "local": "Brabofontein",
+    "emoji": "⛲",
+    "kind": "place",
+    "lat": 51.2214,
+    "lon": 4.3999,
+    "blurb": "The Roman soldier Brabo throwing the giant’s hand away: the legend behind the city’s name.",
+    "text": [
+      "Legend says that the giant Antigoon made every ship on the Scheldt pay a toll, and cut off the hand of anyone who refused. The Roman soldier Silvius Brabo killed him, cut off his hand and threw it into the river.",
+      "Hand werpen, throwing the hand, became Antwerpen, says the story. Jef Lambeaux’s bronze fountain of 1887 shows Brabo at the moment he throws."
+    ]
+  },
+  {
+    "id": "stadhuis",
+    "name": "City Hall",
+    "local": "Stadhuis",
+    "emoji": "🏛️",
+    "kind": "place",
+    "lat": 51.2212,
+    "lon": 4.3992,
+    "blurb": "A Renaissance city hall from 1565, all flags and columns, on the Grote Markt.",
+    "text": [
+      "Cornelis Floris de Vriendt built the city hall between 1561 and 1565, when Antwerp was the richest city of northern Europe. It mixes Flemish and Italian ideas: a long front of columns with a tall decorated middle.",
+      "It is a World Heritage site; the flags along its front are those of the countries of the European Union."
+    ]
+  },
+  {
+    "id": "kathedraal",
+    "name": "Cathedral of Our Lady",
+    "local": "Onze-Lieve-Vrouwekathedraal",
+    "emoji": "⛪",
+    "kind": "place",
+    "lat": 51.2203,
+    "lon": 4.4015,
+    "blurb": "The largest Gothic church in the Low Countries, its spire 123 metres high, with four Rubens altarpieces.",
+    "text": [
+      "The cathedral was built from 1352 to 1521, and its north tower rises 123 metres: the tallest church tower in Belgium. The south tower was never finished.",
+      "Inside hang four great works by Rubens, among them the Elevation of the Cross and the Descent from the Cross. In Nello and Patrasche, Nello dies before them with his dog at Christmas."
+    ]
+  },
+  {
+    "id": "het-steen",
+    "name": "Het Steen",
+    "emoji": "🏰",
+    "kind": "place",
+    "lat": 51.2227,
+    "lon": 4.3972,
+    "blurb": "The oldest building in Antwerp, a castle on the Scheldt from the Middle Ages.",
+    "text": [
+      "Het Steen is what is left of the castle that guarded the city on the Scheldt from the 13th century. Rebuilt under Charles V, it later served as a prison.",
+      "At its gate stands the giant Lange Wapper, from the city’s folk tales, towering over two small figures. Today it is the visitor centre of the city."
+    ]
+  },
+  {
+    "id": "vleeshuis",
+    "name": "Vleeshuis",
+    "emoji": "🥩",
+    "kind": "place",
+    "lat": 51.2232,
+    "lon": 4.3988,
+    "blurb": "The Gothic hall of the butchers’ guild, striped in brick and white stone.",
+    "text": [
+      "The butchers’ guild built the Vleeshuis around 1503, a tall hall with towers and stepped gables, its walls striped like bacon in red brick and white stone.",
+      "Today it is a museum of music, with old harpsichords and instruments made in Antwerp."
+    ]
+  },
+  {
+    "id": "groenplaats",
+    "name": "Groenplaats",
+    "emoji": "🎨",
+    "kind": "place",
+    "lat": 51.219,
+    "lon": 4.401,
+    "blurb": "The square at the foot of the cathedral, with a statue of Rubens in the middle.",
+    "text": [
+      "The Groenplaats was once the churchyard of the cathedral; it became a square at the end of the 18th century. Rubens stands in bronze in the middle, on a statue of 1840.",
+      "From here you see the cathedral’s tower rising over the houses. In winter it holds a Christmas market."
+    ]
+  },
+  {
+    "id": "plantin-moretus",
+    "name": "Plantin-Moretus",
+    "emoji": "📖",
+    "kind": "place",
+    "lat": 51.2183,
+    "lon": 4.398,
+    "blurb": "The house and workshop of a great printing firm, with the two oldest printing presses in the world.",
+    "text": [
+      "Christophe Plantin set up his printing works in Antwerp in 1555 and made it the largest in Europe. His heirs, the Moretus family, ran it for three centuries in the house on the Vrijdagmarkt.",
+      "Today it is a museum and a World Heritage site, with the two oldest surviving printing presses in the world, its type foundry and its library."
+    ]
+  },
+  {
+    "id": "meir",
+    "name": "Meir",
+    "emoji": "🛍️",
+    "kind": "place",
+    "lat": 51.2185,
+    "lon": 4.407,
+    "blurb": "Antwerp’s great shopping street, lined with palaces and department stores.",
+    "text": [
+      "The Meir runs from the old town towards the station, lined with grand houses, among them the 18th-century Paleis op de Meir, where Napoleon stayed. Today it is Belgium’s busiest shopping street.",
+      "Rubens’ house stands just off it."
+    ]
+  },
+  {
+    "id": "rubenshuis",
+    "name": "Rubenshuis",
+    "emoji": "🖌️",
+    "kind": "place",
+    "lat": 51.2175,
+    "lon": 4.4106,
+    "blurb": "The house and studio where Peter Paul Rubens lived and painted from 1610.",
+    "text": [
+      "Rubens bought the house in 1610 and turned it into an Italian-style palazzo with a studio where his assistants helped turn out paintings. A Baroque portico leads into its garden.",
+      "Today it is a museum with works by Rubens and his circle."
+    ]
+  },
+  {
+    "id": "diamant",
+    "name": "Diamonds",
+    "emoji": "💎",
+    "kind": "thing",
+    "blurb": "Antwerp has traded and cut diamonds since the 15th century; most of the world’s rough diamonds still pass through it.",
+    "text": [
+      "Antwerp’s diamond trade goes back to the 15th century. Today its diamond quarter by the Central Station, a few streets of offices and workshops, handles most of the world’s rough diamonds.",
+      "The cut that gives a diamond its sparkle, with many facets, owes much to the Antwerp cutters."
+    ]
+  },
+  {
+    "id": "handjes",
+    "name": "Antwerp hands",
+    "local": "Antwerpse handjes",
+    "emoji": "🍪",
+    "kind": "food",
+    "blurb": "Biscuits and chocolates in the shape of a hand, after the Brabo legend.",
+    "text": [
+      "Antwerpse handjes are butter biscuits with almonds, and chocolates too, in the shape of the hand that Brabo threw into the Scheldt. They go back to a baking competition of 1934, won by the Antwerp baker Jos Hakker.",
+      "Every bakery and chocolate shop in the centre sells them."
+    ]
+  }
+]
