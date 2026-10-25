@@ -2,9 +2,9 @@
 // under black, fading in and out in a flash, with words over it where the script says, its name
 // in a corner all along, and a bar at the top with a part for each shot to go back or on to. Who
 // plays in the shots from the game itself is played here too (drive), with the same throttle and
-// steering a player has. No three.js in here: main.js does what `api` says.
+// steering a player has. No three.js in here: game/demofilm.js does what `api` says.
 //
-// api (main.js): tour(at, speed, { welcome, cards }) the tour from a point on its path (welcome: from
+// api (game/demofilm.js): tour(at, speed, { welcome, cards }) the tour from a point on its path (welcome: from
 // its very start, its welcome and all; cards: with the sights' cards), music(t) the music from t
 // seconds into the film, tire() the quest's thief tired already, quest(id, mount) a quest from
 // its start (on its own mount, or that one), begin() past its story card, race(id, mount) a race
@@ -104,7 +104,7 @@ export class Demo {
     if (!this.waiting) this.api.music(this.t);
   }
 
-  // off the screen (main.js puts the game back as it was)
+  // off the screen (game/demofilm.js puts the game back as it was)
   remove() {
     this.el.remove();
     document.body.classList.remove('demo');
@@ -161,7 +161,7 @@ export class Demo {
     this.shotCars = new Set();
     this.drive = s.drive ?? null;
     this.shot = s;
-    this.pace = s.pace ?? 1; // how much faster than real time the game plays in this shot (main.js steps it so)
+    this.pace = s.pace ?? 1; // how much faster than real time the game plays in this shot (game/demofilm.js steps it so)
     s.begun = !s.quest;
     s.boarded = false;
     if (s.tour) api.tour(s.tour, s.speed ?? 1, { welcome: !!s.welcome, cards: s.cards ?? true });

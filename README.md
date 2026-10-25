@@ -15,7 +15,8 @@ the Dutch, French and Spanish site, the game in French and Spanish, the Ghent gu
 app. The game and Ghent were last brought up to date with Instant Gent at its commit
 `67b3780` (23 October 2026): to do so again, apply its changes since then to `core/`, `ghent/`,
 `ghentinside/`, `lecce/` and `tools/` (its `<city>/index.html` are made here as `<city>/play/index.html`
-by `node tools/pages.mjs`).
+by `node tools/pages.mjs`; its `core/js/main.js` is split up here into `core/js/game/`, so a change to
+it goes into the part of the game it is about, see below).
 
 ## Run locally
 
@@ -117,6 +118,11 @@ The site lives at https://instantcities.net (GitHub Pages, `CNAME`); its address
 ```
 core/            the game, the same for every city
   js/            the engine: riders, tracks, scenery, quests, sound (no city in it)
+    main.js      the game's start: boots the parts in game/
+    game/        the game itself, a part a file: base.js (tuning), settings.js (state), scene.js,
+                 worlds.js, racers.js, hud.js, minimap.js, bigmap.js, menu.js, race.js, touring.js,
+                 control.js, indoors.js, physics.js, pickups.js, transit.js, cameras.js, loop.js,
+                 input.js, demofilm.js; base, settings and scene import none of the others
   sounds/        the recorded loops
   style.css
   game.html      the page, a template: tools/pages.mjs makes each city's play/index.html from it

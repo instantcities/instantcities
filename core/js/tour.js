@@ -1,7 +1,7 @@
 // The tour: the camera flies along a city's TOUR (see ghent/tour.js) over the streets, slows down at
 // each stop for a card about what is there, and shows the name of the street below in passing.
 // Played on its own (auto: each card stays a while, then the flight goes on) or interactively (the
-// flight waits at each card until it is clicked away). No three.js in here: main.js points the
+// flight waits at each card until it is clicked away). No three.js in here: game/touring.js points the
 // camera where view() says.
 
 const CRUISE = 30; // m/s along the path between the stops
@@ -30,7 +30,7 @@ const smooth = k => (k <= 0 ? 0 : k >= 1 ? 1 : k * k * (3 - 2 * k));
 
 // What stands in the city at a place the tour brings it to itself (its flyer and its runner, below:
 // Ghent's dragon on the Belfort, Artevelde on his statue): each registers here under its name as it
-// is made, so main.js can keep it out of sight on the tour until the one coming along gets there.
+// is made, so game/touring.js can keep it out of sight on the tour until the one coming along gets there.
 export const STANDING = new Map();
 export function standing(name, obj) {
   STANDING.set(name, obj);
@@ -116,7 +116,7 @@ export class Tour {
       this.busRun = { ahead: 8, lane: 2, pace: 1, gone: 600, ...def.bus, cum };
     }
     // flyer: one that comes flying in as the camera passes `join` (taking `over` seconds) to fly
-    // along with it (main.js keeps it low in the picture), and from `leave` on away to its place,
+    // along with it (game/touring.js keeps it low in the picture), and from `leave` on away to its place,
     // where it sits from `land` on (`settle` seconds later the one standing there takes over)
     if (def.flyer) {
       const sj = along(def.flyer.join), sa = along(def.flyer.leave, sj);

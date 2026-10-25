@@ -192,7 +192,7 @@ import { HOLLOWS as MEASURED_HOLLOWS } from './landmarks.js';
 import { HOLLOWS as RAMPS, MOUTH as DOK_NOORD_MOUTH } from './doknoord.js';
 import { HOLLOWS as KOUTER_RAMP, onRamp as onKouterRamp, rampRoad as kouterRampRoad, MOUTHS as KOUTER_MOUTHS } from './kouter.js';
 // The car parks under the Kouter and under Dok Noord are one: ride into a mouth of the one and you
-// come up the other's ramp (core/js/main.js); from Dok Noord, up the Kouter's way out. Each portal:
+// come up the other's ramp (core/js/game/physics.js); from Dok Noord, up the Kouter's way out. Each portal:
 // where its mouth is, and where it lets you out.
 // (The doors into Sint-Baafs, Sint-Niklaas and the Stadhuis are in inside.js: their rooms stand on
 // this map, js/interiors.js.)

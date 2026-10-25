@@ -570,7 +570,7 @@ export class Quest {
     return Math.atan2(g.X[to] - g.X[from], g.Z[to] - g.Z[from]);
   }
 
-  // the paint fight: the paintball gun in hand (main.js shoots, splat.js hits), points for every hit
+  // the paint fight: the paintball gun in hand (game/physics.js shoots, splat.js hits), points for every hit
   setupPaint(s) {
     const g = this.g, n = g.adj?.[s]?.[0];
     this._spawn = { x: g.X[s], z: g.Z[s], yaw: n !== undefined ? this.facing(s, typeof n === 'number' ? n : n[0]) : 0 };
@@ -589,7 +589,7 @@ export class Quest {
   }
 
   // the bus driver: the city's bus stops by name (`bus`: where the bus stands, `stops`: where to halt,
-  // in order). main.js puts the bus there (this.bus, a parked car to borrow) and its driver running off.
+  // in order). game/physics.js puts the bus there (this.bus, a parked car to borrow) and its driver running off.
   setupBus() {
     const def = this.def, stop = name => STOPS.find(st => st.name === name && st.kind === 'bus');
     const at = stop(def.bus), ux = Math.cos(at.a), uz = Math.sin(at.a);

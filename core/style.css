@@ -1213,7 +1213,7 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
 }
 :is(#tourBar, #demoBar) button:hover::after { opacity: 1; }
 :is(#tourBar, #demoBar) button[data-name='']::after { display: none; }
-/* how fast it plays: a round button beside the menu's (main.js puts it there) */
+/* how fast it plays: a round button beside the menu's (js/game/touring.js puts it there) */
 #tourSpeed {
   position: absolute;
   top: calc(16px + env(safe-area-inset-top));
@@ -1228,7 +1228,7 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
   border-radius: 50%;
   padding: 0;
 }
-/* the music on or off: a pill saying so beside the speed's button (main.js puts it there too) */
+/* the music on or off: a pill saying so beside the speed's button (js/game/touring.js puts it there too) */
 #tourMusic {
   position: absolute;
   top: calc(16px + env(safe-area-inset-top));
@@ -1560,7 +1560,7 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
 .lmp small { font-weight: 700; font-size: 11px; opacity: 0.8; }
 @media (max-width: 760px), (max-height: 560px) { .lm { display: none; } }
 
-/* ?watch (js/main.js): the tour on its own, for the site's pages to show behind their words: no
+/* ?watch (js/game/settings.js): the tour on its own, for the site's pages to show behind their words: no
    loading screen, menu, buttons, street names or cards. (?watch=cards is the whole tour, as from the
    menu, starting straight away.) */
 html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #tourBar, #tourSpeed, #tourMusic,
@@ -1610,7 +1610,7 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
 }
 
 /* Phones, one player: down the left third of the top the menu button, the minimap under it (as wide
-   as that third, main.js sets --mm-w and --mm-h) and under that the street sign with the mission.
+   as that third, js/game/minimap.js sets --mm-w and --mm-h) and under that the street sign with the mission.
    Beside them, top right in the other two thirds, the one card for where you are: a sight nearby, or
    the tram's in its place. The rest of the screen stays free for the thumbs. */
 @media (max-width: 760px), (max-height: 560px) {
