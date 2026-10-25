@@ -5379,7 +5379,7 @@ function render() {
     if (cam.aspect < 1) cam.fov = fov + (1 - cam.aspect) * 40; // keep a usable sideways view in portrait
     cam.updateProjectionMatrix();
     weather.follow(cam);
-    const room = !aerial() && INSIDE.at(from.x, from.z), outside = room && lightInside(room);
+    const room = aerial() ? null : INSIDE.at(from.x, from.z), outside = room && lightInside(room); // (null, not false: false?.() throws)
     renderer.render(scene, cam);
     outside?.();
     cam.fov = fov;
