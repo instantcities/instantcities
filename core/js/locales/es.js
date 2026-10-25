@@ -65,6 +65,7 @@ export default {
   "backToMenu": "Menú principal",
   "site.back": "← Volver al sitio web",
   "pause.site": "Volver al sitio web",
+  "pause.siteShort": "Sitio web",
   "site.chip": "🌐 Sitio web",
   "made.by": "Hecho con ❤️ por",
   "legal.privacy": "Privacidad",

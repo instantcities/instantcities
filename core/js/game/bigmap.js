@@ -637,6 +637,7 @@ function renderIndex() {
 }
 
 export function showBigTab(tab) {
+  if (!big) return; // the map is closed (its tabs are hidden with it)
   const side = sideIndex(), index = side || (tab === 'index' && roaming() && !questing());
   big.tab = index && !side ? 'index' : 'map';
   $('bigTabs').classList.toggle('hidden', !roaming() || questing()); // a race or a quest: just the map
