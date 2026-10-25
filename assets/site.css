@@ -216,6 +216,24 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .subnav .play.small { flex: none; padding: 8px 14px; }
 main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
 
+/* The home page's cities: a compact list on the left, each row a link to the city's page, beside
+   the map of Europe, which stays in view as the list scrolls by (_layouts/home.html) */
+.city-map-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 36px; align-items: start; }
+.city-list { list-style: none; border-top: 1px solid var(--line); }
+.city-list a {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: center;
+  padding: 11px 10px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; transition: background .12s;
+}
+.city-list a:hover, .city-list a.lit { background: var(--soft); color: var(--ink); }
+.city-name b { font-size: 17px; }
+.city-name small { color: var(--muted); font-size: 13px; margin-left: 4px; }
+.city-line { grid-column: 1; font-size: 14px; color: #555; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.city-list .go { grid-column: 2; grid-row: 1 / span 2; color: var(--muted); transform: rotate(-90deg); }
+.city-list a:hover .go, .city-list a.lit .go { color: var(--ink); }
+.city-map-side { position: sticky; top: 80px; }
+.europe .pin.lit circle:not(.halo) { r: 9; fill: #e5484d; }
+.europe .pin.lit text { fill: #e5484d; }
+
 /* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
 .map { border-top: 1px solid var(--line); }
 .europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }
@@ -310,6 +328,8 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
   .europe { overflow-x: auto; }
   .landmark-body { grid-template-columns: 1fr; }
+  .city-map-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .city-map-side { position: static; }
   .europe svg { width: 760px; max-width: none; }
   .live-hero { min-height: 82vh; }
   main > section { padding-block: 44px; }

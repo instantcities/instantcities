@@ -15,7 +15,7 @@
     {%- when 'b' %}{% assign tx = at[0] %}{% assign ty = at[1] | plus: 22 %}
     {%- else %}{% assign tx = at[0] | plus: 11 %}{% assign ty = at[1] | plus: 5 %}
     {%- endcase %}
-    <a href="/{{ c.id }}/" class="pin side-{{ side }}{% if c.soon %} soon{% endif %}">
+    <a href="/{{ c.id }}/" class="pin side-{{ side }}{% if c.soon %} soon{% endif %}" data-city="{{ c.id }}">
       <circle class="halo" cx="{{ at[0] }}" cy="{{ at[1] }}" r="14"/><circle cx="{{ at[0] }}" cy="{{ at[1] }}" r="6"/>
       <text x="{{ tx }}" y="{{ ty }}">{{ c.name }}</text>
     </a>

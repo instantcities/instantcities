@@ -5,7 +5,6 @@ description: "Free 3D browser games set in the historic centres of European citi
 tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
-map_title: "On the map"
 live_city: ghent # whose tour plays behind the home page's hero
 live_poster: /assets/img/ghent-tour.jpg # the tour's first shot, until it plays
 live_caption: "Live: the tour of Ghent"
