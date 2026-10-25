@@ -1,6 +1,6 @@
 :root {
   --ink: #1d1a17;
-  --paper: #fffaf0;
+  --paper: #fff;
   --gold: #ffd23f;
   /* Ghent's own light blue, for buttons and whatever is picked or focused in the menus */
   --accent: #009de0;
@@ -9,7 +9,11 @@
      page can set all of these its own way (style in its page.json) */
   --sky: #cfe8f5;
   --skyline: #86bfe0;
-  --glass: rgba(255, 250, 240, 0.5);
+  --glass: rgba(255, 255, 255, 0.72);
+  /* the menus' hairlines, quiet text and typeface, as on the site (assets/site.css) */
+  --line: rgba(17, 17, 17, 0.14);
+  --muted: #666;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -85,12 +89,12 @@ body.booting #menu { visibility: hidden; }
 @keyframes thigh { 0% { transform: rotate(0.0deg); } 4.17% { transform: rotate(-3.1deg); } 8.33% { transform: rotate(-6.3deg); } 12.5% { transform: rotate(-9.8deg); } 16.67% { transform: rotate(-13.7deg); } 20.83% { transform: rotate(-18.0deg); } 25% { transform: rotate(-23.1deg); } 29.17% { transform: rotate(-28.2deg); } 33.33% { transform: rotate(-34.6deg); } 37.5% { transform: rotate(-41.0deg); } 41.67% { transform: rotate(-47.9deg); } 45.83% { transform: rotate(-53.9deg); } 50% { transform: rotate(-58.4deg); } 54.17% { transform: rotate(-61.0deg); } 58.33% { transform: rotate(-60.6deg); } 62.5% { transform: rotate(-58.0deg); } 66.67% { transform: rotate(-53.9deg); } 70.83% { transform: rotate(-47.8deg); } 75% { transform: rotate(-40.7deg); } 79.17% { transform: rotate(-32.5deg); } 83.33% { transform: rotate(-24.1deg); } 87.5% { transform: rotate(-14.9deg); } 91.67% { transform: rotate(-6.1deg); } 95.83% { transform: rotate(1.1deg); } 100% { transform: rotate(0.0deg); } }
 @keyframes shin { 0% { transform: rotate(0.0deg); } 4.17% { transform: rotate(11.8deg); } 8.33% { transform: rotate(23.5deg); } 12.5% { transform: rotate(35.2deg); } 16.67% { transform: rotate(46.7deg); } 20.83% { transform: rotate(57.7deg); } 25% { transform: rotate(68.2deg); } 29.17% { transform: rotate(77.0deg); } 33.33% { transform: rotate(85.1deg); } 37.5% { transform: rotate(90.8deg); } 41.67% { transform: rotate(95.3deg); } 45.83% { transform: rotate(96.3deg); } 50% { transform: rotate(94.6deg); } 54.17% { transform: rotate(91.0deg); } 58.33% { transform: rotate(84.6deg); } 62.5% { transform: rotate(76.3deg); } 66.67% { transform: rotate(67.1deg); } 70.83% { transform: rotate(56.6deg); } 75% { transform: rotate(46.1deg); } 79.17% { transform: rotate(34.2deg); } 83.33% { transform: rotate(22.8deg); } 87.5% { transform: rotate(10.8deg); } 91.67% { transform: rotate(-0.4deg); } 95.83% { transform: rotate(-8.3deg); } 100% { transform: rotate(0.0deg); } }
 @keyframes foot { 0% { transform: rotate(-0.0deg); } 4.17% { transform: rotate(-8.8deg); } 8.33% { transform: rotate(-17.3deg); } 12.5% { transform: rotate(-25.5deg); } 16.67% { transform: rotate(-33.1deg); } 20.83% { transform: rotate(-39.7deg); } 25% { transform: rotate(-45.0deg); } 29.17% { transform: rotate(-48.8deg); } 33.33% { transform: rotate(-50.5deg); } 37.5% { transform: rotate(-49.8deg); } 41.67% { transform: rotate(-47.4deg); } 45.83% { transform: rotate(-42.3deg); } 50% { transform: rotate(-36.2deg); } 54.17% { transform: rotate(-30.0deg); } 58.33% { transform: rotate(-24.0deg); } 62.5% { transform: rotate(-18.3deg); } 66.67% { transform: rotate(-13.2deg); } 70.83% { transform: rotate(-8.8deg); } 75% { transform: rotate(-5.4deg); } 79.17% { transform: rotate(-1.7deg); } 83.33% { transform: rotate(1.3deg); } 87.5% { transform: rotate(4.1deg); } 91.67% { transform: rotate(6.5deg); } 95.83% { transform: rotate(7.1deg); } 100% { transform: rotate(-0.0deg); } }
-.loader-title { font-family: 'Lilita One', system-ui, sans-serif; font-size: 34px; color: var(--ink); }
-.loader-steps { list-style: none; display: flex; flex-direction: column; gap: 6px; min-width: 280px; font-weight: 800; font-size: 16px; }
+.loader-title { font-family: var(--sans); font-size: 34px; color: var(--ink); }
+.loader-steps { list-style: none; display: flex; flex-direction: column; gap: 6px; min-width: 280px; font-family: var(--sans); font-weight: 500; font-size: 15px; }
 .loader-steps li { display: flex; align-items: center; gap: 10px; opacity: 0.35; transition: opacity 0.2s; }
 .loader-steps li.now, .loader-steps li.done { opacity: 1; }
 .loader-steps small { margin-left: auto; padding-left: 12px; font-size: 13px; opacity: 0.6; font-variant-numeric: tabular-nums; }
-.loader-steps .mark { flex: none; width: 16px; height: 16px; border-radius: 50%; border: 3px solid currentColor; }
+.loader-steps .mark { flex: none; width: 16px; height: 16px; border-radius: 50%; border: 2px solid currentColor; }
 .loader-steps li.now .mark { border-right-color: transparent; animation: spin 0.8s linear infinite; }
 .loader-steps li.done .mark { border: none; background: var(--ink); position: relative; }
 .loader-steps li.done .mark::after { content: '✓'; position: absolute; inset: 0; color: var(--paper); font-size: 11px; line-height: 16px; text-align: center; }
@@ -432,8 +436,8 @@ kbd {
   position: relative;
   /* See-through, so the flight over the city behind it stays visible. */
   background: var(--glass);
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
 }
 /* Back to the landing page: floats at the very top left of the page, above the card. */
 .site-link {
@@ -517,7 +521,7 @@ a.chip { text-decoration: none; }
 .pausetools { align-items: stretch; }
 .pausetools .chip { line-height: 1.2; }
 #pause .chip, #pause .start { display: inline-flex; align-items: center; gap: 8px; }
-#pause .start { font-size: 22px; }
+#pause .start { font-size: 18px; }
 #pause .ic { width: 1.15em; height: 1.15em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 #pause .start .ic { stroke-width: 2.5; }
 .chip.on { background: var(--accent); color: #fff; }
@@ -602,10 +606,10 @@ a.chip { text-decoration: none; }
 .winner { margin: 14px 0 12px; font-weight: 900; font-size: 22px; }
 .duel { margin: 12px 0 16px; font-weight: 800; color: #6b5a48; }
 
-#resultTable { width: 100%; border-collapse: separate; border-spacing: 0 6px; font-weight: 800; font-size: 20px; }
-#resultTable td { padding: 8px 12px; background: #fff; border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink); }
-#resultTable td:first-child { border-left: 3px solid var(--ink); border-radius: 12px 0 0 12px; width: 60px; font-size: 26px; }
-#resultTable td:last-child { border-right: 3px solid var(--ink); border-radius: 0 12px 12px 0; text-align: right; font-variant-numeric: tabular-nums; }
+#resultTable { width: 100%; border-collapse: separate; border-spacing: 0 6px; font-weight: 600; font-size: 18px; }
+#resultTable td { padding: 8px 12px; background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+#resultTable td:first-child { border-left: 1px solid var(--line); border-radius: 6px 0 0 6px; width: 60px; font-size: 22px; font-weight: 700; }
+#resultTable td:last-child { border-right: 1px solid var(--line); border-radius: 0 6px 6px 0; text-align: right; font-variant-numeric: tabular-nums; }
 #resultTable tr.human td { background: var(--accent-soft); }
 #resultTable td.name { text-align: left; }
 .dot { display: inline-block; width: 16px; height: 16px; margin-right: 10px; border: 2px solid var(--ink); border-radius: 50%; vertical-align: -1px; }
@@ -961,13 +965,13 @@ a.chip { text-decoration: none; }
 #minimap { cursor: zoom-in; }
 #bigmap { flex-direction: column; align-items: center; justify-content: center; gap: 10px; z-index: 12; }
 #bigCanvas {
-  background: rgba(29, 26, 23, 0.75);
-  border: 3px solid var(--ink);
-  border-radius: 14px;
+  background: rgba(17, 17, 17, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
   cursor: crosshair;
   touch-action: none;
 }
-#bigmap .bighint { margin: 0; color: #fff; font-weight: 900; text-shadow: 0 2px 0 var(--ink); text-align: center; }
+#bigmap .bighint { margin: 0; color: #fff; font-weight: 600; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); text-align: center; }
 #bigTop { display: contents; }
 #bigClose { position: absolute; top: max(16px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); }
 #bigAsk {
@@ -977,10 +981,10 @@ a.chip { text-decoration: none; }
   text-align: center;
   white-space: nowrap;
   color: var(--ink);
-  background: #fffaf0;
-  border: 3px solid var(--ink);
-  border-radius: 14px;
-  box-shadow: 0 4px 0 var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 #bigAsk .btnrow { margin: 6px 0 0; gap: 6px; justify-content: center; }
 
@@ -1004,10 +1008,10 @@ a.chip { text-decoration: none; }
   box-sizing: border-box;
   padding: 12px;
   color: var(--ink);
-  background: #fffaf0;
-  border: 3px solid var(--ink);
-  border-radius: 14px;
-  box-shadow: 0 4px 0 var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 #bigSearch {
   font: 800 16px 'Nunito', system-ui, sans-serif;
@@ -1019,7 +1023,7 @@ a.chip { text-decoration: none; }
   outline: none;
 }
 #bigList { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
-#bigList h3 { margin: 10px 4px 4px; font: 400 18px 'Lilita One', system-ui, sans-serif; }
+#bigList h3 { margin: 12px 10px 4px; font: 600 12px var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 #bigList h3:first-child { margin-top: 2px; }
 #bigList button {
   display: flex;
@@ -1027,20 +1031,20 @@ a.chip { text-decoration: none; }
   gap: 8px;
   width: 100%;
   padding: 6px 10px;
-  font: 800 15px 'Nunito', system-ui, sans-serif;
+  font: 500 15px var(--sans);
   text-align: left;
   color: var(--ink);
   background: none;
   border: 0;
-  border-radius: 10px;
+  border-radius: 6px;
   cursor: pointer;
 }
 #bigList button:hover, #bigList button.focus { background: var(--accent-soft); }
-#bigList .listask { display: flex; align-items: center; gap: 8px; margin: 0 0 4px 34px; font: 800 14px 'Nunito', system-ui, sans-serif; }
+#bigList .listask { display: flex; align-items: center; gap: 8px; margin: 0 0 4px 34px; font: 500 14px var(--sans); }
 #bigList .listask span { flex: 1; }
-#bigList .listask button { width: 38px; justify-content: center; padding: 4px 0; font-size: 18px; border: 3px solid var(--ink); border-radius: 999px; background: #fff; }
-#bigList .listask .yes { background: #ffd640; }
-#bigList .none { margin: 12px 4px; font-weight: 800; color: #8a7a68; }
+#bigList .listask button { width: 38px; justify-content: center; padding: 4px 0; font-size: 18px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+#bigList .listask .yes { color: #fff; background: var(--accent); border-color: var(--accent); }
+#bigList .none { margin: 12px 4px; font-weight: 500; color: var(--muted); }
 /* on a wide screen the index stands beside the map, as tall as it: no tabs */
 #bigmap.side #bigTabs { display: none; }
 #bigmap.side #bigIndex { width: 300px; } /* and as tall as the map (layoutBigMap) */
@@ -1634,8 +1638,9 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
   margin: auto;
   color: var(--ink);
   background: var(--paper, #fff8ed);
-  border: 3px solid var(--ink);
-  border-radius: 24px;
+  font-family: var(--sans);
+  border: 1px solid var(--line);
+  border-radius: 10px;
   padding: 24px;
   width: min(420px, calc(100vw - 32px));
   max-height: calc(100dvh - 32px);
@@ -1644,8 +1649,8 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
 }
 #musicSettings::backdrop, #gunInfo::backdrop { background: #0008; }
 /* what car+paintball mode does, shown each time it is turned on */
-#gunInfo h2 { margin: 0 0 12px; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; }
-#gunInfo ul { margin: 0 0 18px; padding-left: 20px; font-weight: 700; line-height: 1.4; }
+#gunInfo h2 { margin: 0 0 12px; font-weight: 700; letter-spacing: -0.02em; }
+#gunInfo ul { margin: 0 0 18px; padding-left: 20px; font-weight: 400; line-height: 1.5; }
 #gunInfo li + li { margin-top: 8px; }
 #gunInfo .start { width: 100%; }
 #musicSettings h2 { margin: 20px 0; }
@@ -1655,11 +1660,11 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
   justify-content: space-between;
   gap: 24px;
   padding: 16px 0;
-  font-weight: 900;
+  font-weight: 600;
 }
 #musicSettings input { width: 24px; height: 24px; accent-color: var(--ink); }
 
-#musicSettings label small { display: block; margin-top: 4px; font-size: 12px; font-weight: 700; opacity: 0.7; }
+#musicSettings label small { display: block; margin-top: 4px; font-size: 12px; font-weight: 400; color: var(--muted); }
 
 /* the demo (?demo, core/js/demo.js): the film's words over the shot and the black between shots,
    over everything; none of the game's own buttons */
@@ -1700,6 +1705,68 @@ html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #to
 }
 #demo .close:hover { opacity: 1; }
 body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tourMusic, body.demo #tourBar, body.demo #mute, body.demo #toast { display: none !important; }
+
+/* ---------- the menus: black, white and greys like the site (assets/site.css), one plain typeface,
+   hairlines and small corners; the city's accent still marks what is picked and the start button.
+   The HUD over the game keeps its own bold look. ---------- */
+
+.overlay { font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
+#menu.overlay { background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)); }
+.overlay :is(.title, .label, .chip, .start, .arrow, .laps, .tcard b, .qcard b, .phead, .phead input, .brief-time, .site-link, .madeby, .foot, kbd) { font-family: var(--sans); }
+.overlay .card { border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18); }
+
+.overlay .title, #loader .title { font-family: var(--sans); font-weight: 800; letter-spacing: -0.04em; }
+.overlay .title, #menu .title, #loader .title { color: var(--ink); -webkit-text-stroke: 0; text-shadow: none; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; }
+.overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
+.overlay .title .beta, #loader .title .beta {
+  vertical-align: 0.9em; margin-left: 8px; padding: 3px 7px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted);
+  background: none; border: 1px solid currentColor; border-radius: 4px; transform: none;
+}
+.overlay .tag { font-weight: 500; font-size: 16px; }
+
+.overlay .row { border-width: 1px; border-radius: 8px; }
+.overlay .label { font-weight: 600; font-size: 15px; }
+.overlay .chip { font-weight: 500; background: #fff; border: 1px solid var(--line); border-radius: 6px; transition: border-color 0.15s; }
+.overlay .chip:hover { border-color: rgba(17, 17, 17, 0.4); }
+.overlay .chip.on { color: #fff; background: var(--accent); border-color: var(--accent); }
+.overlay .chip.copied { border-color: #2e9d57; }
+.overlay .arrow { line-height: 1; font-weight: 500; border: 1px solid var(--line); border-radius: 6px; }
+.overlay .laps, .overlay .laps b { font-weight: 600; }
+
+.overlay :is(.tcard, .qcard) { background: #fff; border: 1px solid var(--line); border-radius: 8px; transition: border-color 0.15s; }
+.overlay :is(.tcard, .qcard):hover { border-color: rgba(17, 17, 17, 0.4); }
+.overlay :is(.tcard, .qcard).on { background: var(--accent); border-color: var(--accent); box-shadow: none; }
+.overlay :is(.tcard, .qcard) b { font-weight: 600; letter-spacing: -0.01em; }
+.overlay :is(.tcard, .qcard) small { font-weight: 500; color: var(--muted); }
+.overlay :is(.tcard, .qcard).on small { color: rgba(255, 255, 255, 0.8); }
+.overlay .qcard.won { border-color: #2e9e4f; }
+.overlay .qcard.won::after { top: -7px; right: -7px; width: 20px; height: 20px; font-size: 12px; line-height: 20px; box-shadow: none; }
+.overlay .gunmode { border: 1px solid var(--line); border-radius: 6px; box-shadow: none; }
+
+.overlay .start { font-weight: 600; letter-spacing: -0.01em; border: 1px solid var(--accent); border-radius: 6px; box-shadow: none; animation: none; transition: filter 0.15s; }
+.overlay .start:hover { filter: brightness(0.92); }
+.overlay .start.alt { color: var(--ink); background: #fff; border-color: var(--line); }
+#menu .start.focus, #pause .psel { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* the player cards: a hairline in the player's colour, a plain header (black with one player) */
+#menu .pcol, .solo #menu .pcol { border-width: 1px; border-radius: 8px; box-shadow: none; }
+.solo #menu .pcol { border-color: var(--line); }
+.overlay .phead { padding: 5px 0; font-weight: 600; font-size: 14px; letter-spacing: 0.01em; -webkit-text-stroke: 0; }
+.overlay .phead input { font-weight: 600; border-width: 1px; border-radius: 4px; }
+.overlay :is(.ppick, .pcolor) { border-radius: 6px; }
+.overlay :is(.ppick, .pcolor).focus { box-shadow: 0 0 0 1px var(--ink); }
+.overlay :is(.pcolor b, .pmount b) { font-weight: 600; }
+.overlay .pcol .pkeys { font-weight: 500; color: var(--muted); }
+.overlay .dot { border-width: 1px; }
+.overlay kbd { font-weight: 600; border-width: 1px; border-bottom-width: 2px; border-radius: 4px; }
+
+.overlay :is(.madeby, .foot), .overlay .madeby .legal { font-weight: 500; color: var(--muted); }
+.overlay .site-link { font-weight: 500; color: #fff; -webkit-text-stroke: 0; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
+.overlay .brief-story { font-weight: 400; color: #444; }
+.overlay .brief-time { font-weight: 700; letter-spacing: -0.01em; }
+.overlay .winner { font-weight: 700; }
+.overlay .duel { font-weight: 500; color: var(--muted); }
 
 /* ---------- professional style (the menu's style choice): mostly white and navy, a serious serif ---------- */
 
