@@ -312,6 +312,7 @@
   lead: "All of Ghent inside the R40 ring road in 3D, every building at its real height."
   card: "About 40,000 buildings at their real height, from the Belfry to the Overpoort."
   image: menu
+  poster: ghent-tour # behind the hero until the tour plays: its first shot
   hero_alt: "The Instant Gent start screen: pick your animal and your mode"
   features:
     - { icon: city, title: "The real Ghent", text: "About 40,000 buildings from OpenStreetMap, each at its measured height. The Belfry stands 95 metres tall; the Gravensteen, Stadshal and St Bavo's are drawn to measure." }

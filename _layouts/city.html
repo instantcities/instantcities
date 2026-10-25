@@ -55,7 +55,7 @@
     </section>
     {%- else %}
     <section class="hero home-hero live-hero">
-      {%- if C.image %}{% assign poster = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign poster = nil %}{% endif %}
+      {%- assign still = C.poster | default: C.image %}{% if still %}{% assign poster = '/assets/img/' | append: still | append: '.jpg' %}{% else %}{% assign poster = nil %}{% endif %}
       {% include live.html city=C.id poster=poster %}
       <div class="hero-text">
         <h1>{{ C.game }} <span class="beta">BETA</span></h1>
