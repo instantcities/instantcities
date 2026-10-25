@@ -13,8 +13,9 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs rome`
 //   inside.js        the buildings you can go into: the Pantheon and the Sistine Chapel, their rooms in inside/ (hand-written)
 //   colosseo.js      the Colosseo, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
-// No sights or fronts yet, and one monument, the Colosseo: empty lists for the rest, and for what
-// only Ghent has.
+//   arco.js          the Arco di Costantino beside it, modelled the same way
+// No sights or fronts yet, and two monuments, the Colosseo and the Arco di Costantino: empty lists
+// for the rest, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -23,9 +24,10 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { COLOSSEO } from './colosseo.js';
+import { ARCO } from './arco.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...COLOSSEO];
+export const MONUMENTS = [...COLOSSEO, ...ARCO];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

@@ -11,16 +11,20 @@
 //                    `node tools/osm_map.mjs barcelona`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs barcelona`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs barcelona`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   colom.js         the Monument a Colom, modelled by hand on core/js/arcade.js, in place of the map's rings of it
+// No sights or fronts yet, and one monument, the Monument a Colom: empty lists for the rest, and
+// for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { COLOM } from './colom.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...COLOM];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

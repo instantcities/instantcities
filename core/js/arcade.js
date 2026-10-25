@@ -1,6 +1,7 @@
-// Walls, arcades and mouldings laid along a path: the shared parts of the landmarks built of rows of
-// arches (the Colosseo's rings now; St Peter's colonnade, the Procuratie, an aqueduct later). Every
-// piece goes into a Kit (kit.js), so a whole landmark is one mesh.
+// Walls, arcades and mouldings laid along a path: the shared parts of the landmarks modelled by hand
+// in the cities without a 3D scan (the Colosseo's rings, the Arco di Costantino, the Loggia dei
+// Lanzi, the towers' walls with their arches and windows; see docs/landmarks.md). Every piece goes
+// into a Kit (kit.js), so a whole landmark is one mesh.
 //
 // A path is a line on the ground in the model's own metres: `length`, and at(s) giving the point s
 // metres along it, { x, z, tx, tz } (tx, tz the way it runs) with the normal n = (tz, -tx) to its
@@ -36,6 +37,20 @@ export function ellipsePath(a, b) {
 export function linePath(x0, z0, x1, z1) {
   const L = Math.hypot(x1 - x0, z1 - z0), tx = (x1 - x0) / L, tz = (z1 - z0) / L;
   return { length: L, closed: false, at: s => ({ x: x0 + tx * s, z: z0 + tz * s, tx, tz }) };
+}
+
+// The four sides of a rectangle hx by hz either side of the origin, each a straight path running
+// with the outside to its right, from local -z round by +x: the walls of a tower. The two sides
+// along z are `inset` shorter at both ends, so walls that thick do not overlap at the corners.
+export function square(hx, hz = hx, inset = 0) {
+  return [linePath(-hx, -hz, hx, -hz), linePath(hx, -hz + inset, hx, hz - inset), linePath(hx, hz, -hx, hz), linePath(-hx, hz - inset, -hx, -hz + inset)];
+}
+
+// the n sides of a regular polygon r from the origin to its corners, its first corner at angle
+// `start` from +x towards +z, each side a straight path running with the outside to its right
+export function polygon(r, n, start = 0) {
+  const at = k => [r * Math.cos(start + (k / n) * 2 * Math.PI), r * Math.sin(start + (k / n) * 2 * Math.PI)];
+  return Array.from({ length: n }, (_, k) => linePath(...at(k), ...at(k + 1)));
 }
 
 // the point at (s, o, y)
@@ -125,6 +140,17 @@ export function archRing(s, w, y0, y1, n = 10) {
   for (let k = 1; k < n; k++) ring.push([s + r * Math.cos((k / n) * Math.PI), spring + r * Math.sin((k / n) * Math.PI)]);
   ring.push([s - r, spring]);
   return ring;
+}
+
+// a pointed (Gothic) arch's opening as a ring in (s, y): w wide, from y0 to its point at y1, each
+// side an arc of radius r times its width (1: equilateral, more: sharper)
+export function pointedRing(s, w, y0, y1, r = 1, n = 8) {
+  const R = r * w, cx = R - w / 2, rise = Math.sqrt(R * R - cx * cx), spring = Math.max(y0, y1 - rise), top = Math.acos(cx / R);
+  const right = Array.from({ length: n }, (_, k) => {
+    const a = (k / n) * top;
+    return [s - cx + R * Math.cos(a), spring + R * Math.sin(a)];
+  });
+  return [[s - w / 2, y0], [s + w / 2, y0], ...right, [s, spring + rise], ...right.slice().reverse().map(([a, b]) => [2 * s - a, b])];
 }
 
 // A column standing against the wall at (s, o) from y0 to y1, r thick, in one of the orders: a
@@ -240,3 +266,14 @@ function broken(kit, path, { s0, s1, sc, y0, h, w, sill, crown, o, depth, hex, t
   if (b < pts.length - 1) wall(kit, path, [[s0, ys], [pts.at(-1)[0], ys], ...pts.slice(b + 1, -1).reverse(), cross(b), [s0, tl]], opts);
   else wall(kit, path, [[s0, ys], [sc - w / 2, ys], [sc - w / 2, Math.max(floor, cut(sc - w / 2))], [s0, tl]], opts);
 }
+
+// A monument's outline in the city's metres: points [u, v] of the model's own (u along its x, v
+// along its z) placed at (x, z) and turned as the game turns it (its `turn`), as a flat ring for
+// its `area` and `foot`.
+export function onMap(x, z, turn, pts) {
+  const c = Math.cos(turn), s = Math.sin(turn);
+  return pts.flatMap(([u, v]) => [x + u * c + v * s, z - u * s + v * c]).map(q => Math.round(q * 10) / 10);
+}
+
+// a rectangle from (u0, v0) to (u1, v1), as points for onMap
+export const rect = (u0, v0, u1, v1) => [[u0, v0], [u1, v0], [u1, v1], [u0, v1]];
