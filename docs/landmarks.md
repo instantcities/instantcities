@@ -41,3 +41,20 @@ no `MAPILLARY_TOKEN` on hand, so with a token the Mapillary photos can sharpen t
   with a monument's `reach`). The two stations still build their whole model when
   `ghent/stations.js` is imported, as their `area` and `foot` come out of the same build. Split
   the outlines from the geometry, so the stations' meshes wait until they come into sight too.
+
+## The other cities' landmarks
+
+The other cities have no open 3D scan like Gent in 3D, so their landmarks are modelled by hand, the
+way the Colosseo is (`rome/colosseo.js`): a monument in the city's `MONUMENTS`, with the map's
+pieces of it under its `area`, its outline as its `foot`, and a `reach` so it goes up only when it
+comes into sight. `core/js/arcade.js` has the parts that come back in landmark after landmark:
+
+- a path (`ellipsePath`, `linePath`), with everything placed along it in (s, o, y): metres along
+  it, out from it and up. Rings that are offsets of one path keep their bays in line.
+- `wall`: a wall along the path with holes cut through it, `sweep`: a moulding, a slab or a slope
+  of seats along it, `fin`: a wall across it, `column`: a column in one of the orders.
+- `arcade`: bays of arches in storeys, with their columns, entablatures, attic windows and
+  brackets, and `stand` for a ruin (storeys gone, or broken off through their arches).
+
+Next in line for it: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San
+Marco, the Arena of Verona, the Roman theatre of Lecce.
