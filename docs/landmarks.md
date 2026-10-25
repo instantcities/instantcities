@@ -68,6 +68,15 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Rome | Colosseo | `rome/colosseo.js` | bump into its outer wall |
 | Rome | Arco di Costantino | `rome/arco.js` | go through its three arches |
 | Florence | Loggia dei Lanzi | `florence/loggia.js` | bump into it (it stands on its steps) |
+| Florence | Santa Maria del Fiore (the Duomo) | `florence/duomo.js` | bump into it |
+| Florence | Campanile di Giotto | `florence/campanile.js` | bump into it |
+| Florence | Battistero di San Giovanni | `florence/battistero.js` | bump into it |
+| Florence | Palazzo Vecchio and its tower | `florence/palazzo-vecchio.js` | bump into it |
+| Florence | Uffizi | `florence/uffizi.js` | ride up the Piazzale between its wings, bump into the portico's columns |
+| Florence | Ponte Vecchio | `florence/ponte-vecchio.js` | ride over it between the shops |
+| Florence | Santa Croce and its bell tower | `florence/santa-croce.js` | bump into it, the tower and Dante |
+| Florence | Santa Maria Novella and its bell tower | `florence/santa-maria-novella.js` | bump into it |
+| Florence | Porcellino | `florence/porcellino.js` | bump into his plinth |
 | Berlin | Brandenburger Tor | `berlin/tor.js` | go through its five passages |
 | Venice | Campanile di San Marco and the Loggetta | `venice/campanile.js` | bump into both |
 | Copenhagen | Rundetårn | `copenhagen/rundetaarn.js` | bump into it |
@@ -81,6 +90,19 @@ They were drawn from their measurements and from memory of photos, without Mapil
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+
+Florence's marble churches share `florence/marble.js` on top of `arcade.js`: a map outline's sides as
+paths, the green frames of the marble panels, Gothic and round windows laid on a wall's face, blocks
+raised on an outline, octagonal shells (the Duomo's dome, the Baptistery's roof) and pitched roofs.
+Open there:
+
+- The Arno runs only 2.6 m under the street in the game, so the Ponte Vecchio's three arches show as
+  a low band of dark openings between the cutwaters. Lowering the river under the bridge (a map fix
+  of its own) would let them stand at their real height of some 10 m.
+- The Palazzo Vecchio's wings behind Arnolfo's block and the deep parts of the Uffizi's outline get
+  flat roofs of tiles; their real roofs are hipped, wing by wing.
+- The Loggia del Mercato Nuovo behind the Porcellino is still the map's closed block; it is an open
+  loggia of twenty columns.
 
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
 the Arena of Verona, the Roman theatre of Lecce, the Pont Saint-Bénezet in Avignon (its arches
