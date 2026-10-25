@@ -37,8 +37,10 @@ for (const id of cities) {
   fs.mkdirSync(play, { recursive: true });
   // style: CSS for the page's head, e.g. the city's colours (the variables at the top of
   // core/style.css); loader_jokes: funny lines about the city (a list, or one per language), 2 of which, at random, name the
-  // loading screen's last two steps; loader: the scene on the loading screen, from <city>/loader.html
+  // loading screen's last two steps; loader: the scene on the loading screen, from <city>/loader.html;
+  // city: the name without "Instant", big in the menu's title under a small "Instant Cities"
   const page = { style: '', site: SITE, loader_jokes: [], ...JSON.parse(fs.readFileSync(path.join(dir, 'page.json'), 'utf8')), loader: fs.readFileSync(path.join(dir, 'loader.html'), 'utf8') };
+  page.city ??= page.name.replace(/^Instant /, '');
   const pages = [['game.html', 'index.html'], ['dev.html', 'dev.html'], ['places.html', 'places.html']];
   if (fs.existsSync(path.join(dir, 'spots.json'))) pages.push(['facade-lab.html', 'facade-lab.html']);
   for (const [from, to] of pages) {

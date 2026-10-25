@@ -119,9 +119,9 @@ export const local = obj => (typeof obj === 'string' ? obj : obj[lang] ?? obj.en
 // Fill every element marked data-i18n (text) or data-i18n-html (markup).
 export function applyStatic(root = document) {
   root.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
-  // the game's name, in front of its BETA badge, when the city has its own
+  // the city's name (the game's without "Instant"), under "Instant Cities", when the city has its own
   if (WORDS) {
-    root.querySelectorAll('.title').forEach(el => { if (el.firstChild?.nodeType === 3) el.firstChild.nodeValue = `${t('title')} `; });
+    root.querySelectorAll('.title .cityname').forEach(el => { el.textContent = t('title').replace(/^Instant /, ''); });
     document.title = t('title');
   }
   root.querySelectorAll('[data-i18n-html]').forEach(el => { el.innerHTML = t(el.dataset.i18nHtml); });
