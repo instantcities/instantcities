@@ -60,7 +60,7 @@
     }
   </script>
   <style>:root { --paper: #fdf6ea; --accent: #a8432a; --accent-soft: #f4dccf; --gold: #e8b23a; --sky: #f6e3c8; --skyline: #d9a77a; --glass: rgba(253, 246, 234, 0.72); } .tag { color: #7a3a24; }</style>
-  <!-- ?watch, the tour on its own for the site's pages (js/main.js): marked before anything shows -->
+  <!-- ?watch, the tour on its own for the site's pages (js/game/settings.js): marked before anything shows -->
   <script>
     const watch = new URLSearchParams(location.search).get('watch');
     if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
@@ -349,9 +349,10 @@
       <div class="hidden" id="pauseSiteRow">
         <a class="chip site-chip" id="pauseSiteBtn" href="../"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg><span data-i18n="pause.site"></span></a>
       </div>
-      </div>
       <button class="chip pause-close" id="pauseCloseBtn" aria-label="✕">✕</button>
-      <div class="btnrow pausetools">
+      </div>
+      <p class="pause-title" data-i18n="paused"></p>
+      <div class="btnrow pausetools" id="pauseTools">
         <button class="chip" id="pauseMapBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="pause.map"></span></button>
         <button class="chip" id="pauseShareBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span data-i18n="pause.share"></span></button>
         <button class="chip" id="pauseSettingsBtn" aria-expanded="false"><span data-i18n="pause.settings"></span> <span class="caret" aria-hidden="true">▾</span></button>

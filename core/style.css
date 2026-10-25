@@ -587,9 +587,30 @@ a.chip { text-decoration: none; }
 #pauseCard { position: relative; padding: 12px 28px 24px; }
 #pauseCard .btnrow { margin-top: 12px; }
 #pauseCard .btnrow:last-child { margin-top: 22px; }
-.pause-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-right: 34px; margin: 0 -14px 18px; }
+/* Along the top, on one line however narrow the screen: the start menu, back to the website (for who
+   came from it) and ✕ at the end; a name too long for its room ends in "…". Under it the word Paused,
+   and then the map, share and settings on one line the same way. */
+.pause-nav { display: flex; align-items: center; gap: 8px; margin: 0 -14px; }
+.pause-nav > *, #pauseSiteRow > .chip, #pauseTools > .chip { min-width: 0; }
+#pauseSiteRow { display: flex; }
 .pause-nav .chip, .pause-close { font-size: 14px; padding: 4px 12px; }
-.pause-close { position: absolute; top: 12px; right: 14px; }
+.pause-close { flex: none; margin-left: auto; }
+#pause :is(.pause-nav, #pauseTools) .chip { max-width: 100%; overflow: hidden; white-space: nowrap; }
+#pause :is(.pause-nav, #pauseTools) .chip > span:not(.caret) { overflow: hidden; text-overflow: ellipsis; }
+#pause .caret { flex: none; }
+#pause :is(.pause-nav, #pauseTools) .chip > span:not(.caret) { min-width: 0; }
+.pause-title { margin: 14px 0 -2px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+#pauseCard #pauseTools { flex-wrap: nowrap; gap: 8px; }
+#pauseTools .chip { padding: 5px 12px; }
+/* short names never shrink: back to the website and the settings give way */
+:is(#pauseTitleBtn, #pauseMapBtn, #pauseShareBtn) { flex: none; }
+@media (max-width: 760px) {
+  #pauseCard { padding-left: 16px; padding-right: 16px; }
+  .pause-nav { margin: 0 -4px; gap: 6px; }
+  .pause-nav .chip, .pause-close { padding: 4px 10px; }
+  #pauseTools .chip { padding: 5px 10px; font-size: 15px; }
+  #pause :is(.pause-nav, #pauseTools) .chip { gap: 6px; }
+}
 #pauseCard .btnrow:last-child { flex-wrap: nowrap; }
 #pauseCard .btnrow:last-child .start { flex: 1 1 0; min-width: 0; padding: 10px 12px; }
 .start.alt { color: var(--ink); background: #fff; }
@@ -1740,7 +1761,7 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 /* ---------- the menus: black, white and greys like the site (assets/site.css), one plain typeface,
    thin borders and small corners. What is picked is black, the accent is dark grey in every city
    (the city's own colour stays for the HUD), and the emoji stay grey until picked. The HUD over the
-   game keeps its own bold look. ---------- */
+   game in the same look, below. ---------- */
 
 .overlay, #musicSettings, #gunInfo { --accent: #2b2b2b; --accent-soft: #f2f2f1; }
 .overlay { --edge: rgba(17, 17, 17, 0.18); --soft: #f2f2f1; font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
@@ -1813,6 +1834,76 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .overlay #resultTable tr.human td { background: var(--soft); }
 .overlay #bigList button:hover, .overlay #bigList button.focus { background: var(--soft); }
 .overlay #bigList .listask .yes { background: #111; border-color: #111; }
+
+/* ---------- the HUD over the game, as the menus: one plain typeface, white with thin borders, small
+   corners and soft shadows instead of thick black outlines, pills and the cartoon letters. The
+   city's colour stays on the jump button and the go buttons. ---------- */
+
+:is(#menuBtn, #mute, #toast, #minimap, #streetbar, .hud, #touch, #tour) { --edge: rgba(17, 17, 17, 0.18); --lift: 0 2px 10px rgba(0, 0, 0, 0.28); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+/* the buttons and labels over the view: white, dark letters */
+#menuBtn, .solo #menuBtn, #tourSpeed, #tourMusic, #flyHud, #tourName {
+  font: 600 13px var(--sans); color: #111; background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--edge); border-radius: 6px; box-shadow: var(--lift);
+}
+#tourName { font-size: 17px; letter-spacing: -0.01em; padding: 4px 14px; }
+#flyHud { font-size: 15px; }
+#mute, #toast { font: 600 14px var(--sans); color: #fff; background: rgba(17, 17, 17, 0.88); border: 0; border-radius: 6px; box-shadow: var(--lift); }
+:is(#tourBar, #demoBar) button::after { font: 600 12px var(--sans); border-radius: 4px; }
+#minimap, .solo #minimap { border: 2px solid #fff; border-radius: 6px; box-shadow: var(--lift); }
+/* the street sign under the minimap, and under it what you are doing */
+.street .now { font: 600 18px var(--sans); letter-spacing: -0.01em; color: #111; border: 1px solid var(--edge); border-radius: 6px; box-shadow: var(--lift); }
+#streetbar.duo .street .now { border: 2px solid var(--c); }
+.street .next { font-weight: 600; font-size: 13px; -webkit-text-stroke: 0; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75); }
+.who { font-weight: 700; font-size: 12px; letter-spacing: 0.08em; border-width: 1px; border-radius: 4px; }
+
+/* the big words of a race: place, laps, time, the countdown and what just happened, heavy and plain
+   with a soft shadow for the sky behind them */
+:is(.place, .stats, .cd, .msg, .qinfo, .qfries, #tourWelcome b) { font-family: var(--sans); font-weight: 800; letter-spacing: -0.03em; -webkit-text-stroke: 0; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55); }
+.qarrow, .qhp .heart { -webkit-text-stroke: 0; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); }
+.place .suf { font-weight: 700; }
+.slot { border: 2px solid rgba(17, 17, 17, 0.8); border-radius: 8px; }
+.slot.next { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #111; }
+.qhp i { border-width: 2px; border-radius: 2px; }
+.lmp { font-weight: 600; border-radius: 4px; }
+.lmp b { font-weight: 700; }
+
+/* the cards: the sight, the tour's, the tram's and the door's */
+:is(.sight, #tourCard, .tramcard, .doorcard) { border: 2px solid #111; border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
+#tourCard.paused { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 0 3px var(--gold); }
+:is(.sight, #tourCard, .tramcard, .doorcard) b, #tourTitle { font-family: var(--sans); font-weight: 700; letter-spacing: -0.02em; }
+:is(.sight-text, #tourText, .tramcard p) { font-weight: 400; color: #444; }
+:is(#tourLabel, .tramcard small, .doorcard small) { font-weight: 600; letter-spacing: 0.08em; }
+.sight-x { border: 1px solid var(--edge); border-radius: 6px; font-weight: 600; }
+.sight-x:hover { background: #111; border-color: #111; }
+.sight.mini { border-radius: 8px; }
+.sight.mini .sight-i { font: 700 22px/1 var(--sans); }
+.tram-head { font-family: var(--sans); font-weight: 800; letter-spacing: 0.06em; border-bottom-width: 2px; border-radius: 8px 8px 0 0; }
+.tram-badge { font-family: var(--sans); font-weight: 800; border-radius: 6px; text-shadow: none; }
+.tramcard.aboard, .tramcard.aboard.show { border-width: 0 0 2px; border-radius: 0; }
+.tramcard.aboard .tram-head { border-width: 2px; border-radius: 6px; }
+.doorcard kbd, .tramcard kbd { border-width: 1px; border-bottom-width: 2px; border-radius: 4px; font-family: var(--sans); font-weight: 600; }
+/* their buttons as the menus' */
+:is(.hud, #tour) .chip { font: 500 15px var(--sans); color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 6px; }
+:is(.hud, #tour) .chip:hover { border-color: #111; }
+:is(.hud, #tour) :is(.tram-go, .sight-enter) { color: #fff; background: var(--accent); border-color: var(--accent); }
+#tour .start { font: 600 18px var(--sans); letter-spacing: -0.01em; border: 2px solid var(--accent); border-radius: 6px; box-shadow: none; }
+#tourWelcome small { font-weight: 500; border-radius: 8px; }
+
+/* touch: the stick a thin ring with a white knob, the buttons squares with rounded corners */
+.stick { border: 2px solid rgba(255, 255, 255, 0.65); }
+.knob { border: 0; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35); }
+.steer-hint { font: 500 14px var(--sans); background: rgba(17, 17, 17, 0.55); border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 6px; }
+.tbtn { font-family: var(--sans); font-weight: 700; border: 0; border-radius: 14px; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35); }
+.tbtn.big { border-radius: 18px; }
+.tbtn small { font: 600 10px var(--sans); letter-spacing: 0.08em; }
+.tbtn.pressed { transform: scale(0.95); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35); }
+
+/* phones: the menu button, minimap and street sign down the left keep the corners small too */
+@media (max-width: 760px), (max-height: 560px) {
+  .solo #menuBtn { padding: 5px 8px; border: 1px solid var(--edge); border-radius: 6px; background: rgba(255, 255, 255, 0.94); }
+  .solo .street .now { padding: 4px 8px; border-width: 1px; border-radius: 6px; font-size: 14px; }
+  :is(.sight, .tramcard, .doorcard) { border-width: 2px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); }
+}
 
 /* ---------- professional style (the menu's style choice): mostly white and navy, a serious serif ---------- */
 
