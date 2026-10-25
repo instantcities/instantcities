@@ -10,7 +10,7 @@
   <nav class="nav" id="menu" aria-label="Menu">
     <a href="/"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Home</a>
     <a href="/cities/"{% if page.layout == 'cities' or page.city %} aria-current="page"{% endif %}>Cities</a>
-    <a href="/about/"{% if page.layout == 'project' %} aria-current="page"{% endif %}>About</a>
+    <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
   </nav>
   <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="Menu" data-burger>{% include icon.html name="menu" %}{% include icon.html name="close" %}</button>
 </header>

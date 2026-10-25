@@ -95,6 +95,7 @@
   <footer>
     <p class="alt"><a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
     <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
   </footer>
 
   <script>

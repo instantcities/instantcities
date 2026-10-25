@@ -1,4 +1,4 @@
-{%- comment -%} The page about the project (/about/, about/index.html): its words are the page's own content, its headings listed beside them from the page's `toc` (each an anchor and a title), with a Play button for the home page's cities (_data/home.yml) at the bottom. {%- endcomment -%}
+{%- comment -%} The page about the project (/about/, about/index.html), and the privacy and terms pages (privacy/, terms/) built the same way: its words are the page's own content, its headings listed beside them from the page's `toc` (each an anchor and a title), with a Play button for the home page's cities (_data/home.yml) at the bottom. {%- endcomment -%}
 {%- assign H = site.data.home -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
@@ -53,6 +53,7 @@
   <footer>
     <p class="alt"><a href="/">Home</a> <a href="/cities/">All cities</a> <a href="{{ H.github }}" rel="noopener">GitHub</a></p>
     <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
   </footer>
 
   <script>
