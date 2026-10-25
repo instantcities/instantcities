@@ -4000,11 +4000,12 @@ function stepHeli(r, dt, c, f = HELI) {
 // Up onto a bridge and down again. r.y is the height above the street; r.base is how high the
 // street is. Off the side of a bridge the rider drops to the ground below.
 function stepRelief(r, dt) {
-  let target = roaming() ? (world.relief?.at(r.pos.x, r.pos.z, r.base) ?? 0) : track.riseAt(r.idx);
-  // into the water, down between the quay walls (or under a bridge)
-  const bank = roaming() && target < 0.05 && world.colliders ? bankAt(world.colliders, r.pos.x, r.pos.z) : undefined;
+  let target = r.room ? 0 : roaming() ? (world.relief?.at(r.pos.x, r.pos.z, r.base) ?? 0) : track.riseAt(r.idx);
+  // into the water, down between the quay walls (or under a bridge); never inside a building, though
+  // the map's water may run on under where it stands (js/interiors.js)
+  const bank = roaming() && !r.room && target < 0.05 && world.colliders ? bankAt(world.colliders, r.pos.x, r.pos.z) : undefined;
   if (bank !== undefined) target = bank; // down the grass slope of a canal's bank, on foot still
-  else if (roaming() && target < 0.05 && world.colliders && inWater(world.colliders, r.pos.x, r.pos.z)) {
+  else if (roaming() && !r.room && target < 0.05 && world.colliders && inWater(world.colliders, r.pos.x, r.pos.z)) {
     r.water = waterLevel(world.colliders, r.pos.x, r.pos.z) ?? WATER;
     target = r.water + WADE - WATER;
   }
@@ -4040,7 +4041,7 @@ function roamAbout(r, dt) {
   }
   // in the water you take a boat of the Bootjes van Gent: slower, with a wake behind it (but not
   // in the quest of the last boat: the boat you have to catch is the one waiting at the quay)
-  r.afloat = r.base < 0.3 && !quest?.def.boat && inWater(world.colliders, r.pos.x, r.pos.z);
+  r.afloat = r.base < 0.3 && !quest?.def.boat && !r.room && inWater(world.colliders, r.pos.x, r.pos.z);
   // (in the Blaarmeersen's lake you swim, on the Watersportbaan you row)
   r.vessel = !r.afloat ? null : swimAt(world.colliders, r.pos.x, r.pos.z) ? 'swim'
     : ROWING && r.pos.x > ROWING[0] && r.pos.z > ROWING[1] && r.pos.x < ROWING[2] && r.pos.z < ROWING[3] ? 'row' : 'tour';

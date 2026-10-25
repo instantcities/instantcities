@@ -206,20 +206,24 @@ the Blaarmeersen a beach full of sunbathers and runners doing laps round the Wat
 ## Going inside
 
 Some buildings can be entered: Sint-Baafs (with Het Lam Gods), the Stadhuis and the Sint-Niklaaskerk
-in Ghent, the Louvre in Paris, the Uffizi in Florence, the British Museum in London, and the
-Pantheon and the Sistine Chapel in Rome. By the door a card names the building: ride into the door,
+in Ghent; the Louvre, Notre-Dame and the Sainte-Chapelle in Paris; the Uffizi and the Duomo in
+Florence; the British Museum, Westminster Abbey and the National Gallery in London; the Pantheon and
+the Sistine Chapel in Rome; St Stephen's Cathedral and the Kunsthistorisches Museum in Vienna; St
+Vitus Cathedral in Prague; St Mark's Basilica in Venice; the Neues Museum and the Pergamon Museum
+in Berlin; the Rijksmuseum in Amsterdam; and the Prado in Madrid. By the door a card names the building: ride into the door,
 click the card or press the item key (E / Enter, Y on a gamepad) to go in. Inside everybody goes on
 foot and at a walk, and the door inside takes you back to the street on what you rode in on. The big
-map shows each door as 🚪 and its index lists the buildings under *Go inside*, so the British Museum
-and the Sistine Chapel, which lie just off their maps, are reached from there (their doors out let
-you into the city on the way to them). `/<city>/play/?inside=<id>` goes straight in. Not during a
+map shows each door as 🚪 and its index lists the buildings under *Go inside*, so the ones that lie
+just off their maps (the British Museum, the Sistine Chapel, St Vitus, the Rijksmuseum, the Prado)
+are reached from there; their doors out let you into the city on the way to them. A sight's card
+with a *Go inside* button (Ghent's) takes you in too. `/<city>/play/?inside=<id>` goes straight in. Not during a
 quest.
 
 A big museum is a few of its key rooms joined by doorways, not its real plan: the Louvre is the Hall
 Napoléon under the pyramid, the Venus de Milo, the Daru stair with the Winged Victory, the Grande
 Galerie and the Mona Lisa's room. Each room has cards for what is in it, and in the two buildings
-that are about their ceilings (the Sistine Chapel, the Pantheon) the camera looks up when you stand
-still.
+that are about their ceilings (the Sistine Chapel, the Pantheon, the Duomo, San Marco) the camera
+looks up when you stand still.
 
 How it works (`core/js/interiors.js`): a city lists its buildings in `<city>/inside.js` (`INSIDE`:
 each its rooms' builder, its size, its door in the street, its cards, its light) and builds the rooms
@@ -228,8 +232,10 @@ nobody sees it from the streets, so going in is a teleport, with nothing to load
 be one inside and one out. Their light is put on per player's view: always daylight under a roof, no
 rain. What the rooms are built from is shared, in `core/js/inside/`: `gothic.js` (walls, vaults,
 stained glass, a cruciform church from a plan), `rooms.js` (halls with doorways, skylights, painted
-vaults, frames, plinths, ropes, glass cases, visitors), `art.js` (the famous pictures, drawn after
-the real ones), `statues.js`, `props.js` and `pictures.js`.
+vaults, frames, plinths, ropes, glass cases, visitors), `church.js` (pews, altars, rose windows, the
+floor a cruciform plan covers), `art.js` (the famous pictures, drawn after the real ones),
+`statues.js`, `props.js` and `pictures.js`. Instant Gent's `ghentinside/` page is still there, but
+the game no longer links to it.
 
 ## Missions
 
