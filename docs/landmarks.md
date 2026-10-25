@@ -75,12 +75,26 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | London | Elizabeth Tower (Big Ben) | `london/elizabeth-tower.js` | bump into it |
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
 | Paris | Tour Eiffel | `paris/eiffel.js` | ride in under it between its legs |
+| Paris | Notre-Dame | `paris/notre-dame.js` | bump into it |
+| Paris | Sainte-Chapelle | `paris/sainte-chapelle.js` | bump into it |
+| Paris | the Conciergerie's towers and the Tour de l'Horloge | `paris/conciergerie.js` | bump into them |
+| Paris | Hôtel de Ville | `paris/hotel-de-ville.js` | bump into it |
+| Paris | Centre Pompidou | `paris/pompidou.js` | bump into it |
+| Paris | Pont Neuf and Henri IV | `paris/pont-neuf.js` | ride over it (the map's deck) |
+| Paris | Palais du Louvre and the Arc du Carrousel | `paris/louvre.js` | ride into the Cour Carrée and through the Guichets |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
 
 The Eiffel Tower is not built on the arcade generator but of rods (`Kit.rod`): each leg a lattice
 box of four chords braced in crosses, following the tower's curve from its measured widths at each
 floor. Paris's map was stretched west along the Seine to the Champ de Mars for it.
+
+The palaces and big blocks (the Hôtel de Ville, the Louvre) are blocks on their outlines with
+mansards (`Kit.frustum`, a block narrowing to its top), rows of windows and pavilions under tall
+roofs. The Louvre's wings are drawn by hand rather than taken from the map, whose one outline of
+the palace fills in its courtyards. The Pont Neuf's arches show only as their crowns, as the river
+lies just 2.4 m under the streets in the game. A monument built over a street of the map (the
+Hôtel de Ville's courtyard road) names it in `streets`, so the street goes (`core/js/landmarks.js`).
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
