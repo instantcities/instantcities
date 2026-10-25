@@ -23,7 +23,8 @@ export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';
 
-export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SIGHTS } from './sights.js';
+export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 
 // The Louvre's glass pyramid in the Cour Napoléon, in place of the box the map makes of it (its
 // corners from the map), turned the way the Louvre is: its door is the way into the museum (inside.js).
