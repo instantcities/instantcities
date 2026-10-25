@@ -4,7 +4,7 @@
 // east of the city where nobody sees them from its streets (the annex): a door in the street takes
 // you there and the door inside brings you back, with no page to load, and the big map lists them
 // to teleport into. Inside, everybody goes on foot, under a roof: always daylight, never rain (the
-// look below, put on per player's view in main.js).
+// look below, put on per player's view in game/indoors.js).
 //
 // A city's INSIDE: [{
 //   id, name (a string, or { <lang>: … }), emoji,
