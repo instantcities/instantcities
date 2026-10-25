@@ -602,6 +602,12 @@ a.chip { text-decoration: none; }
 .pause-title { margin: 14px 0 -2px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 #pauseCard #pauseTools { flex-wrap: nowrap; gap: 8px; }
 #pauseTools .chip { padding: 5px 12px; }
+/* back to the website: on a narrow screen just "← Website" */
+#pauseSiteBtn .short { display: none; }
+@media (max-width: 560px) {
+  #pauseSiteBtn .long { display: none; }
+  #pauseSiteBtn .short { display: inline; }
+}
 /* short names never shrink: back to the website and the settings give way */
 :is(#pauseTitleBtn, #pauseMapBtn, #pauseShareBtn) { flex: none; }
 @media (max-width: 760px) {
