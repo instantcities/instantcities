@@ -3,6 +3,7 @@
     "id": "grote-markt",
     "name": "Grote Markt",
     "emoji": "🖐️",
+    "icon": "statue",
     "kind": "place",
     "lat": 51.2213,
     "lon": 4.3997,
@@ -10,13 +11,21 @@
     "text": [
       "The Grote Markt is the heart of old Antwerp, where the guilds built their tall houses with stepped and gilded gables in the 16th century. On the west side stands the Renaissance city hall.",
       "In the middle, Brabo throws the giant Antigoon’s hand into the river, on a fountain by Jef Lambeaux from 1887."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/grote-markt.jpg",
+      "author": "Maros M r a z (Maros)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Grote_Markt_(Antwerpen).jpg"
+    }
   },
   {
     "id": "brabofontein",
     "name": "Brabo Fountain",
     "local": "Brabofontein",
     "emoji": "⛲",
+    "icon": "drop",
     "kind": "place",
     "lat": 51.2214,
     "lon": 4.3999,
@@ -24,13 +33,21 @@
     "text": [
       "Legend says that the giant Antigoon made every ship on the Scheldt pay a toll, and cut off the hand of anyone who refused. The Roman soldier Silvius Brabo killed him, cut off his hand and threw it into the river.",
       "Hand werpen, throwing the hand, became Antwerpen, says the story. Jef Lambeaux’s bronze fountain of 1887 shows Brabo at the moment he throws."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/brabofontein.jpg",
+      "author": "APK",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Antwerp_City_Hall_and_Brabo_Fountain.jpg"
+    }
   },
   {
     "id": "stadhuis",
     "name": "City Hall",
     "local": "Stadhuis",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 51.2212,
     "lon": 4.3992,
@@ -38,13 +55,21 @@
     "text": [
       "Cornelis Floris de Vriendt built the city hall between 1561 and 1565, when Antwerp was the richest city of northern Europe. It mixes Flemish and Italian ideas: a long front of columns with a tall decorated middle.",
       "It is a World Heritage site; the flags along its front are those of the countries of the European Union."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/stadhuis.jpg",
+      "author": "No machine-readable author provided. Klaus with K assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Antwerpen_Stadhuis_crop1_2006-05-28.jpg"
+    }
   },
   {
     "id": "kathedraal",
     "name": "Cathedral of Our Lady",
     "local": "Onze-Lieve-Vrouwekathedraal",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 51.2203,
     "lon": 4.4015,
@@ -52,12 +77,20 @@
     "text": [
       "The cathedral was built from 1352 to 1521, and its north tower rises 123 metres: the tallest church tower in Belgium. The south tower was never finished.",
       "Inside hang four great works by Rubens, among them the Elevation of the Cross and the Descent from the Cross. In Nello and Patrasche, Nello dies before them with his dog at Christmas."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/kathedraal.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_Onze-Lieve-Vrouwekathedraal_(Antwerp)-.jpg"
+    }
   },
   {
     "id": "het-steen",
     "name": "Het Steen",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 51.2227,
     "lon": 4.3972,
@@ -65,12 +98,20 @@
     "text": [
       "Het Steen is what is left of the castle that guarded the city on the Scheldt from the 13th century. Rebuilt under Charles V, it later served as a prison.",
       "At its gate stands the giant Lange Wapper, from the city’s folk tales, towering over two small figures. Today it is the visitor centre of the city."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/het-steen.jpg",
+      "author": "Jean-Pol GRANDMONT",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0_Het_Steen_-_Antwerpen_(1).JPG"
+    }
   },
   {
     "id": "vleeshuis",
     "name": "Vleeshuis",
     "emoji": "🥩",
+    "icon": "meat",
     "kind": "place",
     "lat": 51.2232,
     "lon": 4.3988,
@@ -78,12 +119,20 @@
     "text": [
       "The butchers’ guild built the Vleeshuis around 1503, a tall hall with towers and stepped gables, its walls striped like bacon in red brick and white stone.",
       "Today it is a museum of music, with old harpsichords and instruments made in Antwerp."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/vleeshuis.jpg",
+      "author": "Qwertzu111111",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Butcher%27s_Hall_(Belgien,_Antwerp)_Vleeshuis_(Antwerpen).jpg"
+    }
   },
   {
     "id": "groenplaats",
     "name": "Groenplaats",
     "emoji": "🎨",
+    "icon": "palette",
     "kind": "place",
     "lat": 51.219,
     "lon": 4.401,
@@ -91,12 +140,20 @@
     "text": [
       "The Groenplaats was once the churchyard of the cathedral; it became a square at the end of the 18th century. Rubens stands in bronze in the middle, on a statue of 1840.",
       "From here you see the cathedral’s tower rising over the houses. In winter it holds a Christmas market."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/groenplaats.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Antwerp_July_2015-1a.jpg"
+    }
   },
   {
     "id": "plantin-moretus",
     "name": "Plantin-Moretus",
     "emoji": "📖",
+    "icon": "book",
     "kind": "place",
     "lat": 51.2183,
     "lon": 4.398,
@@ -104,12 +161,20 @@
     "text": [
       "Christophe Plantin set up his printing works in Antwerp in 1555 and made it the largest in Europe. His heirs, the Moretus family, ran it for three centuries in the house on the Vrijdagmarkt.",
       "Today it is a museum and a World Heritage site, with the two oldest surviving printing presses in the world, its type foundry and its library."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/plantin-moretus.jpg",
+      "author": "Klaus Graf",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Plantin_antwerp_07.jpg"
+    }
   },
   {
     "id": "meir",
     "name": "Meir",
     "emoji": "🛍️",
+    "icon": "bag",
     "kind": "place",
     "lat": 51.2185,
     "lon": 4.407,
@@ -117,12 +182,20 @@
     "text": [
       "The Meir runs from the old town towards the station, lined with grand houses, among them the 18th-century Paleis op de Meir, where Napoleon stayed. Today it is Belgium’s busiest shopping street.",
       "Rubens’ house stands just off it."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/meir.jpg",
+      "author": "G.Lanting",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Meir_Antwerpen_I72230.jpg"
+    }
   },
   {
     "id": "rubenshuis",
     "name": "Rubenshuis",
     "emoji": "🖌️",
+    "icon": "palette",
     "kind": "place",
     "lat": 51.2175,
     "lon": 4.4106,
@@ -130,29 +203,52 @@
     "text": [
       "Rubens bought the house in 1610 and turned it into an Italian-style palazzo with a studio where his assistants helped turn out paintings. A Baroque portico leads into its garden.",
       "Today it is a museum with works by Rubens and his circle."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/rubenshuis.jpg",
+      "author": "Ramón",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rubenshuis_-_03.jpg"
+    }
   },
   {
     "id": "diamant",
     "name": "Diamonds",
     "emoji": "💎",
+    "icon": "gem",
     "kind": "thing",
     "blurb": "Antwerp has traded and cut diamonds since the 15th century; most of the world’s rough diamonds still pass through it.",
     "text": [
       "Antwerp’s diamond trade goes back to the 15th century. Today its diamond quarter by the Central Station, a few streets of offices and workshops, handles most of the world’s rough diamonds.",
       "The cut that gives a diamond its sparkle, with many facets, owes much to the Antwerp cutters."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/diamant.jpg",
+      "author": "Kristina D.C. Hoeppner",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Antwerp_diamond_district_-_shops.jpg"
+    }
   },
   {
     "id": "handjes",
     "name": "Antwerp hands",
     "local": "Antwerpse handjes",
     "emoji": "🍪",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "Biscuits and chocolates in the shape of a hand, after the Brabo legend.",
     "text": [
       "Antwerpse handjes are butter biscuits with almonds, and chocolates too, in the shape of the hand that Brabo threw into the Scheldt. They go back to a baking competition of 1934, won by the Antwerp baker Jos Hakker.",
       "Every bakery and chocolate shop in the centre sells them."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/antwerp/handjes.jpg",
+      "author": "Ibu",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Antwerpse_handjes_011.JPG"
+    }
   }
 ]

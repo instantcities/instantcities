@@ -1,0 +1,6 @@
+{%- comment -%}
+  The credit line of a hero's photo (a landmark's photo, _data/landmarks/<city>.json):
+  {% include photo-hero.html photo=p %}. The hero itself gets class photo-hero and --photo.
+{%- endcomment -%}
+{%- assign ph = include.photo -%}
+<p class="photo-credit">Photo: <a href="{{ ph.source }}" rel="noopener">{{ ph.author | truncate: 60 }}</a>, {% if ph.license_url != '' %}<a href="{{ ph.license_url }}" rel="noopener license">{{ ph.license }}</a>{% else %}{{ ph.license }}{% endif %}, via Wikimedia Commons</p>

@@ -4,6 +4,7 @@
     "name": "St Bavo’s Cathedral",
     "local": "Sint-Baafskathedraal",
     "emoji": "🖼️",
+    "icon": "frame",
     "kind": "place",
     "lat": 51.05301,
     "lon": 3.7271,
@@ -58,13 +59,21 @@
     "visit": [
       "The cathedral stands on Sint-Baafsplein, a few minutes’ walk from the Belfry and the Korenmarkt. You can usually walk into the church itself for free, outside services. For the Ghent Altarpiece you buy a ticket: it includes a tour with a tablet or AR glasses through the painting’s story, after which you stand face to face with the original. Allow an hour to an hour and a half, and in high season it is best to book ahead.",
       "It is a place of worship: keep your voice down, cover your shoulders if asked and don’t wander about during mass. Photos without flash are allowed in most places, but not everywhere."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/sint-baafs-kathedraal.jpg",
+      "author": "Michielverbeek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent,_de_Sint-Niklaaskerk_oeg25149,_en_op_de_achtergrond_het_Belfort_oeg24555_en_de_Sint-Baafskathedraal_oeg25743_IMG_0829_2021-08-15_19.09.jpg"
+    }
   },
   {
     "id": "belfort",
     "name": "Belfry",
     "local": "Belfort",
     "emoji": "🐉",
+    "icon": "tower",
     "kind": "place",
     "lat": 51.05367,
     "lon": 3.72478,
@@ -119,12 +128,20 @@
     "visit": [
       "The entrance is on the Sint-Baafsplein side, between the cathedral and the town hall. You buy a ticket and go up on foot or by lift; the last stairs to the bells and the gallery are narrow and steep. Come on a clear day for the view if you can, and check whether there is a carillon concert that day: then you hear the bells up close.",
       "Allow about an hour. The lift is a big help if you are not steady on your feet, but not every part of the tower can be reached without stairs."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/belfort.jpg",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1007_Graslei,_Clock_tower_of_the_Post_Office,_Church_of_Saint-Nicolas_in_Ghent_and_Belfry_of_Ghent_Photo_by_Giles_Laurent.jpg"
+    }
   },
   {
     "id": "gravensteen",
     "name": "Gravensteen",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 51.05706,
     "lon": 3.72084,
@@ -175,13 +192,21 @@
     "visit": [
       "The Gravensteen is on Sint-Veerleplein, five minutes’ walk from the Korenmarkt and the Graslei, on the edge of the Patershol. Buy a ticket at the desk or online in advance; the audio guide is included. Allow an hour and a half. There are many narrow spiral staircases, so the castle is only partly accessible by wheelchair or pushchair.",
       "In summer, go early in the day or late in the afternoon: the battlements are less crowded then. Afterwards you can walk straight into the Patershol, the old quarter of narrow lanes and many restaurants."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/gravensteen.jpg",
+      "author": "Marc Ryckaert (MJJR)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent_Gravensteen_R01.jpg"
+    }
   },
   {
     "id": "graslei",
     "name": "Graslei and Korenlei",
     "local": "Graslei en Korenlei",
     "emoji": "🌾",
+    "icon": "gables",
     "kind": "place",
     "lat": 51.05475,
     "lon": 3.72102,
@@ -228,13 +253,21 @@
     "visit": [
       "The Graslei and the Korenlei are always open to everyone, day and night. They are a few minutes’ walk from the Korenmarkt or St Michael’s Bridge. The guild houses themselves are mostly private or restaurants and cannot be visited as a museum, but some house a restaurant or café you can go into.",
       "To see the quays from the water, take a boat tour: several companies leave from here all year round, for a trip of about forty-five minutes through the old town. Do come back in the evening too, when the façades are lit."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/graslei.jpg",
+      "author": "Michiel Hendryckx",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Graslei_gent_avondlicht.jpg"
+    }
   },
   {
     "id": "sint-michielsbrug",
     "name": "St Michael’s Bridge",
     "local": "Sint-Michielsbrug",
     "emoji": "🌉",
+    "icon": "bridge",
     "kind": "place",
     "lat": 51.05387,
     "lon": 3.72045,
@@ -276,13 +309,21 @@
     "visit": [
       "The bridge is always open to everyone and is on the Korenmarkt, a few steps from the Graslei. Come at sunrise for the calm, or at sunset and after, when the lights come on. It is the perfect starting point for a walk along the quays.",
       "You can usually walk into St Michael’s Church for free, though its opening hours are shorter than the cathedral’s and often only in the tourist season. Mind the trams and cyclists crossing the bridge when you stop for a photo."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/sint-michielsbrug.jpg",
+      "author": "Edison McCullen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sint-Michielsbrug_en_journ%C3%A9e.jpg"
+    }
   },
   {
     "id": "sint-niklaaskerk",
     "name": "St Nicholas’ Church",
     "local": "Sint-Niklaaskerk",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 51.05395,
     "lon": 3.72295,
@@ -327,13 +368,21 @@
     "visit": [
       "The church stands on the Korenmarkt, between St Michael’s Bridge and the Belfry, and is free to visit. It is usually open every day, on Mondays often only from midday, and during services and events part of it may be closed off. A visit takes about twenty minutes.",
       "Keep an eye on what’s on: organ recitals and other concerts are held here regularly, and that is when you hear the Cavaillé-Coll organ at its best."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/sint-niklaaskerk.jpg",
+      "author": "Trougnouf (Benoit Brummer)",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sint-Niklaaskerk_and_the_belfry_of_Ghent_(DSCF0229).jpg"
+    }
   },
   {
     "id": "stadhuis",
     "name": "City Hall",
     "local": "Stadhuis",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 51.05457,
     "lon": 3.72514,
@@ -379,12 +428,20 @@
     "visit": [
       "The Town Hall is on the corner of the Hoogpoort and the Botermarkt, between the Belfry and the Vrijdagmarkt. You can’t just walk in: it is a working town hall. You see the inside on a guided tour, held at set times and often booked through Visit Gent. The outside you can of course look at any time, and it is well worth it.",
       "Do walk all the way round the building to see both fronts, and on a Saturday see whether there is a wedding going on."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/stadhuis.jpg",
+      "author": "Civvì",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent_-_town_hall_2018.jpg"
+    }
   },
   {
     "id": "vrijdagmarkt",
     "name": "Vrijdagmarkt",
     "emoji": "🍺",
+    "icon": "beer",
     "kind": "place",
     "lat": 51.05692,
     "lon": 3.72586,
@@ -430,12 +487,20 @@
     "visit": [
       "The Vrijdagmarkt is a public square, always open to all, five minutes’ walk from the Gravensteen and the Town Hall. There is still a market on Friday mornings, and often on Saturdays too. Around the square you can eat and drink on plenty of terraces.",
       "Combine your visit with a walk to the Great Butchers’ Hall and the Patershol, or across the bridge to the Dulle Griet cannon and the Kraanlei."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/vrijdagmarkt.jpg",
+      "author": "Sergey Ashmarin",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Friday_Square_-_Ghent,_Belgium_-_panoramio.jpg"
+    }
   },
   {
     "id": "groot-vleeshuis",
     "name": "Groot Vleeshuis",
     "emoji": "🥩",
+    "icon": "meat",
     "kind": "place",
     "lat": 51.05586,
     "lon": 3.72162,
@@ -473,13 +538,21 @@
     "visit": [
       "The Great Butchers’ Hall is on the Groentenmarkt, between the Korenmarkt and the Gravensteen, on the Leie. It is free to visit during the opening hours of the shop and café, usually Tuesday to Sunday. Pop in quickly to look at the roof, or take your time to taste and have lunch.",
       "It is the ideal place to take an edible souvenir of Ghent home. From across the Leie you get the best view of the hall’s long front."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/groot-vleeshuis.jpg",
+      "author": "Vandevorst, Kris",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Het_Groot_Vleeshuis_te_Gent_-_373066_-_onroerenderfgoed.jpg"
+    }
   },
   {
     "id": "werregarenstraat",
     "name": "Graffiti Street",
     "local": "Werregarenstraatje",
     "emoji": "🎨",
+    "icon": "palette",
     "kind": "place",
     "lat": 51.05555,
     "lon": 3.72461,
@@ -513,12 +586,20 @@
     "visit": [
       "The Werregarenstraatje is always open and free. You reach it from the Hoogpoort, close to the Town Hall, or from the Onderstraat on the Vrijdagmarkt side. A quick visit takes only a few minutes, but if you look closely you will stay longer.",
       "Want to spray yourself? You may, as long as you respect the neighbours: don’t spray on windows, house doors or parked bikes, and take your empty cans with you."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/werregarenstraat.jpg",
+      "author": "Steven Lek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Werregarenstraat_Gent_graffiti_2017_3.jpg"
+    }
   },
   {
     "id": "kouter",
     "name": "Kouter",
     "emoji": "💐",
+    "icon": "flower",
     "kind": "place",
     "lat": 51.05013,
     "lon": 3.72376,
@@ -560,12 +641,20 @@
     "visit": [
       "The Kouter is a public square and always open to all. The flower market is on Sunday mornings, roughly from 7 am to 1 pm, and it is at its liveliest between 10 and 12. It is an easy walk from the Korenmarkt along the Veldstraat, or take the tram, which stops close by.",
       "Combine a visit with a stroll down the Veldstraat, Ghent’s main shopping street, or a performance at the Opera or the Handelsbeurs."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/kouter.jpg",
+      "author": "Donarreiskoffer",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:20090628_Bloemenmarkt_Kouter_(0011).jpg"
+    }
   },
   {
     "id": "vooruit",
     "name": "Vooruit",
     "emoji": "🎭",
+    "icon": "mask",
     "kind": "place",
     "lat": 51.04762,
     "lon": 3.72719,
@@ -607,13 +696,21 @@
     "visit": [
       "Vooruit is on the Sint-Pietersnieuwstraat, about ten minutes’ walk from the Korenmarkt, in the student quarter. The café is usually open every day, from late morning until late at night, and you can just walk in. For concerts and shows you buy a ticket; they often sell out fast.",
       "Now and then there are guided tours of the building, which take you behind the scenes of its halls."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/vooruit.jpg",
+      "author": "Vlaamse Gemeenschap",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent_Sint-Pietersnieuwstraat_128_-_23301_-_onroerenderfgoed.jpg"
+    }
   },
   {
     "id": "sint-pietersabdij",
     "name": "St Peter’s Abbey",
     "local": "Sint-Pietersabdij",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 51.04252,
     "lon": 3.72651,
@@ -658,12 +755,20 @@
     "visit": [
       "The abbey is on the Sint-Pietersplein, about fifteen minutes’ walk from the centre, or by tram to nearby. The abbey garden is usually free to enter during the day, with shorter hours in winter. For the exhibitions in the art hall you buy a ticket. The church is regularly open to visitors.",
       "Combine a visit with a walk to Citadelpark, S.M.A.K. or the Museum of Fine Arts, all within walking distance."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/sint-pietersabdij.jpg",
+      "author": "Demeester",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent_Blandijn_005.JPG"
+    }
   },
   {
     "id": "zuid",
     "name": "Gent Zuid",
     "emoji": "🚌",
+    "icon": "bus",
     "kind": "place",
     "lat": 51.04801,
     "lon": 3.7314,
@@ -705,12 +810,20 @@
     "visit": [
       "Zuid is always open to all. Most city buses stop here, and the trams too. For timetables and tickets, the De Lijn website or app is the place to look.",
       "If you want something to eat or drink, there are plenty of places in and around the shopping centre. For a break, head into the King Albert Park."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/zuid.jpg",
+      "author": "Vlaamse Gemeenschap",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gent_Woodrow_Wilsonplein_straatbeeld_-_214170_-_onroerenderfgoed.jpg"
+    }
   },
   {
     "id": "blaarmeersen",
     "name": "Blaarmeersen",
     "emoji": "🏖️",
+    "icon": "beach",
     "kind": "place",
     "lat": 51.04372,
     "lon": 3.68764,
@@ -744,12 +857,20 @@
     "visit": [
       "The park is open to all. The beach and swimming lake are open in the summer months, with lifeguards, for a small entrance fee. It is easy to get there by bike, along the Leie or the Watersportbaan, or by bus. The campsite and sports facilities have their own opening hours and bookings.",
       "On a summer’s day, bring your swimming things and a picnic, and come early if you can: on the hottest days it gets busy."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/blaarmeersen.jpg",
+      "author": "Steven57",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panorama_uitkijktoren_Blaarmeersen_Gent.JPG"
+    }
   },
   {
     "id": "mammelokker",
     "name": "Mammelokker",
     "emoji": "🤱",
+    "icon": "statue",
     "kind": "place",
     "lat": 51.05388,
     "lon": 3.72496,
@@ -758,12 +879,20 @@
     "text": [
       "The Mammelokker is the little house against the foot of the Cloth Hall, where the warders of the town prison lived: from 1742 to 1902 the prison was in the Cloth Hall’s cellars. Over its door a stone relief from 1741, recarved by Jan Anteunis in 1962, shows a young woman feeding an old man at her breast.",
       "It is the Roman legend of Pero, who nursed her father Cimon when he was left to starve in prison; when it came out, he was set free. Ghent named the house after it: mammelokker is Ghent dialect for breast-sucker."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/mammelokker.jpg",
+      "author": "Unknown",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Mammelokker01.jpg"
+    }
   },
   {
     "id": "karel-sabbeberg",
     "name": "Karel Sabbeberg",
     "emoji": "⛰️",
+    "icon": "mountain",
     "kind": "place",
     "lat": 51.0419,
     "lon": 3.68534,
@@ -772,48 +901,80 @@
     "text": [
       "Ghent’s only mountain is some 30 metres high and man-made, in the Blaarmeersen park. Until 2003 Ghent skied down it on brush mats. In 2019 it was named after the ultrarunner Karel Sabbe, who ran up and down it thousands of times in training.",
       "Since 2009 a wooden lookout tower stands on top, from which you see over the lakes and the woods of the park to the towers of the old town. In the game it hides a secret for whoever climbs all the way up."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/karel-sabbeberg.jpg",
+      "author": "Steven57",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panorama_uitkijktoren_Blaarmeersen_Gent.JPG"
+    }
   },
   {
     "id": "neuzekes",
     "name": "Cuberdons",
     "local": "Gentse neuzekes",
     "emoji": "🍬",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "Purple cone-shaped sweets with a runny raspberry heart, sold from little carts on the Groentenmarkt.",
     "text": [
       "A cuberdon, or neuzeke (“little nose”) in Ghent, is a cone of gum arabic with a hard sugary crust and a soft, syrupy inside that tastes of raspberry. Because the crust dries out and the inside crystallises within a few weeks, they never really travelled, and they stayed a Belgian, and above all a Ghent, treat.",
       "On the Groentenmarkt, right by the Groot Vleeshuis, two sellers have stood facing each other with their carts for years, and their feud over who sells the real neuzekes has become a local legend. In the game you ride past them."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/neuzekes.jpg",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:6_cuberdons.JPG"
+    }
   },
   {
     "id": "tram",
     "name": "The trams",
     "local": "De tram",
     "emoji": "🚋",
+    "icon": "tram",
     "kind": "vehicle",
     "blurb": "De Lijn’s white and yellow trams, ringing their bells through the narrow streets of the old town.",
     "text": [
       "Ghent has run trams since the 19th century, first pulled by horses, and it is one of the few Belgian cities that kept them. Today De Lijn’s lines 1, 2 and 4 cross the city, squeezing through the old centre along the Korenmarkt and the Kortrijksesteenweg, where they share the cobbles with cyclists and people on foot.",
       "In the game the trams run on their real lines, stop at their real stops and ring their bells at whoever is in the way. Mind the rails on a bike: wheels and tram tracks do not get on."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/tram.jpg",
+      "author": "Claude villetaneuse",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tramway_de_Gand_-_Rame_6329_Hermelijn_%C3%A0_Korenmarkt.JPG"
+    }
   },
   {
     "id": "gentse-feesten",
     "name": "Gentse Feesten",
     "emoji": "🎉",
+    "icon": "sparkle",
     "kind": "tradition",
     "blurb": "Ten days every July when the whole old town becomes one of the largest street festivals in Europe.",
     "text": [
       "The Gentse Feesten began in 1843 as a way to give the city’s workers a holiday of their own, and grew into a ten-day festival in the middle of July. Every square of the old town gets a stage, from the Vrijdagmarkt to the Sint-Baafsplein, with music, street theatre and puppet shows, much of it free.",
       "More than a million visitors come over those ten days. The festival ends on the “Dag van de Lege Portemonnee”, the day of the empty wallet, when the city sleeps it off."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/ghent/gentse-feesten.jpg",
+      "author": "Gordito1869",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gentse_Feesten_2014_07.JPG"
+    }
   },
   {
     "id": "fietsstad",
     "name": "The cycling city",
     "local": "Fietsstad Gent",
     "emoji": "🚲",
+    "icon": "bike",
     "kind": "thing",
     "blurb": "Since 2017 cars can no longer drive straight across the centre, and bikes have taken over the streets.",
     "text": [

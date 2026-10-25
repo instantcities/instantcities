@@ -4,6 +4,7 @@
     "name": "Duomo",
     "local": "Santa Maria del Fiore",
     "emoji": "🔴",
+    "icon": "church",
     "kind": "place",
     "lat": 43.7731,
     "lon": 11.256,
@@ -11,13 +12,21 @@
     "text": [
       "Santa Maria del Fiore was begun in 1296, but for over a century no one knew how to cover its vast crossing. In 1420 Filippo Brunelleschi began a dome without scaffolding from the ground, two shells with bricks laid in a herringbone pattern; it was finished in 1436.",
       "Its red tiles still rise over every view of the city. Some 460 steps lead between its two shells to the lantern on top."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/duomo.jpg",
+      "author": "Gary Campbell-Hall",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg"
+    }
   },
   {
     "id": "campanile-di-giotto",
     "name": "Giotto’s Bell Tower",
     "local": "Campanile di Giotto",
     "emoji": "🔔",
+    "icon": "bell",
     "kind": "place",
     "lat": 43.7728,
     "lon": 11.2554,
@@ -25,13 +34,21 @@
     "text": [
       "The painter Giotto designed the bell tower and began it in 1334; after his death Andrea Pisano and Francesco Talenti finished it, some 85 metres tall. Like the cathedral it is clad in white marble from Carrara, green from Prato and pink from the Maremma.",
       "Its 414 steps have no lift, but the view from the top takes in the dome face to face."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/campanile-di-giotto.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Croce_di_Firenze_viewed_from_Giotto_Campanile_dllu.jpg"
+    }
   },
   {
     "id": "battistero",
     "name": "Baptistery",
     "local": "Battistero di San Giovanni",
     "emoji": "🚪",
+    "icon": "door",
     "kind": "place",
     "lat": 43.7731,
     "lon": 11.2549,
@@ -39,12 +56,20 @@
     "text": [
       "The Baptistery of San Giovanni is one of the oldest buildings in the city, its striped marble octagon from the 11th century. Every Florentine was baptised here, Dante among them.",
       "Its east doors, which Lorenzo Ghiberti spent 27 years casting in gilded bronze, show stories from the Old Testament in ten panels; Michelangelo is said to have called them fit to be the Gates of Paradise. The ones in place are copies."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/battistero.jpg",
+      "author": "Bradley Weber",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Baptistery,_Florence.jpg"
+    }
   },
   {
     "id": "piazza-della-signoria",
     "name": "Piazza della Signoria",
     "emoji": "🗿",
+    "icon": "statue",
     "kind": "place",
     "lat": 43.7696,
     "lon": 11.2558,
@@ -52,12 +77,20 @@
     "text": [
       "For seven centuries this has been Florence’s political square, in front of its town hall. Here the preacher Savonarola held his bonfire of the vanities in 1497, and was burned himself a year later.",
       "Its statues make it an open-air museum: the copy of Michelangelo’s David, Ammannati’s Neptune fountain and Cosimo I on horseback."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/piazza-della-signoria.jpg",
+      "author": "Zolli",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Signoria_-_Firenze.jpg"
+    }
   },
   {
     "id": "palazzo-vecchio",
     "name": "Palazzo Vecchio",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 43.7694,
     "lon": 11.2563,
@@ -65,12 +98,20 @@
     "text": [
       "The Palazzo Vecchio was begun in 1299 as the seat of the city’s government, a stone fortress with a battlemented top and a tower 94 metres high. The Medici lived here before moving across the river to the Palazzo Pitti.",
       "It is still the town hall. Inside, the vast Hall of the Five Hundred was painted by Vasari."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/palazzo-vecchio.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_della_signoria,_palazzo_vecchio,_veduta_01.jpg"
+    }
   },
   {
     "id": "loggia-dei-lanzi",
     "name": "Loggia dei Lanzi",
     "emoji": "🛡️",
+    "icon": "shield",
     "kind": "place",
     "lat": 43.7692,
     "lon": 11.2556,
@@ -78,13 +119,21 @@
     "text": [
       "The loggia was built in the 14th century for public ceremonies; it takes its name from the Landsknechts, the German pikemen of Cosimo I who were quartered there.",
       "Today it shelters statues: Benvenuto Cellini’s bronze Perseus holding up Medusa’s head, and Giambologna’s Rape of the Sabine Women, carved from a single block."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/loggia-dei-lanzi.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Firenze,_loggia_dei_lanzi_(2020)_01.jpg"
+    }
   },
   {
     "id": "uffizi",
     "name": "Uffizi",
     "local": "Galleria degli Uffizi",
     "emoji": "🖼️",
+    "icon": "frame",
     "kind": "place",
     "lat": 43.7678,
     "lon": 11.2553,
@@ -92,12 +141,20 @@
     "text": [
       "Giorgio Vasari built the Uffizi for Cosimo I de’ Medici from 1560, as offices for the magistrates of Florence, in a long U from the square down to the Arno. The Medici filled its top floor with their art collection.",
       "Their last heir, Anna Maria Luisa, left everything to the city in 1737 on condition that it never left Florence. Today it holds Botticelli’s Birth of Venus and Primavera, Leonardo, Raphael, Titian and Caravaggio."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/uffizi.jpg",
+      "author": "Arek N.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Florence,_Italy_-_panoramio_(125).jpg"
+    }
   },
   {
     "id": "ponte-vecchio",
     "name": "Ponte Vecchio",
     "emoji": "💍",
+    "icon": "gem",
     "kind": "place",
     "lat": 43.768,
     "lon": 11.2531,
@@ -105,12 +162,20 @@
     "text": [
       "The Ponte Vecchio was rebuilt in stone in 1345 after a flood, with shops along both sides. In 1593 the Medici threw out the butchers and tanners and put goldsmiths in their place.",
       "Above the shops runs the Vasari Corridor, built so the Medici could walk from the Palazzo Vecchio to the Palazzo Pitti without going outside. In 1944 the retreating Germans blew up every other bridge in Florence and spared this one."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/ponte-vecchio.jpg",
+      "author": "Ingo Mehling",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg"
+    }
   },
   {
     "id": "piazza-della-repubblica",
     "name": "Piazza della Repubblica",
     "emoji": "🎠",
+    "icon": "wheel",
     "kind": "place",
     "lat": 43.7714,
     "lon": 11.2539,
@@ -118,12 +183,20 @@
     "text": [
       "The square lies where the forum of Roman Florentia stood and, later, the old market and the Jewish ghetto, all cleared in the 1880s to make a grand modern square, with a triumphal arch.",
       "Its old cafés, like the Giubbe Rosse where writers and artists met, and a carousel make it a meeting point day and night."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/piazza-della-repubblica.jpg",
+      "author": "Of the individual pictures, Gryffindor, of the panorama, Roland Geider (Ogre)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Repubblica_Firenze_Apr_2008_(1)-Piazza_Repubblica_Firenze_Apr_2008.jpg"
+    }
   },
   {
     "id": "santa-croce",
     "name": "Santa Croce",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 43.7686,
     "lon": 11.2622,
@@ -131,12 +204,20 @@
     "text": [
       "Santa Croce was begun in 1294 for the Franciscans, one of the largest churches in Italy. Its chapels were painted by Giotto.",
       "So many great Florentines lie here that it is called the Temple of the Italian Glories: Michelangelo, Galileo, Machiavelli and Rossini, with a memorial to Dante, who is buried in Ravenna."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/santa-croce.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_la_Santa_Cruz,_Florencia,_Italia,_2022-09-18,_DD_95.jpg"
+    }
   },
   {
     "id": "santa-maria-novella",
     "name": "Santa Maria Novella",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 43.7745,
     "lon": 11.2492,
@@ -144,12 +225,20 @@
     "text": [
       "Santa Maria Novella was built by the Dominicans from the 13th century. Leon Battista Alberti finished its front of white and green marble in 1470, a model for Renaissance church fronts.",
       "Inside is Masaccio’s Trinity, one of the first paintings in perspective. Nearby, its old pharmacy has made perfumes since 1612."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/santa-maria-novella.jpg",
+      "author": "Armin Kleiner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Florence,_Santa_Maria_Novella,_facade.jpg"
+    }
   },
   {
     "id": "il-porcellino",
     "name": "Il Porcellino",
     "emoji": "🐗",
+    "icon": "statue",
     "kind": "place",
     "lat": 43.7697,
     "lon": 11.2537,
@@ -157,17 +246,32 @@
     "text": [
       "The bronze wild boar was cast by Pietro Tacca in the 17th century after an ancient marble one. Florentines call it the little pig.",
       "Rubbing its shining nose is said to bring you back to Florence; put a coin in its mouth and let it drop through the grate for luck."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/il-porcellino.jpg",
+      "author": "sailko",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Porcellino_di_pietro_tacca,_originale_02.JPG"
+    }
   },
   {
     "id": "bistecca",
     "name": "Bistecca alla fiorentina",
     "emoji": "🥩",
+    "icon": "meat",
     "kind": "food",
     "blurb": "A huge T-bone steak, grilled over coals and served rare, by the kilo.",
     "text": [
       "The bistecca alla fiorentina is a T-bone steak cut at least three fingers thick, traditionally from Chianina cattle, grilled over hot coals with only salt, pepper and olive oil.",
       "It is served rare, priced by weight, and usually shared: one steak weighs well over a kilo."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/florence/bistecca.jpg",
+      "author": "Sphilbrick",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Florentine_steak,_Florence,_Italy.jpg"
+    }
   }
 ]

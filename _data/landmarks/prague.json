@@ -4,6 +4,7 @@
     "name": "Old Town Square",
     "local": "Staroměstské náměstí",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 50.0875,
     "lon": 14.4213,
@@ -11,13 +12,21 @@
     "text": [
       "The Old Town Square has been Prague’s market place since the 12th century. Around it stand the Old Town Hall with its clock, the Baroque church of St Nicholas, pastel palaces and the two spiky towers of the Týn church.",
       "In the middle stands the memorial to Jan Hus, the reformer burned at the stake in 1415, unveiled in 1915. Twenty-seven white crosses in the paving mark where 27 Czech leaders were executed in 1621."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/staromestske-namesti.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prague_Old_Town_Square,_Czech_Republic_-_Oct_2010.jpg"
+    }
   },
   {
     "id": "orloj",
     "name": "Astronomical clock",
     "local": "Orloj",
     "emoji": "🕰️",
+    "icon": "clock",
     "kind": "place",
     "lat": 50.087,
     "lon": 14.4208,
@@ -25,13 +34,21 @@
     "text": [
       "The Prague Orloj on the Old Town Hall was made in 1410, which makes it the oldest astronomical clock still working. Its dial shows the time, the place of the sun and moon in the sky and the signs of the zodiac.",
       "On the hour, a skeleton rings its bell, the twelve apostles parade past two little windows above the dial, and a cock crows; crowds gather to watch."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/orloj.jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Czech-2013-Prague-Astronomical_clock_face.jpg"
+    }
   },
   {
     "id": "tyn",
     "name": "Týn Church",
     "local": "Týnský chrám",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 50.0877,
     "lon": 14.4227,
@@ -39,13 +56,21 @@
     "text": [
       "The Church of Our Lady before Týn was built from the 14th century and became the main church of the Hussites. Its two black spires, each ringed with little turrets, rise 80 metres; the one on the south is a little wider, said to be the male tower.",
       "You enter it through a passage between the houses in front of it. The Danish astronomer Tycho Brahe is buried inside."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/tyn.jpg",
+      "author": "Андрей Бобровский",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prague,_T%C3%BDnsk%C3%BD_chr%C3%A1m,_Czech_Republic_-_panoramio_(25).jpg"
+    }
   },
   {
     "id": "karluv-most",
     "name": "Charles Bridge",
     "local": "Karlův most",
     "emoji": "🌉",
+    "icon": "bridge",
     "kind": "place",
     "lat": 50.0865,
     "lon": 14.4114,
@@ -53,13 +78,21 @@
     "text": [
       "Charles IV laid the bridge’s first stone in 1357, at 5:31 on 9 July, a time chosen for its palindrome of numbers: 1357 9 7 5 31. For four centuries it was the only bridge across the Vltava in Prague.",
       "From the 17th century thirty statues of saints were put along its parapets. Touch the bronze relief of St John of Nepomuk, thrown from the bridge in 1393, and you will come back to Prague."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/karluv-most.jpg",
+      "author": "Chosovi ; Diligent cropped the original picture a bit.",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most-2.jpg"
+    }
   },
   {
     "id": "mostecka-vez",
     "name": "Old Town Bridge Tower",
     "local": "Staroměstská mostecká věž",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 50.0862,
     "lon": 14.4136,
@@ -67,12 +100,20 @@
     "text": [
       "Peter Parler built the tower in the 14th century as a triumphal gateway for the king on the way to his coronation. Its front carries statues of Charles IV, his son Wenceslas IV and St Vitus.",
       "From the top you see the bridge stretching across the river towards the Lesser Town and the castle on the hill."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/mostecka-vez.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014-_Old_Town_Bridge_Tower_(Starom%C4%9Bstsk%C3%A1_Mosteck%C3%A1_V%C4%9B%C5%BE),_Prague,_Czech_Republic_(_Ank_Kumar_)_07.jpg"
+    }
   },
   {
     "id": "klementinum",
     "name": "Klementinum",
     "emoji": "📚",
+    "icon": "book",
     "kind": "place",
     "lat": 50.0864,
     "lon": 14.4163,
@@ -80,12 +121,20 @@
     "text": [
       "The Jesuits built the Klementinum from 1556, one of the largest groups of buildings in Europe after Prague Castle. Today it houses the National Library.",
       "Its Baroque library hall is painted and gilded from floor to ceiling, and its Astronomical Tower has measured Prague’s weather every day since 1775."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/klementinum.jpg",
+      "author": "VitVit",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Klementinum_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m_4.jpg"
+    }
   },
   {
     "id": "josefov",
     "name": "Josefov",
     "emoji": "✡️",
+    "icon": "book",
     "kind": "place",
     "lat": 50.0901,
     "lon": 14.4189,
@@ -93,13 +142,21 @@
     "text": [
       "For centuries Prague’s Jews lived in this ghetto beside the Old Town. It was named Josefov after Emperor Joseph II, who eased the laws against them. Most of its old houses were cleared around 1900, but six synagogues and the town hall remain.",
       "The Old Jewish Cemetery holds some 12,000 gravestones crowded together, the graves layered on top of each other."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/josefov.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Jewish_Cemetery_in_Josefov,_Prague_-_8363.jpg"
+    }
   },
   {
     "id": "staronova-synagoga",
     "name": "Old-New Synagogue",
     "local": "Staronová synagoga",
     "emoji": "🕍",
+    "icon": "church",
     "kind": "place",
     "lat": 50.0903,
     "lon": 14.4185,
@@ -107,12 +164,20 @@
     "text": [
       "The Old-New Synagogue was built around 1270 in Gothic style and has been in use for prayer ever since. It is called old-new because it was new when it was built, and later synagogues were newer still.",
       "Legend says the Golem, the clay giant that Rabbi Loew brought to life, lies in its attic."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/staronova-synagoga.jpg",
+      "author": "Øyvind Holmstad",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad_Den_gammelnye_synagogen.JPG"
+    }
   },
   {
     "id": "rudolfinum",
     "name": "Rudolfinum",
     "emoji": "🎻",
+    "icon": "music",
     "kind": "place",
     "lat": 50.09,
     "lon": 14.415,
@@ -120,13 +185,21 @@
     "text": [
       "The Rudolfinum was built from 1876 to 1884 as a house of the arts, named after Crown Prince Rudolf. Antonín Dvořák conducted its first concert in 1896.",
       "Between the wars it was the seat of Czechoslovakia’s parliament. Today its Dvořák Hall is the home of the Czech Philharmonic."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/rudolfinum.jpg",
+      "author": "che",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Praha_Rudolfinum_front.jpg"
+    }
   },
   {
     "id": "prasna-brana",
     "name": "Powder Tower",
     "local": "Prašná brána",
     "emoji": "🗼",
+    "icon": "tower",
     "kind": "place",
     "lat": 50.0872,
     "lon": 14.4275,
@@ -134,13 +207,21 @@
     "text": [
       "The Powder Tower was begun in 1475 as one of the gates of the Old Town, on the road kings took to their coronation at the castle. In the 17th century it held gunpowder, which gave it its name.",
       "Next to it stands the Municipal House, Prague’s great Art Nouveau building."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/prasna-brana.jpg",
+      "author": "Szczecinolog",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pra%C5%A1n%C3%A1_br%C3%A1na_in_Prague,_2018.jpg"
+    }
   },
   {
     "id": "prazsky-hrad",
     "name": "Prague Castle",
     "local": "Pražský hrad",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 50.0904,
     "lon": 14.4005,
@@ -148,30 +229,53 @@
     "text": [
       "Prague Castle has been the seat of Bohemian kings, Holy Roman emperors and Czech presidents since the 9th century. Within its walls stand St Vitus Cathedral, palaces, churches and the little Golden Lane.",
       "It lies across the Vltava from the Old Town, beyond the piece of Prague the game has so far; you see it from the river."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/prazsky-hrad.jpg",
+      "author": "Tilman2007",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most_Praha,_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg"
+    }
   },
   {
     "id": "tramvaj",
     "name": "Trams",
     "local": "Tramvaj",
     "emoji": "🚋",
+    "icon": "tram",
     "kind": "vehicle",
     "blurb": "The red and cream trams that rattle along the river and across the bridges.",
     "text": [
       "Prague has one of the largest tram networks in Europe, with red and cream trams running day and night. The old Tatra T3, rounded and boxy, ran here for decades and still runs on a few lines.",
       "Line 17 runs along the river past the Rudolfinum, one of the most beautiful rides in the city."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/tramvaj.jpg",
+      "author": "Lukáš Vrána",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_15T_9320_Loty%C5%A1sk%C3%A1.jpg"
+    }
   },
   {
     "id": "pivo",
     "name": "Czech beer",
     "local": "Pivo",
     "emoji": "🍺",
+    "icon": "beer",
     "kind": "food",
     "blurb": "Czechs drink more beer per person than anyone; the pilsner was born in Bohemia.",
     "text": [
       "In 1842 the brewers of Plzeň, in Bohemia, made the first golden lager, the pilsner; today most beer in the world is brewed after it. The Czechs drink more beer per person than any other nation.",
       "Prague’s old pubs pour it with a thick head of foam, and some brew their own, like U Fleků since 1499."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/prague/pivo.jpg",
+      "author": "Steven Walling",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pilsner_urquell_mug.jpg"
+    }
   }
 ]

@@ -4,6 +4,7 @@
     "name": "St Stephen’s Cathedral",
     "local": "Stephansdom",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 48.2085,
     "lon": 16.3731,
@@ -11,12 +12,20 @@
     "text": [
       "The Stephansdom was rebuilt in Gothic style from the 14th century on; its south tower, the Steffl, finished in 1433, rises 136 metres. The north tower was never finished and got a little Renaissance cap.",
       "Its roof of some 230,000 glazed tiles shows the double-headed eagle and the arms of Vienna. In 1945 fire destroyed the roof; it was rebuilt by 1952 with help from all over Austria."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/stephansdom.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien,_Stephansdom_--_2018_--_3292.jpg"
+    }
   },
   {
     "id": "graben",
     "name": "Graben",
     "emoji": "🛍️",
+    "icon": "bag",
     "kind": "place",
     "lat": 48.2087,
     "lon": 16.3695,
@@ -24,13 +33,21 @@
     "text": [
       "The Graben, the ditch, runs along the moat of the Roman camp of Vindobona, filled in during the Middle Ages. Today it is a broad, elegant pedestrian street of shops and cafés.",
       "Even its public toilets are a sight: an Art Nouveau underground convenience from 1905 by Adolf Loos."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/graben.jpg",
+      "author": "C.Stadler/Bwag",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Graben_(2).JPG"
+    }
   },
   {
     "id": "pestsaule",
     "name": "Plague Column",
     "local": "Pestsäule",
     "emoji": "🕯️",
+    "icon": "flame",
     "kind": "place",
     "lat": 48.2086,
     "lon": 16.3692,
@@ -38,12 +55,20 @@
     "text": [
       "Emperor Leopold I vowed to put up a column if the plague of 1679, which killed tens of thousands, would leave the city. It was finished in 1693: a tower of clouds and angels, with the emperor kneeling in prayer.",
       "Its style became a model for plague columns all over the Habsburg lands."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/pestsaule.jpg",
+      "author": "Jebulon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Plague_Pests%C3%A4ule_Vienna.jpg"
+    }
   },
   {
     "id": "hofburg",
     "name": "Hofburg",
     "emoji": "👑",
+    "icon": "crown",
     "kind": "place",
     "lat": 48.2066,
     "lon": 16.3655,
@@ -51,12 +76,20 @@
     "text": [
       "The Hofburg grew over six centuries from a medieval castle into a city within the city: 18 wings, 19 courtyards and some 2,600 rooms. The Habsburgs ruled their empire from here until 1918.",
       "Today the president of Austria has his offices here, beside museums of the imperial apartments, the treasury with the crown of the Holy Roman Empire, and the Sisi Museum about Empress Elisabeth."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/hofburg.jpg",
+      "author": "C.Stadler/Bwag",
+      "license": "CC BY-SA 3.0 at",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Neue_Hofburg.JPG"
+    }
   },
   {
     "id": "michaelerplatz",
     "name": "Michaelerplatz",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 48.208,
     "lon": 16.3664,
@@ -64,13 +97,21 @@
     "text": [
       "The St Michael’s Gate of the Hofburg, with its green dome and fountains of giants, was only finished in 1893. In the middle of the square lie the dug-up remains of Roman and medieval Vienna.",
       "Opposite stands the Looshaus of 1911, whose plain front without decoration shocked Vienna; Emperor Franz Joseph is said to have kept his curtains closed so as not to see it."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/michaelerplatz.jpg",
+      "author": "Robot8A",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_6_M%C3%A4rz_2021_20_03_48_119000.jpeg"
+    }
   },
   {
     "id": "spanische-hofreitschule",
     "name": "Spanish Riding School",
     "local": "Spanische Hofreitschule",
     "emoji": "🐎",
+    "icon": "horseshoe",
     "kind": "place",
     "lat": 48.2077,
     "lon": 16.367,
@@ -78,13 +119,21 @@
     "text": [
       "The Spanish Riding School goes back to 1565 and is named after the Spanish horses from which the Lipizzaners were bred. Its white stallions perform the haute école in the Winter Riding School, a Baroque hall of 1735 with chandeliers.",
       "The horses are born dark and turn white over their first years."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/spanische-hofreitschule.jpg",
+      "author": "Jebulon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanische_Hofreitschule_Wien_Vienna_Winter_riding_manege_1.jpg"
+    }
   },
   {
     "id": "staatsoper",
     "name": "State Opera",
     "local": "Wiener Staatsoper",
     "emoji": "🎶",
+    "icon": "music",
     "kind": "place",
     "lat": 48.203,
     "lon": 16.369,
@@ -92,12 +141,20 @@
     "text": [
       "The opera house was the first public building on the new Ringstraße, opened in 1869 with Mozart’s Don Giovanni. Gustav Mahler was its director from 1897 to 1907.",
       "Bombed in 1945, it reopened in 1955. Every year the Opera Ball turns its stage and stalls into one great ballroom."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/staatsoper.jpg",
+      "author": "Wiener Staatsoper GmbH",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg"
+    }
   },
   {
     "id": "albertina",
     "name": "Albertina",
     "emoji": "🖼️",
+    "icon": "frame",
     "kind": "place",
     "lat": 48.2045,
     "lon": 16.3681,
@@ -105,12 +162,20 @@
     "text": [
       "Duke Albert of Saxe-Teschen gathered the collection in the 18th century, and his palace on the old city wall still holds it: about a million prints and some 50,000 drawings.",
       "Among them is Albrecht Dürer’s Young Hare of 1502. A sharp blade of a roof, added in 2003, juts out over the entrance."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/albertina.jpg",
+      "author": "C.Stadler/Bwag",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Albertina.JPG"
+    }
   },
   {
     "id": "burgtheater",
     "name": "Burgtheater",
     "emoji": "🎭",
+    "icon": "mask",
     "kind": "place",
     "lat": 48.2104,
     "lon": 16.3612,
@@ -118,12 +183,20 @@
     "text": [
       "The court theatre was founded by Empress Maria Theresa in 1741 and moved into its building on the Ringstraße in 1888. Gustav Klimt and his brother painted the ceilings of its staircases.",
       "For actors in the German-speaking world, being a member of its company is the highest honour."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/burgtheater.jpg",
+      "author": "C.Stadler/Bwag",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Burgtheater.JPG"
+    }
   },
   {
     "id": "ringstrasse",
     "name": "Ringstraße",
     "emoji": "🛤️",
+    "icon": "tram",
     "kind": "thing",
     "lat": 48.206,
     "lon": 16.362,
@@ -131,40 +204,71 @@
     "text": [
       "In 1857 Emperor Franz Joseph ordered the city walls pulled down and a boulevard built in their place. Along the Ringstraße rose the Opera, the Parliament, the town hall, the university, museums and palaces.",
       "Trams run round it, and in the game the race rides a stretch of it, past the Burgtheater and the Hofburg to the Opera."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/ringstrasse.jpg",
+      "author": "Gugerell",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Wien_01_Burgring_b.jpg"
+    }
   },
   {
     "id": "fiaker",
     "name": "Fiaker",
     "emoji": "🐴",
+    "icon": "horseshoe",
     "kind": "vehicle",
     "blurb": "The two-horse carriages that wait on Stephansplatz to drive you round the old town.",
     "text": [
       "The Fiaker is a Viennese two-horse carriage for hire, named after a 17th-century cab stand in Paris. The coachmen wear bowler hats, and the horses wait on Stephansplatz, Michaelerplatz and by the Albertina.",
       "There is even a Fiaker coffee, with rum and whipped cream."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/fiaker.jpg",
+      "author": "MrPanyGoff",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Horse_drawn_carriage_-_Vienna.jpg"
+    }
   },
   {
     "id": "kaffeehaus",
     "name": "Coffee houses",
     "local": "Kaffeehaus",
     "emoji": "☕",
+    "icon": "coffee",
     "kind": "tradition",
     "blurb": "Marble tables, newspapers on wooden holders and a glass of water with every coffee.",
     "text": [
       "The Viennese coffee house is on UNESCO’s list of intangible heritage: a place to sit for hours over one coffee, reading the papers in their wooden holders, with a glass of water that the waiter refills.",
       "Order a Melange, the Viennese cappuccino; the Café Central, the Hawelka and the Sperl are among the classics."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/kaffeehaus.jpg",
+      "author": "Theo Zasche",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Theodor_Zasche_Kartenspieler_im_Kaffeehaus.jpg"
+    }
   },
   {
     "id": "sachertorte",
     "name": "Sachertorte",
     "emoji": "🍰",
+    "icon": "coffee",
     "kind": "food",
     "blurb": "A rich chocolate cake with apricot jam, invented by Franz Sacher in 1832.",
     "text": [
       "The 16-year-old apprentice Franz Sacher made the cake for Prince Metternich in 1832: chocolate sponge, a thin layer of apricot jam and a glaze of dark chocolate. It is served with unsweetened whipped cream.",
       "The Hotel Sacher and the Demel pastry shop fought in court for years over who could call theirs the original."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/vienna/sachertorte.jpg",
+      "author": "David Monniaux",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sachertorte_DSC03027.JPG"
+    }
   }
 ]

@@ -3,6 +3,7 @@
     "id": "colosseo",
     "name": "Colosseum",
     "emoji": "🏟️",
+    "icon": "arena",
     "kind": "place",
     "lat": 41.8902,
     "lon": 12.4922,
@@ -10,12 +11,20 @@
     "text": [
       "The Flavian emperors built the Colosseum on the site of Nero’s private lake, and Titus opened it in AD 80 with a hundred days of games. Its stone shell rose in four storeys of arches, and an awning on masts could shade the crowd. Under the arena floor a maze of passages and lifts brought animals and fighters up into the light.",
       "After the games ended it became a quarry, a fortress and even housing, which is why only part of the outer ring still stands. It sits at the edge of the game’s map, at the end of the Via dei Fori Imperiali."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/colosseo.jpg",
+      "author": "FeaturedPics",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+    }
   },
   {
     "id": "pantheon",
     "name": "Pantheon",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 41.8986,
     "lon": 12.4769,
@@ -23,12 +32,20 @@
     "text": [
       "The Pantheon you see was built under Emperor Hadrian around AD 125, though the inscription on its porch still names Agrippa, who built the first temple here. Behind the porch of granite columns lies a perfect round hall: the dome is exactly as wide as it is high, 43 metres.",
       "The open eye at the top, the oculus, is its only window, and rain falls straight onto the floor, which slopes gently to drains. It survived because it became a church in 609; the painter Raphael and the first kings of Italy are buried inside."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/pantheon.jpg",
+      "author": "NikonZ7II",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg"
+    }
   },
   {
     "id": "fontana-di-trevi",
     "name": "Trevi Fountain",
     "emoji": "⛲",
+    "icon": "drop",
     "kind": "place",
     "lat": 41.9009,
     "lon": 12.4833,
@@ -36,12 +53,20 @@
     "text": [
       "The Trevi Fountain is the end of the Aqua Virgo, an aqueduct from 19 BC that still brings water to the city. Nicola Salvi designed the fountain against the back of a palace, and it was finished in 1762: Oceanus rides his shell chariot out of a triumphal arch, pulled by sea horses and tritons over a cliff of rough stone.",
       "Tradition says that a coin thrown over your shoulder into the basin brings you back to Rome. Thousands of euros are fished out every week and given to charity."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/fontana-di-trevi.jpg",
+      "author": "NikonZ7II",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain_-_Roma.jpg"
+    }
   },
   {
     "id": "piazza-navona",
     "name": "Piazza Navona",
     "emoji": "🗿",
+    "icon": "statue",
     "kind": "place",
     "lat": 41.8992,
     "lon": 12.4731,
@@ -49,12 +74,20 @@
     "text": [
       "Piazza Navona keeps the exact shape of the stadium Emperor Domitian built here in the 1st century for athletic contests; the houses stand on its old stands. In the 17th century Pope Innocent X made it a showpiece of Baroque Rome.",
       "In the middle stands Bernini’s Fountain of the Four Rivers, with the Nile, the Ganges, the Danube and the Río de la Plata around an obelisk. Facing it is Borromini’s church of Sant’Agnese in Agone, his great rival’s work."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/piazza-navona.jpg",
+      "author": "NikonZ7II",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_(Rome)_at_night.jpg"
+    }
   },
   {
     "id": "foro-romano",
     "name": "Roman Forum",
     "emoji": "🏺",
+    "icon": "columns",
     "kind": "place",
     "lat": 41.8925,
     "lon": 12.4853,
@@ -62,12 +95,20 @@
     "text": [
       "For a thousand years the Forum was the centre of Roman life: markets, law courts, temples and the Curia, where the Senate met. Triumphal processions rode along its Sacred Way up to the Capitoline Hill.",
       "Buried under centuries of earth and used as cow pasture, it was dug out again from the 19th century on. Today you look down on columns, arches and paving stones from the streets around it."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/foro-romano.jpg",
+      "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a ",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Foro_Romano_Musei_Capitolini_Roma.jpg"
+    }
   },
   {
     "id": "vittoriano",
     "name": "Vittoriano",
     "emoji": "🦅",
+    "icon": "columns",
     "kind": "place",
     "lat": 41.8946,
     "lon": 12.4831,
@@ -75,12 +116,20 @@
     "text": [
       "The Altare della Patria was built between 1885 and 1935 for Victor Emmanuel II, the first king of united Italy, whose bronze statue on horseback stands in the middle. It holds the Tomb of the Unknown Soldier, guarded day and night.",
       "Romans have never quite loved its dazzling white marble, which does not match the city’s warm colours: they call it the typewriter, or the wedding cake. From its terraces you get one of the best views over the city."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/vittoriano.jpg",
+      "author": "Max_Ryazanov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vittoriano_Altare_della_Patria_2013-09-16.jpg"
+    }
   },
   {
     "id": "campo-de-fiori",
     "name": "Campo de’ Fiori",
     "emoji": "🌸",
+    "icon": "flower",
     "kind": "place",
     "lat": 41.8956,
     "lon": 12.4722,
@@ -88,12 +137,20 @@
     "text": [
       "Campo de’ Fiori, the field of flowers, is one of the few squares of old Rome without a church. Every morning it fills with a market of fruit, vegetables and flowers, and in the evening with people at the bars.",
       "Its dark statue shows the philosopher Giordano Bruno, burned for heresy on this spot in 1600; he was put here in 1889, looking towards the Vatican."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/campo-de-fiori.jpg",
+      "author": "Myrabella",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Campo_dei_Fiori.jpg"
+    }
   },
   {
     "id": "colonna-di-marco-aurelio",
     "name": "Column of Marcus Aurelius",
     "emoji": "🗼",
+    "icon": "tower",
     "kind": "place",
     "lat": 41.901,
     "lon": 12.48,
@@ -101,12 +158,20 @@
     "text": [
       "The column was put up around AD 193 to honour Marcus Aurelius, the philosopher emperor. A band of carving winds up it like a scroll, telling the story of his campaigns against the Germanic tribes along the Danube.",
       "Since 1589 Saint Paul has stood on top instead of the emperor. The square around it is named after the column, and the palace beside it is the seat of Italy’s government."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/colonna-di-marco-aurelio.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Columna_de_Marco_Aurelio,_plaza_Colonna,_Roma,_Italia,_2022-09-14,_DD_24-26_HDR.jpg"
+    }
   },
   {
     "id": "largo-di-torre-argentina",
     "name": "Largo di Torre Argentina",
     "emoji": "🐈",
+    "icon": "columns",
     "kind": "place",
     "lat": 41.8955,
     "lon": 12.4768,
@@ -114,50 +179,89 @@
     "text": [
       "When the area was cleared in the 1920s, four temples from the Roman Republic came to light, among the oldest in the city. Beside them stood the Curia of Pompey, where Julius Caesar was stabbed to death on the Ides of March, 44 BC.",
       "The ruins are now also home to a colony of stray cats, looked after by volunteers in a shelter at the edge of the site."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/largo-di-torre-argentina.jpg",
+      "author": "Sotamies",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Curia_of_Pompey.jpg"
+    }
   },
   {
     "id": "vespa",
     "name": "Vespa",
     "emoji": "🛵",
+    "icon": "bike",
     "kind": "vehicle",
     "blurb": "The scooter that put post-war Italy on two wheels and rode through Roman Holiday.",
     "text": [
       "Piaggio launched the Vespa in 1946: a scooter with a steel body that covered the engine and kept your clothes clean, cheap enough for a country that had to get moving again. Its name means wasp, after the buzz of its engine and the shape of its body.",
       "In 1953 Audrey Hepburn and Gregory Peck rode one through Rome in Roman Holiday, and the Vespa became the very picture of la dolce vita. Rome’s streets still buzz with them."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/vespa.jpg",
+      "author": "No machine-readable author provided. Kylet assumed (based on copyright claims).",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:PerthVespa.jpg"
+    }
   },
   {
     "id": "nasoni",
     "name": "Nasoni",
     "emoji": "🚰",
+    "icon": "drop",
     "kind": "thing",
     "blurb": "The little cast-iron drinking fountains on Rome’s street corners, running with fresh water all day.",
     "text": [
       "Some 2,500 nasoni, “big noses”, stand on Rome’s pavements, named after their curved spout. They were put up from the 1870s on and run day and night with water from the city’s aqueducts.",
       "Romans have a trick: block the end of the spout with a finger and the water shoots up out of a little hole on top, like a drinking fountain."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/nasoni.jpg",
+      "author": "Wilfredor",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Nasoni_(Rome).jpg"
+    }
   },
   {
     "id": "sampietrini",
     "name": "Sampietrini",
     "emoji": "🧱",
+    "icon": "wall",
     "kind": "thing",
     "blurb": "The small black cobblestones of basalt that pave the streets of old Rome.",
     "text": [
       "Sampietrini are small cubes of dark volcanic stone, set by hand in sand. They are named after Saint Peter’s Square, where they were first laid on a large scale in the 16th century.",
       "They are beautiful, cheap to mend and terrible for scooters and high heels. In the game the streets of the old centre are cobbled with them."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/sampietrini.jpg",
+      "author": "Alessio Damato",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sampietrini.jpg"
+    }
   },
   {
     "id": "carbonara",
     "name": "Carbonara",
     "emoji": "🍝",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "Pasta with egg, guanciale, pecorino and black pepper: Rome’s own dish, with never a drop of cream.",
     "text": [
       "Spaghetti or rigatoni, crisp guanciale (cured pork cheek), egg yolks, grated pecorino romano and a lot of black pepper: that is all a Roman carbonara is. The egg is stirred through off the heat so it turns creamy without scrambling.",
       "With cacio e pepe, gricia and amatriciana it is one of Rome’s four great pasta dishes, all made from the same few ingredients."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/rome/carbonara.jpg",
+      "author": "Javier Somoza",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg"
+    }
   }
 ]

@@ -3,6 +3,7 @@
     "id": "notre-dame",
     "name": "Notre-Dame",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 48.853,
     "lon": 2.3499,
@@ -10,12 +11,20 @@
     "text": [
       "Notre-Dame de Paris was begun in 1163 and finished almost two centuries later, with its twin towers, its great rose windows and the flying buttresses that hold up its walls. Victor Hugo’s novel of 1831 made it famous all over the world and helped save it from decay.",
       "On 15 April 2019 fire destroyed its roof and its spire. After five years of work it opened again in December 2024, with a new spire built to the old design."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/notre-dame.jpg",
+      "author": "Ali Sabbagh",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_4_October_2017.jpg"
+    }
   },
   {
     "id": "sainte-chapelle",
     "name": "Sainte-Chapelle",
     "emoji": "✨",
+    "icon": "sparkle",
     "kind": "place",
     "lat": 48.8554,
     "lon": 2.345,
@@ -23,12 +32,20 @@
     "text": [
       "King Louis IX built the Sainte-Chapelle in the courtyard of his palace to hold the Crown of Thorns, which he had bought from the emperor of Constantinople. It was consecrated in 1248.",
       "Its upper chapel is famous for its fifteen tall stained-glass windows, telling the Bible in more than a thousand scenes, which make the walls seem to be made of coloured light."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/sainte-chapelle.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Sainte_Chapelle,_Vincennes_140308_1.jpg"
+    }
   },
   {
     "id": "louvre",
     "name": "Louvre",
     "emoji": "🖼️",
+    "icon": "frame",
     "kind": "place",
     "lat": 48.8606,
     "lon": 2.3376,
@@ -36,12 +53,20 @@
     "text": [
       "The Louvre began as a fortress around 1200, became the palace of the kings of France and, after the Revolution, a museum, opened in 1793. It holds the Mona Lisa, the Venus de Milo and the Winged Victory of Samothrace.",
       "In 1989 I. M. Pei’s glass pyramid became its new entrance, controversial at first, now one of the sights of Paris itself."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/louvre.jpg",
+      "author": "Benh LIEU SONG (Flickr)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
+    }
   },
   {
     "id": "pont-neuf",
     "name": "Pont Neuf",
     "emoji": "🌉",
+    "icon": "bridge",
     "kind": "place",
     "lat": 48.8572,
     "lon": 2.3413,
@@ -49,12 +74,20 @@
     "text": [
       "Finished in 1607 under Henri IV, the Pont Neuf was the first bridge in Paris without houses on it, and the first with pavements, so people could stand and look at the river. It crosses the tip of the Île de la Cité in two arms.",
       "On the island, a bronze Henri IV rides at the middle of the bridge; behind him the little Square du Vert-Galant reaches out into the Seine."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/pont-neuf.jpg",
+      "author": "Rmrfstar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_western_sides_of_the_%C3%8Ele_de_la_Cit%C3%A9_and_the_Pont_Neuf,_14_July_2008.jpg"
+    }
   },
   {
     "id": "hotel-de-ville",
     "name": "Hôtel de Ville",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 48.8566,
     "lon": 2.3522,
@@ -62,12 +95,20 @@
     "text": [
       "Paris has been governed from this square, then called the Place de Grève, since 1357. The Renaissance city hall that stood here was set on fire during the Commune of 1871 and rebuilt in the same style, larger and richer, by 1892.",
       "Its front carries more than a hundred statues of famous Parisians. In winter the square in front becomes an ice rink."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/hotel-de-ville.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_fa%C3%A7ade_principale_Paris_11.jpg"
+    }
   },
   {
     "id": "conciergerie",
     "name": "Conciergerie",
     "emoji": "⚖️",
+    "icon": "scale",
     "kind": "place",
     "lat": 48.856,
     "lon": 2.3456,
@@ -75,12 +116,20 @@
     "text": [
       "The Conciergerie is what is left of the Palais de la Cité, the palace of the kings of France in the Middle Ages, with its great Gothic hall and its round towers along the Seine.",
       "During the Revolution it was the prison of those sent before the Revolutionary Tribunal; Queen Marie-Antoinette spent her last weeks here in 1793."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/conciergerie.jpg",
+      "author": "xandru",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paris_Conciergerie_265.jpg"
+    }
   },
   {
     "id": "tour-saint-jacques",
     "name": "Tour Saint-Jacques",
     "emoji": "🗼",
+    "icon": "tower",
     "kind": "place",
     "lat": 48.858,
     "lon": 2.3488,
@@ -88,12 +137,20 @@
     "text": [
       "The tower is all that is left of the church of Saint-Jacques-de-la-Boucherie, where pilgrims gathered before setting off for Santiago de Compostela. The church was pulled down after the Revolution; the tower, finished in 1523, was kept.",
       "Blaise Pascal is said to have repeated his experiments on air pressure here; his statue stands at its foot."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/tour-saint-jacques.jpg",
+      "author": "Fabien Barrau",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tour_Saint-Jacques_au_cr%C3%A9puscule.jpg"
+    }
   },
   {
     "id": "centre-pompidou",
     "name": "Centre Pompidou",
     "emoji": "🎨",
+    "icon": "palette",
     "kind": "place",
     "lat": 48.8606,
     "lon": 2.3522,
@@ -107,6 +164,7 @@
     "id": "bouquinistes",
     "name": "Bouquinistes",
     "emoji": "📚",
+    "icon": "book",
     "kind": "thing",
     "lat": 48.8538,
     "lon": 2.3452,
@@ -114,39 +172,70 @@
     "text": [
       "Since the 16th century booksellers have sold their wares along the Seine. Today some 200 bouquinistes keep their dark green boxes fixed to the parapets of the quays, opened in the morning and locked again at night.",
       "Together the boxes stretch for some three kilometres, with old books, prints, postcards and posters. They are part of the banks of the Seine that UNESCO lists as World Heritage."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/bouquinistes.jpg",
+      "author": "Benh LIEU SONG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg"
+    }
   },
   {
     "id": "metro",
     "name": "Métro entrances",
     "emoji": "🚇",
+    "icon": "train",
     "kind": "thing",
     "blurb": "The green Art Nouveau entrances of the Paris Métro, drawn by Hector Guimard around 1900.",
     "text": [
       "When the first Métro line opened in 1900, Hector Guimard designed its entrances: cast-iron stalks and leaves painted green, with lamps like flower buds and the word Métropolitain in curling letters.",
       "Some 85 of them are still in use, and two of the rare ones with a glass roof survive, at Porte Dauphine and Abbesses."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/metro.jpg",
+      "author": "Coyau",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:M%C3%A9tro_P%C3%A8re_Lachaise_sous_la_neige_01.jpg"
+    }
   },
   {
     "id": "bateaux-mouches",
     "name": "Bateaux-mouches",
     "emoji": "🛥️",
+    "icon": "boat",
     "kind": "vehicle",
     "blurb": "The sightseeing boats that glide up and down the Seine, past Notre-Dame and under the bridges.",
     "text": [
       "The first bateaux-mouches carried passengers along the Seine in the 19th century; today the name covers all the glass-roofed sightseeing boats that sail from the Eiffel Tower to beyond Notre-Dame and back.",
       "From the water you see Paris from below its bridges, and at night the quays and monuments are lit up."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/bateaux-mouches.jpg",
+      "author": "Daniel Stockman",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bateaux_Mouches_Paris_2011.jpg"
+    }
   },
   {
     "id": "croissant",
     "name": "Croissant",
     "emoji": "🥐",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "The flaky, buttery crescent of a Paris breakfast, from the boulangerie on every corner.",
     "text": [
       "The croissant came to Paris from Vienna in the 19th century, as a bread roll in the shape of a crescent; French bakers made it with layers of butter folded into the dough, which puff up into hundreds of flaky sheets.",
       "With a café crème at the counter it is the classic Paris breakfast; a croissant au beurre, made with butter only, is shaped straight, the others curved."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/croissant.jpg",
+      "author": "Petr Kratochvil",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Croissant-Petr_Kratochvil.jpg"
+    }
   }
 ]

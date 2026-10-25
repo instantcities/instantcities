@@ -3,6 +3,7 @@
     "id": "markt",
     "name": "Markt",
     "emoji": "🏰",
+    "icon": "castle",
     "kind": "place",
     "lat": 51.2089,
     "lon": 3.2242,
@@ -10,13 +11,21 @@
     "text": [
       "For eight centuries the Markt has been the heart of Bruges, where markets and tournaments were held. The Belfry rises on its south side; on the east stands the neo-Gothic Provincial Court.",
       "In the middle stand Jan Breydel and Pieter de Coninck, the two Bruges men who led the uprising against the French in 1302, before the Battle of the Golden Spurs."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/markt.jpg",
+      "author": "Wolfgang Staudt [1]",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bruges_Market_Square_and_Belfry.jpg"
+    }
   },
   {
     "id": "belfort",
     "name": "Belfry",
     "local": "Belfort",
     "emoji": "🔔",
+    "icon": "bell",
     "kind": "place",
     "lat": 51.2085,
     "lon": 3.2247,
@@ -24,12 +33,20 @@
     "text": [
       "The Belfry was the town’s watchtower and treasury, where the city’s charters were kept safe. Its lower part dates from the 13th century; the octagonal top was added in the 15th. It leans about a metre to the east.",
       "Climb its 366 steps and you reach the carillon of 47 bells, still played by the city carillonneur."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/belfort.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Belfry_of_Bruges_(Belfort_van_Brugge)_Bell_tower_of_Bruges,_Belgium_(Ank_Kumar,_Infosys_Limited)_01.jpg"
+    }
   },
   {
     "id": "burg",
     "name": "Burg",
     "emoji": "⚖️",
+    "icon": "scale",
     "kind": "place",
     "lat": 51.2083,
     "lon": 3.2272,
@@ -37,13 +54,21 @@
     "text": [
       "The Burg is where the first counts of Flanders built their castle, which gave the square its name. Around it now stand the city hall, the Basilica of the Holy Blood and the Renaissance front of the old court of justice.",
       "Every Belgian era seems to have left one building here: Romanesque, Gothic, Renaissance, Baroque and neoclassical."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/burg.jpg",
+      "author": "Superchilum",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Burg_(Brugge).JPG"
+    }
   },
   {
     "id": "stadhuis",
     "name": "City Hall",
     "local": "Stadhuis",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 51.2078,
     "lon": 3.2275,
@@ -51,13 +76,21 @@
     "text": [
       "Bruges began its city hall in 1376, and it became the model for those of Brussels, Leuven and Ghent. Its front of white stone carries statues of the counts and countesses of Flanders.",
       "Inside, the Gothic Hall has a vaulted oak ceiling from the 14th century and walls painted with the history of the city."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/stadhuis.jpg",
+      "author": "Michael D Beckwith",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Bruges_City_Hall_Interior.jpg"
+    }
   },
   {
     "id": "heilig-bloedbasiliek",
     "name": "Basilica of the Holy Blood",
     "local": "Heilig-Bloedbasiliek",
     "emoji": "🩸",
+    "icon": "drop",
     "kind": "place",
     "lat": 51.208,
     "lon": 3.2268,
@@ -65,12 +98,20 @@
     "text": [
       "The lower chapel dates from the 12th century and is one of the best Romanesque buildings in Flanders. Above it, the richly painted upper chapel keeps a relic said to hold drops of the blood of Christ.",
       "Every year on Ascension Day the relic is carried through the city in the Procession of the Holy Blood, with hundreds of townspeople in costume."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/heilig-bloedbasiliek.jpg",
+      "author": "Jim Linwood",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_of_the_Holy_Blood_-_Saint-Baselius_Chapel,_Bruges,_Belgium..jpg"
+    }
   },
   {
     "id": "rozenhoedkaai",
     "name": "Rozenhoedkaai",
     "emoji": "📸",
+    "icon": "camera",
     "kind": "place",
     "lat": 51.2066,
     "lon": 3.2275,
@@ -78,12 +119,20 @@
     "text": [
       "At the Rozenhoedkaai the Dijver canal turns a corner, and the old houses, the bridge and the Belfry above them line up into the picture everyone knows from postcards.",
       "It was once the quay where the rosary sellers worked, hence its name, the quay of the rosary."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/rozenhoedkaai.jpg",
+      "author": "Marc Ryckaert (MJJR)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Brugge_Rozenhoedkaai_R02.jpg"
+    }
   },
   {
     "id": "gruuthuse",
     "name": "Gruuthuse",
     "emoji": "🍺",
+    "icon": "beer",
     "kind": "place",
     "lat": 51.2054,
     "lon": 3.2254,
@@ -91,13 +140,21 @@
     "text": [
       "The lords of Gruuthuse grew rich on a monopoly: every brewer had to buy gruut, the mix of herbs used to flavour beer before hops, from them. Their 15th-century palace on the Dijver now houses a museum of the city’s history.",
       "A little wooden oratory links it to the Church of Our Lady next door, so the lords could hear mass without going outside."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/gruuthuse.jpg",
+      "author": "Wolfgang Staudt",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gruuthuuse.jpg"
+    }
   },
   {
     "id": "onze-lieve-vrouwekerk",
     "name": "Church of Our Lady",
     "local": "Onze-Lieve-Vrouwekerk",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 51.2047,
     "lon": 3.2245,
@@ -105,13 +162,21 @@
     "text": [
       "The Church of Our Lady was built from the 13th to the 15th century. Its brick tower, 115.6 metres tall, is the highest building in Bruges and one of the tallest brick towers in the world.",
       "Inside is the Madonna and Child by Michelangelo, the only one of his statues to leave Italy in his lifetime, bought by a Bruges merchant in 1506. Charles the Bold and his daughter Mary of Burgundy lie in the choir."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/onze-lieve-vrouwekerk.jpg",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1010_Church_of_Our_Lady_(Bruges)_Photo_by_Giles_Laurent.jpg"
+    }
   },
   {
     "id": "sint-salvatorskathedraal",
     "name": "St Saviour’s Cathedral",
     "local": "Sint-Salvatorskathedraal",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 51.2055,
     "lon": 3.222,
@@ -119,12 +184,20 @@
     "text": [
       "St Saviour’s is the oldest parish church of Bruges, rebuilt in brick from the 13th century on. When the old cathedral of St Donatian on the Burg was pulled down after the French Revolution, St Saviour’s took its place.",
       "Its tower got its odd, romantic top in the 19th century. Inside hang tapestries and paintings by Flemish masters."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/sint-salvatorskathedraal.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Br%C3%BCgge_(B),_St.-Salvator-Kathedrale_--_2018_--_8559.jpg"
+    }
   },
   {
     "id": "begijnhof",
     "name": "Begijnhof",
     "emoji": "🌳",
+    "icon": "tree",
     "kind": "place",
     "lat": 51.2015,
     "lon": 3.2235,
@@ -132,12 +205,20 @@
     "text": [
       "The Princely Beguinage of the Vineyard was founded in 1245 for beguines, single women who lived a religious life without taking vows. Its whitewashed houses stand round a quiet lawn under tall trees.",
       "The last beguine died in 1927; since then Benedictine sisters live here. In spring the lawn is covered in daffodils."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/begijnhof.jpg",
+      "author": "Jean-Pol GRANDMONT",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0_Bruges_B%C3%A9guinage_(2).jpg"
+    }
   },
   {
     "id": "minnewater",
     "name": "Minnewater",
     "emoji": "🦢",
+    "icon": "wave",
     "kind": "place",
     "lat": 51.201,
     "lon": 3.226,
@@ -145,37 +226,61 @@
     "text": [
       "The Minnewater was once the harbour basin where boats from Ghent unloaded. Today it is a quiet lake in a park, with the old lock house and a 15th-century powder tower.",
       "Its name has been read as “lake of love”, and lovers come to its bridge; the swans on it are said to be kept by the city since the 15th century as a penance for beheading a hated official, Pieter Lanchals, whose name means long neck."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/minnewater.jpg",
+      "author": "Marc Ryckaert (MJJR)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Brugge_Minnewater_R01.jpg"
+    }
   },
   {
     "id": "koetsen",
     "name": "Horse carriages",
     "local": "Koetsen",
     "emoji": "🐴",
+    "icon": "horseshoe",
     "kind": "vehicle",
     "blurb": "Horse-drawn carriages clip-clop through the old town from the Markt.",
     "text": [
       "The carriages wait on the Markt and take visitors round the old town on cobbled streets. The horses stop for water at the fountain at the Begijnhof halfway round.",
       "In the game you can ride a horse too, through the same streets."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/koetsen.jpg",
+      "author": "The Land",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A_mundo_1.jpg"
+    }
   },
   {
     "id": "reien",
     "name": "Canal boats",
     "local": "Reien",
     "emoji": "🛶",
+    "icon": "boat",
     "kind": "vehicle",
     "blurb": "Little open boats glide along the reien, the canals of Bruges, under low bridges.",
     "text": [
       "The canals of Bruges, the reien, once linked the city to the sea and made it a trading port of all Europe in the Middle Ages. Today small open boats take visitors along them, from the Rozenhoedkaai to the Begijnhof.",
       "Some bridges are so low that the guide asks everyone to duck."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/bruges/reien.jpg",
+      "author": "ktanaka",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dijver,Brugge_-_panoramio_(2).jpg"
+    }
   },
   {
     "id": "kant",
     "name": "Bruges lace",
     "local": "Kant",
     "emoji": "🧶",
+    "icon": "flower",
     "kind": "thing",
     "blurb": "Bobbin lace, made by hand in Bruges since the 16th century.",
     "text": [

@@ -1,9 +1,10 @@
 {%- comment -%}
-  A landmark's card, on its city's page and on the other landmarks' pages:
-  {% include landmark-card.html landmark=l city=c %}, l a block of _data/landmarks/<c>.json.
+  A landmark's card, on its city's pages and on the other landmarks' pages:
+  {% include landmark-card.html landmark=l city=c %}, l a block of _data/landmarks/<c>.json. Its photo
+  (a square thumbnail, <photo>-s.jpg) where it has one, else its icon.
 {%- endcomment -%}
 {%- assign lm = include.landmark -%}
         <a class="card landmark-card" href="/{{ include.city }}/landmark/{{ lm.id }}/">
-          <span class="emoji" aria-hidden="true">{{ lm.emoji }}</span>
+          {%- if lm.photo %}<img class="thumb" src="{{ lm.photo.src | replace: '.jpg', '-s.jpg' }}" alt="" width="64" height="64" loading="lazy">{% else %}<span class="thumb lm-icon" aria-hidden="true">{% include icon.html name=lm.icon %}</span>{% endif %}
           <span><b>{{ lm.name }}</b><small>{{ lm.blurb }}</small></span>
         </a>

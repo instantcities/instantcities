@@ -3,6 +3,7 @@
     "id": "dam",
     "name": "Dam",
     "emoji": "🏛️",
+    "icon": "columns",
     "kind": "place",
     "lat": 52.3731,
     "lon": 4.8926,
@@ -10,13 +11,21 @@
     "text": [
       "In the 13th century a dam was built across the river Amstel, and the town that grew up around it was called Amstelredamme. The square on that spot is still the heart of the city, with the Royal Palace on one side and the National Monument on the other.",
       "The white National Monument of 1956 remembers the victims of the Second World War; every year on 4 May the king lays a wreath there."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/dam.jpg",
+      "author": "Deerpeter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dam_Square_2026.jpg"
+    }
   },
   {
     "id": "koninklijk-paleis",
     "name": "Royal Palace",
     "local": "Koninklijk Paleis",
     "emoji": "👑",
+    "icon": "crown",
     "kind": "place",
     "lat": 52.3732,
     "lon": 4.8913,
@@ -24,12 +33,20 @@
     "text": [
       "Jacob van Campen built it as the city hall from 1648, at the height of Amsterdam’s Golden Age, on more than 13,000 wooden piles. Its great Citizens’ Hall has the world and the heavens inlaid in its marble floor.",
       "In 1808 Louis Napoleon, Napoleon’s brother and king of Holland, made it his palace. It still belongs to the royal family, who use it for state visits."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/koninklijk-paleis.jpg",
+      "author": "Deerpeter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paleis_op_de_Dam_2026.jpg"
+    }
   },
   {
     "id": "nieuwe-kerk",
     "name": "Nieuwe Kerk",
     "emoji": "⛪",
+    "icon": "church",
     "kind": "place",
     "lat": 52.3742,
     "lon": 4.8913,
@@ -37,12 +54,20 @@
     "text": [
       "The “new” church dates from the 15th century, new compared with the Oude Kerk. Rebuilt after fires, it never got the tall tower that was planned for it.",
       "Since 1814 every Dutch monarch has been sworn in here, most recently King Willem-Alexander in 2013. Today it is used for exhibitions and concerts."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/nieuwe-kerk.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_Nueva,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_10-12_HDR.jpg"
+    }
   },
   {
     "id": "begijnhof",
     "name": "Begijnhof",
     "emoji": "🌳",
+    "icon": "tree",
     "kind": "place",
     "lat": 52.3693,
     "lon": 4.8899,
@@ -50,12 +75,20 @@
     "text": [
       "Behind a plain door on the Spui lies a quiet courtyard of narrow houses round a lawn, built for the Beguines, unmarried Catholic women who lived in a community without taking vows. The last Beguine died in 1971.",
       "Number 34, the Houten Huis, is one of only two wooden houses left in the city centre, from around 1528."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/begijnhof.jpg",
+      "author": "Massimo Catarinella",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BegijnhofAmsterdamPanorama.jpg"
+    }
   },
   {
     "id": "spui",
     "name": "Spui",
     "emoji": "📖",
+    "icon": "book",
     "kind": "place",
     "lat": 52.3687,
     "lon": 4.8896,
@@ -63,13 +96,21 @@
     "text": [
       "The Spui was once a canal, filled in during the 19th century. Today it is a small square of bookshops and old brown cafés, where students and writers meet.",
       "On Fridays it hosts a book market. The little bronze statue of a boy, Het Lieverdje, was a meeting point for the Provo protests of the 1960s."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/spui.jpg",
+      "author": "Jvhertum",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Spui_3.jpg"
+    }
   },
   {
     "id": "bloemenmarkt",
     "name": "Flower market",
     "local": "Bloemenmarkt",
     "emoji": "🌷",
+    "icon": "flower",
     "kind": "place",
     "lat": 52.3667,
     "lon": 4.8913,
@@ -77,12 +118,20 @@
     "text": [
       "The Bloemenmarkt has stood on the Singel since 1862. Its stalls stand on boats along the canal, a reminder of the days when growers brought their flowers into town by water.",
       "Today it sells mostly tulip bulbs, souvenirs and cut flowers, close to the Munttoren."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/bloemenmarkt.jpg",
+      "author": "Massimo Catarinella",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:SingelBloemenmarkt.jpg"
+    }
   },
   {
     "id": "westerkerk",
     "name": "Westerkerk",
     "emoji": "🔔",
+    "icon": "bell",
     "kind": "place",
     "lat": 52.3747,
     "lon": 4.8838,
@@ -90,12 +139,20 @@
     "text": [
       "The Westerkerk was finished in 1631, the largest Protestant church in the city at the time. Its 85-metre tower carries the imperial crown of Maximilian of Austria, which the city was allowed to use in its arms.",
       "Rembrandt was buried here in 1669, in a grave now lost. Anne Frank could hear its bells from her hiding place round the corner."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/westerkerk.jpg",
+      "author": "Jules Verne Times Two",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prinsengracht_canal_and_Westerkerk_tower_seen_from_a_Reestraat_bridge,_Amsterdam,_Netherlands_julesvernex2.jpg"
+    }
   },
   {
     "id": "anne-frank-huis",
     "name": "Anne Frank House",
     "emoji": "📔",
+    "icon": "book",
     "kind": "place",
     "lat": 52.3752,
     "lon": 4.884,
@@ -103,13 +160,21 @@
     "text": [
       "From 1942 to 1944 Anne Frank, her family and four others hid in the secret annex at the back of Prinsengracht 263, behind a bookcase that hid the stairs. There Anne wrote the diary that would be read all over the world.",
       "In August 1944 they were betrayed and deported; Anne died in Bergen-Belsen in 1945. The house is now a museum."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/anne-frank-huis.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Anne-Frank-Huis_--_2015_--_7185.jpg"
+    }
   },
   {
     "id": "grachtengordel",
     "name": "Canal ring",
     "local": "Grachtengordel",
     "emoji": "🛶",
+    "icon": "boat",
     "kind": "thing",
     "lat": 52.37,
     "lon": 4.886,
@@ -117,52 +182,91 @@
     "text": [
       "In the 17th century Amsterdam grew fast and planned its extension as a ring of three great canals, the Herengracht, the Keizersgracht and the Prinsengracht, with the Singel inside them. Merchants built their tall houses along them.",
       "The canal ring has been World Heritage since 2010. Its narrow, gabled houses lean a little forward, so goods could be hoisted up past the windows on the beam at the top."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/grachtengordel.jpg",
+      "author": "Sergey Galyonkin from Berlin, Germany",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_(8697325011).jpg"
+    }
   },
   {
     "id": "fietsen",
     "name": "Bikes",
     "local": "Fietsen",
     "emoji": "🚲",
+    "icon": "bike",
     "kind": "vehicle",
     "blurb": "Amsterdam has more bikes than people, and they rule the streets.",
     "text": [
       "There are more bicycles in Amsterdam than inhabitants, most of them black, sturdy and a little rusty. Cycle paths line almost every street, and at rush hour the bikes outnumber everything else.",
       "Every year thousands of bikes are fished out of the canals. In the game, as in the city, the bike is the way to get around."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/fietsen.jpg",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg"
+    }
   },
   {
     "id": "trams",
     "name": "Trams",
     "emoji": "🚋",
+    "icon": "tram",
     "kind": "vehicle",
     "blurb": "The blue and white trams of the GVB, ringing their way across the Dam and down the Rokin.",
     "text": [
       "Amsterdam has run trams since 1875, first pulled by horses. Today some fifteen lines cross the city, many of them through the old centre past the Dam and Centraal Station.",
       "In the game the tram lines run along the Damrak and the Rokin: watch out for the rails on your bike."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/trams.jpg",
+      "author": "Rob Dammers",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_Wertheimpark_GVB_2115_als_lijn_9_(30728362502).jpg"
+    }
   },
   {
     "id": "rondvaartboot",
     "name": "Canal boats",
     "local": "Rondvaartboot",
     "emoji": "⛴️",
+    "icon": "boat",
     "kind": "vehicle",
     "blurb": "The long glass-roofed boats that take visitors round the canals and under the low bridges.",
     "text": [
       "The rondvaartboten are long and low, built to fit under Amsterdam’s 1,500 bridges. From the water you see the canal houses as they were meant to be seen, from the boats that once brought the goods.",
       "There are also little open boats, and on a summer evening half the city seems to be out on the water."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/rondvaartboot.jpg",
+      "author": "Tobias Niepel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Canal_cruise_boat_in_Amsterdam_(25672670434).jpg"
+    }
   },
   {
     "id": "stroopwafel",
     "name": "Stroopwafel",
     "emoji": "🧇",
+    "icon": "utensils",
     "kind": "food",
     "blurb": "Two thin waffles with a layer of warm caramel syrup between them.",
     "text": [
       "A stroopwafel is made of two thin, crisp waffles stuck together with syrup. It comes from Gouda, around 1800, where bakers made it from leftover crumbs and syrup.",
       "Put one on top of your coffee or tea for a minute and the syrup softens. At markets you can buy them hot off the iron."
-    ]
+    ],
+    "photo": {
+      "src": "/assets/img/photos/amsterdam/stroopwafel.jpg",
+      "author": "Takeaway",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Stroopwafels_01.jpg"
+    }
   }
 ]
