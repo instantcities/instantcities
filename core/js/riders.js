@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { labelSprite, dizzyStars, cop } from './horse.js';
+import { labelSprite, dizzyStars, cop, paintGun } from './horse.js';
 
 // The other ways to get about: on foot, or on a bike. Each character of the stable keeps its name
 // and colours (shirt in its silk, cap in its cap colour). The models work like the animals in
@@ -71,6 +71,8 @@ export function createWalker(def, i) {
     part(new THREE.SphereGeometry(0.065, 8, 6), c.skin, arm, 0, -0.58, 0);
     return arm;
   });
+  const gun = paintGun(); // car+paintball mode: in the right hand, barrel along the arm (so it points ahead when the arm is raised)
+  arms[1].add(gun);
 
   let phase = Math.random() * Math.PI * 2;
   function animate(dt, speed, steer, time, pose = {}) {
@@ -91,10 +93,26 @@ export function createWalker(def, i) {
       arm.rotation.x = Math.sin(phase + s * Math.PI) * 0.9 * k - air * 0.6 - rearK * 2.6;
       arm.rotation.z = (s ? -1 : 1) * (0.08 + rearK * 0.5);
     });
+    gun.visible = !!pose.gun;
+    if (pose.gun) { arms[1].rotation.x = -1.45; arms[1].rotation.z = -0.05; arms[0].rotation.x = -1.35; arms[0].rotation.z = -0.35; } // aiming ahead, the other hand on the barrel
     const bob = Math.abs(Math.sin(phase)) * 0.09 * k * (1 - air);
     body.position.y = bob;
     torso.rotation.x = 0.12 * k + stumbleK * 0.6 - rearK * 0.35;
     body.rotation.z = -steer * 0.1 * k;
+    // sat on the ground to wait (for the tram), legs out in front, hands on the ground behind
+    const sit = pose.sit || 0, e = sit * sit * (3 - 2 * sit);
+    if (e > 0) {
+      for (const L of legs) {
+        L.hip.rotation.x += (-1.45 - L.hip.rotation.x) * e;
+        L.knee.rotation.x += (0.15 - L.knee.rotation.x) * e;
+      }
+      arms.forEach((arm, s) => {
+        arm.rotation.x += (0.5 - arm.rotation.x) * e;
+        arm.rotation.z += ((s ? -1 : 1) * 0.25 - arm.rotation.z) * e;
+      });
+      body.position.y += (0.12 - HIP - body.position.y) * e;
+      torso.rotation.x += (-0.15 - torso.rotation.x) * e;
+    }
     if (stars.visible) stars.rotation.y = time * 7;
   }
 
@@ -131,6 +149,9 @@ export function createCyclist(def, i) {
   torso.rotation.x = 0.45;
   head(rider, 0.78, 0.4, c);
   for (const x of [-0.21, 0.21]) part(new THREE.BoxGeometry(0.1, 0.1, 0.52), c.shirt, rider, x, 0.36, 0.42).rotation.x = 0.6;
+  const gun = paintGun(true); // car+paintball mode: in the right hand, along the handlebar and ahead
+  gun.position.set(0.2, 0.2, 0.62);
+  rider.add(gun);
   const crank = new THREE.Group();
   crank.position.set(0, 0.42, 0.02);
   body.add(crank);
@@ -142,6 +163,7 @@ export function createCyclist(def, i) {
   });
 
   let phase = Math.random() * Math.PI * 2, roll = 0;
+  const sitAt = new THREE.Vector3(0.75, 0.12, 0.1);
   function animate(dt, speed, steer, time, pose = {}) {
     const sp = Math.abs(speed), air = pose.air || 0;
     const rearK = pose.rear ? Math.sin(pose.rear * Math.PI) : 0;
@@ -161,12 +183,24 @@ export function createCyclist(def, i) {
     // a wheelie when it rears up, nose down in a stumble, front up a little in a jump
     body.rotation.x = -rearK * 0.5 + stumbleK * 0.25 - air * 0.15;
     body.position.z = rearK * 0.2;
-    rider.position.y = 1.0 + Math.abs(Math.sin(phase)) * 0.03;
+    rider.position.set(0, 1.0 + Math.abs(Math.sin(phase)) * 0.03, -0.2);
+    rider.rotation.set(0, 0, 0);
+    gun.visible = !!pose.gun;
+    // off the bike, sat on the ground beside it to wait (for the tram), legs out in front
+    const sit = pose.sit || 0, e = sit * sit * (3 - 2 * sit);
+    if (e > 0) {
+      for (const L of legs) {
+        L.hip.rotation.x += (-1.45 - L.hip.rotation.x) * e;
+        L.knee.rotation.x += (0.15 - L.knee.rotation.x) * e;
+      }
+      rider.position.lerp(sitAt, e);
+      rider.rotation.set(-0.35 * e, -0.4 * e, 0);
+    }
     if (stars.visible) stars.rotation.y = time * 7;
   }
 
   return {
-    root, spin, stars, label, animate, species: 'bike', quiet: true, // no footsteps
+    root, spin, stars, label, animate, body, rider, species: 'bike', quiet: true, // no footsteps
     setName: (name, color = def.silk) => label.userData.setText(name, color),
     get phase() { return phase; },
   };

@@ -1,0 +1,38 @@
+{%- comment -%}
+  The centre of a city as a drawing with a numbered pin per place of its guide, and the list of those
+  places beside it: {% include city-map.html city=C %}, C a block of _data/cities.yml. The drawing is
+  assets/maps/<id>.svg and where the pins go is _data/maps/<id>.json (node tools/about.mjs); a place
+  that lies outside the drawing keeps its number in the list, without a pin. A place that is one of
+  the city's landmarks links to its page.
+{%- endcomment -%}
+{%- assign cc = include.city -%}
+{%- assign G = site.data.about[cc.id] -%}
+{%- assign M = site.data.maps[cc.id] -%}
+<div class="citymap">
+  <figure class="citymap-draw">
+    <div class="citymap-frame" style="aspect-ratio: {{ M.width }} / {{ M.height }}">
+      <img src="/assets/maps/{{ cc.id }}.svg?v={{ site.time | date: '%s' }}" width="{{ M.width }}" height="{{ M.height }}" alt="" loading="lazy">
+      <svg viewBox="0 0 {{ M.width }} {{ M.height }}" role="img" aria-label="Map of the centre of {{ cc.name }} with its key places numbered">
+        {%- for p in G.places %}{% assign pin = M.pins[p.id] %}{% if pin.line %}
+        <path class="line" data-place="{{ p.id }}" d="{{ pin.line }}"/>
+        {%- endif %}{% endfor %}
+        {%- for p in G.places %}{% assign pin = M.pins[p.id] %}{% if pin %}
+        <a href="#place-{{ p.id }}" class="pin kind-{{ p.kind }}" data-place="{{ p.id }}"><title>{{ p.name }}</title><circle cx="{{ pin.x }}" cy="{{ pin.y }}" r="22"/><text x="{{ pin.x }}" y="{{ pin.y | plus: 8 }}">{{ forloop.index }}</text></a>
+        {%- endif %}{% endfor %}
+      </svg>
+    </div>
+    <figcaption>The centre of {{ cc.name }}, drawn from the same OpenStreetMap data as the game. <a href="https://www.openstreetmap.org/#map=15/{{ cc.lat }}/{{ cc.lon }}" rel="noopener">{% include icon.html name="pin" %} The whole city on OpenStreetMap</a></figcaption>
+  </figure>
+  <ol class="citymap-list">
+    {%- for p in G.places %}
+    <li id="place-{{ p.id }}" data-place="{{ p.id }}">
+      <span class="num{% unless M.pins[p.id] %} off{% endunless %}">{{ forloop.index }}</span>
+      <div>
+        <b>{% if p.landmark %}<a href="/{{ cc.id }}/landmark/{{ p.landmark }}/">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
+        {%- if p.local %} <i>{{ p.local }}</i>{% endif %} <small class="kind">{{ p.kind }}</small>
+        <p>{{ p.blurb }}</p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</div>

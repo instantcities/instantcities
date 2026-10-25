@@ -1,0 +1,6009 @@
+{
+ "city": "ghent",
+ "street": "Snoekstraat",
+ "slug": "snoekstraat",
+ "photos": {
+  "1124244122363302-312": {
+   "file": "photos/1124244122363302-312.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1124244122363302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0478362,
+    3.7415055,
+    312,
+    0.5
+   ]
+  },
+  "3507135719593456-326": {
+   "file": "photos/3507135719593456-326.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3507135719593456",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0479102,
+    3.7414681,
+    326,
+    0.5
+   ]
+  },
+  "1124244122363302-294": {
+   "file": "photos/1124244122363302-294.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1124244122363302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0478362,
+    3.7415055,
+    294,
+    0.5
+   ]
+  },
+  "349097311632035-53": {
+   "file": "photos/349097311632035-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=349097311632035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047066,
+    3.7427321,
+    53,
+    0.5
+   ]
+  },
+  "1297645798113795-76": {
+   "file": "photos/1297645798113795-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1297645798113795",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0469499,
+    3.7429268,
+    76,
+    0.5
+   ]
+  },
+  "485455544615278-35": {
+   "file": "photos/485455544615278-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=485455544615278",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467107,
+    3.7433507,
+    35,
+    0.5
+   ]
+  },
+  "407406685790156": {
+   "file": "photos/407406685790156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=407406685790156",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0463101,
+    3.7434284,
+    33,
+    0.526
+   ]
+  },
+  "1592797938010733-79": {
+   "file": "photos/1592797938010733-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1592797938010733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046415,
+    3.7438287,
+    79,
+    0.5
+   ]
+  },
+  "336360777826221": {
+   "file": "photos/336360777826221.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=336360777826221",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0477468,
+    3.7409761,
+    54,
+    0.484
+   ]
+  },
+  "266381315242953": {
+   "file": "photos/266381315242953.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=266381315242953",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0477488,
+    3.7409778,
+    54,
+    0.492
+   ]
+  },
+  "1273987767233381-48": {
+   "file": "photos/1273987767233381-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273987767233381",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0477734,
+    3.7415946,
+    48,
+    0.5
+   ]
+  },
+  "1273987767233381-83": {
+   "file": "photos/1273987767233381-83.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273987767233381",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0477734,
+    3.7415946,
+    83,
+    0.5
+   ]
+  },
+  "988220623165211-78": {
+   "file": "photos/988220623165211-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988220623165211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047712,
+    3.7416958,
+    78,
+    0.5
+   ]
+  },
+  "1007928131153899-27": {
+   "file": "photos/1007928131153899-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007928131153899",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0476519,
+    3.7417992,
+    27,
+    0.5
+   ]
+  },
+  "1162711782122855-8": {
+   "file": "photos/1162711782122855-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1162711782122855",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471246,
+    3.7426408,
+    8,
+    0.5
+   ]
+  },
+  "1162711782122855-51": {
+   "file": "photos/1162711782122855-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1162711782122855",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471246,
+    3.7426408,
+    51,
+    0.5
+   ]
+  },
+  "1864091130792739-11": {
+   "file": "photos/1864091130792739-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1864091130792739",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470092,
+    3.7428309,
+    11,
+    0.5
+   ]
+  },
+  "1297645798113795-6": {
+   "file": "photos/1297645798113795-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1297645798113795",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0469499,
+    3.7429268,
+    6,
+    0.5
+   ]
+  },
+  "1297645798113795-40": {
+   "file": "photos/1297645798113795-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1297645798113795",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0469499,
+    3.7429268,
+    40,
+    0.5
+   ]
+  },
+  "1517827368898985-64": {
+   "file": "photos/1517827368898985-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1517827368898985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468871,
+    3.7430382,
+    64,
+    0.5
+   ]
+  },
+  "1763604411096046-26": {
+   "file": "photos/1763604411096046-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1763604411096046",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468229,
+    3.7431446,
+    26,
+    0.5
+   ]
+  },
+  "1528667074490923-56": {
+   "file": "photos/1528667074490923-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1528667074490923",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467611,
+    3.7432257,
+    56,
+    0.5
+   ]
+  },
+  "639507132077044-32": {
+   "file": "photos/639507132077044-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=639507132077044",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467112,
+    3.7432924,
+    32,
+    0.5
+   ]
+  },
+  "591573370376488-59": {
+   "file": "photos/591573370376488-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591573370376488",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466762,
+    3.7434177,
+    59,
+    0.5
+   ]
+  },
+  "503310339317214": {
+   "file": "photos/503310339317214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=503310339317214",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0462859,
+    3.7434047,
+    30,
+    0.526
+   ]
+  },
+  "494685189989561": {
+   "file": "photos/494685189989561.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=494685189989561",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.046264,
+    3.7433889,
+    27,
+    0.526
+   ]
+  },
+  "404617805646102": {
+   "file": "photos/404617805646102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=404617805646102",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0463565,
+    3.7434909,
+    40,
+    0.526
+   ]
+  },
+  "744412511143580": {
+   "file": "photos/744412511143580.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=744412511143580",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0464694,
+    3.7437128,
+    42,
+    0.526
+   ]
+  },
+  "1286399736065558": {
+   "file": "photos/1286399736065558.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286399736065558",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0463988,
+    3.7435662,
+    44,
+    0.526
+   ]
+  },
+  "1592797938010733-35": {
+   "file": "photos/1592797938010733-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1592797938010733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046415,
+    3.7438287,
+    35,
+    0.5
+   ]
+  },
+  "988220623165211-37": {
+   "file": "photos/988220623165211-37.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988220623165211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047712,
+    3.7416958,
+    37,
+    0.5
+   ]
+  },
+  "1007928131153899-71": {
+   "file": "photos/1007928131153899-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007928131153899",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0476519,
+    3.7417992,
+    71,
+    0.5
+   ]
+  },
+  "349097311632035-17": {
+   "file": "photos/349097311632035-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=349097311632035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047066,
+    3.7427321,
+    17,
+    0.5
+   ]
+  },
+  "1864091130792739-48": {
+   "file": "photos/1864091130792739-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1864091130792739",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470092,
+    3.7428309,
+    48,
+    0.5
+   ]
+  },
+  "1517827368898985-21": {
+   "file": "photos/1517827368898985-21.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1517827368898985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468871,
+    3.7430382,
+    21,
+    0.5
+   ]
+  },
+  "1528667074490923-14": {
+   "file": "photos/1528667074490923-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1528667074490923",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467611,
+    3.7432257,
+    14,
+    0.5
+   ]
+  },
+  "485455544615278-81": {
+   "file": "photos/485455544615278-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=485455544615278",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467107,
+    3.7433507,
+    81,
+    0.5
+   ]
+  },
+  "1762326094575614": {
+   "file": "photos/1762326094575614.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1762326094575614",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0463339,
+    3.7434574,
+    36,
+    0.526
+   ]
+  },
+  "1874603172704370": {
+   "file": "photos/1874603172704370.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1874603172704370",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0478935,
+    3.7413142,
+    86,
+    0.492
+   ]
+  },
+  "3745417038903504": {
+   "file": "photos/3745417038903504.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3745417038903504",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0477882,
+    3.7410544,
+    54,
+    0.484
+   ]
+  },
+  "988220623165211-208": {
+   "file": "photos/988220623165211-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988220623165211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047712,
+    3.7416958,
+    208,
+    0.5
+   ]
+  },
+  "1007928131153899-225": {
+   "file": "photos/1007928131153899-225.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007928131153899",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0476519,
+    3.7417992,
+    225,
+    0.5
+   ]
+  },
+  "1763604411096046-263": {
+   "file": "photos/1763604411096046-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1763604411096046",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468229,
+    3.7431446,
+    263,
+    0.5
+   ]
+  },
+  "639338108456284-262": {
+   "file": "photos/639338108456284-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=639338108456284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465664,
+    3.7435825,
+    262,
+    0.5
+   ]
+  },
+  "1592797938010733-263": {
+   "file": "photos/1592797938010733-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1592797938010733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046415,
+    3.7438287,
+    263,
+    0.5
+   ]
+  },
+  "1339768950381067-208": {
+   "file": "photos/1339768950381067-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    208,
+    0.5
+   ]
+  },
+  "1124244122363302-194": {
+   "file": "photos/1124244122363302-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1124244122363302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0478362,
+    3.7415055,
+    194,
+    0.5
+   ]
+  },
+  "1273987767233381-188": {
+   "file": "photos/1273987767233381-188.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273987767233381",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0477734,
+    3.7415946,
+    188,
+    0.5
+   ]
+  },
+  "1007928131153899-189": {
+   "file": "photos/1007928131153899-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007928131153899",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0476519,
+    3.7417992,
+    189,
+    0.5
+   ]
+  },
+  "1297645798113795-263": {
+   "file": "photos/1297645798113795-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1297645798113795",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0469499,
+    3.7429268,
+    263,
+    0.5
+   ]
+  },
+  "1297645798113795-204": {
+   "file": "photos/1297645798113795-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1297645798113795",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0469499,
+    3.7429268,
+    204,
+    0.5
+   ]
+  },
+  "1517827368898985-231": {
+   "file": "photos/1517827368898985-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1517827368898985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468871,
+    3.7430382,
+    231,
+    0.5
+   ]
+  },
+  "485455544615278-229": {
+   "file": "photos/485455544615278-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=485455544615278",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467107,
+    3.7433507,
+    229,
+    0.5
+   ]
+  },
+  "591573370376488-242": {
+   "file": "photos/591573370376488-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591573370376488",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466762,
+    3.7434177,
+    242,
+    0.5
+   ]
+  },
+  "591573370376488-203": {
+   "file": "photos/591573370376488-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591573370376488",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466762,
+    3.7434177,
+    203,
+    0.5
+   ]
+  },
+  "1294033181814535-228": {
+   "file": "photos/1294033181814535-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1294033181814535",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046623,
+    3.743491,
+    228,
+    0.5
+   ]
+  },
+  "1131575615297655-217": {
+   "file": "photos/1131575615297655-217.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1131575615297655",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464973,
+    3.7436962,
+    217,
+    0.5
+   ]
+  },
+  "1131575615297655-184": {
+   "file": "photos/1131575615297655-184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1131575615297655",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464973,
+    3.7436962,
+    184,
+    0.5
+   ]
+  },
+  "1339768950381067-254": {
+   "file": "photos/1339768950381067-254.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    254,
+    0.5
+   ]
+  },
+  "1339768950381067-243": {
+   "file": "photos/1339768950381067-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    243,
+    0.5
+   ]
+  },
+  "1339768950381067-198": {
+   "file": "photos/1339768950381067-198.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    198,
+    0.5
+   ]
+  },
+  "1339768950381067-189": {
+   "file": "photos/1339768950381067-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    189,
+    0.5
+   ]
+  },
+  "320925840209539": {
+   "file": "photos/320925840209539.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=320925840209539",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-22",
+   "cam": [
+    51.046202,
+    3.7448364,
+    219,
+    1.542
+   ]
+  },
+  "341855327993592": {
+   "file": "photos/341855327993592.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=341855327993592",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0462472,
+    3.7448927,
+    219,
+    1.905
+   ]
+  },
+  "988220623165211-255": {
+   "file": "photos/988220623165211-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=988220623165211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047712,
+    3.7416958,
+    255,
+    0.5
+   ]
+  },
+  "1007928131153899-265": {
+   "file": "photos/1007928131153899-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1007928131153899",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0476519,
+    3.7417992,
+    265,
+    0.5
+   ]
+  },
+  "1162711782122855-196": {
+   "file": "photos/1162711782122855-196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1162711782122855",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471246,
+    3.7426408,
+    196,
+    0.5
+   ]
+  },
+  "639338108456284-225": {
+   "file": "photos/639338108456284-225.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=639338108456284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465664,
+    3.7435825,
+    225,
+    0.5
+   ]
+  },
+  "1131575615297655-256": {
+   "file": "photos/1131575615297655-256.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1131575615297655",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464973,
+    3.7436962,
+    256,
+    0.5
+   ]
+  },
+  "1592797938010733-206": {
+   "file": "photos/1592797938010733-206.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1592797938010733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046415,
+    3.7438287,
+    206,
+    0.5
+   ]
+  },
+  "1339768950381067-226": {
+   "file": "photos/1339768950381067-226.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1339768950381067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463803,
+    3.7441473,
+    226,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 12694,
+   "at": [
+    1535.55,
+    750.75
+   ],
+   "centre": [
+    1527.8,
+    740.8
+   ],
+   "width": 7.8,
+   "faces": 51,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 17.4,
+   "top": 19.9,
+   "kind": "house",
+   "ring": [
+    1532.5,
+    753.2,
+    1538.6,
+    748.3,
+    1527.2,
+    733.8,
+    1524.6,
+    736.2,
+    1523.7,
+    735.1,
+    1519.9,
+    738.1
+   ],
+   "id": "snoekstraat-51-01",
+   "latLon": [
+    51.047943,
+    3.741319
+   ],
+   "photos": [
+    {
+     "id": "1124244122363302-312",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.416,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12695,
+   "at": [
+    1542,
+    745.55
+   ],
+   "centre": [
+    1534.2,
+    737.3
+   ],
+   "width": 8.7,
+   "faces": 51,
+   "toStreet": 11.5,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 19.9,
+   "kind": "house",
+   "ring": [
+    1538.6,
+    748.3,
+    1545.4,
+    742.8,
+    1533.3,
+    728.2,
+    1526.7,
+    733.2,
+    1527.2,
+    733.8
+   ],
+   "id": "snoekstraat-51-02",
+   "latLon": [
+    51.04798,
+    3.741393
+   ],
+   "photos": [
+    {
+     "id": "3507135719593456-326",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.308,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12693,
+   "at": [
+    1529.6,
+    755.5
+   ],
+   "centre": [
+    1523.3,
+    747.9
+   ],
+   "width": 7.4,
+   "faces": 52,
+   "toStreet": 12.9,
+   "floors": 4,
+   "eaves": 16,
+   "top": 20,
+   "kind": "house",
+   "ring": [
+    1526.7,
+    757.8,
+    1532.5,
+    753.2,
+    1519.9,
+    738.1,
+    1514.1,
+    742.6
+   ],
+   "id": "snoekstraat-52-03",
+   "latLon": [
+    51.047908,
+    3.741251
+   ],
+   "photos": [
+    {
+     "id": "1124244122363302-294",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.439,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13135,
+   "at": [
+    1603.75,
+    807.25
+   ],
+   "centre": [
+    1610.6,
+    801.1
+   ],
+   "width": 5.4,
+   "faces": 133,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1601.8,
+    805.4,
+    1605.7,
+    809.1,
+    1616.2,
+    798.5,
+    1616.7,
+    798,
+    1612.7,
+    794.4
+   ],
+   "id": "snoekstraat-133-01",
+   "latLon": [
+    51.047534,
+    3.742099
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13161,
+   "at": [
+    1665.55,
+    867.2
+   ],
+   "centre": [
+    1675.7,
+    857.7
+   ],
+   "width": 5.3,
+   "faces": 133,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1663.6,
+    865.4,
+    1667.5,
+    869,
+    1680.5,
+    856.2,
+    1681.3,
+    855.4,
+    1679.4,
+    853.7,
+    1680,
+    853.1,
+    1677.9,
+    850.9
+   ],
+   "id": "snoekstraat-133-02",
+   "latLon": [
+    51.0471,
+    3.742805
+   ],
+   "photos": [
+    {
+     "id": "349097311632035-53",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.329,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13170,
+   "at": [
+    1684.8000000000002,
+    885.9000000000001
+   ],
+   "centre": [
+    1690.7,
+    880.1
+   ],
+   "width": 5.2,
+   "faces": 133,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1682.9,
+    884.1,
+    1686.7,
+    887.7,
+    1698.4,
+    876,
+    1694.9,
+    872.4
+   ],
+   "id": "snoekstraat-133-03",
+   "latLon": [
+    51.046965,
+    3.743025
+   ],
+   "photos": [
+    {
+     "id": "1297645798113795-76",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.357,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13198,
+   "at": [
+    1716.4,
+    916.7
+   ],
+   "centre": [
+    1725.2,
+    908.7
+   ],
+   "width": 5,
+   "faces": 133,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1714.6,
+    915,
+    1718.2,
+    918.4,
+    1732,
+    904.9,
+    1731.1,
+    904,
+    1728.8,
+    906.1,
+    1726.3,
+    903.5
+   ],
+   "id": "snoekstraat-133-04",
+   "latLon": [
+    51.046742,
+    3.743386
+   ],
+   "photos": [
+    {
+     "id": "485455544615278-35",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.288,
+      0.755
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13191,
+   "at": [
+    1742.3,
+    942
+   ],
+   "centre": [
+    1750.9,
+    933.8
+   ],
+   "width": 5,
+   "faces": 133,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 16.9,
+   "kind": "house",
+   "ring": [
+    1740.5,
+    940.3,
+    1744.1,
+    943.7,
+    1757.8,
+    930.2,
+    1756.5,
+    928.9,
+    1754.3,
+    931,
+    1752.1,
+    928.9
+   ],
+   "id": "snoekstraat-133-05",
+   "latLon": [
+    51.046559,
+    3.743683
+   ],
+   "photos": [
+    {
+     "id": "407406685790156",
+     "metres": 33,
+     "off": 0,
+     "span": [
+      0.466,
+      0.529
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13222,
+   "at": [
+    1761.6,
+    960.6
+   ],
+   "centre": [
+    1769.8,
+    952.1
+   ],
+   "width": 4.7,
+   "faces": 133,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 14,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    1759.9,
+    959,
+    1763.3,
+    962.2,
+    1776.3,
+    948,
+    1775.3,
+    947.1,
+    1773.1,
+    949.1,
+    1771.1,
+    947.2
+   ],
+   "id": "snoekstraat-133-06",
+   "latLon": [
+    51.046424,
+    3.743903
+   ],
+   "photos": [
+    {
+     "id": "1592797938010733-79",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.315,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12785,
+   "at": [
+    1558.1,
+    762.95
+   ],
+   "centre": [
+    1559,
+    759.3
+   ],
+   "width": 13.6,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1557.9,
+    751.8,
+    1553.4,
+    755.4,
+    1553.2,
+    758.2,
+    1563,
+    767.7,
+    1567.4,
+    763.5
+   ],
+   "id": "snoekstraat-134-07",
+   "latLon": [
+    51.047854,
+    3.741577
+   ],
+   "photos": [
+    {
+     "id": "336360777826221",
+     "metres": 44,
+     "off": 20,
+     "span": [
+      0.614,
+      0.733
+     ]
+    },
+    {
+     "id": "266381315242953",
+     "metres": 43,
+     "off": 20,
+     "span": [
+      0.618,
+      0.739
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12786,
+   "at": [
+    1564.8,
+    769.45
+   ],
+   "centre": [
+    1571.9,
+    761.6
+   ],
+   "width": 5,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1563,
+    767.7,
+    1566.6,
+    771.2,
+    1578.6,
+    759.2,
+    1577.4,
+    757.7,
+    1576.6,
+    758.4,
+    1574.1,
+    755.2,
+    1571.6,
+    759.5,
+    1567.4,
+    763.5
+   ],
+   "id": "snoekstraat-134-08",
+   "latLon": [
+    51.047807,
+    3.741653
+   ],
+   "photos": [
+    {
+     "id": "1273987767233381-48",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.312,
+      0.671
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13120,
+   "at": [
+    1568.65,
+    773.1500000000001
+   ],
+   "centre": [
+    1575.3,
+    767.3
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1566.6,
+    771.2,
+    1570.7,
+    775.1,
+    1578.4,
+    767.3,
+    1582,
+    763.7,
+    1578.6,
+    759.2
+   ],
+   "id": "snoekstraat-134-09",
+   "latLon": [
+    51.047781,
+    3.741697
+   ],
+   "photos": [
+    {
+     "id": "1273987767233381-83",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.354,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13122,
+   "at": [
+    1576.65,
+    780.95
+   ],
+   "centre": [
+    1582.8,
+    774.7
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1574.6,
+    779,
+    1578.7,
+    782.9,
+    1585.9,
+    775.7,
+    1589.7,
+    771.7,
+    1585.7,
+    767.9,
+    1582.4,
+    771.2
+   ],
+   "id": "snoekstraat-134-10",
+   "latLon": [
+    51.047724,
+    3.741789
+   ],
+   "photos": [
+    {
+     "id": "988220623165211-78",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.327,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13123,
+   "at": [
+    1580.7,
+    784.8499999999999
+   ],
+   "centre": [
+    1584.3,
+    781.3
+   ],
+   "width": 5.6,
+   "faces": 134,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1578.7,
+    782.9,
+    1582.7,
+    786.8,
+    1589.9,
+    779.6,
+    1585.9,
+    775.7
+   ],
+   "id": "snoekstraat-134-11",
+   "latLon": [
+    51.047696,
+    3.741835
+   ],
+   "photos": [
+    {
+     "id": "1007928131153899-27",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.327,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13125,
+   "at": [
+    1588.25,
+    792.3
+   ],
+   "centre": [
+    1593.7,
+    786.9
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1586.2,
+    790.3,
+    1590.3,
+    794.3,
+    1601.1,
+    783.4,
+    1597.1,
+    779.4
+   ],
+   "id": "snoekstraat-134-12",
+   "latLon": [
+    51.047642,
+    3.741921
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13137,
+   "at": [
+    1595.8,
+    799.7
+   ],
+   "centre": [
+    1602.3,
+    793.2
+   ],
+   "width": 5.5,
+   "faces": 134,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1593.8,
+    797.8,
+    1597.8,
+    801.6,
+    1610.8,
+    788.6,
+    1606.7,
+    784.8
+   ],
+   "id": "snoekstraat-134-13",
+   "latLon": [
+    51.047588,
+    3.742008
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13136,
+   "at": [
+    1599.8,
+    803.5
+   ],
+   "centre": [
+    1607.6,
+    796.5
+   ],
+   "width": 5.5,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1597.8,
+    801.6,
+    1601.8,
+    805.4,
+    1612.7,
+    794.4,
+    1614.8,
+    792.3,
+    1610.8,
+    788.6
+   ],
+   "id": "snoekstraat-134-14",
+   "latLon": [
+    51.047561,
+    3.742053
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13134,
+   "at": [
+    1607.7,
+    811.05
+   ],
+   "centre": [
+    1613,
+    805.8
+   ],
+   "width": 5.6,
+   "faces": 134,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1605.7,
+    809.1,
+    1609.7,
+    813,
+    1620.2,
+    802.4,
+    1616.2,
+    798.5
+   ],
+   "id": "snoekstraat-134-15",
+   "latLon": [
+    51.047506,
+    3.742144
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13132,
+   "at": [
+    1615.6,
+    818.8499999999999
+   ],
+   "centre": [
+    1621.2,
+    813.2
+   ],
+   "width": 5.9,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1613.5,
+    816.8,
+    1617.7,
+    820.9,
+    1628.9,
+    809.7,
+    1624.6,
+    805.6
+   ],
+   "id": "snoekstraat-134-16",
+   "latLon": [
+    51.04745,
+    3.742234
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13131,
+   "at": [
+    1619.8000000000002,
+    822.9
+   ],
+   "centre": [
+    1626.4,
+    815.4
+   ],
+   "width": 5.8,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1617.7,
+    820.9,
+    1621.9,
+    824.9,
+    1633.7,
+    812.9,
+    1629.7,
+    808.8,
+    1628.9,
+    809.7
+   ],
+   "id": "snoekstraat-134-17",
+   "latLon": [
+    51.047421,
+    3.742282
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13130,
+   "at": [
+    1623.95,
+    826.9
+   ],
+   "centre": [
+    1632.4,
+    818.3
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1621.9,
+    824.9,
+    1626,
+    828.9,
+    1638.6,
+    816.1,
+    1639.2,
+    815.6,
+    1635.1,
+    811.6,
+    1633.7,
+    812.9
+   ],
+   "id": "snoekstraat-134-18",
+   "latLon": [
+    51.047392,
+    3.74233
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13129,
+   "at": [
+    1628.1,
+    830.95
+   ],
+   "centre": [
+    1635.8,
+    824
+   ],
+   "width": 5.9,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1626,
+    828.9,
+    1630.2,
+    833,
+    1641.3,
+    821.8,
+    1643,
+    820.1,
+    1638.6,
+    816.1
+   ],
+   "id": "snoekstraat-134-19",
+   "latLon": [
+    51.047362,
+    3.742377
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13128,
+   "at": [
+    1632.3000000000002,
+    835.05
+   ],
+   "centre": [
+    1637.8,
+    829.5
+   ],
+   "width": 5.9,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1630.2,
+    833,
+    1634.4,
+    837.1,
+    1645.4,
+    826,
+    1641.3,
+    821.8
+   ],
+   "id": "snoekstraat-134-20",
+   "latLon": [
+    51.047333,
+    3.742425
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13127,
+   "at": [
+    1636.5500000000002,
+    839.2
+   ],
+   "centre": [
+    1643.1,
+    831.8
+   ],
+   "width": 6,
+   "faces": 134,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1634.4,
+    837.1,
+    1638.7,
+    841.3,
+    1650.5,
+    829.4,
+    1646.4,
+    825,
+    1645.4,
+    826
+   ],
+   "id": "snoekstraat-134-21",
+   "latLon": [
+    51.047303,
+    3.742474
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13166,
+   "at": [
+    1643,
+    845.4
+   ],
+   "centre": [
+    1651.4,
+    837.3
+   ],
+   "width": 11.9,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 16.8,
+   "kind": "yes",
+   "ring": [
+    1638.7,
+    841.3,
+    1647.3,
+    849.5,
+    1655.8,
+    840.6,
+    1654.5,
+    839.3,
+    1659.8,
+    834,
+    1652.9,
+    827,
+    1650.5,
+    829.4
+   ],
+   "id": "snoekstraat-134-22",
+   "latLon": [
+    51.047258,
+    3.742547
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13165,
+   "at": [
+    1648.9,
+    851.05
+   ],
+   "centre": [
+    1654.7,
+    844.4
+   ],
+   "width": 4.5,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1647.3,
+    849.5,
+    1650.5,
+    852.6,
+    1661.7,
+    841.2,
+    1658.3,
+    838,
+    1655.8,
+    840.6
+   ],
+   "id": "snoekstraat-134-23",
+   "latLon": [
+    51.047217,
+    3.742615
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13164,
+   "at": [
+    1652.5,
+    854.55
+   ],
+   "centre": [
+    1658.1,
+    848.8
+   ],
+   "width": 5.6,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1650.5,
+    852.6,
+    1654.5,
+    856.5,
+    1665.8,
+    845,
+    1661.7,
+    841.2
+   ],
+   "id": "snoekstraat-134-24",
+   "latLon": [
+    51.047192,
+    3.742656
+   ],
+   "photos": [
+    {
+     "id": "1162711782122855-8",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.398,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13163,
+   "at": [
+    1657.15,
+    859.05
+   ],
+   "centre": [
+    1669.4,
+    847.4
+   ],
+   "width": 7.4,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1654.5,
+    856.5,
+    1659.8,
+    861.6,
+    1668.2,
+    853.2,
+    1671.7,
+    849.6,
+    1669.8,
+    847.6,
+    1675.4,
+    841.9,
+    1677.4,
+    843.9,
+    1679.1,
+    842.2,
+    1673.7,
+    836.9,
+    1668.1,
+    842.7,
+    1665.8,
+    845
+   ],
+   "id": "snoekstraat-134-25",
+   "latLon": [
+    51.047159,
+    3.742709
+   ],
+   "photos": [
+    {
+     "id": "1162711782122855-51",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.247,
+      0.73
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13160,
+   "at": [
+    1669.5,
+    870.95
+   ],
+   "centre": [
+    1676,
+    864.6
+   ],
+   "width": 5.6,
+   "faces": 134,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1667.5,
+    869,
+    1671.5,
+    872.9,
+    1684.7,
+    860.3,
+    1680.5,
+    856.2
+   ],
+   "id": "snoekstraat-134-26",
+   "latLon": [
+    51.047073,
+    3.74285
+   ],
+   "photos": [
+    {
+     "id": "1864091130792739-11",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.387,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13173,
+   "at": [
+    1677.15,
+    878.5
+   ],
+   "centre": [
+    1683,
+    872.9
+   ],
+   "width": 5.4,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1675.2,
+    876.6,
+    1679.1,
+    880.4,
+    1690.7,
+    869.2,
+    1686.8,
+    865.5
+   ],
+   "id": "snoekstraat-134-27",
+   "latLon": [
+    51.047018,
+    3.742938
+   ],
+   "photos": [
+    {
+     "id": "1297645798113795-6",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.403,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13172,
+   "at": [
+    1681,
+    882.25
+   ],
+   "centre": [
+    1690.9,
+    872.6
+   ],
+   "width": 5.3,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 4,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1679.1,
+    880.4,
+    1682.9,
+    884.1,
+    1694.9,
+    872.4,
+    1697.8,
+    869.5,
+    1695.8,
+    867.5,
+    1693.5,
+    869.5,
+    1692.1,
+    867.9,
+    1690.7,
+    869.2
+   ],
+   "id": "snoekstraat-134-28",
+   "latLon": [
+    51.046991,
+    3.742982
+   ],
+   "photos": [
+    {
+     "id": "1297645798113795-40",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.327,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13168,
+   "at": [
+    1692.55,
+    893.5
+   ],
+   "centre": [
+    1700.9,
+    884.6
+   ],
+   "width": 5.4,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1690.6,
+    891.6,
+    1694.5,
+    895.4,
+    1710.5,
+    879.9,
+    1706.5,
+    875.8,
+    1702.2,
+    880.1
+   ],
+   "id": "snoekstraat-134-29",
+   "latLon": [
+    51.04691,
+    3.743114
+   ],
+   "photos": [
+    {
+     "id": "1517827368898985-64",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.306,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13167,
+   "at": [
+    1698.4,
+    899.15
+   ],
+   "centre": [
+    1711,
+    887.9
+   ],
+   "width": 10.8,
+   "faces": 134,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": 19.7,
+   "kind": "yes",
+   "ring": [
+    1694.5,
+    895.4,
+    1702.3,
+    902.9,
+    1711.6,
+    894,
+    1708.9,
+    891.3,
+    1713.1,
+    886.8,
+    1716,
+    889.7,
+    1722.1,
+    883.9,
+    1717,
+    879,
+    1714.3,
+    876.2,
+    1710.5,
+    879.9
+   ],
+   "id": "snoekstraat-134-30",
+   "latLon": [
+    51.046869,
+    3.743181
+   ],
+   "photos": [
+    {
+     "id": "1763604411096046-26",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.21,
+      0.974
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13175,
+   "at": [
+    1709.05,
+    909.5999999999999
+   ],
+   "centre": [
+    1717.4,
+    901.4
+   ],
+   "width": 6.3,
+   "faces": 134,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1706.8,
+    907.4,
+    1711.3,
+    911.8,
+    1722.9,
+    900.4,
+    1724.7,
+    898.7,
+    1720.5,
+    894.2,
+    1718.4,
+    896.1
+   ],
+   "id": "snoekstraat-134-31",
+   "latLon": [
+    51.046793,
+    3.743302
+   ],
+   "photos": [
+    {
+     "id": "1528667074490923-56",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.294,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13199,
+   "at": [
+    1712.9499999999998,
+    913.4
+   ],
+   "centre": [
+    1722.4,
+    905.1
+   ],
+   "width": 4.6,
+   "faces": 134,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1726.3,
+    903.5,
+    1728.5,
+    901.4,
+    1727.8,
+    900.7,
+    1725.4,
+    902.8,
+    1722.9,
+    900.4,
+    1711.3,
+    911.8,
+    1714.6,
+    915
+   ],
+   "id": "snoekstraat-134-32",
+   "latLon": [
+    51.046766,
+    3.743347
+   ],
+   "photos": [
+    {
+     "id": "639507132077044-32",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.382,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13196,
+   "at": [
+    1723.15,
+    923.3
+   ],
+   "centre": [
+    1731.9,
+    915.3
+   ],
+   "width": 4.6,
+   "faces": 134,
+   "toStreet": 6.3,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1721.5,
+    921.7,
+    1724.8,
+    924.9,
+    1738.7,
+    911.6,
+    1737.8,
+    910.6,
+    1735.6,
+    912.8,
+    1733.1,
+    910.3
+   ],
+   "id": "snoekstraat-134-33",
+   "latLon": [
+    51.046694,
+    3.743464
+   ],
+   "photos": [
+    {
+     "id": "591573370376488-59",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.222,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13195,
+   "at": [
+    1726.35,
+    926.4
+   ],
+   "centre": [
+    1735,
+    918.3
+   ],
+   "width": 4.3,
+   "faces": 134,
+   "toStreet": 6.3,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1724.8,
+    924.9,
+    1727.9,
+    927.9,
+    1736.7,
+    919.5,
+    1739.6,
+    916.7,
+    1737.7,
+    914.8,
+    1739.9,
+    912.9,
+    1738.7,
+    911.6
+   ],
+   "id": "snoekstraat-134-34",
+   "latLon": [
+    51.046672,
+    3.7435
+   ],
+   "photos": [
+    {
+     "id": "503310339317214",
+     "metres": 43,
+     "off": 21,
+     "span": [
+      0.279,
+      0.318
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13193,
+   "at": [
+    1735.45,
+    935.3
+   ],
+   "centre": [
+    1744,
+    926.8
+   ],
+   "width": 4.3,
+   "faces": 134,
+   "toStreet": 6.1,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1733.9,
+    933.8,
+    1737,
+    936.8,
+    1750.9,
+    923.2,
+    1749.8,
+    922.3,
+    1747.8,
+    924.3,
+    1745.7,
+    922.3,
+    1742.8,
+    925.1
+   ],
+   "id": "snoekstraat-134-35",
+   "latLon": [
+    51.046607,
+    3.743604
+   ],
+   "photos": [
+    {
+     "id": "494685189989561",
+     "metres": 41,
+     "off": 6,
+     "span": [
+      0.426,
+      0.467
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13190,
+   "at": [
+    1745.75,
+    945.3
+   ],
+   "centre": [
+    1753.9,
+    936.8
+   ],
+   "width": 4.6,
+   "faces": 134,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 14,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1744.1,
+    943.7,
+    1747.4,
+    946.9,
+    1758.5,
+    935.4,
+    1756.6,
+    933.5,
+    1758.9,
+    931.4,
+    1757.8,
+    930.2
+   ],
+   "id": "snoekstraat-134-36",
+   "latLon": [
+    51.046535,
+    3.743722
+   ],
+   "photos": [
+    {
+     "id": "404617805646102",
+     "metres": 26,
+     "off": 1,
+     "span": [
+      0.456,
+      0.532
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13188,
+   "at": [
+    1750.3000000000002,
+    949.7
+   ],
+   "centre": [
+    1761.5,
+    937.3
+   ],
+   "width": 8.1,
+   "faces": 134,
+   "toStreet": 5.8,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1747.4,
+    946.9,
+    1753.2,
+    952.5,
+    1764.8,
+    941.1,
+    1767.8,
+    937.3,
+    1765.8,
+    935.1,
+    1767.4,
+    933,
+    1765.8,
+    930.9,
+    1764.3,
+    932.3,
+    1762.6,
+    931.2,
+    1759.2,
+    934.7,
+    1758.5,
+    935.4
+   ],
+   "id": "snoekstraat-134-37",
+   "latLon": [
+    51.046503,
+    3.743774
+   ],
+   "photos": [
+    {
+     "id": "744412511143580",
+     "metres": 6,
+     "off": 7,
+     "span": [
+      0.262,
+      0.867
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13224,
+   "at": [
+    1754.9,
+    954.15
+   ],
+   "centre": [
+    1764.1,
+    945.6
+   ],
+   "width": 4.7,
+   "faces": 134,
+   "toStreet": 5.8,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1768.4,
+    944.3,
+    1770.4,
+    942.4,
+    1768.7,
+    940.7,
+    1766.5,
+    942.7,
+    1764.8,
+    941.1,
+    1753.2,
+    952.5,
+    1756.6,
+    955.8
+   ],
+   "id": "snoekstraat-134-38",
+   "latLon": [
+    51.046471,
+    3.743827
+   ],
+   "photos": [
+    {
+     "id": "1286399736065558",
+     "metres": 20,
+     "off": 22,
+     "span": [
+      0.657,
+      0.765
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13223,
+   "at": [
+    1758.25,
+    957.4
+   ],
+   "centre": [
+    1764,
+    951.6
+   ],
+   "width": 4.6,
+   "faces": 134,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1756.6,
+    955.8,
+    1759.9,
+    959,
+    1771.1,
+    947.2,
+    1768.4,
+    944.3
+   ],
+   "id": "snoekstraat-134-39",
+   "latLon": [
+    51.046447,
+    3.743865
+   ],
+   "photos": [
+    {
+     "id": "1592797938010733-35",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.306,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13220,
+   "at": [
+    1768.35,
+    967.2
+   ],
+   "centre": [
+    1777.9,
+    957.2
+   ],
+   "width": 4.3,
+   "faces": 134,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 14,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1766.8,
+    965.7,
+    1769.9,
+    968.7,
+    1782.8,
+    955.2,
+    1784.1,
+    953.8,
+    1782.8,
+    952.7,
+    1780.6,
+    954.9,
+    1778.5,
+    952.7,
+    1777.8,
+    953.6
+   ],
+   "id": "snoekstraat-134-40",
+   "latLon": [
+    51.046377,
+    3.74398
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13219,
+   "at": [
+    1771.95,
+    970.6500000000001
+   ],
+   "centre": [
+    1779.6,
+    962.3
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 5.5,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1769.9,
+    968.7,
+    1774,
+    972.6,
+    1782.6,
+    963.8,
+    1779.8,
+    961.1,
+    1781,
+    960.4,
+    1782.7,
+    959.4,
+    1784.4,
+    957.5,
+    1782.8,
+    955.2
+   ],
+   "id": "snoekstraat-134-41",
+   "latLon": [
+    51.046352,
+    3.744021
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9405,
+   "at": [
+    1776.05,
+    974.55
+   ],
+   "centre": [
+    1782.5,
+    967.1
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1774,
+    972.6,
+    1778.1,
+    976.5,
+    1790.9,
+    963.1,
+    1787,
+    959.4,
+    1782.6,
+    963.8
+   ],
+   "id": "snoekstraat-134-42",
+   "latLon": [
+    51.046323,
+    3.744068
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9404,
+   "at": [
+    1780.7,
+    979.15
+   ],
+   "centre": [
+    1790.8,
+    969.7
+   ],
+   "width": 3.6,
+   "faces": 134,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 15,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1778.1,
+    976.5,
+    1779.4,
+    977.9,
+    1782,
+    980.4,
+    1790.9,
+    971.2,
+    1792.8,
+    968.8,
+    1797.1,
+    973,
+    1806.6,
+    962.8,
+    1799.8,
+    953.8,
+    1790.9,
+    963.1
+   ],
+   "id": "snoekstraat-134-43",
+   "latLon": [
+    51.04629,
+    3.744122
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9403,
+   "at": [
+    1784.1,
+    982.45
+   ],
+   "centre": [
+    1788.5,
+    977.8
+   ],
+   "width": 5.9,
+   "faces": 134,
+   "toStreet": 5.3,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    1782,
+    980.4,
+    1786.2,
+    984.5,
+    1795,
+    975.2,
+    1790.9,
+    971.2
+   ],
+   "id": "snoekstraat-134-44",
+   "latLon": [
+    51.046266,
+    3.74416
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9402,
+   "at": [
+    1788.25,
+    986.45
+   ],
+   "centre": [
+    1794.8,
+    979.4
+   ],
+   "width": 5.7,
+   "faces": 134,
+   "toStreet": 5.3,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1786.2,
+    984.5,
+    1790.3,
+    988.4,
+    1799,
+    978.8,
+    1801,
+    976.5,
+    1797.1,
+    973,
+    1795,
+    975.2
+   ],
+   "id": "snoekstraat-134-45",
+   "latLon": [
+    51.046237,
+    3.744208
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9406,
+   "at": [
+    1804.85,
+    1002.75
+   ],
+   "centre": [
+    1808.1,
+    994.8
+   ],
+   "width": 29.8,
+   "faces": 134,
+   "toStreet": 4.9,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1794.2,
+    992.3,
+    1802.8,
+    982.9,
+    1804.1,
+    981.6,
+    1807.7,
+    985.2,
+    1804.4,
+    988.3,
+    1806.3,
+    990.2,
+    1804.8,
+    991.9,
+    1809.9,
+    996.3,
+    1821.4,
+    1008.2,
+    1818.2,
+    1013,
+    1815.5,
+    1013.2
+   ],
+   "id": "snoekstraat-134-46",
+   "latLon": [
+    51.046119,
+    3.744398
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13121,
+   "at": [
+    1572.65,
+    777.05
+   ],
+   "centre": [
+    1576.5,
+    773.2
+   ],
+   "width": 5.5,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1570.7,
+    775.1,
+    1574.6,
+    779,
+    1582.4,
+    771.2,
+    1578.4,
+    767.3
+   ],
+   "id": "snoekstraat-135-47",
+   "latLon": [
+    51.047752,
+    3.741743
+   ],
+   "photos": [
+    {
+     "id": "988220623165211-37",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.31,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13124,
+   "at": [
+    1584.45,
+    788.55
+   ],
+   "centre": [
+    1591.6,
+    781.3
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1582.7,
+    786.8,
+    1586.2,
+    790.3,
+    1597.1,
+    779.4,
+    1598.9,
+    777.6,
+    1595.1,
+    774.3,
+    1589.9,
+    779.6
+   ],
+   "id": "snoekstraat-135-48",
+   "latLon": [
+    51.047669,
+    3.741878
+   ],
+   "photos": [
+    {
+     "id": "1007928131153899-71",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.32,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13126,
+   "at": [
+    1592.05,
+    796.05
+   ],
+   "centre": [
+    1599,
+    788.3
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1590.3,
+    794.3,
+    1593.8,
+    797.8,
+    1606.7,
+    784.8,
+    1603.1,
+    781.4,
+    1601.1,
+    783.4
+   ],
+   "id": "snoekstraat-135-49",
+   "latLon": [
+    51.047615,
+    3.741965
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13133,
+   "at": [
+    1611.6,
+    814.9
+   ],
+   "centre": [
+    1619.7,
+    805.8
+   ],
+   "width": 5.4,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1609.7,
+    813,
+    1613.5,
+    816.8,
+    1624.6,
+    805.6,
+    1621.8,
+    802.9,
+    1624.6,
+    800.7,
+    1623.3,
+    799.3,
+    1620.2,
+    802.4
+   ],
+   "id": "snoekstraat-135-50",
+   "latLon": [
+    51.047478,
+    3.742188
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13162,
+   "at": [
+    1661.6999999999998,
+    863.5
+   ],
+   "centre": [
+    1669.3,
+    854.6
+   ],
+   "width": 5.4,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1677.9,
+    850.9,
+    1674.3,
+    847.1,
+    1671.7,
+    849.6,
+    1668.2,
+    853.2,
+    1659.8,
+    861.6,
+    1663.6,
+    865.4
+   ],
+   "id": "snoekstraat-135-51",
+   "latLon": [
+    51.047127,
+    3.742761
+   ],
+   "photos": [
+    {
+     "id": "349097311632035-17",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.38,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13159,
+   "at": [
+    1673.35,
+    874.75
+   ],
+   "centre": [
+    1681.3,
+    867.9
+   ],
+   "width": 5.2,
+   "faces": 135,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1671.5,
+    872.9,
+    1675.2,
+    876.6,
+    1686.8,
+    865.5,
+    1688.4,
+    864,
+    1684.7,
+    860.3
+   ],
+   "id": "snoekstraat-135-52",
+   "latLon": [
+    51.047045,
+    3.742894
+   ],
+   "photos": [
+    {
+     "id": "1864091130792739-48",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.321,
+      0.669
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13169,
+   "at": [
+    1688.65,
+    889.6500000000001
+   ],
+   "centre": [
+    1694.5,
+    883.9
+   ],
+   "width": 5.5,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1686.7,
+    887.7,
+    1690.6,
+    891.6,
+    1702.2,
+    880.1,
+    1698.4,
+    876
+   ],
+   "id": "snoekstraat-135-53",
+   "latLon": [
+    51.046938,
+    3.743069
+   ],
+   "photos": [
+    {
+     "id": "1517827368898985-21",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.355,
+      0.698
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13174,
+   "at": [
+    1704.55,
+    905.15
+   ],
+   "centre": [
+    1710.6,
+    898.4
+   ],
+   "width": 6.4,
+   "faces": 135,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1702.3,
+    902.9,
+    1706.8,
+    907.4,
+    1718.4,
+    896.1,
+    1713.9,
+    891.8,
+    1711.6,
+    894
+   ],
+   "id": "snoekstraat-135-54",
+   "latLon": [
+    51.046826,
+    3.743251
+   ],
+   "photos": [
+    {
+     "id": "1528667074490923-14",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.373,
+      0.68
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13197,
+   "at": [
+    1719.85,
+    920.05
+   ],
+   "centre": [
+    1728.2,
+    911.6
+   ],
+   "width": 4.7,
+   "faces": 135,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    1718.2,
+    918.4,
+    1721.5,
+    921.7,
+    1733.1,
+    910.3,
+    1731.1,
+    908.3,
+    1733.2,
+    906.2,
+    1732,
+    904.9
+   ],
+   "id": "snoekstraat-135-55",
+   "latLon": [
+    51.046718,
+    3.743426
+   ],
+   "photos": [
+    {
+     "id": "485455544615278-81",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.324,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13194,
+   "at": [
+    1730.9,
+    930.8499999999999
+   ],
+   "centre": [
+    1736.2,
+    925.7
+   ],
+   "width": 8.4,
+   "faces": 135,
+   "toStreet": 6.2,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1727.9,
+    927.9,
+    1733.9,
+    933.8,
+    1742.8,
+    925.1,
+    1739.7,
+    922.2,
+    1736.7,
+    919.5
+   ],
+   "id": "snoekstraat-135-56",
+   "latLon": [
+    51.04664,
+    3.743552
+   ],
+   "photos": [
+    {
+     "id": "494685189989561",
+     "metres": 43,
+     "off": 12,
+     "span": [
+      0.351,
+      0.425
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13192,
+   "at": [
+    1738.75,
+    938.55
+   ],
+   "centre": [
+    1747.1,
+    930.1
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1737,
+    936.8,
+    1740.5,
+    940.3,
+    1752.1,
+    928.9,
+    1749.8,
+    926.7,
+    1752.2,
+    924.5,
+    1750.9,
+    923.2
+   ],
+   "id": "snoekstraat-135-57",
+   "latLon": [
+    51.046584,
+    3.743642
+   ],
+   "photos": [
+    {
+     "id": "1762326094575614",
+     "metres": 31,
+     "off": 12,
+     "span": [
+      0.36,
+      0.426
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13221,
+   "at": [
+    1765.05,
+    963.95
+   ],
+   "centre": [
+    1772.8,
+    955
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    1763.3,
+    962.2,
+    1766.8,
+    965.7,
+    1777.8,
+    953.6,
+    1775.2,
+    951.3,
+    1777.4,
+    949,
+    1776.3,
+    948
+   ],
+   "id": "snoekstraat-135-58",
+   "latLon": [
+    51.0464,
+    3.743943
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9401,
+   "at": [
+    1792.25,
+    990.3499999999999
+   ],
+   "centre": [
+    1796.6,
+    985.6
+   ],
+   "width": 5.5,
+   "faces": 135,
+   "toStreet": 5.2,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": 17.4,
+   "kind": "yes",
+   "ring": [
+    1799,
+    978.8,
+    1802.8,
+    982.9,
+    1794.2,
+    992.3,
+    1790.3,
+    988.4
+   ],
+   "id": "snoekstraat-135-59",
+   "latLon": [
+    51.046209,
+    3.744254
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9407,
+   "at": [
+    1815.65,
+    1002.25
+   ],
+   "centre": [
+    1817.6,
+    999.8
+   ],
+   "width": 16.5,
+   "faces": 136,
+   "toStreet": 12.7,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 16.4,
+   "kind": "yes",
+   "ring": [
+    1821.4,
+    1008.2,
+    1825.2,
+    1003,
+    1814,
+    991.7,
+    1809.9,
+    996.3
+   ],
+   "id": "snoekstraat-136-60",
+   "latLon": [
+    51.046123,
+    3.744521
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12784,
+   "at": [
+    1562.65,
+    757.65
+   ],
+   "centre": [
+    1564.8,
+    755.8
+   ],
+   "width": 15.1,
+   "faces": 141,
+   "toStreet": 13.7,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    1567.4,
+    763.5,
+    1571.6,
+    759.5,
+    1562.4,
+    748.2,
+    1557.9,
+    751.8
+   ],
+   "id": "snoekstraat-141-61",
+   "latLon": [
+    51.047893,
+    3.741629
+   ],
+   "photos": [
+    {
+     "id": "1874603172704370",
+     "metres": 22,
+     "off": 5,
+     "span": [
+      0.415,
+      0.632
+     ]
+    },
+    {
+     "id": "3745417038903504",
+     "metres": 42,
+     "off": 20,
+     "span": [
+      0.599,
+      0.745
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12794,
+   "at": [
+    1565.8,
+    787.7
+   ],
+   "centre": [
+    1559.9,
+    794.4
+   ],
+   "width": 5,
+   "faces": 313,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1552.8,
+    797,
+    1555.7,
+    799.9,
+    1559.1,
+    796.5,
+    1559.9,
+    797.3,
+    1567.6,
+    789.4,
+    1564,
+    786
+   ],
+   "id": "snoekstraat-313-01",
+   "latLon": [
+    51.047675,
+    3.741665
+   ],
+   "photos": [
+    {
+     "id": "988220623165211-208",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.312,
+      0.735
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12791,
+   "at": [
+    1573.4,
+    795.0999999999999
+   ],
+   "centre": [
+    1567.1,
+    800.2
+   ],
+   "width": 3.5,
+   "faces": 313,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1563.8,
+    800.7,
+    1561,
+    803.1,
+    1564.1,
+    806.8,
+    1574.7,
+    796.3,
+    1572.1,
+    793.9
+   ],
+   "id": "snoekstraat-313-02",
+   "latLon": [
+    51.047622,
+    3.741752
+   ],
+   "photos": [
+    {
+     "id": "1007928131153899-225",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.348,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13250,
+   "at": [
+    1688.1,
+    906.35
+   ],
+   "centre": [
+    1683.8,
+    911.8
+   ],
+   "width": 6.3,
+   "faces": 313,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1674.3,
+    915.8,
+    1685.8,
+    904.2,
+    1690.4,
+    908.5,
+    1690.2,
+    910.6,
+    1678.4,
+    919.9
+   ],
+   "id": "snoekstraat-313-03",
+   "latLon": [
+    51.046817,
+    3.743063
+   ],
+   "photos": [
+    {
+     "id": "1763604411096046-263",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.269,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13249,
+   "at": [
+    1725.0500000000002,
+    942.15
+   ],
+   "centre": [
+    1716.3,
+    951.1
+   ],
+   "width": 5.1,
+   "faces": 313,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1713.9,
+    949.9,
+    1708.3,
+    955.7,
+    1712,
+    959.2,
+    1713.6,
+    957.6,
+    1726.9,
+    943.9,
+    1723.2,
+    940.4
+   ],
+   "id": "snoekstraat-313-04",
+   "latLon": [
+    51.046558,
+    3.743485
+   ],
+   "photos": [
+    {
+     "id": "639338108456284-262",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.357,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9420,
+   "at": [
+    1746.5,
+    963
+   ],
+   "centre": [
+    1739.8,
+    969.9
+   ],
+   "width": 5,
+   "faces": 313,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1731.4,
+    975,
+    1734.8,
+    978.6,
+    1748.3,
+    964.7,
+    1744.7,
+    961.3
+   ],
+   "id": "snoekstraat-313-05",
+   "latLon": [
+    51.046407,
+    3.743731
+   ],
+   "photos": [
+    {
+     "id": "1592797938010733-263",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.359,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9433,
+   "at": [
+    1771.65,
+    987.55
+   ],
+   "centre": [
+    1767.3,
+    991.9
+   ],
+   "width": 4.8,
+   "faces": 313,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1761.6,
+    994.4,
+    1764.5,
+    998.3,
+    1773.4,
+    989.2,
+    1769.9,
+    985.9
+   ],
+   "id": "snoekstraat-313-06",
+   "latLon": [
+    51.046229,
+    3.744018
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-208",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.455,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12805,
+   "at": [
+    1550.0500000000002,
+    772.35
+   ],
+   "centre": [
+    1542.8,
+    777.3
+   ],
+   "width": 19.1,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": 18.6,
+   "kind": "yes",
+   "ring": [
+    1544.8,
+    788.5,
+    1546.4,
+    789.7,
+    1556.9,
+    779,
+    1543.2,
+    765.7,
+    1540.6,
+    765.5,
+    1531.1,
+    773.2,
+    1536.6,
+    779.2
+   ],
+   "id": "snoekstraat-314-07",
+   "latLon": [
+    51.047786,
+    3.741485
+   ],
+   "photos": [
+    {
+     "id": "1124244122363302-194",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.159,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12799,
+   "at": [
+    1558.7,
+    780.75
+   ],
+   "centre": [
+    1553.3,
+    786.1
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1546.4,
+    789.7,
+    1549.3,
+    793.4,
+    1560.5,
+    782.5,
+    1556.9,
+    779
+   ],
+   "id": "snoekstraat-314-08",
+   "latLon": [
+    51.047726,
+    3.741584
+   ],
+   "photos": [
+    {
+     "id": "1273987767233381-188",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.378,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12788,
+   "at": [
+    1576.45,
+    798
+   ],
+   "centre": [
+    1569.4,
+    805.5
+   ],
+   "width": 4.9,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1564.1,
+    806.8,
+    1564.8,
+    809.1,
+    1566.9,
+    811.1,
+    1567.9,
+    810.2,
+    1578.2,
+    799.7,
+    1574.7,
+    796.3
+   ],
+   "id": "snoekstraat-314-09",
+   "latLon": [
+    51.047601,
+    3.741787
+   ],
+   "photos": [
+    {
+     "id": "1007928131153899-189",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.382,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13303,
+   "at": [
+    1580.5500000000002,
+    801.95
+   ],
+   "centre": [
+    1573.3,
+    810.5
+   ],
+   "width": 6.5,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1567.9,
+    810.2,
+    1578.2,
+    799.7,
+    1582.9,
+    804.2,
+    1575.3,
+    813.3,
+    1573.4,
+    814.8,
+    1571.8,
+    816.2,
+    1570.1,
+    814.5,
+    1566.9,
+    811.1
+   ],
+   "id": "snoekstraat-314-10",
+   "latLon": [
+    51.047572,
+    3.741833
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13301,
+   "at": [
+    1584.65,
+    805.9000000000001
+   ],
+   "centre": [
+    1577,
+    813.5
+   ],
+   "width": 4.9,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1571.8,
+    816.2,
+    1573.4,
+    814.8,
+    1574.7,
+    816,
+    1576.3,
+    814.4,
+    1575.3,
+    813.3,
+    1582.9,
+    804.2,
+    1586.4,
+    807.6,
+    1578,
+    815.7,
+    1574.6,
+    819
+   ],
+   "id": "snoekstraat-314-11",
+   "latLon": [
+    51.047544,
+    3.74188
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13297,
+   "at": [
+    1589.95,
+    811.05
+   ],
+   "centre": [
+    1584.2,
+    818.9
+   ],
+   "width": 9.9,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1578,
+    815.7,
+    1586.4,
+    807.6,
+    1593.5,
+    814.5,
+    1585.6,
+    822.6,
+    1582.1,
+    826.3,
+    1580.2,
+    824.4,
+    1583.6,
+    821.1
+   ],
+   "id": "snoekstraat-314-12",
+   "latLon": [
+    51.047506,
+    3.741941
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13295,
+   "at": [
+    1595.3,
+    816.25
+   ],
+   "centre": [
+    1588.9,
+    823.3
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1583.8,
+    827.9,
+    1587.4,
+    824.4,
+    1585.6,
+    822.6,
+    1593.5,
+    814.5,
+    1597.1,
+    818,
+    1589.4,
+    825.8,
+    1585.6,
+    829.7
+   ],
+   "id": "snoekstraat-314-13",
+   "latLon": [
+    51.047469,
+    3.742002
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13292,
+   "at": [
+    1598.9,
+    819.75
+   ],
+   "centre": [
+    1592.6,
+    826.4
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1587.7,
+    831.8,
+    1591.6,
+    827.9,
+    1589.4,
+    825.8,
+    1597.1,
+    818,
+    1600.7,
+    821.5,
+    1589.1,
+    833.1
+   ],
+   "id": "snoekstraat-314-14",
+   "latLon": [
+    51.047443,
+    3.742043
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13294,
+   "at": [
+    1602.95,
+    823.65
+   ],
+   "centre": [
+    1593.5,
+    832.9
+   ],
+   "width": 6.2,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    1585.3,
+    836.9,
+    1589.1,
+    833.1,
+    1600.7,
+    821.5,
+    1605.2,
+    825.8,
+    1591.2,
+    839.2,
+    1589.4,
+    840.8
+   ],
+   "id": "snoekstraat-314-15",
+   "latLon": [
+    51.047415,
+    3.742089
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13289,
+   "at": [
+    1607.5500000000002,
+    828.0999999999999
+   ],
+   "centre": [
+    1599.9,
+    836.3
+   ],
+   "width": 6.6,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    1591.2,
+    839.2,
+    1605.2,
+    825.8,
+    1609.9,
+    830.4,
+    1597.4,
+    842.4,
+    1595.8,
+    843.9
+   ],
+   "id": "snoekstraat-314-16",
+   "latLon": [
+    51.047383,
+    3.742142
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13284,
+   "at": [
+    1612,
+    832.45
+   ],
+   "centre": [
+    1605.8,
+    838.5
+   ],
+   "width": 5.9,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    1597.4,
+    842.4,
+    1609.9,
+    830.4,
+    1614.1,
+    834.5,
+    1601.7,
+    846.6
+   ],
+   "id": "snoekstraat-314-17",
+   "latLon": [
+    51.047351,
+    3.742193
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13281,
+   "at": [
+    1616.35,
+    836.65
+   ],
+   "centre": [
+    1607.6,
+    846.1
+   ],
+   "width": 6.2,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    1601.7,
+    846.6,
+    1614.1,
+    834.5,
+    1618.6,
+    838.8,
+    1608,
+    849.2,
+    1606.2,
+    850.9,
+    1605.8,
+    850.4,
+    1605.2,
+    851,
+    1601.2,
+    847.2
+   ],
+   "id": "snoekstraat-314-18",
+   "latLon": [
+    51.047321,
+    3.742243
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13276,
+   "at": [
+    1620.85,
+    841
+   ],
+   "centre": [
+    1615.5,
+    846.2
+   ],
+   "width": 6.3,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.4,
+   "kind": "house",
+   "ring": [
+    1608,
+    849.2,
+    1618.6,
+    838.8,
+    1623.1,
+    843.2,
+    1612.5,
+    853.5
+   ],
+   "id": "snoekstraat-314-19",
+   "latLon": [
+    51.04729,
+    3.742294
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13274,
+   "at": [
+    1625.35,
+    845.4000000000001
+   ],
+   "centre": [
+    1617.5,
+    852.2
+   ],
+   "width": 6.3,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 15,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    1612.5,
+    853.5,
+    1623.1,
+    843.2,
+    1627.6,
+    847.6,
+    1614.6,
+    860.5,
+    1609.9,
+    856.1
+   ],
+   "id": "snoekstraat-314-20",
+   "latLon": [
+    51.047258,
+    3.742346
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13272,
+   "at": [
+    1629.65,
+    849.55
+   ],
+   "centre": [
+    1620.5,
+    858.6
+   ],
+   "width": 5.7,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1614.6,
+    860.5,
+    1627.6,
+    847.6,
+    1631.7,
+    851.5,
+    1618.8,
+    864.1,
+    1617.1,
+    865.7,
+    1613.1,
+    862
+   ],
+   "id": "snoekstraat-314-21",
+   "latLon": [
+    51.047228,
+    3.742395
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13267,
+   "at": [
+    1633.7,
+    853.45
+   ],
+   "centre": [
+    1627.2,
+    859.8
+   ],
+   "width": 5.6,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1618.8,
+    864.1,
+    1631.7,
+    851.5,
+    1635.7,
+    855.4,
+    1622.7,
+    868.2
+   ],
+   "id": "snoekstraat-314-22",
+   "latLon": [
+    51.0472,
+    3.742441
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13265,
+   "at": [
+    1637.7,
+    857.3
+   ],
+   "centre": [
+    1631.2,
+    863.8
+   ],
+   "width": 5.5,
+   "faces": 314,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1622.7,
+    868.2,
+    1635.7,
+    855.4,
+    1639.7,
+    859.2,
+    1626.8,
+    872.4
+   ],
+   "id": "snoekstraat-314-23",
+   "latLon": [
+    51.047172,
+    3.742487
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13255,
+   "at": [
+    1669.95,
+    888.8
+   ],
+   "centre": [
+    1664.2,
+    894.4
+   ],
+   "width": 5.7,
+   "faces": 314,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1672,
+    890.8,
+    1660.6,
+    902.2,
+    1656.1,
+    897.7,
+    1667.9,
+    886.8
+   ],
+   "id": "snoekstraat-314-24",
+   "latLon": [
+    51.046944,
+    3.742855
+   ],
+   "photos": [
+    {
+     "id": "1297645798113795-263",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.244,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13253,
+   "at": [
+    1674.05,
+    892.8
+   ],
+   "centre": [
+    1664.3,
+    901.8
+   ],
+   "width": 5.7,
+   "faces": 314,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1660.6,
+    902.2,
+    1672,
+    890.8,
+    1676.1,
+    894.8,
+    1663.9,
+    907,
+    1663.5,
+    907.5,
+    1660.1,
+    903.9,
+    1659.4,
+    904.5,
+    1658.9,
+    903.9
+   ],
+   "id": "snoekstraat-314-25",
+   "latLon": [
+    51.046915,
+    3.742902
+   ],
+   "photos": [
+    {
+     "id": "1297645798113795-204",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.286,
+      0.807
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12850,
+   "at": [
+    1677.9499999999998,
+    896.5999999999999
+   ],
+   "centre": [
+    1671.1,
+    904.1
+   ],
+   "width": 5.2,
+   "faces": 314,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3,
+   "top": 16.5,
+   "kind": "residential",
+   "ring": [
+    1663.9,
+    907,
+    1676.1,
+    894.8,
+    1679.8,
+    898.4,
+    1668.5,
+    909.7,
+    1667.3,
+    910.4
+   ],
+   "id": "snoekstraat-314-26",
+   "latLon": [
+    51.046887,
+    3.742947
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13252,
+   "at": [
+    1681.55,
+    900.0999999999999
+   ],
+   "centre": [
+    1673,
+    909.2
+   ],
+   "width": 4.9,
+   "faces": 314,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 16.5,
+   "kind": "residential",
+   "ring": [
+    1667.6,
+    913.9,
+    1670.3,
+    911.4,
+    1668.5,
+    909.7,
+    1679.8,
+    898.4,
+    1683.3,
+    901.8,
+    1671.9,
+    913.3,
+    1669.3,
+    916
+   ],
+   "id": "snoekstraat-314-27",
+   "latLon": [
+    51.046862,
+    3.742988
+   ],
+   "photos": [
+    {
+     "id": "1517827368898985-231",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.275,
+      0.711
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13244,
+   "at": [
+    1707.95,
+    925.6500000000001
+   ],
+   "centre": [
+    1698.6,
+    933.9
+   ],
+   "width": 5.7,
+   "faces": 314,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1696.2,
+    941.7,
+    1698.2,
+    939.7,
+    1700.7,
+    937.1,
+    1710,
+    927.6,
+    1705.9,
+    923.7,
+    1695.1,
+    934.6,
+    1692.6,
+    932.4,
+    1690.4,
+    934.2
+   ],
+   "id": "snoekstraat-314-28",
+   "latLon": [
+    51.046677,
+    3.74329
+   ],
+   "photos": [
+    {
+     "id": "485455544615278-229",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.29,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13243,
+   "at": [
+    1712.05,
+    929.6
+   ],
+   "centre": [
+    1702,
+    939.2
+   ],
+   "width": 5.7,
+   "faces": 314,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1697.8,
+    943.7,
+    1700.2,
+    945.9,
+    1701.3,
+    944.8,
+    1714.1,
+    931.6,
+    1710,
+    927.6,
+    1700.7,
+    937.1,
+    1702.2,
+    938.6,
+    1699.4,
+    940.8,
+    1698.2,
+    939.7,
+    1696.2,
+    941.7
+   ],
+   "id": "snoekstraat-314-29",
+   "latLon": [
+    51.046649,
+    3.743337
+   ],
+   "photos": [
+    {
+     "id": "591573370376488-242",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.306,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13242,
+   "at": [
+    1715.9,
+    933.35
+   ],
+   "centre": [
+    1709.5,
+    939.9
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1701.3,
+    944.8,
+    1704.9,
+    948.3,
+    1717.7,
+    935.1,
+    1714.1,
+    931.6
+   ],
+   "id": "snoekstraat-314-30",
+   "latLon": [
+    51.046621,
+    3.743381
+   ],
+   "photos": [
+    {
+     "id": "591573370376488-203",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.373,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13241,
+   "at": [
+    1720.45,
+    937.75
+   ],
+   "centre": [
+    1711.5,
+    946.9
+   ],
+   "width": 7.6,
+   "faces": 314,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1704.9,
+    948.3,
+    1707,
+    950.3,
+    1706.3,
+    950.9,
+    1707.6,
+    952.2,
+    1711.8,
+    947.8,
+    1713.9,
+    949.9,
+    1723.2,
+    940.4,
+    1717.7,
+    935.1
+   ],
+   "id": "snoekstraat-314-31",
+   "latLon": [
+    51.04659,
+    3.743433
+   ],
+   "photos": [
+    {
+     "id": "1294033181814535-228",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.211,
+      0.764
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13246,
+   "at": [
+    1739.3,
+    956.05
+   ],
+   "centre": [
+    1732.7,
+    962.8
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1724.4,
+    967.8,
+    1727.9,
+    971.4,
+    1741.1,
+    957.8,
+    1737.5,
+    954.3
+   ],
+   "id": "snoekstraat-314-32",
+   "latLon": [
+    51.046457,
+    3.743648
+   ],
+   "photos": [
+    {
+     "id": "1131575615297655-217",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.329,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13245,
+   "at": [
+    1742.9,
+    959.55
+   ],
+   "centre": [
+    1736.3,
+    966.4
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1727.9,
+    971.4,
+    1731.4,
+    975,
+    1744.7,
+    961.3,
+    1741.1,
+    957.8
+   ],
+   "id": "snoekstraat-314-33",
+   "latLon": [
+    51.046432,
+    3.743689
+   ],
+   "photos": [
+    {
+     "id": "1131575615297655-184",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.409,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9417,
+   "at": [
+    1757.6,
+    973.85
+   ],
+   "centre": [
+    1753.2,
+    978.4
+   ],
+   "width": 5.3,
+   "faces": 314,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    1746.8,
+    981.1,
+    1750.7,
+    984.8,
+    1759.5,
+    975.7,
+    1755.7,
+    972
+   ],
+   "id": "snoekstraat-314-34",
+   "latLon": [
+    51.046328,
+    3.743857
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-254",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.455,
+      0.543
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9416,
+   "at": [
+    1761.4,
+    977.55
+   ],
+   "centre": [
+    1754.9,
+    983.5
+   ],
+   "width": 5.3,
+   "faces": 314,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1752.4,
+    990.6,
+    1763.3,
+    979.4,
+    1759.5,
+    975.7,
+    1750.7,
+    984.8,
+    1748.6,
+    986.9
+   ],
+   "id": "snoekstraat-314-35",
+   "latLon": [
+    51.046302,
+    3.743901
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-243",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.447,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9432,
+   "at": [
+    1775.2,
+    990.95
+   ],
+   "centre": [
+    1766.4,
+    999.4
+   ],
+   "width": 5,
+   "faces": 314,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1763.1,
+    1006.9,
+    1777,
+    992.7,
+    1773.4,
+    989.2,
+    1764.5,
+    998.3,
+    1761.9,
+    1001,
+    1763.7,
+    1002.4,
+    1760.9,
+    1005.2
+   ],
+   "id": "snoekstraat-314-36",
+   "latLon": [
+    51.046205,
+    3.744059
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-198",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.455,
+      0.542
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9431,
+   "at": [
+    1778.75,
+    994.4000000000001
+   ],
+   "centre": [
+    1771.2,
+    1002.8
+   ],
+   "width": 4.9,
+   "faces": 314,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1767,
+    1010,
+    1768.5,
+    1008.4,
+    1780.5,
+    996.1,
+    1777,
+    992.7,
+    1763.1,
+    1006.9
+   ],
+   "id": "snoekstraat-314-37",
+   "latLon": [
+    51.04618,
+    3.744099
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-189",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.463,
+      0.534
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9430,
+   "at": [
+    1782.4,
+    997.95
+   ],
+   "centre": [
+    1773.6,
+    1007.4
+   ],
+   "width": 5.3,
+   "faces": 314,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1771,
+    1013.2,
+    1771.5,
+    1012.7,
+    1784.3,
+    999.8,
+    1780.5,
+    996.1,
+    1768.5,
+    1008.4,
+    1770.4,
+    1010.2,
+    1769,
+    1011.7
+   ],
+   "id": "snoekstraat-314-38",
+   "latLon": [
+    51.046154,
+    3.744141
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9429,
+   "at": [
+    1786.05,
+    1001.5
+   ],
+   "centre": [
+    1778.1,
+    1010.4
+   ],
+   "width": 4.9,
+   "faces": 314,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1774.8,
+    1016.3,
+    1776.5,
+    1014.6,
+    1778.9,
+    1012.2,
+    1780.3,
+    1010.8,
+    1787.8,
+    1003.2,
+    1784.3,
+    999.8,
+    1771.5,
+    1012.7,
+    1771,
+    1013.2
+   ],
+   "id": "snoekstraat-314-39",
+   "latLon": [
+    51.046128,
+    3.744183
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9427,
+   "at": [
+    1789.8,
+    1005.1500000000001
+   ],
+   "centre": [
+    1786,
+    1008.9
+   ],
+   "width": 5.6,
+   "faces": 314,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1780.3,
+    1010.8,
+    1784.2,
+    1014.4,
+    1791.8,
+    1007.1,
+    1787.8,
+    1003.2
+   ],
+   "id": "snoekstraat-314-40",
+   "latLon": [
+    51.046102,
+    3.744226
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9426,
+   "at": [
+    1795.8,
+    1011
+   ],
+   "centre": [
+    1790.2,
+    1014.8
+   ],
+   "width": 11.2,
+   "faces": 314,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1783.5,
+    1015.1,
+    1791.8,
+    1022.7,
+    1799.8,
+    1014.9,
+    1791.8,
+    1007.1,
+    1784.2,
+    1014.4
+   ],
+   "id": "snoekstraat-314-41",
+   "latLon": [
+    51.04606,
+    3.744294
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9434,
+   "at": [
+    1803.6999999999998,
+    1018.65
+   ],
+   "centre": [
+    1796.2,
+    1024.4
+   ],
+   "width": 10.8,
+   "faces": 314,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1797,
+    1037.3,
+    1807.7,
+    1025.5,
+    1807.6,
+    1022.4,
+    1799.8,
+    1014.9,
+    1791.8,
+    1022.7,
+    1785.2,
+    1023.3,
+    1784.2,
+    1024.6
+   ],
+   "id": "snoekstraat-314-42",
+   "latLon": [
+    51.046004,
+    3.744384
+   ],
+   "photos": [
+    {
+     "id": "320925840209539",
+     "metres": 39,
+     "off": 16,
+     "span": [
+      0.763,
+      1
+     ]
+    },
+    {
+     "id": "341855327993592",
+     "metres": 45,
+     "off": 14,
+     "span": [
+      0.785,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12797,
+   "at": [
+    1562.25,
+    784.25
+   ],
+   "centre": [
+    1555.8,
+    791.3
+   ],
+   "width": 4.9,
+   "faces": 315,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1549.3,
+    793.4,
+    1552.4,
+    797.4,
+    1552.8,
+    797,
+    1564,
+    786,
+    1560.5,
+    782.5
+   ],
+   "id": "snoekstraat-315-43",
+   "latLon": [
+    51.0477,
+    3.741624
+   ],
+   "photos": [
+    {
+     "id": "988220623165211-255",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.301,
+      0.641
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12790,
+   "at": [
+    1569.85,
+    791.65
+   ],
+   "centre": [
+    1565.9,
+    795.3
+   ],
+   "width": 6.4,
+   "faces": 315,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1572.1,
+    793.9,
+    1567.6,
+    789.4,
+    1559.9,
+    797.3,
+    1563.8,
+    800.7
+   ],
+   "id": "snoekstraat-315-44",
+   "latLon": [
+    51.047647,
+    3.741711
+   ],
+   "photos": [
+    {
+     "id": "1007928131153899-265",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.279,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13264,
+   "at": [
+    1642.65,
+    862.1
+   ],
+   "centre": [
+    1634,
+    871.1
+   ],
+   "width": 8.3,
+   "faces": 315,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    1626.8,
+    872.4,
+    1639.7,
+    859.2,
+    1645.6,
+    865,
+    1636,
+    875,
+    1630.6,
+    880.6,
+    1625,
+    874.2
+   ],
+   "id": "snoekstraat-315-45",
+   "latLon": [
+    51.047137,
+    3.742543
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13263,
+   "at": [
+    1649.6999999999998,
+    869.05
+   ],
+   "centre": [
+    1636.9,
+    880.8
+   ],
+   "width": 11.5,
+   "faces": 315,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1630.6,
+    880.6,
+    1636,
+    875,
+    1645.6,
+    865,
+    1653.8,
+    873.1,
+    1645,
+    881.6,
+    1641.9,
+    878.5,
+    1631,
+    889.3,
+    1630.5,
+    888.9,
+    1629.3,
+    889.9,
+    1625.3,
+    886.1
+   ],
+   "id": "snoekstraat-315-46",
+   "latLon": [
+    51.047087,
+    3.742624
+   ],
+   "photos": [
+    {
+     "id": "1162711782122855-196",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.194,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13248,
+   "at": [
+    1728.75,
+    945.75
+   ],
+   "centre": [
+    1722,
+    957.7
+   ],
+   "width": 5.2,
+   "faces": 315,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1713.6,
+    957.6,
+    1717.1,
+    961,
+    1716.5,
+    961.6,
+    1717.6,
+    962.6,
+    1720.2,
+    964.8,
+    1720.7,
+    964.2,
+    1722.5,
+    962.5,
+    1734,
+    950.8,
+    1730.6,
+    947.6,
+    1726.9,
+    943.9
+   ],
+   "id": "snoekstraat-315-47",
+   "latLon": [
+    51.046532,
+    3.743528
+   ],
+   "photos": [
+    {
+     "id": "639338108456284-225",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.307,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13247,
+   "at": [
+    1735.75,
+    952.55
+   ],
+   "centre": [
+    1727.8,
+    959.9
+   ],
+   "width": 4.9,
+   "faces": 315,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1720.7,
+    964.2,
+    1724.4,
+    967.8,
+    1737.5,
+    954.3,
+    1734,
+    950.8,
+    1722.5,
+    962.5
+   ],
+   "id": "snoekstraat-315-48",
+   "latLon": [
+    51.046483,
+    3.743608
+   ],
+   "photos": [
+    {
+     "id": "1131575615297655-256",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.335,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9419,
+   "at": [
+    1752,
+    968.35
+   ],
+   "centre": [
+    1742.9,
+    977.9
+   ],
+   "width": 10.4,
+   "faces": 315,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    1734.8,
+    978.6,
+    1733.3,
+    980.2,
+    1737.3,
+    984.1,
+    1741.3,
+    979.9,
+    1742.5,
+    978.6,
+    1744.2,
+    980.2,
+    1745,
+    979.4,
+    1746.8,
+    981.1,
+    1755.7,
+    972,
+    1748.3,
+    964.7
+   ],
+   "id": "snoekstraat-315-49",
+   "latLon": [
+    51.046368,
+    3.743793
+   ],
+   "photos": [
+    {
+     "id": "1592797938010733-206",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.22,
+      0.942
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9415,
+   "at": [
+    1766.6,
+    982.65
+   ],
+   "centre": [
+    1761.2,
+    989.5
+   ],
+   "width": 9.3,
+   "faces": 315,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    1752.4,
+    990.6,
+    1759,
+    997.1,
+    1761.6,
+    994.4,
+    1769.9,
+    985.9,
+    1763.3,
+    979.4
+   ],
+   "id": "snoekstraat-315-50",
+   "latLon": [
+    51.046265,
+    3.74396
+   ],
+   "photos": [
+    {
+     "id": "1339768950381067-226",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.394,
+      0.597
+     ]
+    }
+   ]
+  }
+ ]
+}

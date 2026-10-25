@@ -1,0 +1,91 @@
+{
+  "intro": "Avignon is a walled city on the Rhône in Provence, in the south of France. For most of the 14th century the popes lived here instead of in Rome, and they left behind the largest Gothic palace in Europe and more than four kilometres of ramparts. Every July its theatre festival fills the old town with plays, actors and posters.",
+  "famous": [
+    "The Palais des Papes, the fortress-palace of the popes",
+    "The broken bridge of the nursery song, Sur le pont d’Avignon",
+    "The Festival d’Avignon, one of the oldest and largest theatre festivals in the world",
+    "The mistral, the cold north wind that blows down the Rhône valley"
+  ],
+  "facts": [
+    ["Country", "France"],
+    ["Region", "Provence-Alpes-Côte d’Azur"],
+    ["Department", "Vaucluse, of which Avignon is the capital"],
+    ["Population", "About 90,000 (city)"],
+    ["River", "The Rhône"],
+    ["Language", "French; Provençal is also part of local culture"],
+    ["Nickname", "The City of the Popes (la Cité des Papes)"],
+    ["UNESCO World Heritage", "The Palais des Papes, the cathedral ensemble and the bridge, since 1995"]
+  ],
+  "overview": [
+    "Avignon lies on the left bank of the Rhône, a little above the place where the Durance joins it. Its old town is still almost entirely enclosed by the 14th-century ramparts, and inside them the lanes run between pale stone houses, small squares shaded by plane trees and the walls of old convents and mansions.",
+    "Instant Avignon takes you through this walled town. The Palais des Papes stands on its rocky hill in the north, with the cathedral beside it and the gardens of the Rocher des Doms above the river, where the broken Pont Saint-Bénezet reaches out into the water. From Place de l’Horloge, just south of the palace, the Rue de la République runs straight down to the main gate and the railway station."
+  ],
+  "setting": [
+    "Avignon is the capital of the Vaucluse department, in the region of Provence-Alpes-Côte d’Azur, about 85 kilometres north-west of Marseille. Across the Rhône lie the Île de la Barthelasse, a large river island of farms and orchards, and the town of Villeneuve-lès-Avignon, which belongs to the Gard department.",
+    "The climate is Mediterranean, with hot, dry summers, mild winters and bright light most of the year. The mistral, a cold wind from the north, can blow for days at a time down the Rhône valley."
+  ],
+  "history": [
+    {
+      "title": "A town on the Rhône",
+      "text": [
+        "People settled on the Rocher des Doms, the rock above the river, long before the Romans came. Under Rome the town of Avenio was a modest place in the province of Gallia Narbonensis, overshadowed by its neighbours Arles and Nîmes.",
+        "In the late 12th century the townspeople built a bridge across the Rhône, the only one between Lyon and the sea. Legend says that a young shepherd, Bénezet, began it at the bidding of an angel. In 1226 King Louis VIII besieged Avignon for three months during the Albigensian Crusade and had its walls pulled down when the city surrendered."
+      ]
+    },
+    {
+      "title": "The city of the popes",
+      "text": [
+        "In 1309 Pope Clement V, a Frenchman, settled in Avignon, then a town of the counts of Provence, to escape the feuds of Rome. Six more popes followed him. Benedict XII began the Palais des Papes in 1335 and Clement VI enlarged it into the huge building you see today; in 1348 Clement VI bought the town itself from Queen Joanna of Naples. The papal court brought cardinals, bankers, artists and the poet Petrarch, and Avignon grew into one of the great cities of Europe. The popes surrounded it with new ramparts from 1355.",
+        "Gregory XI took the papacy back to Rome in 1377. When the cardinals split the next year, rival popes again ruled from Avignon during the Great Western Schism, until the last of them, Benedict XIII, fled the city in 1403. Avignon stayed papal land for almost four more centuries, governed by legates and vice-legates sent from Rome."
+      ]
+    },
+    {
+      "title": "French Avignon",
+      "text": [
+        "During the French Revolution, in 1791, Avignon voted to join France. The army turned the empty Palais des Papes into barracks and a prison, and the soldiers damaged many of its frescoes; the army did not leave until 1906. In the 19th century the railway reached the city, and workers cut the straight Rue de la République from the station gate to Place de l’Horloge.",
+        "In 1947 the actor and director Jean Vilar staged a week of plays in the palace’s courtyard, the start of the Festival d’Avignon. UNESCO listed the historic centre in 1995, and the high-speed TGV line has brought Avignon within less than three hours of Paris since 2001."
+      ]
+    }
+  ],
+  "timeline": [
+    ["1177", "Work begins on the bridge across the Rhône, according to legend at the call of Bénezet"],
+    ["1226", "Louis VIII besieges Avignon and has its walls pulled down"],
+    ["1309", "Pope Clement V settles in Avignon"],
+    ["1335", "Benedict XII begins the Palais des Papes"],
+    ["1348", "Clement VI buys Avignon from Queen Joanna of Naples"],
+    ["1355", "Work begins on the new ramparts"],
+    ["1377", "Gregory XI takes the papacy back to Rome"],
+    ["1403", "Benedict XIII, the last pope of Avignon, flees the city"],
+    ["1791", "Avignon becomes part of France"],
+    ["1906", "The army leaves the Palais des Papes"],
+    ["1947", "Jean Vilar holds the first festival"],
+    ["1995", "UNESCO lists the historic centre"]
+  ],
+  "today": [
+    "Avignon is a town of government offices, a university and tourism, and the market centre for the farms of the Vaucluse. Its covered market, Les Halles, sells the produce of Provence every morning except Monday.",
+    "In July the Festival d’Avignon takes over the town: the main programme plays in the courtyard of the Palais des Papes and other historic sites, and the Off festival puts on well over a thousand shows in small theatres, chapels and cellars, while actors hand out leaflets and hang their posters on every railing."
+  ],
+  "places": [
+    { "id": "rhone", "name": "The Rhône", "local": "Le Rhône", "kind": "waterway", "lat": 43.9547, "lon": 4.8065, "blurb": "The wide, fast river along the north and west of the walls, on its way from the Alps to the Mediterranean." },
+    { "id": "pont-saint-benezet", "name": "Pont Saint-Bénezet", "kind": "bridge", "lat": 43.9539, "lon": 4.805, "blurb": "The bridge of the song, Sur le pont d’Avignon. Floods carried away most of its arches, and only four of them still stand.", "landmark": "pont-saint-benezet" },
+    { "id": "rocher-des-doms", "name": "Rocher des Doms", "kind": "park", "lat": 43.953, "lon": 4.8072, "blurb": "A garden on top of the rock above the river, with a pond and a view over the Rhône to Villeneuve-lès-Avignon and Mont Ventoux.", "landmark": "rocher-des-doms" },
+    { "id": "place-du-palais", "name": "Place du Palais", "kind": "square", "lat": 43.9504, "lon": 4.8066, "blurb": "The wide sloping square in front of the Palais des Papes, with the cathedral at its top end.", "landmark": "palais-des-papes" },
+    { "id": "place-de-l-horloge", "name": "Place de l’Horloge", "osm": "Place de l'Horloge", "kind": "square", "lat": 43.94876, "lon": 4.80572, "blurb": "Avignon’s main square, lined with café terraces, the city hall, the theatre and an old carousel.", "landmark": "place-de-l-horloge" },
+    { "id": "rue-de-la-republique", "name": "Rue de la République", "kind": "street", "lat": 43.94694, "lon": 4.80575, "blurb": "The straight main shopping street, cut through the old town in the 19th century from the station gate to Place de l’Horloge.", "landmark": "rue-de-la-republique" },
+    { "id": "porte-de-l-oulle", "name": "Porte de l’Oulle", "osm": "Porte de l'Oulle", "kind": "gate", "lat": 43.95032, "lon": 4.80249, "blurb": "A gate in the western ramparts, facing the Rhône and the bridge to the Île de la Barthelasse.", "landmark": "remparts" },
+    { "id": "rue-joseph-vernet", "name": "Rue Joseph Vernet", "kind": "street", "lat": 43.94712, "lon": 4.80333, "blurb": "A curving street of 17th- and 18th-century mansions, now home to fashion shops and the Musée Calvet.", "landmark": "musee-calvet" },
+    { "id": "place-saint-pierre", "name": "Place Saint-Pierre", "kind": "square", "lat": 43.94934, "lon": 4.80802, "blurb": "A small square in front of the Gothic church of Saint-Pierre, whose carved walnut doors date from the 16th century." },
+    { "id": "place-pie", "name": "Place Pie", "kind": "square", "lat": 43.94826, "lon": 4.81, "blurb": "The square of Les Halles, the covered market, whose front wall is covered in a vertical garden of living plants.", "landmark": "les-halles" },
+    { "id": "rue-des-marchands", "name": "Rue des Marchands", "kind": "street", "lat": 43.9487, "lon": 4.80709, "blurb": "A narrow pedestrian shopping street between Place de l’Horloge and Place Carnot." },
+    { "id": "rue-du-roi-rene", "name": "Rue du Roi René", "kind": "street", "lat": 43.94646, "lon": 4.80949, "blurb": "A quiet street of old mansions, where the poet Petrarch is said to have first seen his Laura, in the church of Sainte-Claire, in 1327." },
+    { "id": "rue-des-teinturiers", "name": "Rue des Teinturiers", "kind": "street", "lat": 43.94496, "lon": 4.81352, "blurb": "A cobbled street under plane trees beside a canal of the Sorgue, where cloth dyers worked into the 19th century and a few old waterwheels still turn." },
+    { "id": "place-des-corps-saints", "name": "Place des Corps-Saints", "osm": "Place des Corps Saints", "kind": "square", "lat": 43.94417, "lon": 4.80748, "blurb": "A shady square of plane trees and café terraces in the south of the old town." }
+  ],
+  "links": [
+    { "title": "Avignon Tourisme", "url": "https://avignon-tourisme.com/en/", "note": "The official tourist office" },
+    { "title": "Ville d’Avignon", "url": "https://www.avignon.fr/", "note": "The city council (in French)" },
+    { "title": "Palais des Papes", "url": "https://palais-des-papes.com/", "note": "Tickets and opening hours for the palace and the bridge" },
+    { "title": "Historic Centre of Avignon on UNESCO", "url": "https://whc.unesco.org/en/list/228/", "note": "The World Heritage listing" },
+    { "title": "Avignon on Wikipedia", "url": "https://en.wikipedia.org/wiki/Avignon", "note": "The encyclopedia article" }
+  ]
+}

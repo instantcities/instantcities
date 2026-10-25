@@ -12,7 +12,10 @@ The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
 the Dutch, French and Spanish site, the game in French and Spanish, the Ghent guide pages and the iOS
-app.
+app. The game and Ghent were last brought up to date with Instant Gent at its commit
+`67b3780` (23 October 2026): to do so again, apply its changes since then to `core/`, `ghent/`,
+`ghentinside/`, `lecce/` and `tools/` (its `<city>/index.html` are made here as `<city>/play/index.html`
+by `node tools/pages.mjs`).
 
 ## Run locally
 
@@ -36,6 +39,16 @@ London's black cabs, Brussels' fries), each with a page of its own at `/<id>/lan
 its story, a map from OpenStreetMap and a link that drops you right there in the game. They are in
 `_data/landmarks/<id>.json`; `node tools/landmarks.mjs` writes their pages (`<id>/landmark/`).
 Ghent's texts and pictures come from the sight pages of Instant Gent.
+
+Every city also has a guide: a "This is <city>" section on its page, a page about the city at
+`/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre
+on a map, its history and official links) and a page of all its places at
+`/<id>/places-and-landmarks/` (all its landmarks, and its key streets, squares and waterways on the
+map of the centre; the city's page shows only the first nine landmarks and links there). The guides
+are in `_data/about/<id>.json`; `node tools/about.mjs` writes their pages, draws each centre from
+the game's own map (`assets/maps/<id>.svg`, the pins in `_data/maps/<id>.json`) and the country
+maps (`_data/countries.json`). `node tools/about.mjs where <id> "<street>"` says where a street of
+the game's map lies.
 
 ```bash
 python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/
@@ -67,6 +80,8 @@ ghent/, lecce/   a city: its page and everything about it
   play/          the game (/ghent/play/), made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
   page.json      what the game's page says: the game's name, the title, what shares and search engines show
   city.js        what the city is: its map, routes, quests, sights, look; see its header for the rest
+ghentinside/     the inside of Sint-Baafs, Sint-Niklaas and the Stadhuis, a map of its own that Ghent's
+                 doors and sight cards lead into (/ghentinside/play/; /ghentinside/ sends you to /ghent/)
 rome/, paris/ …  the same, smaller: a first map, a race and a tour, no quests or sights yet (docs/first-maps.md)
 cities/          the cities page (/cities/), and the old city pages that send visitors on
 tools/           making the maps and the pages (not on the site)

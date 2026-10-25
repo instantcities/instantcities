@@ -1,0 +1,282 @@
+{
+  "intro": "Rome is the capital of Italy and one of the oldest cities in Europe that people have lived in without a break. For a thousand years it ruled an empire around the Mediterranean, then it became the city of the popes, and today its Roman ruins, Renaissance palaces and Baroque fountains stand side by side in a busy modern capital.",
+  "famous": [
+    "The Colosseum, the Forum and the Pantheon, the best-kept buildings of ancient Rome",
+    "The Vatican, the smallest country in the world, with St Peter’s and the Sistine Chapel",
+    "Baroque squares and fountains by Bernini and Borromini, like Piazza Navona and the Trevi Fountain",
+    "Pasta alla carbonara, cacio e pepe and the little green drinking fountains, the nasoni"
+  ],
+  "facts": [
+    [
+      "Country",
+      "Italy"
+    ],
+    [
+      "Region",
+      "Lazio"
+    ],
+    [
+      "Population",
+      "About 2.7 million (city), 4.2 million (metropolitan city)"
+    ],
+    [
+      "Founded",
+      "753 BC, according to legend"
+    ],
+    [
+      "River",
+      "The Tiber"
+    ],
+    [
+      "Language",
+      "Italian"
+    ],
+    [
+      "Nicknames",
+      "The Eternal City, Caput Mundi (capital of the world)"
+    ],
+    [
+      "UNESCO World Heritage",
+      "The historic centre, since 1980"
+    ]
+  ],
+  "overview": [
+    "Rome lies on the River Tiber, on the famous seven hills, about 25 kilometres from the Tyrrhenian Sea. Few cities carry their past so openly: the brick ruins of the emperors stand in the middle of traffic, churches are built into ancient temples, and the paving stones of the old town, the sampietrini, have been laid by hand for five hundred years.",
+    "The historic centre, the part you ride through in Instant Rome, fits inside the bend of the Tiber and the old Aurelian Walls. From Piazza Venezia the Via del Corso runs straight north for a mile and a half, with the Pantheon, Piazza Navona and Campo de’ Fiori in the tangle of lanes to the west and the Trevi Fountain and the Quirinal Hill to the east. South of Piazza Venezia the Capitoline Hill, the Roman Forum and the Colosseum mark the heart of the ancient city."
+  ],
+  "setting": [
+    "Rome lies halfway down the west coast of the Italian peninsula, in the region of Lazio, of which it is also the capital. The Tiber, Italy’s third-longest river, comes down from the Apennines and winds through the city in two great bends before it reaches the sea at Ostia.",
+    "Inside the city lies the Vatican City, an independent state since 1929 and the home of the pope. Rome’s climate is Mediterranean: long, hot and dry summers, and mild, rainy winters."
+  ],
+  "history": [
+    {
+      "title": "From village to empire",
+      "text": [
+        "Legend says that Romulus founded Rome on the Palatine Hill on 21 April 753 BC, after killing his twin brother Remus. Archaeologists have indeed found huts of that time on the Palatine. Kings ruled the young city until 509 BC, when the Romans drove out the last of them and set up a republic led by two consuls and the Senate.",
+        "The republic conquered first Italy and then the whole Mediterranean. After the civil wars of Julius Caesar, his adopted son Augustus became the first emperor in 27 BC and boasted that he had found Rome a city of brick and left it one of marble. At its height, in the 2nd century, the city had about a million inhabitants, aqueducts, baths, the Colosseum and the Pantheon."
+      ]
+    },
+    {
+      "title": "The city of the popes",
+      "text": [
+        "The empire moved its capital to Constantinople in 330, and Rome was sacked by the Visigoths in 410 and by the Vandals in 455. The city shrank to a few tens of thousands of people living in the bend of the river, among the ruins. What kept it alive was the Church: the bishop of Rome, the pope, became the leader of western Christianity and, from the 8th century, the ruler of the Papal States in central Italy.",
+        "In the Renaissance and the Baroque, popes such as Julius II, Sixtus V and Urban VIII rebuilt the city. Michelangelo painted the Sistine Chapel and designed the dome of St Peter’s and the square on the Capitoline Hill; Bernini and Borromini filled Rome with churches, fountains and squares. Most of what you see in the centre today comes from those two centuries."
+      ]
+    },
+    {
+      "title": "Capital of Italy",
+      "text": [
+        "In 1870 the troops of the new Kingdom of Italy broke through the walls at Porta Pia, and Rome became the capital of a united Italy the year after. Whole new districts, ministries and the white Vittoriano on Piazza Venezia rose for the young state. Mussolini cut the Via dei Fori Imperiali through the ancient forums in the 1930s, to show off the Colosseum from his balcony on Piazza Venezia.",
+        "After the Second World War Rome became a republic’s capital, hosted the Olympic Games of 1960 and starred in films like Roman Holiday and La Dolce Vita. Today it is Italy’s largest city and one of the most visited in the world."
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "753 BC",
+      "Romulus founds Rome on the Palatine, according to legend"
+    ],
+    [
+      "509 BC",
+      "The last king is driven out and the republic begins"
+    ],
+    [
+      "44 BC",
+      "Julius Caesar is murdered in the Theatre of Pompey"
+    ],
+    [
+      "27 BC",
+      "Augustus becomes the first emperor"
+    ],
+    [
+      "AD 80",
+      "The Colosseum opens"
+    ],
+    [
+      "c. 125",
+      "Hadrian rebuilds the Pantheon"
+    ],
+    [
+      "410",
+      "The Visigoths sack Rome"
+    ],
+    [
+      "1506",
+      "Work begins on the new St Peter’s"
+    ],
+    [
+      "1651",
+      "Bernini’s Fountain of the Four Rivers on Piazza Navona"
+    ],
+    [
+      "1870",
+      "Italian troops take Rome; it becomes the capital in 1871"
+    ],
+    [
+      "1929",
+      "The Lateran Treaty makes the Vatican City a state"
+    ],
+    [
+      "1960",
+      "Rome hosts the Olympic Games"
+    ]
+  ],
+  "today": [
+    "Rome is the seat of the Italian government and parliament, of the Vatican and of three United Nations food agencies, among them the FAO. Its economy runs on government, tourism, film (the Cinecittà studios) and services. Romans still live in the centre: the markets of Campo de’ Fiori and the bars around the Pantheon are as much theirs as the visitors’.",
+    "Its football clubs, AS Roma and Lazio, share the Stadio Olimpico, and the derby between them stops the city. In summer the Romans eat late and outside, and in August many leave the city altogether for the sea."
+  ],
+  "places": [
+    {
+      "id": "via-del-corso",
+      "name": "Via del Corso",
+      "kind": "street",
+      "lat": 41.9,
+      "lon": 12.4809,
+      "blurb": "The straight main street of the centre, from Piazza Venezia to Piazza del Popolo, on the line of the ancient Via Flaminia. It got its name from the riderless horse races of the Roman carnival."
+    },
+    {
+      "id": "piazza-venezia",
+      "name": "Piazza Venezia",
+      "kind": "square",
+      "lat": 41.8963,
+      "lon": 12.4822,
+      "blurb": "Rome’s busiest crossroads, at the foot of the Capitoline Hill, under the white marble Vittoriano.",
+      "landmark": "vittoriano"
+    },
+    {
+      "id": "via-dei-fori-imperiali",
+      "name": "Via dei Fori Imperiali",
+      "kind": "street",
+      "lat": 41.8923,
+      "lon": 12.4889,
+      "blurb": "The wide avenue from Piazza Venezia to the Colosseum, laid in 1932 straight across the forums of the emperors.",
+      "landmark": "foro-romano"
+    },
+    {
+      "id": "piazza-del-campidoglio",
+      "name": "Piazza del Campidoglio",
+      "kind": "square",
+      "lat": 41.8933,
+      "lon": 12.4828,
+      "blurb": "Michelangelo’s square on top of the Capitoline Hill, with Rome’s city hall and the Capitoline Museums."
+    },
+    {
+      "id": "piazza-colonna",
+      "name": "Piazza Colonna",
+      "kind": "square",
+      "lat": 41.9009,
+      "lon": 12.4797,
+      "blurb": "The square on the Corso around the column of Marcus Aurelius, with the prime minister’s office in Palazzo Chigi.",
+      "landmark": "colonna-di-marco-aurelio"
+    },
+    {
+      "id": "piazza-della-rotonda",
+      "name": "Piazza della Rotonda",
+      "kind": "square",
+      "lat": 41.8992,
+      "lon": 12.4768,
+      "blurb": "The square in front of the Pantheon, with a fountain topped by an Egyptian obelisk.",
+      "landmark": "pantheon"
+    },
+    {
+      "id": "piazza-navona",
+      "name": "Piazza Navona",
+      "kind": "square",
+      "lat": 41.8992,
+      "lon": 12.4731,
+      "blurb": "The long Baroque square on the outline of Domitian’s stadium, with three fountains.",
+      "landmark": "piazza-navona"
+    },
+    {
+      "id": "piazza-di-trevi",
+      "name": "Piazza di Trevi",
+      "kind": "square",
+      "lat": 41.9009,
+      "lon": 12.4833,
+      "blurb": "The small square that the Trevi Fountain fills almost entirely.",
+      "landmark": "fontana-di-trevi"
+    },
+    {
+      "id": "largo-di-torre-argentina",
+      "name": "Largo di Torre Argentina",
+      "kind": "square",
+      "lat": 41.8955,
+      "lon": 12.4768,
+      "blurb": "A sunken square of four Republican temples, near where Caesar was killed, now a home for the city’s cats.",
+      "landmark": "largo-di-torre-argentina"
+    },
+    {
+      "id": "corso-vittorio-emanuele",
+      "name": "Corso Vittorio Emanuele II",
+      "osm": "Corso Vittorio Emanuele Secondo",
+      "kind": "street",
+      "lat": 41.8966,
+      "lon": 12.4744,
+      "blurb": "The avenue cut through the old town in the 1880s, from the Gesù church to the Tiber and on to the Vatican."
+    },
+    {
+      "id": "campo-de-fiori",
+      "name": "Campo de’ Fiori",
+      "osm": "Campo de' Fiori",
+      "kind": "square",
+      "lat": 41.8956,
+      "lon": 12.4722,
+      "blurb": "A lively square with a morning market and, in the middle, the hooded statue of Giordano Bruno.",
+      "landmark": "campo-de-fiori"
+    },
+    {
+      "id": "piazza-farnese",
+      "name": "Piazza Farnese",
+      "kind": "square",
+      "lat": 41.8948,
+      "lon": 12.4712,
+      "blurb": "A calm square of two granite basins from the Baths of Caracalla, in front of Palazzo Farnese, which Michelangelo helped finish and which now houses the French embassy."
+    },
+    {
+      "id": "tevere",
+      "name": "The Tiber",
+      "local": "Tevere",
+      "kind": "waterway",
+      "lat": 41.8945,
+      "lon": 12.4689,
+      "blurb": "Rome’s river, between high stone walls built after the flood of 1870, with plane trees along its quays, the lungotevere."
+    },
+    {
+      "id": "foro-romano",
+      "name": "The Roman Forum",
+      "local": "Foro Romano",
+      "kind": "quarter",
+      "lat": 41.8925,
+      "lon": 12.4853,
+      "blurb": "The valley of ruins between the Capitoline and the Palatine, once the political and religious heart of ancient Rome.",
+      "landmark": "foro-romano"
+    }
+  ],
+  "links": [
+    {
+      "title": "Turismo Roma",
+      "url": "https://www.turismoroma.it/en",
+      "note": "The city’s official tourist information"
+    },
+    {
+      "title": "Roma Capitale",
+      "url": "https://www.comune.roma.it/",
+      "note": "The city council (in Italian)"
+    },
+    {
+      "title": "Colosseum Archaeological Park",
+      "url": "https://colosseo.it/en/",
+      "note": "Tickets and opening hours for the Colosseum, the Forum and the Palatine"
+    },
+    {
+      "title": "Historic Centre of Rome on UNESCO",
+      "url": "https://whc.unesco.org/en/list/91/",
+      "note": "The World Heritage listing"
+    },
+    {
+      "title": "Rome on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rome",
+      "note": "The encyclopedia article"
+    }
+  ]
+}

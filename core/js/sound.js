@@ -8,7 +8,9 @@ const saved = (() => {
 })();
 
 export const sfx = new Sfx();
-sfx.musicOn = sfx.sfxOn = saved.sound ?? ((saved.music ?? true) && (saved.sfx ?? true)); // one switch for both (older saves had two)
+// Separate preferences take precedence; migrate the previous single sound switch.
+sfx.musicOn = saved.music ?? saved.sound ?? true;
+sfx.sfxOn = saved.sfx ?? saved.sound ?? true;
 export const music = new Music(sfx);
 sfx.onUnlock = () => music.restart();
 

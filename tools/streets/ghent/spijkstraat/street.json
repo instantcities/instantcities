@@ -1,0 +1,8469 @@
+{
+ "city": "ghent",
+ "street": "Spijkstraat",
+ "slug": "spijkstraat",
+ "photos": {
+  "2270068596712432-331": {
+   "file": "photos/2270068596712432-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    331,
+    0.5
+   ]
+  },
+  "803557616149825": {
+   "file": "photos/803557616149825.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=803557616149825",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0585704,
+    3.7419902,
+    276,
+    0.397
+   ]
+  },
+  "1458932494459488": {
+   "file": "photos/1458932494459488.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1458932494459488",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0582011,
+    3.7420377,
+    334,
+    0.915
+   ]
+  },
+  "844648657787650-270": {
+   "file": "photos/844648657787650-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844648657787650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589093,
+    3.7424496,
+    270,
+    0.5
+   ]
+  },
+  "844648657787650-344": {
+   "file": "photos/844648657787650-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844648657787650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589093,
+    3.7424496,
+    344,
+    0.5
+   ]
+  },
+  "1607985609923272-292": {
+   "file": "photos/1607985609923272-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1607985609923272",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0597701,
+    3.74367,
+    292,
+    0.5
+   ]
+  },
+  "3960451330861585-280": {
+   "file": "photos/3960451330861585-280.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3960451330861585",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598447,
+    3.7437741,
+    280,
+    0.5
+   ]
+  },
+  "3960451330861585-346": {
+   "file": "photos/3960451330861585-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3960451330861585",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598447,
+    3.7437741,
+    346,
+    0.5
+   ]
+  },
+  "547611904289709-309": {
+   "file": "photos/547611904289709-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=547611904289709",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599973,
+    3.7439877,
+    309,
+    0.5
+   ]
+  },
+  "1267706244689389-299": {
+   "file": "photos/1267706244689389-299.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1267706244689389",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602863,
+    3.7443727,
+    299,
+    0.5
+   ]
+  },
+  "594526586722777-307": {
+   "file": "photos/594526586722777-307.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=594526586722777",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603049,
+    3.744476,
+    307,
+    0.5
+   ]
+  },
+  "591244883718577-320": {
+   "file": "photos/591244883718577-320.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591244883718577",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603687,
+    3.7444802,
+    320,
+    0.5
+   ]
+  },
+  "1189659645917395-293": {
+   "file": "photos/1189659645917395-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1189659645917395",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604907,
+    3.744648,
+    293,
+    0.5
+   ]
+  },
+  "1189659645917395-331": {
+   "file": "photos/1189659645917395-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1189659645917395",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604907,
+    3.744648,
+    331,
+    0.5
+   ]
+  },
+  "1640862863227951-309": {
+   "file": "photos/1640862863227951-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640862863227951",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0608025,
+    3.7451612,
+    309,
+    0.5
+   ]
+  },
+  "975246684132022-340": {
+   "file": "photos/975246684132022-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=975246684132022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586755,
+    3.7421188,
+    340,
+    0.5
+   ]
+  },
+  "7713581752099953-312": {
+   "file": "photos/7713581752099953-312.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7713581752099953",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587506,
+    3.7422299,
+    312,
+    0.5
+   ]
+  },
+  "7713581752099953-266": {
+   "file": "photos/7713581752099953-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7713581752099953",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587506,
+    3.7422299,
+    266,
+    0.5
+   ]
+  },
+  "634356919002490-346": {
+   "file": "photos/634356919002490-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634356919002490",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0588286,
+    3.7423377,
+    346,
+    0.5
+   ]
+  },
+  "634356919002490-283": {
+   "file": "photos/634356919002490-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634356919002490",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0588286,
+    3.7423377,
+    283,
+    0.5
+   ]
+  },
+  "844648657787650-305": {
+   "file": "photos/844648657787650-305.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844648657787650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589093,
+    3.7424496,
+    305,
+    0.5
+   ]
+  },
+  "2270068596712432-288": {
+   "file": "photos/2270068596712432-288.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    288,
+    0.5
+   ]
+  },
+  "1004459865077129-339": {
+   "file": "photos/1004459865077129-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1004459865077129",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592257,
+    3.7429033,
+    339,
+    0.5
+   ]
+  },
+  "458070505491885": {
+   "file": "photos/458070505491885.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=458070505491885",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0590994,
+    3.7434608,
+    330,
+    0.425
+   ]
+  },
+  "616205088011992-322": {
+   "file": "photos/616205088011992-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=616205088011992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592982,
+    3.7430091,
+    322,
+    0.5
+   ]
+  },
+  "1210842896024477": {
+   "file": "photos/1210842896024477.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1210842896024477",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.059193,
+    3.7433869,
+    333,
+    0.425
+   ]
+  },
+  "257151422865608": {
+   "file": "photos/257151422865608.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=257151422865608",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0592623,
+    3.7433366,
+    335,
+    0.425
+   ]
+  },
+  "389934778815673": {
+   "file": "photos/389934778815673.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=389934778815673",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.059216,
+    3.74337,
+    335,
+    0.425
+   ]
+  },
+  "747099222623762": {
+   "file": "photos/747099222623762.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=747099222623762",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0592396,
+    3.743353,
+    335,
+    0.425
+   ]
+  },
+  "1312585573317414-345": {
+   "file": "photos/1312585573317414-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1312585573317414",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596299,
+    3.7434738,
+    345,
+    0.5
+   ]
+  },
+  "2034980947014518-326": {
+   "file": "photos/2034980947014518-326.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2034980947014518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596974,
+    3.7435701,
+    326,
+    0.5
+   ]
+  },
+  "1607985609923272-332": {
+   "file": "photos/1607985609923272-332.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1607985609923272",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0597701,
+    3.74367,
+    332,
+    0.5
+   ]
+  },
+  "3960451330861585-309": {
+   "file": "photos/3960451330861585-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3960451330861585",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0598447,
+    3.7437741,
+    309,
+    0.5
+   ]
+  },
+  "547611904289709-278": {
+   "file": "photos/547611904289709-278.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=547611904289709",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599973,
+    3.7439877,
+    278,
+    0.5
+   ]
+  },
+  "1286735932382047-308": {
+   "file": "photos/1286735932382047-308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286735932382047",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600735,
+    3.7440915,
+    308,
+    0.5
+   ]
+  },
+  "1286735932382047-342": {
+   "file": "photos/1286735932382047-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286735932382047",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600735,
+    3.7440915,
+    342,
+    0.5
+   ]
+  },
+  "499408413216816-340": {
+   "file": "photos/499408413216816-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=499408413216816",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602211,
+    3.7442804,
+    340,
+    0.5
+   ]
+  },
+  "499408413216816-296": {
+   "file": "photos/499408413216816-296.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=499408413216816",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602211,
+    3.7442804,
+    296,
+    0.5
+   ]
+  },
+  "1785878835318423-291": {
+   "file": "photos/1785878835318423-291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1785878835318423",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0604294,
+    3.7445555,
+    291,
+    0.5
+   ]
+  },
+  "9739548219396976-290": {
+   "file": "photos/9739548219396976-290.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9739548219396976",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0605577,
+    3.7447424,
+    290,
+    0.5
+   ]
+  },
+  "3969167093355711-306": {
+   "file": "photos/3969167093355711-306.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3969167093355711",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0606272,
+    3.744835,
+    306,
+    0.5
+   ]
+  },
+  "822282206749498-307": {
+   "file": "photos/822282206749498-307.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=822282206749498",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0606961,
+    3.7449236,
+    307,
+    0.5
+   ]
+  },
+  "985307486831917-306": {
+   "file": "photos/985307486831917-306.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=985307486831917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0607638,
+    3.7450092,
+    306,
+    0.5
+   ]
+  },
+  "2997612527065163-310": {
+   "file": "photos/2997612527065163-310.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2997612527065163",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0608907,
+    3.7452162,
+    310,
+    0.5
+   ]
+  },
+  "1312585573317414-306": {
+   "file": "photos/1312585573317414-306.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1312585573317414",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596299,
+    3.7434738,
+    306,
+    0.5
+   ]
+  },
+  "1312585573317414-276": {
+   "file": "photos/1312585573317414-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1312585573317414",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596299,
+    3.7434738,
+    276,
+    0.5
+   ]
+  },
+  "1133025035230023-332": {
+   "file": "photos/1133025035230023-332.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133025035230023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.05992,
+    3.7438803,
+    332,
+    0.5
+   ]
+  },
+  "1133025035230023-301": {
+   "file": "photos/1133025035230023-301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133025035230023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.05992,
+    3.7438803,
+    301,
+    0.5
+   ]
+  },
+  "547611904289709-347": {
+   "file": "photos/547611904289709-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=547611904289709",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599973,
+    3.7439877,
+    347,
+    0.5
+   ]
+  },
+  "622542887176568-300": {
+   "file": "photos/622542887176568-300.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=622542887176568",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0601504,
+    3.7441915,
+    300,
+    0.5
+   ]
+  },
+  "9739548219396976-342": {
+   "file": "photos/9739548219396976-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9739548219396976",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0605577,
+    3.7447424,
+    342,
+    0.5
+   ]
+  },
+  "1342286460136304-296": {
+   "file": "photos/1342286460136304-296.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1342286460136304",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0606213,
+    3.7450547,
+    296,
+    0.5
+   ]
+  },
+  "622542887176568-344": {
+   "file": "photos/622542887176568-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=622542887176568",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0601504,
+    3.7441915,
+    344,
+    0.5
+   ]
+  },
+  "801806165984412": {
+   "file": "photos/801806165984412.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=801806165984412",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0581523,
+    3.7411459,
+    346,
+    0.523
+   ]
+  },
+  "462912841453153": {
+   "file": "photos/462912841453153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=462912841453153",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0579504,
+    3.7411115,
+    346,
+    0.426
+   ]
+  },
+  "1154290479470345-5": {
+   "file": "photos/1154290479470345-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154290479470345",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0580636,
+    3.7411851,
+    5,
+    0.5
+   ]
+  },
+  "1154290479470345-13": {
+   "file": "photos/1154290479470345-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154290479470345",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0580636,
+    3.7411851,
+    13,
+    0.5
+   ]
+  },
+  "318676193027143": {
+   "file": "photos/318676193027143.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=318676193027143",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0582176,
+    3.7420226,
+    309,
+    0.727
+   ]
+  },
+  "1484306493057908": {
+   "file": "photos/1484306493057908.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1484306493057908",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0581573,
+    3.7420333,
+    320,
+    0.62
+   ]
+  },
+  "830436994569284": {
+   "file": "photos/830436994569284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=830436994569284",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0581827,
+    3.7420609,
+    316,
+    0.727
+   ]
+  },
+  "300117278318111": {
+   "file": "photos/300117278318111.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=300117278318111",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0581395,
+    3.7420925,
+    320,
+    0.426
+   ]
+  },
+  "927388439902121": {
+   "file": "photos/927388439902121.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=927388439902121",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0582436,
+    3.7418271,
+    341,
+    0.62
+   ]
+  },
+  "2573620166278171": {
+   "file": "photos/2573620166278171.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2573620166278171",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0582538,
+    3.7419801,
+    313,
+    0.727
+   ]
+  },
+  "505992923870087": {
+   "file": "photos/505992923870087.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=505992923870087",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0581942,
+    3.742026,
+    322,
+    0.426
+   ]
+  },
+  "1969357063660233": {
+   "file": "photos/1969357063660233.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1969357063660233",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0582094,
+    3.7419826,
+    324,
+    0.62
+   ]
+  },
+  "217534323229069": {
+   "file": "photos/217534323229069.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=217534323229069",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.0581422,
+    3.7420982,
+    321,
+    0.727
+   ]
+  },
+  "527565994914382": {
+   "file": "photos/527565994914382.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527565994914382",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0581211,
+    3.7421158,
+    320,
+    0.426
+   ]
+  },
+  "7423575467766003-2": {
+   "file": "photos/7423575467766003-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7423575467766003",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0590705,
+    3.7426787,
+    2,
+    0.5
+   ]
+  },
+  "2270068596712432-17": {
+   "file": "photos/2270068596712432-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    17,
+    0.5
+   ]
+  },
+  "1561208608280117": {
+   "file": "photos/1561208608280117.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1561208608280117",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.058143,
+    3.7411695,
+    54,
+    0.641
+   ]
+  },
+  "343536850439323": {
+   "file": "photos/343536850439323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=343536850439323",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0581992,
+    3.7412028,
+    101,
+    0.424
+   ]
+  },
+  "1058560612697166-111": {
+   "file": "photos/1058560612697166-111.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1058560612697166",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0601589,
+    3.744855,
+    111,
+    0.5
+   ]
+  },
+  "603363849162775-88": {
+   "file": "photos/603363849162775-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=603363849162775",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602506,
+    3.7448834,
+    88,
+    0.5
+   ]
+  },
+  "603363849162775-130": {
+   "file": "photos/603363849162775-130.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=603363849162775",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602506,
+    3.7448834,
+    130,
+    0.5
+   ]
+  },
+  "603363849162775-109": {
+   "file": "photos/603363849162775-109.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=603363849162775",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0602506,
+    3.7448834,
+    109,
+    0.5
+   ]
+  },
+  "945873660918798-119": {
+   "file": "photos/945873660918798-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=945873660918798",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603434,
+    3.7449226,
+    119,
+    0.5
+   ]
+  },
+  "3634929380139900-99": {
+   "file": "photos/3634929380139900-99.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3634929380139900",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0608593,
+    3.7451954,
+    99,
+    0.5
+   ]
+  },
+  "1533277440687235-110": {
+   "file": "photos/1533277440687235-110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1533277440687235",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.058526,
+    3.7418998,
+    110,
+    0.5
+   ]
+  },
+  "7713581752099953-140": {
+   "file": "photos/7713581752099953-140.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7713581752099953",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587506,
+    3.7422299,
+    140,
+    0.5
+   ]
+  },
+  "2270068596712432-135": {
+   "file": "photos/2270068596712432-135.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    135,
+    0.5
+   ]
+  },
+  "2270068596712432-163": {
+   "file": "photos/2270068596712432-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    163,
+    0.5
+   ]
+  },
+  "7423575467766003-115": {
+   "file": "photos/7423575467766003-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7423575467766003",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0590705,
+    3.7426787,
+    115,
+    0.5
+   ]
+  },
+  "633501802398658-89": {
+   "file": "photos/633501802398658-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=633501802398658",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059149,
+    3.7427912,
+    89,
+    0.5
+   ]
+  },
+  "1112603412559942": {
+   "file": "photos/1112603412559942.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1112603412559942",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0594213,
+    3.7431085,
+    169,
+    0.43
+   ]
+  },
+  "1542043526468052-154": {
+   "file": "photos/1542043526468052-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1542043526468052",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595709,
+    3.7433805,
+    154,
+    0.5
+   ]
+  },
+  "2034980947014518-139": {
+   "file": "photos/2034980947014518-139.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2034980947014518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596974,
+    3.7435701,
+    139,
+    0.5
+   ]
+  },
+  "843254992122626": {
+   "file": "photos/843254992122626.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=843254992122626",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.058636,
+    3.7417543,
+    154,
+    0.676
+   ]
+  },
+  "313575957040941": {
+   "file": "photos/313575957040941.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=313575957040941",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0585664,
+    3.7416023,
+    137,
+    0.425
+   ]
+  },
+  "1391707321818305-105": {
+   "file": "photos/1391707321818305-105.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1391707321818305",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586001,
+    3.7420083,
+    105,
+    0.5
+   ]
+  },
+  "975246684132022-99": {
+   "file": "photos/975246684132022-99.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=975246684132022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586755,
+    3.7421188,
+    99,
+    0.5
+   ]
+  },
+  "7713581752099953-105": {
+   "file": "photos/7713581752099953-105.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7713581752099953",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0587506,
+    3.7422299,
+    105,
+    0.5
+   ]
+  },
+  "634356919002490-120": {
+   "file": "photos/634356919002490-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634356919002490",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0588286,
+    3.7423377,
+    120,
+    0.5
+   ]
+  },
+  "634356919002490-155": {
+   "file": "photos/634356919002490-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=634356919002490",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0588286,
+    3.7423377,
+    155,
+    0.5
+   ]
+  },
+  "844648657787650-155": {
+   "file": "photos/844648657787650-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844648657787650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589093,
+    3.7424496,
+    155,
+    0.5
+   ]
+  },
+  "2270068596712432-99": {
+   "file": "photos/2270068596712432-99.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2270068596712432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589891,
+    3.7425645,
+    99,
+    0.5
+   ]
+  },
+  "7423575467766003-152": {
+   "file": "photos/7423575467766003-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7423575467766003",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0590705,
+    3.7426787,
+    152,
+    0.5
+   ]
+  },
+  "633501802398658-164": {
+   "file": "photos/633501802398658-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=633501802398658",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059149,
+    3.7427912,
+    164,
+    0.5
+   ]
+  },
+  "633501802398658-119": {
+   "file": "photos/633501802398658-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=633501802398658",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.059149,
+    3.7427912,
+    119,
+    0.5
+   ]
+  },
+  "526256708378400": {
+   "file": "photos/526256708378400.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=526256708378400",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0595527,
+    3.7430196,
+    158,
+    0.43
+   ]
+  },
+  "1004459865077129-96": {
+   "file": "photos/1004459865077129-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1004459865077129",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592257,
+    3.7429033,
+    96,
+    0.5
+   ]
+  },
+  "594194186929022-110": {
+   "file": "photos/594194186929022-110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=594194186929022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595117,
+    3.7432858,
+    110,
+    0.5
+   ]
+  },
+  "1312585573317414-120": {
+   "file": "photos/1312585573317414-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1312585573317414",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0596299,
+    3.7434738,
+    120,
+    0.5
+   ]
+  },
+  "1607985609923272-124": {
+   "file": "photos/1607985609923272-124.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1607985609923272",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0597701,
+    3.74367,
+    124,
+    0.5
+   ]
+  },
+  "1133025035230023-152": {
+   "file": "photos/1133025035230023-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133025035230023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.05992,
+    3.7438803,
+    152,
+    0.5
+   ]
+  },
+  "1133025035230023-95": {
+   "file": "photos/1133025035230023-95.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133025035230023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.05992,
+    3.7438803,
+    95,
+    0.5
+   ]
+  },
+  "1286735932382047-161": {
+   "file": "photos/1286735932382047-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286735932382047",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0600735,
+    3.7440915,
+    161,
+    0.5
+   ]
+  },
+  "1391707321818305-129": {
+   "file": "photos/1391707321818305-129.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1391707321818305",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586001,
+    3.7420083,
+    129,
+    0.5
+   ]
+  },
+  "1391707321818305-154": {
+   "file": "photos/1391707321818305-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1391707321818305",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0586001,
+    3.7420083,
+    154,
+    0.5
+   ]
+  },
+  "844648657787650-106": {
+   "file": "photos/844648657787650-106.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=844648657787650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0589093,
+    3.7424496,
+    106,
+    0.5
+   ]
+  },
+  "1004459865077129-138": {
+   "file": "photos/1004459865077129-138.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1004459865077129",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0592257,
+    3.7429033,
+    138,
+    0.5
+   ]
+  },
+  "4201014696654248": {
+   "file": "photos/4201014696654248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4201014696654248",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0597352,
+    3.7428811,
+    152,
+    0.43
+   ]
+  },
+  "821072358539846": {
+   "file": "photos/821072358539846.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=821072358539846",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0596624,
+    3.7429366,
+    153,
+    0.43
+   ]
+  },
+  "1542043526468052-104": {
+   "file": "photos/1542043526468052-104.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1542043526468052",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0595709,
+    3.7433805,
+    104,
+    0.5
+   ]
+  },
+  "547611904289709-166": {
+   "file": "photos/547611904289709-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=547611904289709",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0599973,
+    3.7439877,
+    166,
+    0.5
+   ]
+  },
+  "3296746927218375": {
+   "file": "photos/3296746927218375.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3296746927218375",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0595325,
+    3.743033,
+    157,
+    0.43
+   ]
+  },
+  "955336350770715": {
+   "file": "photos/955336350770715.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=955336350770715",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0583872,
+    3.7416143,
+    141,
+    0.676
+   ]
+  },
+  "304798507691510": {
+   "file": "photos/304798507691510.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=304798507691510",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0584136,
+    3.7417537,
+    160,
+    0.425
+   ]
+  },
+  "392407165203319": {
+   "file": "photos/392407165203319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=392407165203319",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0596169,
+    3.7429721,
+    153,
+    0.43
+   ]
+  },
+  "1155251062676212-183": {
+   "file": "photos/1155251062676212-183.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155251062676212",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0582739,
+    3.7413479,
+    183,
+    0.5
+   ]
+  },
+  "957757416751418": {
+   "file": "photos/957757416751418.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=957757416751418",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0581679,
+    3.7411369,
+    161,
+    0.71
+   ]
+  },
+  "290198109323445": {
+   "file": "photos/290198109323445.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=290198109323445",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0582022,
+    3.7411973,
+    167,
+    0.424
+   ]
+  },
+  "2266718796798844": {
+   "file": "photos/2266718796798844.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2266718796798844",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-11",
+   "cam": [
+    51.058047,
+    3.7410098,
+    140,
+    0.74
+   ]
+  },
+  "1155251062676212-144": {
+   "file": "photos/1155251062676212-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155251062676212",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0582739,
+    3.7413479,
+    144,
+    0.5
+   ]
+  },
+  "1658408675500228": {
+   "file": "photos/1658408675500228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1658408675500228",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0584857,
+    3.7416282,
+    155,
+    0.676
+   ]
+  },
+  "975601339872982": {
+   "file": "photos/975601339872982.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=975601339872982",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0586433,
+    3.7415421,
+    168,
+    0.426
+   ]
+  },
+  "1155251062676212-126": {
+   "file": "photos/1155251062676212-126.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155251062676212",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0582739,
+    3.7413479,
+    126,
+    0.5
+   ]
+  },
+  "830892117512146": {
+   "file": "photos/830892117512146.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=830892117512146",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0586718,
+    3.7415294,
+    164,
+    0.426
+   ]
+  },
+  "4318093881735806": {
+   "file": "photos/4318093881735806.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4318093881735806",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-04-04",
+   "cam": [
+    51.0585472,
+    3.7415252,
+    147,
+    0.676
+   ]
+  },
+  "1598280977024315": {
+   "file": "photos/1598280977024315.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1598280977024315",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0586099,
+    3.7415608,
+    159,
+    0.426
+   ]
+  },
+  "591244883718577-157": {
+   "file": "photos/591244883718577-157.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591244883718577",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-18",
+   "pano": true,
+   "cam": [
+    51.0603687,
+    3.7444802,
+    157,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 28336,
+   "at": [
+    1641.25,
+    -781.8
+   ],
+   "centre": [
+    1636.3,
+    -785.6
+   ],
+   "width": 4.9,
+   "faces": 39,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1639.7,
+    -779.9,
+    1642.8,
+    -783.7,
+    1632.5,
+    -790.8,
+    1630,
+    -788
+   ],
+   "id": "spijkstraat-39-01",
+   "latLon": [
+    51.059031,
+    3.742527
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-331",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.296,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28323,
+   "at": [
+    1585.4499999999998,
+    -717
+   ],
+   "centre": [
+    1580.3,
+    -722.6
+   ],
+   "width": 16,
+   "faces": 40,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 17.5,
+   "kind": "apartments",
+   "ring": [
+    1568.9,
+    -720.7,
+    1581.2,
+    -735.6,
+    1590.6,
+    -723.1,
+    1580.3,
+    -710.9
+   ],
+   "id": "spijkstraat-40-02",
+   "latLon": [
+    51.058562,
+    3.741889
+   ],
+   "photos": [
+    {
+     "id": "803557616149825",
+     "metres": 7,
+     "off": 14,
+     "span": [
+      0.229,
+      0.927
+     ]
+    },
+    {
+     "id": "1458932494459488",
+     "metres": 41,
+     "off": 12,
+     "span": [
+      0.56,
+      0.801
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28328,
+   "at": [
+    1614.9499999999998,
+    -751.0999999999999
+   ],
+   "centre": [
+    1607.9,
+    -758.1
+   ],
+   "width": 5.7,
+   "faces": 40,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1613.1,
+    -748.9,
+    1616.8,
+    -753.3,
+    1606.5,
+    -762.4,
+    1603.1,
+    -764.9,
+    1600.1,
+    -760.9
+   ],
+   "id": "spijkstraat-40-03",
+   "latLon": [
+    51.058808,
+    3.742227
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28331,
+   "at": [
+    1626.9,
+    -764.95
+   ],
+   "centre": [
+    1620.2,
+    -770.9
+   ],
+   "width": 4,
+   "faces": 40,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1625.6,
+    -763.4,
+    1628.2,
+    -766.5,
+    1614.7,
+    -778.4,
+    1612.1,
+    -775.3
+   ],
+   "id": "spijkstraat-40-04",
+   "latLon": [
+    51.058909,
+    3.742363
+   ],
+   "photos": [
+    {
+     "id": "844648657787650-270",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.408,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28334,
+   "at": [
+    1635.3000000000002,
+    -774.85
+   ],
+   "centre": [
+    1628.2,
+    -781.5
+   ],
+   "width": 4.3,
+   "faces": 40,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1633.9,
+    -773.2,
+    1636.7,
+    -776.5,
+    1627.1,
+    -784.7,
+    1622.9,
+    -788.1,
+    1620.3,
+    -785.1
+   ],
+   "id": "spijkstraat-40-05",
+   "latLon": [
+    51.05898,
+    3.742459
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28333,
+   "at": [
+    1632.5500000000002,
+    -771.6
+   ],
+   "centre": [
+    1625.8,
+    -777.6
+   ],
+   "width": 4.2,
+   "faces": 40,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1631.2,
+    -770,
+    1633.9,
+    -773.2,
+    1620.3,
+    -785.1,
+    1617.7,
+    -782
+   ],
+   "id": "spijkstraat-40-06",
+   "latLon": [
+    51.058957,
+    3.742428
+   ],
+   "photos": [
+    {
+     "id": "844648657787650-344",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.346,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28567,
+   "at": [
+    1733.1,
+    -887.35
+   ],
+   "centre": [
+    1725.3,
+    -895
+   ],
+   "width": 5.6,
+   "faces": 40,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1717.2,
+    -897.7,
+    1720.8,
+    -902,
+    1722.3,
+    -900.6,
+    1734.9,
+    -889.5,
+    1731.3,
+    -885.2
+   ],
+   "id": "spijkstraat-40-07",
+   "latLon": [
+    51.059794,
+    3.743577
+   ],
+   "photos": [
+    {
+     "id": "1607985609923272-292",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.365,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28564,
+   "at": [
+    1740.5,
+    -896.0999999999999
+   ],
+   "centre": [
+    1731.4,
+    -904.1
+   ],
+   "width": 4.7,
+   "faces": 40,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1725.4,
+    -908.8,
+    1727.7,
+    -911,
+    1742,
+    -897.9,
+    1739,
+    -894.3,
+    1726.5,
+    -905.9,
+    1727.5,
+    -906.9
+   ],
+   "id": "spijkstraat-40-08",
+   "latLon": [
+    51.059857,
+    3.743662
+   ],
+   "photos": [
+    {
+     "id": "3960451330861585-280",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.411,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28562,
+   "at": [
+    1747.6999999999998,
+    -904.55
+   ],
+   "centre": [
+    1736.6,
+    -913.5
+   ],
+   "width": 8,
+   "faces": 40,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1733.3,
+    -918.8,
+    1735.2,
+    -921.1,
+    1750.3,
+    -907.6,
+    1745.1,
+    -901.5,
+    1731.3,
+    -914.3,
+    1730.6,
+    -915,
+    1730.6,
+    -916.1
+   ],
+   "id": "spijkstraat-40-09",
+   "latLon": [
+    51.059919,
+    3.743744
+   ],
+   "photos": [
+    {
+     "id": "3960451330861585-346",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.301,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28558,
+   "at": [
+    1762.1,
+    -921
+   ],
+   "centre": [
+    1751.8,
+    -929.5
+   ],
+   "width": 5.2,
+   "faces": 40,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1742,
+    -935.7,
+    1744.9,
+    -939.8,
+    1763.8,
+    -923,
+    1760.4,
+    -919,
+    1747.8,
+    -930.2
+   ],
+   "id": "spijkstraat-40-10",
+   "latLon": [
+    51.060038,
+    3.743909
+   ],
+   "photos": [
+    {
+     "id": "547611904289709-309",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.355,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34055,
+   "at": [
+    1795.75,
+    -959.25
+   ],
+   "centre": [
+    1789.2,
+    -965.7
+   ],
+   "width": 5.4,
+   "faces": 40,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1780.8,
+    -969,
+    1784.2,
+    -972.8,
+    1789.3,
+    -968.3,
+    1797.5,
+    -961.3,
+    1794,
+    -957.2
+   ],
+   "id": "spijkstraat-40-11",
+   "latLon": [
+    51.060314,
+    3.744294
+   ],
+   "photos": [
+    {
+     "id": "1267706244689389-299",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.346,
+      0.683
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34054,
+   "at": [
+    1801.3,
+    -965.75
+   ],
+   "centre": [
+    1792.8,
+    -974.9
+   ],
+   "width": 11.7,
+   "faces": 40,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1787,
+    -985.9,
+    1792.1,
+    -981.5,
+    1805.1,
+    -970.2,
+    1797.5,
+    -961.3,
+    1789.3,
+    -968.3,
+    1794.5,
+    -974.2,
+    1784.2,
+    -983
+   ],
+   "id": "spijkstraat-40-12",
+   "latLon": [
+    51.060361,
+    3.744357
+   ],
+   "photos": [
+    {
+     "id": "594526586722777-307",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.28,
+      0.731
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34053,
+   "at": [
+    1807.1,
+    -972.55
+   ],
+   "centre": [
+    1800.3,
+    -978.9
+   ],
+   "width": 6.2,
+   "faces": 40,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1792.1,
+    -981.5,
+    1805.1,
+    -970.2,
+    1809.1,
+    -974.9,
+    1801.1,
+    -982,
+    1799.6,
+    -980.2,
+    1794.9,
+    -984.5
+   ],
+   "id": "spijkstraat-40-13",
+   "latLon": [
+    51.060411,
+    3.744423
+   ],
+   "photos": [
+    {
+     "id": "591244883718577-320",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.28,
+      0.683
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34034,
+   "at": [
+    1819.35,
+    -986.6500000000001
+   ],
+   "centre": [
+    1807.9,
+    -994.1
+   ],
+   "width": 5.4,
+   "faces": 40,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1821.4,
+    -989,
+    1821.1,
+    -988.7,
+    1817.6,
+    -984.6,
+    1814.1,
+    -980.7,
+    1799,
+    -993.7,
+    1797.1,
+    -995.4,
+    1800.9,
+    -999.9,
+    1799.4,
+    -1001.2,
+    1802.7,
+    -1005,
+    1805.6,
+    -1002.5
+   ],
+   "id": "spijkstraat-40-14",
+   "latLon": [
+    51.060513,
+    3.744563
+   ],
+   "photos": [
+    {
+     "id": "1189659645917395-293",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.347,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34048,
+   "at": [
+    1822.85,
+    -990.7
+   ],
+   "centre": [
+    1814.9,
+    -997.5
+   ],
+   "width": 4.5,
+   "faces": 40,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1805.6,
+    -1002.5,
+    1808.5,
+    -1006.1,
+    1824.3,
+    -992.4,
+    1821.4,
+    -989
+   ],
+   "id": "spijkstraat-40-15",
+   "latLon": [
+    51.060542,
+    3.744603
+   ],
+   "photos": [
+    {
+     "id": "1189659645917395-331",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.359,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34036,
+   "at": [
+    1861.4,
+    -1034.9
+   ],
+   "centre": [
+    1853.4,
+    -1042.1
+   ],
+   "width": 8.7,
+   "faces": 40,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1853,
+    -1048.1,
+    1864.2,
+    -1038.2,
+    1858.6,
+    -1031.6,
+    1847.5,
+    -1041.6,
+    1845.7,
+    -1043.2,
+    1851.1,
+    -1049.8
+   ],
+   "id": "spijkstraat-40-16",
+   "latLon": [
+    51.060862,
+    3.745044
+   ],
+   "photos": [
+    {
+     "id": "1640862863227951-309",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.333,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28324,
+   "at": [
+    1596.1,
+    -729.4000000000001
+   ],
+   "centre": [
+    1585.3,
+    -740.1
+   ],
+   "width": 16.7,
+   "faces": 41,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17.5,
+   "kind": "house",
+   "ring": [
+    1590.6,
+    -723.1,
+    1601.6,
+    -735.7,
+    1589.2,
+    -746.7,
+    1583,
+    -752,
+    1576.3,
+    -744.2,
+    1575.4,
+    -743.2,
+    1581.2,
+    -735.6
+   ],
+   "id": "spijkstraat-41-17",
+   "latLon": [
+    51.058651,
+    3.742011
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28325,
+   "at": [
+    1603.65,
+    -738.05
+   ],
+   "centre": [
+    1597.5,
+    -743.5
+   ],
+   "width": 6.2,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1601.6,
+    -735.7,
+    1605.7,
+    -740.4,
+    1593.6,
+    -751.2,
+    1589.2,
+    -746.7
+   ],
+   "id": "spijkstraat-41-18",
+   "latLon": [
+    51.058714,
+    3.742097
+   ],
+   "photos": [
+    {
+     "id": "975246684132022-340",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.183,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28327,
+   "at": [
+    1611.25,
+    -746.8
+   ],
+   "centre": [
+    1603,
+    -754.6
+   ],
+   "width": 5.6,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1609.4,
+    -744.7,
+    1613.1,
+    -748.9,
+    1600.1,
+    -760.9,
+    1598.8,
+    -759.3,
+    1599.6,
+    -758.3,
+    1597.1,
+    -755.5
+   ],
+   "id": "spijkstraat-41-19",
+   "latLon": [
+    51.058777,
+    3.742184
+   ],
+   "photos": [
+    {
+     "id": "7713581752099953-312",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.248,
+      0.764
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28326,
+   "at": [
+    1607.5500000000002,
+    -742.55
+   ],
+   "centre": [
+    1598.3,
+    -750.7
+   ],
+   "width": 5.7,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1605.7,
+    -740.4,
+    1609.4,
+    -744.7,
+    1597.1,
+    -755.5,
+    1593.9,
+    -758.2,
+    1590.3,
+    -754.1,
+    1593.6,
+    -751.2
+   ],
+   "id": "spijkstraat-41-20",
+   "latLon": [
+    51.058747,
+    3.742142
+   ],
+   "photos": [
+    {
+     "id": "7713581752099953-266",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.394,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28330,
+   "at": [
+    1623,
+    -760.4
+   ],
+   "centre": [
+    1613.7,
+    -768.6
+   ],
+   "width": 7.9,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1620.4,
+    -757.4,
+    1625.6,
+    -763.4,
+    1612.1,
+    -775.3,
+    1609.3,
+    -777.7,
+    1604,
+    -771.9,
+    1610.9,
+    -765.8
+   ],
+   "id": "spijkstraat-41-21",
+   "latLon": [
+    51.058876,
+    3.742319
+   ],
+   "photos": [
+    {
+     "id": "634356919002490-346",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.135,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28329,
+   "at": [
+    1618.6,
+    -755.3499999999999
+   ],
+   "centre": [
+    1612.2,
+    -761.3
+   ],
+   "width": 5.5,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1616.8,
+    -753.3,
+    1620.4,
+    -757.4,
+    1610.9,
+    -765.8,
+    1609.7,
+    -764.2,
+    1609,
+    -764.6,
+    1606.5,
+    -762.4
+   ],
+   "id": "spijkstraat-41-22",
+   "latLon": [
+    51.058839,
+    3.742268
+   ],
+   "photos": [
+    {
+     "id": "634356919002490-283",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.342,
+      0.754
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28332,
+   "at": [
+    1629.7,
+    -768.25
+   ],
+   "centre": [
+    1623,
+    -774.2
+   ],
+   "width": 4.6,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1628.2,
+    -766.5,
+    1631.2,
+    -770,
+    1617.7,
+    -782,
+    1614.7,
+    -778.4
+   ],
+   "id": "spijkstraat-41-23",
+   "latLon": [
+    51.058933,
+    3.742395
+   ],
+   "photos": [
+    {
+     "id": "844648657787650-305",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.301,
+      0.701
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28335,
+   "at": [
+    1638.2,
+    -778.2
+   ],
+   "centre": [
+    1633.4,
+    -782.3
+   ],
+   "width": 4.5,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    1636.7,
+    -776.5,
+    1639.7,
+    -779.9,
+    1630,
+    -788,
+    1627.1,
+    -784.7
+   ],
+   "id": "spijkstraat-41-24",
+   "latLon": [
+    51.059004,
+    3.742492
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-288",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.368,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28410,
+   "at": [
+    1671.25,
+    -816.1500000000001
+   ],
+   "centre": [
+    1666.6,
+    -820.2
+   ],
+   "width": 15.7,
+   "faces": 41,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    1676.4,
+    -822.1,
+    1666.1,
+    -810.2,
+    1656.4,
+    -818.7,
+    1667.6,
+    -829.7
+   ],
+   "id": "spijkstraat-41-25",
+   "latLon": [
+    51.059279,
+    3.74287
+   ],
+   "photos": [
+    {
+     "id": "1004459865077129-339",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.796
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28408,
+   "at": [
+    1682.75,
+    -829.45
+   ],
+   "centre": [
+    1675.9,
+    -836.3
+   ],
+   "width": 5.7,
+   "faces": 41,
+   "toStreet": 7.3,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1684.6,
+    -831.6,
+    1680.9,
+    -827.3,
+    1666.7,
+    -839.1,
+    1672.8,
+    -842.4,
+    1674.4,
+    -840.9
+   ],
+   "id": "spijkstraat-41-26",
+   "latLon": [
+    51.059375,
+    3.743002
+   ],
+   "photos": [
+    {
+     "id": "458070505491885",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.348,
+      0.396
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28409,
+   "at": [
+    1678.65,
+    -824.7
+   ],
+   "centre": [
+    1670.4,
+    -830.8
+   ],
+   "width": 6.9,
+   "faces": 41,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1680.9,
+    -827.3,
+    1676.4,
+    -822.1,
+    1667.6,
+    -829.7,
+    1660.4,
+    -835.8,
+    1666.7,
+    -839.1
+   ],
+   "id": "spijkstraat-41-27",
+   "latLon": [
+    51.059341,
+    3.742955
+   ],
+   "photos": [
+    {
+     "id": "616205088011992-322",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.249,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28407,
+   "at": [
+    1686.4,
+    -833.6500000000001
+   ],
+   "centre": [
+    1682.8,
+    -840.4
+   ],
+   "width": 5.5,
+   "faces": 41,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1683.8,
+    -846.8,
+    1684,
+    -846.9,
+    1688.5,
+    -838.3,
+    1688.2,
+    -835.7,
+    1684.6,
+    -831.6,
+    1674.4,
+    -840.9,
+    1675.9,
+    -842.9
+   ],
+   "id": "spijkstraat-41-28",
+   "latLon": [
+    51.059406,
+    3.743043
+   ],
+   "photos": [
+    {
+     "id": "1210842896024477",
+     "metres": 34,
+     "off": 19,
+     "span": [
+      0.324,
+      0.386
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28578,
+   "at": [
+    1703.4,
+    -853.45
+   ],
+   "centre": [
+    1698.9,
+    -855.3
+   ],
+   "width": 7,
+   "faces": 41,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1692.5,
+    -862.2,
+    1695.2,
+    -865.5,
+    1705.7,
+    -856.1,
+    1701.1,
+    -850.8,
+    1701.1,
+    -850.7,
+    1698.2,
+    -851,
+    1698.2,
+    -851.1
+   ],
+   "id": "spijkstraat-41-29",
+   "latLon": [
+    51.059549,
+    3.743238
+   ],
+   "photos": [
+    {
+     "id": "257151422865608",
+     "metres": 33,
+     "off": 13,
+     "span": [
+      0.565,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28575,
+   "at": [
+    1710.7,
+    -861.8499999999999
+   ],
+   "centre": [
+    1705.5,
+    -866.8
+   ],
+   "width": 5.2,
+   "faces": 41,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1698.7,
+    -869.8,
+    1701.7,
+    -873.5,
+    1712.4,
+    -863.8,
+    1709,
+    -859.9
+   ],
+   "id": "spijkstraat-41-30",
+   "latLon": [
+    51.05961,
+    3.743321
+   ],
+   "photos": [
+    {
+     "id": "389934778815673",
+     "metres": 44,
+     "off": 20,
+     "span": [
+      0.641,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28577,
+   "at": [
+    1707.35,
+    -858
+   ],
+   "centre": [
+    1702.1,
+    -862.8
+   ],
+   "width": 5,
+   "faces": 41,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1695.2,
+    -865.5,
+    1698.7,
+    -869.8,
+    1709,
+    -859.9,
+    1705.7,
+    -856.1
+   ],
+   "id": "spijkstraat-41-31",
+   "latLon": [
+    51.059582,
+    3.743283
+   ],
+   "photos": [
+    {
+     "id": "747099222623762",
+     "metres": 38,
+     "off": 17,
+     "span": [
+      0.614,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28570,
+   "at": [
+    1721.55,
+    -874.0999999999999
+   ],
+   "centre": [
+    1713.7,
+    -879.6
+   ],
+   "width": 7.4,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1706,
+    -884.6,
+    1713.2,
+    -879.6,
+    1711.6,
+    -877.8,
+    1711.9,
+    -877.5,
+    1719.1,
+    -871.3,
+    1724,
+    -876.9,
+    1710,
+    -889.3
+   ],
+   "id": "spijkstraat-41-32",
+   "latLon": [
+    51.059698,
+    3.743445
+   ],
+   "photos": [
+    {
+     "id": "1312585573317414-345",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.306,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28569,
+   "at": [
+    1727.65,
+    -881.05
+   ],
+   "centre": [
+    1720.6,
+    -887.3
+   ],
+   "width": 11.1,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 10,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1724,
+    -876.9,
+    1731.3,
+    -885.2,
+    1717.2,
+    -897.7,
+    1710,
+    -889.3
+   ],
+   "id": "spijkstraat-41-33",
+   "latLon": [
+    51.059749,
+    3.743515
+   ],
+   "photos": [
+    {
+     "id": "2034980947014518-326",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.123,
+      0.767
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28566,
+   "at": [
+    1736.95,
+    -891.9
+   ],
+   "centre": [
+    1727.7,
+    -901
+   ],
+   "width": 6.3,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1724.5,
+    -907.8,
+    1726.5,
+    -905.9,
+    1739,
+    -894.3,
+    1734.9,
+    -889.5,
+    1722.3,
+    -900.6,
+    1724.7,
+    -903.5,
+    1722.3,
+    -905.6
+   ],
+   "id": "spijkstraat-41-34",
+   "latLon": [
+    51.059827,
+    3.743621
+   ],
+   "photos": [
+    {
+     "id": "1607985609923272-332",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.31,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28565,
+   "at": [
+    1743.55,
+    -899.7
+   ],
+   "centre": [
+    1731.8,
+    -910.5
+   ],
+   "width": 4.8,
+   "faces": 41,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1727.2,
+    -916.1,
+    1729.6,
+    -913.9,
+    1729.2,
+    -913.3,
+    1729.9,
+    -912.9,
+    1731.3,
+    -914.3,
+    1745.1,
+    -901.5,
+    1742,
+    -897.9,
+    1727.7,
+    -911,
+    1724.6,
+    -913.8
+   ],
+   "id": "spijkstraat-41-35",
+   "latLon": [
+    51.059884,
+    3.743697
+   ],
+   "photos": [
+    {
+     "id": "3960451330861585-309",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.359,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28556,
+   "at": [
+    1758.6,
+    -916.95
+   ],
+   "centre": [
+    1751.6,
+    -923.3
+   ],
+   "width": 5.5,
+   "faces": 41,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 11,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1747.8,
+    -930.2,
+    1760.4,
+    -919,
+    1756.8,
+    -914.9,
+    1748.1,
+    -922.5,
+    1750.1,
+    -925.1,
+    1746.1,
+    -928.3
+   ],
+   "id": "spijkstraat-41-36",
+   "latLon": [
+    51.060008,
+    3.743869
+   ],
+   "photos": [
+    {
+     "id": "547611904289709-278",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.406,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28555,
+   "at": [
+    1771.15,
+    -931.3
+   ],
+   "centre": [
+    1762,
+    -940.4
+   ],
+   "width": 6.3,
+   "faces": 41,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1754.1,
+    -942.7,
+    1760.1,
+    -937.2,
+    1769.1,
+    -928.9,
+    1773.2,
+    -933.7,
+    1760,
+    -946,
+    1759,
+    -946.9,
+    1758.4,
+    -947.5
+   ],
+   "id": "spijkstraat-41-37",
+   "latLon": [
+    51.060112,
+    3.744012
+   ],
+   "photos": [
+    {
+     "id": "1286735932382047-308",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.322,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28554,
+   "at": [
+    1774.85,
+    -935.6
+   ],
+   "centre": [
+    1767.6,
+    -942.4
+   ],
+   "width": 5,
+   "faces": 41,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1760,
+    -946,
+    1761.7,
+    -947.9,
+    1766.4,
+    -944,
+    1767.7,
+    -945.5,
+    1776.5,
+    -937.5,
+    1773.2,
+    -933.7
+   ],
+   "id": "spijkstraat-41-38",
+   "latLon": [
+    51.060143,
+    3.744055
+   ],
+   "photos": [
+    {
+     "id": "1286735932382047-342",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.376,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34057,
+   "at": [
+    1791.6,
+    -954.45
+   ],
+   "centre": [
+    1779.9,
+    -963
+   ],
+   "width": 7.3,
+   "faces": 41,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    1780.8,
+    -969,
+    1794,
+    -957.2,
+    1789.2,
+    -951.7,
+    1778.2,
+    -961.1,
+    1777.6,
+    -960.5,
+    1774,
+    -963.8,
+    1770,
+    -967.4,
+    1775.5,
+    -973.6
+   ],
+   "id": "spijkstraat-41-39",
+   "latLon": [
+    51.06028,
+    3.744246
+   ],
+   "photos": [
+    {
+     "id": "499408413216816-340",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.266,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34056,
+   "at": [
+    1787.5,
+    -949.75
+   ],
+   "centre": [
+    1779.3,
+    -957.6
+   ],
+   "width": 5.2,
+   "faces": 41,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    1771.2,
+    -960.8,
+    1774,
+    -963.8,
+    1777.6,
+    -960.5,
+    1778.2,
+    -961.1,
+    1789.2,
+    -951.7,
+    1785.8,
+    -947.8
+   ],
+   "id": "spijkstraat-41-40",
+   "latLon": [
+    51.060246,
+    3.744199
+   ],
+   "photos": [
+    {
+     "id": "499408413216816-296",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.35,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34051,
+   "at": [
+    1811.6,
+    -977.8
+   ],
+   "centre": [
+    1803.5,
+    -983.9
+   ],
+   "width": 7.7,
+   "faces": 41,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1799,
+    -993.7,
+    1814.1,
+    -980.7,
+    1809.1,
+    -974.9,
+    1801.1,
+    -982,
+    1794.1,
+    -988.3
+   ],
+   "id": "spijkstraat-41-41",
+   "latLon": [
+    51.060449,
+    3.744475
+   ],
+   "photos": [
+    {
+     "id": "1785878835318423-291",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.293,
+      0.788
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34046,
+   "at": [
+    1827.15,
+    -995.65
+   ],
+   "centre": [
+    1817.8,
+    -1004.2
+   ],
+   "width": 8.6,
+   "faces": 41,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 13,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    1808.5,
+    -1006.1,
+    1810.7,
+    -1008.7,
+    1814.8,
+    -1005.3,
+    1818.1,
+    -1009.1,
+    1818.5,
+    -1008.7,
+    1830,
+    -998.9,
+    1824.3,
+    -992.4
+   ],
+   "id": "spijkstraat-41-42",
+   "latLon": [
+    51.060578,
+    3.744653
+   ],
+   "photos": [
+    {
+     "id": "9739548219396976-290",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.292,
+      0.791
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34044,
+   "at": [
+    1837.05,
+    -1006.9000000000001
+   ],
+   "centre": [
+    1828.1,
+    -1018.2
+   ],
+   "width": 8.4,
+   "faces": 41,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1833.2,
+    -1022.2,
+    1829.2,
+    -1017.3,
+    1839.8,
+    -1010.1,
+    1834.3,
+    -1003.7,
+    1822.6,
+    -1013.9,
+    1815.6,
+    -1019.9,
+    1824.4,
+    -1029.9,
+    1825.8,
+    -1028.7
+   ],
+   "id": "spijkstraat-41-43",
+   "latLon": [
+    51.060659,
+    3.744766
+   ],
+   "photos": [
+    {
+     "id": "3969167093355711-306",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.235,
+      0.796
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34041,
+   "at": [
+    1845.2,
+    -1016.25
+   ],
+   "centre": [
+    1835.9,
+    -1024.3
+   ],
+   "width": 6.7,
+   "faces": 41,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1825.8,
+    -1028.7,
+    1833.2,
+    -1022.2,
+    1843,
+    -1013.7,
+    1847.4,
+    -1018.8,
+    1836,
+    -1028.6,
+    1830.2,
+    -1033.7
+   ],
+   "id": "spijkstraat-41-44",
+   "latLon": [
+    51.060727,
+    3.744859
+   ],
+   "photos": [
+    {
+     "id": "822282206749498-307",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.27,
+      0.744
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34039,
+   "at": [
+    1853,
+    -1025.1999999999998
+   ],
+   "centre": [
+    1847.4,
+    -1030.1
+   ],
+   "width": 17,
+   "faces": 41,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1836,
+    -1028.6,
+    1847.5,
+    -1041.6,
+    1858.6,
+    -1031.6,
+    1847.4,
+    -1018.8
+   ],
+   "id": "spijkstraat-41-45",
+   "latLon": [
+    51.060792,
+    3.744948
+   ],
+   "photos": [
+    {
+     "id": "985307486831917-306",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34035,
+   "at": [
+    1869.7,
+    -1044.5500000000002
+   ],
+   "centre": [
+    1864.1,
+    -1049.5
+   ],
+   "width": 16.8,
+   "faces": 41,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    1853,
+    -1048.1,
+    1863.9,
+    -1060.6,
+    1875.2,
+    -1050.9,
+    1864.2,
+    -1038.2
+   ],
+   "id": "spijkstraat-41-46",
+   "latLon": [
+    51.060932,
+    3.745139
+   ],
+   "photos": [
+    {
+     "id": "2997612527065163-310",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.03,
+      0.985
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28571,
+   "at": [
+    1717.4499999999998,
+    -869.45
+   ],
+   "centre": [
+    1711.1,
+    -876
+   ],
+   "width": 5,
+   "faces": 42,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1704.8,
+    -877.4,
+    1707.8,
+    -881,
+    1710,
+    -879.1,
+    1708.8,
+    -877.7,
+    1710.7,
+    -876.1,
+    1711.9,
+    -877.5,
+    1719.1,
+    -871.3,
+    1715.8,
+    -867.6
+   ],
+   "id": "spijkstraat-42-47",
+   "latLon": [
+    51.059665,
+    3.743398
+   ],
+   "photos": [
+    {
+     "id": "1312585573317414-306",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.355,
+      0.661
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28574,
+   "at": [
+    1714.1,
+    -865.7
+   ],
+   "centre": [
+    1707.4,
+    -871.3
+   ],
+   "width": 5.1,
+   "faces": 42,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1701.7,
+    -873.5,
+    1702.1,
+    -874,
+    1704.8,
+    -877.4,
+    1715.8,
+    -867.6,
+    1712.4,
+    -863.8
+   ],
+   "id": "spijkstraat-42-48",
+   "latLon": [
+    51.059638,
+    3.74336
+   ],
+   "photos": [
+    {
+     "id": "1312585573317414-276",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.411,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28559,
+   "at": [
+    1755.1,
+    -913
+   ],
+   "centre": [
+    1747.5,
+    -920.3
+   ],
+   "width": 5.1,
+   "faces": 42,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1738,
+    -924.4,
+    1741.4,
+    -928.4,
+    1748.1,
+    -922.5,
+    1756.8,
+    -914.9,
+    1753.4,
+    -911.1
+   ],
+   "id": "spijkstraat-42-49",
+   "latLon": [
+    51.05998,
+    3.743829
+   ],
+   "photos": [
+    {
+     "id": "1133025035230023-332",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.356,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28560,
+   "at": [
+    1751.85,
+    -909.35
+   ],
+   "centre": [
+    1744.2,
+    -916
+   ],
+   "width": 4.7,
+   "faces": 42,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 14,
+   "kind": "yes",
+   "ring": [
+    1735.2,
+    -921.1,
+    1738,
+    -924.4,
+    1753.4,
+    -911.1,
+    1750.3,
+    -907.6
+   ],
+   "id": "spijkstraat-42-50",
+   "latLon": [
+    51.059953,
+    3.743792
+   ],
+   "photos": [
+    {
+     "id": "1133025035230023-301",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.377,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28557,
+   "at": [
+    1766.4499999999998,
+    -925.95
+   ],
+   "centre": [
+    1755.8,
+    -935.9
+   ],
+   "width": 7.9,
+   "faces": 42,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1744.9,
+    -939.8,
+    1747.9,
+    -942.6,
+    1751.2,
+    -939.9,
+    1751.6,
+    -940.6,
+    1758.1,
+    -934.9,
+    1760.1,
+    -937.2,
+    1769.1,
+    -928.9,
+    1763.8,
+    -923
+   ],
+   "id": "spijkstraat-42-51",
+   "latLon": [
+    51.060073,
+    3.743959
+   ],
+   "photos": [
+    {
+     "id": "547611904289709-347",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.306,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34061,
+   "at": [
+    1779.4,
+    -940.75
+   ],
+   "centre": [
+    1767.8,
+    -954.8
+   ],
+   "width": 8.7,
+   "faces": 42,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1762,
+    -969,
+    1766.3,
+    -965.1,
+    1771.2,
+    -960.8,
+    1768,
+    -957.1,
+    1782.3,
+    -944,
+    1776.5,
+    -937.5,
+    1767.7,
+    -945.5,
+    1769.7,
+    -947.7,
+    1768.5,
+    -948.6,
+    1768.4,
+    -951.2,
+    1765.7,
+    -951.2,
+    1763.2,
+    -953.3,
+    1762.6,
+    -961.2,
+    1764.4,
+    -963.2,
+    1760.2,
+    -966.7
+   ],
+   "id": "spijkstraat-42-52",
+   "latLon": [
+    51.060181,
+    3.744107
+   ],
+   "photos": [
+    {
+     "id": "622542887176568-300",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.269,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34043,
+   "at": [
+    1832.15,
+    -1001.3
+   ],
+   "centre": [
+    1826.3,
+    -1006.3
+   ],
+   "width": 6.4,
+   "faces": 42,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1818.5,
+    -1008.7,
+    1822.6,
+    -1013.9,
+    1834.3,
+    -1003.7,
+    1830,
+    -998.9
+   ],
+   "id": "spijkstraat-42-53",
+   "latLon": [
+    51.060619,
+    3.74471
+   ],
+   "photos": [
+    {
+     "id": "9739548219396976-342",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.304,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34040,
+   "at": [
+    1841.4,
+    -1011.9000000000001
+   ],
+   "centre": [
+    1836.3,
+    -1015.8
+   ],
+   "width": 4.8,
+   "faces": 42,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1833.2,
+    -1022.2,
+    1843,
+    -1013.7,
+    1839.8,
+    -1010.1,
+    1829.2,
+    -1017.3
+   ],
+   "id": "spijkstraat-42-54",
+   "latLon": [
+    51.060695,
+    3.744815
+   ],
+   "photos": [
+    {
+     "id": "1342286460136304-296",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.453,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34059,
+   "at": [
+    1784.05,
+    -945.9
+   ],
+   "centre": [
+    1776.8,
+    -952.4
+   ],
+   "width": 5.2,
+   "faces": 43,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    1771.2,
+    -960.8,
+    1785.8,
+    -947.8,
+    1782.3,
+    -944,
+    1768,
+    -957.1
+   ],
+   "id": "spijkstraat-43-55",
+   "latLon": [
+    51.060218,
+    3.74416
+   ],
+   "photos": [
+    {
+     "id": "622542887176568-344",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.363,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27852,
+   "at": [
+    1521.4499999999998,
+    -672.8
+   ],
+   "centre": [
+    1529.7,
+    -704.2
+   ],
+   "width": 4.7,
+   "faces": 65,
+   "toStreet": 5.9,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1525.2,
+    -727.4,
+    1523.4,
+    -729.8,
+    1516.8,
+    -724.9,
+    1519.2,
+    -679.4,
+    1519.3,
+    -671.8,
+    1523.6,
+    -673.8,
+    1522.7,
+    -692.2,
+    1524.9,
+    -693.1,
+    1528.5,
+    -694.7,
+    1530.2,
+    -695.5,
+    1531.9,
+    -696.2,
+    1534.6,
+    -697.4,
+    1535.8,
+    -697.9,
+    1538.3,
+    -699,
+    1539.3,
+    -699.5,
+    1536.6,
+    -706.1,
+    1534.6,
+    -705.2,
+    1533.4,
+    -708.3,
+    1538.4,
+    -710.3,
+    1536.9,
+    -712.3,
+    1534,
+    -716,
+    1531.1,
+    -719.9,
+    1528,
+    -723.8,
+    1526.5,
+    -725.8
+   ],
+   "id": "spijkstraat-65-56",
+   "latLon": [
+    51.058242,
+    3.741158
+   ],
+   "photos": [
+    {
+     "id": "801806165984412",
+     "metres": 10,
+     "off": 19,
+     "span": [
+      0.577,
+      0.767
+     ]
+    },
+    {
+     "id": "462912841453153",
+     "metres": 33,
+     "off": 20,
+     "span": [
+      0.627,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27851,
+   "at": [
+    1526.15,
+    -674.2
+   ],
+   "centre": [
+    1524.7,
+    -681.5
+   ],
+   "width": 4.3,
+   "faces": 65,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1523.6,
+    -673.8,
+    1524.2,
+    -673.3,
+    1528.1,
+    -675.1,
+    1524.9,
+    -693.1,
+    1522.7,
+    -692.2
+   ],
+   "id": "spijkstraat-65-57",
+   "latLon": [
+    51.058252,
+    3.741211
+   ],
+   "photos": [
+    {
+     "id": "1154290479470345-5",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.463,
+      0.534
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27847,
+   "at": [
+    1543.15,
+    -682
+   ],
+   "centre": [
+    1538.5,
+    -691.9
+   ],
+   "width": 4.7,
+   "faces": 65,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1534.6,
+    -697.4,
+    1536.2,
+    -693.3,
+    1541,
+    -681,
+    1545.3,
+    -683,
+    1538.3,
+    -699,
+    1535.8,
+    -697.9
+   ],
+   "id": "spijkstraat-65-58",
+   "latLon": [
+    51.058308,
+    3.741406
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27848,
+   "at": [
+    1538.95,
+    -680.05
+   ],
+   "centre": [
+    1536.1,
+    -689.4
+   ],
+   "width": 4.5,
+   "faces": 65,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1531.9,
+    -696.2,
+    1536.9,
+    -679.1,
+    1541,
+    -681,
+    1536.2,
+    -693.3,
+    1534.6,
+    -697.4
+   ],
+   "id": "spijkstraat-65-59",
+   "latLon": [
+    51.058294,
+    3.741358
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27850,
+   "at": [
+    1530.3,
+    -676.1
+   ],
+   "centre": [
+    1528.5,
+    -685
+   ],
+   "width": 4.8,
+   "faces": 66,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1524.9,
+    -693.1,
+    1528.1,
+    -675.1,
+    1532.5,
+    -677.1,
+    1528.5,
+    -694.7
+   ],
+   "id": "spijkstraat-66-60",
+   "latLon": [
+    51.058266,
+    3.741259
+   ],
+   "photos": [
+    {
+     "id": "1154290479470345-13",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.464,
+      0.531
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27849,
+   "at": [
+    1534.7,
+    -678.1
+   ],
+   "centre": [
+    1532,
+    -688.5
+   ],
+   "width": 4.8,
+   "faces": 66,
+   "toStreet": 4.4,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1528.5,
+    -694.7,
+    1532.5,
+    -677.1,
+    1536.9,
+    -679.1,
+    1531.9,
+    -696.2,
+    1530.2,
+    -695.5
+   ],
+   "id": "spijkstraat-66-61",
+   "latLon": [
+    51.05828,
+    3.741309
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27846,
+   "at": [
+    1547.4499999999998,
+    -683.95
+   ],
+   "centre": [
+    1543,
+    -693.7
+   ],
+   "width": 4.7,
+   "faces": 66,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1538.3,
+    -699,
+    1545.3,
+    -683,
+    1549.6,
+    -684.9,
+    1544.2,
+    -695.4,
+    1541.6,
+    -700.5,
+    1539.3,
+    -699.5
+   ],
+   "id": "spijkstraat-66-62",
+   "latLon": [
+    51.058323,
+    3.741455
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27845,
+   "at": [
+    1551.9499999999998,
+    -685.95
+   ],
+   "centre": [
+    1549.1,
+    -691.1
+   ],
+   "width": 5.1,
+   "faces": 66,
+   "toStreet": 4.2,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1549.6,
+    -684.9,
+    1554.3,
+    -687,
+    1548.3,
+    -697.2,
+    1544.2,
+    -695.4
+   ],
+   "id": "spijkstraat-66-63",
+   "latLon": [
+    51.058337,
+    3.741506
+   ],
+   "photos": [
+    {
+     "id": "318676193027143",
+     "metres": 38,
+     "off": 18,
+     "span": [
+      0.229,
+      0.289
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27844,
+   "at": [
+    1556.65,
+    -688.05
+   ],
+   "centre": [
+    1550.6,
+    -696.6
+   ],
+   "width": 5.1,
+   "faces": 66,
+   "toStreet": 4.2,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1545.6,
+    -701.7,
+    1546.2,
+    -700.7,
+    1548.3,
+    -697.2,
+    1554.3,
+    -687,
+    1559,
+    -689.1,
+    1550.2,
+    -703.8
+   ],
+   "id": "spijkstraat-66-64",
+   "latLon": [
+    51.058352,
+    3.74156
+   ],
+   "photos": [
+    {
+     "id": "1484306493057908",
+     "metres": 40,
+     "off": 17,
+     "span": [
+      0.279,
+      0.338
+     ]
+    },
+    {
+     "id": "830436994569284",
+     "metres": 40,
+     "off": 18,
+     "span": [
+      0.238,
+      0.303
+     ]
+    },
+    {
+     "id": "300117278318111",
+     "metres": 44,
+     "off": 18,
+     "span": [
+      0.347,
+      0.383
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27842,
+   "at": [
+    1566.2,
+    -692.25
+   ],
+   "centre": [
+    1562.7,
+    -700.6
+   ],
+   "width": 6.1,
+   "faces": 66,
+   "toStreet": 3.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1555.6,
+    -706.2,
+    1563.4,
+    -691,
+    1569,
+    -693.5,
+    1569.3,
+    -695.3,
+    1559.5,
+    -708.8,
+    1559.3,
+    -708.7
+   ],
+   "id": "spijkstraat-66-65",
+   "latLon": [
+    51.058383,
+    3.741669
+   ],
+   "photos": [
+    {
+     "id": "927388439902121",
+     "metres": 19,
+     "off": 17,
+     "span": [
+      0.225,
+      0.395
+     ]
+    },
+    {
+     "id": "2573620166278171",
+     "metres": 26,
+     "off": 9,
+     "span": [
+      0.321,
+      0.439
+     ]
+    },
+    {
+     "id": "505992923870087",
+     "metres": 33,
+     "off": 12,
+     "span": [
+      0.38,
+      0.44
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27843,
+   "at": [
+    1561.2,
+    -690.05
+   ],
+   "centre": [
+    1557.1,
+    -697.5
+   ],
+   "width": 4.8,
+   "faces": 67,
+   "toStreet": 4.1,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1550.2,
+    -703.8,
+    1559,
+    -689.1,
+    1563.4,
+    -691,
+    1555.6,
+    -706.2
+   ],
+   "id": "spijkstraat-67-66",
+   "latLon": [
+    51.058367,
+    3.741612
+   ],
+   "photos": [
+    {
+     "id": "1969357063660233",
+     "metres": 31,
+     "off": 20,
+     "span": [
+      0.237,
+      0.31
+     ]
+    },
+    {
+     "id": "217534323229069",
+     "metres": 42,
+     "off": 14,
+     "span": [
+      0.284,
+      0.344
+     ]
+    },
+    {
+     "id": "527565994914382",
+     "metres": 45,
+     "off": 12,
+     "span": [
+      0.392,
+      0.426
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28903,
+   "at": [
+    1638.15,
+    -813.85
+   ],
+   "centre": [
+    1640.2,
+    -816.1
+   ],
+   "width": 4.3,
+   "faces": 129,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1643.8,
+    -817,
+    1639.8,
+    -812.5,
+    1636.5,
+    -815.2,
+    1640.5,
+    -819.8
+   ],
+   "id": "spijkstraat-129-01",
+   "latLon": [
+    51.059262,
+    3.742492
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28902,
+   "at": [
+    1641.4,
+    -811.1
+   ],
+   "centre": [
+    1643.4,
+    -813.4
+   ],
+   "width": 4.3,
+   "faces": 131,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1647,
+    -814.4,
+    1643.8,
+    -817,
+    1639.8,
+    -812.5,
+    1643,
+    -809.7
+   ],
+   "id": "spijkstraat-131-02",
+   "latLon": [
+    51.059243,
+    3.742529
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28411,
+   "at": [
+    1655.1,
+    -807.4
+   ],
+   "centre": [
+    1653.2,
+    -815
+   ],
+   "width": 12.6,
+   "faces": 131,
+   "toStreet": 10.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 16.7,
+   "kind": "house",
+   "ring": [
+    1666.1,
+    -810.2,
+    1659.9,
+    -803.3,
+    1650.3,
+    -811.5,
+    1647,
+    -814.4,
+    1643.8,
+    -817,
+    1649.7,
+    -823.7,
+    1652.7,
+    -821.4,
+    1656.4,
+    -818.7
+   ],
+   "id": "spijkstraat-131-03",
+   "latLon": [
+    51.059216,
+    3.742686
+   ],
+   "photos": [
+    {
+     "id": "7423575467766003-2",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.397,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28901,
+   "at": [
+    1644.6,
+    -808.25
+   ],
+   "centre": [
+    1646.6,
+    -810.6
+   ],
+   "width": 4.3,
+   "faces": 132,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1650.3,
+    -811.5,
+    1647,
+    -814.4,
+    1643,
+    -809.7,
+    1646.2,
+    -806.8
+   ],
+   "id": "spijkstraat-132-04",
+   "latLon": [
+    51.059222,
+    3.742566
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28342,
+   "at": [
+    1652.25,
+    -801.75
+   ],
+   "centre": [
+    1654.3,
+    -804
+   ],
+   "width": 9.5,
+   "faces": 132,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1652.7,
+    -809.4,
+    1659.9,
+    -803.3,
+    1655.8,
+    -798.6,
+    1648.7,
+    -804.9
+   ],
+   "id": "spijkstraat-132-05",
+   "latLon": [
+    51.059175,
+    3.742653
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-17",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.423,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27853,
+   "at": [
+    1533.3,
+    -661.95
+   ],
+   "centre": [
+    1536,
+    -660.8
+   ],
+   "width": 11.1,
+   "faces": 153,
+   "toStreet": 9.3,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1535.5,
+    -669.2,
+    1541.2,
+    -656.5,
+    1536.6,
+    -654.4,
+    1535.8,
+    -657,
+    1530.8,
+    -666.9
+   ],
+   "id": "spijkstraat-153-06",
+   "latLon": [
+    51.058163,
+    3.741293
+   ],
+   "photos": [
+    {
+     "id": "1561208608280117",
+     "metres": 9,
+     "off": 22,
+     "span": [
+      0.422,
+      1
+     ]
+    },
+    {
+     "id": "343536850439323",
+     "metres": 7,
+     "off": 21,
+     "span": [
+      0.416,
+      0.77
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28505,
+   "at": [
+    1820.35,
+    -911.1
+   ],
+   "centre": [
+    1824.5,
+    -913.9
+   ],
+   "width": 6.3,
+   "faces": 192,
+   "toStreet": 14.5,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1821.7,
+    -919.5,
+    1836.6,
+    -916.2,
+    1834,
+    -904.6,
+    1819.7,
+    -908,
+    1821,
+    -914.2,
+    1818.8,
+    -914.8,
+    1819.9,
+    -919.9
+   ],
+   "id": "spijkstraat-192-01",
+   "latLon": [
+    51.059966,
+    3.744575
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28614,
+   "at": [
+    1854.4499999999998,
+    -934
+   ],
+   "centre": [
+    1875.7,
+    -929.5
+   ],
+   "width": 5.2,
+   "faces": 195,
+   "toStreet": 14.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1853.8,
+    -931.5,
+    1855.1,
+    -936.5,
+    1874.1,
+    -931.7,
+    1873.7,
+    -929.5,
+    1878.6,
+    -928.5,
+    1879.9,
+    -933.9,
+    1892.8,
+    -930.7,
+    1890.6,
+    -922.6,
+    1885.1,
+    -923.9,
+    1873.5,
+    -926.7
+   ],
+   "id": "spijkstraat-195-02",
+   "latLon": [
+    51.060132,
+    3.744965
+   ],
+   "photos": [
+    {
+     "id": "1058560612697166-111",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.375,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34099,
+   "at": [
+    1860.85,
+    -950.85
+   ],
+   "centre": [
+    1873.1,
+    -948.6
+   ],
+   "width": 4.9,
+   "faces": 195,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1860.2,
+    -948.5,
+    1861.5,
+    -953.2,
+    1872.4,
+    -950.4,
+    1880.8,
+    -948.3,
+    1882.6,
+    -947.8,
+    1881.2,
+    -943.3
+   ],
+   "id": "spijkstraat-195-03",
+   "latLon": [
+    51.060254,
+    3.745038
+   ],
+   "photos": [
+    {
+     "id": "603363849162775-88",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.419,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28610,
+   "at": [
+    1858.1,
+    -941.45
+   ],
+   "centre": [
+    1872.2,
+    -938.4
+   ],
+   "width": 4.9,
+   "faces": 197,
+   "toStreet": 11.4,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1858.8,
+    -943.8,
+    1874.6,
+    -939.9,
+    1874.1,
+    -937.4,
+    1877.1,
+    -936.6,
+    1877.5,
+    -938.2,
+    1879.6,
+    -937.7,
+    1878.6,
+    -934.2,
+    1857.4,
+    -939.1
+   ],
+   "id": "spijkstraat-197-04",
+   "latLon": [
+    51.060186,
+    3.745006
+   ],
+   "photos": [
+    {
+     "id": "603363849162775-130",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.414,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34120,
+   "at": [
+    1859.5,
+    -946.15
+   ],
+   "centre": [
+    1872.9,
+    -942.4
+   ],
+   "width": 4.9,
+   "faces": 197,
+   "toStreet": 11.3,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1858.8,
+    -943.8,
+    1860.2,
+    -948.5,
+    1881.2,
+    -943.3,
+    1880.5,
+    -940.9,
+    1877.8,
+    -941.4,
+    1877.2,
+    -939.3,
+    1874.6,
+    -939.9
+   ],
+   "id": "spijkstraat-197-05",
+   "latLon": [
+    51.06022,
+    3.745022
+   ],
+   "photos": [
+    {
+     "id": "603363849162775-109",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.409,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28594,
+   "at": [
+    1862.6,
+    -956.9000000000001
+   ],
+   "centre": [
+    1888.9,
+    -943.8
+   ],
+   "width": 7.7,
+   "faces": 197,
+   "toStreet": 17.4,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1861.5,
+    -953.2,
+    1863.7,
+    -960.6,
+    1885.2,
+    -955.2,
+    1890.4,
+    -953.9,
+    1899,
+    -951.7,
+    1940.2,
+    -939.9,
+    1929.5,
+    -921.8,
+    1929.2,
+    -921.8,
+    1918,
+    -924.6,
+    1892.8,
+    -930.7,
+    1879.9,
+    -933.9,
+    1878.6,
+    -934.2,
+    1879.6,
+    -937.7,
+    1880.5,
+    -940.9,
+    1881.2,
+    -943.3,
+    1882.6,
+    -947.8,
+    1880.8,
+    -948.3,
+    1881.8,
+    -951.9,
+    1877,
+    -953.3,
+    1877.3,
+    -954.2,
+    1873.8,
+    -955.1,
+    1872.4,
+    -950.4
+   ],
+   "id": "spijkstraat-197-06",
+   "latLon": [
+    51.060297,
+    3.745058
+   ],
+   "photos": [
+    {
+     "id": "945873660918798-119",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.345,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34388,
+   "at": [
+    1886.65,
+    -1032.55
+   ],
+   "centre": [
+    1893.7,
+    -1030.2
+   ],
+   "width": 30.5,
+   "faces": 198,
+   "toStreet": 13,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    1896,
+    -1013.4,
+    1905.3,
+    -1042.4,
+    1891.3,
+    -1047.1,
+    1882,
+    -1018
+   ],
+   "id": "spijkstraat-198-07",
+   "latLon": [
+    51.060845,
+    3.745333
+   ],
+   "photos": [
+    {
+     "id": "3634929380139900-99",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28515,
+   "at": [
+    1808.15,
+    -884.2
+   ],
+   "centre": [
+    1817.6,
+    -882.4
+   ],
+   "width": 4.5,
+   "faces": 202,
+   "toStreet": 15.5,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 11,
+   "kind": "house",
+   "ring": [
+    1807.3,
+    -882.1,
+    1809,
+    -886.3,
+    1829.4,
+    -883.2,
+    1828.5,
+    -879,
+    1813.9,
+    -881.4
+   ],
+   "id": "spijkstraat-202-08",
+   "latLon": [
+    51.059771,
+    3.744435
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28519,
+   "at": [
+    1807.9,
+    -902
+   ],
+   "centre": [
+    1810.5,
+    -895.8
+   ],
+   "width": 19.6,
+   "faces": 202,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1818.2,
+    -908.4,
+    1816.3,
+    -904.1,
+    1814.4,
+    -899.3,
+    1812.8,
+    -895.3,
+    1810.9,
+    -890.8,
+    1809,
+    -886.3,
+    1807.3,
+    -882.1,
+    1799.8,
+    -887.8,
+    1804.2,
+    -892.9,
+    1811.6,
+    -911.1
+   ],
+   "id": "spijkstraat-202-09",
+   "latLon": [
+    51.0599,
+    3.744432
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28508,
+   "at": [
+    1813.6,
+    -897.3
+   ],
+   "centre": [
+    1821.8,
+    -896.2
+   ],
+   "width": 4.3,
+   "faces": 202,
+   "toStreet": 14.1,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1812.8,
+    -895.3,
+    1814.4,
+    -899.3,
+    1818.5,
+    -898.5,
+    1832.2,
+    -896,
+    1831.3,
+    -891.8
+   ],
+   "id": "spijkstraat-202-10",
+   "latLon": [
+    51.059866,
+    3.744498
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28513,
+   "at": [
+    1809.95,
+    -888.55
+   ],
+   "centre": [
+    1819.9,
+    -887
+   ],
+   "width": 4.9,
+   "faces": 203,
+   "toStreet": 14.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1809,
+    -886.3,
+    1810.9,
+    -890.8,
+    1830.4,
+    -887.5,
+    1829.4,
+    -883.2
+   ],
+   "id": "spijkstraat-203-01",
+   "latLon": [
+    51.059803,
+    3.744456
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28510,
+   "at": [
+    1811.85,
+    -893.05
+   ],
+   "centre": [
+    1821.3,
+    -891.3
+   ],
+   "width": 4.9,
+   "faces": 203,
+   "toStreet": 14.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1810.9,
+    -890.8,
+    1812.8,
+    -895.3,
+    1831.3,
+    -891.8,
+    1830.4,
+    -887.5
+   ],
+   "id": "spijkstraat-203-02",
+   "latLon": [
+    51.059835,
+    3.744478
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28507,
+   "at": [
+    1817.25,
+    -906.25
+   ],
+   "centre": [
+    1823.4,
+    -904.8
+   ],
+   "width": 4.7,
+   "faces": 204,
+   "toStreet": 13.5,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1816.3,
+    -904.1,
+    1818.2,
+    -908.4,
+    1819.7,
+    -908,
+    1834,
+    -904.6,
+    1833.2,
+    -900.2,
+    1819.1,
+    -903.4
+   ],
+   "id": "spijkstraat-204-03",
+   "latLon": [
+    51.059931,
+    3.744539
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28344,
+   "at": [
+    1597.25,
+    -708.0999999999999
+   ],
+   "centre": [
+    1606.3,
+    -698.9
+   ],
+   "width": 6,
+   "faces": 220,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1595.3,
+    -705.8,
+    1599.2,
+    -710.4,
+    1614.9,
+    -697.3,
+    1614.1,
+    -696.7,
+    1610.8,
+    -694.3,
+    1608.4,
+    -692.6,
+    1604.3,
+    -696.7,
+    1603.8,
+    -697.2
+   ],
+   "id": "spijkstraat-220-04",
+   "latLon": [
+    51.058497,
+    3.742024
+   ],
+   "photos": [
+    {
+     "id": "1533277440687235-110",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.389,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28349,
+   "at": [
+    1621.4,
+    -735.8
+   ],
+   "centre": [
+    1629.8,
+    -729.3
+   ],
+   "width": 6.2,
+   "faces": 220,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    1619.4,
+    -733.4,
+    1630.8,
+    -723.8,
+    1633.7,
+    -727.2,
+    1635.2,
+    -725.9,
+    1636.4,
+    -727.4,
+    1623.4,
+    -738.2
+   ],
+   "id": "spijkstraat-220-05",
+   "latLon": [
+    51.058698,
+    3.7423
+   ],
+   "photos": [
+    {
+     "id": "7713581752099953-140",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.331,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28356,
+   "at": [
+    1650.8000000000002,
+    -769.9
+   ],
+   "centre": [
+    1656,
+    -765
+   ],
+   "width": 5,
+   "faces": 220,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1649.2,
+    -768,
+    1652.4,
+    -771.8,
+    1662.3,
+    -763.8,
+    1659.1,
+    -760,
+    1657.1,
+    -761.6
+   ],
+   "id": "spijkstraat-220-06",
+   "latLon": [
+    51.058944,
+    3.742636
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-135",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.352,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28355,
+   "at": [
+    1647.6,
+    -766.1
+   ],
+   "centre": [
+    1651.5,
+    -762.9
+   ],
+   "width": 5,
+   "faces": 220,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1646,
+    -764.2,
+    1649.2,
+    -768,
+    1657.1,
+    -761.6,
+    1653.9,
+    -757.8
+   ],
+   "id": "spijkstraat-220-07",
+   "latLon": [
+    51.058917,
+    3.7426
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-163",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.384,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28414,
+   "at": [
+    1662.5500000000002,
+    -783.6
+   ],
+   "centre": [
+    1667.7,
+    -779.3
+   ],
+   "width": 5.2,
+   "faces": 220,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1660.9,
+    -781.6,
+    1664.2,
+    -785.6,
+    1674.6,
+    -777,
+    1671.1,
+    -773
+   ],
+   "id": "spijkstraat-220-08",
+   "latLon": [
+    51.059044,
+    3.742771
+   ],
+   "photos": [
+    {
+     "id": "7423575467766003-115",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.368,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28911,
+   "at": [
+    1675.35,
+    -798.45
+   ],
+   "centre": [
+    1682.9,
+    -792.8
+   ],
+   "width": 5.4,
+   "faces": 220,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.5,
+   "kind": "apartments",
+   "ring": [
+    1685.5,
+    -786.2,
+    1689.2,
+    -790.4,
+    1688.9,
+    -790.6,
+    1677.1,
+    -800.5,
+    1673.6,
+    -796.4
+   ],
+   "id": "spijkstraat-220-09",
+   "latLon": [
+    51.059151,
+    3.742917
+   ],
+   "photos": [
+    {
+     "id": "633501802398658-89",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.416,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28418,
+   "at": [
+    1692.75,
+    -818.4
+   ],
+   "centre": [
+    1696.4,
+    -814.4
+   ],
+   "width": 5.5,
+   "faces": 220,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1691,
+    -816.3,
+    1694.5,
+    -820.5,
+    1697.4,
+    -820.2,
+    1702.9,
+    -809.3,
+    1696.4,
+    -805.9
+   ],
+   "id": "spijkstraat-220-10",
+   "latLon": [
+    51.059295,
+    3.743116
+   ],
+   "photos": [
+    {
+     "id": "1112603412559942",
+     "metres": 14,
+     "off": 9,
+     "span": [
+      0.517,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28547,
+   "at": [
+    1719.4499999999998,
+    -849.25
+   ],
+   "centre": [
+    1727.4,
+    -842.4
+   ],
+   "width": 5.1,
+   "faces": 220,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1717.8,
+    -847.3,
+    1721.1,
+    -851.2,
+    1737.3,
+    -837.6,
+    1733.6,
+    -833.5
+   ],
+   "id": "spijkstraat-220-11",
+   "latLon": [
+    51.059519,
+    3.743421
+   ],
+   "photos": [
+    {
+     "id": "1542043526468052-154",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.334,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28535,
+   "at": [
+    1742.25,
+    -862.7
+   ],
+   "centre": [
+    1744.5,
+    -861.7
+   ],
+   "width": 7.9,
+   "faces": 220,
+   "toStreet": 15.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1739.7,
+    -859.7,
+    1744.8,
+    -865.7,
+    1747.3,
+    -863.6,
+    1748,
+    -862.9,
+    1742.8,
+    -856.7
+   ],
+   "id": "spijkstraat-220-12",
+   "latLon": [
+    51.059616,
+    3.743682
+   ],
+   "photos": [
+    {
+     "id": "2034980947014518-139",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.366,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28343,
+   "at": [
+    1589.6999999999998,
+    -699.45
+   ],
+   "centre": [
+    1594.6,
+    -697.4
+   ],
+   "width": 5.7,
+   "faces": 221,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1595.3,
+    -705.8,
+    1603.8,
+    -697.2,
+    1604.3,
+    -696.7,
+    1592,
+    -688.6,
+    1587.6,
+    -694.6,
+    1587.8,
+    -697.3,
+    1591.6,
+    -701.6
+   ],
+   "id": "spijkstraat-221-13",
+   "latLon": [
+    51.058435,
+    3.741938
+   ],
+   "photos": [
+    {
+     "id": "843254992122626",
+     "metres": 26,
+     "off": 4,
+     "span": [
+      0.39,
+      0.504
+     ]
+    },
+    {
+     "id": "313575957040941",
+     "metres": 28,
+     "off": 15,
+     "span": [
+      0.349,
+      0.423
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28347,
+   "at": [
+    1607.1,
+    -719.35
+   ],
+   "centre": [
+    1612,
+    -715.8
+   ],
+   "width": 4.9,
+   "faces": 221,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1605.5,
+    -717.5,
+    1608.7,
+    -721.2,
+    1613,
+    -717.5,
+    1617.9,
+    -713.1,
+    1614.8,
+    -709.6
+   ],
+   "id": "spijkstraat-221-14",
+   "latLon": [
+    51.058579,
+    3.742137
+   ],
+   "photos": [
+    {
+     "id": "1391707321818305-105",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.412,
+      0.603
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28348,
+   "at": [
+    1617.2,
+    -730.9
+   ],
+   "centre": [
+    1625.6,
+    -724.7
+   ],
+   "width": 6.7,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    1619.4,
+    -733.4,
+    1630.8,
+    -723.8,
+    1633.6,
+    -721.4,
+    1629.2,
+    -716.3,
+    1615,
+    -728.4
+   ],
+   "id": "spijkstraat-221-15",
+   "latLon": [
+    51.058662,
+    3.742252
+   ],
+   "photos": [
+    {
+     "id": "975246684132022-99",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.394,
+      0.641
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28350,
+   "at": [
+    1625.3000000000002,
+    -740.35
+   ],
+   "centre": [
+    1635.3,
+    -732.1
+   ],
+   "width": 5.7,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1623.4,
+    -738.2,
+    1627.2,
+    -742.5,
+    1639.9,
+    -732,
+    1644.3,
+    -728.3,
+    1640.6,
+    -724,
+    1636.4,
+    -727.4
+   ],
+   "id": "spijkstraat-221-16",
+   "latLon": [
+    51.058731,
+    3.742345
+   ],
+   "photos": [
+    {
+     "id": "7713581752099953-105",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.393,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28352,
+   "at": [
+    1632.9,
+    -749.0999999999999
+   ],
+   "centre": [
+    1639.3,
+    -743.6
+   ],
+   "width": 5.8,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 16.9,
+   "kind": "house",
+   "ring": [
+    1631,
+    -746.9,
+    1634.8,
+    -751.3,
+    1643.4,
+    -744.1,
+    1642.1,
+    -742.7,
+    1642.9,
+    -739,
+    1641.7,
+    -737.8
+   ],
+   "id": "spijkstraat-221-17",
+   "latLon": [
+    51.058794,
+    3.742432
+   ],
+   "photos": [
+    {
+     "id": "634356919002490-120",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.361,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28351,
+   "at": [
+    1629.1,
+    -744.7
+   ],
+   "centre": [
+    1637.7,
+    -737.9
+   ],
+   "width": 5.8,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 17.1,
+   "kind": "house",
+   "ring": [
+    1627.2,
+    -742.5,
+    1631,
+    -746.9,
+    1641.7,
+    -737.8,
+    1642.3,
+    -737.3,
+    1640.4,
+    -735.2,
+    1641.7,
+    -733.9,
+    1639.9,
+    -732
+   ],
+   "id": "spijkstraat-221-18",
+   "latLon": [
+    51.058762,
+    3.742388
+   ],
+   "photos": [
+    {
+     "id": "634356919002490-155",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.347,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28353,
+   "at": [
+    1638.6999999999998,
+    -755.8499999999999
+   ],
+   "centre": [
+    1643.4,
+    -750.2
+   ],
+   "width": 12,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    1634.8,
+    -751.3,
+    1642.6,
+    -760.4,
+    1652,
+    -752.1,
+    1644.4,
+    -743.2,
+    1643.4,
+    -744.1
+   ],
+   "id": "spijkstraat-221-19",
+   "latLon": [
+    51.058843,
+    3.742498
+   ],
+   "photos": [
+    {
+     "id": "844648657787650-155",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.148,
+      0.72
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28357,
+   "at": [
+    1654.65,
+    -774.4
+   ],
+   "centre": [
+    1661.9,
+    -768
+   ],
+   "width": 6.9,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1652.4,
+    -771.8,
+    1656.9,
+    -777,
+    1669.2,
+    -766.4,
+    1666.8,
+    -763.5,
+    1663.7,
+    -765.6,
+    1662.3,
+    -763.8
+   ],
+   "id": "spijkstraat-221-20",
+   "latLon": [
+    51.058977,
+    3.74268
+   ],
+   "photos": [
+    {
+     "id": "2270068596712432-99",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.382,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28413,
+   "at": [
+    1658.9,
+    -779.3
+   ],
+   "centre": [
+    1673,
+    -767.2
+   ],
+   "width": 6.1,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1656.9,
+    -777,
+    1660.9,
+    -781.6,
+    1671.1,
+    -773,
+    1675.9,
+    -768.9,
+    1687.3,
+    -759.3,
+    1682.8,
+    -754.6,
+    1680,
+    -757,
+    1669.2,
+    -766.4
+   ],
+   "id": "spijkstraat-221-21",
+   "latLon": [
+    51.059012,
+    3.742729
+   ],
+   "photos": [
+    {
+     "id": "7423575467766003-152",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.318,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28913,
+   "at": [
+    1667,
+    -788.8
+   ],
+   "centre": [
+    1675,
+    -781.4
+   ],
+   "width": 8.5,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1669.8,
+    -792,
+    1664.2,
+    -785.6,
+    1674.6,
+    -777,
+    1671.1,
+    -773,
+    1675.9,
+    -768.9,
+    1684.2,
+    -778.8,
+    1681.2,
+    -781.3,
+    1677.2,
+    -784.6,
+    1675.8,
+    -785.8,
+    1676.5,
+    -786.5
+   ],
+   "id": "spijkstraat-221-22",
+   "latLon": [
+    51.059081,
+    3.742822
+   ],
+   "photos": [
+    {
+     "id": "633501802398658-164",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.264,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28912,
+   "at": [
+    1671.6999999999998,
+    -794.2
+   ],
+   "centre": [
+    1677.1,
+    -787.5
+   ],
+   "width": 5.8,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.5,
+   "kind": "apartments",
+   "ring": [
+    1681.2,
+    -781.3,
+    1685.5,
+    -786.2,
+    1673.6,
+    -796.4,
+    1669.8,
+    -792,
+    1676.5,
+    -786.5,
+    1675.8,
+    -785.8,
+    1677.2,
+    -784.6
+   ],
+   "id": "spijkstraat-221-23",
+   "latLon": [
+    51.05912,
+    3.742875
+   ],
+   "photos": [
+    {
+     "id": "633501802398658-119",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.337,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28417,
+   "at": [
+    1688.35,
+    -813.25
+   ],
+   "centre": [
+    1691.5,
+    -809.1
+   ],
+   "width": 8.1,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1685.7,
+    -810.2,
+    1691,
+    -816.3,
+    1696.4,
+    -805.9,
+    1693,
+    -804.1
+   ],
+   "id": "spijkstraat-221-24",
+   "latLon": [
+    51.059258,
+    3.743066
+   ],
+   "photos": [
+    {
+     "id": "526256708378400",
+     "metres": 33,
+     "off": 16,
+     "span": [
+      0.589,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28416,
+   "at": [
+    1683.6,
+    -807.8
+   ],
+   "centre": [
+    1687.1,
+    -804.8
+   ],
+   "width": 6.4,
+   "faces": 221,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1681.5,
+    -805.4,
+    1685.7,
+    -810.2,
+    1693,
+    -804.1,
+    1688.1,
+    -799.4
+   ],
+   "id": "spijkstraat-221-25",
+   "latLon": [
+    51.059219,
+    3.743011
+   ],
+   "photos": [
+    {
+     "id": "1004459865077129-96",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.383,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28549,
+   "at": [
+    1716.1,
+    -845.3499999999999
+   ],
+   "centre": [
+    1726.9,
+    -836.1
+   ],
+   "width": 5.2,
+   "faces": 221,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 14.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1714.4,
+    -843.4,
+    1717.8,
+    -847.3,
+    1733.6,
+    -833.5,
+    1735.2,
+    -832.1,
+    1733.4,
+    -831.1,
+    1728.7,
+    -835.2,
+    1726.5,
+    -832.7,
+    1725.4,
+    -833.8
+   ],
+   "id": "spijkstraat-221-26",
+   "latLon": [
+    51.05949,
+    3.743383
+   ],
+   "photos": [
+    {
+     "id": "594194186929022-110",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.372,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28542,
+   "at": [
+    1729.9499999999998,
+    -861.25
+   ],
+   "centre": [
+    1738.1,
+    -854.4
+   ],
+   "width": 9.6,
+   "faces": 221,
+   "toStreet": 7.3,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1726.8,
+    -857.6,
+    1733.1,
+    -864.9,
+    1739.4,
+    -859.4,
+    1741.8,
+    -857.4,
+    1738.5,
+    -854,
+    1745.1,
+    -848.9,
+    1741.9,
+    -845,
+    1737.9,
+    -848.3
+   ],
+   "id": "spijkstraat-221-27",
+   "latLon": [
+    51.059605,
+    3.743541
+   ],
+   "photos": [
+    {
+     "id": "1312585573317414-120",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.194,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40566,
+   "at": [
+    1746.5,
+    -880.4
+   ],
+   "centre": [
+    1758.3,
+    -854.5
+   ],
+   "width": 41,
+   "faces": 221,
+   "toStreet": 7.3,
+   "floors": 2,
+   "eaves": 5.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1733.1,
+    -864.9,
+    1759.9,
+    -895.9,
+    1784.6,
+    -874.5,
+    1778.4,
+    -867.2,
+    1783.8,
+    -862.4,
+    1777,
+    -854.2,
+    1778.5,
+    -852.8,
+    1776,
+    -850,
+    1774.6,
+    -851.4,
+    1769.5,
+    -845.6,
+    1767.7,
+    -848,
+    1763,
+    -842.6,
+    1759.2,
+    -845.5,
+    1755.3,
+    -840,
+    1753.1,
+    -841.7,
+    1749.8,
+    -838.6,
+    1749.6,
+    -839.2,
+    1749.1,
+    -839.1,
+    1741.9,
+    -845,
+    1745.1,
+    -848.9,
+    1745.9,
+    -848.3,
+    1756.9,
+    -861.2,
+    1750.4,
+    -866.6,
+    1747.3,
+    -863.6,
+    1744.8,
+    -865.7,
+    1739.7,
+    -859.7,
+    1739.4,
+    -859.4
+   ],
+   "id": "spijkstraat-221-28",
+   "latLon": [
+    51.059744,
+    3.743731
+   ],
+   "photos": [
+    {
+     "id": "1607985609923272-124",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28528,
+   "at": [
+    1762.65,
+    -899.0999999999999
+   ],
+   "centre": [
+    1780.9,
+    -882.5
+   ],
+   "width": 8.4,
+   "faces": 221,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1759.9,
+    -895.9,
+    1765.4,
+    -902.3,
+    1783.6,
+    -886.4,
+    1786.5,
+    -883.8,
+    1784.1,
+    -881,
+    1783.2,
+    -881.7,
+    1782.6,
+    -881,
+    1784.2,
+    -879.6,
+    1783.4,
+    -878.5,
+    1784.7,
+    -877.2,
+    1784,
+    -876.3,
+    1786,
+    -874.5,
+    1784.6,
+    -874.5
+   ],
+   "id": "spijkstraat-221-29",
+   "latLon": [
+    51.059879,
+    3.743915
+   ],
+   "photos": [
+    {
+     "id": "1133025035230023-152",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.098,
+      0.745
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28527,
+   "at": [
+    1766.95,
+    -904.0999999999999
+   ],
+   "centre": [
+    1781.9,
+    -891.9
+   ],
+   "width": 4.8,
+   "faces": 221,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1765.4,
+    -902.3,
+    1768.5,
+    -905.9,
+    1785.4,
+    -891.2,
+    1788.6,
+    -888.3,
+    1789.8,
+    -887.3,
+    1788.1,
+    -885.7,
+    1785.6,
+    -888.3,
+    1783.6,
+    -886.4
+   ],
+   "id": "spijkstraat-221-30",
+   "latLon": [
+    51.059915,
+    3.743964
+   ],
+   "photos": [
+    {
+     "id": "1133025035230023-95",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.389,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28525,
+   "at": [
+    1780.35,
+    -919.25
+   ],
+   "centre": [
+    1784.8,
+    -912.5
+   ],
+   "width": 22.2,
+   "faces": 221,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1773,
+    -910.9,
+    1787.7,
+    -927.6,
+    1798.2,
+    -918.8,
+    1783.4,
+    -901.9,
+    1781.8,
+    -903.3
+   ],
+   "id": "spijkstraat-221-31",
+   "latLon": [
+    51.060025,
+    3.744118
+   ],
+   "photos": [
+    {
+     "id": "1286735932382047-161",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.88
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28346,
+   "at": [
+    1603.95,
+    -715.75
+   ],
+   "centre": [
+    1609.5,
+    -711
+   ],
+   "width": 4.7,
+   "faces": 222,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1602.4,
+    -714,
+    1605.5,
+    -717.5,
+    1614.8,
+    -709.6,
+    1613.1,
+    -707.7,
+    1611.9,
+    -706.3
+   ],
+   "id": "spijkstraat-222-32",
+   "latLon": [
+    51.058553,
+    3.742101
+   ],
+   "photos": [
+    {
+     "id": "1391707321818305-129",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.39,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28345,
+   "at": [
+    1600.8000000000002,
+    -712.2
+   ],
+   "centre": [
+    1612.3,
+    -705.5
+   ],
+   "width": 4.8,
+   "faces": 222,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1599.2,
+    -710.4,
+    1602.4,
+    -714,
+    1611.9,
+    -706.3,
+    1613.1,
+    -707.7,
+    1616.3,
+    -704.9,
+    1619.7,
+    -702,
+    1620.5,
+    -701.3,
+    1614.9,
+    -697.3
+   ],
+   "id": "spijkstraat-222-33",
+   "latLon": [
+    51.058527,
+    3.742065
+   ],
+   "photos": [
+    {
+     "id": "1391707321818305-154",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.394,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28354,
+   "at": [
+    1644.3,
+    -762.3
+   ],
+   "centre": [
+    1651.4,
+    -756.3
+   ],
+   "width": 5.1,
+   "faces": 222,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1642.6,
+    -760.4,
+    1652,
+    -752.1,
+    1655.1,
+    -749.4,
+    1658.7,
+    -753.7,
+    1653.9,
+    -757.8,
+    1646,
+    -764.2
+   ],
+   "id": "spijkstraat-222-34",
+   "latLon": [
+    51.058889,
+    3.742562
+   ],
+   "photos": [
+    {
+     "id": "844648657787650-106",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.396,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28415,
+   "at": [
+    1679.3,
+    -802.95
+   ],
+   "centre": [
+    1687.6,
+    -796.9
+   ],
+   "width": 6.6,
+   "faces": 222,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1677.1,
+    -800.5,
+    1681.5,
+    -805.4,
+    1688.1,
+    -799.4,
+    1691.4,
+    -796.4,
+    1690.8,
+    -795.6,
+    1692.4,
+    -794.1,
+    1690.6,
+    -793.2,
+    1688.9,
+    -790.6
+   ],
+   "id": "spijkstraat-222-35",
+   "latLon": [
+    51.059184,
+    3.742962
+   ],
+   "photos": [
+    {
+     "id": "1004459865077129-138",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.285,
+      0.707
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28552,
+   "at": [
+    1712.3000000000002,
+    -841.05
+   ],
+   "centre": [
+    1717.9,
+    -835.6
+   ],
+   "width": 6.3,
+   "faces": 222,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1710.2,
+    -838.7,
+    1714.4,
+    -843.4,
+    1725.4,
+    -833.8,
+    1720.4,
+    -831.5,
+    1718.9,
+    -830.8
+   ],
+   "id": "spijkstraat-222-36",
+   "latLon": [
+    51.059459,
+    3.74334
+   ],
+   "photos": [
+    {
+     "id": "4201014696654248",
+     "metres": 44,
+     "off": 18,
+     "span": [
+      0.329,
+      0.383
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28553,
+   "at": [
+    1708.8000000000002,
+    -837.1500000000001
+   ],
+   "centre": [
+    1710.9,
+    -832.9
+   ],
+   "width": 4.2,
+   "faces": 222,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1710.2,
+    -838.7,
+    1718.9,
+    -830.8,
+    1710.7,
+    -826.5,
+    1707.2,
+    -833.1,
+    1707.4,
+    -835.6
+   ],
+   "id": "spijkstraat-222-37",
+   "latLon": [
+    51.059431,
+    3.7433
+   ],
+   "photos": [
+    {
+     "id": "821072358539846",
+     "metres": 36,
+     "off": 17,
+     "span": [
+      0.345,
+      0.389
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28545,
+   "at": [
+    1723.9499999999998,
+    -854.4000000000001
+   ],
+   "centre": [
+    1735,
+    -844.6
+   ],
+   "width": 8.6,
+   "faces": 222,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1721.1,
+    -851.2,
+    1726.8,
+    -857.6,
+    1737.9,
+    -848.3,
+    1736,
+    -845.6,
+    1745.3,
+    -837.2,
+    1740.6,
+    -834.9,
+    1737.3,
+    -837.6
+   ],
+   "id": "spijkstraat-222-38",
+   "latLon": [
+    51.059556,
+    3.743473
+   ],
+   "photos": [
+    {
+     "id": "1542043526468052-104",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.32,
+      0.809
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28526,
+   "at": [
+    1770.75,
+    -908.4
+   ],
+   "centre": [
+    1779.5,
+    -901.2
+   ],
+   "width": 6.7,
+   "faces": 222,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1768.5,
+    -905.9,
+    1773,
+    -910.9,
+    1781.8,
+    -903.3,
+    1780.2,
+    -901.5,
+    1788.2,
+    -894.4,
+    1785.4,
+    -891.2
+   ],
+   "id": "spijkstraat-222-39",
+   "latLon": [
+    51.059946,
+    3.744008
+   ],
+   "photos": [
+    {
+     "id": "547611904289709-166",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.243,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28419,
+   "at": [
+    1690.55,
+    -801.75
+   ],
+   "centre": [
+    1695.8,
+    -802.3
+   ],
+   "width": 6.8,
+   "faces": 226,
+   "toStreet": 16.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1688.1,
+    -799.4,
+    1693,
+    -804.1,
+    1696.4,
+    -805.9,
+    1702.9,
+    -809.3,
+    1705.6,
+    -803.7,
+    1693.5,
+    -797.2,
+    1691.4,
+    -796.4
+   ],
+   "id": "spijkstraat-226-40",
+   "latLon": [
+    51.059175,
+    3.743091
+   ],
+   "photos": [
+    {
+     "id": "3296746927218375",
+     "metres": 40,
+     "off": 17,
+     "span": [
+      0.606,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28359,
+   "at": [
+    1576.6999999999998,
+    -677.4000000000001
+   ],
+   "centre": [
+    1580.6,
+    -669.3
+   ],
+   "width": 8.2,
+   "faces": 236,
+   "toStreet": 13.9,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1573.3,
+    -675.1,
+    1580.1,
+    -679.7,
+    1589.7,
+    -666.4,
+    1584.7,
+    -663.8,
+    1579.8,
+    -661.3,
+    1575.9,
+    -669.5
+   ],
+   "id": "spijkstraat-236-41",
+   "latLon": [
+    51.058275,
+    3.741789
+   ],
+   "photos": [
+    {
+     "id": "955336350770715",
+     "metres": 17,
+     "off": 6,
+     "span": [
+      0.307,
+      0.56
+     ]
+    },
+    {
+     "id": "304798507691510",
+     "metres": 16,
+     "off": 11,
+     "span": [
+      0.491,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28551,
+   "at": [
+    1714.8000000000002,
+    -828.65
+   ],
+   "centre": [
+    1720.8,
+    -829.4
+   ],
+   "width": 9.3,
+   "faces": 242,
+   "toStreet": 17,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1710.7,
+    -826.5,
+    1718.9,
+    -830.8,
+    1720.4,
+    -831.5,
+    1725.4,
+    -833.8,
+    1726.5,
+    -832.7,
+    1730.2,
+    -829.5,
+    1713.6,
+    -820.9
+   ],
+   "id": "spijkstraat-242-42",
+   "latLon": [
+    51.059369,
+    3.743368
+   ],
+   "photos": [
+    {
+     "id": "392407165203319",
+     "metres": 39,
+     "off": 18,
+     "span": [
+      0.317,
+      0.404
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27854,
+   "at": [
+    1537.7,
+    -670.3
+   ],
+   "centre": [
+    1541.7,
+    -661.5
+   ],
+   "width": 4.9,
+   "faces": 243,
+   "toStreet": 3.9,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1535.5,
+    -669.2,
+    1539.9,
+    -671.4,
+    1544.7,
+    -661.1,
+    1546.7,
+    -656.6,
+    1542.2,
+    -654.5,
+    1541.2,
+    -656.5
+   ],
+   "id": "spijkstraat-243-43",
+   "latLon": [
+    51.058224,
+    3.741344
+   ],
+   "photos": [
+    {
+     "id": "1155251062676212-183",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.317,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27861,
+   "at": [
+    1536.3,
+    -629.45
+   ],
+   "centre": [
+    1540.4,
+    -613
+   ],
+   "width": 18.9,
+   "faces": 244,
+   "toStreet": 11.7,
+   "floors": 5,
+   "eaves": 18,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1544.8,
+    -633.6,
+    1556.4,
+    -607.4,
+    1537.7,
+    -598.8,
+    1535.2,
+    -599.8,
+    1527.8,
+    -625.3
+   ],
+   "id": "spijkstraat-244-44",
+   "latLon": [
+    51.057928,
+    3.741328
+   ],
+   "photos": [
+    {
+     "id": "957757416751418",
+     "metres": 30,
+     "off": 7,
+     "span": [
+      0.219,
+      0.586
+     ]
+    },
+    {
+     "id": "290198109323445",
+     "metres": 32,
+     "off": 3,
+     "span": [
+      0.369,
+      0.57
+     ]
+    },
+    {
+     "id": "2266718796798844",
+     "metres": 26,
+     "off": 19,
+     "span": [
+      0.056,
+      0.464
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27862,
+   "at": [
+    1548.5,
+    -662.95
+   ],
+   "centre": [
+    1554,
+    -652
+   ],
+   "width": 8.5,
+   "faces": 244,
+   "toStreet": 15.2,
+   "floors": 1,
+   "eaves": 0.5,
+   "top": 9.6,
+   "kind": "yes",
+   "ring": [
+    1544.7,
+    -661.1,
+    1552.3,
+    -664.8,
+    1553.7,
+    -661.6,
+    1558.5,
+    -651,
+    1561.9,
+    -643.6,
+    1562.7,
+    -641.9,
+    1555.1,
+    -638.4,
+    1550.4,
+    -648.6,
+    1546.7,
+    -656.6
+   ],
+   "id": "spijkstraat-244-45",
+   "latLon": [
+    51.058171,
+    3.741467
+   ],
+   "photos": [
+    {
+     "id": "1155251062676212-144",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.387,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27857,
+   "at": [
+    1565.5,
+    -682.9
+   ],
+   "centre": [
+    1569.6,
+    -674.2
+   ],
+   "width": 7.5,
+   "faces": 245,
+   "toStreet": 4.2,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1562.1,
+    -681.3,
+    1568.9,
+    -684.5,
+    1573.3,
+    -675.1,
+    1575.9,
+    -669.5,
+    1569.2,
+    -666.4,
+    1568.2,
+    -668.3
+   ],
+   "id": "spijkstraat-245-46",
+   "latLon": [
+    51.058315,
+    3.741661
+   ],
+   "photos": [
+    {
+     "id": "1658408675500228",
+     "metres": 19,
+     "off": 19,
+     "span": [
+      0.614,
+      0.838
+     ]
+    },
+    {
+     "id": "975601339872982",
+     "metres": 37,
+     "off": 0,
+     "span": [
+      0.463,
+      0.53
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27855,
+   "at": [
+    1543.8000000000002,
+    -673.0999999999999
+   ],
+   "centre": [
+    1546.2,
+    -668
+   ],
+   "width": 8.5,
+   "faces": 246,
+   "toStreet": 4,
+   "floors": 2,
+   "eaves": 9.4,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1539.9,
+    -671.4,
+    1547.7,
+    -674.8,
+    1552.3,
+    -664.8,
+    1544.7,
+    -661.1
+   ],
+   "id": "spijkstraat-246-47",
+   "latLon": [
+    51.058244,
+    3.741413
+   ],
+   "photos": [
+    {
+     "id": "1155251062676212-126",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.299,
+      0.872
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27856,
+   "at": [
+    1557.05,
+    -679.05
+   ],
+   "centre": [
+    1556.1,
+    -670.1
+   ],
+   "width": 11.1,
+   "faces": 246,
+   "toStreet": 4.2,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": 11,
+   "kind": "yes",
+   "ring": [
+    1547.7,
+    -674.8,
+    1552,
+    -676.8,
+    1562.1,
+    -681.3,
+    1568.2,
+    -668.3,
+    1556.6,
+    -662.9,
+    1553.7,
+    -661.6,
+    1552.3,
+    -664.8
+   ],
+   "id": "spijkstraat-246-48",
+   "latLon": [
+    51.058287,
+    3.741565
+   ],
+   "photos": [
+    {
+     "id": "830892117512146",
+     "metres": 43,
+     "off": 13,
+     "span": [
+      0.555,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28358,
+   "at": [
+    1571.8000000000002,
+    -685.8
+   ],
+   "centre": [
+    1574.3,
+    -681.6
+   ],
+   "width": 6.4,
+   "faces": 246,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1568.9,
+    -684.5,
+    1574.7,
+    -687.1,
+    1580.1,
+    -679.7,
+    1573.3,
+    -675.1
+   ],
+   "id": "spijkstraat-246-49",
+   "latLon": [
+    51.058336,
+    3.741733
+   ],
+   "photos": [
+    {
+     "id": "4318093881735806",
+     "metres": 28,
+     "off": 1,
+     "span": [
+      0.455,
+      0.579
+     ]
+    },
+    {
+     "id": "1598280977024315",
+     "metres": 33,
+     "off": 1,
+     "span": [
+      0.462,
+      0.528
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28521,
+   "at": [
+    1822.7,
+    -942.3
+   ],
+   "centre": [
+    1814.5,
+    -928.9
+   ],
+   "width": 38.5,
+   "faces": 282,
+   "toStreet": 10.3,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1836.6,
+    -916.2,
+    1821.7,
+    -919.5,
+    1823.1,
+    -926.8,
+    1810.4,
+    -929.5,
+    1810.5,
+    -929.1,
+    1810.4,
+    -928.4,
+    1809.8,
+    -928,
+    1808.6,
+    -928.1,
+    1804.6,
+    -923.6,
+    1792.6,
+    -933.3,
+    1803.9,
+    -946.4,
+    1841.5,
+    -938.2
+   ],
+   "id": "spijkstraat-282-01",
+   "latLon": [
+    51.060192,
+    3.744602
+   ],
+   "photos": [
+    {
+     "id": "591244883718577-157",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.29,
+      0.995
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28170,
+   "at": [
+    1613.6,
+    -810.5999999999999
+   ],
+   "centre": [
+    1593.1,
+    -791.2
+   ],
+   "width": 4,
+   "faces": 307,
+   "toStreet": 14.5,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1582.9,
+    -784.6,
+    1583.7,
+    -783.8,
+    1582.2,
+    -782.3,
+    1582.8,
+    -781.6,
+    1583.2,
+    -780.6,
+    1584.1,
+    -779.6,
+    1586.6,
+    -776.7,
+    1616.8,
+    -808.1,
+    1615.2,
+    -809.4,
+    1612,
+    -811.8,
+    1605.7,
+    -805.8,
+    1591.4,
+    -792.6,
+    1589.5,
+    -791.1,
+    1586.8,
+    -788.4
+   ],
+   "id": "spijkstraat-307-01",
+   "latLon": [
+    51.059239,
+    3.742211
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28322,
+   "at": [
+    1625.3,
+    -796.1
+   ],
+   "centre": [
+    1609.7,
+    -782.1
+   ],
+   "width": 6.4,
+   "faces": 309,
+   "toStreet": 17.2,
+   "floors": 1,
+   "eaves": 3,
+   "top": null,
+   "kind": "garages",
+   "ring": [
+    1591.8,
+    -772,
+    1597.4,
+    -778.2,
+    1599.2,
+    -776.6,
+    1607.3,
+    -785.4,
+    1610.7,
+    -786.9,
+    1611.5,
+    -786.2,
+    1620.1,
+    -795.5,
+    1619.6,
+    -795.7,
+    1622.8,
+    -798.1,
+    1627.8,
+    -794.1,
+    1617.7,
+    -782,
+    1614.7,
+    -778.4,
+    1612.1,
+    -775.3,
+    1609.3,
+    -777.7,
+    1604,
+    -771.9,
+    1601.5,
+    -774.1,
+    1596.6,
+    -768.1
+   ],
+   "id": "spijkstraat-309-02",
+   "latLon": [
+    51.059134,
+    3.742345
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28898,
+   "at": [
+    1631.8000000000002,
+    -806.35
+   ],
+   "centre": [
+    1629.2,
+    -803.3
+   ],
+   "width": 4.2,
+   "faces": 310,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    1630.2,
+    -807.7,
+    1633.4,
+    -805,
+    1628.3,
+    -799,
+    1625,
+    -801.7
+   ],
+   "id": "spijkstraat-310-03",
+   "latLon": [
+    51.059208,
+    3.742419
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28339,
+   "at": [
+    1625.5,
+    -811.8
+   ],
+   "centre": [
+    1621.6,
+    -808.6
+   ],
+   "width": 12.5,
+   "faces": 311,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1625,
+    -801.7,
+    1616.8,
+    -808.1,
+    1615.2,
+    -809.4,
+    1620.8,
+    -815.9,
+    1630.2,
+    -807.7
+   ],
+   "id": "spijkstraat-311-04",
+   "latLon": [
+    51.059248,
+    3.742347
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28900,
+   "at": [
+    1638.3,
+    -800.6500000000001
+   ],
+   "centre": [
+    1635.9,
+    -797.9
+   ],
+   "width": 4.8,
+   "faces": 311,
+   "toStreet": 5.4,
+   "floors": 2,
+   "eaves": 9,
+   "top": 11.1,
+   "kind": "house",
+   "ring": [
+    1636.5,
+    -802.2,
+    1640.1,
+    -799.1,
+    1635.3,
+    -793.6,
+    1631.6,
+    -796.5
+   ],
+   "id": "spijkstraat-311-05",
+   "latLon": [
+    51.059167,
+    3.742494
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28899,
+   "at": [
+    1634.95,
+    -803.6
+   ],
+   "centre": [
+    1632.5,
+    -800.7
+   ],
+   "width": 4.2,
+   "faces": 312,
+   "toStreet": 5.2,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    1633.4,
+    -805,
+    1636.5,
+    -802.2,
+    1631.6,
+    -796.5,
+    1628.3,
+    -799
+   ],
+   "id": "spijkstraat-312-06",
+   "latLon": [
+    51.059188,
+    3.742455
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28522,
+   "at": [
+    1794.85,
+    -892.05
+   ],
+   "centre": [
+    1792,
+    -889
+   ],
+   "width": 4.7,
+   "faces": 312,
+   "toStreet": 3.4,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1788.6,
+    -888.3,
+    1793.1,
+    -893.6,
+    1796.6,
+    -890.5,
+    1792.1,
+    -885.4,
+    1789.8,
+    -887.3
+   ],
+   "id": "spijkstraat-312-07",
+   "latLon": [
+    51.059828,
+    3.744283
+   ],
+   "photos": []
+  }
+ ]
+}

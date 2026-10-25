@@ -27,7 +27,8 @@ export function person(o) {
   const top = std(o.top), skin = std(o.skin, 0.6), hair = std(o.hair, 0.95), shoes = std(o.shoes ?? 0x1c1a19, 0.4);
   if (o.skirt) {
     const [color, length, flare] = o.skirt;
-    add(g, lathe([[0.001, 0.96], [0.17, 0.96], [0.2 + flare * 0.3, 0.96 - length * 0.5], [0.22 + flare, 0.96 - length], [0.001, 0.96 - length]]), std(color, 0.75));
+    // (from the hem up, like the body: a lathe drawn from the top down faces inwards, and was seen from inside through its back)
+    add(g, lathe([[0.001, 0.96 - length], [0.22 + flare, 0.96 - length], [0.2 + flare * 0.3, 0.96 - length * 0.5], [0.17, 0.96], [0.001, 0.96]]), std(color, 0.75));
     if (length < 0.8) for (const s of [-1, 1]) add(g, limb(0.05, 0.96 - length), skin, s * 0.08, 0.96 - length);
   } else if (o.shorts) {
     for (const s of [-1, 1]) {

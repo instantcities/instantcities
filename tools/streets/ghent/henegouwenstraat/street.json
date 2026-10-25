@@ -1,0 +1,3236 @@
+{
+ "city": "ghent",
+ "street": "Henegouwenstraat",
+ "slug": "henegouwenstraat",
+ "photos": {
+  "450884768017847-1": {
+   "file": "photos/450884768017847-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=450884768017847",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0521427,
+    3.7252374,
+    1,
+    0.5
+   ]
+  },
+  "900678654600778-22": {
+   "file": "photos/900678654600778-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=900678654600778",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522175,
+    3.7251968,
+    22,
+    0.5
+   ]
+  },
+  "333853501431283-5": {
+   "file": "photos/333853501431283-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=333853501431283",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522056,
+    3.7252293,
+    5,
+    0.5
+   ]
+  },
+  "1126188021697742-8": {
+   "file": "photos/1126188021697742-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126188021697742",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522007,
+    3.7253802,
+    8,
+    0.5
+   ]
+  },
+  "605473759053258-12": {
+   "file": "photos/605473759053258-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=605473759053258",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0520569,
+    3.7253203,
+    12,
+    0.5
+   ]
+  },
+  "2075413005931753-2": {
+   "file": "photos/2075413005931753-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2075413005931753",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0521962,
+    3.7253909,
+    2,
+    0.5
+   ]
+  },
+  "342630348363195-346": {
+   "file": "photos/342630348363195-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=342630348363195",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0521805,
+    3.7255618,
+    346,
+    0.5
+   ]
+  },
+  "294380625657921-19": {
+   "file": "photos/294380625657921-19.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=294380625657921",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0521887,
+    3.7254926,
+    19,
+    0.5
+   ]
+  },
+  "342630348363195-25": {
+   "file": "photos/342630348363195-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=342630348363195",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0521805,
+    3.7255618,
+    25,
+    0.5
+   ]
+  },
+  "251598066761381-14": {
+   "file": "photos/251598066761381-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=251598066761381",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0521809,
+    3.7255848,
+    14,
+    0.5
+   ]
+  },
+  "823762812938265-20": {
+   "file": "photos/823762812938265-20.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=823762812938265",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0520634,
+    3.7263525,
+    20,
+    0.5
+   ]
+  },
+  "864377152031698-11": {
+   "file": "photos/864377152031698-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=864377152031698",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520664,
+    3.726368,
+    11,
+    0.5
+   ]
+  },
+  "1198482658142210-23": {
+   "file": "photos/1198482658142210-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1198482658142210",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520662,
+    3.7263482,
+    23,
+    0.5
+   ]
+  },
+  "1200388427992825-15": {
+   "file": "photos/1200388427992825-15.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1200388427992825",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0520053,
+    3.7266703,
+    15,
+    0.5
+   ]
+  },
+  "1238166570647434-22": {
+   "file": "photos/1238166570647434-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1238166570647434",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520158,
+    3.7266655,
+    22,
+    0.5
+   ]
+  },
+  "842733824508677-22": {
+   "file": "photos/842733824508677-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=842733824508677",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520097,
+    3.7266623,
+    22,
+    0.5
+   ]
+  },
+  "9118954274785623-17": {
+   "file": "photos/9118954274785623-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9118954274785623",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0521114,
+    3.7260987,
+    17,
+    0.5
+   ]
+  },
+  "1185977826007138-18": {
+   "file": "photos/1185977826007138-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1185977826007138",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0521121,
+    3.7260971,
+    18,
+    0.5
+   ]
+  },
+  "833857118962919-4": {
+   "file": "photos/833857118962919-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=833857118962919",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0521063,
+    3.7261167,
+    4,
+    0.5
+   ]
+  },
+  "497485376597480-19": {
+   "file": "photos/497485376597480-19.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497485376597480",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0520439,
+    3.7264573,
+    19,
+    0.5
+   ]
+  },
+  "1090881025987324-26": {
+   "file": "photos/1090881025987324-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1090881025987324",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520536,
+    3.7264541,
+    26,
+    0.5
+   ]
+  },
+  "1282248736487630-7": {
+   "file": "photos/1282248736487630-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1282248736487630",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520428,
+    3.7264754,
+    7,
+    0.5
+   ]
+  },
+  "849867670621627-18": {
+   "file": "photos/849867670621627-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=849867670621627",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520265,
+    3.7265637,
+    18,
+    0.5
+   ]
+  },
+  "1044033743864146-8": {
+   "file": "photos/1044033743864146-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1044033743864146",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520252,
+    3.7265777,
+    8,
+    0.5
+   ]
+  },
+  "890014419255861-26": {
+   "file": "photos/890014419255861-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=890014419255861",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0520438,
+    3.7265644,
+    26,
+    0.5
+   ]
+  },
+  "1184422732835199-18": {
+   "file": "photos/1184422732835199-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1184422732835199",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.051982,
+    3.7268125,
+    18,
+    0.5
+   ]
+  },
+  "1719970778765564-9": {
+   "file": "photos/1719970778765564-9.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1719970778765564",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0519791,
+    3.7268249,
+    9,
+    0.5
+   ]
+  },
+  "1227370348607974-8": {
+   "file": "photos/1227370348607974-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227370348607974",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0519747,
+    3.7268264,
+    8,
+    0.5
+   ]
+  },
+  "4158640600823865-26": {
+   "file": "photos/4158640600823865-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4158640600823865",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0517779,
+    3.7274109,
+    26,
+    0.5
+   ]
+  },
+  "1295516431111933-58": {
+   "file": "photos/1295516431111933-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1295516431111933",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.051819,
+    3.7274169,
+    58,
+    0.5
+   ]
+  },
+  "2895456020782497": {
+   "file": "photos/2895456020782497.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2895456020782497",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.051759,
+    3.7269855,
+    31,
+    0.447
+   ]
+  },
+  "466659731112026": {
+   "file": "photos/466659731112026.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=466659731112026",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0516803,
+    3.7269351,
+    31,
+    0.447
+   ]
+  },
+  "885522786548436-3": {
+   "file": "photos/885522786548436-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=885522786548436",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.051769,
+    3.7275391,
+    3,
+    0.5
+   ]
+  },
+  "1918011618348876-46": {
+   "file": "photos/1918011618348876-46.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1918011618348876",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0517563,
+    3.7274666,
+    46,
+    0.5
+   ]
+  },
+  "787196085288854-22": {
+   "file": "photos/787196085288854-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=787196085288854",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.051715,
+    3.7275772,
+    22,
+    0.5
+   ]
+  },
+  "3683869055267630-38": {
+   "file": "photos/3683869055267630-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3683869055267630",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.051718,
+    3.7276617,
+    38,
+    0.5
+   ]
+  },
+  "3767536060036027-39": {
+   "file": "photos/3767536060036027-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3767536060036027",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0516954,
+    3.7276315,
+    39,
+    0.5
+   ]
+  },
+  "2806678856313330-31": {
+   "file": "photos/2806678856313330-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2806678856313330",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0516553,
+    3.7277386,
+    31,
+    0.5
+   ]
+  },
+  "354169043986618-359": {
+   "file": "photos/354169043986618-359.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=354169043986618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0516674,
+    3.7277914,
+    359,
+    0.5
+   ]
+  },
+  "6991440104281557-44": {
+   "file": "photos/6991440104281557-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=6991440104281557",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0516132,
+    3.7279278,
+    44,
+    0.5
+   ]
+  },
+  "1171898319942330-24": {
+   "file": "photos/1171898319942330-24.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1171898319942330",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.051582,
+    3.7279276,
+    24,
+    0.5
+   ]
+  },
+  "1407725996293162-18": {
+   "file": "photos/1407725996293162-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1407725996293162",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0518001,
+    3.7273553,
+    18,
+    0.5
+   ]
+  },
+  "829466251338358": {
+   "file": "photos/829466251338358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=829466251338358",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0522926,
+    3.7252126,
+    149,
+    0.518
+   ]
+  },
+  "1532996364046357": {
+   "file": "photos/1532996364046357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1532996364046357",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0525201,
+    3.7254471,
+    185,
+    0.379
+   ]
+  },
+  "460222255240689": {
+   "file": "photos/460222255240689.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=460222255240689",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0523543,
+    3.7251732,
+    152,
+    0.518
+   ]
+  },
+  "1107146084266035-192": {
+   "file": "photos/1107146084266035-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1107146084266035",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0519756,
+    3.7268354,
+    192,
+    0.5
+   ]
+  },
+  "1227370348607974-187": {
+   "file": "photos/1227370348607974-187.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227370348607974",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0519747,
+    3.7268264,
+    187,
+    0.5
+   ]
+  },
+  "523651323646774-202": {
+   "file": "photos/523651323646774-202.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=523651323646774",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0519748,
+    3.7268546,
+    202,
+    0.5
+   ]
+  },
+  "1196740934709237": {
+   "file": "photos/1196740934709237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1196740934709237",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-08-31",
+   "cam": [
+    51.0521983,
+    3.7258558,
+    164,
+    0.527
+   ]
+  },
+  "1449642122331375-199": {
+   "file": "photos/1449642122331375-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1449642122331375",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.052095,
+    3.7261868,
+    199,
+    0.5
+   ]
+  },
+  "526575886406273-188": {
+   "file": "photos/526575886406273-188.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=526575886406273",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520986,
+    3.7261675,
+    188,
+    0.5
+   ]
+  },
+  "300264939673313-200": {
+   "file": "photos/300264939673313-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=300264939673313",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0521118,
+    3.726198,
+    200,
+    0.5
+   ]
+  },
+  "1111823053949829-195": {
+   "file": "photos/1111823053949829-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1111823053949829",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.052034,
+    3.7265292,
+    195,
+    0.5
+   ]
+  },
+  "847450264153529-199": {
+   "file": "photos/847450264153529-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=847450264153529",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520397,
+    3.7265415,
+    199,
+    0.5
+   ]
+  },
+  "461889296813160-189": {
+   "file": "photos/461889296813160-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=461889296813160",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520349,
+    3.7265184,
+    189,
+    0.5
+   ]
+  },
+  "1559910131280160-192": {
+   "file": "photos/1559910131280160-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1559910131280160",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0520131,
+    3.7266276,
+    192,
+    0.5
+   ]
+  },
+  "1250649039461415-203": {
+   "file": "photos/1250649039461415-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1250649039461415",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520112,
+    3.7266479,
+    203,
+    0.5
+   ]
+  },
+  "542745764863601-190": {
+   "file": "photos/542745764863601-190.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=542745764863601",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520241,
+    3.7266265,
+    190,
+    0.5
+   ]
+  },
+  "523651323646774-197": {
+   "file": "photos/523651323646774-197.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=523651323646774",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0519748,
+    3.7268546,
+    197,
+    0.5
+   ]
+  },
+  "888551425977812-200": {
+   "file": "photos/888551425977812-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888551425977812",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0519678,
+    3.7268631,
+    200,
+    0.5
+   ]
+  },
+  "1548248659430495": {
+   "file": "photos/1548248659430495.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1548248659430495",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-08-31",
+   "cam": [
+    51.0522419,
+    3.7258518,
+    179,
+    0.527
+   ]
+  },
+  "1198482658142210-203": {
+   "file": "photos/1198482658142210-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1198482658142210",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520662,
+    3.7263482,
+    203,
+    0.5
+   ]
+  },
+  "1250461676380861-189": {
+   "file": "photos/1250461676380861-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1250461676380861",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0520726,
+    3.7263262,
+    189,
+    0.5
+   ]
+  },
+  "1260803678617474-189": {
+   "file": "photos/1260803678617474-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1260803678617474",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520698,
+    3.7263245,
+    189,
+    0.5
+   ]
+  },
+  "836841938631203-196": {
+   "file": "photos/836841938631203-196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=836841938631203",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.052048,
+    3.7264349,
+    196,
+    0.5
+   ]
+  },
+  "1703992823786893-195": {
+   "file": "photos/1703992823786893-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1703992823786893",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0520502,
+    3.7264342,
+    195,
+    0.5
+   ]
+  },
+  "2783621885138732-194": {
+   "file": "photos/2783621885138732-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2783621885138732",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0520512,
+    3.7264318,
+    194,
+    0.5
+   ]
+  },
+  "448808774845365-199": {
+   "file": "photos/448808774845365-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=448808774845365",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-17",
+   "pano": true,
+   "cam": [
+    51.0519949,
+    3.7267431,
+    199,
+    0.5
+   ]
+  },
+  "859633776385008-203": {
+   "file": "photos/859633776385008-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=859633776385008",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0519953,
+    3.7267511,
+    203,
+    0.5
+   ]
+  },
+  "8204900996290621-204": {
+   "file": "photos/8204900996290621-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8204900996290621",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-20",
+   "pano": true,
+   "cam": [
+    51.0519896,
+    3.7267499,
+    204,
+    0.5
+   ]
+  },
+  "354169043986618-191": {
+   "file": "photos/354169043986618-191.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=354169043986618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0516674,
+    3.7277914,
+    191,
+    0.5
+   ]
+  },
+  "310349660781538-195": {
+   "file": "photos/310349660781538-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=310349660781538",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0516357,
+    3.7277892,
+    195,
+    0.5
+   ]
+  },
+  "1536582173916897-193": {
+   "file": "photos/1536582173916897-193.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1536582173916897",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-15",
+   "pano": true,
+   "cam": [
+    51.0517964,
+    3.7278478,
+    193,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 16089,
+   "at": [
+    129.14999999999998,
+    150.4
+   ],
+   "centre": [
+    126.1,
+    147.4
+   ],
+   "width": 11.2,
+   "faces": 99,
+   "toStreet": 10.2,
+   "floors": 5,
+   "eaves": 19.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    120.9,
+    144.3,
+    136.4,
+    140.9,
+    134.7,
+    151.3,
+    123.6,
+    149.5,
+    123,
+    149.2,
+    122.4,
+    148.9,
+    121.9,
+    147.9
+   ],
+   "id": "henegouwenstraat-99-01",
+   "latLon": [
+    51.052286,
+    3.725241
+   ],
+   "photos": [
+    {
+     "id": "450884768017847-1",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.365,
+      0.643
+     ]
+    },
+    {
+     "id": "900678654600778-22",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.197,
+      0.736
+     ]
+    },
+    {
+     "id": "333853501431283-5",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.261,
+      0.758
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16122,
+   "at": [
+    142.6,
+    152.55
+   ],
+   "centre": [
+    144,
+    145.4
+   ],
+   "width": 16,
+   "faces": 99,
+   "toStreet": 9,
+   "floors": 5,
+   "eaves": 19.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    146.1,
+    138.7,
+    147,
+    144.1,
+    149.4,
+    143.8,
+    150.5,
+    153.8,
+    134.7,
+    151.3,
+    136.4,
+    140.9
+   ],
+   "id": "henegouwenstraat-99-02",
+   "latLon": [
+    51.052271,
+    3.725395
+   ],
+   "photos": [
+    {
+     "id": "1126188021697742-8",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.092,
+      0.909
+     ]
+    },
+    {
+     "id": "605473759053258-12",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.37,
+      0.632
+     ]
+    },
+    {
+     "id": "2075413005931753-2",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.148,
+      0.921
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16119,
+   "at": [
+    154.55,
+    154.45
+   ],
+   "centre": [
+    153.2,
+    146.9
+   ],
+   "width": 8.2,
+   "faces": 99,
+   "toStreet": 8.6,
+   "floors": 5,
+   "eaves": 20,
+   "top": 23.1,
+   "kind": "yes",
+   "ring": [
+    149.4,
+    141.3,
+    157.9,
+    140.6,
+    158.6,
+    155.1,
+    150.5,
+    153.8,
+    149.4,
+    143.8
+   ],
+   "id": "henegouwenstraat-99-03",
+   "latLon": [
+    51.052257,
+    3.725531
+   ],
+   "photos": [
+    {
+     "id": "342630348363195-346",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.348,
+      0.7
+     ]
+    },
+    {
+     "id": "294380625657921-19",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.289,
+      0.692
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16112,
+   "at": [
+    161.6,
+    155.6
+   ],
+   "centre": [
+    154.9,
+    136.9
+   ],
+   "width": 6.1,
+   "faces": 99,
+   "toStreet": 8.4,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    136.2,
+    127,
+    159.8,
+    121.5,
+    168.4,
+    120.4,
+    169,
+    120.8,
+    169.3,
+    130.1,
+    167.3,
+    154.2,
+    164.6,
+    156.1,
+    158.6,
+    155.1,
+    157.9,
+    140.6,
+    157.8,
+    138.4,
+    156,
+    138.4,
+    155.3,
+    131.1,
+    150.5,
+    132.3,
+    151.9,
+    138.4,
+    149.4,
+    141.3,
+    149.4,
+    143.8,
+    147,
+    144.1,
+    146.1,
+    138.7,
+    145.1,
+    132.6,
+    137.9,
+    133.9
+   ],
+   "id": "henegouwenstraat-99-04",
+   "latLon": [
+    51.052248,
+    3.725612
+   ],
+   "photos": [
+    {
+     "id": "342630348363195-25",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.345,
+      0.628
+     ]
+    },
+    {
+     "id": "251598066761381-14",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.339,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16394,
+   "at": [
+    229.15,
+    173.7
+   ],
+   "centre": [
+    230.7,
+    169.9
+   ],
+   "width": 8.6,
+   "faces": 106,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    224.4,
+    172.6,
+    228.3,
+    161.1,
+    232.7,
+    162.2,
+    231.4,
+    166.6,
+    235.2,
+    167.8,
+    235.7,
+    167.9,
+    233.7,
+    175.3,
+    233.2,
+    175.2,
+    233.3,
+    174.9,
+    225,
+    172.5,
+    224.9,
+    172.8
+   ],
+   "id": "henegouwenstraat-106-05",
+   "latLon": [
+    51.052118,
+    3.726384
+   ],
+   "photos": [
+    {
+     "id": "823762812938265-20",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.223,
+      0.759
+     ]
+    },
+    {
+     "id": "864377152031698-11",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.22,
+      0.813
+     ]
+    },
+    {
+     "id": "1198482658142210-23",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.213,
+      0.762
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16386,
+   "at": [
+    256.1,
+    182
+   ],
+   "centre": [
+    258.3,
+    174.7
+   ],
+   "width": 9.4,
+   "faces": 106,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 19.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    251.6,
+    180.7,
+    255.3,
+    168.1,
+    259.7,
+    169.7,
+    264.1,
+    171.8,
+    260.6,
+    183.3
+   ],
+   "id": "henegouwenstraat-106-06",
+   "latLon": [
+    51.052057,
+    3.726692
+   ],
+   "photos": [
+    {
+     "id": "1200388427992825-15",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.188,
+      0.814
+     ]
+    },
+    {
+     "id": "1238166570647434-22",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.093,
+      0.846
+     ]
+    },
+    {
+     "id": "842733824508677-22",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.143,
+      0.802
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16440,
+   "at": [
+    206.2,
+    168
+   ],
+   "centre": [
+    200.3,
+    150
+   ],
+   "width": 35.7,
+   "faces": 107,
+   "toStreet": 7.3,
+   "floors": 6,
+   "eaves": 23.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    183.3,
+    116.6,
+    179.8,
+    149.4,
+    179.4,
+    153.3,
+    178.6,
+    153.3,
+    178.2,
+    157.3,
+    178.2,
+    158.2,
+    178.6,
+    159.1,
+    179.2,
+    159.8,
+    180.1,
+    160.3,
+    189.1,
+    162.9,
+    223.3,
+    173.1,
+    223.5,
+    172.4,
+    224.4,
+    172.6,
+    228.3,
+    161.1,
+    212.4,
+    156.9,
+    213.6,
+    152.3,
+    219.1,
+    130.5,
+    217.6,
+    130.4,
+    217.5,
+    130.4,
+    219.1,
+    122.2,
+    203.5,
+    118.8
+   ],
+   "id": "henegouwenstraat-107-07",
+   "latLon": [
+    51.052159,
+    3.726122
+   ],
+   "photos": [
+    {
+     "id": "9118954274785623-17",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1185977826007138-18",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "833857118962919-4",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16391,
+   "at": [
+    238.1,
+    176.85
+   ],
+   "centre": [
+    239.1,
+    171
+   ],
+   "width": 9.4,
+   "faces": 107,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 19.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    233.7,
+    175.3,
+    235.7,
+    167.9,
+    236.1,
+    166.4,
+    240,
+    167.3,
+    241,
+    164.3,
+    246.3,
+    165.7,
+    242.7,
+    178,
+    242.6,
+    178.2,
+    233.6,
+    175.5
+   ],
+   "id": "henegouwenstraat-107-08",
+   "latLon": [
+    51.052095,
+    3.726486
+   ],
+   "photos": [
+    {
+     "id": "497485376597480-19",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.187,
+      0.813
+     ]
+    },
+    {
+     "id": "1090881025987324-26",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.091,
+      0.828
+     ]
+    },
+    {
+     "id": "1282248736487630-7",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.219,
+      0.864
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16389,
+   "at": [
+    247.14999999999998,
+    179.35
+   ],
+   "centre": [
+    249,
+    173.1
+   ],
+   "width": 9.3,
+   "faces": 107,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    242.7,
+    178,
+    246.3,
+    165.7,
+    255.3,
+    168.1,
+    251.6,
+    180.7
+   ],
+   "id": "henegouwenstraat-107-09",
+   "latLon": [
+    51.052077,
+    3.72659
+   ],
+   "photos": [
+    {
+     "id": "849867670621627-18",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.181,
+      0.815
+     ]
+    },
+    {
+     "id": "1044033743864146-8",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.215,
+      0.857
+     ]
+    },
+    {
+     "id": "890014419255861-26",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.895
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16382,
+   "at": [
+    268.85,
+    185.75
+   ],
+   "centre": [
+    272.7,
+    181.9
+   ],
+   "width": 17.2,
+   "faces": 107,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 19.4,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    260.6,
+    183.3,
+    264.1,
+    171.8,
+    282.1,
+    179,
+    279.5,
+    187,
+    277.1,
+    188.2
+   ],
+   "id": "henegouwenstraat-107-10",
+   "latLon": [
+    51.05203,
+    3.726838
+   ],
+   "photos": [
+    {
+     "id": "1184422732835199-18",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1719970778765564-9",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1227370348607974-8",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.032,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16357,
+   "at": [
+    322.85,
+    212.85000000000002
+   ],
+   "centre": [
+    326.1,
+    207.7
+   ],
+   "width": 9.8,
+   "faces": 120,
+   "toStreet": 8.3,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 20.1,
+   "kind": "house",
+   "ring": [
+    332.1,
+    206.9,
+    327.1,
+    215.3,
+    318.6,
+    210.4,
+    324.6,
+    201.1,
+    328.2,
+    204.7
+   ],
+   "id": "henegouwenstraat-120-01",
+   "latLon": [
+    51.051834,
+    3.727455
+   ],
+   "photos": [
+    {
+     "id": "4158640600823865-26",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.233,
+      0.794
+     ]
+    },
+    {
+     "id": "1295516431111933-58",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.844
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16379,
+   "at": [
+    298.85,
+    198.60000000000002
+   ],
+   "centre": [
+    311.3,
+    177
+   ],
+   "width": 22.7,
+   "faces": 121,
+   "toStreet": 8.3,
+   "floors": 6,
+   "eaves": 23.9,
+   "top": null,
+   "kind": "residential",
+   "ring": [
+    296.6,
+    164.2,
+    307,
+    167.2,
+    311.8,
+    163.3,
+    319.9,
+    168.3,
+    327.1,
+    172.8,
+    324,
+    178.2,
+    322.7,
+    177.4,
+    322.4,
+    178,
+    320.5,
+    176.9,
+    320.9,
+    176.2,
+    317.4,
+    174.4,
+    317.1,
+    175,
+    315.3,
+    173.9,
+    315.6,
+    173.2,
+    312,
+    171.1,
+    311.7,
+    171.7,
+    309.8,
+    170.6,
+    310,
+    170,
+    307.9,
+    168.8,
+    304.3,
+    180.5,
+    307.2,
+    182,
+    308.9,
+    179,
+    320,
+    185.4,
+    308.6,
+    204.4,
+    289.1,
+    192.8,
+    288.7,
+    192.3,
+    288.8,
+    191.6
+   ],
+   "id": "henegouwenstraat-121-02",
+   "latLon": [
+    51.051937,
+    3.727181
+   ],
+   "photos": [
+    {
+     "id": "2895456020782497",
+     "metres": 24,
+     "off": 3,
+     "span": [
+      0.357,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16375,
+   "at": [
+    311.9,
+    206.35000000000002
+   ],
+   "centre": [
+    318.8,
+    193.3
+   ],
+   "width": 7.7,
+   "faces": 121,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 18.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    308.6,
+    204.4,
+    320,
+    185.4,
+    320.3,
+    184.9,
+    322.7,
+    186.3,
+    325.8,
+    190.4,
+    315.2,
+    208.3
+   ],
+   "id": "henegouwenstraat-121-03",
+   "latLon": [
+    51.051881,
+    3.72733
+   ],
+   "photos": [
+    {
+     "id": "466659731112026",
+     "metres": 35,
+     "off": 20,
+     "span": [
+      0.619,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16356,
+   "at": [
+    330.45000000000005,
+    217.3
+   ],
+   "centre": [
+    333,
+    211.4
+   ],
+   "width": 7.8,
+   "faces": 121,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 18.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    327.1,
+    215.3,
+    332.1,
+    206.9,
+    332.9,
+    205.5,
+    339.3,
+    210,
+    333.8,
+    219.3
+   ],
+   "id": "henegouwenstraat-121-04",
+   "latLon": [
+    51.051802,
+    3.727542
+   ],
+   "photos": [
+    {
+     "id": "885522786548436-3",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.234,
+      1
+     ]
+    },
+    {
+     "id": "1918011618348876-46",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.269,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16355,
+   "at": [
+    336.85,
+    221.10000000000002
+   ],
+   "centre": [
+    339.5,
+    216.4
+   ],
+   "width": 7.1,
+   "faces": 121,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 18.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    333.8,
+    219.3,
+    339.3,
+    210,
+    345.2,
+    213.5,
+    339.9,
+    222.9
+   ],
+   "id": "henegouwenstraat-121-05",
+   "latLon": [
+    51.051775,
+    3.727615
+   ],
+   "photos": [
+    {
+     "id": "787196085288854-22",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.314,
+      0.709
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16354,
+   "at": [
+    343.85,
+    225.25
+   ],
+   "centre": [
+    352.2,
+    214.4
+   ],
+   "width": 9.2,
+   "faces": 121,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    339.9,
+    222.9,
+    345.2,
+    213.5,
+    346.6,
+    211.1,
+    348.1,
+    209.8,
+    363.7,
+    197.2,
+    369.9,
+    204.8,
+    357.5,
+    215,
+    353.1,
+    218.5,
+    350,
+    223.8,
+    347.8,
+    227.6
+   ],
+   "id": "henegouwenstraat-121-06",
+   "latLon": [
+    51.051745,
+    3.727695
+   ],
+   "photos": [
+    {
+     "id": "3683869055267630-38",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.937
+     ]
+    },
+    {
+     "id": "3767536060036027-39",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.223,
+      0.743
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16353,
+   "at": [
+    352.1,
+    230.14999999999998
+   ],
+   "centre": [
+    359.2,
+    220.5
+   ],
+   "width": 10,
+   "faces": 121,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    347.8,
+    227.6,
+    350,
+    223.8,
+    353.9,
+    226.2,
+    359.8,
+    218.1,
+    357.5,
+    215,
+    369.9,
+    204.8,
+    376.3,
+    212.3,
+    361.1,
+    224.4,
+    356.4,
+    232.7
+   ],
+   "id": "henegouwenstraat-121-07",
+   "latLon": [
+    51.051709,
+    3.72779
+   ],
+   "photos": [
+    {
+     "id": "2806678856313330-31",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.211,
+      0.785
+     ]
+    },
+    {
+     "id": "354169043986618-359",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.246,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16352,
+   "at": [
+    367.9,
+    239.5
+   ],
+   "centre": [
+    372.8,
+    229.1
+   ],
+   "width": 26.7,
+   "faces": 121,
+   "toStreet": 8.5,
+   "floors": 6,
+   "eaves": 24,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    356.4,
+    232.7,
+    361.1,
+    224.4,
+    376.3,
+    212.3,
+    390.7,
+    229.6,
+    379.4,
+    246.3
+   ],
+   "id": "henegouwenstraat-121-08",
+   "latLon": [
+    51.051641,
+    3.72797
+   ],
+   "photos": [
+    {
+     "id": "6991440104281557-44",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1171898319942330-24",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16373,
+   "at": [
+    316.9,
+    209.35000000000002
+   ],
+   "centre": [
+    324,
+    199.9
+   ],
+   "width": 4,
+   "faces": 122,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    315.2,
+    208.3,
+    325.8,
+    190.4,
+    330.5,
+    195.2,
+    326.6,
+    198.6,
+    324.9,
+    197.3,
+    324.2,
+    198.3,
+    325.8,
+    199.3,
+    324.6,
+    201.1,
+    318.6,
+    210.4
+   ],
+   "id": "henegouwenstraat-122-09",
+   "latLon": [
+    51.05186,
+    3.727387
+   ],
+   "photos": [
+    {
+     "id": "1407725996293162-18",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.4,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16447,
+   "at": [
+    145.6,
+    177.8
+   ],
+   "centre": [
+    153.7,
+    184.5
+   ],
+   "width": 17.9,
+   "faces": 252,
+   "toStreet": 15.6,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": 17.9,
+   "kind": "apartments",
+   "ring": [
+    137.1,
+    180.6,
+    143.8,
+    194.9,
+    158.6,
+    190.6,
+    159.9,
+    190.2,
+    157.6,
+    183.4,
+    158.6,
+    183,
+    158,
+    181.5,
+    155.8,
+    181.7,
+    154.1,
+    175
+   ],
+   "id": "henegouwenstraat-252-01",
+   "latLon": [
+    51.052088,
+    3.725429
+   ],
+   "photos": [
+    {
+     "id": "829466251338358",
+     "metres": 27,
+     "off": 3,
+     "span": [
+      0.351,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16092,
+   "at": [
+    150.3,
+    170.55
+   ],
+   "centre": [
+    155.8,
+    177.9
+   ],
+   "width": 28.6,
+   "faces": 277,
+   "toStreet": 7.9,
+   "floors": 8,
+   "eaves": 29.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    164.1,
+    189,
+    164.8,
+    180.1,
+    164.9,
+    179.1,
+    164.6,
+    179.1,
+    165.2,
+    173.3,
+    165.5,
+    173.3,
+    165.6,
+    172.2,
+    164.5,
+    172.4,
+    136.1,
+    168.7,
+    135,
+    168.2,
+    132.8,
+    171.4,
+    137.1,
+    180.6,
+    154.1,
+    175,
+    155.8,
+    181.7,
+    158,
+    181.5,
+    158.6,
+    183,
+    157.6,
+    183.4,
+    159.9,
+    190.2
+   ],
+   "id": "henegouwenstraat-277-02",
+   "latLon": [
+    51.05214,
+    3.725483
+   ],
+   "photos": [
+    {
+     "id": "1532996364046357",
+     "metres": 42,
+     "off": 8,
+     "span": [
+      0.343,
+      0.548
+     ]
+    },
+    {
+     "id": "460222255240689",
+     "metres": 32,
+     "off": 14,
+     "span": [
+      0.264,
+      0.531
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16384,
+   "at": [
+    266.8,
+    201.89999999999998
+   ],
+   "centre": [
+    270.5,
+    205.1
+   ],
+   "width": 9.8,
+   "faces": 285,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    259.5,
+    208.5,
+    262.1,
+    200.6,
+    271.5,
+    203.2,
+    271.8,
+    203.1,
+    271.9,
+    203.3,
+    272,
+    203.5,
+    271.8,
+    203.6,
+    272.8,
+    205.5,
+    273,
+    205.5,
+    273.2,
+    205.7,
+    273.2,
+    205.9,
+    273,
+    206.1,
+    270.8,
+    211.7
+   ],
+   "id": "henegouwenstraat-285-03",
+   "latLon": [
+    51.051913,
+    3.726814
+   ],
+   "photos": [
+    {
+     "id": "1107146084266035-192",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.231,
+      0.786
+     ]
+    },
+    {
+     "id": "1227370348607974-187",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.239,
+      0.808
+     ]
+    },
+    {
+     "id": "523651323646774-202",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.222,
+      0.751
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16399,
+   "at": [
+    191.5,
+    179.75
+   ],
+   "centre": [
+    188.6,
+    189.7
+   ],
+   "width": 6.2,
+   "faces": 286,
+   "toStreet": 8.2,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    182.8,
+    199,
+    188.5,
+    178.9,
+    194.5,
+    180.6,
+    188.6,
+    200.4
+   ],
+   "id": "henegouwenstraat-286-04",
+   "latLon": [
+    51.052074,
+    3.725954
+   ],
+   "photos": [
+    {
+     "id": "1196740934709237",
+     "metres": 15,
+     "off": 11,
+     "span": [
+      0.341,
+      0.472
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16397,
+   "at": [
+    209,
+    184.9
+   ],
+   "centre": [
+    208,
+    194.8
+   ],
+   "width": 18.4,
+   "faces": 286,
+   "toStreet": 8.1,
+   "floors": 7,
+   "eaves": 25.6,
+   "top": 28.7,
+   "kind": "house",
+   "ring": [
+    194.4,
+    201.8,
+    200.2,
+    182.3,
+    217.8,
+    187.5,
+    215.4,
+    196,
+    212.4,
+    206.2
+   ],
+   "id": "henegouwenstraat-286-05",
+   "latLon": [
+    51.052036,
+    3.726154
+   ],
+   "photos": [
+    {
+     "id": "1449642122331375-199",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "526575886406273-188",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.045,
+      1
+     ]
+    },
+    {
+     "id": "300264939673313-200",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.068,
+      0.892
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16392,
+   "at": [
+    239.55,
+    194
+   ],
+   "centre": [
+    237.8,
+    198.2
+   ],
+   "width": 9.5,
+   "faces": 286,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    232.5,
+    200.9,
+    235,
+    192.7,
+    244.1,
+    195.3,
+    242.6,
+    200.1,
+    236.6,
+    198.5,
+    235.7,
+    201.8
+   ],
+   "id": "henegouwenstraat-286-06",
+   "latLon": [
+    51.051971,
+    3.726503
+   ],
+   "photos": [
+    {
+     "id": "1111823053949829-195",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.239,
+      0.761
+     ]
+    },
+    {
+     "id": "847450264153529-199",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.265,
+      0.731
+     ]
+    },
+    {
+     "id": "461889296813160-189",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.252,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16390,
+   "at": [
+    248.64999999999998,
+    196.60000000000002
+   ],
+   "centre": [
+    246.5,
+    200.6
+   ],
+   "width": 9.5,
+   "faces": 286,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    242.6,
+    200.1,
+    244.1,
+    195.3,
+    253.2,
+    197.9,
+    250.9,
+    206.1,
+    241.6,
+    203.5
+   ],
+   "id": "henegouwenstraat-286-07",
+   "latLon": [
+    51.051952,
+    3.726607
+   ],
+   "photos": [
+    {
+     "id": "1559910131280160-192",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.238,
+      0.783
+     ]
+    },
+    {
+     "id": "1250649039461415-203",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.225,
+      0.75
+     ]
+    },
+    {
+     "id": "542745764863601-190",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.277,
+      0.741
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16096,
+   "at": [
+    265.15,
+    210.1
+   ],
+   "centre": [
+    249.6,
+    212.2
+   ],
+   "width": 11.7,
+   "faces": 286,
+   "toStreet": 16.3,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    239.9,
+    203,
+    241.6,
+    203.5,
+    250.9,
+    206.1,
+    259.5,
+    208.5,
+    270.8,
+    211.7,
+    263.8,
+    232.1,
+    243.6,
+    226.7,
+    247.4,
+    213,
+    244.9,
+    212.2,
+    245.1,
+    209.9,
+    238.4,
+    208
+   ],
+   "id": "henegouwenstraat-286-08",
+   "latLon": [
+    51.051854,
+    3.726796
+   ],
+   "photos": [
+    {
+     "id": "523651323646774-197",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.334,
+      0.667
+     ]
+    },
+    {
+     "id": "888551425977812-200",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.327,
+      0.673
+     ]
+    },
+    {
+     "id": "1107146084266035-192",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.332,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16400,
+   "at": [
+    183.95,
+    177.55
+   ],
+   "centre": [
+    179.7,
+    183.2
+   ],
+   "width": 9.5,
+   "faces": 287,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 19.3,
+   "top": 21.4,
+   "kind": "house",
+   "ring": [
+    188.5,
+    178.9,
+    182.8,
+    199,
+    174.9,
+    197.1,
+    176.6,
+    178,
+    176.4,
+    177.6,
+    179.1,
+    175.8,
+    179.4,
+    176.2
+   ],
+   "id": "henegouwenstraat-287-09",
+   "latLon": [
+    51.05209,
+    3.725867
+   ],
+   "photos": [
+    {
+     "id": "1548248659430495",
+     "metres": 17,
+     "off": 3,
+     "span": [
+      0.369,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16398,
+   "at": [
+    197.35,
+    181.45
+   ],
+   "centre": [
+    194.4,
+    191.3
+   ],
+   "width": 5.9,
+   "faces": 287,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 19.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    188.6,
+    200.4,
+    194.5,
+    180.6,
+    200.2,
+    182.3,
+    194.4,
+    201.8
+   ],
+   "id": "henegouwenstraat-287-10",
+   "latLon": [
+    51.052061,
+    3.72602
+   ],
+   "photos": [
+    {
+     "id": "1196740934709237",
+     "metres": 19,
+     "off": 21,
+     "span": [
+      0.252,
+      0.34
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16395,
+   "at": [
+    222.55,
+    188.95
+   ],
+   "centre": [
+    222.4,
+    194.8
+   ],
+   "width": 9.9,
+   "faces": 287,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 20.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    215.4,
+    196,
+    217.8,
+    187.5,
+    227.3,
+    190.4,
+    225.8,
+    195.3,
+    225.6,
+    196.1,
+    223.3,
+    195.5,
+    222.8,
+    197.3,
+    221.8,
+    197,
+    221.7,
+    197.9
+   ],
+   "id": "henegouwenstraat-287-11",
+   "latLon": [
+    51.052007,
+    3.726309
+   ],
+   "photos": [
+    {
+     "id": "1198482658142210-203",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.206,
+      0.761
+     ]
+    },
+    {
+     "id": "1250461676380861-189",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.258,
+      0.793
+     ]
+    },
+    {
+     "id": "1260803678617474-189",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.244,
+      0.803
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16393,
+   "at": [
+    231.15,
+    191.55
+   ],
+   "centre": [
+    229.4,
+    195.8
+   ],
+   "width": 8,
+   "faces": 287,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    225.8,
+    195.3,
+    227.3,
+    190.4,
+    235,
+    192.7,
+    232.5,
+    200.9,
+    227.3,
+    199.4,
+    228.5,
+    196
+   ],
+   "id": "henegouwenstraat-287-12",
+   "latLon": [
+    51.051988,
+    3.726407
+   ],
+   "photos": [
+    {
+     "id": "836841938631203-196",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.275,
+      0.737
+     ]
+    },
+    {
+     "id": "1703992823786893-195",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.284,
+      0.733
+     ]
+    },
+    {
+     "id": "2783621885138732-194",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.284,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16387,
+   "at": [
+    257.65,
+    199.25
+   ],
+   "centre": [
+    256.4,
+    203.3
+   ],
+   "width": 9.3,
+   "faces": 287,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 15,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    250.9,
+    206.1,
+    253.2,
+    197.9,
+    262.1,
+    200.6,
+    259.5,
+    208.5
+   ],
+   "id": "henegouwenstraat-287-13",
+   "latLon": [
+    51.051933,
+    3.72671
+   ],
+   "photos": [
+    {
+     "id": "448808774845365-199",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.237,
+      0.747
+     ]
+    },
+    {
+     "id": "859633776385008-203",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.237,
+      0.729
+     ]
+    },
+    {
+     "id": "8204900996290621-204",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.214,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40501,
+   "at": [
+    350,
+    247.65
+   ],
+   "centre": [
+    293.1,
+    258.9
+   ],
+   "width": 48.8,
+   "faces": 301,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    371,
+    260.1,
+    329,
+    235.2,
+    329.2,
+    235,
+    325.4,
+    232.7,
+    325.3,
+    233,
+    293.8,
+    214.4,
+    293.9,
+    214.1,
+    287.4,
+    210.3,
+    287.1,
+    209.5,
+    283.5,
+    210.8,
+    283.8,
+    211.6,
+    281.5,
+    218.7,
+    281.9,
+    218.8,
+    276,
+    237,
+    275.7,
+    236.9,
+    272.8,
+    246,
+    272.5,
+    246,
+    272.1,
+    247.8,
+    271.6,
+    247.8,
+    271.3,
+    248.4,
+    271.4,
+    249,
+    271.7,
+    249.3,
+    270.6,
+    253.7,
+    270,
+    254,
+    269.7,
+    254.6,
+    269.9,
+    255.2,
+    270.1,
+    255.2,
+    269.6,
+    257,
+    270,
+    257.1,
+    267.5,
+    266.3,
+    267.9,
+    266.4,
+    261.8,
+    289.9,
+    262,
+    290,
+    258.3,
+    304.1,
+    261.3,
+    309,
+    268.4,
+    310.9,
+    273.4,
+    292.8,
+    278.1,
+    294.1,
+    280.7,
+    284.9,
+    326.9,
+    296.8,
+    326.3,
+    299.1,
+    324.4,
+    298.9,
+    320.5,
+    313.3,
+    337.4,
+    317.7,
+    346,
+    286.2,
+    334,
+    283.1,
+    340.5,
+    257.8,
+    341.8,
+    255.6,
+    365.2,
+    269.7
+   ],
+   "id": "henegouwenstraat-301-01",
+   "latLon": [
+    51.051582,
+    3.727766
+   ],
+   "photos": [
+    {
+     "id": "354169043986618-191",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "310349660781538-195",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1536582173916897-193",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.2,
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

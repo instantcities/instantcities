@@ -1,0 +1,8085 @@
+{
+ "city": "ghent",
+ "street": "Sint-Denijslaan",
+ "slug": "sint-denijslaan",
+ "photos": {
+  "32150671897911897": {
+   "file": "photos/32150671897911897.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=32150671897911897",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0363267,
+    3.6982134,
+    8,
+    0.478
+   ]
+  },
+  "845377348014205": {
+   "file": "photos/845377348014205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845377348014205",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0363246,
+    3.6982128,
+    7,
+    0.478
+   ]
+  },
+  "819443867503207": {
+   "file": "photos/819443867503207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=819443867503207",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0362306,
+    3.698236,
+    347,
+    0.478
+   ]
+  },
+  "1314059046670634": {
+   "file": "photos/1314059046670634.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1314059046670634",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0362423,
+    3.6982298,
+    347,
+    0.478
+   ]
+  },
+  "1154954660074869": {
+   "file": "photos/1154954660074869.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154954660074869",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0362535,
+    3.6982243,
+    348,
+    0.478
+   ]
+  },
+  "1858272764786935": {
+   "file": "photos/1858272764786935.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1858272764786935",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0362644,
+    3.6982199,
+    350,
+    0.478
+   ]
+  },
+  "3957863101026098": {
+   "file": "photos/3957863101026098.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3957863101026098",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0365722,
+    3.6992145,
+    28,
+    0.48
+   ]
+  },
+  "660663146455090-340": {
+   "file": "photos/660663146455090-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=660663146455090",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0355024,
+    3.7074541,
+    340,
+    0.5
+   ]
+  },
+  "1129951572205708": {
+   "file": "photos/1129951572205708.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1129951572205708",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-11-04",
+   "cam": [
+    51.0345376,
+    3.6991266,
+    138,
+    0.48
+   ]
+  },
+  "474850455265126": {
+   "file": "photos/474850455265126.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=474850455265126",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0366033,
+    3.7035859,
+    194,
+    0.331
+   ]
+  },
+  "981157100415074": {
+   "file": "photos/981157100415074.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=981157100415074",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0365621,
+    3.7037325,
+    198,
+    0.331
+   ]
+  },
+  "992071249306363": {
+   "file": "photos/992071249306363.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=992071249306363",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0370706,
+    3.7015129,
+    189,
+    0.331
+   ]
+  },
+  "651432397356816": {
+   "file": "photos/651432397356816.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651432397356816",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-06-04",
+   "cam": [
+    51.0370432,
+    3.7014438,
+    201,
+    0.361
+   ]
+  },
+  "1439611067432494": {
+   "file": "photos/1439611067432494.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1439611067432494",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0370356,
+    3.7016921,
+    191,
+    0.331
+   ]
+  },
+  "145079624725477-201": {
+   "file": "photos/145079624725477-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=145079624725477",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0345258,
+    3.7117967,
+    201,
+    0.5
+   ]
+  },
+  "1160454855870638-177": {
+   "file": "photos/1160454855870638-177.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160454855870638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.034539,
+    3.7117479,
+    177,
+    0.5
+   ]
+  },
+  "1215779319622508": {
+   "file": "photos/1215779319622508.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1215779319622508",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0368554,
+    3.7024794,
+    193,
+    0.331
+   ]
+  },
+  "1056617495890780": {
+   "file": "photos/1056617495890780.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1056617495890780",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-06-04",
+   "cam": [
+    51.0368498,
+    3.7024416,
+    199,
+    0.361
+   ]
+  },
+  "2468248816700444": {
+   "file": "photos/2468248816700444.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2468248816700444",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0368201,
+    3.7026374,
+    193,
+    0.331
+   ]
+  },
+  "1374456606891487-184": {
+   "file": "photos/1374456606891487-184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1374456606891487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0359114,
+    3.7055476,
+    184,
+    0.5
+   ]
+  },
+  "650652277664177-168": {
+   "file": "photos/650652277664177-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=650652277664177",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0359302,
+    3.7054762,
+    168,
+    0.5
+   ]
+  },
+  "9506096122769287-224": {
+   "file": "photos/9506096122769287-224.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9506096122769287",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0356853,
+    3.7065877,
+    224,
+    0.5
+   ]
+  },
+  "1667479827491531-222": {
+   "file": "photos/1667479827491531-222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1667479827491531",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.035649,
+    3.7067557,
+    222,
+    0.5
+   ]
+  },
+  "962498456035875-237": {
+   "file": "photos/962498456035875-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=962498456035875",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0346086,
+    3.7114644,
+    237,
+    0.5
+   ]
+  },
+  "395218832456298-163": {
+   "file": "photos/395218832456298-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=395218832456298",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.034637,
+    3.7112751,
+    163,
+    0.5
+   ]
+  },
+  "962498456035875-181": {
+   "file": "photos/962498456035875-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=962498456035875",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0346086,
+    3.7114644,
+    181,
+    0.5
+   ]
+  },
+  "683886142731327-172": {
+   "file": "photos/683886142731327-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683886142731327",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0346031,
+    3.7114433,
+    172,
+    0.5
+   ]
+  },
+  "1399076751543357-201": {
+   "file": "photos/1399076751543357-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1399076751543357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0345749,
+    3.7116012,
+    201,
+    0.5
+   ]
+  },
+  "167144169025014-210": {
+   "file": "photos/167144169025014-210.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=167144169025014",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0345679,
+    3.7116185,
+    210,
+    0.5
+   ]
+  },
+  "2021207901686945-203": {
+   "file": "photos/2021207901686945-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2021207901686945",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0345041,
+    3.7118888,
+    203,
+    0.5
+   ]
+  },
+  "1691102207895279-231": {
+   "file": "photos/1691102207895279-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1691102207895279",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0345007,
+    3.7119651,
+    231,
+    0.5
+   ]
+  },
+  "980757644192890-178": {
+   "file": "photos/980757644192890-178.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=980757644192890",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0344362,
+    3.7121004,
+    178,
+    0.5
+   ]
+  },
+  "799689164338398-192": {
+   "file": "photos/799689164338398-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=799689164338398",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0344679,
+    3.7121314,
+    192,
+    0.5
+   ]
+  },
+  "814333719530464-206": {
+   "file": "photos/814333719530464-206.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=814333719530464",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0344308,
+    3.7122943,
+    206,
+    0.5
+   ]
+  },
+  "814333719530464-170": {
+   "file": "photos/814333719530464-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=814333719530464",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0344308,
+    3.7122943,
+    170,
+    0.5
+   ]
+  },
+  "616138133057215-203": {
+   "file": "photos/616138133057215-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=616138133057215",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0343972,
+    3.7124603,
+    203,
+    0.5
+   ]
+  },
+  "616138133057215-169": {
+   "file": "photos/616138133057215-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=616138133057215",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0343972,
+    3.7124603,
+    169,
+    0.5
+   ]
+  },
+  "719017085807704-204": {
+   "file": "photos/719017085807704-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=719017085807704",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0343689,
+    3.7126284,
+    204,
+    0.5
+   ]
+  },
+  "514437003072230": {
+   "file": "photos/514437003072230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=514437003072230",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-09",
+   "cam": [
+    51.0343518,
+    3.7128982,
+    228,
+    1.001
+   ]
+  },
+  "382114990699069": {
+   "file": "photos/382114990699069.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=382114990699069",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0344852,
+    3.7130324,
+    186,
+    0.756
+   ]
+  },
+  "954640621992955": {
+   "file": "photos/954640621992955.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=954640621992955",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-09",
+   "cam": [
+    51.0342985,
+    3.7130184,
+    235,
+    1.001
+   ]
+  },
+  "1164613620755927": {
+   "file": "photos/1164613620755927.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1164613620755927",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0344167,
+    3.7132374,
+    185,
+    0.756
+   ]
+  },
+  "1753004081744891": {
+   "file": "photos/1753004081744891.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1753004081744891",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0343895,
+    3.7133076,
+    185,
+    0.756
+   ]
+  },
+  "745193890062919": {
+   "file": "photos/745193890062919.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=745193890062919",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0343625,
+    3.7133783,
+    185,
+    0.756
+   ]
+  },
+  "534502991789115": {
+   "file": "photos/534502991789115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534502991789115",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.034337,
+    3.7134464,
+    184,
+    0.756
+   ]
+  },
+  "1107684999844517": {
+   "file": "photos/1107684999844517.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1107684999844517",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0343379,
+    3.7136865,
+    167,
+    0.76
+   ]
+  },
+  "4223883317736648": {
+   "file": "photos/4223883317736648.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4223883317736648",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0343239,
+    3.7137704,
+    175,
+    0.76
+   ]
+  },
+  "1037428360266189": {
+   "file": "photos/1037428360266189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1037428360266189",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0342936,
+    3.7139038,
+    175,
+    0.76
+   ]
+  },
+  "1166022444266876": {
+   "file": "photos/1166022444266876.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1166022444266876",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0342677,
+    3.7140138,
+    175,
+    0.76
+   ]
+  },
+  "3377388149141254": {
+   "file": "photos/3377388149141254.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3377388149141254",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0342233,
+    3.714136,
+    174,
+    0.76
+   ]
+  },
+  "415057353802582": {
+   "file": "photos/415057353802582.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=415057353802582",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0341878,
+    3.7142877,
+    173,
+    0.76
+   ]
+  },
+  "1215734316549734": {
+   "file": "photos/1215734316549734.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1215734316549734",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-26",
+   "cam": [
+    51.0342668,
+    3.7146678,
+    205,
+    0.409
+   ]
+  },
+  "767145154404898": {
+   "file": "photos/767145154404898.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=767145154404898",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0341572,
+    3.7144156,
+    173,
+    0.76
+   ]
+  },
+  "458072208596298": {
+   "file": "photos/458072208596298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=458072208596298",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-09",
+   "cam": [
+    51.0339907,
+    3.7146312,
+    222,
+    0.994
+   ]
+  },
+  "677286014958065": {
+   "file": "photos/677286014958065.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=677286014958065",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-26",
+   "cam": [
+    51.0341817,
+    3.7149603,
+    205,
+    0.409
+   ]
+  },
+  "6119295178096954": {
+   "file": "photos/6119295178096954.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=6119295178096954",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0340995,
+    3.7146825,
+    173,
+    0.76
+   ]
+  },
+  "1095771535649735": {
+   "file": "photos/1095771535649735.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1095771535649735",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-26",
+   "cam": [
+    51.0341256,
+    3.7151539,
+    205,
+    0.409
+   ]
+  },
+  "3127545504222092": {
+   "file": "photos/3127545504222092.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3127545504222092",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0340819,
+    3.7147499,
+    173,
+    0.76
+   ]
+  },
+  "209727577429951": {
+   "file": "photos/209727577429951.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=209727577429951",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0338915,
+    3.715407,
+    238,
+    0.482
+   ]
+  },
+  "606712448490548": {
+   "file": "photos/606712448490548.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=606712448490548",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-06-04",
+   "cam": [
+    51.0369318,
+    3.7019619,
+    201,
+    0.361
+   ]
+  },
+  "1916555652130461": {
+   "file": "photos/1916555652130461.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1916555652130461",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0370031,
+    3.7018584,
+    191,
+    0.331
+   ]
+  },
+  "454080537471256": {
+   "file": "photos/454080537471256.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=454080537471256",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0369716,
+    3.7019953,
+    194,
+    0.331
+   ]
+  },
+  "1676749482865159": {
+   "file": "photos/1676749482865159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1676749482865159",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0369256,
+    3.7021623,
+    197,
+    0.331
+   ]
+  },
+  "468120642824901": {
+   "file": "photos/468120642824901.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=468120642824901",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.03689,
+    3.702321,
+    193,
+    0.331
+   ]
+  },
+  "946825920523267": {
+   "file": "photos/946825920523267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=946825920523267",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0366747,
+    3.703274,
+    194,
+    0.331
+   ]
+  },
+  "1374456606891487-207": {
+   "file": "photos/1374456606891487-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1374456606891487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0359114,
+    3.7055476,
+    207,
+    0.5
+   ]
+  },
+  "650652277664177-188": {
+   "file": "photos/650652277664177-188.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=650652277664177",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0359302,
+    3.7054762,
+    188,
+    0.5
+   ]
+  },
+  "515199208043849-217": {
+   "file": "photos/515199208043849-217.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515199208043849",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0358316,
+    3.7059373,
+    217,
+    0.5
+   ]
+  },
+  "515199208043849-183": {
+   "file": "photos/515199208043849-183.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=515199208043849",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0358316,
+    3.7059373,
+    183,
+    0.5
+   ]
+  },
+  "2943724012475146-199": {
+   "file": "photos/2943724012475146-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2943724012475146",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0358025,
+    3.7060775,
+    199,
+    0.5
+   ]
+  },
+  "1304208320658338-216": {
+   "file": "photos/1304208320658338-216.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304208320658338",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0357724,
+    3.7062149,
+    216,
+    0.5
+   ]
+  },
+  "1304208320658338-188": {
+   "file": "photos/1304208320658338-188.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304208320658338",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0357724,
+    3.7062149,
+    188,
+    0.5
+   ]
+  },
+  "1820024475461360-198": {
+   "file": "photos/1820024475461360-198.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1820024475461360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0357207,
+    3.7064188,
+    198,
+    0.5
+   ]
+  },
+  "9506096122769287-194": {
+   "file": "photos/9506096122769287-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9506096122769287",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0356853,
+    3.7065877,
+    194,
+    0.5
+   ]
+  },
+  "1667479827491531-193": {
+   "file": "photos/1667479827491531-193.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1667479827491531",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.035649,
+    3.7067557,
+    193,
+    0.5
+   ]
+  },
+  "643719605057032-220": {
+   "file": "photos/643719605057032-220.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=643719605057032",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0355767,
+    3.7071063,
+    220,
+    0.5
+   ]
+  },
+  "643719605057032-198": {
+   "file": "photos/643719605057032-198.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=643719605057032",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0355767,
+    3.7071063,
+    198,
+    0.5
+   ]
+  },
+  "1230670552112998-216": {
+   "file": "photos/1230670552112998-216.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1230670552112998",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0354812,
+    3.7070867,
+    216,
+    0.5
+   ]
+  },
+  "3956425224573798-183": {
+   "file": "photos/3956425224573798-183.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3956425224573798",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0355387,
+    3.7072812,
+    183,
+    0.5
+   ]
+  },
+  "749836382685756-182": {
+   "file": "photos/749836382685756-182.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=749836382685756",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0346867,
+    3.7109873,
+    182,
+    0.5
+   ]
+  },
+  "9185410271570793-225": {
+   "file": "photos/9185410271570793-225.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9185410271570793",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.034682,
+    3.7110796,
+    225,
+    0.5
+   ]
+  },
+  "300923238739647-199": {
+   "file": "photos/300923238739647-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=300923238739647",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0346674,
+    3.7111223,
+    199,
+    0.5
+   ]
+  },
+  "9185410271570793-178": {
+   "file": "photos/9185410271570793-178.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9185410271570793",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.034682,
+    3.7110796,
+    178,
+    0.5
+   ]
+  },
+  "1565214517476442-205": {
+   "file": "photos/1565214517476442-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1565214517476442",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0346523,
+    3.7112173,
+    205,
+    0.5
+   ]
+  },
+  "395218832456298-231": {
+   "file": "photos/395218832456298-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=395218832456298",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.034637,
+    3.7112751,
+    231,
+    0.5
+   ]
+  },
+  "395218832456298-196": {
+   "file": "photos/395218832456298-196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=395218832456298",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.034637,
+    3.7112751,
+    196,
+    0.5
+   ]
+  },
+  "1565214517476442-170": {
+   "file": "photos/1565214517476442-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1565214517476442",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0346523,
+    3.7112173,
+    170,
+    0.5
+   ]
+  },
+  "962498456035875-213": {
+   "file": "photos/962498456035875-213.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=962498456035875",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0346086,
+    3.7114644,
+    213,
+    0.5
+   ]
+  },
+  "683886142731327-207": {
+   "file": "photos/683886142731327-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683886142731327",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0346031,
+    3.7114433,
+    207,
+    0.5
+   ]
+  },
+  "1160454855870638-224": {
+   "file": "photos/1160454855870638-224.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160454855870638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.034539,
+    3.7117479,
+    224,
+    0.5
+   ]
+  },
+  "167144169025014-166": {
+   "file": "photos/167144169025014-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=167144169025014",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0345679,
+    3.7116185,
+    166,
+    0.5
+   ]
+  },
+  "296435465407414": {
+   "file": "photos/296435465407414.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=296435465407414",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-09",
+   "cam": [
+    51.034332,
+    3.7128814,
+    201,
+    1.001
+   ]
+  },
+  "805027645157505": {
+   "file": "photos/805027645157505.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=805027645157505",
+   "author": "RaphaelPasLoin",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-07-20",
+   "cam": [
+    51.0367446,
+    3.7029691,
+    194,
+    0.331
+   ]
+  },
+  "1479546413407705": {
+   "file": "photos/1479546413407705.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1479546413407705",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-06-04",
+   "cam": [
+    51.0367725,
+    3.7029442,
+    200,
+    0.361
+   ]
+  },
+  "1537556860274255-200": {
+   "file": "photos/1537556860274255-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1537556860274255",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0356126,
+    3.7069305,
+    200,
+    0.5
+   ]
+  },
+  "1834662543961243": {
+   "file": "photos/1834662543961243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1834662543961243",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-26",
+   "cam": [
+    51.0342101,
+    3.7148635,
+    205,
+    0.409
+   ]
+  },
+  "741938443889795": {
+   "file": "photos/741938443889795.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=741938443889795",
+   "author": "miguel_andrade",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-11",
+   "cam": [
+    51.0341278,
+    3.7145478,
+    173,
+    0.76
+   ]
+  },
+  "2828352187381556": {
+   "file": "photos/2828352187381556.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2828352187381556",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-09",
+   "cam": [
+    51.0339887,
+    3.7146311,
+    205,
+    0.994
+   ]
+  },
+  "494344518542498": {
+   "file": "photos/494344518542498.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=494344518542498",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-07",
+   "cam": [
+    51.0355656,
+    3.7077077,
+    195,
+    0.432
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 873,
+   "at": [
+    -2187.5,
+    2551.3999999999996
+   ],
+   "centre": [
+    -2195.8,
+    2553.8
+   ],
+   "width": 6.5,
+   "faces": 9,
+   "toStreet": 11.5,
+   "floors": 2,
+   "eaves": 6.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2206.7,
+    2560.9,
+    -2198.4,
+    2562.4,
+    -2197.6,
+    2557.9,
+    -2194.4,
+    2558.3,
+    -2193.6,
+    2553.6,
+    -2188,
+    2554.6,
+    -2187,
+    2548.2,
+    -2193.7,
+    2547.1,
+    -2193.9,
+    2548,
+    -2204.5,
+    2546.5
+   ],
+   "id": "sint-denijslaan-9-01",
+   "latLon": [
+    51.034915,
+    3.698757
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1425,
+   "at": [
+    -2227.75,
+    2319.3
+   ],
+   "centre": [
+    -2232.6,
+    2306.9
+   ],
+   "width": 4.9,
+   "faces": 58,
+   "toStreet": 18.9,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2239.2,
+    2290.2,
+    -2239.6,
+    2289.5,
+    -2248.2,
+    2295,
+    -2244,
+    2301.6,
+    -2239.4,
+    2298.7,
+    -2233.3,
+    2308.3,
+    -2236.6,
+    2310.5,
+    -2229.8,
+    2320.6,
+    -2225.7,
+    2318,
+    -2222.5,
+    2316,
+    -2223.4,
+    2314.6,
+    -2224.2,
+    2315.1,
+    -2227.5,
+    2310.1,
+    -2226.7,
+    2309.5,
+    -2228.9,
+    2306.1
+   ],
+   "id": "sint-denijslaan-58-01",
+   "latLon": [
+    51.036594,
+    3.698296
+   ],
+   "photos": [
+    {
+     "id": "32150671897911897",
+     "metres": 30,
+     "off": 3,
+     "span": [
+      0.503,
+      0.549
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1422,
+   "at": [
+    -2222.25,
+    2319.8500000000004
+   ],
+   "centre": [
+    -2223.2,
+    2318.4
+   ],
+   "width": 3.6,
+   "faces": 58,
+   "toStreet": 17.1,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -2225.7,
+    2318,
+    -2223.8,
+    2320.8,
+    -2220.7,
+    2318.9,
+    -2222.5,
+    2316
+   ],
+   "id": "sint-denijslaan-58-02",
+   "latLon": [
+    51.03659,
+    3.698359
+   ],
+   "photos": [
+    {
+     "id": "845377348014205",
+     "metres": 31,
+     "off": 12,
+     "span": [
+      0.589,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11,
+   "at": [
+    -2514.45,
+    2390.05
+   ],
+   "centre": [
+    -2522.3,
+    2386.1
+   ],
+   "width": 9.3,
+   "faces": 61,
+   "toStreet": 18.9,
+   "floors": 2,
+   "eaves": 6.1,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -2530,
+    2381.5,
+    -2528.8,
+    2383.5,
+    -2529.9,
+    2384.1,
+    -2524.4,
+    2393.9,
+    -2519.2,
+    2391.1,
+    -2518.5,
+    2392.3,
+    -2510.4,
+    2387.8,
+    -2517.5,
+    2374.8
+   ],
+   "id": "sint-denijslaan-61-03",
+   "latLon": [
+    51.036082,
+    3.695019
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 211,
+   "at": [
+    -2435.5,
+    2368.55
+   ],
+   "centre": [
+    -2440,
+    2362.1
+   ],
+   "width": 6.5,
+   "faces": 71,
+   "toStreet": 18.7,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2446.9,
+    2355.4,
+    -2442.2,
+    2370.2,
+    -2438.8,
+    2369.1,
+    -2438.6,
+    2369.6,
+    -2432.4,
+    2367.5,
+    -2436.6,
+    2354.5,
+    -2442.1,
+    2356.2,
+    -2442.8,
+    2353.9
+   ],
+   "id": "sint-denijslaan-71-01",
+   "latLon": [
+    51.036238,
+    3.695921
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9,
+   "at": [
+    -2548.75,
+    2403.3999999999996
+   ],
+   "centre": [
+    -2555.3,
+    2390
+   ],
+   "width": 26.2,
+   "faces": 73,
+   "toStreet": 15.9,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2566.7,
+    2387.6,
+    -2562.4,
+    2401.7,
+    -2562.9,
+    2401.8,
+    -2561.3,
+    2407.2,
+    -2536.2,
+    2399.6,
+    -2537.7,
+    2393.8,
+    -2538.8,
+    2394.1,
+    -2544.2,
+    2376.9,
+    -2557.1,
+    2380.8,
+    -2557.4,
+    2379.6,
+    -2561.9,
+    2381,
+    -2561,
+    2384.2,
+    -2563.3,
+    2384.9,
+    -2562.9,
+    2386.4
+   ],
+   "id": "sint-denijslaan-73-02",
+   "latLon": [
+    51.035986,
+    3.694627
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 0,
+   "at": [
+    -2597.3,
+    2414.35
+   ],
+   "centre": [
+    -2602.5,
+    2406.4
+   ],
+   "width": 22.9,
+   "faces": 74,
+   "toStreet": 19.3,
+   "floors": 1,
+   "eaves": null,
+   "top": 10.2,
+   "kind": "yes",
+   "ring": [
+    -2616,
+    2407,
+    -2608.3,
+    2417.6,
+    -2586.3,
+    2411.1,
+    -2590.5,
+    2396.8,
+    -2607.3,
+    2401.7,
+    -2606.5,
+    2404.1
+   ],
+   "id": "sint-denijslaan-74-03",
+   "latLon": [
+    51.035906,
+    3.694072
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1411,
+   "at": [
+    -2302.4,
+    2342.35
+   ],
+   "centre": [
+    -2305.6,
+    2331.3
+   ],
+   "width": 6.2,
+   "faces": 76,
+   "toStreet": 13.6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2305.4,
+    2343.1,
+    -2299.4,
+    2341.6,
+    -2303.8,
+    2322.2,
+    -2309.9,
+    2323.8,
+    -2309.5,
+    2325.8
+   ],
+   "id": "sint-denijslaan-76-04",
+   "latLon": [
+    51.036427,
+    3.697443
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1406,
+   "at": [
+    -2296.55,
+    2340.8999999999996
+   ],
+   "centre": [
+    -2299.5,
+    2328.3
+   ],
+   "width": 5.9,
+   "faces": 76,
+   "toStreet": 13.7,
+   "floors": 1,
+   "eaves": null,
+   "top": 11.1,
+   "kind": "house",
+   "ring": [
+    -2299.4,
+    2341.6,
+    -2293.7,
+    2340.2,
+    -2297.3,
+    2325.1,
+    -2298.6,
+    2319.6,
+    -2304.1,
+    2321,
+    -2303.8,
+    2322.2
+   ],
+   "id": "sint-denijslaan-76-05",
+   "latLon": [
+    51.036438,
+    3.69751
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1404,
+   "at": [
+    -2290.5,
+    2339.3999999999996
+   ],
+   "centre": [
+    -2291.9,
+    2330.5
+   ],
+   "width": 6.6,
+   "faces": 76,
+   "toStreet": 13.8,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2293.7,
+    2340.2,
+    -2287.3,
+    2338.6,
+    -2289.1,
+    2330.5,
+    -2289.9,
+    2327.3,
+    -2292.4,
+    2327.9,
+    -2293.4,
+    2324.2,
+    -2297.3,
+    2325.1
+   ],
+   "id": "sint-denijslaan-76-06",
+   "latLon": [
+    51.036449,
+    3.697579
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1396,
+   "at": [
+    -2374.55,
+    2357.05
+   ],
+   "centre": [
+    -2375.5,
+    2347.2
+   ],
+   "width": 11,
+   "faces": 77,
+   "toStreet": 15.9,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -2372.9,
+    2340.1,
+    -2374,
+    2338.8,
+    -2378.5,
+    2340,
+    -2377.5,
+    2344.2,
+    -2383.1,
+    2345.5,
+    -2379.9,
+    2358.3,
+    -2369.2,
+    2355.8,
+    -2369.3,
+    2355.3
+   ],
+   "id": "sint-denijslaan-77-07",
+   "latLon": [
+    51.036321,
+    3.696618
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1394,
+   "at": [
+    -2364.9,
+    2354.3
+   ],
+   "centre": [
+    -2368,
+    2340.3
+   ],
+   "width": 9,
+   "faces": 77,
+   "toStreet": 16.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    -2369.3,
+    2355.3,
+    -2360.5,
+    2353.3,
+    -2364.9,
+    2334.6,
+    -2367.4,
+    2335.2,
+    -2368.5,
+    2331.8,
+    -2370.9,
+    2332.5,
+    -2369.2,
+    2339.5,
+    -2372.9,
+    2340.1
+   ],
+   "id": "sint-denijslaan-77-08",
+   "latLon": [
+    51.036341,
+    3.696728
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1393,
+   "at": [
+    -2357.4,
+    2352.6000000000004
+   ],
+   "centre": [
+    -2360.9,
+    2340.8
+   ],
+   "width": 6.4,
+   "faces": 77,
+   "toStreet": 16.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2360.5,
+    2353.3,
+    -2354.3,
+    2351.9,
+    -2359.3,
+    2331.3,
+    -2365.3,
+    2332.8,
+    -2364.9,
+    2334.6
+   ],
+   "id": "sint-denijslaan-77-09",
+   "latLon": [
+    51.036353,
+    3.696814
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1390,
+   "at": [
+    -2351.25,
+    2351.2
+   ],
+   "centre": [
+    -2352.5,
+    2341.7
+   ],
+   "width": 6.3,
+   "faces": 77,
+   "toStreet": 16.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2354.3,
+    2351.9,
+    -2348.2,
+    2350.5,
+    -2348.5,
+    2349.3,
+    -2351.5,
+    2337.4,
+    -2353.4,
+    2329.9,
+    -2359.3,
+    2331.3
+   ],
+   "id": "sint-denijslaan-77-10",
+   "latLon": [
+    51.036363,
+    3.696884
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1417,
+   "at": [
+    -2322.2,
+    2347.3999999999996
+   ],
+   "centre": [
+    -2324.3,
+    2338.9
+   ],
+   "width": 7.2,
+   "faces": 77,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2325.7,
+    2348.2,
+    -2318.7,
+    2346.6,
+    -2322,
+    2332.6,
+    -2325.7,
+    2333.4,
+    -2325.1,
+    2335.9,
+    -2328.5,
+    2336.8
+   ],
+   "id": "sint-denijslaan-77-11",
+   "latLon": [
+    51.036391,
+    3.697217
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1414,
+   "at": [
+    -2315.1,
+    2345.75
+   ],
+   "centre": [
+    -2317.7,
+    2334.3
+   ],
+   "width": 7.4,
+   "faces": 77,
+   "toStreet": 13.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2318.7,
+    2346.6,
+    -2311.5,
+    2344.9,
+    -2315.5,
+    2327,
+    -2315.6,
+    2326.3,
+    -2323.1,
+    2328.1,
+    -2322,
+    2332.6
+   ],
+   "id": "sint-denijslaan-77-12",
+   "latLon": [
+    51.036403,
+    3.697298
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1412,
+   "at": [
+    -2308.4,
+    2344.2
+   ],
+   "centre": [
+    -2309.4,
+    2336.9
+   ],
+   "width": 6.4,
+   "faces": 77,
+   "toStreet": 13.2,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -2311.5,
+    2344.9,
+    -2305.3,
+    2343.5,
+    -2305.4,
+    2343.1,
+    -2309.5,
+    2325.8,
+    -2315.5,
+    2327
+   ],
+   "id": "sint-denijslaan-77-13",
+   "latLon": [
+    51.036414,
+    3.697374
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1399,
+   "at": [
+    -2260.2,
+    2328.55
+   ],
+   "centre": [
+    -2261.9,
+    2321.8
+   ],
+   "width": 5.7,
+   "faces": 77,
+   "toStreet": 17.4,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2264.9,
+    2324.9,
+    -2263.9,
+    2329,
+    -2263.1,
+    2328.7,
+    -2263,
+    2329.2,
+    -2257.4,
+    2327.9,
+    -2257.6,
+    2327.4,
+    -2257,
+    2327.2,
+    -2261.5,
+    2307.8,
+    -2261.8,
+    2306.9,
+    -2268.6,
+    2308.5
+   ],
+   "id": "sint-denijslaan-77-14",
+   "latLon": [
+    51.036527,
+    3.697925
+   ],
+   "photos": [
+    {
+     "id": "819443867503207",
+     "metres": 39,
+     "off": 20,
+     "span": [
+      0.296,
+      0.355
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1439,
+   "at": [
+    -2122.9,
+    2295.1499999999996
+   ],
+   "centre": [
+    -2126.4,
+    2284.2
+   ],
+   "width": 8.4,
+   "faces": 77,
+   "toStreet": 18.4,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2127,
+    2296.1,
+    -2118.8,
+    2294.2,
+    -2122.2,
+    2279.4,
+    -2127.6,
+    2280.7,
+    -2128.1,
+    2278.6,
+    -2131,
+    2279.2,
+    -2130.4,
+    2281.5
+   ],
+   "id": "sint-denijslaan-77-15",
+   "latLon": [
+    51.036769,
+    3.699495
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1440,
+   "at": [
+    -2115.25,
+    2293.35
+   ],
+   "centre": [
+    -2118.1,
+    2284.2
+   ],
+   "width": 7.3,
+   "faces": 77,
+   "toStreet": 18.4,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2118.8,
+    2294.2,
+    -2111.7,
+    2292.5,
+    -2114.8,
+    2279.4,
+    -2120.2,
+    2280.8,
+    -2120.7,
+    2279,
+    -2122.2,
+    2279.4
+   ],
+   "id": "sint-denijslaan-77-16",
+   "latLon": [
+    51.036782,
+    3.699582
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1437,
+   "at": [
+    -2107.45,
+    2291.5
+   ],
+   "centre": [
+    -2110.5,
+    2282.5
+   ],
+   "width": 8.7,
+   "faces": 77,
+   "toStreet": 18.4,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2111.7,
+    2292.5,
+    -2103.2,
+    2290.5,
+    -2107.1,
+    2274.1,
+    -2115.6,
+    2275.9,
+    -2114.8,
+    2279.4
+   ],
+   "id": "sint-denijslaan-77-17",
+   "latLon": [
+    51.036795,
+    3.699672
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1438,
+   "at": [
+    -2098.7,
+    2289.45
+   ],
+   "centre": [
+    -2100.3,
+    2278.8
+   ],
+   "width": 9.2,
+   "faces": 77,
+   "toStreet": 18.4,
+   "floors": 1,
+   "eaves": 5.2,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2103.2,
+    2290.5,
+    -2094.2,
+    2288.4,
+    -2097.6,
+    2273.4,
+    -2099.8,
+    2273.9,
+    -2100.1,
+    2272.7,
+    -2107.1,
+    2274.1
+   ],
+   "id": "sint-denijslaan-77-18",
+   "latLon": [
+    51.03681,
+    3.699772
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1433,
+   "at": [
+    -2081.75,
+    2285.4
+   ],
+   "centre": [
+    -2083.3,
+    2278.7
+   ],
+   "width": 9.1,
+   "faces": 77,
+   "toStreet": 18.5,
+   "floors": 1,
+   "eaves": 5.2,
+   "top": 10.3,
+   "kind": "house",
+   "ring": [
+    -2080.5,
+    2271.1,
+    -2089.3,
+    2272.9,
+    -2086.2,
+    2286.4,
+    -2077.3,
+    2284.4
+   ],
+   "id": "sint-denijslaan-77-19",
+   "latLon": [
+    51.036839,
+    3.699965
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1434,
+   "at": [
+    -2072.75,
+    2283.3500000000004
+   ],
+   "centre": [
+    -2075.6,
+    2272.9
+   ],
+   "width": 9.3,
+   "faces": 77,
+   "toStreet": 18.4,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 10,
+   "kind": "house",
+   "ring": [
+    -2077.3,
+    2284.4,
+    -2068.2,
+    2282.3,
+    -2071.3,
+    2269,
+    -2075.1,
+    2269.7,
+    -2075.8,
+    2266.4,
+    -2081.3,
+    2267.7,
+    -2080.5,
+    2271.1
+   ],
+   "id": "sint-denijslaan-77-20",
+   "latLon": [
+    51.036854,
+    3.700068
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1391,
+   "at": [
+    -2338.9,
+    2347.6
+   ],
+   "centre": [
+    -2344.1,
+    2339.5
+   ],
+   "width": 3.9,
+   "faces": 78,
+   "toStreet": 16.9,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2348.5,
+    2349.3,
+    -2345.9,
+    2348.8,
+    -2345.8,
+    2349.2,
+    -2344.1,
+    2348.8,
+    -2343.5,
+    2349.4,
+    -2341,
+    2348.8,
+    -2340.8,
+    2348,
+    -2337,
+    2347.2,
+    -2339.8,
+    2335.9,
+    -2339.1,
+    2335.8,
+    -2340,
+    2331.9,
+    -2341.7,
+    2324.7,
+    -2345.9,
+    2325.6,
+    -2345.8,
+    2326.4,
+    -2350.4,
+    2327.5,
+    -2348.3,
+    2336.5,
+    -2351.5,
+    2337.4
+   ],
+   "id": "sint-denijslaan-78-21",
+   "latLon": [
+    51.036389,
+    3.697026
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1418,
+   "at": [
+    -2329.55,
+    2349.05
+   ],
+   "centre": [
+    -2334.1,
+    2339.1
+   ],
+   "width": 7.9,
+   "faces": 78,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2337,
+    2347.2,
+    -2334.4,
+    2346.6,
+    -2333.4,
+    2349.9,
+    -2325.7,
+    2348.2,
+    -2328.5,
+    2336.8,
+    -2329.3,
+    2333.2,
+    -2333.4,
+    2334.2,
+    -2334.5,
+    2330.7,
+    -2340,
+    2331.9,
+    -2339.1,
+    2335.8,
+    -2339.8,
+    2335.9
+   ],
+   "id": "sint-denijslaan-78-22",
+   "latLon": [
+    51.036379,
+    3.697133
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1400,
+   "at": [
+    -2254,
+    2326.55
+   ],
+   "centre": [
+    -2256.3,
+    2316.9
+   ],
+   "width": 6.1,
+   "faces": 78,
+   "toStreet": 17.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -2257,
+    2327.2,
+    -2251,
+    2325.9,
+    -2255.6,
+    2306.5,
+    -2261.5,
+    2307.8
+   ],
+   "id": "sint-denijslaan-78-23",
+   "latLon": [
+    51.036542,
+    3.697996
+   ],
+   "photos": [
+    {
+     "id": "1314059046670634",
+     "metres": 37,
+     "off": 13,
+     "span": [
+      0.356,
+      0.421
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1397,
+   "at": [
+    -2248,
+    2325.25
+   ],
+   "centre": [
+    -2251.4,
+    2311.1
+   ],
+   "width": 6.1,
+   "faces": 78,
+   "toStreet": 17.8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2251,
+    2325.9,
+    -2245,
+    2324.6,
+    -2248.5,
+    2309.1,
+    -2250.5,
+    2309.4,
+    -2250.9,
+    2308.1,
+    -2252,
+    2308.3,
+    -2253,
+    2303.5,
+    -2256,
+    2304.1,
+    -2255.6,
+    2306.5
+   ],
+   "id": "sint-denijslaan-78-24",
+   "latLon": [
+    51.036551,
+    3.698065
+   ],
+   "photos": [
+    {
+     "id": "1154954660074869",
+     "metres": 35,
+     "off": 6,
+     "span": [
+      0.412,
+      0.479
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1398,
+   "at": [
+    -2242,
+    2323.95
+   ],
+   "centre": [
+    -2242.4,
+    2315.4
+   ],
+   "width": 6.1,
+   "faces": 78,
+   "toStreet": 17.6,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2245,
+    2324.6,
+    -2239,
+    2323.3,
+    -2239.2,
+    2322.4,
+    -2238.2,
+    2322.1,
+    -2239,
+    2317.1,
+    -2239.6,
+    2317.2,
+    -2240.1,
+    2314.3,
+    -2241.1,
+    2312.5,
+    -2243.8,
+    2313.1,
+    -2245.8,
+    2304.1,
+    -2249.5,
+    2304.9,
+    -2248.5,
+    2309.1
+   ],
+   "id": "sint-denijslaan-78-25",
+   "latLon": [
+    51.036561,
+    3.698133
+   ],
+   "photos": [
+    {
+     "id": "1858272764786935",
+     "metres": 34,
+     "off": 0,
+     "span": [
+      0.465,
+      0.534
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1442,
+   "at": [
+    -2133,
+    2298.45
+   ],
+   "centre": [
+    -2132.7,
+    2289.6
+   ],
+   "width": 4.7,
+   "faces": 79,
+   "toStreet": 17.5,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -2130.4,
+    2281.5,
+    -2133.5,
+    2282.3,
+    -2134,
+    2281,
+    -2139.6,
+    2282.3,
+    -2135.3,
+    2298.9,
+    -2130.7,
+    2298,
+    -2130.9,
+    2297,
+    -2127,
+    2296.1
+   ],
+   "id": "sint-denijslaan-79-26",
+   "latLon": [
+    51.036745,
+    3.69938
+   ],
+   "photos": [
+    {
+     "id": "3957863101026098",
+     "metres": 22,
+     "off": 3,
+     "span": [
+      0.496,
+      0.556
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1049,
+   "at": [
+    -1430.3000000000002,
+    2460.5
+   ],
+   "centre": [
+    -1429.6,
+    2458.5
+   ],
+   "width": 27.7,
+   "faces": 109,
+   "toStreet": 12.3,
+   "floors": 1,
+   "eaves": null,
+   "top": 3.9,
+   "kind": "yes",
+   "ring": [
+    -1443.4,
+    2456,
+    -1417.2,
+    2465,
+    -1416,
+    2461.4,
+    -1441.9,
+    2451.7
+   ],
+   "id": "sint-denijslaan-109-27",
+   "latLon": [
+    51.035573,
+    3.707413
+   ],
+   "photos": [
+    {
+     "id": "660663146455090-340",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.218,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 907,
+   "at": [
+    -2198.25,
+    2432.4
+   ],
+   "centre": [
+    -2191.8,
+    2433
+   ],
+   "width": 12.9,
+   "faces": 161,
+   "toStreet": 14.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 6.6,
+   "kind": "house",
+   "ring": [
+    -2200.4,
+    2426.3,
+    -2196.1,
+    2438.5,
+    -2190.9,
+    2436.7,
+    -2190.4,
+    2438.2,
+    -2184.2,
+    2436.1,
+    -2188.9,
+    2422.3
+   ],
+   "id": "sint-denijslaan-161-01",
+   "latLon": [
+    51.035776,
+    3.698634
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 903,
+   "at": [
+    -2213.25,
+    2389.6499999999996
+   ],
+   "centre": [
+    -2199.2,
+    2397.1
+   ],
+   "width": 9.6,
+   "faces": 162,
+   "toStreet": 13.4,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2190.6,
+    2395.1,
+    -2190.8,
+    2394.3,
+    -2194.7,
+    2395.8,
+    -2196.9,
+    2389.6,
+    -2199.3,
+    2390.3,
+    -2201.3,
+    2384.3,
+    -2202.2,
+    2384.6,
+    -2203.3,
+    2381.5,
+    -2214.7,
+    2385.1,
+    -2211.8,
+    2394.2,
+    -2212.9,
+    2394.6,
+    -2210.2,
+    2402.3,
+    -2204.4,
+    2400.5,
+    -2203.2,
+    2404.2,
+    -2198.7,
+    2402.8,
+    -2198.1,
+    2404.3,
+    -2194,
+    2403.1,
+    -2191.2,
+    2411.5,
+    -2187.7,
+    2410.3,
+    -2189,
+    2405.7,
+    -2187.2,
+    2405.1
+   ],
+   "id": "sint-denijslaan-162-02",
+   "latLon": [
+    51.036085,
+    3.698462
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 908,
+   "at": [
+    -2140.3500000000004,
+    2611.75
+   ],
+   "centre": [
+    -2132.7,
+    2611.5
+   ],
+   "width": 3.9,
+   "faces": 163,
+   "toStreet": 10,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2139.1,
+    2609.4,
+    -2140.9,
+    2609.9,
+    -2139.8,
+    2613.6,
+    -2135.2,
+    2612.3,
+    -2133.5,
+    2611.8,
+    -2131.4,
+    2618.8,
+    -2122.6,
+    2616.3,
+    -2125.3,
+    2605.4,
+    -2126.1,
+    2605.6
+   ],
+   "id": "sint-denijslaan-163-03",
+   "latLon": [
+    51.034478,
+    3.699296
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 909,
+   "at": [
+    -2139.7,
+    2607.3500000000004
+   ],
+   "centre": [
+    -2133.2,
+    2605.4
+   ],
+   "width": 4.3,
+   "faces": 164,
+   "toStreet": 10,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -2126.1,
+    2605.6,
+    -2127.2,
+    2601.3,
+    -2140.3,
+    2605.3,
+    -2139.1,
+    2609.4
+   ],
+   "id": "sint-denijslaan-164-04",
+   "latLon": [
+    51.03451,
+    3.699303
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 910,
+   "at": [
+    -2134.1499999999996,
+    2615.9
+   ],
+   "centre": [
+    -2133.3,
+    2615.6
+   ],
+   "width": 7.5,
+   "faces": 164,
+   "toStreet": 17.4,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -2135.2,
+    2612.3,
+    -2133.1,
+    2619.5,
+    -2131.4,
+    2618.8,
+    -2133.5,
+    2611.8
+   ],
+   "id": "sint-denijslaan-164-05",
+   "latLon": [
+    51.034448,
+    3.699366
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1361,
+   "at": [
+    -2015.6,
+    2309.45
+   ],
+   "centre": [
+    -2011.8,
+    2320.2
+   ],
+   "width": 10.5,
+   "faces": 246,
+   "toStreet": 18.9,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2011.9,
+    2333,
+    -2011.6,
+    2333.8,
+    -2007.7,
+    2332.1,
+    -2011.3,
+    2323,
+    -2006.5,
+    2320.9,
+    -2009.2,
+    2314.4,
+    -2008.1,
+    2313.9,
+    -2010.8,
+    2307.3,
+    -2020.4,
+    2311.6,
+    -2020.7,
+    2311.7
+   ],
+   "id": "sint-denijslaan-246-01",
+   "latLon": [
+    51.036665,
+    3.700722
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1359,
+   "at": [
+    -2008.8,
+    2306.45
+   ],
+   "centre": [
+    -2006.2,
+    2307.5
+   ],
+   "width": 4.3,
+   "faces": 247,
+   "toStreet": 16.7,
+   "floors": 2,
+   "eaves": 5.8,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2006.5,
+    2320.9,
+    -2004.9,
+    2325,
+    -1996.1,
+    2321.2,
+    -2004.7,
+    2301,
+    -2005.2,
+    2301.3,
+    -2005.6,
+    2301.5,
+    -2006,
+    2301.8,
+    -2006.3,
+    2302.2,
+    -2006.5,
+    2302.5,
+    -2006.8,
+    2302.9,
+    -2006.9,
+    2303.4,
+    -2007,
+    2303.9,
+    -2007,
+    2304.3,
+    -2007,
+    2304.7,
+    -2006.9,
+    2305.2,
+    -2006.8,
+    2305.6,
+    -2010.8,
+    2307.3,
+    -2008.1,
+    2313.9,
+    -2009.2,
+    2314.4
+   ],
+   "id": "sint-denijslaan-247-02",
+   "latLon": [
+    51.036687,
+    3.700799
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1375,
+   "at": [
+    -2113.2,
+    2329.05
+   ],
+   "centre": [
+    -2110.9,
+    2339.4
+   ],
+   "width": 5,
+   "faces": 248,
+   "toStreet": 16.8,
+   "floors": 1,
+   "eaves": 5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2110.6,
+    2350.1,
+    -2110.1,
+    2351.3,
+    -2106.5,
+    2350,
+    -2108.5,
+    2345,
+    -2104.9,
+    2343.7,
+    -2109.4,
+    2332.2,
+    -2110.9,
+    2328.1,
+    -2115.5,
+    2330,
+    -2115.1,
+    2331.2,
+    -2117.5,
+    2332.1
+   ],
+   "id": "sint-denijslaan-248-01",
+   "latLon": [
+    51.036524,
+    3.699606
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1371,
+   "at": [
+    -2122.4,
+    2333.85
+   ],
+   "centre": [
+    -2116.6,
+    2344.9
+   ],
+   "width": 4.5,
+   "faces": 250,
+   "toStreet": 19.4,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2119.5,
+    2347.6,
+    -2119,
+    2348.9,
+    -2117.6,
+    2349.2,
+    -2115.2,
+    2348.4,
+    -2114.8,
+    2347.7,
+    -2114.4,
+    2348.4,
+    -2113.3,
+    2348.1,
+    -2112.2,
+    2350.6,
+    -2110.6,
+    2350.1,
+    -2117.5,
+    2332.1,
+    -2120.3,
+    2333.1,
+    -2124.5,
+    2334.6
+   ],
+   "id": "sint-denijslaan-250-02",
+   "latLon": [
+    51.036489,
+    3.699501
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 914,
+   "at": [
+    -2139.7,
+    2618.75
+   ],
+   "centre": [
+    -2138.6,
+    2622.4
+   ],
+   "width": 7.8,
+   "faces": 251,
+   "toStreet": 14.6,
+   "floors": 2,
+   "eaves": null,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2143.4,
+    2620,
+    -2140.8,
+    2628.8,
+    -2134.1,
+    2623.3,
+    -2136,
+    2617.5
+   ],
+   "id": "sint-denijslaan-251-03",
+   "latLon": [
+    51.034428,
+    3.699303
+   ],
+   "photos": [
+    {
+     "id": "1129951572205708",
+     "metres": 17,
+     "off": 3,
+     "span": [
+      0.403,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1377,
+   "at": [
+    -2098.25,
+    2327.7
+   ],
+   "centre": [
+    -2094.2,
+    2340.3
+   ],
+   "width": 9.2,
+   "faces": 251,
+   "toStreet": 18.9,
+   "floors": 1,
+   "eaves": 5,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    -2095.8,
+    2346.9,
+    -2093.5,
+    2353.2,
+    -2087.6,
+    2351.1,
+    -2090.5,
+    2343.6,
+    -2087.6,
+    2342.6,
+    -2093.9,
+    2326.2,
+    -2102.6,
+    2329.2,
+    -2102.3,
+    2329.8
+   ],
+   "id": "sint-denijslaan-251-04",
+   "latLon": [
+    51.036533,
+    3.699777
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 2201,
+   "at": [
+    -1799.6,
+    2367.5
+   ],
+   "centre": [
+    -1789.9,
+    2368.9
+   ],
+   "width": 27.4,
+   "faces": 253,
+   "toStreet": 19.2,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1812.7,
+    2371.5,
+    -1810.9,
+    2377.1,
+    -1796.3,
+    2373.1,
+    -1796.1,
+    2373.5,
+    -1785,
+    2369.9,
+    -1783.1,
+    2370,
+    -1781.1,
+    2368.5,
+    -1780.7,
+    2367.1,
+    -1780.9,
+    2365.8,
+    -1782.6,
+    2364.7,
+    -1783.2,
+    2362.6,
+    -1786.5,
+    2363.5
+   ],
+   "id": "sint-denijslaan-253-05",
+   "latLon": [
+    51.036245,
+    3.703191
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1137,
+   "at": [
+    -1777.5,
+    2371.3999999999996
+   ],
+   "centre": [
+    -1776.7,
+    2373.8
+   ],
+   "width": 15.9,
+   "faces": 253,
+   "toStreet": 15.9,
+   "floors": 2,
+   "eaves": 5.7,
+   "top": 10.7,
+   "kind": "house",
+   "ring": [
+    -1768,
+    2373.6,
+    -1769.9,
+    2369.1,
+    -1785.1,
+    2373.7,
+    -1783.8,
+    2378.6
+   ],
+   "id": "sint-denijslaan-253-06",
+   "latLon": [
+    51.036217,
+    3.703444
+   ],
+   "photos": [
+    {
+     "id": "474850455265126",
+     "metres": 44,
+     "off": 1,
+     "span": [
+      0.451,
+      0.534
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1138,
+   "at": [
+    -1761.45,
+    2375.3
+   ],
+   "centre": [
+    -1795.7,
+    2385.1
+   ],
+   "width": 7.8,
+   "faces": 254,
+   "toStreet": 14.5,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -1833.3,
+    2394.8,
+    -1830.3,
+    2403.8,
+    -1825.5,
+    2402.2,
+    -1783.8,
+    2389,
+    -1755.8,
+    2380,
+    -1757.7,
+    2374.2,
+    -1765.2,
+    2376.4,
+    -1766.3,
+    2373,
+    -1768,
+    2373.6,
+    -1783.8,
+    2378.6,
+    -1800.5,
+    2383.9,
+    -1800.1,
+    2385.1,
+    -1814.2,
+    2389.5,
+    -1816.1,
+    2383,
+    -1835.3,
+    2388.8
+   ],
+   "id": "sint-denijslaan-254-07",
+   "latLon": [
+    51.036189,
+    3.703627
+   ],
+   "photos": [
+    {
+     "id": "981157100415074",
+     "metres": 42,
+     "off": 8,
+     "span": [
+      0.431,
+      0.476
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2,
+   "at": [
+    -2422.6499999999996,
+    2396
+   ],
+   "centre": [
+    -2421.1,
+    2400.2
+   ],
+   "width": 4.2,
+   "faces": 256,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2420.6,
+    2395.5,
+    -2424.7,
+    2396.5,
+    -2421.5,
+    2405.1,
+    -2417.7,
+    2403.5
+   ],
+   "id": "sint-denijslaan-256-08",
+   "latLon": [
+    51.036039,
+    3.696068
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 895,
+   "at": [
+    -2386.3,
+    2387.4
+   ],
+   "centre": [
+    -2383.4,
+    2397.3
+   ],
+   "width": 7.4,
+   "faces": 256,
+   "toStreet": 11,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2386.9,
+    2401.3,
+    -2386.6,
+    2402.8,
+    -2379.4,
+    2401.2,
+    -2378.9,
+    2401.1,
+    -2379.2,
+    2399.9,
+    -2382.7,
+    2386.5,
+    -2389.9,
+    2388.3
+   ],
+   "id": "sint-denijslaan-256-09",
+   "latLon": [
+    51.036101,
+    3.696484
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 893,
+   "at": [
+    -2371.8,
+    2384
+   ],
+   "centre": [
+    -2370.2,
+    2390.7
+   ],
+   "width": 7.6,
+   "faces": 256,
+   "toStreet": 11,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2372.2,
+    2398.2,
+    -2365,
+    2396.5,
+    -2368.1,
+    2383.1,
+    -2375.5,
+    2384.9
+   ],
+   "id": "sint-denijslaan-256-10",
+   "latLon": [
+    51.036126,
+    3.69665
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12,
+   "at": [
+    -2416.6,
+    2394.55
+   ],
+   "centre": [
+    -2412.9,
+    2405.8
+   ],
+   "width": 8.2,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2417.7,
+    2403.5,
+    -2412.8,
+    2417,
+    -2406.1,
+    2414.6,
+    -2407.4,
+    2410.3,
+    -2412.6,
+    2393.6,
+    -2420.6,
+    2395.5
+   ],
+   "id": "sint-denijslaan-257-11",
+   "latLon": [
+    51.03605,
+    3.696137
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13,
+   "at": [
+    -2408.7,
+    2392.7
+   ],
+   "centre": [
+    -2405.3,
+    2402
+   ],
+   "width": 8,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2407.4,
+    2410.3,
+    -2400.6,
+    2409.1,
+    -2401.2,
+    2405.2,
+    -2404.8,
+    2391.8,
+    -2412.6,
+    2393.6
+   ],
+   "id": "sint-denijslaan-257-12",
+   "latLon": [
+    51.036063,
+    3.696228
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 897,
+   "at": [
+    -2400.55,
+    2390.8
+   ],
+   "centre": [
+    -2396.8,
+    2403.8
+   ],
+   "width": 8.7,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -2401.2,
+    2405.2,
+    -2399.2,
+    2404.9,
+    -2398.9,
+    2406.3,
+    -2398.3,
+    2407.2,
+    -2397.3,
+    2407.8,
+    -2396.1,
+    2407.9,
+    -2395.1,
+    2407.6,
+    -2394.2,
+    2406.7,
+    -2393.8,
+    2406,
+    -2393.8,
+    2405.1,
+    -2394.1,
+    2403.5,
+    -2392.2,
+    2403,
+    -2396.3,
+    2389.8,
+    -2404.8,
+    2391.8
+   ],
+   "id": "sint-denijslaan-257-13",
+   "latLon": [
+    51.036077,
+    3.696321
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 898,
+   "at": [
+    -2393.1000000000004,
+    2389.05
+   ],
+   "centre": [
+    -2390.5,
+    2399.5
+   ],
+   "width": 6.6,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2392.2,
+    2403,
+    -2391.2,
+    2406.4,
+    -2388.2,
+    2405.8,
+    -2388.8,
+    2401.8,
+    -2386.9,
+    2401.3,
+    -2389.9,
+    2388.3,
+    -2396.3,
+    2389.8
+   ],
+   "id": "sint-denijslaan-257-14",
+   "latLon": [
+    51.03609,
+    3.696406
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 896,
+   "at": [
+    -2379.1,
+    2385.7
+   ],
+   "centre": [
+    -2376.7,
+    2397.3
+   ],
+   "width": 7.4,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 9.3,
+   "kind": "house",
+   "ring": [
+    -2378.9,
+    2401.1,
+    -2377.7,
+    2406,
+    -2370.7,
+    2404.4,
+    -2372.2,
+    2398.2,
+    -2375.5,
+    2384.9,
+    -2382.7,
+    2386.5,
+    -2379.2,
+    2399.9
+   ],
+   "id": "sint-denijslaan-257-15",
+   "latLon": [
+    51.036114,
+    3.696566
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 891,
+   "at": [
+    -2363.3,
+    2382
+   ],
+   "centre": [
+    -2362.3,
+    2390.4
+   ],
+   "width": 9.8,
+   "faces": 257,
+   "toStreet": 11,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2365,
+    2396.5,
+    -2364.9,
+    2396.9,
+    -2355,
+    2394.6,
+    -2358.5,
+    2380.9,
+    -2368.1,
+    2383.1
+   ],
+   "id": "sint-denijslaan-257-16",
+   "latLon": [
+    51.036141,
+    3.696747
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 892,
+   "at": [
+    -2353.5,
+    2379.75
+   ],
+   "centre": [
+    -2351.7,
+    2391.5
+   ],
+   "width": 10.3,
+   "faces": 257,
+   "toStreet": 11.1,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2355,
+    2394.6,
+    -2354.1,
+    2398.1,
+    -2351.2,
+    2397.5,
+    -2350.3,
+    2396.3,
+    -2350.8,
+    2393.6,
+    -2345.3,
+    2392.4,
+    -2348.5,
+    2378.6,
+    -2358.5,
+    2380.9
+   ],
+   "id": "sint-denijslaan-257-17",
+   "latLon": [
+    51.036157,
+    3.696859
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1360,
+   "at": [
+    -2001.25,
+    2301.1
+   ],
+   "centre": [
+    -1995.2,
+    2314
+   ],
+   "width": 6.9,
+   "faces": 272,
+   "toStreet": 11.3,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -1996.1,
+    2321.2,
+    -1995.6,
+    2322.3,
+    -1990,
+    2319.7,
+    -1991.3,
+    2316.4,
+    -1991.1,
+    2316.2,
+    -1997.8,
+    2301.2,
+    -2004.7,
+    2301
+   ],
+   "id": "sint-denijslaan-272-18",
+   "latLon": [
+    51.036726,
+    3.700886
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 1357,
+   "at": [
+    -1956.05,
+    2306.95
+   ],
+   "centre": [
+    -1954.4,
+    2313.5
+   ],
+   "width": 9.8,
+   "faces": 285,
+   "toStreet": 11.2,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1951.3,
+    2308.2,
+    -1960.8,
+    2305.7,
+    -1957.2,
+    2321.1,
+    -1948.3,
+    2319
+   ],
+   "id": "sint-denijslaan-285-19",
+   "latLon": [
+    51.036684,
+    3.701402
+   ],
+   "photos": [
+    {
+     "id": "992071249306363",
+     "metres": 44,
+     "off": 1,
+     "span": [
+      0.476,
+      0.535
+     ]
+    },
+    {
+     "id": "651432397356816",
+     "metres": 40,
+     "off": 17,
+     "span": [
+      0.352,
+      0.428
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1356,
+   "at": [
+    -1944.85,
+    2310.1
+   ],
+   "centre": [
+    -1944.5,
+    2317
+   ],
+   "width": 13.4,
+   "faces": 286,
+   "toStreet": 11.1,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1948.3,
+    2319,
+    -1947.3,
+    2322.7,
+    -1940.5,
+    2320.9,
+    -1941,
+    2319.5,
+    -1938.4,
+    2312,
+    -1951.3,
+    2308.2
+   ],
+   "id": "sint-denijslaan-286-20",
+   "latLon": [
+    51.036661,
+    3.701531
+   ],
+   "photos": [
+    {
+     "id": "1439611067432494",
+     "metres": 43,
+     "off": 4,
+     "span": [
+      0.483,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2377,
+   "at": [
+    -1050.5500000000002,
+    2614.7
+   ],
+   "centre": [
+    -1055.1,
+    2628.4
+   ],
+   "width": 8.7,
+   "faces": 287,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1059.5,
+    2627.7,
+    -1054.7,
+    2613.4,
+    -1046.4,
+    2616,
+    -1052.9,
+    2635.5,
+    -1055,
+    2635.2,
+    -1055.8,
+    2633.4,
+    -1055.3,
+    2631.6,
+    -1053.8,
+    2630.8,
+    -1053.6,
+    2629.8,
+    -1055.3,
+    2629.2,
+    -1056.4,
+    2629.5,
+    -1058.4,
+    2629,
+    -1059.1,
+    2627.9
+   ],
+   "id": "sint-denijslaan-287-21",
+   "latLon": [
+    51.034457,
+    3.711754
+   ],
+   "photos": [
+    {
+     "id": "145079624725477-201",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.284,
+      0.707
+     ]
+    },
+    {
+     "id": "1160454855870638-177",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.343,
+      0.708
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1488,
+   "at": [
+    -1868.05,
+    2335.75
+   ],
+   "centre": [
+    -1872.6,
+    2339.5
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 10.9,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1881.2,
+    2344.7,
+    -1868.6,
+    2348.8,
+    -1864.5,
+    2336.9,
+    -1871.6,
+    2334.6,
+    -1877.3,
+    2332.7
+   ],
+   "id": "sint-denijslaan-288-22",
+   "latLon": [
+    51.036475,
+    3.702409
+   ],
+   "photos": [
+    {
+     "id": "1215779319622508",
+     "metres": 43,
+     "off": 6,
+     "span": [
+      0.441,
+      0.487
+     ]
+    },
+    {
+     "id": "1056617495890780",
+     "metres": 42,
+     "off": 16,
+     "span": [
+      0.371,
+      0.425
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1487,
+   "at": [
+    -1854.3,
+    2340.3
+   ],
+   "centre": [
+    -1858.6,
+    2352
+   ],
+   "width": 21.5,
+   "faces": 288,
+   "toStreet": 10.9,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1868.6,
+    2348.8,
+    -1871.7,
+    2358,
+    -1861.1,
+    2361.6,
+    -1851.7,
+    2357,
+    -1848.8,
+    2357.9,
+    -1844.1,
+    2343.7,
+    -1864.5,
+    2336.9
+   ],
+   "id": "sint-denijslaan-288-23",
+   "latLon": [
+    51.036442,
+    3.702566
+   ],
+   "photos": [
+    {
+     "id": "2468248816700444",
+     "metres": 42,
+     "off": 7,
+     "span": [
+      0.396,
+      0.53
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 949,
+   "at": [
+    -1594.9,
+    2433.8999999999996
+   ],
+   "centre": [
+    -1598.5,
+    2444.8
+   ],
+   "width": 7.6,
+   "faces": 288,
+   "toStreet": 16.6,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    -1603.4,
+    2446.8,
+    -1602.4,
+    2447.1,
+    -1602.8,
+    2448.2,
+    -1597.3,
+    2450.1,
+    -1596.8,
+    2449.1,
+    -1595.8,
+    2449.2,
+    -1591.3,
+    2435.1,
+    -1598.5,
+    2432.7
+   ],
+   "id": "sint-denijslaan-288-24",
+   "latLon": [
+    51.035765,
+    3.705531
+   ],
+   "photos": [
+    {
+     "id": "1374456606891487-184",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.414,
+      0.595
+     ]
+    },
+    {
+     "id": "650652277664177-168",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.437,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 929,
+   "at": [
+    -1513.6,
+    2456.25
+   ],
+   "centre": [
+    -1517.8,
+    2466.3
+   ],
+   "width": 7.4,
+   "faces": 288,
+   "toStreet": 10.9,
+   "floors": 1,
+   "eaves": 0.7,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1522.3,
+    2470.3,
+    -1523.3,
+    2473,
+    -1516.4,
+    2475.5,
+    -1510.1,
+    2457.4,
+    -1517.1,
+    2455.1
+   ],
+   "id": "sint-denijslaan-288-25",
+   "latLon": [
+    51.035603,
+    3.706461
+   ],
+   "photos": [
+    {
+     "id": "9506096122769287-224",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.386,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 941,
+   "at": [
+    -1498.1999999999998,
+    2461.45
+   ],
+   "centre": [
+    -1503.1,
+    2473.9
+   ],
+   "width": 7.6,
+   "faces": 288,
+   "toStreet": 10.7,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1508.6,
+    2479.6,
+    -1506.8,
+    2480.3,
+    -1505.8,
+    2477.7,
+    -1504.3,
+    2478.1,
+    -1503.5,
+    2475.6,
+    -1499.6,
+    2476.9,
+    -1494.6,
+    2462.6,
+    -1501.8,
+    2460.3
+   ],
+   "id": "sint-denijslaan-288-26",
+   "latLon": [
+    51.035566,
+    3.706637
+   ],
+   "photos": [
+    {
+     "id": "1667479827491531-222",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.376,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2447,
+   "at": [
+    -1088.8,
+    2602
+   ],
+   "centre": [
+    -1092.5,
+    2611.5
+   ],
+   "width": 7,
+   "faces": 288,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1096.3,
+    2612.9,
+    -1092.1,
+    2600.9,
+    -1085.5,
+    2603.1,
+    -1089.2,
+    2613.6,
+    -1092.2,
+    2612.5,
+    -1094.3,
+    2618.8,
+    -1098.2,
+    2618.9
+   ],
+   "id": "sint-denijslaan-288-27",
+   "latLon": [
+    51.034549,
+    3.711317
+   ],
+   "photos": [
+    {
+     "id": "962498456035875-237",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.398,
+      0.579
+     ]
+    },
+    {
+     "id": "395218832456298-163",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.406,
+      0.636
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2441,
+   "at": [
+    -1076.05,
+    2606.25
+   ],
+   "centre": [
+    -1078.8,
+    2614.5
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1083.1,
+    2615.1,
+    -1079.6,
+    2605.1,
+    -1072.5,
+    2607.4,
+    -1077.5,
+    2622.1,
+    -1080.7,
+    2621.1,
+    -1079.2,
+    2616.3
+   ],
+   "id": "sint-denijslaan-288-28",
+   "latLon": [
+    51.034518,
+    3.711463
+   ],
+   "photos": [
+    {
+     "id": "962498456035875-181",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.366,
+      0.653
+     ]
+    },
+    {
+     "id": "683886142731327-172",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.374,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2440,
+   "at": [
+    -1068.1,
+    2608.8500000000004
+   ],
+   "centre": [
+    -1074.1,
+    2623.3
+   ],
+   "width": 9.3,
+   "faces": 288,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -1080.3,
+    2630.6,
+    -1080.3,
+    2630.5,
+    -1077.5,
+    2622.1,
+    -1072.5,
+    2607.4,
+    -1063.7,
+    2610.3,
+    -1067.5,
+    2621.6,
+    -1070,
+    2629.2,
+    -1076.8,
+    2626.9,
+    -1078.1,
+    2631
+   ],
+   "id": "sint-denijslaan-288-29",
+   "latLon": [
+    51.034499,
+    3.711554
+   ],
+   "photos": [
+    {
+     "id": "1399076751543357-201",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.295,
+      0.706
+     ]
+    },
+    {
+     "id": "167144169025014-210",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.283,
+      0.694
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2364,
+   "at": [
+    -1042.7,
+    2617.2
+   ],
+   "centre": [
+    -1043.7,
+    2625.7
+   ],
+   "width": 7.8,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -1052.9,
+    2635.5,
+    -1046.4,
+    2616,
+    -1039,
+    2618.4,
+    -1037.6,
+    2621.3,
+    -1042.8,
+    2637.5
+   ],
+   "id": "sint-denijslaan-288-30",
+   "latLon": [
+    51.034439,
+    3.711844
+   ],
+   "photos": [
+    {
+     "id": "2021207901686945-203",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.3,
+      0.693
+     ]
+    },
+    {
+     "id": "1691102207895279-231",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.357,
+      0.603
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2438,
+   "at": [
+    -1020.05,
+    2624.9
+   ],
+   "centre": [
+    -1021.1,
+    2632.2
+   ],
+   "width": 6.4,
+   "faces": 288,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1029.5,
+    2636.4,
+    -1025.9,
+    2625.3,
+    -1023.1,
+    2623.9,
+    -1017,
+    2625.9,
+    -1011.7,
+    2627.6,
+    -1016.1,
+    2641.3,
+    -1022.8,
+    2639,
+    -1022.7,
+    2638.5
+   ],
+   "id": "sint-denijslaan-288-31",
+   "latLon": [
+    51.034383,
+    3.712103
+   ],
+   "photos": [
+    {
+     "id": "980757644192890-178",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.324,
+      0.742
+     ]
+    },
+    {
+     "id": "799689164338398-192",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.371,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2439,
+   "at": [
+    -1008.4000000000001,
+    2628.7
+   ],
+   "centre": [
+    -1011.3,
+    2638.6
+   ],
+   "width": 7,
+   "faces": 288,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1016.1,
+    2641.3,
+    -1011.7,
+    2627.6,
+    -1005.1,
+    2629.8,
+    -1010.3,
+    2645.5,
+    -1012.7,
+    2644.6,
+    -1012.1,
+    2642.6
+   ],
+   "id": "sint-denijslaan-288-32",
+   "latLon": [
+    51.034356,
+    3.712236
+   ],
+   "photos": [
+    {
+     "id": "814333719530464-206",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.344,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2437,
+   "at": [
+    -1000.95,
+    2631.15
+   ],
+   "centre": [
+    -1006.9,
+    2644
+   ],
+   "width": 8.7,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -1011.5,
+    2649.1,
+    -1010.3,
+    2645.5,
+    -1005.1,
+    2629.8,
+    -996.8,
+    2632.5,
+    -1003.5,
+    2652.7,
+    -1010.1,
+    2649.3,
+    -1010.9,
+    2649.2
+   ],
+   "id": "sint-denijslaan-288-33",
+   "latLon": [
+    51.034338,
+    3.712321
+   ],
+   "photos": [
+    {
+     "id": "814333719530464-170",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.371,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2436,
+   "at": [
+    -993.3,
+    2633.65
+   ],
+   "centre": [
+    -997,
+    2643.9
+   ],
+   "width": 7.4,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1003.5,
+    2652.7,
+    -996.8,
+    2632.5,
+    -989.8,
+    2634.8,
+    -995.1,
+    2650.7,
+    -999.8,
+    2648.8
+   ],
+   "id": "sint-denijslaan-288-34",
+   "latLon": [
+    51.03432,
+    3.712409
+   ],
+   "photos": [
+    {
+     "id": "616138133057215-203",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.335,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2458,
+   "at": [
+    -986.3,
+    2635.95
+   ],
+   "centre": [
+    -991.9,
+    2650.1
+   ],
+   "width": 7.4,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -995.1,
+    2650.7,
+    -989.8,
+    2634.8,
+    -982.8,
+    2637.1,
+    -986.6,
+    2648.5,
+    -990.4,
+    2647.2,
+    -991.9,
+    2652,
+    -992.3,
+    2651.9,
+    -993.5,
+    2655.8,
+    -994.7,
+    2655.4,
+    -996.1,
+    2659.2,
+    -997.5,
+    2658
+   ],
+   "id": "sint-denijslaan-288-35",
+   "latLon": [
+    51.034303,
+    3.712489
+   ],
+   "photos": [
+    {
+     "id": "616138133057215-169",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.395,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2459,
+   "at": [
+    -979.15,
+    2638.3
+   ],
+   "centre": [
+    -982.2,
+    2650
+   ],
+   "width": 7.7,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -986.6,
+    2648.5,
+    -982.8,
+    2637.1,
+    -975.5,
+    2639.5,
+    -979.6,
+    2651.6,
+    -982.6,
+    2660.9,
+    -986.2,
+    2659.7,
+    -983.4,
+    2651.2,
+    -982.4,
+    2650.8,
+    -981.8,
+    2650.9,
+    -981.5,
+    2650.2
+   ],
+   "id": "sint-denijslaan-288-36",
+   "latLon": [
+    51.034286,
+    3.712571
+   ],
+   "photos": [
+    {
+     "id": "719017085807704-204",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.34,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2453,
+   "at": [
+    -972,
+    2640.65
+   ],
+   "centre": [
+    -976.1,
+    2654.5
+   ],
+   "width": 7.4,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -979.6,
+    2651.6,
+    -975.5,
+    2639.5,
+    -968.5,
+    2641.8,
+    -975.3,
+    2662.3,
+    -977.1,
+    2667.4,
+    -980.7,
+    2666.3,
+    -976.2,
+    2652.9
+   ],
+   "id": "sint-denijslaan-288-37",
+   "latLon": [
+    51.034269,
+    3.712652
+   ],
+   "photos": [
+    {
+     "id": "514437003072230",
+     "metres": 20,
+     "off": 14,
+     "span": [
+      0.63,
+      0.865
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2456,
+   "at": [
+    -964.95,
+    2642.95
+   ],
+   "centre": [
+    -969.3,
+    2656.3
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    -975.3,
+    2662.3,
+    -968.5,
+    2641.8,
+    -961.4,
+    2644.1,
+    -967.9,
+    2663.8,
+    -971.1,
+    2662.6,
+    -971.6,
+    2663.5
+   ],
+   "id": "sint-denijslaan-288-38",
+   "latLon": [
+    51.034253,
+    3.712733
+   ],
+   "photos": [
+    {
+     "id": "514437003072230",
+     "metres": 16,
+     "off": 1,
+     "span": [
+      0.297,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2389,
+   "at": [
+    -950.75,
+    2647.65
+   ],
+   "centre": [
+    -956.3,
+    2662.2
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -957.9,
+    2657.4,
+    -954.3,
+    2646.5,
+    -947.2,
+    2648.8,
+    -955.3,
+    2673.2,
+    -959.1,
+    2671.9,
+    -958.5,
+    2669.3,
+    -961.6,
+    2668.3
+   ],
+   "id": "sint-denijslaan-288-39",
+   "latLon": [
+    51.034219,
+    3.712895
+   ],
+   "photos": [
+    {
+     "id": "382114990699069",
+     "metres": 31,
+     "off": 12,
+     "span": [
+      0.584,
+      0.736
+     ]
+    },
+    {
+     "id": "954640621992955",
+     "metres": 12,
+     "off": 11,
+     "span": [
+      0.045,
+      0.507
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2393,
+   "at": [
+    -936.5,
+    2652.3999999999996
+   ],
+   "centre": [
+    -938.4,
+    2658
+   ],
+   "width": 7.6,
+   "faces": 288,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -943.9,
+    2662.5,
+    -940.1,
+    2651.2,
+    -932.9,
+    2653.6,
+    -936.7,
+    2664.9
+   ],
+   "id": "sint-denijslaan-288-40",
+   "latLon": [
+    51.034184,
+    3.713058
+   ],
+   "photos": [
+    {
+     "id": "1164613620755927",
+     "metres": 29,
+     "off": 21,
+     "span": [
+      0.698,
+      0.879
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2457,
+   "at": [
+    -929.95,
+    2654.55
+   ],
+   "centre": [
+    -934.3,
+    2666.6
+   ],
+   "width": 6.2,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -936.7,
+    2664.9,
+    -932.9,
+    2653.6,
+    -927,
+    2655.5,
+    -930.7,
+    2666.7,
+    -932.8,
+    2666,
+    -934.4,
+    2670.5,
+    -935.9,
+    2670.1,
+    -938,
+    2676.4,
+    -940.3,
+    2675.7
+   ],
+   "id": "sint-denijslaan-288-41",
+   "latLon": [
+    51.034169,
+    3.713133
+   ],
+   "photos": [
+    {
+     "id": "1164613620755927",
+     "metres": 28,
+     "off": 10,
+     "span": [
+      0.563,
+      0.698
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2460,
+   "at": [
+    -922.8,
+    2656.9
+   ],
+   "centre": [
+    -927.3,
+    2668.7
+   ],
+   "width": 8.9,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -930.7,
+    2666.7,
+    -927,
+    2655.5,
+    -918.6,
+    2658.3,
+    -922.2,
+    2669.1,
+    -926.9,
+    2667.4,
+    -926.6,
+    2668.8,
+    -927.3,
+    2671,
+    -928.2,
+    2671.7,
+    -930.7,
+    2679.6,
+    -934.5,
+    2678.4
+   ],
+   "id": "sint-denijslaan-288-42",
+   "latLon": [
+    51.034152,
+    3.713215
+   ],
+   "photos": [
+    {
+     "id": "1753004081744891",
+     "metres": 27,
+     "off": 9,
+     "span": [
+      0.522,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2395,
+   "at": [
+    -915.7,
+    2659.25
+   ],
+   "centre": [
+    -919.5,
+    2671.2
+   ],
+   "width": 6.1,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -922.2,
+    2669.1,
+    -918.6,
+    2658.3,
+    -912.8,
+    2660.2,
+    -918.5,
+    2677.5,
+    -920.2,
+    2682.5,
+    -924.1,
+    2681.2,
+    -920.4,
+    2669.7
+   ],
+   "id": "sint-denijslaan-288-43",
+   "latLon": [
+    51.034135,
+    3.713296
+   ],
+   "photos": [
+    {
+     "id": "745193890062919",
+     "metres": 26,
+     "off": 8,
+     "span": [
+      0.539,
+      0.683
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2394,
+   "at": [
+    -908.5999999999999,
+    2661.55
+   ],
+   "centre": [
+    -911.3,
+    2672.4
+   ],
+   "width": 8.8,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    -918.5,
+    2677.5,
+    -912.8,
+    2660.2,
+    -904.4,
+    2662.9,
+    -908.2,
+    2674.4,
+    -909.1,
+    2677,
+    -912.4,
+    2675.9,
+    -913.6,
+    2679.1
+   ],
+   "id": "sint-denijslaan-288-44",
+   "latLon": [
+    51.034118,
+    3.713377
+   ],
+   "photos": [
+    {
+     "id": "534502991789115",
+     "metres": 25,
+     "off": 7,
+     "span": [
+      0.486,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2419,
+   "at": [
+    -900.8499999999999,
+    2664.05
+   ],
+   "centre": [
+    -906,
+    2679.7
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -908.2,
+    2674.4,
+    -904.4,
+    2662.9,
+    -897.3,
+    2665.2,
+    -903.3,
+    2683.1,
+    -903.6,
+    2684.2,
+    -906.3,
+    2692.2,
+    -910.7,
+    2690.8,
+    -909.1,
+    2685.4,
+    -908.7,
+    2685.5,
+    -907.2,
+    2681.4,
+    -907.5,
+    2679.9,
+    -906.9,
+    2678.2,
+    -905.9,
+    2677.5,
+    -905.3,
+    2675.6
+   ],
+   "id": "sint-denijslaan-288-45",
+   "latLon": [
+    51.0341,
+    3.713466
+   ],
+   "photos": [
+    {
+     "id": "534502991789115",
+     "metres": 26,
+     "off": 7,
+     "span": [
+      0.323,
+      0.486
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2416,
+   "at": [
+    -892.3499999999999,
+    2666.85
+   ],
+   "centre": [
+    -898.2,
+    2679.4
+   ],
+   "width": 10.4,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 5,
+   "eaves": 17,
+   "top": 21,
+   "kind": "house",
+   "ring": [
+    -903.3,
+    2683.1,
+    -897.3,
+    2665.2,
+    -887.4,
+    2668.5,
+    -893.6,
+    2687.4,
+    -901.1,
+    2685,
+    -901.5,
+    2683.7,
+    -902.9,
+    2683.2
+   ],
+   "id": "sint-denijslaan-288-46",
+   "latLon": [
+    51.03408,
+    3.713563
+   ],
+   "photos": [
+    {
+     "id": "534502991789115",
+     "metres": 30,
+     "off": 20,
+     "span": [
+      0.124,
+      0.323
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2359,
+   "at": [
+    -885.3,
+    2669.2
+   ],
+   "centre": [
+    -889.2,
+    2681.5
+   ],
+   "width": 4.4,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    -893.6,
+    2687.4,
+    -887.4,
+    2668.5,
+    -883.2,
+    2669.9,
+    -889.2,
+    2687.8,
+    -890.5,
+    2687.4,
+    -891.5,
+    2688.1
+   ],
+   "id": "sint-denijslaan-288-47",
+   "latLon": [
+    51.034063,
+    3.713643
+   ],
+   "photos": [
+    {
+     "id": "1107684999844517",
+     "metres": 31,
+     "off": 18,
+     "span": [
+      0.706,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2413,
+   "at": [
+    -880.2,
+    2670.8500000000004
+   ],
+   "centre": [
+    -884.3,
+    2682.7
+   ],
+   "width": 6.3,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 0.9,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    -890.6,
+    2692,
+    -889.2,
+    2687.8,
+    -883.2,
+    2669.9,
+    -877.2,
+    2671.8,
+    -880.7,
+    2682.4,
+    -882.7,
+    2681.8,
+    -886.5,
+    2693.4
+   ],
+   "id": "sint-denijslaan-288-48",
+   "latLon": [
+    51.034051,
+    3.713702
+   ],
+   "photos": [
+    {
+     "id": "4223883317736648",
+     "metres": 31,
+     "off": 14,
+     "span": [
+      0.633,
+      0.764
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2385,
+   "at": [
+    -864.7,
+    2676.1
+   ],
+   "centre": [
+    -868.9,
+    2688.6
+   ],
+   "width": 8.9,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -874,
+    2690.1,
+    -868.9,
+    2674.7,
+    -860.5,
+    2677.5,
+    -865.3,
+    2691.9,
+    -865.9,
+    2693.5,
+    -870.1,
+    2692.1,
+    -871,
+    2695.4,
+    -875.3,
+    2693.9
+   ],
+   "id": "sint-denijslaan-288-49",
+   "latLon": [
+    51.034013,
+    3.713879
+   ],
+   "photos": [
+    {
+     "id": "1037428360266189",
+     "metres": 31,
+     "off": 9,
+     "span": [
+      0.533,
+      0.704
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2435,
+   "at": [
+    -856.85,
+    2678.7
+   ],
+   "centre": [
+    -861.7,
+    2700.7
+   ],
+   "width": 7.7,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -865.3,
+    2691.9,
+    -860.5,
+    2677.5,
+    -853.2,
+    2679.9,
+    -855.8,
+    2688.4,
+    -853.8,
+    2689.2,
+    -860.2,
+    2708.2,
+    -863.4,
+    2717.9,
+    -864.2,
+    2717.6,
+    -866.8,
+    2716.8,
+    -867.3,
+    2715.8,
+    -865.6,
+    2710.1,
+    -864.9,
+    2703.1,
+    -861.5,
+    2693.2
+   ],
+   "id": "sint-denijslaan-288-50",
+   "latLon": [
+    51.033994,
+    3.713969
+   ],
+   "photos": [
+    {
+     "id": "1166022444266876",
+     "metres": 31,
+     "off": 11,
+     "span": [
+      0.571,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2434,
+   "at": [
+    -845.4,
+    2682.55
+   ],
+   "centre": [
+    -851,
+    2698.8
+   ],
+   "width": 11.8,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -860.2,
+    2708.2,
+    -853.8,
+    2689.2,
+    -851,
+    2680.7,
+    -839.8,
+    2684.4,
+    -843.5,
+    2695.6,
+    -846.5,
+    2694.7,
+    -848.3,
+    2695.9,
+    -847.8,
+    2697,
+    -847.7,
+    2697.7,
+    -852.3,
+    2711.2,
+    -855.6,
+    2711.6,
+    -858,
+    2709.5,
+    -857.9,
+    2709.1
+   ],
+   "id": "sint-denijslaan-288-51",
+   "latLon": [
+    51.033966,
+    3.7141
+   ],
+   "photos": [
+    {
+     "id": "3377388149141254",
+     "metres": 29,
+     "off": 11,
+     "span": [
+      0.535,
+      0.789
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2410,
+   "at": [
+    -836.25,
+    2685.55
+   ],
+   "centre": [
+    -839.8,
+    2697.5
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -843.5,
+    2695.6,
+    -839.8,
+    2684.4,
+    -832.7,
+    2686.7,
+    -838.6,
+    2704.5,
+    -839.8,
+    2708,
+    -843.9,
+    2706.6,
+    -840.6,
+    2696.6
+   ],
+   "id": "sint-denijslaan-288-52",
+   "latLon": [
+    51.033944,
+    3.714204
+   ],
+   "photos": [
+    {
+     "id": "3377388149141254",
+     "metres": 31,
+     "off": 2,
+     "span": [
+      0.405,
+      0.535
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2417,
+   "at": [
+    -829.1,
+    2687.8999999999996
+   ],
+   "centre": [
+    -832.2,
+    2700.1
+   ],
+   "width": 7.6,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 4,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    -838.6,
+    2704.5,
+    -832.7,
+    2686.7,
+    -825.5,
+    2689.1,
+    -829,
+    2699.9,
+    -830.8,
+    2705.1,
+    -833.1,
+    2704.4,
+    -833.4,
+    2705.1,
+    -834.8,
+    2705.8
+   ],
+   "id": "sint-denijslaan-288-53",
+   "latLon": [
+    51.033927,
+    3.714286
+   ],
+   "photos": [
+    {
+     "id": "415057353802582",
+     "metres": 29,
+     "off": 7,
+     "span": [
+      0.519,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2415,
+   "at": [
+    -814.8499999999999,
+    2692.65
+   ],
+   "centre": [
+    -818.2,
+    2701.2
+   ],
+   "width": 7.5,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -825,
+    2705.6,
+    -818.4,
+    2691.5,
+    -811.3,
+    2693.8,
+    -818,
+    2713.9
+   ],
+   "id": "sint-denijslaan-288-54",
+   "latLon": [
+    51.033893,
+    3.714449
+   ],
+   "photos": [
+    {
+     "id": "1215734316549734",
+     "metres": 44,
+     "off": 5,
+     "span": [
+      0.44,
+      0.496
+     ]
+    },
+    {
+     "id": "767145154404898",
+     "metres": 29,
+     "off": 3,
+     "span": [
+      0.466,
+      0.609
+     ]
+    },
+    {
+     "id": "458072208596298",
+     "metres": 17,
+     "off": 7,
+     "span": [
+      0.462,
+      0.772
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2418,
+   "at": [
+    -793.0999999999999,
+    2699.95
+   ],
+   "centre": [
+    -795.4,
+    2711.8
+   ],
+   "width": 14.3,
+   "faces": 288,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -805.5,
+    2714.7,
+    -799.9,
+    2697.7,
+    -786.3,
+    2702.2,
+    -791,
+    2715.3,
+    -792.1,
+    2718.2,
+    -796.2,
+    2716.9,
+    -796.5,
+    2717.7
+   ],
+   "id": "sint-denijslaan-288-55",
+   "latLon": [
+    51.03384,
+    3.714697
+   ],
+   "photos": [
+    {
+     "id": "677286014958065",
+     "metres": 42,
+     "off": 1,
+     "span": [
+      0.452,
+      0.562
+     ]
+    },
+    {
+     "id": "6119295178096954",
+     "metres": 29,
+     "off": 5,
+     "span": [
+      0.433,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2689,
+   "at": [
+    -776.7,
+    2705.35
+   ],
+   "centre": [
+    -774.9,
+    2714.4
+   ],
+   "width": 20.2,
+   "faces": 288,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": null,
+   "top": 4.5,
+   "kind": "apartments",
+   "ring": [
+    -786.3,
+    2702.2,
+    -767.1,
+    2708.5,
+    -766.6,
+    2709.5,
+    -767.7,
+    2712.8,
+    -765.7,
+    2713.4,
+    -767,
+    2717.4,
+    -769,
+    2716.7,
+    -771.8,
+    2725,
+    -786.5,
+    2720,
+    -785.5,
+    2717.1,
+    -791,
+    2715.3
+   ],
+   "id": "sint-denijslaan-288-56",
+   "latLon": [
+    51.033801,
+    3.714885
+   ],
+   "photos": [
+    {
+     "id": "1095771535649735",
+     "metres": 41,
+     "off": 3,
+     "span": [
+      0.437,
+      0.598
+     ]
+    },
+    {
+     "id": "3127545504222092",
+     "metres": 33,
+     "off": 10,
+     "span": [
+      0.227,
+      0.548
+     ]
+    },
+    {
+     "id": "209727577429951",
+     "metres": 38,
+     "off": 17,
+     "span": [
+      0.575,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1355,
+   "at": [
+    -1932.65,
+    2313.95
+   ],
+   "centre": [
+    -1935.2,
+    2320.9
+   ],
+   "width": 12.1,
+   "faces": 289,
+   "toStreet": 10.9,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -1940.5,
+    2320.9,
+    -1940.2,
+    2321.5,
+    -1936.8,
+    2322.7,
+    -1936.4,
+    2321.6,
+    -1933.2,
+    2322.8,
+    -1933.5,
+    2323.8,
+    -1930.1,
+    2324.9,
+    -1929.9,
+    2324.3,
+    -1926.9,
+    2315.9,
+    -1938.4,
+    2312,
+    -1941,
+    2319.5
+   ],
+   "id": "sint-denijslaan-289-57",
+   "latLon": [
+    51.036633,
+    3.70167
+   ],
+   "photos": [
+    {
+     "id": "606712448490548",
+     "metres": 39,
+     "off": 11,
+     "span": [
+      0.522,
+      0.612
+     ]
+    },
+    {
+     "id": "1916555652130461",
+     "metres": 43,
+     "off": 7,
+     "span": [
+      0.502,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1370,
+   "at": [
+    -1924.5500000000002,
+    2316.7
+   ],
+   "centre": [
+    -1926.3,
+    2320.3
+   ],
+   "width": 5,
+   "faces": 289,
+   "toStreet": 10.9,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -1929.9,
+    2324.3,
+    -1928.7,
+    2324.8,
+    -1926.7,
+    2319,
+    -1923.1,
+    2320.1,
+    -1922.2,
+    2317.5,
+    -1926.9,
+    2315.9
+   ],
+   "id": "sint-denijslaan-289-58",
+   "latLon": [
+    51.036613,
+    3.701763
+   ],
+   "photos": [
+    {
+     "id": "606712448490548",
+     "metres": 38,
+     "off": 0,
+     "span": [
+      0.484,
+      0.522
+     ]
+    },
+    {
+     "id": "454080537471256",
+     "metres": 43,
+     "off": 8,
+     "span": [
+      0.533,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1369,
+   "at": [
+    -1916.8000000000002,
+    2319.4
+   ],
+   "centre": [
+    -1915.8,
+    2330.2
+   ],
+   "width": 11.4,
+   "faces": 289,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1928.7,
+    2324.8,
+    -1924.9,
+    2326.1,
+    -1924.8,
+    2326.6,
+    -1920.6,
+    2328.1,
+    -1923,
+    2335.1,
+    -1916.8,
+    2337,
+    -1916.1,
+    2335.2,
+    -1911.9,
+    2336.4,
+    -1912.7,
+    2340.8,
+    -1904.2,
+    2342.6,
+    -1903.3,
+    2338.4,
+    -1908.8,
+    2337.3,
+    -1907.2,
+    2332.2,
+    -1908.4,
+    2329.9,
+    -1908,
+    2328.7,
+    -1913.4,
+    2327,
+    -1911.4,
+    2321.3,
+    -1922.2,
+    2317.5,
+    -1923.1,
+    2320.1,
+    -1926.7,
+    2319
+   ],
+   "id": "sint-denijslaan-289-59",
+   "latLon": [
+    51.036593,
+    3.701851
+   ],
+   "photos": [
+    {
+     "id": "1676749482865159",
+     "metres": 43,
+     "off": 13,
+     "span": [
+      0.54,
+      0.613
+     ]
+    },
+    {
+     "id": "606712448490548",
+     "metres": 38,
+     "off": 9,
+     "span": [
+      0.397,
+      0.484
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1489,
+   "at": [
+    -1880.6999999999998,
+    2331.55
+   ],
+   "centre": [
+    -1884.4,
+    2339.6
+   ],
+   "width": 7.2,
+   "faces": 289,
+   "toStreet": 11,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 8.8,
+   "kind": "house",
+   "ring": [
+    -1877.3,
+    2332.7,
+    -1884.1,
+    2330.4,
+    -1886.7,
+    2332,
+    -1888,
+    2338.1,
+    -1890.2,
+    2348.7,
+    -1883.1,
+    2350.4,
+    -1881.2,
+    2344.7
+   ],
+   "id": "sint-denijslaan-289-60",
+   "latLon": [
+    51.036506,
+    3.702264
+   ],
+   "photos": [
+    {
+     "id": "1056617495890780",
+     "metres": 40,
+     "off": 1,
+     "span": [
+      0.468,
+      0.519
+     ]
+    },
+    {
+     "id": "468120642824901",
+     "metres": 43,
+     "off": 8,
+     "span": [
+      0.431,
+      0.475
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1142,
+   "at": [
+    -1806.3,
+    2356.7
+   ],
+   "centre": [
+    -1824.2,
+    2366.2
+   ],
+   "width": 41.9,
+   "faces": 289,
+   "toStreet": 11.1,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1838.2,
+    2379.3,
+    -1819,
+    2373.5,
+    -1812.7,
+    2371.5,
+    -1786.5,
+    2363.5,
+    -1826.1,
+    2349.9,
+    -1830,
+    2361.5,
+    -1838,
+    2364.2,
+    -1843,
+    2365.9
+   ],
+   "id": "sint-denijslaan-289-61",
+   "latLon": [
+    51.036324,
+    3.703114
+   ],
+   "photos": [
+    {
+     "id": "946825920523267",
+     "metres": 41,
+     "off": 2,
+     "span": [
+      0.378,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1123,
+   "at": [
+    -1738.85,
+    2379.85
+   ],
+   "centre": [
+    -1778.7,
+    2407.8
+   ],
+   "width": 16,
+   "faces": 289,
+   "toStreet": 11.6,
+   "floors": 1,
+   "eaves": 4,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -1720.4,
+    2386.4,
+    -1731.3,
+    2382.5,
+    -1746.4,
+    2377.2,
+    -1755.8,
+    2380,
+    -1783.8,
+    2389,
+    -1781.4,
+    2396,
+    -1757.6,
+    2388.5,
+    -1737.7,
+    2395,
+    -1742,
+    2401,
+    -1884.3,
+    2437.3,
+    -1885.8,
+    2429.4,
+    -1898.4,
+    2433.5,
+    -1894.3,
+    2456.2,
+    -1890,
+    2455.1,
+    -1837,
+    2441.8,
+    -1756.7,
+    2421.6,
+    -1731.5,
+    2415,
+    -1729.9,
+    2412.7,
+    -1721.5,
+    2400.9,
+    -1716.8,
+    2394.3,
+    -1713.1,
+    2389.1,
+    -1716.1,
+    2388
+   ],
+   "id": "sint-denijslaan-289-62",
+   "latLon": [
+    51.036156,
+    3.703886
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 928,
+   "at": [
+    -1602.5,
+    2431.35
+   ],
+   "centre": [
+    -1606.7,
+    2444.2
+   ],
+   "width": 8.4,
+   "faces": 289,
+   "toStreet": 16.7,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -1598.5,
+    2432.7,
+    -1606.5,
+    2430,
+    -1612.9,
+    2448.8,
+    -1612.6,
+    2448.9,
+    -1609.7,
+    2449.7,
+    -1608.5,
+    2446.6,
+    -1604.4,
+    2447.9,
+    -1603.9,
+    2446.6,
+    -1603.4,
+    2446.8
+   ],
+   "id": "sint-denijslaan-289-63",
+   "latLon": [
+    51.035783,
+    3.705444
+   ],
+   "photos": [
+    {
+     "id": "1374456606891487-207",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.392,
+      0.601
+     ]
+    },
+    {
+     "id": "650652277664177-188",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.402,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 930,
+   "at": [
+    -1569.15,
+    2437.4
+   ],
+   "centre": [
+    -1571.5,
+    2445.7
+   ],
+   "width": 10,
+   "faces": 289,
+   "toStreet": 11.4,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1564.4,
+    2439,
+    -1573.9,
+    2435.8,
+    -1578.2,
+    2448.2,
+    -1572.1,
+    2450.5,
+    -1571.7,
+    2449.8,
+    -1568.5,
+    2450.9
+   ],
+   "id": "sint-denijslaan-289-64",
+   "latLon": [
+    51.03574,
+    3.705826
+   ],
+   "photos": [
+    {
+     "id": "515199208043849-217",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.34,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 938,
+   "at": [
+    -1560.25,
+    2440.4
+   ],
+   "centre": [
+    -1564.4,
+    2449.8
+   ],
+   "width": 8.8,
+   "faces": 289,
+   "toStreet": 11.3,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -1568.5,
+    2450.9,
+    -1570.6,
+    2457.1,
+    -1562.4,
+    2460,
+    -1556.1,
+    2441.8,
+    -1564.4,
+    2439
+   ],
+   "id": "sint-denijslaan-289-65",
+   "latLon": [
+    51.035718,
+    3.705927
+   ],
+   "photos": [
+    {
+     "id": "515199208043849-183",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.377,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 944,
+   "at": [
+    -1552.1,
+    2443.15
+   ],
+   "centre": [
+    -1557.3,
+    2455.4
+   ],
+   "width": 8.4,
+   "faces": 289,
+   "toStreet": 11.2,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -1562.4,
+    2460,
+    -1561.6,
+    2460.3,
+    -1560.9,
+    2461.8,
+    -1554.8,
+    2463.8,
+    -1548.1,
+    2444.5,
+    -1556.1,
+    2441.8
+   ],
+   "id": "sint-denijslaan-289-66",
+   "latLon": [
+    51.035698,
+    3.70602
+   ],
+   "photos": [
+    {
+     "id": "2943724012475146-199",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.363,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 939,
+   "at": [
+    -1544.5,
+    2445.75
+   ],
+   "centre": [
+    -1548.3,
+    2456.5
+   ],
+   "width": 7.6,
+   "faces": 289,
+   "toStreet": 11.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1554.8,
+    2463.8,
+    -1551.2,
+    2465,
+    -1549.1,
+    2458.8,
+    -1545.4,
+    2460.1,
+    -1540.9,
+    2447,
+    -1548.1,
+    2444.5
+   ],
+   "id": "sint-denijslaan-289-67",
+   "latLon": [
+    51.035679,
+    3.706107
+   ],
+   "photos": [
+    {
+     "id": "1304208320658338-216",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.378,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 945,
+   "at": [
+    -1537.35,
+    2448.2
+   ],
+   "centre": [
+    -1542.3,
+    2460.8
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 11.1,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -1545.4,
+    2460.1,
+    -1547.8,
+    2466.9,
+    -1544.2,
+    2468.2,
+    -1543.6,
+    2466.5,
+    -1540.1,
+    2467.7,
+    -1533.8,
+    2449.4,
+    -1540.9,
+    2447
+   ],
+   "id": "sint-denijslaan-289-68",
+   "latLon": [
+    51.035662,
+    3.706189
+   ],
+   "photos": [
+    {
+     "id": "1304208320658338-188",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.39,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 937,
+   "at": [
+    -1521.75,
+    2453.5
+   ],
+   "centre": [
+    -1525.9,
+    2465.8
+   ],
+   "width": 9.8,
+   "faces": 289,
+   "toStreet": 11,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -1517.1,
+    2455.1,
+    -1526.4,
+    2451.9,
+    -1533.8,
+    2473.2,
+    -1528.8,
+    2475.2,
+    -1526.7,
+    2468.8,
+    -1522.3,
+    2470.3
+   ],
+   "id": "sint-denijslaan-289-69",
+   "latLon": [
+    51.035623,
+    3.706367
+   ],
+   "photos": [
+    {
+     "id": "1820024475461360-198",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.333,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 947,
+   "at": [
+    -1505.9499999999998,
+    2458.8500000000004
+   ],
+   "centre": [
+    -1510.7,
+    2469.9
+   ],
+   "width": 8.8,
+   "faces": 289,
+   "toStreet": 10.8,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -1516.4,
+    2475.5,
+    -1516.8,
+    2476.8,
+    -1508.6,
+    2479.6,
+    -1501.8,
+    2460.3,
+    -1510.1,
+    2457.4
+   ],
+   "id": "sint-denijslaan-289-70",
+   "latLon": [
+    51.035585,
+    3.706548
+   ],
+   "photos": [
+    {
+     "id": "9506096122769287-194",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.351,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 933,
+   "at": [
+    -1491.05,
+    2463.85
+   ],
+   "centre": [
+    -1495.7,
+    2475
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 10.7,
+   "floors": 2,
+   "eaves": 5.7,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1499.6,
+    2476.9,
+    -1502,
+    2483.9,
+    -1494.7,
+    2486.5,
+    -1487.5,
+    2465.1,
+    -1494.6,
+    2462.6
+   ],
+   "id": "sint-denijslaan-289-71",
+   "latLon": [
+    51.035548,
+    3.706718
+   ],
+   "photos": [
+    {
+     "id": "1667479827491531-193",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.375,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 943,
+   "at": [
+    -1470.9,
+    2476.4
+   ],
+   "centre": [
+    -1474.8,
+    2486.8
+   ],
+   "width": 8.5,
+   "faces": 289,
+   "toStreet": 15.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1481.4,
+    2492.1,
+    -1482.4,
+    2495,
+    -1479,
+    2496.2,
+    -1477.5,
+    2491.8,
+    -1476.1,
+    2492.2,
+    -1475,
+    2489,
+    -1471.2,
+    2490.2,
+    -1470.6,
+    2488.5,
+    -1467.2,
+    2478.6,
+    -1466.9,
+    2477.8,
+    -1474.9,
+    2475,
+    -1475.5,
+    2475.1
+   ],
+   "id": "sint-denijslaan-289-72",
+   "latLon": [
+    51.035458,
+    3.706949
+   ],
+   "photos": [
+    {
+     "id": "643719605057032-220",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.398,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1045,
+   "at": [
+    -1463.75,
+    2479.8
+   ],
+   "centre": [
+    -1465.1,
+    2488.5
+   ],
+   "width": 7.3,
+   "faces": 289,
+   "toStreet": 16.8,
+   "floors": 2,
+   "eaves": 6.2,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1467.2,
+    2478.6,
+    -1460.3,
+    2481,
+    -1456.4,
+    2482.3,
+    -1459.7,
+    2492.1,
+    -1462.2,
+    2499.5,
+    -1473,
+    2495.5,
+    -1471.2,
+    2490.2,
+    -1470.6,
+    2488.5
+   ],
+   "id": "sint-denijslaan-289-73",
+   "latLon": [
+    51.035433,
+    3.707031
+   ],
+   "photos": [
+    {
+     "id": "643719605057032-198",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.417,
+      0.59
+     ]
+    },
+    {
+     "id": "1230670552112998-216",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.261,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 925,
+   "at": [
+    -1442.9,
+    2484.45
+   ],
+   "centre": [
+    -1439.5,
+    2494
+   ],
+   "width": 7,
+   "faces": 289,
+   "toStreet": 14.4,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1453.8,
+    2499.7,
+    -1447.7,
+    2502.6,
+    -1448,
+    2503.4,
+    -1441.1,
+    2505.6,
+    -1440.8,
+    2505.1,
+    -1438.8,
+    2505.7,
+    -1437.7,
+    2502.5,
+    -1435.5,
+    2503.3,
+    -1432.6,
+    2495.1,
+    -1433.8,
+    2494.6,
+    -1434.2,
+    2494.5,
+    -1433.2,
+    2491.7,
+    -1433.9,
+    2490.5,
+    -1433,
+    2487.8,
+    -1433.4,
+    2487.6,
+    -1433,
+    2486.3,
+    -1433.7,
+    2484.4,
+    -1437.4,
+    2483.2,
+    -1439.1,
+    2484.3,
+    -1439.6,
+    2485.6,
+    -1446.2,
+    2483.3,
+    -1449.7,
+    2493,
+    -1451.3,
+    2492.5
+   ],
+   "id": "sint-denijslaan-289-74",
+   "latLon": [
+    51.035399,
+    3.707269
+   ],
+   "photos": [
+    {
+     "id": "3956425224573798-183",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.419,
+      0.593
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2445,
+   "at": [
+    -1118,
+    2592.05
+   ],
+   "centre": [
+    -1122.4,
+    2604.3
+   ],
+   "width": 11.2,
+   "faces": 289,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1112.7,
+    2593.9,
+    -1119,
+    2613.2,
+    -1121.1,
+    2619.6,
+    -1127.1,
+    2619.7,
+    -1127.4,
+    2601.9,
+    -1126,
+    2591.8,
+    -1123.3,
+    2590.2
+   ],
+   "id": "sint-denijslaan-289-75",
+   "latLon": [
+    51.034621,
+    3.710983
+   ],
+   "photos": [
+    {
+     "id": "749836382685756-182",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.254,
+      0.858
+     ]
+    },
+    {
+     "id": "9185410271570793-225",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.233,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2390,
+   "at": [
+    -1109.15,
+    2595.1000000000004
+   ],
+   "centre": [
+    -1113.2,
+    2607.3
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -1121.1,
+    2619.6,
+    -1112.7,
+    2593.9,
+    -1105.6,
+    2596.3,
+    -1113.2,
+    2619.3
+   ],
+   "id": "sint-denijslaan-289-76",
+   "latLon": [
+    51.034599,
+    3.711084
+   ],
+   "photos": [
+    {
+     "id": "300923238739647-199",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.316,
+      0.687
+     ]
+    },
+    {
+     "id": "9185410271570793-178",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.364,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2448,
+   "at": [
+    -1102.1,
+    2597.5
+   ],
+   "centre": [
+    -1106.6,
+    2612
+   ],
+   "width": 7.4,
+   "faces": 289,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": null,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -1113.2,
+    2619.3,
+    -1105.6,
+    2596.3,
+    -1098.6,
+    2598.7,
+    -1105.8,
+    2619.1,
+    -1106.6,
+    2619.2,
+    -1109.8,
+    2619.2
+   ],
+   "id": "sint-denijslaan-289-77",
+   "latLon": [
+    51.034581,
+    3.711165
+   ],
+   "photos": [
+    {
+     "id": "1565214517476442-205",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.324,
+      0.663
+     ]
+    },
+    {
+     "id": "395218832456298-231",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.351,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2443,
+   "at": [
+    -1095.35,
+    2599.8
+   ],
+   "centre": [
+    -1098.7,
+    2610.4
+   ],
+   "width": 6.9,
+   "faces": 289,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1105.8,
+    2619.1,
+    -1098.6,
+    2598.7,
+    -1092.1,
+    2600.9,
+    -1096.3,
+    2612.9,
+    -1098.5,
+    2612,
+    -1101,
+    2619
+   ],
+   "id": "sint-denijslaan-289-78",
+   "latLon": [
+    51.034565,
+    3.711242
+   ],
+   "photos": [
+    {
+     "id": "395218832456298-196",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.338,
+      0.668
+     ]
+    },
+    {
+     "id": "1565214517476442-170",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.392,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2386,
+   "at": [
+    -1082.55,
+    2604.1
+   ],
+   "centre": [
+    -1086.2,
+    2614.4
+   ],
+   "width": 6.2,
+   "faces": 289,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -1089.2,
+    2613.6,
+    -1085.5,
+    2603.1,
+    -1079.6,
+    2605.1,
+    -1083.1,
+    2615.1,
+    -1085.7,
+    2622.5,
+    -1088.7,
+    2621.6,
+    -1087.5,
+    2617.5,
+    -1090.3,
+    2616.7
+   ],
+   "id": "sint-denijslaan-289-79",
+   "latLon": [
+    51.034534,
+    3.711388
+   ],
+   "photos": [
+    {
+     "id": "962498456035875-213",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.366,
+      0.611
+     ]
+    },
+    {
+     "id": "683886142731327-207",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.346,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2442,
+   "at": [
+    -1059.2,
+    2611.8500000000004
+   ],
+   "centre": [
+    -1063.3,
+    2625.8
+   ],
+   "width": 9.5,
+   "faces": 289,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1067.5,
+    2621.6,
+    -1063.7,
+    2610.3,
+    -1054.7,
+    2613.4,
+    -1059.5,
+    2627.7,
+    -1061.6,
+    2634,
+    -1063.4,
+    2633.7,
+    -1066.5,
+    2633.1,
+    -1065.7,
+    2630.5,
+    -1066.2,
+    2630.3,
+    -1063.7,
+    2622.9
+   ],
+   "id": "sint-denijslaan-289-80",
+   "latLon": [
+    51.034478,
+    3.711655
+   ],
+   "photos": [
+    {
+     "id": "1160454855870638-224",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.273,
+      0.652
+     ]
+    },
+    {
+     "id": "167144169025014-166",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.369,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2387,
+   "at": [
+    -957.8499999999999,
+    2645.3
+   ],
+   "centre": [
+    -963.1,
+    2663.1
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    -967.9,
+    2663.8,
+    -961.4,
+    2644.1,
+    -954.3,
+    2646.5,
+    -957.9,
+    2657.4,
+    -961.1,
+    2656.3,
+    -962.5,
+    2660.6,
+    -961.9,
+    2660.8,
+    -964.6,
+    2669.3,
+    -962.2,
+    2670.1,
+    -967.3,
+    2685.4,
+    -973.3,
+    2679.9
+   ],
+   "id": "sint-denijslaan-289-81",
+   "latLon": [
+    51.034236,
+    3.712814
+   ],
+   "photos": [
+    {
+     "id": "296435465407414",
+     "metres": 12,
+     "off": 3,
+     "span": [
+      0.285,
+      0.797
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2396,
+   "at": [
+    -943.6500000000001,
+    2650
+   ],
+   "centre": [
+    -948.4,
+    2665.1
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -955.3,
+    2673.2,
+    -947.2,
+    2648.8,
+    -940.1,
+    2651.2,
+    -943.9,
+    2662.5,
+    -945.3,
+    2666.7,
+    -948.6,
+    2665.7,
+    -949.3,
+    2667.6,
+    -949.6,
+    2667.5,
+    -950.3,
+    2669.4,
+    -950.8,
+    2669.3,
+    -952.2,
+    2674.3
+   ],
+   "id": "sint-denijslaan-289-82",
+   "latLon": [
+    51.034202,
+    3.712976
+   ],
+   "photos": [
+    {
+     "id": "382114990699069",
+     "metres": 32,
+     "off": 1,
+     "span": [
+      0.444,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2412,
+   "at": [
+    -873.05,
+    2673.25
+   ],
+   "centre": [
+    -879.4,
+    2687.5
+   ],
+   "width": 8.8,
+   "faces": 289,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -884.6,
+    2694.1,
+    -880.7,
+    2682.4,
+    -877.2,
+    2671.8,
+    -868.9,
+    2674.7,
+    -874,
+    2690.1,
+    -879.8,
+    2688.2,
+    -880.9,
+    2691.8,
+    -881.2,
+    2691.8,
+    -882.3,
+    2695.2,
+    -884.5,
+    2694.6
+   ],
+   "id": "sint-denijslaan-289-83",
+   "latLon": [
+    51.034033,
+    3.713783
+   ],
+   "photos": [
+    {
+     "id": "4223883317736648",
+     "metres": 32,
+     "off": 4,
+     "span": [
+      0.477,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2376,
+   "at": [
+    -821.95,
+    2690.3
+   ],
+   "centre": [
+    -828.1,
+    2703.6
+   ],
+   "width": 7.5,
+   "faces": 289,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -832.9,
+    2711.4,
+    -831.7,
+    2707.9,
+    -830.9,
+    2705.6,
+    -829,
+    2706.3,
+    -827.5,
+    2705.3,
+    -826,
+    2700.9,
+    -829,
+    2699.9,
+    -825.5,
+    2689.1,
+    -818.4,
+    2691.5,
+    -825,
+    2705.6,
+    -828.4,
+    2708.2,
+    -832.7,
+    2711.6
+   ],
+   "id": "sint-denijslaan-289-84",
+   "latLon": [
+    51.03391,
+    3.714368
+   ],
+   "photos": [
+    {
+     "id": "1215734316549734",
+     "metres": 45,
+     "off": 3,
+     "span": [
+      0.495,
+      0.55
+     ]
+    },
+    {
+     "id": "415057353802582",
+     "metres": 31,
+     "off": 4,
+     "span": [
+      0.392,
+      0.519
+     ]
+    },
+    {
+     "id": "458072208596298",
+     "metres": 20,
+     "off": 22,
+     "span": [
+      0.771,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 1141,
+   "at": [
+    -1829.1,
+    2348.8
+   ],
+   "centre": [
+    -1834.4,
+    2354.8
+   ],
+   "width": 6.4,
+   "faces": 290,
+   "toStreet": 10.9,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1826.1,
+    2349.9,
+    -1832.1,
+    2347.7,
+    -1832.9,
+    2349.7,
+    -1836.4,
+    2348.4,
+    -1839.1,
+    2356.4,
+    -1839.3,
+    2357.1,
+    -1836,
+    2358.2,
+    -1838,
+    2364.2,
+    -1830,
+    2361.5
+   ],
+   "id": "sint-denijslaan-290-85",
+   "latLon": [
+    51.036381,
+    3.702854
+   ],
+   "photos": [
+    {
+     "id": "805027645157505",
+     "metres": 41,
+     "off": 2,
+     "span": [
+      0.467,
+      0.507
+     ]
+    },
+    {
+     "id": "1479546413407705",
+     "metres": 44,
+     "off": 12,
+     "span": [
+      0.404,
+      0.446
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 948,
+   "at": [
+    -1479.15,
+    2473.75
+   ],
+   "centre": [
+    -1482.9,
+    2485.6
+   ],
+   "width": 7.8,
+   "faces": 290,
+   "toStreet": 16.1,
+   "floors": 3,
+   "eaves": 10,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1475.5,
+    2475.1,
+    -1482.8,
+    2472.4,
+    -1487.5,
+    2485.8,
+    -1483.6,
+    2487.1,
+    -1484.7,
+    2490.3,
+    -1483.6,
+    2490.6,
+    -1483.8,
+    2491.3,
+    -1481.4,
+    2492.1
+   ],
+   "id": "sint-denijslaan-290-86",
+   "latLon": [
+    51.035477,
+    3.706854
+   ],
+   "photos": [
+    {
+     "id": "1537556860274255-200",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.397,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2420,
+   "at": [
+    -802,
+    2696.95
+   ],
+   "centre": [
+    -804.8,
+    2705.5
+   ],
+   "width": 4.5,
+   "faces": 290,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -799.9,
+    2697.7,
+    -805.5,
+    2714.7,
+    -809.8,
+    2713.3,
+    -804.1,
+    2696.2
+   ],
+   "id": "sint-denijslaan-290-87",
+   "latLon": [
+    51.033862,
+    3.714596
+   ],
+   "photos": [
+    {
+     "id": "1834662543961243",
+     "metres": 43,
+     "off": 1,
+     "span": [
+      0.491,
+      0.525
+     ]
+    },
+    {
+     "id": "741938443889795",
+     "metres": 30,
+     "off": 1,
+     "span": [
+      0.47,
+      0.552
+     ]
+    },
+    {
+     "id": "2828352187381556",
+     "metres": 14,
+     "off": 15,
+     "span": [
+      0.093,
+      0.357
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 952,
+   "at": [
+    -1409.05,
+    2492.3
+   ],
+   "centre": [
+    -1414.5,
+    2496.8
+   ],
+   "width": 11.2,
+   "faces": 291,
+   "toStreet": 10.3,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 15.1,
+   "kind": "yes",
+   "ring": [
+    -1403.8,
+    2494.3,
+    -1409.1,
+    2508.1,
+    -1419.6,
+    2504.1,
+    -1417,
+    2497.4,
+    -1419.6,
+    2496.4,
+    -1417.7,
+    2491.3,
+    -1415.1,
+    2492.3,
+    -1414.3,
+    2490.3
+   ],
+   "id": "sint-denijslaan-291-88",
+   "latLon": [
+    51.035343,
+    3.707656
+   ],
+   "photos": [
+    {
+     "id": "494344518542498",
+     "metres": 25,
+     "off": 6,
+     "span": [
+      0.376,
+      0.529
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 874,
+   "at": [
+    -2211.9,
+    2495.1499999999996
+   ],
+   "centre": [
+    -2212.4,
+    2496
+   ],
+   "width": 6.1,
+   "faces": 301,
+   "toStreet": 17.5,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -2210.2,
+    2498,
+    -2209.3,
+    2496.7,
+    -2214.5,
+    2493.6,
+    -2215.2,
+    2494.8,
+    -2214.8,
+    2495.1,
+    -2210.5,
+    2497.8
+   ],
+   "id": "sint-denijslaan-301-01",
+   "latLon": [
+    51.035322,
+    3.698478
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 871,
+   "at": [
+    -2179.2,
+    2579.4
+   ],
+   "centre": [
+    -2183.7,
+    2579.2
+   ],
+   "width": 5.5,
+   "faces": 341,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 10.2,
+   "kind": "yes",
+   "ring": [
+    -2188.6,
+    2580.8,
+    -2187.3,
+    2584.9,
+    -2178.3,
+    2582,
+    -2180.1,
+    2576.8,
+    -2180.7,
+    2577,
+    -2181.2,
+    2575.1,
+    -2187.2,
+    2577.1,
+    -2186,
+    2580.1
+   ],
+   "id": "sint-denijslaan-341-02",
+   "latLon": [
+    51.034712,
+    3.698851
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 868,
+   "at": [
+    -2240.55,
+    2399.8999999999996
+   ],
+   "centre": [
+    -2245.5,
+    2406.5
+   ],
+   "width": 9.9,
+   "faces": 342,
+   "toStreet": 15.7,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2239,
+    2404.6,
+    -2235.6,
+    2403.4,
+    -2233.8,
+    2408.7,
+    -2237.2,
+    2410,
+    -2245.4,
+    2412.7,
+    -2244.6,
+    2415.1,
+    -2250.3,
+    2416.9,
+    -2253.4,
+    2407.9,
+    -2251.5,
+    2407.3,
+    -2253,
+    2402,
+    -2252.2,
+    2401.6,
+    -2253,
+    2398.8,
+    -2242.1,
+    2395.2
+   ],
+   "id": "sint-denijslaan-342-03",
+   "latLon": [
+    51.036011,
+    3.69815
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 880,
+   "at": [
+    -2224,
+    2414
+   ],
+   "centre": [
+    -2225.7,
+    2416.9
+   ],
+   "width": 5.2,
+   "faces": 342,
+   "toStreet": 4.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    -2224,
+    2420.9,
+    -2223,
+    2420.7,
+    -2224.3,
+    2416.8,
+    -2223.2,
+    2416.5,
+    -2224.8,
+    2411.5,
+    -2231.1,
+    2413.5,
+    -2229.6,
+    2418.3,
+    -2225.3,
+    2416.9
+   ],
+   "id": "sint-denijslaan-342-04",
+   "latLon": [
+    51.035909,
+    3.698339
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 877,
+   "at": [
+    -2224.65,
+    2418.9
+   ],
+   "centre": [
+    -2226.8,
+    2419.6
+   ],
+   "width": 4.2,
+   "faces": 342,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2229.6,
+    2418.3,
+    -2228.3,
+    2422.3,
+    -2224,
+    2420.9,
+    -2225.3,
+    2416.9
+   ],
+   "id": "sint-denijslaan-342-05",
+   "latLon": [
+    51.035874,
+    3.698332
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 881,
+   "at": [
+    -2225.3,
+    2440.7
+   ],
+   "centre": [
+    -2231,
+    2442.5
+   ],
+   "width": 16,
+   "faces": 342,
+   "toStreet": 13.6,
+   "floors": 1,
+   "eaves": null,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    -2239.1,
+    2436.7,
+    -2234.2,
+    2452,
+    -2222.8,
+    2448.3,
+    -2227.8,
+    2433.1
+   ],
+   "id": "sint-denijslaan-342-06",
+   "latLon": [
+    51.035716,
+    3.698324
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 923,
+   "at": [
+    -2172.25,
+    2599.15
+   ],
+   "centre": [
+    -2177.9,
+    2601.7
+   ],
+   "width": 10.2,
+   "faces": 342,
+   "toStreet": 11.5,
+   "floors": 1,
+   "eaves": null,
+   "top": 3.9,
+   "kind": "house",
+   "ring": [
+    -2173.8,
+    2594.3,
+    -2170.7,
+    2604,
+    -2175.9,
+    2605.7,
+    -2176.2,
+    2604.5,
+    -2179.8,
+    2605.6,
+    -2181.3,
+    2600.8,
+    -2182.4,
+    2601.1,
+    -2183.5,
+    2597.2
+   ],
+   "id": "sint-denijslaan-342-07",
+   "latLon": [
+    51.034569,
+    3.698931
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 869,
+   "at": [
+    -2175.25,
+    2589.7
+   ],
+   "centre": [
+    -2181.9,
+    2590.3
+   ],
+   "width": 9.6,
+   "faces": 343,
+   "toStreet": 11.5,
+   "floors": 2,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2185.7,
+    2588,
+    -2185.5,
+    2588.4,
+    -2186.3,
+    2588.7,
+    -2183.5,
+    2597.2,
+    -2173.8,
+    2594.3,
+    -2176.7,
+    2585.1
+   ],
+   "id": "sint-denijslaan-343-08",
+   "latLon": [
+    51.034638,
+    3.698897
+   ],
+   "photos": []
+  }
+ ]
+}

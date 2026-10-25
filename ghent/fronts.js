@@ -5,9 +5,10 @@
 // The front goes on the side looking out over the Leie. The guild houses are drawn after their
 // own photos; the houses between them in the Graslei's manner, brick and white stone.
 import * as THREE from 'three';
-import { brick, ashlar, archPath, crossWindow, roundArch, pilaster, stringCourse, balustrade, lancet, rose, rng, shade } from '../core/js/facades.js';
+import { brick, ashlar, archPath, crossWindow, roundArch, pilaster, stringCourse, balustrade, lancet, rose, rng, shade, clock } from '../core/js/facades.js';
 
 const SLATE = 0x3d4248, TILES = 0x7a3a2a;
+const ONS_HUIS_SIDE = 'stone:#d3bb88';
 
 export const FRONTS = [
   // Gildehuis van de Vrije Schippers (Graslei 14, 1531): Brabantine Gothic in pale sandstone, tall
@@ -52,6 +53,22 @@ export const FRONTS = [
   { id: 'sint-baafsplein-bridge', at: [216.1, -16.9], faces: 120, gable: 'bell', wall: 'stone:#e6dcc6', roof: SLATE, eaves: 11.5, top: 21.5, draw: (g, w, h, e) => house(g, w, h, e, { wall: '#ece4d2', plaster: true }) },
   { id: 'sint-baafsplein-rechters', at: [219.1, -10.3], faces: 106, gable: 'flat', wall: 'stone:#efe9dc', roof: SLATE, top: 23.5, draw: (g, w, h, e) => house(g, w, h, e, { wall: '#f1ece1', plaster: true }) },
   { id: 'sint-baafsplein-hoek', at: [226.9, -8.4], faces: 103, gable: 'flat', wall: 'stone:#e2ddd2', roof: SLATE, top: 25.8, draw: (g, w, h, e) => house(g, w, h, e, { wall: '#e6e1d6', plaster: true }) },
+
+  // Ons Huis (Ferdinand Dierkens, 1899-1902), on the Vrijdagmarkt's north side: the socialist
+  // cooperative Vooruit's house, Bond Moyson's today. Buff stone under slate mansards; on the left an
+  // arcade of shops, three round-headed windows, "ONS HUIS", a great arch of green iron with the
+  // clock in it and "SOCIALISTISCHE WERKERSVEREENIGING" under the cornice; on the right a tall bay
+  // of iron and glass with the red BONDMOYSON sign over it. The map has it as three outlines: each
+  // wears its own stretch of the one drawing (onsHuis), along its front on the square.
+  { id: 'ons-huis', name: 'Ons Huis (Bond Moyson)', at: [180.0, -574.9], faces: 122, line: [168.1, -564.9, 175, -560.6], gable: ['mansard', 1.2, 0], wall: ONS_HUIS_SIDE, roof: SLATE, eaves: 15.6, top: 18.8, px: 28, draw: onsHuisPart(0) },
+  { id: 'ons-huis-2', at: [188.0, -571.8], faces: 126, line: [175, -560.6, 180.3, -556.8], gable: ['mansard', 0, 1.2], wall: ONS_HUIS_SIDE, roof: SLATE, eaves: 15.6, top: 18.8, px: 28, draw: onsHuisPart(8.13) },
+  { id: 'ons-huis-3', at: [190.2, -564.1], faces: 129, line: [180.3, -556.8, 184.7, -553.2], gable: ['mansard', 0.9, 0.9], wall: ONS_HUIS_SIDE, roof: SLATE, eaves: 15, top: 19.6, px: 28, draw: onsHuisPart(14.65),
+    props: (house, f, top) => house.add(at(f, f.w / 2, top, flagpole())) },
+
+  // De Gekroonde Hoofden (Burgstraat 4), by the Gravensteen: a late-Gothic brick house with a stepped
+  // gable, the restaurant of that name on the ground floor, and across the front a row of medallions
+  // with the crowned heads of the counts of Flanders it is named after
+  { id: 'gekroonde-hoofden', name: 'De Gekroonde Hoofden', at: [-362.8, -474.9], faces: 80, gable: ['stepped', 5], wall: '#8a3a28', roof: TILES, draw: gekroondeHoofden },
 ];
 
 const DARK = '#2c3540';
@@ -336,4 +353,201 @@ function ship() {
   }
   s.children.forEach(m => { m.castShadow = true; });
   return s;
+}
+
+// ------------------------------------------------------------------ Ons Huis
+
+// The whole front of Ons Huis, u from its left end (on the Garensteeg) to the right, 20.3 m wide:
+// the left part (to 14.65) under one mansard, the Bond Moyson bay to the right of it under its own.
+const OH = { w: 20.34, split: 14.65, stone: '#d9c28f', dark: '#9c6f3e', iron: '#2f4038', glass: '#28323c', gold: '#d8ab3c' };
+
+// one outline's stretch of it: its own front starts u0 along
+function onsHuisPart(u0) {
+  return (g, w) => {
+    g.save();
+    g.translate(-u0 - w / 2, 0);
+    onsHuis(g);
+    g.restore();
+  };
+}
+
+function onsHuis(g) {
+  const { w: W, split: A, stone: S, dark, iron, glass, gold } = OH;
+  // the slate of both mansards, behind everything: only where the outline lets it show
+  g.fillStyle = '#4a5058';
+  g.fillRect(0, 15, W, 6);
+  for (const [u0, u1, e, top] of [[0, A, 15.6, 18.8], [A, W, 15, 19.6]]) {
+    // the windows in the slate: round ones (oeils-de-boeuf) in stone frames, and a dormer in the middle
+    const n = Math.max(1, Math.round((u1 - u0) / 3.6)), step = (u1 - u0) / n;
+    for (let k = 0; k < n; k++) {
+      const cx = u0 + step * (k + 0.5);
+      g.fillStyle = shade(S, 0.1);
+      g.beginPath(); g.arc(cx, e + (top - e) * 0.45, 0.62, 0, Math.PI * 2); g.fill();
+      g.fillStyle = glass;
+      g.beginPath(); g.arc(cx, e + (top - e) * 0.45, 0.42, 0, Math.PI * 2); g.fill();
+    }
+    g.fillStyle = shade(S, 0.15); // the cresting along the top
+    g.fillRect(u0, top - 0.25, u1 - u0, 0.25);
+  }
+  // the left part: ashlar, with the storeys
+  ashlar(g, 0, 0, A, 15.6, S, { seed: 41, course: 0.5, vary: 0.05 });
+  // the ground floor: an arcade of four round-headed shop fronts on dark stone piers
+  g.fillStyle = shade(S, -0.25);
+  g.fillRect(0, 0, A, 0.6);
+  for (let k = 0; k < 4; k++) {
+    const cx = (A / 4) * (k + 0.5);
+    roundArch(g, cx, 0, 2.9, 4.6, shade(dark, -0.2));
+    roundArch(g, cx, 0, 2.5, 4.3, glass);
+    g.fillStyle = '#c9a65a'; g.globalAlpha = 0.35; // lit shop windows
+    g.fillRect(cx - 1.1, 0.6, 2.2, 2.4);
+    g.globalAlpha = 1;
+  }
+  stringCourse(g, 0, A, 5.0, S, 0.6);
+  // three tall round-headed windows, between pilasters
+  for (let k = 0; k < 3; k++) {
+    const cx = (A / 3) * (k + 0.5);
+    roundArch(g, cx, 5.5, 2.5, 3.6, shade(S, -0.3));
+    roundArch(g, cx, 5.7, 2.1, 3.3, glass);
+    g.fillStyle = '#e9e2d0';
+    g.fillRect(cx - 0.05, 5.7, 0.1, 2.3);
+    g.fillRect(cx - 1.05, 7.2, 2.1, 0.08);
+  }
+  for (const u of [0.35, A / 3, (2 * A) / 3, A - 0.35]) pilaster(g, u, 5.3, 9.3, 0.5, S);
+  // "ONS HUIS", gold on a dark band
+  g.fillStyle = '#3b2b22';
+  g.fillRect(A * 0.2, 9.35, A * 0.6, 0.65);
+  letters(g, 'ONS HUIS', A / 2, 9.67, 0.48, gold, A * 0.55);
+  stringCourse(g, 0, A, 10.2, S, 0.5);
+  // the great arch: a frame of darker stone, green iron in it, the clock at the top of it
+  const ac = A / 2, aw = A * 0.66;
+  roundArch(g, ac, 10.4, aw + 0.9, 4.0 + aw / 2 * 0.45, shade(dark, -0.05));
+  roundArch(g, ac, 10.5, aw, 3.7 + aw / 2 * 0.45, iron);
+  g.fillStyle = shade(glass, 0.12);
+  for (let k = 0; k < 6; k++) g.fillRect(ac - aw / 2 + 0.2 + (aw / 6) * k, 10.7, aw / 6 - 0.35, 2.6);
+  g.fillStyle = shade(iron, 0.2);
+  g.fillRect(ac - aw / 2, 13.35, aw, 0.12);
+  clock(g, ac, 14.2, 0.75, { gold, dial: '#f1ead8' });
+  // corner piers with round medallions
+  for (const u of [0.9, A - 0.9]) {
+    pilaster(g, u, 10.3, 14.6, 1.0, S);
+    g.fillStyle = shade(dark, 0.1);
+    g.beginPath(); g.arc(u, 13.4, 0.42, 0, Math.PI * 2); g.fill();
+  }
+  // "SOCIALISTISCHE WERKERSVEREENIGING" under the cornice, then the cornice and its balustrade
+  g.fillStyle = '#3b2b22';
+  g.fillRect(0.3, 14.65, A - 0.6, 0.5);
+  letters(g, 'SOCIALISTISCHE WERKERSVEREENIGING', A / 2, 14.9, 0.36, gold, A - 1.2);
+  stringCourse(g, 0, A, 15.3, S, 0.5);
+  balustrade(g, 0, A, 15.3, 0.5, S, 0.9);
+
+  // the right part: the Bond Moyson bay
+  const B = W - A, bc = A + B / 2;
+  ashlar(g, A, 0, W, 15, shade(S, -0.03), { seed: 43, course: 0.5, vary: 0.05 });
+  g.fillStyle = shade(S, -0.25);
+  g.fillRect(A, 0, B, 0.6);
+  // the way in: a round-headed door
+  roundArch(g, bc, 0, 2.6, 4.2, shade(dark, -0.2));
+  roundArch(g, bc, 0, 2.2, 3.9, '#3a2c22');
+  // the tall window of iron and glass, round at the top, rows of panes and a ring of circles
+  const bw = B * 0.74;
+  roundArch(g, bc, 4.6, bw + 0.6, 8.6, shade(dark, -0.05));
+  roundArch(g, bc, 4.8, bw, 8.2, iron);
+  g.fillStyle = shade(glass, 0.12);
+  const cols = 5, cw = bw / cols;
+  for (let y = 5.0; y < 11.6 - bw / 2 + 1.5; y += 1.05) {
+    for (let k = 0; k < cols; k++) g.fillRect(bc - bw / 2 + cw * k + 0.08, y, cw - 0.16, 0.9);
+  }
+  g.strokeStyle = shade(iron, 0.35);
+  g.lineWidth = 0.08;
+  for (let k = 0; k < 7; k++) {
+    const a = Math.PI * (k / 6), r = bw * 0.36;
+    g.beginPath(); g.arc(bc + Math.cos(a) * r, 13.0 - bw / 2 + Math.sin(a) * r * 0.9, 0.32, 0, Math.PI * 2); g.stroke();
+  }
+  for (const u of [A + 0.3, W - 0.3]) pilaster(g, u, 0.6, 13.2, 0.55, S);
+  // the red BONDMOYSON sign, white letters, under the mansard
+  g.fillStyle = '#f2ece0';
+  g.fillRect(A + 0.25, 13.25, B - 0.5, 1.15);
+  g.fillStyle = '#c7372c';
+  g.fillRect(A + 0.35, 13.35, B - 0.7, 0.95);
+  letters(g, 'BONDMOYSON', bc, 13.82, 0.62, '#f6f1e6', B - 1.0);
+  stringCourse(g, A, W, 15.0, S, 0.5);
+}
+
+// De Gekroonde Hoofden: brick, white stone cross windows, a band of round medallions between the
+// first and second floors each with a crowned head in it, the restaurant's dark wooden front with
+// its name in gold, a stepped gable in white stone
+function gekroondeHoofden(g, w, h, e) {
+  const wall = '#8a3a28', trim = '#ece6d8', L = -w / 2, R = w / 2;
+  brick(g, L, 0, R, h, wall);
+  stepCaps(g, w, e, h, 5, trim);
+  // the restaurant: a dark green wooden front, its windows lit warm, the door in the middle, the name over it
+  g.fillStyle = '#1f3a2c';
+  g.fillRect(L + 0.3, 0.2, w - 0.6, 4.4);
+  g.fillStyle = '#e8c27a';
+  for (const x of [L + 0.8, L + 2.6, R - 4.0, R - 2.2]) g.fillRect(x, 0.9, 1.4, 2.3);
+  door(g, 0, 1.6, 3.0, '#5a3a28');
+  g.fillStyle = '#d8ab3c';
+  g.fillRect(L + 0.5, 3.45, w - 1, 0.06);
+  g.fillRect(L + 0.5, 4.4, w - 1, 0.06);
+  letters(g, 'DE GEKROONDE HOOFDEN', 0, 3.95, 0.62, '#e6c25a', w - 1.4);
+  // the first floor's windows, the medallions over them, then the floors above
+  const per = 4, step = w / per;
+  for (let k = 0; k < per; k++) window4(g, L + step * (k + 0.5), 5.2, Math.min(step * 0.56, 1.7), 2.6, { wall, trim });
+  g.fillStyle = trim;
+  g.fillRect(L, 8.35, w, 0.16);
+  g.fillRect(L, 10.05, w, 0.16);
+  const n = 7, ms = w / n;
+  for (let k = 0; k < n; k++) crowned(g, L + ms * (k + 0.5), 9.2, Math.min(0.62, ms * 0.42), k);
+  for (let y = 10.5; y + 2.6 < e; y += 3.1) {
+    for (let k = 0; k < per; k++) window4(g, L + step * (k + 0.5), y, Math.min(step * 0.56, 1.7), 2.3, { wall, trim });
+    for (let k = 0; k <= per; k++) anchor(g, L + step * k, y + 2.6);
+  }
+  // the gable: two rows of windows, a little round one at the top
+  for (const [y, m] of [[e + 0.6, 3], [e + 3.4, 2]]) {
+    if (y > h - 2.6) continue;
+    for (let k = 0; k < m; k++) window4(g, (k - (m - 1) / 2) * 2.2, y, 1.0, 1.9, { wall, trim });
+  }
+}
+
+// one of the counts in his medallion: a white stone roundel, his face, beard and a gold crown
+function crowned(g, cx, cy, r, k) {
+  g.fillStyle = '#e8e1d0';
+  g.beginPath(); g.arc(cx, cy, r, 0, Math.PI * 2); g.fill();
+  g.fillStyle = '#26303a';
+  g.beginPath(); g.arc(cx, cy, r * 0.84, 0, Math.PI * 2); g.fill();
+  g.fillStyle = ['#e2b896', '#d9ab86', '#e9c3a3'][k % 3];
+  g.beginPath(); g.ellipse(cx, cy - r * 0.08, r * 0.36, r * 0.46, 0, 0, Math.PI * 2); g.fill();
+  g.fillStyle = ['#6a4a2a', '#9a8a78', '#3a2a1c'][k % 3]; // the beard
+  g.beginPath(); g.ellipse(cx, cy - r * 0.42, r * 0.3, r * 0.2, 0, 0, Math.PI * 2); g.fill();
+  g.fillStyle = '#e0b43c'; // the crown: a band and three points
+  g.fillRect(cx - r * 0.4, cy + r * 0.26, r * 0.8, r * 0.16);
+  g.beginPath();
+  g.moveTo(cx - r * 0.4, cy + r * 0.42);
+  for (const [u, v] of [[-0.4, 0.72], [-0.2, 0.5], [0, 0.78], [0.2, 0.5], [0.4, 0.72], [0.4, 0.42]]) g.lineTo(cx + r * u, cy + r * v);
+  g.closePath(); g.fill();
+}
+
+// capitals centred on (cx, cy), upright in the drawing's metres, squeezed into `max`
+function letters(g, s, cx, cy, size, fill, max) {
+  g.save();
+  g.translate(cx, cy);
+  g.scale(1, -1);
+  g.font = `bold ${size}px serif`;
+  g.fillStyle = fill;
+  g.textAlign = 'center';
+  g.textBaseline = 'middle';
+  g.fillText(s, 0, 0, max);
+  g.restore();
+}
+
+// the flagpole on top of the Bond Moyson bay, a red flag on it
+function flagpole() {
+  const f = new THREE.Group();
+  const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.08, 6, 6), new THREE.MeshStandardMaterial({ color: 0xd9d4c8, roughness: 0.6 }));
+  pole.position.y = 3;
+  const flag = new THREE.Mesh(new THREE.PlaneGeometry(1.6, 1.0), new THREE.MeshStandardMaterial({ color: 0xc7372c, roughness: 0.9, side: THREE.DoubleSide }));
+  flag.position.set(0.8, 5.4, 0);
+  f.add(pole, flag);
+  f.children.forEach(m => { m.castShadow = true; });
+  return f;
 }

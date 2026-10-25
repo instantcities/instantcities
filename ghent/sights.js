@@ -1,11 +1,13 @@
 // Ghent's sights: ride up to one while exploring and a card tells you what you are looking at.
-// Each { id, emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
-// metres), text: { <lang>: { name, text } }, secret?: true for one to find by yourself, which is not
+// Each { id, enter? (the building to go into, inside.js: a button on the card), emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
+// metres), text: { <lang>: { name, text } }, facts (three short ones, from tourfacts.js), secret?: true for one to find by yourself, which is not
 // counted, pointed to, put on the big map or given a page on the site }. In order of how much you
 // should not miss them.
+import { FACTS } from './tourfacts.js';
+
 export const SIGHTS = [
   {
-    id: 'sint-baafs', emoji: '🖼️', x: 292, z: 50, r: 100,
+    enter: 'sint-baafs', id: 'sint-baafs', emoji: '🖼️', x: 292, z: 50, r: 100,
     text: {
       nl: { name: 'Sint-Baafskathedraal', text: 'Gebouwd van de 13de tot de 16de eeuw, met een toren van 89 m. Binnen hangt Het Lam Gods van de gebroeders Van Eyck (1432), een van de beroemdste en meest gestolen schilderijen ter wereld. Het paneel De Rechtvaardige Rechters, gestolen in 1934, is nooit teruggevonden.' },
       en: { name: 'St Bavo’s Cathedral', text: 'Built from the 13th to the 16th century, with an 89 m tower. Inside hangs the Van Eyck brothers’ Adoration of the Mystic Lamb (1432), one of the most famous and most stolen paintings in the world. Its Just Judges panel, stolen in 1934, has never been found.' },
@@ -50,7 +52,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'sint-niklaas', emoji: '⛪', x: -71, z: -79, r: 70,
+    enter: 'sint-niklaas', id: 'sint-niklaas', emoji: '⛪', x: -71, z: -79, r: 70,
     text: {
       nl: { name: 'Sint-Niklaaskerk', text: 'De kerk van de kooplui, uit de 13de eeuw, in blauwgrijze Doornikse steen: Scheldegotiek. Haar toren staat midden op het dak en diende ook als uitkijkpost, lang voor het Belfort er stond. Vandaag gaan er ook concerten en tentoonstellingen door.' },
       en: { name: 'St Nicholas’ Church', text: 'The merchants’ church, from the 13th century, in blue-grey Tournai stone: Scheldt Gothic. Its tower sits right on the middle of the roof and doubled as a lookout, long before the Belfry stood. Today it also hosts concerts and exhibitions.' },
@@ -59,7 +61,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'stadhuis', emoji: '🏛️', x: 120, z: -165, r: 65,
+    enter: 'stadhuis', id: 'stadhuis', emoji: '🏛️', x: 120, z: -165, r: 65,
     text: {
       nl: { name: 'Stadhuis', text: 'Een stadhuis in twee stijlen: sierlijke laatgotiek aan de Hoogpoort, strakke renaissance aan de Botermarkt. Het geld en de godsdienstoorlogen legden de bouw telkens stil. Hier werd in 1576 de Pacificatie van Gent getekend, een vrede tussen de Nederlandse gewesten.' },
       en: { name: 'City Hall', text: 'A city hall in two styles: ornate late Gothic on the Hoogpoort, sober Renaissance on the Botermarkt. Running out of money and the wars of religion kept halting the building work. The Pacification of Ghent, a peace between the Low Countries’ provinces, was signed here in 1576.' },
@@ -86,7 +88,19 @@ export const SIGHTS = [
     },
   },
   {
+    // the covered gallery of the Pieter Vanderdoncktdoorgang, by Zuid (glazenstraatje.js): one to find
+    id: 'glazen-straatje', emoji: '🏮', x: 672, z: 533, r: 30, secret: true,
+    arrival: { x: 685.5, z: 492.5, look: [681.6, 506] },
+    text: {
+      nl: { name: 'Glazen Straatje', text: 'De Pieter Vanderdoncktdoorgang, tussen de Brabantdam en de Vlaanderenstraat: de enige winkelgalerij van Gent onder glas en ijzer (1846-52, verlengd in 1886). Wat ooit winkeltjes waren, zijn al lang ramen in rood en roze licht: het hart van de Gentse rosse buurt.' },
+      en: { name: 'Glass Alley', text: 'The Pieter Vanderdoncktdoorgang, between the Brabantdam and the Vlaanderenstraat: Ghent’s only shopping arcade under glass and iron (1846-52, extended in 1886). Its little shops have long since become windows lit red and pink: the heart of Ghent’s red-light district.' },
+      fr: { name: 'Glazen Straatje', text: 'Le passage Pieter Vanderdonckt, entre le Brabantdam et la Vlaanderenstraat : la seule galerie marchande de Gand sous verre et fer (1846-52, prolongée en 1886). Ses petites boutiques sont depuis longtemps des vitrines éclairées de rouge et de rose : le cœur du quartier rouge gantois.' },
+      es: { name: 'Callejón de Cristal', text: 'El pasaje Pieter Vanderdonckt, entre el Brabantdam y la Vlaanderenstraat: la única galería comercial de Gante bajo vidrio y hierro (1846-52, ampliada en 1886). Sus tiendecitas hace tiempo que son escaparates con luz roja y rosa: el corazón del barrio rojo de Gante.' },
+    },
+  },
+  {
     id: 'werregarenstraat', emoji: '🎨', x: 74, z: -301, r: 35,
+    arrival: { x: 75.6, z: -321.5, look: [77.5, -293.8] },
     text: {
       nl: { name: 'Werregarenstraatje', text: 'Het graffitistraatje: sinds de jaren negentig mag hier iedereen legaal spuiten. De muren krijgen zo bijna elke week een nieuwe laag verf, dus geen twee bezoeken zien er hetzelfde uit.' },
       en: { name: 'Graffiti Street', text: 'The Werregarenstraatje: since the 1990s anyone may spray paint here, legally. The walls get a fresh layer of paint almost every week, so no two visits look the same.' },
@@ -131,6 +145,16 @@ export const SIGHTS = [
     },
   },
   {
+    // the Provinciehuis in the old Leopoldskazerne, modelled by hand (ghent/provinciehuis.js): the card counts from its courtyard garden
+    id: 'provinciehuis', emoji: '🏰', x: -75, z: 1805, r: 70,
+    text: {
+      nl: { name: 'Provinciehuis (Leopoldskazerne)', text: 'Deze kazerne met torentjes en kantelen, als een burcht, werd gebouwd van 1902 tot 1906. Tot 1955 woonde hier het 2de Linieregiment, meer dan 1.300 soldaten. Sinds 2024 werkt de provincie Oost-Vlaanderen hier, in de oude vleugels en een nieuwe grijsgroene erbij, rond een tuin met PROVINCIEHUIS in grote letters.' },
+      en: { name: 'Provincial House (Leopold Barracks)', text: 'These barracks, with turrets and battlements like a castle, were built from 1902 to 1906. Until 1955 they were home to the 2nd Line Regiment, over 1,300 soldiers. Since 2024 the province of East Flanders has worked here, in the old wings and a new grey-green one, around a garden with PROVINCIEHUIS in big letters.' },
+      fr: { name: 'Maison provinciale (caserne Léopold)', text: 'Cette caserne à tourelles et créneaux, comme un château fort, fut bâtie de 1902 à 1906. Jusqu’en 1955 y logeait le 2e régiment de ligne, plus de 1 300 soldats. Depuis 2024, la province de Flandre-Orientale y travaille, dans les vieilles ailes et une nouvelle gris-vert, autour d’un jardin avec PROVINCIEHUIS en grandes lettres.' },
+      es: { name: 'Casa Provincial (cuartel Leopoldo)', text: 'Este cuartel con torrecillas y almenas, como un castillo, se construyó de 1902 a 1906. Hasta 1955 vivió aquí el 2.º Regimiento de Línea, más de 1.300 soldados. Desde 2024 trabaja aquí la provincia de Flandes Oriental, en las alas antiguas y una nueva gris verdosa, alrededor de un jardín con PROVINCIEHUIS en letras grandes.' },
+    },
+  },
+  {
     id: 'blaarmeersen', emoji: '🏖️', x: -3160, z: 1335, r: 140,
     text: {
       nl: { name: 'Blaarmeersen', text: 'Het sport- en recreatiedomein van Gent, aan de Watersportbaan. Op warme dagen ligt het strand aan de zwemvijver vol, en rond de 2,3 km lange roeibaan lopen de joggers hun rondjes. Er is ook een camping, een atletiekpiste en beachvolley.' },
@@ -168,3 +192,4 @@ export const SIGHTS = [
     },
   },
 ];
+for (const s of SIGHTS) s.facts = FACTS[s.id];

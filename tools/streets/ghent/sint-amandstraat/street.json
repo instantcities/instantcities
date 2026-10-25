@@ -1,0 +1,4655 @@
+{
+ "city": "ghent",
+ "street": "Sint-Amandstraat",
+ "slug": "sint-amandstraat",
+ "photos": {
+  "4024277784277083": {
+   "file": "photos/4024277784277083.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4024277784277083",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0433305,
+    3.7248883,
+    317,
+    0.993
+   ]
+  },
+  "657447110397834-73": {
+   "file": "photos/657447110397834-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=657447110397834",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0436693,
+    3.7246427,
+    73,
+    0.5
+   ]
+  },
+  "497729072095705-102": {
+   "file": "photos/497729072095705-102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497729072095705",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436991,
+    3.7246056,
+    102,
+    0.5
+   ]
+  },
+  "2140997129749970-62": {
+   "file": "photos/2140997129749970-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2140997129749970",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0434898,
+    3.7247416,
+    62,
+    0.5
+   ]
+  },
+  "1115289130279030-59": {
+   "file": "photos/1115289130279030-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1115289130279030",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0433953,
+    3.7245035,
+    59,
+    0.5
+   ]
+  },
+  "1387527435043628-31": {
+   "file": "photos/1387527435043628-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1387527435043628",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0434565,
+    3.724751,
+    31,
+    0.5
+   ]
+  },
+  "497729072095705-67": {
+   "file": "photos/497729072095705-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497729072095705",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436991,
+    3.7246056,
+    67,
+    0.5
+   ]
+  },
+  "657447110397834-34": {
+   "file": "photos/657447110397834-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=657447110397834",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0436693,
+    3.7246427,
+    34,
+    0.5
+   ]
+  },
+  "2414995425566211-63": {
+   "file": "photos/2414995425566211-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2414995425566211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0435772,
+    3.724691,
+    63,
+    0.5
+   ]
+  },
+  "142771838312087-105": {
+   "file": "photos/142771838312087-105.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142771838312087",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436174,
+    3.724655,
+    105,
+    0.5
+   ]
+  },
+  "1227479255397716-90": {
+   "file": "photos/1227479255397716-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227479255397716",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0438725,
+    3.7245296,
+    90,
+    0.5
+   ]
+  },
+  "1724378877909021-88": {
+   "file": "photos/1724378877909021-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724378877909021",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0438694,
+    3.7245001,
+    88,
+    0.5
+   ]
+  },
+  "663585804744924-55": {
+   "file": "photos/663585804744924-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663585804744924",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0437845,
+    3.7245493,
+    55,
+    0.5
+   ]
+  },
+  "1160756089427023-35": {
+   "file": "photos/1160756089427023-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160756089427023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0437689,
+    3.724586,
+    35,
+    0.5
+   ]
+  },
+  "1160756089427023-89": {
+   "file": "photos/1160756089427023-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160756089427023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0437689,
+    3.724586,
+    89,
+    0.5
+   ]
+  },
+  "663585804744924-100": {
+   "file": "photos/663585804744924-100.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663585804744924",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0437845,
+    3.7245493,
+    100,
+    0.5
+   ]
+  },
+  "142771838312087-65": {
+   "file": "photos/142771838312087-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142771838312087",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436174,
+    3.724655,
+    65,
+    0.5
+   ]
+  },
+  "657447110397834-113": {
+   "file": "photos/657447110397834-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=657447110397834",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0436693,
+    3.7246427,
+    113,
+    0.5
+   ]
+  },
+  "741558543679025-66": {
+   "file": "photos/741558543679025-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=741558543679025",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0435386,
+    3.7247058,
+    66,
+    0.5
+   ]
+  },
+  "2414995425566211-108": {
+   "file": "photos/2414995425566211-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2414995425566211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0435772,
+    3.724691,
+    108,
+    0.5
+   ]
+  },
+  "632895942669963-32": {
+   "file": "photos/632895942669963-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=632895942669963",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434105,
+    3.7246304,
+    32,
+    0.5
+   ]
+  },
+  "688034050496031-108": {
+   "file": "photos/688034050496031-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=688034050496031",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.041717,
+    3.7251716,
+    108,
+    0.5
+   ]
+  },
+  "157227939745464": {
+   "file": "photos/157227939745464.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=157227939745464",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0433022,
+    3.724391,
+    80,
+    0.52
+   ]
+  },
+  "272453327951430": {
+   "file": "photos/272453327951430.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=272453327951430",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0432811,
+    3.7243,
+    79,
+    0.52
+   ]
+  },
+  "955946141821774": {
+   "file": "photos/955946141821774.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=955946141821774",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0433058,
+    3.7244864,
+    114,
+    0.52
+   ]
+  },
+  "1057190138556471-72": {
+   "file": "photos/1057190138556471-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1057190138556471",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0429716,
+    3.7248803,
+    72,
+    0.5
+   ]
+  },
+  "475916828899847-119": {
+   "file": "photos/475916828899847-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=475916828899847",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.043014,
+    3.7248772,
+    119,
+    0.5
+   ]
+  },
+  "1380800703432043-81": {
+   "file": "photos/1380800703432043-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1380800703432043",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0428517,
+    3.7249169,
+    81,
+    0.5
+   ]
+  },
+  "725840178846375-44": {
+   "file": "photos/725840178846375-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=725840178846375",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428129,
+    3.7249131,
+    44,
+    0.5
+   ]
+  },
+  "1278929407153310-99": {
+   "file": "photos/1278929407153310-99.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1278929407153310",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0421727,
+    3.7250844,
+    99,
+    0.5
+   ]
+  },
+  "303752298446286-60": {
+   "file": "photos/303752298446286-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=303752298446286",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0420387,
+    3.7251145,
+    60,
+    0.5
+   ]
+  },
+  "715538710985096-68": {
+   "file": "photos/715538710985096-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=715538710985096",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0418975,
+    3.7251404,
+    68,
+    0.5
+   ]
+  },
+  "300688035431975-108": {
+   "file": "photos/300688035431975-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=300688035431975",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0418736,
+    3.7251495,
+    108,
+    0.5
+   ]
+  },
+  "1418313742501486-64": {
+   "file": "photos/1418313742501486-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1418313742501486",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0418062,
+    3.7251534,
+    64,
+    0.5
+   ]
+  },
+  "467635623106546-57": {
+   "file": "photos/467635623106546-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=467635623106546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0416297,
+    3.7251933,
+    57,
+    0.5
+   ]
+  },
+  "3109696642540120-90": {
+   "file": "photos/3109696642540120-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3109696642540120",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0420815,
+    3.7251052,
+    90,
+    0.5
+   ]
+  },
+  "657447110397834-235": {
+   "file": "photos/657447110397834-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=657447110397834",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0436693,
+    3.7246427,
+    235,
+    0.5
+   ]
+  },
+  "142771838312087-261": {
+   "file": "photos/142771838312087-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142771838312087",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436174,
+    3.724655,
+    261,
+    0.5
+   ]
+  },
+  "1367359426961203": {
+   "file": "photos/1367359426961203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1367359426961203",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440099,
+    3.7246937,
+    273,
+    0.449
+   ]
+  },
+  "1227479255397716-252": {
+   "file": "photos/1227479255397716-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227479255397716",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0438725,
+    3.7245296,
+    252,
+    0.5
+   ]
+  },
+  "1724378877909021-250": {
+   "file": "photos/1724378877909021-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1724378877909021",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0438694,
+    3.7245001,
+    250,
+    0.5
+   ]
+  },
+  "1160756089427023-276": {
+   "file": "photos/1160756089427023-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160756089427023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0437689,
+    3.724586,
+    276,
+    0.5
+   ]
+  },
+  "663585804744924-268": {
+   "file": "photos/663585804744924-268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663585804744924",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0437845,
+    3.7245493,
+    268,
+    0.5
+   ]
+  },
+  "1160756089427023-237": {
+   "file": "photos/1160756089427023-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1160756089427023",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0437689,
+    3.724586,
+    237,
+    0.5
+   ]
+  },
+  "497729072095705-273": {
+   "file": "photos/497729072095705-273.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497729072095705",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436991,
+    3.7246056,
+    273,
+    0.5
+   ]
+  },
+  "556234765344240": {
+   "file": "photos/556234765344240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556234765344240",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0440076,
+    3.7247633,
+    273,
+    0.449
+   ]
+  },
+  "2414995425566211-257": {
+   "file": "photos/2414995425566211-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2414995425566211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0435772,
+    3.724691,
+    257,
+    0.5
+   ]
+  },
+  "142771838312087-234": {
+   "file": "photos/142771838312087-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142771838312087",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436174,
+    3.724655,
+    234,
+    0.5
+   ]
+  },
+  "741558543679025-255": {
+   "file": "photos/741558543679025-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=741558543679025",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0435386,
+    3.7247058,
+    255,
+    0.5
+   ]
+  },
+  "2414995425566211-236": {
+   "file": "photos/2414995425566211-236.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2414995425566211",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0435772,
+    3.724691,
+    236,
+    0.5
+   ]
+  },
+  "1225560171194608": {
+   "file": "photos/1225560171194608.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1225560171194608",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0431222,
+    3.7251959,
+    287,
+    1.157
+   ]
+  },
+  "997518827720678": {
+   "file": "photos/997518827720678.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=997518827720678",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0431209,
+    3.7252011,
+    279,
+    1.157
+   ]
+  },
+  "1278929407153310-260": {
+   "file": "photos/1278929407153310-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1278929407153310",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0421727,
+    3.7250844,
+    260,
+    0.5
+   ]
+  },
+  "427544205846794-242": {
+   "file": "photos/427544205846794-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=427544205846794",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0422178,
+    3.7250847,
+    242,
+    0.5
+   ]
+  },
+  "1278929407153310-243": {
+   "file": "photos/1278929407153310-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1278929407153310",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0421727,
+    3.7250844,
+    243,
+    0.5
+   ]
+  },
+  "123110670339811-262": {
+   "file": "photos/123110670339811-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=123110670339811",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0421302,
+    3.7250979,
+    262,
+    0.5
+   ]
+  },
+  "3109696642540120-264": {
+   "file": "photos/3109696642540120-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3109696642540120",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0420815,
+    3.7251052,
+    264,
+    0.5
+   ]
+  },
+  "123110670339811-241": {
+   "file": "photos/123110670339811-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=123110670339811",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0421302,
+    3.7250979,
+    241,
+    0.5
+   ]
+  },
+  "303752298446286-251": {
+   "file": "photos/303752298446286-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=303752298446286",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0420387,
+    3.7251145,
+    251,
+    0.5
+   ]
+  },
+  "713998567828203-276": {
+   "file": "photos/713998567828203-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=713998567828203",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0419895,
+    3.7251262,
+    276,
+    0.5
+   ]
+  },
+  "1434626064429813": {
+   "file": "photos/1434626064429813.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1434626064429813",
+   "author": "thewizard",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-09-09",
+   "cam": [
+    51.0417262,
+    3.7255636,
+    294,
+    0.545
+   ]
+  },
+  "788715934189524": {
+   "file": "photos/788715934189524.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=788715934189524",
+   "author": "thewizard",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-09-09",
+   "cam": [
+    51.0417221,
+    3.7255725,
+    290,
+    0.545
+   ]
+  },
+  "1177202790884103": {
+   "file": "photos/1177202790884103.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1177202790884103",
+   "author": "thewizard",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-09-09",
+   "cam": [
+    51.0417114,
+    3.7256591,
+    273,
+    0.545
+   ]
+  },
+  "31274584672186893": {
+   "file": "photos/31274584672186893.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=31274584672186893",
+   "author": "thewizard",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-09-09",
+   "cam": [
+    51.0417293,
+    3.7256659,
+    272,
+    0.487
+   ]
+  },
+  "565486014801252-257": {
+   "file": "photos/565486014801252-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=565486014801252",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0419567,
+    3.7251299,
+    257,
+    0.5
+   ]
+  },
+  "713998567828203-241": {
+   "file": "photos/713998567828203-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=713998567828203",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0419895,
+    3.7251262,
+    241,
+    0.5
+   ]
+  },
+  "1014725954017951": {
+   "file": "photos/1014725954017951.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1014725954017951",
+   "author": "thewizard",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-09-09",
+   "cam": [
+    51.0417119,
+    3.7256757,
+    273,
+    0.545
+   ]
+  },
+  "1332571711147664-258": {
+   "file": "photos/1332571711147664-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1332571711147664",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0422648,
+    3.7250692,
+    258,
+    0.5
+   ]
+  },
+  "427544205846794-277": {
+   "file": "photos/427544205846794-277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=427544205846794",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0422178,
+    3.7250847,
+    277,
+    0.5
+   ]
+  },
+  "530843371897394-266": {
+   "file": "photos/530843371897394-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=530843371897394",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0423045,
+    3.725062,
+    266,
+    0.5
+   ]
+  },
+  "1738945663500470-243": {
+   "file": "photos/1738945663500470-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1738945663500470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0423598,
+    3.7250464,
+    243,
+    0.5
+   ]
+  },
+  "1026083859672973-246": {
+   "file": "photos/1026083859672973-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026083859672973",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.041538,
+    3.7252133,
+    246,
+    0.5
+   ]
+  },
+  "149024684289248-261": {
+   "file": "photos/149024684289248-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=149024684289248",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0415402,
+    3.7254351,
+    261,
+    0.5
+   ]
+  },
+  "597192945015872": {
+   "file": "photos/597192945015872.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=597192945015872",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0431209,
+    3.725201,
+    274,
+    1.157
+   ]
+  },
+  "475916828899847-271": {
+   "file": "photos/475916828899847-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=475916828899847",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.043014,
+    3.7248772,
+    271,
+    0.5
+   ]
+  },
+  "1399260033881377-246": {
+   "file": "photos/1399260033881377-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1399260033881377",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430524,
+    3.7248608,
+    246,
+    0.5
+   ]
+  },
+  "475916828899847-246": {
+   "file": "photos/475916828899847-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=475916828899847",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.043014,
+    3.7248772,
+    246,
+    0.5
+   ]
+  },
+  "1057190138556471-271": {
+   "file": "photos/1057190138556471-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1057190138556471",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0429716,
+    3.7248803,
+    271,
+    0.5
+   ]
+  },
+  "1026083859672973-281": {
+   "file": "photos/1026083859672973-281.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026083859672973",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.041538,
+    3.7252133,
+    281,
+    0.5
+   ]
+  },
+  "310048221286054-263": {
+   "file": "photos/310048221286054-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=310048221286054",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0415698,
+    3.7253231,
+    263,
+    0.5
+   ]
+  },
+  "1380800703432043-250": {
+   "file": "photos/1380800703432043-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1380800703432043",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0428517,
+    3.7249169,
+    250,
+    0.5
+   ]
+  },
+  "725840178846375-272": {
+   "file": "photos/725840178846375-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=725840178846375",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428129,
+    3.7249131,
+    272,
+    0.5
+   ]
+  },
+  "979369980946087-265": {
+   "file": "photos/979369980946087-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=979369980946087",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0426897,
+    3.7249595,
+    265,
+    0.5
+   ]
+  },
+  "396414375677876-286": {
+   "file": "photos/396414375677876-286.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=396414375677876",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0426481,
+    3.7249516,
+    286,
+    0.5
+   ]
+  },
+  "1738945663500470-266": {
+   "file": "photos/1738945663500470-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1738945663500470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0423598,
+    3.7250464,
+    266,
+    0.5
+   ]
+  },
+  "865258488208098-252": {
+   "file": "photos/865258488208098-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=865258488208098",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0423918,
+    3.7250342,
+    252,
+    0.5
+   ]
+  },
+  "1403631640984459-261": {
+   "file": "photos/1403631640984459-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1403631640984459",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0429321,
+    3.7248998,
+    261,
+    0.5
+   ]
+  },
+  "372398074842599-283": {
+   "file": "photos/372398074842599-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=372398074842599",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428928,
+    3.7248975,
+    283,
+    0.5
+   ]
+  },
+  "1067951755181002-251": {
+   "file": "photos/1067951755181002-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1067951755181002",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.042772,
+    3.7249419,
+    251,
+    0.5
+   ]
+  },
+  "2770469869914291-271": {
+   "file": "photos/2770469869914291-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2770469869914291",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0427316,
+    3.7249328,
+    271,
+    0.5
+   ]
+  },
+  "2741748399547627-277": {
+   "file": "photos/2741748399547627-277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2741748399547627",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.04261,
+    3.7249768,
+    277,
+    0.5
+   ]
+  },
+  "396414375677876-257": {
+   "file": "photos/396414375677876-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=396414375677876",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0426481,
+    3.7249516,
+    257,
+    0.5
+   ]
+  },
+  "173951578307043-270": {
+   "file": "photos/173951578307043-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=173951578307043",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0424778,
+    3.7249968,
+    270,
+    0.5
+   ]
+  },
+  "1433499480989566-283": {
+   "file": "photos/1433499480989566-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433499480989566",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0424481,
+    3.7250223,
+    283,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 25847,
+   "at": [
+    68.85,
+    1371.9
+   ],
+   "centre": [
+    63.8,
+    1371.8
+   ],
+   "width": 4.9,
+   "faces": 20,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    68.2,
+    1365.9,
+    69.7,
+    1369.6,
+    68,
+    1374.2,
+    59.4,
+    1378.8,
+    53.9,
+    1370.6
+   ],
+   "id": "sint-amandstraat-20-01",
+   "latLon": [
+    51.043449,
+    3.724551
+   ],
+   "photos": [
+    {
+     "id": "4024277784277083",
+     "metres": 27,
+     "off": 18,
+     "span": [
+      0.101,
+      0.259
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25713,
+   "at": [
+    83.65,
+    1339.35
+   ],
+   "centre": [
+    92.2,
+    1336.6
+   ],
+   "width": 5.6,
+   "faces": 162,
+   "toStreet": 12.5,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 20.7,
+   "kind": "house",
+   "ring": [
+    82.8,
+    1336.7,
+    97.3,
+    1332.8,
+    97.5,
+    1333.6,
+    98.8,
+    1338.1,
+    84.5,
+    1342
+   ],
+   "id": "sint-amandstraat-162-01",
+   "latLon": [
+    51.043684,
+    3.724721
+   ],
+   "photos": [
+    {
+     "id": "657447110397834-73",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.303,
+      0.698
+     ]
+    },
+    {
+     "id": "497729072095705-102",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.359,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25798,
+   "at": [
+    90.9,
+    1363.4
+   ],
+   "centre": [
+    96.5,
+    1364.3
+   ],
+   "width": 8,
+   "faces": 162,
+   "toStreet": 11.7,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    102.7,
+    1358.1,
+    103.9,
+    1367.9,
+    94.3,
+    1368.8,
+    92.1,
+    1367.2,
+    89.7,
+    1359.6
+   ],
+   "id": "sint-amandstraat-162-02",
+   "latLon": [
+    51.04351,
+    3.724803
+   ],
+   "photos": [
+    {
+     "id": "2140997129749970-62",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.212,
+      0.871
+     ]
+    },
+    {
+     "id": "1115289130279030-59",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.435,
+      0.563
+     ]
+    },
+    {
+     "id": "1387527435043628-31",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.371,
+      0.756
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25714,
+   "at": [
+    81.94999999999999,
+    1333.85
+   ],
+   "centre": [
+    97.6,
+    1330
+   ],
+   "width": 5.9,
+   "faces": 163,
+   "toStreet": 12.7,
+   "floors": 5,
+   "eaves": 16.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    104.6,
+    1324.4,
+    105.4,
+    1327.5,
+    103.4,
+    1328,
+    104.4,
+    1331.8,
+    97.6,
+    1333.6,
+    97.5,
+    1333.6,
+    97.3,
+    1332.8,
+    82.8,
+    1336.7,
+    81.1,
+    1331,
+    95.6,
+    1327.1,
+    96.4,
+    1330,
+    101.5,
+    1328.3,
+    100.8,
+    1325.6
+   ],
+   "id": "sint-amandstraat-163-03",
+   "latLon": [
+    51.043724,
+    3.724701
+   ],
+   "photos": [
+    {
+     "id": "497729072095705-67",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.347,
+      0.674
+     ]
+    },
+    {
+     "id": "657447110397834-34",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.395,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25717,
+   "at": [
+    87.15,
+    1350.9499999999998
+   ],
+   "centre": [
+    102.8,
+    1346.5
+   ],
+   "width": 5.9,
+   "faces": 163,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    86.3,
+    1348.1,
+    107,
+    1342.7,
+    111.3,
+    1341.6,
+    111.9,
+    1344.8,
+    112.5,
+    1347.7,
+    88,
+    1353.8
+   ],
+   "id": "sint-amandstraat-163-04",
+   "latLon": [
+    51.0436,
+    3.724761
+   ],
+   "photos": [
+    {
+     "id": "2414995425566211-63",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.297,
+      0.723
+     ]
+    },
+    {
+     "id": "142771838312087-105",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.337,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25703,
+   "at": [
+    75.9,
+    1313.1999999999998
+   ],
+   "centre": [
+    84.5,
+    1311.1
+   ],
+   "width": 7.1,
+   "faces": 164,
+   "toStreet": 13.6,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    99.2,
+    1315.4,
+    97.3,
+    1315.3,
+    97.2,
+    1314.7,
+    87.3,
+    1315,
+    86.9,
+    1313.8,
+    76.9,
+    1316.6,
+    74.9,
+    1309.8,
+    74.9,
+    1308.8,
+    75.2,
+    1308,
+    75.7,
+    1307.2,
+    76.6,
+    1306.5,
+    77.6,
+    1306.2,
+    99,
+    1306.9
+   ],
+   "id": "sint-amandstraat-164-05",
+   "latLon": [
+    51.043873,
+    3.724632
+   ],
+   "photos": [
+    {
+     "id": "1227479255397716-90",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.278,
+      0.667
+     ]
+    },
+    {
+     "id": "1724378877909021-88",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.332,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25718,
+   "at": [
+    77.65,
+    1319.25
+   ],
+   "centre": [
+    89.5,
+    1318.3
+   ],
+   "width": 5.5,
+   "faces": 164,
+   "toStreet": 13.3,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    76.9,
+    1316.6,
+    86.9,
+    1313.8,
+    87.3,
+    1315,
+    97.2,
+    1314.7,
+    97.3,
+    1315.3,
+    99.2,
+    1315.4,
+    99.3,
+    1318.2,
+    99.4,
+    1320.3,
+    93.7,
+    1320.1,
+    87.6,
+    1321.8,
+    87.2,
+    1320.3,
+    81.7,
+    1321.7,
+    81.5,
+    1321.1,
+    78.4,
+    1321.9
+   ],
+   "id": "sint-amandstraat-164-06",
+   "latLon": [
+    51.043829,
+    3.724652
+   ],
+   "photos": [
+    {
+     "id": "663585804744924-55",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.391,
+      0.631
+     ]
+    },
+    {
+     "id": "1160756089427023-35",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.406,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25715,
+   "at": [
+    80.1,
+    1327.5
+   ],
+   "centre": [
+    87.4,
+    1324.8
+   ],
+   "width": 7.3,
+   "faces": 164,
+   "toStreet": 13,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 21.5,
+   "kind": "house",
+   "ring": [
+    79.1,
+    1324,
+    87.6,
+    1321.8,
+    93.7,
+    1320.1,
+    95.6,
+    1327.1,
+    81.1,
+    1331
+   ],
+   "id": "sint-amandstraat-164-07",
+   "latLon": [
+    51.04377,
+    3.72468
+   ],
+   "photos": [
+    {
+     "id": "1160756089427023-89",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.257,
+      0.694
+     ]
+    },
+    {
+     "id": "663585804744924-100",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.336,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 26069,
+   "at": [
+    85.4,
+    1345.05
+   ],
+   "centre": [
+    97.8,
+    1340.6
+   ],
+   "width": 6.4,
+   "faces": 164,
+   "toStreet": 12.3,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    84.5,
+    1342,
+    98.8,
+    1338.1,
+    105,
+    1336.5,
+    105,
+    1336.5,
+    107,
+    1342.7,
+    86.3,
+    1348.1
+   ],
+   "id": "sint-amandstraat-164-08",
+   "latLon": [
+    51.043643,
+    3.724741
+   ],
+   "photos": [
+    {
+     "id": "142771838312087-65",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.317,
+      0.702
+     ]
+    },
+    {
+     "id": "657447110397834-113",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.331,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25711,
+   "at": [
+    88.85,
+    1356.6999999999998
+   ],
+   "centre": [
+    101.2,
+    1355.2
+   ],
+   "width": 6,
+   "faces": 164,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    88,
+    1353.8,
+    112.5,
+    1347.7,
+    113.3,
+    1356.9,
+    102.7,
+    1358.1,
+    89.7,
+    1359.6
+   ],
+   "id": "sint-amandstraat-164-09",
+   "latLon": [
+    51.043559,
+    3.72478
+   ],
+   "photos": [
+    {
+     "id": "741558543679025-66",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.307,
+      0.733
+     ]
+    },
+    {
+     "id": "2414995425566211-108",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.313,
+      0.63
+     ]
+    },
+    {
+     "id": "632895942669963-32",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.461,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23282,
+   "at": [
+    128.35,
+    1612.85
+   ],
+   "centre": [
+    134.6,
+    1612.9
+   ],
+   "width": 7,
+   "faces": 171,
+   "toStreet": 8.3,
+   "floors": 5,
+   "eaves": 18.7,
+   "top": 23.1,
+   "kind": "yes",
+   "ring": [
+    127.8,
+    1609.4,
+    128.9,
+    1616.3,
+    140.7,
+    1616.4,
+    140.8,
+    1609.4
+   ],
+   "id": "sint-amandstraat-171-10",
+   "latLon": [
+    51.041705,
+    3.725232
+   ],
+   "photos": [
+    {
+     "id": "688034050496031-108",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.088,
+      0.716
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25793,
+   "at": [
+    97.6,
+    1389.05
+   ],
+   "centre": [
+    103.2,
+    1389.5
+   ],
+   "width": 11.6,
+   "faces": 172,
+   "toStreet": 10.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    106.3,
+    1382.4,
+    107.2,
+    1392.3,
+    107.4,
+    1394.7,
+    98.4,
+    1394.8,
+    96.8,
+    1383.3
+   ],
+   "id": "sint-amandstraat-172-11",
+   "latLon": [
+    51.043324,
+    3.72488
+   ],
+   "photos": [
+    {
+     "id": "157227939745464",
+     "metres": 34,
+     "off": 6,
+     "span": [
+      0.485,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25848,
+   "at": [
+    99.2,
+    1400.5
+   ],
+   "centre": [
+    109.3,
+    1400.2
+   ],
+   "width": 11.5,
+   "faces": 172,
+   "toStreet": 9.8,
+   "floors": 2,
+   "eaves": 6,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    98.4,
+    1394.8,
+    107.4,
+    1394.7,
+    118.8,
+    1394.6,
+    119.8,
+    1405.3,
+    111.6,
+    1405.7,
+    100,
+    1406.2
+   ],
+   "id": "sint-amandstraat-172-12",
+   "latLon": [
+    51.043242,
+    3.724898
+   ],
+   "photos": [
+    {
+     "id": "272453327951430",
+     "metres": 42,
+     "off": 17,
+     "span": [
+      0.603,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25806,
+   "at": [
+    100.75,
+    1411.4
+   ],
+   "centre": [
+    112.4,
+    1410.9
+   ],
+   "width": 10.5,
+   "faces": 172,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    100,
+    1406.2,
+    111.6,
+    1405.7,
+    112.1,
+    1409.4,
+    116.1,
+    1408.9,
+    116.7,
+    1412.9,
+    120.5,
+    1412,
+    120.8,
+    1415.6,
+    101.5,
+    1416.6
+   ],
+   "id": "sint-amandstraat-172-13",
+   "latLon": [
+    51.043163,
+    3.724916
+   ],
+   "photos": [
+    {
+     "id": "955946141821774",
+     "metres": 34,
+     "off": 3,
+     "span": [
+      0.475,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25805,
+   "at": [
+    102.1,
+    1421
+   ],
+   "centre": [
+    111.7,
+    1420.8
+   ],
+   "width": 8.9,
+   "faces": 172,
+   "toStreet": 9.6,
+   "floors": 2,
+   "eaves": 6,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    101.5,
+    1416.6,
+    120.8,
+    1415.6,
+    121.8,
+    1425.5,
+    102.7,
+    1425.4
+   ],
+   "id": "sint-amandstraat-172-14",
+   "latLon": [
+    51.043093,
+    3.724932
+   ],
+   "photos": [
+    {
+     "id": "955946141821774",
+     "metres": 39,
+     "off": 13,
+     "span": [
+      0.58,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 26123,
+   "at": [
+    104.1,
+    1435.7
+   ],
+   "centre": [
+    112.8,
+    1435.8
+   ],
+   "width": 20.8,
+   "faces": 172,
+   "toStreet": 9.7,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 19.2,
+   "kind": "yes",
+   "ring": [
+    121.3,
+    1446.2,
+    105.5,
+    1446,
+    102.7,
+    1425.4,
+    121.8,
+    1425.5
+   ],
+   "id": "sint-amandstraat-172-15",
+   "latLon": [
+    51.042987,
+    3.724954
+   ],
+   "photos": [
+    {
+     "id": "1057190138556471-72",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "475916828899847-119",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.799
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25804,
+   "at": [
+    106.55,
+    1453.55
+   ],
+   "centre": [
+    114.1,
+    1453.6
+   ],
+   "width": 15.2,
+   "faces": 172,
+   "toStreet": 9.9,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    105.5,
+    1446,
+    121.3,
+    1446.2,
+    122,
+    1461.2,
+    107.6,
+    1461.1
+   ],
+   "id": "sint-amandstraat-172-16",
+   "latLon": [
+    51.042858,
+    3.724982
+   ],
+   "photos": [
+    {
+     "id": "1380800703432043-81",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "725840178846375-44",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.276,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23317,
+   "at": [
+    119.65,
+    1548.9
+   ],
+   "centre": [
+    133,
+    1550.3
+   ],
+   "width": 15.1,
+   "faces": 172,
+   "toStreet": 9.4,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": 22.5,
+   "kind": "yes",
+   "ring": [
+    141.7,
+    1541.6,
+    141.7,
+    1543,
+    141.5,
+    1556.5,
+    141.2,
+    1556.5,
+    125.8,
+    1556.4,
+    120.7,
+    1556.4,
+    118.6,
+    1541.4
+   ],
+   "id": "sint-amandstraat-172-17",
+   "latLon": [
+    51.042168,
+    3.725132
+   ],
+   "photos": [
+    {
+     "id": "1278929407153310-99",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23299,
+   "at": [
+    121.80000000000001,
+    1564.6
+   ],
+   "centre": [
+    128.6,
+    1566.9
+   ],
+   "width": 16.5,
+   "faces": 172,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 19.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    141.1,
+    1573.4,
+    129.6,
+    1573.9,
+    129.6,
+    1575.3,
+    126.9,
+    1575.4,
+    123,
+    1575.5,
+    122.9,
+    1572.8,
+    120.7,
+    1556.4,
+    125.8,
+    1556.4,
+    125.8,
+    1559.1,
+    128.3,
+    1559.1,
+    128.4,
+    1562.7,
+    141.2,
+    1562.8
+   ],
+   "id": "sint-amandstraat-172-18",
+   "latLon": [
+    51.042054,
+    3.725157
+   ],
+   "photos": [
+    {
+     "id": "303752298446286-60",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23286,
+   "at": [
+    124.35,
+    1584.65
+   ],
+   "centre": [
+    132.3,
+    1583.8
+   ],
+   "width": 6.8,
+   "faces": 172,
+   "toStreet": 8.9,
+   "floors": 1,
+   "eaves": 0.2,
+   "top": 23.2,
+   "kind": "yes",
+   "ring": [
+    129.5,
+    1581.1,
+    123.9,
+    1581.3,
+    124.8,
+    1588,
+    141.5,
+    1587.7,
+    141.6,
+    1580.7
+   ],
+   "id": "sint-amandstraat-172-19",
+   "latLon": [
+    51.041909,
+    3.725186
+   ],
+   "photos": [
+    {
+     "id": "715538710985096-68",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.173,
+      0.971
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23285,
+   "at": [
+    125.19999999999999,
+    1590.9
+   ],
+   "centre": [
+    132.3,
+    1591.8
+   ],
+   "width": 5.9,
+   "faces": 172,
+   "toStreet": 8.8,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 23.3,
+   "kind": "yes",
+   "ring": [
+    124.8,
+    1588,
+    125.6,
+    1593.8,
+    130.2,
+    1593.4,
+    130.2,
+    1594.1,
+    141.5,
+    1594,
+    141.5,
+    1587.7
+   ],
+   "id": "sint-amandstraat-172-20",
+   "latLon": [
+    51.041864,
+    3.725196
+   ],
+   "photos": [
+    {
+     "id": "300688035431975-108",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.047,
+      0.741
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23284,
+   "at": [
+    126,
+    1596.6999999999998
+   ],
+   "centre": [
+    133.7,
+    1596.2
+   ],
+   "width": 5.9,
+   "faces": 172,
+   "toStreet": 8.8,
+   "floors": 1,
+   "eaves": null,
+   "top": 24.5,
+   "kind": "yes",
+   "ring": [
+    125.6,
+    1593.8,
+    126.4,
+    1599.6,
+    140.8,
+    1599.4,
+    141.4,
+    1599.4,
+    141.5,
+    1594,
+    130.2,
+    1594.1,
+    130.2,
+    1593.4
+   ],
+   "id": "sint-amandstraat-172-21",
+   "latLon": [
+    51.041822,
+    3.725205
+   ],
+   "photos": [
+    {
+     "id": "1418313742501486-64",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.26,
+      0.841
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23283,
+   "at": [
+    127.1,
+    1604.5
+   ],
+   "centre": [
+    133.9,
+    1604.4
+   ],
+   "width": 9.9,
+   "faces": 172,
+   "toStreet": 8.5,
+   "floors": 5,
+   "eaves": 18.4,
+   "top": 24,
+   "kind": "yes",
+   "ring": [
+    126.4,
+    1599.6,
+    127.8,
+    1609.4,
+    140.8,
+    1609.4,
+    140.8,
+    1599.4
+   ],
+   "id": "sint-amandstraat-172-22",
+   "latLon": [
+    51.041766,
+    3.725217
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 23280,
+   "at": [
+    130.45,
+    1628
+   ],
+   "centre": [
+    136.7,
+    1627.1
+   ],
+   "width": 6.5,
+   "faces": 172,
+   "toStreet": 7.6,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": 21.9,
+   "kind": "yes",
+   "ring": [
+    130,
+    1624.8,
+    130.9,
+    1631.2,
+    140.9,
+    1631.4,
+    140.9,
+    1625.3,
+    138.9,
+    1625.4,
+    138.9,
+    1624.5
+   ],
+   "id": "sint-amandstraat-172-23",
+   "latLon": [
+    51.041596,
+    3.725256
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 23281,
+   "at": [
+    129.45,
+    1620.55
+   ],
+   "centre": [
+    137,
+    1621.3
+   ],
+   "width": 8.6,
+   "faces": 173,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 18.4,
+   "top": 22,
+   "kind": "yes",
+   "ring": [
+    128.9,
+    1616.3,
+    130,
+    1624.8,
+    138.9,
+    1624.5,
+    138.9,
+    1625.4,
+    140.9,
+    1625.3,
+    141,
+    1616.4,
+    140.7,
+    1616.4
+   ],
+   "id": "sint-amandstraat-173-24",
+   "latLon": [
+    51.04165,
+    3.725244
+   ],
+   "photos": [
+    {
+     "id": "467635623106546-57",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.235,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23327,
+   "at": [
+    128.35000000000002,
+    1560.9
+   ],
+   "centre": [
+    131.8,
+    1559.4
+   ],
+   "width": 3.6,
+   "faces": 178,
+   "toStreet": 16.3,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": 23.7,
+   "kind": "house",
+   "ring": [
+    125.8,
+    1556.4,
+    141.2,
+    1556.5,
+    141.2,
+    1562.8,
+    128.4,
+    1562.7,
+    128.3,
+    1559.1,
+    125.8,
+    1559.1
+   ],
+   "id": "sint-amandstraat-178-25",
+   "latLon": [
+    51.042081,
+    3.725232
+   ],
+   "photos": [
+    {
+     "id": "3109696642540120-90",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.42,
+      0.584
+     ]
+    },
+    {
+     "id": "303752298446286-60",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.437,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25716,
+   "at": [
+    63.2,
+    1350.85
+   ],
+   "centre": [
+    52.5,
+    1352
+   ],
+   "width": 7.7,
+   "faces": 340,
+   "toStreet": 10.5,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": 35.3,
+   "kind": "house",
+   "ring": [
+    45.8,
+    1347.1,
+    60.2,
+    1342.4,
+    61.9,
+    1347.2,
+    64.5,
+    1354.5,
+    47.4,
+    1360.1,
+    46.4,
+    1356.7,
+    45.7,
+    1354.4,
+    48.1,
+    1353.6
+   ],
+   "id": "sint-amandstraat-340-02",
+   "latLon": [
+    51.043601,
+    3.724487
+   ],
+   "photos": [
+    {
+     "id": "657447110397834-235",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.395,
+      0.62
+     ]
+    },
+    {
+     "id": "142771838312087-261",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.367,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25725,
+   "at": [
+    44.85,
+    1297.65
+   ],
+   "centre": [
+    32,
+    1301.6
+   ],
+   "width": 10.1,
+   "faces": 341,
+   "toStreet": 13.7,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    46.5,
+    1302.4,
+    27.9,
+    1307.6,
+    24.7,
+    1308.6,
+    23.7,
+    1305,
+    29,
+    1303.4,
+    27,
+    1297.5,
+    34.1,
+    1295.5,
+    43.2,
+    1292.9
+   ],
+   "id": "sint-amandstraat-341-03",
+   "latLon": [
+    51.043986,
+    3.724277
+   ],
+   "photos": [
+    {
+     "id": "1367359426961203",
+     "metres": 29,
+     "off": 9,
+     "span": [
+      0.366,
+      0.491
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25728,
+   "at": [
+    51.849999999999994,
+    1318.15
+   ],
+   "centre": [
+    39.6,
+    1320.3
+   ],
+   "width": 6.5,
+   "faces": 341,
+   "toStreet": 10.8,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    31.1,
+    1318.5,
+    43.8,
+    1314.6,
+    44.6,
+    1317,
+    50.8,
+    1315.1,
+    52.9,
+    1321.2,
+    41,
+    1324.9,
+    40.1,
+    1322.5,
+    38.1,
+    1323.1,
+    37.7,
+    1322.1,
+    28.4,
+    1324.8,
+    26.7,
+    1319.8
+   ],
+   "id": "sint-amandstraat-341-04",
+   "latLon": [
+    51.043837,
+    3.724357
+   ],
+   "photos": [
+    {
+     "id": "1227479255397716-252",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.397,
+      0.604
+     ]
+    },
+    {
+     "id": "1724378877909021-250",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.381,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25731,
+   "at": [
+    54.5,
+    1325.9
+   ],
+   "centre": [
+    42.3,
+    1329.7
+   ],
+   "width": 9.9,
+   "faces": 341,
+   "toStreet": 10.8,
+   "floors": 1,
+   "eaves": 4.9,
+   "top": 15.1,
+   "kind": "apartments",
+   "ring": [
+    41,
+    1324.9,
+    52.9,
+    1321.2,
+    56.1,
+    1330.6,
+    41.6,
+    1335.2,
+    32.7,
+    1338,
+    29.6,
+    1328.4
+   ],
+   "id": "sint-amandstraat-341-05",
+   "latLon": [
+    51.043781,
+    3.724387
+   ],
+   "photos": [
+    {
+     "id": "1160756089427023-276",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.35,
+      0.613
+     ]
+    },
+    {
+     "id": "663585804744924-268",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.315,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25727,
+   "at": [
+    58.150000000000006,
+    1336.5
+   ],
+   "centre": [
+    45.4,
+    1341
+   ],
+   "width": 12.5,
+   "faces": 341,
+   "toStreet": 10.7,
+   "floors": 1,
+   "eaves": null,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    34,
+    1342.3,
+    43,
+    1339.1,
+    41.6,
+    1335.2,
+    56.1,
+    1330.6,
+    60.2,
+    1342.4,
+    45.8,
+    1347.1,
+    36.8,
+    1350
+   ],
+   "id": "sint-amandstraat-341-06",
+   "latLon": [
+    51.043705,
+    3.724429
+   ],
+   "photos": [
+    {
+     "id": "1160756089427023-237",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.329,
+      0.705
+     ]
+    },
+    {
+     "id": "497729072095705-273",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.277,
+      0.663
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25724,
+   "at": [
+    48.2,
+    1307.5500000000002
+   ],
+   "centre": [
+    39.8,
+    1311.2
+   ],
+   "width": 10.8,
+   "faces": 342,
+   "toStreet": 10.9,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    27.9,
+    1307.6,
+    46.5,
+    1302.4,
+    49.9,
+    1312.7,
+    43.8,
+    1314.6,
+    31.1,
+    1318.5
+   ],
+   "id": "sint-amandstraat-342-07",
+   "latLon": [
+    51.043914,
+    3.724315
+   ],
+   "photos": [
+    {
+     "id": "556234765344240",
+     "metres": 33,
+     "off": 21,
+     "span": [
+      0.256,
+      0.392
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25720,
+   "at": [
+    65.5,
+    1357.65
+   ],
+   "centre": [
+    52.9,
+    1361.7
+   ],
+   "width": 6.6,
+   "faces": 342,
+   "toStreet": 10.5,
+   "floors": 2,
+   "eaves": 7.1,
+   "top": 20.7,
+   "kind": "house",
+   "ring": [
+    47.4,
+    1360.1,
+    64.5,
+    1354.5,
+    66.5,
+    1360.8,
+    53.4,
+    1365.1,
+    52.5,
+    1362.9,
+    43.8,
+    1366.3,
+    42.4,
+    1362.1
+   ],
+   "id": "sint-amandstraat-342-08",
+   "latLon": [
+    51.043552,
+    3.724513
+   ],
+   "photos": [
+    {
+     "id": "2414995425566211-257",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.396,
+      0.603
+     ]
+    },
+    {
+     "id": "142771838312087-234",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.401,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25850,
+   "at": [
+    67.35,
+    1363.35
+   ],
+   "centre": [
+    50.4,
+    1370.8
+   ],
+   "width": 5.4,
+   "faces": 342,
+   "toStreet": 10.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    68.2,
+    1365.9,
+    53.9,
+    1370.6,
+    59.4,
+    1378.8,
+    42.9,
+    1387.5,
+    37.7,
+    1377.8,
+    40.7,
+    1376.1,
+    39.7,
+    1373,
+    36.1,
+    1371,
+    47.9,
+    1366.6,
+    49.5,
+    1369.9,
+    51.7,
+    1369,
+    51.5,
+    1368.3,
+    54.3,
+    1366.9,
+    53.5,
+    1365.2,
+    53.4,
+    1365.1,
+    66.5,
+    1360.8
+   ],
+   "id": "sint-amandstraat-342-09",
+   "latLon": [
+    51.04351,
+    3.724534
+   ],
+   "photos": [
+    {
+     "id": "741558543679025-255",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.415,
+      0.59
+     ]
+    },
+    {
+     "id": "2414995425566211-236",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.424,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25849,
+   "at": [
+    77.15,
+    1392.35
+   ],
+   "centre": [
+    69.5,
+    1396.4
+   ],
+   "width": 9.6,
+   "faces": 342,
+   "toStreet": 9.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    60,
+    1392.3,
+    70.9,
+    1386.4,
+    75.7,
+    1387.8,
+    78.6,
+    1396.9,
+    74.4,
+    1398.7,
+    66.8,
+    1406.1,
+    64.7,
+    1401.7,
+    65,
+    1401.3
+   ],
+   "id": "sint-amandstraat-342-10",
+   "latLon": [
+    51.043301,
+    3.724646
+   ],
+   "photos": [
+    {
+     "id": "1225560171194608",
+     "metres": 43,
+     "off": 10,
+     "span": [
+      0.627,
+      0.778
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25795,
+   "at": [
+    79.85,
+    1400.9
+   ],
+   "centre": [
+    75.2,
+    1401.7
+   ],
+   "width": 8.4,
+   "faces": 343,
+   "toStreet": 9.1,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    66.8,
+    1406.1,
+    74.4,
+    1398.7,
+    78.6,
+    1396.9,
+    81.1,
+    1404.9
+   ],
+   "id": "sint-amandstraat-343-11",
+   "latLon": [
+    51.043239,
+    3.724677
+   ],
+   "photos": [
+    {
+     "id": "997518827720678",
+     "metres": 39,
+     "off": 11,
+     "span": [
+      0.639,
+      0.807
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23325,
+   "at": [
+    98.1,
+    1551.45
+   ],
+   "centre": [
+    90,
+    1552.3
+   ],
+   "width": 3.6,
+   "faces": 347,
+   "toStreet": 12.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    98.5,
+    1553.2,
+    82.1,
+    1554.8,
+    81.5,
+    1551.3,
+    97.7,
+    1549.7
+   ],
+   "id": "sint-amandstraat-347-12",
+   "latLon": [
+    51.04215,
+    3.724886
+   ],
+   "photos": [
+    {
+     "id": "1278929407153310-260",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.444,
+      0.546
+     ]
+    },
+    {
+     "id": "427544205846794-242",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.452,
+      0.54
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23326,
+   "at": [
+    99.25,
+    1556.45
+   ],
+   "centre": [
+    84,
+    1558.9
+   ],
+   "width": 6.7,
+   "faces": 347,
+   "toStreet": 11.8,
+   "floors": 2,
+   "eaves": 6.7,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    82.1,
+    1554.8,
+    98.5,
+    1553.2,
+    100,
+    1559.7,
+    82.9,
+    1561.8,
+    78.4,
+    1563.2,
+    73.4,
+    1563.9,
+    72.4,
+    1555.7
+   ],
+   "id": "sint-amandstraat-347-13",
+   "latLon": [
+    51.042113,
+    3.724899
+   ],
+   "photos": [
+    {
+     "id": "1278929407153310-243",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.414,
+      0.594
+     ]
+    },
+    {
+     "id": "123110670339811-262",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.406,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23324,
+   "at": [
+    100.7,
+    1562.7
+   ],
+   "centre": [
+    84.4,
+    1565.1
+   ],
+   "width": 6.2,
+   "faces": 347,
+   "toStreet": 11.3,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    73.4,
+    1563.9,
+    78.4,
+    1563.2,
+    82.9,
+    1561.8,
+    100,
+    1559.7,
+    101.4,
+    1565.7,
+    88.6,
+    1567.3,
+    88.1,
+    1565.1,
+    78.5,
+    1566.2,
+    78.6,
+    1568.5,
+    74,
+    1569.1
+   ],
+   "id": "sint-amandstraat-347-14",
+   "latLon": [
+    51.042068,
+    3.724916
+   ],
+   "photos": [
+    {
+     "id": "3109696642540120-264",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.402,
+      0.587
+     ]
+    },
+    {
+     "id": "123110670339811-241",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.426,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23288,
+   "at": [
+    102.80000000000001,
+    1571.95
+   ],
+   "centre": [
+    88.3,
+    1574.6
+   ],
+   "width": 12.8,
+   "faces": 347,
+   "toStreet": 10.5,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 22.6,
+   "kind": "house",
+   "ring": [
+    104.2,
+    1578.2,
+    85,
+    1581,
+    84.1,
+    1581.2,
+    83.9,
+    1578.4,
+    84,
+    1577.9,
+    84.4,
+    1577.5,
+    85.5,
+    1577.1,
+    85.1,
+    1571.9,
+    87.1,
+    1571.8,
+    86.6,
+    1567.5,
+    88.6,
+    1567.3,
+    101.4,
+    1565.7
+   ],
+   "id": "sint-amandstraat-347-15",
+   "latLon": [
+    51.042001,
+    3.72494
+   ],
+   "photos": [
+    {
+     "id": "303752298446286-251",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.311,
+      0.708
+     ]
+    },
+    {
+     "id": "713998567828203-276",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.284,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23300,
+   "at": [
+    106.15,
+    1587.05
+   ],
+   "centre": [
+    92.8,
+    1588.6
+   ],
+   "width": 5,
+   "faces": 347,
+   "toStreet": 9.4,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 20.4,
+   "kind": "house",
+   "ring": [
+    90.2,
+    1586.8,
+    105.6,
+    1584.6,
+    106.7,
+    1589.5,
+    89.4,
+    1591.9,
+    89,
+    1589.6,
+    84.5,
+    1590.2,
+    84.1,
+    1587.6
+   ],
+   "id": "sint-amandstraat-347-16",
+   "latLon": [
+    51.041892,
+    3.724978
+   ],
+   "photos": [
+    {
+     "id": "1434626064429813",
+     "metres": 45,
+     "off": 0,
+     "span": [
+      0.479,
+      0.518
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23297,
+   "at": [
+    107.25,
+    1591.95
+   ],
+   "centre": [
+    93.3,
+    1594.3
+   ],
+   "width": 5,
+   "faces": 347,
+   "toStreet": 9.1,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 20.6,
+   "kind": "house",
+   "ring": [
+    89.4,
+    1591.9,
+    106.7,
+    1589.5,
+    107.8,
+    1594.4,
+    88.8,
+    1597.1,
+    85.3,
+    1597.6,
+    85,
+    1595.1,
+    89.8,
+    1594.8
+   ],
+   "id": "sint-amandstraat-347-17",
+   "latLon": [
+    51.041857,
+    3.72499
+   ],
+   "photos": [
+    {
+     "id": "788715934189524",
+     "metres": 43,
+     "off": 0,
+     "span": [
+      0.479,
+      0.521
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23301,
+   "at": [
+    111.1,
+    1608.8000000000002
+   ],
+   "centre": [
+    98.9,
+    1612.5
+   ],
+   "width": 29.5,
+   "faces": 347,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "college",
+   "ring": [
+    88.8,
+    1597.1,
+    107.8,
+    1594.4,
+    114.4,
+    1623.2,
+    96,
+    1625.9,
+    94.6,
+    1616.8,
+    91.6,
+    1617.3
+   ],
+   "id": "sint-amandstraat-347-18",
+   "latLon": [
+    51.041735,
+    3.725034
+   ],
+   "photos": [
+    {
+     "id": "1177202790884103",
+     "metres": 44,
+     "off": 0,
+     "span": [
+      0.349,
+      0.634
+     ]
+    },
+    {
+     "id": "31274584672186893",
+     "metres": 44,
+     "off": 2,
+     "span": [
+      0.349,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23298,
+   "at": [
+    104.9,
+    1581.4
+   ],
+   "centre": [
+    93.3,
+    1583.2
+   ],
+   "width": 6.6,
+   "faces": 348,
+   "toStreet": 9.9,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 20.6,
+   "kind": "college",
+   "ring": [
+    85,
+    1581,
+    104.2,
+    1578.2,
+    105.6,
+    1584.6,
+    90.2,
+    1586.8,
+    89.7,
+    1584,
+    85.3,
+    1584.4
+   ],
+   "id": "sint-amandstraat-348-19",
+   "latLon": [
+    51.041933,
+    3.724964
+   ],
+   "photos": [
+    {
+     "id": "565486014801252-257",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.391,
+      0.613
+     ]
+    },
+    {
+     "id": "713998567828203-241",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.408,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23302,
+   "at": [
+    115.25,
+    1627.1
+   ],
+   "centre": [
+    99,
+    1629
+   ],
+   "width": 8,
+   "faces": 348,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    96,
+    1625.9,
+    114.4,
+    1623.2,
+    116.1,
+    1631,
+    97,
+    1634.8,
+    96.3,
+    1630.4,
+    86.8,
+    1630.5,
+    86.3,
+    1627.4
+   ],
+   "id": "sint-amandstraat-348-20",
+   "latLon": [
+    51.041602,
+    3.725082
+   ],
+   "photos": [
+    {
+     "id": "1014725954017951",
+     "metres": 43,
+     "off": 19,
+     "span": [
+      0.265,
+      0.355
+     ]
+    },
+    {
+     "id": "31274584672186893",
+     "metres": 43,
+     "off": 21,
+     "span": [
+      0.266,
+      0.349
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23316,
+   "at": [
+    95.65,
+    1539.4499999999998
+   ],
+   "centre": [
+    80.9,
+    1545.1
+   ],
+   "width": 9.5,
+   "faces": 350,
+   "toStreet": 13,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    79.1,
+    1536.9,
+    94.8,
+    1534.8,
+    96.5,
+    1544.1,
+    97.7,
+    1549.7,
+    81.5,
+    1551.3,
+    62.4,
+    1553.2,
+    62.1,
+    1550.8,
+    78.5,
+    1549.1,
+    78.4,
+    1547.7,
+    80.9,
+    1547.5,
+    79.7,
+    1538.4,
+    79.3,
+    1538.3
+   ],
+   "id": "sint-amandstraat-350-21",
+   "latLon": [
+    51.042236,
+    3.724858
+   ],
+   "photos": [
+    {
+     "id": "1332571711147664-258",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.374,
+      0.627
+     ]
+    },
+    {
+     "id": "427544205846794-277",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.381,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23313,
+   "at": [
+    94.25,
+    1531.4
+   ],
+   "centre": [
+    86.5,
+    1532.6
+   ],
+   "width": 6.9,
+   "faces": 351,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    78.4,
+    1530.5,
+    93.7,
+    1528,
+    94.8,
+    1534.8,
+    79.1,
+    1536.9
+   ],
+   "id": "sint-amandstraat-351-22",
+   "latLon": [
+    51.042295,
+    3.724842
+   ],
+   "photos": [
+    {
+     "id": "530843371897394-266",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.408,
+      0.587
+     ]
+    },
+    {
+     "id": "1738945663500470-243",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.423,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23194,
+   "at": [
+    117.25,
+    1640.25
+   ],
+   "centre": [
+    107.8,
+    1643.4
+   ],
+   "width": 6.4,
+   "faces": 352,
+   "toStreet": 8.9,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    97.3,
+    1640.7,
+    116.8,
+    1637.1,
+    117.7,
+    1643.4,
+    117.1,
+    1645.8,
+    113.2,
+    1650.5,
+    107.4,
+    1645.8,
+    102.6,
+    1645.1,
+    104.4,
+    1643,
+    104.3,
+    1641.3,
+    97.7,
+    1641.3
+   ],
+   "id": "sint-amandstraat-352-23",
+   "latLon": [
+    51.041507,
+    3.725105
+   ],
+   "photos": [
+    {
+     "id": "1026083859672973-246",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.36,
+      0.659
+     ]
+    },
+    {
+     "id": "149024684289248-261",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.445,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25801,
+   "at": [
+    83.05000000000001,
+    1422.3000000000002
+   ],
+   "centre": [
+    69.1,
+    1422.7
+   ],
+   "width": 11.3,
+   "faces": 353,
+   "toStreet": 9.4,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    55.9,
+    1417.3,
+    68.6,
+    1416.9,
+    82.4,
+    1416.7,
+    83.7,
+    1427.9,
+    66.6,
+    1428.5,
+    57.2,
+    1428.9
+   ],
+   "id": "sint-amandstraat-353-24",
+   "latLon": [
+    51.043084,
+    3.724714
+   ],
+   "photos": [
+    {
+     "id": "597192945015872",
+     "metres": 34,
+     "off": 11,
+     "span": [
+      0.121,
+      0.439
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25810,
+   "at": [
+    84.15,
+    1431.8000000000002
+   ],
+   "centre": [
+    72.9,
+    1432.4
+   ],
+   "width": 7.9,
+   "faces": 353,
+   "toStreet": 9.6,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 21.4,
+   "kind": "house",
+   "ring": [
+    66.6,
+    1428.5,
+    83.7,
+    1427.9,
+    84.6,
+    1435.7,
+    67.8,
+    1436.1,
+    67.8,
+    1433.2,
+    66.7,
+    1433.1
+   ],
+   "id": "sint-amandstraat-353-25",
+   "latLon": [
+    51.043015,
+    3.724726
+   ],
+   "photos": [
+    {
+     "id": "475916828899847-271",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.342,
+      0.641
+     ]
+    },
+    {
+     "id": "1399260033881377-246",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.366,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25812,
+   "at": [
+    84.8,
+    1437.45
+   ],
+   "centre": [
+    65.9,
+    1434.2
+   ],
+   "width": 3.5,
+   "faces": 353,
+   "toStreet": 9.6,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    49.9,
+    1429.1,
+    57.2,
+    1428.9,
+    66.6,
+    1428.5,
+    66.7,
+    1433.1,
+    67.8,
+    1433.2,
+    67.8,
+    1436.1,
+    84.6,
+    1435.7,
+    85,
+    1439.2,
+    59.4,
+    1439.2,
+    54.4,
+    1439.2
+   ],
+   "id": "sint-amandstraat-353-26",
+   "latLon": [
+    51.042974,
+    3.724734
+   ],
+   "photos": [
+    {
+     "id": "475916828899847-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.443,
+      0.566
+     ]
+    },
+    {
+     "id": "1057190138556471-271",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.437,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23150,
+   "at": [
+    116.44999999999999,
+    1634.05
+   ],
+   "centre": [
+    104.7,
+    1635.7
+   ],
+   "width": 6.1,
+   "faces": 353,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 18.8,
+   "kind": "house",
+   "ring": [
+    96.4,
+    1634.9,
+    97,
+    1634.8,
+    116.1,
+    1631,
+    116.8,
+    1637.1,
+    97.3,
+    1640.7
+   ],
+   "id": "sint-amandstraat-353-27",
+   "latLon": [
+    51.041552,
+    3.725096
+   ],
+   "photos": [
+    {
+     "id": "1026083859672973-281",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.344,
+      0.625
+     ]
+    },
+    {
+     "id": "310048221286054-263",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.422,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25807,
+   "at": [
+    81.75,
+    1410.8000000000002
+   ],
+   "centre": [
+    74.7,
+    1411.2
+   ],
+   "width": 11.9,
+   "faces": 354,
+   "toStreet": 9.3,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    66.8,
+    1406.1,
+    81.1,
+    1404.9,
+    82.4,
+    1416.7,
+    68.6,
+    1416.9
+   ],
+   "id": "sint-amandstraat-354-28",
+   "latLon": [
+    51.043167,
+    3.724699
+   ],
+   "photos": [
+    {
+     "id": "997518827720678",
+     "metres": 35,
+     "off": 0,
+     "span": [
+      0.337,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25802,
+   "at": [
+    86.95,
+    1459.3000000000002
+   ],
+   "centre": [
+    71,
+    1460.3
+   ],
+   "width": 15.3,
+   "faces": 354,
+   "toStreet": 10.3,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 19.2,
+   "kind": "house",
+   "ring": [
+    71.2,
+    1452,
+    86.2,
+    1451.7,
+    87.7,
+    1466.9,
+    67.9,
+    1467.7,
+    67.8,
+    1464.4,
+    66,
+    1464.4,
+    65.9,
+    1461.6,
+    63.3,
+    1461.7,
+    62.8,
+    1452.3
+   ],
+   "id": "sint-amandstraat-354-29",
+   "latLon": [
+    51.042816,
+    3.724758
+   ],
+   "photos": [
+    {
+     "id": "1380800703432043-250",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.278,
+      0.795
+     ]
+    },
+    {
+     "id": "725840178846375-272",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.194,
+      0.76
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23311,
+   "at": [
+    88.80000000000001,
+    1478.25
+   ],
+   "centre": [
+    76,
+    1479.7
+   ],
+   "width": 7.7,
+   "faces": 354,
+   "toStreet": 11.2,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    89.2,
+    1482.1,
+    71.8,
+    1482.9,
+    65.4,
+    1483.3,
+    65,
+    1475.8,
+    88.4,
+    1474.4
+   ],
+   "id": "sint-amandstraat-354-30",
+   "latLon": [
+    51.042679,
+    3.724779
+   ],
+   "photos": [
+    {
+     "id": "979369980946087-265",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.374,
+      0.619
+     ]
+    },
+    {
+     "id": "396414375677876-286",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.374,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23315,
+   "at": [
+    93.25,
+    1523.8
+   ],
+   "centre": [
+    78,
+    1524.4
+   ],
+   "width": 8.4,
+   "faces": 354,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    77.1,
+    1520.8,
+    92.8,
+    1519.6,
+    93.7,
+    1528,
+    78.4,
+    1530.5,
+    77.7,
+    1524.4,
+    63.3,
+    1525.9,
+    62.8,
+    1521.8
+   ],
+   "id": "sint-amandstraat-354-31",
+   "latLon": [
+    51.04235,
+    3.72483
+   ],
+   "photos": [
+    {
+     "id": "1738945663500470-266",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.385,
+      0.608
+     ]
+    },
+    {
+     "id": "865258488208098-252",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.393,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25780,
+   "at": [
+    85.6,
+    1445.45
+   ],
+   "centre": [
+    71,
+    1443.3
+   ],
+   "width": 12.6,
+   "faces": 355,
+   "toStreet": 9.9,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    59.4,
+    1439.2,
+    85,
+    1439.2,
+    86.2,
+    1451.7,
+    71.2,
+    1452,
+    71.6,
+    1440.9,
+    70,
+    1440.9,
+    70,
+    1441.9,
+    68.4,
+    1442,
+    68.4,
+    1442.7,
+    59.5,
+    1442.9
+   ],
+   "id": "sint-amandstraat-355-32",
+   "latLon": [
+    51.042916,
+    3.724743
+   ],
+   "photos": [
+    {
+     "id": "1403631640984459-261",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.28,
+      0.735
+     ]
+    },
+    {
+     "id": "372398074842599-283",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.255,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23085,
+   "at": [
+    88.05000000000001,
+    1470.65
+   ],
+   "centre": [
+    74.7,
+    1470.5
+   ],
+   "width": 7.5,
+   "faces": 355,
+   "toStreet": 10.8,
+   "floors": 1,
+   "eaves": 3,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    67.9,
+    1467.7,
+    87.7,
+    1466.9,
+    88.4,
+    1474.4,
+    65,
+    1475.8,
+    64.5,
+    1467.8
+   ],
+   "id": "sint-amandstraat-355-33",
+   "latLon": [
+    51.042734,
+    3.724771
+   ],
+   "photos": [
+    {
+     "id": "1067951755181002-251",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.388,
+      0.619
+     ]
+    },
+    {
+     "id": "2770469869914291-271",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.368,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23310,
+   "at": [
+    89.55000000000001,
+    1485.9
+   ],
+   "centre": [
+    79.5,
+    1487.2
+   ],
+   "width": 7.6,
+   "faces": 355,
+   "toStreet": 11.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    71.8,
+    1482.9,
+    89.2,
+    1482.1,
+    89.9,
+    1489.7,
+    74.5,
+    1490.6,
+    72.2,
+    1490.6
+   ],
+   "id": "sint-amandstraat-355-34",
+   "latLon": [
+    51.042624,
+    3.724788
+   ],
+   "photos": [
+    {
+     "id": "2741748399547627-277",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.379,
+      0.604
+     ]
+    },
+    {
+     "id": "396414375677876-257",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.373,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23314,
+   "at": [
+    91.5,
+    1506
+   ],
+   "centre": [
+    83.2,
+    1501.1
+   ],
+   "width": 27.3,
+   "faces": 355,
+   "toStreet": 12.6,
+   "floors": 5,
+   "eaves": 18.6,
+   "top": null,
+   "kind": "dormitory",
+   "ring": [
+    74.5,
+    1490.6,
+    89.9,
+    1489.7,
+    90.2,
+    1492.4,
+    92.8,
+    1519.6,
+    77.1,
+    1520.8,
+    74.8,
+    1493.5
+   ],
+   "id": "sint-amandstraat-355-35",
+   "latLon": [
+    51.042478,
+    3.72481
+   ],
+   "photos": [
+    {
+     "id": "173951578307043-270",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.05,
+      0.893
+     ]
+    },
+    {
+     "id": "1433499480989566-283",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.056,
+      0.78
+     ]
+    }
+   ]
+  }
+ ]
+}

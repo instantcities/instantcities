@@ -1,0 +1,4988 @@
+{
+ "city": "ghent",
+ "street": "Karel Van Hulthemstraat",
+ "slug": "karel-van-hulthemstraat",
+ "photos": {
+  "1286556762565273-315": {
+   "file": "photos/1286556762565273-315.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286556762565273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434248,
+    3.7225648,
+    315,
+    0.5
+   ]
+  },
+  "1286556762565273-335": {
+   "file": "photos/1286556762565273-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286556762565273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434248,
+    3.7225648,
+    335,
+    0.5
+   ]
+  },
+  "775074190049592": {
+   "file": "photos/775074190049592.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=775074190049592",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0446405,
+    3.7236978,
+    306,
+    0.931
+   ]
+  },
+  "963279132437955-291": {
+   "file": "photos/963279132437955-291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=963279132437955",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0426862,
+    3.721869,
+    291,
+    0.5
+   ]
+  },
+  "719694905881042-287": {
+   "file": "photos/719694905881042-287.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=719694905881042",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0426881,
+    3.721877,
+    287,
+    0.5
+   ]
+  },
+  "359910186183780-312": {
+   "file": "photos/359910186183780-312.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=359910186183780",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0427572,
+    3.7219222,
+    312,
+    0.5
+   ]
+  },
+  "635514722562245-335": {
+   "file": "photos/635514722562245-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=635514722562245",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0427089,
+    3.7219257,
+    335,
+    0.5
+   ]
+  },
+  "1121264239733547-296": {
+   "file": "photos/1121264239733547-296.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1121264239733547",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0427129,
+    3.7219206,
+    296,
+    0.5
+   ]
+  },
+  "719694905881042-331": {
+   "file": "photos/719694905881042-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=719694905881042",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0426881,
+    3.721877,
+    331,
+    0.5
+   ]
+  },
+  "429731245583310-279": {
+   "file": "photos/429731245583310-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=429731245583310",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428309,
+    3.7219727,
+    279,
+    0.5
+   ]
+  },
+  "731815778259359-326": {
+   "file": "photos/731815778259359-326.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=731815778259359",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0429131,
+    3.7220272,
+    326,
+    0.5
+   ]
+  },
+  "731815778259359-264": {
+   "file": "photos/731815778259359-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=731815778259359",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0429131,
+    3.7220272,
+    264,
+    0.5
+   ]
+  },
+  "772834670787898-276": {
+   "file": "photos/772834670787898-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=772834670787898",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430003,
+    3.7220827,
+    276,
+    0.5
+   ]
+  },
+  "771919207314678-288": {
+   "file": "photos/771919207314678-288.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=771919207314678",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430889,
+    3.7221364,
+    288,
+    0.5
+   ]
+  },
+  "4508391225928866-302": {
+   "file": "photos/4508391225928866-302.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4508391225928866",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0432665,
+    3.7222466,
+    302,
+    0.5
+   ]
+  },
+  "1286556762565273-260": {
+   "file": "photos/1286556762565273-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286556762565273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434248,
+    3.7225648,
+    260,
+    0.5
+   ]
+  },
+  "1286556762565273-325": {
+   "file": "photos/1286556762565273-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286556762565273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434248,
+    3.7225648,
+    325,
+    0.5
+   ]
+  },
+  "476489166945940": {
+   "file": "photos/476489166945940.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=476489166945940",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0447049,
+    3.7236099,
+    323,
+    0.931
+   ]
+  },
+  "291686372432348": {
+   "file": "photos/291686372432348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=291686372432348",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2014-06-30",
+   "cam": [
+    51.0446721,
+    3.723869,
+    326,
+    0.908
+   ]
+  },
+  "119641320705835-298": {
+   "file": "photos/119641320705835-298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=119641320705835",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0426272,
+    3.7218243,
+    298,
+    0.5
+   ]
+  },
+  "9217255628352586-312": {
+   "file": "photos/9217255628352586-312.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9217255628352586",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0425877,
+    3.7218688,
+    312,
+    0.5
+   ]
+  },
+  "221406582687094": {
+   "file": "photos/221406582687094.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=221406582687094",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0448874,
+    3.7235395,
+    25,
+    0.953
+   ]
+  },
+  "3577722202452158": {
+   "file": "photos/3577722202452158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3577722202452158",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.044064,
+    3.7229624,
+    48,
+    0.953
+   ]
+  },
+  "949613062383329-85": {
+   "file": "photos/949613062383329-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=949613062383329",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.043879,
+    3.7226658,
+    85,
+    0.5
+   ]
+  },
+  "4803896659718893-111": {
+   "file": "photos/4803896659718893-111.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4803896659718893",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0431768,
+    3.7221924,
+    111,
+    0.5
+   ]
+  },
+  "4508391225928866-144": {
+   "file": "photos/4508391225928866-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4508391225928866",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0432665,
+    3.7222466,
+    144,
+    0.5
+   ]
+  },
+  "1653761768321618-87": {
+   "file": "photos/1653761768321618-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1653761768321618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0433535,
+    3.7222999,
+    87,
+    0.5
+   ]
+  },
+  "609320058591613-147": {
+   "file": "photos/609320058591613-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609320058591613",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434967,
+    3.7223092,
+    147,
+    0.5
+   ]
+  },
+  "949613062383329-144": {
+   "file": "photos/949613062383329-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=949613062383329",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.043879,
+    3.7226658,
+    144,
+    0.5
+   ]
+  },
+  "730658605010093-104": {
+   "file": "photos/730658605010093-104.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=730658605010093",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0447385,
+    3.723254,
+    104,
+    0.5
+   ]
+  },
+  "474810253731166": {
+   "file": "photos/474810253731166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=474810253731166",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0425727,
+    3.7216176,
+    86,
+    1.042
+   ]
+  },
+  "303309154693382": {
+   "file": "photos/303309154693382.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=303309154693382",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0425626,
+    3.7215241,
+    75,
+    1.042
+   ]
+  },
+  "429731245583310-84": {
+   "file": "photos/429731245583310-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=429731245583310",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428309,
+    3.7219727,
+    84,
+    0.5
+   ]
+  },
+  "429731245583310-122": {
+   "file": "photos/429731245583310-122.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=429731245583310",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0428309,
+    3.7219727,
+    122,
+    0.5
+   ]
+  },
+  "731815778259359-120": {
+   "file": "photos/731815778259359-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=731815778259359",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0429131,
+    3.7220272,
+    120,
+    0.5
+   ]
+  },
+  "771919207314678-146": {
+   "file": "photos/771919207314678-146.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=771919207314678",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430889,
+    3.7221364,
+    146,
+    0.5
+   ]
+  },
+  "772834670787898-112": {
+   "file": "photos/772834670787898-112.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=772834670787898",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430003,
+    3.7220827,
+    112,
+    0.5
+   ]
+  },
+  "4803896659718893-145": {
+   "file": "photos/4803896659718893-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4803896659718893",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0431768,
+    3.7221924,
+    145,
+    0.5
+   ]
+  },
+  "4508391225928866-115": {
+   "file": "photos/4508391225928866-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4508391225928866",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0432665,
+    3.7222466,
+    115,
+    0.5
+   ]
+  },
+  "1653761768321618-116": {
+   "file": "photos/1653761768321618-116.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1653761768321618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0433535,
+    3.7222999,
+    116,
+    0.5
+   ]
+  },
+  "609320058591613-159": {
+   "file": "photos/609320058591613-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609320058591613",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434967,
+    3.7223092,
+    159,
+    0.5
+   ]
+  },
+  "4508391225928866-85": {
+   "file": "photos/4508391225928866-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4508391225928866",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0432665,
+    3.7222466,
+    85,
+    0.5
+   ]
+  },
+  "524373662739892-96": {
+   "file": "photos/524373662739892-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=524373662739892",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0435221,
+    3.722414,
+    96,
+    0.5
+   ]
+  },
+  "609320058591613-84": {
+   "file": "photos/609320058591613-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609320058591613",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434967,
+    3.7223092,
+    84,
+    0.5
+   ]
+  },
+  "278064197759341-119": {
+   "file": "photos/278064197759341-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=278064197759341",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436044,
+    3.7224744,
+    119,
+    0.5
+   ]
+  },
+  "609320058591613-70": {
+   "file": "photos/609320058591613-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609320058591613",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0434967,
+    3.7223092,
+    70,
+    0.5
+   ]
+  },
+  "318480123759062-84": {
+   "file": "photos/318480123759062-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=318480123759062",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436927,
+    3.7225343,
+    84,
+    0.5
+   ]
+  },
+  "318480123759062-113": {
+   "file": "photos/318480123759062-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=318480123759062",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436927,
+    3.7225343,
+    113,
+    0.5
+   ]
+  },
+  "1192100291566479-115": {
+   "file": "photos/1192100291566479-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192100291566479",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0437841,
+    3.7226015,
+    115,
+    0.5
+   ]
+  },
+  "1387334231769113-96": {
+   "file": "photos/1387334231769113-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1387334231769113",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0444576,
+    3.7230629,
+    96,
+    0.5
+   ]
+  },
+  "533015248365400-119": {
+   "file": "photos/533015248365400-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=533015248365400",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0446441,
+    3.7231944,
+    119,
+    0.5
+   ]
+  },
+  "1285798645281576-88": {
+   "file": "photos/1285798645281576-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285798645281576",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445512,
+    3.7231276,
+    88,
+    0.5
+   ]
+  },
+  "1285798645281576-121": {
+   "file": "photos/1285798645281576-121.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285798645281576",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0445512,
+    3.7231276,
+    121,
+    0.5
+   ]
+  },
+  "533015248365400-87": {
+   "file": "photos/533015248365400-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=533015248365400",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0446441,
+    3.7231944,
+    87,
+    0.5
+   ]
+  },
+  "1142675422824915": {
+   "file": "photos/1142675422824915.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1142675422824915",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0451791,
+    3.7232925,
+    147,
+    0.865
+   ]
+  },
+  "772834670787898-149": {
+   "file": "photos/772834670787898-149.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=772834670787898",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430003,
+    3.7220827,
+    149,
+    0.5
+   ]
+  },
+  "771919207314678-114": {
+   "file": "photos/771919207314678-114.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=771919207314678",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0430889,
+    3.7221364,
+    114,
+    0.5
+   ]
+  },
+  "278064197759341-86": {
+   "file": "photos/278064197759341-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=278064197759341",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436044,
+    3.7224744,
+    86,
+    0.5
+   ]
+  },
+  "949613062383329-112": {
+   "file": "photos/949613062383329-112.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=949613062383329",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.043879,
+    3.7226658,
+    112,
+    0.5
+   ]
+  },
+  "1387334231769113-134": {
+   "file": "photos/1387334231769113-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1387334231769113",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0444576,
+    3.7230629,
+    134,
+    0.5
+   ]
+  },
+  "298441518555515": {
+   "file": "photos/298441518555515.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=298441518555515",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0451047,
+    3.7233936,
+    143,
+    0.865
+   ]
+  },
+  "3857981097583067": {
+   "file": "photos/3857981097583067.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3857981097583067",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0451975,
+    3.7232688,
+    142,
+    0.865
+   ]
+  },
+  "307798660933883": {
+   "file": "photos/307798660933883.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=307798660933883",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0452406,
+    3.7235681,
+    162,
+    0.997
+   ]
+  },
+  "635514722562245-128": {
+   "file": "photos/635514722562245-128.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=635514722562245",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-28",
+   "pano": true,
+   "cam": [
+    51.0427089,
+    3.7219257,
+    128,
+    0.5
+   ]
+  },
+  "359910186183780-143": {
+   "file": "photos/359910186183780-143.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=359910186183780",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0427572,
+    3.7219222,
+    143,
+    0.5
+   ]
+  },
+  "318480123759062-165": {
+   "file": "photos/318480123759062-165.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=318480123759062",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0436927,
+    3.7225343,
+    165,
+    0.5
+   ]
+  },
+  "1095950644229969": {
+   "file": "photos/1095950644229969.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1095950644229969",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0426742,
+    3.7217522,
+    236,
+    0.532
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 7937,
+   "at": [
+    -120.2,
+    1360.15
+   ],
+   "centre": [
+    -127.2,
+    1358.2
+   ],
+   "width": 4,
+   "faces": 23,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -137.1,
+    1356.3,
+    -134.8,
+    1351.3,
+    -119.4,
+    1358.3,
+    -121,
+    1362,
+    -123.9,
+    1363.1
+   ],
+   "id": "karel-van-hulthemstraat-23-01",
+   "latLon": [
+    51.043534,
+    3.72239
+   ],
+   "photos": [
+    {
+     "id": "1286556762565273-315",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.453,
+      0.54
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7887,
+   "at": [
+    -116.15,
+    1350.85
+   ],
+   "centre": [
+    -125.6,
+    1346.5
+   ],
+   "width": 5.8,
+   "faces": 23,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    -128.1,
+    1342.9,
+    -115,
+    1348.2,
+    -117.3,
+    1353.5,
+    -132.5,
+    1346.6,
+    -131.6,
+    1345.4,
+    -129.2,
+    1342.5
+   ],
+   "id": "karel-van-hulthemstraat-23-02",
+   "latLon": [
+    51.043601,
+    3.722436
+   ],
+   "photos": [
+    {
+     "id": "1286556762565273-335",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.46,
+      0.541
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7892,
+   "at": [
+    -106.65,
+    1329.55
+   ],
+   "centre": [
+    -112.1,
+    1327.1
+   ],
+   "width": 6.4,
+   "faces": 23,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": 20.4,
+   "kind": "house",
+   "ring": [
+    -118.7,
+    1327.7,
+    -116.4,
+    1321.7,
+    -105.4,
+    1326.6,
+    -107.9,
+    1332.5
+   ],
+   "id": "karel-van-hulthemstraat-23-03",
+   "latLon": [
+    51.043755,
+    3.722545
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7851,
+   "at": [
+    -63.150000000000006,
+    1231.6999999999998
+   ],
+   "centre": [
+    -75.9,
+    1225.5
+   ],
+   "width": 6.3,
+   "faces": 23,
+   "toStreet": 8.3,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    -86.1,
+    1225.1,
+    -83.5,
+    1219.4,
+    -83.5,
+    1219.4,
+    -61.9,
+    1228.8,
+    -64.4,
+    1234.6
+   ],
+   "id": "karel-van-hulthemstraat-23-04",
+   "latLon": [
+    51.044463,
+    3.723042
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7826,
+   "at": [
+    -53.95,
+    1211.1
+   ],
+   "centre": [
+    -66.9,
+    1205.6
+   ],
+   "width": 8.9,
+   "faces": 23,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -62.8,
+    1202.3,
+    -52.2,
+    1207,
+    -55.7,
+    1215.2,
+    -72,
+    1208,
+    -77,
+    1205.8,
+    -74.8,
+    1200.5,
+    -71.3,
+    1202,
+    -72,
+    1203.5,
+    -64.7,
+    1206.5
+   ],
+   "id": "karel-van-hulthemstraat-23-05",
+   "latLon": [
+    51.044612,
+    3.723148
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7823,
+   "at": [
+    -40.3,
+    1180.8
+   ],
+   "centre": [
+    -46,
+    1177.5
+   ],
+   "width": 6.5,
+   "faces": 23,
+   "toStreet": 7.1,
+   "floors": 5,
+   "eaves": 18,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -52.3,
+    1179.3,
+    -49.3,
+    1172.9,
+    -47.6,
+    1173.7,
+    -39,
+    1177.8,
+    -41.6,
+    1183.8
+   ],
+   "id": "karel-van-hulthemstraat-23-06",
+   "latLon": [
+    51.044831,
+    3.723304
+   ],
+   "photos": [
+    {
+     "id": "775074190049592",
+     "metres": 35,
+     "off": 2,
+     "span": [
+      0.464,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5803,
+   "at": [
+    -171.6,
+    1475.1
+   ],
+   "centre": [
+    -180.8,
+    1469.9
+   ],
+   "width": 4.8,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 5,
+   "eaves": 17,
+   "top": 19.3,
+   "kind": "house",
+   "ring": [
+    -173.6,
+    1479.4,
+    -172.6,
+    1477.3,
+    -170.6,
+    1472.9,
+    -176.1,
+    1469.6,
+    -175.9,
+    1469.1,
+    -184.4,
+    1464.5,
+    -191.8,
+    1460.5,
+    -194.9,
+    1465.3,
+    -187.2,
+    1470.4
+   ],
+   "id": "karel-van-hulthemstraat-24-07",
+   "latLon": [
+    51.042702,
+    3.721803
+   ],
+   "photos": [
+    {
+     "id": "963279132437955-291",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.306,
+      0.694
+     ]
+    },
+    {
+     "id": "719694905881042-287",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.327,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5805,
+   "at": [
+    -166.15,
+    1462.9
+   ],
+   "centre": [
+    -182.6,
+    1453.7
+   ],
+   "width": 8.1,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 19.8,
+   "kind": "yes",
+   "ring": [
+    -186.9,
+    1447.3,
+    -189.2,
+    1446.1,
+    -189.9,
+    1445.7,
+    -192.3,
+    1449.8,
+    -183.7,
+    1454.5,
+    -185.2,
+    1456.8,
+    -183.6,
+    1457.7,
+    -167.8,
+    1466.6,
+    -164.5,
+    1459.2
+   ],
+   "id": "karel-van-hulthemstraat-24-08",
+   "latLon": [
+    51.04279,
+    3.721865
+   ],
+   "photos": [
+    {
+     "id": "359910186183780-312",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.155,
+      0.743
+     ]
+    },
+    {
+     "id": "635514722562245-335",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.342,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5804,
+   "at": [
+    -169.2,
+    1469.75
+   ],
+   "centre": [
+    -178.5,
+    1465.8
+   ],
+   "width": 6.9,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": 19.4,
+   "kind": "apartments",
+   "ring": [
+    -170.6,
+    1472.9,
+    -167.8,
+    1466.6,
+    -183.6,
+    1457.7,
+    -186,
+    1462.4,
+    -183.9,
+    1463.5,
+    -184.4,
+    1464.5,
+    -175.9,
+    1469.1,
+    -176.1,
+    1469.6
+   ],
+   "id": "karel-van-hulthemstraat-24-09",
+   "latLon": [
+    51.042741,
+    3.72183
+   ],
+   "photos": [
+    {
+     "id": "1121264239733547-296",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.3,
+      0.694
+     ]
+    },
+    {
+     "id": "719694905881042-331",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.276,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5806,
+   "at": [
+    -163.25,
+    1456.35
+   ],
+   "centre": [
+    -175.9,
+    1449.6
+   ],
+   "width": 6.2,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 20,
+   "kind": "yes",
+   "ring": [
+    -164.5,
+    1459.2,
+    -162,
+    1453.5,
+    -181.6,
+    1444.7,
+    -184.7,
+    1443.3,
+    -186.9,
+    1447.3
+   ],
+   "id": "karel-van-hulthemstraat-24-10",
+   "latLon": [
+    51.042838,
+    3.721898
+   ],
+   "photos": [
+    {
+     "id": "429731245583310-279",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.289,
+      0.751
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7770,
+   "at": [
+    -155.95,
+    1440
+   ],
+   "centre": [
+    -164.5,
+    1436.1
+   ],
+   "width": 6.1,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 17,
+   "kind": "yes",
+   "ring": [
+    -157.2,
+    1442.8,
+    -154.7,
+    1437.2,
+    -171.8,
+    1429.7,
+    -174.2,
+    1434.8
+   ],
+   "id": "karel-van-hulthemstraat-24-11",
+   "latLon": [
+    51.042956,
+    3.721981
+   ],
+   "photos": [
+    {
+     "id": "731815778259359-326",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.267,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8184,
+   "at": [
+    -158.95,
+    1446.65
+   ],
+   "centre": [
+    -174.2,
+    1441.9
+   ],
+   "width": 8.5,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 20.6,
+   "kind": "house",
+   "ring": [
+    -185.8,
+    1438.9,
+    -185.2,
+    1437.7,
+    -182.1,
+    1431.1,
+    -179.3,
+    1432.4,
+    -174.2,
+    1434.8,
+    -157.2,
+    1442.8,
+    -160.7,
+    1450.5,
+    -161.3,
+    1451.9,
+    -162,
+    1453.5,
+    -181.6,
+    1444.7,
+    -180.9,
+    1443.1,
+    -180.1,
+    1441.1
+   ],
+   "id": "karel-van-hulthemstraat-24-12",
+   "latLon": [
+    51.042908,
+    3.721947
+   ],
+   "photos": [
+    {
+     "id": "731815778259359-264",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.298,
+      0.877
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7768,
+   "at": [
+    -149.7,
+    1426.0500000000002
+   ],
+   "centre": [
+    -164.1,
+    1419.1
+   ],
+   "width": 6.9,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -174.3,
+    1414.5,
+    -170.1,
+    1416.3,
+    -170.6,
+    1417.3,
+    -163.5,
+    1420.5,
+    -164.5,
+    1422.9,
+    -151.1,
+    1429.2,
+    -148.3,
+    1422.9,
+    -162.1,
+    1416.4,
+    -172.8,
+    1411.5
+   ],
+   "id": "karel-van-hulthemstraat-24-13",
+   "latLon": [
+    51.043057,
+    3.722053
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7769,
+   "at": [
+    -152.89999999999998,
+    1433.2
+   ],
+   "centre": [
+    -166.5,
+    1427.6
+   ],
+   "width": 8.8,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -171.8,
+    1429.7,
+    -154.7,
+    1437.2,
+    -151.1,
+    1429.2,
+    -164.5,
+    1422.9,
+    -165.8,
+    1422.3,
+    -167.6,
+    1426.5,
+    -173.4,
+    1423.8,
+    -175.3,
+    1428.1,
+    -174.4,
+    1428.8
+   ],
+   "id": "karel-van-hulthemstraat-24-14",
+   "latLon": [
+    51.043005,
+    3.722016
+   ],
+   "photos": [
+    {
+     "id": "772834670787898-276",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.211,
+      0.975
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7766,
+   "at": [
+    -144.4,
+    1414.0500000000002
+   ],
+   "centre": [
+    -156.8,
+    1408.8
+   ],
+   "width": 6.9,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 20.2,
+   "kind": "yes",
+   "ring": [
+    -158.9,
+    1403.9,
+    -159.9,
+    1406.2,
+    -164.2,
+    1404.1,
+    -166.2,
+    1408.3,
+    -159.8,
+    1411.1,
+    -145.8,
+    1417.2,
+    -143,
+    1410.9
+   ],
+   "id": "karel-van-hulthemstraat-24-15",
+   "latLon": [
+    51.043144,
+    3.722114
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7767,
+   "at": [
+    -147.05,
+    1420.0500000000002
+   ],
+   "centre": [
+    -154,
+    1416.9
+   ],
+   "width": 6.2,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": 19.7,
+   "kind": "yes",
+   "ring": [
+    -148.3,
+    1422.9,
+    -145.8,
+    1417.2,
+    -159.8,
+    1411.1,
+    -162.1,
+    1416.4
+   ],
+   "id": "karel-van-hulthemstraat-24-16",
+   "latLon": [
+    51.0431,
+    3.722083
+   ],
+   "photos": [
+    {
+     "id": "771919207314678-288",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.209,
+      0.845
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7693,
+   "at": [
+    -135.95,
+    1395.1
+   ],
+   "centre": [
+    -146,
+    1389.4
+   ],
+   "width": 6.8,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 21.8,
+   "kind": "yes",
+   "ring": [
+    -137.3,
+    1398.2,
+    -134.6,
+    1392,
+    -149.9,
+    1383.1,
+    -151.5,
+    1386.3,
+    -150.5,
+    1387,
+    -152,
+    1389.8
+   ],
+   "id": "karel-van-hulthemstraat-24-17",
+   "latLon": [
+    51.043281,
+    3.72221
+   ],
+   "photos": [
+    {
+     "id": "4508391225928866-302",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.898
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7694,
+   "at": [
+    -138.65,
+    1401.3000000000002
+   ],
+   "centre": [
+    -149,
+    1395.1
+   ],
+   "width": 6.8,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 21.6,
+   "kind": "yes",
+   "ring": [
+    -140,
+    1404.4,
+    -137.3,
+    1398.2,
+    -152,
+    1389.8,
+    -152.9,
+    1389.3,
+    -154.6,
+    1392.7,
+    -152.4,
+    1394.2,
+    -153.7,
+    1397.1
+   ],
+   "id": "karel-van-hulthemstraat-24-18",
+   "latLon": [
+    51.043236,
+    3.722179
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7691,
+   "at": [
+    -133.2,
+    1388.85
+   ],
+   "centre": [
+    -140.7,
+    1384.1
+   ],
+   "width": 6.9,
+   "faces": 24,
+   "toStreet": 7,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": 21.8,
+   "kind": "yes",
+   "ring": [
+    -134.6,
+    1392,
+    -131.8,
+    1385.7,
+    -139.9,
+    1382,
+    -147.4,
+    1377.6,
+    -149.9,
+    1383.1
+   ],
+   "id": "karel-van-hulthemstraat-24-19",
+   "latLon": [
+    51.043326,
+    3.722242
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7690,
+   "at": [
+    -128.85,
+    1379.25
+   ],
+   "centre": [
+    -139.8,
+    1375.5
+   ],
+   "width": 10.9,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 22.2,
+   "kind": "yes",
+   "ring": [
+    -150.8,
+    1370.9,
+    -151.1,
+    1371.5,
+    -145.8,
+    1374.2,
+    -147.4,
+    1377.6,
+    -139.9,
+    1382,
+    -131.8,
+    1385.7,
+    -131.1,
+    1384.2,
+    -126.6,
+    1374.3,
+    -127.3,
+    1372.4,
+    -146.4,
+    1362.6
+   ],
+   "id": "karel-van-hulthemstraat-24-20",
+   "latLon": [
+    51.043395,
+    3.722291
+   ],
+   "photos": [
+    {
+     "id": "1286556762565273-260",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.419,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7896,
+   "at": [
+    -118.35,
+    1355.9
+   ],
+   "centre": [
+    -126,
+    1352.4
+   ],
+   "width": 5.2,
+   "faces": 24,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -132.5,
+    1346.6,
+    -117.3,
+    1353.5,
+    -119.4,
+    1358.3,
+    -134.8,
+    1351.3
+   ],
+   "id": "karel-van-hulthemstraat-24-21",
+   "latLon": [
+    51.043564,
+    3.722411
+   ],
+   "photos": [
+    {
+     "id": "1286556762565273-325",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.453,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7889,
+   "at": [
+    -111.75,
+    1341.05
+   ],
+   "centre": [
+    -117.2,
+    1338.7
+   ],
+   "width": 5.6,
+   "faces": 24,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    -123.7,
+    1339,
+    -121.4,
+    1333.8,
+    -110.6,
+    1338.5,
+    -112.9,
+    1343.6
+   ],
+   "id": "karel-van-hulthemstraat-24-22",
+   "latLon": [
+    51.043672,
+    3.722487
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7891,
+   "at": [
+    -109.25,
+    1335.5
+   ],
+   "centre": [
+    -114.7,
+    1333.1
+   ],
+   "width": 6.6,
+   "faces": 24,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 16.4,
+   "top": 20.3,
+   "kind": "house",
+   "ring": [
+    -121.4,
+    1333.8,
+    -118.7,
+    1327.7,
+    -107.9,
+    1332.5,
+    -110.6,
+    1338.5
+   ],
+   "id": "karel-van-hulthemstraat-24-23",
+   "latLon": [
+    51.043712,
+    3.722515
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7885,
+   "at": [
+    -101.5,
+    1318.05
+   ],
+   "centre": [
+    -107.2,
+    1315.4
+   ],
+   "width": 6,
+   "faces": 24,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 20.7,
+   "kind": "house",
+   "ring": [
+    -114.1,
+    1315.7,
+    -111.8,
+    1309.7,
+    -100.3,
+    1315.3,
+    -102.7,
+    1320.8
+   ],
+   "id": "karel-van-hulthemstraat-24-24",
+   "latLon": [
+    51.043838,
+    3.722604
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7799,
+   "at": [
+    -92.05,
+    1296.75
+   ],
+   "centre": [
+    -101.4,
+    1290
+   ],
+   "width": 40.6,
+   "faces": 24,
+   "toStreet": 8.3,
+   "floors": 6,
+   "eaves": 23.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -93.7,
+    1274,
+    -83.8,
+    1278.2,
+    -100.3,
+    1315.3,
+    -111.8,
+    1309.7,
+    -108.8,
+    1302.7,
+    -110.7,
+    1301.9,
+    -108.2,
+    1296.5,
+    -106.4,
+    1297.4,
+    -101.2,
+    1286,
+    -103.1,
+    1285.1,
+    -100.8,
+    1279.5,
+    -98.9,
+    1280.2,
+    -97,
+    1276,
+    -95,
+    1276.9
+   ],
+   "id": "karel-van-hulthemstraat-24-25",
+   "latLon": [
+    51.043992,
+    3.722712
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7802,
+   "at": [
+    -80.25,
+    1270.35
+   ],
+   "centre": [
+    -90.3,
+    1266.5
+   ],
+   "width": 17.2,
+   "faces": 24,
+   "toStreet": 8.4,
+   "floors": 6,
+   "eaves": 22.1,
+   "top": 31.7,
+   "kind": "house",
+   "ring": [
+    -92,
+    1257,
+    -76.7,
+    1262.5,
+    -83.8,
+    1278.2,
+    -93.7,
+    1274,
+    -98.5,
+    1272,
+    -93.4,
+    1261.1,
+    -93.7,
+    1260.9
+   ],
+   "id": "karel-van-hulthemstraat-24-26",
+   "latLon": [
+    51.044183,
+    3.722847
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7868,
+   "at": [
+    -71.55,
+    1250.8
+   ],
+   "centre": [
+    -84.6,
+    1245.2
+   ],
+   "width": 8.7,
+   "faces": 24,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 19.4,
+   "top": 24.2,
+   "kind": "house",
+   "ring": [
+    -95,
+    1245.3,
+    -93.4,
+    1241.6,
+    -91.5,
+    1237.4,
+    -69.8,
+    1246.8,
+    -73.3,
+    1254.8
+   ],
+   "id": "karel-van-hulthemstraat-24-27",
+   "latLon": [
+    51.044325,
+    3.722946
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7867,
+   "at": [
+    -75,
+    1258.65
+   ],
+   "centre": [
+    -88.7,
+    1253.6
+   ],
+   "width": 8.4,
+   "faces": 24,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 20.4,
+   "top": 26.5,
+   "kind": "house",
+   "ring": [
+    -96.2,
+    1247.9,
+    -95,
+    1245.3,
+    -73.3,
+    1254.8,
+    -76.7,
+    1262.5,
+    -92,
+    1257,
+    -99.1,
+    1254.4
+   ],
+   "id": "karel-van-hulthemstraat-24-28",
+   "latLon": [
+    51.044268,
+    3.722907
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7801,
+   "at": [
+    -65.85,
+    1237.85
+   ],
+   "centre": [
+    -76.7,
+    1233.1
+   ],
+   "width": 7.1,
+   "faces": 24,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 16.9,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    -89,
+    1231.6,
+    -86.1,
+    1225.1,
+    -64.4,
+    1234.6,
+    -67.3,
+    1241.1
+   ],
+   "id": "karel-van-hulthemstraat-24-29",
+   "latLon": [
+    51.044418,
+    3.723012
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7871,
+   "at": [
+    -68.55,
+    1243.9499999999998
+   ],
+   "centre": [
+    -79.4,
+    1239.2
+   ],
+   "width": 6.2,
+   "faces": 24,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    -91.5,
+    1237.4,
+    -89,
+    1231.6,
+    -67.3,
+    1241.1,
+    -69.8,
+    1246.8
+   ],
+   "id": "karel-van-hulthemstraat-24-30",
+   "latLon": [
+    51.044374,
+    3.722981
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7832,
+   "at": [
+    -48.15,
+    1198.1
+   ],
+   "centre": [
+    -56.8,
+    1194.3
+   ],
+   "width": 6.1,
+   "faces": 24,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 18.6,
+   "kind": "house",
+   "ring": [
+    -64.7,
+    1194.2,
+    -62.3,
+    1188.7,
+    -57.5,
+    1190.8,
+    -46.9,
+    1195.3,
+    -49.4,
+    1200.9,
+    -60,
+    1196.2
+   ],
+   "id": "karel-van-hulthemstraat-24-31",
+   "latLon": [
+    51.044706,
+    3.723214
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7828,
+   "at": [
+    -42.900000000000006,
+    1186.6999999999998
+   ],
+   "centre": [
+    -52,
+    1183.1
+   ],
+   "width": 6.4,
+   "faces": 24,
+   "toStreet": 7.2,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -59.6,
+    1183,
+    -58,
+    1179.5,
+    -53.3,
+    1181.5,
+    -52.3,
+    1179.3,
+    -41.6,
+    1183.8,
+    -44.2,
+    1189.6,
+    -54.9,
+    1185.1
+   ],
+   "id": "karel-van-hulthemstraat-24-32",
+   "latLon": [
+    51.044788,
+    3.723274
+   ],
+   "photos": [
+    {
+     "id": "775074190049592",
+     "metres": 34,
+     "off": 7,
+     "span": [
+      0.321,
+      0.464
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7974,
+   "at": [
+    -36.25,
+    1171.65
+   ],
+   "centre": [
+    -40.4,
+    1165.8
+   ],
+   "width": 13.5,
+   "faces": 24,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -45.8,
+    1161,
+    -39.4,
+    1155.7,
+    -33.8,
+    1162.9,
+    -33.5,
+    1165.5,
+    -39,
+    1177.8,
+    -47.6,
+    1173.7,
+    -43.4,
+    1164.1
+   ],
+   "id": "karel-van-hulthemstraat-24-33",
+   "latLon": [
+    51.044897,
+    3.72335
+   ],
+   "photos": [
+    {
+     "id": "476489166945940",
+     "metres": 28,
+     "off": 3,
+     "span": [
+      0.265,
+      0.593
+     ]
+    },
+    {
+     "id": "291686372432348",
+     "metres": 44,
+     "off": 21,
+     "span": [
+      0.014,
+      0.267
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5807,
+   "at": [
+    -175.05,
+    1482.5500000000002
+   ],
+   "centre": [
+    -183.5,
+    1481.5
+   ],
+   "width": 6.9,
+   "faces": 25,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 16.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -184.9,
+    1485.2,
+    -184.6,
+    1485.2,
+    -183.8,
+    1485.1,
+    -182.9,
+    1485.1,
+    -182.6,
+    1485.1,
+    -181,
+    1485.1,
+    -180.7,
+    1485.1,
+    -179,
+    1485.3,
+    -178.7,
+    1485.4,
+    -177.9,
+    1485.6,
+    -176.8,
+    1485.8,
+    -176.5,
+    1485.7,
+    -173.6,
+    1479.4,
+    -187.2,
+    1470.4,
+    -189.2,
+    1473.9,
+    -198.3,
+    1467.4,
+    -200.3,
+    1470,
+    -185.2,
+    1481.5
+   ],
+   "id": "karel-van-hulthemstraat-25-34",
+   "latLon": [
+    51.042648,
+    3.721763
+   ],
+   "photos": [
+    {
+     "id": "119641320705835-298",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.21,
+      0.779
+     ]
+    },
+    {
+     "id": "9217255628352586-312",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.358,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7882,
+   "at": [
+    -113.95,
+    1345.9
+   ],
+   "centre": [
+    -121.1,
+    1342.3
+   ],
+   "width": 5.1,
+   "faces": 25,
+   "toStreet": 7.3,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -128.1,
+    1342.9,
+    -126,
+    1338,
+    -123.7,
+    1339,
+    -112.9,
+    1343.6,
+    -115,
+    1348.2
+   ],
+   "id": "karel-van-hulthemstraat-25-35",
+   "latLon": [
+    51.043637,
+    3.722462
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7893,
+   "at": [
+    -104.05000000000001,
+    1323.6999999999998
+   ],
+   "centre": [
+    -109.7,
+    1321.2
+   ],
+   "width": 6.4,
+   "faces": 25,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 20.5,
+   "kind": "house",
+   "ring": [
+    -116.4,
+    1321.7,
+    -114.1,
+    1315.7,
+    -102.7,
+    1320.8,
+    -105.4,
+    1326.6
+   ],
+   "id": "karel-van-hulthemstraat-25-36",
+   "latLon": [
+    51.043797,
+    3.722575
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7855,
+   "at": [
+    -60.349999999999994,
+    1225.4
+   ],
+   "centre": [
+    -73.1,
+    1219.9
+   ],
+   "width": 7.5,
+   "faces": 25,
+   "toStreet": 8.2,
+   "floors": 5,
+   "eaves": 18,
+   "top": 21.9,
+   "kind": "house",
+   "ring": [
+    -83.5,
+    1219.4,
+    -80.6,
+    1212.7,
+    -70.4,
+    1216.9,
+    -58.8,
+    1222,
+    -61.9,
+    1228.8,
+    -83.5,
+    1219.4
+   ],
+   "id": "karel-van-hulthemstraat-25-37",
+   "latLon": [
+    51.044509,
+    3.723074
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7827,
+   "at": [
+    -57.25,
+    1218.6
+   ],
+   "centre": [
+    -66.5,
+    1214.5
+   ],
+   "width": 7.5,
+   "faces": 25,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": 20.5,
+   "kind": "house",
+   "ring": [
+    -72,
+    1208,
+    -55.7,
+    1215.2,
+    -58.8,
+    1222,
+    -70.4,
+    1216.9,
+    -68.9,
+    1213.5,
+    -73.4,
+    1211.6
+   ],
+   "id": "karel-van-hulthemstraat-25-38",
+   "latLon": [
+    51.044558,
+    3.72311
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7822,
+   "at": [
+    -50.8,
+    1203.95
+   ],
+   "centre": [
+    -60.3,
+    1199.3
+   ],
+   "width": 6.7,
+   "faces": 25,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    -64.7,
+    1194.2,
+    -60,
+    1196.2,
+    -49.4,
+    1200.9,
+    -52.2,
+    1207,
+    -62.8,
+    1202.3,
+    -67.6,
+    1200.2,
+    -65.1,
+    1194
+   ],
+   "id": "karel-van-hulthemstraat-25-39",
+   "latLon": [
+    51.044664,
+    3.723184
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7821,
+   "at": [
+    -45.55,
+    1192.4499999999998
+   ],
+   "centre": [
+    -50.9,
+    1190.2
+   ],
+   "width": 6.3,
+   "faces": 25,
+   "toStreet": 7.4,
+   "floors": 5,
+   "eaves": 17.2,
+   "top": 19.5,
+   "kind": "house",
+   "ring": [
+    -57.5,
+    1190.8,
+    -54.9,
+    1185.1,
+    -44.2,
+    1189.6,
+    -46.9,
+    1195.3
+   ],
+   "id": "karel-van-hulthemstraat-25-40",
+   "latLon": [
+    51.044747,
+    3.723244
+   ],
+   "photos": [
+    {
+     "id": "775074190049592",
+     "metres": 34,
+     "off": 15,
+     "span": [
+      0.172,
+      0.321
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7975,
+   "at": [
+    -14.299999999999999,
+    1162.1999999999998
+   ],
+   "centre": [
+    -10.1,
+    1158.4
+   ],
+   "width": 7.2,
+   "faces": 144,
+   "toStreet": 10,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -16.4,
+    1159.3,
+    -14.6,
+    1159,
+    -8.2,
+    1154.8,
+    -6.1,
+    1154.2,
+    -3,
+    1158.2,
+    -12.2,
+    1165.1
+   ],
+   "id": "karel-van-hulthemstraat-144-01",
+   "latLon": [
+    51.044966,
+    3.723601
+   ],
+   "photos": [
+    {
+     "id": "221406582687094",
+     "metres": 10,
+     "off": 1,
+     "span": [
+      0.293,
+      0.804
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7839,
+   "at": [
+    -51.55,
+    1255.65
+   ],
+   "centre": [
+    -42.5,
+    1254.8
+   ],
+   "width": 19.9,
+   "faces": 169,
+   "toStreet": 11.8,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -53.5,
+    1245.9,
+    -42,
+    1250.6,
+    -38.3,
+    1252.3,
+    -38.5,
+    1252.9,
+    -38.4,
+    1253.6,
+    -36.9,
+    1262.9,
+    -49.6,
+    1265.4
+   ],
+   "id": "karel-van-hulthemstraat-169-01",
+   "latLon": [
+    51.04429,
+    3.723175
+   ],
+   "photos": [
+    {
+     "id": "3577722202452158",
+     "metres": 29,
+     "off": 18,
+     "span": [
+      0.028,
+      0.419
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7908,
+   "at": [
+    -71.05000000000001,
+    1310.1999999999998
+   ],
+   "centre": [
+    -68.1,
+    1316.8
+   ],
+   "width": 5.8,
+   "faces": 187,
+   "toStreet": 16.4,
+   "floors": 5,
+   "eaves": 18.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -64.1,
+    1317.8,
+    -63,
+    1308.2,
+    -66.8,
+    1307.7,
+    -70.7,
+    1307.3,
+    -71.4,
+    1313.1,
+    -72,
+    1317.3,
+    -73.2,
+    1325.8,
+    -70,
+    1327.3,
+    -69.3,
+    1320.3,
+    -64.5,
+    1320.8,
+    -64.3,
+    1319.2
+   ],
+   "id": "karel-van-hulthemstraat-187-02",
+   "latLon": [
+    51.043895,
+    3.722952
+   ],
+   "photos": [
+    {
+     "id": "949613062383329-85",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.444,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7729,
+   "at": [
+    -127.65,
+    1413.3000000000002
+   ],
+   "centre": [
+    -122.4,
+    1415.6
+   ],
+   "width": 6.3,
+   "faces": 203,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 17.4,
+   "top": 21.4,
+   "kind": "house",
+   "ring": [
+    -118.4,
+    1420.8,
+    -115.8,
+    1414.9,
+    -126.4,
+    1410.4,
+    -128.9,
+    1416.2
+   ],
+   "id": "karel-van-hulthemstraat-203-01",
+   "latLon": [
+    51.043149,
+    3.722305
+   ],
+   "photos": [
+    {
+     "id": "4803896659718893-111",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.355,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7728,
+   "at": [
+    -125.15,
+    1407.5
+   ],
+   "centre": [
+    -118.8,
+    1410.2
+   ],
+   "width": 6.3,
+   "faces": 203,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": 21.8,
+   "kind": "house",
+   "ring": [
+    -115.8,
+    1414.9,
+    -114.5,
+    1411.9,
+    -113.3,
+    1409.1,
+    -123.9,
+    1404.6,
+    -126.4,
+    1410.4
+   ],
+   "id": "karel-van-hulthemstraat-203-02",
+   "latLon": [
+    51.043191,
+    3.722334
+   ],
+   "photos": [
+    {
+     "id": "4508391225928866-144",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.381,
+      0.593
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7692,
+   "at": [
+    -115.05000000000001,
+    1384.35
+   ],
+   "centre": [
+    -108.6,
+    1387.9
+   ],
+   "width": 6,
+   "faces": 203,
+   "toStreet": 7.8,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -107.3,
+    1392.6,
+    -106.1,
+    1389.6,
+    -105.2,
+    1390,
+    -102.7,
+    1385.6,
+    -111.4,
+    1380.7,
+    -113.9,
+    1381.6,
+    -116.2,
+    1387.1,
+    -107,
+    1391.3,
+    -107.7,
+    1392.4
+   ],
+   "id": "karel-van-hulthemstraat-203-03",
+   "latLon": [
+    51.043359,
+    3.722449
+   ],
+   "photos": [
+    {
+     "id": "1653761768321618-87",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.405,
+      0.615
+     ]
+    },
+    {
+     "id": "609320058591613-147",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.446,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7895,
+   "at": [
+    -87.85,
+    1323.6
+   ],
+   "centre": [
+    -76.8,
+    1328.4
+   ],
+   "width": 8,
+   "faces": 203,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -69.9,
+    1332.2,
+    -69.8,
+    1331.2,
+    -77.1,
+    1327.8,
+    -75.8,
+    1324.6,
+    -76.9,
+    1324.1,
+    -86.3,
+    1319.9,
+    -89.4,
+    1327.3,
+    -75.6,
+    1333.3,
+    -70.3,
+    1335.6
+   ],
+   "id": "karel-van-hulthemstraat-203-04",
+   "latLon": [
+    51.043798,
+    3.72276
+   ],
+   "photos": [
+    {
+     "id": "949613062383329-144",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.353,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7919,
+   "at": [
+    -82.35,
+    1311.15
+   ],
+   "centre": [
+    -78,
+    1309.7
+   ],
+   "width": 6.4,
+   "faces": 203,
+   "toStreet": 6.6,
+   "floors": 5,
+   "eaves": 20.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -75,
+    1316.2,
+    -73.6,
+    1312.9,
+    -71.4,
+    1313.1,
+    -70.7,
+    1307.3,
+    -77.7,
+    1306.5,
+    -78,
+    1306.3,
+    -78.5,
+    1306.1,
+    -79.3,
+    1306,
+    -80,
+    1306.3,
+    -80.5,
+    1306.7,
+    -80.9,
+    1307.1,
+    -81.1,
+    1307.7,
+    -81.1,
+    1308.2,
+    -83.6,
+    1314.1,
+    -78.5,
+    1316.1,
+    -77.9,
+    1315
+   ],
+   "id": "karel-van-hulthemstraat-203-05",
+   "latLon": [
+    51.043888,
+    3.722823
+   ],
+   "photos": [
+    {
+     "id": "949613062383329-85",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.405,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7803,
+   "at": [
+    -31.450000000000003,
+    1196.85
+   ],
+   "centre": [
+    -26.6,
+    1199.8
+   ],
+   "width": 11,
+   "faces": 203,
+   "toStreet": 7.3,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -33.6,
+    1201.9,
+    -29.3,
+    1191.8,
+    -22.3,
+    1194.7,
+    -25.2,
+    1201.9,
+    -23.9,
+    1202.5,
+    -25.5,
+    1205.9
+   ],
+   "id": "karel-van-hulthemstraat-203-06",
+   "latLon": [
+    51.044715,
+    3.723405
+   ],
+   "photos": [
+    {
+     "id": "730658605010093-104",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.31,
+      0.714
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5672,
+   "at": [
+    -160.6,
+    1486.9
+   ],
+   "centre": [
+    -155.9,
+    1488
+   ],
+   "width": 9.8,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -158.6,
+    1482.4,
+    -162.6,
+    1491.4,
+    -157.8,
+    1496.1,
+    -149,
+    1491.4,
+    -152.4,
+    1485.9,
+    -154.3,
+    1487.1,
+    -156.8,
+    1486.1,
+    -155.7,
+    1483.6
+   ],
+   "id": "karel-van-hulthemstraat-204-07",
+   "latLon": [
+    51.042617,
+    3.721928
+   ],
+   "photos": [
+    {
+     "id": "474810253731166",
+     "metres": 22,
+     "off": 9,
+     "span": [
+      0.206,
+      0.511
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5671,
+   "at": [
+    -154.55,
+    1473.25
+   ],
+   "centre": [
+    -149.4,
+    1477
+   ],
+   "width": 6.2,
+   "faces": 204,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    -150.1,
+    1478.6,
+    -147.9,
+    1479.6,
+    -147.6,
+    1480.2,
+    -146.7,
+    1479.8,
+    -144.5,
+    1474.4,
+    -153.3,
+    1470.4,
+    -155.8,
+    1476.1
+   ],
+   "id": "karel-van-hulthemstraat-204-08",
+   "latLon": [
+    51.042715,
+    3.721997
+   ],
+   "photos": [
+    {
+     "id": "303309154693382",
+     "metres": 37,
+     "off": 12,
+     "span": [
+      0.227,
+      0.319
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5721,
+   "at": [
+    -157.2,
+    1479.25
+   ],
+   "centre": [
+    -154,
+    1481.4
+   ],
+   "width": 6.9,
+   "faces": 204,
+   "toStreet": 7.8,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -155.7,
+    1483.6,
+    -154.4,
+    1484.3,
+    -152.9,
+    1484.9,
+    -150.7,
+    1479.9,
+    -150.1,
+    1478.6,
+    -155.8,
+    1476.1,
+    -158.6,
+    1482.4
+   ],
+   "id": "karel-van-hulthemstraat-204-09",
+   "latLon": [
+    51.042672,
+    3.721967
+   ],
+   "photos": [
+    {
+     "id": "303309154693382",
+     "metres": 33,
+     "off": 7,
+     "span": [
+      0.32,
+      0.444
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5693,
+   "at": [
+    -146.95,
+    1456.3000000000002
+   ],
+   "centre": [
+    -136.9,
+    1461.4
+   ],
+   "width": 5.7,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -137.8,
+    1463.6,
+    -132.1,
+    1466,
+    -130.3,
+    1464.2,
+    -132.5,
+    1463.2,
+    -131.4,
+    1460.3,
+    -145.8,
+    1453.7,
+    -148.1,
+    1458.9
+   ],
+   "id": "karel-van-hulthemstraat-204-10",
+   "latLon": [
+    51.042838,
+    3.722084
+   ],
+   "photos": [
+    {
+     "id": "429731245583310-84",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.392,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5694,
+   "at": [
+    -149.39999999999998,
+    1461.8000000000002
+   ],
+   "centre": [
+    -143.7,
+    1465.1
+   ],
+   "width": 6.4,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 19,
+   "kind": "house",
+   "ring": [
+    -141.5,
+    1468.9,
+    -140.4,
+    1469.4,
+    -137.8,
+    1463.6,
+    -148.1,
+    1458.9,
+    -150.7,
+    1464.7
+   ],
+   "id": "karel-van-hulthemstraat-204-11",
+   "latLon": [
+    51.042798,
+    3.722056
+   ],
+   "photos": [
+    {
+     "id": "429731245583310-122",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.304,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5756,
+   "at": [
+    -144.3,
+    1450.35
+   ],
+   "centre": [
+    -132.8,
+    1456.2
+   ],
+   "width": 7.3,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": 22.4,
+   "kind": "house",
+   "ring": [
+    -131.4,
+    1460.3,
+    -127.9,
+    1461.8,
+    -126.4,
+    1458.6,
+    -128.3,
+    1457.7,
+    -126.8,
+    1454.3,
+    -142.8,
+    1447,
+    -145.8,
+    1453.7
+   ],
+   "id": "karel-van-hulthemstraat-204-12",
+   "latLon": [
+    51.042881,
+    3.722115
+   ],
+   "photos": [
+    {
+     "id": "731815778259359-120",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.287,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7735,
+   "at": [
+    -135.7,
+    1431.35
+   ],
+   "centre": [
+    -127,
+    1435
+   ],
+   "width": 6.4,
+   "faces": 204,
+   "toStreet": 8,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": 21.2,
+   "kind": "house",
+   "ring": [
+    -126.6,
+    1438.7,
+    -125.4,
+    1435.7,
+    -120.1,
+    1438.1,
+    -118.7,
+    1435.1,
+    -134.4,
+    1428.4,
+    -137,
+    1434.3
+   ],
+   "id": "karel-van-hulthemstraat-204-13",
+   "latLon": [
+    51.043018,
+    3.722213
+   ],
+   "photos": [
+    {
+     "id": "771919207314678-146",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.362,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7736,
+   "at": [
+    -138.35,
+    1437.3
+   ],
+   "centre": [
+    -129.7,
+    1441.1
+   ],
+   "width": 6.6,
+   "faces": 204,
+   "toStreet": 8,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -124,
+    1447,
+    -122.9,
+    1444.4,
+    -128,
+    1442,
+    -126.6,
+    1438.7,
+    -137,
+    1434.3,
+    -139.7,
+    1440.3
+   ],
+   "id": "karel-van-hulthemstraat-204-14",
+   "latLon": [
+    51.042975,
+    3.722183
+   ],
+   "photos": [
+    {
+     "id": "772834670787898-112",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.323,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7730,
+   "at": [
+    -130.4,
+    1419.6
+   ],
+   "centre": [
+    -113,
+    1427.1
+   ],
+   "width": 7.4,
+   "faces": 204,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -117.5,
+    1449.7,
+    -115,
+    1450.7,
+    -111.5,
+    1452.4,
+    -109.6,
+    1448,
+    -95.4,
+    1415.9,
+    -93.1,
+    1410.8,
+    -94.8,
+    1410.1,
+    -97.7,
+    1408.8,
+    -105.4,
+    1405.5,
+    -106.7,
+    1408.4,
+    -108.1,
+    1411.3,
+    -108.4,
+    1412,
+    -109.3,
+    1414.2,
+    -110.7,
+    1417.1,
+    -112.9,
+    1422.2,
+    -114,
+    1422.6,
+    -118.4,
+    1420.8,
+    -128.9,
+    1416.2,
+    -131.9,
+    1423,
+    -117,
+    1429.3,
+    -116.6,
+    1430.4,
+    -118.7,
+    1435.1,
+    -120.1,
+    1438.1,
+    -121.4,
+    1441,
+    -122.9,
+    1444.4,
+    -124,
+    1447,
+    -121.9,
+    1447.9
+   ],
+   "id": "karel-van-hulthemstraat-204-15",
+   "latLon": [
+    51.043103,
+    3.722274
+   ],
+   "photos": [
+    {
+     "id": "4803896659718893-145",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.35,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7731,
+   "at": [
+    -122.6,
+    1401.65
+   ],
+   "centre": [
+    -113.8,
+    1405.9
+   ],
+   "width": 6.4,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -106.7,
+    1408.4,
+    -112.2,
+    1406,
+    -111,
+    1403.1,
+    -121.3,
+    1398.7,
+    -123.9,
+    1404.6,
+    -113.3,
+    1409.1,
+    -108.1,
+    1411.3
+   ],
+   "id": "karel-van-hulthemstraat-204-16",
+   "latLon": [
+    51.043233,
+    3.722363
+   ],
+   "photos": [
+    {
+     "id": "4508391225928866-115",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.35,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7733,
+   "at": [
+    -117.5,
+    1390.05
+   ],
+   "centre": [
+    -111,
+    1392.3
+   ],
+   "width": 6.4,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -109.1,
+    1397.2,
+    -107.3,
+    1392.6,
+    -107.7,
+    1392.4,
+    -107,
+    1391.3,
+    -116.2,
+    1387.1,
+    -118.8,
+    1393
+   ],
+   "id": "karel-van-hulthemstraat-204-17",
+   "latLon": [
+    51.043317,
+    3.722421
+   ],
+   "photos": [
+    {
+     "id": "1653761768321618-116",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.357,
+      0.631
+     ]
+    },
+    {
+     "id": "609320058591613-159",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.45,
+      0.536
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7732,
+   "at": [
+    -120.05,
+    1395.85
+   ],
+   "centre": [
+    -110.8,
+    1400
+   ],
+   "width": 6.2,
+   "faces": 204,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 18.4,
+   "kind": "house",
+   "ring": [
+    -111,
+    1403.1,
+    -107,
+    1404.8,
+    -106.2,
+    1403.4,
+    -105.4,
+    1401.9,
+    -109.6,
+    1400,
+    -108.4,
+    1397.5,
+    -109.1,
+    1397.2,
+    -118.8,
+    1393,
+    -121.3,
+    1398.7
+   ],
+   "id": "karel-van-hulthemstraat-204-18",
+   "latLon": [
+    51.043275,
+    3.722392
+   ],
+   "photos": [
+    {
+     "id": "4508391225928866-85",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.4,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7890,
+   "at": [
+    -105.45,
+    1363.1
+   ],
+   "centre": [
+    -102.8,
+    1364.5
+   ],
+   "width": 7.7,
+   "faces": 204,
+   "toStreet": 7.6,
+   "floors": 5,
+   "eaves": 19.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -93.6,
+    1363.8,
+    -103.9,
+    1359.6,
+    -107,
+    1366.6,
+    -106.6,
+    1368.2
+   ],
+   "id": "karel-van-hulthemstraat-204-19",
+   "latLon": [
+    51.043512,
+    3.722559
+   ],
+   "photos": [
+    {
+     "id": "524373662739892-96",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.369,
+      0.661
+     ]
+    },
+    {
+     "id": "609320058591613-84",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.432,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7884,
+   "at": [
+    -102.30000000000001,
+    1356.0500000000002
+   ],
+   "centre": [
+    -93.2,
+    1360.7
+   ],
+   "width": 6.9,
+   "faces": 204,
+   "toStreet": 7.5,
+   "floors": 5,
+   "eaves": 18.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -87.1,
+    1366.5,
+    -85.7,
+    1363.8,
+    -87.9,
+    1362.8,
+    -87.4,
+    1361.5,
+    -91.4,
+    1359.8,
+    -90.4,
+    1357.2,
+    -100.9,
+    1352.9,
+    -103.7,
+    1359.2,
+    -103.9,
+    1359.6,
+    -93.6,
+    1363.8
+   ],
+   "id": "karel-van-hulthemstraat-204-20",
+   "latLon": [
+    51.043563,
+    3.722595
+   ],
+   "photos": [
+    {
+     "id": "278064197759341-119",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.348,
+      0.636
+     ]
+    },
+    {
+     "id": "609320058591613-70",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.454,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7894,
+   "at": [
+    -93.6,
+    1336.75
+   ],
+   "centre": [
+    -84,
+    1340.9
+   ],
+   "width": 6.9,
+   "faces": 204,
+   "toStreet": 7.2,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -76.7,
+    1347.9,
+    -75.6,
+    1344.6,
+    -83,
+    1341.2,
+    -81.7,
+    1338.1,
+    -92.2,
+    1333.6,
+    -95,
+    1339.9
+   ],
+   "id": "karel-van-hulthemstraat-204-21",
+   "latLon": [
+    51.043703,
+    3.722694
+   ],
+   "photos": [
+    {
+     "id": "318480123759062-84",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.407,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7883,
+   "at": [
+    -96.4,
+    1343
+   ],
+   "centre": [
+    -81.3,
+    1349.8
+   ],
+   "width": 6.8,
+   "faces": 204,
+   "toStreet": 7.3,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": 22.6,
+   "kind": "house",
+   "ring": [
+    -84.4,
+    1352,
+    -83.4,
+    1349.5,
+    -77.6,
+    1352,
+    -78.4,
+    1354.6,
+    -73.1,
+    1357,
+    -72.1,
+    1350,
+    -74.6,
+    1348.8,
+    -76.7,
+    1347.9,
+    -95,
+    1339.9,
+    -97.8,
+    1346.1
+   ],
+   "id": "karel-van-hulthemstraat-204-22",
+   "latLon": [
+    51.043658,
+    3.722662
+   ],
+   "photos": [
+    {
+     "id": "318480123759062-113",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.365,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7886,
+   "at": [
+    -90.80000000000001,
+    1330.4499999999998
+   ],
+   "centre": [
+    -82.8,
+    1334.1
+   ],
+   "width": 6.9,
+   "faces": 204,
+   "toStreet": 7.1,
+   "floors": 5,
+   "eaves": 16.9,
+   "top": 20.1,
+   "kind": "house",
+   "ring": [
+    -81.7,
+    1338.1,
+    -80.6,
+    1335.5,
+    -77.3,
+    1336.9,
+    -75.6,
+    1333.3,
+    -89.4,
+    1327.3,
+    -92.2,
+    1333.6
+   ],
+   "id": "karel-van-hulthemstraat-204-23",
+   "latLon": [
+    51.043748,
+    3.722726
+   ],
+   "photos": [
+    {
+     "id": "1192100291566479-115",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.35,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7843,
+   "at": [
+    -47.85,
+    1233.9
+   ],
+   "centre": [
+    -40.7,
+    1237.8
+   ],
+   "width": 8.1,
+   "faces": 204,
+   "toStreet": 6.6,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 20.5,
+   "kind": "house",
+   "ring": [
+    -49.5,
+    1237.6,
+    -46.2,
+    1230.2,
+    -35.2,
+    1235.3,
+    -36.7,
+    1238.6,
+    -38.2,
+    1242,
+    -38.5,
+    1242.8
+   ],
+   "id": "karel-van-hulthemstraat-204-24",
+   "latLon": [
+    51.044447,
+    3.723217
+   ],
+   "photos": [
+    {
+     "id": "1387334231769113-96",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.371,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7817,
+   "at": [
+    -38.5,
+    1212.85
+   ],
+   "centre": [
+    -33.3,
+    1215.9
+   ],
+   "width": 6,
+   "faces": 204,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    -39.7,
+    1215.6,
+    -37.3,
+    1210.1,
+    -27.5,
+    1214.8,
+    -29.9,
+    1220.1,
+    -32.2,
+    1219
+   ],
+   "id": "karel-van-hulthemstraat-204-25",
+   "latLon": [
+    51.044599,
+    3.723324
+   ],
+   "photos": [
+    {
+     "id": "533015248365400-119",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.38,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7837,
+   "at": [
+    -41.2,
+    1218.9499999999998
+   ],
+   "centre": [
+    -34.6,
+    1222.7
+   ],
+   "width": 7.3,
+   "faces": 204,
+   "toStreet": 7,
+   "floors": 5,
+   "eaves": 18.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -42.7,
+    1222.3,
+    -39.7,
+    1215.6,
+    -32.2,
+    1219,
+    -33.7,
+    1222.5,
+    -30.5,
+    1223.5,
+    -30.6,
+    1223.6,
+    -33.6,
+    1227.2,
+    -33.7,
+    1227.8
+   ],
+   "id": "karel-van-hulthemstraat-204-26",
+   "latLon": [
+    51.044555,
+    3.723293
+   ],
+   "photos": [
+    {
+     "id": "1285798645281576-88",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.396,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7805,
+   "at": [
+    -44.45,
+    1226.25
+   ],
+   "centre": [
+    -37.3,
+    1229.4
+   ],
+   "width": 8.6,
+   "faces": 204,
+   "toStreet": 6.8,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": 20.6,
+   "kind": "house",
+   "ring": [
+    -46.2,
+    1230.2,
+    -42.7,
+    1222.3,
+    -33.7,
+    1227.8,
+    -32,
+    1228.3,
+    -33.9,
+    1232.5,
+    -35.2,
+    1235.3
+   ],
+   "id": "karel-van-hulthemstraat-204-27",
+   "latLon": [
+    51.044502,
+    3.723256
+   ],
+   "photos": [
+    {
+     "id": "1285798645281576-121",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.331,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7818,
+   "at": [
+    -35.45,
+    1206
+   ],
+   "centre": [
+    -28.5,
+    1209.9
+   ],
+   "width": 9,
+   "faces": 204,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    -37.3,
+    1210.1,
+    -33.6,
+    1201.9,
+    -25.5,
+    1205.9,
+    -26.4,
+    1207.8,
+    -24,
+    1208.9,
+    -26.7,
+    1215.2,
+    -27.1,
+    1215,
+    -27.5,
+    1214.8
+   ],
+   "id": "karel-van-hulthemstraat-204-28",
+   "latLon": [
+    51.044649,
+    3.723359
+   ],
+   "photos": [
+    {
+     "id": "533015248365400-87",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.38,
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7812,
+   "at": [
+    -26.65,
+    1185.75
+   ],
+   "centre": [
+    -22.4,
+    1186.6
+   ],
+   "width": 13.2,
+   "faces": 204,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -29.3,
+    1191.8,
+    -24,
+    1179.7,
+    -21.1,
+    1179.5,
+    -15.4,
+    1187.1,
+    -22.3,
+    1194.7
+   ],
+   "id": "karel-van-hulthemstraat-204-29",
+   "latLon": [
+    51.044795,
+    3.72346
+   ],
+   "photos": [
+    {
+     "id": "1142675422824915",
+     "metres": 44,
+     "off": 18,
+     "span": [
+      0.703,
+      0.849
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5692,
+   "at": [
+    -152,
+    1467.5500000000002
+   ],
+   "centre": [
+    -146.8,
+    1470.6
+   ],
+   "width": 6.3,
+   "faces": 205,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    -144.5,
+    1474.4,
+    -144,
+    1474.6,
+    -141.5,
+    1468.9,
+    -150.7,
+    1464.7,
+    -153.3,
+    1470.4
+   ],
+   "id": "karel-van-hulthemstraat-205-30",
+   "latLon": [
+    51.042757,
+    3.722027
+   ],
+   "photos": [
+    {
+     "id": "303309154693382",
+     "metres": 41,
+     "off": 17,
+     "span": [
+      0.149,
+      0.226
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7737,
+   "at": [
+    -141.25,
+    1443.65
+   ],
+   "centre": [
+    -126,
+    1450.1
+   ],
+   "width": 7.4,
+   "faces": 205,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 19.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -126.8,
+    1454.3,
+    -126.4,
+    1453.4,
+    -125.3,
+    1453.7,
+    -124.9,
+    1452.7,
+    -125.6,
+    1452.3,
+    -124.6,
+    1450.1,
+    -119.5,
+    1452.1,
+    -119.3,
+    1451.1,
+    -117.5,
+    1449.7,
+    -121.9,
+    1447.9,
+    -124,
+    1447,
+    -139.7,
+    1440.3,
+    -142.8,
+    1447
+   ],
+   "id": "karel-van-hulthemstraat-205-31",
+   "latLon": [
+    51.042929,
+    3.72215
+   ],
+   "photos": [
+    {
+     "id": "772834670787898-149",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.34,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7734,
+   "at": [
+    -133.15,
+    1425.7
+   ],
+   "centre": [
+    -123.7,
+    1429.2
+   ],
+   "width": 6,
+   "faces": 205,
+   "toStreet": 8.1,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": 21.1,
+   "kind": "house",
+   "ring": [
+    -118.7,
+    1435.1,
+    -116.6,
+    1430.4,
+    -117,
+    1429.3,
+    -131.9,
+    1423,
+    -134.4,
+    1428.4
+   ],
+   "id": "karel-van-hulthemstraat-205-32",
+   "latLon": [
+    51.043059,
+    3.722242
+   ],
+   "photos": [
+    {
+     "id": "771919207314678-114",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.351,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7888,
+   "at": [
+    -99.35,
+    1349.5
+   ],
+   "centre": [
+    -91.3,
+    1352.7
+   ],
+   "width": 7.5,
+   "faces": 205,
+   "toStreet": 7.4,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    -90.4,
+    1357.2,
+    -88.9,
+    1353.4,
+    -85.5,
+    1354.7,
+    -84.4,
+    1352,
+    -97.8,
+    1346.1,
+    -100.9,
+    1352.9
+   ],
+   "id": "karel-van-hulthemstraat-205-33",
+   "latLon": [
+    51.043611,
+    3.722629
+   ],
+   "photos": [
+    {
+     "id": "278064197759341-86",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.395,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7902,
+   "at": [
+    -84.94999999999999,
+    1317
+   ],
+   "centre": [
+    -78.6,
+    1318
+   ],
+   "width": 6.4,
+   "faces": 205,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 16.2,
+   "top": 19.4,
+   "kind": "house",
+   "ring": [
+    -76.9,
+    1324.1,
+    -74.9,
+    1319.5,
+    -76.1,
+    1318.8,
+    -75,
+    1316.2,
+    -77.9,
+    1315,
+    -78.5,
+    1316.1,
+    -83.6,
+    1314.1,
+    -86.3,
+    1319.9
+   ],
+   "id": "karel-van-hulthemstraat-205-34",
+   "latLon": [
+    51.043846,
+    3.722793
+   ],
+   "photos": [
+    {
+     "id": "949613062383329-112",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.373,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7836,
+   "at": [
+    -51.5,
+    1241.75
+   ],
+   "centre": [
+    -44.8,
+    1244.8
+   ],
+   "width": 9.2,
+   "faces": 206,
+   "toStreet": 6.3,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    -53.5,
+    1245.9,
+    -49.5,
+    1237.6,
+    -38.5,
+    1242.8,
+    -40.4,
+    1247.1,
+    -42,
+    1250.6
+   ],
+   "id": "karel-van-hulthemstraat-206-35",
+   "latLon": [
+    51.04439,
+    3.723176
+   ],
+   "photos": [
+    {
+     "id": "1387334231769113-134",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.315,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7811,
+   "at": [
+    -18.85,
+    1190.9
+   ],
+   "centre": [
+    -18.4,
+    1194.8
+   ],
+   "width": 10.3,
+   "faces": 222,
+   "toStreet": 16.6,
+   "floors": 4,
+   "eaves": 15.3,
+   "top": 19.8,
+   "kind": "yes",
+   "ring": [
+    -22.3,
+    1194.7,
+    -15.4,
+    1187.1,
+    -11.9,
+    1191.3,
+    -18.6,
+    1198.8,
+    -19.1,
+    1198.5,
+    -19.6,
+    1198.1,
+    -21.8,
+    1195.4
+   ],
+   "id": "karel-van-hulthemstraat-222-36",
+   "latLon": [
+    51.044758,
+    3.723549
+   ],
+   "photos": [
+    {
+     "id": "298441518555515",
+     "metres": 40,
+     "off": 21,
+     "span": [
+      0.747,
+      0.92
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7970,
+   "at": [
+    -7.6,
+    1161.65
+   ],
+   "centre": [
+    -1.3,
+    1160
+   ],
+   "width": 11.5,
+   "faces": 233,
+   "toStreet": 16.6,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -12.2,
+    1165.1,
+    -3,
+    1158.2,
+    2.9,
+    1153.8,
+    3.5,
+    1154.6,
+    5,
+    1156.5,
+    0.2,
+    1159.9,
+    1.7,
+    1162,
+    -8.8,
+    1169.8
+   ],
+   "id": "karel-van-hulthemstraat-233-37",
+   "latLon": [
+    51.04497,
+    3.723677
+   ],
+   "photos": [
+    {
+     "id": "3857981097583067",
+     "metres": 38,
+     "off": 10,
+     "span": [
+      0.243,
+      0.454
+     ]
+    },
+    {
+     "id": "307798660933883",
+     "metres": 31,
+     "off": 4,
+     "span": [
+      0.429,
+      0.703
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5720,
+   "at": [
+    -148.65,
+    1483.7
+   ],
+   "centre": [
+    -148.4,
+    1486.6
+   ],
+   "width": 5.2,
+   "faces": 240,
+   "toStreet": 17.5,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 17.7,
+   "kind": "house",
+   "ring": [
+    -149,
+    1491.4,
+    -143.2,
+    1488.2,
+    -146.4,
+    1482.4,
+    -150.9,
+    1485,
+    -152.4,
+    1485.9
+   ],
+   "id": "karel-van-hulthemstraat-240-38",
+   "latLon": [
+    51.04264,
+    3.722065
+   ],
+   "photos": [
+    {
+     "id": "635514722562245-128",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.429,
+      0.586
+     ]
+    },
+    {
+     "id": "359910186183780-143",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.435,
+      0.561
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7786,
+   "at": [
+    -100.1,
+    1366
+   ],
+   "centre": [
+    -101.3,
+    1368.8
+   ],
+   "width": 13.7,
+   "faces": 251,
+   "toStreet": 13.7,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -106.6,
+    1368.2,
+    -106.1,
+    1369.7,
+    -98.7,
+    1373.6,
+    -93.6,
+    1363.8
+   ],
+   "id": "karel-van-hulthemstraat-251-01",
+   "latLon": [
+    51.043491,
+    3.72262
+   ],
+   "photos": [
+    {
+     "id": "318480123759062-165",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.38,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 5808,
+   "at": [
+    -185.05,
+    1483.35
+   ],
+   "centre": [
+    -192.4,
+    1481.1
+   ],
+   "width": 3.7,
+   "faces": 355,
+   "toStreet": 16,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -190.8,
+    1486.5,
+    -190.2,
+    1486.3,
+    -189.7,
+    1486.1,
+    -188.6,
+    1485.9,
+    -187.6,
+    1485.6,
+    -187.3,
+    1485.6,
+    -187,
+    1485.5,
+    -184.9,
+    1485.2,
+    -185.2,
+    1481.5,
+    -200.3,
+    1470,
+    -201.6,
+    1469.1,
+    -203.6,
+    1472,
+    -197.6,
+    1476.9,
+    -199.4,
+    1479.2
+   ],
+   "id": "karel-van-hulthemstraat-355-01",
+   "latLon": [
+    51.042642,
+    3.721649
+   ],
+   "photos": [
+    {
+     "id": "1095950644229969",
+     "metres": 8,
+     "off": 8,
+     "span": [
+      0.488,
+      0.676
+     ]
+    }
+   ]
+  }
+ ]
+}

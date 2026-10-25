@@ -725,8 +725,11 @@ export function buildMap(data, area) {
   // ground, from a height model such as Flanders' DHMV): sampled every metre inside the walls,
   // keeping clear of them. The walls go up to where the roof starts, the ridge to its top, and a
   // pitched roof's ridge runs the way the heights say: they fall away across it, not along it.
+  // Where the building faces a street (fe: its front wall), the walls are as high as the heights
+  // just behind that wall say: an outline in the old town often takes in the whole plot, and the
+  // low sheds and covered yards at the back of it are not where the front's walls stop.
   const toLatLon = q => [lat0 - (q[1] + cz) / S / kz, lon0 + (q[0] + cx) / S / kx];
-  const measure = (g, box) => {
+  const measure = (g, box, fe) => {
     if (!A.surface) return null;
     let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
     for (const q of g) { x0 = Math.min(x0, q[0]); x1 = Math.max(x1, q[0]); z0 = Math.min(z0, q[1]); z1 = Math.max(z1, q[1]); }
@@ -741,9 +744,19 @@ export function buildMap(data, area) {
     }
     if (hs.length < 6) return null;
     const sorted = [...hs].sort((a, b) => a - b), pct = f => sorted[Math.min(sorted.length - 1, Math.floor(f * sorted.length))];
-    const top = pct(0.95), eave = pct(0.1);
+    const top = pct(0.95);
     if (top < 2.5) return null; // built after the flights, or not there at all
-    const m = { e: eave, t: top, mid: pct(0.5) };
+    let eave = pct(0.1), mid = pct(0.5);
+    if (fe != null) {
+      const a = g[fe], b = g[(fe + 1) % g.length];
+      const band = hs.filter((_, i) => segDist(at[i], a, b) < 3 * S).sort((x, y) => x - y);
+      if (band.length >= 4) {
+        // the lower part of the band, so a ridge that runs along the front still starts at its eaves
+        eave = band[Math.floor(0.2 * band.length)];
+        mid = band[band.length >> 1];
+      }
+    }
+    const m = { e: eave, t: top, mid };
     if (box && top - eave > 1.5) {
       // pitched: the roof stands higher along one centre line of the box than out by its walls,
       // and the ridge runs along the centre line it is highest on (dormers and back extensions
@@ -793,6 +806,7 @@ export function buildMap(data, area) {
       if (SHEDS.has(kind)) floors = 1;
     }
     const b = { p: flat(g), f: floors, r: null, k: kind };
+    const fr = front(g);
     const height = parseFloat(t.height), base = parseFloat(t.min_height);
     if (height >= 20 || kind === 'part') {
       // belfries, church towers: their real height, standing on top of what is below them
@@ -804,7 +818,7 @@ export function buildMap(data, area) {
       // a town of roof terraces (area roofs: 'flat') has a pitched roof only where the map says so
       const sa = streetAngle([bcx, bcz]), flatRoof = t['roof:shape'] === 'flat' || (A.roofs === 'flat' && !t['roof:shape']);
       const boxy = a / Math.max(1, L * W) > 0.82 && a < 450 && (kind === 'hut' || !SHEDS.has(kind));
-      const m = measure(g, !flatRoof && boxy && box);
+      const m = measure(g, !flatRoof && boxy && box, fr?.[1]);
       if (m) {
         // measured: walls up to the eaves, a pitched roof only where the heights show one
         b.e = r1((m.pitched ? m.e : m.mid) * S);
@@ -834,7 +848,6 @@ export function buildMap(data, area) {
     const wc = colour(t['building:colour']), rc = colour(t['roof:colour']);
     if (wc) b.wc = wc;
     if (rc) b.rc = rc;
-    const fr = front(g);
     if (fr) [b.st, b.fe] = [fr[2], fr[1]];
     const sh = shopIn(g);
     if (sh) {

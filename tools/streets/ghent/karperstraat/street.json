@@ -1,0 +1,9584 @@
+{
+ "city": "ghent",
+ "street": "Karperstraat",
+ "slug": "karperstraat",
+ "photos": {
+  "1154460013056186-324": {
+   "file": "photos/1154460013056186-324.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154460013056186",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465751,
+    3.7412484,
+    324,
+    0.5
+   ]
+  },
+  "556088320800648-331": {
+   "file": "photos/556088320800648-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556088320800648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466753,
+    3.7414304,
+    331,
+    0.5
+   ]
+  },
+  "1099661475175863-308": {
+   "file": "photos/1099661475175863-308.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099661475175863",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465276,
+    3.7411514,
+    308,
+    0.5
+   ]
+  },
+  "1233086648821753-340": {
+   "file": "photos/1233086648821753-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1233086648821753",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0464465,
+    3.7410465,
+    340,
+    0.5
+   ]
+  },
+  "1636429953655617-327": {
+   "file": "photos/1636429953655617-327.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1636429953655617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466234,
+    3.7413358,
+    327,
+    0.5
+   ]
+  },
+  "2457419901272095-349": {
+   "file": "photos/2457419901272095-349.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2457419901272095",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463224,
+    3.7412603,
+    349,
+    0.5
+   ]
+  },
+  "927651142888813-323": {
+   "file": "photos/927651142888813-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=927651142888813",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0461989,
+    3.7416794,
+    323,
+    0.5
+   ]
+  },
+  "3905943636295084-319": {
+   "file": "photos/3905943636295084-319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3905943636295084",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462559,
+    3.7418164,
+    319,
+    0.5
+   ]
+  },
+  "3905943636295084-344": {
+   "file": "photos/3905943636295084-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3905943636295084",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462559,
+    3.7418164,
+    344,
+    0.5
+   ]
+  },
+  "556088320800648-313": {
+   "file": "photos/556088320800648-313.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556088320800648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466753,
+    3.7414304,
+    313,
+    0.5
+   ]
+  },
+  "2457419901272095-360": {
+   "file": "photos/2457419901272095-360.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2457419901272095",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463224,
+    3.7412603,
+    360,
+    0.5
+   ]
+  },
+  "1303197237649329-322": {
+   "file": "photos/1303197237649329-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1303197237649329",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462201,
+    3.7417507,
+    322,
+    0.5
+   ]
+  },
+  "982407910608790-290": {
+   "file": "photos/982407910608790-290.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982407910608790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467059,
+    3.7419071,
+    290,
+    0.5
+   ]
+  },
+  "600113256111369-292": {
+   "file": "photos/600113256111369-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600113256111369",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466443,
+    3.7419847,
+    292,
+    0.5
+   ]
+  },
+  "1206605001180338-323": {
+   "file": "photos/1206605001180338-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1206605001180338",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462556,
+    3.7418812,
+    323,
+    0.5
+   ]
+  },
+  "1805633763534244-289": {
+   "file": "photos/1805633763534244-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1805633763534244",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464857,
+    3.7422113,
+    289,
+    0.5
+   ]
+  },
+  "1147194336909530-330": {
+   "file": "photos/1147194336909530-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1147194336909530",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465353,
+    3.7411665,
+    330,
+    0.5
+   ]
+  },
+  "1636429953655617-311": {
+   "file": "photos/1636429953655617-311.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1636429953655617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466234,
+    3.7413358,
+    311,
+    0.5
+   ]
+  },
+  "1341865856721531-327": {
+   "file": "photos/1341865856721531-327.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1341865856721531",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467529,
+    3.7415842,
+    327,
+    0.5
+   ]
+  },
+  "1716642559089842": {
+   "file": "photos/1716642559089842.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1716642559089842",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-08-31",
+   "cam": [
+    51.0454172,
+    3.74356,
+    25,
+    0.544
+   ]
+  },
+  "8728903460565632-56": {
+   "file": "photos/8728903460565632-56.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8728903460565632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046315,
+    3.7424592,
+    56,
+    0.5
+   ]
+  },
+  "1871904413632755-79": {
+   "file": "photos/1871904413632755-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1871904413632755",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463108,
+    3.7422395,
+    79,
+    0.5
+   ]
+  },
+  "8728903460565632-66": {
+   "file": "photos/8728903460565632-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8728903460565632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046315,
+    3.7424592,
+    66,
+    0.5
+   ]
+  },
+  "1306334377114985-84": {
+   "file": "photos/1306334377114985-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1306334377114985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463339,
+    3.7422807,
+    84,
+    0.5
+   ]
+  },
+  "1285305269443873-73": {
+   "file": "photos/1285305269443873-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    73,
+    0.5
+   ]
+  },
+  "958831512502192-52": {
+   "file": "photos/958831512502192-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=958831512502192",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464294,
+    3.7422936,
+    52,
+    0.5
+   ]
+  },
+  "1306334377114985-31": {
+   "file": "photos/1306334377114985-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1306334377114985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463339,
+    3.7422807,
+    31,
+    0.5
+   ]
+  },
+  "1819375808875318-6": {
+   "file": "photos/1819375808875318-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1819375808875318",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0461112,
+    3.7425251,
+    6,
+    0.5
+   ]
+  },
+  "1819375808875318-19": {
+   "file": "photos/1819375808875318-19.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1819375808875318",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0461112,
+    3.7425251,
+    19,
+    0.5
+   ]
+  },
+  "1285305269443873-3": {
+   "file": "photos/1285305269443873-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    3,
+    0.5
+   ]
+  },
+  "1285305269443873-25": {
+   "file": "photos/1285305269443873-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    25,
+    0.5
+   ]
+  },
+  "1452521725465373": {
+   "file": "photos/1452521725465373.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1452521725465373",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-08-31",
+   "cam": [
+    51.0453403,
+    3.7435219,
+    32,
+    0.544
+   ]
+  },
+  "1046167933619291": {
+   "file": "photos/1046167933619291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1046167933619291",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-02",
+   "cam": [
+    51.0452628,
+    3.7433086,
+    59,
+    0.527
+   ]
+  },
+  "2050331912144515-79": {
+   "file": "photos/2050331912144515-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2050331912144515",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462794,
+    3.7421787,
+    79,
+    0.5
+   ]
+  },
+  "1819375808875318-40": {
+   "file": "photos/1819375808875318-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1819375808875318",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0461112,
+    3.7425251,
+    40,
+    0.5
+   ]
+  },
+  "1285305269443873-13": {
+   "file": "photos/1285305269443873-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    13,
+    0.5
+   ]
+  },
+  "1285305269443873-57": {
+   "file": "photos/1285305269443873-57.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    57,
+    0.5
+   ]
+  },
+  "1285305269443873-84": {
+   "file": "photos/1285305269443873-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285305269443873",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045846,
+    3.7429251,
+    84,
+    0.5
+   ]
+  },
+  "646320917931148-34": {
+   "file": "photos/646320917931148-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=646320917931148",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0458933,
+    3.7429983,
+    34,
+    0.5
+   ]
+  },
+  "8728903460565632-62": {
+   "file": "photos/8728903460565632-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8728903460565632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046315,
+    3.7424592,
+    62,
+    0.5
+   ]
+  },
+  "1306334377114985-80": {
+   "file": "photos/1306334377114985-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1306334377114985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463339,
+    3.7422807,
+    80,
+    0.5
+   ]
+  },
+  "958831512502192-68": {
+   "file": "photos/958831512502192-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=958831512502192",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464294,
+    3.7422936,
+    68,
+    0.5
+   ]
+  },
+  "1306334377114985-28": {
+   "file": "photos/1306334377114985-28.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1306334377114985",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0463339,
+    3.7422807,
+    28,
+    0.5
+   ]
+  },
+  "1131245208693526-93": {
+   "file": "photos/1131245208693526-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1131245208693526",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465403,
+    3.7421262,
+    93,
+    0.5
+   ]
+  },
+  "960495541383859": {
+   "file": "photos/960495541383859.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=960495541383859",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0475623,
+    3.7404375,
+    91,
+    0.482
+   ]
+  },
+  "1857480684426225": {
+   "file": "photos/1857480684426225.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1857480684426225",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.04756,
+    3.7404232,
+    88,
+    0.484
+   ]
+  },
+  "1677060773158356-26": {
+   "file": "photos/1677060773158356-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1677060773158356",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0473512,
+    3.7410899,
+    26,
+    0.5
+   ]
+  },
+  "1024022346418971-33": {
+   "file": "photos/1024022346418971-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1024022346418971",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047291,
+    3.7411655,
+    33,
+    0.5
+   ]
+  },
+  "3790132044634363-78": {
+   "file": "photos/3790132044634363-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3790132044634363",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0472337,
+    3.7412423,
+    78,
+    0.5
+   ]
+  },
+  "726949463190000-29": {
+   "file": "photos/726949463190000-29.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=726949463190000",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471769,
+    3.7413206,
+    29,
+    0.5
+   ]
+  },
+  "726949463190000-87": {
+   "file": "photos/726949463190000-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=726949463190000",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471769,
+    3.7413206,
+    87,
+    0.5
+   ]
+  },
+  "1304826364084994-39": {
+   "file": "photos/1304826364084994-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304826364084994",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471199,
+    3.7413967,
+    39,
+    0.5
+   ]
+  },
+  "3442759219352716-50": {
+   "file": "photos/3442759219352716-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3442759219352716",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470647,
+    3.7414745,
+    50,
+    0.5
+   ]
+  },
+  "9205594272889672-17": {
+   "file": "photos/9205594272889672-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9205594272889672",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046942,
+    3.7416081,
+    17,
+    0.5
+   ]
+  },
+  "9205594272889672-85": {
+   "file": "photos/9205594272889672-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9205594272889672",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046942,
+    3.7416081,
+    85,
+    0.5
+   ]
+  },
+  "601469126080792-64": {
+   "file": "photos/601469126080792-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=601469126080792",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468878,
+    3.7416781,
+    64,
+    0.5
+   ]
+  },
+  "592695603612751-60": {
+   "file": "photos/592695603612751-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592695603612751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467805,
+    3.7416366,
+    60,
+    0.5
+   ]
+  },
+  "2273140366401493-14": {
+   "file": "photos/2273140366401493-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2273140366401493",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467604,
+    3.7418428,
+    14,
+    0.5
+   ]
+  },
+  "982407910608790-31": {
+   "file": "photos/982407910608790-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982407910608790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467059,
+    3.7419071,
+    31,
+    0.5
+   ]
+  },
+  "982407910608790-84": {
+   "file": "photos/982407910608790-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982407910608790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467059,
+    3.7419071,
+    84,
+    0.5
+   ]
+  },
+  "600113256111369-35": {
+   "file": "photos/600113256111369-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600113256111369",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466443,
+    3.7419847,
+    35,
+    0.5
+   ]
+  },
+  "600113256111369-82": {
+   "file": "photos/600113256111369-82.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600113256111369",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466443,
+    3.7419847,
+    82,
+    0.5
+   ]
+  },
+  "1129960618912701-84": {
+   "file": "photos/1129960618912701-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1129960618912701",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465906,
+    3.742059,
+    84,
+    0.5
+   ]
+  },
+  "2050331912144515-17": {
+   "file": "photos/2050331912144515-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2050331912144515",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462794,
+    3.7421787,
+    17,
+    0.5
+   ]
+  },
+  "834960967113098": {
+   "file": "photos/834960967113098.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=834960967113098",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0475698,
+    3.74053,
+    86,
+    0.482
+   ]
+  },
+  "536220227783794": {
+   "file": "photos/536220227783794.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=536220227783794",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0475689,
+    3.7405057,
+    85,
+    0.484
+   ]
+  },
+  "497523278063985": {
+   "file": "photos/497523278063985.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497523278063985",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0475454,
+    3.7405477,
+    61,
+    0.774
+   ]
+  },
+  "516249140934663-75": {
+   "file": "photos/516249140934663-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516249140934663",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0474119,
+    3.7410159,
+    75,
+    0.5
+   ]
+  },
+  "1677060773158356-79": {
+   "file": "photos/1677060773158356-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1677060773158356",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0473512,
+    3.7410899,
+    79,
+    0.5
+   ]
+  },
+  "1024022346418971-80": {
+   "file": "photos/1024022346418971-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1024022346418971",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047291,
+    3.7411655,
+    80,
+    0.5
+   ]
+  },
+  "1304826364084994-95": {
+   "file": "photos/1304826364084994-95.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304826364084994",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471199,
+    3.7413967,
+    95,
+    0.5
+   ]
+  },
+  "618922347206751-70": {
+   "file": "photos/618922347206751-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=618922347206751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470037,
+    3.7415447,
+    70,
+    0.5
+   ]
+  },
+  "506275465395374-43": {
+   "file": "photos/506275465395374-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=506275465395374",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468481,
+    3.7417306,
+    43,
+    0.5
+   ]
+  },
+  "2273140366401493-72": {
+   "file": "photos/2273140366401493-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2273140366401493",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467604,
+    3.7418428,
+    72,
+    0.5
+   ]
+  },
+  "1129960618912701-34": {
+   "file": "photos/1129960618912701-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1129960618912701",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465906,
+    3.742059,
+    34,
+    0.5
+   ]
+  },
+  "1131245208693526-42": {
+   "file": "photos/1131245208693526-42.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1131245208693526",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465403,
+    3.7421262,
+    42,
+    0.5
+   ]
+  },
+  "1805633763534244-36": {
+   "file": "photos/1805633763534244-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1805633763534244",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464857,
+    3.7422113,
+    36,
+    0.5
+   ]
+  },
+  "2050331912144515-28": {
+   "file": "photos/2050331912144515-28.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2050331912144515",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0462794,
+    3.7421787,
+    28,
+    0.5
+   ]
+  },
+  "592695603612751-145": {
+   "file": "photos/592695603612751-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592695603612751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467805,
+    3.7416366,
+    145,
+    0.5
+   ]
+  },
+  "944272471028085-163": {
+   "file": "photos/944272471028085-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=944272471028085",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0466051,
+    3.7409385,
+    163,
+    0.5
+   ]
+  },
+  "1324125955465035-136": {
+   "file": "photos/1324125955465035-136.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1324125955465035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0467742,
+    3.7408801,
+    136,
+    0.5
+   ]
+  },
+  "1190986949085560-134": {
+   "file": "photos/1190986949085560-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1190986949085560",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0466769,
+    3.7409139,
+    134,
+    0.5
+   ]
+  },
+  "1315210659764733-108": {
+   "file": "photos/1315210659764733-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1315210659764733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0467395,
+    3.7408879,
+    108,
+    0.5
+   ]
+  },
+  "1099661475175863-139": {
+   "file": "photos/1099661475175863-139.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099661475175863",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465276,
+    3.7411514,
+    139,
+    0.5
+   ]
+  },
+  "962763439171405-115": {
+   "file": "photos/962763439171405-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=962763439171405",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0465313,
+    3.7409581,
+    115,
+    0.5
+   ]
+  },
+  "1147194336909530-126": {
+   "file": "photos/1147194336909530-126.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1147194336909530",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465353,
+    3.7411665,
+    126,
+    0.5
+   ]
+  },
+  "1636429953655617-134": {
+   "file": "photos/1636429953655617-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1636429953655617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466234,
+    3.7413358,
+    134,
+    0.5
+   ]
+  },
+  "556088320800648-134": {
+   "file": "photos/556088320800648-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556088320800648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466753,
+    3.7414304,
+    134,
+    0.5
+   ]
+  },
+  "1179963797020839-147": {
+   "file": "photos/1179963797020839-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179963797020839",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046722,
+    3.7415155,
+    147,
+    0.5
+   ]
+  },
+  "600113256111369-169": {
+   "file": "photos/600113256111369-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600113256111369",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466443,
+    3.7419847,
+    169,
+    0.5
+   ]
+  },
+  "944272471028085-128": {
+   "file": "photos/944272471028085-128.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=944272471028085",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0466051,
+    3.7409385,
+    128,
+    0.5
+   ]
+  },
+  "1324125955465035-125": {
+   "file": "photos/1324125955465035-125.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1324125955465035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-08",
+   "pano": true,
+   "cam": [
+    51.0467742,
+    3.7408801,
+    125,
+    0.5
+   ]
+  },
+  "1154460013056186-138": {
+   "file": "photos/1154460013056186-138.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154460013056186",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0465751,
+    3.7412484,
+    138,
+    0.5
+   ]
+  },
+  "618922347206751-185": {
+   "file": "photos/618922347206751-185.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=618922347206751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470037,
+    3.7415447,
+    185,
+    0.5
+   ]
+  },
+  "556088320800648-152": {
+   "file": "photos/556088320800648-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=556088320800648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466753,
+    3.7414304,
+    152,
+    0.5
+   ]
+  },
+  "1341865856721531-140": {
+   "file": "photos/1341865856721531-140.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1341865856721531",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467529,
+    3.7415842,
+    140,
+    0.5
+   ]
+  },
+  "982407910608790-169": {
+   "file": "photos/982407910608790-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982407910608790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0467059,
+    3.7419071,
+    169,
+    0.5
+   ]
+  },
+  "587079610866645-213": {
+   "file": "photos/587079610866645-213.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=587079610866645",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0458845,
+    3.7431525,
+    213,
+    0.5
+   ]
+  },
+  "527109383094048-210": {
+   "file": "photos/527109383094048-210.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527109383094048",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0462517,
+    3.7425579,
+    210,
+    0.5
+   ]
+  },
+  "1143809040654404-211": {
+   "file": "photos/1143809040654404-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1143809040654404",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0461151,
+    3.7427595,
+    211,
+    0.5
+   ]
+  },
+  "1026444879522764-232": {
+   "file": "photos/1026444879522764-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026444879522764",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0460594,
+    3.7428629,
+    232,
+    0.5
+   ]
+  },
+  "1273835527213648-227": {
+   "file": "photos/1273835527213648-227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273835527213648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0458252,
+    3.7432468,
+    227,
+    0.5
+   ]
+  },
+  "1786664378843728-211": {
+   "file": "photos/1786664378843728-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1786664378843728",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045768,
+    3.7433445,
+    211,
+    0.5
+   ]
+  },
+  "8728903460565632-205": {
+   "file": "photos/8728903460565632-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8728903460565632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046315,
+    3.7424592,
+    205,
+    0.5
+   ]
+  },
+  "527109383094048-241": {
+   "file": "photos/527109383094048-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527109383094048",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0462517,
+    3.7425579,
+    241,
+    0.5
+   ]
+  },
+  "527109383094048-201": {
+   "file": "photos/527109383094048-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527109383094048",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0462517,
+    3.7425579,
+    201,
+    0.5
+   ]
+  },
+  "486399084228761-208": {
+   "file": "photos/486399084228761-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=486399084228761",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0460426,
+    3.7428968,
+    208,
+    0.5
+   ]
+  },
+  "1005812148080098-224": {
+   "file": "photos/1005812148080098-224.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1005812148080098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0459968,
+    3.7429668,
+    224,
+    0.5
+   ]
+  },
+  "624871043239096-239": {
+   "file": "photos/624871043239096-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=624871043239096",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0459469,
+    3.7430156,
+    239,
+    0.5
+   ]
+  },
+  "1273835527213648-203": {
+   "file": "photos/1273835527213648-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273835527213648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0458252,
+    3.7432468,
+    203,
+    0.5
+   ]
+  },
+  "1786664378843728-234": {
+   "file": "photos/1786664378843728-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1786664378843728",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.045768,
+    3.7433445,
+    234,
+    0.5
+   ]
+  },
+  "927878652871497-241": {
+   "file": "photos/927878652871497-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=927878652871497",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0457079,
+    3.7434374,
+    241,
+    0.5
+   ]
+  },
+  "927878652871497-205": {
+   "file": "photos/927878652871497-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=927878652871497",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0457079,
+    3.7434374,
+    205,
+    0.5
+   ]
+  },
+  "824078693186967-231": {
+   "file": "photos/824078693186967-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=824078693186967",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0456419,
+    3.7435252,
+    231,
+    0.5
+   ]
+  },
+  "824078693186967-203": {
+   "file": "photos/824078693186967-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=824078693186967",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0456419,
+    3.7435252,
+    203,
+    0.5
+   ]
+  },
+  "1635685117023470-230": {
+   "file": "photos/1635685117023470-230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1635685117023470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0455776,
+    3.7436147,
+    230,
+    0.5
+   ]
+  },
+  "819715752296486": {
+   "file": "photos/819715752296486.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=819715752296486",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0456036,
+    3.7441139,
+    228,
+    0.482
+   ]
+  },
+  "136427518519634": {
+   "file": "photos/136427518519634.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=136427518519634",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.045517,
+    3.743964,
+    234,
+    0.482
+   ]
+  },
+  "357818929898798": {
+   "file": "photos/357818929898798.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=357818929898798",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-22",
+   "cam": [
+    51.0455708,
+    3.7440338,
+    222,
+    1.542
+   ]
+  },
+  "1194151151386403": {
+   "file": "photos/1194151151386403.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1194151151386403",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0455787,
+    3.7440451,
+    222,
+    1.905
+   ]
+  },
+  "8728903460565632-235": {
+   "file": "photos/8728903460565632-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8728903460565632",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.046315,
+    3.7424592,
+    235,
+    0.5
+   ]
+  },
+  "1273835527213648-252": {
+   "file": "photos/1273835527213648-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273835527213648",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0458252,
+    3.7432468,
+    252,
+    0.5
+   ]
+  },
+  "2094594760971265-203": {
+   "file": "photos/2094594760971265-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2094594760971265",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463755,
+    3.7423702,
+    203,
+    0.5
+   ]
+  },
+  "516249140934663-195": {
+   "file": "photos/516249140934663-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516249140934663",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0474119,
+    3.7410159,
+    195,
+    0.5
+   ]
+  },
+  "2094594760971265-255": {
+   "file": "photos/2094594760971265-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2094594760971265",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0463755,
+    3.7423702,
+    255,
+    0.5
+   ]
+  },
+  "1604629520185774-202": {
+   "file": "photos/1604629520185774-202.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1604629520185774",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0475152,
+    3.7408658,
+    202,
+    0.5
+   ]
+  },
+  "516249140934663-238": {
+   "file": "photos/516249140934663-238.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516249140934663",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0474119,
+    3.7410159,
+    238,
+    0.5
+   ]
+  },
+  "1024022346418971-241": {
+   "file": "photos/1024022346418971-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1024022346418971",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047291,
+    3.7411655,
+    241,
+    0.5
+   ]
+  },
+  "3790132044634363-243": {
+   "file": "photos/3790132044634363-243.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3790132044634363",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0472337,
+    3.7412423,
+    243,
+    0.5
+   ]
+  },
+  "3790132044634363-203": {
+   "file": "photos/3790132044634363-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3790132044634363",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0472337,
+    3.7412423,
+    203,
+    0.5
+   ]
+  },
+  "3442759219352716-213": {
+   "file": "photos/3442759219352716-213.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3442759219352716",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470647,
+    3.7414745,
+    213,
+    0.5
+   ]
+  },
+  "618922347206751-251": {
+   "file": "photos/618922347206751-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=618922347206751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470037,
+    3.7415447,
+    251,
+    0.5
+   ]
+  },
+  "601469126080792-208": {
+   "file": "photos/601469126080792-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=601469126080792",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0468878,
+    3.7416781,
+    208,
+    0.5
+   ]
+  },
+  "1805633763534244-206": {
+   "file": "photos/1805633763534244-206.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1805633763534244",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464857,
+    3.7422113,
+    206,
+    0.5
+   ]
+  },
+  "958831512502192-239": {
+   "file": "photos/958831512502192-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=958831512502192",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0464294,
+    3.7422936,
+    239,
+    0.5
+   ]
+  },
+  "3752075781771135-203": {
+   "file": "photos/3752075781771135-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3752075781771135",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0474666,
+    3.7409429,
+    203,
+    0.5
+   ]
+  },
+  "1677060773158356-235": {
+   "file": "photos/1677060773158356-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1677060773158356",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0473512,
+    3.7410899,
+    235,
+    0.5
+   ]
+  },
+  "1677060773158356-196": {
+   "file": "photos/1677060773158356-196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1677060773158356",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0473512,
+    3.7410899,
+    196,
+    0.5
+   ]
+  },
+  "1024022346418971-200": {
+   "file": "photos/1024022346418971-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1024022346418971",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.047291,
+    3.7411655,
+    200,
+    0.5
+   ]
+  },
+  "1636429953655617-208": {
+   "file": "photos/1636429953655617-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1636429953655617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466234,
+    3.7413358,
+    208,
+    0.5
+   ]
+  },
+  "1636429953655617-199": {
+   "file": "photos/1636429953655617-199.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1636429953655617",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0466234,
+    3.7413358,
+    199,
+    0.5
+   ]
+  },
+  "1304826364084994-247": {
+   "file": "photos/1304826364084994-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304826364084994",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0471199,
+    3.7413967,
+    247,
+    0.5
+   ]
+  },
+  "618922347206751-211": {
+   "file": "photos/618922347206751-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=618922347206751",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0470037,
+    3.7415447,
+    211,
+    0.5
+   ]
+  },
+  "3752075781771135-263": {
+   "file": "photos/3752075781771135-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3752075781771135",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0474666,
+    3.7409429,
+    263,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 12738,
+   "at": [
+    1516,
+    921.6
+   ],
+   "centre": [
+    1512.7,
+    919
+   ],
+   "width": 5,
+   "faces": 50,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1513.6,
+    923.6,
+    1514.1,
+    923.2,
+    1517.9,
+    920,
+    1513.1,
+    913.4,
+    1509.1,
+    916.5,
+    1508.4,
+    917.1
+   ],
+   "id": "karperstraat-50-01",
+   "latLon": [
+    51.046706,
+    3.741095
+   ],
+   "photos": [
+    {
+     "id": "1154460013056186-324",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.443,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12734,
+   "at": [
+    1534.55,
+    906.9000000000001
+   ],
+   "centre": [
+    1531.7,
+    905.1
+   ],
+   "width": 3.8,
+   "faces": 50,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    1531.7,
+    909.2,
+    1533.1,
+    908.1,
+    1536,
+    905.7,
+    1531.1,
+    899.4,
+    1526.5,
+    903
+   ],
+   "id": "karperstraat-50-02",
+   "latLon": [
+    51.046813,
+    3.741307
+   ],
+   "photos": [
+    {
+     "id": "556088320800648-331",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.454,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12741,
+   "at": [
+    1502.65,
+    932.3
+   ],
+   "centre": [
+    1501.4,
+    929.7
+   ],
+   "width": 4.8,
+   "faces": 51,
+   "toStreet": 4.9,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1499,
+    924.4,
+    1500.8,
+    933.8,
+    1504.5,
+    930.8
+   ],
+   "id": "karperstraat-51-03",
+   "latLon": [
+    51.046629,
+    3.740943
+   ],
+   "photos": [
+    {
+     "id": "1099661475175863-308",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.448,
+      0.55
+     ]
+    },
+    {
+     "id": "1233086648821753-340",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.46,
+      0.544
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12736,
+   "at": [
+    1524.85,
+    914.5999999999999
+   ],
+   "centre": [
+    1522.3,
+    911.4
+   ],
+   "width": 5.8,
+   "faces": 51,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1522.6,
+    916.4,
+    1527.1,
+    912.8,
+    1522,
+    906.5,
+    1517.4,
+    910.1
+   ],
+   "id": "karperstraat-51-04",
+   "latLon": [
+    51.046757,
+    3.741197
+   ],
+   "photos": [
+    {
+     "id": "1636429953655617-327",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.432,
+      0.562
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12765,
+   "at": [
+    1525.9,
+    951.15
+   ],
+   "centre": [
+    1522,
+    945.8
+   ],
+   "width": 5.6,
+   "faces": 51,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 10,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1516.9,
+    944.3,
+    1523.7,
+    952.9,
+    1528.1,
+    949.4,
+    1520.9,
+    941.1,
+    1520.3,
+    941.4
+   ],
+   "id": "karperstraat-51-05",
+   "latLon": [
+    51.046493,
+    3.741209
+   ],
+   "photos": [
+    {
+     "id": "2457419901272095-349",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.448,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12763,
+   "at": [
+    1534.65,
+    944.25
+   ],
+   "centre": [
+    1531,
+    940.1
+   ],
+   "width": 5.5,
+   "faces": 51,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1525.3,
+    937.7,
+    1532.5,
+    946,
+    1536.8,
+    942.5,
+    1529.5,
+    934.1
+   ],
+   "id": "karperstraat-51-06",
+   "latLon": [
+    51.046543,
+    3.741309
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12762,
+   "at": [
+    1539,
+    940.75
+   ],
+   "centre": [
+    1535.5,
+    934.4
+   ],
+   "width": 5.6,
+   "faces": 51,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1529.5,
+    934.1,
+    1536.8,
+    942.5,
+    1541.2,
+    939,
+    1536.9,
+    933.4,
+    1535.5,
+    931.5,
+    1534.5,
+    930.2,
+    1534.3,
+    930.3
+   ],
+   "id": "karperstraat-51-07",
+   "latLon": [
+    51.046568,
+    3.741358
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12760,
+   "at": [
+    1547.75,
+    933.85
+   ],
+   "centre": [
+    1544.4,
+    929.5
+   ],
+   "width": 5.5,
+   "faces": 51,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1538.6,
+    926.9,
+    1545.6,
+    935.6,
+    1549.9,
+    932.1,
+    1543.3,
+    923.2
+   ],
+   "id": "karperstraat-51-08",
+   "latLon": [
+    51.046618,
+    3.741458
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12782,
+   "at": [
+    1551.6,
+    971.15
+   ],
+   "centre": [
+    1548.3,
+    966.7
+   ],
+   "width": 5.9,
+   "faces": 51,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.6,
+    965.6,
+    1549.3,
+    973,
+    1553.9,
+    969.3,
+    1547.9,
+    962.3,
+    1546.6,
+    963.3
+   ],
+   "id": "karperstraat-51-09",
+   "latLon": [
+    51.046348,
+    3.741502
+   ],
+   "photos": [
+    {
+     "id": "927651142888813-323",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.445,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12758,
+   "at": [
+    1556.6,
+    926.85
+   ],
+   "centre": [
+    1553.5,
+    922
+   ],
+   "width": 5.9,
+   "faces": 51,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1547.6,
+    919.7,
+    1554.3,
+    928.7,
+    1558.9,
+    925,
+    1554.8,
+    920.4,
+    1551.9,
+    916.4
+   ],
+   "id": "karperstraat-51-10",
+   "latLon": [
+    51.046669,
+    3.74156
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12757,
+   "at": [
+    1560.95,
+    923.35
+   ],
+   "centre": [
+    1559,
+    921
+   ],
+   "width": 5.3,
+   "faces": 51,
+   "toStreet": 4.8,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1558.9,
+    925,
+    1563,
+    921.7,
+    1559.1,
+    916.9,
+    1554.8,
+    920.4
+   ],
+   "id": "karperstraat-51-11",
+   "latLon": [
+    51.046694,
+    3.741609
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12780,
+   "at": [
+    1561.25,
+    963.5
+   ],
+   "centre": [
+    1557.4,
+    958.8
+   ],
+   "width": 6.3,
+   "faces": 51,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1553.1,
+    958.2,
+    1558.8,
+    965.5,
+    1563.7,
+    961.5,
+    1557.9,
+    954.5,
+    1555.7,
+    956.2,
+    1555.2,
+    956.6
+   ],
+   "id": "karperstraat-51-12",
+   "latLon": [
+    51.046403,
+    3.741613
+   ],
+   "photos": [
+    {
+     "id": "3905943636295084-319",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.442,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12778,
+   "at": [
+    1570.8,
+    955.85
+   ],
+   "centre": [
+    1567.2,
+    951.8
+   ],
+   "width": 5.9,
+   "faces": 51,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1562.8,
+    950.7,
+    1568.5,
+    957.7,
+    1573.1,
+    954,
+    1567.5,
+    947,
+    1564.1,
+    949.7
+   ],
+   "id": "karperstraat-51-13",
+   "latLon": [
+    51.046459,
+    3.741722
+   ],
+   "photos": [
+    {
+     "id": "3905943636295084-344",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.449,
+      0.542
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12886,
+   "at": [
+    1575.4,
+    952.15
+   ],
+   "centre": [
+    1571.8,
+    947.5
+   ],
+   "width": 5.9,
+   "faces": 51,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1567.5,
+    947,
+    1573.1,
+    954,
+    1577.7,
+    950.3,
+    1572,
+    943.5,
+    1571.7,
+    943.8,
+    1568.6,
+    946.2
+   ],
+   "id": "karperstraat-51-14",
+   "latLon": [
+    51.046485,
+    3.741775
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12735,
+   "at": [
+    1529.4,
+    911
+   ],
+   "centre": [
+    1526.8,
+    907.9
+   ],
+   "width": 5.8,
+   "faces": 52,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1527.1,
+    912.8,
+    1531.7,
+    909.2,
+    1526.5,
+    903,
+    1522,
+    906.5
+   ],
+   "id": "karperstraat-52-15",
+   "latLon": [
+    51.046783,
+    3.741249
+   ],
+   "photos": [
+    {
+     "id": "556088320800648-313",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.439,
+      0.57
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12764,
+   "at": [
+    1530.3,
+    947.7
+   ],
+   "centre": [
+    1525.6,
+    943
+   ],
+   "width": 5.6,
+   "faces": 52,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1520.9,
+    941.1,
+    1528.1,
+    949.4,
+    1532.5,
+    946,
+    1525.3,
+    937.7,
+    1521.3,
+    940.8
+   ],
+   "id": "karperstraat-52-16",
+   "latLon": [
+    51.046518,
+    3.741259
+   ],
+   "photos": [
+    {
+     "id": "2457419901272095-360",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.454,
+      0.536
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12761,
+   "at": [
+    1543.4,
+    937.3
+   ],
+   "centre": [
+    1538.6,
+    932.3
+   ],
+   "width": 5.6,
+   "faces": 52,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1534.5,
+    930.2,
+    1535.5,
+    931.5,
+    1537.7,
+    929.9,
+    1539.1,
+    931.7,
+    1536.9,
+    933.4,
+    1541.2,
+    939,
+    1545.6,
+    935.6,
+    1538.6,
+    926.9
+   ],
+   "id": "karperstraat-52-17",
+   "latLon": [
+    51.046593,
+    3.741409
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12759,
+   "at": [
+    1552.1,
+    930.4000000000001
+   ],
+   "centre": [
+    1548.8,
+    925.9
+   ],
+   "width": 5.6,
+   "faces": 52,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.3,
+    923.2,
+    1549.9,
+    932.1,
+    1554.3,
+    928.7,
+    1547.6,
+    919.7
+   ],
+   "id": "karperstraat-52-18",
+   "latLon": [
+    51.046643,
+    3.741508
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12781,
+   "at": [
+    1556.35,
+    967.4
+   ],
+   "centre": [
+    1552.9,
+    963
+   ],
+   "width": 6.2,
+   "faces": 52,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1547.9,
+    962.3,
+    1553.9,
+    969.3,
+    1558.8,
+    965.5,
+    1553.1,
+    958.2,
+    1550.9,
+    959.9
+   ],
+   "id": "karperstraat-52-19",
+   "latLon": [
+    51.046375,
+    3.741557
+   ],
+   "photos": [
+    {
+     "id": "1303197237649329-322",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.442,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12755,
+   "at": [
+    1563.85,
+    913.15
+   ],
+   "centre": [
+    1559.5,
+    913
+   ],
+   "width": 12.1,
+   "faces": 52,
+   "toStreet": 11,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    1551.9,
+    916.4,
+    1554.8,
+    920.4,
+    1559.1,
+    916.9,
+    1568.6,
+    909.4,
+    1565.5,
+    905.5,
+    1560,
+    909.9,
+    1556.4,
+    912.7
+   ],
+   "id": "karperstraat-52-20",
+   "latLon": [
+    51.046768,
+    3.741642
+   ],
+   "photos": [
+    {
+     "id": "982407910608790-290",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.41,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12756,
+   "at": [
+    1566.25,
+    919.1500000000001
+   ],
+   "centre": [
+    1566.5,
+    915.8
+   ],
+   "width": 8.3,
+   "faces": 52,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1559.1,
+    916.9,
+    1563,
+    921.7,
+    1569.5,
+    916.6,
+    1572.5,
+    914.2,
+    1568.6,
+    909.4
+   ],
+   "id": "karperstraat-52-21",
+   "latLon": [
+    51.046724,
+    3.74167
+   ],
+   "photos": [
+    {
+     "id": "600113256111369-292",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.443,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12779,
+   "at": [
+    1566.1,
+    959.6
+   ],
+   "centre": [
+    1562.5,
+    955.5
+   ],
+   "width": 6.1,
+   "faces": 52,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1557.9,
+    954.5,
+    1563.7,
+    961.5,
+    1568.5,
+    957.7,
+    1562.8,
+    950.7,
+    1559.8,
+    953.1
+   ],
+   "id": "karperstraat-52-22",
+   "latLon": [
+    51.046432,
+    3.741668
+   ],
+   "photos": [
+    {
+     "id": "1206605001180338-323",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.448,
+      0.547
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12885,
+   "at": [
+    1580.65,
+    948
+   ],
+   "centre": [
+    1576.7,
+    944.3
+   ],
+   "width": 7.5,
+   "faces": 52,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1572,
+    943.5,
+    1577.7,
+    950.3,
+    1583.6,
+    945.7,
+    1577.4,
+    939.3,
+    1573,
+    942.8
+   ],
+   "id": "karperstraat-52-23",
+   "latLon": [
+    51.046515,
+    3.741835
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12884,
+   "at": [
+    1587.15,
+    942.9000000000001
+   ],
+   "centre": [
+    1586.7,
+    939
+   ],
+   "width": 9,
+   "faces": 52,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1577.4,
+    939.3,
+    1583.6,
+    945.7,
+    1590.7,
+    940.1,
+    1590.9,
+    939.9,
+    1591.2,
+    937.5,
+    1586.3,
+    931.5
+   ],
+   "id": "karperstraat-52-24",
+   "latLon": [
+    51.046552,
+    3.741909
+   ],
+   "photos": [
+    {
+     "id": "1805633763534244-289",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.44,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12739,
+   "at": [
+    1510.85,
+    925.7
+   ],
+   "centre": [
+    1509.2,
+    921.7
+   ],
+   "width": 4.6,
+   "faces": 53,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1509,
+    927.1,
+    1512.7,
+    924.3,
+    1513.6,
+    923.6,
+    1508.4,
+    917.1,
+    1507.5,
+    917.8,
+    1503.9,
+    920.5
+   ],
+   "id": "karperstraat-53-25",
+   "latLon": [
+    51.046677,
+    3.741037
+   ],
+   "photos": [
+    {
+     "id": "1147194336909530-330",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.449,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12737,
+   "at": [
+    1519.95,
+    918.45
+   ],
+   "centre": [
+    1518.6,
+    915.4
+   ],
+   "width": 5.1,
+   "faces": 53,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1517.9,
+    920,
+    1522,
+    916.9,
+    1522.6,
+    916.4,
+    1517.4,
+    910.1,
+    1513.1,
+    913.4
+   ],
+   "id": "karperstraat-53-26",
+   "latLon": [
+    51.046729,
+    3.741141
+   ],
+   "photos": [
+    {
+     "id": "1636429953655617-311",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.444,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12731,
+   "at": [
+    1546.9,
+    897.0999999999999
+   ],
+   "centre": [
+    1544,
+    893.1
+   ],
+   "width": 4.3,
+   "faces": 53,
+   "toStreet": 4.5,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    1540.2,
+    892.3,
+    1545.2,
+    898.4,
+    1548.6,
+    895.8,
+    1546.8,
+    893.6,
+    1543.6,
+    889.5,
+    1543.3,
+    889.7,
+    1540.4,
+    892.1
+   ],
+   "id": "karperstraat-53-27",
+   "latLon": [
+    51.046884,
+    3.741449
+   ],
+   "photos": [
+    {
+     "id": "1341865856721531-327",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.449,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9442,
+   "at": [
+    1736.2,
+    1074.3
+   ],
+   "centre": [
+    1742.4,
+    1063.2
+   ],
+   "width": 6.8,
+   "faces": 133,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.3,
+   "kind": "yes",
+   "ring": [
+    1729.3,
+    1068.3,
+    1740.2,
+    1057.8,
+    1743,
+    1055,
+    1744.3,
+    1056.3,
+    1746.6,
+    1058.8,
+    1747.6,
+    1059.8,
+    1748.8,
+    1058.4,
+    1752.1,
+    1061.4,
+    1751.7,
+    1061.9,
+    1738.7,
+    1076.6,
+    1733.7,
+    1072,
+    1733.3,
+    1072.3
+   ],
+   "id": "karperstraat-133-01",
+   "latLon": [
+    51.045602,
+    3.743613
+   ],
+   "photos": [
+    {
+     "id": "1716642559089842",
+     "metres": 21,
+     "off": 15,
+     "span": [
+      0.29,
+      0.418
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13228,
+   "at": [
+    1641.9,
+    971.3
+   ],
+   "centre": [
+    1644.4,
+    970.9
+   ],
+   "width": 10.9,
+   "faces": 134,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1645.8,
+    975.1,
+    1652.5,
+    976,
+    1641.3,
+    965,
+    1638,
+    967.5
+   ],
+   "id": "karperstraat-134-02",
+   "latLon": [
+    51.046347,
+    3.742535
+   ],
+   "photos": [
+    {
+     "id": "8728903460565632-56",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.11,
+      0.795
+     ]
+    },
+    {
+     "id": "1871904413632755-79",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.403,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13229,
+   "at": [
+    1646.9,
+    970.5
+   ],
+   "centre": [
+    1648.5,
+    969.2
+   ],
+   "width": 15.7,
+   "faces": 134,
+   "toStreet": 13.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1652.5,
+    976,
+    1655.4,
+    973.8,
+    1644.9,
+    962.1,
+    1641.3,
+    965
+   ],
+   "id": "karperstraat-134-03",
+   "latLon": [
+    51.046353,
+    3.742592
+   ],
+   "photos": [
+    {
+     "id": "8728903460565632-66",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.124,
+      0.731
+     ]
+    },
+    {
+     "id": "1306334377114985-84",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.37,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9452,
+   "at": [
+    1696.1,
+    1034.45
+   ],
+   "centre": [
+    1703.7,
+    1028
+   ],
+   "width": 5,
+   "faces": 134,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1694.3,
+    1032.7,
+    1697.9,
+    1036.2,
+    1708.2,
+    1026.6,
+    1710.9,
+    1024.1,
+    1707.1,
+    1020.3
+   ],
+   "id": "karperstraat-134-04",
+   "latLon": [
+    51.04589,
+    3.743154
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-73",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.444,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9446,
+   "at": [
+    1714.6,
+    1053.25
+   ],
+   "centre": [
+    1721.4,
+    1047
+   ],
+   "width": 7.8,
+   "faces": 134,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1727.8,
+    1045.4,
+    1724,
+    1041.4,
+    1722.7,
+    1040.1,
+    1711.8,
+    1050.5,
+    1717.4,
+    1056,
+    1724.6,
+    1048.6
+   ],
+   "id": "karperstraat-134-05",
+   "latLon": [
+    51.045754,
+    3.743366
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13261,
+   "at": [
+    1633.35,
+    950.1
+   ],
+   "centre": [
+    1632.9,
+    945.5
+   ],
+   "width": 8.6,
+   "faces": 135,
+   "toStreet": 17.2,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1630.4,
+    944.2,
+    1632.4,
+    942.7,
+    1631.3,
+    941.3,
+    1632.9,
+    940,
+    1640.7,
+    949.7,
+    1636.4,
+    953.1,
+    1630.3,
+    947.1,
+    1628.7,
+    945.5
+   ],
+   "id": "karperstraat-135-06",
+   "latLon": [
+    51.0465,
+    3.742437
+   ],
+   "photos": [
+    {
+     "id": "958831512502192-52",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.36,
+      0.628
+     ]
+    },
+    {
+     "id": "1306334377114985-31",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.421,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9413,
+   "at": [
+    1643.7,
+    981
+   ],
+   "centre": [
+    1647.8,
+    978.1
+   ],
+   "width": 5.7,
+   "faces": 135,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1641.7,
+    979,
+    1645.7,
+    983,
+    1649.7,
+    978.7,
+    1651.2,
+    977.1,
+    1652.5,
+    976,
+    1645.8,
+    975.1
+   ],
+   "id": "karperstraat-135-07",
+   "latLon": [
+    51.046277,
+    3.742555
+   ],
+   "photos": [
+    {
+     "id": "1819375808875318-6",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.46,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9463,
+   "at": [
+    1647.5,
+    984.8
+   ],
+   "centre": [
+    1652.7,
+    980.3
+   ],
+   "width": 5.1,
+   "faces": 135,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1645.7,
+    983,
+    1649.3,
+    986.6,
+    1653.8,
+    983.2,
+    1654.5,
+    982.7,
+    1657.6,
+    980.4,
+    1655.9,
+    979.1,
+    1655,
+    978.4,
+    1654.1,
+    977.6,
+    1652.5,
+    976,
+    1651.2,
+    977.1,
+    1649.7,
+    978.7
+   ],
+   "id": "karperstraat-135-08",
+   "latLon": [
+    51.046249,
+    3.742599
+   ],
+   "photos": [
+    {
+     "id": "1819375808875318-19",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.443,
+      0.556
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9459,
+   "at": [
+    1669.5500000000002,
+    1007.35
+   ],
+   "centre": [
+    1677.9,
+    996.7
+   ],
+   "width": 7.5,
+   "faces": 135,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1663.7,
+    1001.5,
+    1666.9,
+    1004.7,
+    1672.2,
+    1010,
+    1686.8,
+    996,
+    1690.1,
+    992.9,
+    1696.5,
+    986.8,
+    1690.9,
+    985.5,
+    1685.4,
+    990.7,
+    1676.2,
+    999.4,
+    1673.5,
+    996.5,
+    1672.8,
+    995.8,
+    1669.3,
+    999.1,
+    1667.9,
+    997.8
+   ],
+   "id": "karperstraat-135-09",
+   "latLon": [
+    51.046086,
+    3.742851
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9457,
+   "at": [
+    1677.45,
+    1015.35
+   ],
+   "centre": [
+    1685.8,
+    1006.7
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1675.7,
+    1013.6,
+    1679.2,
+    1017.1,
+    1690.1,
+    1006.6,
+    1688.2,
+    1004.7,
+    1691,
+    1002,
+    1689.4,
+    1000.2,
+    1687.2,
+    1002.4
+   ],
+   "id": "karperstraat-135-10",
+   "latLon": [
+    51.046028,
+    3.742941
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-3",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.468,
+      0.54
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9455,
+   "at": [
+    1684.45,
+    1022.45
+   ],
+   "centre": [
+    1691.8,
+    1014.8
+   ],
+   "width": 4.9,
+   "faces": 135,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1682.7,
+    1020.7,
+    1686.2,
+    1024.2,
+    1699.3,
+    1011.7,
+    1695.8,
+    1008.3,
+    1695.1,
+    1009
+   ],
+   "id": "karperstraat-135-11",
+   "latLon": [
+    51.045977,
+    3.743021
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-25",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.443,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9443,
+   "at": [
+    1727.25,
+    1066.25
+   ],
+   "centre": [
+    1732.7,
+    1060.9
+   ],
+   "width": 5.8,
+   "faces": 135,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1725.2,
+    1064.2,
+    1729.3,
+    1068.3,
+    1740.2,
+    1057.8,
+    1735.9,
+    1053.3
+   ],
+   "id": "karperstraat-135-12",
+   "latLon": [
+    51.04566,
+    3.74351
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9598,
+   "at": [
+    1744.8000000000002,
+    1082.75
+   ],
+   "centre": [
+    1751.7,
+    1072.4
+   ],
+   "width": 17.3,
+   "faces": 135,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    1738.7,
+    1076.6,
+    1750.9,
+    1088.9,
+    1765.2,
+    1073,
+    1752.1,
+    1061.4,
+    1751.7,
+    1061.9
+   ],
+   "id": "karperstraat-135-13",
+   "latLon": [
+    51.045541,
+    3.743711
+   ],
+   "photos": [
+    {
+     "id": "1452521725465373",
+     "metres": 26,
+     "off": 1,
+     "span": [
+      0.355,
+      0.639
+     ]
+    },
+    {
+     "id": "1046167933619291",
+     "metres": 42,
+     "off": 16,
+     "span": [
+      0.248,
+      0.438
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9412,
+   "at": [
+    1638.15,
+    975.35
+   ],
+   "centre": [
+    1639,
+    972.7
+   ],
+   "width": 10.2,
+   "faces": 136,
+   "toStreet": 4,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1638,
+    967.5,
+    1634.8,
+    970.1,
+    1634.6,
+    971.7,
+    1641.7,
+    979,
+    1645.8,
+    975.1
+   ],
+   "id": "karperstraat-136-14",
+   "latLon": [
+    51.046318,
+    3.742492
+   ],
+   "photos": [
+    {
+     "id": "2050331912144515-79",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.415,
+      0.57
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9462,
+   "at": [
+    1652.6,
+    990.05
+   ],
+   "centre": [
+    1661.5,
+    992
+   ],
+   "width": 9.5,
+   "faces": 136,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1649.3,
+    986.6,
+    1655.9,
+    993.5,
+    1657.9,
+    993.3,
+    1658.8,
+    992.4,
+    1661.1,
+    994.8,
+    1661.9,
+    995.6,
+    1659.9,
+    997.5,
+    1663.7,
+    1001.5,
+    1667.9,
+    997.8,
+    1669.3,
+    999.1,
+    1672.8,
+    995.8,
+    1670.7,
+    994,
+    1670.3,
+    994.4,
+    1663.7,
+    988.4,
+    1659.5,
+    981.4,
+    1655.5,
+    983.8,
+    1654.5,
+    982.7,
+    1653.8,
+    983.2
+   ],
+   "id": "karperstraat-136-15",
+   "latLon": [
+    51.046211,
+    3.742657
+   ],
+   "photos": [
+    {
+     "id": "1819375808875318-40",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.37,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9458,
+   "at": [
+    1673.95,
+    1011.8
+   ],
+   "centre": [
+    1682.5,
+    1003.3
+   ],
+   "width": 5,
+   "faces": 136,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1672.2,
+    1010,
+    1675.7,
+    1013.6,
+    1687.2,
+    1002.4,
+    1685.1,
+    1000.3,
+    1688.2,
+    997.6,
+    1686.8,
+    996
+   ],
+   "id": "karperstraat-136-16",
+   "latLon": [
+    51.046054,
+    3.742901
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9456,
+   "at": [
+    1680.95,
+    1018.9000000000001
+   ],
+   "centre": [
+    1687.7,
+    1011.7
+   ],
+   "width": 5,
+   "faces": 136,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1679.2,
+    1017.1,
+    1682.7,
+    1020.7,
+    1695.1,
+    1009,
+    1691.5,
+    1005.1,
+    1690.1,
+    1006.6
+   ],
+   "id": "karperstraat-136-17",
+   "latLon": [
+    51.046003,
+    3.742981
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-13",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.453,
+      0.547
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9453,
+   "at": [
+    1691.9,
+    1030.25
+   ],
+   "centre": [
+    1700.9,
+    1021.9
+   ],
+   "width": 6.9,
+   "faces": 136,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1689.5,
+    1027.8,
+    1694.3,
+    1032.7,
+    1707.1,
+    1020.3,
+    1707.5,
+    1019.9,
+    1705.9,
+    1018.2,
+    1703.7,
+    1020.4,
+    1701.9,
+    1018.5,
+    1700,
+    1020.4,
+    1698.6,
+    1019.2
+   ],
+   "id": "karperstraat-136-18",
+   "latLon": [
+    51.04592,
+    3.743106
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-57",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.406,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9451,
+   "at": [
+    1699.6,
+    1037.95
+   ],
+   "centre": [
+    1709.4,
+    1028.8
+   ],
+   "width": 4.9,
+   "faces": 136,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1697.9,
+    1036.2,
+    1701.3,
+    1039.7,
+    1713,
+    1028.2,
+    1718.7,
+    1022.5,
+    1716.9,
+    1020.7,
+    1709.6,
+    1028,
+    1708.2,
+    1026.6
+   ],
+   "id": "karperstraat-136-19",
+   "latLon": [
+    51.045865,
+    3.743194
+   ],
+   "photos": [
+    {
+     "id": "1285305269443873-84",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.453,
+      0.536
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9450,
+   "at": [
+    1703.05,
+    1041.5
+   ],
+   "centre": [
+    1708.9,
+    1035.7
+   ],
+   "width": 5,
+   "faces": 136,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1701.3,
+    1039.7,
+    1704.8,
+    1043.3,
+    1716.5,
+    1031.5,
+    1713,
+    1028.2
+   ],
+   "id": "karperstraat-136-20",
+   "latLon": [
+    51.045839,
+    3.743234
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9449,
+   "at": [
+    1706.5,
+    1045.05
+   ],
+   "centre": [
+    1714.9,
+    1036.6
+   ],
+   "width": 4.9,
+   "faces": 136,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1704.8,
+    1043.3,
+    1708.2,
+    1046.8,
+    1720,
+    1035,
+    1721.7,
+    1033.3,
+    1718.3,
+    1029.7,
+    1716.5,
+    1031.5
+   ],
+   "id": "karperstraat-136-21",
+   "latLon": [
+    51.045813,
+    3.743273
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9447,
+   "at": [
+    1710,
+    1048.65
+   ],
+   "centre": [
+    1718.3,
+    1041.7
+   ],
+   "width": 5.2,
+   "faces": 136,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1708.2,
+    1046.8,
+    1711.8,
+    1050.5,
+    1722.7,
+    1040.1,
+    1723.6,
+    1039.2,
+    1723.6,
+    1038.6,
+    1720,
+    1035
+   ],
+   "id": "karperstraat-136-22",
+   "latLon": [
+    51.045787,
+    3.743313
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9444,
+   "at": [
+    1723.2,
+    1062.15
+   ],
+   "centre": [
+    1730.2,
+    1054.9
+   ],
+   "width": 5.7,
+   "faces": 136,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1721.2,
+    1060.1,
+    1725.2,
+    1064.2,
+    1735.9,
+    1053.3,
+    1734.3,
+    1051.6,
+    1733.8,
+    1052.2,
+    1731.7,
+    1050.1,
+    1729.2,
+    1052.5
+   ],
+   "id": "karperstraat-136-23",
+   "latLon": [
+    51.04569,
+    3.743464
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9454,
+   "at": [
+    1687.85,
+    1026
+   ],
+   "centre": [
+    1698.4,
+    1016
+   ],
+   "width": 4.9,
+   "faces": 137,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1686.2,
+    1024.2,
+    1689.5,
+    1027.8,
+    1698.6,
+    1019.2,
+    1701.8,
+    1016.2,
+    1700.3,
+    1014.7,
+    1700.2,
+    1013.9,
+    1705.3,
+    1008.7,
+    1704,
+    1007.3,
+    1699.3,
+    1011.7
+   ],
+   "id": "karperstraat-137-24",
+   "latLon": [
+    51.045951,
+    3.74306
+   ],
+   "photos": [
+    {
+     "id": "646320917931148-34",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.382,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9445,
+   "at": [
+    1719.3000000000002,
+    1058.05
+   ],
+   "centre": [
+    1726.3,
+    1051.8
+   ],
+   "width": 5.6,
+   "faces": 137,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1717.4,
+    1056,
+    1721.2,
+    1060.1,
+    1729.2,
+    1052.5,
+    1731.7,
+    1050.1,
+    1732.2,
+    1049.6,
+    1727.8,
+    1045.4,
+    1724.6,
+    1048.6
+   ],
+   "id": "karperstraat-137-25",
+   "latLon": [
+    51.045719,
+    3.74342
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13230,
+   "at": [
+    1650.15,
+    967.95
+   ],
+   "centre": [
+    1653,
+    967.5
+   ],
+   "width": 15.7,
+   "faces": 138,
+   "toStreet": 17.9,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1655.4,
+    973.8,
+    1658.3,
+    971.6,
+    1657.6,
+    970.6,
+    1648.7,
+    959.6,
+    1644.9,
+    962.1
+   ],
+   "id": "karperstraat-138-26",
+   "latLon": [
+    51.046371,
+    3.742629
+   ],
+   "photos": [
+    {
+     "id": "8728903460565632-62",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.246,
+      0.707
+     ]
+    },
+    {
+     "id": "1306334377114985-80",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.378,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13262,
+   "at": [
+    1628.4499999999998,
+    956.75
+   ],
+   "centre": [
+    1629.5,
+    952.4
+   ],
+   "width": 4.1,
+   "faces": 139,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1625.6,
+    951,
+    1629.2,
+    948,
+    1630.3,
+    947.1,
+    1636.4,
+    953.1,
+    1629.8,
+    958.3,
+    1627.1,
+    955.2,
+    1628.2,
+    954.3
+   ],
+   "id": "karperstraat-139-27",
+   "latLon": [
+    51.046452,
+    3.742381
+   ],
+   "photos": [
+    {
+     "id": "958831512502192-68",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.367,
+      0.605
+     ]
+    },
+    {
+     "id": "1306334377114985-28",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.451,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13273,
+   "at": [
+    1612.75,
+    944.9
+   ],
+   "centre": [
+    1620.2,
+    939.1
+   ],
+   "width": 5.2,
+   "faces": 140,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 12,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1611.1,
+    942.9,
+    1626.1,
+    931.5,
+    1629.1,
+    935.3,
+    1614.4,
+    946.9
+   ],
+   "id": "karperstraat-140-28",
+   "latLon": [
+    51.046538,
+    3.742201
+   ],
+   "photos": [
+    {
+     "id": "1131245208693526-93",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.3,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12816,
+   "at": [
+    1508.8,
+    814.8499999999999
+   ],
+   "centre": [
+    1509.6,
+    805.9
+   ],
+   "width": 14.3,
+   "faces": 141,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1502.7,
+    795.9,
+    1500.1,
+    797.9,
+    1498.5,
+    799.2,
+    1498.3,
+    801.7,
+    1504.3,
+    809.3,
+    1513.3,
+    820.4,
+    1523.5,
+    812.1,
+    1521.9,
+    810.1,
+    1520.1,
+    811.5,
+    1513,
+    802.5,
+    1510.2,
+    804.7,
+    1509.8,
+    805
+   ],
+   "id": "karperstraat-141-29",
+   "latLon": [
+    51.047479,
+    3.741013
+   ],
+   "photos": [
+    {
+     "id": "960495541383859",
+     "metres": 41,
+     "off": 12,
+     "span": [
+      0.558,
+      0.645
+     ]
+    },
+    {
+     "id": "1857480684426225",
+     "metres": 42,
+     "off": 15,
+     "span": [
+      0.579,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12811,
+   "at": [
+    1518.35,
+    826.85
+   ],
+   "centre": [
+    1524.6,
+    821.9
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1516.6,
+    824.7,
+    1520.1,
+    829,
+    1528.7,
+    822.1,
+    1526.7,
+    820.3,
+    1528.6,
+    818.4,
+    1526.7,
+    816.6
+   ],
+   "id": "karperstraat-141-30",
+   "latLon": [
+    51.047392,
+    3.741122
+   ],
+   "photos": [
+    {
+     "id": "1677060773158356-26",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.338,
+      0.747
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12808,
+   "at": [
+    1525.45,
+    835.75
+   ],
+   "centre": [
+    1533.1,
+    828.7
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 12,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1523.7,
+    833.6,
+    1527.2,
+    837.9,
+    1539.9,
+    827.9,
+    1539,
+    826.8,
+    1536.1,
+    823.1,
+    1533.9,
+    824.9,
+    1532.2,
+    826.4
+   ],
+   "id": "karperstraat-141-31",
+   "latLon": [
+    51.047328,
+    3.741203
+   ],
+   "photos": [
+    {
+     "id": "1024022346418971-33",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.312,
+      0.753
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12804,
+   "at": [
+    1534.8,
+    847.45
+   ],
+   "centre": [
+    1543.4,
+    841.5
+   ],
+   "width": 5.8,
+   "faces": 141,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1545.6,
+    835.2,
+    1548.9,
+    839.4,
+    1547.7,
+    840.5,
+    1546.1,
+    838.7,
+    1543.7,
+    840.7,
+    1545.3,
+    842.4,
+    1536.6,
+    849.7,
+    1533,
+    845.2
+   ],
+   "id": "karperstraat-141-32",
+   "latLon": [
+    51.047243,
+    3.74131
+   ],
+   "photos": [
+    {
+     "id": "3790132044634363-78",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.226,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12803,
+   "at": [
+    1538.35,
+    851.85
+   ],
+   "centre": [
+    1545.1,
+    844.9
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1536.6,
+    849.7,
+    1545.3,
+    842.4,
+    1547.7,
+    840.5,
+    1548.9,
+    839.4,
+    1552.2,
+    843.6,
+    1540.1,
+    854
+   ],
+   "id": "karperstraat-141-33",
+   "latLon": [
+    51.047211,
+    3.741351
+   ],
+   "photos": [
+    {
+     "id": "726949463190000-29",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.304,
+      0.791
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12802,
+   "at": [
+    1541.9,
+    856.25
+   ],
+   "centre": [
+    1548,
+    851
+   ],
+   "width": 5.8,
+   "faces": 141,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1540.1,
+    854,
+    1552.2,
+    843.6,
+    1555.8,
+    848.1,
+    1543.7,
+    858.5
+   ],
+   "id": "karperstraat-141-34",
+   "latLon": [
+    51.047179,
+    3.741392
+   ],
+   "photos": [
+    {
+     "id": "726949463190000-87",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.237,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12801,
+   "at": [
+    1545.45,
+    860.65
+   ],
+   "centre": [
+    1551.5,
+    855.5
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1543.7,
+    858.5,
+    1555.8,
+    848.1,
+    1559.2,
+    852.4,
+    1547.2,
+    862.8
+   ],
+   "id": "karperstraat-141-35",
+   "latLon": [
+    51.047147,
+    3.741432
+   ],
+   "photos": [
+    {
+     "id": "1304826364084994-39",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.254,
+      0.81
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12796,
+   "at": [
+    1552.35,
+    869.4000000000001
+   ],
+   "centre": [
+    1562,
+    861.5
+   ],
+   "width": 5.6,
+   "faces": 141,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1550.6,
+    867.2,
+    1562.8,
+    857,
+    1566,
+    854.4,
+    1569.8,
+    858.9,
+    1568.7,
+    859.8,
+    1554.1,
+    871.6
+   ],
+   "id": "karperstraat-141-36",
+   "latLon": [
+    51.047084,
+    3.741511
+   ],
+   "photos": [
+    {
+     "id": "3442759219352716-50",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.166,
+      0.838
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12793,
+   "at": [
+    1555.85,
+    873.75
+   ],
+   "centre": [
+    1564.8,
+    867.2
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1554.1,
+    871.6,
+    1568.7,
+    859.8,
+    1572.2,
+    864.1,
+    1571.4,
+    864.8,
+    1557.6,
+    875.9
+   ],
+   "id": "karperstraat-141-37",
+   "latLon": [
+    51.047053,
+    3.741551
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12789,
+   "at": [
+    1562.85,
+    882.5
+   ],
+   "centre": [
+    1569.7,
+    876.9
+   ],
+   "width": 5.6,
+   "faces": 141,
+   "toStreet": 6.3,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    1561.1,
+    880.3,
+    1574.8,
+    869.2,
+    1578.1,
+    873.4,
+    1564.6,
+    884.7
+   ],
+   "id": "karperstraat-141-38",
+   "latLon": [
+    51.046989,
+    3.741631
+   ],
+   "photos": [
+    {
+     "id": "9205594272889672-17",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.362,
+      0.718
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12787,
+   "at": [
+    1567.6,
+    888.45
+   ],
+   "centre": [
+    1575.9,
+    880.3
+   ],
+   "width": 9.6,
+   "faces": 141,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1564.6,
+    884.7,
+    1578.1,
+    873.4,
+    1580,
+    871.7,
+    1586.4,
+    879.5,
+    1570.6,
+    892.2
+   ],
+   "id": "karperstraat-141-39",
+   "latLon": [
+    51.046946,
+    3.741685
+   ],
+   "photos": [
+    {
+     "id": "9205594272889672-85",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.011,
+      0.711
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13302,
+   "at": [
+    1572.1,
+    894.05
+   ],
+   "centre": [
+    1580,
+    887.7
+   ],
+   "width": 4.8,
+   "faces": 141,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1570.6,
+    892.2,
+    1586.4,
+    879.5,
+    1589.4,
+    883.1,
+    1573.6,
+    895.9
+   ],
+   "id": "karperstraat-141-40",
+   "latLon": [
+    51.046906,
+    3.741737
+   ],
+   "photos": [
+    {
+     "id": "601469126080792-64",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.273,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13298,
+   "at": [
+    1578.8,
+    902.4000000000001
+   ],
+   "centre": [
+    1590.9,
+    893
+   ],
+   "width": 5.7,
+   "faces": 141,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1577,
+    900.2,
+    1594.6,
+    886.1,
+    1596,
+    887.8,
+    1595.6,
+    888.7,
+    1594,
+    889.9,
+    1595.8,
+    892.3,
+    1593.5,
+    894.2,
+    1580.6,
+    904.6
+   ],
+   "id": "karperstraat-141-41",
+   "latLon": [
+    51.046845,
+    3.741813
+   ],
+   "photos": [
+    {
+     "id": "592695603612751-60",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.417,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13296,
+   "at": [
+    1583,
+    907.6
+   ],
+   "centre": [
+    1590.4,
+    901.9
+   ],
+   "width": 7.7,
+   "faces": 141,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1580.6,
+    904.6,
+    1593.5,
+    894.2,
+    1596.1,
+    897.7,
+    1592.2,
+    900.8,
+    1594.3,
+    903.3,
+    1585.4,
+    910.6
+   ],
+   "id": "karperstraat-141-42",
+   "latLon": [
+    51.046808,
+    3.741861
+   ],
+   "photos": [
+    {
+     "id": "2273140366401493-14",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.33,
+      0.844
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13291,
+   "at": [
+    1590.1,
+    916.55
+   ],
+   "centre": [
+    1598.5,
+    909.5
+   ],
+   "width": 5.8,
+   "faces": 141,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1588.3,
+    914.3,
+    1597,
+    906.8,
+    1599.7,
+    904.5,
+    1600.8,
+    903.6,
+    1604.3,
+    908.1,
+    1602.2,
+    910,
+    1600.6,
+    908,
+    1599,
+    909.3,
+    1600.7,
+    911.3,
+    1591.9,
+    918.8
+   ],
+   "id": "karperstraat-141-43",
+   "latLon": [
+    51.046743,
+    3.741943
+   ],
+   "photos": [
+    {
+     "id": "982407910608790-31",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.305,
+      0.772
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13288,
+   "at": [
+    1593.65,
+    921
+   ],
+   "centre": [
+    1601.5,
+    914.4
+   ],
+   "width": 5.6,
+   "faces": 141,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1591.9,
+    918.8,
+    1600.7,
+    911.3,
+    1602.2,
+    910,
+    1604.3,
+    908.1,
+    1608.1,
+    912.9,
+    1605.8,
+    914.7,
+    1603.7,
+    916.4,
+    1595.4,
+    923.2
+   ],
+   "id": "karperstraat-141-44",
+   "latLon": [
+    51.046711,
+    3.741983
+   ],
+   "photos": [
+    {
+     "id": "982407910608790-84",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.272,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13285,
+   "at": [
+    1597.15,
+    925.35
+   ],
+   "centre": [
+    1604.5,
+    918.4
+   ],
+   "width": 5.5,
+   "faces": 141,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    1595.4,
+    923.2,
+    1603.7,
+    916.4,
+    1605.4,
+    918.9,
+    1607.9,
+    917.3,
+    1605.8,
+    914.7,
+    1608.1,
+    912.9,
+    1611.2,
+    916.7,
+    1598.9,
+    927.5
+   ],
+   "id": "karperstraat-141-45",
+   "latLon": [
+    51.046679,
+    3.742023
+   ],
+   "photos": [
+    {
+     "id": "600113256111369-35",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.299,
+      0.753
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13283,
+   "at": [
+    1600.35,
+    929.3
+   ],
+   "centre": [
+    1608.3,
+    922
+   ],
+   "width": 4.6,
+   "faces": 141,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1598.9,
+    927.5,
+    1611.2,
+    916.7,
+    1613.1,
+    915.2,
+    1616.4,
+    919.5,
+    1601.8,
+    931.1
+   ],
+   "id": "karperstraat-141-46",
+   "latLon": [
+    51.046651,
+    3.74206
+   ],
+   "photos": [
+    {
+     "id": "600113256111369-82",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.319,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13278,
+   "at": [
+    1606.45,
+    937
+   ],
+   "centre": [
+    1611.5,
+    932.3
+   ],
+   "width": 4.9,
+   "faces": 141,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    1604.9,
+    935.1,
+    1613.6,
+    928,
+    1614.3,
+    928.8,
+    1612.8,
+    930,
+    1615.4,
+    932.9,
+    1608,
+    938.9
+   ],
+   "id": "karperstraat-141-47",
+   "latLon": [
+    51.046595,
+    3.742129
+   ],
+   "photos": [
+    {
+     "id": "1129960618912701-84",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.29,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13269,
+   "at": [
+    1619.2,
+    952.9
+   ],
+   "centre": [
+    1623.8,
+    949.7
+   ],
+   "width": 5.4,
+   "faces": 141,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1617.5,
+    950.8,
+    1620.9,
+    955,
+    1625.6,
+    951,
+    1629.2,
+    948,
+    1625.8,
+    943.6
+   ],
+   "id": "karperstraat-141-48",
+   "latLon": [
+    51.04648,
+    3.742275
+   ],
+   "photos": [
+    {
+     "id": "2050331912144515-17",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.462,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12815,
+   "at": [
+    1506.25,
+    800.45
+   ],
+   "centre": [
+    1509.8,
+    800.1
+   ],
+   "width": 11.5,
+   "faces": 142,
+   "toStreet": 14,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 19.7,
+   "kind": "yes",
+   "ring": [
+    1508,
+    791.7,
+    1502.7,
+    795.9,
+    1509.8,
+    805,
+    1510.2,
+    804.7,
+    1513,
+    802.5,
+    1515.3,
+    800.7
+   ],
+   "id": "karperstraat-142-49",
+   "latLon": [
+    51.047583,
+    3.740984
+   ],
+   "photos": [
+    {
+     "id": "834960967113098",
+     "metres": 32,
+     "off": 2,
+     "span": [
+      0.451,
+      0.567
+     ]
+    },
+    {
+     "id": "536220227783794",
+     "metres": 33,
+     "off": 3,
+     "span": [
+      0.464,
+      0.574
+     ]
+    },
+    {
+     "id": "497523278063985",
+     "metres": 31,
+     "off": 21,
+     "span": [
+      0.683,
+      0.915
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12813,
+   "at": [
+    1514.9499999999998,
+    822.55
+   ],
+   "centre": [
+    1522.6,
+    816.4
+   ],
+   "width": 5.4,
+   "faces": 142,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1513.3,
+    820.4,
+    1516.6,
+    824.7,
+    1526.7,
+    816.6,
+    1529.4,
+    814.4,
+    1525.9,
+    810,
+    1523.5,
+    812.1
+   ],
+   "id": "karperstraat-142-50",
+   "latLon": [
+    51.047423,
+    3.741083
+   ],
+   "photos": [
+    {
+     "id": "516249140934663-75",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.255,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12809,
+   "at": [
+    1521.9,
+    831.3
+   ],
+   "centre": [
+    1529.6,
+    824.2
+   ],
+   "width": 5.8,
+   "faces": 142,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1520.1,
+    829,
+    1523.7,
+    833.6,
+    1532.2,
+    826.4,
+    1533.9,
+    824.9,
+    1536.1,
+    823.1,
+    1532,
+    817.8,
+    1529.5,
+    819.7,
+    1530.3,
+    820.8,
+    1528.7,
+    822.1
+   ],
+   "id": "karperstraat-142-51",
+   "latLon": [
+    51.04736,
+    3.741163
+   ],
+   "photos": [
+    {
+     "id": "1677060773158356-79",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.253,
+      0.669
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12806,
+   "at": [
+    1528.65,
+    839.75
+   ],
+   "centre": [
+    1539,
+    832.6
+   ],
+   "width": 4.7,
+   "faces": 142,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1527.2,
+    837.9,
+    1530.1,
+    841.6,
+    1530.7,
+    842.4,
+    1539.3,
+    835.4,
+    1541.5,
+    833.6,
+    1544.1,
+    831.6,
+    1547.1,
+    829.1,
+    1546.9,
+    828.8,
+    1542.8,
+    823.8,
+    1539,
+    826.8,
+    1539.9,
+    827.9
+   ],
+   "id": "karperstraat-142-52",
+   "latLon": [
+    51.047299,
+    3.74124
+   ],
+   "photos": [
+    {
+     "id": "1024022346418971-80",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.318,
+      0.641
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12798,
+   "at": [
+    1548.9,
+    865
+   ],
+   "centre": [
+    1554.9,
+    859.8
+   ],
+   "width": 5.6,
+   "faces": 142,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1547.2,
+    862.8,
+    1559.2,
+    852.4,
+    1562.8,
+    857,
+    1550.6,
+    867.2
+   ],
+   "id": "karperstraat-142-53",
+   "latLon": [
+    51.047116,
+    3.741472
+   ],
+   "photos": [
+    {
+     "id": "1304826364084994-95",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.276,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12792,
+   "at": [
+    1559.9499999999998,
+    878.8499999999999
+   ],
+   "centre": [
+    1564.7,
+    873.5
+   ],
+   "width": 3.7,
+   "faces": 142,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1557.6,
+    875.9,
+    1571.4,
+    864.8,
+    1574.8,
+    869.2,
+    1561.1,
+    880.3,
+    1558.8,
+    877.4
+   ],
+   "id": "karperstraat-142-54",
+   "latLon": [
+    51.047016,
+    3.741598
+   ],
+   "photos": [
+    {
+     "id": "618922347206751-70",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.3,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13300,
+   "at": [
+    1575.3,
+    898.05
+   ],
+   "centre": [
+    1590.2,
+    885.4
+   ],
+   "width": 5.5,
+   "faces": 142,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1573.6,
+    895.9,
+    1589.4,
+    883.1,
+    1594.6,
+    878.9,
+    1595.2,
+    879.6,
+    1597,
+    878,
+    1600,
+    881.7,
+    1594.6,
+    886.1,
+    1577,
+    900.2
+   ],
+   "id": "karperstraat-142-55",
+   "latLon": [
+    51.046877,
+    3.741773
+   ],
+   "photos": [
+    {
+     "id": "506275465395374-43",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.27,
+      0.771
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13293,
+   "at": [
+    1586.85,
+    912.45
+   ],
+   "centre": [
+    1595.3,
+    905.7
+   ],
+   "width": 4.7,
+   "faces": 142,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1585.4,
+    910.6,
+    1594.3,
+    903.3,
+    1598.1,
+    900.2,
+    1600.8,
+    903.6,
+    1599.7,
+    904.5,
+    1598.7,
+    903.1,
+    1595.7,
+    905.1,
+    1597,
+    906.8,
+    1588.3,
+    914.3
+   ],
+   "id": "karperstraat-142-56",
+   "latLon": [
+    51.046773,
+    3.741905
+   ],
+   "photos": [
+    {
+     "id": "2273140366401493-72",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.282,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13279,
+   "at": [
+    1603.35,
+    933.1
+   ],
+   "centre": [
+    1612.8,
+    926.3
+   ],
+   "width": 5.1,
+   "faces": 142,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1601.8,
+    931.1,
+    1616.4,
+    919.5,
+    1617.8,
+    921.2,
+    1619.4,
+    923.2,
+    1615.6,
+    926.3,
+    1613.6,
+    928,
+    1604.9,
+    935.1
+   ],
+   "id": "karperstraat-142-57",
+   "latLon": [
+    51.046623,
+    3.742094
+   ],
+   "photos": [
+    {
+     "id": "1129960618912701-34",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.306,
+      0.76
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13275,
+   "at": [
+    1609.55,
+    940.9
+   ],
+   "centre": [
+    1618.7,
+    932.6
+   ],
+   "width": 5.1,
+   "faces": 142,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1608,
+    938.9,
+    1615.4,
+    932.9,
+    1618.8,
+    930.1,
+    1622.5,
+    927.1,
+    1623.7,
+    928.5,
+    1624.2,
+    929.1,
+    1626.1,
+    931.5,
+    1611.1,
+    942.9
+   ],
+   "id": "karperstraat-142-58",
+   "latLon": [
+    51.046567,
+    3.742165
+   ],
+   "photos": [
+    {
+     "id": "1131245208693526-42",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.273,
+      0.781
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13271,
+   "at": [
+    1615.95,
+    948.8499999999999
+   ],
+   "centre": [
+    1624.8,
+    941.9
+   ],
+   "width": 5,
+   "faces": 142,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1614.4,
+    946.9,
+    1629.1,
+    935.3,
+    1630,
+    936.3,
+    1631.7,
+    938.5,
+    1625.8,
+    943.6,
+    1617.5,
+    950.8
+   ],
+   "id": "karperstraat-142-59",
+   "latLon": [
+    51.046509,
+    3.742238
+   ],
+   "photos": [
+    {
+     "id": "1805633763534244-36",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.242,
+      0.855
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13266,
+   "at": [
+    1623,
+    957.7
+   ],
+   "centre": [
+    1626.2,
+    956.4
+   ],
+   "width": 6.8,
+   "faces": 142,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1620.9,
+    955,
+    1625.6,
+    951,
+    1628.2,
+    954.3,
+    1627.1,
+    955.2,
+    1629.8,
+    958.3,
+    1627,
+    960.6,
+    1625.1,
+    960.4
+   ],
+   "id": "karperstraat-142-60",
+   "latLon": [
+    51.046445,
+    3.742319
+   ],
+   "photos": [
+    {
+     "id": "2050331912144515-28",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.443,
+      0.562
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12883,
+   "at": [
+    1577.9,
+    932.05
+   ],
+   "centre": [
+    1577,
+    936.1
+   ],
+   "width": 13.8,
+   "faces": 230,
+   "toStreet": 12.5,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    1573,
+    942.8,
+    1577.4,
+    939.3,
+    1586.3,
+    931.5,
+    1583.2,
+    927.6,
+    1572.6,
+    936.5,
+    1569.8,
+    938.8
+   ],
+   "id": "karperstraat-230-01",
+   "latLon": [
+    51.046631,
+    3.741803
+   ],
+   "photos": [
+    {
+     "id": "592695603612751-145",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.361,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12742,
+   "at": [
+    1504.6,
+    943.4
+   ],
+   "centre": [
+    1506.6,
+    947.6
+   ],
+   "width": 4.4,
+   "faces": 231,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1506.3,
+    942,
+    1502.9,
+    944.8,
+    1504.2,
+    954.4,
+    1507.1,
+    952,
+    1511.4,
+    948.7,
+    1507.7,
+    943.7
+   ],
+   "id": "karperstraat-231-02",
+   "latLon": [
+    51.046549,
+    3.740965
+   ],
+   "photos": [
+    {
+     "id": "944272471028085-163",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.365,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12745,
+   "at": [
+    1517.45,
+    933.05
+   ],
+   "centre": [
+    1520.5,
+    937.8
+   ],
+   "width": 5.8,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1520.3,
+    941.4,
+    1520.9,
+    941.1,
+    1521.3,
+    940.8,
+    1525.3,
+    937.7,
+    1519.7,
+    931.2,
+    1515.2,
+    934.9
+   ],
+   "id": "karperstraat-231-03",
+   "latLon": [
+    51.046624,
+    3.741112
+   ],
+   "photos": [
+    {
+     "id": "1324125955465035-136",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.45,
+      0.549
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12744,
+   "at": [
+    1512.1999999999998,
+    937.3
+   ],
+   "centre": [
+    1515.5,
+    940
+   ],
+   "width": 4.1,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1516.4,
+    944.7,
+    1516.9,
+    944.3,
+    1520.3,
+    941.4,
+    1515.2,
+    934.9,
+    1513.8,
+    936,
+    1510.6,
+    938.6
+   ],
+   "id": "karperstraat-231-04",
+   "latLon": [
+    51.046593,
+    3.741052
+   ],
+   "photos": [
+    {
+     "id": "1190986949085560-134",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.441,
+      0.562
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12747,
+   "at": [
+    1526.3,
+    925.95
+   ],
+   "centre": [
+    1529.1,
+    929.1
+   ],
+   "width": 5.9,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1529.5,
+    934.1,
+    1534.3,
+    930.3,
+    1528.6,
+    924.1,
+    1524,
+    927.8
+   ],
+   "id": "karperstraat-231-05",
+   "latLon": [
+    51.046675,
+    3.741213
+   ],
+   "photos": [
+    {
+     "id": "1315210659764733-108",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.456,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12769,
+   "at": [
+    1532,
+    959
+   ],
+   "centre": [
+    1536,
+    963.7
+   ],
+   "width": 5.4,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1537.7,
+    970.4,
+    1542.4,
+    966.5,
+    1534.1,
+    957.3,
+    1529.9,
+    960.7
+   ],
+   "id": "karperstraat-231-06",
+   "latLon": [
+    51.046436,
+    3.741278
+   ],
+   "photos": [
+    {
+     "id": "1099661475175863-139",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.42,
+      0.58
+     ]
+    },
+    {
+     "id": "962763439171405-115",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.465,
+      0.544
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12750,
+   "at": [
+    1539.3,
+    915.7
+   ],
+   "centre": [
+    1542.3,
+    916.9
+   ],
+   "width": 3.8,
+   "faces": 231,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.3,
+    923.2,
+    1547.6,
+    919.7,
+    1542.6,
+    913.1,
+    1541.5,
+    914,
+    1540.8,
+    914.5,
+    1537.8,
+    916.9
+   ],
+   "id": "karperstraat-231-07",
+   "latLon": [
+    51.046749,
+    3.741362
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12770,
+   "at": [
+    1536.25,
+    955.55
+   ],
+   "centre": [
+    1542.1,
+    961.3
+   ],
+   "width": 5.5,
+   "faces": 231,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1542.4,
+    966.5,
+    1543.6,
+    965.6,
+    1546.6,
+    963.3,
+    1546.2,
+    962.9,
+    1543.4,
+    959.7,
+    1538.4,
+    953.8,
+    1534.1,
+    957.3
+   ],
+   "id": "karperstraat-231-08",
+   "latLon": [
+    51.046461,
+    3.741327
+   ],
+   "photos": [
+    {
+     "id": "1147194336909530-126",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.43,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12773,
+   "at": [
+    1549.4499999999998,
+    945.05
+   ],
+   "centre": [
+    1554.6,
+    951.8
+   ],
+   "width": 5.5,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1555.2,
+    956.6,
+    1555.7,
+    956.2,
+    1557.9,
+    954.5,
+    1559.8,
+    953.1,
+    1551.6,
+    943.3,
+    1547.3,
+    946.8
+   ],
+   "id": "karperstraat-231-09",
+   "latLon": [
+    51.046537,
+    3.741478
+   ],
+   "photos": [
+    {
+     "id": "1636429953655617-134",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.423,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12775,
+   "at": [
+    1558.2,
+    938.15
+   ],
+   "centre": [
+    1563,
+    944.2
+   ],
+   "width": 5.6,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1560.3,
+    945,
+    1562.4,
+    943.5,
+    1563.7,
+    945.5,
+    1561.8,
+    946.8,
+    1564.1,
+    949.7,
+    1567.5,
+    947,
+    1568.6,
+    946.2,
+    1565.4,
+    942.4,
+    1560.4,
+    936.4,
+    1556,
+    939.9
+   ],
+   "id": "karperstraat-231-10",
+   "latLon": [
+    51.046587,
+    3.741578
+   ],
+   "photos": [
+    {
+     "id": "556088320800648-134",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.421,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12776,
+   "at": [
+    1562.65,
+    934.5999999999999
+   ],
+   "centre": [
+    1568.4,
+    940.6
+   ],
+   "width": 5.8,
+   "faces": 231,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1568.6,
+    946.2,
+    1571.7,
+    943.8,
+    1572,
+    943.5,
+    1573,
+    942.8,
+    1569.8,
+    938.8,
+    1569.5,
+    938.4,
+    1564.9,
+    932.8,
+    1560.4,
+    936.4,
+    1565.4,
+    942.4
+   ],
+   "id": "karperstraat-231-11",
+   "latLon": [
+    51.046612,
+    3.741629
+   ],
+   "photos": [
+    {
+     "id": "1179963797020839-147",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.419,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9241,
+   "at": [
+    1562.15,
+    975.2
+   ],
+   "centre": [
+    1565.3,
+    978.9
+   ],
+   "width": 6,
+   "faces": 231,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1566,
+    984.4,
+    1570.8,
+    980.6,
+    1564.5,
+    973.3,
+    1559.8,
+    977.1
+   ],
+   "id": "karperstraat-231-12",
+   "latLon": [
+    51.046319,
+    3.741623
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12888,
+   "at": [
+    1580.75,
+    960.5
+   ],
+   "centre": [
+    1582.6,
+    963.9
+   ],
+   "width": 5.8,
+   "faces": 231,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1584.6,
+    969.6,
+    1589,
+    966.1,
+    1583,
+    958.7,
+    1578.5,
+    962.3,
+    1578.1,
+    962.6
+   ],
+   "id": "karperstraat-231-13",
+   "latLon": [
+    51.046425,
+    3.741836
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12891,
+   "at": [
+    1599.15,
+    957.8499999999999
+   ],
+   "centre": [
+    1597.9,
+    962.4
+   ],
+   "width": 12.9,
+   "faces": 231,
+   "toStreet": 13.6,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1594.1,
+    961.9,
+    1596,
+    964.2,
+    1592.1,
+    967.3,
+    1593.4,
+    969,
+    1607.7,
+    958.1,
+    1604.2,
+    953.8
+   ],
+   "id": "karperstraat-231-14",
+   "latLon": [
+    51.046444,
+    3.742046
+   ],
+   "photos": [
+    {
+     "id": "600113256111369-169",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.388,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12743,
+   "at": [
+    1508.4499999999998,
+    940.3
+   ],
+   "centre": [
+    1511.1,
+    944
+   ],
+   "width": 5.5,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1511.4,
+    948.7,
+    1514.3,
+    946.4,
+    1516.4,
+    944.7,
+    1510.6,
+    938.6,
+    1506.3,
+    942,
+    1507.7,
+    943.7
+   ],
+   "id": "karperstraat-232-15",
+   "latLon": [
+    51.046571,
+    3.741009
+   ],
+   "photos": [
+    {
+     "id": "944272471028085-128",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.336,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12746,
+   "at": [
+    1521.85,
+    929.5
+   ],
+   "centre": [
+    1524.6,
+    932.7
+   ],
+   "width": 5.5,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1525.3,
+    937.7,
+    1529.5,
+    934.1,
+    1524,
+    927.8,
+    1519.7,
+    931.2
+   ],
+   "id": "karperstraat-232-16",
+   "latLon": [
+    51.046649,
+    3.741162
+   ],
+   "photos": [
+    {
+     "id": "1324125955465035-125",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.459,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12748,
+   "at": [
+    1530.6999999999998,
+    922.45
+   ],
+   "centre": [
+    1533.7,
+    925.5
+   ],
+   "width": 5.3,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1534.3,
+    930.3,
+    1534.5,
+    930.2,
+    1538.6,
+    926.9,
+    1533.3,
+    920.5,
+    1532.8,
+    920.8,
+    1528.6,
+    924.1
+   ],
+   "id": "karperstraat-232-17",
+   "latLon": [
+    51.0467,
+    3.741263
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12771,
+   "at": [
+    1540.65,
+    952.05
+   ],
+   "centre": [
+    1546.1,
+    958.7
+   ],
+   "width": 5.7,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.4,
+    959.7,
+    1545.6,
+    957.9,
+    1548.1,
+    961.5,
+    1546.2,
+    962.9,
+    1546.6,
+    963.3,
+    1547.9,
+    962.3,
+    1550.9,
+    959.9,
+    1548.8,
+    957.4,
+    1547.8,
+    956.2,
+    1542.9,
+    950.3,
+    1538.4,
+    953.8
+   ],
+   "id": "karperstraat-232-18",
+   "latLon": [
+    51.046486,
+    3.741377
+   ],
+   "photos": [
+    {
+     "id": "1154460013056186-138",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.413,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12753,
+   "at": [
+    1553.0500000000002,
+    904.8499999999999
+   ],
+   "centre": [
+    1555.6,
+    908.1
+   ],
+   "width": 4.7,
+   "faces": 232,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1556.4,
+    912.7,
+    1560,
+    909.9,
+    1554.9,
+    903.4,
+    1551.2,
+    906.3
+   ],
+   "id": "karperstraat-232-19",
+   "latLon": [
+    51.046828,
+    3.741519
+   ],
+   "photos": [
+    {
+     "id": "618922347206751-185",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.465,
+      0.535
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12774,
+   "at": [
+    1553.8,
+    941.5999999999999
+   ],
+   "centre": [
+    1559.5,
+    946.9
+   ],
+   "width": 5.6,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1559.8,
+    953.1,
+    1562.8,
+    950.7,
+    1564.1,
+    949.7,
+    1561.8,
+    946.8,
+    1560.3,
+    945,
+    1556,
+    939.9,
+    1551.6,
+    943.3
+   ],
+   "id": "karperstraat-232-20",
+   "latLon": [
+    51.046562,
+    3.741528
+   ],
+   "photos": [
+    {
+     "id": "556088320800648-152",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.418,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12777,
+   "at": [
+    1570.2,
+    928.5999999999999
+   ],
+   "centre": [
+    1573.4,
+    931.5
+   ],
+   "width": 13.5,
+   "faces": 232,
+   "toStreet": 5,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1569.8,
+    938.8,
+    1572.6,
+    936.5,
+    1583.2,
+    927.6,
+    1578.6,
+    921.9,
+    1575.5,
+    924.4,
+    1564.9,
+    932.8,
+    1569.5,
+    938.4
+   ],
+   "id": "karperstraat-232-21",
+   "latLon": [
+    51.046656,
+    3.741715
+   ],
+   "photos": [
+    {
+     "id": "1341865856721531-140",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.309,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9377,
+   "at": [
+    1567.1,
+    971.25
+   ],
+   "centre": [
+    1570.1,
+    975
+   ],
+   "width": 6.6,
+   "faces": 232,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1570.8,
+    980.6,
+    1575.4,
+    976.9,
+    1569.7,
+    969.2,
+    1564.5,
+    973.3
+   ],
+   "id": "karperstraat-232-22",
+   "latLon": [
+    51.046347,
+    3.74168
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12887,
+   "at": [
+    1576.15,
+    964.1500000000001
+   ],
+   "centre": [
+    1579.3,
+    967.7
+   ],
+   "width": 5,
+   "faces": 232,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1580.3,
+    973,
+    1584.6,
+    969.6,
+    1578.1,
+    962.6,
+    1574.2,
+    965.7
+   ],
+   "id": "karperstraat-232-23",
+   "latLon": [
+    51.046399,
+    3.741783
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9378,
+   "at": [
+    1571.95,
+    967.45
+   ],
+   "centre": [
+    1574.9,
+    971.2
+   ],
+   "width": 5.7,
+   "faces": 232,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1575.4,
+    976.9,
+    1580.3,
+    973,
+    1574.2,
+    965.7,
+    1569.7,
+    969.2
+   ],
+   "id": "karperstraat-232-24",
+   "latLon": [
+    51.046375,
+    3.741735
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12889,
+   "at": [
+    1585.55,
+    956.7
+   ],
+   "centre": [
+    1588.5,
+    960.3
+   ],
+   "width": 6.5,
+   "faces": 232,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1589,
+    966.1,
+    1594.1,
+    961.9,
+    1588.1,
+    954.7,
+    1583,
+    958.7
+   ],
+   "id": "karperstraat-232-25",
+   "latLon": [
+    51.046453,
+    3.741891
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12890,
+   "at": [
+    1592.6,
+    951.1500000000001
+   ],
+   "centre": [
+    1596.6,
+    953.2
+   ],
+   "width": 11.5,
+   "faces": 232,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1594.1,
+    961.9,
+    1604.2,
+    953.8,
+    1599.5,
+    947.9,
+    1597.1,
+    947.6,
+    1588.1,
+    954.7
+   ],
+   "id": "karperstraat-232-26",
+   "latLon": [
+    51.046493,
+    3.741971
+   ],
+   "photos": [
+    {
+     "id": "982407910608790-169",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.41,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9240,
+   "at": [
+    1557.4499999999998,
+    978.8
+   ],
+   "centre": [
+    1560.5,
+    982.6
+   ],
+   "width": 5.8,
+   "faces": 234,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    1559.8,
+    977.1,
+    1555.1,
+    980.5,
+    1561.2,
+    988.3,
+    1566,
+    984.4
+   ],
+   "id": "karperstraat-234-27",
+   "latLon": [
+    51.046293,
+    3.741569
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 9497,
+   "at": [
+    1684.25,
+    1053.3
+   ],
+   "centre": [
+    1682,
+    1055.7
+   ],
+   "width": 8.3,
+   "faces": 313,
+   "toStreet": 16,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1682.6,
+    1061,
+    1687.3,
+    1056.1,
+    1681.2,
+    1050.5,
+    1676.8,
+    1055.2
+   ],
+   "id": "karperstraat-313-01",
+   "latLon": [
+    51.045754,
+    3.743019
+   ],
+   "photos": [
+    {
+     "id": "587079610866645-213",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.406,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9386,
+   "at": [
+    1633.6999999999998,
+    1002.25
+   ],
+   "centre": [
+    1629.8,
+    1001.1
+   ],
+   "width": 11.1,
+   "faces": 315,
+   "toStreet": 17.3,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1622,
+    997.1,
+    1633.9,
+    1009.7,
+    1637.6,
+    1006.2,
+    1629.8,
+    998.3,
+    1625.5,
+    994
+   ],
+   "id": "karperstraat-315-02",
+   "latLon": [
+    51.046123,
+    3.742441
+   ],
+   "photos": [
+    {
+     "id": "527109383094048-210",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.376,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9558,
+   "at": [
+    1656.5,
+    1011.5999999999999
+   ],
+   "centre": [
+    1649.1,
+    1016.8
+   ],
+   "width": 5.1,
+   "faces": 315,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    1645.4,
+    1025.1,
+    1645.8,
+    1024.7,
+    1658.3,
+    1013.4,
+    1654.7,
+    1009.8,
+    1651.9,
+    1009.7,
+    1646.2,
+    1015,
+    1641.2,
+    1019.8
+   ],
+   "id": "karperstraat-315-03",
+   "latLon": [
+    51.046055,
+    3.742702
+   ],
+   "photos": [
+    {
+     "id": "1143809040654404-211",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.383,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9555,
+   "at": [
+    1662.3,
+    1017.45
+   ],
+   "centre": [
+    1651.6,
+    1026.8
+   ],
+   "width": 11.4,
+   "faces": 315,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1651.6,
+    1035.5,
+    1653.6,
+    1033.5,
+    1666.3,
+    1021.5,
+    1658.3,
+    1013.4,
+    1645.8,
+    1024.7,
+    1645.4,
+    1025.1,
+    1646.1,
+    1026,
+    1649.4,
+    1030.3,
+    1648.1,
+    1031.5
+   ],
+   "id": "karperstraat-315-04",
+   "latLon": [
+    51.046013,
+    3.742768
+   ],
+   "photos": [
+    {
+     "id": "1026444879522764-232",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.213,
+      0.755
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9499,
+   "at": [
+    1695.4,
+    1051.5
+   ],
+   "centre": [
+    1689.4,
+    1056.9
+   ],
+   "width": 5.1,
+   "faces": 315,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1686.1,
+    1064.5,
+    1697.2,
+    1053.3,
+    1693.6,
+    1049.7,
+    1687.3,
+    1056.1,
+    1682.6,
+    1061
+   ],
+   "id": "karperstraat-315-05",
+   "latLon": [
+    51.045767,
+    3.743146
+   ],
+   "photos": [
+    {
+     "id": "1273835527213648-227",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.394,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9502,
+   "at": [
+    1706.1,
+    1062.4
+   ],
+   "centre": [
+    1698.6,
+    1069.1
+   ],
+   "width": 5.1,
+   "faces": 315,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1693.3,
+    1071.5,
+    1692,
+    1072.8,
+    1695.7,
+    1076.5,
+    1707.9,
+    1064.2,
+    1704.3,
+    1060.6
+   ],
+   "id": "karperstraat-315-06",
+   "latLon": [
+    51.045688,
+    3.743269
+   ],
+   "photos": [
+    {
+     "id": "1786664378843728-211",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.407,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9383,
+   "at": [
+    1630.85,
+    985.3
+   ],
+   "centre": [
+    1618.8,
+    997.2
+   ],
+   "width": 5.9,
+   "faces": 316,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1611,
+    1007,
+    1614.8,
+    1003.6,
+    1618.4,
+    1000.4,
+    1620.3,
+    998.6,
+    1622,
+    997.1,
+    1625.5,
+    994,
+    1632.9,
+    987.4,
+    1628.8,
+    983.2,
+    1611.9,
+    996,
+    1613.8,
+    998.5,
+    1607.6,
+    1003.3
+   ],
+   "id": "karperstraat-316-07",
+   "latLon": [
+    51.046246,
+    3.742408
+   ],
+   "photos": [
+    {
+     "id": "8728903460565632-205",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.38,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9384,
+   "at": [
+    1634.9,
+    989.45
+   ],
+   "centre": [
+    1631.3,
+    992.8
+   ],
+   "width": 5.7,
+   "faces": 316,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1625.5,
+    994,
+    1629.8,
+    998.3,
+    1636.9,
+    991.5,
+    1632.9,
+    987.4
+   ],
+   "id": "karperstraat-316-08",
+   "latLon": [
+    51.046216,
+    3.742455
+   ],
+   "photos": [
+    {
+     "id": "527109383094048-241",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.355,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9385,
+   "at": [
+    1640,
+    994.75
+   ],
+   "centre": [
+    1638.1,
+    999
+   ],
+   "width": 9,
+   "faces": 316,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1637.6,
+    1006.2,
+    1643,
+    1001,
+    1643.1,
+    998,
+    1636.9,
+    991.5,
+    1629.8,
+    998.3
+   ],
+   "id": "karperstraat-316-09",
+   "latLon": [
+    51.046177,
+    3.742513
+   ],
+   "photos": [
+    {
+     "id": "527109383094048-201",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.341,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9552,
+   "at": [
+    1668.1999999999998,
+    1023.5
+   ],
+   "centre": [
+    1662,
+    1029.5
+   ],
+   "width": 5.5,
+   "faces": 316,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1653.6,
+    1033.5,
+    1657.8,
+    1037.6,
+    1670.1,
+    1025.5,
+    1666.3,
+    1021.5
+   ],
+   "id": "karperstraat-316-10",
+   "latLon": [
+    51.045969,
+    3.742835
+   ],
+   "photos": [
+    {
+     "id": "486399084228761-208",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.392,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9551,
+   "at": [
+    1672.05,
+    1027.5
+   ],
+   "centre": [
+    1665.1,
+    1035.1
+   ],
+   "width": 5.6,
+   "faces": 316,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1662.1,
+    1041.8,
+    1674,
+    1029.5,
+    1670.1,
+    1025.5,
+    1657.8,
+    1037.6,
+    1661.6,
+    1041.3
+   ],
+   "id": "karperstraat-316-11",
+   "latLon": [
+    51.04594,
+    3.742879
+   ],
+   "photos": [
+    {
+     "id": "1005812148080098-224",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.375,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9550,
+   "at": [
+    1675.8,
+    1031.35
+   ],
+   "centre": [
+    1671.9,
+    1038.3
+   ],
+   "width": 5.2,
+   "faces": 316,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1667.4,
+    1047,
+    1672.4,
+    1041.8,
+    1677.6,
+    1036.3,
+    1677.6,
+    1033.2,
+    1674,
+    1029.5,
+    1662.1,
+    1041.8
+   ],
+   "id": "karperstraat-316-12",
+   "latLon": [
+    51.045912,
+    3.742922
+   ],
+   "photos": [
+    {
+     "id": "624871043239096-239",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.362,
+      0.631
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9500,
+   "at": [
+    1699,
+    1055.15
+   ],
+   "centre": [
+    1692.3,
+    1061.8
+   ],
+   "width": 5.2,
+   "faces": 316,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1687.6,
+    1066,
+    1689.7,
+    1068.1,
+    1700.8,
+    1057,
+    1697.2,
+    1053.3,
+    1686.1,
+    1064.5
+   ],
+   "id": "karperstraat-316-13",
+   "latLon": [
+    51.04574,
+    3.743188
+   ],
+   "photos": [
+    {
+     "id": "1273835527213648-203",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.419,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9501,
+   "at": [
+    1702.55,
+    1058.8
+   ],
+   "centre": [
+    1694,
+    1066.6
+   ],
+   "width": 5,
+   "faces": 316,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1689.7,
+    1068.1,
+    1688.7,
+    1069.2,
+    1690,
+    1070.6,
+    1691.2,
+    1069.4,
+    1693.3,
+    1071.5,
+    1704.3,
+    1060.6,
+    1700.8,
+    1057
+   ],
+   "id": "karperstraat-316-14",
+   "latLon": [
+    51.045714,
+    3.743228
+   ],
+   "photos": [
+    {
+     "id": "1786664378843728-234",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.395,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9503,
+   "at": [
+    1709.5500000000002,
+    1065.9
+   ],
+   "centre": [
+    1705,
+    1072.9
+   ],
+   "width": 4.7,
+   "faces": 316,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1695.7,
+    1076.5,
+    1699,
+    1079.8,
+    1703.2,
+    1075.6,
+    1704.9,
+    1077.3,
+    1713,
+    1069.5,
+    1711.2,
+    1067.6,
+    1707.9,
+    1064.2
+   ],
+   "id": "karperstraat-316-15",
+   "latLon": [
+    51.045662,
+    3.743308
+   ],
+   "photos": [
+    {
+     "id": "927878652871497-241",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.406,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9505,
+   "at": [
+    1715.15,
+    1071.7
+   ],
+   "centre": [
+    1707.5,
+    1079.5
+   ],
+   "width": 6.2,
+   "faces": 316,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1704.9,
+    1077.3,
+    1700.7,
+    1081.5,
+    1704.1,
+    1084.9,
+    1705.1,
+    1085.9,
+    1707.4,
+    1083.6,
+    1717.3,
+    1073.9,
+    1713,
+    1069.5
+   ],
+   "id": "karperstraat-316-16",
+   "latLon": [
+    51.045621,
+    3.743372
+   ],
+   "photos": [
+    {
+     "id": "927878652871497-205",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.402,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9506,
+   "at": [
+    1719.4,
+    1076.0500000000002
+   ],
+   "centre": [
+    1711.2,
+    1084.3
+   ],
+   "width": 6,
+   "faces": 316,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    1707.4,
+    1083.6,
+    1709.2,
+    1085.3,
+    1707.9,
+    1086.7,
+    1708.7,
+    1087.6,
+    1707.9,
+    1088.7,
+    1709.5,
+    1090.3,
+    1721.5,
+    1078.2,
+    1717.3,
+    1073.9
+   ],
+   "id": "karperstraat-316-17",
+   "latLon": [
+    51.045589,
+    3.743421
+   ],
+   "photos": [
+    {
+     "id": "824078693186967-231",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.371,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9507,
+   "at": [
+    1723.6,
+    1080.35
+   ],
+   "centre": [
+    1716.3,
+    1088.5
+   ],
+   "width": 6,
+   "faces": 316,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1709.5,
+    1090.3,
+    1711.7,
+    1092.5,
+    1712.7,
+    1093.5,
+    1714.2,
+    1092.2,
+    1717.2,
+    1089.5,
+    1717.8,
+    1089,
+    1725.7,
+    1082.5,
+    1721.5,
+    1078.2
+   ],
+   "id": "karperstraat-316-18",
+   "latLon": [
+    51.045558,
+    3.743469
+   ],
+   "photos": [
+    {
+     "id": "824078693186967-203",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.4,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9522,
+   "at": [
+    1727.8000000000002,
+    1084.65
+   ],
+   "centre": [
+    1721.9,
+    1089
+   ],
+   "width": 6,
+   "faces": 316,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1717.8,
+    1089,
+    1718.3,
+    1089.5,
+    1719.1,
+    1090.3,
+    1719.7,
+    1090.9,
+    1722.7,
+    1094,
+    1729.9,
+    1086.8,
+    1725.7,
+    1082.5
+   ],
+   "id": "karperstraat-316-19",
+   "latLon": [
+    51.045527,
+    3.743517
+   ],
+   "photos": [
+    {
+     "id": "1635685117023470-230",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.366,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9523,
+   "at": [
+    1733.7,
+    1090.6999999999998
+   ],
+   "centre": [
+    1733.9,
+    1096.9
+   ],
+   "width": 10.9,
+   "faces": 316,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1722.7,
+    1094,
+    1724.3,
+    1095.6,
+    1735,
+    1106.6,
+    1740.6,
+    1100.9,
+    1740.7,
+    1098.7,
+    1740.7,
+    1097.9,
+    1737.5,
+    1094.6,
+    1729.9,
+    1086.8
+   ],
+   "id": "karperstraat-316-20",
+   "latLon": [
+    51.045483,
+    3.743584
+   ],
+   "photos": [
+    {
+     "id": "819715752296486",
+     "metres": 39,
+     "off": 22,
+     "span": [
+      0.636,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9524,
+   "at": [
+    1729.65,
+    1101.1
+   ],
+   "centre": [
+    1725.5,
+    1102
+   ],
+   "width": 15.3,
+   "faces": 316,
+   "toStreet": 16.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1730.4,
+    1111.4,
+    1735,
+    1106.6,
+    1724.3,
+    1095.6,
+    1721.2,
+    1098.5,
+    1722.2,
+    1099.2,
+    1719.9,
+    1100.8
+   ],
+   "id": "karperstraat-316-21",
+   "latLon": [
+    51.045408,
+    3.743538
+   ],
+   "photos": [
+    {
+     "id": "136427518519634",
+     "metres": 32,
+     "off": 14,
+     "span": [
+      0.527,
+      0.709
+     ]
+    },
+    {
+     "id": "357818929898798",
+     "metres": 39,
+     "off": 21,
+     "span": [
+      0.824,
+      1
+     ]
+    },
+    {
+     "id": "1194151151386403",
+     "metres": 40,
+     "off": 20,
+     "span": [
+      0.889,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9382,
+   "at": [
+    1627.05,
+    981.35
+   ],
+   "centre": [
+    1618.7,
+    987.7
+   ],
+   "width": 5.1,
+   "faces": 317,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1628.8,
+    983.2,
+    1625.3,
+    979.5,
+    1608.9,
+    992,
+    1611.9,
+    996
+   ],
+   "id": "karperstraat-317-22",
+   "latLon": [
+    51.046274,
+    3.742365
+   ],
+   "photos": [
+    {
+     "id": "8728903460565632-235",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.373,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9498,
+   "at": [
+    1691.5,
+    1047.45
+   ],
+   "centre": [
+    1687.5,
+    1049.3
+   ],
+   "width": 6.2,
+   "faces": 317,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1687.3,
+    1056.1,
+    1693.6,
+    1049.7,
+    1689.4,
+    1045.2,
+    1686.2,
+    1045.2,
+    1681.2,
+    1050.5
+   ],
+   "id": "karperstraat-317-23",
+   "latLon": [
+    51.045796,
+    3.743102
+   ],
+   "photos": [
+    {
+     "id": "1273835527213648-252",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.384,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9381,
+   "at": [
+    1623.25,
+    977.15
+   ],
+   "centre": [
+    1612.2,
+    985.6
+   ],
+   "width": 6.2,
+   "faces": 319,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    1607.7,
+    985.2,
+    1603.1,
+    988.9,
+    1607,
+    993.4,
+    1608.9,
+    992,
+    1625.3,
+    979.5,
+    1621.2,
+    974.8
+   ],
+   "id": "karperstraat-319-24",
+   "latLon": [
+    51.046305,
+    3.742322
+   ],
+   "photos": [
+    {
+     "id": "2094594760971265-203",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.388,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12720,
+   "at": [
+    1506.9,
+    832.25
+   ],
+   "centre": [
+    1499.8,
+    836.7
+   ],
+   "width": 5.3,
+   "faces": 320,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1494.5,
+    838.7,
+    1497.2,
+    843.2,
+    1508.6,
+    834.3,
+    1505.2,
+    830.2,
+    1497.5,
+    836.3,
+    1496.1,
+    837.5
+   ],
+   "id": "karperstraat-320-25",
+   "latLon": [
+    51.047353,
+    3.740991
+   ],
+   "photos": [
+    {
+     "id": "516249140934663-195",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.389,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9380,
+   "at": [
+    1617.35,
+    970.0999999999999
+   ],
+   "centre": [
+    1607.9,
+    979
+   ],
+   "width": 8.3,
+   "faces": 320,
+   "toStreet": 8,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 19.5,
+   "kind": "house",
+   "ring": [
+    1600.6,
+    978,
+    1595.9,
+    981.6,
+    1599.4,
+    986.1,
+    1604.9,
+    981.7,
+    1606.6,
+    983.8,
+    1607.7,
+    985.2,
+    1621.2,
+    974.8,
+    1620,
+    973.3,
+    1614.7,
+    966.9
+   ],
+   "id": "karperstraat-320-26",
+   "latLon": [
+    51.046356,
+    3.742254
+   ],
+   "photos": [
+    {
+     "id": "2094594760971265-255",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.282,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12716,
+   "at": [
+    1493.45,
+    815.75
+   ],
+   "centre": [
+    1490.3,
+    817.6
+   ],
+   "width": 8.7,
+   "faces": 321,
+   "toStreet": 5.5,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1486.2,
+    828.7,
+    1487.7,
+    829.4,
+    1498.2,
+    821.5,
+    1497.9,
+    821.2,
+    1496.2,
+    819.1,
+    1490.7,
+    812.4,
+    1487.8,
+    808.8,
+    1485.9,
+    808.4,
+    1482,
+    809
+   ],
+   "id": "karperstraat-321-27",
+   "latLon": [
+    51.047472,
+    3.740838
+   ],
+   "photos": [
+    {
+     "id": "1604629520185774-202",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.281,
+      0.945
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12718,
+   "at": [
+    1503.15,
+    827.7
+   ],
+   "centre": [
+    1497.5,
+    833.5
+   ],
+   "width": 6.5,
+   "faces": 321,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1490.8,
+    832.9,
+    1494.5,
+    838.7,
+    1496.1,
+    837.5,
+    1497.5,
+    836.3,
+    1505.2,
+    830.2,
+    1501.1,
+    825.2
+   ],
+   "id": "karperstraat-321-28",
+   "latLon": [
+    51.047386,
+    3.740949
+   ],
+   "photos": [
+    {
+     "id": "516249140934663-238",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.256,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12723,
+   "at": [
+    1516.4,
+    844.05
+   ],
+   "centre": [
+    1510.4,
+    848.8
+   ],
+   "width": 5,
+   "faces": 321,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1502.8,
+    851.6,
+    1505.9,
+    855.5,
+    1518,
+    846,
+    1514.8,
+    842.1
+   ],
+   "id": "karperstraat-321-29",
+   "latLon": [
+    51.047268,
+    3.7411
+   ],
+   "photos": [
+    {
+     "id": "1024022346418971-241",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.293,
+      0.671
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12725,
+   "at": [
+    1522.6,
+    851.9
+   ],
+   "centre": [
+    1516.6,
+    856.6
+   ],
+   "width": 5.1,
+   "faces": 321,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1524.2,
+    853.9,
+    1521,
+    849.9,
+    1509.1,
+    859.4,
+    1512.2,
+    863.3
+   ],
+   "id": "karperstraat-321-30",
+   "latLon": [
+    51.047211,
+    3.741171
+   ],
+   "photos": [
+    {
+     "id": "3790132044634363-243",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.306,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12726,
+   "at": [
+    1525.8000000000002,
+    855.8499999999999
+   ],
+   "centre": [
+    1519.7,
+    861.8
+   ],
+   "width": 5,
+   "faces": 321,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1512.2,
+    863.3,
+    1515.4,
+    867.3,
+    1516.3,
+    866.6,
+    1522.5,
+    861.7,
+    1527.4,
+    857.8,
+    1524.2,
+    853.9
+   ],
+   "id": "karperstraat-321-31",
+   "latLon": [
+    51.047182,
+    3.741207
+   ],
+   "photos": [
+    {
+     "id": "3790132044634363-203",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.377,
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12728,
+   "at": [
+    1544.45,
+    879.2
+   ],
+   "centre": [
+    1536.5,
+    884.7
+   ],
+   "width": 4.9,
+   "faces": 321,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1531.8,
+    886.2,
+    1529.7,
+    887.9,
+    1531,
+    889.5,
+    1535.3,
+    886.2,
+    1537,
+    888.3,
+    1546,
+    881.1,
+    1542.9,
+    877.3,
+    1538.1,
+    881.2
+   ],
+   "id": "karperstraat-321-32",
+   "latLon": [
+    51.047013,
+    3.741421
+   ],
+   "photos": [
+    {
+     "id": "3442759219352716-213",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.377,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12729,
+   "at": [
+    1547.6,
+    883.05
+   ],
+   "centre": [
+    1540.9,
+    889.5
+   ],
+   "width": 5,
+   "faces": 321,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    1537,
+    888.3,
+    1532.8,
+    891.8,
+    1535.9,
+    895.7,
+    1540.2,
+    892.3,
+    1540.4,
+    892.1,
+    1543.3,
+    889.7,
+    1543.6,
+    889.5,
+    1549.2,
+    885,
+    1546,
+    881.1
+   ],
+   "id": "karperstraat-321-33",
+   "latLon": [
+    51.046985,
+    3.741457
+   ],
+   "photos": [
+    {
+     "id": "618922347206751-251",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.344,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12754,
+   "at": [
+    1563.45,
+    902.95
+   ],
+   "centre": [
+    1560.3,
+    903.3
+   ],
+   "width": 6.5,
+   "faces": 321,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1560,
+    909.9,
+    1565.5,
+    905.5,
+    1561.4,
+    900.4,
+    1560.7,
+    900.3,
+    1559,
+    900.1,
+    1554.9,
+    903.4
+   ],
+   "id": "karperstraat-321-34",
+   "latLon": [
+    51.046841,
+    3.741638
+   ],
+   "photos": [
+    {
+     "id": "601469126080792-208",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.331,
+      0.754
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12892,
+   "at": [
+    1609.45,
+    960.3
+   ],
+   "centre": [
+    1602.3,
+    965.7
+   ],
+   "width": 5.6,
+   "faces": 321,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    1593.4,
+    969,
+    1596.8,
+    973.3,
+    1611.2,
+    962.5,
+    1607.7,
+    958.1
+   ],
+   "id": "karperstraat-321-35",
+   "latLon": [
+    51.046426,
+    3.742164
+   ],
+   "photos": [
+    {
+     "id": "1805633763534244-206",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.384,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9379,
+   "at": [
+    1612.95,
+    964.7
+   ],
+   "centre": [
+    1605.8,
+    970.2
+   ],
+   "width": 5.6,
+   "faces": 321,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    1596.8,
+    973.3,
+    1600.6,
+    978,
+    1614.7,
+    966.9,
+    1611.2,
+    962.5
+   ],
+   "id": "karperstraat-321-36",
+   "latLon": [
+    51.046395,
+    3.742204
+   ],
+   "photos": [
+    {
+     "id": "958831512502192-239",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.337,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12717,
+   "at": [
+    1499.65,
+    823.35
+   ],
+   "centre": [
+    1493.2,
+    827.7
+   ],
+   "width": 4.7,
+   "faces": 322,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1487.7,
+    829.4,
+    1488.1,
+    829.6,
+    1490.8,
+    832.9,
+    1501.1,
+    825.2,
+    1498.2,
+    821.5
+   ],
+   "id": "karperstraat-322-37",
+   "latLon": [
+    51.047417,
+    3.740909
+   ],
+   "photos": [
+    {
+     "id": "3752075781771135-203",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.386,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12721,
+   "at": [
+    1510.15,
+    836.25
+   ],
+   "centre": [
+    1503.6,
+    841.2
+   ],
+   "width": 5,
+   "faces": 322,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1497.2,
+    843.2,
+    1498.3,
+    845,
+    1501.9,
+    841.9,
+    1503.8,
+    844.5,
+    1511.7,
+    838.2,
+    1508.6,
+    834.3
+   ],
+   "id": "karperstraat-322-38",
+   "latLon": [
+    51.047324,
+    3.741029
+   ],
+   "photos": [
+    {
+     "id": "1677060773158356-235",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.304,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12722,
+   "at": [
+    1513.25,
+    840.1500000000001
+   ],
+   "centre": [
+    1506.6,
+    844.8
+   ],
+   "width": 5,
+   "faces": 322,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1503.8,
+    844.5,
+    1499.7,
+    847.7,
+    1502.8,
+    851.6,
+    1514.8,
+    842.1,
+    1511.7,
+    838.2
+   ],
+   "id": "karperstraat-322-39",
+   "latLon": [
+    51.047296,
+    3.741064
+   ],
+   "photos": [
+    {
+     "id": "1677060773158356-196",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.396,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12724,
+   "at": [
+    1519.5,
+    847.95
+   ],
+   "centre": [
+    1513.5,
+    852.7
+   ],
+   "width": 4.9,
+   "faces": 322,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1505.9,
+    855.5,
+    1509.1,
+    859.4,
+    1521,
+    849.9,
+    1518,
+    846
+   ],
+   "id": "karperstraat-322-40",
+   "latLon": [
+    51.047239,
+    3.741135
+   ],
+   "photos": [
+    {
+     "id": "1024022346418971-200",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.384,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12766,
+   "at": [
+    1525.25,
+    954.8499999999999
+   ],
+   "centre": [
+    1520.2,
+    953.5
+   ],
+   "width": 5,
+   "faces": 322,
+   "toStreet": 3.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1514.3,
+    946.4,
+    1520.1,
+    953.9,
+    1517.4,
+    955.8,
+    1520.6,
+    960.1,
+    1521.4,
+    961,
+    1524.5,
+    958.6,
+    1526.8,
+    956.8,
+    1523.7,
+    952.9,
+    1516.9,
+    944.3,
+    1516.4,
+    944.7
+   ],
+   "id": "karperstraat-322-41",
+   "latLon": [
+    51.046466,
+    3.741201
+   ],
+   "photos": [
+    {
+     "id": "1636429953655617-208",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.458,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12767,
+   "at": [
+    1528.35,
+    958.75
+   ],
+   "centre": [
+    1526,
+    961.2
+   ],
+   "width": 5,
+   "faces": 322,
+   "toStreet": 3.4,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1521.4,
+    961,
+    1525.3,
+    966.2,
+    1528.1,
+    964.1,
+    1529.9,
+    960.7,
+    1526.8,
+    956.8,
+    1524.5,
+    958.6
+   ],
+   "id": "karperstraat-322-42",
+   "latLon": [
+    51.046438,
+    3.741237
+   ],
+   "photos": [
+    {
+     "id": "1636429953655617-199",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.46,
+      0.537
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12727,
+   "at": [
+    1535.15,
+    867.55
+   ],
+   "centre": [
+    1529.6,
+    872
+   ],
+   "width": 24.9,
+   "faces": 322,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1527.4,
+    857.8,
+    1542.9,
+    877.3,
+    1531.8,
+    886.2,
+    1516.3,
+    866.6
+   ],
+   "id": "karperstraat-322-43",
+   "latLon": [
+    51.047098,
+    3.741314
+   ],
+   "photos": [
+    {
+     "id": "1304826364084994-247",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9239,
+   "at": [
+    1553.55,
+    978.5
+   ],
+   "centre": [
+    1545.7,
+    973.7
+   ],
+   "width": 5.1,
+   "faces": 322,
+   "toStreet": 3.2,
+   "floors": 2,
+   "eaves": 5.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1536.5,
+    971.4,
+    1548.8,
+    986,
+    1555.1,
+    980.5,
+    1552,
+    976.5,
+    1549.3,
+    973,
+    1543.6,
+    965.6,
+    1542.4,
+    966.5,
+    1537.7,
+    970.4
+   ],
+   "id": "karperstraat-322-44",
+   "latLon": [
+    51.046295,
+    3.741525
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12730,
+   "at": [
+    1551.15,
+    887.55
+   ],
+   "centre": [
+    1549.5,
+    891.3
+   ],
+   "width": 6.4,
+   "faces": 323,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1543.6,
+    889.5,
+    1546.8,
+    893.6,
+    1548.6,
+    895.8,
+    1552.6,
+    892.6,
+    1552.9,
+    892.4,
+    1553.1,
+    890.1,
+    1549.2,
+    885
+   ],
+   "id": "karperstraat-323-45",
+   "latLon": [
+    51.046953,
+    3.741497
+   ],
+   "photos": [
+    {
+     "id": "618922347206751-211",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.337,
+      0.706
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12715,
+   "at": [
+    1484.1,
+    818.85
+   ],
+   "centre": [
+    1481.4,
+    826.4
+   ],
+   "width": 20.1,
+   "faces": 348,
+   "toStreet": 14.8,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 19.8,
+   "kind": "apartments",
+   "ring": [
+    1474.8,
+    810.1,
+    1476.6,
+    818.7,
+    1478.7,
+    828.4,
+    1480.5,
+    837.1,
+    1482.3,
+    836.6,
+    1483.9,
+    836.3,
+    1482.7,
+    830.1,
+    1486.4,
+    829.3,
+    1486.2,
+    828.7,
+    1482,
+    809
+   ],
+   "id": "karperstraat-348-01",
+   "latLon": [
+    51.04745,
+    3.740731
+   ],
+   "photos": [
+    {
+     "id": "3752075781771135-263",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.216,
+      0.756
+     ]
+    }
+   ]
+  }
+ ]
+}

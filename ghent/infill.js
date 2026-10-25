@@ -6,8 +6,9 @@
 //   courtyard behind them. Game metres, as the map is (1.25 to a real metre).
 // HIDDEN: points inside map outlines that are not to be built, because a landmark's model already
 //   stands there: the chapels round Sint-Niklaas's east end, which the map has as a brick house
-//   reaching into the church. They stay in the list (with gone: true), so the other buildings keep
-//   their places in it, and their colours with them.
+//   reaching into the church, and the row of shops along its nave, by the tram, which the map
+//   has as a tall brick house sticking out of the church's side. They stay in the list (with
+//   gone: true), so the other buildings keep their places in it, and their colours with them.
 import { MAP } from './map.js';
 
 const STREETS = [
@@ -85,4 +86,4 @@ function block() {
 }
 
 export const BUILDINGS = block();
-export const HIDDEN = [[-26, -92]];
+export const HIDDEN = [[-26, -92], [-100, -111]];

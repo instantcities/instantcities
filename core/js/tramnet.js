@@ -269,6 +269,7 @@ export function behind(t, dist, out) {
 const SPEED = 8, SLOW = 5, ACCEL = 1, BRAKE = 1.2; // m/s out of town and in the centre, m/s²
 const WAIT = 8, DWELL = 12; // seconds at the end of the line and at a stop
 const KEEP = 12; // metres: a tram keeps this far behind the one in front
+const MIND = 10, MIND_SIDE = 2; // metres ahead of its nose, and to either side of the track, that a tram halts for someone in the way
 const STUCK = 30; // seconds held up before a tram gives up waiting (two meeting on a single track)
 
 // The trams on the network: one per `per` metres of track, and one more per `centrePer` metres of
@@ -324,8 +325,17 @@ export function tramFleet(net, { LENGTH, centre = null, per = 800, centrePer = 2
     }
     return 0;
   };
+  // someone riding about on the track just ahead of t's nose
+  const inWay = (t, riders) => {
+    const [hx, hz] = net.heading(t.edge, t.head, t.dir), n = t.nose;
+    return riders.some(o => {
+      const dx = o.pos.x - n[0], dz = o.pos.z - n[2], ahead = dx * hx + dz * hz;
+      return ahead > -1 && ahead < MIND && Math.abs(dx * hz - dz * hx) < MIND_SIDE;
+    });
+  };
 
-  const step = dt => {
+  // riders: everybody riding about (not on board), to halt for
+  const step = (dt, riders = []) => {
     dt = Math.min(dt, 0.1);
     for (const t of list) {
       if (t.hold) t.wait = Math.max(t.wait, dt + 0.01); // someone getting on: the doors stay open
@@ -372,7 +382,7 @@ export function tramFleet(net, { LENGTH, centre = null, per = 800, centrePer = 2
       t.held = wall < 0 ? t.held + dt : 0;
       const n = t.trail.at(-1);
       let want = Math.min(inCentre(n[0], n[2]) ? SLOW : SPEED, Math.sqrt(2 * BRAKE * Math.max(0, left)) + (left === stop ? 0.15 : 0.4));
-      if (wall > 0 || (wall < 0 && t.held < STUCK)) want = 0;
+      if (wall > 0 || (wall < 0 && t.held < STUCK) || (riders.length && inWay(t, riders))) want = 0;
       t.v = want < t.v ? Math.max(want, t.v - 4 * BRAKE * dt) : Math.min(want, t.v + ACCEL * dt);
       let go = t.v * dt;
       if (left < Infinity) go = Math.min(go, Math.max(0, left));
@@ -410,9 +420,10 @@ export function tramFleet(net, { LENGTH, centre = null, per = 800, centrePer = 2
   };
   // A tram for someone waiting at (x, z), at distance at along edge e: the next one coming along it,
   // if it is near enough; otherwise one brought there, a little way back, so it comes soon: the
-  // one furthest from them, so they do not see it go. Not one in `busy` (being ridden). Null when
+  // one furthest from them, so they do not see it go. Not one in `busy` (being ridden). bring: how
+  // far back (metres from where its nose halts) to bring it, if not the usual 120 m or so. Null when
   // there is no room for one yet.
-  const summon = (e, at, x, z, busy = new Set(), reach = 220) => {
+  const summon = (e, at, x, z, busy = new Set(), reach = 220, bring = null) => {
     const nose = at + LENGTH / 2;
     let best = null;
     for (const t of list) {
@@ -424,7 +435,7 @@ export function tramFleet(net, { LENGTH, centre = null, per = 800, centrePer = 2
     const far = t => (t.nose[0] - x) ** 2 + (t.nose[2] - z) ** 2;
     const pick = list.filter(t => !busy.has(t)).sort((a, b) => far(b) - far(a))[0];
     if (!pick) return null;
-    for (const back of [120, 160, 80, 200, 50]) {
+    for (const back of bring ? [bring, bring * 0.8, bring * 1.2, bring * 0.6] : [120, 160, 80, 200, 50]) {
       const along = Math.max(LENGTH + 2, nose - back);
       if (along >= nose - 5) continue;
       const s = [e, along, 1];

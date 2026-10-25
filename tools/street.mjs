@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // A street's house fronts and the photos to draw them from, in one go: finds every building along
 // a street of the map (<city>/map.js), the edge of each that looks onto the street, and
-// pulls the Mapillary photos that look straight at it into tools/streets/<city>/<street>/ (checked in).
+// pulls the Mapillary photos that look straight at it into tools/streets/<city>/<street>/ (street.json is checked in;
+// the photos are not, past the streets done before that: .gitignore).
 //
 //     node tools/street.mjs ghent Sint-Baafsplein
 //     node tools/street.mjs ghent Veldstraat --n 3 --reach 14
@@ -11,6 +12,10 @@
 // --reach 14   how far from the street's middle line a front may stand, metres (beyond half its width;
 //              a spot of spots.json can set its own)
 // --dry        list the fronts only, no photos
+//
+// Where no flat photo looks at a front (a narrow street, driven down with a 360° camera), a view
+// is cut out of the nearest panorama instead, level and 90° wide, square on to the front: it is
+// kept as photos/<panorama id>-<compass>.jpg and shows up like any other photo.
 //
 // Writes street.json (the fronts: where, how wide, how tall, which way, and the photos that show
 // each, with the slice of the photo it fills) and every photo once, as photos/<mapillary id>.jpg,
@@ -23,8 +28,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { mapCoords } from './mapcoords.mjs';
+import { readImage, writeJpeg, panoView } from './img.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
+try { process.loadEnvFile(path.join(HERE, '..', '.env')); } catch {} // MAPILLARY_TOKEN, kept out of git
 const HEADERS = { 'User-Agent': 'instant-gent street tool (https://github.com/woutersmet/instant-gent)' };
 const args = process.argv.slice(2), opts = {}, ids = [];
 for (let k = 0; k < args.length; k++) {
@@ -139,14 +146,17 @@ const pad = 0.0004, tiles = [];
 // Mapillary refuses a big bbox: ask in squares of about 0.002 degrees (150 m)
 for (let la = Math.min(...lats) - pad; la < Math.max(...lats) + pad; la += 0.002)
   for (let lo = Math.min(...lons) - pad; lo < Math.max(...lons) + pad; lo += 0.002) tiles.push([lo, la, lo + 0.002, la + 0.002]);
-const shots = new Map();
+const shots = new Map(), panos = new Map();
 for (const bbox of tiles) {
-  const url = `https://graph.mapillary.com/images?${new URLSearchParams({ bbox: bbox.map(v => v.toFixed(6)).join(','), limit: '2000', fields: 'id,thumb_1024_url,computed_geometry,computed_compass_angle,captured_at,is_pano,sequence,creator,camera_parameters,width,height' })}`;
+  const url = `https://graph.mapillary.com/images?${new URLSearchParams({ bbox: bbox.map(v => v.toFixed(6)).join(','), limit: '2000', fields: 'id,thumb_1024_url,thumb_2048_url,computed_geometry,computed_compass_angle,captured_at,is_pano,sequence,creator,camera_parameters,width,height' })}`;
   const res = await fetch(url, { headers: { ...HEADERS, Authorization: `OAuth ${token}` } });
   if (!res.ok) { console.error(`Mapillary ${res.status}: ${(await res.text()).slice(0, 200)}`); process.exit(1); }
-  for (const i of (await res.json()).data) if (!i.is_pano && i.computed_geometry && i.computed_compass_angle != null && i.thumb_1024_url) shots.set(i.id, i);
+  for (const i of (await res.json()).data) {
+    if (!i.computed_geometry || i.computed_compass_angle == null) continue;
+    if (i.is_pano) { if (i.thumb_2048_url) panos.set(i.id, i); } else if (i.thumb_1024_url) shots.set(i.id, i);
+  }
 }
-console.log(`${shots.size} Mapillary photos in the area`);
+console.log(`${shots.size} Mapillary photos and ${panos.size} panoramas in the area`);
 
 // For each front: 4 to 45 m off, the camera looking at its middle (within 22°) and looking against
 // its normal (the wall faces the camera, within 40°), so the front is seen from the front. A photo
@@ -172,14 +182,50 @@ function pick(f) {
   return out;
 }
 
+// No flat photo of a front: the panoramas 3 to 25 m off that see it most square on, one per drive,
+// the newest first among the about equally good. The view is cut looking straight at its middle.
+function pickPanos(f) {
+  const out = [], seen = new Set();
+  const scored = [...panos.values()].map(i => {
+    const cam = [i.computed_geometry.coordinates[1], i.computed_geometry.coordinates[0]];
+    const d = dist(cam, f.latLon), look = bearing(cam, f.latLon), square = turn((look + 180) % 360, normalBearing(f));
+    const years = (Date.now() - i.captured_at) / 3.15e10;
+    return { i, d, look, off: 0, square, score: square / 30 + d / 25 + years / 8 };
+  }).filter(s => s.d >= 3 && s.d <= 25 && s.square <= 45).sort((a, b) => a.score - b.score);
+  for (const s of scored) {
+    if (seen.has(s.i.sequence)) continue;
+    seen.add(s.i.sequence);
+    out.push(s);
+    if (out.length >= N) break;
+  }
+  return out;
+}
+const PANO_FOCAL = 0.5; // a 90° view: the focal length is half its width
+const panoCache = path.join(HERE, 'cache', 'panos');
+const panoImages = new Map();
+async function panoImage(i) {
+  if (panoImages.has(i.id)) return panoImages.get(i.id);
+  fs.mkdirSync(panoCache, { recursive: true });
+  const file = path.join(panoCache, `${i.id}.jpg`);
+  if (!fs.existsSync(file)) {
+    const res = await fetch(i.thumb_2048_url, { headers: HEADERS });
+    if (!res.ok) return null;
+    fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
+  }
+  const img = readImage(file);
+  if (panoImages.size > 8) panoImages.delete(panoImages.keys().next().value); // they are big: keep a few
+  panoImages.set(i.id, img);
+  return img;
+}
+
 // Which slice of the photo the front fills, left to right as 0..1 of its width: its two ends, turned
 // into the camera's view (Mapillary's focal length is a fraction of the photo's longer side)
-function span(f, i) {
+function span(f, i, compass = i.computed_compass_angle, focal0 = null) {
   const t = [-Math.sin(rad(f.faces)), Math.cos(rad(f.faces))], cam = [i.computed_geometry.coordinates[1], i.computed_geometry.coordinates[0]];
-  const focal = (i.camera_parameters?.[0] ?? 0.85) * Math.max(i.width ?? 4, i.height ?? 3) / (i.width ?? 4);
+  const focal = focal0 ?? (i.camera_parameters?.[0] ?? 0.85) * Math.max(i.width ?? 4, i.height ?? 3) / (i.width ?? 4);
   const us = [-1, 1].map(k => {
     const end = latLon(f.at[0] + (k * f.width / 2) * t[0], f.at[1] + (k * f.width / 2) * t[1]);
-    const a = ((bearing(cam, end) - i.computed_compass_angle + 540) % 360) - 180;
+    const a = ((bearing(cam, end) - compass + 540) % 360) - 180;
     return Math.min(1, Math.max(0, 0.5 + focal * Math.tan(rad(Math.max(-80, Math.min(80, a))))));
   }).sort((p, q) => p - q);
   return us.map(u => +u.toFixed(3));
@@ -206,6 +252,20 @@ for (const f of fronts) {
       cam: [...s.i.computed_geometry.coordinates.slice().reverse().map(v => +v.toFixed(7)), Math.round(s.i.computed_compass_angle), +((s.i.camera_parameters?.[0] ?? 0.85) * Math.max(s.i.width ?? 4, s.i.height ?? 3) / (s.i.width ?? 4)).toFixed(3)],
     };
     f.photos.push({ id, metres: Math.round(s.d), off: Math.round(s.off), span: span(f, s.i) });
+  }
+  if (!f.photos.length) for (const s of pickPanos(f)) {
+    const look = Math.round(s.look), id = `${s.i.id}-${look}`, file = path.join(pdir, `${id}.jpg`);
+    if (!photos[id] && !fs.existsSync(file)) {
+      const img = await panoImage(s.i);
+      if (!img) continue;
+      writeJpeg(panoView(img, s.i.computed_compass_angle, look), file, 50);
+    }
+    photos[id] ??= {
+      file: `photos/${id}.jpg`, page: `https://www.mapillary.com/app/?pKey=${s.i.id}`, author: s.i.creator?.username ?? '',
+      licence: 'CC BY-SA 4.0', date: new Date(s.i.captured_at).toISOString().slice(0, 10), pano: true,
+      cam: [...s.i.computed_geometry.coordinates.slice().reverse().map(v => +v.toFixed(7)), look, PANO_FOCAL],
+    };
+    f.photos.push({ id, metres: Math.round(s.d), off: 0, span: span(f, s.i, look, PANO_FOCAL) });
   }
   console.log(`  ${f.id}  ${f.width} m, ${f.floors ?? '?'} fl.  ${f.photos.length} photos`);
 }

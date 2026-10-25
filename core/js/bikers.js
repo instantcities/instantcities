@@ -340,6 +340,22 @@ export class Cyclists {
     this.parts[part].setMatrixAt(i, this.tmp.multiplyMatrices(this.base, this.local));
   }
 
+  // A paintball from (x0, z0) to (x1, z1) at height y knocks the first cyclist it hits off the bike.
+  paintHit(x0, z0, x1, z1, y) {
+    const dx = x1 - x0, dz = z1 - z0, L2 = dx * dx + dz * dz || 1;
+    let best = null, bu = Infinity;
+    for (const b of this.list) {
+      if (b.state !== 'ride') continue;
+      const u = Math.max(0, Math.min(1, ((b.x - x0) * dx + (b.z - z0) * dz) / L2));
+      if (u < bu && Math.hypot(b.x - x0 - dx * u, b.z - z0 - dz * u) < 0.8 && y > b.up && y < b.up + 1.9) { best = b; bu = u; }
+    }
+    if (!best) return null;
+    best.state = 'fall';
+    best.timer = 0;
+    best.fallSide = Math.random() < 0.5 ? 1 : -1;
+    return { x: best.x, y, z: best.z };
+  }
+
   // onHit(rider, bike, { x, y, z }) is called when a horse runs into a cyclist
   update(dt, t, riders, onHit) {
     this.list.forEach((b, i) => {

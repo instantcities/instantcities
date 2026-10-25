@@ -11,13 +11,23 @@
 //   facades.js       the landmarks' walls, drawn by hand (hand-written)
 //   monuments.js     the statues, modelled by hand (hand-written)
 //   fronts.js        single houses' fronts drawn by hand, the Graslei's (hand-written)
+//   kouterfronts.js  the Kouter's banks, the Handelsbeurs and the grand houses round it, drawn by hand (hand-written)
 //   streets.js       fronts per street from a spec each, read off Mapillary photos (see facade-lab.html)
 //   squares.js       the car-free squares, paved wall to wall (hand-written)
 //   sights.js        the sights, and what a card tells you about each when you ride up (hand-written)
 //   inside.js        the buildings you can go into, their doors and cards; their rooms in inside/ (hand-written)
 //   tour.js          the tour: the flight through the old town and its stops (hand-written)
 //   infill.js        a block the map leaves empty, built up, and a map house a landmark stands on (hand-written)
+//   graffitistraat.js the narrow Werregarenstraat, with graffiti on both courtyard walls (hand-written)
+//   glazenstraatje.js the Glazen Straatje's covered gallery, and the lit windows round it (hand-written)
+//   doknoord.js      Route du Soleil's brick hall on the Sassevaartstraat and the ramp down to Dok Noord's car park (hand-written)
+//   kouter.js        the Kouter's car park: its two glass pavilions and the ramps in and out (hand-written)
+//   doknoordplein.js Dok Noord's square: the sawtooth shops, the glass hall and the Direkteurswoning (hand-written)
+//   sassevaart.js    Travelbase's neighbours: the old AEG works and the Dok Noord building (hand-written)
 //   passages.js      the passages through a building at street level, cut out of it (hand-written)
+//   bridges.js       the bridges that stand higher than the street, which the map has level (hand-written)
+//   lowquays.js      the quays that lie lower than the street beside them, by the water (hand-written)
+//   underpasses.js   the paths that go down under a bridge the map has them crossing level (hand-written)
 //   crossings.js     the traffic lights and crossings: made from the map download by
 //                    `node tools/crossings.mjs ghent`, do not edit by hand
 //   transit.js       the bus and tram stops and the bus lines: made by `node tools/transit.mjs ghent`,
@@ -28,13 +38,21 @@
 //   pavilions.js     the Kouter's bandstand and blue kiosk, the bus canopies at Zuid, the flower
 //                    stalls and the neuzekes carts (hand-written)
 //   stadshal.js      the grand piano under the Stadshal and SGOL, the restaurant in its cellar (hand-written)
+//   banners.js       the city's banners on the schools, crèches and museums: made by
+//                    `node tools/banners.mjs ghent`, do not edit by hand
 //   stations.js      Gent-Sint-Pieters and Gent-Dampoort with their platforms, tracks and trains (hand-written)
 //   krook.js         De Krook, the library on the Scheldt (hand-written)
+//   provinciehuis.js the Provinciehuis in the old Leopoldskazerne (hand-written)
+//   belgacomtoren.js the old Belgacom tower on the Sint-Jacobsnieuwstraat (hand-written)
+//   opera.js         the Opera on the Schouwburgstraat (hand-written)
+//   topsporthal.js   the Topsporthal by the Watersportbaan (hand-written)
+//   vandewielebrug.js the Annie Vande Wielebrug over the Watersportbaan, its blue steel and arched girder (hand-written)
 //   blocks.js        what those are built from: walls on an outline, slabs, ribbons along a line
 //   railways.json    which station yards to take the tracks of (hand-written)
 //   railways.js      the stations' tracks, platforms and platform roofs: made by `node tools/railways.mjs ghent`
 //   sintbaafsplein.js the terraces of the three restaurants on the Sint-Baafsplein (hand-written)
 //   graslei.js       the restaurants' terraces along the Graslei and on the Korenlei (hand-written)
+//   veerleplein.js   the cafés' and restaurants' terraces on the Sint-Veerleplein (hand-written)
 //   blaarmeersen.js  the Blaarmeersen's lake and beaches, its woods, and the runners' loop round the Watersportbaan
 //   strand.js        the parasols on the Blaarmeersen's beaches and Le Beach House behind them (hand-written)
 //   sabbeberg.js     the Karel Sabbeberg in the Blaarmeersen: the hill, the path up it, its woods and lookout tower (hand-written)
@@ -42,14 +60,29 @@
 //   famous.json      the well-known places for the big map's index: museums, restaurants, schools... (hand-written)
 //   famous.js        those places on the map: made from famous.json by `node tools/famous.mjs ghent`
 //   cederstraat.js   the Cederstraat drawn closer to life: every spot parked, two cars and a family put there by hand
+//   kerstmarkt.js    the Christmas market on the Groentenmarkt, there only on the tour (hand-written)
+//   stroppen.js      the Stroppendragers' procession up the Belfortstraat and across the Sint-Baafsplein, there only on the tour (hand-written)
+//   buskers.js       buskers along the Belfortstraat, there only on the tour (hand-written)
+//   demo.js          the film about the game: shots from the tour and the quests, played with ?demo (hand-written)
 //   furniture.js     the bollards, post boxes, benches and bins OpenStreetMap has: made by `node tools/furniture.mjs ghent`
 import { MAP as OSM } from './map.js';
-import { TRAM_TRACKS } from './tramlines.js';
+import { TOUR_PROPS as KERSTMARKT } from './kerstmarkt.js';
+import { STROPPEN } from './stroppen.js';
+import { BUSKERS } from './buskers.js';
+import { TRAM_TRACKS, TRAM_MOVED } from './tramlines.js';
 import { PATHS as SABBE_PATHS, GROVES as SABBE_GROVES } from './sabbeberg.js';
 import { GROVES as BLAARMEERSEN_GROVES } from './blaarmeersen.js';
 import { CLEARINGS } from './strand.js';
 import { BUILDINGS as INFILL, HIDDEN } from './infill.js';
 import { withPassages } from './passages.js';
+import { withUnderpasses } from './underpasses.js';
+import { withRaisedBridges } from './bridges.js';
+import { lowQuays } from './lowquays.js';
+import { SQUARES as CITY_SQUARES } from './squares.js';
+import { ALLEY_NAME, ALLEY_WIDTH, withAlleyClearance } from './graffitistraat.js';
+import { GALLERY_NAME, GALLERY_WIDTH, withGlazenStraatje } from './glazenstraatje.js';
+import { STREET_NAME as SASSEVAART, onSassevaartstraat, GRASS, GRASS_TREES } from './doknoord.js';
+import { TREES as SQUARE_TREES, SQUARE } from './doknoordplein.js';
 function insideRing(x, z, p) {
   let c = false;
   for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) {
@@ -62,10 +95,11 @@ function insideRing(x, z, p) {
 // Stadhuis it leaves empty, less what a landmark already stands on (infill.js)
 // Streets the map has paved in stones (or slabs) that are asphalt in fact.
 const ASPHALT = ['Kastanjestraat'];
+const centre = p => { let x = 0, z = 0; for (let k = 0; k < p.length; k += 2) { x += p[k]; z += p[k + 1]; } return [(2 * x) / p.length, (2 * z) / p.length]; };
 const hidden = b => HIDDEN.some(([x, z]) => insideRing(x, z, b.p));
 // Canals that lie lower than the rest, between sloping grass banks instead of quay walls: the
 // Coupure, and the Brugse Vaart it runs on into along the Groendreef (one body of water in the
-// map). at: a point in the water, level: its surface in metres (the rest lies at -1, js/relief.js),
+// map). at: a point in the water, level: its surface in metres (the rest lies at WATER, js/relief.js),
 // bank: how far in, in metres, the grass slopes down before it reaches below that.
 const LOW_WATER = [{ name: 'Coupure', at: [-1231, 48], level: -2.4, bank: 5 }];
 const lowWater = a => a.k === 'water' && LOW_WATER.find(w => insideRing(...w.at, a.p));
@@ -84,22 +118,98 @@ const outsideLow = ({ w, p }) => {
   if (run.length > 2) runs.push(run);
   return runs.map(q => ({ w, p: q }));
 };
+// The Sint-Michielsbrug is 11.3 wide, the ramps up to it 7.5 in the map: their walls and kerbs did not meet
+// the bridge's. Where a ramp climbs it is as wide as the bridge, then it eases back to its own width over
+// the foot of the slope (the road cut in pieces, each sharing its end point with the next).
+const BRIDGE = { name: 'Sint-Michielshelling', w: 11.3 };
+const widenRamp = rd => {
+  if (OSM.names[rd.n] !== BRIDGE.name || !rd.y || rd.br || rd.w >= BRIDGE.w) return [rd];
+  const stage = h => (h >= 0.5 ? 2 : h >= 0.05 ? 1 : 0);
+  const width = [rd.w, (rd.w + BRIDGE.w) / 2, BRIDGE.w];
+  const out = [];
+  for (let a = 0, n = rd.y.length; a < n - 1;) {
+    let b = a + 1;
+    while (b < n - 1 && stage(rd.y[b]) === stage(rd.y[a])) b++;
+    const st = Math.max(stage(rd.y[a]), stage(rd.y[b - 1]));
+    out.push({ ...rd, w: width[st], p: rd.p.slice(a * 2, b * 2 + 2), y: rd.y.slice(a, b + 1) });
+    a = b;
+  }
+  return out;
+};
+// The Korenmarkt has no trees (OpenStreetMap has a few on it, and the game adds more to a paved
+// square's edges): none on its paving, so the terraces round it have the room.
+const TREELESS = CITY_SQUARES.find(sq => sq.id === 'korenmarkt');
+// The houses round the Korenmarkt open onto it, café after café, but the map gives each the front
+// of the nearest street, which is often the lane behind it: the square's walls are fronts (their
+// shops' signs, awnings and terraces stand out onto the paving), and a house of it without a shop
+// is a café, as the long rows of the square's south and east sides in fact are (the map is short
+// of them: shops and cafés come from its points, and many a venue is missing, or closed).
+const SQUARE_BOX = (() => { const p = TREELESS.p, xs = p.filter((_, k) => !(k % 2)), zs = p.filter((_, k) => k % 2); return [Math.min(...xs) - 8, Math.min(...zs) - 8, Math.max(...xs) + 8, Math.max(...zs) + 8]; })();
+const SQUARE_CAFES = ['Brasserie Korenmarkt', 'Café Het Korenhuis'];
+const faceSquare = (b, i) => {
+  if (b.gone || b.k === 'part' || b.h || b.k === 'roof') return b;
+  const p = b.p, n = p.length / 2, [x0, z0, x1, z1] = SQUARE_BOX;
+  if (!(p[0] > x0 && p[0] < x1 && p[1] > z0 && p[1] < z1)) return b;
+  let cx = 0, cz = 0;
+  for (let k = 0; k < n; k++) { cx += p[2 * k] / n; cz += p[2 * k + 1] / n; }
+  let best = null;
+  for (let k = 0; k < n; k++) {
+    const ax = p[2 * k], az = p[2 * k + 1], bx = p[(2 * k + 2) % p.length], bz = p[(2 * k + 3) % p.length], L = Math.hypot(bx - ax, bz - az);
+    if (L < 3) continue;
+    const mx = (ax + bx) / 2, mz = (az + bz) / 2;
+    let nx = -(bz - az) / L, nz = (bx - ax) / L;
+    if ((mx + nx - cx) ** 2 + (mz + nz - cz) ** 2 < (mx - nx - cx) ** 2 + (mz - nz - cz) ** 2) { nx = -nx; nz = -nz; } // out of the house
+    if (insideRing(mx + nx * 3, mz + nz * 3, TREELESS.p) && !insideRing(mx - nx * 3, mz - nz * 3, TREELESS.p) && (!best || L > best.L)) best = { k, L };
+  }
+  if (!best) return b;
+  const cafe = !b.shop && best.L < 13 && b.f >= 2 && ['house', 'yes', 'retail', 'commercial'].includes(b.k);
+  return { ...b, fe: best.k, ...(cafe && { shop: ['cafe', SQUARE_CAFES[i % SQUARE_CAFES.length]] }) };
+};
+// Streets that are two lanes with a white line down the middle, with the parked cars in bays
+// beside the carriageway on both sides, not in it: the map has them one-way, and the game then
+// parks cars along both kerbs of the road itself (core/js/scenery.js osmCars). The dock's streets.
+export const BAY_STREETS = ['Gasmeterlaan', 'Nieuwevaart', 'Blaisantvest', 'Sassekaai'];
+const bayRoad = rd => (rd.one && !rd.foot && BAY_STREETS.includes(OSM.names[rd.n]) ? { ...rd, one: undefined, bay: 1 } : rd);
+// the bridges that stand higher than the street (bridges.js), and the paths that go down under a
+// bridge, in a trench (underpasses.js)
+const UNDER = withUnderpasses(withRaisedBridges(OSM.roads, OSM.names), OSM.names);
 export const MAP = {
   ...OSM,
-  areas: OSM.areas.map(a => { const w = lowWater(a); return w ? { ...a, level: w.level, bank: w.bank } : a; }),
+  areas: [...OSM.areas.filter(a => a.k === 'water' || !insideRing(...centre(a.p), SQUARE)).map(a => { const w = lowWater(a); return w ? { ...a, level: w.level, bank: w.bank } : a; }), GRASS],
+  trees: [...OSM.trees.filter((v, k, t) => { const [x, z] = k % 2 ? [t[k - 1], v] : [v, t[k + 1]]; return !insideRing(x, z, SQUARE) && !insideRing(x, z, GRASS.p) && !insideRing(x, z, TREELESS.p); }), ...GRASS_TREES, ...SQUARE_TREES],
   water: OSM.water.flatMap(outsideLow),
-  trams: [...OSM.trams, ...TRAM_TRACKS],
-  buildings: withPassages([...OSM.buildings.map(b => (hidden(b) ? { ...b, gone: true } : b)), ...INFILL]),
-  roads: [...OSM.roads.map(rd => (ASPHALT.includes(OSM.names[rd.n]) && !rd.foot ? { ...rd, c: undefined } : rd)), ...SABBE_PATHS],
+  trams: [...OSM.trams.map((t, i) => (TRAM_MOVED[i] ? { ...t, p: TRAM_MOVED[i] } : t)), ...TRAM_TRACKS],
+  buildings: withPassages(withAlleyClearance(withGlazenStraatje([...OSM.buildings.map((b, i) => faceSquare(hidden(b) ? { ...b, gone: true } : b, i)), ...INFILL]))),
+  names: [...OSM.names, SASSEVAART],
+  roads: [...UNDER.roads.map(bayRoad).map(rd => (OSM.names[rd.n] === ALLEY_NAME ? { ...rd, w: ALLEY_WIDTH, foot: true, c: 2 } : OSM.names[rd.n] === GALLERY_NAME && rd.foot ? { ...rd, w: GALLERY_WIDTH, c: 2 } : ASPHALT.includes(OSM.names[rd.n]) && !rd.foot ? { ...rd, c: undefined }
+    : onSassevaartstraat(rd) ? { ...rd, n: OSM.names.length, c: 1 } : onKouterRamp(rd) ? kouterRampRoad(rd) : rd)).flatMap(widenRamp), ...SABBE_PATHS],
 };
 export { MOUNDS } from './sabbeberg.js';
 // where it is wooded, more thickly than the map's parks get (core/js/scenery.js): the Karel
 // Sabbeberg's slopes, then the rest of the Blaarmeersen round it, clear of Le Beach House (strand.js)
 export const GROVES = [...SABBE_GROVES, ...BLAARMEERSEN_GROVES.map(g => ({ ...g, keep: [...(g.keep ?? []), ...CLEARINGS] }))];
-export { LANDMARKS, HOLLOWS } from './landmarks.js';
+import { HOLLOWS as MEASURED_HOLLOWS } from './landmarks.js';
+import { HOLLOWS as RAMPS, MOUTH as DOK_NOORD_MOUTH } from './doknoord.js';
+import { HOLLOWS as KOUTER_RAMP, onRamp as onKouterRamp, rampRoad as kouterRampRoad, MOUTHS as KOUTER_MOUTHS } from './kouter.js';
+// The car parks under the Kouter and under Dok Noord are one: ride into a mouth of the one and you
+// come up the other's ramp (core/js/main.js); from Dok Noord, up the Kouter's way out. Each portal:
+// where its mouth is, and where it lets you out.
+// (The doors into Sint-Baafs, Sint-Niklaas and the Stadhuis are in inside.js: their rooms stand on
+// this map, js/interiors.js.)
+export const PORTALS = [
+  ...KOUTER_MOUTHS.map(m => ({ ...m, to: DOK_NOORD_MOUTH, name: 'Parking Dok Noord' })),
+  { ...DOK_NOORD_MOUTH, to: KOUTER_MOUTHS[0], name: 'Parking Kouter' },
+];
+export { LANDMARKS } from './landmarks.js';
+// the squares lower than their streets (measured, landmarks.js), the ramps down to Dok Noord's and
+// the Kouter's car parks (doknoord.js, kouter.js), the trenches the paths go down under a bridge in
+// (underpasses.js) and the quays lying lower than their street (lowquays.js)
+export const HOLLOWS = [...MEASURED_HOLLOWS, ...RAMPS, ...KOUTER_RAMP, ...UNDER.hollows, ...lowQuays(MAP)];
 export { FACADES } from './facades.js';
 export { MONUMENTS } from './monuments.js';
-import { FRONTS as HAND_FRONTS } from './fronts.js';
+import { FRONTS as OLD_TOWN_FRONTS } from './fronts.js';
+import { KOUTER_FRONTS } from './kouterfronts.js';
+const HAND_FRONTS = [...OLD_TOWN_FRONTS, ...KOUTER_FRONTS];
 import { STREETS } from './streets.js';
 export { STREETS }; // for the facade lab (facade-lab.html)
 import { specFronts } from '../core/js/facade-spec.js';
@@ -112,11 +222,19 @@ export { RACES } from './races.js';
 export { QUESTS } from './quests.js';
 export { SIGHTS } from './sights.js';
 export { INSIDE } from './inside.js';
-export { AREAS, BEACHES, RUNS } from './blaarmeersen.js';
+export { AREAS, BEACHES, RUNS, ROWING } from './blaarmeersen.js';
 export { TERRAIN } from './terrain.js';
 export { FAMOUS } from './famous.js';
-export { TOUR } from './tour.js';
+import { TOUR as TOUR_PATH } from './tour.js';
+import { flyingDragon, livingArtevelde, riddenDragon } from './tourcast.js';
+// (ride: the dragon the tour is flown on yourself, through the hoops: core/js/dragonfly.js)
+export const TOUR = { ...TOUR_PATH, flyer: { ...TOUR_PATH.flyer, make: flyingDragon }, runner: { ...TOUR_PATH.runner, make: livingArtevelde }, ride: riddenDragon };
+export { DEMO } from './demo.js'; // the film about the game (?demo)
+export const TOUR_PROPS = [...KERSTMARKT, ...STROPPEN, BUSKERS]; // the Christmas market, the Stroppendragers (on the Belfortstraat and the Sint-Baafsplein) and the buskers
 export { FULL_PARKING, PARKED_CARS } from './cederstraat.js';
+// the wall colours read off the photos of whole streets (tools/looks.mjs), of every street at once
+import { LOOKS as STREET_LOOKS } from './looks.js';
+export const LOOKS = Object.assign({}, ...Object.values(STREET_LOOKS));
 
 // the hand-drawn fronts, then the fronts the streets' specs make for the buildings they left
 export const FRONTS = [...HAND_FRONTS, ...specFronts(STREETS, HAND_FRONTS)];
@@ -140,13 +258,14 @@ export const BOATS = { name: 'Bootjes van Gent' };
 // end, on its pavement, each drawn in full (js/figure.js): shirt is the coat, then a beard, a bag
 // in each hand (bagSize: how much bigger than usual), a cap, and stash: how far along the street (0 to 1)
 // their things stand on the pavement. near [x, z]: the stretch of the street that comes nearest there
-// (one in several pieces), flip: on its other pavement.
+// (one in several pieces), flip: on its other pavement, inset: that many metres in from the pavement's edge.
 export const CHARACTERS = [
   // Zakman, the grey-bearded man in a woolly cap walking to and fro with a big plastic bag in each
   // hand, here on the Korenlei across the Leie from the Graslei, on the quay side (the tour's boat
-  // sails past it); his yellow coat makes him easy to spot, and his boxes and bags stand on the quay.
+  // sails past it), a little in from the quay's edge, clear of the people sitting on it; his yellow
+  // coat makes him easy to spot, and his boxes and bags stand on the quay.
   // bagSize: how much bigger his bags are
-  { name: 'Zakman', street: 'Korenlei', near: [-322, -140], flip: true, speed: 0.85, colors: { shirt: 0xf2c230, pants: 0x4a4038, skin: 0xd49f7c, hair: 0xb8b3aa }, beard: 0xcdc8bf, bags: [0xf2f2ee, 0x2f6fc0], bagSize: 1.6, cap: 0x3d4a5a, stash: 0.1 },
+  { name: 'Zakman', street: 'Korenlei', near: [-322, -140], flip: true, inset: 2, speed: 0.85, colors: { shirt: 0xf2c230, pants: 0x4a4038, skin: 0xd49f7c, hair: 0xb8b3aa }, beard: 0xcdc8bf, bags: [0xf2f2ee, 0x2f6fc0], bagSize: 1.6, cap: 0x3d4a5a, stash: 0.1 },
 ];
 
 // The busy heart of the old town, where far more people walk than anywhere else and cyclists ride
@@ -157,7 +276,7 @@ export const CHARACTERS = [
 // open square, crossed that many times straight from one side to the other }. The few side streets
 // in it (weight 0.4) join the rest up, so a cyclist can get from any of them to any other.
 export const BUSY = {
-  walkers: 90,
+  walkers: 140,
   cyclists: 14,
   streets: [
     { street: 'Korenmarkt', weight: 3, free: true, across: 8 },
@@ -245,7 +364,7 @@ export const PLACES = [
   { name: 'Gent-Dampoort', x: 1445, z: -363, side: 'r' },
   { name: 'Veldstraat', x: -137, z: 38, side: 'r' },
   { name: 'Citadelpark', x: -460, z: 2111, side: 'l' },
-  { name: 'Bevrijdingslaan', x: -2087, z: -1178, side: 'l' },
+  { name: 'Bevrijdingslaan', x: -2087, z: -1178, side: 'r' },
   { name: 'Dok Noord', x: 747, z: -1773, side: 'r' },
   { name: 'Watersportbaan', x: -3286, z: 425, side: 'r' },
   { name: 'Heuvelpoort (R40)', x: 204, z: 2056, side: 'r' },
@@ -256,4 +375,6 @@ export const PLACES = [
   { name: 'Blaarmeersen', x: -3160, z: 1335, side: 'r' },
   { name: 'Neuseplein (R40)', x: 318, z: -1925, side: 'l' },
   { name: 'Rooigemlaan (R40)', x: -2245, z: -45, side: 'l' },
+  { name: 'Europabrug', x: -2501, z: 753, side: 'r' },
+  { name: 'Rabot', x: -920, z: -965, side: 'r' },
 ];

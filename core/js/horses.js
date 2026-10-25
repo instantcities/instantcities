@@ -1,5 +1,6 @@
 // The characters, each with a name and its own colours: the shirt (or silk), the cap, and the coat
-// and mane of whatever animal they ride. They are all equally fast and strong, whatever they ride.
+// and mane of whatever animal they ride in a race. Riding about, the animal has its species' own coat
+// instead (COATS in horse.js). They are all equally fast and strong, whatever they ride.
 // The computer always rides horses. `cop`: in uniform, like the cop chasing the painting on the loading
 // screen, with a moustache and a badge on the cap.
 export const STABLE = [

@@ -12,17 +12,18 @@ const qt = (q, key) => local(q.text)[key] ?? q.text.en[key] ?? '';
 import { createBunny } from './bunny.js';
 import { ITEMS, rollItem, createItemModel, createHedgehog, createCloud, createBolt } from './items.js';
 import { createObstacle } from './obstacles.js';
-import { buildCity, buildScenery, tourBoat } from './scenery.js';
-import { carGroup } from './cars.js';
-import { createTumble } from './tumble.js';
+import { buildCity, buildScenery, tourBoat, rowingBoat, swimmer, drawAgain } from './scenery.js';
+import { helicopter, heliShadow } from './heli.js';
+import { carGroup, CAR_TYPES } from './cars.js';
+import { createTumble, fallPose } from './tumble.js';
 import { parkingRows, groundAt, rowAhead, rowEnd, BAND } from './parking.js';
 import { findMouths, buildArrows } from './junctions.js';
 import { Bikers, Cyclists } from './bikers.js';
 import { LOW_POWER, SIGHT } from './device.js';
-import { tileUp, lookAround } from './tiles.js';
-import { People, alongside, busyPaths } from './people.js';
-import { BUSY } from './city.js';
-import { buildColliders, collide, inWater, waterLevel, bankAt, streetAt, clearLine, inPolygon } from './collide.js';
+import { packNormals, tileUp, lookAround } from './tiles.js';
+import { People, SHIRTS, alongside, busyPaths } from './people.js';
+import { BUSY, PORTALS } from './city.js';
+import { buildColliders, addCarColliders, collide, inWater, swimAt, waterLevel, bankAt, streetAt, clearLine, inPolygon } from './collide.js';
 import { buildRelief, WADE, WATER } from './relief.js';
 import { HILLS, useHills, fitToHills, lookFrom, hillsOn, heightAt, slopeAlong } from './terrain.js';
 import { Particles } from './effects.js';
@@ -30,16 +31,22 @@ import { sfx, music } from './sound.js';
 import { buzz } from './haptics.js';
 import { Ambient } from './ambient.js';
 import { Quest } from './quests.js';
-import { QUESTS, PLACES, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, TOUR, NAME, FREE_START, INSIDE } from './city.js';
+import { QUESTS, PLACES, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, LANDMARKS, SQUARES, MONUMENTS, FAMOUS, TRAM_STOPS, STOPS, TOUR, TOUR_PROPS, NAME, FREE_START, ROWING, DEMO, INSIDE } from './city.js';
 import { LIGHT as INDOOR_LIGHT } from './interiors.js';
-import { Tour } from './tour.js';
+import { Tour, STANDING } from './tour.js';
+import { hoopsAlong, Course, hoopMeshes } from './dragonfly.js';
+import { Demo } from './demo.js';
 import { behind } from './tramnet.js';
 import { squareAt } from './squares.js';
+import { splatHit, updateSplats, vehicleSplat, resetSplats } from './splat.js';
+import { SECTION as TRAM_SECTION, W as TRAM_W } from './trams.js';
 import { Weather, TIMES, WEATHERS, atmosphere, isNight, snowCover } from './weather.js';
 
 // Every day/night and weather pair, as 'time:weather', and 'auto' for the sky that changes by itself.
-// A city may leave some weather out (THEME.weathers: Lecce never sees snow).
-const COMBOS = TIMES.flatMap(tm => (THEME.weathers ?? WEATHERS).map(wx => `${tm}:${wx}`));
+// A city may leave some weather out (THEME.weathers: Lecce never sees snow), or some time of day
+// (THEME.times: inside a church it is always day).
+const DAYS = THEME.times ?? TIMES;
+const COMBOS = DAYS.flatMap(tm => (THEME.weathers ?? WEATHERS).map(wx => `${tm}:${wx}`));
 const SKIES = ['auto', ...COMBOS];
 const MENU_SKY_EVERY = 20, RIDE_SKY_EVERY = 120; // seconds between changes: behind the title, and while riding
 // While riding on auto the sky goes round: dry day, then rain or snow by day, then the same by night,
@@ -57,6 +64,7 @@ function bootStep(key) {
 // ------------------------------------------------------------------ tuning
 
 const MAX_SPEED = 30;
+const SWIM_SPEED = 6; // swimming is slower still
 const BOAT_SPEED = 14; // in the water you sail a boat of the Bootjes van Gent, slower than on the street
 const ACCEL = 17;
 const HILL_PULL = 30; // m/s² of speed lost (or gained) per unit of slope, up (or down) a hill
@@ -67,6 +75,14 @@ const REVERSE_MAX = 7;
 const TURN_RATE = 2.3;
 const HORSE_RADIUS = 1.15;
 const JUMP_V = 10;
+// the police helicopter (the rescue quest): top speed, how quickly it gets there, climbing and
+// sinking speed, how fast it turns, and how high it may go; below LOW it bumps into the buildings
+const HELI_SPEED = 48, HELI_ACCEL = 16, HELI_CLIMB = 11, HELI_TURN = 1.5, HELI_TOP = 180, HELI_LOW = 18, HELI_RADIUS = 4;
+// and how it flies, as stepHeli has it (rise, sink: how quickly it gets to its climbing speed and back)
+const HELI = { speed: HELI_SPEED, accel: HELI_ACCEL, climb: HELI_CLIMB, rise: 14, sink: 9, turn: HELI_TURN, top: HELI_TOP, low: HELI_LOW, radius: HELI_RADIUS, floor: 0 };
+// the golden dragon of the tour flown yourself (dragonfly.js): as the helicopter, but climbing and
+// diving much more sharply, turning a little quicker, slimmer, and never down on the ground
+const DRAGON = { speed: 42, accel: 20, climb: 28, rise: 45, sink: 30, turn: 1.8, top: 180, low: 18, radius: 2.2, floor: 2.5 };
 const GRAVITY = 30;
 const SPIN_TIME = 1.5;
 const REAR_TIME = 0.9;
@@ -123,22 +139,32 @@ const saved = (() => {
   try { return JSON.parse(localStorage.getItem(SETTINGS_KEY)) || {}; } catch { return {}; }
 })();
 
+// A link can open the menu on one kind, ?menu=tour (the site's "Virtual tour" buttons).
+const linkKind = new URLSearchParams(location.search).get('menu');
+const startKind = ['mission', 'race', 'tour'].includes(linkKind) ? linkKind : saved.kind;
+
 const game = {
   state: 'menu', // menu | briefing (a quest, before you start) | countdown | race | paused | results | tour (flying the tour)
   resumeState: 'race',
   mode: clamp(Math.floor(saved.mode ?? 1), 1, MAX_PLAYERS), // number of human players chosen for races
   players: 1, // humans riding right now
-  kind: saved.kind === 'race' ? 'race' : saved.kind === 'tour' && TOUR ? 'tour' : 'mission', // mission: ride about the map, no race, no computer riders; tour: fly through the city
-  tourMode: saved.tourMode === 'click' ? 'click' : 'auto', // the tour plays on its own, or waits at each card for a click
+  kind: startKind === 'race' && THEME.races !== false ? 'race' : startKind === 'tour' && TOUR ? 'tour' : 'mission', // mission: ride about the map, no race, no computer riders; tour: fly through the city
+  tourMode: saved.tourMode === 'fly' && TOUR?.ride ? 'fly' : 'auto', // the tour plays on its own, or you fly it yourself, on the dragon through the hoops
   tourSpeed: [1, 1.5, 0.5].includes(saved.tourSpeed) ? saved.tourSpeed : 1, // how fast it plays (the round button by the menu)
-  tourMusic: saved.tourMusic ?? true, // the menu's music plays on along the tour (the round button by the speed's)
+  gameMusic: saved.gameMusic ?? false, // opt in through the hidden music settings
+  paintball: saved.paintball ?? false, // car+paintball mode: a paintball gun (instead of tequila shots), and cars to borrow
+  questsWon: Array.isArray(saved.questsWon) ? saved.questsWon : [], // the ids of the quests won at least once
+  paintballUnlocked: saved.paintballUnlocked ?? false, // opened up early through the hidden settings
+  tourMusic: saved.tourMusic ?? true, // the tour's own music plays along it (the round button by the speed's)
   // which mission: 0 is exploring freely, after it the quests (QUESTS[mission - 1])
   mission: clamp(Math.floor(saved.mission ?? (saved.kind === 'quest' ? (saved.quest ?? 0) + 1 : 0)), 0, QUESTS.length),
-  mounts: [0, 1].map(p => (MOUNTS.includes(saved.mounts?.[p]) ? saved.mounts[p] : 'bike')), // what each player rides, or on foot
+  mounts: [0, 1].map(p => (MOUNTS.includes(saved.mounts?.[p]) || (saved.mounts?.[p] === 'heli' && saved.questsWon?.includes('heli')) ? saved.mounts[p] : 'bike')), // what each player rides, or on foot (or flies)
   lang: saved.lang === 'nl' ? 'nl' : 'en', // English, unless Dutch was picked
+  style: saved.style === 'pro' ? 'pro' : 'fun', // the look of the menus: playful, or professional (white and navy, a serif)
   trackIdx: clamp(Math.floor(saved.track ?? 0), 0, TRACKS.length - 1),
   laps: clamp(Math.floor(saved.laps ?? 3), 1, 9),
   weapons: saved.weapons ?? true, // false = a pure race: no items on the track
+  cards: saved.cards ?? true, // the cards about the sights you ride up to while exploring (the pause menu's)
   sky: SKIES.includes(saved.sky) ? saved.sky : 'auto', // the pause menu's pick: auto, or one fixed 'time:weather'
   daytime: 'day', // day | night, what the sky shows right now
   weather: 'clear', // clear | rain | snow
@@ -168,11 +194,30 @@ function saveSettings() {
   if (WATCH != null) return;
   try {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify({
-      mode: game.mode, track: game.trackIdx, laps: game.laps, sound: sfx.musicOn,
-      picks: game.picks, playerNames: game.playerNames, weapons: game.weapons, lang: game.lang,
+      mode: game.mode, track: game.trackIdx, laps: game.laps, sound: sfx.sfxOn || sfx.musicOn, music: sfx.musicOn, sfx: sfx.sfxOn, gameMusic: game.gameMusic, paintball: game.paintball, questsWon: game.questsWon, paintballUnlocked: game.paintballUnlocked,
+      picks: game.picks, playerNames: game.playerNames, weapons: game.weapons, cards: game.cards, lang: game.lang, style: game.style,
       kind: game.kind, mounts: game.mounts, mission: game.mission, sky: game.sky, tourMode: game.tourMode, tourSpeed: game.tourSpeed, tourMusic: game.tourMusic,
     }));
   } catch { /* private mode: settings just won't stick */ }
+}
+
+// Exploring freely starts again about where you last were in this city (kept in this browser every
+// couple of seconds you ride about), or at the city's own spot the first time, and on Restart.
+const SPOT_KEY = `ghent3d.spot.${NAME.en}`;
+function lastSpot() {
+  try {
+    const s = JSON.parse(localStorage.getItem(SPOT_KEY));
+    return [s?.x, s?.z, s?.yaw].every(Number.isFinite) ? s : null;
+  } catch { return null; }
+}
+let spotT = 0;
+function keepSpot(r, dt) {
+  if (demo || (spotT -= dt) > 0) return; // (not where the demo rode)
+  spotT = 2;
+  if (riding(r) || r.afloat || r.y > 0.3) return; // not on the tram, in the water, on the cars or mid-jump
+  try {
+    localStorage.setItem(SPOT_KEY, JSON.stringify({ x: +r.pos.x.toFixed(1), z: +r.pos.z.toFixed(1), yaw: +r.yaw.toFixed(2) }));
+  } catch { /* private mode: you start at the city's spot */ }
 }
 
 // ------------------------------------------------------------------ scene
@@ -181,6 +226,7 @@ const canvas = $('game');
 // Phones and tablets skip the multisampling and draw fewer pixels: both cost a lot of GPU memory.
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: !LOW_POWER, stencil: true, powerPreference: 'high-performance' }); // stencil: the holes for the water
 renderer.setPixelRatio(Math.min(devicePixelRatio, LOW_POWER ? 1.25 : 2));
+canvas.addEventListener('webglcontextrestored', drawAgain); // the city's canvases, shrunk once uploaded: drawn again
 renderer.setSize(innerWidth, innerHeight, false);
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = LOW_POWER ? THREE.PCFShadowMap : THREE.PCFSoftShadowMap;
@@ -226,13 +272,19 @@ const trackShapes = TRACKS.map(cfg => new Track(cfg));
 const roaming = () => game.kind !== 'race'; // every mission rides about freely, exploring or on a quest (and behind the tour's menu, one rider does)
 const questing = () => game.kind === 'mission' && game.mission > 0;
 const exploring = () => roaming() && !questing();
+// in the helicopter: the rescue quest, or riding about freely in it once that quest is won
+const heliMode = () => (questing() && !!QUESTS[game.mission - 1]?.heli) || (exploring() && game.mounts[0] === 'heli');
+const freeStick = () => exploring() || (questing() && (!!QUESTS[game.mission - 1]?.zombies || !!QUESTS[game.mission - 1]?.heli)); // the touch stick rides forward and back itself, no automatic forward (exploring, and the zombie missions)
 const touring = () => game.kind === 'tour';
 // A sight's own page, where the city has them (SIGHT_PAGES in its city.js: the address the sight's id
 // goes after). '' when the city has no such pages.
 const sightPage = id => (SIGHT_PAGES ? `${SIGHT_PAGES}${id}/` : '');
-const aerial = () => game.state === 'menu' || game.state === 'tour'; // the camera flies over the city, nobody rides it
-const KINDS = ['mission', 'race', ...(TOUR ? ['tour'] : [])];
+const flying = () => touring() && game.tourMode === 'fly'; // the tour flown yourself (dragonfly.js)
+const touringNow = () => game.state === 'tour' || (game.state === 'paused' && game.resumeState === 'tour'); // flying the tour, or paused in it
+const aerial = () => game.state === 'menu' || touringNow(); // the camera flies over the city, nobody rides it
+const KINDS = ['mission', ...(THEME.races === false ? [] : ['race']), ...(TOUR ? ['tour'] : [])]; // (a city can have no races: THEME.races false, inside a church)
 let quest = null; // the quest being played (see js/quests.js)
+let demo = null; // the film about the game, playing (?demo, see js/demo.js)
 // What is played, for Google Analytics (the page's gtag; not there on a dev server's copy without it).
 const report = (name, params = {}) => window.gtag?.('event', name, { city: location.pathname.split('/')[1], ...params });
 const lapsToRide = () => (track.open ? 1 : game.laps); // an open route is ridden once, start to finish
@@ -305,6 +357,7 @@ function getCity() {
   const scenery = buildCity(group, trackShapes, TRACKS[0]);
   tileUp(group); // before the hills: they cut each tile's piece on its own, a lot less at once
   fitToHills(group);
+  packNormals(group); // (after both: a quarter of the memory for the normals)
   return (city = { ...scenery, group, relief: buildRelief(TRACKS[0].map, scenery.ledges) });
 }
 
@@ -360,7 +413,8 @@ function walkers(group, t, cfg, relief) {
     const rd = roads[Math.floor(rand() * roads.length)];
     paths.push({ points: alongside(rd.p, (rand() < 0.5 ? 1 : -1) * (rd.w / 2 + 0.65)), closed: false, y: 0.03 });
   }
-  const crowd = BUSY ? busyPaths(cfg.map, BUSY, LOW_POWER ? Math.round(BUSY.walkers / 3) : BUSY.walkers, rand, MONUMENTS ?? []) : [];
+  // (a phone over half as many: they are instanced, a few draw calls for all of them, and cost it little)
+  const crowd = BUSY ? busyPaths(cfg.map, BUSY, LOW_POWER ? Math.round(BUSY.walkers * 0.55) : BUSY.walkers, rand, MONUMENTS ?? []) : [];
   const busy = crowd.reduce((n, p) => n + p.weight, 0);
   paths.push(...crowd);
   for (const run of RUNS ?? []) paths.push({ points: run.points, closed: true, y: 0.03, runners: run.runners }); // and the runners' laps
@@ -369,7 +423,7 @@ function walkers(group, t, cfg, relief) {
   for (const who of CHARACTERS ?? []) {
     const line = streetLine(cfg.map, who.street, who.near);
     if (!line) continue;
-    const points = alongside(who.flip ? line.p.flatMap((_, k, p) => (k % 2 ? [] : [p[p.length - 2 - k], p[p.length - 1 - k]])) : line.p, line.w / 2 + 1.2);
+    const points = alongside(who.flip ? line.p.flatMap((_, k, p) => (k % 2 ? [] : [p[p.length - 2 - k], p[p.length - 1 - k]])) : line.p, line.w / 2 + 1.2 - (who.inset ?? 0));
     paths.push({ points, closed: false, y: 0.03, weight: 0, who, stash: who.stash != null ? stashSpot(cfg.map, points, who.stash) : null });
   }
   return new People(group, paths, (cfg.walkers ?? 64) + busy, rand, relief);
@@ -550,16 +604,18 @@ function setTrack(i) {
 // What a player is called: the name they typed in the menu, or "Player 1"/"Player 2".
 const playerName = p => game.playerNames[p] || t_('player', { n: p + 1 });
 // A character on a mount: an animal in the character's colours, or the character on foot or on a bike.
+// Riding about (exploring or on a quest) every animal has its species' own coat instead: a brown
+// horse, a white cow, a pink pig...
 function createRider(h, mount) {
-  const def = { ...h, number: STABLE.indexOf(h) + 1, labelLayer: 1 };
-  if (mount === 'foot') return createWalker(def, STABLE.indexOf(h));
+  const def = { ...h, number: STABLE.indexOf(h) + 1, labelLayer: 1, standardCoat: roaming() };
+  if (mount === 'foot' || mount === 'heli') return createWalker(def, STABLE.indexOf(h)); // (in the helicopter, out of sight)
   if (mount === 'bike') return createCyclist(def, STABLE.indexOf(h));
   return createAnimal({ ...def, species: mount });
 }
 // one model per character and mount, made when first needed
 const riderModels = new Map();
 const riderModel = (h, mount) => {
-  const key = h.id + ':' + mount;
+  const key = h.id + ':' + mount + ':' + roaming();
   if (!riderModels.has(key)) riderModels.set(key, createRider(h, mount));
   return riderModels.get(key);
 };
@@ -595,6 +651,10 @@ class Racer {
   get rider() { return this.human >= 0 ? playerName(this.human) : t_('computer', { n: this.i - game.players + 1 }); }
 
   reset(laneFrac) {
+    if (this.car) { scene.remove(this.car.model); this.car.model = null; this.car = null; sfx.engine(null); } // a stolen car you were in is gone
+    this.carNear = null;
+    if (this.heliModel) { scene.remove(this.heliModel, this.heliShadow); this.heliModel = this.heliShadow = null; }
+    this.heli = false;
     const lane = laneFrac * track.hw;
     this.idx = track.wrap(track.start - Math.round(7 / track.spacing));
     track.at(this.idx, lane, this.pos);
@@ -607,7 +667,7 @@ class Racer {
       speedFactor: 1, wallTimer: 0, obstacleCd: 0, wrongWay: 0, dustAcc: 0,
       aiLane: lane, aiLaneTarget: lane, aiLaneTimer: rand(1, 3), aiItemTimer: rand(1, 3), aiHold: 0,
       aiJumpFor: -1, aiJumpOk: true, aiRowFor: -1, aiRoof: 0,
-      tram: null, tramSign: null, tramStill: 0, tramQuiet: false,
+      tram: null, tramQuiet: false, railTime: 0, railCd: 0, railSide: 1, railDown: false,
     });
     this.model.stars.visible = false;
   }
@@ -665,9 +725,12 @@ function clearEntities() {
 
 // ------------------------------------------------------------------ HUD
 
+// the sights' cards' icon (and the tour's): an eye, something to look at here
+const EYE = '<svg class="sight-eye" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3.2"/></svg>';
 const LM_PILL = '<div class="lmp hidden"><span class="lma">➤</span><span class="lme"></span><b></b><small></small></div>';
 const huds = [0, 1].map(buildHud);
-// the tram card answers a click or a tap: wait for the tram, or get off
+// the tram card answers a click or a tap: wait for the tram, get on the bus, or get off; its
+// button takes you inside the tram to sit by a window, or back out for the view from outside
 huds.forEach((h, p) => h.tram.addEventListener('pointerdown', e => {
   e.stopPropagation();
   if (game.state === 'race') tramAction(humans[p]);
@@ -677,12 +740,26 @@ huds.forEach((h, p) => h.door.addEventListener('pointerdown', e => {
   e.stopPropagation();
   if (game.state === 'race') doorAction(humans[p]);
 }));
+huds.forEach((h, p) => h.tramSeat.addEventListener('pointerdown', e => {
+  e.stopPropagation();
+  const r = humans[p];
+  if (game.state !== 'race') return;
+  if (r.tram?.ask || r.bus?.ask) { if (r.tram) r.tram.ask = null; if (r.bus) r.bus.ask = null; sfx.ui(); } // asked where to get off: no, stay on
+  else toggleSeat(r);
+}));
 // the sight card: ✕ puts it away until you ride on to another sight; Read more opens the site's page
 // about it in a new tab. Neither lets the tap through to the steering under it.
 huds.forEach(h => {
   h.sight.addEventListener('pointerdown', e => e.stopPropagation());
-  h.sightX.addEventListener('click', () => { h.sightShut = h.sightAt; h.sight.classList.remove('show'); h.el.style.setProperty('--sight-h', '0px'); });
+  // ✕ folds the card into its small ⓘ; the ⓘ opens it again and keeps it open until ✕ or until you ride off
+  h.sightX.addEventListener('click', () => { h.sightMini = true; h.sightPinned = false; });
+  h.sightI.addEventListener('click', () => { h.sightMini = false; h.sightPinned = true; });
 });
+huds.forEach((h, p) => h.sightEnter.addEventListener('click', e => {
+  e.preventDefault();
+  const room = h.sightRoom;
+  if (room && game.state === 'race') { putAt(humans[p], room.inside.x, room.inside.z, room.inside.yaw); hudMsg(p, `${room.emoji} ${roomName(room)}`); }
+}));
 
 function buildHud(p) {
   const el = document.createElement('div');
@@ -696,6 +773,8 @@ function buildHud(p) {
     </div>
     <div class="cd"></div>
     <div class="qnav"><div class="qarrow">➤</div><div class="qinfo"></div></div>
+    <div class="qhp hidden"><span class="heart">❤</span><i></i><i></i><i></i></div>
+    <div class="qfries"></div>
     <div class="msg"></div>
     <div class="alert wrong">WRONG WAY!</div>
     <div class="alert incoming"></div>
@@ -706,9 +785,11 @@ function buildHud(p) {
     </div>
     <div class="flash"></div>
     <div class="lm l">${LM_PILL.repeat(2)}</div><div class="lm r">${LM_PILL.repeat(2)}</div>
-    <div class="sight"><button class="sight-x" type="button">✕</button><div class="sight-head"><span class="sight-emoji"></span><div><small></small><b></b></div></div><p></p><a class="chip sight-more" target="_blank" rel="noopener"></a></div>
-    <div class="tramcard"><span class="tram-badge"></span><div><small></small><b></b><p></p></div></div>
+    <div class="sight"><button class="sight-i" type="button" aria-label="Info">ⓘ</button><button class="sight-x" type="button">✕</button><div class="sight-head">${EYE}<b></b></div><div class="sight-text"></div><div class="sight-btns"><a class="chip sight-more" target="_blank" rel="noopener"></a><a class="chip sight-enter"></a></div></div>
+    <div class="tramcard"><div class="tram-head"></div><div class="tram-row"><span class="tram-badge"></span><div class="tram-info"><small></small><b></b><p></p></div></div><div class="tram-btns"><button class="chip tram-go" type="button"></button><button class="chip tram-seat" type="button" hidden></button></div></div>
     <button class="doorcard" type="button"><span class="door-emoji"></span><span><small></small><b></b></span><kbd></kbd></button>`;
+  el.insertAdjacentHTML('afterbegin', '<div class="seatview"><div class="pane"></div><div class="sill"></div><div class="pole"></div><div class="seatback"></div></div>'
+    + '<div class="cabview"><div class="roof"></div><div class="pillar l"></div><div class="pillar r"></div><div class="mirror"></div><div class="dash"></div><div class="wheel"></div></div>');
   document.body.appendChild(el);
   // each player's street sign sits in the bar under the minimap
   const street = document.createElement('div');
@@ -722,10 +803,10 @@ function buildHud(p) {
     lap: q('.lap b'), laps: q('.lap i'), time: q('.time'), cd: q('.cd'), msg: q('.msg'),
     wrong: q('.wrong'), incoming: q('.incoming'), finished: q('.finished'), hint: q('.hint'),
     items: q('.items'), slots: [...el.querySelectorAll('.slot')], icons: [...el.querySelectorAll('.ico')],
-    flash: q('.flash'), qnav: q('.qnav'), qarrow: q('.qarrow'), qinfo: q('.qinfo'), street, streetNow: street.querySelector('.now'), streetNext: street.querySelector('.next'),
+    flash: q('.flash'), qnav: q('.qnav'), qarrow: q('.qarrow'), qinfo: q('.qinfo'), qhp: q('.qhp'), qbars: [...el.querySelectorAll('.qhp i')], qfries: q('.qfries'), street, streetNow: street.querySelector('.now'), streetNext: street.querySelector('.next'),
     door: q('.doorcard'), doorEmoji: q('.door-emoji'), doorLabel: q('.doorcard small'), doorName: q('.doorcard b'), doorKey: q('.doorcard kbd'),
-    tram: q('.tramcard'), tramBadge: q('.tram-badge'), tramLabel: q('.tramcard small'), tramName: q('.tramcard b'), tramText: q('.tramcard p'),
-    sight: q('.sight'), sightEmoji: q('.sight-emoji'), sightLabel: q('.sight small'), sightName: q('.sight b'), sightText: q('.sight p'), sightX: q('.sight-x'), sightMore: q('.sight-more'), sightAt: null, sightShut: null,
+    tram: q('.tramcard'), tramBadge: q('.tram-badge'), tramLabel: q('.tramcard small'), tramName: q('.tramcard b'), tramText: q('.tramcard p'), tramSeat: q('.tram-seat'), tramHead: q('.tram-head'), tramGo: q('.tram-go'), seatView: q('.seatview'), cabView: q('.cabview'),
+    sight: q('.sight'), sightName: q('.sight b'), sightText: q('.sight-text'), sightX: q('.sight-x'), sightMore: q('.sight-more'), sightEnter: q('.sight-enter'), sightI: q('.sight-i'), sightMini: false, sightPinned: false, sightAt: null, sightShut: null,
     // the pointers to the sights out of view: [left, right], two each
     lm: [...el.querySelectorAll('.lm')].map(c => [...c.querySelectorAll('.lmp')].map(e => ({
       el: e, arrow: e.querySelector('.lma'), emoji: e.querySelector('.lme'), name: e.querySelector('b'), dist: e.querySelector('small'),
@@ -757,7 +838,9 @@ function hudMsg(p, text, cls = '') {
 function refreshHints() {
   huds.forEach((h, p) => {
     const k = ctl(p).label;
-    h.hint.innerHTML = t_(game.weapons && !roaming() ? 'hint.full' : 'hint.jump', { fire: k.fire, jump: k.jump, back: k.back });
+    // bottom left on a keyboard: the keys this mission needs (the paint gun and borrowing a car, the bus, a tequila shot)
+    const hint = paintballActive() && roaming() ? 'hint.paint' : busQuest() ? 'hint.bus' : heliMode() ? 'hint.heli' : questing() && QUESTS[game.mission - 1]?.tequila ? 'hint.tequila' : game.weapons && !roaming() ? 'hint.full' : 'hint.jump';
+    h.hint.innerHTML = t_(hint, { fire: k.fire, jump: k.jump, back: k.back });
     setText(h.lapLabel, t_(track.open ? 'toGo' : 'lap'));
     h.wrong.textContent = t_('wrongWay');
   });
@@ -776,22 +859,36 @@ function sightAt(r, now) {
   return best;
 }
 
+// A sight's card shows in full for a moment (its fade in, then 2 s) and folds into a small ⓘ, which
+// stays while you are at the sight; a tap on it opens the card again. Riding off puts it away; at
+// the next sight it shows in full again.
+const SIGHT_FOR = 2.5;
 function updateSight(h, r) {
-  const s = roaming() && !questing() ? sightAt(r, h.sightAt) : null;
-  const changed = s !== h.sightAt;
+  const s = roaming() && !questing() && game.cards ? sightAt(r, h.sightAt) : null;
+  if (s !== h.sightAt) { h.sightSince = game.time; h.sightMini = false; h.sightPinned = false; }
   h.sightAt = s;
-  if (s !== h.sightShut) h.sightShut = null; // put away until you leave it: at another sight, it shows again
-  const show = !!s && !h.sightShut;
+  if (s && !h.sightPinned && game.time - h.sightSince > SIGHT_FOR) h.sightMini = true;
+  const show = !!s, changed = show !== h.sightShown || h.sightMini !== h.sightWasMini;
+  h.sightShown = show;
+  h.sightWasMini = h.sightMini;
   h.sight.classList.toggle('show', show);
+  h.sight.classList.toggle('mini', h.sightMini);
   if (show) {
     const words = local(s.text);
-    setText(h.sightEmoji, s.emoji);
-    // a secret one is not counted among the others, and what hangs inside a building goes by the building's name
-    const shown = SIGHTS.filter(o => !o.secret && !o.inside);
-    setText(h.sightLabel, s.inside ? `${s.inside.emoji} ${roomName(s.inside)}` : s.secret ? `🔎 ${t_('sight.secret')}` : `📍 ${t_('sight.label')} ${shown.indexOf(s) + 1}/${shown.length}`);
     setText(h.sightName, words.name);
-    setText(h.sightText, words.text);
-    const href = s.secret || s.inside ? '' : sightPage(s.id);
+    // three short facts where there are, as on the tour, or else the sight's own words
+    const facts = s.facts && local(s.facts);
+    const key = facts ? facts.join('\n') : words.text;
+    if (h.sightText._v !== key) {
+      h.sightText._v = key;
+      if (!facts) h.sightText.textContent = words.text;
+      else {
+        const ul = document.createElement('ul');
+        for (const f of facts) ul.append(Object.assign(document.createElement('li'), { textContent: f }));
+        h.sightText.replaceChildren(ul);
+      }
+    }
+    const href = s.secret || s.inside ? '' : sightPage(s.id); // (what hangs inside a building has no page of its own)
     if (h.sightMore._href !== href) {
       h.sightMore._href = href;
       h.sightMore.hidden = !href;
@@ -799,6 +896,10 @@ function updateSight(h, r) {
       h.sightX.title = h.sightX.ariaLabel = t_('sight.close');
     }
     setText(h.sightMore, t_('sight.more'));
+    // a building you can go into (<city>/inside.js) has a button for that, which takes you in
+    h.sightRoom = (s.enter && INSIDE.list.find(b => b.id === s.enter)) || null;
+    h.sightEnter.hidden = !h.sightRoom;
+    setText(h.sightEnter, t_('sight.enter'));
   }
   // the pointers in the card's corner make room for it
   if (changed) h.el.style.setProperty('--sight-h', show ? `${h.sight.offsetHeight}px` : '0px');
@@ -856,9 +957,12 @@ function updateHud() {
     updateTramCard(h, r, p);
     updateDoorCard(h, r, p);
     h.hint.classList.toggle('hidden', riding(r)); // no jumping off a moving tram
+    h.seatView.classList.toggle('show', seated(r) && p < game.players);
+    h.cabView.classList.toggle('show', !!cabOf(r) && game.state !== 'menu' && p < game.players);
+    h.cabView.dataset.type = r.car?.type ?? '';
     if (roaming()) {
       setText(h.streetNow, r.room ? `${r.room.emoji} ${roomName(r.room)}` : r.street || '…'); // inside a building: its name
-      setText(h.streetNext, quest ? qt(quest.def, 'hud') : t_('roam.hud'));
+      setText(h.streetNext, quest ? questHud(r) : t_('roam.hud'));
       h.streetNext.classList.remove('soon');
     } else if (st) {
       const i = r.idx, last = st.next[i] < 0, ahead = ((last ? track.finish : st.next[i]) - i) * track.spacing;
@@ -902,8 +1006,41 @@ function updateQuestHud(h, r, p) {
   const left = Math.max(0, quest.def.time - (game.questEnd ?? game.raceTime));
   setText(h.time, '⏱ ' + fmtTime(left).replace(/\.\d+$/, ''));
   h.time.classList.toggle('low', left < 10 && !quest.over);
-  const to = quest.target(r);
-  h.qnav.classList.toggle('hidden', !to || quest.over);
+  // the health bar: a heart and a line for each hit you can still take, blinking just after one
+  const hp = quest.health(r);
+  h.qhp.classList.toggle('hidden', !hp);
+  if (hp) {
+    h.qbars.forEach((b, i) => {
+      b.classList.toggle('hidden', i >= hp.of);
+      b.classList.toggle('on', i < hp.hp);
+    });
+    h.qhp.classList.toggle('hit', hp.safe > 0);
+  }
+  // the julientje: ready, or how long it is still charging
+  const fries = quest.friesIn(r);
+  if (fries !== null) {
+    const label = fries > 0 ? `${t_('quest.charging')} ${Math.ceil(fries)}s` : t_('quest.fries');
+    h.qfries.innerHTML = fries > 0 ? `<img src="/core/img/julientje.svg" alt=""> ${label}` : `<img src="/core/img/julientje.svg" alt=""> <kbd>${ctl(p).label.fire}</kbd> ${label}`;
+    h.qfries.classList.toggle('charging', fries > 0);
+    if (p === 0) {
+      setText(tFriesLabel, fries > 0 ? label : t_('quest.friesShort'));
+      tFries.classList.toggle('charging', fries > 0);
+    }
+  }
+  const shot = quest.tequilaIn(r);
+  if (shot !== null) {
+    const gun = paintballActive(); // with the paintball gun the shoot key throws, not jump
+    h.qfries.innerHTML += `<br>${gun ? '🔫' : '<img src="/core/img/tequila.svg" alt="">'} ${shot > 0 ? `${t_('quest.charging')} ${Math.ceil(shot)}s` : `<kbd>${gun ? ctl(p).label.fire : ctl(p).label.jump}</kbd> ${t_(gun ? 'audio.paintball' : 'quest.tequila')}`}`;
+  }
+  if (p === 0 && shot !== null && !paintballActive()) {
+    const button = $('tJump');
+    setText(button.querySelector('small'), shot > 0 ? `${t_('quest.charging')} ${Math.ceil(shot)}s` : t_('quest.tequila'));
+    button.classList.toggle('charging', shot > 0);
+  }
+  const to = quest.target(r), score = !to && quest.tally; // the paint fight: no arrow, only the score
+  h.qnav.classList.toggle('hidden', (!to && !score) || quest.over);
+  h.qarrow.classList.toggle('hidden', !to);
+  if (score) return setText(h.qinfo, `${quest.def.icon ?? '🎓'} ${score.got}/${score.of}`);
   if (!to) return;
   // straight up on screen is the way the camera looks
   const a = wrapAngle(Math.atan2(to.x - r.pos.x, to.z - r.pos.z) - camYaw[p]);
@@ -955,7 +1092,11 @@ function fitMap(t, w, h, pad) {
 
 function setupMinimap() {
   const small = innerWidth < 760 || innerHeight < 560;
-  [MM_W, MM_H] = small ? [150, 79] : [220, 116];
+  // on a phone no wider than a third of the screen: the HUD's column, the cards beside it
+  const w = Math.round(Math.min(150, innerWidth / 3 - 14));
+  [MM_W, MM_H] = small ? [w, Math.round(w * 79 / 150)] : [220, 116];
+  document.documentElement.style.setProperty('--mm-w', `${MM_W}px`);
+  document.documentElement.style.setProperty('--mm-h', `${MM_H}px`);
   mmDpr = Math.min(devicePixelRatio, 2);
   mm.width = MM_W * mmDpr;
   mm.height = MM_H * mmDpr;
@@ -971,14 +1112,17 @@ function setupMinimap() {
   mmMap = paintTrack(g, MM_W, MM_H).map;
 }
 
-// The race track with the streets round it, fitted into w x h.
-function paintTrack(g, w, h) {
+// The race track with the streets round it, fitted into w x h. Of the streets only those in view
+// ([x0, z0, x1, z1] in metres; all of them when left out).
+function paintTrack(g, w, h, view = null) {
   const fit = fitMap(track, w, h, track.hw + 8), { s, map } = fit;
   if (world.cfg.map) {
     g.strokeStyle = '#9a9ca0';
     g.lineCap = g.lineJoin = 'round';
-    for (const rd of world.cfg.map.roads) {
+    const bb = boxesOf(world.cfg.map.roads);
+    for (const [i, rd] of world.cfg.map.roads.entries()) {
       if (rd.foot) continue;
+      if (view && (bb[i * 4] > view[2] || bb[i * 4 + 2] < view[0] || bb[i * 4 + 1] > view[3] || bb[i * 4 + 3] < view[1])) continue;
       g.lineWidth = Math.max(1, rd.w * s);
       g.beginPath();
       for (let k = 0; k < rd.p.length; k += 2) {
@@ -1007,41 +1151,126 @@ function paintTrack(g, w, h) {
 
 // Free roam: the whole map drawn once, of which the minimap shows the part round the riders.
 const ROAM_SCALE = 0.4; // minimap pixels per metre
+// at most this many pixels in the whole map's canvas: Ghent at 0.4 px/m on a sharp screen is some 24
+// million, which a phone counts against the page (and Safari draws nothing past 16.7 million)
+const ROAM_PIXELS = 6e6;
 let mmRoam = null;
 function setupRoamMap() {
-  const map = world.cfg.map, k = ROAM_SCALE * mmDpr;
+  const map = world.cfg.map;
   let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
   for (let i = 0; i < map.zone.length; i += 2) {
     x0 = Math.min(x0, map.zone[i]); x1 = Math.max(x1, map.zone[i]);
     z0 = Math.min(z0, map.zone[i + 1]); z1 = Math.max(z1, map.zone[i + 1]);
   }
   x0 -= 60; z0 -= 60; x1 += 60; z1 += 60;
+  const k = Math.min(ROAM_SCALE * mmDpr, Math.sqrt(ROAM_PIXELS / ((x1 - x0) * (z1 - z0))));
   const c = document.createElement('canvas');
   c.width = Math.ceil((x1 - x0) * k);
   c.height = Math.ceil((z1 - z0) * k);
-  const g = c.getContext('2d'), P = (x, z) => [(x - x0) * k, (z - z0) * k];
+  const g = c.getContext('2d');
   g.fillStyle = '#6f7275';
   g.fillRect(0, 0, c.width, c.height);
-  const poly = (p, fill) => {
-    g.beginPath();
-    for (let i = 0; i < p.length; i += 2) { const [x, y] = P(p[i], p[i + 1]); i ? g.lineTo(x, y) : g.moveTo(x, y); }
-    g.closePath();
-    g.fillStyle = fill;
-    g.fill();
-  };
-  for (const a of map.areas) poly(a.p, a.k === 'water' ? '#5b7d68' : a.k === 'paved' ? '#8a8c8e' : a.k === 'sand' ? '#e2cf9c' : '#5f8f4a');
-  g.lineCap = g.lineJoin = 'round';
-  const line = (p, w, color) => {
-    g.lineWidth = Math.max(1, w * k);
-    g.strokeStyle = color;
-    g.beginPath();
-    for (let i = 0; i < p.length; i += 2) { const [x, y] = P(p[i], p[i + 1]); i ? g.lineTo(x, y) : g.moveTo(x, y); }
-    g.stroke();
-  };
-  for (const w of map.water) line(w.p, w.w, '#5b7d68');
-  for (const rd of map.roads) line(rd.p, rd.w, rd.foot ? '#9a9c9e' : '#d8d6d0');
-  for (const b of map.buildings) poly(b.p, '#a8836a');
+  paintCity(g, k, x0, z0);
   mmRoam = { c, x0, z0, x1, z1, k };
+}
+
+// The city's map drawn into g at k pixels per metre with (x0, z0) at the top left, and of it only what
+// lies in view ([x0, z0, x1, z1] in metres; all of it when left out).
+const AREA_COLORS = { water: '#5b7d68', paved: '#8a8c8e', sand: '#e2cf9c' };
+function paintCity(g, k, x0, z0, view = null) {
+  const map = world.cfg.map, { areas, cells } = cityPaths(map), ab = boxesOf(map.areas);
+  const out = (b, o) => view && (b[o] > view[2] || b[o + 2] < view[0] || b[o + 1] > view[3] || b[o + 3] < view[1]);
+  g.save();
+  g.scale(k, k);
+  g.translate(-x0, -z0);
+  // the areas in their own order (a square in a park goes over it)
+  areas.forEach((a, i) => {
+    if (out(ab, i * 4)) return;
+    g.fillStyle = a.fill;
+    g.fill(a.path);
+  });
+  // the water, then the footpaths, then the roads over them, then the buildings
+  const seen = cells.filter(c => !out(c.box, 0));
+  g.lineCap = g.lineJoin = 'round';
+  for (let layer = 0; layer < 3; layer++) {
+    for (const c of seen) {
+      for (const [key, path] of c.lines[layer]) {
+        const [color, w] = key.split(' ');
+        g.strokeStyle = color;
+        g.lineWidth = Math.max(+w, 1 / k); // never thinner than a pixel
+        g.stroke(path);
+      }
+    }
+  }
+  g.fillStyle = '#a8836a';
+  for (const c of seen) g.fill(c.houses);
+  g.restore();
+}
+
+// The city's map as paths in metres, made once: each area a path of its own, and the lines and the
+// buildings by squares of CITY_CELL metres, so that a picture of any part at any scale only fills
+// and strokes what is in view and makes nothing new. (Made afresh for every picture, a phone ran out
+// of memory zooming in on the big map; and one path for many buildings is far quicker than one each.)
+const CITY_CELL = 250;
+let cityCache = null;
+function cityPaths(map) {
+  if (cityCache?.map === map) return cityCache;
+  const trace = (path, p, close) => {
+    for (let i = 0; i < p.length; i += 2) path[i ? 'lineTo' : 'moveTo'](p[i], p[i + 1]);
+    if (close) path.closePath();
+  };
+  const areas = map.areas.map(a => {
+    const path = new Path2D();
+    trace(path, a.p, true);
+    return { path, fill: AREA_COLORS[a.k] ?? '#5f8f4a' };
+  });
+  const grid = new Map();
+  // the square a thing goes in, by its middle, and the square's box grown round it
+  const cellOf = (bb, i) => {
+    const key = `${Math.floor((bb[i] + bb[i + 2]) / 2 / CITY_CELL)} ${Math.floor((bb[i + 1] + bb[i + 3]) / 2 / CITY_CELL)}`;
+    let c = grid.get(key);
+    if (!c) grid.set(key, c = { box: [Infinity, Infinity, -Infinity, -Infinity], lines: [new Map(), new Map(), new Map()], houses: new Path2D() });
+    c.box[0] = Math.min(c.box[0], bb[i]); c.box[1] = Math.min(c.box[1], bb[i + 1]);
+    c.box[2] = Math.max(c.box[2], bb[i + 2]); c.box[3] = Math.max(c.box[3], bb[i + 3]);
+    return c;
+  };
+  const line = (list, layer, color, pick = () => true) => {
+    const bb = boxesOf(list);
+    list.forEach((it, i) => {
+      if (!pick(it)) return;
+      const lines = cellOf(bb, i * 4).lines[layer], key = `${color} ${Math.round(it.w * 2) / 2}`;
+      if (!lines.has(key)) lines.set(key, new Path2D());
+      trace(lines.get(key), it.p, false);
+    });
+  };
+  line(map.water, 0, '#5b7d68');
+  line(map.roads, 1, '#9a9c9e', rd => rd.foot);
+  line(map.roads, 2, '#d8d6d0', rd => !rd.foot);
+  const bb = boxesOf(map.buildings);
+  map.buildings.forEach((b, i) => trace(cellOf(bb, i * 4).houses, b.p, true));
+  // a line's width reaches past its middle
+  const pad = Math.max(0, ...map.roads.map(rd => rd.w), ...map.water.map(w => w.w)) / 2;
+  const cells = [...grid.values()];
+  for (const c of cells) { c.box[0] -= pad; c.box[1] -= pad; c.box[2] += pad; c.box[3] += pad; }
+  return cityCache = { map, areas, cells };
+}
+
+// The box round each thing on the map (x0, z0, x1, z1), worked out once, to skip what is out of view.
+const boxCache = new WeakMap();
+function boxesOf(list) {
+  let bb = boxCache.get(list);
+  if (bb) return bb;
+  bb = new Float32Array(list.length * 4);
+  list.forEach(({ p }, i) => {
+    let a = Infinity, b = Infinity, c = -Infinity, d = -Infinity;
+    for (let j = 0; j < p.length; j += 2) {
+      a = Math.min(a, p[j]); c = Math.max(c, p[j]);
+      b = Math.min(b, p[j + 1]); d = Math.max(d, p[j + 1]);
+    }
+    bb.set([a, b, c, d], i * 4);
+  });
+  boxCache.set(list, bb);
+  return bb;
 }
 
 function dot(g, x, z, rad, fill, stroke = null, map = mmMap) {
@@ -1065,8 +1294,8 @@ function drawMinimap() {
   if (mmRoam) {
     // centred on the riders
     const cx = humans.reduce((s, r) => s + onMap(r).x, 0) / humans.length, cz = humans.reduce((s, r) => s + onMap(r).z, 0) / humans.length;
-    const { c, x0, z0, k } = mmRoam;
-    g.drawImage(c, (cx - x0) * k - mm.width / 2, (cz - z0) * k - mm.height / 2, mm.width, mm.height, 0, 0, mm.width, mm.height);
+    const { c, x0, z0, k } = mmRoam, f = k / (ROAM_SCALE * mmDpr), sw = mm.width * f, sh = mm.height * f; // (f < 1: the map's canvas is coarser than the minimap)
+    g.drawImage(c, (cx - x0) * k - sw / 2, (cz - z0) * k - sh / 2, sw, sh, 0, 0, mm.width, mm.height);
     mmMap = (x, z) => [MM_W / 2 + (x - cx) * ROAM_SCALE, MM_H / 2 + (z - cz) * ROAM_SCALE];
   } else {
     g.drawImage(mmBase, 0, 0);
@@ -1100,7 +1329,11 @@ function drawMarks(g, map) {
 
 // The big map: click the minimap to see the whole map, click a spot on it to teleport there.
 const bigEl = $('bigmap'), bigCv = $('bigCanvas'), bigCtx = bigCv.getContext('2d'), bigAsk = $('bigAsk');
-let big = null; // { w, h, map, unmap, pick, labels, tab }
+let big = null; // { w, h, map, unmap, pick, labels, tab, zoom }
+// How much closer the big map comes than when it opens. Zoomed in, the map is not one picture scaled
+// up (all of Ghent three times as sharp would be nine times the pixels, more than a phone allows a
+// canvas) but the part in view drawn afresh from the map's own lines, with the street names along them.
+const BIG_ZOOM = 3;
 
 
 function openBigMap() {
@@ -1121,41 +1354,109 @@ function closeBigMap() {
 
 // On a wide screen, riding about freely, the places index stands beside the map instead of on a tab.
 const INDEX_W = 300;
+// On a phone the big map is the whole screen, under a bar with the tabs and the way back to the game.
+const phoneMap = () => innerWidth <= 760 || innerHeight <= 560;
 const sideIndex = () => roaming() && !questing() && innerWidth >= 760;
 
-function layoutBigMap() {
-  const maxW = innerWidth - 32 - (sideIndex() ? INDEX_W + 12 : 0), maxH = innerHeight - 110, dpr = Math.min(devicePixelRatio, 2);
-  const pick = big?.pick ?? null, tab = big?.tab ?? 'map';
-  let w, h, map, unmap, paint;
+function layoutBigMap(focus = null) {
+  const full = phoneMap();
+  bigEl.classList.toggle('full', full);
+  const top = full ? $('bigTop').offsetHeight : 0;
+  const maxW = full ? innerWidth : innerWidth - 32 - (sideIndex() ? INDEX_W + 12 : 0), maxH = full ? innerHeight - top : innerHeight - 110, dpr = Math.min(devicePixelRatio, 2);
+  const pick = big?.pick ?? null, tab = big?.tab ?? 'map', zoomed = big?.zoom ?? 1;
+  const zoom = (touch.on ? 2 : 1) * zoomed; // a phone's map is twice as close, and panned about where it does not fit
+  let w, h, s, map0, unmap0, paint;
   if (mmRoam) {
-    const { c, x0, z0, x1, z1 } = mmRoam, s = Math.min(maxW / (x1 - x0), maxH / (z1 - z0));
+    const { c, x0, z0, x1, z1 } = mmRoam;
+    s = Math.min(maxW / (x1 - x0), maxH / (z1 - z0)) * zoom;
     w = (x1 - x0) * s;
     h = (z1 - z0) * s;
-    map = (x, z) => [(x - x0) * s, (z - z0) * s];
-    unmap = (px, py) => [x0 + px / s, z0 + py / s];
+    map0 = (x, z) => [(x - x0) * s, (z - z0) * s];
+    unmap0 = (px, py) => [x0 + px / s, z0 + py / s];
     paint = g => g.drawImage(c, 0, 0, w, h);
   } else {
     // as big as fits, in the shape of the track
     const pad = track.hw + 8, xs = track.points.map(p => p.x), zs = track.points.map(p => p.z);
     const bw = Math.max(...xs) - Math.min(...xs) + pad * 2, bh = Math.max(...zs) - Math.min(...zs) + pad * 2;
-    const s = Math.min(maxW / bw, maxH / bh);
+    s = Math.min(maxW / bw, maxH / bh) * zoom;
     w = bw * s;
     h = bh * s;
-    ({ map, unmap } = fitMap(track, w, h, pad));
-    paint = g => paintTrack(g, w, h);
+    ({ map: map0, unmap: unmap0 } = fitMap(track, w, h, pad));
+    paint = (g, view) => paintTrack(g, w, h, view);
   }
-  bigCv.width = Math.round(w * dpr);
-  bigCv.height = Math.round(h * dpr);
-  bigCv.style.width = w + 'px';
-  bigCv.style.height = h + 'px';
-  bigIndex.style.height = sideIndex() ? h + 'px' : '';
-  const base = document.createElement('canvas');
-  base.width = bigCv.width;
-  base.height = bigCv.height;
-  const g = base.getContext('2d');
-  g.scale(dpr, dpr);
-  paint(g);
-  big = { ...big, w, h, dpr, base, map, unmap, pick, tab };
+  // the window onto the map: all of it, or the part of it the finger has panned to
+  const vw = Math.min(w, maxW), vh = Math.min(h, maxH);
+  let ox = big?.ox, oy = big?.oy;
+  if (focus) { // zooming: the spot (x, z) stays where it was, at (px, py) on the canvas
+    [ox, oy] = map0(focus.x, focus.z);
+    ox -= focus.px;
+    oy -= focus.py;
+  } else if (ox === undefined) { // first time: centred on the riders
+    const cx = humans.reduce((a, r) => a + r.pos.x, 0) / humans.length, cz = humans.reduce((a, r) => a + r.pos.z, 0) / humans.length;
+    [ox, oy] = map0(cx, cz);
+    ox -= vw / 2;
+    oy -= vh / 2;
+  }
+  ox = clamp(ox, 0, w - vw);
+  oy = clamp(oy, 0, h - vh);
+  // (a canvas given its size anew is a new one, even at the same size)
+  if (bigCv.width !== Math.round(vw * dpr)) bigCv.width = Math.round(vw * dpr);
+  if (bigCv.height !== Math.round(vh * dpr)) bigCv.height = Math.round(vh * dpr);
+  bigCv.style.width = vw + 'px';
+  bigCv.style.height = vh + 'px';
+  bigIndex.style.height = sideIndex() ? vh + 'px' : '';
+  bigCv.classList.toggle('pan', w > vw + 1 || h > vh + 1);
+  // not zoomed in: the whole map painted once, of which the canvas shows a part (kept while it fits)
+  let base = null;
+  if (zoomed === 1) {
+    const key = `${w} ${h} ${dpr}`;
+    base = big?.base?.key === key ? big.base : document.createElement('canvas');
+    if (base.key !== key) {
+      base.width = Math.round(w * dpr);
+      base.height = Math.round(h * dpr);
+      const g = base.getContext('2d');
+      g.scale(dpr, dpr);
+      paint(g);
+      base.key = key;
+    }
+  }
+  // zoomed in: what is in view, painted every time the map is drawn
+  const view = g => {
+    const [x0, z0] = unmap(0, 0), [x1, z1] = unmap(vw, vh), pad = 20 / s, box = [x0 - pad, z0 - pad, x1 + pad, z1 + pad];
+    if (mmRoam) {
+      g.fillStyle = '#6f7275';
+      g.fillRect(0, 0, vw, vh);
+      paintCity(g, s, x0, z0, box);
+    } else {
+      g.translate(-big.ox, -big.oy);
+      paint(g, box);
+    }
+  };
+  const map = (x, z) => { const [a, b] = map0(x, z); return [a - big.ox, b - big.oy]; };
+  const unmap = (px, py) => unmap0(px + big.ox, py + big.oy);
+  big = { ...big, w, h, s, vw, vh, ox, oy, dpr, base, view, map, unmap, pick, tab, zoom: zoomed };
+  $('bigZoomIn').disabled = zoomed >= BIG_ZOOM;
+  $('bigZoomOut').disabled = zoomed <= 1;
+  drawBigMap();
+}
+
+// Closer or further off, to z times as close as the map opens, round the point (clientX, clientY)
+// (the middle of the map when left out), which stays put under the mouse or between the fingers.
+function zoomBigMap(z, clientX, clientY) {
+  z = clamp(z, 1, BIG_ZOOM);
+  if (!big || Math.abs(z - big.zoom) < 0.01) return;
+  if (Math.abs(z - Math.round(z)) < 0.03) z = Math.round(z); // not to stop a hair off a whole step
+  let r = bigCv.getBoundingClientRect();
+  const cx = clientX ?? r.left + r.width / 2, cy = clientY ?? r.top + r.height / 2;
+  const [x, zz] = big.unmap(cx - r.left, cy - r.top), vw = big.vw, vh = big.vh;
+  big.zoom = z;
+  // the canvas may grow as the map comes closer, round its middle
+  layoutBigMap({ x, z: zz, px: cx - r.left + (big.vw - vw) / 2, py: cy - r.top + (big.vh - vh) / 2 });
+  r = bigCv.getBoundingClientRect(); // and if it grew any other way, put the spot back under the pointer
+  const [px, py] = big.map(x, zz), dx = px - (cx - r.left), dy = py - (cy - r.top);
+  if (Math.abs(dx) + Math.abs(dy) < 1) return;
+  big.ox = clamp(big.ox + dx, 0, big.w - big.vw);
+  big.oy = clamp(big.oy + dy, 0, big.h - big.vh);
   drawBigMap();
 }
 
@@ -1163,7 +1464,14 @@ function drawBigMap() {
   const g = bigCtx, { base, dpr, map, pick } = big;
   g.setTransform(1, 0, 0, 1, 0, 0);
   g.clearRect(0, 0, bigCv.width, bigCv.height);
-  g.drawImage(base, 0, 0);
+  if (base) g.drawImage(base, Math.round(big.ox * dpr), Math.round(big.oy * dpr), bigCv.width, bigCv.height, 0, 0, bigCv.width, bigCv.height);
+  else {
+    g.setTransform(dpr, 0, 0, dpr, 0, 0);
+    g.save();
+    big.view(g);
+    g.restore();
+    if (big.s >= STREET_NAMES_FROM && world.cfg.map?.names) drawStreetNames(g, map);
+  }
   g.setTransform(dpr, 0, 0, dpr, 0, 0);
   drawMarks(g, map);
   big.labels = mmRoam && !questing() ? drawPlaces(g, map) : []; // in a quest the yellow dots are the targets
@@ -1183,7 +1491,123 @@ function drawBigMap() {
   $('bigYes').classList.toggle('hidden', !pick.ok);
   const r = bigCv.getBoundingClientRect(), box = bigEl.getBoundingClientRect();
   bigAsk.style.left = clamp(r.left - box.left + px, 120, box.width - 120) + 'px';
-  bigAsk.style.top = (r.top - box.top + py + (py > big.h - 90 ? -70 : 18)) + 'px';
+  bigAsk.style.top = (r.top - box.top + py + (py > big.vh - 90 ? -70 : 18)) + 'px';
+}
+
+// The street names, along their streets, once the map is close enough to read them: the widest streets
+// first, each name in the middle of its stretch in view (and more often along a long one), never over
+// another name, and never round a bend sharper than a letter can follow.
+const STREET_NAMES_FROM = 0.28; // pixels per metre
+const streetCache = new WeakMap();
+function drawStreetNames(g, map) {
+  const vw = big.vw, vh = big.vh, chains = streetChains(world.cfg.map);
+  g.font = '800 11px Nunito, system-ui, sans-serif';
+  g.textBaseline = 'middle';
+  g.textAlign = 'center';
+  g.lineJoin = 'round';
+  const placed = []; // the box round each name put down
+  const [vx0, vz0] = big.unmap(0, 0), [vx1, vz1] = big.unmap(vw, vh);
+  for (const ch of chains) {
+    if (ch.box[0] > vx1 || ch.box[2] < vx0 || ch.box[1] > vz1 || ch.box[3] < vz0) continue;
+    // the street on screen, with how far along it each point lies
+    const xs = [], ys = [], at = [0];
+    for (let k = 0; k < ch.p.length; k += 2) {
+      const [x, y] = map(ch.p[k], ch.p[k + 1]);
+      if (xs.length) at.push(at[at.length - 1] + Math.hypot(x - xs[xs.length - 1], y - ys[ys.length - 1]));
+      xs.push(x); ys.push(y);
+    }
+    const len = at[at.length - 1];
+    const widths = ch.widths ??= [...ch.name].map(c => g.measureText(c).width), tw = widths.reduce((a, b) => a + b, 0);
+    if (len < tw + 12) continue;
+    // a point d along the street, and the way it runs there
+    let seg = 0;
+    const pointAt = d => {
+      if (d < at[seg]) seg = 0;
+      while (seg < at.length - 2 && at[seg + 1] < d) seg++;
+      const f = (d - at[seg]) / ((at[seg + 1] - at[seg]) || 1);
+      return [xs[seg] + (xs[seg + 1] - xs[seg]) * f, ys[seg] + (ys[seg + 1] - ys[seg]) * f, Math.atan2(ys[seg + 1] - ys[seg], xs[seg + 1] - xs[seg])];
+    };
+    const tries = Math.max(1, Math.floor(len / Math.max(tw + 200, 360)));
+    for (let t = 0; t < tries; t++) {
+      const mid = len * (t + 0.5) / tries, start = mid - tw / 2;
+      // read left to right: if the street runs the other way here, the letters go along it backwards
+      const a = pointAt(start), b = pointAt(start + tw), back = b[0] < a[0];
+      const letters = [];
+      let d = 0, ok = true, x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (let i = 0; i < widths.length && ok; i++) {
+        const [x, y, ang0] = pointAt(back ? start + tw - d - widths[i] / 2 : start + d + widths[i] / 2), ang = back ? ang0 + Math.PI : ang0;
+        if (letters.length) {
+          const turn = Math.abs(((ang - letters[letters.length - 1][2] + 3 * Math.PI) % (2 * Math.PI)) - Math.PI);
+          if (turn > 0.6) ok = false;
+        }
+        if (x < 4 || y < 4 || x > vw - 4 || y > vh - 4) ok = false;
+        letters.push([x, y, ang]);
+        x0 = Math.min(x0, x); x1 = Math.max(x1, x); y0 = Math.min(y0, y); y1 = Math.max(y1, y);
+        d += widths[i];
+      }
+      if (!ok) continue;
+      x0 -= 7; y0 -= 7; x1 += 7; y1 += 7;
+      if (placed.some(p => x0 < p[2] && x1 > p[0] && y0 < p[3] && y1 > p[1])) continue;
+      placed.push([x0, y0, x1, y1]);
+      for (const pass of ['stroke', 'fill']) {
+        [...ch.name].forEach((c, i) => {
+          const [x, y, ang] = letters[i];
+          g.setTransform(big.dpr, 0, 0, big.dpr, 0, 0);
+          g.translate(x, y);
+          g.rotate(ang);
+          if (pass === 'stroke') {
+            g.lineWidth = 3;
+            g.strokeStyle = 'rgba(255, 250, 240, 0.9)';
+            g.strokeText(c, 0, 0);
+          } else {
+            g.fillStyle = '#1d1a17';
+            g.fillText(c, 0, 0);
+          }
+        });
+      }
+    }
+  }
+  g.setTransform(big.dpr, 0, 0, big.dpr, 0, 0);
+  g.textAlign = 'left';
+}
+
+// Each street as long lines to write its name along: the bits of road with one name joined end to end
+// (the map has a street in many short pieces), the widest streets first. Worked out once.
+function streetChains(map) {
+  if (streetCache.has(map)) return streetCache.get(map);
+  const byName = new Map();
+  for (const rd of map.roads) {
+    if (rd.n === undefined || !map.names[rd.n]) continue;
+    if (!byName.has(rd.n)) byName.set(rd.n, []);
+    byName.get(rd.n).push({ w: rd.w, p: rd.p });
+  }
+  const same = (p, i, q, j) => Math.abs(p[i] - q[j]) < 0.5 && Math.abs(p[i + 1] - q[j + 1]) < 0.5;
+  const back = p => { const r = []; for (let i = p.length - 2; i >= 0; i -= 2) r.push(p[i], p[i + 1]); return r; };
+  const chains = [];
+  for (const [n, ways] of byName) {
+    for (let joined = true; joined;) {
+      joined = false;
+      for (let a = 0; a < ways.length && !joined; a++) {
+        for (let b = a + 1; b < ways.length && !joined; b++) {
+          const p = ways[a].p, q = ways[b].p, pe = p.length - 2, qe = q.length - 2;
+          const r = same(p, pe, q, 0) ? p.concat(q.slice(2))
+            : same(q, qe, p, 0) ? q.concat(p.slice(2))
+            : same(p, 0, q, 0) ? back(q).concat(p.slice(2))
+            : same(p, pe, q, qe) ? p.concat(back(q).slice(2)) : null;
+          if (!r) continue;
+          ways[a] = { w: Math.max(ways[a].w, ways[b].w), p: r };
+          ways.splice(b, 1);
+          joined = true;
+        }
+      }
+    }
+    for (const { w, p } of ways) chains.push({ name: map.names[n], w, p });
+  }
+  const bb = boxesOf(chains);
+  chains.forEach((ch, i) => { ch.box = bb.subarray(i * 4, i * 4 + 4); ch.len = Math.hypot(ch.box[2] - ch.box[0], ch.box[3] - ch.box[1]); });
+  chains.sort((a, b) => b.w - a.w || b.len - a.len);
+  streetCache.set(map, chains);
+  return chains;
 }
 
 // The named places as dots with their names, returning where each name sits so a click can find it.
@@ -1257,7 +1681,7 @@ function lightUp(g, map, it) {
   dot(g, it.x, it.z, 5, glow, ink, map);
   g.font = '900 15px Nunito, system-ui, sans-serif';
   g.textBaseline = 'middle';
-  const w = g.measureText(it.name).width, tx = px + 20 + w > big.w ? px - 20 - w : px + 20;
+  const w = g.measureText(it.name).width, tx = px + 20 + w > big.vw ? px - 20 - w : px + 20;
   g.lineWidth = 5;
   g.strokeStyle = ink;
   g.strokeText(it.name, tx, py);
@@ -1290,14 +1714,29 @@ function landingAt(x, z) {
     const p = track.at(idx, lat);
     return { x: p.x, z: p.z, idx, lat, ok: true };
   }
+  const free = (x, z) => inPolygon(x, z, map.zone) && !map.buildings.some(b => inPolygon(x, z, b.p));
   const map = world.cfg.map;
-  const ok = inPolygon(x, z, map.zone) && !map.buildings.some(b => inPolygon(x, z, b.p));
-  return { x, z, ok };
+  if (free(x, z)) return { x, z, ok: true };
+  // somewhere you cannot stand: give it a best shot at a street nearby, else at any open spot around it
+  const spots = [];
+  for (const rd of map.roads) {
+    for (let k = 0; k < rd.p.length; k += 2) spots.push([(rd.p[k] - x) ** 2 + (rd.p[k + 1] - z) ** 2, rd.p[k], rd.p[k + 1]]);
+  }
+  spots.sort((a, b) => a[0] - b[0]);
+  for (const [, sx, sz] of spots.slice(0, 50)) if (free(sx, sz)) return { x: sx, z: sz, ok: true };
+  for (let r = 4; r <= 120; r += 4) {
+    for (let a = 0; a < 16; a++) {
+      const sx = x + Math.cos(a * Math.PI / 8) * r, sz = z + Math.sin(a * Math.PI / 8) * r;
+      if (free(sx, sz)) return { x: sx, z: sz, ok: true };
+    }
+  }
+  return { x, z, ok: false };
 }
 
 function teleport(pick) {
   humans.forEach((r, p) => {
     r.tram = null; // off the tram, or no longer waiting for one
+    r.bus = null; // and off the bus
     // two players land side by side
     const side = humans.length > 1 ? (p ? 1.2 : -1.2) : 0;
     let { x, z } = pick, yaw = r.yaw;
@@ -1328,20 +1767,97 @@ function teleport(pick) {
 
 mm.addEventListener('pointerdown', e => {
   e.stopPropagation();
+  e.preventDefault(); // or the click takes the focus back from the search box that opens with the map
   openBigMap();
 });
-bigCv.addEventListener('pointerdown', e => {
-  e.stopPropagation();
+function pickOnBigMap(clientX, clientY) {
   if (questing()) return; // a look at the map, but no teleporting your way through a quest
-  const r = bigCv.getBoundingClientRect(), px = e.clientX - r.left, py = e.clientY - r.top;
+  const r = bigCv.getBoundingClientRect(), px = clientX - r.left, py = clientY - r.top;
   const label = big.labels.find(l => px >= l.x0 && px <= l.x1 && py >= l.y0 && py <= l.y1);
   const [x, z] = big.unmap(px, py);
   big.pick = label ? placeLanding(label.pl) : landingAt(x, z);
   drawBigMap();
+}
+// Panning and zooming at most once a frame, however many moves the fingers or the wheel send.
+let bigFrame = 0, bigNext = null;
+function onBigFrame(fn) {
+  bigNext = fn;
+  bigFrame ||= requestAnimationFrame(() => {
+    bigFrame = 0;
+    const f = bigNext;
+    bigNext = null;
+    if (big) f();
+  });
+}
+// A press might be the start of panning the map about, so a spot is picked on release, and only if
+// the pointer did not move. Two fingers pinch the map closer or further off.
+let bigDrag = null, bigPinch = null;
+const bigFingers = new Map();
+const pinchOf = () => {
+  const [a, b] = bigFingers.values();
+  return { d: Math.hypot(a.x - b.x, a.y - b.y), x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+};
+bigCv.addEventListener('pointerdown', e => {
+  e.stopPropagation();
+  bigCv.setPointerCapture(e.pointerId);
+  bigFingers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (bigFingers.size === 2) {
+    bigDrag = null;
+    bigPinch = { ...pinchOf(), zoom: big.zoom };
+  } else if (bigFingers.size === 1) {
+    bigDrag = { id: e.pointerId, x: e.clientX, y: e.clientY, ox: big.ox, oy: big.oy, moved: false, mouse: e.pointerType === 'mouse' };
+  }
 });
+bigCv.addEventListener('pointermove', e => {
+  if (!bigFingers.has(e.pointerId)) return;
+  bigFingers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (bigPinch && bigFingers.size >= 2) {
+    const p = pinchOf(), z = bigPinch.zoom * p.d / Math.max(bigPinch.d, 1);
+    return onBigFrame(() => zoomBigMap(z, p.x, p.y));
+  }
+  if (!bigDrag || e.pointerId !== bigDrag.id) return;
+  const dx = e.clientX - bigDrag.x, dy = e.clientY - bigDrag.y;
+  if (!bigDrag.moved && Math.hypot(dx, dy) < (bigDrag.mouse ? 4 : 8)) return;
+  bigDrag.moved = true;
+  bigCv.classList.add('dragging');
+  const { ox, oy } = bigDrag;
+  onBigFrame(() => {
+    big.ox = clamp(ox - dx, 0, big.w - big.vw);
+    big.oy = clamp(oy - dy, 0, big.h - big.vh);
+    drawBigMap();
+  });
+});
+const bigLift = e => {
+  bigFingers.delete(e.pointerId);
+  bigCv.classList.remove('dragging');
+  if (bigPinch) { // the pinch is over once a finger is off: the other one does not pan or pick
+    if (!bigFingers.size) bigPinch = null;
+    return null;
+  }
+  if (!bigDrag || e.pointerId !== bigDrag.id) return null;
+  const d = bigDrag;
+  bigDrag = null;
+  return d;
+};
+bigCv.addEventListener('pointerup', e => {
+  const d = bigLift(e);
+  if (d && !d.moved) pickOnBigMap(e.clientX, e.clientY);
+});
+bigCv.addEventListener('pointercancel', bigLift);
+bigCv.addEventListener('wheel', e => {
+  e.preventDefault();
+  if (!big) return;
+  big.wheel = (bigFrame ? big.wheel : big.zoom) * Math.exp(-clamp(e.deltaY * (e.deltaMode ? 33 : 1), -120, 120) * 0.004);
+  const z = big.wheel, { clientX, clientY } = e;
+  onBigFrame(() => zoomBigMap(z, clientX, clientY));
+}, { passive: false });
+// the buttons go in two steps of √3 from as the map opens to three times as close
+const BIG_STEP = Math.sqrt(BIG_ZOOM);
+$('bigZoomIn').addEventListener('click', () => zoomBigMap(big.zoom * BIG_STEP));
+$('bigZoomOut').addEventListener('click', () => zoomBigMap(big.zoom / BIG_STEP));
 bigEl.addEventListener('pointerdown', e => { if (e.target === bigEl) closeBigMapAndPlay(); });
 $('bigYes').addEventListener('click', () => confirmTeleport());
-$('bigNo').addEventListener('click', () => { big.pick = null; drawBigMap(); });
+$('bigNo').addEventListener('click', () => { big.pick = null; bigList.querySelector('.listask')?.remove(); drawBigMap(); });
 $('bigClose').addEventListener('click', () => closeBigMapAndPlay());
 
 // ------------------------------------------------------------------ the places index
@@ -1442,6 +1958,8 @@ function showBigTab(tab) {
   $('bigTabMap').classList.toggle('on', !index);
   $('bigTabIndex').classList.toggle('on', index);
   bigCv.classList.toggle('hidden', index && !side);
+  $('bigZoom').classList.toggle('hidden', index && !side);
+  for (const [id, key] of [['bigZoomIn', 'bigmap.zoomIn'], ['bigZoomOut', 'bigmap.zoomOut']]) { $(id).title = t_(key); $(id).setAttribute('aria-label', t_(key)); }
   bigIndex.classList.toggle('hidden', !index);
   setText(bigEl.querySelector('.bighint'), t_(side ? 'bigmap.sideHint' : index ? 'bigmap.indexHint' : questing() ? 'bigmap.questHint' : 'bigmap.hint'));
   if (index) {
@@ -1459,12 +1977,24 @@ function showBigTab(tab) {
 }
 
 // A place picked in the index: show it on the map with the same question a spot clicked on the map gets.
-function pickEntry(i) {
+function pickEntry(i, k) {
   const pick = i && placeLanding(i);
   if (!pick?.ok) return;
   if (!sideIndex()) showBigTab('map');
   big.pick = pick;
   drawBigMap();
+  listAsk(k ?? big.found.indexOf(i));
+}
+
+// The same question right in the list, in the line below the place just picked (when the list is beside the map).
+function listAsk(k) {
+  bigList.querySelector('.listask')?.remove();
+  const b = sideIndex() && big.pick?.ok && bigList.querySelector(`button[data-k="${k}"]`);
+  if (!b) return;
+  const row = document.createElement('div');
+  row.className = 'listask';
+  row.innerHTML = `<span>${t_('bigmap.ask')}</span><button class="yes" aria-label="${t_('bigmap.yes')}">✓</button><button class="no" aria-label="${t_('bigmap.no')}">✗</button>`;
+  b.after(row);
 }
 
 $('bigTabMap').addEventListener('click', () => showBigTab('map'));
@@ -1484,7 +2014,14 @@ bigList.addEventListener('pointerover', e => {
 bigList.addEventListener('pointerleave', () => hoverEntry(bigSearch.value ? big.found[big.focus] : null));
 bigList.addEventListener('click', e => {
   const b = e.target.closest('button');
-  if (b) pickEntry(big.found[+b.dataset.k]);
+  if (!b) return;
+  if (b.closest('.listask')) {
+    if (b.classList.contains('yes')) return confirmTeleport();
+    big.pick = null;
+    bigList.querySelector('.listask')?.remove();
+    return drawBigMap();
+  }
+  pickEntry(big.found[+b.dataset.k], +b.dataset.k);
 });
 // in the search field: ↑ ↓ go through what it found, Enter asks to teleport to the one picked, a second Enter goes
 bigSearch.addEventListener('keydown', e => {
@@ -1522,20 +2059,20 @@ function closeBigMapAndPlay() {
 // ------------------------------------------------------------------ menu
 
 const menuEl = $('menu'), pauseEl = $('pause'), resultsEl = $('results'), briefEl = $('brief');
-const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest'] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'start'];
+const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest', ...(paintballUnlocked() ? ['gun'] : [])] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'start'];
 // The arrows only go from Missions / Race / Tour to the missions, the routes or the ways to take the
 // tour, and on to the start button; everything else on the menu is for the mouse.
 const navRows = () => ['kind', touring() ? 'tour' : roaming() ? 'quest' : 'track', 'start'];
 let menuRow = 0;
 const focusRow = name => { const i = navRows().indexOf(name); if (i >= 0) menuRow = i; };
 const thumbs = new Map(); // character and mount -> portrait
-const THUMB_SCALE = { bike: 1.55, foot: 1.65 }; // in the picker, as tall as a rider on a horse
+const THUMB_SCALE = { bike: 1.55, foot: 1.65, heli: 0.32 }; // in the picker, as tall as a rider on a horse (the helicopter: in the picture whole)
 let studio = null;
 
 // A portrait for the character picker, rendered from its real 3D model (a fresh one, so the model
 // riding about in the scene stays where it is).
 function thumbOf(h, mount) {
-  const key = h.id + ':' + mount;
+  const key = h.id + ':' + mount + ':' + roaming();
   if (thumbs.has(key)) return thumbs.get(key);
   const W = 240, H = 180;
   if (!studio) {
@@ -1551,7 +2088,7 @@ function thumbOf(h, mount) {
     cam.lookAt(0, 1.6, 0.25);
     studio = { rt, scene, cam, buf: new Uint8Array(W * H * 4) };
   }
-  const m = createRider(h, mount);
+  const m = mount === 'heli' ? { root: helicopter(), animate() {} } : createRider(h, mount);
   m.root.scale.setScalar(THUMB_SCALE[mount] ?? 1);
   m.animate(0, 0, 0, 0);
   studio.scene.add(m.root);
@@ -1603,7 +2140,7 @@ function buildTrackCards() {
 // One card per mission: exploring freely first, then the quests.
 function buildQuestCards() {
   const wrap = $('questCards');
-  wrap.innerHTML = ['🗺️', ...QUESTS.map(q => q.emoji)].map((emoji, i) => `<button class="qcard" data-i="${i}"><span class="qemoji">${emoji}</span><b></b><small></small></button>`).join('');
+  wrap.innerHTML = ['🗺️', ...QUESTS.map(q => q.emoji)].map((emoji, i) => `<button class="qcard" data-i="${i}"><span class="qemoji">${emoji}</span><b></b></button>`).join('');
   wrap.querySelectorAll('.qcard').forEach((card, i) => card.addEventListener('click', () => {
     card.blur();
     focusRow('quest');
@@ -1611,13 +2148,16 @@ function buildQuestCards() {
   }));
 }
 
-// The tour's two cards: it plays on its own, or waits at each stop until you click on.
-const TOUR_MODES = ['auto', 'click'];
+// The tour's two cards: it plays on its own, or you fly it yourself on the city's dragon, through
+// the hoops along it (a city with one: TOUR.ride); and beside them, in a city with a DEMO, the
+// trailer, which plays straight away.
+const TOUR_MODES = ['auto', ...(TOUR?.ride ? ['fly'] : [])];
 function buildTourCards() {
   const wrap = $('tourCards');
-  wrap.innerHTML = TOUR_MODES.map(m => `<button class="qcard" data-m="${m}"><span class="qemoji">${m === 'auto' ? '🎬' : '👆'}</span><b></b><small></small></button>`).join('');
+  wrap.innerHTML = [...TOUR_MODES, ...(DEMO ? ['trailer'] : [])].map(m => `<button class="qcard" data-m="${m}"><span class="qemoji">${{ auto: '🎬', fly: '🐉', trailer: '🎞️' }[m]}</span><b></b><small></small></button>`).join('');
   wrap.querySelectorAll('.qcard').forEach(card => card.addEventListener('click', () => {
     card.blur();
+    if (card.dataset.m === 'trailer') return playDemo();
     focusRow('tour');
     setTourMode(card.dataset.m);
   }));
@@ -1635,6 +2175,7 @@ function buildMenu() {
   buildQuestCards();
   buildTourCards();
   $('kindOpts').querySelector('[data-k="tour"]').classList.toggle('hidden', !TOUR); // a city without a tour
+  $('kindOpts').querySelector('[data-k="race"]').classList.toggle('hidden', THEME.races === false); // or without races
 
   // One column per player seat, in that player's colour.
   $('playerCols').innerHTML = [0, 1].map(p => `
@@ -1664,6 +2205,9 @@ function buildMenu() {
   $('langBtn').addEventListener('click', () => openLangList($('langList').classList.contains('hidden')));
   document.querySelectorAll('#langList button').forEach(b => b.addEventListener('click', () => { openLangList(false); setLanguage(b.dataset.lang); }));
   document.addEventListener('pointerdown', e => { if (!$('langOpts').contains(e.target)) openLangList(false); });
+  $('styleBtn').addEventListener('click', () => openStyleList($('styleList').classList.contains('hidden')));
+  document.querySelectorAll('#styleList button').forEach(b => b.addEventListener('click', () => { openStyleList(false); game.style = b.dataset.style; sfx.ui(); saveSettings(); renderMenu(); }));
+  document.addEventListener('pointerdown', e => { if (!$('styleOpts').contains(e.target)) openStyleList(false); });
   document.querySelectorAll('#modeOpts button').forEach(b => b.addEventListener('click', () => {
     setMode(Number(b.dataset.v));
   }));
@@ -1673,24 +2217,53 @@ function buildMenu() {
     setKind(b.dataset.k);
   }));
   document.querySelectorAll('#weaponOpts button').forEach(b => b.addEventListener('click', () => setWeapons(b.dataset.w === '1')));
-  $('soundBtn').addEventListener('click', () => toggleSound());
+  bindSoundButton($('soundBtn'));
   $('startBtn').addEventListener('click', () => startRace());
   $('briefBtn').addEventListener('click', () => beginQuest());
   $('briefMenuBtn').addEventListener('click', () => toMenu());
   $('tourNext').addEventListener('click', () => tourNext());
   $('tourMenu').addEventListener('click', () => toMenu());
   // the pause menu first: from there "back to menu" leaves the race
-  $('menuBtn').addEventListener('click', () => (game.state === 'race' || game.state === 'countdown' || game.state === 'paused') ? setPaused(true) : toMenu());
+  $('menuBtn').addEventListener('click', () => (game.state === 'race' || game.state === 'countdown' || game.state === 'tour' || game.state === 'paused') ? setPaused(true) : toMenu());
   $('resumeBtn').addEventListener('click', () => setPaused(false));
-  $('restartBtn').addEventListener('click', () => startRace());
+  $('restartBtn').addEventListener('click', () => startRace(true)); // exploring: back at the city's own spot
   $('pauseTitleBtn').addEventListener('click', () => toMenu());
-  $('pauseSoundBtn').addEventListener('click', () => toggleSound());
+  $('pauseCloseBtn').addEventListener('click', () => setPaused(false));
+  $('pauseSettingsBtn').addEventListener('click', () => {
+    const open = $('pauseSettings').classList.toggle('hidden') === false;
+    $('pauseSettingsBtn').setAttribute('aria-expanded', open);
+    $('pauseSettingsBtn').querySelector('.caret').textContent = open ? '▴' : '▾';
+  });
+  bindSoundButton($('pauseSoundBtn'));
+  $('musicSettingsBack').addEventListener('click', () => $('musicSettings').close());
+  $('soundEffectsSetting').addEventListener('change', e => { sfx.unlock(); sfx.setSfx(e.target.checked); audioSettingsChanged(); });
+  $('backgroundMusicSetting').addEventListener('change', e => {
+    sfx.unlock();
+    game.gameMusic = e.target.checked;
+    if (game.gameMusic) sfx.setMusic(true);
+    if (game.state !== 'menu' && game.state !== 'tour' && !(game.state === 'paused' && game.resumeState === 'tour')) syncGameplayMusic();
+    audioSettingsChanged();
+  });
+  // car+paintball mode everywhere: switched on and off on the main menu, where it shows once the hidden
+  // settings opened it up (otherwise the paint gun is only in its own mission, the paint fight)
+  const setPaintball = on => {
+    game.paintball = on;
+    sfx.ui(); saveSettings(); syncJumpButton(); renderMenu();
+    if (on) $('gunInfo').showModal(); // what it does: the gun, borrowing cars, and where
+  };
+  $('gunInfoOk').addEventListener('click', () => { sfx.ui(); $('gunInfo').close(); });
+  $('paintballSetting').addEventListener('change', e => { game.paintballUnlocked = e.target.checked; sfx.ui(); saveSettings(); syncJumpButton(); renderMenu(); });
+  $('gunModeSetting').addEventListener('change', e => setPaintball(e.target.checked));
+  $('pauseMountPrev').addEventListener('click', () => switchMount(-1));
+  $('pauseMountNext').addEventListener('click', () => switchMount(1));
+  $('pauseCardsBtn').addEventListener('click', () => { game.cards = !game.cards; sfx.ui(); saveSettings(); renderMenu(); });
   // the big map, as the minimap opens it: out of the pause menu and straight onto the map
   $('pauseMapBtn').addEventListener('click', () => {
     if (game.state !== 'paused') return;
     setPaused(false);
     openBigMap();
   });
+  $('pauseShareBtn').addEventListener('click', shareSpot);
   $('againBtn').addEventListener('click', () => { if (game.time - game.resultsAt > 0.8) startRace(); });
   $('resultsTitleBtn').addEventListener('click', () => toMenu());
   // Never leave a clicked button focused, or Space/Enter would press it again mid-race.
@@ -1758,19 +2331,22 @@ function renderMenu() {
   document.querySelectorAll('.qcard[data-i]').forEach((c, i) => {
     const q = QUESTS[i - 1];
     c.classList.toggle('on', i === game.mission);
+    c.classList.toggle('won', !!q && game.questsWon.includes(q.id));
     c.querySelector('b').textContent = q ? qt(q, 'title') : t_('mission.free');
-    c.querySelector('small').textContent = q ? '⏱ ' + fmtTime(q.time).replace(/\.\d+$/, '') : t_('mission.freeTime');
   });
   document.querySelectorAll('#tourCards .qcard').forEach(c => {
     c.classList.toggle('on', c.dataset.m === game.tourMode);
     c.querySelector('b').textContent = t_('tour.' + c.dataset.m);
     c.querySelector('small').textContent = t_('tour.' + c.dataset.m + 'Sub');
   });
+  document.body.classList.toggle('pro', game.style === 'pro');
+  document.querySelectorAll('#styleList button').forEach(b => b.classList.toggle('on', b.dataset.style === game.style));
+  $('styleBtn').textContent = t_('style.' + game.style) + ' ▾';
   $('langBtn').textContent = LANGS[getLang()] + ' ▾';
   document.querySelectorAll('#langList button').forEach(b => b.classList.toggle('on', b.dataset.lang === getLang()));
   $('skySelect').querySelectorAll('option').forEach(o => {
     const [tm, wx] = o.value.split(':');
-    o.textContent = o.value === 'auto' ? t_('sky.auto') : `${t_('time.' + tm)} · ${t_('wx.' + wx)}`;
+    o.textContent = (o.value === 'auto' ? t_('sky.auto') : `${t_('time.' + tm)} · ${t_('wx.' + wx)}`).replace(/\p{Extended_Pictographic}\uFE0F?\s*/gu, '');
   });
   $('skySelect').value = game.sky;
   document.querySelectorAll('.pcol[data-p]').forEach(col => {
@@ -1790,18 +2366,44 @@ function renderMenu() {
     col.querySelector('.pcolor i').textContent = t_('color');
     col.querySelector('.pkeys').innerHTML = keyLine(p);
   });
+  $('pauseMountName').textContent = t_('mount.' + game.mounts[0]);
   $('playerCols').dataset.n = game.players;
   $('lapCount').textContent = game.laps === 1 ? t_('laps1') : t_('lapsN', { n: game.laps });
-  ['soundBtn', 'pauseSoundBtn'].forEach(id => {
-    $(id).textContent = t_(sfx.sfxOn ? 'sound.on' : 'sound.off');
-    $(id).classList.toggle('on', sfx.sfxOn);
-  });
-  $('startBtn').textContent = t_((touch.on ? 'start.tap' : 'start.keys') + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
+  const soundOn = soundEnabled();
+  for (const id of ['soundBtn', 'pauseSoundBtn']) {
+    $(id).title = t_('audio.hold');
+    $(id).setAttribute('aria-haspopup', 'dialog');
+  }
+  $('soundEffectsSetting').checked = sfx.sfxOn;
+  $('backgroundMusicSetting').checked = game.gameMusic && sfx.musicOn;
+  $('paintballSetting').checked = game.paintballUnlocked;
+  // car+paintball mode everywhere: only there once the hidden settings opened it up, see menuRows
+  $('gunModeSetting').checked = game.paintball && paintballUnlocked();
+  $('gunMode').title = t_('menu.gunMode');
+  $('gunModeSetting').setAttribute('aria-label', t_('menu.gunMode'));
+  $('soundBtn').textContent = t_(soundOn ? 'sound.on' : 'sound.off');
+  $('soundBtn').classList.toggle('on', soundOn);
+  // the pause menu: plain line icons, no emoji
+  const plain = k => t_(k).replace(/^[^\p{L}]+/u, '');
+  const icon = d => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
+  $('pauseSoundBtn').innerHTML = icon(soundOn
+    ? '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>'
+    : '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="m16 9 5 6M21 9l-5 6"/>') + `<span>${plain(soundOn ? 'sound.on' : 'sound.off')}</span>`;
+  $('pauseSoundBtn').classList.toggle('on', soundOn);
+  $('pauseCardsBtn').innerHTML = icon('<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (game.cards ? '' : '<path d="M4 20 20 4"/>')) + `<span>${plain(game.cards ? 'cards.on' : 'cards.off')}</span>`;
+  $('pauseCardsBtn').classList.toggle('on', game.cards);
+  for (const el of document.querySelectorAll('#pause [data-i18n]')) el.textContent = plain(el.dataset.i18n);
+  $('startBtn').textContent = t_('start.go');
 }
 
 function openLangList(open) {
   $('langList').classList.toggle('hidden', !open);
   $('langBtn').setAttribute('aria-expanded', String(open));
+}
+
+function openStyleList(open) {
+  $('styleList').classList.toggle('hidden', !open);
+  $('styleBtn').setAttribute('aria-expanded', String(open));
 }
 
 function setLanguage(code) {
@@ -1826,6 +2428,7 @@ function setSky(combo, fade = true) {
 // A different sky than the one showing, at random.
 function rollSky(every, fade = true) {
   const others = COMBOS.filter(c => c !== `${game.daytime}:${game.weather}`);
+  if (!others.length) return;
   setSky(others[Math.floor(Math.random() * others.length)], fade);
   game.skyTimer = every;
 }
@@ -1844,6 +2447,7 @@ function pickSky(v) {
 // Either way the first sky is there straight away, the later ones fade in.
 function startSky() {
   if (game.state === 'menu') return rollSky(MENU_SKY_EVERY, false);
+  if (game.state === 'tour' && flying()) return setSky(tourSky('day:clear'), false); // flown yourself: a clear day, to see the hoops from afar
   if (game.state === 'tour') return setSky(tourSky(tour.sky ?? 'day:clear'), false); // the tour's own sky where it starts, or a clear day (updateTour fades over to the next)
   if (game.sky === 'auto') return rideSky(0, false);
   setSky(game.sky, false);
@@ -1856,12 +2460,12 @@ function rideSky(step, fade = true) {
   const wx = step === 0 || !WET.length ? 'clear'
     : step === 1 ? WET[Math.floor(Math.random() * WET.length)]
     : game.weather;
-  setSky(`${step === 2 ? 'night' : 'day'}:${wx}`, fade);
+  setSky(`${step === 2 && DAYS.includes('night') ? 'night' : 'day'}:${wx}`, fade);
   game.skyTimer = RIDE_SKY_EVERY;
 }
 
 function tickSky(dt) {
-  if ((game.state !== 'menu' && game.sky !== 'auto') || game.state === 'tour') return;
+  if ((game.state !== 'menu' && game.sky !== 'auto') || touringNow()) return;
   if ((game.skyTimer -= dt) > 0) return;
   if (game.state === 'menu') rollSky(MENU_SKY_EVERY);
   else rideSky((game.skyStep + 1) % 3);
@@ -1893,6 +2497,12 @@ function applyMode() {
   document.body.classList.toggle('solo', game.players === 1);
   document.body.classList.toggle('roaming', roaming());
   document.body.classList.toggle('questing', questing());
+  document.body.classList.toggle('fries', questing() && !!QUESTS[game.mission - 1]?.fries);
+  const tequila = questing() && !!QUESTS[game.mission - 1]?.tequila;
+  document.body.classList.toggle('tequila', tequila);
+  document.body.classList.toggle('heli', heliMode());
+  syncJumpButton();
+  $('tJump').classList.remove('charging');
   document.body.classList.toggle('touring', touring());
   refreshHints();
 }
@@ -1911,18 +2521,45 @@ function setKind(kind) {
 }
 
 // What a player rides: any animal, or on foot, or on a bike. They are all equally fast.
-// A phone's narrow picker only offers the three the missions use.
+// A phone's narrow picker only offers the three the missions use. Riding about freely, the
+// helicopter comes after them once its rescue quest has been won.
 const PHONE_MOUNTS = ['foot', 'bike', 'horse'];
-function cycleMount(p, d, list = MOUNTS) {
+const withHeli = list => (exploring() && game.questsWon.includes('heli') ? [...list, 'heli'] : list);
+function syncHeli() {
+  document.body.classList.toggle('heli', heliMode());
+  syncJumpButton();
+  refreshHints();
+}
+function cycleMount(p, d, base = MOUNTS) {
+  const list = withHeli(base);
   const i = list.indexOf(game.mounts[p]);
   game.mounts[p] = list[i < 0 ? 0 : (i + d + list.length) % list.length];
   const colors = MOUNT_COLORS[game.mounts[p]]; // unless the other player already has them
   if (colors && !game.picks.some((q, i) => i !== p && i < game.players && q === colors)) game.picks[p] = colors;
   assignField();
   resetRace();
+  syncHeli();
   sfx.ui();
   saveSettings();
   renderMenu();
+}
+
+// From the pause menu while riding about (exploring or on a quest): ride something else from where you are (they are all equally fast).
+// Only the model is swapped, so the quest, the position and the character carry on as they were.
+function switchMount(d) {
+  if (!roaming() || touringNow() || game.state !== 'paused') return;
+  if (questing() && QUESTS[game.mission - 1]?.heli) return; // the rescue is flown
+  const list = withHeli(MOUNTS), i = list.indexOf(game.mounts[0]);
+  game.mounts[0] = list[(i + d + list.length) % list.length];
+  const r = humans[0];
+  scene.remove(r.model.root);
+  r.setHorse(r.def, game.mounts[0]);
+  r.heli = exploring() && game.mounts[0] === 'heli';
+  if (!r.heli && r.heliModel) { scene.remove(r.heliModel, r.heliShadow); r.heliModel = r.heliShadow = null; r.vy = 0; } // out of it, wherever it was
+  syncHeli();
+  $('pauseMountName').textContent = t_('mount.' + game.mounts[0]);
+  sfx.ui();
+  saveSettings();
 }
 
 // Each mission has player 1 start out as someone: free exploring on a red horse, the quests as their
@@ -1967,12 +2604,57 @@ function setLaps(n) {
   renderMenu();
 }
 
-// One switch for music and effects together.
+// A short tap keeps the simple all-sound switch. A two-second hold opens the mixer.
+function bindSoundButton(button) {
+  let timer = null, held = false, origin = null;
+  const cancel = () => { clearTimeout(timer); timer = null; };
+  button.addEventListener('pointerdown', e => {
+    if (!e.isPrimary || e.button !== 0) return;
+    cancel();
+    held = false;
+    origin = { x: e.clientX, y: e.clientY };
+    timer = setTimeout(() => {
+      timer = null;
+      held = true;
+      $('musicSettings').showModal();
+    }, 2000);
+  });
+  button.addEventListener('pointermove', e => {
+    if (origin && Math.hypot(e.clientX - origin.x, e.clientY - origin.y) > 12) cancel();
+  });
+  for (const type of ['pointerup', 'pointercancel', 'pointerleave']) button.addEventListener(type, cancel);
+  addEventListener('blur', cancel);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) cancel(); });
+  button.addEventListener('contextmenu', e => e.preventDefault());
+  button.addEventListener('click', e => {
+    if (held) { held = false; e.preventDefault(); return; }
+    toggleSound();
+  });
+}
+
+function audioSettingsChanged() {
+  sfx.ui();
+  saveSettings();
+  renderMenu();
+  showAudioBadge();
+}
+
+function soundEnabled() {
+  const tourActive = game.state === 'tour' || (game.state === 'paused' && game.resumeState === 'tour');
+  return sfx.sfxOn || (sfx.musicOn && (game.state === 'menu' || (tourActive ? game.tourMusic : game.gameMusic)));
+}
+
+function syncGameplayMusic() {
+  if (demo) return; // the demo's music goes on
+  if (game.gameMusic) music.play('race');
+  else music.stop();
+}
+
 function toggleSound() {
   sfx.unlock();
-  const on = !sfx.sfxOn;
+  const on = !soundEnabled();
   sfx.setMusic(on);
-  sfx.sfxOn = on;
+  sfx.setSfx(on);
   sfx.ui();
   saveSettings();
   renderMenu();
@@ -1981,7 +2663,7 @@ function toggleSound() {
 
 function showAudioBadge() {
   $('mute').textContent = t_('mute');
-  $('mute').classList.toggle('hidden', sfx.sfxOn || game.state === 'menu');
+  $('mute').classList.toggle('hidden', soundEnabled() || game.state === 'menu');
 }
 
 // ------------------------------------------------------------------ race flow
@@ -1996,7 +2678,7 @@ function showRaceChrome(on) {
   mm.classList.toggle('hidden', !on);
 }
 
-function resetRace() {
+function resetRace(fresh = false) {
   clearEntities();
   world.pickups.forEach(p => { p.reset(); p.group.visible = game.weapons && !roaming(); });
   world.arrows?.show(!roaming());
@@ -2006,14 +2688,23 @@ function resetRace() {
   field.forEach((r, i) => r.reset(GRID_LANES[i]));
   quest?.dispose();
   quest = null;
+  dropQuestBus();
+  // everyone the paint (or a borrowed car) knocked over is back on their feet, the paint off the cars
+  world.people?.resetHits();
+  resetSplats(city?.targets);
   if (questing()) {
     quest = new Quest(QUESTS[game.mission - 1], { scene, map: world.cfg.map, colliders: world.colliders, relief: world.relief, particles });
+    if (quest.busSpot) placeQuestBus(quest);
+    if (quest.def.heli) humans.forEach(r => { r.heli = true; });
     placeRiders(quest.spawn);
+  } else if (exploring() && !fresh && lastSpot()) {
+    placeRiders(lastSpot());
   } else if (roaming() && FREE_START) {
     // exploring freely starts at the city's own spot, not where the last race route did
     const { at: [x, z], look: [lx, lz] } = FREE_START;
     placeRiders({ x, z, yaw: Math.atan2(lx - x, lz - z) });
   }
+  if (exploring()) humans.forEach((r, p) => { r.heli = game.mounts[p] === 'heli' && game.questsWon.includes('heli'); }); // flying about freely
   world.bikers?.reset(track, field);
   Object.assign(game, { raceTime: 0, finishCount: 0, endTimer: 0, cd: 0, cdShown: '', questEnd: null });
   for (const h of huds) {
@@ -2057,14 +2748,42 @@ function beginQuest() {
   briefEl.classList.add('hidden');
   game.state = 'race';
   sfx.countdown(true);
+  if (questBus) busDriverRuns();
+}
+
+// The line under the street name in a quest: its own words, or for the bus driver and the courier
+// the name of the next stop, so who knows Ghent knows where to go
+function questHud(r) {
+  const next = quest.halts?.[quest.served];
+  if (quest.rescue) {
+    const say = quest.rescue.high ? qt(quest.def, 'lower') : (qt(quest.def, 'legs')[quest.served] ?? qt(quest.def, 'hud'));
+    return `${say} · ↕ ${Math.round(r.y)} m`; // and how high up the helicopter is
+  }
+  if (!next || quest.over) return qt(quest.def, 'hud');
+  if (quest.bus && r.car !== quest.bus) return t_('bus.getIn');
+  return t_(quest.bus ? 'bus.next' : 'deliver.next', { stop: next.name });
 }
 
 // What happened in the quest this frame: a cap picked up, a student about to throw up, the end.
 function questEvents() {
   for (const e of quest.take()) {
     if (e.type === 'collect') {
-      hudMsg(e.r.human, `${quest.def.icon ?? '🎓'} ${e.n}/${quest.tally.of}`, 'gold');
+      hudMsg(e.r.human, `${quest.def.icon ?? '🎓'} ${e.stop ? `${e.stop} ✓ ` : ''}${e.n}/${quest.tally.of}`, 'gold');
       sfx.pickup('bunny', PAN[e.r.human]); buzz('tap');
+    } else if (e.type === 'fries') {
+      // a julientje on the ground: the students round about go for it
+      const r = humans.reduce((b, h) => (Math.hypot(h.pos.x - e.x, h.pos.z - e.z) < Math.hypot(b.pos.x - e.x, b.pos.z - e.z) ? h : b));
+      sfx.drop(PAN[r.human]);
+    } else if (e.type === 'tequila') {
+      const r = humans.reduce((b, h) => Math.hypot(h.pos.x - e.x, h.pos.z - e.z) < Math.hypot(b.pos.x - e.x, b.pos.z - e.z) ? h : b);
+      hudMsg(r.human, t_(e.paint ? 'quest.paintHit' : 'quest.tequilaHit'), e.paint ? 'blue' : 'gold');
+      sfx.drop(PAN[r.human]);
+    } else if (e.type === 'hurt') {
+      // one line of health off; the last one ends the quest (the 'lose' event right after)
+      if (e.hp > 0) {
+        hudMsg(e.r.human, e.why === 'puke' ? t_('quest.puked') : t_('quest.ran'), 'bad');
+        sfx.crash(PAN[e.r.human]); buzz('crash');
+      }
     } else if (e.type === 'retch') {
       const r = humans.reduce((b, h) => (Math.hypot(h.pos.x - e.x, h.pos.z - e.z) < Math.hypot(b.pos.x - e.x, b.pos.z - e.z) ? h : b));
       sfx.voice(0, { type: 'sawtooth', from: 160, peak: 110, to: 70, dur: 0.5, formant: 500, vol: 0.18, wobble: 12 });
@@ -2085,6 +2804,7 @@ function endQuest(won, why, r) {
   const text = won ? qt(quest.def, 'done') : why === 'puke' ? t_('quest.puked') : why === 'run' ? t_('quest.ran') : t_('quest.late');
   humans.forEach((h, p) => hudMsg(p, text, won ? 'good' : 'bad'));
   if (won) {
+    if (!demo && !game.questsWon.includes(quest.def.id)) { game.questsWon.push(quest.def.id); saveSettings(); }
     sfx.finish(r ? PAN[r.human] : 0); buzz('win');
     const at = r ?? humans[0];
     particles.burst(at.pos.x, 3, at.pos.z, 40, { color: [0xe53935, 0xfdd835, 0x1e88e5, 0x43a047, 0xffffff, 0xff80ab], speed: 9, up: 9, gravity: 14, life: 1.6, size: 0.16, drag: 1 });
@@ -2092,7 +2812,8 @@ function endQuest(won, why, r) {
   game.endTimer = 2.6;
 }
 
-function startRace() {
+// fresh: over again from the start, also when exploring (not where you last were)
+function startRace(fresh = false) {
   if (touring()) return startTour();
   sfx.unlock();
   if (touch.on) {
@@ -2108,7 +2829,7 @@ function startRace() {
   }
   applyMode();
   assignField();
-  resetRace();
+  resetRace(fresh);
   menuEl.classList.add('hidden');
   pauseEl.classList.add('hidden');
   resultsEl.classList.add('hidden');
@@ -2123,12 +2844,14 @@ function startRace() {
   });
   startSky();
   if (questing()) showBriefing();
-  music.stop(); // the music is for the menu only
+  syncGameplayMusic(); // sound effects only unless the hidden setting opted into music
   sfx.duck(false);
   showAudioBadge();
 }
 
 function toMenu() {
+  sfx.engine(null);
+  sfx.rotor(null);
   applyMode();
   assignField();
   resetRace();
@@ -2139,11 +2862,7 @@ function toMenu() {
   pauseEl.classList.add('hidden');
   resultsEl.classList.add('hidden');
   briefEl.classList.add('hidden');
-  tourEl.classList.add('hidden');
-  if (tourBoatMesh) tourBoatMesh.visible = false;
-  for (const m of tourFleet) m.visible = false;
-  if (tourBusMesh) tourBusMesh.visible = false;
-  if (tourTumble) tourTumble.root.visible = false;
+  hideTour();
   menuEl.classList.remove('hidden');
   showRaceChrome(false);
   menuLook.set(racers[0].pos.x, 1.5, racers[0].pos.z);
@@ -2167,34 +2886,88 @@ const tourSky = sky => {
   return COMBOS.includes(sky) ? sky : COMBOS.includes(wet) ? wet : sky.split(':')[0] + ':clear';
 };
 let tour = null, tourShown = null, tourEndAt = 0, tourGround = 0, tourBoatMesh = null, tourFleet = [], tourBusMesh = null, tourTumble = null;
+let tourFlyer = null, tourRunner = null; // the city's dragon flying along and Artevelde running along (TOUR flyer, runner), made when first needed
+// what the city puts out only for the tour (city.js TOUR_PROPS: Ghent's Christmas market, the Stroppendragers), made when it first starts
+let tourProps = [];
+
+// ?shots=<metres>: a quality tour (.claude/skills/quality-tour). One round of the tour on autoplay,
+// a picture of the scene every that many metres along its path, sent to the local server (serve.py
+// keeps them in tools/cache/tourshots/<city>/) with where the camera stood and looked.
+const SHOTS = Number(new URLSearchParams(location.search).get('shots')) || 0;
+let nextShot = 0, shotNo = 0;
+function takeShot() {
+  if (!SHOTS || game.state !== 'tour' || !tour || tour.done || tour.s < nextShot) return;
+  nextShot = tour.s + SHOTS;
+  const dir = new THREE.Vector3();
+  menuCam.getWorldDirection(dir);
+  const meta = { i: shotNo++, s: Math.round(tour.s), x: +menuCam.position.x.toFixed(1), y: +menuCam.position.y.toFixed(1), z: +menuCam.position.z.toFixed(1),
+    dx: +dir.x.toFixed(3), dy: +dir.y.toFixed(3), dz: +dir.z.toFixed(3), name: tour.name()?.name ?? '' };
+  // (taken straight after the frame is drawn, before the browser clears it)
+  renderer.domElement.toBlob(blob => fetch(`/__tourshot?city=${encodeURIComponent(location.pathname.split('/').filter(Boolean)[0] ?? 'ghent')}&meta=${encodeURIComponent(JSON.stringify(meta))}`, { method: 'POST', body: blob })
+    .catch(() => {}), 'image/jpeg', 0.85);
+}
+
+// off the tour: its bars and cards, and all it put in the city for itself
+function hideTour() {
+  tourEl.classList.add('hidden');
+  if (tourBoatMesh) tourBoatMesh.visible = false;
+  for (const m of tourFleet) m.visible = false;
+  if (tourBusMesh) tourBusMesh.visible = false;
+  if (tourTumble) tourTumble.root.visible = false;
+  for (const m of [tourFlyer, tourRunner]) if (m) m.root.visible = false;
+  if (fly) fly.dragon.root.visible = fly.rings.root.visible = false;
+  document.body.classList.remove('dragonfly');
+}
 
 function startTour() {
   sfx.unlock();
+  sfx.duck(false); // (started again from the pause menu)
   if (!tour) {
     tour = new Tour(TOUR);
     buildTourBar();
+    tourProps = (TOUR_PROPS ?? []).map(p => {
+      const m = p.make();
+      m.position.set(p.x, Math.max(0, world.relief?.at(p.x, p.z) ?? 0), p.z);
+      m.rotation.y = p.turn ?? 0;
+      scene.add(m);
+      return m;
+    });
   }
   tour.reset();
+  nextShot = 0; shotNo = 0;
   for (const el of [menuEl, pauseEl, resultsEl, briefEl]) el.classList.add('hidden');
   showRaceChrome(false);
   $('menuBtn').classList.remove('hidden');
   tourEl.classList.remove('hidden');
   tourEl.classList.toggle('auto', game.tourMode === 'auto');
+  tourEl.classList.toggle('fly', flying());
+  document.body.classList.toggle('dragonfly', flying());
   game.state = 'tour';
   tourEndAt = 0;
   showTourCard(null);
   menuCam.fov = 56;
   showTourSpeed();
-  if (game.tourMusic) music.play('menu');
-  else music.stop();
-  $('tourWelcomeTitle').textContent = t_('tour.welcome', { city: local(NAME) });
+  if (!demo) { // (the demo's own music goes on under all its shots)
+    music.stop(); // (so it begins again from the start)
+    if (game.tourMusic) music.play('tour'); // its own music (js/music.js RECORDINGS)
+  }
+  $('tourWelcomeTitle').textContent = flying() ? t_('tour.flyWelcome') : t_('tour.welcome', { city: local(NAME) });
+  $('tourWelcomeSub').textContent = flying() ? t_(touch.on ? 'tour.flyHintTouch' : 'tour.flyHint') : t_('tour.welcomeSub');
+  if (flying()) startFly();
   startSky();
   report('tour_start', { mode: game.tourMode, touch: touch.on });
 }
 
 function updateTour(dt) {
+  if (flying()) return updateFly(dt);
   const auto = game.tourMode === 'auto';
   tour.update(dt, auto, game.tourSpeed);
+  // a character it glances at (Zakman on the Korenlei): put in place in time, and looked at where they walk
+  for (const g of tour.meeting()) world.people?.put(g.who.name, g.who.put, g.who.to);
+  for (const g of tour.glances) {
+    const p = g.who && world.people?.where(g.who.name);
+    if (p) g.look = [p.x, 1.4, p.z];
+  }
   const { pos, look, roll } = tour.steer(dt);
   // the path's heights are over the street: over a bridge's deck, then, where it climbs
   tourGround += (Math.max(0, world.relief?.at(pos.x, pos.z) ?? 0) - tourGround) * (1 - Math.exp(-dt * 3));
@@ -2230,6 +3003,13 @@ function updateTour(dt) {
       tourTumble.pose(dt, fall.fallen, game.time);
     }
   }
+  // the one running along until he is up on his statue (Artevelde on the Vrijdagmarkt)
+  const run = tour.runner();
+  if (run && !run.done && !tourRunner) scene.add((tourRunner = TOUR.runner.make()).root);
+  if (tourRunner) {
+    tourRunner.root.visible = !!run && !run.done;
+    if (tourRunner.root.visible) tourRunner.pose(dt, run, (x, z) => Math.max(0, world.relief?.at(x, z) ?? 0));
+  }
   // and more of them on the Leie, moored at the Graslei or sailing
   tour.boats().forEach((b, i) => {
     if (!tourFleet[i]) scene.add(tourFleet[i] = tourBoat());
@@ -2241,14 +3021,35 @@ function updateTour(dt) {
   });
   menuCam.lookAt(look.x, look.y, look.z);
   menuCam.rotateZ(roll); // banking into the bends
+  // the one flying along, low in the picture, until it flies off to its place and lands there (Ghent's dragon on the Belfort's spire)
+  const fly = tour.flyer();
+  if (fly && !fly.landed && !tourFlyer) scene.add((tourFlyer = TOUR.flyer.make()).root);
+  if (tourFlyer) {
+    tourFlyer.root.visible = !!fly && fly.in > 0 && !fly.landed;
+    if (tourFlyer.root.visible) {
+      // where it lands, and which way it sits there (its turn about y), from the one standing there
+      const perch = STANDING.get(TOUR.flyer.stands), home = new THREE.Vector3(...TOUR.flyer.home);
+      let rest = 0;
+      if (perch?.parent) {
+        perch.getWorldPosition(home);
+        const x = new THREE.Vector3(1, 0, 0).applyQuaternion(perch.getWorldQuaternion(new THREE.Quaternion()));
+        rest = Math.atan2(-x.z, x.x);
+      }
+      menuCam.updateMatrixWorld();
+      tourFlyer.pose(dt, fly, menuCam, home, rest);
+    }
+  }
   menuCam.fov += (56 + tour.v * 0.4 - menuCam.fov) * (1 - Math.exp(-dt * 3)); // wider the faster it goes
   menuLook.set(pos.x, 1.5, pos.z); // the sun's shadows and the hills: round where the camera is
   // the sky fades over to the one the tour asks for there (ghent/tour.js skies)
   const sky = tour.sky && tourSky(tour.sky);
   if (sky && sky !== `${game.daytime}:${game.weather}`) setSky(sky); // fading over
   $('tourWelcome').classList.toggle('show', tour.welcoming);
-  if (tour.done && !tourEndAt) tourEndAt = game.time;
-  const card = tour.done ? TOUR_END : tour.welcoming ? null : tour.card(auto);
+  if (tour.done && !tourEndAt) { tourEndAt = game.time; music.stop(); } // the music ends with the tour, no repeat
+  // info cards off (the pause menu): playing on its own it flies past the stops without them; when
+  // it waits at each for a click, and at the end, the card has the buttons, so it always shows
+  const quiet = auto && !game.cards;
+  const card = tour.done ? TOUR_END : tour.welcoming || quiet ? null : tour.card(auto);
   if (card !== tourShown) showTourCard(card);
   if (!card) tour.paused = false;
   tourCardEl.classList.toggle('paused', tour.paused);
@@ -2261,7 +3062,7 @@ function updateTour(dt) {
     $('tourName').textContent = name;
     $('tourName').classList.toggle('show', !!name);
   }
-  if (tour.done && auto && game.time - tourEndAt > (WATCH === '' ? 1 : TOUR_AGAIN)) startTour(); // and round again
+  if (tour.done && auto && game.time - tourEndAt > (WATCH === '' ? 1 : TOUR_AGAIN) && !demo) startTour(); // and round again
 }
 
 // The bar at the top: the tour's phases side by side, each as long as it is, with a gap between
@@ -2276,6 +3077,7 @@ function buildTourBar() {
     b.addEventListener('click', () => {
       if (game.state !== 'tour') return;
       tour.seek(tour.phases[i]);
+      startSky(); // the sky the tour has there, straight away
       tourEndAt = 0;
       showTourCard(null);
       sfx.ui();
@@ -2289,7 +3091,7 @@ function showTourSpeed() {
   el.textContent = `${game.tourSpeed}×`;
   if (r.width) Object.assign(el.style, { left: `${r.right + 8}px`, top: `${r.top + r.height / 2 - el.offsetHeight / 2}px` });
   const m = $('tourMusic'), on = game.tourMusic && sfx.musicOn;
-  m.textContent = on ? '🎵' : '🔇';
+  m.textContent = `${on ? '🎵' : '🔇'} ${t_('tour.music')}`;
   m.classList.toggle('off', !on);
   if (r.width) Object.assign(m.style, { left: `${r.right + 8 + el.offsetWidth + 8}px`, top: el.style.top });
 }
@@ -2300,7 +3102,7 @@ $('tourMusic').addEventListener('click', () => {
   game.tourMusic = !(game.tourMusic && sfx.musicOn);
   if (game.tourMusic) {
     if (!sfx.musicOn) sfx.setMusic(true);
-    music.play('menu');
+    if (!tour.done) music.play('tour'); // (not once the tour is over)
   } else music.stop();
   showTourSpeed();
   saveSettings();
@@ -2317,8 +3119,9 @@ function showTourCard(st) {
   tourCardEl.classList.toggle('show', !!st);
   if (!st) return;
   const sight = st.sight && SIGHTS?.find(x => x.id === st.sight);
-  const words = st.end ? { name: t_('tour.end'), text: t_('tour.endText') } : local((sight ?? st).text);
-  $('tourEmoji').textContent = st.end ? '🏁' : (sight ?? st).emoji;
+  const words = st.fly ? { name: t_('tour.flyEnd'), text: t_('tour.flyEndText', { hits: fly.course.hits, total: fly.course.hoops.length, time: fmtTime(fly.endAt).replace(/\.\d+$/, '') }) }
+    : st.end ? { name: t_('tour.end'), text: t_('tour.endText') } : local((sight ?? st).text);
+  $('tourEmoji').innerHTML = st.end ? '🏁' : EYE; // the eye, as on the sights' cards; the flag at the end
   $('tourLabel').textContent = st.end ? t_('tour.label') : `📍 ${t_('tour.label')} ${tour.stops.indexOf(st) + 1}/${tour.stops.length}`;
   $('tourTitle').textContent = words.name;
   // three short facts where the tour has them, or else the sight's own words
@@ -2333,6 +3136,7 @@ function showTourCard(st) {
   $('tourMore').classList.toggle('hidden', !link);
   if (link) $('tourMore').href = link;
   $('tourNext').textContent = t_(st.end ? 'tour.again' : 'tour.next');
+  $('tourNext').classList.toggle('hidden', game.tourMode === 'auto' && !st.end); // autoplay moves on by itself
   $('tourMenu').classList.toggle('hidden', !st.end);
 }
 
@@ -2340,6 +3144,7 @@ function showTourCard(st) {
 // if it was waiting for it), or the tour once more at the end.
 function tourNext() {
   if (game.state !== 'tour') return;
+  if (flying()) return void (fly.course.done && startTour()); // flown yourself, only its last card has a button: once more
   if (tour.done) return startTour();
   if (game.tourMode === 'auto') {
     if (tourShown) { tour.dismiss(tourShown); sfx.ui(); }
@@ -2351,23 +3156,125 @@ tourCardEl.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse'
 tourCardEl.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse' && tour) tour.paused = false; });
 tourCardEl.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse' && game.tourMode === 'auto' && tourShown && !e.target.closest('button, a')) tour.paused = true; });
 
+// ------------------------------------------------------------------ the tour, flown yourself
+
+// The tour's Fly card (dragonfly.js): the player flies the city's golden dragon (TOUR.ride) the way
+// the helicopter is flown (stepHeli, as the DRAGON), through the hoops hung along the tour's
+// path, the camera behind it. Once through (or past) the last hoop, a card says how it went.
+const FLY_WELCOME = 6; // seconds the welcome, with the keys, shows at the start
+const FLY_END = { end: true, fly: true }; // the last card
+let fly = null; // { dragon, rings, course, r: where it flies, as stepHeli has a rider, t, endAt, camYaw, camUp }
+const flyGround = (x, z) => Math.max(0, world.relief?.at(x, z) ?? 0);
+
+function startFly() {
+  if (!fly) {
+    const course = new Course(hoopsAlong(tour, flyGround));
+    fly = { dragon: TOUR.ride(), rings: hoopMeshes(course.hoops), course, r: { pos: new THREE.Vector3(), human: 0 } };
+    scene.add(fly.dragon.root, fly.rings.root);
+  }
+  const a = tour.at(0), b = tour.at(12), r = fly.r;
+  r.pos.set(a.x, 0, a.z);
+  Object.assign(r, { yaw: Math.atan2(b.x - a.x, b.z - a.z), speed: 0, vy: 0, steer: 0, tilt: 0, bank: 0, base: flyGround(a.x, a.z) + DRAGON.floor, y: Math.max(0, a.y - DRAGON.floor), street: '' });
+  fly.course.reset();
+  fly.t = fly.endAt = 0;
+  fly.camYaw = r.yaw;
+  fly.camUp = 0;
+  fly.dragon.root.visible = fly.rings.root.visible = true;
+  $('tourTimer').style.transform = 'scaleX(0)';
+  $('tJump').querySelector('small').textContent = t_('tb.up'); // (the jump button climbs)
+  showFlyHud();
+}
+
+// The keys, a gamepad or the touch stick, as for the helicopter: forward and back, left and right,
+// and up (Space, a pad's X or RB, ⤒) and down (E, Shift or Enter, a pad's Y or LB, ⤓).
+function flyControl() {
+  const pad = pads.input[0];
+  let throttle = (held(SOLO.up) ? 1 : 0) - (held(SOLO.down) ? 1 : 0);
+  let steer = (held(SOLO.left) ? 1 : 0) - (held(SOLO.right) ? 1 : 0);
+  let lift = (held(SOLO.jump) ? 1 : 0) - (held(SOLO.fire) ? 1 : 0);
+  if (pad) {
+    throttle += pad.throttle;
+    steer += pad.steer;
+    lift += pad.lift;
+  }
+  if (touch.on) {
+    throttle += touch.throttle;
+    steer += touch.steer;
+    lift += (touch.climb ? 1 : 0) - (touch.sink ? 1 : 0);
+  }
+  return { throttle: clamp(throttle, -1, 1), steer: clamp(steer, -1, 1), lift: clamp(lift, -1, 1) };
+}
+
+function updateFly(dt) {
+  const r = fly.r, c = flyControl(), from = { x: r.pos.x, y: r.base + r.y, z: r.pos.z };
+  r.fx = Math.sin(r.yaw); r.fz = Math.cos(r.yaw); // (which way it heads, for bumping into the buildings)
+  stepHeli(r, dt, c, DRAGON);
+  fly.t += dt;
+  const at = { x: r.pos.x, y: r.base + r.y, z: r.pos.z };
+  if (!fly.course.done) {
+    const pass = fly.course.pass(from, at);
+    if (pass?.hit) {
+      sfx.pickup('cloud', 0);
+      particles.burst(pass.hoop.x, pass.hoop.y, pass.hoop.z, 30, { color: [0xffd23f, 0xffe680, 0xffffff], speed: 8, up: 2, gravity: 4, life: 0.8, size: 0.3, drag: 2 });
+    } else if (pass) sfx.bump(0);
+    if (fly.course.done) {
+      fly.endAt = fly.t;
+      sfx.finish(0);
+      music.stop();
+      showTourCard(FLY_END);
+    }
+    if (pass) showFlyHud();
+  }
+  fly.rings.update(fly.course, game.time);
+  fly.dragon.pose(dt, { ...at, yaw: r.yaw, vy: r.vy, speed: r.speed, bank: r.bank });
+  // behind and a little above it, swinging round after it; climbing it drops below the dragon and
+  // tilts up steeply after it, diving it rises over it and looks right down (easing into either)
+  fly.camYaw += wrapAngle(r.yaw - fly.camYaw) * (1 - Math.exp(-dt * 3));
+  fly.camUp += (clamp(r.vy / DRAGON.climb, -1, 1) - fly.camUp) * (1 - Math.exp(-dt * 2.5));
+  const fx = Math.sin(fly.camYaw), fz = Math.cos(fly.camYaw), up = fly.camUp, back = 11 - Math.abs(up) * 2;
+  menuCam.position.set(r.pos.x - fx * back, Math.max(at.y + 3.2 - up * 6.5, flyGround(r.pos.x, r.pos.z) + 1.5), r.pos.z - fz * back);
+  menuCam.lookAt(r.pos.x + fx * 14, at.y + 1 + up * 17, r.pos.z + fz * 14);
+  menuCam.fov += (60 + (Math.max(0, r.speed) / DRAGON.speed) * 12 - menuCam.fov) * (1 - Math.exp(-dt * 3)); // wider the faster it goes
+  menuLook.set(r.pos.x, 1.5, r.pos.z); // the sun's shadows and the hills: round where it flies
+  $('tourWelcome').classList.toggle('show', fly.t < FLY_WELCOME);
+  if (!fly.course.done && fly.t % 0.25 < dt) showFlyHud(); // (the metres to the next hoop, a few times a second)
+  const name = r.street ?? '';
+  if ($('tourName').dataset.name !== name) {
+    $('tourName').dataset.name = name;
+    $('tourName').textContent = name;
+    $('tourName').classList.toggle('show', !!name);
+  }
+}
+
+// top right: the hoops flown through out of all of them, and how far it is to the next one
+function showFlyHud() {
+  const { course, r } = fly, h = course.target;
+  const far = h ? Math.round(Math.hypot(h.x - r.pos.x, h.y - r.base - r.y, h.z - r.pos.z)) : 0;
+  $('flyHud').textContent = `🟡 ${course.hits} / ${course.hoops.length}` + (h ? ` · ${t_('tour.flyNext', { m: far })}` : '');
+}
+
 // The pause menu's three buttons, left to right; the arrows move between them, Space/Enter picks one.
-const pauseBtns = ['pauseTitleBtn', 'restartBtn', 'resumeBtn'].map($);
-let pauseSel = 2;
+const pauseBtns = ['restartBtn', 'resumeBtn'].map($);
+let pauseSel = 1;
 function selectPause(i) {
   pauseSel = clamp(i, 0, pauseBtns.length - 1);
   pauseBtns.forEach((b, j) => b.classList.toggle('psel', j === pauseSel));
 }
 
 function setPaused(on, menu = true) {
-  if (on && (game.state === 'race' || game.state === 'countdown')) {
+  if (demo && on) return; // the demo plays on, whatever happens
+  if (on && (game.state === 'race' || game.state === 'countdown' || game.state === 'tour')) {
     game.resumeState = game.state;
     game.state = 'paused';
-    if (menu) { selectPause(2); pauseEl.classList.remove('hidden'); }
+    renderMenu();
+    $('pauseMapBtn').classList.toggle('hidden', game.resumeState === 'tour'); // no riding to teleport on the tour
+    $('pauseMountRow').classList.toggle('hidden', !roaming() || game.resumeState === 'tour'); // riding about, exploring or on a quest, you can swap what you ride
+    $('pauseMountName').textContent = t_('mount.' + game.mounts[0]);
+    if (menu) { selectPause(1); pauseEl.classList.remove('hidden'); }
     sfx.duck(true);
   } else if (on && big && menu) {
     // leaving the window with the big map open: the pause menu over it
-    selectPause(2);
+    selectPause(1);
     pauseEl.classList.remove('hidden');
   } else if (!on && game.state === 'paused') {
     closeBigMap();
@@ -2452,21 +3359,25 @@ function finishRacer(r) {
 const held = list => list.some(k => keys.has(k));
 
 function humanControl(r) {
+  const played = r.human === 0 && demo?.control(r); // the demo plays player 1
+  if (played) return played;
   const k = ctl(r.human);
   let throttle = (held(k.up) ? 1 : 0) - (held(k.down) ? 1 : 0);
   let steer = (held(k.left) ? 1 : 0) - (held(k.right) ? 1 : 0);
+  let lift = (held(k.jump) ? 1 : 0) - (held(k.fire) ? 1 : 0); // up and down, in the helicopter
   const pad = pads.input[r.human];
   if (pad) {
     throttle = clamp(throttle + pad.throttle, -1, 1);
     steer = clamp(steer + pad.steer, -1, 1);
   }
   if (touch.on && r.human === 0) {
-    // On touch screens the horse gallops by itself in a race or a quest, and pulling the stick down brakes;
+    // On touch screens the horse gallops by itself in a race or a quest (but not the zombie missions), and pulling the stick down brakes;
     // exploring, the stick's up/down rides.
-    throttle = exploring() ? touch.throttle : touch.throttle < -0.5 ? -1 : 1;
+    throttle = freeStick() ? touch.throttle : touch.throttle < -0.5 ? -1 : 1;
     steer = clamp(steer + touch.steer, -1, 1);
+    lift = clamp(lift + (touch.climb ? 1 : 0) - (touch.sink ? 1 : 0), -1, 1);
   }
-  return { throttle, steer };
+  return { throttle, steer, lift };
 }
 
 const gap = (fromIdx, toIdx) => (track.open ? toIdx - fromIdx : track.wrap(toIdx - fromIdx)) * track.spacing;
@@ -2721,7 +3632,271 @@ function lightInside(room) {
 
 // ------------------------------------------------------------------ physics
 
+// car+paintball mode everywhere can be picked on the menu once the hidden settings opened it up
+const paintballUnlocked = () => game.paintballUnlocked;
+// the paint fight: the mission with the paintball gun (and cars to borrow)
+const paintQuest = () => questing() && QUESTS[game.mission - 1]?.kind === 'paint';
+
+// the paintball gun (car+paintball mode) in hand, whatever you ride, exploring and in every quest
+const paintballActive = () => paintQuest() || (game.paintball && paintballUnlocked()); // the paint fight, or switched on everywhere
+const paintballOn = r => paintballActive() && r.human >= 0 && game.kind === 'mission' && !r.car;
+
+// Free roaming with the paintball gun: shots fly on until they hit a wall, a walker or a cyclist, who is covered in blue and falls.
+const paintShots = [];
+const PAINT_BALL = new THREE.SphereGeometry(0.1, 8, 6), PAINT_MAT = new THREE.MeshStandardMaterial({ color: 0x8a8f98, roughness: 0.4, metalness: 0.5 });
+function firePaint(r) {
+  if ((r.paintCd ?? 0) > 0 || game.state !== 'race') return false;
+  r.paintCd = 0.12;
+  const fx = Math.sin(r.yaw), fz = Math.cos(r.yaw), mesh = new THREE.Mesh(PAINT_BALL, PAINT_MAT);
+  const shot = { r, x: r.pos.x + fx * 0.5, y: r.base + r.y + 1.35, z: r.pos.z + fz * 0.5, vx: fx * 42, vz: fz * 42, vy: 0.4, age: 0, mesh };
+  mesh.position.set(shot.x, shot.y, shot.z);
+  scene.add(mesh);
+  paintShots.push(shot);
+  return true;
+}
+// the shoot button: paint at the walkers and cyclists, or in a quest with shots to throw (the zombies) the quest's own paintballs
+function shoot(r) {
+  if (!paintballOn(r) || game.state !== 'race') return;
+  const ok = quest?.def.tequila ? quest.throwTequila(r, true) : firePaint(r);
+  if (ok) { sfx.throw(PAN[r.human]); buzz('tap'); }
+}
+function updatePaint(dt) {
+  for (const r of humans) if (r.paintCd > 0) r.paintCd -= dt;
+  for (let i = paintShots.length - 1; i >= 0; i--) {
+    const s = paintShots[i], nx = s.x + s.vx * dt, nz = s.z + s.vz * dt;
+    s.vy -= 3 * dt;
+    const ny = s.y + s.vy * dt;
+    s.age += dt;
+    const hit = world.people?.paintHit(s.x, s.z, nx, nz, s.y) ?? world.cyclists?.paintHit(s.x, s.z, nx, nz, s.y) ?? splatHit(city?.targets, s.x, s.z, nx, nz, s.y);
+    const splat = !hit && vehicleSplat(paintBoxes(s.x, s.z), s.x, s.z, nx, nz, s.y); // (a car, a bus or a tram: the paint sticks)
+    const blocked = !hit && !splat && world.colliders && clearLine(world.colliders, s.x, s.z, nx, nz) < 1;
+    // in the paint fight: a point for a person, more for a car or bus or a tram (each once)
+    if (hit) quest?.score?.(s.r, hit, 1);
+    else if (splat) quest?.score?.(s.r, splat.box.who, splat.box.pts, true);
+    if (splat) particles.burst(splat.x, splat.y, splat.z, 6, { color: [0x1e66f5, 0x4f8cff], speed: 3, up: 2, gravity: 9, life: 0.5, size: 0.14, drag: 1.5 });
+    if (hit) {
+      particles.burst(hit.x, hit.y, hit.z, 10, { color: [0x1e66f5, 0x4f8cff, 0x0d3fb8], speed: 5, up: 3, gravity: 9, life: 0.8, size: 0.18, drag: 1.5 });
+      if (loud()) sfx.drop(0);
+    }
+    if (hit || splat || blocked || s.age > 1.5 || ny < 0.05) {
+      scene.remove(s.mesh);
+      paintShots.splice(i, 1);
+    } else {
+      Object.assign(s, { x: nx, y: ny, z: nz });
+      s.mesh.position.set(nx, ny, nz);
+    }
+  }
+}
+
+// The cars, buses and trams near a shot at (x, z), as boxes for the paint to stick to (splat.js): the parked
+// cars, the traffic (its paint in a group that follows the car, see carPaint) and the trams' sections
+const paintedCars = new Set(); // the traffic's cars with paint on
+function paintBoxes(x, z) {
+  const boxes = [], near = (px, pz, R = 30) => (px - x) ** 2 + (pz - z) ** 2 < R * R;
+  const size = type => { const t = CAR_TYPES[type]; return { len: t.len, w: t.w, h: t.tall ? 3.15 : 1.5 }; };
+  // a group at the car, turned with it: stuck to the scene where it stands, or to its model once borrowed
+  const holder = (c, x, y, z, yaw) => () => {
+    if (!c.paint) {
+      c.paint = new THREE.Group();
+      if (c.model) c.model.add(c.paint);
+      else { c.paint.position.set(x, y, z); c.paint.rotation.y = yaw; scene.add(c.paint); }
+    }
+    return c.paint;
+  };
+  for (const c of track.parkedCars ?? []) {
+    if (c.stolen || !near(c.x, c.z)) continue;
+    const y = c.model ? c.model.position.y : world.relief?.at(c.x, c.z) ?? 0;
+    boxes.push({ x: c.x, y, z: c.z, yaw: c.yaw, ...size(c.type), who: c, pts: 2, holder: holder(c, c.x, y, c.z, c.yaw) });
+  }
+  for (const c of city?.traffic?.cars ?? []) {
+    if (!c.on || !near(c.pos.x, c.pos.z)) continue;
+    boxes.push({ x: c.pos.x, y: c.pos.y, z: c.pos.z, yaw: c.yaw, ...size(c.type), who: c, pts: 2, holder: () => {
+      if (!c.paint) { c.paint = new THREE.Group(); scene.add(c.paint); }
+      paintedCars.add(c);
+      c.paint.position.copy(c.pos);
+      c.paint.rotation.set(0, c.yaw, 0);
+      return c.paint;
+    } });
+  }
+  for (const t of city?.trams?.fleet.list ?? []) {
+    if (!near(t.nose[0], t.nose[2], 80)) continue;
+    for (const m of t.sections) {
+      if (near(m.position.x, m.position.z, 34)) boxes.push({ x: m.position.x, y: m.position.y, z: m.position.z, yaw: m.rotation.y, len: TRAM_SECTION, w: TRAM_W, h: 3.3, who: t, pts: 3, mesh: m, holder: () => m }); // (hit on its mesh: the nose sticks out past the box)
+    }
+  }
+  return boxes;
+}
+// the paint on the traffic's cars follows them; gone when the car is (or jumps off somewhere else)
+function carPaint() {
+  for (const c of paintedCars) {
+    if (!c.on || c.pos.distanceToSquared(c.paint.position) > 100) { c.paint.removeFromParent(); c.paint = null; paintedCars.delete(c); continue; }
+    c.paint.position.copy(c.pos);
+    c.paint.rotation.set(0, c.yaw, 0);
+  }
+}
+
+// Stealing a parked car (with the paintball gun on, free roaming): the car's instance is hidden and a car of its own
+// drives off with you in it; get out and it stays standing where you left it.
+const NO_CAR = new THREE.Matrix4().makeScale(0, 0, 0);
+const ejected = []; // the ones thrown out of their car, running off
+function stealCar(r, c) {
+  let speed0 = 0;
+  if (c.p) {
+    // a car (or bus) that is driving: out goes whoever was at the wheel, who runs off shouting
+    const t = CAR_TYPES[c.type], right = { x: Math.cos(c.yaw), z: -Math.sin(c.yaw) };
+    const who = createWalker({ name: t_('car.he'), silk: SHIRTS[Math.floor(Math.random() * SHIRTS.length)], cap: 0x222222, labelLayer: 0 }, Math.floor(Math.random() * 8));
+    who.root.position.set(c.pos.x + right.x * (t.w / 2 + 1), c.pos.y, c.pos.z + right.z * (t.w / 2 + 1));
+    who.root.rotation.y = Math.atan2(right.x, right.z);
+    scene.add(who.root);
+    ejected.push({ who, vx: right.x * 3.2, vz: right.z * 3.2, age: 0 });
+    speed0 = c.speed;
+    c.on = false;
+    const paint = c.paint;
+    if (paint) { paintedCars.delete(c); c.paint = null; } // its paint comes along
+    c = { type: c.type, c: c.c ?? 0xffffff, x: c.pos.x, z: c.pos.z, yaw: c.yaw, paint };
+    track.parkedCars?.push(c);
+  }
+  c.stolen = true;
+  for (const [im, i] of c.slots ?? []) { im.setMatrixAt(i, NO_CAR); im.instanceMatrix.needsUpdate = true; }
+  for (const t of c.cols ?? []) t.dead = true;
+  const model = c.model ?? carGroup(c.type, c.c ?? 0xdddddd);
+  c.model = model;
+  scene.add(model);
+  if (c.paint && c.paint.parent !== model) { model.add(c.paint); c.paint.position.set(0, 0, 0); c.paint.rotation.set(0, 0, 0); } // the paint on it drives off with it
+  r.car = c;
+  r.carNear = null;
+  r.speedFactor = 1.5; // a car is quicker than you on foot
+  r.pos.x = c.x;
+  r.pos.z = c.z;
+  r.yaw = c.yaw;
+  r.speed = speed0;
+  if (loud()) { sfx.bump(PAN[r.human]); buzz('tap'); }
+  syncJumpButton();
+}
+function leaveCar(r) {
+  const c = r.car, side = 2.6;
+  Object.assign(c, { x: r.pos.x, z: r.pos.z, yaw: r.yaw, stolen: false });
+  c.model.visible = true; // (hidden from the cab while you drove it)
+  addCarColliders(world.colliders.things, c); // it stands there now
+  r.car = null;
+  r.speedFactor = 1;
+  sfx.engine(null);
+  r.pos.x += Math.cos(r.yaw) * side;
+  r.pos.z -= Math.sin(r.yaw) * side;
+  r.speed = 0;
+  syncJumpButton();
+}
+// A borrowed bus or bin lorry is driven from its seat, looking out through the windscreen: where the
+// driver's eyes are (metres ahead of the middle, to the left, and up)
+const CABS = { bus: { z: 4.9, x: 0.62, y: 2.3 }, bins: { z: 3.55, x: 0.6, y: 2.5 } };
+const cabOf = r => (r.car && CABS[r.car.type]) || null;
+
+// which parked car, if any, is within reach (looked up a few times a second)
+function carTick(dt) {
+  for (let i = ejected.length - 1; i >= 0; i--) {
+    const e = ejected[i], p = e.who.root.position;
+    e.age += dt;
+    p.x += e.vx * dt;
+    p.z += e.vz * dt;
+    e.who.animate(dt, 3.2, 0, e.age);
+    if (e.age > 5) { scene.remove(e.who.root); ejected.splice(i, 1); }
+  }
+  const driver = humans.find(h => h.car && h.human === 0), pilot = humans.find(h => h.heli && h.human === 0);
+  // the helicopter's rotor, or a car's engine
+  const sounding = game.state === 'race' && sfx.sfxOn;
+  sfx.rotor(pilot && sounding ? clamp(Math.abs(pilot.speed) / HELI_SPEED + Math.abs(pilot.vy) / HELI_CLIMB, 0, 1) : null);
+  sfx.engine(driver && !pilot && sounding ? clamp(Math.abs(driver.speed) / (MAX_SPEED * 1.5), 0, 1) : null);
+  for (const r of humans) {
+    if (r.human < 0 || !borrowActive() || game.kind !== 'mission' || r.car) { if (r.carNear) r.carNear = null; continue; }
+    if ((r.carT = (r.carT ?? 0) - dt) > 0) continue;
+    r.carT = 0.2;
+    let best = null, bd = Infinity;
+    // the bus driver mission: only its bus (reached from its door side, it is long)
+    if (busQuest() && questBus && !questBus.stolen && r.y < 0.8 && (questBus.x - r.pos.x) ** 2 + (questBus.z - r.pos.z) ** 2 < 7 * 7) best = questBus;
+    if (paintballOn(r) && r.y < 0.8) for (const c of track.parkedCars ?? []) {
+      if (c.stolen) continue;
+      const d = (c.x - r.pos.x) ** 2 + (c.z - r.pos.z) ** 2;
+      if (d < 4.5 * 4.5 && d < bd) { bd = d; best = c; }
+    }
+    // and the cars and buses on the road, within reach of their sides
+    if (paintballOn(r) && r.y < 0.8) for (const c of city?.traffic?.cars ?? []) {
+      if (!c.on) continue;
+      const reach = CAR_TYPES[c.type].len / 2 + 3.5, d = (c.pos.x - r.pos.x) ** 2 + (c.pos.z - r.pos.z) ** 2;
+      if (d < reach * reach && d < bd) { bd = d; best = c; }
+    }
+    if (best !== r.carNear) { r.carNear = best; if (r.human === 0) syncJumpButton(); }
+  }
+}
+
+// The bus driver: the mission's bus, standing at its stop, a parked car to borrow (stealCar), and its
+// driver, who runs off to the toilet the moment the mission starts
+let questBus = null;
+function placeQuestBus(q) {
+  const { x, z, yaw } = q.busSpot, c = { type: 'bus', c: 0xf4f4f2, x, z, yaw, model: carGroup('bus', 0xf4f4f2) };
+  c.model.position.set(x, world.relief?.at(x, z) ?? 0, z);
+  c.model.rotation.y = yaw;
+  scene.add(c.model);
+  track.parkedCars?.push(c);
+  q.bus = questBus = c;
+}
+function dropQuestBus() {
+  if (!questBus) return;
+  scene.remove(questBus.model);
+  const list = track.parkedCars ?? [], i = list.indexOf(questBus);
+  if (i >= 0) list.splice(i, 1);
+  questBus = null;
+}
+function busDriverRuns() {
+  const c = questBus, t = CAR_TYPES.bus, right = { x: Math.cos(c.yaw), z: -Math.sin(c.yaw) };
+  const who = createWalker({ name: t_('bus.driver'), silk: 0xf4f4f2, cap: 0xffd200, labelLayer: 0 }, 3);
+  who.root.position.set(c.x + right.x * (t.w / 2 + 0.8), c.model.position.y, c.z + right.z * (t.w / 2 + 0.8));
+  const away = c.yaw + Math.PI * 0.75; // off along the pavement, behind the bus
+  who.root.rotation.y = away;
+  scene.add(who.root);
+  ejected.push({ who, vx: Math.sin(away) * 3.4, vz: Math.cos(away) * 3.4, age: 0 });
+  humans.forEach((h, p) => hudMsg(p, t_('bus.toilet'), 'gold'));
+}
+
+// Borrowing a car: with the paint gun on (any car or bus), or in the bus driver mission (only its bus)
+const busQuest = () => questing() && QUESTS[game.mission - 1]?.kind === 'bus';
+const borrowActive = () => paintballActive() || busQuest();
+
+// the round button by the stick: jump, or a tequila shot, or (with the paintball gun on) stealing a car and getting out of it
+let jumpKey = '';
+function syncJumpButton() {
+  const me = humans[0], free = !!me && game.kind === 'mission' && borrowActive();
+  document.body.classList.toggle('gunfree', free && paintballOn(me)); // (not from inside a borrowed car)
+  if (free && (me.car || me.carNear)) {
+    const label = t_(me.car ? 'car.exit' : 'car.steal'), icon = me.car ? '🚪' : '🚗';
+    if (jumpKey === label) return;
+    jumpKey = label;
+    $('tJump').querySelector('span').innerHTML = icon;
+    setText($('tJump').querySelector('small'), label);
+    $('tJump').setAttribute('aria-label', label);
+    return;
+  }
+  jumpKey = '';
+  // (with the gun the shots go on the shoot button, and this one jumps)
+  const tequila = questing() && !!QUESTS[game.mission - 1]?.tequila && !paintballActive();
+  const label = tequila ? t_('quest.tequila') : me?.heli ? t_('tb.up') : t_('tb.jump');
+  $('tJump').querySelector('span').innerHTML = tequila ? '<img src="/core/img/tequila.svg" alt="">' : '⤒';
+  $('tJump').classList.remove('charging');
+  setText($('tJump').querySelector('small'), label);
+  $('tJump').setAttribute('aria-label', label);
+}
+
 function jump(r) {
+  if (r.heli) return; // in the helicopter the jump key climbs (humanControl)
+  if (game.state === 'race' && game.kind === 'mission' && borrowActive() && r.human >= 0) {
+    // with the gun on (or the bus to drive): the jump button borrows the car beside you, and gets you out of it again
+    if (r.car) return leaveCar(r);
+    if (r.carNear) return stealCar(r, r.carNear);
+  }
+  if (game.state === 'race' && quest?.def.tequila && !paintballActive()) {
+    if (quest.throwTequila(r)) { sfx.throw(PAN[r.human]); buzz('tap'); }
+    return;
+  }
+  if (onTram(r)) return toggleSeat(r); // on the tram: inside to a seat, or back out
   if (riding(r) || !r.grounded || r.spinTime > 0 || r.rearTime > 0 || r.stunTime > 0) return;
   r.vy = JUMP_V;
   r.y += 0.001;
@@ -2729,7 +3904,8 @@ function jump(r) {
 }
 
 function stepRacer(r, dt, c) {
-  for (const k of ['stunTime', 'rearTime', 'stumbleTime', 'soakTime', 'invuln', 'obstacleCd', 'wallTimer']) {
+  if (r.heli) return stepHeli(r, dt, c);
+  for (const k of ['stunTime', 'rearTime', 'stumbleTime', 'soakTime', 'invuln', 'obstacleCd', 'wallTimer', 'railTime', 'railCd']) {
     r[k] = Math.max(0, r[k] - dt);
   }
   if (r.spinTime > 0) {
@@ -2740,6 +3916,16 @@ function stepRacer(r, dt, c) {
     if (r.spinTime <= 0) r.model.stars.visible = false;
   }
   if (r.stunTime > 0) c.throttle = 0;
+  if (r.railDown && r.railTime <= 0) {
+    r.railDown = false; // back up and on the bike
+    r.model.stars.visible = false;
+  }
+  if (r.railTime > 0) {
+    // come off on the tram rails: lying on the cobbles, the bike sliding to a stop
+    c.throttle = 0;
+    c.steer = 0;
+    r.speed = approach(r.speed, 0, RAIL_SLOW * dt);
+  }
 
   const airborne = !r.grounded;
   if (!airborne) {
@@ -2769,12 +3955,46 @@ function stepRacer(r, dt, c) {
   const was = { x: r.pos.x, z: r.pos.z, idx: r.idx, lat: r.lat };
   r.pos.x += Math.sin(r.yaw) * r.speed * dt;
   r.pos.z += Math.cos(r.yaw) * r.speed * dt;
-  if (roaming()) roamAbout(r, dt);
+  if (roaming()) { roamAbout(r, dt); if (!throughPortal(r, was)) railCheck(r, was); }
   else followTrack(r, dt);
   if (r.human >= 0) { inRoom(r); if (roaming()) intoDoor(r); }
   if (!roaming() && r.onRoute !== false) hitObstacles(r);
   stepHeight(r, dt, was, airborne);
   stepRelief(r, dt);
+}
+
+// Flying the police helicopter: forward and back, turning on the spot, up and down (c.lift), with
+// some weight to it. r.base is the ground below (or the water), r.y the height above it; low down
+// the buildings are in the way, higher up it flies over them. f: how it flies (HELI, or the DRAGON)
+function stepHeli(r, dt, c, f = HELI) {
+  const ground = (world.relief?.at(r.pos.x, r.pos.z) ?? 0) + f.floor;
+  const low = world.colliders && inWater(world.colliders, r.pos.x, r.pos.z) ? (waterLevel(world.colliders, r.pos.x, r.pos.z) ?? WATER) + Math.max(1.5, f.floor) : ground; // (it does not set down on the water)
+  const alt = r.base + r.y, landed = alt <= low + 0.02;
+  // pressing on near the ground lifts off by itself, so it goes as soon as you press forward
+  const lift = (c.lift ?? 0) || (c.throttle > 0 && alt - low < 6 ? 1 : 0);
+  r.heliFloor = low === ground ? ground : low - 1.5; // where its shadow falls: the ground, or the water
+  r.vy = approach(r.vy, lift * f.climb, (lift ? f.rise : f.sink) * dt);
+  const top = landed && lift <= 0 && !f.floor ? 4 : f.speed; // on its skids it only shuffles about
+  const want = c.throttle > 0 ? c.throttle * top : c.throttle < 0 ? c.throttle * top * 0.3 : 0;
+  r.speed = approach(r.speed, want, (want * r.speed < 0 ? f.accel * 1.5 : want ? f.accel : f.accel * 0.7) * dt); // pulling back brakes hard
+  r.steer = approach(r.steer, c.steer, 4 * dt);
+  r.yaw = wrapAngle(r.yaw + r.steer * f.turn * dt);
+  r.pos.x += Math.sin(r.yaw) * r.speed * dt;
+  r.pos.z += Math.cos(r.yaw) * r.speed * dt;
+  const h = clamp(alt + r.vy * dt, low, low + f.top);
+  if (h === low && r.vy < 0) r.vy = 0;
+  r.base = low;
+  r.y = h - low;
+  r.tilt = approach(r.tilt ?? 0, (want - r.speed) / f.speed * 0.6 + r.speed / f.speed * 0.12, 2 * dt); // nose down speeding up, up slowing down
+  r.bank = approach(r.bank ?? 0, -r.steer * Math.min(1, Math.abs(r.speed) / 15) * 0.3, 2 * dt);
+  if (r.y < f.low && world.colliders) {
+    const into = collide(world.colliders, r, f.radius);
+    if (into > 0) r.speed *= Math.exp(-into * 2.8 * dt);
+  }
+  if (r.human >= 0 && (r.streetT = (r.streetT ?? 0) - dt) <= 0) {
+    r.streetT = 0.3;
+    r.street = streetAt(world.colliders, r.pos.x, r.pos.z) || r.street;
+  }
 }
 
 // Up onto a bridge and down again. r.y is the height above the street; r.base is how high the
@@ -2807,7 +4027,9 @@ function roamAbout(r, dt) {
     r.lat = track.lateral(r.pos.x, r.pos.z, r.idx);
   }
   r.onRoute = near && Math.abs(r.lat) < track.hw + 0.3;
-  const into = Math.max(collide(world.colliders, r, HORSE_RADIUS), city.traffic?.push(r, HORSE_RADIUS) ?? 0);
+  // the trams too, but not the one just got off, still standing at the stop
+  const left = game.time < (r.tramLeftAt ?? -1) + 4 ? r.tramLeft : null;
+  const into = Math.max(collide(world.colliders, r, HORSE_RADIUS), city.traffic?.push(r, HORSE_RADIUS) ?? 0, city.trams?.push?.(r, HORSE_RADIUS, left) ?? 0);
   if (into > 0) {
     r.speed *= Math.exp(-into * 2.8 * dt);
     if (into * Math.abs(r.speed) > 7 && r.wallTimer <= 0) {
@@ -2819,8 +4041,11 @@ function roamAbout(r, dt) {
   // in the water you take a boat of the Bootjes van Gent: slower, with a wake behind it (but not
   // in the quest of the last boat: the boat you have to catch is the one waiting at the quay)
   r.afloat = r.base < 0.3 && !quest?.def.boat && inWater(world.colliders, r.pos.x, r.pos.z);
+  // (in the Blaarmeersen's lake you swim, on the Watersportbaan you row)
+  r.vessel = !r.afloat ? null : swimAt(world.colliders, r.pos.x, r.pos.z) ? 'swim'
+    : ROWING && r.pos.x > ROWING[0] && r.pos.z > ROWING[1] && r.pos.x < ROWING[2] && r.pos.z < ROWING[3] ? 'row' : 'tour';
   if (r.afloat) {
-    r.speed = approach(r.speed, clamp(r.speed, -REVERSE_MAX, BOAT_SPEED), 30 * dt);
+    r.speed = approach(r.speed, clamp(r.speed, -REVERSE_MAX, r.vessel === 'swim' ? SWIM_SPEED : BOAT_SPEED), 30 * dt);
     if (r.y < 0.3 && Math.random() < dt * Math.abs(r.speed) * 1.2) {
       const side = Math.random() < 0.5 ? -1 : 1;
       particles.spawn(r.pos.x - r.fx * 6 + r.fz * side * 0.8, (r.water ?? WATER) + 0.15, r.pos.z - r.fz * 6 - r.fx * side * 0.8, {
@@ -2832,6 +4057,44 @@ function roamAbout(r, dt) {
     r.streetT = 0.3;
     r.street = streetAt(world.colliders, r.pos.x, r.pos.z) || r.street;
   }
+}
+
+// A city's portals (<city>/city.js PORTALS; one with an href is a door to another page): ride into one's mouth, down where it opens, and you come
+// out at the other end, a little way up from its mouth, facing away from it at the speed you had (the
+// Kouter's car park and Dok Noord's are one in Ghent). `was` (where the rider was a step ago) goes
+// along, so nothing puts them back across town.
+const PORTAL_REACH = 2.2, PORTAL_OUT = 3.5;
+let goingTo = 0; // a door with an href (below) is on its way to the other page
+addEventListener('pageshow', e => { if (e.persisted) goingTo = 0; }); // back from it, from the browser's cache: the door works again
+function throughPortal(r, was) {
+  if (!PORTALS || r.human < 0 || game.state !== 'race' || riding(r)) return false;
+  for (const pt of PORTALS) {
+    if (Math.hypot(r.pos.x - pt.x, r.pos.z - pt.z) > PORTAL_REACH || (r.base > -1 && !pt.href)) continue; // (a car park's mouth is down on its ramp; a door is at street level)
+    // heading into the mouth, not up the ramp away from it
+    const into = -(Math.sin(r.yaw) * Math.sin(pt.yaw) + Math.cos(r.yaw) * Math.cos(pt.yaw)) * r.speed;
+    if (into < 0.5) continue;
+    if (pt.href) { // a door to another page: the inside of the church (ghentinside), or back out to the street
+      hudMsg(r.human, `${pt.icon ?? '🚪'} ${pt.name}`);
+      if (loud()) sfx.jump(PAN[r.human]);
+      r.speed = 0;
+      if (!goingTo) goingTo = setTimeout(() => location.assign(pt.href), 350);
+      return true;
+    }
+    const { x, z, yaw } = pt.to;
+    r.pos.x = was.x = x + Math.sin(yaw) * PORTAL_OUT;
+    r.pos.z = was.z = z + Math.cos(yaw) * PORTAL_OUT;
+    Object.assign(r, { yaw, speed: Math.abs(r.speed), onRoute: undefined, streetT: 0, base: world.relief?.at(r.pos.x, r.pos.z) ?? 0, baseV: 0 });
+    if (track.distTo(r.pos.x, r.pos.z) < track.hw + 4) {
+      r.idx = was.idx = track.nearest(r.pos.x, r.pos.z);
+      r.lat = was.lat = track.lateral(r.pos.x, r.pos.z, r.idx);
+    }
+    camYaw[r.human] = yaw;
+    particles.burst(r.pos.x, r.base + 1, r.pos.z, 24, { color: 0xffe680, speed: 5, up: 3, life: 0.7, size: 0.25, grow: 0.5, opacity: 0.9, drag: 3 });
+    if (loud()) sfx.jump(PAN[r.human]);
+    hudMsg(r.human, `${pt.icon ?? '🅿️'} ${pt.name}`);
+    return true;
+  }
+  return false;
 }
 
 // Up and down: jumps, and riding over the roofs of parked cars. Riding into a car you are too low
@@ -2994,6 +4257,69 @@ function pedestrianBump(r, x, y, z) {
   r.stumbleTime = Math.max(r.stumbleTime, STUMBLE_TIME * 0.6);
 }
 
+// ------------------------------------------------------------------ tram rails
+
+// On a bike, riding over the tram rails at too shallow an angle: the front wheel drops into the
+// rail's groove and you come off, as the cyclist in the tour does (js/tumble.js). Straight across,
+// or near enough, is fine.
+const RAIL_GAUGE = 1.435 * 1.25; // as the rails are laid (js/scenery.js osmTrams)
+const RAIL_ANGLE = 0.3; // radians, about 17 degrees: any shallower and the wheel goes in
+const RAIL_FALL = 2.6; // seconds on the ground before you are back on the bike
+const RAIL_SLOW = 6; // m/s², how fast the slide comes to a stop
+const RAIL_AGAIN = 10; // seconds back on the bike before the rails can throw you again
+let railCells = null;
+// the rails' segments in a grid, to find the ones near a point
+function railsNear(x, z) {
+  const C = 20, key = (i, j) => i * 100003 + j;
+  if (!railCells) {
+    railCells = new Map();
+    for (const t of TRACKS[0].map?.trams ?? []) {
+      for (let k = 0; k + 3 < t.p.length; k += 2) {
+        const ax = t.p[k], az = t.p[k + 1], bx = t.p[k + 2], bz = t.p[k + 3], L = Math.hypot(bx - ax, bz - az);
+        if (L < 1e-6) continue;
+        const seg = { ax, az, ux: (bx - ax) / L, uz: (bz - az) / L, L, y: Math.max(t.y?.[k / 2] ?? 0, t.y?.[k / 2 + 1] ?? 0) };
+        for (let i = Math.floor((Math.min(ax, bx) - 2) / C); i <= Math.floor((Math.max(ax, bx) + 2) / C); i++) {
+          for (let j = Math.floor((Math.min(az, bz) - 2) / C); j <= Math.floor((Math.max(az, bz) + 2) / C); j++) {
+            if (!railCells.has(key(i, j))) railCells.set(key(i, j), []);
+            railCells.get(key(i, j)).push(seg);
+          }
+        }
+      }
+    }
+  }
+  return railCells.get(key(Math.floor(x / C), Math.floor(z / C))) ?? [];
+}
+
+// Did this step take the bike over a rail, and at what angle?
+function railCheck(r, was) {
+  if (r.human < 0 || game.state !== 'race' || r.model.species !== 'bike') return;
+  if (r.railTime > 0 || r.railCd > 0 || !r.grounded || riding(r) || r.afloat || Math.abs(r.speed) < 1.5) return;
+  for (const g of railsNear(r.pos.x, r.pos.z)) {
+    if (Math.abs(r.base - g.y) > 1) continue; // up on a bridge over the tracks, or under one
+    const along = (r.pos.x - g.ax) * g.ux + (r.pos.z - g.az) * g.uz;
+    if (along < 0 || along > g.L) continue;
+    const d1 = (r.pos.z - g.az) * g.ux - (r.pos.x - g.ax) * g.uz, d0 = (was.z - g.az) * g.ux - (was.x - g.ax) * g.uz;
+    const over = [-1, 1].some(side => (d0 - side * RAIL_GAUGE / 2) * (d1 - side * RAIL_GAUGE / 2) < 0);
+    if (!over) continue;
+    // the angle between the bike and the rail
+    if (Math.abs(Math.sin(r.yaw) * g.uz - Math.cos(r.yaw) * g.ux) < Math.sin(RAIL_ANGLE)) railFall(r);
+    return;
+  }
+}
+
+function railFall(r) {
+  r.railTime = RAIL_FALL;
+  r.railDown = true;
+  r.railCd = RAIL_FALL + RAIL_AGAIN; // and once back on the bike, not again for a while
+  r.stunTime = Math.max(r.stunTime, RAIL_FALL);
+  r.railSide = Math.random() < 0.5 ? 1 : -1;
+  r.speed = Math.sign(r.speed) * Math.min(Math.abs(r.speed), 4); // the bike stops dead, it slides on a little
+  particles.burst(r.pos.x + r.fx, 0.3 + r.base, r.pos.z + r.fz, 12, { color: [0xb0a99f, 0x8d8379, 0xffd740], speed: 3, up: 3, gravity: 12, life: 0.6, size: 0.15, drag: 1 });
+  shout(true);
+  sfx.crash(PAN[r.human]); buzz('crash');
+  hudMsg(r.human, t_('msg.rails'), 'bad');
+}
+
 // ------------------------------------------------------------------ shouts
 
 // Somebody got startled: when a player caused it they say something out loud, picked at random.
@@ -3084,6 +4410,13 @@ function collect(r, pk) {
     sfx.pickup(pk.kind, PAN[r.human]); buzz('tap');
     restartAnim(huds[r.human].items, 'bump');
   }
+}
+
+// A julientje thrown to the students (the zombie quest): true when one went.
+function throwFries(r) {
+  if (game.state !== 'race' || !quest?.def.fries || !quest.throwFries(r)) return false;
+  sfx.throw(PAN[r.human]); buzz('tap');
+  return true;
 }
 
 function useItem(r, backward) {
@@ -3363,23 +4696,37 @@ function cloudArrives(c) {
 
 // ------------------------------------------------------------------ riding the tram
 
-// Riding about freely: stand still by a tram stop's sign for a moment and you are asked whether you
-// want to wait for the tram; say yes and the next one along comes soon. Once it halts you are on
+// Riding about freely: come onto a tram stop's platform (or by its sign) and you are asked straight
+// away whether you want to wait for the tram; say yes and the next one along comes soon: one already
+// close up the line, or else one put on the line at most TRAM_SUMMON metres off. Once it halts you are on
 // board, the camera swings out for the view while it takes you through the city, and you get off
 // whenever you like, at the stop nearest where the tram is (at the end of the line, everybody off).
 // r.tram: { sign } being asked, { sign, edge, at, t } waiting, { riding, t, edge, view } on board.
-const TRAM_NEAR = 7; // metres from the sign that count as standing at the stop
-const TRAM_ASK = 1.5; // seconds standing still there before you are asked
-const TRAM_GIVE_UP = 20; // metres: ride further off than this and you no longer wait
+const TRAM_NEAR = 7; // metres from the sign, or from the platform's middle line, that count as at the stop
+const TRAM_GIVE_UP = 20; // metres from the platform: ride further off than this and you no longer wait
+const TRAM_SUMMON = 50; // metres up the line from you: the furthest a tram you wait for is brought from
 const tramsOn = () => (exploring() && city?.trams && TRAM_STOPS?.length ? city.trams : null);
-const riding = r => !!r.tram?.riding;
+const onTram = r => !!r.tram?.riding;
+const riding = r => onTram(r) || onBus(r); // on a tram or a bus: it takes you along
+const seated = r => onBus(r) || !!r.tram?.seat; // inside, by a window
 const tramPos = new THREE.Vector3(), tramAhead = new THREE.Vector3();
 
-// the stop within reach of the rider (its sign, or its post on the platform: tramstops.js), nearest first
-function signNear(r) {
-  let best = null, bd = TRAM_NEAR;
+// how far the rider is from stop s: from its sign, its post, or anywhere along its platform (tramstops.js)
+function stopDist(s, r) {
+  let d = Math.hypot(s.x - r.pos.x, s.z - r.pos.z);
+  if (s.post) d = Math.min(d, Math.hypot(s.post.x - r.pos.x, s.post.z - r.pos.z));
+  if (s.platform) {
+    const [ax, az, bx, bz] = s.platform, dx = bx - ax, dz = bz - az;
+    const f = clamp(((r.pos.x - ax) * dx + (r.pos.z - az) * dz) / (dx * dx + dz * dz || 1), 0, 1);
+    d = Math.min(d, Math.hypot(ax + dx * f - r.pos.x, az + dz * f - r.pos.z));
+  }
+  return d;
+}
+// the stop within reach of the rider, nearest first
+function signNear(r, reach = TRAM_NEAR) {
+  let best = null, bd = reach;
   for (const s of TRAM_STOPS) {
-    const d = Math.min(Math.hypot(s.x - r.pos.x, s.z - r.pos.z), s.post ? Math.hypot(s.post.x - r.pos.x, s.post.z - r.pos.z) : Infinity);
+    const d = stopDist(s, r);
     if (d < bd) { best = s; bd = d; }
   }
   return best;
@@ -3403,21 +4750,42 @@ function nextTram(T, sign) {
 function updateTram(r, dt) {
   const T = tramsOn();
   if (!T) { if (r.tram) leaveTram(r); return; }
-  if (riding(r)) return rideTram(r, T, dt);
+  if (onTram(r)) return rideTram(r, T, dt);
+  if (onBus(r)) { r.tram = null; return; }
   const w = r.tram;
   if (w?.edge) {
     // waiting: for the tram summoned, until it halts here with its doors open
-    if (Math.hypot(w.sign.x - r.pos.x, w.sign.z - r.pos.z) > TRAM_GIVE_UP) { r.tram = null; return; }
-    if (!w.t || w.t.edge !== w.edge || w.t.head > w.at + T.LENGTH / 2 + 1) w.t = T.fleet.summon(w.edge, w.at, r.pos.x, r.pos.z, busyTrams(r));
+    if (stopDist(w.sign, r) > TRAM_GIVE_UP) { r.tram = null; return; }
+    if (!w.t || w.t.edge !== w.edge || w.t.head > w.at + T.LENGTH / 2 + 1) w.t = T.fleet.summon(w.edge, w.at, r.pos.x, r.pos.z, busyTrams(r), TRAM_SUMMON + 30, TRAM_SUMMON + T.LENGTH / 2);
     if (w.t?.stopped && Math.abs(w.t.served - (w.at + T.LENGTH / 2)) < 1) boardTram(r, w.t, w.edge);
     return;
   }
-  // standing still at a stop: after a moment, the question (not again until you have ridden on)
-  const sign = Math.abs(r.speed) < 0.5 && !r.afloat ? signNear(r) : null;
-  if (Math.abs(r.speed) > 3) r.tramQuiet = false;
-  r.tramStill = sign && sign === r.tramSign && !r.tramQuiet ? r.tramStill + dt : 0;
-  r.tramSign = sign;
-  r.tram = r.tramStill > TRAM_ASK ? { sign } : null;
+  // beside a tram that is halting, or nearly: get on it? Always (only not the one you got off a
+  // moment ago). At a stop with no tram there, still or riding along its platform: wait for one?
+  // (After you said no, or got off here, not that again until you have left the stop.)
+  const ok = !r.afloat && r.y < 0.3;
+  const sign = ok ? signNear(r) : null, near = ok ? tramBeside(T, r, sign, game.time < (r.tramLeftAt ?? -1) + 4 ? r.tramLeft : null) : null;
+  if (!signNear(r, TRAM_NEAR + 6)) r.tramQuiet = false;
+  r.tram = near ? { sign, near } : sign && !r.tramQuiet ? { sign } : null;
+}
+
+// A tram standing still or nearly, alongside the rider: within a few metres of its side, or, with
+// the rider at stop `sign`, alongside that stop's platform. The nearest.
+const TRAM_BESIDE = 4.5, TRAM_SLOW = 4; // metres from its middle line; m/s
+function tramBeside(T, r, sign, but = null) {
+  const at = sign?.platform ? [(sign.platform[0] + sign.platform[2]) / 2, (sign.platform[1] + sign.platform[3]) / 2] : sign ? [sign.x, sign.z] : null;
+  let best = null, bd = Infinity;
+  for (const t of T.fleet.list) {
+    if (t === but || t.ended || t.v > TRAM_SLOW || (t.nose[0] - r.pos.x) ** 2 + (t.nose[2] - r.pos.z) ** 2 > (T.LENGTH + 40) ** 2) continue;
+    for (let k = 1; k < T.LENGTH; k += 3) {
+      behind(t, k, tramPos);
+      const d = Math.hypot(tramPos.x - r.pos.x, tramPos.z - r.pos.z);
+      // by the platform: some of the tram within the platform's half-length plus a bit of its middle
+      const by = at && Math.hypot(tramPos.x - at[0], tramPos.z - at[1]) < 24;
+      if ((d < TRAM_BESIDE || by) && d < bd) { best = t; bd = d; }
+    }
+  }
+  return best;
 }
 
 const busyTrams = (but = null) => new Set(humans.filter(o => o !== but && o.tram?.t).map(o => o.tram.t));
@@ -3426,19 +4794,48 @@ const busyTrams = (but = null) => new Set(humans.filter(o => o !== but && o.tram
 // there is no tram to answer, so the key does what it always does.
 function tramAction(r) {
   const T = tramsOn();
+  if (r.bus && busAction(r)) return true;
   if (!T || !r.tram) return false;
-  if (riding(r)) leaveTram(r);
+  if (onTram(r)) {
+    // get off: first which stop it would be, then (yes) out at it
+    if (r.tram.ask) leaveTram(r, false, r.tram.ask);
+    else r.tram.ask = exitStop(T, r.tram);
+    sfx.ui();
+  } else if (r.tram.near) boardTram(r, r.tram.near, r.tram.near.edge);
   else if (r.tram.edge) { r.tram = null; r.tramQuiet = true; } // changed your mind: not asked again till you ride on
   else {
     const sign = r.tram.sign, [, [run, at]] = nextTram(T, sign), edge = T.net.edges[run];
-    r.tram = { sign, edge, at, t: T.fleet.summon(edge, at, r.pos.x, r.pos.z, busyTrams(r)) };
+    toPlatform(r, sign);
+    r.tram = { sign, edge, at, t: T.fleet.summon(edge, at, r.pos.x, r.pos.z, busyTrams(r), TRAM_SUMMON + 30, TRAM_SUMMON + T.LENGTH / 2) };
     sfx.ui();
   }
   return true;
 }
 
+// Off to wait on stop s's platform: from wherever by the stop onto the nearest spot along its middle
+// (clear of its ends), looking along the track, and there you sit down to wait.
+function toPlatform(r, s) {
+  let x = s.post?.x ?? s.x, z = s.post?.z ?? s.z, yaw = r.yaw;
+  if (s.platform) {
+    const [ax, az, bx, bz] = s.platform, dx = bx - ax, dz = bz - az, L = Math.hypot(dx, dz) || 1;
+    const f = clamp(((r.pos.x - ax) * dx + (r.pos.z - az) * dz) / (L * L), Math.min(0.5, 3 / L), Math.max(0.5, 1 - 3 / L));
+    [x, z] = [ax + dx * f, az + dz * f];
+    yaw = Math.atan2(dx, dz);
+    if (Math.cos(yaw - r.yaw) < 0) yaw = wrapAngle(yaw + Math.PI); // the way along it you were going
+  }
+  if (Math.hypot(x - r.pos.x, z - r.pos.z) > 0.5) {
+    particles.burst(r.pos.x, 1, r.pos.z, 16, { color: 0xffe680, speed: 4, up: 3, life: 0.6, size: 0.22, grow: 0.5, opacity: 0.9, drag: 3 });
+    r.pos.x = x;
+    r.pos.z = z;
+    r.base = world.relief?.at(x, z) ?? r.base; // up on the platform
+    r.baseV = 0;
+  }
+  Object.assign(r, { yaw, speed: 0, steer: 0, vy: 0, y: 0 });
+  if (r.human >= 0) camYaw[r.human] = yaw;
+}
+
 function boardTram(r, t, edge) {
-  r.tram = { riding: true, t, edge, view: 0, cam: null };
+  r.tram = { riding: true, t, edge, view: 0, cam: null, seat: false, ask: null };
   t.wait = Math.min(t.wait, 2.5); // the doors close behind you
   Object.assign(r, { speed: 0, steer: 0, vy: 0, y: 0, stumbleTime: 0, spinTime: 0 });
   r.model.stars.visible = false;
@@ -3466,16 +4863,36 @@ function rideTram(r, T, dt) {
   }
 }
 
-// Off the tram, at its stop nearest where it is now: beside the sign, facing the way the tram went.
-function leaveTram(r, end = false) {
+// The stops of the tram's line with how far along it they are, and where the tram is (its middle).
+function lineStops(T, ride) {
+  const run = T.net.edges.indexOf(ride.edge), here = ride.t.head - T.LENGTH / 2, list = [];
+  for (const s of TRAM_STOPS) for (const [k, at] of s.serves) if (k === run) list.push({ s, at });
+  return { here, list };
+}
+const EXIT_NEAR = 20; // metres: a stop this close (coming up, or halted at) is where you get off
+// Where you get off when you ask: the stop the tram is at or nearly at, or else the last one it passed.
+function exitStop(T, ride) {
+  const { here, list } = lineStops(T, ride);
+  let near = null, last = null;
+  for (const o of list) {
+    if (!near || Math.abs(o.at - here) < Math.abs(near.at - here)) near = o;
+    if (o.at < here && (!last || o.at > last.at)) last = o;
+  }
+  return (near && Math.abs(near.at - here) <= EXIT_NEAR ? near : last ?? near)?.s ?? null;
+}
+
+// Off the tram: at the stop given, or else at its stop nearest where it is now. Beside the sign,
+// facing the way the tram went.
+function leaveTram(r, end = false, stop = null) {
   const T = city?.trams, ride = r.tram;
   r.tram = null;
   r.tramQuiet = true;
+  if (ride?.riding) Object.assign(r, { tramLeft: ride.t, tramLeftAt: game.time });
   if (!ride?.riding || !T) return;
-  const run = T.net.edges.indexOf(ride.edge), here = ride.t.head - T.LENGTH / 2;
-  let best = null, bd = Infinity;
-  for (const s of TRAM_STOPS) {
-    for (const [k, at] of s.serves) if (k === run && Math.abs(at - here) < bd) { best = s; bd = Math.abs(at - here); }
+  let best = stop, bd = Infinity;
+  if (!best) {
+    const { here, list } = lineStops(T, ride);
+    for (const o of list) if (Math.abs(o.at - here) < bd) { best = o.s; bd = Math.abs(o.at - here); }
   }
   if (!best) return;
   const ux = Math.cos(best.a), uz = Math.sin(best.a), yaw = Math.atan2(ux, uz);
@@ -3488,7 +4905,6 @@ function leaveTram(r, end = false) {
   particles.burst(r.pos.x, 1, r.pos.z, 18, { color: 0xffe680, speed: 4, up: 3, life: 0.6, size: 0.22, grow: 0.5, opacity: 0.9, drag: 3 });
 }
 
-// The card: the question at a stop, then the tram on its way, then where it goes and stops next.
 // By a door: which building it is and how to go in, or, inside, the way back out to the street.
 function updateDoorCard(h, r, p) {
   const d = p < game.players ? doorBy(r) : null;
@@ -3501,35 +4917,221 @@ function updateDoorCard(h, r, p) {
   setText(h.doorKey, touch.on && p === 0 ? t_('door.tap') : ctl(p).label.fire);
 }
 
-function updateTramCard(h, r, p) {
-  const T = tramsOn(), w = r.tram;
-  h.tram.classList.toggle('show', !!(T && w));
-  if (!T || !w) return;
-  const hint = (key, tap) => (touch.on && p === 0 ? t_(tap) : t_(key, { key: ctl(p).label.fire }));
-  if (riding(r)) {
-    const l = w.edge.line, along = w.t.head - T.LENGTH / 2;
-    const next = l.stops.find(st => st.at > along + 5);
-    badge(h, l);
-    setText(h.tramLabel, next ? t_('tram.next', { name: next.name }) : '');
-    setText(h.tramName, `→ ${l.to}`);
-    setHtml(h.tramText, hint('tram.exitKey', 'tram.exitTap'));
-  } else if (w.edge) {
-    const l = w.edge.line, d = w.t ? Math.max(0, w.at + T.LENGTH / 2 - w.t.head) : null;
-    badge(h, l);
-    setText(h.tramLabel, `${t_('tram.stop')} · ${w.sign.name}`);
-    setText(h.tramName, `→ ${l.to}`);
-    setText(h.tramText, t_('tram.coming') + (d != null && d > 15 ? ` · ${Math.round(d / 10) * 10} m` : ''));
-  } else {
-    badge(h, null);
-    setText(h.tramLabel, t_('tram.stop'));
-    setText(h.tramName, w.sign.name);
-    const via = [...new Map(w.sign.serves.map(([run]) => T.net.edges[run].line).map(l => [l.ref + l.to, l])).values()];
-    setHtml(h.tramText, `${via.map(l => `${l.ref} → ${l.to}`).join(' · ')}<br>${hint('tram.askKey', 'tram.askTap')}`);
+// Inside the tram, sitting by a window, or back out for the view from outside (the jump key, or the
+// card's button). On a bus you are always inside.
+function toggleSeat(r) {
+  if (!onTram(r)) return;
+  r.tram.seat = !r.tram.seat;
+  r.tram.cam = null; // the outside view starts again from where the camera is
+  sfx.ui();
+}
+
+// ------------------------------------------------------------------ riding the bus
+
+// Riding about freely, pass close by a bus and you are asked whether you want to get on; say yes
+// and you are sitting inside by a window, looking out at the city going by. Ask to get off and
+// you do at its next stop (straight away when it is standing still), on the pavement beside it.
+// r.bus: { c } being asked, { riding, c, off, x, z, yaw, y } on board (where it last was).
+const BUS_NEAR = 3.5; // metres from its side, nose or tail
+const busesOn = () => (exploring() && city?.traffic ? city.traffic : null);
+const onBus = r => !!r.bus?.riding;
+
+// the bus within reach of the rider, nearest first, and how far off it is
+function busNear(r, reach) {
+  let best = null, bd = reach;
+  for (const c of city.traffic.cars) {
+    if (!c.on || !c.bus) continue;
+    const dx = r.pos.x - c.pos.x, dz = r.pos.z - c.pos.z, fx = Math.sin(c.yaw), fz = Math.cos(c.yaw);
+    const along = Math.abs(dx * fx + dz * fz) - 6, side = Math.abs(dx * fz - dz * fx) - 1.3;
+    const d = Math.hypot(Math.max(0, along), Math.max(0, side));
+    if (d < bd) { best = c; bd = d; }
+  }
+  return [best, bd];
+}
+
+function updateBus(r, dt) {
+  const T = busesOn();
+  if (!T) { if (r.bus) leaveBus(r); return; }
+  if (onBus(r)) return rideBus(r, dt);
+  // not while on the tram or waiting for one, nor afloat or in the air
+  if (r.tram || r.afloat || r.y > 0.3) { r.bus = null; return; }
+  const [c] = busNear(r, BUS_NEAR);
+  // the one you said no to, or just got off, does not ask again until you are clear of it
+  if (r.busQuiet && busNear(r, BUS_NEAR + 4)[0] !== r.busQuiet) r.busQuiet = null;
+  r.bus = c && c !== r.busQuiet ? { c } : null;
+}
+
+// The fire key (or a tap on the card) by a bus: get on; on board: get off (at the next stop).
+function busAction(r) {
+  if (!busesOn() || !r.bus) return false;
+  if (!onBus(r)) boardBus(r, r.bus.c);
+  else if (r.bus.ask) {
+    // confirmed: back at the last stop, straight away; or at the one it is at / coming up, when it halts
+    const { at, back } = r.bus.ask;
+    r.bus.ask = null;
+    if (back) leaveBus(r, false, at);
+    else if (r.bus.c.wait > 0 || r.bus.c.speed < 0.5) leaveBus(r);
+    else r.bus.off = true;
+  } else if (r.bus.off) r.bus.off = false; // not stopping after all
+  else r.bus.ask = busExitStop(r.bus);
+  sfx.ui();
+  return true;
+}
+
+function boardBus(r, c) {
+  r.tram = null;
+  r.bus = { riding: true, c, off: false, x: c.pos.x, z: c.pos.z, y: c.pos.y, yaw: c.yaw };
+  Object.assign(r, { speed: 0, steer: 0, vy: 0, y: 0, stumbleTime: 0, spinTime: 0 });
+  r.model.stars.visible = false;
+  hudMsg(r.human, t_('bus.on'), 'good');
+  sfx.jump(PAN[r.human]);
+}
+
+// On board: the rider goes where the bus is, looking the way it goes. It may be gone (the end of
+// its line), or taken off for a street somewhere else: then off you get where it last was.
+function rideBus(r, dt) {
+  const b = r.bus, c = b.c;
+  if (!c.on || Math.hypot(c.pos.x - b.x, c.pos.z - b.z) > 20) return leaveBus(r, true);
+  if (b.off && c.wait > 0) return leaveBus(r);
+  Object.assign(b, { x: c.pos.x, z: c.pos.z, y: c.pos.y, yaw: c.yaw });
+  r.pos.set(c.pos.x, 0, c.pos.z);
+  r.base = c.pos.y;
+  r.yaw = c.yaw;
+  r.speed = c.speed;
+  if ((r.streetT = (r.streetT ?? 0) - dt) <= 0) {
+    r.streetT = 0.3;
+    r.street = streetAt(world.colliders, r.pos.x, r.pos.z) || r.street;
   }
 }
-function badge(h, line) {
+
+// Where you get off when you ask, as the tram does: the stop it is at or nearly at (it halts there,
+// or is about to), or else the last one it halted at. { stop, back }: back when it is behind us.
+function busExitStop(b) {
+  const T = city.traffic, c = b.c;
+  const at = T.nextStop(c), next = at && busStopNear(at.x, at.z, 40);
+  if (next && (c.wait > 0 || Math.hypot(at.x - c.pos.x, at.z - c.pos.z) <= EXIT_NEAR)) return { stop: next, back: false };
+  const was = T.prevStop(c), prev = was && busStopNear(was.x, was.z, 40);
+  if (prev) return { stop: prev, back: true, at: was };
+  return next ? { stop: next, back: false } : { stop: null, back: false };
+}
+
+// Off the bus: on the pavement to the right of it, by its middle door, facing the way it goes; or,
+// at a stop given (the last one), on the pavement there.
+function leaveBus(r, end = false, at = null) {
+  const b = r.bus;
+  r.bus = null;
+  if (!b?.riding) return;
+  r.busQuiet = b.c;
+  const fx = Math.sin(b.yaw), fz = Math.cos(b.yaw);
+  if (at) r.pos.set(at.x - fz * 2.4, 0, at.z + fx * 2.4);
+  else r.pos.set(b.x - fz * 2.4, 0, b.z + fx * 2.4);
+  Object.assign(r, { yaw: b.yaw, speed: 0, steer: 0, y: 0, vy: 0, ground: 0, base: world.relief?.at(r.pos.x, r.pos.z) ?? 0, baseV: 0, onRoute: undefined });
+  camYaw[r.human] = b.yaw;
+  const stop = !end && busStopNear(r.pos.x, r.pos.z, 30);
+  hudMsg(r.human, end ? t_('bus.end') : stop ? t_('bus.offAt', { name: stop.name }) : t_('bus.off'), 'good');
+  particles.burst(r.pos.x, 1, r.pos.z, 18, { color: 0xffe680, speed: 4, up: 3, life: 0.6, size: 0.22, grow: 0.5, opacity: 0.9, drag: 3 });
+}
+
+// the bus stop (the city's STOPS) nearest (x, z), within reach metres
+function busStopNear(x, z, reach) {
+  let best = null, bd = reach;
+  for (const s of STOPS ?? []) {
+    if (s.kind !== 'bus') continue;
+    const d = Math.hypot(s.x - x, s.z - z);
+    if (d < bd) { best = s; bd = d; }
+  }
+  return best;
+}
+
+// The card for the tram or the bus: a big TRAM (or BUS) over the question at a stop, the tram on
+// its way, or one halting there to get on; and a button for it, as well as the key. On board it is a
+// bar right across the top instead, with nothing else up there: where it goes, the next stop, and
+// the button to get off (or Enter, or Escape), which first asks at which stop: yes, or no after all.
+function updateTramCard(h, r, p) {
+  const T = tramsOn(), w = r.tram, keys = !(touch.on && p === 0);
+  const c = r.bus && busesOn() ? busCard(r) : T && w ? tramCard(T, r, w, keys) : null;
+  const on = !!c?.on;
+  h.tram.classList.toggle('show', !!c);
+  h.tram.classList.toggle('aboard', on);
+  h.el.classList.toggle('aboard', on);
+  h.el.classList.toggle('tramnear', !!c); // the sight's card makes way for it
+  h.street.classList.toggle('aboard', on);
+  if (!c) return;
+  if (!on) placeTramCard(h);
+  else if (h.tram.style.top) h.tram.style.top = '';
+  setText(h.tramHead, c.head);
+  badge(h, c.line, c.icon);
+  setText(h.tramLabel, c.label);
+  setText(h.tramName, c.name);
+  setHtml(h.tramText, c.text ?? '');
+  const key = ctl(p).label.fire;
+  setText(h.tramGo, keys ? `${c.go} · ${on && !c.cancel ? `${key} / ESC` : key}` : c.go);
+  h.tramSeat.hidden = !c.seat && !c.cancel;
+  if (c.cancel) setText(h.tramSeat, keys ? `${c.cancel} · ESC` : c.cancel);
+  else if (c.seat) setText(h.tramSeat, `${w.seat ? t_('tram.stand') : t_('tram.sit')}${keys ? ` · ${ctl(p).label.jump}` : ''}`);
+}
+
+function tramCard(T, r, w, keys) {
+  if (onTram(r)) {
+    const l = w.edge.line, along = w.t.head - T.LENGTH / 2;
+    const next = l.stops.find(st => st.at > along + 5);
+    // asked to get off: at which stop, yes or no
+    if (w.ask) return { on: true, head: t_('tram.headOn'), line: l, label: '', name: t_('tram.askOff', { name: w.ask.name }), go: t_('tram.btnYes'), cancel: t_('tram.btnCancel') };
+    return {
+      on: true, seat: true, head: t_('tram.headOn'), line: l,
+      label: next ? t_('tram.next', { name: next.name }) : '',
+      name: `→ ${l.to}`,
+      text: keys && !w.seat ? t_('tram.lookKey') : '',
+      go: t_('tram.btnGetOff'),
+    };
+  }
+  if (w.near) {
+    const l = w.near.edge.line;
+    return { head: t_('tram.head'), line: l, label: w.sign ? `${t_('tram.stop')} · ${w.sign.name}` : t_('tram.label'), name: t_('tram.board', { ref: l.ref, to: l.to }), go: t_('tram.btnBoard') };
+  }
+  if (w.edge) {
+    const l = w.edge.line, d = w.t ? Math.max(0, w.at + T.LENGTH / 2 - w.t.head) : null;
+    return {
+      head: t_('tram.head'), line: l, label: `${t_('tram.stop')} · ${w.sign.name}`, name: `→ ${l.to}`,
+      text: t_('tram.coming') + (d != null && d > 15 ? ` · ${Math.round(d / 10) * 10} m` : ''), go: t_('tram.btnCancel'),
+    };
+  }
+  const via = [...new Map(w.sign.serves.map(([run]) => T.net.edges[run].line).map(l => [l.ref + l.to, l])).values()];
+  return { head: t_('tram.head'), label: t_('tram.stop'), name: w.sign.name, text: via.map(l => `${l.ref} → ${l.to}`).join(' · '), go: t_('tram.btnWait') };
+}
+
+function busCard(r) {
+  const b = r.bus, ref = b.c.p.ref, line = ref ? { ref } : null;
+  if (!onBus(r)) return { head: t_('bus.head'), line, icon: '🚌', label: t_('bus.label'), name: t_('bus.ask'), go: t_('bus.btnBoard') };
+  if ((b.nextT = (b.nextT ?? 0) - 1) <= 0) {
+    b.nextT = 20; // every so many frames: where it halts next
+    const at = city.traffic.nextStop(b.c);
+    b.next = at && busStopNear(at.x, at.z, 40);
+  }
+  if (b.ask?.stop) return { on: true, head: t_('bus.headOn'), line, icon: '🚌', label: '', name: t_('tram.askOff', { name: b.ask.stop.name }), go: t_('tram.btnYes'), cancel: t_('tram.btnCancel') };
+  return {
+    on: true, head: t_('bus.headOn'), line, icon: '🚌',
+    label: b.next ? t_('tram.next', { name: b.next.name }) : t_('bus.label'),
+    name: ref ? t_('bus.line', { ref }) : t_('bus.label'),
+    text: b.off ? t_('bus.stopping') : '',
+    go: b.off ? t_('tram.btnStay') : t_('tram.btnOff'),
+  };
+}
+// Under what sits at the top above it (the minimap, and the street sign with the 🗺️ label under it:
+// in the middle, or on a phone down the left), never over it.
+function placeTramCard(h) {
+  const box = h.el.getBoundingClientRect(), card = h.tram.getBoundingClientRect();
+  let low = 0;
+  for (const e of [$('minimap'), h.street]) {
+    const b = e.getBoundingClientRect();
+    if (b.height && b.left < card.right && b.right > card.left) low = Math.max(low, b.bottom);
+  }
+  const top = low ? `${Math.round(low - box.top + 10)}px` : '';
+  if (h.tram.style.top !== top) h.tram.style.top = top;
+}
+function badge(h, line, icon = '🚋') {
   h.tramBadge.classList.toggle('plain', !line);
-  setText(h.tramBadge, line ? line.ref : '🚋');
+  setText(h.tramBadge, line ? line.ref : icon);
   h.tramBadge.style.setProperty('--line', line?.colour ?? '');
 }
 function setHtml(el, v) {
@@ -3546,35 +5148,78 @@ function updateVisuals(r, dt, t) {
     if (r.boat) r.boat.visible = false;
     return;
   }
+  if (r.heli) {
+    // flying the helicopter, its rotors turning faster the harder it works
+    if (!r.heliModel) scene.add(r.heliModel = helicopter());
+    const hm = r.heliModel;
+    hm.position.set(r.pos.x, r.base + r.y, r.pos.z);
+    hm.rotation.set(r.tilt ?? 0, r.yaw, r.bank ?? 0, 'YXZ');
+    hm.userData.spin(t, game.state === 'race' || r.y > 0.1 ? 1 : 0.2);
+    hm.userData.rope(quest?.rope(r) ?? 0);
+    // its shadow on the ground (or the water) right below, sharp and dark close down, fading higher up
+    if (!r.heliShadow) scene.add(r.heliShadow = heliShadow());
+    const fade = clamp(1 - r.y / 70, 0, 1);
+    r.heliShadow.visible = fade > 0;
+    r.heliShadow.position.set(r.pos.x, (r.heliFloor ?? r.base) + 0.08, r.pos.z);
+    r.heliShadow.rotation.y = r.yaw;
+    r.heliShadow.scale.setScalar(1 + r.y / 160); // a little wider the higher it flies
+    r.heliShadow.material.opacity = 0.45 * fade;
+    m.root.visible = false;
+    if (r.boat) r.boat.visible = false;
+    return;
+  }
+  if (r.car) {
+    // driving a stolen car: the car goes where the rider goes
+    r.car.model.position.set(r.pos.x, r.base + r.y, r.pos.z);
+    r.car.model.rotation.set(0, r.yaw, 0);
+    r.car.model.visible = !(cabOf(r) && game.players === 1); // driving from the cab: the view is out through the windscreen, not the bus's own insides
+    m.root.visible = false;
+    return;
+  }
   m.root.position.set(r.pos.x, r.base + r.y, r.pos.z);
   m.root.rotation.y = r.yaw;
   // in the water the rider is in a boat of the Bootjes van Gent instead, at its wheel
-  if (r.afloat && !r.boat) scene.add(r.boat = tourBoat());
+  if (r.boat && r.afloat && r.boat.userData.vessel !== r.vessel) { scene.remove(r.boat); r.boat = null; }
+  if (r.afloat && !r.boat) {
+    scene.add(r.boat = r.vessel === 'swim' ? swimmer() : r.vessel === 'row' ? rowingBoat() : tourBoat());
+    r.boat.userData.vessel = r.vessel;
+  }
   if (r.boat) {
     r.boat.visible = r.afloat;
     if (r.afloat) {
       r.boat.position.set(r.pos.x, (r.water ?? WATER) + r.y + Math.sin(t * 1.3 + r.i) * 0.05, r.pos.z);
       r.boat.rotation.set(Math.sin(t * 0.9 + r.i) * 0.015, r.yaw, -r.steer * Math.min(1, Math.abs(r.speed) / BOAT_SPEED) * 0.08, 'YXZ');
+      r.boat.userData.stroke?.(t, r.speed);
       m.root.visible = false;
       return;
     }
+  }
+  if (r.railTime > 0) {
+    // come off on the tram rails: over on its side, the rider on the cobbles (js/tumble.js)
+    fallPose(m, RAIL_FALL - r.railTime, t, r.railSide, 0);
+    m.root.visible = true;
+    return;
   }
   if (r.spinTime > 0) {
     const k = 1 - r.spinTime / SPIN_TIME;
     m.spin.rotation.y = (1 - Math.pow(1 - k, 3)) * Math.PI * 4;
     m.spin.position.y = Math.sin(k * Math.PI) * 0.6;
   } else {
-    m.spin.rotation.y = 0;
-    m.spin.position.y = 0;
+    m.spin.rotation.set(0, 0, 0);
+    m.spin.position.set(0, 0, 0);
   }
   m.root.visible = !(r.invuln > 0 && r.spinTime <= 0 && r.rearTime <= 0 && Math.floor(t * 16) % 2 === 0);
 
   const before = Math.floor(m.phase / (Math.PI / 2));
+  // waiting for the tram, standing still: off the mount and sat on the ground beside it
+  r.sitK = (r.sitK ?? 0) + ((r.tram?.edge && !riding(r) && Math.abs(r.speed) < 0.5 ? 1 : 0) - (r.sitK ?? 0)) * Math.min(1, dt * 2.5);
   m.animate(dt, r.speed, r.steer, t, {
+    sit: r.sitK > 0.01 ? r.sitK : 0,
     air: clamp((r.y - r.ground) / 0.4, 0, 1),
     vy: r.vy,
     rear: r.rearTime > 0 ? 1 - r.rearTime / REAR_TIME : 0,
     stumble: r.stumbleTime > 0 ? 1 - r.stumbleTime / STUMBLE_TIME : 0,
+    gun: paintballOn(r),
   });
   const sp = Math.abs(r.speed);
   if (r.human >= 0 && !m.quiet && loud() && r.grounded && sp > 2 && Math.floor(m.phase / (Math.PI / 2)) !== before) {
@@ -3629,6 +5274,32 @@ function updateCameras(dt, t, order) {
       cam.position.set(r.pos.x + ox * dist, r.base + 4.1 + (1 - e) * 1.2, r.pos.z + oz * dist);
       cam.lookAt(r.pos.x + r.fx * 6 * e, r.base + 1.7, r.pos.z + r.fz * 6 * e);
       camYaw[p] = r.yaw;
+    } else if (r.heli && !r.finished) {
+      // behind and above the helicopter, swinging round after it, looking down a little more the higher it flies
+      camYaw[p] += wrapAngle(r.yaw - camYaw[p]) * (1 - Math.exp(-dt * 2.5));
+      const fx = Math.sin(camYaw[p]), fz = Math.cos(camYaw[p]), up = Math.min(1, r.y / 60);
+      const back = 20 + up * 8, alt = r.base + r.y;
+      cam.position.set(r.pos.x - fx * back, alt + 7 + up * 6, r.pos.z - fz * back);
+      cam.lookAt(r.pos.x + fx * 14, alt + 2 - up * 8, r.pos.z + fz * 14);
+      fov = 64 + (Math.max(0, r.speed) / HELI_SPEED) * 8;
+    } else if (cabOf(r)) {
+      // at the wheel of a borrowed bus or bin lorry: from the driver's seat, out through the windscreen
+      // (the cab's pillars, dashboard and steering wheel are drawn over it: .cabview)
+      const cab = cabOf(r), fx = Math.sin(r.yaw), fz = Math.cos(r.yaw), lx = fz, lz = -fx;
+      const shake = Math.sin(t * 17) * 0.012 * Math.min(1, Math.abs(r.speed) / 8);
+      cam.position.set(r.pos.x + fx * cab.z + lx * cab.x, r.base + r.y + cab.y + shake, r.pos.z + fz * cab.z + lz * cab.x);
+      cam.lookAt(cam.position.x + fx * 20, cam.position.y - 1.4, cam.position.z + fz * 20);
+      camYaw[p] = r.yaw;
+      fov = 72;
+    } else if (seated(r)) {
+      // sitting inside by a window on the right, looking out at the street going by: a fixed view,
+      // swaying a little as it goes (the window's dark glass and its frame are drawn over it: .seatview)
+      const fx = Math.sin(r.yaw), fz = Math.cos(r.yaw), rx = -fz, rz = fx;
+      const sway = Math.sin(t * 6.5) * 0.015 * Math.min(1, Math.abs(r.speed) / 6);
+      cam.position.set(r.pos.x + rx * 0.45 + fx * 0.3, r.base + 1.9 + sway, r.pos.z + rz * 0.45 + fz * 0.3);
+      cam.lookAt(cam.position.x + rx * 10 + fx * 3.5, cam.position.y - 0.3, cam.position.z + rz * 10 + fz * 3.5);
+      camYaw[p] = r.yaw;
+      fov = 60;
     } else if (riding(r)) {
       // the view from outside the tram as it goes, high up behind it and off to one side, swung
       // round as the player turns it, and easing after the tram through the bends
@@ -3651,7 +5322,9 @@ function updateCameras(dt, t, order) {
       cam.position.set(r.pos.x + Math.cos(a) * 11, r.base + 5, r.pos.z + Math.sin(a) * 11);
       cam.lookAt(r.pos.x, r.base + 1.6, r.pos.z);
     } else {
-      camYaw[p] += wrapAngle(r.yaw - camYaw[p]) * (1 - Math.exp(-dt * 6));
+      // sat down waiting for the tram: the camera comes slowly round to the front, to see them sit
+      const sit = r.sitK ?? 0;
+      camYaw[p] += wrapAngle(r.yaw + sit * 2.3 - camYaw[p]) * (1 - Math.exp(-dt * (sit > 0.05 ? 1.2 : 6)));
       const fx = Math.sin(camYaw[p]), fz = Math.cos(camYaw[p]);
       let back = (world.cfg.theme.camBack ?? 8.5) * (r.afloat ? 1.6 : 1); // a boat is long: further back
       // riding about freely the camera can swing behind a wall: keep it on this side
@@ -3733,7 +5406,8 @@ function step(dt) {
   tickSky(dt);
 
   for (const r of field) {
-    if (r.human >= 0 && game.state === 'race') updateTram(r, dt);
+    if (r.human >= 0 && game.state === 'race' && !r.heli) { updateTram(r, dt); updateBus(r, dt); }
+    if (r.human === 0 && game.state === 'race' && exploring()) keepSpot(r, dt);
     if (riding(r)) continue; // the tram takes them along
     let c;
     if (game.state === 'countdown' || game.state === 'briefing') c = { throttle: 0, steer: 0 };
@@ -3755,18 +5429,32 @@ function step(dt) {
   order.forEach((r, i) => (r.place = i + 1));
   for (const r of field) updateVisuals(r, dt, t);
   particles.update(dt);
+  if (city.trams) city.trams.riders = roaming() ? field.filter(r => !riding(r)) : []; // to halt for: whoever is riding about on the rails ahead
   city.update(dt, t);
-  city.traffic?.update(dt, aerial() ? [menuCam.position] : cams.slice(0, game.players).map(c => c.position), field);
+  city.traffic?.update(dt, aerial() ? [menuCam.position] : cams.slice(0, game.players).map(c => c.position), field.filter(r => !riding(r)).concat(game.state === 'tour' ? tourProps.flatMap(m => m.userData.walkers ?? []) : [])); // not for whoever is on board; on the tour, those walking in the street (the Stroppendragers)
   world.scenery.update(dt, t);
   world.arrows?.update(t);
   world.bikers?.update(dt, t, track, field, bikerHit);
   // the cyclists about the old town, but not in a race's way
   for (const im of Object.values(world.cyclists?.parts ?? {})) im.visible = roaming();
   if (roaming()) world.cyclists?.update(dt, t, field, bikerHit);
+  if (paintShots.length || humans.some(h => h.paintCd > 0)) updatePaint(dt);
+  updateSplats(dt); // those hit, standing still, falling over (splat.js)
+  if (paintedCars.size) carPaint();
+  carTick(dt);
   world.people?.update(dt, t, field, pedestrianBump, (r, size) => r.human >= 0 && loud() && sfx.bark(PAN[r.human], size));
   if (game.state === 'tour') updateTour(dt);
+  // the dragon on the Belfort and Artevelde on his pedestal: on the tour, only once they have got there themselves
+  const touring = tour && (game.state === 'tour' || (game.state === 'paused' && game.resumeState === 'tour'));
+  for (const [name, obj] of STANDING) obj.visible = !touring || (flying() ? name !== TOUR.flyer?.stands : tour.home(name)); // (flown yourself: the dragon off the Belfort is the one ridden)
+  for (const m of tourProps) {
+    m.visible = game.state === 'tour'; // (still there while it is paused)
+    if (m.visible && tour) m.userData.update?.(tour, t, (x, z) => Math.max(0, world.relief?.at(x, z) ?? 0)); // (those that walk along with it)
+  }
   updateCameras(dt, t, order);
 
+  // on board (everybody playing): the tram's bar is all there is at the top of the screen
+  document.body.classList.toggle('aboard', !aerial() && game.state === 'race' && humans.slice(0, game.players).every(riding));
   if (!aerial()) {
     updateHud();
     updateCountdown();
@@ -3782,6 +5470,7 @@ function step(dt) {
 const pads = { prev: [{}, {}], input: [null, null] };
 
 function pollPads() {
+  if ($('musicSettings').open) return;
   const list = navigator.getGamepads ? [...navigator.getGamepads()].filter(gp => gp && gp.connected) : [];
   for (let k = 0; k < MAX_PLAYERS; k++) {
     const gp = list[k];
@@ -3800,6 +5489,7 @@ function pollPads() {
       steer: clamp(Math.abs(ax) > 0.15 ? -ax : (now.left ? 1 : 0) - (now.right ? 1 : 0), -1, 1),
       throttle: (now.a || now.rt || now.up ? 1 : 0) - (now.b || now.lt || now.down ? 1 : 0),
       back: now.b || now.lt || now.down,
+      lift: (now.x || now.rb ? 1 : 0) - (now.y || now.lb ? 1 : 0), // up and down, on the dragon
     };
     if (game.state === 'menu') {
       if (edge('up')) onPress('ArrowUp');
@@ -3811,11 +5501,14 @@ function pollPads() {
       if (edge('start')) onPress('Escape');
       if (game.state === 'race' && k < humans.length) {
         if (edge('x') || edge('rb')) jump(humans[k]);
-        if ((edge('y') || edge('lb')) && !doorAction(humans[k]) && !tramAction(humans[k])) useItem(humans[k], pads.input[k].back);
+        if ((edge('y') || edge('lb')) && !doorAction(humans[k]) && !tramAction(humans[k]) && !throwFries(humans[k])) useItem(humans[k], pads.input[k].back);
       }
+    } else if (game.state === 'tour' && flying()) {
+      if (edge('start')) setPaused(true); // (A, B and the rest fly it: flyControl)
     } else if (game.state === 'tour') {
       if (edge('a') || edge('right')) tourNext();
-      else if (edge('b') || edge('start')) toMenu();
+      else if (edge('start')) setPaused(true);
+      else if (edge('b')) toMenu();
     } else if (game.state === 'briefing') {
       if (edge('a') || edge('start')) beginQuest();
       else if (edge('b')) toMenu();
@@ -3860,6 +5553,9 @@ function updateAmbient(dt) {
       src.push({ key: c, kind: 'car', x: c.pos.x, z: c.pos.z, speed: c.speed });
       if (c.type === 'police') src.push({ key: c, kind: 'siren', x: c.pos.x, z: c.pos.z, speed: c.speed });
     }
+    // in the film, the police car player 1 drives has its siren going too
+    const cop = demo && humans.find(h => h.human === 0 && h.car?.type === 'police');
+    if (cop) src.push({ key: cop, kind: 'siren', x: cop.pos.x, z: cop.pos.z, speed: Math.abs(cop.speed) });
     for (const b of world.bikers?.list ?? []) {
       if (b.state === 'ride') src.push({ key: b, kind: 'bike', x: b.model.root.position.x, z: b.model.root.position.z, speed: b.speed });
     }
@@ -3871,19 +5567,175 @@ function updateAmbient(dt) {
   ambient.update(dt, on, listeners, src);
 }
 
+// A tram with someone standing on its track just ahead rings its bell three times, quickly; once
+// per tram until the way is clear again.
+const BELL_AHEAD = 14, BELL_SIDE = 1.8;
+function updateTramBells() {
+  const T = city?.trams;
+  if (!T || !loud() || game.state === 'paused') return;
+  for (const t of T.fleet.list) {
+    if (!t.nose) continue;
+    const [hx, hz] = T.net.heading(t.edge, t.head, t.dir);
+    const who = field.find(r => {
+      if (r.human < 0 || riding(r)) return false;
+      const dx = r.pos.x - t.nose[0], dz = r.pos.z - t.nose[2], ahead = dx * hx + dz * hz;
+      return ahead > 0 && ahead < BELL_AHEAD && Math.abs(dx * hz - dz * hx) < BELL_SIDE;
+    });
+    if (!who) { t.belled = false; continue; }
+    if (t.belled) continue;
+    t.belled = true;
+    sfx.tramBell(game.players > 1 ? PAN[who.human] : 0);
+  }
+}
+
 let last = performance.now();
 function frame(now) {
   const dt = Math.min(0.05, (now - last) / 1000);
   last = now;
   if (watchPaused) return requestAnimationFrame(frame);
+  if (RECORD && demo) return requestAnimationFrame(frame); // filmed: demoFrame steps it
+  demo?.update(dt);
+  if (demo?.done) endDemo();
   pollPads();
-  step(dt);
+  step(dt * (demo?.pace ?? 1)); // (the demo plays some shots a little faster)
   tickFade(dt);
   weather.update(dt);
   updateAmbient(dt);
+  updateTramBells();
   updateTouchLayer();
-  render();
+  if (!big || !bigEl.classList.contains('full')) render(); // not behind the big map where it covers the screen
+  takeShot();
   requestAnimationFrame(frame);
+}
+
+// ------------------------------------------------------------------ the demo
+
+// ?demo: the city's DEMO (<city>/demo.js) plays, a film of about a minute cut from the tour and the
+// quests (js/demo.js), to the tour's music, from a click (for the browser to allow the music);
+// &shots=3-5: only those shots (from 0). ?demo=record: frame by frame instead, a step each time
+// tools/demo.mjs asks (ghent3d.demoFrame) and takes a picture, the music put under it afterwards.
+const DEMO_LINK = new URLSearchParams(location.search).get('demo');
+const RECORD = DEMO_LINK === 'record';
+// what the demo changes as it goes, put back when it is over
+const DEMO_KEEPS = ['kind', 'mission', 'mounts', 'picks', 'trackIdx', 'tourMode', 'tourSpeed', 'cards', 'mode'];
+let demoKept = null;
+// wait: black with a ▶ until a click (a link to it), or straight away (the menu's trailer card)
+function startDemo(wait) {
+  demoKept = Object.fromEntries(DEMO_KEEPS.map(k => [k, structuredClone(game[k])]));
+  game.cards = true;
+  game.mode = 1;
+  demo = new Demo(DEMO, {
+    tour(at, speed, { welcome, cards }) {
+      game.kind = 'tour';
+      game.tourMode = 'auto';
+      game.tourSpeed = speed;
+      game.cards = cards;
+      startTour();
+      if (!welcome) tour.seekTo(at);
+      startSky(); // the tour's sky there, straight away
+      showTourCard(null);
+    },
+    music(t) {
+      music.stop();
+      music.play(DEMO.music?.name ?? 'tour', (DEMO.music?.from ?? 0) + t);
+    },
+    tire() { if (quest?.thief && quest.def.zigzag != null) quest.thief.age = quest.def.zigzag + 4; }, // weaving from the start
+    quest(id, mount) { ride(QUESTS.findIndex(q => q.id === id) + 1, mount); },
+    race(id, mount) {
+      hideTour();
+      game.kind = 'race';
+      game.trackIdx = Math.max(0, TRACKS.findIndex(t => t.id === id));
+      if (mount) game.mounts[0] = mount;
+      setTrack(game.trackIdx);
+      startRace(true);
+    },
+    ai: (r, dt) => aiControl(r, dt, false),
+    begin: () => beginQuest(),
+    explore([x, z], [lx, lz], mount) {
+      ride(0, mount);
+      placeRiders({ x, z, yaw: Math.atan2(lx - x, lz - z) });
+    },
+    warm(seconds) { for (let k = 0; k < seconds * 30; k++) step(1 / 30); },
+    car(type) {
+      const r = humans[0];
+      stealCar(r, { type, c: 0xf4f4f2, x: r.pos.x, z: r.pos.z, yaw: r.yaw });
+    },
+    board() { if (questBus && !humans[0].car) stealCar(humans[0], questBus); },
+    // the traffic's cars off a route [[x, z], ...] (within 6 m of it), but those within near
+    // metres of the camera (none: all of them, before the shot shows)
+    unblock(pts, near = 0) {
+      const cam = cams[0].position;
+      for (const c of city.traffic?.cars ?? []) {
+        if (!c.on || (near && (c.pos.x - cam.x) ** 2 + (c.pos.z - cam.z) ** 2 < near * near)) continue;
+        for (let k = 0; k + 1 < pts.length; k++) {
+          const [ax, az] = pts[k], [bx, bz] = pts[k + 1], dx = bx - ax, dz = bz - az;
+          const f = clamp(((c.pos.x - ax) * dx + (c.pos.z - az) * dz) / (dx * dx + dz * dz || 1), 0, 1);
+          if (Math.hypot(ax + dx * f - c.pos.x, az + dz * f - c.pos.z) < 6) { c.on = false; break; }
+        }
+      }
+    },
+    steady() { humans[0].railCd = Infinity; }, // (until the next shot's reset)
+    place([x, z], yaw, speed = 0) {
+      placeRiders({ x, z, yaw });
+      humans[0].speed = speed;
+    },
+    // where the thief is, and (ax, az) a little ahead on the street they run along, not weaving
+    thief() {
+      const th = quest?.thief, g = quest?.g;
+      if (!th || th.b == null) return th ?? null;
+      const dx = g.X[th.b] - g.X[th.a], dz = g.Z[th.b] - g.Z[th.a], L = Math.hypot(dx, dz) || 1, k = (th.s + 4) / L;
+      return { x: th.x, z: th.z, ax: g.X[th.a] + dx * k, az: g.Z[th.a] + dz * k };
+    },
+    over: () => !!quest?.over,
+    halt: () => quest?.halts?.[quest.served] ?? null,
+    cars: () => (city.traffic?.cars ?? []).filter(c => c.on).map(c => c.pos),
+    walkers: () => world.people?.walkers ?? [],
+    clear: (x0, z0, x1, z1) => clearLine(world.colliders, x0, z0, x1, z1) >= 1,
+    shoot,
+    local,
+  }, { wait, close: !RECORD && endDemo, bar: !RECORD, shots: new URLSearchParams(location.search).get('shots')?.split('-').map(Number) });
+  // a mission (0: riding about freely), off the tour
+  function ride(mission, mount) {
+    hideTour();
+    game.kind = 'mission';
+    game.mission = mission;
+    missionPlayer();
+    if (mount) game.mounts[0] = mount;
+    setTrack(game.trackIdx);
+    startRace(true);
+  }
+  if (wait) addEventListener('pointerdown', () => demo?.waiting && go(), { once: true });
+}
+// on with the film, and its music (a click or key press lets the browser play it)
+function go() {
+  sfx.unlock();
+  music.stop();
+  music.play(DEMO.music?.name ?? 'tour', DEMO.music?.from ?? 0);
+  demo.go();
+}
+// the menu's trailer card
+function playDemo() {
+  startDemo(false);
+  go();
+}
+// Over, or stopped (Esc, ✕): back to the menu as it was.
+function endDemo() {
+  demo.remove();
+  demo = null;
+  Object.assign(game, demoKept);
+  missionPlayer();
+  setTrack(game.trackIdx);
+  toMenu();
+}
+// One frame of the demo being filmed: dt seconds on, and drawn (unless draw is false: a frame not
+// kept). Returns whether it is over.
+function demoFrame(dt, draw = true) {
+  demo.update(dt);
+  step(dt * demo.pace);
+  tickFade(dt);
+  weather.update(dt);
+  if (draw) render();
+  return demo.done;
 }
 
 // ------------------------------------------------------------------ input
@@ -3892,7 +5744,13 @@ const keys = new Set();
 const isStart = code => code === 'Space' || code === 'Enter' || code === 'NumpadEnter';
 
 function onPress(code) {
+  if ($('musicSettings').open) return;
   sfx.unlock();
+  if (demo && !RECORD) { // the demo: Esc stops it, and on a link to it any key starts it
+    if (code === 'Escape') endDemo();
+    else if (demo.waiting) go();
+    return;
+  }
   if (code === 'KeyM') return toggleSound();
   switch (game.state) {
     case 'menu': {
@@ -3914,8 +5772,14 @@ function onPress(code) {
       break;
     }
     case 'tour':
-      if (isStart(code) || code === 'ArrowRight' || code === 'KeyD') tourNext();
-      else if (code === 'Escape' || code === 'KeyT') toMenu();
+      if (flying()) { // Space and Enter fly up and down (flyControl)
+        if (code === 'Escape') setPaused(true);
+        else if (code === 'KeyT') toMenu();
+        break;
+      }
+      if (isStart(code) || code === 'Escape') setPaused(true); // the pause menu, and Space/Enter again carries on
+      else if (code === 'ArrowRight' || code === 'KeyD') tourNext();
+      else if (code === 'KeyT') toMenu();
       break;
     case 'briefing':
       if (isStart(code)) beginQuest();
@@ -3923,12 +5787,21 @@ function onPress(code) {
       break;
     case 'countdown':
     case 'race':
-      if (code === 'Escape') { setPaused(true); break; }
+      if (code === 'Escape') {
+        // on board: get off (as Enter does), or not after all when it asks where; otherwise the pause menu
+        const aboard = game.state === 'race' ? humans.slice(0, game.players).filter(riding) : [];
+        if (aboard.length) aboard.forEach(r => { if (r.tram?.ask) r.tram.ask = null; else if (r.bus?.ask) r.bus.ask = null; else tramAction(r); });
+        else setPaused(true);
+        break;
+      }
       if (code === 'KeyK') { openBigMap(); break; } // K for kaart
       if (game.state !== 'race') break;
       humans.forEach((r, p) => {
         const k = ctl(p);
+        if (r.heli) return; // in the helicopter jump and fire are up and down (humanControl)
         if (k.fire.includes(code) && (doorAction(r) || tramAction(r))) return; // by a door, at a tram stop, or on the tram
+        if (k.fire.includes(code) && throwFries(r)) return;
+        if (k.fire.includes(code) && paintballOn(r)) return shoot(r);
         if (k.fire.includes(code)) useItem(r, held(k.down));
         if (k.jump.includes(code)) jump(r);
       });
@@ -3937,6 +5810,8 @@ function onPress(code) {
       if (big && pauseEl.classList.contains('hidden')) {
         // on the big map: Enter teleports, Escape forgets the spot and then closes the map
         if (isStart(code)) confirmTeleport();
+        else if (code === 'Equal' || code === 'NumpadAdd') zoomBigMap(big.zoom * BIG_STEP);
+        else if (code === 'Minus' || code === 'NumpadSubtract') zoomBigMap(big.zoom / BIG_STEP);
         else if (code === 'Escape' || code === 'KeyP' || code === 'KeyK') {
           if (big.pick && code === 'Escape') { big.pick = null; drawBigMap(); }
           else closeBigMapAndPlay();
@@ -3957,8 +5832,15 @@ function onPress(code) {
 }
 
 addEventListener('keydown', e => {
+  if ($('musicSettings').open) return;
   if (e.target instanceof HTMLInputElement) {
     if (e.key === 'Enter' || e.key === 'Escape') e.target.blur();
+    return;
+  }
+  // on the big map on a desktop, typing a letter goes straight to the search for a place (the character lands in it)
+  if (big && !touch.on && roaming() && !questing() && e.key.length === 1 && e.key !== ' ' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+    if (bigIndex.classList.contains('hidden')) showBigTab('index');
+    bigSearch.focus();
     return;
   }
   if (GAME_KEYS.has(e.code)) e.preventDefault();
@@ -4002,6 +5884,7 @@ addEventListener('resize', () => {
 const touch = { on: false, shown: false, steer: 0, throttle: 0, steerId: null, originX: 0, zoneLeft: 0 };
 const touchEl = $('touch'), steerZone = $('steerZone'), stick = $('stick'), knob = $('knob');
 const tItem = $('tItem'), tItemIco = tItem.querySelector('.ico'), tItemQueue = tItem.querySelector('.queue');
+const tFries = $('tFries'), tFriesLabel = tFries.querySelector('small');
 const STICK_R = 60;
 
 function setTouchMode(on) {
@@ -4013,7 +5896,7 @@ function setTouchMode(on) {
 }
 
 function updateTouchLayer() {
-  const show = touch.on && (game.state === 'race' || game.state === 'countdown' || game.state === 'paused');
+  const show = touch.on && (((game.state === 'race' || game.state === 'countdown' || game.state === 'paused') && !touringNow()) || (game.state === 'tour' && flying()));
   if (show === touch.shown) return;
   touch.shown = show;
   touchEl.classList.toggle('hidden', !show);
@@ -4052,7 +5935,7 @@ steerZone.addEventListener('pointerdown', e => {
   touch.zoneTop = rect.top;
   touch.originX = e.clientX;
   // riding on by itself: carry on at that pace from wherever the thumb comes down
-  touch.originY = e.clientY + (exploring() ? Math.max(0, touch.throttle) * STICK_R : 0);
+  touch.originY = e.clientY + (freeStick() ? Math.max(0, touch.throttle) * STICK_R : 0);
   stick.style.left = e.clientX - rect.left + 'px';
   stick.style.top = e.clientY - rect.top + 'px';
   stick.classList.remove('rest');
@@ -4067,7 +5950,7 @@ const endSteer = e => {
   touch.steer = 0;
   // exploring, let go of the stick while riding forward and the horse keeps going at that pace,
   // the knob left up where it was, until the stick is pulled back
-  touch.throttle = exploring() && touch.throttle > 0.15 ? touch.throttle : 0;
+  touch.throttle = freeStick() && touch.throttle > 0.15 ? touch.throttle : 0;
   knob.style.transform = touch.throttle ? `translate(0, ${-touch.throttle * STICK_R}px)` : '';
   stick.style.left = stick.style.top = '';
   stick.classList.remove('on');
@@ -4090,18 +5973,42 @@ function touchButton(el, down, up = () => {}) {
   el.addEventListener('pointerup', release);
   el.addEventListener('pointercancel', release);
 }
-touchButton($('tJump'), () => { if (game.state === 'race') jump(racers[0]); });
+touchButton($('tJump'), () => { touch.climb = racers[0].heli || flying(); if (game.state === 'race') jump(racers[0]); }, () => { touch.climb = false; });
 touchButton(tItem, () => { if (game.state === 'race' && !doorAction(racers[0])) useItem(racers[0], touch.throttle < -0.5); });
+touchButton(tFries, () => throwFries(racers[0]));
+touchButton($('tSink'), () => { touch.sink = true; }, () => { touch.sink = false; });
+touchButton($('tShoot'), () => shoot(racers[0]));
 touchEl.addEventListener('contextmenu', e => e.preventDefault());
 
 addEventListener('touchstart', () => setTouchMode(true), { passive: true, capture: true });
 addEventListener('touchend', () => sfx.unlock(), { passive: true }); // iOS only unlocks audio on touchend
 addEventListener('click', () => sfx.unlock());
 
+// The pause menu's Share: a link to right where you are, facing the way you face, copied for
+// pasting (?pos=<x>,<z>&yaw=<radians>&n=<the street>); whoever opens it rides about freely from there.
+// On the tour it is a link to the tour itself (?tour=auto), which opens straight on it, playing on its own.
+function shareSpot() {
+  const onTour = game.resumeState === 'tour', r = humans[0];
+  if (!onTour && !r) return;
+  const name = r?.street ? `&n=${encodeURIComponent(r.street)}` : '';
+  const url = onTour ? `${location.origin}${location.pathname}?tour=auto`
+    : `${location.origin}${location.pathname}?pos=${r.pos.x.toFixed(1)},${r.pos.z.toFixed(1)}&yaw=${r.yaw.toFixed(2)}${name}`;
+  const btn = $('pauseShareBtn'), label = btn.querySelector('span');
+  const done = () => {
+    label.textContent = t_(onTour ? 'pause.copiedTour' : 'pause.copied');
+    btn.classList.add('copied');
+    setTimeout(() => { label.textContent = t_('pause.share'); btn.classList.remove('copied'); }, 3000);
+  };
+  report('share_spot', { tour: onTour });
+  // copied straight away; where the clipboard is not to be had, the link to copy by hand
+  (navigator.clipboard?.writeText(url) ?? Promise.reject()).then(done, () => window.prompt(t_('pause.share'), url));
+}
+
 // A link to one sight, ?at=<its id> (the site's page about it has one), into a building, ?inside=<its id>, or to any place,
 // ?pos=<x>,<z>&n=<its name> (the site's map page): straight into riding about freely, alone, on a
 // street a little way back from it (so it is in view, not a wall up close) and looking at it.
-// Nothing of it is saved in the settings.
+// A link shared from the pause menu also has &yaw=<radians>: it puts you on that very spot, facing
+// that way, as whoever shared it was. Nothing of it is saved in the settings.
 function visitFromLink() {
   const q = new URLSearchParams(location.search);
   // ?inside=<id>: straight in through a building's door (<city>/inside.js)
@@ -4117,6 +6024,7 @@ function visitFromLink() {
   }
   const sight = q.get('at') && SIGHTS?.find(s => s.id === q.get('at'));
   const [px, pz] = (q.get('pos') || '').split(',').map(Number);
+  const yaw = Number(q.get('yaw'));
   const place = sight ? { x: sight.x, z: sight.z, r: sight.r, name: local(sight.text).name }
     : Number.isFinite(px) && Number.isFinite(pz) ? { x: px, z: pz, r: 30, name: (q.get('n') || '').slice(0, 80) } : null;
   if (!place) return;
@@ -4127,13 +6035,22 @@ function visitFromLink() {
   missionPlayer();
   setTrack(game.trackIdx); // the minimap, for riding about freely
   startRace();
+  const exact = !sight && q.has('yaw') && Number.isFinite(yaw) && landingAt(place.x, place.z);
+  if (exact?.ok) {
+    humans.forEach(r => { r.yaw = yaw; });
+    teleport(exact);
+    return;
+  }
   const back = place.r * 0.6, spots = [];
   for (const rd of world.cfg.map.roads) {
     for (let k = 0; k < rd.p.length; k += 2) spots.push([Math.abs(Math.hypot(rd.p[k] - place.x, rd.p[k + 1] - place.z) - back), rd.p[k], rd.p[k + 1]]);
   }
   spots.sort((a, b) => a[0] - b[0]);
-  const pick = spots.slice(0, 50).map(([, x, z]) => landingAt(x, z)).find(p => p.ok) ?? placeLanding(place);
-  humans.forEach(r => { r.yaw = Math.atan2(place.x - pick.x, place.z - pick.z); });
+  // Enclosed sights can provide a safe arrival inside their passage, looking along it.
+  const arrival = sight?.arrival && landingAt(sight.arrival.x, sight.arrival.z);
+  const pick = arrival?.ok ? arrival : spots.slice(0, 50).map(([, x, z]) => landingAt(x, z)).find(p => p.ok) ?? placeLanding(place);
+  const look = arrival?.ok ? sight.arrival.look : [place.x, place.z];
+  humans.forEach(r => { r.yaw = Math.atan2(look[0] - pick.x, look[1] - pick.z); });
   teleport(pick);
 }
 
@@ -4158,6 +6075,9 @@ if (WATCH != null && TOUR) {
     if (e.origin === location.origin && e.data?.type === 'instant-cities:watch') watchPaused = !e.data.on;
   });
 }
+// ?shots= (above), or ?tour=auto, the tour shared from the pause menu: straight onto the tour, playing on its own
+if (TOUR && (SHOTS || new URLSearchParams(location.search).get('tour') === 'auto')) { game.kind = 'tour'; game.tourMode = 'auto'; startTour(); }
+if (DEMO_LINK !== null && DEMO) startDemo(!RECORD);
 await bootStep('paint');
 requestAnimationFrame(frame);
 music.ahead = 0.15; // loaded: back to short notice, so the music stops as soon as a game starts
@@ -4170,5 +6090,5 @@ requestAnimationFrame(() => requestAnimationFrame(() => {
 }));
 
 // Handy for poking at the game from the dev console.
-window.ghent3d = { INSIDE, touch, setTouchMode, setLanguage, pickAnimal, cycleAnimal, pads, pollPads, game, racers, get field() { return field; }, traps, thrown, clouds, get world() { return world; }, get tour() { return tour; }, setSky, startRace, toMenu, selectTrack, setMode, setKind, useItem, jump, music, sfx, renderer, scene, step, render };
-window.__pr = { teleport, get world() { return world; }, get humans() { return humans; }, game }; // DEBUG-RELIEF
+window.ghent3d = { INSIDE, get city() { return city; }, touch, setTouchMode, setLanguage, pickAnimal, cycleAnimal, pads, pollPads, game, racers, get field() { return field; }, traps, thrown, clouds, get world() { return world; }, get tour() { return tour; }, get quest() { return quest; }, setSky, startRace, toMenu, selectTrack, setMode, setKind, useItem, jump, music, sfx, renderer, scene, step, render, menuCam, menuLook, get demo() { return demo; }, demoFrame };
+window.__pr = { teleport, get world() { return world; }, get humans() { return humans; }, game, stealCar }; // DEBUG-RELIEF

@@ -1,0 +1,6 @@
+---
+# Which build of the site this is, for the game's loading screen and menu: the commit it was built
+# from and when (GitHub Pages and the Netlify builds both run Jekyll, which fills these in).
+layout: null
+---
+{"commit": "{{ site.github.build_revision | slice: 0, 7 }}", "time": "{{ site.time | date: '%Y-%m-%dT%H:%M:%SZ' }}"}

@@ -1,0 +1,7790 @@
+{
+ "city": "ghent",
+ "street": "Geitstraat",
+ "slug": "geitstraat",
+ "photos": {
+  "3985782465003379-5": {
+   "file": "photos/3985782465003379-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3985782465003379",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582467,
+    3.6958102,
+    5,
+    0.5
+   ]
+  },
+  "1211565720427350-5": {
+   "file": "photos/1211565720427350-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211565720427350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582466,
+    3.6958102,
+    5,
+    0.5
+   ]
+  },
+  "1318643233209650-7": {
+   "file": "photos/1318643233209650-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1318643233209650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581847,
+    3.6957942,
+    7,
+    0.5
+   ]
+  },
+  "668579216113461-31": {
+   "file": "photos/668579216113461-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=668579216113461",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583222,
+    3.6955014,
+    31,
+    0.5
+   ]
+  },
+  "906579838219707-52": {
+   "file": "photos/906579838219707-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=906579838219707",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0583355,
+    3.6954609,
+    52,
+    0.5
+   ]
+  },
+  "1055192260000350-8": {
+   "file": "photos/1055192260000350-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1055192260000350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955447,
+    8,
+    0.5
+   ]
+  },
+  "502651299269283-38": {
+   "file": "photos/502651299269283-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=502651299269283",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0583958,
+    3.6953353,
+    38,
+    0.5
+   ]
+  },
+  "1413400309788781-25": {
+   "file": "photos/1413400309788781-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1413400309788781",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583904,
+    3.6953624,
+    25,
+    0.5
+   ]
+  },
+  "607596768994229-53": {
+   "file": "photos/607596768994229-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=607596768994229",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583526,
+    3.6951918,
+    53,
+    0.5
+   ]
+  },
+  "906579838219707-24": {
+   "file": "photos/906579838219707-24.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=906579838219707",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0583355,
+    3.6954609,
+    24,
+    0.5
+   ]
+  },
+  "1011671947253627-58": {
+   "file": "photos/1011671947253627-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1011671947253627",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954299,
+    58,
+    0.5
+   ]
+  },
+  "645627968229992-58": {
+   "file": "photos/645627968229992-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645627968229992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954296,
+    58,
+    0.5
+   ]
+  },
+  "645627968229992-25": {
+   "file": "photos/645627968229992-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645627968229992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954296,
+    25,
+    0.5
+   ]
+  },
+  "1011671947253627-25": {
+   "file": "photos/1011671947253627-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1011671947253627",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954299,
+    25,
+    0.5
+   ]
+  },
+  "1413400309788781-61": {
+   "file": "photos/1413400309788781-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1413400309788781",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583904,
+    3.6953624,
+    61,
+    0.5
+   ]
+  },
+  "2016941565495487-1": {
+   "file": "photos/2016941565495487-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2016941565495487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0580325,
+    3.6960823,
+    1,
+    0.5
+   ]
+  },
+  "697554422936080-65": {
+   "file": "photos/697554422936080-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=697554422936080",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578797,
+    3.6963675,
+    65,
+    0.5
+   ]
+  },
+  "1179205527235448-78": {
+   "file": "photos/1179205527235448-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    78,
+    0.5
+   ]
+  },
+  "966695132337557-23": {
+   "file": "photos/966695132337557-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=966695132337557",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575836,
+    3.6969297,
+    23,
+    0.5
+   ]
+  },
+  "592444163815917-6": {
+   "file": "photos/592444163815917-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    6,
+    0.5
+   ]
+  },
+  "2016941565495487-27": {
+   "file": "photos/2016941565495487-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2016941565495487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0580325,
+    3.6960823,
+    27,
+    0.5
+   ]
+  },
+  "2016941565495487-58": {
+   "file": "photos/2016941565495487-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2016941565495487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0580325,
+    3.6960823,
+    58,
+    0.5
+   ]
+  },
+  "1433007961441918-3": {
+   "file": "photos/1433007961441918-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433007961441918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0579564,
+    3.6962246,
+    3,
+    0.5
+   ]
+  },
+  "1433007961441918-51": {
+   "file": "photos/1433007961441918-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433007961441918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0579564,
+    3.6962246,
+    51,
+    0.5
+   ]
+  },
+  "1433007961441918-73": {
+   "file": "photos/1433007961441918-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433007961441918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0579564,
+    3.6962246,
+    73,
+    0.5
+   ]
+  },
+  "697554422936080-17": {
+   "file": "photos/697554422936080-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=697554422936080",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578797,
+    3.6963675,
+    17,
+    0.5
+   ]
+  },
+  "1179205527235448-12": {
+   "file": "photos/1179205527235448-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    12,
+    0.5
+   ]
+  },
+  "1179205527235448-60": {
+   "file": "photos/1179205527235448-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    60,
+    0.5
+   ]
+  },
+  "966695132337557-4": {
+   "file": "photos/966695132337557-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=966695132337557",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575836,
+    3.6969297,
+    4,
+    0.5
+   ]
+  },
+  "966695132337557-46": {
+   "file": "photos/966695132337557-46.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=966695132337557",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575836,
+    3.6969297,
+    46,
+    0.5
+   ]
+  },
+  "1361445005104004-27": {
+   "file": "photos/1361445005104004-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1361445005104004",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575115,
+    3.697064,
+    27,
+    0.5
+   ]
+  },
+  "1361445005104004-54": {
+   "file": "photos/1361445005104004-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1361445005104004",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575115,
+    3.697064,
+    54,
+    0.5
+   ]
+  },
+  "664111196360492-13": {
+   "file": "photos/664111196360492-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=664111196360492",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0574391,
+    3.6971957,
+    13,
+    0.5
+   ]
+  },
+  "664111196360492-38": {
+   "file": "photos/664111196360492-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=664111196360492",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0574391,
+    3.6971957,
+    38,
+    0.5
+   ]
+  },
+  "596459360103157-23": {
+   "file": "photos/596459360103157-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=596459360103157",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0573698,
+    3.6973311,
+    23,
+    0.5
+   ]
+  },
+  "647420684841002-11": {
+   "file": "photos/647420684841002-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=647420684841002",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0573,
+    3.6974614,
+    11,
+    0.5
+   ]
+  },
+  "647420684841002-35": {
+   "file": "photos/647420684841002-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=647420684841002",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0573,
+    3.6974614,
+    35,
+    0.5
+   ]
+  },
+  "647420684841002-60": {
+   "file": "photos/647420684841002-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=647420684841002",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0573,
+    3.6974614,
+    60,
+    0.5
+   ]
+  },
+  "557124653611835-22": {
+   "file": "photos/557124653611835-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557124653611835",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0572298,
+    3.6975852,
+    22,
+    0.5
+   ]
+  },
+  "592444163815917-55": {
+   "file": "photos/592444163815917-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    55,
+    0.5
+   ]
+  },
+  "1433007961441918-24": {
+   "file": "photos/1433007961441918-24.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433007961441918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0579564,
+    3.6962246,
+    24,
+    0.5
+   ]
+  },
+  "697554422936080-42": {
+   "file": "photos/697554422936080-42.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=697554422936080",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578797,
+    3.6963675,
+    42,
+    0.5
+   ]
+  },
+  "1179205527235448-35": {
+   "file": "photos/1179205527235448-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    35,
+    0.5
+   ]
+  },
+  "966695132337557-70": {
+   "file": "photos/966695132337557-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=966695132337557",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0575836,
+    3.6969297,
+    70,
+    0.5
+   ]
+  },
+  "664111196360492-64": {
+   "file": "photos/664111196360492-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=664111196360492",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0574391,
+    3.6971957,
+    64,
+    0.5
+   ]
+  },
+  "596459360103157-50": {
+   "file": "photos/596459360103157-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=596459360103157",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0573698,
+    3.6973311,
+    50,
+    0.5
+   ]
+  },
+  "1353746885835518-55": {
+   "file": "photos/1353746885835518-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1353746885835518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569981,
+    3.6979307,
+    55,
+    0.5
+   ]
+  },
+  "557124653611835-63": {
+   "file": "photos/557124653611835-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557124653611835",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0572298,
+    3.6975852,
+    63,
+    0.5
+   ]
+  },
+  "681649441080590-21": {
+   "file": "photos/681649441080590-21.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=681649441080590",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0571542,
+    3.697704,
+    21,
+    0.5
+   ]
+  },
+  "681649441080590-43": {
+   "file": "photos/681649441080590-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=681649441080590",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0571542,
+    3.697704,
+    43,
+    0.5
+   ]
+  },
+  "681649441080590-66": {
+   "file": "photos/681649441080590-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=681649441080590",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0571542,
+    3.697704,
+    66,
+    0.5
+   ]
+  },
+  "9574767469307084-52": {
+   "file": "photos/9574767469307084-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9574767469307084",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569193,
+    3.6980481,
+    52,
+    0.5
+   ]
+  },
+  "689680060403296-69": {
+   "file": "photos/689680060403296-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=689680060403296",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.056837,
+    3.6981606,
+    69,
+    0.5
+   ]
+  },
+  "1423387418823755-66": {
+   "file": "photos/1423387418823755-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1423387418823755",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0567551,
+    3.6982784,
+    66,
+    0.5
+   ]
+  },
+  "978118174473505-43": {
+   "file": "photos/978118174473505-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    43,
+    0.5
+   ]
+  },
+  "525332340410451-38": {
+   "file": "photos/525332340410451-38.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=525332340410451",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0565948,
+    3.6985023,
+    38,
+    0.5
+   ]
+  },
+  "9518171248260760-31": {
+   "file": "photos/9518171248260760-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9518171248260760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0570758,
+    3.6978165,
+    31,
+    0.5
+   ]
+  },
+  "9518171248260760-58": {
+   "file": "photos/9518171248260760-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9518171248260760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0570758,
+    3.6978165,
+    58,
+    0.5
+   ]
+  },
+  "1353746885835518-19": {
+   "file": "photos/1353746885835518-19.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1353746885835518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569981,
+    3.6979307,
+    19,
+    0.5
+   ]
+  },
+  "1353746885835518-73": {
+   "file": "photos/1353746885835518-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1353746885835518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569981,
+    3.6979307,
+    73,
+    0.5
+   ]
+  },
+  "9574767469307084-33": {
+   "file": "photos/9574767469307084-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9574767469307084",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569193,
+    3.6980481,
+    33,
+    0.5
+   ]
+  },
+  "9574767469307084-70": {
+   "file": "photos/9574767469307084-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9574767469307084",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569193,
+    3.6980481,
+    70,
+    0.5
+   ]
+  },
+  "689680060403296-40": {
+   "file": "photos/689680060403296-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=689680060403296",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.056837,
+    3.6981606,
+    40,
+    0.5
+   ]
+  },
+  "1423387418823755-30": {
+   "file": "photos/1423387418823755-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1423387418823755",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0567551,
+    3.6982784,
+    30,
+    0.5
+   ]
+  },
+  "1423387418823755-48": {
+   "file": "photos/1423387418823755-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1423387418823755",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0567551,
+    3.6982784,
+    48,
+    0.5
+   ]
+  },
+  "978118174473505-27": {
+   "file": "photos/978118174473505-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    27,
+    0.5
+   ]
+  },
+  "978118174473505-67": {
+   "file": "photos/978118174473505-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    67,
+    0.5
+   ]
+  },
+  "525332340410451-62": {
+   "file": "photos/525332340410451-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=525332340410451",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0565948,
+    3.6985023,
+    62,
+    0.5
+   ]
+  },
+  "1202283991490323-50": {
+   "file": "photos/1202283991490323-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1202283991490323",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955449,
+    50,
+    0.5
+   ]
+  },
+  "1055192260000350-50": {
+   "file": "photos/1055192260000350-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1055192260000350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955447,
+    50,
+    0.5
+   ]
+  },
+  "668579216113461-69": {
+   "file": "photos/668579216113461-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=668579216113461",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583222,
+    3.6955014,
+    69,
+    0.5
+   ]
+  },
+  "592444163815917-32": {
+   "file": "photos/592444163815917-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    32,
+    0.5
+   ]
+  },
+  "1353746885835518-36": {
+   "file": "photos/1353746885835518-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1353746885835518",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0569981,
+    3.6979307,
+    36,
+    0.5
+   ]
+  },
+  "978118174473505-89": {
+   "file": "photos/978118174473505-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=978118174473505",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0566747,
+    3.6983923,
+    89,
+    0.5
+   ]
+  },
+  "592444163815917-78": {
+   "file": "photos/592444163815917-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    78,
+    0.5
+   ]
+  },
+  "418328374675579-126": {
+   "file": "photos/418328374675579-126.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418328374675579",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582537,
+    3.6959957,
+    126,
+    0.5
+   ]
+  },
+  "1205291847909960-125": {
+   "file": "photos/1205291847909960-125.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1205291847909960",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582735,
+    3.6959407,
+    125,
+    0.5
+   ]
+  },
+  "1363854094635098-94": {
+   "file": "photos/1363854094635098-94.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1363854094635098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.058224,
+    3.6958608,
+    94,
+    0.5
+   ]
+  },
+  "1211565720427350-101": {
+   "file": "photos/1211565720427350-101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211565720427350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582466,
+    3.6958102,
+    101,
+    0.5
+   ]
+  },
+  "3985782465003379-101": {
+   "file": "photos/3985782465003379-101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3985782465003379",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582467,
+    3.6958102,
+    101,
+    0.5
+   ]
+  },
+  "525332340410451-153": {
+   "file": "photos/525332340410451-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=525332340410451",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0565948,
+    3.6985023,
+    153,
+    0.5
+   ]
+  },
+  "697554422936080-173": {
+   "file": "photos/697554422936080-173.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=697554422936080",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578797,
+    3.6963675,
+    173,
+    0.5
+   ]
+  },
+  "1179205527235448-257": {
+   "file": "photos/1179205527235448-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    257,
+    0.5
+   ]
+  },
+  "1011671947253627-208": {
+   "file": "photos/1011671947253627-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1011671947253627",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954299,
+    208,
+    0.5
+   ]
+  },
+  "645627968229992-208": {
+   "file": "photos/645627968229992-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645627968229992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954296,
+    208,
+    0.5
+   ]
+  },
+  "1055192260000350-261": {
+   "file": "photos/1055192260000350-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1055192260000350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955447,
+    261,
+    0.5
+   ]
+  },
+  "1202283991490323-262": {
+   "file": "photos/1202283991490323-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1202283991490323",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955449,
+    262,
+    0.5
+   ]
+  },
+  "1208017120886093-223": {
+   "file": "photos/1208017120886093-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208017120886093",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582528,
+    3.6956463,
+    223,
+    0.5
+   ]
+  },
+  "997500675430719-232": {
+   "file": "photos/997500675430719-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=997500675430719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582607,
+    3.6956741,
+    232,
+    0.5
+   ]
+  },
+  "1022024066519131-232": {
+   "file": "photos/1022024066519131-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1022024066519131",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582607,
+    3.6956743,
+    232,
+    0.5
+   ]
+  },
+  "418328374675579-223": {
+   "file": "photos/418328374675579-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418328374675579",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582537,
+    3.6959957,
+    223,
+    0.5
+   ]
+  },
+  "1205291847909960-209": {
+   "file": "photos/1205291847909960-209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1205291847909960",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582735,
+    3.6959407,
+    209,
+    0.5
+   ]
+  },
+  "1324475742184790-209": {
+   "file": "photos/1324475742184790-209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1324475742184790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582739,
+    3.6959407,
+    209,
+    0.5
+   ]
+  },
+  "592444163815917-177": {
+   "file": "photos/592444163815917-177.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    177,
+    0.5
+   ]
+  },
+  "418328374675579-189": {
+   "file": "photos/418328374675579-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418328374675579",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582537,
+    3.6959957,
+    189,
+    0.5
+   ]
+  },
+  "1205291847909960-179": {
+   "file": "photos/1205291847909960-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1205291847909960",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582735,
+    3.6959407,
+    179,
+    0.5
+   ]
+  },
+  "2016941565495487-205": {
+   "file": "photos/2016941565495487-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2016941565495487",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0580325,
+    3.6960823,
+    205,
+    0.5
+   ]
+  },
+  "1433007961441918-198": {
+   "file": "photos/1433007961441918-198.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1433007961441918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0579564,
+    3.6962246,
+    198,
+    0.5
+   ]
+  },
+  "1179205527235448-187": {
+   "file": "photos/1179205527235448-187.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179205527235448",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578028,
+    3.6965099,
+    187,
+    0.5
+   ]
+  },
+  "507354135749894-262": {
+   "file": "photos/507354135749894-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=507354135749894",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582719,
+    3.6955934,
+    262,
+    0.5
+   ]
+  },
+  "1202283991490323-175": {
+   "file": "photos/1202283991490323-175.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1202283991490323",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955449,
+    175,
+    0.5
+   ]
+  },
+  "1055192260000350-175": {
+   "file": "photos/1055192260000350-175.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1055192260000350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583077,
+    3.6955447,
+    175,
+    0.5
+   ]
+  },
+  "1156926245985800-236": {
+   "file": "photos/1156926245985800-236.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1156926245985800",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582178,
+    3.6957279,
+    236,
+    0.5
+   ]
+  },
+  "3985782465003379-239": {
+   "file": "photos/3985782465003379-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3985782465003379",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582467,
+    3.6958102,
+    239,
+    0.5
+   ]
+  },
+  "1211565720427350-239": {
+   "file": "photos/1211565720427350-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211565720427350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582466,
+    3.6958102,
+    239,
+    0.5
+   ]
+  },
+  "1318643233209650-235": {
+   "file": "photos/1318643233209650-235.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1318643233209650",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581847,
+    3.6957942,
+    235,
+    0.5
+   ]
+  },
+  "1363854094635098-230": {
+   "file": "photos/1363854094635098-230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1363854094635098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.058224,
+    3.6958608,
+    230,
+    0.5
+   ]
+  },
+  "1211565720427350-205": {
+   "file": "photos/1211565720427350-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211565720427350",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582466,
+    3.6958102,
+    205,
+    0.5
+   ]
+  },
+  "418328374675579-205": {
+   "file": "photos/418328374675579-205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=418328374675579",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0582537,
+    3.6959957,
+    205,
+    0.5
+   ]
+  },
+  "592444163815917-255": {
+   "file": "photos/592444163815917-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592444163815917",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0581074,
+    3.6959428,
+    255,
+    0.5
+   ]
+  },
+  "1205291847909960-192": {
+   "file": "photos/1205291847909960-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1205291847909960",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0582735,
+    3.6959407,
+    192,
+    0.5
+   ]
+  },
+  "697554422936080-232": {
+   "file": "photos/697554422936080-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=697554422936080",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0578797,
+    3.6963675,
+    232,
+    0.5
+   ]
+  },
+  "689680060403296-216": {
+   "file": "photos/689680060403296-216.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=689680060403296",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.056837,
+    3.6981606,
+    216,
+    0.5
+   ]
+  },
+  "1413400309788781-223": {
+   "file": "photos/1413400309788781-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1413400309788781",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583904,
+    3.6953624,
+    223,
+    0.5
+   ]
+  },
+  "645627968229992-245": {
+   "file": "photos/645627968229992-245.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645627968229992",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954296,
+    245,
+    0.5
+   ]
+  },
+  "1011671947253627-245": {
+   "file": "photos/1011671947253627-245.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1011671947253627",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-29",
+   "pano": true,
+   "cam": [
+    51.0583752,
+    3.6954299,
+    245,
+    0.5
+   ]
+  },
+  "568607905360765": {
+   "file": "photos/568607905360765.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=568607905360765",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.0566237,
+    3.698879,
+    249,
+    1.28
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 10144,
+   "at": [
+    -2444.1000000000004,
+    -686.45
+   ],
+   "centre": [
+    -2442.2,
+    -689.6
+   ],
+   "width": 10.6,
+   "faces": 92,
+   "toStreet": 15.2,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2449.4,
+    -686.6,
+    -2438.5,
+    -696,
+    -2438.8,
+    -686.3
+   ],
+   "id": "geitstraat-92-01",
+   "latLon": [
+    51.058341,
+    3.695823
+   ],
+   "photos": [
+    {
+     "id": "3985782465003379-5",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.293,
+      0.696
+     ]
+    },
+    {
+     "id": "1211565720427350-5",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.293,
+      0.696
+     ]
+    },
+    {
+     "id": "1318643233209650-7",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.373,
+      0.615
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10137,
+   "at": [
+    -2467,
+    -692.55
+   ],
+   "centre": [
+    -2458.3,
+    -698.8
+   ],
+   "width": 6.4,
+   "faces": 125,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2454.6,
+    -696.9,
+    -2462.9,
+    -689.5,
+    -2464.4,
+    -690.7,
+    -2469.6,
+    -694.4,
+    -2456.7,
+    -705.6,
+    -2453.4,
+    -708.4,
+    -2450.4,
+    -705.6,
+    -2457.3,
+    -699.6,
+    -2455.8,
+    -698.1
+   ],
+   "id": "geitstraat-125-01",
+   "latLon": [
+    51.058385,
+    3.695561
+   ],
+   "photos": [
+    {
+     "id": "668579216113461-31",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.346,
+      0.661
+     ]
+    },
+    {
+     "id": "906579838219707-52",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.35,
+      0.627
+     ]
+    },
+    {
+     "id": "1055192260000350-8",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.381,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10139,
+   "at": [
+    -2480.25,
+    -702.35
+   ],
+   "centre": [
+    -2464.7,
+    -717
+   ],
+   "width": 7.6,
+   "faces": 126,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 2.6,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2446.6,
+    -728.9,
+    -2458.7,
+    -716.9,
+    -2477.2,
+    -700.1,
+    -2483.3,
+    -704.6,
+    -2483.4,
+    -704.8,
+    -2453,
+    -730.9,
+    -2450.4,
+    -733.1
+   ],
+   "id": "geitstraat-126-02",
+   "latLon": [
+    51.058456,
+    3.69541
+   ],
+   "photos": [
+    {
+     "id": "502651299269283-38",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.318,
+      0.678
+     ]
+    },
+    {
+     "id": "1413400309788781-25",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.322,
+      0.697
+     ]
+    },
+    {
+     "id": "607596768994229-53",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.42,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10138,
+   "at": [
+    -2471.3,
+    -695.65
+   ],
+   "centre": [
+    -2464.6,
+    -701.4
+   ],
+   "width": 4.2,
+   "faces": 126,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2456.7,
+    -705.6,
+    -2469.6,
+    -694.4,
+    -2473,
+    -696.9,
+    -2459.2,
+    -708.8
+   ],
+   "id": "geitstraat-126-03",
+   "latLon": [
+    51.058407,
+    3.695512
+   ],
+   "photos": [
+    {
+     "id": "906579838219707-24",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.411,
+      0.599
+     ]
+    },
+    {
+     "id": "1011671947253627-58",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.374,
+      0.607
+     ]
+    },
+    {
+     "id": "645627968229992-58",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.376,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10148,
+   "at": [
+    -2475.1,
+    -698.5
+   ],
+   "centre": [
+    -2461.9,
+    -708.7
+   ],
+   "width": 5.3,
+   "faces": 127,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2454.9,
+    -712.5,
+    -2454.9,
+    -712.5,
+    -2459.2,
+    -708.8,
+    -2473,
+    -696.9,
+    -2477.2,
+    -700.1,
+    -2458.7,
+    -716.9,
+    -2455.3,
+    -713
+   ],
+   "id": "geitstraat-127-04",
+   "latLon": [
+    51.058428,
+    3.695469
+   ],
+   "photos": [
+    {
+     "id": "645627968229992-25",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.349,
+      0.672
+     ]
+    },
+    {
+     "id": "1011671947253627-25",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.348,
+      0.671
+     ]
+    },
+    {
+     "id": "1413400309788781-61",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.37,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10011,
+   "at": [
+    -2421.1,
+    -657.05
+   ],
+   "centre": [
+    -2419.1,
+    -659.3
+   ],
+   "width": 5.1,
+   "faces": 128,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2423.1,
+    -658.6,
+    -2419.1,
+    -655.5,
+    -2415,
+    -659.9,
+    -2419,
+    -663
+   ],
+   "id": "geitstraat-128-05",
+   "latLon": [
+    51.058128,
+    3.696086
+   ],
+   "photos": [
+    {
+     "id": "2016941565495487-1",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.434,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12510,
+   "at": [
+    -2385.3500000000004,
+    -627.8499999999999
+   ],
+   "centre": [
+    -2376.7,
+    -637.2
+   ],
+   "width": 5,
+   "faces": 128,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2370.8,
+    -641.4,
+    -2371.9,
+    -640,
+    -2373.9,
+    -637.7,
+    -2383.4,
+    -626.3,
+    -2387.3,
+    -629.4,
+    -2377.9,
+    -641,
+    -2375.9,
+    -638.9,
+    -2372.6,
+    -642.8
+   ],
+   "id": "geitstraat-128-06",
+   "latLon": [
+    51.057917,
+    3.696495
+   ],
+   "photos": [
+    {
+     "id": "697554422936080-65",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.401,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12588,
+   "at": [
+    -2369.55,
+    -615.05
+   ],
+   "centre": [
+    -2346.3,
+    -624.5
+   ],
+   "width": 5,
+   "faces": 128,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2362,
+    -650.5,
+    -2360.2,
+    -650.5,
+    -2350.5,
+    -643.2,
+    -2345.2,
+    -639.3,
+    -2338.1,
+    -640.5,
+    -2325.4,
+    -630.3,
+    -2322.2,
+    -634,
+    -2320.6,
+    -632.9,
+    -2313.6,
+    -632,
+    -2313.9,
+    -630.1,
+    -2315.8,
+    -616.7,
+    -2316.2,
+    -614.1,
+    -2316.3,
+    -613.5,
+    -2324.8,
+    -603,
+    -2328.4,
+    -598.7,
+    -2328.8,
+    -599.1,
+    -2332.2,
+    -601.9,
+    -2336,
+    -605,
+    -2339.5,
+    -607.9,
+    -2339.9,
+    -608.3,
+    -2340.6,
+    -608.8,
+    -2341.9,
+    -610,
+    -2343.2,
+    -611,
+    -2343.9,
+    -611.6,
+    -2345.7,
+    -613.1,
+    -2347.4,
+    -614.4,
+    -2351.2,
+    -617.6,
+    -2352.7,
+    -618.8,
+    -2353.7,
+    -619.7,
+    -2354.5,
+    -620.3,
+    -2358.9,
+    -624,
+    -2367.6,
+    -613.5,
+    -2371.5,
+    -616.6,
+    -2358.9,
+    -632.2,
+    -2362.9,
+    -635.3,
+    -2366.9,
+    -638.3,
+    -2370.8,
+    -641.4,
+    -2372.6,
+    -642.8,
+    -2375,
+    -644.6,
+    -2377,
+    -646.2,
+    -2378.9,
+    -647.6,
+    -2378.2,
+    -651.1
+   ],
+   "id": "geitstraat-128-07",
+   "latLon": [
+    51.057824,
+    3.696675
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-78",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.431,
+      0.562
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12584,
+   "at": [
+    -2357.8500000000004,
+    -605.55
+   ],
+   "centre": [
+    -2353.6,
+    -610.8
+   ],
+   "width": 5,
+   "faces": 128,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2347.4,
+    -614.4,
+    -2355.9,
+    -604,
+    -2359.8,
+    -607.1,
+    -2351.2,
+    -617.6
+   ],
+   "id": "geitstraat-128-08",
+   "latLon": [
+    51.057755,
+    3.696809
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12579,
+   "at": [
+    -2342.55,
+    -593.05
+   ],
+   "centre": [
+    -2338.3,
+    -598.3
+   ],
+   "width": 5,
+   "faces": 128,
+   "toStreet": 6.8,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2332.2,
+    -601.9,
+    -2340.6,
+    -591.5,
+    -2344.5,
+    -594.6,
+    -2336,
+    -605
+   ],
+   "id": "geitstraat-128-09",
+   "latLon": [
+    51.057665,
+    3.696984
+   ],
+   "photos": [
+    {
+     "id": "966695132337557-23",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.404,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10009,
+   "at": [
+    -2432.3,
+    -666.2
+   ],
+   "centre": [
+    -2428.8,
+    -668.4
+   ],
+   "width": 13.6,
+   "faces": 129,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2424.8,
+    -673.6,
+    -2434.1,
+    -673.8,
+    -2437.6,
+    -670.5,
+    -2427,
+    -661.9,
+    -2424.9,
+    -664.2,
+    -2427.8,
+    -667.4,
+    -2425.5,
+    -667.4
+   ],
+   "id": "geitstraat-129-10",
+   "latLon": [
+    51.058194,
+    3.695958
+   ],
+   "photos": [
+    {
+     "id": "592444163815917-6",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.322,
+      0.842
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10010,
+   "at": [
+    -2416.55,
+    -653.4
+   ],
+   "centre": [
+    -2413.6,
+    -656.5
+   ],
+   "width": 6.6,
+   "faces": 129,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -2415,
+    -659.9,
+    -2419.1,
+    -655.5,
+    -2414,
+    -651.3,
+    -2409.2,
+    -657.6,
+    -2410.7,
+    -658.2
+   ],
+   "id": "geitstraat-129-11",
+   "latLon": [
+    51.058102,
+    3.696138
+   ],
+   "photos": [
+    {
+     "id": "2016941565495487-27",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.358,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11360,
+   "at": [
+    -2412.05,
+    -649.7
+   ],
+   "centre": [
+    -2408.2,
+    -654.7
+   ],
+   "width": 5,
+   "faces": 129,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 11,
+   "kind": "house",
+   "ring": [
+    -2414,
+    -651.3,
+    -2410.1,
+    -648.1,
+    -2404.1,
+    -655.8,
+    -2405.4,
+    -656.2,
+    -2406.2,
+    -656.5,
+    -2408.6,
+    -657.4,
+    -2409.2,
+    -657.6
+   ],
+   "id": "geitstraat-129-12",
+   "latLon": [
+    51.058075,
+    3.696189
+   ],
+   "photos": [
+    {
+     "id": "2016941565495487-58",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.383,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11359,
+   "at": [
+    -2408.35,
+    -646.7
+   ],
+   "centre": [
+    -2403.7,
+    -651.6
+   ],
+   "width": 4.5,
+   "faces": 129,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    -2410.1,
+    -648.1,
+    -2406.6,
+    -645.3,
+    -2401.3,
+    -651.8,
+    -2399.4,
+    -654,
+    -2400.8,
+    -654.6,
+    -2404.1,
+    -655.8
+   ],
+   "id": "geitstraat-129-13",
+   "latLon": [
+    51.058053,
+    3.696232
+   ],
+   "photos": [
+    {
+     "id": "1433007961441918-3",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.436,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12514,
+   "at": [
+    -2400.45,
+    -640.2
+   ],
+   "centre": [
+    -2397.8,
+    -643.6
+   ],
+   "width": 5,
+   "faces": 129,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 10,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2402.4,
+    -641.8,
+    -2398.5,
+    -638.6,
+    -2393.1,
+    -645.4,
+    -2397.3,
+    -648.6
+   ],
+   "id": "geitstraat-129-14",
+   "latLon": [
+    51.058006,
+    3.696322
+   ],
+   "photos": [
+    {
+     "id": "1433007961441918-51",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.382,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12513,
+   "at": [
+    -2396.7,
+    -637.1500000000001
+   ],
+   "centre": [
+    -2394,
+    -640.5
+   ],
+   "width": 4.6,
+   "faces": 129,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2398.5,
+    -638.6,
+    -2394.9,
+    -635.7,
+    -2389.4,
+    -642.3,
+    -2393.1,
+    -645.4
+   ],
+   "id": "geitstraat-129-15",
+   "latLon": [
+    51.057984,
+    3.696365
+   ],
+   "photos": [
+    {
+     "id": "1433007961441918-73",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.414,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12512,
+   "at": [
+    -2392.95,
+    -634.1
+   ],
+   "centre": [
+    -2386,
+    -643
+   ],
+   "width": 5,
+   "faces": 129,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2379.6,
+    -646.7,
+    -2380.4,
+    -645.7,
+    -2391,
+    -632.5,
+    -2394.9,
+    -635.7,
+    -2389.4,
+    -642.3,
+    -2387.1,
+    -645.1,
+    -2385.9,
+    -646.4,
+    -2383.9,
+    -644.9,
+    -2381.7,
+    -647.8
+   ],
+   "id": "geitstraat-129-16",
+   "latLon": [
+    51.057962,
+    3.696408
+   ],
+   "photos": [
+    {
+     "id": "697554422936080-17",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.411,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12591,
+   "at": [
+    -2381.3500000000004,
+    -624.65
+   ],
+   "centre": [
+    -2373.6,
+    -635.1
+   ],
+   "width": 5.3,
+   "faces": 129,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2373.9,
+    -637.7,
+    -2372,
+    -636,
+    -2370.2,
+    -638.5,
+    -2371.9,
+    -640,
+    -2370.8,
+    -641.4,
+    -2366.9,
+    -638.3,
+    -2379.3,
+    -623,
+    -2383.4,
+    -626.3
+   ],
+   "id": "geitstraat-129-17",
+   "latLon": [
+    51.057894,
+    3.69654
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-12",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.416,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12589,
+   "at": [
+    -2373.5,
+    -618.2
+   ],
+   "centre": [
+    -2366.6,
+    -628.2
+   ],
+   "width": 5.1,
+   "faces": 129,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2371.5,
+    -616.6,
+    -2375.5,
+    -619.8,
+    -2369.2,
+    -627.6,
+    -2368.6,
+    -627.2,
+    -2367.2,
+    -628.9,
+    -2366.1,
+    -627.9,
+    -2362.4,
+    -632.7,
+    -2364.1,
+    -633.9,
+    -2362.9,
+    -635.3,
+    -2358.9,
+    -632.2
+   ],
+   "id": "geitstraat-129-18",
+   "latLon": [
+    51.057847,
+    3.69663
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-60",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.392,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12587,
+   "at": [
+    -2365.45,
+    -611.75
+   ],
+   "centre": [
+    -2360.2,
+    -617.1
+   ],
+   "width": 5.5,
+   "faces": 129,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2354.5,
+    -620.3,
+    -2356.7,
+    -617.7,
+    -2363.3,
+    -610,
+    -2367.6,
+    -613.5,
+    -2358.9,
+    -624
+   ],
+   "id": "geitstraat-129-19",
+   "latLon": [
+    51.0578,
+    3.696722
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12582,
+   "at": [
+    -2350.2,
+    -599.25
+   ],
+   "centre": [
+    -2344.5,
+    -605.5
+   ],
+   "width": 4.9,
+   "faces": 129,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2339.5,
+    -607.9,
+    -2348.3,
+    -597.7,
+    -2352.1,
+    -600.8,
+    -2347.6,
+    -606,
+    -2346,
+    -604.6,
+    -2341.9,
+    -610,
+    -2340.6,
+    -608.8,
+    -2339.9,
+    -608.3
+   ],
+   "id": "geitstraat-129-20",
+   "latLon": [
+    51.05771,
+    3.696896
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12581,
+   "at": [
+    -2346.4,
+    -596.1500000000001
+   ],
+   "centre": [
+    -2342.1,
+    -601.3
+   ],
+   "width": 4.9,
+   "faces": 129,
+   "toStreet": 6.8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2336,
+    -605,
+    -2344.5,
+    -594.6,
+    -2348.3,
+    -597.7,
+    -2339.5,
+    -607.9
+   ],
+   "id": "geitstraat-129-21",
+   "latLon": [
+    51.057687,
+    3.69694
+   ],
+   "photos": [
+    {
+     "id": "966695132337557-4",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.433,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12578,
+   "at": [
+    -2338.7,
+    -589.95
+   ],
+   "centre": [
+    -2333.4,
+    -595.9
+   ],
+   "width": 4.9,
+   "faces": 129,
+   "toStreet": 6.8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2328.4,
+    -598.7,
+    -2336.8,
+    -588.4,
+    -2340.6,
+    -591.5,
+    -2332.2,
+    -601.9,
+    -2328.8,
+    -599.1
+   ],
+   "id": "geitstraat-129-22",
+   "latLon": [
+    51.057643,
+    3.697028
+   ],
+   "photos": [
+    {
+     "id": "966695132337557-46",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.398,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12576,
+   "at": [
+    -2329.95,
+    -582.75
+   ],
+   "centre": [
+    -2324.4,
+    -590.3
+   ],
+   "width": 5.8,
+   "faces": 129,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2317.5,
+    -593.1,
+    -2327.7,
+    -580.9,
+    -2332.2,
+    -584.6,
+    -2322.4,
+    -596.6,
+    -2322.2,
+    -596.5
+   ],
+   "id": "geitstraat-129-23",
+   "latLon": [
+    51.05759,
+    3.697128
+   ],
+   "photos": [
+    {
+     "id": "1361445005104004-27",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.39,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12575,
+   "at": [
+    -2325.3999999999996,
+    -579.05
+   ],
+   "centre": [
+    -2319.1,
+    -587.5
+   ],
+   "width": 5.9,
+   "faces": 129,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2311.3,
+    -591.4,
+    -2323.1,
+    -577.2,
+    -2327.7,
+    -580.9,
+    -2317.5,
+    -593.1,
+    -2316.1,
+    -594.9
+   ],
+   "id": "geitstraat-129-24",
+   "latLon": [
+    51.057564,
+    3.69718
+   ],
+   "photos": [
+    {
+     "id": "1361445005104004-54",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.382,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12573,
+   "at": [
+    -2320.8,
+    -575.35
+   ],
+   "centre": [
+    -2312.2,
+    -584.2
+   ],
+   "width": 5.9,
+   "faces": 129,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2307.1,
+    -587.2,
+    -2318.5,
+    -573.5,
+    -2323.1,
+    -577.2,
+    -2311.3,
+    -591.4,
+    -2306.5,
+    -588,
+    -2306.7,
+    -587.8
+   ],
+   "id": "geitstraat-129-25",
+   "latLon": [
+    51.057537,
+    3.697233
+   ],
+   "photos": [
+    {
+     "id": "664111196360492-13",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.416,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12571,
+   "at": [
+    -2316.2,
+    -571.65
+   ],
+   "centre": [
+    -2310.6,
+    -578.5
+   ],
+   "width": 5.9,
+   "faces": 129,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2302.9,
+    -583.4,
+    -2313.9,
+    -569.8,
+    -2318.5,
+    -573.5,
+    -2307.1,
+    -587.2
+   ],
+   "id": "geitstraat-129-26",
+   "latLon": [
+    51.05751,
+    3.697285
+   ],
+   "photos": [
+    {
+     "id": "664111196360492-38",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.387,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12567,
+   "at": [
+    -2307.05,
+    -564.2
+   ],
+   "centre": [
+    -2297.8,
+    -574.3
+   ],
+   "width": 5.8,
+   "faces": 129,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2309.3,
+    -566,
+    -2304.8,
+    -562.4,
+    -2292.5,
+    -577.5,
+    -2290.5,
+    -580.2,
+    -2291.4,
+    -580.9,
+    -2296.1,
+    -575,
+    -2299.7,
+    -577.9
+   ],
+   "id": "geitstraat-129-27",
+   "latLon": [
+    51.057456,
+    3.69739
+   ],
+   "photos": [
+    {
+     "id": "596459360103157-23",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.4,
+      0.615
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12563,
+   "at": [
+    -2297.95,
+    -556.75
+   ],
+   "centre": [
+    -2287.9,
+    -568.6
+   ],
+   "width": 5.8,
+   "faces": 129,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2300.2,
+    -558.6,
+    -2295.7,
+    -554.9,
+    -2283.4,
+    -570.2,
+    -2282.1,
+    -571.8,
+    -2281.3,
+    -572.9,
+    -2285.7,
+    -576.4,
+    -2286.6,
+    -575.3
+   ],
+   "id": "geitstraat-129-28",
+   "latLon": [
+    51.057402,
+    3.697494
+   ],
+   "photos": [
+    {
+     "id": "647420684841002-11",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.422,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12561,
+   "at": [
+    -2293.3999999999996,
+    -553.05
+   ],
+   "centre": [
+    -2285.3,
+    -562.9
+   ],
+   "width": 5.9,
+   "faces": 129,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2295.7,
+    -554.9,
+    -2291.1,
+    -551.2,
+    -2279.8,
+    -564.9,
+    -2278.7,
+    -566.3,
+    -2283,
+    -569.9,
+    -2283.4,
+    -570.2
+   ],
+   "id": "geitstraat-129-29",
+   "latLon": [
+    51.057376,
+    3.697546
+   ],
+   "photos": [
+    {
+     "id": "647420684841002-35",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.388,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12559,
+   "at": [
+    -2288.8,
+    -549.35
+   ],
+   "centre": [
+    -2280.5,
+    -556.9
+   ],
+   "width": 5.9,
+   "faces": 129,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2291.1,
+    -551.2,
+    -2286.5,
+    -547.5,
+    -2276.6,
+    -557.7,
+    -2274.6,
+    -559.6,
+    -2274.1,
+    -560.2,
+    -2279.8,
+    -564.9
+   ],
+   "id": "geitstraat-129-30",
+   "latLon": [
+    51.057349,
+    3.697598
+   ],
+   "photos": [
+    {
+     "id": "647420684841002-60",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.396,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12557,
+   "at": [
+    -2284.6,
+    -545.95
+   ],
+   "centre": [
+    -2279.8,
+    -550.9
+   ],
+   "width": 4.9,
+   "faces": 129,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2286.5,
+    -547.5,
+    -2282.7,
+    -544.4,
+    -2273.3,
+    -554,
+    -2276.6,
+    -557.7
+   ],
+   "id": "geitstraat-129-31",
+   "latLon": [
+    51.057324,
+    3.697646
+   ],
+   "photos": [
+    {
+     "id": "557124653611835-22",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.423,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10012,
+   "at": [
+    -2425.05,
+    -660.25
+   ],
+   "centre": [
+    -2422.9,
+    -663.3
+   ],
+   "width": 5.1,
+   "faces": 130,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2420.1,
+    -664,
+    -2422.5,
+    -665.3,
+    -2423.4,
+    -665.8,
+    -2424.9,
+    -664.2,
+    -2427,
+    -661.9,
+    -2423.1,
+    -658.6,
+    -2419,
+    -663
+   ],
+   "id": "geitstraat-130-32",
+   "latLon": [
+    51.058151,
+    3.696041
+   ],
+   "photos": [
+    {
+     "id": "592444163815917-55",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.371,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12516,
+   "at": [
+    -2404.5,
+    -643.55
+   ],
+   "centre": [
+    -2401.9,
+    -646.9
+   ],
+   "width": 5.5,
+   "faces": 130,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2406.6,
+    -645.3,
+    -2402.4,
+    -641.8,
+    -2397.3,
+    -648.6,
+    -2401.3,
+    -651.8
+   ],
+   "id": "geitstraat-130-33",
+   "latLon": [
+    51.05803,
+    3.696276
+   ],
+   "photos": [
+    {
+     "id": "1433007961441918-24",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.385,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12511,
+   "at": [
+    -2389.15,
+    -630.95
+   ],
+   "centre": [
+    -2381,
+    -640.5
+   ],
+   "width": 4.8,
+   "faces": 130,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2375,
+    -644.6,
+    -2377.9,
+    -641,
+    -2387.3,
+    -629.4,
+    -2391,
+    -632.5,
+    -2380.4,
+    -645.7,
+    -2378.2,
+    -644.4,
+    -2377,
+    -646.2
+   ],
+   "id": "geitstraat-130-34",
+   "latLon": [
+    51.057939,
+    3.696451
+   ],
+   "photos": [
+    {
+     "id": "697554422936080-42",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.386,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12590,
+   "at": [
+    -2377.4,
+    -621.4
+   ],
+   "centre": [
+    -2369.7,
+    -629.6
+   ],
+   "width": 5,
+   "faces": 130,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2369.2,
+    -627.6,
+    -2375.5,
+    -619.8,
+    -2379.3,
+    -623,
+    -2366.9,
+    -638.3,
+    -2362.9,
+    -635.3,
+    -2364.1,
+    -633.9
+   ],
+   "id": "geitstraat-130-35",
+   "latLon": [
+    51.05787,
+    3.696586
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-35",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.395,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12585,
+   "at": [
+    -2361.55,
+    -608.55
+   ],
+   "centre": [
+    -2356.1,
+    -615.5
+   ],
+   "width": 4.5,
+   "faces": 130,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2351.2,
+    -617.6,
+    -2359.8,
+    -607.1,
+    -2363.3,
+    -610,
+    -2356.7,
+    -617.7,
+    -2355.3,
+    -617.8,
+    -2353.7,
+    -619.7,
+    -2352.7,
+    -618.8
+   ],
+   "id": "geitstraat-130-36",
+   "latLon": [
+    51.057777,
+    3.696767
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12583,
+   "at": [
+    -2354,
+    -602.4
+   ],
+   "centre": [
+    -2348,
+    -608.7
+   ],
+   "width": 5,
+   "faces": 130,
+   "toStreet": 6.8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2343.2,
+    -611,
+    -2347.6,
+    -606,
+    -2352.1,
+    -600.8,
+    -2355.9,
+    -604,
+    -2347.4,
+    -614.4,
+    -2345.7,
+    -613.1,
+    -2343.9,
+    -611.6
+   ],
+   "id": "geitstraat-130-37",
+   "latLon": [
+    51.057733,
+    3.696853
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12577,
+   "at": [
+    -2334.5,
+    -586.5
+   ],
+   "centre": [
+    -2326.6,
+    -595.5
+   ],
+   "width": 6,
+   "faces": 130,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2320.4,
+    -599,
+    -2321.1,
+    -598.2,
+    -2322.4,
+    -596.6,
+    -2332.2,
+    -584.6,
+    -2336.8,
+    -588.4,
+    -2328.4,
+    -598.7,
+    -2324.8,
+    -603
+   ],
+   "id": "geitstraat-130-38",
+   "latLon": [
+    51.057618,
+    3.697076
+   ],
+   "photos": [
+    {
+     "id": "966695132337557-70",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.39,
+      0.584
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12569,
+   "at": [
+    -2311.6000000000004,
+    -567.9
+   ],
+   "centre": [
+    -2304.3,
+    -577
+   ],
+   "width": 6,
+   "faces": 130,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2313.9,
+    -569.8,
+    -2309.3,
+    -566,
+    -2299.7,
+    -577.9,
+    -2297.6,
+    -580.6,
+    -2302.3,
+    -584.2,
+    -2302.9,
+    -583.4
+   ],
+   "id": "geitstraat-130-39",
+   "latLon": [
+    51.057483,
+    3.697338
+   ],
+   "photos": [
+    {
+     "id": "664111196360492-64",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.39,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12566,
+   "at": [
+    -2302.5,
+    -560.5
+   ],
+   "centre": [
+    -2293.4,
+    -571.7
+   ],
+   "width": 6,
+   "faces": 130,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2304.8,
+    -562.4,
+    -2300.2,
+    -558.6,
+    -2286.6,
+    -575.3,
+    -2285.7,
+    -576.4,
+    -2290.5,
+    -580.2,
+    -2292.5,
+    -577.5
+   ],
+   "id": "geitstraat-130-40",
+   "latLon": [
+    51.057429,
+    3.697442
+   ],
+   "photos": [
+    {
+     "id": "596459360103157-50",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.374,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12538,
+   "at": [
+    -2248.3999999999996,
+    -508.7
+   ],
+   "centre": [
+    -2240.1,
+    -516.7
+   ],
+   "width": 4.8,
+   "faces": 135,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2250.1,
+    -510.4,
+    -2246.7,
+    -507,
+    -2235.3,
+    -517.6,
+    -2234.4,
+    -518.4,
+    -2235.5,
+    -519.6,
+    -2237.8,
+    -522.1,
+    -2238.8,
+    -521.1,
+    -2242.4,
+    -517.7
+   ],
+   "id": "geitstraat-135-41",
+   "latLon": [
+    51.057055,
+    3.69806
+   ],
+   "photos": [
+    {
+     "id": "1353746885835518-55",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.413,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12553,
+   "at": [
+    -2277.5,
+    -539.35
+   ],
+   "centre": [
+    -2269,
+    -547.7
+   ],
+   "width": 4.6,
+   "faces": 136,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2279.1,
+    -541,
+    -2275.9,
+    -537.7,
+    -2265.9,
+    -547.5,
+    -2261.2,
+    -552.2,
+    -2263.4,
+    -554.5,
+    -2268.1,
+    -549.6,
+    -2269.4,
+    -551.1
+   ],
+   "id": "geitstraat-136-42",
+   "latLon": [
+    51.057276,
+    3.697728
+   ],
+   "photos": [
+    {
+     "id": "557124653611835-63",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.413,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12551,
+   "at": [
+    -2274.25,
+    -536
+   ],
+   "centre": [
+    -2269.3,
+    -540.9
+   ],
+   "width": 4.7,
+   "faces": 136,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2275.9,
+    -537.7,
+    -2272.6,
+    -534.3,
+    -2262.6,
+    -544.1,
+    -2265.9,
+    -547.5
+   ],
+   "id": "geitstraat-136-43",
+   "latLon": [
+    51.057252,
+    3.697765
+   ],
+   "photos": [
+    {
+     "id": "681649441080590-21",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.434,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12549,
+   "at": [
+    -2270.45,
+    -532.05
+   ],
+   "centre": [
+    -2260.5,
+    -541.7
+   ],
+   "width": 6.2,
+   "faces": 136,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2272.6,
+    -534.3,
+    -2268.3,
+    -529.8,
+    -2257.3,
+    -540.2,
+    -2256.2,
+    -541.2,
+    -2258.5,
+    -543.5,
+    -2255.5,
+    -546.4,
+    -2255.8,
+    -546.7,
+    -2257.9,
+    -548.8,
+    -2262.6,
+    -544.1
+   ],
+   "id": "geitstraat-136-44",
+   "latLon": [
+    51.057224,
+    3.697808
+   ],
+   "photos": [
+    {
+     "id": "681649441080590-43",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.387,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12547,
+   "at": [
+    -2266.7,
+    -528.15
+   ],
+   "centre": [
+    -2256.7,
+    -537.8
+   ],
+   "width": 4.6,
+   "faces": 136,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2268.3,
+    -529.8,
+    -2265.1,
+    -526.5,
+    -2254,
+    -537,
+    -2250,
+    -540.8,
+    -2253.2,
+    -544,
+    -2254.5,
+    -542.8,
+    -2252.7,
+    -541,
+    -2255.5,
+    -538.3,
+    -2257.3,
+    -540.2
+   ],
+   "id": "geitstraat-136-45",
+   "latLon": [
+    51.057195,
+    3.697851
+   ],
+   "photos": [
+    {
+     "id": "681649441080590-66",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.418,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12531,
+   "at": [
+    -2238.65,
+    -498.5
+   ],
+   "centre": [
+    -2232.9,
+    -504.4
+   ],
+   "width": 4.7,
+   "faces": 136,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2240.3,
+    -500.2,
+    -2237,
+    -496.8,
+    -2225.6,
+    -507.2,
+    -2228.9,
+    -510.7,
+    -2232.7,
+    -507.2
+   ],
+   "id": "geitstraat-136-46",
+   "latLon": [
+    51.056981,
+    3.698172
+   ],
+   "photos": [
+    {
+     "id": "9574767469307084-52",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.41,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12523,
+   "at": [
+    -2225.15,
+    -484.3
+   ],
+   "centre": [
+    -2219.7,
+    -489.4
+   ],
+   "width": 5,
+   "faces": 136,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2212.2,
+    -492.5,
+    -2223.4,
+    -482.5,
+    -2226.9,
+    -486.1,
+    -2216.2,
+    -496.5
+   ],
+   "id": "geitstraat-136-47",
+   "latLon": [
+    51.056878,
+    3.698326
+   ],
+   "photos": [
+    {
+     "id": "689680060403296-69",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.416,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12517,
+   "at": [
+    -2215,
+    -473.65
+   ],
+   "centre": [
+    -2206.3,
+    -482.4
+   ],
+   "width": 4.3,
+   "faces": 136,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2216.5,
+    -475.2,
+    -2213.5,
+    -472.1,
+    -2202.1,
+    -482.5,
+    -2198.9,
+    -485.4,
+    -2201.9,
+    -488.6,
+    -2203.6,
+    -487.1,
+    -2204.6,
+    -486.2,
+    -2209.1,
+    -482
+   ],
+   "id": "geitstraat-136-48",
+   "latLon": [
+    51.056801,
+    3.698442
+   ],
+   "photos": [
+    {
+     "id": "1423387418823755-66",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.432,
+      0.561
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12580,
+   "at": [
+    -2208.95,
+    -467.29999999999995
+   ],
+   "centre": [
+    -2202.1,
+    -473.1
+   ],
+   "width": 4.5,
+   "faces": 136,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2210.5,
+    -468.9,
+    -2207.4,
+    -465.7,
+    -2197.2,
+    -475.3,
+    -2196.4,
+    -476.1,
+    -2199.2,
+    -479.4
+   ],
+   "id": "geitstraat-136-49",
+   "latLon": [
+    51.056755,
+    3.698511
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-43",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.426,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12525,
+   "at": [
+    -2199.95,
+    -457.79999999999995
+   ],
+   "centre": [
+    -2191.7,
+    -465.2
+   ],
+   "width": 4.5,
+   "faces": 136,
+   "toStreet": 8.5,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2201.5,
+    -459.4,
+    -2198.4,
+    -456.2,
+    -2191.2,
+    -463.1,
+    -2187.4,
+    -466.8,
+    -2184.6,
+    -469.4,
+    -2187.4,
+    -472.4,
+    -2191.2,
+    -468.9
+   ],
+   "id": "geitstraat-136-50",
+   "latLon": [
+    51.056686,
+    3.698614
+   ],
+   "photos": [
+    {
+     "id": "525332340410451-38",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.428,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12545,
+   "at": [
+    -2262.3999999999996,
+    -523.6
+   ],
+   "centre": [
+    -2253.2,
+    -530.5
+   ],
+   "width": 7.9,
+   "faces": 137,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": null,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2265.1,
+    -526.5,
+    -2259.7,
+    -520.7,
+    -2250.4,
+    -529.4,
+    -2249.2,
+    -530.5,
+    -2247.4,
+    -532.2,
+    -2249.5,
+    -534.3,
+    -2250.5,
+    -533.4,
+    -2254,
+    -537
+   ],
+   "id": "geitstraat-137-51",
+   "latLon": [
+    51.057162,
+    3.6979
+   ],
+   "photos": [
+    {
+     "id": "9518171248260760-31",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.377,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12543,
+   "at": [
+    -2258,
+    -518.9000000000001
+   ],
+   "centre": [
+    -2252.3,
+    -524.9
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2259.7,
+    -520.7,
+    -2256.3,
+    -517.1,
+    -2245.9,
+    -527,
+    -2249.2,
+    -530.5,
+    -2250.4,
+    -529.4
+   ],
+   "id": "geitstraat-137-52",
+   "latLon": [
+    51.057128,
+    3.697951
+   ],
+   "photos": [
+    {
+     "id": "9518171248260760-58",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.408,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12542,
+   "at": [
+    -2254.75,
+    -515.45
+   ],
+   "centre": [
+    -2245.6,
+    -523.8
+   ],
+   "width": 4.5,
+   "faces": 137,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2239.7,
+    -530.3,
+    -2244.5,
+    -525.5,
+    -2245.9,
+    -527,
+    -2256.3,
+    -517.1,
+    -2253.2,
+    -513.8,
+    -2241.8,
+    -524.7,
+    -2237.9,
+    -528.4
+   ],
+   "id": "geitstraat-137-53",
+   "latLon": [
+    51.057104,
+    3.697988
+   ],
+   "photos": [
+    {
+     "id": "1353746885835518-19",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.438,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12536,
+   "at": [
+    -2245.1,
+    -505.3
+   ],
+   "centre": [
+    -2236.2,
+    -513.8
+   ],
+   "width": 4.7,
+   "faces": 137,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2246.7,
+    -507,
+    -2243.5,
+    -503.6,
+    -2227.8,
+    -518.1,
+    -2229.9,
+    -520.3,
+    -2234.1,
+    -516.3,
+    -2235.3,
+    -517.6
+   ],
+   "id": "geitstraat-137-54",
+   "latLon": [
+    51.05703,
+    3.698098
+   ],
+   "photos": [
+    {
+     "id": "1353746885835518-73",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.426,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12533,
+   "at": [
+    -2241.9,
+    -501.9
+   ],
+   "centre": [
+    -2231.5,
+    -510.4
+   ],
+   "width": 4.7,
+   "faces": 137,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2243.5,
+    -503.6,
+    -2240.3,
+    -500.2,
+    -2232.7,
+    -507.2,
+    -2228.9,
+    -510.7,
+    -2228.7,
+    -510.9,
+    -2227.1,
+    -512.4,
+    -2228.7,
+    -514,
+    -2226.2,
+    -516.4,
+    -2227.8,
+    -518.1
+   ],
+   "id": "geitstraat-137-55",
+   "latLon": [
+    51.057005,
+    3.698135
+   ],
+   "photos": [
+    {
+     "id": "9574767469307084-33",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.416,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12529,
+   "at": [
+    -2235.4,
+    -495.1
+   ],
+   "centre": [
+    -2228.4,
+    -502.2
+   ],
+   "width": 4.7,
+   "faces": 137,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2221.3,
+    -505.3,
+    -2233.8,
+    -493.4,
+    -2237,
+    -496.8,
+    -2225.6,
+    -507.2,
+    -2224.4,
+    -508.4
+   ],
+   "id": "geitstraat-137-56",
+   "latLon": [
+    51.056956,
+    3.698209
+   ],
+   "photos": [
+    {
+     "id": "9574767469307084-70",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.422,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12526,
+   "at": [
+    -2230.3500000000004,
+    -489.75
+   ],
+   "centre": [
+    -2221.3,
+    -500.2
+   ],
+   "width": 10,
+   "faces": 137,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2214.7,
+    -504.8,
+    -2219.6,
+    -500,
+    -2216.2,
+    -496.5,
+    -2226.9,
+    -486.1,
+    -2233.8,
+    -493.4,
+    -2221.3,
+    -505.3,
+    -2219.5,
+    -507,
+    -2218.2,
+    -508.3
+   ],
+   "id": "geitstraat-137-57",
+   "latLon": [
+    51.056918,
+    3.698267
+   ],
+   "photos": [
+    {
+     "id": "689680060403296-40",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.333,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12521,
+   "at": [
+    -2221.7,
+    -480.7
+   ],
+   "centre": [
+    -2211.2,
+    -491.3
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2205.9,
+    -495.8,
+    -2208.9,
+    -493,
+    -2207,
+    -490.9,
+    -2220,
+    -478.9,
+    -2223.4,
+    -482.5,
+    -2212.2,
+    -492.5,
+    -2209.7,
+    -494.8,
+    -2207.2,
+    -497,
+    -2206.8,
+    -496.7
+   ],
+   "id": "geitstraat-137-58",
+   "latLon": [
+    51.056852,
+    3.698366
+   ],
+   "photos": [
+    {
+     "id": "1423387418823755-30",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.422,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12519,
+   "at": [
+    -2218.25,
+    -477.04999999999995
+   ],
+   "centre": [
+    -2210.1,
+    -483.4
+   ],
+   "width": 5.1,
+   "faces": 137,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2203.6,
+    -487.1,
+    -2207,
+    -490.9,
+    -2220,
+    -478.9,
+    -2216.5,
+    -475.2,
+    -2209.1,
+    -482,
+    -2204.6,
+    -486.2
+   ],
+   "id": "geitstraat-137-59",
+   "latLon": [
+    51.056826,
+    3.698405
+   ],
+   "photos": [
+    {
+     "id": "1423387418823755-48",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.417,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12509,
+   "at": [
+    -2212,
+    -470.5
+   ],
+   "centre": [
+    -2206.3,
+    -475.7
+   ],
+   "width": 4.4,
+   "faces": 137,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -2213.5,
+    -472.1,
+    -2210.5,
+    -468.9,
+    -2199.2,
+    -479.4,
+    -2202.1,
+    -482.5
+   ],
+   "id": "geitstraat-137-60",
+   "latLon": [
+    51.056778,
+    3.698476
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-27",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.439,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12565,
+   "at": [
+    -2204.45,
+    -462.54999999999995
+   ],
+   "centre": [
+    -2196.3,
+    -471.1
+   ],
+   "width": 8.6,
+   "faces": 137,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2195.7,
+    -473.9,
+    -2192.2,
+    -477.3,
+    -2190.9,
+    -475.7,
+    -2194.6,
+    -472.3,
+    -2191.2,
+    -468.9,
+    -2201.5,
+    -459.4,
+    -2207.4,
+    -465.7,
+    -2197.2,
+    -475.3
+   ],
+   "id": "geitstraat-137-61",
+   "latLon": [
+    51.056721,
+    3.698563
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-67",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.36,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13129,
+   "at": [
+    -2195.25,
+    -452.85
+   ],
+   "centre": [
+    -2192.8,
+    -454.7
+   ],
+   "width": 9.2,
+   "faces": 137,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2192.1,
+    -449.5,
+    -2198.4,
+    -456.2,
+    -2191.2,
+    -463.1,
+    -2189.6,
+    -450.1
+   ],
+   "id": "geitstraat-137-62",
+   "latLon": [
+    51.056651,
+    3.698668
+   ],
+   "photos": [
+    {
+     "id": "525332340410451-62",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.352,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10145,
+   "at": [
+    -2460.7,
+    -688.3499999999999
+   ],
+   "centre": [
+    -2449,
+    -694.8
+   ],
+   "width": 3.9,
+   "faces": 138,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2438.5,
+    -696,
+    -2449.4,
+    -686.6,
+    -2450.6,
+    -687.9,
+    -2451.7,
+    -689.2,
+    -2454.6,
+    -686.7,
+    -2456.8,
+    -689.2,
+    -2459.4,
+    -686.9,
+    -2462,
+    -689.8,
+    -2462.7,
+    -689.3,
+    -2462.9,
+    -689.5,
+    -2454.6,
+    -696.9,
+    -2446.6,
+    -704,
+    -2440.5,
+    -709.4,
+    -2436.9,
+    -705.1,
+    -2438.1,
+    -703.9,
+    -2441,
+    -701,
+    -2438.9,
+    -698.3,
+    -2437.6,
+    -696.7
+   ],
+   "id": "geitstraat-138-63",
+   "latLon": [
+    51.058354,
+    3.695633
+   ],
+   "photos": [
+    {
+     "id": "1202283991490323-50",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.402,
+      0.596
+     ]
+    },
+    {
+     "id": "1055192260000350-50",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.402,
+      0.596
+     ]
+    },
+    {
+     "id": "668579216113461-69",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.419,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10008,
+   "at": [
+    -2426.3500000000004,
+    -665.8
+   ],
+   "centre": [
+    -2423.6,
+    -667.7
+   ],
+   "width": 4.3,
+   "faces": 138,
+   "toStreet": 10.7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2425.5,
+    -667.4,
+    -2427.8,
+    -667.4,
+    -2424.9,
+    -664.2,
+    -2423.4,
+    -665.8,
+    -2422.5,
+    -665.3,
+    -2420.1,
+    -664,
+    -2420,
+    -673.5,
+    -2424.8,
+    -673.6
+   ],
+   "id": "geitstraat-138-64",
+   "latLon": [
+    51.058191,
+    3.696026
+   ],
+   "photos": [
+    {
+     "id": "592444163815917-32",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.427,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12540,
+   "at": [
+    -2251.6499999999996,
+    -512.0999999999999
+   ],
+   "centre": [
+    -2245.3,
+    -517.5
+   ],
+   "width": 4.6,
+   "faces": 138,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -2253.2,
+    -513.8,
+    -2250.1,
+    -510.4,
+    -2242.4,
+    -517.7,
+    -2238.8,
+    -521.1,
+    -2241.8,
+    -524.7
+   ],
+   "id": "geitstraat-138-65",
+   "latLon": [
+    51.057079,
+    3.698023
+   ],
+   "photos": [
+    {
+     "id": "1353746885835518-36",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.418,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13128,
+   "at": [
+    -2190.3999999999996,
+    -456.6
+   ],
+   "centre": [
+    -2188.4,
+    -457.7
+   ],
+   "width": 13.1,
+   "faces": 173,
+   "toStreet": 14.7,
+   "floors": 2,
+   "eaves": 8,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2187.4,
+    -466.8,
+    -2185.2,
+    -450.9,
+    -2189.6,
+    -450.1,
+    -2191.2,
+    -463.1
+   ],
+   "id": "geitstraat-173-01",
+   "latLon": [
+    51.056678,
+    3.698723
+   ],
+   "photos": [
+    {
+     "id": "978118174473505-89",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.386,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11358,
+   "at": [
+    -2408.6,
+    -659.5
+   ],
+   "centre": [
+    -2408.8,
+    -664
+   ],
+   "width": 4.2,
+   "faces": 180,
+   "toStreet": 16.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2410.7,
+    -661.6,
+    -2408.6,
+    -661.6,
+    -2408.6,
+    -657.4,
+    -2406.2,
+    -656.5,
+    -2406.4,
+    -673.1,
+    -2410.7,
+    -673.3,
+    -2410.7,
+    -664.5
+   ],
+   "id": "geitstraat-180-02",
+   "latLon": [
+    51.058146,
+    3.696229
+   ],
+   "photos": [
+    {
+     "id": "592444163815917-78",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.46,
+      0.541
+     ]
+    },
+    {
+     "id": "418328374675579-126",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.468,
+      0.535
+     ]
+    },
+    {
+     "id": "1205291847909960-125",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.473,
+      0.529
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10007,
+   "at": [
+    -2420.05,
+    -668.75
+   ],
+   "centre": [
+    -2414.6,
+    -664.9
+   ],
+   "width": 9.5,
+   "faces": 181,
+   "toStreet": 16.9,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2420.1,
+    -664,
+    -2419,
+    -663,
+    -2418.3,
+    -667.4,
+    -2415,
+    -667.6,
+    -2415,
+    -664,
+    -2415,
+    -659.9,
+    -2410.7,
+    -658.2,
+    -2410.7,
+    -661.6,
+    -2412.1,
+    -661.6,
+    -2412,
+    -664.6,
+    -2410.7,
+    -664.5,
+    -2410.7,
+    -673.3,
+    -2420,
+    -673.5
+   ],
+   "id": "geitstraat-181-03",
+   "latLon": [
+    51.058213,
+    3.696098
+   ],
+   "photos": [
+    {
+     "id": "1363854094635098-94",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.387,
+      0.617
+     ]
+    },
+    {
+     "id": "1211565720427350-101",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.402,
+      0.586
+     ]
+    },
+    {
+     "id": "3985782465003379-101",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.402,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13198,
+   "at": [
+    -2203.1499999999996,
+    -432.3
+   ],
+   "centre": [
+    -2199.8,
+    -425.8
+   ],
+   "width": 6.2,
+   "faces": 261,
+   "toStreet": 11.4,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2195.5,
+    -430.8,
+    -2188.8,
+    -423.5,
+    -2200.7,
+    -414.5,
+    -2203.4,
+    -417.3,
+    -2203.6,
+    -418.1,
+    -2199.2,
+    -421.7,
+    -2202.2,
+    -424.9,
+    -2204.8,
+    -424.5,
+    -2206.2,
+    -431.8,
+    -2200.1,
+    -432.8,
+    -2200,
+    -432.2,
+    -2197.7,
+    -432.6,
+    -2195.8,
+    -430.5
+   ],
+   "id": "geitstraat-261-01",
+   "latLon": [
+    51.056502,
+    3.698578
+   ],
+   "photos": [
+    {
+     "id": "525332340410451-153",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.405,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11361,
+   "at": [
+    -2395.8,
+    -617.2
+   ],
+   "centre": [
+    -2402,
+    -610.3
+   ],
+   "width": 4.8,
+   "faces": 308,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2409.9,
+    -604.9,
+    -2397.7,
+    -618.7,
+    -2393.9,
+    -615.7,
+    -2406.4,
+    -601.7
+   ],
+   "id": "geitstraat-308-01",
+   "latLon": [
+    51.05784,
+    3.696375
+   ],
+   "photos": [
+    {
+     "id": "697554422936080-173",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.385,
+      0.718
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12570,
+   "at": [
+    -2388.3,
+    -611.1
+   ],
+   "centre": [
+    -2397.6,
+    -600.3
+   ],
+   "width": 4.8,
+   "faces": 308,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -2386.4,
+    -609.6,
+    -2400.7,
+    -593.9,
+    -2401.4,
+    -593.1,
+    -2403.2,
+    -594.7,
+    -2399.8,
+    -598.3,
+    -2401.5,
+    -600.2,
+    -2390.2,
+    -612.6
+   ],
+   "id": "geitstraat-308-02",
+   "latLon": [
+    51.057796,
+    3.696461
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-257",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.171,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12558,
+   "at": [
+    -2362.5,
+    -590.1
+   ],
+   "centre": [
+    -2371.7,
+    -578.4
+   ],
+   "width": 4.8,
+   "faces": 308,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -2360.6,
+    -588.6,
+    -2373.7,
+    -573.6,
+    -2374.9,
+    -572.2,
+    -2376.3,
+    -570.6,
+    -2380.4,
+    -573.9,
+    -2364.4,
+    -591.6
+   ],
+   "id": "geitstraat-308-03",
+   "latLon": [
+    51.057644,
+    3.696756
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 11367,
+   "at": [
+    -2325.2,
+    -559.8
+   ],
+   "centre": [
+    -2377,
+    -530
+   ],
+   "width": 9.1,
+   "faces": 308,
+   "toStreet": 8.2,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -2360.8,
+    -562.1,
+    -2358.3,
+    -559.6,
+    -2357.2,
+    -558.5,
+    -2356.1,
+    -557.4,
+    -2353.8,
+    -555.1,
+    -2352.6,
+    -553.9,
+    -2347.1,
+    -548.4,
+    -2344.2,
+    -551.4,
+    -2331.3,
+    -564.6,
+    -2329,
+    -562.5,
+    -2328.8,
+    -562.6,
+    -2321.6,
+    -557,
+    -2336.8,
+    -541.3,
+    -2358.7,
+    -518.7,
+    -2369.8,
+    -507.1,
+    -2376.3,
+    -513.1,
+    -2353.6,
+    -536.4,
+    -2354.5,
+    -537.2,
+    -2351.7,
+    -540.3,
+    -2360.6,
+    -548.7,
+    -2435.3,
+    -471.2,
+    -2439.7,
+    -475.2,
+    -2445.5,
+    -469.9,
+    -2453.6,
+    -478.1,
+    -2447.3,
+    -483.9,
+    -2449.3,
+    -486,
+    -2441.1,
+    -495.2,
+    -2435.1,
+    -489.6,
+    -2403.3,
+    -522.8,
+    -2370.2,
+    -557.3,
+    -2363.3,
+    -564.6
+   ],
+   "id": "geitstraat-308-04",
+   "latLon": [
+    51.057424,
+    3.697182
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10129,
+   "at": [
+    -2480.85,
+    -686.8499999999999
+   ],
+   "centre": [
+    -2487.2,
+    -686.1
+   ],
+   "width": 10.9,
+   "faces": 309,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2481.6,
+    -677.4,
+    -2486.2,
+    -680.9,
+    -2487.9,
+    -678.7,
+    -2497.4,
+    -690.4,
+    -2493.3,
+    -693.7,
+    -2489.5,
+    -693.9,
+    -2485.1,
+    -690.3,
+    -2476.6,
+    -683.4
+   ],
+   "id": "geitstraat-309-05",
+   "latLon": [
+    51.058344,
+    3.695403
+   ],
+   "photos": [
+    {
+     "id": "1011671947253627-208",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.059,
+      1
+     ]
+    },
+    {
+     "id": "645627968229992-208",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.057,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10022,
+   "at": [
+    -2473.75,
+    -681.0999999999999
+   ],
+   "centre": [
+    -2483.9,
+    -670.8
+   ],
+   "width": 7.3,
+   "faces": 309,
+   "toStreet": 5.5,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2470.9,
+    -678.8,
+    -2482.1,
+    -665.1,
+    -2486.7,
+    -659.5,
+    -2492.5,
+    -664.4,
+    -2491.5,
+    -665.6,
+    -2489.1,
+    -668.4,
+    -2484.3,
+    -674.3,
+    -2481.6,
+    -677.4,
+    -2476.6,
+    -683.4
+   ],
+   "id": "geitstraat-309-06",
+   "latLon": [
+    51.058302,
+    3.695484
+   ],
+   "photos": [
+    {
+     "id": "1055192260000350-261",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.041,
+      0.677
+     ]
+    },
+    {
+     "id": "1202283991490323-262",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.028,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10020,
+   "at": [
+    -2462.1,
+    -671.55
+   ],
+   "centre": [
+    -2469.9,
+    -663.5
+   ],
+   "width": 7.5,
+   "faces": 309,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2459.2,
+    -669.2,
+    -2467.5,
+    -660.1,
+    -2469.9,
+    -662.1,
+    -2474.3,
+    -656.6,
+    -2478,
+    -659.6,
+    -2475.2,
+    -662.7,
+    -2465,
+    -673.9
+   ],
+   "id": "geitstraat-309-07",
+   "latLon": [
+    51.058233,
+    3.695617
+   ],
+   "photos": [
+    {
+     "id": "1208017120886093-223",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.964
+     ]
+    },
+    {
+     "id": "997500675430719-232",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.166,
+      0.758
+     ]
+    },
+    {
+     "id": "1022024066519131-232",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.168,
+      0.758
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10017,
+   "at": [
+    -2444.8999999999996,
+    -657.4000000000001
+   ],
+   "centre": [
+    -2451.9,
+    -649.1
+   ],
+   "width": 7.2,
+   "faces": 309,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2442.1,
+    -655.1,
+    -2451.9,
+    -644.2,
+    -2453.9,
+    -645.9,
+    -2456,
+    -643.2,
+    -2459.9,
+    -646.3,
+    -2447.7,
+    -659.7
+   ],
+   "id": "geitstraat-309-08",
+   "latLon": [
+    51.058131,
+    3.695814
+   ],
+   "photos": [
+    {
+     "id": "418328374675579-223",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.421,
+      0.575
+     ]
+    },
+    {
+     "id": "1205291847909960-209",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.425,
+      0.581
+     ]
+    },
+    {
+     "id": "1324475742184790-209",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.425,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10015,
+   "at": [
+    -2433.3500000000004,
+    -647.9
+   ],
+   "centre": [
+    -2440.5,
+    -641.2
+   ],
+   "width": 7.6,
+   "faces": 309,
+   "toStreet": 7.6,
+   "floors": 2,
+   "eaves": 6.3,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    -2430.4,
+    -645.5,
+    -2441.3,
+    -633.4,
+    -2447.5,
+    -637.9,
+    -2446.8,
+    -638.7,
+    -2436.3,
+    -650.3
+   ],
+   "id": "geitstraat-309-09",
+   "latLon": [
+    51.058062,
+    3.695946
+   ],
+   "photos": [
+    {
+     "id": "592444163815917-177",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.345,
+      0.879
+     ]
+    },
+    {
+     "id": "418328374675579-189",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.445,
+      0.568
+     ]
+    },
+    {
+     "id": "1205291847909960-179",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.455,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10014,
+   "at": [
+    -2423.35,
+    -639.65
+   ],
+   "centre": [
+    -2429.9,
+    -634.8
+   ],
+   "width": 6.8,
+   "faces": 309,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2428.9,
+    -643.8,
+    -2426.2,
+    -641.6,
+    -2426,
+    -641.8,
+    -2420.7,
+    -637.5,
+    -2418.9,
+    -636.1,
+    -2422.8,
+    -631.8,
+    -2423.2,
+    -631.4,
+    -2427.9,
+    -626.2,
+    -2429.1,
+    -624.9,
+    -2434,
+    -629,
+    -2432.3,
+    -631.1,
+    -2435.4,
+    -633.7,
+    -2439.8,
+    -628.5,
+    -2443.1,
+    -631.5,
+    -2441.3,
+    -633.4,
+    -2430.4,
+    -645.5,
+    -2428.7,
+    -644.1
+   ],
+   "id": "geitstraat-309-10",
+   "latLon": [
+    51.058002,
+    3.69606
+   ],
+   "photos": [
+    {
+     "id": "2016941565495487-205",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.195,
+      0.928
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11364,
+   "at": [
+    -2410.4,
+    -629.05
+   ],
+   "centre": [
+    -2417.6,
+    -621.5
+   ],
+   "width": 8,
+   "faces": 309,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 4,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -2407.3,
+    -626.5,
+    -2419.9,
+    -611.8,
+    -2425.4,
+    -616.3,
+    -2421.8,
+    -621.1,
+    -2413.5,
+    -631.6
+   ],
+   "id": "geitstraat-309-11",
+   "latLon": [
+    51.057925,
+    3.696208
+   ],
+   "photos": [
+    {
+     "id": "1433007961441918-198",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.19,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11363,
+   "at": [
+    -2404.5,
+    -624.25
+   ],
+   "centre": [
+    -2410.8,
+    -616.9
+   ],
+   "width": 7.2,
+   "faces": 309,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2401.7,
+    -622,
+    -2414.2,
+    -607.4,
+    -2419.9,
+    -611.8,
+    -2407.3,
+    -626.5
+   ],
+   "id": "geitstraat-309-12",
+   "latLon": [
+    51.057891,
+    3.696276
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12568,
+   "at": [
+    -2384.55,
+    -608.1
+   ],
+   "centre": [
+    -2391.7,
+    -600.2
+   ],
+   "width": 4.8,
+   "faces": 309,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -2382.7,
+    -606.6,
+    -2397.1,
+    -590.7,
+    -2400.7,
+    -593.9,
+    -2386.4,
+    -609.6
+   ],
+   "id": "geitstraat-309-13",
+   "latLon": [
+    51.057774,
+    3.696504
+   ],
+   "photos": [
+    {
+     "id": "1179205527235448-187",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.313,
+      0.872
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12592,
+   "at": [
+    -2380.8,
+    -605.05
+   ],
+   "centre": [
+    -2391.5,
+    -593.2
+   ],
+   "width": 4.9,
+   "faces": 309,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2378.9,
+    -603.5,
+    -2390.5,
+    -590.8,
+    -2398.2,
+    -582.2,
+    -2401.9,
+    -585.4,
+    -2397.1,
+    -590.7,
+    -2382.7,
+    -606.6
+   ],
+   "id": "geitstraat-309-14",
+   "latLon": [
+    51.057752,
+    3.696547
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12562,
+   "at": [
+    -2371.7,
+    -597.55
+   ],
+   "centre": [
+    -2378.9,
+    -589.4
+   ],
+   "width": 9,
+   "faces": 309,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -2380.8,
+    -586.9,
+    -2384.4,
+    -590.2,
+    -2375.2,
+    -600.4,
+    -2368.2,
+    -594.7,
+    -2380.8,
+    -580.8,
+    -2383.7,
+    -583.6
+   ],
+   "id": "geitstraat-309-15",
+   "latLon": [
+    51.057697,
+    3.696651
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12560,
+   "at": [
+    -2366.3,
+    -593.1500000000001
+   ],
+   "centre": [
+    -2376.5,
+    -581.9
+   ],
+   "width": 4.9,
+   "faces": 309,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": null,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2364.4,
+    -591.6,
+    -2380.4,
+    -573.9,
+    -2380.8,
+    -573.5,
+    -2384.5,
+    -576.7,
+    -2380.8,
+    -580.8,
+    -2368.2,
+    -594.7
+   ],
+   "id": "geitstraat-309-16",
+   "latLon": [
+    51.057666,
+    3.696712
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12556,
+   "at": [
+    -2358.7,
+    -587.05
+   ],
+   "centre": [
+    -2367.4,
+    -577.3
+   ],
+   "width": 4.9,
+   "faces": 309,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -2356.8,
+    -585.5,
+    -2369,
+    -570.6,
+    -2371.8,
+    -573.3,
+    -2372.5,
+    -572.5,
+    -2373.7,
+    -573.6,
+    -2360.6,
+    -588.6
+   ],
+   "id": "geitstraat-309-17",
+   "latLon": [
+    51.057622,
+    3.696799
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12554,
+   "at": [
+    -2353.75,
+    -583
+   ],
+   "centre": [
+    -2361.6,
+    -573.6
+   ],
+   "width": 7.9,
+   "faces": 309,
+   "toStreet": 8.1,
+   "floors": 2,
+   "eaves": 6.1,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    -2350.7,
+    -580.5,
+    -2362.2,
+    -567.8,
+    -2364.6,
+    -569.7,
+    -2366.3,
+    -567.8,
+    -2369,
+    -570.6,
+    -2356.8,
+    -585.5
+   ],
+   "id": "geitstraat-309-18",
+   "latLon": [
+    51.057592,
+    3.696856
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12552,
+   "at": [
+    -2348.8,
+    -578.95
+   ],
+   "centre": [
+    -2358.5,
+    -567.7
+   ],
+   "width": 4.9,
+   "faces": 309,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    -2346.9,
+    -577.4,
+    -2357.7,
+    -565.4,
+    -2358.8,
+    -566.4,
+    -2360.8,
+    -563.9,
+    -2359.9,
+    -563,
+    -2360.8,
+    -562.1,
+    -2363.3,
+    -564.6,
+    -2364.3,
+    -565.5,
+    -2362.2,
+    -567.8,
+    -2350.7,
+    -580.5
+   ],
+   "id": "geitstraat-309-19",
+   "latLon": [
+    51.057563,
+    3.696913
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12550,
+   "at": [
+    -2344.9,
+    -575.8
+   ],
+   "centre": [
+    -2354.9,
+    -565.4
+   ],
+   "width": 5.1,
+   "faces": 309,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -2358.3,
+    -559.6,
+    -2360.8,
+    -562.1,
+    -2359.9,
+    -563,
+    -2357.7,
+    -565.4,
+    -2346.9,
+    -577.4,
+    -2342.9,
+    -574.2,
+    -2355.6,
+    -560.1,
+    -2356.8,
+    -561.3
+   ],
+   "id": "geitstraat-309-20",
+   "latLon": [
+    51.05754,
+    3.696957
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12546,
+   "at": [
+    -2337.2,
+    -569.5
+   ],
+   "centre": [
+    -2346.6,
+    -560.2
+   ],
+   "width": 5.1,
+   "faces": 309,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -2335.2,
+    -567.9,
+    -2346.3,
+    -555.9,
+    -2348.8,
+    -558.1,
+    -2352.6,
+    -553.9,
+    -2353.8,
+    -555.1,
+    -2350,
+    -559.3,
+    -2339.2,
+    -571.1
+   ],
+   "id": "geitstraat-309-21",
+   "latLon": [
+    51.057495,
+    3.697045
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12539,
+   "at": [
+    -2314.8,
+    -551.25
+   ],
+   "centre": [
+    -2323.1,
+    -541.5
+   ],
+   "width": 5.9,
+   "faces": 309,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2324.3,
+    -535.2,
+    -2327,
+    -537.3,
+    -2326,
+    -538.5,
+    -2325.6,
+    -538.2,
+    -2325.1,
+    -538.9,
+    -2327.4,
+    -541.3,
+    -2317.1,
+    -553.1,
+    -2312.5,
+    -549.4
+   ],
+   "id": "geitstraat-309-22",
+   "latLon": [
+    51.057363,
+    3.697301
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12537,
+   "at": [
+    -2310.15,
+    -547.5
+   ],
+   "centre": [
+    -2318.1,
+    -536.2
+   ],
+   "width": 6,
+   "faces": 309,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2307.8,
+    -545.6,
+    -2315.2,
+    -536.6,
+    -2315.9,
+    -537.1,
+    -2317.1,
+    -535.4,
+    -2317.3,
+    -534.8,
+    -2319.4,
+    -532.5,
+    -2323.1,
+    -528.5,
+    -2324.9,
+    -530.2,
+    -2321.9,
+    -533.4,
+    -2324.3,
+    -535.2,
+    -2312.5,
+    -549.4
+   ],
+   "id": "geitstraat-309-23",
+   "latLon": [
+    51.057335,
+    3.697354
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12534,
+   "at": [
+    -2305.55,
+    -543.75
+   ],
+   "centre": [
+    -2313.4,
+    -536.1
+   ],
+   "width": 5.8,
+   "faces": 309,
+   "toStreet": 8.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2303.3,
+    -541.9,
+    -2310.3,
+    -532.8,
+    -2314.3,
+    -528.1,
+    -2319.4,
+    -532.5,
+    -2317.3,
+    -534.8,
+    -2317.1,
+    -535.4,
+    -2315.9,
+    -537.1,
+    -2315.2,
+    -536.6,
+    -2307.8,
+    -545.6
+   ],
+   "id": "geitstraat-309-24",
+   "latLon": [
+    51.057308,
+    3.697407
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12532,
+   "at": [
+    -2300.95,
+    -540
+   ],
+   "centre": [
+    -2304.5,
+    -535.5
+   ],
+   "width": 6,
+   "faces": 309,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2298.6,
+    -538.1,
+    -2305.9,
+    -529.4,
+    -2310.3,
+    -532.8,
+    -2303.3,
+    -541.9
+   ],
+   "id": "geitstraat-309-25",
+   "latLon": [
+    51.057281,
+    3.69746
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12530,
+   "at": [
+    -2296.25,
+    -536.2
+   ],
+   "centre": [
+    -2302.4,
+    -529.8
+   ],
+   "width": 6,
+   "faces": 309,
+   "toStreet": 8.3,
+   "floors": 2,
+   "eaves": 6.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2293.9,
+    -534.3,
+    -2304.6,
+    -521.8,
+    -2309.1,
+    -525.5,
+    -2305.9,
+    -529.4,
+    -2298.6,
+    -538.1
+   ],
+   "id": "geitstraat-309-26",
+   "latLon": [
+    51.057254,
+    3.697513
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 10021,
+   "at": [
+    -2467.95,
+    -676.3499999999999
+   ],
+   "centre": [
+    -2475.7,
+    -668.5
+   ],
+   "width": 7.7,
+   "faces": 310,
+   "toStreet": 5.5,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    -2465,
+    -673.9,
+    -2475.2,
+    -662.7,
+    -2479.5,
+    -666.2,
+    -2481.2,
+    -664.1,
+    -2482.1,
+    -665.1,
+    -2470.9,
+    -678.8
+   ],
+   "id": "geitstraat-310-27",
+   "latLon": [
+    51.058268,
+    3.69555
+   ],
+   "photos": [
+    {
+     "id": "507354135749894-262",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.72
+     ]
+    },
+    {
+     "id": "1202283991490323-175",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.337,
+      0.977
+     ]
+    },
+    {
+     "id": "1055192260000350-175",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.337,
+      0.975
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10019,
+   "at": [
+    -2456.35,
+    -666.85
+   ],
+   "centre": [
+    -2464,
+    -658.2
+   ],
+   "width": 7.4,
+   "faces": 310,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2453.5,
+    -664.5,
+    -2463.5,
+    -652.2,
+    -2465.7,
+    -653.9,
+    -2467.3,
+    -652.1,
+    -2471.5,
+    -655.6,
+    -2467.5,
+    -660.1,
+    -2459.2,
+    -669.2
+   ],
+   "id": "geitstraat-310-28",
+   "latLon": [
+    51.058199,
+    3.695683
+   ],
+   "photos": [
+    {
+     "id": "1156926245985800-236",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.022,
+      0.812
+     ]
+    },
+    {
+     "id": "3985782465003379-239",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.352,
+      0.625
+     ]
+    },
+    {
+     "id": "1211565720427350-239",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.352,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10018,
+   "at": [
+    -2450.6,
+    -662.1
+   ],
+   "centre": [
+    -2458.8,
+    -653.2
+   ],
+   "width": 7.5,
+   "faces": 310,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2447.7,
+    -659.7,
+    -2459.9,
+    -646.3,
+    -2462.4,
+    -648.2,
+    -2461.1,
+    -649.6,
+    -2463.8,
+    -651.9,
+    -2463.5,
+    -652.2,
+    -2453.5,
+    -664.5
+   ],
+   "id": "geitstraat-310-29",
+   "latLon": [
+    51.058165,
+    3.695749
+   ],
+   "photos": [
+    {
+     "id": "1318643233209650-235",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.033,
+      0.81
+     ]
+    },
+    {
+     "id": "1363854094635098-230",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.346,
+      0.636
+     ]
+    },
+    {
+     "id": "1211565720427350-205",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.369,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10016,
+   "at": [
+    -2439.2,
+    -652.7
+   ],
+   "centre": [
+    -2447.7,
+    -644.2
+   ],
+   "width": 7.5,
+   "faces": 310,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -2436.3,
+    -650.3,
+    -2446.8,
+    -638.7,
+    -2449.9,
+    -641.2,
+    -2451.9,
+    -638.6,
+    -2454.8,
+    -641.1,
+    -2451.9,
+    -644.2,
+    -2442.1,
+    -655.1
+   ],
+   "id": "geitstraat-310-30",
+   "latLon": [
+    51.058097,
+    3.695879
+   ],
+   "photos": [
+    {
+     "id": "418328374675579-205",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.428,
+      0.578
+     ]
+    },
+    {
+     "id": "592444163815917-255",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.072,
+      0.693
+     ]
+    },
+    {
+     "id": "1205291847909960-192",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.441,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10013,
+   "at": [
+    -2416.2,
+    -633.85
+   ],
+   "centre": [
+    -2421.3,
+    -629.7
+   ],
+   "width": 7,
+   "faces": 310,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2413.5,
+    -631.6,
+    -2421.8,
+    -621.1,
+    -2427.9,
+    -626.2,
+    -2423.2,
+    -631.4,
+    -2422.8,
+    -631.8,
+    -2418.9,
+    -636.1
+   ],
+   "id": "geitstraat-310-31",
+   "latLon": [
+    51.05796,
+    3.696142
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 11362,
+   "at": [
+    -2399.7,
+    -620.35
+   ],
+   "centre": [
+    -2408.5,
+    -610.1
+   ],
+   "width": 5.2,
+   "faces": 310,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -2397.7,
+    -618.7,
+    -2409.9,
+    -604.9,
+    -2411.9,
+    -602.5,
+    -2415.6,
+    -605.4,
+    -2414.2,
+    -607.4,
+    -2401.7,
+    -622
+   ],
+   "id": "geitstraat-310-32",
+   "latLon": [
+    51.057862,
+    3.696331
+   ],
+   "photos": [
+    {
+     "id": "697554422936080-232",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.147,
+      0.79
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 12572,
+   "at": [
+    -2392.05,
+    -614.1500000000001
+   ],
+   "centre": [
+    -2399,
+    -605.8
+   ],
+   "width": 4.8,
+   "faces": 310,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -2402.9,
+    -598.6,
+    -2406.4,
+    -601.7,
+    -2393.9,
+    -615.7,
+    -2390.2,
+    -612.6,
+    -2401.5,
+    -600.2
+   ],
+   "id": "geitstraat-310-33",
+   "latLon": [
+    51.057818,
+    3.696418
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12564,
+   "at": [
+    -2377.05,
+    -601.95
+   ],
+   "centre": [
+    -2385.5,
+    -592.1
+   ],
+   "width": 4.8,
+   "faces": 310,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -2375.2,
+    -600.4,
+    -2384.4,
+    -590.2,
+    -2389.5,
+    -584.6,
+    -2391.2,
+    -586.1,
+    -2388.6,
+    -588.9,
+    -2390.5,
+    -590.8,
+    -2378.9,
+    -603.5
+   ],
+   "id": "geitstraat-310-34",
+   "latLon": [
+    51.057729,
+    3.69659
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12548,
+   "at": [
+    -2341.05,
+    -572.6500000000001
+   ],
+   "centre": [
+    -2350.5,
+    -563.1
+   ],
+   "width": 4.8,
+   "faces": 310,
+   "toStreet": 8.2,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2339.2,
+    -571.1,
+    -2350,
+    -559.3,
+    -2352.4,
+    -561.3,
+    -2356.1,
+    -557.4,
+    -2357.2,
+    -558.5,
+    -2355.6,
+    -560.1,
+    -2342.9,
+    -574.2
+   ],
+   "id": "geitstraat-310-35",
+   "latLon": [
+    51.057517,
+    3.697001
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12544,
+   "at": [
+    -2333.25,
+    -566.25
+   ],
+   "centre": [
+    -2341,
+    -558.8
+   ],
+   "width": 5.1,
+   "faces": 310,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -2344.2,
+    -551.4,
+    -2347.9,
+    -554.2,
+    -2346.3,
+    -555.9,
+    -2335.2,
+    -567.9,
+    -2331.3,
+    -564.6
+   ],
+   "id": "geitstraat-310-36",
+   "latLon": [
+    51.057471,
+    3.69709
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12541,
+   "at": [
+    -2319.35,
+    -555.05
+   ],
+   "centre": [
+    -2327,
+    -545.9
+   ],
+   "width": 6,
+   "faces": 311,
+   "toStreet": 8.2,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2336.8,
+    -541.3,
+    -2321.6,
+    -557,
+    -2317.1,
+    -553.1,
+    -2327.4,
+    -541.3,
+    -2332.1,
+    -536.6
+   ],
+   "id": "geitstraat-311-37",
+   "latLon": [
+    51.05739,
+    3.697249
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12528,
+   "at": [
+    -2291.6000000000004,
+    -532.3
+   ],
+   "centre": [
+    -2300,
+    -522.5
+   ],
+   "width": 6.1,
+   "faces": 311,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2300.2,
+    -517.6,
+    -2303.7,
+    -513.5,
+    -2308.5,
+    -517.3,
+    -2304.6,
+    -521.8,
+    -2293.9,
+    -534.3,
+    -2289.3,
+    -530.3
+   ],
+   "id": "geitstraat-311-38",
+   "latLon": [
+    51.057225,
+    3.697566
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12527,
+   "at": [
+    -2287.3500000000004,
+    -528.25
+   ],
+   "centre": [
+    -2294.9,
+    -519.1
+   ],
+   "width": 5.7,
+   "faces": 316,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2285.4,
+    -526.2,
+    -2297.9,
+    -512.3,
+    -2299,
+    -513.4,
+    -2297.6,
+    -514.9,
+    -2300.2,
+    -517.6,
+    -2289.3,
+    -530.3
+   ],
+   "id": "geitstraat-316-39",
+   "latLon": [
+    51.057196,
+    3.697615
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12524,
+   "at": [
+    -2283.45,
+    -524.1500000000001
+   ],
+   "centre": [
+    -2290.3,
+    -516
+   ],
+   "width": 5.7,
+   "faces": 316,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2297.9,
+    -512.3,
+    -2285.4,
+    -526.2,
+    -2281.5,
+    -522.1,
+    -2292.5,
+    -510.7,
+    -2294.2,
+    -508.8
+   ],
+   "id": "geitstraat-316-40",
+   "latLon": [
+    51.057166,
+    3.69766
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12522,
+   "at": [
+    -2279.5,
+    -520.05
+   ],
+   "centre": [
+    -2287.9,
+    -507.7
+   ],
+   "width": 5.7,
+   "faces": 316,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2277.5,
+    -518,
+    -2287,
+    -509.6,
+    -2285.8,
+    -502.4,
+    -2285.6,
+    -501.5,
+    -2292.6,
+    -500.4,
+    -2293.2,
+    -502.8,
+    -2290.6,
+    -503.3,
+    -2291.3,
+    -505.9,
+    -2289.5,
+    -507.5,
+    -2292.5,
+    -510.7,
+    -2281.5,
+    -522.1
+   ],
+   "id": "geitstraat-316-41",
+   "latLon": [
+    51.057137,
+    3.697705
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12518,
+   "at": [
+    -2271.7,
+    -511.79999999999995
+   ],
+   "centre": [
+    -2280.6,
+    -503.6
+   ],
+   "width": 5.5,
+   "faces": 316,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2269.8,
+    -509.8,
+    -2276.6,
+    -503.6,
+    -2279,
+    -505.9,
+    -2284.1,
+    -501.1,
+    -2281.9,
+    -498.7,
+    -2282.5,
+    -498.3,
+    -2284.7,
+    -496.1,
+    -2285.6,
+    -501.5,
+    -2285.8,
+    -502.4,
+    -2283.2,
+    -504.9,
+    -2280.4,
+    -507.5,
+    -2273.6,
+    -513.8
+   ],
+   "id": "geitstraat-316-42",
+   "latLon": [
+    51.057077,
+    3.697794
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12515,
+   "at": [
+    -2267.9,
+    -507.8
+   ],
+   "centre": [
+    -2278.6,
+    -497.9
+   ],
+   "width": 5.5,
+   "faces": 316,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2266,
+    -505.8,
+    -2278.9,
+    -493.9,
+    -2282.5,
+    -490.5,
+    -2283.5,
+    -489.6,
+    -2284,
+    -492.4,
+    -2280.1,
+    -495.9,
+    -2282.5,
+    -498.3,
+    -2281.9,
+    -498.7,
+    -2276.6,
+    -503.6,
+    -2269.8,
+    -509.8
+   ],
+   "id": "geitstraat-316-43",
+   "latLon": [
+    51.057048,
+    3.697837
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12586,
+   "at": [
+    -2264.05,
+    -503.75
+   ],
+   "centre": [
+    -2271.9,
+    -496.1
+   ],
+   "width": 5.7,
+   "faces": 316,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 10.6,
+   "kind": "house",
+   "ring": [
+    -2262.1,
+    -501.7,
+    -2271.7,
+    -492.6,
+    -2272.7,
+    -491.9,
+    -2274.7,
+    -494.5,
+    -2277.3,
+    -492.3,
+    -2278.9,
+    -493.9,
+    -2266,
+    -505.8
+   ],
+   "id": "geitstraat-316-44",
+   "latLon": [
+    51.057019,
+    3.697881
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12535,
+   "at": [
+    -2252.6,
+    -491.6
+   ],
+   "centre": [
+    -2267.1,
+    -485.2
+   ],
+   "width": 6.1,
+   "faces": 316,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 7.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2250.5,
+    -489.4,
+    -2259.8,
+    -481,
+    -2263.9,
+    -485.2,
+    -2266.2,
+    -487.6,
+    -2271.2,
+    -482.8,
+    -2269.2,
+    -480.5,
+    -2275.8,
+    -479.4,
+    -2275.9,
+    -479.7,
+    -2276.3,
+    -481.1,
+    -2276,
+    -481.4,
+    -2271.6,
+    -485.5,
+    -2269.4,
+    -487.5,
+    -2258.4,
+    -497.7,
+    -2254.7,
+    -493.8
+   ],
+   "id": "geitstraat-316-45",
+   "latLon": [
+    51.056931,
+    3.698012
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12508,
+   "at": [
+    -2238.3,
+    -476.65
+   ],
+   "centre": [
+    -2241.2,
+    -473
+   ],
+   "width": 9,
+   "faces": 316,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": null,
+   "kind": "service",
+   "ring": [
+    -2241.4,
+    -479.9,
+    -2235.2,
+    -473.4,
+    -2239.3,
+    -469.7,
+    -2241.8,
+    -467.3,
+    -2248.5,
+    -474.7
+   ],
+   "id": "geitstraat-316-46",
+   "latLon": [
+    51.056823,
+    3.698176
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12520,
+   "at": [
+    -2275.55,
+    -515.9
+   ],
+   "centre": [
+    -2282.3,
+    -508.6
+   ],
+   "width": 5.7,
+   "faces": 317,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2273.6,
+    -513.8,
+    -2280.4,
+    -507.5,
+    -2282.3,
+    -509.7,
+    -2283.1,
+    -509.6,
+    -2282.8,
+    -508.7,
+    -2284.2,
+    -507,
+    -2283.3,
+    -506.3,
+    -2284.1,
+    -505.6,
+    -2283.2,
+    -504.9,
+    -2285.8,
+    -502.4,
+    -2287,
+    -509.6,
+    -2277.5,
+    -518
+   ],
+   "id": "geitstraat-317-47",
+   "latLon": [
+    51.057107,
+    3.69775
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 12574,
+   "at": [
+    -2260.25,
+    -499.7
+   ],
+   "centre": [
+    -2268,
+    -491.8
+   ],
+   "width": 5.4,
+   "faces": 317,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 10.4,
+   "kind": "house",
+   "ring": [
+    -2258.4,
+    -497.7,
+    -2269.4,
+    -487.5,
+    -2271.6,
+    -485.5,
+    -2272.9,
+    -487.2,
+    -2269.7,
+    -490.3,
+    -2271.7,
+    -492.6,
+    -2262.1,
+    -501.7
+   ],
+   "id": "geitstraat-317-48",
+   "latLon": [
+    51.05699,
+    3.697925
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13291,
+   "at": [
+    -2233.1499999999996,
+    -471.2
+   ],
+   "centre": [
+    -2236.8,
+    -465.6
+   ],
+   "width": 6,
+   "faces": 317,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2231.1,
+    -469,
+    -2234.4,
+    -465.9,
+    -2234.1,
+    -464.6,
+    -2234.7,
+    -464.2,
+    -2239.5,
+    -461.1,
+    -2239.5,
+    -461.2,
+    -2239.6,
+    -461.2,
+    -2240.4,
+    -465,
+    -2236.6,
+    -466.7,
+    -2239.3,
+    -469.7,
+    -2235.2,
+    -473.4
+   ],
+   "id": "geitstraat-317-49",
+   "latLon": [
+    51.056783,
+    3.698235
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13289,
+   "at": [
+    -2225.3,
+    -462.85
+   ],
+   "centre": [
+    -2224.7,
+    -454.9
+   ],
+   "width": 16.9,
+   "faces": 317,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 7.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2219.5,
+    -456.7,
+    -2211.2,
+    -447.9,
+    -2211.7,
+    -445.9,
+    -2219,
+    -444.6,
+    -2229.3,
+    -442.8,
+    -2232.4,
+    -456.6,
+    -2234.1,
+    -464.6,
+    -2234.4,
+    -465.9,
+    -2231.1,
+    -469
+   ],
+   "id": "geitstraat-317-50",
+   "latLon": [
+    51.056723,
+    3.698324
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13298,
+   "at": [
+    -2245.15,
+    -471
+   ],
+   "centre": [
+    -2248.7,
+    -467.2
+   ],
+   "width": 10,
+   "faces": 318,
+   "toStreet": 15.6,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2241.8,
+    -467.3,
+    -2244.9,
+    -465,
+    -2247,
+    -464.6,
+    -2253,
+    -463.4,
+    -2257.1,
+    -468.3,
+    -2248.5,
+    -474.7
+   ],
+   "id": "geitstraat-318-51",
+   "latLon": [
+    51.056782,
+    3.698097
+   ],
+   "photos": [
+    {
+     "id": "689680060403296-216",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.265,
+      0.79
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10133,
+   "at": [
+    -2492.65,
+    -684.55
+   ],
+   "centre": [
+    -2493.3,
+    -680.4
+   ],
+   "width": 15.1,
+   "faces": 321,
+   "toStreet": 15.1,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2487.9,
+    -678.7,
+    -2485.3,
+    -675.6,
+    -2488,
+    -673.5,
+    -2493.9,
+    -680.8,
+    -2497.1,
+    -678.2,
+    -2503.3,
+    -685.8,
+    -2497.4,
+    -690.4
+   ],
+   "id": "geitstraat-321-52",
+   "latLon": [
+    51.058327,
+    3.695268
+   ],
+   "photos": [
+    {
+     "id": "1413400309788781-223",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.216,
+      0.842
+     ]
+    },
+    {
+     "id": "645627968229992-245",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.23,
+      0.708
+     ]
+    },
+    {
+     "id": "1011671947253627-245",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.231,
+      0.708
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13199,
+   "at": [
+    -2205.5,
+    -428.15
+   ],
+   "centre": [
+    -2206.1,
+    -420.9
+   ],
+   "width": 7.4,
+   "faces": 349,
+   "toStreet": 16.2,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2204.8,
+    -424.5,
+    -2203.6,
+    -418.1,
+    -2203.4,
+    -417.3,
+    -2204.8,
+    -416.3,
+    -2205.6,
+    -420.7,
+    -2206.9,
+    -420.4,
+    -2206,
+    -415.5,
+    -2208.4,
+    -413.7,
+    -2211.4,
+    -430.9,
+    -2206.2,
+    -431.8
+   ],
+   "id": "geitstraat-349-01",
+   "latLon": [
+    51.056472,
+    3.698551
+   ],
+   "photos": [
+    {
+     "id": "568607905360765",
+     "metres": 28,
+     "off": 15,
+     "span": [
+      0.018,
+      0.278
+     ]
+    }
+   ]
+  }
+ ]
+}
