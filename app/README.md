@@ -23,3 +23,21 @@ stylesheet and sounds, the paintings from `assets/img/art/`, Three.js from npm a
 worker and the links to the website. The build stops if the page no longer looks the way it expects.
 
 `www/` and the copy of it in `ios/App/App/public/` are not checked in; `ios/` itself is.
+
+## A build in TestFlight
+
+The app is `net.instantcities.app` in App Store Connect
+(<https://appstoreconnect.apple.com/apps/6826871341/distribution>). Raise `CURRENT_PROJECT_VERSION`
+in the Xcode project first (App Store Connect takes each build number once per version; 1.0 (1) is
+uploaded). Then, from `app/`:
+
+```
+npm run build && npx cap sync ios
+xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Release \
+  -destination 'generic/platform=iOS' -archivePath build/InstantCities.xcarchive -allowProvisioningUpdates archive
+xcodebuild -exportArchive -archivePath build/InstantCities.xcarchive \
+  -exportOptionsPlist app-store-assets/ExportOptions.plist -exportPath build/export -allowProvisioningUpdates
+```
+
+The second command uploads (`ExportOptions.plist` says so). Apple processes the build for 10 to 30
+minutes; it then shows in TestFlight.
