@@ -6,8 +6,9 @@ tagline: "The historic centres of Europe in 3D, to explore or race by bike, on f
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
 map_title: "On the map"
-live_city: paris # whose tour plays behind the home page's hero
-live_caption: "Live: the tour of Paris"
+live_city: ghent # whose tour plays behind the home page's hero
+live_poster: /assets/img/boat.jpg
+live_caption: "Live: the tour of Ghent"
 live_watch: "Watch the tour"
 soon_title: "Coming soon"
 cities_page_title: "Cities: the historic centres of Europe to play in 3D"
