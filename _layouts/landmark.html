@@ -21,7 +21,7 @@
   <main id="main">
     <section class="hero landmark-hero{% unless L.image %} home-hero{% endunless %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › <a href="/{{ C.id }}/#landmarks">Places and landmarks</a></p>
+        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › <a href="/{{ C.id }}/{% if site.data.about[C.id] %}places-and-landmarks/{% else %}#landmarks{% endif %}">Places and landmarks</a></p>
         <h1><span class="emoji" aria-hidden="true">{{ L.emoji }}</span> {{ L.name }}</h1>
         {%- if L.local %}<p class="local">{{ L.local }}</p>{% endif %}
         <p class="tagline">{{ L.blurb }}</p>

@@ -1,0 +1,92 @@
+{
+  "intro": "London is the capital of the United Kingdom and one of the largest cities in Europe. The Romans founded it on the Thames almost two thousand years ago, and it grew into the capital of a worldwide empire and a centre of finance, theatre and museums. In Westminster, the part you ride through, the Houses of Parliament, Big Ben and the royal parks sit a short walk from Trafalgar Square.",
+  "famous": [
+    "Big Ben, the Houses of Parliament and Westminster Abbey",
+    "Red double-decker buses, black cabs and the Underground, the oldest underground railway in the world",
+    "Royal ceremonies such as the Changing of the Guard and Trooping the Colour",
+    "Free national museums and galleries, from the British Museum to the National Gallery"
+  ],
+  "facts": [
+    ["Country", "United Kingdom (England)"],
+    ["Population", "About 9 million (Greater London)"],
+    ["Founded", "Around AD 47, as the Roman town of Londinium"],
+    ["River", "The Thames"],
+    ["Language", "English"],
+    ["Nickname", "The Big Smoke"],
+    ["Local government", "The Mayor of London and 33 local councils, among them the City of Westminster"],
+    ["UNESCO World Heritage", "Four sites, among them the Palace of Westminster and Westminster Abbey, since 1987"]
+  ],
+  "overview": [
+    "London lies on the River Thames in the south-east of England, where the river begins to widen towards its estuary and the North Sea. It grew out of two cities: the City of London, the old Roman and merchant town in the east, which is still the financial district, and Westminster, a little further upriver, where the kings built their palace and the abbey.",
+    "Instant London takes you through Westminster. Whitehall, the street of government ministries, runs from Trafalgar Square south to Parliament Square, past Downing Street and the mounted guards of Horse Guards. To the west, the Mall leads along the trees of St James’s Park towards Buckingham Palace; to the east, Westminster Bridge crosses the Thames to the London Eye on the South Bank."
+  ],
+  "setting": [
+    "London fills a wide, shallow basin around the Thames, ringed by low chalk hills. Its tides reach far inland: the river rises and falls by several metres twice a day as it passes Westminster. Since 1982 the Thames Barrier, downstream at Woolwich, has protected the city from storm surges coming up from the sea.",
+    "Greater London covers about 1,570 square kilometres and is made up of 32 boroughs and the City of London. Large parks, among them Hyde Park, Regent’s Park and Hampstead Heath, keep green space close to the centre. The climate is mild and changeable, with rain spread through the year and rarely much snow."
+  ],
+  "history": [
+    {
+      "title": "Londinium and the medieval city",
+      "text": [
+        "The Romans invaded Britain in AD 43 and, a few years later, founded Londinium at the first place where they could bridge the Thames. Boudica’s rebels burned it around AD 60, but the town recovered and became the largest in Roman Britain, with a stone wall built around 200. When the Romans left in the early 5th century, the walled town emptied, and the Saxons traded instead from Lundenwic, a settlement upriver along what is now the Strand.",
+        "Alfred the Great reoccupied the old Roman city in 886. Edward the Confessor built a great abbey church at Westminster, consecrated in 1065, and the next year William the Conqueror was crowned there on Christmas Day. From then on the kings and their government lived at Westminster, while the merchants ran the City, a split that London still keeps."
+      ]
+    },
+    {
+      "title": "Palaces, plague and fire",
+      "text": [
+        "In 1530 Henry VIII took over the Archbishop of York’s house beside the river and made it the Palace of Whitehall, the largest palace in Europe at the time. Parliament had Charles I beheaded outside its Banqueting House in 1649. Most of the palace burned down in 1698, and ministries later took its place along Whitehall.",
+        "The Great Plague of 1665 killed almost a quarter of Londoners, and the next year the Great Fire destroyed most of the City. Christopher Wren rebuilt St Paul’s Cathedral and more than fifty City churches. In the 1680s Sir George Downing built a row of houses off Whitehall; since 1735 number 10 has been the home of the prime minister."
+      ]
+    },
+    {
+      "title": "Imperial capital and modern city",
+      "text": [
+        "In the 19th century London became the largest city in the world and the capital of an empire. After a fire destroyed the old Palace of Westminster in 1834, Charles Barry and Augustus Pugin built the present Houses of Parliament, with the clock tower of Big Ben finished in 1859. The city laid out Trafalgar Square, raised Nelson’s Column in 1843, opened the first underground railway in 1863, and Joseph Bazalgette built the Victoria Embankment over his new sewers.",
+        "German bombs struck London night after night in the Blitz of 1940 and 1941. After the war the city hosted the Olympic Games of 1948, held the Festival of Britain on the South Bank in 1951, and welcomed new Londoners from the Caribbean, South Asia and beyond. Since 2000 London has elected its own mayor, and in 2012 it became the first city to host the Olympic Games three times."
+      ]
+    }
+  ],
+  "timeline": [
+    ["c. 47", "The Romans found Londinium on the Thames"],
+    ["c. 60", "Boudica’s rebels burn the town"],
+    ["886", "Alfred the Great reoccupies the old Roman city"],
+    ["1066", "William the Conqueror is crowned in Westminster Abbey"],
+    ["1530", "Henry VIII makes Whitehall his palace"],
+    ["1649", "Charles I is beheaded outside the Banqueting House"],
+    ["1666", "The Great Fire destroys most of the City"],
+    ["1735", "Robert Walpole moves into 10 Downing Street"],
+    ["1834", "Fire destroys the old Palace of Westminster"],
+    ["1859", "The clock tower and bell of Big Ben are finished"],
+    ["1863", "The first underground railway opens"],
+    ["1940", "The Blitz begins"],
+    ["2012", "London hosts the Olympic Games for the third time"]
+  ],
+  "today": [
+    "London is the seat of the monarch, the government and Parliament, and one of the world’s great financial centres, in the City and in the towers of Canary Wharf. It is home to people from almost every country, and more than three hundred languages are spoken in its schools. Its West End theatres, free museums and royal ceremonies draw millions of visitors a year.",
+    "Londoners get around by Underground, by red buses and, more and more, by bike. Football is played everywhere: Arsenal, Chelsea, Tottenham Hotspur, West Ham United, Fulham and Crystal Palace are only some of the city’s clubs, and Wembley Stadium hosts the national team and the cup finals."
+  ],
+  "places": [
+    { "id": "thames", "name": "The Thames", "local": "River Thames", "kind": "waterway", "lat": 51.504, "lon": -0.121, "blurb": "London’s tidal river, which rises and falls by several metres twice a day. Its Embankment walls hide the Victorian sewers." },
+    { "id": "westminster-bridge", "name": "Westminster Bridge", "kind": "bridge", "lat": 51.50092, "lon": -0.12217, "blurb": "The green-painted iron bridge of 1862 beside the Houses of Parliament, green like the benches of the House of Commons.", "landmark": "westminster-bridge" },
+    { "id": "parliament-square", "name": "Parliament Square", "kind": "square", "lat": 51.50053, "lon": -0.12617, "blurb": "A lawn between Parliament, Westminster Abbey and the Supreme Court, ringed by statues of statesmen such as Winston Churchill and Nelson Mandela.", "landmark": "houses-of-parliament" },
+    { "id": "broad-sanctuary", "name": "Broad Sanctuary", "kind": "street", "lat": 51.49997, "lon": -0.1286, "blurb": "The street before the west front of Westminster Abbey, named after the sanctuary where fugitives could once shelter from the law.", "landmark": "westminster-abbey" },
+    { "id": "whitehall", "name": "Whitehall", "kind": "street", "lat": 51.50613, "lon": -0.12697, "blurb": "The wide street of government ministries from Trafalgar Square to Parliament, with the Cenotaph, the national war memorial, in the middle." },
+    { "id": "downing-street", "name": "Downing Street", "kind": "street", "lat": 51.5032, "lon": -0.12702, "blurb": "The short street behind iron gates where the prime minister lives at number 10.", "landmark": "downing-street" },
+    { "id": "horse-guards-parade", "name": "Horse Guards Parade", "kind": "square", "lat": 51.5045, "lon": -0.1283, "blurb": "The large gravel parade ground behind Horse Guards, where Trooping the Colour takes place every June.", "landmark": "horse-guards" },
+    { "id": "trafalgar-square", "name": "Trafalgar Square", "kind": "square", "lat": 51.50804, "lon": -0.12736, "blurb": "London’s great square, with Nelson on his column, four bronze lions and the National Gallery along its north side.", "landmark": "trafalgar-square" },
+    { "id": "the-mall", "name": "The Mall", "kind": "street", "lat": 51.50513, "lon": -0.13258, "blurb": "The red-surfaced avenue from Admiralty Arch to Buckingham Palace, the route of royal processions." },
+    { "id": "st-jamess-park", "name": "St James’s Park", "kind": "park", "lat": 51.5025, "lon": -0.1335, "blurb": "The oldest of the royal parks, with a lake, pelicans and a view from its bridge to Buckingham Palace." },
+    { "id": "strand", "name": "Strand", "kind": "street", "lat": 51.50783, "lon": -0.1268, "blurb": "The old road from Westminster to the City, once along the riverbank, now lined with theatres, hotels and the Savoy." },
+    { "id": "victoria-embankment", "name": "Victoria Embankment", "kind": "street", "lat": 51.5035, "lon": -0.1236, "blurb": "The riverside road that Joseph Bazalgette built on reclaimed land in the 1860s, over a sewer and the District line." },
+    { "id": "golden-jubilee-bridges", "name": "Golden Jubilee Bridges", "kind": "bridge", "lat": 51.50669, "lon": -0.12272, "blurb": "Two footbridges on either side of the railway of the Hungerford Bridge, from Charing Cross to the South Bank." },
+    { "id": "queens-walk", "name": "The Queen’s Walk", "osm": "The Queen's Walk", "kind": "street", "lat": 51.50354, "lon": -0.11931, "blurb": "The riverside promenade of the South Bank, past the London Eye and the arts centres, with views across to Parliament.", "landmark": "london-eye" }
+  ],
+  "links": [
+    { "title": "Visit London", "url": "https://www.visitlondon.com/", "note": "The official visitor guide to London" },
+    { "title": "Mayor of London", "url": "https://www.london.gov.uk/", "note": "The Mayor and the London Assembly" },
+    { "title": "Westminster City Council", "url": "https://www.westminster.gov.uk/", "note": "The council of the City of Westminster" },
+    { "title": "Palace of Westminster and Westminster Abbey on UNESCO", "url": "https://whc.unesco.org/en/list/426/", "note": "The World Heritage listing" },
+    { "title": "London on Wikipedia", "url": "https://en.wikipedia.org/wiki/London", "note": "The encyclopedia article" }
+  ]
+}

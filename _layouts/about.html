@@ -1,0 +1,128 @@
+{%- comment -%} A city's guide (/<id>/about-the-city/): its block in _data/about/<id>.json, named by the page's `city` (tools/about.mjs writes the page). What the city is and where it lies, its centre on a map, its history, the city today and where to read on. {%- endcomment -%}
+{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- assign G = site.data.about[C.id] -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = 'About ' | append: C.name | append: ', ' | append: C.country | append: ': its history, map and places · Instant Cities' -%}{%- assign description = G.intro | truncate: 300 -%}
+{%- assign path = '/' | append: C.id | append: '/about-the-city/' -%}
+{%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
+{% include head.html %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "City",
+      "name": {{ C.name | jsonify }},
+      "description": {{ G.intro | jsonify }},
+      "url": "{{ site.url }}{{ path }}",
+      "geo": { "@type": "GeoCoordinates", "latitude": {{ C.lat }}, "longitude": {{ C.lon }} },
+      "containedInPlace": { "@type": "Country", "name": {{ C.country | jsonify }} }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero home-hero guide-hero">
+      <div class="hero-text">
+        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › About the city</p>
+        <h1>This is {{ C.name }}</h1>
+        <p class="tagline">{{ G.intro }}</p>
+        <p class="hero-btns">
+          <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Ride through {{ C.name }}</a>
+          <a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} Places and landmarks</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="glance">
+      <div class="glance-text">
+        <h2>{{ C.name }} at a glance</h2>
+        <dl class="facts">
+          {%- for f in G.facts %}
+          <dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd>
+          {%- endfor %}
+        </dl>
+        <h3>Known for</h3>
+        <ul class="known">
+          {%- for f in G.famous %}
+          <li>{{ f }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {% include country-map.html city=C %}
+    </section>
+
+    <section class="guide-body">
+      <div class="prose">
+        <h2>The city</h2>
+        {%- for p in G.overview %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+        <h2>Where it lies</h2>
+        {%- for p in G.setting %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <section id="centre" class="centre">
+      <h2>The centre on a map</h2>
+      <p class="section-lead">The streets, squares and waterways every visitor to {{ C.name }} ends up in. Point at one to find it on the map.</p>
+      {% include city-map.html city=C %}
+      <p class="more"><a href="/{{ C.id }}/places-and-landmarks/">All places and landmarks in {{ C.name }} ›</a></p>
+    </section>
+
+    <section id="history" class="guide-body history">
+      <div class="prose">
+        <h2>History</h2>
+        {%- for h in G.history %}
+        <h3>{{ h.title }}</h3>
+        {%- for p in h.text %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+        {%- endfor %}
+        <h2>{{ C.name }} today</h2>
+        {%- for p in G.today %}
+        <p>{{ p }}</p>
+        {%- endfor %}
+      </div>
+      <aside class="dates">
+        <h2>Dates</h2>
+        <dl>
+          {%- for d in G.timeline %}
+          <dt>{{ d[0] }}</dt><dd>{{ d[1] }}</dd>
+          {%- endfor %}
+        </dl>
+      </aside>
+    </section>
+
+    <section id="links" class="links">
+      <h2>Read on</h2>
+      <ul class="link-list">
+        {%- for l in G.links %}
+        <li><a href="{{ l.url }}" rel="noopener">{{ l.title }} {% include icon.html name="external" %}</a><small>{{ l.note }}</small></li>
+        {%- endfor %}
+      </ul>
+    </section>
+
+    <section class="cta">
+      <h2>See {{ C.name }} for yourself</h2>
+      <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
+      <p class="note"><a href="/{{ C.id }}/">Back to {{ C.game }}</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="/cities/">All cities</a></p>
+    <p>Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+    {% include city-map.js %}
+  </script>
+</body>
+</html>

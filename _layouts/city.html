@@ -82,15 +82,36 @@
       </div>
     </section>
 
+    {%- comment -%} With a guide (_data/about/<id>.json) the city gets its "This is …" section, and the landmarks stop at nine with a link to all of them on /<id>/places-and-landmarks/. {%- endcomment -%}
+    {%- assign G = site.data.about[C.id] %}
+    {%- if G %}
+    <section id="about" class="about-city">
+      <div class="about-text">
+        <h2>This is {{ C.name }}</h2>
+        <p>{{ G.intro }}</p>
+        <ul class="known">
+          {%- for f in G.famous %}
+          <li>{{ f }}</li>
+          {%- endfor %}
+        </ul>
+        <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/">{% include icon.html name="compass" %} About the city</a></p>
+      </div>
+      {% include country-map.html city=C %}
+    </section>
+    {%- endif %}
+
     {%- assign landmarks = site.data.landmarks[C.id] %}
     {%- if landmarks %}
     <section id="landmarks" class="landmarks">
       <h2>Places, elements and landmarks</h2>
       <div class="grid">
-        {%- for l in landmarks %}
+        {%- for l in landmarks %}{% if G and forloop.index > 9 %}{% break %}{% endif %}
         {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
+      {%- if G %}
+      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
+      {%- endif %}
     </section>
     {%- endif %}
 

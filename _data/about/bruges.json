@@ -1,0 +1,92 @@
+{
+  "intro": "Bruges is the capital of West Flanders, a small city of canals, brick houses and medieval churches in the north-west of Belgium. From the 13th to the 15th century it was one of the great trading cities of northern Europe; when its channel to the sea silted up, the money left and the city slept for centuries, which is why so much of its medieval centre survives. That centre is on the UNESCO World Heritage List.",
+  "famous": [
+    "The canals, the reien, and the view of the Belfry from the Rozenhoedkaai",
+    "The Belfry on the Markt, 83 metres tall, with 366 steps to its carillon",
+    "Paintings by Jan van Eyck and Hans Memling, who both worked in the city",
+    "Lace, chocolate and Michelangelo’s Madonna and Child in the Church of Our Lady"
+  ],
+  "facts": [
+    ["Country", "Belgium"],
+    ["Region", "Flanders"],
+    ["Province", "West Flanders, of which it is the capital"],
+    ["Population", "About 120,000 (city)"],
+    ["Waters", "Its canals, the reien, and the Minnewater"],
+    ["Language", "Dutch"],
+    ["Local names", "Brugge (Dutch), Bruges (French)"],
+    ["Nickname", "The Venice of the North"],
+    ["UNESCO World Heritage", "The historic centre (2000), the Belfry (1999) and the béguinage (1998)"]
+  ],
+  "overview": [
+    "Bruges is the best-kept medieval city of Flanders. Its centre still lies inside the oval of its medieval walls, now a ring of canals and parks, and the canals that once brought ships to its markets still wind between the houses. Most of the buildings are of dark red brick with stepped gables, and those that look medieval but are too neat were often rebuilt in the 19th century, when the city rediscovered its past.",
+    "The centre, the part you ride through in Instant Bruges, turns around two squares a few steps apart: the Markt, with the Belfry, and the Burg, with the City Hall and the Basilica of the Holy Blood. From the Burg, lanes lead south to the canals at the Rozenhoedkaai and the Dijver, then on past the Church of Our Lady to the Begijnhof and the Minnewater. North of the Markt lies the old inner harbour around the Jan van Eyckplein."
+  ],
+  "setting": [
+    "Bruges lies in the north-west of Belgium, in the Flemish Region, about 15 kilometres from the North Sea coast. It is the capital of the province of West Flanders. Ghent lies about 45 kilometres to the south-east and Brussels about 90 kilometres away.",
+    "Canals link Bruges to Ghent, to Ostend and to its own seaport, Zeebrugge, on the coast to the north. The land around the city is flat polder and farmland, and the climate is mild and wet, with sea winds all year."
+  ],
+  "history": [
+    {
+      "title": "A harbour on the Zwin",
+      "text": [
+        "In the 9th century the counts of Flanders built a fortress on the spot that is still called the Burg, and a trading town grew around it. A storm flood in 1134 cut a deep inlet, the Zwin, from the sea towards Bruges, and the city built outports along it at Damme and Sluis. Ships brought English wool for the Flemish weavers and carried away their cloth.",
+        "By the 14th century Bruges was the great market of north-west Europe. Italian bankers, German merchants of the Hanseatic League and traders from Spain and Portugal kept houses here; merchants met in front of the inn of the Van der Beurse family, which gave its name to the bourse. In the night of 18 May 1302 the craftsmen of Bruges killed the French garrison in the Bruges Matins, and two months later the Flemish army beat the French knights at the Battle of the Golden Spurs."
+      ]
+    },
+    {
+      "title": "The Burgundian court",
+      "text": [
+        "In the 15th century the dukes of Burgundy, who ruled Flanders, often held court in Bruges. Duke Philip the Good founded the Order of the Golden Fleece here in 1430, at the celebrations of his marriage to Isabella of Portugal. Jan van Eyck, his court painter, lived in Bruges until his death in 1441, and Hans Memling worked here a generation later.",
+        "The good years ended quickly. The Zwin silted up, and big ships could no longer reach the city. Mary of Burgundy died after a fall from her horse in 1482, and in 1488 the townspeople held her widower, Maximilian of Austria, prisoner on the Markt for months. Once free, he moved the foreign merchants to Antwerp, and Bruges sank into four centuries of poverty."
+      ]
+    },
+    {
+      "title": "The sleeping city wakes",
+      "text": [
+        "Because nobody had the money to tear the old houses down, the medieval city survived. In the 19th century British visitors and Flemish architects rediscovered it and restored, and sometimes reinvented, its Gothic fronts. Georges Rodenbach’s novel Bruges-la-Morte of 1892 made the grey, silent city famous across Europe.",
+        "In 1907 Bruges opened a new seaport on the coast at Zeebrugge, and the city came through both world wars without great damage. Since 1949 it has been home to the College of Europe. UNESCO listed its historic centre in 2000, and in 2002 it was the European Capital of Culture."
+      ]
+    }
+  ],
+  "timeline": [
+    ["9th century", "The counts of Flanders build a fortress on the Burg"],
+    ["1134", "A storm flood opens the Zwin, the city’s way to the sea"],
+    ["1245", "The Begijnhof is founded"],
+    ["1302", "The Bruges Matins: townspeople kill the French garrison in the night of 18 May"],
+    ["1376", "Work begins on the City Hall"],
+    ["1430", "Philip the Good founds the Order of the Golden Fleece in Bruges"],
+    ["1482", "Mary of Burgundy dies after a fall from her horse"],
+    ["1488", "The townspeople hold Maximilian of Austria prisoner on the Markt"],
+    ["1892", "Georges Rodenbach publishes Bruges-la-Morte"],
+    ["1907", "The new seaport of Zeebrugge opens"],
+    ["2000", "UNESCO lists the historic centre as World Heritage"],
+    ["2002", "Bruges is European Capital of Culture"]
+  ],
+  "today": [
+    "Bruges lives largely from tourism: millions of visitors a year come to a centre where about twenty thousand people live. The city council limits the tour boats, the horse carriages and the cruise-ship day trips to keep the old town liveable. Its port at Zeebrugge, merged with Antwerp’s into the Port of Antwerp-Bruges in 2022, handles cars, containers and gas.",
+    "On Ascension Day the Procession of the Holy Blood winds through the centre, as it has for centuries. The Concertgebouw on ’t Zand, the College of Europe and the Saturday market keep the city busy beyond the tourist season."
+  ],
+  "places": [
+    { "id": "markt", "name": "Markt", "kind": "square", "lat": 51.20819, "lon": 3.22453, "blurb": "The market square at the heart of Bruges, under the Belfry, with the statue of Jan Breydel and Pieter de Coninck, the leaders of 1302.", "landmark": "markt" },
+    { "id": "burg", "name": "Burg", "kind": "square", "lat": 51.2086, "lon": 3.22635, "blurb": "The square on the site of the counts’ fortress, with the Gothic City Hall and the Basilica of the Holy Blood.", "landmark": "burg" },
+    { "id": "steenstraat", "name": "Steenstraat", "kind": "street", "lat": 51.20728, "lon": 3.22288, "blurb": "The busy shopping street from the Markt west towards St Saviour’s Cathedral and ’t Zand." },
+    { "id": "wollestraat", "name": "Wollestraat", "kind": "street", "lat": 51.20776, "lon": 3.22582, "blurb": "The old wool street, from the Markt beside the Belfry south to the canal." },
+    { "id": "blinde-ezelstraat", "name": "Blinde-Ezelstraat", "kind": "street", "lat": 51.20833, "lon": 3.22732, "blurb": "The ‘Blind Donkey Street’, a lane that runs through an arch from the Burg to the canal and the Vismarkt." },
+    { "id": "rozenhoedkaai", "name": "Rozenhoedkaai", "kind": "street", "lat": 51.20715, "lon": 3.22753, "blurb": "The quay on a bend of the canal with the best-known view of Bruges: old houses on the water and the Belfry behind.", "landmark": "rozenhoedkaai" },
+    { "id": "dijver", "name": "Dijver", "kind": "street", "lat": 51.20619, "lon": 3.22605, "blurb": "A canal-side street under lime trees, with the Groeninge Museum and the Gruuthuse palace.", "landmark": "gruuthuse" },
+    { "id": "huidenvettersplein", "name": "Huidenvettersplein", "kind": "square", "lat": 51.20769, "lon": 3.22775, "blurb": "A small square by the canal around the old guild house of the tanners, now full of restaurant terraces." },
+    { "id": "vismarkt", "name": "Vismarkt", "kind": "square", "lat": 51.20763, "lon": 3.22836, "blurb": "The fish market, with stone stalls under colonnades of 1821, where fishmongers still sell in the morning." },
+    { "id": "groenerei", "name": "Groenerei", "kind": "street", "lat": 51.20893, "lon": 3.22985, "blurb": "A quiet quay along the canal, with the almshouse De Pelikaan." },
+    { "id": "reien", "name": "The canals", "local": "Reien", "kind": "waterway", "lat": 51.20447, "lon": 3.22608, "blurb": "The canals of Bruges, which once carried goods to the markets; open boats now take visitors along them." },
+    { "id": "jan-van-eyckplein", "name": "Jan van Eyckplein", "kind": "square", "lat": 51.21173, "lon": 3.22616, "blurb": "The old inner harbour, with the medieval toll house, the merchants’ lodge and a statue of Jan van Eyck." },
+    { "id": "mariastraat", "name": "Mariastraat", "kind": "street", "lat": 51.20542, "lon": 3.2233, "blurb": "The street past the Church of Our Lady, with its 115-metre brick tower, and St John’s Hospital, home of the Memling paintings.", "landmark": "onze-lieve-vrouwekerk" },
+    { "id": "begijnhof", "name": "Begijnhof", "kind": "quarter", "lat": 51.2016, "lon": 3.223, "blurb": "The béguinage, founded in 1245: white houses around a lawn under tall trees, where béguines, pious single women, once lived.", "landmark": "begijnhof" },
+    { "id": "minnewater", "name": "Minnewater", "kind": "waterway", "lat": 51.2006, "lon": 3.2252, "blurb": "The ‘Lake of Love’, once the basin where barges from Ghent moored, now a quiet lake in a park.", "landmark": "minnewater" }
+  ],
+  "links": [
+    { "title": "Visit Bruges", "url": "https://www.visitbruges.be/en", "note": "The city’s official tourist information" },
+    { "title": "City of Bruges", "url": "https://www.brugge.be/", "note": "The city council (in Dutch)" },
+    { "title": "Historic Centre of Brugge on UNESCO", "url": "https://whc.unesco.org/en/list/996/", "note": "The World Heritage listing" },
+    { "title": "Bruges on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bruges", "note": "The encyclopedia article" }
+  ]
+}

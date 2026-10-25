@@ -1,0 +1,91 @@
+{
+  "intro": "Brussels is the capital of Belgium and the seat of the main institutions of the European Union and of NATO. Its old centre grew around the Grand-Place, a square of gilded guild houses and a Gothic town hall that the guilds rebuilt after a French bombardment in 1695. The city speaks French and Dutch side by side, and it is known for its comic strips, its chocolate, its fries and the little bronze Manneken Pis.",
+  "famous": [
+    "The Grand-Place, with its Gothic Town Hall and the gilded houses of the guilds",
+    "The Manneken Pis, a small bronze boy with a wardrobe of more than a thousand costumes",
+    "The European Commission, the European Parliament and the headquarters of NATO",
+    "Fries, waffles, chocolate, beer and comic strips, from Tintin onwards"
+  ],
+  "facts": [
+    ["Country", "Belgium"],
+    ["Region", "Brussels-Capital Region, one of Belgium’s three regions; it belongs to no province"],
+    ["Population", "About 195,000 (City of Brussels), 1.2 million (Brussels-Capital Region)"],
+    ["Founded", "979, by tradition"],
+    ["River", "The Senne (Zenne), covered over since the 1870s"],
+    ["Languages", "French and Dutch, both official"],
+    ["Local names", "Bruxelles (French), Brussel (Dutch)"],
+    ["Nickname", "The capital of Europe"],
+    ["UNESCO World Heritage", "The Grand-Place (1998) and Victor Horta’s town houses (2000)"]
+  ],
+  "overview": [
+    "Brussels grew in the valley of the small river Senne and up the hill to the east, and the two halves still feel different: the lower town, around the Grand-Place, is a tangle of old streets of merchants and craftsmen, while the upper town on the Coudenberg is a place of palaces, museums and wide, straight streets. A ring of boulevards on the line of the 14th-century walls encloses the old city, which people call the Pentagon for its shape.",
+    "The centre, the part you ride through in Instant Brussels, runs from the Grand-Place west to the Bourse and Place Saint-Géry, where the city began, and north to the shops of the Rue Neuve. From the Grand-Place the Galeries Royales Saint-Hubert lead towards the cathedral, and the Mont des Arts climbs to the Place Royale on the hill. South of it lies the Sablon, with its antique dealers and chocolate shops."
+  ],
+  "setting": [
+    "Brussels lies in the middle of Belgium, between the Dutch-speaking north and the French-speaking south. The Brussels-Capital Region, which has 19 municipalities, the City of Brussels among them, is one of the country’s three regions and lies as an island inside Flanders. Antwerp is about 45 kilometres to the north and Ghent about 55 kilometres to the north-west.",
+    "The Senne still flows under the city, in tunnels, and a canal crosses Brussels, linking Charleroi in the south with the Scheldt in the north. The Sonian Forest, a great beech wood, reaches into the south-east of the region. The climate is mild and wet, with rain spread over the whole year."
+  ],
+  "history": [
+    {
+      "title": "A market on the Senne",
+      "text": [
+        "Tradition dates the city to 979, when Charles, Duke of Lower Lorraine, built a fort on an island in the Senne, where Place Saint-Géry lies today. The name comes from Bruocsella, ‘the settlement in the marsh’. The town grew on the trade road between Bruges and Cologne, where it crossed the Senne.",
+        "The dukes of Brabant built their castle on the Coudenberg hill and made Brussels one of their capitals. The city got its first walls in the 13th century and a second, larger ring in the 14th, whose line the inner boulevards follow today. On the market square the townspeople began their Town Hall in 1401 and finished its spire, crowned with a statue of St Michael, in the 1450s."
+      ]
+    },
+    {
+      "title": "Dukes, emperors and the bombardment",
+      "text": [
+        "In the 15th century the dukes of Burgundy, and after them the Habsburgs, held court in the palace on the Coudenberg. Emperor Charles V gave up his crown there in 1555. Under his son Philip II, the Duke of Alba had the Counts of Egmont and Horne, leaders of the noble opposition, beheaded on the Grand-Place in 1568.",
+        "In 1619 Jérôme Duquesnoy the Elder cast the Manneken Pis for a fountain on the corner of the Rue de l’Étuve. In August 1695 the army of Louis XIV bombarded Brussels and burned the Grand-Place and the streets around it; the guilds rebuilt their houses in stone within a few years, more splendid than before. The Coudenberg palace burned down in 1731, and the Place Royale rose on its site later in the century."
+      ]
+    },
+    {
+      "title": "Capital of Belgium and of Europe",
+      "text": [
+        "On 25 August 1830 a riot broke out after an opera at La Monnaie and grew into the Belgian Revolution. Brussels became the capital of the new kingdom, and the city grew fast: the Galeries Royales Saint-Hubert opened in 1847, and between 1867 and 1871 Mayor Jules Anspach had the polluted Senne vaulted over and wide boulevards laid on top. Under King Leopold II the city gained the huge Palace of Justice and the Cinquantenaire park, and around 1900 Victor Horta built the first Art Nouveau houses here.",
+        "For the World’s Fair of 1958 Brussels built the Atomium. In the same year the new European Economic Community set up its offices here, and in 1967 NATO moved its headquarters to the city. In 1989 Brussels became a region of its own, and in 2015 the city closed the central boulevards to cars to make a pedestrian zone."
+      ]
+    }
+  ],
+  "timeline": [
+    ["979", "Charles of Lower Lorraine builds a fort on an island in the Senne, by tradition the city’s founding"],
+    ["1401", "Work begins on the Town Hall"],
+    ["1555", "Charles V gives up his crown in the Coudenberg palace"],
+    ["1568", "The Counts of Egmont and Horne are beheaded on the Grand-Place"],
+    ["1619", "Jérôme Duquesnoy the Elder casts the Manneken Pis"],
+    ["1695", "The French army bombards the city and burns the Grand-Place"],
+    ["1731", "Fire destroys the Coudenberg palace"],
+    ["1830", "A riot at La Monnaie opera house starts the Belgian Revolution"],
+    ["1847", "The Galeries Royales Saint-Hubert open"],
+    ["1871", "The Senne disappears under the new central boulevards"],
+    ["1958", "Brussels builds the Atomium for the World’s Fair"],
+    ["1989", "The Brussels-Capital Region is created"]
+  ],
+  "today": [
+    "Brussels is the seat of the Belgian king, government and parliament, of the European Commission and the Council of the EU, and of NATO; the European Parliament meets here as well as in Strasbourg. Tens of thousands of people work for these institutions, and a large share of the region’s inhabitants were born abroad; on its streets you hear French, Dutch, English, Arabic and dozens of other languages.",
+    "Every July the Ommegang procession fills the Grand-Place in Renaissance costume, and every two years in August a carpet of begonias covers the square. The city’s walls carry painted scenes from Belgian comic strips, and the Manneken Pis is dressed in one of his costumes on many days of the year."
+  ],
+  "places": [
+    { "id": "grand-place", "name": "Grand Place", "local": "Grand-Place / Grote Markt", "kind": "square", "lat": 50.8467, "lon": 4.3525, "blurb": "The market square of Brussels, enclosed by the Gothic Town Hall, the King’s House and the gilded houses of the guilds.", "landmark": "grand-place" },
+    { "id": "galeries-saint-hubert", "name": "Galeries Royales Saint-Hubert", "local": "Galeries Royales Saint-Hubert / Koninklijke Sint-Hubertusgalerijen", "osm": "Galerie de la Reine - Koninginnegalerij", "kind": "street", "lat": 50.8476, "lon": 4.3549, "blurb": "A glass-roofed shopping arcade of 1847, one of the first in Europe, with cafés, chocolate shops and a theatre.", "landmark": "galeries-saint-hubert" },
+    { "id": "rue-des-bouchers", "name": "Rue des Bouchers", "local": "Rue des Bouchers / Beenhouwersstraat", "osm": "Rue des Bouchers - Beenhouwersstraat", "kind": "street", "lat": 50.8482, "lon": 4.3538, "blurb": "The butchers’ street, now a lane of restaurants with tables outside, crossing the Galeries." },
+    { "id": "place-de-la-bourse", "name": "Place de la Bourse", "local": "Place de la Bourse / Beursplein", "osm": "Place de la Bourse - Beursplein", "kind": "square", "lat": 50.84829, "lon": 4.3496, "blurb": "The square in front of the Bourse, the former stock exchange of 1873, now a museum of Belgian beer.", "landmark": "bourse" },
+    { "id": "boulevard-anspach", "name": "Boulevard Anspach", "local": "Boulevard Anspach / Anspachlaan", "osm": "Boulevard Anspach - Anspachlaan", "kind": "street", "lat": 50.84942, "lon": 4.35077, "blurb": "The boulevard laid over the vaulted Senne in the 1870s, a pedestrian zone since 2015." },
+    { "id": "rue-de-l-etuve", "name": "Rue de l’Étuve", "local": "Rue de l’Étuve / Stoofstraat", "osm": "Rue de l'Étuve - Stoofstraat", "kind": "street", "lat": 50.84432, "lon": 4.34925, "blurb": "The street from the Grand-Place to the corner where the Manneken Pis stands on his fountain.", "landmark": "manneken-pis" },
+    { "id": "place-saint-gery", "name": "Place Saint-Géry", "local": "Place Saint-Géry / Sint-Goriksplein", "osm": "Place Saint-Géry - Sint-Goriksplein", "kind": "square", "lat": 50.84793, "lon": 4.34774, "blurb": "The square on the old island in the Senne where Brussels began, around an iron market hall of 1881, now ringed with bars." },
+    { "id": "place-sainte-catherine", "name": "Place Sainte-Catherine", "local": "Place Sainte-Catherine / Sint-Katelijneplein", "osm": "Place Sainte-Catherine - Sint-Katelijneplein", "kind": "square", "lat": 50.85079, "lon": 4.348, "blurb": "A square on the filled-in docks of the old port, known for its fish restaurants." },
+    { "id": "place-de-la-monnaie", "name": "Place de la Monnaie", "local": "Place de la Monnaie / Muntplein", "osm": "Place de la Monnaie - Munt", "kind": "square", "lat": 50.85, "lon": 4.3531, "blurb": "The square of La Monnaie, the opera house where the Belgian Revolution began in 1830." },
+    { "id": "rue-neuve", "name": "Rue Neuve", "local": "Rue Neuve / Nieuwstraat", "osm": "Rue Neuve - Nieuwstraat", "kind": "street", "lat": 50.8524, "lon": 4.3556, "blurb": "The busiest shopping street of the city, closed to cars, running north from the Place de la Monnaie." },
+    { "id": "place-sainte-gudule", "name": "Place Sainte-Gudule", "local": "Place Sainte-Gudule / Sinter-Goedeleplein", "osm": "Place Sainte-Gudule - Sinter-Goedeleplein", "kind": "square", "lat": 50.84779, "lon": 4.35864, "blurb": "The square below the Gothic Cathedral of St Michael and St Gudula, where Belgium’s royal weddings and funerals take place.", "landmark": "cathedrale" },
+    { "id": "mont-des-arts", "name": "Mont des Arts", "local": "Mont des Arts / Kunstberg", "osm": "Mont des Arts - Kunstberg", "kind": "square", "lat": 50.84441, "lon": 4.35727, "blurb": "A terraced garden beside the Royal Library, laid out for the World’s Fair of 1958, with a view over the lower town.", "landmark": "mont-des-arts" },
+    { "id": "place-royale", "name": "Place Royale", "local": "Place Royale / Koningsplein", "osm": "Place Royale - Koningsplein", "kind": "square", "lat": 50.84288, "lon": 4.35963, "blurb": "The 18th-century square on the Coudenberg, on the site of the old palace, with the church of St James on Coudenberg and a statue of Godfrey of Bouillon." },
+    { "id": "grand-sablon", "name": "Place du Grand Sablon", "local": "Place du Grand Sablon / Grote Zavel", "osm": "Place du Grand Sablon - Grote Zavel", "kind": "square", "lat": 50.84101, "lon": 4.35514, "blurb": "A sloping square of antique dealers and chocolate makers below the Gothic church of Our Lady of the Sablon, with an antiques market at the weekend.", "landmark": "sablon" }
+  ],
+  "links": [
+    { "title": "visit.brussels", "url": "https://www.visit.brussels/en/visitors.html", "note": "The city’s official tourist information" },
+    { "title": "City of Brussels", "url": "https://www.brussels.be/", "note": "The city council" },
+    { "title": "La Grand-Place, Brussels on UNESCO", "url": "https://whc.unesco.org/en/list/857/", "note": "The World Heritage listing" },
+    { "title": "Brussels on Wikipedia", "url": "https://en.wikipedia.org/wiki/Brussels", "note": "The encyclopedia article" }
+  ]
+}

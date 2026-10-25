@@ -212,9 +212,80 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .europe .pin:hover text { fill: #e5484d; }
 .europe .soon circle:not(.halo) { fill: #fff; stroke: var(--muted); }
 
+/* A city's guide: "This is …" on its page, its own page (_layouts/about.html) and the page of all
+   its places (_layouts/places.html), with the country map (_includes/country-map.html) and the map
+   of the centre (_includes/city-map.html) */
+.about-city, .glance { border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 48px; align-items: center; }
+.about-text > p { max-width: 62ch; margin-bottom: 18px; font-size: 18px; }
+.known { list-style: none; display: grid; gap: 8px; margin-bottom: 24px; }
+.known li { position: relative; padding-left: 22px; color: #444; font-size: 15px; }
+.known li::before { content: ''; position: absolute; left: 4px; top: .62em; width: 7px; height: 7px; border-radius: 50%; background: #e5484d; }
+.glance h3 { margin: 28px 0 12px; }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 8px 20px; font-size: 15px; }
+.facts dt { font-weight: 600; white-space: nowrap; }
+.facts dd { color: #444; }
+.guide-hero .crumbs { margin-bottom: 18px; }
+.guide-hero .tagline { font-weight: 500; font-size: 19px; line-height: 1.55; margin-bottom: 28px; }
+.guide-body { border-top: 1px solid var(--line); }
+.guide-body .prose h2:first-child { margin-top: 0; }
+.guide-body .prose h3 { margin: 1.4em 0 .5em; font-size: 20px; }
+.history { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 48px; align-items: start; }
+.history .dates { margin-top: 0; position: sticky; top: 84px; padding: 24px; background: var(--soft); border-radius: 8px; }
+.section-lead { color: var(--muted); margin: -16px 0 28px; max-width: 68ch; }
+.centre, .links { border-top: 1px solid var(--line); }
+.more { margin-top: 28px; font-weight: 500; }
+.more a:not(.ghost) { text-decoration: none; }
+.landmarks h2.sub { margin-top: 56px; }
+.link-list { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; }
+.link-list li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.link-list a { font-weight: 600; text-decoration: none; }
+.link-list .ic { width: .8em; height: .8em; color: var(--muted); }
+.link-list small { display: block; color: var(--muted); font-size: 14px; }
+
+.country-map { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #eef3f6; }
+.country-map svg { display: block; width: 100%; height: auto; max-height: 460px; }
+.country-map .sea { fill: #eef3f6; }
+.country-map .land { fill: #e4e4df; stroke: #fff; stroke-width: 1; stroke-linejoin: round; }
+.country-map .country { fill: #fff; stroke: #b9b9b2; stroke-width: 1; stroke-linejoin: round; }
+.country-map text { font: 600 12px 'Inter', system-ui, sans-serif; fill: var(--muted); paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+.country-map .other circle, .country-map .other rect { fill: var(--muted); }
+.country-map a.other:hover text { fill: var(--ink); }
+.country-map .here circle { fill: #e5484d; stroke: #fff; stroke-width: 2; }
+.country-map .here .halo { fill: rgba(229, 72, 77, .18); stroke: none; }
+.country-map .here text { font-size: 16px; font-weight: 700; fill: var(--ink); }
+.country-map .left text { text-anchor: end; }
+.country-map figcaption { padding: 10px 14px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); background: var(--paper); }
+
+.citymap { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 32px; align-items: start; }
+.citymap-draw { position: sticky; top: 84px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.citymap-frame { position: relative; background: #f1eee8; }
+.citymap-frame img, .citymap-frame svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.citymap .line { fill: none; stroke: #e5484d; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: .35; transition: opacity .15s; }
+.citymap .line.hot { opacity: .9; }
+.citymap .pin circle { fill: var(--ink); stroke: #fff; stroke-width: 4; transition: fill .15s; }
+.citymap .pin text { font: 700 23px 'Inter', system-ui, sans-serif; fill: #fff; text-anchor: middle; pointer-events: none; }
+.citymap .pin.hot circle, .citymap .pin:hover circle, .citymap .pin:focus-visible circle { fill: #e5484d; }
+.citymap-draw figcaption { padding: 10px 14px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); }
+.citymap-draw figcaption a { display: inline-flex; gap: 4px; align-items: center; margin-left: 4px; color: var(--ink); }
+.citymap-list { list-style: none; display: grid; gap: 4px; max-height: 720px; overflow-y: auto; }
+.citymap-list li { display: flex; gap: 12px; padding: 10px 12px; border-radius: 8px; scroll-margin-top: 90px; transition: background .15s; }
+.citymap-list li.hot, .citymap-list li:target { background: var(--soft); }
+.citymap-list .num { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 13px; font-weight: 700; }
+.citymap-list li.hot .num { background: #e5484d; }
+.citymap-list .num.off { background: var(--paper); color: var(--muted); border: 1px solid var(--line); }
+.citymap-list b { font-size: 16px; }
+.citymap-list b a { text-decoration-color: #bbb; }
+.citymap-list i { color: var(--muted); font-size: 14px; }
+.citymap-list .kind { margin-left: 4px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.citymap-list p { margin-top: 2px; font-size: 14px; line-height: 1.5; color: #555; }
+
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-city, .glance, .history, .citymap { grid-template-columns: 1fr; }
+  .citymap-draw, .history .dates { position: static; }
+  .citymap-list { max-height: none; }
+  .link-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 680px) {
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }

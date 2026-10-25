@@ -1,0 +1,91 @@
+{
+  "intro": "Amsterdam is the capital of the Netherlands, a city of canals, narrow brick houses and bicycles. It began as a fishing village at a dam in the river Amstel and, in the 17th century, became the richest trading port in Europe. The canal ring that its merchants dug in that Golden Age still holds the city together today.",
+  "famous": [
+    "The 17th-century canal ring, with its bridges and tall, narrow merchants’ houses",
+    "Rembrandt, Van Gogh and the Rijksmuseum",
+    "The Anne Frank House on the Prinsengracht",
+    "Bicycles everywhere, canal boats, trams and stroopwafels"
+  ],
+  "facts": [
+    ["Country", "The Netherlands"],
+    ["Province", "North Holland"],
+    ["Population", "About 930,000 (city), about 2.5 million (metropolitan area)"],
+    ["Founded", "First mentioned in 1275"],
+    ["Rivers", "The Amstel and the IJ"],
+    ["Language", "Dutch"],
+    ["Nicknames", "Mokum, the Venice of the North"],
+    ["UNESCO World Heritage", "The 17th-century canal ring, since 2010"]
+  ],
+  "overview": [
+    "Amsterdam lies on the IJ, a former arm of the sea, in a land of reclaimed polders, much of it below sea level. Its houses stand on wooden piles driven through the soft peat into the sand underneath, and its old centre is a horseshoe of canals around the Dam, the square where the city began.",
+    "Instant Amsterdam takes you through this centre. From Centraal Station the Damrak leads south to the Dam, with the Royal Palace and the Nieuwe Kerk on its west side. The Rokin and the Kalverstraat continue south to the Spui and the Munt tower, while to the west the Singel, the Herengracht, the Keizersgracht and the Prinsengracht curve around the old town, past the Westerkerk and the Anne Frank House. East of the Dam lie the Oude Kerk, the Red Light District and the Nieuwmarkt."
+  ],
+  "setting": [
+    "Amsterdam lies in the province of North Holland, in the west of the Netherlands, about 25 kilometres from the North Sea, to which the North Sea Canal links its port. The IJ separates the old city from Amsterdam-Noord, and the ferries across it from behind Centraal Station are free.",
+    "The city has about 165 canals and well over a thousand bridges, more than Venice. Its climate is mild and maritime: cool summers, damp winters, frequent wind and rain at any time of the year."
+  ],
+  "history": [
+    {
+      "title": "A dam in the Amstel",
+      "text": [
+        "In the 13th century the people living at the mouth of the Amstel built a dam across the river to keep out the water of the IJ. A settlement of fishermen and traders grew up around it, and in 1275 Count Floris V of Holland freed them from paying tolls in his county, the oldest written mention of Amsterdam. The town received its city rights around 1300.",
+        "In 1345, the story goes, a dying man could not keep down the communion host, which was thrown into the fire and found unburnt. The Miracle of Amsterdam made the town a place of pilgrimage. Its merchants grew rich on beer, herring and the grain trade with the Baltic, and the Oude Kerk, the city’s oldest building, grew with them."
+      ]
+    },
+    {
+      "title": "The Golden Age",
+      "text": [
+        "During the Dutch revolt against Spain, Amsterdam went over to the Protestant side in 1578. When Spanish troops took Antwerp in 1585, thousands of merchants, craftsmen and Jewish families from Spain and Portugal moved north, and Amsterdam took Antwerp’s place as the trading capital of Europe. In 1602 merchants founded the Dutch East India Company, and the shares that people traded in it in Amsterdam made the city home to one of the world’s first stock exchanges.",
+        "From 1613 the city council had the canal ring dug, with the Herengracht, the Keizersgracht and the Prinsengracht, and sold the plots along them to wealthy merchants. On the Dam, Jacob van Campen built a new town hall, begun in 1648, the largest in Europe at the time. Rembrandt painted his Night Watch in the city in 1642."
+      ]
+    },
+    {
+      "title": "Capital of the Netherlands",
+      "text": [
+        "Wars with England and France ended the Golden Age, and French troops occupied the country in 1795. In 1808 Louis Napoleon, king of Holland, turned the town hall into his royal palace, and after the French left, the new kingdom named Amsterdam its capital, though the government stayed in The Hague. In the 19th century the North Sea Canal opened a new route to the sea, and the Rijksmuseum and Centraal Station rose on the edges of the old city.",
+        "German troops occupied Amsterdam from 1940 to 1945. In February 1941 its workers struck against the persecution of their Jewish neighbours, but the occupiers deported and murdered most of the city’s Jews, among them Anne Frank, who had hidden with her family in a canal house on the Prinsengracht from 1942 to 1944. After the war the city hosted hippies, squatters and protests, and in 2010 UNESCO listed the canal ring as World Heritage."
+      ]
+    }
+  ],
+  "timeline": [
+    ["1275", "Count Floris V frees the people at the dam in the Amstel from tolls"],
+    ["c. 1300", "Amsterdam receives its city rights"],
+    ["1345", "The Miracle of Amsterdam"],
+    ["1578", "Amsterdam joins the revolt against Spain"],
+    ["1602", "Merchants found the Dutch East India Company"],
+    ["1613", "Work begins on the canal ring"],
+    ["1642", "Rembrandt paints the Night Watch"],
+    ["1648", "Work begins on the town hall on the Dam, now the Royal Palace"],
+    ["1808", "Louis Napoleon makes the town hall his palace"],
+    ["1889", "Centraal Station opens"],
+    ["1928", "Amsterdam hosts the Olympic Games"],
+    ["1942", "Anne Frank and her family go into hiding on the Prinsengracht"],
+    ["2010", "UNESCO lists the canal ring"]
+  ],
+  "today": [
+    "Amsterdam is the capital of the Netherlands, though the king, the government and parliament sit in The Hague. Its economy runs on finance and business services, many of them in the Zuidas district, on technology and creative firms, on the port and on Schiphol, one of Europe’s busiest airports. The Rijksmuseum, the Van Gogh Museum and the Anne Frank House draw visitors from all over the world, and the city council has been trying to limit the crowds in the old centre.",
+    "Amsterdammers make many of their trips by bike, on a network of red cycle paths. On King’s Day, 27 April, the canals fill with boats and the whole city turns orange. The football club Ajax plays at the Johan Cruijff ArenA, in the south-east of the city."
+  ],
+  "places": [
+    { "id": "dam", "name": "Dam Square", "local": "Dam", "kind": "square", "lat": 52.37305, "lon": 4.89342, "blurb": "The square on the site of the first dam in the Amstel, with the Royal Palace, the Nieuwe Kerk and the white National Monument to the war dead.", "landmark": "dam" },
+    { "id": "damrak", "name": "Damrak", "kind": "street", "lat": 52.37535, "lon": 4.89579, "blurb": "The busy street from Centraal Station to the Dam, on the old course of the Amstel, with Berlage’s former stock exchange on one side and a row of crooked houses on the water on the other." },
+    { "id": "rokin", "name": "Rokin", "kind": "street", "lat": 52.37126, "lon": 4.89287, "blurb": "The wide street south of the Dam, where the Amstel flowed until it was filled in, partly in the 1930s; its last stretch of water still holds a few boats." },
+    { "id": "kalverstraat", "name": "Kalverstraat", "kind": "street", "lat": 52.36795, "lon": 4.8917, "blurb": "Amsterdam’s busiest shopping street, a narrow pedestrian lane from the Dam to the Munt, named after the calf market held here in the Middle Ages." },
+    { "id": "spui", "name": "Spui", "kind": "square", "lat": 52.36887, "lon": 4.89044, "blurb": "A square of bookshops and cafés, with a book market on Fridays and the hidden gate to the Begijnhof.", "landmark": "spui" },
+    { "id": "muntplein", "name": "Muntplein", "kind": "square", "lat": 52.36734, "lon": 4.89365, "blurb": "The square around the Munttoren, a tower of the medieval city wall where the city minted coins in 1672 and 1673." },
+    { "id": "singel", "name": "Singel", "kind": "waterway", "lat": 52.36705, "lon": 4.89169, "blurb": "The innermost canal of the ring, the city’s moat until the 16th century, with the floating flower market at its southern end.", "landmark": "bloemenmarkt" },
+    { "id": "herengracht", "name": "Herengracht", "kind": "waterway", "lat": 52.36721, "lon": 4.88722, "blurb": "The first of the three main canals, named after the gentlemen who governed the city, with the grandest houses on its Golden Bend.", "landmark": "grachtengordel" },
+    { "id": "keizersgracht", "name": "Keizersgracht", "kind": "waterway", "lat": 52.37053, "lon": 4.88454, "blurb": "The widest of the canals, named after the Holy Roman Emperor Maximilian I." },
+    { "id": "prinsengracht", "name": "Prinsengracht", "kind": "waterway", "lat": 52.37067, "lon": 4.88261, "blurb": "The outer canal of the three, lined with houseboats, where Anne Frank hid at number 263.", "landmark": "anne-frank-huis" },
+    { "id": "westermarkt", "name": "Westermarkt", "kind": "square", "lat": 52.37498, "lon": 4.8838, "blurb": "The square below the Westerkerk, the tallest church tower in the city, with the Homomonument by the water.", "landmark": "westerkerk" },
+    { "id": "oudezijds-voorburgwal", "name": "Oudezijds Voorburgwal", "kind": "waterway", "lat": 52.37423, "lon": 4.89899, "blurb": "One of the oldest canals, past the Oude Kerk through the heart of the Red Light District, De Wallen." },
+    { "id": "nieuwmarkt", "name": "Nieuwmarkt", "kind": "square", "lat": 52.37232, "lon": 4.90062, "blurb": "A lively square around the Waag, a 15th-century city gate that later became a weigh house, on the edge of Chinatown." },
+    { "id": "amstel", "name": "The Amstel", "local": "Amstel", "kind": "waterway", "lat": 52.36596, "lon": 4.90196, "blurb": "The river that gave Amsterdam its name, flowing in from the south past the Stopera and the Skinny Bridge." }
+  ],
+  "links": [
+    { "title": "I amsterdam", "url": "https://www.iamsterdam.com/en", "note": "The city’s official visitor guide" },
+    { "title": "City of Amsterdam", "url": "https://www.amsterdam.nl/en/", "note": "The city council" },
+    { "title": "Canal Ring of Amsterdam on UNESCO", "url": "https://whc.unesco.org/en/list/1349/", "note": "The World Heritage listing" },
+    { "title": "Amsterdam on Wikipedia", "url": "https://en.wikipedia.org/wiki/Amsterdam", "note": "The encyclopedia article" }
+  ]
+}

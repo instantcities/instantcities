@@ -1,0 +1,89 @@
+{
+  "intro": "Lecce is the main city of the Salento, the heel of Italy, a few kilometres from the Adriatic. In the 16th and 17th centuries its builders carved the soft, golden local stone into churches and palaces so richly decorated that the style took the city’s name: Lecce Baroque.",
+  "famous": [
+    "Lecce Baroque, above all the carved front of the Basilica di Santa Croce",
+    "A Roman amphitheatre half sunk in its main square",
+    "Papier-mâché saints, the cartapesta of its workshops",
+    "Pasticciotto for breakfast and caffè leccese with almond milk"
+  ],
+  "facts": [
+    ["Country", "Italy"],
+    ["Region", "Apulia (Puglia)"],
+    ["Population", "About 95,000 (city), 770,000 (province of Lecce)"],
+    ["Founded", "By the Messapians, before the Romans; the Romans called it Lupiae"],
+    ["Nearest sea", "The Adriatic, about 11 kilometres to the east"],
+    ["Language", "Italian, and the Salentine dialect"],
+    ["Nickname", "The Florence of the South"],
+    ["Patron saint", "Saint Oronzo"]
+  ],
+  "overview": [
+    "Lecce is a city of honey-coloured stone. Almost the whole old town is built of pietra leccese, a limestone so soft when it is quarried that carvers could cover façades with flowers, fruit, cherubs, saints and monsters. Dozens of churches stand within a few minutes’ walk of each other in the small old town.",
+    "The old town, the part you ride through in Instant Lecce, lies inside a ring of broad avenues that replaced the city walls. Three gates survive: Porta Napoli to the north, Porta Rudiae to the west and Porta San Biagio to the south. Piazza Sant’Oronzo, with its Roman amphitheatre, is the centre; the Via Vittorio Emanuele II leads west from it to the closed square of the cathedral, and Santa Croce and the castle of Charles V lie to the north and east."
+  ],
+  "setting": [
+    "Lecce lies in the south-east of Italy, in the region of Apulia, and is the capital of the province of Lecce. The Salento is a flat peninsula between the Adriatic and the Ionian Sea, covered with olive groves, vineyards and dry-stone walls. Brindisi lies about 40 kilometres to the north and Otranto about 40 kilometres to the south-east.",
+    "The climate is Mediterranean: long, hot and dry summers and mild winters. Since 2013 a bacterium, Xylella fastidiosa, has killed millions of the old olive trees of the Salento, and the landscape around the city is slowly being replanted."
+  ],
+  "history": [
+    {
+      "title": "Messapians and Romans",
+      "text": [
+        "Before the Romans, the Messapians, a people of the heel of Italy, lived here and at Rudiae, just west of the town, where the Roman poet Ennius was later born. The Romans took the Salento in the 3rd century BC and made Lecce the town of Lupiae.",
+        "Under the emperors Lupiae built a theatre for about 5,000 people, in the time of Augustus, and in the 2nd century an amphitheatre for some 25,000. Legend says that Saint Oronzo, the city’s first bishop, was martyred here under Nero. Both Roman buildings lay hidden under the houses until the 20th century."
+      ]
+    },
+    {
+      "title": "Counts, kings and the Ottoman threat",
+      "text": [
+        "After Rome fell, Byzantines, Lombards and Saracens fought over the Salento, until the Normans took it in the 11th century and made Lecce the seat of a county. Its count Tancred became king of Sicily in 1189. In the following centuries the county passed through several noble families and then to the Kingdom of Naples, which Spain ruled from the early 16th century.",
+        "In 1480 an Ottoman fleet took Otranto, down the coast, and killed much of its population. Fear of the Turks shaped Lecce: in the 1530s Emperor Charles V had the castle rebuilt and new walls built around the town, and in 1548 the city raised Porta Napoli in his honour."
+      ]
+    },
+    {
+      "title": "The Baroque city",
+      "text": [
+        "In the century after 1550 the religious orders of the Counter-Reformation and Lecce’s noble families rebuilt the town in carved stone. Santa Croce took from 1549 to 1695 to finish; Giuseppe Zimbalo rebuilt the cathedral from 1659 and gave it its 70-metre bell tower. When the plague of 1656 spared Lecce, the city thanked Saint Oronzo and set his statue on a Roman column in the main square.",
+        "Lecce became part of the Kingdom of Italy in 1861. Most of the walls came down in the 19th century and broad avenues took their place, while the new city grew outside them. In recent decades the restored old town and the beaches of the Salento have brought visitors from all over the world."
+      ]
+    }
+  ],
+  "timeline": [
+    ["2nd century", "The Romans build the amphitheatre of Lupiae"],
+    ["1189", "Tancred, count of Lecce, becomes king of Sicily"],
+    ["1480", "The Ottomans take Otranto, on the coast south-east of Lecce"],
+    ["1530s", "Charles V has the castle rebuilt and the town walled"],
+    ["1548", "Porta Napoli is raised in honour of Charles V"],
+    ["1549", "Work begins on the Basilica di Santa Croce"],
+    ["1656", "The plague spares Lecce, which credits Saint Oronzo"],
+    ["1659", "Giuseppe Zimbalo begins to rebuild the cathedral"],
+    ["1695", "Santa Croce is finished"],
+    ["1703", "Porta Rudiae is rebuilt in Baroque style"],
+    ["1774", "Porta San Biagio is built"],
+    ["1861", "Lecce becomes part of the Kingdom of Italy"]
+  ],
+  "today": [
+    "Lecce is the capital of its province and the seat of the University of Salento. Its economy rests on public services, the university, tourism, olive oil and wine from the Salento, such as Negroamaro and Salice Salentino. Stone carvers still work the pietra leccese, and papier-mâché workshops in the old town still make saints and nativity figures.",
+    "In the evening the whole town walks the streets between Piazza Sant’Oronzo and the cathedral. At the end of August the feast of Saint Oronzo fills the old town with lights, music and processions, and in summer the Salento dances the pizzica. The football club, US Lecce, plays in yellow and red at the Stadio Via del Mare."
+  ],
+  "places": [
+    { "id": "piazza-sant-oronzo", "name": "Piazza Sant’Oronzo", "osm": "Piazza Sant'Oronzo", "kind": "square", "lat": 40.35327, "lon": 18.17224, "blurb": "Lecce’s main square, with the Roman amphitheatre half dug out in the middle and Saint Oronzo on his column above it.", "landmark": "sant-oronzo" },
+    { "id": "via-vittorio-emanuele", "name": "Via Vittorio Emanuele II", "osm": "Via Vittorio Emanuele Secondo", "kind": "street", "lat": 40.35293, "lon": 18.17072, "blurb": "The main street of the old town, from Piazza Sant’Oronzo past the church of Sant’Irene to the cathedral." },
+    { "id": "piazza-del-duomo", "name": "Piazza del Duomo", "osm": "Piazza Duomo", "kind": "square", "lat": 40.35213, "lon": 18.16889, "blurb": "The closed square of the cathedral, the bishop’s palace and the seminary, which opens only through a narrow gap from the street.", "landmark": "piazza-duomo" },
+    { "id": "via-libertini", "name": "Via Giuseppe Libertini", "kind": "street", "lat": 40.35168, "lon": 18.16654, "blurb": "The street from the cathedral to Porta Rudiae, past the Rosario church, the last work of Giuseppe Zimbalo." },
+    { "id": "porta-rudiae", "name": "Porta Rudiae", "kind": "gate", "lat": 40.35133, "lon": 18.16458, "blurb": "The western gate, rebuilt in 1703, with Saint Oronzo on top, on the road to the ancient town of Rudiae.", "landmark": "porta-rudiae" },
+    { "id": "via-palmieri", "name": "Via Giuseppe Palmieri", "kind": "street", "lat": 40.35408, "lon": 18.16856, "blurb": "A street of noble palaces that leads from the heart of the old town to Porta Napoli." },
+    { "id": "porta-napoli", "name": "Porta Napoli", "kind": "gate", "lat": 40.35647, "lon": 18.16856, "blurb": "The triumphal arch of 1548 for Charles V, where the road to Naples left the city.", "landmark": "porta-napoli" },
+    { "id": "via-umberto-i", "name": "Via Umberto I", "osm": "Via Umberto Primo", "kind": "street", "lat": 40.35409, "lon": 18.17275, "blurb": "The street of the Basilica di Santa Croce and the long front of the Palazzo dei Celestini, now the seat of the provincial government.", "landmark": "santa-croce" },
+    { "id": "piazza-vittorio-emanuele", "name": "Piazza Vittorio Emanuele II", "osm": "Piazza Vittorio Emanuele Secondo", "kind": "square", "lat": 40.35196, "lon": 18.17195, "blurb": "A small square just south of Piazza Sant’Oronzo, in front of the octagonal church of Santa Chiara and a few steps from the Roman theatre.", "landmark": "santa-chiara" },
+    { "id": "porta-san-biagio", "name": "Porta San Biagio", "kind": "gate", "lat": 40.34953, "lon": 18.17262, "blurb": "The southern gate of 1774, with Saint Blaise on top, facing the road to Otranto.", "landmark": "porta-san-biagio" },
+    { "id": "castello-carlo-v", "name": "Charles V Castle", "local": "Castello Carlo V", "kind": "building", "lat": 40.35246, "lon": 18.17488, "blurb": "The square fortress with arrow-shaped bastions on the east side of the old town, now open for exhibitions.", "landmark": "castello-carlo-v" },
+    { "id": "villa-comunale", "name": "Villa Comunale", "kind": "park", "lat": 40.35519, "lon": 18.17537, "blurb": "The 19th-century public garden named after Garibaldi, with palms and pines, just outside the old town by the castle.", "landmark": "villa-comunale" },
+    { "id": "via-trinchese", "name": "Via Salvatore Trinchese", "kind": "street", "lat": 40.35365, "lon": 18.17672, "blurb": "The shopping street of the newer city, from Piazza Sant’Oronzo east to Piazza Mazzini." },
+    { "id": "piazza-mazzini", "name": "Piazza Mazzini", "osm": "Piazza Giuseppe Mazzini", "kind": "square", "lat": 40.35379, "lon": 18.17876, "blurb": "The large square of the 20th-century city outside the old walls, ringed by shops." }
+  ],
+  "links": [
+    { "title": "Comune di Lecce", "url": "https://www.comune.lecce.it/", "note": "The city council (in Italian)" },
+    { "title": "Viaggiare in Puglia", "url": "https://www.viaggiareinpuglia.it/", "note": "The official tourist information of the region of Apulia" },
+    { "title": "Lecce on Wikipedia", "url": "https://en.wikipedia.org/wiki/Lecce", "note": "The encyclopedia article" }
+  ]
+}

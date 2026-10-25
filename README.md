@@ -37,6 +37,16 @@ its story, a map from OpenStreetMap and a link that drops you right there in the
 `_data/landmarks/<id>.json`; `node tools/landmarks.mjs` writes their pages (`<id>/landmark/`).
 Ghent's texts and pictures come from the sight pages of Instant Gent.
 
+Every city also has a guide: a "This is <city>" section on its page, a page about the city at
+`/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre
+on a map, its history and official links) and a page of all its places at
+`/<id>/places-and-landmarks/` (all its landmarks, and its key streets, squares and waterways on the
+map of the centre; the city's page shows only the first nine landmarks and links there). The guides
+are in `_data/about/<id>.json`; `node tools/about.mjs` writes their pages, draws each centre from
+the game's own map (`assets/maps/<id>.svg`, the pins in `_data/maps/<id>.json`) and the country
+maps (`_data/countries.json`). `node tools/about.mjs where <id> "<street>"` says where a street of
+the game's map lies.
+
 ```bash
 python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and /lecce/play/
 bundle install && bundle exec jekyll serve   # the whole site: http://localhost:4000/
