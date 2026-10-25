@@ -5189,7 +5189,7 @@ function updateVisuals(r, dt, t) {
   }
   m.root.position.set(r.pos.x, r.base + r.y, r.pos.z);
   m.root.rotation.y = r.yaw;
-  // in the water the rider is in a boat of the Bootjes van Gent instead, at its wheel
+  // in the water the rider is in a boat of the Bootjes van Gent instead, at its wheel (in Venice a gondola)
   if (r.boat && r.afloat && r.boat.userData.vessel !== r.vessel) { scene.remove(r.boat); r.boat = null; }
   if (r.afloat && !r.boat) {
     scene.add(r.boat = r.vessel === 'swim' ? swimmer() : r.vessel === 'row' ? rowingBoat() : tourBoat());
