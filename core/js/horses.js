@@ -1,3 +1,5 @@
+import { LOOK } from './city.js';
+
 // The characters, each with a name and its own colours: the shirt (or silk), the cap, and the coat
 // and mane of whatever animal they ride in a race. Riding about, the animal has its species' own coat
 // instead (COATS in horse.js). They are all equally fast and strong, whatever they ride.
@@ -15,8 +17,10 @@ export const STABLE = [
   { id: 'agent', name: 'Agent', coat: 0x4a2f1f, mane: 0x16120f, silk: 0x23395d, cap: 0x23395d, cop: true },
 ];
 
-// What a character can ride, or go on foot or by bike. They are all equally fast.
-export const MOUNTS = ['bike', 'foot', 'horse', 'cow', 'tiger', 'pig', 'unicorn'];
+// What a character can ride, or go on foot or by bike, and in an Italian town (LOOK style 'italian') on
+// a Vespa. They are all equally fast.
+export const ITALIAN = LOOK?.style === 'italian';
+export const MOUNTS = ['bike', ...(ITALIAN ? ['vespa'] : []), 'foot', 'horse', 'cow', 'tiger', 'pig', 'unicorn'];
 // The colours an animal comes in when you pick it: a brown horse, a white cow, a pink pig... You can
 // still change them after.
 export const MOUNT_COLORS = { horse: 'hagelslag', cow: 'vla', tiger: 'tijgerbrood', pig: 'spekkie', unicorn: 'suikerspin' };
