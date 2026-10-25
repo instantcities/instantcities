@@ -70,17 +70,6 @@
     </section>
 
     {%- assign G = site.data.about[C.id] %}
-    <nav class="subnav" aria-label="On this page">
-      <div class="subnav-links">
-        <a href="#features">What there is to do</a>
-        {%- if G %}<a href="#about">This is {{ C.name }}</a>{% endif %}
-        {%- if site.data.landmarks[C.id] %}<a href="#landmarks">Places and landmarks</a>{% endif %}
-        {%- if C.shots %}<a href="#screens">Screenshots</a>{% endif %}
-        {%- if G %}<a class="away" href="/{{ C.id }}/about-the-city/">About the city ›</a>{% endif %}
-      </div>
-      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
-    </nav>
-
     <section id="features" class="features">
       <h2>What there is to do</h2>
       <div class="grid">
@@ -161,7 +150,6 @@
   <script>
     {% include topnav.js %}
     {% include live.js %}
-    {% include subnav.js %}
   </script>
 </body>
 </html>
