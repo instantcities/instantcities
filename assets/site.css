@@ -198,6 +198,22 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .dates dt { font-weight: 600; white-space: nowrap; }
 .dates dd { color: #444; }
 
+/* The home page's "Learn more" under each card, its few words about the project, and the page about the project (/about/): its words beside a list of its headings that stays in view */
+.card-more { margin-top: 10px; font-weight: 500; }
+.card-more a { color: var(--ink); }
+.project { border-top: 1px solid var(--line); }
+.project .prose p:last-child { margin-bottom: 0; }
+.project .hero-btns { margin-top: 22px; }
+.project-body .prose h2[id]:first-child { margin-top: 0; }
+.project-body .prose .known { max-width: 68ch; }
+.project-side { position: sticky; top: 88px; }
+.toc { border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; background: var(--soft); }
+.toc h2 { font-size: 16px; margin-bottom: 10px; }
+.toc ol { margin-left: 1.2em; font-size: 15px; }
+.toc li + li { margin-top: 6px; }
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
 /* The bar of a page's sections (_includes/subnav.js): under the hero, it sticks under the top bar
    (about 55px tall) and marks the section in view; on a narrow screen its links scroll sideways */
 .subnav {
@@ -354,6 +370,7 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
   .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
   .europe { overflow-x: auto; }
   .landmark-body { grid-template-columns: 1fr; }
+  .project-side { position: static; order: -1; }
   .city-map-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .city-map-side { position: static; }
   .europe svg { width: 760px; max-width: none; }
