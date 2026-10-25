@@ -6,12 +6,13 @@ import * as THREE from 'three';
 import { HOLLOWS } from './city.js';
 import { settTexture } from './track.js';
 import { onGround, GROUND } from './ground.js';
+import { WATER } from './relief.js';
 
 const STEEP = 1.2; // a cell rising more than this from one corner to another is a wall, not a slope
 export const RAIL = 1.05; // how high the railing along the top of the walls stands
 const FRONT = 3; // a wall dropping further than this is a front of glass, of what is in under the street
 
-const depth = (h, i, j) => h.d[j * (h.nx + 1) + i] / 10;
+const depth = (h, i, j) => h.d[j * (h.nx + 1) + i] / (h.per ?? 10); // in steps of 1/per m (decimetres unless said)
 const sunkCell = (h, i, j) => Math.min(depth(h, i, j), depth(h, i + 1, j), depth(h, i, j + 1), depth(h, i + 1, j + 1)) < 0;
 const drop = (h, i, j) => {
   const c = [depth(h, i, j), depth(h, i + 1, j), depth(h, i, j + 1), depth(h, i + 1, j + 1)];
@@ -24,9 +25,10 @@ const halves = (h, i, j) => (Math.abs(depth(h, i, j) - depth(h, i + 1, j + 1)) <
   ? [[[i, j], [i + 1, j], [i + 1, j + 1]], [[i, j], [i + 1, j + 1], [i, j + 1]]]
   : [[[i, j], [i + 1, j], [i, j + 1]], [[i + 1, j], [i + 1, j + 1], [i, j + 1]]]);
 
-// How far below the street (x, z) lies: 0 outside the hollows.
-export function sunk(x, z) {
+// How far below the street (x, z) lies: 0 outside the hollows (quays: with those along the water).
+export function sunk(x, z, quays = true) {
   for (const h of HOLLOWS) {
+    if (!quays && h.quay) continue;
     const fx = (x - h.x0) / h.cell, fz = (z - h.z0) / h.cell;
     if (!(fx >= 0 && fz >= 0 && fx < h.nx && fz < h.nz)) continue;
     const i = Math.floor(fx), j = Math.floor(fz);
@@ -38,6 +40,40 @@ export function sunk(x, z) {
     }
   }
   return 0;
+}
+
+// A hollow along a line (a path in a trench, a quay lower than its street), in `cell` cells over
+// the stretch of p (flat [x, z, ...]) from s0 to s1 metres along it, reaching `reach` metres
+// either side of it: each corner's depth (metres, <= 0) is depth(s, d, x, z), s how far along p
+// its nearest point lies and d how far from p the corner is; the corners further off (and those
+// round the edge of the grid) are outside(x, z) deep, 0 unless said otherwise. per: the depths'
+// steps a metre (10, decimetres; 100 for a gentle slope running across the grid, which in whole
+// decimetres comes out as a saw).
+export function lineHollow({ id, name, p, s0 = 0, s1 = Infinity, reach, cell = 0.5, per = 10, depth, outside = () => 0, ...rest }) {
+  const at = [0];
+  for (let k = 2; k < p.length; k += 2) at.push(at[at.length - 1] + Math.hypot(p[k] - p[k - 2], p[k + 1] - p[k - 1]));
+  let x0 = Infinity, z0 = Infinity, x1 = -Infinity, z1 = -Infinity;
+  for (let k = 0; k < p.length; k += 2) {
+    const lo = k ? at[k / 2 - 1] : 0, hi = k + 2 < p.length ? at[k / 2 + 1] : at[k / 2];
+    if (hi < s0 - 4 || lo > s1 + 4) continue; // a point of a segment that runs through the stretch
+    x0 = Math.min(x0, p[k]); x1 = Math.max(x1, p[k]); z0 = Math.min(z0, p[k + 1]); z1 = Math.max(z1, p[k + 1]);
+  }
+  x0 = Math.floor(x0 - reach - 2); z0 = Math.floor(z0 - reach - 2);
+  const nx = Math.ceil((x1 + reach + 2 - x0) / cell), nz = Math.ceil((z1 + reach + 2 - z0) / cell), d = [];
+  for (let j = 0; j <= nz; j++) {
+    for (let i = 0; i <= nx; i++) {
+      const x = x0 + i * cell, z = z0 + j * cell;
+      let bd = Infinity, bs = 0;
+      for (let k = 0; k + 3 < p.length; k += 2) {
+        const ax = p[k], az = p[k + 1], dx = p[k + 2] - ax, dz = p[k + 3] - az, L = dx * dx + dz * dz || 1e-9;
+        const t = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / L)), dd = Math.hypot(x - ax - t * dx, z - az - t * dz);
+        if (dd < bd) { bd = dd; bs = at[k / 2] + t * (at[k / 2 + 1] - at[k / 2]); }
+      }
+      const edge = i === 0 || j === 0 || i === nx || j === nz;
+      d.push(Math.min(0, Math.round((edge || bd > reach || bs < s0 || bs > s1 ? outside(x, z) : depth(bs, bd, x, z)) * per)));
+    }
+  }
+  return { id, name, x0, z0, cell, nx, nz, d, ...(per !== 10 && { per }), ...rest };
 }
 
 // The foot of the wall at (x, z), if a wall stands there.
@@ -53,15 +89,20 @@ function wallAt(x, z) {
 // pieces half a cell long and a little under it (a strip is flat from kerb to kerb, the ground
 // is not: hollowGround lays them on the slope instead), the water in them is left out (it would
 // float), and their walls are for bumping into (map.ledges, rings like a building's): from below
-// always, from the street only until you jump the railing on top (js/collide.js).
+// always, from the street only until you jump the railing on top (js/collide.js). A bridge stays
+// up: it spans a hollow (a path going down under it, <city>/underpasses.js).
 export function sinkHollows(map) {
   if (!HOLLOWS.length) return map;
   const inBox = (x, z) => HOLLOWS.some(h => x >= h.x0 - 1 && z >= h.z0 - 1 && x <= h.x0 + h.nx * h.cell + 1 && z <= h.z0 + h.nz * h.cell + 1);
   const roads = map.roads.map(rd => {
+    if (rd.br) return rd;
     const p = rd.p;
     let through = false;
     for (let k = 0; k + 3 < p.length && !through; k += 2) {
-      for (let t = 0; t <= 1; t += 0.05) through ||= inBox(p[k] + (p[k + 2] - p[k]) * t, p[k + 1] + (p[k + 3] - p[k + 1]) * t);
+      for (let t = 0; t <= 1; t += 0.05) {
+        const x = p[k] + (p[k + 2] - p[k]) * t, z = p[k + 1] + (p[k + 3] - p[k + 1]) * t;
+        through ||= inBox(x, z) && sunk(x, z) < 0; // one that only passes the hollow by stays as it is
+      }
     }
     if (!through) return rd;
     // under the ground, and in a wall under its foot (a strip would cut through it)
@@ -78,7 +119,8 @@ export function sinkHollows(map) {
     }
     return { ...rd, p: q, y };
   });
-  const dry = a => a.k !== 'water' || !a.p.some((v, k) => k % 2 === 0 && sunk(v, a.p[k + 1]) < 0);
+  // (but the water beside a quay lying lower, which reaches a little way out over it, stays)
+  const dry = a => a.k !== 'water' || !a.p.some((v, k) => k % 2 === 0 && sunk(v, a.p[k + 1], false) < 0);
   const walls = [];
   for (const h of HOLLOWS) {
     for (let j = 0; j < h.nz; j++) {
@@ -209,33 +251,59 @@ function flatThings(map, layers, mats) {
   return things;
 }
 
+// Is (x, z) under a bridge's deck? No railing stands there: it would poke up through it.
+function underDeck(map) {
+  const decks = map.roads.filter(rd => rd.br);
+  return (x, z) => decks.some(rd => {
+    const half = rd.w / 2 + (rd.foot ? 0 : 1.3) + 0.3;
+    for (let k = 0; k + 3 < rd.p.length; k += 2) {
+      const [ax, az, bx, bz] = rd.p.slice(k, k + 4), dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9;
+      const t = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / L));
+      if (Math.hypot(x - ax - t * dx, z - az - t * dz) < half) return true;
+    }
+    return false;
+  });
+}
+
 // The hollows' ground, under a hole in the street's (a stencil mask like the water's, see
 // sunkenWater in js/scenery.js), with what lies on it. mats: { pavement, asphalt }.
 export function hollowGround(group, map, layers, mats) {
   if (!HOLLOWS.length) return;
+  const covered = underDeck(map);
   mats = { ...mats, setts: new THREE.MeshStandardMaterial({ map: settTexture(16, 24), roughness: 0.95 }) };
   const mask = new Soup(), floor = new Soup(), walls = new Soup(), fronts = new Soup(), rails = new Soup(), laid = {};
   const flat = tile => q => [q[0] / tile, q[2] / tile];
   for (const h of HOLLOWS) {
     const x1 = h.x0 + h.nx * h.cell, z1 = h.z0 + h.nz * h.cell;
     const near = flatThings(map, layers, mats).filter(t => t.x1 > h.x0 && t.z1 > h.z0 && t.x0 < x1 && t.z0 < z1);
-    const P = (i, j, lift = 0) => [h.x0 + i * h.cell, depth(h, i, j) + lift, h.z0 + j * h.cell];
+    let shore = null; // in a quay's cell on the water's edge: the quay's own depth, for its corners out in the water
+    const P = (i, j, lift = 0) => [h.x0 + i * h.cell, (shore !== null && depth(h, i, j) < WATER ? shore : depth(h, i, j)) + lift, h.z0 + j * h.cell];
     const top = (i, j) => [h.x0 + i * h.cell, 0, h.z0 + j * h.cell];
     for (let j = 0; j < h.nz; j++) {
       for (let i = 0; i < h.nx; i++) {
         if (!sunkCell(h, i, j)) continue;
-        const steep = steepCell(h, i, j);
+        // a quay's hollow goes on just under the water beside it, so its edge does not stick up out
+        // of it: what lies wholly under the water there is not drawn, and a cell on the water's
+        // edge is drawn level with the quay (its quay wall, js/scenery.js, goes down from there)
+        const corners = [depth(h, i, j), depth(h, i + 1, j), depth(h, i, j + 1), depth(h, i + 1, j + 1)];
+        if (h.quay && Math.max(...corners) < WATER) continue;
+        shore = h.quay && Math.min(...corners) < WATER ? Math.min(...corners.filter(c => c >= WATER)) : null;
+        const steep = shore === null && steepCell(h, i, j);
         for (const t of halves(h, i, j)) {
           mask.tri(...t.map(c => top(...c)), flat(1));
           const q = t.map(c => P(...c));
           if (steep) (drop(h, i, j) > FRONT ? fronts : walls).tri(...q, v => [(v[0] + v[2]) / 4, v[1] / 4]);
           else floor.tri(...q, flat(3));
         }
-        // a railing along the top of a wall: the cell's edges that stay up at the street
+        // a railing along the top of a wall: the cell's edges that stay up at the street (or the
+        // hollow's own railings, drawn below)
         if (steep) {
+          if (h.rails) continue;
           for (const [a, b] of [[[i, j], [i + 1, j]], [[i + 1, j], [i + 1, j + 1]], [[i + 1, j + 1], [i, j + 1]], [[i, j + 1], [i, j]]]) {
             if (depth(h, ...a) < -0.3 || depth(h, ...b) < -0.3) continue;
-            const [pa, pb] = [P(...a), P(...b)], uv = q => [(q[0] + q[2]) / 2, q[1] / RAIL];
+            const [pa, pb] = [P(...a), P(...b)];
+            if (covered((pa[0] + pb[0]) / 2, (pa[2] + pb[2]) / 2)) continue;
+            const uv = q => [(q[0] + q[2]) / 2, q[1] / RAIL];
             rails.tri(pa, pb, [pb[0], pb[1] + RAIL, pb[2]], uv);
             rails.tri(pa, [pb[0], pb[1] + RAIL, pb[2]], [pa[0], pa[1] + RAIL, pa[2]], uv);
           }
@@ -262,6 +330,16 @@ export function hollowGround(group, map, layers, mats) {
           }
         }
       }
+    }
+  }
+  // a hollow that runs aslant the grid has its railings drawn smooth, as lines along its edges
+  for (const line of HOLLOWS.flatMap(h => h.rails ?? [])) {
+    for (let k = 0; k + 3 < line.length; k += 2) {
+      const pa = [line[k], 0, line[k + 1]], pb = [line[k + 2], 0, line[k + 3]];
+      if (covered((pa[0] + pb[0]) / 2, (pa[2] + pb[2]) / 2)) continue;
+      const uv = q => [(q[0] + q[2]) / 2, q[1] / RAIL];
+      rails.tri(pa, pb, [pb[0], RAIL, pb[2]], uv);
+      rails.tri(pa, [pb[0], RAIL, pb[2]], [pa[0], RAIL, pa[2]], uv);
     }
   }
   const hole = mask.mesh(group, new THREE.MeshBasicMaterial({

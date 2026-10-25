@@ -1,0 +1,3311 @@
+{
+ "city": "ghent",
+ "street": "Voldersstraat",
+ "slug": "voldersstraat",
+ "photos": {
+  "1187159546259269-9": {
+   "file": "photos/1187159546259269-9.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1187159546259269",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0521989,
+    3.724456,
+    9,
+    0.5
+   ]
+  },
+  "815511275743111-358": {
+   "file": "photos/815511275743111-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=815511275743111",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522043,
+    3.7244942,
+    358,
+    0.5
+   ]
+  },
+  "683169280593696-327": {
+   "file": "photos/683169280593696-327.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683169280593696",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522126,
+    3.7246108,
+    327,
+    0.5
+   ]
+  },
+  "1746876115791783-357": {
+   "file": "photos/1746876115791783-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1746876115791783",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522267,
+    3.7234547,
+    357,
+    0.5
+   ]
+  },
+  "628211776628139-8": {
+   "file": "photos/628211776628139-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=628211776628139",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522184,
+    3.7234382,
+    8,
+    0.5
+   ]
+  },
+  "234113951816625-342": {
+   "file": "photos/234113951816625-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=234113951816625",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522229,
+    3.7234783,
+    342,
+    0.5
+   ]
+  },
+  "307964547486204-348": {
+   "file": "photos/307964547486204-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=307964547486204",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522211,
+    3.7235687,
+    348,
+    0.5
+   ]
+  },
+  "1202305627900918-329": {
+   "file": "photos/1202305627900918-329.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1202305627900918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522194,
+    3.7236054,
+    329,
+    0.5
+   ]
+  },
+  "2513156498868978-313": {
+   "file": "photos/2513156498868978-313.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2513156498868978",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522221,
+    3.7236429,
+    313,
+    0.5
+   ]
+  },
+  "2513156498868978-358": {
+   "file": "photos/2513156498868978-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2513156498868978",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522221,
+    3.7236429,
+    358,
+    0.5
+   ]
+  },
+  "1202305627900918-20": {
+   "file": "photos/1202305627900918-20.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1202305627900918",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522194,
+    3.7236054,
+    20,
+    0.5
+   ]
+  },
+  "538205700544832-349": {
+   "file": "photos/538205700544832-349.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=538205700544832",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522183,
+    3.7236585,
+    349,
+    0.5
+   ]
+  },
+  "157019539642015-320": {
+   "file": "photos/157019539642015-320.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=157019539642015",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0521032,
+    3.7229447,
+    320,
+    0.5
+   ]
+  },
+  "2829610490635615-14": {
+   "file": "photos/2829610490635615-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2829610490635615",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522252,
+    3.7233384,
+    14,
+    0.5
+   ]
+  },
+  "628211776628139-317": {
+   "file": "photos/628211776628139-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=628211776628139",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522184,
+    3.7234382,
+    317,
+    0.5
+   ]
+  },
+  "1020864258984375-356": {
+   "file": "photos/1020864258984375-356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020864258984375",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522398,
+    3.7221427,
+    356,
+    0.5
+   ]
+  },
+  "3900395106772539-11": {
+   "file": "photos/3900395106772539-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3900395106772539",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.052236,
+    3.7230397,
+    11,
+    0.5
+   ]
+  },
+  "554454008880701-359": {
+   "file": "photos/554454008880701-359.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=554454008880701",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522322,
+    3.7230529,
+    359,
+    0.5
+   ]
+  },
+  "329487519920019-325": {
+   "file": "photos/329487519920019-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=329487519920019",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522359,
+    3.723096,
+    325,
+    0.5
+   ]
+  },
+  "1533210650720074": {
+   "file": "photos/1533210650720074.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1533210650720074",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0519014,
+    3.7243004,
+    0,
+    0.417
+   ]
+  },
+  "1637957213502530-16": {
+   "file": "photos/1637957213502530-16.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1637957213502530",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0521958,
+    3.7246217,
+    16,
+    0.5
+   ]
+  },
+  "892966494892984-6": {
+   "file": "photos/892966494892984-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=892966494892984",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522051,
+    3.7246457,
+    6,
+    0.5
+   ]
+  },
+  "683169280593696-25": {
+   "file": "photos/683169280593696-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683169280593696",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522126,
+    3.7246108,
+    25,
+    0.5
+   ]
+  },
+  "1147154316269336-353": {
+   "file": "photos/1147154316269336-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1147154316269336",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522122,
+    3.7248068,
+    353,
+    0.5
+   ]
+  },
+  "689895916695797-12": {
+   "file": "photos/689895916695797-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=689895916695797",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0521947,
+    3.724767,
+    12,
+    0.5
+   ]
+  },
+  "3737629869681020-2": {
+   "file": "photos/3737629869681020-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3737629869681020",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522042,
+    3.7247908,
+    2,
+    0.5
+   ]
+  },
+  "642165835101341-355": {
+   "file": "photos/642165835101341-355.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=642165835101341",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0521274,
+    3.721799,
+    355,
+    0.5
+   ]
+  },
+  "1463600774217548-46": {
+   "file": "photos/1463600774217548-46.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1463600774217548",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522516,
+    3.7217408,
+    46,
+    0.5
+   ]
+  },
+  "620051707452450-11": {
+   "file": "photos/620051707452450-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=620051707452450",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.052227,
+    3.7231468,
+    11,
+    0.5
+   ]
+  },
+  "479296803406193-356": {
+   "file": "photos/479296803406193-356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=479296803406193",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522291,
+    3.7231669,
+    356,
+    0.5
+   ]
+  },
+  "1382711802895804-357": {
+   "file": "photos/1382711802895804-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1382711802895804",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522226,
+    3.7232838,
+    357,
+    0.5
+   ]
+  },
+  "1089614155726980-9": {
+   "file": "photos/1089614155726980-9.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1089614155726980",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522326,
+    3.7232703,
+    9,
+    0.5
+   ]
+  },
+  "404503700511065-350": {
+   "file": "photos/404503700511065-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=404503700511065",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522261,
+    3.7232932,
+    350,
+    0.5
+   ]
+  },
+  "279333474789555-350": {
+   "file": "photos/279333474789555-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=279333474789555",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522242,
+    3.7238362,
+    350,
+    0.5
+   ]
+  },
+  "1208238197328993-25": {
+   "file": "photos/1208238197328993-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208238197328993",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522158,
+    3.7237742,
+    25,
+    0.5
+   ]
+  },
+  "530826951634212-353": {
+   "file": "photos/530826951634212-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=530826951634212",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522131,
+    3.7238344,
+    353,
+    0.5
+   ]
+  },
+  "514500631607400": {
+   "file": "photos/514500631607400.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=514500631607400",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0522116,
+    3.7240338,
+    35,
+    0.464
+   ]
+  },
+  "1296219724911837": {
+   "file": "photos/1296219724911837.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1296219724911837",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0521896,
+    3.7238733,
+    38,
+    0.689
+   ]
+  },
+  "483426674778728": {
+   "file": "photos/483426674778728.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=483426674778728",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0521898,
+    3.7238731,
+    38,
+    0.656
+   ]
+  },
+  "1126188021697742-8": {
+   "file": "photos/1126188021697742-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126188021697742",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522007,
+    3.7253802,
+    8,
+    0.5
+   ]
+  },
+  "605473759053258-12": {
+   "file": "photos/605473759053258-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=605473759053258",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0520569,
+    3.7253203,
+    12,
+    0.5
+   ]
+  },
+  "2075413005931753-2": {
+   "file": "photos/2075413005931753-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2075413005931753",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0521962,
+    3.7253909,
+    2,
+    0.5
+   ]
+  },
+  "450884768017847-1": {
+   "file": "photos/450884768017847-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=450884768017847",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0521427,
+    3.7252374,
+    1,
+    0.5
+   ]
+  },
+  "900678654600778-22": {
+   "file": "photos/900678654600778-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=900678654600778",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522175,
+    3.7251968,
+    22,
+    0.5
+   ]
+  },
+  "333853501431283-5": {
+   "file": "photos/333853501431283-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=333853501431283",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522056,
+    3.7252293,
+    5,
+    0.5
+   ]
+  },
+  "1020864258984375-354": {
+   "file": "photos/1020864258984375-354.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020864258984375",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522398,
+    3.7221427,
+    354,
+    0.5
+   ]
+  },
+  "1380268956490136-51": {
+   "file": "photos/1380268956490136-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1380268956490136",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0522112,
+    3.7218541,
+    51,
+    0.5
+   ]
+  },
+  "1722005974658573": {
+   "file": "photos/1722005974658573.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1722005974658573",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-11",
+   "cam": [
+    51.0521875,
+    3.7249555,
+    91,
+    0.481
+   ]
+  },
+  "861472787914585": {
+   "file": "photos/861472787914585.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=861472787914585",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0522738,
+    3.7252242,
+    151,
+    0.518
+   ]
+  },
+  "496262464903812": {
+   "file": "photos/496262464903812.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=496262464903812",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.052313,
+    3.722905,
+    218,
+    0.982
+   ]
+  },
+  "1633133437479743-159": {
+   "file": "photos/1633133437479743-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1633133437479743",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522337,
+    3.7219922,
+    159,
+    0.5
+   ]
+  },
+  "1181922440277369-149": {
+   "file": "photos/1181922440277369-149.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1181922440277369",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0523001,
+    3.7219034,
+    149,
+    0.5
+   ]
+  },
+  "1020864258984375-173": {
+   "file": "photos/1020864258984375-173.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1020864258984375",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522398,
+    3.7221427,
+    173,
+    0.5
+   ]
+  },
+  "1097124161462068-172": {
+   "file": "photos/1097124161462068-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1097124161462068",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522494,
+    3.7223085,
+    172,
+    0.5
+   ]
+  },
+  "1109474150630394": {
+   "file": "photos/1109474150630394.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1109474150630394",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0523602,
+    3.7229578,
+    198,
+    0.464
+   ]
+  },
+  "508215715459620": {
+   "file": "photos/508215715459620.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=508215715459620",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-10-12",
+   "cam": [
+    51.0524781,
+    3.7229857,
+    191,
+    0.518
+   ]
+  },
+  "3940989965968901": {
+   "file": "photos/3940989965968901.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3940989965968901",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0523096,
+    3.722928,
+    204,
+    0.482
+   ]
+  },
+  "1208238197328993-192": {
+   "file": "photos/1208238197328993-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1208238197328993",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522158,
+    3.7237742,
+    192,
+    0.5
+   ]
+  },
+  "886020512337722-176": {
+   "file": "photos/886020512337722-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=886020512337722",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522157,
+    3.7237479,
+    176,
+    0.5
+   ]
+  },
+  "279333474789555-217": {
+   "file": "photos/279333474789555-217.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=279333474789555",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522242,
+    3.7238362,
+    217,
+    0.5
+   ]
+  },
+  "595753270118839-203": {
+   "file": "photos/595753270118839-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595753270118839",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522082,
+    3.7239444,
+    203,
+    0.5
+   ]
+  },
+  "495517858312859-186": {
+   "file": "photos/495517858312859-186.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=495517858312859",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522116,
+    3.7239177,
+    186,
+    0.5
+   ]
+  },
+  "279333474789555-147": {
+   "file": "photos/279333474789555-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=279333474789555",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522242,
+    3.7238362,
+    147,
+    0.5
+   ]
+  },
+  "279367350596139-171": {
+   "file": "photos/279367350596139-171.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=279367350596139",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0522139,
+    3.7241525,
+    171,
+    0.5
+   ]
+  },
+  "652881400595453-148": {
+   "file": "photos/652881400595453-148.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=652881400595453",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0522038,
+    3.7241183,
+    148,
+    0.5
+   ]
+  },
+  "1049184192795584-207": {
+   "file": "photos/1049184192795584-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1049184192795584",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-01-01",
+   "pano": true,
+   "cam": [
+    51.0522198,
+    3.7242204,
+    207,
+    0.5
+   ]
+  },
+  "1109046822910209": {
+   "file": "photos/1109046822910209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1109046822910209",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.05245,
+    3.7249639,
+    211,
+    0.493
+   ]
+  },
+  "934454821839214": {
+   "file": "photos/934454821839214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=934454821839214",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-10-12",
+   "cam": [
+    51.0525398,
+    3.7230023,
+    186,
+    0.518
+   ]
+  },
+  "1656639885262426": {
+   "file": "photos/1656639885262426.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1656639885262426",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0522711,
+    3.7229444,
+    151,
+    0.464
+   ]
+  },
+  "164403228944665": {
+   "file": "photos/164403228944665.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=164403228944665",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.05225,
+    3.723454,
+    165,
+    0.982
+   ]
+  },
+  "212523397007053": {
+   "file": "photos/212523397007053.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=212523397007053",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-03",
+   "cam": [
+    51.0522501,
+    3.7234543,
+    178,
+    0.982
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 27322,
+   "at": [
+    63.300000000000004,
+    144.2
+   ],
+   "centre": [
+    72.1,
+    137.3
+   ],
+   "width": 14.3,
+   "faces": 82,
+   "toStreet": 17.1,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    88.9,
+    125.7,
+    55.4,
+    132.2,
+    55.7,
+    139.1,
+    56.2,
+    145.2,
+    70.4,
+    143.2,
+    84.2,
+    139.1,
+    93.6,
+    136.3
+   ],
+   "id": "voldersstraat-82-01",
+   "latLon": [
+    51.052331,
+    3.724488
+   ],
+   "photos": [
+    {
+     "id": "1187159546259269-9",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.289,
+      0.662
+     ]
+    },
+    {
+     "id": "815511275743111-358",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.291,
+      0.695
+     ]
+    },
+    {
+     "id": "683169280593696-327",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.356,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27294,
+   "at": [
+    -27.4,
+    151.89999999999998
+   ],
+   "centre": [
+    -28.6,
+    142.6
+   ],
+   "width": 8.8,
+   "faces": 87,
+   "toStreet": 8.4,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 22.2,
+   "kind": "yes",
+   "ring": [
+    -23.8,
+    133,
+    -32.3,
+    133.7,
+    -32.2,
+    142.6,
+    -31.8,
+    152.1,
+    -23,
+    151.7
+   ],
+   "id": "voldersstraat-87-02",
+   "latLon": [
+    51.052275,
+    3.723451
+   ],
+   "photos": [
+    {
+     "id": "1746876115791783-357",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.178,
+      0.828
+     ]
+    },
+    {
+     "id": "628211776628139-8",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.199,
+      0.745
+     ]
+    },
+    {
+     "id": "234113951816625-342",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.258,
+      0.825
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27293,
+   "at": [
+    -18.8,
+    151.5
+   ],
+   "centre": [
+    -19.6,
+    140.2
+   ],
+   "width": 8.4,
+   "faces": 87,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 21.1,
+   "kind": "yes",
+   "ring": [
+    -14.5,
+    132.1,
+    -21.9,
+    132.8,
+    -23.8,
+    133,
+    -23,
+    151.7,
+    -14.6,
+    151.3
+   ],
+   "id": "voldersstraat-87-03",
+   "latLon": [
+    51.052278,
+    3.723549
+   ],
+   "photos": [
+    {
+     "id": "307964547486204-348",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.263,
+      0.778
+     ]
+    },
+    {
+     "id": "1202305627900918-329",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.339,
+      0.746
+     ]
+    },
+    {
+     "id": "2513156498868978-313",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.398,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27292,
+   "at": [
+    -10.85,
+    151.2
+   ],
+   "centre": [
+    -10.8,
+    139.7
+   ],
+   "width": 7.5,
+   "faces": 88,
+   "toStreet": 9.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 16.9,
+   "kind": "retail",
+   "ring": [
+    -14.5,
+    132.1,
+    -14.6,
+    151.3,
+    -7.1,
+    151.1,
+    -5.5,
+    132,
+    -12.3,
+    132.1
+   ],
+   "id": "voldersstraat-88-04",
+   "latLon": [
+    51.05228,
+    3.72364
+   ],
+   "photos": [
+    {
+     "id": "2513156498868978-358",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.272,
+      0.734
+     ]
+    },
+    {
+     "id": "1202305627900918-20",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.269,
+      0.665
+     ]
+    },
+    {
+     "id": "538205700544832-349",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.306,
+      0.731
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27290,
+   "at": [
+    -91.9,
+    151.9
+   ],
+   "centre": [
+    -92,
+    140.5
+   ],
+   "width": 18.4,
+   "faces": 89,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 19.7,
+   "kind": "yes",
+   "ring": [
+    -101.1,
+    152,
+    -82.7,
+    151.8,
+    -82.3,
+    144.9,
+    -81.8,
+    137.3,
+    -96,
+    132.7,
+    -99.8,
+    131.8,
+    -100,
+    132.8
+   ],
+   "id": "voldersstraat-89-05",
+   "latLon": [
+    51.052275,
+    3.722714
+   ],
+   "photos": [
+    {
+     "id": "157019539642015-320",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.402,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27295,
+   "at": [
+    -35.5,
+    152.14999999999998
+   ],
+   "centre": [
+    -36.1,
+    141.5
+   ],
+   "width": 7.4,
+   "faces": 89,
+   "toStreet": 8.1,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": 17.3,
+   "kind": "yes",
+   "ring": [
+    -32.3,
+    133.7,
+    -39.3,
+    134.2,
+    -38.9,
+    137.3,
+    -38.9,
+    138.4,
+    -39.2,
+    152.2,
+    -31.8,
+    152.1,
+    -32.2,
+    142.6
+   ],
+   "id": "voldersstraat-89-06",
+   "latLon": [
+    51.052273,
+    3.723358
+   ],
+   "photos": [
+    {
+     "id": "2829610490635615-14",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.208,
+      0.731
+     ]
+    },
+    {
+     "id": "628211776628139-317",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.398,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9177,
+   "at": [
+    -142.14999999999998,
+    152.05
+   ],
+   "centre": [
+    -150.9,
+    150.3
+   ],
+   "width": 14.1,
+   "faces": 90,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": 20.7,
+   "kind": "apartments",
+   "ring": [
+    -152.1,
+    140.3,
+    -153.8,
+    147.4,
+    -154,
+    147.8,
+    -154.2,
+    148.4,
+    -154.3,
+    148.8,
+    -154.2,
+    149.4,
+    -154.1,
+    149.9,
+    -154,
+    150.4,
+    -153.7,
+    150.8,
+    -153.3,
+    151.3,
+    -153.1,
+    151.5,
+    -152.8,
+    151.7,
+    -152.5,
+    151.9,
+    -152.2,
+    152.1,
+    -151.8,
+    152.2,
+    -151.6,
+    152.3,
+    -151.1,
+    152.4,
+    -150.9,
+    152.4,
+    -150.4,
+    152.4,
+    -150.1,
+    152.4,
+    -149.9,
+    152.3,
+    -149.6,
+    152.2,
+    -149.2,
+    152.1,
+    -135.1,
+    152,
+    -134.9,
+    143.5
+   ],
+   "id": "voldersstraat-90-07",
+   "latLon": [
+    51.052274,
+    3.722139
+   ],
+   "photos": [
+    {
+     "id": "1020864258984375-356",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9292,
+   "at": [
+    -131.1,
+    152
+   ],
+   "centre": [
+    -130.8,
+    142.1
+   ],
+   "width": 8,
+   "faces": 90,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 7.5,
+   "top": 16.7,
+   "kind": "yes",
+   "ring": [
+    -135.1,
+    152,
+    -127.1,
+    152,
+    -125.3,
+    137.6,
+    -129.1,
+    136.8,
+    -130.3,
+    136.6,
+    -134,
+    135.9,
+    -134.9,
+    143.5
+   ],
+   "id": "voldersstraat-90-08",
+   "latLon": [
+    51.052275,
+    3.722266
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 8004,
+   "at": [
+    -114.1,
+    152
+   ],
+   "centre": [
+    -116.9,
+    136
+   ],
+   "width": 26,
+   "faces": 90,
+   "toStreet": 7.9,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -120.6,
+    131.1,
+    -121.8,
+    138.3,
+    -124.3,
+    137.8,
+    -125.3,
+    137.6,
+    -127.1,
+    152,
+    -101.1,
+    152,
+    -100,
+    132.8,
+    -106,
+    130.9,
+    -119,
+    127.3,
+    -120.2,
+    127,
+    -120.4,
+    129
+   ],
+   "id": "voldersstraat-90-09",
+   "latLon": [
+    51.052275,
+    3.72246
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 27305,
+   "at": [
+    -62.35,
+    151.9
+   ],
+   "centre": [
+    -60.2,
+    134.9
+   ],
+   "width": 5.1,
+   "faces": 90,
+   "toStreet": 8,
+   "floors": 6,
+   "eaves": 21.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -54.4,
+    120.9,
+    -60.9,
+    119.8,
+    -63.3,
+    121.9,
+    -66.7,
+    149.4,
+    -64.9,
+    151.9,
+    -59.8,
+    151.9,
+    -58.7,
+    142.3,
+    -57.3,
+    128,
+    -55.6,
+    128.2
+   ],
+   "id": "voldersstraat-90-10",
+   "latLon": [
+    51.052275,
+    3.723052
+   ],
+   "photos": [
+    {
+     "id": "3900395106772539-11",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.251,
+      0.705
+     ]
+    },
+    {
+     "id": "554454008880701-359",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.287,
+      0.713
+     ]
+    },
+    {
+     "id": "329487519920019-325",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.369,
+      0.694
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27307,
+   "at": [
+    38.45,
+    151.6
+   ],
+   "centre": [
+    38.7,
+    144.2
+   ],
+   "width": 10.5,
+   "faces": 90,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": 24.8,
+   "kind": "yes",
+   "ring": [
+    44.2,
+    139.3,
+    38.9,
+    139.3,
+    33.7,
+    139.3,
+    33.2,
+    151.6,
+    43.7,
+    151.6
+   ],
+   "id": "voldersstraat-90-11",
+   "latLon": [
+    51.052277,
+    3.724204
+   ],
+   "photos": [
+    {
+     "id": "1533210650720074",
+     "metres": 42,
+     "off": 9,
+     "span": [
+      0.391,
+      0.475
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27310,
+   "at": [
+    63.15,
+    151.64999999999998
+   ],
+   "centre": [
+    58,
+    144.9
+   ],
+   "width": 18.3,
+   "faces": 90,
+   "toStreet": 9.6,
+   "floors": 6,
+   "eaves": 21.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    70.4,
+    143.2,
+    56.2,
+    145.2,
+    55.7,
+    139.1,
+    50.9,
+    139.2,
+    50.6,
+    144.5,
+    54.1,
+    144.7,
+    54,
+    151.7,
+    72.3,
+    151.6
+   ],
+   "id": "voldersstraat-90-12",
+   "latLon": [
+    51.052277,
+    3.724486
+   ],
+   "photos": [
+    {
+     "id": "1533210650720074",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.557,
+      0.703
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27309,
+   "at": [
+    78.15,
+    151.64999999999998
+   ],
+   "centre": [
+    77.7,
+    146.4
+   ],
+   "width": 11.7,
+   "faces": 90,
+   "toStreet": 9.7,
+   "floors": 6,
+   "eaves": 23.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    84.2,
+    139.1,
+    70.4,
+    143.2,
+    72.3,
+    151.6,
+    84,
+    151.7
+   ],
+   "id": "voldersstraat-90-13",
+   "latLon": [
+    51.052277,
+    3.724658
+   ],
+   "photos": [
+    {
+     "id": "1637957213502530-16",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.218,
+      0.707
+     ]
+    },
+    {
+     "id": "892966494892984-6",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.192,
+      0.772
+     ]
+    },
+    {
+     "id": "683169280593696-25",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.137,
+      0.712
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27308,
+   "at": [
+    90.2,
+    151.75
+   ],
+   "centre": [
+    91.4,
+    145.4
+   ],
+   "width": 12.4,
+   "faces": 90,
+   "toStreet": 9.4,
+   "floors": 6,
+   "eaves": 24,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    93.6,
+    136.3,
+    84.2,
+    139.1,
+    84,
+    151.7,
+    96.4,
+    151.8,
+    98.8,
+    148.3
+   ],
+   "id": "voldersstraat-90-14",
+   "latLon": [
+    51.052276,
+    3.724795
+   ],
+   "photos": [
+    {
+     "id": "1147154316269336-353",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.189,
+      0.88
+     ]
+    },
+    {
+     "id": "689895916695797-12",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.21,
+      0.738
+     ]
+    },
+    {
+     "id": "3737629869681020-2",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.188,
+      0.805
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9337,
+   "at": [
+    -173.65,
+    151.95
+   ],
+   "centre": [
+    -176.1,
+    145.9
+   ],
+   "width": 8.3,
+   "faces": 91,
+   "toStreet": 12.3,
+   "floors": 6,
+   "eaves": 22.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -184.4,
+    151.9,
+    -177.8,
+    151.9,
+    -169.5,
+    152,
+    -166.7,
+    150,
+    -165.2,
+    144.1,
+    -178.9,
+    140.1,
+    -183.1,
+    138.4,
+    -183.2,
+    138.9
+   ],
+   "id": "voldersstraat-91-15",
+   "latLon": [
+    51.052275,
+    3.721779
+   ],
+   "photos": [
+    {
+     "id": "642165835101341-355",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.403,
+      0.604
+     ]
+    },
+    {
+     "id": "1463600774217548-46",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27297,
+   "at": [
+    -52.65,
+    152
+   ],
+   "centre": [
+    -52.4,
+    141.7
+   ],
+   "width": 14.3,
+   "faces": 91,
+   "toStreet": 8,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -45.5,
+    135,
+    -51.3,
+    134.7,
+    -51.3,
+    139.5,
+    -56.8,
+    139.3,
+    -57.3,
+    142.3,
+    -58.7,
+    142.3,
+    -59.8,
+    151.9,
+    -45.5,
+    152.1,
+    -45.2,
+    138.5
+   ],
+   "id": "voldersstraat-91-16",
+   "latLon": [
+    51.052275,
+    3.723162
+   ],
+   "photos": [
+    {
+     "id": "620051707452450-11",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.945
+     ]
+    },
+    {
+     "id": "479296803406193-356",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27296,
+   "at": [
+    -42.35,
+    152.14999999999998
+   ],
+   "centre": [
+    -42.2,
+    145.3
+   ],
+   "width": 6.3,
+   "faces": 91,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 18.1,
+   "kind": "yes",
+   "ring": [
+    -38.9,
+    138.4,
+    -45.2,
+    138.5,
+    -45.5,
+    152.1,
+    -39.2,
+    152.2
+   ],
+   "id": "voldersstraat-91-17",
+   "latLon": [
+    51.052273,
+    3.72328
+   ],
+   "photos": [
+    {
+     "id": "1382711802895804-357",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.288,
+      0.732
+     ]
+    },
+    {
+     "id": "1089614155726980-9",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.203,
+      0.749
+     ]
+    },
+    {
+     "id": "404503700511065-350",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.289,
+      0.756
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27291,
+   "at": [
+    5.000000000000001,
+    151.25
+   ],
+   "centre": [
+    10.6,
+    131.3
+   ],
+   "width": 24.2,
+   "faces": 91,
+   "toStreet": 9.4,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    16.6,
+    103.2,
+    -7.1,
+    112.6,
+    -3.4,
+    126.9,
+    -5.5,
+    132,
+    -7.1,
+    151.1,
+    17.1,
+    151.4,
+    23.9,
+    151.5,
+    24.7,
+    132.5,
+    23.7,
+    132.3,
+    23.1,
+    119.1
+   ],
+   "id": "voldersstraat-91-18",
+   "latLon": [
+    51.05228,
+    3.723821
+   ],
+   "photos": [
+    {
+     "id": "279333474789555-350",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1208238197328993-25",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.874
+     ]
+    },
+    {
+     "id": "530826951634212-353",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27306,
+   "at": [
+    28.55,
+    151.55
+   ],
+   "centre": [
+    33.7,
+    128
+   ],
+   "width": 9.3,
+   "faces": 91,
+   "toStreet": 9.4,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    23.1,
+    119.1,
+    32.2,
+    117.8,
+    34.1,
+    117.2,
+    40.6,
+    116.4,
+    40.4,
+    117.1,
+    40.4,
+    117.4,
+    40.5,
+    119.5,
+    37.3,
+    120.1,
+    38.1,
+    129.5,
+    38.9,
+    139.3,
+    33.7,
+    139.3,
+    33.2,
+    151.6,
+    23.9,
+    151.5,
+    24.7,
+    132.5,
+    23.7,
+    132.3
+   ],
+   "id": "voldersstraat-91-19",
+   "latLon": [
+    51.052278,
+    3.724091
+   ],
+   "photos": [
+    {
+     "id": "514500631607400",
+     "metres": 8,
+     "off": 6,
+     "span": [
+      0.203,
+      0.597
+     ]
+    },
+    {
+     "id": "1296219724911837",
+     "metres": 18,
+     "off": 19,
+     "span": [
+      0.639,
+      0.819
+     ]
+    },
+    {
+     "id": "483426674778728",
+     "metres": 18,
+     "off": 19,
+     "span": [
+      0.633,
+      0.804
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27311,
+   "at": [
+    48.85,
+    151.64999999999998
+   ],
+   "centre": [
+    49.6,
+    145.2
+   ],
+   "width": 10.3,
+   "faces": 91,
+   "toStreet": 9.5,
+   "floors": 5,
+   "eaves": 20.2,
+   "top": 24.7,
+   "kind": "yes",
+   "ring": [
+    50.9,
+    139.2,
+    44.2,
+    139.3,
+    43.7,
+    151.6,
+    54,
+    151.7,
+    54.1,
+    144.7,
+    50.6,
+    144.5
+   ],
+   "id": "voldersstraat-91-20",
+   "latLon": [
+    51.052277,
+    3.724323
+   ],
+   "photos": [
+    {
+     "id": "1533210650720074",
+     "metres": 42,
+     "off": 2,
+     "span": [
+      0.475,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27387,
+   "at": [
+    142.6,
+    152.55
+   ],
+   "centre": [
+    144,
+    145.4
+   ],
+   "width": 16,
+   "faces": 99,
+   "toStreet": 13.4,
+   "floors": 5,
+   "eaves": 20.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    146.1,
+    138.7,
+    147,
+    144.1,
+    149.4,
+    143.8,
+    150.5,
+    153.8,
+    134.7,
+    151.3,
+    136.4,
+    140.9
+   ],
+   "id": "voldersstraat-99-21",
+   "latLon": [
+    51.052271,
+    3.725395
+   ],
+   "photos": [
+    {
+     "id": "1126188021697742-8",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.092,
+      0.909
+     ]
+    },
+    {
+     "id": "605473759053258-12",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.37,
+      0.632
+     ]
+    },
+    {
+     "id": "2075413005931753-2",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.148,
+      0.921
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27238,
+   "at": [
+    129.14999999999998,
+    150.4
+   ],
+   "centre": [
+    126.1,
+    147.4
+   ],
+   "width": 11.2,
+   "faces": 99,
+   "toStreet": 10,
+   "floors": 5,
+   "eaves": 19.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    120.9,
+    144.3,
+    136.4,
+    140.9,
+    134.7,
+    151.3,
+    123.6,
+    149.5,
+    123,
+    149.2,
+    122.4,
+    148.9,
+    121.9,
+    147.9
+   ],
+   "id": "voldersstraat-99-22",
+   "latLon": [
+    51.052286,
+    3.725241
+   ],
+   "photos": [
+    {
+     "id": "450884768017847-1",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.365,
+      0.643
+     ]
+    },
+    {
+     "id": "900678654600778-22",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.197,
+      0.736
+     ]
+    },
+    {
+     "id": "333853501431283-5",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.261,
+      0.758
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9178,
+   "at": [
+    -143.5,
+    141.9
+   ],
+   "centre": [
+    -142.2,
+    137
+   ],
+   "width": 17.5,
+   "faces": 101,
+   "toStreet": 17.9,
+   "floors": 4,
+   "eaves": 16.2,
+   "top": 21.6,
+   "kind": "apartments",
+   "ring": [
+    -134.9,
+    143.5,
+    -134,
+    135.9,
+    -134.6,
+    135.8,
+    -147.2,
+    133.4,
+    -150.1,
+    132.8,
+    -152.1,
+    140.3
+   ],
+   "id": "voldersstraat-101-23",
+   "latLon": [
+    51.052348,
+    3.722124
+   ],
+   "photos": [
+    {
+     "id": "1020864258984375-354",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.261,
+      0.831
+     ]
+    },
+    {
+     "id": "1380268956490136-51",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.366,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27269,
+   "at": [
+    133.9,
+    169.8
+   ],
+   "centre": [
+    155.8,
+    177.9
+   ],
+   "width": 3.9,
+   "faces": 215,
+   "toStreet": 9.8,
+   "floors": 8,
+   "eaves": 29.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    164.1,
+    189,
+    164.8,
+    180.1,
+    164.9,
+    179.1,
+    164.6,
+    179.1,
+    165.2,
+    173.3,
+    165.5,
+    173.3,
+    165.6,
+    172.2,
+    164.5,
+    172.4,
+    136.1,
+    168.7,
+    135,
+    168.2,
+    132.8,
+    171.4,
+    137.1,
+    180.6,
+    154.1,
+    175,
+    155.8,
+    181.7,
+    158,
+    181.5,
+    158.6,
+    183,
+    157.6,
+    183.4,
+    159.9,
+    190.2
+   ],
+   "id": "voldersstraat-215-01",
+   "latLon": [
+    51.052146,
+    3.725295
+   ],
+   "photos": [
+    {
+     "id": "1722005974658573",
+     "metres": 24,
+     "off": 10,
+     "span": [
+      0.561,
+      0.62
+     ]
+    },
+    {
+     "id": "861472787914585",
+     "metres": 15,
+     "off": 10,
+     "span": [
+      0.543,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27250,
+   "at": [
+    -98.8,
+    167.35000000000002
+   ],
+   "centre": [
+    -97.9,
+    178.5
+   ],
+   "width": 8,
+   "faces": 269,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 13,
+   "top": 24.6,
+   "kind": "yes",
+   "ring": [
+    -102.8,
+    167.4,
+    -94.8,
+    167.3,
+    -94.7,
+    183.3,
+    -94.7,
+    187.1,
+    -102.7,
+    187.5
+   ],
+   "id": "voldersstraat-269-01",
+   "latLon": [
+    51.052163,
+    3.722635
+   ],
+   "photos": [
+    {
+     "id": "496262464903812",
+     "metres": 25,
+     "off": 10,
+     "span": [
+      0.587,
+      0.755
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9170,
+   "at": [
+    -151.2,
+    167.4
+   ],
+   "centre": [
+    -154.2,
+    172.5
+   ],
+   "width": 12.8,
+   "faces": 270,
+   "toStreet": 7.6,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": 21.6,
+   "kind": "apartments",
+   "ring": [
+    -159.7,
+    168.8,
+    -162.7,
+    177.7,
+    -146.1,
+    181,
+    -144.8,
+    167.4,
+    -157.6,
+    167.4
+   ],
+   "id": "voldersstraat-270-02",
+   "latLon": [
+    51.052163,
+    3.722036
+   ],
+   "photos": [
+    {
+     "id": "1633133437479743-159",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.266,
+      0.86
+     ]
+    },
+    {
+     "id": "1181922440277369-149",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.391,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 9171,
+   "at": [
+    -140.5,
+    167.4
+   ],
+   "centre": [
+    -141.4,
+    174.5
+   ],
+   "width": 8.6,
+   "faces": 270,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": 22.3,
+   "kind": "yes",
+   "ring": [
+    -146.1,
+    181,
+    -144.8,
+    167.4,
+    -136.2,
+    167.4,
+    -138.6,
+    182.3
+   ],
+   "id": "voldersstraat-270-03",
+   "latLon": [
+    51.052163,
+    3.722158
+   ],
+   "photos": [
+    {
+     "id": "1020864258984375-173",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.309,
+      0.707
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7976,
+   "at": [
+    -125.55,
+    167.35000000000002
+   ],
+   "centre": [
+    -126.1,
+    176.2
+   ],
+   "width": 21.3,
+   "faces": 270,
+   "toStreet": 7.5,
+   "floors": 7,
+   "eaves": 26.5,
+   "top": null,
+   "kind": "hotel",
+   "ring": [
+    -136.2,
+    167.4,
+    -114.9,
+    167.3,
+    -114.8,
+    187.8,
+    -138.6,
+    182.3
+   ],
+   "id": "voldersstraat-270-04",
+   "latLon": [
+    51.052163,
+    3.722329
+   ],
+   "photos": [
+    {
+     "id": "1097124161462068-172",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.107,
+      0.992
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27251,
+   "at": [
+    -108.85,
+    167.35000000000002
+   ],
+   "centre": [
+    -108.9,
+    179.5
+   ],
+   "width": 12.1,
+   "faces": 270,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 25.7,
+   "kind": "yes",
+   "ring": [
+    -102.8,
+    167.4,
+    -114.9,
+    167.3,
+    -114.8,
+    187.8,
+    -109.4,
+    187.6,
+    -102.7,
+    187.5
+   ],
+   "id": "voldersstraat-270-05",
+   "latLon": [
+    51.052163,
+    3.72252
+   ],
+   "photos": [
+    {
+     "id": "496262464903812",
+     "metres": 32,
+     "off": 20,
+     "span": [
+      0.757,
+      0.937
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27249,
+   "at": [
+    -88.75,
+    167.25
+   ],
+   "centre": [
+    -86.5,
+    174
+   ],
+   "width": 12.1,
+   "faces": 270,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 19.7,
+   "kind": "yes",
+   "ring": [
+    -94.7,
+    183.3,
+    -94.8,
+    167.3,
+    -82.7,
+    167.2,
+    -80.4,
+    169.4,
+    -80,
+    182.8
+   ],
+   "id": "voldersstraat-270-06",
+   "latLon": [
+    51.052164,
+    3.72275
+   ],
+   "photos": [
+    {
+     "id": "1109474150630394",
+     "metres": 26,
+     "off": 16,
+     "span": [
+      0.552,
+      0.707
+     ]
+    },
+    {
+     "id": "508215715459620",
+     "metres": 39,
+     "off": 15,
+     "span": [
+      0.57,
+      0.696
+     ]
+    },
+    {
+     "id": "3940989965968901",
+     "metres": 20,
+     "off": 14,
+     "span": [
+      0.512,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27243,
+   "at": [
+    -0.9000000000000004,
+    168.45
+   ],
+   "centre": [
+    0.4,
+    185.9
+   ],
+   "width": 13,
+   "faces": 270,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -7.8,
+    202.7,
+    5.8,
+    202.8,
+    5.7,
+    187.1,
+    5.6,
+    168.5,
+    -7.4,
+    168.4
+   ],
+   "id": "voldersstraat-270-07",
+   "latLon": [
+    51.052156,
+    3.723754
+   ],
+   "photos": [
+    {
+     "id": "1208238197328993-192",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.058,
+      0.819
+     ]
+    },
+    {
+     "id": "886020512337722-176",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.136,
+      0.912
+     ]
+    },
+    {
+     "id": "279333474789555-217",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.176,
+      0.663
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27392,
+   "at": [
+    12.600000000000001,
+    168.55
+   ],
+   "centre": [
+    12.6,
+    177.8
+   ],
+   "width": 14,
+   "faces": 270,
+   "toStreet": 7.8,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": 23.1,
+   "kind": "house",
+   "ring": [
+    5.6,
+    168.5,
+    5.7,
+    187.1,
+    19.4,
+    187.2,
+    19.6,
+    168.6
+   ],
+   "id": "voldersstraat-270-08",
+   "latLon": [
+    51.052155,
+    3.723908
+   ],
+   "photos": [
+    {
+     "id": "595753270118839-203",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.798
+     ]
+    },
+    {
+     "id": "495517858312859-186",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.017,
+      0.9
+     ]
+    },
+    {
+     "id": "279333474789555-147",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.308,
+      0.877
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27953,
+   "at": [
+    35.3,
+    168.7
+   ],
+   "centre": [
+    59.9,
+    208.8
+   ],
+   "width": 31.4,
+   "faces": 270,
+   "toStreet": 7.7,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "university",
+   "ring": [
+    19.6,
+    168.6,
+    51,
+    168.8,
+    68.3,
+    169,
+    68.8,
+    169.5,
+    66.5,
+    204,
+    56.6,
+    204.8,
+    56.3,
+    186.3,
+    64.1,
+    186.2,
+    64,
+    180.1,
+    65.4,
+    180,
+    65.4,
+    178.8,
+    27.3,
+    179.4,
+    27.7,
+    210,
+    62.2,
+    209.6,
+    62.4,
+    217.3,
+    66,
+    217.4,
+    65.3,
+    231.6,
+    65.3,
+    232.8,
+    74.1,
+    233.4,
+    88.9,
+    233.7,
+    92.2,
+    233.8,
+    90.8,
+    245.3,
+    88.5,
+    245.8,
+    88.5,
+    246.5,
+    72.7,
+    246,
+    61.2,
+    245.6,
+    61.6,
+    221.9,
+    18.9,
+    222.6,
+    19.4,
+    187.2,
+    19.1,
+    209.4
+   ],
+   "id": "voldersstraat-270-09",
+   "latLon": [
+    51.052154,
+    3.724168
+   ],
+   "photos": [
+    {
+     "id": "279367350596139-171",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "652881400595453-148",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.098,
+      1
+     ]
+    },
+    {
+     "id": "1049184192795584-207",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.899
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27279,
+   "at": [
+    97.4,
+    169.05
+   ],
+   "centre": [
+    100.4,
+    184.3
+   ],
+   "width": 39.4,
+   "faces": 270,
+   "toStreet": 7.9,
+   "floors": 6,
+   "eaves": 22.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    74.2,
+    172.3,
+    74.5,
+    171.3,
+    75.1,
+    170.4,
+    76.2,
+    169.5,
+    77.7,
+    168.9,
+    117.1,
+    169.2,
+    118.6,
+    169.4,
+    119.3,
+    169.7,
+    120.5,
+    170.4,
+    121.4,
+    171.8,
+    130.6,
+    189.3,
+    130.6,
+    189.8,
+    116.9,
+    192.6,
+    117.9,
+    197,
+    116.6,
+    198.7,
+    114.3,
+    198.6,
+    93.9,
+    198.6,
+    86.9,
+    198.5,
+    87,
+    196.5,
+    83.8,
+    196.3,
+    83.5,
+    198.5,
+    72.5,
+    198.3
+   ],
+   "id": "voldersstraat-270-10",
+   "latLon": [
+    51.052151,
+    3.724878
+   ],
+   "photos": [
+    {
+     "id": "1109046822910209",
+     "metres": 34,
+     "off": 20,
+     "span": [
+      0,
+      0.522
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27282,
+   "at": [
+    -54.25,
+    167.45
+   ],
+   "centre": [
+    -54.3,
+    180.1
+   ],
+   "width": 28.1,
+   "faces": 271,
+   "toStreet": 7.4,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -68.6,
+    181.7,
+    -68.4,
+    181.7,
+    -60.7,
+    181.8,
+    -60.8,
+    185.7,
+    -56.3,
+    186,
+    -56.3,
+    189.1,
+    -48.9,
+    189.4,
+    -48.8,
+    181.5,
+    -37.5,
+    181.3,
+    -37.2,
+    167.8,
+    -40.2,
+    167.7,
+    -68.3,
+    167.2
+   ],
+   "id": "voldersstraat-271-11",
+   "latLon": [
+    51.052163,
+    3.723144
+   ],
+   "photos": [
+    {
+     "id": "934454821839214",
+     "metres": 43,
+     "off": 19,
+     "span": [
+      0.168,
+      0.462
+     ]
+    },
+    {
+     "id": "1656639885262426",
+     "metres": 18,
+     "off": 21,
+     "span": [
+      0.17,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27278,
+   "at": [
+    -24.099999999999998,
+    167.25
+   ],
+   "centre": [
+    -22.2,
+    196.3
+   ],
+   "width": 22.4,
+   "faces": 271,
+   "toStreet": 6.9,
+   "floors": 6,
+   "eaves": 20.8,
+   "top": null,
+   "kind": "university",
+   "ring": [
+    -37.2,
+    167.8,
+    -37.3,
+    166.9,
+    -35.3,
+    167,
+    -12.9,
+    167.5,
+    -11.1,
+    167.5,
+    -9.2,
+    167.5,
+    -7.4,
+    168.4,
+    -7.8,
+    202.7,
+    -7.9,
+    209.9,
+    -8,
+    215.5,
+    -11.1,
+    215.5,
+    -11.3,
+    226.7,
+    -12.2,
+    246.6,
+    -39.2,
+    245.9,
+    -38.5,
+    224.4,
+    -37.9,
+    200.3,
+    -37.7,
+    191.3,
+    -37.5,
+    181.3
+   ],
+   "id": "voldersstraat-271-12",
+   "latLon": [
+    51.052164,
+    3.723489
+   ],
+   "photos": [
+    {
+     "id": "164403228944665",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27962,
+   "at": [
+    -24.099999999999998,
+    167.25
+   ],
+   "centre": [
+    -20.5,
+    169.3
+   ],
+   "width": 22.4,
+   "faces": 271,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": 23.6,
+   "kind": "university",
+   "ring": [
+    -36.4,
+    174.6,
+    -8,
+    175.1,
+    -8,
+    169.3,
+    -9.2,
+    169.3,
+    -9.2,
+    168.3,
+    -9.2,
+    167.5,
+    -11.1,
+    167.5,
+    -12.9,
+    167.5,
+    -35.3,
+    167,
+    -35.3,
+    167.8,
+    -35.3,
+    168.8,
+    -36.3,
+    168.8
+   ],
+   "id": "voldersstraat-271-13",
+   "latLon": [
+    51.052164,
+    3.723489
+   ],
+   "photos": [
+    {
+     "id": "212523397007053",
+     "metres": 10,
+     "off": 13,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

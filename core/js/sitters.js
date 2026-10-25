@@ -249,11 +249,7 @@ class Sitters {
       set(this.parts.head, i, s.colors.skin);
       set(this.parts.hair, i, s.colors.hair);
       if (s.glass != null) set(this.parts.glass, s.glass, pick(GLASSES));
-      this.base(s);
-      const k = SEATS[s.seat];
-      for (const side of [0, 1]) this.pose('thigh', i * 2 + side, side ? 0.1 : -0.1, 0, 0, k.thigh);
-      const a = k.lean;
-      this.pose('torso', i, 0, 0.31 * Math.cos(a), -0.31 * Math.sin(a), -a);
+      this.still(s, i);
       this.move(s, i, 0);
     });
     // the towels under the sunbathers, centred on the hip, along the body
@@ -271,11 +267,53 @@ class Sitters {
     this.parts.torso.onBeforeRender = (renderer, scene, camera) => { if (this.eyes.length < 4) this.eyes.push(camera.position.clone()); };
   }
 
-  // the matrix of sitter s's hip: where, which way and how big
+  // the matrix of sitter s's hip: where, which way and how big (and, hit by a paintball, toppled
+  // over sideways, off a chair onto the ground)
   base(s) {
-    const k = SEATS[s.seat];
-    const turn = s.roll ? this.lying.set(s.roll, s.yaw, 0) : this.e.set(0, s.yaw, 0);
-    this.m.compose(this.v.set(s.x, s.y + k.hip * s.scale, s.z), this.q.setFromEuler(turn), this.one.set(s.scale, s.scale, s.scale));
+    const k = SEATS[s.seat], fall = s.hitT === undefined ? 0 : smooth(Math.min(1, Math.max(0, (s.hitT - 0.25) * 2.5)));
+    const turn = s.roll ? this.lying.set(s.roll, s.yaw, 0) : this.e.set(0, s.yaw, fall * s.fallSide * 1.35);
+    const drop = s.seat === 'chair' ? 0.4 * fall : 0;
+    this.m.compose(this.v.set(s.x, s.y + k.hip * s.scale - drop, s.z), this.q.setFromEuler(turn), this.one.set(s.scale, s.scale, s.scale));
+  }
+
+  // pose what never moves of sitter s (number i): the thighs and the torso
+  still(s, i) {
+    const k = SEATS[s.seat], a = k.lean;
+    this.base(s);
+    for (const side of [0, 1]) this.pose('thigh', i * 2 + side, side ? 0.1 : -0.1, 0, 0, k.thigh);
+    this.pose('torso', i, 0, 0.31 * Math.cos(a), -0.31 * Math.sin(a), -a);
+  }
+
+  // a target for the paintball gun (js/splat.js) for each who sits up (not the sunbathers)
+  targets() {
+    return this.seats.flatMap((s, i) => s.seat === 'lie' ? [] : [{
+      down: false,
+      at: () => ({ x: s.x, y: s.y - (s.seat === 'chair' ? 0.5 : 0), z: s.z, h: (s.seat === 'chair' ? 1.45 : 1) * s.scale, r: 0.5 * s.scale + 0.3 }),
+      hit: (x0, z0) => {
+        // over to the side away from the shooter, blue on the side they were hit
+        s.fallSide = (x0 - s.x) * Math.cos(s.yaw) - (z0 - s.z) * Math.sin(s.yaw) >= 0 ? 1 : -1; // +1: the shooter on their right (+x)
+        s.hitT = 0;
+        s.was ??= { act: s.act, kick: s.kick };
+        s.act = 'look';
+        s.kick = false;
+        const c = new THREE.Color(0x1e66f5);
+        this.parts.torso.setColorAt(i, c);
+        this.parts.arm.setColorAt(i * 2 + (s.fallSide > 0 ? 1 : 0), c);
+        this.parts.torso.instanceColor.needsUpdate = this.parts.arm.instanceColor.needsUpdate = true;
+        this.falling = true;
+      },
+      reset: () => {
+        // sitting up again, in their own colours
+        const c = new THREE.Color();
+        Object.assign(s, s.was ?? {}, { hitT: undefined });
+        this.parts.torso.setColorAt(i, c.setHex(s.colors.shirt));
+        for (const k of [0, 1]) this.parts.arm.setColorAt(i * 2 + k, c.setHex(s.colors.shirt));
+        this.parts.torso.instanceColor.needsUpdate = this.parts.arm.instanceColor.needsUpdate = true;
+        this.still(s, i);
+        this.move(s, i, 0);
+        for (const k of ['thigh', 'torso', 'shin', 'arm', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
+      },
+    }]);
   }
 
   // set instance i of part to the hip's matrix * (position, rotation)
@@ -320,6 +358,18 @@ class Sitters {
   }
 
   update(dt, t) {
+    // those hit by a paintball, on their way down
+    if (this.falling) {
+      this.falling = false;
+      this.seats.forEach((s, i) => {
+        if (s.hitT === undefined || s.hitT > 1) return;
+        s.hitT += dt;
+        this.falling = true;
+        this.still(s, i);
+        this.move(s, i, t);
+      });
+      for (const k of ['thigh', 'torso', 'shin', 'arm', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
+    }
     const eyes = this.eyes;
     if (!eyes.length) return; // nobody looking
     let moved = false;
@@ -356,5 +406,6 @@ export function addSitters(ctx, map) {
   }
   const crowds = [...tiles].filter(([, [here]]) => here.length).map(([tile, [here, gl]]) => new Sitters(tile, here, gl, ctx.r));
   ctx.updaters.push((dt, t) => { for (const c of crowds) c.update(dt, t); });
+  for (const c of crowds) ctx.targets?.push(...c.targets());
   return crowds;
 }

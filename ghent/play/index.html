@@ -42,13 +42,13 @@
       "inLanguage": ["en", "nl"],
       "playMode": ["SinglePlayer", "MultiPlayer"],
       "contentLocation": { "@type": "City", "name": "Ghent" },
-      "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
+      "author": { "@type": "Person", "name": "Wouter", "url": "https://woutersmet.com/" },
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
     }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../core/style.css">
   <script type="importmap">
     {
@@ -153,6 +153,7 @@
     </div>
     <div class="loader-title title">Instant Gent <span class="beta">BETA</span></div>
     <ol class="loader-steps" id="loaderSteps"></ol>
+    <div class="loader-build buildtag"></div>
   </div>
   <script>
     // The loading screen's steps. This runs before the game's own scripts, so it carries its own
@@ -165,18 +166,32 @@
       let lang = 'en';
       try { lang = JSON.parse(localStorage.getItem('ghent3d.settings.v1'))?.lang || 'en'; } catch {}
       const words = WORDS[lang] || WORDS.en, list = document.getElementById('loaderSteps');
+      // the last two steps are called after two of the city's funny lines, picked at random (a list,
+      // or one per language)
+      const told = {"en":["Looking for a bike that hasn't been nicked yet","Opening the umbrella, it's bound to rain","Counting cuberdons: loads, and then some more","This isn't Bruges, it takes a little while","Waiting for tram 1… another quarter of an hour","Laying the cobbles one by one","Putting the swans on the Leie","Poking the dragon on the Belfry awake","Loading Dulle Griet, just in case","Counting the Ghent Altarpiece… is a panel missing again?","Teaching the horses to stop at the zebra crossing","Shooing tourists off the cycle path","Sweeping up the last confetti of the Gentse Feesten"],"nl":["Neute en pleue… 't komt seffens","Nen velo zoeken die nog nie gepikt es","De pareplu openzetten, 't zal wel regenen","Cuberdons tellen: nen hoop, en nog nen hoop","'t Es hier gien Brugge, 't duurt e bitje","Wachten op tram 1… nog e kwartierke","Allei, 't es bijna, manneken!","De kasseien één voor één leggen","De zwanen op de Leie zetten","De draak op 't Belfort wakker porren","Dulle Griet laden, voor de zekerheid","Het Lam Gods tellen… mist er weer een paneel?","De paarden leren stoppen voor 't zebrapad","Toeristen van 't fietspad schuiven","Nog wat confetti van de Gentse Feesten opvegen"]}, jokes = (Array.isArray(told) ? told : told[lang] || told.en || []).map(j => [j, Math.random()]).sort((a, b) => a[1] - b[1]).map(j => j[0]);
+      const text = { ...words, city: jokes[0] || words.city, paint: jokes[1] || words.paint };
       const items = Object.keys(WORDS.en).map(key => {
         const li = document.createElement('li');
         li.innerHTML = '<span class="mark"></span><span></span><small></small>';
-        li.children[1].textContent = words[key];
+        li.children[1].textContent = text[key];
         list.append(li);
         return [key, li];
       });
       window.bootStep = key => {
         const at = items.findIndex(([k]) => k === key);
-        items.forEach(([, li], i) => li.className = i < at ? 'done' : i === at ? 'now' : '');
+        items.forEach(([, li], i) => { li.classList.toggle('done', i < at); li.classList.toggle('now', i === at); });
       };
       bootStep('download');
+      // Which build this is (/build.json, filled in when the site is built): on the loading screen and
+      // in the small print under the menu, to see at a glance whether the latest one is live.
+      // (served as it is, unbuilt, it is no JSON: a local copy, 'dev')
+      fetch('/build.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({})).then(({ commit, time }) => {
+        const when = new Date(time), text = /^[0-9a-f]{7}$/.test(commit)
+          ? `build: ${commit}` + (isNaN(when) ? '' : ` · ${when.toLocaleString(lang, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`)
+          : 'build: dev';
+        const show = () => document.querySelectorAll('.buildtag').forEach(el => { el.textContent = el.closest('.legal') ? ` · ${text}` : text; });
+        if (document.readyState === 'loading') addEventListener('DOMContentLoaded', show); else show();
+      });
       // How much has come in so far: the 3D engine, the game's code and the city maps are a few MB.
       let bytes = 0;
       const size = items[0][1].lastChild;
@@ -206,7 +221,8 @@
     <button id="tourSpeed">1×</button>
     <button id="tourMusic">🎵</button>
     <div id="tourName"></div>
-    <div id="tourWelcome"><b id="tourWelcomeTitle"></b><small data-i18n="tour.welcomeSub"></small></div>
+    <div id="tourWelcome"><b id="tourWelcomeTitle"></b><small id="tourWelcomeSub"></small></div>
+    <div id="flyHud"></div>
     <div id="tourCard">
       <div class="tour-head"><span id="tourEmoji"></span><div><small id="tourLabel"></small><b id="tourTitle"></b></div></div>
       <div id="tourText"></div>
@@ -227,10 +243,31 @@
       <div class="stick rest" id="stick"><div class="knob" id="knob"></div></div>
     </div>
     <div class="tbtns">
+      <button class="tbtn" id="tFries" aria-label="Fries"><span class="ico"><img src="/core/img/julientje.svg" alt=""></span><small></small></button>
       <button class="tbtn" id="tItem" aria-label="Item"><span class="ico"></span><span class="queue"></span><small data-i18n="tb.item"></small></button>
+      <button class="tbtn" id="tShoot" aria-label="Shoot"><span>🔫</span><small data-i18n="tb.shoot"></small></button>
+      <button class="tbtn" id="tSink" aria-label="Down"><span>⤓</span><small data-i18n="tb.down"></small></button>
       <button class="tbtn big" id="tJump" aria-label="Jump"><span>⤒</span><small data-i18n="tb.jump"></small></button>
     </div>
   </div>
+
+  <dialog id="musicSettings" aria-labelledby="musicSettingsTitle">
+    <button class="chip" id="musicSettingsBack" data-i18n="audio.back"></button>
+    <h2 id="musicSettingsTitle" data-i18n="audio.title"></h2>
+    <label><span data-i18n="audio.effects"></span><input id="soundEffectsSetting" type="checkbox" role="switch"></label>
+    <label><span><span data-i18n="audio.music"></span><small data-i18n="audio.gameMusicHint"></small></span><input id="backgroundMusicSetting" type="checkbox" role="switch"></label>
+    <label><span><span data-i18n="audio.unlockGun"></span><small data-i18n="audio.paintballHint"></small></span><input id="paintballSetting" type="checkbox" role="switch"></label>
+  </dialog>
+
+  <dialog id="gunInfo" aria-labelledby="gunInfoTitle">
+    <h2 id="gunInfoTitle"><span aria-hidden="true">🚗🔫</span> <span data-i18n="menu.gunMode"></span></h2>
+    <ul>
+      <li data-i18n="gun.shoot"></li>
+      <li data-i18n="gun.borrow"></li>
+      <li data-i18n="gun.where"></li>
+    </ul>
+    <button class="start" id="gunInfoOk" data-i18n="gun.ok"></button>
+  </dialog>
 
   <div id="menu" class="overlay">
     <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
@@ -247,6 +284,7 @@
       <div class="corner">
         <div class="row" data-row="audio">
           <div class="opts">
+            <a class="chip site-chip" href="../" data-site-link data-i18n="site.chip"></a>
             <button class="chip" id="soundBtn"></button>
           </div>
         </div>
@@ -254,6 +292,15 @@
           <div class="dropdown" id="langOpts">
             <button class="chip" id="langBtn" aria-haspopup="listbox" aria-expanded="false"></button>
             <div class="dd-list hidden" id="langList" role="listbox"></div>
+          </div>
+        </div>
+        <div class="row" data-row="style">
+          <div class="dropdown" id="styleOpts">
+            <button class="chip" id="styleBtn" aria-haspopup="listbox" aria-expanded="false"></button>
+            <div class="dd-list hidden" id="styleList" role="listbox">
+              <button class="chip" role="option" data-style="fun" data-i18n="style.fun"></button>
+              <button class="chip" role="option" data-style="pro" data-i18n="style.pro"></button>
+            </div>
           </div>
         </div>
       </div>
@@ -304,9 +351,10 @@
         <div class="side">
           <div class="row animals">
             <div class="pcols" id="playerCols"></div>
+            <label class="gunmode" data-row="gun" id="gunMode"><input id="gunModeSetting" type="checkbox"><span aria-hidden="true">🚗🔫</span></label>
           </div>
           <button class="start" id="startBtn" data-row="start"></button>
-          <p class="credit">© OpenStreetMap</p>
+          <p class="madeby"><span data-i18n="made.by"></span> <a href="https://instantcities.net/" target="_blank" rel="noopener">Wouter</a> <span class="legal">· <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a><span class="buildtag"></span></span></p>
         </div>
       </div>
     </div>
@@ -314,17 +362,27 @@
 
   <div id="pause" class="overlay hidden">
     <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
-    <div class="card small">
-      <h2 class="title mid" data-i18n="paused"></h2>
+    <div class="card small" id="pauseCard">
+      <button class="chip pause-home" id="pauseTitleBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/></svg><span data-i18n="backToMenu"></span></button>
+      <button class="chip pause-close" id="pauseCloseBtn" aria-label="✕">✕</button>
       <div class="btnrow pausetools">
+        <button class="chip" id="pauseMapBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="pause.map"></span></button>
+        <button class="chip" id="pauseShareBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span data-i18n="pause.share"></span></button>
+        <button class="chip" id="pauseSettingsBtn" aria-expanded="false"><span data-i18n="pause.settings"></span> <span class="caret" aria-hidden="true">▾</span></button>
+      </div>
+      <div class="btnrow pausetools hidden" id="pauseSettings">
         <button class="chip" id="pauseSoundBtn"></button>
         <select class="chip" id="skySelect"></select>
-        <button class="chip" id="pauseMapBtn" data-i18n="pause.map"></button>
+        <button class="chip" id="pauseCardsBtn"></button>
+      </div>
+      <div class="btnrow hidden" id="pauseMountRow">
+        <button class="chip" id="pauseMountPrev" aria-label="‹">‹</button>
+        <span class="chip on" id="pauseMountName"></span>
+        <button class="chip" id="pauseMountNext" aria-label="›">›</button>
       </div>
       <div class="btnrow">
-        <button class="chip" id="pauseTitleBtn" data-i18n="backToMenu"></button>
-        <button class="chip" id="restartBtn" data-i18n="restart"></button>
-        <button class="start still" id="resumeBtn" data-i18n="resume"></button>
+        <button class="start still alt" id="restartBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v5h5"/></svg><span data-i18n="restart"></span></button>
+        <button class="start still" id="resumeBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z" fill="currentColor"/></svg><span data-i18n="resume"></span></button>
       </div>
     </div>
   </div>
@@ -343,9 +401,12 @@
     </div>
   </div>
   <div id="bigmap" class="overlay hidden">
-    <div id="bigTabs" class="btnrow">
-      <button class="chip on" id="bigTabMap" data-i18n="bigmap.tabMap"></button>
-      <button class="chip" id="bigTabIndex" data-i18n="bigmap.tabIndex"></button>
+    <div id="bigTop">
+      <div id="bigTabs" class="btnrow">
+        <button class="chip on" id="bigTabMap" data-i18n="bigmap.tabMap"></button>
+        <button class="chip" id="bigTabIndex" data-i18n="bigmap.tabIndex"></button>
+      </div>
+      <button class="chip" id="bigClose" data-i18n="bigmap.close"></button>
     </div>
     <div id="bigBody">
       <div id="bigIndex" class="hidden">
@@ -353,9 +414,9 @@
         <div id="bigList"></div>
       </div>
       <canvas id="bigCanvas"></canvas>
+      <div id="bigZoom"><button class="chip" id="bigZoomIn">+</button><button class="chip" id="bigZoomOut">−</button></div>
     </div>
     <p class="bighint" data-i18n="bigmap.hint"></p>
-    <button class="chip" id="bigClose" data-i18n="bigmap.close"></button>
     <div id="bigAsk" class="hidden">
       <b id="bigAskText"></b>
       <div class="btnrow">

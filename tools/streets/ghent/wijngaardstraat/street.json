@@ -1,0 +1,4395 @@
+{
+ "city": "ghent",
+ "street": "Wijngaardstraat",
+ "slug": "wijngaardstraat",
+ "photos": {
+  "1431908761900558": {
+   "file": "photos/1431908761900558.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1431908761900558",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0489402,
+    3.7187675,
+    305,
+    0.395
+   ]
+  },
+  "458469259410458": {
+   "file": "photos/458469259410458.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=458469259410458",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.049022,
+    3.7187835,
+    269,
+    0.749
+   ]
+  },
+  "636289605817848-264": {
+   "file": "photos/636289605817848-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=636289605817848",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0480414,
+    3.7179931,
+    264,
+    0.5
+   ]
+  },
+  "986742700169787": {
+   "file": "photos/986742700169787.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986742700169787",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048255,
+    3.7178892,
+    293,
+    0.462
+   ]
+  },
+  "923681260314402": {
+   "file": "photos/923681260314402.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=923681260314402",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483161,
+    3.7182019,
+    271,
+    0.398
+   ]
+  },
+  "1663968981144967": {
+   "file": "photos/1663968981144967.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1663968981144967",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483241,
+    3.7182273,
+    269,
+    0.488
+   ]
+  },
+  "636289605817848-319": {
+   "file": "photos/636289605817848-319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=636289605817848",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0480414,
+    3.7179931,
+    319,
+    0.5
+   ]
+  },
+  "2575793779292260": {
+   "file": "photos/2575793779292260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2575793779292260",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483171,
+    3.7183091,
+    281,
+    0.488
+   ]
+  },
+  "1397411821932107": {
+   "file": "photos/1397411821932107.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1397411821932107",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483193,
+    3.7184777,
+    278,
+    0.398
+   ]
+  },
+  "589363147147651": {
+   "file": "photos/589363147147651.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589363147147651",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0489489,
+    3.7187252,
+    253,
+    0.488
+   ]
+  },
+  "581179241190434": {
+   "file": "photos/581179241190434.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581179241190434",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048611,
+    3.7186555,
+    324,
+    0.486
+   ]
+  },
+  "1139486506818404": {
+   "file": "photos/1139486506818404.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1139486506818404",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.0490222,
+    3.7188167,
+    254,
+    0.749
+   ]
+  },
+  "199621928656999": {
+   "file": "photos/199621928656999.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=199621928656999",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.0483804,
+    3.7186686,
+    292,
+    0.749
+   ]
+  },
+  "600760465829653": {
+   "file": "photos/600760465829653.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600760465829653",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0485902,
+    3.7188038,
+    305,
+    0.486
+   ]
+  },
+  "1672980760229519": {
+   "file": "photos/1672980760229519.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1672980760229519",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048951,
+    3.7187375,
+    252,
+    0.488
+   ]
+  },
+  "9437589749598264": {
+   "file": "photos/9437589749598264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9437589749598264",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0485936,
+    3.7187611,
+    258,
+    0.486
+   ]
+  },
+  "311869280457580": {
+   "file": "photos/311869280457580.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=311869280457580",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.0484051,
+    3.7185845,
+    294,
+    0.749
+   ]
+  },
+  "953957732800098": {
+   "file": "photos/953957732800098.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=953957732800098",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0486006,
+    3.718675,
+    291,
+    0.486
+   ]
+  },
+  "1107299097554436": {
+   "file": "photos/1107299097554436.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1107299097554436",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048594,
+    3.7187101,
+    274,
+    0.486
+   ]
+  },
+  "142778944480387": {
+   "file": "photos/142778944480387.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142778944480387",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.0483729,
+    3.7186939,
+    295,
+    0.749
+   ]
+  },
+  "1260782888473246": {
+   "file": "photos/1260782888473246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1260782888473246",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0485926,
+    3.718748,
+    263,
+    0.486
+   ]
+  },
+  "770950636890970": {
+   "file": "photos/770950636890970.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=770950636890970",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-10-29",
+   "cam": [
+    51.0483816,
+    3.7186627,
+    293,
+    0.749
+   ]
+  },
+  "959011279658056": {
+   "file": "photos/959011279658056.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=959011279658056",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0485974,
+    3.7186863,
+    285,
+    0.486
+   ]
+  },
+  "1385375009094340": {
+   "file": "photos/1385375009094340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1385375009094340",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048605,
+    3.7186642,
+    304,
+    0.486
+   ]
+  },
+  "1550183302726181": {
+   "file": "photos/1550183302726181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1550183302726181",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479607,
+    3.7175738,
+    344,
+    0.402
+   ]
+  },
+  "572807735557697": {
+   "file": "photos/572807735557697.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=572807735557697",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0478497,
+    3.7175204,
+    360,
+    0.509
+   ]
+  },
+  "1025743755978255": {
+   "file": "photos/1025743755978255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025743755978255",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479246,
+    3.7179644,
+    304,
+    0.46
+   ]
+  },
+  "651926117363114": {
+   "file": "photos/651926117363114.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=651926117363114",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479187,
+    3.7175414,
+    21,
+    0.509
+   ]
+  },
+  "3054795581337416": {
+   "file": "photos/3054795581337416.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3054795581337416",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479202,
+    3.7179716,
+    319,
+    0.46
+   ]
+  },
+  "1913211092616922": {
+   "file": "photos/1913211092616922.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1913211092616922",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.047965,
+    3.7175656,
+    350,
+    0.402
+   ]
+  },
+  "2600761850109492": {
+   "file": "photos/2600761850109492.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2600761850109492",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0478805,
+    3.7175253,
+    8,
+    0.509
+   ]
+  },
+  "2301607413550151": {
+   "file": "photos/2301607413550151.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2301607413550151",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479457,
+    3.7175634,
+    40,
+    0.509
+   ]
+  },
+  "1247619427247855": {
+   "file": "photos/1247619427247855.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1247619427247855",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0489043,
+    3.7184772,
+    28,
+    0.399
+   ]
+  },
+  "1654925842047209": {
+   "file": "photos/1654925842047209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1654925842047209",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048742,
+    3.7186404,
+    356,
+    0.486
+   ]
+  },
+  "2926479504215481": {
+   "file": "photos/2926479504215481.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2926479504215481",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0488907,
+    3.7186567,
+    4,
+    0.395
+   ]
+  },
+  "615465554320067": {
+   "file": "photos/615465554320067.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=615465554320067",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0488749,
+    3.7186553,
+    5,
+    0.486
+   ]
+  },
+  "1138174061211574": {
+   "file": "photos/1138174061211574.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138174061211574",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0489412,
+    3.7186876,
+    9,
+    0.361
+   ]
+  },
+  "1743643883082633-345": {
+   "file": "photos/1743643883082633-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1743643883082633",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0479363,
+    3.7178677,
+    345,
+    0.5
+   ]
+  },
+  "1308484990280973": {
+   "file": "photos/1308484990280973.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1308484990280973",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479533,
+    3.7175751,
+    48,
+    0.509
+   ]
+  },
+  "1107214168128624": {
+   "file": "photos/1107214168128624.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1107214168128624",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0488167,
+    3.7184159,
+    14,
+    0.399
+   ]
+  },
+  "1532709140757474": {
+   "file": "photos/1532709140757474.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1532709140757474",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0488463,
+    3.7186513,
+    357,
+    0.486
+   ]
+  },
+  "984987850123501": {
+   "file": "photos/984987850123501.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=984987850123501",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479369,
+    3.7175542,
+    31,
+    0.509
+   ]
+  },
+  "1166246151692711": {
+   "file": "photos/1166246151692711.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1166246151692711",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.047915,
+    3.7179757,
+    351,
+    0.46
+   ]
+  },
+  "1809102106461046": {
+   "file": "photos/1809102106461046.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1809102106461046",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0480306,
+    3.7179654,
+    11,
+    0.399
+   ]
+  },
+  "1769033917165196": {
+   "file": "photos/1769033917165196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1769033917165196",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0480901,
+    3.7180173,
+    3,
+    0.462
+   ]
+  },
+  "3952670371718839": {
+   "file": "photos/3952670371718839.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3952670371718839",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479106,
+    3.7179762,
+    3,
+    0.46
+   ]
+  },
+  "611543774894271": {
+   "file": "photos/611543774894271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=611543774894271",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479068,
+    3.7179752,
+    9,
+    0.46
+   ]
+  },
+  "1139642543675002": {
+   "file": "photos/1139642543675002.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1139642543675002",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482054,
+    3.7180207,
+    337,
+    0.462
+   ]
+  },
+  "1900684293897336": {
+   "file": "photos/1900684293897336.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1900684293897336",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483371,
+    3.7181027,
+    58,
+    0.395
+   ]
+  },
+  "1021518306403162": {
+   "file": "photos/1021518306403162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1021518306403162",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483272,
+    3.7181152,
+    61,
+    0.464
+   ]
+  },
+  "2327311620973778-112": {
+   "file": "photos/2327311620973778-112.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2327311620973778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0487553,
+    3.7183719,
+    112,
+    0.5
+   ]
+  },
+  "395321624921184": {
+   "file": "photos/395321624921184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=395321624921184",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-03-09",
+   "cam": [
+    51.0490568,
+    3.71807,
+    104,
+    0.495
+   ]
+  },
+  "2332240383820179": {
+   "file": "photos/2332240383820179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2332240383820179",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479755,
+    3.7176379,
+    78,
+    0.509
+   ]
+  },
+  "2009294692960484": {
+   "file": "photos/2009294692960484.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2009294692960484",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479858,
+    3.7176693,
+    91,
+    0.399
+   ]
+  },
+  "8733885923400116": {
+   "file": "photos/8733885923400116.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8733885923400116",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482472,
+    3.7178211,
+    142,
+    0.462
+   ]
+  },
+  "1417748433212646": {
+   "file": "photos/1417748433212646.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1417748433212646",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479802,
+    3.7178077,
+    101,
+    0.399
+   ]
+  },
+  "2475985132604482": {
+   "file": "photos/2475985132604482.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2475985132604482",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479725,
+    3.7177609,
+    98,
+    0.509
+   ]
+  },
+  "604411575465580": {
+   "file": "photos/604411575465580.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604411575465580",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479373,
+    3.7179449,
+    113,
+    0.488
+   ]
+  },
+  "1148983046830613": {
+   "file": "photos/1148983046830613.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1148983046830613",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482469,
+    3.7178264,
+    129,
+    0.462
+   ]
+  },
+  "1509728150094224": {
+   "file": "photos/1509728150094224.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1509728150094224",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479731,
+    3.7175764,
+    76,
+    0.399
+   ]
+  },
+  "1521905875879054": {
+   "file": "photos/1521905875879054.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1521905875879054",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479724,
+    3.7176221,
+    69,
+    0.509
+   ]
+  },
+  "1127832572029368": {
+   "file": "photos/1127832572029368.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1127832572029368",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482389,
+    3.7178604,
+    85,
+    0.462
+   ]
+  },
+  "1319746475899434": {
+   "file": "photos/1319746475899434.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1319746475899434",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482376,
+    3.7179082,
+    95,
+    0.462
+   ]
+  },
+  "3082442895255910": {
+   "file": "photos/3082442895255910.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3082442895255910",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.048201,
+    3.7180196,
+    114,
+    0.462
+   ]
+  },
+  "1204800618425271": {
+   "file": "photos/1204800618425271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1204800618425271",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479789,
+    3.7178899,
+    90,
+    0.399
+   ]
+  },
+  "1640614910141109": {
+   "file": "photos/1640614910141109.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640614910141109",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479689,
+    3.7178828,
+    85,
+    0.462
+   ]
+  },
+  "579684388138533": {
+   "file": "photos/579684388138533.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579684388138533",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0479762,
+    3.7177138,
+    92,
+    0.509
+   ]
+  },
+  "1192880152435236-119": {
+   "file": "photos/1192880152435236-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192880152435236",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0486777,
+    3.7183266,
+    119,
+    0.5
+   ]
+  },
+  "2327311620973778-113": {
+   "file": "photos/2327311620973778-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2327311620973778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0487553,
+    3.7183719,
+    113,
+    0.5
+   ]
+  },
+  "1192880152435236-96": {
+   "file": "photos/1192880152435236-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192880152435236",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0486777,
+    3.7183266,
+    96,
+    0.5
+   ]
+  },
+  "244750587443727": {
+   "file": "photos/244750587443727.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=244750587443727",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-03-09",
+   "cam": [
+    51.0490715,
+    3.717988,
+    108,
+    0.495
+   ]
+  },
+  "2327311620973778-68": {
+   "file": "photos/2327311620973778-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2327311620973778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0487553,
+    3.7183719,
+    68,
+    0.5
+   ]
+  },
+  "1292718598627188-109": {
+   "file": "photos/1292718598627188-109.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1292718598627188",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0486017,
+    3.7182792,
+    109,
+    0.5
+   ]
+  },
+  "640014601747871-107": {
+   "file": "photos/640014601747871-107.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=640014601747871",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0485266,
+    3.7182329,
+    107,
+    0.5
+   ]
+  },
+  "1192880152435236-152": {
+   "file": "photos/1192880152435236-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192880152435236",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0486777,
+    3.7183266,
+    152,
+    0.5
+   ]
+  },
+  "2327311620973778-136": {
+   "file": "photos/2327311620973778-136.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2327311620973778",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0487553,
+    3.7183719,
+    136,
+    0.5
+   ]
+  },
+  "1192880152435236-79": {
+   "file": "photos/1192880152435236-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1192880152435236",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-19",
+   "pano": true,
+   "cam": [
+    51.0486777,
+    3.7183266,
+    79,
+    0.5
+   ]
+  },
+  "789482090030212": {
+   "file": "photos/789482090030212.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=789482090030212",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482564,
+    3.7178197,
+    190,
+    0.462
+   ]
+  },
+  "1943377343066222": {
+   "file": "photos/1943377343066222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1943377343066222",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482757,
+    3.7180624,
+    212,
+    0.488
+   ]
+  },
+  "1227102672852736": {
+   "file": "photos/1227102672852736.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227102672852736",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0482578,
+    3.7180544,
+    204,
+    0.402
+   ]
+  },
+  "1218120056635266": {
+   "file": "photos/1218120056635266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1218120056635266",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483669,
+    3.7181155,
+    206,
+    0.402
+   ]
+  },
+  "2548613248663319": {
+   "file": "photos/2548613248663319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2548613248663319",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483038,
+    3.7180983,
+    229,
+    0.488
+   ]
+  },
+  "295900225513443": {
+   "file": "photos/295900225513443.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=295900225513443",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-03-09",
+   "cam": [
+    51.0484672,
+    3.7182372,
+    203,
+    0.469
+   ]
+  },
+  "1638597490916603": {
+   "file": "photos/1638597490916603.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1638597490916603",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0479615,
+    3.7179393,
+    244,
+    0.402
+   ]
+  },
+  "603369325426261": {
+   "file": "photos/603369325426261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=603369325426261",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482034,
+    3.7180273,
+    197,
+    0.488
+   ]
+  },
+  "1164319195263812": {
+   "file": "photos/1164319195263812.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1164319195263812",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482628,
+    3.7178292,
+    248,
+    0.462
+   ]
+  },
+  "1282244703095125": {
+   "file": "photos/1282244703095125.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1282244703095125",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483182,
+    3.7181374,
+    254,
+    0.488
+   ]
+  },
+  "946826074348745": {
+   "file": "photos/946826074348745.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=946826074348745",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483153,
+    3.7182401,
+    270,
+    0.398
+   ]
+  },
+  "631023986298696": {
+   "file": "photos/631023986298696.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=631023986298696",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483199,
+    3.7181487,
+    255,
+    0.488
+   ]
+  },
+  "1026394485916914": {
+   "file": "photos/1026394485916914.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026394485916914",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0482603,
+    3.717823,
+    227,
+    0.462
+   ]
+  },
+  "2717146708646635": {
+   "file": "photos/2717146708646635.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2717146708646635",
+   "author": "jeremysolva",
+   "licence": "CC BY-SA 4.0",
+   "date": "2026-02-03",
+   "cam": [
+    51.0483158,
+    3.7183326,
+    267,
+    0.398
+   ]
+  },
+  "948982373380589": {
+   "file": "photos/948982373380589.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=948982373380589",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0483158,
+    3.7181267,
+    243,
+    0.488
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 10965,
+   "at": [
+    -463.5,
+    591.65
+   ],
+   "centre": [
+    -465.6,
+    586
+   ],
+   "width": 13.6,
+   "faces": 11,
+   "toStreet": 13.3,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -471.6,
+    597,
+    -468.5,
+    580.9,
+    -465.5,
+    581.5,
+    -465,
+    579.4,
+    -461.3,
+    580,
+    -462.2,
+    585,
+    -464.8,
+    598.3
+   ],
+   "id": "wijngaardstraat-11-01",
+   "latLon": [
+    51.049094,
+    3.718466
+   ],
+   "photos": [
+    {
+     "id": "1431908761900558",
+     "metres": 27,
+     "off": 4,
+     "span": [
+      0.447,
+      0.589
+     ]
+    },
+    {
+     "id": "458469259410458",
+     "metres": 24,
+     "off": 21,
+     "span": [
+      0.598,
+      0.992
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11250,
+   "at": [
+    -509.75,
+    737.5
+   ],
+   "centre": [
+    -515.7,
+    736.4
+   ],
+   "width": 5.1,
+   "faces": 12,
+   "toStreet": 5.1,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -521,
+    735.6,
+    -520.5,
+    732.7,
+    -509.2,
+    735,
+    -510.3,
+    740,
+    -516.7,
+    738.9,
+    -516.3,
+    736.4
+   ],
+   "id": "wijngaardstraat-12-02",
+   "latLon": [
+    51.048038,
+    3.717937
+   ],
+   "photos": [
+    {
+     "id": "636289605817848-264",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.296,
+      0.806
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11260,
+   "at": [
+    -530.55,
+    700.55
+   ],
+   "centre": [
+    -533.6,
+    698.6
+   ],
+   "width": 6.1,
+   "faces": 14,
+   "toStreet": 11.8,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -536.3,
+    695.7,
+    -535.9,
+    695.8,
+    -532.6,
+    696.8,
+    -529.8,
+    697.6,
+    -531.3,
+    703.5,
+    -536,
+    702.3
+   ],
+   "id": "wijngaardstraat-14-03",
+   "latLon": [
+    51.048306,
+    3.717699
+   ],
+   "photos": [
+    {
+     "id": "986742700169787",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.418,
+      0.573
+     ]
+    },
+    {
+     "id": "923681260314402",
+     "metres": 35,
+     "off": 2,
+     "span": [
+      0.456,
+      0.51
+     ]
+    },
+    {
+     "id": "1663968981144967",
+     "metres": 37,
+     "off": 2,
+     "span": [
+      0.455,
+      0.517
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11254,
+   "at": [
+    -508.6,
+    732.7
+   ],
+   "centre": [
+    -516.9,
+    730.6
+   ],
+   "width": 4.8,
+   "faces": 15,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -525.3,
+    731.7,
+    -524.6,
+    727.1,
+    -522.7,
+    727.4,
+    -508.3,
+    730.2,
+    -508,
+    730.4,
+    -509.2,
+    735,
+    -520.5,
+    732.7
+   ],
+   "id": "wijngaardstraat-15-04",
+   "latLon": [
+    51.048073,
+    3.71795
+   ],
+   "photos": [
+    {
+     "id": "636289605817848-319",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.281,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11251,
+   "at": [
+    -497.55,
+    695.6
+   ],
+   "centre": [
+    -513.2,
+    689.6
+   ],
+   "width": 6.2,
+   "faces": 20,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -514.8,
+    684.4,
+    -495.6,
+    690.8,
+    -496.5,
+    692.7,
+    -498.6,
+    698.5,
+    -517.5,
+    692.9,
+    -521,
+    691.8,
+    -520.2,
+    689.2,
+    -513.9,
+    691,
+    -513.8,
+    692,
+    -512.1,
+    692.6,
+    -510.4,
+    688.3,
+    -511.5,
+    687.9,
+    -513.3,
+    689.1,
+    -521.2,
+    686.8,
+    -521,
+    686.5,
+    -522.2,
+    686.2,
+    -521.1,
+    682.3
+   ],
+   "id": "wijngaardstraat-20-05",
+   "latLon": [
+    51.048342,
+    3.718076
+   ],
+   "photos": [
+    {
+     "id": "2575793779292260",
+     "metres": 17,
+     "off": 2,
+     "span": [
+      0.415,
+      0.56
+     ]
+    },
+    {
+     "id": "1397411821932107",
+     "metres": 28,
+     "off": 3,
+     "span": [
+      0.445,
+      0.514
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10971,
+   "at": [
+    -466.2,
+    619.8499999999999
+   ],
+   "centre": [
+    -475.2,
+    614.2
+   ],
+   "width": 12.9,
+   "faces": 20,
+   "toStreet": 3.3,
+   "floors": 5,
+   "eaves": 17.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -482.5,
+    612.8,
+    -480.5,
+    604.2,
+    -461.6,
+    607.3,
+    -464,
+    613.8,
+    -468.4,
+    625.9,
+    -480.6,
+    621.1,
+    -478.8,
+    614.9,
+    -480.2,
+    614.6,
+    -479.9,
+    613.2
+   ],
+   "id": "wijngaardstraat-20-06",
+   "latLon": [
+    51.04889,
+    3.718435
+   ],
+   "photos": [
+    {
+     "id": "589363147147651",
+     "metres": 21,
+     "off": 1,
+     "span": [
+      0.412,
+      0.603
+     ]
+    },
+    {
+     "id": "581179241190434",
+     "metres": 35,
+     "off": 10,
+     "span": [
+      0.522,
+      0.631
+     ]
+    },
+    {
+     "id": "1139486506818404",
+     "metres": 30,
+     "off": 13,
+     "span": [
+      0.251,
+      0.429
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11249,
+   "at": [
+    -494.15,
+    687.0999999999999
+   ],
+   "centre": [
+    -509.4,
+    680.9
+   ],
+   "width": 7.9,
+   "faces": 21,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    -495.6,
+    690.8,
+    -514.8,
+    684.4,
+    -513.3,
+    679.7,
+    -519,
+    677.9,
+    -517.7,
+    674.3,
+    -512.9,
+    675.8,
+    -492.7,
+    683.4
+   ],
+   "id": "wijngaardstraat-21-07",
+   "latLon": [
+    51.048403,
+    3.718115
+   ],
+   "photos": [
+    {
+     "id": "1397411821932107",
+     "metres": 27,
+     "off": 12,
+     "span": [
+      0.537,
+      0.635
+     ]
+    },
+    {
+     "id": "199621928656999",
+     "metres": 39,
+     "off": 19,
+     "span": [
+      0.181,
+      0.311
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10974,
+   "at": [
+    -470.29999999999995,
+    630.75
+   ],
+   "centre": [
+    -475.8,
+    629.8
+   ],
+   "width": 10.4,
+   "faces": 21,
+   "toStreet": 3.1,
+   "floors": 3,
+   "eaves": 12,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -485,
+    630.8,
+    -480.6,
+    621.1,
+    -468.4,
+    625.9,
+    -472.2,
+    635.6,
+    -472.6,
+    635.5
+   ],
+   "id": "wijngaardstraat-21-08",
+   "latLon": [
+    51.048811,
+    3.718388
+   ],
+   "photos": [
+    {
+     "id": "600760465829653",
+     "metres": 38,
+     "off": 5,
+     "span": [
+      0.488,
+      0.59
+     ]
+    },
+    {
+     "id": "1672980760229519",
+     "metres": 29,
+     "off": 15,
+     "span": [
+      0.328,
+      0.419
+     ]
+    },
+    {
+     "id": "1139486506818404",
+     "metres": 38,
+     "off": 22,
+     "span": [
+      0.153,
+      0.252
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10996,
+   "at": [
+    -489.79999999999995,
+    676.3499999999999
+   ],
+   "centre": [
+    -503.1,
+    669
+   ],
+   "width": 15.2,
+   "faces": 22,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -512.9,
+    675.8,
+    -511,
+    670.4,
+    -509.4,
+    670.9,
+    -507.9,
+    666.9,
+    -509.5,
+    666.4,
+    -507.6,
+    660.9,
+    -502.1,
+    663.1,
+    -503.7,
+    668.3,
+    -507,
+    667.3,
+    -508.5,
+    671.4,
+    -506.1,
+    672.3,
+    -505.1,
+    669.6,
+    -500.2,
+    671.3,
+    -499.2,
+    668.6,
+    -501.2,
+    667.7,
+    -499.6,
+    664.1,
+    -495.6,
+    665.8,
+    -495.5,
+    665.8,
+    -486.9,
+    669.3,
+    -492.7,
+    683.4
+   ],
+   "id": "wijngaardstraat-22-09",
+   "latLon": [
+    51.048481,
+    3.718165
+   ],
+   "photos": [
+    {
+     "id": "9437589749598264",
+     "metres": 44,
+     "off": 5,
+     "span": [
+      0.407,
+      0.515
+     ]
+    },
+    {
+     "id": "311869280457580",
+     "metres": 31,
+     "off": 8,
+     "span": [
+      0.244,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10983,
+   "at": [
+    -476.79999999999995,
+    645.5
+   ],
+   "centre": [
+    -489.1,
+    642.6
+   ],
+   "width": 7.4,
+   "faces": 22,
+   "toStreet": 3.7,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -491.4,
+    636.4,
+    -475.4,
+    642.1,
+    -478.2,
+    648.9,
+    -486.8,
+    645.6,
+    -489.2,
+    644.7,
+    -495.2,
+    642.4,
+    -496.5,
+    641.9,
+    -495.9,
+    640.4,
+    -493.5,
+    641.2
+   ],
+   "id": "wijngaardstraat-22-10",
+   "latLon": [
+    51.048704,
+    3.718313
+   ],
+   "photos": [
+    {
+     "id": "953957732800098",
+     "metres": 28,
+     "off": 4,
+     "span": [
+      0.482,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10987,
+   "at": [
+    -482.55,
+    659.05
+   ],
+   "centre": [
+    -492.8,
+    654.6
+   ],
+   "width": 7.3,
+   "faces": 23,
+   "toStreet": 4.1,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -498.9,
+    656.5,
+    -496.9,
+    651.3,
+    -498.5,
+    650.8,
+    -498,
+    649.5,
+    -489.6,
+    652.6,
+    -481.1,
+    655.7,
+    -484,
+    662.4,
+    -495,
+    658.1
+   ],
+   "id": "wijngaardstraat-23-01",
+   "latLon": [
+    51.048606,
+    3.718248
+   ],
+   "photos": [
+    {
+     "id": "1107299097554436",
+     "metres": 32,
+     "off": 1,
+     "span": [
+      0.449,
+      0.532
+     ]
+    },
+    {
+     "id": "142778944480387",
+     "metres": 41,
+     "off": 15,
+     "span": [
+      0.647,
+      0.758
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10994,
+   "at": [
+    -485.45,
+    665.8499999999999
+   ],
+   "centre": [
+    -497.3,
+    662.3
+   ],
+   "width": 7.5,
+   "faces": 23,
+   "toStreet": 4.3,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -507.6,
+    660.9,
+    -505.1,
+    658.7,
+    -500.4,
+    660.6,
+    -498.9,
+    656.5,
+    -495,
+    658.1,
+    -484,
+    662.4,
+    -486.9,
+    669.3,
+    -495.5,
+    665.8,
+    -495.6,
+    665.8,
+    -499.6,
+    664.1,
+    -502.1,
+    663.1
+   ],
+   "id": "wijngaardstraat-23-02",
+   "latLon": [
+    51.048557,
+    3.718215
+   ],
+   "photos": [
+    {
+     "id": "1260782888473246",
+     "metres": 37,
+     "off": 1,
+     "span": [
+      0.474,
+      0.543
+     ]
+    },
+    {
+     "id": "770950636890970",
+     "metres": 37,
+     "off": 9,
+     "span": [
+      0.554,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10984,
+   "at": [
+    -479.65,
+    652.3
+   ],
+   "centre": [
+    -488.3,
+    648.5
+   ],
+   "width": 7.4,
+   "faces": 23,
+   "toStreet": 3.9,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -498,
+    649.5,
+    -495.2,
+    642.4,
+    -489.2,
+    644.7,
+    -486.8,
+    645.6,
+    -478.2,
+    648.9,
+    -481.1,
+    655.7,
+    -489.6,
+    652.6
+   ],
+   "id": "wijngaardstraat-23-03",
+   "latLon": [
+    51.048655,
+    3.718281
+   ],
+   "photos": [
+    {
+     "id": "959011279658056",
+     "metres": 29,
+     "off": 2,
+     "span": [
+      0.432,
+      0.53
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10981,
+   "at": [
+    -474,
+    638.8
+   ],
+   "centre": [
+    -484.5,
+    634.9
+   ],
+   "width": 7.2,
+   "faces": 23,
+   "toStreet": 3.6,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -485,
+    630.8,
+    -472.6,
+    635.5,
+    -475.4,
+    642.1,
+    -491.4,
+    636.4,
+    -492.6,
+    635.9,
+    -490.1,
+    628.8
+   ],
+   "id": "wijngaardstraat-23-04",
+   "latLon": [
+    51.048753,
+    3.718345
+   ],
+   "photos": [
+    {
+     "id": "1385375009094340",
+     "metres": 28,
+     "off": 2,
+     "span": [
+      0.466,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11268,
+   "at": [
+    -545.65,
+    733.7
+   ],
+   "centre": [
+    -537.7,
+    728.4
+   ],
+   "width": 6.6,
+   "faces": 74,
+   "toStreet": 11.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -551,
+    727.6,
+    -533.7,
+    723.4,
+    -529.1,
+    722.2,
+    -529.3,
+    725.1,
+    -533.6,
+    726.1,
+    -532.9,
+    728.4,
+    -538,
+    729.3,
+    -537.4,
+    731.3,
+    -538.2,
+    731.6,
+    -542.5,
+    732.8,
+    -548.8,
+    734.6
+   ],
+   "id": "wijngaardstraat-74-01",
+   "latLon": [
+    51.048066,
+    3.717526
+   ],
+   "photos": [
+    {
+     "id": "1550183302726181",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.412,
+      0.586
+     ]
+    },
+    {
+     "id": "572807735557697",
+     "metres": 24,
+     "off": 1,
+     "span": [
+      0.455,
+      0.562
+     ]
+    },
+    {
+     "id": "1025743755978255",
+     "metres": 34,
+     "off": 7,
+     "span": [
+      0.418,
+      0.467
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11265,
+   "at": [
+    -535.05,
+    732.8499999999999
+   ],
+   "centre": [
+    -536.7,
+    735.7
+   ],
+   "width": 4.2,
+   "faces": 78,
+   "toStreet": 12,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -542.5,
+    732.8,
+    -538.2,
+    731.6,
+    -537.4,
+    731.3,
+    -533.1,
+    730.1,
+    -533,
+    732.4,
+    -537.1,
+    733.3,
+    -536.8,
+    734.9,
+    -533.1,
+    734.1,
+    -533.7,
+    742.2,
+    -536.7,
+    741.9,
+    -538.7,
+    742,
+    -540.4,
+    742.1
+   ],
+   "id": "wijngaardstraat-78-02",
+   "latLon": [
+    51.048072,
+    3.717648
+   ],
+   "photos": [
+    {
+     "id": "651926117363114",
+     "metres": 19,
+     "off": 3,
+     "span": [
+      0.487,
+      0.562
+     ]
+    },
+    {
+     "id": "3054795581337416",
+     "metres": 28,
+     "off": 12,
+     "span": [
+      0.381,
+      0.424
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11267,
+   "at": [
+    -543.55,
+    742.25
+   ],
+   "centre": [
+    -544.6,
+    738
+   ],
+   "width": 6.3,
+   "faces": 87,
+   "toStreet": 2.7,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -548.8,
+    734.6,
+    -542.5,
+    732.8,
+    -540.4,
+    742.1,
+    -546.7,
+    742.4
+   ],
+   "id": "wijngaardstraat-87-03",
+   "latLon": [
+    51.048004,
+    3.71755
+   ],
+   "photos": [
+    {
+     "id": "1913211092616922",
+     "metres": 4,
+     "off": 4,
+     "span": [
+      0.268,
+      0.717
+     ]
+    },
+    {
+     "id": "2600761850109492",
+     "metres": 14,
+     "off": 1,
+     "span": [
+      0.401,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11258,
+   "at": [
+    -531.3,
+    742.5
+   ],
+   "centre": [
+    -531.5,
+    735.5
+   ],
+   "width": 4.8,
+   "faces": 97,
+   "toStreet": 3.2,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -533.7,
+    742.2,
+    -533.1,
+    734.1,
+    -533,
+    732.4,
+    -533.1,
+    730.1,
+    -527.4,
+    731.3,
+    -528.9,
+    742.8
+   ],
+   "id": "wijngaardstraat-97-04",
+   "latLon": [
+    51.048002,
+    3.71769
+   ],
+   "photos": [
+    {
+     "id": "2301607413550151",
+     "metres": 11,
+     "off": 15,
+     "span": [
+      0.561,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10948,
+   "at": [
+    -453.7,
+    600
+   ],
+   "centre": [
+    -452.3,
+    586.8
+   ],
+   "width": 9.5,
+   "faces": 97,
+   "toStreet": 3.4,
+   "floors": 4,
+   "eaves": 16.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -458.4,
+    599.4,
+    -456.7,
+    586.1,
+    -455.2,
+    575.1,
+    -453.7,
+    575.4,
+    -445.2,
+    576.9,
+    -447.8,
+    594,
+    -449,
+    600.6
+   ],
+   "id": "wijngaardstraat-97-05",
+   "latLon": [
+    51.049033,
+    3.718578
+   ],
+   "photos": [
+    {
+     "id": "1247619427247855",
+     "metres": 16,
+     "off": 1,
+     "span": [
+      0.392,
+      0.573
+     ]
+    },
+    {
+     "id": "1654925842047209",
+     "metres": 33,
+     "off": 4,
+     "span": [
+      0.413,
+      0.523
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10936,
+   "at": [
+    -444.4,
+    594.4
+   ],
+   "centre": [
+    -442.1,
+    581.1
+   ],
+   "width": 6.8,
+   "faces": 97,
+   "toStreet": 14.1,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -447.8,
+    594,
+    -445.2,
+    576.9,
+    -443.5,
+    566.9,
+    -439.3,
+    567.5,
+    -441.2,
+    582.7,
+    -439.7,
+    582.9,
+    -439.2,
+    583,
+    -441,
+    594.8
+   ],
+   "id": "wijngaardstraat-97-06",
+   "latLon": [
+    51.049074,
+    3.718684
+   ],
+   "photos": [
+    {
+     "id": "2926479504215481",
+     "metres": 20,
+     "off": 1,
+     "span": [
+      0.454,
+      0.559
+     ]
+    },
+    {
+     "id": "615465554320067",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.442,
+      0.561
+     ]
+    },
+    {
+     "id": "1138174061211574",
+     "metres": 15,
+     "off": 10,
+     "span": [
+      0.366,
+      0.502
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11256,
+   "at": [
+    -517.8,
+    744.15
+   ],
+   "centre": [
+    -522.3,
+    737.3
+   ],
+   "width": 12.7,
+   "faces": 98,
+   "toStreet": 3.9,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -528.9,
+    742.8,
+    -527.4,
+    731.3,
+    -526.3,
+    731.5,
+    -526.7,
+    735,
+    -525.8,
+    735.1,
+    -525.3,
+    731.7,
+    -520.5,
+    732.7,
+    -521,
+    735.6,
+    -522.7,
+    735.4,
+    -523.1,
+    737.7,
+    -516.7,
+    738.9,
+    -510.3,
+    740,
+    -511.5,
+    745,
+    -524.1,
+    743.3,
+    -524.1,
+    743.4
+   ],
+   "id": "wijngaardstraat-98-07",
+   "latLon": [
+    51.04799,
+    3.717845
+   ],
+   "photos": [
+    {
+     "id": "1743643883082633-345",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.216,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11252,
+   "at": [
+    -519.9000000000001,
+    738.3
+   ],
+   "centre": [
+    -520,
+    736.8
+   ],
+   "width": 6.5,
+   "faces": 101,
+   "toStreet": 9.3,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -521,
+    735.6,
+    -516.3,
+    736.4,
+    -516.7,
+    738.9,
+    -523.1,
+    737.7,
+    -522.7,
+    735.4
+   ],
+   "id": "wijngaardstraat-101-08",
+   "latLon": [
+    51.048033,
+    3.717821
+   ],
+   "photos": [
+    {
+     "id": "1308484990280973",
+     "metres": 19,
+     "off": 14,
+     "span": [
+      0.581,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10953,
+   "at": [
+    -459.45,
+    585.55
+   ],
+   "centre": [
+    -459.1,
+    580.1
+   ],
+   "width": 5.6,
+   "faces": 101,
+   "toStreet": 17.4,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -462.2,
+    585,
+    -461.3,
+    580,
+    -460.2,
+    574.3,
+    -455.2,
+    575.1,
+    -456.7,
+    586.1
+   ],
+   "id": "wijngaardstraat-101-09",
+   "latLon": [
+    51.049138,
+    3.718512
+   ],
+   "photos": [
+    {
+     "id": "1107214168128624",
+     "metres": 36,
+     "off": 4,
+     "span": [
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "id": "1532709140757474",
+     "metres": 34,
+     "off": 14,
+     "span": [
+      0.348,
+      0.408
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11253,
+   "at": [
+    -516.8,
+    707.1500000000001
+   ],
+   "centre": [
+    -516.1,
+    704
+   ],
+   "width": 16.9,
+   "faces": 104,
+   "toStreet": 4.4,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": 10.8,
+   "kind": "house",
+   "ring": [
+    -525,
+    705.1,
+    -523.6,
+    699.5,
+    -516.1,
+    701.7,
+    -507.3,
+    704.3,
+    -508.6,
+    709.2
+   ],
+   "id": "wijngaardstraat-104-10",
+   "latLon": [
+    51.048258,
+    3.717856
+   ],
+   "photos": [
+    {
+     "id": "984987850123501",
+     "metres": 41,
+     "off": 0,
+     "span": [
+      0.417,
+      0.577
+     ]
+    },
+    {
+     "id": "1166246151692711",
+     "metres": 39,
+     "off": 3,
+     "span": [
+      0.407,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11247,
+   "at": [
+    -505.85,
+    709.9000000000001
+   ],
+   "centre": [
+    -505.1,
+    707.5
+   ],
+   "width": 5.7,
+   "faces": 104,
+   "toStreet": 4.3,
+   "floors": 2,
+   "eaves": 9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -508.6,
+    709.2,
+    -507.3,
+    704.3,
+    -501.6,
+    706,
+    -503.1,
+    710.6
+   ],
+   "id": "wijngaardstraat-104-11",
+   "latLon": [
+    51.048238,
+    3.717981
+   ],
+   "photos": [
+    {
+     "id": "1809102106461046",
+     "metres": 23,
+     "off": 9,
+     "span": [
+      0.401,
+      0.48
+     ]
+    },
+    {
+     "id": "1769033917165196",
+     "metres": 17,
+     "off": 12,
+     "span": [
+      0.344,
+      0.466
+     ]
+    },
+    {
+     "id": "3952670371718839",
+     "metres": 36,
+     "off": 3,
+     "span": [
+      0.45,
+      0.506
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11248,
+   "at": [
+    -511.70000000000005,
+    703
+   ],
+   "centre": [
+    -510.6,
+    699.5
+   ],
+   "width": 9.2,
+   "faces": 106,
+   "toStreet": 9.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -517.5,
+    692.9,
+    -498.6,
+    698.5,
+    -501.6,
+    706,
+    -507.3,
+    704.3,
+    -516.1,
+    701.7,
+    -514.8,
+    697.1,
+    -518.4,
+    696.1
+   ],
+   "id": "wijngaardstraat-106-12",
+   "latLon": [
+    51.048288,
+    3.717914
+   ],
+   "photos": [
+    {
+     "id": "611543774894271",
+     "metres": 43,
+     "off": 15,
+     "span": [
+      0.337,
+      0.416
+     ]
+    },
+    {
+     "id": "1139642543675002",
+     "metres": 12,
+     "off": 16,
+     "span": [
+      0.299,
+      0.484
+     ]
+    },
+    {
+     "id": "1809102106461046",
+     "metres": 29,
+     "off": 18,
+     "span": [
+      0.316,
+      0.42
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11241,
+   "at": [
+    -485,
+    689.35
+   ],
+   "centre": [
+    -473.9,
+    685.9
+   ],
+   "width": 9.4,
+   "faces": 186,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 16.7,
+   "kind": "house",
+   "ring": [
+    -465.1,
+    681.2,
+    -465.5,
+    683.6,
+    -466.5,
+    683.5,
+    -468.2,
+    695.6,
+    -485.5,
+    694,
+    -484.5,
+    684.7,
+    -482.2,
+    678.7
+   ],
+   "id": "wijngaardstraat-186-01",
+   "latLon": [
+    51.048387,
+    3.71822
+   ],
+   "photos": [
+    {
+     "id": "1900684293897336",
+     "metres": 10,
+     "off": 2,
+     "span": [
+      0.391,
+      0.636
+     ]
+    },
+    {
+     "id": "1021518306403162",
+     "metres": 10,
+     "off": 14,
+     "span": [
+      0.284,
+      0.549
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10941,
+   "at": [
+    -454.75,
+    645.15
+   ],
+   "centre": [
+    -450.3,
+    646
+   ],
+   "width": 6.8,
+   "faces": 189,
+   "toStreet": 16.7,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    -455.3,
+    648.5,
+    -454.2,
+    641.8,
+    -445.6,
+    643.4,
+    -446.1,
+    650.5
+   ],
+   "id": "wijngaardstraat-189-02",
+   "latLon": [
+    51.048707,
+    3.718566
+   ],
+   "photos": [
+    {
+     "id": "2327311620973778-112",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.403,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10954,
+   "at": [
+    -462.4,
+    664.25
+   ],
+   "centre": [
+    -460.3,
+    664.7
+   ],
+   "width": 6,
+   "faces": 190,
+   "toStreet": 16.6,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -462.9,
+    667.2,
+    -461.9,
+    661.3,
+    -457.7,
+    662.3,
+    -458.7,
+    668.1
+   ],
+   "id": "wijngaardstraat-190-03",
+   "latLon": [
+    51.048568,
+    3.718478
+   ],
+   "photos": [
+    {
+     "id": "1021518306403162",
+     "metres": 37,
+     "off": 18,
+     "span": [
+      0.331,
+      0.368
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10939,
+   "at": [
+    -453.6,
+    622.9000000000001
+   ],
+   "centre": [
+    -449,
+    623.4
+   ],
+   "width": 4.5,
+   "faces": 190,
+   "toStreet": 9.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 7.7,
+   "kind": "house",
+   "ring": [
+    -454,
+    625.1,
+    -453.2,
+    620.7,
+    -444.2,
+    621.9,
+    -444.5,
+    626
+   ],
+   "id": "wijngaardstraat-190-04",
+   "latLon": [
+    51.048868,
+    3.718579
+   ],
+   "photos": [
+    {
+     "id": "395321624921184",
+     "metres": 41,
+     "off": 16,
+     "span": [
+      0.623,
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11246,
+   "at": [
+    -499.4,
+    737.3
+   ],
+   "centre": [
+    -490.5,
+    741.4
+   ],
+   "width": 10.7,
+   "faces": 194,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -498.1,
+    732.1,
+    -484.2,
+    735.8,
+    -485.9,
+    741.7,
+    -485.5,
+    741.7,
+    -486.3,
+    744.6,
+    -489.4,
+    743.9,
+    -489.5,
+    744.2,
+    -492.7,
+    743.3,
+    -492.9,
+    744.2,
+    -500.7,
+    742.5
+   ],
+   "id": "wijngaardstraat-194-05",
+   "latLon": [
+    51.04804,
+    3.718055
+   ],
+   "photos": [
+    {
+     "id": "2332240383820179",
+     "metres": 30,
+     "off": 2,
+     "span": [
+      0.419,
+      0.549
+     ]
+    },
+    {
+     "id": "2009294692960484",
+     "metres": 28,
+     "off": 13,
+     "span": [
+      0.348,
+      0.466
+     ]
+    },
+    {
+     "id": "8733885923400116",
+     "metres": 28,
+     "off": 3,
+     "span": [
+      0.463,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11411,
+   "at": [
+    -503.54999999999995,
+    752.3
+   ],
+   "centre": [
+    -495.6,
+    753.9
+   ],
+   "width": 6.4,
+   "faces": 195,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -491.3,
+    759.1,
+    -504.4,
+    755.4,
+    -502.7,
+    749.2,
+    -490,
+    752.8,
+    -489.6,
+    752.9
+   ],
+   "id": "wijngaardstraat-195-06",
+   "latLon": [
+    51.047931,
+    3.718008
+   ],
+   "photos": [
+    {
+     "id": "1417748433212646",
+     "metres": 15,
+     "off": 10,
+     "span": [
+      0.504,
+      0.644
+     ]
+    },
+    {
+     "id": "2475985132604482",
+     "metres": 18,
+     "off": 7,
+     "span": [
+      0.485,
+      0.634
+     ]
+    },
+    {
+     "id": "604411575465580",
+     "metres": 4,
+     "off": 14,
+     "span": [
+      0.047,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11245,
+   "at": [
+    -496.8,
+    727.25
+   ],
+   "centre": [
+    -489.2,
+    728.4
+   ],
+   "width": 10,
+   "faces": 195,
+   "toStreet": 5.2,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -498.1,
+    732.1,
+    -495.5,
+    722.4,
+    -487,
+    723.9,
+    -488.2,
+    727.6,
+    -482.4,
+    728.5,
+    -484.2,
+    735.8
+   ],
+   "id": "wijngaardstraat-195-07",
+   "latLon": [
+    51.048113,
+    3.718085
+   ],
+   "photos": [
+    {
+     "id": "1148983046830613",
+     "metres": 23,
+     "off": 1,
+     "span": [
+      0.428,
+      0.573
+     ]
+    },
+    {
+     "id": "1509728150094224",
+     "metres": 39,
+     "off": 9,
+     "span": [
+      0.404,
+      0.471
+     ]
+    },
+    {
+     "id": "1521905875879054",
+     "metres": 36,
+     "off": 5,
+     "span": [
+      0.419,
+      0.506
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11242,
+   "at": [
+    -490.85,
+    704.65
+   ],
+   "centre": [
+    -483.3,
+    704.5
+   ],
+   "width": 5.9,
+   "faces": 195,
+   "toStreet": 4.5,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -491.6,
+    707.5,
+    -490.1,
+    701.8,
+    -488,
+    700.4,
+    -475.9,
+    701.4,
+    -476.5,
+    705,
+    -478,
+    710.7
+   ],
+   "id": "wijngaardstraat-195-08",
+   "latLon": [
+    51.048276,
+    3.718153
+   ],
+   "photos": [
+    {
+     "id": "1127832572029368",
+     "metres": 21,
+     "off": 7,
+     "span": [
+      0.4,
+      0.496
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11243,
+   "at": [
+    -492.55,
+    711.1
+   ],
+   "centre": [
+    -483.2,
+    713.1
+   ],
+   "width": 7.4,
+   "faces": 195,
+   "toStreet": 5,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -493.5,
+    714.7,
+    -491.6,
+    707.5,
+    -478,
+    710.7,
+    -478.4,
+    712.5,
+    -482.3,
+    711.6,
+    -482.9,
+    714.1,
+    -479.1,
+    715.2,
+    -480,
+    718.7
+   ],
+   "id": "wijngaardstraat-195-09",
+   "latLon": [
+    51.048229,
+    3.718133
+   ],
+   "photos": [
+    {
+     "id": "1319746475899434",
+     "metres": 16,
+     "off": 2,
+     "span": [
+      0.401,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11244,
+   "at": [
+    -494.5,
+    718.55
+   ],
+   "centre": [
+    -487.4,
+    721.4
+   ],
+   "width": 8,
+   "faces": 195,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -495.5,
+    722.4,
+    -493.5,
+    714.7,
+    -480,
+    718.7,
+    -481.5,
+    725,
+    -486.9,
+    723.8,
+    -487,
+    723.9
+   ],
+   "id": "wijngaardstraat-195-10",
+   "latLon": [
+    51.048176,
+    3.718111
+   ],
+   "photos": [
+    {
+     "id": "3082442895255910",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.274,
+      0.696
+     ]
+    },
+    {
+     "id": "1509728150094224",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.359,
+      0.404
+     ]
+    },
+    {
+     "id": "1521905875879054",
+     "metres": 41,
+     "off": 12,
+     "span": [
+      0.363,
+      0.419
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11412,
+   "at": [
+    -501.7,
+    745.85
+   ],
+   "centre": [
+    -493.3,
+    745.7
+   ],
+   "width": 7,
+   "faces": 197,
+   "toStreet": 4.7,
+   "floors": 2,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -490,
+    752.8,
+    -502.7,
+    749.2,
+    -500.7,
+    742.5,
+    -492.9,
+    744.2,
+    -492.7,
+    743.3,
+    -489.5,
+    744.2,
+    -489.6,
+    744.5,
+    -487.9,
+    744.9
+   ],
+   "id": "wijngaardstraat-197-11",
+   "latLon": [
+    51.047978,
+    3.718029
+   ],
+   "photos": [
+    {
+     "id": "1204800618425271",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.4,
+      0.623
+     ]
+    },
+    {
+     "id": "1640614910141109",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.392,
+      0.628
+     ]
+    },
+    {
+     "id": "579684388138533",
+     "metres": 22,
+     "off": 2,
+     "span": [
+      0.418,
+      0.543
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10952,
+   "at": [
+    -460.75,
+    657.45
+   ],
+   "centre": [
+    -458.9,
+    657.9
+   ],
+   "width": 8,
+   "faces": 197,
+   "toStreet": 15.6,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -461.9,
+    661.3,
+    -459.6,
+    653.6,
+    -456.4,
+    654.4,
+    -457.7,
+    662.3
+   ],
+   "id": "wijngaardstraat-197-12",
+   "latLon": [
+    51.048618,
+    3.718497
+   ],
+   "photos": [
+    {
+     "id": "1192880152435236-119",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.382,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10946,
+   "at": [
+    -456.85,
+    644.7
+   ],
+   "centre": [
+    -455.8,
+    644.9
+   ],
+   "width": 6.7,
+   "faces": 197,
+   "toStreet": 14.5,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -457.8,
+    647.9,
+    -455.9,
+    641.5,
+    -454.2,
+    641.8,
+    -455.3,
+    648.5
+   ],
+   "id": "wijngaardstraat-197-13",
+   "latLon": [
+    51.04871,
+    3.718542
+   ],
+   "photos": [
+    {
+     "id": "2327311620973778-113",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.395,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10950,
+   "at": [
+    -458.70000000000005,
+    650.75
+   ],
+   "centre": [
+    -457.3,
+    651.1
+   ],
+   "width": 6,
+   "faces": 198,
+   "toStreet": 15,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -459.6,
+    653.6,
+    -457.8,
+    647.9,
+    -455.3,
+    648.5,
+    -456.4,
+    654.4
+   ],
+   "id": "wijngaardstraat-198-14",
+   "latLon": [
+    51.048666,
+    3.71852
+   ],
+   "photos": [
+    {
+     "id": "1192880152435236-96",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.412,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10947,
+   "at": [
+    -455.8,
+    614.2
+   ],
+   "centre": [
+    -450.6,
+    616.1
+   ],
+   "width": 12.1,
+   "faces": 199,
+   "toStreet": 4.3,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -457.8,
+    619.9,
+    -453.8,
+    608.5,
+    -443.9,
+    609.5,
+    -444.2,
+    621.9,
+    -453.2,
+    620.7
+   ],
+   "id": "wijngaardstraat-199-15",
+   "latLon": [
+    51.048931,
+    3.718554
+   ],
+   "photos": [
+    {
+     "id": "244750587443727",
+     "metres": 43,
+     "off": 4,
+     "span": [
+      0.476,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10956,
+   "at": [
+    -462.8,
+    629.5
+   ],
+   "centre": [
+    -458.5,
+    629.8
+   ],
+   "width": 5.8,
+   "faces": 200,
+   "toStreet": 3.4,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -463.8,
+    632.2,
+    -461.8,
+    626.8,
+    -457.2,
+    627.9,
+    -454.5,
+    628.5,
+    -455.2,
+    633.5
+   ],
+   "id": "wijngaardstraat-200-16",
+   "latLon": [
+    51.04882,
+    3.718474
+   ],
+   "photos": [
+    {
+     "id": "244750587443727",
+     "metres": 44,
+     "off": 22,
+     "span": [
+      0.668,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10959,
+   "at": [
+    -465.15,
+    635.9000000000001
+   ],
+   "centre": [
+    -454.3,
+    637.3
+   ],
+   "width": 7.9,
+   "faces": 200,
+   "toStreet": 3.6,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -466.5,
+    639.6,
+    -463.8,
+    632.2,
+    -455.2,
+    633.5,
+    -455.3,
+    638.1,
+    -451.7,
+    638.6,
+    -451.4,
+    635.3,
+    -453.5,
+    635.1,
+    -453.4,
+    633.8,
+    -445.1,
+    634.9,
+    -445.6,
+    643.4,
+    -454.2,
+    641.8,
+    -455.9,
+    641.5
+   ],
+   "id": "wijngaardstraat-200-17",
+   "latLon": [
+    51.048774,
+    3.718447
+   ],
+   "photos": [
+    {
+     "id": "2327311620973778-68",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.352,
+      0.851
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10967,
+   "at": [
+    -475.45000000000005,
+    661.1500000000001
+   ],
+   "centre": [
+    -468.9,
+    662.7
+   ],
+   "width": 6.3,
+   "faces": 201,
+   "toStreet": 3.3,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 21.7,
+   "kind": "house",
+   "ring": [
+    -476.6,
+    664.1,
+    -474.3,
+    658.2,
+    -461.9,
+    661.3,
+    -462.9,
+    667.2
+   ],
+   "id": "wijngaardstraat-201-18",
+   "latLon": [
+    51.048591,
+    3.718329
+   ],
+   "photos": [
+    {
+     "id": "1292718598627188-109",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.166,
+      0.854
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10970,
+   "at": [
+    -479.4,
+    671.4000000000001
+   ],
+   "centre": [
+    -469.1,
+    673.1
+   ],
+   "width": 15.6,
+   "faces": 201,
+   "toStreet": 3.4,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    -476.6,
+    664.1,
+    -462.9,
+    667.2,
+    -463.4,
+    670.3,
+    -464.5,
+    677,
+    -465.1,
+    681.2,
+    -482.2,
+    678.7
+   ],
+   "id": "wijngaardstraat-201-19",
+   "latLon": [
+    51.048517,
+    3.718284
+   ],
+   "photos": [
+    {
+     "id": "640014601747871-107",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10966,
+   "at": [
+    -472.8,
+    654.5
+   ],
+   "centre": [
+    -466.8,
+    656
+   ],
+   "width": 8,
+   "faces": 202,
+   "toStreet": 3.3,
+   "floors": 5,
+   "eaves": 17.2,
+   "top": 21.7,
+   "kind": "house",
+   "ring": [
+    -474.3,
+    658.2,
+    -471.3,
+    650.8,
+    -459.6,
+    653.6,
+    -461.9,
+    661.3
+   ],
+   "id": "wijngaardstraat-202-20",
+   "latLon": [
+    51.048639,
+    3.718359
+   ],
+   "photos": [
+    {
+     "id": "1192880152435236-152",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.064,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10951,
+   "at": [
+    -460.3,
+    623.15
+   ],
+   "centre": [
+    -456.8,
+    624.1
+   ],
+   "width": 7.9,
+   "faces": 202,
+   "toStreet": 3.4,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -461.8,
+    626.8,
+    -458.8,
+    619.5,
+    -457.8,
+    619.9,
+    -453.2,
+    620.7,
+    -454,
+    625.1,
+    -454.5,
+    628.5,
+    -457.2,
+    627.9
+   ],
+   "id": "wijngaardstraat-202-21",
+   "latLon": [
+    51.048866,
+    3.718502
+   ],
+   "photos": [
+    {
+     "id": "244750587443727",
+     "metres": 43,
+     "off": 15,
+     "span": [
+      0.591,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10962,
+   "at": [
+    -467.75,
+    642.5
+   ],
+   "centre": [
+    -462.3,
+    643.6
+   ],
+   "width": 6.3,
+   "faces": 203,
+   "toStreet": 3.6,
+   "floors": 5,
+   "eaves": 17,
+   "top": 20.4,
+   "kind": "house",
+   "ring": [
+    -469,
+    645.4,
+    -466.5,
+    639.6,
+    -455.9,
+    641.5,
+    -457.8,
+    647.9
+   ],
+   "id": "wijngaardstraat-203-01",
+   "latLon": [
+    51.048726,
+    3.718417
+   ],
+   "photos": [
+    {
+     "id": "2327311620973778-136",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.175,
+      0.712
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 10964,
+   "at": [
+    -470.15,
+    648.0999999999999
+   ],
+   "centre": [
+    -464.4,
+    649.4
+   ],
+   "width": 5.9,
+   "faces": 203,
+   "toStreet": 3.4,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": 20.5,
+   "kind": "house",
+   "ring": [
+    -471.3,
+    650.8,
+    -469,
+    645.4,
+    -457.8,
+    647.9,
+    -459.6,
+    653.6
+   ],
+   "id": "wijngaardstraat-203-02",
+   "latLon": [
+    51.048685,
+    3.718389
+   ],
+   "photos": [
+    {
+     "id": "1192880152435236-79",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.332,
+      0.815
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11262,
+   "at": [
+    -528.4000000000001,
+    750.3
+   ],
+   "centre": [
+    -527.9,
+    755.9
+   ],
+   "width": 21,
+   "faces": 281,
+   "toStreet": 4,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -539.7,
+    754.8,
+    -538.7,
+    748.3,
+    -518.1,
+    752.3,
+    -519.8,
+    756.2,
+    -523.2,
+    762.7,
+    -526.2,
+    761.7,
+    -525,
+    755.7,
+    -527.6,
+    755.1,
+    -527.6,
+    754.6,
+    -529.7,
+    754.1,
+    -531.1,
+    759.2
+   ],
+   "id": "wijngaardstraat-281-01",
+   "latLon": [
+    51.047946,
+    3.717724
+   ],
+   "photos": [
+    {
+     "id": "789482090030212",
+     "metres": 35,
+     "off": 1,
+     "span": [
+      0.401,
+      0.622
+     ]
+    },
+    {
+     "id": "1943377343066222",
+     "metres": 44,
+     "off": 1,
+     "span": [
+      0.418,
+      0.593
+     ]
+    },
+    {
+     "id": "1227102672852736",
+     "metres": 42,
+     "off": 10,
+     "span": [
+      0.491,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11255,
+   "at": [
+    -512.75,
+    715.7
+   ],
+   "centre": [
+    -519.1,
+    721.3
+   ],
+   "width": 16.2,
+   "faces": 284,
+   "toStreet": 3,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -508.3,
+    730.2,
+    -522.7,
+    727.4,
+    -522.2,
+    722.8,
+    -526.8,
+    722.2,
+    -526.3,
+    717.8,
+    -521.2,
+    718.5,
+    -520.6,
+    713.8,
+    -504.9,
+    717.6
+   ],
+   "id": "wijngaardstraat-284-02",
+   "latLon": [
+    51.048196,
+    3.717902
+   ],
+   "photos": [
+    {
+     "id": "1218120056635266",
+     "metres": 24,
+     "off": 13,
+     "span": [
+      0.48,
+      0.688
+     ]
+    },
+    {
+     "id": "2548613248663319",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.317,
+      0.616
+     ]
+    },
+    {
+     "id": "295900225513443",
+     "metres": 38,
+     "off": 14,
+     "span": [
+      0.541,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11263,
+   "at": [
+    -535.4000000000001,
+    757
+   ],
+   "centre": [
+    -536,
+    760
+   ],
+   "width": 9.7,
+   "faces": 297,
+   "toStreet": 11.8,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    -540.6,
+    761,
+    -539.7,
+    754.8,
+    -531.1,
+    759.2,
+    -532.6,
+    764.8
+   ],
+   "id": "wijngaardstraat-297-01",
+   "latLon": [
+    51.047897,
+    3.717644
+   ],
+   "photos": [
+    {
+     "id": "1638597490916603",
+     "metres": 22,
+     "off": 7,
+     "span": [
+      0.491,
+      0.597
+     ]
+    },
+    {
+     "id": "603369325426261",
+     "metres": 43,
+     "off": 21,
+     "span": [
+      0.644,
+      0.743
+     ]
+    },
+    {
+     "id": "789482090030212",
+     "metres": 42,
+     "off": 7,
+     "span": [
+      0.519,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11270,
+   "at": [
+    -537.8499999999999,
+    712.25
+   ],
+   "centre": [
+    -545.9,
+    711.2
+   ],
+   "width": 9.6,
+   "faces": 342,
+   "toStreet": 14.5,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -557.8,
+    708.1,
+    -544.6,
+    705.2,
+    -543.2,
+    708.5,
+    -539.3,
+    707.7,
+    -536.4,
+    716.8,
+    -553.9,
+    720.8
+   ],
+   "id": "wijngaardstraat-342-11",
+   "latLon": [
+    51.048221,
+    3.717616
+   ],
+   "photos": [
+    {
+     "id": "1164319195263812",
+     "metres": 16,
+     "off": 5,
+     "span": [
+      0.425,
+      0.654
+     ]
+    },
+    {
+     "id": "1282244703095125",
+     "metres": 38,
+     "off": 0,
+     "span": [
+      0.449,
+      0.548
+     ]
+    },
+    {
+     "id": "946826074348745",
+     "metres": 45,
+     "off": 13,
+     "span": [
+      0.369,
+      0.441
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11259,
+   "at": [
+    -529.2,
+    714.4000000000001
+   ],
+   "centre": [
+    -532.2,
+    716.6
+   ],
+   "width": 15.7,
+   "faces": 353,
+   "toStreet": 7.2,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -529.1,
+    722.2,
+    -533.7,
+    723.4,
+    -534.3,
+    717.9,
+    -534.5,
+    716.4,
+    -535.5,
+    707.2,
+    -530.2,
+    706.6,
+    -528.2,
+    722.2
+   ],
+   "id": "wijngaardstraat-353-12",
+   "latLon": [
+    51.048206,
+    3.717714
+   ],
+   "photos": [
+    {
+     "id": "631023986298696",
+     "metres": 33,
+     "off": 8,
+     "span": [
+      0.343,
+      0.527
+     ]
+    },
+    {
+     "id": "1026394485916914",
+     "metres": 10,
+     "off": 4,
+     "span": [
+      0.346,
+      0.944
+     ]
+    },
+    {
+     "id": "2717146708646635",
+     "metres": 45,
+     "off": 13,
+     "span": [
+      0.352,
+      0.468
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 11269,
+   "at": [
+    -534,
+    720.65
+   ],
+   "centre": [
+    -540.6,
+    720.5
+   ],
+   "width": 5.5,
+   "faces": 354,
+   "toStreet": 15,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    -553.9,
+    720.8,
+    -536.4,
+    716.8,
+    -534.5,
+    716.4,
+    -534.3,
+    717.9,
+    -533.7,
+    723.4,
+    -551,
+    727.6
+   ],
+   "id": "wijngaardstraat-354-13",
+   "latLon": [
+    51.04816,
+    3.71766
+   ],
+   "photos": [
+    {
+     "id": "948982373380589",
+     "metres": 37,
+     "off": 1,
+     "span": [
+      0.462,
+      0.517
+     ]
+    },
+    {
+     "id": "1026394485916914",
+     "metres": 16,
+     "off": 2,
+     "span": [
+      0.441,
+      0.542
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4501 @@
+{
+ "city": "ghent",
+ "street": "Kunstlaan",
+ "slug": "kunstlaan",
+ "photos": {
+  "1248510319993193-298": {
+   "file": "photos/1248510319993193-298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248510319993193",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0408316,
+    3.7245407,
+    298,
+    0.5
+   ]
+  },
+  "516078276712260-318": {
+   "file": "photos/516078276712260-318.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516078276712260",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0407527,
+    3.7245525,
+    318,
+    0.5
+   ]
+  },
+  "1835546143963895-302": {
+   "file": "photos/1835546143963895-302.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1835546143963895",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0409259,
+    3.7247517,
+    302,
+    0.5
+   ]
+  },
+  "469205211644805-310": {
+   "file": "photos/469205211644805-310.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=469205211644805",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0408856,
+    3.7247646,
+    310,
+    0.5
+   ]
+  },
+  "1835546143963895-318": {
+   "file": "photos/1835546143963895-318.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1835546143963895",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0409259,
+    3.7247517,
+    318,
+    0.5
+   ]
+  },
+  "469205211644805-324": {
+   "file": "photos/469205211644805-324.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=469205211644805",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0408856,
+    3.7247646,
+    324,
+    0.5
+   ]
+  },
+  "1702955060614465-325": {
+   "file": "photos/1702955060614465-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1702955060614465",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0411229,
+    3.7248346,
+    325,
+    0.5
+   ]
+  },
+  "3303454366556262-287": {
+   "file": "photos/3303454366556262-287.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3303454366556262",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0411632,
+    3.7249402,
+    287,
+    0.5
+   ]
+  },
+  "691470328734585-289": {
+   "file": "photos/691470328734585-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=691470328734585",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0412414,
+    3.7250387,
+    289,
+    0.5
+   ]
+  },
+  "1248373513956125-268": {
+   "file": "photos/1248373513956125-268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248373513956125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0412837,
+    3.7250763,
+    268,
+    0.5
+   ]
+  },
+  "843817539548446": {
+   "file": "photos/843817539548446.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=843817539548446",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412418,
+    3.7255484,
+    286,
+    0.442
+   ]
+  },
+  "453507502710065": {
+   "file": "photos/453507502710065.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=453507502710065",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412451,
+    3.7255371,
+    307,
+    0.442
+   ]
+  },
+  "761691071214877": {
+   "file": "photos/761691071214877.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=761691071214877",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-20",
+   "cam": [
+    51.0412831,
+    3.7256169,
+    288,
+    0.957
+   ]
+  },
+  "1345242799869403-289": {
+   "file": "photos/1345242799869403-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1345242799869403",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0403498,
+    3.7238517,
+    289,
+    0.5
+   ]
+  },
+  "1193292241416155-319": {
+   "file": "photos/1193292241416155-319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1193292241416155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0402677,
+    3.7238419,
+    319,
+    0.5
+   ]
+  },
+  "1835546143963895-287": {
+   "file": "photos/1835546143963895-287.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1835546143963895",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0409259,
+    3.7247517,
+    287,
+    0.5
+   ]
+  },
+  "683010486099376-323": {
+   "file": "photos/683010486099376-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683010486099376",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0408175,
+    3.7246589,
+    323,
+    0.5
+   ]
+  },
+  "686205737362629-301": {
+   "file": "photos/686205737362629-301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=686205737362629",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0410263,
+    3.7247925,
+    301,
+    0.5
+   ]
+  },
+  "714875573043616-276": {
+   "file": "photos/714875573043616-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    276,
+    0.5
+   ]
+  },
+  "686205737362629-322": {
+   "file": "photos/686205737362629-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=686205737362629",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0410263,
+    3.7247925,
+    322,
+    0.5
+   ]
+  },
+  "714875573043616-295": {
+   "file": "photos/714875573043616-295.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    295,
+    0.5
+   ]
+  },
+  "1702955060614465-298": {
+   "file": "photos/1702955060614465-298.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1702955060614465",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0411229,
+    3.7248346,
+    298,
+    0.5
+   ]
+  },
+  "714875573043616-316": {
+   "file": "photos/714875573043616-316.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    316,
+    0.5
+   ]
+  },
+  "1151729948574250": {
+   "file": "photos/1151729948574250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151729948574250",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412474,
+    3.7255255,
+    291,
+    0.442
+   ]
+  },
+  "1248510319993193-325": {
+   "file": "photos/1248510319993193-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248510319993193",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0408316,
+    3.7245407,
+    325,
+    0.5
+   ]
+  },
+  "683010486099376-309": {
+   "file": "photos/683010486099376-309.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=683010486099376",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0408175,
+    3.7246589,
+    309,
+    0.5
+   ]
+  },
+  "3303454366556262-311": {
+   "file": "photos/3303454366556262-311.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3303454366556262",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0411632,
+    3.7249402,
+    311,
+    0.5
+   ]
+  },
+  "1702955060614465-350": {
+   "file": "photos/1702955060614465-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1702955060614465",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0411229,
+    3.7248346,
+    350,
+    0.5
+   ]
+  },
+  "304742181188088": {
+   "file": "photos/304742181188088.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=304742181188088",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412511,
+    3.7255163,
+    310,
+    0.442
+   ]
+  },
+  "471273167489015": {
+   "file": "photos/471273167489015.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=471273167489015",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0414432,
+    3.7254443,
+    335,
+    0.49
+   ]
+  },
+  "2578265212475865": {
+   "file": "photos/2578265212475865.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2578265212475865",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412787,
+    3.7254911,
+    348,
+    0.442
+   ]
+  },
+  "296950182154268": {
+   "file": "photos/296950182154268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=296950182154268",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0412611,
+    3.7255145,
+    358,
+    0.493
+   ]
+  },
+  "186365850022819": {
+   "file": "photos/186365850022819.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=186365850022819",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0412698,
+    3.7254954,
+    337,
+    0.442
+   ]
+  },
+  "291729969288211": {
+   "file": "photos/291729969288211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=291729969288211",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0412934,
+    3.7255,
+    352,
+    0.49
+   ]
+  },
+  "395365071530222": {
+   "file": "photos/395365071530222.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=395365071530222",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-14",
+   "cam": [
+    51.0411996,
+    3.7255395,
+    351,
+    0.493
+   ]
+  },
+  "686205737362629-75": {
+   "file": "photos/686205737362629-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=686205737362629",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0410263,
+    3.7247925,
+    75,
+    0.5
+   ]
+  },
+  "714875573043616-93": {
+   "file": "photos/714875573043616-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    93,
+    0.5
+   ]
+  },
+  "149024684289248-94": {
+   "file": "photos/149024684289248-94.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=149024684289248",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0415402,
+    3.7254351,
+    94,
+    0.5
+   ]
+  },
+  "1026083859672973-91": {
+   "file": "photos/1026083859672973-91.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026083859672973",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.041538,
+    3.7252133,
+    91,
+    0.5
+   ]
+  },
+  "312789540292176": {
+   "file": "photos/312789540292176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=312789540292176",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0415359,
+    3.7252564,
+    119,
+    0.418
+   ]
+  },
+  "138458594937319": {
+   "file": "photos/138458594937319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=138458594937319",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-12",
+   "cam": [
+    51.0415153,
+    3.7253349,
+    119,
+    0.418
+   ]
+  },
+  "166112269119527-124": {
+   "file": "photos/166112269119527-124.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=166112269119527",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0402079,
+    3.7237325,
+    124,
+    0.5
+   ]
+  },
+  "2125974614580588-145": {
+   "file": "photos/2125974614580588-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2125974614580588",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.040271,
+    3.7237211,
+    145,
+    0.5
+   ]
+  },
+  "686205737362629-145": {
+   "file": "photos/686205737362629-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=686205737362629",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0410263,
+    3.7247925,
+    145,
+    0.5
+   ]
+  },
+  "714875573043616-168": {
+   "file": "photos/714875573043616-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    168,
+    0.5
+   ]
+  },
+  "1992333310964830-132": {
+   "file": "photos/1992333310964830-132.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1992333310964830",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0403308,
+    3.7239484,
+    132,
+    0.5
+   ]
+  },
+  "1345242799869403-119": {
+   "file": "photos/1345242799869403-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1345242799869403",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0403498,
+    3.7238517,
+    119,
+    0.5
+   ]
+  },
+  "1322946155440856-155": {
+   "file": "photos/1322946155440856-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1322946155440856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0406621,
+    3.7243211,
+    155,
+    0.5
+   ]
+  },
+  "3262971327249045-158": {
+   "file": "photos/3262971327249045-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3262971327249045",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0406249,
+    3.7243542,
+    158,
+    0.5
+   ]
+  },
+  "1322946155440856-118": {
+   "file": "photos/1322946155440856-118.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1322946155440856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0406621,
+    3.7243211,
+    118,
+    0.5
+   ]
+  },
+  "3262971327249045-95": {
+   "file": "photos/3262971327249045-95.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3262971327249045",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0406249,
+    3.7243542,
+    95,
+    0.5
+   ]
+  },
+  "680361118084825-119": {
+   "file": "photos/680361118084825-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=680361118084825",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0407458,
+    3.7244193,
+    119,
+    0.5
+   ]
+  },
+  "1835546143963895-154": {
+   "file": "photos/1835546143963895-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1835546143963895",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0409259,
+    3.7247517,
+    154,
+    0.5
+   ]
+  },
+  "1248373513956125-120": {
+   "file": "photos/1248373513956125-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248373513956125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0412837,
+    3.7250763,
+    120,
+    0.5
+   ]
+  },
+  "722137552490621-145": {
+   "file": "photos/722137552490621-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=722137552490621",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0413164,
+    3.7251324,
+    145,
+    0.5
+   ]
+  },
+  "237590974787053": {
+   "file": "photos/237590974787053.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=237590974787053",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-31",
+   "cam": [
+    51.0400663,
+    3.7231634,
+    121,
+    0.976
+   ]
+  },
+  "1060980299252665-113": {
+   "file": "photos/1060980299252665-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1060980299252665",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0400945,
+    3.7234923,
+    113,
+    0.5
+   ]
+  },
+  "5083429745072561-116": {
+   "file": "photos/5083429745072561-116.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5083429745072561",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0401032,
+    3.7234914,
+    116,
+    0.5
+   ]
+  },
+  "684489781230170-137": {
+   "file": "photos/684489781230170-137.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=684489781230170",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0401767,
+    3.7236054,
+    137,
+    0.5
+   ]
+  },
+  "5126455314089321-132": {
+   "file": "photos/5126455314089321-132.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5126455314089321",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0401522,
+    3.7236215,
+    132,
+    0.5
+   ]
+  },
+  "684489781230170-115": {
+   "file": "photos/684489781230170-115.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=684489781230170",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0401767,
+    3.7236054,
+    115,
+    0.5
+   ]
+  },
+  "166112269119527-156": {
+   "file": "photos/166112269119527-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=166112269119527",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0402079,
+    3.7237325,
+    156,
+    0.5
+   ]
+  },
+  "2125974614580588-120": {
+   "file": "photos/2125974614580588-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2125974614580588",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.040271,
+    3.7237211,
+    120,
+    0.5
+   ]
+  },
+  "1193292241416155-149": {
+   "file": "photos/1193292241416155-149.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1193292241416155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0402677,
+    3.7238419,
+    149,
+    0.5
+   ]
+  },
+  "981478497401830-152": {
+   "file": "photos/981478497401830-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=981478497401830",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0404181,
+    3.7240338,
+    152,
+    0.5
+   ]
+  },
+  "504785911281196-152": {
+   "file": "photos/504785911281196-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=504785911281196",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0403932,
+    3.724055,
+    152,
+    0.5
+   ]
+  },
+  "787083702255887-147": {
+   "file": "photos/787083702255887-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=787083702255887",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0406877,
+    3.7244529,
+    147,
+    0.5
+   ]
+  },
+  "680361118084825-155": {
+   "file": "photos/680361118084825-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=680361118084825",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0407458,
+    3.7244193,
+    155,
+    0.5
+   ]
+  },
+  "1248510319993193-153": {
+   "file": "photos/1248510319993193-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248510319993193",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0408316,
+    3.7245407,
+    153,
+    0.5
+   ]
+  },
+  "516078276712260-101": {
+   "file": "photos/516078276712260-101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516078276712260",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0407527,
+    3.7245525,
+    101,
+    0.5
+   ]
+  },
+  "1248510319993193-127": {
+   "file": "photos/1248510319993193-127.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248510319993193",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0408316,
+    3.7245407,
+    127,
+    0.5
+   ]
+  },
+  "1248510319993193-102": {
+   "file": "photos/1248510319993193-102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248510319993193",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0408316,
+    3.7245407,
+    102,
+    0.5
+   ]
+  },
+  "686205737362629-113": {
+   "file": "photos/686205737362629-113.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=686205737362629",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0410263,
+    3.7247925,
+    113,
+    0.5
+   ]
+  },
+  "714875573043616-147": {
+   "file": "photos/714875573043616-147.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    147,
+    0.5
+   ]
+  },
+  "1702955060614465-135": {
+   "file": "photos/1702955060614465-135.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1702955060614465",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0411229,
+    3.7248346,
+    135,
+    0.5
+   ]
+  },
+  "714875573043616-119": {
+   "file": "photos/714875573043616-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=714875573043616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0410811,
+    3.7248343,
+    119,
+    0.5
+   ]
+  },
+  "1702955060614465-111": {
+   "file": "photos/1702955060614465-111.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1702955060614465",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0411229,
+    3.7248346,
+    111,
+    0.5
+   ]
+  },
+  "3303454366556262-145": {
+   "file": "photos/3303454366556262-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3303454366556262",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0411632,
+    3.7249402,
+    145,
+    0.5
+   ]
+  },
+  "691470328734585-144": {
+   "file": "photos/691470328734585-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=691470328734585",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0412414,
+    3.7250387,
+    144,
+    0.5
+   ]
+  },
+  "1248373513956125-163": {
+   "file": "photos/1248373513956125-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1248373513956125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0412837,
+    3.7250763,
+    163,
+    0.5
+   ]
+  },
+  "5639826736058248": {
+   "file": "photos/5639826736058248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5639826736058248",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-31",
+   "cam": [
+    51.0400351,
+    3.7232294,
+    127,
+    0.976
+   ]
+  },
+  "812983902673945": {
+   "file": "photos/812983902673945.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=812983902673945",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-31",
+   "cam": [
+    51.0399819,
+    3.7233194,
+    131,
+    0.976
+   ]
+  },
+  "1835546143963895-102": {
+   "file": "photos/1835546143963895-102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1835546143963895",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0409259,
+    3.7247517,
+    102,
+    0.5
+   ]
+  },
+  "1345242799869403-146": {
+   "file": "photos/1345242799869403-146.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1345242799869403",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0403498,
+    3.7238517,
+    146,
+    0.5
+   ]
+  },
+  "1193292241416155-103": {
+   "file": "photos/1193292241416155-103.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1193292241416155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0402677,
+    3.7238419,
+    103,
+    0.5
+   ]
+  },
+  "691470328734585-164": {
+   "file": "photos/691470328734585-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=691470328734585",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0412414,
+    3.7250387,
+    164,
+    0.5
+   ]
+  },
+  "680361118084825-176": {
+   "file": "photos/680361118084825-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=680361118084825",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0407458,
+    3.7244193,
+    176,
+    0.5
+   ]
+  },
+  "787083702255887-182": {
+   "file": "photos/787083702255887-182.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=787083702255887",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0406877,
+    3.7244529,
+    182,
+    0.5
+   ]
+  },
+  "1322946155440856-157": {
+   "file": "photos/1322946155440856-157.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1322946155440856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0406621,
+    3.7243211,
+    157,
+    0.5
+   ]
+  },
+  "1026083859672973-281": {
+   "file": "photos/1026083859672973-281.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1026083859672973",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.041538,
+    3.7252133,
+    281,
+    0.5
+   ]
+  },
+  "310048221286054-263": {
+   "file": "photos/310048221286054-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=310048221286054",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0415698,
+    3.7253231,
+    263,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 23353,
+   "at": [
+    51.25,
+    1724.9
+   ],
+   "centre": [
+    47.9,
+    1722.4
+   ],
+   "width": 10.9,
+   "faces": 39,
+   "toStreet": 6.4,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    43,
+    1717.5,
+    49.3,
+    1716.3,
+    54.7,
+    1720.7,
+    47.8,
+    1729.1,
+    44.6,
+    1728.2
+   ],
+   "id": "kunstlaan-39-01",
+   "latLon": [
+    51.040895,
+    3.72435
+   ],
+   "photos": [
+    {
+     "id": "1248510319993193-298",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.363,
+      0.649
+     ]
+    },
+    {
+     "id": "516078276712260-318",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.396,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23343,
+   "at": [
+    65.45,
+    1707.9
+   ],
+   "centre": [
+    60.8,
+    1704
+   ],
+   "width": 6.5,
+   "faces": 39,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": 20.1,
+   "kind": "house",
+   "ring": [
+    54,
+    1702.6,
+    58.2,
+    1697.7,
+    67.5,
+    1705.4,
+    63.4,
+    1710.4
+   ],
+   "id": "kunstlaan-39-02",
+   "latLon": [
+    51.041018,
+    3.724513
+   ],
+   "photos": [
+    {
+     "id": "1835546143963895-302",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.43,
+      0.562
+     ]
+    },
+    {
+     "id": "469205211644805-310",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.441,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23342,
+   "at": [
+    69.85,
+    1702.5
+   ],
+   "centre": [
+    60.4,
+    1694.6
+   ],
+   "width": 7.5,
+   "faces": 39,
+   "toStreet": 6.8,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 19.4,
+   "kind": "house",
+   "ring": [
+    53.1,
+    1693.4,
+    53.9,
+    1688.9,
+    54.5,
+    1684.8,
+    63.3,
+    1692.1,
+    72.2,
+    1699.6,
+    67.5,
+    1705.4,
+    58.2,
+    1697.7
+   ],
+   "id": "kunstlaan-39-03",
+   "latLon": [
+    51.041057,
+    3.724563
+   ],
+   "photos": [
+    {
+     "id": "1835546143963895-318",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.42,
+      0.572
+     ]
+    },
+    {
+     "id": "469205211644805-324",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.432,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23339,
+   "at": [
+    86.2,
+    1682.85
+   ],
+   "centre": [
+    72.3,
+    1671
+   ],
+   "width": 6.3,
+   "faces": 39,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 2.5,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    72.3,
+    1667.2,
+    88.2,
+    1680.4,
+    84.2,
+    1685.3,
+    72.9,
+    1675.8,
+    65.9,
+    1670,
+    68.6,
+    1667,
+    62.5,
+    1662.1,
+    64,
+    1660.3
+   ],
+   "id": "kunstlaan-39-04",
+   "latLon": [
+    51.041199,
+    3.72475
+   ],
+   "photos": [
+    {
+     "id": "1702955060614465-325",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.373,
+      0.609
+     ]
+    },
+    {
+     "id": "3303454366556262-287",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.417,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23632,
+   "at": [
+    95.55,
+    1671.6999999999998
+   ],
+   "centre": [
+    79.6,
+    1655.5
+   ],
+   "width": 6.2,
+   "faces": 39,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 2.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    81.6,
+    1656.2,
+    97.5,
+    1669.3,
+    93.6,
+    1674.1,
+    78.3,
+    1661.9,
+    72,
+    1656.9,
+    69.8,
+    1647.9,
+    67.8,
+    1639.8,
+    75.8,
+    1638.5,
+    79.6,
+    1654.5
+   ],
+   "id": "kunstlaan-39-05",
+   "latLon": [
+    51.04128,
+    3.724857
+   ],
+   "photos": [
+    {
+     "id": "691470328734585-289",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.413,
+      0.588
+     ]
+    },
+    {
+     "id": "1248373513956125-268",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.447,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23197,
+   "at": [
+    103.4,
+    1662.25
+   ],
+   "centre": [
+    94.3,
+    1655.5
+   ],
+   "width": 6,
+   "faces": 39,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3,
+   "top": 18.5,
+   "kind": "house",
+   "ring": [
+    87.1,
+    1652.8,
+    87.9,
+    1651.7,
+    90.4,
+    1653.6,
+    93.3,
+    1650.1,
+    105.3,
+    1659.9,
+    101.5,
+    1664.6
+   ],
+   "id": "kunstlaan-39-06",
+   "latLon": [
+    51.041348,
+    3.724946
+   ],
+   "photos": [
+    {
+     "id": "843817539548446",
+     "metres": 44,
+     "off": 0,
+     "span": [
+      0.478,
+      0.522
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23195,
+   "at": [
+    111.35,
+    1652.8
+   ],
+   "centre": [
+    106.6,
+    1648.9
+   ],
+   "width": 5.9,
+   "faces": 39,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    100.3,
+    1647.9,
+    102.6,
+    1645.1,
+    107.4,
+    1645.8,
+    113.2,
+    1650.5,
+    109.5,
+    1655.1
+   ],
+   "id": "kunstlaan-39-07",
+   "latLon": [
+    51.041416,
+    3.725037
+   ],
+   "photos": [
+    {
+     "id": "453507502710065",
+     "metres": 40,
+     "off": 9,
+     "span": [
+      0.407,
+      0.46
+     ]
+    },
+    {
+     "id": "761691071214877",
+     "metres": 43,
+     "off": 2,
+     "span": [
+      0.486,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23753,
+   "at": [
+    -7.75,
+    1795
+   ],
+   "centre": [
+    -20.3,
+    1791.5
+   ],
+   "width": 83.6,
+   "faces": 40,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -4.3,
+    1760.9,
+    -42.8,
+    1807.7,
+    -44.4,
+    1809.6,
+    -43,
+    1818.7,
+    -43.9,
+    1817.7,
+    -45.6,
+    1817.9,
+    -46.8,
+    1819.3,
+    -46.8,
+    1820.2,
+    -53.2,
+    1820.7,
+    -53.6,
+    1819.9,
+    -54.9,
+    1818.8,
+    -56.6,
+    1819.2,
+    -57.5,
+    1820.6,
+    -57.5,
+    1822.2,
+    -63.9,
+    1829.7,
+    -64.1,
+    1830,
+    -59.4,
+    1834.2,
+    -56.2,
+    1836.9,
+    -56.1,
+    1838.7,
+    -54.7,
+    1839.8,
+    -53,
+    1839.6,
+    -51.9,
+    1838.3,
+    -51.9,
+    1837.9,
+    -48.2,
+    1837.5,
+    -44.9,
+    1837.3,
+    -44.9,
+    1837.6,
+    -43.6,
+    1838.8,
+    -41.8,
+    1838.7,
+    -40.6,
+    1837.3,
+    -41,
+    1835.4,
+    -35.7,
+    1829.1,
+    -34.3,
+    1827.3,
+    -34.5,
+    1827.1,
+    19,
+    1762.9,
+    17.8,
+    1761.9,
+    17.5,
+    1762.3,
+    15.2,
+    1760.4,
+    8.2,
+    1761.3,
+    7.4,
+    1754.2,
+    10.3,
+    1753.8,
+    27.7,
+    1751.1,
+    27.7,
+    1751.3,
+    29.3,
+    1751.1,
+    29.1,
+    1749.5,
+    28.9,
+    1749.5,
+    26,
+    1731.1,
+    26.4,
+    1731,
+    26.1,
+    1729.5,
+    24.5,
+    1729.7,
+    24.5,
+    1730.1,
+    -7.8,
+    1734.8,
+    -5.3,
+    1751.6,
+    -0.6,
+    1750.9,
+    0.7,
+    1752,
+    1.3,
+    1755.7,
+    0.2,
+    1757.2,
+    -4.2,
+    1757.8,
+    -4.1,
+    1758.8,
+    -3.5,
+    1759.2,
+    -3.5,
+    1759.9,
+    -3.9,
+    1760.4
+   ],
+   "id": "kunstlaan-40-08",
+   "latLon": [
+    51.040387,
+    3.723676
+   ],
+   "photos": [
+    {
+     "id": "1345242799869403-289",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1193292241416155-319",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23334,
+   "at": [
+    61.25,
+    1713
+   ],
+   "centre": [
+    55.6,
+    1708.5
+   ],
+   "width": 6.7,
+   "faces": 40,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 20.2,
+   "kind": "house",
+   "ring": [
+    54,
+    1702.6,
+    63.4,
+    1710.4,
+    59.1,
+    1715.6,
+    54,
+    1711.6,
+    49.5,
+    1707.9,
+    53.9,
+    1702.7
+   ],
+   "id": "kunstlaan-40-09",
+   "latLon": [
+    51.040981,
+    3.724465
+   ],
+   "photos": [
+    {
+     "id": "1835546143963895-287",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.443,
+      0.561
+     ]
+    },
+    {
+     "id": "683010486099376-323",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.442,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23341,
+   "at": [
+    74.25,
+    1697.15
+   ],
+   "centre": [
+    62.1,
+    1686.5
+   ],
+   "width": 6.4,
+   "faces": 40,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 16.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    55.2,
+    1681.2,
+    55.5,
+    1679.4,
+    55.8,
+    1677.6,
+    62.1,
+    1682.8,
+    76.3,
+    1694.7,
+    72.2,
+    1699.6,
+    63.3,
+    1692.1,
+    65.6,
+    1689.3,
+    62.7,
+    1687.1,
+    61.1,
+    1687.1,
+    57.6,
+    1684.4,
+    57.5,
+    1682.9
+   ],
+   "id": "kunstlaan-40-10",
+   "latLon": [
+    51.041095,
+    3.724613
+   ],
+   "photos": [
+    {
+     "id": "686205737362629-301",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.42,
+      0.593
+     ]
+    },
+    {
+     "id": "714875573043616-276",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.436,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23338,
+   "at": [
+    78.44999999999999,
+    1692.15
+   ],
+   "centre": [
+    62.9,
+    1678.7
+   ],
+   "width": 6.7,
+   "faces": 40,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    56.8,
+    1671.3,
+    57.1,
+    1670,
+    59.2,
+    1671.7,
+    80.6,
+    1689.6,
+    76.3,
+    1694.7,
+    62.1,
+    1682.8,
+    63.6,
+    1681.1,
+    58,
+    1676.6,
+    58.8,
+    1675.5,
+    56.5,
+    1673.4
+   ],
+   "id": "kunstlaan-40-11",
+   "latLon": [
+    51.041132,
+    3.724661
+   ],
+   "photos": [
+    {
+     "id": "686205737362629-322",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.407,
+      0.584
+     ]
+    },
+    {
+     "id": "714875573043616-295",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.406,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23340,
+   "at": [
+    82.4,
+    1687.4499999999998
+   ],
+   "centre": [
+    69.7,
+    1677.2
+   ],
+   "width": 5.6,
+   "faces": 40,
+   "toStreet": 7.1,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    59.2,
+    1671.7,
+    60.5,
+    1670.2,
+    64.9,
+    1673.7,
+    65.8,
+    1673.7,
+    69.1,
+    1676.1,
+    69.5,
+    1677,
+    69.5,
+    1677.8,
+    70.5,
+    1678.8,
+    72.9,
+    1675.8,
+    84.2,
+    1685.3,
+    80.6,
+    1689.6
+   ],
+   "id": "kunstlaan-40-12",
+   "latLon": [
+    51.041166,
+    3.724706
+   ],
+   "photos": [
+    {
+     "id": "1702955060614465-298",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.395,
+      0.612
+     ]
+    },
+    {
+     "id": "714875573043616-316",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.416,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23198,
+   "at": [
+    99.5,
+    1666.9499999999998
+   ],
+   "centre": [
+    90.7,
+    1658.9
+   ],
+   "width": 6.2,
+   "faces": 40,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    81.6,
+    1656.2,
+    85.6,
+    1651.5,
+    87.1,
+    1652.8,
+    101.5,
+    1664.6,
+    97.5,
+    1669.3
+   ],
+   "id": "kunstlaan-40-13",
+   "latLon": [
+    51.041314,
+    3.724902
+   ],
+   "photos": [
+    {
+     "id": "1151729948574250",
+     "metres": 44,
+     "off": 11,
+     "span": [
+      0.391,
+      0.436
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23352,
+   "at": [
+    56.900000000000006,
+    1718.15
+   ],
+   "centre": [
+    50.4,
+    1713.4
+   ],
+   "width": 6.7,
+   "faces": 41,
+   "toStreet": 6.5,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    42.1,
+    1711.1,
+    48.3,
+    1710.2,
+    48.3,
+    1711.7,
+    49.7,
+    1711.4,
+    50.5,
+    1711.3,
+    51.3,
+    1711.7,
+    52,
+    1712.3,
+    52.5,
+    1713.3,
+    54,
+    1711.6,
+    59.1,
+    1715.6,
+    54.7,
+    1720.7,
+    49.3,
+    1716.3,
+    43,
+    1717.5
+   ],
+   "id": "kunstlaan-41-14",
+   "latLon": [
+    51.040943,
+    3.724415
+   ],
+   "photos": [
+    {
+     "id": "1248510319993193-325",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.408,
+      0.58
+     ]
+    },
+    {
+     "id": "683010486099376-309",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.443,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23337,
+   "at": [
+    90.9,
+    1677.25
+   ],
+   "centre": [
+    80.5,
+    1668.9
+   ],
+   "width": 8.3,
+   "faces": 41,
+   "toStreet": 7.3,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    72.3,
+    1667.2,
+    74.5,
+    1664.7,
+    75.8,
+    1665.3,
+    78.3,
+    1661.9,
+    93.6,
+    1674.1,
+    88.2,
+    1680.4
+   ],
+   "id": "kunstlaan-41-15",
+   "latLon": [
+    51.041239,
+    3.724803
+   ],
+   "photos": [
+    {
+     "id": "3303454366556262-311",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.374,
+      0.635
+     ]
+    },
+    {
+     "id": "1702955060614465-350",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.388,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23196,
+   "at": [
+    107.4,
+    1657.5
+   ],
+   "centre": [
+    97.7,
+    1650.3
+   ],
+   "width": 6.4,
+   "faces": 41,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    100.3,
+    1647.9,
+    109.5,
+    1655.1,
+    105.3,
+    1659.9,
+    93.3,
+    1650.1,
+    87.4,
+    1645.3,
+    89.7,
+    1643,
+    98.1,
+    1650.5
+   ],
+   "id": "kunstlaan-41-16",
+   "latLon": [
+    51.041382,
+    3.724992
+   ],
+   "photos": [
+    {
+     "id": "304742181188088",
+     "metres": 39,
+     "off": 19,
+     "span": [
+      0.32,
+      0.381
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23281,
+   "at": [
+    134.45,
+    1624.65
+   ],
+   "centre": [
+    137,
+    1621.3
+   ],
+   "width": 8.9,
+   "faces": 88,
+   "toStreet": 16.6,
+   "floors": 5,
+   "eaves": 18.4,
+   "top": 22,
+   "kind": "yes",
+   "ring": [
+    128.9,
+    1616.3,
+    130,
+    1624.8,
+    138.9,
+    1624.5,
+    138.9,
+    1625.4,
+    140.9,
+    1625.3,
+    141,
+    1616.4,
+    140.7,
+    1616.4
+   ],
+   "id": "kunstlaan-88-01",
+   "latLon": [
+    51.04162,
+    3.725301
+   ],
+   "photos": [
+    {
+     "id": "471273167489015",
+     "metres": 22,
+     "off": 2,
+     "span": [
+      0.417,
+      0.561
+     ]
+    },
+    {
+     "id": "2578265212475865",
+     "metres": 40,
+     "off": 8,
+     "span": [
+      0.405,
+      0.481
+     ]
+    },
+    {
+     "id": "296950182154268",
+     "metres": 43,
+     "off": 19,
+     "span": [
+      0.29,
+      0.377
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23280,
+   "at": [
+    135.9,
+    1631.3000000000002
+   ],
+   "centre": [
+    136.7,
+    1627.1
+   ],
+   "width": 10,
+   "faces": 91,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 18.8,
+   "top": 21.9,
+   "kind": "yes",
+   "ring": [
+    130,
+    1624.8,
+    130.9,
+    1631.2,
+    140.9,
+    1631.4,
+    140.9,
+    1625.3,
+    138.9,
+    1625.4,
+    138.9,
+    1624.5
+   ],
+   "id": "kunstlaan-91-02",
+   "latLon": [
+    51.041572,
+    3.725318
+   ],
+   "photos": [
+    {
+     "id": "186365850022819",
+     "metres": 36,
+     "off": 3,
+     "span": [
+      0.479,
+      0.571
+     ]
+    },
+    {
+     "id": "291729969288211",
+     "metres": 33,
+     "off": 15,
+     "span": [
+      0.315,
+      0.429
+     ]
+    },
+    {
+     "id": "395365071530222",
+     "metres": 44,
+     "off": 12,
+     "span": [
+      0.356,
+      0.443
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23279,
+   "at": [
+    115.4,
+    1700.0500000000002
+   ],
+   "centre": [
+    119.8,
+    1697.7
+   ],
+   "width": 7.5,
+   "faces": 168,
+   "toStreet": 10.4,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    114.6,
+    1696.4,
+    118.7,
+    1691.4,
+    121.7,
+    1693.6,
+    122,
+    1696.2,
+    121.2,
+    1697.8,
+    121.7,
+    1700.4,
+    122.1,
+    1702.4,
+    116.2,
+    1703.7
+   ],
+   "id": "kunstlaan-168-01",
+   "latLon": [
+    51.041074,
+    3.725084
+   ],
+   "photos": [
+    {
+     "id": "686205737362629-75",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.431,
+      0.574
+     ]
+    },
+    {
+     "id": "714875573043616-93",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.407,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23228,
+   "at": [
+    155.3,
+    1636.35
+   ],
+   "centre": [
+    161.6,
+    1635.2
+   ],
+   "width": 6.3,
+   "faces": 182,
+   "toStreet": 8.4,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": 20.6,
+   "kind": "yes",
+   "ring": [
+    155.2,
+    1639.5,
+    155.4,
+    1633.2,
+    156.9,
+    1631.6,
+    170.5,
+    1631.9,
+    170.2,
+    1640
+   ],
+   "id": "kunstlaan-182-02",
+   "latLon": [
+    51.041535,
+    3.72554
+   ],
+   "photos": [
+    {
+     "id": "149024684289248-94",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.327,
+      0.673
+     ]
+    },
+    {
+     "id": "1026083859672973-91",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.442,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23744,
+   "at": [
+    154.39999999999998,
+    1654.4
+   ],
+   "centre": [
+    162.4,
+    1656.2
+   ],
+   "width": 9.6,
+   "faces": 182,
+   "toStreet": 9.9,
+   "floors": 5,
+   "eaves": 19.2,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    154.6,
+    1649.6,
+    165.6,
+    1650.1,
+    165.3,
+    1656,
+    170.4,
+    1656.2,
+    170.1,
+    1661.4,
+    156.6,
+    1660.7,
+    154.2,
+    1659.2
+   ],
+   "id": "kunstlaan-182-03",
+   "latLon": [
+    51.041405,
+    3.725529
+   ],
+   "photos": [
+    {
+     "id": "312789540292176",
+     "metres": 24,
+     "off": 9,
+     "span": [
+      0.504,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23229,
+   "at": [
+    154.75,
+    1646.9499999999998
+   ],
+   "centre": [
+    163,
+    1647.7
+   ],
+   "width": 5.3,
+   "faces": 183,
+   "toStreet": 9,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 20.9,
+   "kind": "yes",
+   "ring": [
+    154.6,
+    1649.6,
+    165.6,
+    1650.1,
+    170,
+    1650,
+    170.1,
+    1644.7,
+    154.9,
+    1644.3
+   ],
+   "id": "kunstlaan-183-04",
+   "latLon": [
+    51.041459,
+    3.725533
+   ],
+   "photos": [
+    {
+     "id": "138458594937319",
+     "metres": 15,
+     "off": 5,
+     "span": [
+      0.405,
+      0.515
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23161,
+   "at": [
+    155.05,
+    1641.9
+   ],
+   "centre": [
+    162.6,
+    1642.1
+   ],
+   "width": 4.8,
+   "faces": 184,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 20.5,
+   "kind": "yes",
+   "ring": [
+    155.2,
+    1639.5,
+    154.9,
+    1644.3,
+    170.1,
+    1644.7,
+    170.2,
+    1640
+   ],
+   "id": "kunstlaan-184-05",
+   "latLon": [
+    51.041495,
+    3.725537
+   ],
+   "photos": [
+    {
+     "id": "312789540292176",
+     "metres": 20,
+     "off": 16,
+     "span": [
+      0.339,
+      0.424
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23604,
+   "at": [
+    6.8,
+    1826.35
+   ],
+   "centre": [
+    18.2,
+    1836.3
+   ],
+   "width": 7.5,
+   "faces": 218,
+   "toStreet": 6.4,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    4.5,
+    1829.3,
+    9.1,
+    1823.4,
+    26.7,
+    1837.9,
+    26.7,
+    1840.7,
+    26.7,
+    1842.9,
+    20.3,
+    1837.7,
+    17.8,
+    1840.8,
+    14.1,
+    1837.6
+   ],
+   "id": "kunstlaan-218-01",
+   "latLon": [
+    51.040161,
+    3.723842
+   ],
+   "photos": [
+    {
+     "id": "166112269119527-124",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.346,
+      0.669
+     ]
+    },
+    {
+     "id": "2125974614580588-145",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.401,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23274,
+   "at": [
+    97.4,
+    1717.3000000000002
+   ],
+   "centre": [
+    108,
+    1724.2
+   ],
+   "width": 6.1,
+   "faces": 218,
+   "toStreet": 7.3,
+   "floors": 5,
+   "eaves": 20.3,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    99.3,
+    1714.9,
+    110.8,
+    1724.4,
+    111.3,
+    1724.8,
+    113.8,
+    1723.9,
+    116.6,
+    1727,
+    109.4,
+    1729.2,
+    107.2,
+    1729.9,
+    95.5,
+    1719.7
+   ],
+   "id": "kunstlaan-218-02",
+   "latLon": [
+    51.04095,
+    3.724878
+   ],
+   "photos": [
+    {
+     "id": "686205737362629-145",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.379,
+      0.605
+     ]
+    },
+    {
+     "id": "714875573043616-168",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.432,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23600,
+   "at": [
+    22.05,
+    1808.2
+   ],
+   "centre": [
+    28.4,
+    1813
+   ],
+   "width": 7.7,
+   "faces": 219,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 16.3,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    19.6,
+    1811.2,
+    24.5,
+    1805.2,
+    31.7,
+    1810.6,
+    32.1,
+    1813.6,
+    30.5,
+    1813.9,
+    30.3,
+    1816.9,
+    29.9,
+    1819.4
+   ],
+   "id": "kunstlaan-219-03",
+   "latLon": [
+    51.040292,
+    3.724016
+   ],
+   "photos": [
+    {
+     "id": "1992333310964830-132",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.256,
+      0.736
+     ]
+    },
+    {
+     "id": "1345242799869403-119",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.391,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23628,
+   "at": [
+    54.45,
+    1769.25
+   ],
+   "centre": [
+    56.9,
+    1771.6
+   ],
+   "width": 9.9,
+   "faces": 219,
+   "toStreet": 6.8,
+   "floors": 4,
+   "eaves": 16.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    57.6,
+    1765.4,
+    67,
+    1772.4,
+    51.7,
+    1775.5,
+    51.3,
+    1773.1
+   ],
+   "id": "kunstlaan-219-04",
+   "latLon": [
+    51.040574,
+    3.724387
+   ],
+   "photos": [
+    {
+     "id": "1322946155440856-155",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.303,
+      0.641
+     ]
+    },
+    {
+     "id": "3262971327249045-158",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.088,
+      0.716
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23621,
+   "at": [
+    59.6,
+    1762.9
+   ],
+   "centre": [
+    65.1,
+    1767.2
+   ],
+   "width": 6.4,
+   "faces": 219,
+   "toStreet": 6.8,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 18.6,
+   "kind": "house",
+   "ring": [
+    57.6,
+    1765.4,
+    61.6,
+    1760.4,
+    74.2,
+    1770.5,
+    67,
+    1772.4
+   ],
+   "id": "kunstlaan-219-05",
+   "latLon": [
+    51.04062,
+    3.724446
+   ],
+   "photos": [
+    {
+     "id": "1322946155440856-118",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.382,
+      0.638
+     ]
+    },
+    {
+     "id": "3262971327249045-95",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.365,
+      0.715
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23619,
+   "at": [
+    68.7,
+    1751.85
+   ],
+   "centre": [
+    78.1,
+    1761.3
+   ],
+   "width": 11,
+   "faces": 219,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 20,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    65.2,
+    1756.1,
+    72.2,
+    1747.6,
+    77.4,
+    1752,
+    81.9,
+    1763,
+    83.7,
+    1762.5,
+    84.6,
+    1767.5,
+    82,
+    1768.4,
+    80.8,
+    1763,
+    79.1,
+    1763,
+    76.6,
+    1765.9,
+    75.6,
+    1765.1
+   ],
+   "id": "kunstlaan-219-06",
+   "latLon": [
+    51.0407,
+    3.72455
+   ],
+   "photos": [
+    {
+     "id": "680361118084825-119",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.309,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23271,
+   "at": [
+    85.6,
+    1731.55
+   ],
+   "centre": [
+    91,
+    1736.7
+   ],
+   "width": 6.3,
+   "faces": 219,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 20.3,
+   "kind": "yes",
+   "ring": [
+    87.6,
+    1729.1,
+    97.1,
+    1737.2,
+    93.5,
+    1741.8,
+    93,
+    1741.4,
+    83.6,
+    1734
+   ],
+   "id": "kunstlaan-219-07",
+   "latLon": [
+    51.040847,
+    3.724743
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 23272,
+   "at": [
+    89.5,
+    1726.75
+   ],
+   "centre": [
+    103.1,
+    1737.8
+   ],
+   "width": 6,
+   "faces": 219,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    91.4,
+    1724.4,
+    102.8,
+    1733.9,
+    101.2,
+    1735.7,
+    106.2,
+    1739.7,
+    107,
+    1738.7,
+    108.7,
+    1740,
+    107.9,
+    1741.2,
+    109.8,
+    1742.8,
+    110.6,
+    1744.7,
+    107.2,
+    1745.8,
+    97.1,
+    1737.2,
+    87.6,
+    1729.1
+   ],
+   "id": "kunstlaan-219-08",
+   "latLon": [
+    51.040881,
+    3.724787
+   ],
+   "photos": [
+    {
+     "id": "1835546143963895-154",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.251,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23174,
+   "at": [
+    128.65,
+    1679.25
+   ],
+   "centre": [
+    131.9,
+    1689.8
+   ],
+   "width": 20.5,
+   "faces": 219,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "retail",
+   "ring": [
+    141.8,
+    1674.6,
+    143.6,
+    1697.2,
+    129.5,
+    1700.3,
+    129.2,
+    1699,
+    127.5,
+    1699.4,
+    127.1,
+    1697.7,
+    128.5,
+    1697.3,
+    127.4,
+    1691.3,
+    122.2,
+    1687.2,
+    135.1,
+    1671.3,
+    139.4,
+    1672.2
+   ],
+   "id": "kunstlaan-219-09",
+   "latLon": [
+    51.041225,
+    3.725235
+   ],
+   "photos": [
+    {
+     "id": "1248373513956125-120",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.217,
+      0.855
+     ]
+    },
+    {
+     "id": "722137552490621-145",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.109,
+      0.766
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23609,
+   "at": [
+    -11.5,
+    1848.4
+   ],
+   "centre": [
+    -3.5,
+    1855.4
+   ],
+   "width": 7.5,
+   "faces": 220,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": 20.4,
+   "kind": "house",
+   "ring": [
+    -13.9,
+    1851.3,
+    -9.1,
+    1845.5,
+    4.4,
+    1856.7,
+    2.6,
+    1858.9,
+    0.1,
+    1857,
+    -3.1,
+    1860.2,
+    -5.7,
+    1858
+   ],
+   "id": "kunstlaan-220-10",
+   "latLon": [
+    51.040001,
+    3.723633
+   ],
+   "photos": [
+    {
+     "id": "237590974787053",
+     "metres": 34,
+     "off": 19,
+     "span": [
+      0.079,
+      0.253
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23607,
+   "at": [
+    -6.699999999999999,
+    1842.65
+   ],
+   "centre": [
+    1.3,
+    1849.5
+   ],
+   "width": 7.5,
+   "faces": 220,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 20.2,
+   "kind": "house",
+   "ring": [
+    -9.1,
+    1845.5,
+    -4.3,
+    1839.8,
+    6.6,
+    1848.8,
+    3.9,
+    1851.9,
+    6.4,
+    1854.3,
+    4.4,
+    1856.7
+   ],
+   "id": "kunstlaan-220-11",
+   "latLon": [
+    51.040043,
+    3.723688
+   ],
+   "photos": [
+    {
+     "id": "1060980299252665-113",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.407,
+      0.602
+     ]
+    },
+    {
+     "id": "5083429745072561-116",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.41,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23606,
+   "at": [
+    -1.9,
+    1836.9
+   ],
+   "centre": [
+    5.9,
+    1845.1
+   ],
+   "width": 7.5,
+   "faces": 220,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 20.8,
+   "kind": "house",
+   "ring": [
+    -4.3,
+    1839.8,
+    0.5,
+    1834,
+    14.1,
+    1845.7,
+    9.6,
+    1851.3,
+    9.2,
+    1851,
+    6.6,
+    1848.8
+   ],
+   "id": "kunstlaan-220-12",
+   "latLon": [
+    51.040084,
+    3.723743
+   ],
+   "photos": [
+    {
+     "id": "684489781230170-137",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.391,
+      0.603
+     ]
+    },
+    {
+     "id": "5126455314089321-132",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.364,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23605,
+   "at": [
+    2.5,
+    1831.65
+   ],
+   "centre": [
+    10.3,
+    1838.2
+   ],
+   "width": 6.2,
+   "faces": 220,
+   "toStreet": 6.5,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 20.9,
+   "kind": "house",
+   "ring": [
+    0.5,
+    1834,
+    4.5,
+    1829.3,
+    14.1,
+    1837.6,
+    12.4,
+    1839.6,
+    16.3,
+    1842.9,
+    14.1,
+    1845.7
+   ],
+   "id": "kunstlaan-220-13",
+   "latLon": [
+    51.040122,
+    3.723793
+   ],
+   "photos": [
+    {
+     "id": "684489781230170-115",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.418,
+      0.585
+     ]
+    },
+    {
+     "id": "166112269119527-156",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.381,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23602,
+   "at": [
+    11.899999999999999,
+    1820.0500000000002
+   ],
+   "centre": [
+    20.8,
+    1827.2
+   ],
+   "width": 8.7,
+   "faces": 220,
+   "toStreet": 6.4,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    9.1,
+    1823.4,
+    14.7,
+    1816.7,
+    26.7,
+    1826.3,
+    26.7,
+    1831.8,
+    26.7,
+    1837.9
+   ],
+   "id": "kunstlaan-220-14",
+   "latLon": [
+    51.040206,
+    3.7239
+   ],
+   "photos": [
+    {
+     "id": "2125974614580588-120",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.385,
+      0.623
+     ]
+    },
+    {
+     "id": "1193292241416155-149",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.259,
+      0.682
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23629,
+   "at": [
+    28.65,
+    1800.2
+   ],
+   "centre": [
+    32.6,
+    1803.3
+   ],
+   "width": 13,
+   "faces": 220,
+   "toStreet": 6.6,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    24.5,
+    1805.2,
+    32.8,
+    1795.2,
+    36,
+    1796,
+    38,
+    1809.7,
+    31.7,
+    1810.6
+   ],
+   "id": "kunstlaan-220-15",
+   "latLon": [
+    51.04035,
+    3.724092
+   ],
+   "photos": [
+    {
+     "id": "981478497401830-152",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.135,
+      0.727
+     ]
+    },
+    {
+     "id": "504785911281196-152",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.824
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23620,
+   "at": [
+    63.400000000000006,
+    1758.25
+   ],
+   "centre": [
+    71.5,
+    1765.7
+   ],
+   "width": 5.6,
+   "faces": 220,
+   "toStreet": 6.8,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    65.2,
+    1756.1,
+    75.6,
+    1765.1,
+    73.5,
+    1767.6,
+    76.3,
+    1770,
+    74.4,
+    1770.5,
+    74.2,
+    1770.5,
+    61.6,
+    1760.4
+   ],
+   "id": "kunstlaan-220-16",
+   "latLon": [
+    51.040653,
+    3.724489
+   ],
+   "photos": [
+    {
+     "id": "787083702255887-147",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.221,
+      0.701
+     ]
+    },
+    {
+     "id": "680361118084825-155",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.399,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23615,
+   "at": [
+    74,
+    1745.4499999999998
+   ],
+   "centre": [
+    79.9,
+    1754.6
+   ],
+   "width": 5.6,
+   "faces": 220,
+   "toStreet": 6.9,
+   "floors": 5,
+   "eaves": 19.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    72.2,
+    1747.6,
+    75.8,
+    1743.3,
+    80.1,
+    1747.1,
+    84.4,
+    1760.5,
+    83.4,
+    1760.8,
+    83.7,
+    1762.5,
+    81.9,
+    1763,
+    77.4,
+    1752
+   ],
+   "id": "kunstlaan-220-17",
+   "latLon": [
+    51.040746,
+    3.72461
+   ],
+   "photos": [
+    {
+     "id": "1248510319993193-153",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.394,
+      0.589
+     ]
+    },
+    {
+     "id": "516078276712260-101",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.307,
+      0.82
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23333,
+   "at": [
+    77.69999999999999,
+    1741.05
+   ],
+   "centre": [
+    83.2,
+    1749.4
+   ],
+   "width": 5.9,
+   "faces": 220,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    75.8,
+    1743.3,
+    79.6,
+    1738.8,
+    88.7,
+    1746.4,
+    85.5,
+    1750.5,
+    88.2,
+    1759.3,
+    84.4,
+    1760.5,
+    80.1,
+    1747.1
+   ],
+   "id": "kunstlaan-220-18",
+   "latLon": [
+    51.040778,
+    3.724653
+   ],
+   "photos": [
+    {
+     "id": "1248510319993193-127",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.385,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23309,
+   "at": [
+    81.6,
+    1736.4
+   ],
+   "centre": [
+    90.2,
+    1746.5
+   ],
+   "width": 6.2,
+   "faces": 220,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    83.6,
+    1734,
+    93,
+    1741.4,
+    91.1,
+    1743.7,
+    93.9,
+    1747.4,
+    97.5,
+    1756.4,
+    93.4,
+    1757.6,
+    90.1,
+    1749.7,
+    90.8,
+    1749.2,
+    88.7,
+    1746.4,
+    79.6,
+    1738.8
+   ],
+   "id": "kunstlaan-220-19",
+   "latLon": [
+    51.040811,
+    3.724697
+   ],
+   "photos": [
+    {
+     "id": "1248510319993193-102",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.408,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23275,
+   "at": [
+    101.9,
+    1711.75
+   ],
+   "centre": [
+    110.5,
+    1718.2
+   ],
+   "width": 8.2,
+   "faces": 220,
+   "toStreet": 7.3,
+   "floors": 5,
+   "eaves": 17,
+   "top": 19.9,
+   "kind": "yes",
+   "ring": [
+    104.5,
+    1708.6,
+    113.4,
+    1715.9,
+    113.8,
+    1716.2,
+    112.1,
+    1718.1,
+    115,
+    1720.4,
+    113,
+    1722.9,
+    112.4,
+    1722.3,
+    110.8,
+    1724.4,
+    99.3,
+    1714.9
+   ],
+   "id": "kunstlaan-220-20",
+   "latLon": [
+    51.04099,
+    3.724929
+   ],
+   "photos": [
+    {
+     "id": "686205737362629-113",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.361,
+      0.667
+     ]
+    },
+    {
+     "id": "714875573043616-147",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.358,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23276,
+   "at": [
+    106.45,
+    1706.25
+   ],
+   "centre": [
+    111.7,
+    1709.7
+   ],
+   "width": 6.1,
+   "faces": 220,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 16,
+   "top": 19,
+   "kind": "yes",
+   "ring": [
+    108.4,
+    1703.9,
+    114.8,
+    1709.1,
+    117.3,
+    1711.1,
+    113.4,
+    1715.9,
+    104.5,
+    1708.6
+   ],
+   "id": "kunstlaan-220-21",
+   "latLon": [
+    51.04103,
+    3.724981
+   ],
+   "photos": [
+    {
+     "id": "1702955060614465-135",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.418,
+      0.585
+     ]
+    },
+    {
+     "id": "714875573043616-119",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.403,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23277,
+   "at": [
+    111.5,
+    1700.15
+   ],
+   "centre": [
+    114.2,
+    1704
+   ],
+   "width": 9.7,
+   "faces": 220,
+   "toStreet": 7.4,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    108.4,
+    1703.9,
+    114.6,
+    1696.4,
+    116.2,
+    1703.7,
+    116.8,
+    1706.7,
+    114.8,
+    1709.1
+   ],
+   "id": "kunstlaan-220-22",
+   "latLon": [
+    51.041074,
+    3.725039
+   ],
+   "photos": [
+    {
+     "id": "1702955060614465-111",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.388,
+      0.631
+     ]
+    },
+    {
+     "id": "3303454366556262-145",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.333,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23278,
+   "at": [
+    120.45,
+    1689.3000000000002
+   ],
+   "centre": [
+    123.4,
+    1695.6
+   ],
+   "width": 5.5,
+   "faces": 220,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    128.5,
+    1697.3,
+    127.1,
+    1697.7,
+    124.1,
+    1698.5,
+    123.3,
+    1700,
+    121.7,
+    1700.4,
+    121.2,
+    1697.8,
+    122,
+    1696.2,
+    121.7,
+    1693.6,
+    118.7,
+    1691.4,
+    122.2,
+    1687.2,
+    127.4,
+    1691.3
+   ],
+   "id": "kunstlaan-220-23",
+   "latLon": [
+    51.041152,
+    3.725141
+   ],
+   "photos": [
+    {
+     "id": "691470328734585-144",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.41,
+      0.585
+     ]
+    },
+    {
+     "id": "1248373513956125-163",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.432,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23611,
+   "at": [
+    -18.4,
+    1856.5
+   ],
+   "centre": [
+    -16.3,
+    1861.2
+   ],
+   "width": 13.8,
+   "faces": 221,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 19.5,
+   "kind": "house",
+   "ring": [
+    -13.9,
+    1851.3,
+    -5.7,
+    1858,
+    -16.3,
+    1870,
+    -22.5,
+    1865,
+    -22.9,
+    1861.7
+   ],
+   "id": "kunstlaan-221-24",
+   "latLon": [
+    51.039943,
+    3.723554
+   ],
+   "photos": [
+    {
+     "id": "5639826736058248",
+     "metres": 25,
+     "off": 12,
+     "span": [
+      0.076,
+      0.511
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23610,
+   "at": [
+    -11,
+    1864
+   ],
+   "centre": [
+    -7.1,
+    1864.9
+   ],
+   "width": 16,
+   "faces": 221,
+   "toStreet": 16.8,
+   "floors": 6,
+   "eaves": 21.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -16.3,
+    1870,
+    -5.7,
+    1858,
+    -3.1,
+    1860.2,
+    -4.8,
+    1862,
+    -2.1,
+    1864.4,
+    -10.7,
+    1874.8
+   ],
+   "id": "kunstlaan-221-25",
+   "latLon": [
+    51.039888,
+    3.723639
+   ],
+   "photos": [
+    {
+     "id": "812983902673945",
+     "metres": 25,
+     "off": 16,
+     "span": [
+      0,
+      0.48
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23273,
+   "at": [
+    93.45,
+    1722.0500000000002
+   ],
+   "centre": [
+    103.7,
+    1730.3
+   ],
+   "width": 6.2,
+   "faces": 221,
+   "toStreet": 7.2,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    95.5,
+    1719.7,
+    107.2,
+    1729.9,
+    109.4,
+    1729.2,
+    111.8,
+    1736.8,
+    107.8,
+    1738.1,
+    102.8,
+    1733.9,
+    91.4,
+    1724.4
+   ],
+   "id": "kunstlaan-221-26",
+   "latLon": [
+    51.040915,
+    3.724833
+   ],
+   "photos": [
+    {
+     "id": "1835546143963895-102",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.342,
+      0.735
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23601,
+   "at": [
+    17.15,
+    1813.95
+   ],
+   "centre": [
+    22.7,
+    1818.4
+   ],
+   "width": 7.4,
+   "faces": 222,
+   "toStreet": 6.5,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    14.7,
+    1816.7,
+    19.6,
+    1811.2,
+    29.9,
+    1819.4,
+    26.7,
+    1826.3
+   ],
+   "id": "kunstlaan-222-27",
+   "latLon": [
+    51.04025,
+    3.72396
+   ],
+   "photos": [
+    {
+     "id": "1345242799869403-146",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.382,
+      0.598
+     ]
+    },
+    {
+     "id": "1193292241416155-103",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.37,
+      0.685
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23175,
+   "at": [
+    119.15,
+    1703.0500000000002
+   ],
+   "centre": [
+    126.7,
+    1704.4
+   ],
+   "width": 6,
+   "faces": 258,
+   "toStreet": 15.2,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    143.6,
+    1697.2,
+    129.5,
+    1700.3,
+    129.2,
+    1699,
+    127.5,
+    1699.4,
+    127.7,
+    1700.6,
+    122.1,
+    1702.4,
+    116.2,
+    1703.7,
+    116.8,
+    1706.7,
+    118,
+    1711.8,
+    119.2,
+    1711.5,
+    126.8,
+    1709.6,
+    126.9,
+    1710.1,
+    144,
+    1705.4
+   ],
+   "id": "kunstlaan-258-01",
+   "latLon": [
+    51.041053,
+    3.725126
+   ],
+   "photos": [
+    {
+     "id": "691470328734585-164",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.443,
+      0.553
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23627,
+   "at": [
+    59.35,
+    1773.95
+   ],
+   "centre": [
+    66.2,
+    1775.7
+   ],
+   "width": 15.6,
+   "faces": 259,
+   "toStreet": 13.6,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 17.9,
+   "kind": "house",
+   "ring": [
+    51.7,
+    1775.5,
+    67,
+    1772.4,
+    74.2,
+    1770.5,
+    74.4,
+    1770.5,
+    75.7,
+    1775,
+    67.5,
+    1777.7,
+    67.9,
+    1778.7,
+    65.1,
+    1779.5,
+    52.7,
+    1781.5
+   ],
+   "id": "kunstlaan-259-02",
+   "latLon": [
+    51.04054,
+    3.724443
+   ],
+   "photos": [
+    {
+     "id": "680361118084825-176",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.36,
+      0.629
+     ]
+    },
+    {
+     "id": "787083702255887-182",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.303,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23626,
+   "at": [
+    58.9,
+    1780.5
+   ],
+   "centre": [
+    65.1,
+    1783.1
+   ],
+   "width": 12.6,
+   "faces": 261,
+   "toStreet": 17.4,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    52.7,
+    1781.5,
+    65.1,
+    1779.5,
+    65.2,
+    1780.9,
+    70.5,
+    1780,
+    71.2,
+    1783.9,
+    69.4,
+    1784.2,
+    69.5,
+    1785.1,
+    69,
+    1785.1,
+    53.5,
+    1787.3
+   ],
+   "id": "kunstlaan-261-03",
+   "latLon": [
+    51.040492,
+    3.724438
+   ],
+   "photos": [
+    {
+     "id": "1322946155440856-157",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.385,
+      0.623
+     ]
+    },
+    {
+     "id": "3262971327249045-158",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.359,
+      0.67
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23194,
+   "at": [
+    117.25,
+    1640.25
+   ],
+   "centre": [
+    107.8,
+    1643.4
+   ],
+   "width": 6.4,
+   "faces": 352,
+   "toStreet": 10.1,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    97.3,
+    1640.7,
+    116.8,
+    1637.1,
+    117.7,
+    1643.4,
+    117.1,
+    1645.8,
+    113.2,
+    1650.5,
+    107.4,
+    1645.8,
+    102.6,
+    1645.1,
+    104.4,
+    1643,
+    104.3,
+    1641.3,
+    97.7,
+    1641.3
+   ],
+   "id": "kunstlaan-352-01",
+   "latLon": [
+    51.041507,
+    3.725105
+   ],
+   "photos": [
+    {
+     "id": "761691071214877",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.743,
+      0.833
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 23150,
+   "at": [
+    116.44999999999999,
+    1634.05
+   ],
+   "centre": [
+    104.7,
+    1635.7
+   ],
+   "width": 6.1,
+   "faces": 353,
+   "toStreet": 14.1,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 18.8,
+   "kind": "house",
+   "ring": [
+    96.4,
+    1634.9,
+    97,
+    1634.8,
+    116.1,
+    1631,
+    116.8,
+    1637.1,
+    97.3,
+    1640.7
+   ],
+   "id": "kunstlaan-353-02",
+   "latLon": [
+    51.041552,
+    3.725096
+   ],
+   "photos": [
+    {
+     "id": "1026083859672973-281",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.344,
+      0.625
+     ]
+    },
+    {
+     "id": "310048221286054-263",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.422,
+      0.575
+     ]
+    }
+   ]
+  }
+ ]
+}

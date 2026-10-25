@@ -11,6 +11,7 @@
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { PERSON, dressed } from './stops.js';
+import { letGo } from './facades.js';
 
 export const HIGH = 0.22; // metres: how high the platform is
 export const FROM = 1.6;  // metres from the middle of the track to the platform's kerb
@@ -33,11 +34,12 @@ const tint = (geo, hex) => {
 // (`cut` pieces along z, for one bent along a track: see tramstops.js)
 const box = (w, h, d, x, y, z, hex, cut = 1) => tint(new THREE.BoxGeometry(w, h, d, 1, 1, cut).translate(x, y, z), hex);
 
-// lines: [{ ref, colour }] stopping there; name: the stop's; seed: who is waiting. Returns the group,
+// lines: [{ ref, colour }] stopping there; name: the stop's; seed: who is waiting (crowd false: they are
+// not drawn but handed back in userData.waiting, [{ x, z, turn, size, c }], to stand on their own). Returns the group,
 // its userData { length, width, post (where to wait: by the sign, on the platform), ledge (its top,
 // for the ground: [x, z, x, z, half its width], down its middle), board: { draw(rows) } }, rows
 // being [{ ref, colour, to, min (0: here now) }], the next trams.
-export function tramPlatform({ length = 36, width = 2.6, lines = [], name = '', seed = 1 } = {}) {
+export function tramPlatform({ length = 36, width = 2.6, lines = [], name = '', seed = 1, crowd = true } = {}) {
   const g = new THREE.Group(), IN = FROM, OUT = FROM + width, L = length / 2;
   let s = seed * 9301 + 49297;
   const rnd = () => ((s = (s * 9301 + 49297) % 233280) / 233280);
@@ -62,11 +64,12 @@ export function tramPlatform({ length = 36, width = 2.6, lines = [], name = '', 
     box(1.36, 0.58, 0.06, boardX, HIGH + 2.62, boardZ, DARK),
   );
   // people waiting, looking out for the tram
-  const n = 1 + Math.floor(rnd() * 4);
+  const n = 1 + Math.floor(rnd() * 4), waiting = [];
   for (let k = 0; k < n; k++) {
     const c = dressed(rnd), size = 0.9 + rnd() * 0.2, turn = Math.PI + (rnd() - 0.5) * 1.8;
     const x = IN + 0.9 + rnd() * Math.max(0.1, width - 1.3), z = (rnd() - 0.5) * length * 0.7;
-    ['legs', 'body', 'head'].forEach((part, j) => parts.push(tint(PERSON[part].clone().scale(size, size, size).rotateY(turn).translate(x, HIGH, z), c[j])));
+    if (crowd) ['legs', 'body', 'head'].forEach((part, j) => parts.push(tint(PERSON[part].clone().scale(size, size, size).rotateY(turn).translate(x, HIGH, z), c[j])));
+    else waiting.push({ x, z, turn, size, c });
   }
   const body = new THREE.Mesh(mergeGeometries(parts), materials().body);
   body.castShadow = body.receiveShadow = true;
@@ -91,7 +94,7 @@ export function tramPlatform({ length = 36, width = 2.6, lines = [], name = '', 
   const board = { draw: rows => { drawBoard(canvas, rows); texture.needsUpdate = true; } };
   board.draw([]);
 
-  g.userData = { length, width, post: new THREE.Vector3(signX, HIGH, signZ), ledge: [IN + width / 2, -L, IN + width / 2, L, width / 2], board };
+  g.userData = { length, width, post: new THREE.Vector3(signX, HIGH, signZ), ledge: [IN + width / 2, -L, IN + width / 2, L, width / 2], board, waiting };
   return g;
 }
 
@@ -126,8 +129,21 @@ function drawBoard(canvas, rows) {
   });
 }
 
-// The sign's face: a yellow head saying TRAM, the lines in their colours, and the stop's name.
+// The sign's face: a yellow head saying TRAM, the lines in their colours, and the stop's name. One
+// for the platforms of a stop that share them, its canvas let go once on the GPU.
+const SIGNS = new Map();
 function signTexture(lines, name) {
+  const key = `${lines.slice(0, 3).map(l => `${l.ref}${l.colour}`).join()}|${name}`;
+  if (!SIGNS.has(key)) {
+    const texture = letGo(new THREE.CanvasTexture(signCanvas(lines, name)), () => { texture.image = signCanvas(lines, name); });
+    texture.colorSpace = THREE.SRGBColorSpace;
+    texture.anisotropy = 4;
+    texture.userData.shared = true;
+    SIGNS.set(key, texture);
+  }
+  return SIGNS.get(key);
+}
+function signCanvas(lines, name) {
   const canvas = document.createElement('canvas'), W = 128, H = 296;
   canvas.width = W;
   canvas.height = H;
@@ -158,8 +174,5 @@ function signTexture(lines, name) {
     else out.push(w);
   }
   out.slice(-3).forEach((t, k, all) => g.fillText(t, W / 2, H - 14 - (all.length - 1 - k) * 18, W - 8));
-  const texture = new THREE.CanvasTexture(canvas);
-  texture.colorSpace = THREE.SRGBColorSpace;
-  texture.anisotropy = 4;
-  return texture;
+  return canvas;
 }

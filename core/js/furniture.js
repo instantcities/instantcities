@@ -211,7 +211,7 @@ function streetLamps(w) {
     const pedestrian = rd.foot && rd.w >= 5;
     if ((rd.foot && !pedestrian) || rd.br === 3) return; // a grand bridge has lamps of its own
     const wide = rd.w >= 10 || pedestrian, side0 = hash(i) < 0.5 ? 1 : -1;
-    const off = pedestrian ? rd.w / 2 - 0.6 : rd.w / 2 + 0.45;
+    const off = pedestrian ? rd.w / 2 - 0.6 : rd.w / 2 + (rd.bay ? 3.1 : 0.45); // behind the parking bays of a bay street
     along(rd, LAMP_EVERY, 6 + hash(i, 1) * 10, (x0, z0, tx, tz, y, n) => {
       const side = wide && n % 2 ? -side0 : side0, nx = -tz * side, nz = tx * side;
       const x = x0 + nx * off, z = z0 + nz * off, old = w.old(x, z);
@@ -391,7 +391,8 @@ function draw(ctx, w) {
     if (kind === 'candelabra') ctx.group.add(...candelabraLight(geos.candelabraGlass, items, d));
     if (kind === 'lamp' || kind === 'lantern') ctx.group.add(glassOf(geos[`${kind}Glass`], items, d, kind));
   }
-  ctx.group.add(...streetLight(w, d));
+  const lights = streetLight(w, d);
+  if (lights.length) ctx.group.add(...lights); // (a city with no lamps, indoors, has none)
 }
 
 // The lamps, dim by day and lit at night (furnitureNight): the glass of every lamp, lantern and

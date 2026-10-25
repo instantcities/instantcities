@@ -1,0 +1,8390 @@
+{
+ "city": "ghent",
+ "street": "Gebroeders De Smetstraat",
+ "slug": "gebroeders-de-smetstraat",
+ "photos": {
+  "645625961281991-26": {
+   "file": "photos/645625961281991-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645625961281991",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622228,
+    3.7072818,
+    26,
+    0.5
+   ]
+  },
+  "599762626211131-35": {
+   "file": "photos/599762626211131-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=599762626211131",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0623614,
+    3.7070088,
+    35,
+    0.5
+   ]
+  },
+  "1640106210207597-26": {
+   "file": "photos/1640106210207597-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640106210207597",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635771,
+    3.7044213,
+    26,
+    0.5
+   ]
+  },
+  "1303566460985438-67": {
+   "file": "photos/1303566460985438-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1303566460985438",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0633406,
+    3.7045137,
+    67,
+    0.5
+   ]
+  },
+  "1704931187033342-59": {
+   "file": "photos/1704931187033342-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1704931187033342",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631655,
+    3.7053038,
+    59,
+    0.5
+   ]
+  },
+  "1563983087606974-58": {
+   "file": "photos/1563983087606974-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1563983087606974",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.062604,
+    3.706481,
+    58,
+    0.5
+   ]
+  },
+  "1375701183425643-36": {
+   "file": "photos/1375701183425643-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1375701183425643",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0624862,
+    3.7067399,
+    36,
+    0.5
+   ]
+  },
+  "986895683410386-21": {
+   "file": "photos/986895683410386-21.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986895683410386",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0624245,
+    3.7068743,
+    21,
+    0.5
+   ]
+  },
+  "1613225532893280-1": {
+   "file": "photos/1613225532893280-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    1,
+    0.5
+   ]
+  },
+  "1303566460985438-8": {
+   "file": "photos/1303566460985438-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1303566460985438",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0633406,
+    3.7045137,
+    8,
+    0.5
+   ]
+  },
+  "2400471240296796-64": {
+   "file": "photos/2400471240296796-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2400471240296796",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0633832,
+    3.7045844,
+    64,
+    0.5
+   ]
+  },
+  "1285578406068062-79": {
+   "file": "photos/1285578406068062-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285578406068062",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0634363,
+    3.7047235,
+    79,
+    0.5
+   ]
+  },
+  "641983575086432-3": {
+   "file": "photos/641983575086432-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=641983575086432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0633658,
+    3.7048726,
+    3,
+    0.5
+   ]
+  },
+  "641983575086432-62": {
+   "file": "photos/641983575086432-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=641983575086432",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0633658,
+    3.7048726,
+    62,
+    0.5
+   ]
+  },
+  "1704931187033342-354": {
+   "file": "photos/1704931187033342-354.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1704931187033342",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631655,
+    3.7053038,
+    354,
+    0.5
+   ]
+  },
+  "537285016011877-78": {
+   "file": "photos/537285016011877-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=537285016011877",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0631777,
+    3.7050542,
+    78,
+    0.5
+   ]
+  },
+  "1563983087606974-13": {
+   "file": "photos/1563983087606974-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1563983087606974",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.062604,
+    3.706481,
+    13,
+    0.5
+   ]
+  },
+  "1586757742025672-4": {
+   "file": "photos/1586757742025672-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1586757742025672",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0625464,
+    3.7066096,
+    4,
+    0.5
+   ]
+  },
+  "1586757742025672-48": {
+   "file": "photos/1586757742025672-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1586757742025672",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0625464,
+    3.7066096,
+    48,
+    0.5
+   ]
+  },
+  "1375701183425643-356": {
+   "file": "photos/1375701183425643-356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1375701183425643",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0624862,
+    3.7067399,
+    356,
+    0.5
+   ]
+  },
+  "599762626211131-355": {
+   "file": "photos/599762626211131-355.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=599762626211131",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0623614,
+    3.7070088,
+    355,
+    0.5
+   ]
+  },
+  "612919815037569-45": {
+   "file": "photos/612919815037569-45.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=612919815037569",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0640026,
+    3.7031878,
+    45,
+    0.5
+   ]
+  },
+  "1613225532893280-76": {
+   "file": "photos/1613225532893280-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    76,
+    0.5
+   ]
+  },
+  "591122480589710-48": {
+   "file": "photos/591122480589710-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=591122480589710",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0632306,
+    3.7051643,
+    48,
+    0.5
+   ]
+  },
+  "1221992349584663-58": {
+   "file": "photos/1221992349584663-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1221992349584663",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0632336,
+    3.7051232,
+    58,
+    0.5
+   ]
+  },
+  "1375701183425643-75": {
+   "file": "photos/1375701183425643-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1375701183425643",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0624862,
+    3.7067399,
+    75,
+    0.5
+   ]
+  },
+  "1176587927428679-44": {
+   "file": "photos/1176587927428679-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1176587927428679",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.060356,
+    3.7101039,
+    44,
+    0.5
+   ]
+  },
+  "1319406099195213-39": {
+   "file": "photos/1319406099195213-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1319406099195213",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0616753,
+    3.7081303,
+    39,
+    0.5
+   ]
+  },
+  "1359354871912082-33": {
+   "file": "photos/1359354871912082-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1359354871912082",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616797,
+    3.7081588,
+    33,
+    0.5
+   ]
+  },
+  "620412440748942-43": {
+   "file": "photos/620412440748942-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=620412440748942",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621702,
+    3.7071101,
+    43,
+    0.5
+   ]
+  },
+  "1163357542168170-20": {
+   "file": "photos/1163357542168170-20.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1163357542168170",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619761,
+    3.7076496,
+    20,
+    0.5
+   ]
+  },
+  "1718959025632090-20": {
+   "file": "photos/1718959025632090-20.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1718959025632090",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618923,
+    3.7077742,
+    20,
+    0.5
+   ]
+  },
+  "957225512491964-32": {
+   "file": "photos/957225512491964-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=957225512491964",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0616014,
+    3.7082373,
+    32,
+    0.5
+   ]
+  },
+  "907739198110035-44": {
+   "file": "photos/907739198110035-44.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=907739198110035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0613765,
+    3.7085672,
+    44,
+    0.5
+   ]
+  },
+  "907739198110035-85": {
+   "file": "photos/907739198110035-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=907739198110035",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0613765,
+    3.7085672,
+    85,
+    0.5
+   ]
+  },
+  "642112878368145-58": {
+   "file": "photos/642112878368145-58.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=642112878368145",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.061304,
+    3.7087136,
+    58,
+    0.5
+   ]
+  },
+  "1457142101944059-70": {
+   "file": "photos/1457142101944059-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1457142101944059",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.061304,
+    3.708679,
+    70,
+    0.5
+   ]
+  },
+  "637362615288418-51": {
+   "file": "photos/637362615288418-51.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=637362615288418",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0612303,
+    3.7087868,
+    51,
+    0.5
+   ]
+  },
+  "1304953477257519-11": {
+   "file": "photos/1304953477257519-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304953477257519",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612205,
+    3.7088363,
+    11,
+    0.5
+   ]
+  },
+  "1141206260727535-29": {
+   "file": "photos/1141206260727535-29.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1141206260727535",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0611572,
+    3.7088931,
+    29,
+    0.5
+   ]
+  },
+  "1016179010569118-40": {
+   "file": "photos/1016179010569118-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1016179010569118",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0604321,
+    3.7099765,
+    40,
+    0.5
+   ]
+  },
+  "1016179010569118-81": {
+   "file": "photos/1016179010569118-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1016179010569118",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0604321,
+    3.7099765,
+    81,
+    0.5
+   ]
+  },
+  "645625961281991-60": {
+   "file": "photos/645625961281991-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645625961281991",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622228,
+    3.7072818,
+    60,
+    0.5
+   ]
+  },
+  "1661657924787771-62": {
+   "file": "photos/1661657924787771-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1661657924787771",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.062116,
+    3.7071141,
+    62,
+    0.5
+   ]
+  },
+  "1154335896201444-46": {
+   "file": "photos/1154335896201444-46.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154335896201444",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621411,
+    3.7074036,
+    46,
+    0.5
+   ]
+  },
+  "1154335896201444-86": {
+   "file": "photos/1154335896201444-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1154335896201444",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621411,
+    3.7074036,
+    86,
+    0.5
+   ]
+  },
+  "1018665490115993-65": {
+   "file": "photos/1018665490115993-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1018665490115993",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.062059,
+    3.7075255,
+    65,
+    0.5
+   ]
+  },
+  "1163357542168170-83": {
+   "file": "photos/1163357542168170-83.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1163357542168170",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619761,
+    3.7076496,
+    83,
+    0.5
+   ]
+  },
+  "1718959025632090-50": {
+   "file": "photos/1718959025632090-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1718959025632090",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618923,
+    3.7077742,
+    50,
+    0.5
+   ]
+  },
+  "1718959025632090-78": {
+   "file": "photos/1718959025632090-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1718959025632090",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618923,
+    3.7077742,
+    78,
+    0.5
+   ]
+  },
+  "997163965659963-49": {
+   "file": "photos/997163965659963-49.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=997163965659963",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618066,
+    3.7079004,
+    49,
+    0.5
+   ]
+  },
+  "957225512491964-3": {
+   "file": "photos/957225512491964-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=957225512491964",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0616014,
+    3.7082373,
+    3,
+    0.5
+   ]
+  },
+  "662243182892807-31": {
+   "file": "photos/662243182892807-31.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=662243182892807",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615847,
+    3.7082911,
+    31,
+    0.5
+   ]
+  },
+  "957225512491964-73": {
+   "file": "photos/957225512491964-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=957225512491964",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0616014,
+    3.7082373,
+    73,
+    0.5
+   ]
+  },
+  "1690758341873459-61": {
+   "file": "photos/1690758341873459-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1690758341873459",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614993,
+    3.7084206,
+    61,
+    0.5
+   ]
+  },
+  "490321103674411-7": {
+   "file": "photos/490321103674411-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=490321103674411",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0614492,
+    3.7084585,
+    7,
+    0.5
+   ]
+  },
+  "1457142101944059-26": {
+   "file": "photos/1457142101944059-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1457142101944059",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.061304,
+    3.708679,
+    26,
+    0.5
+   ]
+  },
+  "642112878368145-3": {
+   "file": "photos/642112878368145-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=642112878368145",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.061304,
+    3.7087136,
+    3,
+    0.5
+   ]
+  },
+  "1304953477257519-71": {
+   "file": "photos/1304953477257519-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1304953477257519",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612205,
+    3.7088363,
+    71,
+    0.5
+   ]
+  },
+  "637362615288418-88": {
+   "file": "photos/637362615288418-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=637362615288418",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0612303,
+    3.7087868,
+    88,
+    0.5
+   ]
+  },
+  "1896769307524076-65": {
+   "file": "photos/1896769307524076-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1896769307524076",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611365,
+    3.7089545,
+    65,
+    0.5
+   ]
+  },
+  "1270031347539022-7": {
+   "file": "photos/1270031347539022-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1270031347539022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610846,
+    3.7089982,
+    7,
+    0.5
+   ]
+  },
+  "1270031347539022-39": {
+   "file": "photos/1270031347539022-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1270031347539022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610846,
+    3.7089982,
+    39,
+    0.5
+   ]
+  },
+  "1270031347539022-75": {
+   "file": "photos/1270031347539022-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1270031347539022",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610846,
+    3.7089982,
+    75,
+    0.5
+   ]
+  },
+  "2065907880584939-13": {
+   "file": "photos/2065907880584939-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2065907880584939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.061052,
+    3.709074,
+    13,
+    0.5
+   ]
+  },
+  "2065907880584939-60": {
+   "file": "photos/2065907880584939-60.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2065907880584939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.061052,
+    3.709074,
+    60,
+    0.5
+   ]
+  },
+  "589601050365294-17": {
+   "file": "photos/589601050365294-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589601050365294",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610156,
+    3.7091023,
+    17,
+    0.5
+   ]
+  },
+  "589601050365294-54": {
+   "file": "photos/589601050365294-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589601050365294",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610156,
+    3.7091023,
+    54,
+    0.5
+   ]
+  },
+  "826713599628948-11": {
+   "file": "photos/826713599628948-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=826713599628948",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0609727,
+    3.7091938,
+    11,
+    0.5
+   ]
+  },
+  "589601050365294-86": {
+   "file": "photos/589601050365294-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589601050365294",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610156,
+    3.7091023,
+    86,
+    0.5
+   ]
+  },
+  "829387819271210-43": {
+   "file": "photos/829387819271210-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=829387819271210",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0609379,
+    3.7092149,
+    43,
+    0.5
+   ]
+  },
+  "826713599628948-85": {
+   "file": "photos/826713599628948-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=826713599628948",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0609727,
+    3.7091938,
+    85,
+    0.5
+   ]
+  },
+  "660135103247560-3": {
+   "file": "photos/660135103247560-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=660135103247560",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0605117,
+    3.7098579,
+    3,
+    0.5
+   ]
+  },
+  "660135103247560-40": {
+   "file": "photos/660135103247560-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=660135103247560",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0605117,
+    3.7098579,
+    40,
+    0.5
+   ]
+  },
+  "1176587927428679-46": {
+   "file": "photos/1176587927428679-46.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1176587927428679",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.060356,
+    3.7101039,
+    46,
+    0.5
+   ]
+  },
+  "1163357542168170-52": {
+   "file": "photos/1163357542168170-52.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1163357542168170",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619761,
+    3.7076496,
+    52,
+    0.5
+   ]
+  },
+  "637362615288418-11": {
+   "file": "photos/637362615288418-11.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=637362615288418",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0612303,
+    3.7087868,
+    11,
+    0.5
+   ]
+  },
+  "1141206260727535-67": {
+   "file": "photos/1141206260727535-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1141206260727535",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0611572,
+    3.7088931,
+    67,
+    0.5
+   ]
+  },
+  "1896769307524076-16": {
+   "file": "photos/1896769307524076-16.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1896769307524076",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611365,
+    3.7089545,
+    16,
+    0.5
+   ]
+  },
+  "589601050365294-67": {
+   "file": "photos/589601050365294-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589601050365294",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0610156,
+    3.7091023,
+    67,
+    0.5
+   ]
+  },
+  "2065907880584939-84": {
+   "file": "photos/2065907880584939-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2065907880584939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.061052,
+    3.709074,
+    84,
+    0.5
+   ]
+  },
+  "3614578135499569-75": {
+   "file": "photos/3614578135499569-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3614578135499569",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0608045,
+    3.7094038,
+    75,
+    0.5
+   ]
+  },
+  "652679830534906-85": {
+   "file": "photos/652679830534906-85.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=652679830534906",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0608272,
+    3.7094056,
+    85,
+    0.5
+   ]
+  },
+  "951510153797802-87": {
+   "file": "photos/951510153797802-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=951510153797802",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0607586,
+    3.7095009,
+    87,
+    0.5
+   ]
+  },
+  "896939769189130-70": {
+   "file": "photos/896939769189130-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=896939769189130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0607324,
+    3.7095083,
+    70,
+    0.5
+   ]
+  },
+  "1009828314313286-69": {
+   "file": "photos/1009828314313286-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1009828314313286",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0607618,
+    3.7094646,
+    69,
+    0.5
+   ]
+  },
+  "951510153797802-62": {
+   "file": "photos/951510153797802-62.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=951510153797802",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0607586,
+    3.7095009,
+    62,
+    0.5
+   ]
+  },
+  "1718959025632090-90": {
+   "file": "photos/1718959025632090-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1718959025632090",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618923,
+    3.7077742,
+    90,
+    0.5
+   ]
+  },
+  "1285415232747360-177": {
+   "file": "photos/1285415232747360-177.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1285415232747360",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627826,
+    3.7060941,
+    177,
+    0.5
+   ]
+  },
+  "862820194300591": {
+   "file": "photos/862820194300591.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=862820194300591",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-10",
+   "cam": [
+    51.0641848,
+    3.7029839,
+    240,
+    0.818
+   ]
+  },
+  "4330240123693014": {
+   "file": "photos/4330240123693014.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4330240123693014",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-10",
+   "cam": [
+    51.0640335,
+    3.7034024,
+    216,
+    0.759
+   ]
+  },
+  "9319122141500977-242": {
+   "file": "photos/9319122141500977-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9319122141500977",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638983,
+    3.7037326,
+    242,
+    0.5
+   ]
+  },
+  "1347482612918883-204": {
+   "file": "photos/1347482612918883-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1347482612918883",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638329,
+    3.7038707,
+    204,
+    0.5
+   ]
+  },
+  "585311944506868-230": {
+   "file": "photos/585311944506868-230.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=585311944506868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637701,
+    3.7040153,
+    230,
+    0.5
+   ]
+  },
+  "585311944506868-204": {
+   "file": "photos/585311944506868-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=585311944506868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637701,
+    3.7040153,
+    204,
+    0.5
+   ]
+  },
+  "1613225532893280-200": {
+   "file": "photos/1613225532893280-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    200,
+    0.5
+   ]
+  },
+  "1640106210207597-237": {
+   "file": "photos/1640106210207597-237.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640106210207597",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635771,
+    3.7044213,
+    237,
+    0.5
+   ]
+  },
+  "1640106210207597-189": {
+   "file": "photos/1640106210207597-189.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640106210207597",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635771,
+    3.7044213,
+    189,
+    0.5
+   ]
+  },
+  "916112610407763-240": {
+   "file": "photos/916112610407763-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=916112610407763",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635065,
+    3.7045728,
+    240,
+    0.5
+   ]
+  },
+  "2683312321860153-253": {
+   "file": "photos/2683312321860153-253.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2683312321860153",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0635262,
+    3.7047706,
+    253,
+    0.5
+   ]
+  },
+  "1408437547095428": {
+   "file": "photos/1408437547095428.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1408437547095428",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.063457,
+    3.7048961,
+    197,
+    0.498
+   ]
+  },
+  "2828093577374032": {
+   "file": "photos/2828093577374032.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2828093577374032",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0635961,
+    3.7049826,
+    191,
+    0.498
+   ]
+  },
+  "656126630165545-179": {
+   "file": "photos/656126630165545-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=656126630165545",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0641313,
+    3.7031142,
+    179,
+    0.5
+   ]
+  },
+  "1018416256817014-179": {
+   "file": "photos/1018416256817014-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1018416256817014",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642331,
+    3.7031544,
+    179,
+    0.5
+   ]
+  },
+  "343206660719593": {
+   "file": "photos/343206660719593.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=343206660719593",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-10",
+   "cam": [
+    51.0640984,
+    3.7032981,
+    182,
+    0.718
+   ]
+  },
+  "5719566628061207": {
+   "file": "photos/5719566628061207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5719566628061207",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-10",
+   "cam": [
+    51.064059,
+    3.7033068,
+    193,
+    0.718
+   ]
+  },
+  "3901876333259584": {
+   "file": "photos/3901876333259584.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3901876333259584",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-12-10",
+   "cam": [
+    51.0640381,
+    3.7033984,
+    185,
+    0.759
+   ]
+  },
+  "9319122141500977-259": {
+   "file": "photos/9319122141500977-259.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9319122141500977",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638983,
+    3.7037326,
+    259,
+    0.5
+   ]
+  },
+  "9319122141500977-184": {
+   "file": "photos/9319122141500977-184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9319122141500977",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638983,
+    3.7037326,
+    184,
+    0.5
+   ]
+  },
+  "1347482612918883-228": {
+   "file": "photos/1347482612918883-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1347482612918883",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638329,
+    3.7038707,
+    228,
+    0.5
+   ]
+  },
+  "1613225532893280-246": {
+   "file": "photos/1613225532893280-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    246,
+    0.5
+   ]
+  },
+  "1613225532893280-223": {
+   "file": "photos/1613225532893280-223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    223,
+    0.5
+   ]
+  },
+  "1613225532893280-181": {
+   "file": "photos/1613225532893280-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1613225532893280",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637065,
+    3.70416,
+    181,
+    0.5
+   ]
+  },
+  "1640106210207597-256": {
+   "file": "photos/1640106210207597-256.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640106210207597",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635771,
+    3.7044213,
+    256,
+    0.5
+   ]
+  },
+  "1640106210207597-212": {
+   "file": "photos/1640106210207597-212.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1640106210207597",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635771,
+    3.7044213,
+    212,
+    0.5
+   ]
+  },
+  "1333529277711382": {
+   "file": "photos/1333529277711382.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1333529277711382",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0635273,
+    3.7049441,
+    201,
+    0.498
+   ]
+  },
+  "628183253608888": {
+   "file": "photos/628183253608888.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=628183253608888",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0633866,
+    3.7048477,
+    191,
+    0.498
+   ]
+  },
+  "1704931187033342-252": {
+   "file": "photos/1704931187033342-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1704931187033342",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631655,
+    3.7053038,
+    252,
+    0.5
+   ]
+  },
+  "1818105465659471-188": {
+   "file": "photos/1818105465659471-188.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1818105465659471",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0632958,
+    3.7051997,
+    188,
+    0.5
+   ]
+  },
+  "1704931187033342-213": {
+   "file": "photos/1704931187033342-213.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1704931187033342",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631655,
+    3.7053038,
+    213,
+    0.5
+   ]
+  },
+  "1818105465659471-172": {
+   "file": "photos/1818105465659471-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1818105465659471",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0632958,
+    3.7051997,
+    172,
+    0.5
+   ]
+  },
+  "607489092266258-228": {
+   "file": "photos/607489092266258-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=607489092266258",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630997,
+    3.7054367,
+    228,
+    0.5
+   ]
+  },
+  "9319122141500977-219": {
+   "file": "photos/9319122141500977-219.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9319122141500977",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638983,
+    3.7037326,
+    219,
+    0.5
+   ]
+  },
+  "585311944506868-249": {
+   "file": "photos/585311944506868-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=585311944506868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0637701,
+    3.7040153,
+    249,
+    0.5
+   ]
+  },
+  "721292227220313": {
+   "file": "photos/721292227220313.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=721292227220313",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-29",
+   "cam": [
+    51.0636687,
+    3.7050399,
+    198,
+    0.498
+   ]
+  },
+  "652679830534906-241": {
+   "file": "photos/652679830534906-241.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=652679830534906",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0608272,
+    3.7094056,
+    241,
+    0.5
+   ]
+  },
+  "3614578135499569-260": {
+   "file": "photos/3614578135499569-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3614578135499569",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0608045,
+    3.7094038,
+    260,
+    0.5
+   ]
+  },
+  "4644869252196103": {
+   "file": "photos/4644869252196103.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4644869252196103",
+   "author": "cpu20",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-03-16",
+   "cam": [
+    51.0603898,
+    3.7104255,
+    253,
+    0.571
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 31540,
+   "at": [
+    -1433.6,
+    -1239.6
+   ],
+   "centre": [
+    -1431.7,
+    -1242.1
+   ],
+   "width": 12.7,
+   "faces": 111,
+   "toStreet": 16.7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1422.7,
+    -1241.7,
+    -1424,
+    -1240.6,
+    -1427.7,
+    -1237.3,
+    -1439.5,
+    -1241.9,
+    -1438.5,
+    -1244.5,
+    -1437.6,
+    -1246.8
+   ],
+   "id": "gebroeders-de-smetstraat-111-01",
+   "latLon": [
+    51.062343,
+    3.707375
+   ],
+   "photos": [
+    {
+     "id": "645625961281991-26",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.325,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31529,
+   "at": [
+    -1456.6,
+    -1254.9499999999998
+   ],
+   "centre": [
+    -1462.4,
+    -1259.8
+   ],
+   "width": 10.9,
+   "faces": 116,
+   "toStreet": 15.5,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1465.7,
+    -1263.6,
+    -1466.5,
+    -1262.1,
+    -1463.5,
+    -1260.6,
+    -1462.8,
+    -1261.9,
+    -1450.1,
+    -1256.7,
+    -1450.6,
+    -1255.5,
+    -1451.7,
+    -1252.6,
+    -1461.5,
+    -1257.3,
+    -1465,
+    -1259,
+    -1468.9,
+    -1260.8,
+    -1468.5,
+    -1261.6,
+    -1468.5,
+    -1261.7,
+    -1467.3,
+    -1264.6
+   ],
+   "id": "gebroeders-de-smetstraat-116-01",
+   "latLon": [
+    51.062454,
+    3.707112
+   ],
+   "photos": [
+    {
+     "id": "599762626211131-35",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.32,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31402,
+   "at": [
+    -1690.25,
+    -1413.8
+   ],
+   "centre": [
+    -1690.4,
+    -1418.3
+   ],
+   "width": 5.4,
+   "faces": 124,
+   "toStreet": 6,
+   "floors": 2,
+   "eaves": 9,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -1681,
+    -1421.9,
+    -1688,
+    -1412.3,
+    -1692.5,
+    -1415.3,
+    -1692.3,
+    -1415.6,
+    -1693.4,
+    -1416.3,
+    -1694.4,
+    -1417,
+    -1692.4,
+    -1419.8,
+    -1692.2,
+    -1420.1,
+    -1687.4,
+    -1426.5
+   ],
+   "id": "gebroeders-de-smetstraat-124-02",
+   "latLon": [
+    51.063603,
+    3.704441
+   ],
+   "photos": [
+    {
+     "id": "1640106210207597-26",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.193,
+      0.866
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31417,
+   "at": [
+    -1685.9,
+    -1410.9
+   ],
+   "centre": [
+    -1682.2,
+    -1411.4
+   ],
+   "width": 5,
+   "faces": 124,
+   "toStreet": 6.2,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -1675,
+    -1417.5,
+    -1682,
+    -1407.7,
+    -1682.3,
+    -1407.9,
+    -1682,
+    -1408.2,
+    -1682.8,
+    -1408.7,
+    -1683,
+    -1408.9,
+    -1683.8,
+    -1409.5,
+    -1688,
+    -1412.3,
+    -1681,
+    -1421.9
+   ],
+   "id": "gebroeders-de-smetstraat-124-03",
+   "latLon": [
+    51.063582,
+    3.704491
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31415,
+   "at": [
+    -1656.15,
+    -1389.05
+   ],
+   "centre": [
+    -1650.6,
+    -1396.4
+   ],
+   "width": 5,
+   "faces": 125,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -1654.1,
+    -1387.6,
+    -1658.2,
+    -1390.5,
+    -1647.1,
+    -1405.2,
+    -1643.1,
+    -1402.4
+   ],
+   "id": "gebroeders-de-smetstraat-125-04",
+   "latLon": [
+    51.063424,
+    3.704831
+   ],
+   "photos": [
+    {
+     "id": "1303566460985438-67",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.466,
+      0.537
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31476,
+   "at": [
+    -1610.35,
+    -1355.9499999999998
+   ],
+   "centre": [
+    -1604.1,
+    -1364.4
+   ],
+   "width": 6.5,
+   "faces": 125,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1613,
+    -1357.8,
+    -1602.3,
+    -1373.2,
+    -1600.2,
+    -1371.7,
+    -1601.9,
+    -1369.2,
+    -1599.7,
+    -1367.9,
+    -1601.1,
+    -1365.6,
+    -1606.8,
+    -1355.8,
+    -1607.7,
+    -1354.1
+   ],
+   "id": "gebroeders-de-smetstraat-125-05",
+   "latLon": [
+    51.063185,
+    3.705355
+   ],
+   "photos": [
+    {
+     "id": "1704931187033342-59",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.116,
+      0.732
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31494,
+   "at": [
+    -1504.95,
+    -1280
+   ],
+   "centre": [
+    -1497.2,
+    -1289.3
+   ],
+   "width": 6.2,
+   "faces": 125,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1489.3,
+    -1295.9,
+    -1492.4,
+    -1291.7,
+    -1502.4,
+    -1278.2,
+    -1507.5,
+    -1281.8,
+    -1494.4,
+    -1298.7
+   ],
+   "id": "gebroeders-de-smetstraat-125-06",
+   "latLon": [
+    51.062635,
+    3.70656
+   ],
+   "photos": [
+    {
+     "id": "1563983087606974-58",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.291,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31472,
+   "at": [
+    -1484.75,
+    -1265.5
+   ],
+   "centre": [
+    -1479,
+    -1274.4
+   ],
+   "width": 6.2,
+   "faces": 125,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1471.5,
+    -1278.2,
+    -1482.2,
+    -1263.7,
+    -1487.3,
+    -1267.3,
+    -1477.2,
+    -1281.1,
+    -1476.8,
+    -1281.7
+   ],
+   "id": "gebroeders-de-smetstraat-125-07",
+   "latLon": [
+    51.06253,
+    3.70679
+   ],
+   "photos": [
+    {
+     "id": "1375701183425643-36",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.292,
+      0.704
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31495,
+   "at": [
+    -1474.6,
+    -1258.15
+   ],
+   "centre": [
+    -1466.7,
+    -1268.1
+   ],
+   "width": 6.4,
+   "faces": 125,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1462.3,
+    -1276.5,
+    -1463.2,
+    -1274.5,
+    -1464.2,
+    -1272,
+    -1466,
+    -1267.6,
+    -1467.3,
+    -1264.6,
+    -1468.5,
+    -1261.7,
+    -1468.5,
+    -1261.6,
+    -1468.9,
+    -1260.8,
+    -1472,
+    -1256.3,
+    -1477.2,
+    -1260,
+    -1462.1,
+    -1281.3,
+    -1460.7,
+    -1280.6
+   ],
+   "id": "gebroeders-de-smetstraat-125-08",
+   "latLon": [
+    51.062477,
+    3.706906
+   ],
+   "photos": [
+    {
+     "id": "986895683410386-21",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.32,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36108,
+   "at": [
+    -1762.75,
+    -1471.4
+   ],
+   "centre": [
+    -1748.3,
+    -1466
+   ],
+   "width": 36.6,
+   "faces": 126,
+   "toStreet": 10.1,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1737.3,
+    -1468,
+    -1735.4,
+    -1466.6,
+    -1730.5,
+    -1463.1,
+    -1736.2,
+    -1455.2,
+    -1737.2,
+    -1455.9,
+    -1739.1,
+    -1453.2,
+    -1744.4,
+    -1457,
+    -1747.9,
+    -1459.6,
+    -1747.4,
+    -1460.3,
+    -1747.9,
+    -1460.7,
+    -1777.6,
+    -1482.1,
+    -1776,
+    -1484.6,
+    -1770.7,
+    -1492.2
+   ],
+   "id": "gebroeders-de-smetstraat-126-09",
+   "latLon": [
+    51.06402,
+    3.703612
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36046,
+   "at": [
+    -1714.65,
+    -1435.9
+   ],
+   "centre": [
+    -1711.7,
+    -1438.3
+   ],
+   "width": 5.1,
+   "faces": 126,
+   "toStreet": 9.6,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -1703.7,
+    -1442.7,
+    -1707.3,
+    -1437.6,
+    -1710.7,
+    -1433,
+    -1712.4,
+    -1434.7,
+    -1712.6,
+    -1434.4,
+    -1716.7,
+    -1437.4,
+    -1717,
+    -1437.6,
+    -1715.1,
+    -1440.2,
+    -1710,
+    -1447.2
+   ],
+   "id": "gebroeders-de-smetstraat-126-10",
+   "latLon": [
+    51.063763,
+    3.704162
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-1",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.391,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36064,
+   "at": [
+    -1702.4,
+    -1427
+   ],
+   "centre": [
+    -1698.7,
+    -1429.4
+   ],
+   "width": 5.2,
+   "faces": 126,
+   "toStreet": 9.5,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -1691.5,
+    -1433.9,
+    -1698.3,
+    -1424.6,
+    -1700.1,
+    -1425.8,
+    -1700.3,
+    -1425.5,
+    -1704.5,
+    -1428.5,
+    -1697.5,
+    -1438.2
+   ],
+   "id": "gebroeders-de-smetstraat-126-11",
+   "latLon": [
+    51.063699,
+    3.704302
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36089,
+   "at": [
+    -1696.35,
+    -1422.65
+   ],
+   "centre": [
+    -1692.7,
+    -1425.2
+   ],
+   "width": 5.6,
+   "faces": 126,
+   "toStreet": 9.6,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -1685.2,
+    -1429.6,
+    -1687.4,
+    -1426.5,
+    -1692.2,
+    -1420.1,
+    -1693.9,
+    -1421.3,
+    -1694.1,
+    -1421,
+    -1698.6,
+    -1424.3,
+    -1698.3,
+    -1424.6,
+    -1691.5,
+    -1433.9
+   ],
+   "id": "gebroeders-de-smetstraat-126-12",
+   "latLon": [
+    51.063667,
+    3.704371
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31409,
+   "at": [
+    -1679.95,
+    -1406.2
+   ],
+   "centre": [
+    -1675.9,
+    -1407.7
+   ],
+   "width": 5.1,
+   "faces": 126,
+   "toStreet": 5.8,
+   "floors": 2,
+   "eaves": 9.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -1668.8,
+    -1412.8,
+    -1673.8,
+    -1406,
+    -1675.6,
+    -1403.5,
+    -1676.6,
+    -1404.3,
+    -1677.6,
+    -1405,
+    -1677.9,
+    -1404.7,
+    -1682,
+    -1407.7,
+    -1675,
+    -1417.5
+   ],
+   "id": "gebroeders-de-smetstraat-126-13",
+   "latLon": [
+    51.063548,
+    3.704559
+   ],
+   "photos": [
+    {
+     "id": "1303566460985438-8",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.461,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31412,
+   "at": [
+    -1660.0500000000002,
+    -1391.85
+   ],
+   "centre": [
+    -1656.5,
+    -1399
+   ],
+   "width": 4.6,
+   "faces": 126,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1659.1,
+    -1398.9,
+    -1656.5,
+    -1401.5,
+    -1650.3,
+    -1407.6,
+    -1647.1,
+    -1405.2,
+    -1658.2,
+    -1390.5,
+    -1661.9,
+    -1393.2,
+    -1662.1,
+    -1395.9
+   ],
+   "id": "gebroeders-de-smetstraat-126-14",
+   "latLon": [
+    51.063444,
+    3.704786
+   ],
+   "photos": [
+    {
+     "id": "2400471240296796-64",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.448,
+      0.552
+     ]
+    },
+    {
+     "id": "1285578406068062-79",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.286,
+      0.615
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31403,
+   "at": [
+    -1652.25,
+    -1386.25
+   ],
+   "centre": [
+    -1644.5,
+    -1395.3
+   ],
+   "width": 4.6,
+   "faces": 126,
+   "toStreet": 5.7,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1640.1,
+    -1400.2,
+    -1638.9,
+    -1399.4,
+    -1640.5,
+    -1397.4,
+    -1650.4,
+    -1384.9,
+    -1654.1,
+    -1387.6,
+    -1643.1,
+    -1402.4
+   ],
+   "id": "gebroeders-de-smetstraat-126-15",
+   "latLon": [
+    51.063404,
+    3.704876
+   ],
+   "photos": [
+    {
+     "id": "641983575086432-3",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.351,
+      0.737
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31411,
+   "at": [
+    -1648.15,
+    -1383.25
+   ],
+   "centre": [
+    -1641.3,
+    -1392.5
+   ],
+   "width": 5.6,
+   "faces": 126,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -1635.1,
+    -1396.7,
+    -1645.9,
+    -1381.6,
+    -1650.4,
+    -1384.9,
+    -1640.5,
+    -1397.4,
+    -1638.8,
+    -1396.1,
+    -1637.2,
+    -1398.1
+   ],
+   "id": "gebroeders-de-smetstraat-126-16",
+   "latLon": [
+    51.063382,
+    3.704922
+   ],
+   "photos": [
+    {
+     "id": "641983575086432-62",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.164,
+      0.71
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31416,
+   "at": [
+    -1641,
+    -1378.05
+   ],
+   "centre": [
+    -1635.8,
+    -1383.3
+   ],
+   "width": 4.2,
+   "faces": 126,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1626.3,
+    -1390.4,
+    -1630.6,
+    -1384.6,
+    -1632.5,
+    -1382.1,
+    -1633.4,
+    -1381,
+    -1636.2,
+    -1377.3,
+    -1639.3,
+    -1376.8,
+    -1642.7,
+    -1379.3,
+    -1645.9,
+    -1381.6,
+    -1635.1,
+    -1396.7
+   ],
+   "id": "gebroeders-de-smetstraat-126-17",
+   "latLon": [
+    51.063344,
+    3.705004
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31431,
+   "at": [
+    -1615.45,
+    -1359.6
+   ],
+   "centre": [
+    -1610.7,
+    -1367.9
+   ],
+   "width": 6.1,
+   "faces": 126,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -1602.3,
+    -1373.2,
+    -1613,
+    -1357.8,
+    -1617.9,
+    -1361.4,
+    -1613.8,
+    -1366.9,
+    -1613.3,
+    -1367.7,
+    -1612.3,
+    -1366.9,
+    -1609.6,
+    -1370.3,
+    -1608.8,
+    -1371.4,
+    -1605.7,
+    -1375.8
+   ],
+   "id": "gebroeders-de-smetstraat-126-18",
+   "latLon": [
+    51.063211,
+    3.705296
+   ],
+   "photos": [
+    {
+     "id": "1704931187033342-354",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.365,
+      0.764
+     ]
+    },
+    {
+     "id": "537285016011877-78",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.439,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31477,
+   "at": [
+    -1594.3,
+    -1343.9
+   ],
+   "centre": [
+    -1597.9,
+    -1351.9
+   ],
+   "width": 15.5,
+   "faces": 126,
+   "toStreet": 7.8,
+   "floors": 4,
+   "eaves": 14,
+   "top": 16.7,
+   "kind": "yes",
+   "ring": [
+    -1601.1,
+    -1365.6,
+    -1579.8,
+    -1351,
+    -1588,
+    -1339.4,
+    -1600.6,
+    -1348.4,
+    -1602.7,
+    -1349.8,
+    -1601.3,
+    -1352.1,
+    -1603.2,
+    -1353.4,
+    -1606.8,
+    -1355.8
+   ],
+   "id": "gebroeders-de-smetstraat-126-19",
+   "latLon": [
+    51.063097,
+    3.705538
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31446,
+   "at": [
+    -1509.95,
+    -1283.6
+   ],
+   "centre": [
+    -1503,
+    -1293.9
+   ],
+   "width": 6.1,
+   "faces": 126,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 21.3,
+   "kind": "house",
+   "ring": [
+    -1498.7,
+    -1301,
+    -1494.4,
+    -1298.7,
+    -1507.5,
+    -1281.8,
+    -1512.4,
+    -1285.4,
+    -1501.8,
+    -1302.7
+   ],
+   "id": "gebroeders-de-smetstraat-126-20",
+   "latLon": [
+    51.062661,
+    3.706502
+   ],
+   "photos": [
+    {
+     "id": "1563983087606974-13",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.351,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31443,
+   "at": [
+    -1499.9,
+    -1276.4
+   ],
+   "centre": [
+    -1490.9,
+    -1289.1
+   ],
+   "width": 6.2,
+   "faces": 126,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -1483.8,
+    -1292.9,
+    -1486.5,
+    -1289.2,
+    -1497.4,
+    -1274.6,
+    -1502.4,
+    -1278.2,
+    -1492.4,
+    -1291.7,
+    -1489.3,
+    -1295.9,
+    -1488.1,
+    -1295.2,
+    -1487.3,
+    -1294.8
+   ],
+   "id": "gebroeders-de-smetstraat-126-21",
+   "latLon": [
+    51.062609,
+    3.706617
+   ],
+   "photos": [
+    {
+     "id": "1586757742025672-4",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.376,
+      0.69
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31497,
+   "at": [
+    -1494.9,
+    -1272.8
+   ],
+   "centre": [
+    -1489.4,
+    -1280.1
+   ],
+   "width": 6.2,
+   "faces": 126,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1497.4,
+    -1274.6,
+    -1486.5,
+    -1289.2,
+    -1481.5,
+    -1285.4,
+    -1492.4,
+    -1271
+   ],
+   "id": "gebroeders-de-smetstraat-126-22",
+   "latLon": [
+    51.062583,
+    3.706674
+   ],
+   "photos": [
+    {
+     "id": "1586757742025672-48",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.284,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31511,
+   "at": [
+    -1489.85,
+    -1269.15
+   ],
+   "centre": [
+    -1480.9,
+    -1281.4
+   ],
+   "width": 6.3,
+   "faces": 126,
+   "toStreet": 7.5,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1474.7,
+    -1284.5,
+    -1476.8,
+    -1281.7,
+    -1477.2,
+    -1281.1,
+    -1487.3,
+    -1267.3,
+    -1492.4,
+    -1271,
+    -1481.5,
+    -1285.4,
+    -1479.9,
+    -1284.1,
+    -1479,
+    -1285.1,
+    -1480.6,
+    -1286.3,
+    -1479.7,
+    -1287.5
+   ],
+   "id": "gebroeders-de-smetstraat-126-23",
+   "latLon": [
+    51.062557,
+    3.706732
+   ],
+   "photos": [
+    {
+     "id": "1375701183425643-356",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.398,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31508,
+   "at": [
+    -1466.55,
+    -1252.35
+   ],
+   "centre": [
+    -1461.5,
+    -1253.3
+   ],
+   "width": 13.5,
+   "faces": 126,
+   "toStreet": 7.6,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1451.7,
+    -1252.6,
+    -1454.3,
+    -1246.4,
+    -1457.2,
+    -1245.6,
+    -1461.1,
+    -1248.4,
+    -1472,
+    -1256.3,
+    -1468.9,
+    -1260.8,
+    -1465,
+    -1259,
+    -1461.5,
+    -1257.3
+   ],
+   "id": "gebroeders-de-smetstraat-126-24",
+   "latLon": [
+    51.062435,
+    3.706999
+   ],
+   "photos": [
+    {
+     "id": "599762626211131-355",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.327,
+      0.937
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36104,
+   "at": [
+    -1783.25,
+    -1485.6
+   ],
+   "centre": [
+    -1770.6,
+    -1500.4
+   ],
+   "width": 5.4,
+   "faces": 127,
+   "toStreet": 9.9,
+   "floors": 6,
+   "eaves": 21,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1742.7,
+    -1509.2,
+    -1742.2,
+    -1507.4,
+    -1763.3,
+    -1502.4,
+    -1770.7,
+    -1492.2,
+    -1776,
+    -1484.6,
+    -1777.6,
+    -1482.1,
+    -1777.9,
+    -1481.7,
+    -1781.1,
+    -1484,
+    -1785.4,
+    -1487.2,
+    -1784.7,
+    -1488.2,
+    -1782.2,
+    -1491.6,
+    -1785.4,
+    -1493.9,
+    -1782.1,
+    -1498.3,
+    -1781.9,
+    -1498.7,
+    -1777.7,
+    -1504.4,
+    -1772.4,
+    -1511.7,
+    -1771.5,
+    -1512.9,
+    -1769.9,
+    -1511.8,
+    -1768.6,
+    -1513.6,
+    -1757.3,
+    -1516.3,
+    -1757.4,
+    -1517.1,
+    -1745.5,
+    -1520
+   ],
+   "id": "gebroeders-de-smetstraat-127-25",
+   "latLon": [
+    51.064123,
+    3.703378
+   ],
+   "photos": [
+    {
+     "id": "612919815037569-45",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.441,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36057,
+   "at": [
+    -1706.65,
+    -1430.1
+   ],
+   "centre": [
+    -1705.9,
+    -1434.8
+   ],
+   "width": 5.4,
+   "faces": 127,
+   "toStreet": 9.6,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -1697.5,
+    -1438.2,
+    -1704.5,
+    -1428.5,
+    -1708.8,
+    -1431.7,
+    -1708.6,
+    -1432,
+    -1710.7,
+    -1433,
+    -1707.3,
+    -1437.6,
+    -1703.7,
+    -1442.7
+   ],
+   "id": "gebroeders-de-smetstraat-127-26",
+   "latLon": [
+    51.063721,
+    3.704254
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-76",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.346,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31432,
+   "at": [
+    -1617.4499999999998,
+    -1370.8000000000002
+   ],
+   "centre": [
+    -1614,
+    -1371.7
+   ],
+   "width": 10.4,
+   "faces": 127,
+   "toStreet": 14.1,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1610.9,
+    -1373,
+    -1611.8,
+    -1371.5,
+    -1609.6,
+    -1370.3,
+    -1612.3,
+    -1366.9,
+    -1613.3,
+    -1367.7,
+    -1621.6,
+    -1373.9,
+    -1618.2,
+    -1378.4
+   ],
+   "id": "gebroeders-de-smetstraat-127-27",
+   "latLon": [
+    51.063292,
+    3.705273
+   ],
+   "photos": [
+    {
+     "id": "591122480589710-48",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.285,
+      0.687
+     ]
+    },
+    {
+     "id": "1221992349584663-58",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.324,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31473,
+   "at": [
+    -1479.7,
+    -1261.85
+   ],
+   "centre": [
+    -1470.2,
+    -1275.9
+   ],
+   "width": 6.2,
+   "faces": 127,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    -1463.9,
+    -1282.3,
+    -1462.1,
+    -1281.3,
+    -1477.2,
+    -1260,
+    -1482.2,
+    -1263.7,
+    -1471.5,
+    -1278.2,
+    -1470.8,
+    -1279.3,
+    -1468.5,
+    -1282.4,
+    -1465.5,
+    -1280.2
+   ],
+   "id": "gebroeders-de-smetstraat-127-28",
+   "latLon": [
+    51.062504,
+    3.706848
+   ],
+   "photos": [
+    {
+     "id": "1375701183425643-75",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.351,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31824,
+   "at": [
+    -1183.35,
+    -977
+   ],
+   "centre": [
+    -1182.2,
+    -980.8
+   ],
+   "width": 14.5,
+   "faces": 131,
+   "toStreet": 18.7,
+   "floors": 1,
+   "eaves": 1.8,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    -1173.9,
+    -977.1,
+    -1177.9,
+    -972.2,
+    -1188.8,
+    -981.8,
+    -1185.3,
+    -986.4,
+    -1185,
+    -986.7
+   ],
+   "id": "gebroeders-de-smetstraat-131-29",
+   "latLon": [
+    51.060443,
+    3.710236
+   ],
+   "photos": [
+    {
+     "id": "1176587927428679-44",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.276,
+      0.711
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31967,
+   "at": [
+    -1356.45,
+    -1161.2
+   ],
+   "centre": [
+    -1352.5,
+    -1159.7
+   ],
+   "width": 6.6,
+   "faces": 132,
+   "toStreet": 19.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1349.7,
+    -1158.2,
+    -1351.1,
+    -1157,
+    -1351.3,
+    -1157,
+    -1351.6,
+    -1157,
+    -1354,
+    -1159,
+    -1358.9,
+    -1163.4,
+    -1355.4,
+    -1166.8,
+    -1348,
+    -1159.5
+   ],
+   "id": "gebroeders-de-smetstraat-132-30",
+   "latLon": [
+    51.061775,
+    3.708257
+   ],
+   "photos": [
+    {
+     "id": "1319406099195213-39",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.404,
+      0.589
+     ]
+    },
+    {
+     "id": "1359354871912082-33",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.399,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31542,
+   "at": [
+    -1439.6999999999998,
+    -1234
+   ],
+   "centre": [
+    -1436.5,
+    -1235.5
+   ],
+   "width": 5.5,
+   "faces": 136,
+   "toStreet": 8.5,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1427.7,
+    -1237.3,
+    -1436,
+    -1230.1,
+    -1437.8,
+    -1232,
+    -1441.6,
+    -1236,
+    -1439.5,
+    -1241.9
+   ],
+   "id": "gebroeders-de-smetstraat-136-31",
+   "latLon": [
+    51.062302,
+    3.707305
+   ],
+   "photos": [
+    {
+     "id": "620412440748942-43",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.445,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31550,
+   "at": [
+    -1406.15,
+    -1198.3
+   ],
+   "centre": [
+    -1384.1,
+    -1217.8
+   ],
+   "width": 4.2,
+   "faces": 136,
+   "toStreet": 8.7,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1367.3,
+    -1234.4,
+    -1358.1,
+    -1225.1,
+    -1353.4,
+    -1220.3,
+    -1357,
+    -1217,
+    -1360.6,
+    -1213.7,
+    -1370.3,
+    -1223.6,
+    -1373,
+    -1226.4,
+    -1378.5,
+    -1221.1,
+    -1388.8,
+    -1211.5,
+    -1390.3,
+    -1210.2,
+    -1395.2,
+    -1205.6,
+    -1404.7,
+    -1196.8,
+    -1407.6,
+    -1199.8,
+    -1409.4,
+    -1201.7,
+    -1404,
+    -1206.8,
+    -1395,
+    -1215.2,
+    -1396.3,
+    -1216.7,
+    -1396.7,
+    -1217.2,
+    -1399.9,
+    -1220.9,
+    -1387.4,
+    -1232,
+    -1386.4,
+    -1232.3,
+    -1380.9,
+    -1233.8,
+    -1374.4,
+    -1227.6
+   ],
+   "id": "gebroeders-de-smetstraat-136-32",
+   "latLon": [
+    51.062044,
+    3.707689
+   ],
+   "photos": [
+    {
+     "id": "1163357542168170-20",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.414,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31730,
+   "at": [
+    -1395.3,
+    -1186.75
+   ],
+   "centre": [
+    -1383,
+    -1199
+   ],
+   "width": 4.9,
+   "faces": 136,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1376.7,
+    -1200.7,
+    -1378.9,
+    -1198.6,
+    -1393.6,
+    -1185,
+    -1397,
+    -1188.5,
+    -1383.2,
+    -1201.7,
+    -1381.4,
+    -1199.8,
+    -1380.2,
+    -1200.8,
+    -1382,
+    -1202.8,
+    -1379.9,
+    -1204.8,
+    -1377.3,
+    -1207
+   ],
+   "id": "gebroeders-de-smetstraat-136-33",
+   "latLon": [
+    51.06196,
+    3.707813
+   ],
+   "photos": [
+    {
+     "id": "1718959025632090-20",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.399,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31914,
+   "at": [
+    -1354.3,
+    -1143.25
+   ],
+   "centre": [
+    -1344.1,
+    -1154.2
+   ],
+   "width": 4.9,
+   "faces": 136,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1337.3,
+    -1155.8,
+    -1352.6,
+    -1141.5,
+    -1356,
+    -1145,
+    -1346.1,
+    -1154.5,
+    -1345.5,
+    -1155.1,
+    -1343.4,
+    -1153.5,
+    -1340.9,
+    -1155.5,
+    -1342,
+    -1156.5,
+    -1341.7,
+    -1156.6,
+    -1343.4,
+    -1158.6,
+    -1341.9,
+    -1160.2,
+    -1338.8,
+    -1157.2
+   ],
+   "id": "gebroeders-de-smetstraat-136-34",
+   "latLon": [
+    51.061646,
+    3.708282
+   ],
+   "photos": [
+    {
+     "id": "957225512491964-32",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.351,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31882,
+   "at": [
+    -1324.25,
+    -1111.25
+   ],
+   "centre": [
+    -1315.1,
+    -1120.8
+   ],
+   "width": 6.5,
+   "faces": 136,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1306.4,
+    -1123.7,
+    -1322,
+    -1108.9,
+    -1326.5,
+    -1113.6,
+    -1315.9,
+    -1124.7,
+    -1315.2,
+    -1124.7,
+    -1315.1,
+    -1124.7,
+    -1304.7,
+    -1125.3
+   ],
+   "id": "gebroeders-de-smetstraat-136-35",
+   "latLon": [
+    51.061414,
+    3.708625
+   ],
+   "photos": [
+    {
+     "id": "907739198110035-44",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.282,
+      0.729
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31841,
+   "at": [
+    -1320.05,
+    -1106.85
+   ],
+   "centre": [
+    -1311.8,
+    -1114.2
+   ],
+   "width": 5.7,
+   "faces": 136,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -1302.9,
+    -1120.2,
+    -1309.5,
+    -1113.5,
+    -1318.1,
+    -1104.8,
+    -1322,
+    -1108.9,
+    -1306.4,
+    -1123.7
+   ],
+   "id": "gebroeders-de-smetstraat-136-36",
+   "latLon": [
+    51.061382,
+    3.708673
+   ],
+   "photos": [
+    {
+     "id": "907739198110035-85",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.353,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31821,
+   "at": [
+    -1312.3,
+    -1098.6
+   ],
+   "centre": [
+    -1305.6,
+    -1105
+   ],
+   "width": 5.8,
+   "faces": 136,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1297.1,
+    -1109.5,
+    -1310.3,
+    -1096.5,
+    -1314.3,
+    -1100.7,
+    -1300.7,
+    -1113.5
+   ],
+   "id": "gebroeders-de-smetstraat-136-37",
+   "latLon": [
+    51.061323,
+    3.708762
+   ],
+   "photos": [
+    {
+     "id": "642112878368145-58",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.179,
+      0.761
+     ]
+    },
+    {
+     "id": "1457142101944059-70",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.3,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31934,
+   "at": [
+    -1304.6,
+    -1090.3
+   ],
+   "centre": [
+    -1295,
+    -1100.2
+   ],
+   "width": 5.5,
+   "faces": 136,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1289.8,
+    -1108.3,
+    -1288.6,
+    -1106,
+    -1293.9,
+    -1101.5,
+    -1291.5,
+    -1099,
+    -1302.7,
+    -1088.3,
+    -1306.5,
+    -1092.3,
+    -1292.1,
+    -1106.2
+   ],
+   "id": "gebroeders-de-smetstraat-136-38",
+   "latLon": [
+    51.061263,
+    3.70885
+   ],
+   "photos": [
+    {
+     "id": "637362615288418-51",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.299,
+      0.686
+     ]
+    },
+    {
+     "id": "1304953477257519-11",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.354,
+      0.764
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31835,
+   "at": [
+    -1297.15,
+    -1082.4
+   ],
+   "centre": [
+    -1288.5,
+    -1090.4
+   ],
+   "width": 5,
+   "faces": 136,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1282.9,
+    -1095,
+    -1285.4,
+    -1092.9,
+    -1284,
+    -1091.5,
+    -1295.4,
+    -1080.6,
+    -1298.9,
+    -1084.2,
+    -1284.5,
+    -1097.9
+   ],
+   "id": "gebroeders-de-smetstraat-136-39",
+   "latLon": [
+    51.061205,
+    3.708935
+   ],
+   "photos": [
+    {
+     "id": "1141206260727535-29",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.355,
+      0.671
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31986,
+   "at": [
+    -1219.85,
+    -999.65
+   ],
+   "centre": [
+    -1212.4,
+    -1007.5
+   ],
+   "width": 6.2,
+   "faces": 136,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1222,
+    -1001.9,
+    -1210.2,
+    -1012.9,
+    -1208,
+    -1015,
+    -1203.9,
+    -1010.5,
+    -1217.7,
+    -997.4
+   ],
+   "id": "gebroeders-de-smetstraat-136-40",
+   "latLon": [
+    51.060607,
+    3.709819
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31840,
+   "at": [
+    -1201.8000000000002,
+    -980.5
+   ],
+   "centre": [
+    -1195,
+    -988.1
+   ],
+   "width": 5.5,
+   "faces": 136,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1190,
+    -990.9,
+    -1190.3,
+    -990.5,
+    -1199.9,
+    -978.5,
+    -1203.7,
+    -982.5,
+    -1193.2,
+    -992.8,
+    -1192.8,
+    -993.3
+   ],
+   "id": "gebroeders-de-smetstraat-136-41",
+   "latLon": [
+    51.060468,
+    3.710025
+   ],
+   "photos": [
+    {
+     "id": "1016179010569118-40",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.303,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31826,
+   "at": [
+    -1198.25,
+    -976.8
+   ],
+   "centre": [
+    -1190.8,
+    -984.2
+   ],
+   "width": 4.7,
+   "faces": 136,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1188.2,
+    -989.4,
+    -1185,
+    -986.7,
+    -1185.3,
+    -986.4,
+    -1188.8,
+    -981.8,
+    -1195.2,
+    -973.5,
+    -1196.6,
+    -975.1,
+    -1199.9,
+    -978.5,
+    -1190.3,
+    -990.5,
+    -1190,
+    -990.9,
+    -1188.4,
+    -989.5
+   ],
+   "id": "gebroeders-de-smetstraat-136-42",
+   "latLon": [
+    51.060441,
+    3.710066
+   ],
+   "photos": [
+    {
+     "id": "1016179010569118-81",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.349,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31554,
+   "at": [
+    -1433.75,
+    -1227.65
+   ],
+   "centre": [
+    -1423.1,
+    -1237.6
+   ],
+   "width": 6.7,
+   "faces": 137,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1414.9,
+    -1241.2,
+    -1416.8,
+    -1239.2,
+    -1431.5,
+    -1225.2,
+    -1436,
+    -1230.1,
+    -1427.7,
+    -1237.3,
+    -1424,
+    -1240.6,
+    -1422.1,
+    -1238.6,
+    -1419.8,
+    -1240.2,
+    -1420.4,
+    -1241,
+    -1418.3,
+    -1242.4
+   ],
+   "id": "gebroeders-de-smetstraat-137-43",
+   "latLon": [
+    51.062256,
+    3.707373
+   ],
+   "photos": [
+    {
+     "id": "645625961281991-60",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.306,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31553,
+   "at": [
+    -1428.9,
+    -1222.45
+   ],
+   "centre": [
+    -1418.5,
+    -1231.5
+   ],
+   "width": 6.2,
+   "faces": 137,
+   "toStreet": 8.4,
+   "floors": 4,
+   "eaves": 13.1,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -1408.1,
+    -1239.8,
+    -1405.5,
+    -1238.9,
+    -1415.1,
+    -1230,
+    -1426.3,
+    -1219.7,
+    -1426.8,
+    -1220.2,
+    -1431,
+    -1224.7,
+    -1431.5,
+    -1225.2,
+    -1416.8,
+    -1239.2,
+    -1414.3,
+    -1236.7,
+    -1409.8,
+    -1240.5
+   ],
+   "id": "gebroeders-de-smetstraat-137-44",
+   "latLon": [
+    51.062219,
+    3.707429
+   ],
+   "photos": [
+    {
+     "id": "1661657924787771-62",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.455,
+      0.552
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31552,
+   "at": [
+    -1424.65,
+    -1217.95
+   ],
+   "centre": [
+    -1419.1,
+    -1223.2
+   ],
+   "width": 4.8,
+   "faces": 137,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1412,
+    -1226.7,
+    -1423,
+    -1216.2,
+    -1426.3,
+    -1219.7,
+    -1415.1,
+    -1230
+   ],
+   "id": "gebroeders-de-smetstraat-137-45",
+   "latLon": [
+    51.062186,
+    3.707478
+   ],
+   "photos": [
+    {
+     "id": "1154335896201444-46",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.366,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31545,
+   "at": [
+    -1419.5,
+    -1212.5
+   ],
+   "centre": [
+    -1408.7,
+    -1221.4
+   ],
+   "width": 9.1,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    -1399.4,
+    -1224.5,
+    -1405.3,
+    -1218.8,
+    -1403.7,
+    -1217.2,
+    -1414.4,
+    -1207,
+    -1416.4,
+    -1209.2,
+    -1422.6,
+    -1215.8,
+    -1423,
+    -1216.2,
+    -1412,
+    -1226.7,
+    -1406.5,
+    -1231.9,
+    -1405.7,
+    -1230.6,
+    -1402.7,
+    -1228.5,
+    -1401.5,
+    -1226.9,
+    -1400.5,
+    -1225.4
+   ],
+   "id": "gebroeders-de-smetstraat-137-46",
+   "latLon": [
+    51.062147,
+    3.707536
+   ],
+   "photos": [
+    {
+     "id": "1154335896201444-86",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.3,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31546,
+   "at": [
+    -1411.9,
+    -1204.35
+   ],
+   "centre": [
+    -1402.4,
+    -1212.8
+   ],
+   "width": 7.3,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1404,
+    -1206.8,
+    -1409.4,
+    -1201.7,
+    -1414.4,
+    -1207,
+    -1403.7,
+    -1217.2,
+    -1399.9,
+    -1220.9,
+    -1396.7,
+    -1217.2,
+    -1396.3,
+    -1216.7,
+    -1395,
+    -1215.2
+   ],
+   "id": "gebroeders-de-smetstraat-137-47",
+   "latLon": [
+    51.062088,
+    3.707623
+   ],
+   "photos": [
+    {
+     "id": "1018665490115993-65",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.29,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31785,
+   "at": [
+    -1398.7,
+    -1190.3
+   ],
+   "centre": [
+    -1385.9,
+    -1202.6
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1377.3,
+    -1207,
+    -1379.9,
+    -1204.8,
+    -1382.3,
+    -1207.1,
+    -1385.7,
+    -1204.3,
+    -1383.2,
+    -1201.7,
+    -1397,
+    -1188.5,
+    -1400.4,
+    -1192.1,
+    -1390.9,
+    -1200.8,
+    -1384.3,
+    -1206.8,
+    -1377.8,
+    -1212.8
+   ],
+   "id": "gebroeders-de-smetstraat-137-48",
+   "latLon": [
+    51.061986,
+    3.707774
+   ],
+   "photos": [
+    {
+     "id": "1163357542168170-83",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.391,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31759,
+   "at": [
+    -1391.85,
+    -1183.15
+   ],
+   "centre": [
+    -1382.2,
+    -1191.4
+   ],
+   "width": 5.1,
+   "faces": 137,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -1376.3,
+    -1196.5,
+    -1376.2,
+    -1194.6,
+    -1378.3,
+    -1192.5,
+    -1390.1,
+    -1181.3,
+    -1393.6,
+    -1185,
+    -1378.9,
+    -1198.6
+   ],
+   "id": "gebroeders-de-smetstraat-137-49",
+   "latLon": [
+    51.061934,
+    3.707852
+   ],
+   "photos": [
+    {
+     "id": "1718959025632090-50",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.351,
+      0.636
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31743,
+   "at": [
+    -1388.4,
+    -1179.4499999999998
+   ],
+   "centre": [
+    -1380,
+    -1186.9
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1376,
+    -1192.4,
+    -1375.6,
+    -1188.1,
+    -1377,
+    -1186.7,
+    -1379,
+    -1184.9,
+    -1386.7,
+    -1177.6,
+    -1390.1,
+    -1181.3,
+    -1378.3,
+    -1192.5,
+    -1377.3,
+    -1191.4
+   ],
+   "id": "gebroeders-de-smetstraat-137-50",
+   "latLon": [
+    51.061908,
+    3.707892
+   ],
+   "photos": [
+    {
+     "id": "1718959025632090-78",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.387,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31746,
+   "at": [
+    -1380.95,
+    -1171.4
+   ],
+   "centre": [
+    -1378.5,
+    -1178.3
+   ],
+   "width": 9,
+   "faces": 137,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1373.7,
+    -1166.3,
+    -1376.2,
+    -1166.3,
+    -1377.9,
+    -1168.1,
+    -1384,
+    -1174.7,
+    -1386.7,
+    -1177.6,
+    -1379,
+    -1184.9,
+    -1378.2,
+    -1184.1,
+    -1376.2,
+    -1185.8,
+    -1377,
+    -1186.7,
+    -1375.6,
+    -1188.1
+   ],
+   "id": "gebroeders-de-smetstraat-137-51",
+   "latLon": [
+    51.061849,
+    3.707977
+   ],
+   "photos": [
+    {
+     "id": "997163965659963-49",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.239,
+      0.743
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31974,
+   "at": [
+    -1357.65,
+    -1146.75
+   ],
+   "centre": [
+    -1349.7,
+    -1154.7
+   ],
+   "width": 4.8,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1346.1,
+    -1154.5,
+    -1356,
+    -1145,
+    -1359.3,
+    -1148.5,
+    -1351.3,
+    -1156.8,
+    -1351.1,
+    -1157,
+    -1349.7,
+    -1158.2,
+    -1348,
+    -1159.5,
+    -1345.3,
+    -1156.8,
+    -1344.5,
+    -1156,
+    -1345.5,
+    -1155.1
+   ],
+   "id": "gebroeders-de-smetstraat-137-52",
+   "latLon": [
+    51.061671,
+    3.708243
+   ],
+   "photos": [
+    {
+     "id": "957225512491964-3",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.426,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31836,
+   "at": [
+    -1350.6999999999998,
+    -1139.45
+   ],
+   "centre": [
+    -1337,
+    -1153.3
+   ],
+   "width": 5.6,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1326.7,
+    -1158.3,
+    -1338.8,
+    -1146.9,
+    -1348.8,
+    -1137.4,
+    -1352.6,
+    -1141.5,
+    -1337.3,
+    -1155.8,
+    -1334.5,
+    -1158.4,
+    -1329.2,
+    -1163.4,
+    -1327.7,
+    -1164.8
+   ],
+   "id": "gebroeders-de-smetstraat-137-53",
+   "latLon": [
+    51.061618,
+    3.708323
+   ],
+   "photos": [
+    {
+     "id": "662243182892807-31",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.282,
+      0.79
+     ]
+    },
+    {
+     "id": "957225512491964-73",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.306,
+      0.637
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 32010,
+   "at": [
+    -1337.65,
+    -1125.5
+   ],
+   "centre": [
+    -1310.7,
+    -1159.8
+   ],
+   "width": 32.6,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    -1281.2,
+    -1182.2,
+    -1298,
+    -1178.9,
+    -1298.6,
+    -1178.7,
+    -1298.1,
+    -1176.3,
+    -1302.7,
+    -1175.4,
+    -1302.5,
+    -1174.8,
+    -1306.4,
+    -1174.1,
+    -1306.6,
+    -1174.6,
+    -1315.5,
+    -1172.9,
+    -1307.5,
+    -1130.1,
+    -1304.3,
+    -1130.8,
+    -1304.4,
+    -1131.2,
+    -1297.7,
+    -1132.4,
+    -1293.1,
+    -1133.3,
+    -1290.8,
+    -1133.8,
+    -1289.9,
+    -1128.7,
+    -1289.4,
+    -1126.3,
+    -1298.6,
+    -1125.8,
+    -1304.7,
+    -1125.3,
+    -1315.1,
+    -1124.7,
+    -1315.2,
+    -1124.7,
+    -1315.9,
+    -1124.7,
+    -1326.5,
+    -1113.6,
+    -1348.8,
+    -1137.4,
+    -1338.8,
+    -1146.9,
+    -1329.1,
+    -1136.8,
+    -1323.5,
+    -1141.9,
+    -1326.7,
+    -1158.3,
+    -1327.7,
+    -1164.8,
+    -1328.6,
+    -1171.6,
+    -1329.3,
+    -1176.6,
+    -1329.5,
+    -1177.8,
+    -1329.5,
+    -1177.8,
+    -1329.7,
+    -1184,
+    -1323.3,
+    -1185.3,
+    -1318,
+    -1186.3,
+    -1312.2,
+    -1187.4,
+    -1311.8,
+    -1187.5,
+    -1310.3,
+    -1187.8,
+    -1306.1,
+    -1188.6,
+    -1302.6,
+    -1189.3,
+    -1300,
+    -1189.7,
+    -1297.7,
+    -1190.2,
+    -1283.2,
+    -1193
+   ],
+   "id": "gebroeders-de-smetstraat-137-54",
+   "latLon": [
+    51.061517,
+    3.708472
+   ],
+   "photos": [
+    {
+     "id": "1690758341873459-61",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "490321103674411-7",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.19,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31927,
+   "at": [
+    -1316.1999999999998,
+    -1102.75
+   ],
+   "centre": [
+    -1307.8,
+    -1110.8
+   ],
+   "width": 5.6,
+   "faces": 137,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1300.4,
+    -1113.7,
+    -1300.7,
+    -1113.5,
+    -1314.3,
+    -1100.7,
+    -1318.1,
+    -1104.8,
+    -1309.5,
+    -1113.5,
+    -1309.2,
+    -1113.1,
+    -1307.6,
+    -1111.5,
+    -1302.8,
+    -1116
+   ],
+   "id": "gebroeders-de-smetstraat-137-55",
+   "latLon": [
+    51.061353,
+    3.708717
+   ],
+   "photos": [
+    {
+     "id": "1457142101944059-26",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.35,
+      0.704
+     ]
+    },
+    {
+     "id": "642112878368145-3",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.383,
+      0.706
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31931,
+   "at": [
+    -1300.8000000000002,
+    -1086.25
+   ],
+   "centre": [
+    -1290,
+    -1097.1
+   ],
+   "width": 5.6,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1286.6,
+    -1102,
+    -1289.7,
+    -1099.3,
+    -1288.8,
+    -1098.4,
+    -1285.9,
+    -1100.7,
+    -1284.5,
+    -1097.9,
+    -1284.5,
+    -1097.9,
+    -1298.9,
+    -1084.2,
+    -1302.7,
+    -1088.3,
+    -1291.5,
+    -1099,
+    -1287.2,
+    -1103.1
+   ],
+   "id": "gebroeders-de-smetstraat-137-56",
+   "latLon": [
+    51.061233,
+    3.708893
+   ],
+   "photos": [
+    {
+     "id": "1304953477257519-71",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.186,
+      0.697
+     ]
+    },
+    {
+     "id": "637362615288418-88",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.353,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31892,
+   "at": [
+    -1290.4,
+    -1075.1
+   ],
+   "centre": [
+    -1286.7,
+    -1078.6
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -1281.3,
+    -1080.3,
+    -1288.7,
+    -1073.3,
+    -1292.1,
+    -1076.9,
+    -1284.8,
+    -1084
+   ],
+   "id": "gebroeders-de-smetstraat-137-57",
+   "latLon": [
+    51.061153,
+    3.709012
+   ],
+   "photos": [
+    {
+     "id": "1896769307524076-65",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.26,
+      0.698
+     ]
+    },
+    {
+     "id": "1270031347539022-7",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.417,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31853,
+   "at": [
+    -1286.95,
+    -1071.4499999999998
+   ],
+   "centre": [
+    -1279.1,
+    -1078.1
+   ],
+   "width": 5.1,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -1275.4,
+    -1080.5,
+    -1275,
+    -1079.6,
+    -1274.8,
+    -1079.2,
+    -1275.9,
+    -1078.2,
+    -1285.2,
+    -1069.6,
+    -1288.7,
+    -1073.3,
+    -1281.3,
+    -1080.3,
+    -1279,
+    -1082.5,
+    -1276.5,
+    -1079.7
+   ],
+   "id": "gebroeders-de-smetstraat-137-58",
+   "latLon": [
+    51.061126,
+    3.709052
+   ],
+   "photos": [
+    {
+     "id": "1270031347539022-39",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.338,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31924,
+   "at": [
+    -1283.5,
+    -1067.8
+   ],
+   "centre": [
+    -1277.2,
+    -1073.7
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1273.7,
+    -1077,
+    -1272.5,
+    -1074.8,
+    -1281.8,
+    -1066,
+    -1285.2,
+    -1069.6,
+    -1275.9,
+    -1078.2,
+    -1274.3,
+    -1076.5
+   ],
+   "id": "gebroeders-de-smetstraat-137-59",
+   "latLon": [
+    51.0611,
+    3.709091
+   ],
+   "photos": [
+    {
+     "id": "1270031347539022-75",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.351,
+      0.62
+     ]
+    },
+    {
+     "id": "2065907880584939-13",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.372,
+      0.689
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31965,
+   "at": [
+    -1280,
+    -1064.1
+   ],
+   "centre": [
+    -1273.8,
+    -1070.1
+   ],
+   "width": 5.2,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1271.8,
+    -1073.5,
+    -1273.3,
+    -1072.3,
+    -1272.1,
+    -1070.9,
+    -1270.8,
+    -1071.5,
+    -1269.8,
+    -1069.7,
+    -1278.2,
+    -1062.2,
+    -1281.8,
+    -1066,
+    -1272.5,
+    -1074.8
+   ],
+   "id": "gebroeders-de-smetstraat-137-60",
+   "latLon": [
+    51.061073,
+    3.709131
+   ],
+   "photos": [
+    {
+     "id": "2065907880584939-60",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.253,
+      0.698
+     ]
+    },
+    {
+     "id": "589601050365294-17",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.388,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31946,
+   "at": [
+    -1276.5500000000002,
+    -1060.45
+   ],
+   "centre": [
+    -1271.9,
+    -1064.7
+   ],
+   "width": 4.8,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1268.8,
+    -1067.7,
+    -1267.6,
+    -1065.4,
+    -1274.9,
+    -1058.7,
+    -1278.2,
+    -1062.2,
+    -1269.8,
+    -1069.7
+   ],
+   "id": "gebroeders-de-smetstraat-137-61",
+   "latLon": [
+    51.061047,
+    3.709171
+   ],
+   "photos": [
+    {
+     "id": "589601050365294-54",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.333,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31948,
+   "at": [
+    -1273.15,
+    -1056.8000000000002
+   ],
+   "centre": [
+    -1269.8,
+    -1059.9
+   ],
+   "width": 5.2,
+   "faces": 137,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1265.2,
+    -1060.6,
+    -1271.4,
+    -1054.9,
+    -1274.9,
+    -1058.7,
+    -1267.6,
+    -1065.4
+   ],
+   "id": "gebroeders-de-smetstraat-137-62",
+   "latLon": [
+    51.06102,
+    3.709209
+   ],
+   "photos": [
+    {
+     "id": "826713599628948-11",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.378,
+      0.711
+     ]
+    },
+    {
+     "id": "589601050365294-86",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.371,
+      0.593
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31847,
+   "at": [
+    -1267.6,
+    -1050.8000000000002
+   ],
+   "centre": [
+    -1260.5,
+    -1049.1
+   ],
+   "width": 11.2,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1255.8,
+    -1051.1,
+    -1254.1,
+    -1042.2,
+    -1257.1,
+    -1040.7,
+    -1257.9,
+    -1040.3,
+    -1261.2,
+    -1044,
+    -1263.8,
+    -1046.7,
+    -1271.4,
+    -1054.9,
+    -1265.2,
+    -1060.6,
+    -1257.9,
+    -1061.8
+   ],
+   "id": "gebroeders-de-smetstraat-137-63",
+   "latLon": [
+    51.060977,
+    3.709273
+   ],
+   "photos": [
+    {
+     "id": "829387819271210-43",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.144,
+      0.902
+     ]
+    },
+    {
+     "id": "826713599628948-85",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.716
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31950,
+   "at": [
+    -1232.15,
+    -1012.75
+   ],
+   "centre": [
+    -1227.8,
+    -1017.6
+   ],
+   "width": 5.4,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1230.3,
+    -1010.8,
+    -1234,
+    -1014.7,
+    -1234.7,
+    -1018.6,
+    -1221.5,
+    -1021.5,
+    -1218.4,
+    -1022.2
+   ],
+   "id": "gebroeders-de-smetstraat-137-64",
+   "latLon": [
+    51.060701,
+    3.709678
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31938,
+   "at": [
+    -1228.1999999999998,
+    -1008.55
+   ],
+   "centre": [
+    -1217.5,
+    -1019.7
+   ],
+   "width": 6.2,
+   "faces": 137,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -1213.7,
+    -1018.5,
+    -1226.1,
+    -1006.3,
+    -1230.3,
+    -1010.8,
+    -1218.4,
+    -1022.2,
+    -1218.1,
+    -1022.2,
+    -1215.3,
+    -1023.8,
+    -1213.8,
+    -1024.5,
+    -1213.2,
+    -1023.6,
+    -1214.4,
+    -1022.8,
+    -1213.6,
+    -1022,
+    -1215.9,
+    -1020.2
+   ],
+   "id": "gebroeders-de-smetstraat-137-65",
+   "latLon": [
+    51.060671,
+    3.709723
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31989,
+   "at": [
+    -1224.05,
+    -1004.0999999999999
+   ],
+   "centre": [
+    -1215.1,
+    -1013.4
+   ],
+   "width": 6,
+   "faces": 137,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1210.2,
+    -1012.9,
+    -1222,
+    -1001.9,
+    -1226.1,
+    -1006.3,
+    -1213.7,
+    -1018.5,
+    -1211.1,
+    -1020.4,
+    -1209.4,
+    -1018.5,
+    -1212.9,
+    -1015.6
+   ],
+   "id": "gebroeders-de-smetstraat-137-66",
+   "latLon": [
+    51.060639,
+    3.709771
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31958,
+   "at": [
+    -1216,
+    -995.55
+   ],
+   "centre": [
+    -1205.2,
+    -1006
+   ],
+   "width": 5,
+   "faces": 137,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1200.6,
+    -1006.9,
+    -1203.1,
+    -1004.4,
+    -1214.3,
+    -993.7,
+    -1217.7,
+    -997.4,
+    -1203.9,
+    -1010.5,
+    -1200.4,
+    -1013.9,
+    -1198.8,
+    -1012.2,
+    -1202.5,
+    -1009
+   ],
+   "id": "gebroeders-de-smetstraat-137-67",
+   "latLon": [
+    51.060577,
+    3.709863
+   ],
+   "photos": [
+    {
+     "id": "660135103247560-3",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.415,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31944,
+   "at": [
+    -1212.25,
+    -991.5
+   ],
+   "centre": [
+    -1203,
+    -1000.2
+   ],
+   "width": 6,
+   "faces": 137,
+   "toStreet": 8.5,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    -1198.4,
+    -1004.4,
+    -1200.9,
+    -1002.1,
+    -1200,
+    -1001.2,
+    -1199.1,
+    -1000.2,
+    -1200,
+    -999.3,
+    -1210.2,
+    -989.3,
+    -1214.3,
+    -993.7,
+    -1203.1,
+    -1004.4,
+    -1200.6,
+    -1006.9
+   ],
+   "id": "gebroeders-de-smetstraat-137-68",
+   "latLon": [
+    51.060548,
+    3.709906
+   ],
+   "photos": [
+    {
+     "id": "660135103247560-40",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.282,
+      0.741
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31823,
+   "at": [
+    -1207.0500000000002,
+    -985.9
+   ],
+   "centre": [
+    -1195.5,
+    -999.2
+   ],
+   "width": 9.3,
+   "faces": 137,
+   "toStreet": 8.4,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1189,
+    -1007.7,
+    -1187.3,
+    -1004.8,
+    -1185.1,
+    -1000.9,
+    -1187.5,
+    -998.5,
+    -1187.9,
+    -998,
+    -1188.8,
+    -997.2,
+    -1192.8,
+    -993.3,
+    -1193.2,
+    -992.8,
+    -1203.7,
+    -982.5,
+    -1203.9,
+    -982.5,
+    -1210.2,
+    -989.3,
+    -1200,
+    -999.3,
+    -1199.1,
+    -1000.2,
+    -1200,
+    -1001.2,
+    -1200.9,
+    -1002.1,
+    -1198.4,
+    -1004.4,
+    -1196,
+    -1006.3,
+    -1197.8,
+    -1009.6,
+    -1192.8,
+    -1014.4
+   ],
+   "id": "gebroeders-de-smetstraat-137-69",
+   "latLon": [
+    51.060507,
+    3.709965
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31953,
+   "at": [
+    -1190.85,
+    -968.9
+   ],
+   "centre": [
+    -1186.2,
+    -969.3
+   ],
+   "width": 12.7,
+   "faces": 137,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": 19.2,
+   "kind": "house",
+   "ring": [
+    -1188.8,
+    -981.8,
+    -1177.9,
+    -972.2,
+    -1184.1,
+    -964.5,
+    -1184.1,
+    -964.4,
+    -1186.5,
+    -964.2,
+    -1186.5,
+    -964.3,
+    -1195.2,
+    -973.5
+   ],
+   "id": "gebroeders-de-smetstraat-137-70",
+   "latLon": [
+    51.060384,
+    3.71015
+   ],
+   "photos": [
+    {
+     "id": "1176587927428679-46",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31736,
+   "at": [
+    -1402.5500000000002,
+    -1194.4499999999998
+   ],
+   "centre": [
+    -1397.8,
+    -1198.8
+   ],
+   "width": 6.4,
+   "faces": 138,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    -1390.9,
+    -1200.8,
+    -1400.4,
+    -1192.1,
+    -1404.7,
+    -1196.8,
+    -1395.2,
+    -1205.6
+   ],
+   "id": "gebroeders-de-smetstraat-138-71",
+   "latLon": [
+    51.062016,
+    3.70773
+   ],
+   "photos": [
+    {
+     "id": "1163357542168170-52",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.315,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31995,
+   "at": [
+    -1308.4,
+    -1094.4
+   ],
+   "centre": [
+    -1296.8,
+    -1105.9
+   ],
+   "width": 5.7,
+   "faces": 138,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1290.7,
+    -1110,
+    -1293.4,
+    -1107.7,
+    -1292.1,
+    -1106.2,
+    -1306.5,
+    -1092.3,
+    -1310.3,
+    -1096.5,
+    -1297.1,
+    -1109.5,
+    -1292.7,
+    -1113.8,
+    -1291.3,
+    -1111.1
+   ],
+   "id": "gebroeders-de-smetstraat-138-72",
+   "latLon": [
+    51.061292,
+    3.708806
+   ],
+   "photos": [
+    {
+     "id": "637362615288418-11",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.394,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31990,
+   "at": [
+    -1293.75,
+    -1078.75
+   ],
+   "centre": [
+    -1284.5,
+    -1087.5
+   ],
+   "width": 5,
+   "faces": 138,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1281.7,
+    -1092.6,
+    -1281,
+    -1091.3,
+    -1279.8,
+    -1088.9,
+    -1279.8,
+    -1088.8,
+    -1284.8,
+    -1084,
+    -1292.1,
+    -1076.9,
+    -1295.4,
+    -1080.6,
+    -1284,
+    -1091.5,
+    -1282.1,
+    -1093.3
+   ],
+   "id": "gebroeders-de-smetstraat-138-73",
+   "latLon": [
+    51.061179,
+    3.708974
+   ],
+   "photos": [
+    {
+     "id": "1141206260727535-67",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.326,
+      0.638
+     ]
+    },
+    {
+     "id": "1896769307524076-16",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.359,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31888,
+   "at": [
+    -1266.4,
+    -1063
+   ],
+   "centre": [
+    -1262.4,
+    -1063.6
+   ],
+   "width": 5.4,
+   "faces": 153,
+   "toStreet": 17.9,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    -1267.6,
+    -1065.4,
+    -1258.8,
+    -1066.7,
+    -1257.9,
+    -1061.8,
+    -1265.2,
+    -1060.6
+   ],
+   "id": "gebroeders-de-smetstraat-153-74",
+   "latLon": [
+    51.061065,
+    3.709287
+   ],
+   "photos": [
+    {
+     "id": "589601050365294-67",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.421,
+      0.576
+     ]
+    },
+    {
+     "id": "2065907880584939-84",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.433,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31870,
+   "at": [
+    -1237.2,
+    -1031.85
+   ],
+   "centre": [
+    -1228.6,
+    -1033.8
+   ],
+   "width": 5.2,
+   "faces": 169,
+   "toStreet": 18.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -1237.7,
+    -1034.4,
+    -1220.6,
+    -1038,
+    -1219.5,
+    -1033.3,
+    -1236.7,
+    -1029.3
+   ],
+   "id": "gebroeders-de-smetstraat-169-01",
+   "latLon": [
+    51.06084,
+    3.70962
+   ],
+   "photos": [
+    {
+     "id": "3614578135499569-75",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.439,
+      0.572
+     ]
+    },
+    {
+     "id": "652679830534906-85",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.428,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31949,
+   "at": [
+    -1235.25,
+    -1021.3499999999999
+   ],
+   "centre": [
+    -1222.5,
+    -1023.5
+   ],
+   "width": 5.6,
+   "faces": 169,
+   "toStreet": 12.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1215.3,
+    -1023.8,
+    -1218.1,
+    -1022.2,
+    -1218.4,
+    -1022.2,
+    -1221.5,
+    -1021.5,
+    -1234.7,
+    -1018.6,
+    -1235.8,
+    -1024.1,
+    -1219.4,
+    -1027.4,
+    -1217.2,
+    -1028.4
+   ],
+   "id": "gebroeders-de-smetstraat-169-02",
+   "latLon": [
+    51.060764,
+    3.709643
+   ],
+   "photos": [
+    {
+     "id": "951510153797802-87",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.382,
+      0.607
+     ]
+    },
+    {
+     "id": "896939769189130-70",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.39,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31908,
+   "at": [
+    -1236.25,
+    -1026.6999999999998
+   ],
+   "centre": [
+    -1224.5,
+    -1029.4
+   ],
+   "width": 5.3,
+   "faces": 170,
+   "toStreet": 15.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1236.7,
+    -1029.3,
+    -1219.5,
+    -1033.3,
+    -1218.4,
+    -1033.7,
+    -1217.2,
+    -1028.4,
+    -1219.4,
+    -1027.4,
+    -1235.8,
+    -1024.1
+   ],
+   "id": "gebroeders-de-smetstraat-170-03",
+   "latLon": [
+    51.060802,
+    3.709631
+   ],
+   "photos": [
+    {
+     "id": "1009828314313286-69",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.417,
+      0.585
+     ]
+    },
+    {
+     "id": "951510153797802-62",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.407,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31799,
+   "at": [
+    -1374.65,
+    -1177.1999999999998
+   ],
+   "centre": [
+    -1372.3,
+    -1200
+   ],
+   "width": 21.9,
+   "faces": 175,
+   "toStreet": 17.4,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1370.3,
+    -1169.6,
+    -1373.7,
+    -1166.3,
+    -1375.6,
+    -1188.1,
+    -1376,
+    -1192.4,
+    -1376.2,
+    -1194.6,
+    -1376.3,
+    -1196.5,
+    -1376.7,
+    -1200.7,
+    -1377.3,
+    -1207,
+    -1377.8,
+    -1212.8,
+    -1378,
+    -1215.3,
+    -1378.1,
+    -1216.1,
+    -1378.5,
+    -1221.1,
+    -1373,
+    -1226.4,
+    -1370.3,
+    -1223.6,
+    -1360.6,
+    -1213.7,
+    -1360.9,
+    -1213.4,
+    -1364.8,
+    -1209.7,
+    -1368.9,
+    -1206,
+    -1371.1,
+    -1203.9,
+    -1373,
+    -1202.2,
+    -1373.3,
+    -1201.9,
+    -1373.2,
+    -1201.3,
+    -1372.9,
+    -1194,
+    -1372.7,
+    -1190,
+    -1372.4,
+    -1185.4,
+    -1363.5,
+    -1176.3,
+    -1367.2,
+    -1172.6
+   ],
+   "id": "gebroeders-de-smetstraat-175-04",
+   "latLon": [
+    51.061891,
+    3.708049
+   ],
+   "photos": [
+    {
+     "id": "1718959025632090-90",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.265,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31569,
+   "at": [
+    -1544.5,
+    -1281.4
+   ],
+   "centre": [
+    -1553.5,
+    -1244.5
+   ],
+   "width": 15.7,
+   "faces": 280,
+   "toStreet": 9.4,
+   "floors": 6,
+   "eaves": 21.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -1536.8,
+    -1280,
+    -1537.9,
+    -1274,
+    -1540.5,
+    -1259.5,
+    -1541.2,
+    -1255.3,
+    -1542.7,
+    -1247.3,
+    -1543.4,
+    -1243.1,
+    -1545.4,
+    -1231.8,
+    -1547.2,
+    -1221.6,
+    -1548,
+    -1217.5,
+    -1551.7,
+    -1196.9,
+    -1567,
+    -1199.6,
+    -1565.7,
+    -1206.7,
+    -1565.1,
+    -1210.4,
+    -1563.9,
+    -1217.2,
+    -1563.4,
+    -1219.8,
+    -1562.7,
+    -1223.7,
+    -1561.2,
+    -1231.9,
+    -1560.5,
+    -1236.1,
+    -1558.8,
+    -1245.8,
+    -1558.1,
+    -1249.6,
+    -1557.1,
+    -1255,
+    -1556.6,
+    -1257.7,
+    -1555.8,
+    -1262.4,
+    -1555.6,
+    -1263.3,
+    -1554.1,
+    -1272.1,
+    -1553.4,
+    -1275.6,
+    -1553.4,
+    -1276,
+    -1553.1,
+    -1277.7,
+    -1552.2,
+    -1282.8
+   ],
+   "id": "gebroeders-de-smetstraat-280-01",
+   "latLon": [
+    51.062645,
+    3.706107
+   ],
+   "photos": [
+    {
+     "id": "1285415232747360-177",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.314,
+      0.715
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36549,
+   "at": [
+    -1831.7,
+    -1490.4499999999998
+   ],
+   "centre": [
+    -1840,
+    -1479.7
+   ],
+   "width": 14.7,
+   "faces": 293,
+   "toStreet": 9.5,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -1867.2,
+    -1460.6,
+    -1865.4,
+    -1464.8,
+    -1866,
+    -1465.1,
+    -1860.3,
+    -1478.4,
+    -1856.3,
+    -1487.6,
+    -1850.9,
+    -1485.3,
+    -1847.8,
+    -1492.2,
+    -1845.1,
+    -1493.3,
+    -1841,
+    -1491.5,
+    -1842.3,
+    -1488.4,
+    -1840.9,
+    -1487.8,
+    -1839.5,
+    -1491,
+    -1838.5,
+    -1493.3,
+    -1824.9,
+    -1487.6,
+    -1822,
+    -1486.3,
+    -1815.9,
+    -1483.8,
+    -1816.3,
+    -1483.2,
+    -1809.7,
+    -1480.4,
+    -1808.6,
+    -1480.7,
+    -1808.1,
+    -1480.5,
+    -1819.3,
+    -1475.9,
+    -1820.7,
+    -1475.3,
+    -1821.2,
+    -1476.9,
+    -1825.3,
+    -1478.7,
+    -1828.2,
+    -1479.9,
+    -1831.6,
+    -1481.4,
+    -1831.9,
+    -1481.1,
+    -1832.2,
+    -1480.7,
+    -1832.9,
+    -1480.4,
+    -1833.5,
+    -1480.3,
+    -1834.1,
+    -1480.3,
+    -1834.7,
+    -1480.7,
+    -1835.1,
+    -1481.2,
+    -1835.4,
+    -1482.1,
+    -1835.4,
+    -1482.9,
+    -1838.7,
+    -1484.2,
+    -1839.6,
+    -1482.1,
+    -1844.4,
+    -1484,
+    -1845,
+    -1482.4,
+    -1846.7,
+    -1483,
+    -1847.8,
+    -1480.1,
+    -1850.1,
+    -1481,
+    -1851.6,
+    -1477.8,
+    -1850.8,
+    -1477.5,
+    -1850.4,
+    -1476.6,
+    -1850.3,
+    -1475.6,
+    -1850.6,
+    -1474.8,
+    -1851.3,
+    -1474.2,
+    -1852.2,
+    -1474,
+    -1853.1,
+    -1474.4,
+    -1857.6,
+    -1464,
+    -1856.6,
+    -1462.1,
+    -1867,
+    -1458.2
+   ],
+   "id": "gebroeders-de-smetstraat-293-01",
+   "latLon": [
+    51.064158,
+    3.702824
+   ],
+   "photos": [
+    {
+     "id": "862820194300591",
+     "metres": 12,
+     "off": 15,
+     "span": [
+      0.313,
+      0.925
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36019,
+   "at": [
+    -1786.15,
+    -1464.55
+   ],
+   "centre": [
+    -1793.7,
+    -1455.1
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1784.1,
+    -1463.1,
+    -1793.7,
+    -1450.2,
+    -1794.9,
+    -1448.6,
+    -1799.2,
+    -1451.4,
+    -1798.2,
+    -1452.7,
+    -1797.5,
+    -1453.6,
+    -1788.2,
+    -1466
+   ],
+   "id": "gebroeders-de-smetstraat-305-02",
+   "latLon": [
+    51.06397,
+    3.703345
+   ],
+   "photos": [
+    {
+     "id": "4330240123693014",
+     "metres": 8,
+     "off": 7,
+     "span": [
+      0.222,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36016,
+   "at": [
+    -1763.95,
+    -1448.55
+   ],
+   "centre": [
+    -1773.8,
+    -1435
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1761.9,
+    -1447.1,
+    -1776.6,
+    -1427.4,
+    -1777.4,
+    -1427.3,
+    -1779.2,
+    -1428.8,
+    -1777.1,
+    -1431.7,
+    -1778.7,
+    -1432.7,
+    -1766,
+    -1450
+   ],
+   "id": "gebroeders-de-smetstraat-305-03",
+   "latLon": [
+    51.063854,
+    3.703599
+   ],
+   "photos": [
+    {
+     "id": "9319122141500977-242",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.412,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31324,
+   "at": [
+    -1744.95,
+    -1434.85
+   ],
+   "centre": [
+    -1753.8,
+    -1421.9
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -1742.9,
+    -1433.4,
+    -1756.2,
+    -1415.2,
+    -1757.7,
+    -1413.2,
+    -1758.9,
+    -1415.1,
+    -1755.8,
+    -1419.1,
+    -1758.3,
+    -1420.9,
+    -1747,
+    -1436.3
+   ],
+   "id": "gebroeders-de-smetstraat-305-04",
+   "latLon": [
+    51.063755,
+    3.703816
+   ],
+   "photos": [
+    {
+     "id": "1347482612918883-204",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.4,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31298,
+   "at": [
+    -1736.85,
+    -1428.95
+   ],
+   "centre": [
+    -1745.8,
+    -1416.6
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -1734.8,
+    -1427.5,
+    -1745,
+    -1413.6,
+    -1749.1,
+    -1408.1,
+    -1751.7,
+    -1410.1,
+    -1749.8,
+    -1412.9,
+    -1751,
+    -1413.9,
+    -1738.9,
+    -1430.4
+   ],
+   "id": "gebroeders-de-smetstraat-305-05",
+   "latLon": [
+    51.063713,
+    3.703908
+   ],
+   "photos": [
+    {
+     "id": "585311944506868-230",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.391,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31347,
+   "at": [
+    -1732.4,
+    -1425.8
+   ],
+   "centre": [
+    -1737.5,
+    -1418.8
+   ],
+   "width": 5.9,
+   "faces": 305,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    -1730,
+    -1424.1,
+    -1740.2,
+    -1410.2,
+    -1745,
+    -1413.6,
+    -1734.8,
+    -1427.5
+   ],
+   "id": "gebroeders-de-smetstraat-305-06",
+   "latLon": [
+    51.06369,
+    3.703959
+   ],
+   "photos": [
+    {
+     "id": "585311944506868-204",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.384,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31305,
+   "at": [
+    -1719.15,
+    -1416.25
+   ],
+   "centre": [
+    -1728.3,
+    -1403.2
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1717.1,
+    -1414.8,
+    -1731.4,
+    -1395.3,
+    -1732.5,
+    -1396.1,
+    -1732.2,
+    -1396.5,
+    -1735.1,
+    -1398.7,
+    -1721.2,
+    -1417.7
+   ],
+   "id": "gebroeders-de-smetstraat-305-07",
+   "latLon": [
+    51.063621,
+    3.704111
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-200",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.408,
+      0.599
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31317,
+   "at": [
+    -1701.95,
+    -1403.75
+   ],
+   "centre": [
+    -1708.8,
+    -1393.7
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1699.9,
+    -1402.3,
+    -1710.6,
+    -1387.2,
+    -1711.4,
+    -1387.8,
+    -1712.7,
+    -1388.8,
+    -1710.7,
+    -1391.3,
+    -1712.5,
+    -1393.2,
+    -1704,
+    -1405.2
+   ],
+   "id": "gebroeders-de-smetstraat-305-08",
+   "latLon": [
+    51.06353,
+    3.704307
+   ],
+   "photos": [
+    {
+     "id": "1640106210207597-237",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.393,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31329,
+   "at": [
+    -1693.85,
+    -1397.95
+   ],
+   "centre": [
+    -1699.2,
+    -1390.4
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1695.9,
+    -1399.4,
+    -1691.8,
+    -1396.5,
+    -1702.6,
+    -1381.3,
+    -1706.6,
+    -1384.3
+   ],
+   "id": "gebroeders-de-smetstraat-305-09",
+   "latLon": [
+    51.063488,
+    3.7044
+   ],
+   "photos": [
+    {
+     "id": "1640106210207597-189",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.414,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31349,
+   "at": [
+    -1689.1,
+    -1394.6
+   ],
+   "centre": [
+    -1692.6,
+    -1386.7
+   ],
+   "width": 6.6,
+   "faces": 305,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    -1686.4,
+    -1392.7,
+    -1686.2,
+    -1389.5,
+    -1689.5,
+    -1386.3,
+    -1693.5,
+    -1382.4,
+    -1698.1,
+    -1377.9,
+    -1702.6,
+    -1381.3,
+    -1691.8,
+    -1396.5
+   ],
+   "id": "gebroeders-de-smetstraat-305-10",
+   "latLon": [
+    51.063464,
+    3.704454
+   ],
+   "photos": [
+    {
+     "id": "916112610407763-240",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.361,
+      0.615
+     ]
+    },
+    {
+     "id": "2683312321860153-253",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.448,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31394,
+   "at": [
+    -1654.35,
+    -1369.35
+   ],
+   "centre": [
+    -1662.5,
+    -1359.7
+   ],
+   "width": 5,
+   "faces": 305,
+   "toStreet": 9.3,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1652.3,
+    -1367.9,
+    -1663.4,
+    -1352.6,
+    -1666.5,
+    -1354.8,
+    -1667.7,
+    -1355.6,
+    -1665.5,
+    -1358.5,
+    -1663.7,
+    -1357.4,
+    -1662.4,
+    -1359.2,
+    -1664.2,
+    -1360.4,
+    -1656.4,
+    -1370.8
+   ],
+   "id": "gebroeders-de-smetstraat-305-11",
+   "latLon": [
+    51.063281,
+    3.704852
+   ],
+   "photos": [
+    {
+     "id": "1408437547095428",
+     "metres": 20,
+     "off": 8,
+     "span": [
+      0.385,
+      0.477
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31388,
+   "at": [
+    -1649.7,
+    -1366.05
+   ],
+   "centre": [
+    -1653.5,
+    -1359.6
+   ],
+   "width": 3.7,
+   "faces": 305,
+   "toStreet": 9.2,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    -1663.4,
+    -1352.6,
+    -1652.3,
+    -1367.9,
+    -1651.2,
+    -1367.1,
+    -1648.2,
+    -1365,
+    -1647.7,
+    -1362,
+    -1654.2,
+    -1353.5,
+    -1657.8,
+    -1348.8
+   ],
+   "id": "gebroeders-de-smetstraat-305-12",
+   "latLon": [
+    51.063258,
+    3.704905
+   ],
+   "photos": [
+    {
+     "id": "2828093577374032",
+     "metres": 38,
+     "off": 3,
+     "span": [
+      0.456,
+      0.491
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36020,
+   "at": [
+    -1806.1999999999998,
+    -1479.1
+   ],
+   "centre": [
+    -1814.7,
+    -1469.2
+   ],
+   "width": 4.7,
+   "faces": 306,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1804.3,
+    -1477.7,
+    -1813.9,
+    -1464.4,
+    -1815.6,
+    -1465.7,
+    -1817.3,
+    -1463.3,
+    -1818.6,
+    -1461.4,
+    -1820.4,
+    -1462.7,
+    -1814.4,
+    -1471,
+    -1819.3,
+    -1475.9,
+    -1808.1,
+    -1480.5
+   ],
+   "id": "gebroeders-de-smetstraat-306-13",
+   "latLon": [
+    51.064075,
+    3.703116
+   ],
+   "photos": [
+    {
+     "id": "656126630165545-179",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.399,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36037,
+   "at": [
+    -1802.3,
+    -1476.25
+   ],
+   "centre": [
+    -1809.2,
+    -1467.6
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 8.7,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1800.3,
+    -1474.8,
+    -1811.6,
+    -1459.6,
+    -1816,
+    -1461.5,
+    -1813.9,
+    -1464.4,
+    -1804.3,
+    -1477.7
+   ],
+   "id": "gebroeders-de-smetstraat-306-14",
+   "latLon": [
+    51.064055,
+    3.70316
+   ],
+   "photos": [
+    {
+     "id": "1018416256817014-179",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.462,
+      0.54
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36027,
+   "at": [
+    -1798.3,
+    -1473.35
+   ],
+   "centre": [
+    -1808.5,
+    -1459.9
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 8.8,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1796.3,
+    -1471.9,
+    -1802.8,
+    -1463.3,
+    -1803.6,
+    -1462.3,
+    -1805,
+    -1463.4,
+    -1807.7,
+    -1459.7,
+    -1806.2,
+    -1458.8,
+    -1807.4,
+    -1457.3,
+    -1809.9,
+    -1454,
+    -1813.3,
+    -1449.5,
+    -1818.1,
+    -1453,
+    -1814.1,
+    -1457.8,
+    -1813.8,
+    -1458.1,
+    -1813.1,
+    -1457.6,
+    -1812.7,
+    -1457.3,
+    -1811.6,
+    -1459.6,
+    -1800.3,
+    -1474.8
+   ],
+   "id": "gebroeders-de-smetstraat-306-15",
+   "latLon": [
+    51.064034,
+    3.703206
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36023,
+   "at": [
+    -1794.25,
+    -1470.4
+   ],
+   "centre": [
+    -1803.3,
+    -1458.8
+   ],
+   "width": 5.1,
+   "faces": 306,
+   "toStreet": 8.9,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1804.8,
+    -1452.1,
+    -1805.7,
+    -1450.9,
+    -1809.9,
+    -1454,
+    -1807.4,
+    -1457.3,
+    -1806.2,
+    -1458.8,
+    -1803.6,
+    -1462.3,
+    -1802.8,
+    -1463.3,
+    -1796.3,
+    -1471.9,
+    -1792.2,
+    -1468.9,
+    -1803,
+    -1454.5,
+    -1804.5,
+    -1452.5
+   ],
+   "id": "gebroeders-de-smetstraat-306-16",
+   "latLon": [
+    51.064013,
+    3.703252
+   ],
+   "photos": [
+    {
+     "id": "343206660719593",
+     "metres": 10,
+     "off": 17,
+     "span": [
+      0.583,
+      0.89
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36035,
+   "at": [
+    -1790.2,
+    -1467.45
+   ],
+   "centre": [
+    -1799.3,
+    -1454.9
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -1788.2,
+    -1466,
+    -1797.5,
+    -1453.6,
+    -1798.2,
+    -1452.7,
+    -1799.2,
+    -1451.4,
+    -1800.1,
+    -1450.1,
+    -1802.1,
+    -1451.8,
+    -1803,
+    -1450.8,
+    -1804.8,
+    -1452.1,
+    -1804.5,
+    -1452.5,
+    -1803,
+    -1454.5,
+    -1792.2,
+    -1468.9
+   ],
+   "id": "gebroeders-de-smetstraat-306-17",
+   "latLon": [
+    51.063991,
+    3.703298
+   ],
+   "photos": [
+    {
+     "id": "5719566628061207",
+     "metres": 8,
+     "off": 8,
+     "span": [
+      0.25,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36015,
+   "at": [
+    -1781.1999999999998,
+    -1461
+   ],
+   "centre": [
+    -1789.3,
+    -1449.1
+   ],
+   "width": 7.2,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -1778.3,
+    -1458.9,
+    -1784.7,
+    -1449.7,
+    -1790.8,
+    -1441.4,
+    -1794.1,
+    -1439.2,
+    -1797.1,
+    -1441.4,
+    -1791.8,
+    -1448.5,
+    -1793.7,
+    -1450.2,
+    -1784.1,
+    -1463.1
+   ],
+   "id": "gebroeders-de-smetstraat-306-18",
+   "latLon": [
+    51.063945,
+    3.703401
+   ],
+   "photos": [
+    {
+     "id": "3901876333259584",
+     "metres": 10,
+     "off": 6,
+     "span": [
+      0.273,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36032,
+   "at": [
+    -1776.1999999999998,
+    -1457.35
+   ],
+   "centre": [
+    -1782.9,
+    -1448.1
+   ],
+   "width": 5.2,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 13,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1774.1,
+    -1455.8,
+    -1785.3,
+    -1440.7,
+    -1786.6,
+    -1441.7,
+    -1785,
+    -1444.1,
+    -1786.1,
+    -1444.7,
+    -1783.3,
+    -1448.9,
+    -1784.7,
+    -1449.7,
+    -1778.3,
+    -1458.9
+   ],
+   "id": "gebroeders-de-smetstraat-306-19",
+   "latLon": [
+    51.063918,
+    3.703459
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36022,
+   "at": [
+    -1772.15,
+    -1454.4
+   ],
+   "centre": [
+    -1779.3,
+    -1444.8
+   ],
+   "width": 4.8,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1770.2,
+    -1453,
+    -1778.4,
+    -1442,
+    -1781.9,
+    -1437.2,
+    -1786,
+    -1439.9,
+    -1785.3,
+    -1440.7,
+    -1774.1,
+    -1455.8
+   ],
+   "id": "gebroeders-de-smetstraat-306-20",
+   "latLon": [
+    51.063897,
+    3.703505
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36018,
+   "at": [
+    -1768.1,
+    -1451.5
+   ],
+   "centre": [
+    -1776.2,
+    -1440.3
+   ],
+   "width": 5.2,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -1766,
+    -1450,
+    -1778.7,
+    -1432.7,
+    -1780.2,
+    -1433.6,
+    -1779.2,
+    -1435,
+    -1780.3,
+    -1435.8,
+    -1776.7,
+    -1440.7,
+    -1778.4,
+    -1442,
+    -1770.2,
+    -1453
+   ],
+   "id": "gebroeders-de-smetstraat-306-21",
+   "latLon": [
+    51.063876,
+    3.703551
+   ],
+   "photos": [
+    {
+     "id": "9319122141500977-259",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.432,
+      0.552
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36031,
+   "at": [
+    -1753.2,
+    -1440.8000000000002
+   ],
+   "centre": [
+    -1762.3,
+    -1427.6
+   ],
+   "width": 5.4,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1761.6,
+    -1419.5,
+    -1764.2,
+    -1417.5,
+    -1769,
+    -1422,
+    -1767.7,
+    -1423.9,
+    -1767.6,
+    -1424.1,
+    -1766.6,
+    -1425.4,
+    -1769.7,
+    -1427.3,
+    -1757.6,
+    -1443.9,
+    -1755.4,
+    -1442.4,
+    -1751,
+    -1439.2,
+    -1757.8,
+    -1429.9,
+    -1758,
+    -1429.6,
+    -1764.1,
+    -1421.3,
+    -1762.2,
+    -1419.9
+   ],
+   "id": "gebroeders-de-smetstraat-306-22",
+   "latLon": [
+    51.063798,
+    3.703721
+   ],
+   "photos": [
+    {
+     "id": "9319122141500977-184",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.426,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36029,
+   "at": [
+    -1749,
+    -1437.75
+   ],
+   "centre": [
+    -1756.8,
+    -1426.5
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1758.3,
+    -1420.9,
+    -1760.6,
+    -1417.8,
+    -1761.6,
+    -1419.5,
+    -1762.2,
+    -1419.9,
+    -1756,
+    -1428.7,
+    -1757.8,
+    -1429.9,
+    -1751,
+    -1439.2,
+    -1747,
+    -1436.3
+   ],
+   "id": "gebroeders-de-smetstraat-306-23",
+   "latLon": [
+    51.063776,
+    3.703769
+   ],
+   "photos": [
+    {
+     "id": "1347482612918883-228",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.397,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31345,
+   "at": [
+    -1727.7,
+    -1422.4
+   ],
+   "centre": [
+    -1737.1,
+    -1409.6
+   ],
+   "width": 5.7,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    -1725.4,
+    -1420.7,
+    -1739.4,
+    -1401.7,
+    -1741.4,
+    -1398.9,
+    -1746.1,
+    -1402.1,
+    -1740.2,
+    -1410.2,
+    -1730,
+    -1424.1
+   ],
+   "id": "gebroeders-de-smetstraat-306-24",
+   "latLon": [
+    51.063665,
+    3.704013
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-246",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.402,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31335,
+   "at": [
+    -1723.3000000000002,
+    -1419.2
+   ],
+   "centre": [
+    -1730.3,
+    -1409.7
+   ],
+   "width": 5.2,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1739.4,
+    -1401.7,
+    -1725.4,
+    -1420.7,
+    -1721.2,
+    -1417.7,
+    -1735.1,
+    -1398.7
+   ],
+   "id": "gebroeders-de-smetstraat-306-25",
+   "latLon": [
+    51.063642,
+    3.704063
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-223",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.395,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31309,
+   "at": [
+    -1715.1999999999998,
+    -1413.4
+   ],
+   "centre": [
+    -1722.7,
+    -1402.2
+   ],
+   "width": 4.7,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -1713.3,
+    -1412,
+    -1723.9,
+    -1397.1,
+    -1727.6,
+    -1391.9,
+    -1731.4,
+    -1395.3,
+    -1717.1,
+    -1414.8
+   ],
+   "id": "gebroeders-de-smetstraat-306-26",
+   "latLon": [
+    51.0636,
+    3.704156
+   ],
+   "photos": [
+    {
+     "id": "1613225532893280-181",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.444,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31336,
+   "at": [
+    -1710.6999999999998,
+    -1410.1
+   ],
+   "centre": [
+    -1715.9,
+    -1402.8
+   ],
+   "width": 6.4,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -1708.1,
+    -1408.2,
+    -1718.3,
+    -1393.7,
+    -1723.9,
+    -1397.1,
+    -1713.3,
+    -1412
+   ],
+   "id": "gebroeders-de-smetstraat-306-27",
+   "latLon": [
+    51.063576,
+    3.704207
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 31343,
+   "at": [
+    -1706.05,
+    -1406.7
+   ],
+   "centre": [
+    -1712.7,
+    -1397.2
+   ],
+   "width": 5.1,
+   "faces": 306,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1704,
+    -1405.2,
+    -1712.5,
+    -1393.2,
+    -1714.6,
+    -1390.2,
+    -1718.9,
+    -1392.9,
+    -1718.3,
+    -1393.7,
+    -1708.1,
+    -1408.2
+   ],
+   "id": "gebroeders-de-smetstraat-306-28",
+   "latLon": [
+    51.063552,
+    3.704261
+   ],
+   "photos": [
+    {
+     "id": "1640106210207597-256",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.423,
+      0.56
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31310,
+   "at": [
+    -1697.9,
+    -1400.85
+   ],
+   "centre": [
+    -1703.3,
+    -1393.3
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -1695.9,
+    -1399.4,
+    -1706.6,
+    -1384.3,
+    -1710.6,
+    -1387.2,
+    -1699.9,
+    -1402.3
+   ],
+   "id": "gebroeders-de-smetstraat-306-29",
+   "latLon": [
+    51.063509,
+    3.704354
+   ],
+   "photos": [
+    {
+     "id": "1640106210207597-212",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.393,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31380,
+   "at": [
+    -1662.5,
+    -1375.25
+   ],
+   "centre": [
+    -1669.8,
+    -1364.2
+   ],
+   "width": 4.9,
+   "faces": 306,
+   "toStreet": 9.3,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1660.5,
+    -1373.8,
+    -1667.9,
+    -1363.5,
+    -1670.6,
+    -1359.9,
+    -1671.7,
+    -1358.3,
+    -1673.2,
+    -1359.5,
+    -1673.9,
+    -1360,
+    -1675.7,
+    -1361.5,
+    -1664.5,
+    -1376.7
+   ],
+   "id": "gebroeders-de-smetstraat-306-30",
+   "latLon": [
+    51.063324,
+    3.704758
+   ],
+   "photos": [
+    {
+     "id": "1333529277711382",
+     "metres": 26,
+     "off": 9,
+     "span": [
+      0.538,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31382,
+   "at": [
+    -1658.45,
+    -1372.3
+   ],
+   "centre": [
+    -1665.3,
+    -1362.2
+   ],
+   "width": 5.1,
+   "faces": 306,
+   "toStreet": 9.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1656.4,
+    -1370.8,
+    -1664.2,
+    -1360.4,
+    -1665.5,
+    -1358.5,
+    -1667.7,
+    -1355.6,
+    -1670.1,
+    -1357.2,
+    -1669.5,
+    -1357.9,
+    -1666.3,
+    -1362.4,
+    -1667.9,
+    -1363.5,
+    -1660.5,
+    -1373.8
+   ],
+   "id": "gebroeders-de-smetstraat-306-31",
+   "latLon": [
+    51.063303,
+    3.704805
+   ],
+   "photos": [
+    {
+     "id": "628183253608888",
+     "metres": 10,
+     "off": 6,
+     "span": [
+      0.465,
+      0.666
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31593,
+   "at": [
+    -1626.85,
+    -1349.5
+   ],
+   "centre": [
+    -1633,
+    -1340.7
+   ],
+   "width": 5.1,
+   "faces": 306,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -1624.8,
+    -1348,
+    -1633.3,
+    -1335.7,
+    -1635.5,
+    -1337.1,
+    -1636.7,
+    -1335.4,
+    -1638.8,
+    -1336.9,
+    -1628.9,
+    -1351
+   ],
+   "id": "gebroeders-de-smetstraat-306-32",
+   "latLon": [
+    51.063138,
+    3.705166
+   ],
+   "photos": [
+    {
+     "id": "1704931187033342-252",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.41,
+      0.575
+     ]
+    },
+    {
+     "id": "1818105465659471-188",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.449,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31597,
+   "at": [
+    -1620.4,
+    -1344.8
+   ],
+   "centre": [
+    -1627,
+    -1337
+   ],
+   "width": 10.9,
+   "faces": 306,
+   "toStreet": 8.6,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1616,
+    -1341.6,
+    -1621.8,
+    -1332.3,
+    -1627.2,
+    -1336,
+    -1631.1,
+    -1331.3,
+    -1634.6,
+    -1333.8,
+    -1633.3,
+    -1335.7,
+    -1624.8,
+    -1348
+   ],
+   "id": "gebroeders-de-smetstraat-306-33",
+   "latLon": [
+    51.063104,
+    3.70524
+   ],
+   "photos": [
+    {
+     "id": "1704931187033342-213",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.243,
+      0.775
+     ]
+    },
+    {
+     "id": "1818105465659471-172",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.44,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31600,
+   "at": [
+    -1613.3,
+    -1335.3000000000002
+   ],
+   "centre": [
+    -1613.6,
+    -1324.4
+   ],
+   "width": 10.6,
+   "faces": 306,
+   "toStreet": 11.7,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1605.1,
+    -1325.6,
+    -1605.5,
+    -1320.4,
+    -1605.6,
+    -1320.4,
+    -1605.6,
+    -1320.4,
+    -1605.7,
+    -1320.1,
+    -1606.3,
+    -1320.1,
+    -1606.2,
+    -1320.4,
+    -1606.2,
+    -1320.5,
+    -1610.1,
+    -1320.8,
+    -1610.1,
+    -1320.4,
+    -1611.1,
+    -1320.5,
+    -1611,
+    -1320.8,
+    -1614.9,
+    -1321.2,
+    -1614.9,
+    -1320.8,
+    -1615.9,
+    -1320.9,
+    -1615.9,
+    -1321.2,
+    -1619.7,
+    -1321.6,
+    -1619.8,
+    -1321.2,
+    -1620.4,
+    -1321.2,
+    -1620.3,
+    -1321.6,
+    -1620.4,
+    -1321.6,
+    -1620.4,
+    -1322,
+    -1625.9,
+    -1325.9,
+    -1625.2,
+    -1327,
+    -1621.8,
+    -1332.3,
+    -1616,
+    -1341.6,
+    -1615.7,
+    -1341.4,
+    -1617.6,
+    -1338.4,
+    -1609,
+    -1332.2,
+    -1604.8,
+    -1329.1
+   ],
+   "id": "gebroeders-de-smetstraat-306-34",
+   "latLon": [
+    51.063035,
+    3.705321
+   ],
+   "photos": [
+    {
+     "id": "607489092266258-228",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.295,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36026,
+   "at": [
+    -1759.75,
+    -1445.5
+   ],
+   "centre": [
+    -1768.1,
+    -1432.6
+   ],
+   "width": 5.4,
+   "faces": 307,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -1757.6,
+    -1443.9,
+    -1769.7,
+    -1427.3,
+    -1770.7,
+    -1426,
+    -1772,
+    -1424.2,
+    -1776.6,
+    -1427.4,
+    -1761.9,
+    -1447.1
+   ],
+   "id": "gebroeders-de-smetstraat-307-35",
+   "latLon": [
+    51.063832,
+    3.703647
+   ],
+   "photos": [
+    {
+     "id": "9319122141500977-219",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.388,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31333,
+   "at": [
+    -1740.9,
+    -1431.9
+   ],
+   "centre": [
+    -1750.7,
+    -1418.1
+   ],
+   "width": 5,
+   "faces": 307,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1738.9,
+    -1430.4,
+    -1751,
+    -1413.9,
+    -1754.9,
+    -1408.6,
+    -1756.5,
+    -1411.2,
+    -1754.4,
+    -1413.9,
+    -1756.2,
+    -1415.2,
+    -1742.9,
+    -1433.4
+   ],
+   "id": "gebroeders-de-smetstraat-307-36",
+   "latLon": [
+    51.063734,
+    3.703862
+   ],
+   "photos": [
+    {
+     "id": "585311944506868-249",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.423,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 31389,
+   "at": [
+    -1671,
+    -1381.5
+   ],
+   "centre": [
+    -1677.5,
+    -1368.4
+   ],
+   "width": 4.3,
+   "faces": 307,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1668.6,
+    -1379.7,
+    -1678.4,
+    -1366.2,
+    -1679.6,
+    -1364.6,
+    -1675.7,
+    -1361.5,
+    -1673.9,
+    -1360,
+    -1673.2,
+    -1359.5,
+    -1676.3,
+    -1355.9,
+    -1677.6,
+    -1354.4,
+    -1678.1,
+    -1353.9,
+    -1691.6,
+    -1367,
+    -1687.9,
+    -1370.6,
+    -1684.4,
+    -1374.1,
+    -1677.4,
+    -1381,
+    -1675.9,
+    -1382.5,
+    -1672.7,
+    -1382.8,
+    -1669.3,
+    -1380.2
+   ],
+   "id": "gebroeders-de-smetstraat-307-37",
+   "latLon": [
+    51.063369,
+    3.704661
+   ],
+   "photos": [
+    {
+     "id": "721292227220313",
+     "metres": 43,
+     "off": 21,
+     "span": [
+      0.667,
+      0.714
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40580,
+   "at": [
+    -1264.3,
+    -1025.6
+   ],
+   "centre": [
+    -1346.8,
+    -1038.5
+   ],
+   "width": 13.2,
+   "faces": 317,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 5.5,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    -1310.3,
+    -974.6,
+    -1311.6,
+    -976.3,
+    -1313.9,
+    -978,
+    -1319.6,
+    -973.5,
+    -1343,
+    -998.8,
+    -1349.5,
+    -992.8,
+    -1367.4,
+    -1012.2,
+    -1375.8,
+    -1005.3,
+    -1382.8,
+    -1013,
+    -1380.7,
+    -1014.7,
+    -1397.9,
+    -1033.7,
+    -1390.5,
+    -1040.7,
+    -1383.4,
+    -1033.2,
+    -1363.3,
+    -1052.1,
+    -1360.4,
+    -1049,
+    -1359,
+    -1049.9,
+    -1356,
+    -1046.2,
+    -1354.4,
+    -1047.2,
+    -1351,
+    -1043.1,
+    -1344.6,
+    -1048.7,
+    -1382.3,
+    -1090,
+    -1352.1,
+    -1119.4,
+    -1346.9,
+    -1113.8,
+    -1356.6,
+    -1104.8,
+    -1357.6,
+    -1105.6,
+    -1359.4,
+    -1104.2,
+    -1324.3,
+    -1063.7,
+    -1282.3,
+    -1019,
+    -1268.8,
+    -1030.4,
+    -1259.8,
+    -1020.8
+   ],
+   "id": "gebroeders-de-smetstraat-317-38",
+   "latLon": [
+    51.060794,
+    3.709311
+   ],
+   "photos": [
+    {
+     "id": "652679830534906-241",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.095,
+      0.793
+     ]
+    },
+    {
+     "id": "3614578135499569-260",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      0.736
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 25404,
+   "at": [
+    -1233.65,
+    -992.9
+   ],
+   "centre": [
+    -1256.6,
+    -939.7
+   ],
+   "width": 76.5,
+   "faces": 317,
+   "toStreet": 6.1,
+   "floors": 2,
+   "eaves": 6.4,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    -1278.6,
+    -920.4,
+    -1263.8,
+    -904.3,
+    -1254.1,
+    -912.9,
+    -1250.2,
+    -908.9,
+    -1232.3,
+    -925.6,
+    -1241.1,
+    -935.2,
+    -1207.5,
+    -965,
+    -1259.8,
+    -1020.8,
+    -1310.3,
+    -974.6,
+    -1268.5,
+    -928.9
+   ],
+   "id": "gebroeders-de-smetstraat-317-39",
+   "latLon": [
+    51.060558,
+    3.709661
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 25401,
+   "at": [
+    -1201.5,
+    -958.45
+   ],
+   "centre": [
+    -1213.9,
+    -947.1
+   ],
+   "width": 7.7,
+   "faces": 318,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 9,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    -1204.1,
+    -961.3,
+    -1228.9,
+    -938.6,
+    -1223.7,
+    -932.8,
+    -1198.9,
+    -955.6
+   ],
+   "id": "gebroeders-de-smetstraat-318-40",
+   "latLon": [
+    51.060309,
+    3.710029
+   ],
+   "photos": [
+    {
+     "id": "4644869252196103",
+     "metres": 29,
+     "off": 1,
+     "span": [
+      0.435,
+      0.546
+     ]
+    }
+   ]
+  }
+ ]
+}

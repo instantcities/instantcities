@@ -2,7 +2,8 @@ import * as THREE from 'three';
 import { createWalker } from './riders.js';
 import { clearLine, inWater, waterLevel } from './collide.js';
 import { WATER } from './relief.js';
-import { tourBoat } from './scenery.js';
+import { tourBoat, swimmer } from './scenery.js';
+import { STOPS } from './city.js';
 
 // Quests: a short mission somewhere in the city, against the clock. The quests themselves, where
 // they start and their words, are the city's (<city>/quests.js); here is how each kind plays.
@@ -20,7 +21,13 @@ function seeded(text) {
 }
 
 const CATCH = 3.2; // how close you have to get to the thief
+const ZIG_AMP = 3, ZIG_W = (2 * Math.PI) / 1.8; // the tired thief's weave: metres to either side, and how fast (one side and back in 1.8 s)
 const PICK = 3.2; // and to a thing to pick it up
+const HALT = 9, HALT_SPEED = 3; // the bus at a stop: this close to its pole, and (nearly) standing still
+// the helicopter rescue: flying through a swimmer's circle (the quest's radius) no higher than this
+// over the water picks them up there and then, at any speed; at the end land in the drop's circle
+const WINCH_LOW = 35;
+const ROPE_HANG = 4; // and how far below the door they hang on the way back
 
 // ------------------------------------------------------------------ the streets as a graph
 
@@ -235,6 +242,63 @@ function statue() {
   return group;
 }
 
+// A julientje: a white plastic tray heaped with fries, chunks of curryworst on top, crispy fried
+// onions over it all and a big dollop of mayonnaise in one corner.
+const tray = mat(0xf2efe6, 0.5, { side: THREE.DoubleSide }), fry = mat(0xf0c35a, 0.65), fryDark = mat(0xd9a03c, 0.7);
+const worst = mat(0x6e3420, 0.55), worstCut = mat(0xa8673f, 0.7), onion = mat(0xa8692c, 0.9), mayo = mat(0xfbf3d5, 0.3);
+function friesModel() {
+  const root = new THREE.Group(), r = k => { const v = Math.sin(k * 12.9898) * 43758.5453; return v - Math.floor(v); }; // the same tray each time
+  const W = 0.36, D = 0.25, H = 0.09, taper = 0.84; // across the top; the bottom a bit smaller
+  // the tray: four sloping sides and a bottom, a lip round the top
+  const box = (top, bottom, h, open) => new THREE.CylinderGeometry(Math.SQRT1_2 * top, Math.SQRT1_2 * bottom, h, 4, 1, open).rotateY(Math.PI / 4).scale(1, 1, D / W);
+  add(root, box(W, W * taper, H, true), tray, 0, H / 2, 0);
+  add(root, box(W * taper, W * taper, 0.006, false), tray, 0, 0.003, 0);
+  add(root, box(W + 0.016, W, 0.01, true), tray, 0, H - 0.002, 0);
+  // the fries: a bed of them filling the tray, more heaped on it, a few lying over the edge
+  add(root, box(W * 0.97, W * taper, H * 0.75, false), fry, 0, H * 0.45, 0);
+  for (let k = 0; k < 60; k++) {
+    const x = (r(k) - 0.5) * W * 0.9, z = (r(k + 50) - 0.5) * D * 0.85, len = 0.06 + r(k + 100) * 0.06;
+    const heap = Math.max(0, 1 - Math.hypot(x / W, z / D) * 1.6);
+    const f = add(root, new THREE.BoxGeometry(0.018, 0.018, len), k % 4 ? fry : fryDark, x, H * 0.85 + heap * 0.04 + r(k + 150) * 0.015, z);
+    f.rotation.set((r(k + 200) - 0.5) * 0.7, r(k + 250) * Math.PI, (r(k + 300) - 0.5) * 0.5);
+  }
+  // curryworst chunks, the cut side showing
+  for (let k = 0; k < 8; k++) {
+    const p = add(root, new THREE.CylinderGeometry(0.022, 0.022, 0.032, 10), worst, (r(k + 400) - 0.6) * W * 0.65, H + 0.02 + r(k + 450) * 0.012, (r(k + 500) - 0.5) * D * 0.6);
+    p.rotation.set(Math.PI / 2 + (r(k + 550) - 0.5) * 0.8, r(k + 600) * Math.PI, 0);
+    add(p, new THREE.CylinderGeometry(0.019, 0.019, 0.034, 10), worstCut);
+  }
+  // fried onions, scattered over the top
+  for (let k = 0; k < 70; k++) {
+    const o = add(root, new THREE.BoxGeometry(0.016, 0.005, 0.01), onion, (r(k + 700) - 0.6) * W * 0.75, H + 0.025 + r(k + 750) * 0.025, (r(k + 800) - 0.5) * D * 0.75);
+    o.rotation.set(r(k + 850) * 3, r(k + 900) * 3, r(k + 950) * 3);
+  }
+  // the mayonnaise
+  add(root, new THREE.SphereGeometry(0.065, 12, 8).scale(1.25, 0.5, 1.1), mayo, W * 0.32, H + 0.015, -D * 0.1);
+  add(root, new THREE.SphereGeometry(0.04, 10, 6).scale(1, 0.65, 1), mayo, W * 0.33, H + 0.045, -D * 0.1);
+  root.scale.setScalar(1.6);
+  return root;
+}
+
+const shotGlass = mat(0xe7f6ff, 0.2, { transparent: true, opacity: 0.6, side: THREE.DoubleSide });
+const tequila = mat(0xe9c15d, 0.3);
+const bluePaint = mat(0x1e66f5, 0.35), bullet = mat(0x8a8f98, 0.4, { metalness: 0.5 });
+const PAINT_BLUES = [0x1e66f5, 0x4f8cff, 0x0d3fb8];
+// a paintball: a small blue ball
+const paintBall = new THREE.SphereGeometry(0.09, 8, 6), paintBlob = new THREE.SphereGeometry(1, 6, 5); // shared: nothing built or uploaded per shot
+function paintModel() {
+  const root = new THREE.Group(), ball = new THREE.Mesh(paintBall, bullet);
+  root.add(ball);
+  return root;
+}
+function tequilaModel() {
+  const root = new THREE.Group();
+  add(root, new THREE.CylinderGeometry(0.12, 0.085, 0.25, 12, 1, true), shotGlass, 0, 0.125, 0);
+  add(root, new THREE.CylinderGeometry(0.085, 0.085, 0.025, 12), shotGlass, 0, 0.0125, 0);
+  add(root, new THREE.CylinderGeometry(0.105, 0.08, 0.16, 12), tequila, 0, 0.095, 0);
+  return root;
+}
+
 // A student back from the cantus: white lab coat scribbled full, the club's sash across it, arms
 // out in front, a little green about the face.
 const SASHES = [[0xc62828, 0xffffff], [0x1565c0, 0xfdd835], [0x2e7d32, 0x1d1a17], [0x6a1b9a, 0xffffff], [0xef6c00, 0x1d1a17], [0xad1457, 0x90caf9]];
@@ -275,17 +339,51 @@ function zombieModel(i, look = 'students') {
     add(arm, new THREE.SphereGeometry(0.07, 8, 6), skin, 0, -0.6, 0);
     return arm;
   });
+  const glass = tequilaModel();
+  glass.position.set(0, -0.6, 0);
+  arms[0].add(glass);
+  glass.visible = false;
   let phase = Math.random() * 6;
   return {
     root,
-    animate(dt, speed, retch) {
+    // a paintball bursts on them: flat blobs of blue paint on the coat and face
+    splat() {
+      const side = Math.random() < 0.5 ? -1 : 1; // all on one side of them, where it hit
+      for (let k = 0; k < 4; k++) {
+        const b = new THREE.Mesh(paintBlob, bluePaint), r = 0.06 + Math.random() * 0.07;
+        b.scale.set(r, r, r * 0.3);
+        b.position.set(side * (0.04 + Math.random() * 0.2), 0.9 + Math.random() * 0.9, 0.17);
+        body.add(b);
+      }
+    },
+    // kneel: 0 standing, 1 on their knees at a julientje, eating
+    animate(dt, speed, retch, kneel = 0, drink = 0, fallen = 0) {
+      glass.visible = drink > 0 && fallen === 0;
+      if (fallen > 0) {
+        body.position.set(0, 0.3 * fallen, 0);
+        body.rotation.set(-Math.PI / 2 * fallen, 0, 0);
+        head.rotation.x = 0;
+        legs.forEach(hip => { hip.rotation.x = 0; });
+        arms.forEach(arm => { arm.rotation.x = -0.2; });
+        return;
+      }
       phase += dt * (1.5 + speed * 1.6);
       const k = Math.min(1, 0.25 + speed / 3);
-      legs.forEach((hip, s) => { hip.rotation.x = Math.sin(phase + s * Math.PI) * 0.5 * k; });
-      arms.forEach((arm, s) => { arm.rotation.x = -1.35 - retch * 0.4 + Math.sin(phase * 0.7 + s) * 0.12; });
-      body.rotation.z = Math.sin(phase * 0.5) * 0.12; // the sway of one beer too many
-      body.rotation.x = 0.1 + retch * 0.5; // bent over to throw up
-      head.rotation.x = retch * 0.4;
+      body.position.y = -0.45 * kneel;
+      body.rotation.z = Math.sin(phase * 0.5) * 0.12 * (1 - kneel); // the sway of one beer too many
+      body.rotation.x = 0.1 + retch * 0.5 + 0.3 * kneel; // bent over to throw up, or over the fries
+      head.rotation.x = retch * 0.4 + 0.3 * kneel;
+      if (drink > 0) head.rotation.x = -0.4 * drink;
+      // on the knees: the hips down, the legs folded back just so far that the feet are on the ground
+      const tilt = body.rotation.x, hipY = -0.45 * kneel + 0.95 * Math.cos(tilt);
+      const back = Math.acos(Math.min(1, Math.max(0, (hipY - 0.2) / 0.9))) - tilt; // the shoe 20 cm up, so it lies on top
+      legs.forEach((hip, s) => { hip.rotation.x = Math.sin(phase + s * Math.PI) * 0.5 * k * (1 - kneel) + back * kneel; });
+      // one hand after the other from the tray to the mouth
+      arms.forEach((arm, s) => { arm.rotation.x = (-1.35 - retch * 0.4 + Math.sin(phase * 0.7 + s) * 0.12) * (1 - kneel) + (-0.7 + Math.sin(phase * 2.2 + s * Math.PI) * 0.5) * kneel; });
+      if (drink > 0) {
+        arms[0].rotation.x = -2.6 * drink;
+        glass.rotation.x = -0.7 * drink;
+      }
     },
   };
 }
@@ -399,6 +497,12 @@ const SKINS = [0xf1c7a5, 0xe0ac87, 0xc68863, 0x8d5a3b, 0x5c3a24, 0xf6d6bd];
 const RUN_SPREAD = 2.6; // how far either side of the middle of the street they run
 const RUN_HIT = 1.2; // how close you can come to one
 const RUN_SEE = 240; // only the runners this close to a player are drawn and moved
+const ZOMBIE_HEALTH = 3; // zombie missions allow three hits; runner missions end on the first collision
+const SAFE = 2; // seconds after a hit before the next one counts
+const FRIES_EVERY = 10; // seconds before the next julientje (a bakje friet to throw) is ready
+const SHOT_EVERY = 0.2; // seconds before the next tequila shot glass can be thrown
+const FRIES_EAT = 5; // seconds the students kneel round it, eating
+const FRIES_LURE = 14; // how close a student has to be to smell it
 function runnerMeshes(n) {
   const white = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8 });
   const make = (geo, count, shadow) => {
@@ -430,11 +534,20 @@ export class Quest {
     this.events = [];
     this.over = false;
     this.clearCache = new Map();
+    this.hp = new Map(); // rider → { hp, safe }
+    this.fries = []; // julientjes thrown, flying or on the ground: { x, y, z, vx, vy, vz, landed, age, model }
+    this.shots = [];
+    this.shotsCd = new Map();
+    this.friesCd = new Map(); // rider → seconds before the next julientje is ready
     this.rand = seeded(def.id);
     const g = this.g, s = g.nearest(...def.start, true);
     this.startNode = s;
     if (def.kind === 'reach') this.setupReach(s);
     else if (def.kind === 'thief') this.setupThief(s);
+    else if (def.kind === 'paint') this.setupPaint(s);
+    else if (def.kind === 'bus') this.setupBus(s);
+    else if (def.kind === 'deliver') this.setupDeliver(s);
+    else if (def.kind === 'rescue') this.setupRescue();
     else this.setupCollect(s);
   }
 
@@ -455,6 +568,144 @@ export class Quest {
   facing(from, to) {
     const g = this.g;
     return Math.atan2(g.X[to] - g.X[from], g.Z[to] - g.Z[from]);
+  }
+
+  // the paint fight: the paintball gun in hand (main.js shoots, splat.js hits), points for every hit
+  setupPaint(s) {
+    const g = this.g, n = g.adj?.[s]?.[0];
+    this._spawn = { x: g.X[s], z: g.Z[s], yaw: n !== undefined ? this.facing(s, typeof n === 'number' ? n : n[0]) : 0 };
+    this.points = 0;
+    this.scored = new WeakSet(); // the cars, buses and trams that have already scored: each counts once
+  }
+
+  // Paint hit `who` (a person, or a car, bus or tram: `once`), worth `pts`: a 'collect' event with the
+  // score, and won at def.count.
+  score(r, who, pts, once = false) {
+    if (!this.scored || this.over) return;
+    if (once) { if (this.scored.has(who)) return; this.scored.add(who); }
+    this.points = Math.min(this.def.count, this.points + pts);
+    this.events.push({ type: 'collect', r, n: this.points, pts });
+    if (this.points >= this.def.count) this.finish('win', r);
+  }
+
+  // the bus driver: the city's bus stops by name (`bus`: where the bus stands, `stops`: where to halt,
+  // in order). main.js puts the bus there (this.bus, a parked car to borrow) and its driver running off.
+  setupBus() {
+    const def = this.def, stop = name => STOPS.find(st => st.name === name && st.kind === 'bus');
+    const at = stop(def.bus), ux = Math.cos(at.a), uz = Math.sin(at.a);
+    // the street is on the left of the way the sign faces (stops.js): the bus there, along the kerb
+    this.busSpot = { x: at.x + uz * 2.2, z: at.z - ux * 2.2, yaw: Math.atan2(ux, uz) };
+    this._spawn = { x: at.x - ux * 6 - uz * 0.5, z: at.z - uz * 6 + ux * 0.5, yaw: Math.atan2(ux, uz) };
+    this.halts = def.stops.map(name => { const st = stop(name); return { x: st.x, z: st.z, name }; });
+    this.served = 0;
+    this.beacon = beacon(HALT);
+    this.group.add(this.beacon.group);
+    this.placeHalt();
+  }
+
+  // the courier: deliver at each of `drops` ([x, z, name], on the street nearest) in turn; the same
+  // stops-in-a-row as the bus, without the bus, and riding through is enough
+  setupDeliver(s) {
+    const g = this.g, def = this.def;
+    this.halts = def.drops.map(([x, z, name]) => { const n = g.nearest(x, z, true); return { x: g.X[n], z: g.Z[n], name }; });
+    const first = g.nearest(this.halts[0].x, this.halts[0].z, true), { prev } = dijkstra(g, s), path = [];
+    for (let n = first; n >= 0; n = prev[n]) path.unshift(n);
+    this._spawn = { x: g.X[s], z: g.Z[s], yaw: this.facing(s, this.along(path, 20)) };
+    this.served = 0;
+    this.beacon = beacon(def.radius);
+    this.group.add(this.beacon.group);
+    this.placeHalt();
+  }
+
+  // the helicopter rescue: from the pad (`pad`) to each swimmer in trouble in turn (`victims`, [x, z,
+  // name]), winching each up, and then on to land at `drop` ([x, z, name]) with all of them. The
+  // swimmers and the landing are halts, like the bus's stops.
+  setupRescue() {
+    const def = this.def, [px, pz] = def.pad, [vx, vz] = def.victims[0], col = this.ctx.colliders;
+    this._spawn = { x: px, z: pz, yaw: Math.atan2(vx - px, vz - pz) };
+    this.halts = [...def.victims, def.drop].map(([x, z, name]) => ({ x, z, name }));
+    this.served = 0;
+    this.rescue = {
+      carrier: null, carried: 0,
+      swimmers: def.victims.map(([x, z]) => {
+        const model = swimmer(), water = waterLevel(col, x, z) ?? WATER;
+        model.position.set(x, water, z);
+        this.group.add(model);
+        return { model, water };
+      }),
+    };
+    this.beacon = beacon(def.radius);
+    this.group.add(this.beacon.group);
+    this.placeHalt();
+  }
+
+  // Through the next swimmer's circle, low enough: up they come; with them all aboard, landed on
+  // the drop: won.
+  updateRescue(dt, t, riders, playing) {
+    const res = this.rescue, h = this.halts[this.served];
+    res.swimmers.forEach((sw, i) => {
+      const m = sw.model;
+      if (i < res.carried) {
+        // hanging on the rope under the helicopter, each one below the one winched up before
+        const r = res.carrier;
+        // (set down on the ground beside it, one after the other, when it comes down low)
+        const out = 1.6 + Math.max(0, ROPE_HANG + i * 1.9 - r.y - 1.2) * 0.8;
+        m.position.set(r.pos.x + Math.cos(r.yaw) * out, Math.max(r.base + 0.2, r.base + r.y + 1.2 - ROPE_HANG - i * 1.9), r.pos.z - Math.sin(r.yaw) * out);
+        m.rotation.set(-Math.PI / 2.4, r.yaw + i * 0.8, Math.sin(t * 2 + i) * 0.15);
+        m.userData.stroke?.(t * 0.3, 0);
+      } else {
+        // treading water, waving for help
+        m.position.y = sw.water + Math.sin(t * 2.2 + i) * 0.12;
+        m.rotation.set(-0.9, t * 0.4 + i, Math.sin(t * 5 + i) * 0.3);
+        m.userData.stroke?.(t * 1.6, 6);
+      }
+    });
+    if (!playing || this.over || !h) return;
+    for (const r of riders) {
+      const d = Math.hypot(r.pos.x - h.x, r.pos.z - h.z);
+      if (this.served < res.swimmers.length) {
+        if (res.carrier && res.carrier !== r) continue; // the one with the others aboard picks up the rest
+        const low = r.base + r.y - res.swimmers[this.served].water < WINCH_LOW, over = d < this.def.radius;
+        res.high = over && !low; // over the swimmer but too high up: the HUD says to come down
+        if (!over || !low) continue;
+        res.carrier = r;
+        res.carried++;
+        res.high = false;
+      } else if (r !== res.carrier || d > this.def.radius || r.y > 0.3) continue;
+      this.served++;
+      this.events.push({ type: 'collect', r, n: this.served, stop: h.name });
+      this.placeHalt();
+      if (this.served >= this.halts.length) this.finish('win', r);
+      return;
+    }
+  }
+
+  // How long the winch rope hangs down from rider r's helicopter, in metres (0: wound up).
+  rope(r) {
+    const res = this.rescue;
+    return res?.carrier === r ? ROPE_HANG + (res.carried - 1) * 1.9 : 0;
+  }
+
+  // the beacon on the next stop to halt at
+  placeHalt() {
+    const h = this.halts[this.served];
+    if (!h) { this.beacon.group.visible = false; return; }
+    this.beacon.group.position.set(h.x, this.ctx.relief?.at(h.x, h.z) ?? 0, h.z);
+  }
+
+  // the bus at the next stop, standing still: a 'collect' event (n of all), and won at the last
+  updateBus(riders, playing) {
+    if (!playing || this.over) return;
+    const h = this.halts[this.served], bus = this.def.kind === 'bus', R = bus ? HALT : this.def.radius;
+    for (const r of riders) {
+      if (!h || Math.hypot(r.pos.x - h.x, r.pos.z - h.z) > R) continue;
+      if (bus && (r.car !== this.bus || Math.abs(r.speed) > HALT_SPEED)) continue; // in the bus, standing still
+      this.served++;
+      this.events.push({ type: 'collect', r, n: this.served, stop: h.name });
+      this.placeHalt();
+      if (this.served >= this.halts.length) this.finish('win', r);
+      return;
+    }
   }
 
   setupReach(s) {
@@ -577,10 +828,11 @@ export class Quest {
       if (dist[n] > 35 && far(zs, n, 16)) zs.push(at(n));
     }
     if (def.crowd) zs.push(...this.crowd(def.crowd, s));
-    zs.forEach((p, i) => {
+    const students = def.zombieDensity ? zs.filter((_, i) => Math.floor((i + 1) * def.zombieDensity) > Math.floor(i * def.zombieDensity)) : zs;
+    students.forEach((p, i) => {
       const model = zombieModel(i, def.look);
       this.group.add(model.root);
-      this.zombies.push({ ...p, model, yaw: this.rand() * 6, y: 0, state: 'idle', timer: 0, cool: this.rand() * 2, speed: 0, gulp: 0 });
+      this.zombies.push({ ...p, model, yaw: this.rand() * 6, y: 0, state: 'idle', timer: 0, cool: this.rand() * (def.pukeEvery ?? 2), speed: 0, gulp: 0 });
     });
     for (const c of this.caps) {
       c.model = def.item === 'pasticciotto' ? pasticciottoModel() : capModel();
@@ -654,13 +906,142 @@ export class Quest {
       this.boat.position.y = this.water + Math.sin(t * 1.3) * 0.05;
       if (this.over) this.boat.position.addScaledVector(new THREE.Vector3(Math.sin(this.boat.rotation.y), 0, Math.cos(this.boat.rotation.y)), dt * 2.2); // off it goes
     }
+    for (const h of this.hp.values()) h.safe = Math.max(0, h.safe - dt);
     if (this.thief) this.runThief(dt, t, riders, playing);
+    if (this.fries.length || this.friesCd.size) this.updateFries(dt);
+    if (this.shots.length || this.shotsCd.size) this.updateTequila(dt);
     if (this.caps) this.updateCollect(dt, t, riders, playing);
     if (this.run) this.updateRunners(dt, riders, playing);
+    if (this.rescue) this.updateRescue(dt, t, riders, playing);
+    else if (this.halts) this.updateBus(riders, playing);
     if (!playing || this.over) return;
     if (this.goal) {
       for (const r of riders) {
         if (Math.hypot(r.pos.x - this.goal.x, r.pos.z - this.goal.z) < this.goal.r) return this.finish('win', r);
+      }
+    }
+  }
+
+  // A player's health, in quests where something can hurt you (the students, the runners): { hp, of,
+  // safe }, safe the seconds still to go before another hit counts. Null in the other quests.
+  health(r) {
+    if (!this.zombies?.length && !this.run) return null;
+    const lives = this.zombies?.length ? ZOMBIE_HEALTH : 1;
+    if (!this.hp.has(r)) this.hp.set(r, { hp: lives, safe: 0 });
+    return { ...this.hp.get(r), of: lives };
+  }
+
+  // Hit by `why` ('puke', 'run'): one line of health off, and out of it at none. False while still
+  // safe from the last hit.
+  hurt(r, why) {
+    this.health(r);
+    const h = this.hp.get(r);
+    if (h.safe > 0 || this.over) return false;
+    h.hp--;
+    h.safe = SAFE;
+    this.events.push({ type: 'hurt', r, why, hp: h.hp });
+    if (h.hp <= 0) this.finish('lose', r, why);
+    return true;
+  }
+
+  // Seconds before a player's next julientje is ready (0: ready), or null in quests without them.
+  friesIn(r) { return this.def.fries ? this.friesCd.get(r) ?? 0 : null; }
+
+  // Throw a julientje ahead, from rider r (pos, base, y, yaw, speed). False when not ready.
+  throwFries(r) {
+    if (!this.def.fries || this.over || this.friesIn(r) > 0) return false;
+    this.friesCd.set(r, FRIES_EVERY);
+    const fx = Math.sin(r.yaw), fz = Math.cos(r.yaw), v = 9 + Math.max(0, r.speed ?? 0) * 0.6;
+    const model = friesModel();
+    this.group.add(model);
+    this.fries.push({ x: r.pos.x + fx * 0.8, y: r.base + r.y + 1.4, z: r.pos.z + fz * 0.8, vx: fx * v, vy: 4.5, vz: fz * v, landed: false, age: 0, model });
+    return true;
+  }
+
+  // The julientjes: through the air, and on the ground until eaten up (or left a while).
+  updateFries(dt) {
+    for (const [r, s] of this.friesCd) this.friesCd.set(r, Math.max(0, s - dt));
+    const relief = this.ctx.relief, col = this.ctx.colliders;
+    for (const f of [...this.fries]) {
+      f.age += dt;
+      if (!f.landed) {
+        const nx = f.x + f.vx * dt, nz = f.z + f.vz * dt;
+        // against a wall: it drops down there
+        if (clearLine(col, f.x, f.z, nx, nz) < 1) { f.vx = 0; f.vz = 0; } else { f.x = nx; f.z = nz; }
+        f.vy -= 14 * dt;
+        f.y += f.vy * dt;
+        f.model.rotation.y += dt * 9;
+        const ground = relief?.at(f.x, f.z) ?? 0;
+        if (f.y <= ground) {
+          f.y = ground;
+          f.landed = true;
+          f.age = 0;
+          f.model.rotation.y = 0;
+          // the students round about smell it and go for it
+          for (const z of this.zombies) {
+            if (['puke', 'snack', 'eat', 'drink', 'splat', 'sleep'].includes(z.state)) continue;
+            if (Math.hypot(z.x - f.x, z.z - f.z) < FRIES_LURE) { z.state = 'snack'; z.fries = f; z.timer = 6; }
+          }
+          this.events.push({ type: 'fries', x: f.x, z: f.z });
+        }
+      }
+      f.model.position.set(f.x, f.y, f.z);
+      // gone when nobody is (still) after it any more
+      if (f.landed && f.age > 1 && !this.zombies.some(z => z.fries === f)) {
+        this.group.remove(f.model);
+        this.fries.splice(this.fries.indexOf(f), 1);
+      }
+    }
+  }
+
+  tequilaIn(r) { return this.def.tequila ? this.shotsCd.get(r) ?? 0 : null; }
+
+  // paint: the paintball gun instead of a shot glass (faster and flatter, and it knocks them over)
+  throwTequila(r, paint = false) {
+    if (!this.def.tequila || this.over || this.tequilaIn(r) > 0) return false;
+    this.shotsCd.set(r, SHOT_EVERY);
+    const fx = Math.sin(r.yaw), fz = Math.cos(r.yaw), model = paint ? paintModel() : tequilaModel(), v = paint ? 30 : 18;
+    this.group.add(model);
+    const shot = { x: r.pos.x + fx * 0.8, y: r.base + r.y + 1.5, z: r.pos.z + fz * 0.8, vx: fx * v, vz: fz * v, vy: paint ? 0.5 : 2, age: 0, model, paint };
+    model.position.set(shot.x, shot.y, shot.z);
+    this.shots.push(shot);
+    return true;
+  }
+
+  updateTequila(dt) {
+    for (const [r, s] of this.shotsCd) this.shotsCd.set(r, Math.max(0, s - dt));
+    for (const shot of [...this.shots]) {
+      const nx = shot.x + shot.vx * dt, nz = shot.z + shot.vz * dt;
+      shot.vy -= 5 * dt;
+      const ny = shot.y + shot.vy * dt;
+      let hit = null, best = Infinity;
+      const blocked = clearLine(this.ctx.colliders, shot.x, shot.z, nx, nz) < 1;
+      if (!blocked && !this.over) for (const z of this.zombies) {
+        if (z.state === 'drink' || z.state === 'splat' || z.state === 'sleep') continue;
+        // Swept collision catches students even if the glass crosses them in one frame.
+        const dx = nx - shot.x, dz = nz - shot.z;
+        const u = Math.max(0, Math.min(1, ((z.x - shot.x) * dx + (z.z - shot.z) * dz) / (dx * dx + dz * dz || 1)));
+        const y = shot.y + (ny - shot.y) * u;
+        if (u < best && Math.hypot(z.x - shot.x - dx * u, z.z - shot.z - dz * u) < 0.65 && y > z.y + 0.3 && y < z.y + 2.3) { hit = z; best = u; }
+      }
+      shot.age += dt;
+      if (hit && shot.paint) {
+        // splats open on them, a moment's staggering, and down they go
+        hit.state = 'splat'; hit.timer = 0.6; hit.speed = 0; hit.fries = null;
+        hit.model.splat?.();
+        this.ctx.particles.burst(hit.x, hit.y + 1.5, hit.z, 10, { color: PAINT_BLUES, speed: 5, up: 3, gravity: 9, life: 0.8, size: 0.18, drag: 1.5 });
+        this.events.push({ type: 'tequila', x: hit.x, z: hit.z, paint: true });
+      } else if (hit) {
+        hit.state = 'drink'; hit.timer = 1.2; hit.speed = 0; hit.fries = null;
+        this.events.push({ type: 'tequila', x: hit.x, z: hit.z });
+      }
+      if (hit || blocked || ny <= (this.ctx.relief?.at(nx, nz) ?? 0) || shot.age > 3) {
+        this.group.remove(shot.model);
+        if (!shot.paint) shot.model.traverse(o => o.geometry?.dispose());
+        this.shots.splice(this.shots.indexOf(shot), 1);
+      } else {
+        Object.assign(shot, { x: nx, y: ny, z: nz });
+        shot.model.position.set(nx, ny, nz);
       }
     }
   }
@@ -679,7 +1060,13 @@ export class Quest {
     if (playing && !this.over && (th.burst = (th.burst ?? 4) - dt) < -2.5) th.burst = 5 + this.rand() * 6;
     const want = !playing ? 0 : this.over ? 0 : th.burst < 0 ? 27 : nd < 22 ? 22 : nd > 80 ? 11 : 17;
     th.speed += (want - th.speed) * Math.min(1, dt * 3);
-    th.s += th.speed * dt;
+    // after a while (the quest's zigzag, in seconds) the thief tires and weaves from side to side across
+    // the street: the weaving costs him ground, so riding straight at him catches him up
+    if (playing && !this.over) th.age = (th.age ?? 0) + dt;
+    const zig = this.def.zigzag != null ? ZIG_AMP * Math.min(1, Math.max(0, ((th.age ?? 0) - this.def.zigzag) / 4)) : 0;
+    th.zig = (th.zig ?? 0) + dt * ZIG_W * (zig > 0 ? 1 : 0);
+    const side = th.speed > 0.5 ? (zig * ZIG_W * Math.cos(th.zig)) / th.speed : 0; // the share of his speed that goes sideways
+    th.s += th.speed * dt * Math.sqrt(Math.max(0.3, 1 - side * side));
     let L = Math.hypot(g.X[th.b] - g.X[th.a], g.Z[th.b] - g.Z[th.a]);
     while (th.s >= L) {
       th.s -= L;
@@ -688,11 +1075,17 @@ export class Quest {
       th.b = next;
       L = Math.hypot(g.X[th.b] - g.X[th.a], g.Z[th.b] - g.Z[th.a]) || 0.01;
     }
-    const f = th.s / L;
-    th.x = g.X[th.a] + (g.X[th.b] - g.X[th.a]) * f;
-    th.z = g.Z[th.a] + (g.Z[th.b] - g.Z[th.a]) * f;
+    const f = th.s / L, cx = g.X[th.a] + (g.X[th.b] - g.X[th.a]) * f, cz = g.Z[th.a] + (g.Z[th.b] - g.Z[th.a]) * f;
+    // the sideways step, kept short of the walls on either side
+    const ux = (g.X[th.b] - g.X[th.a]) / L, uz = (g.Z[th.b] - g.Z[th.a]) / L;
+    let lat = zig * Math.sin(th.zig);
+    if (lat) lat *= Math.max(0, clearLine(this.ctx.colliders, cx, cz, cx + uz * lat * 1.4, cz - ux * lat * 1.4) - 0.3) / 0.7;
+    th.lat = (th.lat ?? 0) + (lat - (th.lat ?? 0)) * Math.min(1, dt * 8);
+    const px = th.x, pz = th.z;
+    th.x = cx + uz * th.lat;
+    th.z = cz - ux * th.lat;
     th.y = relief?.at(th.x, th.z, th.y) ?? 0;
-    const yaw = this.facing(th.a, th.b);
+    const yaw = zig > 0 && Math.hypot(th.x - px, th.z - pz) > 1e-3 ? Math.atan2(th.x - px, th.z - pz) : this.facing(th.a, th.b);
     th.yaw += Math.atan2(Math.sin(yaw - th.yaw), Math.cos(yaw - th.yaw)) * Math.min(1, dt * 10);
     th.model.root.position.set(th.x, th.y, th.z);
     th.model.root.rotation.y = th.yaw;
@@ -749,7 +1142,32 @@ export class Quest {
       let retch = 0;
       // students are sick in green, dancers throw red and white scarves and petals
       const puke = this.def.look === 'pizzica' ? [0xc62828, 0xfaf6ee, 0xe57373] : [0xa4c639, 0xd4d36a, 0x7f9a2c];
-      if (z.state === 'wind') {
+      if (z.state === 'drink') {
+        z.speed = 0;
+        if ((z.timer -= dt) <= 0) z.state = 'sleep';
+      } else if (z.state === 'splat') {
+        z.speed = 0;
+        if ((z.timer -= dt) <= 0) z.state = 'sleep';
+      } else if (z.state === 'sleep') {
+        z.speed = 0;
+      } else if (z.state === 'snack') {
+        // off to the julientje, as fast as their legs will go
+        const d = Math.hypot(z.fries.x - z.x, z.fries.z - z.z);
+        turn(Math.atan2(z.fries.x - z.x, z.fries.z - z.z), 5);
+        z.speed += (3.6 - z.speed) * Math.min(1, dt * 3);
+        const step = Math.min(z.speed * dt, Math.max(0, d - 0.9));
+        if (clearLine(col, z.x, z.z, z.x + Math.sin(z.yaw) * 1.2, z.z + Math.cos(z.yaw) * 1.2) >= 1) {
+          z.x += Math.sin(z.yaw) * step;
+          z.z += Math.cos(z.yaw) * step;
+        }
+        if (d < 1.3) { z.state = 'eat'; z.timer = FRIES_EAT; }
+        else if ((z.timer -= dt) <= 0) { z.state = 'idle'; z.fries = null; } // can't get to it
+      } else if (z.state === 'eat') {
+        // on their knees round it, eating: no eye for anyone
+        z.speed = 0;
+        turn(Math.atan2(z.fries.x - z.x, z.fries.z - z.z), 4);
+        if ((z.timer -= dt) <= 0) { z.state = 'idle'; z.fries = null; z.cool = 1; }
+      } else if (z.state === 'wind') {
         // the cheeks puff up...
         turn(toward, 4);
         retch = 1 - z.timer / 0.4;
@@ -767,13 +1185,12 @@ export class Quest {
         if (!this.over && playing) {
           for (const r of riders) {
             const dx = r.pos.x - z.x, dz = r.pos.z - z.z, d = Math.hypot(dx, dz);
-            if (d < 5.5 && d > 0.01 && (dx * fx + dz * fz) / d > 0.82 && Math.abs(r.base + r.y - z.y) < 2) {
+            if (d < 5.5 && d > 0.01 && (dx * fx + dz * fz) / d > 0.82 && Math.abs(r.base + r.y - z.y) < 2 && this.hurt(r, 'puke')) {
               P.burst(r.pos.x, r.base + r.y + 2, r.pos.z, 30, { color: [puke[0], puke[1], puke[2]], speed: 4, up: 3, gravity: 9, life: 1, size: 0.2, drag: 1 });
-              this.finish('lose', r, 'puke');
             }
           }
         }
-        if ((z.timer -= dt) <= 0) { z.state = 'idle'; z.cool = 2.4; }
+        if ((z.timer -= dt) <= 0) { z.state = 'idle'; z.cool = (this.def.pukeEvery ?? 3.7) - 1.3; }
       } else if (sees && nd < 8 && z.cool <= 0) {
         z.state = 'wind';
         z.timer = 0.4;
@@ -798,7 +1215,9 @@ export class Quest {
       z.y = relief?.at(z.x, z.z, z.y) ?? 0;
       z.model.root.position.set(z.x, z.y, z.z);
       z.model.root.rotation.y = z.yaw;
-      z.model.animate(dt, z.speed, retch);
+      z.kneel = (z.kneel ?? 0) + ((z.state === 'eat' ? 1 : 0) - (z.kneel ?? 0)) * Math.min(1, dt * 5);
+      z.fallen = Math.min(1, (z.fallen ?? 0) + (z.state === 'sleep' ? dt * 2 : 0));
+      z.model.animate(dt, z.speed, retch, z.kneel, z.state === 'drink' ? Math.min(1, (1.2 - z.timer) * 4) : 0, z.fallen);
     }
   }
 
@@ -841,9 +1260,8 @@ export class Quest {
       shown++;
       if (!playing || this.over) continue;
       for (const p of riders) {
-        if (Math.hypot(p.pos.x - r.x, p.pos.z - r.z) < RUN_HIT && Math.abs(p.base + p.y - r.y) < 2) {
+        if (Math.hypot(p.pos.x - r.x, p.pos.z - r.z) < RUN_HIT && Math.abs(p.base + p.y - r.y) < 2 && this.hurt(p, 'run')) {
           this.ctx.particles.burst(r.x, r.y + 1.5, r.z, 24, { color: [0xffffff, r.shirt.getHex()], speed: 5, up: 4, gravity: 10, life: 0.8, size: 0.16, drag: 1.5 });
-          this.finish('lose', p, 'run');
           break;
         }
       }
@@ -855,8 +1273,13 @@ export class Quest {
     }
   }
 
-  // What the arrow on screen points at, for a rider: the thief, the goal or the nearest cap.
+  // What the arrow on screen points at, for a rider: the thief, the goal or the nearest cap (none in the paint fight).
   target(r) {
+    if (this.scored) return null;
+    if (this.halts) { // first to the bus, then to the next stop
+      if (this.bus && r.car !== this.bus) return { x: this.bus.x, z: this.bus.z };
+      return this.halts[this.served] ?? null;
+    }
     if (this.thief) return { x: this.thief.x, z: this.thief.z };
     if (this.goal) return { x: this.goal.x, z: this.goal.z };
     let best = null, bd = Infinity;
@@ -869,12 +1292,17 @@ export class Quest {
   }
 
   // How far along: { got, of } for collecting, null otherwise.
-  get tally() { return this.caps ? { got: this.caps.filter(c => c.got).length, of: this.caps.length } : null; }
+  get tally() {
+    if (this.scored) return { got: this.points, of: this.def.count };
+    if (this.halts) return { got: this.served, of: this.halts.length };
+    return this.caps ? { got: this.caps.filter(c => c.got).length, of: this.caps.length } : null;
+  }
 
   // Dots for the maps: { x, z, r, fill }.
   marks() {
     const out = [];
     if (this.goal) out.push({ x: this.goal.x, z: this.goal.z, r: 6, fill: '#ffd640' });
+    for (const h of (this.halts ?? []).slice(this.served)) out.push({ x: h.x, z: h.z, r: 5, fill: '#ffd640' });
     if (this.thief) out.push({ x: this.thief.x, z: this.thief.z, r: 5.5, fill: '#e53935' });
     for (const c of this.caps ?? []) if (!c.got) out.push({ x: c.x, z: c.z, r: 4, fill: '#ffd640' });
     for (const z of this.zombies ?? []) out.push({ x: z.x, z: z.z, r: 2.6, fill: '#a4c639' });
@@ -891,6 +1319,8 @@ export class Quest {
 
   dispose() {
     this.ctx.scene.remove(this.group);
+    for (const shot of this.shots) shot.model.traverse(o => o.geometry?.dispose());
+    for (const z of this.zombies ?? []) z.model.root.traverse(o => { if (o.material === shotGlass || o.material === tequila) o.geometry?.dispose(); });
     for (const m of Object.values(this.run?.parts ?? {})) { m.geometry.dispose(); m.dispose(); }
   }
 }

@@ -1,0 +1,4758 @@
+{
+ "city": "ghent",
+ "street": "Nederkouter",
+ "slug": "nederkouter",
+ "photos": {
+  "158927016239445": {
+   "file": "photos/158927016239445.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=158927016239445",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463657,
+    3.7220802,
+    93,
+    0.444
+   ]
+  },
+  "577676510120953-61": {
+   "file": "photos/577676510120953-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=577676510120953",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468667,
+    3.7219656,
+    61,
+    0.5
+   ]
+  },
+  "511996083273035-53": {
+   "file": "photos/511996083273035-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=511996083273035",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.04688,
+    3.7220213,
+    53,
+    0.5
+   ]
+  },
+  "663862601387628-30": {
+   "file": "photos/663862601387628-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663862601387628",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468432,
+    3.7220111,
+    30,
+    0.5
+   ]
+  },
+  "663862601387628-80": {
+   "file": "photos/663862601387628-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663862601387628",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468432,
+    3.7220111,
+    80,
+    0.5
+   ]
+  },
+  "1158602497923638-82": {
+   "file": "photos/1158602497923638-82.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1158602497923638",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0468472,
+    3.7220337,
+    82,
+    0.5
+   ]
+  },
+  "577676510120953-101": {
+   "file": "photos/577676510120953-101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=577676510120953",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468667,
+    3.7219656,
+    101,
+    0.5
+   ]
+  },
+  "1076874952865045-65": {
+   "file": "photos/1076874952865045-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1076874952865045",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0478514,
+    3.7216357,
+    65,
+    0.5
+   ]
+  },
+  "219090863072554-96": {
+   "file": "photos/219090863072554-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=219090863072554",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.047871,
+    3.7216275,
+    96,
+    0.5
+   ]
+  },
+  "151917697344773-65": {
+   "file": "photos/151917697344773-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=151917697344773",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0469685,
+    3.7219317,
+    65,
+    0.5
+   ]
+  },
+  "151411687397477-106": {
+   "file": "photos/151411687397477-106.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=151411687397477",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.04701,
+    3.7219515,
+    106,
+    0.5
+   ]
+  },
+  "179277760760694-102": {
+   "file": "photos/179277760760694-102.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=179277760760694",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0470023,
+    3.7219776,
+    102,
+    0.5
+   ]
+  },
+  "676479990133616-82": {
+   "file": "photos/676479990133616-82.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=676479990133616",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0472939,
+    3.7218133,
+    82,
+    0.5
+   ]
+  },
+  "702631451062590-95": {
+   "file": "photos/702631451062590-95.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=702631451062590",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0473063,
+    3.7218326,
+    95,
+    0.5
+   ]
+  },
+  "911092156119616-50": {
+   "file": "photos/911092156119616-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=911092156119616",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0472832,
+    3.721873,
+    50,
+    0.5
+   ]
+  },
+  "1046575649270500-75": {
+   "file": "photos/1046575649270500-75.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1046575649270500",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0471972,
+    3.7218809,
+    75,
+    0.5
+   ]
+  },
+  "520299292912034-67": {
+   "file": "photos/520299292912034-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=520299292912034",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0471833,
+    3.721855,
+    67,
+    0.5
+   ]
+  },
+  "4321177314593735-49": {
+   "file": "photos/4321177314593735-49.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4321177314593735",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0471881,
+    3.7219102,
+    49,
+    0.5
+   ]
+  },
+  "524365955837754-63": {
+   "file": "photos/524365955837754-63.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=524365955837754",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0467642,
+    3.7219959,
+    63,
+    0.5
+   ]
+  },
+  "3880639155389193-55": {
+   "file": "photos/3880639155389193-55.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3880639155389193",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.046778,
+    3.7220599,
+    55,
+    0.5
+   ]
+  },
+  "352651666707882-40": {
+   "file": "photos/352651666707882-40.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=352651666707882",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0467495,
+    3.7220433,
+    40,
+    0.5
+   ]
+  },
+  "845811582699245-81": {
+   "file": "photos/845811582699245-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845811582699245",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0467424,
+    3.7220717,
+    81,
+    0.5
+   ]
+  },
+  "352651666707882-92": {
+   "file": "photos/352651666707882-92.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=352651666707882",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0467495,
+    3.7220433,
+    92,
+    0.5
+   ]
+  },
+  "524365955837754-101": {
+   "file": "photos/524365955837754-101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=524365955837754",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0467642,
+    3.7219959,
+    101,
+    0.5
+   ]
+  },
+  "1220612168474638-114": {
+   "file": "photos/1220612168474638-114.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1220612168474638",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0485299,
+    3.7214261,
+    114,
+    0.5
+   ]
+  },
+  "3039251349720111-120": {
+   "file": "photos/3039251349720111-120.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3039251349720111",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0482151,
+    3.7213347,
+    120,
+    0.5
+   ]
+  },
+  "471342097492242-64": {
+   "file": "photos/471342097492242-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=471342097492242",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0478021,
+    3.7216372,
+    64,
+    0.5
+   ]
+  },
+  "385981086583000-65": {
+   "file": "photos/385981086583000-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=385981086583000",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0477534,
+    3.7216685,
+    65,
+    0.5
+   ]
+  },
+  "1139075709945197-90": {
+   "file": "photos/1139075709945197-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1139075709945197",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0477698,
+    3.7216461,
+    90,
+    0.5
+   ]
+  },
+  "332348651790643-94": {
+   "file": "photos/332348651790643-94.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=332348651790643",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0475152,
+    3.7217622,
+    94,
+    0.5
+   ]
+  },
+  "986383818731686-39": {
+   "file": "photos/986383818731686-39.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986383818731686",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0474756,
+    3.7217652,
+    39,
+    0.5
+   ]
+  },
+  "155241853658847-64": {
+   "file": "photos/155241853658847-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=155241853658847",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0470753,
+    3.721893,
+    64,
+    0.5
+   ]
+  },
+  "155553816954765-50": {
+   "file": "photos/155553816954765-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=155553816954765",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0470746,
+    3.7219309,
+    50,
+    0.5
+   ]
+  },
+  "806094520335495": {
+   "file": "photos/806094520335495.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=806094520335495",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463763,
+    3.7221221,
+    38,
+    0.444
+   ]
+  },
+  "498635791284038": {
+   "file": "photos/498635791284038.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=498635791284038",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463713,
+    3.7221126,
+    62,
+    0.444
+   ]
+  },
+  "140986294682060": {
+   "file": "photos/140986294682060.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=140986294682060",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0463688,
+    3.7221028,
+    76,
+    0.444
+   ]
+  },
+  "4069568999747729-35": {
+   "file": "photos/4069568999747729-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4069568999747729",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0483882,
+    3.7214806,
+    35,
+    0.5
+   ]
+  },
+  "135422975732647-98": {
+   "file": "photos/135422975732647-98.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=135422975732647",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0480527,
+    3.7215755,
+    98,
+    0.5
+   ]
+  },
+  "527090698423269-47": {
+   "file": "photos/527090698423269-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527090698423269",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0479758,
+    3.7216108,
+    47,
+    0.5
+   ]
+  },
+  "1133619944148462-90": {
+   "file": "photos/1133619944148462-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133619944148462",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.047953,
+    3.7216076,
+    90,
+    0.5
+   ]
+  },
+  "179044994112960-65": {
+   "file": "photos/179044994112960-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=179044994112960",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0479408,
+    3.7216181,
+    65,
+    0.5
+   ]
+  },
+  "2846882528907684-81": {
+   "file": "photos/2846882528907684-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2846882528907684",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0477126,
+    3.7216669,
+    81,
+    0.5
+   ]
+  },
+  "405683907743989-80": {
+   "file": "photos/405683907743989-80.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=405683907743989",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0476588,
+    3.7217023,
+    80,
+    0.5
+   ]
+  },
+  "154247363332200-89": {
+   "file": "photos/154247363332200-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=154247363332200",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0476651,
+    3.7216846,
+    89,
+    0.5
+   ]
+  },
+  "1063867710891843-77": {
+   "file": "photos/1063867710891843-77.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1063867710891843",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0475671,
+    3.7217326,
+    77,
+    0.5
+   ]
+  },
+  "833707720605278-91": {
+   "file": "photos/833707720605278-91.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=833707720605278",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0475764,
+    3.7217235,
+    91,
+    0.5
+   ]
+  },
+  "154543937065472-66": {
+   "file": "photos/154543937065472-66.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=154543937065472",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466636,
+    3.7220189,
+    66,
+    0.5
+   ]
+  },
+  "2425976087545421-50": {
+   "file": "photos/2425976087545421-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2425976087545421",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466574,
+    3.7220696,
+    50,
+    0.5
+   ]
+  },
+  "176317427737913-100": {
+   "file": "photos/176317427737913-100.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=176317427737913",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0467066,
+    3.7220815,
+    100,
+    0.5
+   ]
+  },
+  "771569800474858-70": {
+   "file": "photos/771569800474858-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=771569800474858",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0482203,
+    3.7212517,
+    70,
+    0.5
+   ]
+  },
+  "485973829122749-53": {
+   "file": "photos/485973829122749-53.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=485973829122749",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0482717,
+    3.7215146,
+    53,
+    0.5
+   ]
+  },
+  "685976652646876-50": {
+   "file": "photos/685976652646876-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=685976652646876",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0481556,
+    3.721544,
+    50,
+    0.5
+   ]
+  },
+  "2425976087545421-98": {
+   "file": "photos/2425976087545421-98.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2425976087545421",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466574,
+    3.7220696,
+    98,
+    0.5
+   ]
+  },
+  "154543937065472-99": {
+   "file": "photos/154543937065472-99.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=154543937065472",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466636,
+    3.7220189,
+    99,
+    0.5
+   ]
+  },
+  "308953860851778-61": {
+   "file": "photos/308953860851778-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=308953860851778",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0466273,
+    3.7221016,
+    61,
+    0.5
+   ]
+  },
+  "5336530319747141-79": {
+   "file": "photos/5336530319747141-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5336530319747141",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0465623,
+    3.7220383,
+    79,
+    0.5
+   ]
+  },
+  "298082459181134-86": {
+   "file": "photos/298082459181134-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=298082459181134",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0465758,
+    3.7220897,
+    86,
+    0.5
+   ]
+  },
+  "1541270236043716-97": {
+   "file": "photos/1541270236043716-97.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1541270236043716",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0465858,
+    3.7221114,
+    97,
+    0.5
+   ]
+  },
+  "1067067710568456-83": {
+   "file": "photos/1067067710568456-83.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1067067710568456",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0465053,
+    3.7220855,
+    83,
+    0.5
+   ]
+  },
+  "979397429536370-76": {
+   "file": "photos/979397429536370-76.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=979397429536370",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.046501,
+    3.722127,
+    76,
+    0.5
+   ]
+  },
+  "1465965454566154-69": {
+   "file": "photos/1465965454566154-69.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1465965454566154",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.046452,
+    3.7219497,
+    69,
+    0.5
+   ]
+  },
+  "168410965125057-87": {
+   "file": "photos/168410965125057-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=168410965125057",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0479064,
+    3.7216236,
+    87,
+    0.5
+   ]
+  },
+  "1658599597864422": {
+   "file": "photos/1658599597864422.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1658599597864422",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0489494,
+    3.7208677,
+    85,
+    0.443
+   ]
+  },
+  "275391894321581": {
+   "file": "photos/275391894321581.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=275391894321581",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-10-26",
+   "cam": [
+    51.0490478,
+    3.720903,
+    79,
+    1.036
+   ]
+  },
+  "1172319653216499": {
+   "file": "photos/1172319653216499.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1172319653216499",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0489239,
+    3.7212414,
+    109,
+    0.443
+   ]
+  },
+  "954682318617625": {
+   "file": "photos/954682318617625.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=954682318617625",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-21",
+   "cam": [
+    51.0489499,
+    3.7209131,
+    96,
+    0.443
+   ]
+  },
+  "1800225900709422-186": {
+   "file": "photos/1800225900709422-186.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1800225900709422",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-28",
+   "pano": true,
+   "cam": [
+    51.0463958,
+    3.7219906,
+    186,
+    0.5
+   ]
+  },
+  "405459987819807-195": {
+   "file": "photos/405459987819807-195.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=405459987819807",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0464621,
+    3.7220518,
+    195,
+    0.5
+   ]
+  },
+  "388041723219760-207": {
+   "file": "photos/388041723219760-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=388041723219760",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.046422,
+    3.7220916,
+    207,
+    0.5
+   ]
+  },
+  "498230908754718-252": {
+   "file": "photos/498230908754718-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=498230908754718",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0474395,
+    3.721784,
+    252,
+    0.5
+   ]
+  },
+  "294939678851133-251": {
+   "file": "photos/294939678851133-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=294939678851133",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.047445,
+    3.7218048,
+    251,
+    0.5
+   ]
+  },
+  "986383818731686-221": {
+   "file": "photos/986383818731686-221.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=986383818731686",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0474756,
+    3.7217652,
+    221,
+    0.5
+   ]
+  },
+  "663862601387628-264": {
+   "file": "photos/663862601387628-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=663862601387628",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468432,
+    3.7220111,
+    264,
+    0.5
+   ]
+  },
+  "1158602497923638-262": {
+   "file": "photos/1158602497923638-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1158602497923638",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0468472,
+    3.7220337,
+    262,
+    0.5
+   ]
+  },
+  "577676510120953-228": {
+   "file": "photos/577676510120953-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=577676510120953",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0468667,
+    3.7219656,
+    228,
+    0.5
+   ]
+  },
+  "471342097492242-254": {
+   "file": "photos/471342097492242-254.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=471342097492242",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0478021,
+    3.7216372,
+    254,
+    0.5
+   ]
+  },
+  "385981086583000-294": {
+   "file": "photos/385981086583000-294.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=385981086583000",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0477534,
+    3.7216685,
+    294,
+    0.5
+   ]
+  },
+  "215278496829097": {
+   "file": "photos/215278496829097.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=215278496829097",
+   "author": "thierry1030",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-07",
+   "cam": [
+    51.0475221,
+    3.722136,
+    286,
+    0.694
+   ]
+  },
+  "520299292912034-234": {
+   "file": "photos/520299292912034-234.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=520299292912034",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0471833,
+    3.721855,
+    234,
+    0.5
+   ]
+  },
+  "4321177314593735-246": {
+   "file": "photos/4321177314593735-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4321177314593735",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0471881,
+    3.7219102,
+    246,
+    0.5
+   ]
+  },
+  "645039966746245-280": {
+   "file": "photos/645039966746245-280.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=645039966746245",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0471423,
+    3.7219052,
+    280,
+    0.5
+   ]
+  },
+  "527090698423269-272": {
+   "file": "photos/527090698423269-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=527090698423269",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0479758,
+    3.7216108,
+    272,
+    0.5
+   ]
+  },
+  "1133619944148462-290": {
+   "file": "photos/1133619944148462-290.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1133619944148462",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.047953,
+    3.7216076,
+    290,
+    0.5
+   ]
+  },
+  "385981086583000-263": {
+   "file": "photos/385981086583000-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=385981086583000",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0477534,
+    3.7216685,
+    263,
+    0.5
+   ]
+  },
+  "1139075709945197-244": {
+   "file": "photos/1139075709945197-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1139075709945197",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0477698,
+    3.7216461,
+    244,
+    0.5
+   ]
+  },
+  "490972495512590-250": {
+   "file": "photos/490972495512590-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=490972495512590",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0486972,
+    3.7213832,
+    250,
+    0.5
+   ]
+  },
+  "695671761656573-284": {
+   "file": "photos/695671761656573-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=695671761656573",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0486343,
+    3.7214776,
+    284,
+    0.5
+   ]
+  },
+  "1107372063152105-267": {
+   "file": "photos/1107372063152105-267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1107372063152105",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0485985,
+    3.7214263,
+    267,
+    0.5
+   ]
+  },
+  "479149453360133-257": {
+   "file": "photos/479149453360133-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=479149453360133",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0486134,
+    3.7214161,
+    257,
+    0.5
+   ]
+  },
+  "1076874952865045-258": {
+   "file": "photos/1076874952865045-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1076874952865045",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0478514,
+    3.7216357,
+    258,
+    0.5
+   ]
+  },
+  "534143764248151-272": {
+   "file": "photos/534143764248151-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534143764248151",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0478361,
+    3.7216311,
+    272,
+    0.5
+   ]
+  },
+  "5139197906119036-262": {
+   "file": "photos/5139197906119036-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5139197906119036",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0483572,
+    3.7214772,
+    262,
+    0.5
+   ]
+  },
+  "997583690778428-261": {
+   "file": "photos/997583690778428-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=997583690778428",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0483598,
+    3.7214882,
+    261,
+    0.5
+   ]
+  },
+  "154543937065472-289": {
+   "file": "photos/154543937065472-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=154543937065472",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466636,
+    3.7220189,
+    289,
+    0.5
+   ]
+  },
+  "2425976087545421-285": {
+   "file": "photos/2425976087545421-285.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2425976087545421",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0466574,
+    3.7220696,
+    285,
+    0.5
+   ]
+  },
+  "931216917448722-275": {
+   "file": "photos/931216917448722-275.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=931216917448722",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.0466685,
+    3.7220914,
+    275,
+    0.5
+   ]
+  },
+  "1388929654825223": {
+   "file": "photos/1388929654825223.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1388929654825223",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-27",
+   "cam": [
+    51.0465397,
+    3.7220388,
+    299,
+    1.008
+   ]
+  },
+  "1067067710568456-266": {
+   "file": "photos/1067067710568456-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1067067710568456",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0465053,
+    3.7220855,
+    266,
+    0.5
+   ]
+  },
+  "979397429536370-270": {
+   "file": "photos/979397429536370-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=979397429536370",
+   "author": "vansteelandt",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-12-04",
+   "pano": true,
+   "cam": [
+    51.046501,
+    3.722127,
+    270,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 7996,
+   "at": [
+    -130.75,
+    971.95
+   ],
+   "centre": [
+    -97.7,
+    968.5
+   ],
+   "width": 5.9,
+   "faces": 163,
+   "toStreet": 15.1,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 11,
+   "kind": "house",
+   "ring": [
+    -131.6,
+    969.1,
+    -93.6,
+    962.9,
+    -93.4,
+    962.8,
+    -93.2,
+    962.8,
+    -84.1,
+    961.3,
+    -83,
+    969,
+    -83.3,
+    969.1,
+    -84.4,
+    969.3,
+    -89.7,
+    970.3,
+    -97.5,
+    971.7,
+    -98.8,
+    971.9,
+    -102.2,
+    972.6,
+    -102.5,
+    970.9,
+    -129.9,
+    974.8
+   ],
+   "id": "nederkouter-163-01",
+   "latLon": [
+    51.046342,
+    3.72227
+   ],
+   "photos": [
+    {
+     "id": "158927016239445",
+     "metres": 14,
+     "off": 8,
+     "span": [
+      0.488,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7388,
+   "at": [
+    -148.65,
+    894.7
+   ],
+   "centre": [
+    -133.8,
+    892.1
+   ],
+   "width": 6.2,
+   "faces": 164,
+   "toStreet": 9.7,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": 18.5,
+   "kind": "yes",
+   "ring": [
+    -149.5,
+    891.7,
+    -123.7,
+    885.6,
+    -122.2,
+    892.4,
+    -126,
+    893.2,
+    -147.8,
+    897.7
+   ],
+   "id": "nederkouter-164-02",
+   "latLon": [
+    51.046901,
+    3.722065
+   ],
+   "photos": [
+    {
+     "id": "577676510120953-61",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.358,
+      0.666
+     ]
+    },
+    {
+     "id": "511996083273035-53",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.251,
+      0.887
+     ]
+    },
+    {
+     "id": "663862601387628-30",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.405,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7987,
+   "at": [
+    -146.7,
+    901.5
+   ],
+   "centre": [
+    -124,
+    899.7
+   ],
+   "width": 7.9,
+   "faces": 164,
+   "toStreet": 10.1,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -147.8,
+    897.7,
+    -126,
+    893.2,
+    -125.3,
+    896.7,
+    -112.4,
+    894.2,
+    -111.8,
+    897.1,
+    -115.1,
+    897.9,
+    -114.8,
+    899,
+    -113.2,
+    906,
+    -125.4,
+    908.4,
+    -126.8,
+    901.5,
+    -145.6,
+    905.3
+   ],
+   "id": "nederkouter-164-03",
+   "latLon": [
+    51.046852,
+    3.722087
+   ],
+   "photos": [
+    {
+     "id": "663862601387628-80",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.187,
+      0.773
+     ]
+    },
+    {
+     "id": "1158602497923638-82",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.03,
+      0.873
+     ]
+    },
+    {
+     "id": "577676510120953-101",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.303,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7409,
+   "at": [
+    -181.65,
+    761.25
+   ],
+   "centre": [
+    -166.6,
+    762.6
+   ],
+   "width": 5.1,
+   "faces": 165,
+   "toStreet": 7.7,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -182.3,
+    758.8,
+    -167.9,
+    759,
+    -167.9,
+    761.2,
+    -158.9,
+    762.4,
+    -155.7,
+    762.7,
+    -156,
+    765.4,
+    -162.7,
+    764.5,
+    -166.7,
+    764.3,
+    -166.8,
+    764.3,
+    -181,
+    763.7
+   ],
+   "id": "nederkouter-165-04",
+   "latLon": [
+    51.047867,
+    3.721688
+   ],
+   "photos": [
+    {
+     "id": "1076874952865045-65",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.27,
+      0.778
+     ]
+    },
+    {
+     "id": "219090863072554-96",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.233,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7387,
+   "at": [
+    -151.95,
+    881.6
+   ],
+   "centre": [
+    -134.6,
+    880.4
+   ],
+   "width": 12.6,
+   "faces": 165,
+   "toStreet": 9.5,
+   "floors": 5,
+   "eaves": 20.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -153.6,
+    875.5,
+    -144.6,
+    873.5,
+    -133,
+    871.8,
+    -132.1,
+    877.2,
+    -123.9,
+    875.9,
+    -123.6,
+    878.2,
+    -123,
+    881.5,
+    -122.8,
+    885.4,
+    -123.7,
+    885.6,
+    -149.5,
+    891.7,
+    -150.3,
+    887.7
+   ],
+   "id": "nederkouter-165-05",
+   "latLon": [
+    51.046996,
+    3.722027
+   ],
+   "photos": [
+    {
+     "id": "151917697344773-65",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.201,
+      0.892
+     ]
+    },
+    {
+     "id": "151411687397477-106",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.771
+     ]
+    },
+    {
+     "id": "179277760760694-102",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.885
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7384,
+   "at": [
+    -162.25,
+    839.3
+   ],
+   "centre": [
+    -155.1,
+    836.7
+   ],
+   "width": 7.6,
+   "faces": 166,
+   "toStreet": 9,
+   "floors": 6,
+   "eaves": 23.1,
+   "top": 25.6,
+   "kind": "yes",
+   "ring": [
+    -145.3,
+    831.9,
+    -144.5,
+    840,
+    -161.3,
+    843,
+    -163.2,
+    835.6,
+    -161.3,
+    833.1
+   ],
+   "id": "nederkouter-166-06",
+   "latLon": [
+    51.047302,
+    3.721909
+   ],
+   "photos": [
+    {
+     "id": "676479990133616-82",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.269,
+      0.718
+     ]
+    },
+    {
+     "id": "702631451062590-95",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.174,
+      0.728
+     ]
+    },
+    {
+     "id": "911092156119616-50",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.209,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7385,
+   "at": [
+    -159.05,
+    852.25
+   ],
+   "centre": [
+    -147.2,
+    847.2
+   ],
+   "width": 19,
+   "faces": 166,
+   "toStreet": 9.2,
+   "floors": 7,
+   "eaves": 25.1,
+   "top": 29.6,
+   "kind": "yes",
+   "ring": [
+    -161.3,
+    843,
+    -144.5,
+    840,
+    -144.4,
+    841.3,
+    -144.2,
+    843.4,
+    -141.3,
+    843.1,
+    -138,
+    858.4,
+    -156.8,
+    861.5
+   ],
+   "id": "nederkouter-166-07",
+   "latLon": [
+    51.047208,
+    3.721946
+   ],
+   "photos": [
+    {
+     "id": "1046575649270500-75",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "520299292912034-67",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.033,
+      1
+     ]
+    },
+    {
+     "id": "4321177314593735-49",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7389,
+   "at": [
+    -144.75,
+    908.65
+   ],
+   "centre": [
+    -135.4,
+    906.8
+   ],
+   "width": 6.9,
+   "faces": 166,
+   "toStreet": 10.4,
+   "floors": 4,
+   "eaves": 16.2,
+   "top": 19.4,
+   "kind": "yes",
+   "ring": [
+    -145.6,
+    905.3,
+    -126.8,
+    901.5,
+    -125.4,
+    908.4,
+    -143.9,
+    912
+   ],
+   "id": "nederkouter-166-08",
+   "latLon": [
+    51.0468,
+    3.72211
+   ],
+   "photos": [
+    {
+     "id": "524365955837754-63",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.36,
+      0.666
+     ]
+    },
+    {
+     "id": "3880639155389193-55",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.251,
+      0.892
+     ]
+    },
+    {
+     "id": "352651666707882-40",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.37,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7988,
+   "at": [
+    -142.95,
+    915.8
+   ],
+   "centre": [
+    -116.3,
+    909.7
+   ],
+   "width": 7.8,
+   "faces": 166,
+   "toStreet": 10.5,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 17.4,
+   "kind": "house",
+   "ring": [
+    -143.9,
+    912,
+    -125.4,
+    908.4,
+    -113.2,
+    906,
+    -104,
+    904.3,
+    -100.9,
+    903.5,
+    -99.2,
+    909.8,
+    -102.6,
+    910.6,
+    -115.4,
+    913.5,
+    -142,
+    919.6
+   ],
+   "id": "nederkouter-166-09",
+   "latLon": [
+    51.046748,
+    3.72213
+   ],
+   "photos": [
+    {
+     "id": "845811582699245-81",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.094,
+      0.852
+     ]
+    },
+    {
+     "id": "352651666707882-92",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.201,
+      0.711
+     ]
+    },
+    {
+     "id": "524365955837754-101",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.323,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7340,
+   "at": [
+    -202.64999999999998,
+    661.8
+   ],
+   "centre": [
+    -193.8,
+    660.1
+   ],
+   "width": 13.8,
+   "faces": 167,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -182.6,
+    658.1,
+    -189.1,
+    657,
+    -197.2,
+    655.8,
+    -197.8,
+    655.7,
+    -204.2,
+    655.1,
+    -201.1,
+    668.5,
+    -184.8,
+    670.5
+   ],
+   "id": "nederkouter-167-10",
+   "latLon": [
+    51.048586,
+    3.721448
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7366,
+   "at": [
+    -200.45,
+    671.3
+   ],
+   "centre": [
+    -184,
+    672.6
+   ],
+   "width": 5.7,
+   "faces": 167,
+   "toStreet": 7.9,
+   "floors": 1,
+   "eaves": 2.6,
+   "top": 19.5,
+   "kind": "house",
+   "ring": [
+    -201.1,
+    668.5,
+    -184.8,
+    670.5,
+    -173.4,
+    672.1,
+    -172.1,
+    672.3,
+    -172.5,
+    678.3,
+    -199.8,
+    674.1
+   ],
+   "id": "nederkouter-167-11",
+   "latLon": [
+    51.048517,
+    3.721473
+   ],
+   "photos": [
+    {
+     "id": "1220612168474638-114",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.063,
+      0.68
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7401,
+   "at": [
+    -188.89999999999998,
+    726.8
+   ],
+   "centre": [
+    -174.4,
+    726.4
+   ],
+   "width": 10.9,
+   "faces": 167,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -166.1,
+    735.6,
+    -163.9,
+    727.2,
+    -167.6,
+    724.5,
+    -169.6,
+    724,
+    -170.2,
+    723.8,
+    -172,
+    723.5,
+    -176,
+    722.2,
+    -179.7,
+    722.1,
+    -190.1,
+    721.5,
+    -187.7,
+    732.1,
+    -175.1,
+    734.1
+   ],
+   "id": "nederkouter-167-12",
+   "latLon": [
+    51.048116,
+    3.721605
+   ],
+   "photos": [
+    {
+     "id": "3039251349720111-120",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.418,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7403,
+   "at": [
+    -180.15,
+    767.3
+   ],
+   "centre": [
+    -165.4,
+    768.2
+   ],
+   "width": 7.4,
+   "faces": 167,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -181,
+    763.7,
+    -166.8,
+    764.3,
+    -166.3,
+    768.4,
+    -163.8,
+    767.5,
+    -149.9,
+    768.6,
+    -150.5,
+    773.7,
+    -179.3,
+    770.9
+   ],
+   "id": "nederkouter-167-13",
+   "latLon": [
+    51.047823,
+    3.721705
+   ],
+   "photos": [
+    {
+     "id": "471342097492242-64",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.256,
+      0.816
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7404,
+   "at": [
+    -178.45,
+    774.5999999999999
+   ],
+   "centre": [
+    -162.5,
+    776.3
+   ],
+   "width": 7.6,
+   "faces": 167,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -179.3,
+    770.9,
+    -150.5,
+    773.7,
+    -150.5,
+    779.3,
+    -154.6,
+    779.5,
+    -177.6,
+    778.3
+   ],
+   "id": "nederkouter-167-14",
+   "latLon": [
+    51.04777,
+    3.721724
+   ],
+   "photos": [
+    {
+     "id": "385981086583000-65",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.195,
+      0.903
+     ]
+    },
+    {
+     "id": "1139075709945197-90",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.186,
+      0.74
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7407,
+   "at": [
+    -170.6,
+    810.15
+   ],
+   "centre": [
+    -161.1,
+    812.6
+   ],
+   "width": 9.9,
+   "faces": 167,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 5.8,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    -151.9,
+    803.2,
+    -171.7,
+    805.3,
+    -169.5,
+    815,
+    -167.6,
+    816.3,
+    -164.5,
+    815.8,
+    -163.8,
+    815.7,
+    -157.1,
+    814.8,
+    -152.8,
+    813.9,
+    -150.8,
+    813.8
+   ],
+   "id": "nederkouter-167-15",
+   "latLon": [
+    51.047513,
+    3.721814
+   ],
+   "photos": [
+    {
+     "id": "332348651790643-94",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.899
+     ]
+    },
+    {
+     "id": "986383818731686-39",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.303,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7386,
+   "at": [
+    -155.60000000000002,
+    866.8
+   ],
+   "centre": [
+    -144.5,
+    867
+   ],
+   "width": 10.9,
+   "faces": 167,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -156.8,
+    861.5,
+    -138,
+    858.4,
+    -132.5,
+    857.5,
+    -130.5,
+    867,
+    -145.4,
+    870.2,
+    -144.6,
+    873.5,
+    -153.6,
+    875.5,
+    -154.4,
+    872.1
+   ],
+   "id": "nederkouter-167-16",
+   "latLon": [
+    51.047103,
+    3.721985
+   ],
+   "photos": [
+    {
+     "id": "155241853658847-64",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.243,
+      0.852
+     ]
+    },
+    {
+     "id": "155553816954765-50",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.222,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7994,
+   "at": [
+    -134.89999999999998,
+    954.5
+   ],
+   "centre": [
+    -114.4,
+    950.7
+   ],
+   "width": 6.4,
+   "faces": 167,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -135.6,
+    951.4,
+    -118.3,
+    948.1,
+    -111.6,
+    946.8,
+    -91.4,
+    942.8,
+    -90.7,
+    949.3,
+    -116.6,
+    955.1,
+    -117.1,
+    954.7,
+    -134.2,
+    957.6
+   ],
+   "id": "nederkouter-167-17",
+   "latLon": [
+    51.046468,
+    3.722222
+   ],
+   "photos": [
+    {
+     "id": "806094520335495",
+     "metres": 12,
+     "off": 4,
+     "span": [
+      0.412,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7995,
+   "at": [
+    -133.39999999999998,
+    961.1500000000001
+   ],
+   "centre": [
+    -97.6,
+    957.4
+   ],
+   "width": 7.3,
+   "faces": 167,
+   "toStreet": 13.1,
+   "floors": 1,
+   "eaves": 5.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -134.2,
+    957.6,
+    -117.1,
+    954.7,
+    -116.6,
+    955.1,
+    -90.7,
+    949.3,
+    -90.4,
+    951.7,
+    -79.9,
+    949.7,
+    -78.9,
+    955.8,
+    -78.3,
+    960.3,
+    -83.3,
+    961.2,
+    -84.1,
+    961.3,
+    -93.2,
+    962.8,
+    -93.8,
+    959.3,
+    -95.4,
+    959.5,
+    -95.5,
+    958.6,
+    -132.6,
+    964.7
+   ],
+   "id": "nederkouter-167-18",
+   "latLon": [
+    51.04642,
+    3.722239
+   ],
+   "photos": [
+    {
+     "id": "498635791284038",
+     "metres": 10,
+     "off": 4,
+     "span": [
+      0.357,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 8185,
+   "at": [
+    -132.1,
+    966.9000000000001
+   ],
+   "centre": [
+    -103.6,
+    962.5
+   ],
+   "width": 4.5,
+   "faces": 167,
+   "toStreet": 13.9,
+   "floors": 1,
+   "eaves": 2.5,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -132.6,
+    964.7,
+    -95.5,
+    958.6,
+    -95.4,
+    959.5,
+    -93.8,
+    959.3,
+    -93.2,
+    962.8,
+    -93.4,
+    962.8,
+    -93.6,
+    962.9,
+    -131.6,
+    969.1
+   ],
+   "id": "nederkouter-167-19",
+   "latLon": [
+    51.046379,
+    3.722254
+   ],
+   "photos": [
+    {
+     "id": "140986294682060",
+     "metres": 11,
+     "off": 8,
+     "span": [
+      0.487,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7364,
+   "at": [
+    -197.35000000000002,
+    685.75
+   ],
+   "centre": [
+    -177.7,
+    689.6
+   ],
+   "width": 23.8,
+   "faces": 168,
+   "toStreet": 8.1,
+   "floors": 6,
+   "eaves": 23.8,
+   "top": null,
+   "kind": "residential",
+   "ring": [
+    -199.8,
+    674.1,
+    -172.5,
+    678.3,
+    -169.2,
+    677.9,
+    -168.9,
+    679.6,
+    -168.5,
+    682.8,
+    -166.2,
+    701,
+    -165.9,
+    703.5,
+    -176.7,
+    701.8,
+    -194.5,
+    699.2,
+    -194.9,
+    697.4
+   ],
+   "id": "nederkouter-168-20",
+   "latLon": [
+    51.048413,
+    3.721508
+   ],
+   "photos": [
+    {
+     "id": "4069568999747729-35",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.147,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7917,
+   "at": [
+    -186.85,
+    736.2
+   ],
+   "centre": [
+    -158.5,
+    740.7
+   ],
+   "width": 8.4,
+   "faces": 168,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -187.7,
+    732.1,
+    -186,
+    740.3,
+    -177.9,
+    741.9,
+    -177.6,
+    740.3,
+    -155.9,
+    745,
+    -155.8,
+    744.3,
+    -155.4,
+    741.4,
+    -154.8,
+    741.5,
+    -138.5,
+    744.1,
+    -131.6,
+    745.1,
+    -131.5,
+    743,
+    -135.2,
+    742,
+    -148,
+    739.3,
+    -166.1,
+    735.6,
+    -175.1,
+    734.1
+   ],
+   "id": "nederkouter-168-21",
+   "latLon": [
+    51.048048,
+    3.721628
+   ],
+   "photos": [
+    {
+     "id": "135422975732647-98",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.827
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7411,
+   "at": [
+    -185.35,
+    743.3499999999999
+   ],
+   "centre": [
+    -169.2,
+    746.2
+   ],
+   "width": 6.2,
+   "faces": 168,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -186,
+    740.3,
+    -184.7,
+    746.4,
+    -163.1,
+    747.5,
+    -164.1,
+    752.8,
+    -157,
+    753,
+    -156.5,
+    749,
+    -155.9,
+    745,
+    -177.6,
+    740.3,
+    -177.9,
+    741.9
+   ],
+   "id": "nederkouter-168-22",
+   "latLon": [
+    51.047996,
+    3.721645
+   ],
+   "photos": [
+    {
+     "id": "527090698423269-47",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.268,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7402,
+   "at": [
+    -184.1,
+    749.3
+   ],
+   "centre": [
+    -173.8,
+    749.7
+   ],
+   "width": 5.9,
+   "faces": 168,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    -164.1,
+    752.8,
+    -163.1,
+    747.5,
+    -184.7,
+    746.4,
+    -183.5,
+    752.2
+   ],
+   "id": "nederkouter-168-23",
+   "latLon": [
+    51.047953,
+    3.72166
+   ],
+   "photos": [
+    {
+     "id": "1133619944148462-90",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.13,
+      0.78
+     ]
+    },
+    {
+     "id": "179044994112960-65",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.191,
+      0.931
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7405,
+   "at": [
+    -176.95,
+    781.45
+   ],
+   "centre": [
+    -163.2,
+    782.2
+   ],
+   "width": 6.4,
+   "faces": 168,
+   "toStreet": 8,
+   "floors": 2,
+   "eaves": 7.2,
+   "top": 16.9,
+   "kind": "yes",
+   "ring": [
+    -151.8,
+    785.2,
+    -151.9,
+    781.4,
+    -154.6,
+    781.5,
+    -154.6,
+    779.5,
+    -177.6,
+    778.3,
+    -176.3,
+    784.6,
+    -175.7,
+    784.6
+   ],
+   "id": "nederkouter-168-24",
+   "latLon": [
+    51.04772,
+    3.721741
+   ],
+   "photos": [
+    {
+     "id": "2846882528907684-81",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.246,
+      0.733
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7410,
+   "at": [
+    -174.8,
+    789
+   ],
+   "centre": [
+    -149.2,
+    790.5
+   ],
+   "width": 9,
+   "faces": 168,
+   "toStreet": 8.5,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -175.7,
+    784.6,
+    -173.9,
+    793.4,
+    -173.1,
+    797.4,
+    -157.6,
+    796.3,
+    -157.4,
+    797.2,
+    -150.4,
+    796.1,
+    -144.7,
+    795.2,
+    -131.3,
+    793,
+    -131.6,
+    790.7,
+    -132.3,
+    783.9,
+    -133.8,
+    784,
+    -139.2,
+    784.5,
+    -138.5,
+    789.6,
+    -146.4,
+    790.6,
+    -146.7,
+    788.2,
+    -151.4,
+    788.8,
+    -151.8,
+    785.2
+   ],
+   "id": "nederkouter-168-25",
+   "latLon": [
+    51.047666,
+    3.721766
+   ],
+   "photos": [
+    {
+     "id": "405683907743989-80",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.088,
+      0.89
+     ]
+    },
+    {
+     "id": "154247363332200-89",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.147,
+      0.78
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7406,
+   "at": [
+    -172.55,
+    801.3499999999999
+   ],
+   "centre": [
+    -160.6,
+    799.5
+   ],
+   "width": 8.1,
+   "faces": 168,
+   "toStreet": 8.1,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -173.1,
+    797.4,
+    -173.4,
+    797.4,
+    -171.7,
+    805.3,
+    -151.9,
+    803.2,
+    -149.7,
+    802.9,
+    -150.4,
+    796.1,
+    -157.4,
+    797.2,
+    -157.6,
+    796.3
+   ],
+   "id": "nederkouter-168-26",
+   "latLon": [
+    51.047576,
+    3.721792
+   ],
+   "photos": [
+    {
+     "id": "1063867710891843-77",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.113,
+      0.878
+     ]
+    },
+    {
+     "id": "833707720605278-91",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.095,
+      0.78
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7989,
+   "at": [
+    -141.35,
+    922.7
+   ],
+   "centre": [
+    -124.4,
+    920.5
+   ],
+   "width": 6.3,
+   "faces": 168,
+   "toStreet": 10.6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -142,
+    919.6,
+    -115.4,
+    913.5,
+    -114.2,
+    921,
+    -115,
+    921.2,
+    -119.2,
+    922,
+    -140.7,
+    925.8
+   ],
+   "id": "nederkouter-168-27",
+   "latLon": [
+    51.046699,
+    3.722148
+   ],
+   "photos": [
+    {
+     "id": "154543937065472-66",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.387,
+      0.64
+     ]
+    },
+    {
+     "id": "2425976087545421-50",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.368,
+      0.69
+     ]
+    },
+    {
+     "id": "176317427737913-100",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.202,
+      0.713
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7365,
+   "at": [
+    -193.75,
+    702.95
+   ],
+   "centre": [
+    -179.6,
+    704.5
+   ],
+   "width": 7.6,
+   "faces": 169,
+   "toStreet": 8.2,
+   "floors": 4,
+   "eaves": 14,
+   "top": 20.5,
+   "kind": "commercial",
+   "ring": [
+    -194.5,
+    699.2,
+    -176.7,
+    701.8,
+    -165.9,
+    703.5,
+    -167.9,
+    711.2,
+    -193,
+    706.7
+   ],
+   "id": "nederkouter-169-28",
+   "latLon": [
+    51.048288,
+    3.721549
+   ],
+   "photos": [
+    {
+     "id": "771569800474858-70",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.433,
+      0.57
+     ]
+    },
+    {
+     "id": "485973829122749-53",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.185,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7400,
+   "at": [
+    -190.7,
+    718.3
+   ],
+   "centre": [
+    -177.8,
+    719.5
+   ],
+   "width": 6.5,
+   "faces": 169,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -167.1,
+    722.2,
+    -167.5,
+    714.7,
+    -190.3,
+    710.3,
+    -192.3,
+    709.9,
+    -191.3,
+    715.1,
+    -190.1,
+    721.5,
+    -179.7,
+    722.1,
+    -176,
+    722.2,
+    -172,
+    723.5,
+    -170.2,
+    723.8,
+    -169.6,
+    724,
+    -167.6,
+    724.5
+   ],
+   "id": "nederkouter-169-29",
+   "latLon": [
+    51.048177,
+    3.721584
+   ],
+   "photos": [
+    {
+     "id": "685976652646876-50",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.266,
+      0.96
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7991,
+   "at": [
+    -139.95,
+    929.55
+   ],
+   "centre": [
+    -120.7,
+    926.7
+   ],
+   "width": 7.6,
+   "faces": 169,
+   "toStreet": 10.6,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 21,
+   "kind": "yes",
+   "ring": [
+    -140.7,
+    925.8,
+    -119.2,
+    922,
+    -115,
+    921.2,
+    -114,
+    924.9,
+    -109.2,
+    924,
+    -108.5,
+    927.3,
+    -116,
+    928.7,
+    -122.5,
+    930,
+    -122.5,
+    930.3,
+    -139.2,
+    933.3
+   ],
+   "id": "nederkouter-169-30",
+   "latLon": [
+    51.046649,
+    3.722164
+   ],
+   "photos": [
+    {
+     "id": "2425976087545421-98",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.246,
+      0.688
+     ]
+    },
+    {
+     "id": "154543937065472-99",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.345,
+      0.627
+     ]
+    },
+    {
+     "id": "308953860851778-61",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.258,
+      0.86
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7992,
+   "at": [
+    -138.05,
+    939.0999999999999
+   ],
+   "centre": [
+    -120,
+    932.8
+   ],
+   "width": 11.8,
+   "faces": 169,
+   "toStreet": 11.1,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    -139.2,
+    933.3,
+    -122.5,
+    930.3,
+    -122.5,
+    930,
+    -116,
+    928.7,
+    -108.5,
+    927.3,
+    -108.1,
+    929.4,
+    -106.2,
+    938.9,
+    -136.9,
+    944.9
+   ],
+   "id": "nederkouter-169-31",
+   "latLon": [
+    51.04658,
+    3.722186
+   ],
+   "photos": [
+    {
+     "id": "5336530319747141-79",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.277,
+      0.728
+     ]
+    },
+    {
+     "id": "298082459181134-86",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.12,
+      0.823
+     ]
+    },
+    {
+     "id": "1541270236043716-97",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.837
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7993,
+   "at": [
+    -136.25,
+    948.15
+   ],
+   "centre": [
+    -107.4,
+    942.9
+   ],
+   "width": 6.6,
+   "faces": 169,
+   "toStreet": 11.6,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 20.2,
+   "kind": "yes",
+   "ring": [
+    -136.9,
+    944.9,
+    -106.2,
+    938.9,
+    -92.9,
+    936.2,
+    -87.6,
+    935.2,
+    -86.3,
+    941.8,
+    -91.4,
+    942.8,
+    -111.6,
+    946.8,
+    -118.3,
+    948.1,
+    -135.6,
+    951.4
+   ],
+   "id": "nederkouter-169-32",
+   "latLon": [
+    51.046514,
+    3.722207
+   ],
+   "photos": [
+    {
+     "id": "1067067710568456-83",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.343,
+      0.654
+     ]
+    },
+    {
+     "id": "979397429536370-76",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.268,
+      0.727
+     ]
+    },
+    {
+     "id": "1465965454566154-69",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.433,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7408,
+   "at": [
+    -182.9,
+    755.5
+   ],
+   "centre": [
+    -150.8,
+    755.8
+   ],
+   "width": 6.7,
+   "faces": 170,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -138.5,
+    744.1,
+    -139,
+    751.1,
+    -151.4,
+    749.6,
+    -156.5,
+    749,
+    -157,
+    753,
+    -164.1,
+    752.8,
+    -183.5,
+    752.2,
+    -182.3,
+    758.8,
+    -167.9,
+    759,
+    -167.9,
+    761.2,
+    -158.9,
+    762.4,
+    -155.7,
+    762.7,
+    -140.6,
+    764.3,
+    -140.9,
+    766.9,
+    -132.7,
+    767.5,
+    -132.6,
+    764.7,
+    -131.9,
+    750.4,
+    -131.6,
+    745.4,
+    -131.6,
+    745.1
+   ],
+   "id": "nederkouter-170-33",
+   "latLon": [
+    51.047908,
+    3.721673
+   ],
+   "photos": [
+    {
+     "id": "168410965125057-87",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.073,
+      0.849
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7339,
+   "at": [
+    -209.65,
+    603.7
+   ],
+   "centre": [
+    -201.9,
+    603
+   ],
+   "width": 9.9,
+   "faces": 171,
+   "toStreet": 9.4,
+   "floors": 2,
+   "eaves": 7.1,
+   "top": 9.3,
+   "kind": "yes",
+   "ring": [
+    -195.9,
+    598.9,
+    -195.4,
+    606.8,
+    -204.6,
+    608.1,
+    -208.9,
+    608.6,
+    -210.4,
+    598.8,
+    -196,
+    596.6
+   ],
+   "id": "nederkouter-171-34",
+   "latLon": [
+    51.049006,
+    3.721368
+   ],
+   "photos": [
+    {
+     "id": "1658599597864422",
+     "metres": 36,
+     "off": 5,
+     "span": [
+      0.41,
+      0.51
+     ]
+    },
+    {
+     "id": "275391894321581",
+     "metres": 33,
+     "off": 19,
+     "span": [
+      0.715,
+      0.983
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7342,
+   "at": [
+    -209.9,
+    619.2
+   ],
+   "centre": [
+    -203.7,
+    617.1
+   ],
+   "width": 6.8,
+   "faces": 173,
+   "toStreet": 7,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 16.9,
+   "kind": "house",
+   "ring": [
+    -194.6,
+    613.2,
+    -193.9,
+    620.7,
+    -209.5,
+    622.6,
+    -210.3,
+    615.8,
+    -210.2,
+    615.6,
+    -203.4,
+    614.6
+   ],
+   "id": "nederkouter-173-35",
+   "latLon": [
+    51.048894,
+    3.721365
+   ],
+   "photos": [
+    {
+     "id": "1172319653216499",
+     "metres": 9,
+     "off": 2,
+     "span": [
+      0.382,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7369,
+   "at": [
+    -209.05,
+    628.05
+   ],
+   "centre": [
+    -198.6,
+    627.8
+   ],
+   "width": 10.9,
+   "faces": 175,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -209.5,
+    622.6,
+    -193.9,
+    620.7,
+    -193.3,
+    620.6,
+    -191.4,
+    620.4,
+    -191,
+    623.1,
+    -192.6,
+    623.2,
+    -191.4,
+    635.4,
+    -196.4,
+    635.6,
+    -208.4,
+    636.3,
+    -208.6,
+    634.4,
+    -208.6,
+    633.5
+   ],
+   "id": "nederkouter-175-36",
+   "latLon": [
+    51.04883,
+    3.721374
+   ],
+   "photos": [
+    {
+     "id": "954682318617625",
+     "metres": 35,
+     "off": 17,
+     "span": [
+      0.577,
+      0.685
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7367,
+   "at": [
+    -208.10000000000002,
+    639.55
+   ],
+   "centre": [
+    -182.8,
+    637.1
+   ],
+   "width": 6.5,
+   "faces": 175,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -208.4,
+    636.3,
+    -196.4,
+    635.6,
+    -191.4,
+    635.4,
+    -189.3,
+    635.3,
+    -189.1,
+    635.3,
+    -179.7,
+    636.6,
+    -179.6,
+    635.8,
+    -178.9,
+    627.3,
+    -175.5,
+    627.1,
+    -173.2,
+    627,
+    -173.6,
+    632.4,
+    -171.1,
+    632.3,
+    -171.2,
+    635.2,
+    -171.3,
+    636.1,
+    -172.6,
+    643.7,
+    -174.1,
+    643.6,
+    -174.8,
+    643.5,
+    -175.4,
+    647.9,
+    -189.5,
+    645.2,
+    -195.7,
+    644.4,
+    -207.8,
+    642.8
+   ],
+   "id": "nederkouter-175-37",
+   "latLon": [
+    51.048747,
+    3.721385
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 7888,
+   "at": [
+    -156.95,
+    981.95
+   ],
+   "centre": [
+    -171.4,
+    983.7
+   ],
+   "width": 6.8,
+   "faces": 279,
+   "toStreet": 16.1,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -186.5,
+    977,
+    -179.6,
+    978.1,
+    -164.5,
+    980.7,
+    -161.3,
+    981.2,
+    -160.3,
+    981.4,
+    -153.6,
+    982.5,
+    -152.7,
+    982.6,
+    -153,
+    995.6,
+    -166.4,
+    992.8,
+    -179,
+    991.2,
+    -182.6,
+    990.8,
+    -181.1,
+    981.3,
+    -189.7,
+    979.9,
+    -189.1,
+    976.5
+   ],
+   "id": "nederkouter-279-01",
+   "latLon": [
+    51.04627,
+    3.72197
+   ],
+   "photos": [
+    {
+     "id": "1800225900709422-186",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.403,
+      0.596
+     ]
+    },
+    {
+     "id": "405459987819807-195",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.438,
+      0.56
+     ]
+    },
+    {
+     "id": "388041723219760-207",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.426,
+      0.563
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7378,
+   "at": [
+    -181.60000000000002,
+    822.95
+   ],
+   "centre": [
+    -215.1,
+    824.4
+   ],
+   "width": 32.2,
+   "faces": 345,
+   "toStreet": 6.1,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -241.2,
+    804.9,
+    -185.8,
+    807.4,
+    -177.4,
+    838.5,
+    -191,
+    837,
+    -207.8,
+    835.3,
+    -237.7,
+    832.2,
+    -237.3,
+    820.3,
+    -242.3,
+    819.7
+   ],
+   "id": "nederkouter-345-01",
+   "latLon": [
+    51.04742,
+    3.721688
+   ],
+   "photos": [
+    {
+     "id": "498230908754718-252",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "294939678851133-251",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "986383818731686-221",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.153,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7382,
+   "at": [
+    -161.9,
+    903.5999999999999
+   ],
+   "centre": [
+    -188.2,
+    900.5
+   ],
+   "width": 22.2,
+   "faces": 346,
+   "toStreet": 5.2,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -164.5,
+    892.8,
+    -159.3,
+    914.4,
+    -186.4,
+    911.3,
+    -186.3,
+    910.7,
+    -190.9,
+    910.1,
+    -216,
+    907.1,
+    -214.2,
+    895.7,
+    -209.7,
+    896.4,
+    -197.7,
+    897.8,
+    -183.8,
+    895.9,
+    -183,
+    890.9,
+    -177.3,
+    891.1,
+    -177.4,
+    892.2
+   ],
+   "id": "nederkouter-346-02",
+   "latLon": [
+    51.046837,
+    3.721913
+   ],
+   "photos": [
+    {
+     "id": "663862601387628-264",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "1158602497923638-262",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      0.973
+     ]
+    },
+    {
+     "id": "577676510120953-228",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.067,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7899,
+   "at": [
+    -193.6,
+    772.3
+   ],
+   "centre": [
+    -206.2,
+    775.1
+   ],
+   "width": 5.5,
+   "faces": 347,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.9,
+   "kind": "yes",
+   "ring": [
+    -194.2,
+    769.6,
+    -193,
+    775,
+    -200.8,
+    775.7,
+    -200.7,
+    776.8,
+    -207.4,
+    777,
+    -209.7,
+    778.6,
+    -222.1,
+    778.2,
+    -221.9,
+    769.6
+   ],
+   "id": "nederkouter-347-03",
+   "latLon": [
+    51.047787,
+    3.721551
+   ],
+   "photos": [
+    {
+     "id": "471342097492242-254",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.328,
+      0.681
+     ]
+    },
+    {
+     "id": "385981086583000-294",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.387,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7924,
+   "at": [
+    -190.65,
+    785.9
+   ],
+   "centre": [
+    -209.3,
+    790.4
+   ],
+   "width": 10.1,
+   "faces": 347,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -207.9,
+    781.6,
+    -191.8,
+    781,
+    -189.5,
+    790.8,
+    -203.3,
+    791.2,
+    -203.3,
+    795.7,
+    -206.6,
+    795.6,
+    -206.5,
+    801.6,
+    -224.5,
+    801.4,
+    -224.1,
+    789.1,
+    -224,
+    785.5,
+    -222.3,
+    785.5,
+    -207.9,
+    786.2
+   ],
+   "id": "nederkouter-347-04",
+   "latLon": [
+    51.047688,
+    3.721585
+   ],
+   "photos": [
+    {
+     "id": "215278496829097",
+     "metres": 43,
+     "off": 10,
+     "span": [
+      0.565,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7380,
+   "at": [
+    -172.4,
+    859.55
+   ],
+   "centre": [
+    -193.6,
+    856.2
+   ],
+   "width": 31.1,
+   "faces": 347,
+   "toStreet": 5.5,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": null,
+   "kind": "school",
+   "ring": [
+    -191.4,
+    840.3,
+    -188.5,
+    840.5,
+    -188.5,
+    841.5,
+    -182.9,
+    842.1,
+    -183,
+    843.6,
+    -176,
+    844.4,
+    -168.8,
+    874.7,
+    -197.3,
+    871.2,
+    -198.6,
+    878.8,
+    -201.7,
+    878.4,
+    -202.1,
+    883.6,
+    -206.2,
+    883.1,
+    -204.2,
+    865.7,
+    -188.8,
+    867.9,
+    -187.7,
+    858.3,
+    -198.3,
+    856.7,
+    -197.5,
+    852,
+    -195.9,
+    842.8,
+    -208.5,
+    841.7,
+    -207.8,
+    835.3,
+    -191,
+    837
+   ],
+   "id": "nederkouter-347-05",
+   "latLon": [
+    51.047155,
+    3.721793
+   ],
+   "photos": [
+    {
+     "id": "520299292912034-234",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "4321177314593735-246",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "645039966746245-280",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.952
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7372,
+   "at": [
+    -188.4,
+    796.15
+   ],
+   "centre": [
+    -197.9,
+    797
+   ],
+   "width": 10.9,
+   "faces": 348,
+   "toStreet": 6.3,
+   "floors": 6,
+   "eaves": 21,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -206.5,
+    801.6,
+    -188.5,
+    802.3,
+    -187.3,
+    801.5,
+    -189.5,
+    790.8,
+    -203.3,
+    791.2,
+    -203.3,
+    795.7,
+    -206.6,
+    795.6
+   ],
+   "id": "nederkouter-348-06",
+   "latLon": [
+    51.047614,
+    3.72161
+   ],
+   "photos": [
+    {
+     "id": "215278496829097",
+     "metres": 38,
+     "off": 0,
+     "span": [
+      0.423,
+      0.565
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7376,
+   "at": [
+    -198.75,
+    745.6500000000001
+   ],
+   "centre": [
+    -214.6,
+    742.5
+   ],
+   "width": 26.4,
+   "faces": 349,
+   "toStreet": 5.7,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -225,
+    708.8,
+    -225.7,
+    730.9,
+    -219.1,
+    730.8,
+    -219.2,
+    735.6,
+    -231.9,
+    735.7,
+    -232.5,
+    755.6,
+    -216.6,
+    755.7,
+    -216.7,
+    759.4,
+    -209.4,
+    759.5,
+    -209.4,
+    760.5,
+    -195.8,
+    760.9,
+    -196.2,
+    758.6,
+    -201.3,
+    732.7,
+    -205.6,
+    710.3
+   ],
+   "id": "nederkouter-349-07",
+   "latLon": [
+    51.047979,
+    3.721492
+   ],
+   "photos": [
+    {
+     "id": "527090698423269-272",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.99
+     ]
+    },
+    {
+     "id": "1133619944148462-290",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      0.824
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7900,
+   "at": [
+    -192.4,
+    778
+   ],
+   "centre": [
+    -206.4,
+    779.6
+   ],
+   "width": 6.1,
+   "faces": 349,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -193,
+    775,
+    -191.8,
+    781,
+    -207.9,
+    781.6,
+    -207.9,
+    786.2,
+    -222.3,
+    785.5,
+    -222.1,
+    778.2,
+    -209.7,
+    778.6,
+    -207.4,
+    777,
+    -200.7,
+    776.8,
+    -200.8,
+    775.7
+   ],
+   "id": "nederkouter-349-08",
+   "latLon": [
+    51.047745,
+    3.721565
+   ],
+   "photos": [
+    {
+     "id": "385981086583000-263",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.329,
+      0.664
+     ]
+    },
+    {
+     "id": "1139075709945197-244",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.333,
+      0.714
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7363,
+   "at": [
+    -218.8,
+    650.4000000000001
+   ],
+   "centre": [
+    -234.8,
+    644.4
+   ],
+   "width": 6.7,
+   "faces": 350,
+   "toStreet": 5.9,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -237.4,
+    640.5,
+    -230.4,
+    641,
+    -230.2,
+    641.9,
+    -219.6,
+    641.9,
+    -218.9,
+    646.9,
+    -219.4,
+    647.1,
+    -218.2,
+    653.7,
+    -218.8,
+    653.7,
+    -265.1,
+    648.2,
+    -263.3,
+    638.6,
+    -250.9,
+    639.6,
+    -244.8,
+    640
+   ],
+   "id": "nederkouter-350-09",
+   "latLon": [
+    51.048669,
+    3.721263
+   ],
+   "photos": [
+    {
+     "id": "490972495512590-250",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.354,
+      0.649
+     ]
+    },
+    {
+     "id": "695671761656573-284",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.417,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7898,
+   "at": [
+    -217.60000000000002,
+    660.85
+   ],
+   "centre": [
+    -244.4,
+    661.1
+   ],
+   "width": 14.5,
+   "faces": 350,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -265.1,
+    648.2,
+    -218.8,
+    653.7,
+    -216.4,
+    668,
+    -244.7,
+    664.3,
+    -245.2,
+    665.6,
+    -254.1,
+    664.7,
+    -266.8,
+    663.4
+   ],
+   "id": "nederkouter-350-10",
+   "latLon": [
+    51.048593,
+    3.721277
+   ],
+   "photos": [
+    {
+     "id": "1107372063152105-267",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.201,
+      0.756
+     ]
+    },
+    {
+     "id": "479149453360133-257",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.217,
+      0.799
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7377,
+   "at": [
+    -195,
+    765.25
+   ],
+   "centre": [
+    -209,
+    762.7
+   ],
+   "width": 8.8,
+   "faces": 350,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": 17.3,
+   "kind": "yes",
+   "ring": [
+    -216.7,
+    759.4,
+    -209.4,
+    759.5,
+    -209.4,
+    760.5,
+    -195.8,
+    760.9,
+    -194.2,
+    769.6,
+    -218.6,
+    769.6,
+    -218.7,
+    759.5
+   ],
+   "id": "nederkouter-350-11",
+   "latLon": [
+    51.047838,
+    3.721535
+   ],
+   "photos": [
+    {
+     "id": "1076874952865045-258",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.256,
+      0.748
+     ]
+    },
+    {
+     "id": "534143764248151-272",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.206,
+      0.728
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7375,
+   "at": [
+    -211.15,
+    695.05
+   ],
+   "centre": [
+    -235,
+    683.5
+   ],
+   "width": 23.1,
+   "faces": 352,
+   "toStreet": 7.3,
+   "floors": 5,
+   "eaves": 19.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -265.4,
+    686.8,
+    -266.9,
+    698.1,
+    -244.7,
+    699.4,
+    -223.7,
+    696.2,
+    -222.2,
+    705.7,
+    -209.5,
+    706.5,
+    -212.8,
+    683.6,
+    -215.1,
+    668.2,
+    -216.4,
+    668,
+    -244.7,
+    664.3,
+    -245.2,
+    665.6,
+    -254.1,
+    664.7,
+    -255.3,
+    679.7,
+    -225,
+    681.6,
+    -224.7,
+    684.8
+   ],
+   "id": "nederkouter-352-12",
+   "latLon": [
+    51.048346,
+    3.72135
+   ],
+   "photos": [
+    {
+     "id": "5139197906119036-262",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "997583690778428-261",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.029,
+      0.981
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7383,
+   "at": [
+    -157.65,
+    925.8
+   ],
+   "centre": [
+    -178.8,
+    925.2
+   ],
+   "width": 23,
+   "faces": 352,
+   "toStreet": 6,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -190.9,
+    910.1,
+    -192.2,
+    919.6,
+    -196.6,
+    918.9,
+    -198.4,
+    930.9,
+    -180,
+    933.6,
+    -171.7,
+    934.9,
+    -171.4,
+    934.7,
+    -170.1,
+    935.1,
+    -165.7,
+    935.8,
+    -156,
+    937.2,
+    -159.3,
+    914.4,
+    -186.4,
+    911.3,
+    -186.3,
+    910.7
+   ],
+   "id": "nederkouter-352-13",
+   "latLon": [
+    51.046676,
+    3.721962
+   ],
+   "photos": [
+    {
+     "id": "154543937065472-289",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.992
+     ]
+    },
+    {
+     "id": "2425976087545421-285",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      0.876
+     ]
+    },
+    {
+     "id": "931216917448722-275",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0,
+      0.907
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7892,
+   "at": [
+    -155.6,
+    941.35
+   ],
+   "centre": [
+    -169.8,
+    939.7
+   ],
+   "width": 8.3,
+   "faces": 354,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 5.7,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    -183.4,
+    942.5,
+    -176.2,
+    943.7,
+    -175.6,
+    943.8,
+    -166.5,
+    945.3,
+    -166.1,
+    944.1,
+    -155.2,
+    945.5,
+    -156,
+    937.2,
+    -165.7,
+    935.8,
+    -170.1,
+    935.1,
+    -171.4,
+    934.7,
+    -171.7,
+    934.9,
+    -180,
+    933.6
+   ],
+   "id": "nederkouter-354-14",
+   "latLon": [
+    51.046564,
+    3.721985
+   ],
+   "photos": [
+    {
+     "id": "1388929654825223",
+     "metres": 5,
+     "off": 6,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 7891,
+   "at": [
+    -154.75,
+    950
+   ],
+   "centre": [
+    -161.3,
+    949.8
+   ],
+   "width": 9,
+   "faces": 354,
+   "toStreet": 7,
+   "floors": 6,
+   "eaves": 20.8,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -166.5,
+    945.3,
+    -168.6,
+    952.4,
+    -157.1,
+    956.7,
+    -154.3,
+    954.5,
+    -155.2,
+    945.5,
+    -166.1,
+    944.1
+   ],
+   "id": "nederkouter-354-15",
+   "latLon": [
+    51.046501,
+    3.721995
+   ],
+   "photos": [
+    {
+     "id": "1067067710568456-266",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.206,
+      0.777
+     ]
+    },
+    {
+     "id": "979397429536370-270",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.296,
+      0.688
+     ]
+    }
+   ]
+  }
+ ]
+}

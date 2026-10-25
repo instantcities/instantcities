@@ -183,6 +183,18 @@ function ground(g, w, gh, G, trim, wallColor) {
   g.fillStyle = shade(col, 0.3); g.fillRect(doorX - 0.7, gh - 1.6, 1.4, 0.4);
 }
 
+// The painter for the house's other walls that show (js/fronts.js sideWalls): the same wall, trim and
+// windows, as many columns as fit at the front's spacing, no shop, door, dormers or gable
+function sideSpec(S) {
+  const cols = S.windows?.cols ?? 2;
+  // the walls' own material where the spec names one (sides: 'stone:#hex' or a brick colour), else the front's
+  const wall = !S.sides ? S.wall : S.sides.startsWith('stone:') ? { material: 'stone', color: S.sides.slice(6) } : { material: 'brick', color: S.sides };
+  return (g, w, h, e, frontW) => drawSpec({
+    ...S, wall, row: undefined, gable: 'flat', dormers: 0, bay: undefined, balcony: undefined, ground: { type: 'none' },
+    windows: { ...S.windows, cols: Math.max(1, Math.round(((frontW ? cols / frontW : 1 / 2.6) * w))) },
+  })(g, w, h, e);
+}
+
 // FRONTS entries (the shape js/fronts.js takes) from the specs of a city's streets, leaving out any
 // whose building already has a hand-drawn one in `existing`
 export function specFronts(streets, existing = []) {
@@ -193,7 +205,7 @@ export function specFronts(streets, existing = []) {
     const S = { ...defaultSpec(s), ...s };
     out.push({
       id: S.id, at: S.at, faces: S.faces, gable: S.row ? ['row', S.row] : S.gable, wall: S.sides ?? (S.wall.material === 'stone' ? `stone:${S.wall.color}` : S.wall.color),
-      roof: S.roof, eaves: S.eaves, top: S.top, draw: drawSpec(S),
+      roof: S.roof, eaves: S.eaves, top: S.top, draw: drawSpec(S), side: sideSpec(S),
     });
   }
   return out;

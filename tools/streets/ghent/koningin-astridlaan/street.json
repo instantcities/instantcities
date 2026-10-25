@@ -1,0 +1,4283 @@
+{
+ "city": "ghent",
+ "street": "Koningin Astridlaan",
+ "slug": "koningin-astridlaan",
+ "photos": {
+  "582794336035316": {
+   "file": "photos/582794336035316.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582794336035316",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0363816,
+    3.7158127,
+    339,
+    0.715
+   ]
+  },
+  "264509435399604": {
+   "file": "photos/264509435399604.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=264509435399604",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0363973,
+    3.715802,
+    335,
+    0.715
+   ]
+  },
+  "752354755451040": {
+   "file": "photos/752354755451040.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=752354755451040",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0363998,
+    3.7158001,
+    336,
+    0.715
+   ]
+  },
+  "1402568693501292-337": {
+   "file": "photos/1402568693501292-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1402568693501292",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362942,
+    3.7157043,
+    337,
+    0.5
+   ]
+  },
+  "548619060131764-347": {
+   "file": "photos/548619060131764-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=548619060131764",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362652,
+    3.7155801,
+    347,
+    0.5
+   ]
+  },
+  "364836935435341-2": {
+   "file": "photos/364836935435341-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=364836935435341",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362222,
+    3.7152988,
+    2,
+    0.5
+   ]
+  },
+  "4928585633916053-348": {
+   "file": "photos/4928585633916053-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4928585633916053",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362368,
+    3.7154449,
+    348,
+    0.5
+   ]
+  },
+  "364836935435341-341": {
+   "file": "photos/364836935435341-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=364836935435341",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362222,
+    3.7152988,
+    341,
+    0.5
+   ]
+  },
+  "177213344647338-351": {
+   "file": "photos/177213344647338-351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=177213344647338",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362054,
+    3.7151493,
+    351,
+    0.5
+   ]
+  },
+  "1186857881765734": {
+   "file": "photos/1186857881765734.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1186857881765734",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-30",
+   "cam": [
+    51.0361136,
+    3.7148917,
+    3,
+    0.909
+   ]
+  },
+  "3850834268287794": {
+   "file": "photos/3850834268287794.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3850834268287794",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-30",
+   "cam": [
+    51.0360663,
+    3.7148991,
+    0,
+    0.909
+   ]
+  },
+  "450930446005919": {
+   "file": "photos/450930446005919.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=450930446005919",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-30",
+   "cam": [
+    51.0361377,
+    3.714892,
+    359,
+    0.909
+   ]
+  },
+  "516904723025319": {
+   "file": "photos/516904723025319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=516904723025319",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-30",
+   "cam": [
+    51.0360122,
+    3.714912,
+    347,
+    0.909
+   ]
+  },
+  "150788040788818-357": {
+   "file": "photos/150788040788818-357.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=150788040788818",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.036183,
+    3.7145295,
+    357,
+    0.5
+   ]
+  },
+  "388421233177197-353": {
+   "file": "photos/388421233177197-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=388421233177197",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361917,
+    3.7143748,
+    353,
+    0.5
+   ]
+  },
+  "388421233177197-12": {
+   "file": "photos/388421233177197-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=388421233177197",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361917,
+    3.7143748,
+    12,
+    0.5
+   ]
+  },
+  "4553929908041636-8": {
+   "file": "photos/4553929908041636-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4553929908041636",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361954,
+    3.714216,
+    8,
+    0.5
+   ]
+  },
+  "1155028565294324-23": {
+   "file": "photos/1155028565294324-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155028565294324",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362064,
+    3.7140567,
+    23,
+    0.5
+   ]
+  },
+  "1155028565294324-1": {
+   "file": "photos/1155028565294324-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155028565294324",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362064,
+    3.7140567,
+    1,
+    0.5
+   ]
+  },
+  "3065488823765438-7": {
+   "file": "photos/3065488823765438-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3065488823765438",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362185,
+    3.713903,
+    7,
+    0.5
+   ]
+  },
+  "519798703111155-21": {
+   "file": "photos/519798703111155-21.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519798703111155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.036266,
+    3.7136146,
+    21,
+    0.5
+   ]
+  },
+  "334687248762102-5": {
+   "file": "photos/334687248762102-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=334687248762102",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362415,
+    3.7137565,
+    5,
+    0.5
+   ]
+  },
+  "519798703111155-5": {
+   "file": "photos/519798703111155-5.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519798703111155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.036266,
+    3.7136146,
+    5,
+    0.5
+   ]
+  },
+  "3212722295606235-6": {
+   "file": "photos/3212722295606235-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3212722295606235",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362914,
+    3.7134674,
+    6,
+    0.5
+   ]
+  },
+  "3212722295606235-23": {
+   "file": "photos/3212722295606235-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3212722295606235",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362914,
+    3.7134674,
+    23,
+    0.5
+   ]
+  },
+  "727201888407440-20": {
+   "file": "photos/727201888407440-20.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=727201888407440",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363244,
+    3.7133245,
+    20,
+    0.5
+   ]
+  },
+  "152747083907528-33": {
+   "file": "photos/152747083907528-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=152747083907528",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363573,
+    3.7131798,
+    33,
+    0.5
+   ]
+  },
+  "1138611926983618-23": {
+   "file": "photos/1138611926983618-23.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138611926983618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363942,
+    3.7130377,
+    23,
+    0.5
+   ]
+  },
+  "152747083907528-15": {
+   "file": "photos/152747083907528-15.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=152747083907528",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363573,
+    3.7131798,
+    15,
+    0.5
+   ]
+  },
+  "5540359452663441-36": {
+   "file": "photos/5540359452663441-36.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5540359452663441",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0364283,
+    3.7128943,
+    36,
+    0.5
+   ]
+  },
+  "5540359452663441-14": {
+   "file": "photos/5540359452663441-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5540359452663441",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0364283,
+    3.7128943,
+    14,
+    0.5
+   ]
+  },
+  "398029532191567-26": {
+   "file": "photos/398029532191567-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=398029532191567",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0364668,
+    3.7127548,
+    26,
+    0.5
+   ]
+  },
+  "142674571158535": {
+   "file": "photos/142674571158535.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=142674571158535",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-04-07",
+   "cam": [
+    51.0366221,
+    3.7123664,
+    70,
+    0.974
+   ]
+  },
+  "499911911380046": {
+   "file": "photos/499911911380046.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=499911911380046",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-18",
+   "cam": [
+    51.0365873,
+    3.7121984,
+    71,
+    1.148
+   ]
+  },
+  "919431682167981": {
+   "file": "photos/919431682167981.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=919431682167981",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0365629,
+    3.7165798,
+    189,
+    0.713
+   ]
+  },
+  "495937521450244": {
+   "file": "photos/495937521450244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=495937521450244",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0366627,
+    3.7160861,
+    158,
+    0.715
+   ]
+  },
+  "158848496078932": {
+   "file": "photos/158848496078932.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=158848496078932",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-18",
+   "cam": [
+    51.036634,
+    3.7165924,
+    185,
+    0.982
+   ]
+  },
+  "290836672546515": {
+   "file": "photos/290836672546515.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=290836672546515",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0364269,
+    3.7158798,
+    180,
+    0.722
+   ]
+  },
+  "225845245980778": {
+   "file": "photos/225845245980778.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=225845245980778",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0364267,
+    3.7158767,
+    195,
+    0.722
+   ]
+  },
+  "4928585633916053-166": {
+   "file": "photos/4928585633916053-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4928585633916053",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362368,
+    3.7154449,
+    166,
+    0.5
+   ]
+  },
+  "548619060131764-192": {
+   "file": "photos/548619060131764-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=548619060131764",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362652,
+    3.7155801,
+    192,
+    0.5
+   ]
+  },
+  "364836935435341-156": {
+   "file": "photos/364836935435341-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=364836935435341",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362222,
+    3.7152988,
+    156,
+    0.5
+   ]
+  },
+  "1416296582063625": {
+   "file": "photos/1416296582063625.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1416296582063625",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-03-09",
+   "cam": [
+    51.0364675,
+    3.7146897,
+    170,
+    0.489
+   ]
+  },
+  "946558679488913": {
+   "file": "photos/946558679488913.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=946558679488913",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-30",
+   "cam": [
+    51.0363674,
+    3.7147033,
+    174,
+    0.916
+   ]
+  },
+  "388421233177197-148": {
+   "file": "photos/388421233177197-148.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=388421233177197",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361917,
+    3.7143748,
+    148,
+    0.5
+   ]
+  },
+  "388421233177197-206": {
+   "file": "photos/388421233177197-206.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=388421233177197",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361917,
+    3.7143748,
+    206,
+    0.5
+   ]
+  },
+  "4553929908041636-183": {
+   "file": "photos/4553929908041636-183.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4553929908041636",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361954,
+    3.714216,
+    183,
+    0.5
+   ]
+  },
+  "1155028565294324-149": {
+   "file": "photos/1155028565294324-149.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155028565294324",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362064,
+    3.7140567,
+    149,
+    0.5
+   ]
+  },
+  "1155028565294324-200": {
+   "file": "photos/1155028565294324-200.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155028565294324",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362064,
+    3.7140567,
+    200,
+    0.5
+   ]
+  },
+  "4553929908041636-186": {
+   "file": "photos/4553929908041636-186.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4553929908041636",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0361954,
+    3.714216,
+    186,
+    0.5
+   ]
+  },
+  "3065488823765438-172": {
+   "file": "photos/3065488823765438-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3065488823765438",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362185,
+    3.713903,
+    172,
+    0.5
+   ]
+  },
+  "3065488823765438-227": {
+   "file": "photos/3065488823765438-227.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3065488823765438",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362185,
+    3.713903,
+    227,
+    0.5
+   ]
+  },
+  "519798703111155-174": {
+   "file": "photos/519798703111155-174.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519798703111155",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.036266,
+    3.7136146,
+    174,
+    0.5
+   ]
+  },
+  "334687248762102-202": {
+   "file": "photos/334687248762102-202.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=334687248762102",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362415,
+    3.7137565,
+    202,
+    0.5
+   ]
+  },
+  "3212722295606235-176": {
+   "file": "photos/3212722295606235-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3212722295606235",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0362914,
+    3.7134674,
+    176,
+    0.5
+   ]
+  },
+  "727201888407440-187": {
+   "file": "photos/727201888407440-187.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=727201888407440",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363244,
+    3.7133245,
+    187,
+    0.5
+   ]
+  },
+  "152747083907528-170": {
+   "file": "photos/152747083907528-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=152747083907528",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363573,
+    3.7131798,
+    170,
+    0.5
+   ]
+  },
+  "466386504438631": {
+   "file": "photos/466386504438631.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=466386504438631",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-17",
+   "cam": [
+    51.0367665,
+    3.7127461,
+    179,
+    0.935
+   ]
+  },
+  "155188733126599": {
+   "file": "photos/155188733126599.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=155188733126599",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0367568,
+    3.7125852,
+    162,
+    0.729
+   ]
+  },
+  "152747083907528-204": {
+   "file": "photos/152747083907528-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=152747083907528",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363573,
+    3.7131798,
+    204,
+    0.5
+   ]
+  },
+  "1138611926983618-172": {
+   "file": "photos/1138611926983618-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138611926983618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363942,
+    3.7130377,
+    172,
+    0.5
+   ]
+  },
+  "1173100293142265": {
+   "file": "photos/1173100293142265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1173100293142265",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.0367475,
+    3.7125892,
+    195,
+    0.722
+   ]
+  },
+  "500709030961400": {
+   "file": "photos/500709030961400.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=500709030961400",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-17",
+   "cam": [
+    51.0367478,
+    3.7127416,
+    206,
+    0.935
+   ]
+  },
+  "551935535788801": {
+   "file": "photos/551935535788801.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=551935535788801",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2016-06-09",
+   "cam": [
+    51.036733,
+    3.7128394,
+    223,
+    0.743
+   ]
+  },
+  "5540359452663441-209": {
+   "file": "photos/5540359452663441-209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5540359452663441",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0364283,
+    3.7128943,
+    209,
+    0.5
+   ]
+  },
+  "1138611926983618-203": {
+   "file": "photos/1138611926983618-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138611926983618",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0363942,
+    3.7130377,
+    203,
+    0.5
+   ]
+  },
+  "5540359452663441-173": {
+   "file": "photos/5540359452663441-173.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=5540359452663441",
+   "author": "Stefdegreef",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-04-29",
+   "pano": true,
+   "cam": [
+    51.0364283,
+    3.7128943,
+    173,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 4012,
+   "at": [
+    -695.2,
+    2332.3
+   ],
+   "centre": [
+    -697.6,
+    2320.1
+   ],
+   "width": 5.5,
+   "faces": 66,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": 22.1,
+   "kind": "yes",
+   "ring": [
+    -697.1,
+    2310.9,
+    -699.7,
+    2312,
+    -700.2,
+    2313.1,
+    -699.9,
+    2314.1,
+    -704.2,
+    2315.9,
+    -697.7,
+    2333.4,
+    -692.7,
+    2331.2,
+    -689.5,
+    2329.9
+   ],
+   "id": "koningin-astridlaan-66-01",
+   "latLon": [
+    51.0365,
+    3.715817
+   ],
+   "photos": [
+    {
+     "id": "582794336035316",
+     "metres": 13,
+     "off": 22,
+     "span": [
+      0.659,
+      0.909
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4005,
+   "at": [
+    -706,
+    2336.3999999999996
+   ],
+   "centre": [
+    -710.3,
+    2330.1
+   ],
+   "width": 4,
+   "faces": 70,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 23.8,
+   "kind": "yes",
+   "ring": [
+    -710.9,
+    2338.1,
+    -707.9,
+    2337.1,
+    -704.1,
+    2335.7,
+    -710.6,
+    2318.4,
+    -717.9,
+    2321.1
+   ],
+   "id": "koningin-astridlaan-70-01",
+   "latLon": [
+    51.03647,
+    3.715693
+   ],
+   "photos": [
+    {
+     "id": "264509435399604",
+     "metres": 11,
+     "off": 18,
+     "span": [
+      0.168,
+      0.376
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4011,
+   "at": [
+    -701.6500000000001,
+    2334.8
+   ],
+   "centre": [
+    -703.2,
+    2327.5
+   ],
+   "width": 5.2,
+   "faces": 70,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 23.7,
+   "kind": "apartments",
+   "ring": [
+    -704.1,
+    2335.7,
+    -699.2,
+    2333.9,
+    -697.7,
+    2333.4,
+    -704.2,
+    2315.9,
+    -710.6,
+    2318.4
+   ],
+   "id": "koningin-astridlaan-70-02",
+   "latLon": [
+    51.036482,
+    3.715743
+   ],
+   "photos": [
+    {
+     "id": "752354755451040",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.358,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4006,
+   "at": [
+    -714.15,
+    2339.1499999999996
+   ],
+   "centre": [
+    -718.3,
+    2329.9
+   ],
+   "width": 6.8,
+   "faces": 72,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 24.1,
+   "kind": "yes",
+   "ring": [
+    -719,
+    2340.6,
+    -717.4,
+    2340.2,
+    -710.9,
+    2338.1,
+    -717.9,
+    2321.1,
+    -718.9,
+    2318.7,
+    -725.7,
+    2320.9
+   ],
+   "id": "koningin-astridlaan-72-03",
+   "latLon": [
+    51.036451,
+    3.7156
+   ],
+   "photos": [
+    {
+     "id": "1402568693501292-337",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.431,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4007,
+   "at": [
+    -721.35,
+    2341.3
+   ],
+   "centre": [
+    -725.5,
+    2333.9
+   ],
+   "width": 4.9,
+   "faces": 73,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 23.9,
+   "kind": "yes",
+   "ring": [
+    -726.5,
+    2342.7,
+    -723.7,
+    2342,
+    -719,
+    2340.6,
+    -725.7,
+    2320.9,
+    -732.6,
+    2323.1
+   ],
+   "id": "koningin-astridlaan-73-04",
+   "latLon": [
+    51.036435,
+    3.715518
+   ],
+   "photos": [
+    {
+     "id": "548619060131764-347",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.449,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4009,
+   "at": [
+    -739.7,
+    2345.9
+   ],
+   "centre": [
+    -744.7,
+    2328.5
+   ],
+   "width": 8.8,
+   "faces": 77,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 24.1,
+   "kind": "yes",
+   "ring": [
+    -744,
+    2346.9,
+    -735.4,
+    2344.9,
+    -741.6,
+    2322.6,
+    -745.1,
+    2323.5,
+    -746,
+    2320.5,
+    -747,
+    2320,
+    -750.3,
+    2320.8,
+    -748.4,
+    2328.5
+   ],
+   "id": "koningin-astridlaan-77-05",
+   "latLon": [
+    51.036402,
+    3.715308
+   ],
+   "photos": [
+    {
+     "id": "364836935435341-2",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.409,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4008,
+   "at": [
+    -732.75,
+    2344.3
+   ],
+   "centre": [
+    -735,
+    2327.2
+   ],
+   "width": 5.4,
+   "faces": 77,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 24.1,
+   "kind": "yes",
+   "ring": [
+    -735.4,
+    2344.9,
+    -730.1,
+    2343.7,
+    -726.5,
+    2342.7,
+    -732.6,
+    2323.1,
+    -733.6,
+    2319.8,
+    -734.6,
+    2316.6,
+    -738.6,
+    2317.9,
+    -739.1,
+    2319,
+    -738.1,
+    2321.7,
+    -741.6,
+    2322.6
+   ],
+   "id": "koningin-astridlaan-77-06",
+   "latLon": [
+    51.036413,
+    3.715387
+   ],
+   "photos": [
+    {
+     "id": "4928585633916053-348",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.45,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4010,
+   "at": [
+    -748.55,
+    2347.8
+   ],
+   "centre": [
+    -751.4,
+    2334.5
+   ],
+   "width": 9.3,
+   "faces": 79,
+   "toStreet": 6.5,
+   "floors": 6,
+   "eaves": 22.3,
+   "top": 25.5,
+   "kind": "yes",
+   "ring": [
+    -753.1,
+    2348.7,
+    -744,
+    2346.9,
+    -748.4,
+    2328.5,
+    -748.6,
+    2328.6,
+    -751.9,
+    2329.3,
+    -754.6,
+    2329.8,
+    -754.3,
+    2331.8,
+    -756.6,
+    2332.3
+   ],
+   "id": "koningin-astridlaan-79-07",
+   "latLon": [
+    51.036388,
+    3.715207
+   ],
+   "photos": [
+    {
+     "id": "364836935435341-341",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.406,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3299,
+   "at": [
+    -757.45,
+    2349.35
+   ],
+   "centre": [
+    -759.1,
+    2341.3
+   ],
+   "width": 8.8,
+   "faces": 82,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 10,
+   "top": 23.3,
+   "kind": "house",
+   "ring": [
+    -761.8,
+    2350,
+    -753.1,
+    2348.7,
+    -756.6,
+    2332.3,
+    -765.1,
+    2334
+   ],
+   "id": "koningin-astridlaan-82-08",
+   "latLon": [
+    51.036377,
+    3.715105
+   ],
+   "photos": [
+    {
+     "id": "177213344647338-351",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.407,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3304,
+   "at": [
+    -772.55,
+    2351.15
+   ],
+   "centre": [
+    -775,
+    2342.9
+   ],
+   "width": 7.1,
+   "faces": 84,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 22.9,
+   "kind": "house",
+   "ring": [
+    -776.1,
+    2351.5,
+    -769,
+    2350.8,
+    -772.2,
+    2335.4,
+    -779.2,
+    2336.8,
+    -778.5,
+    2340.1
+   ],
+   "id": "koningin-astridlaan-84-09",
+   "latLon": [
+    51.036364,
+    3.714932
+   ],
+   "photos": [
+    {
+     "id": "1186857881765734",
+     "metres": 28,
+     "off": 2,
+     "span": [
+      0.448,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3300,
+   "at": [
+    -765.4,
+    2350.4
+   ],
+   "centre": [
+    -767,
+    2342.6
+   ],
+   "width": 7.2,
+   "faces": 84,
+   "toStreet": 6.9,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 23,
+   "kind": "house",
+   "ring": [
+    -769,
+    2350.8,
+    -761.8,
+    2350,
+    -765.1,
+    2334,
+    -772.2,
+    2335.4
+   ],
+   "id": "koningin-astridlaan-84-10",
+   "latLon": [
+    51.036369,
+    3.715014
+   ],
+   "photos": [
+    {
+     "id": "3850834268287794",
+     "metres": 35,
+     "off": 13,
+     "span": [
+      0.636,
+      0.786
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3305,
+   "at": [
+    -778.3,
+    2351.65
+   ],
+   "centre": [
+    -780.4,
+    2342.8
+   ],
+   "width": 4.4,
+   "faces": 86,
+   "toStreet": 7.9,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 19.5,
+   "kind": "house",
+   "ring": [
+    -779.2,
+    2336.8,
+    -779.8,
+    2334.1,
+    -785.9,
+    2335.6,
+    -783,
+    2350,
+    -780.5,
+    2351.8,
+    -776.1,
+    2351.5,
+    -778.5,
+    2340.1
+   ],
+   "id": "koningin-astridlaan-86-11",
+   "latLon": [
+    51.03636,
+    3.714867
+   ],
+   "photos": [
+    {
+     "id": "450930446005919",
+     "metres": 25,
+     "off": 3,
+     "span": [
+      0.39,
+      0.52
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3316,
+   "at": [
+    -802.8,
+    2353.05
+   ],
+   "centre": [
+    -802,
+    2345.8
+   ],
+   "width": 5.6,
+   "faces": 91,
+   "toStreet": 6.7,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -805.7,
+    2339.3,
+    -805.1,
+    2342.6,
+    -805.6,
+    2353,
+    -800,
+    2353.1,
+    -797.9,
+    2350.6,
+    -799.4,
+    2343.9,
+    -800.6,
+    2338.1
+   ],
+   "id": "koningin-astridlaan-91-12",
+   "latLon": [
+    51.03635,
+    3.714587
+   ],
+   "photos": [
+    {
+     "id": "516904723025319",
+     "metres": 44,
+     "off": 18,
+     "span": [
+      0.153,
+      0.24
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3310,
+   "at": [
+    -809.1,
+    2352.85
+   ],
+   "centre": [
+    -808.7,
+    2347.5
+   ],
+   "width": 7,
+   "faces": 92,
+   "toStreet": 6.8,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 20.8,
+   "kind": "house",
+   "ring": [
+    -812.6,
+    2352.7,
+    -805.6,
+    2353,
+    -805.1,
+    2342.6,
+    -811.3,
+    2341.9
+   ],
+   "id": "koningin-astridlaan-92-13",
+   "latLon": [
+    51.036351,
+    3.714515
+   ],
+   "photos": [
+    {
+     "id": "150788040788818-357",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.425,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3409,
+   "at": [
+    -824.05,
+    2351.8999999999996
+   ],
+   "centre": [
+    -822.5,
+    2337.4
+   ],
+   "width": 7.7,
+   "faces": 94,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 17.6,
+   "kind": "house",
+   "ring": [
+    -827.9,
+    2351.6,
+    -820.2,
+    2352.2,
+    -817.9,
+    2333.9,
+    -820.8,
+    2331,
+    -823.5,
+    2328.3,
+    -824.5,
+    2327.3
+   ],
+   "id": "koningin-astridlaan-94-14",
+   "latLon": [
+    51.036358,
+    3.714344
+   ],
+   "photos": [
+    {
+     "id": "388421233177197-353",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.424,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3410,
+   "at": [
+    -816.4000000000001,
+    2352.45
+   ],
+   "centre": [
+    -815.1,
+    2342.6
+   ],
+   "width": 7.6,
+   "faces": 94,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 20.4,
+   "kind": "yes",
+   "ring": [
+    -820.2,
+    2352.2,
+    -812.6,
+    2352.7,
+    -811.3,
+    2341.9,
+    -811.2,
+    2340.5,
+    -817.4,
+    2334.4,
+    -817.9,
+    2333.9
+   ],
+   "id": "koningin-astridlaan-94-15",
+   "latLon": [
+    51.036354,
+    3.714431
+   ],
+   "photos": [
+    {
+     "id": "388421233177197-12",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.419,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3406,
+   "at": [
+    -831.8,
+    2351.2
+   ],
+   "centre": [
+    -829.6,
+    2330.2
+   ],
+   "width": 7.8,
+   "faces": 96,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 5,
+   "top": 22,
+   "kind": "yes",
+   "ring": [
+    -835.7,
+    2350.8,
+    -827.9,
+    2351.6,
+    -824.5,
+    2327.3,
+    -824.9,
+    2327,
+    -829.4,
+    2322.5,
+    -831.3,
+    2320.6,
+    -831.6,
+    2320.3,
+    -831.6,
+    2321.3
+   ],
+   "id": "koningin-astridlaan-96-16",
+   "latLon": [
+    51.036363,
+    3.714255
+   ],
+   "photos": [
+    {
+     "id": "4553929908041636-8",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.42,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3408,
+   "at": [
+    -839.45,
+    2350.3500000000004
+   ],
+   "centre": [
+    -835.8,
+    2329.7
+   ],
+   "width": 7.6,
+   "faces": 97,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 20.9,
+   "kind": "yes",
+   "ring": [
+    -843.2,
+    2349.9,
+    -835.7,
+    2350.8,
+    -831.6,
+    2321.3,
+    -831.6,
+    2320.3,
+    -833,
+    2319,
+    -836.2,
+    2321.9,
+    -839.2,
+    2324.7
+   ],
+   "id": "koningin-astridlaan-97-17",
+   "latLon": [
+    51.03637,
+    3.714168
+   ],
+   "photos": [
+    {
+     "id": "1155028565294324-23",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.424,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3403,
+   "at": [
+    -848.8,
+    2349.05
+   ],
+   "centre": [
+    -838.8,
+    2319.5
+   ],
+   "width": 11.3,
+   "faces": 99,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -849.3,
+    2312.4,
+    -848.4,
+    2314.1,
+    -850.9,
+    2328,
+    -854.4,
+    2348.2,
+    -843.2,
+    2349.9,
+    -839.2,
+    2324.7,
+    -836.2,
+    2321.9,
+    -833,
+    2319,
+    -830.7,
+    2316.9,
+    -824.6,
+    2311.2,
+    -829.3,
+    2305.1,
+    -831.5,
+    2302.2,
+    -833.1,
+    2300.2
+   ],
+   "id": "koningin-astridlaan-99-18",
+   "latLon": [
+    51.036379,
+    3.714061
+   ],
+   "photos": [
+    {
+     "id": "1155028565294324-1",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.386,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3404,
+   "at": [
+    -859.5,
+    2347.25
+   ],
+   "centre": [
+    -861.5,
+    2308.4
+   ],
+   "width": 10.4,
+   "faces": 101,
+   "toStreet": 7.5,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -883.7,
+    2298.7,
+    -875,
+    2312.2,
+    -875.1,
+    2312.5,
+    -876.6,
+    2319.6,
+    -874.4,
+    2320.2,
+    -871,
+    2321.1,
+    -870,
+    2321.8,
+    -869.6,
+    2322.4,
+    -868.2,
+    2324.9,
+    -868,
+    2325.5,
+    -867.1,
+    2327.9,
+    -867.1,
+    2330.6,
+    -869.7,
+    2345.3,
+    -864.6,
+    2346.3,
+    -854.4,
+    2348.2,
+    -850.9,
+    2328,
+    -860.3,
+    2326.3,
+    -863.4,
+    2320,
+    -867,
+    2313.4,
+    -853.4,
+    2305.9,
+    -849.3,
+    2312.4,
+    -833.1,
+    2300.2,
+    -835.4,
+    2297.1,
+    -837.7,
+    2294,
+    -845,
+    2284.4,
+    -846.4,
+    2282.6,
+    -850.8,
+    2276.7,
+    -851.1,
+    2276.4,
+    -851.8,
+    2276.8,
+    -855,
+    2279,
+    -864,
+    2285.2,
+    -864.1,
+    2284.9,
+    -864.6,
+    2285.2,
+    -877.7,
+    2294,
+    -877.4,
+    2294.6
+   ],
+   "id": "koningin-astridlaan-101-19",
+   "latLon": [
+    51.036392,
+    3.713938
+   ],
+   "photos": [
+    {
+     "id": "3065488823765438-7",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.398,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3331,
+   "at": [
+    -879.55,
+    2343.05
+   ],
+   "centre": [
+    -877.7,
+    2335.7
+   ],
+   "width": 6,
+   "faces": 102,
+   "toStreet": 7.3,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    -882.5,
+    2342.4,
+    -876.6,
+    2343.7,
+    -873.1,
+    2329.1,
+    -878.7,
+    2327.7
+   ],
+   "id": "koningin-astridlaan-102-20",
+   "latLon": [
+    51.036422,
+    3.713709
+   ],
+   "photos": [
+    {
+     "id": "519798703111155-21",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.433,
+      0.561
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3330,
+   "at": [
+    -873.1500000000001,
+    2344.5
+   ],
+   "centre": [
+    -871.6,
+    2337.2
+   ],
+   "width": 7.1,
+   "faces": 103,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 17.2,
+   "kind": "apartments",
+   "ring": [
+    -867.1,
+    2330.6,
+    -873.1,
+    2329.1,
+    -876.6,
+    2343.7,
+    -869.7,
+    2345.3
+   ],
+   "id": "koningin-astridlaan-103-21",
+   "latLon": [
+    51.036412,
+    3.713782
+   ],
+   "photos": [
+    {
+     "id": "334687248762102-5",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.431,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3332,
+   "at": [
+    -885.6,
+    2341.6000000000004
+   ],
+   "centre": [
+    -883.7,
+    2334.3
+   ],
+   "width": 6.4,
+   "faces": 104,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    -888.7,
+    2340.8,
+    -882.5,
+    2342.4,
+    -878.7,
+    2327.7,
+    -885,
+    2326.2
+   ],
+   "id": "koningin-astridlaan-104-22",
+   "latLon": [
+    51.036433,
+    3.71364
+   ],
+   "photos": [
+    {
+     "id": "519798703111155-5",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.438,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3333,
+   "at": [
+    -898.3499999999999,
+    2338.05
+   ],
+   "centre": [
+    -896.1,
+    2330.4
+   ],
+   "width": 7.4,
+   "faces": 106,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    -901.9,
+    2337,
+    -894.8,
+    2339.1,
+    -890.4,
+    2323.8,
+    -897.2,
+    2321.7
+   ],
+   "id": "koningin-astridlaan-106-23",
+   "latLon": [
+    51.036459,
+    3.713494
+   ],
+   "photos": [
+    {
+     "id": "3212722295606235-6",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.422,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3338,
+   "at": [
+    -891.75,
+    2339.95
+   ],
+   "centre": [
+    -888.6,
+    2328.4
+   ],
+   "width": 6.3,
+   "faces": 106,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    -894.8,
+    2339.1,
+    -888.7,
+    2340.8,
+    -885,
+    2326.2,
+    -883.6,
+    2321,
+    -889.2,
+    2319.5,
+    -890.4,
+    2323.8
+   ],
+   "id": "koningin-astridlaan-106-24",
+   "latLon": [
+    51.036445,
+    3.71357
+   ],
+   "photos": [
+    {
+     "id": "3212722295606235-23",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.429,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3334,
+   "at": [
+    -905.5999999999999,
+    2335.85
+   ],
+   "centre": [
+    -901.6,
+    2323.8
+   ],
+   "width": 7.7,
+   "faces": 107,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 10.3,
+   "top": 19,
+   "kind": "house",
+   "ring": [
+    -909.3,
+    2334.7,
+    -901.9,
+    2337,
+    -897.2,
+    2321.7,
+    -898.7,
+    2321.3,
+    -897.4,
+    2317.4,
+    -902.9,
+    2315.7,
+    -903.9,
+    2318.8
+   ],
+   "id": "koningin-astridlaan-107-25",
+   "latLon": [
+    51.036474,
+    3.713411
+   ],
+   "photos": [
+    {
+     "id": "727201888407440-20",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.413,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3336,
+   "at": [
+    -913.4,
+    2333.25
+   ],
+   "centre": [
+    -908.3,
+    2318.1
+   ],
+   "width": 8.7,
+   "faces": 109,
+   "toStreet": 7.3,
+   "floors": 5,
+   "eaves": 19.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -917.5,
+    2331.8,
+    -909.3,
+    2334.7,
+    -903.9,
+    2318.8,
+    -907.8,
+    2317.5,
+    -907.2,
+    2316,
+    -906.7,
+    2315.9,
+    -905.9,
+    2313.6,
+    -906.3,
+    2313,
+    -905.8,
+    2311.7,
+    -907.9,
+    2311.1,
+    -909.3,
+    2313.9,
+    -911.6,
+    2319.1
+   ],
+   "id": "koningin-astridlaan-109-26",
+   "latLon": [
+    51.036493,
+    3.713322
+   ],
+   "photos": [
+    {
+     "id": "152747083907528-33",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.406,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3329,
+   "at": [
+    -929.6500000000001,
+    2327.1499999999996
+   ],
+   "centre": [
+    -921.5,
+    2313.3
+   ],
+   "width": 8.6,
+   "faces": 110,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 20.4,
+   "kind": "yes",
+   "ring": [
+    -924,
+    2304.8,
+    -933.7,
+    2325.7,
+    -925.6,
+    2328.6,
+    -919.4,
+    2315.1,
+    -918,
+    2312.1,
+    -917.6,
+    2312.2,
+    -917.2,
+    2311,
+    -914.7,
+    2305,
+    -923.7,
+    2304.8
+   ],
+   "id": "koningin-astridlaan-110-27",
+   "latLon": [
+    51.036537,
+    3.713136
+   ],
+   "photos": [
+    {
+     "id": "1138611926983618-23",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.404,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3327,
+   "at": [
+    -920.05,
+    2330.8
+   ],
+   "centre": [
+    -919.3,
+    2324.9
+   ],
+   "width": 5.5,
+   "faces": 111,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    -925.6,
+    2328.6,
+    -922.6,
+    2329.8,
+    -917.5,
+    2331.8,
+    -911.6,
+    2319.1,
+    -919.4,
+    2315.1
+   ],
+   "id": "koningin-astridlaan-111-28",
+   "latLon": [
+    51.036511,
+    3.713246
+   ],
+   "photos": [
+    {
+     "id": "152747083907528-15",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.441,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3328,
+   "at": [
+    -937.5,
+    2324.1
+   ],
+   "centre": [
+    -932.3,
+    2311.6
+   ],
+   "width": 8.2,
+   "faces": 113,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 23.4,
+   "kind": "yes",
+   "ring": [
+    -941.3,
+    2322.5,
+    -933.7,
+    2325.7,
+    -924,
+    2304.8,
+    -924.2,
+    2304.8,
+    -932.8,
+    2304.6,
+    -933.9,
+    2306.9,
+    -936.4,
+    2312.1
+   ],
+   "id": "koningin-astridlaan-113-01",
+   "latLon": [
+    51.036559,
+    3.713047
+   ],
+   "photos": [
+    {
+     "id": "5540359452663441-36",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.409,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3335,
+   "at": [
+    -945.3,
+    2320.6
+   ],
+   "centre": [
+    -941.8,
+    2310
+   ],
+   "width": 8.9,
+   "faces": 115,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 22.9,
+   "kind": "apartments",
+   "ring": [
+    -944.5,
+    2308.3,
+    -949.5,
+    2318.6,
+    -949.3,
+    2318.7,
+    -941.3,
+    2322.5,
+    -936.4,
+    2312.1,
+    -933.9,
+    2306.9,
+    -936.7,
+    2305.8,
+    -938.1,
+    2306.6,
+    -940.8,
+    2305.5,
+    -941.9,
+    2306.1,
+    -942.6,
+    2305,
+    -944.4,
+    2305.9,
+    -943.6,
+    2307.5
+   ],
+   "id": "koningin-astridlaan-115-02",
+   "latLon": [
+    51.036585,
+    3.712958
+   ],
+   "photos": [
+    {
+     "id": "5540359452663441-14",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.408,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3337,
+   "at": [
+    -952.95,
+    2316.75
+   ],
+   "centre": [
+    -950.7,
+    2311.6
+   ],
+   "width": 7.8,
+   "faces": 118,
+   "toStreet": 7.2,
+   "floors": 4,
+   "eaves": 16.1,
+   "top": 22.9,
+   "kind": "house",
+   "ring": [
+    -956.4,
+    2314.9,
+    -949.5,
+    2318.6,
+    -944.5,
+    2308.3,
+    -952.3,
+    2304.6
+   ],
+   "id": "koningin-astridlaan-118-03",
+   "latLon": [
+    51.036613,
+    3.71287
+   ],
+   "photos": [
+    {
+     "id": "398029532191567-26",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.418,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3385,
+   "at": [
+    -962.4000000000001,
+    2311.1000000000004
+   ],
+   "centre": [
+    -961.7,
+    2303.5
+   ],
+   "width": 8.7,
+   "faces": 122,
+   "toStreet": 7.7,
+   "floors": 5,
+   "eaves": 18.5,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -958.1,
+    2293.2,
+    -960.8,
+    2294.7,
+    -965.5,
+    2297.2,
+    -970.2,
+    2299.8,
+    -967.6,
+    2304.5,
+    -966.1,
+    2308.8,
+    -958.7,
+    2313.4,
+    -956.4,
+    2314.9,
+    -952.3,
+    2304.6
+   ],
+   "id": "koningin-astridlaan-122-04",
+   "latLon": [
+    51.036653,
+    3.712762
+   ],
+   "photos": [
+    {
+     "id": "142674571158535",
+     "metres": 28,
+     "off": 13,
+     "span": [
+      0.636,
+      0.8
+     ]
+    },
+    {
+     "id": "499911911380046",
+     "metres": 40,
+     "off": 8,
+     "span": [
+      0.592,
+      0.73
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3184,
+   "at": [
+    -637.45,
+    2352.75
+   ],
+   "centre": [
+    -621.3,
+    2374.4
+   ],
+   "width": 5.1,
+   "faces": 243,
+   "toStreet": 16,
+   "floors": 8,
+   "eaves": 30.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -622.1,
+    2381.7,
+    -622.1,
+    2376,
+    -623.3,
+    2376,
+    -623.3,
+    2373.3,
+    -620.7,
+    2375.4,
+    -619.9,
+    2374.4,
+    -618.3,
+    2375.7,
+    -619.6,
+    2377.3,
+    -618.1,
+    2378.7,
+    -618,
+    2381.7,
+    -609.8,
+    2381.6,
+    -609.5,
+    2381.8,
+    -605.1,
+    2381.9,
+    -601.3,
+    2376.7,
+    -619.1,
+    2363.5,
+    -635.2,
+    2351.6,
+    -639.7,
+    2353.9,
+    -639.5,
+    2370.6,
+    -639.7,
+    2381.8
+   ],
+   "id": "koningin-astridlaan-243-01",
+   "latLon": [
+    51.036352,
+    3.716477
+   ],
+   "photos": [
+    {
+     "id": "919431682167981",
+     "metres": 25,
+     "off": 8,
+     "span": [
+      0.554,
+      0.641
+     ]
+    },
+    {
+     "id": "495937521450244",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.252,
+      0.323
+     ]
+    },
+    {
+     "id": "158848496078932",
+     "metres": 32,
+     "off": 9,
+     "span": [
+      0.61,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3161,
+   "at": [
+    -688.8,
+    2364.35
+   ],
+   "centre": [
+    -685.8,
+    2371.5
+   ],
+   "width": 7.9,
+   "faces": 250,
+   "toStreet": 5.8,
+   "floors": 5,
+   "eaves": 17.8,
+   "top": 21.5,
+   "kind": "yes",
+   "ring": [
+    -688.2,
+    2376.2,
+    -683,
+    2376.3,
+    -680.3,
+    2376.3,
+    -685.1,
+    2363,
+    -692.5,
+    2365.7
+   ],
+   "id": "koningin-astridlaan-250-01",
+   "latLon": [
+    51.036268,
+    3.71589
+   ],
+   "photos": [
+    {
+     "id": "290836672546515",
+     "metres": 18,
+     "off": 2,
+     "span": [
+      0.346,
+      0.593
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3162,
+   "at": [
+    -699.6,
+    2368.05
+   ],
+   "centre": [
+    -695,
+    2380.1
+   ],
+   "width": 15,
+   "faces": 252,
+   "toStreet": 5.7,
+   "floors": 6,
+   "eaves": 22.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -700.9,
+    2386.6,
+    -696.6,
+    2398.6,
+    -685.2,
+    2383.3,
+    -688.2,
+    2376.2,
+    -692.5,
+    2365.7,
+    -706.7,
+    2370.4
+   ],
+   "id": "koningin-astridlaan-252-02",
+   "latLon": [
+    51.036241,
+    3.715766
+   ],
+   "photos": [
+    {
+     "id": "225845245980778",
+     "metres": 22,
+     "off": 6,
+     "span": [
+      0.387,
+      0.704
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3163,
+   "at": [
+    -710.3,
+    2371.45
+   ],
+   "centre": [
+    -707.5,
+    2379.6
+   ],
+   "width": 7.5,
+   "faces": 254,
+   "toStreet": 5.6,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": 21.6,
+   "kind": "yes",
+   "ring": [
+    -708.6,
+    2388.9,
+    -700.9,
+    2386.6,
+    -706.7,
+    2370.4,
+    -713.9,
+    2372.5
+   ],
+   "id": "koningin-astridlaan-254-03",
+   "latLon": [
+    51.036217,
+    3.715644
+   ],
+   "photos": [
+    {
+     "id": "225845245980778",
+     "metres": 28,
+     "off": 20,
+     "span": [
+      0.703,
+      0.812
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3165,
+   "at": [
+    -725.95,
+    2375.7
+   ],
+   "centre": [
+    -721.4,
+    2388.8
+   ],
+   "width": 8.8,
+   "faces": 255,
+   "toStreet": 6,
+   "floors": 2,
+   "eaves": 8,
+   "top": 23.1,
+   "kind": "yes",
+   "ring": [
+    -724.6,
+    2399.2,
+    -715.2,
+    2397,
+    -715.3,
+    2396.6,
+    -721.7,
+    2374.6,
+    -730.2,
+    2376.8
+   ],
+   "id": "koningin-astridlaan-255-04",
+   "latLon": [
+    51.036186,
+    3.715465
+   ],
+   "photos": [
+    {
+     "id": "4928585633916053-166",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.193,
+      0.798
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3164,
+   "at": [
+    -717.8,
+    2373.55
+   ],
+   "centre": [
+    -712,
+    2388.5
+   ],
+   "width": 8.1,
+   "faces": 255,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 21,
+   "kind": "yes",
+   "ring": [
+    -715.3,
+    2396.6,
+    -709.3,
+    2394.9,
+    -708.9,
+    2396.3,
+    -706.4,
+    2395.6,
+    -708.6,
+    2388.9,
+    -713.9,
+    2372.5,
+    -721.7,
+    2374.6
+   ],
+   "id": "koningin-astridlaan-255-05",
+   "latLon": [
+    51.036202,
+    3.715558
+   ],
+   "photos": [
+    {
+     "id": "548619060131764-192",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.251,
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3166,
+   "at": [
+    -737.1500000000001,
+    2378.2
+   ],
+   "centre": [
+    -728.3,
+    2411.2
+   ],
+   "width": 14.2,
+   "faces": 259,
+   "toStreet": 6.1,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -737.8,
+    2407.2,
+    -733,
+    2406.1,
+    -728,
+    2428,
+    -725.6,
+    2428.5,
+    -724.7,
+    2433.2,
+    -716,
+    2433.2,
+    -719.3,
+    2420.4,
+    -724.6,
+    2399.2,
+    -730.2,
+    2376.8,
+    -744.1,
+    2379.6
+   ],
+   "id": "koningin-astridlaan-259-06",
+   "latLon": [
+    51.036168,
+    3.715337
+   ],
+   "photos": [
+    {
+     "id": "364836935435341-156",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.148,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2276,
+   "at": [
+    -801.1500000000001,
+    2385.1499999999996
+   ],
+   "centre": [
+    -800,
+    2399
+   ],
+   "width": 16.1,
+   "faces": 270,
+   "toStreet": 6.2,
+   "floors": 6,
+   "eaves": 22.4,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    -809.7,
+    2400.1,
+    -806.1,
+    2400.3,
+    -806.1,
+    2402.5,
+    -805.1,
+    2407,
+    -803.1,
+    2406.7,
+    -802.1,
+    2410.8,
+    -786.2,
+    2407.4,
+    -788.5,
+    2396.7,
+    -790.4,
+    2387.4,
+    -793.1,
+    2385.2,
+    -809.2,
+    2385.1
+   ],
+   "id": "koningin-astridlaan-270-07",
+   "latLon": [
+    51.036118,
+    3.714605
+   ],
+   "photos": [
+    {
+     "id": "1416296582063625",
+     "metres": 39,
+     "off": 18,
+     "span": [
+      0.577,
+      0.753
+     ]
+    },
+    {
+     "id": "946558679488913",
+     "metres": 29,
+     "off": 20,
+     "span": [
+      0.606,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2277,
+   "at": [
+    -815.2,
+    2384.9
+   ],
+   "centre": [
+    -814.2,
+    2399.4
+   ],
+   "width": 5.4,
+   "faces": 272,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 5.2,
+   "top": 22.8,
+   "kind": "house",
+   "ring": [
+    -819.5,
+    2415.1,
+    -815.2,
+    2415.1,
+    -814.8,
+    2406.2,
+    -810,
+    2406.3,
+    -809.7,
+    2400.1,
+    -809.2,
+    2385.1,
+    -812.5,
+    2385,
+    -817.9,
+    2384.8,
+    -818.6,
+    2396.5
+   ],
+   "id": "koningin-astridlaan-272-08",
+   "latLon": [
+    51.03612,
+    3.714445
+   ],
+   "photos": [
+    {
+     "id": "388421233177197-148",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.42,
+      0.615
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2278,
+   "at": [
+    -825.9,
+    2384.1499999999996
+   ],
+   "centre": [
+    -830.8,
+    2411.8
+   ],
+   "width": 11.8,
+   "faces": 274,
+   "toStreet": 5.4,
+   "floors": 1,
+   "eaves": 5.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -843.6,
+    2407.7,
+    -844,
+    2410.6,
+    -846.8,
+    2429.7,
+    -840.9,
+    2431.5,
+    -832.2,
+    2434.1,
+    -823.6,
+    2436.6,
+    -820.5,
+    2433.5,
+    -819.5,
+    2415.1,
+    -818.6,
+    2396.5,
+    -820.6,
+    2396.5,
+    -820,
+    2384.6,
+    -831.8,
+    2383.7,
+    -833.5,
+    2395.6,
+    -835.4,
+    2408.8
+   ],
+   "id": "koningin-astridlaan-274-09",
+   "latLon": [
+    51.036125,
+    3.714323
+   ],
+   "photos": [
+    {
+     "id": "388421233177197-206",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.167,
+      0.719
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2280,
+   "at": [
+    -835.75,
+    2383.25
+   ],
+   "centre": [
+    -836.6,
+    2389.2
+   ],
+   "width": 8,
+   "faces": 276,
+   "toStreet": 5.3,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    -841.5,
+    2394.5,
+    -833.5,
+    2395.6,
+    -831.8,
+    2383.7,
+    -839.7,
+    2382.8
+   ],
+   "id": "koningin-astridlaan-276-10",
+   "latLon": [
+    51.036131,
+    3.71421
+   ],
+   "photos": [
+    {
+     "id": "4553929908041636-183",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.284,
+      0.734
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2281,
+   "at": [
+    -843.45,
+    2382.3500000000004
+   ],
+   "centre": [
+    -845.2,
+    2396.9
+   ],
+   "width": 7.6,
+   "faces": 277,
+   "toStreet": 5,
+   "floors": 1,
+   "eaves": 4,
+   "top": 18.8,
+   "kind": "yes",
+   "ring": [
+    -849.7,
+    2398.3,
+    -851,
+    2406.4,
+    -843.6,
+    2407.7,
+    -843.4,
+    2406.7,
+    -841.5,
+    2394.5,
+    -839.7,
+    2382.8,
+    -847.2,
+    2381.9
+   ],
+   "id": "koningin-astridlaan-277-11",
+   "latLon": [
+    51.036138,
+    3.714122
+   ],
+   "photos": [
+    {
+     "id": "1155028565294324-149",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.389,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2282,
+   "at": [
+    -852.1500000000001,
+    2381.2
+   ],
+   "centre": [
+    -854.8,
+    2398.9
+   ],
+   "width": 10,
+   "faces": 278,
+   "toStreet": 4.8,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -860.4,
+    2403,
+    -861.4,
+    2409.7,
+    -857.7,
+    2410.3,
+    -856.8,
+    2405,
+    -855.5,
+    2404.1,
+    -854.8,
+    2399.7,
+    -855.3,
+    2399.6,
+    -855,
+    2397.4,
+    -854.3,
+    2398.1,
+    -851.3,
+    2398.5,
+    -850.4,
+    2398.1,
+    -849.7,
+    2398.3,
+    -847.2,
+    2381.9,
+    -857.1,
+    2380.5
+   ],
+   "id": "koningin-astridlaan-278-12",
+   "latLon": [
+    51.036146,
+    3.714022
+   ],
+   "photos": [
+    {
+     "id": "1155028565294324-200",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.185,
+      0.745
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2279,
+   "at": [
+    -837.5,
+    2395.05
+   ],
+   "centre": [
+    -839.5,
+    2402.7
+   ],
+   "width": 8.1,
+   "faces": 278,
+   "toStreet": 17.2,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 7.5,
+   "kind": "house",
+   "ring": [
+    -843.6,
+    2407.7,
+    -835.4,
+    2408.8,
+    -833.5,
+    2395.6,
+    -841.5,
+    2394.5,
+    -843.4,
+    2406.7
+   ],
+   "id": "koningin-astridlaan-278-13",
+   "latLon": [
+    51.036046,
+    3.71419
+   ],
+   "photos": [
+    {
+     "id": "4553929908041636-186",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.406,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 2283,
+   "at": [
+    -861.4000000000001,
+    2379.75
+   ],
+   "centre": [
+    -863,
+    2391
+   ],
+   "width": 8.7,
+   "faces": 280,
+   "toStreet": 5,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 18.8,
+   "kind": "house",
+   "ring": [
+    -868.9,
+    2401.6,
+    -860.4,
+    2403,
+    -857.1,
+    2380.5,
+    -865.7,
+    2379
+   ],
+   "id": "koningin-astridlaan-280-14",
+   "latLon": [
+    51.036157,
+    3.713917
+   ],
+   "photos": [
+    {
+     "id": "3065488823765438-172",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.294,
+      0.783
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3144,
+   "at": [
+    -870.2,
+    2378.15
+   ],
+   "centre": [
+    -872.9,
+    2403.1
+   ],
+   "width": 9.2,
+   "faces": 281,
+   "toStreet": 5,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -880.5,
+    2409.2,
+    -881.1,
+    2413.3,
+    -871.2,
+    2417.3,
+    -871,
+    2415.9,
+    -870.4,
+    2411.1,
+    -868.9,
+    2401.6,
+    -865.7,
+    2379,
+    -874.7,
+    2377.3
+   ],
+   "id": "koningin-astridlaan-281-15",
+   "latLon": [
+    51.036168,
+    3.713816
+   ],
+   "photos": [
+    {
+     "id": "3065488823765438-227",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.261,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3146,
+   "at": [
+    -886.8,
+    2374.55
+   ],
+   "centre": [
+    -889.5,
+    2386.5
+   ],
+   "width": 8.2,
+   "faces": 283,
+   "toStreet": 5.1,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": 22.4,
+   "kind": "house",
+   "ring": [
+    -895.9,
+    2392.9,
+    -891.1,
+    2394,
+    -890.4,
+    2391.1,
+    -886.1,
+    2392,
+    -882.8,
+    2375.5,
+    -890.8,
+    2373.6
+   ],
+   "id": "koningin-astridlaan-283-16",
+   "latLon": [
+    51.036194,
+    3.713626
+   ],
+   "photos": [
+    {
+     "id": "519798703111155-174",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.33,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3145,
+   "at": [
+    -878.75,
+    2376.4
+   ],
+   "centre": [
+    -882.7,
+    2392.3
+   ],
+   "width": 8.3,
+   "faces": 283,
+   "toStreet": 4.9,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    -886.1,
+    2392,
+    -889.2,
+    2407.5,
+    -880.5,
+    2409.2,
+    -874.7,
+    2377.3,
+    -882.8,
+    2375.5
+   ],
+   "id": "koningin-astridlaan-283-17",
+   "latLon": [
+    51.036181,
+    3.713718
+   ],
+   "photos": [
+    {
+     "id": "334687248762102-202",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.253,
+      0.709
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3147,
+   "at": [
+    -900.05,
+    2371.05
+   ],
+   "centre": [
+    -903.9,
+    2390.3
+   ],
+   "width": 19.2,
+   "faces": 285,
+   "toStreet": 5.2,
+   "floors": 6,
+   "eaves": 22.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -917.7,
+    2398.8,
+    -910.4,
+    2401.7,
+    -899.4,
+    2406.1,
+    -895.9,
+    2392.9,
+    -890.8,
+    2373.6,
+    -909.3,
+    2368.5
+   ],
+   "id": "koningin-astridlaan-285-18",
+   "latLon": [
+    51.03622,
+    3.713475
+   ],
+   "photos": [
+    {
+     "id": "3212722295606235-176",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.156,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3148,
+   "at": [
+    -914.5,
+    2367
+   ],
+   "centre": [
+    -920.6,
+    2385.9
+   ],
+   "width": 10.8,
+   "faces": 286,
+   "toStreet": 5.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 24.2,
+   "kind": "apartments",
+   "ring": [
+    -923.7,
+    2380,
+    -927.8,
+    2394.9,
+    -927.4,
+    2395,
+    -918.7,
+    2398.4,
+    -917.7,
+    2398.8,
+    -909.3,
+    2368.5,
+    -919.7,
+    2365.5
+   ],
+   "id": "koningin-astridlaan-286-19",
+   "latLon": [
+    51.036249,
+    3.71331
+   ],
+   "photos": [
+    {
+     "id": "727201888407440-187",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.267,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3149,
+   "at": [
+    -923.6500000000001,
+    2364.25
+   ],
+   "centre": [
+    -928.8,
+    2381.2
+   ],
+   "width": 8.3,
+   "faces": 288,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -934,
+    2387.6,
+    -931.3,
+    2388.3,
+    -930.9,
+    2387.1,
+    -930.2,
+    2387.2,
+    -929.9,
+    2385.9,
+    -929.3,
+    2386,
+    -927.3,
+    2378.9,
+    -923.7,
+    2380,
+    -919.7,
+    2365.5,
+    -927.6,
+    2363,
+    -933.2,
+    2384.2
+   ],
+   "id": "koningin-astridlaan-288-20",
+   "latLon": [
+    51.036269,
+    3.713205
+   ],
+   "photos": [
+    {
+     "id": "152747083907528-170",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.372,
+      0.672
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 4144,
+   "at": [
+    -964.2,
+    2349.4
+   ],
+   "centre": [
+    -970.1,
+    2366.4
+   ],
+   "width": 8.7,
+   "faces": 289,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 4.9,
+   "top": 22.2,
+   "kind": "yes",
+   "ring": [
+    -973.5,
+    2361.4,
+    -978.7,
+    2374.9,
+    -974.5,
+    2376.7,
+    -973.3,
+    2374.2,
+    -971.4,
+    2370.1,
+    -967.9,
+    2371.3,
+    -967.3,
+    2369.6,
+    -966.2,
+    2366.7,
+    -960.1,
+    2350.8,
+    -968.3,
+    2348
+   ],
+   "id": "koningin-astridlaan-289-21",
+   "latLon": [
+    51.036376,
+    3.712741
+   ],
+   "photos": [
+    {
+     "id": "466386504438631",
+     "metres": 43,
+     "off": 2,
+     "span": [
+      0.458,
+      0.6
+     ]
+    },
+    {
+     "id": "155188733126599",
+     "metres": 44,
+     "off": 3,
+     "span": [
+      0.495,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3150,
+   "at": [
+    -930.4000000000001,
+    2362.05
+   ],
+   "centre": [
+    -934.6,
+    2381.2
+   ],
+   "width": 5.9,
+   "faces": 289,
+   "toStreet": 5.7,
+   "floors": 2,
+   "eaves": 6.4,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    -935.7,
+    2391.7,
+    -935.2,
+    2391.9,
+    -934,
+    2387.6,
+    -933.2,
+    2384.2,
+    -927.6,
+    2363,
+    -933.2,
+    2361.1,
+    -943.1,
+    2388.8
+   ],
+   "id": "koningin-astridlaan-289-22",
+   "latLon": [
+    51.036285,
+    3.713128
+   ],
+   "photos": [
+    {
+     "id": "152747083907528-204",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.366,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3151,
+   "at": [
+    -936.3,
+    2360
+   ],
+   "centre": [
+    -943,
+    2378.6
+   ],
+   "width": 6.6,
+   "faces": 290,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 17.1,
+   "kind": "house",
+   "ring": [
+    -943.8,
+    2388.6,
+    -943.1,
+    2388.8,
+    -933.2,
+    2361.1,
+    -939.4,
+    2358.9,
+    -947,
+    2379,
+    -948,
+    2381.6,
+    -944,
+    2383.1,
+    -945.6,
+    2387.8
+   ],
+   "id": "koningin-astridlaan-290-23",
+   "latLon": [
+    51.0363,
+    3.71306
+   ],
+   "photos": [
+    {
+     "id": "1138611926983618-172",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.397,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3092,
+   "at": [
+    -985.95,
+    2341.1499999999996
+   ],
+   "centre": [
+    -1012.7,
+    2357
+   ],
+   "width": 28,
+   "faces": 291,
+   "toStreet": 9.2,
+   "floors": 7,
+   "eaves": 26.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    -968.3,
+    2348,
+    -972.9,
+    2346.2,
+    -999,
+    2336.1,
+    -1006.4,
+    2333.2,
+    -1007.1,
+    2332.8,
+    -1007.2,
+    2332.5,
+    -1007.4,
+    2332,
+    -1007.6,
+    2331.7,
+    -1007.9,
+    2331.2,
+    -1008.1,
+    2330.9,
+    -1008.3,
+    2330.7,
+    -1008.5,
+    2330.5,
+    -1008.8,
+    2330.2,
+    -1009.2,
+    2330,
+    -1009.5,
+    2329.8,
+    -1009.9,
+    2329.7,
+    -1010.4,
+    2328.6,
+    -1016.3,
+    2331.1,
+    -1015.8,
+    2332.3,
+    -1016,
+    2332.8,
+    -1016,
+    2333.2,
+    -1016.1,
+    2333.8,
+    -1016.1,
+    2334.5,
+    -1016,
+    2334.8,
+    -1015.9,
+    2335.1,
+    -1015.8,
+    2335.5,
+    -1015.7,
+    2335.8,
+    -1015.5,
+    2336.2,
+    -1015.3,
+    2336.6,
+    -1016.6,
+    2338.3,
+    -1020.2,
+    2343.6,
+    -1023.1,
+    2348.9,
+    -1023.4,
+    2349.4,
+    -1023.6,
+    2349.9,
+    -1025.7,
+    2354.6,
+    -1026,
+    2355.4,
+    -1026.4,
+    2356.5,
+    -1028.1,
+    2361.5,
+    -1028.3,
+    2362.1,
+    -1030,
+    2368.8,
+    -1030.4,
+    2368.9,
+    -1030.8,
+    2369,
+    -1031.3,
+    2369.2,
+    -1031.7,
+    2369.4,
+    -1032,
+    2369.7,
+    -1032.4,
+    2369.9,
+    -1032.7,
+    2370.2,
+    -1032.8,
+    2370.4,
+    -1033.1,
+    2370.9,
+    -1033.2,
+    2371.2,
+    -1034.5,
+    2371.6,
+    -1034.1,
+    2372.7,
+    -1032.2,
+    2378.4,
+    -1031.1,
+    2378.1,
+    -1030.5,
+    2379.6,
+    -1029.9,
+    2380.5,
+    -1029.7,
+    2380.7,
+    -1029.4,
+    2380.9,
+    -1028.5,
+    2381.7,
+    -1027.5,
+    2382.7,
+    -1013.9,
+    2389.7,
+    -1000.5,
+    2396.5,
+    -999,
+    2397.5,
+    -992.7,
+    2400.5,
+    -992.3,
+    2400.8,
+    -992.1,
+    2400.3,
+    -990.1,
+    2396.2,
+    -979.4,
+    2376.2,
+    -982.1,
+    2375.1,
+    -980.9,
+    2373.5,
+    -979.3,
+    2369.8,
+    -978.2,
+    2365.5,
+    -976.1,
+    2360.4,
+    -974,
+    2361.2,
+    -973.5,
+    2361.4
+   ],
+   "id": "koningin-astridlaan-291-24",
+   "latLon": [
+    51.036436,
+    3.712493
+   ],
+   "photos": [
+    {
+     "id": "1173100293142265",
+     "metres": 35,
+     "off": 4,
+     "span": [
+      0.227,
+      0.682
+     ]
+    },
+    {
+     "id": "500709030961400",
+     "metres": 39,
+     "off": 1,
+     "span": [
+      0.242,
+      0.78
+     ]
+    },
+    {
+     "id": "551935535788801",
+     "metres": 41,
+     "off": 7,
+     "span": [
+      0.185,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3154,
+   "at": [
+    -956.35,
+    2352.25
+   ],
+   "centre": [
+    -963.3,
+    2370.7
+   ],
+   "width": 8,
+   "faces": 291,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 22.1,
+   "kind": "yes",
+   "ring": [
+    -962.8,
+    2379.3,
+    -962,
+    2377.3,
+    -961.9,
+    2376.9,
+    -952.6,
+    2353.7,
+    -960.1,
+    2350.8,
+    -966.2,
+    2366.7,
+    -961.1,
+    2368.6,
+    -962.2,
+    2371.5,
+    -967.3,
+    2369.6,
+    -967.9,
+    2371.3,
+    -969.7,
+    2375.9,
+    -965.8,
+    2377.8,
+    -963,
+    2379.2
+   ],
+   "id": "koningin-astridlaan-291-25",
+   "latLon": [
+    51.036356,
+    3.712831
+   ],
+   "photos": [
+    {
+     "id": "5540359452663441-209",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.316,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3152,
+   "at": [
+    -942.8,
+    2357.6000000000004
+   ],
+   "centre": [
+    -950.5,
+    2378.2
+   ],
+   "width": 7.3,
+   "faces": 291,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 5.4,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    -956.7,
+    2382.9,
+    -956.9,
+    2383.3,
+    -953.4,
+    2384.7,
+    -949.8,
+    2386.1,
+    -949.6,
+    2385.8,
+    -948.9,
+    2384.1,
+    -951.2,
+    2383.4,
+    -949.1,
+    2378.2,
+    -947,
+    2379,
+    -939.4,
+    2358.9,
+    -946.2,
+    2356.3,
+    -952.9,
+    2373.4,
+    -955.5,
+    2379.9
+   ],
+   "id": "koningin-astridlaan-291-26",
+   "latLon": [
+    51.036317,
+    3.712986
+   ],
+   "photos": [
+    {
+     "id": "1138611926983618-203",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.34,
+      0.654
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 3153,
+   "at": [
+    -949.4000000000001,
+    2355
+   ],
+   "centre": [
+    -955.7,
+    2369.8
+   ],
+   "width": 6.9,
+   "faces": 292,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -962,
+    2377.3,
+    -958.3,
+    2378.8,
+    -955.7,
+    2372.3,
+    -952.9,
+    2373.4,
+    -946.2,
+    2356.3,
+    -952.6,
+    2353.7,
+    -961.9,
+    2376.9
+   ],
+   "id": "koningin-astridlaan-292-27",
+   "latLon": [
+    51.036336,
+    3.712911
+   ],
+   "photos": [
+    {
+     "id": "5540359452663441-173",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.402,
+      0.641
+     ]
+    }
+   ]
+  }
+ ]
+}

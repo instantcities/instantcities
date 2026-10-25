@@ -1,0 +1,7218 @@
+{
+ "city": "ghent",
+ "street": "Engelbert van Arenbergstraat",
+ "slug": "engelbert-van-arenbergstraat",
+ "photos": {
+  "24066329719622393-283": {
+   "file": "photos/24066329719622393-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=24066329719622393",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0546812,
+    3.7457793,
+    283,
+    0.5
+   ]
+  },
+  "9034325903283754-278": {
+   "file": "photos/9034325903283754-278.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9034325903283754",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0549845,
+    3.7458058,
+    278,
+    0.5
+   ]
+  },
+  "9034325903283754-257": {
+   "file": "photos/9034325903283754-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9034325903283754",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0549845,
+    3.7458058,
+    257,
+    0.5
+   ]
+  },
+  "982874923755749-292": {
+   "file": "photos/982874923755749-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982874923755749",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0548879,
+    3.7457991,
+    292,
+    0.5
+   ]
+  },
+  "982874923755749-271": {
+   "file": "photos/982874923755749-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982874923755749",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0548879,
+    3.7457991,
+    271,
+    0.5
+   ]
+  },
+  "982874923755749-251": {
+   "file": "photos/982874923755749-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=982874923755749",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0548879,
+    3.7457991,
+    251,
+    0.5
+   ]
+  },
+  "1628372757787474-263": {
+   "file": "photos/1628372757787474-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1628372757787474",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.054784,
+    3.7457923,
+    263,
+    0.5
+   ]
+  },
+  "1628372757787474-244": {
+   "file": "photos/1628372757787474-244.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1628372757787474",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.054784,
+    3.7457923,
+    244,
+    0.5
+   ]
+  },
+  "1151788100000532-263": {
+   "file": "photos/1151788100000532-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151788100000532",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0551404,
+    3.745821,
+    263,
+    0.5
+   ]
+  },
+  "1132700108359707-250": {
+   "file": "photos/1132700108359707-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1132700108359707",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0551957,
+    3.7459538,
+    250,
+    0.5
+   ]
+  },
+  "1057306819461613-249": {
+   "file": "photos/1057306819461613-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1057306819461613",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0550731,
+    3.7458131,
+    249,
+    0.5
+   ]
+  },
+  "1628372757787474-287": {
+   "file": "photos/1628372757787474-287.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1628372757787474",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.054784,
+    3.7457923,
+    287,
+    0.5
+   ]
+  },
+  "1132498161841870-273": {
+   "file": "photos/1132498161841870-273.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1132498161841870",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0556197,
+    3.7459302,
+    273,
+    0.5
+   ]
+  },
+  "1184945726296785-283": {
+   "file": "photos/1184945726296785-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1184945726296785",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0555262,
+    3.745919,
+    283,
+    0.5
+   ]
+  },
+  "943289291284017-291": {
+   "file": "photos/943289291284017-291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=943289291284017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0554358,
+    3.7459048,
+    291,
+    0.5
+   ]
+  },
+  "943289291284017-258": {
+   "file": "photos/943289291284017-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=943289291284017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0554358,
+    3.7459048,
+    258,
+    0.5
+   ]
+  },
+  "627853319730674-279": {
+   "file": "photos/627853319730674-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=627853319730674",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0553485,
+    3.7458878,
+    279,
+    0.5
+   ]
+  },
+  "1132498161841870-293": {
+   "file": "photos/1132498161841870-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1132498161841870",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0556197,
+    3.7459302,
+    293,
+    0.5
+   ]
+  },
+  "1132498161841870-257": {
+   "file": "photos/1132498161841870-257.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1132498161841870",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0556197,
+    3.7459302,
+    257,
+    0.5
+   ]
+  },
+  "1184945726296785-266": {
+   "file": "photos/1184945726296785-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1184945726296785",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0555262,
+    3.745919,
+    266,
+    0.5
+   ]
+  },
+  "943289291284017-275": {
+   "file": "photos/943289291284017-275.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=943289291284017",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0554358,
+    3.7459048,
+    275,
+    0.5
+   ]
+  },
+  "1298108714577704-291": {
+   "file": "photos/1298108714577704-291.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1298108714577704",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.055266,
+    3.7458889,
+    291,
+    0.5
+   ]
+  },
+  "153940536679405": {
+   "file": "photos/153940536679405.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=153940536679405",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0585955,
+    3.7439597,
+    333,
+    0.425
+   ]
+  },
+  "162378465816385": {
+   "file": "photos/162378465816385.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=162378465816385",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0586115,
+    3.7439455,
+    334,
+    0.425
+   ]
+  },
+  "1159082769925320-345": {
+   "file": "photos/1159082769925320-345.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    345,
+    0.5
+   ]
+  },
+  "1105724164617940-15": {
+   "file": "photos/1105724164617940-15.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1105724164617940",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0544722,
+    3.7451953,
+    15,
+    0.5
+   ]
+  },
+  "1105724164617940-18": {
+   "file": "photos/1105724164617940-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1105724164617940",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0544722,
+    3.7451953,
+    18,
+    0.5
+   ]
+  },
+  "1159082769925320-322": {
+   "file": "photos/1159082769925320-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    322,
+    0.5
+   ]
+  },
+  "1159082769925320-3": {
+   "file": "photos/1159082769925320-3.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    3,
+    0.5
+   ]
+  },
+  "1105724164617940-34": {
+   "file": "photos/1105724164617940-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1105724164617940",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0544722,
+    3.7451953,
+    34,
+    0.5
+   ]
+  },
+  "654654380232481-18": {
+   "file": "photos/654654380232481-18.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=654654380232481",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545431,
+    3.7454637,
+    18,
+    0.5
+   ]
+  },
+  "1159082769925320-32": {
+   "file": "photos/1159082769925320-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    32,
+    0.5
+   ]
+  },
+  "1258157891913922-7": {
+   "file": "photos/1258157891913922-7.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1258157891913922",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545353,
+    3.7449779,
+    7,
+    0.5
+   ]
+  },
+  "1105724164617940-317": {
+   "file": "photos/1105724164617940-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1105724164617940",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0544722,
+    3.7451953,
+    317,
+    0.5
+   ]
+  },
+  "203247545966360": {
+   "file": "photos/203247545966360.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=203247545966360",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0580405,
+    3.7445178,
+    13,
+    0.722
+   ]
+  },
+  "495693043221541-54": {
+   "file": "photos/495693043221541-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=495693043221541",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0552167,
+    3.7456996,
+    54,
+    0.5
+   ]
+  },
+  "579523878530029-83": {
+   "file": "photos/579523878530029-83.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    83,
+    0.5
+   ]
+  },
+  "1246671839289049": {
+   "file": "photos/1246671839289049.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1246671839289049",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0581235,
+    3.7446341,
+    62,
+    0.722
+   ]
+  },
+  "1414731539502358-79": {
+   "file": "photos/1414731539502358-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1414731539502358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0568188,
+    3.7453418,
+    79,
+    0.5
+   ]
+  },
+  "131232253258616": {
+   "file": "photos/131232253258616.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=131232253258616",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.057265,
+    3.7449767,
+    76,
+    0.85
+   ]
+  },
+  "716710236891891": {
+   "file": "photos/716710236891891.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=716710236891891",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0580535,
+    3.7445248,
+    35,
+    0.722
+   ]
+  },
+  "1231442764297410": {
+   "file": "photos/1231442764297410.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1231442764297410",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0577869,
+    3.7443421,
+    70,
+    2.009
+   ]
+  },
+  "186577196673302": {
+   "file": "photos/186577196673302.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=186577196673302",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-13",
+   "cam": [
+    51.0575123,
+    3.7445601,
+    99,
+    0.299
+   ]
+  },
+  "1268848773753150": {
+   "file": "photos/1268848773753150.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1268848773753150",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0573333,
+    3.7449233,
+    38,
+    0.85
+   ]
+  },
+  "171945728277285": {
+   "file": "photos/171945728277285.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=171945728277285",
+   "author": "polyglot",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-09-13",
+   "cam": [
+    51.0575166,
+    3.7444213,
+    106,
+    0.299
+   ]
+  },
+  "1871072023630353-26": {
+   "file": "photos/1871072023630353-26.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1871072023630353",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0571743,
+    3.7450745,
+    26,
+    0.5
+   ]
+  },
+  "1176963053663374-72": {
+   "file": "photos/1176963053663374-72.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1176963053663374",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0564679,
+    3.7455888,
+    72,
+    0.5
+   ]
+  },
+  "604705262303685-48": {
+   "file": "photos/604705262303685-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604705262303685",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0575519,
+    3.74461,
+    48,
+    0.5
+   ]
+  },
+  "604705262303685-65": {
+   "file": "photos/604705262303685-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=604705262303685",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0575519,
+    3.74461,
+    65,
+    0.5
+   ]
+  },
+  "573170894286026": {
+   "file": "photos/573170894286026.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=573170894286026",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0577691,
+    3.7442675,
+    70,
+    2.009
+   ]
+  },
+  "23872411665694779-149": {
+   "file": "photos/23872411665694779-149.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=23872411665694779",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0558031,
+    3.7458994,
+    149,
+    0.5
+   ]
+  },
+  "627853319730674-163": {
+   "file": "photos/627853319730674-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=627853319730674",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0553485,
+    3.7458878,
+    163,
+    0.5
+   ]
+  },
+  "627853319730674-155": {
+   "file": "photos/627853319730674-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=627853319730674",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0553485,
+    3.7458878,
+    155,
+    0.5
+   ]
+  },
+  "1159082769925320-203": {
+   "file": "photos/1159082769925320-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    203,
+    0.5
+   ]
+  },
+  "534323829665889-159": {
+   "file": "photos/534323829665889-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534323829665889",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.054703,
+    3.745186,
+    159,
+    0.5
+   ]
+  },
+  "1159082769925320-201": {
+   "file": "photos/1159082769925320-201.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    201,
+    0.5
+   ]
+  },
+  "597769109635431-160": {
+   "file": "photos/597769109635431-160.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=597769109635431",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0546199,
+    3.7451903,
+    160,
+    0.5
+   ]
+  },
+  "1258157891913922-170": {
+   "file": "photos/1258157891913922-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1258157891913922",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545353,
+    3.7449779,
+    170,
+    0.5
+   ]
+  },
+  "597769109635431-220": {
+   "file": "photos/597769109635431-220.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=597769109635431",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0546199,
+    3.7451903,
+    220,
+    0.5
+   ]
+  },
+  "1159082769925320-191": {
+   "file": "photos/1159082769925320-191.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    191,
+    0.5
+   ]
+  },
+  "1187046382757610-153": {
+   "file": "photos/1187046382757610-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1187046382757610",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545476,
+    3.7451927,
+    153,
+    0.5
+   ]
+  },
+  "1024015976593284-239": {
+   "file": "photos/1024015976593284-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1024015976593284",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0584847,
+    3.7442534,
+    239,
+    0.5
+   ]
+  },
+  "4080217012246979-238": {
+   "file": "photos/4080217012246979-238.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4080217012246979",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0583438,
+    3.7444205,
+    238,
+    0.5
+   ]
+  },
+  "579523878530029-248": {
+   "file": "photos/579523878530029-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    248,
+    0.5
+   ]
+  },
+  "579523878530029-214": {
+   "file": "photos/579523878530029-214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=579523878530029",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-04-04",
+   "pano": true,
+   "cam": [
+    51.0582803,
+    3.7444994,
+    214,
+    0.5
+   ]
+  },
+  "595246173365393-255": {
+   "file": "photos/595246173365393-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595246173365393",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0567289,
+    3.7454091,
+    255,
+    0.5
+   ]
+  },
+  "611648544959720-228": {
+   "file": "photos/611648544959720-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=611648544959720",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.056908,
+    3.7452714,
+    228,
+    0.5
+   ]
+  },
+  "1414731539502358-252": {
+   "file": "photos/1414731539502358-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1414731539502358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0568188,
+    3.7453418,
+    252,
+    0.5
+   ]
+  },
+  "595246173365393-272": {
+   "file": "photos/595246173365393-272.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595246173365393",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0567289,
+    3.7454091,
+    272,
+    0.5
+   ]
+  },
+  "595246173365393-233": {
+   "file": "photos/595246173365393-233.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595246173365393",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0567289,
+    3.7454091,
+    233,
+    0.5
+   ]
+  },
+  "1151257419994198-250": {
+   "file": "photos/1151257419994198-250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151257419994198",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0566419,
+    3.7454749,
+    250,
+    0.5
+   ]
+  },
+  "1286298025999161-265": {
+   "file": "photos/1286298025999161-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1286298025999161",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0565596,
+    3.7455347,
+    265,
+    0.5
+   ]
+  },
+  "599168166216762-260": {
+   "file": "photos/599168166216762-260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=599168166216762",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0557141,
+    3.7459245,
+    260,
+    0.5
+   ]
+  },
+  "611648544959720-271": {
+   "file": "photos/611648544959720-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=611648544959720",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.056908,
+    3.7452714,
+    271,
+    0.5
+   ]
+  },
+  "611648544959720-249": {
+   "file": "photos/611648544959720-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=611648544959720",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.056908,
+    3.7452714,
+    249,
+    0.5
+   ]
+  },
+  "1414731539502358-271": {
+   "file": "photos/1414731539502358-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1414731539502358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0568188,
+    3.7453418,
+    271,
+    0.5
+   ]
+  },
+  "1414731539502358-232": {
+   "file": "photos/1414731539502358-232.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1414731539502358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0568188,
+    3.7453418,
+    232,
+    0.5
+   ]
+  },
+  "1151257419994198-267": {
+   "file": "photos/1151257419994198-267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151257419994198",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0566419,
+    3.7454749,
+    267,
+    0.5
+   ]
+  },
+  "2407222856291491-288": {
+   "file": "photos/2407222856291491-288.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2407222856291491",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0574324,
+    3.7448864,
+    288,
+    0.5
+   ]
+  },
+  "2407222856291491-211": {
+   "file": "photos/2407222856291491-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2407222856291491",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0574324,
+    3.7448864,
+    211,
+    0.5
+   ]
+  },
+  "963957677978030": {
+   "file": "photos/963957677978030.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=963957677978030",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0571583,
+    3.7454017,
+    277,
+    0.85
+   ]
+  },
+  "3581934275415896": {
+   "file": "photos/3581934275415896.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3581934275415896",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0571339,
+    3.7454343,
+    270,
+    0.714
+   ]
+  },
+  "922572359021978": {
+   "file": "photos/922572359021978.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=922572359021978",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.05716,
+    3.7453167,
+    259,
+    0.85
+   ]
+  },
+  "1241480763155255": {
+   "file": "photos/1241480763155255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1241480763155255",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.05716,
+    3.7453167,
+    230,
+    0.85
+   ]
+  },
+  "293507125715104": {
+   "file": "photos/293507125715104.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=293507125715104",
+   "author": "cpu20",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-03-16",
+   "cam": [
+    51.058119,
+    3.7450441,
+    250,
+    0.481
+   ]
+  },
+  "1156025859235686-276": {
+   "file": "photos/1156025859235686-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1156025859235686",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0573491,
+    3.7449529,
+    276,
+    0.5
+   ]
+  },
+  "169252985840110": {
+   "file": "photos/169252985840110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=169252985840110",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0571311,
+    3.7454249,
+    257,
+    0.714
+   ]
+  },
+  "795469134417818": {
+   "file": "photos/795469134417818.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=795469134417818",
+   "author": "cpu20",
+   "licence": "CC BY-SA 4.0",
+   "date": "2018-03-16",
+   "cam": [
+    51.0581084,
+    3.7450021,
+    248,
+    0.481
+   ]
+  },
+  "627853319730674-256": {
+   "file": "photos/627853319730674-256.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=627853319730674",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0553485,
+    3.7458878,
+    256,
+    0.5
+   ]
+  },
+  "1164289675391087-276": {
+   "file": "photos/1164289675391087-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1164289675391087",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0575668,
+    3.7447401,
+    276,
+    0.5
+   ]
+  },
+  "1151788100000532-264": {
+   "file": "photos/1151788100000532-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151788100000532",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0551404,
+    3.745821,
+    264,
+    0.5
+   ]
+  },
+  "1151788100000532-258": {
+   "file": "photos/1151788100000532-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151788100000532",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0551404,
+    3.745821,
+    258,
+    0.5
+   ]
+  },
+  "599168166216762-270": {
+   "file": "photos/599168166216762-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=599168166216762",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0557141,
+    3.7459245,
+    270,
+    0.5
+   ]
+  },
+  "597769109635431-249": {
+   "file": "photos/597769109635431-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=597769109635431",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0546199,
+    3.7451903,
+    249,
+    0.5
+   ]
+  },
+  "1159082769925320-285": {
+   "file": "photos/1159082769925320-285.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1159082769925320",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-01",
+   "pano": true,
+   "cam": [
+    51.0545382,
+    3.7453261,
+    285,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 22304,
+   "at": [
+    1913.4,
+    -183.55
+   ],
+   "centre": [
+    1903.4,
+    -182.9
+   ],
+   "width": 4.3,
+   "faces": 0,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1894,
+    -185.2,
+    1913.4,
+    -185.7,
+    1913.4,
+    -181.4,
+    1903.4,
+    -181.1,
+    1903.2,
+    -182.4,
+    1901.9,
+    -182.3,
+    1894.4,
+    -182.1
+   ],
+   "id": "engelbert-van-arenbergstraat-0-01",
+   "latLon": [
+    51.054702,
+    3.745639
+   ],
+   "photos": [
+    {
+     "id": "24066329719622393-283",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.417,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22300,
+   "at": [
+    1914.25,
+    -224.45
+   ],
+   "centre": [
+    1903,
+    -224.3
+   ],
+   "width": 4.9,
+   "faces": 1,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1896.6,
+    -225.7,
+    1898.2,
+    -225.8,
+    1901.2,
+    -226,
+    1902.8,
+    -226.2,
+    1914.3,
+    -226.9,
+    1914.2,
+    -222,
+    1899.8,
+    -221,
+    1897,
+    -220.8
+   ],
+   "id": "engelbert-van-arenbergstraat-1-02",
+   "latLon": [
+    51.054998,
+    3.745648
+   ],
+   "photos": [
+    {
+     "id": "9034325903283754-278",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.409,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22305,
+   "at": [
+    1914.15,
+    -219.5
+   ],
+   "centre": [
+    1906.5,
+    -218.6
+   ],
+   "width": 5,
+   "faces": 1,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1914.1,
+    -217,
+    1914.2,
+    -222,
+    1899.8,
+    -221,
+    1899.7,
+    -216.5,
+    1904.6,
+    -216.7
+   ],
+   "id": "engelbert-van-arenbergstraat-1-03",
+   "latLon": [
+    51.054962,
+    3.745647
+   ],
+   "photos": [
+    {
+     "id": "9034325903283754-257",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.421,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22299,
+   "at": [
+    1914.05,
+    -214.5
+   ],
+   "centre": [
+    1909.3,
+    -214.3
+   ],
+   "width": 5,
+   "faces": 1,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1904.6,
+    -216.7,
+    1904.5,
+    -211.6,
+    1914,
+    -212,
+    1914.1,
+    -217
+   ],
+   "id": "engelbert-van-arenbergstraat-1-04",
+   "latLon": [
+    51.054926,
+    3.745646
+   ],
+   "photos": [
+    {
+     "id": "982874923755749-292",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.41,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22302,
+   "at": [
+    1913.95,
+    -209.5
+   ],
+   "centre": [
+    1901.2,
+    -209.3
+   ],
+   "width": 5,
+   "faces": 1,
+   "toStreet": 4.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1904.5,
+    -211.6,
+    1904.1,
+    -211.6,
+    1894.7,
+    -211.2,
+    1895.1,
+    -208.8,
+    1897.8,
+    -208.7,
+    1897.7,
+    -209.3,
+    1898.9,
+    -209.4,
+    1898.9,
+    -207.9,
+    1897.2,
+    -207.9,
+    1897.3,
+    -206.3,
+    1913.9,
+    -207,
+    1914,
+    -212
+   ],
+   "id": "engelbert-van-arenbergstraat-1-05",
+   "latLon": [
+    51.05489,
+    3.745645
+   ],
+   "photos": [
+    {
+     "id": "982874923755749-271",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.409,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22303,
+   "at": [
+    1913.85,
+    -204.55
+   ],
+   "centre": [
+    1901.3,
+    -204.3
+   ],
+   "width": 4.9,
+   "faces": 1,
+   "toStreet": 4.8,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1913.8,
+    -202.1,
+    1913.9,
+    -207,
+    1897.3,
+    -206.3,
+    1894.8,
+    -206.2,
+    1894.9,
+    -204.2,
+    1895.3,
+    -203.7,
+    1900,
+    -203.8,
+    1900.1,
+    -201.3
+   ],
+   "id": "engelbert-van-arenbergstraat-1-06",
+   "latLon": [
+    51.054854,
+    3.745644
+   ],
+   "photos": [
+    {
+     "id": "982874923755749-251",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.423,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22308,
+   "at": [
+    1913.55,
+    -193.14999999999998
+   ],
+   "centre": [
+    1899.1,
+    -193.9
+   ],
+   "width": 4.9,
+   "faces": 1,
+   "toStreet": 4.7,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1890.9,
+    -194.3,
+    1893.4,
+    -194.5,
+    1895.6,
+    -194.7,
+    1895.8,
+    -196.4,
+    1902.1,
+    -196.9,
+    1902.2,
+    -195.7,
+    1913.6,
+    -195.6,
+    1913.5,
+    -190.7,
+    1896.4,
+    -189,
+    1895.8,
+    -192.8,
+    1891.2,
+    -192.4
+   ],
+   "id": "engelbert-van-arenbergstraat-1-07",
+   "latLon": [
+    51.054772,
+    3.74564
+   ],
+   "photos": [
+    {
+     "id": "1628372757787474-263",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.408,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22306,
+   "at": [
+    1913.45,
+    -188.2
+   ],
+   "centre": [
+    1900.6,
+    -187.4
+   ],
+   "width": 5,
+   "faces": 1,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1896.4,
+    -189,
+    1913.5,
+    -190.7,
+    1913.4,
+    -185.7,
+    1894,
+    -185.2,
+    1893.3,
+    -185.1,
+    1892.9,
+    -188.9
+   ],
+   "id": "engelbert-van-arenbergstraat-1-08",
+   "latLon": [
+    51.054736,
+    3.745639
+   ],
+   "photos": [
+    {
+     "id": "1628372757787474-244",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.426,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22296,
+   "at": [
+    1914.75,
+    -242.4
+   ],
+   "centre": [
+    1913.1,
+    -246.7
+   ],
+   "width": 8.2,
+   "faces": 2,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1906.3,
+    -247.3,
+    1909.1,
+    -236.8,
+    1914.6,
+    -238.3,
+    1914.9,
+    -246.5,
+    1914.9,
+    -247.2,
+    1914.8,
+    -247.7,
+    1914.6,
+    -248.1,
+    1914.4,
+    -248.4,
+    1914.1,
+    -248.7,
+    1913.8,
+    -248.9,
+    1913.6,
+    -249,
+    1913.3,
+    -249,
+    1913.1,
+    -249.1,
+    1912.6,
+    -249
+   ],
+   "id": "engelbert-van-arenbergstraat-2-09",
+   "latLon": [
+    51.055128,
+    3.745654
+   ],
+   "photos": [
+    {
+     "id": "1151788100000532-263",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.37,
+      0.647
+     ]
+    },
+    {
+     "id": "1132700108359707-250",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.437,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22298,
+   "at": [
+    1914.4,
+    -229.4
+   ],
+   "centre": [
+    1906.3,
+    -229.5
+   ],
+   "width": 5,
+   "faces": 2,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    1899.8,
+    -231.3,
+    1905.1,
+    -231.6,
+    1910.5,
+    -231.8,
+    1914.5,
+    -231.9,
+    1914.3,
+    -226.9,
+    1902.8,
+    -226.2,
+    1902.8,
+    -228.1,
+    1900.6,
+    -228.2
+   ],
+   "id": "engelbert-van-arenbergstraat-2-10",
+   "latLon": [
+    51.055034,
+    3.74565
+   ],
+   "photos": [
+    {
+     "id": "1057306819461613-249",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.43,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22309,
+   "at": [
+    1913.6999999999998,
+    -198.85
+   ],
+   "centre": [
+    1898.7,
+    -198.2
+   ],
+   "width": 6.5,
+   "faces": 2,
+   "toStreet": 4.8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    1890.1,
+    -200.7,
+    1894.9,
+    -201,
+    1895.7,
+    -201,
+    1895.8,
+    -198.8,
+    1898.3,
+    -199,
+    1898.2,
+    -201.1,
+    1900.1,
+    -201.3,
+    1913.8,
+    -202.1,
+    1913.6,
+    -195.6,
+    1902.2,
+    -195.7,
+    1902.1,
+    -196.9,
+    1895.8,
+    -196.4,
+    1895.6,
+    -194.7,
+    1893.4,
+    -194.5,
+    1890.9,
+    -194.3
+   ],
+   "id": "engelbert-van-arenbergstraat-2-11",
+   "latLon": [
+    51.054813,
+    3.745642
+   ],
+   "photos": [
+    {
+     "id": "1628372757787474-287",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.378,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22225,
+   "at": [
+    1922.05,
+    -311.35
+   ],
+   "centre": [
+    1913.9,
+    -310.2
+   ],
+   "width": 5.1,
+   "faces": 6,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1905.2,
+    -310.4,
+    1922.3,
+    -313.9,
+    1921.8,
+    -308.8,
+    1906.3,
+    -307.7
+   ],
+   "id": "engelbert-van-arenbergstraat-6-12",
+   "latLon": [
+    51.055627,
+    3.745737
+   ],
+   "photos": [
+    {
+     "id": "1132498161841870-273",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.428,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22236,
+   "at": [
+    1920.95,
+    -301.3
+   ],
+   "centre": [
+    1906,
+    -301.2
+   ],
+   "width": 5,
+   "faces": 6,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1895.9,
+    -301.1,
+    1901,
+    -302.6,
+    1901.4,
+    -300.9,
+    1905.4,
+    -301.3,
+    1905.8,
+    -303.9,
+    1921.2,
+    -303.8,
+    1920.7,
+    -298.8,
+    1906.2,
+    -299.3,
+    1896.6,
+    -299.5
+   ],
+   "id": "engelbert-van-arenbergstraat-6-13",
+   "latLon": [
+    51.055554,
+    3.745725
+   ],
+   "photos": [
+    {
+     "id": "1184945726296785-283",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.426,
+      0.57
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22232,
+   "at": [
+    1919.85,
+    -291.45
+   ],
+   "centre": [
+    1907,
+    -292.2
+   ],
+   "width": 4.9,
+   "faces": 6,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    1898.5,
+    -295,
+    1906.1,
+    -294.6,
+    1920.1,
+    -293.9,
+    1919.6,
+    -289,
+    1904.2,
+    -290.7,
+    1900.2,
+    -290.7,
+    1900,
+    -291.3
+   ],
+   "id": "engelbert-van-arenbergstraat-6-14",
+   "latLon": [
+    51.055483,
+    3.745712
+   ],
+   "photos": [
+    {
+     "id": "943289291284017-291",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.434,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22228,
+   "at": [
+    1918.7,
+    -281.15
+   ],
+   "centre": [
+    1910.8,
+    -281.8
+   ],
+   "width": 5.5,
+   "faces": 6,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1905.4,
+    -285.4,
+    1919,
+    -283.9,
+    1918.4,
+    -278.4,
+    1908.5,
+    -280.2,
+    1908.5,
+    -281.3,
+    1905.1,
+    -281.6
+   ],
+   "id": "engelbert-van-arenbergstraat-6-15",
+   "latLon": [
+    51.055408,
+    3.745699
+   ],
+   "photos": [
+    {
+     "id": "943289291284017-258",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.432,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22230,
+   "at": [
+    1918.1,
+    -275.54999999999995
+   ],
+   "centre": [
+    1910.6,
+    -277.2
+   ],
+   "width": 5.7,
+   "faces": 6,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1903.1,
+    -280.6,
+    1908.5,
+    -280.2,
+    1918.4,
+    -278.4,
+    1917.8,
+    -272.7,
+    1905,
+    -274.2
+   ],
+   "id": "engelbert-van-arenbergstraat-6-16",
+   "latLon": [
+    51.055368,
+    3.745692
+   ],
+   "photos": [
+    {
+     "id": "627853319730674-279",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.416,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22229,
+   "at": [
+    1922.6999999999998,
+    -317.2
+   ],
+   "centre": [
+    1913.6,
+    -315
+   ],
+   "width": 6.6,
+   "faces": 7,
+   "toStreet": 6.1,
+   "floors": 5,
+   "eaves": 17.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1904.2,
+    -313.2,
+    1913.2,
+    -317.1,
+    1923.1,
+    -320.5,
+    1922.3,
+    -313.9,
+    1905.2,
+    -310.4
+   ],
+   "id": "engelbert-van-arenbergstraat-7-17",
+   "latLon": [
+    51.055669,
+    3.745745
+   ],
+   "photos": [
+    {
+     "id": "1132498161841870-293",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.405,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22226,
+   "at": [
+    1921.5,
+    -306.3
+   ],
+   "centre": [
+    1913.8,
+    -306
+   ],
+   "width": 5,
+   "faces": 7,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1905.8,
+    -303.9,
+    1906.3,
+    -307.7,
+    1921.8,
+    -308.8,
+    1921.2,
+    -303.8
+   ],
+   "id": "engelbert-van-arenbergstraat-7-18",
+   "latLon": [
+    51.05559,
+    3.745731
+   ],
+   "photos": [
+    {
+     "id": "1132498161841870-257",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.435,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22235,
+   "at": [
+    1920.4,
+    -296.35
+   ],
+   "centre": [
+    1907.1,
+    -296.8
+   ],
+   "width": 4.9,
+   "faces": 7,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1897.4,
+    -297.6,
+    1902,
+    -297.8,
+    1905.9,
+    -297.6,
+    1906.2,
+    -299.3,
+    1920.7,
+    -298.8,
+    1920.1,
+    -293.9,
+    1906.1,
+    -294.6,
+    1898.5,
+    -295
+   ],
+   "id": "engelbert-van-arenbergstraat-7-19",
+   "latLon": [
+    51.055518,
+    3.745719
+   ],
+   "photos": [
+    {
+     "id": "1184945726296785-266",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.436,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22231,
+   "at": [
+    1919.3,
+    -286.45
+   ],
+   "centre": [
+    1906.6,
+    -287.7
+   ],
+   "width": 5.1,
+   "faces": 7,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 11,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1900.8,
+    -288.5,
+    1903.9,
+    -288.4,
+    1904.1,
+    -290,
+    1904.2,
+    -290.7,
+    1919.6,
+    -289,
+    1919,
+    -283.9,
+    1905.4,
+    -285.4,
+    1901.5,
+    -286,
+    1901.2,
+    -287.2
+   ],
+   "id": "engelbert-van-arenbergstraat-7-20",
+   "latLon": [
+    51.055447,
+    3.745706
+   ],
+   "photos": [
+    {
+     "id": "943289291284017-275",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.427,
+      0.574
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22227,
+   "at": [
+    1917.3,
+    -268.4
+   ],
+   "centre": [
+    1910,
+    -269.2
+   ],
+   "width": 8.7,
+   "faces": 7,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1905,
+    -274.2,
+    1917.8,
+    -272.7,
+    1916.8,
+    -264.1,
+    1915.6,
+    -262.6,
+    1908.8,
+    -260.8,
+    1905.8,
+    -271.2,
+    1907.6,
+    -271.7,
+    1907.3,
+    -273.1,
+    1905.4,
+    -272.6
+   ],
+   "id": "engelbert-van-arenbergstraat-7-21",
+   "latLon": [
+    51.055316,
+    3.745683
+   ],
+   "photos": [
+    {
+     "id": "1298108714577704-291",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.385,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28531,
+   "at": [
+    1762.85,
+    -737.6
+   ],
+   "centre": [
+    1757,
+    -741.1
+   ],
+   "width": 17.7,
+   "faces": 55,
+   "toStreet": 10.9,
+   "floors": 1,
+   "eaves": null,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    1748.2,
+    -752.3,
+    1755.5,
+    -737.6,
+    1758.6,
+    -739.1,
+    1759.3,
+    -738.2,
+    1758.9,
+    -737.9,
+    1759.1,
+    -737.6,
+    1768.8,
+    -744.5,
+    1770.1,
+    -742.7,
+    1755.6,
+    -732.5,
+    1754,
+    -735.9,
+    1749.8,
+    -744.1,
+    1746.2,
+    -751.3
+   ],
+   "id": "engelbert-van-arenbergstraat-55-01",
+   "latLon": [
+    51.058711,
+    3.743917
+   ],
+   "photos": [
+    {
+     "id": "153940536679405",
+     "metres": 13,
+     "off": 14,
+     "span": [
+      0.364,
+      0.818
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28533,
+   "at": [
+    1763.9499999999998,
+    -741.05
+   ],
+   "centre": [
+    1757.8,
+    -750.2
+   ],
+   "width": 11.9,
+   "faces": 55,
+   "toStreet": 13.1,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1743.4,
+    -761.8,
+    1757,
+    -768,
+    1758.1,
+    -765.9,
+    1761.8,
+    -758.9,
+    1760.1,
+    -757.9,
+    1763.1,
+    -753.3,
+    1768.8,
+    -744.5,
+    1759.1,
+    -737.6,
+    1758.9,
+    -737.9,
+    1759.3,
+    -738.2,
+    1758.6,
+    -739.1,
+    1755.5,
+    -737.6,
+    1748.2,
+    -752.3
+   ],
+   "id": "engelbert-van-arenbergstraat-55-02",
+   "latLon": [
+    51.058736,
+    3.74393
+   ],
+   "photos": [
+    {
+     "id": "162378465816385",
+     "metres": 14,
+     "off": 22,
+     "span": [
+      0.514,
+      0.806
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22314,
+   "at": [
+    1881.6,
+    -177.3
+   ],
+   "centre": [
+    1885.5,
+    -179.8
+   ],
+   "width": 6.2,
+   "faces": 84,
+   "toStreet": 15.6,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    1873.8,
+    -182.2,
+    1889,
+    -183.2,
+    1889.2,
+    -181.5,
+    1892.5,
+    -182,
+    1892.7,
+    -180.2,
+    1889.2,
+    -179.9,
+    1888.5,
+    -179.8,
+    1888.6,
+    -177.9,
+    1884.7,
+    -177.6,
+    1878.5,
+    -177,
+    1874,
+    -176.8
+   ],
+   "id": "engelbert-van-arenbergstraat-84-01",
+   "latLon": [
+    51.054657,
+    3.745275
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-345",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.412,
+      0.591
+     ]
+    },
+    {
+     "id": "1105724164617940-15",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.445,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22315,
+   "at": [
+    1880.15,
+    -168.65
+   ],
+   "centre": [
+    1877.7,
+    -172.1
+   ],
+   "width": 7.9,
+   "faces": 85,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1874,
+    -176.8,
+    1878.5,
+    -177,
+    1878.5,
+    -174.7,
+    1883.8,
+    -175.2,
+    1884.1,
+    -169,
+    1876.2,
+    -168.3,
+    1876.1,
+    -168.2,
+    1874.1,
+    -170,
+    1874.2,
+    -170
+   ],
+   "id": "engelbert-van-arenbergstraat-85-02",
+   "latLon": [
+    51.054594,
+    3.745258
+   ],
+   "photos": [
+    {
+     "id": "1105724164617940-18",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.389,
+      0.594
+     ]
+    },
+    {
+     "id": "1159082769925320-322",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.368,
+      0.726
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22311,
+   "at": [
+    1886.5,
+    -169.2
+   ],
+   "centre": [
+    1885.9,
+    -173.1
+   ],
+   "width": 4.8,
+   "faces": 85,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1888.7,
+    -176.1,
+    1888.9,
+    -169.4,
+    1884.1,
+    -169,
+    1883.8,
+    -175.2,
+    1883.8,
+    -175.7
+   ],
+   "id": "engelbert-van-arenbergstraat-85-03",
+   "latLon": [
+    51.054598,
+    3.745331
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-3",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.352,
+      0.636
+     ]
+    },
+    {
+     "id": "1105724164617940-34",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.453,
+      0.542
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22707,
+   "at": [
+    1901,
+    -170.2
+   ],
+   "centre": [
+    1902.7,
+    -177.2
+   ],
+   "width": 14,
+   "faces": 86,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1894,
+    -169.7,
+    1893.1,
+    -176.5,
+    1892.8,
+    -179.1,
+    1903.6,
+    -180.2,
+    1903.4,
+    -181.1,
+    1913.4,
+    -181.4,
+    1913.4,
+    -179.2,
+    1908,
+    -170.7
+   ],
+   "id": "engelbert-van-arenbergstraat-86-04",
+   "latLon": [
+    51.054606,
+    3.745497
+   ],
+   "photos": [
+    {
+     "id": "654654380232481-18",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.009,
+      0.778
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22310,
+   "at": [
+    1891.45,
+    -169.55
+   ],
+   "centre": [
+    1891.2,
+    -172.9
+   ],
+   "width": 5.1,
+   "faces": 87,
+   "toStreet": 7.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1888.7,
+    -176.1,
+    1893.1,
+    -176.5,
+    1894,
+    -169.7,
+    1888.9,
+    -169.4
+   ],
+   "id": "engelbert-van-arenbergstraat-87-05",
+   "latLon": [
+    51.054601,
+    3.745388
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-32",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.378,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22325,
+   "at": [
+    1856.8,
+    -170.55
+   ],
+   "centre": [
+    1856.8,
+    -172.9
+   ],
+   "width": 10,
+   "faces": 91,
+   "toStreet": 15.4,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1851.8,
+    -170.6,
+    1851.9,
+    -175.3,
+    1861.6,
+    -175.3,
+    1861.8,
+    -170.5
+   ],
+   "id": "engelbert-van-arenbergstraat-91-06",
+   "latLon": [
+    51.054608,
+    3.744992
+   ],
+   "photos": [
+    {
+     "id": "1258157891913922-7",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.24,
+      0.729
+     ]
+    },
+    {
+     "id": "1105724164617940-317",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.437,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28261,
+   "at": [
+    1809,
+    -685.65
+   ],
+   "centre": [
+    1819.9,
+    -693.3
+   ],
+   "width": 4.4,
+   "faces": 143,
+   "toStreet": 6.9,
+   "floors": 4,
+   "eaves": 14,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    1807.7,
+    -687.4,
+    1810.3,
+    -683.9,
+    1825.7,
+    -695.3,
+    1825,
+    -696.1,
+    1826.4,
+    -697,
+    1824.1,
+    -699.8
+   ],
+   "id": "engelbert-van-arenbergstraat-143-01",
+   "latLon": [
+    51.058335,
+    3.744445
+   ],
+   "photos": [
+    {
+     "id": "203247545966360",
+     "metres": 33,
+     "off": 22,
+     "span": [
+      0.19,
+      0.232
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28272,
+   "at": [
+    1811.8,
+    -681.9
+   ],
+   "centre": [
+    1824.2,
+    -690.2
+   ],
+   "width": 5,
+   "faces": 143,
+   "toStreet": 7.1,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    1810.3,
+    -683.9,
+    1813.3,
+    -679.9,
+    1817.2,
+    -682.7,
+    1824.2,
+    -687.7,
+    1825.3,
+    -688.6,
+    1828.6,
+    -690.9,
+    1832.1,
+    -693.4,
+    1831.3,
+    -694.9,
+    1829.5,
+    -698.1,
+    1828.3,
+    -697.2,
+    1825.7,
+    -695.3
+   ],
+   "id": "engelbert-van-arenbergstraat-143-02",
+   "latLon": [
+    51.058308,
+    3.744477
+   ],
+   "photos": [
+    {
+     "id": "203247545966360",
+     "metres": 30,
+     "off": 19,
+     "span": [
+      0.231,
+      0.288
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22486,
+   "at": [
+    1930.4499999999998,
+    -263.1
+   ],
+   "centre": [
+    1930.8,
+    -263.9
+   ],
+   "width": 3.8,
+   "faces": 143,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1929.5,
+    -266.7,
+    1932.9,
+    -262.9,
+    1931.6,
+    -261.6,
+    1929.3,
+    -264.6
+   ],
+   "id": "engelbert-van-arenbergstraat-143-03",
+   "latLon": [
+    51.055278,
+    3.745833
+   ],
+   "photos": [
+    {
+     "id": "495693043221541-54",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.434,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28275,
+   "at": [
+    1797.4,
+    -702.3
+   ],
+   "centre": [
+    1810.3,
+    -713.4
+   ],
+   "width": 32.6,
+   "faces": 145,
+   "toStreet": 6.9,
+   "floors": 6,
+   "eaves": 21.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1787.3,
+    -727.4,
+    1793,
+    -719.3,
+    1788.1,
+    -715.7,
+    1806.7,
+    -688.9,
+    1826,
+    -703.7,
+    1826.8,
+    -704.3,
+    1828.6,
+    -705.6,
+    1824.5,
+    -711.1,
+    1818.5,
+    -719.2,
+    1803.8,
+    -739.1
+   ],
+   "id": "engelbert-van-arenbergstraat-145-04",
+   "latLon": [
+    51.058455,
+    3.744312
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28266,
+   "at": [
+    1815.5,
+    -676.3499999999999
+   ],
+   "centre": [
+    1817.4,
+    -677.5
+   ],
+   "width": 8.4,
+   "faces": 148,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1813.3,
+    -679.9,
+    1817.7,
+    -672.8,
+    1821.5,
+    -674.8,
+    1817.2,
+    -682.7
+   ],
+   "id": "engelbert-van-arenbergstraat-148-05",
+   "latLon": [
+    51.058268,
+    3.744519
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28264,
+   "at": [
+    1819.35,
+    -678.75
+   ],
+   "centre": [
+    1823.8,
+    -681.4
+   ],
+   "width": 9,
+   "faces": 151,
+   "toStreet": 11.4,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    1817.2,
+    -682.7,
+    1821.5,
+    -674.8,
+    1829.2,
+    -678.9,
+    1826.9,
+    -682.9,
+    1824.2,
+    -687.7
+   ],
+   "id": "engelbert-van-arenbergstraat-151-06",
+   "latLon": [
+    51.058285,
+    3.744563
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-83",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.79
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28453,
+   "at": [
+    1831.65,
+    -658
+   ],
+   "centre": [
+    1836.6,
+    -654.6
+   ],
+   "width": 20.8,
+   "faces": 152,
+   "toStreet": 13.7,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1826.8,
+    -667.2,
+    1836.5,
+    -648.8,
+    1839,
+    -650.3,
+    1841,
+    -645.1,
+    1844.5,
+    -646.6,
+    1831.9,
+    -669.8
+   ],
+   "id": "engelbert-van-arenbergstraat-152-07",
+   "latLon": [
+    51.058135,
+    3.744704
+   ],
+   "photos": [
+    {
+     "id": "1246671839289049",
+     "metres": 5,
+     "off": 13,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28842,
+   "at": [
+    1895.5,
+    -477.7
+   ],
+   "centre": [
+    1899.3,
+    -479.4
+   ],
+   "width": 4.8,
+   "faces": 156,
+   "toStreet": 12.6,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1894.5,
+    -479.9,
+    1902.3,
+    -483.3,
+    1904,
+    -478.8,
+    1896.5,
+    -475.5
+   ],
+   "id": "engelbert-van-arenbergstraat-156-08",
+   "latLon": [
+    51.05683,
+    3.745434
+   ],
+   "photos": [
+    {
+     "id": "1414731539502358-79",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.344,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28884,
+   "at": [
+    1880.15,
+    -493.95
+   ],
+   "centre": [
+    1900.5,
+    -501.5
+   ],
+   "width": 8.7,
+   "faces": 158,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1878.5,
+    -498,
+    1904.8,
+    -508.4,
+    1911.1,
+    -510.9,
+    1914.3,
+    -503.2,
+    1906.9,
+    -500.1,
+    1906,
+    -499.8,
+    1881.8,
+    -489.9
+   ],
+   "id": "engelbert-van-arenbergstraat-158-01",
+   "latLon": [
+    51.056948,
+    3.745258
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28882,
+   "at": [
+    1883.8,
+    -484.9
+   ],
+   "centre": [
+    1898.9,
+    -491
+   ],
+   "width": 10.8,
+   "faces": 158,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1881.8,
+    -489.9,
+    1906,
+    -499.8,
+    1907.1,
+    -497,
+    1903.4,
+    -495.6,
+    1904.4,
+    -492.8,
+    1900.4,
+    -491.1,
+    1901.9,
+    -487.1,
+    1899.1,
+    -485.8,
+    1885.8,
+    -479.9
+   ],
+   "id": "engelbert-van-arenbergstraat-158-02",
+   "latLon": [
+    51.056882,
+    3.7453
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28890,
+   "at": [
+    1863.5,
+    -538.05
+   ],
+   "centre": [
+    1882.7,
+    -544.7
+   ],
+   "width": 9.1,
+   "faces": 159,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1861.9,
+    -542.3,
+    1878.2,
+    -548.1,
+    1885,
+    -550.5,
+    1896.2,
+    -554.4,
+    1899,
+    -546.1,
+    1895,
+    -544.6,
+    1893.9,
+    -547.8,
+    1875.8,
+    -541.6,
+    1877.1,
+    -538.2,
+    1865.1,
+    -533.8
+   ],
+   "id": "engelbert-van-arenbergstraat-159-03",
+   "latLon": [
+    51.057267,
+    3.745068
+   ],
+   "photos": [
+    {
+     "id": "131232253258616",
+     "metres": 6,
+     "off": 12,
+     "span": [
+      0.17,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28886,
+   "at": [
+    1874.9,
+    -507.45000000000005
+   ],
+   "centre": [
+    1911.1,
+    -521.3
+   ],
+   "width": 7.8,
+   "faces": 159,
+   "toStreet": 5.1,
+   "floors": 3,
+   "eaves": 12.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1873.5,
+    -511.1,
+    1887.4,
+    -516.4,
+    1888.6,
+    -513.6,
+    1914.4,
+    -523.6,
+    1913.3,
+    -526.4,
+    1940.7,
+    -536.9,
+    1943.1,
+    -530.7,
+    1943.6,
+    -529.7,
+    1938.2,
+    -527.9,
+    1902.5,
+    -514,
+    1876.3,
+    -503.8
+   ],
+   "id": "engelbert-van-arenbergstraat-159-04",
+   "latLon": [
+    51.057046,
+    3.745198
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28885,
+   "at": [
+    1877.4,
+    -500.9
+   ],
+   "centre": [
+    1890.5,
+    -506
+   ],
+   "width": 6.2,
+   "faces": 159,
+   "toStreet": 4.8,
+   "floors": 4,
+   "eaves": 13.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1876.3,
+    -503.8,
+    1902.5,
+    -514,
+    1904.8,
+    -508.4,
+    1878.5,
+    -498
+   ],
+   "id": "engelbert-van-arenbergstraat-159-05",
+   "latLon": [
+    51.056998,
+    3.745227
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28497,
+   "at": [
+    1822.6,
+    -659.05
+   ],
+   "centre": [
+    1830.4,
+    -651.7
+   ],
+   "width": 10.5,
+   "faces": 160,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1820.8,
+    -664,
+    1824.4,
+    -654.1,
+    1826.9,
+    -647.2,
+    1827.8,
+    -647.5,
+    1830.2,
+    -641,
+    1841,
+    -645.1,
+    1839,
+    -650.3,
+    1836.5,
+    -648.8,
+    1826.8,
+    -667.2
+   ],
+   "id": "engelbert-van-arenbergstraat-160-06",
+   "latLon": [
+    51.058142,
+    3.744601
+   ],
+   "photos": [
+    {
+     "id": "716710236891891",
+     "metres": 11,
+     "off": 6,
+     "span": [
+      0.247,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28668,
+   "at": [
+    1849.1,
+    -611.2
+   ],
+   "centre": [
+    1852.3,
+    -612.2
+   ],
+   "width": 20.1,
+   "faces": 160,
+   "toStreet": 15.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1845.6,
+    -620.6,
+    1852.1,
+    -622.8,
+    1858.7,
+    -603.4,
+    1852.6,
+    -601.8
+   ],
+   "id": "engelbert-van-arenbergstraat-160-07",
+   "latLon": [
+    51.057796,
+    3.744903
+   ],
+   "photos": [
+    {
+     "id": "1231442764297410",
+     "metres": 39,
+     "off": 18,
+     "span": [
+      0.721,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28892,
+   "at": [
+    1852.9499999999998,
+    -566.7
+   ],
+   "centre": [
+    1877.4,
+    -579
+   ],
+   "width": 13.6,
+   "faces": 160,
+   "toStreet": 5.2,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1847,
+    -582.8,
+    1853,
+    -584.9,
+    1871,
+    -591.2,
+    1882.7,
+    -595.2,
+    1901.7,
+    -601.9,
+    1912.8,
+    -605.7,
+    1924.6,
+    -573.2,
+    1882.4,
+    -557.8,
+    1876,
+    -555.4,
+    1872,
+    -566.4,
+    1855.3,
+    -560.3,
+    1850.6,
+    -573.1
+   ],
+   "id": "engelbert-van-arenbergstraat-160-08",
+   "latLon": [
+    51.057474,
+    3.744947
+   ],
+   "photos": [
+    {
+     "id": "186577196673302",
+     "metres": 27,
+     "off": 0,
+     "span": [
+      0.44,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28891,
+   "at": [
+    1857.3,
+    -554.8
+   ],
+   "centre": [
+    1866.7,
+    -557
+   ],
+   "width": 11.7,
+   "faces": 160,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1855.3,
+    -560.3,
+    1872,
+    -566.4,
+    1876,
+    -555.4,
+    1871.1,
+    -553.6,
+    1859.3,
+    -549.3
+   ],
+   "id": "engelbert-van-arenbergstraat-160-09",
+   "latLon": [
+    51.057388,
+    3.744997
+   ],
+   "photos": [
+    {
+     "id": "1268848773753150",
+     "metres": 8,
+     "off": 3,
+     "span": [
+      0.209,
+      1
+     ]
+    },
+    {
+     "id": "171945728277285",
+     "metres": 43,
+     "off": 4,
+     "span": [
+      0.492,
+      0.543
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28889,
+   "at": [
+    1860.6,
+    -545.8
+   ],
+   "centre": [
+    1870.1,
+    -548.9
+   ],
+   "width": 7.5,
+   "faces": 160,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1859.3,
+    -549.3,
+    1871.1,
+    -553.6,
+    1872.7,
+    -549.4,
+    1877.2,
+    -550.9,
+    1878.2,
+    -548.1,
+    1861.9,
+    -542.3
+   ],
+   "id": "engelbert-van-arenbergstraat-160-10",
+   "latLon": [
+    51.057323,
+    3.745035
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28888,
+   "at": [
+    1866.4499999999998,
+    -530.15
+   ],
+   "centre": [
+    1887.5,
+    -537.6
+   ],
+   "width": 7.8,
+   "faces": 160,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 14.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1865.1,
+    -533.8,
+    1877.1,
+    -538.2,
+    1895,
+    -544.6,
+    1899,
+    -546.1,
+    1900.1,
+    -546.5,
+    1902.7,
+    -539.3,
+    1899.9,
+    -538.2,
+    1891.3,
+    -535.1,
+    1890.6,
+    -537.7,
+    1880.1,
+    -533.9,
+    1881.1,
+    -531.3,
+    1867.8,
+    -526.5
+   ],
+   "id": "engelbert-van-arenbergstraat-160-11",
+   "latLon": [
+    51.05721,
+    3.745102
+   ],
+   "photos": [
+    {
+     "id": "1871072023630353-26",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.328,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28887,
+   "at": [
+    1872.2,
+    -514.7
+   ],
+   "centre": [
+    1909.3,
+    -534
+   ],
+   "width": 7.7,
+   "faces": 160,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1899.9,
+    -538.2,
+    1902.7,
+    -539.3,
+    1914.5,
+    -543.6,
+    1911.8,
+    -550.7,
+    1945,
+    -562.7,
+    1956.5,
+    -566.9,
+    1964.2,
+    -546,
+    1946.4,
+    -539.1,
+    1940.7,
+    -536.9,
+    1913.3,
+    -526.4,
+    1887.4,
+    -516.4,
+    1873.5,
+    -511.1,
+    1870.9,
+    -518.3,
+    1881.4,
+    -522.2,
+    1881.8,
+    -521.3,
+    1886.7,
+    -523.2,
+    1887.2,
+    -522.1,
+    1903.4,
+    -528.4
+   ],
+   "id": "engelbert-van-arenbergstraat-160-12",
+   "latLon": [
+    51.057098,
+    3.745168
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22682,
+   "at": [
+    1916.9,
+    -430.1
+   ],
+   "centre": [
+    1924.8,
+    -426.4
+   ],
+   "width": 8.1,
+   "faces": 164,
+   "toStreet": 15.3,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1915.8,
+    -434,
+    1931.4,
+    -438,
+    1936.3,
+    -421.1,
+    1926.2,
+    -418.3,
+    1925.1,
+    -422.9,
+    1924,
+    -422.6,
+    1923,
+    -426.7,
+    1924.2,
+    -427,
+    1924,
+    -427.7,
+    1918,
+    -426.2
+   ],
+   "id": "engelbert-van-arenbergstraat-164-13",
+   "latLon": [
+    51.056486,
+    3.745679
+   ],
+   "photos": [
+    {
+     "id": "1176963053663374-72",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.259,
+      0.753
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22681,
+   "at": [
+    1917.95,
+    -392.20000000000005
+   ],
+   "centre": [
+    1922.9,
+    -394.3
+   ],
+   "width": 22.6,
+   "faces": 165,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1915,
+    -403.1,
+    1922.4,
+    -405.1,
+    1924.7,
+    -397,
+    1923.9,
+    -396.7,
+    1925.9,
+    -389.9,
+    1927.3,
+    -387.1,
+    1920.9,
+    -381.3
+   ],
+   "id": "engelbert-van-arenbergstraat-165-14",
+   "latLon": [
+    51.056212,
+    3.745691
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28893,
+   "at": [
+    1843.8,
+    -595.9000000000001
+   ],
+   "centre": [
+    1854.2,
+    -598.7
+   ],
+   "width": 6.8,
+   "faces": 166,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    1843,
+    -599.2,
+    1852.6,
+    -601.8,
+    1858.7,
+    -603.4,
+    1860.2,
+    -599,
+    1858.8,
+    -598.8,
+    1858.5,
+    -600,
+    1854.8,
+    -599,
+    1855.1,
+    -597.8,
+    1855.7,
+    -595.6,
+    1844.6,
+    -592.6
+   ],
+   "id": "engelbert-van-arenbergstraat-166-15",
+   "latLon": [
+    51.057686,
+    3.744843
+   ],
+   "photos": [
+    {
+     "id": "604705262303685-48",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.445,
+      0.554
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28894,
+   "at": [
+    1845.8,
+    -587.7
+   ],
+   "centre": [
+    1860.2,
+    -596.3
+   ],
+   "width": 10.1,
+   "faces": 166,
+   "toStreet": 6.6,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1844.6,
+    -592.6,
+    1855.7,
+    -595.6,
+    1855.1,
+    -597.8,
+    1858.8,
+    -598.8,
+    1860.2,
+    -599,
+    1858.7,
+    -603.4,
+    1865.8,
+    -605.3,
+    1867.3,
+    -601.4,
+    1867.5,
+    -600.7,
+    1863.9,
+    -599.7,
+    1865,
+    -595.2,
+    1869.3,
+    -596,
+    1871,
+    -591.2,
+    1853,
+    -584.9,
+    1847,
+    -582.8
+   ],
+   "id": "engelbert-van-arenbergstraat-166-16",
+   "latLon": [
+    51.057626,
+    3.744866
+   ],
+   "photos": [
+    {
+     "id": "604705262303685-65",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.404,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28669,
+   "at": [
+    1841.05,
+    -607.6500000000001
+   ],
+   "centre": [
+    1844.1,
+    -611.3
+   ],
+   "width": 17.3,
+   "faces": 167,
+   "toStreet": 7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1845.6,
+    -620.6,
+    1852.6,
+    -601.8,
+    1843,
+    -599.2,
+    1839.1,
+    -616.1,
+    1840.4,
+    -618.7
+   ],
+   "id": "engelbert-van-arenbergstraat-167-17",
+   "latLon": [
+    51.057771,
+    3.744811
+   ],
+   "photos": [
+    {
+     "id": "573170894286026",
+     "metres": 38,
+     "off": 19,
+     "span": [
+      0.809,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22266,
+   "at": [
+    1926.9,
+    -221.25
+   ],
+   "centre": [
+    1934.6,
+    -221.5
+   ],
+   "width": 5.1,
+   "faces": 178,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 10,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    1926.8,
+    -223.8,
+    1936,
+    -223.8,
+    1936.2,
+    -221.9,
+    1940.6,
+    -222.1,
+    1941.2,
+    -218.6,
+    1927,
+    -218.7
+   ],
+   "id": "engelbert-van-arenbergstraat-178-18",
+   "latLon": [
+    51.054975,
+    3.745793
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22263,
+   "at": [
+    1927.1,
+    -216.1
+   ],
+   "centre": [
+    1935.5,
+    -215.2
+   ],
+   "width": 5.2,
+   "faces": 178,
+   "toStreet": 8,
+   "floors": 2,
+   "eaves": 9,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    1927,
+    -218.7,
+    1941.2,
+    -218.6,
+    1941.1,
+    -213.5,
+    1939.1,
+    -213.5,
+    1937.4,
+    -213.5,
+    1927.2,
+    -213.5
+   ],
+   "id": "engelbert-van-arenbergstraat-178-19",
+   "latLon": [
+    51.054938,
+    3.745795
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22262,
+   "at": [
+    1927.3000000000002,
+    -210.85
+   ],
+   "centre": [
+    1934.1,
+    -211.2
+   ],
+   "width": 5.3,
+   "faces": 178,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    1927.2,
+    -213.5,
+    1937.4,
+    -213.5,
+    1939.1,
+    -213.5,
+    1939.2,
+    -207.5,
+    1927.4,
+    -208.2
+   ],
+   "id": "engelbert-van-arenbergstraat-178-20",
+   "latLon": [
+    51.0549,
+    3.745797
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22268,
+   "at": [
+    1926.6999999999998,
+    -230.25
+   ],
+   "centre": [
+    1936,
+    -229
+   ],
+   "width": 12.9,
+   "faces": 179,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1945.5,
+    -227.4,
+    1941.9,
+    -223.7,
+    1942.6,
+    -222.8,
+    1941.2,
+    -222.3,
+    1940.6,
+    -222.1,
+    1936.2,
+    -221.9,
+    1936,
+    -223.8,
+    1926.8,
+    -223.8,
+    1926.6,
+    -236.7,
+    1927,
+    -236.7,
+    1932.9,
+    -239,
+    1934.8,
+    -239.6,
+    1936.4,
+    -237.8
+   ],
+   "id": "engelbert-van-arenbergstraat-179-21",
+   "latLon": [
+    51.05504,
+    3.745791
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22269,
+   "at": [
+    1925.85,
+    -185.8
+   ],
+   "centre": [
+    1935.7,
+    -184.4
+   ],
+   "width": 4,
+   "faces": 181,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1925.9,
+    -187.8,
+    1925.8,
+    -183.8,
+    1934.9,
+    -182.6,
+    1934.8,
+    -181.4,
+    1939.1,
+    -181,
+    1941.5,
+    -180.7,
+    1941.9,
+    -185.1,
+    1939.1,
+    -185.6,
+    1939.1,
+    -186.3,
+    1935.5,
+    -186.4,
+    1935.6,
+    -187.4
+   ],
+   "id": "engelbert-van-arenbergstraat-181-22",
+   "latLon": [
+    51.054718,
+    3.745781
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22264,
+   "at": [
+    1927.25,
+    -205.7
+   ],
+   "centre": [
+    1936.9,
+    -204.5
+   ],
+   "width": 5,
+   "faces": 183,
+   "toStreet": 8.5,
+   "floors": 2,
+   "eaves": 9,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1927.1,
+    -203.2,
+    1927.4,
+    -208.2,
+    1939.2,
+    -207.5,
+    1941.1,
+    -207.4,
+    1941.1,
+    -202.1,
+    1941.1,
+    -201.9,
+    1941.1,
+    -200.9
+   ],
+   "id": "engelbert-van-arenbergstraat-183-23",
+   "latLon": [
+    51.054862,
+    3.745797
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22265,
+   "at": [
+    1926.9499999999998,
+    -200.64999999999998
+   ],
+   "centre": [
+    1936.8,
+    -199.3
+   ],
+   "width": 5.1,
+   "faces": 183,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 9.4,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    1926.8,
+    -198.1,
+    1927.1,
+    -203.2,
+    1941.1,
+    -200.9,
+    1942.2,
+    -200.8,
+    1941.9,
+    -196.6,
+    1941.9,
+    -195.9
+   ],
+   "id": "engelbert-van-arenbergstraat-183-24",
+   "latLon": [
+    51.054826,
+    3.745793
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22270,
+   "at": [
+    1926.1,
+    -190.35000000000002
+   ],
+   "centre": [
+    1935.8,
+    -187.8
+   ],
+   "width": 5.1,
+   "faces": 184,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1941.9,
+    -185.1,
+    1943,
+    -191.1,
+    1926.3,
+    -192.9,
+    1925.9,
+    -187.8,
+    1935.6,
+    -187.4,
+    1935.5,
+    -186.4,
+    1939.1,
+    -186.3,
+    1939.1,
+    -185.6
+   ],
+   "id": "engelbert-van-arenbergstraat-184-25",
+   "latLon": [
+    51.054751,
+    3.745784
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22271,
+   "at": [
+    1925.6,
+    -180.4
+   ],
+   "centre": [
+    1931.7,
+    -179.2
+   ],
+   "width": 6.2,
+   "faces": 184,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    1925.8,
+    -183.8,
+    1934.9,
+    -182.6,
+    1934.8,
+    -181.4,
+    1939.1,
+    -181,
+    1938.5,
+    -171.7,
+    1929.6,
+    -172.6,
+    1925.4,
+    -177.3,
+    1925.8,
+    -183.5
+   ],
+   "id": "engelbert-van-arenbergstraat-184-26",
+   "latLon": [
+    51.054679,
+    3.745778
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22267,
+   "at": [
+    1926.55,
+    -195.5
+   ],
+   "centre": [
+    1939.2,
+    -193.3
+   ],
+   "width": 5.2,
+   "faces": 185,
+   "toStreet": 8.2,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1943,
+    -191.1,
+    1945,
+    -188.6,
+    1947.7,
+    -190.9,
+    1943.4,
+    -195.7,
+    1941.9,
+    -195.9,
+    1926.8,
+    -198.1,
+    1926.3,
+    -192.9
+   ],
+   "id": "engelbert-van-arenbergstraat-185-27",
+   "latLon": [
+    51.054789,
+    3.745789
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22482,
+   "at": [
+    1932.4,
+    -292.3
+   ],
+   "centre": [
+    1938.5,
+    -294.1
+   ],
+   "width": 19.7,
+   "faces": 186,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1931.3,
+    -282.5,
+    1933.5,
+    -302.1,
+    1938.7,
+    -296.5,
+    1941.4,
+    -296.4,
+    1943.5,
+    -293.9,
+    1942.4,
+    -292.9
+   ],
+   "id": "engelbert-van-arenbergstraat-186-28",
+   "latLon": [
+    51.055489,
+    3.745856
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22484,
+   "at": [
+    1930.65,
+    -276.8
+   ],
+   "centre": [
+    1934.1,
+    -269.8
+   ],
+   "width": 11.5,
+   "faces": 187,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1929.5,
+    -266.7,
+    1929.7,
+    -268.1,
+    1930,
+    -271.1,
+    1931.3,
+    -282.5,
+    1940.9,
+    -279.2,
+    1940.5,
+    -273.9,
+    1942.9,
+    -271.1,
+    1931.8,
+    -261.3,
+    1931.6,
+    -261.6,
+    1932.9,
+    -262.9
+   ],
+   "id": "engelbert-van-arenbergstraat-187-29",
+   "latLon": [
+    51.055377,
+    3.745836
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22485,
+   "at": [
+    1936.85,
+    -287.7
+   ],
+   "centre": [
+    1940.8,
+    -285.1
+   ],
+   "width": 15.2,
+   "faces": 227,
+   "toStreet": 10.6,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1931.3,
+    -282.5,
+    1942.4,
+    -292.9,
+    1948.8,
+    -285.8,
+    1940.9,
+    -279.2
+   ],
+   "id": "engelbert-van-arenbergstraat-227-01",
+   "latLon": [
+    51.055456,
+    3.745907
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22710,
+   "at": [
+    1944.2,
+    -322.55
+   ],
+   "centre": [
+    1963,
+    -319.7
+   ],
+   "width": 24.7,
+   "faces": 228,
+   "toStreet": 14.9,
+   "floors": 1,
+   "eaves": 4.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1934.2,
+    -308.2,
+    1935,
+    -314.3,
+    1953.4,
+    -330.8,
+    1962.7,
+    -339.2,
+    1971.8,
+    -347.3,
+    1984.7,
+    -332.8,
+    1980.2,
+    -328.7,
+    1983.4,
+    -325.1,
+    1978.6,
+    -320.8,
+    1975.4,
+    -324.3,
+    1970.9,
+    -320.3,
+    1974.1,
+    -316.8,
+    1969.6,
+    -312.8,
+    1966.2,
+    -316.1,
+    1958.7,
+    -309.3,
+    1962.1,
+    -305.5,
+    1955.4,
+    -299.6,
+    1943.4,
+    -313.8,
+    1937.2,
+    -308.2
+   ],
+   "id": "engelbert-van-arenbergstraat-228-02",
+   "latLon": [
+    51.055708,
+    3.745991
+   ],
+   "photos": [
+    {
+     "id": "23872411665694779-149",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.034,
+      0.839
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22483,
+   "at": [
+    1937.35,
+    -266.20000000000005
+   ],
+   "centre": [
+    1942.4,
+    -267.2
+   ],
+   "width": 14.8,
+   "faces": 229,
+   "toStreet": 12.9,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1931.8,
+    -261.3,
+    1942.9,
+    -271.1,
+    1947.8,
+    -275.3,
+    1951.3,
+    -271.3,
+    1945.6,
+    -266.5,
+    1935.2,
+    -257.5
+   ],
+   "id": "engelbert-van-arenbergstraat-229-03",
+   "latLon": [
+    51.0553,
+    3.745912
+   ],
+   "photos": [
+    {
+     "id": "627853319730674-163",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.831
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22481,
+   "at": [
+    1940.4,
+    -262
+   ],
+   "centre": [
+    1947,
+    -260.7
+   ],
+   "width": 13.8,
+   "faces": 229,
+   "toStreet": 16.3,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1935.2,
+    -257.5,
+    1945.6,
+    -266.5,
+    1949.3,
+    -262.3,
+    1953.3,
+    -265.9,
+    1956.4,
+    -262.4,
+    1942.1,
+    -249.8
+   ],
+   "id": "engelbert-van-arenbergstraat-229-04",
+   "latLon": [
+    51.05527,
+    3.745947
+   ],
+   "photos": [
+    {
+     "id": "627853319730674-155",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.17,
+      0.734
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21978,
+   "at": [
+    1884.2,
+    -156.6
+   ],
+   "centre": [
+    1883.1,
+    -152.8
+   ],
+   "width": 15.4,
+   "faces": 266,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1891.9,
+    -157.2,
+    1892.5,
+    -149.7,
+    1890.4,
+    -149.6,
+    1889.3,
+    -149.5,
+    1889.3,
+    -151.1,
+    1874.9,
+    -150.2,
+    1874.8,
+    -154.1,
+    1874.7,
+    -154.2,
+    1876.4,
+    -156.1,
+    1876.5,
+    -156
+   ],
+   "id": "engelbert-van-arenbergstraat-266-01",
+   "latLon": [
+    51.054507,
+    3.745305
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-203",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0,
+      0.92
+     ]
+    },
+    {
+     "id": "534323829665889-159",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.384,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21979,
+   "at": [
+    1882.1,
+    -150.64999999999998
+   ],
+   "centre": [
+    1885,
+    -148.5
+   ],
+   "width": 14.4,
+   "faces": 266,
+   "toStreet": 11,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    1874.9,
+    -150.2,
+    1889.3,
+    -151.1,
+    1889.3,
+    -149.5,
+    1890.4,
+    -149.6,
+    1890.8,
+    -145.6,
+    1875.1,
+    -145.2
+   ],
+   "id": "engelbert-van-arenbergstraat-266-02",
+   "latLon": [
+    51.054464,
+    3.745281
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-201",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.093,
+      0.732
+     ]
+    },
+    {
+     "id": "597769109635431-160",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.361,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21958,
+   "at": [
+    1905.65,
+    -158.14999999999998
+   ],
+   "centre": [
+    1906.1,
+    -152.6
+   ],
+   "width": 12.3,
+   "faces": 266,
+   "toStreet": 4.9,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    1899.5,
+    -157.7,
+    1911.8,
+    -158.6,
+    1912.6,
+    -147.5,
+    1900.5,
+    -146.6
+   ],
+   "id": "engelbert-van-arenbergstraat-266-03",
+   "latLon": [
+    51.054518,
+    3.74555
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 21962,
+   "at": [
+    1893.85,
+    -157.3
+   ],
+   "centre": [
+    1894.2,
+    -153.6
+   ],
+   "width": 3.9,
+   "faces": 267,
+   "toStreet": 5.1,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1891.9,
+    -157.2,
+    1895.8,
+    -157.4,
+    1896.5,
+    -150.1,
+    1892.5,
+    -149.7
+   ],
+   "id": "engelbert-van-arenbergstraat-267-04",
+   "latLon": [
+    51.054512,
+    3.745415
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22120,
+   "at": [
+    1857.15,
+    -151.85000000000002
+   ],
+   "centre": [
+    1857.2,
+    -148.9
+   ],
+   "width": 10.5,
+   "faces": 269,
+   "toStreet": 14.8,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1851.9,
+    -151.8,
+    1862.4,
+    -151.9,
+    1862.6,
+    -145.8,
+    1851.9,
+    -145.9
+   ],
+   "id": "engelbert-van-arenbergstraat-269-05",
+   "latLon": [
+    51.054473,
+    3.744996
+   ],
+   "photos": [
+    {
+     "id": "1258157891913922-170",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.231,
+      0.824
+     ]
+    },
+    {
+     "id": "597769109635431-220",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.412,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 21976,
+   "at": [
+    1882.9499999999998,
+    -145.39999999999998
+   ],
+   "centre": [
+    1883.1,
+    -143.2
+   ],
+   "width": 15.7,
+   "faces": 269,
+   "toStreet": 16.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    1875.1,
+    -145.2,
+    1890.8,
+    -145.6,
+    1891.2,
+    -141.6,
+    1875.3,
+    -140.4
+   ],
+   "id": "engelbert-van-arenbergstraat-269-06",
+   "latLon": [
+    51.054426,
+    3.74529
+   ],
+   "photos": [
+    {
+     "id": "1159082769925320-191",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.234,
+      0.721
+     ]
+    },
+    {
+     "id": "1187046382757610-153",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.343,
+      0.729
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28286,
+   "at": [
+    1783.3000000000002,
+    -701
+   ],
+   "centre": [
+    1775.9,
+    -696.1
+   ],
+   "width": 31.3,
+   "faces": 325,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 13.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1761.2,
+    -707.5,
+    1774.7,
+    -686.9,
+    1777.6,
+    -682.5,
+    1779.6,
+    -679.3,
+    1792.2,
+    -688.1,
+    1774.4,
+    -713.9,
+    1771.9,
+    -714.4
+   ],
+   "id": "engelbert-van-arenbergstraat-325-01",
+   "latLon": [
+    51.058446,
+    3.744151
+   ],
+   "photos": [
+    {
+     "id": "1024015976593284-239",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28297,
+   "at": [
+    1797.1999999999998,
+    -680.8
+   ],
+   "centre": [
+    1783.8,
+    -670.3
+   ],
+   "width": 10.2,
+   "faces": 325,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1774.7,
+    -665.2,
+    1778,
+    -660,
+    1778.7,
+    -659.1,
+    1784,
+    -663.4,
+    1800.1,
+    -676.6,
+    1794.3,
+    -685,
+    1785.9,
+    -679.5,
+    1777.6,
+    -674.3,
+    1780.7,
+    -669.3
+   ],
+   "id": "engelbert-van-arenbergstraat-325-02",
+   "latLon": [
+    51.0583,
+    3.74431
+   ],
+   "photos": [
+    {
+     "id": "4080217012246979-238",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.268,
+      0.716
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28292,
+   "at": [
+    1802.1999999999998,
+    -673.45
+   ],
+   "centre": [
+    1792.7,
+    -666
+   ],
+   "width": 7.6,
+   "faces": 326,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1784,
+    -663.4,
+    1784.8,
+    -660.7,
+    1790,
+    -664.4,
+    1792.9,
+    -660.9,
+    1804.3,
+    -670.3,
+    1800.1,
+    -676.6
+   ],
+   "id": "engelbert-van-arenbergstraat-326-03",
+   "latLon": [
+    51.058247,
+    3.744367
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-248",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.339,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28285,
+   "at": [
+    1806.4,
+    -667.15
+   ],
+   "centre": [
+    1796.8,
+    -658.6
+   ],
+   "width": 7.6,
+   "faces": 326,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    1789,
+    -657.7,
+    1790.7,
+    -654.9,
+    1792.4,
+    -656.3,
+    1794.6,
+    -653.3,
+    1796.2,
+    -654.5,
+    1796.5,
+    -654.7,
+    1802.6,
+    -659.4,
+    1808.5,
+    -664,
+    1804.3,
+    -670.3,
+    1792.9,
+    -660.9
+   ],
+   "id": "engelbert-van-arenbergstraat-326-04",
+   "latLon": [
+    51.058201,
+    3.744415
+   ],
+   "photos": [
+    {
+     "id": "579523878530029-214",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.377,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22566,
+   "at": [
+    1880.5500000000002,
+    -460.35
+   ],
+   "centre": [
+    1869.9,
+    -455.5
+   ],
+   "width": 4.3,
+   "faces": 336,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1869.2,
+    -457.7,
+    1879.7,
+    -462.3,
+    1881.4,
+    -458.4,
+    1871,
+    -454.1,
+    1870.4,
+    -455.6,
+    1865.6,
+    -453.7,
+    1866.2,
+    -452.2,
+    1863.3,
+    -451,
+    1861.9,
+    -454.5
+   ],
+   "id": "engelbert-van-arenbergstraat-336-05",
+   "latLon": [
+    51.056705,
+    3.745263
+   ],
+   "photos": [
+    {
+     "id": "595246173365393-255",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.42,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28677,
+   "at": [
+    1872.25,
+    -480.35
+   ],
+   "centre": [
+    1863.3,
+    -476.5
+   ],
+   "width": 4.4,
+   "faces": 337,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1853.4,
+    -474.7,
+    1871.4,
+    -482.4,
+    1873.1,
+    -478.3,
+    1855.1,
+    -470.8
+   ],
+   "id": "engelbert-van-arenbergstraat-337-06",
+   "latLon": [
+    51.05685,
+    3.745168
+   ],
+   "photos": [
+    {
+     "id": "611648544959720-228",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.419,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28674,
+   "at": [
+    1875.5500000000002,
+    -472.3
+   ],
+   "centre": [
+    1863.7,
+    -467.8
+   ],
+   "width": 4.3,
+   "faces": 337,
+   "toStreet": 7.9,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1856.7,
+    -466.8,
+    1858.1,
+    -467.4,
+    1859.5,
+    -468,
+    1860.2,
+    -466.2,
+    1865.1,
+    -468.1,
+    1864.3,
+    -470,
+    1874.7,
+    -474.3,
+    1876.4,
+    -470.3,
+    1863.4,
+    -464.6,
+    1858.6,
+    -462.5
+   ],
+   "id": "engelbert-van-arenbergstraat-337-07",
+   "latLon": [
+    51.056791,
+    3.745206
+   ],
+   "photos": [
+    {
+     "id": "1414731539502358-252",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.414,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22562,
+   "at": [
+    1878.85,
+    -464.3
+   ],
+   "centre": [
+    1870.6,
+    -461.2
+   ],
+   "width": 4.3,
+   "faces": 337,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1867.4,
+    -461.8,
+    1878,
+    -466.3,
+    1879.7,
+    -462.3,
+    1869.2,
+    -457.7,
+    1868.3,
+    -459.9,
+    1866,
+    -459.2,
+    1865.3,
+    -460.9
+   ],
+   "id": "engelbert-van-arenbergstraat-337-08",
+   "latLon": [
+    51.056733,
+    3.745244
+   ],
+   "photos": [
+    {
+     "id": "595246173365393-272",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.432,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22565,
+   "at": [
+    1882.5500000000002,
+    -455.65
+   ],
+   "centre": [
+    1870.5,
+    -450.1
+   ],
+   "width": 6,
+   "faces": 337,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1863.3,
+    -451,
+    1866.2,
+    -452.2,
+    1867.2,
+    -452.6,
+    1871,
+    -454.1,
+    1881.4,
+    -458.4,
+    1883.7,
+    -452.9,
+    1873.1,
+    -448.5,
+    1871.6,
+    -452.2,
+    1868.5,
+    -450.9,
+    1870,
+    -447.2,
+    1870.2,
+    -446.7,
+    1866.9,
+    -445.3,
+    1867.2,
+    -444.7,
+    1866.2,
+    -444.3
+   ],
+   "id": "engelbert-van-arenbergstraat-337-09",
+   "latLon": [
+    51.056671,
+    3.745286
+   ],
+   "photos": [
+    {
+     "id": "595246173365393-233",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.398,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22561,
+   "at": [
+    1886.15,
+    -446.95
+   ],
+   "centre": [
+    1873.9,
+    -441.6
+   ],
+   "width": 4.4,
+   "faces": 337,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1867.4,
+    -441.2,
+    1871.6,
+    -443,
+    1885.3,
+    -449,
+    1887,
+    -444.9,
+    1874.1,
+    -439.5,
+    1869,
+    -437.5,
+    1869,
+    -437.5,
+    1867.9,
+    -440.1
+   ],
+   "id": "engelbert-van-arenbergstraat-337-10",
+   "latLon": [
+    51.056608,
+    3.745327
+   ],
+   "photos": [
+    {
+     "id": "1151257419994198-250",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.418,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22560,
+   "at": [
+    1889.5,
+    -438.95000000000005
+   ],
+   "centre": [
+    1882.1,
+    -433.9
+   ],
+   "width": 5.1,
+   "faces": 337,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    1870.6,
+    -433.5,
+    1873.9,
+    -435,
+    1888.5,
+    -441.3,
+    1890.5,
+    -436.6,
+    1890.6,
+    -436.5,
+    1889.5,
+    -434,
+    1889.3,
+    -434,
+    1873.3,
+    -427.1,
+    1873.1,
+    -427.5
+   ],
+   "id": "engelbert-van-arenbergstraat-337-11",
+   "latLon": [
+    51.05655,
+    3.745365
+   ],
+   "photos": [
+    {
+     "id": "1286298025999161-265",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.412,
+      0.577
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22210,
+   "at": [
+    1912.4,
+    -318.95000000000005
+   ],
+   "centre": [
+    1903.4,
+    -314.6
+   ],
+   "width": 4,
+   "faces": 337,
+   "toStreet": 16.5,
+   "floors": 7,
+   "eaves": 25.6,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    1911.6,
+    -320.8,
+    1913.2,
+    -317.1,
+    1904.2,
+    -313.2,
+    1894.7,
+    -309.2,
+    1893.1,
+    -312.9
+   ],
+   "id": "engelbert-van-arenbergstraat-337-12",
+   "latLon": [
+    51.055682,
+    3.745627
+   ],
+   "photos": [
+    {
+     "id": "599168166216762-260",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.464,
+      0.538
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28682,
+   "at": [
+    1868.85,
+    -488.6
+   ],
+   "centre": [
+    1856.6,
+    -484.3
+   ],
+   "width": 5,
+   "faces": 338,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1849,
+    -485.3,
+    1849.4,
+    -485.4,
+    1856.8,
+    -487.6,
+    1867.9,
+    -490.9,
+    1869.8,
+    -486.3,
+    1854.8,
+    -480.1,
+    1854,
+    -479.9,
+    1851.5,
+    -479.2
+   ],
+   "id": "engelbert-van-arenbergstraat-338-22",
+   "latLon": [
+    51.056909,
+    3.745129
+   ],
+   "photos": [
+    {
+     "id": "611648544959720-271",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.397,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28679,
+   "at": [
+    1870.6,
+    -484.35
+   ],
+   "centre": [
+    1858.5,
+    -479.5
+   ],
+   "width": 4.2,
+   "faces": 338,
+   "toStreet": 7.8,
+   "floors": 3,
+   "eaves": 10,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1852.4,
+    -477.3,
+    1855.4,
+    -478.4,
+    1854.8,
+    -480.1,
+    1869.8,
+    -486.3,
+    1871.4,
+    -482.4,
+    1853.4,
+    -474.7,
+    1852.4,
+    -477.1
+   ],
+   "id": "engelbert-van-arenbergstraat-338-23",
+   "latLon": [
+    51.056878,
+    3.745149
+   ],
+   "photos": [
+    {
+     "id": "611648544959720-249",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.407,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28676,
+   "at": [
+    1873.9,
+    -476.3
+   ],
+   "centre": [
+    1862.9,
+    -471
+   ],
+   "width": 4.3,
+   "faces": 338,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1855.1,
+    -470.8,
+    1873.1,
+    -478.3,
+    1874.7,
+    -474.3,
+    1864.3,
+    -470,
+    1863.8,
+    -471.3,
+    1857.7,
+    -468.8,
+    1858.1,
+    -467.4,
+    1856.7,
+    -466.8
+   ],
+   "id": "engelbert-van-arenbergstraat-338-24",
+   "latLon": [
+    51.05682,
+    3.745187
+   ],
+   "photos": [
+    {
+     "id": "1414731539502358-271",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.42,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28673,
+   "at": [
+    1877.2,
+    -468.3
+   ],
+   "centre": [
+    1869.4,
+    -464.9
+   ],
+   "width": 4.3,
+   "faces": 338,
+   "toStreet": 7.9,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1863.4,
+    -464.6,
+    1876.4,
+    -470.3,
+    1878,
+    -466.3,
+    1867.4,
+    -461.8,
+    1866.7,
+    -463.7,
+    1864.2,
+    -462.7
+   ],
+   "id": "engelbert-van-arenbergstraat-338-25",
+   "latLon": [
+    51.056762,
+    3.745225
+   ],
+   "photos": [
+    {
+     "id": "1414731539502358-232",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.427,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22559,
+   "at": [
+    1884.5,
+    -450.95
+   ],
+   "centre": [
+    1875.5,
+    -447.7
+   ],
+   "width": 4.2,
+   "faces": 338,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 7.8,
+   "top": 10.1,
+   "kind": "house",
+   "ring": [
+    1870.5,
+    -445.9,
+    1872.6,
+    -446.7,
+    1872,
+    -448.1,
+    1873.1,
+    -448.5,
+    1883.7,
+    -452.9,
+    1885.3,
+    -449,
+    1871.6,
+    -443
+   ],
+   "id": "engelbert-van-arenbergstraat-338-26",
+   "latLon": [
+    51.056637,
+    3.745308
+   ],
+   "photos": [
+    {
+     "id": "1151257419994198-267",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.43,
+      0.568
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28714,
+   "at": [
+    1840.9499999999998,
+    -563.05
+   ],
+   "centre": [
+    1833.4,
+    -562.4
+   ],
+   "width": 12.3,
+   "faces": 339,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    1843.1,
+    -557.3,
+    1834.4,
+    -554.1,
+    1832.7,
+    -558.6,
+    1829.4,
+    -557.4,
+    1827.5,
+    -562.5,
+    1829.2,
+    -563.2,
+    1827.4,
+    -568,
+    1837.7,
+    -571.8,
+    1838.8,
+    -568.8
+   ],
+   "id": "engelbert-van-arenbergstraat-339-27",
+   "latLon": [
+    51.057448,
+    3.74481
+   ],
+   "photos": [
+    {
+     "id": "2407222856291491-288",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28717,
+   "at": [
+    1844,
+    -554.95
+   ],
+   "centre": [
+    1831.3,
+    -550.8
+   ],
+   "width": 5,
+   "faces": 339,
+   "toStreet": 7.2,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1834.4,
+    -554.1,
+    1843.1,
+    -557.3,
+    1844.9,
+    -552.6,
+    1827.3,
+    -546.1,
+    1827.2,
+    -546.2,
+    1826.4,
+    -548.5,
+    1825.5,
+    -550.8,
+    1827.7,
+    -551.6,
+    1828.5,
+    -549.5,
+    1830.3,
+    -550.1,
+    1829.5,
+    -552.2
+   ],
+   "id": "engelbert-van-arenbergstraat-339-28",
+   "latLon": [
+    51.057389,
+    3.744845
+   ],
+   "photos": [
+    {
+     "id": "2407222856291491-211",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.384,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28709,
+   "at": [
+    1849.3000000000002,
+    -540.6
+   ],
+   "centre": [
+    1843,
+    -538.3
+   ],
+   "width": 5.1,
+   "faces": 339,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1835.8,
+    -538.4,
+    1848.4,
+    -543,
+    1850.2,
+    -538.2,
+    1837.6,
+    -533.6
+   ],
+   "id": "engelbert-van-arenbergstraat-339-29",
+   "latLon": [
+    51.057285,
+    3.744906
+   ],
+   "photos": [
+    {
+     "id": "963957677978030",
+     "metres": 37,
+     "off": 15,
+     "span": [
+      0.693,
+      0.766
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28708,
+   "at": [
+    1852.8000000000002,
+    -531.15
+   ],
+   "centre": [
+    1841,
+    -527.5
+   ],
+   "width": 5,
+   "faces": 339,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1834.5,
+    -527.1,
+    1835.9,
+    -527.7,
+    1839.2,
+    -528.9,
+    1851.9,
+    -533.5,
+    1853.7,
+    -528.8,
+    1836.3,
+    -522.4,
+    1835.8,
+    -523.9
+   ],
+   "id": "engelbert-van-arenbergstraat-339-30",
+   "latLon": [
+    51.057217,
+    3.744946
+   ],
+   "photos": [
+    {
+     "id": "3581934275415896",
+     "metres": 35,
+     "off": 15,
+     "span": [
+      0.655,
+      0.725
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28707,
+   "at": [
+    1856.45,
+    -521.45
+   ],
+   "centre": [
+    1845.6,
+    -518
+   ],
+   "width": 5.3,
+   "faces": 339,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 5.6,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    1838.2,
+    -517.5,
+    1841.5,
+    -518.8,
+    1842.2,
+    -517.3,
+    1844,
+    -518,
+    1843.4,
+    -519.4,
+    1855.5,
+    -523.9,
+    1857.4,
+    -519,
+    1848.1,
+    -515.6,
+    1840.2,
+    -512.2
+   ],
+   "id": "engelbert-van-arenbergstraat-339-31",
+   "latLon": [
+    51.057147,
+    3.744988
+   ],
+   "photos": [
+    {
+     "id": "922572359021978",
+     "metres": 23,
+     "off": 8,
+     "span": [
+      0.538,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28681,
+   "at": [
+    1862.35,
+    -505.5
+   ],
+   "centre": [
+    1856.8,
+    -503.3
+   ],
+   "width": 4.3,
+   "faces": 339,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1850.4,
+    -503.1,
+    1861.6,
+    -507.5,
+    1863.1,
+    -503.5,
+    1852,
+    -499.1
+   ],
+   "id": "engelbert-van-arenbergstraat-339-32",
+   "latLon": [
+    51.057032,
+    3.745055
+   ],
+   "photos": [
+    {
+     "id": "1241480763155255",
+     "metres": 23,
+     "off": 2,
+     "span": [
+      0.476,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28678,
+   "at": [
+    1865.4,
+    -497.35
+   ],
+   "centre": [
+    1860,
+    -495.3
+   ],
+   "width": 4.4,
+   "faces": 339,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1853.7,
+    -495.1,
+    1864.6,
+    -499.4,
+    1866.2,
+    -495.3,
+    1855.3,
+    -491.2
+   ],
+   "id": "engelbert-van-arenbergstraat-339-33",
+   "latLon": [
+    51.056973,
+    3.74509
+   ],
+   "photos": [
+    {
+     "id": "1241480763155255",
+     "metres": 26,
+     "off": 12,
+     "span": [
+      0.264,
+      0.366
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28675,
+   "at": [
+    1867.0500000000002,
+    -493.1
+   ],
+   "centre": [
+    1860.5,
+    -490.8
+   ],
+   "width": 4.7,
+   "faces": 339,
+   "toStreet": 7.7,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    1855.3,
+    -491.2,
+    1866.2,
+    -495.3,
+    1867.9,
+    -490.9,
+    1856.8,
+    -487.6,
+    1856.1,
+    -489.2
+   ],
+   "id": "engelbert-van-arenbergstraat-339-34",
+   "latLon": [
+    51.056942,
+    3.745109
+   ],
+   "photos": [
+    {
+     "id": "1241480763155255",
+     "metres": 28,
+     "off": 19,
+     "span": [
+      0.164,
+      0.263
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28316,
+   "at": [
+    1815.55,
+    -644.7
+   ],
+   "centre": [
+    1812.8,
+    -641.4
+   ],
+   "width": 14.1,
+   "faces": 340,
+   "toStreet": 5.9,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1805.9,
+    -648.7,
+    1810.5,
+    -633.3,
+    1816.6,
+    -635.4,
+    1818,
+    -638.1,
+    1813.1,
+    -651.3
+   ],
+   "id": "engelbert-van-arenbergstraat-340-35",
+   "latLon": [
+    51.058039,
+    3.74452
+   ],
+   "photos": [
+    {
+     "id": "293507125715104",
+     "metres": 38,
+     "off": 6,
+     "span": [
+      0.479,
+      0.625
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40568,
+   "at": [
+    1845.8000000000002,
+    -550.1500000000001
+   ],
+   "centre": [
+    1837,
+    -546.9
+   ],
+   "width": 5.2,
+   "faces": 340,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1827.3,
+    -546.1,
+    1844.9,
+    -552.6,
+    1846.7,
+    -547.7,
+    1829.1,
+    -541.3
+   ],
+   "id": "engelbert-van-arenbergstraat-340-36",
+   "latLon": [
+    51.057355,
+    3.744866
+   ],
+   "photos": [
+    {
+     "id": "1156025859235686-276",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.317,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28712,
+   "at": [
+    1847.5500000000002,
+    -545.35
+   ],
+   "centre": [
+    1835.4,
+    -540.5
+   ],
+   "width": 5,
+   "faces": 340,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1829.1,
+    -541.3,
+    1846.7,
+    -547.7,
+    1848.4,
+    -543,
+    1835.8,
+    -538.4,
+    1834.7,
+    -541.4,
+    1832.6,
+    -540.7,
+    1833.7,
+    -537.6,
+    1832.6,
+    -537.3,
+    1830.9,
+    -536.6,
+    1829.2,
+    -541.1
+   ],
+   "id": "engelbert-van-arenbergstraat-340-37",
+   "latLon": [
+    51.05732,
+    3.744886
+   ],
+   "photos": [
+    {
+     "id": "963957677978030",
+     "metres": 40,
+     "off": 20,
+     "span": [
+      0.767,
+      0.833
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28711,
+   "at": [
+    1851.0500000000002,
+    -535.85
+   ],
+   "centre": [
+    1839,
+    -531.4
+   ],
+   "width": 5,
+   "faces": 340,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1832.7,
+    -531.8,
+    1834.4,
+    -532.4,
+    1837.6,
+    -533.6,
+    1850.2,
+    -538.2,
+    1851.9,
+    -533.5,
+    1839.2,
+    -528.9,
+    1838.5,
+    -530.8,
+    1835.2,
+    -529.6,
+    1835.9,
+    -527.7,
+    1834.5,
+    -527.1
+   ],
+   "id": "engelbert-van-arenbergstraat-340-38",
+   "latLon": [
+    51.057251,
+    3.744926
+   ],
+   "photos": [
+    {
+     "id": "963957677978030",
+     "metres": 35,
+     "off": 10,
+     "span": [
+      0.612,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28706,
+   "at": [
+    1854.6,
+    -526.3499999999999
+   ],
+   "centre": [
+    1844.8,
+    -521.8
+   ],
+   "width": 5.2,
+   "faces": 340,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1836.3,
+    -522.4,
+    1853.7,
+    -528.8,
+    1855.5,
+    -523.9,
+    1843.4,
+    -519.4,
+    1841.5,
+    -518.8,
+    1838.2,
+    -517.5
+   ],
+   "id": "engelbert-van-arenbergstraat-340-39",
+   "latLon": [
+    51.057182,
+    3.744966
+   ],
+   "photos": [
+    {
+     "id": "963957677978030",
+     "metres": 31,
+     "off": 2,
+     "span": [
+      0.416,
+      0.522
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28680,
+   "at": [
+    1863.85,
+    -501.45
+   ],
+   "centre": [
+    1858.3,
+    -499.3
+   ],
+   "width": 4.4,
+   "faces": 340,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1852,
+    -499.1,
+    1863.1,
+    -503.5,
+    1864.6,
+    -499.4,
+    1853.7,
+    -495.1
+   ],
+   "id": "engelbert-van-arenbergstraat-340-40",
+   "latLon": [
+    51.057002,
+    3.745072
+   ],
+   "photos": [
+    {
+     "id": "169252985840110",
+     "metres": 29,
+     "off": 17,
+     "span": [
+      0.234,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28308,
+   "at": [
+    1808.2,
+    -641
+   ],
+   "centre": [
+    1801.9,
+    -647.6
+   ],
+   "width": 16.1,
+   "faces": 343,
+   "toStreet": 14.1,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1796.2,
+    -654.5,
+    1797.5,
+    -650.2,
+    1801,
+    -651.4,
+    1803.1,
+    -644.6,
+    1799.5,
+    -643.6,
+    1803.3,
+    -631.1,
+    1810.5,
+    -633.3,
+    1805.9,
+    -648.7,
+    1804.7,
+    -652.6,
+    1802.6,
+    -659.4,
+    1796.5,
+    -654.7
+   ],
+   "id": "engelbert-van-arenbergstraat-343-41",
+   "latLon": [
+    51.058012,
+    3.744436
+   ],
+   "photos": [
+    {
+     "id": "795469134417818",
+     "metres": 41,
+     "off": 7,
+     "span": [
+      0.479,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22234,
+   "at": [
+    1907.3,
+    -266
+   ],
+   "centre": [
+    1903,
+    -274.5
+   ],
+   "width": 10.8,
+   "faces": 344,
+   "toStreet": 17,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1898.4,
+    -280.4,
+    1902.6,
+    -281.6,
+    1902.8,
+    -281.7,
+    1903.1,
+    -280.6,
+    1905,
+    -274.2,
+    1905.4,
+    -272.6,
+    1905.8,
+    -271.2,
+    1908.8,
+    -260.8,
+    1904.2,
+    -259.5,
+    1899.1,
+    -277,
+    1898.2,
+    -280.4
+   ],
+   "id": "engelbert-van-arenbergstraat-344-42",
+   "latLon": [
+    51.055299,
+    3.745569
+   ],
+   "photos": [
+    {
+     "id": "627853319730674-256",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.405,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28782,
+   "at": [
+    1823.65,
+    -580.65
+   ],
+   "centre": [
+    1819.7,
+    -582.1
+   ],
+   "width": 5.9,
+   "faces": 345,
+   "toStreet": 16.6,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": null,
+   "kind": "garage",
+   "ring": [
+    1813.2,
+    -585.5,
+    1821.7,
+    -588.6,
+    1822.9,
+    -583.5,
+    1824.4,
+    -577.8,
+    1816.2,
+    -575
+   ],
+   "id": "engelbert-van-arenbergstraat-345-43",
+   "latLon": [
+    51.057575,
+    3.744613
+   ],
+   "photos": [
+    {
+     "id": "1164289675391087-276",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.364,
+      0.613
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22297,
+   "at": [
+    1907.6999999999998,
+    -242.05
+   ],
+   "centre": [
+    1906.4,
+    -238.7
+   ],
+   "width": 10.9,
+   "faces": 345,
+   "toStreet": 12.4,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1901.2,
+    -245.9,
+    1906.3,
+    -247.3,
+    1909.1,
+    -236.8,
+    1910.5,
+    -231.8,
+    1905.1,
+    -231.6
+   ],
+   "id": "engelbert-van-arenbergstraat-345-44",
+   "latLon": [
+    51.055125,
+    3.745573
+   ],
+   "photos": [
+    {
+     "id": "1151788100000532-264",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.375,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22301,
+   "at": [
+    1903.15,
+    -238.75
+   ],
+   "centre": [
+    1900.6,
+    -238.3
+   ],
+   "width": 14.8,
+   "faces": 345,
+   "toStreet": 16.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1896.2,
+    -244.5,
+    1901.2,
+    -245.9,
+    1905.1,
+    -231.6,
+    1899.8,
+    -231.3
+   ],
+   "id": "engelbert-van-arenbergstraat-345-45",
+   "latLon": [
+    51.055102,
+    3.745521
+   ],
+   "photos": [
+    {
+     "id": "1151788100000532-258",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.362,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 22224,
+   "at": [
+    1922.3,
+    -323.45
+   ],
+   "centre": [
+    1916.1,
+    -321.4
+   ],
+   "width": 6.1,
+   "faces": 345,
+   "toStreet": 7,
+   "floors": 6,
+   "eaves": 23.7,
+   "top": 30.2,
+   "kind": "yes",
+   "ring": [
+    1923.1,
+    -320.5,
+    1913.2,
+    -317.1,
+    1911.6,
+    -320.8,
+    1911.1,
+    -322,
+    1921.5,
+    -326.4
+   ],
+   "id": "engelbert-van-arenbergstraat-345-46",
+   "latLon": [
+    51.055714,
+    3.74574
+   ],
+   "photos": [
+    {
+     "id": "599168166216762-270",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.404,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28784,
+   "at": [
+    1827.85,
+    -609.25
+   ],
+   "centre": [
+    1810,
+    -602.6
+   ],
+   "width": 6.9,
+   "faces": 346,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1797.7,
+    -603.1,
+    1827,
+    -612.6,
+    1828.7,
+    -605.9,
+    1809.1,
+    -599.6,
+    1808.7,
+    -600.5,
+    1805,
+    -599.3,
+    1804.6,
+    -600.8,
+    1799.1,
+    -598.9
+   ],
+   "id": "engelbert-van-arenbergstraat-346-47",
+   "latLon": [
+    51.057782,
+    3.744661
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28779,
+   "at": [
+    1831.65,
+    -593.75
+   ],
+   "centre": [
+    1826.3,
+    -592.4
+   ],
+   "width": 5.3,
+   "faces": 346,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1820.4,
+    -593.5,
+    1831,
+    -596.3,
+    1832.3,
+    -591.2,
+    1821.7,
+    -588.6
+   ],
+   "id": "engelbert-van-arenbergstraat-346-48",
+   "latLon": [
+    51.05767,
+    3.744704
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28783,
+   "at": [
+    1829.85,
+    -601.0999999999999
+   ],
+   "centre": [
+    1809.8,
+    -595.9
+   ],
+   "width": 9.9,
+   "faces": 347,
+   "toStreet": 5.4,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1795.6,
+    -602.4,
+    1797.7,
+    -603.1,
+    1799.1,
+    -598.9,
+    1804.6,
+    -600.8,
+    1805,
+    -599.3,
+    1808.7,
+    -600.5,
+    1809.1,
+    -599.6,
+    1828.7,
+    -605.9,
+    1831,
+    -596.3,
+    1820.4,
+    -593.5,
+    1819.1,
+    -593.1,
+    1818.2,
+    -591.9,
+    1811.8,
+    -590,
+    1811.4,
+    -591.9,
+    1802.4,
+    -589,
+    1803,
+    -587.5,
+    1800.8,
+    -586.7
+   ],
+   "id": "engelbert-van-arenbergstraat-347-49",
+   "latLon": [
+    51.057723,
+    3.744683
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28780,
+   "at": [
+    1832.85,
+    -588.75
+   ],
+   "centre": [
+    1827.6,
+    -587.4
+   ],
+   "width": 5,
+   "faces": 347,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1821.7,
+    -588.6,
+    1832.3,
+    -591.2,
+    1833.4,
+    -586.3,
+    1822.9,
+    -583.5
+   ],
+   "id": "engelbert-van-arenbergstraat-347-50",
+   "latLon": [
+    51.057634,
+    3.744718
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28778,
+   "at": [
+    1834,
+    -583.7
+   ],
+   "centre": [
+    1828.8,
+    -582.2
+   ],
+   "width": 5.3,
+   "faces": 347,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    1822.9,
+    -583.5,
+    1833.4,
+    -586.3,
+    1834.6,
+    -581.1,
+    1824.4,
+    -577.8
+   ],
+   "id": "engelbert-van-arenbergstraat-347-51",
+   "latLon": [
+    51.057597,
+    3.744731
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 22326,
+   "at": [
+    1861.85,
+    -167.35
+   ],
+   "centre": [
+    1856.8,
+    -167.4
+   ],
+   "width": 6.3,
+   "faces": 359,
+   "toStreet": 9.5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1851.7,
+    -164.2,
+    1851.8,
+    -170.6,
+    1861.8,
+    -170.5,
+    1861.9,
+    -164.2
+   ],
+   "id": "engelbert-van-arenbergstraat-359-52",
+   "latLon": [
+    51.054585,
+    3.745049
+   ],
+   "photos": [
+    {
+     "id": "597769109635431-249",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.392,
+      0.618
+     ]
+    },
+    {
+     "id": "1159082769925320-285",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.437,
+      0.559
+     ]
+    }
+   ]
+  }
+ ]
+}

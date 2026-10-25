@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { stander } from './splat.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { tinted } from './cars.js';
 
@@ -92,18 +93,21 @@ export function addStops(ctx, stops) {
   addWaiting(ctx, people, p => { at(p.s, p.along, p.back, p.turn); d.scale.setScalar(p.size); });
 }
 
-// People standing about at the stops, each { c: [pants, shirt, skin] }, put in place by place(p),
-// which sets ctx.dummy: one instanced mesh per part.
-function addWaiting(ctx, people, place) {
+// People standing about at the stops (and on the tram platforms, tramstops.js), each { c: [pants, shirt, skin] },
+// put in place by place(p), which sets ctx.dummy: one instanced mesh per part. Each is a target for the
+// paintball gun (ctx.targets, see splat.js).
+export function addWaiting(ctx, people, place) {
+  if (!people.length) return;
   const d = ctx.dummy, plain = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8 }), c = new THREE.Color();
-  ['legs', 'body', 'head'].forEach((part, k) => {
-    const im = new THREE.InstancedMesh(PERSON[part], plain, Math.max(1, people.length));
+  const ims = ['legs', 'body', 'head'].map((part, k) => {
+    const im = new THREE.InstancedMesh(PERSON[part], plain, people.length);
     people.forEach((p, i) => { place(p); d.updateMatrix(); im.setMatrixAt(i, d.matrix); im.setColorAt(i, c.setHex(p.c[k])); });
-    im.count = people.length;
     im.castShadow = im.receiveShadow = true;
     im.name = 'stops';
     ctx.group.add(im);
+    return im;
   });
+  people.forEach((p, i) => ctx.targets?.push(stander(ims, i, p.c)));
 }
 
 // the colours of somebody waiting: [pants, shirt, skin] (also on the tram platforms, tramplatform.js)

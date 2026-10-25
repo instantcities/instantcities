@@ -9,20 +9,37 @@ import { PAVILIONS, STALLS } from './pavilions.js';
 import { STADSHAL } from './stadshal.js';
 import { STATIONS } from './stations.js';
 import { KROOK } from './krook.js';
+import { GRAFFITISTRAAT } from './graffitistraat.js';
+import { GLAZEN_STRAATJE } from './glazenstraatje.js';
+import { DOK_NOORD } from './doknoord.js';
+import { DOK_NOORD_PLEIN } from './doknoordplein.js';
+import { KOUTER } from './kouter.js';
+import { SASSEVAART } from './sassevaart.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { SINT_BAAFSPLEIN } from './sintbaafsplein.js';
 import { GRASLEI } from './graslei.js';
+import { VEERLEPLEIN } from './veerleplein.js';
 import { SABBEBERG } from './sabbeberg.js';
 import { STRAND } from './strand.js';
+import { TOREKEN } from './toreken.js';
+import { PROVINCIEHUIS } from './provinciehuis.js';
+import { BELGACOMTOREN } from './belgacomtoren.js';
+import { OPERA } from './opera.js';
+import { TOPSPORTHAL } from './topsporthal.js';
+import { VANDEWIELEBRUG } from './vandewielebrug.js';
 import { wedding } from './wedding.js';
 import { CEDERSTRAAT } from './cederstraat.js';
 import { BORDES } from './bordes.js';
+import { BANNERS } from './banners.js';
+import { banner } from '../core/js/banner.js';
+import { standing } from '../core/js/tour.js';
+import { STATUE } from './tourcast-config.js';
 
 export const MONUMENTS = [
   // Jacob van Artevelde (Pieter De Vigne, 1863) in the middle of the Vrijdagmarkt (OpenStreetMap
   // has him at 51.05694 N, 3.72583 E, a little east, but the game's square is wider there): the
   // brewer who led Ghent in 1338, in bronze on a neo-Gothic pedestal, his right arm out over the square
-  { id: 'artevelde', name: 'Jacob van Artevelde', x: 158, z: -506, turn: 0.6, size: 7.6, seat: { half: 3.8, y: 0.5 }, make: artevelde },
+  { id: 'artevelde', name: 'Jacob van Artevelde', ...STATUE, size: 7.6, seat: { half: 3.8, y: 0.5 }, make: artevelde },
   // De Dulle Griet (15th century), the great red bombard on the Grootkanonplein just off the
   // Vrijdagmarkt (OpenStreetMap: 51.05730 N, 3.72412 E), lying on its three stone trestles along
   // the wall of the house behind it, behind a chain on low posts
@@ -46,6 +63,13 @@ MONUMENTS.push(...BIKE_RACKS.map((r, k) => ({
   id: `fietsenstalling-${k + 1}`, name: k ? undefined : 'Fietsenstalling', x: r.x, z: r.z, turn: r.turn, size: [5.6, 3.6], make: () => bikeRack(8, k + 1),
 })));
 
+// The city's banners on its schools, crèches and museums (ghent/banners.js, placed by
+// tools/banners.mjs), sticking out from the wall high over the pavement: nothing to bump into
+// (no foot), and only the first named, so the developer page lists one.
+MONUMENTS.push(...BANNERS.map((b, k) => ({
+  id: `banner-${k + 1}`, name: k ? undefined : 'Banner', x: b.x, z: b.z, turn: b.turn, size: 0.2, foot: [], reach: 15, make: () => banner(b),
+})));
+
 // the Kouter's bandstand and blue kiosk, the bus canopies at Zuid, the flower stalls and the
 // neuzekes carts
 // (js/cities/gent/pavilions.js)
@@ -57,16 +81,42 @@ MONUMENTS.push(...STADSHAL);
 // the two railway stations and De Krook, modelled by hand on their outlines in place of the map's
 // boxes (ghent/stations.js, ghent/krook.js)
 MONUMENTS.push(...STATIONS, ...KROOK);
+// the courtyard walls enclosing the narrow Graffitistraatje
+MONUMENTS.push(...GRAFFITISTRAAT);
+// the Glazen Straatje's covered gallery, its portals, and the lit windows in the streets round it
+MONUMENTS.push(...GLAZEN_STRAATJE);
+// Route du Soleil's brick hall on the Sassevaartstraat, and the car park's mouth at the foot of the ramp beside it (ghent/doknoord.js)
+MONUMENTS.push(...DOK_NOORD);
+// Dok Noord's square: the shops under their sawtooth glass gables, the glass hall and the Direkteurswoning (ghent/doknoordplein.js)
+MONUMENTS.push(...DOK_NOORD_PLEIN);
+// the Kouter's car park: the glass pavilions over its stairs and the mouth at the foot of its ramp (ghent/kouter.js)
+MONUMENTS.push(...KOUTER);
+// Travelbase's neighbours on the Sassevaartstraat: the old AEG works and the Dok Noord building (ghent/sassevaart.js)
+MONUMENTS.push(...SASSEVAART);
 // the three restaurants' terraces on the Sint-Baafsplein, 't Vosken's and its neighbours' (ghent/sintbaafsplein.js)
 MONUMENTS.push(...SINT_BAAFSPLEIN);
 // the restaurants' terraces along the Graslei, and a few across the Leie on the Korenlei (ghent/graslei.js)
 MONUMENTS.push(...GRASLEI);
+// the cafés' and restaurants' terraces on the Sint-Veerleplein, under the Gravensteen (ghent/veerleplein.js)
+MONUMENTS.push(...VEERLEPLEIN);
 // the perron in front of the Stadhuis on the Botermarkt (ghent/bordes.js)
 MONUMENTS.push(...BORDES);
 // the lookout tower on the Karel Sabbeberg (ghent/sabbeberg.js)
 MONUMENTS.push(...SABBEBERG);
 // the parasols on the Blaarmeersen's beaches and Le Beach House behind the long one (ghent/strand.js)
 MONUMENTS.push(...STRAND);
+// the Toreken on the Vrijdagmarkt, in place of the brick tower the map's outline made (ghent/toreken.js)
+MONUMENTS.push(...TOREKEN);
+// the Provinciehuis in the old Leopoldskazerne on the Charles de Kerchovelaan, in place of the map's
+// boxes (ghent/provinciehuis.js)
+MONUMENTS.push(...PROVINCIEHUIS);
+// the old Belgacom tower on the Sint-Jacobsnieuwstraat, in place of the map's box (ghent/belgacomtoren.js)
+MONUMENTS.push(...BELGACOMTOREN);
+// the Opera on the Schouwburgstraat, in place of the map's boxes (ghent/opera.js)
+MONUMENTS.push(...OPERA);
+// the Topsporthal by the Watersportbaan, in place of the map's box (ghent/topsporthal.js), and the
+// Annie Vande Wielebrug's blue steel and arched girder along the map's deck (ghent/vandewielebrug.js)
+MONUMENTS.push(...TOPSPORTHAL, ...VANDEWIELEBRUG);
 
 const STONE = '#c3bcab';
 
@@ -114,7 +164,7 @@ function artevelde() {
   }
 
   // the figure, 5 m tall: a long robe, a cloak, a hood-like hat, the right arm stretched out
-  const y = 8.4;
+  const n = g.children.length, y = 8.4;
   add(new THREE.CylinderGeometry(0.55, 0.95, 2.7, 10), bronze, 0, y + 1.35, 0);
   add(new THREE.CylinderGeometry(0.6, 0.55, 1.4, 10), bronze, 0, y + 3.4, 0);
   add(new THREE.BoxGeometry(1.5, 0.35, 0.75), bronze, 0, y + 4.05, 0); // the shoulders
@@ -153,6 +203,10 @@ function artevelde() {
   };
   arm(2, -0.8, -2.0, -0.35); // the right arm, out and up over the square
   arm(1.7, 0.8, -0.25, 0.25); // the left down at his side, holding the cloak
+  // the figure on its own, which the tour keeps out of sight until he has climbed up there himself (ghent/tour.js runner)
+  const figure = new THREE.Group();
+  figure.add(...g.children.slice(n));
+  g.add(standing('artevelde', figure));
   g.name = 'artevelde';
   return g;
 }

@@ -4,6 +4,7 @@ import * as THREE from 'three';
 import { LANDMARKS, FACADES, MONUMENTS, FRONTS, MAP } from './city.js';
 import { elevation } from './facades.js';
 import { addFronts } from './fronts.js';
+import { heightAt } from './terrain.js';
 
 const TILE = 6; // game metres per repeat of the stone texture
 
@@ -45,32 +46,47 @@ const LOOKS = {
       g.fillRect(x, 0, 14, s);
     }
   }),
-  // small panes of blue-grey glass in a grid, each catching the sky a little differently (the
-  // Stadshal's roof)
+  // small panes of silvery glass in rows, each catching the sky a little differently (the
+  // Stadshal's roof and long sides)
   glass: () => texture((g, s) => {
     let seed = 3;
     const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
-    g.fillStyle = '#3c4650';
+    g.fillStyle = '#6c737a';
     g.fillRect(0, 0, s, s);
     const cols = 5, rows = 10, w = s / cols, h = s / rows;
     for (let row = 0; row < rows; row++) {
       for (let col = 0; col < cols; col++) {
         const v = rnd();
-        g.fillStyle = `rgb(${92 + v * 40}, ${110 + v * 40}, ${132 + v * 38})`;
+        g.fillStyle = `rgb(${138 + v * 46}, ${146 + v * 46}, ${156 + v * 44})`;
         g.fillRect(col * w + 2, row * h + 2, w - 4, h - 4);
       }
     }
   }),
-  // warm timber in slats: the underside of the Stadshal's roof
+  // warm timber in slats, pierced by small slits of light: the inside of the Stadshal's gables
   wood: () => texture((g, s) => {
-    g.fillStyle = '#6b4a2e';
-    g.fillRect(0, 0, s, s);
+    let seed = 11;
+    const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
     for (let x = 0; x < s; x += 8) {
-      g.fillStyle = x % 16 ? '#8a6240' : '#7a5636';
-      g.fillRect(x, 0, 6, s);
+      g.fillStyle = x % 16 ? '#b07a42' : '#9c6a38';
+      g.fillRect(x, 0, 8, s);
+    }
+    g.fillStyle = '#f4ead8';
+    for (let k = 0; k < 60; k++) g.fillRect(Math.floor(rnd() * 32) * 8 + 2, rnd() * s, 3, 10 + rnd() * 10);
+  }),
+  // weathered timber in narrow upright boards, silvering: the Stadshal's gable ends
+  boards: () => texture((g, s) => {
+    let seed = 5;
+    const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    for (let x = 0; x < s; x += 8) {
+      const v = rnd() * 24;
+      g.fillStyle = `rgb(${150 + v}, ${128 + v}, ${104 + v})`;
+      g.fillRect(x, 0, 7, s);
+      g.fillStyle = '#6e5c48';
+      g.fillRect(x + 7, 0, 1, s);
     }
   }),
-  edge: () => texture((g, s) => { g.fillStyle = '#2c2b29'; g.fillRect(0, 0, s, s); }),
+  // rusted Corten steel: the band and frames of the Stadshal
+  edge: () => texture((g, s) => { g.fillStyle = '#8a4b28'; g.fillRect(0, 0, s, s); }),
   concrete: () => texture((g, s) => {
     g.fillStyle = '#cfccc4';
     g.fillRect(0, 0, s, s);
@@ -79,11 +95,26 @@ const LOOKS = {
   }),
 };
 // what a model's skin letters stand for (see tools/gent3d.mjs)
-const SKIN = { g: 'glass', w: 'wood', e: 'edge', p: 'concrete', r: 'slate' };
+const SKIN = { g: 'glass', w: 'wood', t: 'boards', e: 'edge', p: 'concrete', r: 'slate' };
 
-// Is the point inside one of these flat [x, z, x, z, ...] rings?
+// Is the point inside one of these flat [x, z, x, z, ...] rings? (Each ring's box, kept, rules
+// most of them out at a glance: every building of the map asks.)
+const boxes = new WeakMap();
+function boxOf(p) {
+  let b = boxes.get(p);
+  if (!b) {
+    b = [Infinity, Infinity, -Infinity, -Infinity];
+    for (let k = 0; k < p.length; k += 2) {
+      b[0] = Math.min(b[0], p[k]); b[1] = Math.min(b[1], p[k + 1]); b[2] = Math.max(b[2], p[k]); b[3] = Math.max(b[3], p[k + 1]);
+    }
+    boxes.set(p, b);
+  }
+  return b;
+}
 function within(x, z, rings) {
   return rings.some(p => {
+    const b = boxOf(p);
+    if (x < b[0] || z < b[1] || x > b[2] || z > b[3]) return false;
     let c = false;
     for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) {
       if ((p[i + 1] > z) !== (p[j + 1] > z) && x < ((p[j] - p[i]) * (z - p[i + 1])) / (p[j + 1] - p[i + 1]) + p[i]) c = !c;
@@ -147,7 +178,9 @@ function centre(p) {
 // stands at (x, z), within r metres; by default straight away (js/tiles.js's later() waits until
 // it comes into sight).
 export function addLandmarks(group, place = (x, z, r, make) => group.add(make())) {
-  const rings = LANDMARKS.flatMap(lm => lm.foot).concat(MONUMENTS.flatMap(ground));
+  // (with the feet the monuments name: a deep terrace's, which joins the map's buildings to stop
+  // riders, is not to be put up as a house of its own over the tables)
+  const rings = LANDMARKS.flatMap(lm => lm.foot).concat(MONUMENTS.flatMap(ground), MONUMENTS.flatMap(mo => mo.foot ?? []));
   const fronts = addFronts(group, MAP, FRONTS ?? [], place);
   for (const mo of MONUMENTS) {
     place(mo.x, mo.z, mo.reach ?? 30, () => {
@@ -249,6 +282,38 @@ function planar(q, n) {
   return ay >= ax && ay >= az ? [q.x, q.z] : ax >= az ? [q.z, q.y] : [q.x, q.y];
 }
 
+// The model's corners, with the foot of every wall let down to the ground. tools/gent3d.mjs pulls
+// a wall's foot to y = 0 only within a few metres of its mesh's lowest corner, and keeps the rest
+// at their height over the landmark's lowest ground: on a slope (the Sint-Pietersabdij stands on
+// the hill's side, the ground rising 10 m under it) those walls hang 5 to 8 m up, since the hills
+// then lift them once more. So the lowest corner of an upright wall, where no model lies below it
+// and not more than 3 m over where the ground lies (the hills' height there over that at the
+// model's own foot) is put on the ground. A tower standing on a roof is further up: it stays.
+function grounded(lm) {
+  const V = lm.v, key = (x, z) => `${Math.round(x * 20)},${Math.round(z * 20)}`, n = V.length / 3;
+  let h0 = Infinity;
+  for (let k = 0; k < n; k++) if (V[k * 3 + 1] < 0.05) h0 = Math.min(h0, heightAt(V[k * 3], V[k * 3 + 2]));
+  if (h0 === Infinity) return V;
+  const low = new Map();
+  for (let k = 0; k < n; k++) {
+    const c = key(V[k * 3], V[k * 3 + 2]);
+    low.set(c, Math.min(low.get(c) ?? Infinity, V[k * 3 + 1]));
+  }
+  const upright = new Set();
+  for (let t = 0; t < lm.i.length; t += 3) {
+    const [a, b, c] = [0, 1, 2].map(j => lm.i[t + j] * 3);
+    const ux = V[b] - V[a], uy = V[b + 1] - V[a + 1], uz = V[b + 2] - V[a + 2], vx = V[c] - V[a], vy = V[c + 1] - V[a + 1], vz = V[c + 2] - V[a + 2];
+    const nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx, len = Math.hypot(nx, ny, nz);
+    if (len > 1e-6 && Math.abs(ny / len) < 0.35) upright.add(a / 3).add(b / 3).add(c / 3);
+  }
+  const out = Array.from(V);
+  for (const k of upright) {
+    const x = V[k * 3], y = V[k * 3 + 1], z = V[k * 3 + 2];
+    if (y > 0.05 && y <= low.get(key(x, z)) + 0.01 && y <= heightAt(x, z) - h0 + 3) out[k * 3 + 1] = 0;
+  }
+  return out;
+}
+
 // A model's triangles, each { q: its corners, n: its normal turned outwards from the model's middle
 // axis, c: its centre, r: how far that is from the axis, wall: whether it stands upright, w: the
 // wall it is part of, k: its number in the model }. A wall is all the upright triangles that lie in one plane and hang together
@@ -257,7 +322,7 @@ function planar(q, n) {
 // that, span: how wide it is, bottom, top: its lowest and highest point, n: which way it faces,
 // c: its middle }.
 function triangles(lm) {
-  const V = lm.v, I = lm.i, tris = [];
+  const V = grounded(lm), I = lm.i, tris = [];
   const box = new THREE.Box3().setFromArray(V), axis = box.getCenter(new THREE.Vector3());
   for (let t = 0; t < I.length; t += 3) {
     const q = [0, 1, 2].map(k => new THREE.Vector3().fromArray(V, I[t + k] * 3));

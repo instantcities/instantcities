@@ -1,0 +1,5295 @@
+{
+ "city": "ghent",
+ "street": "Resedastraat",
+ "slug": "resedastraat",
+ "photos": {
+  "1179180583825132-270": {
+   "file": "photos/1179180583825132-270.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179180583825132",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622963,
+    3.6989245,
+    270,
+    0.5
+   ]
+  },
+  "1438383417535569-273": {
+   "file": "photos/1438383417535569-273.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1438383417535569",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0622863,
+    3.6991346,
+    273,
+    0.5
+   ]
+  },
+  "2066638110525719-347": {
+   "file": "photos/2066638110525719-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2066638110525719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615772,
+    3.6980393,
+    347,
+    0.5
+   ]
+  },
+  "502475085982962-323": {
+   "file": "photos/502475085982962-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=502475085982962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611617,
+    3.6975162,
+    323,
+    0.5
+   ]
+  },
+  "582118528199118-329": {
+   "file": "photos/582118528199118-329.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582118528199118",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0610459,
+    3.6976165,
+    329,
+    0.5
+   ]
+  },
+  "1389013268900302-347": {
+   "file": "photos/1389013268900302-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1389013268900302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612322,
+    3.6976166,
+    347,
+    0.5
+   ]
+  },
+  "1626668737997811-323": {
+   "file": "photos/1626668737997811-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    323,
+    0.5
+   ]
+  },
+  "964684042397596-284": {
+   "file": "photos/964684042397596-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=964684042397596",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614044,
+    3.6978236,
+    284,
+    0.5
+   ]
+  },
+  "1626668737997811-351": {
+   "file": "photos/1626668737997811-351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    351,
+    0.5
+   ]
+  },
+  "964684042397596-352": {
+   "file": "photos/964684042397596-352.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=964684042397596",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614044,
+    3.6978236,
+    352,
+    0.5
+   ]
+  },
+  "964684042397596-323": {
+   "file": "photos/964684042397596-323.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=964684042397596",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614044,
+    3.6978236,
+    323,
+    0.5
+   ]
+  },
+  "671667042089494-284": {
+   "file": "photos/671667042089494-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671667042089494",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614894,
+    3.6979322,
+    284,
+    0.5
+   ]
+  },
+  "2066638110525719-280": {
+   "file": "photos/2066638110525719-280.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2066638110525719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615772,
+    3.6980393,
+    280,
+    0.5
+   ]
+  },
+  "671667042089494-350": {
+   "file": "photos/671667042089494-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671667042089494",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614894,
+    3.6979322,
+    350,
+    0.5
+   ]
+  },
+  "2025452907966045-301": {
+   "file": "photos/2025452907966045-301.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    301,
+    0.5
+   ]
+  },
+  "2025452907966045-268": {
+   "file": "photos/2025452907966045-268.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    268,
+    0.5
+   ]
+  },
+  "567576279629130-307": {
+   "file": "photos/567576279629130-307.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=567576279629130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0617648,
+    3.6982675,
+    307,
+    0.5
+   ]
+  },
+  "567576279629130-275": {
+   "file": "photos/567576279629130-275.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=567576279629130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0617648,
+    3.6982675,
+    275,
+    0.5
+   ]
+  },
+  "621758977151614-317": {
+   "file": "photos/621758977151614-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=621758977151614",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618582,
+    3.698383,
+    317,
+    0.5
+   ]
+  },
+  "621758977151614-282": {
+   "file": "photos/621758977151614-282.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=621758977151614",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618582,
+    3.698383,
+    282,
+    0.5
+   ]
+  },
+  "987682256638357-292": {
+   "file": "photos/987682256638357-292.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=987682256638357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619504,
+    3.698497,
+    292,
+    0.5
+   ]
+  },
+  "987682256638357-264": {
+   "file": "photos/987682256638357-264.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=987682256638357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619504,
+    3.698497,
+    264,
+    0.5
+   ]
+  },
+  "987682256638357-330": {
+   "file": "photos/987682256638357-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=987682256638357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619504,
+    3.698497,
+    330,
+    0.5
+   ]
+  },
+  "1284063802886199-325": {
+   "file": "photos/1284063802886199-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1284063802886199",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0620403,
+    3.6986061,
+    325,
+    0.5
+   ]
+  },
+  "1099510128854713-319": {
+   "file": "photos/1099510128854713-319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    319,
+    0.5
+   ]
+  },
+  "1179180583825132-288": {
+   "file": "photos/1179180583825132-288.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179180583825132",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622963,
+    3.6989245,
+    288,
+    0.5
+   ]
+  },
+  "1798021261054233-269": {
+   "file": "photos/1798021261054233-269.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1798021261054233",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0623395,
+    3.699024,
+    269,
+    0.5
+   ]
+  },
+  "1389013268900302-297": {
+   "file": "photos/1389013268900302-297.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1389013268900302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612322,
+    3.6976166,
+    297,
+    0.5
+   ]
+  },
+  "582118528199118-347": {
+   "file": "photos/582118528199118-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582118528199118",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0610459,
+    3.6976165,
+    347,
+    0.5
+   ]
+  },
+  "1626668737997811-284": {
+   "file": "photos/1626668737997811-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    284,
+    0.5
+   ]
+  },
+  "671667042089494-321": {
+   "file": "photos/671667042089494-321.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671667042089494",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614894,
+    3.6979322,
+    321,
+    0.5
+   ]
+  },
+  "2066638110525719-316": {
+   "file": "photos/2066638110525719-316.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2066638110525719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615772,
+    3.6980393,
+    316,
+    0.5
+   ]
+  },
+  "2025452907966045-337": {
+   "file": "photos/2025452907966045-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    337,
+    0.5
+   ]
+  },
+  "567576279629130-340": {
+   "file": "photos/567576279629130-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=567576279629130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0617648,
+    3.6982675,
+    340,
+    0.5
+   ]
+  },
+  "621758977151614-346": {
+   "file": "photos/621758977151614-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=621758977151614",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618582,
+    3.698383,
+    346,
+    0.5
+   ]
+  },
+  "1284063802886199-283": {
+   "file": "photos/1284063802886199-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1284063802886199",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0620403,
+    3.6986061,
+    283,
+    0.5
+   ]
+  },
+  "1099510128854713-276": {
+   "file": "photos/1099510128854713-276.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    276,
+    0.5
+   ]
+  },
+  "1099510128854713-353": {
+   "file": "photos/1099510128854713-353.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    353,
+    0.5
+   ]
+  },
+  "1179180583825132-281": {
+   "file": "photos/1179180583825132-281.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179180583825132",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622963,
+    3.6989245,
+    281,
+    0.5
+   ]
+  },
+  "1179180583825132-30": {
+   "file": "photos/1179180583825132-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179180583825132",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622963,
+    3.6989245,
+    30,
+    0.5
+   ]
+  },
+  "1798021261054233-2": {
+   "file": "photos/1798021261054233-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1798021261054233",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0623395,
+    3.699024,
+    2,
+    0.5
+   ]
+  },
+  "1081908193625546-61": {
+   "file": "photos/1081908193625546-61.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1081908193625546",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0623421,
+    3.6990458,
+    61,
+    0.5
+   ]
+  },
+  "1798021261054233-65": {
+   "file": "photos/1798021261054233-65.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1798021261054233",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-16",
+   "pano": true,
+   "cam": [
+    51.0623395,
+    3.699024,
+    65,
+    0.5
+   ]
+  },
+  "1626668737997811-133": {
+   "file": "photos/1626668737997811-133.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    133,
+    0.5
+   ]
+  },
+  "1389013268900302-167": {
+   "file": "photos/1389013268900302-167.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1389013268900302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612322,
+    3.6976166,
+    167,
+    0.5
+   ]
+  },
+  "502475085982962-90": {
+   "file": "photos/502475085982962-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=502475085982962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611617,
+    3.6975162,
+    90,
+    0.5
+   ]
+  },
+  "964684042397596-152": {
+   "file": "photos/964684042397596-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=964684042397596",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614044,
+    3.6978236,
+    152,
+    0.5
+   ]
+  },
+  "964684042397596-108": {
+   "file": "photos/964684042397596-108.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=964684042397596",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614044,
+    3.6978236,
+    108,
+    0.5
+   ]
+  },
+  "671667042089494-110": {
+   "file": "photos/671667042089494-110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671667042089494",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614894,
+    3.6979322,
+    110,
+    0.5
+   ]
+  },
+  "671667042089494-161": {
+   "file": "photos/671667042089494-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=671667042089494",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0614894,
+    3.6979322,
+    161,
+    0.5
+   ]
+  },
+  "2066638110525719-114": {
+   "file": "photos/2066638110525719-114.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2066638110525719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615772,
+    3.6980393,
+    114,
+    0.5
+   ]
+  },
+  "2025452907966045-168": {
+   "file": "photos/2025452907966045-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    168,
+    0.5
+   ]
+  },
+  "2025452907966045-87": {
+   "file": "photos/2025452907966045-87.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    87,
+    0.5
+   ]
+  },
+  "2025452907966045-127": {
+   "file": "photos/2025452907966045-127.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2025452907966045",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0616708,
+    3.6981498,
+    127,
+    0.5
+   ]
+  },
+  "567576279629130-143": {
+   "file": "photos/567576279629130-143.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=567576279629130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0617648,
+    3.6982675,
+    143,
+    0.5
+   ]
+  },
+  "567576279629130-98": {
+   "file": "photos/567576279629130-98.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=567576279629130",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0617648,
+    3.6982675,
+    98,
+    0.5
+   ]
+  },
+  "621758977151614-124": {
+   "file": "photos/621758977151614-124.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=621758977151614",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618582,
+    3.698383,
+    124,
+    0.5
+   ]
+  },
+  "621758977151614-163": {
+   "file": "photos/621758977151614-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=621758977151614",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0618582,
+    3.698383,
+    163,
+    0.5
+   ]
+  },
+  "987682256638357-153": {
+   "file": "photos/987682256638357-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=987682256638357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619504,
+    3.698497,
+    153,
+    0.5
+   ]
+  },
+  "987682256638357-110": {
+   "file": "photos/987682256638357-110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=987682256638357",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0619504,
+    3.698497,
+    110,
+    0.5
+   ]
+  },
+  "1284063802886199-160": {
+   "file": "photos/1284063802886199-160.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1284063802886199",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0620403,
+    3.6986061,
+    160,
+    0.5
+   ]
+  },
+  "1099510128854713-172": {
+   "file": "photos/1099510128854713-172.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    172,
+    0.5
+   ]
+  },
+  "1284063802886199-86": {
+   "file": "photos/1284063802886199-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1284063802886199",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0620403,
+    3.6986061,
+    86,
+    0.5
+   ]
+  },
+  "1099510128854713-98": {
+   "file": "photos/1099510128854713-98.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    98,
+    0.5
+   ]
+  },
+  "1099510128854713-140": {
+   "file": "photos/1099510128854713-140.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1099510128854713",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0621301,
+    3.6987164,
+    140,
+    0.5
+   ]
+  },
+  "502475085982962-126": {
+   "file": "photos/502475085982962-126.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=502475085982962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611617,
+    3.6975162,
+    126,
+    0.5
+   ]
+  },
+  "9225712610854091-89": {
+   "file": "photos/9225712610854091-89.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9225712610854091",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611346,
+    3.6973427,
+    89,
+    0.5
+   ]
+  },
+  "1389013268900302-118": {
+   "file": "photos/1389013268900302-118.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1389013268900302",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0612322,
+    3.6976166,
+    118,
+    0.5
+   ]
+  },
+  "1626668737997811-90": {
+   "file": "photos/1626668737997811-90.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    90,
+    0.5
+   ]
+  },
+  "2066638110525719-163": {
+   "file": "photos/2066638110525719-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2066638110525719",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0615772,
+    3.6980393,
+    163,
+    0.5
+   ]
+  },
+  "1284063802886199-119": {
+   "file": "photos/1284063802886199-119.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1284063802886199",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0620403,
+    3.6986061,
+    119,
+    0.5
+   ]
+  },
+  "1079371350872927-148": {
+   "file": "photos/1079371350872927-148.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1079371350872927",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0622154,
+    3.6988218,
+    148,
+    0.5
+   ]
+  },
+  "1366431337260718": {
+   "file": "photos/1366431337260718.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1366431337260718",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-04-30",
+   "cam": [
+    51.0625085,
+    3.6986922,
+    134,
+    0.504
+   ]
+  },
+  "1626668737997811-173": {
+   "file": "photos/1626668737997811-173.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1626668737997811",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0613179,
+    3.6977197,
+    173,
+    0.5
+   ]
+  },
+  "1705438906719100-220": {
+   "file": "photos/1705438906719100-220.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1705438906719100",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611467,
+    3.6973952,
+    220,
+    0.5
+   ]
+  },
+  "9225712610854091-194": {
+   "file": "photos/9225712610854091-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9225712610854091",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611346,
+    3.6973427,
+    194,
+    0.5
+   ]
+  },
+  "606760472232221-211": {
+   "file": "photos/606760472232221-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=606760472232221",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0610953,
+    3.6974795,
+    211,
+    0.5
+   ]
+  },
+  "502475085982962-204": {
+   "file": "photos/502475085982962-204.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=502475085982962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611617,
+    3.6975162,
+    204,
+    0.5
+   ]
+  },
+  "1705438906719100-193": {
+   "file": "photos/1705438906719100-193.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1705438906719100",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0611467,
+    3.6973952,
+    193,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 13883,
+   "at": [
+    -2180.8,
+    -1233.1
+   ],
+   "centre": [
+    -2185.3,
+    -1231.8
+   ],
+   "width": 10.9,
+   "faces": 36,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2190.5,
+    -1221,
+    -2194.8,
+    -1224.5,
+    -2191.3,
+    -1229,
+    -2180.8,
+    -1242.2,
+    -2177.8,
+    -1239.8,
+    -2177.6,
+    -1237.5,
+    -2184,
+    -1228.7
+   ],
+   "id": "resedastraat-36-01",
+   "latLon": [
+    51.062296,
+    3.698833
+   ],
+   "photos": [
+    {
+     "id": "1179180583825132-270",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.298,
+      0.954
+     ]
+    },
+    {
+     "id": "1438383417535569-273",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.42,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13968,
+   "at": [
+    -2252.25,
+    -1142.8000000000002
+   ],
+   "centre": [
+    -2260.9,
+    -1149.9
+   ],
+   "width": 4.8,
+   "faces": 37,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2262.4,
+    -1154.3,
+    -2250.8,
+    -1144.7,
+    -2253.7,
+    -1140.9,
+    -2265.6,
+    -1150.9,
+    -2266.1,
+    -1151.3,
+    -2264.7,
+    -1152.7,
+    -2262.8,
+    -1154.7
+   ],
+   "id": "resedastraat-37-02",
+   "latLon": [
+    51.061642,
+    3.698016
+   ],
+   "photos": [
+    {
+     "id": "2066638110525719-347",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.386,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13946,
+   "at": [
+    -2241,
+    -1157.1
+   ],
+   "centre": [
+    -2247.4,
+    -1162.8
+   ],
+   "width": 4.3,
+   "faces": 37,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 2.6,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2239.7,
+    -1158.8,
+    -2242.3,
+    -1155.4,
+    -2253.3,
+    -1164.6,
+    -2251.2,
+    -1167.2,
+    -2250.7,
+    -1167.8
+   ],
+   "id": "resedastraat-37-03",
+   "latLon": [
+    51.061746,
+    3.698145
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13876,
+   "at": [
+    -2300.2,
+    -1082
+   ],
+   "centre": [
+    -2311.2,
+    -1088.5
+   ],
+   "width": 9.4,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2316.5,
+    -1097.1,
+    -2316.5,
+    -1097.1,
+    -2315.7,
+    -1097.9,
+    -2303.3,
+    -1089.7,
+    -2297.3,
+    -1085.7,
+    -2303.1,
+    -1078.3,
+    -2303.1,
+    -1078.2,
+    -2305.7,
+    -1077.7,
+    -2305.7,
+    -1077.8,
+    -2310.6,
+    -1080.8,
+    -2311.8,
+    -1081.6,
+    -2315.8,
+    -1084,
+    -2311.9,
+    -1090.1,
+    -2319.4,
+    -1095.7,
+    -2318.2,
+    -1097.3,
+    -2318,
+    -1097.6,
+    -2317.6,
+    -1098.2
+   ],
+   "id": "resedastraat-38-04",
+   "latLon": [
+    51.061202,
+    3.697468
+   ],
+   "photos": [
+    {
+     "id": "502475085982962-323",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.114,
+      0.778
+     ]
+    },
+    {
+     "id": "582118528199118-329",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.409,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14026,
+   "at": [
+    -2289.45,
+    -1095.6
+   ],
+   "centre": [
+    -2298.5,
+    -1102.2
+   ],
+   "width": 5.1,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2296.1,
+    -1104,
+    -2287.9,
+    -1097.6,
+    -2291,
+    -1093.6,
+    -2301.7,
+    -1100.6,
+    -2302.8,
+    -1101.4,
+    -2301.1,
+    -1103.6,
+    -2302.8,
+    -1105.3,
+    -2302.3,
+    -1105.9,
+    -2300.8,
+    -1107.7
+   ],
+   "id": "resedastraat-38-05",
+   "latLon": [
+    51.061301,
+    3.697591
+   ],
+   "photos": [
+    {
+     "id": "1389013268900302-347",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.377,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14041,
+   "at": [
+    -2282.8,
+    -1104
+   ],
+   "centre": [
+    -2286.7,
+    -1107.3
+   ],
+   "width": 4.8,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2281.3,
+    -1105.9,
+    -2284.3,
+    -1102.1,
+    -2292.2,
+    -1108.5,
+    -2288.9,
+    -1112.7
+   ],
+   "id": "resedastraat-38-06",
+   "latLon": [
+    51.061362,
+    3.697667
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-323",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.333,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14010,
+   "at": [
+    -2276.6499999999996,
+    -1111.75
+   ],
+   "centre": [
+    -2284.8,
+    -1118.2
+   ],
+   "width": 5,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2275.1,
+    -1113.7,
+    -2278.2,
+    -1109.8,
+    -2286.1,
+    -1116.7,
+    -2288.4,
+    -1118.6,
+    -2290.5,
+    -1120.5,
+    -2287.8,
+    -1124,
+    -2287.6,
+    -1124.2
+   ],
+   "id": "resedastraat-38-07",
+   "latLon": [
+    51.061418,
+    3.697737
+   ],
+   "photos": [
+    {
+     "id": "964684042397596-284",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.368,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14014,
+   "at": [
+    -2279.75,
+    -1107.85
+   ],
+   "centre": [
+    -2287.5,
+    -1115.3
+   ],
+   "width": 5,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -2288.4,
+    -1118.6,
+    -2289.8,
+    -1116.7,
+    -2287.6,
+    -1114.8,
+    -2286.1,
+    -1116.7,
+    -2278.2,
+    -1109.8,
+    -2281.3,
+    -1105.9,
+    -2288.9,
+    -1112.7,
+    -2293.5,
+    -1116.8,
+    -2290.7,
+    -1120.3,
+    -2290.5,
+    -1120.5
+   ],
+   "id": "resedastraat-38-08",
+   "latLon": [
+    51.06139,
+    3.697702
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-351",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.392,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14000,
+   "at": [
+    -2270.45,
+    -1119.65
+   ],
+   "centre": [
+    -2278.6,
+    -1127.1
+   ],
+   "width": 5,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -2278.3,
+    -1129.7,
+    -2279.8,
+    -1128,
+    -2278.2,
+    -1126.7,
+    -2276.8,
+    -1128.4,
+    -2268.9,
+    -1121.6,
+    -2272,
+    -1117.7,
+    -2281.9,
+    -1126.2,
+    -2284.3,
+    -1128.3,
+    -2282.6,
+    -1130.5,
+    -2281.9,
+    -1129.7,
+    -2280.3,
+    -1131.4
+   ],
+   "id": "resedastraat-38-09",
+   "latLon": [
+    51.061475,
+    3.697808
+   ],
+   "photos": [
+    {
+     "id": "964684042397596-352",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.392,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14004,
+   "at": [
+    -2273.55,
+    -1115.7
+   ],
+   "centre": [
+    -2281.1,
+    -1122.1
+   ],
+   "width": 5.1,
+   "faces": 38,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    -2281.9,
+    -1126.2,
+    -2272,
+    -1117.7,
+    -2275.1,
+    -1113.7,
+    -2287.6,
+    -1124.2,
+    -2286,
+    -1126.2,
+    -2283.8,
+    -1124.5
+   ],
+   "id": "resedastraat-38-10",
+   "latLon": [
+    51.061446,
+    3.697773
+   ],
+   "photos": [
+    {
+     "id": "964684042397596-323",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.311,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13995,
+   "at": [
+    -2267.4,
+    -1123.55
+   ],
+   "centre": [
+    -2276.1,
+    -1130
+   ],
+   "width": 4.9,
+   "faces": 38,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    -2265.9,
+    -1125.5,
+    -2268.9,
+    -1121.6,
+    -2276.8,
+    -1128.4,
+    -2278.3,
+    -1129.7,
+    -2280.3,
+    -1131.4,
+    -2281.2,
+    -1132.3,
+    -2278.6,
+    -1135.7,
+    -2278.5,
+    -1135.8
+   ],
+   "id": "resedastraat-38-11",
+   "latLon": [
+    51.061503,
+    3.697843
+   ],
+   "photos": [
+    {
+     "id": "671667042089494-284",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.373,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13978,
+   "at": [
+    -2258.3,
+    -1135.15
+   ],
+   "centre": [
+    -2269,
+    -1144.2
+   ],
+   "width": 4.9,
+   "faces": 38,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2256.8,
+    -1137.1,
+    -2259.8,
+    -1133.2,
+    -2272.3,
+    -1143.6,
+    -2275.5,
+    -1146.4,
+    -2275.2,
+    -1146.7,
+    -2272,
+    -1149.9,
+    -2271.2,
+    -1149.2,
+    -2269,
+    -1147.2
+   ],
+   "id": "resedastraat-38-12",
+   "latLon": [
+    51.061587,
+    3.697947
+   ],
+   "photos": [
+    {
+     "id": "2066638110525719-280",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.381,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13985,
+   "at": [
+    -2261.3,
+    -1131.25
+   ],
+   "centre": [
+    -2270.3,
+    -1137.4
+   ],
+   "width": 4.9,
+   "faces": 38,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.2,
+   "kind": "house",
+   "ring": [
+    -2259.8,
+    -1133.2,
+    -2262.8,
+    -1129.3,
+    -2272.4,
+    -1137.2,
+    -2274.5,
+    -1138.8,
+    -2275.4,
+    -1139.6,
+    -2274.9,
+    -1140.2,
+    -2272.3,
+    -1143.6
+   ],
+   "id": "resedastraat-38-13",
+   "latLon": [
+    51.061559,
+    3.697913
+   ],
+   "photos": [
+    {
+     "id": "671667042089494-350",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.389,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13958,
+   "at": [
+    -2246.45,
+    -1150.25
+   ],
+   "centre": [
+    -2253.2,
+    -1155.8
+   ],
+   "width": 4.7,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2245,
+    -1152.1,
+    -2247.9,
+    -1148.4,
+    -2259.2,
+    -1157.8,
+    -2257.6,
+    -1159.5,
+    -2256.3,
+    -1161.1
+   ],
+   "id": "resedastraat-38-14",
+   "latLon": [
+    51.061696,
+    3.698083
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-301",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.336,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13963,
+   "at": [
+    -2249.3500000000004,
+    -1146.5500000000002
+   ],
+   "centre": [
+    -2256.2,
+    -1152.2
+   ],
+   "width": 4.7,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2247.9,
+    -1148.4,
+    -2250.8,
+    -1144.7,
+    -2262.4,
+    -1154.3,
+    -2260.8,
+    -1156,
+    -2259.2,
+    -1157.8
+   ],
+   "id": "resedastraat-38-15",
+   "latLon": [
+    51.061669,
+    3.698049
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-268",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.418,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13936,
+   "at": [
+    -2235.75,
+    -1163.8
+   ],
+   "centre": [
+    -2242.6,
+    -1168.9
+   ],
+   "width": 4.3,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 2.9,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2234.4,
+    -1165.5,
+    -2237.1,
+    -1162.1,
+    -2248.2,
+    -1171.1,
+    -2248.1,
+    -1171.1,
+    -2245.3,
+    -1174.8
+   ],
+   "id": "resedastraat-38-16",
+   "latLon": [
+    51.061794,
+    3.698205
+   ],
+   "photos": [
+    {
+     "id": "567576279629130-307",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.342,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13941,
+   "at": [
+    -2238.3999999999996,
+    -1160.4499999999998
+   ],
+   "centre": [
+    -2245,
+    -1165.8
+   ],
+   "width": 4.2,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2237.1,
+    -1162.1,
+    -2239.7,
+    -1158.8,
+    -2250.7,
+    -1167.8,
+    -2249.5,
+    -1169.4,
+    -2248.2,
+    -1171.1
+   ],
+   "id": "resedastraat-38-17",
+   "latLon": [
+    51.06177,
+    3.698175
+   ],
+   "photos": [
+    {
+     "id": "567576279629130-275",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.406,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13923,
+   "at": [
+    -2230.25,
+    -1170.7
+   ],
+   "centre": [
+    -2237.1,
+    -1176
+   ],
+   "width": 4.3,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2242.1,
+    -1178.9,
+    -2240.2,
+    -1181.3,
+    -2228.9,
+    -1172.4,
+    -2231.6,
+    -1169,
+    -2242.6,
+    -1178.2
+   ],
+   "id": "resedastraat-38-18",
+   "latLon": [
+    51.061844,
+    3.698268
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13913,
+   "at": [
+    -2224.85,
+    -1177.55
+   ],
+   "centre": [
+    -2231.7,
+    -1183.8
+   ],
+   "width": 4.4,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2235.7,
+    -1187.1,
+    -2234.5,
+    -1188.5,
+    -2233,
+    -1187.3,
+    -2223.5,
+    -1179.3,
+    -2226.2,
+    -1175.8,
+    -2237.3,
+    -1185
+   ],
+   "id": "resedastraat-38-19",
+   "latLon": [
+    51.061894,
+    3.69833
+   ],
+   "photos": [
+    {
+     "id": "621758977151614-317",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.328,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13918,
+   "at": [
+    -2227.55,
+    -1174.1
+   ],
+   "centre": [
+    -2234.3,
+    -1179.5
+   ],
+   "width": 4.3,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2226.2,
+    -1175.8,
+    -2228.9,
+    -1172.4,
+    -2240.2,
+    -1181.3,
+    -2238.9,
+    -1182.9,
+    -2237.3,
+    -1185
+   ],
+   "id": "resedastraat-38-20",
+   "latLon": [
+    51.061869,
+    3.698299
+   ],
+   "photos": [
+    {
+     "id": "621758977151614-282",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.38,
+      0.641
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13896,
+   "at": [
+    -2216.7,
+    -1187.9
+   ],
+   "centre": [
+    -2223.5,
+    -1193.2
+   ],
+   "width": 4.6,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2215.3,
+    -1189.7,
+    -2218.1,
+    -1186.1,
+    -2229.2,
+    -1195.3,
+    -2228.6,
+    -1196.1,
+    -2226.5,
+    -1198.8
+   ],
+   "id": "resedastraat-38-21",
+   "latLon": [
+    51.061969,
+    3.698423
+   ],
+   "photos": [
+    {
+     "id": "987682256638357-292",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.348,
+      0.668
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13903,
+   "at": [
+    -2219.45,
+    -1184.35
+   ],
+   "centre": [
+    -2225.9,
+    -1190.1
+   ],
+   "width": 4.4,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2218.1,
+    -1186.1,
+    -2220.8,
+    -1182.6,
+    -2231.9,
+    -1191.9,
+    -2229.7,
+    -1194.8,
+    -2229.2,
+    -1195.3
+   ],
+   "id": "resedastraat-38-22",
+   "latLon": [
+    51.061943,
+    3.698391
+   ],
+   "photos": [
+    {
+     "id": "987682256638357-264",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.423,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13888,
+   "at": [
+    -2210.7,
+    -1195.5
+   ],
+   "centre": [
+    -2216.4,
+    -1200
+   ],
+   "width": 4.8,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2217.2,
+    -1203.7,
+    -2209.2,
+    -1197.4,
+    -2212.2,
+    -1193.6,
+    -2212.3,
+    -1193.5,
+    -2222.9,
+    -1201.9,
+    -2221.2,
+    -1204.1,
+    -2219.8,
+    -1205.8
+   ],
+   "id": "resedastraat-38-23",
+   "latLon": [
+    51.062024,
+    3.698491
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13892,
+   "at": [
+    -2213.8,
+    -1191.6
+   ],
+   "centre": [
+    -2223.6,
+    -1199.4
+   ],
+   "width": 4.8,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2228.1,
+    -1204.1,
+    -2225.8,
+    -1201.8,
+    -2224.6,
+    -1203.1,
+    -2222.9,
+    -1201.9,
+    -2212.3,
+    -1193.5,
+    -2215.3,
+    -1189.7,
+    -2226.5,
+    -1198.8,
+    -2227.5,
+    -1199.8,
+    -2229.8,
+    -1202
+   ],
+   "id": "resedastraat-38-24",
+   "latLon": [
+    51.061995,
+    3.698456
+   ],
+   "photos": [
+    {
+     "id": "987682256638357-330",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.324,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13867,
+   "at": [
+    -2204.55,
+    -1203.25
+   ],
+   "centre": [
+    -2212.3,
+    -1210.2
+   ],
+   "width": 4.7,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2214.4,
+    -1214,
+    -2203.1,
+    -1205.1,
+    -2206,
+    -1201.4,
+    -2213.7,
+    -1207.6,
+    -2212.2,
+    -1209.7,
+    -2215.7,
+    -1212.4,
+    -2216.2,
+    -1212.7,
+    -2214.7,
+    -1214.4,
+    -2214.7,
+    -1214.4
+   ],
+   "id": "resedastraat-38-25",
+   "latLon": [
+    51.06208,
+    3.698562
+   ],
+   "photos": [
+    {
+     "id": "1284063802886199-325",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.309,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14033,
+   "at": [
+    -2201.55,
+    -1207.05
+   ],
+   "centre": [
+    -2211.3,
+    -1213.7
+   ],
+   "width": 5,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2200,
+    -1209,
+    -2203.1,
+    -1205.1,
+    -2214.4,
+    -1214,
+    -2214.7,
+    -1214.4,
+    -2214.7,
+    -1214.4,
+    -2214.6,
+    -1214.5,
+    -2214.5,
+    -1214.6,
+    -2214.2,
+    -1214.9,
+    -2211.4,
+    -1218.1,
+    -2211.2,
+    -1218
+   ],
+   "id": "resedastraat-38-26",
+   "latLon": [
+    51.062107,
+    3.698596
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13956,
+   "at": [
+    -2195.25,
+    -1215
+   ],
+   "centre": [
+    -2204.5,
+    -1222.3
+   ],
+   "width": 5.1,
+   "faces": 38,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -2193.7,
+    -1217,
+    -2196.8,
+    -1213,
+    -2208,
+    -1222.1,
+    -2208.7,
+    -1223.7,
+    -2208.7,
+    -1223.8,
+    -2208,
+    -1224.6,
+    -2206.1,
+    -1227.1,
+    -2205.9,
+    -1227
+   ],
+   "id": "resedastraat-38-27",
+   "latLon": [
+    51.062165,
+    3.698668
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-319",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.285,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15124,
+   "at": [
+    -2189.8999999999996,
+    -1238.85
+   ],
+   "centre": [
+    -2193.4,
+    -1238.6
+   ],
+   "width": 16.9,
+   "faces": 38,
+   "toStreet": 16.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2184.7,
+    -1245.5,
+    -2195.1,
+    -1232.2,
+    -2196.8,
+    -1233.6,
+    -2196.9,
+    -1235.1,
+    -2198.4,
+    -1236.6,
+    -2188.6,
+    -1248.7
+   ],
+   "id": "resedastraat-38-28",
+   "latLon": [
+    51.062337,
+    3.698729
+   ],
+   "photos": [
+    {
+     "id": "1179180583825132-288",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.312,
+      0.768
+     ]
+    },
+    {
+     "id": "1798021261054233-269",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.396,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13875,
+   "at": [
+    -2294.15,
+    -1089.65
+   ],
+   "centre": [
+    -2305.6,
+    -1097.5
+   ],
+   "width": 10.1,
+   "faces": 39,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 5.3,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -2301.7,
+    -1100.6,
+    -2291,
+    -1093.6,
+    -2297.3,
+    -1085.7,
+    -2303.3,
+    -1089.7,
+    -2315.7,
+    -1097.9,
+    -2312.7,
+    -1101,
+    -2312.2,
+    -1101.6,
+    -2311.2,
+    -1100.7,
+    -2308.6,
+    -1098.1,
+    -2305,
+    -1102.5,
+    -2302.8,
+    -1101.4
+   ],
+   "id": "resedastraat-39-29",
+   "latLon": [
+    51.061258,
+    3.697537
+   ],
+   "photos": [
+    {
+     "id": "1389013268900302-297",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.221,
+      0.869
+     ]
+    },
+    {
+     "id": "582118528199118-347",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.425,
+      0.558
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14022,
+   "at": [
+    -2286.1000000000004,
+    -1099.85
+   ],
+   "centre": [
+    -2294.7,
+    -1106.8
+   ],
+   "width": 5.8,
+   "faces": 39,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2292.2,
+    -1108.5,
+    -2284.3,
+    -1102.1,
+    -2287.9,
+    -1097.6,
+    -2296.1,
+    -1104,
+    -2300.8,
+    -1107.7,
+    -2299.7,
+    -1109.1,
+    -2299.7,
+    -1109.1,
+    -2297,
+    -1112.4,
+    -2294.7,
+    -1110.5
+   ],
+   "id": "resedastraat-39-30",
+   "latLon": [
+    51.061332,
+    3.697629
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-284",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.355,
+      0.687
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13990,
+   "at": [
+    -2264.3500000000004,
+    -1127.4
+   ],
+   "centre": [
+    -2272.5,
+    -1134.8
+   ],
+   "width": 4.9,
+   "faces": 39,
+   "toStreet": 6.2,
+   "floors": 2,
+   "eaves": 7.8,
+   "top": 12.6,
+   "kind": "house",
+   "ring": [
+    -2274.5,
+    -1138.8,
+    -2276.3,
+    -1136.8,
+    -2274.3,
+    -1135,
+    -2272.4,
+    -1137.2,
+    -2262.8,
+    -1129.3,
+    -2265.9,
+    -1125.5,
+    -2278.5,
+    -1135.8,
+    -2275.4,
+    -1139.6
+   ],
+   "id": "resedastraat-39-31",
+   "latLon": [
+    51.061531,
+    3.697878
+   ],
+   "photos": [
+    {
+     "id": "671667042089494-321",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.324,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13973,
+   "at": [
+    -2255.25,
+    -1139
+   ],
+   "centre": [
+    -2263.3,
+    -1145.9
+   ],
+   "width": 4.9,
+   "faces": 39,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2253.7,
+    -1140.9,
+    -2256.8,
+    -1137.1,
+    -2269,
+    -1147.2,
+    -2268.6,
+    -1147.7,
+    -2266.1,
+    -1151.3,
+    -2265.6,
+    -1150.9
+   ],
+   "id": "resedastraat-39-32",
+   "latLon": [
+    51.061615,
+    3.697982
+   ],
+   "photos": [
+    {
+     "id": "2066638110525719-316",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.327,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13951,
+   "at": [
+    -2243.65,
+    -1153.75
+   ],
+   "centre": [
+    -2250.3,
+    -1159.3
+   ],
+   "width": 4.3,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2242.3,
+    -1155.4,
+    -2245,
+    -1152.1,
+    -2256.3,
+    -1161.1,
+    -2254.5,
+    -1163.2,
+    -2253.3,
+    -1164.6
+   ],
+   "id": "resedastraat-39-33",
+   "latLon": [
+    51.061722,
+    3.698115
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-337",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.352,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13931,
+   "at": [
+    -2233,
+    -1167.25
+   ],
+   "centre": [
+    -2239.8,
+    -1172.5
+   ],
+   "width": 4.5,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2231.6,
+    -1169,
+    -2234.4,
+    -1165.5,
+    -2245.3,
+    -1174.8,
+    -2245.1,
+    -1175,
+    -2242.6,
+    -1178.2
+   ],
+   "id": "resedastraat-39-34",
+   "latLon": [
+    51.061819,
+    3.698236
+   ],
+   "photos": [
+    {
+     "id": "567576279629130-340",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.362,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13908,
+   "at": [
+    -2222.15,
+    -1180.9499999999998
+   ],
+   "centre": [
+    -2229.6,
+    -1187.2
+   ],
+   "width": 4.3,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2233.6,
+    -1189.8,
+    -2232.6,
+    -1191,
+    -2231.9,
+    -1191.9,
+    -2220.8,
+    -1182.6,
+    -2223.5,
+    -1179.3,
+    -2233,
+    -1187.3,
+    -2232,
+    -1188.5
+   ],
+   "id": "resedastraat-39-35",
+   "latLon": [
+    51.061918,
+    3.69836
+   ],
+   "photos": [
+    {
+     "id": "621758977151614-346",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.39,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13880,
+   "at": [
+    -2207.6,
+    -1199.4
+   ],
+   "centre": [
+    -2214.9,
+    -1206.3
+   ],
+   "width": 5.1,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2213.7,
+    -1207.6,
+    -2206,
+    -1201.4,
+    -2209.2,
+    -1197.4,
+    -2217.2,
+    -1203.7,
+    -2215.5,
+    -1205.7,
+    -2219.4,
+    -1209,
+    -2217.8,
+    -1210.9,
+    -2217.8,
+    -1210.9,
+    -2217.2,
+    -1210.4
+   ],
+   "id": "resedastraat-39-36",
+   "latLon": [
+    51.062052,
+    3.698527
+   ],
+   "photos": [
+    {
+     "id": "1284063802886199-283",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.36,
+      0.692
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14008,
+   "at": [
+    -2198.4,
+    -1211
+   ],
+   "centre": [
+    -2207.9,
+    -1217.2
+   ],
+   "width": 5.1,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2196.8,
+    -1213,
+    -2200,
+    -1209,
+    -2211.2,
+    -1218,
+    -2211.4,
+    -1218.1,
+    -2211.4,
+    -1218.2,
+    -2211.2,
+    -1218.4,
+    -2211.2,
+    -1218.4,
+    -2209.8,
+    -1220,
+    -2208,
+    -1222.1
+   ],
+   "id": "resedastraat-39-37",
+   "latLon": [
+    51.062136,
+    3.698632
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-276",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.379,
+      0.68
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13927,
+   "at": [
+    -2192.1,
+    -1219
+   ],
+   "centre": [
+    -2199.4,
+    -1225.8
+   ],
+   "width": 5.1,
+   "faces": 39,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2190.5,
+    -1221,
+    -2193.7,
+    -1217,
+    -2205.9,
+    -1227,
+    -2206.1,
+    -1227.1,
+    -2202.8,
+    -1231.1,
+    -2202.5,
+    -1230.9,
+    -2198.6,
+    -1227.7,
+    -2194.8,
+    -1224.5
+   ],
+   "id": "resedastraat-39-38",
+   "latLon": [
+    51.062194,
+    3.698704
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-353",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.371,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13884,
+   "at": [
+    -2186.05,
+    -1235.6
+   ],
+   "centre": [
+    -2191.1,
+    -1233.9
+   ],
+   "width": 16.9,
+   "faces": 39,
+   "toStreet": 11.8,
+   "floors": 1,
+   "eaves": 3,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -2180.8,
+    -1242.2,
+    -2191.3,
+    -1229,
+    -2193.3,
+    -1230.5,
+    -2195.3,
+    -1228.2,
+    -2197.2,
+    -1229.6,
+    -2195.1,
+    -1232.2,
+    -2184.7,
+    -1245.5
+   ],
+   "id": "resedastraat-39-39",
+   "latLon": [
+    51.062314,
+    3.698773
+   ],
+   "photos": [
+    {
+     "id": "1179180583825132-281",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.28,
+      0.887
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15373,
+   "at": [
+    -2163.8500000000004,
+    -1248.8
+   ],
+   "centre": [
+    -2159.1,
+    -1256.4
+   ],
+   "width": 5.1,
+   "faces": 126,
+   "toStreet": 8.3,
+   "floors": 3,
+   "eaves": 12.7,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -2149.6,
+    -1257.7,
+    -2161.8,
+    -1247.3,
+    -2165.9,
+    -1250.3,
+    -2166.1,
+    -1253.5,
+    -2159.8,
+    -1258.6,
+    -2159.2,
+    -1259.1,
+    -2156.3,
+    -1261.5,
+    -2154.4,
+    -1263.1
+   ],
+   "id": "resedastraat-126-01",
+   "latLon": [
+    51.062409,
+    3.699027
+   ],
+   "photos": [
+    {
+     "id": "1179180583825132-30",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.428,
+      0.568
+     ]
+    },
+    {
+     "id": "1798021261054233-2",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.401,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15165,
+   "at": [
+    -2155.8500000000004,
+    -1242.9499999999998
+   ],
+   "centre": [
+    -2144.7,
+    -1256.6
+   ],
+   "width": 14.7,
+   "faces": 126,
+   "toStreet": 10.9,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2128.4,
+    -1258.2,
+    -2127.8,
+    -1257.4,
+    -2149.9,
+    -1238.6,
+    -2161.8,
+    -1247.3,
+    -2149.6,
+    -1257.7,
+    -2154.4,
+    -1263.1,
+    -2141.3,
+    -1273.7
+   ],
+   "id": "resedastraat-126-02",
+   "latLon": [
+    51.062367,
+    3.699118
+   ],
+   "photos": [
+    {
+     "id": "1081908193625546-61",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.826
+     ]
+    },
+    {
+     "id": "1798021261054233-65",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0,
+      0.756
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14019,
+   "at": [
+    -2280.1,
+    -1087.4499999999998
+   ],
+   "centre": [
+    -2271.3,
+    -1080.7
+   ],
+   "width": 4.6,
+   "faces": 217,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2267.7,
+    -1081.1,
+    -2269,
+    -1079.4,
+    -2266.7,
+    -1077.6,
+    -2267.6,
+    -1076.4,
+    -2268.1,
+    -1075.8,
+    -2281.5,
+    -1085.6,
+    -2278.7,
+    -1089.3
+   ],
+   "id": "resedastraat-217-01",
+   "latLon": [
+    51.061242,
+    3.697698
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 14011,
+   "at": [
+    -2274.5,
+    -1094.5
+   ],
+   "centre": [
+    -2264.7,
+    -1087.1
+   ],
+   "width": 4.3,
+   "faces": 217,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2260.8,
+    -1087.1,
+    -2260.1,
+    -1086.7,
+    -2261.8,
+    -1084.5,
+    -2260.5,
+    -1083.4,
+    -2261.4,
+    -1082.1,
+    -2263.6,
+    -1083.7,
+    -2275.8,
+    -1092.8,
+    -2273.2,
+    -1096.2
+   ],
+   "id": "resedastraat-217-02",
+   "latLon": [
+    51.061293,
+    3.697762
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-133",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.281,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13872,
+   "at": [
+    -2285.8500000000004,
+    -1080.15
+   ],
+   "centre": [
+    -2278.1,
+    -1074.1
+   ],
+   "width": 4.7,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2274,
+    -1074.4,
+    -2270.9,
+    -1072.1,
+    -2273.8,
+    -1068.5,
+    -2277.1,
+    -1070.9,
+    -2279.2,
+    -1072.3,
+    -2287.3,
+    -1078.3,
+    -2284.4,
+    -1082
+   ],
+   "id": "resedastraat-218-03",
+   "latLon": [
+    51.061189,
+    3.697632
+   ],
+   "photos": [
+    {
+     "id": "1389013268900302-167",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.307,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14030,
+   "at": [
+    -2288.75,
+    -1076.4499999999998
+   ],
+   "centre": [
+    -2282.7,
+    -1071.9
+   ],
+   "width": 4.7,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2277.1,
+    -1070.9,
+    -2280.2,
+    -1067.1,
+    -2282,
+    -1068.4,
+    -2290.2,
+    -1074.6,
+    -2287.3,
+    -1078.3,
+    -2279.2,
+    -1072.3
+   ],
+   "id": "resedastraat-218-04",
+   "latLon": [
+    51.061162,
+    3.697599
+   ],
+   "photos": [
+    {
+     "id": "502475085982962-90",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.388,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13997,
+   "at": [
+    -2266.35,
+    -1104.75
+   ],
+   "centre": [
+    -2254.5,
+    -1096.2
+   ],
+   "width": 4.4,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2252.9,
+    -1097.3,
+    -2250,
+    -1095,
+    -2247.8,
+    -1093.3,
+    -2248.2,
+    -1092.9,
+    -2250.5,
+    -1089.9,
+    -2252.2,
+    -1091.2,
+    -2256.2,
+    -1094.3,
+    -2267.7,
+    -1103,
+    -2265,
+    -1106.5,
+    -2254.3,
+    -1098.3
+   ],
+   "id": "resedastraat-218-05",
+   "latLon": [
+    51.061367,
+    3.697855
+   ],
+   "photos": [
+    {
+     "id": "964684042397596-152",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.298,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13987,
+   "at": [
+    -2260.75,
+    -1111.85
+   ],
+   "centre": [
+    -2254.2,
+    -1106.2
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2247.4,
+    -1104.9,
+    -2250.5,
+    -1100.8,
+    -2251.7,
+    -1101.7,
+    -2262.3,
+    -1109.9,
+    -2259.2,
+    -1113.8
+   ],
+   "id": "resedastraat-218-06",
+   "latLon": [
+    51.061418,
+    3.697919
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13992,
+   "at": [
+    -2263.65,
+    -1108.2
+   ],
+   "centre": [
+    -2256.1,
+    -1102.4
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2250.5,
+    -1100.8,
+    -2252.9,
+    -1097.3,
+    -2254.3,
+    -1098.3,
+    -2265,
+    -1106.5,
+    -2262.3,
+    -1109.9,
+    -2251.7,
+    -1101.7
+   ],
+   "id": "resedastraat-218-07",
+   "latLon": [
+    51.061392,
+    3.697886
+   ],
+   "photos": [
+    {
+     "id": "964684042397596-108",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.339,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13975,
+   "at": [
+    -2254.55,
+    -1119.75
+   ],
+   "centre": [
+    -2242.1,
+    -1110.4
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2239.2,
+    -1111.4,
+    -2238,
+    -1110.5,
+    -2235.7,
+    -1108.7,
+    -2237.4,
+    -1106.5,
+    -2238.8,
+    -1104.8,
+    -2240.8,
+    -1106.3,
+    -2239.2,
+    -1108.3,
+    -2241.7,
+    -1110.2,
+    -2243.3,
+    -1108.2,
+    -2256.1,
+    -1117.8,
+    -2253,
+    -1121.7
+   ],
+   "id": "resedastraat-218-08",
+   "latLon": [
+    51.061476,
+    3.69799
+   ],
+   "photos": [
+    {
+     "id": "671667042089494-110",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.312,
+      0.765
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13980,
+   "at": [
+    -2257.6499999999996,
+    -1115.8
+   ],
+   "centre": [
+    -2245.9,
+    -1107.5
+   ],
+   "width": 5.1,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2243.3,
+    -1108.2,
+    -2240.8,
+    -1106.3,
+    -2238.8,
+    -1104.8,
+    -2240,
+    -1103.3,
+    -2241.9,
+    -1100.8,
+    -2247.4,
+    -1104.9,
+    -2259.2,
+    -1113.8,
+    -2256.1,
+    -1117.8
+   ],
+   "id": "resedastraat-218-09",
+   "latLon": [
+    51.061447,
+    3.697955
+   ],
+   "photos": [
+    {
+     "id": "671667042089494-161",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.284,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13970,
+   "at": [
+    -2251.45,
+    -1123.7
+   ],
+   "centre": [
+    -2242.1,
+    -1116.8
+   ],
+   "width": 5.1,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2238.2,
+    -1116.9,
+    -2236.9,
+    -1115.9,
+    -2239,
+    -1113.1,
+    -2238.2,
+    -1112.6,
+    -2239.2,
+    -1111.4,
+    -2253,
+    -1121.7,
+    -2249.9,
+    -1125.7
+   ],
+   "id": "resedastraat-218-10",
+   "latLon": [
+    51.061504,
+    3.698025
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13960,
+   "at": [
+    -2245.25,
+    -1131.5
+   ],
+   "centre": [
+    -2232.9,
+    -1123
+   ],
+   "width": 5.1,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2230.1,
+    -1123.3,
+    -2228.1,
+    -1121.9,
+    -2226.4,
+    -1120.6,
+    -2227.4,
+    -1119.3,
+    -2229.6,
+    -1121.1,
+    -2230.1,
+    -1120.6,
+    -2231.4,
+    -1121.6,
+    -2231.9,
+    -1120.9,
+    -2233.9,
+    -1122.4,
+    -2235.1,
+    -1120.8,
+    -2246.8,
+    -1129.5,
+    -2243.7,
+    -1133.5
+   ],
+   "id": "resedastraat-218-11",
+   "latLon": [
+    51.061561,
+    3.698096
+   ],
+   "photos": [
+    {
+     "id": "2066638110525719-114",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.303,
+      0.763
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13948,
+   "at": [
+    -2239,
+    -1139.5
+   ],
+   "centre": [
+    -2230.3,
+    -1133
+   ],
+   "width": 4.8,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2222.7,
+    -1130.4,
+    -2224.2,
+    -1128.4,
+    -2227.6,
+    -1131.1,
+    -2229.3,
+    -1129,
+    -2240.5,
+    -1137.6,
+    -2237.5,
+    -1141.4
+   ],
+   "id": "resedastraat-218-12",
+   "latLon": [
+    51.061618,
+    3.698168
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-168",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.342,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13953,
+   "at": [
+    -2242.1,
+    -1135.55
+   ],
+   "centre": [
+    -2234.1,
+    -1130.1
+   ],
+   "width": 5.2,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 2,
+   "eaves": 6.1,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2229.3,
+    -1129,
+    -2227,
+    -1127.2,
+    -2230.1,
+    -1123.3,
+    -2243.7,
+    -1133.5,
+    -2240.5,
+    -1137.6
+   ],
+   "id": "resedastraat-218-13",
+   "latLon": [
+    51.06159,
+    3.698132
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13938,
+   "at": [
+    -2232.95,
+    -1147.15
+   ],
+   "centre": [
+    -2225.3,
+    -1142.1
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -2220.3,
+    -1140.8,
+    -2218.7,
+    -1139.6,
+    -2221.6,
+    -1135.7,
+    -2234.5,
+    -1145.2,
+    -2231.4,
+    -1149.1
+   ],
+   "id": "resedastraat-218-14",
+   "latLon": [
+    51.061674,
+    3.698237
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-87",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.397,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13943,
+   "at": [
+    -2236,
+    -1143.3000000000002
+   ],
+   "centre": [
+    -2223.3,
+    -1133.8
+   ],
+   "width": 4.8,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2221.6,
+    -1135.7,
+    -2217.1,
+    -1132.4,
+    -2217.4,
+    -1132.1,
+    -2218.7,
+    -1130.3,
+    -2219.4,
+    -1129.5,
+    -2221.7,
+    -1131.3,
+    -2222.5,
+    -1130.2,
+    -2222.7,
+    -1130.4,
+    -2237.5,
+    -1141.4,
+    -2234.5,
+    -1145.2
+   ],
+   "id": "resedastraat-218-15",
+   "latLon": [
+    51.061646,
+    3.698202
+   ],
+   "photos": [
+    {
+     "id": "2025452907966045-127",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.292,
+      0.713
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13925,
+   "at": [
+    -2226.7,
+    -1155
+   ],
+   "centre": [
+    -2218.1,
+    -1148.5
+   ],
+   "width": 4.8,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2212,
+    -1144.1,
+    -2215.3,
+    -1146.7,
+    -2217,
+    -1144.6,
+    -2228.2,
+    -1153.1,
+    -2225.2,
+    -1156.9,
+    -2210.6,
+    -1145.8
+   ],
+   "id": "resedastraat-218-16",
+   "latLon": [
+    51.061731,
+    3.698308
+   ],
+   "photos": [
+    {
+     "id": "567576279629130-143",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.282,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13915,
+   "at": [
+    -2220.75,
+    -1162.55
+   ],
+   "centre": [
+    -2209.9,
+    -1154.5
+   ],
+   "width": 4.4,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -2202.2,
+    -1151.3,
+    -2203.4,
+    -1149.8,
+    -2205.2,
+    -1151.4,
+    -2206.9,
+    -1149.4,
+    -2222.1,
+    -1160.8,
+    -2219.4,
+    -1164.3
+   ],
+   "id": "resedastraat-218-17",
+   "latLon": [
+    51.061785,
+    3.698376
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13920,
+   "at": [
+    -2223.6499999999996,
+    -1158.85
+   ],
+   "centre": [
+    -2211.4,
+    -1150.1
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2206.9,
+    -1149.4,
+    -2204.9,
+    -1147.9,
+    -2205.6,
+    -1147.1,
+    -2206.8,
+    -1145.4,
+    -2209.3,
+    -1147.5,
+    -2210.6,
+    -1145.8,
+    -2225.2,
+    -1156.9,
+    -2222.1,
+    -1160.8
+   ],
+   "id": "resedastraat-218-18",
+   "latLon": [
+    51.061758,
+    3.698343
+   ],
+   "photos": [
+    {
+     "id": "567576279629130-98",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.359,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13905,
+   "at": [
+    -2215.35,
+    -1169.4
+   ],
+   "centre": [
+    -2205,
+    -1161.2
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2196.9,
+    -1158,
+    -2198.1,
+    -1156.5,
+    -2199.5,
+    -1154.8,
+    -2205.1,
+    -1159,
+    -2216.7,
+    -1167.7,
+    -2214,
+    -1171.1
+   ],
+   "id": "resedastraat-218-19",
+   "latLon": [
+    51.061835,
+    3.698438
+   ],
+   "photos": [
+    {
+     "id": "621758977151614-124",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.32,
+      0.69
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13910,
+   "at": [
+    -2218.05,
+    -1166
+   ],
+   "centre": [
+    -2206.4,
+    -1157.6
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2205.1,
+    -1159,
+    -2199.5,
+    -1154.8,
+    -2200,
+    -1154.1,
+    -2201.9,
+    -1151.7,
+    -2202.2,
+    -1151.3,
+    -2219.4,
+    -1164.3,
+    -2216.7,
+    -1167.7
+   ],
+   "id": "resedastraat-218-20",
+   "latLon": [
+    51.06181,
+    3.698407
+   ],
+   "photos": [
+    {
+     "id": "621758977151614-163",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.34,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13893,
+   "at": [
+    -2207.25,
+    -1179.6
+   ],
+   "centre": [
+    -2194.6,
+    -1170
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2190.4,
+    -1169.9,
+    -2188.6,
+    -1168.6,
+    -2188.7,
+    -1168.5,
+    -2191.4,
+    -1165,
+    -2191.4,
+    -1165,
+    -2191.9,
+    -1164.4,
+    -2194.1,
+    -1166.2,
+    -2192.3,
+    -1168.2,
+    -2194.5,
+    -1169.8,
+    -2196.1,
+    -1167.9,
+    -2208.6,
+    -1177.9,
+    -2205.9,
+    -1181.3,
+    -2197.9,
+    -1175.5,
+    -2192.1,
+    -1171.2
+   ],
+   "id": "resedastraat-218-21",
+   "latLon": [
+    51.061909,
+    3.698531
+   ],
+   "photos": [
+    {
+     "id": "987682256638357-153",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.327,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13898,
+   "at": [
+    -2211.3,
+    -1174.5
+   ],
+   "centre": [
+    -2198.6,
+    -1166.2
+   ],
+   "width": 8.7,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 5.1,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2196.1,
+    -1167.9,
+    -2194.1,
+    -1166.2,
+    -2191.9,
+    -1164.4,
+    -2192.3,
+    -1163.9,
+    -2195.2,
+    -1160.2,
+    -2196.9,
+    -1158,
+    -2214,
+    -1171.1,
+    -2208.6,
+    -1177.9
+   ],
+   "id": "resedastraat-218-22",
+   "latLon": [
+    51.061872,
+    3.698484
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13885,
+   "at": [
+    -2201.25,
+    -1187.25
+   ],
+   "centre": [
+    -2195.3,
+    -1182.7
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2188,
+    -1180.3,
+    -2190.9,
+    -1176.1,
+    -2202.8,
+    -1185.3,
+    -2199.7,
+    -1189.2
+   ],
+   "id": "resedastraat-218-23",
+   "latLon": [
+    51.061964,
+    3.698599
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 13889,
+   "at": [
+    -2204.3500000000004,
+    -1183.3
+   ],
+   "centre": [
+    -2195.4,
+    -1176.1
+   ],
+   "width": 5.1,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2190.9,
+    -1176.1,
+    -2187.6,
+    -1173.3,
+    -2190.4,
+    -1169.9,
+    -2192.1,
+    -1171.2,
+    -2197.9,
+    -1175.5,
+    -2205.9,
+    -1181.3,
+    -2202.8,
+    -1185.3
+   ],
+   "id": "resedastraat-218-24",
+   "latLon": [
+    51.061935,
+    3.698564
+   ],
+   "photos": [
+    {
+     "id": "987682256638357-110",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.324,
+      0.722
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13868,
+   "at": [
+    -2198.2,
+    -1191.15
+   ],
+   "centre": [
+    -2190.6,
+    -1184.8
+   ],
+   "width": 4.9,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2183,
+    -1182.9,
+    -2185.8,
+    -1178.7,
+    -2188,
+    -1180.3,
+    -2199.7,
+    -1189.2,
+    -2196.7,
+    -1193.1
+   ],
+   "id": "resedastraat-218-25",
+   "latLon": [
+    51.061992,
+    3.698634
+   ],
+   "photos": [
+    {
+     "id": "1284063802886199-160",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.32,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13982,
+   "at": [
+    -2189.85,
+    -1201.7
+   ],
+   "centre": [
+    -2184,
+    -1197.3
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2188.5,
+    -1203.4,
+    -2191.2,
+    -1200,
+    -2179.4,
+    -1191.2,
+    -2176.9,
+    -1194.7
+   ],
+   "id": "resedastraat-218-26",
+   "latLon": [
+    51.062069,
+    3.69873
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-172",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.395,
+      0.579
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14027,
+   "at": [
+    -2192.55,
+    -1198.3
+   ],
+   "centre": [
+    -2184.2,
+    -1192.1
+   ],
+   "width": 4.3,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2179.4,
+    -1191.2,
+    -2177.7,
+    -1190,
+    -2180.5,
+    -1186.5,
+    -2182.6,
+    -1188.1,
+    -2193.9,
+    -1196.6,
+    -2191.2,
+    -1200
+   ],
+   "id": "resedastraat-218-27",
+   "latLon": [
+    51.062044,
+    3.698699
+   ],
+   "photos": [
+    {
+     "id": "1284063802886199-86",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.419,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13900,
+   "at": [
+    -2183.8500000000004,
+    -1209.3
+   ],
+   "centre": [
+    -2172,
+    -1200.5
+   ],
+   "width": 5.1,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2173.5,
+    -1204.7,
+    -2169.1,
+    -1201.5,
+    -2165.7,
+    -1198.8,
+    -2165.2,
+    -1198.5,
+    -2167.6,
+    -1195.4,
+    -2168.3,
+    -1194.5,
+    -2171.6,
+    -1197,
+    -2170.3,
+    -1198.7,
+    -2172,
+    -1199.9,
+    -2173.3,
+    -1198.2,
+    -2185.4,
+    -1207.3,
+    -2182.3,
+    -1211.3
+   ],
+   "id": "resedastraat-218-28",
+   "latLon": [
+    51.062123,
+    3.698798
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-98",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.364,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13928,
+   "at": [
+    -2186.95,
+    -1205.35
+   ],
+   "centre": [
+    -2178.7,
+    -1199.1
+   ],
+   "width": 5,
+   "faces": 218,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2176.9,
+    -1194.7,
+    -2175.3,
+    -1193.6,
+    -2172.5,
+    -1197.7,
+    -2173.3,
+    -1198.2,
+    -2185.4,
+    -1207.3,
+    -2188.5,
+    -1203.4
+   ],
+   "id": "resedastraat-218-29",
+   "latLon": [
+    51.062095,
+    3.698763
+   ],
+   "photos": [
+    {
+     "id": "1099510128854713-140",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.293,
+      0.681
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14031,
+   "at": [
+    -2291.3999999999996,
+    -1073.1
+   ],
+   "centre": [
+    -2288.1,
+    -1069.3
+   ],
+   "width": 3.8,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 5.4,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -2280.2,
+    -1067.1,
+    -2282.8,
+    -1063.9,
+    -2288.3,
+    -1067.2,
+    -2292.2,
+    -1069.6,
+    -2292.3,
+    -1069.6,
+    -2292.7,
+    -1071.6,
+    -2292.6,
+    -1071.6,
+    -2290.2,
+    -1074.6,
+    -2282,
+    -1068.4
+   ],
+   "id": "resedastraat-219-30",
+   "latLon": [
+    51.061138,
+    3.697569
+   ],
+   "photos": [
+    {
+     "id": "502475085982962-126",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.331,
+      0.668
+     ]
+    },
+    {
+     "id": "9225712610854091-89",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.462,
+      0.536
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14023,
+   "at": [
+    -2282.95,
+    -1083.8
+   ],
+   "centre": [
+    -2274.1,
+    -1077.5
+   ],
+   "width": 4.6,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2268.1,
+    -1075.8,
+    -2269,
+    -1074.6,
+    -2269.5,
+    -1074,
+    -2272.5,
+    -1076.3,
+    -2274,
+    -1074.4,
+    -2284.4,
+    -1082,
+    -2281.5,
+    -1085.6
+   ],
+   "id": "resedastraat-219-31",
+   "latLon": [
+    51.061216,
+    3.697665
+   ],
+   "photos": [
+    {
+     "id": "1389013268900302-118",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.29,
+      0.763
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14001,
+   "at": [
+    -2269.05,
+    -1101.35
+   ],
+   "centre": [
+    -2263.3,
+    -1097
+   ],
+   "width": 4.3,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2256.2,
+    -1094.3,
+    -2258.8,
+    -1090.9,
+    -2270.4,
+    -1099.7,
+    -2267.7,
+    -1103
+   ],
+   "id": "resedastraat-219-32",
+   "latLon": [
+    51.061342,
+    3.697824
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 14005,
+   "at": [
+    -2271.8,
+    -1097.95
+   ],
+   "centre": [
+    -2259.5,
+    -1088.9
+   ],
+   "width": 4.5,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2258.8,
+    -1090.9,
+    -2254.7,
+    -1087.8,
+    -2253.1,
+    -1086.6,
+    -2253.5,
+    -1086.1,
+    -2255.6,
+    -1083.4,
+    -2257.8,
+    -1085,
+    -2256.8,
+    -1086.2,
+    -2259.8,
+    -1088.5,
+    -2260.8,
+    -1087.1,
+    -2273.2,
+    -1096.2,
+    -2270.4,
+    -1099.7
+   ],
+   "id": "resedastraat-219-33",
+   "latLon": [
+    51.061318,
+    3.697793
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-90",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.388,
+      0.678
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13965,
+   "at": [
+    -2248.3500000000004,
+    -1127.6
+   ],
+   "centre": [
+    -2239.5,
+    -1120.5
+   ],
+   "width": 4.9,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2235.1,
+    -1120.8,
+    -2233.2,
+    -1119.5,
+    -2236.3,
+    -1115.5,
+    -2236.9,
+    -1115.9,
+    -2238.2,
+    -1116.9,
+    -2249.9,
+    -1125.7,
+    -2246.8,
+    -1129.5
+   ],
+   "id": "resedastraat-219-34",
+   "latLon": [
+    51.061532,
+    3.698061
+   ],
+   "photos": [
+    {
+     "id": "2066638110525719-163",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.303,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13933,
+   "at": [
+    -2229.8,
+    -1151.1
+   ],
+   "centre": [
+    -2218.4,
+    -1143.4
+   ],
+   "width": 5.1,
+   "faces": 219,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2217,
+    -1144.6,
+    -2211,
+    -1140.1,
+    -2211.5,
+    -1139.5,
+    -2212.5,
+    -1138.2,
+    -2217.4,
+    -1142.4,
+    -2217.1,
+    -1142.9,
+    -2218,
+    -1143.7,
+    -2220.3,
+    -1140.8,
+    -2231.4,
+    -1149.1,
+    -2228.2,
+    -1153.1
+   ],
+   "id": "resedastraat-219-35",
+   "latLon": [
+    51.061702,
+    3.698273
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 14034,
+   "at": [
+    -2195.3,
+    -1194.85
+   ],
+   "centre": [
+    -2185.1,
+    -1187.2
+   ],
+   "width": 4.5,
+   "faces": 219,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2182.6,
+    -1188.1,
+    -2183.5,
+    -1186.8,
+    -2181.5,
+    -1185.4,
+    -2181.7,
+    -1185,
+    -2180.8,
+    -1184.3,
+    -2182.2,
+    -1182.3,
+    -2183,
+    -1182.9,
+    -2196.7,
+    -1193.1,
+    -2193.9,
+    -1196.6
+   ],
+   "id": "resedastraat-219-36",
+   "latLon": [
+    51.062019,
+    3.698667
+   ],
+   "photos": [
+    {
+     "id": "1284063802886199-119",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.329,
+      0.694
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13882,
+   "at": [
+    -2178.15,
+    -1216.35
+   ],
+   "centre": [
+    -2170.2,
+    -1220.2
+   ],
+   "width": 13.1,
+   "faces": 219,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2173.5,
+    -1204.7,
+    -2182.3,
+    -1211.3,
+    -2174,
+    -1221.4,
+    -2167.7,
+    -1229.8,
+    -2165.8,
+    -1230.1,
+    -2158,
+    -1224
+   ],
+   "id": "resedastraat-219-37",
+   "latLon": [
+    51.062174,
+    3.698863
+   ],
+   "photos": [
+    {
+     "id": "1079371350872927-148",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.844
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13878,
+   "at": [
+    -2165.75,
+    -1214.35
+   ],
+   "centre": [
+    -2163.2,
+    -1208.3
+   ],
+   "width": 24.8,
+   "faces": 219,
+   "toStreet": 17.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2150.1,
+    -1217.9,
+    -2159.9,
+    -1205.8,
+    -2164,
+    -1200.8,
+    -2167.6,
+    -1203.4,
+    -2169.1,
+    -1201.5,
+    -2173.5,
+    -1204.7,
+    -2158,
+    -1224
+   ],
+   "id": "resedastraat-219-38",
+   "latLon": [
+    51.06216,
+    3.699005
+   ],
+   "photos": [
+    {
+     "id": "1366431337260718",
+     "metres": 44,
+     "off": 17,
+     "span": [
+      0.533,
+      0.761
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 14015,
+   "at": [
+    -2277.25,
+    -1091.05
+   ],
+   "centre": [
+    -2267.9,
+    -1084
+   ],
+   "width": 4.5,
+   "faces": 220,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2263.6,
+    -1083.7,
+    -2264,
+    -1083.2,
+    -2265.1,
+    -1084.1,
+    -2266.5,
+    -1082.3,
+    -2264.3,
+    -1080.6,
+    -2265.3,
+    -1079.3,
+    -2267.7,
+    -1081.1,
+    -2278.7,
+    -1089.3,
+    -2275.8,
+    -1092.8
+   ],
+   "id": "resedastraat-220-39",
+   "latLon": [
+    51.061268,
+    3.69773
+   ],
+   "photos": [
+    {
+     "id": "1626668737997811-173",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.341,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13378,
+   "at": [
+    -2312.45,
+    -1067.4499999999998
+   ],
+   "centre": [
+    -2322.3,
+    -1050.8
+   ],
+   "width": 4.5,
+   "faces": 301,
+   "toStreet": 9.9,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -2310.5,
+    -1066.3,
+    -2320.9,
+    -1049.8,
+    -2322.1,
+    -1047.8,
+    -2322.6,
+    -1047,
+    -2325.4,
+    -1042.6,
+    -2325.4,
+    -1042.6,
+    -2328.3,
+    -1046.1,
+    -2328.3,
+    -1046.2,
+    -2325.1,
+    -1051.4,
+    -2314.4,
+    -1068.6
+   ],
+   "id": "resedastraat-301-01",
+   "latLon": [
+    51.061097,
+    3.697328
+   ],
+   "photos": [
+    {
+     "id": "1705438906719100-220",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.376,
+      0.622
+     ]
+    },
+    {
+     "id": "9225712610854091-194",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.32,
+      0.728
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13374,
+   "at": [
+    -2302.65,
+    -1061.45
+   ],
+   "centre": [
+    -2311.5,
+    -1041.2
+   ],
+   "width": 9.9,
+   "faces": 301,
+   "toStreet": 8.1,
+   "floors": 2,
+   "eaves": 6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2298.4,
+    -1058.9,
+    -2307.6,
+    -1043.6,
+    -2309.3,
+    -1040.9,
+    -2305.3,
+    -1038.5,
+    -2308.6,
+    -1032.9,
+    -2312.3,
+    -1026.6,
+    -2312.7,
+    -1027.1,
+    -2314.8,
+    -1029.7,
+    -2311.3,
+    -1035.3,
+    -2316.8,
+    -1038.5,
+    -2314.8,
+    -1041.5,
+    -2316.3,
+    -1042.1,
+    -2314.7,
+    -1044.8,
+    -2317.7,
+    -1046.7,
+    -2317.1,
+    -1047.6,
+    -2306.9,
+    -1064
+   ],
+   "id": "resedastraat-301-02",
+   "latLon": [
+    51.061054,
+    3.69744
+   ],
+   "photos": [
+    {
+     "id": "606760472232221-211",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.131,
+      0.868
+     ]
+    },
+    {
+     "id": "502475085982962-204",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.355,
+      0.655
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 13376,
+   "at": [
+    -2308.7,
+    -1065.15
+   ],
+   "centre": [
+    -2313.8,
+    -1056.9
+   ],
+   "width": 4.3,
+   "faces": 303,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2306.9,
+    -1064,
+    -2317.1,
+    -1047.6,
+    -2320.9,
+    -1049.8,
+    -2310.5,
+    -1066.3
+   ],
+   "id": "resedastraat-303-03",
+   "latLon": [
+    51.061081,
+    3.697371
+   ],
+   "photos": [
+    {
+     "id": "1705438906719100-193",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.401,
+      0.616
+     ]
+    }
+   ]
+  }
+ ]
+}

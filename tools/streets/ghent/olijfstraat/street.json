@@ -1,0 +1,6371 @@
+{
+ "city": "ghent",
+ "street": "Olijfstraat",
+ "slug": "olijfstraat",
+ "photos": {
+  "1863727360700638-317": {
+   "file": "photos/1863727360700638-317.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    317,
+    0.5
+   ]
+  },
+  "1863727360700638-342": {
+   "file": "photos/1863727360700638-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    342,
+    0.5
+   ]
+  },
+  "2109749599498695-82": {
+   "file": "photos/2109749599498695-82.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    82,
+    0.5
+   ]
+  },
+  "1949601289174667-71": {
+   "file": "photos/1949601289174667-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1949601289174667",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0639543,
+    3.7000167,
+    71,
+    0.5
+   ]
+  },
+  "2109749599498695-24": {
+   "file": "photos/2109749599498695-24.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    24,
+    0.5
+   ]
+  },
+  "609699515292997-34": {
+   "file": "photos/609699515292997-34.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609699515292997",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.063755,
+    3.7002282,
+    34,
+    0.5
+   ]
+  },
+  "9334591086634098-47": {
+   "file": "photos/9334591086634098-47.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9334591086634098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631722,
+    3.7008343,
+    47,
+    0.5
+   ]
+  },
+  "1138726668043322-22": {
+   "file": "photos/1138726668043322-22.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138726668043322",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630783,
+    3.7009307,
+    22,
+    0.5
+   ]
+  },
+  "1138726668043322-79": {
+   "file": "photos/1138726668043322-79.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138726668043322",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630783,
+    3.7009307,
+    79,
+    0.5
+   ]
+  },
+  "947116807186225-17": {
+   "file": "photos/947116807186225-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    17,
+    0.5
+   ]
+  },
+  "947116807186225-74": {
+   "file": "photos/947116807186225-74.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    74,
+    0.5
+   ]
+  },
+  "1150059219633790-73": {
+   "file": "photos/1150059219633790-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    73,
+    0.5
+   ]
+  },
+  "623185367306776-27": {
+   "file": "photos/623185367306776-27.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=623185367306776",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627179,
+    3.7010267,
+    27,
+    0.5
+   ]
+  },
+  "1150059219633790-64": {
+   "file": "photos/1150059219633790-64.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    64,
+    0.5
+   ]
+  },
+  "1360946155247962-17": {
+   "file": "photos/1360946155247962-17.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1360946155247962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627487,
+    3.7011729,
+    17,
+    0.5
+   ]
+  },
+  "623185367306776-35": {
+   "file": "photos/623185367306776-35.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=623185367306776",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627179,
+    3.7010267,
+    35,
+    0.5
+   ]
+  },
+  "668045998895760-93": {
+   "file": "photos/668045998895760-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=668045998895760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0633668,
+    3.7006398,
+    93,
+    0.5
+   ]
+  },
+  "990730219093197-83": {
+   "file": "photos/990730219093197-83.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=990730219093197",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.06327,
+    3.7007329,
+    83,
+    0.5
+   ]
+  },
+  "9334591086634098-96": {
+   "file": "photos/9334591086634098-96.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9334591086634098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631722,
+    3.7008343,
+    96,
+    0.5
+   ]
+  },
+  "947116807186225-82": {
+   "file": "photos/947116807186225-82.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    82,
+    0.5
+   ]
+  },
+  "1150059219633790-21": {
+   "file": "photos/1150059219633790-21.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    21,
+    0.5
+   ]
+  },
+  "1150059219633790-43": {
+   "file": "photos/1150059219633790-43.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    43,
+    0.5
+   ]
+  },
+  "3909420619346243-45": {
+   "file": "photos/3909420619346243-45.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3909420619346243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628191,
+    3.7012075,
+    45,
+    0.5
+   ]
+  },
+  "623185367306776-48": {
+   "file": "photos/623185367306776-48.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=623185367306776",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627179,
+    3.7010267,
+    48,
+    0.5
+   ]
+  },
+  "609699515292997-93": {
+   "file": "photos/609699515292997-93.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609699515292997",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.063755,
+    3.7002282,
+    93,
+    0.5
+   ]
+  },
+  "640677578442273-50": {
+   "file": "photos/640677578442273-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=640677578442273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627542,
+    3.7011827,
+    50,
+    0.5
+   ]
+  },
+  "1360946155247962-50": {
+   "file": "photos/1360946155247962-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1360946155247962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627487,
+    3.7011729,
+    50,
+    0.5
+   ]
+  },
+  "1863727360700638-68": {
+   "file": "photos/1863727360700638-68.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    68,
+    0.5
+   ]
+  },
+  "1863727360700638-81": {
+   "file": "photos/1863727360700638-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    81,
+    0.5
+   ]
+  },
+  "2201512726912939-110": {
+   "file": "photos/2201512726912939-110.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2201512726912939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0644998,
+    3.69966,
+    110,
+    0.5
+   ]
+  },
+  "557198749965868-37": {
+   "file": "photos/557198749965868-37.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    37,
+    0.5
+   ]
+  },
+  "557198749965868-54": {
+   "file": "photos/557198749965868-54.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    54,
+    0.5
+   ]
+  },
+  "557198749965868-73": {
+   "file": "photos/557198749965868-73.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    73,
+    0.5
+   ]
+  },
+  "2201512726912939-59": {
+   "file": "photos/2201512726912939-59.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2201512726912939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0644998,
+    3.69966,
+    59,
+    0.5
+   ]
+  },
+  "557198749965868-78": {
+   "file": "photos/557198749965868-78.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    78,
+    0.5
+   ]
+  },
+  "969545228182630-32": {
+   "file": "photos/969545228182630-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969545228182630",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642769,
+    3.6997788,
+    32,
+    0.5
+   ]
+  },
+  "969545228182630-71": {
+   "file": "photos/969545228182630-71.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969545228182630",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642769,
+    3.6997788,
+    71,
+    0.5
+   ]
+  },
+  "959523262935754-81": {
+   "file": "photos/959523262935754-81.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=959523262935754",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0641661,
+    3.6998637,
+    81,
+    0.5
+   ]
+  },
+  "845430741046011-84": {
+   "file": "photos/845430741046011-84.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845430741046011",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0640563,
+    3.6999306,
+    84,
+    0.5
+   ]
+  },
+  "557198749965868-109": {
+   "file": "photos/557198749965868-109.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    109,
+    0.5
+   ]
+  },
+  "3909420619346243-157": {
+   "file": "photos/3909420619346243-157.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3909420619346243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628191,
+    3.7012075,
+    157,
+    0.5
+   ]
+  },
+  "9041562832622623-182": {
+   "file": "photos/9041562832622623-182.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9041562832622623",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627764,
+    3.7012978,
+    182,
+    0.5
+   ]
+  },
+  "640677578442273-158": {
+   "file": "photos/640677578442273-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=640677578442273",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627542,
+    3.7011827,
+    158,
+    0.5
+   ]
+  },
+  "1360946155247962-152": {
+   "file": "photos/1360946155247962-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1360946155247962",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0627487,
+    3.7011729,
+    152,
+    0.5
+   ]
+  },
+  "1949601289174667-253": {
+   "file": "photos/1949601289174667-253.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1949601289174667",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0639543,
+    3.7000167,
+    253,
+    0.5
+   ]
+  },
+  "1949601289174667-213": {
+   "file": "photos/1949601289174667-213.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1949601289174667",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0639543,
+    3.7000167,
+    213,
+    0.5
+   ]
+  },
+  "2109749599498695-274": {
+   "file": "photos/2109749599498695-274.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    274,
+    0.5
+   ]
+  },
+  "2109749599498695-248": {
+   "file": "photos/2109749599498695-248.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    248,
+    0.5
+   ]
+  },
+  "2109749599498695-217": {
+   "file": "photos/2109749599498695-217.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    217,
+    0.5
+   ]
+  },
+  "609699515292997-261": {
+   "file": "photos/609699515292997-261.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609699515292997",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.063755,
+    3.7002282,
+    261,
+    0.5
+   ]
+  },
+  "609699515292997-229": {
+   "file": "photos/609699515292997-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609699515292997",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.063755,
+    3.7002282,
+    229,
+    0.5
+   ]
+  },
+  "1123888082845685-218": {
+   "file": "photos/1123888082845685-218.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1123888082845685",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0636559,
+    3.7003309,
+    218,
+    0.5
+   ]
+  },
+  "519387201180125-258": {
+   "file": "photos/519387201180125-258.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519387201180125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635568,
+    3.7004328,
+    258,
+    0.5
+   ]
+  },
+  "1377599137018588-262": {
+   "file": "photos/1377599137018588-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1377599137018588",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0634597,
+    3.7005358,
+    262,
+    0.5
+   ]
+  },
+  "1377599137018588-197": {
+   "file": "photos/1377599137018588-197.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1377599137018588",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0634597,
+    3.7005358,
+    197,
+    0.5
+   ]
+  },
+  "990730219093197-208": {
+   "file": "photos/990730219093197-208.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=990730219093197",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.06327,
+    3.7007329,
+    208,
+    0.5
+   ]
+  },
+  "9334591086634098-275": {
+   "file": "photos/9334591086634098-275.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9334591086634098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631722,
+    3.7008343,
+    275,
+    0.5
+   ]
+  },
+  "9334591086634098-207": {
+   "file": "photos/9334591086634098-207.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9334591086634098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631722,
+    3.7008343,
+    207,
+    0.5
+   ]
+  },
+  "1138726668043322-240": {
+   "file": "photos/1138726668043322-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138726668043322",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630783,
+    3.7009307,
+    240,
+    0.5
+   ]
+  },
+  "947116807186225-278": {
+   "file": "photos/947116807186225-278.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    278,
+    0.5
+   ]
+  },
+  "947116807186225-252": {
+   "file": "photos/947116807186225-252.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    252,
+    0.5
+   ]
+  },
+  "947116807186225-218": {
+   "file": "photos/947116807186225-218.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    218,
+    0.5
+   ]
+  },
+  "947116807186225-193": {
+   "file": "photos/947116807186225-193.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947116807186225",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0629828,
+    3.7010281,
+    193,
+    0.5
+   ]
+  },
+  "1150059219633790-253": {
+   "file": "photos/1150059219633790-253.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    253,
+    0.5
+   ]
+  },
+  "1150059219633790-218": {
+   "file": "photos/1150059219633790-218.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1150059219633790",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628948,
+    3.7011223,
+    218,
+    0.5
+   ]
+  },
+  "1378251323621378-280": {
+   "file": "photos/1378251323621378-280.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1378251323621378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628096,
+    3.7014085,
+    280,
+    0.5
+   ]
+  },
+  "2109749599498695-194": {
+   "file": "photos/2109749599498695-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2109749599498695",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0638546,
+    3.700121,
+    194,
+    0.5
+   ]
+  },
+  "609699515292997-196": {
+   "file": "photos/609699515292997-196.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=609699515292997",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.063755,
+    3.7002282,
+    196,
+    0.5
+   ]
+  },
+  "1123888082845685-255": {
+   "file": "photos/1123888082845685-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1123888082845685",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0636559,
+    3.7003309,
+    255,
+    0.5
+   ]
+  },
+  "519387201180125-281": {
+   "file": "photos/519387201180125-281.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519387201180125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635568,
+    3.7004328,
+    281,
+    0.5
+   ]
+  },
+  "519387201180125-219": {
+   "file": "photos/519387201180125-219.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519387201180125",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0635568,
+    3.7004328,
+    219,
+    0.5
+   ]
+  },
+  "668045998895760-265": {
+   "file": "photos/668045998895760-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=668045998895760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0633668,
+    3.7006398,
+    265,
+    0.5
+   ]
+  },
+  "9334591086634098-242": {
+   "file": "photos/9334591086634098-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=9334591086634098",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0631722,
+    3.7008343,
+    242,
+    0.5
+   ]
+  },
+  "1138726668043322-271": {
+   "file": "photos/1138726668043322-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138726668043322",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630783,
+    3.7009307,
+    271,
+    0.5
+   ]
+  },
+  "1138726668043322-209": {
+   "file": "photos/1138726668043322-209.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1138726668043322",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0630783,
+    3.7009307,
+    209,
+    0.5
+   ]
+  },
+  "3909420619346243-238": {
+   "file": "photos/3909420619346243-238.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3909420619346243",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628191,
+    3.7012075,
+    238,
+    0.5
+   ]
+  },
+  "1378251323621378-263": {
+   "file": "photos/1378251323621378-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1378251323621378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0628096,
+    3.7014085,
+    263,
+    0.5
+   ]
+  },
+  "1863727360700638-251": {
+   "file": "photos/1863727360700638-251.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    251,
+    0.5
+   ]
+  },
+  "2201512726912939-239": {
+   "file": "photos/2201512726912939-239.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2201512726912939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0644998,
+    3.69966,
+    239,
+    0.5
+   ]
+  },
+  "959523262935754-214": {
+   "file": "photos/959523262935754-214.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=959523262935754",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0641661,
+    3.6998637,
+    214,
+    0.5
+   ]
+  },
+  "845430741046011-228": {
+   "file": "photos/845430741046011-228.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845430741046011",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0640563,
+    3.6999306,
+    228,
+    0.5
+   ]
+  },
+  "1863727360700638-240": {
+   "file": "photos/1863727360700638-240.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    240,
+    0.5
+   ]
+  },
+  "2201512726912939-271": {
+   "file": "photos/2201512726912939-271.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2201512726912939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0644998,
+    3.69966,
+    271,
+    0.5
+   ]
+  },
+  "2201512726912939-229": {
+   "file": "photos/2201512726912939-229.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2201512726912939",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0644998,
+    3.69966,
+    229,
+    0.5
+   ]
+  },
+  "557198749965868-284": {
+   "file": "photos/557198749965868-284.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    284,
+    0.5
+   ]
+  },
+  "557198749965868-231": {
+   "file": "photos/557198749965868-231.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=557198749965868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0643895,
+    3.6997064,
+    231,
+    0.5
+   ]
+  },
+  "969545228182630-289": {
+   "file": "photos/969545228182630-289.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969545228182630",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642769,
+    3.6997788,
+    289,
+    0.5
+   ]
+  },
+  "969545228182630-249": {
+   "file": "photos/969545228182630-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969545228182630",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642769,
+    3.6997788,
+    249,
+    0.5
+   ]
+  },
+  "969545228182630-211": {
+   "file": "photos/969545228182630-211.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=969545228182630",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0642769,
+    3.6997788,
+    211,
+    0.5
+   ]
+  },
+  "845430741046011-294": {
+   "file": "photos/845430741046011-294.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845430741046011",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0640563,
+    3.6999306,
+    294,
+    0.5
+   ]
+  },
+  "845430741046011-265": {
+   "file": "photos/845430741046011-265.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=845430741046011",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0640563,
+    3.6999306,
+    265,
+    0.5
+   ]
+  },
+  "1949601289174667-288": {
+   "file": "photos/1949601289174667-288.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1949601289174667",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0639543,
+    3.7000167,
+    288,
+    0.5
+   ]
+  },
+  "1863727360700638-247": {
+   "file": "photos/1863727360700638-247.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1863727360700638",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-02-26",
+   "pano": true,
+   "cam": [
+    51.0646019,
+    3.6996084,
+    247,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 16070,
+   "at": [
+    -2126.45,
+    -1566.05
+   ],
+   "centre": [
+    -2131.4,
+    -1576.1
+   ],
+   "width": 5.4,
+   "faces": 70,
+   "toStreet": 7.4,
+   "floors": 1,
+   "eaves": 0.5,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    -2123.9,
+    -1567,
+    -2129,
+    -1565.1,
+    -2133.6,
+    -1575.6,
+    -2130.7,
+    -1577,
+    -2131.9,
+    -1579.9,
+    -2134.9,
+    -1578.7,
+    -2136,
+    -1581.3,
+    -2131,
+    -1583.9
+   ],
+   "id": "olijfstraat-70-01",
+   "latLon": [
+    51.064705,
+    3.699454
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-317",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.437,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16068,
+   "at": [
+    -2118.7,
+    -1568.9
+   ],
+   "centre": [
+    -2123.9,
+    -1579.6
+   ],
+   "width": 11.1,
+   "faces": 70,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2126.1,
+    -1583.9,
+    -2125,
+    -1581.8,
+    -2120.5,
+    -1583.8,
+    -2113.5,
+    -1570.8,
+    -2123.9,
+    -1567,
+    -2131,
+    -1583.9,
+    -2127,
+    -1586
+   ],
+   "id": "olijfstraat-70-02",
+   "latLon": [
+    51.064725,
+    3.699543
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-342",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.341,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15530,
+   "at": [
+    -2063.75,
+    -1449.2
+   ],
+   "centre": [
+    -2051.7,
+    -1457.2
+   ],
+   "width": 4.4,
+   "faces": 145,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2047.2,
+    -1457.4,
+    -2062.5,
+    -1447.4,
+    -2065,
+    -1451,
+    -2047.7,
+    -1462.2,
+    -2046.2,
+    -1462.9,
+    -2044.9,
+    -1460.8,
+    -2048.1,
+    -1458.8
+   ],
+   "id": "olijfstraat-145-01",
+   "latLon": [
+    51.063859,
+    3.700171
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-82",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.21,
+      0.68
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15544,
+   "at": [
+    -2073.3999999999996,
+    -1463.7
+   ],
+   "centre": [
+    -2062.6,
+    -1471
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 7.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2058.3,
+    -1473.6,
+    -2063.8,
+    -1470,
+    -2062.6,
+    -1467.9,
+    -2072.2,
+    -1461.9,
+    -2074.6,
+    -1465.5,
+    -2058.6,
+    -1475.7,
+    -2056,
+    -1477.4,
+    -2054.7,
+    -1475.6
+   ],
+   "id": "olijfstraat-146-02",
+   "latLon": [
+    51.063964,
+    3.700061
+   ],
+   "photos": [
+    {
+     "id": "1949601289174667-71",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.201,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15541,
+   "at": [
+    -2071,
+    -1460.1
+   ],
+   "centre": [
+    -2063.2,
+    -1465.5
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2054.4,
+    -1468,
+    -2069.8,
+    -1458.3,
+    -2072.2,
+    -1461.9,
+    -2062.6,
+    -1467.9,
+    -2056.9,
+    -1471.6
+   ],
+   "id": "olijfstraat-146-03",
+   "latLon": [
+    51.063938,
+    3.700088
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15533,
+   "at": [
+    -2066.2,
+    -1452.8
+   ],
+   "centre": [
+    -2055.1,
+    -1460.8
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2047.7,
+    -1462.2,
+    -2065,
+    -1451,
+    -2067.4,
+    -1454.6,
+    -2050.8,
+    -1465.6,
+    -2050.1,
+    -1465.8,
+    -2049.8,
+    -1465.5
+   ],
+   "id": "olijfstraat-146-04",
+   "latLon": [
+    51.063885,
+    3.700143
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-24",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.347,
+      0.764
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15520,
+   "at": [
+    -2056.45,
+    -1438.2
+   ],
+   "centre": [
+    -2049.7,
+    -1441.7
+   ],
+   "width": 4.1,
+   "faces": 146,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": null,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2039.2,
+    -1446.8,
+    -2049.2,
+    -1440.2,
+    -2055.1,
+    -1436.3,
+    -2055.3,
+    -1436.5,
+    -2057.6,
+    -1439.9,
+    -2041.8,
+    -1450.3
+   ],
+   "id": "olijfstraat-146-05",
+   "latLon": [
+    51.06378,
+    3.700255
+   ],
+   "photos": [
+    {
+     "id": "609699515292997-34",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.306,
+      0.784
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15512,
+   "at": [
+    -2024.05,
+    -1389.6
+   ],
+   "centre": [
+    -2015.2,
+    -1395.3
+   ],
+   "width": 5.5,
+   "faces": 146,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -2025.6,
+    -1391.9,
+    -2022.5,
+    -1387.3,
+    -2004.9,
+    -1398.7,
+    -2007.9,
+    -1403.3
+   ],
+   "id": "olijfstraat-146-06",
+   "latLon": [
+    51.063428,
+    3.700625
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15497,
+   "at": [
+    -2015.4,
+    -1376.5
+   ],
+   "centre": [
+    -2006.7,
+    -1381.9
+   ],
+   "width": 5,
+   "faces": 146,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -2014,
+    -1374.4,
+    -2016.8,
+    -1378.6,
+    -2005.5,
+    -1386.1,
+    -2003.6,
+    -1383.3,
+    -2000.4,
+    -1385.1,
+    -1999.7,
+    -1384
+   ],
+   "id": "olijfstraat-146-07",
+   "latLon": [
+    51.063333,
+    3.700724
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15476,
+   "at": [
+    -2004.9,
+    -1360.8
+   ],
+   "centre": [
+    -1998.4,
+    -1365.6
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -1991.4,
+    -1367.2,
+    -2003.7,
+    -1359,
+    -2006.1,
+    -1362.6,
+    -1997.2,
+    -1368.5,
+    -1993.8,
+    -1370.8
+   ],
+   "id": "olijfstraat-146-08",
+   "latLon": [
+    51.06322,
+    3.700844
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15471,
+   "at": [
+    -2002.5,
+    -1357.2
+   ],
+   "centre": [
+    -1993.3,
+    -1363.8
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1984,
+    -1366.9,
+    -2001.3,
+    -1355.4,
+    -2003.7,
+    -1359,
+    -1991.4,
+    -1367.2,
+    -1986.1,
+    -1370.6
+   ],
+   "id": "olijfstraat-146-09",
+   "latLon": [
+    51.063194,
+    3.700871
+   ],
+   "photos": [
+    {
+     "id": "9334591086634098-47",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.28,
+      0.768
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15463,
+   "at": [
+    -1997.9,
+    -1350.2
+   ],
+   "centre": [
+    -1991.6,
+    -1354.3
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -1984.2,
+    -1356.7,
+    -1996.7,
+    -1348.4,
+    -1999.1,
+    -1352,
+    -1986.4,
+    -1360.1
+   ],
+   "id": "olijfstraat-146-10",
+   "latLon": [
+    51.063143,
+    3.700924
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15460,
+   "at": [
+    -1995.3000000000002,
+    -1346.35
+   ],
+   "centre": [
+    -1984.2,
+    -1354.7
+   ],
+   "width": 5,
+   "faces": 146,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1977.3,
+    -1355.2,
+    -1980.2,
+    -1353.3,
+    -1993.9,
+    -1344.3,
+    -1996.7,
+    -1348.4,
+    -1984.2,
+    -1356.7,
+    -1983,
+    -1357.5,
+    -1982.4,
+    -1357.9,
+    -1979.9,
+    -1359.6,
+    -1979.8,
+    -1359.5
+   ],
+   "id": "olijfstraat-146-11",
+   "latLon": [
+    51.063115,
+    3.700954
+   ],
+   "photos": [
+    {
+     "id": "1138726668043322-22",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.347,
+      0.749
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15455,
+   "at": [
+    -1992.5,
+    -1342.1999999999998
+   ],
+   "centre": [
+    -1983.5,
+    -1348.8
+   ],
+   "width": 5,
+   "faces": 146,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -1991.1,
+    -1340.1,
+    -1993.9,
+    -1344.3,
+    -1980.2,
+    -1353.3,
+    -1977.3,
+    -1355.2,
+    -1974.9,
+    -1350.9
+   ],
+   "id": "olijfstraat-146-12",
+   "latLon": [
+    51.063085,
+    3.700986
+   ],
+   "photos": [
+    {
+     "id": "1138726668043322-79",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.206,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15449,
+   "at": [
+    -1986.95,
+    -1333.85
+   ],
+   "centre": [
+    -1978.8,
+    -1338.1
+   ],
+   "width": 5.2,
+   "faces": 146,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    -1969.8,
+    -1341.9,
+    -1977.2,
+    -1337.1,
+    -1979.5,
+    -1335.6,
+    -1985.5,
+    -1331.7,
+    -1988.4,
+    -1336,
+    -1972.5,
+    -1346.6
+   ],
+   "id": "olijfstraat-146-13",
+   "latLon": [
+    51.063025,
+    3.701049
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-17",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.373,
+      0.734
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15446,
+   "at": [
+    -1984,
+    -1329.5
+   ],
+   "centre": [
+    -1978.6,
+    -1333.1
+   ],
+   "width": 5.3,
+   "faces": 146,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1975,
+    -1332.3,
+    -1982.5,
+    -1327.3,
+    -1985.5,
+    -1331.7,
+    -1979.5,
+    -1335.6,
+    -1977.2,
+    -1337.1,
+    -1975.8,
+    -1334.9,
+    -1974.5,
+    -1332.6
+   ],
+   "id": "olijfstraat-146-14",
+   "latLon": [
+    51.062993,
+    3.701083
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-74",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.19,
+      0.713
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15426,
+   "at": [
+    -1981.1,
+    -1325.1999999999998
+   ],
+   "centre": [
+    -1977.4,
+    -1327.7
+   ],
+   "width": 5,
+   "faces": 146,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    -1972.3,
+    -1328.2,
+    -1979.7,
+    -1323.1,
+    -1982.5,
+    -1327.3,
+    -1975,
+    -1332.3
+   ],
+   "id": "olijfstraat-146-15",
+   "latLon": [
+    51.062962,
+    3.701116
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15539,
+   "at": [
+    -1975.85,
+    -1317.25
+   ],
+   "centre": [
+    -1971.3,
+    -1319.5
+   ],
+   "width": 5.2,
+   "faces": 146,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    -1966.8,
+    -1319.8,
+    -1968.2,
+    -1319,
+    -1974.4,
+    -1315.1,
+    -1977.3,
+    -1319.4,
+    -1969.6,
+    -1324
+   ],
+   "id": "olijfstraat-146-16",
+   "latLon": [
+    51.062905,
+    3.701176
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-73",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.208,
+      0.729
+     ]
+    },
+    {
+     "id": "623185367306776-27",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.46,
+      0.538
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15507,
+   "at": [
+    -1968.1999999999998,
+    -1321.9
+   ],
+   "centre": [
+    -1965.7,
+    -1323.4
+   ],
+   "width": 5,
+   "faces": 146,
+   "toStreet": 14.8,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -1959.8,
+    -1324.1,
+    -1966.7,
+    -1319.9,
+    -1966.8,
+    -1319.8,
+    -1969.6,
+    -1324,
+    -1969.3,
+    -1324.2,
+    -1962.2,
+    -1328.5
+   ],
+   "id": "olijfstraat-146-17",
+   "latLon": [
+    51.062938,
+    3.701264
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-64",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.407,
+      0.588
+     ]
+    },
+    {
+     "id": "1360946155247962-17",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.464,
+      0.535
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15505,
+   "at": [
+    -1973.2,
+    -1313.3
+   ],
+   "centre": [
+    -1970.1,
+    -1315.3
+   ],
+   "width": 4.3,
+   "faces": 146,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -1965.9,
+    -1315.5,
+    -1972,
+    -1311.5,
+    -1974.4,
+    -1315.1,
+    -1968.2,
+    -1319
+   ],
+   "id": "olijfstraat-146-18",
+   "latLon": [
+    51.062876,
+    3.701206
+   ],
+   "photos": [
+    {
+     "id": "623185367306776-35",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.469,
+      0.543
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15536,
+   "at": [
+    -2068.6000000000004,
+    -1456.4499999999998
+   ],
+   "centre": [
+    -2059.1,
+    -1463.1
+   ],
+   "width": 4.4,
+   "faces": 147,
+   "toStreet": 7.3,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2050.8,
+    -1465.6,
+    -2067.4,
+    -1454.6,
+    -2069.8,
+    -1458.3,
+    -2054.4,
+    -1468,
+    -2053,
+    -1468.9
+   ],
+   "id": "olijfstraat-147-19",
+   "latLon": [
+    51.063912,
+    3.700116
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15527,
+   "at": [
+    -2061.3,
+    -1445.5500000000002
+   ],
+   "centre": [
+    -2053.1,
+    -1450.4
+   ],
+   "width": 4.4,
+   "faces": 147,
+   "toStreet": 7.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2044.9,
+    -1453.6,
+    -2050.3,
+    -1450,
+    -2059.9,
+    -1443.4,
+    -2060.1,
+    -1443.7,
+    -2062.5,
+    -1447.4,
+    -2047.2,
+    -1457.4,
+    -2047,
+    -1457
+   ],
+   "id": "olijfstraat-147-20",
+   "latLon": [
+    51.063833,
+    3.700199
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15524,
+   "at": [
+    -2058.75,
+    -1441.65
+   ],
+   "centre": [
+    -2048.4,
+    -1448.9
+   ],
+   "width": 4.2,
+   "faces": 147,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -2040.9,
+    -1450.9,
+    -2041.8,
+    -1450.3,
+    -2057.6,
+    -1439.9,
+    -2059.9,
+    -1443.4,
+    -2050.3,
+    -1450,
+    -2044.9,
+    -1453.6,
+    -2043.3,
+    -1454.4
+   ],
+   "id": "olijfstraat-147-21",
+   "latLon": [
+    51.063805,
+    3.700228
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15501,
+   "at": [
+    -2018.25,
+    -1380.85
+   ],
+   "centre": [
+    -2003.2,
+    -1390.5
+   ],
+   "width": 5.4,
+   "faces": 147,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1997.3,
+    -1396.3,
+    -1995.4,
+    -1392.8,
+    -1997.6,
+    -1391.4,
+    -1998.6,
+    -1390.7,
+    -2000,
+    -1393.3,
+    -2005,
+    -1390.6,
+    -2003.1,
+    -1387.7,
+    -2005.5,
+    -1386.1,
+    -2016.8,
+    -1378.6,
+    -2019.7,
+    -1383.1,
+    -2005.8,
+    -1392.1,
+    -1999.4,
+    -1396.3,
+    -1997.9,
+    -1397.2
+   ],
+   "id": "olijfstraat-147-22",
+   "latLon": [
+    51.063365,
+    3.700691
+   ],
+   "photos": [
+    {
+     "id": "668045998895760-93",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.137,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15488,
+   "at": [
+    -2009.85,
+    -1368.3000000000002
+   ],
+   "centre": [
+    -2001.1,
+    -1374.1
+   ],
+   "width": 5,
+   "faces": 147,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -1993.8,
+    -1375.9,
+    -2008.5,
+    -1366.2,
+    -2011.2,
+    -1370.4,
+    -1999.6,
+    -1378.1,
+    -1998.4,
+    -1376.1,
+    -1995.3,
+    -1378.1
+   ],
+   "id": "olijfstraat-147-23",
+   "latLon": [
+    51.063274,
+    3.700787
+   ],
+   "photos": [
+    {
+     "id": "990730219093197-83",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.202,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15467,
+   "at": [
+    -2000.1999999999998,
+    -1353.7
+   ],
+   "centre": [
+    -1988.9,
+    -1360
+   ],
+   "width": 4,
+   "faces": 147,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -1981.9,
+    -1363.1,
+    -1984.6,
+    -1361.3,
+    -1984.9,
+    -1361.1,
+    -1986.4,
+    -1360.1,
+    -1999.1,
+    -1352,
+    -2001.3,
+    -1355.4,
+    -1984,
+    -1366.9
+   ],
+   "id": "olijfstraat-147-24",
+   "latLon": [
+    51.063168,
+    3.700898
+   ],
+   "photos": [
+    {
+     "id": "9334591086634098-96",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.315,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15452,
+   "at": [
+    -1989.75,
+    -1338.05
+   ],
+   "centre": [
+    -1981.7,
+    -1343.4
+   ],
+   "width": 4.9,
+   "faces": 147,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1988.4,
+    -1336,
+    -1991.1,
+    -1340.1,
+    -1974.9,
+    -1350.9,
+    -1972.5,
+    -1346.6
+   ],
+   "id": "olijfstraat-147-25",
+   "latLon": [
+    51.063055,
+    3.701017
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15496,
+   "at": [
+    -1973.65,
+    -1330.25
+   ],
+   "centre": [
+    -1971.2,
+    -1332.3
+   ],
+   "width": 4.9,
+   "faces": 147,
+   "toStreet": 15,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    -1965,
+    -1333.3,
+    -1971.9,
+    -1328.5,
+    -1972.3,
+    -1328.2,
+    -1975,
+    -1332.3,
+    -1974.5,
+    -1332.6,
+    -1972.4,
+    -1334,
+    -1967.3,
+    -1337.4
+   ],
+   "id": "olijfstraat-147-26",
+   "latLon": [
+    51.062999,
+    3.701201
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-82",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.419,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15582,
+   "at": [
+    -1978.5,
+    -1321.25
+   ],
+   "centre": [
+    -1974.7,
+    -1323.7
+   ],
+   "width": 4.4,
+   "faces": 147,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -1969.6,
+    -1324,
+    -1977.3,
+    -1319.4,
+    -1979.7,
+    -1323.1,
+    -1972.3,
+    -1328.2
+   ],
+   "id": "olijfstraat-147-27",
+   "latLon": [
+    51.062933,
+    3.701146
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-21",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.373,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15500,
+   "at": [
+    -1970.9499999999998,
+    -1326.1
+   ],
+   "centre": [
+    -1968.4,
+    -1327.8
+   ],
+   "width": 5,
+   "faces": 147,
+   "toStreet": 14.9,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.2,
+   "kind": "house",
+   "ring": [
+    -1962.2,
+    -1328.5,
+    -1969.3,
+    -1324.2,
+    -1969.6,
+    -1324,
+    -1972.3,
+    -1328.2,
+    -1971.9,
+    -1328.5,
+    -1965,
+    -1333.3
+   ],
+   "id": "olijfstraat-147-28",
+   "latLon": [
+    51.062969,
+    3.701232
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-43",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.418,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15457,
+   "at": [
+    -1970.05,
+    -1308.5
+   ],
+   "centre": [
+    -1965.2,
+    -1306.1
+   ],
+   "width": 7.2,
+   "faces": 147,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 5,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -1963.3,
+    -1311.4,
+    -1959.4,
+    -1305.1,
+    -1962.8,
+    -1302.9,
+    -1964,
+    -1302.1,
+    -1964.1,
+    -1302,
+    -1966.1,
+    -1302.5,
+    -1966.1,
+    -1302.6,
+    -1968.1,
+    -1305.5,
+    -1972,
+    -1311.5,
+    -1965.9,
+    -1315.5
+   ],
+   "id": "olijfstraat-147-29",
+   "latLon": [
+    51.062841,
+    3.701242
+   ],
+   "photos": [
+    {
+     "id": "3909420619346243-45",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0.151,
+      0.992
+     ]
+    },
+    {
+     "id": "623185367306776-48",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.429,
+      0.569
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15517,
+   "at": [
+    -2054,
+    -1434.55
+   ],
+   "centre": [
+    -2043,
+    -1443
+   ],
+   "width": 4.1,
+   "faces": 148,
+   "toStreet": 7.1,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -2035.2,
+    -1444.5,
+    -2052.9,
+    -1432.8,
+    -2055.1,
+    -1436.3,
+    -2049.2,
+    -1440.2,
+    -2039.2,
+    -1446.8,
+    -2037.9,
+    -1447.6,
+    -2037.5,
+    -1447.9,
+    -2037.2,
+    -1447.5
+   ],
+   "id": "olijfstraat-148-30",
+   "latLon": [
+    51.063753,
+    3.700283
+   ],
+   "photos": [
+    {
+     "id": "609699515292997-93",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.265,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15511,
+   "at": [
+    -1961.35,
+    -1308.25
+   ],
+   "centre": [
+    -1959.7,
+    -1315.2
+   ],
+   "width": 7.4,
+   "faces": 148,
+   "toStreet": 12.9,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -1952.4,
+    -1311.1,
+    -1952.7,
+    -1309.4,
+    -1952.8,
+    -1309.5,
+    -1959.4,
+    -1305.1,
+    -1963.3,
+    -1311.4,
+    -1965.9,
+    -1315.5,
+    -1968.2,
+    -1319,
+    -1966.8,
+    -1319.8,
+    -1966.7,
+    -1319.9,
+    -1959.8,
+    -1324.1,
+    -1958.2,
+    -1321.3,
+    -1957.9,
+    -1320.7,
+    -1952.5,
+    -1311.1
+   ],
+   "id": "olijfstraat-148-31",
+   "latLon": [
+    51.062839,
+    3.701342
+   ],
+   "photos": [
+    {
+     "id": "640677578442273-50",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.399,
+      0.6
+     ]
+    },
+    {
+     "id": "1360946155247962-50",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.404,
+      0.593
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16065,
+   "at": [
+    -2117,
+    -1577.3
+   ],
+   "centre": [
+    -2115.4,
+    -1578.4
+   ],
+   "width": 14.8,
+   "faces": 152,
+   "toStreet": 14.8,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2113.5,
+    -1570.8,
+    -2120.5,
+    -1583.8,
+    -2121.1,
+    -1584.9,
+    -2117,
+    -1586.9,
+    -2108.3,
+    -1572.7,
+    -2112,
+    -1571.4
+   ],
+   "id": "olijfstraat-152-32",
+   "latLon": [
+    51.064786,
+    3.699562
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15558,
+   "at": [
+    -2099.9,
+    -1557
+   ],
+   "centre": [
+    -2092.7,
+    -1547.9
+   ],
+   "width": 10.7,
+   "faces": 159,
+   "toStreet": 16.6,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2081.8,
+    -1541.9,
+    -2080.8,
+    -1540.1,
+    -2091.7,
+    -1535.6,
+    -2093.7,
+    -1540.8,
+    -2095.9,
+    -1546.5,
+    -2096.3,
+    -1547.6,
+    -2098,
+    -1552,
+    -2101.8,
+    -1562,
+    -2094.5,
+    -1564.7
+   ],
+   "id": "olijfstraat-159-01",
+   "latLon": [
+    51.064639,
+    3.699758
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-68",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.314,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15603,
+   "at": [
+    -2107.6,
+    -1552.65
+   ],
+   "centre": [
+    -2106.3,
+    -1556.7
+   ],
+   "width": 7.8,
+   "faces": 159,
+   "toStreet": 7.8,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -2098,
+    -1552,
+    -2106.2,
+    -1549,
+    -2109,
+    -1556.3,
+    -2109.4,
+    -1557.3,
+    -2109.5,
+    -1557.4,
+    -2108.4,
+    -1559.7,
+    -2108.3,
+    -1559.6,
+    -2101.8,
+    -1562
+   ],
+   "id": "olijfstraat-159-02",
+   "latLon": [
+    51.064608,
+    3.69967
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-81",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.092,
+      0.811
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15600,
+   "at": [
+    -2101.1499999999996,
+    -1535.2
+   ],
+   "centre": [
+    -2096.9,
+    -1536.7
+   ],
+   "width": 6,
+   "faces": 159,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -2100.1,
+    -1532.4,
+    -2102.2,
+    -1538,
+    -2093.7,
+    -1540.8,
+    -2091.7,
+    -1535.6
+   ],
+   "id": "olijfstraat-159-03",
+   "latLon": [
+    51.064481,
+    3.699744
+   ],
+   "photos": [
+    {
+     "id": "2201512726912939-110",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.294,
+      0.612
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15596,
+   "at": [
+    -2099.05,
+    -1529.6
+   ],
+   "centre": [
+    -2093.4,
+    -1531.6
+   ],
+   "width": 6,
+   "faces": 159,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -2091.6,
+    -1535.2,
+    -2089.6,
+    -1529.9,
+    -2089.5,
+    -1529.9,
+    -2098,
+    -1526.8,
+    -2100.1,
+    -1532.4,
+    -2091.7,
+    -1535.6
+   ],
+   "id": "olijfstraat-159-04",
+   "latLon": [
+    51.064441,
+    3.699768
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-37",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.378,
+      0.673
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15639,
+   "at": [
+    -2090.6,
+    -1532.5500000000002
+   ],
+   "centre": [
+    -2088.1,
+    -1532.9
+   ],
+   "width": 5.7,
+   "faces": 159,
+   "toStreet": 16.7,
+   "floors": 2,
+   "eaves": 6.2,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2083.8,
+    -1532,
+    -2089.5,
+    -1529.9,
+    -2089.6,
+    -1529.9,
+    -2091.6,
+    -1535.2,
+    -2085.9,
+    -1537.5
+   ],
+   "id": "olijfstraat-159-05",
+   "latLon": [
+    51.064462,
+    3.699864
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-54",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.421,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15642,
+   "at": [
+    -2088.5,
+    -1527.25
+   ],
+   "centre": [
+    -2084.8,
+    -1527.9
+   ],
+   "width": 5.7,
+   "faces": 159,
+   "toStreet": 16.8,
+   "floors": 2,
+   "eaves": 5.9,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2081.6,
+    -1526.5,
+    -2087.5,
+    -1524.6,
+    -2089.5,
+    -1529.9,
+    -2083.8,
+    -1532,
+    -2081.6,
+    -1526.6
+   ],
+   "id": "olijfstraat-159-06",
+   "latLon": [
+    51.064424,
+    3.699888
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-73",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.415,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15574,
+   "at": [
+    -2088.35,
+    -1500.7
+   ],
+   "centre": [
+    -2064.5,
+    -1506.6
+   ],
+   "width": 12.2,
+   "faces": 159,
+   "toStreet": 7.6,
+   "floors": 1,
+   "eaves": 0.5,
+   "top": 7.4,
+   "kind": "house",
+   "ring": [
+    -2056.1,
+    -1506.5,
+    -2056.7,
+    -1506.1,
+    -2058.2,
+    -1505.2,
+    -2059.9,
+    -1504.4,
+    -2060.8,
+    -1504,
+    -2062.9,
+    -1503.3,
+    -2063.1,
+    -1503.2,
+    -2063.9,
+    -1503,
+    -2086.2,
+    -1495,
+    -2090.5,
+    -1506.4,
+    -2068,
+    -1515,
+    -2064.6,
+    -1505.9,
+    -2061.1,
+    -1507.4,
+    -2064.3,
+    -1515.8,
+    -2060.2,
+    -1517.2,
+    -2056,
+    -1507
+   ],
+   "id": "olijfstraat-159-07",
+   "latLon": [
+    51.064232,
+    3.69989
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15566,
+   "at": [
+    -2083.6000000000004,
+    -1487.9
+   ],
+   "centre": [
+    -2071,
+    -1490.5
+   ],
+   "width": 4.5,
+   "faces": 159,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2069.3,
+    -1493.4,
+    -2068.3,
+    -1491.2,
+    -2067.4,
+    -1491.6,
+    -2066.1,
+    -1492,
+    -2065,
+    -1489.3,
+    -2060.4,
+    -1492,
+    -2059.6,
+    -1490.4,
+    -2080.8,
+    -1480.3,
+    -2081.7,
+    -1482.7,
+    -2082.6,
+    -1485.3,
+    -2082.8,
+    -1485.8,
+    -2084.4,
+    -1490,
+    -2068.3,
+    -1496.4,
+    -2066.8,
+    -1497,
+    -2066.6,
+    -1496.3,
+    -2065.9,
+    -1494.7
+   ],
+   "id": "olijfstraat-159-08",
+   "latLon": [
+    51.064139,
+    3.699944
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15550,
+   "at": [
+    -2077.5,
+    -1471.5
+   ],
+   "centre": [
+    -2066.5,
+    -1478.9
+   ],
+   "width": 4.5,
+   "faces": 159,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    -2059.6,
+    -1480.4,
+    -2061.2,
+    -1479.4,
+    -2076.7,
+    -1469.4,
+    -2078.3,
+    -1473.6,
+    -2064.5,
+    -1482.3,
+    -2063.5,
+    -1482.9,
+    -2061.9,
+    -1484
+   ],
+   "id": "olijfstraat-159-09",
+   "latLon": [
+    51.064021,
+    3.700014
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15608,
+   "at": [
+    -2105.2,
+    -1546.25
+   ],
+   "centre": [
+    -2099.6,
+    -1547
+   ],
+   "width": 5.9,
+   "faces": 160,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": 12,
+   "kind": "house",
+   "ring": [
+    -2095.9,
+    -1546.5,
+    -2097.5,
+    -1546,
+    -2097.8,
+    -1547.1,
+    -2100.6,
+    -1546.1,
+    -2100.1,
+    -1545,
+    -2104.2,
+    -1543.5,
+    -2106.2,
+    -1549,
+    -2098,
+    -1552,
+    -2096.3,
+    -1547.6
+   ],
+   "id": "olijfstraat-160-10",
+   "latLon": [
+    51.064561,
+    3.699697
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15605,
+   "at": [
+    -2103.2,
+    -1540.75
+   ],
+   "centre": [
+    -2098.7,
+    -1543.7
+   ],
+   "width": 5.9,
+   "faces": 160,
+   "toStreet": 7.8,
+   "floors": 2,
+   "eaves": 5.7,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    -2093.7,
+    -1540.8,
+    -2102.2,
+    -1538,
+    -2104.2,
+    -1543.5,
+    -2100.1,
+    -1545,
+    -2097.5,
+    -1545.9,
+    -2097.5,
+    -1546,
+    -2095.9,
+    -1546.5
+   ],
+   "id": "olijfstraat-160-11",
+   "latLon": [
+    51.064522,
+    3.69972
+   ],
+   "photos": [
+    {
+     "id": "2201512726912939-59",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.29,
+      0.775
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15592,
+   "at": [
+    -2097,
+    -1524.1
+   ],
+   "centre": [
+    -2092.8,
+    -1525.7
+   ],
+   "width": 5.8,
+   "faces": 160,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -2098,
+    -1526.8,
+    -2089.5,
+    -1529.9,
+    -2087.5,
+    -1524.6,
+    -2096,
+    -1521.4
+   ],
+   "id": "olijfstraat-160-12",
+   "latLon": [
+    51.064401,
+    3.699791
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-78",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.296,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15584,
+   "at": [
+    -2093.4,
+    -1514.35
+   ],
+   "centre": [
+    -2074.9,
+    -1524.8
+   ],
+   "width": 5.2,
+   "faces": 160,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2064.3,
+    -1529.8,
+    -2060.8,
+    -1523.7,
+    -2061.1,
+    -1523.5,
+    -2061.9,
+    -1523,
+    -2082.1,
+    -1515.6,
+    -2092.5,
+    -1511.9,
+    -2094.3,
+    -1516.8,
+    -2094.6,
+    -1517.4,
+    -2072.3,
+    -1524.8,
+    -2074.6,
+    -1528.9,
+    -2075.6,
+    -1530.8,
+    -2076.3,
+    -1532.1,
+    -2073.3,
+    -1533.7,
+    -2071.3,
+    -1530.1,
+    -2072.8,
+    -1529.2,
+    -2071.2,
+    -1525.8
+   ],
+   "id": "olijfstraat-160-13",
+   "latLon": [
+    51.064331,
+    3.699832
+   ],
+   "photos": [
+    {
+     "id": "969545228182630-32",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.402,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15578,
+   "at": [
+    -2091.5,
+    -1509.15
+   ],
+   "centre": [
+    -2080.7,
+    -1513.5
+   ],
+   "width": 5.9,
+   "faces": 160,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2068,
+    -1515,
+    -2090.5,
+    -1506.4,
+    -2092.5,
+    -1511.9,
+    -2082.1,
+    -1515.6,
+    -2081.4,
+    -1513.8,
+    -2069.5,
+    -1518.5
+   ],
+   "id": "olijfstraat-160-14",
+   "latLon": [
+    51.064293,
+    3.699854
+   ],
+   "photos": [
+    {
+     "id": "969545228182630-71",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.288,
+      0.715
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15571,
+   "at": [
+    -2085.3,
+    -1492.5
+   ],
+   "centre": [
+    -2072,
+    -1496.8
+   ],
+   "width": 5.3,
+   "faces": 160,
+   "toStreet": 7.5,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    -2066.8,
+    -1497,
+    -2068.3,
+    -1496.4,
+    -2084.4,
+    -1490,
+    -2086.2,
+    -1495,
+    -2063.9,
+    -1503,
+    -2062.1,
+    -1499.1
+   ],
+   "id": "olijfstraat-160-15",
+   "latLon": [
+    51.064172,
+    3.699925
+   ],
+   "photos": [
+    {
+     "id": "959523262935754-81",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.23,
+      0.718
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15554,
+   "at": [
+    -2079.55,
+    -1476.9499999999998
+   ],
+   "centre": [
+    -2067.9,
+    -1483.3
+   ],
+   "width": 7.2,
+   "faces": 160,
+   "toStreet": 7.5,
+   "floors": 3,
+   "eaves": 11,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2064.5,
+    -1482.3,
+    -2078.3,
+    -1473.6,
+    -2080.8,
+    -1480.3,
+    -2059.6,
+    -1490.4,
+    -2058.8,
+    -1489,
+    -2065.4,
+    -1484.2
+   ],
+   "id": "olijfstraat-160-16",
+   "latLon": [
+    51.06406,
+    3.699991
+   ],
+   "photos": [
+    {
+     "id": "845430741046011-84",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.107,
+      0.791
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15588,
+   "at": [
+    -2095.3,
+    -1519.4
+   ],
+   "centre": [
+    -2084.4,
+    -1523.9
+   ],
+   "width": 4.2,
+   "faces": 161,
+   "toStreet": 7.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2074.6,
+    -1528.9,
+    -2072.3,
+    -1524.8,
+    -2094.6,
+    -1517.4,
+    -2096,
+    -1521.4,
+    -2087.5,
+    -1524.6,
+    -2081.6,
+    -1526.5
+   ],
+   "id": "olijfstraat-161-17",
+   "latLon": [
+    51.064367,
+    3.699811
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-109",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.399,
+      0.575
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15318,
+   "at": [
+    -1965.55,
+    -1287.65
+   ],
+   "centre": [
+    -1962.7,
+    -1279.6
+   ],
+   "width": 4.8,
+   "faces": 249,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -1963.5,
+    -1276.3,
+    -1962.7,
+    -1274.2,
+    -1961.3,
+    -1274.9,
+    -1957.5,
+    -1276.9,
+    -1963.3,
+    -1288.5,
+    -1967.8,
+    -1286.8
+   ],
+   "id": "olijfstraat-249-01",
+   "latLon": [
+    51.06269,
+    3.701294
+   ],
+   "photos": [
+    {
+     "id": "3909420619346243-157",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.44,
+      0.563
+     ]
+    },
+    {
+     "id": "9041562832622623-182",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.397,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16803,
+   "at": [
+    -1970.8,
+    -1285.6999999999998
+   ],
+   "centre": [
+    -1974.2,
+    -1280.9
+   ],
+   "width": 6.4,
+   "faces": 250,
+   "toStreet": 8.9,
+   "floors": 2,
+   "eaves": 8.3,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1983,
+    -1281,
+    -1975.7,
+    -1271.8,
+    -1963.5,
+    -1276.3,
+    -1967.8,
+    -1286.8,
+    -1973.8,
+    -1284.6,
+    -1975.4,
+    -1283.9,
+    -1979.9,
+    -1282.2
+   ],
+   "id": "olijfstraat-250-02",
+   "latLon": [
+    51.062676,
+    3.701234
+   ],
+   "photos": [
+    {
+     "id": "640677578442273-158",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.361,
+      0.634
+     ]
+    },
+    {
+     "id": "1360946155247962-152",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.367,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15537,
+   "at": [
+    -2085.85,
+    -1459.8
+   ],
+   "centre": [
+    -2098,
+    -1452.9
+   ],
+   "width": 4.8,
+   "faces": 326,
+   "toStreet": 5.1,
+   "floors": 1,
+   "eaves": 4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2084.5,
+    -1457.8,
+    -2094.2,
+    -1450.1,
+    -2101,
+    -1444.6,
+    -2105.9,
+    -1440.8,
+    -2108.9,
+    -1444.3,
+    -2101.7,
+    -1450.3,
+    -2099.7,
+    -1451.9,
+    -2102.1,
+    -1455.8,
+    -2101.3,
+    -1456.2,
+    -2102.2,
+    -1457.5,
+    -2087.6,
+    -1463.1,
+    -2087.2,
+    -1461.8
+   ],
+   "id": "olijfstraat-326-01",
+   "latLon": [
+    51.063936,
+    3.699919
+   ],
+   "photos": [
+    {
+     "id": "1949601289174667-253",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.364,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15534,
+   "at": [
+    -2082.35,
+    -1454.6
+   ],
+   "centre": [
+    -2099.4,
+    -1442.3
+   ],
+   "width": 7.7,
+   "faces": 326,
+   "toStreet": 5.1,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    -2080.2,
+    -1451.4,
+    -2092.9,
+    -1441.1,
+    -2105.9,
+    -1430.5,
+    -2108,
+    -1433,
+    -2109.6,
+    -1435,
+    -2111,
+    -1436.7,
+    -2107.5,
+    -1439.5,
+    -2105.9,
+    -1440.8,
+    -2101,
+    -1444.6,
+    -2098.8,
+    -1441.8,
+    -2092.4,
+    -1447,
+    -2094.2,
+    -1450.1,
+    -2084.5,
+    -1457.8
+   ],
+   "id": "olijfstraat-326-02",
+   "latLon": [
+    51.063898,
+    3.699959
+   ],
+   "photos": [
+    {
+     "id": "1949601289174667-213",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.336,
+      0.729
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15531,
+   "at": [
+    -2078.8,
+    -1449.35
+   ],
+   "centre": [
+    -2085.7,
+    -1443.5
+   ],
+   "width": 5,
+   "faces": 326,
+   "toStreet": 5.1,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -2087.3,
+    -1440.1,
+    -2090.8,
+    -1437.6,
+    -2092.9,
+    -1441.1,
+    -2080.2,
+    -1451.4,
+    -2077.4,
+    -1447.3
+   ],
+   "id": "olijfstraat-326-03",
+   "latLon": [
+    51.06386,
+    3.699999
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-274",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.394,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15528,
+   "at": [
+    -2076.1000000000004,
+    -1445.35
+   ],
+   "centre": [
+    -2085.9,
+    -1439.4
+   ],
+   "width": 4.7,
+   "faces": 326,
+   "toStreet": 5.2,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2074.8,
+    -1443.4,
+    -2091.4,
+    -1432.1,
+    -2093.5,
+    -1435.7,
+    -2090.8,
+    -1437.6,
+    -2087.3,
+    -1440.1,
+    -2077.4,
+    -1447.3
+   ],
+   "id": "olijfstraat-326-04",
+   "latLon": [
+    51.063831,
+    3.70003
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-248",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.356,
+      0.626
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15525,
+   "at": [
+    -2073.5,
+    -1441.45
+   ],
+   "centre": [
+    -2083.1,
+    -1434.5
+   ],
+   "width": 4.7,
+   "faces": 326,
+   "toStreet": 5.2,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2072.2,
+    -1439.5,
+    -2088.2,
+    -1429,
+    -2088.9,
+    -1428.5,
+    -2091.4,
+    -1432.1,
+    -2074.8,
+    -1443.4
+   ],
+   "id": "olijfstraat-326-05",
+   "latLon": [
+    51.063803,
+    3.70006
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-217",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.384,
+      0.635
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15518,
+   "at": [
+    -2068.1,
+    -1433.35
+   ],
+   "centre": [
+    -2079.2,
+    -1426.2
+   ],
+   "width": 5,
+   "faces": 326,
+   "toStreet": 5.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2066.7,
+    -1431.3,
+    -2084.4,
+    -1419.7,
+    -2086,
+    -1422.2,
+    -2083.9,
+    -1423.4,
+    -2084.9,
+    -1425.1,
+    -2069.5,
+    -1435.4
+   ],
+   "id": "olijfstraat-326-06",
+   "latLon": [
+    51.063744,
+    3.700122
+   ],
+   "photos": [
+    {
+     "id": "609699515292997-261",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.365,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15515,
+   "at": [
+    -2065.3,
+    -1429.1999999999998
+   ],
+   "centre": [
+    -2076.7,
+    -1421.6
+   ],
+   "width": 5,
+   "faces": 326,
+   "toStreet": 5.3,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -2063.9,
+    -1427.1,
+    -2076.8,
+    -1418.4,
+    -2082.8,
+    -1414.4,
+    -2085.8,
+    -1418.7,
+    -2084.4,
+    -1419.7,
+    -2066.7,
+    -1431.3
+   ],
+   "id": "olijfstraat-326-07",
+   "latLon": [
+    51.063714,
+    3.700154
+   ],
+   "photos": [
+    {
+     "id": "609699515292997-229",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.363,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15502,
+   "at": [
+    -2055.3,
+    -1414.1
+   ],
+   "centre": [
+    -2068.4,
+    -1405.2
+   ],
+   "width": 6,
+   "faces": 326,
+   "toStreet": 5.5,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2053.6,
+    -1411.6,
+    -2069.8,
+    -1400.9,
+    -2070.6,
+    -1400.4,
+    -2070.9,
+    -1400.8,
+    -2071.8,
+    -1399.6,
+    -2075.2,
+    -1404.8,
+    -2073.9,
+    -1405.6,
+    -2072.6,
+    -1406.5,
+    -2057,
+    -1416.6
+   ],
+   "id": "olijfstraat-326-08",
+   "latLon": [
+    51.063605,
+    3.700268
+   ],
+   "photos": [
+    {
+     "id": "1123888082845685-218",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.356,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15494,
+   "at": [
+    -2049.6,
+    -1405.6
+   ],
+   "centre": [
+    -2057.2,
+    -1400.6
+   ],
+   "width": 5.3,
+   "faces": 326,
+   "toStreet": 5.6,
+   "floors": 1,
+   "eaves": 3,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2048.1,
+    -1403.4,
+    -2063.2,
+    -1393.2,
+    -2066.3,
+    -1397.8,
+    -2051.1,
+    -1407.8
+   ],
+   "id": "olijfstraat-326-09",
+   "latLon": [
+    51.063544,
+    3.700333
+   ],
+   "photos": [
+    {
+     "id": "519387201180125-258",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.347,
+      0.627
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15485,
+   "at": [
+    -2041.0500000000002,
+    -1392.75
+   ],
+   "centre": [
+    -2058.2,
+    -1382.4
+   ],
+   "width": 12.1,
+   "faces": 326,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 6.2,
+   "kind": "house",
+   "ring": [
+    -2037.7,
+    -1387.7,
+    -2061.3,
+    -1372,
+    -2062.2,
+    -1373.1,
+    -2065.1,
+    -1376.6,
+    -2062.1,
+    -1378.7,
+    -2059.5,
+    -1380.6,
+    -2061,
+    -1382.8,
+    -2062.3,
+    -1384.7,
+    -2063.1,
+    -1385.9,
+    -2061.6,
+    -1386.9,
+    -2044.4,
+    -1397.8
+   ],
+   "id": "olijfstraat-326-10",
+   "latLon": [
+    51.063451,
+    3.700431
+   ],
+   "photos": [
+    {
+     "id": "1377599137018588-262",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.09,
+      0.731
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15478,
+   "at": [
+    -2035,
+    -1383.65
+   ],
+   "centre": [
+    -2046.5,
+    -1376.4
+   ],
+   "width": 4.2,
+   "faces": 326,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 4,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    -2033.8,
+    -1381.9,
+    -2044.3,
+    -1375.2,
+    -2048.8,
+    -1372.3,
+    -2052.8,
+    -1369.7,
+    -2057.2,
+    -1366.9,
+    -2061.3,
+    -1372,
+    -2037.7,
+    -1387.7,
+    -2036.2,
+    -1385.4
+   ],
+   "id": "olijfstraat-326-11",
+   "latLon": [
+    51.063385,
+    3.7005
+   ],
+   "photos": [
+    {
+     "id": "1377599137018588-197",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.431,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15420,
+   "at": [
+    -2019,
+    -1359.65
+   ],
+   "centre": [
+    -2023.5,
+    -1356.7
+   ],
+   "width": 5.4,
+   "faces": 326,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -2017.5,
+    -1357.4,
+    -2026.5,
+    -1351.4,
+    -2029.6,
+    -1355.9,
+    -2020.5,
+    -1361.9
+   ],
+   "id": "olijfstraat-326-12",
+   "latLon": [
+    51.063211,
+    3.700683
+   ],
+   "photos": [
+    {
+     "id": "990730219093197-208",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.388,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15369,
+   "at": [
+    -2016,
+    -1355.15
+   ],
+   "centre": [
+    -2025.5,
+    -1348.8
+   ],
+   "width": 5.4,
+   "faces": 326,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -2014.5,
+    -1352.9,
+    -2027.7,
+    -1343.8,
+    -2027.7,
+    -1343.8,
+    -2027.8,
+    -1343.9,
+    -2031.1,
+    -1348.4,
+    -2031,
+    -1348.5,
+    -2026.5,
+    -1351.4,
+    -2017.5,
+    -1357.4
+   ],
+   "id": "olijfstraat-326-13",
+   "latLon": [
+    51.063179,
+    3.700717
+   ],
+   "photos": [
+    {
+     "id": "9334591086634098-275",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.378,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15365,
+   "at": [
+    -2009.9,
+    -1346
+   ],
+   "centre": [
+    -2020,
+    -1338.9
+   ],
+   "width": 5.3,
+   "faces": 326,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    -2008.4,
+    -1343.8,
+    -2017.6,
+    -1337.5,
+    -2018.6,
+    -1336.9,
+    -2023.4,
+    -1333.6,
+    -2025,
+    -1335.9,
+    -2026.8,
+    -1334.8,
+    -2028.6,
+    -1336.7,
+    -2019.8,
+    -1342.6,
+    -2011.4,
+    -1348.2
+   ],
+   "id": "olijfstraat-326-14",
+   "latLon": [
+    51.063113,
+    3.700787
+   ],
+   "photos": [
+    {
+     "id": "9334591086634098-207",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.387,
+      0.641
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15361,
+   "at": [
+    -2004.1,
+    -1337.3000000000002
+   ],
+   "centre": [
+    -2011.8,
+    -1333.2
+   ],
+   "width": 4.6,
+   "faces": 326,
+   "toStreet": 6.2,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 13.4,
+   "kind": "house",
+   "ring": [
+    -2002.8,
+    -1335.4,
+    -2014.7,
+    -1327.3,
+    -2017.5,
+    -1331.3,
+    -2015.7,
+    -1332.6,
+    -2014.9,
+    -1333.2,
+    -2005.4,
+    -1339.2
+   ],
+   "id": "olijfstraat-326-15",
+   "latLon": [
+    51.06305,
+    3.700853
+   ],
+   "photos": [
+    {
+     "id": "1138726668043322-240",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.346,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15357,
+   "at": [
+    -1999,
+    -1329.55
+   ],
+   "centre": [
+    -2007.4,
+    -1324.5
+   ],
+   "width": 4.7,
+   "faces": 326,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 0.1,
+   "top": 13.5,
+   "kind": "house",
+   "ring": [
+    -1997.7,
+    -1327.6,
+    -2012.4,
+    -1317.7,
+    -2015.3,
+    -1321.4,
+    -2011.2,
+    -1324.2,
+    -2000.3,
+    -1331.5
+   ],
+   "id": "olijfstraat-326-16",
+   "latLon": [
+    51.062993,
+    3.700911
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-278",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.402,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15405,
+   "at": [
+    -1996.4,
+    -1325.65
+   ],
+   "centre": [
+    -2005.7,
+    -1319.1
+   ],
+   "width": 4.7,
+   "faces": 326,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    -1995.1,
+    -1323.7,
+    -2007.9,
+    -1315.1,
+    -2009.5,
+    -1314,
+    -2011.4,
+    -1316.5,
+    -2012.4,
+    -1317.7,
+    -1997.7,
+    -1327.6
+   ],
+   "id": "olijfstraat-326-17",
+   "latLon": [
+    51.062965,
+    3.700941
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-252",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.347,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15394,
+   "at": [
+    -1993.8,
+    -1321.75
+   ],
+   "centre": [
+    -2003.4,
+    -1315
+   ],
+   "width": 4.7,
+   "faces": 326,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1992.5,
+    -1319.8,
+    -2006.6,
+    -1310.3,
+    -2007.3,
+    -1311.2,
+    -2007.9,
+    -1312,
+    -2006.3,
+    -1313,
+    -2007.9,
+    -1315.1,
+    -1995.1,
+    -1323.7
+   ],
+   "id": "olijfstraat-326-18",
+   "latLon": [
+    51.062937,
+    3.700971
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-218",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.374,
+      0.654
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15388,
+   "at": [
+    -1991.15,
+    -1317.8
+   ],
+   "centre": [
+    -1998.2,
+    -1313.2
+   ],
+   "width": 4.8,
+   "faces": 326,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 0.7,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1989.8,
+    -1315.8,
+    -2003.8,
+    -1306.7,
+    -2006.6,
+    -1310.3,
+    -1992.5,
+    -1319.8
+   ],
+   "id": "olijfstraat-326-19",
+   "latLon": [
+    51.062908,
+    3.701001
+   ],
+   "photos": [
+    {
+     "id": "947116807186225-193",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.427,
+      0.596
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15374,
+   "at": [
+    -1988.3,
+    -1313.55
+   ],
+   "centre": [
+    -1996.8,
+    -1308.4
+   ],
+   "width": 5.4,
+   "faces": 326,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1986.8,
+    -1311.3,
+    -2000.8,
+    -1302.9,
+    -2002.7,
+    -1305.4,
+    -2003.8,
+    -1306.7,
+    -1989.8,
+    -1315.8
+   ],
+   "id": "olijfstraat-326-20",
+   "latLon": [
+    51.062878,
+    3.701034
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-253",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.322,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15414,
+   "at": [
+    -1985.6,
+    -1309.5
+   ],
+   "centre": [
+    -1994,
+    -1304.6
+   ],
+   "width": 4.3,
+   "faces": 326,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 11.9,
+   "kind": "house",
+   "ring": [
+    -1986.8,
+    -1311.3,
+    -1984.4,
+    -1307.7,
+    -1997.7,
+    -1299,
+    -2000.2,
+    -1302.2,
+    -2000.8,
+    -1302.9
+   ],
+   "id": "olijfstraat-326-21",
+   "latLon": [
+    51.062848,
+    3.701065
+   ],
+   "photos": [
+    {
+     "id": "1150059219633790-218",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.384,
+      0.637
+     ]
+    },
+    {
+     "id": "1378251323621378-280",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.475,
+      0.526
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15521,
+   "at": [
+    -2070.85,
+    -1437.45
+   ],
+   "centre": [
+    -2082.8,
+    -1430
+   ],
+   "width": 4.9,
+   "faces": 327,
+   "toStreet": 5.3,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2069.5,
+    -1435.4,
+    -2084.9,
+    -1425.1,
+    -2086.5,
+    -1424.1,
+    -2089.4,
+    -1428.2,
+    -2088.9,
+    -1428.5,
+    -2088.2,
+    -1429,
+    -2072.2,
+    -1439.5
+   ],
+   "id": "olijfstraat-327-22",
+   "latLon": [
+    51.063774,
+    3.70009
+   ],
+   "photos": [
+    {
+     "id": "2109749599498695-194",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.429,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15513,
+   "at": [
+    -2061.8500000000004,
+    -1424
+   ],
+   "centre": [
+    -2070.8,
+    -1417.9
+   ],
+   "width": 7.4,
+   "faces": 327,
+   "toStreet": 5.4,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2059.8,
+    -1420.9,
+    -2069,
+    -1414.7,
+    -2070.3,
+    -1416.6,
+    -2074.8,
+    -1413.8,
+    -2076.2,
+    -1415.6,
+    -2075.3,
+    -1416.1,
+    -2076.8,
+    -1418.4,
+    -2063.9,
+    -1427.1
+   ],
+   "id": "olijfstraat-327-23",
+   "latLon": [
+    51.063677,
+    3.700193
+   ],
+   "photos": [
+    {
+     "id": "609699515292997-196",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.397,
+      0.656
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15509,
+   "at": [
+    -2058.4,
+    -1418.75
+   ],
+   "centre": [
+    -2067.8,
+    -1413.5
+   ],
+   "width": 5.1,
+   "faces": 327,
+   "toStreet": 5.5,
+   "floors": 1,
+   "eaves": 2.7,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2057,
+    -1416.6,
+    -2072.6,
+    -1406.5,
+    -2075.1,
+    -1410.6,
+    -2073.3,
+    -1411.9,
+    -2069,
+    -1414.7,
+    -2059.8,
+    -1420.9
+   ],
+   "id": "olijfstraat-327-24",
+   "latLon": [
+    51.063639,
+    3.700232
+   ],
+   "photos": [
+    {
+     "id": "1123888082845685-255",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.347,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15498,
+   "at": [
+    -2052.35,
+    -1409.6999999999998
+   ],
+   "centre": [
+    -2064.1,
+    -1401.5
+   ],
+   "width": 4.5,
+   "faces": 327,
+   "toStreet": 5.5,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2051.1,
+    -1407.8,
+    -2066.3,
+    -1397.8,
+    -2069.3,
+    -1395.9,
+    -2070.4,
+    -1397.5,
+    -2068.5,
+    -1398.9,
+    -2069.8,
+    -1400.9,
+    -2053.6,
+    -1411.6
+   ],
+   "id": "olijfstraat-327-25",
+   "latLon": [
+    51.063573,
+    3.700302
+   ],
+   "photos": [
+    {
+     "id": "519387201180125-281",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.424,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15490,
+   "at": [
+    -2046.25,
+    -1400.6
+   ],
+   "centre": [
+    -2059.5,
+    -1391
+   ],
+   "width": 6.7,
+   "faces": 327,
+   "toStreet": 5.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2044.4,
+    -1397.8,
+    -2061.6,
+    -1386.9,
+    -2063.1,
+    -1385.9,
+    -2063.2,
+    -1385.8,
+    -2064.7,
+    -1384.9,
+    -2068.1,
+    -1389.9,
+    -2063.2,
+    -1393.2,
+    -2048.1,
+    -1403.4
+   ],
+   "id": "olijfstraat-327-26",
+   "latLon": [
+    51.063508,
+    3.700371
+   ],
+   "photos": [
+    {
+     "id": "519387201180125-219",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.329,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15562,
+   "at": [
+    -2032.75,
+    -1380.3000000000002
+   ],
+   "centre": [
+    -2035.9,
+    -1375.7
+   ],
+   "width": 3.8,
+   "faces": 327,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -2031.7,
+    -1378.7,
+    -2030.5,
+    -1376.9,
+    -2032.6,
+    -1375.5,
+    -2037.8,
+    -1372,
+    -2040.8,
+    -1370,
+    -2044.3,
+    -1375.2,
+    -2033.8,
+    -1381.9
+   ],
+   "id": "olijfstraat-327-27",
+   "latLon": [
+    51.063361,
+    3.700526
+   ],
+   "photos": [
+    {
+     "id": "668045998895760-265",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.408,
+      0.578
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15367,
+   "at": [
+    -2012.95,
+    -1350.5500000000002
+   ],
+   "centre": [
+    -2021.8,
+    -1344.6
+   ],
+   "width": 5.6,
+   "faces": 327,
+   "toStreet": 6.1,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2011.4,
+    -1348.2,
+    -2019.8,
+    -1342.6,
+    -2020.6,
+    -1343.8,
+    -2023.8,
+    -1341.7,
+    -2024.5,
+    -1342.7,
+    -2026.1,
+    -1341.6,
+    -2027.7,
+    -1343.8,
+    -2027.7,
+    -1343.8,
+    -2014.5,
+    -1352.9
+   ],
+   "id": "olijfstraat-327-28",
+   "latLon": [
+    51.063145,
+    3.700752
+   ],
+   "photos": [
+    {
+     "id": "9334591086634098-242",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.328,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15363,
+   "at": [
+    -2006.9,
+    -1341.5
+   ],
+   "centre": [
+    -2011.6,
+    -1338.4
+   ],
+   "width": 5.5,
+   "faces": 327,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -2005.4,
+    -1339.2,
+    -2014.9,
+    -1333.2,
+    -2017.6,
+    -1337.5,
+    -2008.4,
+    -1343.8
+   ],
+   "id": "olijfstraat-327-29",
+   "latLon": [
+    51.06308,
+    3.700821
+   ],
+   "photos": [
+    {
+     "id": "1138726668043322-271",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.361,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15359,
+   "at": [
+    -2001.55,
+    -1333.45
+   ],
+   "centre": [
+    -2009.3,
+    -1328.6
+   ],
+   "width": 4.6,
+   "faces": 327,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -2000.3,
+    -1331.5,
+    -2011.2,
+    -1324.2,
+    -2013,
+    -1326.9,
+    -2014,
+    -1326.3,
+    -2014.7,
+    -1327.3,
+    -2002.8,
+    -1335.4
+   ],
+   "id": "olijfstraat-327-30",
+   "latLon": [
+    51.063022,
+    3.700882
+   ],
+   "photos": [
+    {
+     "id": "1138726668043322-209",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.393,
+      0.622
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15383,
+   "at": [
+    -1980.0500000000002,
+    -1301.1
+   ],
+   "centre": [
+    -1983.1,
+    -1297.1
+   ],
+   "width": 6,
+   "faces": 327,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1977.9,
+    -1298,
+    -1978.6,
+    -1295.8,
+    -1978.7,
+    -1295.9,
+    -1979.8,
+    -1295.5,
+    -1984.5,
+    -1293.7,
+    -1991.1,
+    -1291.1,
+    -1994.4,
+    -1295,
+    -1988.7,
+    -1298.8,
+    -1985.5,
+    -1301,
+    -1981.7,
+    -1303.6,
+    -1978.4,
+    -1298.6,
+    -1978,
+    -1298
+   ],
+   "id": "olijfstraat-327-31",
+   "latLon": [
+    51.062788,
+    3.701128
+   ],
+   "photos": [
+    {
+     "id": "3909420619346243-238",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.314,
+      0.681
+     ]
+    },
+    {
+     "id": "1378251323621378-263",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.441,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16791,
+   "at": [
+    -2131.6000000000004,
+    -1545.45
+   ],
+   "centre": [
+    -2131.8,
+    -1541.2
+   ],
+   "width": 10.2,
+   "faces": 339,
+   "toStreet": 17.2,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2132.6,
+    -1535.5,
+    -2128.6,
+    -1537,
+    -2129.1,
+    -1538.6,
+    -2129.5,
+    -1539.9,
+    -2129.8,
+    -1540.7,
+    -2133.4,
+    -1550.2,
+    -2137.4,
+    -1548.8,
+    -2133.9,
+    -1539.1
+   ],
+   "id": "olijfstraat-339-01",
+   "latLon": [
+    51.064556,
+    3.699396
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-251",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.368,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15624,
+   "at": [
+    -2123.7,
+    -1528.6
+   ],
+   "centre": [
+    -2127.2,
+    -1532.3
+   ],
+   "width": 6.2,
+   "faces": 339,
+   "toStreet": 15.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -2124.6,
+    -1536.7,
+    -2125,
+    -1536.6,
+    -2124.6,
+    -1535.2,
+    -2126,
+    -1534.6,
+    -2124.8,
+    -1531.5,
+    -2122.6,
+    -1525.7,
+    -2125.1,
+    -1524.6,
+    -2128.1,
+    -1523.2,
+    -2128.7,
+    -1524.9,
+    -2129.5,
+    -1527.1,
+    -2130,
+    -1528.4,
+    -2131.6,
+    -1532.8,
+    -2132.6,
+    -1535.5,
+    -2128.6,
+    -1537,
+    -2127.4,
+    -1537.4,
+    -2127.9,
+    -1538.7,
+    -2125.6,
+    -1539.5
+   ],
+   "id": "olijfstraat-339-02",
+   "latLon": [
+    51.064434,
+    3.699486
+   ],
+   "photos": [
+    {
+     "id": "2201512726912939-239",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.415,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15597,
+   "at": [
+    -2111.9,
+    -1528.5500000000002
+   ],
+   "centre": [
+    -2119.9,
+    -1526
+   ],
+   "width": 5,
+   "faces": 339,
+   "toStreet": 4.7,
+   "floors": 2,
+   "eaves": 7.2,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2123.9,
+    -1521.4,
+    -2125.1,
+    -1524.6,
+    -2122.6,
+    -1525.7,
+    -2121.6,
+    -1526.1,
+    -2122,
+    -1527.4,
+    -2112.8,
+    -1530.9,
+    -2111,
+    -1526.2
+   ],
+   "id": "olijfstraat-339-03",
+   "latLon": [
+    51.064433,
+    3.699621
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15586,
+   "at": [
+    -2106.5,
+    -1514.1
+   ],
+   "centre": [
+    -2121.3,
+    -1509.5
+   ],
+   "width": 6.2,
+   "faces": 339,
+   "toStreet": 4.7,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -2105.4,
+    -1511.2,
+    -2123.2,
+    -1504.5,
+    -2128.8,
+    -1502.4,
+    -2131.5,
+    -1508.4,
+    -2129.6,
+    -1509.1,
+    -2123.7,
+    -1511.2,
+    -2120.6,
+    -1512.3,
+    -2107.6,
+    -1517
+   ],
+   "id": "olijfstraat-339-04",
+   "latLon": [
+    51.064329,
+    3.699683
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15568,
+   "at": [
+    -2100.1000000000004,
+    -1496.8000000000002
+   ],
+   "centre": [
+    -2110.9,
+    -1492.3
+   ],
+   "width": 4.5,
+   "faces": 339,
+   "toStreet": 4.8,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2099.3,
+    -1494.7,
+    -2115.8,
+    -1488.5,
+    -2118.5,
+    -1487.5,
+    -2120.2,
+    -1491.7,
+    -2100.9,
+    -1498.9
+   ],
+   "id": "olijfstraat-339-05",
+   "latLon": [
+    51.064204,
+    3.699756
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 15556,
+   "at": [
+    -2095.5,
+    -1484.45
+   ],
+   "centre": [
+    -2111.6,
+    -1482.9
+   ],
+   "width": 4.4,
+   "faces": 339,
+   "toStreet": 4.8,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2096.3,
+    -1486.5,
+    -2094.7,
+    -1482.4,
+    -2111.3,
+    -1476.3,
+    -2112.8,
+    -1480,
+    -2113.8,
+    -1482.4,
+    -2116.8,
+    -1481.2,
+    -2115.7,
+    -1478.9,
+    -2119.4,
+    -1477.6,
+    -2120.2,
+    -1479.7,
+    -2122.5,
+    -1479.1,
+    -2123.3,
+    -1480.7,
+    -2114.2,
+    -1484.4,
+    -2115.8,
+    -1488.5,
+    -2099.3,
+    -1494.7,
+    -2097.8,
+    -1490.6
+   ],
+   "id": "olijfstraat-339-06",
+   "latLon": [
+    51.064114,
+    3.699808
+   ],
+   "photos": [
+    {
+     "id": "959523262935754-214",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.408,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15545,
+   "at": [
+    -2090.6,
+    -1471.2
+   ],
+   "centre": [
+    -2100.2,
+    -1467.7
+   ],
+   "width": 4.9,
+   "faces": 339,
+   "toStreet": 4.9,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -2089.7,
+    -1468.9,
+    -2108.8,
+    -1461.8,
+    -2110.6,
+    -1466.5,
+    -2091.5,
+    -1473.5
+   ],
+   "id": "olijfstraat-339-07",
+   "latLon": [
+    51.064018,
+    3.699864
+   ],
+   "photos": [
+    {
+     "id": "845430741046011-228",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.366,
+      0.662
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15436,
+   "at": [
+    -2119.25,
+    -1548.3
+   ],
+   "centre": [
+    -2122.6,
+    -1547.2
+   ],
+   "width": 7.9,
+   "faces": 340,
+   "toStreet": 4.6,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -2117.9,
+    -1544.6,
+    -2116.2,
+    -1540.2,
+    -2124.6,
+    -1536.7,
+    -2125.6,
+    -1539.5,
+    -2129.6,
+    -1551.7,
+    -2124.9,
+    -1553.4,
+    -2123.1,
+    -1554,
+    -2121,
+    -1553.1,
+    -2120.6,
+    -1552
+   ],
+   "id": "olijfstraat-340-08",
+   "latLon": [
+    51.064576,
+    3.699537
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-240",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.255,
+      0.803
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15606,
+   "at": [
+    -2115.35,
+    -1537.85
+   ],
+   "centre": [
+    -2121.4,
+    -1536
+   ],
+   "width": 5,
+   "faces": 340,
+   "toStreet": 4.6,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -2125,
+    -1536.6,
+    -2124.6,
+    -1535.2,
+    -2123.4,
+    -1532.1,
+    -2114.5,
+    -1535.5,
+    -2116.2,
+    -1540.2,
+    -2124.6,
+    -1536.7
+   ],
+   "id": "olijfstraat-340-09",
+   "latLon": [
+    51.064501,
+    3.699581
+   ],
+   "photos": [
+    {
+     "id": "2201512726912939-271",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.303,
+      0.65
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15602,
+   "at": [
+    -2113.65,
+    -1533.2
+   ],
+   "centre": [
+    -2120.2,
+    -1529.9
+   ],
+   "width": 4.9,
+   "faces": 340,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -2124.8,
+    -1531.5,
+    -2123.4,
+    -1532.1,
+    -2114.5,
+    -1535.5,
+    -2112.8,
+    -1530.9,
+    -2122,
+    -1527.4,
+    -2121.6,
+    -1526.1,
+    -2122.6,
+    -1525.7
+   ],
+   "id": "olijfstraat-340-10",
+   "latLon": [
+    51.064467,
+    3.699601
+   ],
+   "photos": [
+    {
+     "id": "2201512726912939-229",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.349,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15590,
+   "at": [
+    -2110.15,
+    -1523.9
+   ],
+   "centre": [
+    -2116.6,
+    -1521.5
+   ],
+   "width": 4.9,
+   "faces": 340,
+   "toStreet": 4.7,
+   "floors": 2,
+   "eaves": 6.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2109.3,
+    -1521.6,
+    -2122.3,
+    -1517,
+    -2123.9,
+    -1521.4,
+    -2111,
+    -1526.2
+   ],
+   "id": "olijfstraat-340-11",
+   "latLon": [
+    51.0644,
+    3.699641
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-284",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.273,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15594,
+   "at": [
+    -2108.45,
+    -1519.3
+   ],
+   "centre": [
+    -2114.9,
+    -1517
+   ],
+   "width": 4.9,
+   "faces": 340,
+   "toStreet": 4.7,
+   "floors": 2,
+   "eaves": 7,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -2107.6,
+    -1517,
+    -2120.6,
+    -1512.3,
+    -2122.3,
+    -1517,
+    -2109.3,
+    -1521.6
+   ],
+   "id": "olijfstraat-340-12",
+   "latLon": [
+    51.064366,
+    3.69966
+   ],
+   "photos": [
+    {
+     "id": "557198749965868-231",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.308,
+      0.772
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15580,
+   "at": [
+    -2104.65,
+    -1509.15
+   ],
+   "centre": [
+    -2119.6,
+    -1503
+   ],
+   "width": 4.4,
+   "faces": 340,
+   "toStreet": 4.7,
+   "floors": 1,
+   "eaves": 3.4,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -2103.9,
+    -1507.1,
+    -2119.8,
+    -1501.2,
+    -2123.6,
+    -1499.8,
+    -2124.5,
+    -1499.4,
+    -2127.5,
+    -1498.3,
+    -2128.8,
+    -1502.4,
+    -2123.2,
+    -1504.5,
+    -2105.4,
+    -1511.2
+   ],
+   "id": "olijfstraat-340-13",
+   "latLon": [
+    51.064293,
+    3.699704
+   ],
+   "photos": [
+    {
+     "id": "969545228182630-289",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.341,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15576,
+   "at": [
+    -2103.15,
+    -1505.05
+   ],
+   "centre": [
+    -2117,
+    -1500.2
+   ],
+   "width": 4.4,
+   "faces": 340,
+   "toStreet": 4.7,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2102.4,
+    -1503,
+    -2121.6,
+    -1495.7,
+    -2122.9,
+    -1495.3,
+    -2124.5,
+    -1499.4,
+    -2123.6,
+    -1499.8,
+    -2119.8,
+    -1501.2,
+    -2103.9,
+    -1507.1
+   ],
+   "id": "olijfstraat-340-14",
+   "latLon": [
+    51.064263,
+    3.699721
+   ],
+   "photos": [
+    {
+     "id": "969545228182630-249",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.301,
+      0.71
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15572,
+   "at": [
+    -2101.65,
+    -1500.95
+   ],
+   "centre": [
+    -2114.9,
+    -1496
+   ],
+   "width": 4.4,
+   "faces": 340,
+   "toStreet": 4.8,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -2100.9,
+    -1498.9,
+    -2120.2,
+    -1491.7,
+    -2121.4,
+    -1491.3,
+    -2122.9,
+    -1495.3,
+    -2121.6,
+    -1495.7,
+    -2102.4,
+    -1503
+   ],
+   "id": "olijfstraat-340-15",
+   "latLon": [
+    51.064234,
+    3.699738
+   ],
+   "photos": [
+    {
+     "id": "969545228182630-211",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.395,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15551,
+   "at": [
+    -2093.95,
+    -1480.35
+   ],
+   "centre": [
+    -2104.7,
+    -1476.9
+   ],
+   "width": 4.4,
+   "faces": 340,
+   "toStreet": 4.8,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.3,
+   "kind": "house",
+   "ring": [
+    -2093.2,
+    -1478.3,
+    -2111.4,
+    -1471.7,
+    -2113.1,
+    -1475.6,
+    -2111.3,
+    -1476.3,
+    -2094.7,
+    -1482.4
+   ],
+   "id": "olijfstraat-340-16",
+   "latLon": [
+    51.064085,
+    3.699826
+   ],
+   "photos": [
+    {
+     "id": "845430741046011-294",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.397,
+      0.563
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15548,
+   "at": [
+    -2092.35,
+    -1475.9
+   ],
+   "centre": [
+    -2103.8,
+    -1472.3
+   ],
+   "width": 5.1,
+   "faces": 340,
+   "toStreet": 4.9,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -2091.5,
+    -1473.5,
+    -2110.6,
+    -1466.5,
+    -2112.3,
+    -1471.3,
+    -2111.4,
+    -1471.7,
+    -2093.2,
+    -1478.3
+   ],
+   "id": "olijfstraat-340-17",
+   "latLon": [
+    51.064052,
+    3.699844
+   ],
+   "photos": [
+    {
+     "id": "845430741046011-265",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.328,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 15542,
+   "at": [
+    -2088.6499999999996,
+    -1466
+   ],
+   "centre": [
+    -2102.3,
+    -1460.8
+   ],
+   "width": 6.2,
+   "faces": 340,
+   "toStreet": 4.9,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -2087.6,
+    -1463.1,
+    -2102.2,
+    -1457.5,
+    -2103.4,
+    -1457,
+    -2103.6,
+    -1457.5,
+    -2105,
+    -1461.3,
+    -2109.5,
+    -1459.3,
+    -2110.5,
+    -1461.2,
+    -2108.8,
+    -1461.8,
+    -2089.7,
+    -1468.9
+   ],
+   "id": "olijfstraat-340-18",
+   "latLon": [
+    51.063981,
+    3.699887
+   ],
+   "photos": [
+    {
+     "id": "1949601289174667-288",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.377,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 16790,
+   "at": [
+    -2127.6,
+    -1545.6
+   ],
+   "centre": [
+    -2129,
+    -1541.5
+   ],
+   "width": 12.8,
+   "faces": 342,
+   "toStreet": 13.4,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -2128.6,
+    -1537,
+    -2127.4,
+    -1537.4,
+    -2127.9,
+    -1538.7,
+    -2125.6,
+    -1539.5,
+    -2129.6,
+    -1551.7,
+    -2133.4,
+    -1550.2,
+    -2129.8,
+    -1540.7,
+    -2129.5,
+    -1539.9,
+    -2129.1,
+    -1538.6
+   ],
+   "id": "olijfstraat-342-19",
+   "latLon": [
+    51.064557,
+    3.699441
+   ],
+   "photos": [
+    {
+     "id": "1863727360700638-247",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.303,
+      0.706
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,6060 @@
+{
+ "city": "ghent",
+ "street": "Wilgestraat",
+ "slug": "wilgestraat",
+ "photos": {
+  "565399079662180-340": {
+   "file": "photos/565399079662180-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=565399079662180",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648344,
+    3.7103277,
+    340,
+    0.5
+   ]
+  },
+  "4015900411962893-325": {
+   "file": "photos/4015900411962893-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4015900411962893",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646499,
+    3.7095758,
+    325,
+    0.5
+   ]
+  },
+  "2375207596162501-14": {
+   "file": "photos/2375207596162501-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2375207596162501",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646098,
+    3.7094688,
+    14,
+    0.5
+   ]
+  },
+  "1025189862954091-1": {
+   "file": "photos/1025189862954091-1.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025189862954091",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646641,
+    3.7096872,
+    1,
+    0.5
+   ]
+  },
+  "595345059886441-0": {
+   "file": "photos/595345059886441-0.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595345059886441",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.064719,
+    3.710051,
+    0,
+    0.5
+   ]
+  },
+  "1252468869166788-6": {
+   "file": "photos/1252468869166788-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1252468869166788",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646146,
+    3.710232,
+    6,
+    0.5
+   ]
+  },
+  "1252468869166788-14": {
+   "file": "photos/1252468869166788-14.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1252468869166788",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646146,
+    3.710232,
+    14,
+    0.5
+   ]
+  },
+  "582916617819378-354": {
+   "file": "photos/582916617819378-354.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    354,
+    0.5
+   ]
+  },
+  "1149275350537587-315": {
+   "file": "photos/1149275350537587-315.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1149275350537587",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649745,
+    3.7124872,
+    315,
+    0.5
+   ]
+  },
+  "1025189862954091-336": {
+   "file": "photos/1025189862954091-336.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025189862954091",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646641,
+    3.7096872,
+    336,
+    0.5
+   ]
+  },
+  "1182674013282840-350": {
+   "file": "photos/1182674013282840-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1182674013282840",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.064684,
+    3.709808,
+    350,
+    0.5
+   ]
+  },
+  "1182674013282840-325": {
+   "file": "photos/1182674013282840-325.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1182674013282840",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.064684,
+    3.709808,
+    325,
+    0.5
+   ]
+  },
+  "1182674013282840-13": {
+   "file": "photos/1182674013282840-13.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1182674013282840",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.064684,
+    3.709808,
+    13,
+    0.5
+   ]
+  },
+  "1402588840566998-340": {
+   "file": "photos/1402588840566998-340.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1402588840566998",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647035,
+    3.709931,
+    340,
+    0.5
+   ]
+  },
+  "1402588840566998-10": {
+   "file": "photos/1402588840566998-10.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1402588840566998",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647035,
+    3.709931,
+    10,
+    0.5
+   ]
+  },
+  "592928880346856-12": {
+   "file": "photos/592928880346856-12.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=592928880346856",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647647,
+    3.7100895,
+    12,
+    0.5
+   ]
+  },
+  "1142518477491470-4": {
+   "file": "photos/1142518477491470-4.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1142518477491470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647154,
+    3.7101982,
+    4,
+    0.5
+   ]
+  },
+  "582916617819378-335": {
+   "file": "photos/582916617819378-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    335,
+    0.5
+   ]
+  },
+  "582916617819378-344": {
+   "file": "photos/582916617819378-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    344,
+    0.5
+   ]
+  },
+  "1034990522001380-311": {
+   "file": "photos/1034990522001380-311.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034990522001380",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651344,
+    3.7123309,
+    311,
+    0.5
+   ]
+  },
+  "1688449798716843-358": {
+   "file": "photos/1688449798716843-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1688449798716843",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646343,
+    3.7094885,
+    358,
+    0.5
+   ]
+  },
+  "2375207596162501-2": {
+   "file": "photos/2375207596162501-2.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2375207596162501",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646098,
+    3.7094688,
+    2,
+    0.5
+   ]
+  },
+  "1883899462138685-343": {
+   "file": "photos/1883899462138685-343.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1883899462138685",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647335,
+    3.7101869,
+    343,
+    0.5
+   ]
+  },
+  "1597097760940760-92": {
+   "file": "photos/1597097760940760-92.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1597097760940760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0643234,
+    3.710347,
+    92,
+    0.5
+   ]
+  },
+  "1034990522001380-70": {
+   "file": "photos/1034990522001380-70.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034990522001380",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651344,
+    3.7123309,
+    70,
+    0.5
+   ]
+  },
+  "1151614376427703-74": {
+   "file": "photos/1151614376427703-74.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1151614376427703",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650724,
+    3.7124356,
+    74,
+    0.5
+   ]
+  },
+  "1034990522001380-86": {
+   "file": "photos/1034990522001380-86.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034990522001380",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651344,
+    3.7123309,
+    86,
+    0.5
+   ]
+  },
+  "1142518477491470-103": {
+   "file": "photos/1142518477491470-103.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1142518477491470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647154,
+    3.7101982,
+    103,
+    0.5
+   ]
+  },
+  "582916617819378-50": {
+   "file": "photos/582916617819378-50.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    50,
+    0.5
+   ]
+  },
+  "565399079662180-67": {
+   "file": "photos/565399079662180-67.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=565399079662180",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648344,
+    3.7103277,
+    67,
+    0.5
+   ]
+  },
+  "595345059886441-100": {
+   "file": "photos/595345059886441-100.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=595345059886441",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.064719,
+    3.710051,
+    100,
+    0.5
+   ]
+  },
+  "1118003223320154-134": {
+   "file": "photos/1118003223320154-134.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1118003223320154",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647906,
+    3.7094157,
+    134,
+    0.5
+   ]
+  },
+  "565399079662180-159": {
+   "file": "photos/565399079662180-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=565399079662180",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648344,
+    3.7103277,
+    159,
+    0.5
+   ]
+  },
+  "1118003223320154-156": {
+   "file": "photos/1118003223320154-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1118003223320154",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647906,
+    3.7094157,
+    156,
+    0.5
+   ]
+  },
+  "444148461966436-181": {
+   "file": "photos/444148461966436-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=444148461966436",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0644098,
+    3.7103106,
+    181,
+    0.5
+   ]
+  },
+  "444148461966436-166": {
+   "file": "photos/444148461966436-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=444148461966436",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0644098,
+    3.7103106,
+    166,
+    0.5
+   ]
+  },
+  "1126557732193358-166": {
+   "file": "photos/1126557732193358-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126557732193358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649011,
+    3.7107013,
+    166,
+    0.5
+   ]
+  },
+  "1126557732193358-145": {
+   "file": "photos/1126557732193358-145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126557732193358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649011,
+    3.7107013,
+    145,
+    0.5
+   ]
+  },
+  "1155425742637738-176": {
+   "file": "photos/1155425742637738-176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155425742637738",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649395,
+    3.710902,
+    176,
+    0.5
+   ]
+  },
+  "1155425742637738-154": {
+   "file": "photos/1155425742637738-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155425742637738",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649395,
+    3.710902,
+    154,
+    0.5
+   ]
+  },
+  "1155425742637738-135": {
+   "file": "photos/1155425742637738-135.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155425742637738",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649395,
+    3.710902,
+    135,
+    0.5
+   ]
+  },
+  "1135523001484169-183": {
+   "file": "photos/1135523001484169-183.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1135523001484169",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649759,
+    3.7111035,
+    183,
+    0.5
+   ]
+  },
+  "581179237964450-174": {
+   "file": "photos/581179237964450-174.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581179237964450",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650182,
+    3.7113122,
+    174,
+    0.5
+   ]
+  },
+  "581179237964450-190": {
+   "file": "photos/581179237964450-190.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581179237964450",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650182,
+    3.7113122,
+    190,
+    0.5
+   ]
+  },
+  "581179237964450-156": {
+   "file": "photos/581179237964450-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581179237964450",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650182,
+    3.7113122,
+    156,
+    0.5
+   ]
+  },
+  "876124231098868-178": {
+   "file": "photos/876124231098868-178.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=876124231098868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650578,
+    3.7115262,
+    178,
+    0.5
+   ]
+  },
+  "2910663475774733-180": {
+   "file": "photos/2910663475774733-180.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2910663475774733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650941,
+    3.7117385,
+    180,
+    0.5
+   ]
+  },
+  "3926302294311205-163": {
+   "file": "photos/3926302294311205-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3926302294311205",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650743,
+    3.7118693,
+    163,
+    0.5
+   ]
+  },
+  "1351988405983802-185": {
+   "file": "photos/1351988405983802-185.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1351988405983802",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651381,
+    3.7121467,
+    185,
+    0.5
+   ]
+  },
+  "947998166867653-162": {
+   "file": "photos/947998166867653-162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947998166867653",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651275,
+    3.7121759,
+    162,
+    0.5
+   ]
+  },
+  "1034990522001380-192": {
+   "file": "photos/1034990522001380-192.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1034990522001380",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651344,
+    3.7123309,
+    192,
+    0.5
+   ]
+  },
+  "565399079662180-139": {
+   "file": "photos/565399079662180-139.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=565399079662180",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648344,
+    3.7103277,
+    139,
+    0.5
+   ]
+  },
+  "582916617819378-187": {
+   "file": "photos/582916617819378-187.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    187,
+    0.5
+   ]
+  },
+  "582916617819378-161": {
+   "file": "photos/582916617819378-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    161,
+    0.5
+   ]
+  },
+  "582916617819378-136": {
+   "file": "photos/582916617819378-136.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    136,
+    0.5
+   ]
+  },
+  "1126557732193358-186": {
+   "file": "photos/1126557732193358-186.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126557732193358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649011,
+    3.7107013,
+    186,
+    0.5
+   ]
+  },
+  "1155425742637738-194": {
+   "file": "photos/1155425742637738-194.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1155425742637738",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649395,
+    3.710902,
+    194,
+    0.5
+   ]
+  },
+  "1135523001484169-153": {
+   "file": "photos/1135523001484169-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1135523001484169",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649759,
+    3.7111035,
+    153,
+    0.5
+   ]
+  },
+  "581179237964450-140": {
+   "file": "photos/581179237964450-140.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=581179237964450",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650182,
+    3.7113122,
+    140,
+    0.5
+   ]
+  },
+  "876124231098868-154": {
+   "file": "photos/876124231098868-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=876124231098868",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650578,
+    3.7115262,
+    154,
+    0.5
+   ]
+  },
+  "2910663475774733-167": {
+   "file": "photos/2910663475774733-167.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2910663475774733",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0650941,
+    3.7117385,
+    167,
+    0.5
+   ]
+  },
+  "1260816508358774-179": {
+   "file": "photos/1260816508358774-179.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1260816508358774",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651327,
+    3.7119525,
+    179,
+    0.5
+   ]
+  },
+  "1004821311514067-157": {
+   "file": "photos/1004821311514067-157.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1004821311514067",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0651001,
+    3.7120248,
+    157,
+    0.5
+   ]
+  },
+  "4015900411962893-184": {
+   "file": "photos/4015900411962893-184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4015900411962893",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646499,
+    3.7095758,
+    184,
+    0.5
+   ]
+  },
+  "412709618592886-150": {
+   "file": "photos/412709618592886-150.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=412709618592886",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647023,
+    3.709442,
+    150,
+    0.5
+   ]
+  },
+  "444148461966436-203": {
+   "file": "photos/444148461966436-203.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=444148461966436",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0644098,
+    3.7103106,
+    203,
+    0.5
+   ]
+  },
+  "582916617819378-279": {
+   "file": "photos/582916617819378-279.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582916617819378",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0648662,
+    3.7105066,
+    279,
+    0.5
+   ]
+  },
+  "1142518477491470-225": {
+   "file": "photos/1142518477491470-225.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1142518477491470",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647154,
+    3.7101982,
+    225,
+    0.5
+   ]
+  },
+  "1126557732193358-267": {
+   "file": "photos/1126557732193358-267.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1126557732193358",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0649011,
+    3.7107013,
+    267,
+    0.5
+   ]
+  },
+  "1597097760940760-249": {
+   "file": "photos/1597097760940760-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1597097760940760",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0643234,
+    3.710347,
+    249,
+    0.5
+   ]
+  },
+  "412709618592886-262": {
+   "file": "photos/412709618592886-262.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=412709618592886",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647023,
+    3.709442,
+    262,
+    0.5
+   ]
+  },
+  "4015900411962893-281": {
+   "file": "photos/4015900411962893-281.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4015900411962893",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646499,
+    3.7095758,
+    281,
+    0.5
+   ]
+  },
+  "412709618592886-242": {
+   "file": "photos/412709618592886-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=412709618592886",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0647023,
+    3.709442,
+    242,
+    0.5
+   ]
+  },
+  "1688449798716843-277": {
+   "file": "photos/1688449798716843-277.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1688449798716843",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646343,
+    3.7094885,
+    277,
+    0.5
+   ]
+  },
+  "1688449798716843-255": {
+   "file": "photos/1688449798716843-255.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1688449798716843",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646343,
+    3.7094885,
+    255,
+    0.5
+   ]
+  },
+  "2375207596162501-266": {
+   "file": "photos/2375207596162501-266.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2375207596162501",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646098,
+    3.7094688,
+    266,
+    0.5
+   ]
+  },
+  "1174209860933722-246": {
+   "file": "photos/1174209860933722-246.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1174209860933722",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0645884,
+    3.7094253,
+    246,
+    0.5
+   ]
+  },
+  "2375207596162501-242": {
+   "file": "photos/2375207596162501-242.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2375207596162501",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-07",
+   "pano": true,
+   "cam": [
+    51.0646098,
+    3.7094688,
+    242,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 37100,
+   "at": [
+    -1157.35,
+    -1626.9
+   ],
+   "centre": [
+    -1158.6,
+    -1631
+   ],
+   "width": 4.1,
+   "faces": 73,
+   "toStreet": 16.8,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -1148.8,
+    -1629.2,
+    -1155.4,
+    -1627.5,
+    -1159.3,
+    -1626.3,
+    -1162.2,
+    -1625.6,
+    -1165.6,
+    -1624.7,
+    -1167.3,
+    -1636,
+    -1158.4,
+    -1638.3,
+    -1151.7,
+    -1640.1
+   ],
+   "id": "wilgestraat-73-01",
+   "latLon": [
+    51.065145,
+    3.710533
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36902,
+   "at": [
+    -1184.75,
+    -1610.2
+   ],
+   "centre": [
+    -1185.3,
+    -1612.6
+   ],
+   "width": 9.4,
+   "faces": 75,
+   "toStreet": 11.2,
+   "floors": 3,
+   "eaves": 11,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1180.2,
+    -1611.4,
+    -1189.3,
+    -1609,
+    -1190.5,
+    -1613.8,
+    -1181.4,
+    -1616.1
+   ],
+   "id": "wilgestraat-75-02",
+   "latLon": [
+    51.065024,
+    3.71022
+   ],
+   "photos": [
+    {
+     "id": "565399079662180-340",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.421,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37131,
+   "at": [
+    -1149.6,
+    -1623.6
+   ],
+   "centre": [
+    -1149.9,
+    -1626.7
+   ],
+   "width": 9.5,
+   "faces": 75,
+   "toStreet": 15.1,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    -1145,
+    -1624.8,
+    -1154.2,
+    -1622.4,
+    -1155.4,
+    -1627.5,
+    -1148.8,
+    -1629.2,
+    -1146.2,
+    -1629.8
+   ],
+   "id": "wilgestraat-75-03",
+   "latLon": [
+    51.065121,
+    3.710622
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36949,
+   "at": [
+    -1045.8,
+    -1615.5
+   ],
+   "centre": [
+    -1044.4,
+    -1620.3
+   ],
+   "width": 4.8,
+   "faces": 75,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -1039.6,
+    -1618.2,
+    -1042.9,
+    -1617.4,
+    -1042.7,
+    -1616.3,
+    -1043.1,
+    -1616.1,
+    -1043.2,
+    -1616.1,
+    -1043.5,
+    -1616.1,
+    -1048.1,
+    -1614.9,
+    -1050.6,
+    -1624.8,
+    -1045.6,
+    -1625.9,
+    -1046.2,
+    -1628.4,
+    -1042.4,
+    -1629.4
+   ],
+   "id": "wilgestraat-75-04",
+   "latLon": [
+    51.065062,
+    3.711809
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37037,
+   "at": [
+    -1247.05,
+    -1566.85
+   ],
+   "centre": [
+    -1247.6,
+    -1570.1
+   ],
+   "width": 9.4,
+   "faces": 76,
+   "toStreet": 6.3,
+   "floors": 1,
+   "eaves": 4.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1237.7,
+    -1569.2,
+    -1242.5,
+    -1568,
+    -1251.6,
+    -1565.7,
+    -1251.7,
+    -1565.5,
+    -1253.2,
+    -1566.8,
+    -1253.1,
+    -1566.9,
+    -1254.5,
+    -1574.4,
+    -1244.4,
+    -1576.6,
+    -1239.5,
+    -1577.6
+   ],
+   "id": "wilgestraat-76-05",
+   "latLon": [
+    51.06471,
+    3.709508
+   ],
+   "photos": [
+    {
+     "id": "4015900411962893-325",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.315,
+      0.752
+     ]
+    },
+    {
+     "id": "2375207596162501-14",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.327,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36967,
+   "at": [
+    -1231.15,
+    -1570.75
+   ],
+   "centre": [
+    -1232.2,
+    -1577.1
+   ],
+   "width": 4.4,
+   "faces": 76,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1229,
+    -1571.3,
+    -1233.3,
+    -1570.2,
+    -1235.4,
+    -1583,
+    -1231.1,
+    -1583.9
+   ],
+   "id": "wilgestraat-76-06",
+   "latLon": [
+    51.064739,
+    3.70969
+   ],
+   "photos": [
+    {
+     "id": "1025189862954091-1",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.393,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37102,
+   "at": [
+    -1199.5500000000002,
+    -1578.25
+   ],
+   "centre": [
+    -1201.8,
+    -1586.5
+   ],
+   "width": 4.4,
+   "faces": 76,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1197.4,
+    -1578.8,
+    -1201.7,
+    -1577.7,
+    -1204,
+    -1587.3,
+    -1205.5,
+    -1593.8,
+    -1200.6,
+    -1594.9
+   ],
+   "id": "wilgestraat-76-07",
+   "latLon": [
+    51.064793,
+    3.710051
+   ],
+   "photos": [
+    {
+     "id": "595345059886441-0",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.39,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37053,
+   "at": [
+    -1180.7,
+    -1582.55
+   ],
+   "centre": [
+    -1181.9,
+    -1587.5
+   ],
+   "width": 4.5,
+   "faces": 76,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 12.8,
+   "kind": "house",
+   "ring": [
+    -1178.5,
+    -1583.1,
+    -1182.9,
+    -1582,
+    -1185.3,
+    -1591.9,
+    -1181,
+    -1593
+   ],
+   "id": "wilgestraat-76-08",
+   "latLon": [
+    51.064824,
+    3.710266
+   ],
+   "photos": [
+    {
+     "id": "1252468869166788-6",
+     "metres": 23,
+     "off": 0,
+     "span": [
+      0.462,
+      0.534
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37118,
+   "at": [
+    -1185.95,
+    -1614.9499999999998
+   ],
+   "centre": [
+    -1186.5,
+    -1617.2
+   ],
+   "width": 9.4,
+   "faces": 76,
+   "toStreet": 14.7,
+   "floors": 1,
+   "eaves": 4,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1181.4,
+    -1616.1,
+    -1190.5,
+    -1613.8,
+    -1191.5,
+    -1618.2,
+    -1182.4,
+    -1620.6
+   ],
+   "id": "wilgestraat-76-09",
+   "latLon": [
+    51.065058,
+    3.710206
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37130,
+   "at": [
+    -1176.35,
+    -1583.65
+   ],
+   "centre": [
+    -1177.6,
+    -1588.6
+   ],
+   "width": 4.4,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1174.2,
+    -1584.2,
+    -1178.5,
+    -1583.1,
+    -1181,
+    -1593,
+    -1176.6,
+    -1594
+   ],
+   "id": "wilgestraat-76-10",
+   "latLon": [
+    51.064832,
+    3.710316
+   ],
+   "photos": [
+    {
+     "id": "1252468869166788-14",
+     "metres": 25,
+     "off": 0,
+     "span": [
+      0.465,
+      0.527
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36933,
+   "at": [
+    -1175,
+    -1622.35
+   ],
+   "centre": [
+    -1181.6,
+    -1631
+   ],
+   "width": 7,
+   "faces": 76,
+   "toStreet": 16.2,
+   "floors": 2,
+   "eaves": 6.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1165.6,
+    -1624.7,
+    -1167,
+    -1624.4,
+    -1171.6,
+    -1623.2,
+    -1178.4,
+    -1621.5,
+    -1182.4,
+    -1620.6,
+    -1191.5,
+    -1618.2,
+    -1191.9,
+    -1620,
+    -1193.6,
+    -1627,
+    -1195.1,
+    -1633.5,
+    -1195.7,
+    -1635.9,
+    -1188.8,
+    -1637,
+    -1186.2,
+    -1637.8,
+    -1184,
+    -1638.4,
+    -1179.3,
+    -1639.6,
+    -1174.6,
+    -1640.9,
+    -1172.6,
+    -1641.4,
+    -1169.7,
+    -1642.1
+   ],
+   "id": "wilgestraat-76-11",
+   "latLon": [
+    51.065112,
+    3.710332
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36958,
+   "at": [
+    -1162.35,
+    -1615.9
+   ],
+   "centre": [
+    -1161.7,
+    -1621.4
+   ],
+   "width": 5,
+   "faces": 76,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1164.8,
+    -1615.3,
+    -1167,
+    -1624.4,
+    -1165.6,
+    -1624.7,
+    -1162.2,
+    -1625.6,
+    -1159.3,
+    -1626.3,
+    -1158.8,
+    -1623.6,
+    -1157.8,
+    -1618.3,
+    -1160.2,
+    -1617.8,
+    -1159.9,
+    -1616.5
+   ],
+   "id": "wilgestraat-76-12",
+   "latLon": [
+    51.065065,
+    3.710476
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-354",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.459,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37033,
+   "at": [
+    -1139.75,
+    -1592.65
+   ],
+   "centre": [
+    -1141.9,
+    -1598.7
+   ],
+   "width": 4.6,
+   "faces": 76,
+   "toStreet": 5.8,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -1137.5,
+    -1593.2,
+    -1142,
+    -1592.1,
+    -1143.3,
+    -1598.7,
+    -1143.3,
+    -1599,
+    -1143.8,
+    -1601.3,
+    -1143,
+    -1601.5,
+    -1142.5,
+    -1601.6,
+    -1139.7,
+    -1602.2
+   ],
+   "id": "wilgestraat-76-13",
+   "latLon": [
+    51.064897,
+    3.710735
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37069,
+   "at": [
+    -1144.2,
+    -1591.55
+   ],
+   "centre": [
+    -1144.9,
+    -1597.6
+   ],
+   "width": 4.5,
+   "faces": 76,
+   "toStreet": 5.8,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    -1142,
+    -1592.1,
+    -1146.4,
+    -1591,
+    -1148.9,
+    -1600.2,
+    -1146.6,
+    -1600.7,
+    -1143.8,
+    -1601.3,
+    -1143.3,
+    -1599,
+    -1143.3,
+    -1598.7
+   ],
+   "id": "wilgestraat-76-14",
+   "latLon": [
+    51.064889,
+    3.710684
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36904,
+   "at": [
+    -1122.85,
+    -1596.6999999999998
+   ],
+   "centre": [
+    -1124,
+    -1601.5
+   ],
+   "width": 9,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": 10.6,
+   "kind": "house",
+   "ring": [
+    -1118.5,
+    -1597.8,
+    -1127.2,
+    -1595.6,
+    -1129.5,
+    -1605.1,
+    -1120.7,
+    -1607.3
+   ],
+   "id": "wilgestraat-76-15",
+   "latLon": [
+    51.064926,
+    3.710928
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36893,
+   "at": [
+    -1105.35,
+    -1600.95
+   ],
+   "centre": [
+    -1106.5,
+    -1605.8
+   ],
+   "width": 8.9,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1101,
+    -1602,
+    -1109.7,
+    -1599.9,
+    -1112,
+    -1609.5,
+    -1103.3,
+    -1611.7
+   ],
+   "id": "wilgestraat-76-16",
+   "latLon": [
+    51.064957,
+    3.711128
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37074,
+   "at": [
+    -1096.6,
+    -1603.1
+   ],
+   "centre": [
+    -1097.8,
+    -1607.9
+   ],
+   "width": 9.1,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1092.2,
+    -1604.2,
+    -1101,
+    -1602,
+    -1103.3,
+    -1611.7,
+    -1094.5,
+    -1613.8
+   ],
+   "id": "wilgestraat-76-17",
+   "latLon": [
+    51.064973,
+    3.711228
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36948,
+   "at": [
+    -1087.85,
+    -1605.25
+   ],
+   "centre": [
+    -1089,
+    -1610.1
+   ],
+   "width": 8.9,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1083.5,
+    -1606.3,
+    -1092.2,
+    -1604.2,
+    -1094.5,
+    -1613.8,
+    -1085.9,
+    -1616
+   ],
+   "id": "wilgestraat-76-18",
+   "latLon": [
+    51.064988,
+    3.711328
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36997,
+   "at": [
+    -1081.15,
+    -1606.9
+   ],
+   "centre": [
+    -1079.8,
+    -1612.1
+   ],
+   "width": 4.9,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    -1074.9,
+    -1609.6,
+    -1078.3,
+    -1608.7,
+    -1078.1,
+    -1607.6,
+    -1078.5,
+    -1607.5,
+    -1078.8,
+    -1607.5,
+    -1083.5,
+    -1606.3,
+    -1085.9,
+    -1616,
+    -1080.9,
+    -1617.2,
+    -1081.5,
+    -1619.8,
+    -1077.8,
+    -1620.7
+   ],
+   "id": "wilgestraat-76-19",
+   "latLon": [
+    51.065,
+    3.711404
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36937,
+   "at": [
+    -1063.6,
+    -1611.1999999999998
+   ],
+   "centre": [
+    -1062.2,
+    -1616
+   ],
+   "width": 4.9,
+   "faces": 76,
+   "toStreet": 5.6,
+   "floors": 2,
+   "eaves": 9.1,
+   "top": 11.8,
+   "kind": "house",
+   "ring": [
+    -1057.5,
+    -1613.8,
+    -1060.7,
+    -1613.1,
+    -1060.4,
+    -1611.9,
+    -1060.8,
+    -1611.8,
+    -1061.1,
+    -1611.8,
+    -1061.2,
+    -1611.8,
+    -1066,
+    -1610.6,
+    -1068.5,
+    -1620.5,
+    -1063.4,
+    -1621.8,
+    -1064,
+    -1624.1,
+    -1060.3,
+    -1624.9
+   ],
+   "id": "wilgestraat-76-20",
+   "latLon": [
+    51.065031,
+    3.711605
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36918,
+   "at": [
+    -1032.65,
+    -1618.6999999999998
+   ],
+   "centre": [
+    -1036.8,
+    -1622.8
+   ],
+   "width": 5,
+   "faces": 76,
+   "toStreet": 5.4,
+   "floors": 2,
+   "eaves": 8.8,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    -1032.6,
+    -1629.1,
+    -1030.2,
+    -1619.3,
+    -1035.1,
+    -1618.1,
+    -1035.9,
+    -1617.9,
+    -1036.2,
+    -1619,
+    -1039.6,
+    -1618.2,
+    -1039.6,
+    -1618.2,
+    -1042.4,
+    -1629.4,
+    -1038.4,
+    -1630.4,
+    -1037.7,
+    -1627.9
+   ],
+   "id": "wilgestraat-76-21",
+   "latLon": [
+    51.065085,
+    3.711959
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37026,
+   "at": [
+    -1022.1,
+    -1621.3
+   ],
+   "centre": [
+    -1024.7,
+    -1632.7
+   ],
+   "width": 5.8,
+   "faces": 76,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1023.8,
+    -1637.7,
+    -1023.2,
+    -1637.4,
+    -1019.3,
+    -1622,
+    -1024.9,
+    -1620.6,
+    -1028.4,
+    -1636,
+    -1026.2,
+    -1636.7,
+    -1026.8,
+    -1638.8
+   ],
+   "id": "wilgestraat-76-22",
+   "latLon": [
+    51.065104,
+    3.71208
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36968,
+   "at": [
+    -1008.2,
+    -1624.65
+   ],
+   "centre": [
+    -1006.4,
+    -1628.3
+   ],
+   "width": 11.5,
+   "faces": 76,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    -1013.8,
+    -1623.3,
+    -1015.5,
+    -1629.9,
+    -1012.7,
+    -1630.5,
+    -1002,
+    -1633,
+    -1000.9,
+    -1628.8,
+    -1000.8,
+    -1628.8,
+    -1002.5,
+    -1626,
+    -1002.6,
+    -1626
+   ],
+   "id": "wilgestraat-76-23",
+   "latLon": [
+    51.065129,
+    3.712238
+   ],
+   "photos": [
+    {
+     "id": "1149275350537587-315",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.423,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36943,
+   "at": [
+    -1235.5,
+    -1569.7
+   ],
+   "centre": [
+    -1237.6,
+    -1576.7
+   ],
+   "width": 4.5,
+   "faces": 77,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.4,
+   "kind": "house",
+   "ring": [
+    -1233.3,
+    -1570.2,
+    -1237.7,
+    -1569.2,
+    -1239.5,
+    -1577.6,
+    -1239.7,
+    -1578.6,
+    -1240.3,
+    -1581.8,
+    -1235.4,
+    -1583
+   ],
+   "id": "wilgestraat-77-24",
+   "latLon": [
+    51.064731,
+    3.70964
+   ],
+   "photos": [
+    {
+     "id": "1025189862954091-336",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.396,
+      0.614
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36903,
+   "at": [
+    -1222.5500000000002,
+    -1572.8
+   ],
+   "centre": [
+    -1223.8,
+    -1579
+   ],
+   "width": 4.4,
+   "faces": 77,
+   "toStreet": 6.1,
+   "floors": 3,
+   "eaves": 11,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    -1222.8,
+    -1585.8,
+    -1220.4,
+    -1573.3,
+    -1224.7,
+    -1572.3,
+    -1227.1,
+    -1584.8
+   ],
+   "id": "wilgestraat-77-25",
+   "latLon": [
+    51.064753,
+    3.709788
+   ],
+   "photos": [
+    {
+     "id": "1182674013282840-350",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.384,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37097,
+   "at": [
+    -1226.85,
+    -1571.8
+   ],
+   "centre": [
+    -1228,
+    -1578.1
+   ],
+   "width": 4.4,
+   "faces": 77,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1227.1,
+    -1584.8,
+    -1224.7,
+    -1572.3,
+    -1229,
+    -1571.3,
+    -1231.1,
+    -1583.9
+   ],
+   "id": "wilgestraat-77-26",
+   "latLon": [
+    51.064746,
+    3.709739
+   ],
+   "photos": [
+    {
+     "id": "1182674013282840-325",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.411,
+      0.605
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37044,
+   "at": [
+    -1218.25,
+    -1573.8
+   ],
+   "centre": [
+    -1219.4,
+    -1580.1
+   ],
+   "width": 4.4,
+   "faces": 77,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1222.8,
+    -1585.8,
+    -1218.4,
+    -1586.9,
+    -1216.1,
+    -1574.3,
+    -1220.4,
+    -1573.3
+   ],
+   "id": "wilgestraat-77-27",
+   "latLon": [
+    51.064761,
+    3.709837
+   ],
+   "photos": [
+    {
+     "id": "1182674013282840-13",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.405,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36991,
+   "at": [
+    -1213.35,
+    -1574.9499999999998
+   ],
+   "centre": [
+    -1215.5,
+    -1585.3
+   ],
+   "width": 5.7,
+   "faces": 77,
+   "toStreet": 6,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1213.8,
+    -1588.6,
+    -1210.6,
+    -1575.6,
+    -1216.1,
+    -1574.3,
+    -1218.4,
+    -1586.9,
+    -1219.3,
+    -1591.2,
+    -1215.6,
+    -1592.2,
+    -1214.8,
+    -1588.4
+   ],
+   "id": "wilgestraat-77-28",
+   "latLon": [
+    51.064769,
+    3.709893
+   ],
+   "photos": [
+    {
+     "id": "1402588840566998-340",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.359,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36932,
+   "at": [
+    -1208.25,
+    -1576.15
+   ],
+   "centre": [
+    -1210.9,
+    -1587.6
+   ],
+   "width": 4.8,
+   "faces": 77,
+   "toStreet": 5.9,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1208.3,
+    -1586.3,
+    -1205.9,
+    -1576.7,
+    -1210.6,
+    -1575.6,
+    -1213.8,
+    -1588.6,
+    -1213.7,
+    -1589.7,
+    -1212.5,
+    -1590,
+    -1213.2,
+    -1592.7,
+    -1211.7,
+    -1593.2,
+    -1210,
+    -1593.6,
+    -1209.2,
+    -1590
+   ],
+   "id": "wilgestraat-77-29",
+   "latLon": [
+    51.064778,
+    3.709951
+   ],
+   "photos": [
+    {
+     "id": "1402588840566998-10",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.382,
+      0.595
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36985,
+   "at": [
+    -1195.15,
+    -1579.3
+   ],
+   "centre": [
+    -1196.9,
+    -1587.3
+   ],
+   "width": 4.6,
+   "faces": 77,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 12,
+   "top": 14,
+   "kind": "house",
+   "ring": [
+    -1192.9,
+    -1579.8,
+    -1197.4,
+    -1578.8,
+    -1200.6,
+    -1594.9,
+    -1196.6,
+    -1595.8
+   ],
+   "id": "wilgestraat-77-30",
+   "latLon": [
+    51.0648,
+    3.710101
+   ],
+   "photos": [
+    {
+     "id": "592928880346856-12",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.242,
+      0.669
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37066,
+   "at": [
+    -1185.7,
+    -1581.35
+   ],
+   "centre": [
+    -1187.1,
+    -1591.2
+   ],
+   "width": 5.7,
+   "faces": 77,
+   "toStreet": 5.5,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    -1186.1,
+    -1595.5,
+    -1185.3,
+    -1591.9,
+    -1182.9,
+    -1582,
+    -1188.5,
+    -1580.7,
+    -1192.6,
+    -1597.8,
+    -1187,
+    -1599.2
+   ],
+   "id": "wilgestraat-77-31",
+   "latLon": [
+    51.064815,
+    3.710209
+   ],
+   "photos": [
+    {
+     "id": "1142518477491470-4",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.396,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37110,
+   "at": [
+    -1171.5500000000002,
+    -1613.7
+   ],
+   "centre": [
+    -1174.4,
+    -1616.7
+   ],
+   "width": 4.4,
+   "faces": 77,
+   "toStreet": 7,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    -1169.4,
+    -1614.2,
+    -1173.7,
+    -1613.2,
+    -1174,
+    -1614.4,
+    -1176.6,
+    -1613.7,
+    -1177.3,
+    -1616.9,
+    -1178.4,
+    -1621.5,
+    -1171.6,
+    -1623.2
+   ],
+   "id": "wilgestraat-77-32",
+   "latLon": [
+    51.065049,
+    3.710371
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-335",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.463,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37128,
+   "at": [
+    -1167.1,
+    -1614.75
+   ],
+   "centre": [
+    -1168.2,
+    -1619.3
+   ],
+   "width": 4.7,
+   "faces": 77,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -1164.8,
+    -1615.3,
+    -1169.4,
+    -1614.2,
+    -1171.6,
+    -1623.2,
+    -1167,
+    -1624.4
+   ],
+   "id": "wilgestraat-77-33",
+   "latLon": [
+    51.065057,
+    3.710422
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-344",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.461,
+      0.546
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37001,
+   "at": [
+    -1129.95,
+    -1594.9499999999998
+   ],
+   "centre": [
+    -1132.1,
+    -1608.2
+   ],
+   "width": 5.7,
+   "faces": 77,
+   "toStreet": 5.6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    -1130.6,
+    -1609.8,
+    -1129.5,
+    -1605.1,
+    -1127.2,
+    -1595.6,
+    -1132.7,
+    -1594.3,
+    -1139.2,
+    -1621.5,
+    -1133.7,
+    -1622.9
+   ],
+   "id": "wilgestraat-77-34",
+   "latLon": [
+    51.064914,
+    3.710847
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37008,
+   "at": [
+    -1114.1,
+    -1598.85
+   ],
+   "centre": [
+    -1115.2,
+    -1603.6
+   ],
+   "width": 9,
+   "faces": 77,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1109.7,
+    -1599.9,
+    -1118.5,
+    -1597.8,
+    -1120.7,
+    -1607.3,
+    -1112,
+    -1609.5
+   ],
+   "id": "wilgestraat-77-35",
+   "latLon": [
+    51.064942,
+    3.711028
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36955,
+   "at": [
+    -1068.3,
+    -1610.05
+   ],
+   "centre": [
+    -1071.8,
+    -1614.1
+   ],
+   "width": 4.7,
+   "faces": 77,
+   "toStreet": 5.6,
+   "floors": 2,
+   "eaves": 9,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    -1068.5,
+    -1620.5,
+    -1066,
+    -1610.6,
+    -1070.6,
+    -1609.5,
+    -1070.7,
+    -1609.4,
+    -1071.3,
+    -1609.3,
+    -1071.6,
+    -1610.4,
+    -1074.9,
+    -1609.6,
+    -1077.8,
+    -1620.7,
+    -1073.8,
+    -1621.7,
+    -1073.2,
+    -1619.3
+   ],
+   "id": "wilgestraat-77-36",
+   "latLon": [
+    51.065023,
+    3.711551
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36923,
+   "at": [
+    -1050.5,
+    -1614.35
+   ],
+   "centre": [
+    -1054.6,
+    -1618.4
+   ],
+   "width": 4.9,
+   "faces": 77,
+   "toStreet": 5.5,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    -1050.6,
+    -1624.8,
+    -1048.1,
+    -1614.9,
+    -1052.9,
+    -1613.8,
+    -1053.6,
+    -1613.6,
+    -1053.9,
+    -1614.7,
+    -1057.5,
+    -1613.8,
+    -1057.5,
+    -1613.8,
+    -1060.3,
+    -1624.9,
+    -1056.1,
+    -1625.9,
+    -1055.7,
+    -1623.7
+   ],
+   "id": "wilgestraat-77-37",
+   "latLon": [
+    51.065054,
+    3.711755
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37064,
+   "at": [
+    -1017.2,
+    -1622.5
+   ],
+   "centre": [
+    -1017.3,
+    -1628.5
+   ],
+   "width": 4.3,
+   "faces": 77,
+   "toStreet": 5.4,
+   "floors": 4,
+   "eaves": 14,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1016.9,
+    -1635.1,
+    -1015.5,
+    -1629.9,
+    -1013.8,
+    -1623.3,
+    -1015.1,
+    -1623,
+    -1019.3,
+    -1622,
+    -1023.2,
+    -1637.4
+   ],
+   "id": "wilgestraat-77-38",
+   "latLon": [
+    51.065113,
+    3.712136
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37099,
+   "at": [
+    -1007.35,
+    -1631.75
+   ],
+   "centre": [
+    -1011.9,
+    -1634.5
+   ],
+   "width": 11,
+   "faces": 77,
+   "toStreet": 12,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1002,
+    -1633,
+    -1012.7,
+    -1630.5,
+    -1013.8,
+    -1633.7,
+    -1014,
+    -1634.5,
+    -1014.6,
+    -1634.6,
+    -1015.2,
+    -1634.7,
+    -1016.9,
+    -1635.1,
+    -1014.8,
+    -1635.7,
+    -1003.5,
+    -1638.8
+   ],
+   "id": "wilgestraat-77-39",
+   "latLon": [
+    51.06518,
+    3.712248
+   ],
+   "photos": [
+    {
+     "id": "1034990522001380-311",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.328,
+      0.851
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36951,
+   "at": [
+    -1249.45,
+    -1575.5
+   ],
+   "centre": [
+    -1234.7,
+    -1584.1
+   ],
+   "width": 10.3,
+   "faces": 78,
+   "toStreet": 15.3,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1219.3,
+    -1591.2,
+    -1218.4,
+    -1586.9,
+    -1222.8,
+    -1585.8,
+    -1227.1,
+    -1584.8,
+    -1231.1,
+    -1583.9,
+    -1235.4,
+    -1583,
+    -1240.3,
+    -1581.8,
+    -1239.7,
+    -1578.6,
+    -1244.6,
+    -1577.7,
+    -1244.4,
+    -1576.6,
+    -1254.5,
+    -1574.4,
+    -1256.8,
+    -1586.2,
+    -1231.7,
+    -1591.7,
+    -1219.9,
+    -1594.4
+   ],
+   "id": "wilgestraat-78-40",
+   "latLon": [
+    51.064773,
+    3.70948
+   ],
+   "photos": [
+    {
+     "id": "1688449798716843-358",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.361,
+      0.625
+     ]
+    },
+    {
+     "id": "2375207596162501-2",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.389,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37004,
+   "at": [
+    -1190.7,
+    -1580.25
+   ],
+   "centre": [
+    -1193.5,
+    -1590.2
+   ],
+   "width": 4.5,
+   "faces": 78,
+   "toStreet": 5.6,
+   "floors": 3,
+   "eaves": 11,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1188.5,
+    -1580.7,
+    -1192.9,
+    -1579.8,
+    -1196.6,
+    -1595.8,
+    -1196.9,
+    -1596.7,
+    -1192.6,
+    -1597.8
+   ],
+   "id": "wilgestraat-78-41",
+   "latLon": [
+    51.064807,
+    3.710152
+   ],
+   "photos": [
+    {
+     "id": "1883899462138685-343",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.401,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37087,
+   "at": [
+    -1162.35,
+    -1513.0500000000002
+   ],
+   "centre": [
+    -1161.3,
+    -1508
+   ],
+   "width": 7.5,
+   "faces": 165,
+   "toStreet": 14.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1161.9,
+    -1497.4,
+    -1164.3,
+    -1508.6,
+    -1161.4,
+    -1509.4,
+    -1163.3,
+    -1516.7,
+    -1160.4,
+    -1517.4,
+    -1156.4,
+    -1498.8
+   ],
+   "id": "wilgestraat-165-01",
+   "latLon": [
+    51.064321,
+    3.710476
+   ],
+   "photos": [
+    {
+     "id": "1597097760940760-92",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.32,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37269,
+   "at": [
+    -980.2,
+    -1632.75
+   ],
+   "centre": [
+    -967.7,
+    -1636
+   ],
+   "width": 6.1,
+   "faces": 165,
+   "toStreet": 14.9,
+   "floors": 1,
+   "eaves": null,
+   "top": 9.8,
+   "kind": "house",
+   "ring": [
+    -979.4,
+    -1629.8,
+    -981,
+    -1635.7,
+    -955.9,
+    -1642.2,
+    -954.4,
+    -1636.2
+   ],
+   "id": "wilgestraat-165-02",
+   "latLon": [
+    51.065187,
+    3.712559
+   ],
+   "photos": [
+    {
+     "id": "1034990522001380-70",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.427,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37271,
+   "at": [
+    -977.0999999999999,
+    -1620.8
+   ],
+   "centre": [
+    -964.7,
+    -1624
+   ],
+   "width": 6.2,
+   "faces": 165,
+   "toStreet": 14.8,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -976.3,
+    -1617.8,
+    -977.9,
+    -1623.8,
+    -953,
+    -1630.2,
+    -951.5,
+    -1624.2
+   ],
+   "id": "wilgestraat-165-03",
+   "latLon": [
+    51.065101,
+    3.712594
+   ],
+   "photos": [
+    {
+     "id": "1151614376427703-74",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.393,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36917,
+   "at": [
+    -1152.6999999999998,
+    -1615.95
+   ],
+   "centre": [
+    -1148.1,
+    -1617.1
+   ],
+   "width": 5,
+   "faces": 166,
+   "toStreet": 6.9,
+   "floors": 3,
+   "eaves": 10.6,
+   "top": 12.7,
+   "kind": "house",
+   "ring": [
+    -1142.9,
+    -1615.9,
+    -1152.1,
+    -1613.5,
+    -1153.3,
+    -1618.4,
+    -1144.1,
+    -1620.7
+   ],
+   "id": "wilgestraat-166-04",
+   "latLon": [
+    51.065066,
+    3.710586
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37038,
+   "at": [
+    -1151.55,
+    -1611.25
+   ],
+   "centre": [
+    -1146,
+    -1612.3
+   ],
+   "width": 4.6,
+   "faces": 166,
+   "toStreet": 5,
+   "floors": 3,
+   "eaves": 11,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1142,
+    -1612.1,
+    -1141.8,
+    -1611.1,
+    -1151,
+    -1609,
+    -1152.1,
+    -1613.5,
+    -1142.9,
+    -1615.9
+   ],
+   "id": "wilgestraat-166-05",
+   "latLon": [
+    51.065032,
+    3.7106
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37121,
+   "at": [
+    -1140.75,
+    -1616.9499999999998
+   ],
+   "centre": [
+    -1139.5,
+    -1609.7
+   ],
+   "width": 8.9,
+   "faces": 166,
+   "toStreet": 17.1,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 15.2,
+   "kind": "house",
+   "ring": [
+    -1139.2,
+    -1621.5,
+    -1132.7,
+    -1594.3,
+    -1137.5,
+    -1593.2,
+    -1139.7,
+    -1602.2,
+    -1140.8,
+    -1606.8,
+    -1141.8,
+    -1611.1,
+    -1142,
+    -1612.1,
+    -1139.7,
+    -1612.6,
+    -1141.8,
+    -1621.3,
+    -1139.3,
+    -1622
+   ],
+   "id": "wilgestraat-166-06",
+   "latLon": [
+    51.065073,
+    3.710723
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37270,
+   "at": [
+    -978.65,
+    -1626.8
+   ],
+   "centre": [
+    -966.2,
+    -1630
+   ],
+   "width": 6.2,
+   "faces": 166,
+   "toStreet": 13.5,
+   "floors": 3,
+   "eaves": null,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -977.9,
+    -1623.8,
+    -979.4,
+    -1629.8,
+    -954.4,
+    -1636.2,
+    -953,
+    -1630.2
+   ],
+   "id": "wilgestraat-166-07",
+   "latLon": [
+    51.065144,
+    3.712576
+   ],
+   "photos": [
+    {
+     "id": "1034990522001380-86",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.43,
+      0.573
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36929,
+   "at": [
+    -1176.25,
+    -1565.15
+   ],
+   "centre": [
+    -1174,
+    -1565.7
+   ],
+   "width": 11.6,
+   "faces": 167,
+   "toStreet": 10.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1170.5,
+    -1560.6,
+    -1174.9,
+    -1559.5,
+    -1177.6,
+    -1570.8,
+    -1173.2,
+    -1571.9
+   ],
+   "id": "wilgestraat-167-08",
+   "latLon": [
+    51.064698,
+    3.710317
+   ],
+   "photos": [
+    {
+     "id": "1142518477491470-103",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.178,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37081,
+   "at": [
+    -1151.9499999999998,
+    -1594.85
+   ],
+   "centre": [
+    -1149.6,
+    -1595.3
+   ],
+   "width": 10.2,
+   "faces": 167,
+   "toStreet": 10.2,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 12.9,
+   "kind": "house",
+   "ring": [
+    -1149.5,
+    -1590.2,
+    -1150.8,
+    -1589.9,
+    -1153.1,
+    -1599.8,
+    -1149.1,
+    -1600.8,
+    -1148.9,
+    -1600.2,
+    -1146.4,
+    -1591
+   ],
+   "id": "wilgestraat-167-09",
+   "latLon": [
+    51.064913,
+    3.710595
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-50",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.316,
+      0.794
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36911,
+   "at": [
+    -1156.35,
+    -1592.1
+   ],
+   "centre": [
+    -1155.4,
+    -1594.2
+   ],
+   "width": 4.1,
+   "faces": 167,
+   "toStreet": 5.3,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1150.8,
+    -1589.9,
+    -1154.2,
+    -1589.1,
+    -1155.9,
+    -1590.1,
+    -1156.8,
+    -1594.1,
+    -1157.1,
+    -1595.4,
+    -1157.4,
+    -1596.7,
+    -1157.9,
+    -1598.7,
+    -1153.1,
+    -1599.8
+   ],
+   "id": "wilgestraat-167-10",
+   "latLon": [
+    51.064893,
+    3.710545
+   ],
+   "photos": [
+    {
+     "id": "565399079662180-67",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.449,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37024,
+   "at": [
+    -1150.5,
+    -1606.75
+   ],
+   "centre": [
+    -1145.9,
+    -1607.8
+   ],
+   "width": 4.6,
+   "faces": 167,
+   "toStreet": 6.8,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1140.8,
+    -1606.8,
+    -1150,
+    -1604.5,
+    -1151,
+    -1609,
+    -1141.8,
+    -1611.1
+   ],
+   "id": "wilgestraat-167-11",
+   "latLon": [
+    51.064999,
+    3.710612
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36977,
+   "at": [
+    -1181.55,
+    -1564.8000000000002
+   ],
+   "centre": [
+    -1178.8,
+    -1562.2
+   ],
+   "width": 7,
+   "faces": 168,
+   "toStreet": 5.2,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    -1174.9,
+    -1559.5,
+    -1174.1,
+    -1556.1,
+    -1179.3,
+    -1555,
+    -1179.7,
+    -1557,
+    -1180.8,
+    -1561.4,
+    -1182.3,
+    -1568.2,
+    -1181.3,
+    -1569.9,
+    -1177.6,
+    -1570.8
+   ],
+   "id": "wilgestraat-168-12",
+   "latLon": [
+    51.064696,
+    3.710257
+   ],
+   "photos": [
+    {
+     "id": "595345059886441-100",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.406,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37117,
+   "at": [
+    -1233.9,
+    -1557.25
+   ],
+   "centre": [
+    -1233.4,
+    -1554.5
+   ],
+   "width": 4.3,
+   "faces": 255,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1230.7,
+    -1552.3,
+    -1235.2,
+    -1551.4,
+    -1236,
+    -1556.7,
+    -1231.8,
+    -1557.8
+   ],
+   "id": "wilgestraat-255-01",
+   "latLon": [
+    51.064641,
+    3.709658
+   ],
+   "photos": [
+    {
+     "id": "1118003223320154-134",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.474,
+      0.537
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36914,
+   "at": [
+    -1181.55,
+    -1596.7
+   ],
+   "centre": [
+    -1180.4,
+    -1594.4
+   ],
+   "width": 9.4,
+   "faces": 255,
+   "toStreet": 11.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1176.1,
+    -1594.1,
+    -1176.6,
+    -1594,
+    -1181,
+    -1593,
+    -1185.3,
+    -1591.9,
+    -1186.1,
+    -1595.5,
+    -1177,
+    -1597.9
+   ],
+   "id": "wilgestraat-255-02",
+   "latLon": [
+    51.064926,
+    3.710257
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37108,
+   "at": [
+    -1170.95,
+    -1572.5
+   ],
+   "centre": [
+    -1169.4,
+    -1564.2
+   ],
+   "width": 4.7,
+   "faces": 255,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1168.7,
+    -1573.1,
+    -1165.1,
+    -1558.1,
+    -1169.7,
+    -1557.1,
+    -1170.5,
+    -1560.6,
+    -1173.2,
+    -1571.9
+   ],
+   "id": "wilgestraat-255-03",
+   "latLon": [
+    51.064751,
+    3.710378
+   ],
+   "photos": [
+    {
+     "id": "565399079662180-159",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.409,
+      0.598
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36959,
+   "at": [
+    -1244.5,
+    -1554.6
+   ],
+   "centre": [
+    -1242,
+    -1551.9
+   ],
+   "width": 9.3,
+   "faces": 256,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1249,
+    -1545.8,
+    -1250.2,
+    -1551.8,
+    -1249,
+    -1553.5,
+    -1240,
+    -1555.7,
+    -1236,
+    -1556.7,
+    -1235.2,
+    -1551.4,
+    -1234.8,
+    -1548.5
+   ],
+   "id": "wilgestraat-256-04",
+   "latLon": [
+    51.064622,
+    3.709537
+   ],
+   "photos": [
+    {
+     "id": "1118003223320154-156",
+     "metres": 21,
+     "off": 0,
+     "span": [
+      0.411,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37010,
+   "at": [
+    -1216.15,
+    -1561.5
+   ],
+   "centre": [
+    -1214.7,
+    -1553.8
+   ],
+   "width": 4.9,
+   "faces": 256,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 10.8,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -1213.8,
+    -1562.1,
+    -1210.8,
+    -1546.7,
+    -1215.5,
+    -1545.7,
+    -1218.5,
+    -1560.9
+   ],
+   "id": "wilgestraat-256-05",
+   "latLon": [
+    51.064672,
+    3.709861
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36976,
+   "at": [
+    -1209.9,
+    -1563.05
+   ],
+   "centre": [
+    -1205.8,
+    -1547.8
+   ],
+   "width": 8,
+   "faces": 256,
+   "toStreet": 6.4,
+   "floors": 2,
+   "eaves": 5.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1203.8,
+    -1553.1,
+    -1203.2,
+    -1549.8,
+    -1203.1,
+    -1549.2,
+    -1202.2,
+    -1544.8,
+    -1201.3,
+    -1540.2,
+    -1200.9,
+    -1538,
+    -1208.8,
+    -1536.5,
+    -1209.7,
+    -1541,
+    -1210.8,
+    -1546.7,
+    -1213.8,
+    -1562.1,
+    -1206,
+    -1564
+   ],
+   "id": "wilgestraat-256-06",
+   "latLon": [
+    51.064683,
+    3.709933
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36994,
+   "at": [
+    -1203.75,
+    -1564.55
+   ],
+   "centre": [
+    -1202.7,
+    -1558.9
+   ],
+   "width": 4.6,
+   "faces": 256,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1199.3,
+    -1553.5,
+    -1203.8,
+    -1553.1,
+    -1206,
+    -1564,
+    -1201.5,
+    -1565.1
+   ],
+   "id": "wilgestraat-256-07",
+   "latLon": [
+    51.064694,
+    3.710003
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36940,
+   "at": [
+    -1177.25,
+    -1507.4499999999998
+   ],
+   "centre": [
+    -1175.8,
+    -1500.9
+   ],
+   "width": 5.3,
+   "faces": 256,
+   "toStreet": 9.4,
+   "floors": 1,
+   "eaves": 2.8,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    -1171.8,
+    -1495,
+    -1176.9,
+    -1493.8,
+    -1179.8,
+    -1506.8,
+    -1174.7,
+    -1508.1
+   ],
+   "id": "wilgestraat-256-08",
+   "latLon": [
+    51.064281,
+    3.710306
+   ],
+   "photos": [
+    {
+     "id": "444148461966436-181",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.429,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37071,
+   "at": [
+    -1174.0500000000002,
+    -1514.15
+   ],
+   "centre": [
+    -1171.7,
+    -1508.2
+   ],
+   "width": 3.8,
+   "faces": 256,
+   "toStreet": 3.6,
+   "floors": 1,
+   "eaves": 2.5,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1170.4,
+    -1514.4,
+    -1166.7,
+    -1496.3,
+    -1171.8,
+    -1495,
+    -1174.7,
+    -1508.1,
+    -1175.9,
+    -1513.7,
+    -1172.2,
+    -1514.6,
+    -1170.5,
+    -1515
+   ],
+   "id": "wilgestraat-256-09",
+   "latLon": [
+    51.064329,
+    3.710342
+   ],
+   "photos": [
+    {
+     "id": "444148461966436-166",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.419,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37022,
+   "at": [
+    -1139.35,
+    -1580.1
+   ],
+   "centre": [
+    -1135.9,
+    -1567.7
+   ],
+   "width": 4.9,
+   "faces": 256,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1132.3,
+    -1560.9,
+    -1131.9,
+    -1559.3,
+    -1136.6,
+    -1558.3,
+    -1141.7,
+    -1579.5,
+    -1137,
+    -1580.7
+   ],
+   "id": "wilgestraat-256-10",
+   "latLon": [
+    51.064806,
+    3.710739
+   ],
+   "photos": [
+    {
+     "id": "1126557732193358-166",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.41,
+      0.59
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36979,
+   "at": [
+    -1134.3,
+    -1581.35
+   ],
+   "centre": [
+    -1130.3,
+    -1567.2
+   ],
+   "width": 5.6,
+   "faces": 256,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1127.2,
+    -1563.6,
+    -1126.5,
+    -1561,
+    -1128.8,
+    -1560.4,
+    -1129,
+    -1561.6,
+    -1132.3,
+    -1560.9,
+    -1137,
+    -1580.7,
+    -1131.6,
+    -1582
+   ],
+   "id": "wilgestraat-256-11",
+   "latLon": [
+    51.064815,
+    3.710797
+   ],
+   "photos": [
+    {
+     "id": "1126557732193358-145",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.416,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36928,
+   "at": [
+    -1123.95,
+    -1583.85
+   ],
+   "centre": [
+    -1119.8,
+    -1568
+   ],
+   "width": 5.3,
+   "faces": 256,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1115.3,
+    -1558.9,
+    -1120.3,
+    -1557.9,
+    -1122,
+    -1564.8,
+    -1126.5,
+    -1583.2,
+    -1121.4,
+    -1584.5,
+    -1116.6,
+    -1564.3,
+    -1116.2,
+    -1562.6
+   ],
+   "id": "wilgestraat-256-12",
+   "latLon": [
+    51.064833,
+    3.710915
+   ],
+   "photos": [
+    {
+     "id": "1155425742637738-176",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.405,
+      0.582
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37061,
+   "at": [
+    -1118.5,
+    -1585.2
+   ],
+   "centre": [
+    -1115,
+    -1568.7
+   ],
+   "width": 6,
+   "faces": 256,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1110.3,
+    -1564.1,
+    -1109.4,
+    -1560.5,
+    -1115.3,
+    -1558.9,
+    -1116.2,
+    -1562.6,
+    -1116.6,
+    -1564.3,
+    -1121.4,
+    -1584.5,
+    -1115.6,
+    -1585.9
+   ],
+   "id": "wilgestraat-256-13",
+   "latLon": [
+    51.064843,
+    3.710977
+   ],
+   "photos": [
+    {
+     "id": "1155425742637738-154",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.404,
+      0.601
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36954,
+   "at": [
+    -1113.15,
+    -1586.5
+   ],
+   "centre": [
+    -1110.5,
+    -1575.6
+   ],
+   "width": 5,
+   "faces": 256,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 16.4,
+   "kind": "house",
+   "ring": [
+    -1110.7,
+    -1587.1,
+    -1105.4,
+    -1565.2,
+    -1110.3,
+    -1564.1,
+    -1115.6,
+    -1585.9
+   ],
+   "id": "wilgestraat-256-14",
+   "latLon": [
+    51.064853,
+    3.711039
+   ],
+   "photos": [
+    {
+     "id": "1155425742637738-135",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.444,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37030,
+   "at": [
+    -1108.25,
+    -1587.6999999999998
+   ],
+   "centre": [
+    -1104,
+    -1572.4
+   ],
+   "width": 5,
+   "faces": 256,
+   "toStreet": 6.6,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 15.9,
+   "kind": "house",
+   "ring": [
+    -1103,
+    -1576.5,
+    -1102.8,
+    -1575.7,
+    -1101.5,
+    -1570.3,
+    -1100.5,
+    -1566.1,
+    -1102.6,
+    -1565.6,
+    -1102.4,
+    -1564.7,
+    -1105.1,
+    -1564,
+    -1105.4,
+    -1565.2,
+    -1110.7,
+    -1587.1,
+    -1105.8,
+    -1588.3
+   ],
+   "id": "wilgestraat-256-15",
+   "latLon": [
+    51.064861,
+    3.711095
+   ],
+   "photos": [
+    {
+     "id": "1135523001484169-183",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.42,
+      0.57
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37096,
+   "at": [
+    -1087.4,
+    -1592.6999999999998
+   ],
+   "centre": [
+    -1082.8,
+    -1574.4
+   ],
+   "width": 4.9,
+   "faces": 256,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1079.2,
+    -1569.5,
+    -1078.7,
+    -1567.1,
+    -1080.6,
+    -1566.7,
+    -1080.4,
+    -1566,
+    -1083.3,
+    -1565.5,
+    -1085.7,
+    -1575.1,
+    -1089.8,
+    -1592.1,
+    -1085,
+    -1593.3
+   ],
+   "id": "wilgestraat-256-16",
+   "latLon": [
+    51.064897,
+    3.711333
+   ],
+   "photos": [
+    {
+     "id": "581179237964450-174",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.425,
+      0.569
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37055,
+   "at": [
+    -1092.4499999999998,
+    -1591.4499999999998
+   ],
+   "centre": [
+    -1089.4,
+    -1577.8
+   ],
+   "width": 5.5,
+   "faces": 256,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    -1089.8,
+    -1592.1,
+    -1085.7,
+    -1575.1,
+    -1087.6,
+    -1574.4,
+    -1086.3,
+    -1568.4,
+    -1089.5,
+    -1567.6,
+    -1091.6,
+    -1576.3,
+    -1095.1,
+    -1590.8
+   ],
+   "id": "wilgestraat-256-17",
+   "latLon": [
+    51.064888,
+    3.711275
+   ],
+   "photos": [
+    {
+     "id": "581179237964450-190",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.428,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37009,
+   "at": [
+    -1082.4,
+    -1593.9499999999998
+   ],
+   "centre": [
+    -1078.6,
+    -1580.4
+   ],
+   "width": 5.4,
+   "faces": 256,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    -1074.8,
+    -1573.9,
+    -1074,
+    -1570.7,
+    -1079.2,
+    -1569.5,
+    -1085,
+    -1593.3,
+    -1079.8,
+    -1594.6
+   ],
+   "id": "wilgestraat-256-18",
+   "latLon": [
+    51.064906,
+    3.71139
+   ],
+   "photos": [
+    {
+     "id": "581179237964450-156",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.426,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37014,
+   "at": [
+    -1069.8000000000002,
+    -1597
+   ],
+   "centre": [
+    -1063.3,
+    -1571.8
+   ],
+   "width": 10.1,
+   "faces": 256,
+   "toStreet": 6.8,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": 10.9,
+   "kind": "house",
+   "ring": [
+    -1061,
+    -1582,
+    -1060.5,
+    -1580.1,
+    -1057.5,
+    -1567.7,
+    -1057.3,
+    -1566.8,
+    -1055.9,
+    -1560.8,
+    -1057.2,
+    -1560.5,
+    -1059.1,
+    -1560.1,
+    -1062.4,
+    -1559.4,
+    -1065.7,
+    -1558.6,
+    -1066.5,
+    -1562.1,
+    -1068.6,
+    -1570.6,
+    -1064.7,
+    -1571.5,
+    -1066.4,
+    -1578.2,
+    -1070.1,
+    -1577,
+    -1074.7,
+    -1595.8,
+    -1064.9,
+    -1598.2
+   ],
+   "id": "wilgestraat-256-19",
+   "latLon": [
+    51.064928,
+    3.711534
+   ],
+   "photos": [
+    {
+     "id": "876124231098868-178",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.352,
+      0.628
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36916,
+   "at": [
+    -1051.85,
+    -1601.3
+   ],
+   "centre": [
+    -1051.6,
+    -1591.3
+   ],
+   "width": 4.2,
+   "faces": 256,
+   "toStreet": 6.9,
+   "floors": 2,
+   "eaves": 8.2,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -1045.9,
+    -1585.7,
+    -1046,
+    -1583.4,
+    -1052.2,
+    -1582.9,
+    -1052.4,
+    -1583.9,
+    -1053.5,
+    -1583.6,
+    -1057.2,
+    -1599.2,
+    -1053.7,
+    -1600.1,
+    -1053.9,
+    -1600.8,
+    -1049.8,
+    -1601.8
+   ],
+   "id": "wilgestraat-256-20",
+   "latLon": [
+    51.06496,
+    3.711739
+   ],
+   "photos": [
+    {
+     "id": "2910663475774733-180",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.442,
+      0.551
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37039,
+   "at": [
+    -1036.85,
+    -1604.9
+   ],
+   "centre": [
+    -1036.2,
+    -1594.3
+   ],
+   "width": 4.2,
+   "faces": 256,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -1030.9,
+    -1589.3,
+    -1031.3,
+    -1589.2,
+    -1031.2,
+    -1586.9,
+    -1037.3,
+    -1586.6,
+    -1037.6,
+    -1587.5,
+    -1038.6,
+    -1587.3,
+    -1042.3,
+    -1602.8,
+    -1038.7,
+    -1603.7,
+    -1038.9,
+    -1604.4,
+    -1034.8,
+    -1605.4
+   ],
+   "id": "wilgestraat-256-21",
+   "latLon": [
+    51.064986,
+    3.711911
+   ],
+   "photos": [
+    {
+     "id": "3926302294311205-163",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.424,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36921,
+   "at": [
+    -1017.6500000000001,
+    -1609.5
+   ],
+   "centre": [
+    -1012.8,
+    -1602.2
+   ],
+   "width": 4.2,
+   "faces": 256,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    -1009.6,
+    -1600.4,
+    -1008.2,
+    -1594.6,
+    -1009.2,
+    -1594.4,
+    -1008.9,
+    -1593.2,
+    -1014.7,
+    -1590.9,
+    -1015.8,
+    -1593,
+    -1019.7,
+    -1609,
+    -1015.6,
+    -1610,
+    -1015.4,
+    -1609.3,
+    -1012.3,
+    -1610,
+    -1012.3,
+    -1610.9,
+    -1012.1,
+    -1610.9
+   ],
+   "id": "wilgestraat-256-22",
+   "latLon": [
+    51.065019,
+    3.71213
+   ],
+   "photos": [
+    {
+     "id": "1351988405983802-185",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.437,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37088,
+   "at": [
+    -1009.4000000000001,
+    -1611.5500000000002
+   ],
+   "centre": [
+    -1008.1,
+    -1606.3
+   ],
+   "width": 5.6,
+   "faces": 256,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 9.8,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1004.1,
+    -1601.8,
+    -1009.6,
+    -1600.4,
+    -1012.1,
+    -1610.9,
+    -1006.7,
+    -1612.2
+   ],
+   "id": "wilgestraat-256-23",
+   "latLon": [
+    51.065034,
+    3.712225
+   ],
+   "photos": [
+    {
+     "id": "947998166867653-162",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.399,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37049,
+   "at": [
+    -1002.5999999999999,
+    -1613.2
+   ],
+   "centre": [
+    -998.3,
+    -1600.7
+   ],
+   "width": 6.8,
+   "faces": 256,
+   "toStreet": 7.1,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -994.7,
+    -1605.4,
+    -989.1,
+    -1584,
+    -988.9,
+    -1583.3,
+    -999.1,
+    -1580.8,
+    -1004.1,
+    -1601.8,
+    -1006.7,
+    -1612.2,
+    -1005.9,
+    -1612.4,
+    -999.3,
+    -1614,
+    -996.6,
+    -1612.5
+   ],
+   "id": "wilgestraat-256-24",
+   "latLon": [
+    51.065046,
+    3.712302
+   ],
+   "photos": [
+    {
+     "id": "1034990522001380-192",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.356,
+      0.604
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36980,
+   "at": [
+    -1229.4499999999998,
+    -1558.35
+   ],
+   "centre": [
+    -1229.1,
+    -1552.5
+   ],
+   "width": 4.8,
+   "faces": 257,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -1225.1,
+    -1548.9,
+    -1229.8,
+    -1547.7,
+    -1230.1,
+    -1549.4,
+    -1230.7,
+    -1552.3,
+    -1231.8,
+    -1557.8,
+    -1227.1,
+    -1558.9
+   ],
+   "id": "wilgestraat-257-25",
+   "latLon": [
+    51.064649,
+    3.709709
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37042,
+   "at": [
+    -1220.65,
+    -1560.4
+   ],
+   "centre": [
+    -1219,
+    -1552.8
+   ],
+   "width": 4.4,
+   "faces": 257,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 10.9,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1215.5,
+    -1545.7,
+    -1219.3,
+    -1544.9,
+    -1222.8,
+    -1559.9,
+    -1218.5,
+    -1560.9
+   ],
+   "id": "wilgestraat-257-26",
+   "latLon": [
+    51.064664,
+    3.70981
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36988,
+   "at": [
+    -1224.9499999999998,
+    -1559.4
+   ],
+   "centre": [
+    -1223,
+    -1550.2
+   ],
+   "width": 4.4,
+   "faces": 257,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    -1219.3,
+    -1544.9,
+    -1219.9,
+    -1544.8,
+    -1224.1,
+    -1544,
+    -1225.1,
+    -1548.9,
+    -1227.1,
+    -1558.9,
+    -1222.8,
+    -1559.9
+   ],
+   "id": "wilgestraat-257-27",
+   "latLon": [
+    51.064656,
+    3.709761
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 36898,
+   "at": [
+    -1166.3000000000002,
+    -1573.65
+   ],
+   "centre": [
+    -1163.2,
+    -1559.4
+   ],
+   "width": 4.9,
+   "faces": 257,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    -1163.9,
+    -1574.2,
+    -1159.8,
+    -1557.4,
+    -1158.1,
+    -1550.1,
+    -1163,
+    -1549.2,
+    -1164,
+    -1553.6,
+    -1165.1,
+    -1558.1,
+    -1168.7,
+    -1573.1
+   ],
+   "id": "wilgestraat-257-28",
+   "latLon": [
+    51.06476,
+    3.710431
+   ],
+   "photos": [
+    {
+     "id": "565399079662180-139",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.428,
+      0.586
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37085,
+   "at": [
+    -1161.4,
+    -1574.8000000000002
+   ],
+   "centre": [
+    -1157.4,
+    -1560
+   ],
+   "width": 5.1,
+   "faces": 257,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    -1158.9,
+    -1575.4,
+    -1154.8,
+    -1558.3,
+    -1153.7,
+    -1553.9,
+    -1155.4,
+    -1553.7,
+    -1155.7,
+    -1555.1,
+    -1157,
+    -1554.7,
+    -1157.6,
+    -1557.7,
+    -1159.8,
+    -1557.4,
+    -1163.9,
+    -1574.2
+   ],
+   "id": "wilgestraat-257-29",
+   "latLon": [
+    51.064768,
+    3.710487
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-187",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.408,
+      0.583
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37098,
+   "at": [
+    -1155.35,
+    -1576.25
+   ],
+   "centre": [
+    -1151.9,
+    -1562.4
+   ],
+   "width": 7.3,
+   "faces": 257,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 14.4,
+   "top": 18.1,
+   "kind": "house",
+   "ring": [
+    -1145.8,
+    -1552.4,
+    -1149,
+    -1551.8,
+    -1151,
+    -1559.4,
+    -1154.8,
+    -1558.3,
+    -1158.9,
+    -1575.4,
+    -1151.8,
+    -1577.1
+   ],
+   "id": "wilgestraat-257-30",
+   "latLon": [
+    51.064778,
+    3.710556
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-161",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.359,
+      0.639
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37094,
+   "at": [
+    -1149.25,
+    -1577.6999999999998
+   ],
+   "centre": [
+    -1145.2,
+    -1560.7
+   ],
+   "width": 5.2,
+   "faces": 257,
+   "toStreet": 6.5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1141.1,
+    -1554.8,
+    -1140.3,
+    -1551.5,
+    -1145.3,
+    -1550.2,
+    -1145.8,
+    -1552.4,
+    -1151.8,
+    -1577.1,
+    -1146.7,
+    -1578.3
+   ],
+   "id": "wilgestraat-257-31",
+   "latLon": [
+    51.064789,
+    3.710626
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-136",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.431,
+      0.581
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37027,
+   "at": [
+    -1144.2,
+    -1578.9
+   ],
+   "centre": [
+    -1140.4,
+    -1565.3
+   ],
+   "width": 5.1,
+   "faces": 257,
+   "toStreet": 6.5,
+   "floors": 1,
+   "eaves": 3.5,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1136.6,
+    -1558.3,
+    -1136,
+    -1555.8,
+    -1141.1,
+    -1554.8,
+    -1146.7,
+    -1578.3,
+    -1141.7,
+    -1579.5
+   ],
+   "id": "wilgestraat-257-32",
+   "latLon": [
+    51.064798,
+    3.710684
+   ],
+   "photos": [
+    {
+     "id": "1126557732193358-186",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.413,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37028,
+   "at": [
+    -1129.05,
+    -1582.6
+   ],
+   "centre": [
+    -1126.8,
+    -1573.4
+   ],
+   "width": 5.2,
+   "faces": 257,
+   "toStreet": 6.6,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1126.5,
+    -1583.2,
+    -1122,
+    -1564.8,
+    -1127.2,
+    -1563.6,
+    -1131.6,
+    -1582
+   ],
+   "id": "wilgestraat-257-33",
+   "latLon": [
+    51.064824,
+    3.710857
+   ],
+   "photos": [
+    {
+     "id": "1155425742637738-194",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.423,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37106,
+   "at": [
+    -1100.4499999999998,
+    -1589.55
+   ],
+   "centre": [
+    -1099.4,
+    -1578
+   ],
+   "width": 11,
+   "faces": 257,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    -1091.6,
+    -1576.3,
+    -1098,
+    -1574.8,
+    -1097.2,
+    -1571.4,
+    -1101.5,
+    -1570.3,
+    -1102.8,
+    -1575.7,
+    -1103,
+    -1576.5,
+    -1105.8,
+    -1588.3,
+    -1095.1,
+    -1590.8
+   ],
+   "id": "wilgestraat-257-34",
+   "latLon": [
+    51.064875,
+    3.711184
+   ],
+   "photos": [
+    {
+     "id": "1135523001484169-153",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.348,
+      0.69
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37123,
+   "at": [
+    -1077.25,
+    -1595.1999999999998
+   ],
+   "centre": [
+    -1073.8,
+    -1583.3
+   ],
+   "width": 5.2,
+   "faces": 257,
+   "toStreet": 6.7,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.8,
+   "kind": "house",
+   "ring": [
+    -1070.1,
+    -1577,
+    -1069.6,
+    -1575,
+    -1074.8,
+    -1573.9,
+    -1079.8,
+    -1594.6,
+    -1074.7,
+    -1595.8
+   ],
+   "id": "wilgestraat-257-35",
+   "latLon": [
+    51.064915,
+    3.711449
+   ],
+   "photos": [
+    {
+     "id": "581179237964450-140",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.442,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37076,
+   "at": [
+    -1062.75,
+    -1598.7
+   ],
+   "centre": [
+    -1058.4,
+    -1589.7
+   ],
+   "width": 4.4,
+   "faces": 257,
+   "toStreet": 6.8,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -1053.5,
+    -1583.6,
+    -1054.1,
+    -1583.5,
+    -1053.9,
+    -1582.5,
+    -1059.5,
+    -1580.3,
+    -1061,
+    -1582,
+    -1064.9,
+    -1598.2,
+    -1060.6,
+    -1599.2,
+    -1060.5,
+    -1598.4,
+    -1057.2,
+    -1599.2
+   ],
+   "id": "wilgestraat-257-36",
+   "latLon": [
+    51.064941,
+    3.711615
+   ],
+   "photos": [
+    {
+     "id": "876124231098868-154",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.447,
+      0.566
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36984,
+   "at": [
+    -1047.6999999999998,
+    -1602.3
+   ],
+   "centre": [
+    -1043.6,
+    -1592.5
+   ],
+   "width": 4.3,
+   "faces": 257,
+   "toStreet": 6.9,
+   "floors": 2,
+   "eaves": 8.6,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    -1042.3,
+    -1602.8,
+    -1038.6,
+    -1587.3,
+    -1039,
+    -1587.2,
+    -1038.8,
+    -1586.2,
+    -1044.6,
+    -1583.8,
+    -1045.5,
+    -1585.8,
+    -1045.9,
+    -1585.7,
+    -1049.8,
+    -1601.8,
+    -1045.6,
+    -1602.8,
+    -1045.5,
+    -1602.1
+   ],
+   "id": "wilgestraat-257-37",
+   "latLon": [
+    51.064967,
+    3.711787
+   ],
+   "photos": [
+    {
+     "id": "2910663475774733-167",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.437,
+      0.555
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37058,
+   "at": [
+    -1032.6999999999998,
+    -1605.9
+   ],
+   "centre": [
+    -1028.4,
+    -1596.9
+   ],
+   "width": 4.3,
+   "faces": 257,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 11.5,
+   "kind": "house",
+   "ring": [
+    -1027.3,
+    -1606.4,
+    -1023.6,
+    -1590.9,
+    -1024.1,
+    -1590.7,
+    -1024,
+    -1589.7,
+    -1029.6,
+    -1587.4,
+    -1030.9,
+    -1589.3,
+    -1034.8,
+    -1605.4,
+    -1030.6,
+    -1606.4,
+    -1030.5,
+    -1605.7
+   ],
+   "id": "wilgestraat-257-38",
+   "latLon": [
+    51.064993,
+    3.711958
+   ],
+   "photos": [
+    {
+     "id": "1260816508358774-179",
+     "metres": 16,
+     "off": 0,
+     "span": [
+      0.44,
+      0.548
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37089,
+   "at": [
+    -1021.8,
+    -1608.5
+   ],
+   "centre": [
+    -1021.1,
+    -1597.9
+   ],
+   "width": 4.3,
+   "faces": 257,
+   "toStreet": 7.1,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": 11.4,
+   "kind": "house",
+   "ring": [
+    -1015.8,
+    -1593,
+    -1016.3,
+    -1592.9,
+    -1016.1,
+    -1590.6,
+    -1022.4,
+    -1590.2,
+    -1022.6,
+    -1591.1,
+    -1023.6,
+    -1590.9,
+    -1027.3,
+    -1606.4,
+    -1023.7,
+    -1607.3,
+    -1023.9,
+    -1608,
+    -1019.7,
+    -1609
+   ],
+   "id": "wilgestraat-257-39",
+   "latLon": [
+    51.065012,
+    3.712083
+   ],
+   "photos": [
+    {
+     "id": "1004821311514067-157",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.427,
+      0.587
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37036,
+   "at": [
+    -1241.9,
+    -1547.15
+   ],
+   "centre": [
+    -1240.8,
+    -1541.5
+   ],
+   "width": 14.5,
+   "faces": 259,
+   "toStreet": 14.1,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1249,
+    -1545.8,
+    -1234.8,
+    -1548.5,
+    -1232.3,
+    -1537.1,
+    -1246.9,
+    -1534.5
+   ],
+   "id": "wilgestraat-259-40",
+   "latLon": [
+    51.064568,
+    3.709567
+   ],
+   "photos": [
+    {
+     "id": "4015900411962893-184",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.134,
+      0.762
+     ]
+    },
+    {
+     "id": "412709618592886-150",
+     "metres": 17,
+     "off": 0,
+     "span": [
+      0.355,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36900,
+   "at": [
+    -1186.3,
+    -1503.3
+   ],
+   "centre": [
+    -1186.7,
+    -1499.9
+   ],
+   "width": 3.6,
+   "faces": 261,
+   "toStreet": 16.7,
+   "floors": 3,
+   "eaves": 11.6,
+   "top": 14.9,
+   "kind": "house",
+   "ring": [
+    -1184.5,
+    -1503.6,
+    -1182.1,
+    -1492.5,
+    -1187.2,
+    -1491.3,
+    -1189.9,
+    -1504.3,
+    -1188.4,
+    -1504.6,
+    -1188.1,
+    -1503
+   ],
+   "id": "wilgestraat-261-41",
+   "latLon": [
+    51.064251,
+    3.710202
+   ],
+   "photos": [
+    {
+     "id": "444148461966436-203",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.468,
+      0.532
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37083,
+   "at": [
+    -1189.9,
+    -1611.4
+   ],
+   "centre": [
+    -1195.7,
+    -1612.3
+   ],
+   "width": 4.9,
+   "faces": 346,
+   "toStreet": 16.5,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    -1191.5,
+    -1618.2,
+    -1190.5,
+    -1613.8,
+    -1189.3,
+    -1609,
+    -1188.7,
+    -1606.2,
+    -1207.6,
+    -1602.4,
+    -1210.5,
+    -1616.4,
+    -1191.9,
+    -1620
+   ],
+   "id": "wilgestraat-346-01",
+   "latLon": [
+    51.065033,
+    3.710161
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37059,
+   "at": [
+    -1178.65,
+    -1604.75
+   ],
+   "centre": [
+    -1183.2,
+    -1603.6
+   ],
+   "width": 4.6,
+   "faces": 346,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1178.1,
+    -1602.5,
+    -1187.3,
+    -1600.3,
+    -1188.3,
+    -1604.7,
+    -1179.2,
+    -1607
+   ],
+   "id": "wilgestraat-346-02",
+   "latLon": [
+    51.064985,
+    3.71029
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37129,
+   "at": [
+    -1171,
+    -1590.15
+   ],
+   "centre": [
+    -1173.8,
+    -1590.5
+   ],
+   "width": 10.2,
+   "faces": 346,
+   "toStreet": 9.4,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1169.8,
+    -1585.2,
+    -1174.2,
+    -1584.2,
+    -1176.6,
+    -1594,
+    -1176.1,
+    -1594.1,
+    -1172.2,
+    -1595.1
+   ],
+   "id": "wilgestraat-346-03",
+   "latLon": [
+    51.064879,
+    3.710377
+   ],
+   "photos": [
+    {
+     "id": "582916617819378-279",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.249,
+      0.675
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37025,
+   "at": [
+    -1191.25,
+    -1563
+   ],
+   "centre": [
+    -1193.8,
+    -1560
+   ],
+   "width": 5.7,
+   "faces": 347,
+   "toStreet": 4.7,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.2,
+   "kind": "house",
+   "ring": [
+    -1194.2,
+    -1551.3,
+    -1198.6,
+    -1550.3,
+    -1199.3,
+    -1553.5,
+    -1201.5,
+    -1565.1,
+    -1199,
+    -1565.7,
+    -1197.1,
+    -1566.1,
+    -1193.7,
+    -1567,
+    -1193.6,
+    -1567,
+    -1191.8,
+    -1565.9,
+    -1191.9,
+    -1565.8,
+    -1190.6,
+    -1560.2,
+    -1190.4,
+    -1559.2,
+    -1190.1,
+    -1557.8,
+    -1189.8,
+    -1556.6,
+    -1189.9,
+    -1556.6,
+    -1189,
+    -1552.6
+   ],
+   "id": "wilgestraat-347-04",
+   "latLon": [
+    51.064683,
+    3.710146
+   ],
+   "photos": [
+    {
+     "id": "1142518477491470-225",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.348,
+      0.746
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36970,
+   "at": [
+    -1179.7,
+    -1609.2
+   ],
+   "centre": [
+    -1185.1,
+    -1607.7
+   ],
+   "width": 4.5,
+   "faces": 347,
+   "toStreet": 6.3,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1179.2,
+    -1607,
+    -1188.3,
+    -1604.7,
+    -1188.7,
+    -1606.2,
+    -1189.3,
+    -1609,
+    -1180.2,
+    -1611.4
+   ],
+   "id": "wilgestraat-347-05",
+   "latLon": [
+    51.065017,
+    3.710278
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37051,
+   "at": [
+    -1177.55,
+    -1600.2
+   ],
+   "centre": [
+    -1183.1,
+    -1599.1
+   ],
+   "width": 4.7,
+   "faces": 347,
+   "toStreet": 6.4,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1177,
+    -1597.9,
+    -1186.1,
+    -1595.5,
+    -1187,
+    -1599.2,
+    -1187.3,
+    -1600.3,
+    -1178.1,
+    -1602.5
+   ],
+   "id": "wilgestraat-347-06",
+   "latLon": [
+    51.064952,
+    3.710302
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 37047,
+   "at": [
+    -1166.4,
+    -1592
+   ],
+   "centre": [
+    -1168.2,
+    -1590.1
+   ],
+   "width": 8.8,
+   "faces": 347,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    -1169.8,
+    -1585.2,
+    -1172.2,
+    -1595.1,
+    -1167.4,
+    -1596.3,
+    -1165.4,
+    -1587.7,
+    -1166.4,
+    -1586
+   ],
+   "id": "wilgestraat-347-07",
+   "latLon": [
+    51.064892,
+    3.71043
+   ],
+   "photos": [
+    {
+     "id": "1126557732193358-267",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.406,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 37073,
+   "at": [
+    -1190.5,
+    -1507.15
+   ],
+   "centre": [
+    -1191.5,
+    -1500.9
+   ],
+   "width": 5.8,
+   "faces": 348,
+   "toStreet": 17,
+   "floors": 1,
+   "eaves": 5.3,
+   "top": 14.7,
+   "kind": "house",
+   "ring": [
+    -1189.9,
+    -1504.3,
+    -1187.2,
+    -1491.3,
+    -1192.7,
+    -1489.9,
+    -1196.4,
+    -1508.8,
+    -1191.1,
+    -1510
+   ],
+   "id": "wilgestraat-348-08",
+   "latLon": [
+    51.064278,
+    3.710154
+   ],
+   "photos": [
+    {
+     "id": "1597097760940760-249",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.427,
+      0.588
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36719,
+   "at": [
+    -1267.7,
+    -1563.8
+   ],
+   "centre": [
+    -1282.3,
+    -1561.3
+   ],
+   "width": 5.1,
+   "faces": 349,
+   "toStreet": 11.7,
+   "floors": 3,
+   "eaves": 11.1,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1267.2,
+    -1561.3,
+    -1289.5,
+    -1557.2,
+    -1290.9,
+    -1557,
+    -1291.1,
+    -1560.1,
+    -1283.9,
+    -1561.7,
+    -1284.1,
+    -1563.2,
+    -1283.4,
+    -1563.4,
+    -1268.2,
+    -1566.3
+   ],
+   "id": "wilgestraat-349-09",
+   "latLon": [
+    51.064688,
+    3.709272
+   ],
+   "photos": [
+    {
+     "id": "412709618592886-262",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.419,
+      0.589
+     ]
+    },
+    {
+     "id": "4015900411962893-281",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.458,
+      0.545
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36723,
+   "at": [
+    -1266.65,
+    -1558.4499999999998
+   ],
+   "centre": [
+    -1283.5,
+    -1555.8
+   ],
+   "width": 5.8,
+   "faces": 349,
+   "toStreet": 9,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": 15.3,
+   "kind": "house",
+   "ring": [
+    -1266.1,
+    -1555.6,
+    -1290.2,
+    -1551.2,
+    -1290.3,
+    -1553.7,
+    -1290.4,
+    -1554.4,
+    -1290.9,
+    -1557,
+    -1289.5,
+    -1557.2,
+    -1267.2,
+    -1561.3
+   ],
+   "id": "wilgestraat-349-10",
+   "latLon": [
+    51.06465,
+    3.709284
+   ],
+   "photos": [
+    {
+     "id": "412709618592886-242",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.416,
+      0.595
+     ]
+    },
+    {
+     "id": "1688449798716843-277",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.417,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36759,
+   "at": [
+    -1265.4,
+    -1552.05
+   ],
+   "centre": [
+    -1281.4,
+    -1547.9
+   ],
+   "width": 7.2,
+   "faces": 349,
+   "toStreet": 9.6,
+   "floors": 3,
+   "eaves": 12,
+   "top": 15.1,
+   "kind": "house",
+   "ring": [
+    -1264.7,
+    -1548.5,
+    -1279.2,
+    -1545.6,
+    -1280.3,
+    -1545.4,
+    -1280.3,
+    -1546.5,
+    -1286.2,
+    -1545.1,
+    -1286.5,
+    -1546.7,
+    -1290,
+    -1546,
+    -1290.1,
+    -1548.8,
+    -1290.2,
+    -1551.2,
+    -1266.1,
+    -1555.6
+   ],
+   "id": "wilgestraat-349-11",
+   "latLon": [
+    51.064603,
+    3.709298
+   ],
+   "photos": [
+    {
+     "id": "1688449798716843-255",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.4,
+      0.611
+     ]
+    },
+    {
+     "id": "2375207596162501-266",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.381,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 36708,
+   "at": [
+    -1264.15,
+    -1545.65
+   ],
+   "centre": [
+    -1271.2,
+    -1544.3
+   ],
+   "width": 5.8,
+   "faces": 349,
+   "toStreet": 13.7,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    -1263.6,
+    -1542.8,
+    -1277.4,
+    -1540.3,
+    -1279.2,
+    -1545.6,
+    -1264.7,
+    -1548.5
+   ],
+   "id": "wilgestraat-349-12",
+   "latLon": [
+    51.064557,
+    3.709312
+   ],
+   "photos": [
+    {
+     "id": "1174209860933722-246",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.377,
+      0.641
+     ]
+    },
+    {
+     "id": "2375207596162501-242",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.413,
+      0.593
+     ]
+    }
+   ]
+  }
+ ]
+}

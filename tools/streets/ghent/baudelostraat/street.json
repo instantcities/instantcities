@@ -1,0 +1,4754 @@
+{
+ "city": "ghent",
+ "street": "Baudelostraat",
+ "slug": "baudelostraat",
+ "photos": {
+  "170638151633643": {
+   "file": "photos/170638151633643.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=170638151633643",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0574121,
+    3.7260567,
+    301,
+    0.81
+   ]
+  },
+  "271521461327702": {
+   "file": "photos/271521461327702.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=271521461327702",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0573854,
+    3.7261655,
+    313,
+    0.502
+   ]
+  },
+  "497781464796627": {
+   "file": "photos/497781464796627.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=497781464796627",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0573356,
+    3.726015,
+    332,
+    0.81
+   ]
+  },
+  "141259577971444": {
+   "file": "photos/141259577971444.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=141259577971444",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0572701,
+    3.7260249,
+    334,
+    0.502
+   ]
+  },
+  "946698469451019": {
+   "file": "photos/946698469451019.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=946698469451019",
+   "author": "km2bp",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-21",
+   "cam": [
+    51.0574608,
+    3.7263156,
+    304,
+    0.417
+   ]
+  },
+  "204491224597923": {
+   "file": "photos/204491224597923.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=204491224597923",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0573853,
+    3.7261671,
+    330,
+    0.502
+   ]
+  },
+  "177670224214260": {
+   "file": "photos/177670224214260.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=177670224214260",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0574918,
+    3.7263062,
+    314,
+    0.502
+   ]
+  },
+  "909564376531205": {
+   "file": "photos/909564376531205.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=909564376531205",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0574922,
+    3.7263067,
+    337,
+    0.502
+   ]
+  },
+  "1000783048542306-350": {
+   "file": "photos/1000783048542306-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1000783048542306",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0575471,
+    3.7263311,
+    350,
+    0.5
+   ]
+  },
+  "1846146326188338-355": {
+   "file": "photos/1846146326188338-355.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1846146326188338",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0575249,
+    3.7263275,
+    355,
+    0.5
+   ]
+  },
+  "1546108575992987-316": {
+   "file": "photos/1546108575992987-316.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1546108575992987",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0575758,
+    3.7264374,
+    316,
+    0.5
+   ]
+  },
+  "287461286324702": {
+   "file": "photos/287461286324702.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=287461286324702",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.057626,
+    3.7265045,
+    309,
+    0.502
+   ]
+  },
+  "232173292034618": {
+   "file": "photos/232173292034618.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=232173292034618",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0576266,
+    3.7265072,
+    345,
+    0.502
+   ]
+  },
+  "1418486719601931-283": {
+   "file": "photos/1418486719601931-283.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1418486719601931",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0580135,
+    3.7275061,
+    283,
+    0.5
+   ]
+  },
+  "521003070431935-304": {
+   "file": "photos/521003070431935-304.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=521003070431935",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0576878,
+    3.726661,
+    304,
+    0.5
+   ]
+  },
+  "582326781629608-299": {
+   "file": "photos/582326781629608-299.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582326781629608",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0576256,
+    3.7268497,
+    299,
+    0.5
+   ]
+  },
+  "631421009586662-338": {
+   "file": "photos/631421009586662-338.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=631421009586662",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0576766,
+    3.7267763,
+    338,
+    0.5
+   ]
+  },
+  "402006859641660-303": {
+   "file": "photos/402006859641660-303.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=402006859641660",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0577382,
+    3.7267779,
+    303,
+    0.5
+   ]
+  },
+  "1535400320001080": {
+   "file": "photos/1535400320001080.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1535400320001080",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0576868,
+    3.7272764,
+    316,
+    0.496
+   ]
+  },
+  "1670192066515801": {
+   "file": "photos/1670192066515801.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1670192066515801",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0589599,
+    3.7304577,
+    324,
+    0.734
+   ]
+  },
+  "4578371932177537": {
+   "file": "photos/4578371932177537.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=4578371932177537",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0589033,
+    3.7304355,
+    334,
+    0.742
+   ]
+  },
+  "582326781629608-347": {
+   "file": "photos/582326781629608-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=582326781629608",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-03-03",
+   "pano": true,
+   "cam": [
+    51.0576256,
+    3.7268497,
+    347,
+    0.5
+   ]
+  },
+  "463604280145517-295": {
+   "file": "photos/463604280145517-295.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=463604280145517",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0577661,
+    3.7268607,
+    295,
+    0.5
+   ]
+  },
+  "402006859641660-8": {
+   "file": "photos/402006859641660-8.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=402006859641660",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0577382,
+    3.7267779,
+    8,
+    0.5
+   ]
+  },
+  "1174899806269525": {
+   "file": "photos/1174899806269525.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1174899806269525",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0576797,
+    3.7272888,
+    315,
+    0.496
+   ]
+  },
+  "979839744045748-293": {
+   "file": "photos/979839744045748-293.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=979839744045748",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0580557,
+    3.7276268,
+    293,
+    0.5
+   ]
+  },
+  "1436880976665515": {
+   "file": "photos/1436880976665515.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1436880976665515",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0586075,
+    3.730364,
+    324,
+    0.742
+   ]
+  },
+  "905848283324445": {
+   "file": "photos/905848283324445.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=905848283324445",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0586372,
+    3.7303756,
+    324,
+    0.742
+   ]
+  },
+  "777085366333978": {
+   "file": "photos/777085366333978.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=777085366333978",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0586777,
+    3.730393,
+    319,
+    0.742
+   ]
+  },
+  "484066829680072": {
+   "file": "photos/484066829680072.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=484066829680072",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0587488,
+    3.7304081,
+    320,
+    0.742
+   ]
+  },
+  "1418486719601931-348": {
+   "file": "photos/1418486719601931-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1418486719601931",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0580135,
+    3.7275061,
+    348,
+    0.5
+   ]
+  },
+  "1291466208836176": {
+   "file": "photos/1291466208836176.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1291466208836176",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0578756,
+    3.7280507,
+    334,
+    0.516
+   ]
+  },
+  "636606594408269": {
+   "file": "photos/636606594408269.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=636606594408269",
+   "author": "pablopita",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-02-06",
+   "cam": [
+    51.0585708,
+    3.7303456,
+    333,
+    0.742
+   ]
+  },
+  "513755796475250": {
+   "file": "photos/513755796475250.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=513755796475250",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0575913,
+    3.7274291,
+    335,
+    0.496
+   ]
+  },
+  "508336600204160": {
+   "file": "photos/508336600204160.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=508336600204160",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0575787,
+    3.7274429,
+    341,
+    0.496
+   ]
+  },
+  "1145983460207709": {
+   "file": "photos/1145983460207709.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1145983460207709",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0580503,
+    3.7279378,
+    343,
+    0.516
+   ]
+  },
+  "274779254335664": {
+   "file": "photos/274779254335664.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=274779254335664",
+   "author": "km2bp",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-21",
+   "cam": [
+    51.058035,
+    3.727953,
+    359,
+    1.5
+   ]
+  },
+  "498780947920000": {
+   "file": "photos/498780947920000.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=498780947920000",
+   "author": "it_s_so_funny",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-12-13",
+   "cam": [
+    51.0579877,
+    3.7279947,
+    342,
+    0.9
+   ]
+  },
+  "2803532946517098": {
+   "file": "photos/2803532946517098.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2803532946517098",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0578393,
+    3.7280721,
+    342,
+    0.516
+   ]
+  },
+  "947436819129724": {
+   "file": "photos/947436819129724.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=947436819129724",
+   "author": "it_s_so_funny",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-12-13",
+   "cam": [
+    51.057886,
+    3.7280629,
+    342,
+    0.9
+   ]
+  },
+  "283926306606007": {
+   "file": "photos/283926306606007.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=283926306606007",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-06-01",
+   "cam": [
+    51.057835,
+    3.7280256,
+    354,
+    0.525
+   ]
+  },
+  "3981462962122729": {
+   "file": "photos/3981462962122729.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3981462962122729",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0578578,
+    3.7280617,
+    340,
+    0.516
+   ]
+  },
+  "868678623980802": {
+   "file": "photos/868678623980802.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=868678623980802",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-06-01",
+   "cam": [
+    51.0578217,
+    3.7280271,
+    345,
+    0.525
+   ]
+  },
+  "652455327107129": {
+   "file": "photos/652455327107129.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=652455327107129",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-04",
+   "cam": [
+    51.0579553,
+    3.7279992,
+    340,
+    0.516
+   ]
+  },
+  "1184713295334286": {
+   "file": "photos/1184713295334286.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1184713295334286",
+   "author": "km2bp",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-21",
+   "cam": [
+    51.057968,
+    3.727813,
+    359,
+    0.667
+   ]
+  },
+  "575801148610764-6": {
+   "file": "photos/575801148610764-6.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=575801148610764",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-12",
+   "pano": true,
+   "cam": [
+    51.0585532,
+    3.7294832,
+    6,
+    0.5
+   ]
+  },
+  "589842930459875-307": {
+   "file": "photos/589842930459875-307.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589842930459875",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-12",
+   "pano": true,
+   "cam": [
+    51.0584929,
+    3.7295133,
+    307,
+    0.5
+   ]
+  },
+  "575801148610764-335": {
+   "file": "photos/575801148610764-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=575801148610764",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-12",
+   "pano": true,
+   "cam": [
+    51.0585532,
+    3.7294832,
+    335,
+    0.5
+   ]
+  },
+  "589842930459875-322": {
+   "file": "photos/589842930459875-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=589842930459875",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-12",
+   "pano": true,
+   "cam": [
+    51.0584929,
+    3.7295133,
+    322,
+    0.5
+   ]
+  },
+  "1552817368704599-146": {
+   "file": "photos/1552817368704599-146.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1552817368704599",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0573695,
+    3.7260929,
+    146,
+    0.5
+   ]
+  },
+  "935904685313766-88": {
+   "file": "photos/935904685313766-88.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=935904685313766",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0573324,
+    3.7260694,
+    88,
+    0.5
+   ]
+  },
+  "1606897336862401-162": {
+   "file": "photos/1606897336862401-162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1606897336862401",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0574547,
+    3.7262274,
+    162,
+    0.5
+   ]
+  },
+  "600588386019888-163": {
+   "file": "photos/600588386019888-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=600588386019888",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.057462,
+    3.726225,
+    163,
+    0.5
+   ]
+  },
+  "198288845870791": {
+   "file": "photos/198288845870791.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=198288845870791",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0578986,
+    3.727307,
+    100,
+    0.493
+   ]
+  },
+  "402844808607527": {
+   "file": "photos/402844808607527.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=402844808607527",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0579181,
+    3.7271774,
+    101,
+    0.493
+   ]
+  },
+  "141194987980565": {
+   "file": "photos/141194987980565.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=141194987980565",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0578327,
+    3.7271158,
+    97,
+    0.504
+   ]
+  },
+  "788189855961040": {
+   "file": "photos/788189855961040.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=788189855961040",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0578984,
+    3.7273069,
+    100,
+    0.493
+   ]
+  },
+  "625906498953351": {
+   "file": "photos/625906498953351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=625906498953351",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0579177,
+    3.7271553,
+    116,
+    0.493
+   ]
+  },
+  "131484302331609": {
+   "file": "photos/131484302331609.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=131484302331609",
+   "author": "zors1843",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-03-13",
+   "cam": [
+    51.0578441,
+    3.7271039,
+    106,
+    0.504
+   ]
+  },
+  "1259396628449190-151": {
+   "file": "photos/1259396628449190-151.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1259396628449190",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0575142,
+    3.7263149,
+    151,
+    0.5
+   ]
+  },
+  "1846146326188338-163": {
+   "file": "photos/1846146326188338-163.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1846146326188338",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0575249,
+    3.7263275,
+    163,
+    0.5
+   ]
+  },
+  "1546108575992987-174": {
+   "file": "photos/1546108575992987-174.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1546108575992987",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0575758,
+    3.7264374,
+    174,
+    0.5
+   ]
+  },
+  "1279590283313538-117": {
+   "file": "photos/1279590283313538-117.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1279590283313538",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0575651,
+    3.7262978,
+    117,
+    0.5
+   ]
+  },
+  "1546108575992987-104": {
+   "file": "photos/1546108575992987-104.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1546108575992987",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0575758,
+    3.7264374,
+    104,
+    0.5
+   ]
+  },
+  "417812423531430": {
+   "file": "photos/417812423531430.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=417812423531430",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0581832,
+    3.7277715,
+    178,
+    0.487
+   ]
+  },
+  "1437817123845942-140": {
+   "file": "photos/1437817123845942-140.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1437817123845942",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0576309,
+    3.7265492,
+    140,
+    0.5
+   ]
+  },
+  "402006859641660-161": {
+   "file": "photos/402006859641660-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=402006859641660",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0577382,
+    3.7267779,
+    161,
+    0.5
+   ]
+  },
+  "463604280145517-170": {
+   "file": "photos/463604280145517-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=463604280145517",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0577661,
+    3.7268607,
+    170,
+    0.5
+   ]
+  },
+  "402006859641660-123": {
+   "file": "photos/402006859641660-123.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=402006859641660",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0577382,
+    3.7267779,
+    123,
+    0.5
+   ]
+  },
+  "1167685890325486": {
+   "file": "photos/1167685890325486.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1167685890325486",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0581136,
+    3.7268594,
+    150,
+    0.492
+   ]
+  },
+  "613151687053564": {
+   "file": "photos/613151687053564.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=613151687053564",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0579203,
+    3.7271379,
+    129,
+    0.493
+   ]
+  },
+  "1129786424201787": {
+   "file": "photos/1129786424201787.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1129786424201787",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0580949,
+    3.72688,
+    150,
+    0.492
+   ]
+  },
+  "1441764986292512": {
+   "file": "photos/1441764986292512.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1441764986292512",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0578609,
+    3.7271984,
+    109,
+    0.498
+   ]
+  },
+  "476532526913184": {
+   "file": "photos/476532526913184.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=476532526913184",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0580759,
+    3.7268997,
+    151,
+    0.492
+   ]
+  },
+  "409341044639618": {
+   "file": "photos/409341044639618.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=409341044639618",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0581037,
+    3.7269201,
+    149,
+    0.499
+   ]
+  },
+  "1218177805643692": {
+   "file": "photos/1218177805643692.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1218177805643692",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0579238,
+    3.7271258,
+    137,
+    0.493
+   ]
+  },
+  "748139416302941": {
+   "file": "photos/748139416302941.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=748139416302941",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0578605,
+    3.7271916,
+    115,
+    0.498
+   ]
+  },
+  "531778161315419": {
+   "file": "photos/531778161315419.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=531778161315419",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2020-07-13",
+   "cam": [
+    51.0580386,
+    3.726938,
+    151,
+    0.492
+   ]
+  },
+  "1526775398013717-150": {
+   "file": "photos/1526775398013717-150.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1526775398013717",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-12-28",
+   "pano": true,
+   "cam": [
+    51.0580207,
+    3.7274129,
+    150,
+    0.5
+   ]
+  },
+  "1418486719601931-181": {
+   "file": "photos/1418486719601931-181.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1418486719601931",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-30",
+   "pano": true,
+   "cam": [
+    51.0580135,
+    3.7275061,
+    181,
+    0.5
+   ]
+  },
+  "126984356732101": {
+   "file": "photos/126984356732101.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=126984356732101",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-08-14",
+   "cam": [
+    51.0581676,
+    3.7277686,
+    188,
+    0.487
+   ]
+  },
+  "176818700904788": {
+   "file": "photos/176818700904788.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=176818700904788",
+   "author": "imaginaire",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-10-15",
+   "cam": [
+    51.0583663,
+    3.7276231,
+    152,
+    0.49
+   ]
+  },
+  "218718899608144": {
+   "file": "photos/218718899608144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=218718899608144",
+   "author": "it_s_so_funny",
+   "licence": "CC BY-SA 4.0",
+   "date": "2015-12-12",
+   "cam": [
+    51.0583772,
+    3.7276413,
+    156,
+    0.89
+   ]
+  },
+  "1345678563184708-249": {
+   "file": "photos/1345678563184708-249.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1345678563184708",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-05-30",
+   "pano": true,
+   "cam": [
+    51.0590627,
+    3.730438,
+    249,
+    0.5
+   ]
+  },
+  "1147579293618637-263": {
+   "file": "photos/1147579293618637-263.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1147579293618637",
+   "author": "jdrbaix",
+   "licence": "CC BY-SA 4.0",
+   "date": "2025-01-12",
+   "pano": true,
+   "cam": [
+    51.0590263,
+    3.7303514,
+    263,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 34247,
+   "at": [
+    192.45,
+    -561.9000000000001
+   ],
+   "centre": [
+    190.2,
+    -564.1
+   ],
+   "width": 23.3,
+   "faces": 42,
+   "toStreet": 16.5,
+   "floors": 2,
+   "eaves": 6.3,
+   "top": 21.2,
+   "kind": "house",
+   "ring": [
+    180.3,
+    -556.8,
+    195.6,
+    -575.7,
+    200.2,
+    -570.6,
+    184.7,
+    -553.2
+   ],
+   "id": "baudelostraat-42-01",
+   "latLon": [
+    51.05744,
+    3.725964
+   ],
+   "photos": [
+    {
+     "id": "170638151633643",
+     "metres": 7,
+     "off": 6,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "271521461327702",
+     "metres": 15,
+     "off": 20,
+     "span": [
+      0,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34246,
+   "at": [
+    194.2,
+    -554.95
+   ],
+   "centre": [
+    193.7,
+    -557.3
+   ],
+   "width": 10.4,
+   "faces": 42,
+   "toStreet": 10.5,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": 20.8,
+   "kind": "house",
+   "ring": [
+    184.7,
+    -553.2,
+    200.2,
+    -570.6,
+    204.4,
+    -565.8,
+    197.7,
+    -558.8,
+    190.7,
+    -551.1,
+    190.8,
+    -550.9,
+    187.5,
+    -550.8
+   ],
+   "id": "baudelostraat-42-02",
+   "latLon": [
+    51.057389,
+    3.725984
+   ],
+   "photos": [
+    {
+     "id": "497781464796627",
+     "metres": 6,
+     "off": 8,
+     "span": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "141259577971444",
+     "metres": 14,
+     "off": 14,
+     "span": [
+      0.476,
+      0.745
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34248,
+   "at": [
+    207.05,
+    -568.4
+   ],
+   "centre": [
+    198.6,
+    -577.6
+   ],
+   "width": 7.4,
+   "faces": 46,
+   "toStreet": 10.4,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 23,
+   "kind": "house",
+   "ring": [
+    191.3,
+    -580.4,
+    194.1,
+    -583.3,
+    196.6,
+    -585.9,
+    199.1,
+    -583.7,
+    199.6,
+    -583,
+    209.7,
+    -571,
+    204.4,
+    -565.8,
+    200.2,
+    -570.6,
+    195.6,
+    -575.7,
+    195.2,
+    -576.1
+   ],
+   "id": "baudelostraat-46-03",
+   "latLon": [
+    51.057487,
+    3.726131
+   ],
+   "photos": [
+    {
+     "id": "946698469451019",
+     "metres": 13,
+     "off": 22,
+     "span": [
+      0.247,
+      0.429
+     ]
+    },
+    {
+     "id": "204491224597923",
+     "metres": 12,
+     "off": 18,
+     "span": [
+      0.53,
+      0.773
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34243,
+   "at": [
+    212.55,
+    -573.5
+   ],
+   "centre": [
+    207.2,
+    -580
+   ],
+   "width": 7.6,
+   "faces": 49,
+   "toStreet": 10,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 23.4,
+   "kind": "house",
+   "ring": [
+    199.6,
+    -583,
+    204,
+    -589.8,
+    215.4,
+    -576,
+    209.7,
+    -571
+   ],
+   "id": "baudelostraat-49-04",
+   "latLon": [
+    51.057523,
+    3.726194
+   ],
+   "photos": [
+    {
+     "id": "946698469451019",
+     "metres": 11,
+     "off": 5,
+     "span": [
+      0.43,
+      0.66
+     ]
+    },
+    {
+     "id": "177670224214260",
+     "metres": 9,
+     "off": 20,
+     "span": [
+      0.142,
+      0.508
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34214,
+   "at": [
+    218.8,
+    -578.8
+   ],
+   "centre": [
+    213,
+    -583.7
+   ],
+   "width": 6,
+   "faces": 50,
+   "toStreet": 9.6,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 22,
+   "kind": "house",
+   "ring": [
+    204,
+    -589.8,
+    208.1,
+    -595,
+    221.1,
+    -580.7,
+    216.5,
+    -576.9,
+    215.4,
+    -576
+   ],
+   "id": "baudelostraat-50-05",
+   "latLon": [
+    51.057562,
+    3.726266
+   ],
+   "photos": [
+    {
+     "id": "909564376531205",
+     "metres": 8,
+     "off": 3,
+     "span": [
+      0.376,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34172,
+   "at": [
+    223.5,
+    -582.6
+   ],
+   "centre": [
+    216.5,
+    -589.8
+   ],
+   "width": 6.1,
+   "faces": 52,
+   "toStreet": 9.4,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 23.9,
+   "kind": "house",
+   "ring": [
+    208.1,
+    -595,
+    211,
+    -598.9,
+    225.9,
+    -584.5,
+    221.1,
+    -580.7
+   ],
+   "id": "baudelostraat-52-06",
+   "latLon": [
+    51.057589,
+    3.726319
+   ],
+   "photos": [
+    {
+     "id": "1000783048542306-350",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.204,
+      0.683
+     ]
+    },
+    {
+     "id": "1846146326188338-355",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.33,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35073,
+   "at": [
+    509.40000000000003,
+    -750.6500000000001
+   ],
+   "centre": [
+    501.1,
+    -750
+   ],
+   "width": 9.6,
+   "faces": 52,
+   "toStreet": 16.6,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    493,
+    -749.7,
+    494,
+    -750.3,
+    507.3,
+    -759.8,
+    513.2,
+    -753.6,
+    505.6,
+    -747.7,
+    503.1,
+    -746.8,
+    500.7,
+    -745.3,
+    498.2,
+    -749.6,
+    494.5,
+    -747.3
+   ],
+   "id": "baudelostraat-52-07",
+   "latLon": [
+    51.058805,
+    3.729588
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34220,
+   "at": [
+    228.35000000000002,
+    -586.25
+   ],
+   "centre": [
+    220.7,
+    -593.9
+   ],
+   "width": 6,
+   "faces": 54,
+   "toStreet": 9.1,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 22.5,
+   "kind": "house",
+   "ring": [
+    211,
+    -598.9,
+    215.1,
+    -604.2,
+    230.8,
+    -588,
+    225.9,
+    -584.5
+   ],
+   "id": "baudelostraat-54-08",
+   "latLon": [
+    51.057616,
+    3.726375
+   ],
+   "photos": [
+    {
+     "id": "1546108575992987-316",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.314,
+      0.696
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34221,
+   "at": [
+    233.3,
+    -589.75
+   ],
+   "centre": [
+    225.1,
+    -598.1
+   ],
+   "width": 6.1,
+   "faces": 55,
+   "toStreet": 8.6,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": 23.2,
+   "kind": "house",
+   "ring": [
+    215.1,
+    -604.2,
+    218.5,
+    -608.6,
+    235.8,
+    -591.5,
+    230.8,
+    -588
+   ],
+   "id": "baudelostraat-55-09",
+   "latLon": [
+    51.057641,
+    3.726431
+   ],
+   "photos": [
+    {
+     "id": "287461286324702",
+     "metres": 5,
+     "off": 21,
+     "span": [
+      0.118,
+      0.547
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34252,
+   "at": [
+    238.3,
+    -593.25
+   ],
+   "centre": [
+    230.1,
+    -601.2
+   ],
+   "width": 6.1,
+   "faces": 55,
+   "toStreet": 8,
+   "floors": 1,
+   "eaves": 5.5,
+   "top": 21.8,
+   "kind": "house",
+   "ring": [
+    218.5,
+    -608.6,
+    225.2,
+    -609.8,
+    240.8,
+    -595,
+    235.8,
+    -591.5
+   ],
+   "id": "baudelostraat-55-10",
+   "latLon": [
+    51.057666,
+    3.726489
+   ],
+   "photos": [
+    {
+     "id": "232173292034618",
+     "metres": 5,
+     "off": 1,
+     "span": [
+      0.181,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34568,
+   "at": [
+    319.2,
+    -643.1500000000001
+   ],
+   "centre": [
+    318.6,
+    -644.3
+   ],
+   "width": 3.7,
+   "faces": 55,
+   "toStreet": 8.1,
+   "floors": 4,
+   "eaves": 16.7,
+   "top": 20.3,
+   "kind": "house",
+   "ring": [
+    312.1,
+    -648.9,
+    317.5,
+    -652.5,
+    323.3,
+    -643.6,
+    321.8,
+    -642.6,
+    320.7,
+    -644.2,
+    317.7,
+    -642.1,
+    318.7,
+    -640.8,
+    317.2,
+    -640
+   ],
+   "id": "baudelostraat-55-11",
+   "latLon": [
+    51.058027,
+    3.727413
+   ],
+   "photos": [
+    {
+     "id": "1418486719601931-283",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.431,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34232,
+   "at": [
+    248.2,
+    -599.7
+   ],
+   "centre": [
+    237.7,
+    -608.3
+   ],
+   "width": 17.5,
+   "faces": 58,
+   "toStreet": 6.6,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    225.2,
+    -609.8,
+    231.4,
+    -611,
+    232.2,
+    -610.2,
+    240.9,
+    -619.5,
+    255.6,
+    -604.4,
+    240.8,
+    -595
+   ],
+   "id": "baudelostraat-58-12",
+   "latLon": [
+    51.057713,
+    3.726602
+   ],
+   "photos": [
+    {
+     "id": "521003070431935-304",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.092,
+      1
+     ]
+    },
+    {
+     "id": "582326781629608-299",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.37,
+      0.689
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34173,
+   "at": [
+    258.75,
+    -606.3499999999999
+   ],
+   "centre": [
+    243.7,
+    -625.2
+   ],
+   "width": 7.4,
+   "faces": 58,
+   "toStreet": 6.1,
+   "floors": 2,
+   "eaves": 9.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    232.6,
+    -627.8,
+    234.8,
+    -630.8,
+    235.3,
+    -631.5,
+    236.4,
+    -631.1,
+    239.8,
+    -636,
+    245.3,
+    -632.7,
+    245.5,
+    -631.9,
+    249.6,
+    -625,
+    251.2,
+    -626.1,
+    261.9,
+    -608.3,
+    255.6,
+    -604.4,
+    240.9,
+    -619.5,
+    238.6,
+    -621.9
+   ],
+   "id": "baudelostraat-58-13",
+   "latLon": [
+    51.057761,
+    3.726722
+   ],
+   "photos": [
+    {
+     "id": "631421009586662-338",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.35,
+      0.638
+     ]
+    },
+    {
+     "id": "402006859641660-303",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.274,
+      0.899
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34598,
+   "at": [
+    277.55,
+    -617.5
+   ],
+   "centre": [
+    272.9,
+    -626.3
+   ],
+   "width": 6.5,
+   "faces": 58,
+   "toStreet": 5.8,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    263.5,
+    -634.2,
+    270.1,
+    -638.6,
+    281.1,
+    -622.2,
+    280.3,
+    -619.2,
+    274.8,
+    -615.8,
+    267.4,
+    -627.9
+   ],
+   "id": "baudelostraat-58-14",
+   "latLon": [
+    51.057842,
+    3.726937
+   ],
+   "photos": [
+    {
+     "id": "1535400320001080",
+     "metres": 29,
+     "off": 10,
+     "span": [
+      0.371,
+      0.455
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35063,
+   "at": [
+    568,
+    -791
+   ],
+   "centre": [
+    567.6,
+    -794.3
+   ],
+   "width": 9.4,
+   "faces": 58,
+   "toStreet": 13.6,
+   "floors": 1,
+   "eaves": 0.5,
+   "top": 17.6,
+   "kind": "house",
+   "ring": [
+    553.3,
+    -790.5,
+    568.6,
+    -799.7,
+    569.3,
+    -798.7,
+    569.7,
+    -798.2,
+    570,
+    -797.7,
+    570.3,
+    -797.2,
+    570.5,
+    -796.9,
+    570.7,
+    -796.5,
+    571,
+    -795.9,
+    571.2,
+    -795.5,
+    571.4,
+    -795.1,
+    571.7,
+    -794.4,
+    572,
+    -793.5,
+    564,
+    -788.5,
+    561.5,
+    -787,
+    557,
+    -784.2
+   ],
+   "id": "baudelostraat-58-15",
+   "latLon": [
+    51.059097,
+    3.730258
+   ],
+   "photos": [
+    {
+     "id": "1670192066515801",
+     "metres": 21,
+     "off": 6,
+     "span": [
+      0.288,
+      0.554
+     ]
+    },
+    {
+     "id": "4578371932177537",
+     "metres": 25,
+     "off": 4,
+     "span": [
+      0.338,
+      0.564
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34200,
+   "at": [
+    264.54999999999995,
+    -609.9
+   ],
+   "centre": [
+    258.5,
+    -620.9
+   ],
+   "width": 6.2,
+   "faces": 59,
+   "toStreet": 5.7,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 22.2,
+   "kind": "house",
+   "ring": [
+    251.2,
+    -626.1,
+    254.7,
+    -628.3,
+    257.4,
+    -630.1,
+    267.2,
+    -611.5,
+    261.9,
+    -608.3
+   ],
+   "id": "baudelostraat-59-16",
+   "latLon": [
+    51.057787,
+    3.726789
+   ],
+   "photos": [
+    {
+     "id": "582326781629608-347",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.43,
+      0.558
+     ]
+    },
+    {
+     "id": "463604280145517-295",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.349,
+      0.744
+     ]
+    },
+    {
+     "id": "402006859641660-8",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.252,
+      0.636
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34603,
+   "at": [
+    271.05,
+    -613.55
+   ],
+   "centre": [
+    265.2,
+    -623.3
+   ],
+   "width": 8.7,
+   "faces": 59,
+   "toStreet": 5.4,
+   "floors": 5,
+   "eaves": 17.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    261.1,
+    -632.6,
+    262,
+    -630.6,
+    264.7,
+    -626.3,
+    267.4,
+    -627.9,
+    274.8,
+    -615.8,
+    267.3,
+    -611.3,
+    267.2,
+    -611.5,
+    257.4,
+    -630.1
+   ],
+   "id": "baudelostraat-59-17",
+   "latLon": [
+    51.057813,
+    3.726863
+   ],
+   "photos": [
+    {
+     "id": "1174899806269525",
+     "metres": 33,
+     "off": 19,
+     "span": [
+      0.283,
+      0.381
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34512,
+   "at": [
+    332.75,
+    -649.1500000000001
+   ],
+   "centre": [
+    326.1,
+    -656.5
+   ],
+   "width": 7.6,
+   "faces": 59,
+   "toStreet": 6.6,
+   "floors": 5,
+   "eaves": 17.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    321.3,
+    -663.4,
+    326.6,
+    -658.4,
+    328.5,
+    -659.6,
+    336,
+    -651.1,
+    329.5,
+    -647.2,
+    322.4,
+    -655.6,
+    318.4,
+    -660.3
+   ],
+   "id": "baudelostraat-59-18",
+   "latLon": [
+    51.058071,
+    3.727568
+   ],
+   "photos": [
+    {
+     "id": "979839744045748-293",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.298,
+      0.959
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35067,
+   "at": [
+    541.6,
+    -756.7
+   ],
+   "centre": [
+    536.5,
+    -765
+   ],
+   "width": 7,
+   "faces": 59,
+   "toStreet": 5.9,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 17.8,
+   "kind": "house",
+   "ring": [
+    531,
+    -768.7,
+    532.3,
+    -770,
+    536,
+    -773,
+    544.6,
+    -758.5,
+    538.6,
+    -754.9
+   ],
+   "id": "baudelostraat-59-19",
+   "latLon": [
+    51.058849,
+    3.729956
+   ],
+   "photos": [
+    {
+     "id": "1436880976665515",
+     "metres": 39,
+     "off": 11,
+     "span": [
+      0.304,
+      0.41
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35066,
+   "at": [
+    547.55,
+    -760.25
+   ],
+   "centre": [
+    541.7,
+    -769.9
+   ],
+   "width": 6.9,
+   "faces": 59,
+   "toStreet": 6,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 19.8,
+   "kind": "house",
+   "ring": [
+    542.6,
+    -774.8,
+    550.5,
+    -762,
+    544.6,
+    -758.5,
+    536,
+    -773,
+    535.6,
+    -773.7,
+    541.1,
+    -777.3
+   ],
+   "id": "baudelostraat-59-20",
+   "latLon": [
+    51.058875,
+    3.730024
+   ],
+   "photos": [
+    {
+     "id": "905848283324445",
+     "metres": 36,
+     "off": 7,
+     "span": [
+      0.354,
+      0.467
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35065,
+   "at": [
+    553.45,
+    -763.75
+   ],
+   "centre": [
+    547.3,
+    -774.7
+   ],
+   "width": 6.9,
+   "faces": 59,
+   "toStreet": 6,
+   "floors": 2,
+   "eaves": 6.4,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    542.6,
+    -774.8,
+    545.6,
+    -776.2,
+    542.8,
+    -780.8,
+    546.1,
+    -782.7,
+    547.3,
+    -780.6,
+    556.4,
+    -765.5,
+    550.5,
+    -762
+   ],
+   "id": "baudelostraat-59-21",
+   "latLon": [
+    51.0589,
+    3.730091
+   ],
+   "photos": [
+    {
+     "id": "777085366333978",
+     "metres": 32,
+     "off": 1,
+     "span": [
+      0.448,
+      0.572
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35064,
+   "at": [
+    559.5999999999999,
+    -767.45
+   ],
+   "centre": [
+    554.2,
+    -782.2
+   ],
+   "width": 7.5,
+   "faces": 59,
+   "toStreet": 6.1,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    553.3,
+    -790.5,
+    557,
+    -784.2,
+    561.8,
+    -775.8,
+    559.9,
+    -774.4,
+    562.8,
+    -769.4,
+    556.4,
+    -765.5,
+    547.3,
+    -780.6,
+    551.3,
+    -783.1,
+    546.6,
+    -791.5,
+    549.2,
+    -794,
+    550.5,
+    -795.3
+   ],
+   "id": "baudelostraat-59-22",
+   "latLon": [
+    51.058927,
+    3.730162
+   ],
+   "photos": [
+    {
+     "id": "484066829680072",
+     "metres": 26,
+     "off": 1,
+     "span": [
+      0.403,
+      0.571
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34516,
+   "at": [
+    326.4,
+    -645.4000000000001
+   ],
+   "centre": [
+    320.2,
+    -652.7
+   ],
+   "width": 7.2,
+   "faces": 60,
+   "toStreet": 6.6,
+   "floors": 5,
+   "eaves": 18.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    322.4,
+    -655.6,
+    329.5,
+    -647.2,
+    323.3,
+    -643.6,
+    317.5,
+    -652.5,
+    317.8,
+    -652.8,
+    314.5,
+    -657.1,
+    316.5,
+    -658.8,
+    320,
+    -654.2
+   ],
+   "id": "baudelostraat-60-23",
+   "latLon": [
+    51.058044,
+    3.727496
+   ],
+   "photos": [
+    {
+     "id": "1418486719601931-348",
+     "metres": 3,
+     "off": 0,
+     "span": [
+      0,
+      0.815
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34507,
+   "at": [
+    339.95000000000005,
+    -653.25
+   ],
+   "centre": [
+    335.9,
+    -658.2
+   ],
+   "width": 3.8,
+   "faces": 60,
+   "toStreet": 6.4,
+   "floors": 1,
+   "eaves": 3,
+   "top": 18,
+   "kind": "house",
+   "ring": [
+    336.1,
+    -666.9,
+    337.4,
+    -664.6,
+    342.2,
+    -656.2,
+    341.6,
+    -654.2,
+    338.3,
+    -652.3,
+    336,
+    -651.1,
+    328.5,
+    -659.6,
+    327.3,
+    -660.8
+   ],
+   "id": "baudelostraat-60-24",
+   "latLon": [
+    51.0581,
+    3.727651
+   ],
+   "photos": [
+    {
+     "id": "1291466208836176",
+     "metres": 37,
+     "off": 22,
+     "span": [
+      0.269,
+      0.315
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35068,
+   "at": [
+    536.55,
+    -753.7
+   ],
+   "centre": [
+    531.8,
+    -758
+   ],
+   "width": 4.8,
+   "faces": 60,
+   "toStreet": 5.9,
+   "floors": 4,
+   "eaves": 14.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    523.5,
+    -761,
+    531,
+    -768.7,
+    538.6,
+    -754.9,
+    534.5,
+    -752.5,
+    531.4,
+    -752.9
+   ],
+   "id": "baudelostraat-60-25",
+   "latLon": [
+    51.058827,
+    3.729898
+   ],
+   "photos": [
+    {
+     "id": "636606594408269",
+     "metres": 42,
+     "off": 21,
+     "span": [
+      0.177,
+      0.251
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34587,
+   "at": [
+    298.45,
+    -629.55
+   ],
+   "centre": [
+    294,
+    -635.8
+   ],
+   "width": 7.9,
+   "faces": 61,
+   "toStreet": 6.3,
+   "floors": 2,
+   "eaves": 7.5,
+   "top": 21.3,
+   "kind": "house",
+   "ring": [
+    284.3,
+    -639.5,
+    294.6,
+    -645.6,
+    296.4,
+    -642.1,
+    301.9,
+    -631.5,
+    295,
+    -627.6,
+    291.9,
+    -628.3
+   ],
+   "id": "baudelostraat-61-26",
+   "latLon": [
+    51.057929,
+    3.727176
+   ],
+   "photos": [
+    {
+     "id": "513755796475250",
+     "metres": 42,
+     "off": 0,
+     "span": [
+      0.464,
+      0.539
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34578,
+   "at": [
+    305.75,
+    -633.65
+   ],
+   "centre": [
+    302.9,
+    -638.9
+   ],
+   "width": 8.8,
+   "faces": 61,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    296.4,
+    -642.1,
+    303.7,
+    -646.2,
+    309.6,
+    -635.8,
+    301.9,
+    -631.5
+   ],
+   "id": "baudelostraat-61-27",
+   "latLon": [
+    51.057959,
+    3.72726
+   ],
+   "photos": [
+    {
+     "id": "508336600204160",
+     "metres": 44,
+     "off": 2,
+     "span": [
+      0.48,
+      0.557
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34576,
+   "at": [
+    313.4,
+    -637.9
+   ],
+   "centre": [
+    309.2,
+    -645.3
+   ],
+   "width": 8.7,
+   "faces": 61,
+   "toStreet": 6.4,
+   "floors": 4,
+   "eaves": 15.6,
+   "top": 22.1,
+   "kind": "house",
+   "ring": [
+    312.1,
+    -648.9,
+    317.2,
+    -640,
+    309.6,
+    -635.8,
+    303.7,
+    -646.2,
+    302.6,
+    -648.2,
+    309.9,
+    -652.8
+   ],
+   "id": "baudelostraat-61-28",
+   "latLon": [
+    51.057989,
+    3.727347
+   ],
+   "photos": [
+    {
+     "id": "513755796475250",
+     "metres": 45,
+     "off": 18,
+     "span": [
+      0.622,
+      0.701
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34490,
+   "at": [
+    363.5,
+    -677.15
+   ],
+   "centre": [
+    362,
+    -680.2
+   ],
+   "width": 11.7,
+   "faces": 61,
+   "toStreet": 15.9,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 20.6,
+   "kind": "house",
+   "ring": [
+    355.7,
+    -680.1,
+    365.8,
+    -685.6,
+    368,
+    -681.1,
+    368.6,
+    -680,
+    358.4,
+    -674.3,
+    355.6,
+    -680
+   ],
+   "id": "baudelostraat-61-29",
+   "latLon": [
+    51.058273,
+    3.72792
+   ],
+   "photos": [
+    {
+     "id": "1145983460207709",
+     "metres": 25,
+     "off": 15,
+     "span": [
+      0.537,
+      0.723
+     ]
+    },
+    {
+     "id": "274779254335664",
+     "metres": 27,
+     "off": 4,
+     "span": [
+      0.132,
+      0.619
+     ]
+    },
+    {
+     "id": "498780947920000",
+     "metres": 32,
+     "off": 9,
+     "span": [
+      0.51,
+      0.762
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34482,
+   "at": [
+    377.85,
+    -670.7
+   ],
+   "centre": [
+    372.6,
+    -679.7
+   ],
+   "width": 7.4,
+   "faces": 61,
+   "toStreet": 3.6,
+   "floors": 4,
+   "eaves": 15,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    369.1,
+    -687.4,
+    372.1,
+    -689,
+    375.4,
+    -683,
+    381.1,
+    -672.5,
+    374.6,
+    -668.9,
+    371.8,
+    -674.1,
+    369.4,
+    -678.4,
+    370.9,
+    -679.2,
+    369.6,
+    -681.9,
+    371.7,
+    -682.9
+   ],
+   "id": "baudelostraat-61-30",
+   "latLon": [
+    51.058227,
+    3.728084
+   ],
+   "photos": [
+    {
+     "id": "2803532946517098",
+     "metres": 43,
+     "off": 19,
+     "span": [
+      0.646,
+      0.714
+     ]
+    },
+    {
+     "id": "947436819129724",
+     "metres": 38,
+     "off": 20,
+     "span": [
+      0.765,
+      0.902
+     ]
+    },
+    {
+     "id": "283926306606007",
+     "metres": 44,
+     "off": 12,
+     "span": [
+      0.577,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34485,
+   "at": [
+    372.65,
+    -667.8
+   ],
+   "centre": [
+    368.9,
+    -667.3
+   ],
+   "width": 4.2,
+   "faces": 62,
+   "toStreet": 3.4,
+   "floors": 5,
+   "eaves": 17.3,
+   "top": 20.3,
+   "kind": "house",
+   "ring": [
+    361.2,
+    -668.5,
+    371.8,
+    -674.1,
+    374.6,
+    -668.9,
+    374.5,
+    -668.8,
+    370.8,
+    -666.8,
+    370.9,
+    -666.7,
+    368.5,
+    -665.5,
+    368.4,
+    -665.6,
+    365.2,
+    -663.9,
+    363.2,
+    -664.6
+   ],
+   "id": "baudelostraat-62-31",
+   "latLon": [
+    51.058206,
+    3.728024
+   ],
+   "photos": [
+    {
+     "id": "3981462962122729",
+     "metres": 39,
+     "off": 16,
+     "span": [
+      0.628,
+      0.673
+     ]
+    },
+    {
+     "id": "274779254335664",
+     "metres": 20,
+     "off": 16,
+     "span": [
+      0.817,
+      1
+     ]
+    },
+    {
+     "id": "868678623980802",
+     "metres": 43,
+     "off": 14,
+     "span": [
+      0.614,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34487,
+   "at": [
+    366.5,
+    -671.3
+   ],
+   "centre": [
+    365.9,
+    -675.1
+   ],
+   "width": 12,
+   "faces": 62,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 17.1,
+   "top": 20.6,
+   "kind": "house",
+   "ring": [
+    358.4,
+    -674.3,
+    368.6,
+    -680,
+    369.4,
+    -678.4,
+    371.8,
+    -674.1,
+    361.2,
+    -668.5
+   ],
+   "id": "baudelostraat-62-32",
+   "latLon": [
+    51.058231,
+    3.727954
+   ],
+   "photos": [
+    {
+     "id": "652455327107129",
+     "metres": 31,
+     "off": 14,
+     "span": [
+      0.546,
+      0.704
+     ]
+    },
+    {
+     "id": "274779254335664",
+     "metres": 22,
+     "off": 1,
+     "span": [
+      0.209,
+      0.796
+     ]
+    },
+    {
+     "id": "1184713295334286",
+     "metres": 31,
+     "off": 20,
+     "span": [
+      0.651,
+      0.812
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34475,
+   "at": [
+    389.55,
+    -677.1
+   ],
+   "centre": [
+    383.6,
+    -683.4
+   ],
+   "width": 6.7,
+   "faces": 62,
+   "toStreet": 4.1,
+   "floors": 4,
+   "eaves": 15.4,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    375.4,
+    -683,
+    376.1,
+    -685.6,
+    380.8,
+    -688.4,
+    382.9,
+    -689.6,
+    387.2,
+    -692.1,
+    389.9,
+    -685.3,
+    392.5,
+    -678.7,
+    386.6,
+    -675.5,
+    381.1,
+    -672.5
+   ],
+   "id": "baudelostraat-62-33",
+   "latLon": [
+    51.058273,
+    3.728218
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34459,
+   "at": [
+    414,
+    -689.95
+   ],
+   "centre": [
+    407.1,
+    -702.6
+   ],
+   "width": 8.4,
+   "faces": 62,
+   "toStreet": 4.5,
+   "floors": 3,
+   "eaves": 9.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    400.1,
+    -709.5,
+    402.2,
+    -710.7,
+    403.4,
+    -711.3,
+    407.3,
+    -703.6,
+    410.9,
+    -705.7,
+    417.7,
+    -691.9,
+    410.3,
+    -688,
+    404.7,
+    -699.8
+   ],
+   "id": "baudelostraat-62-34",
+   "latLon": [
+    51.058366,
+    3.728497
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34450,
+   "at": [
+    428.8,
+    -697.7
+   ],
+   "centre": [
+    422.7,
+    -711.8
+   ],
+   "width": 8.6,
+   "faces": 62,
+   "toStreet": 4.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.8,
+   "kind": "house",
+   "ring": [
+    417.3,
+    -717.8,
+    421.4,
+    -719.9,
+    422.3,
+    -720.4,
+    423.4,
+    -720.9,
+    428,
+    -710.3,
+    432.6,
+    -699.7,
+    425,
+    -695.7,
+    420,
+    -705.2,
+    414.2,
+    -716.2
+   ],
+   "id": "baudelostraat-62-35",
+   "latLon": [
+    51.058422,
+    3.728666
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35740,
+   "at": [
+    454.05,
+    -710.6
+   ],
+   "centre": [
+    448.2,
+    -724.9
+   ],
+   "width": 10.7,
+   "faces": 62,
+   "toStreet": 4.3,
+   "floors": 5,
+   "eaves": 17,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    444.8,
+    -736.5,
+    448,
+    -738.4,
+    450,
+    -734.4,
+    452.6,
+    -728,
+    458.8,
+    -713.1,
+    449.3,
+    -708.1,
+    444.5,
+    -719.1,
+    442.6,
+    -723.7,
+    444.6,
+    -724.5,
+    445.1,
+    -723.2,
+    449.7,
+    -725.2
+   ],
+   "id": "baudelostraat-62-36",
+   "latLon": [
+    51.058515,
+    3.728955
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35737,
+   "at": [
+    464.4,
+    -716.05
+   ],
+   "centre": [
+    457.9,
+    -729
+   ],
+   "width": 12.7,
+   "faces": 62,
+   "toStreet": 4.3,
+   "floors": 1,
+   "eaves": 4,
+   "top": 13.1,
+   "kind": "house",
+   "ring": [
+    452.6,
+    -728,
+    455.9,
+    -729.5,
+    453.1,
+    -736.2,
+    454.1,
+    -736.7,
+    460.5,
+    -740.2,
+    470,
+    -719,
+    458.8,
+    -713.1
+   ],
+   "id": "baudelostraat-62-37",
+   "latLon": [
+    51.058555,
+    3.729073
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35076,
+   "at": [
+    502.25,
+    -734.75
+   ],
+   "centre": [
+    497,
+    -742
+   ],
+   "width": 12.6,
+   "faces": 62,
+   "toStreet": 6.2,
+   "floors": 3,
+   "eaves": 9.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    488.5,
+    -746.4,
+    493,
+    -749.7,
+    494.5,
+    -747.3,
+    496.7,
+    -743.3,
+    500.7,
+    -745.3,
+    503.1,
+    -746.8,
+    507.8,
+    -737.7,
+    496.7,
+    -731.8,
+    496.5,
+    -732.2,
+    492.3,
+    -739.6
+   ],
+   "id": "baudelostraat-62-38",
+   "latLon": [
+    51.05869,
+    3.729506
+   ],
+   "photos": [
+    {
+     "id": "575801148610764-6",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.333,
+      0.615
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34471,
+   "at": [
+    395.8,
+    -680.4000000000001
+   ],
+   "centre": [
+    389.3,
+    -690.4
+   ],
+   "width": 7.4,
+   "faces": 63,
+   "toStreet": 4.2,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    380.8,
+    -693.8,
+    385.2,
+    -696.2,
+    387.2,
+    -697.3,
+    388.5,
+    -698,
+    389.9,
+    -698.8,
+    399,
+    -682.3,
+    399.1,
+    -682.1,
+    392.5,
+    -678.7,
+    389.9,
+    -685.3,
+    387.2,
+    -692.1,
+    382.9,
+    -689.6
+   ],
+   "id": "baudelostraat-63-39",
+   "latLon": [
+    51.058297,
+    3.728289
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34467,
+   "at": [
+    404.65,
+    -685.15
+   ],
+   "centre": [
+    399,
+    -696.5
+   ],
+   "width": 12.7,
+   "faces": 63,
+   "toStreet": 4.4,
+   "floors": 3,
+   "eaves": 11.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    388.1,
+    -702.6,
+    393.3,
+    -705.6,
+    398.8,
+    -694.8,
+    403.8,
+    -697.5,
+    403.1,
+    -699.2,
+    404.7,
+    -699.8,
+    410.3,
+    -688,
+    399,
+    -682.3,
+    389.9,
+    -698.8
+   ],
+   "id": "baudelostraat-63-40",
+   "latLon": [
+    51.058331,
+    3.72839
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34456,
+   "at": [
+    421.35,
+    -693.8
+   ],
+   "centre": [
+    412.4,
+    -709.9
+   ],
+   "width": 8.2,
+   "faces": 63,
+   "toStreet": 4.6,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    404.4,
+    -718.9,
+    406.6,
+    -720.1,
+    409,
+    -720.9,
+    410.1,
+    -717.2,
+    410.9,
+    -717.5,
+    417.6,
+    -703.7,
+    420,
+    -705.2,
+    425,
+    -695.7,
+    417.7,
+    -691.9,
+    410.9,
+    -705.7,
+    410.8,
+    -706,
+    405.7,
+    -716.3
+   ],
+   "id": "baudelostraat-63-41",
+   "latLon": [
+    51.058394,
+    3.728581
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34444,
+   "at": [
+    436.45000000000005,
+    -701.7
+   ],
+   "centre": [
+    431.2,
+    -715.1
+   ],
+   "width": 8.7,
+   "faces": 63,
+   "toStreet": 4.7,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    429.4,
+    -724,
+    430.9,
+    -724.8,
+    440.3,
+    -703.7,
+    432.6,
+    -699.7,
+    428,
+    -710.3,
+    432.4,
+    -712.4,
+    429.8,
+    -717.9,
+    429.6,
+    -719.4,
+    427.9,
+    -723.3
+   ],
+   "id": "baudelostraat-63-42",
+   "latLon": [
+    51.058451,
+    3.728754
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35088,
+   "at": [
+    473.8,
+    -720.9
+   ],
+   "centre": [
+    467.4,
+    -733.3
+   ],
+   "width": 8.5,
+   "faces": 63,
+   "toStreet": 5.5,
+   "floors": 1,
+   "eaves": 3,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    460.5,
+    -740.2,
+    461,
+    -740.4,
+    468.1,
+    -744.2,
+    477.6,
+    -722.8,
+    470,
+    -719
+   ],
+   "id": "baudelostraat-63-43",
+   "latLon": [
+    51.05859,
+    3.729181
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35085,
+   "at": [
+    480.6,
+    -724.3
+   ],
+   "centre": [
+    475.6,
+    -735
+   ],
+   "width": 6.7,
+   "faces": 63,
+   "toStreet": 6.7,
+   "floors": 1,
+   "eaves": 1.4,
+   "top": 19.3,
+   "kind": "house",
+   "ring": [
+    468.1,
+    -744.2,
+    473.2,
+    -747,
+    483.6,
+    -725.8,
+    477.6,
+    -722.8
+   ],
+   "id": "baudelostraat-63-44",
+   "latLon": [
+    51.058615,
+    3.729259
+   ],
+   "photos": [
+    {
+     "id": "589842930459875-307",
+     "metres": 22,
+     "off": 0,
+     "span": [
+      0.451,
+      0.559
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35080,
+   "at": [
+    493.35,
+    -730.6
+   ],
+   "centre": [
+    488.5,
+    -741.8
+   ],
+   "width": 7.1,
+   "faces": 63,
+   "toStreet": 6.9,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 20.3,
+   "kind": "house",
+   "ring": [
+    479.1,
+    -750.2,
+    484.7,
+    -753.2,
+    488.5,
+    -746.4,
+    492.3,
+    -739.6,
+    496.5,
+    -732.2,
+    490.2,
+    -729
+   ],
+   "id": "baudelostraat-63-45",
+   "latLon": [
+    51.05866,
+    3.729404
+   ],
+   "photos": [
+    {
+     "id": "575801148610764-335",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.392,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35071,
+   "at": [
+    515.25,
+    -741.5
+   ],
+   "centre": [
+    512.8,
+    -747.3
+   ],
+   "width": 16.7,
+   "faces": 63,
+   "toStreet": 5.8,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 13,
+   "kind": "house",
+   "ring": [
+    503.1,
+    -746.8,
+    505.6,
+    -747.7,
+    513.2,
+    -753.6,
+    514.6,
+    -754.7,
+    522.7,
+    -745.3,
+    522.7,
+    -745.3,
+    507.8,
+    -737.7
+   ],
+   "id": "baudelostraat-63-46",
+   "latLon": [
+    51.058739,
+    3.729655
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 34441,
+   "at": [
+    444.8,
+    -705.9000000000001
+   ],
+   "centre": [
+    440.4,
+    -716.8
+   ],
+   "width": 10,
+   "faces": 64,
+   "toStreet": 4.5,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    430.9,
+    -724.8,
+    436.2,
+    -727.6,
+    441.1,
+    -717.7,
+    444.5,
+    -719.1,
+    449.3,
+    -708.1,
+    440.3,
+    -703.7
+   ],
+   "id": "baudelostraat-64-47",
+   "latLon": [
+    51.058481,
+    3.728849
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 35083,
+   "at": [
+    486.9,
+    -727.4
+   ],
+   "centre": [
+    479.4,
+    -741.4
+   ],
+   "width": 7.3,
+   "faces": 64,
+   "toStreet": 7,
+   "floors": 2,
+   "eaves": 6.6,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    473.2,
+    -747,
+    473.8,
+    -747.3,
+    476.7,
+    -748.9,
+    479.1,
+    -750.2,
+    490.2,
+    -729,
+    483.6,
+    -725.8
+   ],
+   "id": "baudelostraat-64-48",
+   "latLon": [
+    51.058637,
+    3.729331
+   ],
+   "photos": [
+    {
+     "id": "589842930459875-322",
+     "metres": 20,
+     "off": 0,
+     "span": [
+      0.428,
+      0.567
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34335,
+   "at": [
+    207,
+    -547.3
+   ],
+   "centre": [
+    213.5,
+    -542.7
+   ],
+   "width": 14.2,
+   "faces": 222,
+   "toStreet": 4.1,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    227.9,
+    -547.3,
+    214,
+    -529.5,
+    206.3,
+    -535.7,
+    202.5,
+    -538.8,
+    202.3,
+    -542,
+    211.7,
+    -552.6,
+    219.7,
+    -545.4,
+    223.7,
+    -550.6
+   ],
+   "id": "baudelostraat-222-01",
+   "latLon": [
+    51.057334,
+    3.726131
+   ],
+   "photos": [
+    {
+     "id": "1552817368704599-146",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.95
+     ]
+    },
+    {
+     "id": "935904685313766-88",
+     "metres": 4,
+     "off": 0,
+     "span": [
+      0.249,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34249,
+   "at": [
+    217.45,
+    -558.1
+   ],
+   "centre": [
+    228.5,
+    -550.4
+   ],
+   "width": 15.9,
+   "faces": 226,
+   "toStreet": 4.2,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    223.2,
+    -563.6,
+    233.6,
+    -553.5,
+    243.4,
+    -546.3,
+    241.1,
+    -543.6,
+    232,
+    -550.8,
+    227.9,
+    -547.3,
+    223.7,
+    -550.6,
+    219.7,
+    -545.4,
+    211.7,
+    -552.6
+   ],
+   "id": "baudelostraat-226-02",
+   "latLon": [
+    51.057412,
+    3.72625
+   ],
+   "photos": [
+    {
+     "id": "1606897336862401-162",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0,
+      0.862
+     ]
+    },
+    {
+     "id": "600588386019888-163",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.821
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34558,
+   "at": [
+    334.3,
+    -623
+   ],
+   "centre": [
+    341.8,
+    -608.1
+   ],
+   "width": 5.5,
+   "faces": 226,
+   "toStreet": 16.8,
+   "floors": 3,
+   "eaves": 10.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    332.3,
+    -621.1,
+    336.3,
+    -624.9,
+    346.5,
+    -607.9,
+    351.6,
+    -597.5,
+    348.2,
+    -594.9,
+    347.2,
+    -594.1,
+    341.2,
+    -605.7,
+    338,
+    -611.1,
+    335.3,
+    -615.8
+   ],
+   "id": "baudelostraat-226-03",
+   "latLon": [
+    51.057882,
+    3.727586
+   ],
+   "photos": [
+    {
+     "id": "198288845870791",
+     "metres": 20,
+     "off": 4,
+     "span": [
+      0.424,
+      0.509
+     ]
+    },
+    {
+     "id": "402844808607527",
+     "metres": 29,
+     "off": 3,
+     "span": [
+      0.445,
+      0.505
+     ]
+    },
+    {
+     "id": "141194987980565",
+     "metres": 33,
+     "off": 16,
+     "span": [
+      0.334,
+      0.375
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34560,
+   "at": [
+    330.8,
+    -619.6500000000001
+   ],
+   "centre": [
+    330.2,
+    -616.6
+   ],
+   "width": 4.2,
+   "faces": 226,
+   "toStreet": 18,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    326.9,
+    -616,
+    327.1,
+    -616.2,
+    329.3,
+    -618.2,
+    332.3,
+    -621.1,
+    335.3,
+    -615.8,
+    330.1,
+    -612.2
+   ],
+   "id": "baudelostraat-226-04",
+   "latLon": [
+    51.057857,
+    3.727546
+   ],
+   "photos": [
+    {
+     "id": "788189855961040",
+     "metres": 17,
+     "off": 5,
+     "span": [
+      0.507,
+      0.59
+     ]
+    },
+    {
+     "id": "625906498953351",
+     "metres": 28,
+     "off": 13,
+     "span": [
+      0.363,
+      0.416
+     ]
+    },
+    {
+     "id": "131484302331609",
+     "metres": 31,
+     "off": 19,
+     "span": [
+      0.31,
+      0.35
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34245,
+   "at": [
+    226.45,
+    -566.3
+   ],
+   "centre": [
+    238.3,
+    -554.6
+   ],
+   "width": 8.5,
+   "faces": 230,
+   "toStreet": 4.9,
+   "floors": 5,
+   "eaves": 19.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    223.2,
+    -563.6,
+    229.7,
+    -569,
+    238.3,
+    -559.2,
+    236,
+    -557.3,
+    242.2,
+    -550.1,
+    244.5,
+    -552.2,
+    247.4,
+    -548.9,
+    244.3,
+    -545.6,
+    243.4,
+    -546.3,
+    233.6,
+    -553.5
+   ],
+   "id": "baudelostraat-230-05",
+   "latLon": [
+    51.057471,
+    3.726353
+   ],
+   "photos": [
+    {
+     "id": "1259396628449190-151",
+     "metres": 5,
+     "off": 0,
+     "span": [
+      0.149,
+      0.77
+     ]
+    },
+    {
+     "id": "1846146326188338-163",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.182,
+      0.709
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34175,
+   "at": [
+    234.64999999999998,
+    -572.75
+   ],
+   "centre": [
+    247,
+    -561.3
+   ],
+   "width": 12.4,
+   "faces": 233,
+   "toStreet": 5.3,
+   "floors": 2,
+   "eaves": 7.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    229.7,
+    -569,
+    239.6,
+    -576.5,
+    247.5,
+    -567.3,
+    250.5,
+    -563.6,
+    254,
+    -566.8,
+    254.6,
+    -567.3,
+    259.4,
+    -561.5,
+    257.7,
+    -559.8,
+    256,
+    -558,
+    247.4,
+    -548.9,
+    244.5,
+    -552.2,
+    242.2,
+    -550.1,
+    236,
+    -557.3,
+    238.3,
+    -559.2
+   ],
+   "id": "baudelostraat-233-06",
+   "latLon": [
+    51.057518,
+    3.726447
+   ],
+   "photos": [
+    {
+     "id": "1546108575992987-174",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0,
+      0.736
+     ]
+    },
+    {
+     "id": "1279590283313538-117",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.336,
+      0.732
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34233,
+   "at": [
+    242.5,
+    -578.5
+   ],
+   "centre": [
+    249.9,
+    -571.3
+   ],
+   "width": 7,
+   "faces": 235,
+   "toStreet": 5.9,
+   "floors": 5,
+   "eaves": 17.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    239.6,
+    -576.5,
+    245.4,
+    -580.5,
+    251.6,
+    -573.2,
+    255.6,
+    -568.3,
+    254.6,
+    -567.3,
+    254,
+    -566.8,
+    250.9,
+    -570.4,
+    247.5,
+    -567.3
+   ],
+   "id": "baudelostraat-235-07",
+   "latLon": [
+    51.05756,
+    3.726537
+   ],
+   "photos": [
+    {
+     "id": "1546108575992987-104",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.385,
+      0.705
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34554,
+   "at": [
+    346.65,
+    -629.5
+   ],
+   "centre": [
+    348.9,
+    -625.2
+   ],
+   "width": 11.9,
+   "faces": 236,
+   "toStreet": 17.4,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    341.7,
+    -626.2,
+    351.6,
+    -632.8,
+    355.6,
+    -624.2,
+    346.7,
+    -617.5
+   ],
+   "id": "baudelostraat-236-08",
+   "latLon": [
+    51.057929,
+    3.727727
+   ],
+   "photos": [
+    {
+     "id": "417812423531430",
+     "metres": 28,
+     "off": 9,
+     "span": [
+      0.504,
+      0.632
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34180,
+   "at": [
+    248.55,
+    -582.55
+   ],
+   "centre": [
+    254.8,
+    -577.8
+   ],
+   "width": 7.5,
+   "faces": 237,
+   "toStreet": 6.7,
+   "floors": 4,
+   "eaves": 15.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    245.4,
+    -580.5,
+    251.7,
+    -584.6,
+    254.8,
+    -584.1,
+    259,
+    -579.2,
+    262.9,
+    -574.7,
+    258.5,
+    -570.8,
+    254.4,
+    -575.1,
+    251.6,
+    -573.2
+   ],
+   "id": "baudelostraat-237-09",
+   "latLon": [
+    51.057589,
+    3.726606
+   ],
+   "photos": [
+    {
+     "id": "1437817123845942-140",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.267,
+      0.756
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34599,
+   "at": [
+    266.75,
+    -593.8499999999999
+   ],
+   "centre": [
+    268.5,
+    -588.8
+   ],
+   "width": 6,
+   "faces": 239,
+   "toStreet": 8.8,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": 19.6,
+   "kind": "house",
+   "ring": [
+    269.3,
+    -595.4,
+    276.2,
+    -585.3,
+    269.8,
+    -581.6,
+    263.2,
+    -589.4,
+    264.2,
+    -592.3
+   ],
+   "id": "baudelostraat-239-10",
+   "latLon": [
+    51.057671,
+    3.726814
+   ],
+   "photos": [
+    {
+     "id": "402006859641660-161",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.346,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34597,
+   "at": [
+    272.5,
+    -597.3
+   ],
+   "centre": [
+    275.8,
+    -592.2
+   ],
+   "width": 7.4,
+   "faces": 239,
+   "toStreet": 9.2,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": 17.8,
+   "kind": "house",
+   "ring": [
+    269.3,
+    -595.4,
+    275.7,
+    -599.2,
+    282,
+    -589,
+    276.2,
+    -585.3
+   ],
+   "id": "baudelostraat-239-11",
+   "latLon": [
+    51.057696,
+    3.72688
+   ],
+   "photos": [
+    {
+     "id": "463604280145517-170",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.303,
+      0.657
+     ]
+    },
+    {
+     "id": "402006859641660-123",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.369,
+      0.691
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34593,
+   "at": [
+    279,
+    -601.1500000000001
+   ],
+   "centre": [
+    283.2,
+    -595.9
+   ],
+   "width": 7.7,
+   "faces": 239,
+   "toStreet": 9.3,
+   "floors": 5,
+   "eaves": 17.6,
+   "top": 21.4,
+   "kind": "house",
+   "ring": [
+    275.7,
+    -599.2,
+    282.3,
+    -603.1,
+    287.3,
+    -595,
+    288.5,
+    -593.1,
+    282,
+    -589
+   ],
+   "id": "baudelostraat-239-12",
+   "latLon": [
+    51.057724,
+    3.726954
+   ],
+   "photos": [
+    {
+     "id": "1167685890325486",
+     "metres": 44,
+     "off": 21,
+     "span": [
+      0.653,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34571,
+   "at": [
+    312.9,
+    -620.7
+   ],
+   "centre": [
+    318.8,
+    -613
+   ],
+   "width": 6.3,
+   "faces": 239,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 18.8,
+   "kind": "house",
+   "ring": [
+    310.2,
+    -619.1,
+    315.6,
+    -622.3,
+    321.6,
+    -612.3,
+    322.1,
+    -611.4,
+    321.4,
+    -610.8,
+    321.2,
+    -610.6,
+    321,
+    -610.4,
+    317.5,
+    -607
+   ],
+   "id": "baudelostraat-239-13",
+   "latLon": [
+    51.057865,
+    3.727341
+   ],
+   "photos": [
+    {
+     "id": "613151687053564",
+     "metres": 15,
+     "off": 15,
+     "span": [
+      0.3,
+      0.44
+     ]
+    },
+    {
+     "id": "1129786424201787",
+     "metres": 41,
+     "off": 22,
+     "span": [
+      0.271,
+      0.336
+     ]
+    },
+    {
+     "id": "1441764986292512",
+     "metres": 10,
+     "off": 22,
+     "span": [
+      0.24,
+      0.384
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34589,
+   "at": [
+    285.05,
+    -604.6500000000001
+   ],
+   "centre": [
+    288.6,
+    -598.6
+   ],
+   "width": 6.3,
+   "faces": 241,
+   "toStreet": 9.1,
+   "floors": 4,
+   "eaves": 14.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    282.3,
+    -603.1,
+    287.8,
+    -606.2,
+    293.5,
+    -596.3,
+    291.2,
+    -594.4,
+    289.3,
+    -596.3,
+    287.3,
+    -595
+   ],
+   "id": "baudelostraat-241-14",
+   "latLon": [
+    51.057749,
+    3.727023
+   ],
+   "photos": [
+    {
+     "id": "476532526913184",
+     "metres": 37,
+     "off": 16,
+     "span": [
+      0.604,
+      0.673
+     ]
+    },
+    {
+     "id": "409341044639618",
+     "metres": 40,
+     "off": 20,
+     "span": [
+      0.651,
+      0.719
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34574,
+   "at": [
+    306.95,
+    -617.3
+   ],
+   "centre": [
+    308.9,
+    -610
+   ],
+   "width": 7.4,
+   "faces": 241,
+   "toStreet": 8.5,
+   "floors": 2,
+   "eaves": 6.4,
+   "top": 17.6,
+   "kind": "house",
+   "ring": [
+    310.2,
+    -619.1,
+    317.5,
+    -607,
+    312,
+    -601.8,
+    308,
+    -606.6,
+    307.4,
+    -607.3,
+    303.2,
+    -612.4,
+    303.7,
+    -615.5
+   ],
+   "id": "baudelostraat-241-15",
+   "latLon": [
+    51.05784,
+    3.727273
+   ],
+   "photos": [
+    {
+     "id": "1218177805643692",
+     "metres": 14,
+     "off": 5,
+     "span": [
+      0.36,
+      0.562
+     ]
+    },
+    {
+     "id": "748139416302941",
+     "metres": 6,
+     "off": 3,
+     "span": [
+      0.32,
+      0.725
+     ]
+    },
+    {
+     "id": "531778161315419",
+     "metres": 32,
+     "off": 18,
+     "span": [
+      0.294,
+      0.39
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34567,
+   "at": [
+    319.8,
+    -624.5999999999999
+   ],
+   "centre": [
+    323.8,
+    -617.6
+   ],
+   "width": 9.6,
+   "faces": 241,
+   "toStreet": 8.4,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    315.6,
+    -622.3,
+    324,
+    -626.9,
+    329.3,
+    -618.2,
+    327.1,
+    -616.2,
+    326.9,
+    -616,
+    322.1,
+    -611.4,
+    321.6,
+    -612.3
+   ],
+   "id": "baudelostraat-241-16",
+   "latLon": [
+    51.057893,
+    3.72742
+   ],
+   "photos": [
+    {
+     "id": "625906498953351",
+     "metres": 19,
+     "off": 18,
+     "span": [
+      0.278,
+      0.416
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34562,
+   "at": [
+    327.15,
+    -628.5999999999999
+   ],
+   "centre": [
+    330.8,
+    -626
+   ],
+   "width": 7.2,
+   "faces": 242,
+   "toStreet": 8.4,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 18.7,
+   "kind": "house",
+   "ring": [
+    324,
+    -626.9,
+    330.3,
+    -630.3,
+    330.3,
+    -630.5,
+    333.2,
+    -629.9,
+    336.3,
+    -624.9,
+    332.3,
+    -621.1,
+    329.3,
+    -618.2
+   ],
+   "id": "baudelostraat-242-17",
+   "latLon": [
+    51.057922,
+    3.727504
+   ],
+   "photos": [
+    {
+     "id": "1526775398013717-150",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.385,
+      0.612
+     ]
+    },
+    {
+     "id": "1418486719601931-181",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.353,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 34556,
+   "at": [
+    342.85,
+    -637.25
+   ],
+   "centre": [
+    346.2,
+    -634.9
+   ],
+   "width": 8.8,
+   "faces": 244,
+   "toStreet": 8.8,
+   "floors": 5,
+   "eaves": 18.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    351.6,
+    -632.8,
+    341.7,
+    -626.2,
+    338.1,
+    -632.2,
+    338.9,
+    -635.3,
+    346.8,
+    -639.2,
+    346.9,
+    -639.1,
+    349.8,
+    -638,
+    349.9,
+    -638.1,
+    351.9,
+    -633.1
+   ],
+   "id": "baudelostraat-244-18",
+   "latLon": [
+    51.057985,
+    3.727684
+   ],
+   "photos": [
+    {
+     "id": "126984356732101",
+     "metres": 21,
+     "off": 8,
+     "span": [
+      0.505,
+      0.629
+     ]
+    },
+    {
+     "id": "176818700904788",
+     "metres": 43,
+     "off": 22,
+     "span": [
+      0.653,
+      0.741
+     ]
+    },
+    {
+     "id": "218718899608144",
+     "metres": 44,
+     "off": 20,
+     "span": [
+      0.754,
+      0.905
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 35062,
+   "at": [
+    567.25,
+    -780.0999999999999
+   ],
+   "centre": [
+    565,
+    -777.1
+   ],
+   "width": 10.9,
+   "faces": 330,
+   "toStreet": 11.3,
+   "floors": 4,
+   "eaves": 15.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    557,
+    -784.2,
+    561.5,
+    -787,
+    564,
+    -788.5,
+    565.7,
+    -785.6,
+    564.5,
+    -784.8,
+    570,
+    -775.4,
+    569.1,
+    -774.3,
+    568.5,
+    -773.6,
+    568.2,
+    -773.3,
+    567.6,
+    -772.7,
+    567.1,
+    -772.2,
+    566.2,
+    -771.5,
+    565.5,
+    -771.1,
+    562.8,
+    -769.4,
+    559.9,
+    -774.4,
+    561.8,
+    -775.8
+   ],
+   "id": "baudelostraat-330-01",
+   "latLon": [
+    51.059018,
+    3.730249
+   ],
+   "photos": [
+    {
+     "id": "1345678563184708-249",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.343,
+      0.65
+     ]
+    },
+    {
+     "id": "1147579293618637-263",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.132,
+      0.726
+     ]
+    }
+   ]
+  }
+ ]
+}

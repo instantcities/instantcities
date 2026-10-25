@@ -12,7 +12,10 @@ The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
 the Dutch, French and Spanish site, the game in French and Spanish, the Ghent guide pages and the iOS
-app.
+app. The game and Ghent were last brought up to date with Instant Gent at its commit
+`67b3780` (23 October 2026): to do so again, apply its changes since then to `core/`, `ghent/`,
+`ghentinside/`, `lecce/` and `tools/` (its `<city>/index.html` are made here as `<city>/play/index.html`
+by `node tools/pages.mjs`).
 
 ## Run locally
 
@@ -67,6 +70,8 @@ ghent/, lecce/   a city: its page and everything about it
   play/          the game (/ghent/play/), made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
   page.json      what the game's page says: the game's name, the title, what shares and search engines show
   city.js        what the city is: its map, routes, quests, sights, look; see its header for the rest
+ghentinside/     the inside of Sint-Baafs, Sint-Niklaas and the Stadhuis, a map of its own that Ghent's
+                 doors and sight cards lead into (/ghentinside/play/; /ghentinside/ sends you to /ghent/)
 rome/, paris/ …  the same, smaller: a first map, a race and a tour, no quests or sights yet (docs/first-maps.md)
 cities/          the cities page (/cities/), and the old city pages that send visitors on
 tools/           making the maps and the pages (not on the site)

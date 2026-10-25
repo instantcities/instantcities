@@ -165,14 +165,16 @@ function bentIn(x0, z0, x1, z1) {
 
 function cut(g, matrix, bend) {
   const pos = g.attributes.position, n0 = pos.count, e = matrix.elements;
-  // every corner across the ground (world x and z), and how high the ground is there
-  const wx = [], wz = [], wh = [];
+  // every corner across the ground (world x and z), and how high the ground is there (looked up
+  // when first needed: most meshes lie where the ground hardly bends, and are never cut)
+  let wx = new Float64Array(n0), wz = new Float64Array(n0), wh = new Float64Array(n0).fill(NaN);
+  const plain = !pos.normalized && pos.itemSize === 3, p = pos.array; // (read straight from it when it can be)
   for (let k = 0; k < n0; k++) {
-    const x = pos.getX(k), y = pos.getY(k), z = pos.getZ(k);
-    wx.push(e[0] * x + e[4] * y + e[8] * z + e[12]);
-    wz.push(e[2] * x + e[6] * y + e[10] * z + e[14]);
-    wh.push(heightAt(wx[k], wz[k]));
+    const x = plain ? p[k * 3] : pos.getX(k), y = plain ? p[k * 3 + 1] : pos.getY(k), z = plain ? p[k * 3 + 2] : pos.getZ(k);
+    wx[k] = e[0] * x + e[4] * y + e[8] * z + e[12];
+    wz[k] = e[2] * x + e[6] * y + e[10] * z + e[14];
   }
+  const h = k => (wh[k] === wh[k] ? wh[k] : (wh[k] = heightAt(wx[k], wz[k])));
   const len2 = (a, b) => (wx[a] - wx[b]) ** 2 + (wz[a] - wz[b]) ** 2;
   // how far the ground bends away from the straight line a-b, looked at every few metres
   const edgeBend = (a, b) => {
@@ -180,7 +182,7 @@ function cut(g, matrix, bend) {
     let most = 0;
     for (let s = 1; s < n; s++) {
       const t = s / n;
-      most = Math.max(most, Math.abs(heightAt(wx[a] + (wx[b] - wx[a]) * t, wz[a] + (wz[b] - wz[a]) * t) - (wh[a] + (wh[b] - wh[a]) * t)));
+      most = Math.max(most, Math.abs(heightAt(wx[a] + (wx[b] - wx[a]) * t, wz[a] + (wz[b] - wz[a]) * t) - (h(a) + (h(b) - h(a)) * t)));
     }
     return most;
   };
@@ -189,28 +191,31 @@ function cut(g, matrix, bend) {
   const faceBend = (a, b, c) => {
     let most = 0;
     for (const [u, v, w] of IN) {
-      most = Math.max(most, Math.abs(heightAt(u * wx[a] + v * wx[b] + w * wx[c], u * wz[a] + v * wz[b] + w * wz[c]) - (u * wh[a] + v * wh[b] + w * wh[c])));
+      most = Math.max(most, Math.abs(heightAt(u * wx[a] + v * wx[b] + w * wx[c], u * wz[a] + v * wz[b] + w * wz[c]) - (u * h(a) + v * h(b) + w * h(c))));
     }
     return most;
   };
   const ekey = (a, b) => (a < b ? a * 1e7 + b : b * 1e7 + a);
-  const index = g.index ? Array.from(g.index.array) : Array.from({ length: n0 }, (_, k) => k);
+  // (views on the index until the first cut, which makes plain lists of them)
+  const index = g.index ? g.index.array : Uint32Array.from({ length: n0 }, (_, k) => k);
   const groups = g.groups.length ? g.groups : [{ start: 0, count: index.length, materialIndex: 0 }];
-  let tris = groups.map(gr => index.slice(gr.start, gr.start + gr.count));
+  let tris = groups.map(gr => index.subarray(gr.start, gr.start + gr.count));
   let fresh = 0; // the corners from here on are new: only triangles with one of them are looked at again
   let attrs = null;
   for (let pass = 0; pass < 16; pass++) {
     // the edges to cut in two: those the ground bends away from, and the longest of a triangle it
     // bends away from inside
     const marked = new Set();
+    const X = wx, Z = wz; // (this pass's, held close: this loop sees every triangle of the city)
     for (const list of tris) {
       for (let t = 0; t < list.length; t += 3) {
         const a = list[t], b = list[t + 1], c = list[t + 2];
         if (a < fresh && b < fresh && c < fresh) continue;
-        const ab = len2(a, b), bc = len2(b, c), ca = len2(c, a), top = Math.max(ab, bc, ca);
+        const xa = X[a], xb = X[b], xc = X[c], za = Z[a], zb = Z[b], zc = Z[c];
+        const ab = (xa - xb) ** 2 + (za - zb) ** 2, bc = (xb - xc) ** 2 + (zb - zc) ** 2, ca = (xc - xa) ** 2 + (zc - za) ** 2, top = Math.max(ab, bc, ca);
         if (top <= SHORT * SHORT) continue;
         // where the ground hardly bends, a triangle cannot be far off it
-        const L = Math.sqrt(top), most = bentIn(Math.min(wx[a], wx[b], wx[c]), Math.min(wz[a], wz[b], wz[c]), Math.max(wx[a], wx[b], wx[c]), Math.max(wz[a], wz[b], wz[c]));
+        const L = Math.sqrt(top), most = bentIn(Math.min(xa, xb, xc), Math.min(za, zb, zc), Math.max(xa, xb, xc), Math.max(za, zb, zc));
         if (most * Math.max(L * L / 8, grid.cell * L / 4) <= bend) continue;
         if (ab > SHORT * SHORT && edgeBend(a, b) > bend) marked.add(ekey(a, b));
         if (bc > SHORT * SHORT && edgeBend(b, c) > bend) marked.add(ekey(b, c));
@@ -219,6 +224,7 @@ function cut(g, matrix, bend) {
       }
     }
     if (!marked.size) break;
+    if (!attrs) [wx, wz, wh] = [Array.from(wx), Array.from(wz), Array.from(wh)]; // to grow
     fresh = wx.length;
     attrs ??= Object.entries(g.attributes).map(([name, a]) => ({ name, a, size: a.itemSize, data: Array.from(a.array) }));
     const mids = new Map();
@@ -286,5 +292,7 @@ function cut(g, matrix, bend) {
   }
   out.computeBoundingSphere();
   out.computeBoundingBox();
+  // still its tile's own (tiles.js: let go of when far), and a geometry of its own (packNormals)
+  out.userData = { ...g.userData, fitted: true };
   return out;
 }

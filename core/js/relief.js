@@ -7,8 +7,7 @@ import { sunk } from './hollows.js';
 
 const CELL = 12;
 const key = (i, j) => (i + 4096) * 8192 + (j + 4096);
-export const WATER = -1.0; // the canals and the river lie a little below the streets
-export const WADE = -1.6; // and a horse wading in them stands on the bottom, up to its belly
+export { WATER, WADE } from './ground.js';
 export const STEP = 0.7; // how far a rider steps up in one go: more than that is a bridge overhead
 
 // ledges: more surfaces to step onto, each [ax, az, bx, bz, height at a, at b, half its width] (the

@@ -1,0 +1,7460 @@
+{
+ "city": "ghent",
+ "street": "Land van Waaslaan",
+ "slug": "land-van-waaslaan",
+ "photos": {
+  "375252833836372": {
+   "file": "photos/375252833836372.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=375252833836372",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-04-19",
+   "cam": [
+    51.0576986,
+    3.7433991,
+    285,
+    0.496
+   ]
+  },
+  "145035734269145": {
+   "file": "photos/145035734269145.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=145035734269145",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-04-19",
+   "cam": [
+    51.0576961,
+    3.74338,
+    269,
+    0.496
+   ]
+  },
+  "151830611092869": {
+   "file": "photos/151830611092869.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=151830611092869",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0577273,
+    3.7447025,
+    0,
+    0.722
+   ]
+  },
+  "784524660313943-328": {
+   "file": "photos/784524660313943-328.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=784524660313943",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583158,
+    3.7463917,
+    328,
+    0.5
+   ]
+  },
+  "620294150009356": {
+   "file": "photos/620294150009356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=620294150009356",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0577179,
+    3.7447048,
+    358,
+    0.722
+   ]
+  },
+  "1025989385980639-334": {
+   "file": "photos/1025989385980639-334.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025989385980639",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580732,
+    3.7452784,
+    334,
+    0.5
+   ]
+  },
+  "540329968700526-330": {
+   "file": "photos/540329968700526-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=540329968700526",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581207,
+    3.7454956,
+    330,
+    0.5
+   ]
+  },
+  "2661987803983500-339": {
+   "file": "photos/2661987803983500-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2661987803983500",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581605,
+    3.7456731,
+    339,
+    0.5
+   ]
+  },
+  "1266266324536688-350": {
+   "file": "photos/1266266324536688-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1266266324536688",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584903,
+    3.7471575,
+    350,
+    0.5
+   ]
+  },
+  "389549274008992-331": {
+   "file": "photos/389549274008992-331.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=389549274008992",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058675,
+    3.74796,
+    331,
+    0.5
+   ]
+  },
+  "490664007203202-342": {
+   "file": "photos/490664007203202-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=490664007203202",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580446,
+    3.7451448,
+    342,
+    0.5
+   ]
+  },
+  "1179079716516209-341": {
+   "file": "photos/1179079716516209-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179079716516209",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580843,
+    3.7453303,
+    341,
+    0.5
+   ]
+  },
+  "1228128148505087-334": {
+   "file": "photos/1228128148505087-334.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1228128148505087",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581022,
+    3.7454127,
+    334,
+    0.5
+   ]
+  },
+  "1227571311778134-319": {
+   "file": "photos/1227571311778134-319.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227571311778134",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581415,
+    3.745588,
+    319,
+    0.5
+   ]
+  },
+  "1299570598086403-335": {
+   "file": "photos/1299570598086403-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1299570598086403",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581475,
+    3.7456148,
+    335,
+    0.5
+   ]
+  },
+  "1075383884020170-336": {
+   "file": "photos/1075383884020170-336.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1075383884020170",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581766,
+    3.745745,
+    336,
+    0.5
+   ]
+  },
+  "1049553566702443-347": {
+   "file": "photos/1049553566702443-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1049553566702443",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0582273,
+    3.7459712,
+    347,
+    0.5
+   ]
+  },
+  "522562013516261-335": {
+   "file": "photos/522562013516261-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=522562013516261",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0582634,
+    3.7461357,
+    335,
+    0.5
+   ]
+  },
+  "405086582606684-358": {
+   "file": "photos/405086582606684-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=405086582606684",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0582759,
+    3.7462099,
+    358,
+    0.5
+   ]
+  },
+  "1175503617264549-328": {
+   "file": "photos/1175503617264549-328.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1175503617264549",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583311,
+    3.7464604,
+    328,
+    0.5
+   ]
+  },
+  "1211111856829814-341": {
+   "file": "photos/1211111856829814-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211111856829814",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583696,
+    3.7466308,
+    341,
+    0.5
+   ]
+  },
+  "514601314516030-337": {
+   "file": "photos/514601314516030-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=514601314516030",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583911,
+    3.746726,
+    337,
+    0.5
+   ]
+  },
+  "1946069592550417-344": {
+   "file": "photos/1946069592550417-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1946069592550417",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584054,
+    3.746789,
+    344,
+    0.5
+   ]
+  },
+  "441353868921882-335": {
+   "file": "photos/441353868921882-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=441353868921882",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584269,
+    3.7468837,
+    335,
+    0.5
+   ]
+  },
+  "1092762238639240-348": {
+   "file": "photos/1092762238639240-348.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1092762238639240",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058439,
+    3.7469363,
+    348,
+    0.5
+   ]
+  },
+  "522236697122684-337": {
+   "file": "photos/522236697122684-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=522236697122684",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584633,
+    3.7470414,
+    337,
+    0.5
+   ]
+  },
+  "481131178132959-349": {
+   "file": "photos/481131178132959-349.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=481131178132959",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058505,
+    3.7472211,
+    349,
+    0.5
+   ]
+  },
+  "407486619034419-341": {
+   "file": "photos/407486619034419-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=407486619034419",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058526,
+    3.7473121,
+    341,
+    0.5
+   ]
+  },
+  "494923493384454-322": {
+   "file": "photos/494923493384454-322.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=494923493384454",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0585778,
+    3.7475384,
+    322,
+    0.5
+   ]
+  },
+  "410698662084289-339": {
+   "file": "photos/410698662084289-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=410698662084289",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0585907,
+    3.7475945,
+    339,
+    0.5
+   ]
+  },
+  "1048193110347886-351": {
+   "file": "photos/1048193110347886-351.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1048193110347886",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0586087,
+    3.7476735,
+    351,
+    0.5
+   ]
+  },
+  "519584197328991-341": {
+   "file": "photos/519584197328991-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519584197328991",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058643,
+    3.7478232,
+    341,
+    0.5
+   ]
+  },
+  "2079181552499909-347": {
+   "file": "photos/2079181552499909-347.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2079181552499909",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0587033,
+    3.7480794,
+    347,
+    0.5
+   ]
+  },
+  "506348262016546-342": {
+   "file": "photos/506348262016546-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=506348262016546",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0587247,
+    3.7481701,
+    342,
+    0.5
+   ]
+  },
+  "379531715201970-337": {
+   "file": "photos/379531715201970-337.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=379531715201970",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0587746,
+    3.7483787,
+    337,
+    0.5
+   ]
+  },
+  "309492344090643": {
+   "file": "photos/309492344090643.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=309492344090643",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2019-04-19",
+   "cam": [
+    51.0571653,
+    3.7416348,
+    6,
+    0.466
+   ]
+  },
+  "203345602583828": {
+   "file": "photos/203345602583828.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=203345602583828",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0578376,
+    3.7446542,
+    322,
+    0.722
+   ]
+  },
+  "1511941283538255-350": {
+   "file": "photos/1511941283538255-350.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1511941283538255",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580146,
+    3.7450112,
+    350,
+    0.5
+   ]
+  },
+  "1247328073281063-346": {
+   "file": "photos/1247328073281063-346.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1247328073281063",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583492,
+    3.7465404,
+    346,
+    0.5
+   ]
+  },
+  "868251284913699-342": {
+   "file": "photos/868251284913699-342.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=868251284913699",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0586879,
+    3.7480143,
+    342,
+    0.5
+   ]
+  },
+  "902134765149289-333": {
+   "file": "photos/902134765149289-333.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=902134765149289",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0587497,
+    3.7482755,
+    333,
+    0.5
+   ]
+  },
+  "1665173434387833-330": {
+   "file": "photos/1665173434387833-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1665173434387833",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576213,
+    3.7430608,
+    330,
+    0.5
+   ]
+  },
+  "1876207462583752": {
+   "file": "photos/1876207462583752.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1876207462583752",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0575782,
+    3.7435384,
+    0,
+    0.44
+   ]
+  },
+  "533369222711820-358": {
+   "file": "photos/533369222711820-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=533369222711820",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577545,
+    3.74376,
+    358,
+    0.5
+   ]
+  },
+  "481491518057149-335": {
+   "file": "photos/481491518057149-335.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=481491518057149",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577747,
+    3.7438783,
+    335,
+    0.5
+   ]
+  },
+  "888857989421503-339": {
+   "file": "photos/888857989421503-339.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888857989421503",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057789,
+    3.7439542,
+    339,
+    0.5
+   ]
+  },
+  "534930825882259-330": {
+   "file": "photos/534930825882259-330.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534930825882259",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057807,
+    3.7440517,
+    330,
+    0.5
+   ]
+  },
+  "1060839338961405-341": {
+   "file": "photos/1060839338961405-341.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1060839338961405",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0578208,
+    3.7441139,
+    341,
+    0.5
+   ]
+  },
+  "2267924256906375-344": {
+   "file": "photos/2267924256906375-344.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2267924256906375",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0578355,
+    3.7441906,
+    344,
+    0.5
+   ]
+  },
+  "1273588673631363-333": {
+   "file": "photos/1273588673631363-333.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1273588673631363",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0578551,
+    3.7442907,
+    333,
+    0.5
+   ]
+  },
+  "1287519058515063": {
+   "file": "photos/1287519058515063.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1287519058515063",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0576429,
+    3.744745,
+    339,
+    0.722
+   ]
+  },
+  "1050834029973992-358": {
+   "file": "photos/1050834029973992-358.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1050834029973992",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057998,
+    3.7449389,
+    358,
+    0.5
+   ]
+  },
+  "923584628875013": {
+   "file": "photos/923584628875013.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=923584628875013",
+   "author": "pietervdvn",
+   "licence": "CC BY-SA 4.0",
+   "date": "2023-05-24",
+   "cam": [
+    51.0576066,
+    3.7447645,
+    330,
+    0.722
+   ]
+  },
+  "213314497268688": {
+   "file": "photos/213314497268688.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=213314497268688",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0574275,
+    3.742562,
+    24,
+    0.433
+   ]
+  },
+  "320149579484021": {
+   "file": "photos/320149579484021.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=320149579484021",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2017-10-18",
+   "cam": [
+    51.0574401,
+    3.7425714,
+    21,
+    0.433
+   ]
+  },
+  "495876406661720-30": {
+   "file": "photos/495876406661720-30.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=495876406661720",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0575995,
+    3.7429334,
+    30,
+    0.5
+   ]
+  },
+  "382444194903669-25": {
+   "file": "photos/382444194903669-25.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=382444194903669",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576128,
+    3.7430094,
+    25,
+    0.5
+   ]
+  },
+  "1215960522862446-29": {
+   "file": "photos/1215960522862446-29.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1215960522862446",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576287,
+    3.7431033,
+    29,
+    0.5
+   ]
+  },
+  "382444194903669-32": {
+   "file": "photos/382444194903669-32.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=382444194903669",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576128,
+    3.7430094,
+    32,
+    0.5
+   ]
+  },
+  "1215960522862446-33": {
+   "file": "photos/1215960522862446-33.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1215960522862446",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576287,
+    3.7431033,
+    33,
+    0.5
+   ]
+  },
+  "1568972554019265-356": {
+   "file": "photos/1568972554019265-356.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1568972554019265",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576548,
+    3.743257,
+    356,
+    0.5
+   ]
+  },
+  "1052323013144951-139": {
+   "file": "photos/1052323013144951-139.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1052323013144951",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0575603,
+    3.742717,
+    139,
+    0.5
+   ]
+  },
+  "1050834029973992-169": {
+   "file": "photos/1050834029973992-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1050834029973992",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057998,
+    3.7449389,
+    169,
+    0.5
+   ]
+  },
+  "490664007203202-168": {
+   "file": "photos/490664007203202-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=490664007203202",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580446,
+    3.7451448,
+    168,
+    0.5
+   ]
+  },
+  "1512016456096091-164": {
+   "file": "photos/1512016456096091-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1512016456096091",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0579652,
+    3.7447853,
+    164,
+    0.5
+   ]
+  },
+  "1511941283538255-170": {
+   "file": "photos/1511941283538255-170.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1511941283538255",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580146,
+    3.7450112,
+    170,
+    0.5
+   ]
+  },
+  "1028443541924133-173": {
+   "file": "photos/1028443541924133-173.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1028443541924133",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580319,
+    3.7450869,
+    173,
+    0.5
+   ]
+  },
+  "7834906086636173-154": {
+   "file": "photos/7834906086636173-154.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=7834906086636173",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580515,
+    3.745177,
+    154,
+    0.5
+   ]
+  },
+  "1179079716516209-156": {
+   "file": "photos/1179079716516209-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1179079716516209",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580843,
+    3.7453303,
+    156,
+    0.5
+   ]
+  },
+  "1228128148505087-158": {
+   "file": "photos/1228128148505087-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1228128148505087",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581022,
+    3.7454127,
+    158,
+    0.5
+   ]
+  },
+  "540329968700526-161": {
+   "file": "photos/540329968700526-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=540329968700526",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581207,
+    3.7454956,
+    161,
+    0.5
+   ]
+  },
+  "1227571311778134-156": {
+   "file": "photos/1227571311778134-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1227571311778134",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581415,
+    3.745588,
+    156,
+    0.5
+   ]
+  },
+  "1254389162679926-166": {
+   "file": "photos/1254389162679926-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1254389162679926",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581685,
+    3.7457089,
+    166,
+    0.5
+   ]
+  },
+  "1075383884020170-152": {
+   "file": "photos/1075383884020170-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1075383884020170",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581766,
+    3.745745,
+    152,
+    0.5
+   ]
+  },
+  "546558987821469-166": {
+   "file": "photos/546558987821469-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=546558987821469",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0582168,
+    3.7459244,
+    166,
+    0.5
+   ]
+  },
+  "827574132874648-159": {
+   "file": "photos/827574132874648-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=827574132874648",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058239,
+    3.7460235,
+    159,
+    0.5
+   ]
+  },
+  "393697830217980-158": {
+   "file": "photos/393697830217980-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=393697830217980",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058272,
+    3.7461755,
+    158,
+    0.5
+   ]
+  },
+  "26574734898838131-162": {
+   "file": "photos/26574734898838131-162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=26574734898838131",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583008,
+    3.7463236,
+    162,
+    0.5
+   ]
+  },
+  "784524660313943-150": {
+   "file": "photos/784524660313943-150.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=784524660313943",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583158,
+    3.7463917,
+    150,
+    0.5
+   ]
+  },
+  "1215594543027509-152": {
+   "file": "photos/1215594543027509-152.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1215594543027509",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583816,
+    3.7466837,
+    152,
+    0.5
+   ]
+  },
+  "526537613297827-158": {
+   "file": "photos/526537613297827-158.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=526537613297827",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584006,
+    3.7467681,
+    158,
+    0.5
+   ]
+  },
+  "441353868921882-165": {
+   "file": "photos/441353868921882-165.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=441353868921882",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584269,
+    3.7468837,
+    165,
+    0.5
+   ]
+  },
+  "3798853353699589-169": {
+   "file": "photos/3798853353699589-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=3798853353699589",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584572,
+    3.747015,
+    169,
+    0.5
+   ]
+  },
+  "885256180145958-160": {
+   "file": "photos/885256180145958-160.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=885256180145958",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584682,
+    3.7470625,
+    160,
+    0.5
+   ]
+  },
+  "1266266324536688-151": {
+   "file": "photos/1266266324536688-151.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1266266324536688",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0584903,
+    3.7471575,
+    151,
+    0.5
+   ]
+  },
+  "407486619034419-156": {
+   "file": "photos/407486619034419-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=407486619034419",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058526,
+    3.7473121,
+    156,
+    0.5
+   ]
+  },
+  "412348285210282-164": {
+   "file": "photos/412348285210282-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=412348285210282",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0585474,
+    3.747405,
+    164,
+    0.5
+   ]
+  },
+  "446432071767055-156": {
+   "file": "photos/446432071767055-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=446432071767055",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0586215,
+    3.7477294,
+    156,
+    0.5
+   ]
+  },
+  "519584197328991-156": {
+   "file": "photos/519584197328991-156.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=519584197328991",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058643,
+    3.7478232,
+    156,
+    0.5
+   ]
+  },
+  "1071239267951256-159": {
+   "file": "photos/1071239267951256-159.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1071239267951256",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0586995,
+    3.7480632,
+    159,
+    0.5
+   ]
+  },
+  "485354084262272-168": {
+   "file": "photos/485354084262272-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=485354084262272",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0579815,
+    3.7448647,
+    168,
+    0.5
+   ]
+  },
+  "1025989385980639-165": {
+   "file": "photos/1025989385980639-165.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1025989385980639",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0580732,
+    3.7452784,
+    165,
+    0.5
+   ]
+  },
+  "2280363395635128-155": {
+   "file": "photos/2280363395635128-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2280363395635128",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583383,
+    3.7464921,
+    155,
+    0.5
+   ]
+  },
+  "1211111856829814-168": {
+   "file": "photos/1211111856829814-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1211111856829814",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0583696,
+    3.7466308,
+    168,
+    0.5
+   ]
+  },
+  "1203337150979813-144": {
+   "file": "photos/1203337150979813-144.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1203337150979813",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0585563,
+    3.7474436,
+    144,
+    0.5
+   ]
+  },
+  "1698852507571486-153": {
+   "file": "photos/1698852507571486-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1698852507571486",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0585984,
+    3.7476285,
+    153,
+    0.5
+   ]
+  },
+  "1267145587977354-153": {
+   "file": "photos/1267145587977354-153.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1267145587977354",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.058666,
+    3.7479219,
+    153,
+    0.5
+   ]
+  },
+  "1987342608389107-161": {
+   "file": "photos/1987342608389107-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1987342608389107",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0575732,
+    3.7427814,
+    161,
+    0.5
+   ]
+  },
+  "382444194903669-164": {
+   "file": "photos/382444194903669-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=382444194903669",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0576128,
+    3.7430094,
+    164,
+    0.5
+   ]
+  },
+  "1109012426628212": {
+   "file": "photos/1109012426628212.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1109012426628212",
+   "author": "filipc",
+   "licence": "CC BY-SA 4.0",
+   "date": "2022-07-08",
+   "cam": [
+    51.0576312,
+    3.7433993,
+    174,
+    0.434
+   ]
+  },
+  "1098675541883894-168": {
+   "file": "photos/1098675541883894-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1098675541883894",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577458,
+    3.7437082,
+    168,
+    0.5
+   ]
+  },
+  "533369222711820-155": {
+   "file": "photos/533369222711820-155.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=533369222711820",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577545,
+    3.74376,
+    155,
+    0.5
+   ]
+  },
+  "888857989421503-164": {
+   "file": "photos/888857989421503-164.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=888857989421503",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057789,
+    3.7439542,
+    164,
+    0.5
+   ]
+  },
+  "534930825882259-169": {
+   "file": "photos/534930825882259-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=534930825882259",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057807,
+    3.7440517,
+    169,
+    0.5
+   ]
+  },
+  "1060839338961405-162": {
+   "file": "photos/1060839338961405-162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1060839338961405",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0578208,
+    3.7441139,
+    162,
+    0.5
+   ]
+  },
+  "8542957399070341-143": {
+   "file": "photos/8542957399070341-143.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=8542957399070341",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.057872,
+    3.7443652,
+    143,
+    0.5
+   ]
+  },
+  "1001175958430586-168": {
+   "file": "photos/1001175958430586-168.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1001175958430586",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0579007,
+    3.7445014,
+    168,
+    0.5
+   ]
+  },
+  "871724054540608-169": {
+   "file": "photos/871724054540608-169.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=871724054540608",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577279,
+    3.7436174,
+    169,
+    0.5
+   ]
+  },
+  "481491518057149-166": {
+   "file": "photos/481491518057149-166.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=481491518057149",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0577747,
+    3.7438783,
+    166,
+    0.5
+   ]
+  },
+  "2267924256906375-161": {
+   "file": "photos/2267924256906375-161.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=2267924256906375",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0578355,
+    3.7441906,
+    161,
+    0.5
+   ]
+  },
+  "1619359305297800-162": {
+   "file": "photos/1619359305297800-162.jpg",
+   "page": "https://www.mapillary.com/app/?pKey=1619359305297800",
+   "author": "friedkiwi",
+   "licence": "CC BY-SA 4.0",
+   "date": "2024-09-14",
+   "pano": true,
+   "cam": [
+    51.0581992,
+    3.7458458,
+    162,
+    0.5
+   ]
+  }
+ },
+ "fronts": [
+  {
+   "mapIndex": 28278,
+   "at": [
+    1685.55,
+    -603.5
+   ],
+   "centre": [
+    1678.6,
+    -607.7
+   ],
+   "width": 4.9,
+   "faces": 26,
+   "toStreet": 17.3,
+   "floors": 3,
+   "eaves": 10.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1668.3,
+    -609.5,
+    1682.3,
+    -602.4,
+    1684.5,
+    -601.3,
+    1686.6,
+    -605.7,
+    1679,
+    -609.1,
+    1679.2,
+    -611.4,
+    1670.5,
+    -614.8
+   ],
+   "id": "land-van-waaslaan-26-01",
+   "latLon": [
+    51.057741,
+    3.743034
+   ],
+   "photos": [
+    {
+     "id": "375252833836372",
+     "metres": 26,
+     "off": 5,
+     "span": [
+      0.423,
+      0.496
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28294,
+   "at": [
+    1681.1,
+    -600
+   ],
+   "centre": [
+    1674.2,
+    -603.4
+   ],
+   "width": 5.4,
+   "faces": 27,
+   "toStreet": 15.2,
+   "floors": 2,
+   "eaves": 9.2,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    1666.1,
+    -604.1,
+    1679.9,
+    -597.6,
+    1682.3,
+    -602.4,
+    1668.3,
+    -609.5
+   ],
+   "id": "land-van-waaslaan-27-02",
+   "latLon": [
+    51.057715,
+    3.742983
+   ],
+   "photos": [
+    {
+     "id": "145035734269145",
+     "metres": 28,
+     "off": 5,
+     "span": [
+      0.508,
+      0.58
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28453,
+   "at": [
+    1842.75,
+    -645.85
+   ],
+   "centre": [
+    1836.6,
+    -654.6
+   ],
+   "width": 3.8,
+   "faces": 67,
+   "toStreet": 12.6,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": 14.2,
+   "kind": "house",
+   "ring": [
+    1826.8,
+    -667.2,
+    1836.5,
+    -648.8,
+    1839,
+    -650.3,
+    1841,
+    -645.1,
+    1844.5,
+    -646.6,
+    1831.9,
+    -669.8
+   ],
+   "id": "land-van-waaslaan-67-03",
+   "latLon": [
+    51.058047,
+    3.744831
+   ],
+   "photos": [
+    {
+     "id": "151830611092869",
+     "metres": 37,
+     "off": 14,
+     "span": [
+      0.654,
+      0.704
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40565,
+   "at": [
+    1972.9499999999998,
+    -693.2
+   ],
+   "centre": [
+    1968.3,
+    -701.2
+   ],
+   "width": 5.7,
+   "faces": 67,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 0.1,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1960.7,
+    -705,
+    1966.1,
+    -690.7,
+    1966.1,
+    -690.5,
+    1970.3,
+    -692.1,
+    1975.6,
+    -694.3,
+    1971.6,
+    -704.9,
+    1970.4,
+    -708,
+    1969.7,
+    -710.1,
+    1968.4,
+    -709.3,
+    1963.7,
+    -706.7
+   ],
+   "id": "land-van-waaslaan-67-04",
+   "latLon": [
+    51.05839,
+    3.746319
+   ],
+   "photos": [
+    {
+     "id": "784524660313943-328",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.39,
+      0.624
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28497,
+   "at": [
+    1835.6,
+    -643.05
+   ],
+   "centre": [
+    1830.4,
+    -651.7
+   ],
+   "width": 11.6,
+   "faces": 69,
+   "toStreet": 12.3,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1820.8,
+    -664,
+    1824.4,
+    -654.1,
+    1826.9,
+    -647.2,
+    1827.8,
+    -647.5,
+    1830.2,
+    -641,
+    1841,
+    -645.1,
+    1839,
+    -650.3,
+    1836.5,
+    -648.8,
+    1826.8,
+    -667.2
+   ],
+   "id": "land-van-waaslaan-69-01",
+   "latLon": [
+    51.058027,
+    3.744749
+   ],
+   "photos": [
+    {
+     "id": "620294150009356",
+     "metres": 35,
+     "off": 7,
+     "span": [
+      0.502,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28448,
+   "at": [
+    1877.5500000000002,
+    -658.4
+   ],
+   "centre": [
+    1872.5,
+    -669.7
+   ],
+   "width": 5.7,
+   "faces": 69,
+   "toStreet": 12.7,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1860.8,
+    -685,
+    1870.8,
+    -665.3,
+    1874.9,
+    -657.4,
+    1880.2,
+    -659.4,
+    1876.9,
+    -665.9,
+    1876.5,
+    -666.8,
+    1874.2,
+    -665.4,
+    1871.2,
+    -671.4,
+    1873.4,
+    -672.8,
+    1865.9,
+    -687.6
+   ],
+   "id": "land-van-waaslaan-69-02",
+   "latLon": [
+    51.058138,
+    3.745229
+   ],
+   "photos": [
+    {
+     "id": "1025989385980639-334",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.363,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28484,
+   "at": [
+    1895.6999999999998,
+    -665.05
+   ],
+   "centre": [
+    1892.9,
+    -671.9
+   ],
+   "width": 7.7,
+   "faces": 69,
+   "toStreet": 12.7,
+   "floors": 3,
+   "eaves": 13,
+   "top": 15,
+   "kind": "house",
+   "ring": [
+    1886.4,
+    -674.6,
+    1888.1,
+    -671.3,
+    1892.1,
+    -663.7,
+    1899.3,
+    -666.4,
+    1896,
+    -673.4,
+    1895.1,
+    -675.4,
+    1893.6,
+    -678.8
+   ],
+   "id": "land-van-waaslaan-69-03",
+   "latLon": [
+    51.058186,
+    3.745436
+   ],
+   "photos": [
+    {
+     "id": "540329968700526-330",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.329,
+      0.695
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28443,
+   "at": [
+    1912.6,
+    -671.25
+   ],
+   "centre": [
+    1908.3,
+    -681.8
+   ],
+   "width": 6,
+   "faces": 69,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 14.5,
+   "kind": "house",
+   "ring": [
+    1903.9,
+    -683.5,
+    1909.8,
+    -670.2,
+    1915.4,
+    -672.3,
+    1910.6,
+    -682.1,
+    1909.4,
+    -684.4,
+    1907,
+    -689.2,
+    1904.4,
+    -687.9,
+    1906.1,
+    -684.6
+   ],
+   "id": "land-van-waaslaan-69-04",
+   "latLon": [
+    51.058231,
+    3.745629
+   ],
+   "photos": [
+    {
+     "id": "2661987803983500-339",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.354,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28452,
+   "at": [
+    2044.1,
+    -719.1
+   ],
+   "centre": [
+    2038.1,
+    -729.1
+   ],
+   "width": 5.1,
+   "faces": 69,
+   "toStreet": 12.6,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2028.8,
+    -732.5,
+    2034.8,
+    -715.7,
+    2039.5,
+    -717.5,
+    2039.6,
+    -717.3,
+    2041.8,
+    -718.1,
+    2041.7,
+    -718.2,
+    2046.5,
+    -720,
+    2040.7,
+    -736.2,
+    2037.8,
+    -744.4,
+    2035.4,
+    -743.2,
+    2036.5,
+    -739.9,
+    2035.6,
+    -739.7,
+    2037.1,
+    -735.4
+   ],
+   "id": "land-van-waaslaan-69-05",
+   "latLon": [
+    51.058577,
+    3.747133
+   ],
+   "photos": [
+    {
+     "id": "1266266324536688-350",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.392,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28924,
+   "at": [
+    2110.55,
+    -743.25
+   ],
+   "centre": [
+    2108,
+    -750.2
+   ],
+   "width": 7.6,
+   "faces": 69,
+   "toStreet": 12.7,
+   "floors": 2,
+   "eaves": 7.6,
+   "top": 12.4,
+   "kind": "house",
+   "ring": [
+    2102,
+    -755.8,
+    2107,
+    -741.9,
+    2114.1,
+    -744.6,
+    2109,
+    -758.6
+   ],
+   "id": "land-van-waaslaan-69-06",
+   "latLon": [
+    51.058752,
+    3.747892
+   ],
+   "photos": [
+    {
+     "id": "389549274008992-331",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.352,
+      0.661
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28498,
+   "at": [
+    1867.15,
+    -654.55
+   ],
+   "centre": [
+    1861.1,
+    -666.3
+   ],
+   "width": 5.4,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.7,
+   "kind": "house",
+   "ring": [
+    1851,
+    -679.8,
+    1860.1,
+    -662.3,
+    1864.6,
+    -653.6,
+    1869.7,
+    -655.5,
+    1865.3,
+    -663.9,
+    1855.9,
+    -682.4
+   ],
+   "id": "land-van-waaslaan-70-07",
+   "latLon": [
+    51.05811,
+    3.74511
+   ],
+   "photos": [
+    {
+     "id": "490664007203202-342",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.352,
+      0.634
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28465,
+   "at": [
+    1883.2,
+    -660.5
+   ],
+   "centre": [
+    1881.5,
+    -663.9
+   ],
+   "width": 6.4,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1876.9,
+    -665.9,
+    1880.2,
+    -659.4,
+    1886.2,
+    -661.6,
+    1882.6,
+    -668.7
+   ],
+   "id": "land-van-waaslaan-70-08",
+   "latLon": [
+    51.058153,
+    3.745293
+   ],
+   "photos": [
+    {
+     "id": "1179079716516209-341",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.343,
+      0.66
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28441,
+   "at": [
+    1889.15,
+    -662.6500000000001
+   ],
+   "centre": [
+    1887.3,
+    -666.3
+   ],
+   "width": 6.3,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.8,
+   "top": null,
+   "kind": "shed",
+   "ring": [
+    1882.6,
+    -668.7,
+    1886.2,
+    -661.6,
+    1892.1,
+    -663.7,
+    1888.1,
+    -671.3
+   ],
+   "id": "land-van-waaslaan-70-09",
+   "latLon": [
+    51.058168,
+    3.745361
+   ],
+   "photos": [
+    {
+     "id": "1228128148505087-334",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.352,
+      0.658
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28492,
+   "at": [
+    1901.75,
+    -667.3
+   ],
+   "centre": [
+    1894.9,
+    -679.8
+   ],
+   "width": 5.2,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 3,
+   "eaves": 10.5,
+   "top": 13.3,
+   "kind": "house",
+   "ring": [
+    1883.8,
+    -697,
+    1891.2,
+    -683.2,
+    1891.4,
+    -682.8,
+    1893.6,
+    -678.8,
+    1895.1,
+    -675.4,
+    1896.8,
+    -676.2,
+    1897.7,
+    -674.1,
+    1896,
+    -673.4,
+    1899.3,
+    -666.4,
+    1904.2,
+    -668.2,
+    1899.7,
+    -677.4,
+    1896,
+    -684.9,
+    1888.7,
+    -699.6
+   ],
+   "id": "land-van-waaslaan-70-10",
+   "latLon": [
+    51.058202,
+    3.745505
+   ],
+   "photos": [
+    {
+     "id": "1227571311778134-319",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.402,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28471,
+   "at": [
+    1907,
+    -669.2
+   ],
+   "centre": [
+    1900.1,
+    -684.3
+   ],
+   "width": 5.9,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 3,
+   "eaves": 11.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1888.7,
+    -699.6,
+    1896,
+    -684.9,
+    1899,
+    -686.3,
+    1902.9,
+    -678.8,
+    1899.7,
+    -677.4,
+    1904.2,
+    -668.2,
+    1909.8,
+    -670.2,
+    1903.9,
+    -683.5,
+    1902.2,
+    -686.8,
+    1900.9,
+    -689.1,
+    1893.8,
+    -702.2
+   ],
+   "id": "land-van-waaslaan-70-11",
+   "latLon": [
+    51.058216,
+    3.745565
+   ],
+   "photos": [
+    {
+     "id": "1299570598086403-335",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.367,
+      0.649
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28474,
+   "at": [
+    1918.45,
+    -673.4
+   ],
+   "centre": [
+    1923.3,
+    -678.2
+   ],
+   "width": 6.5,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 3,
+   "eaves": 9.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1910.6,
+    -682.1,
+    1915.4,
+    -672.3,
+    1921.5,
+    -674.5,
+    1921.5,
+    -674.7,
+    1925,
+    -675.9,
+    1925.1,
+    -675.8,
+    1926.6,
+    -676.4,
+    1926.5,
+    -676.5,
+    1930.1,
+    -677.8,
+    1930.1,
+    -677.7,
+    1931.2,
+    -678.1,
+    1926.2,
+    -690.4,
+    1913.7,
+    -683.9
+   ],
+   "id": "land-van-waaslaan-70-12",
+   "latLon": [
+    51.058246,
+    3.745696
+   ],
+   "photos": [
+    {
+     "id": "1075383884020170-336",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.352,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28434,
+   "at": [
+    1940.15,
+    -681.35
+   ],
+   "centre": [
+    1934.2,
+    -697.2
+   ],
+   "width": 19,
+   "faces": 70,
+   "toStreet": 12.8,
+   "floors": 5,
+   "eaves": 19,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1921.8,
+    -698.4,
+    1926.2,
+    -690.4,
+    1931.2,
+    -678.1,
+    1949.1,
+    -684.6,
+    1944.1,
+    -696.9,
+    1942.2,
+    -699.7,
+    1938.9,
+    -704.5,
+    1936.6,
+    -708,
+    1931.6,
+    -704.8,
+    1928.5,
+    -702.8,
+    1925.5,
+    -700.8
+   ],
+   "id": "land-van-waaslaan-70-13",
+   "latLon": [
+    51.058304,
+    3.745944
+   ],
+   "photos": [
+    {
+     "id": "1049553566702443-347",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.021,
+      0.895
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28435,
+   "at": [
+    1952.1999999999998,
+    -685.7
+   ],
+   "centre": [
+    1951.9,
+    -696.6
+   ],
+   "width": 6.6,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1944.1,
+    -696.9,
+    1949.1,
+    -684.6,
+    1955.3,
+    -686.8,
+    1957.6,
+    -687.6,
+    1955.7,
+    -695.2,
+    1954.6,
+    -699.5,
+    1954.3,
+    -700.9,
+    1952.2,
+    -704.1,
+    1951.1,
+    -705.8,
+    1947.6,
+    -703.3,
+    1949.1,
+    -698.4
+   ],
+   "id": "land-van-waaslaan-70-14",
+   "latLon": [
+    51.058335,
+    3.746082
+   ],
+   "photos": [
+    {
+     "id": "522562013516261-335",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.354,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28491,
+   "at": [
+    1962.9499999999998,
+    -689.55
+   ],
+   "centre": [
+    1958.9,
+    -695.4
+   ],
+   "width": 6.7,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 4,
+   "eaves": 15.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1954.6,
+    -699.5,
+    1955.7,
+    -695.2,
+    1957.6,
+    -687.6,
+    1958.4,
+    -687.9,
+    1959.8,
+    -688.4,
+    1966.1,
+    -690.7,
+    1960.7,
+    -705,
+    1958.4,
+    -703.5,
+    1958.5,
+    -700.8
+   ],
+   "id": "land-van-waaslaan-70-15",
+   "latLon": [
+    51.058363,
+    3.746205
+   ],
+   "photos": [
+    {
+     "id": "405086582606684-358",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.356,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28431,
+   "at": [
+    1978.75,
+    -695.45
+   ],
+   "centre": [
+    1976.2,
+    -704.7
+   ],
+   "width": 6.7,
+   "faces": 70,
+   "toStreet": 12.8,
+   "floors": 3,
+   "eaves": 10.1,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1969.7,
+    -710.1,
+    1970.4,
+    -708,
+    1975.1,
+    -709.8,
+    1976.4,
+    -706.6,
+    1971.6,
+    -704.9,
+    1975.6,
+    -694.3,
+    1981.9,
+    -696.6,
+    1981.9,
+    -696.4,
+    1984.1,
+    -697.2,
+    1977.9,
+    -715.2,
+    1973.1,
+    -712.2
+   ],
+   "id": "land-van-waaslaan-70-16",
+   "latLon": [
+    51.058406,
+    3.746386
+   ],
+   "photos": [
+    {
+     "id": "1175503617264549-328",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.372,
+      0.64
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28480,
+   "at": [
+    1996.15,
+    -701.7
+   ],
+   "centre": [
+    1992.1,
+    -714.4
+   ],
+   "width": 7.6,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1988.5,
+    -712.3,
+    1988.9,
+    -711.1,
+    1992.6,
+    -700.4,
+    1999.7,
+    -703,
+    1994.4,
+    -718,
+    1992.1,
+    -724.5,
+    1991.8,
+    -724.3,
+    1989.1,
+    -722.5,
+    1992,
+    -713.7
+   ],
+   "id": "land-van-waaslaan-70-17",
+   "latLon": [
+    51.058451,
+    3.746585
+   ],
+   "photos": [
+    {
+     "id": "1211111856829814-341",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.335,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28440,
+   "at": [
+    2003.75,
+    -704.45
+   ],
+   "centre": [
+    1999.8,
+    -717.9
+   ],
+   "width": 8.6,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 4,
+   "eaves": 16.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1994.4,
+    -718,
+    1999.7,
+    -703,
+    2007.8,
+    -705.9,
+    2004,
+    -716.9,
+    1999.7,
+    -729.2,
+    1996.5,
+    -727.5,
+    1998.6,
+    -721.1,
+    1998.2,
+    -720.9,
+    1998.9,
+    -719
+   ],
+   "id": "land-van-waaslaan-70-18",
+   "latLon": [
+    51.058471,
+    3.746671
+   ],
+   "photos": [
+    {
+     "id": "514601314516030-337",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.323,
+      0.679
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28470,
+   "at": [
+    2010.75,
+    -706.95
+   ],
+   "centre": [
+    2006.7,
+    -719.2
+   ],
+   "width": 6.3,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2002.9,
+    -728,
+    2005.5,
+    -720,
+    2006.7,
+    -719.4,
+    2006.7,
+    -718,
+    2004,
+    -716.9,
+    2007.8,
+    -705.9,
+    2013.7,
+    -708,
+    2006.7,
+    -727.6,
+    2006.1,
+    -729.2
+   ],
+   "id": "land-van-waaslaan-70-19",
+   "latLon": [
+    51.058489,
+    3.746751
+   ],
+   "photos": [
+    {
+     "id": "1946069592550417-344",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.37,
+      0.63
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28456,
+   "at": [
+    2017.2,
+    -709.3
+   ],
+   "centre": [
+    2010.2,
+    -727.6
+   ],
+   "width": 7.5,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 1,
+   "eaves": 4,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    2004.8,
+    -732.9,
+    2005.7,
+    -730.4,
+    2008.7,
+    -731.7,
+    2009.8,
+    -728.9,
+    2006.7,
+    -727.6,
+    2013.7,
+    -708,
+    2020.7,
+    -710.6,
+    2014.6,
+    -727.6,
+    2011.4,
+    -736.5,
+    2010.4,
+    -736.4,
+    2005.7,
+    -733.5
+   ],
+   "id": "land-van-waaslaan-70-20",
+   "latLon": [
+    51.058506,
+    3.746825
+   ],
+   "photos": [
+    {
+     "id": "441353868921882-335",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.351,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28475,
+   "at": [
+    2024.3000000000002,
+    -711.9000000000001
+   ],
+   "centre": [
+    2018.4,
+    -726.7
+   ],
+   "width": 7.7,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 4,
+   "eaves": 15.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2011.4,
+    -736.5,
+    2014.6,
+    -727.6,
+    2020.7,
+    -710.6,
+    2027.9,
+    -713.2,
+    2022.3,
+    -728.5,
+    2021.1,
+    -728.8,
+    2018.3,
+    -727.8,
+    2017.9,
+    -728.9,
+    2016.2,
+    -728.2,
+    2013.4,
+    -737.3
+   ],
+   "id": "land-van-waaslaan-70-21",
+   "latLon": [
+    51.058525,
+    3.746906
+   ],
+   "photos": [
+    {
+     "id": "1092762238639240-348",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.334,
+      0.646
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28495,
+   "at": [
+    2031.35,
+    -714.45
+   ],
+   "centre": [
+    2025.6,
+    -730
+   ],
+   "width": 7.3,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 1,
+   "eaves": 1.5,
+   "top": 18.3,
+   "kind": "house",
+   "ring": [
+    2020.1,
+    -734.6,
+    2022.3,
+    -728.5,
+    2027.9,
+    -713.2,
+    2034.8,
+    -715.7,
+    2028.8,
+    -732.5,
+    2025.8,
+    -740.8,
+    2021.9,
+    -739.4,
+    2023.2,
+    -735.6
+   ],
+   "id": "land-van-waaslaan-70-22",
+   "latLon": [
+    51.058543,
+    3.746987
+   ],
+   "photos": [
+    {
+     "id": "522236697122684-337",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.35,
+      0.652
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28436,
+   "at": [
+    2049.45,
+    -721.05
+   ],
+   "centre": [
+    2045.6,
+    -733
+   ],
+   "width": 6.3,
+   "faces": 70,
+   "toStreet": 12.6,
+   "floors": 2,
+   "eaves": 7,
+   "top": 18.6,
+   "kind": "house",
+   "ring": [
+    2040.7,
+    -736.2,
+    2046.5,
+    -720,
+    2052.4,
+    -722.1,
+    2047.4,
+    -736.7,
+    2046.1,
+    -740.2,
+    2042.7,
+    -738.8,
+    2043.4,
+    -737.1
+   ],
+   "id": "land-van-waaslaan-70-23",
+   "latLon": [
+    51.058591,
+    3.747194
+   ],
+   "photos": [
+    {
+     "id": "481131178132959-349",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.365,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28460,
+   "at": [
+    2055.9,
+    -723.35
+   ],
+   "centre": [
+    2052,
+    -734.6
+   ],
+   "width": 7.4,
+   "faces": 70,
+   "toStreet": 12.5,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": 17.3,
+   "kind": "house",
+   "ring": [
+    2047.4,
+    -736.7,
+    2052.4,
+    -722.1,
+    2059.4,
+    -724.6,
+    2052.4,
+    -743.6,
+    2049.6,
+    -742.6,
+    2051,
+    -737.8
+   ],
+   "id": "land-van-waaslaan-70-24",
+   "latLon": [
+    51.058608,
+    3.747268
+   ],
+   "photos": [
+    {
+     "id": "407486619034419-341",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.346,
+      0.654
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28496,
+   "at": [
+    2071.8,
+    -729.15
+   ],
+   "centre": [
+    2063.8,
+    -750.6
+   ],
+   "width": 7.4,
+   "faces": 70,
+   "toStreet": 12.5,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2054.9,
+    -764.9,
+    2058.3,
+    -755.4,
+    2061.6,
+    -756.7,
+    2064.1,
+    -749.3,
+    2065.8,
+    -749.9,
+    2066.8,
+    -746.8,
+    2064.6,
+    -746.1,
+    2066.8,
+    -740.2,
+    2064.2,
+    -739.2,
+    2068.3,
+    -727.9,
+    2075.3,
+    -730.4,
+    2062.1,
+    -765.3,
+    2060.8,
+    -768.7,
+    2059.3,
+    -767.7
+   ],
+   "id": "land-van-waaslaan-70-25",
+   "latLon": [
+    51.05865,
+    3.747449
+   ],
+   "photos": [
+    {
+     "id": "494923493384454-322",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.373,
+      0.654
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28947,
+   "at": [
+    2080.25,
+    -732.05
+   ],
+   "centre": [
+    2073.6,
+    -747
+   ],
+   "width": 9.5,
+   "faces": 70,
+   "toStreet": 12.4,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2062.1,
+    -765.3,
+    2075.3,
+    -730.4,
+    2075.7,
+    -730.6,
+    2075.8,
+    -730.4,
+    2084.7,
+    -733.7,
+    2076.7,
+    -755.5,
+    2073.8,
+    -754.5,
+    2071.5,
+    -755.4,
+    2067.1,
+    -767.5
+   ],
+   "id": "land-van-waaslaan-70-26",
+   "latLon": [
+    51.058671,
+    3.747546
+   ],
+   "photos": [
+    {
+     "id": "410698662084289-339",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.303,
+      0.702
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28962,
+   "at": [
+    2089.45,
+    -735.45
+   ],
+   "centre": [
+    2084.2,
+    -751.3
+   ],
+   "width": 10.1,
+   "faces": 70,
+   "toStreet": 12.5,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 19.7,
+   "kind": "house",
+   "ring": [
+    2076.7,
+    -755.5,
+    2084.7,
+    -733.7,
+    2094.2,
+    -737.2,
+    2087.6,
+    -755,
+    2086.1,
+    -759,
+    2082.6,
+    -757.7,
+    2084.1,
+    -753.9,
+    2081.4,
+    -752.6,
+    2080,
+    -756.7
+   ],
+   "id": "land-van-waaslaan-70-27",
+   "latLon": [
+    51.058695,
+    3.747651
+   ],
+   "photos": [
+    {
+     "id": "1048193110347886-351",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.277,
+      0.686
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28964,
+   "at": [
+    2100.5,
+    -739.65
+   ],
+   "centre": [
+    2098.2,
+    -748.7
+   ],
+   "width": 12.6,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    2087.6,
+    -755,
+    2094.2,
+    -737.2,
+    2094.6,
+    -737.4,
+    2094.6,
+    -737.5,
+    2106.4,
+    -741.8,
+    2106.5,
+    -741.7,
+    2107,
+    -741.9,
+    2102,
+    -755.8,
+    2098.3,
+    -765.8,
+    2093.2,
+    -764,
+    2095.4,
+    -757.8
+   ],
+   "id": "land-van-waaslaan-70-28",
+   "latLon": [
+    51.058726,
+    3.747778
+   ],
+   "photos": [
+    {
+     "id": "519584197328991-341",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.237,
+      0.755
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28922,
+   "at": [
+    2124.2,
+    -748.15
+   ],
+   "centre": [
+    2120.3,
+    -760.6
+   ],
+   "width": 7.2,
+   "faces": 70,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    2114.7,
+    -763.6,
+    2120.8,
+    -746.9,
+    2127.6,
+    -749.4,
+    2121.6,
+    -766.1,
+    2121.2,
+    -767.1,
+    2118.1,
+    -766.2,
+    2118.2,
+    -764.9
+   ],
+   "id": "land-van-waaslaan-70-29",
+   "latLon": [
+    51.058787,
+    3.748048
+   ],
+   "photos": [
+    {
+     "id": "2079181552499909-347",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.344,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28921,
+   "at": [
+    2131.1,
+    -750.7
+   ],
+   "centre": [
+    2126.2,
+    -766.7
+   ],
+   "width": 7.5,
+   "faces": 70,
+   "toStreet": 12.8,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2121.6,
+    -766.1,
+    2127.6,
+    -749.4,
+    2134.6,
+    -752,
+    2129.2,
+    -766.2,
+    2128.3,
+    -768.6,
+    2128.1,
+    -769.3,
+    2125.7,
+    -775.5,
+    2123.5,
+    -774.7,
+    2124.7,
+    -771.3,
+    2124.3,
+    -770.1,
+    2125.4,
+    -768.3,
+    2124.6,
+    -768,
+    2124.4,
+    -767.2,
+    2124.5,
+    -766.9
+   ],
+   "id": "land-van-waaslaan-70-30",
+   "latLon": [
+    51.058806,
+    3.748127
+   ],
+   "photos": [
+    {
+     "id": "506348262016546-342",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.337,
+      0.653
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28919,
+   "at": [
+    2148.65,
+    -757.05
+   ],
+   "centre": [
+    2140.7,
+    -776.1
+   ],
+   "width": 10.1,
+   "faces": 70,
+   "toStreet": 12.8,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    2091.1,
+    -785.9,
+    2098.3,
+    -765.8,
+    2105.4,
+    -768.3,
+    2112.2,
+    -770.7,
+    2119,
+    -773.1,
+    2123.5,
+    -774.7,
+    2125.7,
+    -775.5,
+    2129.7,
+    -776.9,
+    2134.9,
+    -778.8,
+    2140.1,
+    -762.7,
+    2142.7,
+    -755,
+    2142.8,
+    -755,
+    2142.9,
+    -754.8,
+    2143.9,
+    -755.2,
+    2143.9,
+    -755.3,
+    2153.4,
+    -758.8,
+    2153.4,
+    -758.6,
+    2158,
+    -760.3,
+    2158,
+    -760.4,
+    2166,
+    -763.3,
+    2166,
+    -763.2,
+    2167.3,
+    -763.7,
+    2167.2,
+    -763.9,
+    2171.2,
+    -765.2,
+    2171.2,
+    -765.1,
+    2172.4,
+    -765.5,
+    2172.3,
+    -765.7,
+    2172.6,
+    -765.8,
+    2155.8,
+    -811.8,
+    2147.2,
+    -808.5,
+    2146.1,
+    -811.7,
+    2138.2,
+    -808,
+    2134.7,
+    -806.3,
+    2127.8,
+    -803,
+    2128.8,
+    -801.7,
+    2120.4,
+    -798.4,
+    2119.6,
+    -799.7,
+    2113.9,
+    -796.6,
+    2109.1,
+    -794.4
+   ],
+   "id": "land-van-waaslaan-70-31",
+   "latLon": [
+    51.058851,
+    3.748328
+   ],
+   "photos": [
+    {
+     "id": "379531715201970-337",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.291,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 27864,
+   "at": [
+    1576.2,
+    -556.8499999999999
+   ],
+   "centre": [
+    1567.7,
+    -564.8
+   ],
+   "width": 15.4,
+   "faces": 71,
+   "toStreet": 9.7,
+   "floors": 5,
+   "eaves": 19.1,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1570.4,
+    -578.8,
+    1583.5,
+    -559.3,
+    1568.9,
+    -554.4,
+    1558.1,
+    -561.6,
+    1557.4,
+    -569.8
+   ],
+   "id": "land-van-waaslaan-71-32",
+   "latLon": [
+    51.057403,
+    3.741784
+   ],
+   "photos": [
+    {
+     "id": "309492344090643",
+     "metres": 28,
+     "off": 16,
+     "span": [
+      0.541,
+      0.708
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28390,
+   "at": [
+    1587.6,
+    -560.7
+   ],
+   "centre": [
+    1581.7,
+    -571.2
+   ],
+   "width": 8.7,
+   "faces": 71,
+   "toStreet": 9.9,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 16.8,
+   "kind": "house",
+   "ring": [
+    1577.6,
+    -583.9,
+    1585.2,
+    -572.1,
+    1591.7,
+    -562.1,
+    1583.5,
+    -559.3,
+    1570.4,
+    -578.8
+   ],
+   "id": "land-van-waaslaan-71-33",
+   "latLon": [
+    51.057431,
+    3.741914
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28316,
+   "at": [
+    1813.55,
+    -634.3499999999999
+   ],
+   "centre": [
+    1812.8,
+    -641.4
+   ],
+   "width": 6.5,
+   "faces": 71,
+   "toStreet": 11.3,
+   "floors": 2,
+   "eaves": 8.4,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1805.9,
+    -648.7,
+    1810.5,
+    -633.3,
+    1816.6,
+    -635.4,
+    1818,
+    -638.1,
+    1813.1,
+    -651.3
+   ],
+   "id": "land-van-waaslaan-71-34",
+   "latLon": [
+    51.057964,
+    3.744497
+   ],
+   "photos": [
+    {
+     "id": "203345602583828",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.403,
+      0.602
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28478,
+   "at": [
+    1856.85,
+    -650.8
+   ],
+   "centre": [
+    1851.4,
+    -661.3
+   ],
+   "width": 5.4,
+   "faces": 71,
+   "toStreet": 12.6,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    1841.2,
+    -674.6,
+    1850.9,
+    -656.3,
+    1854.3,
+    -649.9,
+    1859.4,
+    -651.7,
+    1856.2,
+    -657.8,
+    1846.1,
+    -677.2
+   ],
+   "id": "land-van-waaslaan-71-35",
+   "latLon": [
+    51.058083,
+    3.744992
+   ],
+   "photos": [
+    {
+     "id": "1511941283538255-350",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.355,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28457,
+   "at": [
+    1989.4499999999998,
+    -699.3
+   ],
+   "centre": [
+    1985.8,
+    -707.9
+   ],
+   "width": 6.7,
+   "faces": 71,
+   "toStreet": 12.7,
+   "floors": 2,
+   "eaves": 7,
+   "top": 15.4,
+   "kind": "house",
+   "ring": [
+    1977.9,
+    -715.2,
+    1984.1,
+    -697.2,
+    1986.3,
+    -698.1,
+    1986.3,
+    -698.2,
+    1992.6,
+    -700.4,
+    1988.9,
+    -711.1,
+    1985.2,
+    -709.7,
+    1983.2,
+    -714.4,
+    1987.1,
+    -716.3,
+    1986.3,
+    -718.6
+   ],
+   "id": "land-van-waaslaan-71-36",
+   "latLon": [
+    51.058434,
+    3.746508
+   ],
+   "photos": [
+    {
+     "id": "1247328073281063-346",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.362,
+      0.638
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28923,
+   "at": [
+    2117.45,
+    -745.75
+   ],
+   "centre": [
+    2113.3,
+    -755
+   ],
+   "width": 7.1,
+   "faces": 71,
+   "toStreet": 12.7,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 12.1,
+   "kind": "house",
+   "ring": [
+    2108.1,
+    -761.1,
+    2109,
+    -758.6,
+    2114.1,
+    -744.6,
+    2120.8,
+    -746.9,
+    2114.7,
+    -763.6
+   ],
+   "id": "land-van-waaslaan-71-37",
+   "latLon": [
+    51.05877,
+    3.747971
+   ],
+   "photos": [
+    {
+     "id": "868251284913699-342",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.349,
+      0.645
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28920,
+   "at": [
+    2138.7,
+    -753.45
+   ],
+   "centre": [
+    2134,
+    -766
+   ],
+   "width": 8.7,
+   "faces": 71,
+   "toStreet": 12.8,
+   "floors": 4,
+   "eaves": 13.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2128.1,
+    -769.3,
+    2128.3,
+    -768.6,
+    2132.1,
+    -769.9,
+    2133,
+    -767.4,
+    2129.2,
+    -766.2,
+    2134.6,
+    -752,
+    2142.8,
+    -754.9,
+    2142.7,
+    -755,
+    2140.1,
+    -762.7,
+    2134.9,
+    -778.8,
+    2129.7,
+    -776.9,
+    2132.1,
+    -770.6
+   ],
+   "id": "land-van-waaslaan-71-38",
+   "latLon": [
+    51.058825,
+    3.748214
+   ],
+   "photos": [
+    {
+     "id": "902134765149289-333",
+     "metres": 9,
+     "off": 0,
+     "span": [
+      0.327,
+      0.692
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28389,
+   "at": [
+    1595.6,
+    -563.4000000000001
+   ],
+   "centre": [
+    1592.1,
+    -568.7
+   ],
+   "width": 8.2,
+   "faces": 72,
+   "toStreet": 9.9,
+   "floors": 4,
+   "eaves": 15.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1592.2,
+    -575.8,
+    1599.5,
+    -564.7,
+    1591.7,
+    -562.1,
+    1585.2,
+    -572.1
+   ],
+   "id": "land-van-waaslaan-72-39",
+   "latLon": [
+    51.05745,
+    3.742005
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28388,
+   "at": [
+    1603.1,
+    -565.9000000000001
+   ],
+   "centre": [
+    1595.1,
+    -577.8
+   ],
+   "width": 7.6,
+   "faces": 72,
+   "toStreet": 9.3,
+   "floors": 2,
+   "eaves": 7.4,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1589.6,
+    -592.2,
+    1599.1,
+    -578.5,
+    1606.7,
+    -567.1,
+    1599.5,
+    -564.7,
+    1592.2,
+    -575.8,
+    1583.8,
+    -588.2
+   ],
+   "id": "land-van-waaslaan-72-40",
+   "latLon": [
+    51.057469,
+    3.742091
+   ],
+   "photos": []
+  },
+  {
+   "mapIndex": 28282,
+   "at": [
+    1684.4,
+    -593
+   ],
+   "centre": [
+    1681.4,
+    -594.4
+   ],
+   "width": 6.5,
+   "faces": 72,
+   "toStreet": 7.6,
+   "floors": 3,
+   "eaves": 12.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1677,
+    -593.8,
+    1681.3,
+    -592,
+    1687.5,
+    -594,
+    1679.9,
+    -597.6
+   ],
+   "id": "land-van-waaslaan-72-41",
+   "latLon": [
+    51.057665,
+    3.743021
+   ],
+   "photos": [
+    {
+     "id": "1665173434387833-330",
+     "metres": 6,
+     "off": 0,
+     "span": [
+      0.29,
+      0.749
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28277,
+   "at": [
+    1737.85,
+    -610.05
+   ],
+   "centre": [
+    1734.7,
+    -623.8
+   ],
+   "width": 15.4,
+   "faces": 72,
+   "toStreet": 11.6,
+   "floors": 4,
+   "eaves": 13.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1725.7,
+    -620.3,
+    1730.5,
+    -607.7,
+    1745.2,
+    -612.4,
+    1741,
+    -625.3,
+    1735.8,
+    -641.6,
+    1734.5,
+    -636.9,
+    1730.5,
+    -622.2
+   ],
+   "id": "land-van-waaslaan-72-42",
+   "latLon": [
+    51.057788,
+    3.743632
+   ],
+   "photos": [
+    {
+     "id": "1876207462583752",
+     "metres": 24,
+     "off": 16,
+     "span": [
+      0.514,
+      0.715
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28283,
+   "at": [
+    1748.75,
+    -613.55
+   ],
+   "centre": [
+    1746.6,
+    -620
+   ],
+   "width": 7.5,
+   "faces": 72,
+   "toStreet": 11.8,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 15.7,
+   "kind": "house",
+   "ring": [
+    1741,
+    -625.3,
+    1745.2,
+    -612.4,
+    1752.3,
+    -614.7,
+    1747.8,
+    -627.5
+   ],
+   "id": "land-van-waaslaan-72-43",
+   "latLon": [
+    51.057813,
+    3.743756
+   ],
+   "photos": [
+    {
+     "id": "533369222711820-358",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.245,
+      0.693
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28312,
+   "at": [
+    1755.85,
+    -615.85
+   ],
+   "centre": [
+    1752,
+    -626.4
+   ],
+   "width": 7.5,
+   "faces": 72,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 15.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1746.6,
+    -632.2,
+    1747.8,
+    -627.5,
+    1752.3,
+    -614.7,
+    1759.4,
+    -617,
+    1754.8,
+    -630.3,
+    1752.4,
+    -629.6,
+    1750.9,
+    -633.7
+   ],
+   "id": "land-van-waaslaan-72-44",
+   "latLon": [
+    51.05783,
+    3.743837
+   ],
+   "photos": [
+    {
+     "id": "481491518057149-335",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.291,
+      0.733
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28314,
+   "at": [
+    1762.95,
+    -618.15
+   ],
+   "centre": [
+    1758.7,
+    -630.4
+   ],
+   "width": 7.5,
+   "faces": 72,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1751.8,
+    -639.1,
+    1754.8,
+    -630.3,
+    1759.4,
+    -617,
+    1766.5,
+    -619.3,
+    1760.9,
+    -635.3,
+    1758.8,
+    -641.3
+   ],
+   "id": "land-van-waaslaan-72-45",
+   "latLon": [
+    51.057847,
+    3.743919
+   ],
+   "photos": [
+    {
+     "id": "888857989421503-339",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.284,
+      0.721
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28306,
+   "at": [
+    1770.1,
+    -620.45
+   ],
+   "centre": [
+    1767.3,
+    -628.5
+   ],
+   "width": 7.6,
+   "faces": 72,
+   "toStreet": 12.1,
+   "floors": 3,
+   "eaves": 10.7,
+   "top": 14.3,
+   "kind": "house",
+   "ring": [
+    1760.9,
+    -635.3,
+    1766.5,
+    -619.3,
+    1773.7,
+    -621.6,
+    1768,
+    -637.7
+   ],
+   "id": "land-van-waaslaan-72-46",
+   "latLon": [
+    51.057863,
+    3.744
+   ],
+   "photos": [
+    {
+     "id": "534930825882259-330",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.311,
+      0.727
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28287,
+   "at": [
+    1777.25,
+    -622.7
+   ],
+   "centre": [
+    1774.1,
+    -632.2
+   ],
+   "width": 6,
+   "faces": 72,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": 16.2,
+   "kind": "house",
+   "ring": [
+    1766.7,
+    -643.7,
+    1768,
+    -637.7,
+    1773.7,
+    -621.6,
+    1774.4,
+    -621.8,
+    1780.1,
+    -623.6,
+    1780.8,
+    -623.8,
+    1775.6,
+    -639.1,
+    1773.2,
+    -646
+   ],
+   "id": "land-van-waaslaan-72-47",
+   "latLon": [
+    51.057879,
+    3.744082
+   ],
+   "photos": [
+    {
+     "id": "1060839338961405-341",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.328,
+      0.677
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28311,
+   "at": [
+    1784.35,
+    -624.95
+   ],
+   "centre": [
+    1781.7,
+    -632.6
+   ],
+   "width": 7.5,
+   "faces": 72,
+   "toStreet": 11.8,
+   "floors": 4,
+   "eaves": 13.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1775.6,
+    -639.1,
+    1780.8,
+    -623.8,
+    1787.9,
+    -626.1,
+    1782.6,
+    -641.4
+   ],
+   "id": "land-van-waaslaan-72-48",
+   "latLon": [
+    51.057896,
+    3.744163
+   ],
+   "photos": [
+    {
+     "id": "2267924256906375-344",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.282,
+      0.712
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28313,
+   "at": [
+    1791.45,
+    -627.25
+   ],
+   "centre": [
+    1787.7,
+    -641.5
+   ],
+   "width": 7.5,
+   "faces": 72,
+   "toStreet": 11.7,
+   "floors": 4,
+   "eaves": 14.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1782.6,
+    -641.4,
+    1787.9,
+    -626.1,
+    1795,
+    -628.4,
+    1790.7,
+    -642,
+    1788.6,
+    -648.6,
+    1787.5,
+    -652.2,
+    1783.2,
+    -650.8,
+    1785.9,
+    -642.5
+   ],
+   "id": "land-van-waaslaan-72-49",
+   "latLon": [
+    51.057912,
+    3.744244
+   ],
+   "photos": [
+    {
+     "id": "1273588673631363-333",
+     "metres": 7,
+     "off": 0,
+     "span": [
+      0.306,
+      0.723
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28281,
+   "at": [
+    1799.15,
+    -629.75
+   ],
+   "centre": [
+    1797.5,
+    -637.9
+   ],
+   "width": 8.7,
+   "faces": 72,
+   "toStreet": 11.6,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": 15.8,
+   "kind": "house",
+   "ring": [
+    1790.7,
+    -642,
+    1795,
+    -628.4,
+    1803.3,
+    -631.1,
+    1799.5,
+    -643.6,
+    1799.2,
+    -644.6
+   ],
+   "id": "land-van-waaslaan-72-50",
+   "latLon": [
+    51.05793,
+    3.744332
+   ],
+   "photos": [
+    {
+     "id": "1287519058515063",
+     "metres": 43,
+     "off": 21,
+     "span": [
+      0.16,
+      0.283
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28439,
+   "at": [
+    1851.9,
+    -649.0999999999999
+   ],
+   "centre": [
+    1846.7,
+    -658.9
+   ],
+   "width": 5.1,
+   "faces": 72,
+   "toStreet": 12.6,
+   "floors": 3,
+   "eaves": 11.3,
+   "top": 13.9,
+   "kind": "house",
+   "ring": [
+    1836.8,
+    -672.3,
+    1847.4,
+    -652.2,
+    1849.5,
+    -648.3,
+    1854.3,
+    -649.9,
+    1850.9,
+    -656.3,
+    1841.2,
+    -674.6
+   ],
+   "id": "land-van-waaslaan-72-51",
+   "latLon": [
+    51.05807,
+    3.744935
+   ],
+   "photos": [
+    {
+     "id": "1050834029973992-358",
+     "metres": 8,
+     "off": 0,
+     "span": [
+      0.372,
+      0.616
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28308,
+   "at": [
+    1806.9,
+    -632.2
+   ],
+   "centre": [
+    1801.9,
+    -647.6
+   ],
+   "width": 7.5,
+   "faces": 73,
+   "toStreet": 11.4,
+   "floors": 4,
+   "eaves": 14.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1796.2,
+    -654.5,
+    1797.5,
+    -650.2,
+    1801,
+    -651.4,
+    1803.1,
+    -644.6,
+    1799.5,
+    -643.6,
+    1803.3,
+    -631.1,
+    1810.5,
+    -633.3,
+    1805.9,
+    -648.7,
+    1804.7,
+    -652.6,
+    1802.6,
+    -659.4,
+    1796.5,
+    -654.7
+   ],
+   "id": "land-van-waaslaan-73-52",
+   "latLon": [
+    51.057948,
+    3.744421
+   ],
+   "photos": [
+    {
+     "id": "923584628875013",
+     "metres": 45,
+     "off": 2,
+     "span": [
+      0.431,
+      0.524
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28321,
+   "at": [
+    1668.6,
+    -593
+   ],
+   "centre": [
+    1672.5,
+    -593.5
+   ],
+   "width": 12.7,
+   "faces": 112,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 3.3,
+   "top": 11.6,
+   "kind": "house",
+   "ring": [
+    1662.7,
+    -595.4,
+    1674.5,
+    -590.6,
+    1675.6,
+    -590.2,
+    1681.3,
+    -592,
+    1677,
+    -593.8,
+    1664.1,
+    -599.2
+   ],
+   "id": "land-van-waaslaan-112-53",
+   "latLon": [
+    51.057665,
+    3.74284
+   ],
+   "photos": [
+    {
+     "id": "213314497268688",
+     "metres": 33,
+     "off": 12,
+     "span": [
+      0.527,
+      0.664
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28303,
+   "at": [
+    1670.55,
+    -596.5
+   ],
+   "centre": [
+    1671.8,
+    -598.7
+   ],
+   "width": 14,
+   "faces": 113,
+   "toStreet": 14.9,
+   "floors": 2,
+   "eaves": 8.7,
+   "top": 11.3,
+   "kind": "house",
+   "ring": [
+    1664.1,
+    -599.2,
+    1677,
+    -593.8,
+    1679.9,
+    -597.6,
+    1666.1,
+    -604.1
+   ],
+   "id": "land-van-waaslaan-113-01",
+   "latLon": [
+    51.05769,
+    3.742862
+   ],
+   "photos": [
+    {
+     "id": "320149579484021",
+     "metres": 34,
+     "off": 15,
+     "span": [
+      0.542,
+      0.69
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28317,
+   "at": [
+    1683.7,
+    -595.8
+   ],
+   "centre": [
+    1685.7,
+    -598.3
+   ],
+   "width": 8.4,
+   "faces": 115,
+   "toStreet": 10.5,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1679.9,
+    -597.6,
+    1687.5,
+    -594,
+    1694.5,
+    -596.2,
+    1684.5,
+    -601.3,
+    1682.3,
+    -602.4
+   ],
+   "id": "land-van-waaslaan-115-02",
+   "latLon": [
+    51.057685,
+    3.743013
+   ],
+   "photos": [
+    {
+     "id": "495876406661720-30",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.346,
+      0.651
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28291,
+   "at": [
+    1689.5,
+    -598.75
+   ],
+   "centre": [
+    1690.5,
+    -601.3
+   ],
+   "width": 11.2,
+   "faces": 117,
+   "toStreet": 11.7,
+   "floors": 3,
+   "eaves": 12,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1684.5,
+    -601.3,
+    1694.5,
+    -596.2,
+    1699.8,
+    -597.9,
+    1687.3,
+    -605.3,
+    1686.6,
+    -605.7
+   ],
+   "id": "land-van-waaslaan-117-03",
+   "latLon": [
+    51.057706,
+    3.743079
+   ],
+   "photos": [
+    {
+     "id": "382444194903669-25",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.308,
+      0.699
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28293,
+   "at": [
+    1700.8,
+    -604.15
+   ],
+   "centre": [
+    1702.3,
+    -605.6
+   ],
+   "width": 15.5,
+   "faces": 120,
+   "toStreet": 13.7,
+   "floors": 3,
+   "eaves": 12.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1694.1,
+    -608,
+    1707.5,
+    -600.3,
+    1711.1,
+    -601.5,
+    1696.7,
+    -612.5
+   ],
+   "id": "land-van-waaslaan-120-04",
+   "latLon": [
+    51.057745,
+    3.743208
+   ],
+   "photos": [
+    {
+     "id": "1215960522862446-29",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.297,
+      0.714
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28319,
+   "at": [
+    1693.55,
+    -601.5999999999999
+   ],
+   "centre": [
+    1693.4,
+    -605.5
+   ],
+   "width": 14.5,
+   "faces": 121,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1686.6,
+    -605.7,
+    1687.3,
+    -605.3,
+    1699.8,
+    -597.9,
+    1707.5,
+    -600.3,
+    1694.1,
+    -608,
+    1693.7,
+    -607.4,
+    1689.6,
+    -609.6,
+    1688.7,
+    -610.1
+   ],
+   "id": "land-van-waaslaan-121-05",
+   "latLon": [
+    51.057727,
+    3.743125
+   ],
+   "photos": [
+    {
+     "id": "382444194903669-32",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.311,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28315,
+   "at": [
+    1703.9,
+    -607
+   ],
+   "centre": [
+    1708.5,
+    -610.6
+   ],
+   "width": 18.1,
+   "faces": 127,
+   "toStreet": 15.6,
+   "floors": 3,
+   "eaves": 12.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1696.7,
+    -612.5,
+    1711.1,
+    -601.5,
+    1724,
+    -605.6,
+    1710.2,
+    -613.8,
+    1700.7,
+    -619.5
+   ],
+   "id": "land-van-waaslaan-127-06",
+   "latLon": [
+    51.057766,
+    3.743244
+   ],
+   "photos": [
+    {
+     "id": "1215960522862446-33",
+     "metres": 18,
+     "off": 0,
+     "span": [
+      0.304,
+      0.703
+     ]
+    },
+    {
+     "id": "1568972554019265-356",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.339,
+      0.853
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28826,
+   "at": [
+    1677.4,
+    -556.1500000000001
+   ],
+   "centre": [
+    1670.6,
+    -545.6
+   ],
+   "width": 11.5,
+   "faces": 208,
+   "toStreet": 16.8,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1647.8,
+    -543.3,
+    1656,
+    -546.4,
+    1666.9,
+    -541.2,
+    1672.1,
+    -552.2,
+    1674.7,
+    -551.1,
+    1680.1,
+    -561.2,
+    1685.4,
+    -558.7,
+    1688.5,
+    -557.3,
+    1678.5,
+    -536.6,
+    1675.1,
+    -538.1,
+    1672.3,
+    -532.1,
+    1661.2,
+    -537.1,
+    1659.1,
+    -538.1
+   ],
+   "id": "land-van-waaslaan-208-01",
+   "latLon": [
+    51.057398,
+    3.742941
+   ],
+   "photos": [
+    {
+     "id": "1052323013144951-139",
+     "metres": 24,
+     "off": 0,
+     "span": [
+      0.404,
+      0.585
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28667,
+   "at": [
+    1855.25,
+    -624
+   ],
+   "centre": [
+    1858.8,
+    -614.2
+   ],
+   "width": 6.7,
+   "faces": 249,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 18.9,
+   "kind": "house",
+   "ring": [
+    1852.1,
+    -622.8,
+    1858.4,
+    -625.2,
+    1865.8,
+    -605.3,
+    1858.7,
+    -603.4
+   ],
+   "id": "land-van-waaslaan-249-01",
+   "latLon": [
+    51.057889,
+    3.744974
+   ],
+   "photos": [
+    {
+     "id": "1050834029973992-169",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.386,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28661,
+   "at": [
+    1873.4,
+    -630.7
+   ],
+   "centre": [
+    1878.4,
+    -615.6
+   ],
+   "width": 6.8,
+   "faces": 249,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.6,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    1870.2,
+    -629.5,
+    1876.6,
+    -631.9,
+    1883,
+    -614.4,
+    1885.3,
+    -608,
+    1878.9,
+    -605.6,
+    1877.3,
+    -610,
+    1880,
+    -611,
+    1878.4,
+    -615.3,
+    1875.7,
+    -614.5
+   ],
+   "id": "land-van-waaslaan-249-02",
+   "latLon": [
+    51.057937,
+    3.745181
+   ],
+   "photos": [
+    {
+     "id": "490664007203202-168",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.385,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28669,
+   "at": [
+    1843,
+    -619.6500000000001
+   ],
+   "centre": [
+    1844.1,
+    -611.3
+   ],
+   "width": 5.5,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 3.9,
+   "top": 14.6,
+   "kind": "house",
+   "ring": [
+    1845.6,
+    -620.6,
+    1852.6,
+    -601.8,
+    1843,
+    -599.2,
+    1839.1,
+    -616.1,
+    1840.4,
+    -618.7
+   ],
+   "id": "land-van-waaslaan-250-03",
+   "latLon": [
+    51.057857,
+    3.744834
+   ],
+   "photos": [
+    {
+     "id": "1512016456096091-164",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.413,
+      0.589
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28659,
+   "at": [
+    1861.3000000000002,
+    -626.25
+   ],
+   "centre": [
+    1866.2,
+    -611.8
+   ],
+   "width": 6.2,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 4,
+   "eaves": 14.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1858.4,
+    -625.2,
+    1864.2,
+    -627.3,
+    1870.8,
+    -610.7,
+    1867.1,
+    -609.7,
+    1869.6,
+    -603,
+    1867.3,
+    -601.4,
+    1865.8,
+    -605.3
+   ],
+   "id": "land-van-waaslaan-250-04",
+   "latLon": [
+    51.057905,
+    3.745043
+   ],
+   "photos": [
+    {
+     "id": "1511941283538255-170",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.395,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28660,
+   "at": [
+    1867.2,
+    -628.4
+   ],
+   "centre": [
+    1873.8,
+    -613.2
+   ],
+   "width": 6.4,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 4,
+   "eaves": 15,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1864.2,
+    -627.3,
+    1870.2,
+    -629.5,
+    1875.7,
+    -614.5,
+    1877.3,
+    -610,
+    1878.9,
+    -605.6,
+    1879.1,
+    -604.9,
+    1873.8,
+    -602.9,
+    1870.8,
+    -610.7
+   ],
+   "id": "land-van-waaslaan-250-05",
+   "latLon": [
+    51.057921,
+    3.74511
+   ],
+   "photos": [
+    {
+     "id": "1028443541924133-173",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.39,
+      0.591
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28662,
+   "at": [
+    1879.5,
+    -632.95
+   ],
+   "centre": [
+    1883.6,
+    -623.9
+   ],
+   "width": 6.2,
+   "faces": 250,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 14,
+   "top": 16.1,
+   "kind": "house",
+   "ring": [
+    1876.6,
+    -631.9,
+    1882.4,
+    -634,
+    1886.8,
+    -622.6,
+    1889,
+    -616.7,
+    1883,
+    -614.4
+   ],
+   "id": "land-van-waaslaan-250-06",
+   "latLon": [
+    51.057954,
+    3.745251
+   ],
+   "photos": [
+    {
+     "id": "7834906086636173-154",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.405,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28664,
+   "at": [
+    1892.4,
+    -637.55
+   ],
+   "centre": [
+    1894.5,
+    -632
+   ],
+   "width": 7.4,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    1888.9,
+    -636.3,
+    1895.9,
+    -638.8,
+    1900.1,
+    -627.6,
+    1893,
+    -625.4
+   ],
+   "id": "land-van-waaslaan-250-07",
+   "latLon": [
+    51.057987,
+    3.745398
+   ],
+   "photos": [
+    {
+     "id": "1179079716516209-156",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.379,
+      0.629
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28665,
+   "at": [
+    1899.1,
+    -639.95
+   ],
+   "centre": [
+    1903.9,
+    -628
+   ],
+   "width": 6.8,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 16,
+   "kind": "house",
+   "ring": [
+    1895.9,
+    -638.8,
+    1902.3,
+    -641.1,
+    1906.2,
+    -630.9,
+    1907.8,
+    -626.7,
+    1908.2,
+    -625.6,
+    1906.8,
+    -625.1,
+    1907.4,
+    -623.3,
+    1903.7,
+    -622,
+    1903.1,
+    -623.7,
+    1901.8,
+    -623.2,
+    1900.1,
+    -627.6
+   ],
+   "id": "land-van-waaslaan-250-08",
+   "latLon": [
+    51.058004,
+    3.745475
+   ],
+   "photos": [
+    {
+     "id": "1228128148505087-158",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.387,
+      0.618
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28666,
+   "at": [
+    1905.55,
+    -642.3
+   ],
+   "centre": [
+    1908.7,
+    -631.1
+   ],
+   "width": 6.9,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 2,
+   "eaves": 6.5,
+   "top": 17.2,
+   "kind": "house",
+   "ring": [
+    1902.3,
+    -641.1,
+    1908.8,
+    -643.5,
+    1914.8,
+    -627.1,
+    1908.6,
+    -624.7,
+    1908.2,
+    -625.6,
+    1907.8,
+    -626.7,
+    1910.9,
+    -627.9,
+    1909.7,
+    -631.4,
+    1909.3,
+    -632.3,
+    1906.2,
+    -630.9
+   ],
+   "id": "land-van-waaslaan-250-09",
+   "latLon": [
+    51.058021,
+    3.745549
+   ],
+   "photos": [
+    {
+     "id": "540329968700526-161",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.385,
+      0.621
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28670,
+   "at": [
+    1914.9499999999998,
+    -645.8499999999999
+   ],
+   "centre": [
+    1918.6,
+    -631.2
+   ],
+   "width": 5.6,
+   "faces": 250,
+   "toStreet": 11.9,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    1908.8,
+    -643.5,
+    1912.3,
+    -644.8,
+    1912.3,
+    -644.9,
+    1917.6,
+    -646.8,
+    1917.6,
+    -646.7,
+    1922.9,
+    -632.4,
+    1929.1,
+    -615.8,
+    1930.6,
+    -611.9,
+    1921.5,
+    -608.7,
+    1917.2,
+    -620.4,
+    1914.8,
+    -627.1
+   ],
+   "id": "land-van-waaslaan-250-10",
+   "latLon": [
+    51.058047,
+    3.745656
+   ],
+   "photos": [
+    {
+     "id": "1227571311778134-156",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.401,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28671,
+   "at": [
+    1923.0500000000002,
+    -648.8499999999999
+   ],
+   "centre": [
+    1924.4,
+    -639.5
+   ],
+   "width": 5.6,
+   "faces": 250,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1917.6,
+    -646.7,
+    1920.4,
+    -647.7,
+    1920.4,
+    -647.9,
+    1925.7,
+    -649.8,
+    1931.8,
+    -633.4,
+    1927.6,
+    -631.9,
+    1927,
+    -632.3,
+    1926.5,
+    -633.6,
+    1922.9,
+    -632.4
+   ],
+   "id": "land-van-waaslaan-250-11",
+   "latLon": [
+    51.058069,
+    3.745749
+   ],
+   "photos": [
+    {
+     "id": "1254389162679926-166",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.4,
+      0.594
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28672,
+   "at": [
+    1929.5500000000002,
+    -651.2
+   ],
+   "centre": [
+    1934.8,
+    -639.3
+   ],
+   "width": 8.2,
+   "faces": 250,
+   "toStreet": 11.9,
+   "floors": 4,
+   "eaves": 13.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1925.7,
+    -649.8,
+    1933.4,
+    -652.6,
+    1933.4,
+    -652.7,
+    1934,
+    -652.9,
+    1938.4,
+    -640.6,
+    1939.7,
+    -637,
+    1934.9,
+    -635.3,
+    1935.3,
+    -634.2,
+    1936.1,
+    -634,
+    1939.3,
+    -625.4,
+    1935.4,
+    -623.7,
+    1931.8,
+    -633.4
+   ],
+   "id": "land-van-waaslaan-250-12",
+   "latLon": [
+    51.058086,
+    3.745823
+   ],
+   "photos": [
+    {
+     "id": "1075383884020170-152",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.361,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28877,
+   "at": [
+    1941.8000000000002,
+    -655.5
+   ],
+   "centre": [
+    1947.8,
+    -638.6
+   ],
+   "width": 8.3,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 2,
+   "eaves": 8.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1937.9,
+    -654.1,
+    1945.7,
+    -656.9,
+    1957.3,
+    -627.6,
+    1958.2,
+    -623.8,
+    1953.9,
+    -622.4,
+    1946.9,
+    -640.7,
+    1944.8,
+    -639.9,
+    1942.9,
+    -640.3,
+    1942.3,
+    -641.8
+   ],
+   "id": "land-van-waaslaan-250-13",
+   "latLon": [
+    51.058117,
+    3.745963
+   ],
+   "photos": [
+    {
+     "id": "546558987821469-166",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.354,
+      0.642
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28874,
+   "at": [
+    1952.2,
+    -659.3
+   ],
+   "centre": [
+    1957.4,
+    -643.8
+   ],
+   "width": 13.9,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 4,
+   "eaves": 14.1,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1945.7,
+    -656.9,
+    1958.7,
+    -661.7,
+    1965,
+    -645.3,
+    1956.4,
+    -642.4,
+    1961.5,
+    -628.8,
+    1957.3,
+    -627.6
+   ],
+   "id": "land-van-waaslaan-250-14",
+   "latLon": [
+    51.058144,
+    3.746082
+   ],
+   "photos": [
+    {
+     "id": "827574132874648-159",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.254,
+      0.745
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 40570,
+   "at": [
+    1965.7,
+    -664.25
+   ],
+   "centre": [
+    1973.2,
+    -648.4
+   ],
+   "width": 14.9,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 5.2,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    1958.7,
+    -661.7,
+    1972.7,
+    -666.8,
+    1982.1,
+    -642,
+    1978.9,
+    -640.8,
+    1977.4,
+    -644.7,
+    1979.3,
+    -645.5,
+    1978.9,
+    -646.6,
+    1966.1,
+    -642.2,
+    1965,
+    -645.3
+   ],
+   "id": "land-van-waaslaan-250-15",
+   "latLon": [
+    51.05818,
+    3.746236
+   ],
+   "photos": [
+    {
+     "id": "393697830217980-158",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.23,
+      0.768
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28868,
+   "at": [
+    1977.4,
+    -668.55
+   ],
+   "centre": [
+    1982.4,
+    -653.1
+   ],
+   "width": 10,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 4,
+   "eaves": 16.6,
+   "top": null,
+   "kind": "apartments",
+   "ring": [
+    1972.7,
+    -666.8,
+    1982.1,
+    -670.3,
+    1987.9,
+    -655,
+    1983,
+    -653.3,
+    1986.9,
+    -642.9,
+    1982.4,
+    -641.3,
+    1982.1,
+    -642
+   ],
+   "id": "land-van-waaslaan-250-16",
+   "latLon": [
+    51.058211,
+    3.74637
+   ],
+   "photos": [
+    {
+     "id": "26574734898838131-162",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.306,
+      0.687
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28867,
+   "at": [
+    1985.9,
+    -671.7
+   ],
+   "centre": [
+    1988.1,
+    -661.6
+   ],
+   "width": 6.4,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    1982.1,
+    -670.3,
+    1982.9,
+    -670.6,
+    1988.9,
+    -672.8,
+    1996.6,
+    -651.8,
+    1990,
+    -649.4,
+    1987.9,
+    -655
+   ],
+   "id": "land-van-waaslaan-250-17",
+   "latLon": [
+    51.058234,
+    3.746467
+   ],
+   "photos": [
+    {
+     "id": "784524660313943-150",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.383,
+      0.623
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28859,
+   "at": [
+    2010.85,
+    -680.55
+   ],
+   "centre": [
+    2015.1,
+    -661.5
+   ],
+   "width": 7.2,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2007.5,
+    -679.3,
+    2014.2,
+    -681.8,
+    2018.6,
+    -670.9,
+    2019.7,
+    -668.1,
+    2015,
+    -666.4,
+    2022,
+    -648,
+    2019.7,
+    -647.2,
+    2019.2,
+    -647,
+    2018.7,
+    -648.3,
+    2016.6,
+    -647.5,
+    2011.8,
+    -660.2,
+    2011.2,
+    -661.7,
+    2012.2,
+    -662.1,
+    2011.9,
+    -662.9,
+    2013.1,
+    -663.3,
+    2012.2,
+    -665.6,
+    2012.7,
+    -665.7
+   ],
+   "id": "land-van-waaslaan-250-18",
+   "latLon": [
+    51.058298,
+    3.746753
+   ],
+   "photos": [
+    {
+     "id": "1215594543027509-152",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.374,
+      0.647
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28858,
+   "at": [
+    2017,
+    -682.8
+   ],
+   "centre": [
+    2019.2,
+    -677.4
+   ],
+   "width": 5.9,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 4,
+   "eaves": 13.4,
+   "top": 16.3,
+   "kind": "house",
+   "ring": [
+    2014.2,
+    -681.8,
+    2019.8,
+    -683.8,
+    2024,
+    -672.9,
+    2018.6,
+    -670.9
+   ],
+   "id": "land-van-waaslaan-250-19",
+   "latLon": [
+    51.058314,
+    3.746823
+   ],
+   "photos": [
+    {
+     "id": "526537613297827-158",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.389,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28856,
+   "at": [
+    2025.6,
+    -685.9
+   ],
+   "centre": [
+    2033.2,
+    -666.2
+   ],
+   "width": 12.3,
+   "faces": 250,
+   "toStreet": 12.3,
+   "floors": 5,
+   "eaves": 17.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2019.8,
+    -683.8,
+    2031.4,
+    -688,
+    2042.1,
+    -660.5,
+    2042.8,
+    -658.7,
+    2039,
+    -657.3,
+    2036.1,
+    -665.2,
+    2036.6,
+    -665.4,
+    2036.1,
+    -667.2,
+    2036.8,
+    -668.1,
+    2036.8,
+    -669.6,
+    2028.5,
+    -666.4,
+    2029,
+    -665.4,
+    2030.3,
+    -665.2,
+    2030.9,
+    -663.6,
+    2031.8,
+    -663.5,
+    2034.6,
+    -655.9,
+    2031.1,
+    -654.6,
+    2024,
+    -672.9
+   ],
+   "id": "land-van-waaslaan-250-20",
+   "latLon": [
+    51.058337,
+    3.746921
+   ],
+   "photos": [
+    {
+     "id": "441353868921882-165",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.256,
+      0.729
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28853,
+   "at": [
+    2036.3,
+    -689.9
+   ],
+   "centre": [
+    2039.6,
+    -677.5
+   ],
+   "width": 5.3,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 4.4,
+   "top": 19.1,
+   "kind": "house",
+   "ring": [
+    2031.4,
+    -688,
+    2033.9,
+    -688.9,
+    2033.8,
+    -689,
+    2038.8,
+    -690.8,
+    2046.2,
+    -671.2,
+    2043.7,
+    -670,
+    2046.7,
+    -662,
+    2042.1,
+    -660.5
+   ],
+   "id": "land-van-waaslaan-250-21",
+   "latLon": [
+    51.058366,
+    3.747044
+   ],
+   "photos": [
+    {
+     "id": "3798853353699589-169",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.395,
+      0.597
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28850,
+   "at": [
+    2042.3,
+    -692.0999999999999
+   ],
+   "centre": [
+    2048.7,
+    -673.6
+   ],
+   "width": 7.5,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 4,
+   "top": 18.2,
+   "kind": "house",
+   "ring": [
+    2038.8,
+    -690.8,
+    2045.8,
+    -693.4,
+    2054.6,
+    -670.9,
+    2056,
+    -664.6,
+    2050.2,
+    -662.4,
+    2049.6,
+    -662.1,
+    2046.2,
+    -671.2
+   ],
+   "id": "land-van-waaslaan-250-22",
+   "latLon": [
+    51.058382,
+    3.747112
+   ],
+   "photos": [
+    {
+     "id": "885256180145958-160",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.355,
+      0.648
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28851,
+   "at": [
+    2052.5,
+    -695.8
+   ],
+   "centre": [
+    2056,
+    -683.6
+   ],
+   "width": 14.2,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 9.4,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2045.8,
+    -693.4,
+    2059.2,
+    -698.2,
+    2062.5,
+    -689.4,
+    2056.6,
+    -686.8,
+    2057.7,
+    -685.1,
+    2054.8,
+    -684,
+    2056.4,
+    -679.1,
+    2055.2,
+    -678.3,
+    2057.7,
+    -671.3,
+    2054.6,
+    -670.9
+   ],
+   "id": "land-van-waaslaan-250-23",
+   "latLon": [
+    51.058408,
+    3.747229
+   ],
+   "photos": [
+    {
+     "id": "1266266324536688-151",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.254,
+      0.798
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28845,
+   "at": [
+    2065,
+    -700.3
+   ],
+   "centre": [
+    2068.5,
+    -685.1
+   ],
+   "width": 5.3,
+   "faces": 250,
+   "toStreet": 12.2,
+   "floors": 3,
+   "eaves": 12.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2059.2,
+    -698.2,
+    2062.5,
+    -699.4,
+    2067.5,
+    -701.2,
+    2074.3,
+    -682.2,
+    2079.2,
+    -668.5,
+    2074.8,
+    -667.1,
+    2070.8,
+    -677.3,
+    2071.8,
+    -678,
+    2068.2,
+    -687.1,
+    2067.2,
+    -686.7,
+    2064,
+    -685.5,
+    2062.5,
+    -689.4
+   ],
+   "id": "land-van-waaslaan-250-24",
+   "latLon": [
+    51.058441,
+    3.747372
+   ],
+   "photos": [
+    {
+     "id": "407486619034419-156",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.401,
+      0.606
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28988,
+   "at": [
+    2071.6,
+    -702.7
+   ],
+   "centre": [
+    2076.9,
+    -687.5
+   ],
+   "width": 8.7,
+   "faces": 250,
+   "toStreet": 12.3,
+   "floors": 1,
+   "eaves": 3.7,
+   "top": 17,
+   "kind": "house",
+   "ring": [
+    2067.5,
+    -701.2,
+    2075.7,
+    -704.2,
+    2080,
+    -692.5,
+    2082.7,
+    -685.1,
+    2079.4,
+    -684,
+    2078.8,
+    -683.3,
+    2078.1,
+    -682.8,
+    2077.4,
+    -682.5,
+    2076.7,
+    -682.4,
+    2075.2,
+    -682.5,
+    2074.3,
+    -682.2
+   ],
+   "id": "land-van-waaslaan-250-25",
+   "latLon": [
+    51.058458,
+    3.747447
+   ],
+   "photos": [
+    {
+     "id": "412348285210282-164",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.323,
+      0.659
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28977,
+   "at": [
+    2101.45,
+    -713.6
+   ],
+   "centre": [
+    2106.8,
+    -699.6
+   ],
+   "width": 9.3,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 3,
+   "eaves": 11.7,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2097.1,
+    -712,
+    2105.8,
+    -715.2,
+    2116.7,
+    -686.5,
+    2112.4,
+    -684.9,
+    2106.9,
+    -700.4,
+    2102,
+    -698.8
+   ],
+   "id": "land-van-waaslaan-250-26",
+   "latLon": [
+    51.058537,
+    3.747788
+   ],
+   "photos": [
+    {
+     "id": "446432071767055-156",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.326,
+      0.688
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28978,
+   "at": [
+    2109.75,
+    -716.6500000000001
+   ],
+   "centre": [
+    2116.2,
+    -700.3
+   ],
+   "width": 8.4,
+   "faces": 250,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 4.6,
+   "top": 13.6,
+   "kind": "house",
+   "ring": [
+    2105.8,
+    -715.2,
+    2113.7,
+    -718.1,
+    2121.5,
+    -697.4,
+    2118.3,
+    -696.2,
+    2121.4,
+    -688.1,
+    2116.7,
+    -686.5
+   ],
+   "id": "land-van-waaslaan-250-27",
+   "latLon": [
+    51.058559,
+    3.747883
+   ],
+   "photos": [
+    {
+     "id": "519584197328991-156",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.337,
+      0.665
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28969,
+   "at": [
+    2130.1,
+    -724
+   ],
+   "centre": [
+    2138.4,
+    -701.9
+   ],
+   "width": 12.6,
+   "faces": 250,
+   "toStreet": 12,
+   "floors": 2,
+   "eaves": 7.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2124.2,
+    -721.8,
+    2136,
+    -726.2,
+    2152.6,
+    -681.7,
+    2140.8,
+    -677.8
+   ],
+   "id": "land-van-waaslaan-250-28",
+   "latLon": [
+    51.058612,
+    3.748116
+   ],
+   "photos": [
+    {
+     "id": "1071239267951256-159",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.26,
+      0.746
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28668,
+   "at": [
+    1848.85,
+    -621.7
+   ],
+   "centre": [
+    1852.3,
+    -612.2
+   ],
+   "width": 6.9,
+   "faces": 251,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": 12.5,
+   "kind": "house",
+   "ring": [
+    1845.6,
+    -620.6,
+    1852.1,
+    -622.8,
+    1858.7,
+    -603.4,
+    1852.6,
+    -601.8
+   ],
+   "id": "land-van-waaslaan-251-29",
+   "latLon": [
+    51.057872,
+    3.744901
+   ],
+   "photos": [
+    {
+     "id": "485354084262272-168",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.39,
+      0.61
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28663,
+   "at": [
+    1885.65,
+    -635.15
+   ],
+   "centre": [
+    1890.5,
+    -624.5
+   ],
+   "width": 6.9,
+   "faces": 251,
+   "toStreet": 11.9,
+   "floors": 2,
+   "eaves": 8.1,
+   "top": 16.6,
+   "kind": "house",
+   "ring": [
+    1882.4,
+    -634,
+    1888.9,
+    -636.3,
+    1893,
+    -625.4,
+    1895,
+    -620,
+    1895.9,
+    -617.7,
+    1892.2,
+    -616.3,
+    1889.9,
+    -623.4,
+    1886.8,
+    -622.6
+   ],
+   "id": "land-van-waaslaan-251-30",
+   "latLon": [
+    51.05797,
+    3.745321
+   ],
+   "photos": [
+    {
+     "id": "1025989385980639-165",
+     "metres": 12,
+     "off": 0,
+     "span": [
+      0.386,
+      0.617
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28863,
+   "at": [
+    1993.6,
+    -674.45
+   ],
+   "centre": [
+    1998.7,
+    -660.9
+   ],
+   "width": 10,
+   "faces": 251,
+   "toStreet": 12,
+   "floors": 1,
+   "eaves": 4.1,
+   "top": 17.8,
+   "kind": "house",
+   "ring": [
+    1988.9,
+    -672.8,
+    1998.3,
+    -676.1,
+    2003.7,
+    -662.2,
+    2007.2,
+    -653.1,
+    1997.7,
+    -649.4,
+    1996.6,
+    -651.8
+   ],
+   "id": "land-van-waaslaan-251-31",
+   "latLon": [
+    51.058254,
+    3.746555
+   ],
+   "photos": [
+    {
+     "id": "2280363395635128-155",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.314,
+      0.697
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28861,
+   "at": [
+    2002.9,
+    -677.7
+   ],
+   "centre": [
+    2009.2,
+    -664.7
+   ],
+   "width": 9.7,
+   "faces": 251,
+   "toStreet": 12.2,
+   "floors": 1,
+   "eaves": 4.7,
+   "top": 15.6,
+   "kind": "house",
+   "ring": [
+    1998.3,
+    -676.1,
+    2007.5,
+    -679.3,
+    2012.7,
+    -665.7,
+    2012.2,
+    -665.6,
+    2013.1,
+    -663.3,
+    2011.9,
+    -662.9,
+    2012.2,
+    -662.1,
+    2011.2,
+    -661.7,
+    2011.8,
+    -660.2,
+    2009.8,
+    -659.4,
+    2008.2,
+    -659.7,
+    2006.8,
+    -663.3,
+    2003.7,
+    -662.2
+   ],
+   "id": "land-van-waaslaan-251-32",
+   "latLon": [
+    51.058277,
+    3.746662
+   ],
+   "photos": [
+    {
+     "id": "1211111856829814-168",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.308,
+      0.676
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28987,
+   "at": [
+    2079.25,
+    -705.45
+   ],
+   "centre": [
+    2084.7,
+    -691.8
+   ],
+   "width": 7.5,
+   "faces": 251,
+   "toStreet": 12.3,
+   "floors": 3,
+   "eaves": 11.9,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2075.7,
+    -704.2,
+    2082.8,
+    -706.7,
+    2091.5,
+    -682.8,
+    2090,
+    -681.9,
+    2088.2,
+    -686.7,
+    2086,
+    -685.9,
+    2083.5,
+    -693.7,
+    2080,
+    -692.5
+   ],
+   "id": "land-van-waaslaan-251-33",
+   "latLon": [
+    51.058478,
+    3.747535
+   ],
+   "photos": [
+    {
+     "id": "1203337150979813-144",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.375,
+      0.643
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28925,
+   "at": [
+    2093.35,
+    -710.7
+   ],
+   "centre": [
+    2090.7,
+    -700.5
+   ],
+   "width": 7.9,
+   "faces": 251,
+   "toStreet": 12.1,
+   "floors": 2,
+   "eaves": 8.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2082.8,
+    -706.7,
+    2083.2,
+    -706.9,
+    2083.3,
+    -706.8,
+    2087.3,
+    -708.3,
+    2087.3,
+    -708.4,
+    2087.7,
+    -708.6,
+    2087.6,
+    -708.7,
+    2089.6,
+    -709.4,
+    2097.1,
+    -712,
+    2102,
+    -698.8,
+    2094.5,
+    -696.3,
+    2101.2,
+    -677.8,
+    2094.1,
+    -675.6,
+    2091.5,
+    -682.8
+   ],
+   "id": "land-van-waaslaan-251-34",
+   "latLon": [
+    51.058516,
+    3.747696
+   ],
+   "photos": [
+    {
+     "id": "1698852507571486-153",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.352,
+      0.657
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28973,
+   "at": [
+    2118.95,
+    -719.95
+   ],
+   "centre": [
+    2126.1,
+    -697.9
+   ],
+   "width": 11.1,
+   "faces": 251,
+   "toStreet": 12.1,
+   "floors": 1,
+   "eaves": 3.6,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    2113.7,
+    -718.1,
+    2124.2,
+    -721.8,
+    2140.8,
+    -677.8,
+    2130.3,
+    -674.3,
+    2121.5,
+    -697.4
+   ],
+   "id": "land-van-waaslaan-251-35",
+   "latLon": [
+    51.058583,
+    3.747988
+   ],
+   "photos": [
+    {
+     "id": "1267145587977354-153",
+     "metres": 10,
+     "off": 0,
+     "span": [
+      0.301,
+      0.728
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28824,
+   "at": [
+    1669.75,
+    -562.2
+   ],
+   "centre": [
+    1672.2,
+    -557.2
+   ],
+   "width": 10.2,
+   "faces": 252,
+   "toStreet": 8.6,
+   "floors": 1,
+   "eaves": 5.6,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1674.6,
+    -563.8,
+    1680.1,
+    -561.2,
+    1674.7,
+    -551.1,
+    1672.1,
+    -552.2,
+    1667,
+    -554.5,
+    1664.9,
+    -560.6
+   ],
+   "id": "land-van-waaslaan-252-36",
+   "latLon": [
+    51.057442,
+    3.742853
+   ],
+   "photos": [
+    {
+     "id": "1987342608389107-161",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.369,
+      0.633
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28825,
+   "at": [
+    1688.4,
+    -568.2
+   ],
+   "centre": [
+    1702.7,
+    -559.2
+   ],
+   "width": 29,
+   "faces": 252,
+   "toStreet": 9.1,
+   "floors": 3,
+   "eaves": 9.9,
+   "top": null,
+   "kind": "church",
+   "ring": [
+    1674.6,
+    -563.8,
+    1702.2,
+    -572.6,
+    1703.3,
+    -568.5,
+    1722.8,
+    -559,
+    1722.7,
+    -558.9,
+    1723.6,
+    -557.9,
+    1719.4,
+    -549.1,
+    1717,
+    -544,
+    1691.5,
+    -555.9,
+    1690.3,
+    -560.3,
+    1685.4,
+    -558.7,
+    1680.1,
+    -561.2
+   ],
+   "id": "land-van-waaslaan-252-37",
+   "latLon": [
+    51.057485,
+    3.743066
+   ],
+   "photos": [
+    {
+     "id": "382444194903669-164",
+     "metres": 15,
+     "off": 0,
+     "span": [
+      0.098,
+      0.885
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28819,
+   "at": [
+    1719.5,
+    -578.1500000000001
+   ],
+   "centre": [
+    1725.2,
+    -571.3
+   ],
+   "width": 36.3,
+   "faces": 252,
+   "toStreet": 10.6,
+   "floors": 3,
+   "eaves": 12.3,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1702.2,
+    -572.6,
+    1736.8,
+    -583.7,
+    1735.6,
+    -579.7,
+    1739.3,
+    -571.1,
+    1730.9,
+    -569,
+    1730.5,
+    -567,
+    1722.8,
+    -559,
+    1703.3,
+    -568.5
+   ],
+   "id": "land-van-waaslaan-252-38",
+   "latLon": [
+    51.057557,
+    3.743422
+   ],
+   "photos": [
+    {
+     "id": "1109012426628212",
+     "metres": 8,
+     "off": 5,
+     "span": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28804,
+   "at": [
+    1748.0500000000002,
+    -587.25
+   ],
+   "centre": [
+    1751.8,
+    -572.6
+   ],
+   "width": 10.2,
+   "faces": 252,
+   "toStreet": 13.2,
+   "floors": 3,
+   "eaves": 11.8,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1743.2,
+    -585.7,
+    1752.9,
+    -588.8,
+    1757.9,
+    -573.7,
+    1753.2,
+    -572.5,
+    1754.9,
+    -567.3,
+    1753.9,
+    -566.8,
+    1751.1,
+    -565.6,
+    1750.1,
+    -565.2,
+    1749.1,
+    -568.1
+   ],
+   "id": "land-van-waaslaan-252-39",
+   "latLon": [
+    51.057623,
+    3.743748
+   ],
+   "photos": [
+    {
+     "id": "1098675541883894-168",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.354,
+      0.644
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28800,
+   "at": [
+    1756.45,
+    -589.95
+   ],
+   "centre": [
+    1759.6,
+    -577.6
+   ],
+   "width": 7.5,
+   "faces": 252,
+   "toStreet": 13,
+   "floors": 2,
+   "eaves": 6.9,
+   "top": 11.7,
+   "kind": "house",
+   "ring": [
+    1752.9,
+    -588.8,
+    1760,
+    -591.1,
+    1765.3,
+    -576.2,
+    1760.4,
+    -574,
+    1761.6,
+    -570.1,
+    1759.3,
+    -569.1,
+    1757.9,
+    -573.7
+   ],
+   "id": "land-van-waaslaan-252-40",
+   "latLon": [
+    51.057643,
+    3.743844
+   ],
+   "photos": [
+    {
+     "id": "533369222711820-155",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.392,
+      0.608
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28793,
+   "at": [
+    1770.65,
+    -594.45
+   ],
+   "centre": [
+    1772.7,
+    -586.5
+   ],
+   "width": 7.5,
+   "faces": 252,
+   "toStreet": 12.8,
+   "floors": 3,
+   "eaves": 12.5,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1767.1,
+    -593.3,
+    1774.2,
+    -595.6,
+    1779.1,
+    -582.1,
+    1772,
+    -579.7,
+    1771.3,
+    -581.7
+   ],
+   "id": "land-van-waaslaan-252-41",
+   "latLon": [
+    51.057675,
+    3.744007
+   ],
+   "photos": [
+    {
+     "id": "888857989421503-164",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.384,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28791,
+   "at": [
+    1777.8000000000002,
+    -596.75
+   ],
+   "centre": [
+    1781.3,
+    -585.8
+   ],
+   "width": 7.6,
+   "faces": 252,
+   "toStreet": 12.8,
+   "floors": 1,
+   "eaves": 4.2,
+   "top": 16.5,
+   "kind": "house",
+   "ring": [
+    1774.2,
+    -595.6,
+    1781.4,
+    -597.9,
+    1787.4,
+    -581,
+    1785.4,
+    -580.2,
+    1780.5,
+    -578.1,
+    1779.1,
+    -582.1
+   ],
+   "id": "land-van-waaslaan-252-42",
+   "latLon": [
+    51.057692,
+    3.744088
+   ],
+   "photos": [
+    {
+     "id": "534930825882259-169",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.379,
+      0.609
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28790,
+   "at": [
+    1785,
+    -599.05
+   ],
+   "centre": [
+    1788.9,
+    -588
+   ],
+   "width": 7.6,
+   "faces": 252,
+   "toStreet": 13,
+   "floors": 2,
+   "eaves": 6.8,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1781.4,
+    -597.9,
+    1788.6,
+    -600.2,
+    1793.4,
+    -586.6,
+    1790.4,
+    -585.6,
+    1791.4,
+    -582.7,
+    1789.6,
+    -582,
+    1787.4,
+    -581
+   ],
+   "id": "land-van-waaslaan-252-43",
+   "latLon": [
+    51.057708,
+    3.744171
+   ],
+   "photos": [
+    {
+     "id": "1060839338961405-162",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.388,
+      0.619
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28784,
+   "at": [
+    1812.35,
+    -607.85
+   ],
+   "centre": [
+    1810,
+    -602.6
+   ],
+   "width": 30.8,
+   "faces": 252,
+   "toStreet": 13.4,
+   "floors": 4,
+   "eaves": 13.2,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1797.7,
+    -603.1,
+    1827,
+    -612.6,
+    1828.7,
+    -605.9,
+    1809.1,
+    -599.6,
+    1808.7,
+    -600.5,
+    1805,
+    -599.3,
+    1804.6,
+    -600.8,
+    1799.1,
+    -598.9
+   ],
+   "id": "land-van-waaslaan-252-44",
+   "latLon": [
+    51.057772,
+    3.744483
+   ],
+   "photos": [
+    {
+     "id": "8542957399070341-143",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.176,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28783,
+   "at": [
+    1818.9,
+    -602.75
+   ],
+   "centre": [
+    1809.8,
+    -595.9
+   ],
+   "width": 20.6,
+   "faces": 252,
+   "toStreet": 20.4,
+   "floors": 3,
+   "eaves": 12.8,
+   "top": null,
+   "kind": "yes",
+   "ring": [
+    1795.6,
+    -602.4,
+    1797.7,
+    -603.1,
+    1799.1,
+    -598.9,
+    1804.6,
+    -600.8,
+    1805,
+    -599.3,
+    1808.7,
+    -600.5,
+    1809.1,
+    -599.6,
+    1828.7,
+    -605.9,
+    1831,
+    -596.3,
+    1820.4,
+    -593.5,
+    1819.1,
+    -593.1,
+    1818.2,
+    -591.9,
+    1811.8,
+    -590,
+    1811.4,
+    -591.9,
+    1802.4,
+    -589,
+    1803,
+    -587.5,
+    1800.8,
+    -586.7
+   ],
+   "id": "land-van-waaslaan-252-45",
+   "latLon": [
+    51.057735,
+    3.744558
+   ],
+   "photos": [
+    {
+     "id": "1001175958430586-168",
+     "metres": 19,
+     "off": 0,
+     "span": [
+      0.27,
+      0.706
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28806,
+   "at": [
+    1740,
+    -584.7
+   ],
+   "centre": [
+    1742.8,
+    -571.2
+   ],
+   "width": 6.7,
+   "faces": 253,
+   "toStreet": 13.3,
+   "floors": 3,
+   "eaves": 11.2,
+   "top": null,
+   "kind": "house",
+   "ring": [
+    1736.8,
+    -583.7,
+    1743.2,
+    -585.7,
+    1749.1,
+    -568.1,
+    1746.3,
+    -567.1,
+    1747.6,
+    -564.2,
+    1746,
+    -563.5,
+    1743.2,
+    -562.2,
+    1741.2,
+    -566.7,
+    1739.3,
+    -571.1,
+    1735.6,
+    -579.7
+   ],
+   "id": "land-van-waaslaan-253-46",
+   "latLon": [
+    51.057605,
+    3.743656
+   ],
+   "photos": [
+    {
+     "id": "871724054540608-169",
+     "metres": 14,
+     "off": 0,
+     "span": [
+      0.401,
+      0.592
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28798,
+   "at": [
+    1763.55,
+    -592.2
+   ],
+   "centre": [
+    1767,
+    -581.2
+   ],
+   "width": 7.4,
+   "faces": 253,
+   "toStreet": 12.9,
+   "floors": 1,
+   "eaves": 3.1,
+   "top": 14.1,
+   "kind": "house",
+   "ring": [
+    1760,
+    -591.1,
+    1767.1,
+    -593.3,
+    1771.3,
+    -581.7,
+    1768,
+    -580.3,
+    1770.4,
+    -573.8,
+    1766.7,
+    -572.2,
+    1765.3,
+    -576.2
+   ],
+   "id": "land-van-waaslaan-253-47",
+   "latLon": [
+    51.057659,
+    3.743925
+   ],
+   "photos": [
+    {
+     "id": "481491518057149-166",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.385,
+      0.607
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28788,
+   "at": [
+    1792.1,
+    -601.3
+   ],
+   "centre": [
+    1794.6,
+    -590.7
+   ],
+   "width": 7.3,
+   "faces": 253,
+   "toStreet": 13.1,
+   "floors": 1,
+   "eaves": 3.2,
+   "top": 15.5,
+   "kind": "house",
+   "ring": [
+    1788.6,
+    -600.2,
+    1795.6,
+    -602.4,
+    1800.8,
+    -586.7,
+    1795,
+    -584.2,
+    1794.3,
+    -583.9,
+    1793.4,
+    -586.6
+   ],
+   "id": "land-van-waaslaan-253-48",
+   "latLon": [
+    51.057725,
+    3.744252
+   ],
+   "photos": [
+    {
+     "id": "2267924256906375-161",
+     "metres": 13,
+     "off": 0,
+     "span": [
+      0.388,
+      0.611
+     ]
+    }
+   ]
+  },
+  {
+   "mapIndex": 28876,
+   "at": [
+    1935.95,
+    -653.5
+   ],
+   "centre": [
+    1938.3,
+    -646
+   ],
+   "width": 4.1,
+   "faces": 253,
+   "toStreet": 12,
+   "floors": 1,
+   "eaves": 4.5,
+   "top": null,
+   "kind": "roof",
+   "ring": [
+    1934,
+    -652.9,
+    1937.9,
+    -654.1,
+    1942.3,
+    -641.8,
+    1938.8,
+    -640.7,
+    1938.4,
+    -640.6
+   ],
+   "id": "land-van-waaslaan-253-49",
+   "latLon": [
+    51.058102,
+    3.745896
+   ],
+   "photos": [
+    {
+     "id": "1619359305297800-162",
+     "metres": 11,
+     "off": 0,
+     "span": [
+      0.427,
+      0.571
+     ]
+    }
+   ]
+  }
+ ]
+}
