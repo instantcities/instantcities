@@ -15,6 +15,7 @@ import { rng, shade } from '../core/js/facades.js';
 
 const X = 508, Z = -309.5, TURN = 0.338; // the middle of the palace's face, and the face turned from east (local +z is the basin)
 const W = 38, H = 33, ENT = 25.8; // its width and height, the entablature's top
+const BASIN = -2.4; // the water in the map's basin (core/js/ground.js WATER)
 const TRAV = '#e3dac6', TRAV2 = '#d5cbb4', ROCK = '#cbbfa5', WATER = '#9fd2dc', MARBLE = '#efeadf';
 
 // a figure: a draped body and a head, standing at (x, y, z)
@@ -60,14 +61,14 @@ export function trevi() {
     kit.box(1.3, 1.7, 3.6, MARBLE, k * 3.1, 4.6, 4.6, k * 0.25).box(0.9, 1.4, 1.4, MARBLE, k * 3.1, 6, 6.3, -0.5);
     figure(kit, k * 5.2, 3.2, 5.2, 3.4);
   }
-  // the scogliera: rocks spilling into the basin, with the water falling over them
+  // the scogliera: rocks spilling down into the basin, sunk to the map's water, and the water
+  // falling over them
   const r = rng(77);
   for (let k = 0; k < 70; k++) {
     const u = (r() - 0.5) * (W - 6), v = 1.5 + r() * 8 * (1 - Math.abs(u) / W), h = (1 - (v - 1.5) / 9) * (2.2 + r() * 3.2);
-    kit.add(new THREE.DodecahedronGeometry(1.1 + r() * 1.4, 0), shade(ROCK, (r() - 0.5) * 0.12), u, h * 0.5, v, r(), r(), r());
+    kit.add(new THREE.DodecahedronGeometry(1.1 + r() * 1.4, 0), shade(ROCK, (r() - 0.5) * 0.12), u, BASIN + h * 0.7, v, r(), r(), r());
   }
-  for (const [u, w] of [[0, 4.6], [-4.2, 1.6], [4.2, 1.6]]) kit.box(w, 4.4, 0.25, WATER, u, 3.4, 3.6, -0.35);
-  kit.box(W - 6, 0.3, 12, WATER, 0, 0.25, 7);
+  for (const [u, w] of [[0, 4.6], [-4.2, 1.6], [4.2, 1.6]]) kit.box(w, 6.6, 0.25, WATER, u, 2.2, 3.6, -0.35);
   return kit.mesh(kitMat(0.85));
 }
 

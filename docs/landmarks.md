@@ -57,7 +57,7 @@ comes into sight. `core/js/arcade.js` has the parts that come back in landmark a
   brackets, and `stand` for a ruin (storeys gone, or broken off through their arches).
 - `square`, `polygon`: the sides of a tower (square, or an octagon) as paths, each with its outside
   to its right, `archRing` and `pointedRing`: a round or a Gothic arch's opening, to cut through a
-  wall or to lay on it as a panel.
+  wall or to lay on it as a panel, `gable`: a pitched roof over a rectangle.
 - `onMap` and `rect`: a ring in the model's own metres placed on the map at the monument's x, z and
   turn, for its `area`, `foot` and `paths`.
 
@@ -76,13 +76,39 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Bruges | Onze-Lieve-Vrouwetoren | `bruges/olv-toren.js` | bump into it (the church stays the map's) |
+| Rome | Colonna di Marco Aurelio | `rome/colonna.js` | bump into its base |
+| Rome | Fontana di Trevi | `rome/trevi.js` | the palace behind it and the map's basin |
+| Rome | Fontana dei Quattro Fiumi | `rome/navona.js` | bump into its basin |
+| Florence | Santa Maria del Fiore, Giotto's Campanile, the Baptistery | `florence/duomo.js` | bump into them |
+| Florence | Loggia del Mercato Nuovo and Il Porcellino | `florence/porcellino.js` | ride in between its piers |
+| Paris | Notre-Dame | `paris/notre-dame.js` | bump into it |
+| Prague | the Týn church's towers | `prague/tyn.js` | bump into them (the nave stays the map's) |
+| Prague | the Old Town Hall's tower and the Orloj | `prague/orloj.js` | bump into it |
+| Prague | the Old Town Bridge Tower | `prague/mostecka-vez.js` | go through it along the Charles Bridge |
+| Brussels | the Hôtel de Ville's tower | `brussels/tour-hotel-de-ville.js` | go through its passage |
+| Brussels | Manneken Pis | `brussels/manneken-pis.js` | bump into its railing |
+| Berlin | Fernsehturm | `berlin/fernsehturm.js` | bump into its foot |
+| London | London Eye | `london/london-eye.js` | bump into the A-frame's feet |
+| Amsterdam | Westertoren | `amsterdam/westertoren.js` | bump into it (the church stays the map's) |
+| Antwerp | Brabofontein | `antwerp/brabo.js` | bump into its basin |
+| Madrid | El Oso y el Madroño, Felipe III | `madrid/oso.js`, `madrid/felipe.js` | bump into their pedestals |
+| Vienna | Pestsäule | `vienna/pestsaeule.js` | bump into its steps |
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+Giotto's Campanile, the Old Town Hall's tower in Prague and the Brussels town hall's tower had only
+their tops in the map, floating; the Old Town Bridge Tower was solid though the bridge goes through
+it. Notre-Dame keeps the low base the map draws round it (its area leaves that one's middle out).
 
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
-the Arena of Verona, the Roman theatre of Lecce, the Pont Saint-Bénezet in Avignon (its arches
-broken off in the Rhône, but the map has a footway along it at the water's level: the deck would
-have to be lifted with it, a map fix of its own).
+the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het Steen in Antwerp
+(one outline of 57 points, round towers and all), the Koninklijk Paleis and Antwerp's cathedral tower
+(both already stacked in the map from many parts, so less to gain). Waiting on a map fix:
+- the Pont Saint-Bénezet in Avignon: the map has a footway along it at the water's level, so its deck
+  would have to be lifted with it.
+- the Ponte dei Sospiri in Venice: the map has the Palazzo Ducale and the prisons touching, with the
+  Rio di Palazzo under them, so there is no gap for the bridge to cross.
+- Børsen in Copenhagen is not in the map at all.

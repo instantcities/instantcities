@@ -12,16 +12,19 @@
 //                    `node tools/osm_map.mjs antwerp`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs antwerp`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs antwerp`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   brabo.js         the Brabo fountain on the Grote Markt, modelled by hand
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { BRABO } from './brabo.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...BRABO];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

@@ -16,6 +16,7 @@
 //   arco.js          the Arco di Costantino beside it, modelled the same way
 //   colonna.js       the Colonna di Marco Aurelio on Piazza Colonna, modelled by hand
 //   trevi.js         the Fontana di Trevi against Palazzo Poli, modelled by hand
+//   navona.js        Bernini's Fontana dei Quattro Fiumi on Piazza Navona, modelled by hand
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -28,9 +29,10 @@ import { COLOSSEO } from './colosseo.js';
 import { ARCO } from './arco.js';
 import { COLONNA } from './colonna.js';
 import { TREVI } from './trevi.js';
+import { NAVONA } from './navona.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...COLOSSEO, ...ARCO, ...COLONNA, ...TREVI];
+export const MONUMENTS = [...COLOSSEO, ...ARCO, ...COLONNA, ...TREVI, ...NAVONA];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
