@@ -24,7 +24,8 @@ import { AVENUE } from './avenue.js';
 export const MONUMENTS = [...TEMPLE, ...CAUSEWAY, ...AVENUE];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const PARKED_BIKES = false; // no bikes parked along the walks
-export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SIGHTS } from './sights.js';
+export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the site's folder, and its name
