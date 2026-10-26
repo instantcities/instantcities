@@ -16,6 +16,7 @@ exclude:
   - app # the iOS app (app/README.md), not a page of the site
   - docs
   - README.md
+  - CLAUDE.md
   - serve.py
   - Gemfile
   - Gemfile.lock
