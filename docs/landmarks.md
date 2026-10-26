@@ -100,6 +100,9 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Brussels | Hôtel de Ville and its tower | `brussels/hotel-de-ville.js` | bump into it |
+| Brussels | the Grand-Place's guild houses, the Maison du Roi, the Ducs de Brabant | `brussels/grand-place.js` | ride round the square |
+| Brussels | Bourse, the cathedral's west front, Galeries Saint-Hubert, Manneken Pis | `brussels/monuments.js` | ride through the galleries |
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.

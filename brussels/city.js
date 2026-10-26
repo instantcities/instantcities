@@ -20,7 +20,11 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+import { HOTEL_DE_VILLE } from './hotel-de-ville.js';
+import { GRAND_PLACE } from './grand-place.js';
+import { BRUSSELS_MONUMENTS } from './monuments.js';
+export const MONUMENTS = [...HOTEL_DE_VILLE, ...GRAND_PLACE, ...BRUSSELS_MONUMENTS];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
