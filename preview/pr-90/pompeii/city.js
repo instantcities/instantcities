@@ -52,7 +52,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#a99d86', paving: '#9b9484', verge: 0x9b9484, kerb: 0xaaa392, fog: [300, 1500], weathers: ['clear'] };
+export const THEME = { ground: '#b4ab97', paving: '#9b9484', verge: 0x9b9484, kerb: 0xaaa392, fog: [300, 1500], weathers: ['clear'] };
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {
@@ -70,7 +70,7 @@ export const LOOK = {
   spires: false,
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
-  grass: '#a89e88', // the open ground is bare dust and gravel, not grass
+  grass: '#b1a893', // the open ground is bare dust and gravel, not grass
 };
 
 // The visitors: it is a busy day, with crowds along the main streets and round the Forum and the baths.
