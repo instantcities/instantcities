@@ -659,8 +659,10 @@ function soundEnabled() {
 
 export function syncGameplayMusic() {
   if (demo) return; // the demo's music goes on
-  if (game.gameMusic) music.play('race');
-  else music.stop();
+  // No race music for now, sound effects only.
+  // if (game.gameMusic) music.play('race');
+  // else music.stop();
+  music.stop();
 }
 
 export function toggleSound() {

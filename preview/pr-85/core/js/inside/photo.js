@@ -11,7 +11,7 @@
 //
 // A canvas that is all the photo grows to the photo's own sharpness (up to MAX pixels along its
 // longer side), keeping its shape; one with a rect keeps its size and the rest of its drawing.
-const BASE = new URL('../../../assets/img/art/', import.meta.url);
+const BASE = new URL('/assets/img/art/', import.meta.url);
 const MAX = 1024;
 
 export function photo(tex, id, { fit = 'cover', ground = '#000', rect = null, turn = false, stretch = 1 } = {}) {
