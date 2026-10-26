@@ -1,16 +1,16 @@
 {%- comment -%}
-  A city's card, on the home page and the cities page: {% include city-card.html city=c %}, c a block of _data/cities.yml.
+  A city's card, on the home page and the cities page: {% include city-card.html city=c %}, c a block of _data/cities.yml, in the page's language (T, _includes/lang.html).
 {%- endcomment -%}
 {%- assign it = include.city -%}
         <article class="card city-card{% if it.soon %} is-soon{% endif %}">
-          <h3><a href="/{{ it.id }}/">{{ it.name }}</a> <small>{{ it.country }}</small></h3>
-          <p>{{ it.card }}</p>
+          <h3><a href="/{{ it.id }}/">{{ T.cities[it.id].name | default: it.name }}</a> <small>{{ T.countries[it.country] | default: it.country }}</small></h3>
+          <p>{{ T.cities[it.id].card | default: it.card }}</p>
           <p class="city-links">
             {%- if it.soon %}
-            <span class="soon-tag">Coming soon</span>
+            <span class="soon-tag">{{ T.coming_soon }}</span>
             {%- else %}
-            <a class="play small" href="/{{ it.id }}/play/">{% include icon.html name="play" %} Play</a>
-            <a href="/{{ it.id }}/">About {{ it.game }}</a>
+            <a class="play small" href="/{{ it.id }}/play/">{% include icon.html name="play" %} {{ T.play }}</a>
+            <a href="/{{ it.id }}/">{{ T.about_game | replace: '%g', it.game }}</a>
             {%- endif %}
           </p>
         </article>

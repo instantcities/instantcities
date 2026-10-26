@@ -1,15 +1,15 @@
-{%- comment -%} The home page: what Instant Cities is over compiled mini tours of five cities, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page; what there is in every city, a few words about the project (the whole story is on /about/) and a Play button for a few cities. Its words are in _data/home.yml. {%- endcomment -%}
-{%- assign H = site.data.home -%}
+{%- comment -%} The home page, in each language (/en/, /fr/, /nl/: a page saying `layout: home`, its `lang` and `ref: home`): what Instant Cities is over compiled mini tours of five cities, the playable cities (_data/cities.yml) as a compact list beside the map of Europe, and a link to the cities page; what there is in every city, a few words about the project (the whole story is on the about page) and a Play button for a few cities. Its words are in _data/lang/<lang>.yml. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = H.title -%}{%- assign description = H.description -%}{%- assign path = '/' -%}{%- assign image = '/og-image.jpg' %}
+{%- assign title = T.title -%}{%- assign description = T.description -%}{%- assign path = page.url -%}{%- assign image = '/og-image.jpg' %}
 {% include head.html %}
 </head>
 <body class="over-live">
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
@@ -17,49 +17,50 @@
       {% include website-preview.html %}
       <div class="hero-text">
         <h1>Instant Cities <span class="beta">BETA</span></h1>
-        <p class="tagline">{{ H.tagline }}</p>
-        <p class="lead">{{ H.lead }}</p>
+        <p class="tagline">{{ T.tagline }}</p>
+        <p class="lead">{{ T.lead }}</p>
         <p class="hero-btns">
-          {%- for id in H.hero_play_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}
-          <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} Play: {{ c.name }}</a>
+          {%- for id in H.hero_play_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
+          <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
           {%- endif %}{% endfor %}
-          <a class="play" href="#cities">{% include icon.html name="play" %} {{ H.cities_title }}</a>
-          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.home_watch }}</a>
+          <a class="play" href="#cities">{% include icon.html name="play" %} {{ T.cities_title }}</a>
+          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.home_watch }}</a>
         </p>
-        <p class="note">{{ H.play_note }}</p>
+        <p class="note">{{ T.play_note }}</p>
       </div>
-      <a class="live-caption" href="/{{ H.live_city }}/">{{ H.live_caption }}</a>
+      {%- assign live = site.data.cities | where: 'id', H.live_city | first %}{% assign cn = T.cities[live.id].name | default: live.name %}
+      <a class="live-caption" href="/{{ H.live_city }}/">{{ T.preview | replace: '%c', cn }}</a>
     </section>
 
     <section class="vibe">
-      <p>{{ H.vibe }}</p>
+      <p>{{ T.vibe }}</p>
     </section>
 
     <section id="cities" class="cities city-map">
-      <h2>{{ H.cities_title }}</h2>
+      <h2>{{ T.cities_title }}</h2>
       <div class="city-map-grid">
         <ul class="city-list">
           {%- for c in playable %}
-          <li><a href="/{{ c.id }}/" data-city="{{ c.id }}"><span class="city-name"><b>{{ c.name }}</b> <small>{{ c.country }}</small></span><span class="city-line">{{ c.card }}</span><span class="go" aria-hidden="true">{% include icon.html name="chevron" %}</span></a></li>
+          <li><a href="/{{ c.id }}/" data-city="{{ c.id }}"><span class="city-name"><b>{{ T.cities[c.id].name | default: c.name }}</b> <small>{{ T.countries[c.country] | default: c.country }}</small></span><span class="city-line">{{ T.cities[c.id].card | default: c.card }}</span><span class="go" aria-hidden="true">{% include icon.html name="chevron" %}</span></a></li>
           {%- endfor %}
         </ul>
         <div class="city-map-side">
           {% include europe.html %}
         </div>
       </div>
-      <p class="more"><a href="/cities/">All cities{% if soon.size > 0 %}, and the {{ soon.size }} still to come{% endif %} →</a></p>
+      <p class="more"><a href="{{ T.urls.cities }}">{% if soon.size > 0 %}{{ T.all_cities_soon | replace: '%n', soon.size }}{% else %}{{ T.all_cities }}{% endif %} →</a></p>
     </section>
 
     <section id="features" class="features">
-      <h2>{{ H.features_title }}</h2>
+      <h2>{{ T.features_title }}</h2>
       <div class="grid">
-        {%- for f in H.features %}
+        {%- for f in T.features %}
         <article class="card">
           <div class="icon">{% include icon.html name=f.icon %}</div>
           <h3>{{ f.title }}</h3>
           <p>{{ f.text }}</p>
           {%- if f.more %}
-          <p class="card-more"><a href="{{ f.more }}">{{ H.features_more }}</a></p>
+          <p class="card-more"><a href="{{ T.urls.about }}#{{ f.more }}">{{ T.features_more }}</a></p>
           {%- endif %}
         </article>
         {%- endfor %}
@@ -68,36 +69,36 @@
 
     <section id="project" class="project">
       <div class="prose">
-        <h2>{{ H.project_title }}</h2>
-        {%- for p in H.project_text %}
+        <h2>{{ T.project_title }}</h2>
+        {%- for p in T.project_text %}
         <p>{{ p }}</p>
         {%- endfor %}
       </div>
       <p class="hero-btns left">
-        <a class="ghost" href="/about/">{% include icon.html name="book" %} {{ H.project_more }}</a>
-        <a class="ghost" href="{{ H.github }}" rel="noopener">{% include icon.html name="code" %} Code on GitHub</a>
+        <a class="ghost" href="{{ T.urls.about }}">{% include icon.html name="book" %} {{ T.project_more }}</a>
+        <a class="ghost" href="{{ H.github }}" rel="noopener">{% include icon.html name="code" %} {{ T.code_on_github }}</a>
       </p>
     </section>
 
     <section class="cta">
-      <h2>{{ H.cta_title }}</h2>
+      <h2>{{ T.cta_title }}</h2>
       <p class="city-links centred">
-        {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}
-        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} Play: {{ c.name }}</a>
+        {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
+        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
         {%- endif %}{% endfor %}
       </p>
-      <p class="note"><a href="#cities">Or pick another city</a> · {{ H.beta }}</p>
+      <p class="note"><a href="#cities">{{ T.pick_another }}</a> · {{ T.beta }}</p>
     </section>
   </main>
 
   <footer>
-    <p class="alt">Cities:
+    <p class="alt">{{ T.footer_cities }}
       {%- for c in playable %}
-      <a href="/{{ c.id }}/">{{ c.name }}</a>
+      <a href="/{{ c.id }}/">{{ T.cities[c.id].name | default: c.name }}</a>
       {%- endfor %}
-      <a href="/cities/">All cities</a>
+      <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a>
     </p>
-    <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p>{{ T.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

@@ -1,0 +1,99 @@
+# The site's words in French: the same keys as en.yml (see there).
+name: Français
+locale: fr_FR
+
+urls:
+  home: /fr/
+  cities: /fr/villes/
+  about: /fr/a-propos/
+  privacy: /fr/confidentialite/
+  terms: /fr/conditions/
+
+nav_home: Accueil
+nav_cities: Villes
+nav_art: Art
+nav_about: À propos
+menu: Menu
+language: Langue
+skip: Aller au contenu
+footer_privacy: Confidentialité
+footer_terms: Conditions d’utilisation
+all_cities: Toutes les villes
+footer_cities: "Villes :"
+code_on_github: Le code sur GitHub
+pick_another: Ou choisissez une autre ville
+on_this_page: Sur cette page
+play: Jouer
+play_city: "Jouer : %c"
+about_game: "À propos d’%g"
+preview: "Aperçu : %c"
+europe_map: Les villes sur une carte de l’Europe
+all_cities_soon: "Toutes les villes, et les %n à venir"
+
+title: "Instant Cities : les centres historiques d’Europe en 3D, à vélo, à pied ou à cheval"
+description: "Des jeux 3D gratuits dans le navigateur, dans les centres historiques des villes d’Europe, reconstruits à partir d’OpenStreetMap. Parcourez à vélo, à pied ou au galop les vieilles villes de Paris, Rome, Londres, Venise, Prague et d’autres : explorez, faites la course ou laissez-vous guider par une visite, seul ou à deux sur un même clavier."
+tagline: "Explorez en 3D les centres historiques d’Europe, à vélo, à pied ou même à cheval."
+lead: "Des vieilles villes de Bruges à Rome, chaque rue et chaque bâtiment d’OpenStreetMap à sa vraie hauteur. Gratuit dans votre navigateur, rien à installer."
+cities_title: "Choisissez une ville"
+live_watch: "Voir la visite"
+home_watch: "Voir une visite"
+features_title: "Dans chaque ville"
+features:
+  - { icon: city, title: "La vraie vieille ville", text: "Le centre historique de chaque ville reconstruit à partir d’OpenStreetMap, chaque bâtiment à sa hauteur, avec ses places, ses églises et ses canaux.", more: openstreetmap }
+  - { icon: bike, title: "À vélo, à pied ou à cheval", text: "Roulez ou faites la course à vélo, courez à pied ou galopez à cheval. Ou prenez une vache, un tigre, un cochon ou une licorne. Tous sont aussi rapides et forts les uns que les autres.", more: the-game }
+  - { icon: compass, title: "Courses, missions et visites", text: "Des courses dans de vraies rues, de courtes missions contre la montre, une visite qui vous fait survoler les monuments, ou simplement flâner et regarder.", more: the-game }
+features_more: "En savoir plus…"
+project_title: "À propos du projet"
+project_text:
+  - "Instant Cities est un projet open source avec un seul but : faire vivre une ville sur votre écran le plus simplement possible. Vous ouvrez un lien et vous voilà dans ses rues, sans rien installer, sans compte et sans ordinateur puissant."
+  - "Chaque ville est construite à partir d’OpenStreetMap et dessinée avec three.js dans le navigateur, et l’IA écrit la plus grande partie du code. Le code est sur GitHub : chacun peut le lire, l’utiliser et l’améliorer."
+project_more: "En savoir plus sur le projet"
+cta_title: "Prêt à partir ?"
+play_note: "Gratuit · sans compte · sur PC, tablette et téléphone"
+beta: "Encore en développement : attendez-vous à quelques imperfections."
+vibe: 'Une expérience vibe-codée avec amour par <a href="https://woutersmet.com/">Wouter</a> & Julia avec Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> et <a href="https://www.mapillary.com/">Mapillary</a>.'
+credits: "Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Réalisé par"
+
+cities_page_heading: Villes
+cities_page_title: "Villes : les centres historiques d’Europe à parcourir en 3D"
+cities_page_description: "Toutes les villes d’Europe d’Instant Cities : leur centre historique en 3D dans votre navigateur, à parcourir à vélo, à pied ou à cheval, en course ou en visite guidée."
+cities_page_tagline: "Les centres historiques d’Europe, reconstruits en 3D, de Bruges à Rome."
+soon_title: "Bientôt"
+
+countries:
+  France: France
+  Italy: Italie
+  United Kingdom: Royaume-Uni
+  Spain: Espagne
+  Netherlands: Pays-Bas
+  Czechia: Tchéquie
+  Austria: Autriche
+  Germany: Allemagne
+  Denmark: Danemark
+  Belgium: Belgique
+
+cities:
+  paris: { card: "L’île de la Cité et les bords de Seine, de Notre-Dame au Pont Neuf et au Louvre." }
+  rome: { card: "De la Piazza Venezia par la Via del Corso jusqu’au Panthéon, avec le Forum et le Colisée tout près." }
+  london: { name: Londres, card: "De Trafalgar Square par Whitehall jusqu’à Big Ben, et retour le long de la Tamise." }
+  venice: { name: Venise, card: "De la place Saint-Marc par les Mercerie jusqu’au pont du Rialto, entre les canaux." }
+  barcelona: { name: Barcelone, card: "La Rambla jusqu’au monument à Colomb, et retour par le Quartier gothique et la cathédrale." }
+  amsterdam: { card: "Du Dam le long du Singel jusqu’au Spui, entre les canaux et leurs maisons à pignons." }
+  florence: { card: "Du Duomo à la Piazza della Signoria et au Ponte Vecchio sur l’Arno." }
+  prague: { card: "De la place de la Vieille-Ville par le quartier juif jusqu’à la rivière, près du pont Charles." }
+  vienna: { name: Vienne, card: "Du Stephansdom par le Graben jusqu’à la Hofburg, et par le Ring jusqu’à l’Opéra." }
+  berlin: { card: "De la porte de Brandebourg par Unter den Linden jusqu’au Gendarmenmarkt." }
+  madrid: { card: "De la Puerta del Sol par la Calle Mayor jusqu’au Palais royal et à la Plaza de Oriente." }
+  copenhagen: { name: Copenhague, card: "De Nyhavn devant Christiansborg jusqu’à la place de l’Hôtel-de-Ville, et retour par le Strøget." }
+  brussels: { name: Bruxelles, card: "Autour de la Grand-Place, devant la Bourse et le Manneken-Pis." }
+  bruges: { card: "Du Markt et de son beffroi le long des canaux jusqu’à l’église Notre-Dame." }
+  antwerp: { name: Anvers, card: "De la Grand-Place au Steen sur l’Escaut, et retour devant la cathédrale." }
+  avignon: { card: "La cité des papes : le palais des Papes, la place de l’Horloge et le pont sur le Rhône." }
+  salerno: { name: Salerne, card: "La ville au bord du golfe, au début de la côte amalfitaine : le Duomo, la vieille rue des marchands et les palmiers du Lungomare." }
+  siena: { name: Sienne, card: "La ville gothique de brique sur trois collines : la coquille du Campo, la Torre del Mangia et la cathédrale rayée." }
+  pisa: { name: Pise, card: "L’ancienne république maritime sur l’Arno : la tour penchée sur la Piazza dei Miracoli, les rues de l’université et les palais le long du fleuve." }
+  utrecht: { card: "La ville de la tour du Dom, avec ses canaux médiévaux et leurs caves de quai au bord de l’eau." }
+  rotterdam: { card: "La ville portuaire qui s’est reconstruite après 1940 : le Markthal, les maisons cubes et l’Erasmusbrug sur la Meuse." }
+  delft: { card: "La ville de Vermeer, faite de canaux et de pignons : le Markt, la Nieuwe Kerk de la maison d’Orange et l’Oude Kerk qui penche." }
+  lecce: { card: "La vieille ville baroque des Pouilles, de Santa Croce à l’amphithéâtre romain." }
+  ghent: { name: Gand, card: "Environ 40 000 bâtiments à leur vraie hauteur, du beffroi à l’Overpoort." }

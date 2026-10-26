@@ -1,4 +1,5 @@
 {%- comment -%} All of a city's places and landmarks (/<id>/places-and-landmarks/), named by the page's `city` (tools/about.mjs writes the page): its landmarks from _data/landmarks/<id>.json, the sights first and then the rest (its food, vehicles, traditions), and the streets, squares and waterways of its guide (_data/about/<id>.json) on the map of the centre. The city's page shows only the first nine landmarks and links here. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign C = site.data.cities | where: 'id', page.city | first -%}
 {%- assign G = site.data.about[C.id] -%}
 {%- assign all = site.data.landmarks[C.id] -%}
@@ -63,7 +64,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/about-the-city/">About {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/about-the-city/">About {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Map data © OpenStreetMap contributors (ODbL). Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

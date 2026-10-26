@@ -1,6 +1,6 @@
 {%- comment -%} A landmark's page (/<city>/landmark/<id>/): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark` (tools/landmarks.mjs writes the pages, with x and z: where it lies in the game). Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. A building with famous art in it (a museum of _data/art.json whose `landmark` is this one) lists its pieces, and the first mention of the city and of each piece in its words is a link. {%- endcomment -%}
 {%- assign C = site.data.cities | where: 'id', page.city | first -%}
-{%- assign H = site.data.home -%}
+{%- include lang.html -%}
 {%- assign all = site.data.landmarks[page.city] -%}
 {%- assign L = all | where: 'id', page.landmark | first -%}
 {%- comment -%} &from= (?from= without a place) tells the game which page you came from, so its pause menu leads back here. {%- endcomment -%}
@@ -50,7 +50,7 @@
           {%- if art_museums.size > 0 %}
           <a class="ghost" href="#art">{% include icon.html name="frame" %} Famous art</a>
           {%- endif %}
-          <a class="ghost" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+          <a class="ghost" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
         </p>
       </div>
       {%- if L.image %}
@@ -127,7 +127,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p class="alt"><a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

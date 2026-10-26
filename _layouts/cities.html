@@ -1,22 +1,22 @@
-{%- comment -%} The cities page (/cities/): a card per city in _data/cities.yml, the playable ones first, then the ones still to come. Its words are in _data/home.yml. {%- endcomment -%}
-{%- assign H = site.data.home -%}
+{%- comment -%} The cities page, in each language (/en/cities/, /fr/villes/, /nl/steden/: a page saying `layout: cities`, its `lang` and `ref: cities`): a card per city in _data/cities.yml, the playable ones first, then the ones still to come. Its words are in _data/lang/<lang>.yml. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 {%- assign soon = site.data.cities | where: 'soon', true -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = H.cities_page_title -%}{%- assign description = H.cities_page_description -%}{%- assign path = '/cities/' -%}{%- assign image = '/og-image.jpg' %}
+{%- assign title = T.cities_page_title -%}{%- assign description = T.cities_page_description -%}{%- assign path = page.url -%}{%- assign image = '/og-image.jpg' %}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
     <section class="hero home-hero page-hero">
       <div class="hero-text">
-        <h1>Cities</h1>
-        <p class="tagline">{{ H.cities_page_tagline }}</p>
+        <h1>{{ T.cities_page_heading }}</h1>
+        <p class="tagline">{{ T.cities_page_tagline }}</p>
       </div>
     </section>
 
@@ -25,7 +25,7 @@
     </section>
 
     <section id="play" class="cities">
-      <h2>{{ H.cities_title }}</h2>
+      <h2>{{ T.cities_title }}</h2>
       <div class="grid">
         {%- for c in playable %}
         {% include city-card.html city=c %}
@@ -35,7 +35,7 @@
 
     {%- if soon.size > 0 %}
     <section id="soon" class="cities soon">
-      <h2>{{ H.soon_title }}</h2>
+      <h2>{{ T.soon_title }}</h2>
       <div class="grid">
         {%- for c in soon %}
         {% include city-card.html city=c %}
@@ -46,8 +46,8 @@
   </main>
 
   <footer>
-    <p>{{ H.beta }}</p>
-    <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p>{{ T.beta }}</p>
+    <p>{{ T.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

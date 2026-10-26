@@ -1,4 +1,5 @@
-{%- comment -%} The head every site page shares. Expects title, description, path (this page's) and image (a path); noindex keeps search engines away. {%- endcomment -%}
+{%- comment -%} The head every site page shares. Expects title, description, path (this page's) and image (a path); noindex keeps search engines away. A page in several languages (a `ref`, _data/lang/<lang>.yml's urls) links to each of them, English as the default. {%- endcomment -%}
+{%- include lang.html -%}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111111">
@@ -8,6 +9,11 @@
   <meta name="robots" content="noindex">
 {%- endif %}
   <link rel="canonical" href="{{ site.url }}{{ path }}">
+{%- if page.ref %}{% for l in H.langs %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ site.data.lang[l].urls[page.ref] }}">
+{%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.data.lang.en.urls[page.ref] }}">
+{%- endif %}
   <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <meta property="og:type" content="website">
@@ -16,7 +22,10 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:image" content="{{ site.url }}{{ image }}">
-  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale" content="{{ T.locale }}">
+{%- if page.ref %}{% for l in H.langs %}{% unless l == L %}
+  <meta property="og:locale:alternate" content="{{ site.data.lang[l].locale }}">
+{%- endunless %}{% endfor %}{% endif %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ description }}">

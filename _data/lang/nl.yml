@@ -1,0 +1,99 @@
+# The site's words in Dutch: the same keys as en.yml (see there).
+name: Nederlands
+locale: nl_BE
+
+urls:
+  home: /nl/
+  cities: /nl/steden/
+  about: /nl/over/
+  privacy: /nl/privacy/
+  terms: /nl/voorwaarden/
+
+nav_home: Home
+nav_cities: Steden
+nav_art: Kunst
+nav_about: Over
+menu: Menu
+language: Taal
+skip: Naar de inhoud
+footer_privacy: Privacy
+footer_terms: Gebruiksvoorwaarden
+all_cities: Alle steden
+footer_cities: "Steden:"
+code_on_github: De code op GitHub
+pick_another: Of kies een andere stad
+on_this_page: Op deze pagina
+play: Speel
+play_city: "Speel: %c"
+about_game: "Over %g"
+preview: "Voorproefje: %c"
+europe_map: De steden op een kaart van Europa
+all_cities_soon: "Alle steden, en de %n die nog komen"
+
+title: "Instant Cities: de historische centra van Europa in 3D, met de fiets, te voet of te paard"
+description: "Gratis 3D-games in je browser, in de historische centra van Europese steden, nagebouwd uit OpenStreetMap. Fiets, wandel of galoppeer door de oude binnensteden van Parijs, Rome, Londen, Venetië, Praag en meer: verken, race of leun achterover voor een rondleiding, alleen of met twee op één toetsenbord."
+tagline: "Verken de historische centra van Europa in 3D, met de fiets, te voet of zelfs te paard."
+lead: "Oude binnensteden van Brugge tot Rome, elke straat en elk gebouw uit OpenStreetMap op zijn echte hoogte. Gratis in je browser, niets te installeren."
+cities_title: "Kies een stad"
+live_watch: "Bekijk de rondleiding"
+home_watch: "Bekijk een rondleiding"
+features_title: "In elke stad"
+features:
+  - { icon: city, title: "De echte oude stad", text: "Het historische centrum van elke stad nagebouwd uit OpenStreetMap, elk gebouw op zijn hoogte, met zijn pleinen, kerken en grachten.", more: openstreetmap }
+  - { icon: bike, title: "Fiets, te voet of te paard", text: "Fiets of race op de fiets, loop te voet of galoppeer op een paard. Of kies een koe, een tijger, een varken of een eenhoorn. Ze zijn allemaal even snel en sterk.", more: the-game }
+  - { icon: compass, title: "Races, opdrachten en rondleidingen", text: "Races door echte straten, korte opdrachten tegen de klok, een rondleiding die je langs de bezienswaardigheden vliegt, of gewoon wat rondrijden en kijken.", more: the-game }
+features_more: "Meer weten…"
+project_title: "Over het project"
+project_text:
+  - "Instant Cities is een opensourceproject met één doel: een stad zo laagdrempelig mogelijk tot leven brengen op je scherm. Je opent een link en je rijdt door haar straten, zonder iets te installeren, zonder account en zonder snelle computer."
+  - "Elke stad is gebouwd uit OpenStreetMap en wordt met three.js in de browser getekend, en AI schrijft het grootste deel van de code. De code staat op GitHub, voor iedereen om te lezen, te gebruiken en te verbeteren."
+project_more: "Meer over het project"
+cta_title: "Klaar om te vertrekken?"
+play_note: "Gratis · geen account · werkt op pc, tablet en telefoon"
+beta: "Nog in ontwikkeling: hier en daar kan iets haperen."
+vibe: 'Een experiment, met liefde gevibecodeerd door <a href="https://woutersmet.com/">Wouter</a> & Julia met Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> en <a href="https://www.mapillary.com/">Mapillary</a>.'
+credits: "Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Gemaakt door"
+
+cities_page_heading: Steden
+cities_page_title: "Steden: de historische centra van Europa om in 3D te spelen"
+cities_page_description: "Alle Europese steden in Instant Cities: hun historische centrum in 3D in je browser, om met de fiets, te voet of te paard te verkennen, om door te racen of om te bekijken in een rondleiding."
+cities_page_tagline: "De historische centra van Europa, nagebouwd in 3D, van Brugge tot Rome."
+soon_title: "Binnenkort"
+
+countries:
+  France: Frankrijk
+  Italy: Italië
+  United Kingdom: Verenigd Koninkrijk
+  Spain: Spanje
+  Netherlands: Nederland
+  Czechia: Tsjechië
+  Austria: Oostenrijk
+  Germany: Duitsland
+  Denmark: Denemarken
+  Belgium: België
+
+cities:
+  paris: { name: Parijs, card: "Het Île de la Cité en de oevers van de Seine, van de Notre-Dame tot de Pont Neuf en het Louvre." }
+  rome: { card: "Van de Piazza Venezia over de Via del Corso naar het Pantheon, met het Forum en het Colosseum aan de rand." }
+  london: { name: Londen, card: "Van Trafalgar Square door Whitehall naar de Big Ben, en terug langs de Theems." }
+  venice: { name: Venetië, card: "Van het San Marcoplein door de Mercerie naar de Rialtobrug, tussen de kanalen." }
+  barcelona: { card: "De Rambla af naar het Columbusmonument, en terug door de Gotische Wijk langs de kathedraal." }
+  amsterdam: { card: "Van de Dam langs het Singel naar het Spui, tussen de grachten en hun gevelhuizen." }
+  florence: { card: "Van de Duomo naar de Piazza della Signoria en de Ponte Vecchio over de Arno." }
+  prague: { name: Praag, card: "Van het Oudestadsplein door de Joodse wijk naar de rivier bij de Karelsbrug." }
+  vienna: { name: Wenen, card: "Van de Stephansdom over de Graben naar de Hofburg, en over de Ring naar de Opera." }
+  berlin: { name: Berlijn, card: "Van de Brandenburger Tor over Unter den Linden naar de Gendarmenmarkt." }
+  madrid: { card: "Van de Puerta del Sol over de Calle Mayor naar het Koninklijk Paleis en de Plaza de Oriente." }
+  copenhagen: { name: Kopenhagen, card: "Van Nyhavn langs Christiansborg naar het Raadhuisplein, en terug over de Strøget." }
+  brussels: { name: Brussel, card: "Rond de Grote Markt, langs de Beurs en Manneken Pis." }
+  bruges: { name: Brugge, card: "Van de Markt en het Belfort langs de reien naar de Onze-Lieve-Vrouwekerk." }
+  antwerp: { name: Antwerpen, card: "Van de Grote Markt naar Het Steen aan de Schelde, en terug langs de kathedraal." }
+  avignon: { card: "De stad van de pausen: het Pausenpaleis, de Place de l’Horloge en de brug over de Rhône." }
+  salerno: { card: "De stad aan de golf, aan het begin van de Amalfikust: de Duomo, de oude koopmansstraat en de palmen van de Lungomare." }
+  siena: { card: "De gotische bakstenen stad op drie heuvels: de schelp van de Campo, de Torre del Mangia en de gestreepte kathedraal." }
+  pisa: { card: "De oude zeerepubliek aan de Arno: de Scheve Toren op de Piazza dei Miracoli, de universiteitsstraten en de palazzi langs de rivier." }
+  utrecht: { card: "De stad van de Domtoren, met haar middeleeuwse grachten en de werfkelders aan het water." }
+  rotterdam: { card: "De havenstad die zich na 1940 herbouwde: de Markthal, de kubuswoningen en de Erasmusbrug over de Maas." }
+  delft: { card: "De stad van Vermeer, vol grachten en gevels: de Markt, de Nieuwe Kerk van het Huis van Oranje en de scheve Oude Kerk." }
+  lecce: { card: "De barokke oude stad van Apulië, van Santa Croce tot het Romeinse amfitheater." }
+  ghent: { name: Gent, card: "Zo’n 40.000 gebouwen op hun echte hoogte, van het Belfort tot de Overpoort." }

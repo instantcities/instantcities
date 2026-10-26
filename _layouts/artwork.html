@@ -1,4 +1,5 @@
 {%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, or for one out in the open ?pos=x,z&yaw= or ?at=<sight>; from=art:<id> for the pause menu's way back), and the other pieces in the same building. Its museum's page (a landmark, M.landmark) and its city's page are linked from its crumbs, its buttons, its facts and the first mention of each in its story, as is the first mention of another piece in the same museum. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign A = site.data.art -%}
 {%- assign P = A.pieces | where: 'id', page.art | first -%}
 {%- assign M = A.museums | where: 'id', P.museum | first -%}
@@ -107,7 +108,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/art/">Famous art</a> <a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p class="alt"><a href="/art/">Famous art</a> <a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

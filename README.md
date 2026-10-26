@@ -23,10 +23,15 @@ it goes into the part of the game it is about, see below).
 Every city has the same two addresses: its page at `/<id>/` (`/ghent/`) and its game at
 `/<id>/play/` (`/ghent/play/`). Each is a folder of its own, `ghent/` and `lecce/`, with the game's
 pages in its `play/`; what the cities share, the game itself, is in `core/`. Around them is a small
-Jekyll site: the home page (`/`, `_layouts/home.html`, its words in `_data/home.yml`), the cities
-page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city (`/ghent/`,
-`_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
-`/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
+Jekyll site: the home page (`_layouts/home.html`), the cities page listing every city
+(`_layouts/cities.html`), the page about the project and the privacy and terms pages
+(`_layouts/project.html`), each in English, French and Dutch (`/en/`, `/fr/`, `/nl/`, English the
+default; their words in `_data/lang/<lang>.yml`, which also says where each page is in that
+language), and a page per city (`/ghent/`, `_layouts/city.html`, in English for now, their words in
+`_data/cities.yml`). `/`, `/cities/`, `/about/`, `/privacy/` and `/terms/` send a visitor on to the
+language they picked in the bar on top, else their browser's (`_layouts/lang-redirect.html`). The
+old city pages at `/cities/ghent/` and `/cities/lecce/` send visitors on to the new ones.
+Screenshots are in `assets/img/`.
 
 The home page plays **website preview tours**: separate 18-second silent MP4s, rotating Ghent →
 Rome → Paris → London → Barcelona → Ghent. It loads one video at a time, with no game engine,
@@ -135,7 +140,9 @@ ghent/, lecce/   a city: its page and everything about it
 ghentinside/     the inside of Sint-Baafs, Sint-Niklaas and the Stadhuis, a map of its own that Ghent's
                  doors and sight cards lead into (/ghentinside/play/; /ghentinside/ sends you to /ghent/)
 rome/, paris/ …  the same, smaller: a first map, a race and a tour, no quests or sights yet (docs/first-maps.md)
-cities/          the cities page (/cities/), and the old city pages that send visitors on
+en/, fr/, nl/    the home, cities, about, privacy and terms pages in each language (only front matter, and the about,
+                 privacy and terms pages' words)
+cities/          sends /cities/ on to the cities page in the visitor's language, and the old city pages on to the new ones
 tools/           making the maps and the pages (not on the site)
 ```
 

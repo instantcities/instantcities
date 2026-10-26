@@ -1,14 +1,14 @@
-{%- comment -%} The page about the project (/about/, about/index.html), and the privacy and terms pages (privacy/, terms/) built the same way: its words are the page's own content, its headings listed beside them from the page's `toc` (each an anchor and a title), with a Play button for the home page's cities (_data/home.yml) at the bottom. {%- endcomment -%}
-{%- assign H = site.data.home -%}
+{%- comment -%} The page about the project, and the privacy and terms pages built the same way, in each language (en/about/index.html, fr/a-propos/, ...: its `lang` and its `ref`, about, privacy or terms): its words are the page's own content, its headings listed beside them from the page's `toc` (each an anchor and a title; the anchors are the same in every language), with a Play button for the home page's cities (_data/home.yml) at the bottom. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
 {%- assign title = page.title -%}{%- assign description = page.description -%}{%- assign path = page.url -%}{%- assign image = '/og-image.jpg' %}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
@@ -17,8 +17,8 @@
         <h1>{{ page.heading }}</h1>
         <p class="tagline">{{ page.tagline }}</p>
         <p class="hero-btns">
-          <a class="play" href="/#cities">{% include icon.html name="play" %} {{ H.cities_title }}</a>
-          <a class="ghost" href="{{ H.github }}" rel="noopener">{% include icon.html name="code" %} Code on GitHub</a>
+          <a class="play" href="{{ T.urls.home }}#cities">{% include icon.html name="play" %} {{ T.cities_title }}</a>
+          <a class="ghost" href="{{ H.github }}" rel="noopener">{% include icon.html name="code" %} {{ T.code_on_github }}</a>
         </p>
       </div>
     </section>
@@ -28,8 +28,8 @@
 {{ content }}
       </div>
       <aside class="landmark-side project-side">
-        <nav class="toc" aria-label="On this page">
-          <h2>On this page</h2>
+        <nav class="toc" aria-label="{{ T.on_this_page }}">
+          <h2>{{ T.on_this_page }}</h2>
           <ol>
             {%- for t in page.toc %}
             <li><a href="#{{ t[0] }}">{{ t[1] }}</a></li>
@@ -40,19 +40,19 @@
     </section>
 
     <section class="cta">
-      <h2>{{ H.cta_title }}</h2>
+      <h2>{{ T.cta_title }}</h2>
       <p class="city-links centred">
-        {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}
-        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} Play: {{ c.name }}</a>
+        {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
+        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
         {%- endif %}{% endfor %}
       </p>
-      <p class="note"><a href="/cities/">Or pick another city</a> · {{ H.beta }}</p>
+      <p class="note"><a href="{{ T.urls.cities }}">{{ T.pick_another }}</a> · {{ T.beta }}</p>
     </section>
   </main>
 
   <footer>
-    <p class="alt"><a href="/">Home</a> <a href="/cities/">All cities</a> <a href="{{ H.github }}" rel="noopener">GitHub</a></p>
-    <p>{{ H.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p class="alt"><a href="{{ T.urls.home }}">{{ T.nav_home }}</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a> <a href="{{ H.github }}" rel="noopener">GitHub</a></p>
+    <p>{{ T.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

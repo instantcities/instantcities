@@ -1,6 +1,6 @@
 {%- comment -%} A city's page (/<id>/): its block in _data/cities.yml, named by the page's `city`. The game itself is at /<id>/play/. A city marked `soon` has no game yet: its page says so and points to the ones there are. {%- endcomment -%}
 {%- assign C = site.data.cities | where: 'id', page.city | first -%}
-{%- assign H = site.data.home -%}
+{%- include lang.html -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
 <html lang="en">
@@ -50,7 +50,7 @@
           <a class="play small" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ c.name }}</a>
           {%- endfor %}
         </p>
-        <p class="note"><a href="/cities/">All cities</a></p>
+        <p class="note"><a href="{{ T.urls.cities }}">All cities</a></p>
       </div>
     </section>
     {%- else %}
@@ -63,9 +63,9 @@
         <p class="lead">{{ C.lead }}</p>
         <p class="hero-btns">
           <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play now</a>
-          <a class="watch" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+          <a class="watch" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
         </p>
-        <p class="note">{{ H.play_note }}</p>
+        <p class="note">{{ T.play_note }}</p>
       </div>
     </section>
 
@@ -147,7 +147,7 @@
     <section class="cta">
       <h2>Ready to go?</h2>
       <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-      <p class="note">{{ H.beta }}</p>
+      <p class="note">{{ T.beta }}</p>
     </section>
     {%- endif %}
   </main>
@@ -157,7 +157,7 @@
       {%- for c in playable %}{% if c.id != C.id %}
       <a href="/{{ c.id }}/">{{ c.name }}</a>
       {%- endif %}{% endfor %}
-      <a href="/cities/">All cities</a>
+      <a href="{{ T.urls.cities }}">All cities</a>
     </p>
     <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}

@@ -1,4 +1,5 @@
 {%- comment -%} A city's guide (/<id>/about-the-city/): its block in _data/about/<id>.json, named by the page's `city` (tools/about.mjs writes the page). What the city is and where it lies, its centre on a map, its history, the city today and where to read on. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign C = site.data.cities | where: 'id', page.city | first -%}
 {%- assign G = site.data.about[C.id] -%}
 <!doctype html>
@@ -155,7 +156,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="/cities/">All cities</a></p>
+    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

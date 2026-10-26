@@ -1,0 +1,8 @@
+{%- comment -%}
+  Every site page starts with this: L is the page's language (its `lang`, English when it has none),
+  T its words (_data/lang/<L>.yml), H what stays the same in every language (_data/home.yml). A
+  city's name in L is {{ T.cities[c.id].name | default: c.name }}, its country and card line the same.
+{%- endcomment -%}
+{%- assign L = page.lang | default: 'en' -%}
+{%- assign T = site.data.lang[L] -%}
+{%- assign H = site.data.home -%}

@@ -1,0 +1,74 @@
+# The site's words in English: the home page, the cities page, the bar on top, the footers, and the
+# few words the city, landmark and art pages share. fr.yml and nl.yml have the same keys in French
+# and Dutch; _data/home.yml lists the languages and what stays the same in each.
+name: English # in the language menu
+locale: en_GB # og:locale
+
+# Where each translated page is in this language. Each is a page at that path that says `lang: en`
+# and `ref: <key>` (en/about/index.html, ...); the head links a page to its other languages by its ref.
+urls:
+  home: /en/
+  cities: /en/cities/
+  about: /en/about/
+  privacy: /en/privacy/
+  terms: /en/terms/
+
+# The bar on top (_includes/topnav.html) and the footers
+nav_home: Home
+nav_cities: Cities
+nav_art: Art
+nav_about: About
+menu: Menu
+language: Language
+skip: Skip to content
+footer_privacy: Privacy
+footer_terms: Terms and conditions
+all_cities: All cities
+footer_cities: "Cities:"
+code_on_github: Code on GitHub
+pick_another: Or pick another city
+on_this_page: On this page
+play: Play
+play_city: "Play: %c" # a Play button, %c the city's name
+about_game: "About %g" # %g a game's name: "About Instant Paris"
+coming_soon: Coming soon
+preview: "Preview: %c" # under the home page's preview
+europe_map: The cities on a map of Europe
+all_cities_soon: "All cities, and the %n still to come" # on the home page, when some are
+
+# The home page (_layouts/home.html)
+title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
+description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
+tagline: "Explore the historic centres of Europe in 3D by bike, on foot or even on horseback."
+lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
+cities_title: "Pick a city"
+live_watch: "Watch the tour"
+home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
+features_title: "In every city"
+features: # more: the heading of the about page its "Learn more" link goes to
+  - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals.", more: openstreetmap }
+  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong.", more: the-game }
+  - { icon: compass, title: "Races, quests and tours", text: "Races along real streets, short missions against the clock, a tour that flies you past the sights, or just ride about and look.", more: the-game }
+features_more: "Learn more…"
+# the home page's "About the project" section, which leads to the about page
+project_title: "About the project"
+project_text:
+  - "Instant Cities is an open source project with one aim: to bring a city to life on your screen with as low a barrier as possible. You open a link and you are riding through its streets, with nothing to install, no account and no fast computer needed."
+  - "Every city is built from OpenStreetMap and drawn with three.js in the browser, and AI writes most of the code. The code is on GitHub for anyone to read, use and improve."
+project_more: "More about the project"
+cta_title: "Ready to go?" # the banner at the bottom of the home page
+play_note: "Free · no account · works on PC, tablet and phone"
+beta: "Still in development: expect some rough edges."
+vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'
+credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
+
+# The cities page (_layouts/cities.html)
+cities_page_heading: Cities
+cities_page_title: "Cities: the historic centres of Europe to play in 3D"
+cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
+cities_page_tagline: "The historic centres of Europe, rebuilt in 3D, from Bruges to Rome."
+soon_title: "Coming soon"
+
+# English needs no cities: or countries: here; the other languages give each city's name, country
+# and card line (cities: { <id>: { name, card } }, countries: { <English>: <name> }), and fall back
+# on _data/cities.yml's English for any they leave out.

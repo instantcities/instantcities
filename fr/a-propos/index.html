@@ -1,0 +1,57 @@
+---
+layout: project
+lang: fr
+ref: about
+title: "À propos d’Instant Cities : un projet open source qui fait revivre en 3D les vieilles villes d’Europe"
+description: "Comment fonctionne Instant Cities et où il va : des villes reconstruites à partir d’OpenStreetMap, dessinées avec three.js dans le navigateur, écrites en grande partie avec l’IA, open source sur GitHub, et nées d’Instant Gent."
+heading: À propos du projet
+tagline: "Instant Cities est un projet open source qui cherche à faire vivre une ville sur votre écran le plus simplement possible : vous ouvrez un lien, et vous voilà dans ses rues."
+toc:
+  - [idea, "L’idée"]
+  - [openstreetmap, "Des villes construites à partir d’OpenStreetMap"]
+  - [the-game, "Missions, courses et visites"]
+  - [how-its-built, "Comment c’est construit"]
+  - [instant-gent, "Tout a commencé avec Instant Gent"]
+  - [open-source, "Open source, sur GitHub"]
+  - [future, "Où cela pourrait aller"]
+  - [credits, "Merci et crédits"]
+---
+        <h2 id="idea">L’idée</h2>
+        <p>La plupart des gens connaissent une ville par une carte, par des photos ou par une courte visite. Instant Cities vous permet de la parcourir : le long de ses rues, sur ses ponts et à travers ses places, à votre rythme, à vélo, à pied ou à cheval. Vous pouvez jeter un œil avant un voyage, retrouver une rue dont vous vous souvenez, ou faire la course avec un ami dans une vieille ville qu’aucun de vous deux n’a jamais vue.</p>
+        <p>L’idée est de rendre l’accès aussi simple que possible. Chaque ville tourne dans un navigateur ordinaire, sur un ordinateur portable, une tablette ou un téléphone. Vous n’installez rien, vous ne créez pas de compte et vous n’avez pas besoin d’une carte graphique puissante. Un lien vers une ville vous y dépose, et un lien vers un monument vous dépose juste devant.</p>
+
+        <h2 id="openstreetmap">Des villes construites à partir d’OpenStreetMap</h2>
+        <p>Chaque ville part d’<a href="https://www.openstreetmap.org/">OpenStreetMap</a>, la carte libre du monde que des bénévoles tiennent à jour. Les outils du projet en téléchargent le centre historique d’une ville et transforment ce qu’ils y trouvent en un monde en 3D : le contour et la hauteur de chaque bâtiment, les rues et leur revêtement (des pavés là où OpenStreetMap le dit), les ponts, les quais, les canaux et les rivières, les places, les parcs et les arbres, et les lignes de tram.</p>
+        <p>OpenStreetMap donne la forme d’une ville, mais pas toujours son apparence ; le reste est donc ajouté à la main. Les monuments comme les beffrois, les cathédrales et les ponts reçoivent un modèle 3D à eux au lieu d’un simple bloc, et les façades reçoivent elles aussi leur propre aspect : à Gand, elles sont colorées rue par rue, d’après des photos prises au niveau de la rue sur <a href="https://www.mapillary.com/">Mapillary</a> et <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>. Les bâtiments de Gand ont même leur hauteur mesurée, tirée du modèle de hauteur ouvert de la Flandre.</p>
+        <p>Gand et Lecce sont construites en entier. Les autres villes ont pour l’instant un premier morceau de leur centre, avec une course et une visite, et grandissent pas à pas.</p>
+
+        <h2 id="the-game">Missions, courses et visites</h2>
+        <p>Chaque ville se joue de trois façons. Les missions commencent par une balade libre, où vous allez où vous voulez pour regarder autour de vous, et continuent avec de courtes quêtes contre la montre. Les courses suivent de vraies rues contre des concurrents pilotés par l’ordinateur, et deux joueurs peuvent s’affronter sur un même écran partagé en deux, à la façon de Super Mario Kart. La visite ne vous demande rien du tout : elle vous fait survoler les plus beaux endroits de la ville pendant que vous regardez, bien installé.</p>
+        <p>Vous choisissez un vélo, vos propres pieds ou un cheval, ou encore une vache, un tigre, un cochon ou une licorne : ils sont tous aussi rapides et forts, le choix n’est qu’une question de look.</p>
+
+        <h2 id="how-its-built">Comment c’est construit</h2>
+        <p>Le jeu tourne dans un navigateur ordinaire, sur un ordinateur avec le clavier ou une manette, et sur une tablette ou un téléphone avec des commandes tactiles. Il dessine ses villes avec <a href="https://threejs.org/">three.js</a>, la bibliothèque JavaScript qui met des graphismes WebGL dans une page web, et il est écrit en simples modules JavaScript que le navigateur charge tels quels : pas d’étape de compilation et pas de magasin d’applications. Tout le site est un ensemble de fichiers statiques servis par GitHub Pages, si bien qu’une nouvelle version est en ligne dès qu’elle arrive sur GitHub.</p>
+        <p>Derrière le jeu se trouve un ensemble de scripts de conversion. Ils téléchargent une ville depuis OpenStreetMap et la transforment en données pour le jeu, posent les rues sur le relief, donnent aux bâtiments leur hauteur, placent les lignes de tram, les bancs et les arceaux à vélos, et colorent les façades d’après des photos. La plus grande partie de ce code, et du jeu lui-même, est écrite avec l’IA, surtout Claude dans Claude Code, qui vérifie aussi son propre travail en comparant des captures d’écran du jeu avec des photos du vrai lieu.</p>
+        <p>Pour tourner sur un téléphone, le jeu reste léger : il charge une ville par étapes pendant que l’écran de chargement vous dit ce qu’il fait, et il réduit ses détails sur les écrans tactiles. Une fois que vous avez joué une ville, votre navigateur en garde une copie : elle s’ouvre plus vite la fois suivante et démarre même sans réseau.</p>
+
+        <h2 id="instant-gent">Tout a commencé avec Instant Gent</h2>
+        <p>Le projet a commencé sous le nom d’<a href="https://instantgent.be/">Instant Gent</a>, un jeu en 3D de Gand, en Belgique, fait pour montrer les rues, les canaux et les tours de la ville à toute personne qui a un navigateur. Instant Gent vit toujours sur son propre site, en néerlandais, en français et en espagnol, avec une app pour iPhone.</p>
+        <p>Une fois Gand au point, la question suivante était de savoir si les mêmes outils pouvaient construire n’importe quelle vieille ville, et Lecce, dans le sud de l’Italie, est devenue la première ville après Gand. En octobre 2026, le jeu est passé à Instant Cities, avec Gand et Lecce, puis Rome, Paris, Londres, Venise et les autres villes que vous pouvez jouer ici ont suivi.</p>
+
+        <h2 id="open-source">Open source, sur GitHub</h2>
+        <p>Tout le code est public sur <a href="https://github.com/instantcities/instantcities">github.com/instantcities/instantcities</a> : le jeu, les outils qui construisent une ville à partir d’OpenStreetMap, les modèles et les données propres à chaque ville, et ce site. Vous pouvez y lire comment une ville prend forme, la faire tourner sur votre propre ordinateur, ou ouvrir un ticket (une « issue ») quand une rue, un pont ou un monument n’a pas l’air juste.</p>
+        <p>Si quelque chose est faux dans OpenStreetMap même, le mieux est de le corriger là-bas : toutes les cartes qui utilisent OpenStreetMap s’améliorent alors, et la ville d’ici aussi, la prochaine fois qu’elle est reconstruite.</p>
+
+        <h2 id="future">Où cela pourrait aller</h2>
+        <p>La suite reste ouverte, mais voici une idée. Chaque ville pourrait avoir son propre dépôt open source sur GitHub, entretenu par les gens qui la connaissent et qui l’aiment : ils corrigeraient ses rues, modéliseraient ses monuments, coloreraient ses façades et écriraient sur ses lieux.</p>
+        <p>Ces dépôts deviendraient une source de données à part entière, à côté d’OpenStreetMap : un modèle 3D libre et ouvert de chaque centre historique, que tout le monde pourrait utiliser, pas seulement ce jeu. Rien n’est encore décidé. Si vous voulez aider à lui donner forme, prenez contact via GitHub.</p>
+
+        <h2 id="credits">Merci et crédits</h2>
+        <ul class="known">
+          <li>Données cartographiques © <a href="https://www.openstreetmap.org/copyright">les contributeurs d’OpenStreetMap</a>, sous la licence Open Database License.</li>
+          <li>Le dessin en 3D est fait par <a href="https://threejs.org/">three.js</a>.</li>
+          <li>Les photos au niveau de la rue viennent de <a href="https://www.mapillary.com/">Mapillary</a>, et les photos des monuments de <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, chacune créditée sur sa page.</li>
+          <li>Le jeu a commencé sous le nom d’<a href="https://instantgent.be/">Instant Gent</a>, fait pour Gand seule, et ses outils et Gand elle-même ont suivi dans Instant Cities.</li>
+          <li>Les hauteurs des bâtiments de Gand viennent du modèle de hauteur de la Flandre de Digitaal Vlaanderen.</li>
+          <li>Réalisé par <a href="https://woutersmet.com/">Wouter Smet</a> et Julia, avec Claude.</li>
+        </ul>
