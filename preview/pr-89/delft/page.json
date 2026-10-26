@@ -1,0 +1,12 @@
+{
+  "id": "delft",
+  "name": "Instant Delft",
+  "title": "Instant Delft: a free virtual 3D tour and game of Delft",
+  "description": "Take a free virtual 3D tour of the old town of Delft in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Delft: a virtual 3D tour of Delft",
+  "share_description": "Cycle, walk or gallop through Delft in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in the old town of Delft, the Netherlands: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Delft in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Delft",
+  "style": ":root { --paper: #f7f9fc; --accent: #1f4e9c; --accent-soft: #dce6f5; --gold: #e0a83a; --sky: #e4ecf6; --skyline: #8aa3c8; --glass: rgba(247, 249, 252, 0.72); } .tag { color: #183d7a; }"
+}
