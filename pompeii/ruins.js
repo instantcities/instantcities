@@ -16,10 +16,10 @@ import { FORUM } from './forum.js';
 import { AMPHITHEATRE } from './amphitheatre.js';
 
 const TILE = 170;
-const PLASTER = ['#c4573a', '#d9a85a', '#e4d4ac', '#cf8c64', '#dcb868', '#b5603f', '#e8dcb8', '#c97a4c'];
-const DADO = ['#7a2a20', '#2c211c', '#8f3a28', '#5e2a22'];
-const BRICK = ['#a8614a', '#b26e50', '#9c5a44', '#8f8478'];
-const FLOOR = ['#b9ae98', '#a89d88', '#c2b8a2', '#9d9382'];
+const PLASTER = ['#8d8372', '#9a8f7c', '#7f7666', '#a39784', '#b09a78', '#9c8062', '#a98e72', '#c9a572', '#b8654a'];
+const DADO = ['#5d4a3c', '#3a302a', '#6b4a3a', '#7a3a2c'];
+const BRICK = ['#a07458', '#ab8062', '#94684e', '#8f8478'];
+const FLOOR = ['#bdb39d', '#aca18b', '#c6bca6', '#a09684'];
 
 const pickOf = (list, r) => list[Math.floor(r() * list.length) % list.length];
 const pairs = p => Array.from({ length: p.length / 2 }, (_, i) => [p[2 * i], p[2 * i + 1]]);

@@ -12,11 +12,11 @@
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { gable, onMap, rect } from '../core/js/arcade.js';
-import { shade } from '../core/js/facades.js';
+import { rng, shade } from '../core/js/facades.js';
 
 const X = -137, Z = 143.5, TURN = 0.4;
 const HL = 72, HW = 29; // half its length and half its width, the colonnades' 8 m depth included
-const STUCCO = '#e9dcbc', STONE = '#d8cdb2', TILE = '#b4623c', PAVE = '#cfc3a6', DARK = '#3d3128';
+const STUCCO = '#ece6d6', STONE = '#d4cbb6', TILE = '#9a6a4c', PAVE = '#c4bba6', DARK = '#3d3128', WALL = '#8a7f6c', BRICKS = ['#9a6a52', '#a77a5c', '#8c6048'];
 
 function column(kit, x, z, h, r) {
   kit.add(new THREE.CylinderGeometry(r * 0.82, r, h, 10), STUCCO, x, h / 2, z);
@@ -26,14 +26,36 @@ function column(kit, x, z, h, r) {
 export function forum() {
   const kit = new Kit();
   kit.box(HW * 2 - 10, 0.25, HL * 2, PAVE, 0, 0.12, 0);
-  // the colonnades, one on each long side, 8 m deep, 6 m high to the architrave: the columns on the
-  // side of the open square, the back wall on the street's
+  // the colonnades, one on each long side, 8 m deep: white columns standing along the open square
+  // with a stretch of architrave over some of them and a second, lighter tier of columns on top
+  // here and there; the roof long gone. The back wall is rough grey-brown masonry, patched in brick.
+  const r = rng(17);
   for (const side of [-1, 1]) {
-    for (let v = -HL + 6; v <= HL - 6; v += 4.6) column(kit, side * (HW - 8), v, 6, 0.55);
-    kit.box(1.4, 1.1, HL * 2 - 8, STONE, side * (HW - 8), 6.9, 0);
-    kit.box(8.6, 0.5, HL * 2 - 8, shade(TILE, -0.05), side * (HW - 3.6), 7.9, 0);
-    kit.box(8, 0.3, HL * 2 - 8, '#7a5a40', side * (HW - 4), 7.5, 0); // the ceiling of the portico
-    kit.box(1.2, 6.6, HL * 2 - 8, '#d8c7a0', side * (HW - 0.6), 3.3, 0); // the back wall
+    const cx = side * (HW - 8);
+    for (let v = -HL + 6; v <= HL - 6; v += 4.6) column(kit, cx, v, 6, 0.55);
+    // architrave over runs of five to eight columns, with the second tier on those
+    for (let v = -HL + 6; v < HL - 12; v += 4.6 * (5 + Math.floor(r() * 4)) + 4.6 * 3) {
+      const len = 4.6 * (4 + Math.floor(r() * 3));
+      kit.box(1.5, 1.1, len + 1.2, STONE, cx, 6.6, v + len / 2);
+      for (let q = 0; q * 4.6 <= len; q++) {
+        kit.add(new THREE.CylinderGeometry(0.4, 0.46, 4.4 - r() * 1.4, 10), STUCCO, cx, 7.2 + 2.0, v + q * 4.6);
+        kit.box(1.1, 0.3, 1.1, STONE, cx, 7.15, v + q * 4.6);
+      }
+      kit.box(1.3, 0.8, len + 0.8, shade(STONE, 0.05), cx, 11.8, v + len / 2);
+    }
+    // the back wall: rough masonry, broken along its top, with patches of brick
+    for (let v = -HL + 4; v < HL - 4; v += 7 + 7 * r()) {
+      const seg = Math.min(HL - 4 - v, 7 + 7 * r()), hh = 4.2 + 2.6 * r();
+      kit.box(1.4, hh, seg, shade(WALL, (r() - 0.5) * 0.12), side * (HW - 0.6), hh / 2, v + seg / 2);
+      if (r() < 0.4) kit.box(1.5, 1.8, 2.4, BRICKS[Math.floor(r() * 3) % 3], side * (HW - 0.6), hh - 0.9, v + 1.5 + r() * (seg - 3));
+    }
+  }
+  // the bases and pedestals standing about in the square, of brick courses with a stone cap, and fallen drums
+  for (let k = 0; k < 14; k++) {
+    const v = -HL + 8 + (k / 13) * (HL * 2 - 16), x = (r() - 0.5) * (HW * 2 - 24), h = 1.0 + 1.4 * r();
+    kit.box(2.2, h, 2.2, BRICKS[k % 3], x, h / 2, v);
+    kit.box(2.5, 0.35, 2.5, STONE, x, h + 0.18, v);
+    if (k % 3 === 0) kit.add(new THREE.CylinderGeometry(0.55, 0.55, 1.6, 10), STUCCO, x + 2.6, 0.55, v + 1, 0, 0, Math.PI / 2); // a drum lying down
   }
   // the Temple of Jupiter: podium, steps, two rows of columns, cella and roof
   const v0 = -HL - 4, depth = 34, w = 24, ph = 3.6; // the podium's front edge, depth, width and height
