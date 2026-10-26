@@ -79,7 +79,7 @@ function buildHud(p) {
     </div>
     <div class="flash"></div>
     <div class="lm l">${LM_PILL.repeat(2)}</div><div class="lm r">${LM_PILL.repeat(2)}</div>
-    <div class="sight"><button class="sight-i" type="button" aria-label="Info">ⓘ</button><button class="sight-x" type="button">✕</button><div class="sight-head">${EYE}<b></b></div><div class="sight-text"></div><div class="sight-btns"><a class="chip sight-more" target="_blank" rel="noopener"></a><a class="chip sight-enter"></a></div></div>
+    <div class="sight"><button class="sight-i" type="button" aria-label="Info">${EYE}</button><button class="sight-x" type="button">✕</button><div class="sight-head">${EYE}<b></b></div><div class="sight-text"></div><div class="sight-btns"><a class="chip sight-more" target="_blank" rel="noopener"></a><a class="chip sight-enter"></a></div></div>
     <div class="tramcard"><div class="tram-head"></div><div class="tram-row"><span class="tram-badge"></span><div class="tram-info"><small></small><b></b><p></p></div></div><div class="tram-btns"><button class="chip tram-go" type="button"></button><button class="chip tram-seat" type="button" hidden></button></div></div>
     <button class="doorcard" type="button"><span class="door-emoji"></span><span><small></small><b></b></span><kbd></kbd></button>`;
   el.insertAdjacentHTML('afterbegin', '<div class="seatview"><div class="pane"></div><div class="sill"></div><div class="pole"></div><div class="seatback"></div></div>'
