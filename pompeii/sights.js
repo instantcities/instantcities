@@ -66,6 +66,13 @@ export const SIGHTS = [
     },
   },
   {
+    id: 'casts', emoji: '⚱️', x: 738, z: 162, r: 45,
+    text: {
+      en: { name: 'Garden of the Fugitives', text: 'Thirteen people, children among them, died in this garden under the ash. Their bodies rotted away and left hollows in the ash, which had set hard. In 1863 Giuseppe Fiorelli had plaster poured into the hollows, and the casts show the people as they lay. More are in the Forum Granaries.' },
+      nl: { name: 'Tuin van de Vluchtelingen', text: 'Dertien mensen, onder wie kinderen, stierven in deze tuin onder de as. Hun lichamen vergingen en lieten holtes na in de as, die hard was geworden. In 1863 liet Giuseppe Fiorelli gips in de holtes gieten, en de afgietsels tonen de mensen zoals ze lagen. Meer ervan staan in de graanschuren van het Forum.' },
+    },
+  },
+  {
     id: 'amphitheatre', emoji: '🏟️', x: 952, z: -126, r: 120,
     text: {
       en: { name: 'The Amphitheatre', text: 'Built about 70 BC, the oldest stone amphitheatre there is, for some 20,000 people. In AD 59 a fight between the fans of Pompeii and Nuceria here ended in a riot, and Rome shut the arena for ten years.' },
