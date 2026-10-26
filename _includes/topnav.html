@@ -9,7 +9,7 @@
 {%- include lang.html -%}
 {%- if page.city %}{% assign bar_city = site.data.cities | where: 'id', page.city | first %}{% endif %}
 <header class="top" id="top">
-  <a class="brand" href="{{ T.urls.home }}"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities{% if bar_city %}<span class="brand-city">: {{ bar_city.name }}</span>{% endif %}</span></a>
+  <a class="brand" href="{{ T.urls.home }}"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities{% if bar_city %}<span class="brand-city">: {{ T.cities[bar_city.id].name | default: bar_city.name }}</span>{% endif %}</span></a>
   <nav class="nav" id="menu" aria-label="{{ T.menu }}">
     <a href="{{ T.urls.home }}"{% if page.layout == 'home' %} aria-current="page"{% endif %}>{{ T.nav_home }}</a>
     <a href="{{ T.urls.cities }}"{% if page.layout == 'cities' or page.city %} aria-current="page"{% endif %}>{{ T.nav_cities }}</a>
