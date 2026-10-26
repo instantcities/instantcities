@@ -4,6 +4,8 @@
 # the card) and <id>-1.jpg, <id>-2.jpg, ... (the screenshots). A new site needs a block here, a page
 # sites/<id>/index.html saying `layout: site` and `site: <id>`, and a line in sitemap.xml's loop
 # (it reads this file). English only, like the art pages.
+# A site marked `soon: true` has no game yet: it shows as a card without a page or a picture under
+# "Coming soon" on the sites page, and needs only id, name, place and card.
 - id: taj-mahal
   name: Taj Mahal
   place: Agra, India
@@ -42,3 +44,28 @@
     - { label: "Towers", text: "Five, in a quincunx; the middle one is 65 metres high" }
     - { label: "In the game", text: "The moat and the causeway, the western gopura and the temple's three levels with their galleries and towers" }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
+- id: stonehenge
+  name: Stonehenge
+  place: Wiltshire, England
+  soon: true
+  card: "The ring of standing stones on Salisbury Plain, with the midsummer sunrise over the Heel Stone."
+- id: giza
+  name: Giza
+  place: Giza, Egypt
+  soon: true
+  card: "The three great pyramids and the Sphinx on their plateau above the Nile."
+- id: acropolis
+  name: Acropolis
+  place: Athens, Greece
+  soon: true
+  card: "The Parthenon and the other temples on the rock above Athens."
+- id: pompeii
+  name: Pompeii
+  place: Campania, Italy
+  soon: true
+  card: "The Roman town buried by Vesuvius in AD 79: its streets, forum and houses."
+- id: machu-picchu
+  name: Machu Picchu
+  place: Cusco region, Peru
+  soon: true
+  card: "The Inca town on its ridge in the Andes, with its terraces and the mountain behind."

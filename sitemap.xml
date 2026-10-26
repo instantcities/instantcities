@@ -7,10 +7,10 @@ layout: null
   <url><loc>{{ site.url }}{{ site.data.lang[l].urls[key] }}</loc></url>
 {%- endfor %}{% endfor %}
   <url><loc>{{ site.url }}/sites/</loc></url>
-{%- for s in site.data.sites %}
+{%- for s in site.data.sites %}{% unless s.soon %}
   <url><loc>{{ site.url }}/sites/{{ s.id }}/</loc></url>
   <url><loc>{{ site.url }}/{{ s.id }}/play/</loc></url>
-{%- endfor %}
+{%- endunless %}{% endfor %}
   <url><loc>{{ site.url }}/art/</loc></url>
 {%- for a in site.data.art.pieces %}
   <url><loc>{{ site.url }}/art/{{ a.id }}/</loc></url>

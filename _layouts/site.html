@@ -76,7 +76,7 @@
 
   <footer>
     <p class="alt">Other sites
-      {%- for o in site.data.sites %}{% if o.id != S.id %}
+      {%- for o in site.data.sites %}{% if o.id != S.id and o.soon != true %}
       <a href="/sites/{{ o.id }}/">{{ o.name }}</a>
       {%- endif %}{% endfor %}
       <a href="/sites/">All sites</a>

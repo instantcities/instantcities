@@ -1,10 +1,12 @@
 {%- comment -%} The page of sites (/sites/): famous places that are not cities, each with a game of its own, from _data/sites.yml. English only, like the art page. {%- endcomment -%}
 {%- include lang.html -%}
+{%- assign playable = site.data.sites | where_exp: 's', 's.soon != true' -%}
+{%- assign soon = site.data.sites | where: 'soon', true -%}
 <!doctype html>
 <html lang="en">
 <head>
 {%- assign title = 'Famous sites in 3D: the Taj Mahal, Angkor Wat · Instant Cities' -%}
-{%- capture description %}{{ site.data.sites.size }} famous places you can walk or race through in your browser, each with its own map, race and tour.{% endcapture -%}
+{%- capture description %}{{ playable.size }} famous places you can walk or race through in your browser, each with its own map, race and tour.{% endcapture -%}
 {%- assign path = '/sites/' -%}
 {%- assign image = '/og-image.jpg' -%}
 {% include head.html %}
@@ -26,7 +28,7 @@
     <section class="cities sites">
       <h2>Sites you can visit</h2>
       <div class="grid">
-        {%- for s in site.data.sites %}
+        {%- for s in playable %}
         <article class="card city-card site-card">
           <a class="site-thumb" href="/sites/{{ s.id }}/"><img src="/assets/img/sites/{{ s.id }}.jpg" alt="" loading="lazy" width="1440" height="810"></a>
           <h3><a href="/sites/{{ s.id }}/">{{ s.name }}</a> <small>{{ s.place }}</small></h3>
@@ -39,6 +41,21 @@
         {%- endfor %}
       </div>
     </section>
+
+    {%- if soon.size > 0 %}
+    <section id="soon" class="cities soon">
+      <h2>Coming soon</h2>
+      <div class="grid">
+        {%- for s in soon %}
+        <article class="card city-card is-soon">
+          <h3>{{ s.name }} <small>{{ s.place }}</small></h3>
+          <p>{{ s.card }}</p>
+          <p class="city-links"><span class="soon-tag">{{ T.coming_soon }}</span></p>
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
   </main>
 
   <footer>
