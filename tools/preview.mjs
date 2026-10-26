@@ -42,6 +42,10 @@ for (const file of walk(site)) {
   if (!['.html', '.js', '.mjs', '.css', '.json', '.webmanifest'].includes(ext)) continue;
   const before = fs.readFileSync(file, 'utf8');
   let text = before.replace(/(["'`(])\/(?![/\s])([^"'`)\s<>]*)/g, (m, q, rest) => moves(rest) ? `${q}${base}/${rest}` : m);
+  // A relative path into assets/ (new URL('../../../assets/img/art/', import.meta.url)) goes to
+  // production when the preview does not have that file.
+  text = text.replace(/(["'`(])((?:\.\.\/)+)(assets\/[^"'`)\s<>]*)/g, (m, q, up, rest) =>
+    path.resolve(path.dirname(file), up) === path.resolve(site) && !moves(rest) ? `${q}/${rest}` : m);
   if (ext === '.html') {
     // The home page: href="/", href="/#cities"
     text = text.replace(/((?:href|action)=["'])\/(?=["'#?])/g, `$1${base}/`);
