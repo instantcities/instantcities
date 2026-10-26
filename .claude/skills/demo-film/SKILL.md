@@ -7,7 +7,7 @@ description: Make or change the game's demo film / trailer (the minute or so of 
 
 The trailer is a script, like the tour: `ghent/demo.js` (`DEMO`), a list of shots played one after
 the other, each fading to black and back in a flash, to the tour's music. `core/js/demo.js` plays
-it (and plays player 1 in the game shots); `core/js/main.js` sets each shot up (`startDemo`).
+it (and plays player 1 in the game shots); `core/js/game/demofilm.js` sets each shot up (`startDemo`).
 The comment at the top of `ghent/demo.js` lists everything a shot can have; in short:
 
 - `tour: [x, z]` a stretch of the tour from that point of its path (`welcome`, `speed`, `cards`, `pre`)

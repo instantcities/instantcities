@@ -5,8 +5,8 @@
 // Game metres, x across and z along; the door out at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
-import { nightWatch, oldMaster, masterSize } from '../../core/js/inside/art.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
+import { nightWatch, oldMaster, masterSize, famous } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
 const TINT = { stone: 0xd8ccb4, pier: 0xc8b898, vault: 0xf2ecde, rib: 0xd9cfba, wall: 0xe0d6c2 };
@@ -39,10 +39,14 @@ export function makeRijksmuseum() {
     p.floor(H.x0, H.z0, H.x1, H.z1, floor);
     hall(p, { ...H, color: GREY, doors: { s: [[7, 6, 7]], n: [[7, 7, 8]] } });
     barrel(p, H.x0, H.z0, H.x1, H.z1, H.h, 4, { color: 0xe8dcc0, band: 0xb88a5a, bay: 7.7, skylight: 0.3 });
+    // the famous ones in their alcoves, as they hang: Asselijn's swan the first on the left, Vermeer's
+    // Milkmaid and Little Street, Rembrandt's Jewish Bride ([id, w, h, y] by side and alcove)
+    const FAMOUS = { w0: ['the-threatened-swan', 2.3, 1.95, 3.4], w5: ['the-milkmaid', 0.85, 0.95, 2.4], e4: ['the-little-street', 0.85, 1.05, 2.4], e7: ['the-jewish-bride', 2.3, 1.68, 3.2] };
     let seed = 800;
     for (const [x, ry] of [[H.x0 + 0.47, Math.PI / 2], [H.x1 - 0.47, -Math.PI / 2]]) for (let k = 0; k < 9; k++) {
-      const z = H.z0 + 3.9 + k * 7.7, sd = seed++, [w, h] = masterSize(sd);
-      framed(p, oldMaster(sd), w * 1.1, h * 1.1, x, 3.4, z, ry);
+      const z = H.z0 + 3.9 + k * 7.7, sd = seed++, [w, h] = masterSize(sd), real = FAMOUS[`${x < 0 ? 'w' : 'e'}${k}`];
+      if (real) framed(p, famous(real[0], real[1], real[2]), real[1], real[2], x, real[3], z, ry, { f: real[1] < 1 ? 0.18 : 0.3 });
+      else framed(p, oldMaster(sd), w * 1.1, h * 1.1, x, 3.4, z, ry);
       p.stone.box(1.2, H.h, 1.2, 0xb88a5a, x + Math.sign(-x) * 0.4, H.h / 2, z + 3.85); // the pillars between the alcoves
       p.block(x + Math.sign(-x) * 0.4, z + 3.85, 0.7);
     }
@@ -61,6 +65,7 @@ export function makeRijksmuseum() {
     bench(p, 0, 80, 5, 0);
     g.add(crowd(0, W.z1, 18, 4.6, 9, Math.PI * 0.62, Math.PI * 1.38, 97));
   }
+  g.add(wanderers(p, 11));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: ATRIUM.z0 + 1.6 } };
 }

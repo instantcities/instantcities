@@ -33,9 +33,9 @@ const lambert = (lon, lat) => {
   return [r * Math.sin(t), rho0 - r * Math.cos(t)];
 };
 
-// The frame: from Portugal to the Black Sea, from Sicily to the south of Scandinavia
+// The frame: from Portugal to Istanbul and the Black Sea, from Sicily to the south of Scandinavia
 const W = 1000, H = 760;
-const corners = [[-9.5, 36.5], [24, 36.5], [-9.5, 59], [24, 59], [7, 36], [7, 59.5]].map(([lo, la]) => lambert(lo, la));
+const corners = [[-9.5, 36.5], [29.5, 36.5], [-9.5, 59], [29.5, 59], [7, 36], [7, 59.5]].map(([lo, la]) => lambert(lo, la));
 const [x0, x1] = [Math.min(...corners.map(c => c[0])), Math.max(...corners.map(c => c[0]))];
 const [y0, y1] = [Math.min(...corners.map(c => c[1])), Math.max(...corners.map(c => c[1]))];
 const k = Math.min(W / (x1 - x0), H / (y1 - y0));
@@ -79,7 +79,9 @@ for (const block of yml.split(/^- /m).slice(1)) {
   const id = get('id'), lat = Number(get('lat')), lon = Number(get('lon'));
   if (!id) continue;
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) throw new Error(`_data/cities.yml: ${id} has no lat and lon`);
-  cities[id] = px(lon, lat).map(v => Math.round(v * 10) / 10);
+  // a city beyond the frame (New York, San Francisco) gets no dot: the cities page lists it
+  const at = px(lon, lat).map(v => Math.round(v * 10) / 10);
+  if (at[0] > 0 && at[0] < W && at[1] > 0 && at[1] < H) cities[id] = at;
 }
 
 fs.writeFileSync(path.join(ROOT, '_data', 'europe.json'), JSON.stringify({ width: W, height: H, land, cities }) + '\n');

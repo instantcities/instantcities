@@ -8,7 +8,7 @@ import { addWaiting } from './stops.js';
 // it is bent along with it.
 //
 // Each stop gets a `post`: { x, z, y }, where its sign stands on the platform, the place to wait at
-// (main.js), and a `platform`: [x0, z0, x1, z1] down its middle; the platforms' tops are returned as ledges, for the ground to step up onto (relief.js).
+// (game/transit.js), and a `platform`: [x0, z0, x1, z1] down its middle; the platforms' tops are returned as ledges, for the ground to step up onto (relief.js).
 
 const LONG = 36; // metres: a platform, a little shorter than the tram
 
@@ -27,7 +27,7 @@ export function addTramStops(ctx, stops, trams) {
     const { post, ledge, board } = p.userData, [ax, az, bx, bz, half] = ledge;
     const q = bend(post.x, post.y, post.z);
     s.post = { x: q[0], y: q[1], z: q[2] };
-    // the platform's middle line, end to end, for how near the stop someone is (main.js)
+    // the platform's middle line, end to end, for how near the stop someone is (game/transit.js)
     const a0 = bend(ax, post.y, az), a1 = bend(bx, post.y, bz);
     s.platform = [a0[0], a0[2], a1[0], a1[2]];
     // its top down its middle, a piece every 4 m

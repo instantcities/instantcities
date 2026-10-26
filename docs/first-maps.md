@@ -1,13 +1,13 @@
-# First maps: twenty-two cities
+# First maps: twenty-five cities
 
-Twenty-two cities got a first playable map, six, eight, two, one, two and then three at a time, each with a small piece of its centre
+Twenty-five cities got a first playable map, six, eight, two, one, two, three and then three at a time, each with a small piece of its centre
 (about 1.5 by 2 km), one race and free riding. They were made the way Lecce was
 (`docs/lecce-exercise.md`), from OpenStreetMap only, with no quests, sights, monuments or fronts yet.
 
 | City      | Piece of the centre                                   | Race                                     | Buildings |
 |-----------|--------------------------------------------------------|------------------------------------------|-----------|
 | Rome      | Piazza Venezia, Via del Corso, Pantheon, Navona, up to the Colosseum | `romacentro`, loop, 3.0 km | 6,093 |
-| Paris     | Île de la Cité, Hôtel de Ville, Rue de Rivoli, Louvre  | `cite`, loop, 2.8 km                     | 5,566 |
+| Paris     | Île de la Cité, Hôtel de Ville, Rue de Rivoli, Louvre, and west along the Seine to the Eiffel Tower and the Champ de Mars | `cite`, loop, 2.8 km | 11,470 |
 | Amsterdam | Dam, Singel, Spui, Rokin, Westerkerk to Nieuwmarkt     | `grachten`, loop, 1.7 km                 | 7,915 |
 | Venice    | San Marco, Mercerie, Rialto                            | `mercerie`, open (start to finish), 0.9 km | 2,537 |
 | Barcelona | Plaça de Catalunya, Rambla, Barri Gòtic, Colom         | `rambla`, loop, 4.2 km                   | 4,367 |
@@ -28,6 +28,9 @@ Twenty-two cities got a first playable map, six, eight, two, one, two and then t
 | Utrecht   | Janskerkhof, Kromme Nieuwegracht, Domplein, Vismarkt by the Oudegracht | `utrecht`, loop, 1.7 km | 6,481 |
 | Rotterdam | Coolsingel, Blaak, Markthal, cube houses, Oude Haven, Laurenskerk | `rotterdam`, loop, 2.2 km | 3,333 (flat roofs) |
 | Delft     | Markt, Voldersgracht, Oude Kerk, Oude Delft, Koornmarkt | `delft`, loop, 2.3 km      | 7,779 (534 stepped gables) |
+| Istanbul  | Sultanahmet, Hagia Sophia, Divan Yolu, Grand Bazaar gate, Sirkeci, Eminönü on the Golden Horn | `sultanahmet`, loop, 4.0 km | 4,098 |
+| New York  | Times Square, Bryant Park, Grand Central, Chrysler, Empire State, Rockefeller Center | `midtown`, loop, 5.6 km | 6,472 (flat roofs, real tower heights) |
+| San Francisco | Grant Avenue, Dragon Gate, Financial District, Ferry Building, Embarcadero, Transamerica Pyramid | `sanfrancisco`, loop, 4.1 km | 4,112 (flat roofs) |
 
 ## How each one was made
 
@@ -107,3 +110,14 @@ Amsterdam’s canal boats as models of their own, and the landmarks themselves a
 - Rotterdam's landmarks are plain OpenStreetMap blocks: the Markthal has no arch, the cube houses are not
   tilted, and the Erasmusbrug has no pylon or cables.
 - Delft's Oude Kerk tower stands straight in the game; it really leans about two metres.
+- Istanbul's mosques and the Hagia Sophia are plain OpenStreetMap blocks with no domes or minarets, and the old city's
+  seven hills are flat. The T1 tram along the Divan Yolu is missing (the download holds only bits of it). The builder
+  closes each coastline on its own, so with two shores facing each other across the Golden Horn each would flood the
+  other's land: the box stops short of Karaköy, so the Galata Tower is not on the map.
+- New York's towers stand at their real heights but are plain blocks, all in the same pale stone (no glass, no
+  crown on the Chrysler Building), and the buildings OSM gives no height come out low between them. The avenues
+  are one-way, so the builder draws them no wider than any one-way street, though the real ones are about 18 m wide.
+  OSM maps some subway stations as buildings underground; the builder now leaves those out (the Times Square one
+  stood as a block over the square).
+- San Francisco lies flat: Coit Tower stands on level ground, and the game has no fog for the fog. The cable car
+  lines are drawn as tram tracks with no cable car on them, and the Transamerica Pyramid rises in steps.

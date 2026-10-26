@@ -25,20 +25,22 @@ export const lathe = (pts, n = 20) => new THREE.LatheGeometry(pts.map(([r, y]) =
 export function person(o) {
   const g = new THREE.Group(), tall = o.tall ?? 1;
   const top = std(o.top), skin = std(o.skin, 0.6), hair = std(o.hair, 0.95), shoes = std(o.shoes ?? 0x1c1a19, 0.4);
+  // each leg and its shoe hang from the hip, to swing when walking (legs: the hips, left and right)
+  const legs = [-1, 1].map(s => { const hip = new THREE.Group(); hip.position.set(s * 0.095, 0.94, 0); g.add(hip); return hip; });
   if (o.skirt) {
     const [color, length, flare] = o.skirt;
     // (from the hem up, like the body: a lathe drawn from the top down faces inwards, and was seen from inside through its back)
     add(g, lathe([[0.001, 0.96 - length], [0.22 + flare, 0.96 - length], [0.2 + flare * 0.3, 0.96 - length * 0.5], [0.17, 0.96], [0.001, 0.96]]), std(color, 0.75));
-    if (length < 0.8) for (const s of [-1, 1]) add(g, limb(0.05, 0.96 - length), skin, s * 0.08, 0.96 - length);
+    if (length < 0.8) for (const hip of legs) add(hip, limb(0.05, 0.96 - length), skin, 0, 0.02 - length);
   } else if (o.shorts) {
-    for (const s of [-1, 1]) {
-      add(g, limb(0.085, 0.36), std(o.shorts, 0.85), s * 0.095, 0.96);
-      add(g, limb(0.065, 0.66), skin, s * 0.095, 0.68);
+    for (const hip of legs) {
+      add(hip, limb(0.085, 0.36), std(o.shorts, 0.85), 0, 0.02);
+      add(hip, limb(0.065, 0.66), skin, 0, -0.26);
     }
   } else {
-    for (const s of [-1, 1]) add(g, limb(0.075, 0.9), std(o.legs, 0.85), s * 0.095, 0.94);
+    for (const hip of legs) add(hip, limb(0.075, 0.9), std(o.legs, 0.85));
   }
-  for (const s of [-1, 1]) add(g, new THREE.BoxGeometry(0.1, 0.07, 0.24), shoes, s * 0.095, 0.035, 0.04);
+  for (const hip of legs) add(hip, new THREE.BoxGeometry(0.1, 0.07, 0.24), shoes, 0, 0.035 - 0.94, 0.04);
   // the body, a little fuller at the chest and shoulders
   add(g, lathe([[0.001, 0.92], [0.17, 0.92], [0.18, 1.1], [0.19, 1.3], [0.2, 1.42], [0.12, 1.5], [0.001, 1.52]]), top).scale.z = 0.7;
   add(g, limb(0.05, 0.12).translate(0, 0.12, 0), skin, 0, 1.47);
@@ -63,5 +65,5 @@ export function person(o) {
     return shoulder;
   });
   g.scale.setScalar(tall);
-  return { g, head, arms };
+  return { g, head, arms, legs };
 }

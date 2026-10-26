@@ -1,5 +1,5 @@
 // A cyclist who rides into the tram rails and comes off (the tour's, see core/js/tour.js fall(), and
-// a player's own bike, see core/js/main.js railFall()): the front wheel drops into the groove and
+// a player's own bike, see core/js/game/physics.js railFall()): the front wheel drops into the groove and
 // stops dead, the bike goes over on its side and slides, the rider is thrown forward onto the
 // cobbles and lies there seeing stars. Built on the riders' cyclist (js/riders.js), which faces +Z
 // and stands on y = 0.
