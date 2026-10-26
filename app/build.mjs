@@ -127,6 +127,8 @@ for (const id of cities) {
     '<a class="site-link" href="../../index.html">← Cities</a>');
   edit("the menu's website chip", '<a class="chip site-chip" href="../" data-site-link data-i18n="site.chip"></a>',
     '<a class="chip site-chip" href="../../index.html">🏙️ Cities</a>');
+  edit("the pause menu's way back to the website", /<span class="long" data-i18n="pause\.site"><\/span><span class="short" data-i18n="pause\.siteShort"><\/span>/,
+    '<span class="long">Back</span><span class="short">Back</span>'); // (to the in-app page the game was opened from)
   edit('the offline worker', /\s*<script>\s*\/\/ Keep a copy of the game for playing offline[\s\S]*?<\/script>/, '');
   const at = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, '').replace(/<(meta|link rel="canonical")[^>]*>/g, '');
   const net = at.match(/https?:\/\/(?!www\.openstreetmap\.org\/copyright)[^\s"'<]+/g)?.filter(u => !u.startsWith(SITE));
@@ -144,36 +146,68 @@ const listed = fs.readFileSync(path.join(ROOT, '_data/cities.yml'), 'utf8').spli
 if (listed.length < 2) throw new Error('_data/cities.yml: found no cities, has it changed?');
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 
-// each city's About page (<city>/about.html): the website's own page of the city
-// (_layouts/city.html), built by Jekyll into app/build/site/. Its links stay in the app where the
-// app has the page (the game, another city's About page, the picker for the home and cities pages)
-// and go to the website, in Safari, for the rest; the pictures it shows come along, and the
-// lettering comes from fonts/ instead of Google. Jekyll needs the site's gems (`bundle install`
-// in the repo); Homebrew's Ruby 3.3 has them where it is there.
+// each city's pages from the website, inside the app: its own page (_layouts/city.html, the
+// picker's About), its landmarks' pages, "About the city" and the list of its places, the art in
+// its museums, and the site's about, privacy and terms pages, built by Jekyll into app/build/site/
+// and kept at the same addresses, as index.html. Their links stay in the app for every page it
+// has (the game, the picker for the home and cities pages); only the links to other sites (the
+// photos' sources, OpenStreetMap) leave it. The pictures they show come along, the lettering comes
+// from fonts/ instead of Google, and each landmark's and painting's card gets a button straight
+// into the game where the place is in it. Jekyll needs the site's gems (`bundle install` in the
+// repo); Homebrew's Ruby 3.3 has them where it is there.
 const SITE_OUT = path.join(APP, 'build/site');
 const ruby33 = '/opt/homebrew/opt/ruby@3.3/bin';
 execFileSync('bundle', ['exec', 'jekyll', 'build', '--quiet', '--destination', SITE_OUT], { cwd: ROOT, stdio: 'inherit',
   env: { ...process.env, LANG: 'en_US.UTF-8', LC_ALL: 'en_US.UTF-8', PATH: (fs.existsSync(ruby33) ? `${ruby33}:` : '') + process.env.PATH } });
 const inApp = new Set(listed.map(c => c.id));
+const sitePages = [...listed.map(c => c.id), 'art', 'about', 'privacy', 'terms'].flatMap(dir =>
+  fs.readdirSync(path.join(SITE_OUT, dir), { recursive: true }).map(f => path.join(dir, f))
+    .filter(f => f.endsWith('index.html') && !f.includes('/play/')));
+const included = new Set(sitePages);
 const pictures = new Set();
 const local = url => {
   const [, where, rest = ''] = url.match(/^([^?#]*)(.*)$/);
   if (where.startsWith('/assets/')) { pictures.add(where); return where; }
   if (where.startsWith('/fonts/')) return where;
   if (where === '/' || where === '/cities/') return '/index.html';
-  const city = where.match(/^\/([a-z0-9-]+)\/(play\/)?$/);
-  if (city && inApp.has(city[1])) return city[2] ? `/${city[1]}/play/index.html${rest}` : `/${city[1]}/about.html${rest}`;
+  const game = where.match(/^\/([a-z0-9-]+)\/play\/$/);
+  if (game && inApp.has(game[1])) return `${where}index.html${rest}`;
+  if (where.endsWith('/') && included.has(`${where.slice(1)}index.html`)) return `${where}index.html${rest}`;
   return SITE + url;
 };
-for (const c of listed) {
-  let html = fs.readFileSync(path.join(SITE_OUT, c.id, 'index.html'), 'utf8');
+// the game's address for a landmark's or a painting's page, where the place is in the game (a
+// position, a sight or a building to go inside, not only the city)
+const in3d = href => {
+  const file = path.join(SITE_OUT, href, 'index.html');
+  const play = fs.existsSync(file) && fs.readFileSync(file, 'utf8').match(/<a class="play" href="([^"]+)"/)?.[1];
+  return play && /[?&](pos|at|inside)=/.test(play) ? play.replace(/&amp;/g, '&') : null;
+};
+const cardButtons = `
+  <style>
+    .card-3d { display: flex; flex-direction: column; gap: 6px; }
+    .card-3d > .card { flex: 1; }
+    .card-3d > .in-3d-btn { display: block; text-align: center; padding: 8px; border: 1.5px solid var(--ink); border-radius: 6px; font-size: 14px; font-weight: 600; color: var(--ink); text-decoration: none; }
+  </style>`;
+for (const f of sitePages) {
+  let html = fs.readFileSync(path.join(SITE_OUT, f), 'utf8');
   const fonts = html.replace(/\s*<link rel="preconnect" href="https:\/\/fonts\.g[^>]*>/g, '')
     .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '<link rel="stylesheet" href="/fonts/fonts.css">');
-  if (fonts === html || fonts.includes('fonts.googleapis')) throw new Error(`${c.id}/index.html: could not find the Google Fonts links, has _includes/head.html changed?`);
-  html = fonts.replace(/\b(href|src|data-src)="(\/[^"]*)"/g, (_, attr, url) => `${attr}="${local(url)}"`);
-  fs.writeFileSync(path.join(WWW, c.id, 'about.html'), html.replace(/^<!doctype html>\n?/i,
-    `<!doctype html>\n<!-- The iOS app's copy of the website's /${c.id}/: made by \`npm run build\` in app/, do not edit by hand. -->\n`));
+  if (fonts === html || fonts.includes('fonts.googleapis')) throw new Error(`${f}: could not find the Google Fonts links, has _includes/head.html changed?`);
+  html = fonts.replace(/<a class="card (landmark-card|art-card)" href="([^"]+)">([\s\S]*?)<\/a>/g, (card, _, href) => {
+    const play = in3d(href);
+    return play ? `<div class="card-3d">${card}<a class="in-3d-btn" href="${play.replace(/&/g, '&amp;')}">Visit in 3D</a></div>` : card;
+  }).replace('</head>', `${cardButtons}\n</head>`);
+  html = html.replace(/\b(href|src|data-src)="(\/[^"]*)"/g, (_, attr, url) => `${attr}="${local(url)}"`);
+  copy(path.join(SITE_OUT, f), path.join(WWW, f));
+  fs.writeFileSync(path.join(WWW, f), html.replace(/^<!doctype html>\n?/i,
+    `<!doctype html>\n<!-- The iOS app's copy of the website's /${path.dirname(f)}/: made by \`npm run build\` in app/, do not edit by hand. -->\n`));
 }
+// the game's way back to the page it was opened from (core/js/game/menu.js, ?from=<landmark> or
+// ?from=art:<piece>) names the page too
+const menu = path.join(WWW, 'core/js/game/menu.js');
+const back = fs.readFileSync(menu, 'utf8').replace('`../../art/${art}/`', '`../../art/${art}/index.html`').replace('`../landmark/${from}/`', '`../landmark/${from}/index.html`');
+if (!back.includes('art/${art}/index.html') || !back.includes('landmark/${from}/index.html')) throw new Error("core/js/game/menu.js: could not find siteBack()'s pages, has it changed?");
+fs.writeFileSync(menu, back);
 for (const p of pictures) if (fs.existsSync(path.join(SITE_OUT, p))) copy(path.join(SITE_OUT, p), path.join(WWW, p));
 
 // a square photo per city for its card in the picker: its first landmark with one (_data/landmarks/<city>.json)
@@ -223,7 +257,7 @@ fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
       <div><h1>Instant Cities</h1><p>Pick a city to play</p></div>
     </header>
     <ul>
-${listed.map(c => `      <li>${thumb(c.id)}<div><small>${esc(c.country)}</small><strong>${esc(c.name)}</strong><p>${esc(c.card)}</p></div><div class="btns"><a class="play" href="${c.id}/play/index.html">Play</a><a href="${c.id}/about.html">About</a></div></li>`).join('\n')}
+${listed.map(c => `      <li>${thumb(c.id)}<div><small>${esc(c.country)}</small><strong>${esc(c.name)}</strong><p>${esc(c.card)}</p></div><div class="btns"><a class="play" href="${c.id}/play/index.html">Play</a><a href="${c.id}/index.html">About</a></div></li>`).join('\n')}
     </ul>
   </div></main>
 </body>

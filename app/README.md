@@ -20,9 +20,10 @@ own paths work unchanged: every city's code in `<city>/`, its game page in `<cit
 `core/game.html` as `tools/pages.mjs` does, so it never lags behind the template), `core/`'s code,
 stylesheet and sounds, the paintings from `assets/img/art/`, Three.js from npm and the fonts from
 `@fontsource`, with the city picker (from `_data/cities.yml`) at the root. Each city's About page
-(`<city>/about.html`) is the website's own page of the city: the build runs Jekyll
-(`bundle exec jekyll build`, so the site's gems need to be installed; Homebrew's Ruby 3.3 is used
-where it is there) and keeps that page's links inside the app where the app has the page. It leaves out the offline
+(`<city>/index.html`) is the website's own page of the city, with its landmarks', places' and art
+pages next to it: the build runs Jekyll (`bundle exec jekyll build`, so the site's gems need to be
+installed; Homebrew's Ruby 3.3 is used where it is there), keeps their links inside the app, and
+gives each landmark's and painting's card a "Visit in 3D" button straight into the game. It leaves out the offline
 worker and the links to the website. The build stops if the page no longer looks the way it expects.
 
 `www/` and the copy of it in `ios/App/App/public/` are not checked in; `ios/` itself is.
