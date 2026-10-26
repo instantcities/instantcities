@@ -1,28 +1,430 @@
-# ghent's landmarks in Dutch (_data/landmarks/ghent.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# ghent's landmarks in Dutch (_data/landmarks/ghent.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 sint-baafs-kathedraal:
   name: Sint-Baafskathedraal
   blurb: Gebouwd van de 13e tot de 16e eeuw, met een toren van 89 m. Binnen hangt de Aanbidding van het Lam Gods (1432) van de gebroeders Van Eyck, een van de beroemdste en meest gestolen schilderijen ter wereld. Het paneel van de Rechtvaardige Rechters, gestolen in 1934, is nooit teruggevonden.
+  text:
+  - 'De Sint-Baafskathedraal is de kathedraal van het bisdom Gent en een van de grote gotische kerken van de Lage Landen. Aan de buitenkant zie je vooral de zware westtoren van 89 m, die boven de daken van de oude stad uitsteekt en met het Belfort en de Sint-Niklaaskerk Gents beroemde rij van drie torens vormt. Eenmaal binnen zie je hoe de kerk in drie eeuwen groeide: een hoog gotisch koor, een lichter laatgotisch schip en daaronder een crypte uit de romaanse tijd.'
+  - 'De schat van de kerk is het Gentse Altaarstuk, De aanbidding van het Lam Gods, dat Hubert en Jan van Eyck in 1432 voltooiden. Op de twaalf panelen zie je Adam en Eva, zingende engelen, God op zijn troon en in het midden het Lam op het altaar, aanbeden door heiligen, profeten, ridders en pelgrims uit alle hoeken van de wereld. De schilders gebruikten olieverf met een nooit eerder geziene precisie: je ziet afzonderlijke haren, juwelen die het licht vangen en meer dan veertig plantensoorten die je nu nog herkent.'
+  - Maar de kathedraal is meer dan dat ene schilderij. Er is Rubens’ Sint-Baafs treedt het klooster binnen (1624), een weelderige rococopreekstoel van Laurent Delvaux in eik en wit en zwart marmer, barokke bisschopsgraven en een van de grootste crypten van België, met muurschilderingen en kerkschatten. Er is zoveel te zien dat je er gemakkelijk een paar uur zoet mee bent.
+  history:
+  - 'Al in de 10e eeuw stond hier een kleine kerk gewijd aan Sint-Jan de Doper. In de 12e eeuw werd ze vervangen door een romaanse kerk, waarvan de crypte bewaard bleef. Vanaf de 13e eeuw werd stukje bij beetje een nieuwe gotische kerk gebouwd: eerst het koor, daarna in de 15e en 16e eeuw de toren en het schip. Daarom toont één gebouw drie eeuwen architectuur.'
+  - In 1432 werd het altaarstuk geplaatst in de kapel van Joos Vijd en zijn vrouw Elisabeth Borluut, die het hadden besteld. In 1500 werd keizer Karel V, in Gent geboren, hier gedoopt. Na de Gentse opstand van 1539 liet hij de oude Sint-Baafsabdij afbreken om een versterking te bouwen die de stad in bedwang moest houden; de monniken verhuisden naar Sint-Jan, dat daardoor Sint-Baafs werd. Toen het bisdom Gent in 1559 werd opgericht, werd het een kathedraal.
+  - 'Het altaarstuk heeft een avontuurlijk leven gehad. Tijdens de beeldenstorm van 1566 werd het in de toren verborgen. Franse revolutionairen namen de middenpanelen mee naar het Louvre; ze kwamen na de val van Napoleon terug. De zijluiken werden in 1816 verkocht en belandden in Berlijn, tot ze na de Eerste Wereldoorlog naar Gent moesten terugkeren. In 1934 werden twee panelen gestolen. Dat met Johannes de Doper kwam terug, maar de Rechtvaardige Rechters is nooit teruggevonden: wat je nu ziet is een kopie van Jef Van der Veken. In de Tweede Wereldoorlog legden de nazi’s beslag op het altaarstuk; de Amerikaanse ‘Monuments Men’ vonden het in 1945 in een zoutmijn in Oostenrijk.'
+  - Sinds 2012 wordt het altaarstuk paneel voor paneel gerestaureerd door het Koninklijk Instituut voor het Kunstpatrimonium. Onder latere overschilderingen kwam de originele verf van de Van Eycks weer tevoorschijn, met als bekendste verrassing het verbazingwekkend menselijke gezicht van het Lam. In 2021 opende in de kathedraal een nieuw bezoekerscentrum, waar je het verhaal van het schilderij ook in augmented reality kunt beleven.
+  visit:
+  - 'De kathedraal staat op het Sint-Baafsplein, een paar minuten lopen van het Belfort en de Korenmarkt. Je kunt de kerk zelf meestal gratis binnen, buiten de diensten. Voor het Gentse Altaarstuk koop je een ticket: het omvat een rondleiding met een tablet of AR-bril door het verhaal van het schilderij, waarna je oog in oog staat met het origineel. Reken op een uur tot anderhalf uur, en reserveer in het hoogseizoen het best vooraf.'
+  - 'Het is een gebedshuis: praat zachtjes, bedek je schouders als daarom wordt gevraagd en loop niet rond tijdens de mis. Foto’s zonder flits zijn bijna overal toegestaan, maar niet overal.'
+  dates:
+  - - 10e eeuw
+    - Een eerste kerk, gewijd aan Sint-Jan de Doper.
+  - - 12e eeuw
+    - Een romaanse kerk; de crypte is er nog.
+  - - '1432'
+    - Het altaarstuk van de gebroeders Van Eyck wordt geplaatst.
+  - - '1500'
+    - Karel V wordt hier gedoopt.
+  - - '1559'
+    - Nu Sint-Baafs genoemd, wordt de kerk een kathedraal.
+  - - '1934'
+    - Het paneel van de Rechtvaardige Rechters wordt gestolen en nooit teruggevonden.
+  - - '1945'
+    - Het altaarstuk wordt teruggevonden in een Oostenrijkse zoutmijn.
+  - - '2021'
+    - Een nieuw bezoekerscentrum met augmented reality.
 belfort:
   name: Belfort
   blurb: De stadstoren van 91 m, begonnen in 1313. Gent bewaarde hier zijn privilegies, en wachters keken uit naar brand en vijanden. Bovenop houdt een vergulde draak de wacht. Samen met de Lakenhalle ernaast staat het op de Werelderfgoedlijst van UNESCO.
+  text:
+  - 'Het Belfort is de middelste van Gents drie torens en met 91 m het hoogste belfort van België. Terwijl de kerktorens aan weerszijden over God spreken, staat het Belfort voor de stad zelf: voor de vrijheid en de macht van haar burgers tegenover de graaf. Bovenop de spits draait een vergulde draak, het symbool van Gent, die met zijn kop in de wind over de stad waakt.'
+  - 'Binnen klim je langs de vertrekken van de wachters en de zalen waar vroeger het stadsarchief werd bewaard naar de klokkenverdieping. Daar hangt het carillon, een van de grootste van het land met meer dan vijftig klokken, en je ziet de enorme trommel die ze automatisch laat spelen. Vanaf de galerij heb je een van de mooiste uitzichten over de stad: de Sint-Baafs vlakbij, het Gravensteen, de Leie met de Graslei en, op een heldere dag, ver voorbij Gent. Een lift brengt je het grootste deel van de weg omhoog.'
+  - 'Tegen de toren staat de Lakenhalle, waar de lakenhandelaars de kwaliteit van hun wollen laken lieten keuren: de bron van Gents middeleeuwse rijkdom. Aan de kant van het Goudenleeuwplein is de Mammelokker, de oude ingang van de stadsgevangenis. Het beeldhouwwerk erboven toont een oude man in zijn cel die door zijn dochter de borst krijgt, een verhaal van barmhartigheid uit de Romeinse oudheid. Op het pleintje ernaast staat de gebarsten klok Triomfante.'
+  history:
+  - 'De bouw begon in 1313, toen Gent na Parijs een van de grootste steden van Noord-Europa was. De bouwers werkten naar een ontwerp op perkament dat nog bestaat en een van de oudste bouwtekeningen van de Lage Landen is. Rond 1380 stond de stenen toren, met een houten spits erbovenop. In het ‘secreet’, een kluis achter dikke ijzeren deuren, bewaarde de stad haar privileges: de oorkonden met de rechten die ze de graven had afgedwongen.'
+  - 'De grote klok Roeland luidde bij brand, bij oorlog en om de burgers samen te roepen. Gentenaars kennen nog het rijmpje ‘Mijn naam is Roeland; als ik klep is er brand, als ik luid is er storm in Vlaanderen.’ Na de opstand van 1539 strafte keizer Karel V de stad: haar privileges werden ingetrokken en Roeland moest naar beneden. De Hemony-klok Triomfante, die later in de toren hing, scheurde in 1914 en staat nu aan de voet van het Belfort.'
+  - 'De Lakenhalle werd vanaf 1425 tegen de toren gebouwd, maar werd pas begin 20e eeuw min of meer afgewerkt. Ook de spits kende vele versies: een houten, een barokke, een gietijzeren uit de 19e eeuw en ten slotte de huidige, gebouwd voor de wereldtentoonstelling van 1913 naar het oorspronkelijke middeleeuwse ontwerp. De oudste draken, uit de 14e eeuw, worden in de toren bewaard.'
+  - In 1999 werd het Belfort, met de Lakenhalle en de Mammelokker, opgenomen op de UNESCO-werelderfgoedlijst, bij de belforten van België en Frankrijk. Samen vertellen deze torens het verhaal van de vrije middeleeuwse steden, waar burgers hun eigen stad bestuurden.
+  visit:
+  - 'De ingang ligt aan de kant van het Sint-Baafsplein, tussen de kathedraal en het stadhuis. Je koopt een ticket en gaat te voet of met de lift omhoog; de laatste trappen naar de klokken en de galerij zijn smal en steil. Kom bij voorkeur op een heldere dag voor het uitzicht, en kijk of er die dag een carillonconcert is: dan hoor je de klokken van dichtbij.'
+  - Reken op ongeveer een uur. De lift is een grote hulp als je niet vast op de benen staat, maar niet elk deel van de toren is zonder trappen te bereiken.
+  dates:
+  - - '1313'
+    - De bouw begint.
+  - - '1377'
+    - Een vergulde draak op de spits.
+  - - ca. 1380
+    - De stenen toren is af.
+  - - '1425'
+    - De Lakenhalle wordt ernaast begonnen.
+  - - '1540'
+    - 'Karel V straft Gent: de klok Roeland moet naar beneden.'
+  - - '1741'
+    - De Mammelokker, ingang van de gevangenis.
+  - - '1913'
+    - Een nieuwe spits naar het middeleeuwse ontwerp.
+  - - '1999'
+    - UNESCO-werelderfgoed.
 gravensteen:
   name: Gravensteen
   blurb: De burcht van de graven van Vlaanderen, in 1180 gebouwd door Filips van de Elzas. Later was het een rechtbank, een gevangenis en zelfs een katoenspinnerij, en rond 1900 kreeg het zijn kantelen terug. In 1949 bezetten studenten het, uit protest tegen de stijgende bierprijs.
+  text:
+  - 'Het Gravensteen is het enige middeleeuwse kasteel in Vlaanderen met een bijna volledig bewaard verdedigingssysteem, en het staat midden in de stad. Een gracht gevoed door de Leie en de Lieve omgeeft een hoge ringmuur met torentjes en kantelen. Je komt door het poortgebouw op de binnenplaats, met de donjon in het midden: de massieve woontoren van de graaf, bijna dertig meter hoog.'
+  - 'Binnen dwaal je door de zalen van de graaf, de oude kelders, de kerkers en de wapenkamer, met harnassen, zwaarden en kruisbogen. Er is ook een verzameling martel- en straftuigen uit de tijd dat het kasteel een gerechtshof en gevangenis was: niet de plek voor kleine kinderen die snel schrikken. Het hoogtepunt is letterlijk het dak van de donjon: vanaf de kantelen kijk je uit over de daken van het Patershol, de Vrijdagmarkt en de torens van de oude stad.'
+  - 'Het bezoek gaat gepaard met een audiogids in de vorm van een ‘audiofilm’: de Gentse komiek Wouter Deprez vertelt de geschiedenis van het kasteel met veel humor, en het werkt voor jong en oud. Zo hoor je over graven, opstandige Gentenaars en studenten op het dak terwijl je door de zalen loopt.'
+  history:
+  - 'Er stond hier al in de 10e eeuw een versterkte plaats, eerst van hout. In 1180 liet graaf Filips van de Elzas het stenen kasteel bouwen dat je nu ziet; een inscriptie boven de poort noemt het jaar. Filips was op kruistocht geweest en had daar de kruisvaarderskastelen gezien. Zijn kasteel was ook een boodschap aan de rijke, rebelse Gentenaars: hier was de graaf de baas.'
+  - 'Na de 14e eeuw woonden de graven er niet meer: ze verhuisden naar het comfortabelere Prinsenhof, waar Karel V in 1500 zou worden geboren. Het Gravensteen werd de zetel van de Raad van Vlaanderen, het hoogste gerechtshof van het graafschap. Hier werd recht gesproken, munt geslagen, werden gevangenen opgesloten en gemarteld. Toen de Raad in de 18e eeuw vertrok, werd het kasteel verkocht en opgedeeld: huizen en werkplaatsen trokken erin en, begin 19e eeuw, zelfs een katoenspinnerij, met arbeidershuisjes op de binnenplaats.'
+  - Tegen het eind van de 19e eeuw was het Gravensteen een brokkelige ruïne verscholen achter huizen. De stad kocht het en liet het restaureren. Rond 1900 werd het vrijgemaakt en kreeg het zijn muren, torens en kantelen terug, deels zoals de restaurateurs vonden dat een middeleeuws kasteel eruit moest zien. Net op tijd voor de wereldtentoonstelling van 1913 stond het er weer als een sprookjeskasteel.
+  - In november 1949 bezetten Gentse studenten een paar uur het kasteel, uit protest tegen de prijs van bier. Ze verschansten zich achter de kantelen en bekogelden de politie en brandweer met rotte groenten. Het verhaal werd een legende, en de studenten herdenken de bezetting nog elk jaar.
+  visit:
+  - Het Gravensteen ligt aan het Sint-Veerleplein, vijf minuten lopen van de Korenmarkt en de Graslei, aan de rand van het Patershol. Koop een ticket aan de balie of vooraf online; de audiogids is inbegrepen. Reken op anderhalf uur. Er zijn veel smalle wenteltrappen, dus het kasteel is maar gedeeltelijk toegankelijk met een rolstoel of kinderwagen.
+  - 'Ga in de zomer vroeg op de dag of laat in de namiddag: op de kantelen is het dan rustiger. Daarna kun je meteen het Patershol in, de oude wijk met smalle steegjes en veel restaurants.'
+  dates:
+  - - 10e eeuw
+    - Een eerste houten versterking.
+  - - '1180'
+    - Filips van de Elzas bouwt het stenen kasteel.
+  - - 14e eeuw
+    - De graven verhuizen naar het Prinsenhof.
+  - - '1407'
+    - Zetel van de Raad van Vlaanderen.
+  - - 19e eeuw
+    - Huizen, werkplaatsen en een katoenspinnerij in het kasteel.
+  - - ca. 1900
+    - 'Grote restauratie: het kasteel krijgt zijn kantelen terug.'
+  - - '1949'
+    - Studenten bezetten het kasteel over de prijs van bier.
 graslei:
   name: Graslei en Korenlei
   blurb: De middeleeuwse haven van Gent, aan beide oevers van de Leie. Schippers losten hier graan en de gilden bouwden hun huizen langs de kade. Het Koornstapelhuis, het grijze romaanse graanpakhuis van rond 1200, is een van de oudste huizen van de stad.
+  text:
+  - 'De Graslei en de Korenlei zijn de twee kaden aan weerszijden van de Leie, in het hart van Gent, en samen het bekendste ansichtkaartbeeld van de stad. Op de Graslei, de oostzijde, staat een rij gildehuizen en pakhuizen die bijna duizend jaar architectuur tonen: van een eenvoudig romaans graanhuis tot rijk versierde barokke gevels. Aan de overkant, op de Korenlei, staan statige herenhuizen en meer gildehuizen. Ertussen liggen de bootjes, en de Leie drijft langzaam naar het centrum.'
+  - Loop langs de Graslei en lees de gevels als een boek. Het Gildehuis van de Vrije Schippers is laatgotisch, met een schip als windvaan. Het smalle Tolhuisje, waar tol werd geheven op graan, is Vlaamse renaissance. Het Koornstapelhuis, het grijze romaanse graanhuis met de trapgevel, is een van de oudste huizen van de stad. En het Korenmetershuis was voor de mannen die het graan wogen en maten. Op de Korenlei valt het Gildehuis van de Onvrije Schippers op, met zijn barokke voorgevel en vergulde schip.
+  - 'Tegenwoordig is dit de woonkamer van Gent. Op zonnige dagen zitten honderden mensen met hun benen boven het water op de kademuur, zijn er caféterrassen en vertrekken hier de rondvaartboten. ’s Avonds worden de gevels zacht verlicht: Gent heeft een eigen lichtplan, en de Graslei is het mooiste voorbeeld. Het beste uitzicht op beide kaden heb je vanaf de Sint-Michielsbrug.'
+  history:
+  - 'Dit stuk van de Leie was de middeleeuwse haven van Gent, ‘Tussen Bruggen’ genoemd. Gent had het stapelrecht voor graan: schepen met graan op de Leie en de Schelde moesten het eerst hier te koop aanbieden. Dat recht maakte de stad rijk en hield haar bevolking gevoed. Schippers losten hun lading, korenmeters controleerden de maten en het graan werd in pakhuizen opgeslagen.'
+  - De gilden, de verenigingen van ambachtslieden en handelaars, toonden hun rijkdom met prachtige huizen aan de kade. Het Koornstapelhuis werd rond 1200 gebouwd als graanopslag. Het Gildehuis van de Vrije Schippers volgde in 1531, het Tolhuisje in 1682 en het Korenmetershuis eind 17e eeuw. De vrije schippers mochten overal varen; de onvrije alleen binnen de stad, en zij bouwden in 1739 hun eigen gildehuis op de Korenlei.
+  - 'In de 19e eeuw verloor de haven haar belang en werden veel gevels veranderd of achter pleisterwerk verborgen. Voor de wereldtentoonstelling van 1913 werd de Graslei grondig gerestaureerd, zodat bezoekers een middeleeuws Gent konden zien. Daarbij werden sommige gevels herbouwd naar oude tekeningen. Het Gildehuis van de Metselaars op de Graslei is zo’n reconstructie: later bleek dat de echte gevel nog bestond, verborgen in een steegje bij de Sint-Niklaaskerk, waar hij sindsdien ook is gerestaureerd.'
+  - Lange tijd reden auto’s langs de Graslei en de Korenlei. Sinds het centrum grotendeels autovrij is, zijn de kaden weer van de voetgangers, en ze zijn de plek geworden waar Gent samenkomt, van zomeravonden met vrienden tot de Gentse Feesten.
+  visit:
+  - De Graslei en de Korenlei zijn altijd voor iedereen open, dag en nacht. Ze liggen een paar minuten lopen van de Korenmarkt of de Sint-Michielsbrug. De gildehuizen zelf zijn meestal privé of restaurants en kunnen niet als museum worden bezocht, maar in sommige zit een restaurant of café waar je binnen kunt.
+  - 'Wil je de kaden vanaf het water zien, maak dan een rondvaart: meerdere bedrijven vertrekken hier het hele jaar door, voor een tocht van ongeveer drie kwartier door de oude stad. Kom ook ’s avonds terug, als de gevels verlicht zijn.'
+  dates:
+  - - ca. 1200
+    - Het Koornstapelhuis, een romaans graanhuis.
+  - - Middeleeuwen
+    - Gent krijgt het stapelrecht voor graan.
+  - - '1531'
+    - Het Gildehuis van de Vrije Schippers.
+  - - '1682'
+    - Het Tolhuisje.
+  - - '1739'
+    - Het Gildehuis van de Onvrije Schippers op de Korenlei.
+  - - '1913'
+    - Grote restauratie voor de wereldtentoonstelling.
 sint-michielsbrug:
   name: Sint-Michielsbrug
   blurb: 'Gebouwd aan het begin van de 20e eeuw, net voor de Wereldtentoonstelling van 1913. Kijk naar het oosten en je ziet de drie torens van Gent op een rij: Sint-Niklaas, het Belfort en Sint-Baafs. Achter je staat de Sint-Michielskerk, waarvan de toren nooit af raakte.'
+  text:
+  - 'De Sint-Michielsbrug is niet zozeer een bezienswaardigheid om naar te kijken als een plek om vanaf te kijken. Vanaf deze stenen boog over de Leie heb je het mooiste uitzicht van Gent. Kijk naar het oosten en je ziet de drie torens van de stad netjes op een rij: eerst de Sint-Niklaaskerk, dan het Belfort met zijn draak en erachter de toren van de Sint-Baafskathedraal. Fotografen en schilders staan hier al meer dan een eeuw.'
+  - Draai je om en er is veel meer. Kijk naar het noorden langs het water, met de Graslei rechts en de Korenlei links, hun gildehuizen weerspiegeld in de Leie. In de verte steken de torens van het Gravensteen boven de daken uit. Aan de westkant van de brug staat de Sint-Michielskerk, met haar opvallend platte toren, en aan de oostkant het grote neogotische gebouw van het oude Postgebouw, nu een hotel en winkels.
+  - 'De brug zelf is mooi in zijn eenvoud: één brede boog in natuursteen, met sierlijke lantaarns en balustrades. ’s Avonds, als de torens en de gevels langs de kaden verlicht zijn, is hij op zijn romantisch best. Geen wonder dat hij het romantische hart van Gent wordt genoemd en dat hier zoveel trouwfoto’s worden genomen.'
+  history:
+  - Er ligt hier al sinds de middeleeuwen een brug, die het oude centrum rond de Korenmarkt verbindt met de wijk rond de Sint-Michielskerk aan de overkant van de Leie. Het was een drukke oversteek, met de haven van de Graslei en Korenlei vlakbij.
+  - De brug die je nu ziet, werd in de eerste jaren van de 20e eeuw gebouwd, in de aanloop naar de wereldtentoonstelling van 1913. Gent wilde zich aan de wereld tonen als middeleeuws juweel, en de Graslei, het Gravensteen en het Belfort werden in die jaren allemaal onder handen genomen. De nieuwe brug moest bij dat beeld passen en breed genoeg zijn voor modern verkeer, trams inbegrepen.
+  - 'De Sint-Michielskerk ernaast is veel ouder. De bouw van deze gotische kerk begon in 1440 maar sleepte eeuwenlang aan door geldgebrek en de godsdienstoorlogen. De toren was bedoeld als een van de hoogste van de Lage Landen maar werd nooit afgemaakt: vandaar zijn platte top. Binnen hangt onder meer een Kruisiging van Anthony van Dyck. Het Postgebouw tegenover werd tussen 1898 en 1909 gebouwd in een rijke mix van neogotiek en neorenaissance en vond na een grondige verbouwing nieuw leven als hotel en winkelcentrum.'
+  visit:
+  - De brug is altijd voor iedereen open en ligt aan de Korenmarkt, een paar stappen van de Graslei. Kom bij zonsopgang voor de rust, of bij zonsondergang en daarna, als de lichten aangaan. Het is het perfecte beginpunt voor een wandeling langs de kaden.
+  - Je kunt de Sint-Michielskerk meestal gratis binnen, al zijn de openingsuren korter dan die van de kathedraal en vaak alleen in het toeristenseizoen. Pas op voor de trams en fietsers die de brug oversteken als je stilstaat voor een foto.
+  dates:
+  - - Middeleeuwen
+    - Een eerste brug op deze plek.
+  - - '1440'
+    - De bouw van de Sint-Michielskerk begint.
+  - - 1898–1909
+    - Het Postgebouw aan de Korenmarkt.
+  - - ca. 1910
+    - De huidige stenen brug wordt gebouwd.
+  - - '1913'
+    - 'Wereldtentoonstelling: Gent toont zich aan de wereld.'
 sint-niklaaskerk:
   name: Sint-Niklaaskerk
   blurb: 'De kerk van de kooplieden, uit de 13e eeuw, in blauwgrijze Doornikse steen: Scheldegotiek. De toren staat midden op het dak en diende ook als uitkijk, lang voor het Belfort er stond. Nu zijn er ook concerten en tentoonstellingen.'
+  text:
+  - 'De Sint-Niklaaskerk is de eerste van Gents drie torens die je ziet als je van de Sint-Michielsbrug komt, en misschien de mooiste. Ze is gebouwd in Scheldegotiek, een stijl die alleen in deze streek voorkomt: eenvoudige, krachtige gotiek in blauwgrijze steen uit Doornik, over de Schelde naar Gent verscheept. Kijk naar de hoektorentjes op de gevels en naar de grote vieringtoren, die niet vooraan staat zoals bij de meeste kerken maar midden op het dak, boven waar schip en dwarsschip elkaar kruisen.'
+  - Binnen is de kerk verrassend licht en hoog. De ramen laten veel daglicht op de bleke steen vallen, en je ziet hoe de gotische bouwers het gewicht van het dak met pijlers en bogen droegen. Er is een groot barok hoogaltaar, en het indrukwekkende orgel is het werk van de Franse orgelbouwer Aristide Cavaillé-Coll, die ook de orgels van Notre-Dame en Saint-Sulpice in Parijs maakte.
+  - De kerk wordt nog gebruikt voor diensten, maar ook voor concerten, tentoonstellingen en evenementen. Juist omdat ze aan de drukke Korenmarkt staat, is ze een goede plek voor een rustig moment.
+  history:
+  - 'Sint-Niklaas is de kerk van de kooplieden. Ze staat aan de Korenmarkt, waar in de middeleeuwen graan en andere goederen werden verhandeld, en werd betaald door de rijke handelaars en gilden van de stad. Sint-Nicolaas is geen toeval: hij is onder meer de patroonheilige van kooplieden en schippers. Eerst stond hier een romaanse kerk; begin 13e eeuw begon het werk aan de gotische kerk die je nu ziet.'
+  - De vieringtoren diende lang als uitkijkpost van de stad. Wachters hielden er de omgeving in de gaten, en de klokken riepen de stedelingen samen. Toen het Belfort in de 14e eeuw klaar was, nam het die rol over. In de loop der eeuwen werd de kerk getroffen door branden, door de beeldenstorm en door de Franse revolutionairen, die haar een tijdje als stal gebruikten.
+  - Vanaf de 18e eeuw groeiden huisjes en winkeltjes tegen de buitenmuren, tot de kerk bijna achter een rij gevels verdween. Die werden pas in de 20e eeuw weggehaald. Toen was de kerk in zo’n staat dat ze een tijd moest sluiten. In de jaren zestig begon een lange restauratie, die tientallen jaren duurde en de kerk de blauwgrijze schoonheid teruggaf die je nu ziet.
+  visit:
+  - De kerk staat aan de Korenmarkt, tussen de Sint-Michielsbrug en het Belfort, en is gratis te bezoeken. Ze is meestal elke dag open, op maandag vaak pas vanaf de middag, en tijdens diensten en evenementen kan een deel afgesloten zijn. Een bezoek duurt ongeveer twintig minuten.
+  - 'Houd de agenda in de gaten: er zijn regelmatig orgelrecitals en andere concerten, en dan hoor je het Cavaillé-Coll-orgel op zijn best.'
+  dates:
+  - - ca. 1200
+    - De bouw van de gotische kerk begint.
+  - - 13e eeuw
+    - De vieringtoren dient als uitkijkpost van de stad.
+  - - '1566'
+    - 'Beeldenstorm: de kerk wordt geplunderd.'
+  - - '1856'
+    - Het Cavaillé-Coll-orgel.
+  - - 20e eeuw
+    - De huizen die ertegenaan gebouwd waren, worden weggehaald.
+  - - 1960–2000
+    - Een lange, grondige restauratie.
 stadhuis:
   name: Stadhuis
   blurb: 'Een stadhuis in twee stijlen: weelderige laatgotiek aan de Hoogpoort, sobere renaissance aan de Botermarkt. Geldgebrek en de godsdienstoorlogen legden de bouw telkens stil. De Pacificatie van Gent, een vrede tussen de provincies van de Nederlanden, werd hier in 1576 getekend.'
+  text:
+  - 'Het Gentse stadhuis is eigenlijk twee gebouwen in één, zoals je meteen ziet als je er rondloopt. Aan de Hoogpoort staat een uitbundige laatgotische voorgevel, vol steenkant, pinakels, nissen en balkonnetjes: het lijkt een stenen juwelenkistje. Sla de hoek om naar de Botermarkt en je staat voor een sobere, statige renaissancegevel met zuilen op drie verdiepingen, geïnspireerd op de klassieke oudheid. De twee stijlen botsen niet; samen vertellen ze het verhaal van een stad die een eeuw bouwde aan haar stadhuis.'
+  - 'Binnen zijn zalen uit verschillende eeuwen. De Pacificatiezaal, waar in 1576 de Pacificatie van Gent werd ondertekend, heeft een vloer met een doolhofpatroon. De gemeenteraad vergadert en ontvangsten worden gehouden in de Troonzaal en de Arsenaalzaal, en in de oude Collatiezaal en de gotische kapel zie je hoe de stadsbestuurders zich vroeger presenteerden. Het stadhuis is ook waar Gentenaars trouwen: elke week komen hier paartjes naar buiten onder de ogen van toeristen.'
+  - Het stadhuis is nog altijd het hart van het Gentse bestuur. De burgemeester en schepenen werken hier, en vanaf het balkon aan de Botermarkt worden kampioenen en feestvierders toegejuicht.
+  history:
+  - In de middeleeuwen stonden hier de schepenhuizen, de gebouwen van de twee schepenbanken die de stad bestuurden. Begin 16e eeuw was Gent zo rijk en trots dat het een stadhuis wilde dat alle andere in de Lage Landen zou overtreffen. In 1518 begonnen de bouwmeesters Rombout Keldermans en Domien de Waghemakere, die ook in Antwerpen en Mechelen werkten, aan de laatgotische vleugel aan de Hoogpoort.
+  - De bouw liep al snel vast. In 1539 kwam Gent in opstand tegen Karel V, verloor haar privileges en veel geld, en het werk stopte. Pas eind 16e en begin 17e eeuw ging het door, nu in de nieuwe renaissancestijl, met de voorgevel aan de Botermarkt. De godsdienstoorlogen en geldgebrek zorgden ervoor dat de gotische vleugel nooit volgens het oorspronkelijke plan werd afgewerkt; een deel werd pas in de 19e eeuw voltooid.
+  - Op 8 november 1576 werd in het stadhuis de Pacificatie van Gent ondertekend. In een tijd van oorlog tussen de Spaanse koning en de opstandige Nederlanden kwamen de gewesten overeen samen de Spaanse troepen te verdrijven en elkaar te tolereren ondanks hun verschillende geloof. Het was een kortstondige vrede, maar een belangrijk moment in de geschiedenis van de Lage Landen.
+  visit:
+  - 'Het stadhuis staat op de hoek van de Hoogpoort en de Botermarkt, tussen het Belfort en de Vrijdagmarkt. Je kunt er niet zomaar binnen: het is een werkend stadhuis. Je ziet het interieur tijdens een rondleiding, op vaste tijden en vaak te boeken via Visit Gent. De buitenkant kun je natuurlijk op elk moment bekijken, en dat is zeker de moeite waard.'
+  - Loop helemaal om het gebouw heen om beide gevels te zien, en kijk op zaterdag of er een huwelijk bezig is.
+  dates:
+  - - Middeleeuwen
+    - De schepenhuizen van de stad op deze plek.
+  - - '1518'
+    - De laatgotische vleugel aan de Hoogpoort wordt begonnen.
+  - - '1539'
+    - 'Gent komt in opstand: de bouw stopt.'
+  - - '1576'
+    - De Pacificatie van Gent wordt hier ondertekend.
+  - - ca. 1580–1620
+    - De renaissancevleugel aan de Botermarkt.
+  - - 19e eeuw
+    - Een deel van de gotische vleugel wordt voltooid.
 vrijdagmarkt:
   blurb: Het plein van markten, feesten en opstanden, waar de graven van Vlaanderen werden ingehuldigd. In het midden wijst Jacob van Artevelde, de brouwer die Gent in 1338 leidde, de weg. Aan de overkant staat Ons Huis, het grote huis van de socialistische arbeidersbeweging.
+  text:
+  - 'De Vrijdagmarkt is een van de grootste en oudste pleinen van Gent, en eeuwenlang het politieke hart van de stad. Het is een breed, open plein, omringd door huizen met trapgevels, barokke gevels en grote 19e-eeuwse gebouwen, met caféterrassen rondom. In het midden staat het bronzen standbeeld van Jacob van Artevelde, die met uitgestrekte arm naar het westen wijst: naar Engeland, het land waarmee hij een cruciale deal sloot.'
+  - Rond het plein is veel te ontdekken. Het grote Ons Huis, met zijn rijke, kleurrijke gevel vol opschriften, was het hoofdkwartier van de socialistische arbeidersbeweging. Op de hoek staat het Toreken, het gildehuis van de huidevetters met zijn slanke toren, nu een poëziecentrum. En in café Dulle Griet drink je bier uit een ‘Max’, een glas van meer dan een liter, waarvoor je een van je schoenen als borg moet afgeven; die wordt dan in een mandje naar het plafond gehesen.
+  - Vlak naast het plein, op het Groot-Kanonplein, staat de Dulle Griet, een enorm rood smeedijzeren kanon uit de 15e eeuw, een van de grootste middeleeuwse kanonnen die bewaard zijn gebleven. Het werd nooit echt in een veldslag gebruikt, maar het is een geliefd symbool van de stad.
+  history:
+  - 'De naam zegt het al: sinds de middeleeuwen wordt hier elke vrijdag markt gehouden. Maar de Vrijdagmarkt was veel meer dan een marktplein. Hier werden de graven van Vlaanderen bij hun blijde intrede beëdigd en beloofden ze de rechten van de stad te respecteren. Hier kwamen de gilden samen, werden tornooien en feesten gehouden, en ook terechtstellingen.'
+  - 'In de 14e eeuw werd Gent meegesleurd in de Honderdjarige Oorlog tussen Frankrijk en Engeland. Gent leefde van lakenweverij en had Engelse wol nodig. In 1338 nam de rijke koopman Jacob van Artevelde het bestuur van de stad over en hield hij Vlaanderen neutraal, zodat de wol bleef komen. Zijn macht duurde niet: in 1345 werd hij vermoord bij een volksopstand. In datzelfde jaar zag het plein de ‘Kwade Maandag’, een bloedig straatgevecht tussen de wevers en de vollers waarbij honderden doden vielen.'
+  - In de 19e eeuw, toen Gent een industriestad werd, werd de Vrijdagmarkt het plein van de arbeidersbeweging. Rond 1900 bouwde de coöperatie Vooruit hier Ons Huis, met winkels, een café en vergaderzalen voor de arbeiders. Het standbeeld van Van Artevelde, van Pieter De Vigne, kwam in 1863. Tegenwoordig is het plein vooral een gezellige plek met terrassen, met een ondergrondse parkeergarage eronder.
+  visit:
+  - De Vrijdagmarkt is een openbaar plein, altijd voor iedereen open, vijf minuten lopen van het Gravensteen en het stadhuis. Op vrijdagochtend is er nog steeds markt, en vaak ook op zaterdag. Rond het plein kun je op tal van terrassen eten en drinken.
+  - Combineer je bezoek met een wandeling naar het Groot Vleeshuis en het Patershol, of over de brug naar het Dulle Griet-kanon en de Kraanlei.
+  dates:
+  - - Middeleeuwen
+    - Elke vrijdag markt; de graven worden hier beëdigd.
+  - - '1338'
+    - Jacob van Artevelde neemt het bestuur van Gent over.
+  - - '1345'
+    - Kwade Maandag; Van Artevelde wordt vermoord.
+  - - 15e eeuw
+    - Het Dulle Griet-kanon.
+  - - '1863'
+    - Het standbeeld van Jacob van Artevelde.
+  - - ca. 1900
+    - Ons Huis, thuis van de socialistische arbeidersbeweging.
 groot-vleeshuis:
   name: Groot Vleeshuis
   blurb: De overdekte vleeshal van de beenhouwers, gebouwd van 1406 tot 1419. Onder de indrukwekkende houten kap hangen nog altijd hammen te drogen. Nu kun je er Oost-Vlaamse streekproducten kopen en proeven.
+  text:
+  - 'Het Groot Vleeshuis is een lange, lage hal van grijze natuursteen aan de Leie, met trapgevels aan beide uiteinden en een rij kleine dakkapellen. Van buiten ziet het er bescheiden uit, maar eenmaal binnen kijk je recht omhoog: het houten dak, een vernuftig web van 15e-eeuwse eikenbalken, overspant de hele hal zonder één pijler in het midden. Het is een van de mooiste middeleeuwse houtconstructies van het land.'
+  - 'Onder die balken hangen nog tientallen Gentse hammen te drogen, zoals de slagers eeuwen geleden deden. Tegenwoordig is de hal een etalage voor streekproducten uit Oost-Vlaanderen. Je kunt proeven en kopen: Gentse mosterd, neuzekes (Gentse paarse kegelvormige snoepjes), streekkazen, jenever, bier en natuurlijk ham. Er is ook een café waar je een streekgerecht kunt eten.'
+  - 'Kijk buiten naar de huisjes die tegen de muur leunen op de Groentenmarkt: de penshuisjes. Daar werden de goedkopere ingewanden en pensen verkocht, die niet in de hal zelf mochten. Achterin de hal is een kleine kapel waar de slagers hun mis hadden.'
+  history:
+  - In de middeleeuwen kon vlees in Gent niet zomaar overal worden verkocht. Het ambacht van de slagers had het monopolie, en al het verse vlees moest worden aangeboden in deze ene overdekte hal, onder toezicht van de stad. Zo kon de stad controleren of het vlees vers was en de juiste belastingen werden betaald. Het Groot Vleeshuis werd tussen 1406 en 1419 gebouwd, op de plaats van een oudere vleeshal.
+  - Het slagersambacht was een van de rijkste en machtigste van de stad, en het lidmaatschap ging van vader op zoon. Eeuwenlang kwamen de Gentenaars hier hun vlees kopen. De penshuisjes werden later tegen de muur gebouwd voor de verkoop van ingewanden en worst, die de slagers niet in de hal wilden.
+  - Toen de gilden eind 18e eeuw verdwenen, verloor de hal haar functie. Ze werd onder meer als pakhuis gebruikt en raakte in verval. Na een grondige restauratie kreeg ze begin 21e eeuw een nieuwe rol als ontmoetingsplaats voor goed Oost-Vlaams eten, en zo hangen de hammen er weer als vroeger.
+  visit:
+  - Het Groot Vleeshuis staat aan de Groentenmarkt, tussen de Korenmarkt en het Gravensteen, aan de Leie. Het is gratis te bezoeken tijdens de openingsuren van de winkel en het café, meestal van dinsdag tot zondag. Spring even binnen om naar het dak te kijken, of neem de tijd om te proeven en te lunchen.
+  - Het is de ideale plek om een eetbaar souvenir van Gent mee naar huis te nemen. Vanaf de overkant van de Leie heb je het beste uitzicht op de lange voorgevel van de hal.
+  dates:
+  - - 1406–1419
+    - Het Groot Vleeshuis wordt gebouwd.
+  - - 15e eeuw
+    - Het eikenhouten dak overspant de hal.
+  - - '1795'
+    - De gilden worden afgeschaft; de hal verliest haar functie.
+  - - 21e eeuw
+    - 'Na restauratie: een centrum voor Oost-Vlaamse producten.'
+werregarenstraat:
+  name: Graffitistraat
+  blurb: 'Het Werregarenstraatje: sinds de jaren negentig mag hier iedereen legaal spuiten. De muren krijgen bijna elke week een verse laag verf, zodat geen bezoek op het vorige lijkt.'
+  text:
+  - Het Werregarenstraatje is een smal steegje tussen de Hoogpoort en de Onderstraat, een paar stappen van het stadhuis en de Vrijdagmarkt. Het is maar kort, maar elke vierkante centimeter van de muren, deuren, regenpijpen en soms zelfs de grond is bedekt met graffiti. Het is de bekendste legale graffitistraat van België, en een openluchtgalerie die nooit hetzelfde blijft.
+  - 'Je vindt hier van alles: kleurrijke, technisch briljante ‘pieces’ van ervaren graffitikunstenaars, snelle tags, stencils, stickers, politieke boodschappen, grappige figuurtjes en de eerste pogingen van beginners. Omdat iedereen hier mag spuiten, wordt alles voortdurend overgeschilderd. Een werk dat je vandaag fotografeert, kan morgen weg zijn. Op sommige muren zijn de verflagen inmiddels centimeters dik.'
+  - 'Het steegje is vooral een plek om rond te kijken, foto’s te nemen en even stil te staan bij de kunstenaars die je vaak aan het werk ziet. Het vormt ook een interessant contrast met de middeleeuwse gebouwen er vlak naast: oud en nieuw Gent op een paar meter van elkaar.'
+  history:
+  - 'De naam verwijst naar ‘werregaren’, een soort garen of draad dat in de middeleeuwen in deze buurt werd bewerkt: een herinnering aan de tijd dat Gent van textiel leefde. Lange tijd was het een gewone, tamelijk vergeten achterstraat.'
+  - In de jaren negentig besloot de stad het steegje open te stellen voor graffiti, als plek waar jongeren en kunstenaars het legaal konden doen. Het idee was dat er minder illegale graffiti op historische gebouwen zou komen als er een plek was waar het mocht. Het steegje werd een begrip in de graffitiwereld en trekt nu ook veel toeristen.
+  - Gent heeft nu meer plekken waar graffiti legaal is, en de stad staat bekend om haar street art. Elk jaar verschijnen er nieuwe muurschilderingen in de stad, soms van internationaal bekende kunstenaars. Het Werregarenstraatje blijft de plek waar dat verhaal begon.
+  visit:
+  - Het Werregarenstraatje is altijd open en gratis. Je bereikt het vanaf de Hoogpoort, vlak bij het stadhuis, of vanaf de Onderstraat aan de kant van de Vrijdagmarkt. Een kort bezoek duurt maar een paar minuten, maar als je goed kijkt, blijf je langer.
+  - 'Zin om zelf te spuiten? Dat mag, zolang je de buren respecteert: spuit niet op ramen, voordeuren of geparkeerde fietsen, en neem je lege spuitbussen mee.'
+  dates:
+  - - Middeleeuwen
+    - De straat is genoemd naar werregaren.
+  - - jaren 1990
+    - De stad stelt het steegje open voor legale graffiti.
+  - - Vandaag
+    - Elke week een nieuwe laag verf.
+kouter:
+  blurb: Gents deftigste plein, ooit een veld en een plaats voor optochten en schuttersfeesten. Sinds de 18e eeuw is hier elke zondag een bloemenmarkt, met een fanfare in de muziekkoepel. Het blauwe kioskje schenkt er een drankje bij.
+  text:
+  - De Kouter is Gents grote, elegante plein, aan de zuidkant van het oude centrum, een paar minuten van de Veldstraat. Het is breed en licht, omringd door statige herenhuizen uit de 18e en 19e eeuw, banken en de concertzaal Handelsbeurs. In het midden staat een sierlijke muziekkoepel, en aan de rand het bekende blauwe kioskje, waar je een drankje en een hapje kunt krijgen.
+  - 'Elke zondagochtend wordt de Kouter een zee van bloemen en planten: de bloemenmarkt is een Gentse traditie van eeuwen oud. Gentenaars komen hun boeket of kamerplant kopen, drinken bij het kioskje een glas cava of witte wijn met oesters en luisteren naar de fanfare in de muziekkoepel. Het is een van de gezelligste momenten van de Gentse week.'
+  - Op weekdagen is de Kouter rustiger, een plek om over te steken op weg naar de Opera Gent vlak achter het plein, of om even van de zon te genieten op een bankje.
+  history:
+  - Een ‘kouter’ is een oud Vlaams woord voor open, gemeenschappelijk akkerland. In de vroege middeleeuwen was dit plein inderdaad akkerland net buiten de stad. Toen Gent groeide en het gebied binnen de muren kwam te liggen, bleef de grote open ruimte bestaan.
+  - In de late middeleeuwen werd de Kouter het plein voor optochten, wapenschouwingen, tornooien en de feesten van de schuttersgilden, die hier oefenden met hun kruisbogen en handbogen. Ook openbare plechtigheden werden hier gehouden. In de 18e eeuw werd het het plein van de Gentse adel en welgestelde burgers, die er hun herenhuizen lieten bouwen.
+  - 'De bloemenmarkt begon in de 18e eeuw en is er sindsdien gebleven. Gent is een echte bloemenstad: de omgeving staat bekend om de sierteelt, met begonia’s, azalea’s en meer, en de Gentse Floraliën zijn sinds de 19e eeuw een van de grootste bloemententoonstellingen ter wereld. In de 19e eeuw kwamen de muziekkoepel en, vlak achter het plein, de Opera; met de concertzaal Handelsbeurs maken ze de Kouter een cultureel centrum.'
+  visit:
+  - De Kouter is een openbaar plein en altijd voor iedereen open. De bloemenmarkt is op zondagochtend, ongeveer van 7 tot 13 uur, en is het drukst tussen 10 en 12 uur. Het is een gemakkelijke wandeling van de Korenmarkt langs de Veldstraat, of neem de tram, die vlakbij stopt.
+  - Combineer een bezoek met een wandeling door de Veldstraat, Gents belangrijkste winkelstraat, of een voorstelling in de Opera of de Handelsbeurs.
+  dates:
+  - - Vroege middeleeuwen
+    - Akkerland buiten de stad.
+  - - Late middeleeuwen
+    - Plein voor optochten, tornooien en schuttersfeesten.
+  - - 18e eeuw
+    - De wekelijkse bloemenmarkt begint; adellijke herenhuizen.
+  - - '1840'
+    - Opera Gent vlak achter het plein.
+  - - 19e eeuw
+    - De muziekkoepel.
+vooruit:
+  blurb: 'De feestzaal van de socialistische coöperatie Vooruit, geopend in 1914: arbeiders kwamen hier dansen, voor theater en concerten, en om te eten in het café. Kunstenaars redden het in de jaren tachtig van verval. Tegenwoordig is het het kunstencentrum VIERNULVIER.'
+  text:
+  - 'Vooruit is een groot, opvallend gebouw aan de Sint-Pietersnieuwstraat, met twee torentjes, een rijke gevel die art nouveau en eclectische stijlen mengt, en grote ramen die ’s avonds warm gloeien. Het werd gebouwd als feestzaal voor arbeiders, en dat is nog te zien: binnen zijn een grote balzaal met balkons, een theater, kleinere zalen, trappenhuizen met glas-in-lood en op de begane grond een enorm café.'
+  - Tegenwoordig is het een van de toonaangevende kunstencentra van Vlaanderen, onder de naam VIERNULVIER. Er zijn concerten, van rock en elektronica tot jazz en wereldmuziek, theater en dans, lezingen, debatten, feesten en festivals. Het café op de begane grond is open voor iedereen, met of zonder ticket, en is een geliefde ontmoetingsplek voor studenten, kunstenaars en buren.
+  - Dicht bij de universiteit voelt Vooruit als de huiskamer van het Gentse studentenleven. Op een terras aan de overkant van de straat, met zicht op de verlichte voorgevel, voel je goed hoe levendig deze buurt is.
+  history:
+  - Vooruit was oorspronkelijk een socialistische coöperatie, in 1880 in Gent opgericht. Ze begon als coöperatieve bakkerij waar arbeiders samen goed, goedkoop brood kochten; de winst ging naar andere winkels, een apotheek, een ziekenfonds en culturele activiteiten. De beweging groeide uit tot een grote organisatie die het leven van duizenden Gentse arbeidersgezinnen bepaalde.
+  - Tussen 1911 en 1914 liet de coöperatie deze feestzaal bouwen, ontworpen door architect Ferdinand Dierkens. Het moest arbeiders laten zien dat cultuur, plezier en schoonheid ook voor hen waren, niet alleen voor de rijke burgerij. Er werden bals, toneelstukken, concerten, congressen en vergaderingen gehouden, en het café zat elke dag vol.
+  - Na de Tweede Wereldoorlog verloor het gebouw zijn functie; de zalen raakten in verval en er was zelfs sprake van sloop. Begin jaren tachtig namen jonge kunstenaars en cultuurliefhebbers het initiatief om Vooruit nieuw leven in te blazen als kunstencentrum. Het gebouw werd beschermd en stap voor stap gerestaureerd. In 2021 werd het kunstencentrum omgedoopt tot VIERNULVIER; het gebouw zelf heet nog steeds Vooruit.
+  visit:
+  - Vooruit ligt aan de Sint-Pietersnieuwstraat, ongeveer tien minuten lopen van de Korenmarkt, in de studentenwijk. Het café is meestal elke dag open, van laat in de ochtend tot laat in de nacht, en je kunt gewoon binnenlopen. Voor concerten en voorstellingen koop je een ticket; die zijn vaak snel uitverkocht.
+  - Af en toe zijn er rondleidingen door het gebouw, die je achter de schermen van de zalen brengen.
+  dates:
+  - - '1880'
+    - De socialistische coöperatie Vooruit wordt opgericht.
+  - - 1911–1914
+    - De feestzaal wordt gebouwd, ontworpen door Ferdinand Dierkens.
+  - - na 1945
+    - Verval; de zalen raken in onbruik.
+  - - '1982'
+    - Een nieuwe start als kunstencentrum.
+  - - '2021'
+    - Het kunstencentrum wordt omgedoopt tot VIERNULVIER.
+sint-pietersabdij:
+  name: Sint-Pietersabdij
+  blurb: De abdij op de Blandijnberg werd in de 7e eeuw gesticht, volgens het verhaal door Sint-Amandus, en groeide uit tot een van de rijkste van Vlaanderen. De barokke kerk met koepel (1629-1720) is van Pieter Huyssens. De Fransen hieven de abdij in 1796 op; nu is ze een tentoonstellingshal, met achter haar muren een abdijtuin met wijnranken en ruïnes.
+  text:
+  - De Sint-Pietersabdij staat op de Blandijnberg, het hoogste punt van de oude stad, aan het grote Sint-Pietersplein. Wat je eerst ziet, is de barokke Onze-Lieve-Vrouw-Sint-Pieterskerk, met haar statige voorgevel en grote koepel die van ver boven de daken uitsteekt. Naast de kerk liggen de voormalige abdijgebouwen, rond een kloostergang, met een refter, een kapittelzaal en kelders die plaatselijk eeuwenoud zijn.
+  - 'Tegenwoordig zijn de abdijgebouwen een tentoonstellingshal, met grote shows over kunst, geschiedenis en de wereld van vandaag. Achter de muren ligt een verborgen parel: de abdijtuin. Daar vind je een moestuin, fruitbomen, een kruidentuin, de ruïnes van oudere abdijgebouwen en zelfs een wijngaard op de helling, een herinnering aan de monniken die hier eeuwenlang wijn maakten. Het is een van de rustigste plekken van de stad.'
+  - Het Sint-Pietersplein ervoor is een van de grootste pleinen van Gent. Het wordt gebruikt voor kermissen, circussen, evenementen en markten, en ligt dicht bij de universiteitswijk en het Citadelpark.
+  history:
+  - Volgens de overlevering stichtte Sint-Amandus hier in de 7e eeuw een klooster, op de Blandijnberg met uitzicht op de samenvloeiing van Leie en Schelde. De abdij groeide uit tot een van de rijkste en machtigste van Vlaanderen, met uitgestrekte landgoederen en een grote bibliotheek. Lange tijd was ze de grote rivaal van de Sint-Baafsabdij aan de andere kant van de stad.
+  - In de 9e eeuw werd de abdij geplunderd door de Vikingen, maar ze werd herbouwd. Graven van Vlaanderen werden hier begraven, en de abdij speelde een grote rol in het leven van de stad. Ze werd zwaar getroffen door de beeldenstorm van 1566. Daarna werd ze herbouwd, en tussen 1629 en 1720 verrees de huidige barokke kerk, ontworpen door de jezuïetenarchitect Pieter Huyssens.
+  - In 1796 hieven de Franse revolutionairen de abdij op, zoals alle kloosters. De monniken moesten weg en het bezit werd verkocht. De gebouwen werden later onder meer als kazerne gebruikt. Pas in de 20e eeuw kregen ze een nieuwe rol als cultureel centrum en tentoonstellingsruimte. De abdijtuin werd gerestaureerd en is nu een openbaar groen hart in de stad.
+  visit:
+  - De abdij ligt aan het Sint-Pietersplein, ongeveer vijftien minuten lopen van het centrum, of met de tram tot vlakbij. De abdijtuin is overdag meestal gratis toegankelijk, met kortere uren in de winter. Voor de tentoonstellingen in de kunsthal koop je een ticket. De kerk is regelmatig open voor bezoekers.
+  - Combineer een bezoek met een wandeling naar het Citadelpark, S.M.A.K. of het Museum voor Schone Kunsten, allemaal op loopafstand.
+  dates:
+  - - 7e eeuw
+    - Volgens de overlevering gesticht door Sint-Amandus.
+  - - 9e eeuw
+    - Geplunderd door de Vikingen.
+  - - '1566'
+    - Zwaar getroffen door de beeldenstorm.
+  - - 1629–1720
+    - De barokke kerk wordt gebouwd, naar Pieter Huyssens.
+  - - '1796'
+    - De Fransen heffen de abdij op.
+  - - 20e eeuw
+    - Nieuw leven als tentoonstellingsruimte en kunsthal.
+zuid:
+  name: Gent Zuid
+  blurb: 'Tot 1928 stond hier het Zuidstation, Gents eerste treinstation. Tegenwoordig is het het knooppunt van De Lijn: de meeste stadsbussen beginnen en eindigen hier, en de trams komen er langs op weg naar het centrum en Sint-Pieters.'
+  text:
+  - '‘Zuid’, zoals Gentenaars het gewoon noemen, is de buurt rond het Woodrow Wilsonplein en de Frère-Orbanlaan, net ten zuidoosten van het oude centrum. Het is geen klassieke bezienswaardigheid, maar als bezoeker kom je er vrijwel zeker langs: het is het belangrijkste openbaarvervoerknooppunt van Gent. De meeste stadsbussen van De Lijn komen hier samen, en de trams komen erlangs op weg naar het centrum, het station Gent-Sint-Pieters en de rand van de stad.'
+  - Rond het plein liggen het winkelcentrum Zuid, kantoren, flats en het grote voormalige bibliotheekgebouw. Vlakbij ligt het Koning Albertpark, een groene strook met bomen en grasvelden waar vroeger de spoorweg liep, met een monument voor koning Albert I. Het is een levendige, nogal drukke buurt, waar je ziet hoe het moderne Gent werkt en leeft.
+  - 'Om de stad te verkennen is Zuid een handig beginpunt: van hieruit is het tien minuten lopen naar de Kouter en de Korenmarkt, en een paar minuten met de tram naar het station of het centrum.'
+  history:
+  - 'In 1837 kreeg Gent zijn eerste station, het Zuidstation, op de plek van het huidige plein. Het was een prachtig gebouw met een grote hal, en een van de eerste treinstations van het land: België was een spoorwegpionier op het Europese vasteland. Rond het station groeide een nieuwe, deftige wijk met brede lanen en herenhuizen.'
+  - Begin 20e eeuw werd het station Gent-Sint-Pieters gebouwd, in de aanloop naar de wereldtentoonstelling van 1913. Het nam geleidelijk de rol van het Zuidstation over, en het oude station sloot in 1928. Het gebouw werd toen afgebroken, en de sporen maakten plaats voor het Koning Albertpark en het Woodrow Wilsonplein, genoemd naar de Amerikaanse president van de Eerste Wereldoorlog.
+  - In de tweede helft van de 20e eeuw werd Zuid het knooppunt van de stadsbussen, en kwamen het winkelcentrum en de stadsbibliotheek. De bibliotheek verhuisde in 2017 naar De Krook, aan de Schelde. Tegenwoordig wordt nagedacht over de toekomst van de buurt, om haar groener en aangenamer te maken voor wie er woont en doorheen komt.
+  visit:
+  - Zuid is altijd voor iedereen open. De meeste stadsbussen stoppen hier, en de trams ook. Voor dienstregelingen en tickets is de website of app van De Lijn de plek om te kijken.
+  - Als je iets wilt eten of drinken, zijn er genoeg plekken in en rond het winkelcentrum. Ga voor een pauze het Koning Albertpark in.
+  dates:
+  - - '1837'
+    - Het Zuidstation opent, het eerste van Gent.
+  - - '1912'
+    - Het nieuwe station Gent-Sint-Pieters.
+  - - '1928'
+    - Het Zuidstation sluit en wordt afgebroken.
+  - - Late 20e eeuw
+    - Busknooppunt, winkelcentrum en bibliotheek.
+  - - '2017'
+    - De bibliotheek verhuist naar De Krook.
+blaarmeersen:
+  name: Blaarmeersen
+  blurb: Gents sport- en recreatiepark, bij de Watersportbaan. Op hete dagen zit het strand aan de zwemvijver vol, en joggers lopen hun rondjes rond de 2,3 km lange roeibaan. Er zijn ook een camping, een atletiekpiste en beachvolleybal.
+  text:
+  - 'De Blaarmeersen is Gents grote sport- en recreatiepark, aan de westkant van de stad, een kwartier fietsen van het centrum. Het is een groene oase van bos, grasvelden en water, rond een grote zwemvijver met zandstrand. Op hete zomerdagen voelt het als aan zee: honderden Gentenaars liggen op het strand, zwemmen, spelen beachvolleybal of picknicken op het gras.'
+  - 'Langs het park loopt de Watersportbaan, een kaarsrechte roeibaan van meer dan twee kilometer lang. Roeiers en kajakkers trainen er, en het is een geliefde looproute: de lus rond het water is het vaste rondje van veel Gentse joggers. Er zijn ook een atletiekpiste, tennisvelden, een skatepark, minigolf, speeltuinen, een klimmuur, wandel- en fietspaden en een camping.'
+  - Het park grenst aan een natuurreservaat met rietvelden en vijvers, waar je vogels kunt spotten. De Blaarmeersen is dus tegelijk een sportpark, een stadsstrand en een stukje natuur, allemaal binnen de stadsgrenzen.
+  history:
+  - '‘Meersen’ zijn natte, laaggelegen weilanden langs een rivier, en dat was dit gebied eeuwenlang: moerassig grasland langs de Leie, in de winter vaak onder water. De naam Blaarmeersen herinnert aan dat oude landschap.'
+  - In de jaren vijftig werd hier de Watersportbaan gegraven, een lange, rechte roeibaan voor internationale wedstrijden. Gent organiseerde er grote roeikampioenschappen, en de baan werd een begrip in de roeiwereld. De uitgegraven aarde werd gebruikt om het land ernaast op te hogen.
+  - In de decennia daarna groeide de Blaarmeersen uit tot een groot recreatiepark voor de hele stad, met de zwemvijver, het strand, sportterreinen en de camping. Voor veel Gentenaars zonder tuin of reisje naar zee is het de plek om af te koelen in de zomer, en de plek voor sport het hele jaar door.
+  visit:
+  - Het park is voor iedereen open. Het strand en de zwemvijver zijn open in de zomermaanden, met toezicht van redders, tegen een kleine toegangsprijs. Je bent er gemakkelijk op de fiets, langs de Leie of de Watersportbaan, of met de bus. De camping en de sportfaciliteiten hebben hun eigen openingsuren en reservaties.
+  - 'Neem op een zomerdag je zwemspullen en een picknick mee, en kom vroeg als je kunt: op de heetste dagen wordt het druk.'
+  dates:
+  - - Eeuwenlang
+    - Natte weilanden langs de Leie.
+  - - jaren 1950
+    - De Watersportbaan wordt gegraven.
+  - - Vandaag
+    - Strand, sport, camping en natuur een kwartier van het centrum.
+mammelokker:
+  name: Mammelokker
+  blurb: 'Kijk boven de deur van dit huisje tegen de Lakenhalle: een jonge vrouw die een oude man de borst geeft. Het is de Romeinse legende van Pero, die haar vader Cimon zoogde toen hij in de gevangenis werd uitgehongerd. Toen dat uitkwam, werd hij vrijgelaten. De cipiers van de stadsgevangenis, die van 1742 tot 1902 in de kelders van de Lakenhalle zat, woonden hier. Mammelokker is Gents dialect voor borstzuiger. Het reliëf dateert van 1741, in 1962 opnieuw gehouwen door Jan Anteunis.'
+  text:
+  - 'De Mammelokker is het huisje tegen de voet van de Lakenhalle, waar de cipiers van de stadsgevangenis woonden: van 1742 tot 1902 zat de gevangenis in de kelders van de Lakenhalle. Boven de deur toont een stenen reliëf uit 1741, in 1962 opnieuw gehouwen door Jan Anteunis, een jonge vrouw die een oude man de borst geeft.'
+  - 'Het is de Romeinse legende van Pero, die haar vader Cimon zoogde toen hij in de gevangenis werd uitgehongerd; toen dat uitkwam, werd hij vrijgelaten. Gent noemde het huis ernaar: mammelokker is Gents dialect voor borstzuiger.'
+karel-sabbeberg:
+  name: Karel Sabbeberg
+  blurb: Gents enige berg, zo’n 30 meter hoog en door mensenhand gemaakt. Tot 2003 skiede Gent hier op borstelmatten. In 2019 werd hij genoemd naar de ultraloper Karel Sabbe, die er duizenden keren op en af liep tijdens zijn training. Sinds 2009 kijkt een uitkijktoren bovenop uit over de stad.
+  text:
+  - Gents enige berg is zo’n 30 meter hoog en door mensenhand gemaakt, in het park Blaarmeersen. Tot 2003 skiede Gent erover op borstelmatten. In 2019 werd hij genoemd naar de ultraloper Karel Sabbe, die er duizenden keren op en af liep tijdens zijn training.
+  - Sinds 2009 staat bovenop een houten uitkijktoren, vanwaar je over de meren en de bossen van het park naar de torens van de oude stad kijkt. In het spel verbergt hij een geheim voor wie helemaal naar boven klimt.
+neuzekes:
+  name: Neuzekes
+  blurb: Paarse kegelvormige snoepjes met een vloeibaar frambozenhart, verkocht vanaf karretjes op de Groentenmarkt.
+  text:
+  - Een cuberdon, in Gent een neuzeke (“klein neusje”), is een kegel van gom arabicum met een harde suikerkorst en een zachte, stroperige binnenkant met frambozensmaak. Doordat de korst opdroogt en de binnenkant binnen een paar weken kristalliseert, reisden ze nooit echt, en bleven ze een Belgische, en vooral Gentse lekkernij.
+  - Op de Groentenmarkt, vlak bij het Groot Vleeshuis, staan al jaren twee verkopers met hun karretjes tegenover elkaar, en hun vete over wie de echte neuzekes verkoopt is een plaatselijke legende geworden. In het spel rijd je langs hen.
+tram:
+  name: De trams
+  blurb: De witte en gele trams van De Lijn, die met hun bel door de smalle straten van de oude stad rinkelen.
+  text:
+  - Gent heeft sinds de 19e eeuw trams, eerst getrokken door paarden, en is een van de weinige Belgische steden die ze hield. Tegenwoordig doorkruisen de lijnen 1, 2 en 4 van De Lijn de stad, en wringen ze zich door het oude centrum langs de Korenmarkt en de Kortrijksesteenweg, waar ze de keien delen met fietsers en voetgangers.
+  - 'In het spel rijden de trams op hun echte lijnen, stoppen ze bij hun echte haltes en luiden ze hun bel voor wie in de weg staat. Pas op voor de rails met de fiets: wielen en tramsporen gaan niet goed samen.'
+gentse-feesten:
+  name: De Gentse Feesten
+  blurb: Tien dagen elke juli waarin de hele oude stad een van de grootste straatfestivals van Europa wordt.
+  text:
+  - De Gentse Feesten begonnen in 1843 als manier om de arbeiders van de stad een eigen feest te geven, en groeiden uit tot een festival van tien dagen midden juli. Elk plein van de oude stad krijgt een podium, van de Vrijdagmarkt tot het Sint-Baafsplein, met muziek, straattheater en poppenspel, veel ervan gratis.
+  - Meer dan een miljoen bezoekers komen tijdens die tien dagen. Het festival eindigt met de “Dag van de Lege Portemonnee”, als de stad het uitslaapt.
+fietsstad:
+  name: De fietsstad
+  blurb: Sinds 2017 kunnen auto’s niet meer dwars door het centrum rijden, en hebben fietsen de straten overgenomen.
+  text:
+  - In 2017 verdeelde Gent zijn centrum in sectoren die auto’s alleen vanaf de ring kunnen bereiken, niet vanuit elkaar. Het doorgaand verkeer verdween bijna van de ene dag op de andere, en het aantal fietsers schoot omhoog. Veel straten werden fietsstraten, waar auto’s te gast zijn en een fiets niet mogen inhalen.
+  - 'Daarom laat het spel je op de fiets beginnen: zo komen de meeste Gentenaars rond, langs de drie torens en langs de Leie.'

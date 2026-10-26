@@ -1,0 +1,108 @@
+# rotterdam's guide in Dutch (_data/about/rotterdam.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Nederland
+- Zuid-Holland
+- Ongeveer 670.000 inwoners (stad)
+- De Nieuwe Maas, een van de monden van de Rijn en de Maas
+- Rond zeeniveau, grotendeels eronder
+- '1340'
+- Nederlands
+- Maasstad
+overview:
+- Van het middeleeuwse Rotterdam is bijna niets over. Waar de oude stad stond, tussen de Coolsingel en de Oude Haven, werd het centrum na de oorlog herbouwd met brede straten, winkelstraten voor voetgangers en, vanaf de jaren tachtig, steeds meer torens. Van de oude stad staan alleen de Laurenskerk, het stadhuis, het Schielandshuis, het Witte Huis en enkele andere gebouwen nog.
+- 'Instant Rotterdam brengt je door het hart ervan: over de Coolsingel, langs de Blaak voorbij de Markthal naar de kubuswoningen en de Oude Haven, terug over de Binnenrotte en langs de Hoogstraat voorbij de Laurenskerk. De Erasmusbrug ligt aan de zuidrand van de kaart. De stad is in het echt net zo vlak als in het spel.'
+setting:
+- Rotterdam ligt in het westen van Nederland, zo’n 60 kilometer ten zuidwesten van Amsterdam en 20 kilometer van Den Haag, aan de Nieuwe Maas. Stroomafwaarts wordt de rivier de Nieuwe Waterweg, het kanaal dat van 1866 tot 1872 werd gegraven om de haven een eigen weg naar zee te geven, en de havens liggen er helemaal langs tot aan de Maasvlakte.
+- Een groot deel van de stad ligt onder zeeniveau, achter dijken, op land dat ooit veen was. Het klimaat is zacht en nat, met het hele jaar zeewind.
+today:
+- Rotterdam is de tweede stad van Nederland, een havenstad en universiteitsstad waar mensen uit zo’n 170 landen wonen. De skyline van torens aan beide oevers van de Maas is in het land uniek, en elk jaar komen er nieuwe bij.
+- De stad heeft Feyenoord en zijn stadion De Kuip, het Internationaal Film Festival in januari, het North Sea Jazz Festival in juli en de Wereldhavendagen in september. De watertaxi’s racen heen en weer over de rivier tussen de twee oevers.
+history:
+- title: Een dam in de Rotte
+  text:
+  - 'Rond 1270 bouwden mensen een dam waar de kleine rivier de Rotte in de Maas uitkwam, en ernaast groeide een vissersdorp: Rotte-dam. In 1340 gaf de graaf van Holland het stadsrechten. De grote humanist Erasmus werd hier rond 1466 geboren.'
+  - De stad groeide met haar havens, die een voor een langs de rivier werden gegraven, en in de 17e eeuw was ze na Amsterdam de tweede stad van Holland, die via de Verenigde Oost-Indische Compagnie handel dreef met de hele wereld.
+- title: De haven van de Rijn
+  text:
+  - In de 19e eeuw slibde de rivier dicht en konden schepen de stad nauwelijks bereiken. De Nieuwe Waterweg, geopend in 1872, gaf Rotterdam een diepe weg naar zee, juist toen het Ruhrgebied in Duitsland zich vulde met kolenmijnen en staalfabrieken. Rotterdam werd de haven van de Rijn en groeide snel, met nieuwe havens aan de zuidoever.
+  - Vele duizenden emigranten vertrokken van hier naar Amerika met de schepen van de Holland-Amerika Lijn, vanaf de kade waar nu Hotel New York staat.
+- title: 14 mei 1940
+  text:
+  - 'Vier dagen nadat Duitsland Nederland was binnengevallen, op 14 mei 1940, bombardeerden Duitse bommenwerpers het centrum van Rotterdam terwijl beide partijen nog over de overgave praatten. De bommen en de branden die volgden verwoestten de oude stad: zo’n 850 mensen kwamen om, ongeveer 25.000 woningen gingen verloren en 80.000 mensen raakten dakloos. De dag erna capituleerde Nederland.'
+  - Het puin werd geruimd, en de stad besloot de oude straten niet te herbouwen. Het Basisplan van 1946 legde een nieuw, open centrum aan, met als paradepaardje de Lijnbaan, geopend in 1953.
+- title: Een stad van nieuwe gebouwen
+  text:
+  - Rotterdam bouwde de eerste metro van Nederland, geopend in 1968, de Euromast voor de Floriade van 1960, en was van 1962 tot 2004 de drukste haven ter wereld. In de jaren tachtig bouwde Piet Blom zijn kubuswoningen, en de stad begon vol te raken met torens.
+  - De Erasmusbrug ging in 1996 open, en de Kop van Zuid aan de zuidoever werd een tweede centrum. In 2001 was Rotterdam Culturele Hoofdstad van Europa, en in 2014 gingen het nieuwe Centraal Station en de Markthal open.
+timeline:
+- - ca. 1270
+  - Er wordt een dam in de Rotte gebouwd
+- - '1340'
+  - Rotterdam krijgt stadsrechten
+- - ca. 1466
+  - Erasmus wordt in Rotterdam geboren
+- - 1449–1525
+  - De Laurenskerk wordt gebouwd
+- - '1872'
+  - De Nieuwe Waterweg wordt geopend naar zee
+- - '1898'
+  - Het Witte Huis wordt voltooid
+- - '1920'
+  - Het stadhuis aan de Coolsingel wordt voltooid
+- - 14 mei 1940
+  - Duitse bommenwerpers verwoesten het centrum
+- - '1946'
+  - Het Basisplan voor het nieuwe centrum
+- - '1953'
+  - De Lijnbaan opent; Zadkines De Verwoeste Stad wordt onthuld
+- - '1960'
+  - De Euromast opent voor de Floriade
+- - '1968'
+  - De eerste metro van Nederland
+- - '1984'
+  - Piet Bloms kubuswoningen zijn voltooid
+- - '1996'
+  - De Erasmusbrug gaat open
+- - '2014'
+  - Het nieuwe Centraal Station en de Markthal gaan open
+places:
+  coolsingel:
+    blurb: De brede laan door het centrum, ooit een gracht, met het stadhuis eraan.
+  stadhuis:
+    blurb: Het stadhuis uit 1920, dat het bombardement doorstond.
+  lijnbaan:
+    blurb: De eerste winkelstraat van Europa die voor voetgangers werd gebouwd.
+  beursplein:
+    blurb: Het plein bij de beurs, aan het begin van de Hoogstraat.
+  laurenskerk:
+    blurb: Het laatste middeleeuwse gebouw van het centrum, met het standbeeld van Erasmus ervoor.
+  binnenrotte:
+    blurb: Het lange plein over de oude Rotte, waar de openluchtmarkt wordt gehouden.
+  markthal:
+    blurb: De markthal onder zijn boog van woningen.
+  kubuswoningen:
+    blurb: Piet Bloms scheve gele huizen boven de Blaak.
+  blaak:
+    blurb: De brede straat langs de oude havens, met het station eronder.
+  oude-haven:
+    blurb: De oudste haven, vol oude binnenvaartschepen.
+  witte-huis:
+    blurb: Het witte kantoorgebouw uit 1898.
+  schielandshuis:
+    blurb: Het 17e-eeuwse paleis van het waterschap tussen de torens.
+  leuvehaven:
+    blurb: De haven van het Maritiem Museum, met zijn oude schepen.
+  plein-1940:
+    blurb: Het plein van Zadkines De Verwoeste Stad.
+  erasmusbrug:
+    blurb: De witte Zwaan over de Maas, naar de Kop van Zuid.
+links:
+- title: Rotterdam Info
+  note: De bezoekerssite van de stad
+- title: Maritiem Museum
+  note: Het scheepvaartmuseum aan de Leuvehaven
+- title: Markthal
+  note: De markthal
+- title: Rotterdam op Wikipedia
+  note: Het encyclopedie-artikel

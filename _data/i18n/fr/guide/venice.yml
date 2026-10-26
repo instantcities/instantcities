@@ -1,0 +1,107 @@
+# venice's guide in French (_data/about/venice.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Vénétie
+- Environ 250 000 habitants (commune, avec Mestre sur le continent), moins de 50 000 dans le centre historique
+- 421, selon la tradition
+- La lagune de Venise et le Grand Canal
+- Italien, et le dialecte vénitien
+- La Sérénissime, la Reine de l’Adriatique
+- Venise et sa lagune, depuis 1987
+overview:
+- 'Venise se trouve sur un ensemble d’îles dans une lagune peu profonde, à environ quatre kilomètres du continent. Les Vénitiens enfoncèrent des pieux de bois dans la vase et bâtirent leur ville dessus : maisons de brique, palais de marbre et quelque 400 ponts sur environ 150 canaux. Il n’y a pas de voitures dans le centre historique ; on marche dans les ruelles étroites, les calli, ou l’on prend les bus d’eau, les vaporetti.'
+- Le cœur de la ville, la partie que vous parcourez dans Instant Venise, se trouve autour de la courbe basse du Grand Canal. La place Saint-Marc et le palais des Doges s’ouvrent sur la lagune au sud-est, le pont du Rialto franchit le canal au milieu, et le pont de l’Accademia et le dôme de la Salute marquent l’ouest. Entre eux courent les Mercerie, les ruelles commerçantes qui relient Saint-Marc au Rialto, et des dizaines de campi, les places des anciennes paroisses.
+setting:
+- Venise se trouve dans le nord-est de l’Italie et est la capitale de la région de Vénétie. Sa lagune s’étend sur quelque 50 kilomètres le long de la côte, séparée de l’Adriatique ouverte par les longues et minces îles du Lido et de Pellestrina. Murano, Burano et Torcello se trouvent dans le nord de la lagune, et un pont routier et ferroviaire relie la ville à Mestre sur le continent.
+- 'Le centre historique est divisé en six quartiers, les sestieri : San Marco, Castello, Cannaregio, San Polo, Santa Croce et Dorsoduro. Les étés sont chauds et humides, les hivers froids et souvent brumeux. En automne et en hiver, les marées hautes et le sirocco poussent la mer dans la ville, l’acqua alta, et inondent ses places les plus basses.'
+today:
+- Venise est la capitale de la Vénétie et une ville universitaire, avec Ca’ Foscari et l’école d’architecture IUAV. Le tourisme fait vivre son économie, et la ville fait maintenant payer un droit d’entrée aux visiteurs d’un jour les jours les plus chargés. Depuis 2021, les plus grands paquebots ne peuvent plus passer devant Saint-Marc par le canal de la Giudecca. L’industrie et le port se trouvent sur le continent, à Marghera.
+- Chaque année, la Biennale remplit les Giardini et l’Arsenale, avec l’art les années impaires et l’architecture les années paires, et chaque été la Mostra de Venise, le plus ancien festival de cinéma du monde, s’empare du Lido. Le premier dimanche de septembre, la Regata Storica court sur le Grand Canal, et le troisième dimanche de juillet les Vénitiens traversent un pont de bateaux jusqu’à l’église du Redentore sur la Giudecca. Le Venezia FC joue au stade Penzo, sur l’île de Sant’Elena.
+history:
+- title: Un refuge dans la lagune
+  text:
+  - La tradition dit que Venise fut fondée le 25 mars 421. En réalité, des habitants des villes romaines du continent fuirent vers les îles de la lagune aux Ve et VIe siècles, tandis que les Huns, les Goths puis les Lombards déferlaient sur l’Italie. Ils vivaient de la pêche, du sel et du commerce par bateau, nominalement sous les empereurs byzantins de Constantinople.
+  - Les communautés de la lagune choisirent leur propre chef, le doge, et au début du IXe siècle transférèrent leur siège aux îles du Rialto, qui devinrent la ville de Venise. En 828, deux marchands vénitiens sortirent clandestinement d’Alexandrie le corps de saint Marc l’évangéliste, et la ville le prit, avec son lion ailé, comme patron et comme emblème.
+- title: La Sérénissime République
+  text:
+  - 'Venise s’enrichit grâce au commerce entre l’Europe et l’Orient : épices, soie, sel et esclaves. En 1204, le doge Enrico Dandolo dirigea la quatrième croisade vers Constantinople, que les croisés saccagèrent ; Venise y prit des ports et des îles dans toute la Méditerranée orientale, et comme butin les quatre chevaux de bronze de Saint-Marc. Son arsenal d’État, l’Arsenale, construisait des galères de guerre en série, les unes après les autres, et sa flotte battit sa grande rivale Gênes à Chioggia en 1380.'
+  - La république était dirigée par un cercle fermé de familles nobles, par le Grand Conseil, le Sénat et le Conseil des Dix, avec un doge élu à sa tête. Aux XVe et XVIe siècles, Venise était l’une des plus grandes et des plus riches villes d’Europe, et des peintres comme Bellini, le Titien, le Tintoret et Véronèse travaillèrent pour ses églises, ses palais et ses confréries, les scuole. En 1516, la république obligea les Juifs de la ville à vivre dans le Ghetto, le premier quartier à avoir reçu ce nom.
+- title: Le déclin et la ville moderne
+  text:
+  - 'Les Ottomans prirent les possessions orientales de Venise l’une après l’autre, et le commerce passa à l’Atlantique. En 1797, l’armée de Napoléon arriva, et le dernier doge, Ludovico Manin, se retira : la république prit fin après plus de mille ans. Napoléon remit la ville à l’Autriche, et en 1866 Venise rejoignit le royaume d’Italie. Un pont ferroviaire atteignit la ville depuis le continent en 1846, et un pont routier suivit en 1933.'
+  - Le 4 novembre 1966, la pire inondation connue éleva la mer de presque deux mètres au-dessus de son niveau normal et attira l’attention du monde sur le danger que la mer représente. Depuis, beaucoup de Vénitiens sont partis pour Mestre, tandis que les visiteurs sont venus en nombre toujours plus grand. En 2020, la ville leva pour la première fois ses barrières mobiles anti-inondation, le MOSE.
+timeline:
+- - '421'
+  - Venise est fondée le 25 mars, selon la tradition
+- - '697'
+  - Les villes de la lagune élisent leur premier doge, selon la tradition
+- - '828'
+  - Des marchands vénitiens rapportent le corps de saint Marc d’Alexandrie
+- - '1204'
+  - La quatrième croisade saccage Constantinople ; les chevaux de bronze arrivent à Saint-Marc
+- - '1380'
+  - La flotte vénitienne bat Gênes à Chioggia
+- - '1516'
+  - La république crée le Ghetto
+- - '1591'
+  - Le pont de pierre du Rialto est achevé
+- - '1797'
+  - Napoléon met fin à la République de Venise
+- - '1846'
+  - Le pont ferroviaire relie Venise au continent
+- - '1866'
+  - Venise rejoint le royaume d’Italie
+- - '1966'
+  - La grande inondation du 4 novembre
+- - '2020'
+  - Les barrières MOSE sont levées pour la première fois
+places:
+  piazza-san-marco:
+    name: La place Saint-Marc
+    blurb: La grande place de Venise, fermée par la basilique Saint-Marc à une extrémité et bordée sur trois côtés par les arcades des anciens bureaux du gouvernement.
+  piazzetta-san-marco:
+    name: La Piazzetta San Marco
+    blurb: La plus petite place entre le palais des Doges et la bibliothèque Marciana, qui s’ouvre sur la lagune entre les colonnes de saint Marc et de saint Théodore.
+  mercerie:
+    name: Les Mercerie
+    blurb: La chaîne de ruelles commerçantes de la tour de l’Horloge sur la place Saint-Marc au Rialto, la rue principale de la ville depuis le Moyen Âge.
+  campo-san-bartolomeo:
+    blurb: La petite place animée au pied du pont du Rialto, où les Vénitiens se retrouvent sous la statue de bronze du dramaturge Carlo Goldoni.
+  ponte-di-rialto:
+    name: Le pont du Rialto
+    blurb: Le pont de pierre de 1591 sur le Grand Canal, avec deux rangées de boutiques sur son arche. Jusqu’en 1854, c’était le seul pont sur le canal.
+  canal-grande:
+    name: Le Grand Canal
+    blurb: La rue principale de Venise, une voie d’eau en S de presque quatre kilomètres bordée de palais, que seuls quatre ponts franchissent.
+  campo-san-polo:
+    blurb: L’une des plus grandes places de Venise, de l’autre côté du Grand Canal par rapport à Saint-Marc, où la ville tenait autrefois des corridas et des foires.
+  campo-santo-stefano:
+    blurb: Une longue place entre le pont de l’Accademia et Saint-Marc, avec la statue de l’écrivain Niccolò Tommaseo au milieu.
+  ponte-dell-accademia:
+    name: Le pont de l’Accademia
+    blurb: Le pont de bois sur le Grand Canal vers les galeries de l’Accademia. Il fut érigé en 1933 comme pont provisoire et plus tard reconstruit sous la même forme.
+  campo-della-salute:
+    blurb: Les marches de Santa Maria della Salute, l’église à coupole que Baldassare Longhena bâtit à l’embouchure du Grand Canal après la peste de 1630.
+  ponte-dei-sospiri:
+    name: Le pont des Soupirs
+    blurb: Le pont fermé de pierre blanche qui menait les prisonniers du palais des Doges aux prisons de l’autre côté du canal.
+  riva-degli-schiavoni:
+    blurb: Le large quai de pierre le long de la lagune à l’est du palais des Doges, nommé d’après les marchands de Dalmatie qui y amarraient leurs navires.
+  campo-santa-maria-formosa:
+    blurb: Une large place irrégulière à Castello autour de l’église Santa Maria Formosa, que Mauro Codussi reconstruisit à partir de 1492.
+  campo-santi-giovanni-e-paolo:
+    blurb: La place devant la grande église dominicaine où reposent 25 doges, avec la statue équestre du condottiere Bartolomeo Colleoni par Verrocchio.
+  strada-nova:
+    blurb: La plus large rue de Cannaregio, que la ville perça au XIXe siècle à travers des maisons et des canaux comblés pour ouvrir un itinéraire piéton vers la gare.
+links:
+- title: Venezia Unica
+  note: L’information touristique officielle de la ville, billets et abonnements aux bus d’eau
+- title: Comune di Venezia
+  note: La municipalité (en italien)
+- title: Palais des Doges
+  note: Billets et horaires du palais des Doges
+- title: Venise et sa lagune sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Venise sur Wikipédia
+  note: L’article de l’encyclopédie

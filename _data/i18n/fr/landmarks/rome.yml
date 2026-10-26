@@ -1,25 +1,82 @@
-# rome's landmarks in French (_data/landmarks/rome.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# rome's landmarks in French (_data/landmarks/rome.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 colosseo:
   name: Colisée
   blurb: Le grand amphithéâtre de la Rome antique, inauguré en 80 apr. J.-C. pour des combats de gladiateurs devant quelque 50 000 personnes.
+  text:
+  - Les empereurs flaviens bâtirent le Colisée sur le site du lac privé de Néron, et Titus l’inaugura en 80 apr. J.-C. par cent jours de jeux. Sa coque de pierre s’élevait en quatre étages d’arcades, et un velum sur des mâts pouvait abriter la foule du soleil. Sous le sol de l’arène, un dédale de couloirs et de monte-charges amenait animaux et combattants à la lumière.
+  - Après la fin des jeux, il devint une carrière, une forteresse et même un logement, ce qui explique que seule une partie de l’anneau extérieur subsiste. Il se trouve au bord de la carte du jeu, au bout de la Via dei Fori Imperiali.
 pantheon:
   name: Panthéon
   blurb: Un temple de tous les dieux rebâti sous Hadrien, avec la plus grande coupole en béton non armé au monde.
+  text:
+  - 'Le Panthéon que l’on voit fut construit sous l’empereur Hadrien vers 125 apr. J.-C., bien que l’inscription du porche nomme toujours Agrippa, qui bâtit le premier temple ici. Derrière le porche de colonnes de granit se trouve une salle ronde parfaite : la coupole est exactement aussi large que haute, 43 mètres.'
+  - L’œil ouvert au sommet, l’oculus, en est la seule fenêtre, et la pluie tombe droit sur le sol, qui descend doucement vers des évacuations. Il a survécu parce qu’il devint une église en 609 ; le peintre Raphaël et les premiers rois d’Italie y sont enterrés.
 fontana-di-trevi:
   name: Fontaine de Trevi
   blurb: 'La plus grandiose fontaine de Rome : une pièce lancée par-dessus l’épaule promet que vous reviendrez.'
+  text:
+  - 'La fontaine de Trevi est la fin de l’Aqua Virgo, un aqueduc de 19 av. J.-C. qui apporte encore de l’eau à la ville. Nicola Salvi dessina la fontaine contre l’arrière d’un palais, et elle fut achevée en 1762 : Océan sort de son char en forme de coquille depuis un arc de triomphe, tiré par des chevaux marins et des tritons au-dessus d’une falaise de pierre brute.'
+  - La tradition veut qu’une pièce lancée par-dessus l’épaule dans le bassin vous fasse revenir à Rome. Des milliers d’euros en sont repêchés chaque semaine et donnés à des œuvres de charité.
 piazza-navona:
   blurb: Une longue place baroque sur le tracé du stade de Domitien, avec la fontaine des Quatre-Fleuves du Bernin.
+  text:
+  - La Piazza Navona garde exactement la forme du stade que l’empereur Domitien fit bâtir ici au Ier siècle pour les concours d’athlétisme ; les maisons reposent sur ses anciennes gradins. Au XVIIe siècle, le pape Innocent X en fit une vitrine de la Rome baroque.
+  - Au milieu se dresse la fontaine des Quatre-Fleuves du Bernin, avec le Nil, le Gange, le Danube et le Río de la Plata autour d’un obélisque. En face, l’église Sant’Agnese in Agone de Borromini, l’œuvre de son grand rival.
 foro-romano:
   name: Forum romain
   blurb: 'Le cœur de la Rome antique : temples, basiliques et Curie du Sénat, dans un vallon entre les collines.'
+  text:
+  - 'Pendant mille ans, le Forum fut le centre de la vie romaine : marchés, tribunaux, temples et la Curie, où siégeait le Sénat. Les cortèges triomphaux suivaient sa Voie sacrée jusqu’au Capitole.'
+  - Enseveli sous des siècles de terre et utilisé comme pâturage à vaches, il fut dégagé à partir du XIXe siècle. Aujourd’hui, on regarde d’en haut les colonnes, les arcs et les pavés depuis les rues qui l’entourent.
 vittoriano:
   blurb: L’immense monument de marbre blanc à Victor-Emmanuel II sur la Piazza Venezia, surnommé la machine à écrire.
+  text:
+  - L’Autel de la Patrie fut bâti entre 1885 et 1935 pour Victor-Emmanuel II, le premier roi de l’Italie unifiée, dont la statue équestre de bronze se dresse au milieu. Il abrite la tombe du Soldat inconnu, gardée jour et nuit.
+  - 'Les Romains n’ont jamais vraiment aimé son marbre blanc éblouissant, qui ne s’accorde pas avec les couleurs chaudes de la ville : ils l’appellent la machine à écrire, ou la pièce montée. De ses terrasses, on a l’une des plus belles vues sur la ville.'
 campo-de-fiori:
   blurb: Une place animée avec un marché le matin et, au milieu, la statue encapuchonnée de Giordano Bruno.
+  text:
+  - Le Campo de’ Fiori, le champ des fleurs, est l’une des rares places de la vieille Rome sans église. Chaque matin, il se remplit d’un marché de fruits, de légumes et de fleurs, et le soir de gens dans les bars.
+  - Sa sombre statue montre le philosophe Giordano Bruno, brûlé pour hérésie à cet endroit en 1600 ; elle y fut placée en 1889, tournée vers le Vatican.
 colonna-di-marco-aurelio:
   name: Colonne de Marc Aurèle
   blurb: Une colonne de marbre sculptée des guerres de l’empereur sur le Danube, debout sur la Piazza Colonna depuis le IIe siècle.
+  text:
+  - La colonne fut érigée vers 193 apr. J.-C. en l’honneur de Marc Aurèle, l’empereur philosophe. Une bande sculptée s’y enroule comme un rouleau, racontant l’histoire de ses campagnes contre les tribus germaniques le long du Danube.
+  - Depuis 1589, c’est saint Paul qui se tient au sommet à la place de l’empereur. La place autour porte le nom de la colonne, et le palais voisin est le siège du gouvernement italien.
 largo-di-torre-argentina:
   blurb: Quatre temples de la République en contrebas de la rue, à côté de l’endroit où Jules César fut assassiné.
+  text:
+  - Lorsque la zone fut dégagée dans les années 1920, quatre temples de la République romaine apparurent, parmi les plus anciens de la ville. À côté se trouvait la Curie de Pompée, où Jules César fut poignardé aux ides de mars 44 av. J.-C.
+  - Les ruines abritent aujourd’hui aussi une colonie de chats errants, entretenue par des bénévoles dans un refuge au bord du site.
+sistina:
+  name: La chapelle Sixtine
+  blurb: La chapelle papale du Vatican, où les cardinaux élisent le pape, sous le plafond de Michel-Ange et son Jugement dernier.
+  text:
+  - Le pape Sixte IV fit bâtir la chapelle entre 1473 et 1481, et elle porte son nom. Botticelli, le Pérugin et d’autres peintres en décorèrent les murs ; de 1508 à 1512, Michel-Ange peignit le plafond pour le pape Jules II, avec la Création d’Adam en son cœur, et de 1536 à 1541 le Jugement dernier sur le mur de l’autel.
+  - C’est toujours une chapelle en activité, où les cardinaux se réunissent en conclave pour élire un nouveau pape. Elle se trouve au Vatican, à l’ouest de la partie de Rome que cartographie le jeu, mais on peut tout de même y entrer.
+vespa:
+  name: La Vespa
+  blurb: Le scooter qui mit l’Italie d’après-guerre sur deux roues et traversa Vacances romaines.
+  text:
+  - 'Piaggio lança la Vespa en 1946 : un scooter à carrosserie d’acier qui couvrait le moteur et gardait les vêtements propres, assez bon marché pour un pays qui devait se remettre en mouvement. Son nom signifie guêpe, d’après le bourdonnement de son moteur et la forme de son corps.'
+  - En 1953, Audrey Hepburn et Gregory Peck en traversèrent Rome dans Vacances romaines, et la Vespa devint l’image même de la dolce vita. Les rues de Rome en bourdonnent encore.
+nasoni:
+  name: Les nasoni
+  blurb: Les petites fontaines à boire en fonte aux coins des rues de Rome, qui coulent toute la journée.
+  text:
+  - Quelque 2 500 nasoni, « gros nez », se dressent sur les trottoirs de Rome, nommés d’après leur bec recourbé. Ils furent installés à partir des années 1870 et coulent jour et nuit avec l’eau des aqueducs de la ville.
+  - 'Les Romains ont une astuce : bouchez le bout du bec avec un doigt et l’eau jaillit d’un petit trou sur le dessus, comme une fontaine à boire.'
+sampietrini:
+  name: Les sampietrini
+  blurb: Les petits pavés noirs de basalte qui recouvrent les rues de la vieille Rome.
+  text:
+  - Les sampietrini sont de petits cubes de pierre volcanique sombre, posés à la main dans le sable. Ils portent le nom de la place Saint-Pierre, où ils furent posés pour la première fois à grande échelle au XVIe siècle.
+  - Ils sont beaux, peu coûteux à réparer et terribles pour les scooters et les talons hauts. Dans le jeu, les rues du vieux centre en sont pavées.
+carbonara:
+  name: Les pâtes à la carbonara
+  blurb: 'Des pâtes à l’œuf, au guanciale, au pecorino et au poivre noir : le plat propre à Rome, sans une goutte de crème.'
+  text:
+  - 'Spaghetti ou rigatoni, guanciale croustillant (joue de porc séchée), jaunes d’œufs, pecorino romano râpé et beaucoup de poivre noir : voilà tout ce qu’est une carbonara romaine. L’œuf est mélangé hors du feu pour devenir onctueux sans brouiller.'
+  - Avec les cacio e pepe, la gricia et l’amatriciana, c’est l’un des quatre grands plats de pâtes de Rome, tous faits des mêmes quelques ingrédients.

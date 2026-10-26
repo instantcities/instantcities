@@ -1,22 +1,67 @@
-# utrecht's landmarks in Dutch (_data/landmarks/utrecht.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# utrecht's landmarks in Dutch (_data/landmarks/utrecht.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 domtoren:
   name: Domtoren
   blurb: De hoogste kerktoren van Nederland, 112 meter gotische baksteen en natuursteen, alleenstaand sinds een storm het schip wegblies.
+  text:
+  - De Domtoren werd van 1321 tot 1382 gebouwd als klokkentoren van de Sint-Maartenskathedraal, en met zijn 112 meter is hij nog steeds de hoogste kerktoren van het land. Je ziet hem van ver in het vlakke land rond Utrecht.
+  - 'Sinds 1674 staat hij los van zijn kerk: een storm blies het schip daartussen omver, en het gat werd nooit herbouwd. Een gids brengt je langs 465 treden, langs de klokken en het carillon, naar een uitzicht over de hele provincie.'
 domkerk:
   name: Domkerk
   blurb: 'Wat er rest van de gotische kathedraal van Utrecht: het koor en het transept, sinds de instorting van het schip in 1674 los van hun toren.'
+  text:
+  - De Sint-Maartenskathedraal werd in 1254 begonnen in de gotische stijl van de Franse kathedralen, op de plek waar de eerste bisschoppen van Utrecht sinds de 7e eeuw hun kerken hadden gebouwd. Het duurde bijna drie eeuwen om haar te bouwen en ze werd nooit helemaal voltooid.
+  - Op 1 augustus 1674 blies een tornado haar schip omver, dat geen luchtbogen had om het te dragen. Het puin werd pas in 1826 geruimd. Het Domplein vult nu het gat, met de omtrek van het oude schip in de bestrating aangegeven, en eronder liggen de resten van het Romeinse fort waaruit Utrecht is voortgekomen. De kerk is sinds 1580 protestants.
 pandhof:
   blurb: De stille kloostertuin naast de Domkerk, beplant met de kruiden van een middeleeuwse kloostertuin.
+  text:
+  - De Pandhof is de kloostergang van de kathedraal, in de 15e eeuw gebouwd rond een vierkante tuin.
+  - De tuin is aangelegd met de geneeskrachtige kruiden en planten van de middeleeuwen, en in de zomer worden er concerten gehouden.
 oudegracht:
   blurb: De middeleeuwse gracht van Utrecht, met werven aan het water en oude kelders onder de straat, nu vol cafés.
+  text:
+  - 'De Oudegracht loopt dwars door de oude stad, van zuid naar noord. Ze werd in de 12e en 13e eeuw gegraven en heeft iets wat geen andere Nederlandse gracht heeft: de kaden liggen laag, aan het water, en de kooplieden groeven er kelders vanaf onder de straat om hun waren op te slaan.'
+  - Die werfkelders zijn nu restaurants, cafés en werkplaatsen met terrassen op de kaden, en de straat erboven loopt over hun daken. Je ziet de gracht het best vanaf een van haar bruggen, of vanaf een boot.
 janskerkhof:
   blurb: Het lommerrijke plein rond de Janskerk, met elke zaterdag een bloemenmarkt.
+  text:
+  - De Janskerk is een van de kerken die bisschop Bernold in de 11e eeuw rond de kathedraal plaatste, zodat de vier samen een kruis op de kaart vormden, met de Dom in het hart. Het plein eromheen, het oude kerkhof, is omzoomd met kanunnikenhuizen en universiteitsgebouwen.
+  - Op zaterdag wordt het hele plein een bloemen- en plantenmarkt, zoals al generaties lang.
 pieterskerk:
   blurb: Een van de oudste kerken van Nederland, een romaanse kerk uit 1048 met een crypte onder het koor.
+  text:
+  - Bisschop Bernold liet de Pieterskerk bouwen als oostelijke arm van zijn kruis van kerken, en ze werd in 1048 ingewijd. Het is een van de weinige romaanse kerken die in Nederland over zijn, met rode zandstenen zuilen binnen en een crypte onder het verhoogde koor.
+  - Sinds de 17e eeuw gebruikt de Waalse gemeente, Franstalige protestanten, haar.
 speelklok:
   blurb: Een museum van zelfspelende muziek, van speeldozen tot grote dansorgels, in de middeleeuwse Buurkerk.
+  text:
+  - 'De Buurkerk was de parochiekerk van de stadsmensen, de oudste van Utrecht. Tegenwoordig herbergt ze Museum Speelklok, vol instrumenten die vanzelf spelen: speelklokken, muziekdozen, draaiorgels en de enorme beschilderde dansorgels van Nederlandse kermissen.'
+  - De gidsen zetten ze aan het spelen terwijl je rondloopt, en de draaiorgels van Utrecht komen uit dezelfde traditie.
 academiegebouw:
   blurb: Het hoofdgebouw van de Universiteit Utrecht aan het Domplein, waar in 1579 de Unie van Utrecht werd getekend.
+  text:
+  - De hoofdzaal van de universiteit staat op het Domplein, met zijn neorenaissancistische gevel van 1892. Erachter ligt het oude kapittelhuis van de kathedraal, nu de Aula, waar de noordelijke gewesten van de Nederlanden in 1579 de Unie van Utrecht ondertekenden, het verbond tegen Spanje dat het begin van de Republiek werd.
+  - De universiteit werd in 1636 gesticht en is nu een van de grootste van het land, en gepromoveerden ontvangen hun graad nog steeds in de Aula.
 paushuize:
   blurb: Het huis aan de Kromme Nieuwegracht, gebouwd voor Adriaan van Utrecht, de enige Nederlandse paus.
+  text:
+  - Adriaan Florensz, in 1459 in Utrecht geboren, doceerde in Leuven en was leermeester van de jonge keizer Karel V. Hij liet dit huis bouwen voor als hij thuis zou komen, maar in 1522 werd hij als Adrianus VI tot paus gekozen, de enige Nederlander die ooit paus was.
+  - Hij stierf het jaar erna in Rome en woonde er nooit. Het huis is nu van de provincie, die het voor ontvangsten gebruikt.
+catharijneconvent:
+  name: Museum Catharijneconvent
+  blurb: Het nationale museum voor christelijke kunst en geschiedenis, in een middeleeuws klooster aan de Oudegracht.
+  text:
+  - Het klooster van Sint-Catharina behoorde in de middeleeuwen toe aan de Johannieters. Tegenwoordig huisvest het het nationale museum voor de geschiedenis van het christendom in Nederland, met middeleeuwse handschriften, altaarstukken, kerkzilver en schilderijen.
+  - De kerk ernaast, de Catharijnekerk, werd in de 19e eeuw de katholieke kathedraal van Utrecht.
+centraal-museum:
+  name: Centraal Museum
+  blurb: Het oudste stadsmuseum van Nederland, met de Utrechtse schilders uit de Gouden Eeuw en de meubels van Gerrit Rietveld.
+  text:
+  - Het Centraal Museum opende in 1838 en is het oudste gemeentelijke museum van het land. Het heeft het werk van de Utrechtse caravaggisten, de schilders die in de jaren 1620 Caravaggio’s licht en donker uit Rome meebrachten, en de grootste collectie stoelen en ontwerpen van Gerrit Rietveld.
+  - Rietvelds Rood-blauwe stoel is hier, en zijn Schröderhuis, werelderfgoed, ligt aan de rand van de stad.
+nijntje:
+  name: Nijntje
+  blurb: Dick Bruna’s kleine witte konijntje, in 1955 in Utrecht geboren, dat in de stad zelfs eigen stoplichten heeft.
+  text:
+  - Dick Bruna woonde en tekende zijn hele leven in Utrecht, en in 1955 maakte hij zijn eerste boek over Nijntje, het kleine konijntje dat in het Engels Miffy heet. Ze is sindsdien verschenen in meer dan 120 boeken in meer dan 50 talen.
+  - Utrecht heeft een Nijntje Museum tegenover het Centraal Museum, een standbeeld van haar op het Nijntjepleintje en een zebrapad in de Lange Viestraat waar de stoplichten Nijntje staand en lopend tonen.

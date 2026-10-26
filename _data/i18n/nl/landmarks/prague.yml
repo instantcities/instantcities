@@ -1,26 +1,79 @@
-# prague's landmarks in Dutch (_data/landmarks/prague.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# prague's landmarks in Dutch (_data/landmarks/prague.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 staromestske-namesti:
   name: Oudestadsplein
   blurb: Het grote plein van de oude stad, met de Týnkerk, het astronomisch uurwerk en het monument voor Jan Hus.
+  text:
+  - Het Oudestadsplein is sinds de 12e eeuw de marktplaats van Praag. Eromheen staan het stadhuis met zijn uurwerk, de barokke Sint-Nicolaaskerk, pastelkleurige paleizen en de twee spitse torens van de Týnkerk.
+  - In het midden staat het gedenkteken voor Jan Hus, de hervormer die in 1415 op de brandstapel werd verbrand, onthuld in 1915. Zevenentwintig witte kruisen in de bestrating markeren de plek waar in 1621 27 Tsjechische leiders werden geëxecuteerd.
 orloj:
   name: Astronomisch uurwerk
   blurb: 'Gemaakt in 1410: elk uur trekken de twaalf apostelen langs de raampjes terwijl de Dood zijn klokje luidt.'
+  text:
+  - De Praagse Orloj op het stadhuis van de Oude Stad werd in 1410 gemaakt, waarmee hij het oudste astronomische uurwerk is dat nog werkt. De wijzerplaat toont de tijd, de plaats van zon en maan aan de hemel en de tekens van de dierenriem.
+  - Op het hele uur luidt een skelet zijn bel, defileren de twaalf apostelen langs twee kleine vensters boven de wijzerplaat en kraait een haan; menigten verzamelen zich om te kijken.
 tyn:
   name: Týnkerk
   blurb: De gotische kerk met twee puntige torens van 80 meter, achter de huizen op het Oudestadsplein.
+  text:
+  - De Onze-Lieve-Vrouwekerk voor Týn werd vanaf de 14e eeuw gebouwd en werd de hoofdkerk van de hussieten. Haar twee zwarte torenspitsen, elk omringd door kleine torentjes, rijzen 80 meter hoog; die in het zuiden is iets breder en zou de mannelijke toren zijn.
+  - Je komt er binnen via een doorgang tussen de huizen ervoor. De Deense sterrenkundige Tycho Brahe ligt binnen begraven.
 karluv-most:
   name: Karelsbrug
   blurb: De stenen brug uit 1357 over de Moldau, met dertig heiligenbeelden langs de rand.
+  text:
+  - 'Karel IV legde in 1357 de eerste steen van de brug, om 5:31 uur op 9 juli, een tijdstip gekozen om zijn palindroom van cijfers: 1357 9 7 5 31. Vier eeuwen lang was het de enige brug over de Moldau in Praag.'
+  - Vanaf de 17e eeuw werden dertig heiligenbeelden langs de borstweringen geplaatst. Raak het bronzen reliëf van Sint-Jan Nepomuk aan, die in 1393 van de brug werd gegooid, en je keert terug naar Praag.
 mostecka-vez:
   name: Brugtoren van de oude stad
   blurb: De gotische poorttoren aan de kant van de oude stad van de Karelsbrug, een van de mooiste van Europa.
+  text:
+  - Peter Parler bouwde de toren in de 14e eeuw als triomfpoort voor de koning op weg naar zijn kroning. Op de voorkant staan beelden van Karel IV, zijn zoon Wenceslaus IV en Sint-Vitus.
+  - Vanaf de top zie je de brug zich over de rivier uitstrekken naar de Kleine Zijde en het kasteel op de heuvel.
 klementinum:
-  blurb: Het reusachtige jezuïetencollege naast de brug, met een barokke bibliotheekzaal en een sterrenwachttoren.
+  name: Het Klementinum
+  blurb: Het grote jezuïetencomplex van de Oude Stad, nu de Nationale Bibliotheek, met zijn barokke zaal en sterrentoren.
+  text:
+  - De jezuïeten bouwden het Klementinum vanaf 1556, een van de grootste gebouwencomplexen van Europa na de Praagse Burcht. Tegenwoordig huisvest het de Nationale Bibliotheek.
+  - De barokke bibliotheekzaal is van vloer tot plafond beschilderd en verguld, en de sterrentoren meet sinds 1775 elke dag het weer van Praag.
 josefov:
-  blurb: De Joodse wijk van Praag, met oude synagogen en de Oude Joodse Begraafplaats.
+  blurb: De oude Joodse stad van Praag, met zijn synagogen, stadhuis en oude begraafplaats met opeengepakte graven.
+  text:
+  - Eeuwenlang woonden de Joden van Praag in dit getto naast de Oude Stad. Het werd Josefov genoemd naar keizer Jozef II, die de wetten tegen hen versoepelde. De meeste oude huizen werden rond 1900 geruimd, maar zes synagogen en het stadhuis zijn er nog.
+  - De Oude Joodse Begraafplaats telt zo’n 12.000 grafstenen dicht opeen, de graven in lagen op elkaar.
 staronova-synagoga:
   name: Oud-Nieuwe Synagoge
   blurb: Gebouwd rond 1270, de oudste synagoge van Europa die nog in gebruik is.
+  text:
+  - De Oud-Nieuwe Synagoge werd rond 1270 in gotische stijl gebouwd en wordt sindsdien gebruikt voor gebed. Ze heet oud-nieuw omdat ze nieuw was toen ze werd gebouwd en latere synagogen nog nieuwer waren.
+  - Volgens de legende ligt de Golem, de kleireus die rabbi Loew tot leven bracht, op haar zolder.
 rudolfinum:
-  blurb: De neorenaissancistische concertzaal aan de Moldau, thuis van de Tsjechische Filharmonie.
+  name: Het Rudolfinum
+  blurb: De neorenaissancistische concertzaal aan de Moldau, thuis van het Tsjechisch Filharmonisch Orkest.
+  text:
+  - Het Rudolfinum werd van 1876 tot 1884 gebouwd als huis van de kunsten, genoemd naar kroonprins Rudolf. Antonín Dvořák dirigeerde er in 1896 het eerste concert.
+  - Tussen de oorlogen was het de zetel van het parlement van Tsjecho-Slowakije. Tegenwoordig is de Dvořákzaal het thuis van het Tsjechisch Filharmonisch Orkest.
+prasna-brana:
+  name: De Kruittoren
+  blurb: Een gotische poorttoren uit 1475 aan het begin van de Koninklijke Weg, vroeger gebruikt voor de opslag van buskruit.
+  text:
+  - De Kruittoren werd in 1475 begonnen als een van de poorten van de Oude Stad, aan de weg die koningen naar hun kroning in het kasteel namen. In de 17e eeuw lag er buskruit, wat hem zijn naam gaf.
+  - Ernaast staat het Gemeentehuis, Praags grote art-nouveaugebouw.
+prazsky-hrad:
+  name: De Praagse Burcht
+  blurb: De burcht op de heuvel aan de overkant van de rivier, het grootste oude burchtencomplex ter wereld; buiten deze kaart.
+  text:
+  - De Praagse Burcht is sinds de 9e eeuw de zetel van Boheemse koningen, Roomse keizers en Tsjechische presidenten. Binnen de muren staan de Sint-Vituskathedraal, paleizen, kerken en het kleine Gouden Straatje.
+  - Hij ligt aan de overkant van de Moldau ten opzichte van de Oude Stad, voorbij het stuk Praag dat het spel tot nu toe heeft; je ziet hem vanaf de rivier.
+tramvaj:
+  name: Trams
+  blurb: De rood-crèmekleurige trams die langs de rivier en over de bruggen ratelen.
+  text:
+  - Praag heeft een van de grootste tramnetwerken van Europa, met rood-crèmekleurige trams die dag en nacht rijden. De oude Tatra T3, rond en kantig, reed hier tientallen jaren en rijdt nog op een paar lijnen.
+  - Lijn 17 loopt langs de rivier voorbij het Rudolfinum, een van de mooiste ritten van de stad.
+pivo:
+  name: Tsjechisch bier
+  blurb: Tsjechen drinken per hoofd meer bier dan wie ook; het pilsner werd in Bohemen geboren.
+  text:
+  - In 1842 maakten de brouwers van Plzeň in Bohemen het eerste gouden lagerbier, het pilsner; tegenwoordig wordt het meeste bier ter wereld ernaar gebrouwen. De Tsjechen drinken per hoofd meer bier dan enig ander volk.
+  - In de oude kroegen van Praag wordt het geschonken met een dikke schuimkraag, en sommige brouwen zelf, zoals U Fleků sinds 1499.

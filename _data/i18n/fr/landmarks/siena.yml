@@ -1,21 +1,72 @@
-# siena's landmarks in French (_data/landmarks/siena.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# siena's landmarks in French (_data/landmarks/siena.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 il-campo:
   blurb: La place en forme de coquille au cœur de Sienne, pavée de brique rouge et descendant vers l’hôtel de ville, où se court le Palio.
+  text:
+  - Le Campo s’étend là où les trois collines de Sienne se rejoignent, sur l’ancienne place du marché en contrebas. Le gouvernement des Neuf le fit paver de brique rouge de 1327 à 1349, en neuf tranches de travertin en éventail, une pour chacun de ses membres, si bien que la place s’ouvre comme une coquille et descend vers le Palazzo Pubblico.
+  - Les palais autour devaient suivre les mêmes règles pour leurs fenêtres et leur hauteur, si bien que la place semble toujours dessinée d’une seule main. Deux fois chaque été, elle se remplit de terre et de monde pour le Palio, et les autres jours les Siennois s’assoient sur ses briques au soleil.
 palazzo-pubblico:
   blurb: L’hôtel de ville gothique de brique et de pierre au bas du Campo, avec les plus célèbres fresques du bon et du mauvais gouvernement.
+  text:
+  - Le gouvernement des Neuf bâtit son palais de 1297 à 1310, au point le plus bas du Campo, et c’est toujours l’hôtel de ville de Sienne. Sa façade se courbe légèrement pour suivre la courbe de la place, et l’écu noir et blanc de la ville surmonte chaque arche.
+  - 'À l’étage, dans le Museo Civico, Simone Martini peignit la Maestà en 1315, et en 1338 et 1339 Ambrogio Lorenzetti couvrit la salle où se réunissaient les Neuf de l’Allégorie du bon et du mauvais gouvernement : une ville et une campagne actives et heureuses sur un mur, une ville ruinée sur l’autre.'
 torre-del-mangia:
   blurb: La fine tour de brique de l’hôtel de ville, haute de 88 mètres, avec la couronne de pierre de sa chambre des cloches au-dessus du Campo.
+  text:
+  - La Torre del Mangia fut élevée de 1338 à 1348 à côté du Palazzo Pubblico, en brique avec une couronne de travertin blanc. Elle mesure 88 mètres, l’une des plus hautes tours de l’Italie médiévale, et bien qu’elle s’élève du point le plus bas du Campo, son sommet est aussi haut que le campanile de la cathédrale sur la colline.
+  - Elle tire son nom de son premier sonneur de cloches, Giovanni di Balduccio, que l’on appelait Mangiaguadagni, celui qui mange ses gains. On peut gravir ses quelque 400 marches pour une vue par-dessus les toits sur les collines de Toscane.
 fonte-gaia:
   blurb: La fontaine de marbre en haut du Campo, où l’eau des aqueducs souterrains de Sienne arrivait pour la première fois sur la place.
+  text:
+  - Sienne n’a pas de rivière, elle a donc creusé les bottini, des kilomètres de tunnels qui recueillent l’eau de pluie sous les collines. Quand l’eau atteignit pour la première fois le Campo en 1343, la ville fêta si bruyamment que la fontaine fut appelée la joyeuse, Fonte Gaia.
+  - Jacopo della Quercia sculpta son marbre de 1409 à 1419, avec la Vierge, les Vertus et des scènes de la Genèse. Les originaux usés sont aujourd’hui conservés à Santa Maria della Scala, et la fontaine de la place est une copie que Tito Sarrocchi fit en 1868.
 duomo:
   name: Duomo de Sienne
   blurb: La cathédrale sur la plus haute colline de la ville, rayée de marbre blanc et vert foncé, avec un pavement de tableaux de marbre incrusté.
+  text:
+  - La cathédrale de Sienne, Santa Maria Assunta, fut bâtie au XIIIe siècle au point le plus haut de la ville. Giovanni Pisano en sculpta la moitié basse de la façade à partir de 1284, peuplée de prophètes et de philosophes, et le campanile et les murs intérieurs sont rayés de marbre blanc et vert foncé, les couleurs de l’écu de la ville.
+  - À l’intérieur, Nicola Pisano sculpta la chaire de 1265 à 1268, et le Pinturicchio peignit la bibliothèque Piccolomini avec la vie du pape Pie II, de la famille siennoise des Piccolomini. Tout le sol est un livre d’images de 56 panneaux de marbre, réalisés en deux siècles, que l’on découvre quelques semaines chaque année.
 facciatone:
   blurb: La façade nue de l’immense nouvelle cathédrale que Sienne commença en 1339 et abandonna après la peste noire.
+  text:
+  - 'En 1339, Sienne décida de bâtir une cathédrale qui surpasserait celle de Florence : l’ancienne ne serait plus que le transept d’une église bien plus grande. La peste de 1348 tua une grande partie de la ville, l’argent manqua, et en 1357 les travaux s’arrêtèrent pour de bon.'
+  - Ce qui en subsiste est le Facciatone, la façade vide avec sa haute fenêtre, et une rangée d’arcades le long de la place. Le Museo dell’Opera del Duomo occupe maintenant une partie de la nef inachevée, avec la Maestà de Duccio, et du haut du Facciatone on domine le Campo et la Torre del Mangia.
 santa-maria-della-scala:
   blurb: L’un des plus anciens hôpitaux d’Europe, face à la cathédrale, qui accueillit pèlerins et enfants trouvés pendant près de mille ans.
+  text:
+  - Santa Maria della Scala accueillit les pèlerins de la Via Francigena, les malades et les enfants abandonnés de Sienne du XIe siècle jusqu’à la fin du XXe, quand l’hôpital quitta la ville. C’est aujourd’hui un musée, une petite ville de salles, de chapelles et de caves sous la place de la cathédrale.
+  - 'Dans le Pellegrinaio, la longue salle des pèlerins, Domenico di Bartolo et d’autres peignirent dans les années 1440 le travail propre de l’hôpital : nourrir les pauvres, soigner les malades, élever les enfants trouvés. Les panneaux originaux de la Fonte Gaia y sont conservés aussi.'
 loggia-della-mercanzia:
   blurb: La loggia du XVe siècle du tribunal des marchands, au carrefour où se rejoignent les trois grandes rues de Sienne au-dessus du Campo.
+  text:
+  - À la Croce del Travaglio, le croisement de Banchi di Sopra, Banchi di Sotto et Via di Città, les trois routes des trois tiers de la ville se rejoignent. Ici la Mercanzia, le tribunal qui réglait les querelles de marchands, bâtit sa loggia à partir de 1417, avec des statues de saints sur ses piliers.
+  - De sous ses arches, quelques marches descendent au Campo, et tout Sienne passe devant elle le soir.
 piazza-salimbeni:
   blurb: La petite place des palais du Monte dei Paschi, la plus ancienne banque du monde encore en activité.
+  text:
+  - Le Monte dei Paschi di Siena fut fondé en 1472 pour prêter de l’argent aux pauvres à intérêt équitable, et il fonctionne depuis, ce qui en fait la plus ancienne banque du monde. Il a son siège dans le Palazzo Salimbeni gothique, au fond de cette place sur Banchi di Sopra.
+  - À côté se dressent le Palazzo Spannocchi Renaissance et le Palazzo Tantucci, et au milieu la statue de Sallustio Bandini, le prêtre siennois qui plaida pour le libre-échange au XVIIIe siècle.
+san-domenico:
+  name: San Domenico
+  blurb: La grande église de brique des dominicains sur sa propre colline, où sainte Catherine de Sienne priait, et où sa tête est conservée.
+  text:
+  - Les dominicains commencèrent à construire leur église en 1226, une longue grange de brique simple sur la colline à l’ouest du centre, avec une vue par-dessus la vallée de Fontebranda jusqu’à la cathédrale.
+  - Catherine Benincasa, fille d’un teinturier de laine du quartier en dessous, y priait. Elle persuada papes et princes de faire la paix, ramena le pape d’Avignon à Rome et devint une sainte patronne de l’Italie et de l’Europe. Dans une chapelle à l’intérieur, sa tête est conservée dans un reliquaire, et un portrait d’elle par Andrea Vanni, que l’on dit le seul peint de son vivant, est accroché au mur.
+fortezza-medicea:
+  name: La Fortezza Medicea
+  blurb: La forteresse que Florence bâtit après avoir pris Sienne en 1555, aujourd’hui un parc sur ses remparts au-dessus de la ville.
+  text:
+  - Après un siège de plus d’un an, Sienne céda à l’armée de Florence et de l’empereur en 1555, et perdit la liberté qu’elle avait gardée quatre siècles. À partir de 1561, Cosme Ier de Médicis fit bâtir cette forteresse à quatre bastions pour tenir la ville en respect.
+  - Aujourd’hui, ses murs sont un parc, où les Siennois vont se promener ou courir, avec une vue sur les tours et sur la verdure de La Lizza à côté.
+palio:
+  name: Le Palio de Sienne
+  blurb: La course de chevaux effrénée autour du Campo, courue deux fois chaque été entre les contrade, les quartiers de la ville.
+  text:
+  - 'Sienne est divisée en dix-sept contrade, chacune avec son animal, ses couleurs, son église, sa fontaine et son musée. Les 2 juillet et 16 août, dix d’entre elles courent le Palio : trois tours du Campo, à cru, sur une piste de terre posée sur les briques, en environ une minute et demie. Un cheval qui a désarçonné son jockey peut encore gagner.'
+  - Des jours d’essais, des bénédictions des chevaux dans les églises des contrade et un cortège en costumes médiévaux y mènent. Le vainqueur remporte le drappellone, une bannière de soie peinte pour chaque course, et toute la contrada fête pendant des semaines.
+panforte:
+  name: Le panforte
+  blurb: Le gâteau dense de Sienne au miel, aux amandes, aux fruits confits et aux épices, cuit ici depuis le Moyen Âge.
+  text:
+  - Le panforte, le pain fort, est un gâteau plat et moelleux de miel et de sucre avec des amandes, de l’orange et du melon confits et beaucoup d’épices, comme le faisaient les apothicaires siennois au Moyen Âge. Le panpepato sombre contient aussi du poivre.
+  - Le panforte Margherita blanc, couvert de sucre glace, fut fait en 1879 pour la visite de la reine Marguerite. Sienne cuit aussi les biscuits moelleux aux amandes appelés ricciarelli, et les deux se vendent dans toutes les pâtisseries de Banchi di Sopra.

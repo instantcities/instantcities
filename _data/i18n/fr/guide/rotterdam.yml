@@ -1,0 +1,113 @@
+# rotterdam's guide in French (_data/about/rotterdam.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Pays-Bas
+- Hollande-Méridionale
+- Environ 670 000 habitants (ville)
+- La Nieuwe Maas, l’une des embouchures du Rhin et de la Meuse
+- Autour du niveau de la mer, en grande partie en dessous
+- '1340'
+- Néerlandais
+- Maasstad, la ville sur la Meuse
+overview:
+- Il ne reste presque rien du Rotterdam médiéval. Là où se trouvait la vieille ville, entre le Coolsingel et l’Oude Haven, le centre a été reconstruit après la guerre avec de larges rues, des rues commerçantes piétonnes et, à partir des années 1980, de plus en plus de tours. De la vieille ville, seuls la Laurenskerk, l’hôtel de ville, le Schielandshuis, le Witte Huis et quelques autres bâtiments subsistent.
+- 'Instant Rotterdam vous emmène au cœur de la ville : le long du Coolsingel, le long du Blaak devant la Markthal jusqu’aux maisons cubiques et à l’Oude Haven, puis de nouveau par le Binnenrotte et le long de la Hoogstraat devant la Laurenskerk. Le pont Érasme se trouve au bord sud de la carte. La ville est aussi plate dans la réalité que dans le jeu.'
+setting:
+- Rotterdam se trouve dans l’ouest des Pays-Bas, à environ 60 kilomètres au sud-ouest d’Amsterdam et à 20 kilomètres de La Haye, sur la Nieuwe Maas. En aval, le fleuve devient la Nieuwe Waterweg, le canal creusé de 1866 à 1872 pour donner au port son propre accès à la mer, et les bassins s’étendent tout le long jusqu’à la Maasvlakte.
+- Une grande partie de la ville se trouve sous le niveau de la mer, derrière des digues, sur des terres qui furent autrefois des tourbières. Le climat est doux et humide, avec des vents marins toute l’année.
+today:
+- Rotterdam est la deuxième ville des Pays-Bas, un port et une ville universitaire où vivent des gens de quelque 170 pays. Sa silhouette de tours sur les deux rives de la Meuse est la seule de ce genre dans le pays, et chaque année de nouvelles s’élèvent.
+- La ville a le Feyenoord et son stade De Kuip, le Festival international du film en janvier, le North Sea Jazz Festival en juillet et les Wereldhavendagen, les journées mondiales du port, en septembre. Les taxis aquatiques font la course sur le fleuve entre les deux rives.
+history:
+- title: Un barrage dans la Rotte
+  text:
+  - 'Vers 1270, on construisit un barrage là où la petite rivière Rotte se jetait dans la Meuse, et un village de pêcheurs grandit à côté : Rotte-dam. En 1340, le comte de Hollande lui accorda les droits de ville. Le grand humaniste Érasme y naquit vers 1466.'
+  - La ville grandit avec ses ports, creusés les uns après les autres le long du fleuve, et au XVIIe siècle elle était la deuxième ville de Hollande après Amsterdam, faisant du commerce avec le monde entier par la Compagnie des Indes orientales.
+- title: Le port du Rhin
+  text:
+  - Au XIXe siècle, le fleuve s’ensabla et les navires atteignaient à peine la ville. La Nieuwe Waterweg, ouverte en 1872, donna à Rotterdam une voie profonde vers la mer, au moment même où la Ruhr, en Allemagne, se couvrait de mines de charbon et d’aciéries. Rotterdam devint le port du Rhin, et elle grandit vite, avec de nouveaux bassins sur la rive sud.
+  - Des milliers d’émigrants partirent d’ici pour l’Amérique sur les navires de la Holland America Line, du quai où se dresse aujourd’hui l’hôtel New York.
+- title: Le 14 mai 1940
+  text:
+  - 'Quatre jours après l’invasion des Pays-Bas par l’Allemagne, le 14 mai 1940, des bombardiers allemands attaquèrent le centre de Rotterdam alors que les deux camps discutaient encore de sa reddition. Les bombes et les incendies qui suivirent détruisirent la vieille ville : quelque 850 personnes moururent, environ 25 000 logements furent perdus et 80 000 personnes se retrouvèrent sans abri. Le lendemain, les Pays-Bas capitulèrent.'
+  - Les décombres furent déblayés, et la ville choisit de ne pas reconstruire les anciennes rues. Le Basisplan de 1946 dessina un nouveau centre ouvert, avec le Lijnbaan, inauguré en 1953, comme vitrine.
+- title: Une ville de bâtiments nouveaux
+  text:
+  - Rotterdam construisit le premier métro des Pays-Bas, ouvert en 1968, l’Euromast pour la Floriade de 1960, et de 1962 à 2004 elle fut le port le plus actif du monde. Dans les années 1980, Piet Blom construisit ses maisons cubiques, et la ville commença à se remplir de tours.
+  - Le pont Érasme ouvrit en 1996, et le Kop van Zuid, sur la rive sud, devint un second centre. En 2001, Rotterdam fut capitale européenne de la culture, et en 2014 ouvrirent la nouvelle gare centrale et la Markthal.
+timeline:
+- - vers 1270
+  - Un barrage est construit dans la Rotte
+- - '1340'
+  - Rotterdam reçoit les droits de ville
+- - vers 1466
+  - Naissance d’Érasme à Rotterdam
+- - 1449–1525
+  - Construction de la Laurenskerk
+- - '1872'
+  - La Nieuwe Waterweg ouvre vers la mer
+- - '1898'
+  - Le Witte Huis est achevé
+- - '1920'
+  - L’hôtel de ville du Coolsingel est achevé
+- - 14 mai 1940
+  - Des bombardiers allemands détruisent le centre
+- - '1946'
+  - Le Basisplan pour le nouveau centre
+- - '1953'
+  - Ouverture du Lijnbaan ; inauguration de La Ville détruite de Zadkine
+- - '1960'
+  - L’Euromast ouvre pour la Floriade
+- - '1968'
+  - Le premier métro des Pays-Bas
+- - '1984'
+  - Les maisons cubiques de Piet Blom sont achevées
+- - '1996'
+  - Le pont Érasme ouvre
+- - '2014'
+  - La nouvelle gare centrale et la Markthal ouvrent
+places:
+  coolsingel:
+    name: Coolsingel
+    blurb: La large avenue au centre, autrefois un canal, avec l’hôtel de ville.
+  stadhuis:
+    name: L’hôtel de ville
+    blurb: L’hôtel de ville de 1920, qui a survécu au bombardement.
+  lijnbaan:
+    blurb: La première rue commerçante d’Europe construite pour les piétons.
+  beursplein:
+    blurb: La place de la Bourse, en tête de la Hoogstraat.
+  laurenskerk:
+    blurb: Le dernier bâtiment médiéval du centre, avec la statue d’Érasme devant.
+  binnenrotte:
+    blurb: La longue place au-dessus de l’ancienne Rotte, où se tient le marché en plein air.
+  markthal:
+    name: La Markthal
+    blurb: La halle de marché sous son arc d’appartements.
+  kubuswoningen:
+    name: Les maisons cubiques
+    blurb: Les maisons jaunes inclinées de Piet Blom au-dessus du Blaak.
+  blaak:
+    blurb: La large rue le long des anciens ports, avec la gare en dessous.
+  oude-haven:
+    blurb: Le plus ancien port, plein de vieilles péniches.
+  witte-huis:
+    blurb: L’immeuble de bureaux blanc de 1898.
+  schielandshuis:
+    blurb: Le palais du XVIIe siècle de l’ancien wateringue parmi les tours.
+  leuvehaven:
+    blurb: Le port du Maritiem Museum, avec ses vieux navires.
+  plein-1940:
+    blurb: La place de La Ville détruite de Zadkine.
+  erasmusbrug:
+    name: Le pont Érasme
+    blurb: Le Cygne blanc sur la Meuse, vers le Kop van Zuid.
+links:
+- title: Rotterdam Info
+  note: Le site pour les visiteurs de la ville
+- title: Maritiem Museum
+  note: Le musée maritime sur le Leuvehaven
+- title: Markthal
+  note: La halle de marché
+- title: Rotterdam sur Wikipédia
+  note: L’article de l’encyclopédie

@@ -1,24 +1,81 @@
-# rome's landmarks in Dutch (_data/landmarks/rome.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# rome's landmarks in Dutch (_data/landmarks/rome.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 colosseo:
   name: Colosseum
   blurb: Het grote amfitheater van het oude Rome, in 80 n.Chr. geopend voor gladiatorengevechten voor zo’n 50.000 mensen.
+  text:
+  - De Flavische keizers bouwden het Colosseum op de plek van Nero’s privémeer, en Titus opende het in 80 n.Chr. met honderd dagen spelen. De stenen schil rees op in vier verdiepingen bogen, en een zonnezeil aan masten kon de menigte beschaduwen. Onder de arenavloer brachten een doolhof van gangen en liften dieren en strijders naar het licht.
+  - Toen de spelen ophielden werd het een steengroeve, een vesting en zelfs woonruimte, waardoor slechts een deel van de buitenring nog staat. Het ligt aan de rand van de kaart van het spel, aan het eind van de Via dei Fori Imperiali.
 pantheon:
   blurb: Een tempel voor alle goden, herbouwd onder Hadrianus, met de grootste koepel van ongewapend beton ter wereld.
+  text:
+  - 'Het Pantheon dat je ziet werd rond 125 n.Chr. onder keizer Hadrianus gebouwd, al noemt het opschrift op de portiek nog steeds Agrippa, die hier de eerste tempel bouwde. Achter de portiek van granieten zuilen ligt een volmaakt ronde zaal: de koepel is precies zo breed als hoog, 43 meter.'
+  - Het open oog bovenin, het oculus, is het enige raam, en de regen valt recht op de vloer, die zachtjes naar afvoeren afloopt. Het overleefde doordat het in 609 een kerk werd; de schilder Rafaël en de eerste koningen van Italië liggen er begraven.
 fontana-di-trevi:
   name: Trevifontein
   blurb: 'De grootste fontein van Rome: wie een munt over zijn schouder gooit, komt terug.'
+  text:
+  - 'De Trevifontein is het eindpunt van de Aqua Virgo, een aquaduct uit 19 v.Chr. dat nog steeds water naar de stad brengt. Nicola Salvi ontwierp de fontein tegen de achterkant van een paleis, en ze werd in 1762 voltooid: Oceanus rijdt in zijn schelpenwagen uit een triomfboog, getrokken door zeepaarden en tritons over een klif van ruwe steen.'
+  - Volgens de traditie zorgt een munt die je over je schouder in het bekken gooit ervoor dat je naar Rome terugkeert. Elke week wordt er voor duizenden euro’s uitgevist en aan goede doelen gegeven.
 piazza-navona:
   blurb: Een lang barok plein op de omtrek van het stadion van Domitianus, met de Vierstromenfontein van Bernini.
+  text:
+  - De Piazza Navona heeft precies de vorm van het stadion dat keizer Domitianus hier in de 1e eeuw liet bouwen voor atletiekwedstrijden; de huizen staan op de oude tribunes. In de 17e eeuw maakte paus Innocentius X er een paradepaardje van het barokke Rome van.
+  - In het midden staat Berninis Vierstromenfontein, met de Nijl, de Ganges, de Donau en de Río de la Plata rond een obelisk. Ertegenover staat Borromini’s kerk Sant’Agnese in Agone, het werk van zijn grote rivaal.
 foro-romano:
   name: Forum Romanum
   blurb: 'Het hart van het oude Rome: tempels, basilica’s en het senaatsgebouw, in een dal tussen de heuvels.'
+  text:
+  - 'Duizend jaar lang was het Forum het centrum van het Romeinse leven: markten, rechtbanken, tempels en de Curia, waar de Senaat vergaderde. Triomftochten reden over de Heilige Weg naar het Capitool.'
+  - Het lag begraven onder eeuwen aarde en werd als koeienweide gebruikt, en werd vanaf de 19e eeuw weer opgegraven. Tegenwoordig kijk je vanaf de straten eromheen neer op zuilen, bogen en straatstenen.
 vittoriano:
   blurb: Het reusachtige monument van wit marmer voor Victor Emanuel II op de Piazza Venezia, bijgenaamd de schrijfmachine.
+  text:
+  - Het Altare della Patria werd tussen 1885 en 1935 gebouwd voor Victor Emanuel II, de eerste koning van het verenigde Italië, wiens bronzen ruiterstandbeeld in het midden staat. Het bevat het Graf van de Onbekende Soldaat, dag en nacht bewaakt.
+  - 'De Romeinen hebben nooit echt gehouden van het verblindend witte marmer, dat niet past bij de warme kleuren van de stad: ze noemen het de schrijfmachine, of de bruidstaart. Vanaf de terrassen heb je een van de mooiste uitzichten over de stad.'
 campo-de-fiori:
   blurb: Een levendig plein met ’s ochtends een markt en in het midden het standbeeld van Giordano Bruno met zijn kap.
+  text:
+  - De Campo de’ Fiori, het bloemenveld, is een van de weinige pleinen van het oude Rome zonder kerk. Elke ochtend vult het zich met een markt van fruit, groente en bloemen, en ’s avonds met mensen in de bars.
+  - Het donkere standbeeld toont de filosoof Giordano Bruno, in 1600 op deze plek wegens ketterij verbrand; het werd hier in 1889 neergezet, kijkend naar het Vaticaan.
 colonna-di-marco-aurelio:
   name: Zuil van Marcus Aurelius
   blurb: Een marmeren zuil met de oorlogen van de keizer langs de Donau, sinds de 2e eeuw op de Piazza Colonna.
+  text:
+  - De zuil werd rond 193 n.Chr. opgericht ter ere van Marcus Aurelius, de filosoof-keizer. Een band van beeldhouwwerk windt zich als een rol omhoog en vertelt het verhaal van zijn veldtochten tegen de Germaanse stammen langs de Donau.
+  - Sinds 1589 staat Sint-Paulus bovenop in plaats van de keizer. Het plein eromheen is naar de zuil genoemd, en het paleis ernaast is de zetel van de Italiaanse regering.
 largo-di-torre-argentina:
   blurb: Vier tempels uit de Republiek, verzonken onder het straatniveau, naast de plek waar Julius Caesar vermoord werd.
+  text:
+  - Toen het gebied in de jaren twintig werd vrijgemaakt, kwamen vier tempels uit de Romeinse Republiek aan het licht, onder de oudste van de stad. Ernaast stond de Curia van Pompeius, waar Julius Caesar op de iden van maart 44 v.Chr. werd doodgestoken.
+  - De ruïnes zijn nu ook het thuis van een kolonie zwerfkatten, verzorgd door vrijwilligers in een opvang aan de rand van het terrein.
+sistina:
+  name: Sixtijnse Kapel
+  blurb: De pauselijke kapel van het Vaticaan, waar de kardinalen de paus kiezen, onder Michelangelo’s plafond en zijn Laatste Oordeel.
+  text:
+  - Paus Sixtus IV liet de kapel tussen 1473 en 1481 bouwen, en ze draagt zijn naam. Botticelli, Perugino en andere schilders versierden de muren; tussen 1508 en 1512 schilderde Michelangelo het plafond voor paus Julius II, met de Schepping van Adam in het hart, en van 1536 tot 1541 het Laatste Oordeel op de altaarwand.
+  - Het is nog steeds een werkende kapel, waar de kardinalen in conclaaf samenkomen om een nieuwe paus te kiezen. Ze staat in het Vaticaan, ten westen van het deel van Rome dat het spel in kaart brengt, maar je kunt er toch naar binnen.
+vespa:
+  name: Vespa
+  blurb: De scooter die het naoorlogse Italië op twee wielen zette en door Roman Holiday reed.
+  text:
+  - 'Piaggio bracht de Vespa in 1946 uit: een scooter met een stalen carrosserie die de motor bedekte en je kleren schoon hield, goedkoop genoeg voor een land dat weer in beweging moest komen. De naam betekent wesp, naar het gezoem van de motor en de vorm van het lijf.'
+  - In 1953 reden Audrey Hepburn en Gregory Peck er in Roman Holiday een door Rome, en de Vespa werd het beeld van la dolce vita. De straten van Rome gonzen er nog steeds van.
+nasoni:
+  name: Nasoni
+  blurb: De kleine gietijzeren drinkfonteintjes op Romeinse straathoeken, die de hele dag vers water geven.
+  text:
+  - Zo’n 2.500 nasoni, “grote neuzen”, staan op de trottoirs van Rome, genoemd naar hun gebogen tuit. Ze werden vanaf de jaren 1870 geplaatst en geven dag en nacht water uit de aquaducten van de stad.
+  - 'Romeinen kennen een truc: blokkeer het uiteinde van de tuit met een vinger en het water spuit uit een gaatje bovenop omhoog, als een drinkfontein.'
+sampietrini:
+  name: Sampietrini
+  blurb: De kleine zwarte basaltkeien waarmee de straten van het oude Rome zijn bestraat.
+  text:
+  - Sampietrini zijn kleine blokjes donker vulkanisch gesteente, met de hand in zand gelegd. Ze zijn genoemd naar het Sint-Pietersplein, waar ze in de 16e eeuw voor het eerst op grote schaal werden gelegd.
+  - Ze zijn mooi, goedkoop te herstellen en vreselijk voor scooters en hoge hakken. In het spel zijn de straten van het oude centrum ermee bestraat.
+carbonara:
+  name: Carbonara
+  blurb: 'Pasta met ei, guanciale, pecorino en zwarte peper: Roms eigen gerecht, zonder een druppel room.'
+  text:
+  - 'Spaghetti of rigatoni, knapperige guanciale (gedroogde varkenswang), eierdooiers, geraspte pecorino romano en veel zwarte peper: meer is een Romeinse carbonara niet. Het ei wordt van het vuur af erdoor geroerd, zodat het romig wordt zonder te schiften.'
+  - Samen met cacio e pepe, gricia en amatriciana is het een van de vier grote pastagerechten van Rome, allemaal gemaakt van dezelfde paar ingrediënten.

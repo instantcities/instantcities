@@ -1,0 +1,108 @@
+# prague's guide in Dutch (_data/about/prague.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Tsjechië
+- Praag is een regio op zich, de hoofdstad Praag
+- Ongeveer 1,4 miljoen inwoners (stad)
+- Het kasteel aan het eind van de 9e eeuw; de legende schrijft het toe aan prinses Libuše
+- De Moldau (Vltava)
+- Tsjechisch
+- De stad van honderd torens, het gouden Praag
+- Het historische centrum, sinds 1992
+overview:
+- 'Praag ligt in een bocht van de Moldau, met heuvels aan weerszijden van de rivier. Eeuwenlang was het niet één stad maar vier: de Oude Stad en de Nieuwe Stad op de rechteroever, en de Kleine Zijde en de kasteelwijk Hradčany op de linker. Keizer Jozef II voegde ze in 1784 samen tot één stad, en Praag behoudt hun namen en hun pleinen.'
+- Het centrum waar je in Instant Praag doorheen rijdt, is de rechteroever. Het Oudestadsplein ligt in het midden van een kluwen van steegjes, met de Joodse stad Josefov in het noorden en de Koninklijke Weg die van de Kruittoren via Celetná en Karlova naar de Karelsbrug loopt. Ten zuiden en oosten van de Oude Stad volgen Na Příkopě en Národní třída de lijn van de oude gracht, en het Wenceslasplein klimt door de Nieuwe Stad omhoog naar het Nationaal Museum.
+setting:
+- Praag ligt in het midden van Bohemen, de westelijke helft van Tsjechië, ongeveer halverwege Berlijn en Wenen. De Moldau, de langste rivier van het land, stroomt noordwaarts door de stad en voegt zich zo’n 30 kilometer verderop bij de Elbe.
+- 'De stad strekt zich uit over een heuvelachtig landschap: de Praagse Burcht staat op een rug boven de linkeroever, en de groene hellingen van Petřín rijzen ernaast op. Het klimaat is gematigd continentaal, met warme zomers en koude, vaak grijze winters.'
+today:
+- 'Praag is de zetel van de Tsjechische regering en het parlement, en de president werkt vanuit de Praagse Burcht. De stad is een van de rijkste regio’s van de Europese Unie en leeft van diensten, financiën, software, universiteiten en toerisme: miljoenen bezoekers per jaar verdringen zich in de Oude Stad en op de Karelsbrug, terwijl de meeste Pragenaars in de wijken eromheen wonen.'
+- De trams, de metro en de bierhallen horen bij het dagelijks leven, en Tsjechen drinken per hoofd meer bier dan enig ander volk. Sparta en Slavia, de twee grote voetbalclubs, zijn al ruim een eeuw rivalen, en ijshockey is net zo geliefd.
+history:
+- title: Burcht, koningen en Karel IV
+  text:
+  - Volgens de legende stond prinses Libuše op een rots boven de Moldau en voorzag ze een stad waarvan de roem tot de sterren zou reiken. Historisch gezien stichtte prins Bořivoj uit het geslacht der Přemysliden de Praagse Burcht aan het eind van de 9e eeuw, en aan de overkant van de rivier groeide een marktstad, op de handelsroutes van Midden-Europa. De Přemysliden werden koningen van Bohemen, en kooplieden, Joden en Duitse kolonisten maakten de Oude Stad rijk.
+  - Praags gouden eeuw kwam onder Karel IV, koning van Bohemen en keizer van het Heilige Roomse Rijk, die er de hoofdstad van het rijk van maakte. Hij begon in 1344 aan de Sint-Vituskathedraal, stichtte in 1348 de universiteit en de Nieuwe Stad, en begon in 1357 aan de stenen brug die nu zijn naam draagt. Na zijn dood viel de prediker Jan Hus de rijkdom van de Kerk aan vanuit de Bethlehemkapel; de Kerk verbrandde hem in 1415 als ketter, en zijn volgelingen, de hussieten, sloegen zo’n vijftien jaar lang de kruistochten af die tegen hen werden gestuurd.
+- title: Onder de Habsburgers
+  text:
+  - In 1526 erfden de Habsburgers de Boheemse kroon. Keizer Rudolf II verhuisde zijn hof in 1583 naar Praag en vulde het kasteel met schilders, alchemisten en sterrenkundigen, onder wie Tycho Brahe en Johannes Kepler. In 1618 gooiden protestantse edelen twee keizerlijke stadhouders uit een kasteelraam, de Praagse defenestratie, en begonnen de Dertigjarige Oorlog. Het Habsburgse leger sloeg hen in 1620 neer in de Slag bij de Witte Berg.
+  - 'De overwinnaars dwongen Bohemen terug naar het katholieke geloof en vulden Praag met barokke kerken, paleizen en de beelden op de Karelsbrug. In de 19e eeuw veroverden Tsjechischsprekenden de stad terug op haar Duitstalige elite: ze bouwden het Nationaal Theater en het Nationaal Museum met geld dat ze zelf inzamelden, en Praag groeide uit tot een industriestad van huurkazernes, trams en art-nouveaucafés.'
+- title: Hoofdstad van een nieuwe staat
+  text:
+  - In 1918, aan het eind van de Eerste Wereldoorlog, werd Praag de hoofdstad van het nieuwe Tsjecho-Slowakije. Nazi-Duitsland bezette de stad in maart 1939, en de Joden van Praag werden weggevoerd en vermoord in de Holocaust. De stad kwam in mei 1945 in opstand tegen de Duitsers en kwam met weinig schade door de oorlog, maar in 1948 namen de communisten de macht.
+  - In 1968 eindigden de hervormingen van de Praagse Lente toen de tanks van het Warschaupact binnenrolden, en in januari 1969 stak de student Jan Palach zich uit protest in brand op het Wenceslasplein. Twintig jaar later, in november 1989, bracht de Fluwelen Revolutie het regime zonder bloedvergieten ten val, en de toneelschrijver Václav Havel werd president. Toen Tsjecho-Slowakije zich in 1993 vreedzaam splitste, werd Praag de hoofdstad van Tsjechië, dat in 2004 lid werd van de Europese Unie.
+timeline:
+- - ca. 880
+  - Prins Bořivoj sticht de Praagse Burcht
+- - '1344'
+  - Begin van de bouw van de Sint-Vituskathedraal
+- - '1348'
+  - Karel IV sticht de universiteit en de Nieuwe Stad
+- - '1357'
+  - Begin van de bouw van de Karelsbrug
+- - '1410'
+  - Het astronomische uurwerk wordt geplaatst op het stadhuis van de Oude Stad
+- - '1415'
+  - Jan Hus wordt in Konstanz op de brandstapel verbrand
+- - '1618'
+  - De Praagse defenestratie begint de Dertigjarige Oorlog
+- - '1784'
+  - Jozef II voegt de vier steden samen tot één stad
+- - '1918'
+  - Praag wordt de hoofdstad van Tsjecho-Slowakije
+- - '1968'
+  - Troepen van het Warschaupact maken een einde aan de Praagse Lente
+- - '1989'
+  - De Fluwelen Revolutie maakt een einde aan het communistische bewind
+- - '1993'
+  - Praag wordt de hoofdstad van Tsjechië
+places:
+  staromestske-namesti:
+    name: Oudestadsplein
+    blurb: Het hart van de Oude Stad sinds de middeleeuwen, tussen de Týnkerk en het stadhuis met zijn astronomische uurwerk. Het gedenkteken voor Jan Hus staat in het midden.
+  celetna:
+    blurb: Het eerste stuk van de Koninklijke Weg, de kroningsroute van de Boheemse koningen, van de Kruittoren naar het Oudestadsplein.
+  ovocny-trh:
+    name: Ovocný trh (de fruitmarkt)
+    blurb: De oude fruitmarkt voor het Standentheater, waar Mozarts Don Giovanni in 1787 in première ging. Het Carolinum, het oudste gebouw van de Karelsuniversiteit, staat ernaast.
+  na-prikope:
+    blurb: Een winkelstraat op de lijn van de gracht die de Oude Stad ooit van de Nieuwe Stad scheidde. De naam betekent ‘op de gracht’.
+  vaclavske-namesti:
+    name: Wenceslasplein
+    blurb: De lange paardenmarkt van Karel IV’s Nieuwe Stad, die klimt naar het standbeeld van Sint-Wenceslaus en het Nationaal Museum. Pragenaars verzamelden zich hier in 1918, 1968 en 1989.
+  narodni:
+    blurb: De laan van het Nationaal Theater aan de Moldau tot de rand van de Oude Stad. Op 17 november 1989 sloeg de oproerpolitie hier een studentenmars uiteen, en begon de Fluwelen Revolutie.
+  karlova:
+    blurb: Een kromme steeg van de Koninklijke Weg die van de Oude Stad naar de Karelsbrug kronkelt, langs de muren van het Klementinum.
+  krizovnicke-namesti:
+    name: Plein van de Kruisheren
+    blurb: Het kleine plein aan het Oudestadseinde van de Karelsbrug, tussen de brugtoren van de Oude Stad, het Klementinum en de kerk van de Kruisheren.
+  karluv-most:
+    name: Karelsbrug
+    blurb: De stenen brug over de Moldau die Karel IV in 1357 begon, omzoomd met dertig heiligenbeelden. Tot 1841 was het Praags enige brug over de rivier.
+  vltava:
+    name: De Moldau
+    blurb: De langste rivier van Tsjechië, tussen de Oude Stad en de Kleine Zijde. Smetana zette haar op muziek in zijn symfonische gedicht De Moldau.
+  kampa:
+    blurb: Het eiland aan de kant van de Kleine Zijde, afgesneden door een smalle molenbeek, de Čertovka of Duivelsbeek, met een park en oude molenraderen.
+  namesti-jana-palacha:
+    name: Jan Palachplein
+    blurb: Het plein aan de rivier voor de concertzaal Rudolfinum, genoemd naar de student die zich in 1969 uit protest tegen de Sovjetbezetting in brand stak.
+  parizska:
+    blurb: De brede laan die de stad rond 1900 door de Joodse stad aanlegde, van het Oudestadsplein naar de Moldau, omzoomd met art-nouveauhuizen en dure winkels.
+  josefov:
+    blurb: De oude Joodse stad, genoemd naar keizer Jozef II. De stad sloopte rond 1900 het grootste deel, maar spaarde de synagogen, het stadhuis en de oude begraafplaats.
+  prazsky-hrad:
+    name: Praagse Burcht
+    blurb: De burcht op de rug aan de overkant van de rivier, zetel van de Boheemse koningen en nu van de Tsjechische president, met de Sint-Vituskathedraal binnen de muren.
+links:
+- title: Prague City Tourism
+  note: De officiële toeristeninformatie van de stad
+- title: Stadhuis van Praag
+  note: Het stadsbestuur
+- title: Joods Museum in Praag
+  note: Tickets en openingstijden van de synagogen en de Oude Joodse Begraafplaats
+- title: Historisch centrum van Praag op UNESCO
+  note: De werelderfgoedstatus
+- title: Praag op Wikipedia
+  note: Het encyclopedie-artikel

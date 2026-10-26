@@ -1,0 +1,99 @@
+# salerno's guide in French (_data/about/salerno.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Campanie
+- Salerne, dont elle est le chef-lieu
+- Environ 127 000 habitants (ville)
+- Le golfe de Salerne, sur la mer Tyrrhénienne
+- Italien ; le dialecte local est proche du napolitain
+- Saint Matthieu l’évangéliste, fêté le 21 septembre
+- La Cité hippocratique (Civitas Hippocratica)
+overview:
+- 'Salerne est serrée entre les montagnes et la mer. Sa vieille ville médiévale, le centro storico, grimpe la pente derrière le port en ruelles raides, escaliers et arcades, traversée d’ouest en est par la Via dei Mercanti. En dessous, la ville des XIXe et XXe siècles s’étend le long du rivage : le Corso Vittorio Emanuele, la Villa Comunale et le Teatro Verdi, et le long Lungomare Trieste au bord de la mer.'
+- 'Instant Salerne vous emmène au cœur de la ville : le Duomo et les ruelles de la vieille ville, le Corso jusqu’à la gare, les jardins et le théâtre à l’extrémité ouest, et le front de mer avec le Molo Manfredi, où se dresse le terminal de ferries de Zaha Hadid. La ville grimpe vraiment la colline, mais le jeu la garde plate, et le château au-dessus se trouve hors de la carte.'
+setting:
+- Salerne est le chef-lieu de la province de Salerne, en Campanie, à environ 55 kilomètres au sud-est de Naples. À l’ouest, les falaises de la côte amalfitaine commencent presque au bord de la ville, avec Vietri sul Mare, Amalfi et Positano tout le long ; au sud, la plaine plate du Sele court jusqu’aux temples grecs de Paestum et au Cilento.
+- Le climat est méditerranéen, avec des étés longs, chauds et secs, et des hivers doux et plus pluvieux. Les montagnes derrière la ville la protègent du nord, et la mer adoucit les hivers.
+today:
+- Salerne est un port animé et une ville universitaire, le chef-lieu de sa province et la porte de la côte amalfitaine et du Cilento. Des bateaux partent du Molo Manfredi pour Amalfi, Positano et Capri, et les trains de la ligne de Naples vers la Calabre s’arrêtent à sa gare.
+- Le soir, la ville se promène sur le Corso et le Lungomare, et le 21 septembre elle porte la statue de saint Matthieu à travers les rues pour la fête de son patron. De novembre à janvier, les Luci d’Artista transforment la Villa Comunale, le Corso et la vieille ville en jardin de lumières.
+history:
+- title: De colonie romaine à capitale lombarde
+  text:
+  - Les Romains fondèrent la colonie de Salernum en 197 av. J.-C. sur une colline au-dessus de la mer. Après la chute de Rome, la ville passa aux Lombards, et au VIIIe siècle Arechis II, duc de Bénévent, en fit sa seconde capitale, renforça le château sur la colline et bâtit un palais au bord de la mer.
+  - En 849, Salerne devint la capitale d’une principauté lombarde à elle, qui régna sur une grande partie de l’Italie du Sud pendant deux siècles. Elle commerçait avec toute la Méditerranée, et les savoirs grec, latin, arabe et juif se rencontraient dans ses rues.
+- title: La Cité hippocratique
+  text:
+  - À partir du Xe siècle, Salerne fut célèbre pour son école de médecine, la Scuola Medica Salernitana, la première du genre dans l’Europe médiévale. Ses médecins traduisaient et enseignaient à partir de textes grecs et arabes, des femmes y étudiaient et enseignaient aussi, et ses règles de santé en vers étaient lues dans tous les pays d’Europe.
+  - En 1076, le Normand Robert Guiscard prit la ville et en fit la capitale de ses terres d’Italie du Sud. Il bâtit le Duomo, où repose le pape Grégoire VII, qui avait fui Rome.
+- title: Une ville de province, et brièvement la capitale de l’Italie
+  text:
+  - Une fois la capitale du royaume transférée à Naples, Salerne devint une ville de province, et son école de médecine déclina lentement jusqu’à ce que Joachim Murat la ferme en 1811. Au XIXe siècle, la ville s’étendit hors de ses remparts le long de la mer, avec le Corso, la Villa Comunale et le Teatro Verdi.
+  - Le 9 septembre 1943, les Alliés débarquèrent sur les plages au sud de la ville, lors de l’opération Avalanche. De février à juillet 1944, Salerne fut le siège du gouvernement italien, la capitale de la partie libre de l’Italie, avant qu’il ne retourne à Rome.
+timeline:
+- - 197 av. J.-C.
+  - Les Romains fondent la colonie de Salernum
+- - '774'
+  - Arechis II, duc de Bénévent, fait de Salerne sa seconde capitale
+- - '849'
+  - Salerne devient la capitale d’une principauté lombarde à elle
+- - '954'
+  - Les reliques de saint Matthieu sont apportées à Salerne
+- - Xe siècle
+  - La Scuola Medica Salernitana devient connue dans toute l’Europe
+- - '1076'
+  - Le Normand Robert Guiscard prend la ville
+- - '1084'
+  - Le pape Grégoire VII consacre la nouvelle cathédrale
+- - '1811'
+  - Joachim Murat ferme l’école de médecine
+- - '1872'
+  - Le Teatro Verdi ouvre
+- - '1943'
+  - Le débarquement allié à Salerne, opération Avalanche
+- - '1944'
+  - Salerne est le siège du gouvernement italien de février à juillet
+- - '2006'
+  - Les premières Luci d’Artista illuminent la ville
+- - '2016'
+  - Le terminal de ferries de Zaha Hadid ouvre sur le Molo Manfredi
+places:
+  duomo:
+    name: Duomo di San Matteo
+    blurb: La cathédrale normande de 1084 au-dessus du tombeau de saint Matthieu, avec sa cour à arcades et son campanile.
+  via-dei-mercanti:
+    blurb: La rue des marchands, la ruelle principale de la ville médiévale, pleine de boutiques.
+  portanova:
+    blurb: La place à l’extrémité est de la vieille ville, où la Via dei Mercanti rejoint le Corso.
+  corso:
+    blurb: La longue rue commerçante, fermée aux voitures, de la vieille ville à la gare.
+  via-roma:
+    blurb: La rue au pied de la vieille ville, avec le Palazzo di Città et ses cafés.
+  lungomare:
+    blurb: La promenade du front de mer sous les palmiers, face au golfe.
+  gulf:
+    name: Le golfe de Salerne
+    blurb: La baie entre la côte amalfitaine et le Cilento, devant toute la ville.
+  villa-comunale:
+    blurb: Le jardin de la ville du XIXe siècle, le cœur des Luci d’Artista en hiver.
+  teatro-verdi:
+    blurb: L’opéra de 1872, rouge et or à l’intérieur.
+  piazza-della-liberta:
+    blurb: La grande place neuve au bord de la mer, à l’extrémité ouest du Lungomare, devant l’immeuble courbe du Crescent.
+  molo-manfredi:
+    blurb: La jetée avec le terminal de ferries de Zaha Hadid, d’où partent les bateaux vers la côte amalfitaine et Capri.
+  giardino-della-minerva:
+    blurb: Le jardin médiéval de plantes médicinales, en terrasses au-dessus de la vieille ville.
+  acquedotto:
+    name: L’aqueduc médiéval
+    blurb: Les hautes arcades en ogive que, selon la légende, le diable bâtit en une nuit.
+links:
+- title: Comune di Salerno
+  note: La municipalité (en italien)
+- title: Luci d’Artista
+  note: Le festival de lumières d’hiver
+- title: Giardino della Minerva
+  note: Le jardin médiéval de plantes médicinales
+- title: Salerne sur Wikipédia
+  note: L’article de l’encyclopédie

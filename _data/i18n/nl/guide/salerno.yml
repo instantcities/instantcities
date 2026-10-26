@@ -1,0 +1,99 @@
+# salerno's guide in Dutch (_data/about/salerno.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Campanië
+- Salerno, waarvan het de hoofdstad is
+- Ongeveer 127.000 inwoners (stad)
+- De Golf van Salerno, aan de Tyrreense Zee
+- Italiaans; het plaatselijke dialect ligt dicht bij het Napolitaans
+- Sint-Matteüs de evangelist, feestdag 21 september
+- De Hippocratische Stad (Civitas Hippocratica)
+overview:
+- 'Salerno zit ingeklemd tussen de bergen en de zee. De middeleeuwse oude stad, het centro storico, klimt de helling achter de haven op in steile steegjes, trappen en bogen, van west naar oost doorkruist door de Via dei Mercanti. Daaronder strekt de stad uit de 19e en 20e eeuw zich langs de kust uit: de Corso Vittorio Emanuele, de Villa Comunale en het Teatro Verdi, en de lange Lungomare Trieste aan de zee.'
+- 'Instant Salerno brengt je door het hart ervan: de Duomo en de steegjes van de oude stad, de Corso naar het station, de tuinen en het theater aan de westkant, en de zeefront met de Molo Manfredi, waar Zaha Hadids veerterminal staat. De stad klimt echt de heuvel op, maar het spel houdt haar vlak, en het kasteel erboven ligt buiten de kaart.'
+setting:
+- Salerno is de hoofdstad van de provincie Salerno in Campanië, zo’n 55 kilometer ten zuidoosten van Napels. In het westen beginnen de kliffen van de Amalfikust bijna aan de rand van de stad, met Vietri sul Mare, Amalfi en Positano eraan; in het zuiden loopt de vlakke vlakte van de Sele tot aan de Griekse tempels van Paestum en verder naar de Cilento.
+- Het klimaat is mediterraan, met lange, hete, droge zomers en milde, regenachtiger winters. De bergen achter de stad beschermen haar tegen het noorden, en de zee houdt de winters zacht.
+today:
+- Salerno is een drukke havenstad en universiteitsstad, de hoofdstad van zijn provincie en de poort naar de Amalfikust en de Cilento. Vanaf de Molo Manfredi vertrekken boten naar Amalfi, Positano en Capri, en de treinen op de lijn van Napels naar Calabrië stoppen op het station.
+- ’s Avonds wandelt de stad over de Corso en de Lungomare, en op 21 september draagt ze het beeld van Sint-Matteüs door de straten voor het feest van haar patroon. Van november tot januari maken de Luci d’Artista van de Villa Comunale, de Corso en de oude stad een tuin van licht.
+history:
+- title: Van Romeinse kolonie tot Longobardische hoofdstad
+  text:
+  - De Romeinen stichtten de kolonie Salernum in 197 v.Chr. op een heuvel boven de zee. Na de val van Rome kwam de stad aan de Longobarden, en in de 8e eeuw maakte Arechis II, hertog van Benevento, haar tot zijn tweede hoofdstad, versterkte hij het kasteel op de heuvel en bouwde hij een paleis aan zee.
+  - In 849 werd Salerno de hoofdstad van een eigen Longobardisch vorstendom, dat twee eeuwen lang over een groot deel van Zuid-Italië heerste. Het dreef handel met de hele Middellandse Zee, en Griekse, Latijnse, Arabische en Joodse geleerdheid ontmoetten elkaar in zijn straten.
+- title: De Hippocratische Stad
+  text:
+  - Vanaf de 10e eeuw was Salerno beroemd om zijn medische school, de Scuola Medica Salernitana, de eerste in zijn soort in het middeleeuwse Europa. Zijn artsen vertaalden en doceerden uit Griekse en Arabische teksten, ook vrouwen studeerden en doceerden er, en zijn gezondheidsregels in verzen werden in elk land van Europa gelezen.
+  - In 1076 nam de Noorman Robert Guiscard de stad in en maakte haar de hoofdstad van zijn gebied in Zuid-Italië. Hij bouwde de Duomo, waar paus Gregorius VII, die uit Rome was gevlucht, begraven ligt.
+- title: Een provinciestad, en kort de hoofdstad van Italië
+  text:
+  - Toen de hoofdstad van het koninkrijk naar Napels verhuisde, werd Salerno een provinciestad, en zijn medische school verdween langzaam tot Joachim Murat haar in 1811 sloot. In de 19e eeuw groeide de stad buiten haar muren langs de zee, met de Corso, de Villa Comunale en het Teatro Verdi.
+  - Op 9 september 1943 landden de geallieerden op de stranden ten zuiden van de stad, in Operatie Avalanche. Van februari tot juli 1944 was Salerno de zetel van de Italiaanse regering, de hoofdstad van het vrije deel van Italië, voor die naar Rome terugkeerde.
+timeline:
+- - 197 v.Chr.
+  - De Romeinen stichten de kolonie Salernum
+- - '774'
+  - Arechis II, hertog van Benevento, maakt Salerno zijn tweede hoofdstad
+- - '849'
+  - Salerno wordt de hoofdstad van een eigen Longobardisch vorstendom
+- - '954'
+  - De relikwieën van Sint-Matteüs worden naar Salerno gebracht
+- - 10e eeuw
+  - De Scuola Medica Salernitana wordt in heel Europa bekend
+- - '1076'
+  - De Noorman Robert Guiscard neemt de stad in
+- - '1084'
+  - Paus Gregorius VII wijdt de nieuwe kathedraal in
+- - '1811'
+  - Joachim Murat sluit de medische school
+- - '1872'
+  - Het Teatro Verdi opent
+- - '1943'
+  - De geallieerde landing bij Salerno, Operatie Avalanche
+- - '1944'
+  - Salerno is van februari tot juli de zetel van de Italiaanse regering
+- - '2006'
+  - De eerste Luci d’Artista verlichten de stad
+- - '2016'
+  - Zaha Hadids veerterminal opent op de Molo Manfredi
+places:
+  duomo:
+    name: Duomo di San Matteo
+    blurb: De Normandische kathedraal van 1084 boven het graf van Sint-Matteüs, met zijn binnenplaats met arcaden en zijn klokkentoren.
+  via-dei-mercanti:
+    blurb: De straat van de kooplieden, de hoofdsteeg van de middeleeuwse stad, vol winkels.
+  portanova:
+    blurb: Het plein aan de oostkant van de oude stad, waar de Via dei Mercanti de Corso ontmoet.
+  corso:
+    blurb: De lange winkelstraat, afgesloten voor auto’s, van de oude stad naar het station.
+  via-roma:
+    blurb: De straat langs de voet van de oude stad, met het Palazzo di Città en zijn cafés.
+  lungomare:
+    blurb: De boulevard langs de zee onder de palmen, met uitzicht over de golf.
+  gulf:
+    name: De Golf van Salerno
+    blurb: De baai tussen de Amalfikust en de Cilento, voor de hele stad.
+  villa-comunale:
+    blurb: De stadstuin uit de 19e eeuw, het hart van de Luci d’Artista in de winter.
+  teatro-verdi:
+    blurb: Het operahuis van 1872, van binnen rood en goud.
+  piazza-della-liberta:
+    blurb: Het grote nieuwe plein aan zee aan het westeinde van de Lungomare, voor het gebogen Crescent-gebouw.
+  molo-manfredi:
+    blurb: De pier met Zaha Hadids veerterminal, waar de boten naar de Amalfikust en Capri vertrekken.
+  giardino-della-minerva:
+    blurb: De middeleeuwse tuin van geneeskrachtige planten, op terrassen boven de oude stad.
+  acquedotto:
+    name: Middeleeuws aquaduct
+    blurb: De hoge spitse bogen die volgens de legende de duivel in één nacht bouwde.
+links:
+- title: Comune di Salerno
+  note: Het stadsbestuur (in het Italiaans)
+- title: Luci d’Artista
+  note: Het lichtfestival van de winter
+- title: Giardino della Minerva
+  note: De middeleeuwse tuin van geneeskrachtige planten
+- title: Salerno op Wikipedia
+  note: Het encyclopedie-artikel
