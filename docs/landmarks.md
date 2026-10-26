@@ -100,6 +100,10 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Bruges | Stadhuis's front | `bruges/burg.js` | ride past it on the Burg |
+| Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
+| Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
+| Bruges | Gruuthusepaleis | `bruges/gruuthuse.js` | bump into it |
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.

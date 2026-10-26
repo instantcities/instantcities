@@ -13,6 +13,9 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs bruges`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs bruges`
 //   belfort.js       the Belfort, modelled by hand on core/js/arcade.js, in place of the map's block of it
+//   burg.js          the Stadhuis's and the Heilig-Bloedbasiliek's fronts on the Burg, dressed on the map's blocks
+//   towers.js        the towers of the Onze-Lieve-Vrouwekerk and of Sint-Salvator
+//   gruuthuse.js     the Gruuthusepaleis, in place of the map's block of it
 // No sights or fronts yet, and one monument, the Belfort: empty lists for the rest, and for what
 // only Ghent has.
 export { MAP } from './map.js';
@@ -22,9 +25,12 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 import { BELFORT } from './belfort.js';
+import { BURG } from './burg.js';
+import { TOWERS } from './towers.js';
+import { GRUUTHUSE } from './gruuthuse.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...BELFORT];
+export const MONUMENTS = [...BELFORT, ...BURG, ...TOWERS, ...GRUUTHUSE];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
