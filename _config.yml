@@ -18,8 +18,8 @@ exclude:
   - app # the iOS app (app/README.md), not a page of the site
   - docs
   - README.md
+  - CLAUDE.md
   - serve.py
-  - netlify.toml
   - Gemfile
   - Gemfile.lock
   - vendor

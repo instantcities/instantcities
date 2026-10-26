@@ -13,17 +13,28 @@
 //                    `node tools/osm_map.mjs pisa`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs pisa`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs pisa`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. The tower
-// is OpenStreetMap's outline at its height, so in the game it stands upright.
+//   romanico.js      the parts the landmarks below share: blind arches, loggias, grey bands, lean-to roofs
+//   torre.js         the Leaning Tower, modelled by hand and leaning, in place of the map's columns of it
+//   duomo.js         the Duomo, its front of loggias and its elliptical dome, in place of the map's pieces of it
+//   battistero.js    the Baptistery, its Gothic crown and its dome half of tiles, half of lead
+//   camposanto.js    the Camposanto, its blind walls round the cloister and its lawn
+//   spina.js         Santa Maria della Spina, the little Gothic oratory on the Lungarno
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { TORRE } from './torre.js';
+import { DUOMO } from './duomo.js';
+import { BATTISTERO } from './battistero.js';
+import { CAMPOSANTO } from './camposanto.js';
+import { SPINA } from './spina.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...TORRE, ...DUOMO, ...BATTISTERO, ...CAMPOSANTO, ...SPINA];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

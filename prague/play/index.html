@@ -65,6 +65,20 @@
     const watch = new URLSearchParams(location.search).get('watch');
     if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
   </script>
+  <!-- Google Analytics (gtag.js), only on the real site (not on localhost or the Netlify previews) and not
+       in the ?watch tour that the site's own pages show, which counts its page already -->
+  <script>
+    if (location.hostname === 'instantcities.net' && watch == null) {
+      const ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-GPP2SZPD0E';
+      document.head.append(ga);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-GPP2SZPD0E');
+    }
+  </script>
 </head>
 <body class="booting">
   <div id="loader" aria-live="polite">

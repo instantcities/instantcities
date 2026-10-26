@@ -5,6 +5,7 @@ import { LANDMARKS, FACADES, MONUMENTS, FRONTS, MAP } from './city.js';
 import { elevation } from './facades.js';
 import { addFronts } from './fronts.js';
 import { heightAt } from './terrain.js';
+import { farOff } from './skyline.js';
 
 const TILE = 6; // game metres per repeat of the stone texture
 
@@ -186,13 +187,16 @@ export function addLandmarks(group, place = (x, z, r, make) => group.add(make())
   const rings = LANDMARKS.flatMap(lm => lm.foot).concat(MONUMENTS.flatMap(ground), MONUMENTS.flatMap(mo => mo.foot ?? []));
   const fronts = addFronts(group, MAP, FRONTS ?? [], place);
   for (const mo of MONUMENTS) {
-    place(mo.x, mo.z, mo.reach ?? 30, () => {
+    const make = () => {
       const m = mo.make();
       m.position.set(mo.x, 0, mo.z);
       m.rotation.y = mo.turn ?? 0;
       m.name = mo.id;
       return m;
-    });
+    };
+    // one seen from across the city (js/skyline.js) stands from the start, near or far
+    if (mo.far) group.add(farOff(make(), mo.x, mo.z, mo.far, mo.loom));
+    else place(mo.x, mo.z, mo.reach ?? 30, make);
   }
   const mats = {};
   const look = key => (mats[key] ??= shared(new THREE.MeshStandardMaterial({ map: (LOOKS[key] ?? LOOKS.stone)(), roughness: 0.92, side: THREE.DoubleSide, flatShading: true })));

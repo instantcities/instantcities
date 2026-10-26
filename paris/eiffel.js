@@ -168,7 +168,9 @@ function shade(hex) {
 const foot = (su, sv, lo, hi) => rect(Math.min(su * lo, su * hi), Math.min(sv * lo, sv * hi), Math.max(su * lo, su * hi), Math.max(sv * lo, sv * hi));
 
 export const EIFFEL = [{
-  id: 'tour-eiffel', name: 'Tour Eiffel', x: X, z: Z, turn: TURN, reach: 115,
+  // seen from across the city, hazy on the horizon: its fog 14 times as far off, and from the
+  // centre twice as large as it would be (js/skyline.js)
+  id: 'tour-eiffel', name: 'Tour Eiffel', x: X, z: Z, turn: TURN, reach: 115, far: 14, loom: 2,
   area: [onMap(X, Z, TURN, rect(-82, -82, 82, 82)), onMap(X, Z, TURN, rect(-128, 40, -79, 77))],
   foot: [[1, 1], [-1, 1], [-1, -1], [1, -1]].map(([su, sv]) => onMap(X, Z, TURN, foot(su, sv, 44, 78.5)))
     .concat([onMap(X, Z, TURN, rect(-125, 42, -81, 74))]),

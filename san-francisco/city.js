@@ -13,16 +13,25 @@
 //                    `node tools/osm_map.mjs san-francisco`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs san-francisco`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs san-francisco`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   transamerica.js  the Transamerica Pyramid, modelled by hand in place of the map's stack of it
+//   ferry-building.js the Ferry Building and its clock tower, in place of the map's block and tower
+//   coit-tower.js    Coit Tower on Telegraph Hill, in place of the map's tower and base
+//   dragon-gate.js   the Dragon Gate across Grant Avenue at Bush Street
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { TRANSAMERICA } from './transamerica.js';
+import { FERRY_BUILDING } from './ferry-building.js';
+import { COIT_TOWER } from './coit-tower.js';
+import { DRAGON_GATE } from './dragon-gate.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...TRANSAMERICA, ...FERRY_BUILDING, ...COIT_TOWER, ...DRAGON_GATE];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
