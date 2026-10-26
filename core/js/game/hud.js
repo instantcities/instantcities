@@ -16,6 +16,8 @@ import { roomName, doorAction, putAt } from './indoors.js';
 import { paintballActive, cabOf, busQuest } from './physics.js';
 import { riding, seated, tramAction, updateDoorCard, toggleSeat, updateTramCard } from './transit.js';
 import { touch, tItem, tItemIco, tItemQueue, tFries, tFriesLabel } from './input.js';
+import { ART, MUSEUM_PAGES } from '../inside/artlist.js';
+import { ICONS } from './icons.js';
 
 // the sights' cards' icon (and the tour's): an eye, something to look at here
 export const EYE = '<svg class="sight-eye" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3.2"/></svg>';
@@ -107,6 +109,17 @@ function buildHud(p) {
   };
 }
 
+// an icon (icons.js) and words after it, set only when they change
+export function setIconText(el, icon, text) {
+  const v = icon + text;
+  if (el._v === v) return;
+  el._v = v;
+  el.innerHTML = icon;
+  el.append(document.createTextNode(text));
+}
+// words without the emoji they start with (where an icon stands for it)
+const bare = s => s.replace(/^\p{Extended_Pictographic}\uFE0F?\s*/u, '');
+
 export function setText(el, v) {
   v = String(v);
   if (el._v !== v) { el._v = v; el.textContent = v; }
@@ -180,7 +193,9 @@ function updateSight(h, r) {
         h.sightText.replaceChildren(ul);
       }
     }
-    const href = s.secret || s.inside ? '' : s.page ?? sightPage(s.id); // (what hangs inside a building has no page of its own; a landmark's card, site-sights.js, has its page on the site)
+    // a landmark's card (site-sights.js) has its page on the site; one inside a building, the page of
+    // the famous piece it is about, or else of the museum
+    const href = s.secret ? '' : s.inside ? insidePage(s) : s.page ?? sightPage(s.id);
     if (h.sightMore._href !== href) {
       h.sightMore._href = href;
       h.sightMore.hidden = !href;
@@ -195,6 +210,19 @@ function updateSight(h, r) {
   }
   // the pointers in the card's corner make room for it
   if (changed) h.el.style.setProperty('--sight-h', show ? `${h.sight.offsetHeight}px` : '0px');
+}
+
+// The page on the site for a card in a building's room: the famous piece it stands by (the one whose
+// view looks at a spot within its reach), or else the museum's
+function insidePage(s) {
+  const b = s.inside, x = s.x - b.x, z = s.z - b.z;
+  let best = null, bd = s.r + 3;
+  for (const a of ART) {
+    if (a.museum !== b.id) continue;
+    const d = Math.hypot(a.view[2] - x, a.view[3] - z);
+    if (d < bd) { best = a; bd = d; }
+  }
+  return best ? `/art/${best.id}/` : MUSEUM_PAGES[b.id] ?? '';
 }
 
 // While exploring, the bottom corners point the way to the sights nearby that are out of view: up
@@ -253,12 +281,13 @@ export function updateHud() {
     h.cabView.classList.toggle('show', !!cabOf(r) && game.state !== 'menu' && p < game.players);
     h.cabView.dataset.type = r.car?.type ?? '';
     if (roaming()) {
-      setText(h.streetNow, r.room ? `${r.room.emoji} ${roomName(r.room)}` : r.street || '…'); // inside a building: its name
-      setText(h.streetNext, quest ? questHud(r) : t_('roam.hud'));
+      // where you are (inside a building: its name) and what you are doing, each with its icon
+      setIconText(h.streetNow, r.room ? ICONS.building : ICONS.pin, r.room ? roomName(r.room) : r.street || '…');
+      setIconText(h.streetNext, quest ? ICONS.mission : ICONS.explore, bare(quest ? questHud(r) : t_('roam.hud')));
       h.streetNext.classList.remove('soon');
     } else if (st) {
       const i = r.idx, last = st.next[i] < 0, ahead = ((last ? track.finish : st.next[i]) - i) * track.spacing;
-      setText(h.streetNow, st.names[st.at[i]]);
+      setIconText(h.streetNow, ICONS.race, st.names[st.at[i]]);
       const arrow = last ? '🏁' : st.turn[i] > 0 ? '↰' : st.turn[i] < 0 ? '↱' : '↑';
       setText(h.streetNext, `${arrow} ${last ? t_('banner') : st.names[st.at[st.next[i] % track.n]]} · ${Math.max(10, Math.round(Math.max(0, ahead) / 10) * 10)} m`);
       h.streetNext.classList.toggle('soon', ahead < 40);

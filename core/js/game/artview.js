@@ -1,10 +1,10 @@
 // The famous pieces in the buildings, up close: standing before one (inside/artlist.js, from
 // _data/art.json), the door card says which it is and the item key, a click on the card or the
-// touch screen's View button over the jump button shows its photo full screen, with its title, its
+// touch screen's action button (action.js) shows its photo full screen, with its title, its
 // painter and a link to its page on the site. Any key, a tap or ✕ puts it away.
 
 import { ART } from '../inside/artlist.js';
-import { t_, $ } from './base.js';
+import { t_ } from './base.js';
 import { sfx } from '../sound.js';
 
 const IMG = new URL('../../../assets/img/art/', import.meta.url);
@@ -18,7 +18,7 @@ export function artBy(r) {
   let best = null, bd = Infinity;
   const fx = Math.sin(r.yaw), fz = Math.cos(r.yaw);
   for (const a of ART) {
-    if (a.museum !== room.id) continue;
+    if (a.museum !== room.id || !a.photo) continue;
     const [sx, sz, tx, tz] = a.view, x = room.x + tx, z = room.z + tz;
     const dx = x - r.pos.x, dz = z - r.pos.z, d = Math.hypot(dx, dz);
     const fromStand = Math.hypot(room.x + sx - r.pos.x, room.z + sz - r.pos.z), far = Math.hypot(tx - sx, tz - sz);
@@ -71,6 +71,3 @@ export function closeArt() {
   el.classList.add('hidden');
 }
 
-// the touch screen's View button, over the jump button: there while player 1 stands before a piece
-const tView = $('tView');
-export function showViewButton(a) { tView?.classList.toggle('show', !!a); }

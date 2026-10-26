@@ -14,7 +14,8 @@ import { humans, ctl } from './racers.js';
 import { setText, hudMsg } from './hud.js';
 import { humanControl } from './control.js';
 import { roomName, doorBy } from './indoors.js';
-import { artBy, showViewButton } from './artview.js';
+import { artBy } from './artview.js';
+import { showAction } from './action.js';
 import { touch } from './input.js';
 
 // Riding about freely: come onto a tram stop's platform (or by its sign) and you are asked straight
@@ -231,13 +232,15 @@ function leaveTram(r, end = false, stop = null) {
 export function updateDoorCard(h, r, p) {
   const d = p < game.players ? doorBy(r) : null;
   const a = !d && p === 0 && exploring() && game.state === 'race' ? artBy(r) : null;
-  if (p === 0) showViewButton(touch.on && a);
-  h.door.classList.toggle('show', !!(d || (a && !touch.on))); // (on a touch screen the View button says it)
+  // on a touch screen the action button over the jump button does it, and the card stays away
+  const tap = touch.on && p === 0;
+  if (p === 0) showAction(tap ? (d ? (d.way === 'out' ? 'exit' : 'enter') : a ? 'view' : null) : null);
+  h.door.classList.toggle('show', !tap && !!(d || a));
   if (a) {
     setText(h.doorEmoji, '🖼️');
     setText(h.doorLabel, t_('art.view'));
     setText(h.doorName, a.title);
-    setText(h.doorKey, touch.on ? t_('door.tap') : ctl(p).label.fire);
+    setText(h.doorKey, ctl(p).label.fire);
     return;
   }
   if (!d) return;

@@ -2,7 +2,7 @@
 // The famous paintings, statues and treasures in the buildings you can go into, on the site: the
 // page of them all at /art/ (art/index.html, _layouts/art.html) and a page for each at /art/<id>/
 // (_layouts/artwork.html), from _data/art.json, and the list the game shows them full screen from
-// (core/js/inside/artlist.js: those with a photo). Each piece's photo comes from Wikimedia Commons (its
+// (core/js/inside/artlist.js). Each piece's photo comes from Wikimedia Commons (its
 // `commons` file): assets/img/art/<id>.jpg (at most 1280 pixels along its longer side, for its page
 // and to hang in the game, core/js/inside/photo.js) and <id>-s.jpg (at most 480, for the cards), its
 // author, licence and source kept in _data/art_photos.json for the credit line.
@@ -71,14 +71,17 @@ function pages() {
   console.error(`${pieces.length} pieces in ${museums.length} buildings and squares${missing.length ? `; no photo yet: ${missing.join(', ')} (node tools/art.mjs photos)` : ''}`);
 }
 
-// What the game needs of them, to show a piece full screen when you stand before it in its building
-// (core/js/game/artview.js): core/js/inside/artlist.js, the pieces with a photo, by their museum.
+// What the game needs of them (core/js/inside/artlist.js): the pieces in the buildings, where they
+// hang, and whether they have a photo yet, to show it full screen when you stand before one
+// (game/artview.js); the museums' pages on the site, for the Read more of the cards in their rooms.
 function artList() {
-  const list = pieces.filter(a => a.view && fs.existsSync(path.join(IMG, a.id + '.jpg')))
-    .map(({ id, title, artist, date, museum, room, view }) => ({ id, title, artist, date, museum, room, view }));
-  fs.writeFileSync(path.join(ROOT, 'core', 'js', 'inside', 'artlist.js'), '// Made by tools/art.mjs from _data/art.json: the famous pieces in the buildings, with a photo to\n'
-    + '// show full screen (game/artview.js). view: [x, z, tx, tz], where you stand and what you look at, in its\n// building\'s own metres.\n'
-    + `export const ART = [\n${list.map(a => `  ${JSON.stringify(a)},`).join('\n')}\n];\n`);
+  const list = pieces.filter(a => a.view)
+    .map(({ id, title, artist, date, museum, room, view }) => ({ id, title, artist, date, museum, room, view, photo: fs.existsSync(path.join(IMG, id + '.jpg')) }));
+  const pages = Object.fromEntries(museums.filter(m => m.landmark).map(m => [m.id, `/${m.city}/landmark/${m.landmark}/`]));
+  fs.writeFileSync(path.join(ROOT, 'core', 'js', 'inside', 'artlist.js'), '// Made by tools/art.mjs from _data/art.json: the famous pieces in the buildings (photo: whether its\n'
+    + '// photo is in, to show full screen: game/artview.js) and the museums\' pages on the site. view: [x, z,\n// tx, tz], where you stand and what you look at, in its building\'s own metres.\n'
+    + `export const ART = [\n${list.map(a => `  ${JSON.stringify(a)},`).join('\n')}\n];\n`
+    + `export const MUSEUM_PAGES = ${JSON.stringify(pages)};\n`);
 }
 
 // Each piece's photo from Commons, scaled down by Commons and then by sips (macOS) or ImageMagick,

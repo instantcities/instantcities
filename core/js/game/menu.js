@@ -28,9 +28,10 @@ import { tourSky, tour, tourNext } from './touring.js';
 import { paintballUnlocked, syncJumpButton } from './physics.js';
 import { touch, shareSpot } from './input.js';
 import { playDemo } from './demofilm.js';
+import { ICONS } from './icons.js';
 
 export const menuEl = $('menu'), pauseEl = $('pause'), resultsEl = $('results'), briefEl = $('brief');
-const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest', ...(paintballUnlocked() ? ['gun'] : [])] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'start'];
+const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'city', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest', ...(paintballUnlocked() ? ['gun'] : [])] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'city', 'start'];
 // The arrows only go from Missions / Race / Tour to the missions, the routes or the ways to take the
 // tour, and on to the start button; everything else on the menu is for the mouse.
 export const navRows = () => ['kind', touring() ? 'tour' : roaming() ? 'quest' : 'track', 'start'];
@@ -176,6 +177,11 @@ export function buildMenu() {
   $('langBtn').addEventListener('click', () => openLangList($('langList').classList.contains('hidden')));
   document.querySelectorAll('#langList button').forEach(b => b.addEventListener('click', () => { openLangList(false); setLanguage(b.dataset.lang); }));
   document.addEventListener('pointerdown', e => { if (!$('langOpts').contains(e.target)) openLangList(false); });
+  // the city picker: straight to another city's game
+  $('cityBtn').querySelector('.ico').innerHTML = ICONS.city;
+  $('menuBtn').querySelector('.ico').innerHTML = ICONS.menu;
+  $('cityBtn').addEventListener('click', () => openCityList($('cityList').classList.contains('hidden')));
+  document.addEventListener('pointerdown', e => { if (!$('cityOpts').contains(e.target)) openCityList(false); });
   $('styleBtn').addEventListener('click', () => openStyleList($('styleList').classList.contains('hidden')));
   document.querySelectorAll('#styleList button').forEach(b => b.addEventListener('click', () => { openStyleList(false); game.style = b.dataset.style; sfx.ui(); saveSettings(); renderMenu(); }));
   document.addEventListener('pointerdown', e => { if (!$('styleOpts').contains(e.target)) openStyleList(false); });
@@ -374,6 +380,11 @@ export function renderMenu() {
   $('pauseCardsBtn').classList.toggle('on', game.cards);
   for (const el of document.querySelectorAll('#pause [data-i18n]')) el.textContent = plain(el.dataset.i18n);
   $('startBtn').textContent = t_((touch.on ? 'start.tap' : 'start.keys') + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
+}
+
+function openCityList(open) {
+  $('cityList').classList.toggle('hidden', !open);
+  $('cityBtn').setAttribute('aria-expanded', String(open));
 }
 
 function openLangList(open) {

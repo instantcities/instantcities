@@ -194,7 +194,7 @@
   <div id="streetbar" class="hidden"></div>
   <div id="mute" class="hidden"></div>
   <div id="toast" class="hidden"></div>
-  <button id="menuBtn" class="hidden" data-i18n="menu"></button>
+  <button id="menuBtn" class="hidden"><span class="ico"></span><span data-i18n="menu.word"></span></button>
 
   <!-- The tour: the street below, how far along, and a card at each stop -->
   <div id="tour" class="hidden">
@@ -228,7 +228,7 @@
       <button class="tbtn" id="tItem" aria-label="Item"><span class="ico"></span><span class="queue"></span><small data-i18n="tb.item"></small></button>
       <button class="tbtn" id="tShoot" aria-label="Shoot"><span>🔫</span><small data-i18n="tb.shoot"></small></button>
       <button class="tbtn" id="tSink" aria-label="Down"><span>⤓</span><small data-i18n="tb.down"></small></button>
-      <button class="tbtn" id="tView" aria-label="View"><span>🖼️</span><small data-i18n="tb.view"></small></button>
+      <button class="tbtn" id="tAction" aria-label="Action"><span class="ico"></span><small></small></button>
       <button class="tbtn big" id="tJump" aria-label="Jump"><span>⤒</span><small data-i18n="tb.jump"></small></button>
     </div>
   </div>
@@ -274,6 +274,12 @@
           <div class="dropdown" id="langOpts">
             <button class="chip" id="langBtn" aria-haspopup="listbox" aria-expanded="false"></button>
             <div class="dd-list hidden" id="langList" role="listbox"></div>
+          </div>
+        </div>
+        <div class="row" data-row="city">
+          <div class="dropdown" id="cityOpts">
+            <button class="chip" id="cityBtn" aria-haspopup="listbox" aria-expanded="false"><span class="ico"></span><span data-i18n="menu.city"></span> ▾</button>
+            <div class="dd-list hidden" id="cityList" role="listbox"><a class="chip" role="option" href="../../paris/play/">Paris</a><a class="chip" role="option" href="../../rome/play/">Rome</a><a class="chip" role="option" href="../../london/play/">London</a><a class="chip" role="option" href="../../venice/play/">Venice</a><a class="chip" role="option" href="../../barcelona/play/">Barcelona</a><a class="chip" role="option" href="../../amsterdam/play/">Amsterdam</a><a class="chip" role="option" href="../../florence/play/">Florence</a><a class="chip" role="option" href="../../prague/play/">Prague</a><a class="chip" role="option" href="../../vienna/play/">Vienna</a><a class="chip" role="option" href="../../berlin/play/">Berlin</a><a class="chip" role="option" href="../../madrid/play/">Madrid</a><a class="chip on" role="option" href="../../copenhagen/play/">Copenhagen</a><a class="chip" role="option" href="../../brussels/play/">Brussels</a><a class="chip" role="option" href="../../bruges/play/">Bruges</a><a class="chip" role="option" href="../../antwerp/play/">Antwerp</a><a class="chip" role="option" href="../../avignon/play/">Avignon</a><a class="chip" role="option" href="../../salerno/play/">Salerno</a><a class="chip" role="option" href="../../siena/play/">Siena</a><a class="chip" role="option" href="../../pisa/play/">Pisa</a><a class="chip" role="option" href="../../utrecht/play/">Utrecht</a><a class="chip" role="option" href="../../rotterdam/play/">Rotterdam</a><a class="chip" role="option" href="../../delft/play/">Delft</a><a class="chip" role="option" href="../../lecce/play/">Lecce</a><a class="chip" role="option" href="../../ghent/play/">Ghent</a></div>
           </div>
         </div>
         <div class="row" data-row="style">
