@@ -137,7 +137,14 @@ function sky(ctx) {
     cols.needsUpdate = true;
   };
   paint(ctx.theme.sky, ctx.theme.horizon);
-  ctx.group.add(new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, depthWrite: false })));
+  const dome = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, depthWrite: false }));
+  // round whichever camera draws it, so its edge never shows a kilometre out from the middle of the map
+  dome.frustumCulled = false;
+  dome.onBeforeRender = (renderer, scene, camera) => {
+    dome.position.set(camera.position.x, 0, camera.position.z);
+    dome.updateMatrixWorld();
+  };
+  ctx.group.add(dome);
   return paint;
 }
 
