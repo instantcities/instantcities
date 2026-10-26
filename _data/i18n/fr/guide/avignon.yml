@@ -1,0 +1,99 @@
+# avignon's guide in French (_data/about/avignon.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- France
+- Provence-Alpes-Côte d’Azur
+- Vaucluse, dont Avignon est le chef-lieu
+- Environ 90 000 habitants (ville)
+- Le Rhône
+- Français ; le provençal fait aussi partie de la culture locale
+- La Cité des Papes
+- Le palais des Papes, l’ensemble épiscopal et le pont, depuis 1995
+overview:
+- Avignon se trouve sur la rive gauche du Rhône, un peu en amont de l’endroit où la Durance le rejoint. Sa vieille ville est encore presque entièrement enfermée dans les remparts du XIVe siècle, et à l’intérieur les ruelles courent entre des maisons de pierre claire, de petites places ombragées de platanes et les murs d’anciens couvents et hôtels particuliers.
+- Instant Avignon vous fait parcourir cette ville fortifiée. Le palais des Papes se dresse sur sa colline rocheuse au nord, avec la cathédrale à côté et les jardins du rocher des Doms au-dessus du fleuve, où le pont Saint-Bénezet brisé s’avance dans l’eau. De la place de l’Horloge, juste au sud du palais, la rue de la République descend tout droit jusqu’à la porte principale et à la gare.
+setting:
+- Avignon est le chef-lieu du département du Vaucluse, dans la région Provence-Alpes-Côte d’Azur, à environ 85 kilomètres au nord-ouest de Marseille. De l’autre côté du Rhône se trouvent l’île de la Barthelasse, grande île fluviale de fermes et de vergers, et la ville de Villeneuve-lès-Avignon, qui appartient au département du Gard.
+- Le climat est méditerranéen, avec des étés chauds et secs, des hivers doux et une lumière vive presque toute l’année. Le mistral, vent froid du nord, peut souffler des jours entiers dans la vallée du Rhône.
+today:
+- Avignon est une ville d’administrations, d’université et de tourisme, et le centre de marché des fermes du Vaucluse. Ses Halles couvertes vendent les produits de Provence chaque matin sauf le lundi.
+- 'En juillet, le Festival d’Avignon s’empare de la ville : le programme principal se joue dans la cour du palais des Papes et d’autres sites historiques, et le Off propose bien plus d’un millier de spectacles dans de petits théâtres, des chapelles et des caves, tandis que les comédiens distribuent des tracts et accrochent leurs affiches à chaque grille.'
+history:
+- title: Une ville sur le Rhône
+  text:
+  - Des gens s’étaient installés sur le rocher des Doms, le rocher au-dessus du fleuve, bien avant l’arrivée des Romains. Sous Rome, la ville d’Avenio était un lieu modeste de la province de Gaule narbonnaise, éclipsée par ses voisines Arles et Nîmes.
+  - À la fin du XIIe siècle, les habitants construisirent un pont sur le Rhône, le seul entre Lyon et la mer. Selon la légende, un jeune berger, Bénezet, l’aurait commencé sur l’ordre d’un ange. En 1226, le roi Louis VIII assiégea Avignon pendant trois mois lors de la croisade des Albigeois et fit abattre ses murs quand la ville se rendit.
+- title: La cité des papes
+  text:
+  - En 1309, le pape Clément V, un Français, s’installa à Avignon, alors ville des comtes de Provence, pour échapper aux querelles de Rome. Six autres papes le suivirent. Benoît XII commença le palais des Papes en 1335 et Clément VI l’agrandit jusqu’à l’immense bâtiment que l’on voit aujourd’hui ; en 1348, Clément VI acheta la ville elle-même à la reine Jeanne de Naples. La cour papale attira cardinaux, banquiers, artistes et le poète Pétrarque, et Avignon devint l’une des grandes villes d’Europe. Les papes l’entourèrent de nouveaux remparts à partir de 1355.
+  - Grégoire XI ramena la papauté à Rome en 1377. Quand les cardinaux se divisèrent l’année suivante, des papes rivaux gouvernèrent de nouveau depuis Avignon pendant le Grand Schisme d’Occident, jusqu’à ce que le dernier d’entre eux, Benoît XIII, fuie la ville en 1403. Avignon resta terre pontificale pendant près de quatre siècles encore, gouvernée par des légats et vice-légats envoyés de Rome.
+- title: Avignon française
+  text:
+  - Pendant la Révolution française, en 1791, Avignon vota son rattachement à la France. L’armée transforma le palais des Papes vide en caserne et en prison, et les soldats abîmèrent beaucoup de ses fresques ; l’armée ne partit qu’en 1906. Au XIXe siècle, le chemin de fer atteignit la ville, et des ouvriers percèrent la rue de la République, toute droite, de la porte de la gare à la place de l’Horloge.
+  - En 1947, le comédien et metteur en scène Jean Vilar monta une semaine de pièces dans la cour du palais, début du Festival d’Avignon. L’UNESCO inscrivit le centre historique en 1995, et la ligne à grande vitesse du TGV place Avignon à moins de trois heures de Paris depuis 2001.
+timeline:
+- - '1177'
+  - Début des travaux du pont sur le Rhône, selon la légende à l’appel de Bénezet
+- - '1226'
+  - Louis VIII assiège Avignon et fait abattre ses murs
+- - '1309'
+  - Le pape Clément V s’installe à Avignon
+- - '1335'
+  - Benoît XII commence le palais des Papes
+- - '1348'
+  - Clément VI achète Avignon à la reine Jeanne de Naples
+- - '1355'
+  - Début des travaux des nouveaux remparts
+- - '1377'
+  - Grégoire XI ramène la papauté à Rome
+- - '1403'
+  - Benoît XIII, le dernier pape d’Avignon, fuit la ville
+- - '1791'
+  - Avignon devient française
+- - '1906'
+  - L’armée quitte le palais des Papes
+- - '1947'
+  - Jean Vilar organise le premier festival
+- - '1995'
+  - L’UNESCO inscrit le centre historique
+places:
+  rhone:
+    name: Le Rhône
+    blurb: Le fleuve large et rapide le long du nord et de l’ouest des remparts, en route des Alpes vers la Méditerranée.
+  pont-saint-benezet:
+    blurb: Le pont de la chanson, Sur le pont d’Avignon. Les crues ont emporté la plupart de ses arches, et il n’en reste que quatre.
+  rocher-des-doms:
+    blurb: Un jardin au sommet du rocher au-dessus du fleuve, avec un étang et une vue sur le Rhône jusqu’à Villeneuve-lès-Avignon et au mont Ventoux.
+  place-du-palais:
+    blurb: La large place en pente devant le palais des Papes, avec la cathédrale à son sommet.
+  place-de-l-horloge:
+    blurb: La place principale d’Avignon, bordée de terrasses de café, de l’hôtel de ville, du théâtre et d’un vieux manège.
+  rue-de-la-republique:
+    blurb: La grande rue commerçante toute droite, percée à travers la vieille ville au XIXe siècle de la porte de la gare à la place de l’Horloge.
+  porte-de-l-oulle:
+    blurb: Une porte des remparts ouest, face au Rhône et au pont vers l’île de la Barthelasse.
+  rue-joseph-vernet:
+    blurb: Une rue sinueuse d’hôtels particuliers des XVIIe et XVIIIe siècles, aujourd’hui occupée par des boutiques de mode et le musée Calvet.
+  place-saint-pierre:
+    blurb: Une petite place devant l’église gothique Saint-Pierre, dont les portes de noyer sculpté datent du XVIe siècle.
+  place-pie:
+    blurb: La place des Halles, le marché couvert, dont la façade est recouverte d’un jardin vertical de plantes vivantes.
+  rue-des-marchands:
+    blurb: Une étroite rue commerçante piétonne entre la place de l’Horloge et la place Carnot.
+  rue-du-roi-rene:
+    blurb: Une rue tranquille d’hôtels particuliers, où le poète Pétrarque aurait vu pour la première fois sa Laure, dans l’église Sainte-Claire, en 1327.
+  rue-des-teinturiers:
+    blurb: Une rue pavée sous les platanes le long d’un canal de la Sorgue, où travaillaient des teinturiers jusqu’au XIXe siècle et où quelques vieilles roues à aubes tournent encore.
+  place-des-corps-saints:
+    blurb: Une place ombragée de platanes et de terrasses de café au sud de la vieille ville.
+links:
+- title: Avignon Tourisme
+  note: L’office de tourisme officiel
+- title: Ville d’Avignon
+  note: La municipalité
+- title: Palais des Papes
+  note: Billets et horaires du palais et du pont
+- title: Centre historique d’Avignon sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Avignon sur Wikipédia
+  note: L’article de l’encyclopédie

@@ -20,3 +20,8 @@
       topBar.classList.toggle('solid', solid > 0.6);
     };
     addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    // A language picked in the bar is the one the site's old addresses (/, /about/, ...) send this
+    // visitor to from now on (_layouts/lang-redirect.html).
+    for (const a of document.querySelectorAll('.langs [data-lang]')) {
+      a.addEventListener('click', () => { try { localStorage.setItem('site-lang', a.dataset.lang); } catch {} });
+    }

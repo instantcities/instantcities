@@ -1,0 +1,20 @@
+# san-francisco's landmarks in French (_data/landmarks/san-francisco.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+transamerica-pyramid:
+  blurb: La pyramide blanche du Financial District, haute de 260 mètres, emblème de la skyline de San Francisco depuis 1972.
+ferry-building:
+  blurb: Le terminal des ferries au pied de Market Street, avec sa tour d’horloge inspirée de la Giralda de Séville, aujourd’hui une halle gourmande.
+coit-tower:
+  blurb: La fine tour de béton au sommet de Telegraph Hill, construite en 1933 avec l’argent de Lillie Hitchcock Coit.
+dragon-gate:
+  blurb: La porte de Chinatown sur Grant Avenue, au coin de Bush Street, avec ses toits de tuiles vertes, ses dragons et deux lions de pierre.
+chinatown:
+  blurb: Le plus ancien Chinatown d’Amérique du Nord, le long de Grant Avenue et de Stockton Street, avec des lanternes au-dessus de la rue.
+union-square:
+  blurb: La place des grands magasins et des hôtels, nommée d’après les rassemblements pour l’Union avant la guerre de Sécession.
+cable-cars:
+  blurb: Les derniers cable cars du monde encore en service dans les rues d’une ville, tirés en haut des collines par un câble sous la chaussée.
+washington-square:
+  blurb: Le cœur vert de North Beach, le quartier italien, devant l’église blanche Saints-Pierre-et-Paul.
+city-lights:
+  blurb: La librairie des poètes de la Beat Generation sur Columbus Avenue, qui publia Howl d’Allen Ginsberg en 1956.

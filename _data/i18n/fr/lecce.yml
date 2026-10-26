@@ -1,0 +1,21 @@
+# lecce's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/lecce.yml and its landmarks, with their pages, in landmarks/lecce.yml.
+title: 'Instant Lecce : visite virtuelle en 3D et jeu gratuits de Lecce la baroque'
+description: 'Faites gratuitement la visite virtuelle en 3D de la vieille ville baroque de Lecce dans votre navigateur, puis parcourez-la vous-même à vélo, à pied ou au galop : explorez, faites la course ou jouez des quêtes, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Lecce la baroque !
+lead: Parcourez la vieille ville de Lecce, dans les Pouilles, en pietra leccese couleur de miel, avec ses volets et ses toits-terrasses.
+features:
+- title: Lecce la baroque
+  text: Passez devant Santa Croce et entrez sur la Piazza del Duomo, plongez le regard dans l’amphithéâtre romain sous la Piazza Sant’Oronzo, et trouvez le château de Charles Quint et les trois portes de la ville.
+- title: Deux parcours
+  text: Courez Lecce Centre, une boucle devant le Duomo, la Porta Rudiae, la Porta Napoli et Santa Croce, ou foncez de la gare à Sant’Oronzo.
+- title: Ses propres quêtes
+  text: 'Relevez de courtes missions contre la montre : rattrapez le voleur qui s’est enfui avec la statue en papier mâché de Sant’Oronzo.'
+intro: 'Lecce est la principale ville du Salento, le talon de la botte italienne, à quelques kilomètres de l’Adriatique. Aux XVIe et XVIIe siècles, ses bâtisseurs ont sculpté la pierre locale, tendre et dorée, en églises et en palais si richement ornés que le style a pris le nom de la ville : le baroque de Lecce.'
+famous:
+- Le baroque de Lecce, avant tout la façade sculptée de la basilique Santa Croce
+- Un amphithéâtre romain à demi enfoui sous sa place principale
+- Les saints en papier mâché, la cartapesta de ses ateliers
+- Le pasticciotto au petit-déjeuner et le caffè leccese au lait d’amande
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

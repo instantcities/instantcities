@@ -1,0 +1,24 @@
+# vienna's landmarks in Dutch (_data/landmarks/vienna.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+stephansdom:
+  name: Stephansdom
+  blurb: De gotische kathedraal van Wenen, met haar zuidtoren van 136 meter en een dak van geglazuurde pannen in zigzag.
+graben:
+  blurb: De grote winkelstraat van Wenen op de lijn van de Romeinse gracht, met de Pestzuil in het midden.
+pestsaule:
+  name: Pestzuil
+  blurb: De barokke zuil van wolken en engelen, opgericht na de pest van 1679.
+hofburg:
+  blurb: Zes eeuwen lang het winterpaleis van de Habsburgers, nu de zetel van de Oostenrijkse president.
+michaelerplatz:
+  blurb: Het ronde plein bij de poort van de Hofburg, waar Romeinse ruïnes en het sobere huis van Adolf Loos tegenover het paleis liggen.
+spanische-hofreitschule:
+  name: Spaanse Rijschool
+  blurb: De witte lipizzanerhengsten dansen in een barokke rijhal in de Hofburg.
+staatsoper:
+  name: Staatsopera
+  blurb: Geopend in 1869, het eerste grote gebouw aan de Ring en een van de grote operahuizen van de wereld.
+albertina:
+  blurb: Een Habsburgs paleis met een van de grootste verzamelingen prenten en tekeningen ter wereld, met de Haas van Dürer.
+burgtheater:
+  blurb: Een van de belangrijkste Duitstalige theaters, aan de Ring, tegenover het stadhuis.

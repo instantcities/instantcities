@@ -1,0 +1,99 @@
+# brussels's guide in French (_data/about/brussels.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Belgique
+- Région de Bruxelles-Capitale, l’une des trois régions de Belgique ; elle n’appartient à aucune province
+- Environ 195 000 habitants (Ville de Bruxelles), 1,2 million (Région de Bruxelles-Capitale)
+- 979, selon la tradition
+- La Senne (Zenne), voûtée depuis les années 1870
+- Français et néerlandais, tous deux officiels
+- Bruxelles (français), Brussel (néerlandais)
+- La capitale de l’Europe
+- La Grand-Place (1998) et les hôtels particuliers de Victor Horta (2000)
+overview:
+- 'Bruxelles s’est développée dans la vallée de la petite rivière Senne et sur la colline à l’est, et les deux moitiés se sentent encore différentes : la ville basse, autour de la Grand-Place, est un enchevêtrement de vieilles rues de marchands et d’artisans, tandis que la ville haute sur le Coudenberg est un lieu de palais, de musées et de larges rues droites. Une ceinture de boulevards sur le tracé des remparts du XIVe siècle enserre la vieille ville, que l’on appelle le Pentagone à cause de sa forme.'
+- Le centre, la partie que vous parcourez dans Instant Brussels, va de la Grand-Place vers l’ouest jusqu’à la Bourse et à la place Saint-Géry, où la ville est née, et vers le nord jusqu’aux boutiques de la rue Neuve. De la Grand-Place, les Galeries royales Saint-Hubert mènent vers la cathédrale, et le Mont des Arts monte à la place Royale sur la colline. Au sud se trouve le Sablon, avec ses antiquaires et ses chocolatiers.
+setting:
+- Bruxelles se trouve au milieu de la Belgique, entre le nord néerlandophone et le sud francophone. La Région de Bruxelles-Capitale, qui compte 19 communes, dont la Ville de Bruxelles, est l’une des trois régions du pays et forme une île à l’intérieur de la Flandre. Anvers est à environ 45 kilomètres au nord et Gand à environ 55 kilomètres au nord-ouest.
+- La Senne coule toujours sous la ville, dans des tunnels, et un canal traverse Bruxelles, reliant Charleroi au sud à l’Escaut au nord. La forêt de Soignes, un grand bois de hêtres, s’avance dans le sud-est de la région. Le climat est doux et humide, avec des pluies réparties sur toute l’année.
+today:
+- Bruxelles est le siège du roi, du gouvernement et du parlement belges, de la Commission européenne et du Conseil de l’UE, et de l’OTAN ; le Parlement européen s’y réunit aussi, comme à Strasbourg. Des dizaines de milliers de personnes travaillent pour ces institutions, et une grande partie des habitants de la région sont nés à l’étranger ; dans ses rues on entend français, néerlandais, anglais, arabe et des dizaines d’autres langues.
+- Chaque juillet, le cortège de l’Ommegang remplit la Grand-Place en costumes de la Renaissance, et tous les deux ans en août un tapis de bégonias recouvre la place. Les murs de la ville portent des scènes peintes de bandes dessinées belges, et le Manneken-Pis est habillé de l’un de ses costumes bien des jours de l’année.
+history:
+- title: Un marché sur la Senne
+  text:
+  - La tradition fait remonter la ville à 979, quand Charles, duc de Basse-Lotharingie, construisit un fort sur une île de la Senne, là où se trouve aujourd’hui la place Saint-Géry. Le nom vient de Bruocsella, « l’habitat dans le marais ». La ville grandit sur la route commerciale entre Bruges et Cologne, là où elle traversait la Senne.
+  - Les ducs de Brabant construisirent leur château sur la colline du Coudenberg et firent de Bruxelles l’une de leurs capitales. La ville reçut ses premiers remparts au XIIIe siècle et une seconde enceinte, plus large, au XIVe, dont les boulevards intérieurs suivent aujourd’hui le tracé. Sur la place du marché, les habitants commencèrent leur hôtel de ville en 1401 et achevèrent sa flèche, couronnée d’une statue de saint Michel, dans les années 1450.
+- title: Ducs, empereurs et bombardement
+  text:
+  - Au XVe siècle, les ducs de Bourgogne, puis les Habsbourg, tinrent cour dans le palais du Coudenberg. L’empereur Charles Quint y abdiqua en 1555. Sous son fils Philippe II, le duc d’Albe fit décapiter les comtes d’Egmont et de Hornes, chefs de l’opposition noble, sur la Grand-Place en 1568.
+  - En 1619, Jérôme Duquesnoy l’Ancien coula le Manneken-Pis pour une fontaine au coin de la rue de l’Étuve. En août 1695, l’armée de Louis XIV bombarda Bruxelles et incendia la Grand-Place et les rues alentour ; les corporations reconstruisirent leurs maisons en pierre en quelques années, plus somptueuses qu’avant. Le palais du Coudenberg brûla en 1731, et la place Royale s’éleva sur son emplacement plus tard dans le siècle.
+- title: Capitale de la Belgique et de l’Europe
+  text:
+  - 'Le 25 août 1830, une émeute éclata après un opéra à la Monnaie et devint la Révolution belge. Bruxelles devint la capitale du nouveau royaume, et la ville grandit vite : les Galeries royales Saint-Hubert ouvrirent en 1847, et entre 1867 et 1871 le bourgmestre Jules Anspach fit voûter la Senne polluée et poser de larges boulevards dessus. Sous le roi Léopold II, la ville gagna l’énorme Palais de Justice et le parc du Cinquantenaire, et vers 1900 Victor Horta y construisit les premières maisons Art nouveau.'
+  - Pour l’Exposition universelle de 1958, Bruxelles construisit l’Atomium. La même année, la nouvelle Communauté économique européenne y installa ses bureaux, et en 1967 l’OTAN transféra son quartier général dans la ville. En 1989, Bruxelles devint une région à part entière, et en 2015 la ville ferma les boulevards centraux aux voitures pour en faire une zone piétonne.
+timeline:
+- - '979'
+  - Charles de Basse-Lotharingie construit un fort sur une île de la Senne, fondation traditionnelle de la ville
+- - '1401'
+  - Début des travaux de l’hôtel de ville
+- - '1555'
+  - Charles Quint abdique dans le palais du Coudenberg
+- - '1568'
+  - Les comtes d’Egmont et de Hornes sont décapités sur la Grand-Place
+- - '1619'
+  - Jérôme Duquesnoy l’Ancien coule le Manneken-Pis
+- - '1695'
+  - L’armée française bombarde la ville et brûle la Grand-Place
+- - '1731'
+  - Un incendie détruit le palais du Coudenberg
+- - '1830'
+  - Une émeute à l’opéra de la Monnaie déclenche la Révolution belge
+- - '1847'
+  - Ouverture des Galeries royales Saint-Hubert
+- - '1871'
+  - La Senne disparaît sous les nouveaux boulevards centraux
+- - '1958'
+  - Bruxelles construit l’Atomium pour l’Exposition universelle
+- - '1989'
+  - Création de la Région de Bruxelles-Capitale
+places:
+  grand-place:
+    name: Grand-Place
+    blurb: La place du marché de Bruxelles, entourée de l’hôtel de ville gothique, de la Maison du Roi et des maisons dorées des corporations.
+  galeries-saint-hubert:
+    blurb: Une galerie commerçante à verrière de 1847, l’une des premières d’Europe, avec des cafés, des chocolatiers et un théâtre.
+  rue-des-bouchers:
+    blurb: La rue des bouchers, aujourd’hui une ruelle de restaurants avec des tables dehors, qui croise les Galeries.
+  place-de-la-bourse:
+    blurb: La place devant la Bourse, l’ancienne Bourse de 1873, aujourd’hui un musée de la bière belge.
+  boulevard-anspach:
+    blurb: Le boulevard posé sur la Senne voûtée dans les années 1870, zone piétonne depuis 2015.
+  rue-de-l-etuve:
+    blurb: La rue de la Grand-Place à l’angle où le Manneken-Pis se dresse sur sa fontaine.
+  place-saint-gery:
+    blurb: La place sur l’ancienne île de la Senne où Bruxelles est née, autour d’une halle de fer de 1881, aujourd’hui entourée de bars.
+  place-sainte-catherine:
+    blurb: Une place sur les bassins comblés de l’ancien port, connue pour ses restaurants de poisson.
+  place-de-la-monnaie:
+    blurb: La place de la Monnaie, l’opéra où la Révolution belge a commencé en 1830.
+  rue-neuve:
+    blurb: La rue commerçante la plus fréquentée de la ville, fermée aux voitures, qui monte vers le nord depuis la place de la Monnaie.
+  place-sainte-gudule:
+    blurb: La place au pied de la cathédrale gothique des Saints-Michel-et-Gudule, où ont lieu les mariages et funérailles royaux de Belgique.
+  mont-des-arts:
+    blurb: Un jardin en terrasses à côté de la Bibliothèque royale, aménagé pour l’Exposition universelle de 1958, avec une vue sur la ville basse.
+  place-royale:
+    blurb: La place du XVIIIe siècle sur le Coudenberg, à l’emplacement de l’ancien palais, avec l’église Saint-Jacques-sur-Coudenberg et une statue de Godefroy de Bouillon.
+  grand-sablon:
+    name: Place du Grand Sablon
+    blurb: Une place en pente d’antiquaires et de chocolatiers au pied de l’église gothique Notre-Dame du Sablon, avec un marché d’antiquités le week-end.
+links:
+- title: visit.brussels
+  note: L’information touristique officielle de la ville
+- title: Ville de Bruxelles
+  note: La municipalité
+- title: La Grand-Place de Bruxelles sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Bruxelles sur Wikipédia
+  note: L’article de l’encyclopédie

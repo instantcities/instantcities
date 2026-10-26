@@ -1,0 +1,101 @@
+# copenhagen's guide in French (_data/about/copenhagen.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Danemark
+- Région de la capitale du Danemark
+- Environ 660 000 habitants (commune), 1,4 million (agglomération)
+- 1167, quand l’évêque Absalon construisit un château sur Slotsholmen
+- L’Øresund et le port intérieur de la ville
+- Danois
+- La Ville aux flèches
+overview:
+- Copenhague se trouve sur la côte est de l’île de Seeland et sur la plus petite île d’Amager, de part et d’autre d’un long port. Son nom, København, signifie « port des marchands ». Jusque dans les années 1850, des remparts et des douves enfermaient la vieille ville ; quand la ville les démolit, elle en garda des tronçons dans une ceinture de parcs, dont le Jardin botanique et le lac à l’intérieur de Tivoli.
+- Le centre que vous parcourez dans Instant Copenhagen est la ville médiévale et les quartiers royaux à côté. Strøget, une chaîne de rues piétonnes, va de la place de l’Hôtel-de-Ville à Kongens Nytorv, avec Nyhavn juste au-delà. Au sud, les canaux entourent Slotsholmen et le palais de Christiansborg, au nord-est se trouve le quartier rococo planifié de Frederiksstaden avec Amalienborg, et de l’autre côté du port Christianshavn.
+setting:
+- Copenhague se trouve à la bordure est du Danemark, face à la Suède de l’autre côté de l’Øresund. Depuis 2000, un pont et un tunnel relient la ville à Malmö, la troisième ville de Suède, et les deux forment une seule région où beaucoup de gens vivent d’un côté et travaillent de l’autre.
+- 'Le terrain est plat et bas, et la mer n’est jamais loin : le port traverse la ville de part en part et est assez propre pour s’y baigner aux bains du port. Le climat est doux et maritime, avec des étés frais, des hivers gris et du vent toute l’année.'
+today:
+- Copenhague est le siège du gouvernement danois, et le palais de Christiansborg abrite sous un même toit le parlement, la Cour suprême et le bureau du Premier ministre. La famille royale vit à Amalienborg. L’économie de la ville repose sur les services, le transport maritime, la pharmacie, le design et le tourisme, et ses restaurants, Noma en tête, ont rendu célèbre la nouvelle cuisine nordique.
+- Les Copenhaguois font du vélo par tous les temps, sur des pistes cyclables que la ville a construites pendant des décennies, et beaucoup se baignent dans le port en été. Le FC Copenhague joue au Parken, le stade national, et les soirs d’été la foule envahit les quais de Nyhavn et de Christianshavn.
+history:
+- title: Le port des marchands
+  text:
+  - Un village de pêcheurs et de commerçants appelé Havn, « port », se dressait ici dès le XIe siècle. En 1167, l’évêque Absalon de Roskilde construisit un château sur la petite île de Slotsholmen pour le protéger des pirates, et la ville s’enrichit avec le hareng de l’Øresund. En 1417, le roi Éric de Poméranie prit la ville aux évêques, et au cours du XVe siècle elle devint la capitale du Danemark.
+  - Les rois construisirent leur palais sur Slotsholmen, sur les ruines du château d’Absalon, et l’université ouvrit en 1479. En 1536, la Réforme fit du Danemark un pays luthérien, et la couronne saisit les biens de l’Église.
+- title: Rois, incendies et âge d’or
+  text:
+  - 'Christian IV, qui régna de 1588 à 1648, donna à Copenhague une grande part de sa silhouette : la Bourse Børsen avec sa flèche de queues de dragons entrelacées, la Tour ronde, le château de Rosenborg et le nouveau quartier de Christianshavn de l’autre côté du port. Christian V aménagea Kongens Nytorv et fit creuser Nyhavn, et en 1749 Frédéric V commença le quartier planifié de Frederiksstaden autour d’Amalienborg.'
+  - 'La peste et le feu frappèrent durement la ville au XVIIIe siècle : de grands incendies en 1728 et 1795 détruisirent une bonne part de la ville médiévale. En 1807, une flotte britannique bombarda Copenhague et emporta la marine danoise. Pourtant, les décennies suivantes devinrent l’Âge d’or danois, le temps de Hans Christian Andersen, du philosophe Søren Kierkegaard et du sculpteur Bertel Thorvaldsen.'
+- title: La capitale moderne
+  text:
+  - Tivoli ouvrit en 1843, le Danemark reçut une constitution en 1849, et dans les décennies suivantes la ville démolit ses remparts et s’étendit en de nouveaux quartiers ouvriers. L’Allemagne nazie occupa le Danemark de 1940 à 1945. En octobre 1943, les Danois aidèrent presque tous les Juifs du pays à s’échapper à travers l’Øresund vers la Suède neutre.
+  - En 1962, la ville ferma Strøget aux voitures, et depuis elle donna de plus en plus de ses rues aux piétons et aux cyclistes. Le pont de l’Øresund ouvrit en 2000 et le métro en 2002, et l’ancien port, autrefois bordé de docks et d’entrepôts, s’est rempli de logements, de l’Opéra, de ponts cyclables et de bains du port.
+timeline:
+- - '1167'
+  - L’évêque Absalon construit un château sur Slotsholmen
+- - '1417'
+  - Le roi Éric de Poméranie prend la ville aux évêques
+- - '1479'
+  - Ouverture de l’université de Copenhague
+- - '1642'
+  - Christian IV achève la Tour ronde
+- - '1673'
+  - Achèvement de Nyhavn
+- - '1728'
+  - Un grand incendie détruit une grande part de la ville médiévale
+- - '1749'
+  - Frédéric V commence le quartier de Frederiksstaden
+- - '1807'
+  - Une flotte britannique bombarde la ville
+- - '1843'
+  - Ouverture de Tivoli
+- - '1943'
+  - Les Danois aident les Juifs du pays à s’échapper vers la Suède
+- - '1962'
+  - Strøget devient une rue piétonne
+- - '2000'
+  - Le pont de l’Øresund relie Copenhague à Malmö
+places:
+  radhuspladsen:
+    name: Place de l’Hôtel-de-Ville
+    blurb: La grande place devant l’hôtel de ville de brique rouge de 1905, où commence Strøget. Tivoli se trouve de l’autre côté du boulevard.
+  tivoli:
+    name: Jardins de Tivoli
+    blurb: Le jardin d’agrément ouvert en 1843 à côté de l’ancien fossé de la ville, aujourd’hui un lac à l’intérieur, avec des manèges, des concerts et des milliers de lumières le soir.
+  stroget:
+    blurb: La chaîne de rues piétonnes de la place de l’Hôtel-de-Ville à Kongens Nytorv. La ville l’a fermée aux voitures en 1962, ce qui en fit l’une des premières longues rues piétonnes d’Europe.
+  gammeltorv:
+    blurb: La plus ancienne place de Copenhague, sur Strøget, avec la fontaine Caritas de 1608. L’ancien tribunal se trouve sur Nytorv à côté.
+  grabrodretorv:
+    blurb: Une petite place pavée sur le site d’un couvent franciscain, les Frères gris, bordée de vieilles maisons colorées et de terrasses de restaurant.
+  kobmagergade:
+    blurb: Une rue piétonne qui monte vers le nord depuis Strøget devant la Tour ronde, l’observatoire que Christian IV fit construire avec une rampe en spirale à la place d’escaliers.
+  amagertorv:
+    blurb: Le tronçon le plus large de Strøget, avec la fontaine de la Cigogne, nommée d’après les fermiers d’Amager qui y vendaient leurs produits.
+  hojbro-plads:
+    blurb: La place au bout de Strøget face à Slotsholmen, avec une statue équestre de l’évêque Absalon, le fondateur de la ville.
+  gammel-strand:
+    blurb: L’ancien rivage de l’autre côté du canal depuis Christiansborg, où les poissonnières vendaient autrefois la pêche et d’où partent aujourd’hui les bateaux de canal.
+  slotsholmen:
+    blurb: L’île où Absalon construisit son château, aujourd’hui occupée par le palais de Christiansborg et l’ancienne Bourse, Børsen.
+  kongens-nytorv:
+    blurb: La plus grande place de la ville, aménagée sous Christian V dans les années 1670, avec sa statue équestre au milieu et le Théâtre royal danois à côté.
+  nyhavn:
+    blurb: Le canal creusé de Kongens Nytorv au port dans les années 1670, bordé de maisons peintes de couleurs vives et de vieux bateaux de bois. Hans Christian Andersen a vécu dans trois de ses maisons.
+  bredgade:
+    blurb: La large rue principale de Frederiksstaden, qui monte vers le nord depuis Kongens Nytorv devant l’église de Marbre jusqu’au Musée du design.
+  amalienborg:
+    name: Place du palais d’Amalienborg
+    blurb: La place octogonale de quatre palais identiques, demeure de la famille royale depuis 1794, avec Frédéric V à cheval au milieu. La garde y est relevée chaque jour à midi.
+  christianshavns-kanal:
+    name: Canal de Christianshavn
+    blurb: Le canal à travers Christianshavn, le quartier de l’autre côté du port que Christian IV aménagea sur des terres gagnées sur l’eau à partir de 1619, sur le modèle d’Amsterdam.
+links:
+- title: VisitCopenhagen
+  note: L’information touristique officielle de la ville
+- title: Ville de Copenhague
+  note: Les pages anglaises de la municipalité
+- title: Jardins de Tivoli
+  note: Billets et horaires
+- title: Copenhague sur Wikipédia
+  note: L’article de l’encyclopédie

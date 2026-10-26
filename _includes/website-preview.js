@@ -14,6 +14,7 @@
     const hero = host.closest('.hero');
     const caption = hero.querySelector('.live-caption');
     const watch = hero.querySelector('.watch');
+    const captionOf = city => host.dataset.caption.replace('%c', city.name);
     function active() { return visible && !document.hidden && !motion.matches && !stopped; }
     function play() {
       if (active()) video.play().catch(() => { host.classList.remove('ready'); });
@@ -23,9 +24,9 @@
       host.classList.remove('ready');
       const city = playlist[index];
       host.querySelector('.poster').src = `/assets/previews/${city.id}.jpg`;
-      caption.textContent = `Preview: ${city.name}`;
-      caption.href = `/${city.id}/`;
-      watch.href = `/${city.id}/play/?watch=cards`;
+      caption.textContent = captionOf(city);
+      caption.href = city.page;
+      watch.href = city.watch;
       video.src = city.src;
       video.load();
       play();
@@ -33,9 +34,9 @@
     video.addEventListener('playing', () => {
       failures = 0;
       const city = playlist[index];
-      caption.textContent = `Preview: ${city.name}`;
-      caption.href = `/${city.id}/`;
-      watch.href = `/${city.id}/play/?watch=cards`;
+      caption.textContent = captionOf(city);
+      caption.href = city.page;
+      watch.href = city.watch;
       host.classList.add('ready');
     });
     function next() {

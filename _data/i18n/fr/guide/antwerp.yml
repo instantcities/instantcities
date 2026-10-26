@@ -1,0 +1,99 @@
+# antwerp's guide in French (_data/about/antwerp.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Belgique
+- Flandre
+- Province d’Anvers, dont elle est le chef-lieu
+- Plus de 500 000 habitants (ville), la plus grande commune de Belgique
+- L’Escaut (Schelde)
+- Néerlandais
+- Antwerpen (néerlandais), Anvers (français)
+- ’t Stad, « la ville », comme l’appellent ses habitants
+- L’imprimerie et musée Plantin-Moretus, depuis 2005
+overview:
+- 'Anvers s’est développée sur un méandre de l’Escaut, autour d’un petit château, et le fleuve a fait sa fortune : du Moyen Âge à aujourd’hui, des navires du monde entier remontent l’Escaut jusqu’à ses quais. Sa vieille ville garde la cathédrale gothique, les maisons de corporations de la Grand-Place et les églises et maisons baroques de l’époque de Rubens, tandis que le port s’est déplacé vers le nord, avec des bassins qui atteignent la frontière néerlandaise.'
+- Le centre, la partie que vous parcourez dans Instant Antwerp, se trouve entre l’Escaut et le Meir. Du Steen au bord du fleuve, la Suikerrui mène à la Grand-Place, et derrière elle la flèche de la cathédrale s’élève au-dessus du Handschoenmarkt et du Groenplaats. D’étroites ruelles descendent vers le sud jusqu’au Vrijdagmarkt et au musée Plantin-Moretus, et à l’est le large Meir passe devant la maison de Rubens en direction de la gare centrale.
+setting:
+- Anvers se trouve dans le nord de la Belgique, en Région flamande, près de la frontière néerlandaise, et est le chef-lieu de la province d’Anvers. Bruxelles est à environ 45 kilomètres au sud et Gand à environ 50 kilomètres au sud-ouest. La vieille ville s’élève sur la rive droite de l’Escaut ; la rive gauche, de l’autre côté du fleuve, est plus récente et plus verte.
+- 'L’Escaut est ici un fleuve à marées, et les navires de haute mer gagnent le port depuis la mer du Nord par l’Escaut occidental, aux Pays-Bas, à quelque 80 kilomètres en aval. Aucun pont ne traverse le fleuve dans la ville : des tunnels routiers, ferroviaires et piétons passent dessous. Le climat d’Anvers est doux et pluvieux, comme dans le reste de la Flandre.'
+today:
+- Anvers vit de son port, des usines chimiques le long de l’Escaut, du commerce du diamant autour de la gare centrale, de ses commerces et de ses maisons de mode. Ses habitants parlent leur propre dialecte marqué et sont fiers de leur ville, qu’ils appellent simplement ’t Stad, « la ville ».
+- Les anciens bassins au nord du centre, l’Eilandje, sont devenus un quartier d’appartements et de musées autour du MAS, le Museum aan de Stroom, ouvert en 2011. Le Musée royal des beaux-arts a rouvert en 2022 après une longue restauration, et la gare centrale, cathédrale de fer et de pierre, est souvent citée parmi les plus belles du monde.
+history:
+- title: Un château sur l’Escaut
+  text:
+  - Selon la légende, un géant, Druon Antigon, faisait payer un péage à chaque batelier de l’Escaut et coupait la main de celui qui refusait, jusqu’à ce que le soldat romain Silvius Brabo coupe la propre main du géant et la jette dans le fleuve ; hand werpen, « jeter une main », aurait donné son nom à Anvers. Les historiens pensent plutôt que le nom vient de aanwerp, un monticule de terre jeté par le fleuve.
+  - Une colonie se dressait sur le méandre du fleuve dès le IXe siècle, et les Vikings la pillèrent en 836. Une forteresse, dont il reste le Steen, gardait le fleuve, et la ville devint un marché du duché de Brabant. En 1352, les Anversois commencèrent à bâtir la cathédrale Notre-Dame, qui prit près de 170 ans à achever.
+- title: Le siècle d’or
+  text:
+  - Quand le Zwin s’ensabla et que Bruges perdit son accès à la mer, les marchands étrangers s’installèrent à Anvers. Au milieu du XVIe siècle, c’était la capitale commerciale de l’Europe du Nord, où s’échangeaient épices portugaises, draps anglais et argent allemand, et elle comptait environ 100 000 habitants. La ville ouvrit une Bourse construite à cet effet en 1531, bâtit son hôtel de ville Renaissance dans les années 1560, et Christophe Plantin y dirigea l’une des plus grandes imprimeries d’Europe.
+  - 'Les guerres de religion y mirent fin. En 1576, des soldats espagnols impayés pillèrent la ville et tuèrent des milliers de personnes lors de la Furie espagnole, et en 1585 le général espagnol Alexandre Farnèse prit Anvers après un long siège. Les protestants durent partir, beaucoup pour Amsterdam, et les Néerlandais fermèrent l’Escaut à la navigation. La ville resta pourtant florissante comme centre artistique : Rubens revint d’Italie en 1608 et y dirigea son grand atelier, tandis qu’Antoine van Dyck et Jacob Jordaens travaillaient dans la même ville.'
+- title: Le port rouvre
+  text:
+  - Les Français rouvrirent l’Escaut en 1795, et Napoléon construisit de nouveaux bassins pour faire d’Anvers une base navale contre la Grande-Bretagne. En 1863, la Belgique racheta le péage que les Néerlandais prélevaient sur le fleuve, et le port recommença à croître. La ville accueillit des expositions universelles en 1885, 1894 et 1930, ouvrit sa gare centrale en 1905 et organisa les Jeux olympiques en 1920.
+  - Pendant la Seconde Guerre mondiale, les troupes britanniques prirent le port intact en septembre 1944, et les Allemands frappèrent ensuite Anvers de plus de V-2 qu’aucune autre ville. Après la guerre, le port s’étendit vers le nord, en direction des Pays-Bas, et devint le deuxième d’Europe. Dans les années 1980, six jeunes créateurs de l’Académie royale, les Six d’Anvers, mirent la ville sur la carte de la mode mondiale.
+timeline:
+- - '836'
+  - Les Vikings pillent Anvers
+- - '1352'
+  - Début des travaux de la cathédrale Notre-Dame
+- - '1521'
+  - La cathédrale est achevée, avec sa flèche de 123 mètres
+- - '1531'
+  - La ville ouvre une Bourse construite à cet effet
+- - '1555'
+  - Christophe Plantin commence à imprimer à Anvers
+- - '1565'
+  - Achèvement du nouvel hôtel de ville sur la Grand-Place
+- - '1576'
+  - Des soldats espagnols pillent la ville lors de la Furie espagnole
+- - '1585'
+  - Alexandre Farnèse prend Anvers et les Néerlandais ferment l’Escaut
+- - '1608'
+  - Rubens revient d’Italie et s’installe à Anvers
+- - '1863'
+  - La Belgique rachète le péage néerlandais sur l’Escaut
+- - '1920'
+  - Anvers accueille les Jeux olympiques
+- - '2022'
+  - Les ports d’Anvers et de Zeebruges fusionnent en Port d’Anvers-Bruges
+places:
+  grote-markt:
+    name: Grand-Place
+    blurb: La place principale de la vieille ville, avec l’hôtel de ville Renaissance, les maisons de corporations et la fontaine de Brabo.
+  handschoenmarkt:
+    blurb: Le petit « marché aux gants » devant la cathédrale, avec un vieux puits dont la légende attribue le dais de fer au peintre Quinten Metsys.
+  groenplaats:
+    blurb: Autrefois le cimetière de la cathédrale, aujourd’hui une grande place de terrasses de café autour d’une statue de Rubens.
+  meir:
+    blurb: La large rue commerçante principale d’Anvers, avec le palais royal du XVIIIe siècle, le Paleis op de Meir.
+  wapper:
+    blurb: La petite place près du Meir où Rubens vécut et tint son atelier, dans la maison qu’il acheta en 1610.
+  steenplein:
+    blurb: La place au bord du fleuve autour du Steen, le plus vieux bâtiment de la ville, avec la statue du géant Lange Wapper.
+  schelde:
+    name: L’Escaut
+    blurb: Le large fleuve à marées qui a fait la fortune d’Anvers. Des promenades surélevées longent ses quais.
+  suikerrui:
+    blurb: La rue de la Grand-Place au fleuve, posée sur l’un des anciens canaux de la vieille ville, les ruien, qui coulent encore voûtés sous les rues.
+  hoogstraat:
+    blurb: Une vieille rue de boutiques et de bars qui descend vers le sud depuis la Grand-Place en direction de Sint-Jansvliet.
+  oude-koornmarkt:
+    blurb: L’ancien marché aux grains, une rue de cafés juste au sud de la cathédrale.
+  vlaaikensgang:
+    blurb: Une ruelle cachée de maisons du XVIe siècle derrière l’Oude Koornmarkt, où habitaient autrefois des cordonniers.
+  vrijdagmarkt:
+    blurb: La place de l’imprimerie Plantin-Moretus, où l’on vend encore aux enchères des objets d’occasion le vendredi matin.
+  sint-jansvliet:
+    blurb: Une place sur un ancien canal du port comblé, où des escaliers mécaniques en bois mènent au tunnel piéton Sainte-Anne sous l’Escaut, ouvert en 1933.
+  hendrik-conscienceplein:
+    blurb: Une place tranquille devant l’église jésuite baroque Saint-Charles-Borromée, avec une statue de l’écrivain Hendrik Conscience.
+links:
+- title: Visit Antwerpen
+  note: L’information touristique officielle de la ville
+- title: Ville d’Anvers
+  note: La municipalité
+- title: Plantin-Moretus sur l’UNESCO
+  note: L’inscription au patrimoine mondial de l’imprimerie et du musée
+- title: Anvers sur Wikipédia
+  note: L’article de l’encyclopédie

@@ -1,13 +1,16 @@
 {%- comment -%}
   Links every landmark of a city and every famous piece of art in it that a text names, once each:
   {% include link-landmarks.html text=t city='paris' landmarks=list %} prints the text, list being
-  _data/landmarks/<city>.json (see link-first.html for what counts as a mention). The art is the
+  _data/landmarks/<city>.json (see link-first.html for what counts as a mention); in another language a landmark is named by _data/i18n/<lang>/landmarks/<city>.yml (the first letter of a name may be a small one there, "la cathédrale Saint-Bavon"), and links to its page in that language. The art is the
   pieces of _data/art.json in the city's museums.
 {%- endcomment -%}
 {%- assign ll_text = include.text -%}
 {%- for ll in include.landmarks -%}
-  {%- assign ll_url = '/' | append: include.city | append: '/landmark/' | append: ll.id | append: '/' -%}
-  {%- capture ll_text %}{% include link-first.html text=ll_text name=ll.name url=ll_url %}{% endcapture -%}
+  {%- capture ll_url %}{% include city-url.html city=include.city page='landmark' landmark=ll.id %}{% endcapture -%}
+  {%- assign ll_x = site.data.i18n[L].landmarks[include.city][ll.id] -%}
+  {%- assign ll_name = ll_x.name | default: ll.name -%}
+  {%- if ll_x.name == nil or ll_text contains ll_name %}{% else %}{% assign ll_low = ll_name | slice: 0 | downcase %}{% assign ll_rest = ll_name | slice: 1, 999 %}{% assign ll_name = ll_low | append: ll_rest %}{% endif -%}
+  {%- capture ll_text %}{% include link-first.html text=ll_text name=ll_name url=ll_url %}{% endcapture -%}
 {%- endfor -%}
 {%- assign ll_museums = site.data.art.museums | where: 'city', include.city -%}
 {%- for ll_m in ll_museums -%}

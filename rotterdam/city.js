@@ -13,17 +13,28 @@
 //                    `node tools/osm_map.mjs rotterdam`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs rotterdam`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs rotterdam`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. Rotterdam is
-// as flat as the map.
+//   markthal.js      the Markthal, its arch of flats over the painted hall, in place of the map's block of it
+//   kubus.js         Piet Blom's cube houses and the Blaaktoren, in place of the map's pieces of them
+//   witte-huis.js    the Witte Huis on the Wijnhaven, in place of the map's block of it
+//   laurenskerk.js   the Laurenskerk and its tower, in place of the map's block of it
+//   stadhuis.js      the Stadhuis's tower, over the map's block of the town hall
+// No sights or fronts yet: empty lists for those, and for what only Ghent has. Rotterdam is as flat as
+// the map.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { MARKTHAL } from './markthal.js';
+import { KUBUS } from './kubus.js';
+import { WITTE_HUIS } from './witte-huis.js';
+import { LAURENSKERK } from './laurenskerk.js';
+import { STADHUIS } from './stadhuis.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...MARKTHAL, ...KUBUS, ...WITTE_HUIS, ...LAURENSKERK, ...STADHUIS];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

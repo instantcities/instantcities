@@ -11,7 +11,10 @@
 //                    `node tools/osm_map.mjs utrecht`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs utrecht`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs utrecht`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. The wharves of
+//   domtoren.js      the Domtoren, modelled by hand on core/js/arcade.js, in place of the map's blocks of it
+//   domkerk.js       the Domkerk's choir and transept, in place of the map's blocks of them
+//   pandhof.js       the Pandhof, the Dom's cloister and its garden, in place of the map's block of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has. The wharves of
 // the Oudegracht lie low at the water in real life; here the canal is the game's usual one.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -19,9 +22,13 @@ export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { DOMTOREN } from './domtoren.js';
+import { DOMKERK } from './domkerk.js';
+import { PANDHOF } from './pandhof.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...DOMTOREN, ...DOMKERK, ...PANDHOF];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

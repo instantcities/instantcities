@@ -1,0 +1,23 @@
+# san-francisco's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/san-francisco.yml and its landmarks, with their pages, in landmarks/san-francisco.yml.
+title: 'Instant San Francisco : visite virtuelle en 3D et jeu gratuits de San Francisco'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de San Francisco dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans San Francisco, de Chinatown à la baie !
+lead: Parcourez le nord-est de San Francisco en 3D, au bord de la baie, par Chinatown et la Dragon Gate, devant la Transamerica Pyramid, le Ferry Building, Union Square et la Coit Tower sur Telegraph Hill, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai San Francisco
+  text: Promenez-vous parmi quelque 4 100 bâtiments reconstruits en 3D à partir d’OpenStreetMap, des maisons de bois peintes de North Beach aux tours du Financial District à leur vraie hauteur. Le reste de la ville suivra.
+- title: Tours, cable cars et baie
+  text: Levez les yeux vers la Transamerica Pyramid, grimpez sur Telegraph Hill jusqu’à la Coit Tower, longez l’Embarcadero jusqu’au Ferry Building, trouvez la plaque tournante du cable car sur Powell Street près d’Union Square, et remontez Grant Avenue à travers Chinatown.
+- title: 'Une course : de Chinatown à la baie'
+  text: Foncez sur Grant Avenue à travers Chinatown, par Bush Street à travers le Financial District, descendez Market Street jusqu’au Ferry Building, longez l’Embarcadero, et retour devant la Transamerica Pyramid.
+intro: 'San Francisco se trouve à la pointe d’une péninsule du nord de la Californie, entre l’océan Pacifique et la baie de San Francisco : une ville de collines raides, de maisons de bois peintes et de brouillard d’été. D’une petite mission espagnole, elle est devenue une ville champignon pendant la ruée vers l’or, a brûlé en 1906 et a été aussitôt rebâtie. On la connaît aujourd’hui pour ses cable cars, le Golden Gate Bridge, Chinatown et les entreprises technologiques de la Bay Area.'
+famous:
+- Le Golden Gate Bridge dans le brouillard
+- Les cable cars qui grimpent les collines
+- Chinatown, la plus ancienne d’Amérique du Nord
+- Alcatraz, l’île-prison dans la baie
+- Le tremblement de terre et l’incendie de 1906
+- Les poètes de la Beat Generation à North Beach
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

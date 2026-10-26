@@ -1,0 +1,95 @@
+# lecce's guide in Dutch (_data/about/lecce.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Apulië (Puglia)
+- Ongeveer 95.000 (stad), 770.000 (provincie Lecce)
+- Door de Messapiërs, vóór de Romeinen; de Romeinen noemden het Lupiae
+- De Adriatische Zee, zo’n 11 kilometer naar het oosten
+- Italiaans, en het Salentijnse dialect
+- Het Florence van het Zuiden
+- Sint-Orontius
+overview:
+- Lecce is een stad van honingkleurige steen. Bijna de hele oude stad is gebouwd van pietra leccese, een kalksteen die bij het delven zo zacht is dat beeldhouwers gevels konden bedekken met bloemen, fruit, engeltjes, heiligen en monsters. Tientallen kerken staan op een paar minuten lopen van elkaar in de kleine oude stad.
+- 'De oude stad, het deel waar je in Instant Lecce doorheen rijdt, ligt binnen een ring van brede lanen die de stadsmuren vervingen. Drie poorten zijn bewaard gebleven: de Porta Napoli in het noorden, de Porta Rudiae in het westen en de Porta San Biagio in het zuiden. De Piazza Sant’Oronzo, met haar Romeinse amfitheater, is het centrum; de Via Vittorio Emanuele II leidt vandaar naar het westen naar het besloten plein van de kathedraal, en Santa Croce en het kasteel van Karel V liggen in het noorden en oosten.'
+setting:
+- Lecce ligt in het zuidoosten van Italië, in de regio Apulië, en is de hoofdstad van de provincie Lecce. De Salento is een vlak schiereiland tussen de Adriatische en de Ionische Zee, bedekt met olijfgaarden, wijngaarden en droge stenen muurtjes. Brindisi ligt zo’n 40 kilometer naar het noorden en Otranto zo’n 40 kilometer naar het zuidoosten.
+- 'Het klimaat is mediterraan: lange, hete en droge zomers en milde winters. Sinds 2013 heeft een bacterie, Xylella fastidiosa, miljoenen oude olijfbomen van de Salento gedood, en het landschap rond de stad wordt langzaam opnieuw beplant.'
+today:
+- Lecce is de hoofdstad van zijn provincie en de zetel van de Universiteit van de Salento. De economie rust op overheidsdiensten, de universiteit, toerisme, olijfolie en wijn uit de Salento, zoals Negroamaro en Salice Salentino. Steenhouwers bewerken nog altijd de pietra leccese, en papier-machéwerkplaatsen in de oude stad maken nog steeds heiligen en kribbefiguren.
+- ’s Avonds wandelt de hele stad door de straten tussen de Piazza Sant’Oronzo en de kathedraal. Eind augustus vult het feest van Sint-Orontius de oude stad met lichtjes, muziek en processies, en in de zomer danst de Salento de pizzica. De voetbalclub, US Lecce, speelt in geel en rood in het Stadio Via del Mare.
+history:
+- title: Messapiërs en Romeinen
+  text:
+  - Vóór de Romeinen woonden de Messapiërs, een volk van de hiel van Italië, hier en in Rudiae, net ten westen van de stad, waar later de Romeinse dichter Ennius werd geboren. De Romeinen namen de Salento in de 3e eeuw v.Chr. in en maakten van Lecce de stad Lupiae.
+  - Onder de keizers bouwde Lupiae een theater voor zo’n 5.000 mensen, in de tijd van Augustus, en in de 2e eeuw een amfitheater voor zo’n 25.000. De legende zegt dat Sint-Orontius, de eerste bisschop van de stad, hier onder Nero als martelaar stierf. Beide Romeinse gebouwen bleven tot de 20e eeuw onder de huizen verborgen.
+- title: Graven, koningen en de Ottomaanse dreiging
+  text:
+  - Na de val van Rome vochten Byzantijnen, Longobarden en Saracenen om de Salento, tot de Normandiërs het in de 11e eeuw innamen en van Lecce de zetel van een graafschap maakten. Zijn graaf Tancred werd in 1189 koning van Sicilië. In de eeuwen daarna ging het graafschap over meerdere adellijke families en daarna naar het Koninkrijk Napels, waarover Spanje vanaf het begin van de 16e eeuw heerste.
+  - 'In 1480 nam een Ottomaanse vloot Otranto, verderop aan de kust, in en doodde een groot deel van de bevolking. Angst voor de Turken vormde Lecce: in de jaren 1530 liet keizer Karel V het kasteel herbouwen en nieuwe muren rond de stad bouwen, en in 1548 richtte de stad de Porta Napoli ter ere van hem op.'
+- title: De barokke stad
+  text:
+  - In de eeuw na 1550 herbouwden de religieuze ordes van de Contrareformatie en de adellijke families van Lecce de stad in gebeeldhouwde steen. Santa Croce deed er van 1549 tot 1695 over om af te komen; Giuseppe Zimbalo herbouwde de kathedraal vanaf 1659 en gaf haar de klokkentoren van 70 meter. Toen de pest van 1656 Lecce spaarde, bedankte de stad Sint-Orontius en zette zijn beeld op een Romeinse zuil op het hoofdplein.
+  - Lecce werd in 1861 deel van het Koninkrijk Italië. De meeste muren werden in de 19e eeuw afgebroken en brede lanen namen hun plaats in, terwijl de nieuwe stad erbuiten groeide. In de afgelopen decennia hebben de gerestaureerde oude stad en de stranden van de Salento bezoekers uit de hele wereld gebracht.
+timeline:
+- - 2e eeuw
+  - De Romeinen bouwen het amfitheater van Lupiae
+- - '1189'
+  - Tancred, graaf van Lecce, wordt koning van Sicilië
+- - '1480'
+  - De Ottomanen nemen Otranto in, aan de kust ten zuidoosten van Lecce
+- - jaren 1530
+  - Karel V laat het kasteel herbouwen en de stad ommuren
+- - '1548'
+  - De Porta Napoli wordt ter ere van Karel V opgericht
+- - '1549'
+  - Begin van de bouw van de Basilica di Santa Croce
+- - '1656'
+  - De pest spaart Lecce, dat Sint-Orontius daarvoor dankt
+- - '1659'
+  - Giuseppe Zimbalo begint met de herbouw van de kathedraal
+- - '1695'
+  - Santa Croce is voltooid
+- - '1703'
+  - De Porta Rudiae wordt in barokstijl herbouwd
+- - '1774'
+  - De Porta San Biagio wordt gebouwd
+- - '1861'
+  - Lecce wordt deel van het Koninkrijk Italië
+places:
+  piazza-sant-oronzo:
+    blurb: Het hoofdplein van Lecce, met het Romeinse amfitheater half uitgegraven in het midden en Sint-Orontius op zijn zuil erboven.
+  via-vittorio-emanuele:
+    blurb: De hoofdstraat van de oude stad, van de Piazza Sant’Oronzo langs de kerk Sant’Irene naar de kathedraal.
+  piazza-del-duomo:
+    blurb: Het besloten plein van de kathedraal, het bisschoppelijk paleis en het seminarie, dat zich alleen via een smalle opening vanaf de straat opent.
+  via-libertini:
+    blurb: De straat van de kathedraal naar de Porta Rudiae, langs de Rosariokerk, het laatste werk van Giuseppe Zimbalo.
+  porta-rudiae:
+    blurb: De westelijke poort, herbouwd in 1703, met Sint-Orontius bovenop, aan de weg naar de antieke stad Rudiae.
+  via-palmieri:
+    blurb: Een straat met adellijke paleizen die van het hart van de oude stad naar de Porta Napoli leidt.
+  porta-napoli:
+    blurb: De triomfboog van 1548 voor Karel V, waar de weg naar Napels de stad verliet.
+  via-umberto-i:
+    blurb: De straat van de Basilica di Santa Croce en de lange gevel van het Palazzo dei Celestini, nu de zetel van het provinciebestuur.
+  piazza-vittorio-emanuele:
+    blurb: Een klein plein net ten zuiden van de Piazza Sant’Oronzo, voor de achthoekige kerk Santa Chiara en een paar stappen van het Romeinse theater.
+  porta-san-biagio:
+    blurb: De zuidelijke poort van 1774, met Sint-Blasius bovenop, uitkijkend op de weg naar Otranto.
+  castello-carlo-v:
+    name: Kasteel van Karel V
+    blurb: De vierkante vesting met pijlvormige bastions aan de oostkant van de oude stad, nu open voor tentoonstellingen.
+  villa-comunale:
+    blurb: De 19e-eeuwse openbare tuin genoemd naar Garibaldi, met palmen en dennen, net buiten de oude stad bij het kasteel.
+  via-trinchese:
+    blurb: De winkelstraat van de nieuwere stad, van de Piazza Sant’Oronzo naar het oosten tot de Piazza Mazzini.
+  piazza-mazzini:
+    blurb: Het grote plein van de 20e-eeuwse stad buiten de oude muren, omringd door winkels.
+links:
+- title: Comune di Lecce
+  note: Het stadsbestuur (in het Italiaans)
+- title: Viaggiare in Puglia
+  note: De officiële toeristische informatie van de regio Apulië
+- title: Lecce op Wikipedia
+  note: Het encyclopedieartikel

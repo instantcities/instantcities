@@ -1,0 +1,73 @@
+# avignon's landmarks in Dutch (_data/landmarks/avignon.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+palais-des-papes:
+  name: Pausenpaleis
+  blurb: Het grootste gotische paleis ter wereld, gebouwd toen de pausen in Avignon woonden, van 1309 tot 1377.
+  text:
+  - In 1309 vestigde paus Clemens V zich in Avignon in plaats van in Rome, en bijna zeventig jaar lang bestuurden de pausen de Kerk vanuit deze stad. Benedictus XII en Clemens VI bouwden het grote paleis in nauwelijks twintig jaar, een burcht en een hof in één.
+  - De enorme zalen zijn nu bijna leeg, maar sommige muren tonen nog de fresco’s die voor Clemens VI werden geschilderd. Elke juli is de binnenplaats het hoofdpodium van het Festival van Avignon.
+pont-saint-benezet:
+  blurb: De brug uit het liedje “Sur le pont d’Avignon”, waarvan nog maar vier bogen over zijn.
+  text:
+  - De legende zegt dat een herdersjongen, Bénezet, van engelen de opdracht kreeg een brug over de Rhône te bouwen, en zelf de eerste steen optilde. In de 12e eeuw gebouwd, werd hij keer op keer door overstromingen weggespoeld en in de 17e eeuw opgegeven.
+  - Vier van zijn 22 bogen staan nog, eindigend midden in de rivier, met een kapelletje op een van de pijlers.
+place-de-l-horloge:
+  blurb: Het stadsplein, genoemd naar de gotische klokkentoren achter het stadhuis, met een draaimolen en caféterrassen.
+  text:
+  - Het plein is genoemd naar de gotische toren van het oude paleis achter het 19e-eeuwse stadhuis, waar twee figuren, de jaquemarts, de uren slaan.
+  - Caféterrassen, een theater en een oude draaimolen vullen het; in het spel beginnen en eindigen de races hier.
+rocher-des-doms:
+  blurb: De rotsheuvel boven het paleis, een tuin met uitzicht over de Rhône en de brug.
+  text:
+  - De Rocher des Doms is de rots waar Avignon begon, hoog boven de rivier. In de 19e eeuw werd hij omgevormd tot een tuin met een vijver, eenden en schaduwrijke paden.
+  - Vanaf de rand kijk je neer op de Pont Saint-Bénezet, over de Rhône naar Villeneuve-lès-Avignon en, op een heldere dag, naar de Mont Ventoux.
+notre-dame-des-doms:
+  blurb: De romaanse kathedraal naast het paleis, met bovenop een verguld Mariabeeld.
+  text:
+  - De kathedraal werd in de 12e eeuw gebouwd, voor de pausen kwamen, en twee van hen liggen er begraven. In 1859 werd een verguld Mariabeeld op de top van haar toren gezet.
+  - Ze schittert boven de hele stad, hoog boven het Pausenpaleis.
+hotel-de-ville:
+  name: Stadhuis
+  blurb: Het stadhuis uit 1856 aan de Place de l’Horloge, gebouwd rond een oudere gotische toren.
+  text:
+  - Het stadhuis werd in de jaren 1850 gebouwd aan de Place de l’Horloge, een klassieke gevel met zuilen. Erachter rijst de gotische toren van het eerdere paleis, met zijn klok en jaquemarts.
+  - Ernaast staat de Opera, geopend in 1847.
+les-halles:
+  blurb: De overdekte markt achter een levende muur van planten, met Provençaals eten onder één dak.
+  text:
+  - De overdekte markt van Avignon aan de Place Pie is elke ochtend behalve maandag open, met zo’n veertig kramen met groenten, kaas, olijven, vis en brood.
+  - De gevel is een verticale tuin van Patrick Blanc, een muur van planten die tegen het gebouw opgroeien.
+remparts:
+  name: Stadsmuren
+  blurb: De stenen muur van 4,3 kilometer die de pausen bouwden en die nog altijd de hele oude stad omringt.
+  text:
+  - 'De pausen omringden Avignon in de 14e eeuw met muren, en die staan nog bijna helemaal overeind: 4,3 kilometer kantelen en torens, met poorten op de toegangswegen.'
+  - Binnen de stad van de pausen; buiten de ringweg en de Rhône.
+rue-de-la-republique:
+  blurb: De brede straat van de stationspoort naar de Place de l’Horloge, in de 19e eeuw dwars door de oude stad getrokken.
+  text:
+  - Zoals Parijs onder Haussmann legde Avignon in de jaren 1850 een brede straat dwars door zijn middeleeuwse straatjes, van het nieuwe station naar het stadhuis. Ze is omzoomd met winkels en cafés.
+  - In het spel rijdt de race eroverheen.
+musee-calvet:
+  blurb: Een museum voor schone kunsten in een herenhuis uit de 18e eeuw, gesticht op de verzameling van een arts.
+  text:
+  - De arts Esprit Calvet liet zijn verzamelingen in 1810 na aan de stad, en ze werden een van de oudste musea van Frankrijk buiten Parijs. Het is gehuisvest in een herenhuis uit de 18e eeuw aan de Rue Joseph Vernet.
+  - Het bezit schilderijen, beeldhouwwerk en oudheden, onder meer werken van de familie Vernet, schilders die in Avignon werden geboren.
+festival:
+  name: Festival van Avignon
+  blurb: Elke juli wordt de stad één groot theater, met toneelstukken in de binnenplaats van het paleis en in elke zaal.
+  text:
+  - Jean Vilar stichtte het festival in 1947 met drie stukken in de binnenplaats van het Pausenpaleis. Het is uitgegroeid tot een van de grootste theaterfestivals ter wereld.
+  - 'Ernaast loopt het Off: ruim duizend voorstellingen in elke kapel, kelder en school van de stad, aangekondigd op affiches die elke muur bedekken.'
+mistral:
+  name: De mistral
+  blurb: De koude wind die door het Rhônedal raast en de lucht boven Avignon schoonveegt.
+  text:
+  - 'De mistral is een sterke, koude noordenwind die door het Rhônedal naar de Middellandse Zee waait, soms dagenlang. Een gezegde beweert: “Avignon venteuse, sans vent venimeuse”: Avignon, winderig, en zonder wind, giftig.'
+  - Hij brengt stralend blauwe luchten en heldere lucht, en boeren in de Provence planten rijen cipressen om hem te breken.
+cigales:
+  name: Krekels
+  blurb: 'Het geluid van een Provençaalse zomer: krekels die in de hitte in de platanen zingen.'
+  text:
+  - In de zomer zingen de mannelijke krekels in de platanen en dennen, het luidst in de middaghitte. In de Provence zijn ze een symbool van geluk en van het warme zuiden.
+  - Beschilderde krekels van aardewerk hangen in de hele streek aan muren en deuren.

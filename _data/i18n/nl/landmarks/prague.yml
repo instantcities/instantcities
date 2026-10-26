@@ -1,0 +1,26 @@
+# prague's landmarks in Dutch (_data/landmarks/prague.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+staromestske-namesti:
+  name: Oudestadsplein
+  blurb: Het grote plein van de oude stad, met de Týnkerk, het astronomisch uurwerk en het monument voor Jan Hus.
+orloj:
+  name: Astronomisch uurwerk
+  blurb: 'Gemaakt in 1410: elk uur trekken de twaalf apostelen langs de raampjes terwijl de Dood zijn klokje luidt.'
+tyn:
+  name: Týnkerk
+  blurb: De gotische kerk met twee puntige torens van 80 meter, achter de huizen op het Oudestadsplein.
+karluv-most:
+  name: Karelsbrug
+  blurb: De stenen brug uit 1357 over de Moldau, met dertig heiligenbeelden langs de rand.
+mostecka-vez:
+  name: Brugtoren van de oude stad
+  blurb: De gotische poorttoren aan de kant van de oude stad van de Karelsbrug, een van de mooiste van Europa.
+klementinum:
+  blurb: Het reusachtige jezuïetencollege naast de brug, met een barokke bibliotheekzaal en een sterrenwachttoren.
+josefov:
+  blurb: De Joodse wijk van Praag, met oude synagogen en de Oude Joodse Begraafplaats.
+staronova-synagoga:
+  name: Oud-Nieuwe Synagoge
+  blurb: Gebouwd rond 1270, de oudste synagoge van Europa die nog in gebruik is.
+rudolfinum:
+  blurb: De neorenaissancistische concertzaal aan de Moldau, thuis van de Tsjechische Filharmonie.

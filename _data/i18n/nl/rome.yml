@@ -1,0 +1,21 @@
+# rome's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rome.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/rome.yml and its landmarks, with their pages, in landmarks/rome.yml.
+title: 'Instant Rome: gratis virtuele 3D-rondleiding en game van Rome'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Rome in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het oude Rome!
+lead: Rijd door het hart van Rome in 3D, over de Via del Corso, langs het Pantheon, de Piazza Navona en de Trevifontein, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Rome
+  text: 'Dwaal tussen zo’n 6.000 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Antiek en barok Rome
+  text: Rijd van de Piazza Venezia over de Via del Corso naar de zuil op de Piazza Colonna, bezoek het Pantheon en de Piazza Navona, en trek verder naar de Trevifontein, het Forum en het Colosseum.
+- title: 'Een race: Rome Centrum'
+  text: Race van de Piazza Venezia over de Via del Corso naar de zuil op de Piazza Colonna, langs het Pantheon en terug via de Largo di Torre Argentina.
+intro: Rome is de hoofdstad van Italië en een van de oudste steden van Europa die zonder onderbreking bewoond zijn. Duizend jaar lang heerste het over een rijk rond de Middellandse Zee, daarna werd het de stad van de pausen, en vandaag staan de Romeinse ruïnes, renaissancepaleizen en barokke fonteinen er zij aan zij in een drukke moderne hoofdstad.
+famous:
+- Het Colosseum, het Forum en het Pantheon, de best bewaarde gebouwen van het oude Rome
+- Vaticaanstad, het kleinste land ter wereld, met de Sint-Pieter en de Sixtijnse Kapel
+- Barokke pleinen en fonteinen van Bernini en Borromini, zoals de Piazza Navona en de Trevifontein
+- Pasta alla carbonara, cacio e pepe en de groene drinkfonteintjes, de nasoni
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

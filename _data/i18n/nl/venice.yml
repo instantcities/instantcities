@@ -1,0 +1,21 @@
+# venice's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/venice.yml and its landmarks, with their pages, in landmarks/venice.yml.
+title: 'Instant Venice: gratis virtuele 3D-rondleiding en game van Venetië'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Venetië in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door de calli van Venetië!
+lead: Rijd door het hart van Venetië in 3D, langs het San Marcoplein, het Dogepaleis, de Mercerie en de Rialtobrug, met elke calle uit OpenStreetMap.
+features:
+- title: Het echte Venetië
+  text: 'Dwaal tussen zo’n 2.500 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Over de kanalen
+  text: Steek het San Marcoplein over naar het Dogepaleis en de Zuchtenbrug, kronkel door de smalle straatjes van de Mercerie en beklim de Rialtobrug over het Canal Grande.
+- title: 'Een race: San Marco → Rialto'
+  text: Race van het San Marcoplein onder de klokkentoren door de smalle winkelstraatjes van de Mercerie naar de Rialtobrug.
+intro: Venetië is een stad gebouwd op meer dan honderd eilandjes in een lagune bovenaan de Adriatische Zee, waar kanalen de plaats van straten innemen en boten die van auto’s. Duizend jaar lang was het de hoofdstad van een handelsrepubliek op zee, en zijn paleizen, kerken en pleinen staan er nog grotendeels zoals de kooplieden ze achterlieten.
+famous:
+- Het San Marcoplein, de San Marcobasiliek en het Dogepaleis
+- Het Canal Grande, de gondels en de Rialtobrug
+- Het carnaval, met zijn maskers en kostuums
+- Glas uit Murano, kant uit Burano en ’s avonds een spritz met cicchetti
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

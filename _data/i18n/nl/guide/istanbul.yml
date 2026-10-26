@@ -1,0 +1,124 @@
+# istanbul's guide in Dutch (_data/about/istanbul.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Turkije
+- İstanbul
+- Ongeveer 15,7 miljoen (provincie)
+- Aan beide zijden van de Bosporus, tussen de Zwarte Zee en de Zee van Marmara
+- Van zeeniveau tot boven op de zeven heuvels van de oude stad, tot zo’n 60 meter
+- Turks
+- De Hagia Sophia, de Blauwe Moskee, de bazaars, de Bosporus
+- Als Byzantium, door Griekse kolonisten, in de 7e eeuw v.Chr.
+overview:
+- De oude stad van Istanbul is een schiereiland in de vorm van een hoorn, met de Gouden Hoorn in het noorden, de Zee van Marmara in het zuiden en de Bosporus aan de punt. Op de punt ligt het Topkapıpaleis boven het Gülhanepark, en net landinwaarts kijken de Hagia Sophia en de Blauwe Moskee elkaar aan over het Sultanahmetplein, met de lange Hippodroom ernaast. Vandaar loopt de Divan Yolu, de oude keizerlijke weg, naar het westen langs de Zuil van Constantijn naar de Grote Bazaar, terwijl de straten in het noorden steil afdalen naar Sirkeci, Eminönü, de Nieuwe Moskee en de Kruidenbazaar aan de oever van de Gouden Hoorn, waar de Galatabrug naar Karaköy oversteekt.
+- 'Instant Istanbul neemt je mee door het hart ervan: van de Hagia Sophia over de Divan Yolu naar de Zuil van Constantijn en de poort van de Grote Bazaar, de Ankara Caddesi af naar Sirkeci, en terug langs de tram voorbij het Gülhanepark en door het steegje met houten huizen naar de poort van het Topkapıpaleis. De echte straten klimmen en dalen over de heuvels; in het spel is de stad vlak.'
+setting:
+- Istanbul strekt zich uit langs de Bosporus, de 30 kilometer lange zeestraat die de Zwarte Zee met de Zee van Marmara verbindt en Europa van Azië scheidt. Aan de Europese kant snijdt de Gouden Hoorn, een lange inham, de oude stad af van Galata en Beyoğlu in het noorden. Drie bruggen en twee tunnels kruisen de Bosporus, en de veerboten steken hem de hele dag over.
+- 'Het klimaat ligt tussen dat van de Middellandse Zee en dat van de Zwarte Zee: hete, vochtige zomers, koele en natte winters met af en toe sneeuw, en winden die vanuit het noorden de Bosporus af waaien.'
+today:
+- Istanbul is de grootste stad van Turkije en zijn centrum van zaken, cultuur en handel, met meer dan vijftien miljoen inwoners. Het oude schiereiland is het hart van de bezienswaardigheden, sinds 1985 werelderfgoed, terwijl de meeste mensen wonen en werken in de nieuwe wijken aan beide oevers.
+- Bezoekers komen voor de Hagia Sophia, de Blauwe Moskee, de Basilicacisterne, het Topkapıpaleis en de bazaars, en voor de veerboten, de visbroodjes bij de Galatabrug en het uitzicht over de Bosporus. De tram T1 rijdt langs de Divan Yolu van de Grote Bazaar naar Sultanahmet en naar beneden naar Eminönü.
+history:
+- title: Byzantium
+  text:
+  - Griekse kolonisten uit Megara stichtten Byzantium in de 7e eeuw v.Chr. op de punt van het schiereiland, waar nu het Topkapıpaleis staat. Vandaar bewaakte het de doorgang tussen de Zwarte Zee en de Middellandse Zee, en het werd rijk van de handel en de vis van de zeestraat.
+  - De Romeinen namen het in, en in 196 herbouwde keizer Septimius Severus het na een beleg, met de Hippodroom.
+- title: Constantinopel
+  text:
+  - In 330 maakte Constantijn de Grote de stad de nieuwe hoofdstad van het Romeinse Rijk en noemde haar naar zichzelf. Justinianus herbouwde de Hagia Sophia na de Nika-opstand van 532, en duizend jaar lang was Constantinopel de grootste en rijkste stad van de christenheid, achter haar landmuren.
+  - In 1204 plunderden de ridders van de Vierde Kruistocht haar, en het Byzantijnse Rijk herstelde nooit helemaal.
+- title: De Ottomaanse hoofdstad
+  text:
+  - Op 29 mei 1453 nam de jonge sultan Mehmed II de stad in na een beleg van 53 dagen. Hij maakte haar tot zijn hoofdstad, veranderde de Hagia Sophia in een moskee, bouwde het Topkapıpaleis en de eerste hallen van de Grote Bazaar, en liet mensen uit heel zijn rijk er komen wonen.
+  - Onder Süleyman de Prachtige en zijn architect Mimar Sinan vulde de stad zich met moskeeën, baden en scholen, en in de 17e eeuw kwamen de Blauwe Moskee en de Nieuwe Moskee aan haar skyline toe. In de 19e eeuw verhuisden de sultans naar nieuwe paleizen langs de Bosporus, en de spoorlijn uit Europa bereikte Sirkeci.
+- title: De republiek
+  text:
+  - Na de Eerste Wereldoorlog viel het Ottomaanse Rijk. In 1923 werd de Republiek Turkije uitgeroepen en werd Ankara de hoofdstad, en in 1930 werd de naam van de stad voor iedereen Istanbul.
+  - Sinds de jaren 1950 is ze gegroeid van zo’n miljoen mensen tot meer dan vijftien miljoen, ver uitgespreid langs beide oevers. Bruggen over de Bosporus kwamen in 1973, 1988 en 2016, en een spoortunnel eronder, de Marmaray, in 2013.
+timeline:
+- - 7e eeuw v.Chr.
+  - Griekse kolonisten uit Megara stichten Byzantium
+- - '330'
+  - Constantijn de Grote maakt het zijn hoofdstad, Constantinopel
+- - '532'
+  - De Nika-opstand verbrandt een groot deel van de stad
+- - '537'
+  - Justinianus’ nieuwe Hagia Sophia is voltooid
+- - '1204'
+  - De Vierde Kruistocht plundert de stad
+- - '1453'
+  - Mehmed II neemt Constantinopel in en maakt het de Ottomaanse hoofdstad
+- - '1459'
+  - Begin van de bouw van het Topkapıpaleis
+- - '1616'
+  - De Blauwe Moskee is voltooid
+- - '1665'
+  - De Nieuwe Moskee in Eminönü is voltooid, 68 jaar nadat ze werd begonnen
+- - '1856'
+  - De sultans verhuizen van Topkapı naar het Dolmabahçepaleis
+- - '1890'
+  - Station Sirkeci opent; de Orient Express eindigt er later
+- - '1923'
+  - De Republiek Turkije wordt gesticht, met Ankara als hoofdstad
+- - '1934'
+  - De Hagia Sophia wordt een museum
+- - '1973'
+  - De eerste brug over de Bosporus opent
+- - '2013'
+  - De Marmaray-tunnel brengt treinen onder de Bosporus door
+- - '2020'
+  - De Hagia Sophia wordt weer een moskee
+places:
+  ayasofya:
+    name: Hagia Sophia
+    blurb: Justinianus’ grote koepelkerk uit 537, nu een moskee.
+  sultanahmet-camii:
+    name: Blauwe Moskee
+    blurb: De moskee van Ahmed I, met zes minaretten en blauwe İznik-tegels.
+  hipodrom:
+    name: Hippodroom
+    blurb: De oude wagenrenbaan, met zijn obelisk en slangenzuil.
+  yerebatan:
+    name: Basilicacisterne
+    blurb: Justinianus’ ondergrondse waterreservoir met 336 zuilen.
+  topkapi:
+    name: Topkapıpaleis
+    blurb: Het paleis van de Ottomaanse sultans, op de punt van het schiereiland.
+  sogukcesme:
+    blurb: Een steegje met gerestaureerde houten huizen langs de paleismuur.
+  gulhane:
+    name: Gülhanepark
+    blurb: De oude buitentuin van het paleis, aflopend naar de Bosporus.
+  divanyolu:
+    blurb: De oude keizerlijke weg van de Hagia Sophia naar het westen, met de tram.
+  cemberlitas:
+    name: Zuil van Constantijn
+    blurb: Constantijns porfieren zuil van 330, bijeengehouden door ijzeren banden.
+  kapalicarsi:
+    name: Grote Bazaar
+    blurb: Zestig overdekte straten en vierduizend winkels.
+  ankara-caddesi:
+    blurb: De straat van de oude kranten, de heuvel af naar Sirkeci.
+  sirkeci:
+    name: Station Sirkeci
+    blurb: Het eindpunt van de Orient Express.
+  yeni-cami:
+    name: Nieuwe Moskee
+    blurb: De grote moskee aan het water in Eminönü.
+  misir-carsisi:
+    name: Kruidenbazaar
+    blurb: Kruiden, thee en Turks fruit onder lange gewelven.
+  eminonu:
+    blurb: Het drukke plein en de veerbootkaaien aan de Gouden Hoorn.
+  galata-koprusu:
+    name: Galatabrug
+    blurb: De brug naar Karaköy, omzoomd met hengelaars.
+links:
+- title: 'Go Türkiye: Istanbul'
+  note: De toeristische site van Turkije
+- title: Historische gebieden van Istanbul
+  note: De oude stad op de UNESCO-Werelderfgoedlijst
+- title: Şehir Hatları
+  note: De veerboten van de stad en hun dienstregeling
+- title: Istanbul op Wikipedia
+  note: Het encyclopedieartikel

@@ -1,0 +1,24 @@
+# rotterdam's landmarks in Dutch (_data/landmarks/rotterdam.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+stadhuis:
+  name: Stadhuis
+  blurb: Het stadhuis van Rotterdam uit 1920 aan de Coolsingel, een van de weinige gebouwen in het centrum die het bombardement van 1940 overleefden.
+erasmusbrug:
+  name: Erasmusbrug
+  blurb: De witte tuibrug over de Maas, bijgenaamd de Zwaan, die het teken van het nieuwe Rotterdam werd.
+witte-huis:
+  name: Witte Huis
+  blurb: Het witte kantoorgebouw uit 1898 bij de Oude Haven, een van de eerste hoogbouwgebouwen van Europa.
+oude-haven:
+  blurb: De oudste haven van Rotterdam, vol oude zeilschepen, met terrassen langs de kades.
+kubuswoningen:
+  name: Kubuswoningen
+  blurb: De gele huizen van Piet Blom, gekanteld op hun punt, een bos van kubussen op een voetgangersbrug over de Blaak.
+markthal:
+  blurb: Een hoefijzervormige boog van woningen over een overdekte markt, met het grootste kunstwerk van Nederland op het plafond.
+laurenskerk:
+  blurb: De grote laatgotische kerk van de stad, in 1940 uitgebrand en herbouwd, het laatste middeleeuwse gebouw van het centrum.
+schielandshuis:
+  blurb: Een 17e-eeuws classicistisch paleis tussen de torens, dat het bombardement van 1940 overleefde.
+maritiem-museum:
+  blurb: Het maritiem museum aan de Leuvehaven, met oude kranen, een lichtschip en werkschepen die ervoor aangemeerd liggen.

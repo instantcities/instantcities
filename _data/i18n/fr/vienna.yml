@@ -1,0 +1,21 @@
+# vienna's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/vienna.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/vienna.yml and its landmarks, with their pages, in landmarks/vienna.yml.
+title: 'Instant Vienna : visite virtuelle en 3D et jeu gratuits de Vienne'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Vienne dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval au cœur de Vienne !
+lead: Parcourez le cœur de Vienne en 3D, devant le Stephansdom, par le Graben, la Hofburg et l’Opéra d’État, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Vienne
+  text: 'Promenez-vous parmi quelque 1 800 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Innere Stadt
+  text: Partez du Stephansdom, descendez le Graben jusqu’à la Hofburg sur la Michaelerplatz, et suivez le Ring jusqu’à l’Opéra d’État et l’Albertina.
+- title: 'Une course : Innere Stadt et Ring'
+  text: Foncez du Stephansdom par le Graben jusqu’à la Hofburg, suivez le Ring jusqu’à l’Opéra d’État, et retour devant l’Albertina et le Neuer Markt.
+intro: Vienne est la capitale de l’Autriche et, pendant plus de six cents ans, a été le siège des Habsbourg, qui gouvernaient une grande partie de l’Europe depuis ses palais. Mozart, Beethoven et Strauss y ont fait de la musique, Freud et Klimt y ont changé le regard sur l’esprit et sur l’art, et la ville garde ses palais impériaux, son Ring et ses vieux cafés.
+famous:
+- La cathédrale Saint-Étienne et sa haute flèche gothique au milieu de la vieille ville
+- La Hofburg et Schönbrunn, les palais d’hiver et d’été des empereurs Habsbourg
+- La musique classique, de l’Opéra d’État et de la valse au concert du Nouvel An des Philharmoniker
+- Les cafés viennois, la Sachertorte et l’escalope viennoise
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

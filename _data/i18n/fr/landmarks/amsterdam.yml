@@ -1,0 +1,80 @@
+# amsterdam's landmarks in French (_data/landmarks/amsterdam.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+dam:
+  blurb: La place sur la digue construite en travers de l’Amstel au XIIIe siècle, qui a donné son nom à la ville.
+  text:
+  - Au XIIIe siècle, on construisit un barrage en travers de la rivière Amstel, et la ville qui grandit autour fut appelée Amstelredamme. La place à cet endroit reste le cœur de la ville, avec le Palais royal d’un côté et le Monument national de l’autre.
+  - Le Monument national blanc de 1956 rappelle les victimes de la Seconde Guerre mondiale ; chaque année, le 4 mai, le roi y dépose une couronne.
+koninklijk-paleis:
+  name: Palais royal
+  blurb: Bâti comme hôtel de ville du Siècle d’or, transformé en palais par Louis Bonaparte en 1808.
+  text:
+  - Jacob van Campen le construisit comme hôtel de ville à partir de 1648, au sommet du Siècle d’or d’Amsterdam, sur plus de 13 000 pieux de bois. Sa grande salle des Citoyens a le monde et les cieux incrustés dans son sol de marbre.
+  - En 1808, Louis Bonaparte, frère de Napoléon et roi de Hollande, en fit son palais. Il appartient toujours à la famille royale, qui l’utilise pour les visites d’État.
+nieuwe-kerk:
+  blurb: L’église du Dam où les rois et reines des Pays-Bas prêtent serment.
+  text:
+  - La « nouvelle » église date du XVe siècle, nouvelle par rapport à l’Oude Kerk. Rebâtie après des incendies, elle n’a jamais reçu la haute tour qui était prévue.
+  - Depuis 1814, tous les monarques néerlandais y prêtent serment, le plus récemment le roi Willem-Alexander en 2013. Aujourd’hui, elle sert à des expositions et à des concerts.
+begijnhof:
+  name: Béguinage
+  blurb: Une cour cachée de vieilles maisons autour d’un jardin, derrière une porte donnant sur le Spui.
+  text:
+  - Derrière une porte discrète sur le Spui se cache une cour tranquille de maisons étroites autour d’une pelouse, bâtie pour les béguines, des femmes catholiques célibataires qui vivaient en communauté sans prononcer de vœux. La dernière béguine est morte en 1971.
+  - Le numéro 34, le Houten Huis, est l’une des deux seules maisons de bois qui restent dans le centre-ville, d’environ 1528.
+spui:
+  blurb: Une petite place de librairies et de cafés, avec un marché aux livres le vendredi.
+  text:
+  - Le Spui était autrefois un canal, comblé au XIXe siècle. Aujourd’hui, c’est une petite place de librairies et de vieux cafés bruns, où se retrouvent étudiants et écrivains.
+  - Le vendredi, il accueille un marché aux livres. La petite statue de bronze d’un garçon, Het Lieverdje, était un lieu de rendez-vous des manifestations des Provos dans les années 1960.
+bloemenmarkt:
+  name: Marché aux fleurs
+  blurb: Le marché aux fleurs flottant sur le Singel, qui vend bulbes et fleurs depuis 1862.
+  text:
+  - Le Bloemenmarkt se tient sur le Singel depuis 1862. Ses étals reposent sur des bateaux le long du canal, souvenir du temps où les horticulteurs apportaient leurs fleurs en ville par l’eau.
+  - Aujourd’hui, il vend surtout des bulbes de tulipes, des souvenirs et des fleurs coupées, près de la Munttoren.
+westerkerk:
+  blurb: L’église du Prinsengracht à la plus haute tour d’Amsterdam, coiffée d’une couronne impériale.
+  text:
+  - La Westerkerk fut achevée en 1631, la plus grande église protestante de la ville à l’époque. Sa tour de 85 mètres porte la couronne impériale de Maximilien d’Autriche, que la ville fut autorisée à mettre dans ses armes.
+  - Rembrandt y fut enterré en 1669, dans une tombe aujourd’hui perdue. Anne Frank entendait ses cloches depuis sa cachette au coin de la rue.
+anne-frank-huis:
+  name: Maison d’Anne Frank
+  blurb: La maison sur le canal où Anne Frank et sa famille se sont cachées des nazis et où elle a écrit son journal.
+  text:
+  - De 1942 à 1944, Anne Frank, sa famille et quatre autres personnes se cachèrent dans l’annexe secrète à l’arrière du 263 Prinsengracht, derrière une bibliothèque qui dissimulait l’escalier. C’est là qu’Anne écrivit le journal qui serait lu dans le monde entier.
+  - En août 1944, ils furent trahis et déportés ; Anne mourut à Bergen-Belsen en 1945. La maison est aujourd’hui un musée.
+grachtengordel:
+  name: Ceinture de canaux
+  blurb: Le croissant de canaux du XVIIe siècle autour de la vieille ville, inscrit au patrimoine mondial de l’UNESCO.
+  text:
+  - Au XVIIe siècle, Amsterdam grandit vite et planifia son extension sous forme d’une ceinture de trois grands canaux, le Herengracht, le Keizersgracht et le Prinsengracht, avec le Singel à l’intérieur. Les marchands y bâtirent leurs hautes maisons.
+  - La ceinture de canaux est au patrimoine mondial depuis 2010. Ses maisons étroites à pignons penchent un peu vers l’avant, pour qu’on puisse hisser les marchandises le long des fenêtres avec la poutre du haut.
+rijksmuseum:
+  blurb: Le musée national des Pays-Bas sur la Museumplein, où est accrochée La Ronde de nuit de Rembrandt et où une piste cyclable traverse le bâtiment.
+  text:
+  - Le Rijksmuseum est né à La Haye en 1800 et a déménagé à Amsterdam en 1808. Le bâtiment de brique rouge de Pierre Cuypers ouvrit en 1885 ; le roi Guillaume III refusa de l’inaugurer, parce qu’il ressemblait trop à une cathédrale.
+  - Sa Galerie d’honneur se termine sur La Ronde de nuit de Rembrandt et abrite La Laitière de Vermeer. Le musée a rouvert en 2013 après dix ans de rénovation, et une piste cyclable traverse toujours le passage sous le bâtiment. Il se trouve au sud de la partie d’Amsterdam que cartographie le jeu, mais on peut tout de même entrer dans trois de ses salles.
+fietsen:
+  name: Les vélos
+  blurb: Amsterdam compte plus de vélos que d’habitants, et ils règnent sur les rues.
+  text:
+  - Il y a plus de bicyclettes à Amsterdam que d’habitants, pour la plupart noires, solides et un peu rouillées. Des pistes cyclables bordent presque toutes les rues, et aux heures de pointe les vélos dépassent en nombre tout le reste.
+  - Chaque année, des milliers de vélos sont repêchés dans les canaux. Dans le jeu, comme dans la ville, le vélo est la façon de se déplacer.
+trams:
+  name: Les tramways
+  blurb: Les tramways bleu et blanc du GVB, qui sonnent leur chemin à travers le Dam et le long du Rokin.
+  text:
+  - Amsterdam a des tramways depuis 1875, d’abord tirés par des chevaux. Aujourd’hui, une quinzaine de lignes traversent la ville, beaucoup par le vieux centre, devant le Dam et la gare centrale.
+  - 'Dans le jeu, les lignes de tram courent le long du Damrak et du Rokin : attention aux rails avec votre vélo.'
+rondvaartboot:
+  name: Les bateaux de canal
+  blurb: Les longs bateaux à toit de verre qui emmènent les visiteurs sur les canaux et sous les ponts bas.
+  text:
+  - Les rondvaartboten sont longs et bas, conçus pour passer sous les 1 500 ponts d’Amsterdam. Depuis l’eau, on voit les maisons de canal comme elles devaient être vues, depuis les bateaux qui apportaient autrefois les marchandises.
+  - Il y a aussi de petits bateaux ouverts, et par une soirée d’été la moitié de la ville semble être sur l’eau.
+stroopwafel:
+  blurb: Deux fines gaufres avec une couche de sirop de caramel chaud entre elles.
+  text:
+  - Un stroopwafel est fait de deux fines gaufres croustillantes collées avec du sirop. Il vient de Gouda, vers 1800, où des boulangers le fabriquaient avec des miettes et du sirop de restes.
+  - Posez-en un sur votre café ou votre thé pendant une minute et le sirop ramollit. Sur les marchés, on peut en acheter tout chauds, sortis du fer.

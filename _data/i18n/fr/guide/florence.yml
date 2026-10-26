@@ -1,0 +1,99 @@
+# florence's guide in French (_data/about/florence.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Toscane
+- Environ 360 000 habitants (ville), près d’un million (ville métropolitaine)
+- 59 av. J.-C., comme colonie romaine de Florentia, selon la tradition
+- L’Arno
+- Italien
+- Le berceau de la Renaissance
+- Le centre historique, depuis 1982
+overview:
+- Florence se trouve dans une large vallée de l’Arno, cernée de collines d’oliveraies, de cyprès et de villas. Son centre historique est assez petit pour se traverser à pied en une demi-heure, et pourtant il contient la cathédrale et sa coupole, des dizaines d’églises, de palais et de musées, et quelques-unes des plus célèbres statues et peintures du monde. Le dialecte florentin est devenu la base de la langue italienne, grâce surtout à Dante.
+- Le centre, la partie que vous parcourez dans Instant Florence, se trouve surtout sur la rive nord du fleuve. La Via dei Calzaiuoli va tout droit de la cathédrale à la Piazza della Signoria, avec le Palazzo Vecchio et les Offices à côté ; Santa Maria Novella et la gare sont à l’ouest, Santa Croce à l’est. De l’autre côté du Ponte Vecchio se trouve l’Oltrarno, le quartier des ateliers d’artisans, du Palazzo Pitti et du jardin de Boboli.
+setting:
+- Florence se trouve dans le centre de l’Italie et est la capitale de la Toscane. L’Arno descend des Apennins, traverse la ville d’est en ouest et continue devant Pise jusqu’à la mer Tyrrhénienne, à environ 80 kilomètres. Fiesole, une ville étrusque plus ancienne, domine Florence depuis sa colline au nord, et le pays du vin du Chianti commence au sud.
+- 'Parce que la ville est dans une cuvette, les étés sont chauds et étouffants, et les hivers frais et humides. L’Arno peut monter vite après de fortes pluies : il a inondé la ville bien des fois, le pire en 1966.'
+today:
+- 'Florence vit du tourisme, de son université, de l’artisanat et de la mode : Gucci y fut fondé en 1921, Ferragamo a son siège dans un palais de la Via de’ Tornabuoni, et deux fois par an le salon Pitti Uomo amène le commerce de la mode masculine dans la ville. Des ateliers de maroquinerie et des orfèvres travaillent toujours dans l’Oltrarno et autour de Santa Croce.'
+- Les Florentins gardent leurs propres traditions. Le dimanche de Pâques, un char de feux d’artifice explose devant la cathédrale, le Scoppio del Carro, et en juin les quatre anciens quartiers jouent le calcio storico, un jeu de football brutal en costume, sur la Piazza Santa Croce. L’ACF Fiorentina, en violet, joue au Stadio Artemio Franchi.
+history:
+- title: Colonie romaine et commune médiévale
+  text:
+  - Les Romains fondèrent Florentia sur la rive nord de l’Arno, selon la tradition en 59 av. J.-C., comme ville pour soldats retraités. Le quadrillage de leurs rues se voit encore dans le centre, et la Piazza della Repubblica se trouve à l’emplacement de leur forum. Après la chute de Rome, la ville rétrécit, et elle ne grandit de nouveau qu’aux XIe et XIIe siècles, quand elle devint une commune autonome.
+  - Florence s’enrichit avec la laine, le drap et la banque. Ses corporations dirigeaient la ville, et sa pièce d’or, le florin, frappée pour la première fois en 1252, était acceptée dans toute l’Europe. Guelfes et Gibelins, les partis du pape et de l’empereur, se disputèrent le pouvoir, et en 1302 les vainqueurs envoyèrent le poète Dante en exil. La peste noire de 1348 tua peut-être la moitié des habitants de la ville.
+- title: Les Médicis et la Renaissance
+  text:
+  - 'Au XVe siècle, la famille de banquiers des Médicis en vint à gouverner la république dans l’ombre, d’abord Cosme l’Ancien puis son petit-fils Laurent le Magnifique. Eux et d’autres familles riches payèrent des bâtiments et des œuvres d’art qui rompaient avec le Moyen Âge : Brunelleschi éleva la coupole de la cathédrale, Donatello et Masaccio étudièrent l’art des Anciens, et Botticelli peignit la Naissance de Vénus.'
+  - Après la mort de Laurent, le frère Savonarole tourna la ville contre le luxe, jusqu’à ce qu’il soit lui-même brûlé sur la Piazza della Signoria en 1498. En 1504, le David de Michel-Ange fut érigé devant le Palazzo Vecchio. Les Médicis revinrent pour de bon au XVIe siècle, et Cosme Ier devint grand-duc de Toscane en 1569. Son architecte Giorgio Vasari construisit les Offices comme bureaux du gouvernement et le corridor qui les relie par-dessus le Ponte Vecchio au Palazzo Pitti.
+- title: Du grand-duché à l’Italie
+  text:
+  - 'Le dernier grand-duc Médicis mourut en 1737, et la Toscane passa à la maison de Lorraine. Sa sœur, Anne-Marie-Louise, légua les collections d’art de la famille à Florence à condition qu’elles ne quittent jamais la ville. En 1860, la Toscane vota son rattachement au nouveau royaume d’Italie, et de 1865 à 1871 Florence en fut la capitale. La capitale grandit vite : la ville démolit ses murs médiévaux et aménagea à leur place de larges avenues, les viali.'
+  - En août 1944, l’armée allemande en retraite fit sauter tous les ponts sur l’Arno sauf le Ponte Vecchio. Le 4 novembre 1966, le fleuve inonda le centre, tuant des dizaines de personnes et abîmant des milliers de tableaux et de livres ; des bénévoles du monde entier, les anges de la boue, vinrent les sauver. Aujourd’hui, la ville est l’une des plus visitées d’Italie.
+timeline:
+- - 59 av. J.-C.
+  - Les Romains fondent Florentia, selon la tradition
+- - '1252'
+  - Florence frappe son premier florin d’or
+- - '1296'
+  - Début des travaux de la cathédrale, Santa Maria del Fiore
+- - '1302'
+  - Dante est exilé de Florence
+- - '1436'
+  - La cathédrale est consacrée sous la coupole de Brunelleschi
+- - '1498'
+  - Savonarole est brûlé sur la Piazza della Signoria
+- - '1504'
+  - Le David de Michel-Ange est érigé devant le Palazzo Vecchio
+- - '1569'
+  - Cosme Ier de Médicis devient grand-duc de Toscane
+- - '1737'
+  - La lignée des Médicis s’éteint
+- - '1865'
+  - Florence devient la capitale de l’Italie, jusqu’en 1871
+- - '1944'
+  - Les troupes allemandes font sauter les ponts sur l’Arno, sauf le Ponte Vecchio
+- - '1966'
+  - L’Arno inonde la ville le 4 novembre
+places:
+  piazza-del-duomo:
+    blurb: La place autour de la cathédrale, du campanile de Giotto et du baptistère octogonal à ses portes de bronze doré.
+  via-dei-calzaiuoli:
+    blurb: La principale rue piétonne de Florence, de la cathédrale à la Piazza della Signoria en passant par l’église de corporation d’Orsanmichele, nommée d’après les bonnetiers qui y avaient leurs boutiques.
+  piazza-della-repubblica:
+    blurb: La place que la ville dégagea à partir des années 1880 sur le site du forum romain, de l’ancien marché et du ghetto juif, avec son arc de triomphe et ses vieux cafés.
+  piazza-della-signoria:
+    blurb: Le cœur politique de Florence depuis sept siècles, devant le Palazzo Vecchio, avec une copie du David de Michel-Ange à sa porte.
+  piazzale-degli-uffizi:
+    blurb: La longue cour étroite entre les deux ailes des Offices, que Vasari construisit à partir de 1560 comme bureaux du gouvernement des Médicis. Des statues de Toscans célèbres se dressent dans ses niches.
+  ponte-vecchio:
+    blurb: Le pont de 1345 bordé de boutiques, où en 1593 le grand-duc Ferdinand Ier remplaça les bouchers par des orfèvres.
+  arno:
+    name: L’Arno
+    blurb: Le fleuve de Florence, entre les quais de pierre des lungarni, traversé par le Ponte Vecchio et une série d’autres ponts.
+  ponte-santa-trinita:
+    blurb: Le gracieux pont d’Ammannati de 1569, détruit en 1944 et reconstruit en 1958 avec des pierres repêchées dans le fleuve.
+  via-tornabuoni:
+    blurb: La plus belle rue commerçante de Florence, bordée de maisons de mode et de palais Renaissance comme le Palazzo Strozzi.
+  piazza-santa-maria-novella:
+    blurb: La large place devant l’église dominicaine à la façade de marbre noir et blanc que Leon Battista Alberti acheva.
+  piazza-santissima-annunziata:
+    blurb: Une place calme d’arcades, avec la loge de Brunelleschi de l’Hôpital des Innocents, l’ancien hospice des enfants trouvés, sur un côté.
+  piazza-santa-croce:
+    blurb: La place devant l’église franciscaine où reposent Michel-Ange, Galilée et Machiavel. En juin, elle devient le terrain du calcio storico.
+  piazza-pitti:
+    blurb: La place en pente sous le Palazzo Pitti, le palais où s’installèrent les Médicis au XVIe siècle, avec le jardin de Boboli derrière.
+  piazza-santo-spirito:
+    blurb: La place de village de l’Oltrarno, devant l’église de Brunelleschi à la façade nue et inachevée, avec un marché le matin et des bars le soir.
+links:
+- title: Feel Florence
+  note: L’information touristique officielle de Florence
+- title: Comune di Firenze
+  note: La municipalité (en italien)
+- title: Galeries des Offices
+  note: Billets et horaires des Offices, du Palazzo Pitti et du jardin de Boboli
+- title: Centre historique de Florence sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Florence sur Wikipédia
+  note: L’article de l’encyclopédie

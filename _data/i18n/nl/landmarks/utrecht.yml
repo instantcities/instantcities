@@ -1,0 +1,22 @@
+# utrecht's landmarks in Dutch (_data/landmarks/utrecht.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+domtoren:
+  name: Domtoren
+  blurb: De hoogste kerktoren van Nederland, 112 meter gotische baksteen en natuursteen, alleenstaand sinds een storm het schip wegblies.
+domkerk:
+  name: Domkerk
+  blurb: 'Wat er rest van de gotische kathedraal van Utrecht: het koor en het transept, sinds de instorting van het schip in 1674 los van hun toren.'
+pandhof:
+  blurb: De stille kloostertuin naast de Domkerk, beplant met de kruiden van een middeleeuwse kloostertuin.
+oudegracht:
+  blurb: De middeleeuwse gracht van Utrecht, met werven aan het water en oude kelders onder de straat, nu vol cafés.
+janskerkhof:
+  blurb: Het lommerrijke plein rond de Janskerk, met elke zaterdag een bloemenmarkt.
+pieterskerk:
+  blurb: Een van de oudste kerken van Nederland, een romaanse kerk uit 1048 met een crypte onder het koor.
+speelklok:
+  blurb: Een museum van zelfspelende muziek, van speeldozen tot grote dansorgels, in de middeleeuwse Buurkerk.
+academiegebouw:
+  blurb: Het hoofdgebouw van de Universiteit Utrecht aan het Domplein, waar in 1579 de Unie van Utrecht werd getekend.
+paushuize:
+  blurb: Het huis aan de Kromme Nieuwegracht, gebouwd voor Adriaan van Utrecht, de enige Nederlandse paus.

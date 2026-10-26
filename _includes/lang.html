@@ -1,0 +1,21 @@
+{%- comment -%}
+  Every site page starts with this: L is the page's language (its `lang`, English when it has none),
+  T its words (_data/lang/<L>.yml), H what stays the same in every language (_data/home.yml). A
+  city's name in L is {{ T.cities[c.id].name | default: c.name }}, its country and card line the same;
+  its page {% include city-url.html city=c.id %}. Q and QA go after a link to the game (?lang=fr,
+  &lang=fr after another parameter), so that it starts in L; nothing in English.
+  On a page of a city (a `city`): C its block of _data/cities.yml, CN its name in L, DE "of CN" (%d in
+  _data/lang/<L>.yml: French "de Gand", "d'Avignon"), CT its page's words (_data/i18n/<L>/<city>.yml),
+  GT its guide's (.../guide/<city>.yml) and LMT its landmarks' (.../landmarks/<city>.yml), each nothing in
+  English, where the words are the data's own.
+{%- endcomment -%}
+{%- assign L = page.lang | default: 'en' -%}
+{%- assign T = site.data.lang[L] -%}
+{%- assign H = site.data.home -%}
+{%- if L == 'en' %}{% assign Q = '' %}{% assign QA = '' %}{% else %}{% assign Q = '?lang=' | append: L %}{% assign QA = '&lang=' | append: L %}{% endif -%}
+{%- if page.city -%}
+{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- assign CN = T.cities[C.id].name | default: C.name -%}
+{%- assign DE = CN -%}{%- if L == 'fr' %}{% assign cn1 = CN | slice: 0 | downcase %}{% if 'aeiouyh' contains cn1 %}{% assign DE = 'd’' | append: CN %}{% else %}{% assign DE = 'de ' | append: CN %}{% endif %}{% endif -%}
+{%- assign CT = site.data.i18n[L][C.id] -%}{%- assign GT = site.data.i18n[L].guide[C.id] -%}{%- assign LMT = site.data.i18n[L].landmarks[C.id] -%}
+{%- endif -%}

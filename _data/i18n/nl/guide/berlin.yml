@@ -1,0 +1,102 @@
+# berlin's guide in Dutch (_data/about/berlin.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Duitsland
+- Berlijn is een deelstaat op zich
+- Ongeveer 3,9 miljoen (stad), 6 miljoen (hoofdstedelijke regio Berlijn-Brandenburg)
+- Voor het eerst genoemd in 1237 (Cölln) en 1244 (Berlijn)
+- De Spree, die in het westen van de stad in de Havel uitkomt
+- Duits
+- Spree-Athen (Athene aan de Spree)
+- Museumeiland, sinds 1999
+overview:
+- Berlijn ligt op vlakke, zandige grond in het dal van de Spree, tussen meren en bossen. Het is een grote, uitgestrekte stad met meerdere centra, omdat Groot-Berlijn in 1920 tientallen steden en dorpen opslokte en omdat de stad veertig jaar in Oost en West gedeeld was, elk met een eigen hart.
+- Het centrum waar je in Instant Berlin doorheen rijdt, is het oude hart van de stad, de wijk Mitte. Vanaf de Brandenburger Tor en de Rijksdag loopt de boulevard Unter den Linden naar het oosten langs de Bebelplatz en de Staatsopera naar het Museumeiland in de Spree, waar de dom en het herbouwde koninklijk paleis staan. Ten zuiden van de Linden liggen het raster van de Friedrichstadt en de Gendarmenmarkt, en aan de overkant van de rivier markeren het Nikolaiviertel en de televisietoren waar Berlijn begon.
+setting:
+- Berlijn ligt in het noordoosten van Duitsland, op minder dan 100 kilometer van de Poolse grens, midden in de deelstaat Brandenburg. De Spree kronkelt door het centrum en komt bij Spandau in de Havel uit; de Havel, met haar keten van meren, vormt een groot deel van de westrand van de stad.
+- 'Parken, bossen en meren bedekken een groot deel van de stad: de Tiergarten ligt vlak naast de regeringswijk, en de Grunewald en de Müggelsee liggen aan de randen. Het klimaat is mild continentaal, met warme zomers en koude winters.'
+today:
+- Berlijn is de zetel van het Duitse parlement, de bondskanselier en de president, en, naar inwonertal binnen de stadsgrenzen, de grootste stad van de Europese Unie. De economie draait op overheid, diensten, wetenschap, toerisme en startups, en de universiteiten en het Charité-ziekenhuis trekken studenten en onderzoekers uit de hele wereld.
+- Berlijners staan bekend om hun botte humor, en de stad is bekend om haar clubs, galerijen en goedkope, internationale eten. Hertha BSC en Union Berlin zijn de twee grote voetbalclubs, en Berlijn is elke september gastheer van een van de grote marathons ter wereld.
+history:
+- title: Van handelssteden tot koninklijke hoofdstad
+  text:
+  - Berlijn begon als twee handelssteden aan weerszijden van de Spree, Cölln op het eiland en Berlijn op de oostoever, voor het eerst genoemd in 1237 en 1244. Ze deelden vanaf 1307 een stadhuis. In de 15e eeuw vestigden de Hohenzollern-keurvorsten van Brandenburg zich er en bouwden een paleis op het eiland, en de stad werd hun hoofdstad.
+  - De Dertigjarige Oorlog liet Berlijn half leeg achter. De Grote Keurvorst vulde het weer door hugenoten te verwelkomen die uit Frankrijk verdreven waren, en in 1701 kroonde zijn zoon zichzelf tot koning in Pruisen, wat Berlijn tot een koninklijke hoofdstad maakte. Frederik de Grote bouwde de opera en de gebouwen rond de Bebelplatz aan Unter den Linden, en in 1791 werd de Brandenburger Tor voltooid. Napoleon trok er in 1806 doorheen en nam de Quadriga mee naar Parijs; de Pruisen brachten haar in 1814 terug.
+- title: Keizerlijke hoofdstad en nazi-Berlijn
+  text:
+  - In 1871 werd Berlijn de hoofdstad van het nieuwe Duitse Keizerrijk en groeide uit tot een van de grote industriesteden van Europa, thuis van bedrijven als Siemens en AEG. In 1920 nam het zijn voorsteden op en vormde Groot-Berlijn, een stad van bijna vier miljoen mensen. In de jaren twintig, onder de Weimarrepubliek, was het een hoofdstad van film, theater, cabaret en wetenschap.
+  - In 1933 namen de nazi’s de macht over. Studenten verbrandden boeken op de Bebelplatz, het regime vervolgde zijn tegenstanders, en vanaf 1941 voerde het de joden van Berlijn weg naar getto’s en vernietigingskampen. Geallieerde bombardementen en de Sovjetaanval in het voorjaar van 1945 lieten het centrum in puin achter.
+- title: De gedeelde stad en de nieuwe hoofdstad
+  text:
+  - De overwinnaars verdeelden Berlijn in vier sectoren. Toen de Sovjets in 1948 de westelijke sectoren blokkeerden, bevoorraadden de westelijke geallieerden ze bijna een jaar lang door de lucht. In 1949 werd Oost-Berlijn de hoofdstad van de Duitse Democratische Republiek, en op 13 augustus 1961 sloot haar regering West-Berlijn af met wat uitgroeide tot de Berlijnse Muur.
+  - Op 9 november 1989, na weken van protest in het Oosten, ging de grens open en klommen Berlijners op de Muur bij de Brandenburger Tor. Duitsland werd op 3 oktober 1990 herenigd, en Berlijn werd opnieuw de hoofdstad. De Bondsdag trok in 1999 in de herbouwde Rijksdag, en de regeringswijk, de Potsdamer Platz en het herbouwde paleis op het Museumeiland vulden de gaten die de oorlog en de Muur hadden achtergelaten.
+timeline:
+- - '1237'
+  - Cölln, de tweelingstad van Berlijn, wordt voor het eerst genoemd
+- - '1701'
+  - Berlijn wordt de hoofdstad van het Koninkrijk Pruisen
+- - '1791'
+  - De Brandenburger Tor wordt voltooid
+- - '1871'
+  - Berlijn wordt de hoofdstad van het Duitse Keizerrijk
+- - '1920'
+  - Groot-Berlijn neemt de omliggende steden op
+- - '1933'
+  - De nazi’s nemen de macht over
+- - '1945'
+  - De Slag om Berlijn beëindigt de oorlog in Europa
+- - '1948'
+  - De Berlijnse luchtbrug begint
+- - '1961'
+  - Oost-Duitsland bouwt de Berlijnse Muur
+- - '1989'
+  - De Muur valt op 9 november
+- - '1990'
+  - Duitsland wordt herenigd en Berlijn is de hoofdstad
+- - '1999'
+  - De Bondsdag verhuist naar de Rijksdag
+places:
+  platz-der-republik:
+    blurb: Het grote grasveld voor de Rijksdag, de zetel van de Bondsdag, onder Norman Fosters glazen koepel.
+  pariser-platz:
+    blurb: Het plein binnen de Brandenburger Tor, met de Franse en Amerikaanse ambassades en het Hotel Adlon. Het dankt zijn naam aan de inname van Parijs door de geallieerden in 1814.
+  ebertstrasse:
+    blurb: De straat langs de rand van de Tiergarten van de Rijksdag langs de Brandenburger Tor naar de Potsdamer Platz. De Muur liep erlangs, en het Holocaustmonument ligt ernaast.
+  unter-den-linden:
+    blurb: De boulevard van de Brandenburger Tor naar het Museumeiland, waar de Grote Keurvorst in 1647 lindebomen liet planten, omzoomd met de Staatsopera, de Humboldt-universiteit en het oude Zeughaus.
+  friedrichstrasse:
+    blurb: De lange winkelstraat van de barokke Friedrichstadt, die Unter den Linden kruist. Verder naar het zuiden liep ze bij Checkpoint Charlie door de Muur.
+  wilhelmstrasse:
+    blurb: Een eeuw lang de straat van de Pruisische en Duitse regering, waar Bismarck en later Hitler hun kanselarij hadden. Nu staat er de Britse ambassade.
+  gendarmenmarkt:
+    blurb: Vaak het mooiste plein van Berlijn genoemd, met het Konzerthaus tussen de tweelingkerken, de Franse en de Duitse. Het dankt zijn naam aan een cavalerieregiment, de Gens d’armes, dat hier zijn stallen had.
+  bebelplatz:
+    blurb: Frederik de Grotes plein tussen de Staatsopera, de Sint-Hedwigskathedraal en de oude koninklijke bibliotheek. Een glasplaat in de bestrating kijkt neer op lege boekenplanken, ter herinnering aan de nazi-boekverbranding van 1933.
+  lustgarten:
+    blurb: Het gazon tussen het Altes Museum, de dom en het paleis, ooit de lusthof van de keurvorsten.
+  museumsinsel:
+    name: Museumeiland
+    blurb: Het noordelijke eind van het eiland in de Spree, waar Pruisen tussen 1830 en 1930 vijf musea bouwde, van het Altes Museum tot het Pergamon.
+  schlossplatz:
+    blurb: Het plein voor het paleis van de Hohenzollerns, dat de Oost-Duitse regering in 1950 opblies. Duitsland herbouwde de gevels voor het Humboldt Forum, geopend in 2021.
+  spree:
+    name: De Spree
+    blurb: Berlijns rivier, die zich splitst rond het eiland met het Museumeiland en het oude Cölln. Rondvaartboten varen erlangs, langs de dom en de Rijksdag.
+  nikolaiviertel:
+    blurb: De wijk rond de Nikolaikirche, de oudste kerk van Berlijn, waar de stad begon. Oost-Duitsland herbouwde haar voor het 750-jarig bestaan van de stad in 1987, deels met kopieën van verloren huizen.
+  karl-liebknecht-strasse:
+    blurb: De brede Oost-Duitse laan van de dom naar de Alexanderplatz, langs de middeleeuwse Marienkirche en de televisietoren.
+  alexanderplatz:
+    blurb: Het grote plein van Oost-Berlijn, genoemd naar het bezoek van tsaar Alexander I in 1805, met de Wereldtijdklok en de televisietoren ernaast.
+links:
+- title: visitBerlin
+  note: De officiële toeristische informatie van de stad
+- title: Berlin.de
+  note: Het officiële portaal van de stad en haar bestuur
+- title: Nationale Musea in Berlijn
+  note: Tickets en openingstijden van de musea op het Museumeiland
+- title: Museumsinsel (Museumeiland) op UNESCO
+  note: De Werelderfgoedlijst
+- title: Berlijn op Wikipedia
+  note: Het encyclopedieartikel

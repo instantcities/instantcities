@@ -1,0 +1,102 @@
+# paris's guide in French (_data/about/paris.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- France
+- Île-de-France
+- Environ 2,1 millions d’habitants (ville), plus de 12 millions (agglomération)
+- Ville romaine de Lutèce, au Ier siècle av. J.-C.
+- La Seine
+- Français
+- La Ville Lumière
+- Les berges de la Seine, depuis 1991
+overview:
+- 'Paris se trouve sur la Seine, dans le nord de la France, dans un large bassin peu élevé que l’on appelle le Bassin parisien. À l’intérieur de son périphérique, la ville est petite, environ 105 kilomètres carrés, et densément bâtie : des immeubles de six et sept étages bordent presque chaque rue, avec des commerces et des cafés au rez-de-chaussée.'
+- Instant Paris vous emmène dans la partie la plus ancienne de la ville. L’île de la Cité, l’île où Paris est née, porte Notre-Dame à son extrémité est, la Sainte-Chapelle et le Palais de Justice au milieu et le Pont Neuf à sa pointe ouest. Sur la rive droite, la rue de Rivoli longe le Louvre et l’Hôtel de Ville, et le Centre Pompidou s’élève quelques rues plus au nord ; sur la rive gauche, les ruelles du Quartier latin commencent derrière la place Saint-Michel.
+setting:
+- Paris est la capitale de la région Île-de-France, qui compte près d’un cinquième des habitants de la France. La Seine arrive du sud-est, se divise autour de deux îles au centre, l’île de la Cité et l’île Saint-Louis, et quitte la ville au sud-ouest en direction de la Manche, qu’elle rejoint au Havre. Les Parisiens parlent de la rive droite, au nord du fleuve, et de la rive gauche, au sud.
+- La ville est divisée en vingt arrondissements, numérotés en spirale à partir du Louvre et s’enroulant dans le sens des aiguilles d’une montre vers l’extérieur. Montmartre, au nord, en est la colline la plus haute. Paris a un climat océanique tempéré, avec des hivers frais, des étés doux et de la pluie tout au long de l’année.
+today:
+- 'Paris est le siège du président de la République, du gouvernement et du parlement, ainsi que d’organisations internationales comme l’UNESCO et l’OCDE. Sa région produit près d’un tiers de la richesse de la France, des banques des tours de La Défense, juste hors de la ville, à la mode, au luxe et au tourisme. C’est l’une des villes les plus visitées au monde, et pourtant le centre reste habité : les Parisiens font leurs courses aux marchés de rue, font la queue à la boulangerie et remplissent les terrasses de café en toute saison.'
+- 'La ville fait de la place aux piétons et aux cyclistes : les voies sur berge du centre sont fermées aux voitures, et la rue de Rivoli appartient surtout aux vélos. Depuis l’été 2025, les Parisiens peuvent de nouveau se baigner dans la Seine à quelques endroits. Le Paris Saint-Germain, le club de football de la ville, joue au Parc des Princes.'
+history:
+- title: Lutèce et les premiers rois
+  text:
+  - Une tribu celte, les Parisii, vivait sur les îles et les rives de la Seine quand les légions de Jules César conquirent la région en 52 av. J.-C. Les Romains bâtirent la ville de Lutèce sur la rive gauche, avec un forum, des thermes et des arènes qui existent encore, les Arènes de Lutèce. Au IVe siècle, la ville avait pris le nom de sa tribu, Paris, et vers 508 Clovis, roi des Francs, en fit sa capitale.
+  - En 987, Hugues Capet devint roi, et ses descendants firent définitivement de Paris la capitale de la France. Philippe Auguste ceignit la ville de remparts vers 1200 et bâtit une forteresse sur la rive droite, le premier Louvre. L’évêque Maurice de Sully commença Notre-Dame en 1163, et Louis IX fit construire la Sainte-Chapelle pour abriter la Couronne d’épines. Sur la rive gauche, maîtres et étudiants formèrent l’une des premières universités d’Europe.
+- title: Rois et révolutions
+  text:
+  - Henri IV acheva le Pont Neuf en 1607, le premier pont de Paris sans maisons, et dessina derrière lui la place Dauphine. Louis XIV agrandit le Louvre mais installa sa cour à Versailles en 1682, et les rois vécurent hors de Paris pendant les cent années suivantes.
+  - Le 14 juillet 1789, la foule prit la Bastille, une prison royale, et la Révolution française commença. Les révolutionnaires exécutèrent Louis XVI en 1793 sur l’actuelle place de la Concorde. Napoléon se couronna empereur à Notre-Dame en 1804 et commença les arcades de la rue de Rivoli. Dans les décennies qui suivirent, les Parisiens se soulevèrent encore contre leurs dirigeants en 1830 et en 1848.
+- title: La capitale moderne
+  text:
+  - À partir de 1853, Napoléon III et son préfet, le baron Haussmann, abattirent une grande partie de la ville médiévale surpeuplée. Leurs ouvriers percèrent de longs boulevards rectilignes comme le boulevard de Sébastopol, construisirent des égouts, des parcs et des gares, et bordèrent les nouvelles rues d’immeubles en pierre qui donnent encore à Paris son aspect. Sur l’île de la Cité, ils dégagèrent la plupart des vieilles maisons autour de Notre-Dame. Pendant la Commune de Paris en 1871, des incendies détruisirent l’Hôtel de Ville et le palais des Tuileries.
+  - Gustave Eiffel construisit sa tour pour l’Exposition universelle de 1889, et la première ligne du métro ouvrit en 1900. Les troupes allemandes occupèrent Paris de 1940 jusqu’à sa libération en août 1944. En 2019, un incendie détruisit la toiture et la flèche de Notre-Dame ; des artisans les reconstruisirent, et la cathédrale rouvrit en décembre 2024, l’année où Paris accueillit les Jeux olympiques pour la troisième fois.
+timeline:
+- - 52 av. J.-C.
+  - Les Romains conquièrent les Parisii ; Lutèce grandit sur la rive gauche
+- - vers 508
+  - Clovis fait de Paris la capitale des Francs
+- - '1163'
+  - Début des travaux de Notre-Dame
+- - '1248'
+  - La Sainte-Chapelle est consacrée
+- - '1607'
+  - Henri IV inaugure le Pont Neuf
+- - '1682'
+  - Louis XIV installe la cour à Versailles
+- - '1789'
+  - La foule prend la Bastille le 14 juillet
+- - '1853'
+  - Le baron Haussmann commence à rebâtir la ville
+- - '1889'
+  - La tour Eiffel ouvre pour l’Exposition universelle
+- - '1900'
+  - Ouverture de la première ligne du métro
+- - '1944'
+  - Paris est libérée en août
+- - '1977'
+  - Le Centre Pompidou ouvre
+- - '2024'
+  - Notre-Dame rouvre, cinq ans après l’incendie
+places:
+  seine:
+    name: La Seine
+    blurb: Le fleuve de Paris, entre des quais de pierre où les bouquinistes gardent leurs boîtes vertes. Ses berges à travers le centre sont classées au patrimoine mondial.
+  ile-de-la-cite:
+    blurb: L’île de la Seine où Paris est née, avec Notre-Dame, la Sainte-Chapelle et le palais de justice.
+  pont-neuf:
+    blurb: Malgré son nom, le « pont neuf » est le plus vieux pont de Paris, achevé en 1607 à la pointe ouest de l’île.
+  place-dauphine:
+    blurb: Un paisible triangle de maisons et de marronniers derrière le Pont Neuf, dessiné par Henri IV en 1607.
+  parvis-notre-dame:
+    name: Parvis Notre-Dame
+    blurb: La place ouverte devant la cathédrale, où une étoile de bronze dans le pavé marque le point à partir duquel les routes de France mesurent leur distance à Paris.
+  boulevard-du-palais:
+    blurb: La rue qui traverse l’île devant le Palais de Justice, dont la cour cache la Sainte-Chapelle.
+  place-du-chatelet:
+    blurb: Une place au bout du Pont au Change, avec une fontaine et deux théâtres face à face, et la Tour Saint-Jacques gothique à quelques pas.
+  place-de-l-hotel-de-ville:
+    blurb: La place devant la mairie, appelée place de Grève jusqu’en 1803 et qui, pendant des siècles, servit de lieu d’exécution de la ville.
+  rue-de-rivoli:
+    blurb: La longue rue rectiligne de la rive droite, commencée sous Napoléon, avec des arcades le long du Louvre et du jardin des Tuileries.
+  pont-des-arts:
+    blurb: La passerelle métallique du Louvre à l’Institut de France, avec une vue le long du fleuve jusqu’à la pointe de l’île.
+  boulevard-de-sebastopol:
+    blurb: L’un des premiers boulevards d’Haussmann, percé tout droit vers le nord à partir du Châtelet dans les années 1850.
+  place-georges-pompidou:
+    blurb: La place en pente devant le Centre Pompidou, avec ses tuyaux et ses escalators à l’extérieur.
+  place-saint-michel:
+    blurb: La place au pied du boulevard Saint-Michel, avec une fontaine de l’archange terrassant le diable, où commence le Quartier latin.
+  rue-de-la-huchette:
+    blurb: Une étroite ruelle médiévale du Quartier latin, pleine de restaurants grecs, avec un petit théâtre où l’on joue La Cantatrice chauve de Ionesco depuis 1957.
+links:
+- title: Paris je t’aime
+  note: L’office de tourisme officiel de Paris
+- title: Ville de Paris
+  note: La municipalité
+- title: Paris, rives de la Seine sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Musée du Louvre
+  note: Billets et horaires du Louvre
+- title: Paris sur Wikipédia
+  note: L’article de l’encyclopédie

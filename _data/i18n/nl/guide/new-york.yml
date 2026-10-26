@@ -1,0 +1,117 @@
+# new-york's guide in Dutch (_data/about/new-york.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- De Verenigde Staten
+- New York
+- Ongeveer 8,5 miljoen (stad), zo’n 20 miljoen in de metropoolregio
+- Manhattan, Brooklyn, Queens, de Bronx en Staten Island
+- Aan de monding van de Hudson, aan de Atlantische Oceaan; zo’n 330 km ten noordoosten van Washington
+- Van zeeniveau tot ongeveer 125 m; Midtown ligt op 15 tot 30 m
+- Engels, en honderden andere talen thuis gesproken
+- Wolkenkrabbers, Broadway, het Vrijheidsbeeld, Wall Street
+overview:
+- 'Manhattan is een eiland van zo’n 21 kilometer lang en op zijn breedst 4 kilometer, tussen de Hudson en de East River. In 1811 legde de stad er een raster overheen: twaalf avenues van noord naar zuid, en genummerde straten die ze van oost naar west kruisen, met alleen Broadway, het oude indianenpad, dat er schuin doorheen loopt. Downtown, op de zuidpunt, is de oude stad en Wall Street; Midtown, tussen ongeveer 34th en 59th Street, is het tweede zakendistrict, dat met de hoogste torens en de meeste bezienswaardigheden; Central Park ligt ten noorden ervan.'
+- 'Instant New York brengt je rond door Midtown: Seventh Avenue af door Times Square, over 34th Street naar het Empire State Building, Fifth Avenue op langs de bibliotheek en Bryant Park, over 42nd Street langs Grand Central naar het Chrysler Building, en terug over 49th Street langs Rockefeller Center. In het spel zijn, net als in de echte stad, de meeste auto’s gele taxi’s en de meeste avenues eenrichtingsverkeer.'
+setting:
+- New York groeide rond zijn haven, waar de Hudson de Atlantische Oceaan ontmoet, beschut achter Staten Island en Long Island. Alleen de Bronx ligt op het vasteland; Manhattan en Staten Island zijn eilanden, en Brooklyn en Queens liggen op het westelijke eind van Long Island. Honderden bruggen en tunnels verbinden ze, en Manhattans harde rotsbodem maakt dat de wolkenkrabbers er zo hoog en zo dicht bij elkaar kunnen staan.
+- Het klimaat kent hete, vochtige zomers en koude winters, met af en toe sneeuwstormen die de stad stilleggen. Er valt in elk seizoen regen, en in de late zomer en herfst bereikt de staart van een orkaan soms de stad.
+today:
+- New York is de grootste stad van de Verenigde Staten, met zo’n 8,5 miljoen mensen, van wie meer dan een derde in het buitenland geboren. Wall Street en Midtown herbergen banken, de beurzen, de grote mediabedrijven en het hoofdkwartier van de Verenigde Naties, en de metro vervoert dagelijks miljoenen mensen, de hele nacht door.
+- 'Bezoekers komen voor het uitzicht vanaf het Empire State Building en de Top of the Rock, de musea aan Fifth Avenue, de shows van Broadway, de lichten van Times Square, Central Park en de veerboot naar het Vrijheidsbeeld. In Midtown zijn de straten van ’s ochtends tot middernacht vol: kantoormedewerkers, toeristen, eetkarretjes op de hoeken en gele taxi’s die toeteren in het verkeer.'
+history:
+- title: Nieuw-Amsterdam
+  text:
+  - De Lenape leefden op het eiland dat ze Mannahatta noemden toen Giovanni da Verrazzano in 1524 de haven binnenzeilde en Henry Hudson in 1609 de rivier opvoer. De West-Indische Compagnie vestigde hier in 1624 een handelspost, en twee jaar later zou Peter Minuit Manhattan van de Lenape hebben gekocht voor goederen ter waarde van 60 gulden.
+  - Nieuw-Amsterdam groeide rond een fort op de zuidpunt, met een muur dwars over het eiland waar nu Wall Street loopt. In 1664 nam een Engelse vloot het zonder slag of stoot in, en het werd herdoopt tot New York, naar de hertog van York.
+- title: De haven van een continent
+  text:
+  - Na de Onafhankelijkheidsoorlog was New York kort de hoofdstad van de Verenigde Staten, en George Washington legde in 1789 op Wall Street de eed af als eerste president. In 1811 legde de stad het raster van straten aan dat Manhattan zou bedekken, lang voordat de huizen zo ver naar het noorden reikten.
+  - Het Eriekanaal, geopend in 1825, verbond de haven met de Grote Meren, en New York werd de grootste haven van Amerika. Miljoenen immigranten uit Ierland, Duitsland, Italië en Oost-Europa kwamen er binnen, vanaf 1892 via Ellis Island, en verdrongen zich in de huurkazernes van de Lower East Side.
+- title: Groot-New York
+  text:
+  - 'In 1898 voegden Manhattan, Brooklyn, Queens, de Bronx en Staten Island zich samen tot één stad. De eerste metrolijn opende in 1904, Grand Central Terminal in 1913, en de stad groeide omhoog: het Woolworth Building, het Chrysler Building en in 1931 het Empire State Building waren elk het hoogste gebouw ter wereld.'
+  - Na de Tweede Wereldoorlog vestigden de Verenigde Naties zich aan de East River, en New York werd het centrum van de kunstwereld en van de financiën. In de jaren 1970 ging de stad bijna failliet en waren veel straten verwaarloosd, maar ze herstelde in de jaren 1990.
+- title: Sinds 2001
+  text:
+  - Op 11 september 2001 vlogen terroristen twee vliegtuigen in de Twin Towers van het World Trade Center, die instortten en bijna 3.000 mensen doodden. One World Trade Center, het hoogste gebouw op het westelijk halfrond, opende in 2014 op die plek.
+  - 'Sindsdien heeft de stad meer van haar straten teruggegeven aan voetgangers en fietsers: Broadway door Times Square werd in 2009 afgesloten voor auto’s, fietspaden lopen langs de avenues, en oude spoorlijnen en pieren zijn parken geworden, zoals de High Line aan de West Side.'
+timeline:
+- - '1524'
+  - Giovanni da Verrazzano zeilt de haven binnen
+- - '1609'
+  - Henry Hudson vaart de naar hem genoemde rivier op
+- - '1624'
+  - 'De Nederlanders vestigen een handelspost: Nieuw-Amsterdam'
+- - '1664'
+  - De Engelsen nemen de stad in en noemen haar New York
+- - '1789'
+  - George Washington legt de eed af als president op Wall Street
+- - '1811'
+  - De stad legt het raster van Manhattans straten aan
+- - '1825'
+  - Het Eriekanaal verbindt de haven met de Grote Meren
+- - '1858'
+  - Begin van de aanleg van Central Park
+- - '1883'
+  - De Brooklyn Bridge opent
+- - '1886'
+  - Het Vrijheidsbeeld wordt in de haven onthuld
+- - '1898'
+  - De vijf stadsdelen voegen zich samen tot Groot-New York
+- - '1904'
+  - De eerste metro opent; Longacre Square wordt Times Square
+- - '1913'
+  - Grand Central Terminal opent
+- - '1931'
+  - Het Empire State Building opent
+- - '2001'
+  - De Twin Towers van het World Trade Center vallen op 11 september
+- - '2009'
+  - Broadway door Times Square wordt afgesloten voor auto’s
+places:
+  times-square:
+    blurb: Het kruispunt van Broadway en Seventh Avenue, onder zijn muren van schermen.
+  broadway:
+    blurb: Het oude pad dat het raster schuin doorsnijdt, door het theaterdistrict.
+  seventh-avenue:
+    blurb: De avenue door Times Square en het Garment District, eenrichtingsverkeer naar het zuiden.
+  fifth-avenue:
+    blurb: De statige avenue van winkels, de bibliotheek en de kathedraal, eenrichtingsverkeer naar het zuiden.
+  42nd-street:
+    blurb: De brede dwarsstraat van Times Square langs Grand Central naar het Chrysler Building.
+  empire-state:
+    blurb: De art-decotoren van 1931 aan 34th Street, 443 meter tot de top van zijn mast.
+  herald-square:
+    blurb: De driehoek waar Broadway Sixth Avenue kruist, voor Macy’s.
+  morgan-library:
+    blurb: De bibliotheek met oude boeken en manuscripten van bankier J. P. Morgan, aan Madison Avenue.
+  bryant-park:
+    blurb: Het gazon achter de bibliotheek, met groene stoelen en in de winter een schaatsbaan.
+  public-library:
+    name: New York Public Library
+    blurb: De marmeren bibliotheek van 1911, met haar twee stenen leeuwen.
+  grand-central:
+    blurb: Het station van 1913, met zijn hal onder een plafond vol sterren.
+  chrysler:
+    blurb: De art-decotoren met een kroon van stalen bogen.
+  park-avenue:
+    blurb: De avenue die over de sporen uit Grand Central is gebouwd, omzoomd met kantoortorens.
+  diamond-district:
+    name: Diamantwijk
+    blurb: Het blok van 47th Street waar de meeste diamanten van Amerika worden verhandeld.
+  rockefeller-center:
+    blurb: De art-decotorens rond het plein met de schaatsbaan.
+  st-patricks:
+    name: St. Patrick’s Cathedral
+    blurb: De gotische kathedraal aan Fifth Avenue, tegenover Rockefeller Center.
+  radio-city:
+    blurb: Het art-decotheater van 1932, thuis van de Rockettes.
+links:
+- title: NYC Tourism + Conventions
+  note: De officiële toeristische site van de stad
+- title: Empire State Building
+  note: Tickets voor de observatiedekken
+- title: New York Public Library
+  note: De bibliotheek aan Fifth Avenue en haar tentoonstellingen
+- title: New York op Wikipedia
+  note: Het encyclopedieartikel

@@ -1,0 +1,72 @@
+# florence's landmarks in French (_data/landmarks/florence.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+duomo:
+  blurb: La cathédrale de Florence, couronnée par la coupole de Brunelleschi, toujours la plus grande coupole en brique jamais construite.
+  text:
+  - Santa Maria del Fiore fut commencée en 1296, mais pendant plus d’un siècle personne ne sut comment couvrir son immense croisée. En 1420, Filippo Brunelleschi commença une coupole sans échafaudage depuis le sol, deux coques avec des briques posées en épi ; elle fut achevée en 1436.
+  - Ses tuiles rouges se dressent toujours sur chaque vue de la ville. Quelque 460 marches mènent entre ses deux coques jusqu’à la lanterne au sommet.
+campanile-di-giotto:
+  name: Campanile de Giotto
+  blurb: Le fin clocher à côté de la cathédrale, revêtu de marbre blanc, vert et rose.
+  text:
+  - Le peintre Giotto dessina le campanile et le commença en 1334 ; après sa mort, Andrea Pisano et Francesco Talenti l’achevèrent, haut d’environ 85 mètres. Comme la cathédrale, il est revêtu de marbre blanc de Carrare, vert de Prato et rose de la Maremme.
+  - Ses 414 marches n’ont pas d’ascenseur, mais la vue du sommet embrasse la coupole face à face.
+battistero:
+  name: Baptistère
+  blurb: Le baptistère octogonal aux portes de bronze de Ghiberti, que Michel-Ange appelait les portes du Paradis.
+  text:
+  - Le baptistère de San Giovanni est l’un des plus anciens bâtiments de la ville, son octogone de marbre rayé datant du XIe siècle. Tous les Florentins y étaient baptisés, Dante parmi eux.
+  - Ses portes est, que Lorenzo Ghiberti passa 27 ans à couler en bronze doré, montrent des histoires de l’Ancien Testament en dix panneaux ; Michel-Ange les aurait jugées dignes d’être les portes du Paradis. Celles en place sont des copies.
+piazza-della-signoria:
+  blurb: La place du Palazzo Vecchio, avec une copie du David de Michel-Ange à sa porte.
+  text:
+  - Depuis sept siècles, c’est la place politique de Florence, devant son hôtel de ville. C’est ici que le prédicateur Savonarole tint son bûcher des vanités en 1497, et il fut brûlé lui-même un an plus tard.
+  - 'Ses statues en font un musée en plein air : la copie du David de Michel-Ange, la fontaine de Neptune d’Ammannati et Cosme Ier à cheval.'
+palazzo-vecchio:
+  blurb: L’hôtel de ville de Florence, aux allures de forteresse, depuis 1299, avec sa haute tour sur le côté.
+  text:
+  - Le Palazzo Vecchio fut commencé en 1299 comme siège du gouvernement de la ville, une forteresse de pierre au sommet crénelé avec une tour de 94 mètres. Les Médicis y vécurent avant de passer l’autre côté du fleuve au Palazzo Pitti.
+  - C’est toujours l’hôtel de ville. À l’intérieur, la vaste salle des Cinq-Cents fut peinte par Vasari.
+loggia-dei-lanzi:
+  blurb: Une arcade ouverte sur la place, pleine de statues, dont le Persée de Cellini avec la tête de Méduse.
+  text:
+  - La loggia fut construite au XIVe siècle pour les cérémonies publiques ; elle tient son nom des lansquenets, les piquiers allemands de Cosme Ier qui y furent logés.
+  - 'Aujourd’hui, elle abrite des statues : le Persée de bronze de Benvenuto Cellini brandissant la tête de Méduse, et L’Enlèvement des Sabines de Giambologna, sculpté dans un seul bloc.'
+uffizi:
+  name: Offices
+  blurb: Les bureaux des Médicis devenus l’un des grands musées du monde, avec la Naissance de Vénus de Botticelli.
+  text:
+  - Giorgio Vasari construisit les Offices pour Cosme Ier de Médicis à partir de 1560, comme bureaux des magistrats de Florence, en un long U de la place jusqu’à l’Arno. Les Médicis en remplirent l’étage supérieur de leur collection d’art.
+  - Leur dernière héritière, Anne-Marie-Louise, légua tout à la ville en 1737 à condition que rien ne quitte Florence. Aujourd’hui, on y voit La Naissance de Vénus et Le Printemps de Botticelli, Léonard, Raphaël, Titien et le Caravage.
+ponte-vecchio:
+  blurb: Le pont des orfèvres sur l’Arno, le seul que les Allemands en retraite ont laissé debout en 1944.
+  text:
+  - Le Ponte Vecchio fut rebâti en pierre en 1345 après une crue, avec des boutiques des deux côtés. En 1593, les Médicis chassèrent les bouchers et les tanneurs et mirent des orfèvres à leur place.
+  - Au-dessus des boutiques court le corridor de Vasari, construit pour que les Médicis puissent aller du Palazzo Vecchio au Palazzo Pitti sans sortir. En 1944, les Allemands en retraite firent sauter tous les autres ponts de Florence et épargnèrent celui-ci.
+piazza-della-repubblica:
+  blurb: Là où était le forum romain, aujourd’hui une place avec un manège et de vieux cafés sous un arc de triomphe.
+  text:
+  - La place se trouve là où s’élevait le forum de la Florentia romaine, puis l’ancien marché et le ghetto juif, tout cela dégagé dans les années 1880 pour faire une grande place moderne avec un arc de triomphe.
+  - Ses vieux cafés, comme les Giubbe Rosse où se retrouvaient écrivains et artistes, et un manège en font un lieu de rendez-vous jour et nuit.
+santa-croce:
+  blurb: La grande église franciscaine où reposent Michel-Ange, Galilée et Machiavel.
+  text:
+  - Santa Croce fut commencée en 1294 pour les franciscains, l’une des plus grandes églises d’Italie. Ses chapelles furent peintes par Giotto.
+  - 'Tant de grands Florentins y reposent qu’on l’appelle le Temple des gloires italiennes : Michel-Ange, Galilée, Machiavel et Rossini, avec un mémorial à Dante, qui est enterré à Ravenne.'
+santa-maria-novella:
+  blurb: L’église dominicaine à la façade de marbre blanc et vert d’Alberti, près de la gare qui porte son nom.
+  text:
+  - Santa Maria Novella fut bâtie par les dominicains à partir du XIIIe siècle. Leon Battista Alberti acheva sa façade de marbre blanc et vert en 1470, un modèle pour les façades d’églises de la Renaissance.
+  - À l’intérieur se trouve La Trinité de Masaccio, l’un des premiers tableaux en perspective. Tout près, son ancienne pharmacie fabrique des parfums depuis 1612.
+il-porcellino:
+  name: Le Porcellino
+  blurb: 'Le sanglier de bronze du Mercato Nuovo : frottez-lui le nez et vous reviendrez à Florence.'
+  text:
+  - Le sanglier de bronze fut coulé par Pietro Tacca au XVIIe siècle d’après un sanglier de marbre antique. Les Florentins l’appellent le petit cochon.
+  - On dit que frotter son nez brillant vous ramène à Florence ; mettez une pièce dans sa gueule et laissez-la tomber par la grille pour la chance.
+bistecca:
+  name: La bistecca alla fiorentina
+  blurb: Un énorme T-bone steak, grillé sur la braise et servi saignant, au kilo.
+  text:
+  - La bistecca alla fiorentina est un T-bone steak coupé d’au moins trois doigts d’épaisseur, traditionnellement dans de la race Chianina, grillé sur de la braise ardente avec seulement du sel, du poivre et de l’huile d’olive.
+  - 'Elle est servie saignante, vendue au poids, et généralement partagée : un steak pèse bien plus d’un kilo.'

@@ -1,0 +1,122 @@
+# new-york's guide in French (_data/about/new-york.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- États-Unis
+- New York
+- Environ 8,5 millions d’habitants (ville), environ 20 millions dans l’agglomération
+- Manhattan, Brooklyn, Queens, le Bronx et Staten Island
+- À l’embouchure de l’Hudson, sur l’Atlantique ; à environ 330 km au nord-est de Washington
+- Du niveau de la mer à environ 125 m ; Midtown se trouve à 15 à 30 m d’altitude
+- Anglais, et des centaines d’autres langues parlées dans ses foyers
+- Gratte-ciel, Broadway, la statue de la Liberté, Wall Street
+overview:
+- 'Manhattan est une île d’environ 21 kilomètres de long et au plus 4 de large, entre l’Hudson et l’East River. En 1811, la ville y posa un quadrillage : douze avenues allant du nord au sud, et des rues numérotées les croisant d’est en ouest, avec seulement Broadway, l’ancienne piste indienne, qui les traverse en biais. Downtown, à la pointe sud, est la vieille ville et Wall Street ; Midtown, entre environ la 34e et la 59e Rue, est le second quartier d’affaires, celui des plus hautes tours et de la plupart des curiosités ; Central Park se trouve au nord.'
+- 'Instant New York vous fait faire le tour de Midtown : en descendant la Septième Avenue à travers Times Square, par la 34e Rue jusqu’à l’Empire State Building, en remontant la Cinquième Avenue devant la bibliothèque publique et Bryant Park, par la 42e Rue devant Grand Central jusqu’au Chrysler Building, et retour par la 49e Rue devant le Rockefeller Center. Dans le jeu, comme dans la vraie ville, la plupart des voitures sont des taxis jaunes, et la plupart des avenues sont à sens unique.'
+setting:
+- New York s’est développée autour de son port, là où l’Hudson rencontre l’Atlantique, abrité derrière Staten Island et Long Island. Seul le Bronx se trouve sur le continent ; Manhattan et Staten Island sont des îles, et Brooklyn et Queens se trouvent à l’extrémité ouest de Long Island. Des centaines de ponts et de tunnels les relient, et le dur socle rocheux de Manhattan est ce qui permet à ses gratte-ciel de s’élever si haut et si proches.
+- Le climat est celui d’étés chauds et humides et d’hivers froids, avec de temps à autre des tempêtes de neige qui paralysent la ville. La pluie tombe en toute saison, et en fin d’été et en automne la queue d’un ouragan l’atteint parfois.
+today:
+- New York est la plus grande ville des États-Unis, avec environ 8,5 millions d’habitants, dont plus d’un tiers nés à l’étranger. Wall Street et Midtown abritent des banques, les Bourses, les grandes entreprises de médias et le siège des Nations unies, et le métro transporte des millions de personnes par jour, toute la nuit.
+- 'Les visiteurs viennent pour la vue depuis l’Empire State Building et le Top of the Rock, les musées de la Cinquième Avenue, les spectacles de Broadway, les lumières de Times Square, Central Park et le ferry vers la statue de la Liberté. À Midtown, les rues sont pleines du matin à minuit : employés de bureau, touristes, chariots de nourriture aux coins des rues et taxis jaunes klaxonnant dans la circulation.'
+history:
+- title: La Nouvelle-Amsterdam
+  text:
+  - Le peuple lenape vivait sur l’île qu’il appelait Mannahatta quand Giovanni da Verrazzano entra dans la baie en 1524 et Henry Hudson remonta le fleuve en 1609. La Compagnie néerlandaise des Indes occidentales établit ici un comptoir en 1624, et deux ans plus tard Peter Minuit aurait acheté Manhattan aux Lenapes pour des marchandises valant 60 florins.
+  - La Nouvelle-Amsterdam grandit autour d’un fort à la pointe sud, avec un mur en travers de l’île là où passe aujourd’hui Wall Street. En 1664, une flotte anglaise la prit sans combat, et elle fut rebaptisée New York d’après le duc d’York.
+- title: Le port d’un continent
+  text:
+  - Après la guerre d’indépendance, New York fut brièvement la capitale des États-Unis, et George Washington prêta serment comme premier président sur Wall Street en 1789. En 1811, la ville dessina le quadrillage de rues qui couvrirait Manhattan, bien avant que les maisons n’atteignent le nord.
+  - Le canal Érié, ouvert en 1825, relia le port aux Grands Lacs, et New York devint le plus grand port d’Amérique. Des millions d’immigrants d’Irlande, d’Allemagne, d’Italie et d’Europe de l’Est y entrèrent, à partir de 1892 par Ellis Island, et s’entassèrent dans les immeubles du Lower East Side.
+- title: Le Grand New York
+  text:
+  - 'En 1898, Manhattan, Brooklyn, Queens, le Bronx et Staten Island s’unirent en une seule ville. La première ligne de métro ouvrit en 1904, Grand Central Terminal en 1913, et la ville grandit vers le haut : le Woolworth Building, le Chrysler Building et en 1931 l’Empire State Building furent chacun le plus haut bâtiment du monde.'
+  - Après la Seconde Guerre mondiale, les Nations unies s’installèrent sur l’East River, et New York devint le centre du monde de l’art et de la finance. Dans les années 1970, la ville fut presque en faillite et beaucoup de ses rues étaient délabrées, mais elle se redressa dans les années 1990.
+- title: Depuis 2001
+  text:
+  - Le 11 septembre 2001, des terroristes lancèrent deux avions contre les tours jumelles du World Trade Center, qui s’effondrèrent, tuant près de 3 000 personnes. One World Trade Center, le plus haut bâtiment de l’hémisphère occidental, ouvrit sur le site en 2014.
+  - 'Depuis, la ville a rendu plus de ses rues aux piétons et aux vélos : Broadway à travers Times Square fut fermé aux voitures en 2009, des pistes cyclables longent les avenues, et d’anciennes voies ferrées et jetées sont devenues des parcs, comme la High Line du West Side.'
+timeline:
+- - '1524'
+  - Giovanni da Verrazzano entre dans la baie
+- - '1609'
+  - Henry Hudson remonte le fleuve qui porte son nom
+- - '1624'
+  - 'Les Néerlandais établissent un comptoir : la Nouvelle-Amsterdam'
+- - '1664'
+  - Les Anglais prennent la ville et la rebaptisent New York
+- - '1789'
+  - George Washington prête serment comme président sur Wall Street
+- - '1811'
+  - La ville dessine le quadrillage des rues de Manhattan
+- - '1825'
+  - Le canal Érié relie le port aux Grands Lacs
+- - '1858'
+  - Début des travaux de Central Park
+- - '1883'
+  - Ouverture du pont de Brooklyn
+- - '1886'
+  - La statue de la Liberté est dévoilée dans la baie
+- - '1898'
+  - Les cinq arrondissements s’unissent en Grand New York
+- - '1904'
+  - Ouverture du premier métro ; Longacre Square devient Times Square
+- - '1913'
+  - Ouverture de Grand Central Terminal
+- - '1931'
+  - Ouverture de l’Empire State Building
+- - '2001'
+  - Les tours jumelles du World Trade Center tombent le 11 septembre
+- - '2009'
+  - Broadway à travers Times Square est fermé aux voitures
+places:
+  times-square:
+    blurb: Le croisement de Broadway et de la Septième Avenue, sous ses murs d’écrans.
+  broadway:
+    blurb: L’ancienne piste qui coupe le quadrillage en biais, à travers le quartier des théâtres.
+  seventh-avenue:
+    name: Septième Avenue
+    blurb: L’avenue à travers Times Square et le Garment District, à sens unique vers le sud.
+  fifth-avenue:
+    name: Cinquième Avenue
+    blurb: La grande avenue des boutiques, de la bibliothèque et de la cathédrale, à sens unique vers le sud.
+  42nd-street:
+    name: 42e Rue
+    blurb: La large rue transversale de Times Square devant Grand Central jusqu’au Chrysler Building.
+  empire-state:
+    name: Empire State Building
+    blurb: La tour Art déco de 1931 sur la 34e Rue, 443 mètres jusqu’au bout de son mât.
+  herald-square:
+    blurb: Le triangle où Broadway croise la Sixième Avenue, devant Macy’s.
+  morgan-library:
+    name: Morgan Library
+    blurb: La bibliothèque de livres anciens et de manuscrits du banquier J. P. Morgan, sur Madison Avenue.
+  bryant-park:
+    blurb: La pelouse derrière la bibliothèque, avec des chaises vertes et une patinoire en hiver.
+  public-library:
+    name: Bibliothèque publique de New York
+    blurb: La bibliothèque de marbre de 1911, avec ses deux lions de pierre.
+  grand-central:
+    blurb: La gare de 1913, avec son hall sous un plafond d’étoiles.
+  chrysler:
+    blurb: La tour Art déco à la couronne d’arcs d’acier.
+  park-avenue:
+    blurb: L’avenue construite au-dessus des voies ferrées sortant de Grand Central, bordée de tours de bureaux.
+  diamond-district:
+    name: Quartier du diamant
+    blurb: Le bloc de la 47e Rue où se négocient la plupart des diamants d’Amérique.
+  rockefeller-center:
+    blurb: Les tours Art déco autour de la place avec la patinoire.
+  st-patricks:
+    name: Cathédrale Saint-Patrick
+    blurb: La cathédrale gothique de la Cinquième Avenue, face au Rockefeller Center.
+  radio-city:
+    blurb: Le théâtre Art déco de 1932, domicile des Rockettes.
+links:
+- title: NYC Tourism + Conventions
+  note: Le site touristique officiel de la ville
+- title: Empire State Building
+  note: Billets pour les observatoires
+- title: Bibliothèque publique de New York
+  note: La bibliothèque de la Cinquième Avenue et ses expositions
+- title: New York sur Wikipédia
+  note: L’article de l’encyclopédie

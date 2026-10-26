@@ -12,16 +12,23 @@
 //                    `node tools/osm_map.mjs delft`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs delft`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs delft`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   nieuwe-kerk.js   the Nieuwe Kerk's tower, modelled by hand on core/js/arcade.js, in place of the map's blocks of it
+//   stadhuis.js      the Stadhuis with Het Steen behind it, in place of the map's blocks of them
+//   oude-kerk.js     the Oude Kerk's leaning tower, in place of the map's blocks of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { NIEUWE_KERK } from './nieuwe-kerk.js';
+import { STADHUIS } from './stadhuis.js';
+import { OUDE_KERK } from './oude-kerk.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...NIEUWE_KERK, ...STADHUIS, ...OUDE_KERK];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

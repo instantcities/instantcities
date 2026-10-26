@@ -1,0 +1,69 @@
+# brussels's landmarks in French (_data/landmarks/brussels.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+grand-place:
+  blurb: Des maisons de corporations et un hôtel de ville gothique autour de l’une des plus belles places d’Europe.
+  text:
+  - En 1695, l’armée française de Louis XIV bombarda Bruxelles et rasa presque tout autour de la Grand-Place sauf l’hôtel de ville. En quelques années, les corporations reconstruisirent leurs maisons en un riche baroque, chargé de statues dorées, de volutes et de pignons.
+  - La place est un site du patrimoine mondial. Un août sur deux, ses pavés disparaissent sous un tapis d’un million de bégonias.
+hotel-de-ville:
+  name: Hôtel de ville
+  blurb: L’hôtel de ville gothique et sa tour de 96 mètres, surmontée de saint Michel terrassant le dragon.
+  text:
+  - L’hôtel de ville fut construit au XVe siècle, sa fine tour achevée en 1455 par Jan van Ruysbroeck. Tout en haut, à quelque 96 mètres, un saint Michel doré, patron de la ville, terrasse le diable sous la forme d’un dragon.
+  - 'Regardez bien : la tour ne se dresse pas tout à fait au milieu de la façade, et les deux ailes ne sont pas pareilles.'
+maison-du-roi:
+  name: Maison du Roi
+  blurb: La maison néogothique face à l’hôtel de ville, qui abrite le musée de la Ville et la garde-robe du Manneken-Pis.
+  text:
+  - 'Aucun roi n’y a jamais logé : la Maison du Pain du Moyen Âge prit ce nom quand elle passa aux ducs de Brabant, qui régnaient aussi sur l’Espagne. Le bâtiment que l’on voit fut reconstruit en style néogothique à la fin du XIXe siècle.'
+  - Aujourd’hui, c’est le Musée de la Ville de Bruxelles, avec le Manneken-Pis original et une partie de sa garde-robe de costumes.
+manneken-pis:
+  name: Manneken-Pis
+  blurb: Un garçon de bronze d’à peine un demi-mètre, avec une garde-robe de plus de mille costumes.
+  text:
+  - 'Jérôme Duquesnoy l’Ancien coula le petit garçon de bronze en 1619 pour une fontaine qui fournissait de l’eau potable au quartier. Les légendes abondent sur son identité : un garçon qui sauva la ville en éteignant une mèche allumée, ou un petit seigneur perdu retrouvé en train de faire pipi.'
+  - La statue au coin de la rue est une copie ; l’original est au musée de la Ville. Il est habillé de costumes plusieurs fois par semaine, et les jours spéciaux il verse de la bière.
+galeries-saint-hubert:
+  blurb: L’une des premières galeries marchandes couvertes d’Europe, ouverte en 1847 sous une verrière.
+  text:
+  - 'Jean-Pierre Cluysenaar dessina la galerie, et le roi Léopold Ier l’inaugura en 1847 : plus de 200 mètres de boutiques, de cafés, d’un théâtre et d’un cinéma sous une longue verrière voûtée de verre et de fer.'
+  - Chocolatiers, libraires et gantiers tiennent toujours boutique dans ses trois galeries, celles du Roi, de la Reine et des Princes.
+bourse:
+  blurb: L’ancienne Bourse de 1873, sur un boulevard sans voitures depuis 2015.
+  text:
+  - La Bourse fut construite de 1868 à 1873 au-dessus de la Senne, qui venait d’être voûtée pour faire place aux grands boulevards. Sa façade de colonnes, de statues et de lions devait montrer la richesse de la jeune Belgique.
+  - En 2015, le boulevard devant elle fut fermé aux voitures, et depuis 2023 le bâtiment est le Belgian Beer World, un musée de la bière.
+cathedrale:
+  name: Cathédrale des Saints-Michel-et-Gudule
+  blurb: La cathédrale gothique de Bruxelles, sur la pente vers le haut de la ville, où se célèbrent les mariages royaux.
+  text:
+  - La cathédrale fut bâtie sur environ trois siècles, à partir de 1226, dans le style gothique brabançon, avec deux tours carrées sur sa façade blanche. Ses vitraux comptent des vitraux offerts par Charles Quint.
+  - C’est là que se tiennent les mariages royaux et les funérailles nationales de Belgique, et que l’on chante le Te Deum national.
+mont-des-arts:
+  blurb: Les escaliers et jardins entre le bas et le haut de la ville, avec une vue sur toute la ville.
+  text:
+  - Le Mont des Arts relie la vieille ville basse au quartier royal sur la colline. Son jardin classique et ses escaliers, aménagés dans les années 1950, montent entre la Bibliothèque royale et le centre de congrès Square.
+  - Du haut, la vue court par-dessus les toits jusqu’à la tour de l’hôtel de ville. Le musée Magritte et le musée des Instruments de musique, dans un grand magasin Art nouveau, sont tout près.
+sablon:
+  blurb: La place des antiquaires et des chocolatiers, au pied de l’église gothique Notre-Dame du Sablon.
+  text:
+  - Le Grand Sablon est bordé de magasins d’antiquités et des vitrines des plus grands chocolatiers de Bruxelles. Le week-end, un marché d’antiquités le remplit.
+  - Au-dessus se dresse l’église gothique tardive Notre-Dame du Sablon, célèbre pour ses hautes verrières ; de l’autre côté de la rue se trouve le petit jardin du Petit Sablon avec ses 48 statues de bronze des anciennes corporations.
+frites:
+  name: Les frites
+  blurb: De grosses frites frites deux fois dans de la graisse de bœuf, servies dans un cornet de papier avec de la mayonnaise.
+  text:
+  - Les Belges font frire leurs pommes de terre deux fois, d’abord pour les cuire à cœur puis à feu vif pour les rendre croustillantes, traditionnellement dans de la graisse de bœuf. On les mange dans un cornet de papier, avec de la mayonnaise ou l’une des dizaines de sauces.
+  - Chaque quartier a sa friterie, ou frietkot ; certaines des plus célèbres de Bruxelles se tiennent dans de petits kiosques sur des places.
+chocolat:
+  name: Le chocolat
+  blurb: La praline fut inventée à Bruxelles, dans les Galeries Saint-Hubert, en 1912.
+  text:
+  - En 1912, Jean Neuhaus, dans sa boutique des Galeries Saint-Hubert, remplit une coque de chocolat de crème et de noix et l’appela praline. En 1915, sa femme dessina la petite boîte, le ballotin, pour éviter qu’elles ne s’écrasent.
+  - Aujourd’hui, le Grand Sablon et les galeries sont bordés de chocolatiers, des vieilles maisons aux jeunes artisans.
+bd:
+  name: Les murs de la BD
+  blurb: Tintin, les Schtroumpfs et Lucky Luke peints sur les murs pignons de la vieille ville.
+  text:
+  - 'Bruxelles est la capitale de la bande dessinée : Hergé, le créateur de Tintin, y est né, et beaucoup de grandes BD sont sorties de la ville. Depuis 1991, plus de soixante murs pignons ont été peints de scènes de BD.'
+  - Une promenade dans la vieille ville vous fait passer devant Tintin et le capitaine Haddock sur un escalier de secours, Astérix, les Schtroumpfs et Lucky Luke. Le Musée de la Bande dessinée est dans un grand magasin Art nouveau de Victor Horta.

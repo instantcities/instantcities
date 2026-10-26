@@ -1,0 +1,80 @@
+# istanbul's landmarks in Dutch (_data/landmarks/istanbul.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+ayasofya:
+  name: Hagia Sophia
+  blurb: 'De grote kerk van Justinianus uit 537, met haar koepel op 55 meter hoogte: een kerk, dan een moskee, een museum en weer een moskee.'
+  text:
+  - Keizer Justinianus liet de Hagia Sophia, de kerk van de Heilige Wijsheid, in minder dan zes jaar bouwen, en ze was in 537 klaar. Haar koepel, 31 meter breed en 55 meter boven de vloer, lijkt te zweven op een ring van veertig ramen. Bijna duizend jaar lang was ze de grootste kerk ter wereld en het hart van het Byzantijnse Rijk.
+  - Toen Mehmed II de stad in 1453 innam, maakte hij er een moskee van, en de vier minaretten werden eromheen gezet. In 1934 maakte Atatürks republiek er een museum van, en in 2020 werd ze weer een moskee. Bezoekers mogen er buiten de gebedstijden nog binnen, om de mozaïeken van Christus en de keizers te zien naast de grote ronde schilden met de namen van God en de Profeet.
+sultanahmet-camii:
+  name: Blauwe Moskee
+  blurb: De moskee van sultan Ahmed I, met zes minaretten en zo’n twintigduizend blauwe tegels uit İznik vanbinnen.
+  text:
+  - Sultan Ahmed I liet de moskee van 1609 tot 1616 bouwen door architect Sedefkâr Mehmed Ağa, recht tegenover de Hagia Sophia aan de overkant van het plein. Haar koepels en halve koepels klimmen als een cascade omhoog naar de grote middenkoepel, en zes minaretten staan eromheen, evenveel als de Grote Moskee van Mekka toen had.
+  - Binnen geven meer dan twintigduizend met de hand beschilderde tegels uit İznik, met tulpen, anjers en cipressen, haar het blauwe licht en haar Nederlandse naam. Het is nog altijd een werkende moskee, tijdens gebedstijden gesloten voor bezoekers, en de Hippodroom ligt langs haar westkant.
+hipodrom:
+  name: Hippodroom
+  blurb: Het lange plein waar Byzantium zijn wagenrennen hield, met een Egyptische obelisk en een bronzen slangenzuil die er nog staan.
+  text:
+  - De Hippodroom van Constantinopel bood plaats aan wel honderdduizend mensen voor zijn wagenrennen, en zijn teams, de Blauwen en de Groenen, waren ook politieke partijen. In 532 verbrandden hun rellen, de Nika-opstand, de helft van de stad, en de Hagia Sophia werd erna herbouwd.
+  - 'Nu volgt het lange, open plein de lijn van de oude renbaan. Drie monumenten staan in het midden: de obelisk van farao Thoetmosis III, door Theodosius in 390 uit Egypte gebracht; de Slangenzuil, gegoten nadat de Grieken de Perzen bij Plataeae in 479 v.Chr. versloegen; en de Gemetselde Obelisk van ruwe steen. De Turken noemen het At Meydanı, het paardenplein.'
+yerebatan:
+  name: Basilicacisterne
+  blurb: Het ondergrondse waterreservoir van Justinianus, een woud van 336 zuilen in het water.
+  text:
+  - Onder de straten bij de Hagia Sophia ligt de grootste van de oude cisternes van de stad, in de 6e eeuw onder Justinianus gebouwd om water voor het paleis te bewaren. 336 marmeren zuilen, elk 9 meter hoog, dragen haar bakstenen gewelven, en veel ervan werden uit oudere gebouwen gehaald.
+  - De Turken noemen haar Yerebatan, het verzonken paleis. Bezoekers lopen op verhoogde paden over het water tussen de verlichte zuilen, naar de twee Medusahoofden, het ene op zijn zij en het andere ondersteboven, die als voet dienen voor twee ervan.
+topkapi:
+  name: Topkapıpaleis
+  blurb: Bijna vierhonderd jaar het paleis van de Ottomaanse sultans, op de punt van het schiereiland boven de Bosporus.
+  text:
+  - 'Mehmed II begon kort nadat hij Constantinopel in 1453 had ingenomen aan het paleis, op de punt waar de Gouden Hoorn de Bosporus ontmoet. Het is niet één gebouw maar een rij binnenplaatsen achter elkaar, elk privéder dan de vorige: de Keizerlijke Poort bij de Hagia Sophia, de Poort van de Begroeting met zijn twee torens, de raadszaal, de schatkamer en de harem, waar de sultan met zijn familie woonde.'
+  - De sultans woonden hier tot de jaren 1850, toen ze naar het Dolmabahçepaleis aan de Bosporus verhuisden. Sinds 1924 is het een museum, met de Topkapı-dolk, de Lepelaarsdiamant en de relikwieën van de Profeet. Het Gülhanepark, ooit de buitentuin, loopt de helling eronder af.
+kapalicarsi:
+  name: Grote Bazaar
+  blurb: Een van de oudste en grootste overdekte markten ter wereld, zo’n zestig straten en vierduizend winkels onder één dak.
+  text:
+  - De Grote Bazaar groeide rond twee koepelhallen die Mehmed II in de jaren 1450 en 1460 liet bouwen voor de handel in laken en juwelen. In de loop der eeuwen werden de straten ertussen overdekt, tot het een stad op zich werd, met moskeeën, fonteinen, cafés en eigen poorten.
+  - Nu verkopen zo’n vierduizend winkels goud, tapijten, lampen, leer en koper langs zo’n zestig overdekte straten. De poorten sluiten ’s avonds en op zondag. De Nuruosmaniye-moskee staat bij de oostelijke poort, en de Divan Yolu loopt er in het zuiden langs.
+misir-carsisi:
+  name: Kruidenbazaar
+  blurb: De L-vormige overdekte markt bij de Nieuwe Moskee, vol kruiden, gedroogd fruit, thee en Turks fruit.
+  text:
+  - De Kruidenbazaar werd in de jaren 1660 gebouwd als onderdeel van de Nieuwe Moskee, en zijn huuropbrengsten betaalden het onderhoud van de moskee. De Turkse naam, de Egyptische Bazaar, komt van de schepen uit Caïro waarvan de kruiden hier werden verkocht.
+  - Onder de lange gewelven liggen de kramen vol rode peper, sumak, saffraan, gedroogde abrikozen, vijgen, noten, thee en lokum, Turks fruit. De straten eromheen, tot aan de Gouden Hoorn, vormen de drukste marktwijk van de oude stad.
+yeni-cami:
+  name: Nieuwe Moskee
+  blurb: De grote moskee aan het water in Eminönü, begonnen in 1597 en 68 jaar later voltooid.
+  text:
+  - De Valide Sultan Safiye, moeder van Mehmed III, liet de moskee in 1597 beginnen aan de oever van de Gouden Hoorn. De werken stopten toen ze haar macht verloor, en het was een andere sultansmoeder, Turhan Hatice, die haar in 1665 liet voltooien. Daarom heet een moskee van meer dan driehonderd jaar oud nog altijd nieuw.
+  - Haar koepels en twee minaretten rijzen boven de veerbootkaaien van Eminönü uit, en de duiven op haar trappen en de kramen op haar binnenplaats maken haar tot een van de levendigste hoeken van de stad.
+galata-koprusu:
+  name: Galatabrug
+  blurb: De brug over de Gouden Hoorn van Eminönü naar Karaköy, met bovenop vissers en onderaan visrestaurants.
+  text:
+  - Hier overspant al sinds 1845 een brug de Gouden Hoorn, die de oude stad verbindt met Galata en Karaköy aan de overkant. De drijvende brug van 1912 brandde in 1992 af, en de huidige brug, met trams in het midden, opende in 1994.
+  - De hele dag staan hengelaars langs de leuningen met hun hengels boven het water, en op het onderdek, onder de weg, serveren restaurants vis aan mensen die uitkijken over het water. Aan de overkant van het water staat de Galatatoren boven de daken.
+sirkeci:
+  name: Station Sirkeci
+  blurb: Het eindpunt van de Orient Express uit Parijs, een station uit 1890 aan zee.
+  text:
+  - De Duitse architect August Jasmund bouwde station Sirkeci in 1890, in een mengeling van Europese en Ottomaanse stijlen, voor de treinen uit Europa. Het was de laatste halte van de Orient Express uit Parijs, en het restaurant Orient Express binnen herinnert er nog aan.
+  - Nu loopt de Marmaray-lijn vanuit een diep station eronder onder de Bosporus door naar Azië, rinkelt de tram T1 voor de voorgevel langs, en houden de oude hallen tentoonstellingen en, sommige avonden, de ceremonie van de draaiende derwisjen.
+cemberlitas:
+  name: Zuil van Constantijn
+  blurb: De zuil die Constantijn de Grote in 330 oprichtte voor de stichting van zijn nieuwe hoofdstad, bijeengehouden door ijzeren banden.
+  text:
+  - Toen Constantijn de Grote Byzantium in 330 tot zijn hoofdstad maakte, richtte hij deze zuil van rode porfier uit Egypte op midden op zijn nieuwe forum, met een standbeeld van zichzelf erbovenop. Het standbeeld viel in 1106 in een storm, en branden en aardbevingen deden de steen barsten.
+  - De ijzeren banden die de trommels bijeenhouden, geven haar haar Turkse naam, Çemberlitaş, de omringde steen. Ze staat aan de Divan Yolu, de oude hoofdstraat van de stad, waar de tram erbij stopt op weg naar de Grote Bazaar.
+simit:
+  name: Simit
+  blurb: De sesamring die vanuit rode karretjes op elke hoek wordt verkocht, gegeten bij het ontbijt met een glas thee.
+  text:
+  - Een simit is een ring brood gedoopt in druivenstroop en bedekt met sesamzaad, daarna buiten knapperig en binnen zacht gebakken. Verkopers dragen ze op schalen op hun hoofd of verkopen ze vanuit rode glazen karretjes op straathoeken en veerbootkaaien, voor een paar lira per stuk.
+  - Mensen in Istanbul eten hem bij het ontbijt of onderweg, met een glas zwarte thee, witte kaas of niets, en op de veerboten gooien ze de laatste stukjes naar de meeuwen die de boot volgen.
+vapur:
+  name: Veerboten
+  blurb: De witte veerboten die Istanbul over de Bosporus brengen tussen Europa en Azië, vanaf de kaaien van Eminönü.
+  text:
+  - Voor een stad op twee continenten is de veerboot de manier om naar je werk te gaan. Stoomveerboten steken de Bosporus al sinds de jaren 1850 over, en nu varen de witte boten van Şehir Hatları, de stadslijnen, van Eminönü, Karaköy en Beşiktaş aan de Europese kant naar Kadıköy en Üsküdar aan de Aziatische kant, in zo’n twintig minuten.
+  - Aan boord gaat een ober rond met glazen thee op een dienblad, en mensen staan aan de reling om naar de moskeeën op de heuvels en de paleizen langs het water te kijken. Langere tochten gaan de Bosporus op naar de Zwarte Zee, en naar de Prinseneilanden.

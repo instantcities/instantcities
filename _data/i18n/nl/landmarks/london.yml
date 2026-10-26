@@ -1,0 +1,78 @@
+# london's landmarks in Dutch (_data/landmarks/london.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+big-ben:
+  blurb: De grote klok in de klokkentoren van het parlement, een toren die nu Elizabeth Tower heet.
+  text:
+  - Big Ben is strikt genomen de naam van de klok van 13,7 ton in de toren, gegoten in 1858; de toren zelf werd in 2012 voor het diamanten jubileum van de koningin omgedoopt tot Elizabeth Tower. De klok, met vier wijzerplaten van zeven meter breed, geeft sinds 1859 de tijd aan.
+  - De slagen van de klok worden uitgezonden op de BBC, en met oudjaar luistert heel Groot-Brittannië ernaar.
+houses-of-parliament:
+  name: Parlementsgebouw
+  blurb: Het Palace of Westminster aan de Theems, na de brand van 1834 in gotische stijl herbouwd.
+  text:
+  - Koningen woonden vanaf de 11e eeuw in het Paleis van Westminster; vanaf de 16e was het het thuis van het Parlement. Bijna alles brandde in 1834 af, behalve Westminster Hall uit 1097.
+  - Charles Barry en Augustus Pugin herbouwden het in neogotische stijl, met meer dan duizend kamers, het Lagerhuis en het Hogerhuis, en de Victoria Tower aan het zuidelijke eind.
+westminster-abbey:
+  blurb: De kerk waar sinds 1066 de Engelse en Britse vorsten gekroond worden.
+  text:
+  - Elke kroning sinds die van Willem de Veroveraar met Kerstmis 1066 vond plaats in Westminster Abbey, het meest recent die van Karel III in 2023. De gotische kerk die we zien werd begonnen onder Hendrik III in 1245.
+  - Koningen en koninginnen liggen hier begraven, en in Poets’ Corner schrijvers van Chaucer tot Dickens; Isaac Newton en Charles Darwin liggen in het schip.
+trafalgar-square:
+  blurb: Nelson op zijn zuil, vier bronzen leeuwen en de National Gallery aan de noordkant.
+  text:
+  - Trafalgar Square werd in de jaren 1840 aangelegd ter herinnering aan admiraal Nelsons overwinning bij Trafalgar in 1805. Nelson staat op een zuil van zo’n 52 meter hoog, bewaakt door vier bronzen leeuwen van Edwin Landseer.
+  - Aan de noordkant staat de National Gallery. Het vierde voetstuk, ruim 150 jaar leeg, toont nu een wisselend werk van hedendaagse kunst.
+national-gallery:
+  blurb: De Britse verzameling Europese schilderkunst, gratis te bezoeken, aan de noordkant van Trafalgar Square.
+  text:
+  - De National Gallery opende in 1824 met 38 schilderijen en verhuisde in 1838 naar Trafalgar Square. Ze bezit nu zo’n 2.300 werken, van Van Eycks Arnolfini-portret tot Van Goghs Zonnebloemen.
+  - Net als Groot-Brittannië’s andere nationale musea is ze gratis te bezoeken.
+downing-street:
+  blurb: Nummer 10, sinds 1735 het huis van de Britse premiers, achter zwarte hekken aan Whitehall.
+  text:
+  - George II bood nummer 10 aan Robert Walpole aan, Groot-Brittannië’s eerste premier, die er in 1735 introk. Achter de beroemde zwarte deur met de koperen klopper ligt een huis dat veel groter is dan het lijkt.
+  - Sinds 1989 is de straat met hekken afgesloten. Er woont ook een kat, de Chief Mouser van het Cabinet Office.
+horse-guards:
+  blurb: Ruiters van de Household Cavalry staan elke dag op wacht aan Whitehall.
+  text:
+  - Horse Guards werd in de jaren 1750 gebouwd als toegang tot de koninklijke paleizen. Twee bereden soldaten van de Household Cavalry staan van tien tot vier uur op wacht bij de poort aan Whitehall, met gepluimde helmen en glanzende kuirassen.
+  - Erachter, op Horse Guards Parade, markeert Trooping the Colour elk jaar in juni de officiële verjaardag van de koning.
+london-eye:
+  blurb: Het reuzenrad aan de overkant van de Theems, gebouwd voor het jaar 2000.
+  text:
+  - Het London Eye opende bij de eeuwwisseling, 135 meter hoog, toen het hoogste reuzenrad ter wereld. De 32 glazen capsules doen er een half uur over om rond te gaan, langzaam genoeg om tijdens het draaien in en uit te stappen.
+  - Vanaf de top zie je heel Westminster onder je, en op een heldere dag zo’n veertig kilometer.
+westminster-bridge:
+  blurb: De groene brug over de Theems naast de Big Ben, geschilderd in de kleur van de banken van het Lagerhuis.
+  text:
+  - De huidige brug werd in 1862 geopend, van gietijzer op zeven bogen. Ze is groen geverfd, de kleur van de leren zetels in het Lagerhuis, de kant van het Parlement die er het dichtst bij ligt.
+  - Lambeth Bridge, aan het andere eind van het paleis, is rood, als de banken van het Hogerhuis.
+british-museum:
+  name: Het British Museum
+  blurb: Het eerste nationale openbare museum ter wereld, in Bloomsbury, met de Steen van Rosetta en de marmers van het Parthenon.
+  text:
+  - Het Parlement kocht in 1753 de verzameling van arts sir Hans Sloane en stichtte er het British Museum omheen; het opende in 1759. Sir Robert Smirkes neogriekse gebouw, met zijn gevel van ionische zuilen, werd in 1852 voltooid, en in 2000 overkapte Norman Foster zijn Great Court met glas.
+  - Het bezit zo’n acht miljoen objecten, onder meer de Steen van Rosetta, de Parthenonsculpturen en Ramses II, de Jonge Memnon. Net als Groot-Brittannië’s andere nationale musea is het gratis te bezoeken. Het staat ten noorden van het deel van Londen dat het spel in kaart brengt, maar je kunt toch drie van zijn zalen binnenlopen.
+black-cab:
+  name: Black cab
+  blurb: Londens taxi’s, hoog genoeg voor een man met hoge hoed, bestuurd door chauffeurs die elke straat uit hun hoofd kennen.
+  text:
+  - 'De black cab is gebouwd volgens Londens eigen regels: hoog genoeg, zegt men, om een heer zijn bolhoed te laten ophouden, en met een draaicirkel van slechts 25 voet, zodat hij kan keren in het smalle Savoy Court.'
+  - 'Om hun licentie te krijgen, besteden chauffeurs jaren aan het leren van The Knowledge: zo’n 25.000 straten en elk bezienswaardig punt binnen zes mijl van Charing Cross, zonder kaart.'
+double-decker:
+  name: Rode dubbeldekker
+  blurb: De rode bussen met twee verdiepingen die Londen vervoeren sinds de dagen van de paardenomnibus.
+  text:
+  - Londen laat dubbeldekkers rijden sinds paardenomnibussen in de 19e eeuw zitplaatsen op hun dak kregen. De Routemaster van 1956, met zijn open platform achterop, werd het embleem van de stad.
+  - De bussen van nu zijn nog steeds rood en nog steeds twee verdiepingen hoog. Vanaf de voorste zitplaatsen boven heb je het beste uitzicht van de stad voor de prijs van een buskaartje.
+red-phone-box:
+  name: Rode telefooncel
+  blurb: De rode gietijzeren telefooncellen van Giles Gilbert Scott, uit de jaren 1920 en 1930.
+  text:
+  - De rode telefooncel werd ontworpen door Giles Gilbert Scott, de K2 in 1924 en de kleinere K6 in 1935 voor het jubileum van koning George V. Tienduizenden werden in het hele land geplaatst.
+  - Weinig worden nog gebruikt om te bellen; veel zijn kleine bibliotheken, defibrillatorkasten of koffiekramen geworden, en een paar staan nog aan Whitehall.
+changing-the-guard:
+  name: De wisseling van de wacht
+  blurb: De ceremonie waarin de wacht van de koning wordt overgedragen aan de nieuwe wacht, in rode tunieken en berenmutsen.
+  text:
+  - Voor Buckingham Palace dragen de Foot Guards, in rode tunieken en hoge berenmutsen, de wacht over aan de volgende compagnie met een orkest dat speelt. Bij Horse Guards wordt de bereden wacht elke ochtend afgelost.
+  - De gardisten zijn werkende soldaten; ze mogen niet praten met de bezoekers die komen kijken.

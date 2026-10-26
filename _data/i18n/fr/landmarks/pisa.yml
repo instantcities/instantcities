@@ -1,0 +1,74 @@
+# pisa's landmarks in French (_data/landmarks/pisa.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+torre:
+  name: Tour de Pise
+  blurb: Le clocher de la cathédrale, qui a commencé à pencher avant la fin de son troisième étage et penche depuis, de quatre degrés environ aujourd’hui.
+  text:
+  - Pise commença le campanile de sa cathédrale en 1173. Quand les bâtisseurs atteignirent le troisième étage, l’argile et le sable meubles en dessous avaient cédé du côté sud et la tour s’était mise à pencher. Les travaux s’arrêtèrent pendant près d’un siècle, et lorsqu’ils reprirent, les bâtisseurs rendirent les étages supérieurs un peu plus hauts du côté bas pour la redresser, ce qui explique que la tour soit légèrement courbée. La chambre des cloches au sommet fut achevée vers 1372.
+  - La tour mesure environ 56 mètres de haut, avec 294 marches dans un escalier en colimaçon dans l’épaisseur du mur, et sept cloches au sommet. En 1990, elle penchait tant qu’elle fut fermée. Des ingénieurs extrayèrent du sol sous le côté haut, et en 2001 ils l’avaient redressée d’environ 40 centimètres, à quelque quatre degrés, sûre pour des siècles. Dans le jeu, elle se tient droite, car elle est dessinée d’après le contour et la hauteur d’OpenStreetMap.
+duomo:
+  name: Duomo de Pise
+  blurb: La cathédrale de marbre de 1064, payée avec le butin d’un raid sur Palerme, premier grand édifice du roman pisan.
+  text:
+  - Pise était l’une des grandes puissances maritimes de la Méditerranée lorsqu’elle commença sa cathédrale en 1064, avec le trésor que sa flotte avait pris à Palerme l’année précédente. L’architecte Buscheto la conçut en croix à cinq nefs, en marbre blanc et gris avec des rangées d’arcades, et Rainaldo l’allongea et ajouta la façade au XIIe siècle. Le pape Gélase II la consacra en 1118.
+  - À l’intérieur se trouvent la chaire sculptée de Giovanni Pisano, de 1302 à 1310, et la lampe de bronze qui, dit-on, fit réfléchir le jeune Galilée au balancement du pendule. La lampe actuelle fut suspendue quelques années après le moment où il aurait pu l’observer, mais l’histoire est restée.
+battistero:
+  name: Baptistère
+  blurb: Le plus grand baptistère d’Italie, rond et coiffé d’une coupole, où un gardien chante quelques notes toutes les demi-heures pour en faire entendre l’écho.
+  text:
+  - Diotisalvi commença le baptistère en 1152, devant la façade de la cathédrale. Il fallut deux siècles pour l’achever, si bien que ses étages inférieurs sont romans et ses étages supérieurs gothiques, avec des pinacles et des gables pointus ajoutés par Nicola et Giovanni Pisano. C’est le plus grand d’Italie, avec plus de 100 mètres de tour, et il penche lui aussi un peu, vers la cathédrale.
+  - Nicola Pisano sculpta sa chaire de marbre en 1260, l’une des premières œuvres de la nouvelle sculpture qui regardait vers la Rome antique. Sous la coupole, le son porte si bien qu’un gardien chante quelques notes toutes les demi-heures, et l’écho en fait un accord.
+camposanto:
+  blurb: Le cloître de marbre d’un cimetière au nord de la place, qui reposerait sur de la terre rapportée du Golgotha.
+  text:
+  - La légende dit que l’archevêque Ubaldo Lanfranchi rapporta des croisades des bateaux entiers de terre du Golgotha, et que le cimetière fut aménagé sur cette terre. Le long cloître de marbre autour de la pelouse fut commencé en 1278 par Giovanni di Simone, et les grandes familles de Pise y enterrèrent leurs morts dans des sarcophages romains.
+  - Ses murs étaient couverts de fresques, dont le Triomphe de la Mort. En juillet 1944, un obus mit le feu à la toiture, le plomb fondu coula le long des murs et la plupart des peintures furent ruinées. Les restaurateurs retirèrent ce qui restait et trouvèrent dessous les dessins préparatoires des artistes, les sinopie, aujourd’hui dans un musée à part de l’autre côté de la place.
+santa-maria-della-spina:
+  blurb: Une minuscule église gothique au bord de l’Arno, toute en pinacles et en statues, qui gardait autrefois une épine de la couronne du Christ.
+  text:
+  - Le petit oratoire du Lungarno Gambacorti fut bâti vers 1230 et transformé au XIVe siècle en l’église gothique hérissée que l’on voit aujourd’hui, couverte de pinacles, de tabernacles et de statues de l’atelier des Pisano. Elle doit son nom à une épine de la couronne d’épines du Christ, qui lui fut apportée en 1333.
+  - L’église se trouvait au ras de l’eau et l’Arno l’inondait sans cesse, si bien qu’en 1871 la ville la démonta pierre par pierre et la rebâtit un peu plus haut, sur la même rive.
+piazza-dei-cavalieri:
+  blurb: La place des chevaliers de Saint-Étienne, avec le palais peint de Vasari, aujourd’hui la Scuola Normale, et la tour où mourut de faim le comte Ugolin.
+  text:
+  - La place était le cœur politique de la Pise médiévale. Après la prise de la ville par Florence, Cosme Ier de Médicis en fit le siège de son nouvel ordre de chevaliers, les chevaliers de Saint-Étienne, fondé en 1561 pour combattre les pirates de la Méditerranée. Giorgio Vasari reconstruisit pour eux le Palazzo della Carovana, dont la façade est couverte de sgraffites noirs et blancs, et la statue de Cosme se dresse devant.
+  - Depuis 1810, le palais abrite la Scuola Normale Superiore, l’une des universités les plus sélectives d’Italie. Le Palazzo dell’Orologio, de l’autre côté de la place, englobe l’ancienne Torre della Muda, où le comte Ugolin della Gherardesca fut enfermé avec ses fils et petits-fils en 1289 et laissé mourir de faim, comme le raconte Dante dans l’Enfer.
+borgo-stretto:
+  blurb: La vieille rue commerçante de Pise sous les arcades, du Ponte di Mezzo vers le nord dans la ville médiévale.
+  text:
+  - Le Borgo Stretto va vers le nord depuis la Piazza Garibaldi, au bout du Ponte di Mezzo, dans la vieille ville. Ses maisons reposent sur des arcades, si bien que l’on fait ses courses et que l’on marche sous les portiques, devant des cafés, de vieilles pâtisseries et l’église San Michele in Borgo.
+  - Tout près se trouvent les places de marché, la Piazza delle Vettovaglie avec ses arcades et la Piazza San Omobono, où les étals de fruits et de légumes se dressent chaque matin.
+lungarni:
+  name: Les Lungarni
+  blurb: Les rues le long des deux rives de l’Arno, bordées de palais ocre et roses, illuminées de milliers de bougies chaque 16 juin.
+  text:
+  - L’Arno fait un large méandre au milieu de Pise, et ses deux rives sont bordées de rues, les Lungarni, et de palais jaunes, ocre et roses. Sur la rive nord courent le Lungarno Pacinotti et le Lungarno Mediceo ; sur la rive sud le Lungarno Gambacorti et le Lungarno Galilei, avec le Palazzo Blu, peint de la couleur que dit son nom.
+  - 'Le soir du 16 juin, veille de la fête du saint patron de la ville, Ranieri, Pise célèbre la Luminara : quelque 70 000 petites lumières sont posées le long des fenêtres, des corniches et des ponts, et tout le méandre du fleuve brille. Le lendemain, les quatre quartiers de la ville font la course en bateau sur l’Arno.'
+ponte-di-mezzo:
+  blurb: Le pont du milieu, où la ville traverse l’Arno depuis l’époque romaine, et où le nord et le sud de Pise s’affrontent chaque juin.
+  text:
+  - Il y a un pont ici depuis l’époque romaine, reliant la vieille ville de la rive nord au quartier de Kinzica au sud. Le pont de pierre du XVIIe siècle fut dynamité pendant la Seconde Guerre mondiale, et l’unique grande arche d’aujourd’hui l’a remplacé après la guerre.
+  - 'Le dernier samedi de juin, le pont accueille le Gioco del Ponte : les équipes de la rive nord, Tramontana, et de la rive sud, Mezzogiorno, poussent un lourd chariot sur un rail à travers le pont, chacune essayant de le chasser dans la moitié de l’autre.'
+logge-di-banchi:
+  name: Les Logge di Banchi
+  blurb: La loggia ouverte au sud du Ponte di Mezzo, bâtie vers 1605 pour les marchands de soie et de laine.
+  text:
+  - Le grand-duc Ferdinand Ier de Médicis fit bâtir la loggia entre 1603 et 1605, sur un dessin de Bernardo Buontalenti, comme marché couvert pour le commerce de la soie et de la laine. Ses grandes arcades sont ouvertes de tous côtés, juste là où le Corso Italia descend vers le fleuve.
+  - Aujourd’hui, elle abrite des marchés et des foires, et le soir les jeunes de Pise se retrouvent sous ses arcades et sur les marches près du pont.
+tuttomondo:
+  blurb: La dernière grande fresque de Keith Haring, peinte en 1989 sur le mur arrière du couvent de Sant’Antonio, près de la gare.
+  text:
+  - En juin 1989, l’artiste américain Keith Haring peignit Tuttomondo, « le monde entier », sur le mur arrière du couvent de l’église Sant’Antonio Abate. En quelques jours, il couvrit environ 180 mètres carrés d’une trentaine de ses figures colorées, reliées entre elles, sur la paix et l’harmonie dans le monde.
+  - Ce fut l’une des dernières œuvres publiques qu’il réalisa avant sa mort en février 1990, et l’une des rares destinées à durer. Elle se trouve sur le chemin de la gare au centre, si bien que beaucoup de visiteurs la croisent lors de leur première promenade en ville.
+gioco-del-ponte:
+  name: Le Gioco del Ponte
+  blurb: Le dernier samedi de juin, le nord et le sud de Pise poussent un chariot sur le Ponte di Mezzo, après un défilé en costumes de la Renaissance.
+  text:
+  - Le Jeu du Pont remonte aux batailles du Moyen Âge, quand les deux moitiés de la ville se battaient sur le Ponte di Mezzo avec des boucliers de bois. Aujourd’hui, la rive nord, Tramontana, et la rive sud, Mezzogiorno, alignent chacune six quartiers, et leurs équipes poussent un lourd chariot sur un rail posé en travers du pont.
+  - Le camp qui chasse le chariot dans la moitié de l’autre gagne la manche, et celui qui gagne le plus de manches remporte la journée. Avant le jeu, des centaines de personnes défilent le long des Lungarni en costumes et en armures de la Renaissance.
+cecina:
+  name: La cecina
+  blurb: Une fine galette dorée de farine de pois chiches, d’eau et d’huile d’olive, cuite dans une poêle de cuivre au four à bois et mangée chaude avec du poivre.
+  text:
+  - 'À Pise et le long de la côte jusqu’à Livourne, les pizzerias cuisent la cecina : une pâte de farine de pois chiches, d’eau, d’huile d’olive et de sel, versée fine dans une large poêle de cuivre et cuite dans un four très chaud jusqu’à ce que le dessus soit doré et l’intérieur encore moelleux.'
+  - Elle se sert en parts, chaude, avec du poivre noir, seule ou, comme à Livourne, dans un petit pain. Les Pisans la mangent en en-cas l’après-midi ou avant la pizza.

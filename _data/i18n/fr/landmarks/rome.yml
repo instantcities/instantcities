@@ -1,0 +1,25 @@
+# rome's landmarks in French (_data/landmarks/rome.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+colosseo:
+  name: Colisée
+  blurb: Le grand amphithéâtre de la Rome antique, inauguré en 80 apr. J.-C. pour des combats de gladiateurs devant quelque 50 000 personnes.
+pantheon:
+  name: Panthéon
+  blurb: Un temple de tous les dieux rebâti sous Hadrien, avec la plus grande coupole en béton non armé au monde.
+fontana-di-trevi:
+  name: Fontaine de Trevi
+  blurb: 'La plus grandiose fontaine de Rome : une pièce lancée par-dessus l’épaule promet que vous reviendrez.'
+piazza-navona:
+  blurb: Une longue place baroque sur le tracé du stade de Domitien, avec la fontaine des Quatre-Fleuves du Bernin.
+foro-romano:
+  name: Forum romain
+  blurb: 'Le cœur de la Rome antique : temples, basiliques et Curie du Sénat, dans un vallon entre les collines.'
+vittoriano:
+  blurb: L’immense monument de marbre blanc à Victor-Emmanuel II sur la Piazza Venezia, surnommé la machine à écrire.
+campo-de-fiori:
+  blurb: Une place animée avec un marché le matin et, au milieu, la statue encapuchonnée de Giordano Bruno.
+colonna-di-marco-aurelio:
+  name: Colonne de Marc Aurèle
+  blurb: Une colonne de marbre sculptée des guerres de l’empereur sur le Danube, debout sur la Piazza Colonna depuis le IIe siècle.
+largo-di-torre-argentina:
+  blurb: Quatre temples de la République en contrebas de la rue, à côté de l’endroit où Jules César fut assassiné.

@@ -1,0 +1,117 @@
+# pisa's guide in Dutch (_data/about/pisa.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Toscane
+- Pisa, waarvan het de hoofdstad is
+- Ongeveer 89.000 inwoners (stad)
+- De Arno, die zo’n 10 kilometer stroomafwaarts de zee bereikt
+- Italiaans
+- Sint Ranieri, feestdag 17 juni
+- De Piazza del Duomo, sinds 1987 op de UNESCO-lijst
+overview:
+- De oude stad van Pisa ligt aan beide oevers van de Arno, die er een brede bocht door het midden maakt. Ten noorden van de rivier strekt de middeleeuwse stad zich uit van de Lungarni tot aan de muren, met de Borgo Stretto en zijn arcades, de marktpleinen en de Piazza dei Cavalieri. In de noordwesthoek, tegen de muren, staan de Duomo, het Baptisterium, de klokkentoren en het Camposanto op hun grasveld. Ten zuiden van de rivier, in de oude wijk Kinzica, loopt de Corso Italia van de Logge di Banchi naar het station.
+- 'Instant Pisa brengt je door het hart ervan: van de Scheve Toren door de Via Santa Maria, de straat van de universiteit, naar de rivier, langs de Lungarni aan beide oevers, over de Ponte di Mezzo en de Ponte Solferino, langs Santa Maria della Spina en zuidwaarts over de Corso Italia naar het station. Het spel tekent de toren naar de omtrek en hoogte van OpenStreetMap, dus in het spel staat hij rechtop.'
+setting:
+- Pisa ligt in de vlakke vlakte van de benedenloop van de Arno, ongeveer 10 kilometer van de Tyrreense Zee, tussen Florence, 80 kilometer stroomopwaarts, en de haven van Livorno in het zuiden. In de Romeinse tijd en de middeleeuwen lag de zee veel dichterbij en had de stad haar haven aan de kust. De rivier heeft sindsdien zoveel slib aangevoerd dat de kust nu ver naar het westen ligt, voorbij de dennenbossen van San Rossore.
+- 'De grond onder de stad is zachte klei en zand, waardoor niet alleen de klokkentoren scheef staat: het Baptisterium en veel andere torens en kerken hellen ook. Het klimaat is mediterraan, met hete zomers en milde, regenachtige winters, en de Apuaanse Alpen en de Monti Pisani beschermen de vlakte tegen het noorden.'
+today:
+- 'Pisa is in de eerste plaats een universiteitsstad: met de Universiteit, de Scuola Normale en de school Sant’Anna telt het zo’n 50.000 studenten in een stad van minder dan 90.000 inwoners. Miljoenen bezoekers komen voor de Piazza dei Miracoli, velen voor een dag, per trein uit Florence of via de luchthaven Galileo Galilei, de drukste van Toscane, net ten zuiden van het centrum.'
+- 'De Pisanen vieren hun feesten in juni, de Giugno Pisano: de Luminara op de avond van 16 juni, als duizenden kaarsen de Lungarni verlichten, de bootrace van San Ranieri op de 17e, en het Gioco del Ponte op de laatste zaterdag van de maand, als het noorden en het zuiden van de stad om de Ponte di Mezzo vechten.'
+history:
+- title: Een zeerepubliek
+  text:
+  - Pisa was een Etruskische en daarna een Romeinse stad, met haar haven aan wat toen de kust was. In de 11e eeuw groeide het uit tot een van de vier grote zeerepublieken van Italië, samen met Genua, Venetië en Amalfi. De vloot streed tegen de Saracenen, plunderde Palermo in 1063, voer mee met de kruistochten en won handelsposten overal in de Middellandse Zee, van Sardinië en Corsica tot de Levant.
+  - 'Met de buit begon de stad in 1064 aan haar kathedraal, daarna aan het Baptisterium en de klokkentoren, en later het Camposanto. Pisaanse kooplieden brachten ook nieuwe kennis mee naar huis: Leonardo Fibonacci, de zoon van een Pisaanse ambtenaar in Noord-Afrika, introduceerde de Indisch-Arabische cijfers in Europa in zijn Liber Abaci van 1202.'
+- title: Nederlaag, en Florence
+  text:
+  - In 1284 vernietigde Genua de Pisaanse vloot in de slag bij Meloria, en Pisa herwon nooit meer zijn macht op zee. Graaf Ugolino della Gherardesca, na de nederlaag van verraad beschuldigd, werd in een toren aan de Piazza dei Cavalieri uitgehongerd, zoals Dante vertelt in de Inferno. De haven slibde dicht, en in 1406 nam Florence de stad in na een lang beleg.
+  - 'Pisa kwam in 1494 in opstand tegen Florence en hield het vijftien jaar vol voor het in 1509 opnieuw viel. Onder de Medici werd het een stad van geleerdheid: Cosimo I stichtte de universiteit opnieuw, richtte de Ridders van Sint-Stefanus op aan de Piazza dei Cavalieri en liet de botanische tuin aanleggen. Galileo Galilei werd in 1564 in Pisa geboren, studeerde aan de universiteit en gaf er wiskunde.'
+- title: Oorlog en de toren
+  text:
+  - 'Pisa werd in 1860 deel van het nieuwe Koninkrijk Italië. In de Tweede Wereldoorlog troffen geallieerde bommen de stad in 1943, en in de zomer van 1944 liep het front wekenlang langs de Arno: de terugtrekkende Duitsers bliezen de bruggen op, en een granaat stak het dak van het Camposanto in brand.'
+  - Na de oorlog herbouwde de stad haar bruggen en haar Lungarni. In 1990 stond de klokkentoren zo scheef dat hij voor bezoekers werd gesloten, en ingenieurs haalden elf jaar lang grond onder de hoge kant weg tot hij weer veilig stond; in 2001 ging hij weer open.
+timeline:
+- - '1063'
+  - De Pisaanse vloot plundert Palermo, en de buit betaalt de kathedraal
+- - '1064'
+  - Begin van de bouw van de Duomo
+- - '1118'
+  - Paus Gelasius II wijdt de Duomo in
+- - '1152'
+  - Diotisalvi begint aan het Baptisterium
+- - '1173'
+  - Begin van de bouw van de klokkentoren, die al snel begint te hellen
+- - '1202'
+  - Leonardo Fibonacci schrijft zijn Liber Abaci
+- - '1278'
+  - Begin van de bouw van het Camposanto
+- - '1284'
+  - Genua verslaat de Pisaanse vloot bij Meloria
+- - '1343'
+  - De paus sticht de Universiteit van Pisa
+- - '1406'
+  - Florence neemt Pisa in na een lang beleg
+- - '1561'
+  - Cosimo I de’ Medici sticht de Ridders van Sint-Stefanus
+- - '1564'
+  - Galileo Galilei wordt in Pisa geboren
+- - '1810'
+  - Napoleon sticht de Scuola Normale
+- - '1871'
+  - Santa Maria della Spina wordt afgebroken en een meter hoger herbouwd
+- - '1944'
+  - Het front loopt langs de Arno, de bruggen worden opgeblazen en het Camposanto brandt
+- - '1987'
+  - De Piazza del Duomo komt op de UNESCO-werelderfgoedlijst
+- - '1989'
+  - Keith Haring schildert Tuttomondo
+- - '1990'
+  - De Scheve Toren sluit voor bezoekers
+- - '2001'
+  - De toren gaat weer open, zo’n 40 centimeter rechtgezet
+places:
+  piazza-dei-miracoli:
+    blurb: Het kathedraalplein op zijn groene gazon, met de Duomo, het Baptisterium, de toren en het Camposanto.
+  torre:
+    name: De Scheve Toren
+    blurb: De klokkentoren van de kathedraal, die sinds de middeleeuwen zo’n vier graden helt.
+  battistero:
+    name: Baptisterium
+    blurb: Het grootste baptisterium van Italië, beroemd om zijn echo.
+  camposanto:
+    blurb: De marmeren kloostergang van de begraafplaats, waarvan de fresco’s in 1944 verbrandden.
+  via-santa-maria:
+    blurb: De straat van de universiteit, van de Duomo naar de Arno.
+  orto-botanico:
+    blurb: De botanische tuin van de universiteit, gesticht in 1544, een van de oudste van Europa.
+  piazza-dei-cavalieri:
+    blurb: Het plein van de Ridders van Sint-Stefanus en van de Scuola Normale.
+  borgo-stretto:
+    blurb: De oude winkelstraat onder de arcades.
+  arno:
+    blurb: De rivier die door het midden van de stad bocht, op weg van Florence naar de zee.
+  lungarno-gambacorti:
+    blurb: De zuidoever van de Arno, met Santa Maria della Spina en het Palazzo Blu.
+  ponte-di-mezzo:
+    blurb: De middelste brug, het slagveld van het Gioco del Ponte.
+  santa-maria-della-spina:
+    blurb: Het piepkleine gotische kerkje aan de rivieroever.
+  logge-di-banchi:
+    blurb: De open loggia van de zijde- en wolmarkt, aan de zuidkant van de Ponte di Mezzo.
+  corso-italia:
+    blurb: De winkelstraat van de zuidoever, afgesloten voor auto’s, van de rivier naar het station.
+  tuttomondo:
+    blurb: Keith Harings muurschildering uit 1989 op de muur van het klooster van Sant’Antonio.
+  stazione:
+    name: Pisa Centrale
+    blurb: Het hoofdstation, aan de lijn langs de kust en naar Florence.
+links:
+- title: Comune di Pisa
+  note: Het stadsbestuur (in het Italiaans)
+- title: Opera della Primaziale Pisana
+  note: 'De Piazza dei Miracoli: tickets voor de toren, de kathedraal en de musea'
+- title: Universiteit van Pisa
+  note: De universiteit, gesticht in 1343
+- title: Pisa op Wikipedia
+  note: Het encyclopedie-artikel

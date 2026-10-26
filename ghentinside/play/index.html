@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#1d1a17">
-  <title>Instant Ghent Inside: a free 3D game in St Bavo's Cathedral, St Nicholas' Church and Ghent's City Hall</title>
+  <title>Instant Ghent Inside: a free virtual 3D tour and game in St Bavo's Cathedral, St Nicholas' Church and Ghent's City Hall</title>
   <meta name="description" content="Ride, walk or gallop through the insides of Ghent in 3D: St Bavo's Cathedral with the Ghent Altarpiece, St Nicholas' Church and the City Hall with its Pacification Hall. Free, nothing to install.">
   <link rel="canonical" href="https://instantcities.net/ghentinside/play/">
   <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Instant Cities">
   <meta property="og:url" content="https://instantcities.net/ghentinside/play/">
-  <meta property="og:title" content="Instant Ghent Inside: play in St Bavo's, St Nicholas' and the City Hall">
+  <meta property="og:title" content="Instant Ghent Inside: a virtual 3D tour of St Bavo's, St Nicholas' and the City Hall">
   <meta property="og:description" content="Ride through St Bavo's Cathedral up to the Ghent Altarpiece, through St Nicholas' Church and Ghent's City Hall. Free, in your browser.">
   <meta property="og:image" content="https://instantcities.net/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -24,7 +24,7 @@
   <meta property="og:locale" content="en_GB">
   <meta property="og:locale:alternate" content="nl_BE">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Instant Ghent Inside: play in St Bavo's, St Nicholas' and the City Hall">
+  <meta name="twitter:title" content="Instant Ghent Inside: a virtual 3D tour of St Bavo's, St Nicholas' and the City Hall">
   <meta name="twitter:description" content="Ride through St Bavo's Cathedral up to the Ghent Altarpiece, through St Nicholas' Church and Ghent's City Hall. Free, in your browser.">
   <meta name="twitter:image" content="https://instantcities.net/og-image.jpg">
   <script type="application/ld+json">
@@ -64,6 +64,20 @@
   <script>
     const watch = new URLSearchParams(location.search).get('watch');
     if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
+  </script>
+  <!-- Google Analytics (gtag.js), only on the real site (not on localhost or the Netlify previews) and not
+       in the ?watch tour that the site's own pages show, which counts its page already -->
+  <script>
+    if (location.hostname === 'instantcities.net' && watch == null) {
+      const ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-GPP2SZPD0E';
+      document.head.append(ga);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-GPP2SZPD0E');
+    }
   </script>
 </head>
 <body class="booting">
@@ -235,7 +249,7 @@
         <div class="row" data-row="city">
           <div class="dropdown" id="cityOpts">
             <button class="chip" id="cityBtn" aria-haspopup="listbox" aria-expanded="false"><span class="ico"></span><span data-i18n="menu.city"></span> ▾</button>
-            <div class="dd-list hidden" id="cityList" role="listbox"><a class="chip" role="option" href="../../paris/play/">Paris</a><a class="chip" role="option" href="../../rome/play/">Rome</a><a class="chip" role="option" href="../../london/play/">London</a><a class="chip" role="option" href="../../venice/play/">Venice</a><a class="chip" role="option" href="../../barcelona/play/">Barcelona</a><a class="chip" role="option" href="../../amsterdam/play/">Amsterdam</a><a class="chip" role="option" href="../../florence/play/">Florence</a><a class="chip" role="option" href="../../prague/play/">Prague</a><a class="chip" role="option" href="../../vienna/play/">Vienna</a><a class="chip" role="option" href="../../berlin/play/">Berlin</a><a class="chip" role="option" href="../../madrid/play/">Madrid</a><a class="chip" role="option" href="../../copenhagen/play/">Copenhagen</a><a class="chip" role="option" href="../../brussels/play/">Brussels</a><a class="chip" role="option" href="../../bruges/play/">Bruges</a><a class="chip" role="option" href="../../antwerp/play/">Antwerp</a><a class="chip" role="option" href="../../avignon/play/">Avignon</a><a class="chip" role="option" href="../../salerno/play/">Salerno</a><a class="chip" role="option" href="../../siena/play/">Siena</a><a class="chip" role="option" href="../../pisa/play/">Pisa</a><a class="chip" role="option" href="../../utrecht/play/">Utrecht</a><a class="chip" role="option" href="../../rotterdam/play/">Rotterdam</a><a class="chip" role="option" href="../../delft/play/">Delft</a><a class="chip" role="option" href="../../lecce/play/">Lecce</a><a class="chip" role="option" href="../../ghent/play/">Ghent</a></div>
+            <div class="dd-list hidden" id="cityList" role="listbox"><a class="chip" role="option" href="../../paris/play/">Paris</a><a class="chip" role="option" href="../../rome/play/">Rome</a><a class="chip" role="option" href="../../london/play/">London</a><a class="chip" role="option" href="../../new-york/play/">New York</a><a class="chip" role="option" href="../../venice/play/">Venice</a><a class="chip" role="option" href="../../barcelona/play/">Barcelona</a><a class="chip" role="option" href="../../istanbul/play/">Istanbul</a><a class="chip" role="option" href="../../amsterdam/play/">Amsterdam</a><a class="chip" role="option" href="../../san-francisco/play/">San Francisco</a><a class="chip" role="option" href="../../florence/play/">Florence</a><a class="chip" role="option" href="../../prague/play/">Prague</a><a class="chip" role="option" href="../../vienna/play/">Vienna</a><a class="chip" role="option" href="../../berlin/play/">Berlin</a><a class="chip" role="option" href="../../madrid/play/">Madrid</a><a class="chip" role="option" href="../../copenhagen/play/">Copenhagen</a><a class="chip" role="option" href="../../brussels/play/">Brussels</a><a class="chip" role="option" href="../../bruges/play/">Bruges</a><a class="chip" role="option" href="../../antwerp/play/">Antwerp</a><a class="chip" role="option" href="../../avignon/play/">Avignon</a><a class="chip" role="option" href="../../salerno/play/">Salerno</a><a class="chip" role="option" href="../../siena/play/">Siena</a><a class="chip" role="option" href="../../pisa/play/">Pisa</a><a class="chip" role="option" href="../../utrecht/play/">Utrecht</a><a class="chip" role="option" href="../../rotterdam/play/">Rotterdam</a><a class="chip" role="option" href="../../delft/play/">Delft</a><a class="chip" role="option" href="../../lecce/play/">Lecce</a><a class="chip" role="option" href="../../ghent/play/">Ghent</a></div>
           </div>
         </div>
         <div class="row" data-row="style">

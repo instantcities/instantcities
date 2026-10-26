@@ -1,16 +1,22 @@
-{%- comment -%} A city's page (/<id>/): its block in _data/cities.yml, named by the page's `city`. The game itself is at /<id>/play/. A city marked `soon` has no game yet: its page says so and points to the ones there are. {%- endcomment -%}
-{%- assign C = site.data.cities | where: 'id', page.city | first -%}
-{%- assign H = site.data.home -%}
+{%- comment -%}
+  A city's page, in each language (/en/ghent/, /fr/gand/, /nl/gent/: a page saying `layout: city`,
+  `city: <id>`, its `lang` and `ref: city`, written by node tools/langpages.mjs; /<id>/ only sends a
+  visitor on to their language). Its block in _data/cities.yml, named by the page's `city`; in French
+  and Dutch its words come from _data/i18n/<lang>/<id>.yml (the landmarks' names and blurbs too), and
+  whatever that leaves out stays English. The game itself is at /<id>/play/ (with ?lang= in French
+  and Dutch). A city marked `soon` has no game yet: its page says so and points to the ones there are.
+{%- endcomment -%}
+{%- include lang.html -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
 {%- if C.soon -%}
-{%- assign title = C.name | append: ' in 3D: coming soon to Instant Cities' -%}{%- assign description = C.card -%}{%- assign noindex = true -%}
+{%- assign title = T.city_soon_title | replace: '%c', CN -%}{%- assign description = T.cities[C.id].card | default: C.card -%}{%- assign noindex = true -%}
 {%- else -%}
-{%- assign title = C.title -%}{%- assign description = C.description -%}
+{%- assign title = CT.title | default: C.title -%}{%- assign description = CT.description | default: C.description -%}
 {%- endif -%}
-{%- assign path = '/' | append: C.id | append: '/' -%}
+{%- assign path = page.url -%}
 {%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
 {%- unless C.soon %}
@@ -19,15 +25,15 @@
       "@context": "https://schema.org",
       "@type": "VideoGame",
       "name": {{ C.game | jsonify }},
-      "url": "{{ site.url }}/{{ C.id }}/play/",
-      "description": {{ C.description | jsonify }},
+      "url": "{{ site.url }}/{{ C.id }}/play/{{ Q }}",
+      "description": {{ description | jsonify }},
       "genre": ["Racing", "Open world"],
       "gamePlatform": "Web browser",
       "applicationCategory": "Game",
       "operatingSystem": "Any",
-      "inLanguage": ["en"],
+      "inLanguage": ["en", "nl", "fr", "de", "es", "it"],
       "playMode": ["SinglePlayer", "MultiPlayer"],
-      "contentLocation": { "@type": "City", "name": {{ C.name | jsonify }} },
+      "contentLocation": { "@type": "City", "name": {{ CN | jsonify }} },
       "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
     }
@@ -35,67 +41,67 @@
 {%- endunless %}
 </head>
 <body{% unless C.soon %} class="over-live"{% endunless %}>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
     {%- if C.soon %}
     <section class="hero home-hero page-hero">
       <div class="hero-text">
-        <h1>{{ C.name }} <span class="beta">COMING SOON</span></h1>
-        <p class="tagline">{{ C.card }}</p>
-        <p class="lead">There is no game of {{ C.name }} yet: we are still building it. In the meantime, ride through one of these:</p>
+        <h1>{{ CN }} <span class="beta">{{ T.coming_soon | upcase }}</span></h1>
+        <p class="tagline">{{ T.cities[C.id].card | default: C.card }}</p>
+        <p class="lead">{{ T.city_soon_lead | replace: '%c', CN }}</p>
         <p class="city-links centred">
           {%- for c in playable %}
-          <a class="play small" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ c.name }}</a>
+          <a class="play small" href="/{{ c.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.cities[c.id].name | default: c.name }}</a>
           {%- endfor %}
         </p>
-        <p class="note"><a href="/cities/">All cities</a></p>
+        <p class="note"><a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
       </div>
     </section>
     {%- else %}
     <section class="hero home-hero live-hero">
       {%- assign still = C.poster | default: C.image %}{% if still %}{% assign poster = '/assets/img/' | append: still | append: '.jpg' %}{% else %}{% assign poster = nil %}{% endif %}
-      {% include live.html city=C.id poster=poster %}
+      {% include live.html city=C.id poster=poster lang=QA %}
       <div class="hero-text">
         <h1>{{ C.game }} <span class="beta">BETA</span></h1>
-        <p class="tagline">{{ C.tagline }}</p>
-        <p class="lead">{{ C.lead }}</p>
+        <p class="tagline">{{ CT.tagline | default: C.tagline }}</p>
+        <p class="lead">{{ CT.lead | default: C.lead }}</p>
         <p class="hero-btns">
-          <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play now</a>
-          <a class="watch" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+          <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_now }}</a>
+          <a class="watch" href="/{{ C.id }}/play/?watch=cards{{ QA }}">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
         </p>
-        <p class="note">{{ H.play_note }}</p>
+        <p class="note">{{ T.play_note }}</p>
       </div>
     </section>
 
     {%- assign G = site.data.about[C.id] %}
     <section id="features" class="features">
-      <h2>What there is to do</h2>
+      <h2>{{ T.city_todo }}</h2>
       <div class="grid">
-        {%- for f in C.features %}
+        {%- for f in C.features %}{% assign ft = CT.features[forloop.index0] %}
         <article class="card">
           <div class="icon">{% include icon.html name=f.icon %}</div>
-          <h3>{{ f.title }}</h3>
-          <p>{{ f.text }}</p>
+          <h3>{{ ft.title | default: f.title }}</h3>
+          <p>{{ ft.text | default: f.text }}</p>
         </article>
         {%- endfor %}
       </div>
     </section>
 
-    {%- comment -%} With a guide (_data/about/<id>.json) the city gets its "This is …" section, and the landmarks stop at nine with a link to all of them on /<id>/places-and-landmarks/. {%- endcomment -%}
+    {%- comment -%} With a guide (_data/about/<id>.json) the city gets its "This is …" section, and the landmarks stop at nine with a link to all of them on /<id>/places-and-landmarks/ (in English, as is the guide). {%- endcomment -%}
     {%- if G %}
     <section id="about" class="about-city">
       <div class="about-text">
-        <h2>This is {{ C.name }}</h2>
-        <p>{{ G.intro }}</p>
+        <h2>{{ T.this_is | replace: '%c', CN }}</h2>
+        <p>{{ CT.intro | default: G.intro }}</p>
         <ul class="known">
-          {%- assign lms = site.data.landmarks[C.id] %}
-          {%- for f in G.famous %}
+          {%- assign lms = site.data.landmarks[C.id] %}{% assign famous = CT.famous | default: G.famous %}
+          {%- for f in famous %}
           <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
-        <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/">{% include icon.html name="compass" %} About the city</a></p>
+        <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/"{% if L != 'en' %} hreflang="en"{% endif %}>{% include icon.html name="compass" %} {{ T.about_city }}{{ T.in_english }}</a></p>
       </div>
       {% include country-map.html city=C %}
     </section>
@@ -104,14 +110,14 @@
     {%- assign landmarks = site.data.landmarks[C.id] %}
     {%- if landmarks %}
     <section id="landmarks" class="landmarks">
-      <h2>Places, elements and landmarks</h2>
+      <h2>{{ T.city_landmarks }}</h2>
       <div class="grid">
         {%- for l in landmarks %}{% if G and forloop.index > 9 %}{% break %}{% endif %}
         {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
       {%- if G %}
-      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
+      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/"{% if L != 'en' %} hreflang="en"{% endif %}>{% include icon.html name="pin" %} {{ T.all_places | replace: '%n', landmarks.size }}{{ T.in_english }}</a></p>
       {%- endif %}
     </section>
     {%- endif %}
@@ -120,24 +126,24 @@
     {%- assign art_museums = site.data.art.museums | where: 'city', C.id %}
     {%- if art_museums.size > 0 %}
     <section id="art" class="landmarks">
-      <h2>Famous art in {{ C.name }}</h2>
+      <h2>{{ T.city_art | replace: '%c', CN }}</h2>
       <div class="grid art-grid">
         {%- for m in art_museums %}{% assign pieces = site.data.art.pieces | where: 'museum', m.id %}{% for a in pieces %}
         {% include art-card.html art=a %}
         {%- endfor %}{% endfor %}
       </div>
-      <p class="card-more"><a href="/art/">All famous art ›</a></p>
+      <p class="card-more"><a href="/art/">{{ T.all_art }}</a></p>
     </section>
     {%- endif %}
 
     {%- if C.shots %}
     <section id="screens" class="screens">
-      <h2>Screenshots</h2>
+      <h2>{{ T.screenshots }}</h2>
       <div class="shots">
-        {%- for s in C.shots %}
+        {%- for s in C.shots %}{% assign caption = CT.shots[s.id] | default: s.caption %}
         <figure>
-          <img src="/assets/img/{{ s.id }}.jpg" alt="{{ s.caption }}" loading="lazy" width="1440" height="810">
-          <figcaption>{{ s.caption }}</figcaption>
+          <img src="/assets/img/{{ s.id }}.jpg" alt="{{ caption }}" loading="lazy" width="1440" height="810">
+          <figcaption>{{ caption }}</figcaption>
         </figure>
         {%- endfor %}
       </div>
@@ -145,21 +151,21 @@
     {%- endif %}
 
     <section class="cta">
-      <h2>Ready to go?</h2>
-      <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-      <p class="note">{{ H.beta }}</p>
+      <h2>{{ T.cta_title }}</h2>
+      <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', C.game }}</a>
+      <p class="note">{{ T.beta }}</p>
     </section>
     {%- endif %}
   </main>
 
   <footer>
-    <p class="alt">Other cities:
+    <p class="alt">{{ T.other_cities }}
       {%- for c in playable %}{% if c.id != C.id %}
-      <a href="/{{ c.id }}/">{{ c.name }}</a>
+      <a href="{% include city-url.html city=c.id %}">{{ T.cities[c.id].name | default: c.name }}</a>
       {%- endif %}{% endfor %}
-      <a href="/cities/">All cities</a>
+      <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a>
     </p>
-    <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p>{% assign credits = CT.credits | default: C.credits %}{% if credits %}{{ credits }} {% endif %}{{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

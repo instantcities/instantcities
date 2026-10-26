@@ -1,0 +1,101 @@
+# bruges's guide in French (_data/about/bruges.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Belgique
+- Flandre
+- Flandre-Occidentale, dont elle est le chef-lieu
+- Environ 120 000 habitants (ville)
+- Ses canaux, les reien, et le Minnewater
+- Néerlandais
+- Brugge (néerlandais), Bruges (français)
+- La Venise du Nord
+- Le centre historique (2000), le beffroi (1999) et le béguinage (1998)
+overview:
+- Bruges est la ville médiévale la mieux conservée de Flandre. Son centre se trouve toujours à l’intérieur de l’ovale de ses remparts médiévaux, aujourd’hui une ceinture de canaux et de parcs, et les canaux qui amenaient autrefois les navires jusqu’à ses marchés serpentent toujours entre les maisons. La plupart des bâtiments sont de brique rouge sombre à pignons à redans, et ceux qui paraissent médiévaux mais trop nets ont souvent été reconstruits au XIXe siècle, quand la ville redécouvrit son passé.
+- 'Le centre, la partie que vous parcourez dans Instant Bruges, tourne autour de deux places à quelques pas l’une de l’autre : le Markt, avec le beffroi, et le Burg, avec l’hôtel de ville et la basilique du Saint-Sang. Du Burg, des ruelles descendent vers le sud jusqu’aux canaux du Rozenhoedkaai et du Dijver, puis passent l’église Notre-Dame jusqu’au béguinage et au Minnewater. Au nord du Markt se trouve l’ancien port intérieur autour du Jan van Eyckplein.'
+setting:
+- Bruges se trouve dans le nord-ouest de la Belgique, en Région flamande, à environ 15 kilomètres de la côte de la mer du Nord. C’est le chef-lieu de la province de Flandre-Occidentale. Gand est à environ 45 kilomètres au sud-est et Bruxelles à environ 90 kilomètres.
+- Des canaux relient Bruges à Gand, à Ostende et à son propre port maritime, Zeebruges, sur la côte au nord. Le pays autour de la ville est un polder plat et des terres agricoles, et le climat est doux et humide, avec des vents marins toute l’année.
+today:
+- 'Bruges vit en grande partie du tourisme : des millions de visiteurs par an viennent dans un centre où vivent environ vingt mille personnes. La municipalité limite les bateaux de promenade, les calèches et les excursions de croisiéristes pour garder la vieille ville vivable. Son port de Zeebruges, fusionné avec celui d’Anvers dans le Port d’Anvers-Bruges en 2022, traite voitures, conteneurs et gaz.'
+- Le jour de l’Ascension, la procession du Saint-Sang serpente à travers le centre, comme depuis des siècles. Le Concertgebouw sur le ’t Zand, le Collège d’Europe et le marché du samedi font vivre la ville au-delà de la saison touristique.
+history:
+- title: Un port sur le Zwin
+  text:
+  - Au IXe siècle, les comtes de Flandre construisirent une forteresse à l’endroit qui s’appelle encore le Burg, et une ville marchande grandit autour. Une tempête en 1134 creusa une profonde baie, le Zwin, de la mer vers Bruges, et la ville construisit des avant-ports le long d’elle à Damme et à L’Écluse. Des navires apportaient la laine anglaise pour les tisserands flamands et emportaient leurs draps.
+  - Au XIVe siècle, Bruges était le grand marché de l’Europe du Nord-Ouest. Banquiers italiens, marchands allemands de la Hanse et négociants d’Espagne et du Portugal y avaient des maisons ; les marchands se retrouvaient devant l’auberge de la famille Van der Beurse, qui a donné son nom à la bourse. Dans la nuit du 18 mai 1302, les artisans de Bruges tuèrent la garnison française lors des Matines de Bruges, et deux mois plus tard l’armée flamande battit les chevaliers français à la bataille des Éperons d’or.
+- title: La cour de Bourgogne
+  text:
+  - Au XVe siècle, les ducs de Bourgogne, qui gouvernaient la Flandre, tinrent souvent cour à Bruges. Le duc Philippe le Bon y fonda l’ordre de la Toison d’or en 1430, lors des fêtes de son mariage avec Isabelle de Portugal. Jan van Eyck, son peintre de cour, vécut à Bruges jusqu’à sa mort en 1441, et Hans Memling y travailla une génération plus tard.
+  - Les bonnes années prirent fin vite. Le Zwin s’ensabla, et les gros navires ne purent plus atteindre la ville. Marie de Bourgogne mourut d’une chute de cheval en 1482, et en 1488 les habitants retinrent son veuf, Maximilien d’Autriche, prisonnier sur le Markt pendant des mois. Une fois libre, il déplaça les marchands étrangers à Anvers, et Bruges sombra dans quatre siècles de pauvreté.
+- title: La ville endormie se réveille
+  text:
+  - Parce que personne n’avait l’argent pour démolir les vieilles maisons, la ville médiévale survécut. Au XIXe siècle, des visiteurs britanniques et des architectes flamands la redécouvrirent et restaurèrent, et parfois réinventèrent, ses façades gothiques. Le roman Bruges-la-Morte de Georges Rodenbach, de 1892, rendit la ville grise et silencieuse célèbre dans toute l’Europe.
+  - En 1907, Bruges ouvrit un nouveau port maritime sur la côte à Zeebruges, et la ville traversa les deux guerres mondiales sans grands dégâts. Depuis 1949, elle abrite le Collège d’Europe. L’UNESCO inscrivit son centre historique en 2000, et en 2002 elle fut capitale européenne de la culture.
+timeline:
+- - IXe siècle
+  - Les comtes de Flandre construisent une forteresse sur le Burg
+- - '1134'
+  - Une tempête ouvre le Zwin, le chemin de la ville vers la mer
+- - '1245'
+  - Fondation du béguinage
+- - '1302'
+  - 'Les Matines de Bruges : les habitants tuent la garnison française dans la nuit du 18 mai'
+- - '1376'
+  - Début des travaux de l’hôtel de ville
+- - '1430'
+  - Philippe le Bon fonde l’ordre de la Toison d’or à Bruges
+- - '1482'
+  - Marie de Bourgogne meurt d’une chute de cheval
+- - '1488'
+  - Les habitants retiennent Maximilien d’Autriche prisonnier sur le Markt
+- - '1892'
+  - Georges Rodenbach publie Bruges-la-Morte
+- - '1907'
+  - Ouverture du nouveau port maritime de Zeebruges
+- - '2000'
+  - L’UNESCO inscrit le centre historique au patrimoine mondial
+- - '2002'
+  - Bruges est capitale européenne de la culture
+places:
+  markt:
+    blurb: La place du marché au cœur de Bruges, sous le beffroi, avec la statue de Jan Breydel et Pieter de Coninck, les chefs de 1302.
+  burg:
+    blurb: La place sur le site de la forteresse des comtes, avec l’hôtel de ville gothique et la basilique du Saint-Sang.
+  steenstraat:
+    blurb: La rue commerçante animée du Markt vers l’ouest, en direction de la cathédrale Saint-Sauveur et du ’t Zand.
+  wollestraat:
+    blurb: L’ancienne rue de la laine, du Markt à côté du beffroi vers le sud jusqu’au canal.
+  blinde-ezelstraat:
+    blurb: La « rue de l’Âne aveugle », une ruelle qui passe sous une arche du Burg jusqu’au canal et au Vismarkt.
+  rozenhoedkaai:
+    blurb: 'Le quai sur un coude du canal avec la vue la plus connue de Bruges : de vieilles maisons sur l’eau et le beffroi derrière.'
+  dijver:
+    blurb: Une rue le long du canal sous les tilleuls, avec le musée Groeninge et le palais Gruuthuse.
+  huidenvettersplein:
+    blurb: Une petite place au bord du canal autour de l’ancienne maison de la corporation des tanneurs, aujourd’hui pleine de terrasses de restaurant.
+  vismarkt:
+    blurb: Le marché aux poissons, avec des étals de pierre sous des colonnades de 1821, où les poissonniers vendent encore le matin.
+  groenerei:
+    blurb: Un quai tranquille le long du canal, avec l’hospice De Pelikaan.
+  reien:
+    name: Les canaux
+    blurb: Les canaux de Bruges, qui portaient autrefois les marchandises aux marchés ; des bateaux ouverts y emmènent aujourd’hui les visiteurs.
+  jan-van-eyckplein:
+    blurb: L’ancien port intérieur, avec la douane médiévale, la loge des marchands et une statue de Jan van Eyck.
+  mariastraat:
+    blurb: La rue qui passe devant l’église Notre-Dame, avec sa tour de brique de 115 mètres, et l’hôpital Saint-Jean, où se trouvent les tableaux de Memling.
+  begijnhof:
+    name: Béguinage
+    blurb: 'Le béguinage, fondé en 1245 : des maisons blanches autour d’une pelouse sous de grands arbres, où vivaient autrefois des béguines, des femmes pieuses célibataires.'
+  minnewater:
+    blurb: Le « lac d’amour », autrefois le bassin où s’amarraient les péniches de Gand, aujourd’hui un lac tranquille dans un parc.
+links:
+- title: Visit Bruges
+  note: L’information touristique officielle de la ville
+- title: Ville de Bruges
+  note: La municipalité (en néerlandais)
+- title: Centre historique de Bruges sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Bruges sur Wikipédia
+  note: L’article de l’encyclopédie

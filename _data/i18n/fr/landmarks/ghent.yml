@@ -1,0 +1,28 @@
+# ghent's landmarks in French (_data/landmarks/ghent.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+sint-baafs-kathedraal:
+  name: Cathédrale Saint-Bavon
+  blurb: Bâtie du XIIIe au XVIe siècle, avec une tour de 89 m. À l’intérieur se trouve l’Adoration de l’Agneau mystique des frères Van Eyck (1432), l’un des tableaux les plus célèbres et les plus volés du monde. Son panneau des Juges intègres, volé en 1934, n’a jamais été retrouvé.
+belfort:
+  name: Beffroi
+  blurb: La tour de 91 m de la ville, commencée en 1313. Gand y gardait ses chartes de privilèges, et des veilleurs y guettaient le feu et l’ennemi. Un dragon doré veille au sommet. Avec la halle aux draps à côté, il est inscrit au patrimoine mondial de l’UNESCO.
+gravensteen:
+  name: Château des Comtes
+  blurb: Le château des comtes de Flandre, bâti en 1180 par Philippe d’Alsace. Il a ensuite servi de tribunal, de prison et même de filature de coton, et a retrouvé ses créneaux vers 1900. En 1949, des étudiants l’ont occupé pour protester contre la hausse du prix de la bière.
+graslei:
+  name: Graslei et Korenlei
+  blurb: Le port médiéval de Gand, sur les deux rives de la Lys. Les bateliers y déchargeaient le grain et les corporations y ont bâti leurs maisons le long du quai. Le Koornstapelhuis, l’entrepôt à grain roman gris d’environ 1200, est l’une des plus vieilles maisons de la ville.
+sint-michielsbrug:
+  name: Pont Saint-Michel
+  blurb: 'Construit au début du XXe siècle, juste avant l’Exposition universelle de 1913. Regardez vers l’est pour voir les trois tours de Gand alignées : Saint-Nicolas, le beffroi et Saint-Bavon. Derrière vous se dresse l’église Saint-Michel, dont la tour n’a jamais été achevée.'
+sint-niklaaskerk:
+  name: Église Saint-Nicolas
+  blurb: 'L’église des marchands, du XIIIe siècle, en pierre bleu-gris de Tournai : du gothique scaldien. Sa tour est posée au milieu du toit et servait de tour de guet, bien avant le beffroi. Elle accueille aujourd’hui aussi des concerts et des expositions.'
+stadhuis:
+  name: Hôtel de ville
+  blurb: 'Un hôtel de ville en deux styles : gothique tardif fleuri sur la Hoogpoort, Renaissance sobre sur le Botermarkt. Le manque d’argent et les guerres de religion ont sans cesse interrompu les travaux. La Pacification de Gand, une paix entre les provinces des Pays-Bas, y fut signée en 1576.'
+vrijdagmarkt:
+  blurb: La place des marchés, des fêtes et des révoltes, où les comtes de Flandre prêtaient serment. Au milieu, Jacques van Artevelde, le brasseur qui dirigea Gand en 1338, montre le chemin. En face se dresse Ons Huis, la grande maison du mouvement ouvrier socialiste.
+groot-vleeshuis:
+  name: Grande Boucherie
+  blurb: La halle couverte des bouchers, bâtie de 1406 à 1419. Des jambons sèchent encore sous son impressionnante charpente de bois. On peut aujourd’hui y acheter et goûter les produits régionaux de Flandre-Orientale.

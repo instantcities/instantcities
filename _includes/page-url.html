@@ -1,0 +1,7 @@
+{%- comment -%} This page in another language: {% include page-url.html lang=l %}, for a page with a `ref` (a city's page, its guide, its places or a landmark, ref: city, guide, places or landmark, or one in _data/lang/<lang>.yml's urls). {%- endcomment -%}
+{%- case page.ref -%}
+{%- when 'city' -%}{%- include city-url.html city=page.city lang=include.lang -%}
+{%- when 'guide' or 'places' -%}{%- include city-url.html city=page.city page=page.ref lang=include.lang -%}
+{%- when 'landmark' -%}{%- include city-url.html city=page.city page='landmark' landmark=page.landmark lang=include.lang -%}
+{%- else -%}{{- site.data.lang[include.lang].urls[page.ref] -}}
+{%- endcase -%}

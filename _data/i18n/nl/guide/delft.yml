@@ -1,0 +1,106 @@
+# delft's guide in Dutch (_data/about/delft.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Nederland
+- Zuid-Holland
+- Ongeveer 105.000 (gemeente)
+- Tussen Den Haag (10 km) en Rotterdam (15 km)
+- Ongeveer op zeeniveau, zo vlak als de polders eromheen
+- Nederlands
+- Delfts blauw, Vermeer, het Huis van Oranje
+- TU Delft, opgericht in 1842
+overview:
+- De oude stad van Delft is een ovaal van grachten, zo’n anderhalve kilometer van noord naar zuid. De Oude Delft, de gracht waarnaar de stad is genoemd, loopt er recht doorheen, met de Oude Kerk aan haar oever, en ten oosten ervan ligt de Markt, met het Stadhuis aan het ene en de Nieuwe Kerk aan het andere eind. Eromheen voert een raster van kleinere grachten, de Voldersgracht, de Koornmarkt en het Wijnhaven, de boten langs huizen met trap- en halsgevels.
+- 'Instant Delft neemt je mee door het hart ervan: over de Markt, langs de Voldersgracht voorbij het Vermeer Centrum, naar de Oude Kerk, langs de Oude Delft en het Prinsenhof en terug over de Koornmarkt. Net als de echte stad is het spel vlak.'
+setting:
+- Delft ligt in het vlakke polderland van Zuid-Holland, tussen Den Haag in het noordwesten en Rotterdam in het zuidoosten, met de Noordzee op zo’n tien kilometer. De Schie verbindt het met Rotterdam en de Maas, en de spoorlijn tussen Den Haag en Rotterdam loopt in een tunnel onder het westen van de oude stad.
+- 'Het klimaat is zacht en vochtig, gevormd door de zee: koele zomers, milde winters en regen in elk seizoen, met de wind uit het westen.'
+today:
+- Delft is een levendige stad van zo’n 105.000 inwoners, een kwart ervan studenten. De TU Delft trekt ingenieurs uit de hele wereld, en de startups en onderzoekslabs van de stad verspreiden zich rond de campus.
+- Op donderdag vult de markt de Markt, en op zaterdag is er een bloemen- en antiekmarkt langs de grachten. Bezoekers komen voor de Nieuwe Kerk, het Prinsenhof, het Vermeer Centrum en Royal Delft, en in de zomer liggen de grachten vol kleine boten en zetten de cafés hun terrassen op de kades.
+history:
+- title: Een stad aan een gegraven gracht
+  text:
+  - Delft ontstond in de 12e eeuw langs een gracht die door het veen werd gegraven, de delf, en kreeg in 1246 stadsrechten van Willem II, graaf van Holland. Zijn brouwers en lakenmakers maakten het rijk, en de Oude Kerk en de Nieuwe Kerk rezen boven de daken uit.
+  - Een grote brand in 1536 verbrandde het grootste deel van de stad, en veel van wat er nu staat werd erna herbouwd.
+- title: Willem van Oranje
+  text:
+  - In 1572 maakte Willem van Oranje, de leider van de opstand tegen Spanje, van Delft zijn thuis en betrok het klooster van Sint-Agatha, het Prinsenhof. Op 10 juli 1584 schoot Balthasar Gerards hem daar op de trap dood.
+  - Hij werd begraven in de Nieuwe Kerk, en sindsdien begraaft het Huis van Oranje er zijn doden, in de koninklijke grafkelder onder het koor.
+- title: De Gouden Eeuw
+  text:
+  - 'In de 17e eeuw was Delft een van de zes kamersteden van de Verenigde Oost-Indische Compagnie, en zijn pottenbakkers gingen Chinees porselein nabootsen in blauw-wit aardewerk: Delfts blauw. Schilders als Johannes Vermeer, Pieter de Hooch en Carel Fabritius werkten hier, en de jurist Hugo de Groot werd er in 1583 geboren.'
+  - Op 12 oktober 1654 ontplofte het kruitmagazijn van de stad, dat het noordoosten van Delft platlegde en onder anderen Fabritius doodde.
+- title: Ingenieurs en studenten
+  text:
+  - In 1842 stichtte koning Willem II in Delft een koninklijke academie voor de opleiding van ingenieurs, die uitgroeide tot de huidige TU Delft. De universiteit breidde zich uit over een campus ten zuidoosten van de oude stad, en studenten vormen nu een groot deel van de stad.
+  - Het oude centrum behield zijn grachten en zijn gevels, en in 2015 ging het spoor, dat de stad vroeger op een viaduct doorkruiste, ondergronds in een tunnel.
+timeline:
+- - 12e eeuw
+  - Delft ontstaat langs een gegraven gracht, de delf
+- - '1246'
+  - Delft krijgt stadsrechten
+- - '1396'
+  - Begin van de bouw van de Nieuwe Kerk
+- - '1536'
+  - Een grote brand verbrandt het grootste deel van de stad
+- - '1572'
+  - Willem van Oranje vestigt zich in het Prinsenhof
+- - '1583'
+  - Hugo de Groot wordt in Delft geboren
+- - '1584'
+  - Willem van Oranje wordt in het Prinsenhof vermoord
+- - '1618'
+  - Brand verwoest het oude stadhuis; Hendrick de Keyser bouwt het nieuwe
+- - '1632'
+  - Johannes Vermeer wordt in Delft geboren
+- - '1653'
+  - De Porceleyne Fles wordt opgericht
+- - '1654'
+  - 'Het kruitmagazijn ontploft: de Delftse Donderslag'
+- - '1675'
+  - Vermeer sterft en wordt begraven in de Oude Kerk
+- - '1842'
+  - De koninklijke academie voor ingenieurs, later TU Delft, wordt opgericht
+- - '2015'
+  - Het spoor verdwijnt in een tunnel onder de stad
+places:
+  markt:
+    blurb: Het lange marktplein tussen het stadhuis en de Nieuwe Kerk.
+  nieuwe-kerk:
+    blurb: De gotische kerk aan de Markt, met de graven van het Huis van Oranje.
+  stadhuis:
+    blurb: Het stadhuis van Hendrick de Keyser rond een middeleeuwse toren.
+  waag:
+    blurb: Het waaggebouw achter het stadhuis.
+  vermeer-centrum:
+    blurb: Het centrum over Vermeer aan de Voldersgracht, waar het schildersgilde stond.
+  voldersgracht:
+    blurb: De smalle gracht achter de noordkant van de Markt.
+  oude-kerk:
+    blurb: De oudste kerk, met haar scheve toren en het graf van Vermeer.
+  oude-delft:
+    blurb: De oudste gracht, die de stad haar naam gaf.
+  prinsenhof:
+    blurb: Het klooster waar Willem van Oranje woonde en werd doodgeschoten.
+  gemeenlandshuis:
+    blurb: Het gotische huis uit 1505 aan de Oude Delft, met zijn beschilderde wapenschilden.
+  wijnhaven:
+    blurb: De gracht achter de Waag, waar de wijn binnenkwam.
+  koornmarkt:
+    blurb: De graanmarktgracht, omzoomd met terrassen.
+  beestenmarkt:
+    blurb: Het plein van de oude veemarkt, nu vol cafés onder de bomen.
+  oostpoort:
+    blurb: De laatste stadspoort, met zijn twee slanke torens.
+  paardenmarkt:
+    blurb: Het open plein waar het kruitmagazijn stond tot 1654.
+links:
+- title: Delft.com
+  note: De toeristensite van de stad
+- title: Museum Prinsenhof Delft
+  note: Het museum in het oude klooster
+- title: Vermeer Centrum Delft
+  note: Alles over Vermeer, aan de Voldersgracht
+- title: Delft op Wikipedia
+  note: Het encyclopedieartikel

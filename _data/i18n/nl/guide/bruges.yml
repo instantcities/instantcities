@@ -1,0 +1,100 @@
+# bruges's guide in Dutch (_data/about/bruges.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- België
+- Vlaanderen
+- West-Vlaanderen, waarvan het de hoofdstad is
+- Ongeveer 120.000 (stad)
+- Zijn grachten, de reien, en het Minnewater
+- Nederlands
+- Brugge (Nederlands), Bruges (Frans)
+- Het Venetië van het Noorden
+- Het historische centrum (2000), het Belfort (1999) en het begijnhof (1998)
+overview:
+- Brugge is de best bewaarde middeleeuwse stad van Vlaanderen. Het centrum ligt nog altijd binnen het ovaal van de middeleeuwse stadsmuren, nu een gordel van reien en parken, en de reien die ooit schepen naar haar markten brachten, kronkelen nog tussen de huizen. De meeste gebouwen zijn van donkerrode baksteen met trapgevels, en wat er middeleeuws uitziet maar te netjes is, werd vaak in de 19e eeuw herbouwd, toen de stad haar verleden herontdekte.
+- 'Het centrum, het deel waar je in Instant Bruges doorheen rijdt, draait om twee pleinen op een paar stappen van elkaar: de Markt, met het Belfort, en de Burg, met het Stadhuis en de Heilig-Bloedbasiliek. Vanaf de Burg leiden straatjes naar het zuiden naar de reien bij de Rozenhoedkaai en de Dijver, en dan langs de Onze-Lieve-Vrouwekerk naar het Begijnhof en het Minnewater. Ten noorden van de Markt ligt de oude binnenhaven rond het Jan van Eyckplein.'
+setting:
+- Brugge ligt in het noordwesten van België, in het Vlaams Gewest, zo’n 15 kilometer van de Noordzeekust. Het is de hoofdstad van de provincie West-Vlaanderen. Gent ligt zo’n 45 kilometer naar het zuidoosten en Brussel zo’n 90 kilometer verderop.
+- Kanalen verbinden Brugge met Gent, met Oostende en met zijn eigen zeehaven, Zeebrugge, aan de kust in het noorden. Het land rond de stad is vlak polderland en akkerland, en het klimaat is zacht en nat, met het hele jaar zeewind.
+today:
+- 'Brugge leeft grotendeels van toerisme: miljoenen bezoekers per jaar komen naar een centrum waar zo’n twintigduizend mensen wonen. Het stadsbestuur beperkt de rondvaartboten, de koetsen en de dagtripjes van cruiseschepen om de oude stad leefbaar te houden. Haar haven van Zeebrugge, in 2022 samengevoegd met die van Antwerpen tot de Haven van Antwerpen-Brugge, verwerkt auto’s, containers en gas.'
+- Op Hemelvaartsdag trekt de Heilig-Bloedprocessie door het centrum, zoals al eeuwen. Het Concertgebouw aan ’t Zand, het Europacollege en de zaterdagmarkt houden de stad ook buiten het toeristenseizoen druk.
+history:
+- title: Een haven aan het Zwin
+  text:
+  - In de 9e eeuw bouwden de graven van Vlaanderen een burcht op de plek die nog altijd de Burg heet, en rondom groeide een handelsstad. Een stormvloed in 1134 sneed een diepe inham, het Zwin, vanaf de zee richting Brugge, en de stad bouwde er voorhavens langs in Damme en Sluis. Schepen brachten Engelse wol voor de Vlaamse wevers en voerden hun laken weg.
+  - In de 14e eeuw was Brugge de grote markt van Noordwest-Europa. Italiaanse bankiers, Duitse kooplieden van de Hanze en handelaars uit Spanje en Portugal hadden hier huizen; kooplieden ontmoetten elkaar voor de herberg van de familie Van der Beurse, die haar naam aan de beurs gaf. In de nacht van 18 mei 1302 doodden de ambachtslieden van Brugge de Franse bezetting in de Brugse Metten, en twee maanden later versloeg het Vlaamse leger de Franse ridders in de Guldensporenslag.
+- title: Het Bourgondische hof
+  text:
+  - In de 15e eeuw hielden de hertogen van Bourgondië, die over Vlaanderen heersten, vaak hof in Brugge. Hertog Filips de Goede stichtte hier in 1430 de Orde van het Gulden Vlies, bij de feesten voor zijn huwelijk met Isabella van Portugal. Jan van Eyck, zijn hofschilder, woonde in Brugge tot zijn dood in 1441, en Hans Memling werkte hier een generatie later.
+  - De goede jaren eindigden snel. Het Zwin verzandde, en grote schepen konden de stad niet meer bereiken. Maria van Bourgondië stierf in 1482 na een val van haar paard, en in 1488 hielden de Bruggelingen haar weduwnaar, Maximiliaan van Oostenrijk, maandenlang gevangen op de Markt. Eenmaal vrij verplaatste hij de buitenlandse kooplieden naar Antwerpen, en Brugge zakte weg in vier eeuwen armoede.
+- title: De slapende stad ontwaakt
+  text:
+  - Omdat niemand het geld had om de oude huizen af te breken, overleefde de middeleeuwse stad. In de 19e eeuw herontdekten Britse bezoekers en Vlaamse architecten haar en restaureerden, en soms herschiepen, ze haar gotische gevels. Georges Rodenbachs roman Bruges-la-Morte uit 1892 maakte de grijze, stille stad in heel Europa beroemd.
+  - In 1907 opende Brugge een nieuwe zeehaven aan de kust bij Zeebrugge, en de stad kwam zonder grote schade door beide wereldoorlogen. Sinds 1949 is het de thuisbasis van het Europacollege. UNESCO zette haar historische centrum in 2000 op de Werelderfgoedlijst, en in 2002 was ze Culturele Hoofdstad van Europa.
+timeline:
+- - 9e eeuw
+  - De graven van Vlaanderen bouwen een burcht op de Burg
+- - '1134'
+  - Een stormvloed opent het Zwin, de weg van de stad naar de zee
+- - '1245'
+  - Het Begijnhof wordt gesticht
+- - '1302'
+  - 'De Brugse Metten: de inwoners doden de Franse bezetting in de nacht van 18 mei'
+- - '1376'
+  - Begin van de bouw van het Stadhuis
+- - '1430'
+  - Filips de Goede sticht de Orde van het Gulden Vlies in Brugge
+- - '1482'
+  - Maria van Bourgondië sterft na een val van haar paard
+- - '1488'
+  - De Bruggelingen houden Maximiliaan van Oostenrijk gevangen op de Markt
+- - '1892'
+  - Georges Rodenbach publiceert Bruges-la-Morte
+- - '1907'
+  - De nieuwe zeehaven van Zeebrugge opent
+- - '2000'
+  - UNESCO zet het historische centrum op de Werelderfgoedlijst
+- - '2002'
+  - Brugge is Culturele Hoofdstad van Europa
+places:
+  markt:
+    blurb: Het marktplein in het hart van Brugge, onder het Belfort, met het standbeeld van Jan Breydel en Pieter de Coninck, de leiders van 1302.
+  burg:
+    blurb: Het plein op de plek van de burcht van de graven, met het gotische Stadhuis en de Heilig-Bloedbasiliek.
+  steenstraat:
+    blurb: De drukke winkelstraat van de Markt naar het westen, richting de Sint-Salvatorskathedraal en ’t Zand.
+  wollestraat:
+    blurb: De oude wolstraat, van de Markt naast het Belfort naar het zuiden tot aan de gracht.
+  blinde-ezelstraat:
+    blurb: De Blinde-Ezelstraat, een steegje dat door een poort van de Burg naar de gracht en de Vismarkt loopt.
+  rozenhoedkaai:
+    blurb: 'De kaai op een bocht van de gracht met het bekendste uitzicht op Brugge: oude huizen aan het water en het Belfort erachter.'
+  dijver:
+    blurb: Een straat langs de gracht onder lindebomen, met het Groeningemuseum en het Gruuthusepaleis.
+  huidenvettersplein:
+    blurb: Een pleintje aan de gracht rond het oude gildehuis van de huidenvetters, nu vol restaurantterrassen.
+  vismarkt:
+    blurb: De vismarkt, met stenen kramen onder zuilengangen uit 1821, waar vishandelaars nog ’s ochtends verkopen.
+  groenerei:
+    blurb: Een rustige kaai langs de gracht, met het godshuis De Pelikaan.
+  reien:
+    name: De reien
+    blurb: De reien van Brugge, die ooit goederen naar de markten brachten; open boten brengen er nu bezoekers langs.
+  jan-van-eyckplein:
+    blurb: De oude binnenhaven, met het middeleeuwse tolhuis, de koopmansloge en een standbeeld van Jan van Eyck.
+  mariastraat:
+    blurb: De straat langs de Onze-Lieve-Vrouwekerk, met haar bakstenen toren van 115 meter, en het Sint-Janshospitaal, thuis van de schilderijen van Memling.
+  begijnhof:
+    blurb: 'Het begijnhof, gesticht in 1245: witte huizen rond een grasveld onder hoge bomen, waar begijnen, vrome alleenstaande vrouwen, ooit woonden.'
+  minnewater:
+    blurb: Het Minnewater, ooit het bassin waar de schuiten uit Gent aanlegden, nu een rustig meer in een park.
+links:
+- title: Visit Bruges
+  note: De officiële toeristische informatie van de stad
+- title: Stad Brugge
+  note: Het stadsbestuur
+- title: Historisch centrum van Brugge op UNESCO
+  note: De Werelderfgoedlijst
+- title: Brugge op Wikipedia
+  note: Het encyclopedieartikel

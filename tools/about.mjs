@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-// Each city's guide pages on the site, from _data/about/<city>.json: /<city>/about-the-city/
-// (_layouts/about.html) and /<city>/places-and-landmarks/ (_layouts/places.html), with their two maps.
+// Each city's guide on the site, from _data/about/<city>.json: the two maps of its pages (_layouts/about.html and
+// places.html; tools/langpages.mjs writes the pages themselves, in each language).
 //
 //     node tools/about.mjs                       # every city with a _data/about/<city>.json
 //     node tools/about.mjs rome
 //     node tools/about.mjs where rome "Via del Corso" "Piazza Navona"   # where a street of the game's map lies
 //
-// It writes, per city: the two little index.html pages; assets/maps/<city>.svg, the city centre
+// It writes, per city: assets/maps/<city>.svg, the city centre
 // drawn from the game's own map (<city>/map.js: water, parks, buildings and streets), framed on the
 // places of the guide; and _data/maps/<city>.json, where each place of the guide lies on that
 // drawing (a pin, and for a street or a waterway found by name in the map, its line). The country
@@ -80,10 +80,6 @@ for (const city of cities) {
     if (!/^[a-z0-9-]+$/.test(p.id)) throw new Error(`${city}: place id "${p.id}" is not a-z, 0-9 and -`);
     if (ids.has(p.id)) throw new Error(`${city}: place id "${p.id}" twice`);
     ids.add(p.id);
-  }
-  for (const [page, layout] of [['about-the-city', 'about'], ['places-and-landmarks', 'places']]) {
-    fs.mkdirSync(path.join(ROOT, city, page), { recursive: true });
-    fs.writeFileSync(path.join(ROOT, city, page, 'index.html'), `---\nlayout: ${layout}\ncity: ${city}\n---\n`);
   }
   centreMap(city, G);
 }

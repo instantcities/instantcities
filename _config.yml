@@ -1,10 +1,12 @@
 title: Instant Cities
 url: https://instantcities.net # tools/pages.mjs reads it too; CNAME has the same domain
 
-# Only the site's pages are Jekyll pages: the home page (index.html), the cities page
-# (cities/index.html), the page about the project (about/index.html), the privacy and terms pages
-# (privacy/, terms/), the famous art (art/, a page per piece: tools/art.mjs) and one page per city
-# (<id>/index.html, its words in _data/cities.yml); cities/<id>/ only sends old links on to /<id>/.
+# Only the site's pages are Jekyll pages: the home page, the cities page, the page about the project
+# and the privacy and terms pages in each language (en/, fr/, nl/: en/index.html, fr/villes/, ...,
+# their words in _data/lang/; index.html, cities/, about/, privacy/ and terms/ only send a visitor on
+# to their language), the famous art (art/, a page per piece: tools/art.mjs) and one page per city
+# in each language (en/<id>/, fr/<slug>/, nl/<slug>/: tools/langpages.mjs; <id>/index.html sends a
+# visitor on to their language); cities/<id>/ only sends old links on to /<id>/.
 # The game (core/, and the rest of each city's folder, its game pages in <id>/play/) has no front
 # matter, so it is copied as it is; core's pages are only templates for tools/pages.mjs.
 exclude:
@@ -16,8 +18,8 @@ exclude:
   - app # the iOS app (app/README.md), not a page of the site
   - docs
   - README.md
+  - CLAUDE.md
   - serve.py
-  - netlify.toml
   - Gemfile
   - Gemfile.lock
   - vendor

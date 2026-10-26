@@ -1,0 +1,23 @@
+# utrecht's landmarks in French (_data/landmarks/utrecht.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+domtoren:
+  name: Tour du Dom
+  blurb: Le plus haut clocher des Pays-Bas, 112 mètres de brique et de pierre gothiques, isolé depuis qu’une tempête a abattu la nef.
+domkerk:
+  name: Église du Dom
+  blurb: 'Ce qui reste de la cathédrale gothique d’Utrecht : le chœur et le transept, séparés de leur tour depuis l’effondrement de la nef en 1674.'
+pandhof:
+  blurb: Le paisible jardin du cloître à côté de l’église du Dom, planté des herbes d’un jardin de monastère médiéval.
+oudegracht:
+  blurb: Le canal médiéval d’Utrecht, avec ses quais au ras de l’eau et ses vieilles caves sous la rue, aujourd’hui pleines de cafés.
+janskerkhof:
+  blurb: La place arborée autour de la Janskerk, avec un marché aux fleurs chaque samedi.
+pieterskerk:
+  blurb: L’une des plus anciennes églises des Pays-Bas, une église romane de 1048 avec une crypte sous son chœur.
+speelklok:
+  name: Musée Speelklok
+  blurb: Un musée des instruments de musique mécanique, des boîtes à musique aux grands orgues de danse, dans la Buurkerk médiévale.
+academiegebouw:
+  blurb: Le bâtiment principal de l’université d’Utrecht sur le Domplein, où l’Union d’Utrecht fut signée en 1579.
+paushuize:
+  blurb: La maison du Kromme Nieuwegracht bâtie pour Adrien d’Utrecht, qui devint le seul pape néerlandais.
