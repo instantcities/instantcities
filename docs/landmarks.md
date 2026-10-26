@@ -113,6 +113,9 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Palais du Louvre and the Arc du Carrousel | `paris/louvre.js` | ride into the Cour Carrée and through the Guichets |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Brussels | Hôtel de Ville and its tower | `brussels/hotel-de-ville.js` | bump into it |
+| Brussels | the Grand-Place's guild houses, the Maison du Roi, the Ducs de Brabant | `brussels/grand-place.js` | ride round the square |
+| Brussels | Bourse, the cathedral's west front, Galeries Saint-Hubert, Manneken Pis | `brussels/monuments.js` | ride through the galleries |
 | Bruges | Stadhuis's front | `bruges/burg.js` | ride past it on the Burg |
 | Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
 | Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
