@@ -1,6 +1,6 @@
 # 🏙️ Instant Cities
 
-**Ride a bike, walk or gallop through the old centres of European cities, in 3D, right in your browser.**
+A browser game set in 3D models of old city centres, built from OpenStreetMap data.
 
 👉 **[Play at instantcities.net](https://instantcities.net)**
 
@@ -8,8 +8,7 @@
 
 ## What is it?
 
-Real streets and buildings, rebuilt from OpenStreetMap, to explore and race through, alone or two
-players split-screen on one keyboard.
+You move through real streets and buildings. One player, or two on the same keyboard with a split screen.
 
 - 🌍 **27 cities.** Ghent and Lecce in full; a first piece of Rome, Paris, Amsterdam, Venice,
   Barcelona, London, Bruges, Antwerp, Brussels, Florence, Prague, Vienna, Copenhagen, Berlin and more.
