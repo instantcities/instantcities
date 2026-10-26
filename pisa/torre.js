@@ -21,7 +21,7 @@ const LEAN = 0.0693; // 3.97°
 const R = 9.7, CORE = 7.6; // the outer face of the arcades, the inner shaft's
 const GROUND = 14.3, STOREY = 7.5, LOGGIAS = 6; // the ground storey's top, each gallery's height
 const BELFRY = GROUND + LOGGIAS * STOREY, BR = 6.3, TOP = 70.8; // the belfry's floor, its radius, its top
-const MARBLE = '#e9e1cd', GREY = '#a7a297', DARK = '#4a4640', BRONZE = '#6e5a35';
+const MARBLE = '#f6f3ec', GREY = '#c4c0b6', DARK = '#4a4640', BRONZE = '#6e5a35';
 const STONE = shade(MARBLE, -0.07);
 
 // a cornice round the path at y, standing `out` metres proud
