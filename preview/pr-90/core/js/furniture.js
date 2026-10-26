@@ -7,7 +7,7 @@
 // js/tiles.js then cuts into tiles so that what is out of view is not drawn.
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { ID, FURNITURE, SQUARES, MONUMENTS } from './city.js';
+import { ID, FURNITURE, SQUARES, MONUMENTS, STREET_FURNITURE } from './city.js';
 import { sunk } from './hollows.js';
 
 const LAMP_EVERY = 28;   // metres between two lamps along a street
@@ -553,6 +553,7 @@ export function furnitureNight(on) {
 
 // Returns what a rider bumps into: [{x, z, r, h}] (see collide.js).
 export function addFurniture(ctx, map) {
+  if (STREET_FURNITURE === false) return []; // a site with no street lamps, benches or bins: city.js says STREET_FURNITURE = false
   const w = setup(ctx, map);
   bridgeLamps(w);
   const posts = [...mapped(w), ...streetLamps(w), ...squareLanterns(w), ...bollards(w), ...benches(w)];

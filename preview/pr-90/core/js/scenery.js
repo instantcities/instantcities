@@ -319,8 +319,8 @@ function groundMats(ctx) {
     asphalt: mat(0xffffff, 0.9, { map: asphalt }),
     bike: mat(0xffffff, 0.9, { map: red }),
     pavement: mat(0xffffff, 0.95, { map: pavement }),
-    garden: mat(0xffffff, 1, { map: grass('#5f9f45') }),
-    park: mat(0xffffff, 1, { map: grass('#6bb04c') }),
+    garden: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#5f9f45') }),
+    park: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#6bb04c') }), // (a city's LOOK.grass: dry grass for the south)
     gravel: mat(0xffffff, 1, { map: gravel }),
   };
 }
