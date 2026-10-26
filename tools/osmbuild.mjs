@@ -666,6 +666,8 @@ export function buildMap(data, area) {
     routes: loops.map((l, i) => ({ id: routes[i].id, route: l.loop.map(p => [r1(p[0]), r1(p[1])]), oneway: l.oneway, streets: l.route, street: l.street, ...(l.free.some(f => f) ? { free: l.free } : {}), ...(l.open ? { open: 1 } : {}) })),
     buildings: [], roads: [], names: [], areas: [], water: [], trees: [],
   };
+  // where on Earth the map's middle is (area.geo: true), so places can be set from their latitude and longitude
+  if (A.geo) out.geo = { lat: lat0, lon: lon0, kx: r1(kx), kz, cx: r1(cx), cz: r1(cz), s: S };
   const flat = g => g.flatMap(p => [r1(p[0]), r1(p[1])]);
 
   // nearest street direction, so a gable roof's ridge can run along the street; and the named

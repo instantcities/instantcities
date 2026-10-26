@@ -44,6 +44,25 @@
     - { label: "Towers", text: "Five, in a quincunx; the middle one is 65 metres high" }
     - { label: "In the game", text: "The moat and the causeway, the western gopura and the temple's three levels with their galleries and towers" }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
+- id: pompeii
+  name: Pompeii
+  place: Campania, Italy
+  game: Instant Pompeii
+  title: "Instant Pompeii: a free virtual 3D tour and game of Pompeii"
+  description: "Take a free virtual 3D tour of Pompeii in your browser, then walk, cycle or ride through its Roman streets yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race through the Roman streets of Pompeii, with Vesuvius behind."
+  lead: "The streets of the town as the excavation maps them, the Forum with the Temple of Jupiter, the baths and the houses, and the amphitheatre at the east end."
+  card: "The Roman town buried by Vesuvius in AD 79: its paved streets, the Forum and the amphitheatre."
+  features:
+    - { icon: city, title: "The town, street by street", text: "About 1,100 houses and shops along the streets of the excavation, with the Via dell'Abbondanza, the Via Stabiana and the Via del Foro, paved with basalt blocks." }
+    - { icon: castle, title: "The Forum and the amphitheatre", text: "The Forum's two colonnades with the Temple of Jupiter at its end, and the amphitheatre, the oldest stone one there is, are modelled by hand. Vesuvius stands on the horizon where it really is." }
+    - { icon: flag, title: "A race round the middle of town", text: "A loop of about a kilometre from the Forum along the Via dell'Abbondanza and back by the Via Stabiana and the Via della Fortuna." }
+  facts:
+    - { label: "Buried", text: "24 August AD 79, under ash and pumice from Vesuvius; dug out from the 1700s on" }
+    - { label: "Size", text: "About 66 hectares inside the walls, with some 11,000 people living there" }
+    - { label: "Amphitheatre", text: "Built about 70 BC for around 20,000 people, the oldest stone amphitheatre that survives" }
+    - { label: "In the game", text: "The streets and houses, the Forum with its colonnades and the Temple of Jupiter, the amphitheatre and Vesuvius" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 - id: stonehenge
   name: Stonehenge
   place: Wiltshire, England
@@ -59,11 +78,6 @@
   place: Athens, Greece
   soon: true
   card: "The Parthenon and the other temples on the rock above Athens."
-- id: pompeii
-  name: Pompeii
-  place: Campania, Italy
-  soon: true
-  card: "The Roman town buried by Vesuvius in AD 79: its streets, forum and houses."
 - id: machu-picchu
   name: Machu Picchu
   place: Cusco region, Peru

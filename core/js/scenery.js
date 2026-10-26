@@ -23,6 +23,12 @@ import { addSitters } from './sitters.js';
 import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
+import { romanUpper, romanGround } from './roman.js';
+
+// A city whose LOOK has style 'italian' or 'roman' draws its house fronts as plaster in the manner of
+// js/italian.js or js/roman.js, and not tinted (a texture per colour); the other cities' are Ghent's.
+const PLASTER = LOOK?.style === 'italian' || LOOK?.style === 'roman';
+const manner = LOOK?.style === 'roman' ? { upper: romanUpper, ground: romanGround } : { upper: italianUpper, ground: italianGround };
 
 // Deterministic random so each course looks the same every time.
 function mulberry32(seed) {
@@ -361,10 +367,10 @@ function italianTexture(wall, floors, r, draw) {
 
 // A row-house front with the given number of storeys: two windows upstairs, a window and the door below.
 function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false) {
-  if (LOOK?.style === 'italian') {
+  if (PLASTER) {
     return italianTexture(wall, floors, r, g => {
-      italianUpper(g, floors, LOOK.shutters, v, r);
-      italianGround(g, (floors - 1) * 80, door, v);
+      manner.upper(g, floors, LOOK.shutters, v, r);
+      manner.ground(g, (floors - 1) * 80, door, v);
     });
   }
   return canvasTexture(128, 80 * floors, (g, w, h) => {
@@ -423,10 +429,10 @@ function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false) {
 // Flats, schools and workshops: bands of wide windows, no front doors.
 function blockTexture(wall, floors, r, v = 0) {
   // in an Italian town the big buildings are palazzi: the same fronts, a grander door
-  if (LOOK?.style === 'italian') {
+  if (PLASTER) {
     return italianTexture(wall, floors, r, g => {
-      italianUpper(g, floors, LOOK.shutters, v + 1, r);
-      italianGround(g, (floors - 1) * 80, DOORS[v % DOORS.length], v);
+      manner.upper(g, floors, LOOK.shutters, v + 1, r);
+      manner.ground(g, (floors - 1) * 80, DOORS[v % DOORS.length], v);
     });
   }
   return canvasTexture(128, 64 * floors, (g, w, h) => {
@@ -836,7 +842,7 @@ const SHOP_STYLES = {
 // over a thousand of them in Ghent, ran a phone out of memory.
 function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false) {
   // in an Italian town the storeys above the shop are the houses' own (js/italian.js)
-  const italian = LOOK?.style === 'italian', k = italian ? 2 : 1;
+  const italian = PLASTER, k = italian ? 2 : 1;
   return canvasTexture(128 * k, 80 * floors * k, (g, cw, ch) => {
     g.fillStyle = wall;
     g.fillRect(0, 0, cw, ch);
@@ -845,7 +851,7 @@ function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false) {
     g.scale(k, k);
     const w = 128;
     if (italian) {
-      italianUpper(g, floors, LOOK.shutters, v, r);
+      manner.upper(g, floors, LOOK.shutters, v, r);
     } else {
       const win = (x, y, ww, hh) => {
         g.fillStyle = '#f5f1e8';
@@ -1037,7 +1043,7 @@ function photoWall(hex, walls = GENT_WALLS) {
   return [hex, (r > g + 25 && r > b + 35) || walls[nearestWall(hex, walls)][1]];
 }
 // an Italian town's fronts are drawn otherwise (js/italian.js), and not tinted: a texture per colour
-const TINTS = LOOK?.style !== 'italian';
+const TINTS = !PLASTER;
 
 // The houses in the old town (OLD_TOWN, <city>/city.js) that turn a gable end to the street or a
 // square, by their index: narrow enough for a stepped gable, with open ground just past an end of

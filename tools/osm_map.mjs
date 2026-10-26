@@ -80,6 +80,22 @@ try {
   addStreets(data, area);
   // ways to leave out, by OpenStreetMap id (a park drawn over the moat, say)
   if (area.drop?.length) data.ways = data.ways.filter(w => !area.drop.includes(w.id));
+  // ruins drawn as sites, not buildings (Pompeii's houses are historic=archaeological_site): the closed
+  // ones up to `max` metres across become buildings, but not the open squares, gardens and palaestrae
+  if (area.ruins_as_buildings) {
+    const { max = 100, skip = '^(Foro|Palestra|Giardino|Orto|Area|Piazza)' } = area.ruins_as_buildings, kx = 111320 * Math.cos((area.origin?.[0] ?? area.bbox[0]) * Math.PI / 180);
+    for (const w of data.ways) {
+      const t = w.tags;
+      if (!t || t.building || !['archaeological_site', 'ruins'].includes(t.historic) || w.nodes[0] !== w.nodes.at(-1) || t.highway || t.leisure || t.tourism === 'picnic_site') continue;
+      if (t.name && new RegExp(skip, 'i').test(t.name)) continue;
+      const p = w.nodes.map(i => data.nodes[i]).filter(Boolean);
+      if (p.length < 4) continue;
+      const lat = p.map(q => q.lat), lon = p.map(q => q.lon);
+      if (Math.max((Math.max(...lat) - Math.min(...lat)) * 110540, (Math.max(...lon) - Math.min(...lon)) * kx) <= max) t.building = 'yes';
+    }
+  }
+  // a surface for the streets that have none tagged or only a plain one ('sett': basalt blocks, for Pompeii)
+  if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
   // only the buildings that are something: named, a part of one, historic or a place of worship
   if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
   const { map, info } = buildMap(data, area);
