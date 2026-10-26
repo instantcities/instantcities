@@ -92,11 +92,18 @@ fs.writeFileSync(path.join(WWW, 'fonts/fonts.css'), css);
 // each city's game page: core/game.html filled in the way tools/pages.mjs does it. The links to the
 // website (the corner link, the menu's 🌐 chip and the pause menu's way back) go to the city picker.
 const template = fs.readFileSync(path.join(ROOT, 'core/game.html'), 'utf8');
+// the menu's own city picker ({{city_links}}): every city with a game, in the site's order, as
+// tools/pages.mjs makes it, but naming each page (see above)
+const playable = [...fs.readFileSync(path.join(ROOT, '_data/cities.yml'), 'utf8').matchAll(/^- id: (\S+)\n {2}name: (.+)$/gm)]
+  .map(([, id, name]) => ({ id, name: name.replace(/^["']|["']$/g, '') }))
+  .filter(c => cities.includes(c.id));
+const cityLinks = id => playable.map(c => `<a class="chip${c.id === id ? ' on' : ''}" role="option" href="../../${c.id}/play/index.html">${c.name}</a>`).join('');
 const pages = {};
 for (const id of cities) {
   const page = { style: '', site: SITE, loader_jokes: [], ...JSON.parse(fs.readFileSync(path.join(ROOT, id, 'page.json'), 'utf8')),
     loader: fs.readFileSync(path.join(ROOT, id, 'loader.html'), 'utf8') };
   page.city ??= page.name.replace(/^Instant /, '');
+  page.city_links = cityLinks(id);
   pages[id] = page;
   let html = template
     .replace(/^<!doctype html>\n<!--.*?-->\n/is, `<!doctype html>\n<!-- The iOS app's copy of ${id}/play/index.html: made by \`npm run build\` in app/, do not edit by hand. -->\n`)
@@ -145,24 +152,27 @@ fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
   <title>Instant Cities</title>
   <link rel="stylesheet" href="fonts/fonts.css">
   <style>
-    :root { color-scheme: dark; }
+    :root { color-scheme: light dark; --bg: #fff; --card: #f4f2ef; --press: #e8e5e0; --ink: #1d1a17; --muted: #6f675d; --text: #3d3730; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1d1a17; --card: #2a2622; --press: #36312c; --ink: #f4efe8; --muted: #b9b0a4; --text: #d9d2c8; } }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    html, body { margin: 0; background: #1d1a17; color: #f4efe8; font-family: Nunito, system-ui, sans-serif; -webkit-user-select: none; user-select: none; }
-    main { max-width: 960px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 16px) calc(env(safe-area-inset-bottom) + 28px) calc(env(safe-area-inset-left) + 16px); }
+    html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--ink); font-family: Nunito, system-ui, sans-serif; -webkit-user-select: none; user-select: none; }
+    /* the app keeps its web view from scrolling (capacitor.config.json, for the game), so the list scrolls in here */
+    main { position: fixed; inset: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+    .page { max-width: 960px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 16px) calc(env(safe-area-inset-bottom) + 28px) calc(env(safe-area-inset-left) + 16px); }
     header { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
     header img { width: 52px; height: 52px; }
     h1 { font-family: 'Lilita One', Nunito, sans-serif; font-weight: 400; font-size: 34px; margin: 0; letter-spacing: .5px; }
-    header p { margin: 2px 0 0; color: #b9b0a4; font-weight: 700; }
+    header p { margin: 2px 0 0; color: var(--muted); font-weight: 700; }
     ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
-    a { display: block; height: 100%; padding: 14px 16px 15px; border-radius: 16px; background: #2a2622; color: inherit; text-decoration: none; border-left: 6px solid var(--accent); }
-    a:active { background: #36312c; }
+    a { display: block; height: 100%; padding: 13px 15px 12px; border-radius: 6px; background: var(--card); color: inherit; text-decoration: none; border-bottom: 5px solid var(--accent); }
+    a:active { background: var(--press); }
     strong { display: block; font-family: 'Lilita One', Nunito, sans-serif; font-weight: 400; font-size: 24px; }
-    small { display: block; color: #b9b0a4; font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 4px; }
-    span { display: block; color: #d9d2c8; font-size: 14px; line-height: 1.35; font-weight: 700; margin-top: 4px; }
+    small { display: block; color: var(--muted); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 4px; }
+    span { display: block; color: var(--text); font-size: 14px; line-height: 1.35; font-weight: 700; margin-top: 4px; }
   </style>
 </head>
 <body>
-  <main>
+  <main><div class="page">
     <header>
       <img src="assets/logo.svg" alt="">
       <div><h1>Instant Cities</h1><p>Pick a city to play</p></div>
@@ -170,7 +180,7 @@ fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
     <ul>
 ${listed.map(c => `      <li><a href="${c.id}/play/index.html" style="--accent: ${esc(accent(c.id))}"><small>${esc(c.country)}</small><strong>${esc(c.name)}</strong><span>${esc(c.card)}</span></a></li>`).join('\n')}
     </ul>
-  </main>
+  </div></main>
 </body>
 </html>
 `);
