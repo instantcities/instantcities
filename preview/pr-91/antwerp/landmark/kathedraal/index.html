@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/antwerp/landmark/kathedraal/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/anvers/monument/kathedraal/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/antwerpen/bezienswaardigheid/kathedraal/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-91/en/antwerp/landmark/kathedraal/", "fr": "/preview/pr-91/fr/anvers/monument/kathedraal/", "nl": "/preview/pr-91/nl/antwerpen/bezienswaardigheid/kathedraal/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-91/en/antwerp/landmark/kathedraal/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-91/en/antwerp/landmark/kathedraal/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-91/fr/anvers/monument/kathedraal/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-91/nl/antwerpen/bezienswaardigheid/kathedraal/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
