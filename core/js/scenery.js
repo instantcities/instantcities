@@ -15,7 +15,7 @@ import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
 export { drawAgain } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, NO_TREES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -2057,6 +2057,7 @@ function fountains(ctx, list) {
 
 // Trees from the map, and more of them in its parks and woods.
 function osmTrees(ctx, map) {
+  if (NO_TREES) return; // open country (a city's or site's city.js says NO_TREES = true)
   const { r } = ctx;
   const list = { pine: [], round: [], poplar: [] };
   // (a map tree stands off the houses: its crown is 2.5 m across, and some stand against a front or in
