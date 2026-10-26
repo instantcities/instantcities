@@ -1,0 +1,56 @@
+{
+  "city": "Barcelona",
+  "bbox": [
+    41.374,
+    2.166,
+    41.389,
+    2.184
+  ],
+  "zone_points": [
+    [
+      41.389,
+      2.166
+    ],
+    [
+      41.389,
+      2.184
+    ],
+    [
+      41.374,
+      2.184
+    ],
+    [
+      41.374,
+      2.166
+    ]
+  ],
+  "routes": [
+    {
+      "id": "rambla",
+      "route": [
+        "Plaça de Catalunya",
+        "Carrer de Pelai",
+        "La Rambla",
+        "Plaça del Portal de la Pau",
+        "Passeig de Colom",
+        "Plaça del Duc de Medinaceli",
+        "Carrer Ample",
+        "Carrer d'Avinyó",
+        "Carrer de Ferran",
+        "Plaça de Sant Jaume",
+        "Carrer del Paradís",
+        "Carrer de la Pietat",
+        "Carrer dels Comtes",
+        "Pla de la Seu",
+        "Avinguda de la Catedral",
+        "Carrer dels Arcs",
+        "Avinguda del Portal de l'Àngel",
+        "Carrer de Fontanella"
+      ]
+    }
+  ],
+  "gables": false,
+  "floors": 5,
+  "hw": 4,
+  "roofs": "flat"
+}

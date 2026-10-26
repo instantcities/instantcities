@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/berlin/landmark/gendarmenmarkt/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/berlin/monument/gendarmenmarkt/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/berlijn/bezienswaardigheid/gendarmenmarkt/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-92/en/berlin/landmark/gendarmenmarkt/", "fr": "/preview/pr-92/fr/berlin/monument/gendarmenmarkt/", "nl": "/preview/pr-92/nl/berlijn/bezienswaardigheid/gendarmenmarkt/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-92/en/berlin/landmark/gendarmenmarkt/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-92/en/berlin/landmark/gendarmenmarkt/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-92/fr/berlin/monument/gendarmenmarkt/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-92/nl/berlijn/bezienswaardigheid/gendarmenmarkt/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

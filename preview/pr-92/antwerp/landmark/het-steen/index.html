@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/antwerp/landmark/het-steen/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/anvers/monument/het-steen/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/antwerpen/bezienswaardigheid/het-steen/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-92/en/antwerp/landmark/het-steen/", "fr": "/preview/pr-92/fr/anvers/monument/het-steen/", "nl": "/preview/pr-92/nl/antwerpen/bezienswaardigheid/het-steen/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-92/en/antwerp/landmark/het-steen/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-92/en/antwerp/landmark/het-steen/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-92/fr/anvers/monument/het-steen/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-92/nl/antwerpen/bezienswaardigheid/het-steen/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

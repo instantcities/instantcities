@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/siena/landmark/san-domenico/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/sienne/monument/san-domenico/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/siena/bezienswaardigheid/san-domenico/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-92/en/siena/landmark/san-domenico/", "fr": "/preview/pr-92/fr/sienne/monument/san-domenico/", "nl": "/preview/pr-92/nl/siena/bezienswaardigheid/san-domenico/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-92/en/siena/landmark/san-domenico/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-92/en/siena/landmark/san-domenico/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-92/fr/sienne/monument/san-domenico/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-92/nl/siena/bezienswaardigheid/san-domenico/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

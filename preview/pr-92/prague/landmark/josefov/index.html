@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/prague/landmark/josefov/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/prague/monument/josefov/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/praag/bezienswaardigheid/josefov/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-92/en/prague/landmark/josefov/", "fr": "/preview/pr-92/fr/prague/monument/josefov/", "nl": "/preview/pr-92/nl/praag/bezienswaardigheid/josefov/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-92/en/prague/landmark/josefov/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-92/en/prague/landmark/josefov/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-92/fr/prague/monument/josefov/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-92/nl/praag/bezienswaardigheid/josefov/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "id": "giza",
+  "name": "Instant Giza",
+  "title": "Instant Giza: a free virtual 3D tour and game of the pyramids and the Sphinx",
+  "description": "Take a free virtual 3D tour of the Giza plateau in your browser, then walk, cycle or ride past the pyramids and the Sphinx yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Giza: a virtual 3D tour of the pyramids",
+  "share_description": "Walk, cycle or ride past the pyramids and the Sphinx of Giza in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set at the pyramids of Giza in Egypt: explore the plateau or race round it by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Walk, cycle or ride past the 3D pyramids of Giza in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Giza",
+  "style": ":root { --paper: #fbf5e6; --accent: #a8742c; --accent-soft: #f1e2c4; --gold: #d9a72e; --sky: #f4e6c8; --skyline: #d8be8a; --glass: rgba(251, 245, 230, 0.72); } .tag { color: #6a4818; }"
+}

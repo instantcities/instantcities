@@ -1,0 +1,12 @@
+{
+  "id": "madrid",
+  "name": "Instant Madrid",
+  "title": "Instant Madrid: a free virtual 3D tour and game of Madrid",
+  "description": "Take a free virtual 3D tour of the centre of Madrid in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Madrid: a virtual 3D tour of Madrid",
+  "share_description": "Cycle, walk or gallop through Madrid in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Madrid, Spain: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Madrid in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Madrid",
+  "style": ":root { --paper: #fdf8ee; --accent: #c0392b; --accent-soft: #f6dcd8; --gold: #f2c230; --sky: #f1e6d2; --skyline: #d4ae86; --glass: rgba(253, 248, 238, 0.72); } .tag { color: #7a2f24; }"
+}
