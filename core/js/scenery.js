@@ -15,7 +15,7 @@ import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
 export { drawAgain } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, LOOKS, BOATS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -2073,7 +2073,8 @@ function osmTrees(ctx, map) {
   const underArea = (x, z) => over.some((p, i) => x > overBoxes[i][0] && x < overBoxes[i][2] && z > overBoxes[i][1] && z < overBoxes[i][3] && pointIn(x, z, p));
   for (let k = 0; k < map.trees.length; k += 2) {
     const x = map.trees[k], z = map.trees[k + 1], size = 0.8 + r() * 0.5, rot = r() * 6; // (drawn either way: the rest keep their sizes)
-    if (!onHouse(x, z) && !underArea(x, z)) list.round.push({ x, z, s: size, rot });
+    // (a city's MAP_TREES = 'poplar' draws the map's own trees as tall narrow ones: the cypresses of a garden)
+    if (!onHouse(x, z) && !underArea(x, z)) (MAP_TREES === 'poplar' ? list.poplar : list.round).push({ x, z, s: size, rot });
   }
   for (const a of map.areas) {
     if (a.k !== 'green' && a.k !== 'wood') continue;

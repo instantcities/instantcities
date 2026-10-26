@@ -45,13 +45,13 @@ function face(kit, i) {
   const slab = (s0, s1, holes, o0, o1, hex) => wall(kit, path, rectRing(s0, s1, PLINTH, ROOF), { holes, o0, o1, hex });
   if (L > 20) {
     // the pishtaq: 17.5 m wide, standing out 1.2 m, higher than the roof; the iwan cut deep into it
-    const P = 8.75;
-    wall(kit, path, rectRing(mid - P, mid + P, PLINTH, ROOF + 2.2), {
-      holes: [pointedRing(mid, 10.4, PLINTH + 0.2, PLINTH + 24, 1.25), pointedRing(mid, 8.2, PLINTH + 26.2, PLINTH + 31.8, 1.25)],
+    const P = 10.2;
+    wall(kit, path, rectRing(mid - P, mid + P, PLINTH, ROOF + 4), {
+      holes: [pointedRing(mid, 12.4, PLINTH + 0.2, PLINTH + 27, 1.25), pointedRing(mid, 9.6, PLINTH + 28.6, PLINTH + 33.6, 1.25)],
       o0: -4.2, o1: 1.2, hex: MARBLE,
     });
-    frame(kit, path, mid, 10.4, PLINTH + 0.2, PLINTH + 24, 1.25);
-    frame(kit, path, mid, 8.2, PLINTH + 26.2, PLINTH + 31.8, 1.25);
+    frame(kit, path, mid, 12.4, PLINTH + 0.2, PLINTH + 27, 1.25);
+    frame(kit, path, mid, 9.6, PLINTH + 28.6, PLINTH + 33.6, 1.25);
     // the two bays either side of it, each with a niche over a niche
     for (const [s0, s1] of [[0, mid - P], [mid + P, L]]) {
       const c = (s0 + s1) / 2, w = (s1 - s0) * 0.62;
@@ -85,15 +85,14 @@ function chhatri(kit, x, y, z, r, h, dome) {
 
 function dome(kit) {
   // the drum, 16-sided
-  lathe(kit, [[10.4, ROOF], [10.4, ROOF + 8], [10.1, ROOF + 8]], MARBLE2, 16);
-  kit.add(new THREE.CylinderGeometry(10.4, 10.4, 8, 16), MARBLE2, 0, ROOF + 4, 0);
+  kit.add(new THREE.CylinderGeometry(10.8, 10.8, 9, 16), MARBLE2, 0, ROOF + 4.5, 0);
   kit.add(new THREE.CylinderGeometry(11.2, 11.2, 0.7, 16), MARBLE, 0, ROOF + 0.35, 0);
   // the onion dome, up to the lotus
-  const base = ROOF + 8;
-  const pts = [[10.3, 0], [11.4, 1.5], [12.1, 3.4], [12.3, 6], [11.9, 9], [10.8, 12], [9, 14.8], [6.9, 17.4], [4.8, 19.6], [3.1, 21.3], [2, 22.4], [1.3, 23]];
+  const base = ROOF + 9;
+  const pts = [[10.6, 0], [12.4, 1.5], [13.6, 3.6], [14, 6.6], [13.5, 9.8], [12.2, 13], [10.2, 16], [7.8, 18.8], [5.4, 21], [3.5, 22.8], [2.2, 24], [1.4, 24.6]];
   lathe(kit, pts.map(([r, y]) => [r, base + y]), MARBLE, 40);
   // the lotus, and the finial: gold, three balls on a spire with the crescent
-  const t = base + 23;
+  const t = base + 24.6;
   lathe(kit, [[1.7, t - 0.4], [2.1, t + 0.4], [1.2, t + 1.2], [0.5, t + 1.5]], MARBLE, 12);
   kit.add(new THREE.CylinderGeometry(0.18, 0.3, 8, 6), GOLD, 0, t + 5, 0);
   for (const [y, r] of [[t + 2.3, 0.75], [t + 4.4, 0.55], [t + 6.2, 0.4]]) kit.add(new THREE.SphereGeometry(r, 8, 6), GOLD, 0, y, 0);
@@ -105,10 +104,10 @@ function dome(kit) {
 function minaret(kit, x, z) {
   // an octagonal base, the shaft in three storeys with a balcony each, and the chhatri on top
   const y0 = PLINTH;
-  kit.add(new THREE.CylinderGeometry(4.5, 4.8, 3.6, 8), MARBLE2, x, y0 + 1.8, z, 0, Math.PI / 8);
-  kit.add(new THREE.CylinderGeometry(4.0, 4.5, 0.8, 8), MARBLE, x, y0 + 4, z, 0, Math.PI / 8);
+  kit.add(new THREE.CylinderGeometry(3.9, 4.2, 3.6, 8), MARBLE2, x, y0 + 1.8, z, 0, Math.PI / 8);
+  kit.add(new THREE.CylinderGeometry(3.5, 3.9, 0.8, 8), MARBLE, x, y0 + 4, z, 0, Math.PI / 8);
   const balconies = [y0 + 12.6, y0 + 22.8, y0 + 32.2];
-  let from = y0 + 4.4, r0 = 3.4;
+  let from = y0 + 4.4, r0 = 2.9;
   balconies.forEach((by, k) => {
     const r1 = r0 - 0.35;
     kit.add(new THREE.CylinderGeometry(r1, r0, by - from, 8), k % 2 ? MARBLE : MARBLE2, x, (from + by) / 2, z, 0, Math.PI / 8);
