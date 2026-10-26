@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Instant Cities | Main website and engine to run instant cities</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Instant Cities" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Main website and engine to run instant cities" />
+<meta property="og:description" content="Main website and engine to run instant cities" />
+<link rel="canonical" href="https://instantcities.net/CLAUDE.html" />
+<meta property="og:url" content="https://instantcities.net/CLAUDE.html" />
+<meta property="og:site_name" content="Instant Cities" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Instant Cities" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Main website and engine to run instant cities","headline":"Instant Cities","url":"https://instantcities.net/CLAUDE.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/preview/pr-82/assets/css/style.css?v=08cd5de892064116bdac33677100a3bf58cc8b32">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+
+      <h1 id="instant-cities">Instant Cities</h1>
+
+<h2 id="testing-in-a-headless-browser">Testing in a headless browser</h2>
+
+<p>Headless Chrome renders the game’s WebGL on the CPU, which makes a laptop run hot. It is fine to
+use for checking a change, but keep it light:</p>
+
+<ul>
+  <li>Run one headless browser at a time; close it (<code class="language-plaintext highlighter-rouge">browser.close()</code>) as soon as the check is done.</li>
+  <li>Prefer a short check (a screenshot, reading the DOM) over leaving the game running for minutes.</li>
+  <li>Do not start several test scripts in parallel or leave one running in the background.</li>
+</ul>
+
+<h2 id="commit-messages">Commit messages</h2>
+
+<ul>
+  <li>A commit that fixes the map (a street, bridge, path, quay, island or square that lies wrong: too high
+or low, in the wrong place, crossing something it should pass over or under) starts with <code class="language-plaintext highlighter-rouge">mapfix:</code>,
+e.g. <code class="language-plaintext highlighter-rouge">mapfix: Citadellaan bridge higher, the fietsbrug along the Schelde passes under it</code>. Keep a map
+fix in a commit of its own, not mixed with game or other changes, so <code class="language-plaintext highlighter-rouge">git log --grep '^mapfix:'</code>
+lists them all (the older ones, from before this rule, are listed in <code class="language-plaintext highlighter-rouge">docs/mapfixes.md</code>). A PR that
+is only a map fix gets the same prefix in its title.</li>
+</ul>
+
+<h2 id="facadinator-pull-requests">Facadinator pull requests</h2>
+
+<p>When a PR colours a street’s fronts with <code class="language-plaintext highlighter-rouge">tools/facadinator.mjs</code>, its description always has the
+screenshots of that street in the game (a few views of it, taken with one light headless browser, see
+above), under a heading with the street’s name and the progress: fronts coloured out of the street’s
+fronts, and the city total (as <code class="language-plaintext highlighter-rouge">tools/todo.mjs</code> prints it). Put the images on a separate
+<code class="language-plaintext highlighter-rouge">pr&lt;number&gt;-screenshots</code> branch (kept out of the PR’s diff) and link them with <code class="language-plaintext highlighter-rouge">?raw=true</code>.</p>
+
+<h2 id="pull-request-previews">Pull request previews</h2>
+
+<p>Every PR gets a preview at <code class="language-plaintext highlighter-rouge">https://instantcities.net/preview/pr-&lt;n&gt;/</code> (<code class="language-plaintext highlighter-rouge">.github/workflows/preview.yml</code>,
+on the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch). After pushing to a PR, check that the <code class="language-plaintext highlighter-rouge">PR Preview</code> run succeeded and give
+Wouter the link to the page the change shows on; if the run failed, say so and fix it.</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
