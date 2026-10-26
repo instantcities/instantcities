@@ -9,7 +9,7 @@ import { addTramStops } from './tramstops.js';
 import { addParkedBikes } from './bikers.js';
 import { LOW_POWER, PARKED } from './device.js';
 import { WATER } from './relief.js';
-import { settTexture, slabTexture } from './track.js';
+import { settTexture, slabTexture, lavaTexture, gravelTexture } from './track.js';
 import { addLandmarks } from './landmarks.js';
 import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
@@ -23,7 +23,7 @@ import { addSitters } from './sitters.js';
 import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
-import { romanUpper, romanGround } from './roman.js';
+import { romanUpper, romanGround, dryGround, ruinPainter, ruinWall, RUIN_VARIANTS, RUIN_TILE } from './roman.js';
 
 // A city whose LOOK has style 'italian' or 'roman' draws its house fronts as plaster in the manner of
 // js/italian.js or js/roman.js, and not tinted (a texture per colour); the other cities' are Ghent's.
@@ -161,7 +161,8 @@ function ground(ctx) {
     g.fillStyle = theme.ground;
     g.fillRect(0, 0, w, h);
     noise(g, w, h, r, 26, [0.6, 1, 0.5]);
-    for (let k = 0; k < 600; k++) {
+    if (theme.roman) dryGround(g, w, h, r);
+    else for (let k = 0; k < 600; k++) {
       g.strokeStyle = strokes[Math.floor(r() * strokes.length)];
       g.lineWidth = 1;
       const x = r() * w, y = r() * h;
@@ -284,6 +285,22 @@ function roofGeometry() {
   return geo;
 }
 
+// The floor inside a ruin: bare earth and grit, a tile of it every 4 m, made once
+let earth = null;
+function earthFloor(ctx) {
+  return earth ??= (() => {
+    const t = canvasTexture(128, 128, (g, w, h) => {
+      g.fillStyle = '#8a7a5e';
+      g.fillRect(0, 0, w, h);
+      noise(g, w, h, ctx.r, 28, [1, 0.9, 0.7]);
+      dryGround(g, w, h, ctx.r);
+      for (let k = 0; k < 40; k++) { const v = 80 + ctx.r() * 70; g.fillStyle = `rgb(${v},${v * 0.9},${v * 0.78})`; g.beginPath(); g.ellipse(ctx.r() * w, ctx.r() * h, 1.5 + ctx.r() * 4, 1 + ctx.r() * 2.6, ctx.r() * 3, 0, Math.PI * 2); g.fill(); } // lumps of fallen masonry
+    });
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    return t;
+  })();
+}
+
 function groundMats(ctx) {
   const { r } = ctx;
   const tex = (draw, size = 128) => {
@@ -308,6 +325,7 @@ function groundMats(ctx) {
     g.fillStyle = color;
     g.fillRect(0, 0, w, h);
     noise(g, w, h, r, 24);
+    if (ctx.theme.roman) { dryGround(g, w, h, r); return; }
     for (let k = 0; k < 300; k++) {
       g.strokeStyle = r() < 0.5 ? 'rgba(38,92,30,0.35)' : 'rgba(160,215,110,0.3)';
       const x = r() * w, y = r() * h;
@@ -318,7 +336,7 @@ function groundMats(ctx) {
   return {
     asphalt: mat(0xffffff, 0.9, { map: asphalt }),
     bike: mat(0xffffff, 0.9, { map: red }),
-    pavement: mat(0xffffff, 0.95, { map: pavement }),
+    pavement: mat(0xffffff, 0.95, { map: ctx.theme.roman ? gravelTexture(ctx.theme.verge) : pavement }),
     garden: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#5f9f45') }),
     park: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#6bb04c') }), // (a city's LOOK.grass: dry grass for the south)
     gravel: mat(0xffffff, 1, { map: gravel }),
@@ -1235,6 +1253,13 @@ function osmBuildings(ctx, map) {
       const [wc, brick] = own ?? GENT_WALLS[hc], wf = even ? quarter.storeys : floors;
       wall = [`h${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${wf}`, rr => floorsTexture(tint ? NEUTRAL : wc, brick, DOORS[hc % DOORS.length], wf, rr, hc, !!tint), !!tint];
     }
+    // a ruin: every wall of rubble masonry, the street front with a doorway or a shop's opening
+    let ruin = null;
+    if (LOOK?.ruins) {
+      const c = Math.floor(hv * RUIN_VARIANTS), kind = hashOf(i + 21) < 0.3 ? 'shop' : 'door';
+      const walls = [0, 1, 2].map(m => [`ruin${c}-${['', 'door', 'shop'][m]}`, rr => canvasTexture(512, 342, ruinPainter(c, ['', 'door', 'shop'][m], c * 3 + m))]);
+      ruin = { plain: walls[0], front: kind === 'shop' ? walls[2] : walls[1], seed: i * 7 + c, h: Math.min(RUIN_TILE[1] - 0.5, b.f > 1 ? 5.4 : 3.8 + hashOf(i + 23) * 1.2) };
+    }
     // on a shopping street, about half the fronts get a shop on the ground floor
     let shop = null;
     if (dress) {
@@ -1271,7 +1296,7 @@ function osmBuildings(ctx, map) {
       if (row) rh = Math.min(rh, 3, Math.max(1, span * 0.29));
       roof = { cx, cz, ang, ridge, span, h, rh, sg, wall: own?.[0] ?? GENT_WALLS[hc][0], c: b.rc ?? GENT_ROOFS[Math.floor(hashOf(i + 7) * GENT_ROOFS.length)] };
     }
-    const house = { p, signed, stone, y0, h, spire, wall, tint, module, houseFronts, shop, shopWall, shopFloors, fe: b.fe, roof, dress, frontK: dress ? frontEdges(p, signed, dress) : null };
+    const house = { ruin, p, signed, stone, y0, h, spire, wall, tint, module, houseFronts, shop, shopWall, shopFloors, fe: b.fe, roof, dress, frontK: dress ? frontEdges(p, signed, dress) : null };
     eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
       if (!shop || k !== b.fe) return;
       // the shop's front: its sign above the window, an awning, a terrace
@@ -1332,7 +1357,7 @@ function dropWall(key) {
 // The walls and roofs of a tile's houses, as one group.
 function buildHouses(city, houses) {
   const group = new THREE.Group(), ctx = { ...city, group };
-  const walls = new Map(), roofCaps = new Batch(), spires = new Batch(), gables = [];
+  const walls = new Map(), roofCaps = new Batch(), floors = new Batch(), spires = new Batch(), gables = [], lumps = [], weeds = [];
   const batchOf = wall => {
     if (!walls.has(wall[0])) walls.set(wall[0], { batch: new Batch(wall[2]), wall });
     return walls.get(wall[0]).batch;
@@ -1350,7 +1375,17 @@ function buildHouses(city, houses) {
       }
     }
     let along = 0;
-    eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
+    if (house.ruin) {
+      const R = house.ruin, front = batchOf(R.front), plain = batchOf(R.plain);
+      eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
+        const isFront = k === house.fe, wb = isFront ? front : plain, u = RUIN_TILE[0];
+        // the front's doorway in the middle of the wall; the others' stones from wherever
+        const u0 = isFront ? 0.5 - L / (2 * u) : (hashOf(k * 17 + R.seed) * 3 + along / u), u1 = isFront ? 0.5 + L / (2 * u) : u0 + L / u;
+        along += L;
+        // seen from outside the texture runs left to right
+        ruinWall(wb, ax, az, bx, bz, nx, nz, L, y0, R.h, R.seed, ...(dx * nz - dz * nx < 0 ? [u1, u0] : [u0, u1]));
+      });
+    } else eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
       const isShop = shop && k === house.fe, wb = isShop ? shopBatch : batch;
       // a shop's front, and a quarter's house fronts on the street, a whole number of house fronts across
       const whole = isShop ? Math.max(1, Math.round(L / MODULE)) : k === house.fe && house.houseFronts;
@@ -1375,6 +1410,16 @@ function buildHouses(city, houses) {
         if (signed > 0) spires.idx.push(a, top, c);
         else spires.idx.push(a, c, top);
       }
+    } else if (house.ruin) {
+      flatPolygon(floors, p, y0 + 0.08, 4); // open to the sky: earth and rubble for a floor
+      // lumps of fallen masonry and tufts of weed on it, a few to the 30 square metres
+      const xs = p.filter((_, k) => !(k % 2)), zs = p.filter((_, k) => k % 2), x0 = Math.min(...xs), x1 = Math.max(...xs), z0 = Math.min(...zs), z1 = Math.max(...zs);
+      for (let k = 0, want = Math.min(9, 2 + Math.round(Math.abs(signed) / 14)), tries = 0; k < want && tries < 40; tries++) {
+        const sx = x0 + hashOf(house.ruin.seed * 31 + tries * 3) * (x1 - x0), sz = z0 + hashOf(house.ruin.seed * 31 + tries * 3 + 1) * (z1 - z0);
+        if (!pointIn(sx, sz, p)) continue;
+        (k % 3 ? lumps : weeds).push({ x: sx, z: sz, y: y0, a: hashOf(tries * 7 + house.ruin.seed) * 6.28, s: 0.5 + hashOf(tries * 11 + house.ruin.seed) * 0.9, c: hashOf(tries * 13 + house.ruin.seed) });
+        k++;
+      }
     } else if (roof) {
       gables.push(roof);
     } else {
@@ -1384,11 +1429,24 @@ function buildHouses(city, houses) {
   }
   for (const { batch, wall } of walls.values()) {
     if (!batch.idx.length) continue;
-    batch.mesh(ctx, wall[2] ? tinted(takeWall(wall)) : mat(0xffffff, 0.9, { map: takeWall(wall) }), { shadow: true });
+    batch.mesh(ctx, wall[2] ? tinted(takeWall(wall)) : mat(0xffffff, 0.9, { map: takeWall(wall), side: LOOK?.ruins ? THREE.DoubleSide : THREE.FrontSide }), { shadow: true });
   }
   const used = [...walls.values()].filter(w => w.batch.pos === null).map(w => w.wall[0]); // built: its numbers let go
   group.userData.gone = () => used.forEach(dropWall);
   roofCaps.mesh(ctx, mat(LOOK?.flatRoof ?? 0x6e6c69, 0.9, { side: THREE.DoubleSide }), { shadow: true });
+  if (floors.idx.length) floors.mesh(ctx, mat(0xffffff, 1, { map: earthFloor(ctx) }), { shadow: false });
+  if (lumps.length) {
+    const tones = ['#9a8b74', '#b3a285', '#8a7d68', '#a2573f', '#7f776c'];
+    instanced(ctx, new THREE.DodecahedronGeometry(0.5, 0).scale(1, 0.6, 0.8), mat(0xffffff, 1, { flatShading: true }), lumps, (d, l) => {
+      d.position.set(l.x, l.y + 0.1 * l.s, l.z); d.rotation.set(0, l.a, 0); d.scale.set(l.s, l.s * 0.8, l.s * 0.85);
+    }, { color: l => new THREE.Color(tones[Math.floor(l.c * tones.length)]) });
+  }
+  if (weeds.length) {
+    const tones = ['#8a8a45', '#a39a58', '#6e7a3a', '#b4a665'];
+    instanced(ctx, new THREE.ConeGeometry(0.45, 0.9, 5).translate(0, 0.45, 0), mat(0xffffff, 1, { flatShading: true }), weeds, (d, l) => {
+      d.position.set(l.x, l.y + 0.05, l.z); d.rotation.set(0, l.a, 0); d.scale.set(l.s, l.s * 0.9, l.s);
+    }, { color: l => new THREE.Color(tones[Math.floor(l.c * tones.length)]), shadow: false });
+  }
   spires.mesh(ctx, mat(0x4f5a5e, 0.7, { side: THREE.DoubleSide, flatShading: true }), { shadow: true });
   if (gables.length) {
     instanced(ctx, roofGeometry(), mat(0xffffff, 0.85, { flatShading: true }), gables, (d, g) => {
@@ -1987,7 +2045,7 @@ function osmGround(ctx, map, m) {
   const discs = new Batch();
   bikeDiscs(discs, map, bikeNames, GROUND.lines);
   discs.mesh(ctx, onGround(mat(0xffffff, 0.8, { map: bikeDiscTexture(), alphaTest: 0.5 }), GROUND.lines));
-  const settMat = mat(0xffffff, 0.95, { map: settTexture(16, 24) }), slabMat = mat(0xffffff, 0.95, { map: slabTexture(ctx.theme) });
+  const settMat = mat(0xffffff, 0.95, { map: ctx.theme.roman ? lavaTexture() : settTexture(16, 24) }), slabMat = mat(0xffffff, 0.95, { map: ctx.theme.roman ? lavaTexture() : slabTexture(ctx.theme) });
   setts.mesh(ctx, onGround(settMat, GROUND.setts));
   slabs.mesh(ctx, onGround(slabMat, GROUND.slabs));
   footSetts.mesh(ctx, onGround(settMat, GROUND.footSetts));
