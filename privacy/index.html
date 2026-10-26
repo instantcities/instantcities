@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Privacy: what Instant Cities keeps about you, and what it doesn't"
-description: "Instant Cities has no accounts and no ads. Google Analytics counts visits; your browser keeps your settings and a copy of the game; fonts and three.js come from Google Fonts and jsDelivr, and GitHub Pages serves the site."
+description: "Instant Cities has no accounts and no ads. Google Analytics counts visits once you allow it; your browser keeps your settings and a copy of the game; fonts and three.js come from Google Fonts and jsDelivr, and GitHub Pages serves the site."
 heading: Privacy
 tagline: "Instant Cities doesn't ask who you are. Here is the little that does happen when you visit and play."
 toc:
@@ -11,7 +11,7 @@ toc:
   - [contact, "Questions"]
 ---
         <h2 id="short">In short</h2>
-        <p>There are no accounts, no sign-ups and no ads. Google Analytics counts which pages people visit, so we can see which cities get played. Nothing you do inside the game is sent anywhere: where you ride, which races you run and how fast you go stay on your own device.</p>
+        <p>There are no accounts, no sign-ups and no ads. If you say yes, Google Analytics counts which pages you visit, so we can see which cities get played; if you say no, it doesn't load at all. Nothing you do inside the game is sent anywhere: where you ride, which races you run and how fast you go stay on your own device.</p>
 
         <h2 id="browser">What your browser keeps</h2>
         <p>To make the game nicer to come back to, your browser keeps a few things on your device. They never leave it, and clearing the site's data in your browser removes them all.</p>
@@ -28,7 +28,7 @@ toc:
           <li><a href="https://pages.github.com/">GitHub Pages</a> serves the site itself. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
           <li><a href="https://fonts.google.com/">Google Fonts</a> delivers the lettering. See <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts and privacy</a>.</li>
           <li><a href="https://www.jsdelivr.com/">jsDelivr</a> delivers <a href="https://threejs.org/">three.js</a>, the library that draws the game. See <a href="https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net">jsDelivr's privacy policy</a>.</li>
-          <li><a href="https://marketingplatform.google.com/about/analytics/">Google Analytics</a> counts the pages you open, with your rough location, device and the site you came from. It sets cookies to tell a returning visitor from a new one. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from sites that use its services</a>.</li>
+          <li><a href="https://marketingplatform.google.com/about/analytics/">Google Analytics</a> counts the pages you open, with your rough location, device and the site you came from. It sets cookies to tell a returning visitor from a new one, so it only loads after you say yes in the bar at the bottom of the page. <button type="button" class="consent-again" onclick="window.icConsent ? icConsent.ask() : alert('Google Analytics only runs on instantcities.net.')">Change your answer</button> See <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from sites that use its services</a>.</li>
         </ul>
         <p>Links to other sites, such as OpenStreetMap, Mapillary or Wikimedia Commons, only take you there when you click them. Those sites have their own privacy rules.</p>
 

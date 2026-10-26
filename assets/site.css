@@ -303,6 +303,8 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
 .known { list-style: none; display: grid; gap: 8px; margin-bottom: 24px; }
 .known li { position: relative; padding-left: 22px; color: #444; font-size: 15px; }
 .known li::before { content: ''; position: absolute; left: 4px; top: .62em; width: 7px; height: 7px; border-radius: 50%; background: #e5484d; }
+.consent-again { font: inherit; color: var(--ink); background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; cursor: pointer; }
+.consent-again:hover { color: var(--muted); }
 .glance h3 { margin: 28px 0 12px; }
 .facts { display: grid; grid-template-columns: auto 1fr; gap: 8px 20px; font-size: 15px; }
 .facts dt { font-weight: 600; white-space: nowrap; }
