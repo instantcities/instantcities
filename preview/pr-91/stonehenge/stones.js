@@ -32,6 +32,17 @@ function block(kit, w, h, d, hex, x, y, z, ry, seed, tilt = 0) {
   }
   geo.computeVertexNormals();
   kit.add(geo, hex, x, y + h / 2, z, tilt, ry, 0);
+  // weathering: darker and greener near the ground (damp), pale lichen blotches higher up, each triangle a little different
+  const col = kit.pieces.at(-1).attributes.color, pos = kit.pieces.at(-1).attributes.position, q = rng(seed * 3 + 1), tmp = new THREE.Color();
+  for (let i = 0; i < col.count; i += 3) {
+    const k = 0.9 + q() * 0.2, lichen = q() < 0.16, low = (pos.getY(i) - y) < h * 0.2;
+    for (let j = 0; j < 3; j++) {
+      tmp.fromBufferAttribute(col, i + j).multiplyScalar(k);
+      if (lichen) tmp.lerp(new THREE.Color('#b3ad7a'), 0.45);
+      if (low) tmp.lerp(new THREE.Color(MOSS), 0.35);
+      col.setXYZ(i + j, tmp.r, tmp.g, tmp.b);
+    }
+  }
 }
 
 // where a point at (u along the axis, v across it) is, east and south of the middle

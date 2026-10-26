@@ -15,6 +15,6 @@ export const RACES = [
     seed: 7400,
     hw: 3,
     bikers: 0,
-    theme: { pavement: 0.8, lampEvery: 1e9, ground: '#9aa266', dirt: '#bdb394', sky: 0x4a94de, horizon: 0xe4eaee },
+    theme: { pavement: 0.8, lampEvery: 1e9, paving: '#d4ccb0', pavingJoints: false, verge: 0xd4ccb0, ground: '#9aa266', dirt: '#c9c0a0', sky: 0x4a94de, horizon: 0xe4eaee },
   },
 ];
