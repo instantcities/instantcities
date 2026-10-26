@@ -1,11 +1,11 @@
 {
   "id": "barcelona",
   "name": "Instant Barcelona",
-  "title": "Instant Barcelona: a free 3D game of Barcelona, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Barcelona in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Barcelona: play through Barcelona in 3D",
+  "title": "Instant Barcelona: a free virtual 3D tour and game of Barcelona",
+  "description": "Take a free virtual 3D tour of the centre of Barcelona in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Barcelona: a virtual 3D tour of Barcelona",
   "share_description": "Cycle, walk or gallop through Barcelona in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Barcelona, Spain: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Barcelona, Spain: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Barcelona in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Barcelona",
   "style": ":root { --paper: #fdf8ee; --accent: #c0392b; --accent-soft: #f6dcd8; --gold: #f2c230; --sky: #f3e6cf; --skyline: #d8b98a; --glass: rgba(253, 248, 238, 0.72); } .tag { color: #7a2f24; }"
