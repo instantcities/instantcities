@@ -1,4 +1,10 @@
 {
+  "bathers-at-asnieres": {
+    "author": "Georges Seurat",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Baigneurs_a_Asnieres.jpg"
+  },
   "david": {
     "author": "Jörg Bittner Unna",
     "license": "CC BY 3.0",
@@ -17,6 +23,12 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Berl%C3%ADn,_Museo_de_P%C3%A9rgamo_05.jpg"
   },
+  "la-grande-odalisque": {
+    "author": "Jean-Auguste-Dominique Ingres",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg"
+  },
   "las-meninas": {
     "author": "Diego Velázquez",
     "license": "Public domain",
@@ -29,6 +41,12 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
   },
+  "medusa": {
+    "author": "Caravaggio",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+  },
   "mona-lisa": {
     "author": "Leonardo da Vinci",
     "license": "Public domain",
@@ -40,6 +58,12 @@
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg"
+  },
+  "oath-of-the-horatii": {
+    "author": "Jacques-Louis David",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David,_Le_Serment_des_Horaces.jpg"
   },
   "pala-d-oro": {
     "author": "Daperro",
@@ -89,6 +113,18 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_127.jpg"
   },
+  "the-ambassadors": {
+    "author": "Hans Holbein the Younger",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg"
+  },
+  "the-annunciation": {
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Annunciazione_-_Google_Art_Project.jpg"
+  },
   "the-arnolfini-portrait": {
     "author": "Jan van Eyck",
     "license": "Public domain",
@@ -101,11 +137,23 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
   },
+  "the-coronation-of-napoleon": {
+    "author": "Jacques-Louis David",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David,_The_Coronation_of_Napoleon_edit.jpg"
+  },
   "the-creation-of-adam": {
     "author": "Michelangelo",
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg"
+  },
+  "the-delivery-of-the-keys": {
+    "author": "Pietro Perugino",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Entrega_de_las_llaves_a_San_Pedro_(Perugino).jpg"
   },
   "the-fighting-temeraire": {
     "author": "J. M. W. Turner",
@@ -131,11 +179,29 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg"
   },
+  "the-jewish-bride": {
+    "author": "Rembrandt",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Het_Joodse_bruidje.jpg"
+  },
   "the-last-judgment": {
     "author": "Michelangelo",
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg"
+  },
+  "the-little-street": {
+    "author": "Johannes Vermeer",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Gezicht_op_huizen_in_Delft,_bekend_als_%27Het_straatje%27_-_Google_Art_Project.jpg"
+  },
+  "the-milkmaid": {
+    "author": "Johannes Vermeer",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
   },
   "the-night-watch": {
     "author": "Rembrandt van Rijn",
@@ -155,11 +221,29 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg"
   },
+  "the-rokeby-venus": {
+    "author": "Diego Velázquez",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg"
+  },
+  "the-threatened-swan": {
+    "author": "Jan Asselijn",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:De_bedreigde_zwaan_Rijksmuseum_SK-A-4.jpeg"
+  },
   "the-tower-of-babel": {
     "author": "Pieter Bruegel the Elder",
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg"
+  },
+  "the-water-lily-pond": {
+    "author": "Claude Monet",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_The_Water-Lily_Pond_(National_Gallery,_London).jpg"
   },
   "the-wedding-at-cana": {
     "author": "Paolo Veronese",
@@ -178,6 +262,24 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Front_views_of_the_Venus_de_Milo.jpg"
+  },
+  "venus-of-urbino": {
+    "author": "Titian",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg"
+  },
+  "virgin-of-the-rocks": {
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg"
+  },
+  "whistlejacket": {
+    "author": "George Stubbs",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Whistlejacket_by_George_Stubbs_edit.jpg"
   },
   "winged-victory-of-samothrace": {
     "author": "Shonagon",

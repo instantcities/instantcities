@@ -85,16 +85,29 @@ function artList() {
 }
 
 // Each piece's photo from Commons, scaled down by Commons and then by sips (macOS) or ImageMagick,
-// and its credit
+// and its credit, written as each one comes in. Commons asks not to be hurried: a pause between
+// pieces, and when it says too many requests, a longer wait and again.
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+async function polite(url, as = 'json') {
+  for (let wait = 5000; ; wait *= 2) {
+    const res = await fetch(url, { headers: HEADERS });
+    const body = as === 'json' ? await res.text() : res;
+    if (res.status !== 429 && !(as === 'json' && /too many requests/i.test(body))) return as === 'json' ? JSON.parse(body) : res;
+    if (wait > 320000) throw new Error(`Commons keeps saying too many requests for ${url}`);
+    console.error(`(Commons asks to slow down: waiting ${wait / 1000} s)`);
+    await sleep(wait);
+  }
+}
 async function photos(list) {
   fs.mkdirSync(IMG, { recursive: true });
   const credits = fs.existsSync(CREDITS) ? JSON.parse(fs.readFileSync(CREDITS, 'utf8')) : {};
   for (const a of list) {
     const q = new URLSearchParams({ action: 'query', format: 'json', titles: `File:${a.commons}`, prop: 'imageinfo', iiprop: 'url|size|extmetadata', iiurlwidth: '1600' });
-    const page = Object.values((await (await fetch(`${COMMONS}?${q}`, { headers: HEADERS })).json()).query.pages)[0];
+    if (a !== list[0]) await sleep(4000);
+    const page = Object.values((await polite(`${COMMONS}?${q}`)).query.pages)[0];
     const info = page.imageinfo?.[0];
     if (!info) { console.error(`${a.id}: no file ${a.commons} on Commons`); continue; }
-    const res = await fetch(info.thumburl ?? info.url, { headers: HEADERS });
+    const res = await polite(info.thumburl ?? info.url, 'raw');
     if (!res.ok) { console.error(`${a.id}: ${res.status} for ${info.thumburl}`); continue; }
     const src = path.join(IMG, `${a.id}-orig`);
     fs.writeFileSync(src, Buffer.from(await res.arrayBuffer()));
@@ -110,10 +123,15 @@ async function photos(list) {
       source: info.descriptionurl,
     };
     console.error(`${a.id}: ${info.width}×${info.height}, ${credits[a.id].license}, ${credits[a.id].author}`);
+    saveCredits(credits);
   }
+  saveCredits(credits);
+  artList();
+}
+
+function saveCredits(credits) {
   const sorted = Object.fromEntries(Object.entries(credits).filter(([id]) => ids.has(id)).sort(([x], [y]) => x.localeCompare(y)));
   fs.writeFileSync(CREDITS, JSON.stringify(sorted, null, 2) + '\n');
-  artList();
 }
 
 function scale(from, to, max) {
