@@ -129,6 +129,11 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
 | Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
 | Bruges | Gruuthusepaleis | `bruges/gruuthuse.js` | bump into it |
+| Lecce | Basilica di Santa Croce | `lecce/santa-croce.js` | bump into it |
+| Lecce | Piazza del Duomo: the Duomo and its two fronts, the campanile, the Seminario, the Palazzo Vescovile's front | `lecce/duomo.js` | bump into them, ride round the square |
+| Lecce | Castello di Carlo V | `lecce/castello.js` | bump into its walls |
+| Lecce | Teatro Romano, Anfiteatro Romano | `lecce/romano.js` | ride into the theatre's orchestra and the amphitheatre's arena, bump into the seats |
+| Lecce | Chiesa di Santa Chiara | `lecce/santa-chiara.js` | bump into it |
 | Avignon | Palais des Papes | `avignon/palais.js` | bump into it |
 | Avignon | Notre-Dame des Doms and the gilded Virgin on its tower | `avignon/doms.js` | bump into it |
 | Avignon | Hôtel de Ville and the Tour du Jacquemart | `avignon/horloge.js` | bump into it |
@@ -214,6 +219,22 @@ as it is. No. 10 is only its front, on the map's house. Westminster Bridge keeps
 which lies 2.6 m above the river, so its arches are far flatter than the real ones: lifting the deck
 would be a map fix of its own.
 
+Lecce's landmarks share `lecce/outline.js` (after `berlin/outline.js`: the map's outlines in a
+model's own metres, blocks on them with their courtyards left open, cornices, rows of windows, a
+front built in a frame of its own and stood on the model) and `lecce/baroque.js`, the parts of its
+baroque fronts in pietra leccese: columns on pedestals, entablatures, doors under broken pediments,
+niches with their saints, balustrades, scrolls, flames, the rose window and the figures under Santa
+Croce's balcony. Santa Croce's and the Duomo's fronts were painted on the map's boxes before
+(`lecce/fronts.js`, which keeps the Celestini's). The Seminario's courtyard and the castle's yard and
+courtyard come from OpenStreetMap's inner rings, which the map fills in; the castle keeps the map's
+outline as its foot, so riders still cannot ride into it. The Palazzo Vescovile is its front only,
+standing against the map's block, which holds the rest of it and its neighbours. Both Roman ruins lie
+sunk below the street in the city (the amphitheatre some 8 m), but stand on the game's flat ground:
+the arena and the orchestra at street level, the seats rising from them, so from the square you see
+the amphitheatre's ring of broken vaults rather than look down into it. A relief that sinks them (a
+hollow, `core/js/hollows.js`) would make them read much better. Open there: the carving is a few
+shapes to each part, and the statues are rough figures.
+
 Florence's marble churches share `florence/marble.js` on top of `arcade.js`: a map outline's sides as
 paths, the green frames of the marble panels, Gothic and round windows laid on a wall's face, blocks
 raised on an outline, octagonal shells (the Duomo's dome, the Baptistery's roof) and pitched roofs.
@@ -282,7 +303,7 @@ steps, the Campo does not slope, and Coit Tower stands at street level, not on T
   Dragon Gate stands by Grant Avenue's start, 13 m from the data's point, and its dragons are blocks.
 
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
-the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het Steen in Antwerp
+the Arena of Verona, and from the sites' lists: Het Steen in Antwerp
 (one outline of 57 points, round towers and all), the Koninklijk Paleis and Antwerp's cathedral tower
 (both already stacked in the map from many parts, so less to gain). Waiting on a map fix:
 - the Pont Saint-Bénezet in Avignon: the map has a footway along it at the water's level, so its deck
