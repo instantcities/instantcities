@@ -1,0 +1,22 @@
+# pisa's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/pisa.yml and its landmarks, with their pages, in landmarks/pisa.yml.
+title: 'Instant Pisa: gratis virtuele 3D-rondleiding en game van Pisa'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Pisa in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Pisa, van de Scheve Toren tot aan de Arno!
+lead: Rijd door het centrum van Pisa in 3D, van de Piazza dei Miracoli naar de Arno, langs de Scheve Toren en de Duomo, door de Via Santa Maria, langs de Lungarni en over de Ponte di Mezzo, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Pisa
+  text: 'Dwaal tussen zo’n 3.000 gebouwen, in 3D nagebouwd uit OpenStreetMap, op beide oevers van de Arno: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Van de toren naar de rivier
+  text: Bekijk de Duomo, het Baptisterium, de Scheve Toren en het Camposanto op de Piazza dei Miracoli, rijd over de Piazza dei Cavalieri en door Borgo Stretto naar Santa Maria della Spina aan de Lungarno, en over de Corso Italia naar het station.
+- title: 'Een race: Toren en Arno'
+  text: Race over de Via Roma naar de Scheve Toren, de Via Santa Maria af naar de Arno, over de Ponte di Mezzo, langs Santa Maria della Spina en terug over de Ponte Solferino.
+intro: Pisa ligt aan de Arno in Toscane, een paar kilometer van de zee. In de middeleeuwen was het een van de grote zeerepublieken van Italië, en zijn vloot betaalde de kathedraal, het baptisterium en de klokkentoren van wit marmer op de Piazza dei Miracoli. De klokkentoren begon al tijdens de bouw te hellen en helt sindsdien. Vandaag is Pisa vooral een universiteitsstad, met studenten op de pleinen en palazzi langs de rivier.
+famous:
+- De Scheve Toren, de klokkentoren die al voor zijn voltooiing begon te hellen
+- De Piazza dei Miracoli, met de Duomo, het Baptisterium en het Camposanto in wit marmer op een groen grasveld
+- Galileo Galilei, die hier geboren werd en aan de universiteit studeerde en lesgaf
+- De Lungarni langs de bocht van de Arno, elke juni verlicht met 70.000 kaarsjes tijdens de Luminara
+- De Scuola Normale en de Universiteit van Pisa, een van de oudste en strengste van Italië
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

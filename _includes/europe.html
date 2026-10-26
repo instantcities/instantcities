@@ -5,7 +5,7 @@
 {%- assign E = site.data.europe -%}
 <div class="europe" data-europe>
   <svg viewBox="0 0 {{ E.width }} {{ E.height }}" role="img" aria-labelledby="europe-title">
-    <title id="europe-title">The cities on a map of Europe</title>
+    <title id="europe-title">{{ T.europe_map }}</title>
     <path class="land" d="{{ E.land }}"/>
     {%- for c in site.data.cities %}{% assign at = E.cities[c.id] %}{% if at %}
     {%- assign side = c.map_label | default: 'r' -%}
@@ -15,9 +15,9 @@
     {%- when 'b' %}{% assign tx = at[0] %}{% assign ty = at[1] | plus: 22 %}
     {%- else %}{% assign tx = at[0] | plus: 11 %}{% assign ty = at[1] | plus: 5 %}
     {%- endcase %}
-    <a href="/{{ c.id }}/" class="pin side-{{ side }}{% if c.soon %} soon{% endif %}" data-city="{{ c.id }}">
+    <a href="{% include city-url.html city=c.id %}" class="pin side-{{ side }}{% if c.soon %} soon{% endif %}" data-city="{{ c.id }}">
       <circle class="halo" cx="{{ at[0] }}" cy="{{ at[1] }}" r="14"/><circle cx="{{ at[0] }}" cy="{{ at[1] }}" r="6"/>
-      <text x="{{ tx }}" y="{{ ty }}">{{ c.name }}</text>
+      <text x="{{ tx }}" y="{{ ty }}">{{ T.cities[c.id].name | default: c.name }}</text>
     </a>
     {%- endif %}{% endfor %}
   </svg>

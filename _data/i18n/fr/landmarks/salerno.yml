@@ -1,0 +1,22 @@
+# salerno's landmarks in French (_data/landmarks/salerno.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+duomo:
+  name: Duomo de San Matteo
+  blurb: La cathédrale normande sur le tombeau de saint Matthieu l’évangéliste, avec une cour à arcades et un clocher du XIIe siècle.
+via-dei-mercanti:
+  blurb: La rue des marchands de la ville médiévale, une étroite ruelle de boutiques à travers tout le centre historique.
+lungomare:
+  blurb: La promenade du bord de mer sous les palmiers, avec le golfe de Salerne devant et la côte amalfitaine à l’horizon.
+corso-vittorio-emanuele:
+  blurb: La longue rue commerçante de Salerne, fermée aux voitures, de la vieille ville à la gare.
+teatro-verdi:
+  blurb: L’opéra de la ville, de 1872, une petite copie du San Carlo de Naples, rouge et or à l’intérieur.
+villa-comunale:
+  blurb: Le jardin de la ville du XIXe siècle, ombragé et vert, entre le Teatro Verdi et la mer.
+giardino-della-minerva:
+  blurb: Un jardin de plantes médicinales en terrasses au-dessus de la vieille ville, parmi les plus anciens jardins botaniques d’Europe.
+acquedotto:
+  name: Aqueduc médiéval
+  blurb: Les hautes arches de l’aqueduc médiéval, que le diable aurait construit en une seule nuit, dit la légende.
+stazione-marittima:
+  blurb: Le terminal des ferries de Zaha Hadid sur le Molo Manfredi, d’où partent les bateaux pour Amalfi, Positano et Capri.

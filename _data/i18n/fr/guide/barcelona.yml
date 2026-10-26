@@ -1,0 +1,104 @@
+# barcelona's guide in French (_data/about/barcelona.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Espagne
+- Catalogne
+- Environ 1,7 million d’habitants (ville), 5 millions (région métropolitaine)
+- Fin du Ier siècle av. J.-C., comme colonie romaine de Barcino
+- La Méditerranée
+- Catalan et espagnol
+- La Ciutat Comtal (la Ville des comtes)
+- Les œuvres d’Antoni Gaudí (depuis 1984), et le Palau de la Música Catalana et l’hôpital de Sant Pau (depuis 1997)
+overview:
+- Barcelone s’étend sur une plaine entre les collines de Collserola et la Méditerranée, entre les fleuves Llobregat et Besòs. La vieille ville, la Ciutat Vella, se trouve au bord du port ; autour d’elle s’étend l’Eixample, le quadrillage du XIXe siècle de larges rues et de coins coupés où les architectes modernistes ont bâti leurs maisons ; au-delà se trouvent les anciens villages que la ville a avalés, comme Gràcia et Sants.
+- La vieille ville est la partie que vous parcourez dans Instant Barcelona. La Rambla va de la Plaça de Catalunya jusqu’au monument à Colomb et au port, avec le Raval à l’ouest et le Quartier gothique à l’est. La Via Laietana sépare le Quartier gothique du Born et de Sant Pere, et la cathédrale et la Plaça de Sant Jaume, avec les sièges du gouvernement catalan et du conseil municipal, se trouvent au milieu, sur le site de la ville romaine.
+setting:
+- Barcelone se trouve dans le nord-est de l’Espagne, sur la côte méditerranéenne, au sud de la frontière française. C’est la capitale de la communauté autonome de Catalogne. La colline de Montjuïc s’élève au-dessus du port au sud, et le Tibidabo, point culminant des collines de Collserola avec 512 mètres, domine la ville au nord-ouest.
+- Le climat est méditerranéen, avec des étés chauds et humides et des hivers doux. Pour les Jeux olympiques de 1992, la ville a débarrassé son front de mer de l’ancienne industrie et ouvert des kilomètres de plages de sable.
+today:
+- Barcelone est le siège du gouvernement catalan, la Generalitat, et de son parlement. La ville vit du commerce, de l’industrie, du design, du tourisme et des congrès, dont le Mobile World Congress, et son port est l’un des plus fréquentés d’Europe pour les navires de croisière. Tant de visiteurs viennent que la ville limite désormais les nouveaux hôtels et appartements touristiques.
+- Les Catalans fêtent la Sant Jordi le 23 avril en s’offrant des livres et des roses, et la grande fête de la ville, la Mercè, en septembre, avec ses castellers, ses géants et ses courses de feu. Le FC Barcelone, « plus qu’un club » comme dit sa devise, est l’un des clubs de football les plus célèbres du monde ; son rival, le RCD Espanyol, joue juste en dehors de la ville, à Cornellà.
+history:
+- title: Barcino et les comtes
+  text:
+  - Les Romains fondèrent la petite ville fortifiée de Barcino sous Auguste, sur une colline basse où se dresse aujourd’hui la cathédrale. Des parties de ses murs et quatre colonnes de son temple subsistent dans le Quartier gothique. Après la chute de Rome, les Wisigoths prirent la ville, puis les Maures au VIIIe siècle, et en 801 les Francs sous Louis le Pieux.
+  - Barcelone devint le siège des comtes de Barcelone, qui avec le temps se détachèrent des rois francs et placèrent la plupart des autres comtés catalans sous leur autorité. Le général maure Almanzor pilla la ville en 985. En 1137, le comte Raimond-Bérenger IV fut fiancé à l’héritière d’Aragon, et les deux couronnes furent réunies dans ce qui devint la Couronne d’Aragon.
+- title: Une puissance méditerranéenne
+  text:
+  - 'Aux XIIIe et XIVe siècles, les marchands et les flottes de Barcelone commerçaient à travers la Méditerranée, et la Couronne d’Aragon conquit les Baléares, la Sicile et la Sardaigne. La ville bâtit alors la plus grande partie de son Quartier gothique : la cathédrale à partir de 1298, Santa Maria del Mar à partir de 1329, les chantiers navals royaux des Drassanes et la grande salle du palais royal.'
+  - Après l’union de la Castille et de l’Aragon, le commerce se déplaça vers l’Atlantique et le pouvoir vers la Castille. Ferdinand et Isabelle reçurent Colomb à Barcelone en 1493, à son retour d’Amérique. La Catalogne se souleva contre le roi en 1640, et pendant la guerre de Succession d’Espagne Barcelone résista à l’armée des Bourbons jusqu’au 11 septembre 1714. Philippe V abolit les institutions propres de la Catalogne et construisit une forteresse, la Ciutadella, pour tenir la ville en respect.
+- title: Industrie, Modernisme et ville olympique
+  text:
+  - Au XIXe siècle, Barcelone devint le cœur industriel de l’Espagne, pleine de filatures. En 1854, elle commença à démolir ses murs, et Ildefons Cerdà dessina l’Eixample, le quadrillage de rues nouvelles autour de la vieille ville. L’Exposition universelle de 1888 et l’Exposition internationale de 1929 transformèrent la Ciutadella et Montjuïc, et Gaudí, Domènech i Montaner et Puig i Cadafalch remplirent les nouveaux quartiers de bâtiments modernistes.
+  - Pendant la guerre civile espagnole, Barcelone fut un bastion de la République, et les troupes de Franco la prirent en janvier 1939. Sous sa dictature, la langue catalane fut réprimée. Après le retour de la démocratie, la Catalogne retrouva son autonomie, et les Jeux olympiques de 1992 ouvrirent la ville à la mer et au monde.
+timeline:
+- - Fin du Ier s. av. J.-C.
+  - Les Romains fondent Barcino sous Auguste
+- - '801'
+  - Les Francs prennent Barcelone aux Maures
+- - '985'
+  - Almanzor pille la ville
+- - '1137'
+  - Barcelone et l’Aragon sont unis par des fiançailles royales
+- - '1298'
+  - Début des travaux de la cathédrale gothique
+- - '1493'
+  - Ferdinand et Isabelle reçoivent Colomb à Barcelone
+- - '1714'
+  - Barcelone tombe aux mains de l’armée des Bourbons le 11 septembre
+- - '1854'
+  - La ville commence à démolir ses murs
+- - '1882'
+  - Début des travaux de la Sagrada Família
+- - '1888'
+  - Barcelone accueille sa première Exposition universelle
+- - '1939'
+  - Les troupes de Franco prennent la ville
+- - '1992'
+  - Barcelone accueille les Jeux olympiques
+places:
+  placa-de-catalunya:
+    blurb: La grande place entre la vieille ville et l’Eixample, où se rejoignent la Rambla, le Passeig de Gràcia et les lignes de métro.
+  la-rambla:
+    blurb: La promenade bordée d’arbres de la Plaça de Catalunya au port, le long du lit d’un ruisseau qui coulait autrefois hors des murs médiévaux.
+  portal-de-l-angel:
+    blurb: La rue commerçante piétonne animée de la Plaça de Catalunya vers la cathédrale, nommée d’après une porte des murs médiévaux.
+  avinguda-de-la-catedral:
+    blurb: Le grand espace dégagé devant la cathédrale, où l’on danse la sardane, la danse en rond catalane, le week-end.
+  placa-del-rei:
+    blurb: La place médiévale du palais royal des comtes et des rois, aujourd’hui partie du musée d’histoire de la ville, avec la Barcino romaine fouillée en dessous.
+  barri-gotic:
+    name: Quartier gothique
+    blurb: La plus ancienne partie de la ville, sur le site de la Barcino romaine, un dédale de ruelles étroites entre la Rambla et la Via Laietana.
+  carrer-del-bisbe:
+    blurb: La ruelle de la Plaça de Sant Jaume à la cathédrale, traversée par un pont néogothique qui ne fut construit qu’en 1928.
+  placa-de-sant-jaume:
+    blurb: La place où le Palau de la Generalitat, siège du gouvernement catalan, fait face à l’hôtel de ville de l’autre côté de l’ancien forum romain.
+  placa-reial:
+    blurb: Une place à arcades des années 1840 près de la Rambla, avec des palmiers et des lampadaires dessinés par le jeune Gaudí.
+  el-raval:
+    blurb: La vieille ville à l’ouest de la Rambla, dont le nom signifie faubourg. Des couvents et des hôpitaux l’ont d’abord remplie, puis des filatures, et c’est aujourd’hui le quartier le plus mélangé de la ville.
+  via-laietana:
+    blurb: La grande avenue droite que la ville a percée à travers la vieille ville à partir de 1908, du port à l’Eixample.
+  passeig-del-born:
+    blurb: La longue et étroite place entre Santa Maria del Mar et l’ancien marché du Born, où la ville tenait tournois et foires au Moyen Âge.
+  placa-del-portal-de-la-pau:
+    blurb: La place au bas de la Rambla, près du port, où le monument à Colomb montre la mer.
+  port-vell:
+    name: Le Vieux Port
+    blurb: Le vieux port de Barcelone au pied de la Rambla, où une passerelle de bois, la Rambla de Mar, mène au Maremàgnum et à l’aquarium.
+  sagrada-familia:
+    blurb: La grande basilique de Gaudí dans l’Eixample, commencée en 1882 et toujours en construction, à environ deux kilomètres au nord de la vieille ville.
+links:
+- title: This is Barcelona
+  note: L’information touristique officielle de Barcelone
+- title: Ajuntament de Barcelona
+  note: La municipalité
+- title: Sagrada Família
+  note: Billets et horaires de la basilique
+- title: Les œuvres d’Antoni Gaudí sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Palau de la Música Catalana et hôpital de Sant Pau sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Barcelone sur Wikipédia
+  note: L’article de l’encyclopédie

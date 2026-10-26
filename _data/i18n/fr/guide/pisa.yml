@@ -1,0 +1,118 @@
+# pisa's guide in French (_data/about/pisa.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Toscane
+- Pise, dont elle est le chef-lieu
+- Environ 89 000 habitants (ville)
+- L’Arno, qui rejoint la mer une dizaine de kilomètres en aval
+- Italien
+- Saint Ranieri, fêté le 17 juin
+- La Piazza del Duomo, sur la liste de l’UNESCO depuis 1987
+overview:
+- La vieille ville de Pise s’étend sur les deux rives de l’Arno, qui y fait un large méandre en son milieu. Au nord du fleuve, la ville médiévale va des Lungarni jusqu’aux remparts, avec le Borgo Stretto et ses arcades, les places de marché et la Piazza dei Cavalieri. Dans l’angle nord-ouest, contre les remparts, le Duomo, le Baptistère, le campanile et le Camposanto se dressent sur leur pelouse. Au sud du fleuve, dans le vieux quartier de Kinzica, le Corso Italia mène des Logge di Banchi à la gare.
+- 'Instant Pise vous emmène au cœur de la ville : de la tour penchée par la Via Santa Maria, la rue de l’université, jusqu’au fleuve, le long des Lungarni sur les deux rives, par le Ponte di Mezzo et le Ponte Solferino, devant Santa Maria della Spina, puis vers le sud par le Corso Italia jusqu’à la gare. Le jeu dessine la tour d’après le contour et la hauteur d’OpenStreetMap, si bien que dans le jeu elle se tient droite.'
+setting:
+- Pise se trouve dans la plaine plate du bas Arno, à environ 10 kilomètres de la mer Tyrrhénienne, entre Florence, à 80 kilomètres en amont, et le port de Livourne au sud. À l’époque romaine et au Moyen Âge, la mer était bien plus proche et la ville avait son port sur la côte. Le fleuve a depuis charrié tant de limon que la côte est maintenant bien plus à l’ouest, au-delà des pinèdes de San Rossore.
+- 'Le sol sous la ville est de l’argile et du sable meubles, ce qui explique que le campanile ne soit pas seul à pencher : le Baptistère et bien d’autres tours et églises penchent aussi. Le climat est méditerranéen, avec des étés chauds et des hivers doux et pluvieux, et les Alpes apuanes et les monts Pisans protègent la plaine du nord.'
+today:
+- 'Pise est d’abord une ville universitaire : avec l’Université, la Scuola Normale et l’école Sant’Anna, elle compte quelque 50 000 étudiants dans une ville de moins de 90 000 habitants. Des millions de visiteurs viennent pour la Piazza dei Miracoli, beaucoup pour la journée, en train depuis Florence ou par l’aéroport Galileo Galilei, le plus fréquenté de Toscane, juste au sud du centre.'
+- 'Les Pisans célèbrent leurs fêtes en juin, le Giugno Pisano : la Luminara au soir du 16 juin, quand des milliers de bougies éclairent les Lungarni, la course de bateaux de San Ranieri le 17, et le Gioco del Ponte le dernier samedi du mois, quand le nord et le sud de la ville se disputent le Ponte di Mezzo.'
+history:
+- title: Une république maritime
+  text:
+  - Pise fut une ville étrusque puis romaine, avec son port sur ce qui était alors la côte. Au XIe siècle, elle devint l’une des quatre grandes républiques maritimes d’Italie, avec Gênes, Venise et Amalfi. Sa flotte combattit les Sarrasins, pilla Palerme en 1063, navigua avec les croisades et gagna des comptoirs dans toute la Méditerranée, de la Sardaigne et de la Corse au Levant.
+  - 'Avec le butin, la ville commença sa cathédrale en 1064, puis le Baptistère et le campanile, et plus tard le Camposanto. Les marchands pisans rapportèrent aussi de nouveaux savoirs : Léonard de Pise, dit Fibonacci, fils d’un fonctionnaire pisan en Afrique du Nord, introduisit les chiffres indo-arabes en Europe dans son Liber Abaci de 1202.'
+- title: La défaite, et Florence
+  text:
+  - En 1284, Gênes détruisit la flotte pisane à la bataille de la Meloria, et Pise ne retrouva jamais sa puissance sur mer. Le comte Ugolin della Gherardesca, accusé de trahison après la défaite, fut condamné à mourir de faim dans une tour de la Piazza dei Cavalieri, comme le raconte Dante dans l’Enfer. Le port s’ensabla, et en 1406 Florence prit la ville après un long siège.
+  - 'Pise se souleva contre Florence en 1494 et tint quinze ans avant de tomber de nouveau en 1509. Sous les Médicis, elle devint une ville de savoir : Cosme Ier refonda l’université, créa l’ordre des chevaliers de Saint-Étienne sur la Piazza dei Cavalieri et aménagea le jardin botanique. Galilée naquit à Pise en 1564, étudia à son université et y enseigna les mathématiques.'
+- title: La guerre et la tour
+  text:
+  - 'Pise fit partie du nouveau royaume d’Italie en 1860. Pendant la Seconde Guerre mondiale, des bombes alliées frappèrent la ville en 1943, et à l’été 1944 le front longea l’Arno pendant des semaines : les Allemands en retraite firent sauter les ponts, et un obus mit le feu à la toiture du Camposanto.'
+  - Après la guerre, la ville reconstruisit ses ponts et ses Lungarni. En 1990, le campanile penchait tant qu’il fut fermé aux visiteurs, et des ingénieurs passèrent onze ans à extraire du sol sous son côté haut jusqu’à ce qu’il soit de nouveau sûr ; il rouvrit en 2001.
+timeline:
+- - '1063'
+  - La flotte pisane pille Palerme, et son butin paie la cathédrale
+- - '1064'
+  - Début des travaux du Duomo
+- - '1118'
+  - Le pape Gélase II consacre le Duomo
+- - '1152'
+  - Diotisalvi commence le Baptistère
+- - '1173'
+  - Début des travaux du campanile, qui se met bientôt à pencher
+- - '1202'
+  - Léonard de Pise écrit son Liber Abaci
+- - '1278'
+  - Début des travaux du Camposanto
+- - '1284'
+  - Gênes bat la flotte pisane à la Meloria
+- - '1343'
+  - Le pape fonde l’université de Pise
+- - '1406'
+  - Florence prend Pise après un long siège
+- - '1561'
+  - Cosme Ier de Médicis fonde l’ordre des chevaliers de Saint-Étienne
+- - '1564'
+  - Naissance de Galilée à Pise
+- - '1810'
+  - Napoléon fonde la Scuola Normale
+- - '1871'
+  - Santa Maria della Spina est démontée et rebâtie un mètre plus haut
+- - '1944'
+  - Le front longe l’Arno, les ponts sont dynamités et le Camposanto brûle
+- - '1987'
+  - La Piazza del Duomo entre sur la liste du patrimoine mondial de l’UNESCO
+- - '1989'
+  - Keith Haring peint Tuttomondo
+- - '1990'
+  - La tour penchée est fermée aux visiteurs
+- - '2001'
+  - La tour rouvre, redressée d’environ 40 centimètres
+places:
+  piazza-dei-miracoli:
+    name: Piazza dei Miracoli
+    blurb: La place de la cathédrale sur sa pelouse verte, avec le Duomo, le Baptistère, la tour et le Camposanto.
+  torre:
+    name: La tour penchée
+    blurb: Le campanile de la cathédrale, qui penche d’environ quatre degrés depuis le Moyen Âge.
+  battistero:
+    name: Le Baptistère
+    blurb: Le plus grand baptistère d’Italie, célèbre pour son écho.
+  camposanto:
+    blurb: Le cloître de marbre du cimetière, dont les fresques ont brûlé en 1944.
+  via-santa-maria:
+    blurb: La rue de l’université, du Duomo jusqu’à l’Arno.
+  orto-botanico:
+    blurb: Le jardin botanique de l’université, fondé en 1544, l’un des plus anciens d’Europe.
+  piazza-dei-cavalieri:
+    blurb: La place des chevaliers de Saint-Étienne et de la Scuola Normale.
+  borgo-stretto:
+    blurb: La vieille rue commerçante sous les arcades.
+  arno:
+    blurb: Le fleuve qui fait un méandre au milieu de la ville, en route de Florence vers la mer.
+  lungarno-gambacorti:
+    blurb: La rive sud de l’Arno, avec Santa Maria della Spina et le Palazzo Blu.
+  ponte-di-mezzo:
+    blurb: Le pont du milieu, champ de bataille du Gioco del Ponte.
+  santa-maria-della-spina:
+    blurb: La minuscule église gothique au bord du fleuve.
+  logge-di-banchi:
+    blurb: La loggia ouverte du marché de la soie et de la laine, au sud du Ponte di Mezzo.
+  corso-italia:
+    blurb: La rue commerçante de la rive sud, fermée aux voitures, du fleuve à la gare.
+  tuttomondo:
+    blurb: La fresque de Keith Haring de 1989 sur le mur du couvent de Sant’Antonio.
+  stazione:
+    name: Pisa Centrale
+    blurb: La gare principale, sur la ligne de la côte et de Florence.
+links:
+- title: Comune di Pisa
+  note: La municipalité (en italien)
+- title: Opera della Primaziale Pisana
+  note: 'La Piazza dei Miracoli : billets pour la tour, la cathédrale et les musées'
+- title: Université de Pise
+  note: L’université, fondée en 1343
+- title: Pise sur Wikipédia
+  note: L’article de l’encyclopédie

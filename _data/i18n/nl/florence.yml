@@ -1,0 +1,21 @@
+# florence's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/florence.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/florence.yml and its landmarks, with their pages, in landmarks/florence.yml.
+title: 'Instant Florence: gratis virtuele 3D-rondleiding en game van Florence'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Florence in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het Florence van de renaissance!
+lead: Rijd door het hart van Florence in 3D, langs de Duomo, de Piazza della Signoria, de Uffizi en de Ponte Vecchio, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Florence
+  text: 'Dwaal tussen zo’n 4.200 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Florence van de renaissance
+  text: Bekijk de Duomo en het Baptisterium, steek de Piazza della Signoria over langs de Uffizi naar de Ponte Vecchio, en rijd door naar Santa Croce en Santa Maria Novella.
+- title: 'Een race: Duomo en Ponte Vecchio'
+  text: Race van de Duomo over de Via dei Calzaiuoli naar de Piazza della Signoria, door naar de Ponte Vecchio, langs de Arno en via Santa Trinita terug naar het Baptisterium.
+intro: Florence is de hoofdstad van Toscane, een stad van stenen paleizen en rode daken aan de Arno. In de 15e eeuw, onder de Medici, begonnen haar bankiers, architecten en kunstenaars de renaissance, en het werk van Brunelleschi, Botticelli, Leonardo en Michelangelo vult nog altijd haar kerken, pleinen en musea.
+famous:
+- De koepel van Brunelleschi op de kathedraal, nog altijd de grootste bakstenen koepel ter wereld
+- Michelangelo’s David en de schilderijen van de Uffizi
+- De Ponte Vecchio, met de winkeltjes van de goudsmeden op de brug
+- Bistecca alla fiorentina, chiantiwijn en Toscaans leer
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

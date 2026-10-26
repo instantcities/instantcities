@@ -1,46 +1,46 @@
-{%- comment -%} All of a city's places and landmarks (/<id>/places-and-landmarks/), named by the page's `city` (tools/about.mjs writes the page): its landmarks from _data/landmarks/<id>.json, the sights first and then the rest (its food, vehicles, traditions), and the streets, squares and waterways of its guide (_data/about/<id>.json) on the map of the centre. The city's page shows only the first nine landmarks and links here. {%- endcomment -%}
-{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- comment -%} All of a city's places and landmarks, in each language (/en/ghent/places-and-landmarks/, /fr/gand/lieux-et-monuments/: tools/about.mjs writes the pages; /<id>/places-and-landmarks/ only sends a visitor on), named by the page's `city`: its landmarks from _data/landmarks/<id>.json, the sights first and then the rest (its food, vehicles, traditions), and the streets, squares and waterways of its guide (_data/about/<id>.json) on the map of the centre. The city's page shows only the first nine landmarks and links here. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign G = site.data.about[C.id] -%}
 {%- assign all = site.data.landmarks[C.id] -%}
 {%- assign sights = all | where: 'kind', 'place' -%}
 {%- assign others = all | where_exp: 'l', 'l.kind != "place"' -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = 'Places and landmarks in ' | append: C.name | append: ': streets, squares and sights · Instant Cities' -%}
-{%- capture description %}{{ all.size }} landmarks and {{ G.places.size }} streets, squares and waterways of {{ C.name }}, each with its story and a map, and in 3D in {{ C.game }}.{% endcapture -%}
-{%- assign path = '/' | append: C.id | append: '/places-and-landmarks/' -%}
+{%- assign title = T.places_title | replace: '%c', CN | replace: '%d', DE -%}
+{%- capture description %}{{ T.places_description | replace: '%n', all.size | replace: '%p', G.places.size | replace: '%c', CN | replace: '%d', DE | replace: '%g', C.game }}{% endcapture -%}
+{%- assign path = page.url -%}
 {%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
 {%- assign pics = site.data.landmarks[C.id] | where_exp: 'l', 'l.photo' %}{% assign pic = pics[1] | default: pics[0] %}
     <section class="hero home-hero guide-hero page-hero{% if pic %} photo-hero" style="--photo: url('{{ pic.photo.src }}'){% endif %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › Places and landmarks</p>
-        <h1>Places and landmarks in {{ C.name }}</h1>
-        <p class="tagline">{{ all.size }} landmarks of {{ C.name }}, and the streets, squares and waterways around them, each with its story and where to find it.</p>
+        <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ CN }}</a> › {{ T.places_and_landmarks }}</p>
+        <h1>{{ T.places_h1 | replace: '%c', CN | replace: '%d', DE }}</h1>
+        <p class="tagline">{{ T.places_tagline | replace: '%n', all.size | replace: '%c', CN | replace: '%d', DE }}</p>
         <p class="hero-btns">
-          <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-          <a class="ghost" href="/{{ C.id }}/about-the-city/">{% include icon.html name="compass" %} About {{ C.name }}</a>
+          <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', C.game }}</a>
+          <a class="ghost" href="{% include city-url.html city=C.id page='guide' %}">{% include icon.html name="compass" %} {{ T.about_name | replace: '%c', CN | replace: '%d', DE }}</a>
         </p>
       </div>
       {%- if pic %}{% include photo-hero.html photo=pic.photo %}{% endif %}
     </section>
 
     <section id="landmarks" class="landmarks">
-      <h2>Landmarks</h2>
+      <h2>{{ T.places_landmarks }}</h2>
       <div class="grid">
         {%- for l in sights %}
         {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
       {%- if others.size > 0 %}
-      <h2 class="sub" id="also">Also part of {{ C.name }}</h2>
+      <h2 class="sub" id="also">{{ T.places_also | replace: '%c', CN }}</h2>
       <div class="grid">
         {%- for l in others %}
         {% include landmark-card.html landmark=l city=C.id %}
@@ -50,21 +50,21 @@
     </section>
 
     <section id="centre" class="centre">
-      <h2>Streets, squares and waterways</h2>
-      <p class="section-lead">The places that hold the centre of {{ C.name }} together. Point at one to find it on the map.</p>
+      <h2>{{ T.places_streets }}</h2>
+      <p class="section-lead">{{ T.places_lead | replace: '%c', CN | replace: '%d', DE }}</p>
       {% include city-map.html city=C %}
     </section>
 
     <section class="cta">
-      <h2>Ready to go?</h2>
-      <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-      <p class="note"><a href="/{{ C.id }}/about-the-city/">Read more about {{ C.name }}</a></p>
+      <h2>{{ T.cta_title }}</h2>
+      <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', C.game }}</a>
+      <p class="note"><a href="{% include city-url.html city=C.id page='guide' %}">{{ T.places_more | replace: '%c', CN }}</a></p>
     </section>
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/about-the-city/">About {{ C.name }}</a> <a href="/cities/">All cities</a></p>
-    <p>Map data © OpenStreetMap contributors (ODbL). Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ C.game }}</a> <a href="{% include city-url.html city=C.id page='guide' %}">{{ T.about_name | replace: '%c', CN | replace: '%d', DE }}</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
+    <p>{{ T.places_footer }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

@@ -1,0 +1,27 @@
+# venice's landmarks in French (_data/landmarks/venice.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+piazza-san-marco:
+  name: Place Saint-Marc
+  blurb: La seule place de Venise appelée piazza, entourée d’arcades et ouverte sur la lagune.
+basilica-di-san-marco:
+  name: Basilique Saint-Marc
+  blurb: Bâtie pour les reliques de saint Marc, couverte à l’intérieur de mosaïques dorées.
+palazzo-ducale:
+  name: Palais des Doges
+  blurb: Le palais gothique rose et blanc d’où les doges gouvernaient la République de Venise.
+campanile:
+  name: Campanile de Saint-Marc
+  blurb: Le clocher de Saint-Marc, effondré en 1902 et rebâti « là où il était, comme il était ».
+ponte-dei-sospiri:
+  name: Pont des Soupirs
+  blurb: Le pont de pierre couvert entre le palais des Doges et les prisons, construit en 1600.
+ponte-di-rialto:
+  name: Pont du Rialto
+  blurb: Le pont de pierre de 1591 sur le Grand Canal, avec des boutiques le long de son arche.
+canal-grande:
+  name: Grand Canal
+  blurb: La grande voie d’eau en forme de S au milieu de Venise, bordée de palais.
+mercerie:
+  blurb: La suite d’étroites ruelles commerçantes de Saint-Marc au Rialto, le parcours de la course dans le jeu.
+la-fenice:
+  blurb: L’opéra de Venise, qui est plus d’une fois ressuscité de ses cendres, comme son nom le promet.

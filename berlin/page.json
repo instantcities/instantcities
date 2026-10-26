@@ -1,11 +1,11 @@
 {
   "id": "berlin",
   "name": "Instant Berlin",
-  "title": "Instant Berlin: a free 3D game of Berlin, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Berlin in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Berlin: play through Berlin in 3D",
+  "title": "Instant Berlin: a free virtual 3D tour and game of Berlin",
+  "description": "Take a free virtual 3D tour of the centre of Berlin in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Berlin: a virtual 3D tour of Berlin",
   "share_description": "Cycle, walk or gallop through Berlin in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Berlin, Germany: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Berlin, Germany: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Berlin in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Berlin",
   "style": ":root { --accent: #2b2b2b; --accent-soft: #e4e4e4; --gold: #f2c230; --sky: #e2e6ea; --skyline: #a7afb8; } .tag { color: #2b2b2b; }"

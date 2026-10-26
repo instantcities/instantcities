@@ -1,0 +1,21 @@
+# florence's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/florence.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/florence.yml and its landmarks, with their pages, in landmarks/florence.yml.
+title: 'Instant Florence : visite virtuelle en 3D et jeu gratuits de Florence'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Florence dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la Florence de la Renaissance !
+lead: Parcourez le cœur de Florence en 3D, devant le Duomo, la Piazza della Signoria, les Offices et le Ponte Vecchio, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Florence
+  text: 'Promenez-vous parmi quelque 4 200 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: La Florence de la Renaissance
+  text: Voyez le Duomo et le baptistère, traversez la Piazza della Signoria devant les Offices jusqu’au Ponte Vecchio, et poussez jusqu’à Santa Croce et Santa Maria Novella.
+- title: 'Une course : Duomo et Ponte Vecchio'
+  text: Foncez du Duomo par la Via dei Calzaiuoli jusqu’à la Piazza della Signoria, puis au Ponte Vecchio, le long de l’Arno, et retour par Santa Trinita jusqu’au baptistère.
+intro: Florence est la capitale de la Toscane, une ville de palais de pierre et de toits rouges au bord de l’Arno. Au XVe siècle, sous les Médicis, ses banquiers, ses architectes et ses artistes ont lancé la Renaissance, et les œuvres de Brunelleschi, Botticelli, Léonard de Vinci et Michel-Ange remplissent encore ses églises, ses places et ses musées.
+famous:
+- La coupole de Brunelleschi sur la cathédrale, toujours la plus grande coupole en brique du monde
+- Le David de Michel-Ange et les tableaux des Offices
+- Le Ponte Vecchio, avec les boutiques des orfèvres sur le pont
+- La bistecca alla fiorentina, le vin de Chianti et le cuir toscan
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

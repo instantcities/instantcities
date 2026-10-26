@@ -1,0 +1,84 @@
+# lecce's landmarks in French (_data/landmarks/lecce.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+santa-croce:
+  name: Basilique Santa Croce
+  blurb: Le sommet du baroque de Lecce, bâti entre 1549 et 1695. Sa façade disparaît sous les lions, les plantes, les bêtes fabuleuses et les saints, tous sculptés dans le calcaire local, tendre et couleur de miel. À côté se dresse le Palazzo dei Celestini, aujourd’hui siège de la province.
+  text:
+  - La basilique Santa Croce est la vitrine du style qui porte le nom de la ville, le baroque de Lecce. Il fallut presque 150 ans pour la construire, de 1549 à 1695, et plusieurs architectes, parmi eux Gabriele Riccardi et, pour la façade supérieure, Giuseppe Zimbalo et Cesare Penna.
+  - 'Sa façade est une orgie de sculpture dans la pierre locale tendre : un balcon porté par des monstres et des figures qu’on dit être des Turcs vaincus, une grande rosace entourée de fruits et de feuilles, des chérubins, des lions et des saints. À côté, la longue façade du Palazzo dei Celestini, autrefois un monastère, abrite aujourd’hui le gouvernement de la province.'
+piazza-duomo:
+  name: Piazza del Duomo
+  blurb: Une place fermée qui ne se révèle qu’une fois qu’on y entre. La cathédrale a été rebâtie en 1659 par Giuseppe Zimbalo, et son campanile mesure 70 m. Le palais épiscopal et le séminaire entourent aussi la place, tous dans la même pierre baroque.
+  text:
+  - 'La Piazza del Duomo est fermée presque de tous côtés, si bien qu’elle ne s’ouvre qu’une fois qu’on y entre par l’étroite brèche de la Via Vittorio Emanuele. Alors toute la place apparaît d’un coup : la cathédrale, son haut campanile, le palais épiscopal et le séminaire, tous dans la même pierre dorée.'
+  - La cathédrale fut reconstruite à partir de 1659 par Giuseppe Zimbalo, qui lui donna deux façades, une vers la place et une plus voyante vers la rue. Son campanile s’élève à 70 mètres en cinq étages ; du sommet, on voyait autrefois la mer par temps clair.
+sant-oronzo:
+  blurb: Le cœur de Lecce. L’amphithéâtre romain du IIe siècle est à demi enfoui sous la place et accueillait jadis quelque 25 000 spectateurs. Sur une colonne venue de Brindisi se tient saint Oronce, patron de la ville. Tout près se trouve le Sedile, l’ancien hôtel de ville de 1592.
+  text:
+  - 'La Piazza Sant’Oronzo est l’endroit où Lecce se retrouve : cafés, l’ancien hôtel de ville appelé Sedile, de 1592, et un trou au milieu de la place dans lequel repose la moitié d’un amphithéâtre romain. Construit au IIe siècle, il pouvait accueillir quelque 25 000 personnes ; l’autre moitié est toujours sous les bâtiments alentour.'
+  - La colonne de la place vient de Brindisi, où elle marquait la fin de la Via Appia. Lecce y plaça saint Oronce, le saint patron qui aurait sauvé la ville de la peste au XVIIe siècle, et chaque août sa fête remplit les rues.
+castello-carlo-v:
+  name: Château de Charles Quint
+  blurb: Un château au plan carré et aux larges bastions, rebâti dans les années 1530 sur ordre de l’empereur Charles Quint pour défendre la ville contre les Turcs. Il a aussi été une prison et une caserne. Il accueille aujourd’hui des expositions, et le musée du papier mâché.
+  text:
+  - Le château se dresse juste à l’est de la vieille ville, un large bloc carré avec des bastions en forme de flèche à ses angles. L’empereur Charles Quint le fit reconstruire dans les années 1530 autour d’un donjon plus ancien, élément des défenses qu’il éleva tout le long de la côte des Pouilles contre les attaques des Ottomans.
+  - Au fil des siècles, il servit de prison, de caserne et de bureaux. Aujourd’hui, il se visite, avec des expositions et le musée du papier mâché, l’artisanat dont Lecce est célèbre.
+porta-napoli:
+  blurb: Un arc de triomphe de 1548, bâti pour Charles Quint, et la plus grandiose des trois portes de la ville. Elle regarde la route de Naples, d’où son nom. Sur la place devant se dresse un obélisque de 1822, en l’honneur du roi Ferdinand Ier.
+  text:
+  - 'La Porta Napoli est la plus grandiose des trois portes de Lecce : un arc de triomphe élevé en 1548 en l’honneur de Charles Quint, avec ses armoiries au-dessus du passage et des colonnes de chaque côté. Elle se dresse là où la route de Naples quittait la ville, d’où son nom.'
+  - Sur la place devant s’élève un obélisque de 1822, dressé pour le roi Ferdinand Ier des Deux-Siciles. Dans le jeu, la course passe sous l’arc.
+teatro-romano:
+  name: Théâtre romain
+  blurb: Un petit théâtre romain de l’époque d’Auguste, redécouvert seulement dans les années 1930 au milieu des maisons. Il accueillait environ 5 000 spectateurs. On voit encore ses gradins en demi-cercle et les mosaïques de son sol.
+  text:
+  - Le théâtre romain de Lecce resta caché pendant des siècles parmi les jardins et les maisons de la vieille ville, jusqu’à ce qu’on le découvre par hasard dans les années 1930. Il date de l’époque d’Auguste et pouvait accueillir environ 5 000 personnes.
+  - On voit encore les gradins courbes de ses sièges et des parties de la scène. Un petit musée à côté raconte l’histoire de la Lupiae romaine, comme s’appelait Lecce.
+porta-rudiae:
+  blurb: La porte ouest de la ville, rebâtie en 1703 en style baroque. Elle doit son nom à Rudiae, la ville antique du poète Ennius juste à côté de Lecce. Au-dessus du passage trône saint Oronce, entre saint Dominique et sainte Irène.
+  text:
+  - La Porta Rudiae est la porte ouest de la vieille ville et la plus ancienne, bien que ce que l’on voit aujourd’hui ait été reconstruit en style baroque en 1703. Elle porte le nom de Rudiae, l’antique ville juste hors de Lecce où naquit le poète romain Ennius.
+  - Au sommet se dresse de nouveau saint Oronce, le patron de la ville, entre saint Dominique et sainte Irène. Dans le jeu, la course quitte la vieille ville par cette porte.
+porta-san-biagio:
+  blurb: La porte sud de la ville, bâtie en 1774 et dédiée à saint Blaise. Elle mène dans la vieille ville depuis la route d’Otrante et de la côte adriatique, et c’est la dernière des trois portes encore debout.
+  text:
+  - La Porta San Biagio, la porte sud, fut construite en 1774 et dédiée à saint Blaise, dont la statue se dresse au sommet. Elle s’ouvre sur la route d’Otrante et de la côte adriatique.
+  - Comme la Porta Napoli et la Porta Rudiae, elle se dresse sur le tracé des anciens remparts, qui ont par ailleurs en grande partie disparu, remplacés par la ceinture de larges avenues autour de la vieille ville.
+villa-comunale:
+  blurb: Le parc municipal Giuseppe Garibaldi, juste à l’extérieur des vieux remparts. Un coin calme parmi les palmiers et les arbres, près du château et du centre. Un bon endroit pour se cacher un moment du soleil du Sud.
+  text:
+  - La Villa Comunale, le parc Giuseppe Garibaldi, se trouve juste hors de la vieille ville près du château. Aménagé au XIXe siècle, c’est un îlot vert de palmiers, de pins et de massifs de fleurs, avec des allées, des bancs et des bustes de personnages célèbres de Lecce.
+  - Par un après-midi chaud dans le Salento, son ombre est le meilleur endroit de la ville ; le soir, il se remplit de familles et d’enfants.
+santa-chiara:
+  name: L’église Santa Chiara
+  blurb: 'Une petite église baroque de 1687, de plan octogonal. À l’intérieur, la coupole richement décorée et le plafond en papier mâché stupéfient : un artisanat dont Lecce est connue. Elle se dresse tout près du théâtre romain.'
+  text:
+  - Santa Chiara est une petite église baroque de 1687, juste à côté de la Piazza Sant’Oronzo et près du théâtre romain. Son plan est octogonal, et sa façade est l’une des plus vivantes de la ville.
+  - 'À l’intérieur, levez les yeux : le plafond est fait de cartapesta, du papier mâché peint, qui imite le bois sculpté ou la pierre. C’est l’artisanat dont Lecce est connue, et ici il couvre toute une église.'
+pietra-leccese:
+  name: La pierre de Lecce
+  blurb: Le calcaire tendre couleur de miel dont toute la vieille ville est bâtie et sculptée.
+  text:
+  - La pietra leccese est un calcaire à grain fin extrait autour de la ville. Frais sorti du sol, il est si tendre qu’on peut le sculpter presque comme du bois ; à l’air, il durcit lentement et prend sa chaude couleur dorée.
+  - 'C’est ce qui a rendu possible le baroque de Lecce : les sculpteurs pouvaient couvrir des façades entières de fleurs, de fruits, de chérubins et de monstres. On l’extrait et on la sculpte encore aujourd’hui, et dans le jeu chaque maison est dessinée dans ses couleurs.'
+pasticciotto:
+  blurb: Une petite pâtisserie ovale en pâte brisée remplie de crème pâtissière chaude, mangée au petit-déjeuner dans tous les bars du Salento.
+  text:
+  - 'Le pasticciotto est la pâtisserie de Lecce : une petite tourte ovale en pâte brisée au saindoux, remplie de crème pâtissière et cuite jusqu’à ce qu’elle soit dorée dessus. Il se mange de préférence chaud, le matin, avec un café au bar.'
+  - La ville de Galatina, au sud de Lecce, prétend l’avoir inventé au XVIIIe siècle. Dans le jeu, c’est ce que l’on ramasse dans l’une des quêtes, parmi les danseurs de pizzica.
+cartapesta:
+  name: Le papier mâché
+  blurb: Des statues de saints faites de papier, de paille et de colle, un artisanat que Lecce pratique depuis quatre siècles.
+  text:
+  - Les ateliers de cartapesta de Lecce fabriquent des statues de saints, de Madones et de santons en papier et en chiffons sur une armature de paille et de fil de fer, finies au plâtre et à la peinture, et parfois passées au fer chaud pour fixer les plis de leurs robes. Légères et peu chères, elles pouvaient se dresser dans des églises qui n’avaient pas les moyens du marbre ou du bois.
+  - L’artisanat est toujours vivant, avec des ateliers dans la vieille ville et un musée dans le château. Dans le jeu, un voleur s’enfuit avec un saint Oronce en papier mâché, et il faut l’attraper.
+pizzica:
+  blurb: La danse populaire rapide et tourbillonnante du Salento, jouée au tambourin pendant les nuits d’été.
+  text:
+  - La pizzica est une forme de tarentelle du Salento. Elle appartenait autrefois au tarentisme, la croyance que les femmes mordues par la tarentule ne pouvaient guérir qu’en dansant des jours durant au son des tambourins et des violons.
+  - 'Aujourd’hui, c’est une musique de fête d’été : la Notte della Taranta, une nuit de pizzica à Melpignano, attire des foules de plusieurs milliers de personnes chaque août. Dans le jeu, une foule de danseurs essaie de vous entraîner dans la danse.'
+caffe-leccese:
+  blurb: 'Un expresso versé sur de la glace et du lait d’amande sucré : la réponse de Lecce à la chaleur de l’été.'
+  text:
+  - 'Le caffè leccese se fait dans le verre : des glaçons, un trait de sirop d’amande ou de lait d’amande, et un expresso chaud versé dessus au bar. Il est sucré, froid et fort, et l’été chaque bar de la vieille ville le prépare.'
+  - Les amandiers poussent depuis longtemps dans toutes les Pouilles, et le lait d’amande était la façon locale de sucrer les choses. On dit que le café a été inventé dans un bar de Lecce au XXe siècle et qu’il s’est répandu dans tout le Salento.

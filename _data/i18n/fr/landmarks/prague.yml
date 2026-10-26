@@ -1,0 +1,79 @@
+# prague's landmarks in French (_data/landmarks/prague.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+staromestske-namesti:
+  name: Place de la Vieille-Ville
+  blurb: La grande place de la vieille ville, avec l’église de Týn, l’horloge astronomique et le monument à Jan Hus.
+  text:
+  - La place de la Vieille-Ville est le marché de Prague depuis le XIIe siècle. Autour se dressent l’hôtel de ville avec son horloge, l’église baroque Saint-Nicolas, des palais pastel et les deux tours pointues de l’église de Týn.
+  - Au milieu se dresse le monument à Jan Hus, le réformateur brûlé sur le bûcher en 1415, inauguré en 1915. Vingt-sept croix blanches dans le pavé marquent l’endroit où 27 chefs tchèques furent exécutés en 1621.
+orloj:
+  name: Horloge astronomique
+  blurb: 'Construite en 1410 : à chaque heure, les douze apôtres défilent à ses petites fenêtres pendant que la Mort sonne sa cloche.'
+  text:
+  - L’Orloj de Prague, sur l’hôtel de ville de la Vieille-Ville, date de 1410, ce qui en fait la plus ancienne horloge astronomique encore en marche. Son cadran montre l’heure, la place du soleil et de la lune dans le ciel et les signes du zodiaque.
+  - À l’heure pile, un squelette sonne sa cloche, les douze apôtres défilent devant deux petites fenêtres au-dessus du cadran, et un coq chante ; la foule se rassemble pour regarder.
+tyn:
+  name: Église de Týn
+  blurb: L’église gothique aux deux tours pointues de 80 mètres, derrière les maisons de la place de la Vieille-Ville.
+  text:
+  - L’église Notre-Dame devant Týn fut bâtie à partir du XIVe siècle et devint la principale église des hussites. Ses deux flèches noires, cernées de petites tourelles, s’élèvent à 80 mètres ; celle du sud est un peu plus large, et passe pour la tour masculine.
+  - On y entre par un passage entre les maisons devant elle. L’astronome danois Tycho Brahe y est enterré.
+karluv-most:
+  name: Pont Charles
+  blurb: Le pont de pierre de 1357 sur la Vltava, bordé de trente statues de saints.
+  text:
+  - 'Charles IV posa la première pierre du pont en 1357, à 5 h 31 le 9 juillet, une heure choisie pour son palindrome de chiffres : 1357 9 7 5 31. Pendant quatre siècles, ce fut le seul pont sur la Vltava à Prague.'
+  - À partir du XVIIe siècle, trente statues de saints furent placées sur ses parapets. Touchez le bas-relief de bronze de saint Jean Népomucène, jeté du pont en 1393, et vous reviendrez à Prague.
+mostecka-vez:
+  name: Tour du pont de la Vieille-Ville
+  blurb: La tour-porte gothique au bout du pont Charles côté vieille ville, l’une des plus belles d’Europe.
+  text:
+  - Peter Parler construisit la tour au XIVe siècle comme porte triomphale pour le roi se rendant à son couronnement. Sa façade porte les statues de Charles IV, de son fils Venceslas IV et de saint Guy.
+  - Du sommet, on voit le pont s’étirer au-dessus du fleuve vers la Petite-Côté et le château sur la colline.
+klementinum:
+  name: Le Klementinum
+  blurb: Le grand ensemble jésuite de la Vieille-Ville, aujourd’hui la Bibliothèque nationale, avec sa salle baroque et sa tour astronomique.
+  text:
+  - Les jésuites bâtirent le Klementinum à partir de 1556, l’un des plus grands ensembles de bâtiments d’Europe après le château de Prague. Il abrite aujourd’hui la Bibliothèque nationale.
+  - Sa salle de bibliothèque baroque est peinte et dorée du sol au plafond, et sa tour astronomique mesure la météo de Prague tous les jours depuis 1775.
+josefov:
+  blurb: L’ancienne ville juive de Prague, avec ses synagogues, son hôtel de ville et son vieux cimetière aux tombes entassées.
+  text:
+  - Pendant des siècles, les Juifs de Prague vécurent dans ce ghetto à côté de la Vieille-Ville. Il fut nommé Josefov d’après l’empereur Joseph II, qui assouplit les lois contre eux. La plupart de ses vieilles maisons furent rasées vers 1900, mais six synagogues et l’hôtel de ville subsistent.
+  - Le Vieux Cimetière juif compte quelque 12 000 pierres tombales serrées les unes contre les autres, les tombes étant superposées en couches.
+staronova-synagoga:
+  name: Synagogue Vieille-Nouvelle
+  blurb: Bâtie vers 1270, la plus ancienne synagogue d’Europe encore en activité.
+  text:
+  - La synagogue Vieille-Nouvelle fut construite vers 1270 en style gothique et sert à la prière depuis lors. On l’appelle Vieille-Nouvelle parce qu’elle était nouvelle quand elle fut bâtie, et que les synagogues suivantes furent plus nouvelles encore.
+  - La légende dit que le Golem, le géant d’argile que le rabbin Loew fit vivre, repose dans son grenier.
+rudolfinum:
+  name: Le Rudolfinum
+  blurb: La salle de concert néo-Renaissance au bord de la Vltava, siège de la Philharmonie tchèque.
+  text:
+  - Le Rudolfinum fut construit de 1876 à 1884 comme maison des arts, nommé d’après le prince héritier Rodolphe. Antonín Dvořák y dirigea le premier concert en 1896.
+  - Entre les deux guerres, il fut le siège du parlement de Tchécoslovaquie. Aujourd’hui, sa salle Dvořák est la maison de la Philharmonie tchèque.
+prasna-brana:
+  name: La tour Poudrière
+  blurb: Une porte-tour gothique de 1475 au début de la Voie royale, autrefois utilisée pour entreposer la poudre.
+  text:
+  - La tour Poudrière fut commencée en 1475 comme l’une des portes de la Vieille-Ville, sur la route que prenaient les rois vers leur couronnement au château. Au XVIIe siècle, elle abritait de la poudre, d’où son nom.
+  - À côté se dresse la Maison municipale, le grand édifice Art nouveau de Prague.
+prazsky-hrad:
+  name: Le château de Prague
+  blurb: Le château sur la colline de l’autre côté du fleuve, le plus grand ensemble castral ancien du monde ; hors de cette carte.
+  text:
+  - Le château de Prague est le siège des rois de Bohême, des empereurs du Saint-Empire et des présidents tchèques depuis le IXe siècle. Dans ses murs se dressent la cathédrale Saint-Guy, des palais, des églises et la petite ruelle d’Or.
+  - Il se trouve de l’autre côté de la Vltava par rapport à la Vieille-Ville, au-delà de la partie de Prague que le jeu couvre jusqu’ici ; on le voit depuis le fleuve.
+tramvaj:
+  name: Les tramways
+  blurb: Les tramways rouge et crème qui cliquettent le long du fleuve et sur les ponts.
+  text:
+  - Prague possède l’un des plus grands réseaux de tramways d’Europe, avec des rames rouge et crème qui circulent jour et nuit. L’ancien Tatra T3, arrondi et carré, y a roulé pendant des décennies et circule encore sur quelques lignes.
+  - La ligne 17 longe le fleuve devant le Rudolfinum, l’un des plus beaux trajets de la ville.
+pivo:
+  name: La bière tchèque
+  blurb: Les Tchèques boivent plus de bière par habitant que quiconque ; la pils est née en Bohême.
+  text:
+  - En 1842, les brasseurs de Plzeň, en Bohême, firent la première bière blonde dorée, la pils ; aujourd’hui, la plupart des bières du monde sont brassées d’après elle. Les Tchèques boivent plus de bière par habitant que toute autre nation.
+  - Les vieilles brasseries de Prague la servent avec une épaisse mousse, et certaines brassent la leur, comme U Fleků depuis 1499.

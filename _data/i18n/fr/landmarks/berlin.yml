@@ -1,0 +1,75 @@
+# berlin's landmarks in French (_data/landmarks/berlin.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+brandenburger-tor:
+  name: Porte de Brandebourg
+  blurb: La porte néoclassique de 1791 couronnée par le Quadrige, symbole d’une Allemagne divisée puis réunifiée.
+  text:
+  - Carl Gotthard Langhans construisit la porte en 1791 comme entrée d’Unter den Linden, sur le modèle des propylées de l’Acropole. Au sommet, une déesse de la victoire conduit la Quadrige, un char à quatre chevaux ; Napoléon l’emporta à Paris en 1806, et elle revint en 1814.
+  - À partir de 1961, la porte se dressa dans le no man’s land du mur de Berlin. Le 22 décembre 1989, elle rouvrit, et elle devint le symbole d’une Allemagne réunifiée.
+reichstag:
+  blurb: Le bâtiment du Parlement de 1894, couronné depuis 1999 d’une coupole de verre où l’on peut monter.
+  text:
+  - Le Reichstag fut achevé en 1894 pour le parlement de l’Empire allemand. Il brûla en 1933, un incendie que les nazis utilisèrent pour s’emparer de tout le pouvoir, et fut laissé en ruines après la guerre.
+  - Après la réunification, Norman Foster le reconstruisit pour le Bundestag, couronné d’une coupole de verre avec une rampe en spirale d’où les visiteurs regardent l’hémicycle.
+unter-den-linden:
+  blurb: Le boulevard sous les tilleuls, de la porte de Brandebourg à l’île aux Musées.
+  text:
+  - Unter den Linden commença comme un chemin de cavalerie pour les princes prussiens, planté de tilleuls en 1647. Il devint la plus belle rue de Berlin, bordée de l’opéra, de l’université, de l’arsenal et d’ambassades.
+  - Dans le jeu, la course le suit, depuis le coin de la Wilhelmstraße.
+gendarmenmarkt:
+  blurb: L’église française et l’église allemande face à face sur la place, avec la salle de concert entre les deux.
+  text:
+  - La place fut aménagée à la fin du XVIIe siècle et nommée d’après un régiment de gendarmes qui y était stationné. L’église française fut bâtie pour les réfugiés huguenots, l’église allemande pour les luthériens ; leurs tours à coupole furent ajoutées en 1785.
+  - Entre elles se dresse le Konzerthaus de Schinkel, de 1821. En décembre, la place se remplit d’un marché de Noël.
+holocaust-mahnmal:
+  name: Mémorial de l’Holocauste
+  blurb: 'Le Mémorial aux Juifs assassinés d’Europe : 2 711 stèles de béton sur un terrain en pente.'
+  text:
+  - Le mémorial de Peter Eisenman ouvrit en 2005 sur un terrain de 19 000 mètres carrés près de la porte de Brandebourg. Ses 2 711 stèles de béton gris se dressent en quadrillage sur un sol qui descend et remonte, si bien qu’en y entrant on perd la ville de vue.
+  - En dessous, un centre d’information raconte l’histoire des victimes.
+bebelplatz:
+  blurb: La place où les nazis ont brûlé des livres en 1933, marquée aujourd’hui par une bibliothèque aux rayons vides sous le sol.
+  text:
+  - Le 10 mai 1933, étudiants et responsables nazis brûlèrent sur cette place quelque 20 000 livres, des œuvres de Heinrich Heine, de Thomas Mann et de bien d’autres.
+  - Une vitre dans le pavage donne sur le mémorial de Micha Ullman, une salle souterraine de rayonnages blancs vides où pourraient tenir 20 000 livres. Autour de la place se dressent l’Opéra d’État et la cathédrale Sainte-Edwige.
+museumsinsel:
+  name: Île aux Musées
+  blurb: Cinq grands musées sur une île de la Spree, de l’autel de Pergame à Néfertiti.
+  text:
+  - 'De 1830 à 1930, la Prusse construisit cinq musées à la pointe nord de l’île dans la Spree : l’Altes Museum, le Neues Museum, l’Alte Nationalgalerie, le Bode-Museum et le musée de Pergame.'
+  - Le buste de Néfertiti se trouve au Neues Museum, la porte d’Ishtar de Babylone au Pergamon. L’île est un site du patrimoine mondial.
+berliner-dom:
+  name: Cathédrale de Berlin
+  blurb: La grande cathédrale protestante à coupole sur l’île aux Musées, achevée en 1905.
+  text:
+  - L’empereur Guillaume II fit bâtir le Berliner Dom de 1894 à 1905, une immense réponse protestante à Saint-Pierre de Rome, avec une coupole verte. En dessous reposent les tombeaux des Hohenzollern.
+  - On peut monter autour de l’extérieur de la coupole pour une vue sur la Spree et la ville.
+fernsehturm:
+  name: Tour de télévision
+  blurb: La tour de télévision de Berlin-Est, haute de 368 mètres, de 1969, dont la boule renvoie une croix de lumière au soleil.
+  text:
+  - 'L’Allemagne de l’Est construisit la Fernsehturm en 1969 pour montrer sa capitale : à 368 mètres, c’est toujours le plus haut bâtiment d’Allemagne. Sa boule d’acier abrite un étage panoramique et un restaurant qui fait un tour complet toutes les heures.'
+  - Quand le soleil frappe la boule, ses panneaux reflètent une croix de lumière, que les Berlinois appelèrent la revanche du pape.
+mauer:
+  blurb: Le mur qui coupa la ville de 1961 à 1989, dont le tracé est aujourd’hui marqué par une double rangée de pavés.
+  text:
+  - Le 13 août 1961, l’Allemagne de l’Est isola Berlin-Ouest par des barbelés puis par un mur de 155 kilomètres de long, avec une bande de la mort derrière. Il passait juste à l’ouest de la porte de Brandebourg.
+  - Le 9 novembre 1989, il tomba. Une double rangée de pavés marque aujourd’hui l’endroit où il se dressait à travers les rues du centre.
+ampelmann:
+  name: Les Ampelmännchen
+  blurb: Le petit bonhomme au chapeau des feux de Berlin-Est, sauvé après la réunification.
+  text:
+  - En 1961, le psychologue de la circulation Karl Peglau dessina un petit bonhomme au chapeau pour les feux piétons de l’Allemagne de l’Est, marchant au vert et debout, bras écartés, au rouge.
+  - Après la réunification, il devait être remplacé par la silhouette simple de l’Ouest, mais les Berlinois protestèrent, et il marche aujourd’hui sur des feux dans toute la ville.
+trabant:
+  name: La Trabant
+  blurb: La petite voiture est-allemande à la carrosserie en plastique, qui pétarada à travers la frontière ouverte en 1989.
+  text:
+  - La Trabant fut construite en Allemagne de l’Est de 1957 à 1991, avec un moteur à deux temps et une carrosserie en Duroplast, un plastique fait de déchets de coton. Les familles attendaient plus de dix ans pour en avoir une.
+  - En novembre 1989, des colonnes de Trabis fumantes passèrent à l’Ouest, et la petite voiture devint un symbole de la chute du Mur.
+currywurst:
+  name: La currywurst
+  blurb: Une saucisse de porc coupée en rondelles dans du ketchup au curry, inventée à Berlin en 1949.
+  text:
+  - En 1949, Herta Heuwer, à son stand de Charlottenburg, mélangea du ketchup et de la poudre de curry reçue de soldats britanniques et versa le tout sur une saucisse frite. Berlin la mange depuis.
+  - Elle est servie coupée en morceaux avec une petite fourchette de bois, avec ou sans peau, souvent avec des frites.

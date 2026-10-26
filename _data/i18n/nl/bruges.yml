@@ -1,0 +1,21 @@
+# bruges's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/bruges.yml and its landmarks, with their pages, in landmarks/bruges.yml.
+title: 'Instant Bruges: gratis virtuele 3D-rondleiding en game van Brugge'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Brugge in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de reien van Brugge!
+lead: Rijd door het hart van Brugge in 3D, over de Markt, langs het Belfort, de Rozenhoedkaai en de Dijver, met elk dak op zijn gemeten hoogte.
+features:
+- title: Het echte Brugge
+  text: 'Dwaal tussen zo’n 8.400 gebouwen, in 3D nagebouwd uit OpenStreetMap, elk op de hoogte die Vlaanderen mat: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Markt en reien
+  text: Begin op de Markt onder het Belfort, steek de Burg over, volg de reien langs de Rozenhoedkaai en de Dijver, en rijd door naar de Onze-Lieve-Vrouwekerk en het Begijnhof.
+- title: 'Een race: Markt en Dijver'
+  text: Race van de Markt onder het Belfort naar de Rozenhoedkaai, langs de Dijver en het Gruuthuse naar de Onze-Lieve-Vrouwekerk, en terug via de Steenstraat.
+intro: Brugge is de hoofdstad van West-Vlaanderen, een kleine stad van reien, bakstenen huizen en middeleeuwse kerken in het noordwesten van België. Van de 13e tot de 15e eeuw was het een van de grote handelssteden van Noord-Europa; toen de vaargeul naar zee verzandde, vertrok het geld en sliep de stad eeuwenlang, en daarom bleef zoveel van het middeleeuwse centrum bewaard. Dat centrum staat op de Werelderfgoedlijst van UNESCO.
+famous:
+- De reien, en het zicht op het Belfort vanaf de Rozenhoedkaai
+- Het Belfort op de Markt, 83 meter hoog, met 366 treden tot de beiaard
+- Schilderijen van Jan van Eyck en Hans Memling, die allebei in de stad werkten
+- Kant, chocolade en de Madonna van Michelangelo in de Onze-Lieve-Vrouwekerk
+credits: 'Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Hoogtes: Digitaal Vlaanderen, DHMV II.'

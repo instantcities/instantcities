@@ -1,0 +1,74 @@
+# pisa's landmarks in Dutch (_data/landmarks/pisa.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+torre:
+  name: Scheve Toren van Pisa
+  blurb: De klokkentoren van de kathedraal, die begon te hellen voor zijn derde verdieping af was en sindsdien helt, nu zo’n vier graden.
+  text:
+  - Pisa begon in 1173 aan de klokkentoren van zijn kathedraal. Toen de bouwers de derde verdieping bereikten, had de zachte klei en het zand eronder aan de zuidkant toegegeven en was de toren gaan hellen. Het werk lag bijna een eeuw stil, en toen het werd hervat, maakten de bouwers de bovenste verdiepingen aan de lage kant iets hoger om hem recht te trekken, waardoor de toren licht gebogen is. De klokkenkamer bovenop was rond 1372 klaar.
+  - De toren is zo’n 56 meter hoog, met 294 treden in een wenteltrap in de muur, en zeven klokken bovenin. In 1990 stond hij zo scheef dat hij werd gesloten. Ingenieurs haalden grond onder de hoge kant weg, en in 2001 hadden ze hem zo’n 40 centimeter teruggebracht, tot ongeveer vier graden, veilig voor eeuwen. In het spel staat hij rechtop, omdat hij is getekend naar de omtrek en hoogte van OpenStreetMap.
+duomo:
+  name: Duomo di Pisa
+  blurb: De marmeren kathedraal uit 1064, betaald met de buit van een strooptocht op Palermo, het eerste grote gebouw van de Pisaanse romaanse stijl.
+  text:
+  - Pisa was een van de grote zeemachten van de Middellandse Zee toen het in 1064 aan zijn kathedraal begon, met de schat die zijn vloot het jaar ervoor in Palermo had buitgemaakt. Architect Buscheto ontwierp hem als een kruis met vijf beuken, in wit en grijs marmer met rijen bogen, en Rainaldo verlengde hem en voegde in de 12e eeuw de gevel toe. Paus Gelasius II wijdde hem in 1118 in.
+  - Binnen staan Giovanni Pisano’s gebeeldhouwde preekstoel uit 1302 tot 1310 en de bronzen lamp die, zo gaat het verhaal, de jonge Galilei aan het denken zette over de slinger van een pendule. De lamp die er nu hangt, werd een paar jaar nadat hij hem zou hebben bekeken opgehangen, maar het verhaal bleef.
+battistero:
+  name: Baptisterium
+  blurb: Het grootste baptisterium van Italië, rond en met een koepel, waar een bewaker elk half uur een paar noten zingt om je de echo te laten horen.
+  text:
+  - Diotisalvi begon in 1152 aan het baptisterium, voor de gevel van de kathedraal. Het duurde twee eeuwen om het af te maken, dus de onderste verdiepingen zijn romaans en de bovenste gotisch, met pinakels en spitse gevels van Nicola en Giovanni Pisano. Het is het grootste van Italië, meer dan 100 meter rond, en het helt ook een beetje, naar de kathedraal toe.
+  - Nicola Pisano beeldhouwde in 1260 zijn marmeren preekstoel, een van de eerste werken van de nieuwe beeldhouwkunst die terugkeek naar het antieke Rome. Onder de koepel draagt het geluid zo goed dat een bewaker elk half uur een paar noten zingt, en de echo maakt er een akkoord van.
+camposanto:
+  blurb: De marmeren kloostergang van een begraafplaats aan de noordkant van het plein, naar men zegt gebouwd op aarde uit Golgotha.
+  text:
+  - Volgens de legende bracht aartsbisschop Ubaldo Lanfranchi scheepsladingen aarde van Golgotha mee terug van de kruistochten, en werd de begraafplaats daarop aangelegd. De lange marmeren kloostergang rond het gazon werd in 1278 begonnen door Giovanni di Simone, en de grote families van Pisa begroeven er hun doden in Romeinse sarcofagen.
+  - De muren waren bedekt met fresco’s, onder andere de Triomf van de Dood. In juli 1944 stak een granaat het dak in brand, het smeltende lood liep langs de muren naar beneden en de meeste schilderingen gingen verloren. Restaurateurs haalden weg wat er nog was en vonden eronder de tekeningen van de kunstenaars, de sinopie, nu in een eigen museum aan de overkant van het plein.
+santa-maria-della-spina:
+  blurb: Een piepklein gotisch kerkje aan de oever van de Arno, vol pinakels en beelden, dat ooit een doorn uit de kroon van Christus bewaarde.
+  text:
+  - Het kleine oratorium aan de Lungarno Gambacorti werd rond 1230 gebouwd en in de 14e eeuw verbouwd tot de stekelige gotische kerk die je nu ziet, bedekt met pinakels, tabernakels en beelden van het atelier van de Pisano’s. Ze dankt haar naam aan een doorn uit Christus’ doornenkroon, die in 1333 hierheen werd gebracht.
+  - De kerk stond vlak aan de waterkant en de Arno bleef haar onder water zetten, dus in 1871 liet de stad haar steen voor steen afbreken en een stukje hoger weer opbouwen, aan dezelfde oever.
+piazza-dei-cavalieri:
+  blurb: Het plein van de Ridders van Sint-Stefanus, met het beschilderde paleis van Vasari, nu de Scuola Normale, en de toren waar graaf Ugolino verhongerde.
+  text:
+  - Het plein was het politieke hart van het middeleeuwse Pisa. Nadat Florence de stad had ingenomen, maakte Cosimo I de’ Medici er de zetel van zijn nieuwe ridderorde van, de Ridders van Sint-Stefanus, in 1561 gesticht om de piraten van de Middellandse Zee te bestrijden. Giorgio Vasari herbouwde voor hen het Palazzo della Carovana, met een voorgevel vol zwart-witte sgraffito, en Cosimo’s standbeeld staat ervoor.
+  - Sinds 1810 huisvest het paleis de Scuola Normale Superiore, een van de meest selectieve universiteiten van Italië. Het Palazzo dell’Orologio aan de overkant van het plein omvat de oude Torre della Muda, waar graaf Ugolino della Gherardesca in 1289 met zijn zonen en kleinzonen werd opgesloten en uitgehongerd, zoals Dante vertelt in de Inferno.
+borgo-stretto:
+  blurb: De oude winkelstraat van Pisa onder de arcaden, van de Ponte di Mezzo noordwaarts de middeleeuwse stad in.
+  text:
+  - De Borgo Stretto loopt van de Piazza Garibaldi, aan het eind van de Ponte di Mezzo, naar het noorden de oude stad in. De huizen staan op arcades, dus je winkelt en wandelt onder de portieken, langs cafés, oude banketbakkers en de kerk San Michele in Borgo.
+  - Vlakbij liggen de marktpleinen, de Piazza delle Vettovaglie met zijn arcades en de Piazza San Omobono, waar elke ochtend de kramen met groente en fruit verrijzen.
+lungarni:
+  name: De Lungarni
+  blurb: De straten langs beide oevers van de Arno, met palazzi in oker en roze, elk jaar op 16 juni verlicht met duizenden kaarsjes.
+  text:
+  - De Arno maakt een brede bocht door het midden van Pisa, en beide oevers zijn omzoomd met straten, de Lungarni, en met palazzi in geel, oker en roze. Op de noordoever lopen de Lungarno Pacinotti en de Lungarno Mediceo; op de zuidoever de Lungarno Gambacorti en de Lungarno Galilei, met het Palazzo Blu, geschilderd in de kleur die zijn naam zegt.
+  - 'Op de avond van 16 juni, de vooravond van het feest van de stadspatroon Ranieri, houdt Pisa de Luminara: zo’n 70.000 lichtjes worden langs ramen, lijsten en bruggen gezet, en de hele bocht van de rivier schittert. De dag erna roeien de vier wijken van de stad tegen elkaar op de Arno.'
+ponte-di-mezzo:
+  blurb: De middelste brug, waar de stad al sinds de Romeinen de Arno oversteekt, en waar het noorden en het zuiden van Pisa elke juni tegen elkaar strijden.
+  text:
+  - Er ligt hier al sinds de Romeinse tijd een brug, die de oude stad op de noordoever verbindt met de wijk Kinzica in het zuiden. De stenen brug uit de 17e eeuw werd in de Tweede Wereldoorlog opgeblazen, en de ene brede boog van nu verving hem na de oorlog.
+  - 'Op de laatste zaterdag van juni is de brug het toneel van het Gioco del Ponte: de teams van de noordoever, Tramontana, en de zuidoever, Mezzogiorno, duwen een zware kar over een rail over de brug, en elk probeert hem in de andere helft te drijven.'
+logge-di-banchi:
+  name: Logge di Banchi
+  blurb: De open loggia aan de zuidkant van de Ponte di Mezzo, rond 1605 gebouwd voor de zijde- en wolhandelaren.
+  text:
+  - Groothertog Ferdinando I de’ Medici liet de loggia tussen 1603 en 1605 bouwen, naar een ontwerp van Bernardo Buontalenti, als overdekte markt voor de handel in zijde en wol. De grote bogen staan aan alle kanten open, precies waar de Corso Italia naar de rivier loopt.
+  - Tegenwoordig biedt ze onderdak aan markten en kermissen, en ’s avonds ontmoeten de jonge Pisanen elkaar onder haar bogen en op de trappen bij de brug.
+tuttomondo:
+  blurb: Keith Harings laatste grote muurschildering, in 1989 geschilderd op de achtermuur van het klooster van Sant’Antonio, bij het station.
+  text:
+  - In juni 1989 schilderde de Amerikaanse kunstenaar Keith Haring Tuttomondo, “de hele wereld”, op de achtermuur van het klooster van de kerk Sant’Antonio Abate. In een paar dagen bedekte hij zo’n 180 vierkante meter met een dertigtal van zijn felgekleurde figuren, met elkaar verbonden, over vrede en harmonie in de wereld.
+  - Het was een van de laatste openbare werken die hij maakte voor hij in februari 1990 overleed, en een van de weinige die hij bedoeld had om te blijven. Het ligt op de route van het station naar het centrum, dus veel bezoekers komen er langs op hun eerste wandeling de stad in.
+gioco-del-ponte:
+  name: Gioco del Ponte
+  blurb: Op de laatste zaterdag van juni duwen het noorden en het zuiden van Pisa een kar over de Ponte di Mezzo, na een optocht in renaissancekostuums.
+  text:
+  - Het Spel van de Brug gaat terug op de gevechten van de middeleeuwen, toen de twee helften van de stad op de Ponte di Mezzo met houten schilden vochten. Tegenwoordig brengen de noordoever, Tramontana, en de zuidoever, Mezzogiorno, elk zes wijken in het veld, en hun teams duwen een zware kar over een rail die over de brug ligt.
+  - De kant die de kar in de andere helft drijft, wint de ronde, en de kant die de meeste rondes wint, wint de dag. Voor het spel trekken honderden mensen in renaissancekostuums en harnassen langs de Lungarni.
+cecina:
+  name: Cecina
+  blurb: Een dun, goudbruin plat brood van kikkererwtenmeel, water en olijfolie, gebakken in een koperen pan in een houtoven en warm gegeten met peper.
+  text:
+  - 'In Pisa en langs de kust tot Livorno bakken de pizzeria’s cecina: een beslag van kikkererwtenmeel, water, olijfolie en zout, dun in een brede koperen pan gegoten en in een heel hete oven gebakken tot de bovenkant goudbruin is en de binnenkant nog zacht.'
+  - Het komt in punten, warm, met zwarte peper, op zichzelf of, zoals in Livorno, in een broodje. De Pisanen eten het als tussendoortje in de middag of voor de pizza.

@@ -1,0 +1,101 @@
+# madrid's guide in Dutch (_data/about/madrid.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Spanje
+- Gemeenschap Madrid
+- Ongeveer 3,4 miljoen (stad), bijna 7 miljoen (metropoolregio)
+- 9e eeuw, als de Moorse vesting Mayrit
+- De Manzanares
+- Spaans
+- Villa y Corte (stad en hof)
+- Het Paseo del Prado en het park Buen Retiro, sinds 2021
+overview:
+- 'Madrid ligt zo’n 650 meter boven zeeniveau, bijna in het geografische hart van Spanje, en alle hoofdwegen van het land worden gemeten vanaf een plaquette op de Puerta del Sol. Het is naar Europese maatstaven een jonge hoofdstad: een kleine stad tot het hof van de koning in de 16e eeuw arriveerde, groeide het rond het paleis uit tot een stad van grote lanen, musea en parken.'
+- De oude stad, het deel waar je in Instant Madrid doorheen rijdt, is het Madrid de los Austrias, de stad van de Habsburgse koningen. Vanaf de Puerta del Sol loopt de Calle Mayor naar het westen langs de Plaza Mayor en de Plaza de la Villa richting het Koninklijk Paleis en de kathedraal op de rotspunt boven de rivier. De Gran Vía doorkruist het noorden van het centrum op weg naar de Plaza de España, La Latina met zijn tavernes ligt in het zuiden, en de Barrio de las Letras, de schrijverswijk, in het oosten.
+setting:
+- Madrid ligt in het midden van het Iberisch Schiereiland, op de hoogvlakte van de Meseta, en is de hoofdstad van de gelijknamige autonome gemeenschap. De Sierra de Guadarrama, in de winter vaak wit van de sneeuw, rijst zo’n 50 kilometer naar het noordwesten op. De Manzanares, een kleine rivier, stroomt langs de westkant van de oude stad; haar oevers, waar de ringweg nu door tunnels loopt, werden in 2011 het lange park Madrid Río.
+- Het klimaat is droog, met hete zomers en koude, zonnige winters. De grote parken, de Retiro in het oosten en de Casa de Campo aan de overkant van de rivier, geven de stad haar groen.
+today:
+- Madrid is de zetel van de koning, de regering en het parlement, waarvan het lagerhuis, het Congreso de los Diputados, aan de Carrera de San Jerónimo staat. Veel van Spanjes grootste bedrijven en banken hebben hier hun hoofdkantoor, en langs het Paseo del Prado liggen het Prado, de Reina Sofía en het Thyssen-Bornemisza op een korte wandeling van elkaar.
+- Madrilenen eten laat en brengen hun avonden buiten door, op de terrassen van de pleinen en in de tapasbars van La Latina en Huertas. Op zondagochtend vult de rommelmarkt van El Rastro de straten ten zuiden van La Latina, en half mei viert de stad haar patroon, San Isidro. Real Madrid speelt in het Santiago Bernabéu, Atlético de Madrid in het Metropolitano.
+history:
+- title: Mayrit en de Castiliaanse stad
+  text:
+  - In de 9e eeuw bouwde Mohammed I, de emir van Córdoba, een vesting op de rotspunt boven de Manzanares om de weg naar Toledo te bewaken tegen de christelijke koninkrijken in het noorden. De Arabieren noemden de plek Mayrit, naar haar beekjes; een stuk van haar muur staat nog onder de kathedraal, bij de Cuesta de la Vega.
+  - Alfons VI van Castilië nam Madrid in 1085 in, rond de tijd dat hij Toledo innam. Bijna vijf eeuwen bleef het een bescheiden Castiliaanse stad van boeren en ambachtslieden, waar de koningen soms verbleven en het parlement, de Cortes, soms bijeenkwam. Zijn patroonheilige, Isidorus, was een landarbeider die de akkers buiten de stad bewerkte.
+- title: Het hof van de koningen
+  text:
+  - In 1561 verplaatste Filips II zijn hof naar Madrid, en op een paar jaar in Valladolid aan het begin van de volgende eeuw na is het er sindsdien gebleven. De stad groeide snel. In de 17e eeuw, de Gouden Eeuw van Spanje, schreven Cervantes, Lope de Vega en Quevedo in de straten ten oosten van de Puerta del Sol, schilderde Velázquez voor de koning, en werd in 1619 de Plaza Mayor voltooid.
+  - Toen het oude Alcázar op kerstavond 1734 afbrandde, beval de Bourbonse koning Filips V het stenen paleis dat er nu staat. Zijn zoon Karel III, vaak Madrids beste burgemeester genoemd, liet de straten plaveien en verlichten, bouwde de Puerta de Alcalá en plande het gebouw dat het Prado werd. Op 2 mei 1808 kwam het volk van Madrid in opstand tegen Napoleons troepen, een dag die Goya schilderde en die de Spaanse Onafhankelijkheidsoorlog begon.
+- title: De moderne hoofdstad
+  text:
+  - In de 19e eeuw groeide Madrid zijn oude grenzen ontgroeid, en nieuwe wijken zoals Salamanca rezen in een raster naar het noorden en oosten op. Vanaf 1910 sneed de stad de Gran Vía door de oude stad, en in 1919 opende de eerste metrolijn. In de Spaanse Burgeroorlog hield Madrid het voor de Republiek vol door een beleg van meer dan twee jaar, tot Franco’s troepen in maart 1939 binnentrokken.
+  - Na Franco’s dood in 1975 werd Madrid de hoofdstad van een democratie en, in de jaren 1980, het toneel van de Movida, een uitbarsting van muziek, film en nachtleven. Op 11 maart 2004 doodden bommen in forensentreinen bijna 200 mensen. Nu is Madrid het politieke en financiële centrum van Spanje en een van de grootste steden van de Europese Unie.
+timeline:
+- - 9e eeuw
+  - Emir Mohammed I bouwt de vesting Mayrit
+- - '1085'
+  - Alfons VI van Castilië neemt Madrid in
+- - '1561'
+  - Filips II verplaatst het koninklijk hof naar Madrid
+- - '1619'
+  - De Plaza Mayor is voltooid
+- - '1764'
+  - Het Koninklijk Paleis is voltooid nadat het oude Alcázar afbrandde
+- - '1778'
+  - De Puerta de Alcalá is voltooid
+- - '1808'
+  - Het volk van Madrid komt op 2 mei in opstand tegen de Fransen
+- - '1819'
+  - Het Prado opent als museum
+- - '1910'
+  - Begin van de bouw van de Gran Vía
+- - '1919'
+  - De eerste metrolijn opent
+- - '1939'
+  - Franco’s troepen trekken Madrid binnen aan het einde van de Burgeroorlog
+- - '2021'
+  - Het Paseo del Prado en de Retiro komen op de UNESCO-Werelderfgoedlijst
+places:
+  puerta-del-sol:
+    name: Puerta del Sol
+    blurb: Madrids drukste plein, met kilometer nul van Spanjes wegen en de klok die het nieuwe jaar inluidt.
+  calle-preciados:
+    blurb: De voetgangerswinkelstraat van de Puerta del Sol naar Callao, omzoomd met warenhuizen.
+  plaza-de-callao:
+    blurb: Het plein aan de Gran Vía met bioscopen en neonreclames, onder andere het Schweppes-bord op het Carrión-gebouw.
+  gran-via:
+    blurb: De grote laan die vanaf 1910 door de oude stad werd gesneden, met banken, theaters, hotels en enkele van Europa’s eerste hoge gebouwen.
+  plaza-de-espana:
+    blurb: Het grote plein aan het eind van de Gran Vía, met een monument voor Cervantes en zijn Don Quichot en Sancho Panza, in 2021 heropend na een verbouwing die er meer van aan tuinen en wandelaars gaf.
+  calle-del-arenal:
+    blurb: De straat van de Puerta del Sol naar de opera, genoemd naar de zandige bedding van een beek die er ooit langs liep.
+  plaza-de-oriente:
+    blurb: De tuinen tussen het Koninklijk Paleis en het operahuis, omzoomd met beelden van Spaanse koningen.
+  calle-de-bailen:
+    blurb: De straat langs het Koninklijk Paleis en de kathedraal, genoemd naar een Spaanse overwinning op Napoleons leger in 1808, die de Calle de Segovia op een viaduct kruist.
+  calle-mayor:
+    blurb: De oude hoofdstraat van Madrid, van de Puerta del Sol naar het westen richting het paleis, de route van koninklijke processies.
+  plaza-de-la-villa:
+    blurb: Een klein plein bij de Calle Mayor met gebouwen uit drie eeuwen, waar de gemeenteraad tot 2007 vergaderde.
+  plaza-mayor:
+    blurb: Het plein met arcaden uit 1619, ooit het toneel van markten, stierengevechten en de processen van de Inquisitie.
+  calle-de-la-cava-baja:
+    blurb: De straat van tavernes en tapasbars in La Latina, die de gracht buiten de middeleeuwse muren volgt.
+  plaza-de-santa-ana:
+    blurb: Het plein met bars en terrassen in de Barrio de las Letras, voor het Teatro Español.
+  calle-de-las-huertas:
+    blurb: De hoofdstraat van de Barrio de las Letras, waar Cervantes en Lope de Vega woonden, met regels uit hun werk in bronzen letters in het plaveisel.
+  carrera-de-san-jeronimo:
+    blurb: De straat van de Puerta del Sol naar het Paseo del Prado, langs het Congres van Afgevaardigden met zijn bronzen leeuwen.
+links:
+- title: esMADRID
+  note: De officiële toeristische informatie van de stad
+- title: Ayuntamiento de Madrid
+  note: Het stadsbestuur (in het Spaans)
+- title: Patrimonio Nacional
+  note: Tickets en openingstijden van het Koninklijk Paleis
+- title: Paseo del Prado en Buen Retiro op UNESCO
+  note: De Werelderfgoedlijst
+- title: Madrid op Wikipedia
+  note: Het encyclopedieartikel

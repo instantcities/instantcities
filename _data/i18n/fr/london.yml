@@ -1,0 +1,21 @@
+# london's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/london.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/london.yml and its landmarks, with their pages, in landmarks/london.yml.
+title: 'Instant London : visite virtuelle en 3D et jeu gratuits de Londres'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Londres dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Westminster !
+lead: Parcourez Westminster en 3D, par Trafalgar Square, Whitehall, Parliament Square et l’abbaye de Westminster, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Londres
+  text: 'Promenez-vous parmi quelque 2 600 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Westminster
+  text: Descendez Whitehall depuis Trafalgar Square en passant devant Downing Street, faites le tour de Parliament Square sous Big Ben et l’abbaye de Westminster, et repérez le London Eye de l’autre côté de la Tamise. On roule à gauche !
+- title: 'Une course : Westminster'
+  text: Foncez de Charing Cross par Whitehall, devant Downing Street, jusqu’à Parliament Square et Big Ben, et retour le long de la Tamise par le Victoria Embankment.
+intro: Londres est la capitale du Royaume-Uni et l’une des plus grandes villes d’Europe. Les Romains l’ont fondée sur la Tamise il y a près de deux mille ans, et elle est devenue la capitale d’un empire mondial et un centre de la finance, du théâtre et des musées. À Westminster, le quartier que vous parcourez, le Parlement, Big Ben et les parcs royaux sont à deux pas de Trafalgar Square.
+famous:
+- Big Ben, le Parlement et l’abbaye de Westminster
+- Les bus rouges à impériale, les taxis noirs et le métro, le plus ancien métro du monde
+- Les cérémonies royales comme la relève de la garde et le Trooping the Colour
+- Les musées nationaux gratuits, du British Museum à la National Gallery
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

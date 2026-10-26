@@ -17,7 +17,8 @@ sfx.onUnlock = () => music.restart();
 // Building the city keeps the page busy for seconds at a time: schedule the music further ahead
 // meanwhile, so it plays on through. main.js turns this back down once the game is up.
 music.ahead = 2;
-music.play('menu');
+// No background music on the loading screen and the menu for now.
+// music.play('menu');
 
 // Browsers only allow sound after a click, tap or key; try now (it works when they allow it),
 // and otherwise on the first one, also while loading.

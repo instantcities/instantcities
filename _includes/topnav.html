@@ -1,17 +1,27 @@
 {%- comment -%}
   The bar on top of every page: the logo (with the city's name on a city's pages), home, the cities
-  page (which links every city), the page of famous art and the page about the project. On narrow screens the links fold
-  away behind a hamburger button on the right. It stays on top as the page scrolls; over a live hero (body.over-live) it starts out
-  see-through and fills in white as the page scrolls (_includes/topnav.js).
+  page (which links every city), the page of famous art and the page about the project, in the
+  page's language (_includes/lang.html); on a page that has other languages (a `ref`), the same page
+  in each of them. On narrow screens the links fold away behind a hamburger button on the right. It
+  stays on top as the page scrolls; over a live hero (body.over-live) it starts out see-through and
+  fills in white as the page scrolls (_includes/topnav.js).
 {%- endcomment -%}
+{%- include lang.html -%}
 {%- if page.city %}{% assign bar_city = site.data.cities | where: 'id', page.city | first %}{% endif %}
 <header class="top" id="top">
-  <a class="brand" href="/"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities{% if bar_city %}<span class="brand-city">: {{ bar_city.name }}</span>{% endif %}</span></a>
-  <nav class="nav" id="menu" aria-label="Menu">
-    <a href="/"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Home</a>
-    <a href="/cities/"{% if page.layout == 'cities' or page.city %} aria-current="page"{% endif %}>Cities</a>
-    <a href="/art/"{% if page.layout == 'art' or page.layout == 'artwork' %} aria-current="page"{% endif %}>Art</a>
-    <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+  <a class="brand" href="{{ T.urls.home }}"><img src="/assets/logo.svg" width="30" height="30" alt=""> <span>Instant Cities{% if bar_city %}<span class="brand-city">: {{ T.cities[bar_city.id].name | default: bar_city.name }}</span>{% endif %}</span></a>
+  <nav class="nav" id="menu" aria-label="{{ T.menu }}">
+    <a href="{{ T.urls.home }}"{% if page.layout == 'home' %} aria-current="page"{% endif %}>{{ T.nav_home }}</a>
+    <a href="{{ T.urls.cities }}"{% if page.layout == 'cities' or page.city %} aria-current="page"{% endif %}>{{ T.nav_cities }}</a>
+    <a href="/art/"{% if page.layout == 'art' or page.layout == 'artwork' %} aria-current="page"{% endif %}>{{ T.nav_art }}</a>
+    <a href="{{ T.urls.about }}"{% if page.ref == 'about' %} aria-current="page"{% endif %}>{{ T.nav_about }}</a>
+    {%- if page.ref %}
+    <span class="langs" role="group" aria-label="{{ T.language }}">
+      {%- for l in H.langs %}{% assign LT = site.data.lang[l] %}
+      <a href="{% include page-url.html lang=l %}" hreflang="{{ l }}" lang="{{ l }}" title="{{ LT.name }}" data-lang="{{ l }}"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a>
+      {%- endfor %}
+    </span>
+    {%- endif %}
   </nav>
-  <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="Menu" data-burger>{% include icon.html name="menu" %}{% include icon.html name="close" %}</button>
+  <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="{{ T.menu }}" data-burger>{% include icon.html name="menu" %}{% include icon.html name="close" %}</button>
 </header>

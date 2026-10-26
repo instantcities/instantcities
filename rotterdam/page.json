@@ -1,11 +1,11 @@
 {
   "id": "rotterdam",
   "name": "Instant Rotterdam",
-  "title": "Instant Rotterdam: a free 3D game of Rotterdam, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Rotterdam in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Rotterdam: play through Rotterdam in 3D",
+  "title": "Instant Rotterdam: a free virtual 3D tour and game of Rotterdam",
+  "description": "Take a free virtual 3D tour of the centre of Rotterdam in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Rotterdam: a virtual 3D tour of Rotterdam",
   "share_description": "Cycle, walk or gallop through Rotterdam in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Rotterdam, the Netherlands: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Rotterdam, the Netherlands: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Rotterdam in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Rotterdam",
   "style": ":root { --paper: #f6f7f8; --accent: #0b6e4f; --accent-soft: #d6efe6; --gold: #f2c230; --sky: #e2eaf0; --skyline: #8c9aa6; --glass: rgba(246, 247, 248, 0.72); } .tag { color: #08523b; }"

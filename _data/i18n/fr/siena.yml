@@ -1,0 +1,23 @@
+# siena's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/siena.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/siena.yml and its landmarks, with their pages, in landmarks/siena.yml.
+title: 'Instant Siena : visite virtuelle en 3D et jeu gratuits de Sienne'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Sienne dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Sienne, autour de la Piazza del Campo !
+lead: Parcourez le centre de Sienne en 3D, sur ses trois collines de Toscane, par la Piazza del Campo, devant la Torre del Mangia, la cathédrale rayée et les ruelles de brique des contrade, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Sienne
+  text: 'Promenez-vous parmi quelque 1 900 bâtiments reconstruits en 3D à partir d’OpenStreetMap, avec le Duomo et la Torre del Mangia à leur vraie hauteur : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Le Campo et le Duomo
+  text: Entrez dans la coquille de brique rouge du Campo sous le Palazzo Pubblico et la Fonte Gaia, passez devant la Loggia della Mercanzia, montez jusqu’à la cathédrale rayée et Santa Maria della Scala, et regardez San Domenico de l’autre côté du vallon.
+- title: 'Une course : Campo et Duomo'
+  text: Foncez par Banchi di Sopra jusqu’à la Loggia della Mercanzia, dans le Campo sous la Torre del Mangia, montez le Casato jusqu’au Duomo, et retour devant le baptistère par la Via delle Terme.
+intro: Sienne se trouve sur trois collines au milieu de la Toscane, entre les vignes du Chianti et les collines d’argile nues des Crete Senesi. Pendant trois siècles, ce fut une république libre, une ville de banquiers rivale de Florence, et elle a gardé son centre gothique de brique presque tel qu’il était au XIVe siècle, autour de la coquille de la Piazza del Campo. Deux fois chaque été, ses dix-sept contrade y courent le Palio.
+famous:
+- La Piazza del Campo, la place en forme de coquille en son cœur
+- Le Palio, la course de chevaux autour du Campo le 2 juillet et le 16 août
+- La Torre del Mangia et le Palazzo Pubblico, avec les fresques de Lorenzetti sur le bon et le mauvais gouvernement
+- La cathédrale rayée et son pavement de tableaux de marbre
+- Le Monte dei Paschi, la plus ancienne banque du monde encore en activité
+- Le panforte et les ricciarelli
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

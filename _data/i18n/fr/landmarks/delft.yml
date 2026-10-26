@@ -1,0 +1,71 @@
+# delft's landmarks in French (_data/landmarks/delft.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+markt:
+  blurb: La longue place du marché entre l’hôtel de ville et la Nieuwe Kerk, l’une des plus grandes des Pays-Bas.
+  text:
+  - Le Markt s’étend du Stadhuis, à son extrémité ouest, à la Nieuwe Kerk, à son extrémité est, bordé des deux côtés de hautes maisons étroites qui sont aujourd’hui des cafés, des boutiques et des crêperies. Chaque jeudi, le marché le remplit, comme depuis des siècles.
+  - Au milieu se dresse la statue de Hugo de Groot, le juriste né à Delft, et du haut de la tour de la Nieuwe Kerk, toute la place ressemble à un long tapis de brique.
+nieuwe-kerk:
+  blurb: La grande église gothique du Markt, avec une tour de 108 mètres, où reposent les princes d’Orange.
+  text:
+  - La Nieuwe Kerk fut bâtie de 1396 à 1496, à l’endroit où un habitant de Delft aurait vu la Vierge Marie dans une vision. Sa tour de pierre mesure environ 108 mètres, le deuxième plus haut clocher des Pays-Bas après le Dom d’Utrecht, et on peut en gravir les 376 marches.
+  - Guillaume d’Orange, le chef de la révolte des Pays-Bas, y fut enterré après son assassinat en 1584, et depuis lors presque tous les membres de la maison d’Orange ont été déposés dans le caveau familial en dessous. Hendrick de Keyser en fit le tombeau de marbre à partir de 1614.
+stadhuis:
+  blurb: L’hôtel de ville Renaissance de Delft, au bout ouest du Markt, bâti autour d’une tour de pierre médiévale.
+  text:
+  - Après qu’un incendie eut détruit l’ancien hôtel de ville en 1618, Hendrick de Keyser construisit le nouveau dans le style Renaissance néerlandaise, avec des volets rouges et des ornements de pierre sur la brique.
+  - Il conserva la tour du XIIIe siècle de l’ancien, le Steen, qui fut longtemps la prison de la ville, si bien que la tour médiévale s’élève aujourd’hui du milieu du bâtiment du XVIIe siècle. Le conseil communal de Delft s’y réunit toujours, et on s’y marie.
+oude-kerk:
+  blurb: La plus ancienne église de Delft, sur l’Oude Delft, avec une tour qui penche d’environ deux mètres au-dessus du canal.
+  text:
+  - 'L’Oude Kerk, l’église Saint-Hippolyte, remonte au XIIIe siècle. Sa tour de brique a été bâtie au bord d’un canal comblé, et le sol meuble l’a fait pencher presque dès le début : son sommet est aujourd’hui décalé d’environ deux mètres, et les habitants de Delft l’appellent Scheve Jan, Jean le Penché.'
+  - Johannes Vermeer y est enterré, ainsi que les amiraux Piet Hein et Maarten Tromp, dont les tombeaux de marbre se trouvent dans le chœur.
+prinsenhof:
+  blurb: L’ancien couvent où vécut Guillaume d’Orange, et où il fut abattu en 1584. Les impacts de balles sont toujours dans le mur.
+  text:
+  - Le Prinsenhof était le couvent Sainte-Agathe jusqu’à la Réforme. Guillaume d’Orange, le prince qui mena la révolte des Pays-Bas contre l’Espagne, en fit sa demeure à Delft.
+  - Le 10 juillet 1584, Balthasar Gérard, un catholique qui voulait la récompense que le roi Philippe II d’Espagne avait mise sur la tête du prince, l’abattit dans l’escalier. Les trous laissés par les balles sont toujours dans le mur. Aujourd’hui, le Prinsenhof est un musée de l’histoire de Delft et de son Siècle d’or.
+oude-delft:
+  blurb: Le plus vieux canal de la ville, qui a donné son nom à Delft, bordé de maisons de marchands et du Gemeenlandshuis.
+  text:
+  - Au Moyen Âge, on creusa ici un canal, un delf, pour drainer les terres et porter les bateaux, et la ville qui s’est développée le long de lui en a pris le nom. L’Oude Delft traverse toujours en ligne droite la vieille ville, avec des arbres des deux côtés et un pont tous les cent mètres.
+  - 'Le long de lui se dressent quelques-unes des plus belles maisons de Delft : le Gemeenlandshuis de 1505, avec ses armoiries peintes, et les maisons de marchands du Siècle d’or, avec la tour penchée de l’Oude Kerk au bout de la perspective.'
+koornmarkt:
+  blurb: Le canal où se négociait le grain, aujourd’hui bordé de cafés, de péniches et de terrasses au bord de l’eau.
+  text:
+  - Le Koornmarkt va vers le sud depuis le Wijnhaven, le long d’un canal où des péniches déchargeaient autrefois le grain qui se vendait ici. Ses hautes maisons à pignons à redans et à pignons à cou donnent toujours sur l’eau.
+  - En été, les cafés mettent leurs terrasses sur le quai et sur des pontons dans le canal, et les bateaux des visites en canal passent sous ses ponts.
+oostpoort:
+  blurb: La dernière des portes de Delft, avec deux fines tours qui se reflètent dans l’eau.
+  text:
+  - 'Delft était autrefois ceinte de remparts avec des portes sur chaque route et chaque canal. L’Oostpoort est la seule porte qui reste : la porte date d’environ 1400, et les deux fines tours octogonales aux toits pointus furent ajoutées au début du XVIe siècle.'
+  - Elle se dresse sur l’eau, à l’angle sud-est de la vieille ville, avec un pont-levis blanc à côté, et des gens y habitent encore aujourd’hui.
+waag:
+  blurb: Le poids public près du Markt, où l’on pesait les marchandises pour les taxes de la ville.
+  text:
+  - Chaque ville de marché néerlandaise avait son poids public, où les marchands apportaient leurs marchandises pour les faire peser et taxer. Celui de Delft se trouve à l’extrémité ouest du Markt, derrière l’hôtel de ville, le dos tourné au canal du Wijnhaven.
+  - À côté se dresse le Vleeshal, l’ancienne halle à la viande, avec des têtes de vaches et de moutons sculptées au-dessus de sa porte.
+vermeer:
+  name: Johannes Vermeer
+  blurb: Le peintre de La Jeune Fille à la perle et de la Vue de Delft, né, au travail et enterré à Delft.
+  text:
+  - Johannes Vermeer est né à Delft en 1632 et y a passé toute sa vie. Il peignait lentement des intérieurs calmes pleins de lumière, une femme lisant une lettre, une servante versant du lait, et il ne reste qu’environ trente-sept de ses tableaux. Il mourut pauvre en 1675 et est enterré dans l’Oude Kerk.
+  - Sa Vue de Delft, peinte vers 1660 de l’autre côté de l’eau, près des portes de Schiedam et de Rotterdam, est aujourd’hui au Mauritshuis à La Haye. Le Vermeer Centrum du Voldersgracht se trouve à l’emplacement de la guilde de Saint-Luc, la guilde des peintres qu’il dirigea.
+delfts-blauw:
+  name: Le bleu de Delft
+  blurb: La faïence bleue et blanche qui a rendu Delft célèbre, d’abord fabriquée pour remplacer la porcelaine de Chine.
+  text:
+  - Au XVIIe siècle, la Compagnie néerlandaise des Indes orientales rapporta de la porcelaine chinoise en Europe, et les potiers de Delft entreprirent de la copier en faïence à glaçure d’étain blanche et décor de cobalt bleu. Quand l’approvisionnement de Chine s’arrêta au milieu du siècle, Delft prit le marché, et des dizaines de fabriques travaillaient dans d’anciennes brasseries à travers la ville.
+  - De toutes, seule De Porceleyne Fles, fondée en 1653, travaille encore aujourd’hui, sous le nom de Royal Delft. Ses peintres décorent toujours à la main carreaux, assiettes et vases.
+donderslag:
+  name: Le Delftse Donderslag
+  blurb: L’explosion de poudre du 12 octobre 1654, qui rasa un quart de la ville.
+  text:
+  - Le matin du 12 octobre 1654, la poudrière de la ville, pleine de tonnes de poudre, sauta. On entendit l’explosion bien au-delà de la ville ; elle détruisit tout le nord-est de Delft et fit plus de cent morts, dont le peintre Carel Fabritius, élève de Rembrandt.
+  - 'Le quartier ne fut jamais rebâti tel qu’il était : à l’endroit de la poudrière s’étend le Paardenmarkt, une place dégagée, jusqu’à aujourd’hui.'
+hugo-de-groot:
+  name: Hugo de Groot
+  blurb: Le juriste né à Delft qui écrivit le premier grand livre sur le droit entre les nations, et s’évada de prison dans un coffre à livres.
+  text:
+  - Hugo de Groot, Grotius, est né à Delft en 1583. Prodige entré à l’université à onze ans, il écrivit Du droit de la guerre et de la paix en 1625, l’un des livres fondateurs du droit international.
+  - Pris dans les querelles religieuses de la République, il fut emprisonné au château de Loevestein en 1619 et s’en évada deux ans plus tard dans un coffre destiné à ses livres. Il mourut en 1645 et est enterré dans la Nieuwe Kerk ; sa statue se dresse sur le Markt depuis 1886.

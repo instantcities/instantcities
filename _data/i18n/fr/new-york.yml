@@ -1,0 +1,23 @@
+# new-york's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/new-york.yml and its landmarks, with their pages, in landmarks/new-york.yml.
+title: 'Instant New York : visite virtuelle en 3D et jeu gratuits de New York'
+description: 'Faites gratuitement la visite virtuelle en 3D de Midtown Manhattan dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval parmi les gratte-ciel de Manhattan !
+lead: Parcourez Midtown Manhattan en 3D, autour de la 42e Rue, devant Times Square, Bryant Park et la bibliothèque, Grand Central, le Chrysler Building, l’Empire State Building et le Rockefeller Center, avec chaque tour d’OpenStreetMap.
+features:
+- title: Le vrai Midtown
+  text: 'Promenez-vous parmi quelque 6 500 bâtiments reconstruits en 3D à partir d’OpenStreetMap, la plupart à leur vraie hauteur : levez les yeux vers l’Empire State Building, 443 mètres jusqu’au bout de son mât, et le Chrysler Building, 319. Le reste de la ville suivra.'
+- title: Des tours, une gare et une bibliothèque
+  text: Arrêtez-vous sur Times Square sous ses écrans, filez vers l’Empire State Building sur la 34e Rue, devant la bibliothèque et Bryant Park sur la Cinquième Avenue, jusqu’à Grand Central et au Chrysler Building sur la 42e Rue, puis montez au Rockefeller Center.
+- title: 'Une course : boucle de Midtown'
+  text: Foncez sur la Septième Avenue à travers Times Square, par la 34e Rue jusqu’à l’Empire State Building, remontez la Cinquième Avenue devant la bibliothèque, puis la 42e Rue jusqu’au Chrysler Building, et retour par le Rockefeller Center.
+intro: 'New York se trouve à l’embouchure de l’Hudson, sur la côte atlantique des États-Unis : une ville de cinq arrondissements sur des îles et des rivages autour de l’un des plus grands ports naturels du monde. Manhattan, la longue île en son cœur, est un quadrillage d’avenues et de rues numérotées bordées de gratte-ciel. Les Néerlandais l’ont fondée sous le nom de Nouvelle-Amsterdam, des millions d’immigrants sont arrivés par son port, et c’est aujourd’hui la plus grande ville des États-Unis et une capitale mondiale de l’argent, du théâtre, de l’art et de la mode.'
+famous:
+- La skyline de Manhattan, avec l’Empire State Building et le Chrysler Building
+- Times Square et les théâtres de Broadway
+- La statue de la Liberté dans le port
+- Central Park
+- Les taxis jaunes et le métro qui roule toute la nuit
+- Wall Street, et la pizza à la part
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

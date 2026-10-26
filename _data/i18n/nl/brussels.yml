@@ -1,0 +1,21 @@
+# brussels's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/brussels.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/brussels.yml and its landmarks, with their pages, in landmarks/brussels.yml.
+title: 'Instant Brussels: gratis virtuele 3D-rondleiding en game van Brussel'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Brussel in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard rond de Grote Markt van Brussel!
+lead: Rijd door het hart van Brussel in 3D, over de Grote Markt, langs de Beurs, Manneken Pis en de Koninklijke Sint-Hubertusgalerijen, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Brussel
+  text: 'Dwaal tussen zo’n 4.600 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Rond de Grote Markt
+  text: Sta tussen de gildehuizen en het stadhuis op de Grote Markt, rijd langs de Beurs, zoek Manneken Pis en rol door de Koninklijke Sint-Hubertusgalerijen.
+- title: 'Een race: Grote Markt'
+  text: Race van de Grote Markt naar de Beurs, de Zuidstraat af naar Manneken Pis en terug via de Spoormakersstraat en de Grasmarkt.
+intro: Brussel is de hoofdstad van België en de zetel van de belangrijkste instellingen van de Europese Unie en van de NAVO. Het oude centrum groeide rond de Grote Markt, een plein van vergulde gildehuizen en een gotisch stadhuis dat de gilden heropbouwden na een Frans bombardement in 1695. De stad spreekt Frans en Nederlands naast elkaar, en je kent haar van haar strips, haar chocolade, haar frieten en het bronzen ventje Manneken Pis.
+famous:
+- De Grote Markt, met het gotische stadhuis en de vergulde huizen van de gilden
+- Manneken Pis, een bronzen jongetje met een garderobe van meer dan duizend kostuums
+- De Europese Commissie, het Europees Parlement en het hoofdkwartier van de NAVO
+- Frieten, wafels, chocolade, bier en strips, van Kuifje tot vandaag
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,0 +1,21 @@
+# lecce's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/lecce.yml and its landmarks, with their pages, in landmarks/lecce.yml.
+title: 'Instant Lecce: gratis virtuele 3D-rondleiding en game van het barokke Lecce'
+description: 'Maak gratis een virtuele 3D-rondleiding door de barokke oude stad van Lecce in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken, race of speel opdrachten, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het barokke Lecce!
+lead: Rijd door de oude stad van Lecce in Apulië, in honingkleurige pietra leccese, met luiken en platte dakterrassen.
+features:
+- title: Barok Lecce
+  text: Rijd langs Santa Croce de Piazza del Duomo op, kijk neer in het Romeinse amfitheater onder de Piazza Sant’Oronzo, en zoek het kasteel van Karel V en de drie stadspoorten.
+- title: Twee routes
+  text: Race Lecce Centro, een lus langs de Duomo, de Porta Rudiae, de Porta Napoli en Santa Croce, of sprint van het station naar Sant’Oronzo.
+- title: Eigen opdrachten
+  text: 'Speel korte opdrachten tegen de klok: vang de dief die ervandoor ging met het papier-maché beeld van Sant’Oronzo.'
+intro: 'Lecce is de belangrijkste stad van de Salento, de hak van Italië, een paar kilometer van de Adriatische Zee. In de 16e en 17e eeuw hakten de bouwmeesters de zachte, gouden plaatselijke steen tot kerken en paleizen die zo rijk versierd waren dat de stijl de naam van de stad kreeg: de barok van Lecce.'
+famous:
+- De barok van Lecce, vooral de gebeeldhouwde gevel van de Basilica di Santa Croce
+- Een Romeins amfitheater, half verzonken in het hoofdplein
+- Heiligen van papier-maché, de cartapesta van de werkplaatsen
+- Pasticciotto als ontbijt en caffè leccese met amandelmelk
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

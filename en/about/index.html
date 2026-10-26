@@ -1,0 +1,57 @@
+---
+layout: project
+lang: en
+ref: about
+title: "About Instant Cities: an open source project that brings Europe's old towns to life in 3D"
+description: "How Instant Cities works and where it is going: cities rebuilt from OpenStreetMap, drawn with three.js in the browser, written largely with AI, open source on GitHub, and grown out of Instant Gent."
+heading: About the project
+tagline: "Instant Cities is an open source project that tries to bring a city to life on your screen with as low a barrier as possible: you open a link, and you are riding through its streets."
+toc:
+  - [idea, "The idea"]
+  - [openstreetmap, "Cities built from OpenStreetMap"]
+  - [the-game, "Missions, races and tours"]
+  - [how-its-built, "How it is built"]
+  - [instant-gent, "It started with Instant Gent"]
+  - [open-source, "Open source, on GitHub"]
+  - [future, "Where it could go"]
+  - [credits, "Thanks and credits"]
+---
+        <h2 id="idea">The idea</h2>
+        <p>Most people know a city from a map, from photos or from one short visit. Instant Cities lets you ride through it instead: along its streets, over its bridges and across its squares, at your own pace, on a bike, on foot or on a horse. You can look around before a trip, find your way back to a street you remember, or race a friend through an old town neither of you has seen.</p>
+        <p>The idea is to keep the barrier as low as possible. Every city runs in an ordinary browser, on a laptop, a tablet or a phone. You don't install anything, you don't make an account, and you don't need a fast graphics card. A link to a city drops you into it, and a link to a landmark drops you right in front of it.</p>
+
+        <h2 id="openstreetmap">Cities built from OpenStreetMap</h2>
+        <p>Every city starts from <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, the free map of the world that volunteers keep up to date. The project's tools download a city's historic centre from it and turn what they find into a 3D world: the outline and height of every building, the streets and their surfaces (cobbles where OpenStreetMap says so), the bridges, quays, canals and rivers, the squares, parks and trees, and the tram lines.</p>
+        <p>OpenStreetMap gives the shape of a city, but not always its look, so the rest is added by hand. Landmarks such as belfries, cathedrals and bridges get a 3D model of their own instead of a plain block, and house fronts get a look of their own too: in Ghent they are coloured one street at a time, after street-level photos from <a href="https://www.mapillary.com/">Mapillary</a> and <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>. Ghent's buildings even stand at their measured height, taken from Flanders' open height model of the region.</p>
+        <p>Ghent and Lecce are built in full. The other cities have a first piece of their centre so far, with a race and a tour, and grow step by step.</p>
+
+        <h2 id="the-game">Missions, races and tours</h2>
+        <p>Every city has three ways to play. Missions start with free roam, where you ride wherever you like and look around, and go on with short quests against the clock. Races run along real streets against computer riders, and two players can race each other on one screen split in two, Super Mario Kart style. The tour asks nothing of you at all: it flies you past the city's highlights while you sit back and watch.</p>
+        <p>You pick a bike, your own feet or a horse, or a cow, a tiger, a pig or a unicorn: they are all equally fast and strong, so the choice is only about looks.</p>
+
+        <h2 id="how-its-built">How it is built</h2>
+        <p>The game runs in an ordinary browser, on a desktop or laptop with the keyboard or a gamepad, and on a tablet or phone with touch controls. It draws its cities with <a href="https://threejs.org/">three.js</a>, the JavaScript library that puts WebGL graphics in a web page, and it is written as plain JavaScript modules that the browser loads as they are: there is no build step and no app store. The whole site is a set of static files that GitHub Pages serves, so a new version goes live as soon as it lands on GitHub.</p>
+        <p>Behind the game sits a set of conversion scripts. They download a city from OpenStreetMap and turn it into the game's data, lay the streets on the terrain, give buildings their height, place tram lines, benches and bike racks, and colour house fronts after photos. Most of that code, and of the game itself, is written with AI, mostly Claude in Claude Code, which also checks its own work by comparing screenshots of the game with photos of the real place.</p>
+        <p>To run on a phone the game keeps things light: it loads a city in steps while the loading screen tells you what it is doing, and it turns down its detail on touch screens. Once you have played a city, your browser keeps a copy of it, so it opens faster the next time and even starts without a network.</p>
+
+        <h2 id="instant-gent">It started with Instant Gent</h2>
+        <p>The project began as <a href="https://instantgent.be/">Instant Gent</a>, a 3D game of Ghent in Belgium, made to show the city's streets, canals and towers to anyone with a browser. Instant Gent still lives on its own site, in Dutch, French and Spanish, with an app for the iPhone.</p>
+        <p>Once Ghent worked, the next question was whether the same tools could build any old town, and Lecce, in the south of Italy, became the first city after Ghent. In October 2026 the game moved on to Instant Cities, with Ghent and Lecce, and Rome, Paris, London, Venice and the other cities you can play here followed.</p>
+
+        <h2 id="open-source">Open source, on GitHub</h2>
+        <p>All of the code is public at <a href="https://github.com/instantcities/instantcities">github.com/instantcities/instantcities</a>: the game, the tools that build a city from OpenStreetMap, each city's own models and data, and this website. You can read how a city comes together, run it on your own computer, or open an issue when a street, a bridge or a landmark looks wrong.</p>
+        <p>If something on the map is wrong in OpenStreetMap itself, the best fix is to correct it there: then every map that uses OpenStreetMap gets better, and so does the city here, the next time it is rebuilt.</p>
+
+        <h2 id="future">Where it could go</h2>
+        <p>Where this goes is still open, but here is one idea. Each city could get an open source repository of its own on GitHub, kept up by the people who know and love it: they would correct its streets, model its landmarks, colour its house fronts and write about its places.</p>
+        <p>Those repositories would grow into a data source in their own right, next to OpenStreetMap: a free, open 3D model of each historic centre that anyone could use, not only this game. Nothing is decided yet. If you would like to help shape it, get in touch through GitHub.</p>
+
+        <h2 id="credits">Thanks and credits</h2>
+        <ul class="known">
+          <li>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, under the Open Database Licence.</li>
+          <li>The 3D drawing is done by <a href="https://threejs.org/">three.js</a>.</li>
+          <li>Street-level photos come from <a href="https://www.mapillary.com/">Mapillary</a>, and photos of landmarks from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, each credited on its page.</li>
+          <li>The game started as <a href="https://instantgent.be/">Instant Gent</a>, made for Ghent alone, and its tools and Ghent itself came along to Instant Cities.</li>
+          <li>Ghent's building heights come from Digitaal Vlaanderen's height model of Flanders.</li>
+          <li>Made by <a href="https://woutersmet.com/">Wouter Smet</a> and Julia, with Claude.</li>
+        </ul>

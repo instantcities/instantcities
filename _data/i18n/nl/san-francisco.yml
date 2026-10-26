@@ -1,0 +1,23 @@
+# san-francisco's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/san-francisco.yml and its landmarks, with their pages, in landmarks/san-francisco.yml.
+title: 'Instant San Francisco: gratis virtuele 3D-rondleiding en game van San Francisco'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van San Francisco in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door San Francisco, van Chinatown tot aan de baai!
+lead: Rijd door het noordoosten van San Francisco in 3D, aan de baai, door Chinatown en de Dragon Gate, langs de Transamerica Pyramid, het Ferry Building, Union Square en de Coit Tower op Telegraph Hill, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte San Francisco
+  text: Dwaal tussen zo’n 4.100 gebouwen, in 3D nagebouwd uit OpenStreetMap, van de beschilderde houten huizen van North Beach tot de torens van het Financial District op hun echte hoogte. De rest van de stad volgt nog.
+- title: Torens, cable cars en de baai
+  text: Kijk omhoog naar de Transamerica Pyramid, klim Telegraph Hill op naar de Coit Tower, rijd over de Embarcadero naar het Ferry Building, zoek de draaischijf van de cable car op Powell Street bij Union Square, en slenter over Grant Avenue door Chinatown.
+- title: 'Een race: Chinatown tot de baai'
+  text: Race over Grant Avenue door Chinatown, over Bush Street door het Financial District, Market Street af naar het Ferry Building, langs de Embarcadero en terug langs de Transamerica Pyramid.
+intro: 'San Francisco ligt op de punt van een schiereiland in het noorden van Californië, tussen de Stille Oceaan en de Baai van San Francisco: een stad van steile heuvels, beschilderde houten huizen en zomermist. Het groeide van een kleine Spaanse missiepost uit tot een goudkoortsstad, brandde in 1906 af en werd meteen herbouwd. Vandaag kent iedereen het van de cable cars, de Golden Gate Bridge, Chinatown en de techbedrijven van de Bay Area.'
+famous:
+- De Golden Gate Bridge in de mist
+- De cable cars die de heuvels op klimmen
+- Chinatown, de oudste van Noord-Amerika
+- Alcatraz, het gevangeniseiland in de baai
+- De aardbeving en de brand van 1906
+- De dichters van de Beat Generation in North Beach
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

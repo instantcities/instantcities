@@ -1,0 +1,69 @@
+# paris's landmarks in French (_data/landmarks/paris.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+tour-eiffel:
+  name: Tour Eiffel
+  blurb: La tour de fer de Gustave Eiffel sur le Champ-de-Mars, construite pour l’Exposition universelle de 1889 et symbole de Paris depuis.
+  text:
+  - 'L’entreprise de Gustave Eiffel bâtit la tour en deux ans pour l’Exposition universelle de 1889, le centenaire de la Révolution : 18 000 pièces de fer puddlé assemblées par deux millions et demi de rivets. Avec ses 300 mètres, elle fut pendant quarante ans la plus haute construction du monde.'
+  - De nombreux artistes signèrent une protestation contre cette tour « inutile et monstrueuse », qui ne devait rester debout que vingt ans. Ce sont ses antennes radio qui la sauvèrent, et elle devint le symbole de la ville. On peut grimper jusqu’au premier et au deuxième étage, ou prendre les ascenseurs jusqu’au sommet, à 276 mètres.
+notre-dame:
+  blurb: La cathédrale gothique de l’île de la Cité, commencée en 1163 et rouverte depuis l’incendie de 2019.
+  text:
+  - Notre-Dame de Paris fut commencée en 1163 et achevée presque deux siècles plus tard, avec ses deux tours, ses grandes rosaces et les arcs-boutants qui soutiennent ses murs. Le roman de Victor Hugo, en 1831, la rendit célèbre dans le monde entier et contribua à la sauver de la ruine.
+  - Le 15 avril 2019, un incendie détruisit sa toiture et sa flèche. Après cinq ans de travaux, elle a rouvert en décembre 2024, avec une nouvelle flèche bâtie sur le modèle de l’ancienne.
+sainte-chapelle:
+  blurb: La chapelle royale de Louis IX, de 1248, dont les murs sont presque entièrement en vitraux.
+  text:
+  - Le roi Louis IX fit bâtir la Sainte-Chapelle dans la cour de son palais pour abriter la Couronne d’épines, qu’il avait achetée à l’empereur de Constantinople. Elle fut consacrée en 1248.
+  - Sa chapelle haute est célèbre pour ses quinze hautes verrières, qui racontent la Bible en plus de mille scènes et donnent l’impression que les murs sont faits de lumière colorée.
+louvre:
+  blurb: Un palais royal devenu le musée le plus visité au monde, avec la pyramide de verre dans sa cour.
+  text:
+  - Le Louvre commença comme forteresse vers 1200, devint le palais des rois de France puis, après la Révolution, un musée, ouvert en 1793. Il abrite la Joconde, la Vénus de Milo et la Victoire de Samothrace.
+  - En 1989, la pyramide de verre de I. M. Pei en devint la nouvelle entrée, controversée au début, aujourd’hui l’une des curiosités de Paris elle-même.
+pont-neuf:
+  blurb: Le « pont neuf », qui est en fait le plus vieux pont encore debout sur la Seine à Paris.
+  text:
+  - Achevé en 1607 sous Henri IV, le Pont Neuf fut le premier pont de Paris sans maisons, et le premier avec des trottoirs, pour que l’on puisse s’arrêter et regarder le fleuve. Il traverse la pointe de l’île de la Cité en deux bras.
+  - Sur l’île, un Henri IV de bronze chevauche au milieu du pont ; derrière lui, le petit square du Vert-Galant s’avance dans la Seine.
+hotel-de-ville:
+  blurb: La mairie de Paris, à cet endroit depuis 1357 et rebâtie après l’incendie de la Commune en 1871.
+  text:
+  - Paris est gouvernée depuis cette place, alors appelée place de Grève, depuis 1357. L’hôtel de ville Renaissance qui s’y dressait fut incendié pendant la Commune de 1871 et rebâti dans le même style, en plus grand et plus riche, en 1892.
+  - Sa façade porte plus d’une centaine de statues de Parisiens célèbres. En hiver, la place devant devient une patinoire.
+conciergerie:
+  blurb: Un palais royal médiéval sur l’île, devenu la prison où Marie-Antoinette attendit la guillotine.
+  text:
+  - La Conciergerie est ce qui reste du Palais de la Cité, le palais des rois de France au Moyen Âge, avec sa grande salle gothique et ses tours rondes le long de la Seine.
+  - Pendant la Révolution, elle fut la prison de ceux que l’on envoyait devant le Tribunal révolutionnaire ; la reine Marie-Antoinette y passa ses dernières semaines en 1793.
+tour-saint-jacques:
+  blurb: Un clocher gothique isolé, seul reste d’une église sur le chemin des pèlerins vers Saint-Jacques-de-Compostelle.
+  text:
+  - La tour est tout ce qui reste de l’église Saint-Jacques-de-la-Boucherie, où les pèlerins se rassemblaient avant de partir pour Saint-Jacques-de-Compostelle. L’église fut démolie après la Révolution ; la tour, achevée en 1523, fut conservée.
+  - Blaise Pascal y aurait répété ses expériences sur la pression de l’air ; sa statue se dresse à son pied.
+centre-pompidou:
+  blurb: Le musée d’art moderne aux tuyaux, gaines et escalators à l’extérieur, ouvert en 1977.
+  text:
+  - 'Renzo Piano et Richard Rogers ont retourné un bâtiment comme un gant : les tuyaux, les gaines et les escalators sont à l’extérieur, peints de couleurs vives selon leur usage, bleu pour l’air, vert pour l’eau, jaune pour l’électricité.'
+  - À l’intérieur se trouve l’une des plus grandes collections d’art moderne au monde. La place en pente devant est une scène pour les artistes de rue.
+bouquinistes:
+  blurb: Les boîtes vertes des bouquinistes le long des quais de la Seine.
+  text:
+  - Depuis le XVIe siècle, des libraires vendent leurs livres le long de la Seine. Aujourd’hui, quelque 200 bouquinistes gardent leurs boîtes vert foncé fixées aux parapets des quais, ouvertes le matin et refermées à clé le soir.
+  - Ensemble, les boîtes s’étendent sur environ trois kilomètres, avec des livres anciens, des gravures, des cartes postales et des affiches. Elles font partie des berges de la Seine que l’UNESCO classe au patrimoine mondial.
+metro:
+  name: Les entrées du métro
+  blurb: Les entrées vertes Art nouveau du métro parisien, dessinées par Hector Guimard vers 1900.
+  text:
+  - 'Quand la première ligne du métro ouvrit en 1900, Hector Guimard dessina ses entrées : des tiges et des feuilles de fonte peintes en vert, avec des lampes en forme de boutons de fleurs et le mot Métropolitain en lettres en arabesques.'
+  - Quelque 85 d’entre elles sont encore en service, et deux des rares à toit de verre subsistent, à Porte Dauphine et à Abbesses.
+bateaux-mouches:
+  blurb: Les bateaux de promenade qui glissent sur la Seine, devant Notre-Dame et sous les ponts.
+  text:
+  - Les premiers bateaux-mouches transportèrent des passagers sur la Seine au XIXe siècle ; aujourd’hui, le nom désigne tous les bateaux de promenade à toit de verre qui vont de la tour Eiffel au-delà de Notre-Dame et reviennent.
+  - Depuis l’eau, on voit Paris par-dessous ses ponts, et la nuit les quais et les monuments sont illuminés.
+croissant:
+  blurb: Le croissant feuilleté et beurré du petit-déjeuner parisien, de la boulangerie à chaque coin de rue.
+  text:
+  - Le croissant est arrivé à Paris depuis Vienne au XIXe siècle, comme un petit pain en forme de croissant de lune ; les boulangers français le firent avec des couches de beurre pliées dans la pâte, qui gonflent en centaines de feuilles légères.
+  - Avec un café crème au comptoir, c’est le petit-déjeuner parisien classique ; le croissant au beurre, fait uniquement au beurre, est droit, les autres sont courbés.

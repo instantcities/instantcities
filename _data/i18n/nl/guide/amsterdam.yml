@@ -1,0 +1,100 @@
+# amsterdam's guide in Dutch (_data/about/amsterdam.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Nederland
+- Noord-Holland
+- Ongeveer 930.000 (stad), ongeveer 2,5 miljoen (regio)
+- Voor het eerst genoemd in 1275
+- De Amstel en het IJ
+- Nederlands
+- Mokum, het Venetië van het Noorden
+- De 17e-eeuwse grachtengordel, sinds 2010
+overview:
+- Amsterdam ligt aan het IJ, een voormalige zeearm, in een land van drooggelegde polders, voor een groot deel onder zeeniveau. De huizen staan op houten palen die door het zachte veen tot in het zand eronder zijn geslagen, en het oude centrum is een hoefijzer van grachten rond de Dam, het plein waar de stad begon.
+- Instant Amsterdam neemt je mee door dit centrum. Vanaf Centraal Station leidt het Damrak naar het zuiden tot de Dam, met het Koninklijk Paleis en de Nieuwe Kerk aan de westkant. Het Rokin en de Kalverstraat lopen verder zuidwaarts naar het Spui en de Munttoren, terwijl in het westen het Singel, de Herengracht, de Keizersgracht en de Prinsengracht in een boog om de oude stad lopen, langs de Westerkerk en het Anne Frank Huis. Ten oosten van de Dam liggen de Oude Kerk, de Wallen en de Nieuwmarkt.
+setting:
+- Amsterdam ligt in de provincie Noord-Holland, in het westen van Nederland, zo’n 25 kilometer van de Noordzee, waarmee het Noordzeekanaal de haven verbindt. Het IJ scheidt de oude stad van Amsterdam-Noord, en de veerboten erover vanachter Centraal Station zijn gratis.
+- 'De stad heeft zo’n 165 grachten en ruim duizend bruggen, meer dan Venetië. Het klimaat is zacht en maritiem: koele zomers, natte winters, en vaak wind en regen in elk jaargetijde.'
+today:
+- Amsterdam is de hoofdstad van Nederland, hoewel de koning, de regering en het parlement in Den Haag zetelen. De economie draait op financiën en zakelijke dienstverlening, veel ervan in de Zuidas, op technologie en creatieve bedrijven, op de haven en op Schiphol, een van de drukste luchthavens van Europa. Het Rijksmuseum, het Van Gogh Museum en het Anne Frank Huis trekken bezoekers uit de hele wereld, en de gemeente probeert de drukte in het oude centrum te beperken.
+- Amsterdammers leggen veel ritten met de fiets af, over een netwerk van rode fietspaden. Op Koningsdag, 27 april, liggen de grachten vol boten en kleurt de hele stad oranje. De voetbalclub Ajax speelt in de Johan Cruijff ArenA, in het zuidoosten van de stad.
+history:
+- title: Een dam in de Amstel
+  text:
+  - In de 13e eeuw bouwden de mensen aan de monding van de Amstel een dam door de rivier om het water van het IJ tegen te houden. Rond de dam groeide een nederzetting van vissers en handelaars, en in 1275 bevrijdde graaf Floris V van Holland hen van tol in zijn graafschap, de oudste schriftelijke vermelding van Amsterdam. De stad kreeg omstreeks 1300 stadsrechten.
+  - In 1345, zo wordt verteld, kon een stervende man de hostie niet binnenhouden, die in het vuur werd gegooid en onverbrand terugkwam. Het Mirakel van Amsterdam maakte de stad tot bedevaartsoord. Haar kooplieden werden rijk van bier, haring en de graanhandel met de Oostzee, en de Oude Kerk, het oudste gebouw van de stad, groeide met hen mee.
+- title: De Gouden Eeuw
+  text:
+  - Tijdens de Nederlandse opstand tegen Spanje koos Amsterdam in 1578 de protestantse kant. Toen Spaanse troepen in 1585 Antwerpen innamen, trokken duizenden kooplieden, ambachtslieden en joodse families uit Spanje en Portugal naar het noorden, en Amsterdam nam de plaats van Antwerpen in als handelshoofdstad van Europa. In 1602 richtten kooplieden de Verenigde Oost-Indische Compagnie op, en de aandelen die men er in Amsterdam in verhandelde, maakten de stad tot de thuisbasis van een van de eerste beurzen ter wereld.
+  - Vanaf 1613 liet de gemeenteraad de grachtengordel graven, met de Herengracht, de Keizersgracht en de Prinsengracht, en verkocht de kavels erlangs aan rijke kooplieden. Op de Dam bouwde Jacob van Campen een nieuw stadhuis, begonnen in 1648, destijds het grootste van Europa. Rembrandt schilderde zijn Nachtwacht in 1642 in de stad.
+- title: Hoofdstad van Nederland
+  text:
+  - Oorlogen met Engeland en Frankrijk maakten een einde aan de Gouden Eeuw, en Franse troepen bezetten het land in 1795. In 1808 maakte Lodewijk Napoleon, koning van Holland, van het stadhuis zijn koninklijk paleis, en nadat de Fransen waren vertrokken, maakte het nieuwe koninkrijk Amsterdam tot zijn hoofdstad, hoewel de regering in Den Haag bleef. In de 19e eeuw opende het Noordzeekanaal een nieuwe weg naar zee, en het Rijksmuseum en Centraal Station rezen aan de randen van de oude stad.
+  - Duitse troepen bezetten Amsterdam van 1940 tot 1945. In februari 1941 staakten de arbeiders tegen de vervolging van hun joodse buren, maar de bezetter voerde de meeste joden van de stad weg en vermoordde hen, onder wie Anne Frank, die zich van 1942 tot 1944 met haar familie had verborgen in een grachtenhuis aan de Prinsengracht. Na de oorlog was de stad de plek van hippies, krakers en protesten, en in 2010 zette UNESCO de grachtengordel op de Werelderfgoedlijst.
+timeline:
+- - '1275'
+  - Graaf Floris V bevrijdt de mensen bij de dam in de Amstel van tol
+- - ca. 1300
+  - Amsterdam krijgt stadsrechten
+- - '1345'
+  - Het Mirakel van Amsterdam
+- - '1578'
+  - Amsterdam sluit zich aan bij de opstand tegen Spanje
+- - '1602'
+  - Kooplieden richten de Verenigde Oost-Indische Compagnie op
+- - '1613'
+  - Begin van het graven van de grachtengordel
+- - '1642'
+  - Rembrandt schildert de Nachtwacht
+- - '1648'
+  - Begin van de bouw van het stadhuis op de Dam, nu het Koninklijk Paleis
+- - '1808'
+  - Lodewijk Napoleon maakt het stadhuis tot zijn paleis
+- - '1889'
+  - Centraal Station wordt geopend
+- - '1928'
+  - Amsterdam is gastheer van de Olympische Spelen
+- - '1942'
+  - Anne Frank en haar familie duiken onder aan de Prinsengracht
+- - '2010'
+  - UNESCO zet de grachtengordel op de Werelderfgoedlijst
+places:
+  dam:
+    name: De Dam
+    blurb: Het plein op de plek van de eerste dam in de Amstel, met het Koninklijk Paleis, de Nieuwe Kerk en het witte Nationaal Monument voor de oorlogsslachtoffers.
+  damrak:
+    blurb: De drukke straat van Centraal Station naar de Dam, op de oude loop van de Amstel, met Berlages voormalige beurs aan de ene kant en een rij scheve huizen aan het water aan de andere.
+  rokin:
+    blurb: De brede straat ten zuiden van de Dam, waar de Amstel stroomde tot ze werd gedempt, deels in de jaren dertig; het laatste stuk water herbergt nog een paar boten.
+  kalverstraat:
+    blurb: De drukste winkelstraat van Amsterdam, een smal voetgangersstraatje van de Dam naar de Munt, genoemd naar de kalvermarkt die hier in de middeleeuwen werd gehouden.
+  spui:
+    blurb: Een plein met boekwinkels en cafés, met op vrijdag een boekenmarkt en de verborgen poort naar het Begijnhof.
+  muntplein:
+    blurb: Het plein rond de Munttoren, een toren van de middeleeuwse stadsmuur waar de stad in 1672 en 1673 munten sloeg.
+  singel:
+    blurb: De binnenste gracht van de gordel, tot de 16e eeuw de stadsgracht, met aan haar zuidkant de drijvende bloemenmarkt.
+  herengracht:
+    blurb: De eerste van de drie hoofdgrachten, genoemd naar de heren die de stad bestuurden, met de statigste huizen aan haar Gouden Bocht.
+  keizersgracht:
+    blurb: De breedste van de grachten, genoemd naar keizer Maximiliaan I van het Heilige Roomse Rijk.
+  prinsengracht:
+    blurb: De buitenste van de drie grachten, omzoomd met woonboten, waar Anne Frank zich op nummer 263 verborg.
+  westermarkt:
+    blurb: Het plein onder de Westerkerk, de hoogste kerktoren van de stad, met aan het water het Homomonument.
+  oudezijds-voorburgwal:
+    blurb: Een van de oudste grachten, langs de Oude Kerk dwars door het hart van de Wallen.
+  nieuwmarkt:
+    blurb: Een levendig plein rond de Waag, een 15e-eeuwse stadspoort die later waaggebouw werd, aan de rand van Chinatown.
+  amstel:
+    name: De Amstel
+    blurb: De rivier die Amsterdam haar naam gaf, die van het zuiden binnenstroomt langs de Stopera en de Magere Brug.
+links:
+- title: I amsterdam
+  note: De officiële bezoekersgids van de stad
+- title: Gemeente Amsterdam
+  note: Het stadsbestuur
+- title: Grachtengordel van Amsterdam op UNESCO
+  note: De Werelderfgoedlijst
+- title: Amsterdam op Wikipedia
+  note: Het encyclopedieartikel

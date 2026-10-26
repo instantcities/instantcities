@@ -1,0 +1,21 @@
+# barcelona's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/barcelona.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/barcelona.yml and its landmarks, with their pages, in landmarks/barcelona.yml.
+title: 'Instant Barcelona : visite virtuelle en 3D et jeu gratuits de Barcelone'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Barcelone dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval sur la Rambla !
+lead: Parcourez la vieille ville de Barcelone en 3D, par la Rambla, le Quartier gothique, la cathédrale et la Plaça de Sant Jaume, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Barcelone
+  text: 'Promenez-vous parmi quelque 4 300 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: La vieille ville
+  text: Descendez la Rambla de la Plaça de Catalunya jusqu’au monument à Colomb, devant la Boqueria et la Plaça Reial, et perdez-vous dans le Quartier gothique autour de la cathédrale.
+- title: 'Une course : Rambla et Quartier gothique'
+  text: Foncez de la Plaça de Catalunya par la Rambla jusqu’au monument à Colomb, à travers le Quartier gothique devant la Plaça de Sant Jaume et la cathédrale, et retour par le Portal de l’Àngel.
+intro: Barcelone est la capitale de la Catalogne et la deuxième ville d’Espagne, un port méditerranéen entre la montagne et la mer. Son Quartier gothique médiéval, les bâtiments d’Antoni Gaudí et des autres architectes modernistes, et la Rambla qui descend jusqu’au port en ont fait l’une des villes les plus visitées d’Europe.
+famous:
+- La Sagrada Família de Gaudí, le parc Güell, la Casa Batlló et la Pedrera
+- La Rambla, le marché de la Boqueria et les ruelles du Quartier gothique
+- Le FC Barcelone et les Jeux olympiques de 1992
+- Les tapas, le pa amb tomàquet et les tours humaines des castellers
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

@@ -1,0 +1,21 @@
+# bruges's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/bruges.yml and its landmarks, with their pages, in landmarks/bruges.yml.
+title: 'Instant Bruges : visite virtuelle en 3D et jeu gratuits de Bruges'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Bruges dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long des canaux de Bruges !
+lead: Parcourez le cœur de Bruges en 3D, par le Markt, devant le beffroi, le Rozenhoedkaai et le Dijver, avec chaque toit à sa hauteur mesurée.
+features:
+- title: La vraie Bruges
+  text: 'Promenez-vous parmi quelque 8 400 bâtiments reconstruits en 3D à partir d’OpenStreetMap, chacun à la hauteur mesurée par la Flandre : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Markt et canaux
+  text: Partez du Markt sous son beffroi, traversez le Burg, suivez les canaux le long du Rozenhoedkaai et du Dijver, et poussez jusqu’à l’église Notre-Dame et au béguinage.
+- title: 'Une course : Markt et Dijver'
+  text: Foncez du Markt sous le beffroi jusqu’au Rozenhoedkaai, le long du Dijver devant le Gruuthuse jusqu’à l’église Notre-Dame, et retour par la Steenstraat.
+intro: Bruges est le chef-lieu de la Flandre-Occidentale, une petite ville de canaux, de maisons de brique et d’églises médiévales dans le nord-ouest de la Belgique. Du XIIIe au XVe siècle, ce fut l’une des grandes villes marchandes d’Europe du Nord ; quand son chenal vers la mer s’est ensablé, l’argent est parti et la ville a dormi pendant des siècles, ce qui explique qu’une si grande part de son centre médiéval ait survécu. Ce centre est inscrit au patrimoine mondial de l’UNESCO.
+famous:
+- Les canaux, les reien, et la vue sur le beffroi depuis le Rozenhoedkaai
+- Le beffroi du Markt, haut de 83 mètres, avec 366 marches jusqu’à son carillon
+- Les tableaux de Jan van Eyck et de Hans Memling, qui ont tous deux travaillé dans la ville
+- La dentelle, le chocolat et la Madone de Michel-Ange dans l’église Notre-Dame
+credits: 'Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Hauteurs : Digitaal Vlaanderen, DHMV II.'

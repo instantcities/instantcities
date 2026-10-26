@@ -4,6 +4,7 @@ layout: null
 User-agent: *
 Disallow: /docs/
 Disallow: /tools/
+Disallow: /preview/
 Disallow: /*/dev.html
 Disallow: /*/facade-lab.html
 Disallow: /*/places.html

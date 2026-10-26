@@ -1,0 +1,21 @@
+# siena's landmarks in Dutch (_data/landmarks/siena.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+il-campo:
+  blurb: Het schelpvormige plein in het hart van Siena, geplaveid met rode baksteen en aflopend naar het stadhuis, waar de Palio wordt gereden.
+palazzo-pubblico:
+  blurb: Het gotische stadhuis van baksteen en steen onderaan de Campo, met de beroemdste fresco’s over goed en slecht bestuur.
+torre-del-mangia:
+  blurb: De slanke bakstenen toren van het stadhuis, 88 meter hoog, met de stenen kroon van zijn klokkenkamer boven de Campo.
+fonte-gaia:
+  blurb: De marmeren fontein bovenaan de Campo, waar het water van de ondergrondse aquaducten van Siena voor het eerst het plein bereikte.
+duomo:
+  name: Duomo di Siena
+  blurb: De kathedraal op de hoogste heuvel van de stad, gestreept in wit en donkergroen marmer, met een vloer van ingelegde marmeren taferelen.
+facciatone:
+  blurb: De kale voorgevel van de reusachtige nieuwe kathedraal die Siena in 1339 begon en na de Zwarte Dood opgaf.
+santa-maria-della-scala:
+  blurb: Een van de oudste ziekenhuizen van Europa, tegenover de kathedraal, dat bijna duizend jaar voor pelgrims en vondelingen zorgde.
+loggia-della-mercanzia:
+  blurb: De 15e-eeuwse loggia van de koopmansrechtbank, op het kruispunt waar de drie hoofdstraten van Siena boven de Campo samenkomen.
+piazza-salimbeni:
+  blurb: Het pleintje van de paleizen van de Monte dei Paschi, de oudste bank ter wereld die nog bestaat.

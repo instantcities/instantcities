@@ -1,0 +1,102 @@
+# berlin's guide in French (_data/about/berlin.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Allemagne
+- Berlin est un Land à elle seule
+- Environ 3,9 millions d’habitants (ville), 6 millions (région capitale Berlin-Brandebourg)
+- Première mention en 1237 (Cölln) et 1244 (Berlin)
+- La Spree, qui rejoint la Havel à l’ouest de la ville
+- Allemand
+- Spree-Athen (l’Athènes de la Spree)
+- L’île aux Musées, depuis 1999
+overview:
+- Berlin s’étend sur un sol plat et sablonneux dans la vallée de la Spree, parmi lacs et forêts. C’est une grande ville étalée, aux centres multiples, parce que le Grand Berlin a avalé des dizaines de villes et de villages en 1920, et parce que la ville a été divisée en Est et Ouest pendant quatre décennies, chacune avec son propre cœur.
+- Le centre que vous parcourez dans Instant Berlin est le vieux cœur de la ville, le quartier de Mitte. De la porte de Brandebourg et du Reichstag, le boulevard Unter den Linden court vers l’est devant la Bebelplatz et l’Opéra d’État jusqu’à l’île aux Musées dans la Spree, où se dressent la cathédrale et le château royal reconstruit. Au sud des Linden s’étendent le quadrillage de la Friedrichstadt et le Gendarmenmarkt, et de l’autre côté du fleuve le Nikolaiviertel et la tour de télévision marquent l’endroit où Berlin est née.
+setting:
+- Berlin se trouve dans le nord-est de l’Allemagne, à moins de 100 kilomètres de la frontière polonaise, au milieu du Land de Brandebourg. La Spree serpente à travers le centre et rejoint la Havel à Spandau ; la Havel, avec sa chaîne de lacs, forme une grande partie de la bordure ouest de la ville.
+- 'Parcs, forêts et lacs couvrent une grande partie de la ville : le Tiergarten se trouve juste à côté du quartier du gouvernement, et la Grunewald et le Müggelsee en bordure. Le climat est continental doux, avec des étés chauds et des hivers froids.'
+today:
+- Berlin est le siège du parlement allemand, du chancelier et du président, et, par sa population dans ses limites administratives, la plus grande ville de l’Union européenne. Son économie repose sur le gouvernement, les services, la science, le tourisme et les start-ups, et ses universités et l’hôpital de la Charité attirent étudiants et chercheurs du monde entier.
+- Les Berlinois ont la réputation d’un humour direct, et la ville est connue pour ses clubs, ses galeries et sa cuisine internationale bon marché. Le Hertha BSC et l’Union Berlin sont ses deux grands clubs de football, et Berlin accueille chaque mois de septembre l’un des grands marathons du monde.
+history:
+- title: De villes marchandes à capitale royale
+  text:
+  - Berlin est née comme deux villes marchandes sur chaque rive de la Spree, Cölln sur l’île et Berlin sur la rive est, mentionnées pour la première fois en 1237 et 1244. Elles partagèrent un hôtel de ville à partir de 1307. Au XVe siècle, les princes-électeurs de Brandebourg de la maison de Hohenzollern s’y installèrent et bâtirent un château sur l’île, et la ville devint leur capitale.
+  - La guerre de Trente Ans laissa Berlin à moitié vide. Le Grand Électeur la repeupla en accueillant les huguenots chassés de France, et en 1701 son fils se couronna roi en Prusse, ce qui fit de Berlin une capitale royale. Frédéric le Grand construisit l’opéra et les bâtiments autour de la Bebelplatz sur Unter den Linden, et en 1791 la porte de Brandebourg fut achevée. Napoléon la franchit en 1806 et emporta sa Quadrige à Paris ; les Prussiens la rapportèrent en 1814.
+- title: Capitale impériale et Berlin nazi
+  text:
+  - En 1871, Berlin devint la capitale du nouvel Empire allemand et grandit pour devenir l’une des grandes villes industrielles d’Europe, siège d’entreprises comme Siemens et AEG. En 1920, elle absorba ses banlieues pour former le Grand Berlin, une ville de près de quatre millions d’habitants. Dans les années 1920, sous la République de Weimar, elle était une capitale du cinéma, du théâtre, du cabaret et de la science.
+  - En 1933, les nazis prirent le pouvoir. Des étudiants brûlèrent des livres sur la Bebelplatz, le régime persécuta ses opposants, et à partir de 1941 il déporta les Juifs de Berlin vers les ghettos et les camps de la mort. Les bombardements alliés et l’assaut soviétique du printemps 1945 laissèrent le centre en ruines.
+- title: La ville divisée et la nouvelle capitale
+  text:
+  - Les vainqueurs divisèrent Berlin en quatre secteurs. Quand les Soviétiques bloquèrent les secteurs occidentaux en 1948, les Alliés occidentaux les ravitaillèrent par les airs pendant près d’un an. En 1949, Berlin-Est devint la capitale de la République démocratique allemande, et le 13 août 1961 son gouvernement isola Berlin-Ouest par ce qui devint le mur de Berlin.
+  - Le 9 novembre 1989, après des semaines de protestations à l’Est, la frontière s’ouvrit et les Berlinois grimpèrent sur le Mur à la porte de Brandebourg. L’Allemagne fut réunifiée le 3 octobre 1990, et Berlin redevint la capitale. Le Bundestag s’installa dans le Reichstag reconstruit en 1999, et le quartier du gouvernement, la Potsdamer Platz et le château reconstruit sur l’île aux Musées comblèrent les vides laissés par la guerre et le Mur.
+timeline:
+- - '1237'
+  - Première mention de Cölln, ville jumelle de Berlin
+- - '1701'
+  - Berlin devient la capitale du royaume de Prusse
+- - '1791'
+  - Achèvement de la porte de Brandebourg
+- - '1871'
+  - Berlin devient la capitale de l’Empire allemand
+- - '1920'
+  - Le Grand Berlin absorbe les villes environnantes
+- - '1933'
+  - Les nazis prennent le pouvoir
+- - '1945'
+  - La bataille de Berlin met fin à la guerre en Europe
+- - '1948'
+  - Début du pont aérien de Berlin
+- - '1961'
+  - L’Allemagne de l’Est construit le mur de Berlin
+- - '1989'
+  - Le Mur tombe le 9 novembre
+- - '1990'
+  - L’Allemagne est réunifiée et Berlin en est la capitale
+- - '1999'
+  - Le Bundestag s’installe dans le Reichstag
+places:
+  platz-der-republik:
+    blurb: La grande pelouse devant le Reichstag, siège du Bundestag, sous la coupole de verre de Norman Foster.
+  pariser-platz:
+    blurb: La place à l’intérieur de la porte de Brandebourg, avec les ambassades de France et des États-Unis et l’hôtel Adlon. Elle doit son nom à la prise de Paris par les Alliés en 1814.
+  ebertstrasse:
+    blurb: La rue le long du Tiergarten du Reichstag à la Potsdamer Platz, en passant devant la porte de Brandebourg. Le Mur y passait, et le mémorial de l’Holocauste se trouve à côté.
+  unter-den-linden:
+    blurb: Le boulevard de la porte de Brandebourg à l’île aux Musées, où le Grand Électeur fit planter des tilleuls en 1647, bordé de l’Opéra d’État, de l’université Humboldt et de l’ancien Arsenal.
+  friedrichstrasse:
+    blurb: La longue rue commerçante de la Friedrichstadt baroque, qui croise Unter den Linden. Plus au sud, elle traversait le Mur au Checkpoint Charlie.
+  wilhelmstrasse:
+    blurb: Pendant un siècle, la rue du gouvernement prussien puis allemand, où Bismarck et plus tard Hitler eurent leurs chancelleries. L’ambassade de Grande-Bretagne s’y trouve aujourd’hui.
+  gendarmenmarkt:
+    blurb: Souvent appelée la plus belle place de Berlin, avec le Konzerthaus entre les églises jumelles française et allemande. Elle doit son nom à un régiment de cavalerie, les Gens d’armes, qui y avait ses écuries.
+  bebelplatz:
+    blurb: La place de Frédéric le Grand entre l’Opéra d’État, la cathédrale Sainte-Edwige et l’ancienne bibliothèque royale. Une plaque de verre dans le pavage donne sur des rayonnages vides, en mémoire de l’autodafé nazi de 1933.
+  lustgarten:
+    blurb: La pelouse entre l’Altes Museum, la cathédrale et le château, autrefois le jardin d’agrément des princes-électeurs.
+  museumsinsel:
+    name: L’île aux Musées
+    blurb: L’extrémité nord de l’île dans la Spree, où la Prusse construisit cinq musées entre 1830 et 1930, de l’Altes Museum au Pergamon.
+  schlossplatz:
+    blurb: La place devant le château des Hohenzollern, que le gouvernement est-allemand fit sauter en 1950. L’Allemagne en a reconstruit les façades pour le Humboldt Forum, ouvert en 2021.
+  spree:
+    name: La Spree
+    blurb: La rivière de Berlin, qui se divise autour de l’île qui porte l’île aux Musées et l’ancienne Cölln. Des bateaux de promenade la remontent devant la cathédrale et le Reichstag.
+  nikolaiviertel:
+    blurb: Le quartier autour de la Nikolaikirche, la plus ancienne église de Berlin, là où la ville est née. L’Allemagne de l’Est l’a reconstruit pour les 750 ans de la ville en 1987, en partie avec des copies de maisons disparues.
+  karl-liebknecht-strasse:
+    blurb: La large avenue est-allemande de la cathédrale vers l’Alexanderplatz, devant la Marienkirche médiévale et la tour de télévision.
+  alexanderplatz:
+    blurb: La grande place de Berlin-Est, nommée d’après la visite du tsar Alexandre Ier en 1805, avec l’Horloge universelle et la tour de télévision à côté.
+links:
+- title: visitBerlin
+  note: L’information touristique officielle de la ville
+- title: Berlin.de
+  note: Le portail officiel de la ville et de son gouvernement
+- title: Musées nationaux de Berlin
+  note: Billets et horaires des musées de l’île aux Musées
+- title: Museumsinsel (île aux Musées) sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Berlin sur Wikipédia
+  note: L’article de l’encyclopédie

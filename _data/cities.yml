@@ -1,8 +1,9 @@
-# One block per city: its card on the cities page (/cities/), its own page (_layouts/city.html, at
-# /<id>/) and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b
-# where the right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new
-# city needs a block here, an <id>/index.html saying `layout: city` and `city: <id>`, and
-# `node tools/europe.mjs` to place it on the map.
+# One block per city: its card on the cities page (/en/cities/), its own page (_layouts/city.html, at
+# /en/<id>/; in French and Dutch at /fr/<slug>/ and /nl/<slug>/, its words in _data/i18n/<lang>/<id>.yml)
+# and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b where the
+# right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new city needs a
+# block here, its name, card and slug in _data/lang/fr.yml and nl.yml, `node tools/langpages.mjs`
+# for its pages, and `node tools/europe.mjs` to place it on the map.
 # A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
 # playable ones, and search engines leave it alone. It needs only id, name, country and card.
 # (None is, for now: every city on the list has a first map.)
@@ -13,15 +14,15 @@
   lat: 48.8566
   lon: 2.3522
   game: Instant Paris
-  title: "Instant Paris: a free 3D game of Paris, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Paris in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant Paris: a free virtual 3D tour and game of Paris"
+  description: "Take a free virtual 3D tour of the centre of Paris in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback along the Seine!"
-  lead: "The middle of Paris in 3D: Notre-Dame, the Sainte-Chapelle, the Pont Neuf and the Rue de Rivoli, every building from OpenStreetMap."
+  lead: "Ride through the middle of Paris in 3D, past Notre-Dame, the Sainte-Chapelle, the Pont Neuf and the Rue de Rivoli, with every building from OpenStreetMap."
   card: "The Île de la Cité and the banks of the Seine, from Notre-Dame to the Pont Neuf and the Louvre."
   features:
-    - { icon: city, title: "The real Paris", text: "About 5,500 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: church, title: "Around the Île de la Cité", text: "Notre-Dame, the Sainte-Chapelle and the Pont Neuf on the island, the Hôtel de Ville and the Rue de Rivoli on the right bank, the Louvre at the edge." }
-    - { icon: flag, title: "A race: Île de la Cité", text: "From the Hôtel de Ville over the Seine to Notre-Dame, along the island’s quays to the Pont Neuf and back down the Rue de Rivoli." }
+    - { icon: city, title: "The real Paris", text: "Wander among about 5,500 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: church, title: "Around the Île de la Cité", text: "See Notre-Dame, the Sainte-Chapelle and the Pont Neuf on the island, cross to the Hôtel de Ville and the Rue de Rivoli on the right bank, and ride on to the Louvre at the edge." }
+    - { icon: flag, title: "A race: Île de la Cité", text: "Race from the Hôtel de Ville over the Seine to Notre-Dame, along the island’s quays to the Pont Neuf and back down the Rue de Rivoli." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: rome
@@ -30,15 +31,15 @@
   lat: 41.8986
   lon: 12.4769
   game: Instant Rome
-  title: "Instant Rome: a free 3D game of Rome, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Rome in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant Rome: a free virtual 3D tour and game of Rome"
+  description: "Take a free virtual 3D tour of the centre of Rome in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through ancient Rome!"
-  lead: "The heart of Rome in 3D: the Via del Corso, the Pantheon, Piazza Navona and the Trevi Fountain, every building from OpenStreetMap."
+  lead: "Ride through the heart of Rome in 3D, past the Via del Corso, the Pantheon, Piazza Navona and the Trevi Fountain, with every building from OpenStreetMap."
   card: "From Piazza Venezia along the Via del Corso to the Pantheon, with the Forum and the Colosseum at the edge."
   features:
-    - { icon: city, title: "The real Rome", text: "About 6,000 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: columns, title: "Ancient and baroque Rome", text: "Piazza Venezia, the Via del Corso, the column on Piazza Colonna, the Pantheon and Piazza Navona, with the Trevi Fountain, the Forum and the Colosseum to ride to." }
-    - { icon: flag, title: "A race: Rome Centre", text: "From Piazza Venezia up the Via del Corso to the column on Piazza Colonna, past the Pantheon and back by Largo di Torre Argentina." }
+    - { icon: city, title: "The real Rome", text: "Wander among about 6,000 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: columns, title: "Ancient and baroque Rome", text: "Ride from Piazza Venezia up the Via del Corso to the column on Piazza Colonna, visit the Pantheon and Piazza Navona, and head out to the Trevi Fountain, the Forum and the Colosseum." }
+    - { icon: flag, title: "A race: Rome Centre", text: "Race from Piazza Venezia up the Via del Corso to the column on Piazza Colonna, past the Pantheon and back by Largo di Torre Argentina." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: london
@@ -48,15 +49,15 @@
   lon: -0.1276
   map_label: l
   game: Instant London
-  title: "Instant London: a free 3D game of London, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of London in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant London: a free virtual 3D tour and game of London"
+  description: "Take a free virtual 3D tour of the centre of London in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Westminster!"
-  lead: "Westminster in 3D: Trafalgar Square, Whitehall, Parliament Square and Westminster Abbey, every building from OpenStreetMap."
+  lead: "Ride through Westminster in 3D, past Trafalgar Square, Whitehall, Parliament Square and Westminster Abbey, with every building from OpenStreetMap."
   card: "From Trafalgar Square down Whitehall to Big Ben, and back along the Thames."
   features:
-    - { icon: city, title: "The real London", text: "About 2,600 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: tower, title: "Westminster", text: "Trafalgar Square, Whitehall and Downing Street, Parliament Square with Big Ben and Westminster Abbey, and the London Eye across the Thames. Traffic keeps to the left." }
-    - { icon: flag, title: "A race: Westminster", text: "From Charing Cross down Whitehall past Downing Street to Parliament Square and Big Ben, and back along the Thames on the Victoria Embankment." }
+    - { icon: city, title: "The real London", text: "Wander among about 2,600 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: tower, title: "Westminster", text: "Ride from Trafalgar Square down Whitehall past Downing Street, circle Parliament Square below Big Ben and Westminster Abbey, and spot the London Eye across the Thames. Keep to the left!" }
+    - { icon: flag, title: "A race: Westminster", text: "Race from Charing Cross down Whitehall past Downing Street to Parliament Square and Big Ben, and back along the Thames on the Victoria Embankment." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: new-york
@@ -65,15 +66,15 @@
   lat: 40.7549
   lon: -73.984
   game: Instant New York
-  title: "Instant New York: a free 3D game of New York, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of Midtown Manhattan in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant New York: a free virtual 3D tour and game of New York"
+  description: "Take a free virtual 3D tour of Midtown Manhattan in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback among the skyscrapers of Manhattan!"
-  lead: "Midtown Manhattan in 3D, round 42nd Street: Times Square, Bryant Park and the Public Library, Grand Central, the Chrysler Building, the Empire State Building and Rockefeller Center, every tower from OpenStreetMap."
+  lead: "Ride through Midtown Manhattan in 3D, round 42nd Street, past Times Square, Bryant Park and the Public Library, Grand Central, the Chrysler Building, the Empire State Building and Rockefeller Center, with every tower from OpenStreetMap."
   card: "The city of skyscrapers and yellow cabs: Times Square, the Empire State Building, Grand Central and the Chrysler Building."
   features:
-    - { icon: city, title: "The real Midtown", text: "About 6,500 buildings from OpenStreetMap, most at their real height: the Empire State Building stands 443 metres to the tip of its mast, the Chrysler Building 319. More of the city comes later." }
-    - { icon: tower, title: "Towers, a station and a library", text: "Times Square under its screens, the Empire State Building on 34th Street, the Public Library and Bryant Park on Fifth Avenue, Grand Central and the Chrysler Building on 42nd Street, and Rockefeller Center." }
-    - { icon: flag, title: "A race: Midtown Loop", text: "Down Seventh Avenue through Times Square, along 34th Street to the Empire State Building, up Fifth Avenue past the library, along 42nd Street to the Chrysler Building and back by Rockefeller Center." }
+    - { icon: city, title: "The real Midtown", text: "Wander among about 6,500 buildings rebuilt in 3D from OpenStreetMap, most at their real height: look up at the Empire State Building, 443 metres to the tip of its mast, and the Chrysler Building at 319. More of the city is to come." }
+    - { icon: tower, title: "Towers, a station and a library", text: "Stand in Times Square under its screens, ride to the Empire State Building on 34th Street, past the Public Library and Bryant Park on Fifth Avenue, on to Grand Central and the Chrysler Building on 42nd Street, and up to Rockefeller Center." }
+    - { icon: flag, title: "A race: Midtown Loop", text: "Race down Seventh Avenue through Times Square, along 34th Street to the Empire State Building, up Fifth Avenue past the library, along 42nd Street to the Chrysler Building and back by Rockefeller Center." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: venice
@@ -82,15 +83,15 @@
   lat: 45.4342
   lon: 12.3388
   game: Instant Venice
-  title: "Instant Venice: a free 3D game of Venice, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Venice in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant Venice: a free virtual 3D tour and game of Venice"
+  description: "Take a free virtual 3D tour of the centre of Venice in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the calli of Venice!"
-  lead: "The heart of Venice in 3D: Piazza San Marco, the Doge’s Palace, the Mercerie and the Rialto bridge, every calle from OpenStreetMap."
+  lead: "Ride through the heart of Venice in 3D, past Piazza San Marco, the Doge’s Palace, the Mercerie and the Rialto bridge, with every calle from OpenStreetMap."
   card: "From Piazza San Marco through the Mercerie to the Rialto bridge, between the canals."
   features:
-    - { icon: city, title: "The real Venice", text: "About 2,500 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: bridge, title: "Over the canals", text: "Piazza San Marco, the Doge’s Palace and the Bridge of Sighs, the narrow lanes of the Mercerie and the Rialto bridge over the Grand Canal." }
-    - { icon: flag, title: "A race: San Marco → Rialto", text: "From Piazza San Marco under the clock tower, through the narrow shopping lanes of the Mercerie to the Rialto bridge." }
+    - { icon: city, title: "The real Venice", text: "Wander among about 2,500 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: bridge, title: "Over the canals", text: "Cross Piazza San Marco to the Doge’s Palace and the Bridge of Sighs, wind through the narrow lanes of the Mercerie and climb the Rialto bridge over the Grand Canal." }
+    - { icon: flag, title: "A race: San Marco → Rialto", text: "Race from Piazza San Marco under the clock tower, through the narrow shopping lanes of the Mercerie to the Rialto bridge." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: barcelona
@@ -99,15 +100,15 @@
   lat: 41.3851
   lon: 2.1734
   game: Instant Barcelona
-  title: "Instant Barcelona: a free 3D game of Barcelona, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Barcelona in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant Barcelona: a free virtual 3D tour and game of Barcelona"
+  description: "Take a free virtual 3D tour of the centre of Barcelona in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback down the Rambla!"
-  lead: "The old town of Barcelona in 3D: the Rambla, the Gothic Quarter, the cathedral and Plaça de Sant Jaume, every building from OpenStreetMap."
+  lead: "Ride through the old town of Barcelona in 3D, past the Rambla, the Gothic Quarter, the cathedral and Plaça de Sant Jaume, with every building from OpenStreetMap."
   card: "Down the Rambla to the Columbus monument, and back through the Gothic Quarter past the cathedral."
   features:
-    - { icon: city, title: "The real Barcelona", text: "About 4,300 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: palette, title: "The old town", text: "The Rambla from Plaça de Catalunya to the Columbus monument, La Boqueria, Plaça Reial, and the Gothic Quarter round the cathedral." }
-    - { icon: flag, title: "A race: Rambla and Gothic Quarter", text: "From Plaça de Catalunya down the Rambla to the Columbus monument, through the Gothic Quarter past Plaça de Sant Jaume and the cathedral, and back up Portal de l’Àngel." }
+    - { icon: city, title: "The real Barcelona", text: "Wander among about 4,300 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: palette, title: "The old town", text: "Ride down the Rambla from Plaça de Catalunya to the Columbus monument, past La Boqueria and Plaça Reial, and lose yourself in the Gothic Quarter round the cathedral." }
+    - { icon: flag, title: "A race: Rambla and Gothic Quarter", text: "Race from Plaça de Catalunya down the Rambla to the Columbus monument, through the Gothic Quarter past Plaça de Sant Jaume and the cathedral, and back up Portal de l’Àngel." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: istanbul
@@ -117,15 +118,15 @@
   lon: 28.9784
   map_label: l
   game: Instant Istanbul
-  title: "Instant Istanbul: a free 3D game of Istanbul, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of Istanbul's old peninsula in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Istanbul: a free virtual 3D tour and game of Istanbul"
+  description: "Take a free virtual 3D tour of Istanbul's old peninsula in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback between the mosques and bazaars of Istanbul!"
-  lead: "The old peninsula of Istanbul in 3D, between the Golden Horn and the Sea of Marmara: the Hagia Sophia, the Blue Mosque, the Grand Bazaar and the quays of Eminönü, every building from OpenStreetMap."
+  lead: "Ride through the old peninsula of Istanbul in 3D, between the Golden Horn and the Sea of Marmara, past the Hagia Sophia, the Blue Mosque, the Grand Bazaar and the quays of Eminönü, with every building from OpenStreetMap."
   card: "The city on two continents: the Hagia Sophia, the Blue Mosque, the Grand Bazaar and the ferries on the Golden Horn."
   features:
-    - { icon: city, title: "The real Istanbul", text: "About 4,100 buildings from OpenStreetMap on the old peninsula, from Sultanahmet down to the Golden Horn, with the sea round its tip. More of the city comes later." }
-    - { icon: columns, title: "Domes, bazaars and the Golden Horn", text: "The Hagia Sophia, the Blue Mosque and the Hippodrome, the Basilica Cistern, the gate of Topkapı Palace, the Grand Bazaar, Sirkeci Station, and the New Mosque and the Spice Bazaar at Eminönü." }
-    - { icon: flag, title: "A race: Sultanahmet", text: "From the Hagia Sophia along the Divan Yolu to the Column of Constantine and the Grand Bazaar, down the Ankara Caddesi to Sirkeci, and back past Gülhane Park and the gate of Topkapı Palace." }
+    - { icon: city, title: "The real Istanbul", text: "Wander among about 4,100 buildings rebuilt in 3D from OpenStreetMap on the old peninsula, from Sultanahmet down to the Golden Horn, with the sea round its tip. More of the city is to come." }
+    - { icon: columns, title: "Domes, bazaars and the Golden Horn", text: "Visit the Hagia Sophia, the Blue Mosque and the Hippodrome, find the Basilica Cistern and the gate of Topkapı Palace, wander through the Grand Bazaar and ride down past Sirkeci Station to the New Mosque and the Spice Bazaar at Eminönü." }
+    - { icon: flag, title: "A race: Sultanahmet", text: "Race from the Hagia Sophia along the Divan Yolu to the Column of Constantine and the Grand Bazaar, down the Ankara Caddesi to Sirkeci, and back past Gülhane Park and the gate of Topkapı Palace." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: amsterdam
@@ -134,15 +135,15 @@
   lat: 52.3731
   lon: 4.8926
   game: Instant Amsterdam
-  title: "Instant Amsterdam: a free 3D game of Amsterdam, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Amsterdam in your browser. Explore the city or race, alone or two players on one keyboard."
+  title: "Instant Amsterdam: a free virtual 3D tour and game of Amsterdam"
+  description: "Take a free virtual 3D tour of the centre of Amsterdam in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback along the canals!"
-  lead: "The old centre of Amsterdam in 3D: the Dam, the Royal Palace, the Singel and the Spui, every canal house from OpenStreetMap."
+  lead: "Ride through the old centre of Amsterdam in 3D, past the Dam, the Royal Palace, the Singel and the Spui, with every canal house from OpenStreetMap."
   card: "From the Dam along the Singel to the Spui, between the canals and their gabled houses."
   features:
-    - { icon: city, title: "The real Amsterdam", text: "About 7,900 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
-    - { icon: gables, title: "Between the canals", text: "The Dam and the Royal Palace, the Singel, the Spui and the Rokin, with the Westerkerk, the Nieuwmarkt and Centraal Station to ride to." }
-    - { icon: flag, title: "A race: Dam and Singel", text: "From the Dam past the Royal Palace to the Singel, along the canal to the Spui and back up the Rokin to the Dam." }
+    - { icon: city, title: "The real Amsterdam", text: "Wander among about 7,900 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: gables, title: "Between the canals", text: "Start on the Dam by the Royal Palace, follow the Singel to the Spui and the Rokin, and ride on to the Westerkerk, the Nieuwmarkt and Centraal Station." }
+    - { icon: flag, title: "A race: Dam and Singel", text: "Race from the Dam past the Royal Palace to the Singel, along the canal to the Spui and back up the Rokin to the Dam." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: san-francisco
@@ -151,15 +152,15 @@
   lat: 37.7946
   lon: -122.405
   game: Instant San Francisco
-  title: "Instant San Francisco: a free 3D game of San Francisco, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of San Francisco in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant San Francisco: a free virtual 3D tour and game of San Francisco"
+  description: "Take a free virtual 3D tour of the centre of San Francisco in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through San Francisco, from Chinatown to the bay!"
-  lead: "The north-east of San Francisco in 3D, by the bay: Chinatown and the Dragon Gate, the Transamerica Pyramid, the Ferry Building, Union Square and Coit Tower on Telegraph Hill, every building from OpenStreetMap."
+  lead: "Ride through the north-east of San Francisco in 3D, by the bay, past Chinatown and the Dragon Gate, the Transamerica Pyramid, the Ferry Building, Union Square and Coit Tower on Telegraph Hill, with every building from OpenStreetMap."
   card: "From Chinatown's lanterns past the Transamerica Pyramid to the Ferry Building on the bay."
   features:
-    - { icon: city, title: "The real San Francisco", text: "About 4,100 buildings from OpenStreetMap, from the painted wooden houses of North Beach to the towers of the Financial District at their real heights, a first piece of the city by the bay. More of the city comes later." }
-    - { icon: tower, title: "Towers, cable cars and the bay", text: "The Transamerica Pyramid, Coit Tower on Telegraph Hill, the Ferry Building on the Embarcadero, Union Square and the cable car turntable on Powell Street, and Chinatown along Grant Avenue." }
-    - { icon: flag, title: "A race: Chinatown to the Bay", text: "Down Grant Avenue through Chinatown, along Bush Street through the Financial District, down Market Street to the Ferry Building, along the Embarcadero and back past the Transamerica Pyramid." }
+    - { icon: city, title: "The real San Francisco", text: "Wander among about 4,100 buildings rebuilt in 3D from OpenStreetMap, from the painted wooden houses of North Beach to the towers of the Financial District at their real heights. More of the city is to come." }
+    - { icon: tower, title: "Towers, cable cars and the bay", text: "Look up at the Transamerica Pyramid, climb Telegraph Hill to Coit Tower, ride the Embarcadero to the Ferry Building, find the cable car turntable on Powell Street by Union Square, and wander up Grant Avenue through Chinatown." }
+    - { icon: flag, title: "A race: Chinatown to the Bay", text: "Race down Grant Avenue through Chinatown, along Bush Street through the Financial District, down Market Street to the Ferry Building, along the Embarcadero and back past the Transamerica Pyramid." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: florence
@@ -168,15 +169,15 @@
   lat: 43.7731
   lon: 11.256
   game: Instant Florence
-  title: "Instant Florence: a free 3D game of Florence, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Florence in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Florence: a free virtual 3D tour and game of Florence"
+  description: "Take a free virtual 3D tour of the centre of Florence in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Renaissance Florence!"
-  lead: "The heart of Florence in 3D: the Duomo, Piazza della Signoria, the Uffizi and the Ponte Vecchio, every building from OpenStreetMap."
+  lead: "Ride through the heart of Florence in 3D, past the Duomo, Piazza della Signoria, the Uffizi and the Ponte Vecchio, with every building from OpenStreetMap."
   card: "From the Duomo to Piazza della Signoria and the Ponte Vecchio over the Arno."
   features:
-    - { icon: city, title: "The real Florence", text: "About 4,200 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: church, title: "Renaissance Florence", text: "The Duomo and the Baptistery, Piazza della Signoria and the Uffizi, the Ponte Vecchio, with Santa Croce and Santa Maria Novella to ride to." }
-    - { icon: flag, title: "A race: Duomo and Ponte Vecchio", text: "From the Duomo down the Via dei Calzaiuoli to Piazza della Signoria, on to the Ponte Vecchio, along the Arno and back by Santa Trinita to the Baptistery." }
+    - { icon: city, title: "The real Florence", text: "Wander among about 4,200 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: church, title: "Renaissance Florence", text: "See the Duomo and the Baptistery, cross Piazza della Signoria past the Uffizi to the Ponte Vecchio, and ride on to Santa Croce and Santa Maria Novella." }
+    - { icon: flag, title: "A race: Duomo and Ponte Vecchio", text: "Race from the Duomo down the Via dei Calzaiuoli to Piazza della Signoria, on to the Ponte Vecchio, along the Arno and back by Santa Trinita to the Baptistery." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: prague
@@ -185,15 +186,15 @@
   lat: 50.0875
   lon: 14.4213
   game: Instant Prague
-  title: "Instant Prague: a free 3D game of Prague, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Prague in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Prague: a free virtual 3D tour and game of Prague"
+  description: "Take a free virtual 3D tour of the centre of Prague in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the Old Town of Prague!"
-  lead: "The Old Town of Prague in 3D: the Old Town Square, the astronomical clock, the Týn church and the Charles Bridge, every building from OpenStreetMap."
+  lead: "Ride through the Old Town of Prague in 3D, past the Old Town Square, the astronomical clock, the Týn church and the Charles Bridge, with every building from OpenStreetMap."
   card: "From the Old Town Square through the Jewish Quarter to the river by the Charles Bridge."
   features:
-    - { icon: city, title: "The real Prague", text: "About 1,900 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: tower, title: "The Old Town", text: "The Old Town Square with its astronomical clock and the Týn church, the Jewish Quarter and the river by the Charles Bridge." }
-    - { icon: flag, title: "A race: Old Town", text: "From the Old Town Square up the Pařížská through the Jewish Quarter to the river, past the Charles Bridge and back along the Karlova to the astronomical clock." }
+    - { icon: city, title: "The real Prague", text: "Wander among about 1,900 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: tower, title: "The Old Town", text: "Stand on the Old Town Square below the astronomical clock and the Týn church, ride through the Jewish Quarter and down to the river by the Charles Bridge." }
+    - { icon: flag, title: "A race: Old Town", text: "Race from the Old Town Square up the Pařížská through the Jewish Quarter to the river, past the Charles Bridge and back along the Karlova to the astronomical clock." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: vienna
@@ -202,15 +203,15 @@
   lat: 48.2085
   lon: 16.3731
   game: Instant Vienna
-  title: "Instant Vienna: a free 3D game of Vienna, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Vienna in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Vienna: a free virtual 3D tour and game of Vienna"
+  description: "Take a free virtual 3D tour of the centre of Vienna in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the heart of Vienna!"
-  lead: "The heart of Vienna in 3D: the Stephansdom, the Graben, the Hofburg and the State Opera, every building from OpenStreetMap."
+  lead: "Ride through the heart of Vienna in 3D, past the Stephansdom, the Graben, the Hofburg and the State Opera, with every building from OpenStreetMap."
   card: "From the Stephansdom down the Graben to the Hofburg, and round the Ring to the Opera."
   features:
-    - { icon: city, title: "The real Vienna", text: "About 1,800 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: columns, title: "Innere Stadt", text: "The Stephansdom and the Graben, the Hofburg on Michaelerplatz, the Ringstraße, the State Opera and the Albertina." }
-    - { icon: flag, title: "A race: Innere Stadt and Ring", text: "From the Stephansdom down the Graben to the Hofburg, round the Ringstraße to the State Opera and back past the Albertina and the Neuer Markt." }
+    - { icon: city, title: "The real Vienna", text: "Wander among about 1,800 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: columns, title: "Innere Stadt", text: "Start at the Stephansdom, ride down the Graben to the Hofburg on Michaelerplatz, and round the Ringstraße to the State Opera and the Albertina." }
+    - { icon: flag, title: "A race: Innere Stadt and Ring", text: "Race from the Stephansdom down the Graben to the Hofburg, round the Ringstraße to the State Opera and back past the Albertina and the Neuer Markt." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: berlin
@@ -219,15 +220,15 @@
   lat: 52.5163
   lon: 13.3777
   game: Instant Berlin
-  title: "Instant Berlin: a free 3D game of Berlin, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Berlin in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Berlin: a free virtual 3D tour and game of Berlin"
+  description: "Take a free virtual 3D tour of the centre of Berlin in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the heart of Berlin!"
-  lead: "The heart of Berlin in 3D: the Brandenburg Gate, Unter den Linden, the Gendarmenmarkt and Museum Island, every building from OpenStreetMap."
+  lead: "Ride through the heart of Berlin in 3D, past the Brandenburg Gate, Unter den Linden, the Gendarmenmarkt and Museum Island, with every building from OpenStreetMap."
   card: "From the Brandenburg Gate along Unter den Linden to the Gendarmenmarkt."
   features:
-    - { icon: city, title: "The real Berlin", text: "About 4,200 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: city, title: "Mitte", text: "The Brandenburg Gate and the Reichstag, Unter den Linden, the Gendarmenmarkt and the Holocaust Memorial, out to Museum Island." }
-    - { icon: flag, title: "A race: Mitte", text: "Along Unter den Linden to the Gendarmenmarkt, through the streets of Mitte to the Holocaust Memorial and up the Wilhelmstraße back to Unter den Linden." }
+    - { icon: city, title: "The real Berlin", text: "Wander among about 4,200 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: city, title: "Mitte", text: "Ride through the Brandenburg Gate past the Reichstag, along Unter den Linden to the Gendarmenmarkt and the Holocaust Memorial, and out to Museum Island." }
+    - { icon: flag, title: "A race: Mitte", text: "Race along Unter den Linden to the Gendarmenmarkt, through the streets of Mitte to the Holocaust Memorial and up the Wilhelmstraße back to Unter den Linden." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: madrid
@@ -236,15 +237,15 @@
   lat: 40.4169
   lon: -3.7035
   game: Instant Madrid
-  title: "Instant Madrid: a free 3D game of Madrid, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the historic centre of Madrid in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Madrid: a free virtual 3D tour and game of Madrid"
+  description: "Take a free virtual 3D tour of the historic centre of Madrid in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through old Madrid!"
-  lead: "Old Madrid in 3D: the Puerta del Sol, the Plaza Mayor, the Royal Palace and the Plaza de Oriente, every building from OpenStreetMap."
+  lead: "Ride through old Madrid in 3D, past the Puerta del Sol, the Plaza Mayor, the Royal Palace and the Plaza de Oriente, with every building from OpenStreetMap."
   card: "From the Puerta del Sol along the Calle Mayor to the Royal Palace and the Plaza de Oriente."
   features:
-    - { icon: city, title: "The real Madrid", text: "About 3,800 buildings from OpenStreetMap, a small first piece of the historic centre. More of the city comes later." }
-    - { icon: columns, title: "Madrid de los Austrias", text: "The Puerta del Sol, the Calle Mayor and the Plaza Mayor, the Royal Palace and the Almudena, the Plaza de Oriente and the Teatro Real." }
-    - { icon: flag, title: "A race: Sol and Oriente", text: "From the Puerta del Sol along the Calle Mayor to the Royal Palace, across the Plaza de Oriente, past Santo Domingo to Callao and back down the Calle del Carmen." }
+    - { icon: city, title: "The real Madrid", text: "Wander among about 3,800 buildings rebuilt in 3D from OpenStreetMap: a first piece of the historic centre, with more of the city to come." }
+    - { icon: columns, title: "Madrid de los Austrias", text: "Start at the Puerta del Sol, follow the Calle Mayor past the Plaza Mayor to the Royal Palace and the Almudena, and cross the Plaza de Oriente to the Teatro Real." }
+    - { icon: flag, title: "A race: Sol and Oriente", text: "Race from the Puerta del Sol along the Calle Mayor to the Royal Palace, across the Plaza de Oriente, past Santo Domingo to Callao and back down the Calle del Carmen." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: copenhagen
@@ -253,15 +254,15 @@
   lat: 55.6761
   lon: 12.5683
   game: Instant Copenhagen
-  title: "Instant Copenhagen: a free 3D game of Copenhagen, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Copenhagen in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Copenhagen: a free virtual 3D tour and game of Copenhagen"
+  description: "Take a free virtual 3D tour of the centre of Copenhagen in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Copenhagen, the city of bikes!"
-  lead: "The middle of Copenhagen in 3D: Nyhavn, Kongens Nytorv, Christiansborg and the Strøget, every building from OpenStreetMap."
+  lead: "Ride through the middle of Copenhagen in 3D, past Nyhavn, Kongens Nytorv, Christiansborg and the Strøget, with every building from OpenStreetMap."
   card: "From Nyhavn past Christiansborg to the City Hall Square, and back along the Strøget."
   features:
-    - { icon: city, title: "The real Copenhagen", text: "About 3,400 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: bike, title: "The city of bikes", text: "Nyhavn and Kongens Nytorv, Børsen and Christiansborg on Slotsholmen, the City Hall Square and the Strøget, with Tivoli and Amalienborg at the edges." }
-    - { icon: flag, title: "A race: Nyhavn and Strøget", text: "From Kongens Nytorv along Nyhavn, over Slotsholmen past Børsen and Christiansborg to the City Hall Square, and back along the Strøget." }
+    - { icon: city, title: "The real Copenhagen", text: "Wander among about 3,400 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: bike, title: "The city of bikes", text: "Ride along Nyhavn from Kongens Nytorv, cross Slotsholmen past Børsen and Christiansborg, stroll the Strøget to the City Hall Square, and spot Tivoli and Amalienborg at the edges." }
+    - { icon: flag, title: "A race: Nyhavn and Strøget", text: "Race from Kongens Nytorv along Nyhavn, over Slotsholmen past Børsen and Christiansborg to the City Hall Square, and back along the Strøget." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: brussels
@@ -271,15 +272,15 @@
   lon: 4.3525
   map_label: b
   game: Instant Brussels
-  title: "Instant Brussels: a free 3D game of Brussels, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Brussels in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Brussels: a free virtual 3D tour and game of Brussels"
+  description: "Take a free virtual 3D tour of the centre of Brussels in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback round the Grand-Place of Brussels!"
-  lead: "The heart of Brussels in 3D: the Grand-Place, the Bourse, the Manneken Pis and the Galeries Saint-Hubert, every building from OpenStreetMap."
+  lead: "Ride through the heart of Brussels in 3D, past the Grand-Place, the Bourse, the Manneken Pis and the Galeries Saint-Hubert, with every building from OpenStreetMap."
   card: "Round the Grand-Place, past the Bourse and the Manneken Pis."
   features:
-    - { icon: city, title: "The real Brussels", text: "About 4,600 buildings from OpenStreetMap, A small first piece of the centre; more of the city comes later." }
-    - { icon: flower, title: "Round the Grand-Place", text: "The guild houses and the town hall on the Grand-Place, the Bourse, the Manneken Pis and the Galeries Royales Saint-Hubert." }
-    - { icon: flag, title: "A race: Grand-Place", text: "From the Grand-Place to the Bourse, down the Rue du Midi to the Manneken Pis and back by the Rue des Éperonniers and the Marché aux Herbes." }
+    - { icon: city, title: "The real Brussels", text: "Wander among about 4,600 buildings rebuilt in 3D from OpenStreetMap: a first piece of the centre, with more of the city to come." }
+    - { icon: flower, title: "Round the Grand-Place", text: "Stand among the guild houses and the town hall on the Grand-Place, ride past the Bourse, find the Manneken Pis and roll through the Galeries Royales Saint-Hubert." }
+    - { icon: flag, title: "A race: Grand-Place", text: "Race from the Grand-Place to the Bourse, down the Rue du Midi to the Manneken Pis and back by the Rue des Éperonniers and the Marché aux Herbes." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: bruges
@@ -289,15 +290,15 @@
   lon: 3.2242
   map_label: l
   game: Instant Bruges
-  title: "Instant Bruges: a free 3D game of Bruges, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Bruges in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Bruges: a free virtual 3D tour and game of Bruges"
+  description: "Take a free virtual 3D tour of the centre of Bruges in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback along the canals of Bruges!"
-  lead: "The middle of Bruges in 3D: the Markt, the Belfry, the Rozenhoedkaai and the Dijver, every roof at its measured height."
+  lead: "Ride through the middle of Bruges in 3D, past the Markt, the Belfry, the Rozenhoedkaai and the Dijver, with every roof at its measured height."
   card: "From the Markt and its Belfry along the canals to the Church of Our Lady."
   features:
-    - { icon: city, title: "The real Bruges", text: "About 8,400 buildings from OpenStreetMap, each at the height Flanders measured it. A small first piece of the centre; more of the city comes later." }
-    - { icon: castle, title: "Markt and canals", text: "The Markt and its Belfry, the Burg, the Rozenhoedkaai and the Dijver along the canals, the Church of Our Lady and the Begijnhof." }
-    - { icon: flag, title: "A race: Markt and Dijver", text: "From the Markt under the Belfry to the Rozenhoedkaai, along the Dijver past the Gruuthuse to the Church of Our Lady, and back up the Steenstraat." }
+    - { icon: city, title: "The real Bruges", text: "Wander among about 8,400 buildings rebuilt in 3D from OpenStreetMap, each at the height Flanders measured it: a first piece of the centre, with more of the city to come." }
+    - { icon: castle, title: "Markt and canals", text: "Start on the Markt below its Belfry, cross the Burg, follow the canals along the Rozenhoedkaai and the Dijver, and ride on to the Church of Our Lady and the Begijnhof." }
+    - { icon: flag, title: "A race: Markt and Dijver", text: "Race from the Markt under the Belfry to the Rozenhoedkaai, along the Dijver past the Gruuthuse to the Church of Our Lady, and back up the Steenstraat." }
   credits: "Map data © OpenStreetMap contributors (ODbL). Heights: Digitaal Vlaanderen, DHMV II."
 
 - id: antwerp
@@ -306,15 +307,15 @@
   lat: 51.2213
   lon: 4.3997
   game: Instant Antwerp
-  title: "Instant Antwerp: a free 3D game of Antwerp, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Antwerp in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Antwerp: a free virtual 3D tour and game of Antwerp"
+  description: "Take a free virtual 3D tour of the centre of Antwerp in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through old Antwerp!"
-  lead: "The old town of Antwerp in 3D: the Grote Markt, the cathedral, Het Steen and Groenplaats, every roof at its measured height."
+  lead: "Ride through the old town of Antwerp in 3D, past the Grote Markt, the cathedral, Het Steen and Groenplaats, with every roof at its measured height."
   card: "From the Grote Markt to Het Steen on the Scheldt, and back past the cathedral."
   features:
-    - { icon: city, title: "The real Antwerp", text: "About 6,600 buildings from OpenStreetMap, each at the height Flanders measured it. A small first piece of the centre; more of the city comes later." }
-    - { icon: gables, title: "The old town", text: "The Grote Markt and its guild houses, the cathedral, Het Steen on the Scheldt and Groenplaats, out to the Meir and the Rubenshuis." }
-    - { icon: flag, title: "A race: Grote Markt and Scheldt", text: "From the Grote Markt to Het Steen, south along the Scheldt, through the lanes to Groenplaats and back past the cathedral." }
+    - { icon: city, title: "The real Antwerp", text: "Wander among about 6,600 buildings rebuilt in 3D from OpenStreetMap, each at the height Flanders measured it: a first piece of the centre, with more of the city to come." }
+    - { icon: gables, title: "The old town", text: "Start on the Grote Markt among its guild houses, ride past the cathedral to Het Steen on the Scheldt and Groenplaats, and out to the Meir and the Rubenshuis." }
+    - { icon: flag, title: "A race: Grote Markt and Scheldt", text: "Race from the Grote Markt to Het Steen, south along the Scheldt, through the lanes to Groenplaats and back past the cathedral." }
   credits: "Map data © OpenStreetMap contributors (ODbL). Heights: Digitaal Vlaanderen, DHMV II."
 
 - id: avignon
@@ -323,15 +324,15 @@
   lat: 43.9493
   lon: 4.8059
   game: Instant Avignon
-  title: "Instant Avignon: a free 3D game of Avignon, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the historic centre of Avignon in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Avignon: a free virtual 3D tour and game of Avignon"
+  description: "Take a free virtual 3D tour of the historic centre of Avignon in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the city of the popes!"
-  lead: "The walled town of Avignon in 3D: the Palais des Papes, the Place de l’Horloge and the Pont Saint-Bénezet, every building from OpenStreetMap."
+  lead: "Ride through the walled town of Avignon in 3D, past the Palais des Papes, the Place de l’Horloge and the Pont Saint-Bénezet, with every building from OpenStreetMap."
   card: "The city of the popes: the Palais des Papes, the Place de l’Horloge and the bridge on the Rhône."
   features:
-    - { icon: city, title: "The real Avignon", text: "About 4,300 buildings from OpenStreetMap, a small first piece of the historic centre. More of the city comes later." }
-    - { icon: castle, title: "The city of the popes", text: "The Palais des Papes and the cathedral on the Rocher des Doms, the Place de l’Horloge, Les Halles and the Pont Saint-Bénezet on the Rhône." }
-    - { icon: flag, title: "A race: Intra-muros", text: "From the Place de l’Horloge in the shadow of the Palais des Papes down the Rue de la République, along the Rue Joseph Vernet and back up the Rue Saint-Agricol." }
+    - { icon: city, title: "The real Avignon", text: "Wander among about 4,300 buildings rebuilt in 3D from OpenStreetMap: a first piece of the historic centre, with more of the city to come." }
+    - { icon: castle, title: "The city of the popes", text: "See the Palais des Papes and the cathedral on the Rocher des Doms, cross the Place de l’Horloge to Les Halles, and ride down to the Pont Saint-Bénezet on the Rhône." }
+    - { icon: flag, title: "A race: Intra-muros", text: "Race from the Place de l’Horloge in the shadow of the Palais des Papes down the Rue de la République, along the Rue Joseph Vernet and back up the Rue Saint-Agricol." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: salerno
@@ -340,15 +341,15 @@
   lat: 40.6785
   lon: 14.7594
   game: Instant Salerno
-  title: "Instant Salerno: a free 3D game of Salerno, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Salerno in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Salerno: a free virtual 3D tour and game of Salerno"
+  description: "Take a free virtual 3D tour of the centre of Salerno in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Salerno, between the sea and the hills!"
-  lead: "The centre of Salerno in 3D, on its gulf at the start of the Amalfi Coast: the Duomo, Via dei Mercanti, the Corso and the Lungomare, every building from OpenStreetMap."
+  lead: "Ride through the centre of Salerno in 3D, on its gulf at the start of the Amalfi Coast, past the Duomo, Via dei Mercanti, the Corso and the Lungomare, with every building from OpenStreetMap."
   card: "The town on the gulf at the start of the Amalfi Coast: the Duomo, the old merchants’ street and the palms of the Lungomare."
   features:
-    - { icon: city, title: "The real Salerno", text: "About 1,000 buildings from OpenStreetMap, mapped as whole blocks, a small first piece of the centre with the sea in front. More of the city comes later." }
-    - { icon: church, title: "Between the sea and the hills", text: "The Duomo of San Matteo and the medieval lanes of Via dei Mercanti, the Corso, the Villa Comunale and the Teatro Verdi, and Zaha Hadid’s ferry terminal on the Molo Manfredi." }
-    - { icon: flag, title: "A race: Duomo and Lungomare", text: "From below the Duomo through Via dei Mercanti and along the Corso, down to the sea, under the palms of the Lungomare and back along Via Roma." }
+    - { icon: city, title: "The real Salerno", text: "Wander among about 1,000 buildings rebuilt in 3D from OpenStreetMap, mapped as whole blocks, in a first piece of the centre with the sea in front. More of the city is to come." }
+    - { icon: church, title: "Between the sea and the hills", text: "Visit the Duomo of San Matteo, wind through the medieval lanes of Via dei Mercanti, ride the Corso past the Villa Comunale and the Teatro Verdi, and out to Zaha Hadid’s ferry terminal on the Molo Manfredi." }
+    - { icon: flag, title: "A race: Duomo and Lungomare", text: "Race from below the Duomo through Via dei Mercanti and along the Corso, down to the sea, under the palms of the Lungomare and back along Via Roma." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: siena
@@ -357,15 +358,15 @@
   lat: 43.3186
   lon: 11.3306
   game: Instant Siena
-  title: "Instant Siena: a free 3D game of Siena, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Siena in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Siena: a free virtual 3D tour and game of Siena"
+  description: "Take a free virtual 3D tour of the centre of Siena in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Siena, round the Piazza del Campo!"
-  lead: "The centre of Siena in 3D, on its three hills in Tuscany: the Piazza del Campo, the Torre del Mangia, the striped cathedral and the brick lanes of the contrade, every building from OpenStreetMap."
+  lead: "Ride through the centre of Siena in 3D, on its three hills in Tuscany, past the Piazza del Campo, the Torre del Mangia, the striped cathedral and the brick lanes of the contrade, with every building from OpenStreetMap."
   card: "The Gothic town of brick on three hills: the shell of the Campo, the Torre del Mangia and the striped cathedral."
   features:
-    - { icon: city, title: "The real Siena", text: "About 1,900 buildings from OpenStreetMap, a small first piece of the centre, with the Duomo and the Torre del Mangia at their real height. More of the city comes later." }
-    - { icon: church, title: "The Campo and the Duomo", text: "The shell of red brick below the Palazzo Pubblico and the Fonte Gaia, the Loggia della Mercanzia, the striped cathedral with Santa Maria della Scala, and San Domenico across the valley." }
-    - { icon: flag, title: "A race: Campo and Duomo", text: "Down Banchi di Sopra to the Loggia della Mercanzia, into the Campo below the Torre del Mangia, up the Casato to the Duomo and back past the Baptistery along Via delle Terme." }
+    - { icon: city, title: "The real Siena", text: "Wander among about 1,900 buildings rebuilt in 3D from OpenStreetMap, with the Duomo and the Torre del Mangia at their real height: a first piece of the centre, with more of the city to come." }
+    - { icon: church, title: "The Campo and the Duomo", text: "Ride into the red-brick shell of the Campo below the Palazzo Pubblico and the Fonte Gaia, past the Loggia della Mercanzia, up to the striped cathedral and Santa Maria della Scala, and look across the valley to San Domenico." }
+    - { icon: flag, title: "A race: Campo and Duomo", text: "Race down Banchi di Sopra to the Loggia della Mercanzia, into the Campo below the Torre del Mangia, up the Casato to the Duomo and back past the Baptistery along Via delle Terme." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: pisa
@@ -374,15 +375,15 @@
   lat: 43.7166
   lon: 10.4001
   game: Instant Pisa
-  title: "Instant Pisa: a free 3D game of Pisa, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Pisa in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Pisa: a free virtual 3D tour and game of Pisa"
+  description: "Take a free virtual 3D tour of the centre of Pisa in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Pisa, from the Leaning Tower down to the Arno!"
-  lead: "The centre of Pisa in 3D, from the Piazza dei Miracoli down to the Arno: the Leaning Tower and the Duomo, Via Santa Maria, the Lungarni and the Ponte di Mezzo, every building from OpenStreetMap."
+  lead: "Ride through the centre of Pisa in 3D, from the Piazza dei Miracoli down to the Arno, past the Leaning Tower and the Duomo, Via Santa Maria, the Lungarni and the Ponte di Mezzo, with every building from OpenStreetMap."
   card: "The old sea republic on the Arno: the Leaning Tower on the Piazza dei Miracoli, the university streets and the palazzi along the river."
   features:
-    - { icon: city, title: "The real Pisa", text: "About 3,000 buildings from OpenStreetMap, a small first piece of the centre on both banks of the Arno. More of the city comes later." }
-    - { icon: tower, title: "From the tower to the river", text: "The Duomo, the Baptistery, the Leaning Tower and the Camposanto on the Piazza dei Miracoli, the Piazza dei Cavalieri and Borgo Stretto, Santa Maria della Spina on the Lungarno and Corso Italia out to the station." }
-    - { icon: flag, title: "A race: Tower and Arno", text: "Up Via Roma to the Leaning Tower, down Via Santa Maria to the Arno, across the Ponte di Mezzo, past Santa Maria della Spina and back over the Ponte Solferino." }
+    - { icon: city, title: "The real Pisa", text: "Wander among about 3,000 buildings rebuilt in 3D from OpenStreetMap, on both banks of the Arno: a first piece of the centre, with more of the city to come." }
+    - { icon: tower, title: "From the tower to the river", text: "See the Duomo, the Baptistery, the Leaning Tower and the Camposanto on the Piazza dei Miracoli, ride through the Piazza dei Cavalieri and Borgo Stretto to Santa Maria della Spina on the Lungarno, and down Corso Italia to the station." }
+    - { icon: flag, title: "A race: Tower and Arno", text: "Race up Via Roma to the Leaning Tower, down Via Santa Maria to the Arno, across the Ponte di Mezzo, past Santa Maria della Spina and back over the Ponte Solferino." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: utrecht
@@ -391,15 +392,15 @@
   lat: 52.0907
   lon: 5.1214
   game: Instant Utrecht
-  title: "Instant Utrecht: a free 3D game of Utrecht, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Utrecht in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Utrecht: a free virtual 3D tour and game of Utrecht"
+  description: "Take a free virtual 3D tour of the centre of Utrecht in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Utrecht, round the Dom!"
-  lead: "The centre of Utrecht in 3D, round the tallest church tower in the Netherlands: the Domplein, the Oudegracht, the Janskerkhof and the Kromme Nieuwegracht, every building from OpenStreetMap."
+  lead: "Ride through the centre of Utrecht in 3D, round the tallest church tower in the Netherlands, past the Domplein, the Oudegracht, the Janskerkhof and the Kromme Nieuwegracht, with every building from OpenStreetMap."
   card: "The town of the Dom Tower, with its medieval canals and their wharf cellars at the water."
   features:
-    - { icon: city, title: "The real Utrecht", text: "About 6,500 buildings from OpenStreetMap, a small first piece of the centre, with the Dom Tower at its real 112 metres. More of the city comes later." }
-    - { icon: tower, title: "Round the Dom", text: "The Dom Tower and the Dom Church with the Domplein between them, the Oudegracht and the Vismarkt, the Pieterskerk and the Paushuize on the Kromme Nieuwegracht, and the flower market on the Janskerkhof." }
-    - { icon: flag, title: "A race: Round the Dom", text: "From the Janskerkhof along the Drift and the Kromme Nieuwegracht, across the Domplein below the Dom Tower and back along the Vismarkt by the Oudegracht." }
+    - { icon: city, title: "The real Utrecht", text: "Wander among about 6,500 buildings rebuilt in 3D from OpenStreetMap, with the Dom Tower at its real 112 metres: a first piece of the centre, with more of the city to come." }
+    - { icon: tower, title: "Round the Dom", text: "Cross the Domplein between the Dom Tower and the Dom Church, follow the Oudegracht and the Vismarkt, find the Pieterskerk and the Paushuize on the Kromme Nieuwegracht, and the flower market on the Janskerkhof." }
+    - { icon: flag, title: "A race: Round the Dom", text: "Race from the Janskerkhof along the Drift and the Kromme Nieuwegracht, across the Domplein below the Dom Tower and back along the Vismarkt by the Oudegracht." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: rotterdam
@@ -408,15 +409,15 @@
   lat: 51.9205
   lon: 4.4850
   game: Instant Rotterdam
-  title: "Instant Rotterdam: a free 3D game of Rotterdam, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the centre of Rotterdam in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Rotterdam: a free virtual 3D tour and game of Rotterdam"
+  description: "Take a free virtual 3D tour of the centre of Rotterdam in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through Rotterdam, among the towers on the Maas!"
-  lead: "The centre of Rotterdam in 3D, rebuilt after 1940: the Coolsingel, the Markthal, the cube houses, the Oude Haven and the Laurenskerk, every building from OpenStreetMap."
+  lead: "Ride through the centre of Rotterdam in 3D, rebuilt after 1940, past the Coolsingel, the Markthal, the cube houses, the Oude Haven and the Laurenskerk, with every building from OpenStreetMap."
   card: "The port city that rebuilt itself after 1940: the Markthal, the cube houses and the Erasmusbrug over the Maas."
   features:
-    - { icon: city, title: "The real Rotterdam", text: "About 3,300 buildings from OpenStreetMap, a small first piece of the centre from the Coolsingel to the Oude Haven, down to the Erasmusbrug. More of the city comes later." }
-    - { icon: gables, title: "A city of new buildings", text: "The Markthal’s arch of flats, Piet Blom’s cube houses and the Potlood, the Witte Huis of 1898, the Laurenskerk and Zadkine’s De Verwoeste Stad by the Leuvehaven." }
-    - { icon: flag, title: "A race: Blaak and Markthal", text: "Down the Coolsingel, along the Blaak past the Markthal to the cube houses, up the Binnenrotte and back along the Hoogstraat past the Laurenskerk." }
+    - { icon: city, title: "The real Rotterdam", text: "Wander among about 3,300 buildings rebuilt in 3D from OpenStreetMap, from the Coolsingel to the Oude Haven and down to the Erasmusbrug. More of the city is to come." }
+    - { icon: gables, title: "A city of new buildings", text: "Ride under the Markthal’s arch of flats, past Piet Blom’s cube houses and the Potlood, see the Witte Huis of 1898 and the Laurenskerk, and find Zadkine’s De Verwoeste Stad by the Leuvehaven." }
+    - { icon: flag, title: "A race: Blaak and Markthal", text: "Race down the Coolsingel, along the Blaak past the Markthal to the cube houses, up the Binnenrotte and back along the Hoogstraat past the Laurenskerk." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: delft
@@ -425,15 +426,15 @@
   lat: 52.0116
   lon: 4.3586
   game: Instant Delft
-  title: "Instant Delft: a free 3D game of Delft, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the old town of Delft in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  title: "Instant Delft: a free virtual 3D tour and game of Delft"
+  description: "Take a free virtual 3D tour of the old town of Delft in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback along the canals of Delft!"
-  lead: "The old town of Delft in 3D, between The Hague and Rotterdam: the Markt, the Nieuwe Kerk, the leaning tower of the Oude Kerk and the canals of Vermeer’s town, every building from OpenStreetMap."
+  lead: "Ride through the old town of Delft in 3D, between The Hague and Rotterdam, past the Markt, the Nieuwe Kerk, the leaning tower of the Oude Kerk and the canals of Vermeer’s town, with every building from OpenStreetMap."
   card: "Vermeer’s town of canals and gables: the Markt, the Nieuwe Kerk of the House of Orange and the leaning Oude Kerk."
   features:
-    - { icon: city, title: "The real Delft", text: "About 7,800 buildings from OpenStreetMap, with stepped gables on the old houses, a first piece of the old town inside its canals. More of the city comes later." }
-    - { icon: church, title: "Churches, canals and Vermeer", text: "The Markt between the Stadhuis and the Nieuwe Kerk, the Vermeer Centrum on the Voldersgracht, the Oude Kerk with its leaning tower, the Prinsenhof and the Koornmarkt." }
-    - { icon: flag, title: "A race: Canals of Delft", text: "Across the Markt and along the Voldersgracht, up to the Oude Kerk, down the Oude Delft past the Prinsenhof and back along the Koornmarkt." }
+    - { icon: city, title: "The real Delft", text: "Wander among about 7,800 buildings rebuilt in 3D from OpenStreetMap, with stepped gables on the old houses, in a first piece of the old town inside its canals. More of the city is to come." }
+    - { icon: church, title: "Churches, canals and Vermeer", text: "Cross the Markt between the Stadhuis and the Nieuwe Kerk, find the Vermeer Centrum on the Voldersgracht, ride to the Oude Kerk with its leaning tower, the Prinsenhof and the Koornmarkt." }
+    - { icon: flag, title: "A race: Canals of Delft", text: "Race across the Markt and along the Voldersgracht, up to the Oude Kerk, down the Oude Delft past the Prinsenhof and back along the Koornmarkt." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: lecce
@@ -442,15 +443,15 @@
   lat: 40.3529
   lon: 18.1743
   game: Instant Lecce
-  title: "Instant Lecce: a free 3D game of baroque Lecce, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of the baroque old town of Lecce in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
+  title: "Instant Lecce: a free virtual 3D tour and game of baroque Lecce"
+  description: "Take a free virtual 3D tour of the baroque old town of Lecce in your browser, then cycle, walk or gallop through it yourself: explore, race or play quests, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through baroque Lecce!"
-  lead: "The old town of Lecce in Puglia, in its honey-coloured pietra leccese, with shutters and flat roof terraces."
+  lead: "Ride through the old town of Lecce in Puglia, in its honey-coloured pietra leccese, with shutters and flat roof terraces."
   card: "The baroque old town of Puglia, from Santa Croce to the Roman amphitheatre."
   features:
-    - { icon: church, title: "Baroque Lecce", text: "Santa Croce, the Piazza del Duomo, the Roman amphitheatre under Piazza Sant'Oronzo, Charles V's castle and the three city gates." }
-    - { icon: flag, title: "Two routes", text: "Lecce Centre, a loop past the Duomo, Porta Rudiae, Porta Napoli and Santa Croce, and from the station to Sant'Oronzo." }
-    - { icon: compass, title: "Its own quests", text: "Short missions against the clock, like catching the thief who ran off with the papier-mâché statue of Sant'Oronzo." }
+    - { icon: church, title: "Baroque Lecce", text: "Ride past Santa Croce and into the Piazza del Duomo, look down into the Roman amphitheatre under Piazza Sant'Oronzo, and find Charles V's castle and the three city gates." }
+    - { icon: flag, title: "Two routes", text: "Race Lecce Centre, a loop past the Duomo, Porta Rudiae, Porta Napoli and Santa Croce, or sprint from the station to Sant'Oronzo." }
+    - { icon: compass, title: "Its own quests", text: "Beat short missions against the clock: catch the thief who ran off with the papier-mâché statue of Sant'Oronzo." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: ghent
@@ -460,18 +461,18 @@
   lon: 3.7174
   map_label: t
   game: Instant Gent
-  title: "Instant Gent: a free 3D game of Ghent, by bike, on foot or on horseback"
-  description: "Cycle, walk or gallop through a 3D version of Ghent in your browser. Explore the city, race or play quests, alone or two players on one keyboard."
+  title: "Instant Gent: a free virtual 3D tour and game of Ghent"
+  description: "Take a free virtual 3D tour of Ghent in your browser, then cycle, walk or gallop through it yourself: explore, race or play quests, alone or two players on one keyboard."
   tagline: "Explore or race by bike, on foot or on horseback through the city of Artevelde!"
-  lead: "All of Ghent inside the R40 ring road in 3D, every building at its real height."
+  lead: "Ride through all of Ghent inside the R40 ring road in 3D, with every building at its real height."
   card: "About 40,000 buildings at their real height, from the Belfry to the Overpoort."
   image: menu
   poster: ghent-tour # behind the hero until the tour plays: its first shot
   hero_alt: "The Instant Gent start screen: pick your animal and your mode"
   features:
-    - { icon: city, title: "The real Ghent", text: "About 40,000 buildings from OpenStreetMap, each at its measured height. The Belfry stands 95 metres tall; the Gravensteen, Stadshal and St Bavo's are drawn to measure." }
-    - { icon: flag, title: "Four routes", text: "Gent Centrum past the three towers, the narrow streets of the Brugse Poort, Sint-Pieters to Dampoort right across the city, and the Overpoort to the S.M.A.K." }
-    - { icon: compass, title: "Quests against the clock", text: "Four short missions, from the stolen Ghent Altarpiece to student zombies in the Overpoort." }
+    - { icon: city, title: "The real Ghent", text: "Wander among about 40,000 buildings rebuilt in 3D from OpenStreetMap, each at its measured height. Look up at the 95-metre Belfry, and at the Gravensteen, the Stadshal and St Bavo's, all drawn to measure." }
+    - { icon: flag, title: "Four routes", text: "Race Gent Centrum past the three towers, through the narrow streets of the Brugse Poort, from Sint-Pieters to Dampoort right across the city, or from the Overpoort to the S.M.A.K." }
+    - { icon: compass, title: "Quests against the clock", text: "Beat four short missions against the clock: track down the stolen Ghent Altarpiece or escape the student zombies in the Overpoort." }
   shots:
     - { id: boat, caption: "Vrijdagmarkt: on the way to the last boat" }
     - { id: zombies, caption: "Student zombies in the Overpoort" }

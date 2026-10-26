@@ -1,0 +1,28 @@
+# ghent's landmarks in Dutch (_data/landmarks/ghent.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+sint-baafs-kathedraal:
+  name: Sint-Baafskathedraal
+  blurb: Gebouwd van de 13e tot de 16e eeuw, met een toren van 89 m. Binnen hangt de Aanbidding van het Lam Gods (1432) van de gebroeders Van Eyck, een van de beroemdste en meest gestolen schilderijen ter wereld. Het paneel van de Rechtvaardige Rechters, gestolen in 1934, is nooit teruggevonden.
+belfort:
+  name: Belfort
+  blurb: De stadstoren van 91 m, begonnen in 1313. Gent bewaarde hier zijn privilegies, en wachters keken uit naar brand en vijanden. Bovenop houdt een vergulde draak de wacht. Samen met de Lakenhalle ernaast staat het op de Werelderfgoedlijst van UNESCO.
+gravensteen:
+  name: Gravensteen
+  blurb: De burcht van de graven van Vlaanderen, in 1180 gebouwd door Filips van de Elzas. Later was het een rechtbank, een gevangenis en zelfs een katoenspinnerij, en rond 1900 kreeg het zijn kantelen terug. In 1949 bezetten studenten het, uit protest tegen de stijgende bierprijs.
+graslei:
+  name: Graslei en Korenlei
+  blurb: De middeleeuwse haven van Gent, aan beide oevers van de Leie. Schippers losten hier graan en de gilden bouwden hun huizen langs de kade. Het Koornstapelhuis, het grijze romaanse graanpakhuis van rond 1200, is een van de oudste huizen van de stad.
+sint-michielsbrug:
+  name: Sint-Michielsbrug
+  blurb: 'Gebouwd aan het begin van de 20e eeuw, net voor de Wereldtentoonstelling van 1913. Kijk naar het oosten en je ziet de drie torens van Gent op een rij: Sint-Niklaas, het Belfort en Sint-Baafs. Achter je staat de Sint-Michielskerk, waarvan de toren nooit af raakte.'
+sint-niklaaskerk:
+  name: Sint-Niklaaskerk
+  blurb: 'De kerk van de kooplieden, uit de 13e eeuw, in blauwgrijze Doornikse steen: Scheldegotiek. De toren staat midden op het dak en diende ook als uitkijk, lang voor het Belfort er stond. Nu zijn er ook concerten en tentoonstellingen.'
+stadhuis:
+  name: Stadhuis
+  blurb: 'Een stadhuis in twee stijlen: weelderige laatgotiek aan de Hoogpoort, sobere renaissance aan de Botermarkt. Geldgebrek en de godsdienstoorlogen legden de bouw telkens stil. De Pacificatie van Gent, een vrede tussen de provincies van de Nederlanden, werd hier in 1576 getekend.'
+vrijdagmarkt:
+  blurb: Het plein van markten, feesten en opstanden, waar de graven van Vlaanderen werden ingehuldigd. In het midden wijst Jacob van Artevelde, de brouwer die Gent in 1338 leidde, de weg. Aan de overkant staat Ons Huis, het grote huis van de socialistische arbeidersbeweging.
+groot-vleeshuis:
+  name: Groot Vleeshuis
+  blurb: De overdekte vleeshal van de beenhouwers, gebouwd van 1406 tot 1419. Onder de indrukwekkende houten kap hangen nog altijd hammen te drogen. Nu kun je er Oost-Vlaamse streekproducten kopen en proeven.

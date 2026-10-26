@@ -1,0 +1,95 @@
+# lecce's guide in French (_data/about/lecce.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Pouilles (Puglia)
+- Environ 95 000 habitants (ville), 770 000 (province de Lecce)
+- Par les Messapiens, avant les Romains ; les Romains l’appelaient Lupiae
+- L’Adriatique, à environ 11 kilomètres à l’est
+- Italien, et le dialecte salentin
+- La Florence du Sud
+- Saint Oronce
+overview:
+- Lecce est une ville de pierre couleur de miel. Presque toute la vieille ville est bâtie en pietra leccese, un calcaire si tendre à l’extraction que les sculpteurs pouvaient couvrir les façades de fleurs, de fruits, de chérubins, de saints et de monstres. Des dizaines d’églises se dressent à quelques minutes de marche les unes des autres dans la petite vieille ville.
+- 'La vieille ville, la partie que vous parcourez dans Instant Lecce, se trouve à l’intérieur d’une ceinture de larges avenues qui ont remplacé les remparts. Trois portes subsistent : la Porta Napoli au nord, la Porta Rudiae à l’ouest et la Porta San Biagio au sud. La Piazza Sant’Oronzo, avec son amphithéâtre romain, en est le centre ; la Via Vittorio Emanuele II mène vers l’ouest jusqu’à la place fermée de la cathédrale, et Santa Croce et le château de Charles Quint se trouvent au nord et à l’est.'
+setting:
+- Lecce se trouve dans le sud-est de l’Italie, dans la région des Pouilles, et est le chef-lieu de la province de Lecce. Le Salento est une péninsule plate entre l’Adriatique et la mer Ionienne, couverte d’oliveraies, de vignobles et de murs en pierre sèche. Brindisi est à environ 40 kilomètres au nord et Otrante à environ 40 kilomètres au sud-est.
+- 'Le climat est méditerranéen : étés longs, chauds et secs, et hivers doux. Depuis 2013, une bactérie, Xylella fastidiosa, a tué des millions de vieux oliviers du Salento, et le paysage autour de la ville est lentement replanté.'
+today:
+- Lecce est le chef-lieu de sa province et le siège de l’université du Salento. Son économie repose sur les services publics, l’université, le tourisme, l’huile d’olive et le vin du Salento, comme le Negroamaro et le Salice Salentino. Des sculpteurs sur pierre travaillent toujours la pietra leccese, et des ateliers de papier mâché dans la vieille ville fabriquent encore des saints et des santons.
+- Le soir, toute la ville se promène dans les rues entre la Piazza Sant’Oronzo et la cathédrale. Fin août, la fête de saint Oronce remplit la vieille ville de lumières, de musique et de processions, et l’été le Salento danse la pizzica. Le club de football, l’US Lecce, joue en jaune et rouge au Stadio Via del Mare.
+history:
+- title: Messapiens et Romains
+  text:
+  - Avant les Romains, les Messapiens, un peuple du talon de l’Italie, vivaient ici et à Rudiae, juste à l’ouest de la ville, où naquit plus tard le poète romain Ennius. Les Romains prirent le Salento au IIIe siècle av. J.-C. et firent de Lecce la ville de Lupiae.
+  - Sous les empereurs, Lupiae construisit un théâtre pour environ 5 000 personnes, à l’époque d’Auguste, et au IIe siècle un amphithéâtre pour quelque 25 000. La légende dit que saint Oronce, premier évêque de la ville, fut martyrisé ici sous Néron. Les deux édifices romains restèrent cachés sous les maisons jusqu’au XXe siècle.
+- title: Comtes, rois et menace ottomane
+  text:
+  - Après la chute de Rome, Byzantins, Lombards et Sarrasins se disputèrent le Salento, jusqu’à ce que les Normands le prennent au XIe siècle et fassent de Lecce le siège d’un comté. Son comte Tancrède devint roi de Sicile en 1189. Dans les siècles suivants, le comté passa entre plusieurs familles nobles puis au royaume de Naples, que l’Espagne gouvernait depuis le début du XVIe siècle.
+  - 'En 1480, une flotte ottomane prit Otrante, plus bas sur la côte, et tua une grande partie de sa population. La peur des Turcs façonna Lecce : dans les années 1530, l’empereur Charles Quint fit reconstruire le château et bâtir de nouveaux remparts autour de la ville, et en 1548 la ville éleva la Porta Napoli en son honneur.'
+- title: La ville baroque
+  text:
+  - Dans le siècle après 1550, les ordres religieux de la Contre-Réforme et les familles nobles de Lecce rebâtirent la ville en pierre sculptée. Santa Croce prit de 1549 à 1695 à achever ; Giuseppe Zimbalo reconstruisit la cathédrale à partir de 1659 et lui donna son campanile de 70 mètres. Quand la peste de 1656 épargna Lecce, la ville remercia saint Oronce et mit sa statue sur une colonne romaine sur la place principale.
+  - Lecce fit partie du royaume d’Italie en 1861. La plupart des remparts tombèrent au XIXe siècle et de larges avenues prirent leur place, tandis que la nouvelle ville grandissait à l’extérieur. Ces dernières décennies, la vieille ville restaurée et les plages du Salento ont attiré des visiteurs du monde entier.
+timeline:
+- - IIe siècle
+  - Les Romains construisent l’amphithéâtre de Lupiae
+- - '1189'
+  - Tancrède, comte de Lecce, devient roi de Sicile
+- - '1480'
+  - Les Ottomans prennent Otrante, sur la côte au sud-est de Lecce
+- - années 1530
+  - Charles Quint fait reconstruire le château et fortifier la ville
+- - '1548'
+  - La Porta Napoli est élevée en l’honneur de Charles Quint
+- - '1549'
+  - Début des travaux de la basilique Santa Croce
+- - '1656'
+  - La peste épargne Lecce, qui en crédite saint Oronce
+- - '1659'
+  - Giuseppe Zimbalo commence à reconstruire la cathédrale
+- - '1695'
+  - Santa Croce est achevée
+- - '1703'
+  - La Porta Rudiae est reconstruite en style baroque
+- - '1774'
+  - La Porta San Biagio est construite
+- - '1861'
+  - Lecce fait partie du royaume d’Italie
+places:
+  piazza-sant-oronzo:
+    blurb: La place principale de Lecce, avec l’amphithéâtre romain à demi dégagé au milieu et saint Oronce sur sa colonne au-dessus.
+  via-vittorio-emanuele:
+    blurb: La rue principale de la vieille ville, de la Piazza Sant’Oronzo devant l’église Sant’Irene jusqu’à la cathédrale.
+  piazza-del-duomo:
+    blurb: La place fermée de la cathédrale, du palais épiscopal et du séminaire, qui ne s’ouvre que par une étroite brèche depuis la rue.
+  via-libertini:
+    blurb: La rue de la cathédrale à la Porta Rudiae, devant l’église du Rosario, dernière œuvre de Giuseppe Zimbalo.
+  porta-rudiae:
+    blurb: La porte ouest, reconstruite en 1703, avec saint Oronce au sommet, sur la route de l’antique ville de Rudiae.
+  via-palmieri:
+    blurb: Une rue de palais nobles qui mène du cœur de la vieille ville à la Porta Napoli.
+  porta-napoli:
+    blurb: L’arc de triomphe de 1548 pour Charles Quint, où la route de Naples quittait la ville.
+  via-umberto-i:
+    blurb: La rue de la basilique Santa Croce et de la longue façade du Palazzo dei Celestini, aujourd’hui siège du gouvernement provincial.
+  piazza-vittorio-emanuele:
+    blurb: Une petite place juste au sud de la Piazza Sant’Oronzo, devant l’église octogonale Santa Chiara et à quelques pas du théâtre romain.
+  porta-san-biagio:
+    blurb: La porte sud de 1774, avec saint Blaise au sommet, face à la route d’Otrante.
+  castello-carlo-v:
+    name: Château de Charles Quint
+    blurb: La forteresse carrée aux bastions en forme de flèche sur le côté est de la vieille ville, aujourd’hui ouverte pour des expositions.
+  villa-comunale:
+    blurb: Le jardin public du XIXe siècle nommé d’après Garibaldi, avec des palmiers et des pins, juste hors de la vieille ville près du château.
+  via-trinchese:
+    blurb: La rue commerçante de la ville plus récente, de la Piazza Sant’Oronzo vers l’est jusqu’à la Piazza Mazzini.
+  piazza-mazzini:
+    blurb: La grande place de la ville du XXe siècle hors des anciens remparts, entourée de boutiques.
+links:
+- title: Comune di Lecce
+  note: La municipalité (en italien)
+- title: Viaggiare in Puglia
+  note: L’information touristique officielle de la région des Pouilles
+- title: Lecce sur Wikipédia
+  note: L’article de l’encyclopédie

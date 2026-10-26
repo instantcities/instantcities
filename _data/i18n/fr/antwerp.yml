@@ -1,0 +1,21 @@
+# antwerp's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/antwerp.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/antwerp.yml and its landmarks, with their pages, in landmarks/antwerp.yml.
+title: 'Instant Antwerp : visite virtuelle en 3D et jeu gratuits d’Anvers'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre d’Anvers dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans le vieil Anvers !
+lead: Parcourez la vieille ville d’Anvers en 3D, par la Grand-Place, devant la cathédrale, le Steen et le Groenplaats, avec chaque toit à sa hauteur mesurée.
+features:
+- title: Le vrai Anvers
+  text: 'Promenez-vous parmi quelque 6 600 bâtiments reconstruits en 3D à partir d’OpenStreetMap, chacun à la hauteur mesurée par la Flandre : un premier morceau du centre, et le reste de la ville suivra.'
+- title: La vieille ville
+  text: Partez de la Grand-Place parmi ses maisons de corporations, passez devant la cathédrale jusqu’au Steen sur l’Escaut et au Groenplaats, et poussez jusqu’au Meir et à la maison de Rubens.
+- title: 'Une course : Grand-Place et Escaut'
+  text: Foncez de la Grand-Place jusqu’au Steen, vers le sud le long de l’Escaut, par les ruelles jusqu’au Groenplaats, et retour devant la cathédrale.
+intro: Anvers est la plus grande ville de Flandre et le grand port de la Belgique, sur l’Escaut, dans le nord du pays. Au XVIe siècle, c’était la ville marchande la plus riche d’Europe du Nord, et une génération plus tard Pierre Paul Rubens y peignait pour des églises et des cours de tout le continent. On la connaît aujourd’hui pour son port, son commerce du diamant, ses créateurs de mode et la cathédrale Notre-Dame, dont la flèche s’élève à 123 mètres au-dessus de la vieille ville.
+famous:
+- La cathédrale Notre-Dame, avec sa flèche de 123 mètres et des retables de Rubens
+- La Grand-Place, avec l’hôtel de ville Renaissance et la fontaine de Brabo
+- Son port, le deuxième d’Europe, et le quartier du diamant près de la gare centrale
+- Les créateurs de mode formés à son Académie royale des beaux-arts, dont les Six d’Anvers
+credits: 'Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Hauteurs : Digitaal Vlaanderen, DHMV II.'

@@ -1,0 +1,22 @@
+# salerno's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/salerno.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/salerno.yml and its landmarks, with their pages, in landmarks/salerno.yml.
+title: 'Instant Salerno : visite virtuelle en 3D et jeu gratuits de Salerne'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Salerne dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Salerne, entre la mer et les collines !
+lead: Parcourez le centre de Salerne en 3D, au bord de son golfe au début de la côte amalfitaine, devant le Duomo, par la Via dei Mercanti, le Corso et le Lungomare, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Salerne
+  text: Promenez-vous parmi quelque 1 000 bâtiments reconstruits en 3D à partir d’OpenStreetMap, cartographiés en îlots entiers, dans un premier morceau du centre face à la mer. Le reste de la ville suivra.
+- title: Entre la mer et les collines
+  text: Visitez le Duomo de San Matteo, faufilez-vous dans les ruelles médiévales de la Via dei Mercanti, suivez le Corso devant la Villa Comunale et le Teatro Verdi, et poussez jusqu’au terminal maritime de Zaha Hadid sur le Molo Manfredi.
+- title: 'Une course : Duomo et Lungomare'
+  text: Foncez du pied du Duomo par la Via dei Mercanti et le long du Corso, descendez jusqu’à la mer, sous les palmiers du Lungomare, et retour par la Via Roma.
+intro: Salerne se trouve au bord de son propre golfe, en Campanie, dans le sud de l’Italie, là où finit la côte amalfitaine et où commence la plaine de Paestum. Capitale lombarde et berceau de la première école de médecine de l’Europe médiévale, elle grimpe d’un front de mer bordé de palmiers, par une vieille ville médiévale, jusqu’au château sur la colline. Chaque hiver, ses rues brillent des Luci d’Artista.
+famous:
+- Le Duomo, la cathédrale normande sur le tombeau de saint Matthieu
+- La Scuola Medica Salernitana, la première école de médecine de l’Europe médiévale
+- Le Lungomare, la promenade du bord de mer face au golfe
+- Les Luci d’Artista, la fête des lumières qui remplit la ville chaque hiver
+- La porte de la côte amalfitaine, en bateau depuis le Molo Manfredi
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

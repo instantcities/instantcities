@@ -1,11 +1,12 @@
 {%- comment -%} A painting's or a statue's page (/art/<id>/): its block in _data/art.json, named by the page's `art` (tools/art.mjs writes the pages), its photo and credit (assets/img/art/<id>.jpg, _data/art_photos.json), its story and facts, a link that puts you right in front of it in the game (?inside=<building>&view=, or for one out in the open ?pos=x,z&yaw= or ?at=<sight>; from=art:<id> for the pause menu's way back), and the other pieces in the same building. Its museum's page (a landmark, M.landmark) and its city's page are linked from its crumbs, its buttons, its facts and the first mention of each in its story, as is the first mention of another piece in the same museum. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign A = site.data.art -%}
 {%- assign P = A.pieces | where: 'id', page.art | first -%}
 {%- assign M = A.museums | where: 'id', P.museum | first -%}
 {%- assign C = site.data.cities | where: 'id', M.city | first -%}
 {%- assign ph = site.data.art_photos[P.id] -%}
-{%- assign city_url = '/' | append: C.id | append: '/' -%}
-{%- if M.landmark %}{% assign LM = site.data.landmarks[C.id] | where: 'id', M.landmark | first %}{% assign lm_url = city_url | append: 'landmark/' | append: LM.id | append: '/' %}{% endif -%}
+{%- capture city_url %}{% include city-url.html city=C.id lang='en' %}{% endcapture -%}
+{%- if M.landmark %}{% assign LM = site.data.landmarks[C.id] | where: 'id', M.landmark | first %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=LM.id lang='en' %}{% endcapture %}{% endif -%}
 {%- comment -%} the story, its first mention of the museum and then of the city in a link (the paragraphs run together with a pilcrow between them, so a mention at the start of one counts) {%- endcomment -%}
 {%- assign story = P.text | join: ' ¶ ' -%}
 {%- if LM %}
@@ -107,7 +108,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/art/">Famous art</a> <a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
+    <p class="alt"><a href="/art/">Famous art</a> <a href="{% include city-url.html city=C.id %}">Instant {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

@@ -1,11 +1,11 @@
 {
   "id": "lecce",
   "name": "Instant Lecce",
-  "title": "Instant Lecce: a free 3D game of baroque Lecce, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the baroque old town of Lecce in your browser. Explore the city, race or play quests, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Lecce: play through Lecce in 3D",
+  "title": "Instant Lecce: a free virtual 3D tour and game of baroque Lecce",
+  "description": "Take a free virtual 3D tour of the baroque old town of Lecce in your browser, then cycle, walk or gallop through it yourself: explore, race or play quests, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Lecce: a virtual 3D tour of Lecce",
   "share_description": "Cycle, walk or gallop through baroque Lecce in your browser. Explore, race or play quests, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the baroque old town of Lecce, Italy: explore the city, race or play quests by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the baroque old town of Lecce, Italy: explore the city, race or play quests by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Lecce in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Lecce",
   "style": ":root { --paper: #fdf8ee; --accent: #8a5a2e; --accent-soft: #f1e2cb; --gold: #f2c230; --sky: #f8eedb; --skyline: #dcc296; --glass: rgba(251, 243, 226, 0.72); } .tag { color: #7a5a35; }"
