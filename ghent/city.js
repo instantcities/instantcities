@@ -243,9 +243,10 @@ export const FRONTS = [...HAND_FRONTS, ...specFronts(STREETS, HAND_FRONTS)];
 export const ID = 'ghent';
 export const NAME = { nl: 'Gent', en: 'Ghent', fr: 'Gand', es: 'Gante' };
 
-// Each sight's page on instantgent.be (in English): the sight's id goes after it. A sight's card in
-// the game links there (Read more); a city without these pages leaves it out, and the link with it.
-export const SIGHT_PAGES = 'https://instantgent.be/en/sights/';
+// Each sight's page on the site (ghent/landmark/<id>/): the sight's id goes after it, or its own
+// `page` where the landmark's id differs. A sight's card in the game links there (Read more); a city
+// without these pages leaves it out, and the link with it.
+export const SIGHT_PAGES = '/ghent/landmark/';
 
 // The colours of the open ground (paved, so grey) and how far the fog lets you see, in game metres.
 // A race can bring its own.

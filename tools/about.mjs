@@ -180,12 +180,13 @@ async function countryMaps() {
   const arc = i => (i >= 0 ? arcs[i] : [...arcs[~i]].reverse());
   const shapes = g => (g.type === 'Polygon' ? [g.arcs] : g.type === 'MultiPolygon' ? g.arcs : []).map(poly => poly.map(r => r.flatMap(arc)));
   // Natural Earth's names for the countries in _data/cities.yml, and their capitals
-  const NE = { 'United Kingdom': 'United Kingdom', 'Czech Republic': 'Czechia', Czechia: 'Czechia' };
+  const NE = { 'United Kingdom': 'United Kingdom', 'Czech Republic': 'Czechia', Czechia: 'Czechia', 'United States': 'United States of America' };
   const CAPITALS = {
     Italy: ['Rome', 41.9028, 12.4964], France: ['Paris', 48.8566, 2.3522], Spain: ['Madrid', 40.4168, -3.7038],
     'United Kingdom': ['London', 51.5072, -0.1276], Netherlands: ['Amsterdam', 52.3676, 4.9041],
     Belgium: ['Brussels', 50.8503, 4.3517], Germany: ['Berlin', 52.52, 13.405], Austria: ['Vienna', 48.2082, 16.3738],
     Denmark: ['Copenhagen', 55.6761, 12.5683], 'Czech Republic': ['Prague', 50.0755, 14.4378], Czechia: ['Prague', 50.0755, 14.4378],
+    Turkey: ['Ankara', 39.9334, 32.8597], 'United States': ['Washington', 38.9072, -77.0369],
   };
   const yml = fs.readFileSync(path.join(ROOT, '_data', 'cities.yml'), 'utf8');
   const all = yml.split(/^- /m).slice(1).map(block => {

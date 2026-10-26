@@ -132,7 +132,9 @@ function within(x, z, rings) {
 // `area` (flat rings in the city's metres): the buildings on it give way to its own `foot` rings,
 // and it says how far from its middle it `reach`es (30 m when it does not), so it is put up in time.
 // A monument that stands where the map has footways drawn flat on the ground (the Stadhuis's
-// perron) names `paths` (flat rings): the footways wholly inside them are left out.
+// perron) names `paths` (flat rings): the footways wholly inside them are left out. One built over a
+// street the map has (a service road into a courtyard the model closes over) names `streets`: the
+// streets wholly inside them go too.
 export function openUp(map) {
   const open = LANDMARKS.filter(lm => lm.open);
   const solid = LANDMARKS.flatMap(lm => FACADES?.[lm.id]?.solid ?? []);
@@ -141,8 +143,9 @@ export function openUp(map) {
   // canopy) goes: the monument stands in its place, and of a roof only its posts stop riders
   const gates = MONUMENTS.filter(mo => mo.solid || mo.posts || mo.area).flatMap(ground);
   const under = b => open.some(lm => within(...centre(b.p), lm.foot)) || within(...centre(b.p), gates);
-  const paths = MONUMENTS.flatMap(mo => mo.paths ?? []);
-  const roads = paths.length ? map.roads.filter(rd => !rd.foot || !rd.p.every((v, k) => k % 2 || within(v, rd.p[k + 1], paths))) : map.roads;
+  const paths = MONUMENTS.flatMap(mo => mo.paths ?? []), streets = MONUMENTS.flatMap(mo => mo.streets ?? []);
+  const inside = (rd, rings) => rd.p.every((v, k) => k % 2 || within(v, rd.p[k + 1], rings));
+  const roads = paths.length || streets.length ? map.roads.filter(rd => !(rd.foot && paths.length && inside(rd, paths)) && !(streets.length && inside(rd, streets))) : map.roads;
   return { ...map, roads, walls: [...(map.walls ?? []), ...solid], buildings: map.buildings.filter(b => !under(b))
     .concat(open.flatMap(lm => lm.open.map(p => ({ p, f: 1, k: 'pillar' }))))
     .concat(MONUMENTS.flatMap(mo => (mo.foot ?? (mo.posts ? posts(mo) : (mo.solid ?? [null]).map(r => base(mo, r)))).map(p => ({ p, f: 1, k: 'monument' })))) };

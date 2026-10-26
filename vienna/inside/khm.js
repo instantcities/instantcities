@@ -6,8 +6,8 @@
 // Game metres, x across and z along; the door out (to Maria-Theresien-Platz) at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, bench, plinth, rope, visitors, crowd, roundWall, patternFloor } from '../../core/js/inside/rooms.js';
-import { towerOfBabel, huntersInSnow, peasantWedding, oldMaster, masterSize, pantheonFloor } from '../../core/js/inside/art.js';
+import { hall, skylight, framed, bench, plinth, rope, visitors, crowd, roundWall, patternFloor, wanderers } from '../../core/js/inside/rooms.js';
+import { towerOfBabel, huntersInSnow, peasantWedding, oldMaster, masterSize, pantheonFloor, famous } from '../../core/js/inside/art.js';
 import { roman } from '../../core/js/inside/statues.js';
 import { chandelier } from '../../core/js/inside/props.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -82,10 +82,14 @@ export function makeKHM() {
     framed(p, towerOfBabel(), 1.55 * 1.25, 1.14 * 1.25, B.x1 - 0.47, 3.0, cz, -Math.PI / 2, { f: 0.22 });
     framed(p, huntersInSnow(), 1.62 * 1.25, 1.17 * 1.25, (B.x0 + B.x1) / 2, 3.0, B.z1 - 0.47, Math.PI, { f: 0.22 });
     framed(p, peasantWedding(), 1.64 * 1.25, 1.14 * 1.25, (B.x0 + B.x1) / 2, 3.0, B.z0 + 0.47, 0, { f: 0.22 });
-    for (const [x, z, ry, n] of [[B.x0 + 6, B.z1 - 0.47, Math.PI, 704], [B.x1 - 6, B.z1 - 0.47, Math.PI, 709], [B.x0 + 6, B.z0 + 0.47, 0, 714], [B.x1 - 6, B.z0 + 0.47, 0, 719]]) { const [w, h] = masterSize(n); framed(p, oldMaster(n), w * 0.9, h * 0.9, x, 3.0, z, ry); }
+    // beside them his Children's Games, and Vermeer's Art of Painting
+    framed(p, famous('childrens-games', 2.5, 1.83), 2.5, 1.83, B.x0 + 6, 3.0, B.z1 - 0.47, Math.PI, { f: 0.22 });
+    framed(p, famous('the-art-of-painting', 1.6, 1.92), 1.6, 1.92, B.x0 + 6, 3.0, B.z0 + 0.47, 0, { f: 0.25 });
+    for (const [x, z, ry, n] of [[B.x1 - 6, B.z1 - 0.47, Math.PI, 709], [B.x1 - 6, B.z0 + 0.47, 0, 719]]) { const [w, h] = masterSize(n); framed(p, oldMaster(n), w * 0.9, h * 0.9, x, 3.0, z, ry); }
     bench(p, (B.x0 + B.x1) / 2, cz, 4, Math.PI / 2);
     g.add(crowd(B.x1, cz, 7, 3.4, 6, -Math.PI * 0.8, -Math.PI * 0.2, 87));
   }
+  g.add(wanderers(p, 41));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: STAIR.z0 + 1.6 } };
 }

@@ -462,6 +462,11 @@ kbd {
 .dropdown { position: relative; }
 .dropdown .dd-list { position: absolute; top: calc(100% + 4px); right: 0; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
 .dropdown .dd-list .chip { white-space: nowrap; }
+/* the city picker: its icon before the word, the list long enough to scroll */
+#cityBtn { display: inline-flex; align-items: center; gap: 4px; }
+#cityList { max-height: min(60vh, 420px); overflow-y: auto; padding: 2px; }
+#cityList .chip { text-decoration: none; text-align: left; }
+#cityList .chip:not(.on) { color: #111; }
 .corner.left { right: auto; left: 14px; align-items: flex-start; }
 .corner.left .opts { justify-content: flex-start; }
 .corner.left .chip { font-size: 14px; padding: 4px 12px; }
@@ -660,7 +665,13 @@ a.chip { text-decoration: none; }
   border: 2px solid rgba(255, 255, 255, 0.7);
   border-radius: 999px;
   padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
+#menuBtn .icon { font-size: 17px; }
+/* the street sign's icons (game/icons.js): where you are, what you are doing, before the words */
+.street .icon { display: inline-block !important; vertical-align: -0.16em; margin-right: 0.3em; opacity: 0.85; }
 
 /* Wide screens, one player: the minimap in the top left corner with the menu button beside it, which
    leaves the middle to the street sign. Two players keep the shared minimap between their halves. */
@@ -739,7 +750,7 @@ a.chip { text-decoration: none; }
   bottom: calc(16px + env(safe-area-inset-bottom));
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "fries" "item" "jump";
+  grid-template-areas: "fries" "item" "action" "jump";
   justify-items: center;
   align-items: end;
   gap: 12px 14px;
@@ -789,6 +800,19 @@ a.chip { text-decoration: none; }
 #tFries.charging { background: rgba(29, 26, 23, 0.45); color: #fff; }
 #tFries.charging .ico { opacity: 0.4; }
 .fries #tFries { display: flex; }
+/* the action button (game/action.js): over the jump button, while there is something to do here */
+#tAction { grid-area: action; display: none; background: #1d1a17; color: #fff; }
+#tAction.show { display: flex; }
+#tAction .icon, #menuBtn .icon, .street .icon, #cityBtn .icon { width: 1em; height: 1em; display: block; flex: none; }
+#tAction .ico { font-size: 30px; line-height: 0; }
+#artview { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: calc(12px + env(safe-area-inset-top)) 16px calc(12px + env(safe-area-inset-bottom)); background: rgba(12, 10, 8, 0.94); color: #f4efe6; cursor: zoom-out; }
+#artview.hidden { display: none; }
+#artview img { flex: 1 1 auto; min-height: 0; max-width: 100%; object-fit: contain; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6); }
+.art-cap { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 12px; text-align: center; font: 500 15px var(--sans, system-ui, sans-serif); }
+.art-cap b { font-size: 20px; font-weight: 700; }
+.art-cap span { color: #c9bfae; }
+.art-cap .chip { color: #111; background: #fff; border: 0; border-radius: 6px; padding: 5px 10px; text-decoration: none; font-size: 14px; cursor: pointer; }
+.art-x { position: absolute; top: calc(10px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); width: 40px; height: 40px; font: 600 20px/1 system-ui, sans-serif; color: #fff; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 8px; cursor: pointer; }
 
 /* ---------- touch mode: hide keyboard-only bits ---------- */
 
@@ -1085,24 +1109,6 @@ a.chip { text-decoration: none; }
 #bigmap.full #bigCanvas { border: 0; border-radius: 0; }
 #bigmap.full .bighint { display: none; }
 #bigmap.full #bigIndex { width: 100vw; height: 100%; border: 0; border-radius: 0; box-shadow: none; }
-
-/* BETA sticker next to the game's name: still in development */
-.title .beta {
-  display: inline-block;
-  vertical-align: super;
-  margin-left: 0.15em;
-  padding: 0.12em 0.4em;
-  font-size: 0.3em;
-  line-height: 1;
-  color: var(--ink);
-  background: var(--gold);
-  border: 0.08em solid var(--ink);
-  border-radius: 0.3em;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
-  letter-spacing: 0.05em;
-  transform: rotate(-8deg);
-}
 
 /* Missions: pick one on the menu (exploring freely, or a quest), read what it is about, then the
    HUD shows the time left and an arrow to where you have to go. */
@@ -1781,11 +1787,6 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 /* "Instant Cities" small above the city's name */
 .title .brandline { display: block; margin-bottom: 0.15em; font-size: max(13px, 0.26em); font-weight: 600; letter-spacing: 0; color: var(--muted); }
 .overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
-.overlay .title .beta, #loader .title .beta {
-  vertical-align: 0.9em; margin-left: 8px; padding: 3px 7px;
-  font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted);
-  background: none; border: 1px solid currentColor; border-radius: 4px; transform: none;
-}
 .overlay .tag { font-weight: 500; font-size: 16px; color: var(--muted); }
 
 .overlay .row { border-width: 2px; border-radius: 8px; }
@@ -1818,6 +1819,8 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .overlay .start.alt { color: #111; background: #fff; border-color: var(--edge); }
 .overlay .start.alt:hover { filter: none; border-color: #111; }
 #menu .start.focus, #pause .psel { outline: 2px solid #111; outline-offset: 2px; }
+/* the menu's own Start on a phone: one word, big and wide */
+.touch .overlay #startBtn { width: min(100%, 280px); padding: 12px 24px; font-size: 30px; font-weight: 700; }
 
 /* the player cards: black header and border; with two players a bar in each player's colour under the header */
 #menu .pcol, .solo #menu .pcol { border: 2px solid #111; border-radius: 8px; box-shadow: none; }
@@ -1882,7 +1885,7 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .sight-x { border: 1px solid var(--edge); border-radius: 6px; font-weight: 600; }
 .sight-x:hover { background: #111; border-color: #111; }
 .sight.mini { border-radius: 8px; }
-.sight.mini .sight-i { font: 700 22px/1 var(--sans); }
+.sight.mini .sight-i .sight-eye { width: 26px; height: 26px; } /* folded: the card's own eye */
 .tram-head { font-family: var(--sans); font-weight: 800; letter-spacing: 0.06em; border-bottom-width: 2px; border-radius: 8px 8px 0 0; }
 .tram-badge { font-family: var(--sans); font-weight: 800; border-radius: 6px; text-shadow: none; }
 .tramcard.aboard, .tramcard.aboard.show { border-width: 0 0 2px; border-radius: 0; }
@@ -1927,7 +1930,6 @@ body.pro .phead, body.pro .brief-time, body.pro .qinfo, body.pro #bigList h3, bo
 }
 body.pro .chip, body.pro .arrow { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
 body.pro .title, body.pro #menu .title { -webkit-text-stroke-width: 0; text-shadow: none; color: var(--accent); letter-spacing: -0.01em; }
-body.pro .title .beta { color: #5b6b82; }
 body.pro .tag, body.pro .credit, body.pro .foot { color: #4a5b74; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
 body.pro .card { border-width: 2px; border-radius: 6px; box-shadow: 0 8px 28px rgba(11, 37, 69, 0.28); }
 body.pro .chip { border-width: 2px; border-radius: 4px; }

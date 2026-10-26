@@ -326,8 +326,9 @@ function touchButton(el, down, up = () => {}) {
   el.addEventListener('pointercancel', release);
 }
 touchButton($('tJump'), () => { touch.climb = racers[0].heli || flying(); if (game.state === 'race') jump(racers[0]); }, () => { touch.climb = false; });
-touchButton(tItem, () => { if (game.state === 'race' && !doorAction(racers[0])) useItem(racers[0], touch.throttle < -0.5); });
+touchButton(tItem, () => { if (game.state === 'race') useItem(racers[0], touch.throttle < -0.5); });
 touchButton(tFries, () => throwFries(racers[0]));
+touchButton($('tAction'), () => { if (game.state === 'race') doorAction(racers[0]); }); // the action button: through the door, or the painting full screen (action.js)
 touchButton($('tSink'), () => { touch.sink = true; }, () => { touch.sink = false; });
 touchButton($('tShoot'), () => shoot(racers[0]));
 touchEl.addEventListener('contextmenu', e => e.preventDefault());

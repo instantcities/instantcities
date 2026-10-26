@@ -78,6 +78,46 @@
       ]
     },
     {
+      "id": "virgin-of-the-rocks", "title": "The Virgin of the Rocks", "local": "La Vierge aux rochers", "artist": "Leonardo da Vinci", "date": "c. 1483–1486",
+      "kind": "painting", "medium": "Oil on panel, transferred to canvas", "size": "199 × 122 cm", "museum": "louvre", "room": "Grande Galerie",
+      "commons": "Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg", "view": [20, 72, 13.37, 72],
+      "blurb": "The Virgin, the infant Christ, the little John the Baptist and an angel in a grotto of rocks and flowers.",
+      "text": [
+        "Leonardo was asked in 1483 by a confraternity in Milan to paint the middle of their altarpiece. In a shadowy grotto the Virgin puts her arm round the infant John the Baptist, who kneels to the infant Christ; an angel looks out at us and points.",
+        "The plants growing from the rocks are painted so exactly that botanists can name them. A quarrel over the price followed, and Leonardo painted a second version, now in the National Gallery in London; this first one went to the kings of France."
+      ]
+    },
+    {
+      "id": "oath-of-the-horatii", "title": "The Oath of the Horatii", "local": "Le Serment des Horaces", "artist": "Jacques-Louis David", "date": "1784",
+      "kind": "painting", "medium": "Oil on canvas", "size": "330 × 425 cm", "museum": "louvre", "room": "Grande Galerie",
+      "commons": "Jacques-Louis_David,_Le_Serment_des_Horaces.jpg", "view": [21, 132, 13.37, 132],
+      "blurb": "Three Roman brothers swear to their father to fight for Rome or die, their sisters weeping beside them.",
+      "text": [
+        "The story is from Livy: to settle a war between Rome and Alba, three brothers from each city were to fight it out. The Horatii hold out their arms to the swords their father raises, while the women give way to grief: one of the sisters is engaged to one of the brothers they will fight.",
+        "David painted it in Rome for King Louis XVI and showed it at the Salon of 1785. Its hard light, its bare columns and its few stern figures made it the model of the new classical style, and soon a call to duty for the Revolution."
+      ]
+    },
+    {
+      "id": "la-grande-odalisque", "title": "La Grande Odalisque", "artist": "Jean-Auguste-Dominique Ingres", "date": "1814",
+      "kind": "painting", "medium": "Oil on canvas", "size": "91 × 162 cm", "museum": "louvre", "room": "Grande Galerie",
+      "commons": "Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg", "view": [19, 132, 26.53, 132],
+      "blurb": "A nude in a harem looking back over her shoulder, her back impossibly long.",
+      "text": [
+        "Ingres painted her in Rome for Caroline Murat, Napoleon's sister and Queen of Naples, who never got it: the Murats fell with Napoleon the next year.",
+        "At the Salon of 1819 the critics laughed at the length of her back, two or three vertebrae too many, they said. Ingres stretched it on purpose, for the line, and the picture became one of the Louvre's best loved."
+      ]
+    },
+    {
+      "id": "the-coronation-of-napoleon", "title": "The Coronation of Napoleon", "local": "Le Sacre de Napoléon", "artist": "Jacques-Louis David", "date": "1805–1807",
+      "kind": "painting", "medium": "Oil on canvas", "size": "621 × 979 cm", "museum": "louvre", "room": "Salle des États (in the Louvre, the Salle Daru next door)",
+      "commons": "Jacques-Louis_David,_The_Coronation_of_Napoleon_edit.jpg", "view": [27.3, 182, 27.3, 169.37],
+      "blurb": "Napoleon crowns Josephine in Notre-Dame, the Pope seated behind him, on 2 December 1804.",
+      "text": [
+        "Napoleon had already set the crown on his own head; David chose the next moment, when the new Emperor crowns the kneeling Josephine, with Pope Pius VII raising his hand behind him. Some 150 people are in it, most of them real portraits.",
+        "David was Napoleon's First Painter, and took three years over it. Napoleon's mother is in the gallery in the middle although she stayed away from the ceremony. Almost ten metres wide, it is the second biggest painting in the Louvre, after the Wedding at Cana."
+      ]
+    },
+    {
       "id": "sunflowers", "title": "Sunflowers", "local": "Zonnebloemen", "artist": "Vincent van Gogh", "date": "1888",
       "kind": "painting", "medium": "Oil on canvas", "size": "92.1 × 73 cm", "museum": "national-gallery", "room": "The Impressionists’ room",
       "commons": "Vincent_Willem_van_Gogh_127.jpg", "view": [0, 57, 0, 63.47],
@@ -115,6 +155,56 @@
       "text": [
         "HMS Temeraire fought at Trafalgar in 1805, second in line behind Nelson’s Victory. In 1838 a steam tug towed her up the Thames to Rotherhithe to be broken up for timber. Turner painted her pale as a ghost behind the black tug, with the sun going down on the other side of the picture.",
         "He called it his darling and never sold it; it came to the nation with his bequest. In 2005 listeners of BBC Radio 4 voted it Britain’s greatest painting, and since 2020 it has been on the £20 note."
+      ]
+    },
+    {
+      "id": "the-ambassadors", "title": "The Ambassadors", "artist": "Hans Holbein the Younger", "date": "1533",
+      "kind": "painting", "medium": "Oil on oak", "size": "207 × 209.5 cm", "museum": "national-gallery", "room": "The Van Eyck room",
+      "commons": "Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg", "view": [-17, 15, -17, 21.53],
+      "blurb": "Two young Frenchmen at the court of Henry VIII, between them a table of globes and instruments, and a skull across the floor.",
+      "text": [
+        "Jean de Dinteville, the French ambassador in London, and his friend Georges de Selve, a bishop, stand either side of a shelf of things for measuring the heavens and the earth: globes, sundials, a quadrant, a lute with a broken string.",
+        "The grey smear across the floor is a skull, painted in steep perspective: it only takes its shape when you look from close to the frame on the right. Death waits behind all that learning. The National Gallery bought it in 1890."
+      ]
+    },
+    {
+      "id": "the-rokeby-venus", "title": "The Rokeby Venus", "local": "The Toilet of Venus", "artist": "Diego Velázquez", "date": "1647–1651",
+      "kind": "painting", "medium": "Oil on canvas", "size": "122.5 × 177 cm", "museum": "national-gallery", "room": "The Central Hall",
+      "commons": "Diego_Velázquez_-_Rokeby_Venus.jpg", "view": [1, 26.9, 6.53, 26.9],
+      "blurb": "Venus lying with her back to us, looking at herself in a mirror Cupid holds up.",
+      "text": [
+        "The only female nude by Velázquez that survives, rare in the Spain of the Inquisition. Her face in the mirror is a blur, so she stays nobody in particular.",
+        "It takes its name from Rokeby Park in Yorkshire, where it hung in the 19th century. Bought for the nation in 1906, it was slashed with a meat cleaver in 1914 by the suffragette Mary Richardson; the cuts were mended so well they hardly show."
+      ]
+    },
+    {
+      "id": "whistlejacket", "title": "Whistlejacket", "artist": "George Stubbs", "date": "c. 1762",
+      "kind": "painting", "medium": "Oil on canvas", "size": "292 × 246.4 cm", "museum": "national-gallery", "room": "The British room",
+      "commons": "Whistlejacket_by_George_Stubbs_edit.jpg", "view": [24.5, 15, 29.53, 15],
+      "blurb": "The Marquess of Rockingham's racehorse, rearing up life size against an empty background.",
+      "text": [
+        "Stubbs had spent eighteen months dissecting horses to learn how they are made, and here painted an Arabian stallion at full size, rearing, with nothing round it at all.",
+        "Whether a rider and a landscape were meant to follow is still argued about. The National Gallery bought it in 1997, and it hangs at the end of a long view, so the horse seems to rise over the visitors."
+      ]
+    },
+    {
+      "id": "bathers-at-asnieres", "title": "Bathers at Asnières", "local": "Une Baignade, Asnières", "artist": "Georges Seurat", "date": "1884",
+      "kind": "painting", "medium": "Oil on canvas", "size": "201 × 300 cm", "museum": "national-gallery", "room": "The Impressionists",
+      "commons": "Baigneurs_a_Asnieres.jpg", "view": [5, 46, 11.53, 46],
+      "blurb": "Young workmen resting on the bank of the Seine on a hot day, the factory chimneys of Clichy behind them.",
+      "text": [
+        "Seurat was 24 when he painted it, his first big picture, after dozens of small studies made on the spot. The Salon turned it down, and it was shown at the first Salon des Indépendants in 1884.",
+        "A few years later he went back to it and added small dots of pure colour here and there, in the boy's hat for one: the way of painting, pointillism, he went on to invent."
+      ]
+    },
+    {
+      "id": "the-water-lily-pond", "title": "The Water-Lily Pond", "artist": "Claude Monet", "date": "1899",
+      "kind": "painting", "medium": "Oil on canvas", "size": "88.3 × 93.1 cm", "museum": "national-gallery", "room": "The Impressionists",
+      "commons": "Claude_Monet,_The_Water-Lily_Pond_(National_Gallery,_London).jpg", "view": [7, 58, 11.53, 58],
+      "blurb": "The Japanese bridge over the lily pond in Monet's garden at Giverny.",
+      "text": [
+        "Monet dug the pond himself in 1893, turning a little river through his garden at Giverny, and put a wooden footbridge in the Japanese style over it.",
+        "In 1899 he painted the bridge a dozen times, from almost the same spot. For the rest of his life the lilies on that water were nearly all he painted."
       ]
     },
     {
@@ -178,6 +268,36 @@
       ]
     },
     {
+      "id": "the-annunciation", "title": "The Annunciation", "local": "Annunciazione", "artist": "Leonardo da Vinci", "date": "c. 1472–1476",
+      "kind": "painting", "medium": "Oil and tempera on panel", "size": "98 × 217 cm", "museum": "uffizi", "room": "The Botticelli room",
+      "commons": "Leonardo_da_Vinci_-_Annunciazione_-_Google_Art_Project.jpg", "view": [-20.45, 63, -20.45, 56.47],
+      "blurb": "The angel Gabriel kneels in a garden to tell the Virgin she will bear a son.",
+      "text": [
+        "Leonardo painted it in his early twenties, still in the workshop of his master Verrocchio. Gabriel's wings were first painted after a real bird's; another hand made them longer later.",
+        "It came to the Uffizi in 1867 from a monastery near Florence, as a Ghirlandaio. Only in 1869 did critics recognise the young Leonardo in it."
+      ]
+    },
+    {
+      "id": "venus-of-urbino", "title": "Venus of Urbino", "local": "Venere di Urbino", "artist": "Titian", "date": "1538",
+      "kind": "painting", "medium": "Oil on canvas", "size": "119 × 165 cm", "museum": "uffizi", "room": "The Botticelli room",
+      "commons": "Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg", "view": [-13, 79, -7.37, 79],
+      "blurb": "A young woman lying on a bed looks straight out at us, her little dog asleep at her feet, two maids at a chest behind.",
+      "text": [
+        "Titian painted it for Guidobaldo della Rovere, soon Duke of Urbino, who called it simply the naked woman. The maids looking for her clothes in the chest and the sleeping dog make it a bedroom in Venice rather than a goddess's grove.",
+        "Mark Twain called it the vilest picture in the world; Manet answered it with his Olympia in 1863, the same pose, the same frank look."
+      ]
+    },
+    {
+      "id": "medusa", "title": "Medusa", "artist": "Caravaggio", "date": "c. 1597",
+      "kind": "painting", "medium": "Oil on canvas on a wooden shield", "size": "60 × 55 cm", "museum": "uffizi", "room": "The Botticelli room",
+      "commons": "Caravaggio_-_Medusa_-_Google_Art_Project.jpg", "view": [-11.5, 61, -7.37, 61],
+      "blurb": "The Gorgon's head at the moment Perseus cuts it off, screaming, snakes for hair, on a round parade shield.",
+      "text": [
+        "Cardinal Francesco Maria del Monte had it made as a gift for Ferdinando I de' Medici, Grand Duke of Tuscany: a ceremonial shield, the monster whose look turned men to stone painted on it.",
+        "The shield is convex, but Caravaggio painted it as if it were flat and dished, the head standing out from it, still alive, blood spurting. It is said to be his own face."
+      ]
+    },
+    {
       "id": "sir-john-hawkwood", "title": "Sir John Hawkwood", "local": "Monumento equestre a Giovanni Acuto", "artist": "Paolo Uccello", "date": "1436",
       "kind": "fresco", "medium": "Fresco, moved onto canvas", "size": "820 × 515 cm", "museum": "duomo", "room": "North aisle",
       "commons": "Paolo_uccello,_Monumento_equestre_di_John_Hawkwood,_1436,_01.JPG", "view": [-12, -62.8, -18.04, -62.8],
@@ -219,6 +339,16 @@
       ]
     },
     {
+      "id": "the-delivery-of-the-keys", "title": "The Delivery of the Keys", "local": "Consegna delle chiavi", "artist": "Pietro Perugino", "date": "1481–1482",
+      "kind": "fresco", "medium": "Fresco", "size": "335 × 550 cm", "museum": "sistina", "room": "The north wall",
+      "commons": "Entrega_de_las_llaves_a_San_Pedro_(Perugino).jpg", "view": [0, -12.7, -7.93, -12.7],
+      "blurb": "Christ hands Saint Peter the keys of heaven in a great paved square, a domed temple and two triumphal arches behind them.",
+      "text": [
+        "Pope Sixtus IV had the walls of his new chapel painted in 1481–1482 by the best painters of the day, Botticelli, Ghirlandaio, Rosselli and Perugino among them, decades before Michelangelo's ceiling: the lives of Moses on one side and of Christ on the other.",
+        "In Perugino's the keys of the Church are given in a vast piazza drawn in perfect perspective; the arches are copies of Rome's Arch of Constantine. His pupil Raphael borrowed the temple for his Marriage of the Virgin."
+      ]
+    },
+    {
       "id": "the-night-watch", "title": "The Night Watch", "local": "De Nachtwacht", "artist": "Rembrandt van Rijn", "date": "1642",
       "kind": "painting", "medium": "Oil on canvas", "size": "379.5 × 453.5 cm", "museum": "rijksmuseum", "room": "The Night Watch Gallery",
       "commons": "La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg", "view": [0, 85, 0, 94.47],
@@ -226,6 +356,46 @@
       "text": [
         "The civic guard of Captain Frans Banninck Cocq commissioned it for the hall of their guild house. Instead of a neat row of portraits, Rembrandt painted them in the commotion of moving off: the captain in black with a red sash giving the order, his lieutenant in pale gold, a drummer, muskets going off, and a girl in gold lit up among them with a chicken at her belt.",
         "It is not a night scene: the varnish darkened over the centuries and gave it its name. In 1715 it was cut down on all four sides to fit a wall of the town hall. Since 2019 it has been restored in a glass room in the museum, where visitors can watch the work."
+      ]
+    },
+    {
+      "id": "the-threatened-swan", "title": "The Threatened Swan", "local": "De bedreigde zwaan", "artist": "Jan Asselijn", "date": "c. 1650",
+      "kind": "painting", "medium": "Oil on canvas", "size": "144 × 171 cm", "museum": "rijksmuseum", "room": "The Gallery of Honour",
+      "commons": "De_bedreigde_zwaan_Rijksmuseum_SK-A-4.jpeg", "view": [-1, 4.8, -6.53, 4.8],
+      "blurb": "A swan spreads its wings to defend its nest against a dog.",
+      "text": [
+        "Asselijn painted a swan defending its eggs, life size. Later someone added words that made it a political cartoon: the swan is the Grand Pensionary Johan de Witt, the egg Holland, the dog the enemy of the state.",
+        "In 1800 it was the very first painting bought by the national art gallery that grew into the Rijksmuseum; it hangs first in the Gallery of Honour."
+      ]
+    },
+    {
+      "id": "the-little-street", "title": "The Little Street", "local": "Het straatje", "artist": "Johannes Vermeer", "date": "c. 1658",
+      "kind": "painting", "medium": "Oil on canvas", "size": "54.3 × 44 cm", "museum": "rijksmuseum", "room": "The Gallery of Honour",
+      "commons": "Johannes_Vermeer_-_Gezicht_op_huizen_in_Delft,_bekend_als_'Het_straatje'_-_Google_Art_Project.jpg", "view": [2.5, 35.6, 6.53, 35.6],
+      "blurb": "A brick house in Delft, a woman sewing in the doorway, another bent over a barrel in the alley beside it.",
+      "text": [
+        "One of only two views of Delft Vermeer painted. In 2015 a register of what the house owners paid for dredging the canals, from 1667, showed which houses they were: on the Vlamingstraat, where his aunt lived and sold tripe.",
+        "Henri Deterding, the oil man, gave it to the Rijksmuseum in 1921."
+      ]
+    },
+    {
+      "id": "the-milkmaid", "title": "The Milkmaid", "local": "Het melkmeisje", "artist": "Johannes Vermeer", "date": "c. 1660",
+      "kind": "painting", "medium": "Oil on canvas", "size": "45.5 × 41 cm", "museum": "rijksmuseum", "room": "The Gallery of Honour",
+      "commons": "Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg", "view": [-2.5, 43.3, -6.53, 43.3],
+      "blurb": "A kitchen maid pours milk into a bowl by the window, the bread on the table catching the light.",
+      "text": [
+        "Nothing happens: a maid, absorbed, pours a thin stream of milk, likely for bread pudding. Vermeer made the crust of the bread glitter with dots of light, and painted out a basket of clothes he had first put by the wall.",
+        "It is small, only 45 cm high. The state bought it for the Rijksmuseum in 1908, after a debate in parliament over its price."
+      ]
+    },
+    {
+      "id": "the-jewish-bride", "title": "The Jewish Bride", "local": "Het Joodse bruidje", "artist": "Rembrandt", "date": "c. 1665–1669",
+      "kind": "painting", "medium": "Oil on canvas", "size": "121.5 × 166.5 cm", "museum": "rijksmuseum", "room": "The Gallery of Honour",
+      "commons": "Rembrandt_Harmensz._van_Rijn_-_Het_Joodse_bruidje.jpg", "view": [2, 58.7, 6.53, 58.7],
+      "blurb": "A man lays his hand tenderly on a woman's breast, her hand over his.",
+      "text": [
+        "Nobody knows who they are: a couple of Rembrandt's day dressed up as Isaac and Rebecca from the Bible, perhaps. The name was only given in the 19th century.",
+        "Rembrandt laid the paint of the man's golden sleeve on thick with a palette knife. Van Gogh, seeing it in 1885, said he would give ten years of his life to sit before it for a fortnight with only a crust of dry bread."
       ]
     },
     {
@@ -259,6 +429,46 @@
       ]
     },
     {
+      "id": "the-third-of-may-1808", "title": "The Third of May 1808", "local": "El tres de mayo de 1808 en Madrid", "artist": "Francisco de Goya", "date": "1814",
+      "kind": "painting", "medium": "Oil on canvas", "size": "268 × 347 cm", "museum": "prado", "room": "The Black Paintings",
+      "commons": "El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg", "view": [16.95, 20, 16.95, 27.53],
+      "blurb": "French soldiers shoot the people of Madrid in the night, a man in a white shirt flinging up his arms before them.",
+      "text": [
+        "On 2 May 1808 Madrid rose against Napoleon's army; that night and the next morning the French shot the prisoners they had taken. Six years later, when the French had gone, Goya painted the uprising and the executions.",
+        "The soldiers are a faceless row of backs and rifles; the man they aim at, lit by a lantern on the ground, holds out his arms like Christ on the cross, a wound in his palm. Its truth about war has been followed ever since, by Manet and by Picasso's Guernica."
+      ]
+    },
+    {
+      "id": "the-nobleman-with-his-hand-on-his-chest", "title": "The Nobleman with his Hand on his Chest", "local": "El caballero de la mano en el pecho", "artist": "El Greco", "date": "c. 1580",
+      "kind": "painting", "medium": "Oil on canvas", "size": "81.8 × 66.1 cm", "museum": "prado", "room": "The Central Gallery",
+      "commons": "El_caballero_de_la_mano_en_el_pecho.jpg", "view": [-2, 22.9, -6.53, 22.9],
+      "blurb": "A gentleman of Toledo in black with a white ruff, his hand laid on his heart as if swearing an oath.",
+      "text": [
+        "Painted soon after El Greco came to Toledo from Italy, it is the Spanish gentleman as he wished to be seen: sober, proud, his sword hilt showing, his long fingers spread on his chest.",
+        "Who he was is not known. A cleaning in 1996 took off old dark varnish and repaint and showed a grey background and a lighter face, to some people's dismay."
+      ]
+    },
+    {
+      "id": "the-triumph-of-death", "title": "The Triumph of Death", "local": "El triunfo de la Muerte", "artist": "Pieter Bruegel the Elder", "date": "c. 1562",
+      "kind": "painting", "medium": "Oil on panel", "size": "117 × 162 cm", "museum": "prado", "room": "The Bosch room",
+      "commons": "The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg", "view": [16.95, 57, 16.95, 52.47],
+      "blurb": "An army of skeletons sweeps across a burning land, sparing nobody, king or peasant.",
+      "text": [
+        "Bruegel learnt from Bosch, and here the dead overrun the living: they herd people into a great coffin, ring a bell, cut a pilgrim's throat, empty the king's barrels of gold.",
+        "Only the two lovers in the corner, singing to a lute, have not noticed yet, and a skeleton plays along behind them. It has been in Spain since the 17th century and in the Prado since 1827."
+      ]
+    },
+    {
+      "id": "the-descent-from-the-cross", "title": "The Descent from the Cross", "local": "El Descendimiento", "artist": "Rogier van der Weyden", "date": "c. 1435",
+      "kind": "painting", "medium": "Oil on oak panel", "size": "204.5 × 261.5 cm", "museum": "prado", "room": "The Bosch room",
+      "commons": "Weyden_Deposition.jpg", "view": [21, 58, 25.53, 60],
+      "blurb": "Christ's body taken down from the cross, his mother fainting in the same curve as his body, ten figures as if carved in a gilded shrine.",
+      "text": [
+        "Van der Weyden painted it for the chapel of the crossbowmen's guild in Leuven: tiny crossbows hang in the corners of the gold tracery. The figures stand close in a shallow box, like a carved altarpiece come to life.",
+        "Mary of Hungary bought it, and her nephew Philip II took it to Spain. The Virgin falls in a swoon that echoes her son's body, and the tears on the faces are painted one by one."
+      ]
+    },
+    {
       "id": "the-tower-of-babel", "title": "The Tower of Babel", "artist": "Pieter Bruegel the Elder", "date": "1563",
       "kind": "painting", "medium": "Oil on oak panel", "size": "114 × 155 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
       "commons": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg", "view": [33, 43, 39.47, 43],
@@ -286,6 +496,26 @@
       "text": [
         "The guests crowd round a long table in a barn, the bride sitting smugly under a paper crown in front of a green cloth. Two men carry in bowls of porridge on a door taken off its hinges, a bagpiper looks hungrily at the food and a child in a big hat licks a plate clean.",
         "Nobody is sure which one is the groom. Bruegel painted the people of the Flemish countryside like this, eating, dancing and fighting, so often that he was called Peasant Bruegel."
+      ]
+    },
+    {
+      "id": "childrens-games", "title": "Children's Games", "local": "Die Kinderspiele", "artist": "Pieter Bruegel the Elder", "date": "1560",
+      "kind": "painting", "medium": "Oil on oak panel", "size": "118 × 161 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
+      "commons": "Pieter_Bruegel_the_Elder_-_Children’s_Games_-_Google_Art_Project.jpg", "view": [18.9, 47, 18.9, 53.53],
+      "blurb": "A whole town given over to children at play, some 80 games at once.",
+      "text": [
+        "Some two hundred children fill a square and a street: hoops, stilts, leapfrog, blind man's buff, knucklebones, playing at weddings and at church. Historians have counted around eighty games, many still played.",
+        "Archduke Ernst of Austria bought it in 1594, and it has been in the Habsburgs' collection, now this museum, ever since."
+      ]
+    },
+    {
+      "id": "the-art-of-painting", "title": "The Art of Painting", "local": "Die Malkunst", "artist": "Johannes Vermeer", "date": "c. 1666–1668",
+      "kind": "painting", "medium": "Oil on canvas", "size": "120 × 100 cm", "museum": "kunsthistorisches", "room": "The Bruegel room",
+      "commons": "Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg", "view": [18.9, 39, 18.9, 32.47],
+      "blurb": "A painter seen from behind paints a young woman dressed as Clio, the muse of history, a great map of the Netherlands on the wall.",
+      "text": [
+        "Behind a heavy curtain we look over a painter's shoulder as he begins the laurel wreath of his model, Clio, with her trumpet and her book. The map shows the Netherlands still whole, before they split.",
+        "Vermeer kept it all his life, and his widow tried to save it from his creditors. Hitler bought it in 1940 for the museum he planned in Linz; after the war it came to this museum."
       ]
     },
     {

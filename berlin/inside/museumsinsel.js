@@ -8,7 +8,7 @@
 // Game metres, x across and z along; each building's door out at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, bench, plinth, rope, vitrine, roundWall, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, framed, bench, plinth, rope, vitrine, roundWall, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { frieze, ishtar, egyptWall } from '../../core/js/inside/art.js';
 import { nefertiti, pergamonAltar, sarcophagus, roman, ramesses } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -69,6 +69,7 @@ export function makeNeuesMuseum() {
     ramesses(p, 31, -2, -Math.PI / 2, 1.1);
     for (const x of [16, 24]) { const h = plinth(p, x, C.z1 - 2, 1.4, 1.4, 1.0, 0x5a5a5e); roman(p, x, h, C.z1 - 2, 2.2, Math.PI, 1); }
   }
+  g.add(wanderers(p, 13));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: -16 + 1.6 } };
 }
@@ -114,6 +115,7 @@ export function makePergamon() {
     p.block(0, gz + 1.9, 4, 0.3);
     g.add(crowd(0, gz - 2, 12, 5, 11, Math.PI * 0.6, Math.PI * 1.4, 119));
   }
+  g.add(wanderers(p, 13));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: -14 + 1.6 } };
 }

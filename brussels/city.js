@@ -11,20 +11,19 @@
 //                    `node tools/osm_map.mjs brussels`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs brussels`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs brussels`
-//   tour-hotel-de-ville.js the Hôtel de Ville's tower, modelled by hand in place of the map's pieces of it
-//   manneken-pis.js  the Manneken Pis, modelled by hand
-// No sights or fronts yet: empty lists for those, and for what only Ghent has.
+// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
-import { TOUR } from './tour-hotel-de-ville.js';
-import { MANNEKEN_PIS } from './manneken-pis.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...TOUR, ...MANNEKEN_PIS];
+import { HOTEL_DE_VILLE } from './hotel-de-ville.js';
+import { GRAND_PLACE } from './grand-place.js';
+import { BRUSSELS_MONUMENTS } from './monuments.js';
+export const MONUMENTS = [...HOTEL_DE_VILLE, ...GRAND_PLACE, ...BRUSSELS_MONUMENTS];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

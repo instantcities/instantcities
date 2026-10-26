@@ -25,8 +25,9 @@
 // annex(INSIDE, MAP) puts them on the map: the monuments to build, the cards, the doors, and which
 // one a spot is in.
 
-// a soft warm light from all round, the dark of the far end of a hall for the fog
-export const LIGHT = { hemi: [0xfff2dc, 0xb5a692, 2.1], sun: [0xffe6c0, 0.4], fog: [60, 260], horizon: 0x3a3028 };
+// a soft warm light from all round and the day's from above (it throws the shadows: game/indoors.js),
+// the dark of the far end of a hall for the fog
+export const LIGHT = { hemi: [0xfff2dc, 0xb5a692, 2.1], sun: [0xffe6c0, 0.85], fog: [60, 260], horizon: 0x3a3028 };
 
 const GAP = 2000; // game metres from the city's east edge to the row (past what a camera draws)
 const ROW = 320; // and from one building to the next

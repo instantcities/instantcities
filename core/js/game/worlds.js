@@ -13,7 +13,7 @@ import { Bikers, Cyclists } from '../bikers.js';
 import { LOW_POWER, SIGHT } from '../device.js';
 import { packNormals, tileUp } from '../tiles.js';
 import { People, alongside, busyPaths } from '../people.js';
-import { BUSY, QUESTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, MONUMENTS, TOUR } from '../city.js';
+import { BUSY, QUESTS, SIGHTS, SIGHT_PAGES, THEME, RUNS, CHARACTERS, MONUMENTS, TOUR } from '../city.js';
 import { inPolygon } from '../collide.js';
 import { buildRelief } from '../relief.js';
 import { fitToHills } from '../terrain.js';
@@ -33,8 +33,8 @@ export const heliMode = () => (questing() && !!QUESTS[game.mission - 1]?.heli) |
 export const freeStick = () => exploring() || (questing() && (!!QUESTS[game.mission - 1]?.zombies || !!QUESTS[game.mission - 1]?.heli)); // the touch stick rides forward and back itself, no automatic forward (exploring, and the zombie missions)
 export const touring = () => game.kind === 'tour';
 // A sight's own page, where the city has them (SIGHT_PAGES in its city.js: the address the sight's id
-// goes after). '' when the city has no such pages.
-export const sightPage = id => (SIGHT_PAGES ? `${SIGHT_PAGES}${id}/` : '');
+// goes after), or the sight's own `page` where it has one ('' for none). '' when the city has no such pages.
+export const sightPage = id => SIGHTS.find(s => s.id === id)?.page ?? (SIGHT_PAGES ? `${SIGHT_PAGES}${id}/` : '');
 export const flying = () => touring() && game.tourMode === 'fly'; // the tour flown yourself (dragonfly.js)
 export const touringNow = () => game.state === 'tour' || (game.state === 'paused' && game.resumeState === 'tour'); // flying the tour, or paused in it
 export const aerial = () => game.state === 'menu' || touringNow(); // the camera flies over the city, nobody rides it

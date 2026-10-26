@@ -32,6 +32,12 @@ const fill = (html, page, file) => html
     return typeof page[k] === 'string' ? page[k] : JSON.stringify(page[k]);
   });
 
+// every city with a game, in the site's order (_data/cities.yml): the menu's city picker, {{city_links}}
+const playable = [...fs.readFileSync(path.join(ROOT, '_data', 'cities.yml'), 'utf8').matchAll(/^- id: (\S+)\n {2}name: (.+)$/gm)]
+  .map(([, id, name]) => ({ id, name: name.replace(/^["']|["']$/g, '') }))
+  .filter(c => fs.existsSync(path.join(ROOT, c.id, 'page.json')));
+const cityLinks = id => playable.map(c => `<a class="chip${c.id === id ? ' on' : ''}" role="option" href="../../${c.id}/play/">${c.name}</a>`).join('');
+
 for (const id of cities) {
   const dir = path.join(ROOT, id), play = path.join(dir, 'play');
   fs.mkdirSync(play, { recursive: true });
@@ -41,6 +47,7 @@ for (const id of cities) {
   // city: the name without "Instant", big in the menu's title under a small "Instant Cities"
   const page = { style: '', site: SITE, loader_jokes: [], ...JSON.parse(fs.readFileSync(path.join(dir, 'page.json'), 'utf8')), loader: fs.readFileSync(path.join(dir, 'loader.html'), 'utf8') };
   page.city ??= page.name.replace(/^Instant /, '');
+  page.city_links = cityLinks(id);
   const pages = [['game.html', 'index.html'], ['dev.html', 'dev.html'], ['places.html', 'places.html']];
   if (fs.existsSync(path.join(dir, 'spots.json'))) pages.push(['facade-lab.html', 'facade-lab.html']);
   for (const [from, to] of pages) {
