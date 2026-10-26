@@ -8,9 +8,9 @@
 // south wall, the corridor going north from it.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, plinth, bench, rope, visitors, crowd, paintedVault } from '../../core/js/inside/rooms.js';
+import { hall, skylight, framed, plinth, bench, rope, visitors, crowd, paintedVault, wanderers } from '../../core/js/inside/rooms.js';
 import { birthOfVenus, primavera, arnoView, grotesques, oldMaster, masterSize } from '../../core/js/inside/art.js';
-import { venusDeMilo, roman, bust } from '../../core/js/inside/statues.js';
+import { venusDeMedici, roman, bust } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
 const TINT = { stone: 0xdcd4c4, pier: 0xd4ccba, vault: 0xf2ecde, rib: 0xd9cfba, wall: 0xece6d8 };
@@ -93,7 +93,7 @@ export function makeUffizi() {
     }
     p.glow.add(new THREE.CylinderGeometry(1.0, 1.0, 0.4, 8), 0xfff4dc, x, h + r * 0.75 - 0.1, z); // the lantern
     const vh = plinth(p, x, z, 1.5, 1.5, 1.3, 0xd8d0c0);
-    venusDeMilo(p, x, vh, z, 2.2, Math.PI / 2);
+    venusDeMedici(p, x, vh, z, 2.2, Math.PI); // facing the way in
     rope(p, [x - 2.4, z - 2.4], [x + 2.4, z - 2.4]);
   }
 
@@ -114,6 +114,7 @@ export function makeUffizi() {
     g.add(visitors([[B.x0 + 5, 70, -Math.PI / 2], [B.x0 + 6.5, 67, -Math.PI / 2 + 0.3]], 93));
   }
 
+  g.add(wanderers(p, 17));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: ENTRY.z0 + 1.6 } };
 }

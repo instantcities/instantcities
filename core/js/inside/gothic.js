@@ -92,7 +92,7 @@ export function masonry(kind = 'ashlar', tile = 3) {
 }
 
 // plain vertex-coloured finishes for everything that is not stone
-let DAYLIGHT = null;
+let DAYLIGHT = null, SCULPT = null;
 const FINISH = {};
 export const finish = (rough = 0.8, metal = 0, emissive = 0) => (FINISH[`${rough}:${metal}:${emissive}`] ??= new THREE.MeshStandardMaterial({ vertexColors: true, roughness: rough, metalness: metal, flatShading: true, emissive: new THREE.Color(emissive), side: THREE.DoubleSide }));
 // like it, wrapped in oak boards (doors)
@@ -207,6 +207,7 @@ export class Parts {
     this.glow = new Kit(); // candle flames and lamps: lit from within
     this.daylight = new Kit(); // skylights: the day outside, as bright as its colour, unlit
     this.dark = new Kit(); // black marble, bronze, iron
+    this.sculpt = new Kit(); // carved statues (sculpt.js): polished marble, shaded smooth
     this.leaves = []; // doors: geometries in oak
     this.pictures = []; // hung pictures: { tex, w, h, x, y, z, ry, bright }
     this.glass = []; // the glass of the cases: boxes { w, h, d, x, y, z }
@@ -378,6 +379,7 @@ export class Parts {
     add(this.wood, finish(0.7));
     add(this.marble, finish(0.28, 0.05));
     add(this.dark, finish(0.35, 0.3));
+    add(this.sculpt, SCULPT ??= new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.42, metalness: 0, side: THREE.DoubleSide }));
     add(this.glow, finish(0.6, 0, 0xffd070));
     add(this.daylight, DAYLIGHT ??= new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.DoubleSide }));
     if (this.leaves.length) g.add(new THREE.Mesh(mergeGeometries(this.leaves), oakMat()));
