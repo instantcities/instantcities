@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/london/landmark/horse-guards/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/londres/monument/horse-guards/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/londen/bezienswaardigheid/horse-guards/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-67/en/london/landmark/horse-guards/", "fr": "/preview/pr-67/fr/londres/monument/horse-guards/", "nl": "/preview/pr-67/nl/londen/bezienswaardigheid/horse-guards/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-67/en/london/landmark/horse-guards/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-67/en/london/landmark/horse-guards/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-67/fr/londres/monument/horse-guards/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-67/nl/londen/bezienswaardigheid/horse-guards/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

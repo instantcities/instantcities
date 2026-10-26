@@ -1,0 +1,479 @@
+<!doctype html>
+<!-- brussels: made from core/game.html by `node tools/pages.mjs`, do not edit by hand. -->
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1d1a17">
+  <title>Instant Brussels: a free virtual 3D tour and game of Brussels</title>
+  <meta name="description" content="Take a free virtual 3D tour of the centre of Brussels in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.">
+  <link rel="canonical" href="https://instantcities.net/brussels/play/">
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Instant Cities">
+  <meta property="og:url" content="https://instantcities.net/brussels/play/">
+  <meta property="og:title" content="Instant Brussels: a virtual 3D tour of Brussels">
+  <meta property="og:description" content="Cycle, walk or gallop through Brussels in your browser. Explore or race, alone or with two. Free.">
+  <meta property="og:image" content="https://instantcities.net/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="nl_BE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Instant Brussels: a virtual 3D tour of Brussels">
+  <meta name="twitter:description" content="Cycle, walk or gallop through Brussels in your browser. Explore or race, alone or with two. Free.">
+  <meta name="twitter:image" content="https://instantcities.net/og-image.jpg">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Instant Brussels",
+      "url": "https://instantcities.net/brussels/play/",
+      "image": "https://instantcities.net/og-image.jpg",
+      "description": "A free virtual 3D tour and browser game set in the centre of Brussels, Belgium: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+      "genre": ["Racing", "Open world"],
+      "gamePlatform": "Web browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "inLanguage": ["en", "nl"],
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "contentLocation": { "@type": "City", "name": "Brussels" },
+      "author": { "@type": "Person", "name": "Wouter", "url": "https://woutersmet.com/" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lilita+One&family=Nunito:wght@700;800;900&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../core/style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+        "city": "../city.js"
+      }
+    }
+  </script>
+  <style>:root { --accent: #1f4e9c; --accent-soft: #dce5f4; --gold: #f2c230; --sky: #e2e7ee; --skyline: #a2afc2; } .tag { color: #233f6e; }</style>
+  <!-- ?watch, the tour on its own for the site's pages (js/game/settings.js): marked before anything shows -->
+  <script>
+    const watch = new URLSearchParams(location.search).get('watch');
+    if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
+  </script>
+  <!-- Google Analytics (gtag.js), only on the real site (not on localhost or the Netlify previews) and not
+       in the ?watch tour that the site's own pages show, which counts its page already -->
+  <script>
+    if (location.hostname === 'instantcities.net' && watch == null) {
+      const ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-GPP2SZPD0E';
+      document.head.append(ga);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-GPP2SZPD0E');
+    }
+  </script>
+</head>
+<body class="booting">
+  <div id="loader" aria-live="polite">
+    <!-- A bike riding past Brussels: the Town Hall’s tower over the Grand-Place, its guild houses and their gables -->
+    <div class="loader-scene" aria-hidden="true">
+      <svg class="loader-skyline" viewBox="0 0 960 110">
+        <defs>
+          <g id="loaderCity">
+            <path fill="currentColor" fill-rule="evenodd" d="
+              M0 110V66h30v44zM-1 66h32l-6-6H5z
+              M36 110V60h22v50zM36 60h3v-5h3v-5h3v-5h4v5h3v5h3v5h3z M60 110V58h20v52zM59 58c0-8 5-10 11-14 6 4 11 6 11 14z
+              M90 110V64h90v46zM90 64h90v-4H90zM124 60V36h22v24zM126 36V22h18v14zM128 22l7-22 7 22z
+              M190 110V60h22v50zM190 60h3v-5h3v-5h3v-5h4v5h3v5h3v5h3z M214 110V56h22v54zM213 56c0-8 5-10 12-14 6 4 11 6 11 14z M238 110V60h22v50zM238 60h3v-5h3v-5h3v-5h4v5h3v5h3v5h3z
+              M266 110V68h54v42zM264 68h58l-6-6h-46z"/>
+            <path fill="var(--sky)" d="
+              M6 92v-8h5v8zM18 92v-8h5v8zM40 80v-6h4v6zM48 80v-6h4v6zM64 76v-6h4v6zM72 76v-6h4v6z
+              M96 90v-12a3 3 0 0 1 6 0v12zM106 90v-12a3 3 0 0 1 6 0v12zM116 90v-12a3 3 0 0 1 6 0v12zM148 90v-12a3 3 0 0 1 6 0v12zM158 90v-12a3 3 0 0 1 6 0v12zM168 90v-12a3 3 0 0 1 6 0v12z
+              M131 54v-10h8v10zM131 32v-6h8v6zM194 80v-6h4v6zM202 80v-6h4v6zM219 74v-6h4v6zM227 74v-6h4v6zM242 80v-6h4v6zM250 80v-6h4v6z
+              M274 92v-8h5v8zM288 92v-8h5v8zM302 92v-8h5v8z"/>
+          </g>
+        </defs>
+        <use href="#loaderCity"/><use href="#loaderCity" x="320"/><use href="#loaderCity" x="640"/>
+      </svg>
+      <div class="loader-road"></div>
+      <svg class="loader-bike" viewBox="0 -30 80 80">
+        <g class="loader-thigh" fill="none" stroke="#16243d" stroke-width="4" stroke-linecap="round">
+          <path d="M31 9L36.3 24.1"/>
+          <g class="loader-shin"><path d="M36.3 24.1L38 41"/><path class="loader-foot" d="M38 41h3"/></g>
+        </g>
+        <g transform="translate(16 34)"><g class="loader-wheel">
+          <circle r="12.5" fill="none" stroke="#1d1a17" stroke-width="3"/>
+          <g stroke="#1d1a17" stroke-width="1.4"><path d="M0 0L12 0"/><path d="M0 0L-6 10.4"/><path d="M0 0L-6 -10.4"/><path d="M0 0L-12 0M0 0L6 -10.4M0 0L6 10.4"/></g>
+          <circle r="2" fill="#1d1a17"/>
+        </g></g>
+        <g transform="translate(64 34)"><g class="loader-wheel">
+          <circle r="12.5" fill="none" stroke="#1d1a17" stroke-width="3"/>
+          <g stroke="#1d1a17" stroke-width="1.4"><path d="M0 0L12 0"/><path d="M0 0L-6 10.4"/><path d="M0 0L-6 -10.4"/><path d="M0 0L-12 0M0 0L6 -10.4M0 0L6 10.4"/></g>
+          <circle r="2" fill="#1d1a17"/>
+        </g></g>
+        <g fill="none" stroke="#e4572e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 34 38 34 31 15M16 34 31 15 56 15M38 34 58 11 64 34"/>
+        </g>
+        <path d="M58 11 55 6h5" fill="none" stroke="#1d1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M25 13c0-2 3-2.5 6-2.5s6 .5 6 2c0 1.2-2 1.5-6 1.5s-6-.2-6-1z" fill="#1d1a17"/>
+        <path d="M25 13c0-2 3-2.5 6-2.5s6 .5 6 2c0 1.2-2 1.5-6 1.5s-6-.2-6-1z" fill="#1d1a17"/>
+        <g transform="translate(38 34)"><g class="loader-crank" stroke="#1d1a17" stroke-width="2.5" stroke-linecap="round">
+          <path d="M0 0 0 -7M0 0 0 7"/><path d="M-3 -7h6M-3 7h6"/>
+          <circle r="3.5" fill="#fffaf0" stroke-width="2"/>
+        </g></g>
+        <g class="loader-thigh near" fill="none" stroke="#23395d" stroke-width="4" stroke-linecap="round">
+          <path d="M31 9L36.3 24.1"/>
+          <g class="loader-shin"><path d="M36.3 24.1L38 41"/><path class="loader-foot" d="M38 41h3"/></g>
+        </g>
+        <path d="M31 8 40 -8" stroke="#23395d" stroke-width="10" stroke-linecap="round"/>
+        <path d="M33 4h6" stroke="#1d1a17" stroke-width="2"/>
+        <path d="M41 -6 48 1 56 6" fill="none" stroke="#23395d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="56.5" cy="6" r="2" fill="#f2c49b"/>
+        <circle cx="44" cy="-15" r="6.5" fill="#f2c49b"/>
+        <circle cx="50" cy="-14" r="2" fill="#e8806a"/>
+        <circle cx="46.5" cy="-17" r="1" fill="#1d1a17"/>
+        <path d="M44.5 -19.5 48 -19" stroke="#1d1a17" stroke-width="1.1" stroke-linecap="round"/>
+        <path d="M43 -11.5c2-2 5-2 7.5-1-.5 2-3 3-4.5 2-1 1-2.5 .5-3-1z" fill="#4a2c17"/>
+        <path d="M37 -19c0-6 4-8.5 8-8.5s7 1.5 7.5 5.5l-1 3z" fill="#23395d"/>
+        <path d="M44 -19.5h10.5c0 1.6-1.6 2.3-4 2.3H44z" fill="#16243d"/>
+        <circle cx="47" cy="-23.5" r="1.6" fill="var(--gold)"/>
+      </svg>
+    </div>
+    <div class="loader-title title"><span class="brandline">Instant Cities</span> <span class="cityname">Brussels</span></div>
+    <ol class="loader-steps" id="loaderSteps"></ol>
+    <div class="loader-build buildtag"></div>
+  </div>
+  <script>
+    // The loading screen's steps. This runs before the game's own scripts, so it carries its own
+    // words; main.js ticks the steps off with bootStep() as it gets through them.
+    (() => {
+      const WORDS = {
+        en: { download: 'Downloading the 3D engine and maps', horses: 'Saddling the horses', city: 'Building the city', paint: 'Drawing the first frame' },
+        nl: { download: '3D-motor en kaarten downloaden', horses: 'Paarden zadelen', city: 'De stad bouwen', paint: 'Eerste beeld tekenen' },
+      };
+      let lang = 'en';
+      try { lang = JSON.parse(localStorage.getItem('ghent3d.settings.v1'))?.lang || 'en'; } catch {}
+      const words = WORDS[lang] || WORDS.en, list = document.getElementById('loaderSteps');
+      // the last two steps are called after two of the city's funny lines, picked at random (a list,
+      // or one per language)
+      const told = [], jokes = (Array.isArray(told) ? told : told[lang] || told.en || []).map(j => [j, Math.random()]).sort((a, b) => a[1] - b[1]).map(j => j[0]);
+      const text = { ...words, city: jokes[0] || words.city, paint: jokes[1] || words.paint };
+      const items = Object.keys(WORDS.en).map(key => {
+        const li = document.createElement('li');
+        li.innerHTML = '<span class="mark"></span><span></span><small></small>';
+        li.children[1].textContent = text[key];
+        list.append(li);
+        return [key, li];
+      });
+      window.bootStep = key => {
+        const at = items.findIndex(([k]) => k === key);
+        items.forEach(([, li], i) => { li.classList.toggle('done', i < at); li.classList.toggle('now', i === at); });
+      };
+      bootStep('download');
+      // Which build this is (/build.json, filled in when the site is built): on the loading screen and
+      // in the small print under the menu, to see at a glance whether the latest one is live.
+      // (served as it is, unbuilt, it is no JSON: a local copy, 'dev')
+      fetch('/preview/pr-67/build.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({})).then(({ commit, time }) => {
+        const when = new Date(time), text = /^[0-9a-f]{7}$/.test(commit)
+          ? `build: ${commit}` + (isNaN(when) ? '' : ` · ${when.toLocaleString(lang, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`)
+          : 'build: dev';
+        const show = () => document.querySelectorAll('.buildtag').forEach(el => { el.textContent = el.closest('.legal') ? ` · ${text}` : text; });
+        if (document.readyState === 'loading') addEventListener('DOMContentLoaded', show); else show();
+      });
+      // How much has come in so far: the 3D engine, the game's code and the city maps are a few MB.
+      let bytes = 0;
+      const size = items[0][1].lastChild;
+      try {
+        new PerformanceObserver(list => {
+          for (const e of list.getEntries()) bytes += e.encodedBodySize || e.transferSize || 0;
+          size.textContent = (bytes / 1e6).toFixed(1).replace('.', lang === 'nl' ? ',' : '.') + ' MB';
+        }).observe({ type: 'resource', buffered: true });
+      } catch {}
+    })();
+  </script>
+  <noscript>
+    <h1>Instant Brussels</h1>
+    <p>Ride a bike, walk or gallop through a 3D Brussels in your browser. Turn on JavaScript to play.</p>
+  </noscript>
+  <canvas id="game"></canvas>
+  <div id="divider" class="hidden"></div>
+  <canvas id="minimap" class="hidden"></canvas>
+  <div id="streetbar" class="hidden"></div>
+  <div id="mute" class="hidden"></div>
+  <div id="toast" class="hidden"></div>
+  <button id="menuBtn" class="hidden"><span class="ico"></span><span data-i18n="menu.word"></span></button>
+
+  <!-- The tour: the street below, how far along, and a card at each stop -->
+  <div id="tour" class="hidden">
+    <div id="tourBar"></div>
+    <button id="tourSpeed">1×</button>
+    <button id="tourMusic">🎵</button>
+    <div id="tourName"></div>
+    <div id="tourWelcome"><b id="tourWelcomeTitle"></b><small id="tourWelcomeSub"></small></div>
+    <div id="flyHud"></div>
+    <div id="tourCard">
+      <div class="tour-head"><span id="tourEmoji"></span><div><small id="tourLabel"></small><b id="tourTitle"></b></div></div>
+      <div id="tourText"></div>
+      <div class="tour-btns">
+        <a class="chip" id="tourMore" target="_blank" rel="noopener" data-i18n="tour.more"></a>
+        <button class="chip hidden" id="tourMenu" data-i18n="menu"></button>
+        <button class="start" id="tourNext"></button>
+      </div>
+      <div class="tour-timer"><i id="tourTimer"></i></div>
+    </div>
+  </div>
+
+  <!-- On-screen controls for phones and tablets -->
+  <div id="touch" class="hidden">
+    <div id="steerZone">
+      <div class="steer-hint race-hint" data-i18n="tb.steer"></div>
+      <div class="steer-hint roam-hint" data-i18n="tb.ride"></div>
+      <div class="stick rest" id="stick"><div class="knob" id="knob"></div></div>
+    </div>
+    <div class="tbtns">
+      <button class="tbtn" id="tFries" aria-label="Fries"><span class="ico"><img src="/preview/pr-67/core/img/julientje.svg" alt=""></span><small></small></button>
+      <button class="tbtn" id="tItem" aria-label="Item"><span class="ico"></span><span class="queue"></span><small data-i18n="tb.item"></small></button>
+      <button class="tbtn" id="tShoot" aria-label="Shoot"><span>🔫</span><small data-i18n="tb.shoot"></small></button>
+      <button class="tbtn" id="tSink" aria-label="Down"><span>⤓</span><small data-i18n="tb.down"></small></button>
+      <button class="tbtn" id="tAction" aria-label="Action"><span class="ico"></span><small></small></button>
+      <button class="tbtn big" id="tJump" aria-label="Jump"><span>⤒</span><small data-i18n="tb.jump"></small></button>
+    </div>
+  </div>
+
+  <dialog id="musicSettings" aria-labelledby="musicSettingsTitle">
+    <button class="chip" id="musicSettingsBack" data-i18n="audio.back"></button>
+    <h2 id="musicSettingsTitle" data-i18n="audio.title"></h2>
+    <label><span data-i18n="audio.effects"></span><input id="soundEffectsSetting" type="checkbox" role="switch"></label>
+    <label><span><span data-i18n="audio.music"></span><small data-i18n="audio.gameMusicHint"></small></span><input id="backgroundMusicSetting" type="checkbox" role="switch"></label>
+    <label><span><span data-i18n="audio.unlockGun"></span><small data-i18n="audio.paintballHint"></small></span><input id="paintballSetting" type="checkbox" role="switch"></label>
+  </dialog>
+
+  <dialog id="gunInfo" aria-labelledby="gunInfoTitle">
+    <h2 id="gunInfoTitle"><span aria-hidden="true">🚗🔫</span> <span data-i18n="menu.gunMode"></span></h2>
+    <ul>
+      <li data-i18n="gun.shoot"></li>
+      <li data-i18n="gun.borrow"></li>
+      <li data-i18n="gun.where"></li>
+    </ul>
+    <button class="start" id="gunInfoOk" data-i18n="gun.ok"></button>
+  </dialog>
+
+  <div id="menu" class="overlay">
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
+    <a class="site-link dev-link" href="dev.html">Dev</a>
+    <div class="card">
+      <div class="corner left">
+        <div class="row" data-row="mode">
+          <div class="opts" id="modeOpts">
+            <button class="chip" data-v="1"></button>
+            <button class="chip" data-v="2"></button>
+          </div>
+        </div>
+      </div>
+      <div class="corner">
+        <div class="row" data-row="audio">
+          <div class="opts">
+            <a class="chip site-chip" href="../" data-site-link data-i18n="site.chip"></a>
+            <button class="chip" id="soundBtn"></button>
+          </div>
+        </div>
+        <div class="row" data-row="lang">
+          <div class="dropdown" id="langOpts">
+            <button class="chip" id="langBtn" aria-haspopup="listbox" aria-expanded="false"></button>
+            <div class="dd-list hidden" id="langList" role="listbox"></div>
+          </div>
+        </div>
+        <div class="row" data-row="city">
+          <div class="dropdown" id="cityOpts">
+            <button class="chip" id="cityBtn" aria-haspopup="listbox" aria-expanded="false"><span class="ico"></span><span data-i18n="menu.city"></span> ▾</button>
+            <div class="dd-list hidden" id="cityList" role="listbox"><a class="chip" role="option" href="../../paris/play/">Paris</a><a class="chip" role="option" href="../../rome/play/">Rome</a><a class="chip" role="option" href="../../london/play/">London</a><a class="chip" role="option" href="../../new-york/play/">New York</a><a class="chip" role="option" href="../../venice/play/">Venice</a><a class="chip" role="option" href="../../barcelona/play/">Barcelona</a><a class="chip" role="option" href="../../istanbul/play/">Istanbul</a><a class="chip" role="option" href="../../amsterdam/play/">Amsterdam</a><a class="chip" role="option" href="../../san-francisco/play/">San Francisco</a><a class="chip" role="option" href="../../florence/play/">Florence</a><a class="chip" role="option" href="../../prague/play/">Prague</a><a class="chip" role="option" href="../../vienna/play/">Vienna</a><a class="chip" role="option" href="../../berlin/play/">Berlin</a><a class="chip" role="option" href="../../madrid/play/">Madrid</a><a class="chip" role="option" href="../../copenhagen/play/">Copenhagen</a><a class="chip on" role="option" href="../../brussels/play/">Brussels</a><a class="chip" role="option" href="../../bruges/play/">Bruges</a><a class="chip" role="option" href="../../antwerp/play/">Antwerp</a><a class="chip" role="option" href="../../avignon/play/">Avignon</a><a class="chip" role="option" href="../../salerno/play/">Salerno</a><a class="chip" role="option" href="../../siena/play/">Siena</a><a class="chip" role="option" href="../../pisa/play/">Pisa</a><a class="chip" role="option" href="../../utrecht/play/">Utrecht</a><a class="chip" role="option" href="../../rotterdam/play/">Rotterdam</a><a class="chip" role="option" href="../../delft/play/">Delft</a><a class="chip" role="option" href="../../lecce/play/">Lecce</a><a class="chip" role="option" href="../../ghent/play/">Ghent</a></div>
+          </div>
+        </div>
+        <div class="row" data-row="style">
+          <div class="dropdown" id="styleOpts">
+            <button class="chip" id="styleBtn" aria-haspopup="listbox" aria-expanded="false"></button>
+            <div class="dd-list hidden" id="styleList" role="listbox">
+              <button class="chip" role="option" data-style="fun" data-i18n="style.fun"></button>
+              <button class="chip" role="option" data-style="pro" data-i18n="style.pro"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header>
+        <h1 class="title"><span class="brandline">Instant Cities</span> <span class="cityname">Brussels</span></h1>
+        <p class="tag" data-i18n="tag"></p>
+      </header>
+
+      <div class="quad">
+        <div class="row" data-row="kind">
+          <div class="opts" id="kindOpts">
+            <button class="chip" data-k="mission" data-i18n="kind.mission"></button>
+            <button class="chip" data-k="race" data-i18n="kind.race"></button>
+            <button class="chip" data-k="tour" data-i18n="kind.tour"></button>
+          </div>
+        </div>
+      </div>
+      <div class="quad">
+        <div class="row" data-row="laps">
+          <div class="opts laps">
+            <button class="arrow" data-d="-1">‹</button><b id="lapCount"></b><button class="arrow" data-d="1">›</button>
+          </div>
+        </div>
+        <div class="row" data-row="weapons">
+          <div class="opts" id="weaponOpts">
+            <button class="chip" data-w="1" data-i18n="weapons.on"></button>
+            <button class="chip" data-w="0" data-i18n="weapons.off"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols">
+        <div class="settings">
+          <div class="row questrow" data-row="quest">
+            <div class="quests" id="questCards"></div>
+          </div>
+          <div class="row questrow" data-row="tour">
+            <div class="quests" id="tourCards"></div>
+          </div>
+          <div class="row" data-row="track">
+            <span class="label" id="trackLabel"></span>
+            <div class="opts">
+              <div class="tracks" id="trackCards"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="side">
+          <div class="row animals">
+            <div class="pcols" id="playerCols"></div>
+            <label class="gunmode" data-row="gun" id="gunMode"><input id="gunModeSetting" type="checkbox"><span aria-hidden="true">🚗🔫</span></label>
+          </div>
+          <button class="start" id="startBtn" data-row="start"></button>
+          <p class="credit"><a href="https://instantcities.net/" target="_blank" rel="noopener">Instant Cities</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pause" class="overlay hidden">
+    <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
+    <div class="card small" id="pauseCard">
+      <div class="pause-nav">
+      <button class="chip pause-home" id="pauseTitleBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/></svg><span data-i18n="backToMenu"></span></button>
+      <div class="hidden" id="pauseSiteRow">
+        <a class="chip site-chip" id="pauseSiteBtn" href="../"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg><span class="long" data-i18n="pause.site"></span><span class="short" data-i18n="pause.siteShort"></span></a>
+      </div>
+      <button class="chip pause-close" id="pauseCloseBtn" aria-label="✕">✕</button>
+      </div>
+      <p class="pause-title" data-i18n="paused"></p>
+      <div class="btnrow pausetools" id="pauseTools">
+        <button class="chip" id="pauseMapBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="pause.map"></span></button>
+        <button class="chip" id="pauseShareBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span data-i18n="pause.share"></span></button>
+        <button class="chip" id="pauseSettingsBtn" aria-expanded="false"><span data-i18n="pause.settings"></span> <span class="caret" aria-hidden="true">▾</span></button>
+      </div>
+      <div class="btnrow pausetools hidden" id="pauseSettings">
+        <button class="chip" id="pauseSoundBtn"></button>
+        <select class="chip" id="skySelect"></select>
+        <button class="chip" id="pauseCardsBtn"></button>
+      </div>
+      <div class="btnrow hidden" id="pauseMountRow">
+        <button class="chip" id="pauseMountPrev" aria-label="‹">‹</button>
+        <span class="chip on" id="pauseMountName"></span>
+        <button class="chip" id="pauseMountNext" aria-label="›">›</button>
+      </div>
+      <div class="btnrow">
+        <button class="start still alt" id="restartBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v5h5"/></svg><span data-i18n="restart"></span></button>
+        <button class="start still" id="resumeBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z" fill="currentColor"/></svg><span data-i18n="resume"></span></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="brief" class="overlay hidden">
+    <div class="card small">
+      <div class="brief-emoji" id="briefEmoji"></div>
+      <h2 class="title mid" id="briefTitle"></h2>
+      <p class="brief-story" id="briefStory"></p>
+      <p class="brief-time" id="briefTime"></p>
+      <div class="btnrow">
+        <button class="start" id="briefBtn" data-i18n="quest.go"></button>
+        <button class="chip" id="briefMenuBtn" data-i18n="menu"></button>
+      </div>
+      <p class="foot kb" id="briefFoot"></p>
+    </div>
+  </div>
+  <div id="bigmap" class="overlay hidden">
+    <div id="bigTop">
+      <div id="bigTabs" class="btnrow">
+        <button class="chip on" id="bigTabMap" data-i18n="bigmap.tabMap"></button>
+        <button class="chip" id="bigTabIndex" data-i18n="bigmap.tabIndex"></button>
+      </div>
+      <button class="chip" id="bigClose" data-i18n="bigmap.close"></button>
+    </div>
+    <div id="bigBody">
+      <div id="bigIndex" class="hidden">
+        <input id="bigSearch" type="search" autocomplete="off" spellcheck="false">
+        <div id="bigList"></div>
+      </div>
+      <canvas id="bigCanvas"></canvas>
+      <div id="bigZoom"><button class="chip" id="bigZoomIn">+</button><button class="chip" id="bigZoomOut">−</button></div>
+    </div>
+    <p class="bighint" data-i18n="bigmap.hint"></p>
+    <div id="bigAsk" class="hidden">
+      <b id="bigAskText"></b>
+      <div class="btnrow">
+        <button class="chip on" id="bigYes" data-i18n="bigmap.yes"></button>
+        <button class="chip" id="bigNo" data-i18n="bigmap.no"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="results" class="overlay hidden">
+    <div class="card small">
+      <h2 class="title mid" data-i18n="results"></h2>
+      <p class="winner" id="winner"></p>
+      <table id="resultTable"></table>
+      <p class="duel" id="duel"></p>
+      <div class="btnrow">
+        <button class="start" id="againBtn" data-i18n="again"></button>
+        <button class="chip" id="resultsTitleBtn" data-i18n="menu"></button>
+      </div>
+      <p class="foot kb" data-i18n="results.foot"></p>
+    </div>
+  </div>
+
+  <script type="module" src="../../core/js/sound.js"></script>
+  <script type="module" src="../../core/js/main.js"></script>
+  <script>
+    // Keep a copy of the game for playing offline (sw.js). Not on a dev server, where every edit
+    // should show up on reload; ?sw turns it on there too, to try it out.
+    (() => {
+      const local = ['localhost', '127.0.0.1'].includes(location.hostname) && !location.search.includes('sw');
+      if ('serviceWorker' in navigator && !local) {
+        addEventListener('load', async () => {
+          try {
+            await navigator.serviceWorker.register('sw.js');
+            // the game used to be in the city's folder itself, its worker looking after that folder:
+            // now the city's page is there, which needs no offline copy
+            const before = new URL('../', location.href).href;
+            for (const r of await navigator.serviceWorker.getRegistrations()) if (r.scope === before) r.unregister();
+            const sw = (await navigator.serviceWorker.ready).active;
+            // what this first visit loaded before the worker was there to see it
+            const urls = performance.getEntriesByType('resource').map(e => e.name).filter(u => u.startsWith('http'));
+            sw?.postMessage({ type: 'keep', urls: [location.origin + location.pathname, ...urls] });
+          } catch { /* no offline copy: the game plays the same */ }
+        });
+      } else if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister()));
+      }
+    })();
+  </script>
+</body>
+</html>
