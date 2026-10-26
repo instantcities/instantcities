@@ -13,8 +13,11 @@
 //   transit.js       the bus stops and lines: `node tools/transit.mjs lecce`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs lecce`
 //   monuments.js     the column of Sant’Oronzo, the obelisk and Porta Napoli, modelled by hand (hand-written)
-//   fronts.js        the baroque fronts drawn by hand onto the map's outlines: Santa Croce, the Duomo,
-//                    the Celestini (hand-written)
+//   santa-croce.js, duomo.js, castello.js, romano.js, santa-chiara.js
+//                    the landmarks modelled by hand in place of the map's outlines of them: Santa Croce,
+//                    the Piazza del Duomo, the castle, the Roman theatre and amphitheatre, Santa Chiara
+//                    (hand-written, on outline.js and baroque.js; see docs/landmarks.md)
+//   fronts.js        the Celestini's front drawn by hand onto the map's outline (hand-written)
 // Ghent has more (3D landmarks and their facades, the hollow squares); Lecce exports empty lists
 // for what it lacks.
 import { MAP as OSM } from './map.js';
@@ -28,7 +31,13 @@ export { SIGHTS } from './sights.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { STOPS, TRAM_HALTS, BUS_LINES } from './transit.js';
 export { FURNITURE } from './furniture.js';
-export { MONUMENTS } from './monuments.js';
+import { MONUMENTS as STATUES } from './monuments.js';
+import { SANTA_CROCE } from './santa-croce.js';
+import { DUOMO } from './duomo.js';
+import { CASTELLO } from './castello.js';
+import { ROMANO } from './romano.js';
+import { SANTA_CHIARA } from './santa-chiara.js';
+export const MONUMENTS = [...STATUES, ...SANTA_CROCE, ...DUOMO, ...CASTELLO, ...ROMANO, ...SANTA_CHIARA];
 export { FRONTS } from './fronts.js';
 
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
