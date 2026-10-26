@@ -1818,6 +1818,8 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .overlay .start.alt { color: #111; background: #fff; border-color: var(--edge); }
 .overlay .start.alt:hover { filter: none; border-color: #111; }
 #menu .start.focus, #pause .psel { outline: 2px solid #111; outline-offset: 2px; }
+/* the menu's own Start on a phone: one word, big and wide */
+.touch .overlay #startBtn { width: min(100%, 280px); padding: 12px 24px; font-size: 30px; font-weight: 700; }
 
 /* the player cards: black header and border; with two players a bar in each player's colour under the header */
 #menu .pcol, .solo #menu .pcol { border: 2px solid #111; border-radius: 8px; box-shadow: none; }

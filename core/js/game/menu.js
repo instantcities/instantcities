@@ -373,7 +373,8 @@ export function renderMenu() {
   $('pauseCardsBtn').innerHTML = icon('<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (game.cards ? '' : '<path d="M4 20 20 4"/>')) + `<span>${plain(game.cards ? 'cards.on' : 'cards.off')}</span>`;
   $('pauseCardsBtn').classList.toggle('on', game.cards);
   for (const el of document.querySelectorAll('#pause [data-i18n]')) el.textContent = plain(el.dataset.i18n);
-  $('startBtn').textContent = t_((touch.on ? 'start.tap' : 'start.keys') + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
+  // a phone: just Start (you tap a button); with a keyboard it says that Space starts too
+  $('startBtn').textContent = t_(touch.on ? 'start.btn' : 'start.keys' + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
 }
 
 function openLangList(open) {
