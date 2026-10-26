@@ -50,7 +50,6 @@ export const ART = [
   {"id":"the-hunters-in-the-snow","title":"The Hunters in the Snow","artist":"Pieter Bruegel the Elder","date":"1565","museum":"kunsthistorisches","room":"The Bruegel room","view":[26.45,47,26.45,53.47],"photo":true},
   {"id":"the-peasant-wedding","title":"The Peasant Wedding","artist":"Pieter Bruegel the Elder","date":"c. 1567","museum":"kunsthistorisches","room":"The Bruegel room","view":[26.45,39,26.45,32.53],"photo":true},
   {"id":"childrens-games","title":"Children's Games","artist":"Pieter Bruegel the Elder","date":"1560","museum":"kunsthistorisches","room":"The Bruegel room","view":[18.9,47,18.9,53.53],"photo":true},
-  {"id":"the-fight-between-carnival-and-lent","title":"The Fight Between Carnival and Lent","artist":"Pieter Bruegel the Elder","date":"1559","museum":"kunsthistorisches","room":"The Bruegel room","view":[34,47,34,53.53],"photo":false},
   {"id":"the-art-of-painting","title":"The Art of Painting","artist":"Johannes Vermeer","date":"c. 1666–1668","museum":"kunsthistorisches","room":"The Bruegel room","view":[18.9,39,18.9,32.47],"photo":true},
   {"id":"nefertiti-bust","title":"Bust of Nefertiti","artist":"Workshop of Thutmose","date":"c. 1345 BC","museum":"neues-museum","room":"The north dome room","view":[0,16,0,22],"photo":true},
   {"id":"pergamon-altar","title":"The Pergamon Altar","artist":"Greek sculptors of Pergamon","date":"c. 170 BC","museum":"pergamon","room":"The altar hall","view":[0,-11,0,-2],"photo":true},
