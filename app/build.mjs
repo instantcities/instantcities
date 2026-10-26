@@ -14,6 +14,7 @@
 // The pages are made here from core/game.html, as tools/pages.mjs makes <city>/play/index.html,
 // rather than taken from those: a checked-in copy that lags behind the template once froze the
 // Ghent app on its loading screen.
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -142,7 +143,47 @@ const listed = fs.readFileSync(path.join(ROOT, '_data/cities.yml'), 'utf8').spli
 }).filter(c => !c.soon && pages[c.id]);
 if (listed.length < 2) throw new Error('_data/cities.yml: found no cities, has it changed?');
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-const accent = id => pages[id].style.match(/--accent:\s*([^;]+);/)?.[1] ?? '#45494e';
+
+// each city's About page (<city>/about.html): the website's own page of the city
+// (_layouts/city.html), built by Jekyll into app/build/site/. Its links stay in the app where the
+// app has the page (the game, another city's About page, the picker for the home and cities pages)
+// and go to the website, in Safari, for the rest; the pictures it shows come along, and the
+// lettering comes from fonts/ instead of Google. Jekyll needs the site's gems (`bundle install`
+// in the repo); Homebrew's Ruby 3.3 has them where it is there.
+const SITE_OUT = path.join(APP, 'build/site');
+const ruby33 = '/opt/homebrew/opt/ruby@3.3/bin';
+execFileSync('bundle', ['exec', 'jekyll', 'build', '--quiet', '--destination', SITE_OUT], { cwd: ROOT, stdio: 'inherit',
+  env: { ...process.env, LANG: 'en_US.UTF-8', LC_ALL: 'en_US.UTF-8', PATH: (fs.existsSync(ruby33) ? `${ruby33}:` : '') + process.env.PATH } });
+const inApp = new Set(listed.map(c => c.id));
+const pictures = new Set();
+const local = url => {
+  const [, where, rest = ''] = url.match(/^([^?#]*)(.*)$/);
+  if (where.startsWith('/assets/')) { pictures.add(where); return where; }
+  if (where.startsWith('/fonts/')) return where;
+  if (where === '/' || where === '/cities/') return '/index.html';
+  const city = where.match(/^\/([a-z0-9-]+)\/(play\/)?$/);
+  if (city && inApp.has(city[1])) return city[2] ? `/${city[1]}/play/index.html${rest}` : `/${city[1]}/about.html${rest}`;
+  return SITE + url;
+};
+for (const c of listed) {
+  let html = fs.readFileSync(path.join(SITE_OUT, c.id, 'index.html'), 'utf8');
+  const fonts = html.replace(/\s*<link rel="preconnect" href="https:\/\/fonts\.g[^>]*>/g, '')
+    .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '<link rel="stylesheet" href="/fonts/fonts.css">');
+  if (fonts === html || fonts.includes('fonts.googleapis')) throw new Error(`${c.id}/index.html: could not find the Google Fonts links, has _includes/head.html changed?`);
+  html = fonts.replace(/\b(href|src|data-src)="(\/[^"]*)"/g, (_, attr, url) => `${attr}="${local(url)}"`);
+  fs.writeFileSync(path.join(WWW, c.id, 'about.html'), html.replace(/^<!doctype html>\n?/i,
+    `<!doctype html>\n<!-- The iOS app's copy of the website's /${c.id}/: made by \`npm run build\` in app/, do not edit by hand. -->\n`));
+}
+for (const p of pictures) if (fs.existsSync(path.join(SITE_OUT, p))) copy(path.join(SITE_OUT, p), path.join(WWW, p));
+
+// a square photo per city for its card in the picker: its first landmark with one (_data/landmarks/<city>.json)
+const thumb = id => {
+  const file = path.join(ROOT, '_data/landmarks', `${id}.json`);
+  const src = fs.existsSync(file) && JSON.parse(fs.readFileSync(file, 'utf8')).find(l => l.photo)?.photo.src.replace(/\.jpg$/, '-s.jpg');
+  if (!src || !fs.existsSync(path.join(ROOT, src))) return '';
+  copy(path.join(ROOT, src), path.join(WWW, src));
+  return `<img src="${src.slice(1)}" alt="" width="72" height="72">`;
+};
 fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
 <!-- The iOS app's first page, the city picker: made by \`npm run build\` in app/, do not edit by hand. -->
 <html lang="en">
@@ -152,23 +193,27 @@ fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
   <title>Instant Cities</title>
   <link rel="stylesheet" href="fonts/fonts.css">
   <style>
-    :root { color-scheme: light dark; --bg: #fff; --card: #f4f2ef; --press: #e8e5e0; --ink: #1d1a17; --muted: #6f675d; --text: #3d3730; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #1d1a17; --card: #2a2622; --press: #36312c; --ink: #f4efe8; --muted: #b9b0a4; --text: #d9d2c8; } }
+    :root { color-scheme: light dark; --bg: #fff; --ink: #111; --muted: #6b6b6b; --line: #111; --press: #f0f0f0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111; --ink: #f4f4f4; --muted: #a0a0a0; --line: #f4f4f4; --press: #222; } }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--ink); font-family: Nunito, system-ui, sans-serif; -webkit-user-select: none; user-select: none; }
+    html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; -webkit-user-select: none; user-select: none; }
     /* the app keeps its web view from scrolling (capacitor.config.json, for the game), so the list scrolls in here */
     main { position: fixed; inset: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
-    .page { max-width: 960px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 16px) calc(env(safe-area-inset-bottom) + 28px) calc(env(safe-area-inset-left) + 16px); }
-    header { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
-    header img { width: 52px; height: 52px; }
-    h1 { font-family: 'Lilita One', Nunito, sans-serif; font-weight: 400; font-size: 34px; margin: 0; letter-spacing: .5px; }
-    header p { margin: 2px 0 0; color: var(--muted); font-weight: 700; }
-    ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
-    a { display: block; height: 100%; padding: 13px 15px 12px; border-radius: 6px; background: var(--card); color: inherit; text-decoration: none; border-bottom: 5px solid var(--accent); }
-    a:active { background: var(--press); }
-    strong { display: block; font-family: 'Lilita One', Nunito, sans-serif; font-weight: 400; font-size: 24px; }
-    small { display: block; color: var(--muted); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 4px; }
-    span { display: block; color: var(--text); font-size: 14px; line-height: 1.35; font-weight: 700; margin-top: 4px; }
+    .page { max-width: 960px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 24px) calc(env(safe-area-inset-right) + 16px) calc(env(safe-area-inset-bottom) + 24px) calc(env(safe-area-inset-left) + 16px); }
+    header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    header img { width: 40px; height: 40px; }
+    h1 { font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.3px; }
+    header p { margin: 1px 0 0; color: var(--muted); font-size: 14px; font-weight: 500; }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+    li { display: grid; grid-template-columns: 72px 1fr; gap: 6px 12px; padding: 12px; border: 1.5px solid var(--line); border-radius: 6px; }
+    li > img { width: 72px; height: 72px; border-radius: 4px; object-fit: cover; grid-row: span 2; }
+    strong { display: block; font-size: 19px; font-weight: 700; }
+    small { display: block; color: var(--muted); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; }
+    p { margin: 3px 0 0; font-size: 14px; line-height: 1.35; }
+    .btns { grid-column: 2; display: flex; gap: 8px; margin-top: 4px; }
+    .btns a { flex: 1; text-align: center; padding: 8px 0; border: 1.5px solid var(--line); border-radius: 4px; font-size: 14px; font-weight: 700; color: var(--ink); text-decoration: none; }
+    .btns a.play { background: var(--ink); color: var(--bg); }
+    .btns a:active { opacity: .7; }
   </style>
 </head>
 <body>
@@ -178,7 +223,7 @@ fs.writeFileSync(path.join(WWW, 'index.html'), `<!doctype html>
       <div><h1>Instant Cities</h1><p>Pick a city to play</p></div>
     </header>
     <ul>
-${listed.map(c => `      <li><a href="${c.id}/play/index.html" style="--accent: ${esc(accent(c.id))}"><small>${esc(c.country)}</small><strong>${esc(c.name)}</strong><span>${esc(c.card)}</span></a></li>`).join('\n')}
+${listed.map(c => `      <li>${thumb(c.id)}<div><small>${esc(c.country)}</small><strong>${esc(c.name)}</strong><p>${esc(c.card)}</p></div><div class="btns"><a class="play" href="${c.id}/play/index.html">Play</a><a href="${c.id}/about.html">About</a></div></li>`).join('\n')}
     </ul>
   </div></main>
 </body>
