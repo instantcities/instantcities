@@ -1,28 +1,430 @@
-# ghent's landmarks in French (_data/landmarks/ghent.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# ghent's landmarks in French (_data/landmarks/ghent.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 sint-baafs-kathedraal:
   name: Cathédrale Saint-Bavon
   blurb: Bâtie du XIIIe au XVIe siècle, avec une tour de 89 m. À l’intérieur se trouve l’Adoration de l’Agneau mystique des frères Van Eyck (1432), l’un des tableaux les plus célèbres et les plus volés du monde. Son panneau des Juges intègres, volé en 1934, n’a jamais été retrouvé.
+  text:
+  - 'La cathédrale Saint-Bavon est la cathédrale du diocèse de Gand et l’une des grandes églises gothiques des Pays-Bas. De l’extérieur, on voit surtout sa lourde tour ouest de 89 m, qui domine les toits de la vieille ville et forme, avec le beffroi et l’église Saint-Nicolas, la célèbre rangée des trois tours de Gand. À l’intérieur, on voit comment l’église a grandi sur trois siècles : un haut chœur gothique, une nef gothique tardif plus légère et, en dessous, une crypte d’époque romane.'
+  - 'Son trésor est le Retable de Gand, l’Adoration de l’Agneau mystique, que Hubert et Jan van Eyck achevèrent en 1432. Sur ses douze panneaux, on voit Adam et Ève, des anges chanteurs, Dieu en majesté et, au milieu, l’Agneau sur l’autel, adoré par des saints, des prophètes, des chevaliers et des pèlerins de tous les coins du monde. Les peintres employèrent la peinture à l’huile avec une précision jamais vue : on distingue des cheveux isolés, des bijoux qui captent la lumière et plus de quarante sortes de plantes que l’on reconnaît encore aujourd’hui.'
+  - Mais la cathédrale est bien plus que ce seul tableau. Il y a Saint Bavon entrant au monastère de Rubens (1624), une somptueuse chaire rococo de Laurent Delvaux en chêne et en marbre blanc et noir, des tombeaux baroques d’évêques et l’une des plus grandes cryptes de Belgique, avec des peintures murales et des trésors d’église. Il y a tant à voir que l’on y passe facilement quelques heures.
+  history:
+  - 'Une petite église dédiée à saint Jean-Baptiste se dressait ici dès le Xe siècle. Au XIIe siècle, elle fut remplacée par une église romane, dont la crypte subsiste. À partir du XIIIe siècle, une nouvelle église gothique fut bâtie petit à petit : d’abord le chœur, puis aux XVe et XVIe siècles la tour et la nef. C’est pourquoi un seul bâtiment montre trois siècles d’architecture.'
+  - En 1432, le retable fut installé dans la chapelle de Joos Vijd et de son épouse Elisabeth Borluut, qui l’avaient commandé. En 1500, l’empereur Charles Quint, né à Gand, y fut baptisé. Après la révolte gantoise de 1539, il fit démolir l’ancienne abbaye Saint-Bavon pour bâtir une forteresse destinée à tenir la ville en respect ; les moines déménagèrent à Saint-Jean, qui devint ainsi Saint-Bavon. Quand le diocèse de Gand fut fondé en 1559, l’église devint cathédrale.
+  - 'Le retable a eu une vie aventureuse. Pendant la furie iconoclaste de 1566, il fut caché dans la tour. Les révolutionnaires français emportèrent les panneaux centraux au Louvre ; ils revinrent après la chute de Napoléon. Les volets latéraux furent vendus en 1816 et finirent à Berlin, jusqu’à ce qu’après la Première Guerre mondiale ils doivent être rendus à Gand. En 1934, deux panneaux furent volés. Celui de saint Jean-Baptiste revint, mais celui des Juges intègres n’a jamais été retrouvé : ce que l’on voit aujourd’hui est une copie de Jef Van der Veken. Pendant la Seconde Guerre mondiale, les nazis saisirent le retable ; les « Monuments Men » américains le retrouvèrent en 1945 dans une mine de sel en Autriche.'
+  - Depuis 2012, le retable est restauré panneau par panneau par l’Institut royal du Patrimoine artistique. Sous des surpeints ultérieurs, la peinture d’origine des Van Eyck est réapparue, la surprise la plus connue étant le visage étonnamment humain de l’Agneau. En 2021, un nouveau centre d’accueil des visiteurs a ouvert dans la cathédrale, où l’on peut aussi vivre l’histoire du tableau en réalité augmentée.
+  visit:
+  - 'La cathédrale se dresse sur la Sint-Baafsplein, à quelques minutes à pied du beffroi et de la Korenmarkt. On peut généralement entrer librement dans l’église, hors des offices. Pour le Retable de Gand, on achète un billet : il comprend un parcours avec une tablette ou des lunettes de réalité augmentée à travers l’histoire du tableau, après quoi on se retrouve face à l’original. Comptez une heure à une heure et demie, et en haute saison mieux vaut réserver.'
+  - 'C’est un lieu de culte : parlez à voix basse, couvrez-vous les épaules si on vous le demande et ne vous promenez pas pendant la messe. Les photos sans flash sont autorisées presque partout, mais pas partout.'
+  dates:
+  - - Xe siècle
+    - Une première église, dédiée à saint Jean-Baptiste.
+  - - XIIe siècle
+    - Une église romane ; sa crypte est toujours là.
+  - - '1432'
+    - Le retable des frères Van Eyck est installé.
+  - - '1500'
+    - Charles Quint y est baptisé.
+  - - '1559'
+    - Devenue Saint-Bavon, l’église devient cathédrale.
+  - - '1934'
+    - Le panneau des Juges intègres est volé, et jamais retrouvé.
+  - - '1945'
+    - Le retable est récupéré dans une mine de sel autrichienne.
+  - - '2021'
+    - Un nouveau centre d’accueil avec réalité augmentée.
 belfort:
   name: Beffroi
   blurb: La tour de 91 m de la ville, commencée en 1313. Gand y gardait ses chartes de privilèges, et des veilleurs y guettaient le feu et l’ennemi. Un dragon doré veille au sommet. Avec la halle aux draps à côté, il est inscrit au patrimoine mondial de l’UNESCO.
+  text:
+  - 'Le beffroi est la tour du milieu des trois tours de Gand et, avec ses 91 m, le plus haut beffroi de Belgique. Tandis que les tours d’église de part et d’autre parlent de Dieu, le beffroi représente la ville elle-même : la liberté et le pouvoir de ses citoyens face au comte. Au sommet de la flèche tourne un dragon doré, le symbole de Gand, qui veille sur la ville la tête au vent.'
+  - 'À l’intérieur, on monte devant les pièces des guetteurs et les salles où l’on gardait jadis les archives de la ville jusqu’à l’étage des cloches. Là est accroché le carillon, l’un des plus grands du pays avec plus de cinquante cloches, et l’on voit l’énorme tambour qui les fait jouer automatiquement. De la galerie, on a l’une des meilleures vues sur la ville : Saint-Bavon juste à côté, le Gravensteen, la Lys avec la Graslei et, par temps clair, bien au-delà de Gand. Un ascenseur monte presque jusqu’en haut.'
+  - 'Contre la tour se dresse la Halle aux draps, où les marchands de draps faisaient contrôler la qualité de leur drap de laine : la source de la richesse médiévale de Gand. Du côté de la Goudenleeuwplein se trouve le Mammelokker, l’ancienne entrée de la prison de la ville. La sculpture au-dessus montre un vieil homme dans sa cellule allaité par sa fille, une histoire de charité de l’Antiquité romaine. Sur la petite place à côté se trouve la cloche fêlée Triomfante.'
+  history:
+  - 'La construction commença en 1313, quand Gand était, après Paris, l’une des plus grandes villes d’Europe du Nord. Les bâtisseurs travaillèrent d’après un plan sur parchemin qui existe toujours et compte parmi les plus anciens dessins d’architecture des Pays-Bas. Vers 1380, la tour de pierre était debout, avec une flèche de bois au sommet. Dans le « secreet », une chambre forte derrière d’épaisses portes de fer, la ville gardait ses privilèges : les chartes des droits qu’elle avait arrachés aux comtes.'
+  - 'La grosse cloche Roland sonnait pour le feu, pour la guerre et pour réunir les citoyens. Les Gantois connaissent encore la rime : « Je m’appelle Roland ; quand je tinte, il y a du feu, quand je sonne, il y a tempête en Flandre. » Après la révolte de 1539, l’empereur Charles Quint punit la ville : ses privilèges furent révoqués et Roland dut descendre. La cloche Triomfante de Hemony, qui pendit plus tard dans la tour, se fêla en 1914 et se trouve maintenant au pied du beffroi.'
+  - 'La Halle aux draps fut bâtie contre la tour à partir de 1425, mais ne fut jamais tout à fait achevée avant le début du XXe siècle. La flèche aussi connut de nombreuses versions : une en bois, une baroque, une en fonte du XIXe siècle et enfin celle d’aujourd’hui, construite pour l’Exposition universelle de 1913 d’après le dessin médiéval d’origine. Les plus anciens dragons, du XIVe siècle, sont conservés à l’intérieur de la tour.'
+  - En 1999, le beffroi, avec la Halle aux draps et le Mammelokker, fut inscrit sur la liste du patrimoine mondial de l’UNESCO, parmi les beffrois de Belgique et de France. Ensemble, ces tours racontent l’histoire des villes libres médiévales, où les citoyens gouvernaient leur propre ville.
+  visit:
+  - 'L’entrée se trouve du côté de la Sint-Baafsplein, entre la cathédrale et l’hôtel de ville. On achète un billet et l’on monte à pied ou en ascenseur ; les derniers escaliers jusqu’aux cloches et à la galerie sont étroits et raides. Venez par temps clair pour la vue si vous le pouvez, et vérifiez s’il y a un concert de carillon ce jour-là : on entend alors les cloches de tout près.'
+  - Comptez environ une heure. L’ascenseur est une grande aide si l’on n’est pas très sûr sur ses jambes, mais on ne peut pas atteindre toutes les parties de la tour sans escaliers.
+  dates:
+  - - '1313'
+    - Début de la construction.
+  - - '1377'
+    - Un dragon doré sur la flèche.
+  - - vers 1380
+    - La tour de pierre est achevée.
+  - - '1425'
+    - La Halle aux draps est commencée à côté.
+  - - '1540'
+    - 'Charles Quint punit Gand : la cloche Roland doit descendre.'
+  - - '1741'
+    - Le Mammelokker, entrée de la prison.
+  - - '1913'
+    - Une nouvelle flèche d’après le dessin médiéval.
+  - - '1999'
+    - Patrimoine mondial de l’UNESCO.
 gravensteen:
   name: Château des Comtes
   blurb: Le château des comtes de Flandre, bâti en 1180 par Philippe d’Alsace. Il a ensuite servi de tribunal, de prison et même de filature de coton, et a retrouvé ses créneaux vers 1900. En 1949, des étudiants l’ont occupé pour protester contre la hausse du prix de la bière.
+  text:
+  - 'Le Gravensteen est le seul château médiéval de Flandre dont le système défensif est presque entièrement conservé, et il se dresse en plein milieu de la ville. Des douves alimentées par la Lys et la Lieve entourent un haut mur d’enceinte à tourelles et créneaux. On entre par le châtelet dans la cour, avec le donjon au milieu : la massive tour d’habitation du comte, haute de près de trente mètres.'
+  - 'À l’intérieur, on parcourt les salles du comte, les anciennes caves, les cachots et l’armurerie, avec armures, épées et arbalètes. Il y a aussi une collection d’instruments de torture et de punition du temps où le château était un tribunal et une prison : pas un endroit pour de jeunes enfants qui s’effraient facilement. Le point culminant est littéralement le toit du donjon : des créneaux, on domine les toits du Patershol, le Vrijdagmarkt et les tours de la vieille ville.'
+  - 'La visite s’accompagne d’un audioguide sous forme de « film audio » : l’humoriste gantois Wouter Deprez raconte l’histoire du château avec beaucoup d’humour, et cela convient aux petits comme aux grands. On entend ainsi parler de comtes, de Gantois rebelles et d’étudiants sur le toit en parcourant les salles.'
+  history:
+  - 'Il y avait déjà ici un lieu fortifié au Xe siècle, d’abord en bois. En 1180, le comte Philippe d’Alsace fit bâtir le château de pierre que l’on voit aujourd’hui ; une inscription au-dessus de la porte donne l’année. Philippe avait été en croisade et y avait vu les châteaux des croisés. Son château était aussi un message aux riches Gantois rebelles : ici, c’était le comte qui commandait.'
+  - 'Après le XIVe siècle, les comtes n’y habitèrent plus : ils déménagèrent au Prinsenhof, plus confortable, où naîtrait Charles Quint en 1500. Le Gravensteen devint le siège du Conseil de Flandre, la plus haute cour du comté. On y rendait la justice, on y frappait monnaie, on y enfermait et torturait des prisonniers. Quand le Conseil partit au XVIIIe siècle, le château fut vendu et morcelé : des maisons et des ateliers s’y installèrent et, au début du XIXe siècle, même une filature de coton, avec des maisons d’ouvriers dans la cour.'
+  - À la fin du XIXe siècle, le Gravensteen était une ruine délabrée cachée derrière des maisons. La ville l’acheta et le fit restaurer. Vers 1900, il fut dégagé et retrouva ses murs, ses tours et ses créneaux, en partie comme les restaurateurs pensaient qu’un château médiéval devait être. Juste à temps pour l’Exposition universelle de 1913, il se dressait de nouveau comme un château de conte de fées.
+  - En novembre 1949, des étudiants gantois occupèrent le château pendant quelques heures, pour protester contre le prix de la bière. Ils se barricadèrent derrière les créneaux et bombardèrent la police et les pompiers de légumes pourris. L’histoire devint une légende, et les étudiants commémorent encore chaque année l’occupation.
+  visit:
+  - Le Gravensteen se trouve sur la Sint-Veerleplein, à cinq minutes à pied de la Korenmarkt et de la Graslei, en bordure du Patershol. Achetez un billet au guichet ou en ligne à l’avance ; l’audioguide est inclus. Comptez une heure et demie. Il y a de nombreux étroits escaliers en colimaçon, si bien que le château n’est que partiellement accessible en fauteuil roulant ou en poussette.
+  - 'En été, venez tôt dans la journée ou en fin d’après-midi : les créneaux sont alors moins fréquentés. Ensuite, on peut entrer directement dans le Patershol, l’ancien quartier de ruelles étroites et de nombreux restaurants.'
+  dates:
+  - - Xe siècle
+    - Une première forteresse de bois.
+  - - '1180'
+    - Philippe d’Alsace bâtit le château de pierre.
+  - - XIVe siècle
+    - Les comtes déménagent au Prinsenhof.
+  - - '1407'
+    - Siège du Conseil de Flandre.
+  - - XIXe siècle
+    - Maisons, ateliers et une filature de coton dans le château.
+  - - vers 1900
+    - 'Grande restauration : le château retrouve ses créneaux.'
+  - - '1949'
+    - Des étudiants occupent le château à cause du prix de la bière.
 graslei:
   name: Graslei et Korenlei
   blurb: Le port médiéval de Gand, sur les deux rives de la Lys. Les bateliers y déchargeaient le grain et les corporations y ont bâti leurs maisons le long du quai. Le Koornstapelhuis, l’entrepôt à grain roman gris d’environ 1200, est l’une des plus vieilles maisons de la ville.
+  text:
+  - 'La Graslei et la Korenlei sont les deux quais de chaque côté de la Lys, au cœur de Gand, et ensemble la vue de carte postale la plus connue de la ville. Sur la Graslei, côté est, se dresse une rangée de maisons de corporations et d’entrepôts qui montrent presque mille ans d’architecture : d’un simple grenier roman à des façades baroques ornées. De l’autre côté de l’eau, sur la Korenlei, se dressent de majestueux hôtels particuliers et d’autres maisons de corporations. Entre les deux se trouvent les petits bateaux, et la Lys s’écoule lentement vers le centre.'
+  - Longez la Graslei et lisez les façades comme un livre. La maison de la corporation des bateliers libres est gothique tardif, avec un navire pour girouette. L’étroite Maison du Péage, où l’on percevait le droit sur le grain, est de la Renaissance flamande. Le Koornstapelhuis, le grenier roman gris au pignon à gradins, est l’une des plus anciennes maisons de la ville. Et la Maison des mesureurs de grain était celle des hommes qui pesaient et mesuraient le grain. Sur la Korenlei, la maison de la corporation des bateliers non libres se remarque, avec sa façade baroque et son navire doré.
+  - 'Aujourd’hui, c’est le salon de Gand. Les jours de soleil, des centaines de personnes s’assoient sur le mur du quai, les jambes au-dessus de l’eau, il y a des terrasses de café, et les bateaux de promenade partent d’ici. Le soir, les façades sont doucement éclairées : Gand a son propre plan lumière, et la Graslei en est le plus bel exemple. La meilleure vue sur les deux quais est depuis le pont Saint-Michel.'
+  history:
+  - 'Ce tronçon de la Lys était le port médiéval de Gand, appelé « Tussen Bruggen » (Entre les Ponts). Gand détenait le droit d’étape sur le grain : les navires qui transportaient du grain sur la Lys et l’Escaut devaient d’abord l’offrir en vente ici. Ce droit enrichit la ville et nourrit sa population. Les bateliers déchargeaient leur cargaison, les mesureurs de grain vérifiaient les mesures et le grain était stocké dans des entrepôts.'
+  - Les corporations, les associations d’artisans et de commerçants, affichaient leur richesse par de splendides maisons sur le quai. Le Koornstapelhuis fut bâti vers 1200 comme grenier. La maison des bateliers libres suivit en 1531, la Maison du Péage en 1682 et la Maison des mesureurs de grain à la fin du XVIIe siècle. Les bateliers libres pouvaient naviguer partout ; les non libres seulement dans la ville, et ils bâtirent leur propre maison de corporation sur la Korenlei en 1739.
+  - 'Au XIXe siècle, le port perdit son importance et de nombreuses façades furent modifiées ou cachées sous le plâtre. Pour l’Exposition universelle de 1913, la Graslei fut complètement restaurée, pour que les visiteurs puissent voir un Gand médiéval. Certaines façades furent reconstruites d’après d’anciens dessins. La maison de la corporation des maçons sur la Graslei en est une reconstruction : on découvrit plus tard que la vraie façade existait encore, cachée dans une ruelle près de l’église Saint-Nicolas, où elle a depuis aussi été restaurée.'
+  - Pendant longtemps, des voitures roulèrent le long de la Graslei et de la Korenlei. Depuis que le centre est devenu largement sans voitures, les quais appartiennent de nouveau aux piétons, et sont devenus le lieu où Gand se retrouve, des soirs d’été entre amis aux Fêtes de Gand.
+  visit:
+  - La Graslei et la Korenlei sont toujours ouvertes à tous, jour et nuit. Elles sont à quelques minutes à pied de la Korenmarkt ou du pont Saint-Michel. Les maisons de corporations sont pour la plupart privées ou occupées par des restaurants et ne se visitent pas comme un musée, mais certaines abritent un restaurant ou un café où l’on peut entrer.
+  - 'Pour voir les quais depuis l’eau, faites une promenade en bateau : plusieurs compagnies partent d’ici toute l’année, pour un trajet d’environ quarante-cinq minutes à travers la vieille ville. Revenez aussi le soir, quand les façades sont éclairées.'
+  dates:
+  - - vers 1200
+    - Le Koornstapelhuis, un grenier roman.
+  - - Moyen Âge
+    - Gand obtient le droit d’étape sur le grain.
+  - - '1531'
+    - La maison des bateliers libres.
+  - - '1682'
+    - La Maison du Péage.
+  - - '1739'
+    - La maison des bateliers non libres sur la Korenlei.
+  - - '1913'
+    - Grande restauration pour l’Exposition universelle.
 sint-michielsbrug:
   name: Pont Saint-Michel
   blurb: 'Construit au début du XXe siècle, juste avant l’Exposition universelle de 1913. Regardez vers l’est pour voir les trois tours de Gand alignées : Saint-Nicolas, le beffroi et Saint-Bavon. Derrière vous se dresse l’église Saint-Michel, dont la tour n’a jamais été achevée.'
+  text:
+  - 'Le pont Saint-Michel n’est pas tant un monument à regarder qu’un endroit d’où regarder. De cette arche de pierre sur la Lys, on a la plus belle vue de Gand. Regardez vers l’est et vous voyez les trois tours de la ville en rang bien ordonné : d’abord l’église Saint-Nicolas, puis le beffroi et son dragon et derrière lui la tour de la cathédrale Saint-Bavon. Photographes et peintres s’y tiennent depuis plus d’un siècle.'
+  - Retournez-vous, et il y a bien plus. Regardez vers le nord le long de l’eau, avec la Graslei à droite et la Korenlei à gauche, leurs maisons de corporations se reflétant dans la Lys. Au loin, les tours du Gravensteen dépassent les toits. Du côté ouest du pont se dresse l’église Saint-Michel, à la tour remarquablement plate au sommet, et du côté est le grand bâtiment néogothique de l’ancienne Poste, aujourd’hui un hôtel et des boutiques.
+  - 'Le pont lui-même est charmant dans sa simplicité : une seule large arche de pierre naturelle, avec d’élégantes lanternes et des balustrades. Le soir, quand les tours et les façades le long des quais sont éclairées, il est à son plus romantique. Pas étonnant qu’on l’appelle le cœur romantique de Gand, et que tant de photos de mariage y soient prises.'
+  history:
+  - Il y a un pont ici depuis le Moyen Âge, reliant le vieux centre autour de la Korenmarkt au quartier autour de l’église Saint-Michel de l’autre côté de la Lys. C’était un passage très fréquenté, avec le port de la Graslei et de la Korenlei juste à côté.
+  - Le pont que l’on voit aujourd’hui fut construit dans les premières années du XXe siècle, à l’approche de l’Exposition universelle de 1913. Gand voulait se montrer au monde comme un joyau médiéval, et la Graslei, le Gravensteen et le beffroi furent tous retravaillés ces années-là. Le nouveau pont devait s’accorder à cette image, et être assez large pour la circulation moderne, tramways compris.
+  - 'L’église Saint-Michel à côté est bien plus ancienne. La construction de cette église gothique commença en 1440 mais traîna pendant des siècles faute d’argent et à cause des guerres de religion. La tour devait être l’une des plus hautes des Pays-Bas mais ne fut jamais achevée : d’où son sommet plat. À l’intérieur est accrochée, entre autres, une Crucifixion d’Anthony van Dyck. La Poste en face fut construite entre 1898 et 1909 dans un riche mélange de néogothique et de néo-Renaissance et, après une transformation complète, trouva une nouvelle vie comme hôtel et centre commercial.'
+  visit:
+  - Le pont est toujours ouvert à tous et se trouve sur la Korenmarkt, à quelques pas de la Graslei. Venez au lever du soleil pour le calme, ou au coucher du soleil et après, quand les lumières s’allument. C’est le point de départ idéal d’une promenade le long des quais.
+  - On peut généralement entrer librement dans l’église Saint-Michel, bien que ses horaires soient plus courts que ceux de la cathédrale et souvent limités à la saison touristique. Attention aux tramways et aux cyclistes qui traversent le pont quand vous vous arrêtez pour une photo.
+  dates:
+  - - Moyen Âge
+    - Un premier pont à cet endroit.
+  - - '1440'
+    - Début de la construction de l’église Saint-Michel.
+  - - 1898–1909
+    - La Poste sur la Korenmarkt.
+  - - vers 1910
+    - Le pont de pierre actuel est construit.
+  - - '1913'
+    - 'Exposition universelle : Gand se montre au monde.'
 sint-niklaaskerk:
   name: Église Saint-Nicolas
   blurb: 'L’église des marchands, du XIIIe siècle, en pierre bleu-gris de Tournai : du gothique scaldien. Sa tour est posée au milieu du toit et servait de tour de guet, bien avant le beffroi. Elle accueille aujourd’hui aussi des concerts et des expositions.'
+  text:
+  - 'L’église Saint-Nicolas est la première des trois tours de Gand que l’on voit en venant du pont Saint-Michel, et peut-être la plus belle. Elle est bâtie en gothique scaldien, un style que l’on ne trouve que dans cette région : un gothique simple et puissant en pierre bleu-gris de Tournai, acheminée à Gand par l’Escaut. Regardez les tourelles d’angle sur les pignons et la grande tour de croisée, qui ne se dresse pas à l’avant comme sur la plupart des églises mais au milieu du toit, au-dessus de l’endroit où la nef et le transept se croisent.'
+  - À l’intérieur, l’église est étonnamment claire et élevée. Ses fenêtres laissent entrer beaucoup de lumière du jour sur la pierre pâle, et l’on voit comment les bâtisseurs gothiques portaient le poids de la toiture avec des piliers et des arcs. Il y a un grand maître-autel baroque, et l’impressionnant orgue est l’œuvre du facteur d’orgues français Aristide Cavaillé-Coll, qui fit aussi les orgues de Notre-Dame et de Saint-Sulpice à Paris.
+  - L’église sert toujours aux offices, mais aussi aux concerts, aux expositions et aux événements. Précisément parce qu’elle se dresse sur la Korenmarkt animée, c’est un bon endroit pour un moment de calme.
+  history:
+  - 'Saint-Nicolas est l’église des marchands. Elle se dresse sur la Korenmarkt, où l’on commerçait le grain et d’autres marchandises au Moyen Âge, et fut payée par les riches marchands et les corporations de la ville. Saint Nicolas n’est pas un hasard : il est entre autres le saint patron des marchands et des bateliers. Une église romane se dressait d’abord ici ; au début du XIIIe siècle commencèrent les travaux de l’église gothique que l’on voit aujourd’hui.'
+  - La tour de croisée servit longtemps de guet à la ville. Des guetteurs y surveillaient les alentours, et ses cloches rassemblaient les habitants. Quand le beffroi fut achevé au XIVe siècle, il reprit ce rôle. Au fil des siècles, l’église fut frappée par des incendies, par la furie iconoclaste et par les révolutionnaires français, qui l’utilisèrent un temps comme écurie.
+  - À partir du XVIIIe siècle, de petites maisons et boutiques s’adossèrent à ses murs extérieurs, jusqu’à ce que l’église disparaisse presque derrière une rangée de façades. Celles-ci ne furent dégagées qu’au XXe siècle. À ce moment, l’église était dans un tel état qu’elle dut fermer un temps. Dans les années 1960 commença une longue restauration, qui dura des décennies et rendit à l’église la beauté bleu-gris que l’on voit aujourd’hui.
+  visit:
+  - L’église se dresse sur la Korenmarkt, entre le pont Saint-Michel et le beffroi, et se visite gratuitement. Elle est généralement ouverte tous les jours, le lundi souvent seulement à partir de midi, et pendant les offices et les événements une partie peut être fermée. Une visite dure environ vingt minutes.
+  - 'Gardez un œil sur la programmation : des récitals d’orgue et d’autres concerts ont lieu régulièrement, et c’est alors que l’on entend l’orgue Cavaillé-Coll à son meilleur.'
+  dates:
+  - - vers 1200
+    - Début de la construction de l’église gothique.
+  - - XIIIe siècle
+    - La tour de croisée sert de guet à la ville.
+  - - '1566'
+    - 'Furie iconoclaste : l’église est pillée.'
+  - - '1856'
+    - L’orgue Cavaillé-Coll.
+  - - XXe siècle
+    - Les maisons adossées sont dégagées.
+  - - 1960–2000
+    - Une longue restauration complète.
 stadhuis:
   name: Hôtel de ville
   blurb: 'Un hôtel de ville en deux styles : gothique tardif fleuri sur la Hoogpoort, Renaissance sobre sur le Botermarkt. Le manque d’argent et les guerres de religion ont sans cesse interrompu les travaux. La Pacification de Gand, une paix entre les provinces des Pays-Bas, y fut signée en 1576.'
+  text:
+  - 'L’hôtel de ville de Gand est en réalité deux bâtiments en un, comme on le voit tout de suite en en faisant le tour. Sur la Hoogpoort se dresse une exubérante façade gothique tardif, pleine de dentelle de pierre, de pinacles, de niches et de petits balcons : on dirait un écrin de pierre. Tournez le coin sur le Botermarkt et vous faites face à une sobre et majestueuse façade Renaissance à colonnes sur trois étages, inspirée de l’Antiquité classique. Les deux styles ne s’opposent pas ; ensemble, ils racontent l’histoire d’une ville qui passa un siècle à bâtir son hôtel de ville.'
+  - 'À l’intérieur se trouvent des salles de différents siècles. La salle de la Pacification, où fut signée la Pacification de Gand en 1576, a un sol à motif de labyrinthe. Le conseil se réunit et des réceptions ont lieu dans la salle du Trône et la salle de l’Arsenal, et dans l’ancienne salle de la Collation et la chapelle gothique, on voit comment les dirigeants de la ville se présentaient jadis. L’hôtel de ville est aussi l’endroit où les Gantois se marient : chaque semaine, des couples en sortent sous les yeux des touristes.'
+  - L’hôtel de ville est toujours le cœur du gouvernement de Gand. Le bourgmestre et les échevins y travaillent, et du balcon sur le Botermarkt, on acclame champions et fêtards.
+  history:
+  - Au Moyen Âge se trouvaient ici les maisons des échevins, les bâtiments des deux bancs d’échevins qui dirigeaient la ville. Au début du XVIe siècle, Gand était si riche et si fière qu’elle voulait un hôtel de ville qui éclipse tous les autres des Pays-Bas. En 1518, les maîtres d’œuvre Rombout Keldermans et Domien de Waghemakere, qui travaillèrent aussi à Anvers et à Malines, commencèrent l’aile gothique tardif sur la Hoogpoort.
+  - La construction s’enlisa vite. En 1539, Gand se souleva contre Charles Quint, perdit ses privilèges et une grande partie de son argent, et les travaux s’arrêtèrent. Ils ne reprirent qu’à la fin du XVIe et au début du XVIIe siècle, dans le nouveau style Renaissance, avec la façade sur le Botermarkt. Les guerres de religion et le manque d’argent firent que l’aile gothique ne fut jamais achevée selon le plan d’origine ; une partie ne fut terminée qu’au XIXe siècle.
+  - Le 8 novembre 1576, la Pacification de Gand fut signée à l’hôtel de ville. En un temps de guerre entre le roi d’Espagne et les Pays-Bas rebelles, les provinces convinrent de chasser ensemble les troupes espagnoles et de se tolérer malgré leurs confessions différentes. Ce fut une paix de courte durée, mais un moment important de l’histoire des Pays-Bas.
+  visit:
+  - 'L’hôtel de ville se trouve à l’angle de la Hoogpoort et du Botermarkt, entre le beffroi et le Vrijdagmarkt. On ne peut pas simplement y entrer : c’est un hôtel de ville en activité. On voit l’intérieur lors d’une visite guidée, à des heures fixes et souvent réservée par Visit Gent. L’extérieur, on peut bien sûr le regarder à tout moment, et cela vaut largement la peine.'
+  - Faites tout le tour du bâtiment pour voir les deux façades, et le samedi, regardez s’il y a un mariage.
+  dates:
+  - - Moyen Âge
+    - Les maisons des échevins de la ville à cet endroit.
+  - - '1518'
+    - L’aile gothique tardif sur la Hoogpoort est commencée.
+  - - '1539'
+    - 'Gand se révolte : la construction s’arrête.'
+  - - '1576'
+    - La Pacification de Gand est signée ici.
+  - - vers 1580–1620
+    - L’aile Renaissance sur le Botermarkt.
+  - - XIXe siècle
+    - Une partie de l’aile gothique est achevée.
 vrijdagmarkt:
   blurb: La place des marchés, des fêtes et des révoltes, où les comtes de Flandre prêtaient serment. Au milieu, Jacques van Artevelde, le brasseur qui dirigea Gand en 1338, montre le chemin. En face se dresse Ons Huis, la grande maison du mouvement ouvrier socialiste.
+  text:
+  - 'Le Vrijdagmarkt est l’une des plus grandes et des plus anciennes places de Gand, et pendant des siècles le cœur politique de la ville. C’est une large place ouverte, cernée de maisons à pignons à gradins, de façades baroques et de grands bâtiments du XIXe siècle, avec des terrasses de café tout autour. Au milieu se dresse la statue de bronze de Jacob van Artevelde, qui pointe vers l’ouest le bras tendu : vers l’Angleterre, le pays avec lequel il conclut un accord crucial.'
+  - Il y a beaucoup à découvrir autour de la place. Le grand Ons Huis (Notre Maison), avec sa riche façade colorée pleine d’inscriptions, fut le siège du mouvement ouvrier socialiste. Au coin se dresse le Toreken, la maison de la corporation des tanneurs à la tour élancée, aujourd’hui un centre de poésie. Et au café Dulle Griet, on boit la bière dans un « Max », un verre de plus d’un litre, pour lequel il faut laisser une chaussure en gage ; elle est alors hissée dans un panier jusqu’au plafond.
+  - Juste à côté de la place, sur la Grootkanonplein, se trouve la Dulle Griet (Margot la Folle), un énorme canon de fer forgé rouge du XVe siècle, l’un des plus grands canons médiévaux conservés. Il ne servit jamais vraiment au combat, mais c’est un symbole très aimé de la ville.
+  history:
+  - 'Le nom dit tout : un marché s’y tient chaque vendredi (vrijdag) depuis le Moyen Âge. Mais le Vrijdagmarkt était bien plus qu’une place de marché. C’est ici que les comtes de Flandre prêtaient serment lors de leur joyeuse entrée et promettaient de respecter les droits de la ville. Ici se réunissaient les corporations, se tenaient tournois et fêtes, et aussi des exécutions.'
+  - 'Au XIVe siècle, Gand fut prise dans la guerre de Cent Ans entre la France et l’Angleterre. Gand vivait de la draperie et avait besoin de laine anglaise. En 1338, le riche marchand Jacob van Artevelde prit la tête de la ville et maintint la Flandre neutre, si bien que la laine continua d’arriver. Son pouvoir ne dura pas : en 1345, il fut assassiné lors d’un soulèvement populaire. Cette même année, la place vit le « Lundi mauvais », un sanglant combat de rue entre les tisserands et les foulons qui fit des centaines de morts.'
+  - Au XIXe siècle, quand Gand devint une ville industrielle, le Vrijdagmarkt devint la place du mouvement ouvrier. Vers 1900, la coopérative Vooruit y bâtit l’Ons Huis, avec des magasins, un café et des salles de réunion pour les ouvriers. La statue de Van Artevelde, par Pieter De Vigne, arriva en 1863. Aujourd’hui, la place est surtout un lieu convivial de terrasses, avec un parking souterrain en dessous.
+  visit:
+  - Le Vrijdagmarkt est une place publique, toujours ouverte à tous, à cinq minutes à pied du Gravensteen et de l’hôtel de ville. Il y a toujours un marché le vendredi matin, et souvent aussi le samedi. Autour de la place, on peut manger et boire sur de nombreuses terrasses.
+  - Combinez votre visite avec une promenade jusqu’à la Grande Boucherie et au Patershol, ou de l’autre côté du pont jusqu’au canon Dulle Griet et au Kraanlei.
+  dates:
+  - - Moyen Âge
+    - Un marché chaque vendredi ; les comtes y prêtent serment.
+  - - '1338'
+    - Jacob van Artevelde prend la tête de Gand.
+  - - '1345'
+    - Le Lundi mauvais ; Van Artevelde est assassiné.
+  - - XVe siècle
+    - Le canon Dulle Griet.
+  - - '1863'
+    - La statue de Jacob van Artevelde.
+  - - vers 1900
+    - Ons Huis, siège du mouvement ouvrier socialiste.
 groot-vleeshuis:
   name: Grande Boucherie
   blurb: La halle couverte des bouchers, bâtie de 1406 à 1419. Des jambons sèchent encore sous son impressionnante charpente de bois. On peut aujourd’hui y acheter et goûter les produits régionaux de Flandre-Orientale.
+  text:
+  - 'La Grande Boucherie est une longue halle basse de pierre naturelle grise sur la Lys, avec des pignons à gradins aux deux extrémités et une rangée de petites lucarnes. De l’extérieur, elle paraît modeste, mais en entrant on lève les yeux : la charpente, un ingénieux réseau de poutres de chêne du XVe siècle, couvre toute la halle sans un seul pilier au milieu. C’est l’une des plus belles charpentes médiévales du pays.'
+  - 'Sous ces poutres pendent encore des dizaines de jambons gantois qui sèchent, comme le faisaient les bouchers il y a des siècles. Aujourd’hui, la halle est une vitrine des produits régionaux de Flandre-Orientale. On peut goûter et acheter : moutarde de Gand, neuzekes (les bonbons violets en forme de cône de Gand), fromages locaux, genièvre, bière et bien sûr jambon. Il y a aussi un café où l’on peut manger un plat régional.'
+  - 'Dehors, regardez les petites maisons adossées au mur sur le Groentenmarkt : les penshuisjes (maisons aux tripes). C’est là que l’on vendait les abats et les tripes moins chers, que l’on n’avait pas le droit de vendre dans la halle même. À l’arrière de la halle se trouve une petite chapelle où les bouchers avaient leur messe.'
+  history:
+  - Au Moyen Âge, on ne pouvait pas vendre de la viande n’importe où à Gand. La corporation des bouchers avait le monopole, et toute la viande fraîche devait être proposée dans cette halle couverte unique, sous la surveillance de la ville. Ainsi, la ville pouvait vérifier que la viande était fraîche et que les taxes étaient bien payées. La Grande Boucherie fut construite entre 1406 et 1419, à l’emplacement d’une halle à la viande plus ancienne.
+  - La corporation des bouchers était l’une des plus riches et des plus puissantes de la ville, et l’appartenance se transmettait de père en fils. Pendant des siècles, les Gantois vinrent ici acheter leur viande. Les maisons aux tripes furent construites plus tard contre le mur pour vendre abats et saucisses, que les bouchers ne voulaient pas à l’intérieur de la halle.
+  - Quand les corporations disparurent à la fin du XVIIIe siècle, la halle perdit sa raison d’être. Elle servit entre autres d’entrepôt et tomba en ruine. Après une restauration complète, elle reçut au début du XXIe siècle un nouveau rôle de lieu de rencontre pour la bonne cuisine de Flandre-Orientale, et les jambons y pendent de nouveau comme autrefois.
+  visit:
+  - La Grande Boucherie se trouve sur le Groentenmarkt, entre la Korenmarkt et le Gravensteen, sur la Lys. L’entrée est libre pendant les heures d’ouverture du magasin et du café, généralement du mardi au dimanche. Passez rapidement voir la charpente, ou prenez votre temps pour goûter et déjeuner.
+  - C’est l’endroit idéal pour rapporter chez soi un souvenir comestible de Gand. De l’autre côté de la Lys, on a la meilleure vue sur la longue façade de la halle.
+  dates:
+  - - 1406–1419
+    - La Grande Boucherie est construite.
+  - - XVe siècle
+    - La charpente de chêne couvre la halle.
+  - - '1795'
+    - Les corporations sont abolies ; la halle perd sa raison d’être.
+  - - XXIe siècle
+    - 'Après restauration : un centre des produits de Flandre-Orientale.'
+werregarenstraat:
+  name: La rue des Graffitis
+  blurb: 'Le Werregarenstraatje : depuis les années 1990, tout le monde peut y bomber, légalement. Les murs reçoivent une nouvelle couche de peinture presque chaque semaine, si bien qu’aucune visite ne ressemble à la précédente.'
+  text:
+  - Le Werregarenstraatje est une ruelle étroite entre la Hoogpoort et l’Onderstraat, à quelques pas de l’hôtel de ville et du Vrijdagmarkt. Elle est courte, mais chaque centimètre carré de ses murs, de ses portes, de ses gouttières et parfois même du sol est couvert de graffitis. C’est la rue de graffitis légale la plus connue de Belgique, et une galerie à ciel ouvert qui ne reste jamais la même.
+  - 'On y trouve de tout : des « pièces » colorées et techniquement brillantes d’artistes de graffiti expérimentés, des tags rapides, des pochoirs, des autocollants, des messages politiques, des petits personnages drôles et les premiers essais de débutants. Comme tout le monde peut bomber ici, tout est constamment repeint. Une œuvre que vous photographiez aujourd’hui peut avoir disparu demain. Sur certains murs, les couches de peinture font maintenant des centimètres d’épaisseur.'
+  - 'La ruelle est avant tout un endroit où regarder, prendre des photos et s’arrêter un moment près des artistes que l’on voit souvent à l’œuvre. C’est aussi un contraste intéressant avec les bâtiments médiévaux juste à côté : le vieux et le nouveau Gand à quelques mètres l’un de l’autre.'
+  history:
+  - 'Le nom renvoie au « werregaren », une sorte de fil que l’on travaillait dans ce quartier au Moyen Âge : un rappel du temps où Gand vivait du textile. Pendant longtemps, ce fut une rue de derrière ordinaire et plutôt oubliée.'
+  - Dans les années 1990, la ville décida d’ouvrir la ruelle aux graffitis, comme un lieu où jeunes et artistes pouvaient s’y adonner légalement. L’idée était qu’il y aurait moins de graffitis illégaux sur les bâtiments historiques s’il y avait un endroit où c’était permis. La ruelle devint un mot de passe dans le monde du graffiti et attire maintenant aussi de nombreux touristes.
+  - Gand compte maintenant plus d’endroits où le graffiti est légal, et la ville est connue pour son street art. Chaque année, de nouvelles fresques apparaissent en ville, parfois d’artistes de renommée internationale. Le Werregarenstraatje reste l’endroit où cette histoire a commencé.
+  visit:
+  - Le Werregarenstraatje est toujours ouvert et gratuit. On y accède depuis la Hoogpoort, près de l’hôtel de ville, ou depuis l’Onderstraat du côté du Vrijdagmarkt. Une visite rapide ne prend que quelques minutes, mais si l’on regarde de près, on y reste plus longtemps.
+  - 'Envie de bomber vous-même ? C’est permis, tant que vous respectez les voisins : ne bombez pas sur les fenêtres, les portes de maison ou les vélos garés, et emportez vos bombes vides.'
+  dates:
+  - - Moyen Âge
+    - La rue doit son nom au fil werregaren.
+  - - années 1990
+    - La ville ouvre la ruelle aux graffitis légaux.
+  - - Aujourd’hui
+    - Une nouvelle couche de peinture chaque semaine.
+kouter:
+  blurb: La place la plus chic de Gand, autrefois un champ et un lieu de défilés et de fêtes d’archers. Il y a un marché aux fleurs chaque dimanche depuis le XVIIIe siècle, avec une fanfare dans le kiosque à musique. Le kiosque bleu sert un verre pour aller avec.
+  text:
+  - Le Kouter est la grande et élégante place de Gand, au sud du vieux centre, à quelques minutes de la Veldstraat. Elle est large et lumineuse, cernée d’imposants hôtels particuliers des XVIIIe et XIXe siècles, de banques et de la salle de concert Handelsbeurs. Au milieu se dresse un gracieux kiosque à musique, et au bord le célèbre kiosque bleu, où l’on peut prendre un verre et manger un morceau.
+  - 'Chaque dimanche matin, le Kouter devient une mer de fleurs et de plantes : le marché aux fleurs est une tradition gantoise vieille de plusieurs siècles. Les habitants viennent acheter leur bouquet ou leur plante d’intérieur, boire un verre de cava ou de vin blanc avec des huîtres au kiosque et écouter la fanfare dans le kiosque à musique. C’est l’un des moments les plus conviviaux de la semaine gantoise.'
+  - En semaine, le Kouter est plus calme, un endroit que l’on traverse en allant à l’Opéra de Gand juste derrière la place, ou pour profiter un moment du soleil sur un banc.
+  history:
+  - Un « kouter » est un vieux mot flamand pour une terre agricole ouverte et commune. Au haut Moyen Âge, cette place était bien des champs juste hors de la ville. Quand Gand grandit et que le quartier se retrouva à l’intérieur des remparts, le grand espace ouvert resta.
+  - À la fin du Moyen Âge, le Kouter devint la place des défilés, des revues, des tournois et des fêtes des corporations d’archers, qui s’y exerçaient à l’arbalète et à l’arc long. On y tenait aussi des cérémonies publiques. Au XVIIIe siècle, elle devint la place de la noblesse et des riches bourgeois de Gand, qui firent construire leurs hôtels particuliers autour.
+  - 'Le marché aux fleurs commença au XVIIIe siècle et y est depuis. Gand est une vraie ville de fleurs : les environs sont connus pour l’horticulture ornementale, avec des bégonias, des azalées et plus encore, et les Floralies gantoises sont l’une des plus grandes expositions de fleurs du monde depuis le XIXe siècle. Au XIXe siècle vinrent le kiosque à musique et, juste derrière la place, l’Opéra ; avec la salle de concert Handelsbeurs, ils font du Kouter un centre culturel.'
+  visit:
+  - Le Kouter est une place publique, toujours ouverte à tous. Le marché aux fleurs a lieu le dimanche matin, grosso modo de 7 h à 13 h, et il est le plus animé entre 10 h et 12 h. On y va facilement à pied de la Korenmarkt par la Veldstraat, ou en tramway, qui s’arrête tout près.
+  - Combinez la visite avec une promenade dans la Veldstraat, la principale rue commerçante de Gand, ou avec un spectacle à l’Opéra ou au Handelsbeurs.
+  dates:
+  - - haut Moyen Âge
+    - Des terres agricoles hors de la ville.
+  - - fin du Moyen Âge
+    - Place des défilés, des tournois et des fêtes des archers.
+  - - XVIIIe siècle
+    - Le marché aux fleurs hebdomadaire commence ; hôtels de la noblesse.
+  - - '1840'
+    - L’Opéra de Gand juste derrière la place.
+  - - XIXe siècle
+    - Le kiosque à musique.
+vooruit:
+  blurb: 'La salle des fêtes de la coopérative socialiste Vooruit, ouverte en 1914 : les ouvriers y venaient danser, pour le théâtre et les concerts, et pour manger au café. Des artistes la sauvèrent de la ruine dans les années 1980. Aujourd’hui, c’est le centre d’art VIERNULVIER.'
+  text:
+  - 'Le Vooruit est un grand bâtiment frappant sur la Sint-Pietersnieuwstraat, avec deux petites tours, une riche façade mêlant Art nouveau et styles éclectiques, et de grandes fenêtres qui brillent chaleureusement le soir. Il fut construit comme salle des fêtes pour les travailleurs, et cela se voit toujours : à l’intérieur se trouvent une grande salle de bal à balcons, un théâtre, des salles plus petites, des cages d’escalier à vitraux et, au rez-de-chaussée, un immense café.'
+  - Aujourd’hui, c’est l’un des principaux centres d’art de Flandre, sous le nom de VIERNULVIER. Il y a des concerts, du rock et de l’électronique au jazz et aux musiques du monde, du théâtre et de la danse, des conférences, des débats, des soirées et des festivals. Le café du rez-de-chaussée est ouvert à tous, avec ou sans billet, et est un lieu de rencontre très aimé des étudiants, des artistes et des voisins.
+  - Proche de l’université, le Vooruit est comme le salon de la vie étudiante à Gand. Sur une terrasse de l’autre côté de la rue, avec vue sur la façade éclairée, on sent bien combien ce quartier est vivant.
+  history:
+  - Vooruit (En avant) fut d’abord une coopérative socialiste, fondée à Gand en 1880. Elle commença comme boulangerie coopérative où les ouvriers achetaient ensemble du bon pain bon marché ; les bénéfices servirent à ouvrir d’autres magasins, une pharmacie, une mutuelle et des activités culturelles. Le mouvement devint une grande organisation qui marqua la vie de milliers de familles ouvrières gantoises.
+  - Entre 1911 et 1914, la coopérative fit construire cette salle des fêtes, conçue par l’architecte Ferdinand Dierkens. Elle devait montrer aux travailleurs que la culture, le plaisir et la beauté étaient aussi pour eux, pas seulement pour la riche bourgeoisie. On y tenait des bals, des pièces, des concerts, des congrès et des réunions, et le café était plein tous les jours.
+  - Après la Seconde Guerre mondiale, le bâtiment perdit sa raison d’être ; les salles tombèrent en ruine et l’on parla même de démolition. Au début des années 1980, de jeunes artistes et amateurs de culture prirent l’initiative de redonner vie au Vooruit comme centre d’art. Le bâtiment fut classé et restauré étape par étape. En 2021, le centre d’art fut rebaptisé VIERNULVIER ; le bâtiment lui-même s’appelle toujours Vooruit.
+  visit:
+  - Le Vooruit se trouve sur la Sint-Pietersnieuwstraat, à environ dix minutes à pied de la Korenmarkt, dans le quartier étudiant. Le café est généralement ouvert tous les jours, de la fin de matinée jusque tard dans la nuit, et l’on peut simplement entrer. Pour les concerts et les spectacles, on achète un billet ; ils se vendent souvent vite.
+  - De temps en temps, il y a des visites guidées du bâtiment, qui vous emmènent dans les coulisses de ses salles.
+  dates:
+  - - '1880'
+    - La coopérative socialiste Vooruit est fondée.
+  - - 1911–1914
+    - La salle des fêtes est construite, conçue par Ferdinand Dierkens.
+  - - après 1945
+    - Déclin ; les salles tombent en désuétude.
+  - - '1982'
+    - Un nouveau départ comme centre d’art.
+  - - '2021'
+    - Le centre d’art est rebaptisé VIERNULVIER.
+sint-pietersabdij:
+  name: L’abbaye Saint-Pierre
+  blurb: L’abbaye sur la colline du Blandijnberg fut fondée au VIIe siècle, par saint Amand selon la tradition, et devint l’une des plus riches de Flandre. L’église baroque à coupole (1629-1720) est de Pieter Huyssens. Les Français dissolurent l’abbaye en 1796 ; aujourd’hui, c’est une salle d’exposition, avec derrière ses murs un jardin d’abbaye de vignes et de ruines.
+  text:
+  - L’abbaye Saint-Pierre se dresse sur le Blandijnberg, le point le plus élevé de la vieille ville, sur la grande Sint-Pietersplein. Ce que l’on voit d’abord est l’église baroque Notre-Dame-de-Saint-Pierre, avec sa majestueuse façade et sa grande coupole qui domine les toits de loin. À côté de l’église se trouvent les anciens bâtiments de l’abbaye, autour d’un cloître, avec un réfectoire, une salle capitulaire et des caves qui ont par endroits des siècles.
+  - 'Aujourd’hui, les bâtiments de l’abbaye sont une salle d’exposition, qui accueille de grandes expositions sur l’art, l’histoire et le monde d’aujourd’hui. Derrière les murs se cache un joyau : le jardin de l’abbaye. On y trouve un potager, des arbres fruitiers, un jardin d’herbes, les ruines de bâtiments plus anciens de l’abbaye et même une vigne sur la pente, un rappel des moines qui y firent du vin pendant des siècles. C’est l’un des endroits les plus calmes de la ville.'
+  - La Sint-Pietersplein devant est l’une des plus grandes places de Gand. Elle sert aux fêtes foraines, aux cirques, aux événements et aux marchés, et se trouve près du quartier universitaire et du Citadelpark.
+  history:
+  - Selon la tradition, saint Amand fonda ici un monastère au VIIe siècle, sur le Blandijnberg qui domine le confluent de la Lys et de l’Escaut. L’abbaye devint l’une des plus riches et des plus puissantes de Flandre, avec de vastes domaines et une grande bibliothèque. Pendant longtemps, elle fut la grande rivale de l’abbaye Saint-Bavon de l’autre côté de la ville.
+  - Au IXe siècle, l’abbaye fut pillée par les Vikings, mais fut reconstruite. Des comtes de Flandre y furent enterrés, et l’abbaye joua un grand rôle dans la vie de la ville. Elle fut gravement touchée par la furie iconoclaste de 1566. Elle fut ensuite reconstruite, et entre 1629 et 1720 s’éleva l’actuelle église baroque, conçue par l’architecte jésuite Pieter Huyssens.
+  - En 1796, les révolutionnaires français abolirent l’abbaye, comme tous les monastères. Les moines durent partir et le bien fut vendu. Les bâtiments servirent plus tard entre autres de casernes. Ce n’est qu’au XXe siècle qu’ils reçurent un nouveau rôle de centre culturel et d’espace d’exposition. Le jardin de l’abbaye fut restauré et est maintenant un cœur vert public dans la ville.
+  visit:
+  - L’abbaye se trouve sur la Sint-Pietersplein, à environ quinze minutes à pied du centre, ou en tramway jusqu’à proximité. Le jardin de l’abbaye est généralement d’entrée libre en journée, avec des horaires plus courts en hiver. Pour les expositions de la salle d’art, on achète un billet. L’église est régulièrement ouverte aux visiteurs.
+  - Combinez la visite avec une promenade jusqu’au Citadelpark, au S.M.A.K. ou au Musée des Beaux-Arts, tous à distance de marche.
+  dates:
+  - - VIIe siècle
+    - Fondée, selon la tradition, par saint Amand.
+  - - IXe siècle
+    - Pillée par les Vikings.
+  - - '1566'
+    - Gravement touchée par la furie iconoclaste.
+  - - 1629–1720
+    - L’église baroque est construite, d’après Pieter Huyssens.
+  - - '1796'
+    - Les Français abolissent l’abbaye.
+  - - XXe siècle
+    - Une nouvelle vie comme espace d’exposition et salle d’art.
+zuid:
+  name: Gent Zuid
+  blurb: 'Jusqu’en 1928, la gare du Sud, la première gare de Gand, se dressait ici. Aujourd’hui, c’est la plaque tournante de De Lijn : la plupart des bus de la ville y commencent et y finissent, et les tramways y passent en route vers le centre et Sint-Pieters.'
+  text:
+  - '« Zuid » (Sud), comme les Gantois l’appellent simplement, est le quartier autour de la Woodrow Wilsonplein et de la Frère-Orbanlaan, juste au sud-est du vieux centre. Ce n’est pas un site classique, mais en tant que visiteur vous y passerez presque certainement : c’est la principale plaque tournante des transports publics de Gand. La plupart des bus urbains de De Lijn s’y rejoignent, et les tramways y passent en allant vers le centre, la gare de Gent-Sint-Pieters et la périphérie.'
+  - Autour de la place se trouvent le centre commercial Zuid, des bureaux, des appartements et le grand ancien bâtiment de la bibliothèque. Tout près se trouve le parc Roi Albert, une bande verte d’arbres et de pelouses où passait autrefois le chemin de fer, avec un monument au roi Albert Ier. C’est un quartier vivant et plutôt animé, où l’on voit comment la Gand moderne fonctionne et vit.
+  - 'Pour explorer la ville, Zuid est un point de départ pratique : d’ici, il y a dix minutes à pied jusqu’au Kouter et à la Korenmarkt, et quelques minutes en tramway jusqu’à la gare ou au centre.'
+  history:
+  - 'En 1837, Gand eut sa première gare, la gare du Sud, à l’emplacement de la place actuelle. C’était un splendide bâtiment avec un grand hall, et l’une des premières gares du pays : la Belgique fut pionnière du chemin de fer sur le continent européen. Autour de la gare grandit un nouveau quartier chic d’avenues larges et d’hôtels particuliers.'
+  - Au début du XXe siècle, la gare de Gent-Sint-Pieters fut construite, à l’approche de l’Exposition universelle de 1913. Elle reprit peu à peu le rôle de la gare du Sud, et l’ancienne gare ferma en 1928. Le bâtiment fut alors démoli, et les voies firent place au parc Roi Albert et à la Woodrow Wilsonplein, nommée d’après le président américain de la Première Guerre mondiale.
+  - Dans la seconde moitié du XXe siècle, Zuid devint la plaque tournante des bus urbains, et le centre commercial et la bibliothèque municipale arrivèrent. La bibliothèque déménagea en 2017 à De Krook, sur l’Escaut. Aujourd’hui, on réfléchit à l’avenir du quartier, pour le rendre plus vert et plus agréable pour ceux qui y vivent et y passent.
+  visit:
+  - Zuid est toujours ouvert à tous. La plupart des bus urbains s’y arrêtent, et les tramways aussi. Pour les horaires et les billets, le site ou l’application de De Lijn est l’endroit où regarder.
+  - Si vous voulez manger ou boire quelque chose, il y a de nombreux endroits dans le centre commercial et autour. Pour une pause, allez dans le parc Roi Albert.
+  dates:
+  - - '1837'
+    - La gare du Sud ouvre, la première de Gand.
+  - - '1912'
+    - La nouvelle gare de Gent-Sint-Pieters.
+  - - '1928'
+    - La gare du Sud ferme et est démolie.
+  - - fin du XXe siècle
+    - Plaque tournante des bus, centre commercial et bibliothèque.
+  - - '2017'
+    - La bibliothèque déménage à De Krook.
+blaarmeersen:
+  name: Blaarmeersen
+  blurb: Le parc de sports et de loisirs de Gand, près du Watersportbaan. Les jours de chaleur, la plage du lac de baignade est bondée, et les joggeurs font leurs tours autour du bassin d’aviron de 2,3 km. Il y a aussi un camping, une piste d’athlétisme et du beach-volley.
+  text:
+  - 'Le Blaarmeersen est le grand parc de sports et de loisirs de Gand, à l’ouest de la ville, à un quart d’heure à vélo du centre. C’est une oasis verte de bois, de pelouses et d’eau, autour d’un grand lac de baignade à plage de sable. Les chaudes journées d’été, on se croirait au bord de la mer : des centaines de Gantois s’allongent sur la plage, nagent, jouent au beach-volley ou pique-niquent sur l’herbe.'
+  - 'Le long du parc court le Watersportbaan, un bassin d’aviron parfaitement rectiligne de plus de deux kilomètres. Rameurs et kayakistes s’y entraînent, et c’est un parcours de course à pied très apprécié : la boucle autour de l’eau est le circuit habituel de nombreux joggeurs gantois. Il y a aussi une piste d’athlétisme, des courts de tennis, un skatepark, un minigolf, des aires de jeux, un mur d’escalade, des sentiers et des pistes cyclables, et un camping.'
+  - Le parc jouxte une réserve naturelle de roselières et d’étangs, où l’on peut observer des oiseaux. Le Blaarmeersen est ainsi à la fois un parc de sports, une plage urbaine et un peu de nature, le tout dans les limites de la ville.
+  history:
+  - 'Les « meersen » sont des prairies basses et humides le long d’une rivière, et c’est ce qu’était ce lieu pendant des siècles : des prairies marécageuses le long de la Lys, souvent sous l’eau en hiver. Le nom Blaarmeersen rappelle ce vieux paysage.'
+  - Dans les années 1950, le Watersportbaan fut creusé ici, un long bassin d’aviron rectiligne pour des courses internationales. Gand y accueillit de grands championnats d’aviron, et le bassin devint un mot de passe dans le monde de l’aviron. La terre extraite servit à surélever le terrain à côté.
+  - Dans les décennies suivantes, le Blaarmeersen devint un grand parc de loisirs pour toute la ville, avec le lac de baignade, la plage, les terrains de sport et le camping. Pour beaucoup de Gantois sans jardin ni voyage à la mer, c’est l’endroit où se rafraîchir en été, et l’endroit du sport toute l’année.
+  visit:
+  - Le parc est ouvert à tous. La plage et le lac de baignade sont ouverts pendant les mois d’été, avec des maîtres nageurs, moyennant un petit droit d’entrée. On s’y rend facilement à vélo, le long de la Lys ou du Watersportbaan, ou en bus. Le camping et les installations sportives ont leurs propres horaires et réservations.
+  - 'Par une journée d’été, apportez votre maillot et un pique-nique, et venez tôt si vous le pouvez : les jours les plus chauds, il y a du monde.'
+  dates:
+  - - Pendant des siècles
+    - Des prairies humides le long de la Lys.
+  - - années 1950
+    - Le Watersportbaan est creusé.
+  - - Aujourd’hui
+    - Plage, sport, camping et nature à un quart d’heure du centre.
+mammelokker:
+  name: Le Mammelokker
+  blurb: 'Regardez au-dessus de la porte de cette petite maison contre la Halle aux draps : une jeune femme donne le sein à un vieil homme. C’est la légende romaine de Pero, qui allaita son père Cimon quand il fut laissé mourir de faim en prison. Quand cela se sut, il fut libéré. Les gardiens de la prison de la ville, qui se trouvait dans les caves de la Halle aux draps de 1742 à 1902, habitaient ici. Mammelokker est le dialecte gantois pour « suceur de sein ». Le relief date de 1741, resculpté par Jan Anteunis en 1962.'
+  text:
+  - 'Le Mammelokker est la petite maison contre le pied de la Halle aux draps, où habitaient les gardiens de la prison de la ville : de 1742 à 1902, la prison se trouvait dans les caves de la Halle aux draps. Au-dessus de sa porte, un relief de pierre de 1741, resculpté par Jan Anteunis en 1962, montre une jeune femme qui donne le sein à un vieil homme.'
+  - 'C’est la légende romaine de Pero, qui allaita son père Cimon quand il fut laissé mourir de faim en prison ; quand cela se sut, il fut libéré. Gand a nommé la maison d’après elle : mammelokker est le dialecte gantois pour « suceur de sein ».'
+karel-sabbeberg:
+  name: Le Karel Sabbeberg
+  blurb: La seule montagne de Gand, haute d’une trentaine de mètres, faite de main d’homme. Jusqu’en 2003, Gand y skiait sur des tapis de brosses. En 2019, elle fut nommée d’après l’ultrarunner Karel Sabbe, qui la monta et la descendit des milliers de fois à l’entraînement. Depuis 2009, une tour d’observation au sommet domine la ville.
+  text:
+  - La seule montagne de Gand mesure une trentaine de mètres et est faite de main d’homme, dans le parc du Blaarmeersen. Jusqu’en 2003, Gand y skiait sur des tapis de brosses. En 2019, elle fut nommée d’après l’ultrarunner Karel Sabbe, qui la monta et la descendit des milliers de fois à l’entraînement.
+  - Depuis 2009, une tour d’observation en bois se dresse au sommet, d’où l’on voit par-dessus les lacs et les bois du parc jusqu’aux tours de la vieille ville. Dans le jeu, elle cache un secret pour qui monte jusqu’en haut.
+neuzekes:
+  name: Les cuberdons
+  blurb: Des bonbons violets en forme de cône au cœur de framboise coulant, vendus depuis de petits chariots sur le Groentenmarkt.
+  text:
+  - Un cuberdon, ou neuzeke (« petit nez ») à Gand, est un cône de gomme arabique à croûte de sucre dure et à intérieur mou et sirupeux au goût de framboise. Comme la croûte sèche et que l’intérieur cristallise en quelques semaines, ils n’ont jamais vraiment voyagé, et sont restés une gourmandise belge, et surtout gantoise.
+  - Sur le Groentenmarkt, juste à côté de la Grande Boucherie, deux vendeurs se font face avec leurs chariots depuis des années, et leur querelle sur qui vend les vrais neuzekes est devenue une légende locale. Dans le jeu, vous passez devant eux.
+tram:
+  name: Les tramways
+  blurb: Les tramways blancs et jaunes de De Lijn, qui font sonner leur cloche dans les rues étroites de la vieille ville.
+  text:
+  - Gand a des tramways depuis le XIXe siècle, d’abord tirés par des chevaux, et c’est l’une des rares villes belges à les avoir gardés. Aujourd’hui, les lignes 1, 2 et 4 de De Lijn traversent la ville, se faufilant dans le vieux centre le long de la Korenmarkt et de la Kortrijksesteenweg, où elles partagent les pavés avec les cyclistes et les piétons.
+  - 'Dans le jeu, les tramways circulent sur leurs vraies lignes, s’arrêtent à leurs vrais arrêts et font sonner leur cloche pour quiconque est sur leur chemin. Attention aux rails à vélo : les roues et les rails de tramway ne font pas bon ménage.'
+gentse-feesten:
+  name: Les Fêtes de Gand
+  blurb: Dix jours chaque juillet où toute la vieille ville devient l’un des plus grands festivals de rue d’Europe.
+  text:
+  - Les Fêtes de Gand commencèrent en 1843 pour offrir aux ouvriers de la ville une fête bien à eux, et devinrent un festival de dix jours à la mi-juillet. Chaque place de la vieille ville reçoit une scène, du Vrijdagmarkt à la Sint-Baafsplein, avec de la musique, du théâtre de rue et des spectacles de marionnettes, en grande partie gratuits.
+  - Plus d’un million de visiteurs viennent pendant ces dix jours. Le festival se termine par le « Dag van de Lege Portemonnee », le jour du portefeuille vide, où la ville cuve.
+fietsstad:
+  name: La ville cyclable
+  blurb: Depuis 2017, les voitures ne peuvent plus traverser le centre tout droit, et les vélos ont pris possession des rues.
+  text:
+  - En 2017, Gand divisa son centre en secteurs que les voitures ne peuvent atteindre que depuis le boulevard de ceinture, et non l’un depuis l’autre. La circulation de transit disparut presque du jour au lendemain, et le nombre de cyclistes grimpa en flèche. De nombreuses rues devinrent des fietsstraten, des rues cyclables, où les voitures sont des invitées et ne peuvent pas dépasser un vélo.
+  - 'C’est pourquoi le jeu vous fait commencer à vélo : c’est comme cela que la plupart des Gantois se déplacent, devant les trois tours et le long de la Lys.'
