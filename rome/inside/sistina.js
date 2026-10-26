@@ -9,7 +9,7 @@
 import * as THREE from 'three';
 import { Parts } from '../../core/js/inside/gothic.js';
 import { hall, framed, bench, paintedVault, patternFloor, visitors, rope, wanderers } from '../../core/js/inside/rooms.js';
-import { sistineCeiling, lastJudgment, chapelFresco, drapery, cosmati, oldMaster } from '../../core/js/inside/art.js';
+import { sistineCeiling, lastJudgment, chapelFresco, drapery, cosmati, oldMaster, famous } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 import { steps, candelabra } from '../../core/js/inside/props.js';
 
@@ -43,7 +43,8 @@ export function makeSistina() {
     p.picture(curtains, 2 * Z - 1.2, 5, x + Math.sign(-x) * 0.02, 2.6, 0, ry);
     for (let k = 0; k < 6; k++) {
       const z = -Z + 4.3 + k * 8.5;
-      framed(p, chapelFresco(k + (x < 0 ? 0 : 6)), 7.6, 4.6, x, 8.0, z, ry, { f: 0.22, color: 0xc8a870, label: false, lamp: false });
+      // (the second on the north wall from the door: Perugino's Delivery of the Keys)
+      framed(p, x < 0 && k === 1 ? famous('the-delivery-of-the-keys', 7.6, 4.6) : chapelFresco(k + (x < 0 ? 0 : 6)), 7.6, 4.6, x, 8.0, z, ry, { f: 0.22, color: 0xc8a870, label: false, lamp: false });
       if (k < 5) framed(p, oldMaster(5 * (k + 7)), 1.5, 2.6, x, 13.6, z + 4.25, ry, { f: 0.15, color: 0xc8a870, label: false, lamp: false }); // a pope in his niche
     }
     p.stone.box(0.5, 0.4, 2 * Z - 1.2, 0xd8c8a8, x + Math.sign(-x) * 0.2, 5.4, 0); // the cornices between the tiers

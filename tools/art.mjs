@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // The famous paintings, statues and treasures in the buildings you can go into, on the site: the
 // page of them all at /art/ (art/index.html, _layouts/art.html) and a page for each at /art/<id>/
-// (_layouts/artwork.html), from _data/art.json. Each piece's photo comes from Wikimedia Commons (its
+// (_layouts/artwork.html), from _data/art.json, and the list the game shows them full screen from
+// (core/js/inside/artlist.js: those with a photo). Each piece's photo comes from Wikimedia Commons (its
 // `commons` file): assets/img/art/<id>.jpg (at most 1280 pixels along its longer side, for its page
 // and to hang in the game, core/js/inside/photo.js) and <id>-s.jpg (at most 480, for the cards), its
 // author, licence and source kept in _data/art_photos.json for the credit line.

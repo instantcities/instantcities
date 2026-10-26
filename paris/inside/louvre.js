@@ -10,7 +10,7 @@ import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
 import { hall, skylight, barrel, framed, hang, plinth, bench, rope, vitrine, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
-import { monaLisa, weddingAtCana, raftOfMedusa, libertyLeading, oldMaster, masterSize } from '../../core/js/inside/art.js';
+import { monaLisa, weddingAtCana, raftOfMedusa, libertyLeading, oldMaster, masterSize, famous } from '../../core/js/inside/art.js';
 import { venusDeMilo, victory, roman, bust } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
@@ -95,11 +95,17 @@ export function makeLouvre() {
     for (const [x, ry] of [[G.x0 + 0.47, Math.PI / 2], [G.x1 - 0.47, -Math.PI / 2]]) {
       for (let z = G.z0 + 12; z < G.z1 - 26; z += 6) {
         if (x < cx && z < 58) continue; // the doorway from the stair
+        if ((x < cx && z === 72) || z === 132) continue; // the Virgin of the Rocks; the Horatii and the Odalisque
         const s1 = seed++, s2 = seed++, [w1, h1] = masterSize(s1), [w2, h2] = masterSize(s2);
         framed(p, oldMaster(s1), w1, h1, x, 3.0, z, ry);
         framed(p, oldMaster(s2), w2 * 0.8, h2 * 0.8, x, 6.0, z + 1.5, ry);
       }
     }
+    // Leonardo's Virgin of the Rocks among the Italians; nearer the end David's Oath of the Horatii
+    // facing Ingres's Grande Odalisque
+    framed(p, famous('virgin-of-the-rocks', 1.55, 2.5), 1.55, 2.5, G.x0 + 0.47, 3.6, 72, Math.PI / 2, { f: 0.3 });
+    framed(p, famous('oath-of-the-horatii', 5.3, 4.1), 5.3, 4.1, G.x0 + 0.47, 4.0, 132, Math.PI / 2, { f: 0.4 });
+    framed(p, famous('la-grande-odalisque', 2.9, 1.65), 2.9, 1.65, G.x1 - 0.47, 3.4, 132, -Math.PI / 2, { f: 0.35 });
     // the two great ones at the end: the Raft facing Liberty
     framed(p, raftOfMedusa(), 9.0, 6.4, G.x0 + 0.47, 4.6, 150, Math.PI / 2, { f: 0.5 });
     framed(p, libertyLeading(), 7.6, 6.0, G.x1 - 0.47, 4.5, 150, -Math.PI / 2, { f: 0.5 });
@@ -128,6 +134,8 @@ export function makeLouvre() {
     g.add(crowd(cx, mz, 16, 4.2, 8.5, Math.PI * 0.62, Math.PI * 1.38, 61));
     // the Wedding at Cana over the whole south wall, west of the doorway
     framed(p, weddingAtCana(), 12.4, 8.5, 8.2, 5.4, E.z0 + 0.47, 0, { f: 0.5 });
+    // and east of it David's Coronation of Napoleon (its real room, the Salle Daru, is next door)
+    framed(p, famous('the-coronation-of-napoleon', 7.4, 4.68), 7.4, 4.68, 27.3, 4.6, E.z0 + 0.47, 0, { f: 0.3 });
     // Venetians on the side walls
     let seed = 80;
     for (const [x, ry] of [[E.x0 + 0.47, Math.PI / 2], [E.x1 - 0.47, -Math.PI / 2]]) {

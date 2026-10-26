@@ -9,7 +9,7 @@
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
 import { hall, skylight, framed, plinth, bench, rope, visitors, crowd, paintedVault, wanderers } from '../../core/js/inside/rooms.js';
-import { birthOfVenus, primavera, arnoView, grotesques, oldMaster, masterSize } from '../../core/js/inside/art.js';
+import { birthOfVenus, primavera, arnoView, grotesques, oldMaster, masterSize, famous } from '../../core/js/inside/art.js';
 import { venusDeMedici, roman, bust } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
@@ -107,7 +107,11 @@ export function makeUffizi() {
     const cx = (B.x0 + B.x1) / 2;
     framed(p, birthOfVenus(), 10.8, 6.8, cx, 4.6, B.z1 - 0.47, Math.PI, { f: 0.35 });
     framed(p, primavera(), 9.9, 6.4, B.x0 + 0.47, 4.6, (B.z0 + B.z1) / 2, Math.PI / 2, { f: 0.35 });
-    for (const [x, sd] of [[cx - 7, 401], [cx, 402], [cx + 7, 403]]) { const [w, h] = masterSize(4); framed(p, oldMaster(sd * 5 - 1), w * 1.4, h * 1.4, x, 3.6, B.z0 + 0.47, 0); }
+    for (const [x, sd] of [[cx - 7, 401], [cx + 7, 403]]) { const [w, h] = masterSize(4); framed(p, oldMaster(sd * 5 - 1), w * 1.4, h * 1.4, x, 3.6, B.z0 + 0.47, 0); }
+    // Leonardo's Annunciation between them; on the east wall Titian's Venus of Urbino and Caravaggio's Medusa
+    framed(p, famous('the-annunciation', 3.6, 1.63), 3.6, 1.63, cx, 3.2, B.z0 + 0.47, 0, { f: 0.3 });
+    framed(p, famous('venus-of-urbino', 2.6, 1.88), 2.6, 1.88, B.x1 - 0.47, 3.4, 79, -Math.PI / 2, { f: 0.3 });
+    framed(p, famous('medusa', 1.1, 1.1), 1.1, 1.1, B.x1 - 0.47, 2.8, 61, -Math.PI / 2, { f: 0.2 });
     rope(p, [cx - 6, B.z1 - 3.4], [cx + 6, B.z1 - 3.4]);
     bench(p, cx, (B.z0 + B.z1) / 2, 5, 0);
     g.add(crowd(cx, B.z1, 12, 4.6, 8.4, Math.PI * 0.68, Math.PI * 1.32, 91));
