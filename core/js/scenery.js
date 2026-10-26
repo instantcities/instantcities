@@ -15,7 +15,7 @@ import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
 export { drawAgain } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, NO_TREES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -316,7 +316,7 @@ function groundMats(ctx) {
     noise(g, w, h, r, 10, [1, 1, 1]);
     g.strokeStyle = ctx.theme.paving ? 'rgba(62,64,68,0.3)' : 'rgba(90,85,78,0.35)';
     g.lineWidth = 2;
-    for (let k = 0; k <= w; k += 32) {
+    for (let k = 0; k <= w && ctx.theme.pavingJoints !== false; k += 32) { // (a theme with pavingJoints: false has an unjointed path, chalk or gravel)
       g.beginPath(); g.moveTo(k, 0); g.lineTo(k, h); g.stroke();
       g.beginPath(); g.moveTo(0, k); g.lineTo(w, k); g.stroke();
     }
@@ -2134,6 +2134,7 @@ function fountains(ctx, list) {
 
 // Trees from the map, and more of them in its parks and woods.
 function osmTrees(ctx, map) {
+  if (NO_TREES) return; // open country (a city's or site's city.js says NO_TREES = true)
   const { r } = ctx;
   const list = { pine: [], round: [], poplar: [] };
   // (a map tree stands off the houses: its crown is 2.5 m across, and some stand against a front or in

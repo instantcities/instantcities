@@ -66,13 +66,41 @@
 - id: stonehenge
   name: Stonehenge
   place: Wiltshire, England
-  soon: true
-  card: "The ring of standing stones on Salisbury Plain, with the midsummer sunrise over the Heel Stone."
+  game: Instant Stonehenge
+  title: "Instant Stonehenge: a free virtual 3D tour and game of Stonehenge"
+  description: "Take a free virtual 3D tour of Stonehenge in your browser, then walk, cycle or ride round the stones yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race round the stones of Stonehenge, on Salisbury Plain."
+  lead: "The sarsen circle with its lintels, the horseshoe of trilithons, the bluestones, the Heel Stone on the line of the midsummer sunrise, and the Avenue running away to the north-east."
+  card: "The ring of standing stones on Salisbury Plain, with the Heel Stone on the line of the midsummer sunrise."
+  features:
+    - { icon: castle, title: "The stones as they stand", text: "The 17 sarsens that are still up with their lintels, the trilithons in their horseshoe, the bluestones, the Altar Stone, the Heel Stone, the Station Stones, the Aubrey holes, and the bank and ditch, modelled by hand from the plan." }
+    - { icon: flag, title: "A race round the stones", text: "Once round the monument on a path outside the bank and ditch, 750 metres, past the Heel Stone and the start of the Avenue." }
+    - { icon: map, title: "From OpenStreetMap", text: "The fields, the tracks and the trees round it come from OpenStreetMap; the paths are drawn in by hand." }
+  facts:
+    - { label: "Built", text: "From about 3000 BC, in stages over some 1,500 years" }
+    - { label: "Sarsens", text: "30 uprights and 30 lintels in a circle 33 metres across; 17 uprights and 6 lintels still stand" }
+    - { label: "Bluestones", text: "About 2 metres high, from the Preseli Hills in Wales, some 250 kilometres away" }
+    - { label: "In the game", text: "The stone circle, the trilithons, the bluestones, the Heel Stone and the Slaughter Stone, the Aubrey holes, the bank and the ditch" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 - id: giza
   name: Giza
   place: Giza, Egypt
-  soon: true
-  card: "The three great pyramids and the Sphinx on their plateau above the Nile."
+  game: Instant Giza
+  title: "Instant Giza: a free virtual 3D tour and game of the pyramids and the Sphinx"
+  description: "Take a free virtual 3D tour of the Giza plateau in your browser, then walk, cycle or ride past the pyramids and the Sphinx yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race over the Giza plateau, past the pyramids and the Sphinx."
+  lead: "The Great Pyramid, the pyramids of Khafre and Menkaure, the queens' pyramids, the Sphinx with its temple, and the edge of the town at the foot of the plateau."
+  card: "The three great pyramids and the Sphinx on their plateau, with the edge of the town below."
+  features:
+    - { icon: castle, title: "The pyramids and the Sphinx", text: "The three great pyramids and three queens' pyramids, built course by course from their measurements (with the smooth casing still on top of Khafre's), and the Sphinx with its temple, modelled by hand." }
+    - { icon: flag, title: "A race round the plateau", text: "About four kilometres on the roads over the plateau: past the Great Pyramid, down to the Sphinx, below the pyramids of Khafre and Menkaure, and back up the west side." }
+    - { icon: map, title: "From OpenStreetMap", text: "The edge of the town, the tombs round the pyramids and the paths come from OpenStreetMap; the roads over the plateau are drawn in by hand." }
+  facts:
+    - { label: "Great Pyramid", text: "Built about 2560 BC for Khufu: 230 metres a side, 146.6 metres high once and 138.5 now" }
+    - { label: "Pyramid of Khafre", text: "136 metres high, with its smooth casing still on the top; it looks the tallest as it stands on higher ground" }
+    - { label: "The Sphinx", text: "73 metres long and 20 high, carved from the bedrock about 2500 BC, facing due east" }
+    - { label: "In the game", text: "The six pyramids, the Sphinx and its temple, the tombs and the edge of the town" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 - id: acropolis
   name: Acropolis
   place: Athens, Greece

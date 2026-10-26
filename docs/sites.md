@@ -35,6 +35,7 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
+- `drop_ruins`: leaves out the ruins and tombs OpenStreetMap maps as buildings (Giza's), for the site's own monuments.
 - `floors`: the most floors a building gets, for the few houses and halls that are left.
 
 The map is centred on its first race route and scaled by 1.25, so a monument's position in game

@@ -1,0 +1,12 @@
+{
+  "id": "stonehenge",
+  "name": "Instant Stonehenge",
+  "title": "Instant Stonehenge: a free virtual 3D tour and game of Stonehenge",
+  "description": "Take a free virtual 3D tour of Stonehenge in your browser, then walk, cycle or ride round the stones yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Stonehenge: a virtual 3D tour of Stonehenge",
+  "share_description": "Walk, cycle or ride round the stones of Stonehenge in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set at Stonehenge in Wiltshire, England: explore the stone circle or race round it by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Walk, cycle or ride round a 3D Stonehenge in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Stonehenge",
+  "style": ":root { --paper: #f6f3ea; --accent: #5f6b3a; --accent-soft: #e3e6d2; --gold: #d9a72e; --sky: #e4eaee; --skyline: #a9b48a; --glass: rgba(246, 243, 234, 0.72); } .tag { color: #3d4724; }"
+}
