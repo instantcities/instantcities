@@ -12,16 +12,28 @@
 //                    `node tools/osm_map.mjs new-york`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs new-york`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs new-york`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   deco.js          the Art Deco towers' parts: the map's stack of a tower's parts, dressed in its stripes
+//   empire-state.js  the Empire State Building, on the map's stack of it, with its mast and antenna
+//   chrysler.js      the Chrysler Building, on the map's stack of it, with its crown, spire and eagles
+//   grand-central.js Grand Central Terminal and its 42nd Street front, in place of the map's block of it
+//   library.js       the Public Library on Fifth Avenue and its lions, in place of the map's parts of it
+//   st-patricks.js   St Patrick's Cathedral and its spires, in place of the map's blocks of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { EMPIRE_STATE } from './empire-state.js';
+import { CHRYSLER } from './chrysler.js';
+import { GRAND_CENTRAL } from './grand-central.js';
+import { LIBRARY } from './library.js';
+import { ST_PATRICKS } from './st-patricks.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...EMPIRE_STATE, ...CHRYSLER, ...GRAND_CENTRAL, ...LIBRARY, ...ST_PATRICKS];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
