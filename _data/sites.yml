@@ -85,8 +85,22 @@
 - id: giza
   name: Giza
   place: Giza, Egypt
-  soon: true
-  card: "The three great pyramids and the Sphinx on their plateau above the Nile."
+  game: Instant Giza
+  title: "Instant Giza: a free virtual 3D tour and game of the pyramids and the Sphinx"
+  description: "Take a free virtual 3D tour of the Giza plateau in your browser, then walk, cycle or ride past the pyramids and the Sphinx yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race over the Giza plateau, past the pyramids and the Sphinx."
+  lead: "The Great Pyramid, the pyramids of Khafre and Menkaure, the queens' pyramids, the Sphinx with its temple, and the edge of the town at the foot of the plateau."
+  card: "The three great pyramids and the Sphinx on their plateau, with the edge of the town below."
+  features:
+    - { icon: castle, title: "The pyramids and the Sphinx", text: "The three great pyramids and three queens' pyramids, built course by course from their measurements (with the smooth casing still on top of Khafre's), and the Sphinx with its temple, modelled by hand." }
+    - { icon: flag, title: "A race round the plateau", text: "About four kilometres on the roads over the plateau: past the Great Pyramid, down to the Sphinx, below the pyramids of Khafre and Menkaure, and back up the west side." }
+    - { icon: map, title: "From OpenStreetMap", text: "The edge of the town, the tombs round the pyramids and the paths come from OpenStreetMap; the roads over the plateau are drawn in by hand." }
+  facts:
+    - { label: "Great Pyramid", text: "Built about 2560 BC for Khufu: 230 metres a side, 146.6 metres high once and 138.5 now" }
+    - { label: "Pyramid of Khafre", text: "136 metres high, with its smooth casing still on the top; it looks the tallest as it stands on higher ground" }
+    - { label: "The Sphinx", text: "73 metres long and 20 high, carved from the bedrock about 2500 BC, facing due east" }
+    - { label: "In the game", text: "The six pyramids, the Sphinx and its temple, the tombs and the edge of the town" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
 - id: acropolis
   name: Acropolis
   place: Athens, Greece

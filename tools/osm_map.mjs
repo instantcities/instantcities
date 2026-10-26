@@ -147,6 +147,8 @@ try {
   }
   // a surface for the streets that have none tagged or only a plain one ('sett': basalt blocks, for Pompeii)
   if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
+  // ruins and tombs mapped as buildings are left to the site's own monuments (area.drop_ruins)
+  if (area.drop_ruins) data.ways = data.ways.filter(w => !(w.tags?.building && ['ruins', 'archaeological_site', 'monument'].includes(w.tags.historic)) && !(w.tags?.historic === 'ruins' && !w.tags.highway));
   // only the buildings that are something: named, a part of one, historic or a place of worship
   if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
   const { map, info } = buildMap(data, area);
