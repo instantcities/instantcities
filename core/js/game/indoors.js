@@ -6,7 +6,9 @@ import { sfx } from '../sound.js';
 import { LIGHT as INDOOR_LIGHT } from '../interiors.js';
 import { PAN } from './base.js';
 import { game } from './settings.js';
-import { scene, hemi, sun, particles, weather, headlamps, camYaw } from './scene.js';
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { scene, renderer, hemi, sun, particles, weather, headlamps, camYaw } from './scene.js';
 import { exploring, report, world } from './worlds.js';
 import { hudMsg } from './hud.js';
 import { loud } from './pickups.js';
@@ -90,10 +92,17 @@ export function putAt(r, x, z, yaw) {
 export const onMap = r => (r.room ? r.room.street : r.pos);
 
 // The light inside, for one player's view (render()): the building's own, no rain or snow and no
-// lamp carried, in place of the sky outside. Gives back what puts the outside back.
+// lamp carried, in place of the sky outside. Less of it from all round than the sky's and more from
+// above, so what stands in the rooms throws its shadow (inside/gothic.js), and a room's soft
+// reflections (three.js's RoomEnvironment) in the gilt frames, the polished marble and the floors.
+// Gives back what puts the outside back.
+const HEMI_INSIDE = 0.68, ENV_INSIDE = 0.3;
+let roomEnv = null;
 export function lightInside(room) {
   const L = { ...INDOOR_LIGHT, ...room.look };
+  roomEnv ??= new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(), 0.04).texture;
   const was = {
+    env: scene.environment, envI: scene.environmentIntensity,
     bg: scene.background.clone(), fog: scene.fog.color.clone(), near: scene.fog.near, far: scene.fog.far,
     sky: hemi.color.clone(), ground: hemi.groundColor.clone(), hemi: hemi.intensity, sunColor: sun.color.clone(), sun: sun.intensity,
     rain: weather.rain.visible, snow: weather.snow.visible, lamps: headlamps.map(l => l.visible),
@@ -103,12 +112,16 @@ export function lightInside(room) {
   [scene.fog.near, scene.fog.far] = L.fog;
   hemi.color.set(L.hemi[0]);
   hemi.groundColor.set(L.hemi[1]);
-  hemi.intensity = L.hemi[2];
+  hemi.intensity = L.hemi[2] * HEMI_INSIDE;
+  scene.environment = roomEnv;
+  scene.environmentIntensity = ENV_INSIDE;
   sun.color.set(L.sun[0]);
   sun.intensity = L.sun[1];
   weather.rain.visible = weather.snow.visible = false;
   headlamps.forEach(l => (l.visible = false));
   return () => {
+    scene.environment = was.env;
+    scene.environmentIntensity = was.envI;
     scene.background.copy(was.bg);
     scene.fog.color.copy(was.fog);
     [scene.fog.near, scene.fog.far] = [was.near, was.far];

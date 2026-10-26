@@ -6,6 +6,7 @@
 // Game metres (1.25 to a real metre), x across and z along, the door out in the south (-z) wall.
 import * as THREE from 'three';
 import { person, SKINS, HAIRS } from '../person.js';
+import { blobTex } from './gothic.js';
 
 const GOLD = 0xc9a24a, BRASS = 0xb8963c, OAK = 0x6b4526, VELVET = 0x8a1f2b;
 const CLOTHES = [0x2f4a6a, 0xa3202c, 0x3a3a3a, 0xe8dcc0, 0x2f7a45, 0x6a4a8a, 0xd8a52c, 0x1f2f4a, 0xf0f0ea];
@@ -32,17 +33,29 @@ export function hall(p, { x0, z0, x1, z1, h, color, doors = {}, t = 0.9, arch = 
     const holes = ds.map(d => doorway(d.u, d.w, d.dh, arch)), panes = [];
     for (const [u, w, y0, y1, glass = 5] of windows[side] ?? []) { panes.push([holes.length, glass]); holes.push([[u - w / 2, y0], [u + w / 2, y0], [u + w / 2, y1], [u - w / 2, y1]]); }
     p.rectWall(a, b, { y1: h + 0.3, t, holes, panes, color, solid: false });
-    // the wall between the doorways, to bump into
+    // the wall between the doorways, to bump into, and the shade along its foot and its top
     let from = 0;
     const at = u => [a[0] + ((b[0] - a[0]) * u) / L, a[1] + ((b[1] - a[1]) * u) / L];
+    const inward = { s: [0, 1], n: [0, -1], w: [1, 0], e: [-1, 0] }[side];
+    const solid = (u0, u1) => { p.wallRing(at(u0), at(u1), t); corners(p, at(u0), at(u1), inward, t / 2 + 0.02, h); };
     for (const d of [...ds].sort((m, n) => m.u - n.u)) {
-      if (d.u - d.w / 2 > from + 0.1) p.wallRing(at(from), at(d.u - d.w / 2), t);
+      if (d.u - d.w / 2 > from + 0.1) solid(from, d.u - d.w / 2);
       from = d.u + d.w / 2;
     }
-    if (L > from + 0.1) p.wallRing(at(from), at(L), t);
+    if (L > from + 0.1) solid(from, L);
   }
   (p.halls ??= []).push({ x0, z0, x1, z1 }); // for the visitors walking round it (wanderers)
   return { x0, z0, x1, z1, h };
+}
+
+// The shade where a stretch of wall from a to b ([x, z]) meets the floor and the ceiling `h` up, its
+// face `off` in from the line towards `inward`: on the floor along its foot, up the wall a little,
+// and down from the top: the light from above reaches into a corner less.
+function corners(p, a, b, [nx, nz], off, h) {
+  const A = [a[0] + nx * off, a[1] + nz * off], B = [b[0] + nx * off, b[1] + nz * off], y = 0.075;
+  p.shade([A[0], y, A[1]], [B[0], y, B[1]], [B[0] + nx * 1.6, y, B[1] + nz * 1.6], [A[0] + nx * 1.6, y, A[1] + nz * 1.6]);
+  p.shade([A[0], y, A[1]], [B[0], y, B[1]], [B[0], 1.3, B[1]], [A[0], 1.3, A[1]]);
+  p.shade([A[0], h, A[1]], [B[0], h, B[1]], [B[0], h - 1.8, B[1]], [A[0], h - 1.8, A[1]]);
 }
 
 // a skylight ceiling: a flat ceiling with a long glazed lantern down the middle, bright as the day
@@ -104,10 +117,19 @@ export function barrel(p, x0, z0, x1, z1, y, rise, { color = 0xf2ecde, band = 0x
 }
 
 // A picture in a gilt frame on a wall: tex w × h metres, its middle at (x, y, z), facing ry (0: +z),
-// the frame `f` wide; a little label beside it. Painted on the wall, so nobody bumps into it.
-export function framed(p, tex, w, h, x, y, z, ry = 0, { f = 0.35, color = GOLD, label = true } = {}) {
+// the frame `f` wide; a little label beside it, a brass lamp over it lighting the wall round it (but
+// not over a fresco: lamp false). Painted on the wall, so nobody bumps into it.
+export function framed(p, tex, w, h, x, y, z, ry = 0, { f = 0.35, color = GOLD, label = true, lamp = true } = {}) {
   const c = Math.cos(ry), s = Math.sin(ry), off = 0.06;
   p.picture(tex, w, h, x + s * off, y, z + c * off, ry);
+  if (lamp) {
+    // a brass picture lamp over the frame on two arms, and its warm light on the wall round it
+    const top = y + h / 2 + f, lw = Math.min(1.6, w * 0.45);
+    p.gold.box(lw, 0.12, 0.14, BRASS, x + s * 0.42, top + 0.32, z + c * 0.42, 0, ry, 0);
+    p.glow.box(lw * 0.92, 0.03, 0.08, 0xfff1d0, x + s * 0.44, top + 0.25, z + c * 0.44, 0, ry, 0);
+    for (const e of [-1, 1]) p.gold.box(0.04, 0.04, 0.42, BRASS, x + c * e * lw * 0.35 + s * 0.22, top + 0.32, z - s * e * lw * 0.35 + c * 0.22, 0, ry, 0);
+    p.wash(x + s * 0.035, y + 0.25, z + c * 0.035, ry, w + 2 * f + 2.2, h + 2 * f + 1.6);
+  }
   const put = (bw, bh, dx, dy) => p.gold.box(bw, bh, 0.16, color, x + c * dx, y + dy, z - s * dx, 0, ry, 0);
   put(w + 2 * f, f, 0, h / 2 + f / 2);
   put(w + 2 * f, f, 0, -h / 2 - f / 2);
@@ -187,6 +209,7 @@ export function visitors(spots, seed = 3) {
   return g;
 }
 
+let BLOB = null, BLOB_MAT = null;
 // one visitor in everyday clothes, at the game's scale; some hold up a phone (phones: whether they may)
 function visitor(rnd, phones = true) {
   const k = Math.floor(rnd() * 1000);
@@ -197,6 +220,11 @@ function visitor(rnd, phones = true) {
     long: rnd() < 0.4, short: rnd() < 0.3, tall: 0.9 + rnd() * 0.15, arms: phone ? ['down', 'front'] : ['down', 'down'], ...(skirt ? { skirt } : {}),
   });
   if (phone) who.arms[1].add(new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.15, 0.015), new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.4 })).translateY(-0.6));
+  // a soft shadow on the floor under them
+  const blob = new THREE.Mesh(BLOB ??= new THREE.PlaneGeometry(0.85, 0.85).rotateX(-Math.PI / 2), BLOB_MAT ??= new THREE.MeshBasicMaterial({ map: blobTex(), transparent: true, depthWrite: false }));
+  blob.position.y = 0.012;
+  blob.renderOrder = 1;
+  who.g.add(blob);
   who.g.scale.multiplyScalar(1.25);
   return who;
 }

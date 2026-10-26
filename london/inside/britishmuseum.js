@@ -97,7 +97,7 @@ export function makeBritishMuseum() {
       p.block(x, (z0 + z1) / 2, 1.5, (z1 - z0) / 2 + 0.2);
       for (let z = z0 + 1.5, q = 0; z < z1; z += 3, q++) roman(p, x, 1.2, z, 1.8 + (q % 2) * 0.3, ry, q + 7);
     }
-    for (let k = 0; k < 4; k++) framed(p, frieze(), 1.6, 1.5, P.x0 + 14 + k * 9, 9, P.z0 + 0.47, 0, { f: 0.12, color: 0xbab6aa, label: false });
+    for (let k = 0; k < 4; k++) framed(p, frieze(), 1.6, 1.5, P.x0 + 14 + k * 9, 9, P.z0 + 0.47, 0, { f: 0.12, color: 0xbab6aa, label: false, lamp: false });
     bench(p, (P.x0 + P.x1) / 2, 0, 5, Math.PI / 2);
     g.add(visitors([[60, 6, Math.PI], [64, -6, 0], [72, 7, Math.PI], [84, -5, 0.2], [88, 3, 1.6]], 57));
   }

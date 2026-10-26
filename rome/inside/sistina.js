@@ -43,8 +43,8 @@ export function makeSistina() {
     p.picture(curtains, 2 * Z - 1.2, 5, x + Math.sign(-x) * 0.02, 2.6, 0, ry);
     for (let k = 0; k < 6; k++) {
       const z = -Z + 4.3 + k * 8.5;
-      framed(p, chapelFresco(k + (x < 0 ? 0 : 6)), 7.6, 4.6, x, 8.0, z, ry, { f: 0.22, color: 0xc8a870, label: false });
-      if (k < 5) framed(p, oldMaster(5 * (k + 7)), 1.5, 2.6, x, 13.6, z + 4.25, ry, { f: 0.15, color: 0xc8a870, label: false }); // a pope in his niche
+      framed(p, chapelFresco(k + (x < 0 ? 0 : 6)), 7.6, 4.6, x, 8.0, z, ry, { f: 0.22, color: 0xc8a870, label: false, lamp: false });
+      if (k < 5) framed(p, oldMaster(5 * (k + 7)), 1.5, 2.6, x, 13.6, z + 4.25, ry, { f: 0.15, color: 0xc8a870, label: false, lamp: false }); // a pope in his niche
     }
     p.stone.box(0.5, 0.4, 2 * Z - 1.2, 0xd8c8a8, x + Math.sign(-x) * 0.2, 5.4, 0); // the cornices between the tiers
     p.stone.box(0.5, 0.4, 2 * Z - 1.2, 0xd8c8a8, x + Math.sign(-x) * 0.2, 10.8, 0);

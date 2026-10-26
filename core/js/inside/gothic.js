@@ -7,6 +7,7 @@
 // from the middle of the crossing; js/interiors.js puts it where it stands, out of the city's sight.
 import * as THREE from 'three';
 import { Kit } from '../kit.js';
+import { LOW_POWER } from '../device.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 // ------------------------------------------------------------------ textures and materials
@@ -25,6 +26,25 @@ function canvasTexture(size, draw, repeat = true) {
 const rngOf = seed => () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
 
 const TEXTURES = {};
+// a picture lamp's light on the wall: brightest just under the lamp at the top, fading out all round
+const washTex = () => (TEXTURES.wash ??= canvasTexture(128, (g, s) => {
+  const r = g.createRadialGradient(s / 2, s * 0.12, 0, s / 2, s * 0.35, s * 0.62);
+  r.addColorStop(0, 'rgba(255,255,255,1)'); r.addColorStop(0.45, 'rgba(255,255,255,0.45)'); r.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = r; g.fillRect(0, 0, s, s);
+}, false));
+// the shade in a corner of a room (where a wall meets the floor or the ceiling): dark at v = 0,
+// none by v = 1
+const shadeTex = () => (TEXTURES.shade ??= canvasTexture(64, (g, s) => {
+  const l = g.createLinearGradient(0, s, 0, 0);
+  l.addColorStop(0, 'rgba(0,0,0,1)'); l.addColorStop(0.35, 'rgba(0,0,0,0.45)'); l.addColorStop(1, 'rgba(0,0,0,0)');
+  g.fillStyle = l; g.fillRect(0, 0, s, s);
+}, false));
+// a soft round shadow on the floor under someone standing
+export const blobTex = () => (TEXTURES.blob ??= canvasTexture(64, (g, s) => {
+  const r = g.createRadialGradient(s / 2, s / 2, 0, s / 2, s / 2, s / 2);
+  r.addColorStop(0, 'rgba(0,0,0,0.55)'); r.addColorStop(0.5, 'rgba(0,0,0,0.3)'); r.addColorStop(1, 'rgba(0,0,0,0)');
+  g.fillStyle = r; g.fillRect(0, 0, s, s);
+}, false));
 // light ashlar in courses of blocks, each a shade of its own, the joints darker
 const ashlar = () => (TEXTURES.ashlar ??= canvasTexture(256, (g, s) => {
   const rnd = rngOf(7);
@@ -92,26 +112,43 @@ export function masonry(kind = 'ashlar', tile = 3) {
 }
 
 // plain vertex-coloured finishes for everything that is not stone
-let DAYLIGHT = null, SCULPT = null;
+let DAYLIGHT = null, SCULPT = null, WASH = null, SHADE = null;
 const FINISH = {};
 export const finish = (rough = 0.8, metal = 0, emissive = 0) => (FINISH[`${rough}:${metal}:${emissive}`] ??= new THREE.MeshStandardMaterial({ vertexColors: true, roughness: rough, metalness: metal, flatShading: true, emissive: new THREE.Color(emissive), side: THREE.DoubleSide }));
 // like it, wrapped in oak boards (doors)
 export const oakMat = () => (FINISH.oak ??= new THREE.MeshStandardMaterial({ map: oak(), roughness: 0.8, flatShading: true }));
 
-// a floor of squares laid on the diagonal (as in the cathedral) or straight, in two colours, one repeat every 2 squares
-const FLOORS = {};
+// a floor of squares laid on the diagonal (as in the cathedral) or straight, in two colours, one
+// repeat every PER squares: each slab a shade of its own, with a grain of speckles and faint veins,
+// the joints darker; a little polish on it
+const FLOORS = {}, PER = 4;
 export function floorMat(a, b, diagonal = true, square = 1.6) {
   const key = `${a}:${b}:${diagonal}:${square}`;
   if (FLOORS[key]) return FLOORS[key];
-  const map = canvasTexture(128, (g, s) => {
-    g.fillStyle = a; g.fillRect(0, 0, s, s);
-    g.fillStyle = b; g.fillRect(0, 0, s / 2, s / 2); g.fillRect(s / 2, s / 2, s / 2, s / 2);
+  const rnd = rngOf(7 + key.length * 31);
+  const map = canvasTexture(256, (g, s) => {
+    const q = s / PER;
+    for (let i = 0; i < PER; i++) for (let j = 0; j < PER; j++) {
+      g.fillStyle = (i + j) % 2 ? a : b;
+      g.fillRect(i * q, j * q, q, q);
+      const t = rnd() * 0.12 - 0.06;
+      g.fillStyle = t > 0 ? `rgba(255,248,235,${t})` : `rgba(30,20,10,${-t})`;
+      g.fillRect(i * q, j * q, q, q);
+    }
+    for (let k = 0; k < 1400; k++) { g.fillStyle = `rgba(${rnd() < 0.5 ? '0,0,0' : '255,255,255'},${0.03 + rnd() * 0.05})`; g.fillRect(rnd() * s, rnd() * s, 1 + rnd() * 1.5, 1 + rnd() * 1.5); }
+    g.lineWidth = 0.8;
+    for (let k = 0; k < 10; k++) {
+      g.strokeStyle = `rgba(${rnd() < 0.5 ? '40,30,20' : '255,250,240'},0.07)`;
+      g.beginPath(); let x = rnd() * s, y = rnd() * s; g.moveTo(x, y);
+      for (let n = 0; n < 5; n++) { x += (rnd() - 0.5) * q; y += (rnd() - 0.3) * q * 0.6; g.lineTo(x, y); }
+      g.stroke();
+    }
     g.strokeStyle = 'rgba(0,0,0,0.25)'; g.lineWidth = 1.5;
-    g.strokeRect(0, 0, s / 2, s / 2); g.strokeRect(s / 2, s / 2, s / 2, s / 2); g.strokeRect(s / 2, 0, s / 2, s / 2); g.strokeRect(0, s / 2, s / 2, s / 2);
+    for (let i = 0; i <= PER; i++) { g.beginPath(); g.moveTo(i * q, 0); g.lineTo(i * q, s); g.moveTo(0, i * q); g.lineTo(s, i * q); g.stroke(); }
   });
   map.userData.diagonal = diagonal;
-  const m = new THREE.MeshStandardMaterial({ map, roughness: 0.95, metalness: 0 });
-  m.userData = { square, diagonal };
+  const m = new THREE.MeshStandardMaterial({ map, roughness: 0.7, metalness: 0 });
+  m.userData = { square, diagonal, per: PER };
   return (FLOORS[key] = m);
 }
 
@@ -211,6 +248,8 @@ export class Parts {
     this.leaves = []; // doors: geometries in oak
     this.pictures = []; // hung pictures: { tex, w, h, x, y, z, ry, bright }
     this.glass = []; // the glass of the cases: boxes { w, h, d, x, y, z }
+    this.washes = []; // the light of the picture lamps on the walls: { x, y, z, ry, w, h }
+    this.shades = []; // the shade along the corners of the rooms: quads [a, b, c, d] ([x, y, z]), dark along a-b
     this.panes = {};
     this.foot = [];
     this.floors = [];
@@ -347,6 +386,12 @@ export class Parts {
   // a picture hung up: a canvas texture w × h metres, its middle at (x, y, z), turned ry
   picture(tex, w, h, x, y, z, ry = 0) { this.pictures.push({ tex, w, h, x, y, z, ry }); return this; }
 
+  // a lamp's warm light on a wall, w × h, its middle at (x, y, z) just off the wall, facing ry
+  wash(x, y, z, ry, w, h) { this.washes.push({ x, y, z, ry, w, h }); return this; }
+
+  // the shade in a corner, a band from the line a→b (dark) across to the line c←d, d beside a
+  shade(a, b, c, d) { this.shades.push([a, b, c, d]); return this; }
+
   // a pair of closed doors in a pointed opening u0..u1 of the wall panel along a→b: oak, set into the wall's thickness
   doors(a, b, u0, u1, ySpring, rise) {
     const L = Math.hypot(b[0] - a[0], b[1] - a[1]), ang = -Math.atan2(b[1] - a[1], b[0] - a[0]);
@@ -372,14 +417,17 @@ export class Parts {
   // the finished group
   mesh() {
     const g = new THREE.Group();
-    const add = (kit, mat) => { if (!kit.pieces.length) return; const m = kit.mesh(mat); m.receiveShadow = false; m.castShadow = false; g.add(m); };
-    add(this.stone, masonry('ashlar'));
-    add(this.plaster, masonry('plaster', 4));
+    // the light from above (the sun's, through the skylights) throws the shadows of what stands in the
+    // rooms, the statues, benches, cases and stairs, onto the floors and walls; the walls and vaults
+    // throw none, or the rooms would be dark under their roofs
+    const add = (kit, mat, cast = false, receive = false) => { if (!kit.pieces.length) return; const m = kit.mesh(mat); m.receiveShadow = receive; m.castShadow = cast; g.add(m); };
+    add(this.stone, masonry('ashlar'), false, true);
+    add(this.plaster, masonry('plaster', 4), false, true);
     add(this.gold, finish(0.35, 0.7, 0x2a1d05));
-    add(this.wood, finish(0.7));
-    add(this.marble, finish(0.28, 0.05));
-    add(this.dark, finish(0.35, 0.3));
-    add(this.sculpt, SCULPT ??= new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.42, metalness: 0, side: THREE.DoubleSide }));
+    add(this.wood, finish(0.7), true);
+    add(this.marble, finish(0.28, 0.05), true);
+    add(this.dark, finish(0.35, 0.3), true);
+    add(this.sculpt, SCULPT ??= new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.42, metalness: 0, side: THREE.DoubleSide }), !LOW_POWER); // (on a phone the carved figures, many triangles, throw none)
     add(this.glow, finish(0.6, 0, 0xffd070));
     add(this.daylight, DAYLIGHT ??= new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.DoubleSide }));
     if (this.leaves.length) g.add(new THREE.Mesh(mergeGeometries(this.leaves), oakMat()));
@@ -400,16 +448,35 @@ export class Parts {
     }
     for (const f of this.floors) {
       const geo = new THREE.PlaneGeometry(f.x1 - f.x0, f.z1 - f.z0).rotateX(-Math.PI / 2);
-      const s = f.mat.userData.square, uv = geo.attributes.uv, p = geo.attributes.position;
+      const s = f.mat.userData.square, n = f.mat.userData.per ?? 2, uv = geo.attributes.uv, p = geo.attributes.position; // (n squares to a repeat)
       for (let k = 0; k < uv.count; k++) {
         const x = p.getX(k) + (f.x0 + f.x1) / 2, z = p.getZ(k) + (f.z0 + f.z1) / 2;
         // laid on the diagonal: turned an eighth of a turn
         const u = f.mat.userData.diagonal ? (x + z) * Math.SQRT1_2 : x, v = f.mat.userData.diagonal ? (z - x) * Math.SQRT1_2 : z;
-        uv.setXY(k, u / (2 * s), v / (2 * s));
+        uv.setXY(k, u / (n * s), v / (n * s));
       }
       const m = new THREE.Mesh(geo, f.mat);
       m.position.set((f.x0 + f.x1) / 2, 0.06, (f.z0 + f.z1) / 2);
-      m.receiveShadow = false;
+      m.receiveShadow = true;
+      g.add(m);
+    }
+    if (this.washes.length) {
+      const geo = mergeGeometries(this.washes.map(w => new THREE.PlaneGeometry(w.w, w.h).rotateY(w.ry).translate(w.x, w.y, w.z)));
+      const m = new THREE.Mesh(geo, WASH ??= new THREE.MeshBasicMaterial({ map: washTex(), color: 0xffd9a0, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending, depthWrite: false }));
+      m.renderOrder = 1;
+      g.add(m);
+    }
+    if (this.shades.length) {
+      const pos = [], uv = [];
+      for (const [a, b, c, d] of this.shades) {
+        pos.push(...a, ...b, ...c, ...a, ...c, ...d);
+        uv.push(0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1);
+      }
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+      geo.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
+      const m = new THREE.Mesh(geo, SHADE ??= new THREE.MeshBasicMaterial({ map: shadeTex(), color: 0xffffff, transparent: true, opacity: 0.32, depthWrite: false, side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 }));
+      m.renderOrder = 1;
       g.add(m);
     }
     return g;
