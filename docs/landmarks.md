@@ -129,6 +129,47 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
 | Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
 | Bruges | Gruuthusepaleis | `bruges/gruuthuse.js` | bump into it |
+| Avignon | Palais des Papes | `avignon/palais.js` | bump into it |
+| Avignon | Notre-Dame des Doms and the gilded Virgin on its tower | `avignon/doms.js` | bump into it |
+| Avignon | Hôtel de Ville and the Tour du Jacquemart | `avignon/horloge.js` | bump into it |
+| Salerno | Duomo di San Matteo, its atrium and its bell tower | `salerno/duomo.js` | ride in through the Porta dei Leoni into the atrium's courtyard; bump into the porticoes, the church and the tower |
+| Salerno | Teatro Verdi | `salerno/verdi.js` | bump into it |
+| Salerno | Stazione Marittima | `salerno/marittima.js` | bump into it |
+| Delft | Nieuwe Kerk's tower | `delft/nieuwe-kerk.js` | bump into its buttresses (the church stays the map's) |
+| Delft | Stadhuis and Het Steen | `delft/stadhuis.js` | bump into it and its perron on the Markt |
+| Delft | Oude Kerk's leaning tower (Oude Jan) | `delft/oude-kerk.js` | bump into it (the church stays the map's) |
+| Utrecht | Domtoren | `utrecht/domtoren.js` | ride through the passage under it, bump into its two halves |
+| Utrecht | Domkerk's choir and transept | `utrecht/domkerk.js` | bump into it (the Domplein stays open where the nave stood) |
+| Utrecht | Pandhof | `utrecht/pandhof.js` | ride through the archway in its west gallery into the garden |
+| Pisa | Torre di Pisa (leaning 4° to the south) | `pisa/torre.js` | bump into its foot |
+| Pisa | Duomo di Pisa | `pisa/duomo.js` | bump into it |
+| Pisa | Battistero | `pisa/battistero.js` | bump into it |
+| Pisa | Camposanto and the Cappella Dal Pozzo | `pisa/camposanto.js` | bump into its outer wall |
+| Pisa | Santa Maria della Spina | `pisa/spina.js` | bump into it |
+| Siena | Palazzo Pubblico, the Torre del Mangia and the Cappella di Piazza | `siena/palazzo.js` | bump into it and the chapel |
+| Siena | Fonte Gaia | `siena/fonte-gaia.js` | bump into the basin and its railing |
+| Siena | Duomo di Siena and its bell tower | `siena/duomo.js` | bump into it |
+| Siena | Facciatone | `siena/facciatone.js` | bump into the wall and its stair turret |
+| Siena | Loggia della Mercanzia | `siena/mercanzia.js` | ride in under it between its piers |
+| Rotterdam | Markthal | `rotterdam/markthal.js` | ride in through the doors in its glass ends, under the painted vault, and bump into the stalls |
+| Rotterdam | Kubuswoningen and the Blaaktoren | `rotterdam/kubus.js` | ride in under the cubes between their pillars |
+| Rotterdam | Witte Huis | `rotterdam/witte-huis.js` | bump into it |
+| Rotterdam | Laurenskerk and its tower | `rotterdam/laurenskerk.js` | bump into it |
+| Rotterdam | the Stadhuis's tower | `rotterdam/stadhuis.js` | bump into the town hall, which stays the map's block |
+| New York | Empire State Building | `new-york/empire-state.js` | bump into its base |
+| New York | Chrysler Building | `new-york/chrysler.js` | bump into its base |
+| New York | Grand Central Terminal | `new-york/grand-central.js` | bump into its 42nd Street front |
+| New York | New York Public Library and its lions | `new-york/library.js` | bump into it, the steps and the lions' plinths |
+| New York | St Patrick's Cathedral | `new-york/st-patricks.js` | bump into it |
+| Istanbul | Ayasofya | `istanbul/ayasofya.js` | bump into it, its buttresses and its minarets |
+| Istanbul | Sultanahmet Camii (the Blue Mosque) and its courtyard | `istanbul/sultanahmet.js` | ride into the courtyard through its three gates and round the fountain |
+| Istanbul | Yeni Cami and its courtyard | `istanbul/yeni-cami.js` | ride into the courtyard through its three gates |
+| Istanbul | the Hippodrome's Egyptian Obelisk, Serpent Column and Walled Obelisk | `istanbul/hipodrom.js` | bump into their bases and railings |
+| Istanbul | Çemberlitaş (Column of Constantine) | `istanbul/cemberlitas.js` | bump into its railing |
+| San Francisco | Transamerica Pyramid | `san-francisco/transamerica.js` | bump into its foot |
+| San Francisco | Ferry Building and its clock tower | `san-francisco/ferry-building.js` | bump into it |
+| San Francisco | Coit Tower | `san-francisco/coit-tower.js` | bump into its base |
+| San Francisco | Dragon Gate | `san-francisco/dragon-gate.js` | ride through its three openings (cars too, through the middle one) |
 
 The Eiffel Tower is not built on the arcade generator but of rods (`Kit.rod`): each leg a lattice
 box of four chords braced in crosses, following the tower's curve from its measured widths at each
@@ -186,6 +227,60 @@ Open there:
 - The Loggia del Mercato Nuovo behind the Porcellino (`florence/mercato-nuovo.js`) is open now, but
   with three bays by four and six free columns inside, fewer than its real twenty columns.
 
+Two tools help place and check a landmark: `node tools/near.mjs <city> <landmark id>` prints where
+it stands in game metres and the map's buildings round it (their rotated rectangles, turns and
+heights), to put the model on its outline and size its `area`; `node tools/landmarkshots.mjs <city>
+name:x,z:heading:distance:height ...` takes pictures of it in the game from one headless browser,
+behind a lock so two runs never draw at once.
+
+### Avignon, Salerno, Delft, Utrecht, Pisa, Siena, Rotterdam, New York, Istanbul, San Francisco
+
+These ten were modelled together, from the map's outlines and from memory of photos, without
+Mapillary. Some share helpers: Avignon and Salerno each have an `outline.js` (the same file twice),
+Istanbul has `istanbul/mosque.js` (domes on drums, half-domes, minarets, courtyards), New York has
+`new-york/deco.js`, and Pisa's and Siena's churches build on `florence/marble.js` and on
+`pisa/romanico.js` (blind arches on pilasters, loggias of little columns), so a change to those
+reaches Siena too. Avignon, Salerno, Siena and San Francisco have no terrain yet: the Palais des Papes
+and the Doms stand at street level rather than on the Rocher, the Duomo of Salerno without its
+steps, the Campo does not slope, and Coit Tower stands at street level, not on Telegraph Hill.
+
+- Avignon: the palace stands on the map's one 70-point outline at one wall height (36 m in the game);
+  its seven towers and two courtyards are placed by eye, and its wings get flat roofs behind the
+  parapets where the real ones are low and hipped. The Hôtel de Ville's columns read as flat strips,
+  and the jacquemarts are two small posts. The ramparts: the map has 16 of their towers but no walls
+  between them, so the walls would have to be drawn by hand.
+- Salerno: which way the Teatro Verdi's front faces is a guess (north, where the landmark's point and
+  Piazza Luciani lie); if it faces south, flip `FRONT`. The Stazione Marittima reads as a smooth white
+  shell rather than Hadid's sharp oyster. The atrium's porticoes are solid; a gap of 1.5 to 3 m stays
+  between its east wing and the church. The Castello di Arechi lies outside the map.
+- Delft: the Oostpoort is not in the map at all. The church's front stays the map's beige box under
+  the Nieuwe Kerk's tower. The Stadhuis's frontispiece is plain, its perron has no lions, and the tops
+  of Het Steen and the Oude Jan, and which way the Oude Jan leans, want checking against photos.
+- Utrecht: the Domkerk's chapels are one flat-roofed block behind a parapet, its heights are a guess
+  (eaves 29 m, ridge 42 m real), and the Domtoren's lantern is one open octagon under a crown of ribs.
+  The Pieterskerk, the Janskerk and Paushuize are not done.
+- Pisa: the map's outline of the Duomo is about 30% wider than the church, so its front is 46 m
+  across where the real one is 35 m. Which half of the Baptistery's dome is tiled red and which is
+  lead is from memory. The Camposanto's tracery is three bars an arch.
+- Siena: only the Palazzo Pubblico's front on the Campo is dressed, and the Cortile del Podestà is
+  not opened. The Duomo's area takes out the map's big platform under it (118 by 70 m, 13 m high),
+  and with it the steps and the Baptistery under the choir. The Facciatone is its front wall and stair
+  turret; the unfinished nave's arches stay the map's museum.
+- Rotterdam: the Markthal's painting is a mosaic of coloured tiles, and the 37 cube houses stand on
+  the grid where the map's roof faces meet, so a few may sit one place off. The Stadhuis is only its
+  tower on the map's office block.
+- New York: the Empire State and the Chrysler keep the map's setbacks (copied into their files) and
+  add what it lacks on top. The towers round them keep the generic stone, which hides the Empire State
+  from the street. St Patrick's spires are hidden from every view by Rockefeller Center, so they have
+  not been seen whole. Grand Central's sculptures and the library's lions are rough figures.
+- Istanbul: the map's parts had the mosques far too tall (the Blue Mosque's dome at 77.5 game metres
+  against a real 43 m); the models follow the real heights. The Ayasofya's buttresses are plain
+  stepped blocks, the Blue Mosque lacks its side galleries, the Yeni Cami lacks its royal pavilion,
+  and the Hippodrome's monuments stand at street level rather than down in their pits.
+- San Francisco: the map drew a ring of 30 m walls round the Transamerica's foot, which its `area`
+  takes out. The Ferry Building's arcade is drawn on its wall, so riders cannot ride in under it. The
+  Dragon Gate stands by Grant Avenue's start, 13 m from the data's point, and its dragons are blocks.
+
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
 the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het Steen in Antwerp
 (one outline of 57 points, round towers and all), the Koninklijk Paleis and Antwerp's cathedral tower
@@ -195,3 +290,9 @@ the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het 
 - the Ponte dei Sospiri in Venice: the map has the Palazzo Ducale and the prisons touching, with the
   Rio di Palazzo under them, so there is no gap for the bridge to cross.
 - Børsen in Copenhagen is not in the map at all.
+- the Erasmusbrug in Rotterdam: the map draws its deck flat at 0.2 m over the Maas; lifted to its
+  real 12.5 m, the pylon and its stays would be quick to add.
+- Grand Central's Park Avenue Viaduct in New York runs flat through the terminal's outline in the
+  map, where the real one runs a floor up round it.
+- the Maria van Jessekerk on Delft's Burgwal (around x 226, z −163): the map's parts of its two spires
+  float above the church, in every view of the Markt.
