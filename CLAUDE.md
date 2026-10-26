@@ -33,3 +33,9 @@ Wouter doesn't like slogan-like, AI-sounding language in the README, the site te
 OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests.").
 Write plainly and concretely: say what the thing is and does, in short sentences, without taglines,
 hype, or stacked lists of features in one breath.
+
+## Pull request previews
+
+Every PR gets a preview at `https://instantcities.net/preview/pr-<n>/` (`.github/workflows/preview.yml`,
+on the `gh-pages` branch). After pushing to a PR, check that the `PR Preview` run succeeded and give
+Wouter the link to the page the change shows on; if the run failed, say so and fix it.

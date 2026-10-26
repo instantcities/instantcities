@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+# Builds the Jekyll site on every push to main and publishes it to the root of the gh-pages branch,
+# which GitHub Pages serves. Pull request previews live under /preview/pr-<n>/ on the same branch
+# (preview.yml), so the clean step leaves preview/ alone.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      LANG: C.UTF-8 # or Sass chokes on the theme's non-ASCII characters
+      LC_ALL: C.UTF-8
+      JEKYLL_ENV: production
+      JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # site.github (build.json's commit)
+      PAGES_REPO_NWO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.6' # the github-pages gem's old Liquid does not run on Ruby 4
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - run: touch _site/.nojekyll # the site is built already, Pages serves it as it is
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: gh-pages
+          clean: true
+          clean-exclude: preview

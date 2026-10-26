@@ -10,9 +10,20 @@ bundle install && bundle exec jekyll serve    # the whole site: http://localhost
 ```
 
 The game uses ES modules, so it needs a local server. Three.js and the fonts load from CDNs, so you
-also need an internet connection. GitHub Pages builds the Jekyll site on every push, and every pull
-request gets a Netlify preview (`netlify.toml`). With Ruby 4, the old Liquid that GitHub Pages pins
-needs `RUBYOPT=-r<file defining Object#tainted? as false>`; Ruby 3 works as is.
+also need an internet connection. With Ruby 4, the old Liquid that GitHub Pages pins needs
+`RUBYOPT=-r<file defining Object#tainted? as false>`; Ruby 3 works as is.
+
+## Deploying
+
+GitHub Pages serves the `gh-pages` branch, which two workflows keep up to date. Nobody commits to it by hand.
+
+- Production (`.github/workflows/deploy.yml`): every push to `main` builds the Jekyll site and publishes
+  it to the root of `gh-pages`, leaving `preview/` alone.
+- Pull request previews (`.github/workflows/preview.yml`): every push to a PR builds the site,
+  `tools/preview.mjs` moves its root paths under `/preview/pr-<n>/`, and the result goes to
+  `preview/pr-<n>/` on `gh-pages`. The link comes as a comment on the PR. Fork PRs get no preview.
+
+The site is at https://instantcities.net (`CNAME`; the address is also `url` in `_config.yml`).
 
 ## Layout
 
