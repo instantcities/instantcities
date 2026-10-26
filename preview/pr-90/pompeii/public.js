@@ -13,7 +13,11 @@ import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, sweep, archRing } from '../core/js/arcade.js';
 import { rng, shade } from '../core/js/facades.js';
+import { WallBatch, ruinWall, ruinTexture, RUIN_TILE } from '../core/js/roman.js';
 import { MAP } from './map.js';
+import { column as cols } from './columns.js';
+
+const rnd0 = rng(3);
 
 const BRICK = ['#8f7a64', '#9a8268', '#86705c', '#a38a6e', '#9a6a52'], STUCCO = '#dccaa2', STONE = '#d8cdb2', MARBLE = '#ece5d3', DARK = '#2c241c', TILE = '#b4623c';
 
@@ -27,23 +31,31 @@ const find = (x, z, min = 120) => MAP.buildings.filter(b => area(b.p) > min).map
 // clockwise on the map: the outside on each edge's right-hand side
 const outline = p => { const pts = pairs(p); return signed(pts) < 0 ? pts.reverse() : pts; };
 
-const column = (kit, x, z, h, r, hex = STUCCO) => {
-  kit.add(new THREE.CylinderGeometry(r * 0.82, r, h, 10), hex, x, h / 2, z);
-  if (h > 5) kit.box(r * 2.8, 0.5, r * 2.8, STONE, x, h + 0.25, z);
-};
+// (the columns of pompeii/columns.js: fluted, weathered, in drums)
+const column = (kit, x, z, h, r, tone) => cols(kit, x, z, h, r, { rnd: rnd0, ...(tone ? { tone } : {}) });
 
-// walls round an outline, t thick, broken off along their tops between 55 and 100 per cent of h, and
-// here and there down to a doorway
+// walls round an outline, t thick, of rubble stone and brick with the plaster come off in patches, broken
+// off along their tops (js/roman.js's ruinWall), and here and there down to a doorway
 function ruin(kit, pts, h, t, seed) {
-  const r = rng(seed);
+  const wb = (kit.walls ??= new WallBatch()), u = RUIN_TILE[0];
+  kit.wallSeed = seed;
+  let along = 0;
   pts.forEach(([x, z], i) => {
-    const [x2, z2] = pts[(i + 1) % pts.length], path = linePath(x, z, x2, z2), L = path.length;
+    const [x2, z2] = pts[(i + 1) % pts.length], L = Math.hypot(x2 - x, z2 - z);
     if (L < 1.5) return;
-    const top = [];
-    for (let s = L; s > 0; s -= 5 + 6 * r()) top.push([s, h * (0.72 + 0.28 * r()) - (r() < 0.1 ? h * 0.35 : 0)]);
-    top.push([0, h * (0.72 + 0.28 * r())]);
-    wall(kit, path, [[0, 0], [L, 0], ...top.map(([s, y]) => [s, Math.max(0.6, y)])], { o0: -t, o1: 0, hex: BRICK[Math.floor(r() * BRICK.length)] });
+    const nx = (z2 - z) / L, nz = -(x2 - x) / L; // outward: the outline runs clockwise on the map
+    ruinWall(wb, x, z, x2, z2, nx, nz, L, 0, Math.min(h, RUIN_TILE[1] - 0.5), seed + i, along / u, (along + L) / u, t);
+    along += L;
   });
+}
+
+// a hand-modelled building as one mesh: its plain shapes, and its textured walls if it has any
+function build(kit) {
+  const mesh = kit.mesh(kitMat(0.92));
+  if (!kit.walls) return mesh;
+  const group = new THREE.Group();
+  group.add(mesh, kit.walls.mesh(ruinTexture(kit.wallSeed % 5, '', kit.wallSeed)));
+  return group;
 }
 
 // the points round an outline, d apart, moved d0 inwards (a rectilinear one)
@@ -167,6 +179,6 @@ export const PUBLICS = JOBS.flatMap(j => {
     id: 'public-' + j.name.toLowerCase().replace(/[^a-z]+/g, '-'), name: j.name, x: 0, z: 0, turn: 0, reach: 380,
     area: [box(p)],
     foot: [p.map(v => Math.round(v * 10) / 10)],
-    make: () => { const kit = new Kit(); j.make(kit, outline(p)); return kit.mesh(kitMat(0.92)); },
+    make: () => { const kit = new Kit(); j.make(kit, outline(p)); return build(kit); },
   }];
 });
