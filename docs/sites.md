@@ -13,7 +13,8 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   and `core/js/kit.js` the way `rome/colosseo.js` is, in real metres and scaled by 1.25 at the end.
   Each is a monument in `city.js`'s `MONUMENTS` with its `area` (the map's pieces it replaces), its
   `foot` (what riders bump into) and a `reach`, the distance it is put up from.
-- an entry in `_data/sites.yml` and a page `sites/<id>/index.html` (`layout: site`, `site: <id>`). The
+- an entry in `_data/sites.yml`, a page `sites/<id>/index.html` (`layout: site`, `site: <id>`) and
+  `<id>/index.html` (see the end of this page). The
   sites page and the site's page are in English only, like the art pages. The pictures are
   `assets/img/sites/<id>.jpg` (the page's top and its card).
 
@@ -38,3 +39,8 @@ metres depends on the route. `angkor-wat/frame.js` turns OpenStreetMap's metres 
 
 `/<id>/play/dev.html#<monument id>` shows one monument on a turntable. `/<id>/play/?pos=<x>,<z>&yaw=<radians>`
 puts you in the game at a point, looking that way.
+
+## The links back to the website
+
+The game's "Back to the website" link goes to `/<id>/`. For a site that is a small page that sends
+the visitor on to `/sites/<id>/` (`<id>/index.html`, `layout: redirect`).

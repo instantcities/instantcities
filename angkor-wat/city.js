@@ -57,4 +57,9 @@ export const LOOK = {
 };
 
 // Places named on the big map when riding about freely: click a name to teleport there.
-export const PLACES = [];
+export const PLACES = [
+  { name: 'The causeway', x: -520, z: 76, side: 'r' },
+  { name: 'The western gopura', x: -319, z: 77, side: 'l' },
+  { name: 'The libraries', x: -84, z: 83, side: 'l' },
+  { name: 'Angkor Wat', x: 378, z: 88, side: 'r' },
+];
