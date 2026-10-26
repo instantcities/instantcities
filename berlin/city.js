@@ -14,6 +14,10 @@
 //   inside.js        the buildings you can go into: the Neues Museum and the Pergamon Museum, their rooms in inside/ (hand-written)
 //   tor.js           the Brandenburger Tor, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
 //   fernsehturm.js   the Fernsehturm, modelled by hand in place of the map's stack of prisms of it
+//   reichstag.js     the Reichstag and its glass dome, dom.js the Berliner Dom, gendarmenmarkt.js the
+//                    Konzerthaus and the French and German churches, bebelplatz.js St. Hedwig's and the
+//                    Staatsoper, altes-museum.js the Altes Museum, mahnmal.js the Holocaust Memorial's
+//                    field of stelae: all modelled by hand on the map's outlines (outline.js), in place of them
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -24,9 +28,15 @@ export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { TOR } from './tor.js';
 import { FERNSEHTURM } from './fernsehturm.js';
+import { REICHSTAG } from './reichstag.js';
+import { DOM } from './dom.js';
+import { GENDARMENMARKT } from './gendarmenmarkt.js';
+import { BEBELPLATZ } from './bebelplatz.js';
+import { ALTES_MUSEUM } from './altes-museum.js';
+import { MAHNMAL } from './mahnmal.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...TOR, ...FERNSEHTURM];
+export const MONUMENTS = [...TOR, ...FERNSEHTURM, ...REICHSTAG, ...DOM, ...GENDARMENMARKT, ...BEBELPLATZ, ...ALTES_MUSEUM, ...MAHNMAL];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 

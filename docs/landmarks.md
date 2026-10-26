@@ -118,6 +118,12 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Prague | the Old Town Hall's tower and the Orloj | `prague/orloj.js` | bump into it |
 | Prague | the Old Town Bridge Tower | `prague/mostecka-vez.js` | go through it along the Charles Bridge |
 | Berlin | Fernsehturm | `berlin/fernsehturm.js` | bump into its foot |
+| Berlin | Reichstag and its glass dome | `berlin/reichstag.js` | bump into it |
+| Berlin | Berliner Dom | `berlin/dom.js` | bump into it and the statues before its front |
+| Berlin | Gendarmenmarkt: the Konzerthaus, the French and the German church and their domed towers | `berlin/gendarmenmarkt.js` | bump into them |
+| Berlin | Bebelplatz: St. Hedwig's Cathedral, the Staatsoper | `berlin/bebelplatz.js` | bump into them |
+| Berlin | Altes Museum | `berlin/altes-museum.js` | bump into it |
+| Berlin | Holocaust Memorial: the field of stelae | `berlin/mahnmal.js` | walk between the stelae |
 | Amsterdam | Westertoren | `amsterdam/westertoren.js` | bump into it (the church stays the map's) |
 | Antwerp | Brabofontein | `antwerp/brabo.js` | bump into its basin |
 | Madrid | El Oso y el Madroño, Felipe III | `madrid/oso.js`, `madrid/felipe.js` | bump into their pedestals |
@@ -172,6 +178,17 @@ courtyards only where the map has buildings, and Westminster Hall stands turned 
 as it is. No. 10 is only its front, on the map's house. Westminster Bridge keeps the map's deck,
 which lies 2.6 m above the river, so its arches are far flatter than the real ones: lifting the deck
 would be a map fix of its own.
+
+Berlin's landmarks (all but the Tor and the Fernsehturm) share `berlin/outline.js`, after
+`prague/outline.js`: the map's outlines of a building's parts in the model's own metres, blocks and
+hipped roofs on them, cornices, rows of windows, domes with their ribs, drums, rings of columns,
+lanterns and porticoes on steps. The Dom and the Reichstag take the map's many parts as they are and
+build each after its kind (a drum, a dome, a corner tower, a column), so they stand where the map has
+them. The Reichstag's dome is a mesh of its own, of see-through glass, so its ramps and its cone of
+mirrors show. The Holocaust Memorial's stelae stand on the map's own outlines of them (which it put
+up as houses), on the flat ground: the real field sinks towards its middle, so here only their tops
+rise. Open there: the Ort der Information's entrance pavilion is still a little house of the map's,
+the Dom's front has no windows, and the figures and reliefs are rough.
 
 Florence's marble churches share `florence/marble.js` on top of `arcade.js`: a map outline's sides as
 paths, the green frames of the marble panels, Gothic and round windows laid on a wall's face, blocks
