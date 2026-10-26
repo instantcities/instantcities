@@ -1,0 +1,54 @@
+name: PR Preview
+
+# Builds every pull request and publishes it to the gh-pages branch under /preview/pr-<n>/
+# (https://instantcities.net/preview/pr-<n>/); the link comes as a comment on the PR, and the
+# preview goes again when the PR closes. tools/preview.mjs moves the site's root paths under that
+# folder and leaves the assets the PR does not change to production.
+# PRs from forks get a read-only token and no preview.
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    env:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+      JEKYLL_ENV: production
+      JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PAGES_REPO_NWO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        if: github.event.action != 'closed'
+        with:
+          ruby-version: '3.3.6'
+          bundler-cache: true
+      - if: github.event.action != 'closed'
+        run: bundle exec jekyll build
+      # Production's assets, to leave out the ones the PR does not change.
+      - uses: actions/checkout@v4
+        if: github.event.action != 'closed'
+        continue-on-error: true # no gh-pages branch yet
+        with:
+          ref: gh-pages
+          path: _production
+          sparse-checkout: assets
+      - if: github.event.action != 'closed'
+        run: node tools/preview.mjs _site /preview/pr-${{ github.event.number }} _production
+      - uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _site
+          umbrella-dir: preview
+          preview-branch: gh-pages
+          pages-base-url: instantcities.net

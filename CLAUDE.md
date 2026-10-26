@@ -25,3 +25,9 @@ screenshots of that street in the game (a few views of it, taken with one light 
 above), under a heading with the street's name and the progress: fronts coloured out of the street's
 fronts, and the city total (as `tools/todo.mjs` prints it). Put the images on a separate
 `pr<number>-screenshots` branch (kept out of the PR's diff) and link them with `?raw=true`.
+
+## Pull request previews
+
+Every PR gets a preview at `https://instantcities.net/preview/pr-<n>/` (`.github/workflows/preview.yml`,
+on the `gh-pages` branch). After pushing to a PR, check that the `PR Preview` run succeeded and give
+Wouter the link to the page the change shows on; if the run failed, say so and fix it.
