@@ -7,7 +7,7 @@ import { ART } from '../inside/artlist.js';
 import { t_ } from './base.js';
 import { sfx } from '../sound.js';
 
-const IMG = new URL('../../../assets/img/art/', import.meta.url);
+const IMG = new URL('/assets/img/art/', import.meta.url);
 const FACING = Math.cos((55 * Math.PI) / 180); // how far to one side of it you may look and still be before it
 
 // the piece a rider stands before in the building they are in, if any: near where you would stand
