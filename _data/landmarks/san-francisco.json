@@ -1,0 +1,280 @@
+[
+  {
+    "id": "transamerica-pyramid",
+    "name": "Transamerica Pyramid",
+    "emoji": "🔺",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 37.79519,
+    "lon": -122.40279,
+    "blurb": "The white pyramid of the Financial District, 260 metres tall, the sign of San Francisco’s skyline since 1972.",
+    "text": [
+      "The Transamerica Pyramid rises 48 floors from the corner of Montgomery Street and Columbus Avenue, narrowing all the way to a spire at 260 metres. The architect William Pereira gave it its shape so that more light would reach the streets below than a box of the same size would let through. Two wings stick out near the top, one for the lifts and one for the stairs.",
+      "It was finished in 1972, and for many people it was too modern at first. It was the tallest building in San Francisco until the Salesforce Tower passed it in 2018. On its east side lies Redwood Park, a little grove of redwoods moved here from the Santa Cruz Mountains.",
+      "The pyramid stands where the Montgomery Block stood from 1853, the largest office building in the West in its day, later a home for writers and artists, which was pulled down in 1959."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/transamerica-pyramid.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:South_face_of_the_Transamerica_Pyramid,_2017.jpg"
+    }
+  },
+  {
+    "id": "ferry-building",
+    "name": "Ferry Building",
+    "emoji": "⛴️",
+    "icon": "boat",
+    "kind": "place",
+    "lat": 37.79554,
+    "lon": -122.39345,
+    "blurb": "The ferry terminal at the foot of Market Street, with its clock tower after the Giralda of Seville, now a food hall.",
+    "text": [
+      "The Ferry Building opened in 1898 at the end of Market Street, where the ferries across the bay came in. Its clock tower, 75 metres tall, was modelled on the Giralda, the bell tower of the cathedral of Seville. Before the Bay Bridge and the Golden Gate Bridge opened in 1936 and 1937, some fifty thousand people a day passed through it.",
+      "It came through the earthquakes of 1906 and 1989. In 1959 a double-decker freeway, the Embarcadero Freeway, was built right in front of it and cut it off from the city; after the 1989 earthquake damaged that freeway, it was pulled down, and the waterfront opened up again.",
+      "Since 2003 the long hall inside is a market of bakers, cheese makers, coffee roasters and oyster bars, and three days a week a farmers’ market sets up round it. Ferries still leave from its back for Sausalito, Larkspur, Oakland and Alameda."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/ferry-building.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Francisco_Ferry_Building_January_2014_002.jpg"
+    }
+  },
+  {
+    "id": "coit-tower",
+    "name": "Coit Tower",
+    "emoji": "🗼",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 37.80239,
+    "lon": -122.40583,
+    "blurb": "The slim concrete tower on top of Telegraph Hill, built in 1933 with the money of Lillie Hitchcock Coit.",
+    "text": [
+      "Coit Tower stands 64 metres tall on the top of Telegraph Hill, the hill where a semaphore once signalled to the town which ships were coming in through the Golden Gate. It was paid for by Lillie Hitchcock Coit, who left a third of her fortune in 1929 to make the city more beautiful, and was finished in 1933.",
+      "Lillie Coit loved the city’s firefighters and rode along with them as a girl, so many people say the tower looks like the nozzle of a fire hose. Its architects, Arthur Brown Jr. and Henry Howard, always said it was never meant to.",
+      "In the lobby, more than twenty artists painted murals of life in California in 1934, paid by the first federal art programme of the New Deal. A lift takes visitors to the top, with a view over the bay, the bridges and Alcatraz."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/coit-tower.jpg",
+      "author": "Brooklyn Peach",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coit_Tower_Telegraph_Hill.jpg"
+    }
+  },
+  {
+    "id": "dragon-gate",
+    "name": "Dragon Gate",
+    "emoji": "🐉",
+    "icon": "door",
+    "kind": "place",
+    "lat": 37.79068,
+    "lon": -122.40548,
+    "blurb": "The gate into Chinatown on Grant Avenue at Bush Street, with green tiled roofs, dragons and two stone lions.",
+    "text": [
+      "The Dragon Gate stands where Grant Avenue meets Bush Street, at the south end of Chinatown. It was built in 1970 to a design by Clayton Lee, with stone and tiles given by the Republic of China on Taiwan. Its three arches have roofs of green glazed tiles, with dragons and carp on the ridges, and two stone lions guard the way through.",
+      "Over the middle arch hang four characters written by Sun Yat-sen, the founder of the Chinese republic, who spent time in San Francisco raising money for the revolution: “All under heaven is for the good of the people”.",
+      "Beyond the gate Grant Avenue changes at once: red lanterns hang over the street, and the shops sell tea, silk, jade and souvenirs."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/dragon-gate.jpg",
+      "author": "Ilkka Simomaa",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dragon_Gate,_Chinatown,_San_Francisco_2021-11-16.jpg"
+    }
+  },
+  {
+    "id": "chinatown",
+    "name": "Chinatown",
+    "emoji": "🏮",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 37.7942,
+    "lon": -122.4066,
+    "blurb": "The oldest Chinatown in North America, along Grant Avenue and Stockton Street, with lanterns over the street.",
+    "text": [
+      "Chinese people came to San Francisco in the Gold Rush of 1849, and settled round Portsmouth Square and Dupont Street, today’s Grant Avenue. Chinatown grew into the largest Chinese community outside Asia, though the Chinese Exclusion Act of 1882 kept most new migrants out for sixty years.",
+      "The earthquake and fire of 1906 burnt it down completely, and the city wanted to move it away. The Chinese merchants rebuilt it quickly instead, with pagoda roofs and painted balconies, partly to draw visitors.",
+      "Grant Avenue is the street of the shops and restaurants, while Stockton Street, one block up the hill, is where the neighbourhood buys its fish, vegetables and roast duck. In the alleys between them are temples, family associations and a fortune cookie bakery in Ross Alley."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/chinatown.jpg",
+      "author": "Tobias Kleinlercher / Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grant_Avenue_in_Chinatown,_San_Francisco_(TK3).JPG"
+    }
+  },
+  {
+    "id": "union-square",
+    "name": "Union Square",
+    "emoji": "🛍️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 37.78798,
+    "lon": -122.4075,
+    "blurb": "The square of the big shops and hotels, named after the rallies for the Union before the Civil War.",
+    "text": [
+      "Union Square was set aside as a park in 1850 by John Geary, the city’s first mayor. Its name comes from the great rallies held here for the Union in 1860 and 1861, when the Civil War was about to begin.",
+      "In the middle stands the Dewey Monument, a column with a bronze Victory on top, put up in 1903 for Admiral Dewey’s victory in the bay of Manila in 1898. Under the square lies a parking garage of 1942, one of the first underground garages in the world.",
+      "Round the square are the big department stores and hotels, with the St. Francis on the west side. At Christmas a tall tree and an ice rink stand on the square, and the cable cars on Powell Street ring their bells along its west side."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/union-square.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Union_Square,_San_Francisco_2023-07-14.jpg"
+    }
+  },
+  {
+    "id": "cable-cars",
+    "name": "Cable cars",
+    "emoji": "🚃",
+    "icon": "tram",
+    "kind": "vehicle",
+    "lat": 37.78478,
+    "lon": -122.40782,
+    "blurb": "The last cable cars in the world still running in city streets, pulled up the hills by a cable under the road.",
+    "text": [
+      "A cable car has no engine. A steel cable runs in a slot under the street, always moving at about 15 kilometres an hour, pulled round by big wheels in the powerhouse on Washington Street. The gripman pulls a lever that grips the cable to go, and lets go of it to stop, ringing the bell as the car climbs.",
+      "Andrew Hallidie ran the first one on Clay Street on 2 August 1873, after he saw horses slip and fall pulling a streetcar up a wet hill. By 1890 more than twenty lines climbed the city’s hills. Today three are left: Powell–Hyde, Powell–Mason and California Street.",
+      "At the end of Powell Street, by Market Street, the cars stop on a turntable, and the crew push them round by hand for the trip back. In 1947 the mayor wanted to replace them with buses, but Friedel Klussmann and her committee won the vote to keep them. They have been a National Historic Landmark since 1964."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/cable-cars.jpg",
+      "author": "JCruzTheTruth",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cable_Car_No._15,_Powell_Market_turntable,_San_Francisco_(2012).jpg"
+    }
+  },
+  {
+    "id": "washington-square",
+    "name": "Washington Square",
+    "emoji": "⛪",
+    "icon": "tree",
+    "kind": "place",
+    "lat": 37.80076,
+    "lon": -122.41004,
+    "blurb": "The green heart of North Beach, the Italian quarter, before the white church of Saints Peter and Paul.",
+    "text": [
+      "Washington Square is one of the oldest parks in the city, laid out in 1847. It is not quite a square, as Columbus Avenue cuts off one corner, and it does not lie on Washington Street. Around it lies North Beach, where Italian fishermen and their families settled from the late 19th century.",
+      "On its north side stands the church of Saints Peter and Paul, finished in 1924, with two white spires. Joe DiMaggio, the baseball player who grew up in North Beach, had his wedding photos taken on its steps with Marilyn Monroe in 1954.",
+      "In the mornings people do tai chi on the grass, and the cafés and bakeries round the square serve espresso and focaccia. A statue of Benjamin Franklin and a statue of three volunteer firemen, paid for by Lillie Coit, stand in the park."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/washington-square.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Saints_Peter_and_Paul_Catholic_Church_from_Washington_Square_-_San_Francisco,_CA_-_DSC02640.jpg"
+    }
+  },
+  {
+    "id": "city-lights",
+    "name": "City Lights",
+    "emoji": "📚",
+    "icon": "book",
+    "kind": "place",
+    "lat": 37.79763,
+    "lon": -122.40652,
+    "blurb": "The bookshop of the Beat poets on Columbus Avenue, which published Allen Ginsberg’s Howl in 1956.",
+    "text": [
+      "City Lights opened in 1953 on Columbus Avenue at Broadway, started by the poet Lawrence Ferlinghetti and Peter D. Martin. It was one of the first shops in the country to sell only paperbacks, and it stayed open late for the poets and writers of North Beach.",
+      "In 1956 Ferlinghetti published Allen Ginsberg’s poem Howl in his series of Pocket Poets. The police seized the book and arrested him for selling obscene writing, but in 1957 a judge ruled that the poem was not obscene. The trial made Howl, City Lights and the Beat writers famous.",
+      "The alley beside the shop is named after Jack Kerouac, and across it lies Vesuvio, the bar where the Beats drank. Ferlinghetti kept working in the shop until he was very old; he died in 2021, aged 101."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/city-lights.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:City_Lights_Bookstore,_San_Francisco_(2013)_-_1.JPG"
+    }
+  },
+  {
+    "id": "golden-gate-bridge",
+    "name": "Golden Gate Bridge",
+    "emoji": "🌉",
+    "icon": "bridge",
+    "kind": "place",
+    "blurb": "The orange suspension bridge across the mouth of the bay, about five kilometres west of the game’s map.",
+    "text": [
+      "The Golden Gate is the strait between the Pacific Ocean and San Francisco Bay, given its name by the explorer John C. Frémont in 1846. The bridge across it opened on 27 May 1937, after four years of work in fog, wind and strong currents. Its main span of 1,280 metres was the longest in the world until 1964.",
+      "Its two towers stand 227 metres above the water. The colour is called International Orange: the architect Irving Morrow chose it because it stands out in the fog and goes well with the hills round it. A team of painters keeps touching it up all year.",
+      "The bridge lies at the north-west corner of the city, too far west for the piece of San Francisco in the game. On a clear day you can see its towers from the top of Coit Tower."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/golden-gate-bridge.jpg",
+      "author": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg"
+    }
+  },
+  {
+    "id": "lombard-street",
+    "name": "Lombard Street",
+    "emoji": "🔀",
+    "icon": "flower",
+    "kind": "place",
+    "blurb": "The block of Lombard Street on Russian Hill with eight hairpin bends between flower beds, west of the game’s map.",
+    "text": [
+      "Between Hyde and Leavenworth Street, Lombard Street runs down the side of Russian Hill in eight tight bends, between hedges and flower beds. The hill there is too steep for a straight street, so in 1922 the bends were built to make it safe for cars.",
+      "Cars may go down it only, at walking pace, and people queue at the top to drive it. It is often called the crookedest street in the world, though Vermont Street, in the south of the city, has more bends.",
+      "It lies about a kilometre west of Washington Square, just outside the game’s map. In the game the city is flat, so its bends would not have a hill to climb."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/lombard-street.jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Crooked_section_of_Lombard_Street_(San_Francisco)-July_2022_(3).JPG"
+    }
+  },
+  {
+    "id": "alcatraz",
+    "name": "Alcatraz",
+    "emoji": "⛓️",
+    "icon": "shield",
+    "kind": "place",
+    "blurb": "The rocky island in the bay, a federal prison from 1934 to 1963, built so that no one could swim away.",
+    "text": [
+      "Alcatraz lies in the bay about two kilometres north of the waterfront. The Spanish called it the island of the pelicans in 1775, and in 1854 the first lighthouse on the west coast of the United States was lit on it. The army built a fort and a military prison there.",
+      "From 1934 to 1963 it was a federal prison for the men other prisons could not hold, among them Al Capone. The cold water and strong currents round it were meant to make escape impossible. In June 1962 Frank Morris and the brothers John and Clarence Anglin slipped out of their cells, leaving heads of papier-mâché in their beds, and paddled off on a raft of raincoats. They were never found.",
+      "From 1969 to 1971 Native Americans occupied the island, to claim it as Indian land. Today it is part of a national park, and ferries take visitors there from Pier 33 on the Embarcadero."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/alcatraz.jpg",
+      "author": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Alcatraz_Island_as_seen_from_the_East.jpg"
+    }
+  },
+  {
+    "id": "sourdough",
+    "name": "Sourdough bread",
+    "emoji": "🍞",
+    "icon": "utensils",
+    "kind": "food",
+    "blurb": "The sour, chewy bread of San Francisco, baked since the Gold Rush from a living dough.",
+    "text": [
+      "Sourdough bread rises without bought yeast. The baker keeps a piece of each day’s dough, the mother, and feeds it flour and water; the wild yeasts and bacteria living in it make the bread rise and give it its sour taste. In San Francisco the bread is tangier than elsewhere, and one of its bacteria was named after the city, Lactobacillus sanfranciscensis.",
+      "The miners of the Gold Rush baked it in their camps, and old prospectors were called sourdoughs. The Boudin bakery has baked it since 1849, and says it still uses a mother kept alive since then.",
+      "Visitors eat it at Fisherman’s Wharf as a bread bowl, hollowed out and filled with clam chowder."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/san-francisco/sourdough.jpg",
+      "author": "Edward Z. Yang",
+      "license": "Public domain",
+      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Bread_in_Boudin.jpg"
+    }
+  }
+]
