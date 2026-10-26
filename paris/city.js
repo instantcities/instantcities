@@ -15,6 +15,9 @@
 //   inside.js        the buildings you can go into: the Louvre, its rooms in inside/ (hand-written)
 //   saint-jacques.js the Tour Saint-Jacques, modelled by hand on core/js/arcade.js, in place of the map's block of it
 //   eiffel.js        the Eiffel Tower, modelled by hand in place of the map's stack of building parts
+//   notre-dame.js    Notre-Dame, modelled by hand in place of the map's building parts of it
+//   sainte-chapelle.js, conciergerie.js, hotel-de-ville.js, pompidou.js,
+//   pont-neuf.js, louvre.js  the same way
 // No sights or fronts yet, and three monuments, the Louvre's pyramid, the Tour Saint-Jacques and the
 // Eiffel Tower: empty lists for the rest, and for what only Ghent has.
 export { MAP } from './map.js';
@@ -27,6 +30,13 @@ export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';
 import { SAINT_JACQUES } from './saint-jacques.js';
 import { EIFFEL } from './eiffel.js';
+import { NOTRE_DAME } from './notre-dame.js';
+import { SAINTE_CHAPELLE } from './sainte-chapelle.js';
+import { CONCIERGERIE } from './conciergerie.js';
+import { HOTEL_DE_VILLE } from './hotel-de-ville.js';
+import { POMPIDOU } from './pompidou.js';
+import { PONT_NEUF } from './pont-neuf.js';
+import { LOUVRE } from './louvre.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
@@ -37,7 +47,7 @@ const PYRAMID = [-974, -628, -931, -612, -947, -570, -990, -585];
 export const MONUMENTS = [{
   id: 'pyramide-du-louvre', name: 'Pyramide du Louvre', x: -960.5, z: -598.8, turn: 1.214, size: 1, reach: 120,
   area: [PYRAMID], foot: [PYRAMID], make: () => pyramid(22.9, 0, 27, 0.62),
-}, ...SAINT_JACQUES, ...EIFFEL];
+}, ...SAINT_JACQUES, ...EIFFEL, ...NOTRE_DAME, ...SAINTE_CHAPELLE, ...CONCIERGERIE, ...HOTEL_DE_VILLE, ...POMPIDOU, ...PONT_NEUF, ...LOUVRE];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
