@@ -287,8 +287,6 @@ the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het 
 (both already stacked in the map from many parts, so less to gain). Waiting on a map fix:
 - the Pont Saint-Bénezet in Avignon: the map has a footway along it at the water's level, so its deck
   would have to be lifted with it.
-- the Ponte dei Sospiri in Venice: the map has the Palazzo Ducale and the prisons touching, with the
-  Rio di Palazzo under them, so there is no gap for the bridge to cross.
 - Børsen in Copenhagen is not in the map at all.
 - the Erasmusbrug in Rotterdam: the map draws its deck flat at 0.2 m over the Maas; lifted to its
   real 12.5 m, the pylon and its stays would be quick to add.
