@@ -49,6 +49,8 @@ for (const file of walk(site)) {
   if (ext === '.html') {
     // The home page: href="/", href="/#cities"
     text = text.replace(/((?:href|action)=["'])\/(?=["'#?])/g, `$1${base}/`);
+    // <meta http-equiv="refresh" content="0; url=/en/">
+    text = text.replace(/(content=["']\d+;\s*url=)\/(?!\/)([^"'\s]*)/gi, (m, pre, rest) => moves(rest) || !rest ? `${pre}${base}/${rest}` : m);
     // Search engines leave previews alone.
     text = text.replace(/<head(\s[^>]*)?>/i, h => `${h}\n<meta name="robots" content="noindex, nofollow">`);
   }
