@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/antwerp/landmark/diamant/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/anvers/monument/diamant/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/antwerpen/bezienswaardigheid/diamant/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-88/en/antwerp/landmark/diamant/", "fr": "/preview/pr-88/fr/anvers/monument/diamant/", "nl": "/preview/pr-88/nl/antwerpen/bezienswaardigheid/diamant/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-88/en/antwerp/landmark/diamant/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-88/en/antwerp/landmark/diamant/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-88/fr/anvers/monument/diamant/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-88/nl/antwerpen/bezienswaardigheid/diamant/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

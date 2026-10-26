@@ -1,0 +1,12 @@
+{
+  "id": "venice",
+  "name": "Instant Venice",
+  "title": "Instant Venice: a free virtual 3D tour and game of Venice",
+  "description": "Take a free virtual 3D tour of the centre of Venice in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Venice: a virtual 3D tour of Venice",
+  "share_description": "Cycle, walk or gallop through Venice in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Venice, Italy: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Venice in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Venice",
+  "style": ":root { --paper: #fdf7ef; --accent: #1f7a7a; --accent-soft: #d8eeec; --gold: #e3b54a; --sky: #e6eef0; --skyline: #9cc2c2; --glass: rgba(253, 247, 239, 0.72); } .tag { color: #2a5a5a; }"
+}
