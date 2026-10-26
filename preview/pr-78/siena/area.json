@@ -1,0 +1,51 @@
+{
+  "city": "Siena",
+  "bbox": [
+    43.3115,
+    11.322,
+    43.325,
+    11.342
+  ],
+  "zone_points": [
+    [
+      43.325,
+      11.322
+    ],
+    [
+      43.325,
+      11.342
+    ],
+    [
+      43.3115,
+      11.342
+    ],
+    [
+      43.3115,
+      11.322
+    ]
+  ],
+  "routes": [
+    {
+      "id": "siena",
+      "route": [
+        "Banchi di Sopra",
+        "Via di Città",
+        "Costarella dei Barbieri",
+        "Il Campo",
+        "Casato di Sotto",
+        "Casato di Sopra",
+        "Via San Pietro",
+        "Via del Capitano",
+        "Piazza del Duomo",
+        "Via dei Fusari",
+        "Piazza San Giovanni",
+        "Via di Diacceto",
+        "Via delle Terme",
+        "Costa dell'Incrociata"
+      ]
+    }
+  ],
+  "floors": 5,
+  "hw": 3.2,
+  "gables": false
+}
