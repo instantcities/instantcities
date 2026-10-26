@@ -12,17 +12,30 @@
 //                    `node tools/osm_map.mjs siena`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs siena`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs siena`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. The town
-// climbs and falls on every street, but the map is flat, like every city's outside Flanders.
+//   palazzo.js       the Palazzo Pubblico, the Torre del Mangia and the Cappella di Piazza, modelled by hand
+//                    in place of the map's block and pieces of them
+//   fonte-gaia.js    the Fonte Gaia at the top of the Campo
+//   duomo.js         the Duomo, striped black and white, its front, its dome and its bell tower, in place of
+//                    the map's pieces of them
+//   facciatone.js    the Facciatone, the unfinished front of the Duomo Nuovo, in place of the map's floating piece
+//   mercanzia.js     the Loggia della Mercanzia at the Croce del Travaglio
+// No sights or fronts yet: empty lists for those, and for what only Ghent has. The town climbs and
+// falls on every street, but the map is flat, like every city's outside Flanders.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { PALAZZO } from './palazzo.js';
+import { FONTE_GAIA } from './fonte-gaia.js';
+import { DUOMO } from './duomo.js';
+import { FACCIATONE } from './facciatone.js';
+import { MERCANZIA } from './mercanzia.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...PALAZZO, ...FONTE_GAIA, ...DUOMO, ...FACCIATONE, ...MERCANZIA];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
