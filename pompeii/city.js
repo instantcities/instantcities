@@ -15,6 +15,8 @@
 //   frame.js         latitude and longitude to the map's metres
 //   forum.js         the Forum's colonnades and the Temple of Jupiter
 //   amphitheatre.js  the amphitheatre
+//   public.js        the theatres, the Basilica, the Temple of Apollo and the other public buildings
+//   stones.js        the stepping stones across the streets
 //   vesuvius.js      Vesuvius on the horizon
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -23,8 +25,10 @@ export { QUESTS } from './quests.js';
 import { FORUM } from './forum.js';
 import { AMPHITHEATRE } from './amphitheatre.js';
 import { VESUVIUS } from './vesuvius.js';
+import { PUBLICS } from './public.js';
+import { STONES } from './stones.js';
 
-export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...VESUVIUS];
+export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...VESUVIUS];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const PARKED_BIKES = false; // no bikes parked along the streets
 export { SIGHTS } from './sights.js';

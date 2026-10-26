@@ -24,6 +24,20 @@ export const SIGHTS = [
     },
   },
   {
+    id: 'apollo', emoji: '☀️', x: -183, z: 160, r: 50,
+    text: {
+      en: { name: 'Temple of Apollo', text: 'The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.' },
+      nl: { name: 'Apollotempel', text: 'De oudste tempel van Pompeii, uit de 6de eeuw v.Chr., in een hof met een zuilengang van 48 zuilen. Apollo was de beschermer van de stad. De beelden hier zijn kopieën.' },
+    },
+  },
+  {
+    id: 'stepping-stones', emoji: '🪨', x: -60, z: 100, r: 40,
+    text: {
+      en: { name: 'Stepping stones', text: 'Streets ran with rainwater and rubbish, so there are blocks of lava to cross on. The gaps between them are as wide as a cart’s wheels, and you can still see the ruts the carts cut in the paving.' },
+      nl: { name: 'Stapstenen', text: 'Straten stonden vol regenwater en afval, dus er liggen blokken lava om over te steken. De openingen ertussen zijn zo breed als de wielen van een kar, en je ziet nog de sporen die de karren in het plaveisel sleten.' },
+    },
+  },
+  {
     id: 'stabian-baths', emoji: '🛁', x: 148, z: 52, r: 60,
     text: {
       en: { name: 'The Stabian Baths', text: 'The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.' },
