@@ -117,6 +117,9 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Prague | the Týn church's towers | `prague/tyn.js` | bump into them (the nave stays the map's) |
 | Prague | the Old Town Hall's tower and the Orloj | `prague/orloj.js` | bump into it |
 | Prague | the Old Town Bridge Tower | `prague/mostecka-vez.js` | go through it along the Charles Bridge |
+| Prague | the Klementinum's Astronomical Tower | `prague/klementinum.js` | none reach it: it stands in the college's courtyards, inside the map's block (the wings stay the map's) |
+| Prague | Rudolfinum | `prague/rudolfinum.js` | bump into it |
+| Prague | Old-New Synagogue | `prague/staronova.js` | bump into it |
 | Berlin | Fernsehturm | `berlin/fernsehturm.js` | bump into its foot |
 | Berlin | Reichstag and its glass dome | `berlin/reichstag.js` | bump into it |
 | Berlin | Berliner Dom | `berlin/dom.js` | bump into it and the statues before its front |
@@ -216,6 +219,15 @@ The Belfort stands without the Halle behind it, which the map does not have as a
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
 The Old Town Hall's tower in Prague had only its top in the map, floating; the Old Town Bridge
 Tower was solid though the bridge goes through it.
+
+Prague's Rudolfinum and Old-New Synagogue share `prague/outline.js`: they stand on the map's own
+outlines (the Rudolfinum's block and its ten parts, each pavilion and hall at the map's height), with
+blocks raised on them and roofs drawn from one ring up to a smaller one. The Astronomical Tower
+follows the map's heights too, 42 m to its cornice and 52 m to the top of its lantern, with Atlas on
+top at about 54 m; other sources give the tower 68 m, which photos would settle. Prague Castle is not
+modelled: St Vitus stands some 540 m (670 game metres) west of the map's edge, on the far bank (the map holds only
+the Old Town), so it would need the map stretched over the Malá Strana and the castle hill first.
+Its cathedral can only be visited inside (`prague/inside.js`).
 
 London's two Gothic buildings, the Houses of Parliament and Westminster Abbey, share
 `london/gothic.js`: a range of walls with rows of pointed windows between buttresses that rise as
