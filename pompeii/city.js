@@ -53,7 +53,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#a99c72', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
+export const THEME = { ground: '#a99d86', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {
@@ -72,7 +72,30 @@ export const LOOK = {
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
   ruins: true, // ... drawn as what the excavation has left of them: broken walls, no roofs (js/roman.js)
-  grass: '#a69a5c', // the open ground is dry grass
+  grass: '#a89e88', // the open ground is bare dust and gravel, not grass
+};
+
+// The visitors: it is a busy day, with crowds along the main streets and round the Forum and the baths.
+export const BUSY = {
+  walkers: 320,
+  cyclists: 0,
+  streets: [
+    { street: 'Via dell\'Abbondanza', weight: 4, free: true },
+    { street: 'Via Stabiana', weight: 3, free: true },
+    { street: 'Via del Foro', weight: 4, free: true, across: 20 },
+    { street: 'Via della Fortuna', weight: 3, free: true },
+    { street: 'Via di Mercurio', weight: 2, free: true },
+    { street: 'Via dei Teatri', weight: 2, free: true },
+    { street: 'Via delle Terme', weight: 2, free: true },
+    { street: 'Via Consolare', weight: 1.5, free: true },
+    { street: 'Via Marina', weight: 1.5, free: true },
+    { street: 'Via di Nola', weight: 1.5, free: true },
+    { street: 'Via di Nocera', weight: 1.5, free: true },
+    { street: 'Vicolo di Mercurio', weight: 1, free: true },
+    { street: 'Vicolo del Lupanare', weight: 1.5, free: true },
+    { street: 'Vicolo del Fauno', weight: 1, free: true },
+    { street: 'Vicolo di Modesto', weight: 1, free: true },
+  ],
 };
 
 // Places named on the big map when riding about freely: click a name to teleport there.

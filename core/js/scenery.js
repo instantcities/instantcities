@@ -1357,7 +1357,7 @@ function dropWall(key) {
 // The walls and roofs of a tile's houses, as one group.
 function buildHouses(city, houses) {
   const group = new THREE.Group(), ctx = { ...city, group };
-  const walls = new Map(), roofCaps = new Batch(), floors = new Batch(), spires = new Batch(), gables = [], lumps = [], weeds = [];
+  const walls = new Map(), roofCaps = new Batch(), floors = new Batch(), spires = new Batch(), gables = [], lumps = [], weeds = [], pools = [], stumps = [];
   const batchOf = wall => {
     if (!walls.has(wall[0])) walls.set(wall[0], { batch: new Batch(wall[2]), wall });
     return walls.get(wall[0]).batch;
@@ -1377,6 +1377,7 @@ function buildHouses(city, houses) {
     let along = 0;
     if (house.ruin) {
       const R = house.ruin, front = batchOf(R.front), plain = batchOf(R.plain);
+      let longest = 0, axis = [1, 0];
       eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
         const isFront = k === house.fe, wb = isFront ? front : plain, u = RUIN_TILE[0];
         // the front's doorway in the middle of the wall; the others' stones from wherever
@@ -1384,7 +1385,21 @@ function buildHouses(city, houses) {
         along += L;
         // seen from outside the texture runs left to right
         ruinWall(wb, ax, az, bx, bz, nx, nz, L, y0, R.h, R.seed, ...(dx * nz - dz * nx < 0 ? [u1, u0] : [u0, u1]));
+        if (L > longest) { longest = L; axis = [dx / L, dz / L]; }
       });
+      // a cross wall between the rooms of a bigger house, and in the biggest the pool of the atrium
+      // (the impluvium) with the stumps of the columns round it
+      const area = Math.abs(signed), xs = p.filter((_, k) => !(k % 2)), zs = p.filter((_, k) => k % 2);
+      const cx = xs.reduce((a, b) => a + b, 0) / xs.length, cz = zs.reduce((a, b) => a + b, 0) / zs.length, [ux, uz] = axis;
+      if (area > 120) {
+        const half = Math.min(7, Math.sqrt(area) * 0.35), mx = cx - uz * 2.5, mz = cz + ux * 2.5;
+        const a = [mx - ux * half, mz - uz * half], b = [mx + ux * half, mz + uz * half];
+        if ([a, b, [mx, mz]].every(([x, z]) => pointIn(x, z, p))) ruinWall(plain, a[0], a[1], b[0], b[1], -uz, ux, half * 2, y0, R.h * 0.7, R.seed + 5, 0, half * 2 / RUIN_TILE[0], 0.5);
+      }
+      if (area > 260 && pointIn(cx, cz, p)) {
+        pools.push({ x: cx, z: cz, y: y0, a: Math.atan2(-uz, ux) });
+        for (const [dx, dz] of [[-2.6, -2], [2.6, -2], [-2.6, 2], [2.6, 2]]) stumps.push({ x: cx + dx * ux - dz * uz, z: cz + dx * uz + dz * ux, y: y0, s: 0.8 + hashOf(R.seed + dx * 3 + dz) * 1.6 });
+      }
     } else eachWall(house, (k, ax, az, bx, bz, nx, nz, L, dx, dz) => {
       const isShop = shop && k === house.fe, wb = isShop ? shopBatch : batch;
       // a shop's front, and a quarter's house fronts on the street, a whole number of house fronts across
@@ -1440,6 +1455,10 @@ function buildHouses(city, houses) {
     instanced(ctx, new THREE.DodecahedronGeometry(0.5, 0).scale(1, 0.6, 0.8), mat(0xffffff, 1, { flatShading: true }), lumps, (d, l) => {
       d.position.set(l.x, l.y + 0.1 * l.s, l.z); d.rotation.set(0, l.a, 0); d.scale.set(l.s, l.s * 0.8, l.s * 0.85);
     }, { color: l => new THREE.Color(tones[Math.floor(l.c * tones.length)]) });
+  }
+  if (pools.length) {
+    instanced(ctx, new THREE.BoxGeometry(3.6, 0.2, 2.4), mat(0x5d6e73, 0.6), pools, (d, l) => { d.position.set(l.x, l.y + 0.1, l.z); d.rotation.set(0, l.a, 0); d.scale.set(1, 1, 1); }, { shadow: false });
+    instanced(ctx, new THREE.CylinderGeometry(0.32, 0.38, 1, 8).translate(0, 0.5, 0), mat(0xc9b896, 0.95, { flatShading: true }), stumps, (d, l) => { d.position.set(l.x, l.y, l.z); d.rotation.set(0, 0, 0); d.scale.set(1, l.s, 1); });
   }
   if (weeds.length) {
     const tones = ['#8a8a45', '#a39a58', '#6e7a3a', '#b4a665'];
