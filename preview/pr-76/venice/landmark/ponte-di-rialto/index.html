@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/venice/landmark/ponte-di-rialto/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/venise/monument/ponte-di-rialto/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/venetie/bezienswaardigheid/ponte-di-rialto/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-76/en/venice/landmark/ponte-di-rialto/", "fr": "/preview/pr-76/fr/venise/monument/ponte-di-rialto/", "nl": "/preview/pr-76/nl/venetie/bezienswaardigheid/ponte-di-rialto/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-76/en/venice/landmark/ponte-di-rialto/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-76/en/venice/landmark/ponte-di-rialto/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-76/fr/venise/monument/ponte-di-rialto/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-76/nl/venetie/bezienswaardigheid/ponte-di-rialto/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
