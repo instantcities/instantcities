@@ -12,9 +12,9 @@ live_caption: "Preview: Ghent"
 live_watch: "Watch the tour"
 home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
 soon_title: "Coming soon"
-cities_page_title: "Cities: the historic centres of Europe to play in 3D"
-cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
-cities_page_tagline: "The historic centres of Europe, rebuilt in 3D, from Bruges to Rome."
+cities_page_title: "Cities: the historic centres of Europe, and a few beyond, to play in 3D"
+cities_page_description: "Every city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
+cities_page_tagline: "The historic centres of Europe, rebuilt in 3D, from Bruges to Rome and Istanbul, and across the ocean New York and San Francisco."
 features_title: "In every city"
 features: # more: where on the about page (/about/) its "Learn more" link goes
   - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals.", more: "/about/#openstreetmap" }

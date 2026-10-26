@@ -1,0 +1,267 @@
+[
+  {
+    "id": "empire-state",
+    "name": "Empire State Building",
+    "emoji": "🏙️",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 40.74852,
+    "lon": -73.98604,
+    "blurb": "The Art Deco tower on Fifth Avenue and 34th Street, the tallest building in the world from 1931 to 1970.",
+    "text": [
+      "The Empire State Building went up in just over a year, from March 1930 to its opening on 1 May 1931, on the site of the old Waldorf-Astoria hotel. It has 102 floors, its roof stands at 381 metres and its mast reaches 443 metres. For almost forty years nobody built higher.",
+      "Its stepped shape comes from New York’s zoning law, which made tall buildings step back as they rose so that light could reach the street. Visitors ride up to the open deck on the 86th floor, and every night the lights at the top change colour for a holiday, a team or a cause. In the film of 1933, King Kong climbs it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/empire-state.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg"
+    }
+  },
+  {
+    "id": "times-square",
+    "name": "Times Square",
+    "emoji": "🌃",
+    "icon": "sparkle",
+    "kind": "place",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "blurb": "The crossing of Broadway and Seventh Avenue, under walls of lit screens, at the heart of the Theater District.",
+    "text": [
+      "Times Square was Longacre Square, a place of horse dealers and carriage makers, until The New York Times built its tower here and the city renamed the square after it in 1904. Since then the screens and neon signs have grown until they cover every wall, and they stay on day and night.",
+      "Round it lie the Broadway theatres. Since 2009 the stretch of Broadway through the square has been closed to cars, and people sit on red steps over the TKTS booth to watch the crowd. On New Year’s Eve about a million people gather to see the ball drop from One Times Square at midnight, a custom that goes back to 1907."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/times-square.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_City,_20231006_1916_2338.jpg"
+    }
+  },
+  {
+    "id": "chrysler",
+    "name": "Chrysler Building",
+    "emoji": "🏢",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 40.75151,
+    "lon": -73.97532,
+    "blurb": "The Art Deco tower on 42nd Street and Lexington Avenue, with a crown of steel arches and a needle on top.",
+    "text": [
+      "Walter Chrysler, the car maker, had William Van Alen build this tower from 1928 to 1930. In a race with 40 Wall Street to be the tallest, the builders put the spire together in secret inside the crown and raised it through the roof in one go. At 319 metres it was the tallest building in the world, until the Empire State Building passed it a year later.",
+      "Its crown of stainless steel arches, with triangular windows, shines in the sun and is lit at night. Steel eagles stick out from the corners of the 61st floor, and lower down the corners carry winged radiator caps, like the ones on Chrysler’s cars."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/chrysler.jpg",
+      "author": "Ken Lund from Reno, Nevada, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Looking_Down_42nd_Avenue_to_Chrysler_Building,_Manhattan,_New_York_(7237730886).jpg"
+    }
+  },
+  {
+    "id": "grand-central",
+    "name": "Grand Central Terminal",
+    "emoji": "🚂",
+    "icon": "train",
+    "kind": "place",
+    "lat": 40.75258,
+    "lon": -73.97772,
+    "blurb": "The great railway station on 42nd Street, with its hall under a ceiling of stars and its clock of opal.",
+    "text": [
+      "Grand Central Terminal opened in 1913, with the trains running underground on two levels so that Park Avenue could be built over the tracks. It has 44 platforms, more than any other station in the world, and trains still leave it every few minutes for the north of the city and Connecticut.",
+      "Its Main Concourse is one of the largest halls in New York. The green ceiling is painted with the stars of the winter sky, and over the information booth stands a four-faced clock. In the 1960s the owners wanted to put a tower on top of it; New Yorkers, Jacqueline Kennedy Onassis among them, fought to save it, and in 1978 the Supreme Court ruled that the city could protect it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/grand-central.jpg",
+      "author": "Steven Lek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_Main_Concourse_2015.JPG"
+    }
+  },
+  {
+    "id": "public-library",
+    "name": "New York Public Library",
+    "emoji": "🦁",
+    "icon": "book",
+    "kind": "place",
+    "lat": 40.7533,
+    "lon": -73.98226,
+    "blurb": "The marble library on Fifth Avenue, guarded by the two stone lions Patience and Fortitude.",
+    "text": [
+      "The Stephen A. Schwarzman Building, the main building of the New York Public Library, opened in 1911 on the site of an old reservoir. Carrère and Hastings built it of white marble in the Beaux-Arts style, and it was the largest marble building in the United States at the time.",
+      "Two stone lions lie at the foot of its steps on Fifth Avenue. In the 1930s Mayor Fiorello La Guardia named them Patience and Fortitude, the qualities he said New Yorkers would need to get through the Depression. Upstairs the Rose Main Reading Room, under a painted ceiling, is open to anyone who wants to read."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/public-library.jpg",
+      "author": "(vincent desjardins) from Paris, France",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:New_York_City,_Midtown_Manhattan,_New_York_Public_Library,_Stephen_A._Schwarzman_Building,_1897-1911._5th_Avenue_(2011).jpg"
+    }
+  },
+  {
+    "id": "rockefeller-center",
+    "name": "Rockefeller Center",
+    "emoji": "🎄",
+    "icon": "statue",
+    "kind": "place",
+    "lat": 40.75884,
+    "lon": -73.9788,
+    "blurb": "The Art Deco towers between Fifth and Sixth Avenue, with the golden Prometheus, the skating rink and the Christmas tree.",
+    "text": [
+      "John D. Rockefeller Jr. built this city within the city in the 1930s, in the middle of the Depression: fourteen Art Deco buildings round a sunken plaza, with gardens on the roofs. The tallest, 30 Rockefeller Plaza, rises 259 metres, and from its top deck you look straight at the Empire State Building.",
+      "The golden statue of Prometheus lies over the plaza, where a skating rink opens every winter. The workers who built the centre put up the first Christmas tree here in 1931, and since 1933 a giant tree has gone up over the rink every year. Radio City Music Hall, home of the Rockettes, stands on the corner of Sixth Avenue."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/rockefeller-center.jpg",
+      "author": "Peter K Burian",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:PROMETHEUS,_Rockefeller_Center,_New_York,_NY.jpg"
+    }
+  },
+  {
+    "id": "bryant-park",
+    "name": "Bryant Park",
+    "emoji": "🌳",
+    "icon": "tree",
+    "kind": "place",
+    "lat": 40.75379,
+    "lon": -73.98345,
+    "blurb": "The green lawn behind the Public Library, with its plane trees, its green chairs and in winter its ice rink.",
+    "text": [
+      "Bryant Park lies behind the Public Library, between 40th and 42nd Street. It is named after William Cullen Bryant, a poet and newspaper editor, and in 1853 New York’s Crystal Palace stood here for the world’s fair, until it burnt down in 1858.",
+      "By the 1970s the park was known for drug dealers, but it was rebuilt and reopened in 1992. Now office workers eat their lunch on its lawn and its movable green chairs, films are shown on summer evenings, and in winter the lawn becomes an ice rink among the stalls of a Christmas market."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/bryant-park.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bryant_Park,_New_York_City_(May_2014)_-_06.JPG"
+    }
+  },
+  {
+    "id": "st-patricks",
+    "name": "St. Patrick’s Cathedral",
+    "emoji": "⛪",
+    "icon": "church",
+    "kind": "place",
+    "lat": 40.75847,
+    "lon": -73.97605,
+    "blurb": "The Gothic cathedral of white marble on Fifth Avenue, facing Rockefeller Center.",
+    "text": [
+      "St. Patrick’s Cathedral, the seat of the Catholic Archbishop of New York, was built from 1858 to 1878 to the design of James Renwick Jr., paid for partly by the small gifts of Irish immigrants. Its two spires, finished in 1888, rise about 100 metres over Fifth Avenue.",
+      "When it was built, this part of Manhattan was still nearly empty; now the cathedral stands among towers, opposite the bronze Atlas of Rockefeller Center. Every March the St. Patrick’s Day Parade marches past its steps."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/st-patricks.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2016_St._Patrick%27s_Cathedral_-_Manhattan_14.JPG"
+    }
+  },
+  {
+    "id": "macys",
+    "name": "Macy’s Herald Square",
+    "emoji": "🛍️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 40.75072,
+    "lon": -73.98872,
+    "blurb": "One of the largest department stores in the world, on 34th Street, where the Thanksgiving Day Parade ends.",
+    "text": [
+      "Macy’s moved to Herald Square in 1902, and its store on 34th Street fills a whole block. Some of its escalators, put in from the 1920s, still have wooden treads.",
+      "Since 1924 Macy’s has held its Thanksgiving Day Parade every November, with giant balloons of cartoon figures floating down the avenues to the store’s doors. The film Miracle on 34th Street (1947) is set here, with a Santa Claus at Macy’s who says he is the real one."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/macys.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Macy%27s_Herald_Square_August_2017_03.jpg"
+    }
+  },
+  {
+    "id": "statue-of-liberty",
+    "name": "Statue of Liberty",
+    "emoji": "🗽",
+    "icon": "statue",
+    "kind": "place",
+    "blurb": "The copper statue in the harbour, a gift from France, that greeted the ships of the immigrants.",
+    "text": [
+      "Liberty Enlightening the World, a gift from the people of France to the United States, was made by Frédéric Auguste Bartholdi, with an iron frame inside by Gustave Eiffel. It was shipped over in pieces and opened on its island in 1886. Its copper skin has turned green with age.",
+      "For the millions of immigrants who came to America by ship, the statue was the first thing they saw before they landed at Ellis Island next to it. It lies on Liberty Island in the harbour, south of Manhattan, outside the game’s map; ferries leave for it from Battery Park."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/statue-of-liberty.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Statue_of_Liberty_--_2012_--_6660.jpg"
+    }
+  },
+  {
+    "id": "central-park",
+    "name": "Central Park",
+    "emoji": "🌳",
+    "icon": "tree",
+    "kind": "place",
+    "blurb": "The great park in the middle of Manhattan, four kilometres long, just north of the game’s map.",
+    "text": [
+      "Central Park runs from 59th to 110th Street, four kilometres of lawns, lakes, woods and rocks between the towers. Frederick Law Olmsted and Calvert Vaux won the competition to design it in 1858, and almost all of it was shaped by hand: millions of cartloads of earth were moved and hundreds of thousands of trees and shrubs planted.",
+      "New Yorkers jog, row, skate and lie in the sun there, and about forty million people visit it every year. It starts a few blocks north of the game’s map, at the top of Fifth and Seventh Avenue."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/central-park.jpg",
+      "author": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_with_the_Central_Park_South_skyline,_Central_Park,_Manhattan,_New_York.jpg"
+    }
+  },
+  {
+    "id": "yellow-cab",
+    "name": "Yellow cabs",
+    "emoji": "🚕",
+    "icon": "car",
+    "kind": "vehicle",
+    "blurb": "The yellow taxis of New York, which you hail from the kerb with a raised hand.",
+    "text": [
+      "Since 1967 every taxi with a city medallion, the licence to pick up people waving from the street, has to be painted yellow. There are about 13,000 of them, and in Midtown they often make up most of the traffic.",
+      "The big Checker cabs of the films were the classic, until the last one retired in 1999. Then came the Ford Crown Victoria, and now hybrid cars and vans. In the game, too, most of the cars in Midtown are yellow cabs."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/yellow-cab.jpg",
+      "author": "Marc-Lautenbacher",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow_cab_on_Times_Square_Manhattan_-_New_York_City.jpg"
+    }
+  },
+  {
+    "id": "pizza",
+    "name": "New York pizza",
+    "emoji": "🍕",
+    "icon": "utensils",
+    "kind": "food",
+    "blurb": "The big, thin pizza sold by the slice, to be folded in half and eaten on the street.",
+    "text": [
+      "Italian immigrants brought pizza to New York at the start of the 20th century, and Lombardi’s, in Little Italy, is said to have been the first pizzeria in the United States, licensed in 1905.",
+      "A New York pizza is wide and thin, with a crisp crust that bends. It is sold by the slice from counters all over the city, and New Yorkers fold the slice in half lengthwise to eat it as they walk."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/new-york/pizza.jpg",
+      "author": "Ashoka Jegroo",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Brooklyn_Slices_of_Pizza.JPG"
+    }
+  }
+]

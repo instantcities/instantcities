@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ayasofya",
+    "name": "Hagia Sophia",
+    "local": "Ayasofya",
+    "emoji": "🕌",
+    "icon": "church",
+    "kind": "place",
+    "lat": 41.00858,
+    "lon": 28.98014,
+    "blurb": "Justinian’s great church of 537, with its dome 55 metres high: a church, then a mosque, a museum and a mosque again.",
+    "text": [
+      "Emperor Justinian had the Hagia Sophia, the church of Holy Wisdom, built in under six years, and it was finished in 537. Its dome, 31 metres across and 55 metres above the floor, seems to float on a ring of forty windows. For almost a thousand years it was the largest church in the world and the heart of the Byzantine Empire.",
+      "When Mehmed II took the city in 1453, he made it a mosque, and the four minarets were added round it. In 1934 Atatürk’s republic made it a museum, and in 2020 it became a mosque again. Visitors may still go in outside the hours of prayer, to see the mosaics of Christ and the emperors next to the great round shields with the names of God and the Prophet."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/ayasofya.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2019-07-26_Hagia_Sophia.jpg"
+    }
+  },
+  {
+    "id": "sultanahmet-camii",
+    "name": "Blue Mosque",
+    "local": "Sultanahmet Camii",
+    "emoji": "🕌",
+    "icon": "church",
+    "kind": "place",
+    "lat": 41.00544,
+    "lon": 28.9768,
+    "blurb": "The mosque of Sultan Ahmed I, with six minarets and some twenty thousand blue tiles from İznik inside.",
+    "text": [
+      "Sultan Ahmed I had the mosque built from 1609 to 1616 by the architect Sedefkâr Mehmed Ağa, right across the square from the Hagia Sophia. Its domes and half-domes climb up like a cascade to the great central dome, and six minarets stand round it, as many as the Great Mosque of Mecca had then.",
+      "Inside, more than twenty thousand hand-painted tiles from İznik, with tulips, carnations and cypresses, give it its blue light and its English name. It is still a working mosque, closed to visitors at prayer times, and the Hippodrome lies along its west side."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/sultanahmet-camii.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_5.jpg"
+    }
+  },
+  {
+    "id": "hipodrom",
+    "name": "Hippodrome",
+    "local": "At Meydanı",
+    "emoji": "🐎",
+    "icon": "horseshoe",
+    "kind": "place",
+    "lat": 41.00594,
+    "lon": 28.97521,
+    "blurb": "The long square where Byzantium held its chariot races, with an Egyptian obelisk and a bronze serpent column still on it.",
+    "text": [
+      "The Hippodrome of Constantinople held up to a hundred thousand people for its chariot races, and its teams, the Blues and the Greens, were also political parties. In 532 their riots, the Nika revolt, burnt half the city, and the Hagia Sophia was rebuilt after it.",
+      "Today the long, open square follows the line of the old race track. Three monuments stand on its middle: the obelisk of Pharaoh Thutmose III, brought from Egypt by Theodosius in 390; the Serpent Column, cast after the Greeks beat the Persians at Plataea in 479 BC; and the Walled Obelisk of rough stone. The Turks call it At Meydanı, the horse square."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/hipodrom.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius,_Hippodrome_of_Constantinople,_Istanbul,_Turkey_(Ank_Kumar)_03.jpg"
+    }
+  },
+  {
+    "id": "yerebatan",
+    "name": "Basilica Cistern",
+    "local": "Yerebatan Sarnıcı",
+    "emoji": "💧",
+    "icon": "drop",
+    "kind": "place",
+    "lat": 41.00839,
+    "lon": 28.97786,
+    "blurb": "The underground water store of Justinian, a forest of 336 columns standing in the water.",
+    "text": [
+      "Under the streets by the Hagia Sophia lies the largest of the city’s old cisterns, built under Justinian in the 6th century to hold water for the palace. 336 marble columns, each 9 metres tall, carry its brick vaults, and many of them were taken from older buildings.",
+      "The Turks call it Yerebatan, the sunken palace. Visitors walk on raised paths over the water between the lit columns, down to the two heads of Medusa, one on its side and one upside down, that serve as bases for two of them."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/yerebatan.jpg",
+      "author": "Bjørn Christian Tørrissen",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Istanbul_Basilica_Cistern_2009.JPG"
+    }
+  },
+  {
+    "id": "topkapi",
+    "name": "Topkapı Palace",
+    "local": "Topkapı Sarayı",
+    "emoji": "🏰",
+    "icon": "castle",
+    "kind": "place",
+    "lat": 41.01147,
+    "lon": 28.98336,
+    "blurb": "The palace of the Ottoman sultans for almost four hundred years, on the tip of the peninsula above the Bosphorus.",
+    "text": [
+      "Mehmed II began the palace soon after he took Constantinople in 1453, on the point where the Golden Horn meets the Bosphorus. It is not one building but a row of courtyards behind each other, each more private than the last: the Imperial Gate by the Hagia Sophia, the Gate of Salutation with its two towers, the council hall, the treasury, and the harem, where the sultan lived with his family.",
+      "The sultans lived here until the 1850s, when they moved to the Dolmabahçe Palace on the Bosphorus. Since 1924 it has been a museum, with the Topkapı dagger, the Spoonmaker’s Diamond and the relics of the Prophet. Gülhane Park, once its outer garden, runs down the slope below it."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/topkapi.jpg",
+      "author": "Premeditated",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gate_of_Salutation_(Topkap%C4%B1_Palace)_(2024).jpg"
+    }
+  },
+  {
+    "id": "kapalicarsi",
+    "name": "Grand Bazaar",
+    "local": "Kapalıçarşı",
+    "emoji": "🛍️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 41.01066,
+    "lon": 28.96813,
+    "blurb": "One of the oldest and largest covered markets in the world, some sixty streets and four thousand shops under one roof.",
+    "text": [
+      "The Grand Bazaar grew round two domed halls that Mehmed II had built in the 1450s and 1460s for the trade in cloth and jewels. Over the centuries the streets between them were roofed over, until it became a town of its own, with mosques, fountains, cafés and its own gates.",
+      "Today some four thousand shops sell gold, carpets, lamps, leather and copper along about sixty covered streets. Its gates close in the evening and on Sundays. The Nuruosmaniye Mosque stands at its eastern gate, and the Divan Yolu runs past it to the south."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/kapalicarsi.jpg",
+      "author": "Jorge Franganillo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Istanbul_-_Grand_Bazaar_(55105990849).jpg"
+    }
+  },
+  {
+    "id": "misir-carsisi",
+    "name": "Spice Bazaar",
+    "local": "Mısır Çarşısı",
+    "emoji": "🌶️",
+    "icon": "bag",
+    "kind": "place",
+    "lat": 41.01656,
+    "lon": 28.9706,
+    "blurb": "The L-shaped covered market by the New Mosque, full of spices, dried fruit, tea and Turkish delight.",
+    "text": [
+      "The Spice Bazaar was built in the 1660s as part of the New Mosque, and its rents paid for the mosque’s upkeep. Its Turkish name, the Egyptian Bazaar, comes from the ships from Cairo whose spices were sold here.",
+      "Under its long vaults the stalls are piled with red pepper, sumac, saffron, dried apricots, figs, nuts, teas and lokum, Turkish delight. The streets round it, down to the Golden Horn, are the busiest market quarter of the old city."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/misir-carsisi.jpg",
+      "author": "Miomir Magdevski",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Spices_on_Spice_Bazaar_in_Istanbul_02.jpg"
+    }
+  },
+  {
+    "id": "yeni-cami",
+    "name": "New Mosque",
+    "local": "Yeni Cami",
+    "emoji": "🕌",
+    "icon": "church",
+    "kind": "place",
+    "lat": 41.01694,
+    "lon": 28.97136,
+    "blurb": "The great mosque on the water at Eminönü, begun in 1597 and finished 68 years later.",
+    "text": [
+      "The Valide Sultan Safiye, mother of Mehmed III, had the mosque begun in 1597 on the shore of the Golden Horn. The works stopped when she lost her power, and it was another mother of a sultan, Turhan Hatice, who had it finished in 1665. That is why a mosque more than three hundred years old is still called new.",
+      "Its domes and two minarets rise over the ferry quays of Eminönü, and the pigeons on its steps and the stalls in its courtyard make it one of the liveliest corners of the city."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/yeni-cami.jpg",
+      "author": "Till Niermann",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:New_Mosque,_Istanbul,_from_Bosphorus.jpg"
+    }
+  },
+  {
+    "id": "galata-koprusu",
+    "name": "Galata Bridge",
+    "local": "Galata Köprüsü",
+    "emoji": "🎣",
+    "icon": "bridge",
+    "kind": "place",
+    "lat": 41.0185,
+    "lon": 28.9727,
+    "blurb": "The bridge over the Golden Horn from Eminönü to Karaköy, lined with anglers on top and fish restaurants below.",
+    "text": [
+      "A bridge has crossed the Golden Horn here since 1845, linking the old city to Galata and Karaköy on the other side. The floating bridge of 1912 burnt in 1992, and the bridge of today, with its trams in the middle, opened in 1994.",
+      "All day long anglers stand along its railings with their rods over the water, and on the lower deck, under the road, restaurants serve fish to people looking out over the water. Across the water the Galata Tower stands above the roofs."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/galata-koprusu.jpg",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fishermen_on_Galata_Bridge.JPG"
+    }
+  },
+  {
+    "id": "sirkeci",
+    "name": "Sirkeci Station",
+    "local": "Sirkeci Garı",
+    "emoji": "🚂",
+    "icon": "train",
+    "kind": "place",
+    "lat": 41.01507,
+    "lon": 28.977,
+    "blurb": "The end of the line for the Orient Express from Paris, a station of 1890 by the sea.",
+    "text": [
+      "The German architect August Jasmund built Sirkeci Station in 1890, in a mix of European and Ottoman styles, for the trains from Europe. It was the last stop of the Orient Express from Paris, and the Orient Express restaurant inside still remembers it.",
+      "Today the Marmaray line runs under the Bosphorus to Asia from a station deep below, the T1 tram rings past the front, and the old halls hold exhibitions and, on some evenings, the ceremony of the whirling dervishes."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/sirkeci.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_Sirkeci,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_76-78_HDR.jpg"
+    }
+  },
+  {
+    "id": "cemberlitas",
+    "name": "Column of Constantine",
+    "local": "Çemberlitaş",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 41.00852,
+    "lon": 28.97137,
+    "blurb": "The column Constantine the Great set up in 330 for the founding of his new capital, held together by iron hoops.",
+    "text": [
+      "When Constantine the Great made Byzantium his capital in 330, he set up this column of red porphyry from Egypt in the middle of his new forum, with a statue of himself on top. The statue fell in a storm in 1106, and fires and earthquakes cracked the stone.",
+      "The iron hoops that hold the drums together give it its Turkish name, Çemberlitaş, the hooped stone. It stands on the Divan Yolu, the old main street of the city, where the tram stops by it on its way to the Grand Bazaar."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/cemberlitas.jpg",
+      "author": "Dmitry A. Mottl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Column_of_Constantine.jpg"
+    }
+  },
+  {
+    "id": "simit",
+    "name": "Simit",
+    "emoji": "🥯",
+    "icon": "utensils",
+    "kind": "food",
+    "blurb": "The sesame bread ring sold from red carts on every corner, eaten for breakfast with a glass of tea.",
+    "text": [
+      "A simit is a ring of bread dipped in grape molasses and covered in sesame seeds, then baked crisp outside and soft inside. Sellers carry them on trays on their heads or sell them from red glass carts on the street corners and the ferry quays, for a few lira each.",
+      "People in Istanbul eat it for breakfast or on the way, with a glass of black tea, white cheese or nothing at all, and on the ferries they throw the last bits to the gulls that follow the boat."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/simit.jpg",
+      "author": "Miomir Magdevski",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Simits_on_a_street_stand_in_Istanbul.jpg"
+    }
+  },
+  {
+    "id": "vapur",
+    "name": "Ferries",
+    "local": "Vapur",
+    "emoji": "⛴️",
+    "icon": "boat",
+    "kind": "vehicle",
+    "blurb": "The white ferries that carry Istanbul across the Bosphorus between Europe and Asia, from the quays of Eminönü.",
+    "text": [
+      "For a city on two continents, the ferry is the way to work. Steam ferries have crossed the Bosphorus since the 1850s, and today the white boats of Şehir Hatları, the city lines, run from Eminönü, Karaköy and Beşiktaş on the European side to Kadıköy and Üsküdar on the Asian side, in about twenty minutes.",
+      "On board a waiter goes round with glasses of tea on a tray, and people stand at the rail to look at the mosques on the hills and the palaces along the water. Longer trips go up the Bosphorus to the Black Sea, and out to the Princes’ Islands."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/istanbul/vapur.jpg",
+      "author": "Calistemon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%9EH-Fatih_approaching_Emin%C3%B6n%C3%BC_Ferry_Terminal,_March_2024_05.jpg"
+    }
+  }
+]
