@@ -65,8 +65,19 @@ function pages() {
   for (const old of fs.readdirSync(PAGES)) {
     if (old !== 'index.html' && !ids.has(old)) fs.rmSync(path.join(PAGES, old), { recursive: true });
   }
+  artList();
   const missing = pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))).map(a => a.id);
   console.error(`${pieces.length} pieces in ${museums.length} buildings and squares${missing.length ? `; no photo yet: ${missing.join(', ')} (node tools/art.mjs photos)` : ''}`);
+}
+
+// What the game needs of them, to show a piece full screen when you stand before it in its building
+// (core/js/game/artview.js): core/js/inside/artlist.js, the pieces with a photo, by their museum.
+function artList() {
+  const list = pieces.filter(a => a.view && fs.existsSync(path.join(IMG, a.id + '.jpg')))
+    .map(({ id, title, artist, date, museum, room, view }) => ({ id, title, artist, date, museum, room, view }));
+  fs.writeFileSync(path.join(ROOT, 'core', 'js', 'inside', 'artlist.js'), '// Made by tools/art.mjs from _data/art.json: the famous pieces in the buildings, with a photo to\n'
+    + '// show full screen (game/artview.js). view: [x, z, tx, tz], where you stand and what you look at, in its\n// building\'s own metres.\n'
+    + `export const ART = [\n${list.map(a => `  ${JSON.stringify(a)},`).join('\n')}\n];\n`);
 }
 
 // Each piece's photo from Commons, scaled down by Commons and then by sips (macOS) or ImageMagick,
@@ -98,6 +109,7 @@ async function photos(list) {
   }
   const sorted = Object.fromEntries(Object.entries(credits).filter(([id]) => ids.has(id)).sort(([x], [y]) => x.localeCompare(y)));
   fs.writeFileSync(CREDITS, JSON.stringify(sorted, null, 2) + '\n');
+  artList();
 }
 
 function scale(from, to, max) {

@@ -28,7 +28,7 @@ import { roaming, questing, quest, progressOf, world, city, track } from './worl
 import { humans, field, ctl } from './racers.js';
 import { setText, hudMsg } from './hud.js';
 import { onLap } from './race.js';
-import { INSIDE_PACE, inRoom, intoDoor } from './indoors.js';
+import { INSIDE_PACE, INSIDE_COAST, inRoom, intoDoor } from './indoors.js';
 import { loud } from './pickups.js';
 import { onTram, riding, toggleSeat } from './transit.js';
 import { touch } from './input.js';
@@ -338,7 +338,7 @@ export function stepRacer(r, dt, c) {
     } else if (c.throttle < 0) {
       r.speed = r.speed > 0 ? r.speed - BRAKE * dt : Math.max(-REVERSE_MAX, r.speed - 10 * dt);
     } else {
-      r.speed = approach(r.speed, 0, COAST * dt);
+      r.speed = approach(r.speed, 0, COAST * (r.room ? INSIDE_COAST : 1) * dt);
     }
     if (r.soakTime > 0 && r.speed > max) r.speed = approach(r.speed, max, 25 * dt);
     if (HILLS) {

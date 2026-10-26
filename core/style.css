@@ -739,7 +739,7 @@ a.chip { text-decoration: none; }
   bottom: calc(16px + env(safe-area-inset-bottom));
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "fries" "item" "jump";
+  grid-template-areas: "fries" "item" "view" "jump";
   justify-items: center;
   align-items: end;
   gap: 12px 14px;
@@ -789,6 +789,17 @@ a.chip { text-decoration: none; }
 #tFries.charging { background: rgba(29, 26, 23, 0.45); color: #fff; }
 #tFries.charging .ico { opacity: 0.4; }
 .fries #tFries { display: flex; }
+/* inside, before a famous painting: its photo full screen (game/artview.js) */
+#tView { grid-area: view; display: none; background: #1d1a17; color: #fff; font-size: 30px; }
+#tView.show { display: flex; }
+#artview { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: calc(12px + env(safe-area-inset-top)) 16px calc(12px + env(safe-area-inset-bottom)); background: rgba(12, 10, 8, 0.94); color: #f4efe6; cursor: zoom-out; }
+#artview.hidden { display: none; }
+#artview img { flex: 1 1 auto; min-height: 0; max-width: 100%; object-fit: contain; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6); }
+.art-cap { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 12px; text-align: center; font: 500 15px var(--sans, system-ui, sans-serif); }
+.art-cap b { font-size: 20px; font-weight: 700; }
+.art-cap span { color: #c9bfae; }
+.art-cap .chip { color: #111; background: #fff; border: 0; border-radius: 6px; padding: 5px 10px; text-decoration: none; font-size: 14px; cursor: pointer; }
+.art-x { position: absolute; top: calc(10px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); width: 40px; height: 40px; font: 600 20px/1 system-ui, sans-serif; color: #fff; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 8px; cursor: pointer; }
 
 /* ---------- touch mode: hide keyboard-only bits ---------- */
 

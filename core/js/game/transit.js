@@ -14,6 +14,7 @@ import { humans, ctl } from './racers.js';
 import { setText, hudMsg } from './hud.js';
 import { humanControl } from './control.js';
 import { roomName, doorBy } from './indoors.js';
+import { artBy, showViewButton } from './artview.js';
 import { touch } from './input.js';
 
 // Riding about freely: come onto a tram stop's platform (or by its sign) and you are asked straight
@@ -226,9 +227,19 @@ function leaveTram(r, end = false, stop = null) {
 }
 
 // By a door: which building it is and how to go in, or, inside, the way back out to the street.
+// Inside, before a famous piece and no door: its name, and the key that shows it full screen.
 export function updateDoorCard(h, r, p) {
   const d = p < game.players ? doorBy(r) : null;
-  h.door.classList.toggle('show', !!d);
+  const a = !d && p === 0 && exploring() && game.state === 'race' ? artBy(r) : null;
+  if (p === 0) showViewButton(touch.on && a);
+  h.door.classList.toggle('show', !!(d || (a && !touch.on))); // (on a touch screen the View button says it)
+  if (a) {
+    setText(h.doorEmoji, '🖼️');
+    setText(h.doorLabel, t_('art.view'));
+    setText(h.doorName, a.title);
+    setText(h.doorKey, touch.on ? t_('door.tap') : ctl(p).label.fire);
+    return;
+  }
   if (!d) return;
   const out = d.way === 'out';
   setText(h.doorEmoji, out ? '🚪' : d.room.emoji);

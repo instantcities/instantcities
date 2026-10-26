@@ -328,6 +328,7 @@ function touchButton(el, down, up = () => {}) {
 touchButton($('tJump'), () => { touch.climb = racers[0].heli || flying(); if (game.state === 'race') jump(racers[0]); }, () => { touch.climb = false; });
 touchButton(tItem, () => { if (game.state === 'race' && !doorAction(racers[0])) useItem(racers[0], touch.throttle < -0.5); });
 touchButton(tFries, () => throwFries(racers[0]));
+touchButton($('tView'), () => { if (game.state === 'race') doorAction(racers[0]); }); // before a famous painting: full screen
 touchButton($('tSink'), () => { touch.sink = true; }, () => { touch.sink = false; });
 touchButton($('tShoot'), () => shoot(racers[0]));
 touchEl.addEventListener('contextmenu', e => e.preventDefault());

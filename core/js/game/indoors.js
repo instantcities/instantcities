@@ -11,12 +11,13 @@ import { exploring, report, world } from './worlds.js';
 import { hudMsg } from './hud.js';
 import { loud } from './pickups.js';
 import { riding } from './transit.js';
+import { artBy, showArt } from './artview.js';
 
 // The buildings you can go into (<city>/inside.js) stand out of the city's sight (js/interiors.js):
 // by a door in the street a card says which one it is, and riding into the door, the card, or the
 // item key takes you in, on foot and at a walk. The door inside takes you back out to the street,
 // on what you rode in on. Not in a quest: its targets are all in the streets.
-export const INSIDE_PACE = 0.7;
+export const INSIDE_PACE = 0.5, INSIDE_COAST = 3; // walking slower, and stopping sooner (times COAST), so you stop where you want to
 const DOOR_NEAR = 9, DOOR_REACH = 2.2; // where the card shows, and how close riding into it goes through
 export const roomName = b => (typeof b.name === 'string' ? b.name : local(b.name));
 
@@ -48,11 +49,14 @@ export function intoDoor(r) {
   if (into > 0.5) through(r, d);
 }
 
-// the card, the item key or the touch button: through the door you are by. False when there is none.
+// the card, the item key or the touch button: through the door you are by, or else a look at the
+// famous piece you stand before (game/artview.js). False when there is neither.
 export function doorAction(r) {
   const d = doorBy(r);
   if (d) through(r, d);
-  return !!d;
+  const a = !d && r.human === 0 && exploring() && game.state === 'race' ? artBy(r) : null;
+  if (a) { r.speed = 0; showArt(a); }
+  return !!(d || a);
 }
 
 function through(r, d) {
