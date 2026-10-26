@@ -98,8 +98,13 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | London | National Gallery | `london/national-gallery.js` | bump into it and the portico's podium |
 | London | Nelson's Column | `london/nelson.js` | bump into its steps and the lions' plinths |
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
+| Paris | Tour Eiffel | `paris/eiffel.js` | ride in under it between its legs |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+
+The Eiffel Tower is not built on the arcade generator but of rods (`Kit.rod`): each leg a lattice
+box of four chords braced in crosses, following the tower's curve from its measured widths at each
+floor. Paris's map was stretched west along the Seine to the Champ de Mars for it.
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
