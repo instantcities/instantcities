@@ -16,6 +16,7 @@
 //   forum.js         the Forum's colonnades and the Temple of Jupiter
 //   amphitheatre.js  the amphitheatre
 //   public.js        the theatres, the Basilica, the Temple of Apollo and the other public buildings
+//   ruins.js         the houses and shops as ruins: walls open to the sky, in tiles
 //   stones.js        the stepping stones across the streets
 //   vesuvius.js      Vesuvius on the horizon
 export { MAP } from './map.js';
@@ -27,8 +28,9 @@ import { AMPHITHEATRE } from './amphitheatre.js';
 import { VESUVIUS } from './vesuvius.js';
 import { PUBLICS } from './public.js';
 import { STONES } from './stones.js';
+import { RUINED_TOWN } from './ruins.js';
 
-export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...VESUVIUS];
+export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...RUINED_TOWN, ...STONES, ...VESUVIUS];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the streets
@@ -50,7 +52,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#b8a27a', paving: '#9b9484', verge: 0x9b9484, kerb: 0xaaa392, fog: [300, 1500], weathers: ['clear'] };
+export const THEME = { ground: '#a99d86', paving: '#9b9484', verge: 0x9b9484, kerb: 0xaaa392, fog: [300, 1500], weathers: ['clear'] };
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {
@@ -68,7 +70,30 @@ export const LOOK = {
   spires: false,
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
-  grass: '#a69a5c', // the open ground is dry grass
+  grass: '#a89e88', // the open ground is bare dust and gravel, not grass
+};
+
+// The visitors: it is a busy day, with crowds along the main streets and round the Forum and the baths.
+export const BUSY = {
+  walkers: 320,
+  cyclists: 0,
+  streets: [
+    { street: 'Via dell\'Abbondanza', weight: 4, free: true },
+    { street: 'Via Stabiana', weight: 3, free: true },
+    { street: 'Via del Foro', weight: 4, free: true, across: 20 },
+    { street: 'Via della Fortuna', weight: 3, free: true },
+    { street: 'Via di Mercurio', weight: 2, free: true },
+    { street: 'Via dei Teatri', weight: 2, free: true },
+    { street: 'Via delle Terme', weight: 2, free: true },
+    { street: 'Via Consolare', weight: 1.5, free: true },
+    { street: 'Via Marina', weight: 1.5, free: true },
+    { street: 'Via di Nola', weight: 1.5, free: true },
+    { street: 'Via di Nocera', weight: 1.5, free: true },
+    { street: 'Vicolo di Mercurio', weight: 1, free: true },
+    { street: 'Vicolo del Lupanare', weight: 1.5, free: true },
+    { street: 'Vicolo del Fauno', weight: 1, free: true },
+    { street: 'Vicolo di Modesto', weight: 1, free: true },
+  ],
 };
 
 // Places named on the big map when riding about freely: click a name to teleport there.
