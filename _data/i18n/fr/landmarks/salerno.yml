@@ -1,22 +1,73 @@
-# salerno's landmarks in French (_data/landmarks/salerno.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# salerno's landmarks in French (_data/landmarks/salerno.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 duomo:
   name: Duomo de San Matteo
   blurb: La cathédrale normande sur le tombeau de saint Matthieu l’évangéliste, avec une cour à arcades et un clocher du XIIe siècle.
+  text:
+  - Robert Guiscard, le Normand qui venait de prendre Salerne, fit bâtir la cathédrale à partir de 1080, et le pape Grégoire VII la consacra en 1084. Le pape mourut en exil à Salerne un an plus tard et y repose. Dans la crypte, couverte de marbres et de fresques baroques, se trouvent les reliques de saint Matthieu, apportées à Salerne en 954.
+  - On y entre par une cour d’arcades sur d’anciennes colonnes romaines, bordée de sarcophages romains, et par des portes de bronze fondues à Constantinople. Le campanile à côté, au sommet arrondi, est le point de repère de la vieille ville.
 via-dei-mercanti:
   blurb: La rue des marchands de la ville médiévale, une étroite ruelle de boutiques à travers tout le centre historique.
+  text:
+  - La Via dei Mercanti traverse la vieille ville de l’Arco di Arechi à la Piazza Sedile di Portanova, à peu près là où passait la rue principale de la ville romaine et lombarde. Ses boutiques sont là depuis le Moyen Âge, quand Salerne commerçait avec toute la Méditerranée.
+  - D’étroites ruelles latérales en montent vers le Duomo et la colline, sous des arcades et devant de petites églises. En hiver, les Luci d’Artista y accrochent leurs lumières.
 lungomare:
   blurb: La promenade du bord de mer sous les palmiers, avec le golfe de Salerne devant et la côte amalfitaine à l’horizon.
+  text:
+  - Entre la ville et la mer court le Lungomare Trieste, une large promenade bordée de palmiers et de jardins. Par temps clair, on voit tout le golfe d’ici, des falaises de la côte amalfitaine à l’ouest à la plaine de Paestum au sud.
+  - 'C’est là que Salerne sort le soir : pour une promenade, une glace ou une place sur un banc face à la mer.'
 corso-vittorio-emanuele:
   blurb: La longue rue commerçante de Salerne, fermée aux voitures, de la vieille ville à la gare.
+  text:
+  - Le Corso file tout droit sur environ un kilomètre de la Piazza Sedile di Portanova, au bord de la vieille ville, jusqu’à la gare. Il fut tracé au XIXe siècle, quand la ville s’étendit à l’est au-delà de ses remparts médiévaux.
+  - Fermé aux voitures, il est bordé de boutiques, de cafés et de palais, et le soir toute la ville s’y promène de long en large pour la passeggiata.
 teatro-verdi:
   blurb: L’opéra de la ville, de 1872, une petite copie du San Carlo de Naples, rouge et or à l’intérieur.
+  text:
+  - Le Teatro Verdi ouvrit en 1872 à côté de la Villa Comunale. À l’intérieur, un fer à cheval de loges rouge et or, bâti sur le modèle du Teatro San Carlo de Naples.
+  - Son rideau, peint par Domenico Morelli, montre les habitants de Salerne chassant les Sarrasins. Il a toujours une saison d’opéra chaque année.
 villa-comunale:
   blurb: Le jardin de la ville du XIXe siècle, ombragé et vert, entre le Teatro Verdi et la mer.
+  text:
+  - La Villa Comunale est le jardin public de Salerne, aménagé au XIXe siècle à l’extrémité ouest de la ville, à côté du Teatro Verdi et à quelques pas du Lungomare.
+  - 'Ses allées passent sous de grands arbres devant une fontaine et des bustes de Salernitains célèbres : un endroit frais par un après-midi chaud, et en hiver le cœur des Luci d’Artista.'
 giardino-della-minerva:
   blurb: Un jardin de plantes médicinales en terrasses au-dessus de la vieille ville, parmi les plus anciens jardins botaniques d’Europe.
+  text:
+  - Au début du XIVe siècle, le médecin Matteo Silvatico y cultivait les plantes de ses remèdes, sur des terrasses qui grimpent la colline, pour enseigner aux étudiants de la Scuola Medica Salernitana. On le tient pour l’un des premiers jardins botaniques d’Europe.
+  - Restauré et ouvert au public en 2001, il cultive de nouveau des centaines de plantes médicinales, arrosées par d’anciens canaux et fontaines, avec une pergola en haut et une vue sur les toits jusqu’à la mer.
 acquedotto:
   name: Aqueduc médiéval
   blurb: Les hautes arches de l’aqueduc médiéval, que le diable aurait construit en une seule nuit, dit la légende.
+  text:
+  - Au-dessus de la Via Arce se dressent encore les hautes arcades en ogive de l’ancien aqueduc, qui amenait de l’eau à un monastère au Moyen Âge. On les appelle les Ponti del Diavolo, les ponts du Diable.
+  - La légende dit que l’alchimiste Pietro Barliario les bâtit en une nuit avec l’aide du diable. Une ruelle de la vieille ville porte encore son nom.
 stazione-marittima:
   blurb: Le terminal des ferries de Zaha Hadid sur le Molo Manfredi, d’où partent les bateaux pour Amalfi, Positano et Capri.
+  text:
+  - Le terminal de ferries du Molo Manfredi, en forme d’huître, est de l’architecte Zaha Hadid. Il ouvrit en 2016, quelques semaines après sa mort.
+  - 'Du quai à côté, les bateaux partent pour la côte amalfitaine, Positano et Capri : la plus belle façon de voir la côte est depuis la mer.'
+castello-di-arechi:
+  name: Le château d’Arechi
+  blurb: Le château sur la colline au-dessus de la ville, renforcé par le prince lombard Arechis II, avec tout le golfe à ses pieds.
+  text:
+  - Haut sur la colline derrière la ville se dresse le château qu’Arechis II, prince lombard de Bénévent, renforça au VIIIe siècle quand il fit de Salerne sa capitale. Normands, Souabes et Aragonais y bâtirent tous après lui.
+  - Ses murs et ses tours abritent aujourd’hui un petit musée, et du sommet on voit tout le golfe de Salerne, de la côte amalfitaine à Paestum. Il se trouve au-dessus de la partie de la ville que couvre le jeu.
+scuola-medica:
+  name: La Scuola Medica Salernitana
+  blurb: La première école de médecine de l’Europe médiévale, où des femmes enseignaient et pratiquaient aussi la médecine.
+  text:
+  - À partir du Xe siècle, des médecins de Salerne enseignèrent la médecine à partir de sources grecques, latines, arabes et juives, et la ville devint connue comme la Cité hippocratique. Des femmes y étudiaient et enseignaient aussi, la plus célèbre étant Trotula, dont le nom est encore porté par une rue de la vieille ville.
+  - Ses règles de santé en vers, le Regimen Sanitatis Salernitanum, étaient lues dans toute l’Europe. L’école fut fermée en 1811 ; son histoire est racontée dans un petit musée dans l’église San Gregorio, sur la Via dei Mercanti.
+luci-d-artista:
+  name: Les Luci d’Artista
+  blurb: Chaque hiver, des artistes illuminent les rues, les places et les jardins de Salerne d’immenses installations de lumière.
+  text:
+  - 'Depuis 2006, de novembre à janvier, Salerne suspend au-dessus de ses rues et de ses places des œuvres de lumière d’artistes : des galaxies entières, des animaux, des jardins et des contes de fées en lumières, de la Villa Comunale au Corso et à la vieille ville.'
+  - Les Luci d’Artista sont devenues l’un des plus grands festivals de lumière d’Italie, et amènent chaque hiver des cars entiers de visiteurs dans la ville.
+sfogliatella:
+  name: La sfogliatella
+  blurb: La coque de pâte feuilletée croustillante fourrée de ricotta et de semoule, née dans un couvent de la côte amalfitaine.
+  text:
+  - La sfogliatella est une coque de fines couches croustillantes de pâte, fourrée de ricotta, de semoule et d’écorce d’orange confite. Son ancêtre, la Santa Rosa, fut faite pour la première fois au XVIIe siècle par les religieuses du couvent de Santa Rosa à Conca dei Marini, sur la côte amalfitaine juste à l’ouest de Salerne.
+  - On la mange tiède, avec un espresso, dans n’importe quel café du Corso.

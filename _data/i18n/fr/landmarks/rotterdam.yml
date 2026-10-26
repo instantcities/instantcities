@@ -1,25 +1,75 @@
-# rotterdam's landmarks in French (_data/landmarks/rotterdam.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# rotterdam's landmarks in French (_data/landmarks/rotterdam.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 stadhuis:
   name: Hôtel de ville
   blurb: L’hôtel de ville de Rotterdam, de 1920, sur le Coolsingel, l’un des rares bâtiments du centre à avoir survécu au bombardement de 1940.
+  text:
+  - Henri Evers construisit l’hôtel de ville de 1914 à 1920, dans un mélange de styles néerlandais anciens, avec une haute tour et un jardin intérieur. Il se dresse sur le Coolsingel, la large avenue qui fut autrefois un canal le long du rempart de la vieille ville.
+  - Le 14 mai 1940, l’incendie qui suivit le bombardement allemand s’arrêta juste avant lui. Avec la poste à côté et la Beurs un peu plus loin, c’est l’un des rares morceaux de l’ancien Coolsingel encore debout, et la ville est toujours gérée depuis lui.
 erasmusbrug:
   name: Pont Érasme
   blurb: Le pont à haubans blanc sur la Meuse, surnommé le Cygne, devenu l’emblème du nouveau Rotterdam.
+  text:
+  - Ben van Berkel dessina le pont Érasme, et la reine Béatrix l’inaugura en 1996. Son pylône blanc courbé, haut de 139 mètres, tient le tablier par un éventail de câbles, et à son extrémité sud un pont basculant s’ouvre pour les navires.
+  - Il relia le centre au Kop van Zuid, les anciens bassins de la rive sud, qui se remplit de tours après son ouverture. Les Rotterdamois l’appellent de Zwaan, le Cygne.
 witte-huis:
   blurb: L’immeuble de bureaux blanc de 1898 près du Vieux Port, l’un des premiers immeubles de grande hauteur d’Europe.
+  text:
+  - 'Quand il fut achevé en 1898, le Witte Huis était l’un des plus hauts immeubles de bureaux d’Europe : 43 mètres et dix étages de brique émaillée blanche, avec ses tours d’angle et son toit de château. Ses bâtisseurs avaient pris l’idée aux nouveaux immeubles de bureaux d’Amérique.'
+  - Il a survécu au bombardement de 1940, et se dresse à l’angle de l’Oude Haven et du Wijnhaven, face aux vieux bateaux et au Willemsbrug rouge.
 oude-haven:
   name: Vieux Port
   blurb: Le plus vieux port de Rotterdam, plein de vieilles péniches à voile, avec des terrasses le long des quais.
+  text:
+  - L’Oude Haven fut creusé au XIVe siècle, quand Rotterdam n’était encore qu’une petite ville sur le barrage de la Rotte. Aujourd’hui, c’est un port-musée où sont amarrés de vieilles péniches néerlandaises et des remorqueurs, avec des cafés sur les quais.
+  - Autour se dressent le Witte Huis, les maisons cubiques et les nouveaux immeubles des années 1980, et le soir c’est l’un des coins les plus animés de la ville.
 kubuswoningen:
   name: Maisons cubes
   blurb: Les maisons jaunes de Piet Blom basculées sur la pointe, une forêt de cubes sur une passerelle au-dessus du Blaak.
+  text:
+  - 'Piet Blom construisit les maisons cubiques de 1982 à 1984 : 38 maisons, chacune un cube basculé de 45 degrés sur son arête et posé sur un pilier hexagonal, de sorte que l’ensemble ressemble à une forêt d’arbres. Elles se dressent sur un pont au-dessus du Blaak, très fréquenté, avec une rue piétonne qui passe dessous.'
+  - On y habite, avec des murs inclinés partout, et l’une d’elles, la Kijk-Kubus, se visite. La haute tour à sommet pointu à côté est aussi de Blom, et les Rotterdamois l’appellent het Potlood, le crayon.
 markthal:
   blurb: Une arche en fer à cheval d’appartements au-dessus d’un marché couvert, avec la plus grande œuvre d’art des Pays-Bas au plafond.
+  text:
+  - 'MVRDV dessina la Markthal, et la reine Máxima l’inaugura en 2014 : une halle de marché avec des étals de nourriture et des restaurants sous un arc de 228 appartements, avec de hautes façades de verre aux deux extrémités.'
+  - 'L’intérieur de l’arc est couvert de la Hoorn des Overvloeds, la corne d’abondance d’Arno Coenen et Iris Roskam : fruits, légumes, poissons, fleurs et insectes géants sur quelque 11 000 mètres carrés. Les mardis et samedis, le marché en plein air remplit le Binnenrotte dehors.'
 laurenskerk:
   blurb: La grande église gothique tardive de la ville, incendiée en 1940 et rebâtie, dernier bâtiment médiéval du centre.
+  text:
+  - La Grote of Sint-Laurenskerk fut construite de 1449 à 1525, l’église paroissiale de la ville médiévale, avec une lourde tour carrée. Dans le bombardement de 1940, elle brûla entièrement, mais ses murs et sa tour tinrent bon, et elle fut reconstruite en 1968. C’est le seul bâtiment médiéval qui reste dans le centre de Rotterdam.
+  - À l’intérieur se trouvent de grandes orgues et les tombeaux d’amiraux néerlandais. Sur la place devant se dresse la statue d’Érasme, né à Rotterdam, lisant un livre, par Hendrick de Keyser ; coulée en 1622, c’est la plus ancienne statue de bronze des Pays-Bas.
 schielandshuis:
   blurb: Un palais classique du XVIIe siècle parmi les tours, qui a survécu au bombardement de 1940.
+  text:
+  - Le Schielandshuis fut construit de 1662 à 1665 pour le Hoogheemraadschap van Schieland, le wateringue qui gardait au sec les terres autour de Rotterdam. C’est l’un des rares bâtiments du XVIIe siècle qui subsistent dans le centre.
+  - Sa façade de pierre et ses volets rouges se dressent maintenant au pied de tours de bureaux de verre, ce qui en fait l’un des contrastes les plus photographiés de la ville.
 maritiem-museum:
   name: Musée maritime
   blurb: Le musée maritime sur le Leuvehaven, avec de vieilles grues, un bateau-phare et des bateaux de travail amarrés devant.
+  text:
+  - Le Maritiem Museum, fondé en 1874, est le plus ancien musée maritime des Pays-Bas. Il raconte l’histoire de Rotterdam et de son port, des navires, des marins et de la mer.
+  - Dehors, le Leuvehaven est un musée portuaire à lui seul, avec de vieux cargos, des remorqueurs et des grues le long desquels on peut marcher.
+de-verwoeste-stad:
+  name: La Ville détruite
+  blurb: La figure de bronze d’Ossip Zadkine au corps troué, le mémorial du bombardement de 1940.
+  text:
+  - 'Le sculpteur Ossip Zadkine visita Rotterdam en 1946 et vit le vide là où se trouvait le centre. Sa figure De Verwoeste Stad, la ville détruite, fut inaugurée en 1953 : une silhouette qui jette les bras en l’air, le cœur arraché du corps.'
+  - Elle se dresse sur le Plein 1940, la place près du Leuvehaven nommée d’après l’année du bombardement.
+lijnbaan:
+  blurb: La première rue commerçante d’Europe construite pour les piétons, ouverte en 1953 dans le centre reconstruit.
+  text:
+  - 'Van den Broek et Bakema dessinèrent le Lijnbaan dans le cadre du plan de reconstruction du centre bombardé, et il ouvrit en 1953 : des boutiques basses le long d’une rue fermée aux voitures, avec des auvents sous lesquels marcher et des appartements derrière.'
+  - Ce fut la première rue de ce genre en Europe, et des urbanistes vinrent du monde entier la voir. C’est toujours la principale rue commerçante de Rotterdam.
+euromast:
+  name: L’Euromast
+  blurb: La tour de Het Park au bord de la Meuse, construite pour la Floriade de 1960 et portée à 185 mètres en 1970.
+  text:
+  - L’Euromast fut construit pour l’exposition florale de la Floriade de 1960, une tour de béton de 101 mètres avec un restaurant dans son nid de pie. En 1970, une fine Space Tower fut posée dessus, ce qui la porta à 185 mètres.
+  - Du sommet, on voit toute la ville, le fleuve et le port jusqu’à la mer. Elle se dresse à l’ouest du centre, au-delà du bord de la carte du jeu.
+haven:
+  name: Le port
+  blurb: Le plus grand port d’Europe, qui s’étend sur quelque 40 kilomètres de la ville jusqu’à la mer du Nord.
+  text:
+  - Rotterdam a grandi avec son port, là où le Rhin et la Meuse atteignent la mer. De 1962 à 2004, ce fut le port le plus actif du monde, et c’est toujours le plus grand d’Europe, avec des bassins, des terminaux pétroliers et des quais à conteneurs jusqu’à la Maasvlakte, sur des terres gagnées sur la mer du Nord.
+  - Des bateaux emmènent les visiteurs en visite du port depuis le pied du pont Érasme, devant les grues et les navires du Waalhaven et de l’Eemhaven.

@@ -1,27 +1,78 @@
-# venice's landmarks in French (_data/landmarks/venice.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# venice's landmarks in French (_data/landmarks/venice.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 piazza-san-marco:
   name: Place Saint-Marc
   blurb: La seule place de Venise appelée piazza, entourée d’arcades et ouverte sur la lagune.
+  text:
+  - On dit que Napoléon l’appelait le plus beau salon d’Europe. Sur trois côtés, les longues Procuratie à arcades, autrefois les bureaux des procurateurs de Saint-Marc, la ferment ; sur le quatrième s’élèvent la basilique et le campanile.
+  - Quand la marée est haute, la place est le premier endroit à être inondé, car l’eau monte par les canalisations. Ses cafés, comme le Florian de 1720, ont des orchestres qui jouent dehors.
 basilica-di-san-marco:
   name: Basilique Saint-Marc
   blurb: Bâtie pour les reliques de saint Marc, couverte à l’intérieur de mosaïques dorées.
+  text:
+  - Des marchands vénitiens sortirent clandestinement d’Alexandrie le corps de saint Marc en 828, caché sous du porc pour que les gardes musulmans ne fouillent pas le panier. La basilique fut bâtie pour l’abriter, et reconstruite sous sa forme actuelle à partir de 1063.
+  - Ses cinq coupoles et ses murs de marbre et de mosaïque d’or montrent les liens de Venise avec Byzance. Sur sa façade se dressent des copies des quatre chevaux de bronze rapportés de Constantinople en 1204 ; les originaux sont à l’intérieur.
 palazzo-ducale:
   name: Palais des Doges
   blurb: Le palais gothique rose et blanc d’où les doges gouvernaient la République de Venise.
+  text:
+  - Pendant des siècles, le palais des Doges fut le siège du doge, le chef élu de la République, et de ses conseils et tribunaux. Sa façade de marbre rose et blanc repose sur deux étages d’arcades, si bien que la partie lourde semble flotter.
+  - À l’intérieur, la salle du Grand Conseil abrite le Paradis du Tintoret, l’une des plus grandes peintures à l’huile du monde. Les prisons se trouvaient de l’autre côté du canal, par le pont des Soupirs.
 campanile:
   name: Campanile de Saint-Marc
   blurb: Le clocher de Saint-Marc, effondré en 1902 et rebâti « là où il était, comme il était ».
+  text:
+  - Le campanile de brique s’élève à presque 99 mètres au-dessus de la place. Le 14 juillet 1902, il s’effondra en un tas de décombres ; par miracle, seul le chat du gardien mourut.
+  - Venise le reconstruisit exactement comme avant, « com’era, dov’era », et il rouvrit en 1912. Un ascenseur monte au sommet, où Galilée montra jadis sa lunette au doge.
 ponte-dei-sospiri:
   name: Pont des Soupirs
   blurb: Le pont de pierre couvert entre le palais des Doges et les prisons, construit en 1600.
+  text:
+  - Le pont couvert en calcaire blanc relie les salles d’audience du palais des Doges aux Nouvelles Prisons de l’autre côté du Rio di Palazzo. Il fut construit vers 1600.
+  - 'Son nom vient de Lord Byron et des romantiques : les soupirs seraient ceux des prisonniers jetant un dernier regard sur Venise par ses petites fenêtres grillagées.'
 ponte-di-rialto:
   name: Pont du Rialto
   blurb: Le pont de pierre de 1591 sur le Grand Canal, avec des boutiques le long de son arche.
+  text:
+  - Pendant des siècles, le Rialto fut le seul pont sur le Grand Canal, d’abord de bateaux, puis de bois. Celui de bois s’effondra deux fois ; en 1591, Antonio da Ponte acheva le pont de pierre qui se dresse aujourd’hui, avec une seule arche assez haute pour laisser passer les galères.
+  - Deux rangées de boutiques bordent ses marches. Autour de son pied s’étend le marché du Rialto, où Venise achète son poisson et ses légumes depuis mille ans.
 canal-grande:
   name: Grand Canal
   blurb: La grande voie d’eau en forme de S au milieu de Venise, bordée de palais.
+  text:
+  - Le Grand Canal serpente sur près de quatre kilomètres à travers la ville en un S inversé, bordé de quelque 170 palais bâtis sur cinq siècles par les grandes familles de la ville, leurs portes s’ouvrant sur l’eau.
+  - 'C’est la rue principale de Venise : vaporetti, taxis d’eau, barges de livraison et gondoles s’y partagent la place, et seuls quatre ponts le franchissent.'
 mercerie:
   blurb: La suite d’étroites ruelles commerçantes de Saint-Marc au Rialto, le parcours de la course dans le jeu.
+  text:
+  - Les Mercerie sont une suite de rues étroites qui relient les deux centres de la vieille Venise, le politique à Saint-Marc et le commerçant au Rialto. Elles passent sous la tour de l’Horloge et serpentent devant des boutiques qui les bordent depuis le Moyen Âge.
+  - Ce sont les calli les plus animées de la ville, et dans le jeu la course les suit, par-dessus les petits ponts, de la piazza au Rialto.
 la-fenice:
   blurb: L’opéra de Venise, qui est plus d’une fois ressuscité de ses cendres, comme son nom le promet.
+  text:
+  - La Fenice, le phénix, ouvrit en 1792 et vit les premières d’opéras de Rossini, Bellini et Verdi, dont La Traviata.
+  - Elle brûla en 1836 et de nouveau, par incendie criminel, en 1996. Reconstruite telle qu’elle était, elle rouvrit en 2003.
+gondola:
+  name: La gondole
+  blurb: Le long bateau noir de Venise, mené debout avec une seule rame.
+  text:
+  - Une gondole mesure environ onze mètres, est noire et construite un peu de travers, pour que le gondolier debout à l’arrière puisse la tenir droite avec une seule rame. Son étrave de fer, le ferro, représenterait les six quartiers de la ville.
+  - Autrefois, il y en avait des milliers ; aujourd’hui, environ quatre cents promènent des visiteurs sur les canaux, et quelques traghetti, des bacs en gondole, font encore traverser le Grand Canal pour quelques euros.
+vaporetto:
+  name: Le vaporetto
+  blurb: Le bus d’eau de Venise, qui ronronne d’arrêt en arrêt sur le Grand Canal.
+  text:
+  - 'Sans voitures dans la ville, le vaporetto est son transport public : un bus d’eau large et bas exploité par l’ACTV, qui s’arrête à des pontons flottants le long du Grand Canal et vers les îles de la lagune.'
+  - La ligne 1 parcourt toute la longueur du Grand Canal, assez lentement pour voir chaque palais.
+carnevale:
+  name: Le carnaval
+  blurb: Deux semaines de masques et de costumes avant le Carême, qui remplissent les places de Venise.
+  text:
+  - Le carnaval de Venise remonte au Moyen Âge, quand les masques permettaient à des gens de tous rangs de se mêler dans les rues. Napoléon l’interdit ; il fut ressuscité en 1979.
+  - Aujourd’hui, il ramène costumes et masques à Saint-Marc pendant les deux semaines avant le Carême, de la bauta blanche au masque à long nez du médecin de la peste.
+acqua-alta:
+  name: L’acqua alta
+  blurb: Les marées hautes qui inondent la place Saint-Marc, désormais retenues par les barrières MOSE.
+  text:
+  - Plusieurs fois par an, surtout en automne et en hiver, les marées de l’Adriatique montent assez haut pour inonder les parties les plus basses de Venise, la place Saint-Marc en premier. Des passerelles surélevées sont installées, et des sirènes avertissent la ville.
+  - En 1966 et en 2019, l’eau monta à presque deux mètres. Depuis 2020, le MOSE, une rangée de barrières sur le fond marin aux embouchures de la lagune, peut être levé pour retenir la marée.

@@ -1,23 +1,68 @@
-# utrecht's landmarks in French (_data/landmarks/utrecht.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# utrecht's landmarks in French (_data/landmarks/utrecht.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 domtoren:
   name: Tour du Dom
   blurb: Le plus haut clocher des Pays-Bas, 112 mètres de brique et de pierre gothiques, isolé depuis qu’une tempête a abattu la nef.
+  text:
+  - La Domtoren fut construite de 1321 à 1382 comme clocher de la cathédrale Saint-Martin, et avec ses 112 mètres elle est toujours le plus haut clocher d’église du pays. On la voit de loin dans la plaine autour d’Utrecht.
+  - 'Depuis 1674, elle se dresse à l’écart de son église : une tempête abattit la nef entre les deux, et le vide ne fut jamais reconstruit. Un guide vous conduit par ses 465 marches, devant les cloches et le carillon, jusqu’à une vue sur toute la province.'
 domkerk:
   name: Église du Dom
   blurb: 'Ce qui reste de la cathédrale gothique d’Utrecht : le chœur et le transept, séparés de leur tour depuis l’effondrement de la nef en 1674.'
+  text:
+  - La cathédrale Saint-Martin fut commencée en 1254 dans le style gothique des cathédrales françaises, à l’endroit où les premiers évêques d’Utrecht bâtissaient des églises depuis le VIIe siècle. Il fallut près de trois siècles pour la construire, et elle ne fut jamais tout à fait achevée.
+  - Le 1er août 1674, une tornade abattit sa nef, qui n’avait pas d’arcs-boutants pour la tenir. Les décombres ne furent pas déblayés avant 1826. Le Domplein remplit maintenant le vide, avec le contour de l’ancienne nef tracé dans son pavage, et en dessous reposent les restes du fort romain dont Utrecht est issue. L’église est protestante depuis 1580.
 pandhof:
   blurb: Le paisible jardin du cloître à côté de l’église du Dom, planté des herbes d’un jardin de monastère médiéval.
+  text:
+  - Le Pandhof est le cloître de la cathédrale, bâti au XVe siècle autour d’un jardin carré.
+  - Le jardin est planté des herbes et plantes médicinales du Moyen Âge, et l’été on y donne des concerts.
 oudegracht:
   blurb: Le canal médiéval d’Utrecht, avec ses quais au ras de l’eau et ses vieilles caves sous la rue, aujourd’hui pleines de cafés.
+  text:
+  - 'L’Oudegracht traverse toute la vieille ville, du sud au nord. Elle fut creusée aux XIIe et XIIIe siècles, et possède une particularité qu’aucun autre canal néerlandais n’a : les quais sont bas, au ras de l’eau, et les marchands y creusèrent des caves sous la rue pour stocker leurs marchandises.'
+  - Ces caves de quai sont aujourd’hui des restaurants, des cafés et des ateliers avec des terrasses sur les quais, et la rue au-dessus passe sur leurs toits. On voit le mieux le canal depuis l’un de ses ponts, ou depuis un bateau.
 janskerkhof:
   blurb: La place arborée autour de la Janskerk, avec un marché aux fleurs chaque samedi.
+  text:
+  - La Janskerk est l’une des églises que l’évêque Bernold plaça autour de la cathédrale au XIe siècle, de sorte que les quatre formaient une croix sur la carte, avec le Dom en son cœur. La place autour, l’ancien cimetière, est bordée de maisons de chanoines et de bâtiments universitaires.
+  - Le samedi, toute la place devient un marché aux fleurs et aux plantes, comme depuis des générations.
 pieterskerk:
   blurb: L’une des plus anciennes églises des Pays-Bas, une église romane de 1048 avec une crypte sous son chœur.
+  text:
+  - L’évêque Bernold fit bâtir la Pieterskerk comme bras oriental de sa croix d’églises, et elle fut consacrée en 1048. C’est l’une des rares églises romanes qui restent aux Pays-Bas, avec des colonnes de grès rouge à l’intérieur et une crypte sous le chœur surélevé.
+  - Depuis le XVIIe siècle, la communauté wallonne, des protestants francophones, l’utilise.
 speelklok:
   name: Musée Speelklok
   blurb: Un musée des instruments de musique mécanique, des boîtes à musique aux grands orgues de danse, dans la Buurkerk médiévale.
+  text:
+  - 'La Buurkerk était l’église paroissiale des habitants de la ville, la plus ancienne d’Utrecht. Aujourd’hui, elle abrite le Museum Speelklok, plein d’instruments qui jouent tout seuls : horloges musicales, boîtes à musique, orgues de barbarie et les énormes orgues de danse peintes des foires néerlandaises.'
+  - Les guides les font jouer pendant la visite, et les orgues de rue d’Utrecht viennent de la même tradition.
 academiegebouw:
   blurb: Le bâtiment principal de l’université d’Utrecht sur le Domplein, où l’Union d’Utrecht fut signée en 1579.
+  text:
+  - Le grand hall de l’université se dresse sur le Domplein, avec sa façade néo-Renaissance de 1892. Derrière se trouve l’ancienne salle capitulaire de la cathédrale, aujourd’hui l’Aula, où les provinces du nord des Pays-Bas signèrent l’Union d’Utrecht en 1579, le pacte contre l’Espagne qui fut le début de la République des Provinces-Unies.
+  - L’université fut fondée en 1636 et est aujourd’hui l’une des plus grandes du pays, et les docteurs y reçoivent encore leur diplôme dans l’Aula.
 paushuize:
   blurb: La maison du Kromme Nieuwegracht bâtie pour Adrien d’Utrecht, qui devint le seul pape néerlandais.
+  text:
+  - Adriaan Florensz, né à Utrecht en 1459, enseigna à Louvain et fut le précepteur du jeune empereur Charles Quint. Il fit bâtir cette maison pour son retour, mais en 1522 il fut élu pape sous le nom d’Adrien VI, le seul Néerlandais à avoir jamais été pape.
+  - Il mourut à Rome l’année suivante et ne l’habita jamais. La maison appartient aujourd’hui à la province, qui s’en sert pour des réceptions.
+catharijneconvent:
+  name: Le musée Catharijneconvent
+  blurb: Le musée national d’art et d’histoire chrétiens, dans un couvent médiéval sur l’Oudegracht.
+  text:
+  - Le couvent de Sainte-Catherine appartenait aux chevaliers de Saint-Jean au Moyen Âge. Il abrite aujourd’hui le musée national d’histoire du christianisme aux Pays-Bas, avec des manuscrits médiévaux, des retables, de l’argenterie d’église et des peintures.
+  - L’église à côté, la Catharijnekerk, devint la cathédrale catholique d’Utrecht au XIXe siècle.
+centraal-museum:
+  name: Le Centraal Museum
+  blurb: Le plus ancien musée municipal des Pays-Bas, avec les peintres d’Utrecht du Siècle d’or et les meubles de Gerrit Rietveld.
+  text:
+  - Le Centraal Museum ouvrit en 1838 et est le plus ancien musée municipal du pays. Il possède l’œuvre des caravagesques d’Utrecht, les peintres qui rapportèrent de Rome dans les années 1620 le clair-obscur du Caravage, et la plus grande collection de chaises et de créations de Gerrit Rietveld.
+  - La Chaise rouge et bleue de Rietveld est ici, et sa maison Schröder, site du patrimoine mondial, se trouve à la lisière de la ville.
+nijntje:
+  name: Miffy (Nijntje)
+  blurb: Le petit lapin blanc de Dick Bruna, né à Utrecht en 1955, qui a même ses propres feux de circulation en ville.
+  text:
+  - Dick Bruna vécut et dessina à Utrecht toute sa vie, et en 1955 il fit son premier livre sur Nijntje, le petit lapin connu en français sous le nom de Miffy. Elle est depuis apparue dans plus de 120 livres, en plus de 50 langues.
+  - Utrecht a un Musée Miffy en face du Centraal Museum, une statue d’elle sur le Nijntjepleintje, et un passage piéton sur la Lange Viestraat où les feux montrent Miffy debout et en marche.

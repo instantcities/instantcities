@@ -1,22 +1,73 @@
-# salerno's landmarks in Dutch (_data/landmarks/salerno.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# salerno's landmarks in Dutch (_data/landmarks/salerno.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 duomo:
   name: Duomo di San Matteo
   blurb: De Normandische kathedraal boven het graf van de evangelist Mattheüs, met een binnenplaats met arcaden en een klokkentoren uit de 12e eeuw.
+  text:
+  - Robert Guiscard, de Noorman die Salerno net had ingenomen, liet de kathedraal vanaf 1080 bouwen, en paus Gregorius VII wijdde haar in 1084 in. De paus stierf een jaar later in ballingschap in Salerno en ligt hier begraven. In de crypte, bedekt met barokke marmer en fresco’s, liggen de relikwieën van Sint-Matteüs, in 954 naar Salerno gebracht.
+  - Je gaat binnen door een binnenplaats met bogen op oude Romeinse zuilen, omzoomd met Romeinse sarcofagen, en door bronzen deuren die in Constantinopel zijn gegoten. De klokkentoren ernaast, met zijn ronde top, is het baken van de oude stad.
 via-dei-mercanti:
   blurb: De koopmansstraat van de middeleeuwse stad, een smal winkelstraatje dwars door het hele historische centrum.
+  text:
+  - De Via dei Mercanti loopt door de oude stad van de Arco di Arechi naar de Piazza Sedile di Portanova, ongeveer waar de hoofdstraat van de Romeinse en Longobardische stad liep. De winkels zijn hier sinds de middeleeuwen, toen Salerno handel dreef met de hele Middellandse Zee.
+  - Smalle zijsteegjes klimmen ervandaan naar de Duomo en de heuvel, onder bogen door en langs kleine kerken. In de winter hangen de Luci d’Artista hun lichten erboven.
 lungomare:
   blurb: De boulevard onder de palmen, met de Golf van Salerno ervoor en de Amalfikust aan de horizon.
+  text:
+  - Tussen de stad en de zee loopt de Lungomare Trieste, een brede boulevard omzoomd met palmen en tuinen. Op een heldere dag zie je vanaf hier de hele golf, van de kliffen van de Amalfikust in het westen tot de vlakte van Paestum in het zuiden.
+  - 'Hier komt Salerno ’s avonds uit: voor een wandeling, een ijsje of een plek op een bankje met uitzicht op zee.'
 corso-vittorio-emanuele:
   blurb: De lange autovrije winkelstraat van Salerno, van de oude stad naar het station.
+  text:
+  - De Corso loopt kaarsrecht zo’n kilometer van de Piazza Sedile di Portanova, aan de rand van de oude stad, naar het treinstation. Hij werd in de 19e eeuw aangelegd, toen de stad naar het oosten buiten haar middeleeuwse muren groeide.
+  - Afgesloten voor auto’s is hij omzoomd met winkels, cafés en palazzi, en ’s avonds loopt de hele stad er op en neer voor de passeggiata.
 teatro-verdi:
   blurb: Het operahuis van de stad uit 1872, een kleine kopie van het San Carlo in Napels, vanbinnen rood en goud.
+  text:
+  - Het Teatro Verdi opende in 1872 naast de Villa Comunale. Binnen is het een hoefijzer van loges in rood en goud, gebouwd naar het voorbeeld van het Teatro San Carlo in Napels.
+  - Het toneelgordijn, geschilderd door Domenico Morelli, toont de mensen van Salerno die de Saracenen verdrijven. Er is nog elk jaar een operaseizoen.
 villa-comunale:
   blurb: De 19e-eeuwse stadstuin, schaduwrijk en groen, tussen het Teatro Verdi en de zee.
+  text:
+  - De Villa Comunale is de openbare tuin van Salerno, in de 19e eeuw aangelegd aan het westeinde van de stad, naast het Teatro Verdi en een paar stappen van de Lungomare.
+  - 'De paden lopen onder hoge bomen langs een fontein en bustes van beroemde Salernitanen: een koele plek op een hete middag, en in de winter het hart van de Luci d’Artista.'
 giardino-della-minerva:
   blurb: Een tuin van geneeskrachtige planten op terrassen boven de oude stad, een van de oudste botanische tuinen van Europa.
+  text:
+  - In het begin van de 14e eeuw kweekte de arts Matteo Silvatico hier de planten voor zijn geneesmiddelen, op terrassen die de heuvel op klimmen, om de studenten van de Scuola Medica Salernitana les te geven. Het geldt als een van de eerste botanische tuinen van Europa.
+  - Hersteld en in 2001 voor het publiek geopend, kweekt hij weer honderden geneeskrachtige planten, bewaterd door oude geulen en fonteinen, met bovenaan een pergola en uitzicht over de daken naar zee.
 acquedotto:
   name: Middeleeuws aquaduct
   blurb: De hoge bogen van het middeleeuwse aquaduct, dat volgens de legende in één nacht door de duivel werd gebouwd.
+  text:
+  - Boven de Via Arce staan nog de hoge spitse bogen van het oude aquaduct, dat in de middeleeuwen water naar een klooster bracht. Men noemt ze de Ponti del Diavolo, de Duivelsbruggen.
+  - Volgens de legende bouwde de alchemist Pietro Barliario ze in één nacht met hulp van de duivel. Een steegje van de oude stad draagt nog steeds zijn naam.
 stazione-marittima:
   blurb: De veerterminal van Zaha Hadid op de Molo Manfredi, waar de boten vertrekken naar Amalfi, Positano en Capri.
+  text:
+  - De veerterminal op de Molo Manfredi, in de vorm van een oester, is van architect Zaha Hadid. Hij opende in 2016, enkele weken na haar dood.
+  - 'Vanaf de kade ernaast vertrekken de boten naar de Amalfikust, Positano en Capri: de mooiste manier om de kust te zien is vanaf zee.'
+castello-di-arechi:
+  name: Castello di Arechi
+  blurb: Het kasteel op de heuvel boven de stad, versterkt door de Longobardische vorst Arechis II, met de hele golf aan zijn voeten.
+  text:
+  - Hoog op de heuvel achter de stad staat het kasteel dat Arechis II, de Longobardische vorst van Benevento, in de 8e eeuw versterkte toen hij Salerno zijn hoofdstad maakte. Noormannen, Zwaben en Aragonezen bouwden er na hem allemaal aan.
+  - Zijn muren en torens herbergen nu een klein museum, en vanaf de top zie je de hele Golf van Salerno, van de Amalfikust tot Paestum. Het ligt boven het stuk stad dat in het spel zit.
+scuola-medica:
+  name: Scuola Medica Salernitana
+  blurb: De eerste medische school van het middeleeuwse Europa, waar ook vrouwen doceerden en de geneeskunde beoefenden.
+  text:
+  - Vanaf de 10e eeuw gaven artsen in Salerno les in geneeskunde uit Griekse, Latijnse, Arabische en Joodse bronnen, en de stad werd bekend als de Hippocratische Stad. Ook vrouwen studeerden en doceerden er, de beroemdste was Trotula, wier naam nog door een straat van de oude stad wordt gedragen.
+  - Zijn gezondheidsregels in verzen, het Regimen Sanitatis Salernitanum, werden overal in Europa gelezen. De school werd in 1811 gesloten; haar verhaal wordt verteld in een klein museum in de kerk San Gregorio aan de Via dei Mercanti.
+luci-d-artista:
+  name: Luci d’Artista
+  blurb: Elke winter verlichten kunstenaars de straten, pleinen en tuinen van Salerno met enorme lichtinstallaties.
+  text:
+  - 'Sinds 2006 hangt Salerno van november tot januari lichtkunstwerken van kunstenaars boven zijn straten en pleinen: hele sterrenstelsels, dieren, tuinen en sprookjes in licht, van de Villa Comunale tot de Corso en de oude stad.'
+  - De Luci d’Artista zijn een van de grootste lichtfestivals van Italië geworden en brengen elke winter bussen vol bezoekers naar de stad.
+sfogliatella:
+  name: Sfogliatella
+  blurb: De schelp van krokant bladerdeeg gevuld met ricotta en griesmeel, geboren in een klooster aan de Amalfikust.
+  text:
+  - De sfogliatella is een schelp van dunne, knapperige lagen deeg, gevuld met ricotta, griesmeel en gekonfijte sinaasappelschil. Haar voorouder, de Santa Rosa, werd in de 17e eeuw voor het eerst gemaakt door de nonnen van het klooster Santa Rosa in Conca dei Marini, aan de Amalfikust net ten westen van Salerno.
+  - Je eet haar warm, met een espresso, in elk café aan de Corso.

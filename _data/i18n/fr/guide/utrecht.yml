@@ -1,0 +1,111 @@
+# utrecht's guide in French (_data/about/utrecht.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Pays-Bas
+- Utrecht, dont elle est le chef-lieu
+- Environ 370 000 habitants (ville)
+- Le Kromme Rijn et la Vecht, reliés par les canaux de la vieille ville
+- Comme fort romain sur le Rhin, vers 47 apr. J.-C.
+- Université d’Utrecht, fondée en 1636
+- La maison Rietveld-Schröder (2000) et le fort romain sous le Domplein, partie du Limes germanique inférieur (2021)
+- De Domstad, la ville de la cathédrale
+overview:
+- 'La vieille ville d’Utrecht est un ovale cerné par son ancien fossé, le Singel, et traversé du sud au nord par l’Oudegracht. La tour du Dom et le Domplein sont en son cœur, avec les quatre églises que l’évêque Bernold plaça en croix autour de la cathédrale : la Pieterskerk, la Janskerk et deux qui ont disparu. La Nieuwegracht et la Kromme Nieuwegracht traversent l’est plus calme et plus verdoyant, devant des maisons de chanoines et le Paushuize.'
+- 'Instant Utrecht vous fait faire le tour de ce cœur : du marché aux fleurs du Janskerkhof le long du Drift et de la Kromme Nieuwegracht, devant la Pieterskerk et le Paushuize, par le Domplein sous la tour, et le long du Vismarkt près de l’Oudegracht avant de revenir. Le pays est plat, et le jeu aussi.'
+setting:
+- Utrecht se trouve au centre des Pays-Bas, à environ 40 kilomètres au sud-est d’Amsterdam, là où l’ancien cours du Rhin, aujourd’hui le Kromme Rijn, rejoint la Vecht. Autour s’étendent la crête de sable boisée de l’Utrechtse Heuvelrug à l’est, les prairies tourbeuses et les lacs au nord et à l’ouest, et une ceinture de nouvelles banlieues, dont Leidsche Rijn est la plus grande.
+- Sa gare, Utrecht Centraal, est le nœud ferroviaire le plus fréquenté du pays, où se rejoignent les lignes de toutes les directions, et son parc à vélos sous la place de la gare contient 12 500 vélos. Le climat est doux et humide, avec des étés frais et des hivers qui gèlent rarement longtemps.
+today:
+- Utrecht est l’une des villes qui croissent le plus vite du pays, une ville universitaire et de services au centre du réseau ferroviaire. La plupart des gens se déplacent à vélo, et la vieille ville est fermée à la plupart des voitures.
+- Le soir, les terrasses sur les quais de l’Oudegracht se remplissent, le samedi le marché aux fleurs se déploie sur le Janskerkhof, et les nuits d’été le parcours Trajectum Lumen illumine les ponts, les quais et les murs d’églises de la vieille ville.
+history:
+- title: Un fort romain et les premiers évêques
+  text:
+  - Vers 47 apr. J.-C., les Romains construisirent ici un fort sur le Rhin, Traiectum, le gué, dans le cadre du Limes, la frontière de leur empire. Ses restes se trouvent sous le Domplein.
+  - En 695, le moine anglais Willibrord vint convertir les Frisons et fit de l’ancien fort sa base. À partir de là, Utrecht fut le siège des évêques du nord, qui devinrent aussi de puissants seigneurs, régnant sur un grand État à eux. La ville reçut ses droits en 1122 et s’enrichit grâce au commerce le long du Rhin.
+- title: Une ville d’églises
+  text:
+  - Au XIe siècle, l’évêque Bernold bâtit quatre églises autour de la cathédrale en forme de croix. En 1254 commencèrent les travaux d’une nouvelle cathédrale gothique, et à partir de 1321 ceux de sa tour, achevée en 1382. Utrecht avait tant d’églises, de chapelles et de couvents que sa silhouette était une forêt de flèches.
+  - En 1528, l’évêque céda son pouvoir temporel à l’empereur Charles Quint, et la province d’Utrecht devint l’un des Pays-Bas des Habsbourg. Adrien d’Utrecht, ancien précepteur de Charles, devint pape en 1522.
+- title: Union et traité
+  text:
+  - En 1579, les provinces du nord signèrent l’Union d’Utrecht dans la salle capitulaire de la cathédrale, s’unissant contre l’Espagne. Le pacte devint la base de la République des Provinces-Unies, et la ville devint protestante. L’université suivit en 1636.
+  - En 1674, une tempête abattit la nef de la cathédrale et laissa la tour seule. En 1713, les puissances d’Europe se réunirent ici pour signer le traité d’Utrecht, qui mit fin à la guerre de Succession d’Espagne.
+- title: Nœud ferroviaire et ville universitaire
+  text:
+  - Au XIXe siècle, le chemin de fer fit d’Utrecht le carrefour du pays, et la ville s’étendit bien au-delà de son fossé. Dans les années 1970, une partie du Singel fut comblée pour une autoroute ; elle fut déterrée et remplie d’eau en 2020.
+  - Au XXe siècle, Gerrit Rietveld construisit sa maison Schröder à la lisière de la ville et Dick Bruna dessina Miffy ici. Aujourd’hui, l’université et les écoles supérieures amènent des dizaines de milliers d’étudiants dans la ville.
+timeline:
+- - vers 47 apr. J.-C.
+  - Les Romains construisent le fort de Traiectum sur le Rhin
+- - '695'
+  - Willibrord vient à Utrecht comme évêque des Frisons
+- - '1048'
+  - La Pieterskerk est consacrée
+- - '1122'
+  - Utrecht reçoit ses droits de ville
+- - '1254'
+  - Début des travaux de la cathédrale gothique
+- - '1382'
+  - La tour du Dom est achevée
+- - '1522'
+  - Adrien d’Utrecht devient le pape Adrien VI
+- - '1528'
+  - L’évêque cède son pouvoir temporel à Charles Quint
+- - '1579'
+  - L’Union d’Utrecht est signée
+- - '1636'
+  - Fondation de l’université
+- - '1674'
+  - Une tempête abat la nef de la cathédrale
+- - '1713'
+  - Le traité d’Utrecht met fin à la guerre de Succession d’Espagne
+- - '1955'
+  - Dick Bruna dessine le premier livre de Miffy
+- - '2020'
+  - L’eau revient dans le Catharijnesingel
+places:
+  domtoren:
+    name: La tour du Dom
+    blurb: Le plus haut clocher d’église du pays, 112 mètres, avec 465 marches jusqu’au sommet.
+  domplein:
+    name: Domplein
+    blurb: La place où se dressait la nef de la cathédrale jusqu’en 1674, au-dessus du fort romain.
+  domkerk:
+    name: La Domkerk
+    blurb: Le chœur et le transept de la cathédrale gothique.
+  pandhof:
+    blurb: Le jardin du cloître d’herbes médiévales à côté de la Domkerk.
+  oudegracht:
+    name: Oudegracht
+    blurb: Le canal médiéval avec ses caves de quai et ses terrasses au bord de l’eau.
+  vismarkt:
+    blurb: L’ancien marché aux poissons le long de l’Oudegracht, sous la tour du Dom.
+  kromme-nieuwegracht:
+    blurb: Le canal calme et courbe devant la Pieterskerk et le Paushuize.
+  janskerkhof:
+    blurb: La place autour de la Janskerk, avec son marché aux fleurs du samedi.
+  pieterskerk:
+    blurb: L’église romane de 1048.
+  paushuize:
+    blurb: La maison construite pour le seul pape néerlandais.
+  academiegebouw:
+    blurb: Le bâtiment principal de l’université, où fut signée l’Union d’Utrecht.
+  speelklok:
+    blurb: Le musée de la musique mécanique dans la Buurkerk.
+  stadhuis:
+    name: L’hôtel de ville
+    blurb: L’hôtel de ville sur l’Oudegracht, une rangée de maisons médiévales derrière une seule façade.
+  catharijneconvent:
+    blurb: Le musée national de l’art chrétien dans un couvent médiéval.
+  centraal-museum:
+    blurb: Le plus ancien musée municipal du pays, avec Rietveld et les caravagesques d’Utrecht.
+links:
+- title: Gemeente Utrecht
+  note: La municipalité (en néerlandais)
+- title: Domtoren
+  note: Billets pour une visite de la tour
+- title: Centraal Museum
+  note: Le musée de la ville, avec le Musée Miffy
+- title: Utrecht sur Wikipédia
+  note: L’article de l’encyclopédie

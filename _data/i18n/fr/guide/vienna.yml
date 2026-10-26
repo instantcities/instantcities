@@ -1,0 +1,106 @@
+# vienna's guide in French (_data/about/vienna.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Autriche
+- Vienne est un Land fédéral à elle seule
+- Environ 2 millions d’habitants (ville), 2,9 millions (agglomération)
+- Comme fort romain de Vindobona, vers 100 apr. J.-C.
+- Le Danube, avec le canal du Danube le long de la vieille ville
+- Allemand
+- La Ville de la musique
+- Le centre historique, depuis 2001, et le château de Schönbrunn, depuis 1996
+overview:
+- 'Vienne se trouve sur le Danube, au pied des dernières collines des Alpes, le Wienerwald. La vieille ville, l’Innere Stadt, est petite : un anneau de rues autour de la cathédrale Saint-Étienne que les remparts de la ville enserraient jusque dans les années 1850. Quand l’empereur François-Joseph fit abattre les remparts, la ville construisit à leur place le Ring, un large boulevard bordé de l’Opéra, du Parlement, de l’hôtel de ville et des grands musées.'
+- Le centre que vous parcourez dans Instant Vienne est cette vieille ville. De la Stephansplatz, le Graben et le Kohlmarkt mènent vers l’ouest à la Hofburg, le palais des empereurs, avec la Heldenplatz et le Ring au-delà. La Kärntner Straße va vers le sud jusqu’à l’Opéra d’État, et au nord, des places calmes comme Am Hof, la Judenplatz et le Hoher Markt se trouvent sur l’emplacement du fort romain, au-dessus du canal du Danube.
+setting:
+- Vienne se trouve dans l’est de l’Autriche, près des frontières de la Slovaquie, de la République tchèque et de la Hongrie ; Bratislava n’est qu’à environ 55 kilomètres. Le Danube passe au nord-est de la ville, et le canal du Danube, plus étroit, longe le bord de la vieille ville.
+- À l’ouest et au nord, le Wienerwald s’élève en collines vertes, et des vignes poussent dans les limites de la ville, ce qui fait de Vienne l’une des rares capitales à produire son propre vin. Le climat est continental, avec des étés chauds et des hivers froids.
+today:
+- Vienne est la capitale et la plus grande ville de l’Autriche, l’un de ses neuf Länder, et le siège du gouvernement et du parlement. Elle accueille l’un des quatre principaux sièges des Nations unies, l’Agence internationale de l’énergie atomique, l’OPEP et l’OSCE. Son économie repose sur les services, la recherche, le tourisme et les congrès, et la ville est régulièrement en tête des classements internationaux des villes où il fait le meilleur vivre.
+- La ville possède ou finance une grande part de son logement, si bien que beaucoup de Viennois louent des logements municipaux. La vie oscille entre le café, les tavernes à vin, les Heurigen, en bordure de la ville, et les salles de concert. En hiver, la saison des bals remplit les palais, et le 1er janvier l’Orchestre philharmonique de Vienne donne son concert du Nouvel An devant un public télévisé mondial.
+history:
+- title: Du fort romain au siège des Habsbourg
+  text:
+  - Les Romains bâtirent le camp légionnaire de Vindobona sur le Danube vers 100 apr. J.-C., à la frontière de leur empire ; le Graben suit le tracé de son fossé. Après le départ des Romains, une petite ville survécut à l’intérieur des anciens murs. Au XIIe siècle, les ducs de Babenberg firent de Vienne leur résidence et tinrent leur cour sur la place Am Hof, et la première église Saint-Étienne s’éleva juste hors des anciens murs.
+  - En 1278, Rodolphe de Habsbourg vainquit le roi Ottokar de Bohême, et sa famille régna depuis Vienne jusqu’en 1918. Le duc Rodolphe IV fonda l’université en 1365 et agrandit Saint-Étienne en style gothique ; sa tour sud, achevée en 1433, domine toujours la vieille ville.
+- title: La capitale impériale
+  text:
+  - Tandis que les Habsbourg rassemblaient des couronnes dans toute l’Europe centrale, Vienne devint la capitale d’un grand empire et le rempart contre les Ottomans, qui l’assiégèrent en 1529 et en 1683. Après l’échec du second siège, nobles et empereurs bâtirent des palais baroques comme le Belvédère et Schönbrunn, et la Karlskirche. Marie-Thérèse réforma l’État depuis la Hofburg, et Haydn, Mozart et Beethoven travaillèrent dans la ville. En 1814 et 1815, le congrès de Vienne redessina la carte de l’Europe après Napoléon.
+  - 'François-Joseph régna 68 ans, de 1848 à 1916. Il fit abattre les remparts à partir de 1857 et donna à Vienne le Ring. Vers 1900, la ville dépassa les deux millions d’habitants et vécut ses années les plus créatrices : Sigmund Freud fonda la psychanalyse, Gustav Klimt et la Sécession rompirent avec l’art académique, et Gustav Mahler dirigea l’Opéra de la cour.'
+- title: Capitale de la république
+  text:
+  - L’empire s’effondra à la fin de la Première Guerre mondiale, et en 1918 Vienne devint la capitale démesurée d’une petite république autrichienne. Son conseil social-démocrate bâtit de grands immeubles de logements municipaux pour les ouvriers, l’ère de la Vienne rouge. En mars 1938, l’Allemagne nazie annexa l’Autriche, et les nazis chassèrent et assassinèrent la plupart de la grande communauté juive de la ville. Les bombes alliées et la bataille de Vienne en 1945 endommagèrent Saint-Étienne et l’Opéra.
+  - Les quatre puissances alliées occupèrent ensemble la ville pendant dix ans, la Vienne du film Le Troisième Homme. Le traité d’État de 1955 rendit l’Autriche indépendante et neutre, et Vienne devint un lieu de rencontre entre l’Est et l’Ouest, avec des bureaux des Nations unies, de l’OSCE et de l’OPEP. L’Autriche rejoignit l’Union européenne en 1995.
+timeline:
+- - vers 100
+  - Les Romains bâtissent le fort de Vindobona
+- - '1155'
+  - Les ducs de Babenberg font de Vienne leur résidence
+- - '1278'
+  - Rodolphe de Habsbourg bat Ottokar ; début du règne des Habsbourg
+- - '1365'
+  - Rodolphe IV fonde l’université de Vienne
+- - '1529'
+  - Premier siège ottoman de Vienne
+- - '1683'
+  - Une armée de secours brise le second siège ottoman
+- - '1814'
+  - Ouverture du congrès de Vienne
+- - '1857'
+  - François-Joseph ordonne la démolition des remparts
+- - '1865'
+  - Le Ring ouvre
+- - '1918'
+  - La monarchie prend fin et l’Autriche devient une république
+- - '1938'
+  - L’Allemagne nazie annexe l’Autriche
+- - '1955'
+  - Le traité d’État rend à l’Autriche son indépendance
+places:
+  stephansplatz:
+    name: Stephansplatz
+    blurb: La place autour de la cathédrale Saint-Étienne, où se rejoignent le Graben, la Kärntner Straße et la Rotenturmstraße. En dessous se trouve la Virgilkapelle, une chapelle médiévale que des ouvriers découvrirent en 1973 en creusant le métro.
+  graben:
+    name: Graben
+    blurb: Une large rue piétonne sur le tracé du fossé du fort romain, qui lui a donné son nom. La colonne de la Peste baroque se dresse au milieu.
+  kaerntner-strasse:
+    name: Kärntner Straße
+    blurb: La rue commerçante animée de Saint-Étienne à l’Opéra d’État, nommée d’après la Carinthie, Kärnten, la province où menait l’ancienne route.
+  neuer-markt:
+    blurb: Une place près de la Kärntner Straße avec la fontaine Donner et l’église des Capucins, dont la crypte abrite les tombeaux des Habsbourg.
+  albertinaplatz:
+    blurb: La place sous l’Albertina, derrière l’Opéra d’État, avec le mémorial contre la guerre et le fascisme d’Alfred Hrdlicka.
+  kohlmarkt:
+    blurb: La courte et élégante rue du Graben à la Hofburg, nommée d’après le charbon de bois qu’on y vendait, avec des bijoutiers, des maisons de mode et le confiseur Demel.
+  michaelerplatz:
+    blurb: La place ronde devant la porte Saint-Michel à dôme de la Hofburg, avec des vestiges romains en son milieu et la sobre Looshaus, qui scandalisa les Viennois en 1911.
+  josefsplatz:
+    blurb: Une place en forme de cour de la Hofburg avec une statue équestre de Joseph II, devant la salle d’apparat baroque de la Bibliothèque nationale.
+  heldenplatz:
+    name: La Heldenplatz
+    blurb: La grande place ouverte de la Hofburg, avec des statues équestres du prince Eugène et de l’archiduc Charles. Du balcon de la Nouvelle Hofburg, Hitler proclama ici l’annexion de l’Autriche en 1938.
+  ringstrasse:
+    name: Le Ring
+    blurb: Le boulevard autour de la vieille ville qui a pris la place des remparts à partir de 1857, bordé de l’Opéra, du Parlement, de l’hôtel de ville et des grands musées.
+  herrengasse:
+    blurb: La rue des palais urbains de la noblesse, de la Michaelerplatz à la Freyung, avec l’ancien parlement de Basse-Autriche et le Café Central.
+  am-hof:
+    blurb: La plus grande place de la vieille ville, où les ducs de Babenberg tenaient leur cour. Du balcon de son église, un héraut proclama la fin du Saint-Empire romain en 1806.
+  judenplatz:
+    blurb: Le centre du quartier juif médiéval, détruit en 1421, avec le mémorial de la Shoah de Rachel Whiteread, une bibliothèque coulée dans le béton aux livres retournés.
+  hoher-markt:
+    blurb: L’une des plus anciennes places de Vienne, au-dessus des vestiges du fort romain, avec l’Ankeruhr, une horloge Art nouveau où défilent à midi des figures historiques.
+  donaukanal:
+    name: Le canal du Danube
+    blurb: Le bras du Danube le long du bord nord-est de la vieille ville ; le fleuve principal coule plus loin. L’été, bars et transats remplissent ses berges.
+links:
+- title: Vienna Tourist Board
+  note: L’information touristique officielle de la ville
+- title: Ville de Vienne
+  note: La municipalité
+- title: Kunsthistorisches Museum
+  note: Le grand musée d’art sur le Ring
+- title: Centre historique de Vienne sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Vienne sur Wikipédia
+  note: L’article de l’encyclopédie
