@@ -1,0 +1,41 @@
+{
+  "city": "Avignon",
+  "bbox": [
+    43.943,
+    4.8,
+    43.956,
+    4.815
+  ],
+  "zone_points": [
+    [
+      43.956,
+      4.8
+    ],
+    [
+      43.956,
+      4.815
+    ],
+    [
+      43.943,
+      4.815
+    ],
+    [
+      43.943,
+      4.8
+    ]
+  ],
+  "routes": [
+    {
+      "id": "intramuros",
+      "route": [
+        "Place de l'Horloge",
+        "Rue de la République",
+        "Rue Joseph Vernet",
+        "Rue Saint-Agricol"
+      ]
+    }
+  ],
+  "floors": 4,
+  "hw": 3.6,
+  "gables": false
+}

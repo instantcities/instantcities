@@ -1,0 +1,12 @@
+{
+  "id": "florence",
+  "name": "Instant Florence",
+  "title": "Instant Florence: a free 3D game of Florence, by bike, on foot or on horseback",
+  "description": "Cycle, walk or gallop through a 3D version of the centre of Florence in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
+  "share_title": "Instant Florence: play through Florence in 3D",
+  "share_description": "Cycle, walk or gallop through Florence in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free 3D browser game set in the centre of Florence, Italy: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Florence in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Florence",
+  "style": ":root { --paper: #fdf7ec; --accent: #9c3d1f; --accent-soft: #f3dccf; --gold: #e8b23a; --sky: #f4e4cc; --skyline: #d2a47c; --glass: rgba(253, 247, 236, 0.72); } .tag { color: #6e3a20; }"
+}

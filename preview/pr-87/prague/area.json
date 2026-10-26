@@ -1,0 +1,48 @@
+{
+  "city": "Praha",
+  "bbox": [
+    50.081,
+    14.408,
+    50.093,
+    14.43
+  ],
+  "zone_points": [
+    [
+      50.093,
+      14.408
+    ],
+    [
+      50.093,
+      14.43
+    ],
+    [
+      50.081,
+      14.43
+    ],
+    [
+      50.081,
+      14.408
+    ]
+  ],
+  "routes": [
+    {
+      "id": "staremesto",
+      "route": [
+        "Staroměstské náměstí",
+        "Pařížská",
+        "Široká",
+        "17. listopadu",
+        "Křižovnická",
+        "Platnéřská",
+        "Mariánské náměstí",
+        "Seminářská",
+        "Husova",
+        "Karlova",
+        "Malé náměstí"
+      ]
+    }
+  ],
+  "floors": 5,
+  "hw": 3.6,
+  "gables": false
+}
