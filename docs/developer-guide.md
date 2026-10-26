@@ -39,6 +39,7 @@ ghent/, lecce/   a city with everything about it
   city.js        the map, routes, quests, sights and look (see the header of the file)
   page.json      the title, colours and share text of the game page
 rome/, paris/    smaller cities: a first map, a race and a tour (docs/first-maps.md)
+taj-mahal/, angkor-wat/   sites, famous places that are not cities (docs/sites.md)
 cities/          the cities page
 tools/           scripts that make the maps and pages (not part of the site)
 _data/, _layouts/, _includes/   the Jekyll site
@@ -81,6 +82,12 @@ Other map tools:
 
 Buildings are drawn in three levels: landmarks by hand (`landmarks.json`, `facades.js`), important
 streets front by front from photos (`fronts.js`), and everything else from the OSM outline and height.
+
+## Sites
+
+A site is a place like the Taj Mahal or Angkor Wat. It is made like a small city (a folder with an
+`area.json`, a `city.js`, a race, a tour, quests and the monuments modelled by hand), but it is listed
+in `_data/sites.yml`, on the sites page (`/sites/`) and not on the cities page. See `docs/sites.md`.
 
 ## Buildings you can enter
 

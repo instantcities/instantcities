@@ -6,6 +6,11 @@ layout: null
 {%- for ref in site.data.lang.en.urls %}{% assign key = ref[0] %}{% for l in site.data.home.langs %}
   <url><loc>{{ site.url }}{{ site.data.lang[l].urls[key] }}</loc></url>
 {%- endfor %}{% endfor %}
+  <url><loc>{{ site.url }}/sites/</loc></url>
+{%- for s in site.data.sites %}
+  <url><loc>{{ site.url }}/sites/{{ s.id }}/</loc></url>
+  <url><loc>{{ site.url }}/{{ s.id }}/play/</loc></url>
+{%- endfor %}
   <url><loc>{{ site.url }}/art/</loc></url>
 {%- for a in site.data.art.pieces %}
   <url><loc>{{ site.url }}/art/{{ a.id }}/</loc></url>

@@ -1,0 +1,44 @@
+# One block per site: a famous place that is not a city, with a game of its own. Its card on the
+# sites page (/sites/) and its page (_layouts/site.html, at /sites/<id>/). The game is at
+# /<id>/play/ (made by tools/pages.mjs). The pictures are assets/img/sites/<id>.jpg (the hero and
+# the card) and <id>-1.jpg, <id>-2.jpg, ... (the screenshots). A new site needs a block here, a page
+# sites/<id>/index.html saying `layout: site` and `site: <id>`, and a line in sitemap.xml's loop
+# (it reads this file). English only, like the art pages.
+- id: taj-mahal
+  name: Taj Mahal
+  place: Agra, India
+  game: Instant Taj Mahal
+  title: "Instant Taj Mahal: a free virtual 3D tour and game of the Taj Mahal"
+  description: "Take a free virtual 3D tour of the Taj Mahal and its gardens in your browser, then walk, cycle or ride through them yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race through the gardens of the Taj Mahal, up to the white marble tomb."
+  lead: "The tomb on its platform with the four minarets, the mosque and the Jawab on either side, the long canal, and the great gate you come in by."
+  card: "The tomb with its dome and four minarets at the end of the long canal, between the mosque and the Jawab."
+  features:
+    - { icon: compass, title: "The tomb and its garden", text: "Walk up the canal from the great gate to the white marble platform, past the four quarters of the garden. The tomb, the minarets, the mosque and the gate are modelled by hand from their measurements." }
+    - { icon: flag, title: "A race round the garden", text: "Run, ride or gallop up the central walk, along the front of the platform, down the east side and back to the gate, over a path of sandstone slabs." }
+    - { icon: map, title: "From OpenStreetMap", text: "The garden, its walls, the canals and the forecourt south of the gate are drawn from OpenStreetMap, with the garden's paths added by hand." }
+  facts:
+    - { label: "Built", text: "1632 to 1653, by order of the Mughal emperor Shah Jahan for his wife Mumtaz Mahal" }
+    - { label: "Height", text: "73 metres from the garden to the tip of the finial" }
+    - { label: "Garden", text: "A charbagh: four quarters round a long canal, 300 metres wide" }
+    - { label: "In the game", text: "The tomb, four minarets, the mosque, the Jawab, the great gate, the garden wall and the forecourt" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+- id: angkor-wat
+  name: Angkor Wat
+  place: Siem Reap, Cambodia
+  game: Instant Angkor Wat
+  title: "Instant Angkor Wat: a free virtual 3D tour and game of Angkor Wat"
+  description: "Take a free virtual 3D tour of Angkor Wat in your browser, then walk, cycle or ride across the causeway and round the temple yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race over the causeway, past the moat and the towers of Angkor Wat."
+  lead: "The moat, the long causeway and the gate at its end, and the temple itself: three levels of galleries rising to five towers."
+  card: "The moat and the causeway, the outer gate, and the three levels and five towers of the temple."
+  features:
+    - { icon: castle, title: "The temple and its moat", text: "Cross the moat, go through the western gate and follow the stone road to the temple. Its three levels, galleries and five towers are modelled by hand on the measurements in OpenStreetMap." }
+    - { icon: flag, title: "A race along the causeway", text: "From the far side of the moat through the gate and up to the temple, then along its north side to the east, once, from a start gate to a finish gate." }
+    - { icon: map, title: "From OpenStreetMap", text: "The moat, the paths, the ponds and the outer enclosure come from OpenStreetMap." }
+  facts:
+    - { label: "Built", text: "Early 12th century, for the Khmer king Suryavarman II, first as a Hindu temple and later a Buddhist one" }
+    - { label: "Size", text: "The moat is 190 metres wide and the outer wall encloses about 200 hectares" }
+    - { label: "Towers", text: "Five, in a quincunx; the middle one is 65 metres high" }
+    - { label: "In the game", text: "The moat and the causeway, the western gopura and the temple's three levels with their galleries and towers" }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."

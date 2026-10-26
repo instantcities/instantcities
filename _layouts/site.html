@@ -1,0 +1,92 @@
+{%- comment -%} A site's page (/sites/<id>/): its block in _data/sites.yml, named by the page's `site`. English only, like the art page. The game is at /<id>/play/. {%- endcomment -%}
+{%- include lang.html -%}
+{%- assign S = site.data.sites | where: 'id', page.site | first -%}
+<!doctype html>
+<html lang="en">
+<head>
+{%- assign title = S.title -%}{%- assign description = S.description -%}
+{%- assign path = '/sites/' | append: S.id | append: '/' -%}
+{%- assign image = '/assets/img/sites/' | append: S.id | append: '.jpg' -%}
+{% include head.html %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": {{ S.game | jsonify }},
+      "url": "{{ site.url }}/{{ S.id }}/play/",
+      "description": {{ S.description | jsonify }},
+      "genre": ["Racing", "Open world"],
+      "gamePlatform": "Web browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "contentLocation": { "@type": "Place", "name": {{ S.name | jsonify }} },
+      "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="hero home-hero page-hero photo-hero site-hero" style="--photo: url('/assets/img/sites/{{ S.id }}.jpg')">
+      <div class="hero-text">
+        <p class="crumbs"><a href="{{ T.urls.home }}">Home</a> › <a href="/sites/">Sites</a></p>
+        <h1>{{ S.game }} <span class="beta">BETA</span></h1>
+        <p class="tagline">{{ S.tagline }}</p>
+        <p class="lead">{{ S.lead }}</p>
+        <p class="hero-btns">
+          <a class="play" href="/{{ S.id }}/play/">{% include icon.html name="play" %} {{ T.play_now }}</a>
+          <a class="watch" href="/{{ S.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
+        </p>
+        <p class="note">{{ T.play_note }}</p>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What you can do</h2>
+      <div class="grid">
+        {%- for f in S.features %}
+        <article class="card">
+          <div class="icon">{% include icon.html name=f.icon %}</div>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <section id="facts" class="site-facts">
+      <h2>About {{ S.name }}</h2>
+      <dl>
+        {%- for f in S.facts %}
+        <div><dt>{{ f.label }}</dt><dd>{{ f.text }}</dd></div>
+        {%- endfor %}
+      </dl>
+    </section>
+
+    <section class="cta">
+      <h2>{{ T.cta_title }}</h2>
+      <a class="play" href="/{{ S.id }}/play/">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', S.game }}</a>
+      <p class="note">{{ T.beta }}</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt">Other sites
+      {%- for o in site.data.sites %}{% if o.id != S.id %}
+      <a href="/sites/{{ o.id }}/">{{ o.name }}</a>
+      {%- endif %}{% endfor %}
+      <a href="/sites/">All sites</a>
+    </p>
+    <p>{{ S.credits }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+</body>
+</html>

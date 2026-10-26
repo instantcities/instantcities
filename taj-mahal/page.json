@@ -1,0 +1,12 @@
+{
+  "id": "taj-mahal",
+  "name": "Instant Taj Mahal",
+  "title": "Instant Taj Mahal: a free virtual 3D tour and game of the Taj Mahal",
+  "description": "Take a free virtual 3D tour of the Taj Mahal and its gardens in your browser, then walk, cycle or ride through them yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Taj Mahal: a virtual 3D tour of the Taj Mahal",
+  "share_description": "Walk, cycle or ride through the gardens of the Taj Mahal in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set at the Taj Mahal in Agra, India: explore the gardens or race along the canals by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Walk, cycle or ride through a 3D Taj Mahal in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Taj Mahal",
+  "style": ":root { --paper: #fbf6ee; --accent: #b4523a; --accent-soft: #f3dcd2; --gold: #d9a72e; --sky: #f4e4cf; --skyline: #e2c3a6; --glass: rgba(251, 246, 238, 0.72); } .tag { color: #7e3524; }"
+}

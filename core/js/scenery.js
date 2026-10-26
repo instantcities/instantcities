@@ -15,7 +15,7 @@ import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
 export { drawAgain } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, LOOKS, BOATS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -2199,6 +2199,7 @@ const BIKE_COLORS = [0x1d1a17, 0x37474f, 0xc62828, 0x1565c0, 0x2e7d32, 0xf5f5f5,
 const LONG_TAIL_COLORS = [0x9fd3ef, 0xb9bdc0, 0x2b2f33, 0x6f8f6a, 0xe9e6df, 0x2f4f6f];
 const LONG_TAILS = 1 / 12;
 function osmBikes(ctx, map) {
+  if (PARKED_BIKES === false) return; // a city (or a site) that has none: city.js says PARKED_BIKES = false
   const { r, track } = ctx;
   const bikes = [];
   const run = (along, at) => {
