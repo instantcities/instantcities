@@ -57,7 +57,7 @@ comes into sight. `core/js/arcade.js` has the parts that come back in landmark a
   brackets, and `stand` for a ruin (storeys gone, or broken off through their arches).
 - `square`, `polygon`: the sides of a tower (square, or an octagon) as paths, each with its outside
   to its right, `archRing` and `pointedRing`: a round or a Gothic arch's opening, to cut through a
-  wall or to lay on it as a panel.
+  wall or to lay on it as a panel, `gable`: a pitched roof over a rectangle.
 - `onMap` and `rect`: a ring in the model's own metres placed on the map at the monument's x, z and
   turn, for its `area`, `foot` and `paths`.
 
@@ -113,6 +113,15 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Palais du Louvre and the Arc du Carrousel | `paris/louvre.js` | ride into the Cour Carrée and through the Guichets |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Florence | Loggia del Mercato Nuovo | `florence/mercato-nuovo.js` | ride in between its piers and columns |
+| Prague | the Týn church's towers | `prague/tyn.js` | bump into them (the nave stays the map's) |
+| Prague | the Old Town Hall's tower and the Orloj | `prague/orloj.js` | bump into it |
+| Prague | the Old Town Bridge Tower | `prague/mostecka-vez.js` | go through it along the Charles Bridge |
+| Berlin | Fernsehturm | `berlin/fernsehturm.js` | bump into its foot |
+| Amsterdam | Westertoren | `amsterdam/westertoren.js` | bump into it (the church stays the map's) |
+| Antwerp | Brabofontein | `antwerp/brabo.js` | bump into its basin |
+| Madrid | El Oso y el Madroño, Felipe III | `madrid/oso.js`, `madrid/felipe.js` | bump into their pedestals |
+| Vienna | Pestsäule | `vienna/pestsaeule.js` | bump into its steps |
 | Brussels | Hôtel de Ville and its tower | `brussels/hotel-de-ville.js` | bump into it |
 | Brussels | the Grand-Place's guild houses, the Maison du Roi, the Ducs de Brabant | `brussels/grand-place.js` | ride round the square |
 | Brussels | Bourse, the cathedral's west front, Galeries Saint-Hubert, Manneken Pis | `brussels/monuments.js` | ride through the galleries |
@@ -150,8 +159,11 @@ In Rome:
   shapes; with photos at hand they deserve better ones.
 - The fountains' water is the map's sunk pool, and the Fontana dei Quattro Fiumi's grotto is a
   heap of rocks round an opening rather than a carved cliff.
+
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+The Old Town Hall's tower in Prague had only its top in the map, floating; the Old Town Bridge
+Tower was solid though the bridge goes through it.
 
 London's two Gothic buildings, the Houses of Parliament and Westminster Abbey, share
 `london/gothic.js`: a range of walls with rows of pointed windows between buttresses that rise as
@@ -171,10 +183,15 @@ Open there:
   of its own) would let them stand at their real height of some 10 m.
 - The Palazzo Vecchio's wings behind Arnolfo's block and the deep parts of the Uffizi's outline get
   flat roofs of tiles; their real roofs are hipped, wing by wing.
-- The Loggia del Mercato Nuovo behind the Porcellino is still the map's closed block; it is an open
-  loggia of twenty columns.
+- The Loggia del Mercato Nuovo behind the Porcellino (`florence/mercato-nuovo.js`) is open now, but
+  with three bays by four and six free columns inside, fewer than its real twenty columns.
 
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
-the Arena of Verona, the Roman theatre of Lecce, the Pont Saint-Bénezet in Avignon (its arches
-broken off in the Rhône, but the map has a footway along it at the water's level: the deck would
-have to be lifted with it, a map fix of its own).
+the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het Steen in Antwerp
+(one outline of 57 points, round towers and all), the Koninklijk Paleis and Antwerp's cathedral tower
+(both already stacked in the map from many parts, so less to gain). Waiting on a map fix:
+- the Pont Saint-Bénezet in Avignon: the map has a footway along it at the water's level, so its deck
+  would have to be lifted with it.
+- the Ponte dei Sospiri in Venice: the map has the Palazzo Ducale and the prisons touching, with the
+  Rio di Palazzo under them, so there is no gap for the bridge to cross.
+- Børsen in Copenhagen is not in the map at all.
