@@ -7,7 +7,7 @@ import * as THREE from 'three';
 import { linePath, wall, archRing, column } from '../core/js/arcade.js';
 import { panel } from '../florence/marble.js';
 
-export const MARBLE = '#ebe5d6', GREY = '#9d998f', LEAD = '#8f9391', DARK = '#3c3a36', BRONZE = '#6a5a3a';
+export const MARBLE = '#f6f3ec', GREY = '#bcb8ae', LEAD = '#8f9391', DARK = '#3c3a36', BRONZE = '#6a5a3a';
 
 // the stretch of a straight path from s0 to s1, as a path of its own
 export function sub(path, s0, s1) {
