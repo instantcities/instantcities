@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // The famous paintings, statues and treasures in the buildings you can go into, on the site: the
 // page of them all at /art/ (art/index.html, _layouts/art.html) and a page for each at /art/<id>/
-// (_layouts/artwork.html), from _data/art.json. Each piece's photo comes from Wikimedia Commons (its
+// (_layouts/artwork.html), from _data/art.json, and the list the game shows them full screen from
+// (core/js/inside/artlist.js). Each piece's photo comes from Wikimedia Commons (its
 // `commons` file): assets/img/art/<id>.jpg (at most 1280 pixels along its longer side, for its page
 // and to hang in the game, core/js/inside/photo.js) and <id>-s.jpg (at most 480, for the cards), its
 // author, licence and source kept in _data/art_photos.json for the credit line.
@@ -65,21 +66,48 @@ function pages() {
   for (const old of fs.readdirSync(PAGES)) {
     if (old !== 'index.html' && !ids.has(old)) fs.rmSync(path.join(PAGES, old), { recursive: true });
   }
+  artList();
   const missing = pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))).map(a => a.id);
   console.error(`${pieces.length} pieces in ${museums.length} buildings and squares${missing.length ? `; no photo yet: ${missing.join(', ')} (node tools/art.mjs photos)` : ''}`);
 }
 
+// What the game needs of them (core/js/inside/artlist.js): the pieces in the buildings, where they
+// hang, and whether they have a photo yet, to show it full screen when you stand before one
+// (game/artview.js); the museums' pages on the site, for the Read more of the cards in their rooms.
+function artList() {
+  const list = pieces.filter(a => a.view)
+    .map(({ id, title, artist, date, museum, room, view }) => ({ id, title, artist, date, museum, room, view, photo: fs.existsSync(path.join(IMG, id + '.jpg')) }));
+  const pages = Object.fromEntries(museums.filter(m => m.landmark).map(m => [m.id, `/${m.city}/landmark/${m.landmark}/`]));
+  fs.writeFileSync(path.join(ROOT, 'core', 'js', 'inside', 'artlist.js'), '// Made by tools/art.mjs from _data/art.json: the famous pieces in the buildings (photo: whether its\n'
+    + '// photo is in, to show full screen: game/artview.js) and the museums\' pages on the site. view: [x, z,\n// tx, tz], where you stand and what you look at, in its building\'s own metres.\n'
+    + `export const ART = [\n${list.map(a => `  ${JSON.stringify(a)},`).join('\n')}\n];\n`
+    + `export const MUSEUM_PAGES = ${JSON.stringify(pages)};\n`);
+}
+
 // Each piece's photo from Commons, scaled down by Commons and then by sips (macOS) or ImageMagick,
-// and its credit
+// and its credit, written as each one comes in. Commons asks not to be hurried: a pause between
+// pieces, and when it says too many requests, a longer wait and again.
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+async function polite(url, as = 'json') {
+  for (let wait = 5000; ; wait *= 2) {
+    const res = await fetch(url, { headers: HEADERS });
+    const body = as === 'json' ? await res.text() : res;
+    if (res.status !== 429 && !(as === 'json' && /too many requests/i.test(body))) return as === 'json' ? JSON.parse(body) : res;
+    if (wait > 320000) throw new Error(`Commons keeps saying too many requests for ${url}`);
+    console.error(`(Commons asks to slow down: waiting ${wait / 1000} s)`);
+    await sleep(wait);
+  }
+}
 async function photos(list) {
   fs.mkdirSync(IMG, { recursive: true });
   const credits = fs.existsSync(CREDITS) ? JSON.parse(fs.readFileSync(CREDITS, 'utf8')) : {};
   for (const a of list) {
     const q = new URLSearchParams({ action: 'query', format: 'json', titles: `File:${a.commons}`, prop: 'imageinfo', iiprop: 'url|size|extmetadata', iiurlwidth: '1600' });
-    const page = Object.values((await (await fetch(`${COMMONS}?${q}`, { headers: HEADERS })).json()).query.pages)[0];
+    if (a !== list[0]) await sleep(4000);
+    const page = Object.values((await polite(`${COMMONS}?${q}`)).query.pages)[0];
     const info = page.imageinfo?.[0];
     if (!info) { console.error(`${a.id}: no file ${a.commons} on Commons`); continue; }
-    const res = await fetch(info.thumburl ?? info.url, { headers: HEADERS });
+    const res = await polite(info.thumburl ?? info.url, 'raw');
     if (!res.ok) { console.error(`${a.id}: ${res.status} for ${info.thumburl}`); continue; }
     const src = path.join(IMG, `${a.id}-orig`);
     fs.writeFileSync(src, Buffer.from(await res.arrayBuffer()));
@@ -95,7 +123,13 @@ async function photos(list) {
       source: info.descriptionurl,
     };
     console.error(`${a.id}: ${info.width}×${info.height}, ${credits[a.id].license}, ${credits[a.id].author}`);
+    saveCredits(credits);
   }
+  saveCredits(credits);
+  artList();
+}
+
+function saveCredits(credits) {
   const sorted = Object.fromEntries(Object.entries(credits).filter(([id]) => ids.has(id)).sort(([x], [y]) => x.localeCompare(y)));
   fs.writeFileSync(CREDITS, JSON.stringify(sorted, null, 2) + '\n');
 }

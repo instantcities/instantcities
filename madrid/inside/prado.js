@@ -6,8 +6,8 @@
 // Game metres, x across and z along; the door out at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
-import { lasMeninas, saturn, gardenOfDelights, oldMaster, masterSize } from '../../core/js/inside/art.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
+import { lasMeninas, saturn, gardenOfDelights, oldMaster, masterSize, famous } from '../../core/js/inside/art.js';
 import { roman } from '../../core/js/inside/statues.js';
 import { plinth } from '../../core/js/inside/rooms.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -43,6 +43,7 @@ export function makePrado() {
     let seed = 900;
     for (const [x, ry, doors] of [[C.x0 + 0.47, Math.PI / 2, [40]], [C.x1 - 0.47, -Math.PI / 2, [20, 60]]]) for (let z = C.z0 + 4; z < C.z1 - 3; z += 6) {
       if (doors.some(d => Math.abs(z - d) < 4)) continue;
+      if (x < 0 && Math.abs(z - 22.9) < 0.1) { framed(p, famous('the-nobleman-with-his-hand-on-his-chest', 1.3, 1.6), 1.3, 1.6, x, 3.0, z, ry, { f: 0.2 }); continue; } // El Greco's nobleman
       const sd = seed++, [w, h] = masterSize(sd);
       framed(p, oldMaster(sd), w * 1.3, h * 1.3, x, 3.8, z, ry);
     }
@@ -66,7 +67,8 @@ export function makePrado() {
     hall(p, { ...G, color: DARK, doors: { w: [[20 - G.z0, 4, 6]] } });
     p.ceiling(G.x0, G.z0, G.x1, G.z1, G.h, { color: 0x3a3634, beam: 0x2a2624, bx: 6, bz: 6, w: 0.3, rosettes: false });
     framed(p, saturn(), 1.46 * 1.25, 0.83 * 1.25 * 520 / 320 * 1.1, G.x1 - 0.47, 2.8, 20, -Math.PI / 2, { f: 0.12, color: 0x3a2a1a });
-    for (const [x, z, ry] of [[(G.x0 + G.x1) / 2 - 4, G.z0 + 0.47, 0], [(G.x0 + G.x1) / 2 + 4, G.z0 + 0.47, 0], [(G.x0 + G.x1) / 2, G.z1 - 0.47, Math.PI]]) framed(p, oldMaster(912 + Math.round(x)), 3.4, 1.8, x, 2.8, z, ry, { f: 0.12, color: 0x3a2a1a });
+    framed(p, famous('the-third-of-may-1808', 5.0, 3.86), 5.0, 3.86, (G.x0 + G.x1) / 2, 3.0, G.z1 - 0.47, Math.PI, { f: 0.2, color: 0x3a2a1a }); // his Third of May across from the door
+    for (const [x, z, ry] of [[(G.x0 + G.x1) / 2 - 4, G.z0 + 0.47, 0], [(G.x0 + G.x1) / 2 + 4, G.z0 + 0.47, 0]]) framed(p, oldMaster(912 + Math.round(x)), 3.4, 1.8, x, 2.8, z, ry, { f: 0.12, color: 0x3a2a1a });
     p.daylight.box(2, 0.1, 2, 0xd8d0c0, G.x1 - 3, G.h - 0.1, 20);
     g.add(crowd(G.x1, 20, 5, 3, 5, -Math.PI * 0.8, -Math.PI * 0.2, 107));
   }
@@ -81,8 +83,12 @@ export function makePrado() {
     framed(p, gardenOfDelights(), 9.2, 2.75 * 1.25 * 1.3, cx, 3.2, 62.1, Math.PI, { f: 0.15, color: 0x6a4a2a, label: false });
     p.block(cx, 62, 4.9, 0.7);
     rope(p, [cx - 5, 59.4], [cx + 5, 59.4]);
+    // the Flemish round it: Bruegel's Triumph of Death, Van der Weyden's Descent from the Cross
+    framed(p, famous('the-triumph-of-death', 3.0, 2.17), 3.0, 2.17, cx, 3.0, B.z0 + 0.47, 0, { f: 0.25 });
+    framed(p, famous('the-descent-from-the-cross', 3.4, 2.66), 3.4, 2.66, B.x1 - 0.47, 3.2, 60, -Math.PI / 2, { f: 0.3 });
     g.add(crowd(cx, 62, 9, 3.4, 6.5, Math.PI * 0.6, Math.PI * 1.4, 109));
   }
+  g.add(wanderers(p, 29));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: ENTRY.z0 + 1.6 } };
 }

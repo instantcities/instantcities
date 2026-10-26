@@ -9,12 +9,14 @@ import { finalOrder } from './race.js';
 import { jump } from './physics.js';
 import { useItem } from './pickups.js';
 import { pads, keys, touch } from './input.js';
+import { artOpen } from './artview.js';
 
 export const held = list => list.some(k => keys.has(k));
 
 export function humanControl(r) {
   const played = r.human === 0 && demo?.control(r); // the demo plays player 1
   if (played) return played;
+  if (artOpen() && r.human === 0) return { throttle: 0, steer: 0, lift: 0 }; // looking at a painting full screen
   const k = ctl(r.human);
   let throttle = (held(k.up) ? 1 : 0) - (held(k.down) ? 1 : 0);
   let steer = (held(k.left) ? 1 : 0) - (held(k.right) ? 1 : 0);
