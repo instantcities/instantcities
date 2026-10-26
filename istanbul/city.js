@@ -13,17 +13,28 @@
 //                    `node tools/osm_map.mjs istanbul`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs istanbul`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs istanbul`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. The mosques
-// are the map's blocks, without their domes and minarets.
+//   mosque.js        the parts the mosques share: domes on drums, half-domes, minarets, courtyards
+//   ayasofya.js      the Ayasofya, modelled by hand in place of the map's parts of it
+//   sultanahmet.js   the Sultanahmet Camii (the Blue Mosque) and its courtyard, the same
+//   yeni-cami.js     the Yeni Cami at Eminönü, in place of the map's block of it
+//   hipodrom.js      the Egyptian Obelisk, the Serpent Column and the Walled Obelisk on the Hippodrome
+//   cemberlitas.js   the Column of Constantine on the Divan Yolu, in place of the map's tower of it
+// No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { AYASOFYA } from './ayasofya.js';
+import { SULTANAHMET } from './sultanahmet.js';
+import { YENI_CAMI } from './yeni-cami.js';
+import { HIPODROM } from './hipodrom.js';
+import { CEMBERLITAS } from './cemberlitas.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...AYASOFYA, ...SULTANAHMET, ...YENI_CAMI, ...HIPODROM, ...CEMBERLITAS];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
