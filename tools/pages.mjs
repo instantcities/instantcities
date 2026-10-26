@@ -32,10 +32,11 @@ const fill = (html, page, file) => html
     return typeof page[k] === 'string' ? page[k] : JSON.stringify(page[k]);
   });
 
-// every city with a game, in the site's order (_data/cities.yml): the menu's city picker, {{city_links}}
-const playable = [...fs.readFileSync(path.join(ROOT, '_data', 'cities.yml'), 'utf8').matchAll(/^- id: (\S+)\n {2}name: (.+)$/gm)]
-  .map(([, id, name]) => ({ id, name: name.replace(/^["']|["']$/g, '') }))
-  .filter(c => fs.existsSync(path.join(ROOT, c.id, 'page.json')));
+// every city with a game, in the site's order (_data/cities.yml), then the sites (_data/sites.yml):
+// the menu's city picker, {{city_links}}
+const listed = file => [...fs.readFileSync(path.join(ROOT, '_data', file), 'utf8').matchAll(/^- id: (\S+)\n {2}name: (.+)$/gm)]
+  .map(([, id, name]) => ({ id, name: name.replace(/^["']|["']$/g, '') }));
+const playable = [...listed('cities.yml'), ...listed('sites.yml')].filter(c => fs.existsSync(path.join(ROOT, c.id, 'page.json')));
 const cityLinks = id => playable.map(c => `<a class="chip${c.id === id ? ' on' : ''}" role="option" href="../../${c.id}/play/">${c.name}</a>`).join('');
 
 for (const id of cities) {

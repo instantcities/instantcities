@@ -16,6 +16,7 @@ urls:
 # The bar on top (_includes/topnav.html) and the footers
 nav_home: Home
 nav_cities: Cities
+nav_sites: Sites
 nav_art: Art
 nav_about: About
 menu: Menu

@@ -28,6 +28,34 @@ if (!id || id.startsWith('-')) {
   console.error(`usage: node tools/osm_map.mjs <city> [--fetch]   (cities: ${fs.readdirSync(path.join(HERE, '..')).filter(d => fs.existsSync(path.join(HERE, '..', d, 'area.json'))).join(', ')})`);
   process.exit(1);
 }
+// An area's own streets: `streets` in area.json, for places where OpenStreetMap has no streets to
+// race along that join up (the paths of a garden, say). Each is { name, highway?, surface?, points: [[x, z]] },
+// in metres east and south of `origin` ([lat, lon]); streets that share a point meet there.
+function addStreets(data, area) {
+  if (!area.streets?.length) return;
+  const [lat0, lon0] = area.origin;
+  const kx = 111320 * Math.cos((lat0 * Math.PI) / 180), kz = 110540;
+  const at = new Map();
+  let next = -1;
+  const node = ([x, z]) => {
+    const key = x + ',' + z;
+    if (!at.has(key)) {
+      at.set(key, String(next--));
+      data.nodes[at.get(key)] = { lat: lat0 - z / kz, lon: lon0 + x / kx };
+    }
+    return at.get(key);
+  };
+  // in steps of at most 20 m, as the builder looks a street's surface and height up by the pieces it is made of
+  const steps = pts => pts.flatMap((a, k) => {
+    if (!k) return [a];
+    const b = pts[k - 1], n = Math.max(1, Math.ceil(Math.hypot(a[0] - b[0], a[1] - b[1]) / 20));
+    return Array.from({ length: n }, (_, j) => [b[0] + ((a[0] - b[0]) * (j + 1)) / n, b[1] + ((a[1] - b[1]) * (j + 1)) / n]);
+  });
+  for (const [i, st] of area.streets.entries()) {
+    data.ways.push({ id: -1000 - i, nodes: steps(st.points).map(node), tags: { highway: st.highway ?? 'pedestrian', surface: st.surface ?? 'paving_stones', name: st.name } });
+  }
+}
+
 const dir = path.join(HERE, '..', id);
 const areaFile = path.join(dir, 'area.json');
 const area = JSON.parse(fs.readFileSync(areaFile, 'utf8'));
@@ -48,7 +76,29 @@ try {
   if (area.heights === 'dhmv') {
     area.surface = await surface(area.bbox, path.join(HERE, 'cache', id + '-dhmv.bin'), (i, n) => console.error(`heights: tile ${i}/${n}`));
   }
-  const { map, info } = buildMap(JSON.parse(fs.readFileSync(cache, 'utf8')), area);
+  const data = JSON.parse(fs.readFileSync(cache, 'utf8'));
+  addStreets(data, area);
+  // ways to leave out, by OpenStreetMap id (a park drawn over the moat, say)
+  if (area.drop?.length) data.ways = data.ways.filter(w => !area.drop.includes(w.id));
+  // ruins drawn as sites, not buildings (Pompeii's houses are historic=archaeological_site): the closed
+  // ones up to `max` metres across become buildings, but not the open squares, gardens and palaestrae
+  if (area.ruins_as_buildings) {
+    const { max = 100, skip = '^(Foro|Palestra|Giardino|Orto|Area|Piazza)' } = area.ruins_as_buildings, kx = 111320 * Math.cos((area.origin?.[0] ?? area.bbox[0]) * Math.PI / 180);
+    for (const w of data.ways) {
+      const t = w.tags;
+      if (!t || t.building || !['archaeological_site', 'ruins'].includes(t.historic) || w.nodes[0] !== w.nodes.at(-1) || t.highway || t.leisure || t.tourism === 'picnic_site') continue;
+      if (t.name && new RegExp(skip, 'i').test(t.name)) continue;
+      const p = w.nodes.map(i => data.nodes[i]).filter(Boolean);
+      if (p.length < 4) continue;
+      const lat = p.map(q => q.lat), lon = p.map(q => q.lon);
+      if (Math.max((Math.max(...lat) - Math.min(...lat)) * 110540, (Math.max(...lon) - Math.min(...lon)) * kx) <= max) t.building = 'yes';
+    }
+  }
+  // a surface for the streets that have none tagged or only a plain one ('sett': basalt blocks, for Pompeii)
+  if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
+  // only the buildings that are something: named, a part of one, historic or a place of worship
+  if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
+  const { map, info } = buildMap(data, area);
   for (const rt of info.routes) {
     console.error(`route ${rt.id}: ${rt.length.toFixed(0)} m, one-way stretches:`, rt.oneway.map(([a, b]) => `${a.toFixed(2)}-${b.toFixed(2)}`).join(', ') || 'none');
   }
