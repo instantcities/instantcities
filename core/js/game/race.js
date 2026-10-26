@@ -227,7 +227,8 @@ export function toMenu() {
   menuEl.classList.remove('hidden');
   showRaceChrome(false);
   menuLook.set(racers[0].pos.x, 1.5, racers[0].pos.z);
-  music.play('menu');
+  // music.play('menu'); // no menu music for now
+  music.stop(); // (the race or tour music stops on the way back to the menu)
   sfx.duck(false);
   renderMenu();
   showAudioBadge();

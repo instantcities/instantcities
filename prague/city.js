@@ -16,6 +16,10 @@
 //   tyn.js           the towers of the Týn church, modelled by hand in place of the map's pieces of them
 //   orloj.js         the Old Town Hall's tower and the Orloj, modelled by hand in place of the map's pieces of them
 //   mostecka-vez.js  the Old Town Bridge Tower, modelled by hand in place of the map's pieces of it
+//   klementinum.js   the Klementinum's Astronomical Tower, modelled by hand in place of the map's pieces of it
+//   rudolfinum.js    the Rudolfinum, modelled by hand in place of the map's block and parts of it
+//   staronova.js     the Old-New Synagogue, modelled by hand in place of the map's block of it
+//   outline.js       the parts the Rudolfinum and the synagogue share: map outlines, blocks and roofs on them
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -28,9 +32,12 @@ import { PRASNA_BRANA } from './prasna-brana.js';
 import { TYN } from './tyn.js';
 import { ORLOJ } from './orloj.js';
 import { MOSTECKA_VEZ } from './mostecka-vez.js';
+import { KLEMENTINUM } from './klementinum.js';
+import { RUDOLFINUM } from './rudolfinum.js';
+import { STARONOVA } from './staronova.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const MONUMENTS = [...PRASNA_BRANA, ...TYN, ...ORLOJ, ...MOSTECKA_VEZ];
+export const MONUMENTS = [...PRASNA_BRANA, ...TYN, ...ORLOJ, ...MOSTECKA_VEZ, ...KLEMENTINUM, ...RUDOLFINUM, ...STARONOVA];
 export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
