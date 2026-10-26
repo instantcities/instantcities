@@ -1,8 +1,8 @@
-# 🏙️ Instant Cities
+# Instant Cities
 
 A browser game set in 3D models of old city centres, built from OpenStreetMap data.
 
-👉 **[Play at instantcities.net](https://instantcities.net)**
+Play it at [instantcities.net](https://instantcities.net).
 
 > Beta: expect rough edges, and saved settings may reset between versions.
 
@@ -10,13 +10,13 @@ A browser game set in 3D models of old city centres, built from OpenStreetMap da
 
 You move through real streets and buildings. One player, or two on the same keyboard with a split screen.
 
-- 🌍 **27 cities.** Ghent and Lecce in full; a first piece of Rome, Paris, Amsterdam, Venice,
+- 27 cities. Ghent and Lecce in full; a first piece of Rome, Paris, Amsterdam, Venice,
   Barcelona, London, Bruges, Antwerp, Brussels, Florence, Prague, Vienna, Copenhagen, Berlin and more.
-- 🏁 **Race** along the streets, pick up items (bunnies, hedgehogs, rain clouds) and watch out for roadworks.
-- 🧭 **Roam freely**, take a **guided tour**, or play short **quests** against the clock.
-- 🏛️ **Go inside** famous buildings like the Louvre, Sint-Baafs and the Sistine Chapel.
-- 🐴 **Ride** a bike, a horse, a cow, a tiger, a pig or a unicorn, or just walk.
-- 📱 Works on phones and tablets too (landscape is best).
+- **Race** along the streets, pick up items (bunnies, hedgehogs, rain clouds) and watch out for roadworks.
+- **Roam freely**, take a **guided tour**, or play short **quests** against the clock.
+- **Go inside** famous buildings like the Louvre, Sint-Baafs and the Sistine Chapel.
+- **Ride** a bike, a horse, a cow, a tiger, a pig or a unicorn, or just walk.
+- Works on phones and tablets too (landscape is best).
 
 Available in English and Dutch.
 
