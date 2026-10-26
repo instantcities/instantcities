@@ -5,7 +5,7 @@
 // Game metres, x across and z along; the door out at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { nightWatch, oldMaster, masterSize } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
@@ -61,6 +61,7 @@ export function makeRijksmuseum() {
     bench(p, 0, 80, 5, 0);
     g.add(crowd(0, W.z1, 18, 4.6, 9, Math.PI * 0.62, Math.PI * 1.38, 97));
   }
+  g.add(wanderers(p, 11));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: ATRIUM.z0 + 1.6 } };
 }

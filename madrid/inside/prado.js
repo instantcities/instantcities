@@ -6,7 +6,7 @@
 // Game metres, x across and z along; the door out at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { lasMeninas, saturn, gardenOfDelights, oldMaster, masterSize } from '../../core/js/inside/art.js';
 import { roman } from '../../core/js/inside/statues.js';
 import { plinth } from '../../core/js/inside/rooms.js';
@@ -83,6 +83,7 @@ export function makePrado() {
     rope(p, [cx - 5, 59.4], [cx + 5, 59.4]);
     g.add(crowd(cx, 62, 9, 3.4, 6.5, Math.PI * 0.6, Math.PI * 1.4, 109));
   }
+  g.add(wanderers(p, 29));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: ENTRY.z0 + 1.6 } };
 }

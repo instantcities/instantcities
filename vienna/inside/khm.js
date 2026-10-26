@@ -6,7 +6,7 @@
 // Game metres, x across and z along; the door out (to Maria-Theresien-Platz) at -z.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, bench, plinth, rope, visitors, crowd, roundWall, patternFloor } from '../../core/js/inside/rooms.js';
+import { hall, skylight, framed, bench, plinth, rope, visitors, crowd, roundWall, patternFloor, wanderers } from '../../core/js/inside/rooms.js';
 import { towerOfBabel, huntersInSnow, peasantWedding, oldMaster, masterSize, pantheonFloor } from '../../core/js/inside/art.js';
 import { roman } from '../../core/js/inside/statues.js';
 import { chandelier } from '../../core/js/inside/props.js';
@@ -86,6 +86,7 @@ export function makeKHM() {
     bench(p, (B.x0 + B.x1) / 2, cz, 4, Math.PI / 2);
     g.add(crowd(B.x1, cz, 7, 3.4, 6, -Math.PI * 0.8, -Math.PI * 0.2, 87));
   }
+  g.add(wanderers(p, 41));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: STAIR.z0 + 1.6 } };
 }

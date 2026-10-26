@@ -8,7 +8,7 @@
 // (here at -z), the altar at +z.
 import * as THREE from 'three';
 import { Parts } from '../../core/js/inside/gothic.js';
-import { hall, framed, bench, paintedVault, patternFloor, visitors, rope } from '../../core/js/inside/rooms.js';
+import { hall, framed, bench, paintedVault, patternFloor, visitors, rope, wanderers } from '../../core/js/inside/rooms.js';
 import { sistineCeiling, lastJudgment, chapelFresco, drapery, cosmati, oldMaster } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 import { steps, candelabra } from '../../core/js/inside/props.js';
@@ -80,6 +80,7 @@ export function makeSistina() {
   for (let k = 0; k < 34; k++) spots.push([(rnd() - 0.5) * (2 * X - 5), -Z + 4 + rnd() * (2 * Z - 13), rnd() * Math.PI * 2]);
   g.add(visitors(spots, 77));
 
+  g.add(wanderers(p, 37));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: -Z + 1.6 } };
 }

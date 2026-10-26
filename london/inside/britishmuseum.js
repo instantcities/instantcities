@@ -8,7 +8,7 @@
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, plinth, bench, vitrine, roundWall, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, framed, plinth, bench, vitrine, roundWall, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { rosettaStone, egyptWall, frieze } from '../../core/js/inside/art.js';
 import { roman, ramesses, sarcophagus } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -102,6 +102,7 @@ export function makeBritishMuseum() {
     g.add(visitors([[60, 6, Math.PI], [64, -6, 0], [72, 7, Math.PI], [84, -5, 0.2], [88, 3, 1.6]], 57));
   }
 
+  g.add(wanderers(p, 19));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: COURT.z0 + 1.6 } };
 }

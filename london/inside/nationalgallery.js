@@ -6,7 +6,7 @@
 // Game metres, x across and z along; the door out (to Trafalgar Square) in the hall's south wall.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { sunflowers, hayWain, arnolfini, temeraire, oldMaster, masterSize } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
@@ -101,6 +101,7 @@ export function makeNationalGallery() {
     bench(p, 0, 50, 4, 0);
     g.add(crowd(0, I.z1, 10, 3.8, 7.5, Math.PI * 0.65, Math.PI * 1.35, 83));
   }
+  g.add(wanderers(p, 23));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: HALL.z0 + 1.6 } };
 }

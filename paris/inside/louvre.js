@@ -9,7 +9,7 @@
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, hang, plinth, bench, rope, vitrine, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, barrel, framed, hang, plinth, bench, rope, vitrine, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { monaLisa, weddingAtCana, raftOfMedusa, libertyLeading, oldMaster, masterSize } from '../../core/js/inside/art.js';
 import { venusDeMilo, victory, roman, bust } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -137,6 +137,7 @@ export function makeLouvre() {
     g.add(visitors([[10, 178, Math.PI], [7, 179, Math.PI + 0.2], [26, 174, 0.3]], 71));
   }
 
+  g.add(wanderers(p, 31));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: HALL.z0 + 1.6 } };
 }
