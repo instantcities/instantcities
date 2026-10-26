@@ -1,0 +1,55 @@
+{
+  "city": "Bruxelles",
+  "bbox": [
+    50.84,
+    4.343,
+    50.854,
+    4.364
+  ],
+  "zone_points": [
+    [
+      50.854,
+      4.343
+    ],
+    [
+      50.854,
+      4.364
+    ],
+    [
+      50.84,
+      4.364
+    ],
+    [
+      50.84,
+      4.343
+    ]
+  ],
+  "routes": [
+    {
+      "id": "grandplace",
+      "route": [
+        "Grand-Place - Grote Markt",
+        "Rue au Beurre - Boterstraat",
+        "Rue de Tabora - Taborastraat",
+        "Rue de la Bourse - Beursstraat",
+        "Place de la Bourse - Beursplein",
+        "Rue Auguste Orts - Auguste Ortsstraat",
+        "Rue Van Artevelde - Arteveldestraat",
+        "Rue du Pont de la Carpe - Karperbrug",
+        "Rue Jules Van Praet - Jules Van Praetstraat",
+        "Rue Henri Maus - Henri Mausstraat",
+        "Rue du Midi - Zuidstraat",
+        "Rue des Moineaux - Mussenstraat",
+        "Rue de l'Étuve - Stoofstraat",
+        "Rue du Lombard - Lombardstraat",
+        "Rue de l'Hôpital - Gasthuisstraat",
+        "Place Saint-Jean - Sint-Jansplein",
+        "Rue des Éperonniers - Spoormakersstraat",
+        "Rue du Marché aux Herbes - Grasmarkt",
+        "Rue de la Colline - Heuvelstraat"
+      ]
+    }
+  ],
+  "floors": 5,
+  "hw": 3.6
+}
