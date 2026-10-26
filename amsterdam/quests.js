@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 240,
+    start: [-598, -597], pad: [-598, -597], radius: 16,
+    victims: [[703, -1012, 'IJ'], [856, 512, 'Amstel']], drop: [179, -356, 'Dam'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Westermarkt. Red twee zwemmers en breng ze naar de Dam.',
+        story: 'Alarm! Er raakt een zwemmer in nood in het IJ, vlak voor het Centraal Station, en nóg iemand gaat bijna kopje-onder in de Amstel, bij de Blauwbrug! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Dam, waar de ambulance wacht. Land in de lichtzuil. Je hebt 4 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar het Centraal Station!', '🚁 Naar de Amstel!', '🚁 Naar de Dam, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Westermarkt. Save two swimmers and fly them to the Dam.',
+        story: 'Alarm! A swimmer is in trouble in the IJ, right in front of Centraal Station, and a second one is about to go under in the Amstel, by the Blauwbrug! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Dam, where the ambulance is waiting. Land in the beam of light. You have 4 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To Centraal Station!', '🚁 To the Amstel!', '🚁 To the Dam, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

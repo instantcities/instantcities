@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 240,
+    start: [611, 160], pad: [611, 160], radius: 16,
+    victims: [[1413, -586, 'Berliner Dom'], [-746, -774, 'Reichstag']], drop: [-635, -199, 'Pariser Platz'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Gendarmenmarkt. Red twee zwemmers en breng ze naar de Brandenburger Tor.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de Spree, naast de Berliner Dom, en nóg iemand gaat bijna kopje-onder in de Spree, achter de Rijksdag! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Brandenburger Tor, waar de ambulance wacht. Land in de lichtzuil. Je hebt 4 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar de Berliner Dom!', '🚁 Naar de Rijksdag!', '🚁 Naar de Brandenburger Tor, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Gendarmenmarkt. Save two swimmers and fly them to the Brandenburg Gate.',
+        story: 'Alarm! A swimmer is in trouble in the Spree, beside the Berliner Dom, and a second one is about to go under in the Spree, behind the Reichstag! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Brandenburg Gate, where the ambulance is waiting. Land in the beam of light. You have 4 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Berliner Dom!', '🚁 To the Reichstag!', '🚁 To the Brandenburg Gate, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

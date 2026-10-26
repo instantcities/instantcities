@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-495, -740], pad: [-495, -740], radius: 16,
+    victims: [[549, 711, 'Colom'], [822, 384, 'Moll d\'Espanya']], drop: [48, 213, 'Plaça Reial'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Plaça de Catalunya. Red twee zwemmers en breng ze naar de Plaça Reial.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de haven, aan de voet van het Columbusmonument, en nóg iemand gaat bijna kopje-onder in de Port Vell, bij de Moll d’Espanya! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Plaça Reial, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar het Columbusmonument!', '🚁 Naar de Moll d’Espanya!', '🚁 Naar de Plaça Reial, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at Plaça de Catalunya. Save two swimmers and fly them to the Plaça Reial.',
+        story: 'Alarm! A swimmer is in trouble in the harbour at the foot of the Columbus Monument, and a second one is about to go under in the Port Vell, by the Moll d’Espanya! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Plaça Reial, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Columbus Monument!', '🚁 To the Moll d’Espanya!', '🚁 To the Plaça Reial, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];
