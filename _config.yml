@@ -13,6 +13,7 @@ exclude:
   - core/facade-lab.html
   - core/places.html
   - tools
+  - app # the iOS app (app/README.md), not a page of the site
   - docs
   - README.md
   - serve.py
