@@ -30,6 +30,7 @@ import { STONES } from './stones.js';
 
 export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...VESUVIUS];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
+export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the streets
 export { SIGHTS } from './sights.js';
 export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
@@ -55,7 +56,8 @@ export const THEME = { ground: '#b8a27a', paving: '#9b9484', verge: 0x9b9484, ke
 export const LOOK = {
   walls: [
     ['#c55a36', false], ['#d9a85a', false], ['#e8d8b0', false], ['#d98e6a', false], ['#e0c070', false],
-    ['#b8643e', false], ['#ecdcb8', false], ['#cf9a60', false],
+    ['#b8643e', false], ['#ecdcb8', false], ['#cf9a60', false], ['#c9824f', false], ['#d8c090', false],
+    ['#bf6b45', false], ['#e2cf9e', false],
   ],
   bigWalls: ['#dccaa0', '#d4b98a', '#c9a678', '#e0cfa8'],
   roofs: [0xb4623c, 0xa5563a, 0xc0704a],
@@ -66,6 +68,7 @@ export const LOOK = {
   spires: false,
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
+  grass: '#a69a5c', // the open ground is dry grass
 };
 
 // Places named on the big map when riding about freely: click a name to teleport there.

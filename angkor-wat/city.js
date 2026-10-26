@@ -23,6 +23,7 @@ import { AVENUE } from './avenue.js';
 
 export const MONUMENTS = [...TEMPLE, ...CAUSEWAY, ...AVENUE];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
+export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the walks
 export { SIGHTS } from './sights.js';
 export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];

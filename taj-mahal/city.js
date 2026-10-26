@@ -27,6 +27,7 @@ import { FORECOURT } from './forecourt.js';
 
 export const MONUMENTS = [...TAJ, ...MOSQUES, ...GATE, ...GARDEN, ...FORECOURT];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
+export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the walks
 export const MAP_TREES = 'poplar'; // the garden's trees are cypresses
 export { SIGHTS } from './sights.js';

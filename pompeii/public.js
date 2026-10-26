@@ -40,8 +40,8 @@ function ruin(kit, pts, h, t, seed) {
     const [x2, z2] = pts[(i + 1) % pts.length], path = linePath(x, z, x2, z2), L = path.length;
     if (L < 1.5) return;
     const top = [];
-    for (let s = L; s > 0; s -= 3 + 3 * r()) top.push([s, h * (0.5 + 0.5 * r()) + (r() < 0.12 ? -h * 0.5 : 0)]);
-    top.push([0, h * (0.5 + 0.5 * r())]);
+    for (let s = L; s > 0; s -= 5 + 6 * r()) top.push([s, h * (0.72 + 0.28 * r()) - (r() < 0.1 ? h * 0.35 : 0)]);
+    top.push([0, h * (0.72 + 0.28 * r())]);
     wall(kit, path, [[0, 0], [L, 0], ...top.map(([s, y]) => [s, Math.max(0.6, y)])], { o0: -t, o1: 0, hex: BRICK[Math.floor(r() * BRICK.length)] });
   });
 }
