@@ -25,5 +25,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css?v={{ site.time | date: '%s' }}">
-  <!-- Google Analytics, after the visitor says yes to cookies (only on the real site) -->
-  <script src="/assets/consent.js" defer></script>
+  <!-- Google Analytics (gtag.js), only on the real site: not on localhost or the Netlify previews -->
+  <script>
+    if (location.hostname === 'instantcities.net') {
+      const ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-GPP2SZPD0E';
+      document.head.append(ga);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-GPP2SZPD0E');
+    }
+  </script>
