@@ -56,10 +56,10 @@ export const NAME = { nl: 'Parijs', en: 'Paris', fr: 'Paris', es: 'París' };
 
 // The game's name and tagline here, in place of Ghent's (js/i18n.js).
 export const WORDS = {
-  nl: { title: 'Instant Paris', tag: 'Exploreer of race te fiets, te voet of te paard langs de Seine!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, langs Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf en Châtelet. Leun achterover en geniet!' },
-  en: { title: 'Instant Paris', tag: 'Explore or race by bike, on foot or on horseback along the Seine!', 'tour.welcomeSub': 'A flight over the roofs of the centre, past Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf and Châtelet. Sit back and enjoy!' },
-  fr: { title: 'Instant Paris', tag: 'Explore ou fais la course à vélo, à pied ou à cheval au bord de la Seine !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, devant Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf et Châtelet. Installe-toi et profite !' },
-  es: { title: 'Instant Paris', tag: '¡Explora o corre en bici, a pie o a caballo junto al Sena!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, junto a Hôtel de Ville, Notre-Dame, Sainte-Chapelle, Pont Neuf y Châtelet. ¡Ponte cómodo y disfruta!' },
+  nl: { title: 'Instant Paris', tag: 'Exploreer of race te fiets, te voet of te paard langs de Seine!', 'tour.welcomeSub': 'Een vlucht over de daken van het centrum, met de Eiffeltoren aan de horizon, langs Pont Neuf, Châtelet, Hôtel de Ville, Notre-Dame en Sainte-Chapelle. Leun achterover en geniet!' },
+  en: { title: 'Instant Paris', tag: 'Explore or race by bike, on foot or on horseback along the Seine!', 'tour.welcomeSub': 'A flight over the roofs of the centre, with the Eiffel Tower on the horizon, past Pont Neuf, Châtelet, Hôtel de Ville, Notre-Dame and Sainte-Chapelle. Sit back and enjoy!' },
+  fr: { title: 'Instant Paris', tag: 'Explore ou fais la course à vélo, à pied ou à cheval au bord de la Seine !', 'tour.welcomeSub': 'Un vol au-dessus des toits du centre, la tour Eiffel à l’horizon, devant Pont Neuf, Châtelet, Hôtel de Ville, Notre-Dame et Sainte-Chapelle. Installe-toi et profite !' },
+  es: { title: 'Instant Paris', tag: '¡Explora o corre en bici, a pie o a caballo junto al Sena!', 'tour.welcomeSub': 'Un vuelo sobre los tejados del centro, con la Torre Eiffel en el horizonte, junto a Pont Neuf, Châtelet, Hôtel de Ville, Notre-Dame y Sainte-Chapelle. ¡Ponte cómodo y disfruta!' },
 };
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
@@ -100,3 +100,8 @@ export const PLACES = [
   { name: 'Centre Pompidou', x: 536, z: -542, side: 'r' },
   { name: 'Tour Eiffel', x: -4746, z: -218, side: 'l' },
 ];
+
+// Where riding about freely starts, game metres: on the quay behind Notre-Dame by the Pont de
+// l'Archevêché, the cathedral close by on the right, looking down the Seine to the Eiffel Tower on
+// the horizon (js/skyline.js).
+export const FREE_START = { at: [505, 667], look: [410, 634] };
