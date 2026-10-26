@@ -28,12 +28,12 @@ if (prod && fs.existsSync(path.join(prod, 'assets'))) {
 }
 
 // A path moves under the base when its first folder is in the preview; under assets/ only when that
-// very file is (the rest stays on production).
+// very file is (the rest stays on production, also a folder that a script adds a file name to).
 const tops = new Set(fs.readdirSync(site));
 const moves = rest => {
   if (rest.startsWith('${')) return true; // `/${city.id}/play/`
   const top = rest.split(/[/?#]/)[0];
-  if (top === 'assets') return fs.existsSync(path.join(site, rest.split(/[?#]/)[0]));
+  if (top === 'assets') return fs.statSync(path.join(site, rest.split(/[?#]/)[0]), { throwIfNoEntry: false })?.isFile() ?? false;
   return tops.has(top);
 };
 let rewritten = 0;
