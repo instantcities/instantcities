@@ -35,6 +35,9 @@ landmarks:
     blurb: Un clocher gothique isolé, seul reste d’une église sur le chemin des pèlerins vers Saint-Jacques-de-Compostelle.
   centre-pompidou:
     blurb: Le musée d’art moderne aux tuyaux, gaines et escalators à l’extérieur, ouvert en 1977.
+  tour-eiffel:
+    name: Tour Eiffel
+    blurb: La tour de fer de Gustave Eiffel sur le Champ-de-Mars, construite pour l’Exposition universelle de 1889 et symbole de Paris depuis.
   bouquinistes:
     blurb: Les boîtes vertes des bouquinistes le long des quais de la Seine.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).
