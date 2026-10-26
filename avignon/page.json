@@ -1,11 +1,11 @@
 {
   "id": "avignon",
   "name": "Instant Avignon",
-  "title": "Instant Avignon: a free 3D game of Avignon, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Avignon in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Avignon: play through Avignon in 3D",
+  "title": "Instant Avignon: a free virtual 3D tour and game of Avignon",
+  "description": "Take a free virtual 3D tour of the centre of Avignon in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Avignon: a virtual 3D tour of Avignon",
   "share_description": "Cycle, walk or gallop through Avignon in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Avignon, France: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Avignon, France: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Avignon in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Avignon",
   "style": ":root { --paper: #fdf8ee; --accent: #6a4c93; --accent-soft: #ebe3f4; --gold: #e8b23a; --sky: #f1e7d4; --skyline: #cdb48c; --glass: rgba(253, 248, 238, 0.72); } .tag { color: #4e3a6e; }"

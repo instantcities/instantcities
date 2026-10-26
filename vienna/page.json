@@ -1,11 +1,11 @@
 {
   "id": "vienna",
   "name": "Instant Vienna",
-  "title": "Instant Vienna: a free 3D game of Vienna, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Vienna in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Vienna: play through Vienna in 3D",
+  "title": "Instant Vienna: a free virtual 3D tour and game of Vienna",
+  "description": "Take a free virtual 3D tour of the centre of Vienna in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Vienna: a virtual 3D tour of Vienna",
   "share_description": "Cycle, walk or gallop through Vienna in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Vienna, Austria: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Vienna, Austria: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Vienna in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Vienna",
   "style": ":root { --accent: #b3122e; --accent-soft: #f5d9de; --gold: #e3b54a; --sky: #ece8de; --skyline: #b8b0a0; } .tag { color: #5e1a26; }"
