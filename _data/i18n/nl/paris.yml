@@ -1,0 +1,40 @@
+# Paris's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its landmarks' names and blurbs
+# (_data/landmarks/paris.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Paris: gratis virtuele 3D-rondleiding en game van Parijs'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Parijs in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de Seine!
+lead: Rijd door het hart van Parijs in 3D, langs de Notre-Dame, de Sainte-Chapelle, de Pont Neuf en de Rue de Rivoli, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Parijs
+  text: 'Dwaal tussen zo’n 5.500 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Rond het Île de la Cité
+  text: Bekijk de Notre-Dame, de Sainte-Chapelle en de Pont Neuf op het eiland, steek over naar het Hôtel de Ville en de Rue de Rivoli op de rechteroever, en rijd door tot aan het Louvre.
+- title: 'Een race: Île de la Cité'
+  text: Race van het Hôtel de Ville over de Seine naar de Notre-Dame, langs de kades van het eiland naar de Pont Neuf en terug over de Rue de Rivoli.
+intro: Parijs is de hoofdstad van Frankrijk en, met zijn voorsteden, de grootste stad van de Europese Unie. Het groeide van een klein eiland in de Seine uit tot de zetel van de Franse koningen, het toneel van de Revolutie en de stad die baron Haussmann in de 19e eeuw herbouwde met brede boulevards. Vandaag komen mensen er voor de musea, de kathedraal en de cafés, en voor het uitzicht langs de rivier.
+famous:
+- De Notre-Dame, het Louvre en de Eiffeltoren
+- De Seine met haar stenen bruggen en de groene kisten van de boekenverkopers langs de kades
+- De boulevards van Haussmann, met gebouwen van lichte steen en grijze zinken daken
+- Cafés met hun terrassen op de stoep, bakkerijen, croissants en het stokbrood
+landmarks:
+  notre-dame:
+    blurb: De gotische kathedraal op het Île de la Cité, begonnen in 1163 en sinds de brand van 2019 weer open.
+  sainte-chapelle:
+    blurb: De koninklijke kapel van Lodewijk IX uit 1248, met muren die bijna helemaal uit glas-in-lood bestaan.
+  louvre:
+    blurb: Een koninklijk paleis dat het meest bezochte museum ter wereld werd, met de glazen piramide op de binnenplaats.
+  pont-neuf:
+    blurb: De “nieuwe brug”, die in feite de oudste nog bestaande brug over de Seine in Parijs is.
+  hotel-de-ville:
+    blurb: Het stadhuis van Parijs, op deze plek sinds 1357 en herbouwd nadat de Commune het in 1871 in brand stak.
+  conciergerie:
+    blurb: Een middeleeuws koninklijk paleis op het eiland, later de gevangenis waar Marie-Antoinette op de guillotine wachtte.
+  tour-saint-jacques:
+    blurb: Een eenzame gotische klokkentoren, het enige wat overblijft van een kerk op de pelgrimsroute naar Santiago.
+  centre-pompidou:
+    blurb: Het museum voor moderne kunst met zijn buizen, leidingen en roltrappen aan de buitenkant, geopend in 1977.
+  bouquinistes:
+    blurb: De groene kisten van de tweedehandsboekenverkopers langs de kades van de Seine.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

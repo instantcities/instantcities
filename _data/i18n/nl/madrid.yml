@@ -1,0 +1,43 @@
+# Madrid's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/madrid.json) and its landmarks' names and blurbs
+# (_data/landmarks/madrid.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Madrid: gratis virtuele 3D-rondleiding en game van Madrid'
+description: 'Maak gratis een virtuele 3D-rondleiding door het historische centrum van Madrid in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het oude Madrid!
+lead: Rijd door het oude Madrid in 3D, langs de Puerta del Sol, de Plaza Mayor, het Koninklijk Paleis en de Plaza de Oriente, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Madrid
+  text: 'Dwaal tussen zo’n 3.800 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het historische centrum, de rest van de stad volgt nog.'
+- title: Madrid de los Austrias
+  text: Begin bij de Puerta del Sol, volg de Calle Mayor langs de Plaza Mayor naar het Koninklijk Paleis en de Almudena, en steek de Plaza de Oriente over naar het Teatro Real.
+- title: 'Een race: Sol en Oriente'
+  text: Race van de Puerta del Sol over de Calle Mayor naar het Koninklijk Paleis, over de Plaza de Oriente, langs Santo Domingo naar Callao en terug via de Calle del Carmen.
+intro: Madrid is de hoofdstad van Spanje en de grootste stad van het land, hoog op de hoogvlakte in het midden. Filips II maakte er in 1561 de zetel van zijn hof van, en de koningen na hem lieten er een koninklijk paleis, de Plaza Mayor met haar arcaden en het Prado na, een van de grote kunstmusea van de wereld. Vandaag kent iedereen Madrid ook van zijn late avonden, zijn tapasbars en zijn voetbal.
+famous:
+- Het Prado, het Reina Sofía met Picasso’s Guernica, en het Thyssenmuseum
+- Het Koninklijk Paleis, de Plaza Mayor en de Puerta del Sol
+- Real Madrid en Atlético Madrid
+- Late diners, tapas, churros met chocolade en de rommelmarkt van El Rastro op zondag
+landmarks:
+  puerta-del-sol:
+    blurb: Kilometer nul van de Spaanse wegen, waar Spanje op oudejaarsavond om middernacht zijn twaalf druiven eet.
+  oso-y-madrono:
+    name: De Beer en de Aardbeiboom
+    blurb: De bronzen beer die naar een aardbeiboom reikt, het stadswapen van Madrid, op de Puerta del Sol.
+  plaza-mayor:
+    blurb: Het plein met arcaden uit 1619, waar Madrid markten, stierengevechten en de processen van de Inquisitie hield.
+  palacio-real:
+    name: Koninklijk Paleis
+    blurb: Met meer dan 3.000 kamers het grootste koninklijk paleis van West-Europa, nog altijd gebruikt voor staatsplechtigheden.
+  almudena:
+    name: Almudenakathedraal
+    blurb: De kathedraal van Madrid, begonnen in 1883 en pas in 1993 ingewijd, tegenover het Koninklijk Paleis.
+  plaza-de-oriente:
+    blurb: De tuinen tussen het Koninklijk Paleis en de opera, met een beroemd ruiterstandbeeld van Filips IV op een steigerend paard.
+  teatro-real:
+    blurb: Het operahuis van Madrid, aan de overkant van de Plaza de Oriente tegenover het Koninklijk Paleis.
+  mercado-de-san-miguel:
+    blurb: Een markthal van ijzer en glas uit 1916, nu een overdekte foodmarkt naast de Plaza Mayor.
+  plaza-de-la-villa:
+    blurb: Een pleintje met drie gebouwen uit drie eeuwen, het oude hart van het stadsbestuur van Madrid.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

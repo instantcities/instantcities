@@ -1,0 +1,46 @@
+# Berlin's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/berlin.json) and its landmarks' names and blurbs
+# (_data/landmarks/berlin.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Berlin: gratis virtuele 3D-rondleiding en game van Berlijn'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Berlijn in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het hart van Berlijn!
+lead: Rijd door het hart van Berlijn in 3D, langs de Brandenburger Tor, over Unter den Linden, langs de Gendarmenmarkt en het Museumeiland, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Berlijn
+  text: 'Dwaal tussen zo’n 4.200 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Mitte
+  text: Rijd door de Brandenburger Tor langs de Rijksdag, over Unter den Linden naar de Gendarmenmarkt en het Holocaustmonument, en verder naar het Museumeiland.
+- title: 'Een race: Mitte'
+  text: Race over Unter den Linden naar de Gendarmenmarkt, door de straten van Mitte naar het Holocaustmonument en via de Wilhelmstraße terug naar Unter den Linden.
+intro: Berlijn is de hoofdstad van Duitsland en de grootste stad van het land, aan de Spree in het noordoosten. Het groeide van twee middeleeuwse handelsstadjes uit tot de hoofdstad van Pruisen en van het Duitse Keizerrijk, werd in 1945 in puin gebombardeerd en 28 jaar door een muur gesplitst, en het draagt de sporen van dat alles in zijn straten, van de Brandenburger Tor tot de resten van de Muur.
+famous:
+- De Brandenburger Tor en de Rijksdag, symbolen van een verdeeld en daarna herenigd Duitsland
+- De Berlijnse Muur, die de stad van 1961 tot 1989 in tweeën deelde
+- Het Museumeiland, met het Pergamonmuseum en de buste van Nefertiti
+- Currywurst, döner kebab en een nachtleven dat tot de ochtend duurt
+landmarks:
+  brandenburger-tor:
+    name: Brandenburger Tor
+    blurb: De neoclassicistische poort uit 1791 met de Quadriga erop, symbool van een verdeeld en herenigd Duitsland.
+  reichstag:
+    name: Rijksdag
+    blurb: Het parlementsgebouw uit 1894, sinds 1999 bekroond met een glazen koepel die je kunt beklimmen.
+  unter-den-linden:
+    blurb: De boulevard onder de lindebomen, van de Brandenburger Tor naar het Museumeiland.
+  gendarmenmarkt:
+    blurb: De Franse en de Duitse kerk tegenover elkaar op het plein, met het concertgebouw ertussen.
+  holocaust-mahnmal:
+    name: Holocaustmonument
+    blurb: 'Het monument voor de vermoorde Joden van Europa: 2.711 betonblokken op een glooiend veld.'
+  bebelplatz:
+    blurb: Het plein waar de nazi’s in 1933 boeken verbrandden, nu gemarkeerd door een bibliotheek met lege rekken onder de grond.
+  museumsinsel:
+    name: Museumeiland
+    blurb: Vijf grote musea op een eiland in de Spree, van het Pergamonaltaar tot Nefertiti.
+  berliner-dom:
+    name: Berliner Dom
+    blurb: De grote protestantse koepelkathedraal op het Museumeiland, voltooid in 1905.
+  fernsehturm:
+    name: Televisietoren
+    blurb: De televisietoren van Oost-Berlijn uit 1969, 368 meter hoog, met een bol die in de zon een lichtkruis werpt.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

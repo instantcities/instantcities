@@ -1,0 +1,43 @@
+# Siena's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/siena.json) and its landmarks' names and blurbs
+# (_data/landmarks/siena.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Siena: gratis virtuele 3D-rondleiding en game van Siena'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Siena in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Siena, rond de Piazza del Campo!
+lead: Rijd door het centrum van Siena in 3D, op zijn drie heuvels in Toscane, over de Piazza del Campo, langs de Torre del Mangia, de gestreepte kathedraal en de bakstenen straatjes van de contrade, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Siena
+  text: 'Dwaal tussen zo’n 1.900 gebouwen, in 3D nagebouwd uit OpenStreetMap, met de Duomo en de Torre del Mangia op hun echte hoogte: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: De Campo en de Duomo
+  text: Rijd de schelp van rode baksteen van de Campo in onder het Palazzo Pubblico en de Fonte Gaia, langs de Loggia della Mercanzia, omhoog naar de gestreepte kathedraal en Santa Maria della Scala, en kijk over het dal naar San Domenico.
+- title: 'Een race: Campo en Duomo'
+  text: Race over Banchi di Sopra naar de Loggia della Mercanzia, de Campo in onder de Torre del Mangia, de Casato op naar de Duomo en terug langs het Baptisterium over de Via delle Terme.
+intro: Siena ligt op drie heuvels midden in Toscane, tussen de wijngaarden van de Chianti en de kale kleiheuvels van de Crete Senesi. Drie eeuwen lang was het een vrije republiek, een bankiersstad die Florence naar de kroon stak, en het gotische bakstenen centrum is bijna gebleven zoals het in de 14e eeuw was, rond de schelp van de Piazza del Campo. Twee keer per zomer rijden de zeventien contrade daar de Palio.
+famous:
+- De Piazza del Campo, het schelpvormige plein in het hart van de stad
+- De Palio, de paardenrace rond de Campo op 2 juli en 16 augustus
+- De Torre del Mangia en het Palazzo Pubblico, met de fresco’s van Lorenzetti over goed en slecht bestuur
+- De gestreepte kathedraal met haar vloer van marmeren taferelen
+- De Monte dei Paschi, de oudste bank ter wereld die nog bestaat
+- Panforte en ricciarelli
+landmarks:
+  il-campo:
+    blurb: Het schelpvormige plein in het hart van Siena, geplaveid met rode baksteen en aflopend naar het stadhuis, waar de Palio wordt gereden.
+  palazzo-pubblico:
+    blurb: Het gotische stadhuis van baksteen en steen onderaan de Campo, met de beroemdste fresco’s over goed en slecht bestuur.
+  torre-del-mangia:
+    blurb: De slanke bakstenen toren van het stadhuis, 88 meter hoog, met de stenen kroon van zijn klokkenkamer boven de Campo.
+  fonte-gaia:
+    blurb: De marmeren fontein bovenaan de Campo, waar het water van de ondergrondse aquaducten van Siena voor het eerst het plein bereikte.
+  duomo:
+    name: Duomo di Siena
+    blurb: De kathedraal op de hoogste heuvel van de stad, gestreept in wit en donkergroen marmer, met een vloer van ingelegde marmeren taferelen.
+  facciatone:
+    blurb: De kale voorgevel van de reusachtige nieuwe kathedraal die Siena in 1339 begon en na de Zwarte Dood opgaf.
+  santa-maria-della-scala:
+    blurb: Een van de oudste ziekenhuizen van Europa, tegenover de kathedraal, dat bijna duizend jaar voor pelgrims en vondelingen zorgde.
+  loggia-della-mercanzia:
+    blurb: De 15e-eeuwse loggia van de koopmansrechtbank, op het kruispunt waar de drie hoofdstraten van Siena boven de Campo samenkomen.
+  piazza-salimbeni:
+    blurb: Het pleintje van de paleizen van de Monte dei Paschi, de oudste bank ter wereld die nog bestaat.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

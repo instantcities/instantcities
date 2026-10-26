@@ -27,9 +27,13 @@ Jekyll site: the home page (`_layouts/home.html`), the cities page listing every
 (`_layouts/cities.html`), the page about the project and the privacy and terms pages
 (`_layouts/project.html`), each in English, French and Dutch (`/en/`, `/fr/`, `/nl/`, English the
 default; their words in `_data/lang/<lang>.yml`, which also says where each page is in that
-language), and a page per city (`/ghent/`, `_layouts/city.html`, in English for now, their words in
-`_data/cities.yml`). `/`, `/cities/`, `/about/`, `/privacy/` and `/terms/` send a visitor on to the
-language they picked in the bar on top, else their browser's (`_layouts/lang-redirect.html`). The
+language), and a page per city in each language too (`/en/ghent/`, `/fr/gand/`, `/nl/gent/`,
+`_layouts/city.html`; its words in `_data/cities.yml`, in French and Dutch in
+`_data/i18n/<lang>/<id>.yml`, and its slug, its name in that language, in `_data/lang/<lang>.yml`).
+The city's guide and landmark pages are in English only. `/`, `/cities/`, `/about/`, `/privacy/`,
+`/terms/` and each city's `/<id>/` send a visitor on to the language they picked in the bar on top,
+else their browser's (`_layouts/lang-redirect.html`); links to the game from a French or Dutch page
+carry `?lang=`, so the game starts in that language too. The
 old city pages at `/cities/ghent/` and `/cities/lecce/` send visitors on to the new ones.
 Screenshots are in `assets/img/`.
 
@@ -133,7 +137,7 @@ core/            the game, the same for every city
   game.html      the page, a template: tools/pages.mjs makes each city's play/index.html from it
   dev.html, facade-lab.html, sw.js
 ghent/, lecce/   a city: its page and everything about it
-  index.html     the city's page on the site (/ghent/): only `layout: city`, its words in _data/cities.yml
+  index.html     sends /ghent/ on to the city's page in the visitor's language (tools/langpages.mjs)
   play/          the game (/ghent/play/), made by tools/pages.mjs (also dev.html, sw.js), do not edit by hand
   page.json      what the game's page says: the game's name, the title, what shares and search engines show
   city.js        what the city is: its map, routes, quests, sights, look; see its header for the rest
@@ -150,7 +154,8 @@ The engine reads the city from `core/js/city.js`, which takes it from the bare n
 city's page maps that to its own `city.js` in its import map. A new city is a new folder with an
 `area.json` (for `tools/osm_map.mjs`), a `city.js`, a `page.json` (its words and colours) and a
 `loader.html` (the scene on its loading screen), and `node tools/pages.mjs` for its game pages; on
-the site, a block in `_data/cities.yml` and an `<id>/index.html` with `layout: city` and `city: <id>`.
+the site, a block in `_data/cities.yml` (and its name, card and slug in `_data/lang/fr.yml` and `nl.yml`,
+its page's words in `_data/i18n/<lang>/<id>.yml`), and `node tools/langpages.mjs` for its pages.
 A city's id is also its address, so it cannot be one of the site's own folders (`core`, `assets`,
 `cities`, `docs`, `tools`).
 

@@ -1,0 +1,44 @@
+# Vienna's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/vienna.json) and its landmarks' names and blurbs
+# (_data/landmarks/vienna.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Vienna: gratis virtuele 3D-rondleiding en game van Wenen'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Wenen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het hart van Wenen!
+lead: Rijd door het hart van Wenen in 3D, langs de Stephansdom, over de Graben, langs de Hofburg en de Staatsopera, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Wenen
+  text: 'Dwaal tussen zo’n 1.800 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Innere Stadt
+  text: Begin bij de Stephansdom, rijd over de Graben naar de Hofburg op de Michaelerplatz, en over de Ring naar de Staatsopera en de Albertina.
+- title: 'Een race: Innere Stadt en Ring'
+  text: Race van de Stephansdom over de Graben naar de Hofburg, over de Ring naar de Staatsopera en terug langs de Albertina en de Neuer Markt.
+intro: Wenen is de hoofdstad van Oostenrijk en was meer dan zeshonderd jaar de zetel van de Habsburgers, die vanuit zijn paleizen over een groot deel van Europa heersten. Mozart, Beethoven en Strauss maakten hier muziek, Freud en Klimt veranderden hoe mensen naar de geest en de kunst keken, en de stad heeft nog altijd haar keizerlijke paleizen, haar Ring en haar oude koffiehuizen.
+famous:
+- De Stephansdom en zijn hoge gotische spits midden in de oude stad
+- De Hofburg en Schönbrunn, het winter- en zomerpaleis van de Habsburgse keizers
+- Klassieke muziek, van de Staatsopera en de wals tot het nieuwjaarsconcert van de Philharmoniker
+- Koffiehuizen, sachertaart en wienerschnitzel
+landmarks:
+  stephansdom:
+    name: Stephansdom
+    blurb: De gotische kathedraal van Wenen, met haar zuidtoren van 136 meter en een dak van geglazuurde pannen in zigzag.
+  graben:
+    blurb: De grote winkelstraat van Wenen op de lijn van de Romeinse gracht, met de Pestzuil in het midden.
+  pestsaule:
+    name: Pestzuil
+    blurb: De barokke zuil van wolken en engelen, opgericht na de pest van 1679.
+  hofburg:
+    blurb: Zes eeuwen lang het winterpaleis van de Habsburgers, nu de zetel van de Oostenrijkse president.
+  michaelerplatz:
+    blurb: Het ronde plein bij de poort van de Hofburg, waar Romeinse ruïnes en het sobere huis van Adolf Loos tegenover het paleis liggen.
+  spanische-hofreitschule:
+    name: Spaanse Rijschool
+    blurb: De witte lipizzanerhengsten dansen in een barokke rijhal in de Hofburg.
+  staatsoper:
+    name: Staatsopera
+    blurb: Geopend in 1869, het eerste grote gebouw aan de Ring en een van de grote operahuizen van de wereld.
+  albertina:
+    blurb: Een Habsburgs paleis met een van de grootste verzamelingen prenten en tekeningen ter wereld, met de Haas van Dürer.
+  burgtheater:
+    blurb: Een van de belangrijkste Duitstalige theaters, aan de Ring, tegenover het stadhuis.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

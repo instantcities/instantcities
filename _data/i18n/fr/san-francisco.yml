@@ -1,0 +1,42 @@
+# San Francisco's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its landmarks' names and blurbs
+# (_data/landmarks/san-francisco.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant San Francisco : visite virtuelle en 3D et jeu gratuits de San Francisco'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de San Francisco dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans San Francisco, de Chinatown à la baie !
+lead: Parcourez le nord-est de San Francisco en 3D, au bord de la baie, par Chinatown et la Dragon Gate, devant la Transamerica Pyramid, le Ferry Building, Union Square et la Coit Tower sur Telegraph Hill, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai San Francisco
+  text: Promenez-vous parmi quelque 4 100 bâtiments reconstruits en 3D à partir d’OpenStreetMap, des maisons de bois peintes de North Beach aux tours du Financial District à leur vraie hauteur. Le reste de la ville suivra.
+- title: Tours, cable cars et baie
+  text: Levez les yeux vers la Transamerica Pyramid, grimpez sur Telegraph Hill jusqu’à la Coit Tower, longez l’Embarcadero jusqu’au Ferry Building, trouvez la plaque tournante du cable car sur Powell Street près d’Union Square, et remontez Grant Avenue à travers Chinatown.
+- title: 'Une course : de Chinatown à la baie'
+  text: Foncez sur Grant Avenue à travers Chinatown, par Bush Street à travers le Financial District, descendez Market Street jusqu’au Ferry Building, longez l’Embarcadero, et retour devant la Transamerica Pyramid.
+intro: 'San Francisco se trouve à la pointe d’une péninsule du nord de la Californie, entre l’océan Pacifique et la baie de San Francisco : une ville de collines raides, de maisons de bois peintes et de brouillard d’été. D’une petite mission espagnole, elle est devenue une ville champignon pendant la ruée vers l’or, a brûlé en 1906 et a été aussitôt rebâtie. On la connaît aujourd’hui pour ses cable cars, le Golden Gate Bridge, Chinatown et les entreprises technologiques de la Bay Area.'
+famous:
+- Le Golden Gate Bridge dans le brouillard
+- Les cable cars qui grimpent les collines
+- Chinatown, la plus ancienne d’Amérique du Nord
+- Alcatraz, l’île-prison dans la baie
+- Le tremblement de terre et l’incendie de 1906
+- Les poètes de la Beat Generation à North Beach
+landmarks:
+  transamerica-pyramid:
+    blurb: La pyramide blanche du Financial District, haute de 260 mètres, emblème de la skyline de San Francisco depuis 1972.
+  ferry-building:
+    blurb: Le terminal des ferries au pied de Market Street, avec sa tour d’horloge inspirée de la Giralda de Séville, aujourd’hui une halle gourmande.
+  coit-tower:
+    blurb: La fine tour de béton au sommet de Telegraph Hill, construite en 1933 avec l’argent de Lillie Hitchcock Coit.
+  dragon-gate:
+    blurb: La porte de Chinatown sur Grant Avenue, au coin de Bush Street, avec ses toits de tuiles vertes, ses dragons et deux lions de pierre.
+  chinatown:
+    blurb: Le plus ancien Chinatown d’Amérique du Nord, le long de Grant Avenue et de Stockton Street, avec des lanternes au-dessus de la rue.
+  union-square:
+    blurb: La place des grands magasins et des hôtels, nommée d’après les rassemblements pour l’Union avant la guerre de Sécession.
+  cable-cars:
+    blurb: Les derniers cable cars du monde encore en service dans les rues d’une ville, tirés en haut des collines par un câble sous la chaussée.
+  washington-square:
+    blurb: Le cœur vert de North Beach, le quartier italien, devant l’église blanche Saints-Pierre-et-Paul.
+  city-lights:
+    blurb: La librairie des poètes de la Beat Generation sur Columbus Avenue, qui publia Howl d’Allen Ginsberg en 1956.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

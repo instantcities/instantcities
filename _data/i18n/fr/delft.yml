@@ -1,0 +1,42 @@
+# Delft's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/delft.json) and its landmarks' names and blurbs
+# (_data/landmarks/delft.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Delft : visite virtuelle en 3D et jeu gratuits de Delft'
+description: 'Faites gratuitement la visite virtuelle en 3D de la vieille ville de Delft dans votre navigateur, puis parcourez-la vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long des canaux de Delft !
+lead: Parcourez la vieille ville de Delft en 3D, entre La Haye et Rotterdam, par le Markt, devant la Nieuwe Kerk, la tour penchée de l’Oude Kerk et les canaux de la ville de Vermeer, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Delft
+  text: Promenez-vous parmi quelque 7 800 bâtiments reconstruits en 3D à partir d’OpenStreetMap, avec des pignons à redents sur les vieilles maisons, dans un premier morceau de la vieille ville entre ses canaux. Le reste de la ville suivra.
+- title: Églises, canaux et Vermeer
+  text: Traversez le Markt entre le Stadhuis et la Nieuwe Kerk, trouvez le Vermeer Centrum sur le Voldersgracht, et filez vers l’Oude Kerk et sa tour penchée, le Prinsenhof et le Koornmarkt.
+- title: 'Une course : canaux de Delft'
+  text: Foncez à travers le Markt et le long du Voldersgracht, jusqu’à l’Oude Kerk, descendez l’Oude Delft devant le Prinsenhof, et retour par le Koornmarkt.
+intro: 'Delft se trouve entre La Haye et Rotterdam, dans la province de Hollande-Méridionale : une vieille ville de canaux, de ponts et de maisons à pignons autour d’une longue place du marché. C’est la ville de Johannes Vermeer et de la faïence de Delft, le lieu où Guillaume d’Orange a vécu et a été assassiné, et la dernière demeure de la maison d’Orange. C’est aussi aujourd’hui une ville universitaire, siège de la plus grande université technique des Pays-Bas.'
+famous:
+- Le bleu de Delft, la faïence bleue et blanche
+- Johannes Vermeer et sa Vue de Delft
+- La Nieuwe Kerk, où sont enterrés les princes d’Orange
+- Le Prinsenhof, où Guillaume d’Orange fut abattu en 1584
+- La tour penchée de l’Oude Kerk
+- La TU Delft, la plus grande université technique des Pays-Bas
+landmarks:
+  markt:
+    blurb: La longue place du marché entre l’hôtel de ville et la Nieuwe Kerk, l’une des plus grandes des Pays-Bas.
+  nieuwe-kerk:
+    blurb: La grande église gothique du Markt, avec une tour de 108 mètres, où reposent les princes d’Orange.
+  stadhuis:
+    blurb: L’hôtel de ville Renaissance de Delft, au bout ouest du Markt, bâti autour d’une tour de pierre médiévale.
+  oude-kerk:
+    blurb: La plus ancienne église de Delft, sur l’Oude Delft, avec une tour qui penche d’environ deux mètres au-dessus du canal.
+  prinsenhof:
+    blurb: L’ancien couvent où vécut Guillaume d’Orange, et où il fut abattu en 1584. Les impacts de balles sont toujours dans le mur.
+  oude-delft:
+    blurb: Le plus vieux canal de la ville, qui a donné son nom à Delft, bordé de maisons de marchands et du Gemeenlandshuis.
+  koornmarkt:
+    blurb: Le canal où se négociait le grain, aujourd’hui bordé de cafés, de péniches et de terrasses au bord de l’eau.
+  oostpoort:
+    blurb: La dernière des portes de Delft, avec deux fines tours qui se reflètent dans l’eau.
+  waag:
+    blurb: Le poids public près du Markt, où l’on pesait les marchandises pour les taxes de la ville.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

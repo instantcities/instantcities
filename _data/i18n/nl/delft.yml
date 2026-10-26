@@ -1,0 +1,42 @@
+# Delft's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/delft.json) and its landmarks' names and blurbs
+# (_data/landmarks/delft.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Delft: gratis virtuele 3D-rondleiding en game van Delft'
+description: 'Maak gratis een virtuele 3D-rondleiding door de oude stad van Delft in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de grachten van Delft!
+lead: Rijd door de oude stad van Delft in 3D, tussen Den Haag en Rotterdam, over de Markt, langs de Nieuwe Kerk, de scheve toren van de Oude Kerk en de grachten van de stad van Vermeer, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Delft
+  text: Dwaal tussen zo’n 7.800 gebouwen, in 3D nagebouwd uit OpenStreetMap, met trapgevels op de oude huizen, in een eerste stuk van de oude stad binnen haar grachten. De rest van de stad volgt nog.
+- title: Kerken, grachten en Vermeer
+  text: Steek de Markt over tussen het Stadhuis en de Nieuwe Kerk, zoek het Vermeer Centrum aan de Voldersgracht, en rijd naar de Oude Kerk met haar scheve toren, het Prinsenhof en de Koornmarkt.
+- title: 'Een race: grachten van Delft'
+  text: Race over de Markt en langs de Voldersgracht, omhoog naar de Oude Kerk, langs de Oude Delft en het Prinsenhof en terug over de Koornmarkt.
+intro: Delft ligt tussen Den Haag en Rotterdam in de provincie Zuid-Holland, een oude stad van grachten, bruggen en gevelhuizen rond één lang marktplein. Het is de stad van Johannes Vermeer en van Delfts blauw, de plek waar Willem van Oranje woonde en vermoord werd, en de laatste rustplaats van het Huis van Oranje. Vandaag is het ook een universiteitsstad, met de grootste technische universiteit van Nederland.
+famous:
+- Delfts blauw, het blauw-witte aardewerk
+- Johannes Vermeer en zijn Gezicht op Delft
+- De Nieuwe Kerk, waar de prinsen van Oranje begraven liggen
+- Het Prinsenhof, waar Willem van Oranje in 1584 werd doodgeschoten
+- De scheve toren van de Oude Kerk
+- De TU Delft, de grootste technische universiteit van Nederland
+landmarks:
+  markt:
+    blurb: Het lange marktplein tussen het stadhuis en de Nieuwe Kerk, een van de grootste van Nederland.
+  nieuwe-kerk:
+    blurb: De grote gotische kerk aan de Markt, met een toren van 108 meter, waar de prinsen van Oranje begraven liggen.
+  stadhuis:
+    blurb: Het renaissancestadhuis van Delft aan de westkant van de Markt, gebouwd rond een middeleeuwse stenen toren.
+  oude-kerk:
+    blurb: De oudste kerk van Delft, aan de Oude Delft, met een toren die zo’n twee meter over de gracht helt.
+  prinsenhof:
+    blurb: Het oude klooster waar Willem van Oranje woonde en waar hij in 1584 werd doodgeschoten. De kogelgaten zitten nog in de muur.
+  oude-delft:
+    blurb: De oudste gracht van de stad, die Delft haar naam gaf, met koopmanshuizen en het Gemeenlandshuis.
+  koornmarkt:
+    blurb: De gracht waar het graan verhandeld werd, nu met cafés, woonboten en terrassen aan het water.
+  oostpoort:
+    blurb: De laatste stadspoort van Delft, met twee slanke torens die in het water weerspiegelen.
+  waag:
+    blurb: Het waaggebouw bij de Markt, waar goederen gewogen werden voor de belastingen van de stad.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

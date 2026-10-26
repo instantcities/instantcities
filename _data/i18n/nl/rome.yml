@@ -1,0 +1,44 @@
+# Rome's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rome.json) and its landmarks' names and blurbs
+# (_data/landmarks/rome.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Rome: gratis virtuele 3D-rondleiding en game van Rome'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Rome in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het oude Rome!
+lead: Rijd door het hart van Rome in 3D, over de Via del Corso, langs het Pantheon, de Piazza Navona en de Trevifontein, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Rome
+  text: 'Dwaal tussen zo’n 6.000 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Antiek en barok Rome
+  text: Rijd van de Piazza Venezia over de Via del Corso naar de zuil op de Piazza Colonna, bezoek het Pantheon en de Piazza Navona, en trek verder naar de Trevifontein, het Forum en het Colosseum.
+- title: 'Een race: Rome Centrum'
+  text: Race van de Piazza Venezia over de Via del Corso naar de zuil op de Piazza Colonna, langs het Pantheon en terug via de Largo di Torre Argentina.
+intro: Rome is de hoofdstad van Italië en een van de oudste steden van Europa die zonder onderbreking bewoond zijn. Duizend jaar lang heerste het over een rijk rond de Middellandse Zee, daarna werd het de stad van de pausen, en vandaag staan de Romeinse ruïnes, renaissancepaleizen en barokke fonteinen er zij aan zij in een drukke moderne hoofdstad.
+famous:
+- Het Colosseum, het Forum en het Pantheon, de best bewaarde gebouwen van het oude Rome
+- Vaticaanstad, het kleinste land ter wereld, met de Sint-Pieter en de Sixtijnse Kapel
+- Barokke pleinen en fonteinen van Bernini en Borromini, zoals de Piazza Navona en de Trevifontein
+- Pasta alla carbonara, cacio e pepe en de groene drinkfonteintjes, de nasoni
+landmarks:
+  colosseo:
+    name: Colosseum
+    blurb: Het grote amfitheater van het oude Rome, in 80 n.Chr. geopend voor gladiatorengevechten voor zo’n 50.000 mensen.
+  pantheon:
+    blurb: Een tempel voor alle goden, herbouwd onder Hadrianus, met de grootste koepel van ongewapend beton ter wereld.
+  fontana-di-trevi:
+    name: Trevifontein
+    blurb: 'De grootste fontein van Rome: wie een munt over zijn schouder gooit, komt terug.'
+  piazza-navona:
+    blurb: Een lang barok plein op de omtrek van het stadion van Domitianus, met de Vierstromenfontein van Bernini.
+  foro-romano:
+    name: Forum Romanum
+    blurb: 'Het hart van het oude Rome: tempels, basilica’s en het senaatsgebouw, in een dal tussen de heuvels.'
+  vittoriano:
+    blurb: Het reusachtige monument van wit marmer voor Victor Emanuel II op de Piazza Venezia, bijgenaamd de schrijfmachine.
+  campo-de-fiori:
+    blurb: Een levendig plein met ’s ochtends een markt en in het midden het standbeeld van Giordano Bruno met zijn kap.
+  colonna-di-marco-aurelio:
+    name: Zuil van Marcus Aurelius
+    blurb: Een marmeren zuil met de oorlogen van de keizer langs de Donau, sinds de 2e eeuw op de Piazza Colonna.
+  largo-di-torre-argentina:
+    blurb: Vier tempels uit de Republiek, verzonken onder het straatniveau, naast de plek waar Julius Caesar vermoord werd.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

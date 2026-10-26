@@ -1,0 +1,51 @@
+# Istanbul's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/istanbul.json) and its landmarks' names and blurbs
+# (_data/landmarks/istanbul.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Istanbul: gratis virtuele 3D-rondleiding en game van Istanbul'
+description: 'Maak gratis een virtuele 3D-rondleiding door het oude schiereiland van Istanbul in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard tussen de moskeeën en bazaars van Istanbul!
+lead: Rijd door het oude schiereiland van Istanbul in 3D, tussen de Gouden Hoorn en de Zee van Marmara, langs de Hagia Sophia, de Blauwe Moskee, de Grote Bazaar en de kades van Eminönü, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Istanbul
+  text: Dwaal tussen zo’n 4.100 gebouwen, in 3D nagebouwd uit OpenStreetMap op het oude schiereiland, van Sultanahmet tot aan de Gouden Hoorn, met de zee rond de punt. De rest van de stad volgt nog.
+- title: Koepels, bazaars en de Gouden Hoorn
+  text: Bezoek de Hagia Sophia, de Blauwe Moskee en de Hippodroom, zoek de Basilicacisterne en de poort van het Topkapıpaleis, slenter door de Grote Bazaar en rijd langs het station Sirkeci naar de Nieuwe Moskee en de Kruidenbazaar in Eminönü.
+- title: 'Een race: Sultanahmet'
+  text: Race van de Hagia Sophia over de Divan Yolu naar de Zuil van Constantijn en de Grote Bazaar, de Ankara Caddesi af naar Sirkeci, en terug langs het Gülhanepark en de poort van het Topkapıpaleis.
+intro: 'Istanbul ligt op beide oevers van de Bosporus, de zeestraat tussen de Zwarte Zee en de Zee van Marmara, half in Europa en half in Azië. Zestien eeuwen lang was het een hoofdstad: van de Romeinse en Byzantijnse keizers als Constantinopel, en daarna van de Ottomaanse sultans. Op het oude schiereiland, tussen de Gouden Hoorn en de zee, staan de Hagia Sophia, de Blauwe Moskee, het Topkapıpaleis en de Grote Bazaar. Vandaag is het de grootste stad van Turkije, met meer dan vijftien miljoen inwoners.'
+famous:
+- De Hagia Sophia, negenhonderd jaar een kerk en daarna een moskee
+- De Blauwe Moskee en de skyline van koepels en minaretten
+- Het Topkapıpaleis, het huis van de Ottomaanse sultans
+- De Grote Bazaar en de Kruidenbazaar
+- De veerboten over de Bosporus, tussen Europa en Azië
+- Simit, Turkse thee en Turks fruit
+landmarks:
+  ayasofya:
+    name: Hagia Sophia
+    blurb: 'De grote kerk van Justinianus uit 537, met haar koepel op 55 meter hoogte: een kerk, dan een moskee, een museum en weer een moskee.'
+  sultanahmet-camii:
+    name: Blauwe Moskee
+    blurb: De moskee van sultan Ahmed I, met zes minaretten en zo’n twintigduizend blauwe tegels uit İznik vanbinnen.
+  hipodrom:
+    name: Hippodroom
+    blurb: Het lange plein waar Byzantium zijn wagenrennen hield, met een Egyptische obelisk en een bronzen slangenzuil die er nog staan.
+  yerebatan:
+    name: Basilicacisterne
+    blurb: Het ondergrondse waterreservoir van Justinianus, een woud van 336 zuilen in het water.
+  topkapi:
+    name: Topkapıpaleis
+    blurb: Bijna vierhonderd jaar het paleis van de Ottomaanse sultans, op de punt van het schiereiland boven de Bosporus.
+  kapalicarsi:
+    name: Grote Bazaar
+    blurb: Een van de oudste en grootste overdekte markten ter wereld, zo’n zestig straten en vierduizend winkels onder één dak.
+  misir-carsisi:
+    name: Kruidenbazaar
+    blurb: De L-vormige overdekte markt bij de Nieuwe Moskee, vol kruiden, gedroogd fruit, thee en Turks fruit.
+  yeni-cami:
+    name: Nieuwe Moskee
+    blurb: De grote moskee aan het water in Eminönü, begonnen in 1597 en 68 jaar later voltooid.
+  galata-koprusu:
+    name: Galatabrug
+    blurb: De brug over de Gouden Hoorn van Eminönü naar Karaköy, met bovenop vissers en onderaan visrestaurants.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

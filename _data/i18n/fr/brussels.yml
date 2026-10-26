@@ -1,0 +1,44 @@
+# Brussels's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/brussels.json) and its landmarks' names and blurbs
+# (_data/landmarks/brussels.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Brussels : visite virtuelle en 3D et jeu gratuits de Bruxelles'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Bruxelles dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval autour de la Grand-Place de Bruxelles !
+lead: Parcourez le cœur de Bruxelles en 3D, par la Grand-Place, devant la Bourse, le Manneken-Pis et les Galeries Saint-Hubert, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Bruxelles
+  text: 'Promenez-vous parmi quelque 4 600 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Autour de la Grand-Place
+  text: Arrêtez-vous parmi les maisons des corporations et l’hôtel de ville sur la Grand-Place, passez devant la Bourse, trouvez le Manneken-Pis et roulez à travers les Galeries royales Saint-Hubert.
+- title: 'Une course : Grand-Place'
+  text: Foncez de la Grand-Place à la Bourse, descendez la rue du Midi jusqu’au Manneken-Pis, et retour par la rue des Éperonniers et le Marché aux Herbes.
+intro: Bruxelles est la capitale de la Belgique et le siège des principales institutions de l’Union européenne et de l’OTAN. Son vieux centre s’est développé autour de la Grand-Place, une place de maisons de corporations dorées et d’un hôtel de ville gothique que les corporations ont rebâtie après un bombardement français en 1695. La ville parle français et néerlandais côte à côte, et on la connaît pour sa bande dessinée, son chocolat, ses frites et le petit Manneken-Pis de bronze.
+famous:
+- La Grand-Place, avec son hôtel de ville gothique et les maisons dorées des corporations
+- Le Manneken-Pis, un petit garçon de bronze à la garde-robe de plus de mille costumes
+- La Commission européenne, le Parlement européen et le siège de l’OTAN
+- Les frites, les gaufres, le chocolat, la bière et la bande dessinée, depuis Tintin
+landmarks:
+  grand-place:
+    blurb: Des maisons de corporations et un hôtel de ville gothique autour de l’une des plus belles places d’Europe.
+  hotel-de-ville:
+    name: Hôtel de ville
+    blurb: L’hôtel de ville gothique et sa tour de 96 mètres, surmontée de saint Michel terrassant le dragon.
+  maison-du-roi:
+    name: Maison du Roi
+    blurb: La maison néogothique face à l’hôtel de ville, qui abrite le musée de la Ville et la garde-robe du Manneken-Pis.
+  manneken-pis:
+    name: Manneken-Pis
+    blurb: Un garçon de bronze d’à peine un demi-mètre, avec une garde-robe de plus de mille costumes.
+  galeries-saint-hubert:
+    blurb: L’une des premières galeries marchandes couvertes d’Europe, ouverte en 1847 sous une verrière.
+  bourse:
+    blurb: L’ancienne Bourse de 1873, sur un boulevard sans voitures depuis 2015.
+  cathedrale:
+    name: Cathédrale des Saints-Michel-et-Gudule
+    blurb: La cathédrale gothique de Bruxelles, sur la pente vers le haut de la ville, où se célèbrent les mariages royaux.
+  mont-des-arts:
+    blurb: Les escaliers et jardins entre le bas et le haut de la ville, avec une vue sur toute la ville.
+  sablon:
+    blurb: La place des antiquaires et des chocolatiers, au pied de l’église gothique Notre-Dame du Sablon.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

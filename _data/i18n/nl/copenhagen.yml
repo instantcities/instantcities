@@ -1,0 +1,42 @@
+# Copenhagen's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its landmarks' names and blurbs
+# (_data/landmarks/copenhagen.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Copenhagen: gratis virtuele 3D-rondleiding en game van Kopenhagen'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Kopenhagen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Kopenhagen, de fietsstad!
+lead: Rijd door het hart van Kopenhagen in 3D, langs Nyhavn, Kongens Nytorv, Christiansborg en de Strøget, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Kopenhagen
+  text: 'Dwaal tussen zo’n 3.400 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: De fietsstad
+  text: Rijd langs Nyhavn vanaf Kongens Nytorv, steek Slotsholmen over langs Børsen en Christiansborg, slenter over de Strøget naar het Raadhuisplein, en zoek Tivoli en Amalienborg aan de randen.
+- title: 'Een race: Nyhavn en Strøget'
+  text: Race van Kongens Nytorv langs Nyhavn, over Slotsholmen langs Børsen en Christiansborg naar het Raadhuisplein, en terug over de Strøget.
+intro: Kopenhagen is de hoofdstad van Denemarken, een havenstad aan de Sont, de zeestraat tussen Denemarken en Zweden. Het groeide van een vissersdorp uit tot de zetel van de Deense koningen, en vandaag liggen zijn grachten, koperen torenspitsen en kleurrijke havengevels in een moderne stad waar fietsen veel talrijker zijn dan auto’s.
+famous:
+- Nyhavn, de gracht met beschilderde huizen en oude houten schepen
+- Tivoli, een van de oudste pretparken ter wereld
+- De Kleine Zeemeermin, Hans Christian Andersen en de koninklijke wacht bij Amalienborg
+- Overal fietsen, smørrebrød en de nieuwe Noordse keuken
+landmarks:
+  nyhavn:
+    blurb: De 17e-eeuwse haven met gekleurde huizen, houten schepen en caféterrassen.
+  kongens-nytorv:
+    blurb: Het Nieuwe Plein van de Koning, met het Koninklijk Deens Theater en een bronzen koning te paard.
+  christiansborg:
+    blurb: Het paleis op Slotsholmen met het parlement, het kantoor van de premier en het hooggerechtshof.
+  borsen:
+    blurb: De beurs van Christiaan IV uit 1640, met een spits van vier drakenstaarten, in 2024 uitgebrand.
+  rundetaarn:
+    name: Ronde Toren
+    blurb: De sterrenwacht van Christiaan IV uit 1642, die je beklimt via een spiraalvormige helling in plaats van trappen.
+  stroget:
+    blurb: Een van de langste autovrije winkelstraten van Europa, van het Raadhuisplein naar Kongens Nytorv.
+  radhuspladsen:
+    name: Raadhuisplein
+    blurb: Het plein voor het rode bakstenen stadhuis van Kopenhagen, met zijn toren van 105 meter.
+  tivoli:
+    blurb: Een van de oudste pretparken ter wereld, in 1843 geopend midden in de stad.
+  amalienborg:
+    blurb: Vier identieke rococopaleizen rond een achthoekig plein, het huis van de Deense koninklijke familie.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

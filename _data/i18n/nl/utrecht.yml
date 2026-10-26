@@ -1,0 +1,44 @@
+# Utrecht's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/utrecht.json) and its landmarks' names and blurbs
+# (_data/landmarks/utrecht.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Utrecht: gratis virtuele 3D-rondleiding en game van Utrecht'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Utrecht in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Utrecht, rond de Dom!
+lead: Rijd door het centrum van Utrecht in 3D, rond de hoogste kerktoren van Nederland, over het Domplein, langs de Oudegracht, het Janskerkhof en de Kromme Nieuwegracht, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Utrecht
+  text: 'Dwaal tussen zo’n 6.500 gebouwen, in 3D nagebouwd uit OpenStreetMap, met de Domtoren op zijn echte 112 meter: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Rond de Dom
+  text: Steek het Domplein over tussen de Domtoren en de Domkerk, volg de Oudegracht en de Vismarkt, zoek de Pieterskerk en de Paushuize aan de Kromme Nieuwegracht, en de bloemenmarkt op het Janskerkhof.
+- title: 'Een race: Rond de Dom'
+  text: Race van het Janskerkhof over de Drift en langs de Kromme Nieuwegracht, over het Domplein onder de Domtoren en terug over de Vismarkt langs de Oudegracht.
+intro: Utrecht ligt in het midden van Nederland, waar de Romeinen ooit de Rijn bewaakten. Duizend jaar lang was het de zetel van de bisschoppen die het christendom naar het noorden brachten, en de oude stad draait nog altijd rond de Domtoren, de hoogste kerktoren van het land. De middeleeuwse grachten liggen laag tussen werven met kelders onder de straat, en vandaag is het een drukke universiteitsstad waar de meeste mensen zich met de fiets verplaatsen.
+famous:
+- De Domtoren, 112 meter hoog, los van zijn kerk
+- De Oudegracht, met haar werfkelders en terrassen aan het water
+- De Unie van Utrecht van 1579 en de Vrede van Utrecht van 1713
+- Nijntje, het konijn dat Dick Bruna hier tekende
+- De Rood-blauwe stoel en het Rietveld Schröderhuis van Gerrit Rietveld
+- De grootste fietsenstalling ter wereld, onder het station
+landmarks:
+  domtoren:
+    name: Domtoren
+    blurb: De hoogste kerktoren van Nederland, 112 meter gotische baksteen en natuursteen, alleenstaand sinds een storm het schip wegblies.
+  domkerk:
+    name: Domkerk
+    blurb: 'Wat er rest van de gotische kathedraal van Utrecht: het koor en het transept, sinds de instorting van het schip in 1674 los van hun toren.'
+  pandhof:
+    blurb: De stille kloostertuin naast de Domkerk, beplant met de kruiden van een middeleeuwse kloostertuin.
+  oudegracht:
+    blurb: De middeleeuwse gracht van Utrecht, met werven aan het water en oude kelders onder de straat, nu vol cafés.
+  janskerkhof:
+    blurb: Het lommerrijke plein rond de Janskerk, met elke zaterdag een bloemenmarkt.
+  pieterskerk:
+    blurb: Een van de oudste kerken van Nederland, een romaanse kerk uit 1048 met een crypte onder het koor.
+  speelklok:
+    blurb: Een museum van zelfspelende muziek, van speeldozen tot grote dansorgels, in de middeleeuwse Buurkerk.
+  academiegebouw:
+    blurb: Het hoofdgebouw van de Universiteit Utrecht aan het Domplein, waar in 1579 de Unie van Utrecht werd getekend.
+  paushuize:
+    blurb: Het huis aan de Kromme Nieuwegracht, gebouwd voor Adriaan van Utrecht, de enige Nederlandse paus.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,0 +1,43 @@
+# Barcelona's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/barcelona.json) and its landmarks' names and blurbs
+# (_data/landmarks/barcelona.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Barcelona: gratis virtuele 3D-rondleiding en game van Barcelona'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Barcelona in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard over de Rambla!
+lead: Rijd door de oude stad van Barcelona in 3D, over de Rambla, door de Gotische Wijk, langs de kathedraal en de Plaça de Sant Jaume, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Barcelona
+  text: 'Dwaal tussen zo’n 4.300 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: De oude stad
+  text: Rijd de Rambla af van de Plaça de Catalunya naar het Columbusmonument, langs La Boqueria en de Plaça Reial, en verdwaal in de Gotische Wijk rond de kathedraal.
+- title: 'Een race: Rambla en Gotische Wijk'
+  text: Race van de Plaça de Catalunya de Rambla af naar het Columbusmonument, door de Gotische Wijk langs de Plaça de Sant Jaume en de kathedraal, en terug via de Portal de l’Àngel.
+intro: Barcelona is de hoofdstad van Catalonië en de tweede stad van Spanje, een haven aan de Middellandse Zee tussen de bergen en de zee. De middeleeuwse Gotische Wijk, de gebouwen van Antoni Gaudí en de andere modernistische architecten en La Rambla die naar de haven loopt, maakten er een van de meest bezochte steden van Europa van.
+famous:
+- Gaudí’s Sagrada Família, Park Güell, Casa Batlló en La Pedrera
+- La Rambla, de markt van La Boqueria en de straatjes van de Gotische Wijk
+- FC Barcelona en de Olympische Spelen van 1992
+- Tapas, pa amb tomàquet en de menselijke torens van de castellers
+landmarks:
+  la-rambla:
+    blurb: De met bomen omzoomde wandelstraat van de Plaça de Catalunya naar de zee, de drukste straat van Barcelona.
+  placa-de-catalunya:
+    blurb: Het grote plein waar de oude stad de 19e-eeuwse Eixample raakt.
+  la-boqueria:
+    blurb: De beroemdste markt van Barcelona, onder een ijzeren dak vlak naast de Rambla.
+  liceu:
+    blurb: Het operahuis aan de Rambla, geopend in 1847 en herbouwd na een brand in 1994.
+  placa-reial:
+    blurb: Een plein met arcaden, palmbomen en lantaarns ontworpen door een jonge Antoni Gaudí.
+  catedral:
+    name: Kathedraal
+    blurb: De gotische kathedraal van Santa Eulàlia, met dertien witte ganzen in haar kloostergang.
+  placa-de-sant-jaume:
+    blurb: Het plein waar de regering van Catalonië en het stadhuis tegenover elkaar staan, op het oude Romeinse forum.
+  monument-a-colom:
+    name: Columbusmonument
+    blurb: Columbus op een zuil van 60 meter onderaan de Rambla, wijzend naar de zee.
+  barri-gotic:
+    name: Gotische Wijk
+    blurb: Het doolhof van smalle middeleeuwse straatjes in het hart van de oude stad, bovenop het Romeinse Barcino.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

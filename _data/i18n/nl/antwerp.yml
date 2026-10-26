@@ -1,0 +1,43 @@
+# Antwerp's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/antwerp.json) and its landmarks' names and blurbs
+# (_data/landmarks/antwerp.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Antwerp: gratis virtuele 3D-rondleiding en game van Antwerpen'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Antwerpen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het oude Antwerpen!
+lead: Rijd door de oude stad van Antwerpen in 3D, over de Grote Markt, langs de kathedraal, Het Steen en de Groenplaats, met elk dak op zijn gemeten hoogte.
+features:
+- title: Het echte Antwerpen
+  text: 'Dwaal tussen zo’n 6.600 gebouwen, in 3D nagebouwd uit OpenStreetMap, elk op de hoogte die Vlaanderen mat: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: De oude stad
+  text: Begin op de Grote Markt tussen de gildehuizen, rijd langs de kathedraal naar Het Steen aan de Schelde en de Groenplaats, en verder naar de Meir en het Rubenshuis.
+- title: 'Een race: Grote Markt en Schelde'
+  text: Race van de Grote Markt naar Het Steen, zuidwaarts langs de Schelde, door de straatjes naar de Groenplaats en terug langs de kathedraal.
+intro: Antwerpen is de grootste stad van Vlaanderen en de grote haven van België, aan de Schelde in het noorden van het land. In de 16e eeuw was het de rijkste handelsstad van Noord-Europa, en een generatie later schilderde Pieter Paul Rubens hier voor kerken en hoven in heel Europa. Vandaag kent iedereen het van zijn haven, zijn diamanthandel, zijn modeontwerpers en de Onze-Lieve-Vrouwekathedraal, waarvan de toren 123 meter boven de oude stad uitsteekt.
+famous:
+- De Onze-Lieve-Vrouwekathedraal, met haar toren van 123 meter en altaarstukken van Rubens
+- De Grote Markt, met het renaissancestadhuis en de Brabofontein
+- De haven, de tweede grootste van Europa, en de diamantwijk bij het Centraal Station
+- Modeontwerpers opgeleid aan de Koninklijke Academie voor Schone Kunsten, onder wie de Antwerpse Zes
+landmarks:
+  grote-markt:
+    blurb: Het plein van het stadhuis en de gildehuizen, met de Brabofontein in het midden.
+  brabofontein:
+    name: Brabofontein
+    blurb: 'De Romeinse soldaat Brabo die de hand van de reus weggooit: de legende achter de naam van de stad.'
+  stadhuis:
+    name: Stadhuis
+    blurb: Een renaissancestadhuis uit 1565, vol vlaggen en zuilen, op de Grote Markt.
+  kathedraal:
+    name: Onze-Lieve-Vrouwekathedraal
+    blurb: De grootste gotische kerk van de Nederlanden, met een toren van 123 meter en vier altaarstukken van Rubens.
+  het-steen:
+    blurb: Het oudste gebouw van Antwerpen, een middeleeuwse burcht aan de Schelde.
+  vleeshuis:
+    blurb: De gotische hal van het beenhouwersgilde, gestreept in baksteen en witte steen.
+  groenplaats:
+    blurb: Het plein aan de voet van de kathedraal, met een standbeeld van Rubens in het midden.
+  plantin-moretus:
+    blurb: Het huis en de werkplaats van een grote drukkerij, met de twee oudste drukpersen ter wereld.
+  meir:
+    blurb: De grote winkelstraat van Antwerpen, met paleizen en warenhuizen.
+credits: 'Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Hoogtes: Digitaal Vlaanderen, DHMV II.'

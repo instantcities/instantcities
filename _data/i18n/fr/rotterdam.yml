@@ -1,0 +1,46 @@
+# Rotterdam's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rotterdam.json) and its landmarks' names and blurbs
+# (_data/landmarks/rotterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Rotterdam : visite virtuelle en 3D et jeu gratuits de Rotterdam'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Rotterdam dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Rotterdam, parmi les tours sur la Meuse !
+lead: Parcourez le centre de Rotterdam en 3D, reconstruit après 1940, par le Coolsingel, devant le Markthal, les maisons cubes, le Vieux Port et la Laurenskerk, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Rotterdam
+  text: Promenez-vous parmi quelque 3 300 bâtiments reconstruits en 3D à partir d’OpenStreetMap, du Coolsingel au Vieux Port et jusqu’à l’Erasmusbrug. Le reste de la ville suivra.
+- title: Une ville de bâtiments neufs
+  text: Passez sous l’arche d’appartements du Markthal, devant les maisons cubes de Piet Blom et le Potlood, voyez la Witte Huis de 1898 et la Laurenskerk, et trouvez La Ville détruite de Zadkine près du Leuvehaven.
+- title: 'Une course : Blaak et Markthal'
+  text: Foncez sur le Coolsingel, le long du Blaak devant le Markthal jusqu’aux maisons cubes, remontez la Binnenrotte, et retour par la Hoogstraat devant la Laurenskerk.
+intro: 'Rotterdam se trouve sur la Nieuwe Maas, là où le Rhin et la Meuse courent vers la mer du Nord, dans la province de Hollande-Méridionale. Le 14 mai 1940, des bombardiers allemands ont incendié son vieux centre en un après-midi, et la ville l’a rebâti comme un terrain d’essai pour l’architecture nouvelle : le Lijnbaan, les maisons cubes, le Markthal et l’Erasmusbrug. Tout autour s’étend le plus grand port d’Europe.'
+famous:
+- Le bombardement du 14 mai 1940, et la ville moderne qui en est née
+- L’Erasmusbrug, le Cygne blanc sur la Meuse
+- Les maisons cubes de Piet Blom et l’arche d’appartements du Markthal
+- Le plus grand port d’Europe, jusqu’à la mer du Nord
+- Érasme, né à Rotterdam, et le Feyenoord
+landmarks:
+  stadhuis:
+    name: Hôtel de ville
+    blurb: L’hôtel de ville de Rotterdam, de 1920, sur le Coolsingel, l’un des rares bâtiments du centre à avoir survécu au bombardement de 1940.
+  erasmusbrug:
+    name: Pont Érasme
+    blurb: Le pont à haubans blanc sur la Meuse, surnommé le Cygne, devenu l’emblème du nouveau Rotterdam.
+  witte-huis:
+    blurb: L’immeuble de bureaux blanc de 1898 près du Vieux Port, l’un des premiers immeubles de grande hauteur d’Europe.
+  oude-haven:
+    name: Vieux Port
+    blurb: Le plus vieux port de Rotterdam, plein de vieilles péniches à voile, avec des terrasses le long des quais.
+  kubuswoningen:
+    name: Maisons cubes
+    blurb: Les maisons jaunes de Piet Blom basculées sur la pointe, une forêt de cubes sur une passerelle au-dessus du Blaak.
+  markthal:
+    blurb: Une arche en fer à cheval d’appartements au-dessus d’un marché couvert, avec la plus grande œuvre d’art des Pays-Bas au plafond.
+  laurenskerk:
+    blurb: La grande église gothique tardive de la ville, incendiée en 1940 et rebâtie, dernier bâtiment médiéval du centre.
+  schielandshuis:
+    blurb: Un palais classique du XVIIe siècle parmi les tours, qui a survécu au bombardement de 1940.
+  maritiem-museum:
+    name: Musée maritime
+    blurb: Le musée maritime sur le Leuvehaven, avec de vieilles grues, un bateau-phare et des bateaux de travail amarrés devant.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

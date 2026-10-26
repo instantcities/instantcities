@@ -1,0 +1,44 @@
+# Amsterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/amsterdam.json) and its landmarks' names and blurbs
+# (_data/landmarks/amsterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Amsterdam: gratis virtuele 3D-rondleiding en game van Amsterdam'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Amsterdam in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de grachten!
+lead: Rijd door de oude binnenstad van Amsterdam in 3D, langs de Dam, het Koninklijk Paleis, het Singel en het Spui, met elk grachtenpand uit OpenStreetMap.
+features:
+- title: Het echte Amsterdam
+  text: 'Dwaal tussen zo’n 7.900 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Tussen de grachten
+  text: Begin op de Dam bij het Koninklijk Paleis, volg het Singel naar het Spui en het Rokin, en rijd door naar de Westerkerk, de Nieuwmarkt en het Centraal Station.
+- title: 'Een race: Dam en Singel'
+  text: Race van de Dam langs het Koninklijk Paleis naar het Singel, langs de gracht naar het Spui en via het Rokin terug naar de Dam.
+intro: Amsterdam is de hoofdstad van Nederland, een stad van grachten, smalle bakstenen huizen en fietsen. Het begon als vissersdorp bij een dam in de Amstel en werd in de 17e eeuw de rijkste handelshaven van Europa. De grachtengordel die de kooplieden in die Gouden Eeuw groeven, houdt de stad vandaag nog altijd samen.
+famous:
+- De 17e-eeuwse grachtengordel, met zijn bruggen en hoge, smalle koopmanshuizen
+- Rembrandt, Van Gogh en het Rijksmuseum
+- Het Anne Frank Huis aan de Prinsengracht
+- Overal fietsen, rondvaartboten, trams en stroopwafels
+landmarks:
+  dam:
+    blurb: Het plein op de dam die in de 13e eeuw in de Amstel werd gelegd en de stad haar naam gaf.
+  koninklijk-paleis:
+    name: Koninklijk Paleis
+    blurb: Gebouwd als stadhuis van de Gouden Eeuw, in 1808 door Lodewijk Napoleon tot paleis gemaakt.
+  nieuwe-kerk:
+    blurb: De kerk op de Dam waar Nederlandse koningen en koninginnen worden ingehuldigd.
+  begijnhof:
+    blurb: Een verborgen hofje van oude huizen rond een tuin, achter een deur aan het Spui.
+  spui:
+    blurb: Een pleintje met boekwinkels en cafés, met op vrijdag een boekenmarkt.
+  bloemenmarkt:
+    name: Bloemenmarkt
+    blurb: De drijvende bloemenmarkt op het Singel, die sinds 1862 bollen en bloemen verkoopt.
+  westerkerk:
+    blurb: De kerk aan de Prinsengracht met de hoogste toren van Amsterdam, bekroond met een keizerskroon.
+  anne-frank-huis:
+    name: Anne Frank Huis
+    blurb: Het grachtenhuis waar Anne Frank en haar familie onderdoken voor de nazi’s en waar zij haar dagboek schreef.
+  grachtengordel:
+    name: Grachtengordel
+    blurb: De halve maan van 17e-eeuwse grachten rond de oude stad, op de Werelderfgoedlijst van UNESCO.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

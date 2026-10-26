@@ -1,0 +1,41 @@
+# Avignon's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/avignon.json) and its landmarks' names and blurbs
+# (_data/landmarks/avignon.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Avignon : visite virtuelle en 3D et jeu gratuits d’Avignon'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre historique d’Avignon dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la cité des papes !
+lead: Parcourez la ville fortifiée d’Avignon en 3D, devant le palais des Papes, par la place de l’Horloge et jusqu’au pont Saint-Bénezet, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Avignon
+  text: 'Promenez-vous parmi quelque 4 300 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre historique, et le reste de la ville suivra.'
+- title: La cité des papes
+  text: Voyez le palais des Papes et la cathédrale sur le rocher des Doms, traversez la place de l’Horloge jusqu’aux Halles, et descendez jusqu’au pont Saint-Bénezet sur le Rhône.
+- title: 'Une course : intra-muros'
+  text: Foncez de la place de l’Horloge, à l’ombre du palais des Papes, par la rue de la République, le long de la rue Joseph-Vernet, et retour par la rue Saint-Agricol.
+intro: Avignon est une ville fortifiée sur le Rhône, en Provence, dans le sud de la France. Pendant la plus grande partie du XIVe siècle, les papes y ont vécu au lieu de Rome, et ils ont laissé le plus grand palais gothique d’Europe et plus de quatre kilomètres de remparts. Chaque mois de juillet, son festival de théâtre remplit la vieille ville de pièces, d’acteurs et d’affiches.
+famous:
+- Le palais des Papes, le palais-forteresse des papes
+- Le pont cassé de la comptine, Sur le pont d’Avignon
+- Le Festival d’Avignon, l’un des plus anciens et des plus grands festivals de théâtre du monde
+- Le mistral, le vent froid du nord qui descend la vallée du Rhône
+landmarks:
+  palais-des-papes:
+    blurb: Le plus grand palais gothique du monde, bâti quand les papes vivaient à Avignon, de 1309 à 1377.
+  pont-saint-benezet:
+    blurb: Le pont de la chanson « Sur le pont d’Avignon », dont il ne reste que quatre arches.
+  place-de-l-horloge:
+    blurb: La place de la ville, nommée d’après la tour de l’horloge gothique derrière l’hôtel de ville, avec un manège et des terrasses de café.
+  rocher-des-doms:
+    blurb: La colline rocheuse au-dessus du palais, un jardin avec vue sur le Rhône et le pont.
+  notre-dame-des-doms:
+    blurb: La cathédrale romane à côté du palais, surmontée d’une statue dorée de la Vierge.
+  hotel-de-ville:
+    blurb: L’hôtel de ville de 1856 sur la place de l’Horloge, construit autour d’une tour gothique plus ancienne.
+  les-halles:
+    blurb: Le marché couvert derrière un mur végétal, avec les produits de Provence sous un même toit.
+  remparts:
+    name: Remparts
+    blurb: Le mur de pierre de 4,3 kilomètres bâti par les papes, qui entoure toujours toute la vieille ville.
+  rue-de-la-republique:
+    blurb: La large rue de la porte de la gare à la place de l’Horloge, percée à travers la vieille ville au XIXe siècle.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

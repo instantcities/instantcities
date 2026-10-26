@@ -1,0 +1,43 @@
+# New York's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its landmarks' names and blurbs
+# (_data/landmarks/new-york.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant New York: gratis virtuele 3D-rondleiding en game van New York'
+description: 'Maak gratis een virtuele 3D-rondleiding door Midtown Manhattan in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard tussen de wolkenkrabbers van Manhattan!
+lead: Rijd door Midtown Manhattan in 3D, rond 42nd Street, langs Times Square, Bryant Park en de bibliotheek, Grand Central, het Chrysler Building, het Empire State Building en Rockefeller Center, met elke toren uit OpenStreetMap.
+features:
+- title: Het echte Midtown
+  text: 'Dwaal tussen zo’n 6.500 gebouwen, in 3D nagebouwd uit OpenStreetMap, de meeste op hun echte hoogte: kijk omhoog naar het Empire State Building, 443 meter tot de punt van zijn mast, en het Chrysler Building, 319. De rest van de stad volgt nog.'
+- title: Torens, een station en een bibliotheek
+  text: Sta op Times Square onder de schermen, rijd naar het Empire State Building op 34th Street, langs de bibliotheek en Bryant Park op Fifth Avenue, door naar Grand Central en het Chrysler Building op 42nd Street, en omhoog naar Rockefeller Center.
+- title: 'Een race: Midtown Loop'
+  text: Race over Seventh Avenue door Times Square, over 34th Street naar het Empire State Building, Fifth Avenue op langs de bibliotheek, over 42nd Street naar het Chrysler Building en terug langs Rockefeller Center.
+intro: 'New York ligt aan de monding van de Hudson aan de Atlantische kust van de Verenigde Staten: een stad van vijf stadsdelen op eilanden en oevers rond een van de grootste natuurlijke havens ter wereld. Manhattan, het lange eiland in het hart, is een raster van avenues en genummerde straten vol wolkenkrabbers. De Nederlanders stichtten het als Nieuw-Amsterdam, miljoenen immigranten kwamen binnen via de haven, en vandaag is het de grootste stad van de Verenigde Staten en een wereldhoofdstad van geld, theater, kunst en mode.'
+famous:
+- De skyline van Manhattan, met het Empire State Building en het Chrysler Building
+- Times Square en de theaters van Broadway
+- Het Vrijheidsbeeld in de haven
+- Central Park
+- Gele taxi’s en de metro die de hele nacht rijdt
+- Wall Street, en pizza per punt
+landmarks:
+  empire-state:
+    blurb: De art-decotoren op Fifth Avenue en 34th Street, van 1931 tot 1970 het hoogste gebouw ter wereld.
+  times-square:
+    blurb: Het kruispunt van Broadway en Seventh Avenue, onder wanden van lichtschermen, in het hart van het theaterdistrict.
+  chrysler:
+    blurb: De art-decotoren op 42nd Street en Lexington Avenue, met een kroon van stalen bogen en een naald erop.
+  grand-central:
+    blurb: Het grote treinstation op 42nd Street, met zijn hal onder een sterrenhemel en zijn klok van opaal.
+  public-library:
+    name: New York Public Library
+    blurb: De marmeren bibliotheek op Fifth Avenue, bewaakt door de twee stenen leeuwen Patience en Fortitude.
+  rockefeller-center:
+    blurb: De art-decotorens tussen Fifth en Sixth Avenue, met de gouden Prometheus, de schaatsbaan en de kerstboom.
+  bryant-park:
+    blurb: Het groene gazon achter de bibliotheek, met zijn platanen, zijn groene stoelen en in de winter zijn schaatsbaan.
+  st-patricks:
+    blurb: De gotische kathedraal van wit marmer op Fifth Avenue, tegenover Rockefeller Center.
+  macys:
+    blurb: Een van de grootste warenhuizen ter wereld, op 34th Street, waar de Thanksgiving Day Parade eindigt.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

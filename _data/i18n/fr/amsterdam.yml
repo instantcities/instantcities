@@ -1,0 +1,45 @@
+# Amsterdam's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/amsterdam.json) and its landmarks' names and blurbs
+# (_data/landmarks/amsterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Amsterdam : visite virtuelle en 3D et jeu gratuits d’Amsterdam'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre d’Amsterdam dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long des canaux !
+lead: Parcourez le vieux centre d’Amsterdam en 3D, par le Dam, le Palais royal, le Singel et le Spui, avec chaque maison de canal d’OpenStreetMap.
+features:
+- title: Le vrai Amsterdam
+  text: 'Promenez-vous parmi quelque 7 900 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Entre les canaux
+  text: Partez du Dam près du Palais royal, suivez le Singel jusqu’au Spui et au Rokin, et poussez jusqu’à la Westerkerk, au Nieuwmarkt et à la gare centrale.
+- title: 'Une course : Dam et Singel'
+  text: Foncez du Dam devant le Palais royal jusqu’au Singel, le long du canal jusqu’au Spui, et retour par le Rokin jusqu’au Dam.
+intro: Amsterdam est la capitale des Pays-Bas, une ville de canaux, d’étroites maisons de brique et de vélos. Elle est née comme village de pêcheurs près d’une digue sur l’Amstel et, au XVIIe siècle, est devenue le port marchand le plus riche d’Europe. La ceinture de canaux que ses marchands ont creusée pendant ce Siècle d’or tient encore la ville ensemble aujourd’hui.
+famous:
+- La ceinture de canaux du XVIIe siècle, avec ses ponts et ses hautes et étroites maisons de marchands
+- Rembrandt, Van Gogh et le Rijksmuseum
+- La maison d’Anne Frank sur le Prinsengracht
+- Les vélos partout, les bateaux sur les canaux, les trams et les stroopwafels
+landmarks:
+  dam:
+    blurb: La place sur la digue construite en travers de l’Amstel au XIIIe siècle, qui a donné son nom à la ville.
+  koninklijk-paleis:
+    name: Palais royal
+    blurb: Bâti comme hôtel de ville du Siècle d’or, transformé en palais par Louis Bonaparte en 1808.
+  nieuwe-kerk:
+    blurb: L’église du Dam où les rois et reines des Pays-Bas prêtent serment.
+  begijnhof:
+    name: Béguinage
+    blurb: Une cour cachée de vieilles maisons autour d’un jardin, derrière une porte donnant sur le Spui.
+  spui:
+    blurb: Une petite place de librairies et de cafés, avec un marché aux livres le vendredi.
+  bloemenmarkt:
+    name: Marché aux fleurs
+    blurb: Le marché aux fleurs flottant sur le Singel, qui vend bulbes et fleurs depuis 1862.
+  westerkerk:
+    blurb: L’église du Prinsengracht à la plus haute tour d’Amsterdam, coiffée d’une couronne impériale.
+  anne-frank-huis:
+    name: Maison d’Anne Frank
+    blurb: La maison sur le canal où Anne Frank et sa famille se sont cachées des nazis et où elle a écrit son journal.
+  grachtengordel:
+    name: Ceinture de canaux
+    blurb: Le croissant de canaux du XVIIe siècle autour de la vieille ville, inscrit au patrimoine mondial de l’UNESCO.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

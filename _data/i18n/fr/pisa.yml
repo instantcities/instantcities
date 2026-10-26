@@ -1,0 +1,45 @@
+# Pisa's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its landmarks' names and blurbs
+# (_data/landmarks/pisa.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Pisa : visite virtuelle en 3D et jeu gratuits de Pise'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Pise dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Pise, de la tour penchée jusqu’à l’Arno !
+lead: Parcourez le centre de Pise en 3D, de la Piazza dei Miracoli jusqu’à l’Arno, devant la tour penchée et le Duomo, par la Via Santa Maria, les Lungarni et le Ponte di Mezzo, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Pise
+  text: 'Promenez-vous parmi quelque 3 000 bâtiments reconstruits en 3D à partir d’OpenStreetMap, sur les deux rives de l’Arno : un premier morceau du centre, et le reste de la ville suivra.'
+- title: De la tour au fleuve
+  text: Voyez le Duomo, le baptistère, la tour penchée et le Camposanto sur la Piazza dei Miracoli, traversez la Piazza dei Cavalieri et le Borgo Stretto jusqu’à Santa Maria della Spina sur le Lungarno, et descendez le Corso Italia jusqu’à la gare.
+- title: 'Une course : tour et Arno'
+  text: Foncez par la Via Roma jusqu’à la tour penchée, descendez la Via Santa Maria jusqu’à l’Arno, traversez le Ponte di Mezzo, passez devant Santa Maria della Spina, et retour par le Ponte Solferino.
+intro: Pise se trouve sur l’Arno, en Toscane, à quelques kilomètres de la mer. Au Moyen Âge, ce fut l’une des grandes républiques maritimes d’Italie, et sa flotte a payé la cathédrale, le baptistère et le clocher de marbre blanc de la Piazza dei Miracoli. Le clocher a commencé à pencher pendant sa construction et penche depuis. Aujourd’hui, Pise est surtout une ville universitaire, avec ses étudiants sur les places et ses palais le long du fleuve.
+famous:
+- La tour penchée, le clocher qui a commencé à pencher avant d’être achevé
+- La Piazza dei Miracoli, avec le Duomo, le baptistère et le Camposanto en marbre blanc sur une pelouse verte
+- Galilée, né ici, qui étudia et enseigna à l’université
+- Les Lungarni le long de la courbe de l’Arno, illuminés de 70 000 bougies pour la Luminara chaque mois de juin
+- La Scuola Normale et l’université de Pise, parmi les plus anciennes et les plus sélectives d’Italie
+landmarks:
+  torre:
+    name: Tour de Pise
+    blurb: Le clocher de la cathédrale, qui a commencé à pencher avant la fin de son troisième étage et penche depuis, de quatre degrés environ aujourd’hui.
+  duomo:
+    name: Duomo de Pise
+    blurb: La cathédrale de marbre de 1064, payée avec le butin d’un raid sur Palerme, premier grand édifice du roman pisan.
+  battistero:
+    name: Baptistère
+    blurb: Le plus grand baptistère d’Italie, rond et coiffé d’une coupole, où un gardien chante quelques notes toutes les demi-heures pour en faire entendre l’écho.
+  camposanto:
+    blurb: Le cloître de marbre d’un cimetière au nord de la place, qui reposerait sur de la terre rapportée du Golgotha.
+  santa-maria-della-spina:
+    blurb: Une minuscule église gothique au bord de l’Arno, toute en pinacles et en statues, qui gardait autrefois une épine de la couronne du Christ.
+  piazza-dei-cavalieri:
+    blurb: La place des chevaliers de Saint-Étienne, avec le palais peint de Vasari, aujourd’hui la Scuola Normale, et la tour où mourut de faim le comte Ugolin.
+  borgo-stretto:
+    blurb: La vieille rue commerçante de Pise sous les arcades, du Ponte di Mezzo vers le nord dans la ville médiévale.
+  lungarni:
+    name: Les Lungarni
+    blurb: Les rues le long des deux rives de l’Arno, bordées de palais ocre et roses, illuminées de milliers de bougies chaque 16 juin.
+  ponte-di-mezzo:
+    blurb: Le pont du milieu, où la ville traverse l’Arno depuis l’époque romaine, et où le nord et le sud de Pise s’affrontent chaque juin.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

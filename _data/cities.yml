@@ -1,8 +1,9 @@
-# One block per city: its card on the cities page (/cities/), its own page (_layouts/city.html, at
-# /<id>/) and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b
-# where the right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new
-# city needs a block here, an <id>/index.html saying `layout: city` and `city: <id>`, and
-# `node tools/europe.mjs` to place it on the map.
+# One block per city: its card on the cities page (/en/cities/), its own page (_layouts/city.html, at
+# /en/<id>/; in French and Dutch at /fr/<slug>/ and /nl/<slug>/, its words in _data/i18n/<lang>/<id>.yml)
+# and its dot on the map of Europe (lat, lon; map_label: the side its name goes, l, t or b where the
+# right is crowded). The game itself is at /<id>/play/ (made by tools/pages.mjs). A new city needs a
+# block here, its name, card and slug in _data/lang/fr.yml and nl.yml, `node tools/langpages.mjs`
+# for its pages, and `node tools/europe.mjs` to place it on the map.
 # A city marked `soon: true` has no game yet: its page says it is coming, it lists after the
 # playable ones, and search engines leave it alone. It needs only id, name, country and card.
 # (None is, for now: every city on the list has a first map.)

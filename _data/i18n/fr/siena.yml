@@ -1,0 +1,43 @@
+# Siena's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/siena.json) and its landmarks' names and blurbs
+# (_data/landmarks/siena.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Siena : visite virtuelle en 3D et jeu gratuits de Sienne'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Sienne dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Sienne, autour de la Piazza del Campo !
+lead: Parcourez le centre de Sienne en 3D, sur ses trois collines de Toscane, par la Piazza del Campo, devant la Torre del Mangia, la cathédrale rayée et les ruelles de brique des contrade, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: La vraie Sienne
+  text: 'Promenez-vous parmi quelque 1 900 bâtiments reconstruits en 3D à partir d’OpenStreetMap, avec le Duomo et la Torre del Mangia à leur vraie hauteur : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Le Campo et le Duomo
+  text: Entrez dans la coquille de brique rouge du Campo sous le Palazzo Pubblico et la Fonte Gaia, passez devant la Loggia della Mercanzia, montez jusqu’à la cathédrale rayée et Santa Maria della Scala, et regardez San Domenico de l’autre côté du vallon.
+- title: 'Une course : Campo et Duomo'
+  text: Foncez par Banchi di Sopra jusqu’à la Loggia della Mercanzia, dans le Campo sous la Torre del Mangia, montez le Casato jusqu’au Duomo, et retour devant le baptistère par la Via delle Terme.
+intro: Sienne se trouve sur trois collines au milieu de la Toscane, entre les vignes du Chianti et les collines d’argile nues des Crete Senesi. Pendant trois siècles, ce fut une république libre, une ville de banquiers rivale de Florence, et elle a gardé son centre gothique de brique presque tel qu’il était au XIVe siècle, autour de la coquille de la Piazza del Campo. Deux fois chaque été, ses dix-sept contrade y courent le Palio.
+famous:
+- La Piazza del Campo, la place en forme de coquille en son cœur
+- Le Palio, la course de chevaux autour du Campo le 2 juillet et le 16 août
+- La Torre del Mangia et le Palazzo Pubblico, avec les fresques de Lorenzetti sur le bon et le mauvais gouvernement
+- La cathédrale rayée et son pavement de tableaux de marbre
+- Le Monte dei Paschi, la plus ancienne banque du monde encore en activité
+- Le panforte et les ricciarelli
+landmarks:
+  il-campo:
+    blurb: La place en forme de coquille au cœur de Sienne, pavée de brique rouge et descendant vers l’hôtel de ville, où se court le Palio.
+  palazzo-pubblico:
+    blurb: L’hôtel de ville gothique de brique et de pierre au bas du Campo, avec les plus célèbres fresques du bon et du mauvais gouvernement.
+  torre-del-mangia:
+    blurb: La fine tour de brique de l’hôtel de ville, haute de 88 mètres, avec la couronne de pierre de sa chambre des cloches au-dessus du Campo.
+  fonte-gaia:
+    blurb: La fontaine de marbre en haut du Campo, où l’eau des aqueducs souterrains de Sienne arrivait pour la première fois sur la place.
+  duomo:
+    name: Duomo de Sienne
+    blurb: La cathédrale sur la plus haute colline de la ville, rayée de marbre blanc et vert foncé, avec un pavement de tableaux de marbre incrusté.
+  facciatone:
+    blurb: La façade nue de l’immense nouvelle cathédrale que Sienne commença en 1339 et abandonna après la peste noire.
+  santa-maria-della-scala:
+    blurb: L’un des plus anciens hôpitaux d’Europe, face à la cathédrale, qui accueillit pèlerins et enfants trouvés pendant près de mille ans.
+  loggia-della-mercanzia:
+    blurb: La loggia du XVe siècle du tribunal des marchands, au carrefour où se rejoignent les trois grandes rues de Sienne au-dessus du Campo.
+  piazza-salimbeni:
+    blurb: La petite place des palais du Monte dei Paschi, la plus ancienne banque du monde encore en activité.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

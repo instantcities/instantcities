@@ -1,0 +1,42 @@
+# Florence's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/florence.json) and its landmarks' names and blurbs
+# (_data/landmarks/florence.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Florence: gratis virtuele 3D-rondleiding en game van Florence'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Florence in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het Florence van de renaissance!
+lead: Rijd door het hart van Florence in 3D, langs de Duomo, de Piazza della Signoria, de Uffizi en de Ponte Vecchio, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Florence
+  text: 'Dwaal tussen zo’n 4.200 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Florence van de renaissance
+  text: Bekijk de Duomo en het Baptisterium, steek de Piazza della Signoria over langs de Uffizi naar de Ponte Vecchio, en rijd door naar Santa Croce en Santa Maria Novella.
+- title: 'Een race: Duomo en Ponte Vecchio'
+  text: Race van de Duomo over de Via dei Calzaiuoli naar de Piazza della Signoria, door naar de Ponte Vecchio, langs de Arno en via Santa Trinita terug naar het Baptisterium.
+intro: Florence is de hoofdstad van Toscane, een stad van stenen paleizen en rode daken aan de Arno. In de 15e eeuw, onder de Medici, begonnen haar bankiers, architecten en kunstenaars de renaissance, en het werk van Brunelleschi, Botticelli, Leonardo en Michelangelo vult nog altijd haar kerken, pleinen en musea.
+famous:
+- De koepel van Brunelleschi op de kathedraal, nog altijd de grootste bakstenen koepel ter wereld
+- Michelangelo’s David en de schilderijen van de Uffizi
+- De Ponte Vecchio, met de winkeltjes van de goudsmeden op de brug
+- Bistecca alla fiorentina, chiantiwijn en Toscaans leer
+landmarks:
+  duomo:
+    blurb: De kathedraal van Florence, bekroond met de koepel van Brunelleschi, nog altijd de grootste bakstenen koepel ooit gebouwd.
+  campanile-di-giotto:
+    name: Klokkentoren van Giotto
+    blurb: De slanke klokkentoren naast de kathedraal, bekleed met wit, groen en roze marmer.
+  battistero:
+    name: Baptisterium
+    blurb: Het achthoekige doopkapel met de bronzen deuren van Ghiberti, die Michelangelo de Poorten van het Paradijs noemde.
+  piazza-della-signoria:
+    blurb: Het plein van het Palazzo Vecchio, met een kopie van Michelangelo’s David aan de deur.
+  palazzo-vecchio:
+    blurb: Het stadhuis van Florence sinds 1299, gebouwd als een burcht, met zijn hoge toren opzij.
+  loggia-dei-lanzi:
+    blurb: Een open galerij aan het plein, vol beelden, waaronder de Perseus van Cellini met het hoofd van Medusa.
+  uffizi:
+    blurb: De kantoren van de Medici, die een van de grote musea van de wereld werden, met De geboorte van Venus van Botticelli.
+  ponte-vecchio:
+    blurb: De brug van de goudsmeden over de Arno, de enige die de terugtrekkende Duitsers in 1944 lieten staan.
+  piazza-della-repubblica:
+    blurb: Waar het Romeinse forum lag, nu een plein met een draaimolen en oude cafés onder een triomfboog.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

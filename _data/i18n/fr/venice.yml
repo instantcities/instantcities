@@ -1,0 +1,47 @@
+# Venice's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its landmarks' names and blurbs
+# (_data/landmarks/venice.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Venice : visite virtuelle en 3D et jeu gratuits de Venise'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Venise dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans les calli de Venise !
+lead: Parcourez le cœur de Venise en 3D, par la place Saint-Marc, le palais des Doges, les Mercerie et le pont du Rialto, avec chaque calle d’OpenStreetMap.
+features:
+- title: La vraie Venise
+  text: 'Promenez-vous parmi quelque 2 500 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Au-dessus des canaux
+  text: Traversez la place Saint-Marc jusqu’au palais des Doges et au pont des Soupirs, faufilez-vous dans les ruelles des Mercerie et montez sur le pont du Rialto au-dessus du Grand Canal.
+- title: 'Une course : Saint-Marc → Rialto'
+  text: Foncez de la place Saint-Marc sous la tour de l’horloge, par les étroites ruelles commerçantes des Mercerie, jusqu’au pont du Rialto.
+intro: Venise est une ville bâtie sur plus d’une centaine de petites îles, dans une lagune au fond de l’Adriatique, où les canaux remplacent les rues et les bateaux les voitures. Pendant mille ans, elle a été la capitale d’une république marchande et maritime, et ses palais, ses églises et ses places sont encore à peu près tels que ses marchands les ont laissés.
+famous:
+- La place Saint-Marc, la basilique Saint-Marc et le palais des Doges
+- Le Grand Canal, ses gondoles et le pont du Rialto
+- Le Carnaval, avec ses masques et ses costumes
+- Le verre de Murano, la dentelle de Burano et le spritz du soir avec des cicchetti
+landmarks:
+  piazza-san-marco:
+    name: Place Saint-Marc
+    blurb: La seule place de Venise appelée piazza, entourée d’arcades et ouverte sur la lagune.
+  basilica-di-san-marco:
+    name: Basilique Saint-Marc
+    blurb: Bâtie pour les reliques de saint Marc, couverte à l’intérieur de mosaïques dorées.
+  palazzo-ducale:
+    name: Palais des Doges
+    blurb: Le palais gothique rose et blanc d’où les doges gouvernaient la République de Venise.
+  campanile:
+    name: Campanile de Saint-Marc
+    blurb: Le clocher de Saint-Marc, effondré en 1902 et rebâti « là où il était, comme il était ».
+  ponte-dei-sospiri:
+    name: Pont des Soupirs
+    blurb: Le pont de pierre couvert entre le palais des Doges et les prisons, construit en 1600.
+  ponte-di-rialto:
+    name: Pont du Rialto
+    blurb: Le pont de pierre de 1591 sur le Grand Canal, avec des boutiques le long de son arche.
+  canal-grande:
+    name: Grand Canal
+    blurb: La grande voie d’eau en forme de S au milieu de Venise, bordée de palais.
+  mercerie:
+    blurb: La suite d’étroites ruelles commerçantes de Saint-Marc au Rialto, le parcours de la course dans le jeu.
+  la-fenice:
+    blurb: L’opéra de Venise, qui est plus d’une fois ressuscité de ses cendres, comme son nom le promet.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

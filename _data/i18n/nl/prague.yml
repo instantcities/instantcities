@@ -1,0 +1,46 @@
+# Prague's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/prague.json) and its landmarks' names and blurbs
+# (_data/landmarks/prague.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Prague: gratis virtuele 3D-rondleiding en game van Praag'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Praag in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door de oude stad van Praag!
+lead: Rijd door de oude stad van Praag in 3D, over het Oudestadsplein, langs het astronomisch uurwerk, de Týnkerk en de Karelsbrug, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Praag
+  text: 'Dwaal tussen zo’n 1.900 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: De oude stad
+  text: Sta op het Oudestadsplein onder het astronomisch uurwerk en de Týnkerk, rijd door de Joodse wijk en naar beneden naar de rivier bij de Karelsbrug.
+- title: 'Een race: oude stad'
+  text: Race van het Oudestadsplein over de Pařížská door de Joodse wijk naar de rivier, langs de Karelsbrug en over de Karlova terug naar het astronomisch uurwerk.
+intro: Praag is de hoofdstad van Tsjechië en de grootste stad van Bohemen, gebouwd op beide oevers van de Moldau. Het oude centrum kwam bijna ongeschonden door de oorlogen van de 20e eeuw, zodat gotische torens, barokke kerken en art-nouveaugevels nog altijd dezelfde straten omzomen, onder een burcht van waaruit koningen, keizers en presidenten al meer dan duizend jaar regeren.
+famous:
+- De Karelsbrug en haar beelden, met de Praagse Burcht op de heuvel erachter
+- Het Oudestadsplein, de Týnkerk en het astronomisch uurwerk dat sinds 1410 de uren slaat
+- De Joodse stad, met haar synagogen en oude begraafplaats, en de stad van Franz Kafka
+- Tsjechisch bier, pils getapt met een dikke schuimkraag, en de rode trams op de kasseien
+landmarks:
+  staromestske-namesti:
+    name: Oudestadsplein
+    blurb: Het grote plein van de oude stad, met de Týnkerk, het astronomisch uurwerk en het monument voor Jan Hus.
+  orloj:
+    name: Astronomisch uurwerk
+    blurb: 'Gemaakt in 1410: elk uur trekken de twaalf apostelen langs de raampjes terwijl de Dood zijn klokje luidt.'
+  tyn:
+    name: Týnkerk
+    blurb: De gotische kerk met twee puntige torens van 80 meter, achter de huizen op het Oudestadsplein.
+  karluv-most:
+    name: Karelsbrug
+    blurb: De stenen brug uit 1357 over de Moldau, met dertig heiligenbeelden langs de rand.
+  mostecka-vez:
+    name: Brugtoren van de oude stad
+    blurb: De gotische poorttoren aan de kant van de oude stad van de Karelsbrug, een van de mooiste van Europa.
+  klementinum:
+    blurb: Het reusachtige jezuïetencollege naast de brug, met een barokke bibliotheekzaal en een sterrenwachttoren.
+  josefov:
+    blurb: De Joodse wijk van Praag, met oude synagogen en de Oude Joodse Begraafplaats.
+  staronova-synagoga:
+    name: Oud-Nieuwe Synagoge
+    blurb: Gebouwd rond 1270, de oudste synagoge van Europa die nog in gebruik is.
+  rudolfinum:
+    blurb: De neorenaissancistische concertzaal aan de Moldau, thuis van de Tsjechische Filharmonie.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

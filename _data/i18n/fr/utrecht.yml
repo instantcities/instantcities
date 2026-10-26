@@ -1,0 +1,45 @@
+# Utrecht's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/utrecht.json) and its landmarks' names and blurbs
+# (_data/landmarks/utrecht.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+title: 'Instant Utrecht : visite virtuelle en 3D et jeu gratuits d’Utrecht'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre d’Utrecht dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Utrecht, autour du Dom !
+lead: Parcourez le centre d’Utrecht en 3D, autour du plus haut clocher des Pays-Bas, par le Domplein, l’Oudegracht, le Janskerkhof et le Kromme Nieuwegracht, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Utrecht
+  text: 'Promenez-vous parmi quelque 6 500 bâtiments reconstruits en 3D à partir d’OpenStreetMap, avec la tour du Dom à ses vrais 112 mètres : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Autour du Dom
+  text: Traversez le Domplein entre la tour du Dom et l’église du Dom, suivez l’Oudegracht et le Vismarkt, trouvez la Pieterskerk et la Paushuize sur le Kromme Nieuwegracht, et le marché aux fleurs du Janskerkhof.
+- title: 'Une course : autour du Dom'
+  text: Foncez du Janskerkhof par le Drift et le Kromme Nieuwegracht, à travers le Domplein sous la tour du Dom, et retour par le Vismarkt le long de l’Oudegracht.
+intro: Utrecht se trouve au centre des Pays-Bas, là où les Romains gardaient autrefois le Rhin. Pendant mille ans, elle a été le siège des évêques qui ont apporté le christianisme au nord, et sa vieille ville tourne toujours autour de la tour du Dom, le plus haut clocher du pays. Ses canaux médiévaux coulent bas entre des quais aux caves creusées sous la rue, et c’est aujourd’hui une ville universitaire animée où l’on se déplace surtout à vélo.
+famous:
+- La tour du Dom, haute de 112 mètres, séparée de son église
+- L’Oudegracht, le canal avec ses caves de quai et ses terrasses au bord de l’eau
+- L’Union d’Utrecht de 1579 et le traité d’Utrecht de 1713
+- Miffy, la lapine que Dick Bruna a dessinée ici
+- La chaise rouge et bleue et la maison Schröder de Gerrit Rietveld
+- Le plus grand parking à vélos du monde, sous la gare
+landmarks:
+  domtoren:
+    name: Tour du Dom
+    blurb: Le plus haut clocher des Pays-Bas, 112 mètres de brique et de pierre gothiques, isolé depuis qu’une tempête a abattu la nef.
+  domkerk:
+    name: Église du Dom
+    blurb: 'Ce qui reste de la cathédrale gothique d’Utrecht : le chœur et le transept, séparés de leur tour depuis l’effondrement de la nef en 1674.'
+  pandhof:
+    blurb: Le paisible jardin du cloître à côté de l’église du Dom, planté des herbes d’un jardin de monastère médiéval.
+  oudegracht:
+    blurb: Le canal médiéval d’Utrecht, avec ses quais au ras de l’eau et ses vieilles caves sous la rue, aujourd’hui pleines de cafés.
+  janskerkhof:
+    blurb: La place arborée autour de la Janskerk, avec un marché aux fleurs chaque samedi.
+  pieterskerk:
+    blurb: L’une des plus anciennes églises des Pays-Bas, une église romane de 1048 avec une crypte sous son chœur.
+  speelklok:
+    name: Musée Speelklok
+    blurb: Un musée des instruments de musique mécanique, des boîtes à musique aux grands orgues de danse, dans la Buurkerk médiévale.
+  academiegebouw:
+    blurb: Le bâtiment principal de l’université d’Utrecht sur le Domplein, où l’Union d’Utrecht fut signée en 1579.
+  paushuize:
+    blurb: La maison du Kromme Nieuwegracht bâtie pour Adrien d’Utrecht, qui devint le seul pape néerlandais.
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).
