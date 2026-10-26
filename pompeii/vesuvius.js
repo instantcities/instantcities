@@ -6,7 +6,7 @@ import { Kit, kitMat } from '../core/js/kit.js';
 import { game } from './frame.js';
 
 const S = 1.25;
-const SLOPE = '#8a7a64', ROCK = '#6f6252', GREEN = '#7f8a56';
+const SLOPE = '#7c8a98', ROCK = '#68727e', GREEN = '#6c8272';
 
 function vesuvius() {
   const kit = new Kit();

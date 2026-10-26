@@ -16,8 +16,8 @@ export function stones() {
     const ux = (x1 - x0) / d, uz = (z1 - z0) / d, yaw = Math.atan2(-uz, ux);
     for (const o of [-2.6, 0, 2.6]) {
       const x = x1 - uz * o, z = z1 + ux * o;
-      kit.box(1.5, 0.7, 1.9, '#6c6a66', x, 0.2, z, 0, yaw, 0);
-      kit.box(1.55, 0.12, 1.95, '#8a8782', x, 0.58, z, 0, yaw, 0);
+      kit.box(1.5, 0.7, 1.9, '#55524c', x, 0.2, z, 0, yaw, 0);
+      kit.box(1.55, 0.12, 1.95, '#6e6b64', x, 0.58, z, 0, yaw, 0);
     }
   }
   return kit.mesh(kitMat(0.95));
