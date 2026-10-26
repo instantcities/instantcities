@@ -1110,24 +1110,6 @@ a.chip { text-decoration: none; }
 #bigmap.full .bighint { display: none; }
 #bigmap.full #bigIndex { width: 100vw; height: 100%; border: 0; border-radius: 0; box-shadow: none; }
 
-/* BETA sticker next to the game's name: still in development */
-.title .beta {
-  display: inline-block;
-  vertical-align: super;
-  margin-left: 0.15em;
-  padding: 0.12em 0.4em;
-  font-size: 0.3em;
-  line-height: 1;
-  color: var(--ink);
-  background: var(--gold);
-  border: 0.08em solid var(--ink);
-  border-radius: 0.3em;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
-  letter-spacing: 0.05em;
-  transform: rotate(-8deg);
-}
-
 /* Missions: pick one on the menu (exploring freely, or a quest), read what it is about, then the
    HUD shows the time left and an arrow to where you have to go. */
 .questrow { display: block; text-align: center; margin: 6px 0 2px; }
@@ -1805,11 +1787,6 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 /* "Instant Cities" small above the city's name */
 .title .brandline { display: block; margin-bottom: 0.15em; font-size: max(13px, 0.26em); font-weight: 600; letter-spacing: 0; color: var(--muted); }
 .overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
-.overlay .title .beta, #loader .title .beta {
-  vertical-align: 0.9em; margin-left: 8px; padding: 3px 7px;
-  font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted);
-  background: none; border: 1px solid currentColor; border-radius: 4px; transform: none;
-}
 .overlay .tag { font-weight: 500; font-size: 16px; color: var(--muted); }
 
 .overlay .row { border-width: 2px; border-radius: 8px; }
@@ -1953,7 +1930,6 @@ body.pro .phead, body.pro .brief-time, body.pro .qinfo, body.pro #bigList h3, bo
 }
 body.pro .chip, body.pro .arrow { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
 body.pro .title, body.pro #menu .title { -webkit-text-stroke-width: 0; text-shadow: none; color: var(--accent); letter-spacing: -0.01em; }
-body.pro .title .beta { color: #5b6b82; }
 body.pro .tag, body.pro .credit, body.pro .foot { color: #4a5b74; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
 body.pro .card { border-width: 2px; border-radius: 6px; box-shadow: 0 8px 28px rgba(11, 37, 69, 0.28); }
 body.pro .chip { border-width: 2px; border-radius: 4px; }

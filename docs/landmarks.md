@@ -57,7 +57,7 @@ comes into sight. `core/js/arcade.js` has the parts that come back in landmark a
   brackets, and `stand` for a ruin (storeys gone, or broken off through their arches).
 - `square`, `polygon`: the sides of a tower (square, or an octagon) as paths, each with its outside
   to its right, `archRing` and `pointedRing`: a round or a Gothic arch's opening, to cut through a
-  wall or to lay on it as a panel.
+  wall or to lay on it as a panel, `gable`: a pitched roof over a rectangle.
 - `onMap` and `rect`: a ring in the model's own metres placed on the map at the monument's x, z and
   turn, for its `area`, `foot` and `paths`.
 
@@ -86,6 +86,11 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Florence | Porcellino | `florence/porcellino.js` | bump into his plinth |
 | Berlin | Brandenburger Tor | `berlin/tor.js` | go through its five passages |
 | Venice | Campanile di San Marco and the Loggetta | `venice/campanile.js` | bump into both |
+| Venice | Basilica di San Marco | `venice/basilica.js` | bump into it |
+| Venice | Palazzo Ducale | `venice/ducale.js` | bump into it |
+| Venice | Ponte di Rialto | `venice/rialto.js` | ride over it, through the portico (the map's level deck) |
+| Venice | Ponte dei Sospiri, Torre dell'Orologio, the Piazzetta's columns, the flagpoles | `venice/piazza.js` | ride through the clock tower's arch |
+| Venice | La Fenice's front | `venice/fenice.js` | ride past it |
 | Copenhagen | Rundetårn | `copenhagen/rundetaarn.js` | bump into it |
 | Prague | Prašná brána | `prague/prasna-brana.js` | ride through it along Celetná |
 | London | Elizabeth Tower (Big Ben) | `london/elizabeth-tower.js` | bump into it |
@@ -98,8 +103,43 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | London | National Gallery | `london/national-gallery.js` | bump into it and the portico's podium |
 | London | Nelson's Column | `london/nelson.js` | bump into its steps and the lions' plinths |
 | Paris | Tour Saint-Jacques | `paris/saint-jacques.js` | bump into it |
+| Paris | Tour Eiffel | `paris/eiffel.js` | ride in under it between its legs |
+| Paris | Notre-Dame | `paris/notre-dame.js` | bump into it |
+| Paris | Sainte-Chapelle | `paris/sainte-chapelle.js` | bump into it |
+| Paris | the Conciergerie's towers and the Tour de l'Horloge | `paris/conciergerie.js` | bump into them |
+| Paris | Hôtel de Ville | `paris/hotel-de-ville.js` | bump into it |
+| Paris | Centre Pompidou | `paris/pompidou.js` | bump into it |
+| Paris | Pont Neuf and Henri IV | `paris/pont-neuf.js` | ride over it (the map's deck) |
+| Paris | Palais du Louvre and the Arc du Carrousel | `paris/louvre.js` | ride into the Cour Carrée and through the Guichets |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Florence | Loggia del Mercato Nuovo | `florence/mercato-nuovo.js` | ride in between its piers and columns |
+| Prague | the Týn church's towers | `prague/tyn.js` | bump into them (the nave stays the map's) |
+| Prague | the Old Town Hall's tower and the Orloj | `prague/orloj.js` | bump into it |
+| Prague | the Old Town Bridge Tower | `prague/mostecka-vez.js` | go through it along the Charles Bridge |
+| Berlin | Fernsehturm | `berlin/fernsehturm.js` | bump into its foot |
+| Amsterdam | Westertoren | `amsterdam/westertoren.js` | bump into it (the church stays the map's) |
+| Antwerp | Brabofontein | `antwerp/brabo.js` | bump into its basin |
+| Madrid | El Oso y el Madroño, Felipe III | `madrid/oso.js`, `madrid/felipe.js` | bump into their pedestals |
+| Vienna | Pestsäule | `vienna/pestsaeule.js` | bump into its steps |
+| Brussels | Hôtel de Ville and its tower | `brussels/hotel-de-ville.js` | bump into it |
+| Brussels | the Grand-Place's guild houses, the Maison du Roi, the Ducs de Brabant | `brussels/grand-place.js` | ride round the square |
+| Brussels | Bourse, the cathedral's west front, Galeries Saint-Hubert, Manneken Pis | `brussels/monuments.js` | ride through the galleries |
+| Bruges | Stadhuis's front | `bruges/burg.js` | ride past it on the Burg |
+| Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
+| Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
+| Bruges | Gruuthusepaleis | `bruges/gruuthuse.js` | bump into it |
+
+The Eiffel Tower is not built on the arcade generator but of rods (`Kit.rod`): each leg a lattice
+box of four chords braced in crosses, following the tower's curve from its measured widths at each
+floor. Paris's map was stretched west along the Seine to the Champ de Mars for it.
+
+The palaces and big blocks (the Hôtel de Ville, the Louvre) are blocks on their outlines with
+mansards (`Kit.frustum`, a block narrowing to its top), rows of windows and pavilions under tall
+roofs. The Louvre's wings are drawn by hand rather than taken from the map, whose one outline of
+the palace fills in its courtyards. The Pont Neuf's arches show only as their crowns, as the river
+lies just 2.4 m under the streets in the game. A monument built over a street of the map (the
+Hôtel de Ville's courtyard road) names it in `streets`, so the street goes (`core/js/landmarks.js`).
 
 They were drawn from their measurements and from memory of photos, without Mapillary or Commons
 photos at hand: with those, their details (the reliefs, the statues, the tracery) can be sharpened.
@@ -119,8 +159,11 @@ In Rome:
   shapes; with photos at hand they deserve better ones.
 - The fountains' water is the map's sunk pool, and the Fontana dei Quattro Fiumi's grotto is a
   heap of rocks round an opening rather than a carved cliff.
+
 The Belfort stands without the Halle behind it, which the map does not have as a building; the
 Loggia, the Campanile, the Elizabeth Tower and the Colom drop the map's footways drawn across them.
+The Old Town Hall's tower in Prague had only its top in the map, floating; the Old Town Bridge
+Tower was solid though the bridge goes through it.
 
 London's two Gothic buildings, the Houses of Parliament and Westminster Abbey, share
 `london/gothic.js`: a range of walls with rows of pointed windows between buttresses that rise as
@@ -140,10 +183,15 @@ Open there:
   of its own) would let them stand at their real height of some 10 m.
 - The Palazzo Vecchio's wings behind Arnolfo's block and the deep parts of the Uffizi's outline get
   flat roofs of tiles; their real roofs are hipped, wing by wing.
-- The Loggia del Mercato Nuovo behind the Porcellino is still the map's closed block; it is an open
-  loggia of twenty columns.
+- The Loggia del Mercato Nuovo behind the Porcellino (`florence/mercato-nuovo.js`) is open now, but
+  with three bays by four and six free columns inside, fewer than its real twenty columns.
 
 Next in line: St Peter's colonnade (an arc of Tuscan columns), the arcades round Piazza San Marco,
-the Arena of Verona, the Roman theatre of Lecce, the Pont Saint-Bénezet in Avignon (its arches
-broken off in the Rhône, but the map has a footway along it at the water's level: the deck would
-have to be lifted with it, a map fix of its own).
+the Arena of Verona, the Roman theatre of Lecce, and from the sites' lists: Het Steen in Antwerp
+(one outline of 57 points, round towers and all), the Koninklijk Paleis and Antwerp's cathedral tower
+(both already stacked in the map from many parts, so less to gain). Waiting on a map fix:
+- the Pont Saint-Bénezet in Avignon: the map has a footway along it at the water's level, so its deck
+  would have to be lifted with it.
+- the Ponte dei Sospiri in Venice: the map has the Palazzo Ducale and the prisons touching, with the
+  Rio di Palazzo under them, so there is no gap for the bridge to cross.
+- Børsen in Copenhagen is not in the map at all.

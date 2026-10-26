@@ -8,6 +8,9 @@
 //            runner a metre, that you may not run into)
 //   collect: pick up `count` things lying about without being caught; `item` is 'cap' by default or
 //            'pasticciotto', `look` the crowd of 'students' by default or 'pizzica' dancers
+//   rescue:  fly the police helicopter (`heli`) from `pad` to each of `victims` ([x, z, name]) in
+//            turn, fly through `radius` of each, not too high, to pick them up, then land
+//            with them all at `drop` ([x, z, name]); `legs` in the text: the HUD on the way to each
 // text: the words for each language. title and where on the menu card, story before the start, hud
 // while playing, done the moment it is won, then win or lose (losePuke: lost by being caught by a
 // dancer, loseRun: by running into a runner).
@@ -182,6 +185,35 @@ export const QUESTS = [
         win: '🎺 ¡En la Porta Rudiae, sin molestar a la procesión!',
         lose: '🎺 Demasiado tarde, la Porta Rudiae aún queda lejos.',
         loseRun: '💥 ¡Pum! Te metiste de lleno en la procesión de Sant’Oronzo.',
+      },
+    },
+  },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [45, 263], pad: [45, 263], radius: 16,
+    victims: [[789, -594, 'Via Quattro Novembre'], [1239, -183, 'Via Imperatore Adriano']], drop: [417, 141, 'Piazza Sant\'Oronzo'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Piazza del Duomo. Red twee toeristen en breng ze naar de Piazza Sant’Oronzo.',
+        story: 'Alarm! Op de heetste dag van het jaar sprongen twee toeristen in de fonteinen om af te koelen, en nu raken ze er niet meer uit: één in de fontein in de Via Quattro Novembre, de andere in de fontein in de Via Imperatore Adriano! Stijg op, vlieg door de cirkel boven elke toerist, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Piazza Sant’Oronzo, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de toeristen!',
+        legs: ['🚁 Naar de Via Quattro Novembre!', '🚁 Naar de Via Imperatore Adriano!', '🚁 Naar de Piazza Sant’Oronzo, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee toeristen veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de brandweer heeft ze er al uit gevist.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Piazza del Duomo. Save two tourists and fly them to the Piazza Sant’Oronzo.',
+        story: 'Alarm! On the hottest day of the year two tourists jumped into the fountains to cool off, and now they can’t get out: one in the fountain on Via Quattro Novembre, the other in the fountain on Via Imperatore Adriano! Take off, fly through the circle over each tourist, not too high, and the winch has them up at once; then fly both to the Piazza Sant’Oronzo, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the tourists!',
+        legs: ['🚁 To Via Quattro Novembre!', '🚁 To Via Imperatore Adriano!', '🚁 To the Piazza Sant’Oronzo, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two tourists safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade has fished them out already.',
       },
     },
   },

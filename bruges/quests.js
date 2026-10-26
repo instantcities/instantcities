@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-628, 164], pad: [-628, 164], radius: 16,
+    victims: [[36, 815, 'Minnewater'], [157, 9, 'Dijver']], drop: [-44, -306, 'Markt'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan ’t Zand. Red twee zwemmers en breng ze naar de Markt, onder het Belfort.',
+        story: 'Alarm! Er raakt een zwemmer in nood in het Minnewater, en nóg iemand gaat bijna kopje-onder in de reie langs de Dijver! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Markt, onder het Belfort, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar het Minnewater!', '🚁 Naar de Dijver!', '🚁 Naar de Markt, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at ’t Zand. Save two swimmers and fly them to the Markt, under the Belfry.',
+        story: 'Alarm! A swimmer is in trouble in the Minnewater, the Lake of Love, and a second one is about to go under in the canal along the Dijver! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Markt, under the Belfry, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Minnewater!', '🚁 To the Dijver!', '🚁 To the Markt, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];
