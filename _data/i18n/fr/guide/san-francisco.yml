@@ -1,0 +1,110 @@
+# san-francisco's guide in French (_data/about/san-francisco.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- États-Unis
+- Californie
+- Environ 830 000 habitants (ville), 7,7 millions dans la Bay Area
+- À la pointe d’une péninsule entre le Pacifique et la baie de San Francisco
+- Du niveau de la mer à 282 m au mont Davidson, sur plus de quarante collines
+- Anglais, avec le chinois et l’espagnol très parlés
+- Le Golden Gate Bridge, les cable cars, le brouillard et les collines
+- 1776, comme fort et mission espagnols
+overview:
+- Le centre de San Francisco se trouve dans son angle nord-est, au bord de la baie. Market Street va du Ferry Building, sur le front de mer, vers le sud-ouest à travers la ville, et au nord s’étendent les tours du Financial District, Union Square avec ses boutiques et ses hôtels, Chinatown le long de Grant Avenue et North Beach, l’ancien quartier italien autour de Washington Square. Au-dessus de tout cela s’élève Telegraph Hill, couronnée de la Coit Tower, et le long de la baie court l’Embarcadero, devant les jetées.
+- 'Instant San Francisco vous emmène au cœur de la ville : le long de Grant Avenue à travers Chinatown jusqu’à la Dragon Gate, le long de Bush Street dans le Financial District, le long de Market Street jusqu’au Ferry Building, le long de l’Embarcadero au bord de la baie et retour par Washington Street, devant la Transamerica Pyramid et Portsmouth Square. À la différence de la vraie ville, le jeu est plat.'
+setting:
+- San Francisco couvre la pointe nord de la péninsule de San Francisco, large d’environ onze kilomètres. Le Pacifique est à l’ouest, le détroit du Golden Gate au nord et la baie à l’est, avec Oakland et Berkeley sur la rive d’en face. Les rues suivent un damier rectiligne sur plus de quarante collines, si bien que beaucoup grimpent des pentes qu’aucune voiture n’affronterait ailleurs. La faille de San Andreas passe juste au large, à l’ouest.
+- 'Le climat est doux toute l’année. Les hivers sont frais et apportent l’essentiel de la pluie, et les étés sont frais aussi : bien des après-midi, le brouillard arrive de l’océan par le Golden Gate et couvre le pont et la moitié ouest de la ville, tandis que le soleil brille encore du côté de la baie. Il ne neige presque jamais.'
+today:
+- San Francisco compte environ 830 000 habitants et est le centre culturel d’une Bay Area de près de huit millions de personnes. Beaucoup des grandes entreprises technologiques du monde ont leurs bureaux ici ou juste au sud, et la ville est connue pour ses restaurants, ses parcs et sa longue histoire de lieu où l’on vient vivre autrement.
+- Les visiteurs prennent les cable cars, traversent le Golden Gate Bridge à pied, prennent le ferry pour Alcatraz et mangent au Ferry Building et à Fisherman’s Wharf. Le logement y est parmi les plus chers du pays, et la ville débat encore de la façon dont elle doit grandir.
+history:
+- title: Une mission et une crique
+  text:
+  - Les Ohlone vivaient autour de la baie depuis des milliers d’années avant l’arrivée des Espagnols. En 1776, l’Espagne fonda sur la péninsule un fort, le Presidio, et la mission San Francisco de Asís, nommée d’après saint François d’Assise.
+  - En 1835, un petit village de commerce, Yerba Buena, grandit près d’une crique de la baie, autour d’une plaza qui est aujourd’hui Portsmouth Square. En 1846, pendant la guerre contre le Mexique, l’équipage de l’USS Portsmouth hissa le drapeau américain sur cette plaza, et un an plus tard le village prit le nom de San Francisco.
+- title: La ruée vers l’or
+  text:
+  - En 1848, de l’or fut découvert dans les contreforts de la Sierra Nevada, et San Francisco était le port par où tout le monde passait. En deux ans, le village d’un millier d’habitants devint une ville de dizaines de milliers de personnes, de tentes, de baraques et de salles de jeu. Les équipages abandonnaient leurs navires dans la crique pour aller creuser, et certains navires servirent de magasins et de logements.
+  - 'La crique fut comblée pour gagner du terrain, navires compris, et le rivage recula de plusieurs pâtés de maisons. Montgomery Street, où se dresse aujourd’hui la Transamerica Pyramid, fut autrefois au bord de l’eau. Des migrants chinois vinrent aussi et s’installèrent autour de l’ancienne plaza : le début de Chinatown.'
+- title: Le tremblement de terre et l’incendie
+  text:
+  - À 5 h 12 du matin, le 18 avril 1906, un grand tremblement de terre secoua la ville. Des conduites de gaz se rompirent et des incendies éclatèrent partout, et les conduites d’eau étant rompues aussi, ils brûlèrent pendant trois jours. Environ 28 000 bâtiments furent perdus, la plus grande partie de la ville à l’est de Van Ness Avenue, et quelque trois mille personnes moururent.
+  - La ville fut rebâtie vite, sur le même plan de rues. Chinatown revint avec des toits de pagode, et en 1915 San Francisco organisa une exposition universelle, la Panama-Pacific International Exposition, pour montrer qu’elle s’était relevée.
+- title: Ponts, Beats et technologie
+  text:
+  - Le Bay Bridge vers Oakland ouvrit en 1936 et le Golden Gate Bridge en 1937, et les ferries perdirent la plupart de leurs passagers. Dans les années 1950, les poètes de la Beat Generation se réunirent à North Beach autour de la librairie City Lights, et en 1967 des jeunes de tout le pays vinrent à Haight-Ashbury pour le Summer of Love.
+  - Le 17 octobre 1989, le tremblement de terre de Loma Prieta endommagea l’autoroute à deux étages le long de l’Embarcadero, et la ville la démolit, rouvrant le front de mer. Depuis les années 1990, les entreprises technologiques de la Silicon Valley se sont étendues dans la ville, et de nouvelles tours comme la Salesforce Tower se sont élevées au sud de Market Street.
+timeline:
+- - '1776'
+  - L’Espagne fonde le Presidio et la mission San Francisco de Asís
+- - '1835'
+  - Le village de Yerba Buena grandit près de la crique
+- - '1846'
+  - Le drapeau américain est hissé sur la plaza, aujourd’hui Portsmouth Square
+- - '1847'
+  - Yerba Buena est rebaptisée San Francisco
+- - '1848'
+  - De l’or est découvert dans la Sierra Nevada ; la ruée vers l’or commence
+- - '1873'
+  - Andrew Hallidie fait rouler le premier cable car sur Clay Street
+- - '1898'
+  - Le Ferry Building ouvre
+- - '1906'
+  - Le tremblement de terre et l’incendie détruisent la plus grande partie de la ville
+- - '1915'
+  - La Panama-Pacific International Exposition
+- - '1933'
+  - La Coit Tower est achevée sur Telegraph Hill
+- - '1937'
+  - Le Golden Gate Bridge ouvre
+- - '1953'
+  - City Lights ouvre sur Columbus Avenue
+- - '1972'
+  - La Transamerica Pyramid est achevée
+- - '1989'
+  - Le tremblement de terre de Loma Prieta ; l’Embarcadero Freeway est démoli deux ans plus tard
+places:
+  union-square:
+    blurb: La place des grands magasins et des hôtels, avec le monument Dewey au milieu.
+  powell-street:
+    blurb: La rue des cable cars, de leur plaque tournante à Market Street jusqu’à Nob Hill.
+  dragon-gate:
+    blurb: La porte aux toits verts de Chinatown, à Grant Avenue et Bush Street.
+  grant-avenue:
+    blurb: La rue principale de Chinatown, sous des guirlandes de lanternes rouges.
+  portsmouth-square:
+    blurb: L’ancienne plaza de Yerba Buena, où la ville a commencé, aujourd’hui le salon de Chinatown.
+  california-street:
+    blurb: La ligne de cable car du Financial District jusqu’à Nob Hill, devant Old St. Mary’s.
+  transamerica-pyramid:
+    blurb: La pyramide blanche de 1972, haute de 260 mètres.
+  jackson-square:
+    blurb: Quelques pâtés de maisons de briques de la ruée vers l’or qui ont survécu à l’incendie de 1906.
+  market-street:
+    blurb: La grande avenue de la ville, du Ferry Building vers le sud-ouest à travers la ville.
+  ferry-building:
+    blurb: Le terminal de ferries de 1898 avec sa tour d’horloge, aujourd’hui une halle gourmande.
+  embarcadero:
+    blurb: Le boulevard le long de la baie et de ses jetées, avec des palmiers et de vieux tramways.
+  columbus-avenue:
+    blurb: La rue en diagonale de North Beach, de la Transamerica Pyramid à la baie.
+  city-lights:
+    blurb: La librairie des poètes de la Beat Generation, à Columbus Avenue et Broadway.
+  washington-square:
+    blurb: Le parc de North Beach, devant l’église des Saints-Pierre-et-Paul.
+  telegraph-hill:
+    blurb: La colline escarpée au-dessus de la baie, avec des maisons de bois le long des Filbert Steps et des perruches sauvages.
+  coit-tower:
+    blurb: La tour de béton au sommet de Telegraph Hill, avec des fresques à l’intérieur.
+links:
+- title: San Francisco Travel
+  note: Le site touristique de la ville
+- title: 'SFMTA : cable cars'
+  note: Lignes, tarifs et histoire des cable cars
+- title: Ferry Building Marketplace
+  note: La halle gourmande et le marché de producteurs
+- title: City Lights Booksellers
+  note: La librairie des poètes de la Beat Generation
+- title: San Francisco sur Wikipédia
+  note: L’article de l’encyclopédie

@@ -1,0 +1,106 @@
+# utrecht's guide in Dutch (_data/about/utrecht.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Nederland
+- Utrecht, waarvan het de hoofdstad is
+- Ongeveer 370.000 inwoners (stad)
+- De Kromme Rijn en de Vecht, verbonden door de grachten van de oude stad
+- Als Romeins fort aan de Rijn, rond 47 n.Chr.
+- Universiteit Utrecht, gesticht in 1636
+- Het Rietveld Schröderhuis (2000) en het Romeinse fort onder het Domplein, onderdeel van de Neder-Germaanse Limes (2021)
+- De Domstad
+overview:
+- 'Utrechts oude stad is een ovaal omringd door de oude stadsgracht, de Singel, en van zuid naar noord doorsneden door de Oudegracht. De Domtoren en het Domplein liggen in het hart, met de vier kerken die bisschop Bernold in een kruis rond de kathedraal plaatste: de Pieterskerk, de Janskerk en twee die verdwenen zijn. De Nieuwegracht en de Kromme Nieuwegracht lopen door het rustiger, groene oosten, langs kanunnikenhuizen en het Paushuize.'
+- 'Instant Utrecht brengt je rond dat hart: van de bloemenmarkt op het Janskerkhof langs de Drift en de Kromme Nieuwegracht, langs de Pieterskerk en het Paushuize, door het Domplein onder de toren, en langs de Vismarkt bij de Oudegracht en terug. Het land is vlak, en het spel ook.'
+setting:
+- Utrecht ligt in het midden van Nederland, zo’n 40 kilometer ten zuidoosten van Amsterdam, waar de oude loop van de Rijn, nu de Kromme Rijn, de Vecht ontmoet. Eromheen liggen de beboste zandrug van de Utrechtse Heuvelrug in het oosten, de veenweiden en plassen in het noorden en westen, en een ring van nieuwe woonwijken, waarvan Leidsche Rijn de grootste is.
+- Het station, Utrecht Centraal, is het drukste spoorwegknooppunt van het land, waar de lijnen uit alle richtingen samenkomen, en de fietsenstalling onder het stationsplein biedt plaats aan 12.500 fietsen. Het klimaat is zacht en vochtig, met koele zomers en winters die zelden lang vriezen.
+today:
+- Utrecht is een van de snelst groeiende steden van het land, een universiteits- en dienstenstad in het centrum van het spoornet. De meeste mensen gaan op de fiets, en de oude stad is voor de meeste auto’s afgesloten.
+- ’s Avonds lopen de terrassen op de werven van de Oudegracht vol, op zaterdag verspreidt de bloemenmarkt zich over het Janskerkhof, en in zomernachten verlicht de wandeling Trajectum Lumen de bruggen, werven en kerkmuren van de oude stad.
+history:
+- title: Een Romeins fort en de eerste bisschoppen
+  text:
+  - Rond 47 n.Chr. bouwden de Romeinen hier een fort aan de Rijn, Traiectum, de doorwaadbare plaats, als onderdeel van de Limes, de grens van hun rijk. De resten liggen onder het Domplein.
+  - In 695 kwam de Engelse monnik Willibrord de Friezen bekeren en maakte het oude fort zijn basis. Vanaf dat moment was Utrecht de zetel van de bisschoppen van het noorden, die ook machtige heren werden en over een eigen groot gebied heersten. De stad kreeg haar rechten in 1122 en werd rijk van de handel langs de Rijn.
+- title: Een stad van kerken
+  text:
+  - In de 11e eeuw bouwde bisschop Bernold vier kerken rond de kathedraal in de vorm van een kruis. In 1254 begon de bouw van een nieuwe, gotische kathedraal, en vanaf 1321 van haar toren, voltooid in 1382. Utrecht had zoveel kerken, kapellen en kloosters dat de skyline een woud van torenspitsen was.
+  - In 1528 droeg de bisschop zijn wereldlijke macht over aan keizer Karel V, en de provincie Utrecht werd een van de Habsburgse Nederlanden. Adriaan van Utrecht, Karels oude leraar, werd in 1522 paus.
+- title: Unie en verdrag
+  text:
+  - In 1579 ondertekenden de noordelijke provincies de Unie van Utrecht in het kapittelhuis van de kathedraal, om zich tegen Spanje te verenigen. Het verbond werd de basis van de Republiek der Nederlanden, en de stad werd protestants. De universiteit volgde in 1636.
+  - In 1674 blies een storm het schip van de kathedraal omver en liet de toren alleen achter. In 1713 kwamen de mogendheden van Europa hier bijeen om de Vrede van Utrecht te ondertekenen, die een einde maakte aan de Spaanse Successieoorlog.
+- title: Spoorwegknooppunt en universiteitsstad
+  text:
+  - In de 19e eeuw maakten de spoorwegen Utrecht tot het kruispunt van het land, en de stad groeide ver buiten haar gracht. In de jaren zeventig werd een deel van de Singel gedempt voor een snelweg; in 2020 werd het weer uitgegraven en met water gevuld.
+  - In de 20e eeuw bouwde Gerrit Rietveld zijn Schröderhuis aan de rand van de stad en tekende Dick Bruna hier Nijntje. Tegenwoordig brengen de universiteit en de hogescholen tienduizenden studenten naar de stad.
+timeline:
+- - ca. 47 n.Chr.
+  - De Romeinen bouwen het fort Traiectum aan de Rijn
+- - '695'
+  - Willibrord komt naar Utrecht als bisschop van de Friezen
+- - '1048'
+  - De Pieterskerk wordt ingewijd
+- - '1122'
+  - Utrecht krijgt stadsrechten
+- - '1254'
+  - Begin van de bouw van de gotische kathedraal
+- - '1382'
+  - De Domtoren wordt voltooid
+- - '1522'
+  - Adriaan van Utrecht wordt paus Adrianus VI
+- - '1528'
+  - De bisschop draagt zijn wereldlijke macht over aan Karel V
+- - '1579'
+  - De Unie van Utrecht wordt ondertekend
+- - '1636'
+  - De universiteit wordt gesticht
+- - '1674'
+  - Een storm blaast het schip van de kathedraal omver
+- - '1713'
+  - De Vrede van Utrecht maakt een einde aan de Spaanse Successieoorlog
+- - '1955'
+  - Dick Bruna tekent het eerste Nijntje-boek
+- - '2020'
+  - Het water keert terug in de Catharijnesingel
+places:
+  domtoren:
+    blurb: De hoogste kerktoren van het land, 112 meter, met 465 treden naar de top.
+  domplein:
+    blurb: Het plein waar tot 1674 het schip van de kathedraal stond, boven het Romeinse fort.
+  domkerk:
+    blurb: Het koor en dwarsschip van de gotische kathedraal.
+  pandhof:
+    blurb: De kloostertuin met middeleeuwse kruiden naast de Domkerk.
+  oudegracht:
+    blurb: De middeleeuwse gracht met zijn werfkelders en terrassen aan het water.
+  vismarkt:
+    blurb: De oude vismarkt langs de Oudegracht, onder de Domtoren.
+  kromme-nieuwegracht:
+    blurb: De rustige, kronkelende gracht langs de Pieterskerk en het Paushuize.
+  janskerkhof:
+    blurb: Het plein rond de Janskerk, met zijn bloemenmarkt op zaterdag.
+  pieterskerk:
+    blurb: De romaanse kerk uit 1048.
+  paushuize:
+    blurb: Het huis gebouwd voor de enige Nederlandse paus.
+  academiegebouw:
+    blurb: Het hoofdgebouw van de universiteit, waar de Unie van Utrecht werd ondertekend.
+  speelklok:
+    blurb: Het museum van zelfspelende muziek in de Buurkerk.
+  stadhuis:
+    blurb: Het stadhuis aan de Oudegracht, een rij middeleeuwse huizen achter één voorgevel.
+  catharijneconvent:
+    blurb: Het nationale museum voor christelijke kunst in een middeleeuws klooster.
+  centraal-museum:
+    blurb: Het oudste stadsmuseum van het land, met Rietveld en de Utrechtse caravaggisten.
+links:
+- title: Gemeente Utrecht
+  note: Het stadsbestuur
+- title: Domtoren
+  note: Tickets voor een rondleiding de toren op
+- title: Centraal Museum
+  note: Het stadsmuseum, met het Nijntje Museum
+- title: Utrecht op Wikipedia
+  note: Het encyclopedie-artikel

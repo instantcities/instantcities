@@ -1,0 +1,110 @@
+# san-francisco's guide in Dutch (_data/about/san-francisco.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Verenigde Staten
+- Californië
+- Ongeveer 830.000 inwoners (stad), 7,7 miljoen in de Bay Area
+- Op de punt van een schiereiland tussen de Stille Oceaan en de baai van San Francisco
+- Van zeeniveau tot 282 m op Mount Davidson, op meer dan veertig heuvels
+- Engels, met veel Chinees en Spaans
+- De Golden Gate Bridge, de cable cars, mist en heuvels
+- 1776, als Spaans fort en Spaanse missiepost
+overview:
+- Het centrum van San Francisco ligt in de noordoosthoek, aan de baai. Market Street loopt van het Ferry Building aan de waterkant naar het zuidwesten door de stad, en ten noorden ervan liggen de torens van het Financial District, Union Square met zijn winkels en hotels, Chinatown langs Grant Avenue en North Beach, de oude Italiaanse wijk rond Washington Square. Boven dit alles rijst Telegraph Hill op met bovenop de Coit Tower, en langs de baai loopt de Embarcadero, langs de pieren.
+- 'Instant San Francisco brengt je door het hart ervan: over Grant Avenue door Chinatown naar de Dragon Gate, langs Bush Street door het Financial District, langs Market Street naar het Ferry Building, langs de Embarcadero aan de baai en terug langs Washington Street, voorbij de Transamerica Pyramid en Portsmouth Square. Anders dan de echte stad is het spel vlak.'
+setting:
+- San Francisco beslaat de noordpunt van het schiereiland San Francisco, zo’n elf kilometer breed. In het westen ligt de Stille Oceaan, in het noorden de zeestraat Golden Gate en in het oosten de baai, met Oakland en Berkeley aan de overkant. De straten lopen in een rechte rasterstructuur over meer dan veertig heuvels, waardoor veel ervan hellingen op klimmen die geen auto elders zou nemen. De San Andreasbreuk loopt net voor de kust in het westen.
+- 'Het klimaat is het hele jaar zacht. De winters zijn koel en brengen de meeste regen, en de zomers zijn ook koel: op veel middagen rolt de mist vanuit de oceaan door de Golden Gate naar binnen en bedekt de brug en de westelijke helft van de stad, terwijl de zon aan de baaizijde nog schijnt. Er valt bijna nooit sneeuw.'
+today:
+- San Francisco heeft ongeveer 830.000 inwoners en is het culturele centrum van een Bay Area van bijna acht miljoen mensen. Veel van de grote techbedrijven ter wereld hebben hier of net ten zuiden ervan hun kantoren, en de stad staat bekend om haar restaurants, haar parken en haar lange geschiedenis als plek waar mensen komen om anders te leven.
+- Bezoekers rijden met de cable cars, lopen over de Golden Gate Bridge, nemen de veerboot naar Alcatraz en eten in het Ferry Building en op Fisherman’s Wharf. Wonen is er een van de duurste van het land, en de stad twist nog steeds over hoe ze moet groeien.
+history:
+- title: Een missiepost en een baai
+  text:
+  - De Ohlone woonden duizenden jaren rond de baai voor de Spanjaarden kwamen. In 1776 stichtte Spanje op het schiereiland een fort, de Presidio, en de missiepost San Francisco de Asís, genoemd naar Sint-Franciscus van Assisi.
+  - In 1835 groeide bij een inham van de baai een klein handelsdorp, Yerba Buena, rond een plaza die nu Portsmouth Square is. In 1846, in de oorlog met Mexico, hees de bemanning van de USS Portsmouth de Amerikaanse vlag op die plaza, en een jaar later kreeg het dorp de naam San Francisco.
+- title: De goudkoorts
+  text:
+  - In 1848 werd goud gevonden in de uitlopers van de Sierra Nevada, en San Francisco was de haven waar iedereen doorheen kwam. In twee jaar groeide het dorp van zo’n duizend mensen uit tot een stad van tienduizenden, van tenten, hutten en gokhallen. Bemanningen lieten hun schepen in de inham achter om te gaan graven, en sommige schepen werden als winkels en onderkomens gebruikt.
+  - 'De inham werd opgevuld om meer land te maken, schepen en al, en de oever schoof enkele huizenblokken op. Montgomery Street, waar nu de Transamerica Pyramid staat, lag ooit aan het water. Ook Chinese migranten kwamen en vestigden zich rond de oude plaza: het begin van Chinatown.'
+- title: De aardbeving en de brand
+  text:
+  - Om 5.12 uur ’s ochtends op 18 april 1906 schudde een zware aardbeving de stad door elkaar. Gasleidingen braken en overal braken branden uit, en doordat ook de waterleidingen kapot waren, brandden ze drie dagen lang. Zo’n 28.000 gebouwen gingen verloren, het grootste deel van de stad ten oosten van Van Ness Avenue, en ongeveer drieduizend mensen kwamen om.
+  - De stad werd snel herbouwd, op hetzelfde stratenplan. Chinatown kwam terug met pagodedaken, en in 1915 hield San Francisco een wereldtentoonstelling, de Panama-Pacific International Exposition, om te laten zien dat ze was herrezen.
+- title: Bruggen, Beats en techniek
+  text:
+  - De Bay Bridge naar Oakland ging in 1936 open en de Golden Gate Bridge in 1937, en de veerboten verloren de meeste passagiers. In de jaren vijftig verzamelden de Beat-dichters zich in North Beach rond de boekwinkel City Lights, en in 1967 kwamen jongeren uit het hele land naar Haight-Ashbury voor de Summer of Love.
+  - Op 17 oktober 1989 beschadigde de Loma Prieta-aardbeving de snelweg met twee verdiepingen langs de Embarcadero, en de stad liet hem slopen, waardoor de waterkant weer opende. Sinds de jaren negentig hebben de techbedrijven van Silicon Valley zich in de stad uitgebreid, en nieuwe torens zoals de Salesforce Tower zijn ten zuiden van Market Street verrezen.
+timeline:
+- - '1776'
+  - Spanje sticht de Presidio en de missiepost San Francisco de Asís
+- - '1835'
+  - Het dorp Yerba Buena groeit bij de inham
+- - '1846'
+  - De Amerikaanse vlag wordt gehesen op de plaza, het huidige Portsmouth Square
+- - '1847'
+  - Yerba Buena wordt herdoopt tot San Francisco
+- - '1848'
+  - Er wordt goud gevonden in de Sierra Nevada; de goudkoorts begint
+- - '1873'
+  - Andrew Hallidie laat de eerste cable car rijden op Clay Street
+- - '1898'
+  - Het Ferry Building opent
+- - '1906'
+  - De aardbeving en de brand verwoesten het grootste deel van de stad
+- - '1915'
+  - De Panama-Pacific International Exposition
+- - '1933'
+  - De Coit Tower wordt voltooid op Telegraph Hill
+- - '1937'
+  - De Golden Gate Bridge gaat open
+- - '1953'
+  - City Lights opent aan Columbus Avenue
+- - '1972'
+  - De Transamerica Pyramid wordt voltooid
+- - '1989'
+  - De Loma Prieta-aardbeving; de Embarcadero Freeway wordt twee jaar later gesloopt
+places:
+  union-square:
+    blurb: Het plein van de warenhuizen en hotels, met het Dewey Monument in het midden.
+  powell-street:
+    blurb: De straat van de cable cars, van hun draaischijf bij Market Street de Nob Hill op.
+  dragon-gate:
+    blurb: De poort met groene daken naar Chinatown, bij Grant Avenue en Bush Street.
+  grant-avenue:
+    blurb: De hoofdstraat van Chinatown, onder slingers van rode lampions.
+  portsmouth-square:
+    blurb: De oude plaza van Yerba Buena, waar de stad begon, nu de huiskamer van Chinatown.
+  california-street:
+    blurb: De cable carlijn van het Financial District de Nob Hill op, langs Old St. Mary’s.
+  transamerica-pyramid:
+    blurb: De witte piramide uit 1972, 260 meter hoog.
+  jackson-square:
+    blurb: Een paar huizenblokken met bakstenen gebouwen uit de goudkoorts die de brand van 1906 overleefden.
+  market-street:
+    blurb: De hoofdlaan van de stad, van het Ferry Building naar het zuidwesten door de stad.
+  ferry-building:
+    blurb: De veerterminal uit 1898 met zijn klokkentoren, nu een eetmarkt.
+  embarcadero:
+    blurb: De boulevard langs de baai en zijn pieren, met palmen en oude trams.
+  columbus-avenue:
+    blurb: De diagonale straat van North Beach, van de Transamerica Pyramid naar de baai.
+  city-lights:
+    blurb: De boekwinkel van de Beat-dichters, bij Columbus Avenue en Broadway.
+  washington-square:
+    blurb: Het park van North Beach, voor de kerk van de Heiligen Petrus en Paulus.
+  telegraph-hill:
+    blurb: De steile heuvel boven de baai, met houten huizen langs de Filbert Steps en wilde papegaaien.
+  coit-tower:
+    blurb: De betonnen toren op de top van Telegraph Hill, met muurschilderingen binnen.
+links:
+- title: San Francisco Travel
+  note: De toeristensite van de stad
+- title: 'SFMTA: cable cars'
+  note: Lijnen, tarieven en geschiedenis van de cable cars
+- title: Ferry Building Marketplace
+  note: De eetmarkt en boerenmarkt
+- title: City Lights Booksellers
+  note: De boekwinkel van de Beats
+- title: San Francisco op Wikipedia
+  note: Het encyclopedie-artikel

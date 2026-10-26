@@ -1,0 +1,107 @@
+# venice's guide in Dutch (_data/about/venice.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Veneto
+- Ongeveer 250.000 inwoners (gemeente, met Mestre op het vasteland), minder dan 50.000 in het historische centrum
+- 421, volgens de traditie
+- De Venetiaanse lagune en het Canal Grande
+- Italiaans, en het Venetiaanse dialect
+- La Serenissima (de Doorluchtigste), de Koningin van de Adriatische Zee
+- Venetië en zijn lagune, sinds 1987
+overview:
+- 'Venetië ligt op een groep eilanden in een ondiepe lagune, zo’n vier kilometer van het vasteland. De Venetianen sloegen houten palen in de modder en bouwden hun stad erbovenop: bakstenen huizen, marmeren paleizen en zo’n 400 bruggen over ongeveer 150 kanalen. In het historische centrum zijn geen auto’s; mensen lopen door de smalle steegjes, de calli, of nemen de waterbussen, de vaporetti.'
+- Het hart van de stad, het deel waar je in Instant Venetië doorheen rijdt, ligt rond de onderste bocht van het Canal Grande. Het San Marcoplein en het Dogenpaleis openen zich in het zuidoosten op de lagune, de Rialtobrug kruist het kanaal in het midden, en de Accademiabrug en de koepel van de Salute markeren het westen. Daartussen lopen de Mercerie, de winkelsteegjes die San Marco met het Rialto verbinden, en tientallen campi, de pleinen van de oude parochies.
+setting:
+- Venetië ligt in het noordoosten van Italië en is de hoofdstad van de regio Veneto. De lagune strekt zich zo’n 50 kilometer langs de kust uit, afgesneden van de open Adriatische Zee door de lange, dunne eilanden Lido en Pellestrina. Murano, Burano en Torcello liggen in het noorden van de lagune, en een weg- en spoorbrug verbindt de stad met Mestre op het vasteland.
+- 'Het historische centrum is verdeeld in zes wijken, de sestieri: San Marco, Castello, Cannaregio, San Polo, Santa Croce en Dorsoduro. De zomers zijn heet en vochtig, de winters koud en vaak mistig. In de herfst en winter duwen hoogwater en de sirocco de zee de stad in, de acqua alta, en zetten de laagste pleinen onder water.'
+today:
+- Venetië is de hoofdstad van de Veneto en een universiteitsstad, met Ca’ Foscari en de architectuurschool IUAV. Toerisme drijft de economie, en de stad vraagt dagbezoekers nu op haar drukste dagen een toegangsprijs. Sinds 2021 mogen de grootste cruiseschepen niet meer via het Giudeccakanaal langs San Marco varen. Industrie en haven liggen op het vasteland, in Marghera.
+- Elk jaar vult de Biënnale de Giardini en het Arsenale, met kunst in de oneven jaren en architectuur in de even, en elke zomer neemt het Filmfestival van Venetië, het oudste filmfestival ter wereld, het Lido over. Op de eerste zondag van september vaart de Regata Storica over het Canal Grande, en op de derde zondag van juli steken de Venetianen een brug van boten over naar de Redentorekerk op de Giudecca. Venezia FC speelt in het Penzo-stadion op het eiland Sant’Elena.
+history:
+- title: Een toevluchtsoord in de lagune
+  text:
+  - Volgens de traditie werd Venetië gesticht op 25 maart 421. In werkelijkheid vluchtten mensen uit de Romeinse steden op het vasteland in de 5e en 6e eeuw naar de eilanden van de lagune, toen de Hunnen, de Goten en daarna de Longobarden Italië overspoelden. Ze leefden van visserij, zout en handel per boot, nominaal onder de Byzantijnse keizers in Constantinopel.
+  - De lagunegemeenschappen kozen hun eigen leider, de doge, en verplaatsten hun zetel in het begin van de 9e eeuw naar de eilanden van het Rialto, die de stad Venetië werden. In 828 smokkelden twee Venetiaanse kooplieden het lichaam van Sint-Marcus de evangelist uit Alexandrië, en de stad nam hem en zijn gevleugelde leeuw als patroon en embleem.
+- title: De Doorluchtigste Republiek
+  text:
+  - 'Venetië werd rijk van de handel tussen Europa en het Oosten: specerijen, zijde, zout en slaven. In 1204 stuurde doge Enrico Dandolo de Vierde Kruistocht naar Constantinopel, dat de kruisvaarders plunderden; Venetië nam havens en eilanden in de hele oostelijke Middellandse Zee, en als buit de vier bronzen paarden van San Marco. De staatswerf, het Arsenale, bouwde oorlogsgaleien in serie, de een na de ander, en de vloot versloeg in 1380 bij Chioggia de grote rivaal Genua.'
+  - De republiek werd bestuurd door een gesloten kring van adellijke families, via de Grote Raad, de Senaat en de Raad van Tien, met een gekozen doge aan het hoofd. In de 15e en 16e eeuw was Venetië een van de grootste en rijkste steden van Europa, en schilders als Bellini, Titiaan, Tintoretto en Veronese werkten voor haar kerken, paleizen en broederschappen, de scuole. In 1516 liet de republiek de Joden van de stad in het Getto wonen, de eerste wijk die die naam kreeg.
+- title: Verval en de moderne stad
+  text:
+  - 'De Ottomanen namen de oostelijke bezittingen van Venetië een voor een in, en de handel verschoof naar de Atlantische Oceaan. In 1797 arriveerde Napoleons leger, en de laatste doge, Ludovico Manin, trad af: de republiek eindigde na meer dan duizend jaar. Napoleon gaf de stad aan Oostenrijk, en in 1866 voegde Venetië zich bij het Koninkrijk Italië. In 1846 bereikte een spoorbrug de stad vanaf het vasteland, en in 1933 volgde een wegbrug.'
+  - Op 4 november 1966 deed de ergste overstroming ooit gemeten de zee bijna twee meter boven het normale niveau stijgen en vestigde ze de aandacht van de wereld op het gevaar van de zee. Sindsdien zijn veel Venetianen naar Mestre verhuisd, terwijl bezoekers in steeds grotere aantallen kwamen. In 2020 liet de stad voor het eerst haar beweegbare stormvloedkeringen, de MOSE, omhoogkomen.
+timeline:
+- - '421'
+  - Venetië wordt gesticht op 25 maart, volgens de traditie
+- - '697'
+  - De lagunesteden kiezen hun eerste doge, volgens de traditie
+- - '828'
+  - Venetiaanse kooplieden brengen het lichaam van Sint-Marcus uit Alexandrië
+- - '1204'
+  - De Vierde Kruistocht plundert Constantinopel; de bronzen paarden komen naar San Marco
+- - '1380'
+  - De Venetiaanse vloot verslaat Genua bij Chioggia
+- - '1516'
+  - De republiek richt het Getto in
+- - '1591'
+  - De stenen Rialtobrug wordt voltooid
+- - '1797'
+  - Napoleon maakt een einde aan de Republiek Venetië
+- - '1846'
+  - De spoorbrug verbindt Venetië met het vasteland
+- - '1866'
+  - Venetië voegt zich bij het Koninkrijk Italië
+- - '1966'
+  - De grote overstroming van 4 november
+- - '2020'
+  - De MOSE-stormvloedkeringen worden voor het eerst opgehaald
+places:
+  piazza-san-marco:
+    name: San Marcoplein
+    blurb: Het grote plein van Venetië, aan één kant afgesloten door de Basiliek van San Marco en aan drie kanten omzoomd door de arcaden van de oude regeringsgebouwen.
+  piazzetta-san-marco:
+    name: Piazzetta San Marco
+    blurb: Het kleinere plein tussen het Dogenpaleis en de Biblioteca Marciana, dat zich tussen de zuilen van Sint-Marcus en Sint-Theodorus op de lagune opent.
+  mercerie:
+    name: De Mercerie
+    blurb: De reeks winkelsteegjes van de klokkentoren op het San Marcoplein naar het Rialto, sinds de middeleeuwen de hoofdstraat van de stad.
+  campo-san-bartolomeo:
+    blurb: Het drukke pleintje aan de voet van de Rialtobrug, waar Venetianen elkaar ontmoeten onder het bronzen standbeeld van toneelschrijver Carlo Goldoni.
+  ponte-di-rialto:
+    name: Rialtobrug
+    blurb: De stenen brug uit 1591 over het Canal Grande, met twee rijen winkels op de boog. Tot 1854 was het de enige brug over het kanaal.
+  canal-grande:
+    name: Het Canal Grande
+    blurb: Venetië’s hoofdstraat, een S-vormige waterweg van bijna vier kilometer omzoomd met paleizen, die maar vier bruggen kruisen.
+  campo-san-polo:
+    blurb: Een van de grootste pleinen van Venetië, aan de overkant van het Canal Grande vanaf San Marco, waar de stad ooit stierengevechten en kermissen hield.
+  campo-santo-stefano:
+    blurb: Een lang plein tussen de Accademiabrug en San Marco, met het standbeeld van schrijver Niccolò Tommaseo in het midden.
+  ponte-dell-accademia:
+    name: Accademiabrug
+    blurb: De houten brug over het Canal Grande naar de Gallerie dell’Accademia. Hij werd in 1933 als tijdelijke brug opgericht en later in dezelfde vorm herbouwd.
+  campo-della-salute:
+    blurb: De trappen van Santa Maria della Salute, de kerk met koepel die Baldassare Longhena na de pest van 1630 bouwde aan de monding van het Canal Grande.
+  ponte-dei-sospiri:
+    name: Brug der Zuchten
+    blurb: De gesloten witte stenen brug die gevangenen van het Dogenpaleis naar de gevangenissen aan de overkant van het kanaal bracht.
+  riva-degli-schiavoni:
+    blurb: De brede stenen kade langs de lagune ten oosten van het Dogenpaleis, genoemd naar de kooplieden uit Dalmatië die hier hun schepen afmeerden.
+  campo-santa-maria-formosa:
+    blurb: Een breed, onregelmatig plein in Castello rond de kerk Santa Maria Formosa, die Mauro Codussi vanaf 1492 herbouwde.
+  campo-santi-giovanni-e-paolo:
+    blurb: Het plein voor de grote dominicanenkerk waar 25 dogen begraven liggen, met Verrocchio’s ruiterstandbeeld van de huurlingenleider Bartolomeo Colleoni.
+  strada-nova:
+    blurb: De breedste straat van Cannaregio, die de stad in de 19e eeuw door huizen en gedempte kanalen sloeg om een wandelroute naar het station te openen.
+links:
+- title: Venezia Unica
+  note: De officiële toeristeninformatie van de stad, tickets en waterbuskaarten
+- title: Comune di Venezia
+  note: Het stadsbestuur (in het Italiaans)
+- title: Dogenpaleis
+  note: Tickets en openingstijden van het Dogenpaleis
+- title: Venetië en zijn lagune op UNESCO
+  note: De werelderfgoedstatus
+- title: Venetië op Wikipedia
+  note: Het encyclopedie-artikel

@@ -1,0 +1,105 @@
+# siena's guide in Dutch (_data/about/siena.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Toscane
+- Siena, waarvan het de hoofdstad is
+- Ongeveer 53.000 inwoners (stad)
+- Ongeveer 320 meter boven zeeniveau
+- Drie terzi (Città, San Martino en Camollia) en zeventien contrade
+- De Maagd Maria en Sint-Catharina van Siena
+- Het historische centrum, sinds 1995
+overview:
+- Siena’s centrum ligt op drie heuvelruggen die samenkomen in een kom, en de Piazza del Campo vult die kom. Vanaf daar klimmen de drie hoofdstraten, Banchi di Sopra, Banchi di Sotto en Via di Città, langs de ruggen naar de drie delen van de stad, de terzi, en daartussen dalen steile steegjes en trappen af in de dalen. Bijna alles is gebouwd van dezelfde baksteen, in het roodbruin van de aarde rond Siena dat de verfkleur sienna zijn naam gaf.
+- 'Instant Siena brengt je door het hart ervan: over Banchi di Sopra naar de Loggia della Mercanzia, het Campo op onder de Torre del Mangia, over de Casato omhoog naar de kathedraal en Santa Maria della Scala, en terug langs het Baptisterium en over de Via delle Terme. Het centrum is sinds de jaren zestig afgesloten voor auto’s. De echte stad klimt en daalt in elke straat, maar het spel houdt haar vlak.'
+setting:
+- Siena is de hoofdstad van haar provincie in het zuiden van Toscane, zo’n 70 kilometer ten zuiden van Florence. In het noorden liggen de heuvels en wijngaarden van de Chianti, in het zuidoosten de kale grijze heuvels van de Crete Senesi en de Val d’Orcia, en in het westen de bossen van de Montagnola. De Via Francigena, de pelgrimsroute van Canterbury naar Rome, loopt dwars door de stad.
+- De stad heeft geen rivier. Voor haar water groef ze de bottini, zo’n 25 kilometer tunnels onder de heuvels die nog steeds haar oude fonteinen voeden. De zomers zijn heet en droog en de winters koel, met af en toe vorst en soms wat sneeuw.
+today:
+- Siena is een universiteitsstad en de zetel van de Monte dei Paschi, met zo’n 53.000 inwoners en veel meer bezoekers. Het centrum is afgesloten voor auto’s, en de bussen stoppen aan de rand, bij La Lizza en de Fortezza.
+- 'Het leven draait nog steeds om de contrade: elk heeft zijn eigen kerk, fontein, museum en club, doopt zijn kinderen een tweede keer aan zijn eigen fontein en eet in de zomer samen op straat. Op 2 juli en 16 augustus loopt het Campo vol voor de Palio, en op andere dagen zit de stad op haar stenen met een ijsje of een glas Chianti.'
+history:
+- title: Van Saena Julia tot vrije stad
+  text:
+  - Volgens de legende stichtte Senius, een zoon van Remus, Siena, en daarom staat de wolvin die de tweeling zoogt overal in de stad op zuilen. De Romeinen hadden hier een kleine kolonie, Saena Julia, maar de stad groeide pas in de middeleeuwen, als halte aan de Via Francigena.
+  - In de 12e eeuw bestuurde Siena zichzelf als commune, en haar kooplieden en bankiers leenden geld aan pausen en koningen in heel Europa. In 1260 versloeg haar leger bij Montaperti Florence, de grote rivaal in het noorden, in een van de bloedigste veldslagen van die tijd.
+- title: De Negen en de Zwarte Dood
+  text:
+  - Van 1287 tot 1355 bestuurde de regering van de Negen, kooplieden en bankiers, de stad in haar beste jaren. Ze bestraatten het Campo, bouwden het Palazzo Pubblico en de Torre del Mangia, brachten water via de bottini en lieten Simone Martini en de gebroeders Lorenzetti het stadhuis beschilderen. In 1339 begonnen ze aan een kathedraal die die van Florence zou overtreffen.
+  - De pest van 1348 doodde een groot deel van de stad, waarschijnlijk ook Ambrogio Lorenzetti. De nieuwe kathedraal werd nooit voltooid, en Siena groeide nooit meer helemaal terug tot haar oude omvang, waardoor haar middeleeuwse centrum bewaard bleef.
+- title: Sint-Catharina en de Monte dei Paschi
+  text:
+  - Catharina Benincasa, dochter van een wolverver uit de wijk Fontebranda, werd mystica en vredestichter, schreef aan pausen en vorsten en spoorde de paus aan Avignon te verlaten en naar Rome terug te keren. Ze stierf in 1380 en werd in 1461 heilig verklaard.
+  - In 1472 richtte de stad de Monte dei Paschi op om geld te lenen aan de armen zonder woeker. Hij werkt sindsdien zonder onderbreking, de oudste bank ter wereld.
+- title: Onder Florence, en in Italië
+  text:
+  - In 1554 belegerde het leger van Florence en keizer Karel V Siena. De stad gaf zich in april 1555 over na een jaar honger, en in 1557 kwam ze aan Cosimo I de’ Medici, die de Fortezza bouwde om haar rustig te houden. Ze bleef deel van het groothertogdom Toscane tot Toscane zich in 1860 bij Italië voegde.
+  - In de eeuwen daarna was Siena een rustige provinciestad, die haar gotische straten liet zoals ze waren. In 1995 zette UNESCO haar historische centrum op de Werelderfgoedlijst.
+timeline:
+- - 1e eeuw v.Chr.
+  - De Romeinen stichten een kolonie, Saena Julia
+- - 12e eeuw
+  - Siena wordt een vrije commune
+- - '1240'
+  - De universiteit wordt gesticht
+- - '1260'
+  - Siena verslaat Florence in de slag bij Montaperti
+- - '1287'
+  - De regering van de Negen begint
+- - '1297'
+  - Begin van de bouw van het Palazzo Pubblico
+- - '1339'
+  - Begin van de bouw van de nieuwe kathedraal
+- - '1348'
+  - De Zwarte Dood doodt een groot deel van de stad; Torre del Mangia voltooid
+- - '1380'
+  - Sint-Catharina van Siena sterft in Rome
+- - '1472'
+  - De Monte dei Paschi wordt gesticht
+- - '1555'
+  - Siena geeft zich na een beleg over aan Florence en de keizer
+- - '1860'
+  - Toscane, en Siena ermee, voegt zich bij het Koninkrijk Italië
+- - '1995'
+  - Het historische centrum wordt Werelderfgoed
+places:
+  il-campo:
+    name: Piazza del Campo
+    blurb: Het schelpvormige plein van rode baksteen in het hart van de stad, waar de Palio wordt gelopen.
+  palazzo-pubblico:
+    blurb: Het gotische stadhuis aan de voet van het Campo, met boven het Museo Civico.
+  torre-del-mangia:
+    blurb: De bakstenen toren van het stadhuis, 88 meter hoog, met zo’n 400 treden naar de top.
+  fonte-gaia:
+    blurb: De marmeren fontein bovenaan het Campo, gevoed door de bottini.
+  loggia-della-mercanzia:
+    blurb: De loggia van de kooplieden waar de drie hoofdstraten samenkomen.
+  banchi-di-sopra:
+    blurb: De hoofdstraat van het Campo naar de Piazza Salimbeni, vol winkels en banketbakkers.
+  via-di-citta:
+    blurb: De straat van de paleizen langs de rug, van de Loggia della Mercanzia naar de kathedraal.
+  piazza-salimbeni:
+    blurb: Het plein van de paleizen van de Monte dei Paschi.
+  duomo:
+    name: Duomo van Siena
+    blurb: De kathedraal van gestreept marmer op de hoogste heuvel.
+  facciatone:
+    blurb: De kale voorgevel van de onvoltooide nieuwe kathedraal, met het Museo dell’Opera.
+  santa-maria-della-scala:
+    blurb: Het oude pelgrimsziekenhuis tegenover de kathedraal, nu een museum.
+  san-domenico:
+    blurb: De grote bakstenen kerk van Sint-Catharina, op een eigen heuvel.
+  fontebranda:
+    blurb: De middeleeuwse fontein met bogen in het dal onder San Domenico.
+  fortezza-medicea:
+    name: Fortezza Medicea
+    blurb: De vesting van de Medici, nu een park op zijn muren.
+links:
+- title: Comune di Siena
+  note: Het stadsbestuur (in het Italiaans)
+- title: Santa Maria della Scala
+  note: Het museum in het oude ziekenhuis
+- title: Opera della Metropolitana
+  note: De kathedraal, de bibliotheek, het museum en het Facciatone
+- title: Siena op Wikipedia
+  note: Het encyclopedie-artikel

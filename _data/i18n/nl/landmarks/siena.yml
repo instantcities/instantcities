@@ -1,21 +1,72 @@
-# siena's landmarks in Dutch (_data/landmarks/siena.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# siena's landmarks in Dutch (_data/landmarks/siena.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 il-campo:
   blurb: Het schelpvormige plein in het hart van Siena, geplaveid met rode baksteen en aflopend naar het stadhuis, waar de Palio wordt gereden.
+  text:
+  - Het Campo ligt waar Siena’s drie heuvels samenkomen, op de oude marktplaats eronder. De regering van de Negen liet het van 1327 tot 1349 bestraten met rode baksteen, in negen waaiervormige schijven travertijn, een voor elk van haar leden, zodat het plein zich opent als een schelp en afloopt naar het Palazzo Pubblico.
+  - De paleizen eromheen moesten dezelfde regels volgen voor hun ramen en hoogte, waardoor het plein er nog steeds uitziet alsof één hand het tekende. Twee keer elke zomer vult het zich met aarde en mensen voor de Palio, en op andere dagen zitten de Sienezen in de zon op de stenen.
 palazzo-pubblico:
   blurb: Het gotische stadhuis van baksteen en steen onderaan de Campo, met de beroemdste fresco’s over goed en slecht bestuur.
+  text:
+  - De regering van de Negen bouwde haar paleis van 1297 tot 1310, op het laagste punt van het Campo, en het is nog steeds het stadhuis van Siena. De voorgevel buigt een beetje mee met de kromming van het plein, en het zwart-witte schild van de stad prijkt boven elke boog.
+  - 'Boven, in het Museo Civico, schilderde Simone Martini in 1315 de Maestà, en in 1338 en 1339 bedekte Ambrogio Lorenzetti de zaal waar de Negen vergaderden met de Allegorie van het goede en het slechte bestuur: een bedrijvige, gelukkige stad en landstreek op de ene muur, een verwoeste op de andere.'
 torre-del-mangia:
   blurb: De slanke bakstenen toren van het stadhuis, 88 meter hoog, met de stenen kroon van zijn klokkenkamer boven de Campo.
+  text:
+  - De Torre del Mangia werd van 1338 tot 1348 naast het Palazzo Pubblico gebouwd, in baksteen met een kroon van wit travertijn. Hij is 88 meter hoog, een van de hoogste torens van het middeleeuwse Italië, en hoewel hij oprijst vanaf het laagste punt van het Campo, staat zijn top even hoog als de klokkentoren van de kathedraal op de heuvel.
+  - Hij dankt zijn naam aan zijn eerste klokkenluider, Giovanni di Balduccio, die Mangiaguadagni werd genoemd, degene die zijn verdiensten opeet. Je kunt zijn ongeveer 400 treden beklimmen voor uitzicht over de daken naar de heuvels van Toscane.
 fonte-gaia:
   blurb: De marmeren fontein bovenaan de Campo, waar het water van de ondergrondse aquaducten van Siena voor het eerst het plein bereikte.
+  text:
+  - Siena heeft geen rivier, dus groef ze de bottini, kilometers tunnels die het regenwater onder de heuvels opvangen. Toen het water in 1343 voor het eerst het Campo bereikte, vierde de stad zo uitbundig feest dat de fontein de vrolijke werd genoemd, Fonte Gaia.
+  - Jacopo della Quercia beeldhouwde het marmer van 1409 tot 1419, met de Maagd, de Deugden en taferelen uit Genesis. De versleten originelen worden nu bewaard in Santa Maria della Scala, en de fontein op het plein is een kopie die Tito Sarrocchi in 1868 maakte.
 duomo:
   name: Duomo di Siena
   blurb: De kathedraal op de hoogste heuvel van de stad, gestreept in wit en donkergroen marmer, met een vloer van ingelegde marmeren taferelen.
+  text:
+  - Siena’s kathedraal van Santa Maria Assunta werd in de 13e eeuw gebouwd op het hoogste punt van de stad. Giovanni Pisano beeldhouwde vanaf 1284 de onderste helft van de voorgevel, vol profeten en filosofen, en de klokkentoren en de muren binnen zijn gestreept in wit en donkergroen marmer, de kleuren van het schild van de stad.
+  - Binnen beeldhouwde Nicola Pisano van 1265 tot 1268 de preekstoel, en Pinturicchio schilderde de Piccolomini-bibliotheek met het leven van paus Pius II, uit de Sieneze familie Piccolomini. De hele vloer is een prentenboek van 56 marmeren panelen, in twee eeuwen gemaakt, dat elk jaar een paar weken wordt onthuld.
 facciatone:
   blurb: De kale voorgevel van de reusachtige nieuwe kathedraal die Siena in 1339 begon en na de Zwarte Dood opgaf.
+  text:
+  - 'In 1339 besloot Siena een kathedraal te bouwen die die van Florence zou overtreffen: de oude zou nog maar het dwarsschip worden van een veel grotere kerk. De pest van 1348 doodde een groot deel van de stad, het geld raakte op, en in 1357 stopte het werk voorgoed.'
+  - Wat ervan staat is het Facciatone, de lege voorgevel met zijn hoge raam, en een rij bogen langs de zijkant van het plein. Het Museo dell’Opera del Duomo vult nu een deel van het onvoltooide schip, met Duccio’s Maestà, en vanaf de top van het Facciatone kijk je uit over het Campo en de Torre del Mangia.
 santa-maria-della-scala:
   blurb: Een van de oudste ziekenhuizen van Europa, tegenover de kathedraal, dat bijna duizend jaar voor pelgrims en vondelingen zorgde.
+  text:
+  - Santa Maria della Scala ving vanaf de 11e eeuw tot het eind van de 20e de pelgrims op de Via Francigena, de zieken en de verlaten kinderen van Siena op, tot het ziekenhuis de stad uit verhuisde. Het is nu een museum, een stadje van zalen, kapellen en kelders onder het kathedraalplein.
+  - 'In het Pellegrinaio, de lange zaal van de pelgrims, schilderden Domenico di Bartolo en anderen in de jaren 1440 het eigen werk van het ziekenhuis: de armen voeden, de zieken verzorgen, de vondelingen opvoeden. Ook de originele panelen van de Fonte Gaia worden hier bewaard.'
 loggia-della-mercanzia:
   blurb: De 15e-eeuwse loggia van de koopmansrechtbank, op het kruispunt waar de drie hoofdstraten van Siena boven de Campo samenkomen.
+  text:
+  - Bij de Croce del Travaglio, de kruising van Banchi di Sopra, Banchi di Sotto en Via di Città, komen de drie wegen uit de drie delen van de stad samen. Hier bouwde de Mercanzia, de rechtbank die de ruzies van de kooplieden beslechtte, vanaf 1417 haar loggia, met beelden van heiligen op de pilaren.
+  - Vanonder de bogen leiden een paar treden omlaag naar het Campo, en ’s avonds trekt heel Siena ervoor langs.
 piazza-salimbeni:
   blurb: Het pleintje van de paleizen van de Monte dei Paschi, de oudste bank ter wereld die nog bestaat.
+  text:
+  - De Monte dei Paschi di Siena werd in 1472 opgericht om geld uit te lenen aan de armen tegen een redelijke rente, en werkt sindsdien, waarmee hij de oudste bank ter wereld is. Hij is gevestigd in het gotische Palazzo Salimbeni, achter op dit plein aan de Banchi di Sopra.
+  - Ernaast staan het renaissancistische Palazzo Spannocchi en het Palazzo Tantucci, en in het midden het standbeeld van Sallustio Bandini, de Sieneze priester die in de 18e eeuw pleitte voor vrije handel.
+san-domenico:
+  name: San Domenico
+  blurb: De grote bakstenen kerk van de dominicanen op een eigen heuvel, waar Sint-Catharina van Siena bad en waar haar hoofd wordt bewaard.
+  text:
+  - De dominicanen begonnen in 1226 aan hun kerk, een lange, eenvoudige bakstenen schuur op de heuvel ten westen van het centrum, met uitzicht over het dal van Fontebranda naar de kathedraal.
+  - Catharina Benincasa, dochter van een wolverver uit de wijk eronder, bad hier. Ze praatte pausen en vorsten tot vrede over, bracht de paus uit Avignon terug naar Rome en werd een patroonheilige van Italië en Europa. In een kapel binnen wordt haar hoofd bewaard in een reliekschrijn, en een portret van haar door Andrea Vanni, dat het enige zou zijn dat tijdens haar leven werd geschilderd, hangt aan de muur.
+fortezza-medicea:
+  name: Fortezza Medicea
+  blurb: De vesting die Florence bouwde nadat het Siena in 1555 had ingenomen, nu een park op zijn muren boven de stad.
+  text:
+  - Na een beleg van meer dan een jaar gaf Siena zich in 1555 over aan het leger van Florence en de keizer, en verloor de vrijheid die het vier eeuwen had behouden. Vanaf 1561 liet Cosimo I de’ Medici deze vesting met vier bastions bouwen om de stad in bedwang te houden.
+  - Tegenwoordig zijn de muren een park, waar de Sienezen gaan wandelen of hardlopen, met uitzicht over de torens en het groen van La Lizza ernaast.
+palio:
+  name: Palio di Siena
+  blurb: De wilde paardenrace rond het Campo, twee keer elke zomer gelopen tussen de contrade, de wijken van de stad.
+  text:
+  - 'Siena is verdeeld in zeventien contrade, elk met een eigen dier, eigen kleuren, kerk, fontein en museum. Op 2 juli en 16 augustus racen tien ervan in de Palio: drie ronden om het Campo, zonder zadel, op een baan van aarde over de stenen, in ongeveer anderhalve minuut. Een paard dat zijn jockey heeft afgeworpen kan nog winnen.'
+  - Dagen van proefritten, zegeningen van de paarden in de kerken van de contrade en een optocht in middeleeuwse kleding gaan eraan vooraf. De winnaar krijgt het drappellone, een zijden banier die voor elke race wordt geschilderd, en de hele contrada viert wekenlang feest.
+panforte:
+  name: Panforte
+  blurb: Siena’s compacte cake van honing, amandelen, gekonfijt fruit en specerijen, hier sinds de middeleeuwen gebakken.
+  text:
+  - Panforte, het sterke brood, is een platte, taaie cake van honing en suiker met amandelen, gekonfijte sinaasappel en meloen en veel specerijen, zoals de Sieneze apothekers hem in de middeleeuwen maakten. De donkere panpepato bevat ook peper.
+  - De witte Panforte Margherita, bedekt met poedersuiker, werd in 1879 gemaakt voor het bezoek van koningin Margherita. Siena bakt ook de zachte amandelkoekjes ricciarelli, en beide worden in elke banketbakkerij aan de Banchi di Sopra verkocht.

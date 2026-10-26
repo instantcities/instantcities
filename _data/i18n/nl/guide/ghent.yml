@@ -1,0 +1,102 @@
+# ghent's guide in Dutch (_data/about/ghent.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- België
+- Vlaanderen
+- Oost-Vlaanderen, waarvan het de hoofdstad is
+- Ongeveer 265.000 inwoners (stad)
+- 7e eeuw, rond de abdijen van Sint-Baafs en Sint-Pieters
+- De Schelde en de Leie, die in de stad samenkomen
+- Nederlands
+- Gent (Nederlands), Gand (Frans)
+- Het Belfort (1999), als een van de belforten van België en Frankrijk, en twee begijnhoven (1998)
+overview:
+- 'Gent ontstond waar de Leie en de Schelde samenkomen, en het water bepaalt nog altijd het stadsbeeld: rivieren en grachten kronkelen door de oude stad, en de middeleeuwse haven aan de Leie, tussen de Graslei en de Korenlei, is het bekendste uitzicht van de stad. Anders dan Brugge is Gent nooit in slaap gevallen. De katoenfabrieken maakten er in de 19e eeuw een industriestad van, en tegenwoordig vult de universiteit de straten met studenten.'
+- Instant Gent beslaat de stad binnen de R40; het hart is het middeleeuwse centrum rond de oude haven. Ten oosten van de Leie staan de Sint-Niklaaskerk, het Belfort en de Sint-Baafskathedraal op een rij, en de Veldstraat leidt van de Korenmarkt naar het zuiden naar de winkels. Ten noorden van de rivier bewaakt het Gravensteen de smalle steegjes van het Patershol, en een paar straten verder oostwaarts ligt de Vrijdagmarkt, eeuwenlang het plein waar de Gentenaars samenkwamen om tegen hun heersers in opstand te komen.
+setting:
+- Gent ligt in het noordwesten van België, in het Vlaams Gewest, en is de hoofdstad van de provincie Oost-Vlaanderen. Het ligt ongeveer 55 kilometer ten noordwesten van Brussel en 50 kilometer ten zuidwesten van Antwerpen, op vlak land waar de Leie in de Schelde uitkomt.
+- 'Een kanaal loopt van Gent naar het noorden naar Terneuzen aan de Westerschelde, in Nederland, zodat zeeschepen de haven van de stad kunnen bereiken; sinds 2018 maakt die haven deel uit van North Sea Port, dat Gent deelt met de Nederlandse havens van Zeeland. Het klimaat van Gent is zacht en vochtig, zoals in de rest van Vlaanderen: koele zomers, zachte winters en regen in elk seizoen.'
+today:
+- Gent is na Antwerpen de tweede stad van Vlaanderen. De haven, de staalfabriek en de autofabriek bieden nog duizenden mensen werk, maar de universiteit met haar tienduizenden studenten bepaalt de toon van de stad. Het stadsbestuur heeft de auto’s uit het centrum geduwd en de fietsen erin gebracht, en in 2009 werd Gent een van de eerste steden die een veggiedag invoerde.
+- Elke juli vullen de Gentse Feesten tien dagen lang de pleinen van de oude stad met gratis concerten en straattheater. De Gentenaars eten waterzooi, een romige stoofpot van kip of vis, en kopen neuzekes, de paarse ‘neuzen’ van frambozensiroop, bij karretjes op de Groentenmarkt.
+history:
+- title: Abdijen en graven
+  text:
+  - 'Rond 630 stichtte de missionaris Sint-Amandus twee abdijen waar de Leie de Schelde ontmoet: Sint-Baafs en, op de Blandijnberg, Sint-Pieters. Daartussen groeide een handelsstad, wier naam waarschijnlijk afkomstig is van een Keltisch woord voor een samenvloeiing van rivieren. In 879 sloeg een Vikingleger zijn winterkamp op bij de Sint-Baafsabdij.'
+  - De graven van Vlaanderen bouwden een kasteel aan de Leie om de stad te beschermen, en in 1180 herbouwde graaf Filips van de Elzas het in steen als het Gravensteen. Gent werd rijk van lakenweverij, geweven uit Engelse wol, en in 1300 was het een van de grootste steden ten noorden van de Alpen. De kooplieden bouwden hun gildehuizen langs de haven op de Graslei en de stad liet het Belfort verrijzen als toren van haar vrijheid.
+- title: Rebellen en een keizer
+  text:
+  - De wevers en kooplieden van Gent trotseerden vaak hun graven en de koningen van Frankrijk. In 1338 nam Jacob van Artevelde het bestuur van de stad over en koos in de Honderdjarige Oorlog de kant van Engeland, zodat de Engelse wol bleef komen. In 1432 voltooiden Hubert en Jan van Eyck het Gentse Altaarstuk voor de Sint-Janskerk, nu de Sint-Baafskathedraal.
+  - Karel V, die over de helft van Europa zou heersen, werd in 1500 geboren in het Gentse Prinsenhof. Toen zijn geboortestad weigerde zijn belastingen te betalen en in opstand kwam, keerde hij in 1540 terug, nam haar privileges af en liet haar voornaamste burgers blootsvoets, met een strop om de hals, om genade smeken; de Gentenaars noemen zichzelf nog steeds stroppendragers. In 1576 verenigde de Pacificatie van Gent de Nederlanden kortstondig tegen de Spaanse troepen van zijn zoon Filips II.
+- title: Manchester van het vasteland
+  text:
+  - Rond 1800 smokkelde Lieven Bauwens een spinmachine uit Engeland en begon in Gent met het machinaal spinnen. Katoen- en vlasfabrieken volgden, en de stad werd de meest geïndustrialiseerde van België, het ‘Manchester van het vasteland’, met overvolle arbeiderswijken en een sterke socialistische beweging. In 1814 ondertekenden Britse en Amerikaanse diplomaten hier het Verdrag van Gent om de oorlog van 1812 te beëindigen, en in 1817 stichtte koning Willem I de universiteit.
+  - Gent hield in 1913 een wereldtentoonstelling, en in 1930 werd zijn universiteit de eerste van België die in het Nederlands doceerde. Toen de textielfabrieken in de 20e eeuw sloten, namen de haven, een staalfabriek en een autofabriek hun plaats in. Het oude centrum, lang grijs van het roet, werd schoongemaakt en gerestaureerd, en in 2017 sloot de stad het voor doorgaand verkeer.
+timeline:
+- - ca. 630
+  - Sint-Amandus sticht de abdijen van Sint-Baafs en Sint-Pieters
+- - '879'
+  - Een Vikingleger slaat zijn winterkamp op bij de Sint-Baafsabdij
+- - '1180'
+  - Filips van de Elzas herbouwt het Gravensteen in steen
+- - '1338'
+  - Jacob van Artevelde neemt het bestuur over en kiest de kant van Engeland
+- - '1432'
+  - Hubert en Jan van Eyck voltooien het Gentse Altaarstuk
+- - '1500'
+  - De latere keizer Karel V wordt geboren in het Prinsenhof
+- - '1540'
+  - Karel V slaat de Gentse opstand neer en neemt haar privileges af
+- - '1576'
+  - De Pacificatie van Gent verenigt de Nederlanden tegen de Spaanse troepen
+- - ca. 1800
+  - Lieven Bauwens begint met machinaal spinnen met een machine gesmokkeld uit Engeland
+- - '1814'
+  - Het Verdrag van Gent beëindigt de oorlog tussen Groot-Brittannië en de Verenigde Staten
+- - '1817'
+  - Koning Willem I sticht de Universiteit Gent
+- - '1913'
+  - Gent organiseert de wereldtentoonstelling
+places:
+  graslei:
+    blurb: De kade aan de oostoever van de oude haven, omzoomd met de gildehuizen van de middeleeuwse kooplieden en schippers.
+  korenlei:
+    blurb: De kade tegenover de Graslei, met koopmanshuizen uit de 16e tot 18e eeuw.
+  leie:
+    name: De Leie
+    blurb: De rivier die door de oude stad stroomt om de Schelde te ontmoeten. Haar stuk tussen de bruggen was de middeleeuwse haven van Gent; tegenwoordig vertrekken rondvaartboten van haar kaden.
+  sint-michielsbrug:
+    blurb: De stenen brug over de Leie vanwaar je de Graslei, de Korenlei en de drie torens van de oude stad op een rij ziet.
+  korenmarkt:
+    blurb: De oude graanmarkt, een lang plein aan de voet van de Sint-Niklaaskerk, waar de trams langsrijden en de Veldstraat begint.
+  emile-braunplein:
+    blurb: Het open plein tussen de Sint-Niklaaskerk en het Belfort, met het houten en glazen stadspaviljoen, de Stadshal.
+  sint-baafsplein:
+    blurb: Het plein voor de Sint-Baafskathedraal, met het Nederlandstalig theater (NTGent) ertegenover.
+  botermarkt:
+    blurb: De oude botermarkt, met tegenover zich de renaissancegevel van het stadhuis; de gotische zijde kijkt uit op de Hoogpoort.
+  werregarenstraat:
+    blurb: Een smal steegje waar graffiti is toegestaan, steeds opnieuw overschilderd.
+  vrijdagmarkt:
+    blurb: Het grote plein van de vrijdagmarkt, eeuwenlang de plaats van bijeenkomsten en opstanden, met een standbeeld van Jacob van Artevelde.
+  kraanlei:
+    blurb: Een kade langs de Leie met oude huizen met trapgevels, genoemd naar de kraan die hier vroeger de boten loste.
+  patershol:
+    blurb: Een doolhof van middeleeuwse steegjes achter de Kraanlei, ooit een arme ambachtswijk, nu vol restaurants.
+  groentenmarkt:
+    blurb: De oude groentenmarkt naast het lange dak van het Groot Vleeshuis, de middeleeuwse vleeshal.
+  sint-veerleplein:
+    blurb: Het plein voor het Gravensteen, ooit de plaats van de openbare terechtstellingen van de stad.
+  veldstraat:
+    blurb: De belangrijkste winkelstraat van Gent, die van de Korenmarkt naar het zuiden loopt, vrij van auto’s.
+links:
+- title: Visit Gent
+  note: De officiële toeristeninformatie van de stad
+- title: Stad Gent
+  note: Het stadsbestuur
+- title: Belforten van België en Frankrijk op UNESCO
+  note: De werelderfgoedstatus die het Gentse Belfort omvat
+- title: Vlaamse begijnhoven op UNESCO
+  note: De werelderfgoedstatus die de twee Gentse begijnhoven omvat
+- title: Gent op Wikipedia
+  note: Het encyclopedie-artikel

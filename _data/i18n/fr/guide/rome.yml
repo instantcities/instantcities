@@ -1,0 +1,101 @@
+# rome's guide in French (_data/about/rome.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Latium
+- Environ 2,7 millions d’habitants (ville), 4,2 millions (ville métropolitaine)
+- 753 av. J.-C., selon la légende
+- Le Tibre
+- Italien
+- La Ville éternelle, Caput Mundi (capitale du monde)
+- Le centre historique, depuis 1980
+overview:
+- 'Rome se trouve sur le Tibre, sur les célèbres sept collines, à environ 25 kilomètres de la mer Tyrrhénienne. Peu de villes portent leur passé aussi ouvertement : les ruines de brique des empereurs se dressent au milieu de la circulation, des églises sont construites dans des temples antiques, et les pavés de la vieille ville, les sampietrini, sont posés à la main depuis cinq cents ans.'
+- Le centre historique, la partie que vous parcourez dans Instant Rome, tient dans le méandre du Tibre et les anciens murs d’Aurélien. De la Piazza Venezia, la Via del Corso file tout droit vers le nord sur deux kilomètres et demi, avec le Panthéon, la Piazza Navona et le Campo de’ Fiori dans l’enchevêtrement de ruelles à l’ouest, et la fontaine de Trevi et le Quirinal à l’est. Au sud de la Piazza Venezia, le Capitole, le Forum romain et le Colisée marquent le cœur de la Rome antique.
+setting:
+- Rome se trouve à mi-chemin sur la côte ouest de la péninsule italienne, dans la région du Latium, dont elle est aussi la capitale. Le Tibre, le troisième plus long fleuve d’Italie, descend des Apennins et serpente dans la ville en deux grands méandres avant d’atteindre la mer à Ostie.
+- 'Dans la ville se trouve la Cité du Vatican, un État indépendant depuis 1929 et la demeure du pape. Le climat de Rome est méditerranéen : des étés longs, chauds et secs, et des hivers doux et pluvieux.'
+today:
+- 'Rome est le siège du gouvernement et du parlement italiens, du Vatican et de trois agences alimentaires des Nations unies, dont la FAO. Son économie repose sur l’administration, le tourisme, le cinéma (les studios de Cinecittà) et les services. Les Romains vivent encore dans le centre : les marchés du Campo de’ Fiori et les bars autour du Panthéon sont autant à eux qu’aux visiteurs.'
+- Ses clubs de football, l’AS Roma et la Lazio, se partagent le Stadio Olimpico, et le derby entre eux paralyse la ville. En été, les Romains mangent tard et dehors, et en août beaucoup quittent complètement la ville pour la mer.
+history:
+- title: Du village à l’empire
+  text:
+  - La légende dit que Romulus fonda Rome sur le Palatin le 21 avril 753 av. J.-C., après avoir tué son frère jumeau Rémus. Les archéologues ont bien trouvé sur le Palatin des cabanes de cette époque. Des rois gouvernèrent la jeune ville jusqu’en 509 av. J.-C., quand les Romains chassèrent le dernier d’entre eux et instaurèrent une république menée par deux consuls et le Sénat.
+  - La république conquit d’abord l’Italie puis toute la Méditerranée. Après les guerres civiles de Jules César, son fils adoptif Auguste devint le premier empereur en 27 av. J.-C. et se vanta d’avoir trouvé une Rome de brique et de l’avoir laissée de marbre. À son apogée, au IIe siècle, la ville comptait environ un million d’habitants, des aqueducs, des thermes, le Colisée et le Panthéon.
+- title: La ville des papes
+  text:
+  - 'L’empire transféra sa capitale à Constantinople en 330, et Rome fut mise à sac par les Wisigoths en 410 et par les Vandales en 455. La ville se réduisit à quelques dizaines de milliers d’habitants vivant dans le méandre du fleuve, parmi les ruines. Ce qui la maintint en vie fut l’Église : l’évêque de Rome, le pape, devint le chef de la chrétienté occidentale et, à partir du VIIIe siècle, le souverain des États pontificaux en Italie centrale.'
+  - À la Renaissance et à l’époque baroque, des papes comme Jules II, Sixte Quint et Urbain VIII rebâtirent la ville. Michel-Ange peignit la chapelle Sixtine et dessina la coupole de Saint-Pierre et la place du Capitole ; le Bernin et Borromini remplirent Rome d’églises, de fontaines et de places. Presque tout ce que l’on voit aujourd’hui dans le centre date de ces deux siècles.
+- title: Capitale de l’Italie
+  text:
+  - En 1870, les troupes du nouveau royaume d’Italie percèrent les murs à la Porta Pia, et Rome devint la capitale d’une Italie unifiée l’année suivante. Des quartiers entiers, des ministères et le Vittoriano blanc de la Piazza Venezia s’élevèrent pour le jeune État. Mussolini perça la Via dei Fori Imperiali à travers les forums antiques dans les années 1930, pour mettre en valeur le Colisée depuis son balcon de la Piazza Venezia.
+  - Après la Seconde Guerre mondiale, Rome devint la capitale d’une république, accueillit les Jeux olympiques de 1960 et fut la vedette de films comme Vacances romaines et La Dolce Vita. Aujourd’hui, c’est la plus grande ville d’Italie et l’une des plus visitées au monde.
+timeline:
+- - 753 av. J.-C.
+  - Romulus fonde Rome sur le Palatin, selon la légende
+- - 509 av. J.-C.
+  - Le dernier roi est chassé et la république commence
+- - 44 av. J.-C.
+  - Jules César est assassiné dans le théâtre de Pompée
+- - 27 av. J.-C.
+  - Auguste devient le premier empereur
+- - 80 apr. J.-C.
+  - Le Colisée ouvre
+- - vers 125
+  - Hadrien reconstruit le Panthéon
+- - '410'
+  - Les Wisigoths mettent Rome à sac
+- - '1506'
+  - Début des travaux du nouveau Saint-Pierre
+- - '1651'
+  - La fontaine des Quatre-Fleuves du Bernin, Piazza Navona
+- - '1870'
+  - Les troupes italiennes prennent Rome ; elle devient capitale en 1871
+- - '1929'
+  - Les accords du Latran font de la Cité du Vatican un État
+- - '1960'
+  - Rome accueille les Jeux olympiques
+places:
+  via-del-corso:
+    blurb: La rue principale rectiligne du centre, de la Piazza Venezia à la Piazza del Popolo, sur le tracé de l’ancienne Via Flaminia. Elle doit son nom aux courses de chevaux sans cavalier du carnaval romain.
+  piazza-venezia:
+    blurb: Le carrefour le plus fréquenté de Rome, au pied du Capitole, sous le Vittoriano de marbre blanc.
+  via-dei-fori-imperiali:
+    blurb: La large avenue de la Piazza Venezia au Colisée, tracée en 1932 en plein travers des forums impériaux.
+  piazza-del-campidoglio:
+    blurb: La place de Michel-Ange au sommet du Capitole, avec l’hôtel de ville de Rome et les musées du Capitole.
+  piazza-colonna:
+    blurb: La place sur le Corso autour de la colonne de Marc Aurèle, avec le bureau du Premier ministre au Palazzo Chigi.
+  piazza-della-rotonda:
+    name: Piazza della Rotonda
+    blurb: La place devant le Panthéon, avec une fontaine surmontée d’un obélisque égyptien.
+  piazza-navona:
+    blurb: La longue place baroque sur le tracé du stade de Domitien, avec trois fontaines.
+  piazza-di-trevi:
+    blurb: La petite place que la fontaine de Trevi remplit presque entièrement.
+  largo-di-torre-argentina:
+    blurb: Une place en contrebas avec quatre temples républicains, près de l’endroit où César fut tué, aujourd’hui refuge des chats de la ville.
+  corso-vittorio-emanuele:
+    blurb: L’avenue percée à travers la vieille ville dans les années 1880, de l’église du Gesù au Tibre et jusqu’au Vatican.
+  campo-de-fiori:
+    blurb: Une place animée avec un marché le matin et, au milieu, la statue encapuchonnée de Giordano Bruno.
+  piazza-farnese:
+    blurb: Une place calme avec deux bassins de granit des thermes de Caracalla, devant le Palazzo Farnese, que Michel-Ange aida à achever et qui abrite aujourd’hui l’ambassade de France.
+  tevere:
+    name: Le Tibre
+    blurb: Le fleuve de Rome, entre de hauts murs de pierre bâtis après la crue de 1870, avec des platanes le long de ses quais, les lungotevere.
+  foro-romano:
+    name: Le Forum romain
+    blurb: La vallée de ruines entre le Capitole et le Palatin, jadis le cœur politique et religieux de la Rome antique.
+links:
+- title: Turismo Roma
+  note: L’information touristique officielle de la ville
+- title: Roma Capitale
+  note: La municipalité (en italien)
+- title: Parc archéologique du Colisée
+  note: Billets et horaires du Colisée, du Forum et du Palatin
+- title: Centre historique de Rome sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Rome sur Wikipédia
+  note: L’article de l’encyclopédie

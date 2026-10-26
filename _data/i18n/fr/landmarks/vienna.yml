@@ -1,24 +1,80 @@
-# vienna's landmarks in French (_data/landmarks/vienna.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# vienna's landmarks in French (_data/landmarks/vienna.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 stephansdom:
   name: Cathédrale Saint-Étienne
   blurb: La cathédrale gothique de Vienne, avec sa tour sud de 136 mètres et un toit de tuiles vernissées en zigzag.
+  text:
+  - Le Stephansdom fut reconstruit en style gothique à partir du XIVe siècle ; sa tour sud, le Steffl, achevée en 1433, s’élève à 136 mètres. La tour nord ne fut jamais terminée et reçut un petit couvre-chef Renaissance.
+  - Son toit de quelque 230 000 tuiles vernissées montre l’aigle à deux têtes et les armes de Vienne. En 1945, un incendie détruisit le toit ; il fut reconstruit en 1952 avec l’aide de toute l’Autriche.
 graben:
   blurb: La grande rue commerçante de Vienne, sur le tracé du fossé romain, avec la colonne de la peste au milieu.
+  text:
+  - Le Graben, le fossé, longe l’ancien fossé du camp romain de Vindobona, comblé au Moyen Âge. Aujourd’hui, c’est une large et élégante rue piétonne de boutiques et de cafés.
+  - 'Même ses toilettes publiques sont à voir : des toilettes souterraines Art nouveau de 1905 par Adolf Loos.'
 pestsaule:
   name: Colonne de la peste
   blurb: La colonne baroque de nuages et d’anges dressée après la peste de 1679.
+  text:
+  - 'L’empereur Léopold Ier fit vœu d’ériger une colonne si la peste de 1679, qui tua des dizaines de milliers de personnes, quittait la ville. Elle fut achevée en 1693 : une tour de nuages et d’anges, avec l’empereur agenouillé en prière.'
+  - Son style devint un modèle pour les colonnes de la peste dans toutes les terres des Habsbourg.
 hofburg:
   blurb: Le palais d’hiver des Habsbourg pendant six siècles, aujourd’hui siège du président autrichien.
+  text:
+  - 'La Hofburg grandit en six siècles d’un château médiéval en une ville dans la ville : 18 ailes, 19 cours et quelque 2 600 pièces. Les Habsbourg gouvernèrent leur empire d’ici jusqu’en 1918.'
+  - Aujourd’hui, le président de l’Autriche y a ses bureaux, à côté de musées des appartements impériaux, du trésor avec la couronne du Saint-Empire romain et du musée Sisi consacré à l’impératrice Élisabeth.
 michaelerplatz:
   blurb: La place ronde devant la porte de la Hofburg, où des ruines romaines et la maison sobre d’Adolf Loos font face au palais.
+  text:
+  - La porte Saint-Michel de la Hofburg, avec son dôme vert et ses fontaines de géants, ne fut achevée qu’en 1893. Au milieu de la place gisent les vestiges déterrés de la Vienne romaine et médiévale.
+  - En face se dresse la Looshaus de 1911, dont la façade nue sans décor scandalisa Vienne ; l’empereur François-Joseph aurait gardé ses rideaux fermés pour ne pas la voir.
 spanische-hofreitschule:
   name: École d’équitation espagnole
   blurb: Les étalons lipizzans blancs dansent dans un manège baroque à l’intérieur de la Hofburg.
+  text:
+  - L’École espagnole d’équitation remonte à 1565 et porte le nom des chevaux espagnols dont furent issus les lipizzans. Ses étalons blancs y exécutent la haute école dans le Manège d’hiver, une salle baroque de 1735 aux lustres.
+  - Les chevaux naissent sombres et deviennent blancs au cours de leurs premières années.
 staatsoper:
   name: Opéra d’État
   blurb: Inauguré en 1869, le premier grand édifice du Ring et l’un des plus grands opéras du monde.
+  text:
+  - L’opéra fut le premier bâtiment public du nouveau Ring, inauguré en 1869 avec le Don Giovanni de Mozart. Gustav Mahler en fut le directeur de 1897 à 1907.
+  - Bombardé en 1945, il rouvrit en 1955. Chaque année, le Bal de l’Opéra transforme sa scène et son parterre en une seule grande salle de bal.
 albertina:
   blurb: Un palais des Habsbourg abritant l’une des plus grandes collections d’estampes et de dessins au monde, dont le Lièvre de Dürer.
+  text:
+  - 'Le duc Albert de Saxe-Teschen réunit la collection au XVIIIe siècle, et son palais sur l’ancien rempart la conserve toujours : environ un million d’estampes et quelque 50 000 dessins.'
+  - Parmi eux figure le Jeune Lièvre d’Albrecht Dürer de 1502. Un toit en lame tranchante, ajouté en 2003, avance au-dessus de l’entrée.
 burgtheater:
   blurb: L’un des plus importants théâtres de langue allemande, sur le Ring, en face de l’hôtel de ville.
+  text:
+  - Le théâtre de la cour fut fondé par l’impératrice Marie-Thérèse en 1741 et s’installa dans son bâtiment sur le Ring en 1888. Gustav Klimt et son frère peignirent les plafonds de ses escaliers.
+  - Pour les acteurs du monde germanophone, être membre de sa troupe est le plus grand honneur.
+ringstrasse:
+  blurb: Le grand boulevard autour de la vieille ville, construit là où se dressaient les remparts.
+  text:
+  - En 1857, l’empereur François-Joseph ordonna d’abattre les remparts de la ville et de construire un boulevard à leur place. Le long du Ring s’élevèrent l’Opéra, le Parlement, l’hôtel de ville, l’université, des musées et des palais.
+  - Des tramways y circulent, et dans le jeu la course en parcourt un tronçon, devant le Burgtheater et la Hofburg jusqu’à l’Opéra.
+kunsthistorisches:
+  name: Le Kunsthistorisches Museum
+  blurb: Le musée d’art des Habsbourg sur la Maria-Theresien-Platz, avec la plus grande collection de peintures de Bruegel au monde.
+  text:
+  - L’empereur François-Joseph chargea Gottfried Semper et Karl von Hasenauer de bâtir le musée pour les collections des Habsbourg, et il ouvrit en 1891. Il fait face à son jumeau, le musée d’Histoire naturelle, de l’autre côté de la Maria-Theresien-Platz, avec le monument à l’impératrice Marie-Thérèse entre les deux.
+  - Sa salle Bruegel abrite Les Chasseurs dans la neige, la Tour de Babel et Le Repas de noces paysan, la plus grande collection de peintures de Pieter Bruegel l’Ancien au monde. Dans Instant Vienne, on peut entrer dans trois de ses salles.
+fiaker:
+  name: Les fiacres
+  blurb: Les calèches à deux chevaux qui attendent sur la Stephansplatz pour vous conduire autour de la vieille ville.
+  text:
+  - Le Fiaker est une calèche viennoise à deux chevaux à louer, nommée d’après une station de fiacres du XVIIe siècle à Paris. Les cochers portent des chapeaux melon, et les chevaux attendent sur la Stephansplatz, la Michaelerplatz et près de l’Albertina.
+  - Il existe même un café Fiaker, au rhum et à la crème fouettée.
+kaffeehaus:
+  name: Les cafés viennois
+  blurb: Des tables de marbre, des journaux sur des supports de bois et un verre d’eau avec chaque café.
+  text:
+  - 'Le café viennois figure sur la liste du patrimoine immatériel de l’UNESCO : un endroit où s’asseoir des heures devant un seul café, en lisant les journaux sur leurs supports de bois, avec un verre d’eau que le serveur remplit.'
+  - Commandez une Melange, le cappuccino viennois ; le Café Central, le Hawelka et le Sperl comptent parmi les classiques.
+sachertorte:
+  name: La Sachertorte
+  blurb: Un riche gâteau au chocolat et à la confiture d’abricot, inventé par Franz Sacher en 1832.
+  text:
+  - 'L’apprenti de 16 ans Franz Sacher fit le gâteau pour le prince Metternich en 1832 : un biscuit au chocolat, une fine couche de confiture d’abricot et un glaçage de chocolat noir. Il se sert avec de la crème fouettée non sucrée.'
+  - L’hôtel Sacher et la pâtisserie Demel se disputèrent pendant des années en justice le droit d’appeler la leur l’originale.

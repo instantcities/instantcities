@@ -1,20 +1,85 @@
-# san-francisco's landmarks in French (_data/landmarks/san-francisco.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# san-francisco's landmarks in French (_data/landmarks/san-francisco.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 transamerica-pyramid:
   blurb: La pyramide blanche du Financial District, haute de 260 mètres, emblème de la skyline de San Francisco depuis 1972.
+  text:
+  - La Transamerica Pyramid s’élève sur 48 étages à l’angle de Montgomery Street et de Columbus Avenue, s’affinant jusqu’à une flèche à 260 mètres. L’architecte William Pereira lui donna cette forme pour que plus de lumière atteigne les rues en dessous qu’avec une boîte de même taille. Deux ailes sortent près du sommet, l’une pour les ascenseurs et l’autre pour les escaliers.
+  - Elle fut achevée en 1972, et pour beaucoup elle était d’abord trop moderne. Elle fut le plus haut bâtiment de San Francisco jusqu’à ce que la Salesforce Tower la dépasse en 2018. À son côté est se trouve Redwood Park, un petit bosquet de séquoias transplantés des monts de Santa Cruz.
+  - La pyramide se dresse là où se tenait depuis 1853 le Montgomery Block, le plus grand immeuble de bureaux de l’Ouest en son temps, plus tard une maison d’écrivains et d’artistes, démoli en 1959.
 ferry-building:
   blurb: Le terminal des ferries au pied de Market Street, avec sa tour d’horloge inspirée de la Giralda de Séville, aujourd’hui une halle gourmande.
+  text:
+  - Le Ferry Building ouvrit en 1898 au bout de Market Street, là où arrivaient les ferries de la baie. Sa tour d’horloge, haute de 75 mètres, est calquée sur la Giralda, le clocher de la cathédrale de Séville. Avant l’ouverture du Bay Bridge et du Golden Gate Bridge en 1936 et 1937, quelque cinquante mille personnes par jour y passaient.
+  - Il a traversé les tremblements de terre de 1906 et de 1989. En 1959, une autoroute à deux étages, l’Embarcadero Freeway, fut construite juste devant lui et le coupa de la ville ; après que le tremblement de terre de 1989 l’eut endommagée, elle fut démolie, et le front de mer s’ouvrit de nouveau.
+  - Depuis 2003, la longue halle intérieure est un marché de boulangers, de fromagers, de torréfacteurs et de bars à huîtres, et trois jours par semaine un marché de producteurs s’installe autour. Des ferries partent encore de son arrière pour Sausalito, Larkspur, Oakland et Alameda.
 coit-tower:
   blurb: La fine tour de béton au sommet de Telegraph Hill, construite en 1933 avec l’argent de Lillie Hitchcock Coit.
+  text:
+  - La Coit Tower mesure 64 mètres et se dresse au sommet de Telegraph Hill, la colline où un sémaphore signalait autrefois à la ville quels navires entraient par le Golden Gate. Elle fut payée par Lillie Hitchcock Coit, qui légua en 1929 un tiers de sa fortune pour embellir la ville, et fut achevée en 1933.
+  - Lillie Coit adorait les pompiers de la ville et les accompagnait enfant, si bien que beaucoup disent que la tour ressemble à la lance d’un tuyau d’incendie. Ses architectes, Arthur Brown Jr. et Henry Howard, ont toujours dit que ce n’était pas voulu.
+  - Dans le hall, plus de vingt artistes peignirent en 1934 des fresques de la vie en Californie, payées par le premier programme fédéral d’art du New Deal. Un ascenseur monte les visiteurs au sommet, avec vue sur la baie, les ponts et Alcatraz.
 dragon-gate:
   blurb: La porte de Chinatown sur Grant Avenue, au coin de Bush Street, avec ses toits de tuiles vertes, ses dragons et deux lions de pierre.
+  text:
+  - La Dragon Gate se dresse là où Grant Avenue rencontre Bush Street, à l’extrémité sud de Chinatown. Elle fut bâtie en 1970 sur un dessin de Clayton Lee, avec de la pierre et des tuiles offertes par la République de Chine à Taïwan. Ses trois arches ont des toits de tuiles vernissées vertes, avec des dragons et des carpes sur les faîtes, et deux lions de pierre en gardent le passage.
+  - 'Au-dessus de l’arche centrale sont suspendus quatre caractères écrits par Sun Yat-sen, le fondateur de la république chinoise, qui passa du temps à San Francisco à lever des fonds pour la révolution : « Tout sous le ciel est pour le bien du peuple ».'
+  - 'Au-delà de la porte, Grant Avenue change aussitôt : des lanternes rouges pendent au-dessus de la rue, et les boutiques vendent du thé, de la soie, du jade et des souvenirs.'
 chinatown:
   blurb: Le plus ancien Chinatown d’Amérique du Nord, le long de Grant Avenue et de Stockton Street, avec des lanternes au-dessus de la rue.
+  text:
+  - Les Chinois vinrent à San Francisco lors de la ruée vers l’or de 1849 et s’installèrent autour de Portsmouth Square et de Dupont Street, aujourd’hui Grant Avenue. Chinatown devint la plus grande communauté chinoise hors d’Asie, bien que le Chinese Exclusion Act de 1882 ait tenu à l’écart la plupart des nouveaux migrants pendant soixante ans.
+  - Le tremblement de terre et l’incendie de 1906 la brûlèrent entièrement, et la ville voulait la déplacer. Les marchands chinois la reconstruisirent plutôt rapidement, avec des toits de pagode et des balcons peints, en partie pour attirer les visiteurs.
+  - Grant Avenue est la rue des boutiques et des restaurants, tandis que Stockton Street, un pâté de maisons plus haut sur la colline, est l’endroit où le quartier achète son poisson, ses légumes et son canard laqué. Dans les ruelles entre les deux se trouvent des temples, des associations familiales et une fabrique de fortune cookies à Ross Alley.
 union-square:
   blurb: La place des grands magasins et des hôtels, nommée d’après les rassemblements pour l’Union avant la guerre de Sécession.
+  text:
+  - Union Square fut réservée comme parc en 1850 par John Geary, le premier maire de la ville. Son nom vient des grands rassemblements tenus ici pour l’Union en 1860 et 1861, quand la guerre de Sécession allait commencer.
+  - Au milieu se dresse le monument Dewey, une colonne surmontée d’une Victoire de bronze, érigée en 1903 pour la victoire de l’amiral Dewey dans la baie de Manille en 1898. Sous la place se trouve un parking de 1942, l’un des premiers garages souterrains du monde.
+  - Autour de la place se trouvent les grands magasins et les hôtels, avec le St. Francis du côté ouest. À Noël, un grand sapin et une patinoire occupent la place, et les cable cars de Powell Street font sonner leurs cloches le long de son côté ouest.
 cable-cars:
+  name: Les cable cars
   blurb: Les derniers cable cars du monde encore en service dans les rues d’une ville, tirés en haut des collines par un câble sous la chaussée.
+  text:
+  - Un cable car n’a pas de moteur. Un câble d’acier court dans une fente sous la rue, toujours en mouvement à environ 15 kilomètres à l’heure, tiré par de grandes roues dans la centrale de Washington Street. Le gripman tire un levier qui saisit le câble pour avancer, et le lâche pour s’arrêter, en sonnant la cloche pendant la montée.
+  - 'Andrew Hallidie fit rouler le premier sur Clay Street le 2 août 1873, après avoir vu des chevaux glisser et tomber en tirant un tramway sur une colline mouillée. En 1890, plus de vingt lignes grimpaient les collines de la ville. Il n’en reste aujourd’hui que trois : Powell–Hyde, Powell–Mason et California Street.'
+  - Au bout de Powell Street, près de Market Street, les voitures s’arrêtent sur une plaque tournante, et l’équipage les pousse à la main pour le trajet retour. En 1947, le maire voulait les remplacer par des autobus, mais Friedel Klussmann et son comité gagnèrent le vote pour les garder. Ils sont monument historique national depuis 1964.
 washington-square:
   blurb: Le cœur vert de North Beach, le quartier italien, devant l’église blanche Saints-Pierre-et-Paul.
+  text:
+  - Washington Square est l’un des plus anciens parcs de la ville, aménagé en 1847. Ce n’est pas tout à fait un carré, car Columbus Avenue en coupe un angle, et il ne se trouve pas sur Washington Street. Autour s’étend North Beach, où des pêcheurs italiens et leurs familles s’installèrent à partir de la fin du XIXe siècle.
+  - Sur son côté nord se dresse l’église des Saints-Pierre-et-Paul, achevée en 1924, avec deux flèches blanches. Joe DiMaggio, le joueur de base-ball qui grandit à North Beach, y fit prendre ses photos de mariage avec Marilyn Monroe sur les marches en 1954.
+  - Le matin, des gens font du tai-chi sur l’herbe, et les cafés et boulangeries autour de la place servent de l’espresso et de la focaccia. Une statue de Benjamin Franklin et une statue de trois pompiers volontaires, payée par Lillie Coit, se dressent dans le parc.
 city-lights:
   blurb: La librairie des poètes de la Beat Generation sur Columbus Avenue, qui publia Howl d’Allen Ginsberg en 1956.
+  text:
+  - City Lights ouvrit en 1953 sur Columbus Avenue, à Broadway, fondée par le poète Lawrence Ferlinghetti et Peter D. Martin. Ce fut l’une des premières librairies du pays à ne vendre que des livres de poche, et elle restait ouverte tard pour les poètes et les écrivains de North Beach.
+  - En 1956, Ferlinghetti publia le poème Howl d’Allen Ginsberg dans sa collection des Pocket Poets. La police saisit le livre et l’arrêta pour vente d’écrits obscènes, mais en 1957 un juge décida que le poème n’était pas obscène. Le procès rendit célèbres Howl, City Lights et les écrivains de la Beat Generation.
+  - La ruelle à côté de la librairie porte le nom de Jack Kerouac, et en face se trouve Vesuvio, le bar où buvaient les Beats. Ferlinghetti continua à travailler dans la librairie jusqu’à un âge très avancé ; il mourut en 2021, à 101 ans.
+golden-gate-bridge:
+  name: Le Golden Gate Bridge
+  blurb: Le pont suspendu orange à l’entrée de la baie, à environ cinq kilomètres à l’ouest de la carte du jeu.
+  text:
+  - Le Golden Gate est le détroit entre l’océan Pacifique et la baie de San Francisco, nommé ainsi par l’explorateur John C. Frémont en 1846. Le pont qui le traverse ouvrit le 27 mai 1937, après quatre ans de travaux dans le brouillard, le vent et de forts courants. Sa travée principale de 1 280 mètres fut la plus longue du monde jusqu’en 1964.
+  - 'Ses deux tours s’élèvent à 227 mètres au-dessus de l’eau. La couleur s’appelle International Orange : l’architecte Irving Morrow la choisit parce qu’elle ressort dans le brouillard et s’accorde bien avec les collines alentour. Une équipe de peintres le retouche toute l’année.'
+  - Le pont se trouve à l’angle nord-ouest de la ville, trop à l’ouest pour la partie de San Francisco que couvre le jeu. Par temps clair, on voit ses tours du sommet de la Coit Tower.
+lombard-street:
+  name: Lombard Street
+  blurb: Le pâté de maisons de Lombard Street sur Russian Hill, avec huit virages en épingle entre des parterres de fleurs, à l’ouest de la carte du jeu.
+  text:
+  - Entre Hyde Street et Leavenworth Street, Lombard Street descend le flanc de Russian Hill en huit virages serrés, entre des haies et des parterres de fleurs. La colline y est trop raide pour une rue droite, si bien qu’en 1922 on construisit des virages pour que les voitures puissent y passer en sécurité.
+  - Les voitures ne peuvent la descendre que dans un sens, à vitesse de marche, et les gens font la queue en haut pour la parcourir. On l’appelle souvent la rue la plus tortueuse du monde, bien que Vermont Street, dans le sud de la ville, ait plus de virages.
+  - Elle se trouve à environ un kilomètre à l’ouest de Washington Square, juste hors de la carte du jeu. Dans le jeu, la ville est plate, ses virages n’auraient donc pas de colline à gravir.
+alcatraz:
+  name: Alcatraz
+  blurb: L’île rocheuse dans la baie, prison fédérale de 1934 à 1963, construite pour que personne ne puisse s’enfuir à la nage.
+  text:
+  - Alcatraz se trouve dans la baie, à environ deux kilomètres au nord du front de mer. Les Espagnols l’appelèrent l’île des pélicans en 1775, et en 1854 le premier phare de la côte ouest des États-Unis y fut allumé. L’armée y bâtit un fort et une prison militaire.
+  - De 1934 à 1963, ce fut une prison fédérale pour les hommes que les autres prisons ne pouvaient garder, dont Al Capone. L’eau froide et les forts courants autour devaient rendre l’évasion impossible. En juin 1962, Frank Morris et les frères John et Clarence Anglin sortirent de leurs cellules, laissant des têtes en papier mâché dans leurs lits, et s’éloignèrent en pagayant sur un radeau d’imperméables. On ne les retrouva jamais.
+  - De 1969 à 1971, des Amérindiens occupèrent l’île pour la revendiquer comme terre indienne. Aujourd’hui, elle fait partie d’un parc national, et des ferries y emmènent les visiteurs depuis le Pier 33 sur l’Embarcadero.
+sourdough:
+  name: Le pain au levain
+  blurb: Le pain acide et moelleux de San Francisco, cuit depuis la ruée vers l’or à partir d’une pâte vivante.
+  text:
+  - Le pain au levain monte sans levure achetée. Le boulanger garde un morceau de la pâte de chaque jour, la mère, et la nourrit de farine et d’eau ; les levures et bactéries sauvages qui y vivent font lever le pain et lui donnent son goût acide. À San Francisco, le pain est plus acidulé qu’ailleurs, et l’une de ses bactéries porte le nom de la ville, Lactobacillus sanfranciscensis.
+  - Les mineurs de la ruée vers l’or le cuisaient dans leurs campements, et les vieux prospecteurs étaient appelés sourdoughs. La boulangerie Boudin le cuit depuis 1849, et dit utiliser encore une mère maintenue en vie depuis lors.
+  - Les visiteurs le mangent à Fisherman’s Wharf en bread bowl, évidé et rempli de clam chowder.

@@ -1,0 +1,106 @@
+# vienna's guide in Dutch (_data/about/vienna.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Oostenrijk
+- Wenen is een eigen deelstaat
+- Ongeveer 2 miljoen inwoners (stad), 2,9 miljoen (grootstedelijk gebied)
+- Als het Romeinse fort Vindobona, rond 100 n.Chr.
+- De Donau, met het Donaukanaal langs de oude stad
+- Duits
+- De Stad van de Muziek
+- Het historische centrum, sinds 2001, en Paleis Schönbrunn, sinds 1996
+overview:
+- 'Wenen ligt aan de Donau, aan de voet van de laatste heuvels van de Alpen, het Wienerwald. De oude stad, de Innere Stadt, is klein: een ring van straten rond de Stephansdom, die de stadsmuren tot de jaren 1850 omsloten. Toen keizer Frans Jozef de muren liet slopen, bouwde de stad op hun plaats de Ringstraße, een brede boulevard met de Opera, het Parlement, het stadhuis en de grote musea.'
+- Het centrum waar je in Instant Wenen doorheen rijdt, is deze oude stad. Vanaf het Stephansplatz leiden de Graben en de Kohlmarkt naar het westen naar de Hofburg, het paleis van de keizers, met het Heldenplatz en de Ring erachter. De Kärntner Straße loopt naar het zuiden naar de Staatsopera, en in het noorden liggen stille pleinen als Am Hof, het Judenplatz en de Hoher Markt op de grond van het Romeinse fort, boven het Donaukanaal.
+setting:
+- Wenen ligt in het oosten van Oostenrijk, dicht bij de grenzen met Slowakije, Tsjechië en Hongarije; Bratislava is maar zo’n 55 kilometer weg. De Donau stroomt ten noordoosten van de stad langs, en het smallere Donaukanaal loopt langs de rand van de oude stad.
+- In het westen en noorden rijzen de groene heuvels van het Wienerwald op, en binnen de stadsgrenzen groeien wijngaarden, waardoor Wenen een van de weinige hoofdsteden is die hun eigen wijn produceren. Het klimaat is continentaal, met hete zomers en koude winters.
+today:
+- Wenen is de hoofdstad en grootste stad van Oostenrijk, een van de negen deelstaten, en de zetel van regering en parlement. Het herbergt een van de vier hoofdkantoren van de Verenigde Naties, het Internationaal Atoomenergieagentschap, OPEC en de OVSE. De economie draait op diensten, onderzoek, toerisme en congressen, en de stad staat regelmatig bovenaan internationale ranglijsten van de leefbaarste steden.
+- De stad bezit of financiert een groot deel van haar woningen, dus veel Wenenaars huren gemeentewoningen. Het leven beweegt zich tussen het koffiehuis, de wijntavernes, de Heurigen, aan de rand van de stad, en de concertzalen. In de winter vult het bal-seizoen de paleizen, en op 1 januari speelt de Wiener Philharmoniker zijn Nieuwjaarsconcert voor een wereldwijd televisiepubliek.
+history:
+- title: Van Romeins fort tot Habsburgse residentie
+  text:
+  - De Romeinen bouwden rond 100 n.Chr. het legioenfort Vindobona aan de Donau, op de grens van hun rijk; de Graben volgt de lijn van de gracht. Nadat de Romeinen vertrokken waren, overleefde een kleine stad binnen de oude muren. In de 12e eeuw maakten de Babenbergse hertogen Wenen hun residentie en hielden hof op het plein Am Hof, en de eerste Stephanskerk rees net buiten de oude muren op.
+  - In 1278 versloeg Rudolf van Habsburg koning Ottokar van Bohemen, en zijn familie regeerde vanuit Wenen tot 1918. Hertog Rudolf IV stichtte in 1365 de universiteit en breidde de Stephanskerk in gotische stijl uit; de zuidtoren, voltooid in 1433, rijst nog steeds boven de oude stad uit.
+- title: De keizerlijke hoofdstad
+  text:
+  - Terwijl de Habsburgers kronen verzamelden in heel Midden-Europa, werd Wenen de hoofdstad van een groot rijk en het bolwerk tegen de Ottomanen, die de stad in 1529 en 1683 belegerden. Nadat het tweede beleg mislukte, bouwden edelen en keizers barokke paleizen zoals het Belvedere en Schönbrunn, en de Karlskirche. Maria Theresia hervormde de staat vanuit de Hofburg, en Haydn, Mozart en Beethoven werkten in de stad. In 1814 en 1815 tekende het Congres van Wenen de kaart van Europa opnieuw na Napoleon.
+  - 'Frans Jozef regeerde 68 jaar, van 1848 tot 1916. Hij liet vanaf 1857 de muren slopen en gaf Wenen de Ringstraße. Rond 1900 passeerde de stad twee miljoen inwoners en beleefde ze haar creatiefste jaren: Sigmund Freud stichtte de psychoanalyse, Gustav Klimt en de Secession braken met de academische kunst, en Gustav Mahler leidde de Hofopera.'
+- title: Hoofdstad van de republiek
+  text:
+  - Het rijk viel uiteen aan het eind van de Eerste Wereldoorlog, en in 1918 werd Wenen de te grote hoofdstad van een kleine Oostenrijkse republiek. De sociaaldemocratische gemeenteraad bouwde grote blokken gemeentewoningen voor arbeiders, het tijdperk van het Rode Wenen. In maart 1938 annexeerde nazi-Duitsland Oostenrijk, en de nazi’s verdreven en vermoordden het grootste deel van de grote Joodse gemeenschap van de stad. Geallieerde bommen en de slag om Wenen in 1945 beschadigden de Stephansdom en de Opera.
+  - De vier geallieerde mogendheden bezetten de stad tien jaar lang gezamenlijk, het Wenen van de film The Third Man. Het Staatsverdrag van 1955 maakte Oostenrijk onafhankelijk en neutraal, en Wenen werd een ontmoetingsplaats tussen Oost en West, met kantoren van de Verenigde Naties, de OVSE en OPEC. Oostenrijk trad in 1995 toe tot de Europese Unie.
+timeline:
+- - ca. 100
+  - De Romeinen bouwen het fort Vindobona
+- - '1155'
+  - De Babenbergse hertogen maken Wenen hun residentie
+- - '1278'
+  - Rudolf van Habsburg verslaat Ottokar; het Habsburgse bewind begint
+- - '1365'
+  - Rudolf IV sticht de Universiteit van Wenen
+- - '1529'
+  - Het eerste Ottomaanse beleg van Wenen
+- - '1683'
+  - Een ontzettingsleger breekt het tweede Ottomaanse beleg
+- - '1814'
+  - Het Congres van Wenen opent
+- - '1857'
+  - Frans Jozef beveelt de stadsmuren te slopen
+- - '1865'
+  - De Ringstraße opent
+- - '1918'
+  - De monarchie eindigt en Oostenrijk wordt een republiek
+- - '1938'
+  - Nazi-Duitsland annexeert Oostenrijk
+- - '1955'
+  - Het Staatsverdrag maakt Oostenrijk weer onafhankelijk
+places:
+  stephansplatz:
+    name: Stephansplatz
+    blurb: Het plein rond de Stephansdom, waar de Graben, de Kärntner Straße en de Rotenturmstraße samenkomen. Eronder ligt de Virgilkapelle, een middeleeuwse kapel die bouwvakkers in 1973 vonden bij het graven van de metro.
+  graben:
+    name: Graben
+    blurb: Een brede voetgangersstraat op de lijn van de gracht van het Romeinse fort, die haar de naam gaf. De barokke Pestzuil staat in het midden.
+  kaerntner-strasse:
+    name: Kärntner Straße
+    blurb: De drukke winkelstraat van de Stephansdom naar de Staatsopera, genoemd naar Karinthië, Kärnten, de provincie waar de oude weg heen leidde.
+  neuer-markt:
+    blurb: Een plein aan de Kärntner Straße met de Donnerfontein en de Kapucijnenkerk, waarvan de crypte de graven van de Habsburgers bevat.
+  albertinaplatz:
+    blurb: Het plein onder de Albertina, achter de Staatsopera, met Alfred Hrdlicka’s gedenkteken tegen oorlog en fascisme.
+  kohlmarkt:
+    blurb: De korte, elegante straat van de Graben naar de Hofburg, genoemd naar de houtskool die er ooit werd verkocht, met juweliers, modehuizen en banketbakker Demel.
+  michaelerplatz:
+    blurb: Het ronde plein voor de koepelpoort van de Hofburg, met Romeinse resten in het midden en het kale Looshaus, dat de Wenenaars in 1911 schokte.
+  josefsplatz:
+    blurb: Een binnenplaatsachtig plein van de Hofburg met een ruiterstandbeeld van Jozef II, voor de barokke Prunksaal van de Nationale Bibliotheek.
+  heldenplatz:
+    name: Heldenplatz
+    blurb: Het grote open plein van de Hofburg, met ruiterstandbeelden van prins Eugenius en aartshertog Karel. Vanaf het balkon van de Neue Burg proclameerde Hitler hier in 1938 de annexatie van Oostenrijk.
+  ringstrasse:
+    name: De Ringstraße
+    blurb: De boulevard rond de oude stad die vanaf 1857 de plaats van de stadsmuren innam, omzoomd door de Opera, het Parlement, het stadhuis en de grote musea.
+  herrengasse:
+    blurb: De straat van de stadspaleizen van de adel, van het Michaelerplatz naar de Freyung, met het oude parlement van Neder-Oostenrijk en het Café Central.
+  am-hof:
+    blurb: Het grootste plein van de oude stad, waar de Babenbergse hertogen hun hof hielden. Vanaf het balkon van de kerk riep een heraut in 1806 het einde van het Heilige Roomse Rijk uit.
+  judenplatz:
+    blurb: Het centrum van de middeleeuwse Joodse wijk, in 1421 verwoest, met Rachel Whitereads Holocaustmonument, een in beton gegoten bibliotheek met binnenstebuiten gekeerde boeken.
+  hoher-markt:
+    blurb: Een van de oudste pleinen van Wenen, boven de resten van het Romeinse fort, met de Ankeruhr, een art-nouveauklok waarlangs om twaalf uur historische figuren defileren.
+  donaukanal:
+    name: Het Donaukanaal
+    blurb: De arm van de Donau langs de noordoostrand van de oude stad; de hoofdrivier stroomt verder weg. In de zomer vullen bars en ligstoelen de oevers.
+links:
+- title: Vienna Tourist Board
+  note: De officiële toeristeninformatie van de stad
+- title: Stad Wenen
+  note: Het stadsbestuur
+- title: Kunsthistorisches Museum
+  note: Het grote kunstmuseum aan de Ringstraße
+- title: Historisch centrum van Wenen op UNESCO
+  note: De werelderfgoedstatus
+- title: Wenen op Wikipedia
+  note: Het encyclopedie-artikel

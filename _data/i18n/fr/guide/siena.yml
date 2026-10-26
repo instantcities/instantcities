@@ -1,0 +1,106 @@
+# siena's guide in French (_data/about/siena.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Toscane
+- Sienne, dont elle est le chef-lieu
+- Environ 53 000 habitants (ville)
+- Environ 320 mètres d’altitude
+- Trois terzi (Città, San Martino et Camollia) et dix-sept contrade
+- La Vierge Marie, et sainte Catherine de Sienne
+- Le centre historique, depuis 1995
+overview:
+- Le centre de Sienne s’étend sur trois crêtes qui se rejoignent en un creux, et la Piazza del Campo remplit ce creux. De là, les trois rues principales, Banchi di Sopra, Banchi di Sotto et Via di Città, montent le long des crêtes vers les trois tiers de la ville, les terzi, et entre elles de raides ruelles et escaliers descendent dans les vallées. Presque tout est bâti de la même brique, du brun rougeâtre de la terre autour de Sienne qui a donné son nom à la couleur terre de Sienne.
+- 'Instant Sienne vous emmène au cœur de la ville : le long de Banchi di Sopra jusqu’à la Loggia della Mercanzia, dans le Campo sous la Torre del Mangia, par le Casato jusqu’à la cathédrale et Santa Maria della Scala, puis retour devant le Baptistère et le long de la Via delle Terme. Le centre est fermé aux voitures depuis les années 1960. La vraie ville monte et descend dans chaque rue, mais le jeu la garde plate.'
+setting:
+- Sienne est le chef-lieu de sa province, dans le sud de la Toscane, à environ 70 kilomètres au sud de Florence. Au nord s’étendent les collines et les vignobles du Chianti, au sud-est les collines grises et nues des Crete Senesi et le Val d’Orcia, et à l’ouest les bois de la Montagnola. La Via Francigena, la route des pèlerins de Cantorbéry à Rome, traverse la ville.
+- La ville n’a pas de rivière. Pour son eau, elle a creusé les bottini, quelque 25 kilomètres de tunnels sous les collines qui alimentent encore ses vieilles fontaines. Ses étés sont chauds et secs et ses hivers frais, avec quelques gelées et parfois de la neige.
+today:
+- Sienne est une ville universitaire et le siège du Monte dei Paschi, avec quelque 53 000 habitants et bien plus de visiteurs. Le centre est fermé aux voitures, et les bus s’arrêtent à sa lisière, près de La Lizza et de la Fortezza.
+- 'La vie tourne toujours autour des contrade : chacune a son église, sa fontaine, son musée et son club, baptise ses enfants une seconde fois à sa propre fontaine et mange ensemble dans la rue en été. Les 2 juillet et 16 août, le Campo se remplit pour le Palio, et les autres jours la ville est assise sur ses briques avec une glace ou un verre de Chianti.'
+history:
+- title: De Saena Julia à une ville libre
+  text:
+  - La légende dit que Senius, un fils de Rémus, fonda Sienne, ce qui explique que la louve nourrissant les jumeaux se dresse sur des colonnes partout dans la ville. Les Romains y avaient une petite colonie, Saena Julia, mais la ville ne grandit qu’au Moyen Âge, comme étape sur la Via Francigena.
+  - Au XIIe siècle, Sienne se gouvernait en commune, et ses marchands et banquiers prêtaient de l’argent aux papes et aux rois dans toute l’Europe. En 1260, à Montaperti, son armée battit Florence, la grande rivale du nord, dans l’une des batailles les plus sanglantes de l’époque.
+- title: Les Neuf et la peste noire
+  text:
+  - De 1287 à 1355, le gouvernement des Neuf, des marchands et banquiers, dirigea la ville dans ses meilleures années. Ils pavèrent le Campo, bâtirent le Palazzo Pubblico et la Torre del Mangia, amenèrent l’eau par les bottini et firent peindre l’hôtel de ville par Simone Martini et les frères Lorenzetti. En 1339, ils commencèrent une cathédrale qui devait surpasser celle de Florence.
+  - La peste de 1348 tua une grande partie de la ville, Ambrogio Lorenzetti probablement parmi les victimes. La nouvelle cathédrale ne fut jamais achevée, et Sienne ne retrouva jamais tout à fait sa taille d’autrefois, ce qui explique que son centre médiéval ait survécu.
+- title: Sainte Catherine et le Monte dei Paschi
+  text:
+  - Catherine Benincasa, fille d’un teinturier de laine du quartier de Fontebranda, devint mystique et pacificatrice, écrivit aux papes et aux princes et pressa le pape de quitter Avignon pour revenir à Rome. Elle mourut en 1380 et fut canonisée en 1461.
+  - En 1472, la ville fonda le Monte dei Paschi pour prêter de l’argent aux pauvres sans usure. Il fonctionne sans interruption depuis, la plus ancienne banque du monde.
+- title: Sous Florence, et dans l’Italie
+  text:
+  - En 1554, l’armée de Florence et de l’empereur Charles Quint assiégea Sienne. La ville céda en avril 1555 après un an de faim, et en 1557 elle passa à Cosme Ier de Médicis, qui bâtit la Fortezza pour la tenir tranquille. Elle resta dans le grand-duché de Toscane jusqu’à ce que la Toscane rejoigne l’Italie en 1860.
+  - Pendant les siècles suivants, Sienne fut une paisible ville de province, qui garda ses rues gothiques telles quelles. En 1995, l’UNESCO inscrivit son centre historique sur la liste du patrimoine mondial.
+timeline:
+- - Ier siècle av. J.-C.
+  - Les Romains fondent une colonie, Saena Julia
+- - XIIe siècle
+  - Sienne devient une commune libre
+- - '1240'
+  - Fondation de l’université
+- - '1260'
+  - Sienne bat Florence à la bataille de Montaperti
+- - '1287'
+  - Début du gouvernement des Neuf
+- - '1297'
+  - Début des travaux du Palazzo Pubblico
+- - '1339'
+  - Début des travaux de la nouvelle cathédrale
+- - '1348'
+  - La peste noire tue une grande partie de la ville ; la Torre del Mangia est achevée
+- - '1380'
+  - Mort de sainte Catherine de Sienne à Rome
+- - '1472'
+  - Fondation du Monte dei Paschi
+- - '1555'
+  - Sienne se rend à Florence et à l’empereur après un siège
+- - '1860'
+  - La Toscane, Sienne avec elle, rejoint le royaume d’Italie
+- - '1995'
+  - Le centre historique devient site du patrimoine mondial
+places:
+  il-campo:
+    name: Piazza del Campo
+    blurb: La place en forme de coquille, en brique rouge, au cœur de la ville, où se court le Palio.
+  palazzo-pubblico:
+    blurb: L’hôtel de ville gothique au pied du Campo, avec le Museo Civico à l’étage.
+  torre-del-mangia:
+    blurb: La tour de brique de l’hôtel de ville, haute de 88 mètres, avec environ 400 marches jusqu’au sommet.
+  fonte-gaia:
+    blurb: La fontaine de marbre en haut du Campo, alimentée par les bottini.
+  loggia-della-mercanzia:
+    blurb: La loggia des marchands où se rejoignent les trois rues principales.
+  banchi-di-sopra:
+    blurb: La rue principale du Campo à la Piazza Salimbeni, pleine de boutiques et de pâtisseries.
+  via-di-citta:
+    blurb: La rue des palais le long de la crête, de la Loggia della Mercanzia vers la cathédrale.
+  piazza-salimbeni:
+    blurb: La place des palais du Monte dei Paschi.
+  duomo:
+    name: Le Duomo de Sienne
+    blurb: La cathédrale de marbre rayé sur la plus haute colline.
+  facciatone:
+    name: Le Facciatone
+    blurb: La façade nue de la nouvelle cathédrale inachevée, avec le Museo dell’Opera.
+  santa-maria-della-scala:
+    blurb: L’ancien hôpital des pèlerins en face de la cathédrale, aujourd’hui un musée.
+  san-domenico:
+    blurb: La grande église de brique de sainte Catherine, sur sa propre colline.
+  fontebranda:
+    blurb: La fontaine médiévale à arcades dans la vallée sous San Domenico.
+  fortezza-medicea:
+    name: Fortezza Medicea
+    blurb: La forteresse des Médicis, aujourd’hui un parc sur ses remparts.
+links:
+- title: Comune di Siena
+  note: La municipalité (en italien)
+- title: Santa Maria della Scala
+  note: Le musée dans l’ancien hôpital
+- title: Opera della Metropolitana
+  note: La cathédrale, la bibliothèque, le musée et le Facciatone
+- title: Sienne sur Wikipédia
+  note: L’article de l’encyclopédie

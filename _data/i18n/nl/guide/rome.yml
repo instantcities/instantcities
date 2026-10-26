@@ -1,0 +1,100 @@
+# rome's guide in Dutch (_data/about/rome.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Lazio
+- Ongeveer 2,7 miljoen inwoners (stad), 4,2 miljoen (grootstedelijk gebied)
+- 753 v.Chr., volgens de legende
+- De Tiber
+- Italiaans
+- De Eeuwige Stad, Caput Mundi (hoofdstad van de wereld)
+- Het historische centrum, sinds 1980
+overview:
+- 'Rome ligt aan de Tiber, op de beroemde zeven heuvels, zo’n 25 kilometer van de Tyrreense Zee. Weinig steden dragen hun verleden zo openlijk: de bakstenen ruïnes van de keizers staan midden in het verkeer, kerken zijn in antieke tempels gebouwd, en de keien van de oude stad, de sampietrini, worden al vijfhonderd jaar met de hand gelegd.'
+- Het historische centrum, het deel waar je in Instant Rome doorheen rijdt, past binnen de bocht van de Tiber en de oude Aureliaanse Muur. Vanaf de Piazza Venezia loopt de Via del Corso kaarsrecht naar het noorden, drie kilometer lang, met het Pantheon, de Piazza Navona en de Campo de’ Fiori in het kluwen van steegjes ten westen ervan en de Trevifontein en de Quirinaal ten oosten. Ten zuiden van de Piazza Venezia markeren het Capitool, het Forum Romanum en het Colosseum het hart van het antieke Rome.
+setting:
+- Rome ligt halverwege de westkust van het Italiaanse schiereiland, in de regio Lazio, waarvan het ook de hoofdstad is. De Tiber, de op twee na langste rivier van Italië, komt uit de Apennijnen en kronkelt in twee grote bochten door de stad voor ze bij Ostia de zee bereikt.
+- 'In de stad ligt Vaticaanstad, sinds 1929 een onafhankelijke staat en de woonplaats van de paus. Het klimaat van Rome is mediterraan: lange, hete en droge zomers en milde, regenachtige winters.'
+today:
+- 'Rome is de zetel van de Italiaanse regering en het parlement, van het Vaticaan en van drie voedselorganisaties van de Verenigde Naties, onder wie de FAO. De economie draait op overheid, toerisme, film (de Cinecittà-studio’s) en diensten. Romeinen wonen nog steeds in het centrum: de markten van de Campo de’ Fiori en de bars rond het Pantheon zijn net zo goed van hen als van de bezoekers.'
+- De voetbalclubs, AS Roma en Lazio, delen het Stadio Olimpico, en de derby tussen hen legt de stad stil. In de zomer eten de Romeinen laat en buiten, en in augustus verlaten velen de stad helemaal voor de zee.
+history:
+- title: Van dorp tot rijk
+  text:
+  - Volgens de legende stichtte Romulus Rome op de Palatijn op 21 april 753 v.Chr., nadat hij zijn tweelingbroer Remus had gedood. Archeologen hebben op de Palatijn inderdaad hutten uit die tijd gevonden. Koningen regeerden over de jonge stad tot 509 v.Chr., toen de Romeinen de laatste verdreven en een republiek instelden onder leiding van twee consuls en de Senaat.
+  - De republiek veroverde eerst Italië en daarna de hele Middellandse Zee. Na de burgeroorlogen van Julius Caesar werd zijn geadopteerde zoon Augustus in 27 v.Chr. de eerste keizer, en hij schepte op dat hij Rome als stad van baksteen had aangetroffen en als stad van marmer had achtergelaten. Op haar hoogtepunt, in de 2e eeuw, had de stad ongeveer een miljoen inwoners, aquaducten, baden, het Colosseum en het Pantheon.
+- title: De stad van de pausen
+  text:
+  - 'Het rijk verplaatste zijn hoofdstad in 330 naar Constantinopel, en Rome werd in 410 geplunderd door de Visigoten en in 455 door de Vandalen. De stad kromp tot enkele tienduizenden mensen die in de bocht van de rivier tussen de ruïnes woonden. Wat haar in leven hield was de Kerk: de bisschop van Rome, de paus, werd de leider van het westerse christendom en vanaf de 8e eeuw heerser over de Pauselijke Staten in Midden-Italië.'
+  - In de renaissance en de barok herbouwden pausen als Julius II, Sixtus V en Urbanus VIII de stad. Michelangelo schilderde de Sixtijnse Kapel en ontwierp de koepel van de Sint-Pieter en het plein op het Capitool; Bernini en Borromini vulden Rome met kerken, fonteinen en pleinen. Het meeste van wat je nu in het centrum ziet, stamt uit die twee eeuwen.
+- title: Hoofdstad van Italië
+  text:
+  - In 1870 braken de troepen van het nieuwe Koninkrijk Italië bij de Porta Pia door de muren, en Rome werd het jaar erop de hoofdstad van een verenigd Italië. Hele nieuwe wijken, ministeries en het witte Vittoriano aan de Piazza Venezia verrezen voor de jonge staat. Mussolini liet in de jaren dertig de Via dei Fori Imperiali dwars door de antieke fora aanleggen, om vanaf zijn balkon aan de Piazza Venezia het Colosseum te laten zien.
+  - Na de Tweede Wereldoorlog werd Rome de hoofdstad van een republiek, organiseerde het de Olympische Spelen van 1960 en speelde het de hoofdrol in films als Roman Holiday en La Dolce Vita. Tegenwoordig is het de grootste stad van Italië en een van de meest bezochte ter wereld.
+timeline:
+- - 753 v.Chr.
+  - Romulus sticht Rome op de Palatijn, volgens de legende
+- - 509 v.Chr.
+  - De laatste koning wordt verdreven en de republiek begint
+- - 44 v.Chr.
+  - Julius Caesar wordt vermoord in het Theater van Pompeius
+- - 27 v.Chr.
+  - Augustus wordt de eerste keizer
+- - 80 n.Chr.
+  - Het Colosseum gaat open
+- - ca. 125
+  - Hadrianus herbouwt het Pantheon
+- - '410'
+  - De Visigoten plunderen Rome
+- - '1506'
+  - Begin van de bouw van de nieuwe Sint-Pieter
+- - '1651'
+  - Berninis Vierstromenfontein op de Piazza Navona
+- - '1870'
+  - Italiaanse troepen nemen Rome in; het wordt in 1871 de hoofdstad
+- - '1929'
+  - Het Lateraans Verdrag maakt Vaticaanstad tot een staat
+- - '1960'
+  - Rome organiseert de Olympische Spelen
+places:
+  via-del-corso:
+    blurb: De rechte hoofdstraat van het centrum, van de Piazza Venezia naar de Piazza del Popolo, op de lijn van de antieke Via Flaminia. Ze dankt haar naam aan de paardenraces zonder ruiter van het Romeinse carnaval.
+  piazza-venezia:
+    blurb: Het drukste kruispunt van Rome, aan de voet van het Capitool, onder het witmarmeren Vittoriano.
+  via-dei-fori-imperiali:
+    blurb: De brede laan van de Piazza Venezia naar het Colosseum, in 1932 dwars door de keizerlijke fora aangelegd.
+  piazza-del-campidoglio:
+    blurb: Michelangelo’s plein op de top van het Capitool, met het stadhuis van Rome en de Capitolijnse Musea.
+  piazza-colonna:
+    blurb: Het plein aan de Corso rond de zuil van Marcus Aurelius, met het kantoor van de premier in het Palazzo Chigi.
+  piazza-della-rotonda:
+    blurb: Het plein voor het Pantheon, met een fontein met een Egyptische obelisk erbovenop.
+  piazza-navona:
+    blurb: Het lange barokke plein op de omtrek van Domitianus’ stadion, met drie fonteinen.
+  piazza-di-trevi:
+    blurb: Het kleine plein dat de Trevifontein bijna helemaal vult.
+  largo-di-torre-argentina:
+    blurb: Een verzonken plein met vier republikeinse tempels, vlak bij waar Caesar werd vermoord, nu een thuis voor de katten van de stad.
+  corso-vittorio-emanuele:
+    blurb: De laan die in de jaren 1880 door de oude stad werd aangelegd, van de Gesù-kerk naar de Tiber en verder naar het Vaticaan.
+  campo-de-fiori:
+    blurb: Een levendig plein met ’s ochtends een markt en in het midden het standbeeld met kap van Giordano Bruno.
+  piazza-farnese:
+    blurb: Een rustig plein met twee granieten bekkens uit de Thermen van Caracalla, voor het Palazzo Farnese, dat Michelangelo hielp afbouwen en waar nu de Franse ambassade zit.
+  tevere:
+    name: De Tiber
+    blurb: De rivier van Rome, tussen hoge stenen muren die na de overstroming van 1870 werden gebouwd, met platanen langs de kades, de lungotevere.
+  foro-romano:
+    name: Het Forum Romanum
+    blurb: De vallei van ruïnes tussen het Capitool en de Palatijn, ooit het politieke en religieuze hart van het antieke Rome.
+links:
+- title: Turismo Roma
+  note: De officiële toeristeninformatie van de stad
+- title: Roma Capitale
+  note: Het stadsbestuur (in het Italiaans)
+- title: Archeologisch Park van het Colosseum
+  note: Tickets en openingstijden van het Colosseum, het Forum en de Palatijn
+- title: Historisch centrum van Rome op UNESCO
+  note: De werelderfgoedstatus
+- title: Rome op Wikipedia
+  note: Het encyclopedie-artikel

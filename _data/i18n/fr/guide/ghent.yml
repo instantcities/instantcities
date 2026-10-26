@@ -1,0 +1,104 @@
+# ghent's guide in French (_data/about/ghent.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Belgique
+- Flandre
+- Flandre-Orientale, dont elle est le chef-lieu
+- Environ 265 000 habitants (ville)
+- VIIe siècle, autour des abbayes de Saint-Bavon et de Saint-Pierre
+- L’Escaut et la Lys (Schelde et Leie), qui se rejoignent dans la ville
+- Néerlandais
+- Gent (néerlandais), Gand (français)
+- Le beffroi (1999), comme l’un des beffrois de Belgique et de France, et deux béguinages (1998)
+overview:
+- 'Gand s’est développée là où la Lys rejoint l’Escaut, et l’eau la façonne encore : des rivières et des canaux serpentent dans la vieille ville, et le port médiéval sur la Lys, entre la Graslei et la Korenlei, est la vue la plus connue de la ville. À la différence de Bruges, Gand ne s’est jamais endormie. Ses filatures de coton en firent une ville industrielle au XIXe siècle, et aujourd’hui son université remplit les rues d’étudiants.'
+- Instant Gand couvre la ville à l’intérieur du boulevard périphérique R40 ; son cœur est le centre médiéval autour de l’ancien port. À l’est de la Lys, l’église Saint-Nicolas, le beffroi et la cathédrale Saint-Bavon se dressent en ligne, et la Veldstraat mène vers le sud depuis la Korenmarkt jusqu’aux boutiques. Au nord de la rivière, le Gravensteen garde les ruelles étroites du Patershol, et quelques rues plus à l’est se trouve le Vrijdagmarkt, pendant des siècles la place où les Gantois se réunissaient pour se soulever contre leurs dirigeants.
+setting:
+- Gand se trouve dans le nord-ouest de la Belgique, en Région flamande, et est le chef-lieu de la province de Flandre-Orientale. Elle est à environ 55 kilomètres au nord-ouest de Bruxelles et à 50 kilomètres au sud-ouest d’Anvers, sur un terrain plat où la Lys (Leie) rejoint l’Escaut (Schelde).
+- 'Un canal va vers le nord de Gand jusqu’à Terneuzen, sur l’Escaut occidental, aux Pays-Bas, pour que les navires de mer puissent atteindre le port de la ville ; depuis 2018, ce port fait partie de North Sea Port, que Gand partage avec les ports néerlandais de Zélande. Le climat de Gand est doux et humide, comme dans le reste de la Flandre : étés frais, hivers doux et pluie en toute saison.'
+today:
+- Gand est la deuxième ville de Flandre, après Anvers. Son port, son aciérie et son usine d’automobiles emploient encore des milliers de personnes, mais l’université et ses dizaines de milliers d’étudiants donnent le ton de la ville. Le conseil communal a chassé les voitures du centre et y a fait entrer les vélos, et en 2009 Gand fut l’une des premières villes à promouvoir un jeudi sans viande.
+- Chaque juillet, les Fêtes de Gand remplissent pendant dix jours les places de la vieille ville de concerts gratuits et de théâtre de rue. Les Gantois mangent le waterzooi, un ragoût crémeux de poulet ou de poisson, et achètent des cuberdons, les « nez » violets au sirop de framboise, à des chariots sur le Groentenmarkt.
+history:
+- title: Abbayes et comtes
+  text:
+  - 'Vers 630, le missionnaire saint Amand fonda deux abbayes là où la Lys rejoint l’Escaut : Saint-Bavon et, sur la colline du Blandijn, Saint-Pierre. Une ville marchande grandit entre elles, et son nom vient probablement d’un mot celte pour un confluent de rivières. En 879, une armée viking établit son camp d’hiver à l’abbaye Saint-Bavon.'
+  - Les comtes de Flandre bâtirent un château près de la Lys pour protéger la ville, et en 1180 le comte Philippe d’Alsace le reconstruisit en pierre sous le nom de Gravensteen. Gand s’enrichit grâce au drap, tissé de laine anglaise, et en 1300 c’était l’une des plus grandes villes au nord des Alpes. Les marchands construisirent leurs maisons de corporations le long du port, sur la Graslei, et la ville éleva le beffroi comme tour de sa liberté.
+- title: Rebelles et un empereur
+  text:
+  - Les tisserands et les marchands de Gand défièrent souvent leurs comtes et les rois de France. En 1338, Jacob van Artevelde prit la tête de la ville et se rangea du côté de l’Angleterre dans la guerre de Cent Ans, pour que la laine anglaise continue d’arriver. En 1432, Hubert et Jan van Eyck achevèrent le Retable de Gand pour l’église Saint-Jean, aujourd’hui la cathédrale Saint-Bavon.
+  - Charles Quint, qui allait régner sur la moitié de l’Europe, naquit au Prinsenhof de Gand en 1500. Quand sa ville natale refusa de payer ses impôts et se révolta, il revint en 1540, lui retira ses privilèges et fit mendier grâce à ses principaux citoyens pieds nus, la corde au cou ; les Gantois s’appellent encore les stroppendragers, les porteurs de nœud coulant. En 1576, la Pacification de Gand unit brièvement les Pays-Bas contre les troupes espagnoles de son fils Philippe II.
+- title: Le Manchester du continent
+  text:
+  - Vers 1800, Lieven Bauwens fit sortir clandestinement une machine à filer d’Angleterre et lança la filature mécanique à Gand. Des filatures de coton et de lin suivirent, et la ville devint la plus industrielle de Belgique, le « Manchester du continent », avec des quartiers ouvriers surpeuplés et un fort mouvement socialiste. En 1814, des diplomates britanniques et américains y signèrent le traité de Gand pour mettre fin à la guerre de 1812, et en 1817 le roi Guillaume Ier fonda l’université.
+  - Gand tint une exposition universelle en 1913, et en 1930 son université devint la première de Belgique à enseigner en néerlandais. Quand les filatures fermèrent au XXe siècle, le port, une aciérie et une usine d’automobiles prirent leur place. Le vieux centre, longtemps gris de suie, fut nettoyé et restauré, et en 2017 la ville le ferma à la circulation de transit.
+timeline:
+- - vers 630
+  - Saint Amand fonde les abbayes de Saint-Bavon et de Saint-Pierre
+- - '879'
+  - Une armée viking établit son camp d’hiver à l’abbaye Saint-Bavon
+- - '1180'
+  - Philippe d’Alsace reconstruit le Gravensteen en pierre
+- - '1338'
+  - Jacob van Artevelde prend la tête de la ville et se range du côté de l’Angleterre
+- - '1432'
+  - Hubert et Jan van Eyck achèvent le Retable de Gand
+- - '1500'
+  - Le futur empereur Charles Quint naît au Prinsenhof
+- - '1540'
+  - Charles Quint écrase la révolte de Gand et lui retire ses privilèges
+- - '1576'
+  - La Pacification de Gand unit les Pays-Bas contre les troupes espagnoles
+- - vers 1800
+  - Lieven Bauwens lance la filature mécanique avec une machine sortie clandestinement d’Angleterre
+- - '1814'
+  - Le traité de Gand met fin à la guerre entre la Grande-Bretagne et les États-Unis
+- - '1817'
+  - Le roi Guillaume Ier fonde l’université de Gand
+- - '1913'
+  - Gand accueille l’Exposition universelle
+places:
+  graslei:
+    blurb: Le quai de la rive est de l’ancien port, bordé des maisons de corporations des marchands et bateliers médiévaux.
+  korenlei:
+    blurb: Le quai en face de la Graslei, avec des maisons de marchands des XVIe au XVIIIe siècles.
+  leie:
+    name: La Lys
+    blurb: La rivière qui traverse la vieille ville pour rejoindre l’Escaut. Son tronçon entre les ponts fut le port médiéval de Gand ; aujourd’hui, des bateaux de promenade partent de ses quais.
+  sint-michielsbrug:
+    blurb: Le pont de pierre sur la Lys d’où l’on voit la Graslei, la Korenlei et les trois tours de la vieille ville en rang.
+  korenmarkt:
+    name: Korenmarkt
+    blurb: L’ancien marché au grain, une longue place au pied de l’église Saint-Nicolas, où passent les tramways et où commence la Veldstraat.
+  emile-braunplein:
+    name: Emile Braunplein
+    blurb: La place ouverte entre l’église Saint-Nicolas et le beffroi, avec le pavillon de bois et de verre de la ville, la Stadshal.
+  sint-baafsplein:
+    blurb: La place devant la cathédrale Saint-Bavon, face au Théâtre néerlandais (NTGent).
+  botermarkt:
+    blurb: L’ancien marché au beurre, face à la façade Renaissance de l’hôtel de ville ; son côté gothique donne sur la Hoogpoort.
+  werregarenstraat:
+    blurb: Une ruelle étroite où les graffitis sont permis, repeints sans cesse.
+  vrijdagmarkt:
+    blurb: La grande place du marché du vendredi, pendant des siècles lieu de réunions et de révoltes, avec une statue de Jacob van Artevelde.
+  kraanlei:
+    blurb: Un quai le long de la Lys avec de vieilles maisons à pignon, nommé d’après la grue qui y déchargeait jadis les bateaux.
+  patershol:
+    blurb: Un dédale de ruelles médiévales derrière le Kraanlei, autrefois un quartier pauvre d’artisans, aujourd’hui plein de restaurants.
+  groentenmarkt:
+    blurb: L’ancien marché aux légumes à côté du long toit de la Grande Boucherie, la halle à la viande médiévale.
+  sint-veerleplein:
+    blurb: La place devant le Gravensteen, autrefois le lieu des exécutions publiques de la ville.
+  veldstraat:
+    blurb: La principale rue commerçante de Gand, qui descend vers le sud depuis la Korenmarkt, sans voitures.
+links:
+- title: Visit Gent
+  note: L’information touristique officielle de la ville
+- title: Ville de Gand
+  note: La municipalité (en néerlandais)
+- title: Beffrois de Belgique et de France sur l’UNESCO
+  note: L’inscription au patrimoine mondial qui comprend le beffroi de Gand
+- title: Béguinages flamands sur l’UNESCO
+  note: L’inscription au patrimoine mondial qui comprend les deux béguinages de Gand
+- title: Gand sur Wikipédia
+  note: L’article de l’encyclopédie

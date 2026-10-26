@@ -1,24 +1,80 @@
-# vienna's landmarks in Dutch (_data/landmarks/vienna.json, by id): name, blurb (the card), t (story), h (history),
-# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+# vienna's landmarks in Dutch (_data/landmarks/vienna.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
 stephansdom:
   name: Stephansdom
   blurb: De gotische kathedraal van Wenen, met haar zuidtoren van 136 meter en een dak van geglazuurde pannen in zigzag.
+  text:
+  - De Stephansdom werd vanaf de 14e eeuw in gotische stijl herbouwd; de zuidtoren, de Steffl, voltooid in 1433, is 136 meter hoog. De noordtoren werd nooit afgemaakt en kreeg een klein renaissancistisch petje.
+  - Het dak van zo’n 230.000 geglazuurde tegels toont de dubbelkoppige adelaar en het wapen van Wenen. In 1945 verwoestte een brand het dak; het werd in 1952 herbouwd met hulp uit heel Oostenrijk.
 graben:
   blurb: De grote winkelstraat van Wenen op de lijn van de Romeinse gracht, met de Pestzuil in het midden.
+  text:
+  - De Graben, de gracht, loopt langs de gracht van het Romeinse kamp Vindobona, in de middeleeuwen gedempt. Tegenwoordig is het een brede, elegante voetgangersstraat vol winkels en cafés.
+  - 'Zelfs de openbare toiletten zijn een bezienswaardigheid: een ondergronds art-nouveautoilet uit 1905 van Adolf Loos.'
 pestsaule:
   name: Pestzuil
   blurb: De barokke zuil van wolken en engelen, opgericht na de pest van 1679.
+  text:
+  - 'Keizer Leopold I beloofde een zuil op te richten als de pest van 1679, die tienduizenden doodde, de stad zou verlaten. Ze werd in 1693 voltooid: een toren van wolken en engelen, met de keizer biddend op zijn knieën.'
+  - De stijl werd een voorbeeld voor pestzuilen in alle Habsburgse landen.
 hofburg:
   blurb: Zes eeuwen lang het winterpaleis van de Habsburgers, nu de zetel van de Oostenrijkse president.
+  text:
+  - 'De Hofburg groeide in zes eeuwen van een middeleeuws kasteel uit tot een stad in de stad: 18 vleugels, 19 binnenplaatsen en zo’n 2.600 kamers. De Habsburgers regeerden hun rijk vanaf hier tot 1918.'
+  - Tegenwoordig heeft de president van Oostenrijk er zijn kantoren, naast musea van de keizerlijke vertrekken, de schatkamer met de kroon van het Heilige Roomse Rijk en het Sisi Museum over keizerin Elisabeth.
 michaelerplatz:
   blurb: Het ronde plein bij de poort van de Hofburg, waar Romeinse ruïnes en het sobere huis van Adolf Loos tegenover het paleis liggen.
+  text:
+  - De Michaelerpoort van de Hofburg, met zijn groene koepel en reuzenfonteinen, werd pas in 1893 voltooid. In het midden van het plein liggen de opgegraven resten van het Romeinse en middeleeuwse Wenen.
+  - Tegenover staat het Looshaus uit 1911, waarvan de kale gevel zonder versiering Wenen schokte; keizer Frans Jozef zou zijn gordijnen dicht hebben gehouden om het niet te hoeven zien.
 spanische-hofreitschule:
   name: Spaanse Rijschool
   blurb: De witte lipizzanerhengsten dansen in een barokke rijhal in de Hofburg.
+  text:
+  - De Spaanse Rijschool gaat terug tot 1565 en is genoemd naar de Spaanse paarden waaruit de Lipizzaners werden gefokt. De witte hengsten voeren de hogeschool uit in de Winterrijschool, een barokke zaal uit 1735 met kroonluchters.
+  - De paarden worden donker geboren en worden in hun eerste jaren wit.
 staatsoper:
   name: Staatsopera
   blurb: Geopend in 1869, het eerste grote gebouw aan de Ring en een van de grote operahuizen van de wereld.
+  text:
+  - Het operagebouw was het eerste openbare gebouw aan de nieuwe Ringstraße, geopend in 1869 met Mozarts Don Giovanni. Gustav Mahler was van 1897 tot 1907 de directeur.
+  - In 1945 gebombardeerd ging het in 1955 weer open. Elk jaar maakt het Opernball van het podium en de stalles één grote balzaal.
 albertina:
   blurb: Een Habsburgs paleis met een van de grootste verzamelingen prenten en tekeningen ter wereld, met de Haas van Dürer.
+  text:
+  - 'Hertog Albert van Saksen-Teschen verzamelde de collectie in de 18e eeuw, en zijn paleis op de oude stadsmuur bewaart ze nog steeds: ongeveer een miljoen prenten en zo’n 50.000 tekeningen.'
+  - Daaronder is Albrecht Dürers Jonge haas uit 1502. Een scherp mesvormig dak, toegevoegd in 2003, steekt uit boven de ingang.
 burgtheater:
   blurb: Een van de belangrijkste Duitstalige theaters, aan de Ring, tegenover het stadhuis.
+  text:
+  - Het hoftheater werd in 1741 door keizerin Maria Theresia gesticht en verhuisde in 1888 naar zijn gebouw aan de Ringstraße. Gustav Klimt en zijn broer schilderden de plafonds van de trappenhuizen.
+  - Voor acteurs in de Duitstalige wereld is lid zijn van het gezelschap de hoogste eer.
+ringstrasse:
+  blurb: De grote boulevard rond de oude stad, aangelegd waar de stadsmuren stonden.
+  text:
+  - In 1857 beval keizer Frans Jozef de stadsmuren te slopen en op hun plaats een boulevard aan te leggen. Langs de Ringstraße verrezen de Opera, het Parlement, het stadhuis, de universiteit, musea en paleizen.
+  - Trams rijden eromheen, en in het spel rijdt de race een stuk ervan, langs het Burgtheater en de Hofburg naar de Opera.
+kunsthistorisches:
+  name: Kunsthistorisches Museum
+  blurb: Het kunstmuseum van de Habsburgers aan het Maria-Theresien-Platz, met ’s werelds grootste collectie schilderijen van Bruegel.
+  text:
+  - Keizer Frans Jozef liet Gottfried Semper en Karl von Hasenauer het museum bouwen voor de Habsburgse verzamelingen, en het opende in 1891. Het staat tegenover zijn tweeling, het Natuurhistorisch Museum, aan de overkant van het Maria-Theresien-Platz, met het monument voor keizerin Maria Theresia ertussen.
+  - De Bruegelzaal bevat De jagers in de sneeuw, De toren van Babel en De boerenbruiloft, ’s werelds grootste collectie schilderijen van Pieter Bruegel de Oude. In Instant Wenen kun je drie van de zalen binnenlopen.
+fiaker:
+  name: Fiaker
+  blurb: De tweespannen die op het Stephansplatz wachten om je rond de oude stad te rijden.
+  text:
+  - De Fiaker is een Weense huurkoets met twee paarden, genoemd naar een koetsstandplaats in het Parijs van de 17e eeuw. De koetsiers dragen bolhoeden, en de paarden wachten op het Stephansplatz, het Michaelerplatz en bij de Albertina.
+  - Er is zelfs een Fiaker-koffie, met rum en slagroom.
+kaffeehaus:
+  name: Koffiehuizen
+  blurb: Marmeren tafels, kranten aan houten houders en bij elke koffie een glas water.
+  text:
+  - 'Het Weense koffiehuis staat op de UNESCO-lijst van immaterieel erfgoed: een plek om uren te zitten bij één koffie, de kranten in hun houten houders te lezen, met een glas water dat de ober bijvult.'
+  - Bestel een Melange, de Weense cappuccino; het Café Central, het Hawelka en het Sperl behoren tot de klassiekers.
+sachertorte:
+  name: Sachertorte
+  blurb: Een rijke chocoladecake met abrikozenjam, in 1832 bedacht door Franz Sacher.
+  text:
+  - 'De 16-jarige leerling Franz Sacher maakte de cake in 1832 voor prins Metternich: chocoladebiscuit, een dun laagje abrikozenjam en een glazuur van pure chocolade. Hij wordt geserveerd met ongezoete slagroom.'
+  - Hotel Sacher en banketbakkerij Demel vochten jarenlang voor de rechter uit wie de hunne het origineel mocht noemen.
