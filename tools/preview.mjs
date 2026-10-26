@@ -11,6 +11,10 @@ import path from 'node:path';
 const [site, base, prod] = process.argv.slice(2);
 if (!site || !/^\/[\w./-]+[^/]$/.test(base || '')) throw new Error('usage: node tools/preview.mjs <site dir> <base, e.g. /preview/pr-12> [<production site dir>]');
 
+// The domain is production's; left in a preview, it would outlive the preview (the deploy action
+// never deletes a CNAME), so the folder would stay behind after the PR closes.
+fs.rmSync(path.join(site, 'CNAME'), { force: true });
+
 const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]);
 
 let dropped = 0;
@@ -24,12 +28,12 @@ if (prod && fs.existsSync(path.join(prod, 'assets'))) {
 }
 
 // A path moves under the base when its first folder is in the preview; under assets/ only when that
-// very file is (the rest stays on production).
+// very file is (the rest stays on production, also a folder that a script adds a file name to).
 const tops = new Set(fs.readdirSync(site));
 const moves = rest => {
   if (rest.startsWith('${')) return true; // `/${city.id}/play/`
   const top = rest.split(/[/?#]/)[0];
-  if (top === 'assets') return fs.existsSync(path.join(site, rest.split(/[?#]/)[0]));
+  if (top === 'assets') return fs.statSync(path.join(site, rest.split(/[?#]/)[0]), { throwIfNoEntry: false })?.isFile() ?? false;
   return tops.has(top);
 };
 let rewritten = 0;
@@ -38,9 +42,15 @@ for (const file of walk(site)) {
   if (!['.html', '.js', '.mjs', '.css', '.json', '.webmanifest'].includes(ext)) continue;
   const before = fs.readFileSync(file, 'utf8');
   let text = before.replace(/(["'`(])\/(?![/\s])([^"'`)\s<>]*)/g, (m, q, rest) => moves(rest) ? `${q}${base}/${rest}` : m);
+  // A relative path into assets/ (new URL('../../../assets/img/art/', import.meta.url)) goes to
+  // production when the preview does not have that file.
+  text = text.replace(/(["'`(])((?:\.\.\/)+)(assets\/[^"'`)\s<>]*)/g, (m, q, up, rest) =>
+    path.resolve(path.dirname(file), up) === path.resolve(site) && !moves(rest) ? `${q}/${rest}` : m);
   if (ext === '.html') {
     // The home page: href="/", href="/#cities"
     text = text.replace(/((?:href|action)=["'])\/(?=["'#?])/g, `$1${base}/`);
+    // <meta http-equiv="refresh" content="0; url=/en/">
+    text = text.replace(/(content=["']\d+;\s*url=)\/(?!\/)([^"'\s]*)/gi, (m, pre, rest) => moves(rest) || !rest ? `${pre}${base}/${rest}` : m);
     // Search engines leave previews alone.
     text = text.replace(/<head(\s[^>]*)?>/i, h => `${h}\n<meta name="robots" content="noindex, nofollow">`);
   }
