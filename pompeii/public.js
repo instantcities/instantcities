@@ -19,7 +19,7 @@ import { column as cols } from './columns.js';
 
 const rnd0 = rng(3);
 
-const BRICK = ['#a8614a', '#b26e50', '#9c5a44', '#b97a58'], STUCCO = '#dccaa2', STONE = '#d8cdb2', MARBLE = '#ece5d3', DARK = '#2c241c', TILE = '#b4623c';
+const BRICK = ['#8f7a64', '#9a8268', '#86705c', '#a38a6e', '#9a6a52'], STUCCO = '#dccaa2', STONE = '#d8cdb2', MARBLE = '#ece5d3', DARK = '#2c241c', TILE = '#b4623c';
 
 const area = p => Math.abs(p.reduce((s, v, i) => (i % 2 ? s : s + v * p[(i + 3) % p.length] - p[(i + 2) % p.length] * p[i + 1]), 0)) / 2;
 const centre = p => [p.filter((_, i) => !(i % 2)).reduce((s, v) => s + v, 0) / (p.length / 2), p.filter((_, i) => i % 2).reduce((s, v) => s + v, 0) / (p.length / 2)];

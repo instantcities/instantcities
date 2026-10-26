@@ -53,7 +53,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#a99d86', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
+export const THEME = { ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {
@@ -72,7 +72,7 @@ export const LOOK = {
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
   ruins: true, // ... drawn as what the excavation has left of them: broken walls, no roofs (js/roman.js)
-  grass: '#a89e88', // the open ground is bare dust and gravel, not grass
+  grass: '#b1a893', // the open ground is bare dust and gravel, not grass
 };
 
 // The visitors: it is a busy day, with crowds along the main streets and round the Forum and the baths.
