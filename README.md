@@ -102,16 +102,25 @@ python3 serve.py        # just the games: http://localhost:8321/ghent/play/ and 
 bundle install && bundle exec jekyll serve   # the whole site: http://localhost:4000/
 ```
 
-Every pull request also gets a preview of the whole site on Netlify (`netlify.toml`): its link
-comes as a comment on the PR.
+Every pull request also gets a preview of the whole site at `https://instantcities.net/preview/pr-<n>/`
+(`.github/workflows/preview.yml`): its link comes as a comment on the PR, and the preview goes again
+when the PR closes.
 
 It needs a local server because the game uses ES modules, and an internet connection for Three.js
-and the fonts from their CDNs. GitHub Pages builds the Jekyll site itself on every push. Ruby 3.x
+and the fonts from their CDNs. Ruby 3.x
 runs `jekyll serve` fine; Ruby 4 needs `RUBYOPT=-r<file defining Object#tainted? as false>` for the
 old Liquid that GitHub Pages pins.
 
 The site lives at https://instantcities.net (GitHub Pages, `CNAME`); its address is also
-`url` in `_config.yml`.
+`url` in `_config.yml`. GitHub Pages serves the `gh-pages` branch (Settings → Pages → Deploy from a
+branch → `gh-pages` / root), which two workflows keep up to date; nobody commits to it by hand:
+
+- **Production** (`.github/workflows/deploy.yml`): every push to `main` builds the Jekyll site and
+  publishes it to the root of `gh-pages`, leaving `preview/` alone.
+- **Pull request previews** (`.github/workflows/preview.yml`): every push to a PR builds the site,
+  `tools/preview.mjs` moves its root paths (`/core/…`, `/ghent/play/`) under `/preview/pr-<n>/` and
+  leaves the assets the PR does not change to production, and the result goes to `preview/pr-<n>/`.
+  Fork PRs get no preview (read-only token).
 
 ### Where things are
 

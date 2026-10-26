@@ -17,7 +17,6 @@ exclude:
   - docs
   - README.md
   - serve.py
-  - netlify.toml
   - Gemfile
   - Gemfile.lock
   - vendor
