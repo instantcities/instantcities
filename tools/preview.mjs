@@ -11,6 +11,10 @@ import path from 'node:path';
 const [site, base, prod] = process.argv.slice(2);
 if (!site || !/^\/[\w./-]+[^/]$/.test(base || '')) throw new Error('usage: node tools/preview.mjs <site dir> <base, e.g. /preview/pr-12> [<production site dir>]');
 
+// The domain is production's; left in a preview, it would outlive the preview (the deploy action
+// never deletes a CNAME), so the folder would stay behind after the PR closes.
+fs.rmSync(path.join(site, 'CNAME'), { force: true });
+
 const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]);
 
 let dropped = 0;
