@@ -12,8 +12,10 @@ on:
 permissions:
   contents: write
 
+# A group of its own: in a group shared with the previews, a preview queueing behind a waiting deploy
+# cancelled that deploy. Pushes to gh-pages at the same time are fine, the deploy action retries.
 concurrency:
-  group: gh-pages-deploy
+  group: gh-pages-production
   cancel-in-progress: false
 
 jobs:

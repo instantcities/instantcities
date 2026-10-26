@@ -14,8 +14,9 @@ permissions:
   contents: write
   pull-requests: write
 
+# One group per PR, so previews of other PRs and production deploys never cancel each other.
 concurrency:
-  group: gh-pages-deploy
+  group: gh-pages-preview-${{ github.event.number }}
   cancel-in-progress: false
 
 jobs:
