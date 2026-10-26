@@ -13,7 +13,12 @@
 //                    `node tools/osm_map.mjs salerno`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs salerno`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs salerno`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has. The town
+//   outline.js       what the landmarks below share: the map's outline of each as paths and blocks
+//   duomo.js         the Duomo of San Matteo, its atrium and its bell tower, modelled by hand on
+//                    core/js/arcade.js, in place of the map's block of it
+//   verdi.js         the Teatro Verdi
+//   marittima.js     Zaha Hadid's Stazione Marittima on the Molo Manfredi
+// No sights or fronts yet, and three monuments: empty lists for the rest, and for what only Ghent has. The town
 // climbs the hill behind the sea, but the map is flat, like every city's outside Flanders.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -21,9 +26,13 @@ export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { DUOMO } from './duomo.js';
+import { VERDI } from './verdi.js';
+import { MARITTIMA } from './marittima.js';
 
 export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
-export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export const MONUMENTS = [...DUOMO, ...VERDI, ...MARITTIMA];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
