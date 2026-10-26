@@ -299,7 +299,7 @@ function groundMats(ctx) {
     noise(g, w, h, r, 10, [1, 1, 1]);
     g.strokeStyle = ctx.theme.paving ? 'rgba(62,64,68,0.3)' : 'rgba(90,85,78,0.35)';
     g.lineWidth = 2;
-    for (let k = 0; k <= w; k += 32) {
+    for (let k = 0; k <= w && ctx.theme.pavingJoints !== false; k += 32) { // (a theme with pavingJoints: false has an unjointed path, chalk or gravel)
       g.beginPath(); g.moveTo(k, 0); g.lineTo(k, h); g.stroke();
       g.beginPath(); g.moveTo(0, k); g.lineTo(w, k); g.stroke();
     }

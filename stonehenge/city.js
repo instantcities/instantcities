@@ -60,6 +60,19 @@ export const LOOK = {
   grass: '#8c9a58', // chalk grassland, a little pale
 };
 
+// The visitors: walkers on the path round the stones and along the Avenue.
+export const BUSY = {
+  walkers: 60,
+  cyclists: 0,
+  streets: [
+    { street: 'North Path', weight: 2, free: true },
+    { street: 'East Path', weight: 2, free: true },
+    { street: 'South Path', weight: 2, free: true },
+    { street: 'West Path', weight: 2, free: true },
+    { street: 'The Avenue', weight: 1, free: true },
+  ],
+};
+
 // Places named on the big map when riding about freely: click a name to teleport there.
 const place = (name, e, s, side) => ({ name, x: at(e, s)[0], z: at(e, s)[1], side });
 export const PLACES = [
