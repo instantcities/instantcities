@@ -1,0 +1,50 @@
+{
+  "city": "Pompei",
+  "bbox": [
+    40.7455,
+    14.48,
+    40.7535,
+    14.501
+  ],
+  "zone_points": [
+    [
+      40.7535,
+      14.48
+    ],
+    [
+      40.7535,
+      14.501
+    ],
+    [
+      40.7455,
+      14.501
+    ],
+    [
+      40.7455,
+      14.48
+    ]
+  ],
+  "hw": 3.2,
+  "floors": 1,
+  "roofs": "flat",
+  "origin": [
+    40.75,
+    14.4905
+  ],
+  "ruins_as_buildings": {
+    "max": 100
+  },
+  "routes": [
+    {
+      "id": "abbondanza",
+      "route": [
+        "Via dell'Abbondanza",
+        "Via Stabiana",
+        "Via della Fortuna",
+        "Via del Foro"
+      ]
+    }
+  ],
+  "geo": true,
+  "default_surface": "sett"
+}
