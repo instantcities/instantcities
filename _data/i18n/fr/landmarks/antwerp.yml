@@ -1,0 +1,70 @@
+# antwerp's landmarks in French (_data/landmarks/antwerp.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+grote-markt:
+  name: Grand-Place
+  blurb: La place de l’hôtel de ville et des maisons de corporations, avec la fontaine de Brabo au milieu.
+  text:
+  - La Grand-Place est le cœur du vieil Anvers, où les corporations ont bâti au XVIe siècle leurs hautes maisons aux pignons à redans et dorés. Du côté ouest se dresse l’hôtel de ville Renaissance.
+  - Au milieu, Brabo jette la main du géant Antigon dans le fleuve, sur une fontaine de Jef Lambeaux de 1887.
+brabofontein:
+  name: Fontaine de Brabo
+  blurb: 'Le soldat romain Brabo jetant au loin la main du géant : la légende derrière le nom de la ville.'
+  text:
+  - La légende dit que le géant Antigon faisait payer un péage à chaque navire sur l’Escaut, et coupait la main de quiconque refusait. Le soldat romain Silvius Brabo le tua, lui coupa la main et la jeta dans le fleuve.
+  - Hand werpen, jeter la main, serait devenu Antwerpen, dit l’histoire. La fontaine de bronze de Jef Lambeaux, de 1887, montre Brabo au moment où il jette.
+stadhuis:
+  name: Hôtel de ville
+  blurb: Un hôtel de ville Renaissance de 1565, tout en drapeaux et en colonnes, sur la Grand-Place.
+  text:
+  - 'Cornelis Floris de Vriendt construisit l’hôtel de ville entre 1561 et 1565, quand Anvers était la ville la plus riche d’Europe du Nord. Il mêle idées flamandes et italiennes : une longue façade de colonnes avec un haut milieu décoré.'
+  - C’est un site du patrimoine mondial ; les drapeaux le long de sa façade sont ceux des pays de l’Union européenne.
+kathedraal:
+  name: Cathédrale Notre-Dame
+  blurb: La plus grande église gothique des Pays-Bas méridionaux, sa flèche haute de 123 mètres, avec quatre retables de Rubens.
+  text:
+  - 'La cathédrale fut bâtie de 1352 à 1521, et sa tour nord s’élève à 123 mètres : le plus haut clocher de Belgique. La tour sud ne fut jamais achevée.'
+  - À l’intérieur sont accrochées quatre grandes œuvres de Rubens, dont L’Érection de la Croix et La Descente de Croix. Dans Nello et Patrasche, Nello meurt devant elles avec son chien à Noël.
+het-steen:
+  name: Le Steen
+  blurb: Le plus vieux bâtiment d’Anvers, un château médiéval sur l’Escaut.
+  text:
+  - Le Steen est ce qui reste du château qui gardait la ville sur l’Escaut à partir du XIIIe siècle. Rebâti sous Charles Quint, il servit ensuite de prison.
+  - À sa porte se dresse le géant Lange Wapper, issu des contes populaires de la ville, dominant deux petites figures. Aujourd’hui, c’est le centre d’accueil des visiteurs de la ville.
+vleeshuis:
+  blurb: La halle gothique de la corporation des bouchers, rayée de brique et de pierre blanche.
+  text:
+  - La corporation des bouchers construisit le Vleeshuis vers 1503, une haute halle avec des tours et des pignons à redans, ses murs rayés comme du lard de brique rouge et de pierre blanche.
+  - Aujourd’hui, c’est un musée de la musique, avec de vieux clavecins et des instruments fabriqués à Anvers.
+groenplaats:
+  blurb: La place au pied de la cathédrale, avec une statue de Rubens au milieu.
+  text:
+  - Le Groenplaats était autrefois le cimetière de la cathédrale ; il devint une place à la fin du XVIIIe siècle. Rubens se dresse en bronze au milieu, sur une statue de 1840.
+  - D’ici, on voit la tour de la cathédrale s’élever au-dessus des maisons. En hiver, il accueille un marché de Noël.
+plantin-moretus:
+  blurb: La maison et l’atelier d’une grande imprimerie, avec les deux plus anciennes presses d’imprimerie du monde.
+  text:
+  - Christophe Plantin installa son imprimerie à Anvers en 1555 et en fit la plus grande d’Europe. Ses héritiers, la famille Moretus, la dirigèrent pendant trois siècles dans la maison du Vrijdagmarkt.
+  - Aujourd’hui, c’est un musée et un site du patrimoine mondial, avec les deux plus anciennes presses d’imprimerie conservées au monde, sa fonderie de caractères et sa bibliothèque.
+meir:
+  blurb: La grande rue commerçante d’Anvers, bordée de palais et de grands magasins.
+  text:
+  - Le Meir va de la vieille ville vers la gare, bordé de belles demeures, dont le Paleis op de Meir du XVIIIe siècle, où Napoléon séjourna. Aujourd’hui, c’est la rue commerçante la plus fréquentée de Belgique.
+  - La maison de Rubens se trouve juste à côté.
+rubenshuis:
+  name: Maison de Rubens
+  blurb: La maison et l’atelier où Pierre Paul Rubens vécut et peignit à partir de 1610.
+  text:
+  - Rubens acheta la maison en 1610 et la transforma en palazzo de style italien, avec un atelier où ses assistants l’aidaient à produire des tableaux. Un portique baroque mène à son jardin.
+  - Aujourd’hui, c’est un musée avec des œuvres de Rubens et de son entourage.
+diamant:
+  name: Les diamants
+  blurb: Anvers commerce et taille les diamants depuis le XVe siècle ; la plupart des diamants bruts du monde y passent encore.
+  text:
+  - Le commerce du diamant à Anvers remonte au XVe siècle. Aujourd’hui, son quartier du diamant près de la gare centrale, quelques rues de bureaux et d’ateliers, traite la plupart des diamants bruts du monde.
+  - La taille qui donne son éclat à un diamant, avec ses nombreuses facettes, doit beaucoup aux tailleurs anversois.
+handjes:
+  name: Les mains d’Anvers
+  blurb: Biscuits et chocolats en forme de main, d’après la légende de Brabo.
+  text:
+  - Les Antwerpse handjes sont des biscuits au beurre aux amandes, et aussi des chocolats, en forme de la main que Brabo jeta dans l’Escaut. Ils remontent à un concours de pâtisserie de 1934, gagné par le boulanger anversois Jos Hakker.
+  - Chaque boulangerie et chocolaterie du centre en vend.

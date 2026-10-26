@@ -1,0 +1,21 @@
+# prague's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/prague.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/prague.yml and its landmarks, with their pages, in landmarks/prague.yml.
+title: 'Instant Prague : visite virtuelle en 3D et jeu gratuits de Prague'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Prague dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la vieille ville de Prague !
+lead: Parcourez la vieille ville de Prague en 3D, par la place de la Vieille-Ville, devant l’horloge astronomique, l’église de Týn et le pont Charles, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Prague
+  text: 'Promenez-vous parmi quelque 1 900 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: La vieille ville
+  text: Arrêtez-vous sur la place de la Vieille-Ville sous l’horloge astronomique et l’église de Týn, traversez le quartier juif et descendez jusqu’à la rivière près du pont Charles.
+- title: 'Une course : vieille ville'
+  text: Foncez de la place de la Vieille-Ville par la Pařížská à travers le quartier juif jusqu’à la rivière, devant le pont Charles, et retour par la Karlova jusqu’à l’horloge astronomique.
+intro: 'Prague est la capitale de la Tchéquie et la plus grande ville de Bohême, bâtie sur les deux rives de la Vltava. Son vieux centre a traversé les guerres du XXe siècle presque intact : tours gothiques, églises baroques et façades Art nouveau bordent toujours les mêmes rues, sous un château d’où rois, empereurs et présidents gouvernent depuis plus de mille ans.'
+famous:
+- Le pont Charles et ses statues, avec le château de Prague sur la colline derrière
+- La place de la Vieille-Ville, l’église de Týn et l’horloge astronomique qui sonne les heures depuis 1410
+- La ville juive, ses synagogues et son vieux cimetière, et la ville de Franz Kafka
+- La bière tchèque, la pils servie avec une épaisse mousse, et les trams rouges sur les pavés
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

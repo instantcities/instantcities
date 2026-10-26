@@ -1,0 +1,67 @@
+# copenhagen's landmarks in French (_data/landmarks/copenhagen.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+nyhavn:
+  blurb: Le port du XVIIe siècle aux maisons colorées, aux bateaux de bois et aux terrasses de café.
+  text:
+  - Nyhavn, le nouveau port, fut creusé dans les années 1670 par des prisonniers de guerre suédois pour amener les navires au cœur de la ville. Son côté nord est une rangée de maisons de ville peintes de couleurs vives des XVIIe et XVIIIe siècles, autrefois pleines de bars de marins.
+  - Hans Christian Andersen a vécu aux numéros 20, 67 et 18. Aujourd’hui, de vieux bateaux de bois sont amarrés le long du quai, et les terrasses se remplissent dès que le soleil sort.
+kongens-nytorv:
+  blurb: La nouvelle place du Roi, avec le Théâtre royal danois et un roi de bronze à cheval.
+  text:
+  - Kongens Nytorv fut aménagée en 1670 par le roi Christian V, dont la statue de bronze à cheval se dresse au milieu. Autour se trouvent le Théâtre royal danois, l’hôtel d’Angleterre et le palais de Charlottenborg.
+  - C’est le début de Strøget et la porte de Nyhavn.
+christiansborg:
+  blurb: Le palais de Slotsholmen qui abrite le Parlement, le bureau du Premier ministre et la Cour suprême.
+  text:
+  - Il y a un château sur Slotsholmen depuis que l’évêque Absalon a fondé la ville en 1167. Le palais actuel, le troisième Christiansborg, fut achevé en 1928 après que ses deux prédécesseurs eurent brûlé.
+  - C’est le seul bâtiment au monde qui abrite les trois pouvoirs d’un pays. De sa tour, la plus haute de la ville, on a une vue gratuite sur Copenhague.
+borsen:
+  blurb: La Bourse de Christian IV, de 1640, avec une flèche de quatre queues de dragons, incendiée en 2024.
+  text:
+  - Le roi Christian IV construisit Børsen dans les années 1620 pour faire de Copenhague une capitale commerciale. Sa flèche était faite des queues de quatre dragons entrelacées, un symbole de la ville.
+  - Le 16 avril 2024, un incendie se déclara pendant la restauration et la flèche s’effondra, tandis que des passants aidaient à sortir les tableaux. Le bâtiment est en cours de reconstruction.
+rundetaarn:
+  name: Tour ronde
+  blurb: L’observatoire de Christian IV, de 1642, où l’on monte par une rampe en spirale au lieu d’un escalier.
+  text:
+  - La Rundetaarn fut construite dans les années 1640 comme observatoire pour l’université. Au lieu d’escaliers, une large rampe en spirale s’enroule à l’intérieur, sept tours et demi, assez large pour un cheval et une voiture.
+  - On dit que Pierre le Grand de Russie la monta à cheval en 1716. Au sommet se trouve le plus ancien observatoire encore en activité d’Europe.
+stroget:
+  blurb: L’une des plus longues rues commerçantes piétonnes d’Europe, de la place de l’Hôtel-de-Ville à Kongens Nytorv.
+  text:
+  - En 1962, Copenhague ferma Strøget aux voitures, alors une expérience audacieuse. La suite de rues court sur quelque 1,1 kilomètre à travers la vieille ville, de la place de l’Hôtel-de-Ville à Kongens Nytorv.
+  - À Amagertorv, à mi-chemin, se dresse la fontaine de la Cigogne ; dans le jeu, la course revient en le longeant.
+radhuspladsen:
+  name: Place de l’Hôtel-de-Ville
+  blurb: La place devant l’hôtel de ville de brique rouge de Copenhague, avec sa tour de 105 mètres.
+  text:
+  - L’hôtel de ville de Copenhague fut achevé en 1905, en brique rouge avec une tour de 105 mètres. À l’intérieur se trouve l’Horloge universelle de Jens Olsen, l’une des horloges mécaniques les plus précises jamais construites.
+  - Hans Christian Andersen est assis en bronze sur le boulevard qui porte son nom, regardant vers Tivoli.
+tivoli:
+  blurb: L’un des plus anciens parcs d’attractions du monde, ouvert en 1843 au milieu de la ville.
+  text:
+  - Georg Carstensen ouvrit Tivoli en 1843 hors des remparts de la ville, avec des jardins, une salle de concert et des manèges. Il a toujours des montagnes russes de bois de 1914.
+  - Walt Disney y vint plusieurs fois en préparant Disneyland. La nuit, des milliers de lumières s’allument parmi ses arbres.
+amalienborg:
+  blurb: Quatre palais rococo identiques autour d’une place octogonale, résidence de la famille royale danoise.
+  text:
+  - Amalienborg fut construit dans les années 1750 comme quatre palais pour des familles nobles autour d’un octogone, avec une statue du roi Frédéric V à cheval au milieu. Après l’incendie de Christiansborg en 1794, la famille royale s’y installa.
+  - La Garde royale, en bonnet à poil, y relève la garde chaque jour à midi.
+lille-havfrue:
+  name: La Petite Sirène
+  blurb: La statue d’Edvard Eriksen de la sirène d’Andersen sur un rocher au bord du port, au-delà de cette petite carte.
+  text:
+  - La statue de bronze fut offerte à la ville par le brasseur Carl Jacobsen en 1913, après qu’il eut vu un ballet tiré du conte d’Andersen. Elle est assise sur un rocher à Langelinie, regardant l’eau.
+  - Elle est célèbre pour sa petite taille, à peine 1,25 mètre, et a perdu deux fois sa tête à cause de vandales. Elle se trouve un peu au nord de la partie de Copenhague du jeu.
+cykler:
+  name: Les vélos et vélos-cargos
+  blurb: Plus de la moitié des Copenhaguois vont au travail ou à l’école à vélo, beaucoup en vélo-cargo avec les enfants devant.
+  text:
+  - Copenhague compte quelque 400 kilomètres de pistes cyclables, séparées de la route par des bordures surélevées, et des ponts réservés aux vélos. Plus de vélos que de voitures traversent le centre-ville chaque jour.
+  - Le vélo-cargo Christiania, avec une caisse devant, fut construit dans la ville libre de Christiania dans les années 1980 ; les parents y emmènent leurs enfants à l’école.
+smorrebrod:
+  name: Le smørrebrød
+  blurb: Des tartines ouvertes sur pain de seigle foncé, garnies de hareng, de rosbif ou de crevettes.
+  text:
+  - 'Smørrebrød signifie beurre et pain : une tranche de pain de seigle dense, beurrée et recouverte de garnitures, hareng mariné, œuf et crevettes, pâté de foie, rosbif avec rémoulade et oignons croustillants.'
+  - On le mange au couteau et à la fourchette au déjeuner, souvent avec une bière fraîche et un verre d’aquavit.

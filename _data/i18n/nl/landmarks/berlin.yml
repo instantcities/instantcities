@@ -1,0 +1,76 @@
+# berlin's landmarks in Dutch (_data/landmarks/berlin.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+brandenburger-tor:
+  name: Brandenburger Tor
+  blurb: De neoclassicistische poort uit 1791 met de Quadriga erop, symbool van een verdeeld en herenigd Duitsland.
+  text:
+  - Carl Gotthard Langhans bouwde de poort in 1791 als toegang tot Unter den Linden, naar het voorbeeld van de poort van de Akropolis. Bovenop drijft een overwinningsgodin de Quadriga, een wagen met vier paarden; Napoleon nam haar in 1806 mee naar Parijs, en in 1814 kwam ze terug.
+  - Vanaf 1961 stond de poort in het niemandsland van de Berlijnse Muur. Op 22 december 1989 ging ze weer open, en ze werd het symbool van een herenigd Duitsland.
+reichstag:
+  name: Rijksdag
+  blurb: Het parlementsgebouw uit 1894, sinds 1999 bekroond met een glazen koepel die je kunt beklimmen.
+  text:
+  - De Rijksdag werd in 1894 voltooid voor het parlement van het Duitse Keizerrijk. Hij brandde af in 1933, een brand die de nazi’s gebruikten om de volledige macht te grijpen, en bleef na de oorlog in puin achter.
+  - Na de hereniging herbouwde Norman Foster hem voor de Bondsdag, bekroond met een glazen koepel met een spiraalvormige helling waarvandaan bezoekers neerkijken in de debatzaal.
+unter-den-linden:
+  blurb: De boulevard onder de lindebomen, van de Brandenburger Tor naar het Museumeiland.
+  text:
+  - Unter den Linden begon als ruiterpad voor de Pruisische prinsen, in 1647 beplant met lindebomen. Het werd de statigste straat van Berlijn, omzoomd met de opera, de universiteit, het Zeughaus en ambassades.
+  - In het spel loopt de race erlangs, vanaf de hoek van de Wilhelmstraße.
+gendarmenmarkt:
+  blurb: De Franse en de Duitse kerk tegenover elkaar op het plein, met het concertgebouw ertussen.
+  text:
+  - Het plein werd eind 17e eeuw aangelegd en genoemd naar een regiment gendarmes dat hier gelegerd was. De Franse kerk werd gebouwd voor de hugenootse vluchtelingen, de Duitse kerk voor de lutheranen; hun koepeltorens werden in 1785 toegevoegd.
+  - Ertussen staat Schinkels Konzerthaus uit 1821. In december vult het plein zich met een kerstmarkt.
+holocaust-mahnmal:
+  name: Holocaustmonument
+  blurb: 'Het monument voor de vermoorde Joden van Europa: 2.711 betonblokken op een glooiend veld.'
+  text:
+  - Peter Eisenmans monument opende in 2005 op een terrein van 19.000 vierkante meter bij de Brandenburger Tor. De 2.711 grijze betonblokken staan in een raster op grond die daalt en stijgt, zodat je bij het binnenlopen de stad uit het oog verliest.
+  - Eronder vertelt een informatiecentrum de verhalen van de slachtoffers.
+bebelplatz:
+  blurb: Het plein waar de nazi’s in 1933 boeken verbrandden, nu gemarkeerd door een bibliotheek met lege rekken onder de grond.
+  text:
+  - Op 10 mei 1933 verbrandden studenten en nazi-functionarissen op dit plein zo’n 20.000 boeken, werken van Heinrich Heine, Thomas Mann en vele anderen.
+  - Een glasplaat in de bestrating kijkt neer op Micha Ullmans monument, een ondergrondse ruimte met lege witte boekenplanken met plaats voor 20.000 boeken. Rond het plein staan de Staatsopera en de Sint-Hedwigskathedraal.
+museumsinsel:
+  name: Museumeiland
+  blurb: Vijf grote musea op een eiland in de Spree, van het Pergamonaltaar tot Nefertiti.
+  text:
+  - 'Van 1830 tot 1930 bouwde Pruisen vijf musea op de noordpunt van het eiland in de Spree: het Altes Museum, het Neues Museum, de Alte Nationalgalerie, het Bode-Museum en het Pergamonmuseum.'
+  - De buste van Nefertiti staat in het Neues Museum, de Ishtarpoort van Babylon in het Pergamon. Het eiland is werelderfgoed.
+berliner-dom:
+  name: Berliner Dom
+  blurb: De grote protestantse koepelkathedraal op het Museumeiland, voltooid in 1905.
+  text:
+  - Keizer Wilhelm II liet de Berliner Dom bouwen van 1894 tot 1905, een enorm protestants antwoord op de Sint-Pieter in Rome, met een groene koepel. Eronder liggen de graven van de Hohenzollerns.
+  - Je kunt rond de buitenkant van de koepel omhoog klimmen voor uitzicht over de Spree en de stad.
+fernsehturm:
+  name: Televisietoren
+  blurb: De televisietoren van Oost-Berlijn uit 1969, 368 meter hoog, met een bol die in de zon een lichtkruis werpt.
+  text:
+  - 'Oost-Duitsland bouwde de Fernsehturm in 1969 om zijn hoofdstad te tonen: met 368 meter is het nog altijd het hoogste gebouw van Duitsland. De stalen bol bevat een uitkijkverdieping en een restaurant dat elk uur één keer rond draait.'
+  - Als de zon op de bol schijnt, weerspiegelen de panelen een lichtkruis, dat de Berlijners de wraak van de paus noemden.
+mauer:
+  blurb: De muur die de stad van 1961 tot 1989 in tweeën deelde, waarvan de lijn nu wordt gemarkeerd door een dubbele rij kasseien.
+  text:
+  - Op 13 augustus 1961 sloot Oost-Duitsland West-Berlijn af met prikkeldraad en daarna een muur, 155 kilometer lang, met een dodenstrook erachter. Hij liep net ten westen van de Brandenburger Tor.
+  - Op 9 november 1989 viel hij. Een dubbele rij kasseien markeert nu waar hij stond, dwars door de straten van het centrum.
+ampelmann:
+  name: Ampelmännchen
+  blurb: Het mannetje met hoed op de verkeerslichten van Oost-Berlijn, gered na de hereniging.
+  text:
+  - In 1961 ontwierp verkeerspsycholoog Karl Peglau een mannetje met hoed voor de voetgangerslichten van Oost-Duitsland, stappend op groen en stilstaand met uitgestrekte armen op rood.
+  - Na de hereniging zou hij worden vervangen door de gewone figuur van het Westen, maar Berlijners protesteerden, en vandaag loopt hij op lichten door de hele stad.
+trabant:
+  name: Trabant
+  blurb: Het kleine Oost-Duitse autootje met plastic carrosserie, dat in 1989 over de open grens knetterde.
+  text:
+  - De Trabant werd van 1957 tot 1991 in Oost-Duitsland gebouwd, met een tweetaktmotor en een carrosserie van Duroplast, een kunststof gemaakt met katoenafval. Gezinnen wachtten meer dan tien jaar op een exemplaar.
+  - In november 1989 trokken kolonnes rokende Trabi’s naar het Westen, en het autootje werd een symbool van de val van de Muur.
+currywurst:
+  name: Currywurst
+  blurb: Een in plakjes gesneden varkensworst in kerriesaus, in 1949 in Berlijn uitgevonden.
+  text:
+  - In 1949 mengde Herta Heuwer bij haar snackkraam in Charlottenburg ketchup met kerriepoeder dat ze van Britse soldaten had en goot het over een gebakken worst. Berlijn eet het sindsdien.
+  - Het wordt in stukjes gesneden geserveerd met een klein houten vorkje, met of zonder vel, vaak met friet.

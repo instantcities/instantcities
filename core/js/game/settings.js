@@ -15,6 +15,8 @@ const saved = (() => {
 // A link can open the menu on one kind, ?menu=tour (the site's "Virtual tour" buttons).
 const linkKind = new URLSearchParams(location.search).get('menu');
 const startKind = ['mission', 'race', 'tour'].includes(linkKind) ? linkKind : saved.kind;
+// A site page in French or Dutch links with ?lang=fr, ?lang=nl: the game starts in that language.
+const URL_LANG = new URLSearchParams(location.search).get('lang');
 
 export const game = {
   state: 'menu', // menu | briefing (a quest, before you start) | countdown | race | paused | results | tour (flying the tour)
@@ -32,7 +34,7 @@ export const game = {
   // which mission: 0 is exploring freely, after it the quests (QUESTS[mission - 1])
   mission: clamp(Math.floor(saved.mission ?? (saved.kind === 'quest' ? (saved.quest ?? 0) + 1 : 0)), 0, QUESTS.length),
   mounts: [0, 1].map(p => (MOUNTS.includes(saved.mounts?.[p]) || (saved.mounts?.[p] === 'heli' && saved.questsWon?.includes('heli')) ? saved.mounts[p] : 'bike')), // what each player rides, or on foot (or flies)
-  lang: Object.hasOwn(LANGS, saved.lang) ? saved.lang : 'en', // Restore any supported language
+  lang: [URL_LANG, saved.lang].find(l => Object.hasOwn(LANGS, l)) ?? 'en', // ?lang= (a site page in that language links so), else the one picked before
   style: saved.style === 'pro' ? 'pro' : 'fun', // the look of the menus: playful, or professional (white and navy, a serif)
   trackIdx: clamp(Math.floor(saved.track ?? 0), 0, TRACKS.length - 1),
   laps: clamp(Math.floor(saved.laps ?? 3), 1, 9),

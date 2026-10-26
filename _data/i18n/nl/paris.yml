@@ -1,0 +1,21 @@
+# paris's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/paris.yml and its landmarks, with their pages, in landmarks/paris.yml.
+title: 'Instant Paris: gratis virtuele 3D-rondleiding en game van Parijs'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Parijs in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de Seine!
+lead: Rijd door het hart van Parijs in 3D, langs de Notre-Dame, de Sainte-Chapelle, de Pont Neuf en de Rue de Rivoli, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Parijs
+  text: 'Dwaal tussen zo’n 5.500 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Rond het Île de la Cité
+  text: Bekijk de Notre-Dame, de Sainte-Chapelle en de Pont Neuf op het eiland, steek over naar het Hôtel de Ville en de Rue de Rivoli op de rechteroever, en rijd door tot aan het Louvre.
+- title: 'Een race: Île de la Cité'
+  text: Race van het Hôtel de Ville over de Seine naar de Notre-Dame, langs de kades van het eiland naar de Pont Neuf en terug over de Rue de Rivoli.
+intro: Parijs is de hoofdstad van Frankrijk en, met zijn voorsteden, de grootste stad van de Europese Unie. Het groeide van een klein eiland in de Seine uit tot de zetel van de Franse koningen, het toneel van de Revolutie en de stad die baron Haussmann in de 19e eeuw herbouwde met brede boulevards. Vandaag komen mensen er voor de musea, de kathedraal en de cafés, en voor het uitzicht langs de rivier.
+famous:
+- De Notre-Dame, het Louvre en de Eiffeltoren
+- De Seine met haar stenen bruggen en de groene kisten van de boekenverkopers langs de kades
+- De boulevards van Haussmann, met gebouwen van lichte steen en grijze zinken daken
+- Cafés met hun terrassen op de stoep, bakkerijen, croissants en het stokbrood
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,0 +1,67 @@
+# copenhagen's landmarks in Dutch (_data/landmarks/copenhagen.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+nyhavn:
+  blurb: De 17e-eeuwse haven met gekleurde huizen, houten schepen en caféterrassen.
+  text:
+  - Nyhavn, de nieuwe haven, werd in de jaren 1670 gegraven door Zweedse krijgsgevangenen om schepen tot in het hart van de stad te brengen. De noordkant is een rij felgekleurde herenhuizen uit de 17e en 18e eeuw, ooit vol matrozenkroegen.
+  - Hans Christian Andersen woonde op nummer 20, 67 en 18. Nu liggen oude houten schepen langs de kade, en de terrassen lopen vol zodra de zon schijnt.
+kongens-nytorv:
+  blurb: Het Nieuwe Plein van de Koning, met het Koninklijk Deens Theater en een bronzen koning te paard.
+  text:
+  - Kongens Nytorv werd in 1670 aangelegd door koning Christiaan V, wiens bronzen ruiterstandbeeld in het midden staat. Eromheen staan het Koninklijk Deens Theater, Hotel d’Angleterre en paleis Charlottenborg.
+  - Het is het begin van Strøget en de poort naar Nyhavn.
+christiansborg:
+  blurb: Het paleis op Slotsholmen met het parlement, het kantoor van de premier en het hooggerechtshof.
+  text:
+  - Er staat sinds bisschop Absalon de stad in 1167 stichtte een kasteel op Slotsholmen. Het huidige paleis, het derde Christiansborg, werd in 1928 voltooid nadat zijn twee voorgangers waren afgebrand.
+  - Het is het enige gebouw ter wereld dat alle drie de machten van een land huisvest. Vanaf de toren, de hoogste van de stad, heb je gratis uitzicht over Kopenhagen.
+borsen:
+  blurb: De beurs van Christiaan IV uit 1640, met een spits van vier drakenstaarten, in 2024 uitgebrand.
+  text:
+  - Koning Christiaan IV bouwde Børsen in de jaren 1620 om van Kopenhagen een handelshoofdstad te maken. De spits was gemaakt van de staarten van vier draken die in elkaar gedraaid waren, een symbool van de stad.
+  - Op 16 april 2024 brak tijdens de restauratie brand uit en stortte de spits in, terwijl voorbijgangers hielpen de schilderijen naar buiten te dragen. Het gebouw wordt herbouwd.
+rundetaarn:
+  name: Ronde Toren
+  blurb: De sterrenwacht van Christiaan IV uit 1642, die je beklimt via een spiraalvormige helling in plaats van trappen.
+  text:
+  - De Rundetaarn werd in de jaren 1640 gebouwd als sterrenwacht voor de universiteit. In plaats van trappen kronkelt binnenin een brede spiraalhelling omhoog, zeven en een halve slag, breed genoeg voor een paard en wagen.
+  - Tsaar Peter de Grote van Rusland zou er in 1716 te paard zijn opgereden. Bovenaan ligt de oudste nog werkende sterrenwacht van Europa.
+stroget:
+  blurb: Een van de langste autovrije winkelstraten van Europa, van het Raadhuisplein naar Kongens Nytorv.
+  text:
+  - In 1962 sloot Kopenhagen Strøget af voor auto’s, toen een gewaagd experiment. De reeks straten loopt zo’n 1,1 kilometer door de oude stad, van het Raadhuisplein naar Kongens Nytorv.
+  - Op Amagertorv, halverwege, staat de Ooievaarsfontein; in het spel komt de race erlangs terug.
+radhuspladsen:
+  name: Raadhuisplein
+  blurb: Het plein voor het rode bakstenen stadhuis van Kopenhagen, met zijn toren van 105 meter.
+  text:
+  - Kopenhagens stadhuis werd in 1905 voltooid, in rode baksteen met een toren van 105 meter. Binnen staat Jens Olsens Wereldklok, een van de nauwkeurigste mechanische klokken ooit gebouwd.
+  - Hans Christian Andersen zit in brons op de boulevard die zijn naam draagt, kijkend naar Tivoli.
+tivoli:
+  blurb: Een van de oudste pretparken ter wereld, in 1843 geopend midden in de stad.
+  text:
+  - Georg Carstensen opende Tivoli in 1843 buiten de stadsmuren, met tuinen, een concertzaal en attracties. Het heeft nog altijd een houten achtbaan uit 1914.
+  - Walt Disney bezocht het meermaals tijdens de planning van Disneyland. ’s Nachts gaan duizenden lichtjes aan tussen de bomen.
+amalienborg:
+  blurb: Vier identieke rococopaleizen rond een achthoekig plein, het huis van de Deense koninklijke familie.
+  text:
+  - Amalienborg werd in de jaren 1750 gebouwd als vier paleizen voor adellijke families rond een achthoek, met een standbeeld van koning Frederik V te paard in het midden. Nadat Christiansborg in 1794 afbrandde, trok de koninklijke familie erin.
+  - De Koninklijke Lijfwacht, in berenmutsen, lost hier elke dag om twaalf uur de wacht af.
+lille-havfrue:
+  name: De Kleine Zeemeermin
+  blurb: Edvard Eriksens standbeeld van Andersens zeemeermin op een rots aan de haven, buiten deze kleine kaart.
+  text:
+  - Het bronzen standbeeld werd in 1913 aan de stad geschonken door de brouwer Carl Jacobsen, nadat hij een ballet naar Andersens verhaal had gezien. Ze zit op een rots bij Langelinie en kijkt uit over het water.
+  - Ze is beroemd klein, nauwelijks 1,25 meter, en verloor twee keer haar hoofd aan vandalen. Ze ligt iets ten noorden van het stuk Kopenhagen in het spel.
+cykler:
+  name: Fietsen en bakfietsen
+  blurb: Meer dan de helft van de Kopenhageners fietst naar werk of school, velen op bakfietsen met de kinderen voorin.
+  text:
+  - Kopenhagen heeft zo’n 400 kilometer fietspad, met verhoogde stoepranden gescheiden van de weg, en bruggen alleen voor fietsen. Elke dag steken meer fietsen dan auto’s het stadscentrum over.
+  - De Christiania-bakfiets, met een bak voorin, werd in de jaren 1980 gebouwd in de vrijstaat Christiania; ouders rijden er hun kinderen mee naar school.
+smorrebrod:
+  name: Smørrebrød
+  blurb: Open broodjes op donker roggebrood, belegd met haring, rosbief of garnalen.
+  text:
+  - 'Smørrebrød betekent boter en brood: een snee dicht roggebrood, besmeerd met boter en belegd met toppings, gemarineerde haring, ei en garnalen, leverpastei, rosbief met remoulade en krokante uitjes.'
+  - Het wordt met mes en vork gegeten bij de lunch, vaak met een koud biertje en een glas akvavit.

@@ -1,0 +1,22 @@
+# salerno's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/salerno.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/salerno.yml and its landmarks, with their pages, in landmarks/salerno.yml.
+title: 'Instant Salerno: gratis virtuele 3D-rondleiding en game van Salerno'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Salerno in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Salerno, tussen de zee en de heuvels!
+lead: Rijd door het centrum van Salerno in 3D, aan de golf aan het begin van de Amalfikust, langs de Duomo, door de Via dei Mercanti, over de Corso en de Lungomare, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Salerno
+  text: Dwaal tussen zo’n 1.000 gebouwen, in 3D nagebouwd uit OpenStreetMap, in kaart gebracht als hele blokken, in een eerste stuk van het centrum met de zee ervoor. De rest van de stad volgt nog.
+- title: Tussen de zee en de heuvels
+  text: Bezoek de Duomo van San Matteo, kronkel door de middeleeuwse straatjes van de Via dei Mercanti, rijd over de Corso langs de Villa Comunale en het Teatro Verdi, en verder naar de veerterminal van Zaha Hadid op de Molo Manfredi.
+- title: 'Een race: Duomo en Lungomare'
+  text: Race van onder de Duomo door de Via dei Mercanti en over de Corso, naar beneden naar de zee, onder de palmen van de Lungomare en terug over de Via Roma.
+intro: Salerno ligt aan zijn eigen golf in Campanië, in het zuiden van Italië, waar de Amalfikust eindigt en de vlakte van Paestum begint. Ooit een Longobardische hoofdstad en de thuis van de eerste medische school van het middeleeuwse Europa, klimt het van een boulevard met palmen door een middeleeuwse oude stad naar het kasteel op de heuvel. Elke winter gloeien de straten met de Luci d’Artista.
+famous:
+- De Duomo, de Normandische kathedraal boven het graf van de heilige Mattheüs
+- De Scuola Medica Salernitana, de eerste medische school van het middeleeuwse Europa
+- De Lungomare, de boulevard met uitzicht over de golf
+- De Luci d’Artista, het lichtfestival dat elke winter de stad vult
+- De toegangspoort tot de Amalfikust, met de boot vanaf de Molo Manfredi
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,0 +1,21 @@
+# copenhagen's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/copenhagen.yml and its landmarks, with their pages, in landmarks/copenhagen.yml.
+title: 'Instant Copenhagen : visite virtuelle en 3D et jeu gratuits de Copenhague'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Copenhague dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Copenhague, la ville du vélo !
+lead: Parcourez le cœur de Copenhague en 3D, par Nyhavn, Kongens Nytorv, Christiansborg et le Strøget, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Copenhague
+  text: 'Promenez-vous parmi quelque 3 400 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: La ville du vélo
+  text: Longez Nyhavn depuis Kongens Nytorv, traversez Slotsholmen devant Børsen et Christiansborg, flânez sur le Strøget jusqu’à la place de l’Hôtel-de-Ville, et repérez Tivoli et Amalienborg en bordure.
+- title: 'Une course : Nyhavn et Strøget'
+  text: Foncez de Kongens Nytorv le long de Nyhavn, sur Slotsholmen devant Børsen et Christiansborg jusqu’à la place de l’Hôtel-de-Ville, et retour par le Strøget.
+intro: Copenhague est la capitale du Danemark, une ville portuaire sur l’Øresund, le détroit entre le Danemark et la Suède. D’un village de pêcheurs, elle est devenue le siège des rois danois, et aujourd’hui ses canaux, ses flèches de cuivre et ses façades colorées sur le port se trouvent dans une ville moderne où les vélos sont bien plus nombreux que les voitures.
+famous:
+- Nyhavn, le canal aux maisons peintes et aux vieux bateaux de bois
+- Les jardins de Tivoli, l’un des plus anciens parcs d’attractions du monde
+- La Petite Sirène, Hans Christian Andersen et la garde royale d’Amalienborg
+- Les vélos partout, le smørrebrød et la nouvelle cuisine nordique
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

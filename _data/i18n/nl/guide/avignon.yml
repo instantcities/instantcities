@@ -1,0 +1,99 @@
+# avignon's guide in Dutch (_data/about/avignon.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Frankrijk
+- Provence-Alpes-Côte d’Azur
+- Vaucluse, waarvan Avignon de hoofdstad is
+- Ongeveer 90.000 (stad)
+- De Rhône
+- Frans; ook het Provençaals hoort bij de plaatselijke cultuur
+- De Stad van de Pausen (la Cité des Papes)
+- Het Pausenpaleis, het kathedrale ensemble en de brug, sinds 1995
+overview:
+- Avignon ligt op de linkeroever van de Rhône, iets stroomopwaarts van de plek waar de Durance erin uitkomt. De oude stad is nog bijna helemaal omsloten door de stadsmuren uit de 14e eeuw, en erbinnen lopen de straatjes tussen huizen van lichte steen, kleine pleinen in de schaduw van platanen en de muren van oude kloosters en herenhuizen.
+- Instant Avignon neemt je mee door deze ommuurde stad. Het Pausenpaleis staat op zijn rotsheuvel in het noorden, met de kathedraal ernaast en de tuinen van de Rocher des Doms boven de rivier, waar de gebroken Pont Saint-Bénezet het water in reikt. Vanaf de Place de l’Horloge, net ten zuiden van het paleis, loopt de Rue de la République kaarsrecht naar de hoofdpoort en het station.
+setting:
+- Avignon is de hoofdstad van het departement Vaucluse, in de regio Provence-Alpes-Côte d’Azur, zo’n 85 kilometer ten noordwesten van Marseille. Aan de overkant van de Rhône liggen het Île de la Barthelasse, een groot rivier-eiland met boerderijen en boomgaarden, en de stad Villeneuve-lès-Avignon, die bij het departement Gard hoort.
+- Het klimaat is mediterraan, met hete, droge zomers, zachte winters en bijna het hele jaar helder licht. De mistral, een koude noordenwind, kan dagenlang door het Rhônedal waaien.
+today:
+- Avignon is een stad van overheidskantoren, een universiteit en toerisme, en het marktcentrum van de boerderijen van de Vaucluse. De overdekte markt, Les Halles, verkoopt elke ochtend behalve maandag de producten van de Provence.
+- 'In juli neemt het Festival d’Avignon de stad over: het hoofdprogramma speelt in de binnenplaats van het Pausenpaleis en andere historische locaties, en het Off-festival brengt ruim duizend voorstellingen in kleine theaters, kapellen en kelders, terwijl acteurs flyers uitdelen en hun affiches aan elke reling hangen.'
+history:
+- title: Een stad aan de Rhône
+  text:
+  - Mensen vestigden zich op de Rocher des Doms, de rots boven de rivier, lang voordat de Romeinen kwamen. Onder Rome was de stad Avenio een bescheiden plaats in de provincie Gallia Narbonensis, overschaduwd door haar buren Arles en Nîmes.
+  - Aan het eind van de 12e eeuw bouwden de inwoners een brug over de Rhône, de enige tussen Lyon en de zee. De legende zegt dat een jonge herder, Bénezet, er op bevel van een engel mee begon. In 1226 belegerde koning Lodewijk VIII Avignon drie maanden tijdens de kruistocht tegen de Albigenzen en liet zijn muren neerhalen toen de stad zich overgaf.
+- title: De stad van de pausen
+  text:
+  - In 1309 vestigde paus Clemens V, een Fransman, zich in Avignon, toen een stad van de graven van Provence, om de twisten van Rome te ontlopen. Zes pausen volgden hem. Benedictus XII begon in 1335 aan het Pausenpaleis en Clemens VI breidde het uit tot het enorme gebouw dat je nu ziet; in 1348 kocht Clemens VI de stad zelf van koningin Johanna van Napels. Het pauselijke hof bracht kardinalen, bankiers, kunstenaars en de dichter Petrarca, en Avignon groeide uit tot een van de grote steden van Europa. De pausen omringden het vanaf 1355 met nieuwe stadsmuren.
+  - Gregorius XI bracht het pausdom in 1377 terug naar Rome. Toen de kardinalen het jaar daarop uiteenvielen, regeerden rivaliserende pausen opnieuw vanuit Avignon tijdens het Westers Schisma, tot de laatste van hen, Benedictus XIII, in 1403 de stad ontvluchtte. Avignon bleef nog bijna vier eeuwen pauselijk gebied, bestuurd door legaten en vicelegaten uit Rome.
+- title: Frans Avignon
+  text:
+  - Tijdens de Franse Revolutie, in 1791, stemde Avignon voor aansluiting bij Frankrijk. Het leger maakte van het lege Pausenpaleis een kazerne en een gevangenis, en de soldaten beschadigden veel van de fresco’s; het leger vertrok pas in 1906. In de 19e eeuw bereikte de spoorlijn de stad, en werkers legden de rechte Rue de la République aan van de stationspoort naar de Place de l’Horloge.
+  - In 1947 liet acteur en regisseur Jean Vilar een week toneelstukken opvoeren in de binnenplaats van het paleis, het begin van het Festival d’Avignon. UNESCO zette het historische centrum in 1995 op de Werelderfgoedlijst, en de hogesnelheidslijn van de TGV brengt Avignon sinds 2001 binnen drie uur van Parijs.
+timeline:
+- - '1177'
+  - Begin van de bouw van de brug over de Rhône, volgens de legende op de roep van Bénezet
+- - '1226'
+  - Lodewijk VIII belegert Avignon en laat zijn muren neerhalen
+- - '1309'
+  - Paus Clemens V vestigt zich in Avignon
+- - '1335'
+  - Benedictus XII begint aan het Pausenpaleis
+- - '1348'
+  - Clemens VI koopt Avignon van koningin Johanna van Napels
+- - '1355'
+  - Begin van de bouw van de nieuwe stadsmuren
+- - '1377'
+  - Gregorius XI brengt het pausdom terug naar Rome
+- - '1403'
+  - Benedictus XIII, de laatste paus van Avignon, ontvlucht de stad
+- - '1791'
+  - Avignon wordt Frans
+- - '1906'
+  - Het leger verlaat het Pausenpaleis
+- - '1947'
+  - Jean Vilar houdt het eerste festival
+- - '1995'
+  - UNESCO zet het historische centrum op de Werelderfgoedlijst
+places:
+  rhone:
+    name: De Rhône
+    blurb: De brede, snelle rivier langs de noord- en westkant van de muren, op weg van de Alpen naar de Middellandse Zee.
+  pont-saint-benezet:
+    blurb: De brug uit het liedje, Sur le pont d’Avignon. Overstromingen namen de meeste bogen mee, en er staan er nog maar vier.
+  rocher-des-doms:
+    blurb: Een tuin bovenop de rots boven de rivier, met een vijver en uitzicht over de Rhône naar Villeneuve-lès-Avignon en de Mont Ventoux.
+  place-du-palais:
+    blurb: Het brede, schuin aflopende plein voor het Pausenpaleis, met bovenaan de kathedraal.
+  place-de-l-horloge:
+    blurb: Het hoofdplein van Avignon, omzoomd met caféterrassen, het stadhuis, het theater en een oude draaimolen.
+  rue-de-la-republique:
+    blurb: De rechte hoofdwinkelstraat, in de 19e eeuw dwars door de oude stad aangelegd van de stationspoort naar de Place de l’Horloge.
+  porte-de-l-oulle:
+    blurb: Een poort in de westelijke stadsmuren, met uitzicht op de Rhône en de brug naar het Île de la Barthelasse.
+  rue-joseph-vernet:
+    blurb: Een kronkelende straat met herenhuizen uit de 17e en 18e eeuw, nu met modewinkels en het Musée Calvet.
+  place-saint-pierre:
+    blurb: Een klein plein voor de gotische kerk Saint-Pierre, waarvan de gesneden notenhouten deuren uit de 16e eeuw dateren.
+  place-pie:
+    blurb: Het plein van Les Halles, de overdekte markt, waarvan de voorgevel bedekt is met een verticale tuin van levende planten.
+  rue-des-marchands:
+    blurb: Een smalle voetgangersstraat met winkels tussen de Place de l’Horloge en de Place Carnot.
+  rue-du-roi-rene:
+    blurb: Een rustige straat met oude herenhuizen, waar de dichter Petrarca in 1327 in de kerk Sainte-Claire zijn Laura voor het eerst zou hebben gezien.
+  rue-des-teinturiers:
+    blurb: Een straat met kasseien onder platanen langs een kanaal van de Sorgue, waar tot in de 19e eeuw lakenverwers werkten en nog een paar oude waterraderen draaien.
+  place-des-corps-saints:
+    blurb: Een schaduwrijk plein met platanen en caféterrassen in het zuiden van de oude stad.
+links:
+- title: Avignon Tourisme
+  note: Het officiële toeristenbureau
+- title: Ville d’Avignon
+  note: Het stadsbestuur (in het Frans)
+- title: Palais des Papes
+  note: Tickets en openingstijden voor het paleis en de brug
+- title: Historisch centrum van Avignon op UNESCO
+  note: De Werelderfgoedlijst
+- title: Avignon op Wikipedia
+  note: Het encyclopedieartikel

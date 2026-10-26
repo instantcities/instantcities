@@ -1,0 +1,99 @@
+# brussels's guide in Dutch (_data/about/brussels.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- België
+- Brussels Hoofdstedelijk Gewest, een van de drie gewesten van België; het hoort bij geen enkele provincie
+- Ongeveer 195.000 (Stad Brussel), 1,2 miljoen (Brussels Hoofdstedelijk Gewest)
+- 979, volgens de overlevering
+- De Zenne, overwelfd sinds de jaren 1870
+- Frans en Nederlands, beide officieel
+- Brussel (Nederlands), Bruxelles (Frans)
+- De hoofdstad van Europa
+- De Grote Markt (1998) en de herenhuizen van Victor Horta (2000)
+overview:
+- 'Brussel groeide in het dal van de kleine rivier de Zenne en de heuvel naar het oosten op, en de twee helften voelen nog altijd verschillend: de benedenstad rond de Grote Markt is een wirwar van oude straten van kooplieden en ambachtslieden, terwijl de bovenstad op de Coudenberg een plek van paleizen, musea en brede, rechte straten is. Een gordel van lanen op de lijn van de 14e-eeuwse stadsmuren omsluit de oude stad, die men naar haar vorm het Vijfhoek noemt.'
+- Het centrum, het deel waar je in Instant Brussels doorheen rijdt, loopt van de Grote Markt naar het westen tot aan de Beurs en het Sint-Goriksplein, waar de stad begon, en naar het noorden tot aan de winkels van de Nieuwstraat. Vanaf de Grote Markt leiden de Koninklijke Sint-Hubertusgalerijen naar de kathedraal, en de Kunstberg klimt naar het Koningsplein op de heuvel. Ten zuiden ervan ligt de Zavel, met zijn antiquairs en chocoladewinkels.
+setting:
+- Brussel ligt in het midden van België, tussen het Nederlandstalige noorden en het Franstalige zuiden. Het Brussels Hoofdstedelijk Gewest, dat 19 gemeenten telt, waaronder de Stad Brussel, is een van de drie gewesten van het land en ligt als een eiland binnen Vlaanderen. Antwerpen ligt zo’n 45 kilometer naar het noorden en Gent zo’n 55 kilometer naar het noordwesten.
+- De Zenne stroomt nog altijd onder de stad, in tunnels, en een kanaal doorkruist Brussel en verbindt Charleroi in het zuiden met de Schelde in het noorden. Het Zoniënwoud, een groot beukenbos, reikt tot in het zuidoosten van het gewest. Het klimaat is zacht en nat, met regen verspreid over het hele jaar.
+today:
+- Brussel is de zetel van de Belgische koning, regering en parlement, van de Europese Commissie en de Raad van de EU, en van de NAVO; het Europees Parlement vergadert er ook, naast Straatsburg. Tienduizenden mensen werken voor deze instellingen, en een groot deel van de inwoners van het gewest is in het buitenland geboren; op straat hoor je Frans, Nederlands, Engels, Arabisch en tientallen andere talen.
+- Elke juli vult de Ommegang de Grote Markt in renaissancekostuums, en om de twee jaar in augustus bedekt een tapijt van begonia’s het plein. De muren van de stad dragen geschilderde scènes uit Belgische stripverhalen, en het Manneken Pis wordt op veel dagen van het jaar in een van zijn kostuums gekleed.
+history:
+- title: Een markt aan de Zenne
+  text:
+  - De overlevering dateert de stad uit 979, toen Karel, hertog van Neder-Lotharingen, een fort bouwde op een eiland in de Zenne, waar nu het Sint-Goriksplein ligt. De naam komt van Bruocsella, “de nederzetting in het moeras”. De stad groeide op de handelsweg tussen Brugge en Keulen, waar die de Zenne kruiste.
+  - De hertogen van Brabant bouwden hun kasteel op de heuvel van de Coudenberg en maakten van Brussel een van hun hoofdsteden. De stad kreeg haar eerste muren in de 13e eeuw en een tweede, grotere ring in de 14e, waarvan de binnenlanen nu de lijn volgen. Op het marktplein begonnen de inwoners in 1401 aan hun Stadhuis en voltooiden ze de torenspits, bekroond met een beeld van Sint-Michiel, in de jaren 1450.
+- title: Hertogen, keizers en het bombardement
+  text:
+  - In de 15e eeuw hielden de hertogen van Bourgondië, en na hen de Habsburgers, hof in het paleis op de Coudenberg. Keizer Karel V deed daar in 1555 afstand van zijn kroon. Onder zijn zoon Filips II liet de hertog van Alva in 1568 de graven van Egmont en Hoorne, leiders van de adellijke oppositie, op de Grote Markt onthoofden.
+  - In 1619 goot Jérôme Duquesnoy de Oudere het Manneken Pis voor een fontein op de hoek van de Stoofstraat. In augustus 1695 bombardeerde het leger van Lodewijk XIV Brussel en verbrandde de Grote Markt en de straten eromheen; de gilden herbouwden hun huizen binnen een paar jaar in steen, prachtiger dan voorheen. Het paleis op de Coudenberg brandde in 1731 af, en het Koningsplein rees later in die eeuw op zijn plek.
+- title: Hoofdstad van België en van Europa
+  text:
+  - 'Op 25 augustus 1830 brak na een opera in de Munt een rel uit die uitgroeide tot de Belgische Revolutie. Brussel werd de hoofdstad van het nieuwe koninkrijk, en de stad groeide snel: de Koninklijke Sint-Hubertusgalerijen openden in 1847, en tussen 1867 en 1871 liet burgemeester Jules Anspach de vervuilde Zenne overwelven en er brede lanen overheen leggen. Onder koning Leopold II kreeg de stad het enorme Justitiepaleis en het Jubelpark, en rond 1900 bouwde Victor Horta hier de eerste art-nouveauhuizen.'
+  - Voor de Wereldtentoonstelling van 1958 bouwde Brussel het Atomium. In hetzelfde jaar vestigde de nieuwe Europese Economische Gemeenschap er haar kantoren, en in 1967 verhuisde de NAVO haar hoofdkwartier naar de stad. In 1989 werd Brussel een gewest op zich, en in 2015 sloot de stad de centrale lanen voor auto’s af om er een voetgangerszone van te maken.
+timeline:
+- - '979'
+  - Karel van Neder-Lotharingen bouwt een fort op een eiland in de Zenne, volgens de overlevering de stichting van de stad
+- - '1401'
+  - Begin van de bouw van het Stadhuis
+- - '1555'
+  - Karel V doet afstand van zijn kroon in het paleis op de Coudenberg
+- - '1568'
+  - De graven van Egmont en Hoorne worden op de Grote Markt onthoofd
+- - '1619'
+  - Jérôme Duquesnoy de Oudere giet het Manneken Pis
+- - '1695'
+  - Het Franse leger bombardeert de stad en verbrandt de Grote Markt
+- - '1731'
+  - Brand verwoest het paleis op de Coudenberg
+- - '1830'
+  - Een rel in de Muntschouwburg start de Belgische Revolutie
+- - '1847'
+  - De Koninklijke Sint-Hubertusgalerijen openen
+- - '1871'
+  - De Zenne verdwijnt onder de nieuwe centrale lanen
+- - '1958'
+  - Brussel bouwt het Atomium voor de Wereldtentoonstelling
+- - '1989'
+  - Het Brussels Hoofdstedelijk Gewest wordt opgericht
+places:
+  grand-place:
+    name: Grote Markt
+    blurb: Het marktplein van Brussel, omsloten door het gotische Stadhuis, het Broodhuis en de vergulde huizen van de gilden.
+  galeries-saint-hubert:
+    blurb: Een winkelgalerij met glazen dak uit 1847, een van de eerste van Europa, met cafés, chocoladewinkels en een theater.
+  rue-des-bouchers:
+    blurb: De Beenhouwersstraat, nu een steegje met restaurants met tafels buiten, dat de Galerijen kruist.
+  place-de-la-bourse:
+    blurb: Het plein voor de Beurs, de voormalige beurs uit 1873, nu een museum van het Belgische bier.
+  boulevard-anspach:
+    blurb: De laan die in de jaren 1870 over de overwelfde Zenne werd gelegd, sinds 2015 een voetgangerszone.
+  rue-de-l-etuve:
+    blurb: De straat van de Grote Markt naar de hoek waar het Manneken Pis op zijn fontein staat.
+  place-saint-gery:
+    blurb: Het plein op het oude eiland in de Zenne waar Brussel begon, rond een ijzeren markthal uit 1881, nu omringd door bars.
+  place-sainte-catherine:
+    blurb: Een plein op de gedempte dokken van de oude haven, bekend om zijn visrestaurants.
+  place-de-la-monnaie:
+    blurb: Het plein van de Munt, het operahuis waar de Belgische Revolutie in 1830 begon.
+  rue-neuve:
+    blurb: De drukste winkelstraat van de stad, afgesloten voor auto’s, die vanaf het Muntplein naar het noorden loopt.
+  place-sainte-gudule:
+    blurb: Het plein onder de gotische Sint-Michiels- en Sint-Goedelekathedraal, waar de koninklijke huwelijken en begrafenissen van België plaatsvinden.
+  mont-des-arts:
+    blurb: Een terrassentuin naast de Koninklijke Bibliotheek, aangelegd voor de Wereldtentoonstelling van 1958, met uitzicht over de benedenstad.
+  place-royale:
+    blurb: Het 18e-eeuwse plein op de Coudenberg, op de plek van het oude paleis, met de Sint-Jacob-op-Coudenbergkerk en een standbeeld van Godfried van Bouillon.
+  grand-sablon:
+    name: Grote Zavel
+    blurb: Een hellend plein met antiquairs en chocolatiers onder de gotische kerk Onze-Lieve-Vrouw ter Zavel, met in het weekend een antiekmarkt.
+links:
+- title: visit.brussels
+  note: De officiële toeristische informatie van de stad
+- title: Stad Brussel
+  note: Het stadsbestuur
+- title: De Grote Markt van Brussel op UNESCO
+  note: De Werelderfgoedlijst
+- title: Brussel op Wikipedia
+  note: Het encyclopedieartikel

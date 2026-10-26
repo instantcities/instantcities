@@ -1,0 +1,104 @@
+# barcelona's guide in Dutch (_data/about/barcelona.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Spanje
+- Catalonië
+- Ongeveer 1,7 miljoen (stad), 5 miljoen (stadsgewest)
+- Eind 1e eeuw v.Chr., als de Romeinse kolonie Barcino
+- De Middellandse Zee
+- Catalaans en Spaans
+- De Ciutat Comtal (Stad van de Graven)
+- De werken van Antoni Gaudí (sinds 1984), en het Palau de la Música Catalana en het Hospital de Sant Pau (sinds 1997)
+overview:
+- Barcelona ligt op een vlakte tussen de heuvels van Collserola en de Middellandse Zee, tussen de rivieren Llobregat en Besòs. De oude stad, de Ciutat Vella, ligt aan de haven; eromheen strekt zich de Eixample uit, het 19e-eeuwse raster van brede straten en afgeschuinde hoeken waar de modernistische architecten hun huizen bouwden; daarachter liggen de oude dorpen die de stad opslokte, zoals Gràcia en Sants.
+- De oude stad is het deel waar je in Instant Barcelona doorheen rijdt. La Rambla loopt van de Plaça de Catalunya naar het Columbusmonument en de haven, met de Raval in het westen en de Gotische Wijk in het oosten. De Via Laietana snijdt de Gotische Wijk af van de Born en Sant Pere, en de kathedraal en de Plaça de Sant Jaume, met de zetels van de Catalaanse regering en de gemeenteraad, liggen in het midden op de plek van de Romeinse stad.
+setting:
+- Barcelona ligt in het noordoosten van Spanje, aan de Middellandse Zeekust ten zuiden van de Franse grens. Het is de hoofdstad van de autonome gemeenschap Catalonië. De heuvel Montjuïc rijst in het zuiden boven de haven uit, en de Tibidabo, met 512 meter het hoogste punt van de Collserola-heuvels, kijkt in het noordwesten neer op de stad.
+- Het klimaat is mediterraan, met hete, vochtige zomers en zachte winters. Voor de Olympische Spelen van 1992 ruimde de stad de oude industrie van haar waterfront op en opende kilometers zandstranden.
+today:
+- Barcelona is de zetel van de Catalaanse regering, de Generalitat, en haar parlement. De stad leeft van handel, industrie, design, toerisme en congressen, onder meer het Mobile World Congress, en haar haven is een van de drukste van Europa voor cruiseschepen. Er komen zoveel bezoekers dat de stad nu nieuwe hotels en toeristische appartementen beperkt.
+- De Catalanen vieren Sant Jordi op 23 april door elkaar boeken en rozen te geven, en het grote feest van de stad, La Mercè, in september, met castellers, reuzen en vuurlopers. FC Barcelona, meer dan een club zoals zijn motto zegt, is een van de beroemdste voetbalclubs ter wereld; zijn rivaal RCD Espanyol speelt net buiten de stad, in Cornellà.
+history:
+- title: Barcino en de graven
+  text:
+  - De Romeinen stichtten onder Augustus de kleine ommuurde stad Barcino, op een lage heuvel waar nu de kathedraal staat. Delen van haar muren en vier zuilen van haar tempel zijn bewaard gebleven in de Gotische Wijk. Na de val van Rome namen de Visigoten de stad in, in de 8e eeuw de Moren en in 801 de Franken onder Lodewijk de Vrome.
+  - Barcelona werd de zetel van de graven van Barcelona, die zich in de loop der tijd losmaakten van de Frankische koningen en de meeste andere Catalaanse graafschappen onder hun gezag brachten. De Moorse generaal Almanzor plunderde de stad in 985. In 1137 werd graaf Raymond Berengarius IV verloofd met de erfdochter van Aragón, en werden de twee kronen verenigd in wat de Kroon van Aragón werd.
+- title: Een mediterrane macht
+  text:
+  - 'In de 13e en 14e eeuw dreven Barcelona’s kooplieden en vloten handel over de hele Middellandse Zee, en de Kroon van Aragón veroverde de Balearen, Sicilië en Sardinië. De stad bouwde in die jaren het grootste deel van haar Gotische Wijk: de kathedraal vanaf 1298, Santa Maria del Mar vanaf 1329, de koninklijke scheepswerven van de Drassanes en de grote zaal van het koninklijk paleis.'
+  - Na de unie van Castilië en Aragón verhuisde de handel naar de Atlantische Oceaan en de macht naar Castilië. Ferdinand en Isabella ontvingen Columbus in 1493 in Barcelona, bij zijn terugkeer uit Amerika. Catalonië kwam in 1640 in opstand tegen de koning, en in de Spaanse Successieoorlog hield Barcelona stand tegen het Bourbonse leger tot 11 september 1714. Filips V schafte de eigen instellingen van Catalonië af en bouwde een fort, de Ciutadella, om de stad onder de duim te houden.
+- title: Industrie, Modernisme en de olympische stad
+  text:
+  - In de 19e eeuw werd Barcelona het industriële hart van Spanje, vol textielfabrieken. In 1854 begon het zijn muren af te breken, en Ildefons Cerdà legde de Eixample aan, het raster van nieuwe straten rond de oude stad. De Wereldtentoonstelling van 1888 en de Internationale Tentoonstelling van 1929 veranderden de Ciutadella en Montjuïc, en Gaudí, Domènech i Montaner en Puig i Cadafalch vulden de nieuwe wijken met modernistische gebouwen.
+  - In de Spaanse Burgeroorlog was Barcelona een bolwerk van de Republiek, en Franco’s troepen namen de stad in januari 1939 in. Onder zijn dictatuur werd de Catalaanse taal onderdrukt. Nadat de democratie was teruggekeerd, herkreeg Catalonië zijn zelfbestuur, en de Olympische Spelen van 1992 openden de stad naar de zee en naar de wereld.
+timeline:
+- - Eind 1e eeuw v.Chr.
+  - De Romeinen stichten Barcino onder Augustus
+- - '801'
+  - De Franken nemen Barcelona op de Moren in
+- - '985'
+  - Almanzor plundert de stad
+- - '1137'
+  - Barcelona en Aragón worden verenigd door een koninklijke verloving
+- - '1298'
+  - Begin van de bouw van de gotische kathedraal
+- - '1493'
+  - Ferdinand en Isabella ontvangen Columbus in Barcelona
+- - '1714'
+  - Barcelona valt op 11 september in handen van het Bourbonse leger
+- - '1854'
+  - De stad begint haar muren af te breken
+- - '1882'
+  - Begin van de bouw van de Sagrada Família
+- - '1888'
+  - Barcelona houdt zijn eerste Wereldtentoonstelling
+- - '1939'
+  - Franco’s troepen nemen de stad in
+- - '1992'
+  - Barcelona is gastheer van de Olympische Spelen
+places:
+  placa-de-catalunya:
+    blurb: Het grote plein tussen de oude stad en de Eixample, waar La Rambla, het Passeig de Gràcia en de metrolijnen samenkomen.
+  la-rambla:
+    blurb: De met bomen omzoomde wandelstraat van de Plaça de Catalunya naar de haven, langs de bedding van een beek die ooit buiten de middeleeuwse muren liep.
+  portal-de-l-angel:
+    blurb: De drukke voetgangersstraat met winkels van de Plaça de Catalunya naar de kathedraal, genoemd naar een poort in de middeleeuwse muren.
+  avinguda-de-la-catedral:
+    blurb: De brede open ruimte voor de kathedraal, waar in het weekend de sardana wordt gedanst, de Catalaanse rondedans.
+  placa-del-rei:
+    blurb: Het middeleeuwse plein van het koninklijk paleis van de graven en koningen, nu deel van het stadsmuseum, met het Romeinse Barcino eronder opgegraven.
+  barri-gotic:
+    name: Gotische Wijk
+    blurb: Het oudste deel van de stad, op de plek van het Romeinse Barcino, een doolhof van smalle straatjes tussen La Rambla en de Via Laietana.
+  carrer-del-bisbe:
+    blurb: Het straatje van de Plaça de Sant Jaume naar de kathedraal, overspannen door een neogotische brug die pas in 1928 werd gebouwd.
+  placa-de-sant-jaume:
+    blurb: Het plein waar het Palau de la Generalitat, de zetel van de Catalaanse regering, het stadhuis aankijkt over het oude Romeinse forum.
+  placa-reial:
+    blurb: Een plein met arcaden uit de jaren 1840 bij La Rambla, met palmbomen en lantaarnpalen ontworpen door de jonge Gaudí.
+  el-raval:
+    blurb: De oude stad ten westen van La Rambla, waarvan de naam voorstad betekent. Eerst vulden kloosters en ziekenhuizen haar, daarna textielfabrieken, en nu is het de meest gemengde wijk van de stad.
+  via-laietana:
+    blurb: De rechte laan die de stad vanaf 1908 dwars door de oude stad trok, van de haven naar de Eixample.
+  passeig-del-born:
+    blurb: Het lange, smalle plein tussen Santa Maria del Mar en de oude Bornmarkt, waar de stad in de middeleeuwen toernooien en kermissen hield.
+  placa-del-portal-de-la-pau:
+    blurb: Het plein onderaan La Rambla, bij de haven, waar het Columbusmonument naar de zee wijst.
+  port-vell:
+    name: De Oude Haven
+    blurb: De oude haven van Barcelona aan de voet van La Rambla, waar een houten promenade, de Rambla de Mar, naar het Maremàgnum en het aquarium voert.
+  sagrada-familia:
+    blurb: Gaudí’s grote basiliek in de Eixample, begonnen in 1882 en nog steeds in aanbouw, zo’n twee kilometer ten noorden van de oude stad.
+links:
+- title: This is Barcelona
+  note: De officiële toeristische informatie van Barcelona
+- title: Ajuntament de Barcelona
+  note: Het stadsbestuur
+- title: Sagrada Família
+  note: Tickets en openingstijden van de basiliek
+- title: Werken van Antoni Gaudí op UNESCO
+  note: De Werelderfgoedlijst
+- title: Palau de la Música Catalana en Hospital de Sant Pau op UNESCO
+  note: De Werelderfgoedlijst
+- title: Barcelona op Wikipedia
+  note: Het encyclopedieartikel

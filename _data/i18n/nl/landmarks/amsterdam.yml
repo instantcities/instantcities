@@ -1,0 +1,77 @@
+# amsterdam's landmarks in Dutch (_data/landmarks/amsterdam.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+dam:
+  blurb: Het plein op de dam die in de 13e eeuw in de Amstel werd gelegd en de stad haar naam gaf.
+  text:
+  - In de 13e eeuw werd een dam door de rivier de Amstel gebouwd, en de stad die eromheen groeide werd Amstelredamme genoemd. Het plein op die plek is nog altijd het hart van de stad, met aan de ene kant het Koninklijk Paleis en aan de andere het Nationaal Monument.
+  - Het witte Nationaal Monument uit 1956 herdenkt de slachtoffers van de Tweede Wereldoorlog; elk jaar op 4 mei legt de koning er een krans.
+koninklijk-paleis:
+  name: Koninklijk Paleis
+  blurb: Gebouwd als stadhuis van de Gouden Eeuw, in 1808 door Lodewijk Napoleon tot paleis gemaakt.
+  text:
+  - Jacob van Campen bouwde het vanaf 1648 als stadhuis, op het hoogtepunt van Amsterdams Gouden Eeuw, op meer dan 13.000 houten palen. In de grote Burgerzaal zijn de wereld en de hemelen ingelegd in de marmeren vloer.
+  - In 1808 maakte Lodewijk Napoleon, Napoleons broer en koning van Holland, er zijn paleis van. Het is nog altijd van de koninklijke familie, die het gebruikt voor staatsbezoeken.
+nieuwe-kerk:
+  blurb: De kerk op de Dam waar Nederlandse koningen en koninginnen worden ingehuldigd.
+  text:
+  - De “nieuwe” kerk dateert uit de 15e eeuw, nieuw vergeleken met de Oude Kerk. Na branden herbouwd, kreeg ze nooit de hoge toren die ervoor gepland was.
+  - Sinds 1814 worden hier alle Nederlandse vorsten ingehuldigd, het laatst koning Willem-Alexander in 2013. Nu wordt ze gebruikt voor tentoonstellingen en concerten.
+begijnhof:
+  blurb: Een verborgen hofje van oude huizen rond een tuin, achter een deur aan het Spui.
+  text:
+  - Achter een gewone deur aan het Spui ligt een stille binnenplaats met smalle huizen rond een grasveld, gebouwd voor de begijnen, ongehuwde katholieke vrouwen die in gemeenschap leefden zonder geloften af te leggen. De laatste begijn stierf in 1971.
+  - Nummer 34, het Houten Huis, is een van de twee houten huizen die in het stadscentrum nog over zijn, van omstreeks 1528.
+spui:
+  blurb: Een pleintje met boekwinkels en cafés, met op vrijdag een boekenmarkt.
+  text:
+  - Het Spui was ooit een gracht, in de 19e eeuw gedempt. Nu is het een pleintje met boekwinkels en oude bruine kroegen, waar studenten en schrijvers elkaar ontmoeten.
+  - Op vrijdag is er een boekenmarkt. Het kleine bronzen jongetje, Het Lieverdje, was een ontmoetingsplek voor de Provo-protesten van de jaren zestig.
+bloemenmarkt:
+  name: Bloemenmarkt
+  blurb: De drijvende bloemenmarkt op het Singel, die sinds 1862 bollen en bloemen verkoopt.
+  text:
+  - De Bloemenmarkt ligt sinds 1862 aan het Singel. De kramen staan op boten langs de gracht, een herinnering aan de tijd dat kwekers hun bloemen over water de stad in brachten.
+  - Nu verkoopt hij vooral tulpenbollen, souvenirs en snijbloemen, vlak bij de Munttoren.
+westerkerk:
+  blurb: De kerk aan de Prinsengracht met de hoogste toren van Amsterdam, bekroond met een keizerskroon.
+  text:
+  - De Westerkerk werd in 1631 voltooid, destijds de grootste protestantse kerk van de stad. Haar toren van 85 meter draagt de keizerskroon van Maximiliaan van Oostenrijk, die de stad in haar wapen mocht voeren.
+  - Rembrandt werd hier in 1669 begraven, in een graf dat nu verloren is. Anne Frank hoorde haar klokken vanuit haar schuilplaats om de hoek.
+anne-frank-huis:
+  name: Anne Frank Huis
+  blurb: Het grachtenhuis waar Anne Frank en haar familie onderdoken voor de nazi’s en waar zij haar dagboek schreef.
+  text:
+  - Van 1942 tot 1944 verborgen Anne Frank, haar familie en vier anderen zich in het Achterhuis van Prinsengracht 263, achter een boekenkast die de trap verborg. Daar schreef Anne het dagboek dat over de hele wereld gelezen zou worden.
+  - In augustus 1944 werden ze verraden en weggevoerd; Anne stierf in 1945 in Bergen-Belsen. Het huis is nu een museum.
+grachtengordel:
+  name: Grachtengordel
+  blurb: De halve maan van 17e-eeuwse grachten rond de oude stad, op de Werelderfgoedlijst van UNESCO.
+  text:
+  - In de 17e eeuw groeide Amsterdam snel en plande zijn uitbreiding als een gordel van drie grote grachten, de Herengracht, de Keizersgracht en de Prinsengracht, met het Singel erbinnen. Kooplieden bouwden er hun hoge huizen langs.
+  - De grachtengordel is sinds 2010 werelderfgoed. De smalle huizen met hun gevels hellen een beetje voorover, zodat goederen langs de ramen omhoog gehesen konden worden met de balk bovenin.
+rijksmuseum:
+  blurb: Het nationale museum van Nederland aan het Museumplein, waar Rembrandts Nachtwacht hangt en een fietspad door het gebouw loopt.
+  text:
+  - Het Rijksmuseum begon in 1800 in Den Haag en verhuisde in 1808 naar Amsterdam. Het rode bakstenen gebouw van Pierre Cuypers werd in 1885 geopend; koning Willem III weigerde het te openen, omdat het te veel op een kathedraal leek.
+  - De Eregalerij eindigt bij Rembrandts Nachtwacht en bevat Vermeers Melkmeisje. Het museum heropende in 2013 na een renovatie van tien jaar, en door de doorgang onder het gebouw loopt nog steeds een fietspad. Het ligt ten zuiden van het deel van Amsterdam dat het spel in kaart brengt, maar je kunt toch drie van zijn zalen binnenlopen.
+fietsen:
+  name: Fietsen
+  blurb: Amsterdam heeft meer fietsen dan mensen, en ze regeren de straten.
+  text:
+  - Er zijn in Amsterdam meer fietsen dan inwoners, de meeste zwart, stevig en een beetje roestig. Bijna elke straat heeft fietspaden, en in de spits zijn er meer fietsen dan al het andere.
+  - Elk jaar worden duizenden fietsen uit de grachten gevist. In het spel, net als in de stad, is de fiets de manier om je te verplaatsen.
+trams:
+  blurb: De blauw-witte trams van het GVB, die bellend over de Dam en langs het Rokin rijden.
+  text:
+  - Amsterdam heeft sinds 1875 trams, eerst getrokken door paarden. Tegenwoordig doorkruisen zo’n vijftien lijnen de stad, veel ervan door het oude centrum langs de Dam en Centraal Station.
+  - 'In het spel lopen de tramlijnen langs het Damrak en het Rokin: pas op voor de rails met je fiets.'
+rondvaartboot:
+  blurb: De lange boten met glazen dak die bezoekers over de grachten en onder de lage bruggen voeren.
+  text:
+  - De rondvaartboten zijn lang en laag, gebouwd om onder Amsterdams 1.500 bruggen door te passen. Vanaf het water zie je de grachtenhuizen zoals ze bedoeld waren om gezien te worden, vanaf de boten die er vroeger de goederen brachten.
+  - Er zijn ook kleine open bootjes, en op een zomeravond lijkt de halve stad op het water te zijn.
+stroopwafel:
+  blurb: Twee dunne wafels met een laag warme karamelstroop ertussen.
+  text:
+  - Een stroopwafel bestaat uit twee dunne, knapperige wafels die met stroop aan elkaar zijn geplakt. Hij komt uit Gouda, rond 1800, waar bakkers hem maakten van overgebleven kruimels en stroop.
+  - Leg er een minuut een op je koffie of thee en de stroop wordt zacht. Op markten kun je ze warm van het ijzer kopen.

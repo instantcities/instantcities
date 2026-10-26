@@ -1,70 +1,74 @@
-{%- comment -%} A city's guide (/<id>/about-the-city/): its block in _data/about/<id>.json, named by the page's `city` (tools/about.mjs writes the page). What the city is and where it lies, its centre on a map, its history, the city today and where to read on. {%- endcomment -%}
-{%- assign C = site.data.cities | where: 'id', page.city | first -%}
+{%- comment -%} A city's guide, in each language (/en/ghent/about-the-city/, /fr/gand/a-propos-de-la-ville/: tools/about.mjs writes the pages; /<id>/about-the-city/ only sends a visitor on): its block in _data/about/<id>.json, named by the page's `city`, in French and Dutch with its words from _data/i18n/<lang>/guide/<id>.yml where it has them. What the city is and where it lies, its centre on a map, its history, the city today and where to read on. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign G = site.data.about[C.id] -%}
+{%- assign famous = CT.famous | default: G.famous -%}
+{%- assign overview = GT.overview | default: G.overview -%}{%- assign setting = GT.setting | default: G.setting -%}{%- assign today = GT.today | default: G.today -%}{%- assign timeline = GT.timeline | default: G.timeline -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = 'About ' | append: C.name | append: ', ' | append: C.country | append: ': its history, map and places · Instant Cities' -%}{%- assign description = G.intro | truncate: 300 -%}
-{%- assign path = '/' | append: C.id | append: '/about-the-city/' -%}
+{%- assign country = T.countries[C.country] | default: C.country -%}
+{%- assign intro = CT.intro | default: G.intro -%}
+{%- assign title = T.guide_title | replace: '%c', CN | replace: '%k', country -%}{%- assign description = intro | truncate: 300 -%}
+{%- assign path = page.url -%}
 {%- if C.image %}{% assign image = '/assets/img/' | append: C.image | append: '.jpg' %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "City",
-      "name": {{ C.name | jsonify }},
-      "description": {{ G.intro | jsonify }},
+      "name": {{ CN | jsonify }},
+      "description": {{ intro | jsonify }},
       "url": "{{ site.url }}{{ path }}",
       "geo": { "@type": "GeoCoordinates", "latitude": {{ C.lat }}, "longitude": {{ C.lon }} },
-      "containedInPlace": { "@type": "Country", "name": {{ C.country | jsonify }} }
+      "containedInPlace": { "@type": "Country", "name": {{ country | jsonify }} }
     }
   </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
 {%- assign pics = site.data.landmarks[C.id] | where_exp: 'l', 'l.photo' %}{% assign pic = pics[0] | default: pics[0] %}
     <section class="hero home-hero guide-hero page-hero{% if pic %} photo-hero" style="--photo: url('{{ pic.photo.src }}'){% endif %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › About the city</p>
-        <h1>This is {{ C.name }}</h1>
-        <p class="tagline">{{ G.intro }}</p>
+        <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ CN }}</a> › {{ T.about_city }}</p>
+        <h1>{{ T.this_is | replace: '%c', CN }}</h1>
+        <p class="tagline">{{ intro }}</p>
         <p class="hero-btns">
-          <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Ride through {{ C.name }}</a>
-          <a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} Places and landmarks</a>
+          <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.ride_through | replace: '%c', CN }}</a>
+          <a class="ghost" href="{% include city-url.html city=C.id page='places' %}">{% include icon.html name="pin" %} {{ T.places_and_landmarks }}</a>
         </p>
       </div>
       {%- if pic %}{% include photo-hero.html photo=pic.photo %}{% endif %}
     </section>
 
-    <nav class="subnav" aria-label="On this page">
+    <nav class="subnav" aria-label="{{ T.on_this_page }}">
       <div class="subnav-links">
-        <a href="#glance">At a glance</a>
-        <a href="#city">The city</a>
-        {%- if site.data.landmarks[C.id] %}<a href="#landmarks">Landmarks</a>{% endif %}
-        <a href="#centre">The centre on a map</a>
-        <a href="#history">History</a>
-        <a href="#today">{{ C.name }} today</a>
-        <a href="#links">Read on</a>
-        <a class="away" href="/{{ C.id }}/places-and-landmarks/">Places and landmarks ›</a>
+        <a href="#glance">{{ T.at_a_glance }}</a>
+        <a href="#city">{{ T.guide_city }}</a>
+        {%- if site.data.landmarks[C.id] %}<a href="#landmarks">{{ T.guide_landmarks }}</a>{% endif %}
+        <a href="#centre">{{ T.guide_map }}</a>
+        <a href="#history">{{ T.guide_history }}</a>
+        <a href="#today">{{ T.guide_today | replace: '%c', CN }}</a>
+        <a href="#links">{{ T.guide_read_on }}</a>
+        <a class="away" href="{% include city-url.html city=C.id page='places' %}">{{ T.places_and_landmarks }} ›</a>
       </div>
-      <a class="play small" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play</a>
+      <a class="play small" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play }}</a>
     </nav>
 
     <section id="glance" class="glance">
       <div class="glance-text">
-        <h2>{{ C.name }} at a glance</h2>
+        <h2>{{ T.guide_glance | replace: '%c', CN }}</h2>
         <dl class="facts">
-          {%- for f in G.facts %}
-          <dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd>
+          {%- for f in G.facts %}{% assign fl = f[0] %}
+          <dt>{{ T.fact_labels[fl] | default: fl }}</dt><dd>{{ GT.facts[forloop.index0] | default: f[1] }}</dd>
           {%- endfor %}
         </dl>
-        <h3>Known for</h3>
+        <h3>{{ T.guide_known }}</h3>
         <ul class="known">
           {%- assign lms = site.data.landmarks[C.id] %}
-          {%- for f in G.famous %}
+          {%- for f in famous %}
           <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
@@ -74,12 +78,12 @@
 
     <section id="city" class="guide-body">
       <div class="prose">
-        <h2>The city</h2>
-        {%- for p in G.overview %}
+        <h2>{{ T.guide_city }}</h2>
+        {%- for p in overview %}
         <p>{{ p }}</p>
         {%- endfor %}
-        <h2>Where it lies</h2>
-        {%- for p in G.setting %}
+        <h2>{{ T.guide_where }}</h2>
+        {%- for p in setting %}
         <p>{{ p }}</p>
         {%- endfor %}
       </div>
@@ -91,10 +95,10 @@
     {%- assign pictured = landmarks | where_exp: 'l', 'l.photo' %}
     {%- capture tiled %}{% for l in pictured limit: 3 %}|{{ l.id }}|{% endfor %}{% endcapture %}
     <section id="landmarks" class="landmarks about-landmarks">
-      <h2>Places and landmarks</h2>
+      <h2>{{ T.guide_places_h }}</h2>
       <div class="photo-tiles">
-        {%- for l in pictured limit: 3 %}
-        <a class="photo-tile" href="/{{ C.id }}/landmark/{{ l.id }}/" style="--photo: url('{{ l.photo.src }}')"><span><b>{{ l.name }}</b><small>{{ l.blurb }}</small></span></a>
+        {%- for l in pictured limit: 3 %}{% assign lx = LMT[l.id] %}
+        <a class="photo-tile" href="{% include city-url.html city=C.id page='landmark' landmark=l.id %}" style="--photo: url('{{ l.photo.src }}')"><span><b>{{ lx.name | default: l.name }}</b><small>{{ lx.blurb | default: l.blurb }}</small></span></a>
         {%- endfor %}
       </div>
       <div class="grid">
@@ -103,35 +107,36 @@
         {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
-      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/">{% include icon.html name="pin" %} All {{ landmarks.size }} places and landmarks</a></p>
+      <p class="more"><a class="ghost" href="{% include city-url.html city=C.id page='places' %}">{% include icon.html name="pin" %} {{ T.all_places | replace: '%n', landmarks.size }}</a></p>
     </section>
     {%- endif %}
 
     <section id="centre" class="centre">
-      <h2>The centre on a map</h2>
-      <p class="section-lead">The streets, squares and waterways every visitor to {{ C.name }} ends up in. Point at one to find it on the map.</p>
+      <h2>{{ T.guide_map }}</h2>
+      <p class="section-lead">{{ T.guide_map_lead | replace: '%c', CN | replace: '%d', DE }}</p>
       {% include city-map.html city=C %}
-      <p class="more"><a href="/{{ C.id }}/places-and-landmarks/">All places and landmarks in {{ C.name }} ›</a></p>
+      <p class="more"><a href="{% include city-url.html city=C.id page='places' %}">{{ T.guide_map_all | replace: '%c', CN | replace: '%d', DE }}</a></p>
     </section>
 
     <section id="history" class="guide-body history">
       <div class="prose">
-        <h2>History</h2>
-        {%- for h in G.history %}
+        <h2>{{ T.guide_history }}</h2>
+        {%- assign history = GT.history | default: G.history %}
+        {%- for h in history %}
         <h3>{{ h.title }}</h3>
         {%- for p in h.text %}
         <p>{{ p }}</p>
         {%- endfor %}
         {%- endfor %}
-        <h2 id="today">{{ C.name }} today</h2>
-        {%- for p in G.today %}
+        <h2 id="today">{{ T.guide_today | replace: '%c', CN }}</h2>
+        {%- for p in today %}
         <p>{{ p }}</p>
         {%- endfor %}
       </div>
       <aside class="dates">
-        <h2>Dates</h2>
+        <h2>{{ T.guide_dates }}</h2>
         <dl>
-          {%- for d in G.timeline %}
+          {%- for d in timeline %}
           <dt>{{ d[0] }}</dt><dd>{{ d[1] }}</dd>
           {%- endfor %}
         </dl>
@@ -139,24 +144,24 @@
     </section>
 
     <section id="links" class="links">
-      <h2>Read on</h2>
+      <h2>{{ T.guide_read_on }}</h2>
       <ul class="link-list">
-        {%- for l in G.links %}
-        <li><a href="{{ l.url }}" rel="noopener">{{ l.title }} {% include icon.html name="external" %}</a><small>{{ l.note }}</small></li>
+        {%- for l in G.links %}{% assign lt = GT.links[forloop.index0] %}
+        <li><a href="{{ l.url }}" rel="noopener">{{ lt.title | default: l.title }} {% include icon.html name="external" %}</a><small>{{ lt.note | default: l.note }}</small></li>
         {%- endfor %}
       </ul>
     </section>
 
     <section class="cta">
-      <h2>See {{ C.name }} for yourself</h2>
-      <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-      <p class="note"><a href="/{{ C.id }}/">Back to {{ C.game }}</a></p>
+      <h2>{{ T.guide_see | replace: '%c', CN }}</h2>
+      <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', C.game }}</a>
+      <p class="note"><a href="{% include city-url.html city=C.id %}">{{ T.guide_back | replace: '%g', C.game }}</a></p>
     </section>
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="/cities/">All cities</a></p>
-    <p>Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ C.game }}</a> <a href="{% include city-url.html city=C.id page='places' %}">{{ T.places_and_landmarks }}</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
+    <p>{{ T.guide_footer }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

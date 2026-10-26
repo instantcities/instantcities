@@ -1,0 +1,71 @@
+# florence's landmarks in Dutch (_data/landmarks/florence.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+duomo:
+  blurb: De kathedraal van Florence, bekroond met de koepel van Brunelleschi, nog altijd de grootste bakstenen koepel ooit gebouwd.
+  text:
+  - Santa Maria del Fiore werd in 1296 begonnen, maar meer dan een eeuw lang wist niemand hoe de enorme viering te overkappen. In 1420 begon Filippo Brunelleschi aan een koepel zonder steigers vanaf de grond, twee schalen met stenen in visgraatpatroon gemetseld; ze werd in 1436 voltooid.
+  - Haar rode pannen rijzen nog altijd uit boven elk uitzicht op de stad. Zo’n 460 treden leiden tussen de twee schalen naar de lantaarn bovenop.
+campanile-di-giotto:
+  name: Klokkentoren van Giotto
+  blurb: De slanke klokkentoren naast de kathedraal, bekleed met wit, groen en roze marmer.
+  text:
+  - De schilder Giotto ontwierp de klokkentoren en begon eraan in 1334; na zijn dood voltooiden Andrea Pisano en Francesco Talenti hem, zo’n 85 meter hoog. Net als de kathedraal is hij bekleed met wit marmer uit Carrara, groen uit Prato en roze uit de Maremma.
+  - De 414 treden hebben geen lift, maar het uitzicht vanaf de top neemt de koepel van aangezicht tot aangezicht.
+battistero:
+  name: Baptisterium
+  blurb: Het achthoekige doopkapel met de bronzen deuren van Ghiberti, die Michelangelo de Poorten van het Paradijs noemde.
+  text:
+  - Het Baptisterium van San Giovanni is een van de oudste gebouwen van de stad, zijn gestreepte marmeren achthoek uit de 11e eeuw. Elke Florentijn werd hier gedoopt, Dante onder hen.
+  - De oostelijke deuren, die Lorenzo Ghiberti 27 jaar lang in verguld brons goot, tonen verhalen uit het Oude Testament in tien panelen; Michelangelo zou ze waardig hebben genoemd om de Poorten van het Paradijs te zijn. De deuren die er nu hangen zijn kopieën.
+piazza-della-signoria:
+  blurb: Het plein van het Palazzo Vecchio, met een kopie van Michelangelo’s David aan de deur.
+  text:
+  - Zeven eeuwen lang was dit het politieke plein van Florence, voor het stadhuis. Hier hield de prediker Savonarola in 1497 zijn brandstapel van ijdelheden, en werd hij een jaar later zelf verbrand.
+  - 'De beelden maken er een openluchtmuseum van: de kopie van Michelangelo’s David, Ammannati’s Neptunusfontein en Cosimo I te paard.'
+palazzo-vecchio:
+  blurb: Het stadhuis van Florence sinds 1299, gebouwd als een burcht, met zijn hoge toren opzij.
+  text:
+  - Het Palazzo Vecchio werd in 1299 begonnen als zetel van het stadsbestuur, een stenen burcht met een gekanteelde top en een toren van 94 meter. De Medici woonden hier voor ze naar de overkant van de rivier naar het Palazzo Pitti verhuisden.
+  - Het is nog altijd het stadhuis. Binnen werd de enorme Zaal van de Vijfhonderd door Vasari beschilderd.
+loggia-dei-lanzi:
+  blurb: Een open galerij aan het plein, vol beelden, waaronder de Perseus van Cellini met het hoofd van Medusa.
+  text:
+  - De loggia werd in de 14e eeuw gebouwd voor openbare plechtigheden; ze dankt haar naam aan de landsknechten, de Duitse piekeniers van Cosimo I die er gelegerd waren.
+  - 'Nu biedt ze onderdak aan beelden: Benvenuto Cellini’s bronzen Perseus die het hoofd van Medusa omhoog houdt, en Giambologna’s Roof van de Sabijnse maagden, uit één blok gehouwen.'
+uffizi:
+  blurb: De kantoren van de Medici, die een van de grote musea van de wereld werden, met De geboorte van Venus van Botticelli.
+  text:
+  - Giorgio Vasari bouwde de Uffizi vanaf 1560 voor Cosimo I de’ Medici, als kantoren voor de magistraten van Florence, in een lange U van het plein naar de Arno. De Medici vulden de bovenverdieping met hun kunstverzameling.
+  - Hun laatste erfgename, Anna Maria Luisa, liet in 1737 alles aan de stad na op voorwaarde dat het Florence nooit zou verlaten. Nu bezit het Botticelli’s De geboorte van Venus en De lente, Leonardo, Rafaël, Titiaan en Caravaggio.
+ponte-vecchio:
+  blurb: De brug van de goudsmeden over de Arno, de enige die de terugtrekkende Duitsers in 1944 lieten staan.
+  text:
+  - De Ponte Vecchio werd in 1345 na een overstroming in steen herbouwd, met winkels aan beide kanten. In 1593 zetten de Medici de slagers en leerlooiers eruit en zetten er goudsmeden voor in de plaats.
+  - Boven de winkels loopt de Vasari-gang, gebouwd zodat de Medici van het Palazzo Vecchio naar het Palazzo Pitti konden lopen zonder naar buiten te gaan. In 1944 bliezen de terugtrekkende Duitsers alle andere bruggen van Florence op en spaarden ze deze.
+piazza-della-repubblica:
+  blurb: Waar het Romeinse forum lag, nu een plein met een draaimolen en oude cafés onder een triomfboog.
+  text:
+  - Het plein ligt waar het forum van het Romeinse Florentia stond en later de oude markt en het joodse getto, allemaal in de jaren 1880 geruimd om een groots modern plein met een triomfboog te maken.
+  - De oude cafés, zoals de Giubbe Rosse waar schrijvers en kunstenaars elkaar ontmoetten, en een draaimolen maken er dag en nacht een ontmoetingsplek van.
+santa-croce:
+  blurb: De grote franciscanenkerk waar Michelangelo, Galilei en Machiavelli begraven liggen.
+  text:
+  - Santa Croce werd in 1294 begonnen voor de franciscanen, een van de grootste kerken van Italië. Haar kapellen werden door Giotto beschilderd.
+  - 'Er liggen zoveel grote Florentijnen dat ze de Tempel van de Italiaanse Roem wordt genoemd: Michelangelo, Galilei, Machiavelli en Rossini, met een gedenkteken voor Dante, die in Ravenna begraven ligt.'
+santa-maria-novella:
+  blurb: De dominicanenkerk met haar witte en groene marmeren gevel van Alberti, bij het station dat haar naam draagt.
+  text:
+  - Santa Maria Novella werd vanaf de 13e eeuw door de dominicanen gebouwd. Leon Battista Alberti voltooide haar gevel van wit en groen marmer in 1470, een voorbeeld voor renaissancekerkgevels.
+  - Binnen hangt Masaccio’s De Heilige Drie-eenheid, een van de eerste schilderijen in perspectief. Vlakbij maakt de oude apotheek sinds 1612 parfums.
+il-porcellino:
+  name: Il Porcellino
+  blurb: 'Het bronzen everzwijn bij de Mercato Nuovo: wrijf over zijn neus en je komt terug naar Florence.'
+  text:
+  - Het bronzen wilde zwijn werd in de 17e eeuw door Pietro Tacca gegoten naar een antiek marmeren exemplaar. Florentijnen noemen het het varkentje.
+  - Over zijn glimmende neus wrijven zou je terugbrengen naar Florence; stop een munt in zijn bek en laat hem door het rooster vallen voor geluk.
+bistecca:
+  name: Bistecca alla fiorentina
+  blurb: Een enorme T-bone steak, op houtskool gegrild en rood geserveerd, per kilo.
+  text:
+  - De bistecca alla fiorentina is een T-bone steak van minstens drie vingers dik gesneden, traditioneel van Chianina-runderen, gegrild boven hete kolen met alleen zout, peper en olijfolie.
+  - 'Hij wordt rood geserveerd, per gewicht geprijsd en meestal gedeeld: één steak weegt ruim een kilo.'

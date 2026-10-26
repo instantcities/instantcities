@@ -1,0 +1,21 @@
+# berlin's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/berlin.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/berlin.yml and its landmarks, with their pages, in landmarks/berlin.yml.
+title: 'Instant Berlin: gratis virtuele 3D-rondleiding en game van Berlijn'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Berlijn in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door het hart van Berlijn!
+lead: Rijd door het hart van Berlijn in 3D, langs de Brandenburger Tor, over Unter den Linden, langs de Gendarmenmarkt en het Museumeiland, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Berlijn
+  text: 'Dwaal tussen zo’n 4.200 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Mitte
+  text: Rijd door de Brandenburger Tor langs de Rijksdag, over Unter den Linden naar de Gendarmenmarkt en het Holocaustmonument, en verder naar het Museumeiland.
+- title: 'Een race: Mitte'
+  text: Race over Unter den Linden naar de Gendarmenmarkt, door de straten van Mitte naar het Holocaustmonument en via de Wilhelmstraße terug naar Unter den Linden.
+intro: Berlijn is de hoofdstad van Duitsland en de grootste stad van het land, aan de Spree in het noordoosten. Het groeide van twee middeleeuwse handelsstadjes uit tot de hoofdstad van Pruisen en van het Duitse Keizerrijk, werd in 1945 in puin gebombardeerd en 28 jaar door een muur gesplitst, en het draagt de sporen van dat alles in zijn straten, van de Brandenburger Tor tot de resten van de Muur.
+famous:
+- De Brandenburger Tor en de Rijksdag, symbolen van een verdeeld en daarna herenigd Duitsland
+- De Berlijnse Muur, die de stad van 1961 tot 1989 in tweeën deelde
+- Het Museumeiland, met het Pergamonmuseum en de buste van Nefertiti
+- Currywurst, döner kebab en een nachtleven dat tot de ochtend duurt
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

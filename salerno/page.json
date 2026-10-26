@@ -1,11 +1,11 @@
 {
   "id": "salerno",
   "name": "Instant Salerno",
-  "title": "Instant Salerno: a free 3D game of Salerno, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Salerno in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Salerno: play through Salerno in 3D",
+  "title": "Instant Salerno: a free virtual 3D tour and game of Salerno",
+  "description": "Take a free virtual 3D tour of the centre of Salerno in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Salerno: a virtual 3D tour of Salerno",
   "share_description": "Cycle, walk or gallop through Salerno in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Salerno, Italy: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Salerno, Italy: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Salerno in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Salerno",
   "style": ":root { --paper: #fdf8ee; --accent: #1f6e8c; --accent-soft: #d9ebf2; --gold: #e8b23a; --sky: #f3e6cf; --skyline: #d6a982; --glass: rgba(253, 248, 238, 0.72); } .tag { color: #1a5468; }"

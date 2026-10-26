@@ -1,0 +1,80 @@
+# bruges's landmarks in French (_data/landmarks/bruges.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+markt:
+  blurb: La place du marché de Bruges, avec le beffroi au sud et le palais provincial à l’est.
+  text:
+  - Depuis huit siècles, le Markt est le cœur de Bruges, où se tenaient marchés et tournois. Le beffroi s’élève sur son côté sud ; à l’est se dresse le palais provincial néogothique.
+  - Au milieu se tiennent Jan Breydel et Pieter de Coninck, les deux Brugeois qui menèrent le soulèvement contre les Français en 1302, avant la bataille des Éperons d’or.
+belfort:
+  name: Beffroi
+  blurb: 'Le beffroi de 83 mètres au-dessus du Markt : 366 marches jusqu’à son carillon de 47 cloches.'
+  text:
+  - Le beffroi était la tour de guet et le trésor de la ville, où les chartes de la ville étaient gardées en sûreté. Sa partie basse date du XIIIe siècle ; le sommet octogonal fut ajouté au XVe. Il penche d’environ un mètre vers l’est.
+  - Montez ses 366 marches et vous atteignez le carillon de 47 cloches, toujours joué par le carillonneur de la ville.
+burg:
+  blurb: La place de l’hôtel de ville, de la basilique du Saint-Sang et de l’ancienne cour de justice.
+  text:
+  - Le Burg est l’endroit où les premiers comtes de Flandre bâtirent leur château, qui donna son nom à la place. Autour se dressent aujourd’hui l’hôtel de ville, la basilique du Saint-Sang et la façade Renaissance de l’ancien palais de justice.
+  - 'Chaque époque belge semble y avoir laissé un bâtiment : roman, gothique, Renaissance, baroque et néoclassique.'
+stadhuis:
+  name: Hôtel de ville
+  blurb: L’un des plus anciens hôtels de ville des Pays-Bas méridionaux, commencé en 1376, avec une salle gothique couverte de peintures murales.
+  text:
+  - Bruges commença son hôtel de ville en 1376, et il devint le modèle de ceux de Bruxelles, de Louvain et de Gand. Sa façade de pierre blanche porte des statues des comtes et comtesses de Flandre.
+  - À l’intérieur, la salle gothique a un plafond de chêne voûté du XIVe siècle et des murs peints de l’histoire de la ville.
+heilig-bloedbasiliek:
+  name: Basilique du Saint-Sang
+  blurb: Une chapelle romane surmontée d’une chapelle gothique, qui garde une relique du sang du Christ.
+  text:
+  - La chapelle inférieure date du XIIe siècle et est l’un des meilleurs édifices romans de Flandre. Au-dessus, la chapelle haute richement peinte garde une relique censée contenir des gouttes du sang du Christ.
+  - Chaque année, le jour de l’Ascension, la relique est portée à travers la ville lors de la procession du Saint-Sang, avec des centaines d’habitants en costume.
+rozenhoedkaai:
+  blurb: Le coin le plus photographié de Bruges, où le canal tourne sous le beffroi.
+  text:
+  - Au Rozenhoedkaai, le canal du Dijver tourne à un angle, et les vieilles maisons, le pont et le beffroi au-dessus s’alignent pour former l’image que tout le monde connaît des cartes postales.
+  - C’était autrefois le quai où travaillaient les marchands de chapelets, d’où son nom, le quai du chapelet.
+gruuthuse:
+  blurb: Le palais des seigneurs de Gruuthuse, qui pouvaient taxer le gruut, les herbes pour brasser la bière.
+  text:
+  - 'Les seigneurs de Gruuthuse s’enrichirent grâce à un monopole : chaque brasseur devait leur acheter le gruut, le mélange d’herbes qui aromatisait la bière avant le houblon. Leur palais du XVe siècle sur le Dijver abrite aujourd’hui un musée de l’histoire de la ville.'
+  - Un petit oratoire de bois le relie à l’église Notre-Dame voisine, pour que les seigneurs puissent entendre la messe sans sortir.
+onze-lieve-vrouwekerk:
+  name: Église Notre-Dame
+  blurb: Sa tour de brique de 115 mètres est l’une des plus hautes du monde ; à l’intérieur se trouve la Madone de Michel-Ange.
+  text:
+  - L’église Notre-Dame fut bâtie du XIIIe au XVe siècle. Sa tour de brique, haute de 115,6 mètres, est le plus haut bâtiment de Bruges et l’une des plus hautes tours de brique du monde.
+  - À l’intérieur se trouve la Vierge à l’Enfant de Michel-Ange, la seule de ses statues à avoir quitté l’Italie de son vivant, achetée par un marchand brugeois en 1506. Charles le Téméraire et sa fille Marie de Bourgogne reposent dans le chœur.
+sint-salvatorskathedraal:
+  name: Cathédrale Saint-Sauveur
+  blurb: La plus ancienne église paroissiale de Bruges, devenue sa cathédrale au XIXe siècle.
+  text:
+  - Saint-Sauveur est la plus ancienne église paroissiale de Bruges, rebâtie en brique à partir du XIIIe siècle. Quand l’ancienne cathédrale Saint-Donatien sur le Burg fut démolie après la Révolution française, Saint-Sauveur prit sa place.
+  - Sa tour reçut son sommet étrange et romantique au XIXe siècle. À l’intérieur sont accrochés des tapisseries et des tableaux de maîtres flamands.
+begijnhof:
+  blurb: 'Le béguinage de 1245 : des maisons blanches autour d’une pelouse de grands arbres, toujours habité par une communauté de religieuses.'
+  text:
+  - Le béguinage princier de la Vigne fut fondé en 1245 pour des béguines, des femmes célibataires qui menaient une vie religieuse sans prononcer de vœux. Ses maisons blanchies à la chaux se dressent autour d’une pelouse tranquille sous de grands arbres.
+  - La dernière béguine mourut en 1927 ; depuis, des sœurs bénédictines y vivent. Au printemps, la pelouse est couverte de jonquilles.
+minnewater:
+  blurb: Le « lac d’amour » à l’extrémité sud de la vieille ville, avec des cygnes et une maison d’écluse.
+  text:
+  - Le Minnewater était autrefois le bassin du port où déchargeaient les bateaux de Gand. Aujourd’hui, c’est un lac tranquille dans un parc, avec l’ancienne maison d’écluse et une tour à poudre du XVe siècle.
+  - Son nom a été lu comme « lac d’amour », et les amoureux viennent sur son pont ; on dit que les cygnes qui s’y trouvent sont entretenus par la ville depuis le XVe siècle en pénitence pour la décapitation d’un fonctionnaire détesté, Pieter Lanchals, dont le nom signifie long cou.
+koetsen:
+  name: Les calèches
+  blurb: Des calèches tirées par des chevaux claquent des sabots à travers la vieille ville depuis le Markt.
+  text:
+  - Les calèches attendent sur le Markt et emmènent les visiteurs faire le tour de la vieille ville sur des rues pavées. Les chevaux s’arrêtent boire à la fontaine du béguinage à mi-parcours.
+  - Dans le jeu, vous pouvez aussi monter à cheval, dans les mêmes rues.
+reien:
+  name: Les bateaux de canal
+  blurb: De petits bateaux ouverts glissent le long des reien, les canaux de Bruges, sous des ponts bas.
+  text:
+  - Les canaux de Bruges, les reien, reliaient autrefois la ville à la mer et firent d’elle un port de commerce de toute l’Europe au Moyen Âge. Aujourd’hui, de petits bateaux ouverts y emmènent les visiteurs, du Rozenhoedkaai au béguinage.
+  - Certains ponts sont si bas que le guide demande à tout le monde de se baisser.
+kant:
+  name: La dentelle de Bruges
+  blurb: La dentelle aux fuseaux, faite à la main à Bruges depuis le XVIe siècle.
+  text:
+  - 'La dentelle de Bruges se fait aux fuseaux : des dizaines de fils sur des bobines de bois, croisés et tordus sur un patron épinglé sur un coussin. Pendant des siècles, ce fut le travail des femmes des béguinages et des couvents de la ville.'
+  - Quelques dentellières travaillent encore dans la vieille ville, et le centre de la dentelle près de l’église de Jérusalem maintient l’artisanat en vie.

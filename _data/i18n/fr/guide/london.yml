@@ -1,0 +1,104 @@
+# london's guide in French (_data/about/london.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Royaume-Uni (Angleterre)
+- Environ 9 millions d’habitants (Grand Londres)
+- Vers 47 apr. J.-C., comme ville romaine de Londinium
+- La Tamise
+- Anglais
+- The Big Smoke (la Grosse Fumée)
+- Le maire de Londres et 33 conseils locaux, dont la Cité de Westminster
+- Quatre sites, dont le palais de Westminster et l’abbaye de Westminster, depuis 1987
+overview:
+- 'Londres se trouve sur la Tamise, dans le sud-est de l’Angleterre, là où le fleuve commence à s’élargir vers son estuaire et la mer du Nord. Elle est née de deux villes : la Cité de Londres, la vieille ville romaine et marchande à l’est, qui reste le quartier financier, et Westminster, un peu plus en amont, où les rois bâtirent leur palais et l’abbaye.'
+- Instant London vous fait parcourir Westminster. Whitehall, la rue des ministères, va de Trafalgar Square vers le sud jusqu’à Parliament Square, devant Downing Street et les gardes à cheval de Horse Guards. À l’ouest, le Mall longe les arbres de St James’s Park vers Buckingham Palace ; à l’est, Westminster Bridge franchit la Tamise vers le London Eye sur la South Bank.
+setting:
+- 'Londres occupe un large bassin peu profond autour de la Tamise, cerné de basses collines de craie. Ses marées remontent loin dans les terres : le fleuve monte et descend de plusieurs mètres deux fois par jour à Westminster. Depuis 1982, la barrière de la Tamise, en aval à Woolwich, protège la ville des ondes de tempête venant de la mer.'
+- Le Grand Londres couvre environ 1 570 kilomètres carrés et se compose de 32 arrondissements et de la Cité de Londres. De grands parcs, dont Hyde Park, Regent’s Park et Hampstead Heath, gardent des espaces verts près du centre. Le climat est doux et changeant, avec des pluies réparties sur l’année et rarement beaucoup de neige.
+today:
+- Londres est le siège du monarque, du gouvernement et du Parlement, et l’un des grands centres financiers du monde, dans la Cité et dans les tours de Canary Wharf. Elle abrite des gens de presque tous les pays, et plus de trois cents langues sont parlées dans ses écoles. Ses théâtres du West End, ses musées gratuits et ses cérémonies royales attirent des millions de visiteurs par an.
+- 'Les Londoniens se déplacent en métro, en bus rouges et, de plus en plus, à vélo. On joue au football partout : Arsenal, Chelsea, Tottenham Hotspur, West Ham United, Fulham et Crystal Palace ne sont que quelques-uns des clubs de la ville, et le stade de Wembley accueille l’équipe nationale et les finales de coupe.'
+history:
+- title: Londinium et la ville médiévale
+  text:
+  - Les Romains envahirent la Bretagne en 43 apr. J.-C. et, quelques années plus tard, fondèrent Londinium au premier endroit où ils pouvaient jeter un pont sur la Tamise. Les rebelles de Boadicée la brûlèrent vers 60, mais la ville se releva et devint la plus grande de la Bretagne romaine, avec un mur de pierre bâti vers 200. Quand les Romains partirent au début du Ve siècle, la ville fortifiée se vida, et les Saxons commercèrent plutôt depuis Lundenwic, une colonie en amont le long de ce qui est aujourd’hui le Strand.
+  - Alfred le Grand réoccupa l’ancienne cité romaine en 886. Édouard le Confesseur bâtit une grande église abbatiale à Westminster, consacrée en 1065, et l’année suivante Guillaume le Conquérant y fut couronné le jour de Noël. Depuis lors, les rois et leur gouvernement vécurent à Westminster, tandis que les marchands dirigeaient la Cité, une division que Londres garde encore.
+- title: Palais, peste et incendie
+  text:
+  - En 1530, Henri VIII s’empara de la demeure de l’archevêque d’York au bord du fleuve et en fit le palais de Whitehall, le plus grand palais d’Europe à l’époque. Le Parlement fit décapiter Charles Ier devant sa Banqueting House en 1649. La plus grande partie du palais brûla en 1698, et des ministères prirent plus tard sa place le long de Whitehall.
+  - La grande peste de 1665 tua près d’un quart des Londoniens, et l’année suivante le grand incendie détruisit la plus grande partie de la Cité. Christopher Wren reconstruisit la cathédrale Saint-Paul et plus de cinquante églises de la Cité. Dans les années 1680, sir George Downing construisit une rangée de maisons près de Whitehall ; depuis 1735, le numéro 10 est la demeure du Premier ministre.
+- title: Capitale impériale et ville moderne
+  text:
+  - Au XIXe siècle, Londres devint la plus grande ville du monde et la capitale d’un empire. Après qu’un incendie eut détruit l’ancien palais de Westminster en 1834, Charles Barry et Augustus Pugin construisirent les Chambres du Parlement actuelles, avec la tour de l’horloge de Big Ben achevée en 1859. La ville aménagea Trafalgar Square, érigea la colonne Nelson en 1843, ouvrit le premier chemin de fer souterrain en 1863, et Joseph Bazalgette construisit le Victoria Embankment au-dessus de ses nouveaux égouts.
+  - Des bombes allemandes frappèrent Londres nuit après nuit pendant le Blitz de 1940 et 1941. Après la guerre, la ville accueillit les Jeux olympiques de 1948, tint le Festival of Britain sur la South Bank en 1951, et accueillit de nouveaux Londoniens des Caraïbes, d’Asie du Sud et d’ailleurs. Depuis 2000, Londres élit son propre maire, et en 2012 elle devint la première ville à accueillir les Jeux olympiques trois fois.
+timeline:
+- - vers 47
+  - Les Romains fondent Londinium sur la Tamise
+- - vers 60
+  - Les rebelles de Boadicée brûlent la ville
+- - '886'
+  - Alfred le Grand réoccupe l’ancienne cité romaine
+- - '1066'
+  - Guillaume le Conquérant est couronné dans l’abbaye de Westminster
+- - '1530'
+  - Henri VIII fait de Whitehall son palais
+- - '1649'
+  - Charles Ier est décapité devant la Banqueting House
+- - '1666'
+  - Le grand incendie détruit la plus grande partie de la Cité
+- - '1735'
+  - Robert Walpole s’installe au 10 Downing Street
+- - '1834'
+  - Un incendie détruit l’ancien palais de Westminster
+- - '1859'
+  - La tour de l’horloge et la cloche de Big Ben sont achevées
+- - '1863'
+  - Ouverture du premier chemin de fer souterrain
+- - '1940'
+  - Début du Blitz
+- - '2012'
+  - Londres accueille les Jeux olympiques pour la troisième fois
+places:
+  thames:
+    name: La Tamise
+    blurb: Le fleuve à marées de Londres, qui monte et descend de plusieurs mètres deux fois par jour. Les murs de son Embankment cachent les égouts victoriens.
+  westminster-bridge:
+    blurb: Le pont de fer peint en vert de 1862 à côté des Chambres du Parlement, vert comme les bancs de la Chambre des communes.
+  parliament-square:
+    name: Parliament Square
+    blurb: Une pelouse entre le Parlement, l’abbaye de Westminster et la Cour suprême, ceinte de statues d’hommes d’État comme Winston Churchill et Nelson Mandela.
+  broad-sanctuary:
+    blurb: La rue devant la façade ouest de l’abbaye de Westminster, nommée d’après le sanctuaire où les fugitifs pouvaient autrefois se réfugier de la loi.
+  whitehall:
+    blurb: La large rue des ministères de Trafalgar Square au Parlement, avec le Cénotaphe, le monument national aux morts de la guerre, au milieu.
+  downing-street:
+    blurb: La courte rue derrière des grilles de fer où vit le Premier ministre au numéro 10.
+  horse-guards-parade:
+    blurb: Le grand terrain de parade en gravier derrière Horse Guards, où se tient chaque juin le Trooping the Colour.
+  trafalgar-square:
+    blurb: La grande place de Londres, avec Nelson sur sa colonne, quatre lions de bronze et la National Gallery sur son côté nord.
+  the-mall:
+    blurb: L’avenue à revêtement rouge de l’Admiralty Arch à Buckingham Palace, itinéraire des cortèges royaux.
+  st-jamess-park:
+    blurb: Le plus ancien des parcs royaux, avec un lac, des pélicans et, depuis son pont, une vue sur Buckingham Palace.
+  strand:
+    blurb: L’ancienne route de Westminster à la Cité, autrefois le long de la berge, aujourd’hui bordée de théâtres, d’hôtels et du Savoy.
+  victoria-embankment:
+    name: Victoria Embankment
+    blurb: La route riveraine que Joseph Bazalgette construisit sur des terres gagnées sur l’eau dans les années 1860, au-dessus d’un égout et de la District line.
+  golden-jubilee-bridges:
+    blurb: Deux passerelles de part et d’autre du chemin de fer du Hungerford Bridge, de Charing Cross à la South Bank.
+  queens-walk:
+    name: Le Queen’s Walk
+    blurb: La promenade riveraine de la South Bank, devant le London Eye et les centres d’art, avec des vues sur le Parlement de l’autre côté.
+links:
+- title: Visit London
+  note: Le guide officiel du visiteur de Londres
+- title: Maire de Londres
+  note: Le maire et l’Assemblée de Londres
+- title: Westminster City Council
+  note: Le conseil de la Cité de Westminster
+- title: Palais de Westminster et abbaye de Westminster sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Londres sur Wikipédia
+  note: L’article de l’encyclopédie

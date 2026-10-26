@@ -1,0 +1,71 @@
+# new-york's landmarks in Dutch (_data/landmarks/new-york.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+empire-state:
+  blurb: De art-decotoren op Fifth Avenue en 34th Street, van 1931 tot 1970 het hoogste gebouw ter wereld.
+  text:
+  - Het Empire State Building werd in iets meer dan een jaar gebouwd, van maart 1930 tot de opening op 1 mei 1931, op de plek van het oude Waldorf-Astoria-hotel. Het heeft 102 verdiepingen, zijn dak staat op 381 meter en zijn mast reikt tot 443 meter. Bijna veertig jaar lang bouwde niemand hoger.
+  - De getrapte vorm komt van New Yorks bouwverordening, die hoge gebouwen liet terugspringen naarmate ze rezen, zodat er licht tot de straat kon komen. Bezoekers gaan omhoog naar het open dek op de 86e verdieping, en elke nacht veranderen de lichten bovenin van kleur voor een feestdag, een team of een goed doel. In de film van 1933 klimt King Kong erop.
+times-square:
+  blurb: Het kruispunt van Broadway en Seventh Avenue, onder wanden van lichtschermen, in het hart van het theaterdistrict.
+  text:
+  - Times Square heette Longacre Square, een plek van paardenhandelaars en koetsenmakers, tot The New York Times er zijn toren bouwde en de stad het plein in 1904 naar de krant noemde. Sindsdien zijn de schermen en neonreclames gegroeid tot ze elke muur bedekken, en ze blijven dag en nacht aan.
+  - Eromheen liggen de theaters van Broadway. Sinds 2009 is het stuk Broadway door het plein afgesloten voor auto’s, en mensen zitten op rode trappen boven het TKTS-loket naar de menigte te kijken. Op oudejaarsavond verzamelen zich zo’n miljoen mensen om om middernacht de bal van One Times Square te zien zakken, een gewoonte die teruggaat tot 1907.
+chrysler:
+  blurb: De art-decotoren op 42nd Street en Lexington Avenue, met een kroon van stalen bogen en een naald erop.
+  text:
+  - Walter Chrysler, de autofabrikant, liet William Van Alen deze toren bouwen van 1928 tot 1930. In een race met 40 Wall Street om de hoogste te zijn, zetten de bouwers de spits in het geheim in de kroon in elkaar en hesen ze die in één keer door het dak. Met 319 meter was het het hoogste gebouw ter wereld, tot het Empire State Building het een jaar later voorbijstreefde.
+  - De kroon van roestvrijstalen bogen, met driehoekige ramen, schittert in de zon en wordt ’s nachts verlicht. Stalen adelaars steken uit de hoeken van de 61e verdieping, en lager dragen de hoeken gevleugelde radiatordoppen, zoals die op Chryslers auto’s.
+grand-central:
+  blurb: Het grote treinstation op 42nd Street, met zijn hal onder een sterrenhemel en zijn klok van opaal.
+  text:
+  - Grand Central Terminal opende in 1913, met treinen die ondergronds op twee niveaus rijden zodat Park Avenue over de sporen heen gebouwd kon worden. Het heeft 44 perrons, meer dan enig ander station ter wereld, en er vertrekken nog altijd om de paar minuten treinen naar het noorden van de stad en Connecticut.
+  - De Main Concourse is een van de grootste hallen van New York. Het groene plafond is beschilderd met de sterren van de winterhemel, en boven het informatiehokje staat een klok met vier wijzerplaten. In de jaren 1960 wilden de eigenaars er een toren bovenop zetten; New Yorkers, onder wie Jacqueline Kennedy Onassis, vochten om het te redden, en in 1978 oordeelde het Hooggerechtshof dat de stad het mocht beschermen.
+public-library:
+  name: New York Public Library
+  blurb: De marmeren bibliotheek op Fifth Avenue, bewaakt door de twee stenen leeuwen Patience en Fortitude.
+  text:
+  - Het Stephen A. Schwarzman Building, het hoofdgebouw van de New York Public Library, opende in 1911 op de plek van een oud waterreservoir. Carrère en Hastings bouwden het van wit marmer in beaux-artsstijl, en het was destijds het grootste marmeren gebouw van de Verenigde Staten.
+  - Twee stenen leeuwen liggen aan de voet van de trap aan Fifth Avenue. In de jaren 1930 noemde burgemeester Fiorello La Guardia ze Patience en Fortitude, de eigenschappen die New Yorkers volgens hem nodig zouden hebben om de Depressie door te komen. Boven is de Rose Main Reading Room, onder een beschilderd plafond, open voor iedereen die wil lezen.
+rockefeller-center:
+  blurb: De art-decotorens tussen Fifth en Sixth Avenue, met de gouden Prometheus, de schaatsbaan en de kerstboom.
+  text:
+  - 'John D. Rockefeller Jr. bouwde deze stad in de stad in de jaren 1930, midden in de Depressie: veertien art-decogebouwen rond een verzonken plein, met tuinen op de daken. De hoogste, 30 Rockefeller Plaza, rijst 259 meter op, en vanaf het bovenste dek kijk je recht naar het Empire State Building.'
+  - Het gouden standbeeld van Prometheus ligt over het plein, waar elke winter een schaatsbaan opent. De arbeiders die het centrum bouwden zetten hier in 1931 de eerste kerstboom op, en sinds 1933 staat er elk jaar een gigantische boom boven de baan. Radio City Music Hall, thuis van de Rockettes, staat op de hoek van Sixth Avenue.
+bryant-park:
+  blurb: Het groene gazon achter de bibliotheek, met zijn platanen, zijn groene stoelen en in de winter zijn schaatsbaan.
+  text:
+  - Bryant Park ligt achter de Public Library, tussen 40th en 42nd Street. Het is genoemd naar William Cullen Bryant, dichter en krantenredacteur, en in 1853 stond hier New Yorks Crystal Palace voor de wereldtentoonstelling, tot het in 1858 afbrandde.
+  - In de jaren 1970 stond het park bekend om drugsdealers, maar het werd herbouwd en heropende in 1992. Nu eten kantoormedewerkers er hun lunch op het gazon en op de verplaatsbare groene stoelen, worden er op zomeravonden films vertoond, en in de winter wordt het gazon een schaatsbaan tussen de kraampjes van een kerstmarkt.
+st-patricks:
+  blurb: De gotische kathedraal van wit marmer op Fifth Avenue, tegenover Rockefeller Center.
+  text:
+  - St. Patrick’s Cathedral, de zetel van de katholieke aartsbisschop van New York, werd van 1858 tot 1878 gebouwd naar een ontwerp van James Renwick Jr., deels betaald met de kleine giften van Ierse immigranten. De twee torenspitsen, voltooid in 1888, rijzen zo’n 100 meter boven Fifth Avenue op.
+  - Toen ze werd gebouwd, was dit deel van Manhattan nog bijna leeg; nu staat de kathedraal tussen torens, tegenover de bronzen Atlas van Rockefeller Center. Elke maart trekt de St. Patrick’s Day Parade langs haar trappen.
+macys:
+  blurb: Een van de grootste warenhuizen ter wereld, op 34th Street, waar de Thanksgiving Day Parade eindigt.
+  text:
+  - Macy’s verhuisde in 1902 naar Herald Square, en zijn winkel aan 34th Street vult een heel blok. Sommige van zijn roltrappen, vanaf de jaren 1920 geplaatst, hebben nog houten treden.
+  - Sinds 1924 houdt Macy’s elk jaar in november zijn Thanksgiving Day Parade, met gigantische ballonnen van stripfiguren die langs de avenues naar de deuren van de winkel zweven. De film Miracle on 34th Street (1947) speelt zich hier af, met een Kerstman bij Macy’s die zegt de echte te zijn.
+statue-of-liberty:
+  name: Het Vrijheidsbeeld
+  blurb: Het koperen standbeeld in de haven, een geschenk van Frankrijk, dat de schepen van de immigranten begroette.
+  text:
+  - Liberty Enlightening the World, een geschenk van het Franse volk aan de Verenigde Staten, werd gemaakt door Frédéric Auguste Bartholdi, met een ijzeren frame binnenin van Gustave Eiffel. Het werd in stukken verscheept en in 1886 op zijn eiland onthuld. De koperen huid is met de jaren groen geworden.
+  - Voor de miljoenen immigranten die per schip naar Amerika kwamen, was het beeld het eerste wat ze zagen voor ze aan land gingen op Ellis Island ernaast. Het staat op Liberty Island in de haven, ten zuiden van Manhattan, buiten de kaart van het spel; veerboten ernaartoe vertrekken vanaf Battery Park.
+central-park:
+  blurb: Het grote park midden in Manhattan, vier kilometer lang, net ten noorden van de kaart van het spel.
+  text:
+  - 'Central Park loopt van 59th tot 110th Street, vier kilometer gazons, meren, bossen en rotsen tussen de torens. Frederick Law Olmsted en Calvert Vaux wonnen in 1858 de wedstrijd om het te ontwerpen, en bijna alles werd met de hand gevormd: miljoenen karrenvrachten aarde werden verplaatst en honderdduizenden bomen en struiken geplant.'
+  - New Yorkers joggen, roeien, skaten en liggen er in de zon, en zo’n veertig miljoen mensen bezoeken het elk jaar. Het begint een paar blokken ten noorden van de kaart van het spel, boven aan Fifth en Seventh Avenue.
+yellow-cab:
+  name: Gele taxi’s
+  blurb: De gele taxi’s van New York, die je met een opgestoken hand van de stoeprand aanhaalt.
+  text:
+  - Sinds 1967 moet elke taxi met een stadsmedaillon, de vergunning om mensen op te pikken die vanaf de straat zwaaien, geel geverfd zijn. Er zijn er zo’n 13.000, en in Midtown vormen ze vaak het grootste deel van het verkeer.
+  - De grote Checker-taxi’s uit de films waren de klassieker, tot de laatste in 1999 met pensioen ging. Toen kwam de Ford Crown Victoria, en nu hybride auto’s en busjes. Ook in het spel zijn de meeste auto’s in Midtown gele taxi’s.
+pizza:
+  name: New Yorkse pizza
+  blurb: De grote, dunne pizza die per punt wordt verkocht, om dubbel te vouwen en op straat te eten.
+  text:
+  - Italiaanse immigranten brachten pizza begin 20e eeuw naar New York, en Lombardi’s, in Little Italy, zou de eerste pizzeria van de Verenigde Staten zijn geweest, in 1905 vergund.
+  - Een New Yorkse pizza is breed en dun, met een knapperige korst die buigt. Hij wordt per punt verkocht aan toonbanken door de hele stad, en New Yorkers vouwen de punt in de lengte dubbel om hem lopend te eten.

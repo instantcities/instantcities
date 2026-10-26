@@ -1,0 +1,102 @@
+# london's guide in Dutch (_data/about/london.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Verenigd Koninkrijk (Engeland)
+- Ongeveer 9 miljoen (Groot-Londen)
+- Rond 47 n.Chr., als de Romeinse stad Londinium
+- De Theems
+- Engels
+- The Big Smoke (de Grote Rook)
+- De burgemeester van Londen en 33 lokale raden, waaronder de City of Westminster
+- Vier locaties, onder meer het Paleis van Westminster en Westminster Abbey, sinds 1987
+overview:
+- 'Londen ligt aan de Theems in het zuidoosten van Engeland, waar de rivier zich begint te verbreden richting haar estuarium en de Noordzee. Het groeide uit twee steden: de City of London, de oude Romeinse en koopmansstad in het oosten, die nog altijd het financiële district is, en Westminster, wat verder stroomopwaarts, waar de koningen hun paleis en de abdij bouwden.'
+- Instant London neemt je mee door Westminster. Whitehall, de straat van de regeringsministeries, loopt van Trafalgar Square naar het zuiden naar Parliament Square, langs Downing Street en de bereden wachten van Horse Guards. In het westen leidt de Mall langs de bomen van St James’s Park naar Buckingham Palace; in het oosten steekt Westminster Bridge de Theems over naar het London Eye op de South Bank.
+setting:
+- 'Londen vult een breed, ondiep bekken rond de Theems, omringd door lage krijtheuvels. Het getij reikt ver landinwaarts: de rivier rijst en daalt enkele meters twee keer per dag als ze Westminster passeert. Sinds 1982 beschermt de Thames Barrier, stroomafwaarts bij Woolwich, de stad tegen stormvloeden uit zee.'
+- Groot-Londen beslaat zo’n 1.570 vierkante kilometer en bestaat uit 32 stadsdelen en de City of London. Grote parken, waaronder Hyde Park, Regent’s Park en Hampstead Heath, houden groen dicht bij het centrum. Het klimaat is mild en wisselvallig, met regen verspreid over het jaar en zelden veel sneeuw.
+today:
+- Londen is de zetel van de vorst, de regering en het Parlement, en een van de grote financiële centra ter wereld, in de City en in de torens van Canary Wharf. Het is de thuis van mensen uit bijna elk land, en op zijn scholen worden meer dan driehonderd talen gesproken. De theaters van het West End, gratis musea en koninklijke ceremonies trekken jaarlijks miljoenen bezoekers.
+- 'Londenaren verplaatsen zich met de metro, rode bussen en steeds vaker met de fiets. Overal wordt gevoetbald: Arsenal, Chelsea, Tottenham Hotspur, West Ham United, Fulham en Crystal Palace zijn slechts enkele van de clubs van de stad, en Wembley Stadium is het thuis van het nationale team en de bekerfinales.'
+history:
+- title: Londinium en de middeleeuwse stad
+  text:
+  - De Romeinen vielen Brittannië in 43 n.Chr. binnen en stichtten een paar jaar later Londinium op de eerste plek waar ze een brug over de Theems konden slaan. De rebellen van Boudicca verbrandden het rond 60, maar de stad herstelde en werd de grootste van Romeins Brittannië, met een stenen muur gebouwd rond 200. Toen de Romeinen in de vroege 5e eeuw vertrokken, liep de ommuurde stad leeg, en de Saksen dreven handel vanuit Lundenwic, een nederzetting stroomopwaarts langs wat nu de Strand is.
+  - Alfred de Grote herbezette de oude Romeinse stad in 886. Eduard de Belijder bouwde een grote abdijkerk in Westminster, ingewijd in 1065, en het jaar daarop werd Willem de Veroveraar er met Kerstmis gekroond. Vanaf toen woonden de koningen en hun regering in Westminster, terwijl de kooplieden de City bestuurden, een scheiding die Londen nog altijd kent.
+- title: Paleizen, pest en brand
+  text:
+  - In 1530 nam Hendrik VIII het huis van de aartsbisschop van York aan de rivier over en maakte er het Paleis van Whitehall van, destijds het grootste paleis van Europa. Het Parlement liet Karel I in 1649 voor het Banqueting House onthoofden. Het meeste van het paleis brandde in 1698 af, en ministeries namen later zijn plaats in langs Whitehall.
+  - De Grote Pest van 1665 doodde bijna een kwart van de Londenaren, en het jaar daarop verwoestte de Grote Brand het grootste deel van de City. Christopher Wren herbouwde de Sint-Paulskathedraal en meer dan vijftig kerken in de City. In de jaren 1680 bouwde sir George Downing een rij huizen bij Whitehall; sinds 1735 is nummer 10 het huis van de premier.
+- title: Keizerlijke hoofdstad en moderne stad
+  text:
+  - In de 19e eeuw werd Londen de grootste stad ter wereld en de hoofdstad van een imperium. Nadat een brand het oude Paleis van Westminster in 1834 had verwoest, bouwden Charles Barry en Augustus Pugin het huidige Parlementsgebouw, met de klokkentoren van Big Ben voltooid in 1859. De stad legde Trafalgar Square aan, richtte in 1843 Nelsons Zuil op, opende in 1863 de eerste ondergrondse spoorlijn, en Joseph Bazalgette bouwde de Victoria Embankment over zijn nieuwe riolen.
+  - Duitse bommen troffen Londen nacht na nacht in de Blitz van 1940 en 1941. Na de oorlog was de stad gastheer van de Olympische Spelen van 1948, hield in 1951 het Festival of Britain op de South Bank en verwelkomde nieuwe Londenaren uit het Caribisch gebied, Zuid-Azië en daarbuiten. Sinds 2000 kiest Londen zijn eigen burgemeester, en in 2012 werd het de eerste stad die drie keer de Olympische Spelen organiseerde.
+timeline:
+- - ca. 47
+  - De Romeinen stichten Londinium aan de Theems
+- - ca. 60
+  - De rebellen van Boudicca verbranden de stad
+- - '886'
+  - Alfred de Grote herbezet de oude Romeinse stad
+- - '1066'
+  - Willem de Veroveraar wordt gekroond in Westminster Abbey
+- - '1530'
+  - Hendrik VIII maakt Whitehall zijn paleis
+- - '1649'
+  - Karel I wordt onthoofd voor het Banqueting House
+- - '1666'
+  - De Grote Brand verwoest het grootste deel van de City
+- - '1735'
+  - Robert Walpole betrekt 10 Downing Street
+- - '1834'
+  - Brand verwoest het oude Paleis van Westminster
+- - '1859'
+  - De klokkentoren en klok van Big Ben zijn voltooid
+- - '1863'
+  - De eerste ondergrondse spoorlijn opent
+- - '1940'
+  - De Blitz begint
+- - '2012'
+  - Londen is voor de derde keer gastheer van de Olympische Spelen
+places:
+  thames:
+    name: De Theems
+    blurb: Londens getijdenrivier, die enkele meters rijst en daalt, twee keer per dag. De muren van de Embankment verbergen de Victoriaanse riolen.
+  westminster-bridge:
+    blurb: De groen geverfde ijzeren brug uit 1862 naast het Parlementsgebouw, groen als de banken van het Lagerhuis.
+  parliament-square:
+    blurb: Een grasveld tussen het Parlement, Westminster Abbey en het Hooggerechtshof, omringd door standbeelden van staatslieden als Winston Churchill en Nelson Mandela.
+  broad-sanctuary:
+    blurb: De straat voor de westgevel van Westminster Abbey, genoemd naar het toevluchtsoord waar voortvluchtigen ooit voor de wet konden schuilen.
+  whitehall:
+    blurb: De brede straat van regeringsministeries van Trafalgar Square naar het Parlement, met in het midden de Cenotaaf, het nationale oorlogsmonument.
+  downing-street:
+    blurb: De korte straat achter ijzeren hekken waar de premier op nummer 10 woont.
+  horse-guards-parade:
+    blurb: Het grote grindexercitieterrein achter Horse Guards, waar elk jaar in juni Trooping the Colour plaatsvindt.
+  trafalgar-square:
+    blurb: Londens grote plein, met Nelson op zijn zuil, vier bronzen leeuwen en de National Gallery aan de noordkant.
+  the-mall:
+    blurb: De rood geplaveide laan van Admiralty Arch naar Buckingham Palace, de route van koninklijke processies.
+  st-jamess-park:
+    blurb: Het oudste van de koninklijke parken, met een meer, pelikanen en vanaf de brug uitzicht op Buckingham Palace.
+  strand:
+    blurb: De oude weg van Westminster naar de City, ooit langs de oever, nu omzoomd met theaters, hotels en het Savoy.
+  victoria-embankment:
+    blurb: De rivierweg die Joseph Bazalgette in de jaren 1860 op teruggewonnen land bouwde, boven een riool en de District line.
+  golden-jubilee-bridges:
+    blurb: Twee voetgangersbruggen aan weerszijden van het spoor van de Hungerford Bridge, van Charing Cross naar de South Bank.
+  queens-walk:
+    name: De Queen’s Walk
+    blurb: De rivierpromenade van de South Bank, langs het London Eye en de kunstcentra, met uitzicht over het Parlement aan de overkant.
+links:
+- title: Visit London
+  note: De officiële bezoekersgids van Londen
+- title: Burgemeester van Londen
+  note: De burgemeester en de London Assembly
+- title: Westminster City Council
+  note: De raad van de City of Westminster
+- title: Paleis van Westminster en Westminster Abbey op UNESCO
+  note: De Werelderfgoedlijst
+- title: Londen op Wikipedia
+  note: Het encyclopedieartikel

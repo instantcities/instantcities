@@ -1,0 +1,25 @@
+# rotterdam's landmarks in French (_data/landmarks/rotterdam.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+stadhuis:
+  name: Hôtel de ville
+  blurb: L’hôtel de ville de Rotterdam, de 1920, sur le Coolsingel, l’un des rares bâtiments du centre à avoir survécu au bombardement de 1940.
+erasmusbrug:
+  name: Pont Érasme
+  blurb: Le pont à haubans blanc sur la Meuse, surnommé le Cygne, devenu l’emblème du nouveau Rotterdam.
+witte-huis:
+  blurb: L’immeuble de bureaux blanc de 1898 près du Vieux Port, l’un des premiers immeubles de grande hauteur d’Europe.
+oude-haven:
+  name: Vieux Port
+  blurb: Le plus vieux port de Rotterdam, plein de vieilles péniches à voile, avec des terrasses le long des quais.
+kubuswoningen:
+  name: Maisons cubes
+  blurb: Les maisons jaunes de Piet Blom basculées sur la pointe, une forêt de cubes sur une passerelle au-dessus du Blaak.
+markthal:
+  blurb: Une arche en fer à cheval d’appartements au-dessus d’un marché couvert, avec la plus grande œuvre d’art des Pays-Bas au plafond.
+laurenskerk:
+  blurb: La grande église gothique tardive de la ville, incendiée en 1940 et rebâtie, dernier bâtiment médiéval du centre.
+schielandshuis:
+  blurb: Un palais classique du XVIIe siècle parmi les tours, qui a survécu au bombardement de 1940.
+maritiem-museum:
+  name: Musée maritime
+  blurb: Le musée maritime sur le Leuvehaven, avec de vieilles grues, un bateau-phare et des bateaux de travail amarrés devant.

@@ -1,101 +1,108 @@
-{%- comment -%} A landmark's page (/<city>/landmark/<id>/): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark` (tools/landmarks.mjs writes the pages, with x and z: where it lies in the game). Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. A building with famous art in it (a museum of _data/art.json whose `landmark` is this one) lists its pieces, and the first mention of the city and of each piece in its words is a link. {%- endcomment -%}
-{%- assign C = site.data.cities | where: 'id', page.city | first -%}
-{%- assign H = site.data.home -%}
+{%- comment -%} A landmark's page, in each language (/en/ghent/landmark/belfort/, /fr/gand/monument/belfort/: tools/landmarks.mjs writes the pages, with x and z: where it lies in the game; /<city>/landmark/<id>/ only sends a visitor on): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark`; in French and Dutch its words (the name, the blurb, the story, history, visit and dates) are those of _data/i18n/<lang>/landmarks/<city>.yml where it has them. Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. A building with famous art in it (a museum of _data/art.json whose `landmark` is this one) lists its pieces, and the first mention of the city and of each piece in its words is a link. {%- endcomment -%}
+{%- include lang.html -%}
 {%- assign all = site.data.landmarks[page.city] -%}
-{%- assign L = all | where: 'id', page.landmark | first -%}
+{%- assign LM = all | where: 'id', page.landmark | first -%}
+{%- assign LX = LMT[LM.id] -%}
+{%- assign lm_name = LX.name | default: LM.name -%}
+{%- assign lm_blurb = LX.blurb | default: LM.blurb -%}
+{%- assign lm_text = LX.text | default: LM.text -%}
+{%- assign lm_history = LX.history | default: LM.history -%}
+{%- assign lm_visit = LX.visit | default: LM.visit -%}
+{%- assign lm_dates = LX.dates | default: LM.dates -%}
 {%- comment -%} &from= (?from= without a place) tells the game which page you came from, so its pause menu leads back here. {%- endcomment -%}
-{%- comment -%} a building to walk into (L.inside, its id in <city>/inside.js) opens inside it, also when it lies off the city's map {%- endcomment -%}
-{%- if L.inside %}{% assign play = '/' | append: C.id | append: '/play/?inside=' | append: L.inside | append: '&from=' | append: L.id %}
-{%- elsif L.sight %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: L.sight | append: '&from=' | append: L.id %}
-{%- elsif page.x %}{% assign nm = L.name | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: page.x | append: ',' | append: page.z | append: '&n=' | append: nm | append: '&from=' | append: L.id %}
-{%- else %}{% assign play = '/' | append: C.id | append: '/play/?from=' | append: L.id %}{% endif -%}
-{%- assign here = false -%}{%- if L.inside or L.sight or page.x %}{% assign here = true %}{% endif -%}
-{%- assign art_museums = site.data.art.museums | where: 'city', C.id | where: 'landmark', L.id -%}
+{%- comment -%} a building to walk into (LM.inside, its id in <city>/inside.js) opens inside it, also when it lies off the city's map {%- endcomment -%}
+{%- if LM.inside %}{% assign play = '/' | append: C.id | append: '/play/?inside=' | append: LM.inside | append: '&from=' | append: LM.id | append: QA %}
+{%- elsif LM.sight %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: LM.sight | append: '&from=' | append: LM.id | append: QA %}
+{%- elsif page.x %}{% assign nm = lm_name | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: page.x | append: ',' | append: page.z | append: '&n=' | append: nm | append: '&from=' | append: LM.id | append: QA %}
+{%- else %}{% assign play = '/' | append: C.id | append: '/play/?from=' | append: LM.id | append: QA %}{% endif -%}
+{%- assign here = false -%}{%- if LM.inside or LM.sight or page.x %}{% assign here = true %}{% endif -%}
+{%- assign art_museums = site.data.art.museums | where: 'city', C.id | where: 'landmark', LM.id -%}
 {%- comment -%} its words (the story, history and visit), run together with a pilcrow between the paragraphs so that a mention at the start of one counts, with the first mention of each of its pieces, then of the city, in a link {%- endcomment -%}
-{%- assign words = L.text -%}
+{%- assign words = lm_text -%}
 {%- assign n_history = 0 -%}{%- assign n_visit = 0 -%}
-{%- if L.history %}{% assign words = words | concat: L.history %}{% assign n_history = L.history.size %}{% endif -%}
-{%- if L.visit %}{% assign words = words | concat: L.visit %}{% assign n_visit = L.visit.size %}{% endif -%}
+{%- if lm_history %}{% assign words = words | concat: lm_history %}{% assign n_history = lm_history.size %}{% endif -%}
+{%- if lm_visit %}{% assign words = words | concat: lm_visit %}{% assign n_visit = lm_visit.size %}{% endif -%}
 {%- assign words = words | join: ' ¶ ' -%}
 {%- for m in art_museums %}{% assign pieces = site.data.art.pieces | where: 'museum', m.id %}{% for a in pieces %}
 {%- assign art_url = '/art/' | append: a.id | append: '/' -%}
 {%- assign art_name = a.title | remove_first: 'The ' -%}
 {%- capture words %}{% include link-first.html text=words name=art_name url=art_url %}{% endcapture -%}
 {%- endfor %}{% endfor -%}
-{%- assign city_url = '/' | append: C.id | append: '/' -%}
-{%- capture words %}{% include link-first.html text=words name=C.name url=city_url %}{% endcapture -%}
+{%- capture city_url %}{% include city-url.html city=C.id %}{% endcapture -%}
+{%- capture words %}{% include link-first.html text=words name=CN url=city_url %}{% endcapture -%}
 {%- assign words = words | split: ' ¶ ' -%}
-{%- assign visit_from = L.text.size | plus: n_history -%}
+{%- capture city_link %}<a href="{{ city_url }}">{{ CN }}</a>{% endcapture -%}
+{%- assign visit_from = lm_text.size | plus: n_history -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = L.name | append: ' in ' | append: C.name | append: ' · Instant Cities' -%}{%- assign description = L.blurb -%}
-{%- assign path = '/' | append: C.id | append: '/landmark/' | append: L.id | append: '/' -%}
-{%- if L.photo %}{% assign image = L.photo.src %}{% elsif L.image %}{% assign image = L.image %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
+{%- assign title = T.landmark_title | replace: '%l', lm_name | replace: '%c', CN | replace: '%d', DE -%}{%- assign description = lm_blurb -%}
+{%- assign path = page.url -%}
+{%- if LM.photo %}{% assign image = LM.photo.src %}{% elsif LM.image %}{% assign image = LM.image %}{% else %}{% assign image = '/og-image.jpg' %}{% endif %}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
-    <section class="hero landmark-hero page-hero{% unless L.image %} home-hero{% endunless %}{% if L.photo %} photo-hero" style="--photo: url('{{ L.photo.src }}'){% endif %}">
+    <section class="hero landmark-hero page-hero{% unless LM.image %} home-hero{% endunless %}{% if LM.photo %} photo-hero" style="--photo: url('{{ LM.photo.src }}'){% endif %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › <a href="/{{ C.id }}/{% if site.data.about[C.id] %}places-and-landmarks/{% else %}#landmarks{% endif %}">Places and landmarks</a></p>
-        <h1><span class="lm-icon" aria-hidden="true">{% include icon.html name=L.icon %}</span> {{ L.name }}</h1>
-        {%- if L.local %}<p class="local">{{ L.local }}</p>{% endif %}
-        <p class="tagline">{{ L.blurb }}</p>
+        <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ CN }}</a> › <a href="{% if site.data.about[C.id] %}{% include city-url.html city=C.id page='places' %}{% else %}{% include city-url.html city=C.id %}#landmarks{% endif %}">{{ T.places_and_landmarks }}</a></p>
+        <h1><span class="lm-icon" aria-hidden="true">{% include icon.html name=LM.icon %}</span> {{ lm_name }}</h1>
+        {%- if LM.local %}<p class="local">{{ LM.local }}</p>{% endif %}
+        <p class="tagline">{{ lm_blurb }}</p>
         <p class="hero-btns">
-          <a class="play" href="{{ play }}">{% include icon.html name="play" %} {% if here %}See it in 3D{% else %}Play {{ C.name }}{% endif %}</a>
+          <a class="play" href="{{ play }}">{% include icon.html name="play" %} {% if here %}{{ T.see_in_3d }}{% else %}{{ T.play_city_plain | replace: '%c', CN }}{% endif %}</a>
           {%- if art_museums.size > 0 %}
-          <a class="ghost" href="#art">{% include icon.html name="frame" %} Famous art</a>
+          <a class="ghost" href="#art">{% include icon.html name="frame" %} {{ T.famous_art }}</a>
           {%- endif %}
-          <a class="ghost" href="/{{ C.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ H.live_watch }}</a>
+          <a class="ghost" href="/{{ C.id }}/play/?watch=cards{{ QA }}">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
         </p>
       </div>
-      {%- if L.image %}
+      {%- if LM.image %}
       <a class="hero-shot" href="{{ play }}">
-        <img src="{{ L.image }}" width="1200" height="675" alt="{{ L.name }} in Instant {{ C.name }}" fetchpriority="high">
+        <img src="{{ LM.image }}" width="1200" height="675" alt="{{ T.lm_alt | replace: '%l', lm_name | replace: '%c', CN }}" fetchpriority="high">
         <span class="play-badge" aria-hidden="true">{% include icon.html name="play" %}</span>
       </a>
       {%- endif %}
-      {%- if L.photo %}{% include photo-hero.html photo=L.photo %}{% endif %}
+      {%- if LM.photo %}{% include photo-hero.html photo=LM.photo %}{% endif %}
     </section>
 
     <section class="landmark-body">
       <div class="prose">
-        {%- for p in words limit: L.text.size %}
-        <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">{% if here %}Visit it in 3D{% else %}Ride through {{ C.name }} in 3D{% endif %} ›</a>{% endif %}</p>
+        {%- for p in words limit: lm_text.size %}
+        <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">{% if here %}{{ T.visit_in_3d }}{% else %}{{ T.ride_in_3d | replace: '%c', CN }}{% endif %}</a>{% endif %}</p>
         {%- endfor %}
-        {%- if L.history %}
-        <h2>History</h2>
-        {%- for p in words offset: L.text.size limit: n_history %}
+        {%- if lm_history %}
+        <h2>{{ T.lm_history }}</h2>
+        {%- for p in words offset: lm_text.size limit: n_history %}
         <p>{{ p }}</p>
         {%- endfor %}
         {%- endif %}
-        {%- if L.visit %}
-        <h2>Going to see it</h2>
+        {%- if lm_visit %}
+        <h2>{{ T.lm_visit }}</h2>
         {%- for p in words offset: visit_from limit: n_visit %}
         <p>{{ p }}</p>
         {%- endfor %}
         {%- endif %}
       </div>
       <aside class="landmark-side">
-        {%- if L.lat %}
-        {%- assign s = L.lat | minus: 0.0025 %}{% assign n = L.lat | plus: 0.0025 %}{% assign w = L.lon | minus: 0.004 %}{% assign e = L.lon | plus: 0.004 %}
+        {%- if LM.lat %}
+        {%- assign s = LM.lat | minus: 0.0025 %}{% assign n = LM.lat | plus: 0.0025 %}{% assign w = LM.lon | minus: 0.004 %}{% assign e = LM.lon | plus: 0.004 %}
         <figure class="osm">
-          <iframe title="{{ L.name }} on OpenStreetMap" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={{ w }}%2C{{ s }}%2C{{ e }}%2C{{ n }}&amp;layer=mapnik&amp;marker={{ L.lat }}%2C{{ L.lon }}"></iframe>
+          <iframe title="{{ T.lm_osm_title | replace: '%l', lm_name }}" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={{ w }}%2C{{ s }}%2C{{ e }}%2C{{ n }}&amp;layer=mapnik&amp;marker={{ LM.lat }}%2C{{ LM.lon }}"></iframe>
           <figcaption>
-            <a href="https://www.openstreetmap.org/?mlat={{ L.lat }}&amp;mlon={{ L.lon }}#map=18/{{ L.lat }}/{{ L.lon }}" rel="noopener">{% include icon.html name="pin" %} Open in OpenStreetMap</a>
-            <a href="{{ play }}">{% include icon.html name="play" %} {% if here %}Open in 3D{% else %}Ride through {{ C.name }} in 3D{% endif %}</a>
+            <a href="https://www.openstreetmap.org/?mlat={{ LM.lat }}&amp;mlon={{ LM.lon }}#map=18/{{ LM.lat }}/{{ LM.lon }}" rel="noopener">{% include icon.html name="pin" %} {{ T.open_osm }}</a>
+            <a href="{{ play }}">{% include icon.html name="play" %} {% if here %}{{ T.open_3d }}{% else %}{{ T.ride_in_3d_plain | replace: '%c', CN }}{% endif %}</a>
           </figcaption>
         </figure>
         {%- endif %}
-        {%- if L.dates %}
+        {%- if lm_dates %}
         <div class="dates">
-          <h2>Dates</h2>
+          <h2>{{ T.lm_dates }}</h2>
           <dl>
-            {%- for d in L.dates %}
+            {%- for d in lm_dates %}
             <dt>{{ d[0] }}</dt><dd>{{ d[1] }}</dd>
             {%- endfor %}
           </dl>
@@ -106,20 +113,20 @@
 
     {%- if art_museums.size > 0 %}
     <section id="art" class="landmarks">
-      <h2>Famous art here</h2>
+      <h2>{{ T.lm_art_here }}</h2>
       <div class="grid art-grid">
         {%- for m in art_museums %}{% assign pieces = site.data.art.pieces | where: 'museum', m.id %}{% for a in pieces %}
         {% include art-card.html art=a %}
         {%- endfor %}{% endfor %}
       </div>
-      <p class="card-more"><a href="/art/#{{ art_museums[0].id }}">All famous art in 3D ›</a></p>
+      <p class="card-more"><a href="/art/#{{ art_museums[0].id }}">{{ T.lm_art_all }}</a></p>
     </section>
     {%- endif %}
 
     <section id="landmarks" class="landmarks">
-      <h2>More in <a href="{{ city_url }}">{{ C.name }}</a></h2>
+      <h2>{{ T.lm_more_in | replace: '%c', city_link }}</h2>
       <div class="grid">
-        {%- for o in all %}{% if o.id != L.id %}
+        {%- for o in all %}{% if o.id != LM.id %}
         {% include landmark-card.html landmark=o city=C.id %}
         {%- endif %}{% endfor %}
       </div>
@@ -127,8 +134,8 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="/cities/">All cities</a></p>
-    <p>{% if C.credits %}{{ C.credits }} {% endif %}Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ T.instant_name | replace: '%c', CN }}</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
+    <p>{% assign credits = CT.credits | default: C.credits %}{% if credits %}{{ credits }} {% endif %}{{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

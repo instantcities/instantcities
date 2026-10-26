@@ -1,11 +1,11 @@
 {
   "id": "utrecht",
   "name": "Instant Utrecht",
-  "title": "Instant Utrecht: a free 3D game of Utrecht, by bike, on foot or on horseback",
-  "description": "Cycle, walk or gallop through a 3D version of the centre of Utrecht in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
-  "share_title": "Instant Utrecht: play through Utrecht in 3D",
+  "title": "Instant Utrecht: a free virtual 3D tour and game of Utrecht",
+  "description": "Take a free virtual 3D tour of the centre of Utrecht in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Utrecht: a virtual 3D tour of Utrecht",
   "share_description": "Cycle, walk or gallop through Utrecht in your browser. Explore or race, alone or with two. Free.",
-  "ld_description": "A free 3D browser game set in the centre of Utrecht, the Netherlands: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Utrecht, the Netherlands: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
   "noscript": "    <p>Ride a bike, walk or gallop through a 3D Utrecht in your browser. Turn on JavaScript to play.</p>",
   "city_en": "Utrecht",
   "style": ":root { --paper: #fbf7f2; --accent: #c8102e; --accent-soft: #f6dcdf; --gold: #e0a83a; --sky: #e7eef3; --skyline: #9a6a58; --glass: rgba(251, 247, 242, 0.72); } .tag { color: #a00d25; }"

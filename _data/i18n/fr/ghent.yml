@@ -1,0 +1,26 @@
+# ghent's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/ghent.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/ghent.yml and its landmarks, with their pages, in landmarks/ghent.yml.
+title: 'Instant Gent : visite virtuelle en 3D et jeu gratuits de Gand'
+description: 'Faites gratuitement la visite virtuelle en 3D de Gand dans votre navigateur, puis parcourez-la vous-même à vélo, à pied ou au galop : explorez, faites la course ou jouez des quêtes, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la ville d’Artevelde !
+lead: Parcourez tout Gand à l’intérieur du ring R40 en 3D, avec chaque bâtiment à sa vraie hauteur.
+features:
+- title: La vraie Gand
+  text: Promenez-vous parmi quelque 40 000 bâtiments reconstruits en 3D à partir d’OpenStreetMap, chacun à sa hauteur mesurée. Levez les yeux vers le beffroi de 95 mètres, le Château des Comtes, la Stadshal et Saint-Bavon, tous dessinés à l’échelle.
+- title: Quatre parcours
+  text: Courez Gent Centrum devant les trois tours, par les rues étroites de la Brugse Poort, de Sint-Pieters à Dampoort à travers toute la ville, ou de l’Overpoort au S.M.A.K.
+- title: Des quêtes contre la montre
+  text: 'Relevez quatre courtes missions contre la montre : retrouvez l’Agneau mystique volé ou échappez aux zombies étudiants de l’Overpoort.'
+shots:
+  boat: 'Vrijdagmarkt : en route vers le dernier bateau'
+  zombies: Des zombies étudiants dans l’Overpoort
+  quest-lamb: 'Quête : l’Agneau mystique a été volé'
+  bigmap: 'Le plan de la ville : téléportez-vous où vous voulez'
+intro: Gand est une ville universitaire de Flandre, le nord néerlandophone de la Belgique, là où la Lys se jette dans l’Escaut. Au Moyen Âge, le commerce du drap en a fait l’une des plus grandes villes au nord des Alpes, et les maisons de corporations de la Graslei, le Château des Comtes et les tours de l’église Saint-Nicolas, du beffroi et de la cathédrale Saint-Bavon montrent encore sa richesse. Saint-Bavon garde le retable de l’Agneau mystique des frères Van Eyck, et depuis 2017 les voitures ne traversent plus le centre médiéval.
+famous:
+- Le retable de Gand, l’Adoration de l’Agneau mystique de Hubert et Jan van Eyck, dans la cathédrale Saint-Bavon
+- Trois tours médiévales alignées et les maisons de corporations de la Graslei, vues depuis le pont Saint-Michel
+- Le Château des Comtes, le château de pierre des comtes de Flandre, au milieu de la ville
+- Les Gentse Feesten, dix jours de musique et de théâtre de rue chaque juillet, et les cuberdons, les bonbons violets en forme de cône
+credits: 'Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Modèles 3D : Stad Gent, Gent in 3D. Hauteurs : Digitaal Vlaanderen, DHMV II.'

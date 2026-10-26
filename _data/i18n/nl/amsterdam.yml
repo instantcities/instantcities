@@ -1,0 +1,21 @@
+# amsterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/amsterdam.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/amsterdam.yml and its landmarks, with their pages, in landmarks/amsterdam.yml.
+title: 'Instant Amsterdam: gratis virtuele 3D-rondleiding en game van Amsterdam'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Amsterdam in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard langs de grachten!
+lead: Rijd door de oude binnenstad van Amsterdam in 3D, langs de Dam, het Koninklijk Paleis, het Singel en het Spui, met elk grachtenpand uit OpenStreetMap.
+features:
+- title: Het echte Amsterdam
+  text: 'Dwaal tussen zo’n 7.900 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Tussen de grachten
+  text: Begin op de Dam bij het Koninklijk Paleis, volg het Singel naar het Spui en het Rokin, en rijd door naar de Westerkerk, de Nieuwmarkt en het Centraal Station.
+- title: 'Een race: Dam en Singel'
+  text: Race van de Dam langs het Koninklijk Paleis naar het Singel, langs de gracht naar het Spui en via het Rokin terug naar de Dam.
+intro: Amsterdam is de hoofdstad van Nederland, een stad van grachten, smalle bakstenen huizen en fietsen. Het begon als vissersdorp bij een dam in de Amstel en werd in de 17e eeuw de rijkste handelshaven van Europa. De grachtengordel die de kooplieden in die Gouden Eeuw groeven, houdt de stad vandaag nog altijd samen.
+famous:
+- De 17e-eeuwse grachtengordel, met zijn bruggen en hoge, smalle koopmanshuizen
+- Rembrandt, Van Gogh en het Rijksmuseum
+- Het Anne Frank Huis aan de Prinsengracht
+- Overal fietsen, rondvaartboten, trams en stroopwafels
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

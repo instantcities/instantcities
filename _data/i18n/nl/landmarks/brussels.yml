@@ -1,0 +1,73 @@
+# brussels's landmarks in Dutch (_data/landmarks/brussels.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+grand-place:
+  name: Grote Markt
+  blurb: Gildehuizen en een gotisch stadhuis rond een van de mooiste pleinen van Europa.
+  text:
+  - In 1695 bombardeerde het Franse leger van Lodewijk XIV Brussel en maakte bijna alles rond de Grote Markt met de grond gelijk behalve het stadhuis. Binnen een paar jaar herbouwden de gilden hun huizen in rijke barok, vol vergulde beelden, krullen en gevels.
+  - Het plein is werelderfgoed. Om het jaar in augustus verdwijnen de keien onder een tapijt van een miljoen begonia’s.
+hotel-de-ville:
+  name: Stadhuis
+  blurb: Het gotische stadhuis met zijn toren van 96 meter, met bovenop Sint-Michiel die de draak verslaat.
+  text:
+  - Het stadhuis werd in de 15e eeuw gebouwd, de slanke toren voltooid in 1455 door Jan van Ruysbroeck. Helemaal bovenaan, zo’n 96 meter hoog, verslaat een vergulde Sint-Michiel, patroon van de stad, de duivel in de gedaante van een draak.
+  - Kijk goed en je ziet dat de toren niet precies in het midden van de gevel staat en dat de twee vleugels niet gelijk zijn.
+maison-du-roi:
+  name: Broodhuis
+  blurb: Het neogotische huis tegenover het stadhuis, met het stadsmuseum en de garderobe van Manneken Pis.
+  text:
+  - 'Er woonde nooit een koning: het middeleeuwse Broodhuis kreeg de naam toen het aan de hertogen van Brabant kwam, die ook over Spanje heersten. Het gebouw dat je ziet werd eind 19e eeuw in neogotische stijl herbouwd.'
+  - Nu is het het Stadsmuseum van Brussel, met het originele Manneken Pis en een deel van zijn garderobe aan kostuums.
+manneken-pis:
+  blurb: Een bronzen jongetje van amper een halve meter, met een garderobe van meer dan duizend kostuums.
+  text:
+  - 'Jérôme Duquesnoy de Oudere goot het kleine bronzen jongetje in 1619 voor een fontein die de buurt van drinkwater voorzag. Er gaan legendes over wie hij was: een jongen die de stad redde door een brandende lont te doven, of een verdwaald edelmanskind dat plassend werd gevonden.'
+  - Het standbeeld op de hoek is een kopie; het origineel staat in het stadsmuseum. Hij wordt meerdere keren per week in kostuums gekleed, en op speciale dagen schenkt hij bier.
+galeries-saint-hubert:
+  name: Koninklijke Sint-Hubertusgalerijen
+  blurb: Een van de eerste overdekte winkelgalerijen van Europa, geopend in 1847 onder een glazen dak.
+  text:
+  - 'Jean-Pierre Cluysenaar ontwierp de galerij, en koning Leopold I opende haar in 1847: meer dan 200 meter winkels, cafés, een theater en een bioscoop onder een lang gewelfd dak van glas en ijzer.'
+  - Chocolatiers, boekhandelaars en handschoenmakers houden nog altijd winkel in de drie galerijen, die van de Koning, de Koningin en de Prinsen.
+bourse:
+  name: Beurs
+  blurb: De oude beurs uit 1873, aan een boulevard die sinds 2015 autovrij is.
+  text:
+  - De Beurs werd van 1868 tot 1873 gebouwd over de Zenne, die net was overwelfd om plaats te maken voor de grote lanen. De voorgevel met zuilen, beelden en leeuwen moest de rijkdom van het jonge België tonen.
+  - In 2015 werd de laan ervoor afgesloten voor auto’s, en sinds 2023 is het gebouw de Belgian Beer World, een biermuseum.
+cathedrale:
+  name: Sint-Michiels- en Sint-Goedelekathedraal
+  blurb: De gotische kathedraal van Brussel op de helling naar de bovenstad, waar koninklijke huwelijken worden gesloten.
+  text:
+  - De kathedraal werd gebouwd over zo’n drie eeuwen, vanaf 1226, in de gotische stijl van Brabant, met twee vierkante torens op haar witte voorgevel. Haar glas-in-loodramen omvatten enkele die door Karel V werden geschonken.
+  - Hier vinden de Belgische koninklijke huwelijken en staatsbegrafenissen plaats, en hier wordt het nationale Te Deum gezongen.
+mont-des-arts:
+  name: Kunstberg
+  blurb: De tuintrappen tussen de beneden- en de bovenstad, met uitzicht over de stad.
+  text:
+  - De Kunstberg verbindt de oude benedenstad met de koninklijke wijk op de heuvel. De formele tuin en trappen, aangelegd in de jaren 1950, leiden omhoog tussen de Koninklijke Bibliotheek en het congrescentrum Square.
+  - Vanaf de top loopt het uitzicht over de daken naar de toren van het stadhuis. Het Magrittemuseum en het Museum voor Muziekinstrumenten, in een art-nouveauwarenhuis, liggen vlakbij.
+sablon:
+  name: Zavel
+  blurb: Het plein van de antiquairs en chocolatiers, onder de gotische kerk van Onze-Lieve-Vrouw-ten-Zavel.
+  text:
+  - De Grote Zavel is omzoomd met antiekwinkels en de etalages van Brussels beste chocolatiers. In het weekend vult een antiekmarkt het plein.
+  - Erboven staat de laatgotische kerk Onze-Lieve-Vrouw ter Zavel, beroemd om haar hoge ramen; aan de overkant van de straat ligt het kleine park van de Kleine Zavel met zijn 48 bronzen beelden van de oude gilden.
+frites:
+  name: Frieten
+  blurb: Dikke frieten die twee keer in rundervet worden gebakken, geserveerd in een papieren puntzak met mayonaise.
+  text:
+  - Belgen bakken hun aardappelen twee keer, eerst om ze gaar te maken en dan heet om ze krokant te maken, traditioneel in rundervet. Ze worden uit een papieren puntzak gegeten, met mayonaise of een van de tientallen sauzen.
+  - Elke buurt heeft zijn frituur, of frietkot; sommige van de beroemdste van Brussel staan in kleine kiosken op pleinen.
+chocolat:
+  name: Chocolade
+  blurb: De praline werd in 1912 in Brussel uitgevonden, in de Sint-Hubertusgalerijen.
+  text:
+  - In 1912 vulde Jean Neuhaus in zijn winkel in de Sint-Hubertusgalerijen een chocoladeschelp met room en noten en noemde het een praline. In 1915 ontwierp zijn vrouw het doosje, de ballotin, om te voorkomen dat ze werden platgedrukt.
+  - Nu zijn de Grote Zavel en de galerijen omzoomd met chocolatiers, van oude huizen tot jonge makers.
+bd:
+  name: Stripmuren
+  blurb: Kuifje, de Smurfen en Lucky Luke geschilderd op de gevelmuren van de oude stad.
+  text:
+  - 'Brussel is de hoofdstad van het stripverhaal: Hergé, de maker van Kuifje, werd hier geboren, en veel grote strips kwamen uit de stad. Sinds 1991 zijn meer dan zestig gevelmuren beschilderd met stripscènes.'
+  - Een wandeling door de oude stad voert je langs Kuifje en kapitein Haddock op een brandtrap, Asterix, de Smurfen en Lucky Luke. Het Stripmuseum zit in een art-nouveauwarenhuis van Victor Horta.

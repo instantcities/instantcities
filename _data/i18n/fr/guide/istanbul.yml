@@ -1,0 +1,124 @@
+# istanbul's guide in French (_data/about/istanbul.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Turquie
+- İstanbul
+- Environ 15,7 millions d’habitants (province)
+- Des deux côtés du Bosphore, entre la mer Noire et la mer de Marmara
+- Du niveau de la mer jusqu’en haut des sept collines de la vieille ville, à environ 60 mètres
+- Turc
+- Sainte-Sophie, la Mosquée bleue, les bazars, le Bosphore
+- Sous le nom de Byzance, par des colons grecs, au VIIe siècle av. J.-C.
+overview:
+- La vieille ville d’Istanbul est une péninsule en forme de corne, avec la Corne d’Or au nord, la mer de Marmara au sud et le Bosphore à sa pointe. À son extrémité se trouve le palais de Topkapı au-dessus du parc de Gülhane, et juste à l’intérieur des terres Sainte-Sophie et la Mosquée bleue se font face de part et d’autre de la place de Sultanahmet, avec le long Hippodrome à côté. De là, la Divan Yolu, l’ancienne route impériale, va vers l’ouest devant la colonne de Constantin jusqu’au Grand Bazar, tandis que les rues vers le nord descendent à pic jusqu’à Sirkeci, Eminönü, la Mosquée neuve et le Bazar aux épices au bord de la Corne d’Or, où le pont de Galata passe vers Karaköy.
+- 'Instant Istanbul vous emmène au cœur de tout cela : de Sainte-Sophie le long de la Divan Yolu jusqu’à la colonne de Constantin et à la porte du Grand Bazar, par l’Ankara Caddesi jusqu’à Sirkeci, et retour le long du tramway devant le parc de Gülhane et par la ruelle des maisons de bois jusqu’à la porte du palais de Topkapı. Les vraies rues montent et descendent sur les collines ; dans le jeu, la ville est plate.'
+setting:
+- Istanbul s’étend le long du Bosphore, le détroit de 30 kilomètres qui relie la mer Noire à la mer de Marmara et sépare l’Europe de l’Asie. Du côté européen, la Corne d’Or, longue baie, coupe la vieille ville de Galata et de Beyoğlu au nord. Trois ponts et deux tunnels traversent le Bosphore, et les ferries le traversent toute la journée.
+- 'Le climat se situe entre ceux de la Méditerranée et de la mer Noire : étés chauds et humides, hivers frais et pluvieux avec de la neige de temps à autre, et des vents qui descendent le Bosphore depuis le nord.'
+today:
+- Istanbul est la plus grande ville de Turquie et son centre d’affaires, de culture et de commerce, avec plus de quinze millions d’habitants. La vieille péninsule est le cœur de ses curiosités, site du patrimoine mondial depuis 1985, tandis que la plupart des gens vivent et travaillent dans les nouveaux quartiers des deux rives.
+- Les visiteurs viennent pour Sainte-Sophie, la Mosquée bleue, la citerne Basilique, le palais de Topkapı et les bazars, et pour les ferries, les sandwichs au poisson près du pont de Galata et les vues sur le Bosphore. Le tramway T1 longe la Divan Yolu du Grand Bazar à Sultanahmet et descend jusqu’à Eminönü.
+history:
+- title: Byzance
+  text:
+  - Des colons grecs de Mégare fondèrent Byzance au VIIe siècle av. J.-C. à la pointe de la péninsule, là où se dresse aujourd’hui le palais de Topkapı. De là, elle gardait le passage entre la mer Noire et la Méditerranée, et elle s’enrichit du commerce et du poisson du détroit.
+  - Les Romains la prirent, et en 196 l’empereur Septime Sévère la reconstruisit après un siège, avec l’Hippodrome.
+- title: Constantinople
+  text:
+  - En 330, Constantin le Grand fit de la ville la nouvelle capitale de l’Empire romain et lui donna son nom. Justinien reconstruisit Sainte-Sophie après la révolte Nika de 532, et pendant mille ans Constantinople fut la plus grande et la plus riche ville de la chrétienté, derrière ses murailles terrestres.
+  - En 1204, les chevaliers de la quatrième croisade la pillèrent, et l’Empire byzantin ne s’en remit jamais tout à fait.
+- title: La capitale ottomane
+  text:
+  - Le 29 mai 1453, le jeune sultan Mehmed II prit la ville après un siège de 53 jours. Il en fit sa capitale, transforma Sainte-Sophie en mosquée, construisit le palais de Topkapı et les premières halles du Grand Bazar, et fit venir des gens de tout son empire pour y vivre.
+  - Sous Soliman le Magnifique et son architecte Mimar Sinan, la ville se remplit de mosquées, de bains et d’écoles, et au XVIIe siècle la Mosquée bleue et la Mosquée neuve s’ajoutèrent à sa silhouette. Au XIXe siècle, les sultans s’installèrent dans de nouveaux palais le long du Bosphore, et le chemin de fer d’Europe atteignit Sirkeci.
+- title: La république
+  text:
+  - Après la Première Guerre mondiale, l’Empire ottoman tomba. En 1923, la République de Turquie fut proclamée et Ankara devint sa capitale, et en 1930 le nom de la ville devint Istanbul pour tous.
+  - Depuis les années 1950, elle est passée d’environ un million d’habitants à plus de quinze millions, s’étendant loin le long des deux rives. Des ponts sur le Bosphore vinrent en 1973, 1988 et 2016, et un tunnel ferroviaire dessous, le Marmaray, en 2013.
+timeline:
+- - VIIe siècle av. J.-C.
+  - Des colons grecs de Mégare fondent Byzance
+- - '330'
+  - Constantin le Grand en fait sa capitale, Constantinople
+- - '532'
+  - La révolte Nika brûle une grande partie de la ville
+- - '537'
+  - Le nouveau Sainte-Sophie de Justinien est achevé
+- - '1204'
+  - La quatrième croisade pille la ville
+- - '1453'
+  - Mehmed II prend Constantinople et en fait la capitale ottomane
+- - '1459'
+  - Début des travaux du palais de Topkapı
+- - '1616'
+  - La Mosquée bleue est achevée
+- - '1665'
+  - La Mosquée neuve d’Eminönü est achevée, 68 ans après son commencement
+- - '1856'
+  - Les sultans quittent Topkapı pour le palais de Dolmabahçe
+- - '1890'
+  - Ouverture de la gare de Sirkeci ; l’Orient-Express y termine plus tard
+- - '1923'
+  - La République de Turquie est fondée, avec Ankara pour capitale
+- - '1934'
+  - Sainte-Sophie devient un musée
+- - '1973'
+  - Ouverture du premier pont sur le Bosphore
+- - '2013'
+  - Le tunnel Marmaray fait passer les trains sous le Bosphore
+- - '2020'
+  - Sainte-Sophie redevient une mosquée
+places:
+  ayasofya:
+    name: Sainte-Sophie
+    blurb: La grande église à coupole de Justinien, de 537, aujourd’hui une mosquée.
+  sultanahmet-camii:
+    name: Mosquée bleue
+    blurb: La mosquée d’Ahmed Ier, avec six minarets et des carreaux bleus d’İznik.
+  hipodrom:
+    name: Hippodrome
+    blurb: L’ancienne piste de chars, avec son obélisque et sa colonne aux serpents.
+  yerebatan:
+    name: Citerne Basilique
+    blurb: Le réservoir souterrain de Justinien aux 336 colonnes.
+  topkapi:
+    name: Palais de Topkapı
+    blurb: Le palais des sultans ottomans, à la pointe de la péninsule.
+  sogukcesme:
+    blurb: Une ruelle de maisons de bois restaurées le long du mur du palais.
+  gulhane:
+    name: Parc de Gülhane
+    blurb: L’ancien jardin extérieur du palais, qui descend vers le Bosphore.
+  divanyolu:
+    blurb: L’ancienne route impériale de Sainte-Sophie vers l’ouest, avec le tramway.
+  cemberlitas:
+    name: Colonne de Constantin
+    blurb: La colonne de porphyre de Constantin de 330, tenue par des cerclages de fer.
+  kapalicarsi:
+    name: Grand Bazar
+    blurb: Soixante rues couvertes et quatre mille boutiques.
+  ankara-caddesi:
+    blurb: La rue des anciens journaux, qui descend la colline jusqu’à Sirkeci.
+  sirkeci:
+    name: Gare de Sirkeci
+    blurb: Le terminus de l’Orient-Express.
+  yeni-cami:
+    name: Mosquée neuve
+    blurb: La grande mosquée au bord de l’eau à Eminönü.
+  misir-carsisi:
+    name: Bazar aux épices
+    blurb: Épices, thé et loukoums sous de longues voûtes.
+  eminonu:
+    blurb: La place animée et les quais de ferries sur la Corne d’Or.
+  galata-koprusu:
+    name: Pont de Galata
+    blurb: Le pont vers Karaköy, bordé de pêcheurs à la ligne.
+links:
+- title: 'Go Türkiye : Istanbul'
+  note: Le site touristique de la Turquie
+- title: Zones historiques d’Istanbul
+  note: La vieille ville sur la liste du patrimoine mondial de l’UNESCO
+- title: Şehir Hatları
+  note: Les ferries de la ville et leurs horaires
+- title: Istanbul sur Wikipédia
+  note: L’article de l’encyclopédie

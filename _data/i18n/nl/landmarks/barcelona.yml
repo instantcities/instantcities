@@ -1,0 +1,70 @@
+# barcelona's landmarks in Dutch (_data/landmarks/barcelona.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+la-rambla:
+  blurb: De met bomen omzoomde wandelstraat van de Plaça de Catalunya naar de zee, de drukste straat van Barcelona.
+  text:
+  - La Rambla volgt de bedding van een seizoensbeek die ooit langs de middeleeuwse muren liep; haar naam komt van het Arabisch voor zandige rivierbedding. In de 18e eeuw werden de muren afgebroken en werd ze een promenade, met platanen en een brede wandelweg in het midden tussen twee smalle wegen.
+  - Over 1,2 kilometer loopt ze van de Plaça de Catalunya naar de haven, langs bloemenkraampjes, de markt van La Boqueria, het Liceu en Joan Miró’s mozaïek in het trottoir.
+placa-de-catalunya:
+  blurb: Het grote plein waar de oude stad de 19e-eeuwse Eixample raakt.
+  text:
+  - De Plaça de Catalunya werd begin 20e eeuw aangelegd op open terrein tussen de oude stad en het nieuwe raster van de Eixample. Fonteinen, standbeelden en duiven vullen het midden.
+  - 'Het is het kruispunt van de stad: La Rambla, het Passeig de Gràcia en het Portal de l’Àngel beginnen hier allemaal, en metro- en treinlijnen komen eronder samen.'
+la-boqueria:
+  blurb: De beroemdste markt van Barcelona, onder een ijzeren dak vlak naast de Rambla.
+  text:
+  - Er is hier al sinds de middeleeuwen een markt; het ijzeren dak van de Mercat de Sant Josep, zoals hij officieel heet, werd in 1914 neergezet. Achter het glas-in-loodbord verkopen honderden kramen fruit, ham, vis, kaas en snoep.
+  - Kleine toogbars binnen koken wat de markt verkoopt, en tijdens de lunch is er bijna geen kruk vrij.
+liceu:
+  blurb: Het operahuis aan de Rambla, geopend in 1847 en herbouwd na een brand in 1994.
+  text:
+  - Het Liceu opende in 1847 en werd een van de grote operahuizen van Europa, betaald niet door een koning maar door de burgers van de stad zelf. Het brandde af in 1861 en opnieuw in 1994.
+  - Telkens werd het herbouwd, en het heropende in 1999 met zijn vergulde hoefijzervormige zaal zoals vroeger.
+placa-reial:
+  blurb: Een plein met arcaden, palmbomen en lantaarns ontworpen door een jonge Antoni Gaudí.
+  text:
+  - De Plaça Reial werd in de jaren 1850 gebouwd op de plek van een klooster, een plein van gele huizen met arcaden rond een fontein van de Drie Gratiën en een rij hoge palmen.
+  - De twee lantaarns met zes armen waren de eerste openbare opdracht van Antoni Gaudí, in 1879, toen hij net zijn studie had afgerond.
+catedral:
+  name: Kathedraal
+  blurb: De gotische kathedraal van Santa Eulàlia, met dertien witte ganzen in haar kloostergang.
+  text:
+  - De Kathedraal van het Heilig Kruis en Sint-Eulalia werd gebouwd van eind 13e tot de 15e eeuw; haar neogotische voorgevel volgde pas eind 19e eeuw. Sint-Eulalia, een meisje dat in Romeinse tijd als martelares stierf, ligt in haar crypte.
+  - In de kloostergang, tussen palmen en een fontein, leven dertien witte ganzen, één voor elk jaar van haar leven.
+placa-de-sant-jaume:
+  blurb: Het plein waar de regering van Catalonië en het stadhuis tegenover elkaar staan, op het oude Romeinse forum.
+  text:
+  - De Plaça de Sant Jaume ligt waar het forum van het Romeinse Barcino stond. Aan de ene kant staat het Palau de la Generalitat, sinds de 15e eeuw de zetel van de regering van Catalonië; aan de andere de Ajuntament, het stadhuis van Barcelona.
+  - Het is het podium voor de feesten van de stad, van de mensentorens van de castellers tot de reuzen en vuurlopers van La Mercè.
+monument-a-colom:
+  name: Columbusmonument
+  blurb: Columbus op een zuil van 60 meter onderaan de Rambla, wijzend naar de zee.
+  text:
+  - Het monument werd opgericht voor de Wereldtentoonstelling van 1888, waar Columbus na zijn eerste reis in Barcelona verslag uitbracht aan de Katholieke Koningen. Een lift in de ijzeren zuil brengt je naar een uitkijkpunt onder zijn voeten.
+  - Hij wijst naar de zee, over de haven, onderaan La Rambla.
+barri-gotic:
+  name: Gotische Wijk
+  blurb: Het doolhof van smalle middeleeuwse straatjes in het hart van de oude stad, bovenop het Romeinse Barcino.
+  text:
+  - 'De Barri Gòtic is het oudste deel van Barcelona: smalle straatjes, kleine pleinen en stenen paleizen, met stukken van de Romeinse muur die tussen de huizen nog te zien zijn.'
+  - Een deel van zijn “gotische” uiterlijk dateert uit het begin van de 20e eeuw, toen de stad het restaureerde en er zelfs aan toevoegde, zoals de kantachtige brug over de Carrer del Bisbe uit 1928.
+palau-de-la-musica:
+  blurb: Een concertzaal van het Catalaanse modernisme, vol mozaïek, glas-in-lood en beeldhouwwerk.
+  text:
+  - Lluís Domènech i Montaner bouwde het Palau voor het koor Orfeó Català tussen 1905 en 1908. De voorgevel is bedekt met mozaïek en beeldhouwwerk, en de zaal wordt verlicht door een grote omgekeerde koepel van glas-in-lood.
+  - Het is werelderfgoed en nog steeds een werkende concertzaal, een kort ritje van het Portal de l’Àngel.
+sagrada-familia:
+  blurb: Gaudí’s basiliek, in aanbouw sinds 1882; ze ligt buiten deze kleine kaart, in de Eixample.
+  text:
+  - Antoni Gaudí nam de kerk in 1883 over en besteedde de rest van zijn leven eraan; toen hij in 1926 stierf, was er minder dan een kwart gebouwd. Het werk gaat sindsdien door, betaald door bezoekers.
+  - De hoogste toren, die van Jezus Christus, moet 172,5 meter worden. Ze ligt in de Eixample, buiten het stuk Barcelona dat het spel tot nu toe heeft.
+castellers:
+  blurb: Mensentorens tot tien verdiepingen hoog, gebouwd door teams die op elkaars schouders staan.
+  text:
+  - 'Castells zijn torens van mensen: een brede basis van tientallen teamleden, dan verdiepingen van twee tot vijf mensen op schouders, en bovenaan een kind dat een hand opsteekt als kroon.'
+  - De traditie komt uit de omgeving van Tarragona en staat op de UNESCO-lijst van immaterieel erfgoed. In Barcelona bouwen de teams ze op de Plaça de Sant Jaume tijdens La Mercè, in september.
+tapas:
+  blurb: 'Kleine gerechten om aan de bar te delen: patatas bravas, pan con tomate, kroketten en ansjovis.'
+  text:
+  - 'In Barcelona eet je klein: pa amb tomàquet, brood ingewreven met tomaat, olie en zout; patatas bravas met hun pittige saus; kroketten; ansjovis uit L’Escala.'
+  - De bars van de Barri Gòtic en rond de Boqueria serveren ze aan de toog, vaak met een glas vermout voor de lunch.

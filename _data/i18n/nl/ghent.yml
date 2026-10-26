@@ -1,0 +1,26 @@
+# ghent's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/ghent.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/ghent.yml and its landmarks, with their pages, in landmarks/ghent.yml.
+title: 'Instant Gent: gratis virtuele 3D-rondleiding en game van Gent'
+description: 'Maak gratis een virtuele 3D-rondleiding door Gent in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken, race of speel opdrachten, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door de stad van Artevelde!
+lead: Rijd door heel Gent binnen de R40 in 3D, met elk gebouw op zijn echte hoogte.
+features:
+- title: Het echte Gent
+  text: Dwaal tussen zo’n 40.000 gebouwen, in 3D nagebouwd uit OpenStreetMap, elk op zijn gemeten hoogte. Kijk omhoog naar het Belfort van 95 meter, en naar het Gravensteen, de Stadshal en Sint-Baafs, allemaal op maat getekend.
+- title: Vier routes
+  text: Race Gent Centrum langs de drie torens, door de smalle straatjes van de Brugse Poort, van Sint-Pieters naar Dampoort dwars door de stad, of van de Overpoort naar het S.M.A.K.
+- title: Opdrachten tegen de klok
+  text: 'Speel vier korte opdrachten tegen de klok: spoor het gestolen Lam Gods op of ontsnap aan de studentenzombies in de Overpoort.'
+shots:
+  boat: 'Vrijdagmarkt: op weg naar de laatste boot'
+  zombies: Studentenzombies in de Overpoort
+  quest-lamb: 'Opdracht: het Lam Gods is gestolen'
+  bigmap: 'De stadskaart: teleporteer waar je maar wilt'
+intro: Gent is een universiteitsstad in Vlaanderen, het Nederlandstalige noorden van België, waar de Leie in de Schelde stroomt. In de middeleeuwen maakte de lakenhandel het tot een van de grootste steden ten noorden van de Alpen, en de gildehuizen aan de Graslei, het Gravensteen en de torens van de Sint-Niklaaskerk, het Belfort en de Sint-Baafskathedraal tonen nog hoe rijk het was. Sint-Baafs bewaart het Lam Gods van de gebroeders Van Eyck, en sinds 2017 rijden er geen auto’s meer door het middeleeuwse centrum.
+famous:
+- Het Lam Gods, de Aanbidding van het Lam Gods van Hubert en Jan van Eyck, in de Sint-Baafskathedraal
+- Drie middeleeuwse torens op een rij en de gildehuizen van de Graslei, gezien vanaf de Sint-Michielsbrug
+- Het Gravensteen, de stenen burcht van de graven van Vlaanderen, midden in de stad
+- De Gentse Feesten, elke juli tien dagen muziek en straattheater, en cuberdons, de paarse neuzekes
+credits: 'Kaartgegevens © OpenStreetMap-bijdragers (ODbL). 3D-modellen: Stad Gent, Gent in 3D. Hoogtes: Digitaal Vlaanderen, DHMV II.'

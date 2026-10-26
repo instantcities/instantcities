@@ -1,0 +1,37 @@
+{%- comment -%}
+  A page's address without a language (/, /cities/, /about/, /privacy/, /terms/: a page saying
+  `layout: lang-redirect` and the `ref` of the page in _data/lang/<lang>.yml's urls; a city's /<id>/,
+  saying `ref: city` and `city: <id>`, written by node tools/langpages.mjs): sends the
+  visitor on to that page in the language they picked in the bar on top (_includes/topnav.js), else
+  the first of their browser's languages the site has, else English.
+{%- endcomment -%}
+{%- assign H = site.data.home -%}
+{%- capture en %}{% include page-url.html lang='en' %}{% endcapture -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+{%- for l in H.langs %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{% include page-url.html lang=l %}">
+{%- endfor %}
+  <script>
+    {
+      const urls = { {% for l in H.langs %}{% capture u %}{% include page-url.html lang=l %}{% endcapture %}{{ l | jsonify }}: {{ u | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %} };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url={{ en }}"></noscript>
+</head>
+<body>
+  <p>
+{%- for l in H.langs %}{% assign LT = site.data.lang[l] %}
+    <a href="{% include page-url.html lang=l %}" hreflang="{{ l }}" lang="{{ l }}">{{ LT.name }}</a>
+{%- endfor %}
+  </p>
+</body>
+</html>

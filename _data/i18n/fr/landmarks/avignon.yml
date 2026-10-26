@@ -1,0 +1,71 @@
+# avignon's landmarks in French (_data/landmarks/avignon.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+palais-des-papes:
+  blurb: Le plus grand palais gothique du monde, bâti quand les papes vivaient à Avignon, de 1309 à 1377.
+  text:
+  - En 1309, le pape Clément V s’installa à Avignon au lieu de Rome, et pendant près de soixante-dix ans les papes gouvernèrent l’Église depuis ici. Benoît XII et Clément VI bâtirent le grand palais en vingt ans seulement, forteresse et cour à la fois.
+  - Ses vastes salles sont presque nues aujourd’hui, mais certains murs montrent encore les fresques peintes pour Clément VI. Chaque juillet, sa cour est la scène principale du Festival d’Avignon.
+pont-saint-benezet:
+  blurb: Le pont de la chanson « Sur le pont d’Avignon », dont il ne reste que quatre arches.
+  text:
+  - La légende dit qu’un jeune berger, Bénezet, reçut des anges l’ordre de construire un pont sur le Rhône, et souleva lui-même la première pierre. Bâti au XIIe siècle, il fut emporté par les crues encore et encore, et abandonné au XVIIe siècle.
+  - Quatre de ses 22 arches tiennent toujours, se terminant au milieu du fleuve, avec une petite chapelle sur l’une des piles.
+place-de-l-horloge:
+  blurb: La place de la ville, nommée d’après la tour de l’horloge gothique derrière l’hôtel de ville, avec un manège et des terrasses de café.
+  text:
+  - La place porte le nom de la tour gothique de l’ancien palais derrière l’hôtel de ville du XIXe siècle, où deux personnages, les jaquemarts, sonnent les heures.
+  - Des terrasses de café, un théâtre et un vieux manège la remplissent ; dans le jeu, la course commence et finit ici.
+rocher-des-doms:
+  blurb: La colline rocheuse au-dessus du palais, un jardin avec vue sur le Rhône et le pont.
+  text:
+  - Le rocher des Doms est le rocher où Avignon a commencé, haut au-dessus du fleuve. Au XIXe siècle, il fut transformé en jardin avec un étang, des canards et des allées ombragées.
+  - De son bord, on domine le pont Saint-Bénezet, de l’autre côté du Rhône Villeneuve-lès-Avignon et, par temps clair, le mont Ventoux.
+notre-dame-des-doms:
+  blurb: La cathédrale romane à côté du palais, surmontée d’une statue dorée de la Vierge.
+  text:
+  - La cathédrale fut bâtie au XIIe siècle, avant l’arrivée des papes, et deux d’entre eux y sont enterrés. En 1859, une statue dorée de la Vierge fut placée au sommet de sa tour.
+  - Elle brille sur toute la ville, haut au-dessus du palais des Papes.
+hotel-de-ville:
+  blurb: L’hôtel de ville de 1856 sur la place de l’Horloge, construit autour d’une tour gothique plus ancienne.
+  text:
+  - L’hôtel de ville fut construit dans les années 1850 sur la place de l’Horloge, une façade classique de colonnes. Derrière s’élève la tour gothique du palais plus ancien, avec son horloge et ses jaquemarts.
+  - À côté se dresse l’Opéra, ouvert en 1847.
+les-halles:
+  blurb: Le marché couvert derrière un mur végétal, avec les produits de Provence sous un même toit.
+  text:
+  - Le marché couvert d’Avignon, sur la place Pie, est ouvert chaque matin sauf le lundi, avec une quarantaine d’étals de légumes, de fromage, d’olives, de poisson et de pain.
+  - Sa façade est un mur végétal de Patrick Blanc, un mur de plantes qui grimpent le long du bâtiment.
+remparts:
+  name: Remparts
+  blurb: Le mur de pierre de 4,3 kilomètres bâti par les papes, qui entoure toujours toute la vieille ville.
+  text:
+  - 'Les papes entourèrent Avignon de murs au XIVe siècle, et ils tiennent toujours presque entiers : 4,3 kilomètres de remparts et de tours, avec des portes sur les routes d’accès.'
+  - À l’intérieur, la ville des papes ; à l’extérieur, le boulevard périphérique et le Rhône.
+rue-de-la-republique:
+  blurb: La large rue de la porte de la gare à la place de l’Horloge, percée à travers la vieille ville au XIXe siècle.
+  text:
+  - Comme Paris sous Haussmann, Avignon perça une large rue à travers ses ruelles médiévales dans les années 1850, de la nouvelle gare à l’hôtel de ville. Elle est bordée de boutiques et de cafés.
+  - Dans le jeu, la course la descend.
+musee-calvet:
+  blurb: Un musée des beaux-arts dans un hôtel particulier du XVIIIe siècle, fondé sur la collection d’un médecin.
+  text:
+  - Le médecin Esprit Calvet légua ses collections à la ville en 1810, et elles devinrent l’un des plus anciens musées de France hors de Paris. Il est installé dans un hôtel particulier du XVIIIe siècle de la rue Joseph-Vernet.
+  - Il abrite peintures, sculptures et antiquités, dont des œuvres de la famille Vernet, peintres nés à Avignon.
+festival:
+  name: Le Festival d’Avignon
+  blurb: Chaque juillet, la ville devient un grand théâtre, avec des pièces dans la cour du palais et dans chaque salle.
+  text:
+  - Jean Vilar fonda le festival en 1947 avec trois pièces dans la cour du palais des Papes. Il est devenu l’un des plus grands festivals de théâtre du monde.
+  - 'À côté se tient le Off : bien plus d’un millier de spectacles dans chaque chapelle, cave et école de la ville, annoncés par des affiches qui couvrent tous les murs.'
+mistral:
+  name: Le mistral
+  blurb: Le vent froid qui balaie la vallée du Rhône et nettoie le ciel au-dessus d’Avignon.
+  text:
+  - 'Le mistral est un vent du nord fort et froid qui souffle dans la vallée du Rhône vers la Méditerranée, parfois des jours durant. Un dicton prétend : « Avignon venteuse, sans vent venimeuse ».'
+  - Il apporte un ciel d’un bleu éclatant et un air limpide, et les agriculteurs de Provence plantent des rangées de cyprès pour le briser.
+cigales:
+  name: Les cigales
+  blurb: 'Le son d’un été provençal : les cigales qui chantent dans les platanes sous la chaleur.'
+  text:
+  - En été, les cigales mâles chantent dans les platanes et les pins, plus fort dans la chaleur de midi. En Provence, elles sont un symbole de chance et du Sud chaud.
+  - Des cigales peintes en poterie ornent murs et portes dans toute la région.

@@ -1,0 +1,21 @@
+# avignon's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/avignon.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/avignon.yml and its landmarks, with their pages, in landmarks/avignon.yml.
+title: 'Instant Avignon: gratis virtuele 3D-rondleiding en game van Avignon'
+description: 'Maak gratis een virtuele 3D-rondleiding door het historische centrum van Avignon in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door de stad van de pausen!
+lead: Rijd door de ommuurde stad Avignon in 3D, langs het Pausenpaleis, over de Place de l’Horloge en naar de Pont Saint-Bénezet, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Avignon
+  text: 'Dwaal tussen zo’n 4.300 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het historische centrum, de rest van de stad volgt nog.'
+- title: De stad van de pausen
+  text: Bekijk het Pausenpaleis en de kathedraal op de Rocher des Doms, steek de Place de l’Horloge over naar Les Halles, en rijd naar beneden naar de Pont Saint-Bénezet over de Rhône.
+- title: 'Een race: intra-muros'
+  text: Race van de Place de l’Horloge in de schaduw van het Pausenpaleis over de Rue de la République, langs de Rue Joseph Vernet en terug via de Rue Saint-Agricol.
+intro: Avignon is een ommuurde stad aan de Rhône in de Provence, in het zuiden van Frankrijk. Het grootste deel van de 14e eeuw woonden de pausen hier in plaats van in Rome, en ze lieten het grootste gotische paleis van Europa en meer dan vier kilometer stadsmuren na. Elke juli vult het theaterfestival de oude stad met voorstellingen, acteurs en affiches.
+famous:
+- Het Pausenpaleis, het burchtpaleis van de pausen
+- De gebroken brug uit het kinderliedje Sur le pont d’Avignon
+- Het Festival d’Avignon, een van de oudste en grootste theaterfestivals ter wereld
+- De mistral, de koude noordenwind die door het Rhônedal waait
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,0 +1,108 @@
+# prague's guide in French (_data/about/prague.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- République tchèque (Tchéquie)
+- Prague forme une région à elle seule, la ville capitale de Prague
+- Environ 1,4 million d’habitants (ville)
+- Le château à la fin du IXe siècle ; la légende l’attribue à la princesse Libuše
+- La Vltava
+- Tchèque
+- La ville aux cent clochers, la Prague dorée
+- Le centre historique, depuis 1992
+overview:
+- 'Prague s’étend dans un méandre de la Vltava, avec des collines de chaque côté du fleuve. Pendant des siècles, ce ne fut pas une ville mais quatre : la Vieille-Ville et la Nouvelle-Ville sur la rive droite, et la Petite-Côté et le quartier du château, Hradčany, sur la rive gauche. L’empereur Joseph II les réunit en une seule ville en 1784, et Prague en garde les noms et les places.'
+- Le centre que vous parcourez dans Instant Prague est la rive droite. La place de la Vieille-Ville occupe le milieu d’un enchevêtrement de ruelles, avec la ville juive de Josefov au nord et la Voie royale qui va de la tour Poudrière par Celetná et Karlova jusqu’au pont Charles. Au sud et à l’est de la Vieille-Ville, Na Příkopě et Národní třída suivent le tracé de l’ancien fossé, et la place Venceslas monte à travers la Nouvelle-Ville jusqu’au Musée national.
+setting:
+- Prague se trouve au cœur de la Bohême, la moitié ouest de la République tchèque, à peu près à mi-chemin entre Berlin et Vienne. La Vltava, le plus long fleuve du pays, coule vers le nord à travers la ville et rejoint l’Elbe une trentaine de kilomètres en aval.
+- 'La ville s’étend sur un paysage vallonné : le château de Prague se dresse sur une crête au-dessus de la rive gauche, et les pentes vertes de Petřín s’élèvent à côté. Le climat est continental tempéré, avec des étés chauds et des hivers froids, souvent gris.'
+today:
+- 'Prague est le siège du gouvernement et du parlement tchèques, et le président travaille depuis le château de Prague. La ville est l’une des régions les plus riches de l’Union européenne, et elle vit des services, de la finance, du logiciel, des universités et du tourisme : des millions de visiteurs par an se pressent dans la Vieille-Ville et sur le pont Charles, tandis que la plupart des Praguois vivent dans les quartiers alentour.'
+- Les tramways, le métro et les brasseries font partie du quotidien, et les Tchèques boivent plus de bière par habitant que toute autre nation. Le Sparta et le Slavia, les deux grands clubs de football, sont rivaux depuis bien plus d’un siècle, et le hockey sur glace est tout aussi aimé.
+history:
+- title: Le château, les rois et Charles IV
+  text:
+  - La légende dit que la princesse Libuše, debout sur un rocher au-dessus de la Vltava, prédit une ville dont la gloire atteindrait les étoiles. Dans l’histoire, le prince Bořivoj de la famille des Přemyslides fonda le château de Prague à la fin du IXe siècle, et une ville de marché grandit de l’autre côté du fleuve, sur les routes commerciales de l’Europe centrale. Les Přemyslides devinrent rois de Bohême, et marchands, Juifs et colons allemands enrichirent la Vieille-Ville.
+  - L’âge d’or de Prague vint sous Charles IV, roi de Bohême et empereur du Saint-Empire, qui en fit la capitale de l’empire. Il commença la cathédrale Saint-Guy en 1344, fonda l’université et la Nouvelle-Ville en 1348 et lança en 1357 le pont de pierre qui porte aujourd’hui son nom. Après sa mort, le prédicateur Jan Hus attaqua la richesse de l’Église depuis la chapelle de Bethléem ; l’Église le brûla comme hérétique en 1415, et ses disciples, les hussites, repoussèrent pendant une quinzaine d’années les croisades envoyées contre eux.
+- title: Sous les Habsbourg
+  text:
+  - En 1526, les Habsbourg héritèrent de la couronne de Bohême. L’empereur Rodolphe II installa sa cour à Prague en 1583 et remplit le château de peintres, d’alchimistes et d’astronomes, dont Tycho Brahe et Johannes Kepler. En 1618, des nobles protestants jetèrent deux gouverneurs impériaux par une fenêtre du château, la défenestration de Prague, et déclenchèrent la guerre de Trente Ans. L’armée des Habsbourg les écrasa à la bataille de la Montagne Blanche en 1620.
+  - 'Les vainqueurs ramenèrent de force la Bohême à la foi catholique et remplirent Prague d’églises baroques, de palais et des statues du pont Charles. Au XIXe siècle, les Tchécophones reprirent la ville à son élite germanophone : ils bâtirent le Théâtre national et le Musée national avec l’argent qu’ils avaient eux-mêmes réuni, et Prague devint une ville industrielle d’immeubles ouvriers, de tramways et de cafés Art nouveau.'
+- title: Capitale d’un nouvel État
+  text:
+  - En 1918, à la fin de la Première Guerre mondiale, Prague devint la capitale de la nouvelle Tchécoslovaquie. L’Allemagne nazie l’occupa en mars 1939, et les Juifs de Prague furent déportés et assassinés dans la Shoah. La ville se souleva contre les Allemands en mai 1945 et sortit de la guerre avec peu de dégâts, mais en 1948 les communistes prirent le pouvoir.
+  - En 1968, les réformes du Printemps de Prague prirent fin quand les chars du pacte de Varsovie entrèrent, et en janvier 1969 l’étudiant Jan Palach s’immola par le feu sur la place Venceslas en signe de protestation. Vingt ans plus tard, en novembre 1989, la Révolution de velours fit tomber le régime sans effusion de sang, et le dramaturge Václav Havel devint président. Quand la Tchécoslovaquie se sépara pacifiquement en 1993, Prague devint la capitale de la République tchèque, qui entra dans l’Union européenne en 2004.
+timeline:
+- - vers 880
+  - Le prince Bořivoj fonde le château de Prague
+- - '1344'
+  - Début des travaux de la cathédrale Saint-Guy
+- - '1348'
+  - Charles IV fonde l’université et la Nouvelle-Ville
+- - '1357'
+  - Début des travaux du pont Charles
+- - '1410'
+  - L’horloge astronomique est installée sur l’hôtel de ville de la Vieille-Ville
+- - '1415'
+  - Jan Hus est brûlé sur le bûcher à Constance
+- - '1618'
+  - La défenestration de Prague déclenche la guerre de Trente Ans
+- - '1784'
+  - Joseph II réunit les quatre villes en une seule
+- - '1918'
+  - Prague devient la capitale de la Tchécoslovaquie
+- - '1968'
+  - Les troupes du pacte de Varsovie mettent fin au Printemps de Prague
+- - '1989'
+  - La Révolution de velours met fin au régime communiste
+- - '1993'
+  - Prague devient la capitale de la République tchèque
+places:
+  staromestske-namesti:
+    name: Place de la Vieille-Ville
+    blurb: Le cœur de la Vieille-Ville depuis le Moyen Âge, entre l’église de Týn et l’hôtel de ville avec son horloge astronomique. Le monument à Jan Hus se dresse au milieu.
+  celetna:
+    blurb: Le premier tronçon de la Voie royale, l’itinéraire du couronnement des rois de Bohême, de la tour Poudrière à la place de la Vieille-Ville.
+  ovocny-trh:
+    name: Ovocný trh (le marché aux fruits)
+    blurb: L’ancien marché aux fruits devant le Théâtre des États, où Don Giovanni de Mozart fut créé en 1787. Le Carolinum, le plus ancien bâtiment de l’université Charles, se dresse à côté.
+  na-prikope:
+    blurb: Une rue commerçante sur le tracé du fossé qui séparait autrefois la Vieille-Ville de la Nouvelle-Ville. Son nom signifie « sur le fossé ».
+  vaclavske-namesti:
+    name: Place Venceslas
+    blurb: Le long marché aux chevaux de la Nouvelle-Ville de Charles IV, qui monte vers la statue de saint Venceslas et le Musée national. Les Praguois s’y sont rassemblés en 1918, 1968 et 1989.
+  narodni:
+    blurb: L’avenue qui va du Théâtre national, sur la Vltava, au bord de la Vieille-Ville. Le 17 novembre 1989, la police anti-émeute y frappa une marche d’étudiants, et la Révolution de velours commença.
+  karlova:
+    blurb: Une ruelle tortueuse de la Voie royale qui serpente de la Vieille-Ville au pont Charles, le long des murs du Klementinum.
+  krizovnicke-namesti:
+    name: Place des Chevaliers de la Croix
+    blurb: La petite place à l’extrémité du pont Charles côté Vieille-Ville, entre la tour du pont de la Vieille-Ville, le Klementinum et l’église des Chevaliers de la Croix.
+  karluv-most:
+    name: Pont Charles
+    blurb: Le pont de pierre sur la Vltava que Charles IV commença en 1357, bordé de trente statues de saints. Jusqu’en 1841, ce fut le seul pont de Prague sur le fleuve.
+  vltava:
+    name: La Vltava
+    blurb: Le plus long fleuve de la République tchèque, entre la Vieille-Ville et la Petite-Côté. Smetana l’a mis en musique dans son poème symphonique La Moldau.
+  kampa:
+    blurb: L’île du côté de la Petite-Côté, coupée de la rive par un étroit bief, la Čertovka ou ruisseau du Diable, avec un parc et de vieilles roues de moulin.
+  namesti-jana-palacha:
+    name: Place Jan Palach
+    blurb: La place au bord du fleuve devant la salle de concert du Rudolfinum, nommée d’après l’étudiant qui s’immola par le feu en 1969 pour protester contre l’occupation soviétique.
+  parizska:
+    blurb: La large avenue que la ville perça à travers la ville juive vers 1900, de la place de la Vieille-Ville à la Vltava, bordée de maisons Art nouveau et de boutiques de luxe.
+  josefov:
+    blurb: L’ancienne ville juive, nommée d’après l’empereur Joseph II. La ville en démolit la plus grande partie vers 1900, mais épargna ses synagogues, son hôtel de ville et son vieux cimetière.
+  prazsky-hrad:
+    name: Château de Prague
+    blurb: Le château sur la crête de l’autre côté du fleuve, siège des rois de Bohême et aujourd’hui du président tchèque, avec la cathédrale Saint-Guy dans ses murs.
+links:
+- title: Prague City Tourism
+  note: L’information touristique officielle de la ville
+- title: Mairie de Prague
+  note: La municipalité (en tchèque et en anglais)
+- title: Musée juif de Prague
+  note: Billets et horaires des synagogues et du Vieux Cimetière juif
+- title: Centre historique de Prague sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Prague sur Wikipédia
+  note: L’article de l’encyclopédie

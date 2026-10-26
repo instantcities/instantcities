@@ -1,0 +1,80 @@
+# bruges's landmarks in Dutch (_data/landmarks/bruges.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+markt:
+  blurb: Het marktplein van Brugge, met het Belfort aan de zuidkant en het Provinciaal Hof aan de oostkant.
+  text:
+  - Al acht eeuwen is de Markt het hart van Brugge, waar markten en toernooien werden gehouden. Aan de zuidkant rijst het Belfort op; aan de oostkant staat het neogotische Provinciaal Hof.
+  - In het midden staan Jan Breydel en Pieter de Coninck, de twee Bruggelingen die in 1302 de opstand tegen de Fransen leidden, voor de Guldensporenslag.
+belfort:
+  name: Belfort
+  blurb: 'Het belfort van 83 meter boven de Markt: 366 treden tot de beiaard van 47 klokken.'
+  text:
+  - Het Belfort was de wachttoren en schatkamer van de stad, waar de stadsprivileges veilig werden bewaard. Het onderste deel dateert uit de 13e eeuw; de achthoekige top werd in de 15e toegevoegd. Het helt zo’n meter naar het oosten.
+  - Beklim de 366 treden en je bereikt de beiaard van 47 klokken, nog altijd bespeeld door de stadsbeiaardier.
+burg:
+  blurb: Het plein van het stadhuis, de Heilig-Bloedbasiliek en het oude Brugse Vrije.
+  text:
+  - De Burg is waar de eerste graven van Vlaanderen hun kasteel bouwden, dat het plein zijn naam gaf. Eromheen staan nu het stadhuis, de Heilig-Bloedbasiliek en de renaissancegevel van het oude gerechtshof.
+  - 'Elke Belgische periode lijkt hier een gebouw te hebben nagelaten: romaans, gotisch, renaissance, barok en neoclassicistisch.'
+stadhuis:
+  name: Stadhuis
+  blurb: Een van de oudste stadhuizen van de Nederlanden, begonnen in 1376, met een Gotische Zaal vol muurschilderingen.
+  text:
+  - Brugge begon in 1376 aan zijn stadhuis, en het werd het voorbeeld voor dat van Brussel, Leuven en Gent. De gevel van witte steen draagt beelden van de graven en gravinnen van Vlaanderen.
+  - Binnen heeft de Gotische Zaal een overwelfd eiken plafond uit de 14e eeuw en muren beschilderd met de geschiedenis van de stad.
+heilig-bloedbasiliek:
+  name: Heilig-Bloedbasiliek
+  blurb: Een romaanse kapel met een gotische erboven, die een reliek van het bloed van Christus bewaart.
+  text:
+  - De onderkapel dateert uit de 12e eeuw en is een van de beste romaanse gebouwen van Vlaanderen. Erboven bewaart de rijk beschilderde bovenkapel een relikwie waarin druppels van het bloed van Christus zouden zitten.
+  - Elk jaar op Hemelvaartsdag wordt het relikwie door de stad gedragen in de Heilig-Bloedprocessie, met honderden inwoners in kostuum.
+rozenhoedkaai:
+  blurb: Het meest gefotografeerde hoekje van Brugge, waar de rei draait onder het Belfort.
+  text:
+  - Bij de Rozenhoedkaai maakt de Dijvergracht een hoek, en de oude huizen, de brug en het Belfort erboven vormen het beeld dat iedereen kent van ansichtkaarten.
+  - Het was ooit de kaai waar de paternostermakers werkten, vandaar de naam, de kaai van de rozenhoed.
+gruuthuse:
+  blurb: Het paleis van de heren van Gruuthuse, die belasting mochten heffen op gruut, de kruiden om bier te brouwen.
+  text:
+  - 'De heren van Gruuthuse werden rijk dankzij een monopolie: elke brouwer moest bij hen gruut kopen, het kruidenmengsel waarmee bier werd gearomatiseerd voor de hop. Hun 15e-eeuwse paleis aan de Dijver herbergt nu een museum over de geschiedenis van de stad.'
+  - Een klein houten oratorium verbindt het met de Onze-Lieve-Vrouwekerk ernaast, zodat de heren de mis konden horen zonder naar buiten te gaan.
+onze-lieve-vrouwekerk:
+  name: Onze-Lieve-Vrouwekerk
+  blurb: Haar bakstenen toren van 115 meter is een van de hoogste ter wereld; binnen staat de Madonna van Michelangelo.
+  text:
+  - De Onze-Lieve-Vrouwekerk werd gebouwd van de 13e tot de 15e eeuw. De bakstenen toren, 115,6 meter hoog, is het hoogste gebouw van Brugge en een van de hoogste bakstenen torens ter wereld.
+  - Binnen staat de Madonna met Kind van Michelangelo, het enige van zijn beelden dat tijdens zijn leven Italië verliet, in 1506 gekocht door een Brugse koopman. Karel de Stoute en zijn dochter Maria van Bourgondië liggen in het koor.
+sint-salvatorskathedraal:
+  name: Sint-Salvatorskathedraal
+  blurb: De oudste parochiekerk van Brugge, die in de 19e eeuw haar kathedraal werd.
+  text:
+  - De Sint-Salvator is de oudste parochiekerk van Brugge, vanaf de 13e eeuw in baksteen herbouwd. Toen de oude Sint-Donaaskathedraal op de Burg na de Franse Revolutie werd afgebroken, nam de Sint-Salvator haar plaats in.
+  - Haar toren kreeg in de 19e eeuw zijn vreemde, romantische top. Binnen hangen wandtapijten en schilderijen van Vlaamse meesters.
+begijnhof:
+  blurb: 'Het begijnhof van 1245: witte huizen rond een grasveld met hoge bomen, nog steeds bewoond door een gemeenschap van zusters.'
+  text:
+  - Het Prinselijk Begijnhof Ten Wijngaerde werd in 1245 gesticht voor begijnen, alleenstaande vrouwen die een religieus leven leidden zonder geloften af te leggen. De witgekalkte huizen staan rond een rustig grasveld onder hoge bomen.
+  - De laatste begijn stierf in 1927; sindsdien wonen er benedictinessen. In het voorjaar staat het grasveld vol narcissen.
+minnewater:
+  blurb: Het “meer van de liefde” aan het zuideinde van de oude stad, met zwanen en een sluiswachtershuis.
+  text:
+  - Het Minnewater was ooit het havenbassin waar de boten uit Gent loskwamen. Nu is het een rustig meer in een park, met het oude sluishuis en een kruittoren uit de 15e eeuw.
+  - Zijn naam is gelezen als “meer van de liefde”, en geliefden komen naar zijn brug; de zwanen erop worden volgens de overlevering sinds de 15e eeuw door de stad gehouden als boetedoening voor de onthoofding van een gehate ambtenaar, Pieter Lanchals, wiens naam lange hals betekent.
+koetsen:
+  name: Koetsen
+  blurb: Paardenkoetsen klepperen vanaf de Markt door de oude stad.
+  text:
+  - De koetsen wachten op de Markt en brengen bezoekers over keienstraten door de oude stad. De paarden stoppen halverwege om te drinken bij de fontein aan het Begijnhof.
+  - In het spel kun je ook te paard rijden, door dezelfde straten.
+reien:
+  name: Rondvaartboten
+  blurb: Kleine open boten glijden langs de reien, de grachten van Brugge, onder lage bruggen.
+  text:
+  - De grachten van Brugge, de reien, verbonden de stad ooit met de zee en maakten haar in de middeleeuwen tot een handelshaven voor heel Europa. Nu brengen kleine open boten bezoekers erlangs, van de Rozenhoedkaai tot het Begijnhof.
+  - Sommige bruggen zijn zo laag dat de gids iedereen vraagt zich te bukken.
+kant:
+  name: Brugse kant
+  blurb: Kloskant, sinds de 16e eeuw met de hand gemaakt in Brugge.
+  text:
+  - 'Brugse kant wordt met klossen gemaakt: tientallen draden op houten spoelen, gekruist en gedraaid over een patroon dat op een kussen is vastgespeld. Eeuwenlang was het het werk van vrouwen in de begijnhoven en kloosters van de stad.'
+  - Enkele kantklossters werken nog in de oude stad, en het kantcentrum bij de Jeruzalemkerk houdt het ambacht levend.

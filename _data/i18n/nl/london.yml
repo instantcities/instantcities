@@ -1,0 +1,21 @@
+# london's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/london.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/london.yml and its landmarks, with their pages, in landmarks/london.yml.
+title: 'Instant London: gratis virtuele 3D-rondleiding en game van Londen'
+description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Londen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Verken of race met de fiets, te voet of te paard door Westminster!
+lead: Rijd door Westminster in 3D, langs Trafalgar Square, Whitehall, Parliament Square en Westminster Abbey, met elk gebouw uit OpenStreetMap.
+features:
+- title: Het echte Londen
+  text: 'Dwaal tussen zo’n 2.600 gebouwen, in 3D nagebouwd uit OpenStreetMap: een eerste stuk van het centrum, de rest van de stad volgt nog.'
+- title: Westminster
+  text: Rijd van Trafalgar Square door Whitehall langs Downing Street, rond Parliament Square onder de Big Ben en Westminster Abbey, en zoek de London Eye aan de overkant van de Theems. Links houden!
+- title: 'Een race: Westminster'
+  text: Race van Charing Cross door Whitehall langs Downing Street naar Parliament Square en de Big Ben, en terug langs de Theems over de Victoria Embankment.
+intro: Londen is de hoofdstad van het Verenigd Koninkrijk en een van de grootste steden van Europa. De Romeinen stichtten het bijna tweeduizend jaar geleden aan de Theems, en het groeide uit tot de hoofdstad van een wereldrijk en een centrum van financiën, theater en musea. In Westminster, het deel waar je door rijdt, liggen het parlement, de Big Ben en de koninklijke parken op een korte wandeling van Trafalgar Square.
+famous:
+- De Big Ben, het parlement en Westminster Abbey
+- Rode dubbeldekkers, zwarte taxi’s en de Underground, de oudste metro ter wereld
+- Koninklijke ceremonies zoals de Changing of the Guard en Trooping the Colour
+- Gratis nationale musea en galerijen, van het British Museum tot de National Gallery
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

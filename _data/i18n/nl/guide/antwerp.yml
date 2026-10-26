@@ -1,0 +1,98 @@
+# antwerp's guide in Dutch (_data/about/antwerp.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- België
+- Vlaanderen
+- Provincie Antwerpen, waarvan het de hoofdstad is
+- Meer dan 500.000 (stad), de grootste gemeente van België
+- De Schelde
+- Nederlands
+- Antwerpen (Nederlands), Anvers (Frans)
+- ’t Stad, zoals de inwoners het noemen
+- De drukkerij en het museum Plantin-Moretus, sinds 2005
+overview:
+- 'Antwerpen groeide op een bocht van de Schelde, rond een klein kasteel, en de rivier maakte zijn fortuin: van de middeleeuwen tot nu varen schepen uit de hele wereld de Schelde op naar zijn kaaien. De oude stad bewaart de gotische kathedraal, de gildehuizen van de Grote Markt en de barokke kerken en huizen uit de tijd van Rubens, terwijl de haven naar het noorden is verhuisd, met dokken die tot aan de Nederlandse grens reiken.'
+- Het centrum, het deel waar je in Instant Antwerp doorheen rijdt, ligt tussen de Schelde en de Meir. Vanaf Het Steen aan de rivier leidt de Suikerrui naar de Grote Markt, en erachter rijst de kathedraaltoren boven de Handschoenmarkt en de Groenplaats uit. Smalle straatjes lopen zuidwaarts naar de Vrijdagmarkt en het Museum Plantin-Moretus, en naar het oosten leidt de brede Meir langs het huis van Rubens naar het Centraal Station.
+setting:
+- Antwerpen ligt in het noorden van België, in het Vlaams Gewest, vlak bij de Nederlandse grens, en is de hoofdstad van de provincie Antwerpen. Brussel ligt zo’n 45 kilometer naar het zuiden en Gent zo’n 50 kilometer naar het zuidwesten. De oude stad ligt op de rechteroever van de Schelde; de linkeroever aan de overkant is nieuwer en groener.
+- 'De Schelde is hier een getijdenrivier, en zeeschepen bereiken de haven vanaf de Noordzee via de Westerschelde, in Nederland, zo’n 80 kilometer stroomafwaarts. Geen enkele brug overspant de rivier in de stad: tunnels voor auto’s, treinen en voetgangers lopen eronderdoor. Het klimaat van Antwerpen is zacht en nat, net als in de rest van Vlaanderen.'
+today:
+- Antwerpen leeft van zijn haven, de chemische fabrieken langs de Schelde, de diamanthandel rond het Centraal Station en zijn winkels en modehuizen. De inwoners spreken hun eigen krachtige dialect en zijn trots op hun stad, die ze eenvoudig ’t Stad noemen.
+- De oude dokken ten noorden van het centrum, het Eilandje, zijn veranderd in een wijk van appartementen en musea rond het MAS, het Museum aan de Stroom, geopend in 2011. Het Koninklijk Museum voor Schone Kunsten heropende in 2022 na een lange restauratie, en het Centraal Station, een kathedraal van ijzer en steen, wordt vaak een van de mooiste ter wereld genoemd.
+history:
+- title: Een burcht aan de Schelde
+  text:
+  - Volgens de legende liet een reus, Druon Antigoon, elke schipper op de Schelde tol betalen en hakte hij de hand af van wie weigerde, tot de Romeinse soldaat Silvius Brabo de hand van de reus zelf afhakte en in de rivier gooide; hand werpen zou Antwerpen zijn naam hebben gegeven. Historici denken dat de naam eerder van aanwerp komt, een door de rivier opgeworpen stuk land.
+  - Er stond al in de 9e eeuw een nederzetting op de rivierbocht, en de Vikingen plunderden haar in 836. Een burcht, waarvan Het Steen nog rest, bewaakte de rivier, en de stad groeide uit tot een markt van het hertogdom Brabant. In 1352 begonnen de Antwerpenaren aan de Onze-Lieve-Vrouwekathedraal, waar bijna 170 jaar over werd gedaan.
+- title: De gouden eeuw
+  text:
+  - Toen het Zwin verzandde en Brugge zijn verbinding met de zee verloor, verhuisden de buitenlandse kooplieden naar Antwerpen. Halverwege de 16e eeuw was het de handelshoofdstad van Noord-Europa, waar Portugese specerijen, Engels laken en Duits zilver van eigenaar wisselden, en het telde zo’n 100.000 inwoners. De stad opende in 1531 een speciaal gebouwde beurs, bouwde in de jaren 1560 haar renaissancestadhuis, en Christoffel Plantijn dreef hier een van de grootste drukkerijen van Europa.
+  - 'De godsdienstoorlogen maakten er een einde aan. In 1576 plunderden onbetaalde Spaanse soldaten de stad en vermoordden duizenden mensen in de Spaanse Furie, en in 1585 nam de Spaanse generaal Alexander Farnese Antwerpen in na een lang beleg. Protestanten moesten vertrekken, velen naar Amsterdam, en de Nederlanders sloten de Schelde voor de scheepvaart. De stad bleef toch bloeien als kunstcentrum: Rubens keerde in 1608 uit Italië terug en dreef hier zijn grote atelier, terwijl Anthonie van Dyck en Jacob Jordaens in dezelfde stad werkten.'
+- title: De haven gaat weer open
+  text:
+  - De Fransen heropenden de Schelde in 1795, en Napoleon liet nieuwe dokken bouwen om van Antwerpen een marinebasis tegen Groot-Brittannië te maken. In 1863 kocht België de tol af die de Nederlanders op de rivier hieven, en de haven begon weer te groeien. De stad was gastheer van wereldtentoonstellingen in 1885, 1894 en 1930, opende in 1905 haar Centraal Station en hield in 1920 de Olympische Spelen.
+  - In de Tweede Wereldoorlog namen Britse troepen in september 1944 de haven onbeschadigd in, en de Duitsers troffen Antwerpen daarna met meer V-2-raketten dan enige andere stad. Na de oorlog breidde de haven zich uit naar het noorden, richting Nederland, en werd de op een na grootste van Europa. In de jaren tachtig zetten zes jonge ontwerpers van de Koninklijke Academie, de Antwerp Six, de stad op de kaart van de wereldmode.
+timeline:
+- - '836'
+  - De Vikingen plunderen Antwerpen
+- - '1352'
+  - Begin van de bouw van de Onze-Lieve-Vrouwekathedraal
+- - '1521'
+  - De kathedraal is voltooid, met haar toren van 123 meter
+- - '1531'
+  - De stad opent een speciaal gebouwde beurs
+- - '1555'
+  - Christoffel Plantijn begint te drukken in Antwerpen
+- - '1565'
+  - Het nieuwe stadhuis op de Grote Markt is klaar
+- - '1576'
+  - Spaanse soldaten plunderen de stad in de Spaanse Furie
+- - '1585'
+  - Alexander Farnese neemt Antwerpen in en de Nederlanders sluiten de Schelde
+- - '1608'
+  - Rubens keert terug uit Italië en vestigt zich in Antwerpen
+- - '1863'
+  - België koopt de Nederlandse tol op de Schelde af
+- - '1920'
+  - Antwerpen is gastheer van de Olympische Spelen
+- - '2022'
+  - De havens van Antwerpen en Zeebrugge fuseren tot de Haven van Antwerpen-Brugge
+places:
+  grote-markt:
+    blurb: Het hoofdplein van de oude stad, met het renaissancestadhuis, de gildehuizen en de Brabofontein.
+  handschoenmarkt:
+    blurb: De kleine handschoenmarkt voor de kathedraal, met een oude put waarvan de legende de ijzeren overkapping aan de schilder Quinten Matsijs toeschrijft.
+  groenplaats:
+    blurb: Vroeger het kerkhof van de kathedraal, nu een groot plein met caféterrassen rond een standbeeld van Rubens.
+  meir:
+    blurb: De brede hoofdwinkelstraat van Antwerpen, met het 18e-eeuwse koninklijk paleis, het Paleis op de Meir.
+  wapper:
+    blurb: Het pleintje bij de Meir waar Rubens woonde en zijn atelier had, in het huis dat hij in 1610 kocht.
+  steenplein:
+    blurb: Het plein aan de rivier rond Het Steen, het oudste gebouw van de stad, met het beeld van de reus Lange Wapper.
+  schelde:
+    name: De Schelde
+    blurb: De brede getijdenrivier die Antwerpens fortuin maakte. Verhoogde wandelkaden lopen langs haar kaaien.
+  suikerrui:
+    blurb: De straat van de Grote Markt naar de rivier, aangelegd over een van de oude stadsgrachten, de ruien, die nog altijd overwelfd onder de straten lopen.
+  hoogstraat:
+    blurb: Een oude straat met winkels en cafés die van de Grote Markt naar het zuiden loopt richting Sint-Jansvliet.
+  oude-koornmarkt:
+    blurb: De oude graanmarkt, een straat met cafés net ten zuiden van de kathedraal.
+  vlaaikensgang:
+    blurb: Een verborgen steegje met 16e-eeuwse huizen achter de Oude Koornmarkt, waar vroeger schoenmakers woonden.
+  vrijdagmarkt:
+    blurb: Het plein van de drukkerij Plantin-Moretus, waar op vrijdagochtend nog altijd tweedehandsspullen worden geveild.
+  sint-jansvliet:
+    blurb: Een plein op een gedempte havengracht, waar houten roltrappen naar de Sint-Annatunnel voor voetgangers onder de Schelde leiden, geopend in 1933.
+  hendrik-conscienceplein:
+    blurb: Een rustig plein voor de barokke jezuïetenkerk Sint-Carolus Borromeus, met een standbeeld van schrijver Hendrik Conscience.
+links:
+- title: Visit Antwerpen
+  note: De officiële toeristische informatie van de stad
+- title: Stad Antwerpen
+  note: Het stadsbestuur
+- title: Plantin-Moretus op UNESCO
+  note: De Werelderfgoedlijst voor de drukkerij en het museum
+- title: Antwerpen op Wikipedia
+  note: Het encyclopedieartikel

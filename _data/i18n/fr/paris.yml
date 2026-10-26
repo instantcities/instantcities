@@ -1,0 +1,21 @@
+# paris's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/paris.yml and its landmarks, with their pages, in landmarks/paris.yml.
+title: 'Instant Paris : visite virtuelle en 3D et jeu gratuits de Paris'
+description: 'Faites gratuitement la visite virtuelle en 3D du centre de Paris dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
+tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long de la Seine !
+lead: Parcourez le cœur de Paris en 3D, devant Notre-Dame, la Sainte-Chapelle, le Pont Neuf et la rue de Rivoli, avec chaque bâtiment d’OpenStreetMap.
+features:
+- title: Le vrai Paris
+  text: 'Promenez-vous parmi quelque 5 500 bâtiments reconstruits en 3D à partir d’OpenStreetMap : un premier morceau du centre, et le reste de la ville suivra.'
+- title: Autour de l’île de la Cité
+  text: Voyez Notre-Dame, la Sainte-Chapelle et le Pont Neuf sur l’île, passez sur la rive droite vers l’Hôtel de Ville et la rue de Rivoli, et poussez jusqu’au Louvre.
+- title: 'Une course : île de la Cité'
+  text: Foncez de l’Hôtel de Ville par-dessus la Seine jusqu’à Notre-Dame, le long des quais de l’île jusqu’au Pont Neuf, et retour par la rue de Rivoli.
+intro: Paris est la capitale de la France et, avec sa banlieue, la plus grande ville de l’Union européenne. D’une petite île sur la Seine, elle est devenue le siège des rois de France, la scène de la Révolution et la ville que le baron Haussmann a rebâtie avec de larges boulevards au XIXe siècle. Aujourd’hui, on y vient pour ses musées, sa cathédrale et ses cafés, et pour la vue le long du fleuve.
+famous:
+- Notre-Dame, le Louvre et la tour Eiffel
+- La Seine, ses ponts de pierre et les boîtes vertes des bouquinistes le long des quais
+- Les boulevards d’Haussmann, bordés d’immeubles en pierre claire aux toits de zinc gris
+- Les cafés et leurs terrasses sur le trottoir, les boulangeries, les croissants et la baguette
+credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

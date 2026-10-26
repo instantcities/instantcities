@@ -1,0 +1,101 @@
+# copenhagen's guide in Dutch (_data/about/copenhagen.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Denemarken
+- Hoofdstedelijke regio van Denemarken
+- Ongeveer 660.000 (gemeente), 1,4 miljoen (stedelijk gebied)
+- 1167, toen bisschop Absalon een kasteel bouwde op Slotsholmen
+- De Sont en de binnenhaven van de stad
+- Deens
+- De Stad van de Torenspitsen
+overview:
+- Kopenhagen ligt aan de oostkust van het eiland Seeland en op het kleinere eiland Amager, aan weerszijden van een lange haven. De naam, København, betekent “koopmanshaven”. Tot de jaren 1850 sloten wallen en grachten de oude stad af; toen de stad ze afbrak, hield ze stukken gracht over in een gordel van parken, onder andere de Botanische Tuin en het meer in Tivoli.
+- Het centrum waar je in Instant Copenhagen doorheen rijdt, is de middeleeuwse stad en de koninklijke wijken ernaast. Strøget, een keten van voetgangersstraten, loopt van het Raadhuisplein naar Kongens Nytorv, met Nyhavn vlak erachter. In het zuiden omarmen de grachten Slotsholmen en het paleis Christiansborg, in het noordoosten ligt de geplande rococowijk Frederiksstaden met Amalienborg, en aan de overkant van de haven ligt Christianshavn.
+setting:
+- Kopenhagen ligt aan de oostrand van Denemarken, met Zweden aan de overkant van de Sont. Sinds 2000 verbinden een brug en een tunnel de stad met Malmö, de derde stad van Zweden, en de twee vormen één regio waar veel mensen aan de ene kant wonen en aan de andere werken.
+- 'Het land is vlak en laag, en de zee is nooit ver weg: de haven loopt dwars door de stad en is schoon genoeg om in te zwemmen bij de havenbaden. Het klimaat is zacht en maritiem, met koele zomers, grijze winters en het hele jaar wind.'
+today:
+- Kopenhagen is de zetel van de Deense regering, en in paleis Christiansborg zijn het parlement, het Hooggerechtshof en het kantoor van de premier onder één dak gehuisvest. De koninklijke familie woont op Amalienborg. De economie van de stad draait op diensten, scheepvaart, farmacie, design en toerisme, en haar restaurants, Noma voorop, maakten de nieuwe Noordse keuken beroemd.
+- Kopenhageners fietsen bij elk weer, over fietspaden die de stad decennialang heeft aangelegd, en velen zwemmen in de zomer in de haven. FC Kopenhagen speelt in Parken, het nationale stadion, en op zomeravonden verdringen mensen zich op de kaden van Nyhavn en Christianshavn.
+history:
+- title: De koopmanshaven
+  text:
+  - Er stond hier in de 11e eeuw al een vissers- en handelsdorp dat Havn heette, “haven”. In 1167 bouwde bisschop Absalon van Roskilde een kasteel op het eilandje Slotsholmen om het tegen piraten te beschermen, en de stad werd rijk van de haring uit de Sont. In 1417 nam koning Erik van Pommeren de stad van de bisschoppen over, en in de loop van de 15e eeuw werd ze de hoofdstad van Denemarken.
+  - De koningen bouwden hun paleis op Slotsholmen, op de ruïnes van Absalons kasteel, en de universiteit opende in 1479. In 1536 maakte de Reformatie Denemarken luthers, en de kroon nam de bezittingen van de Kerk in beslag.
+- title: Koningen, branden en een gouden tijd
+  text:
+  - 'Christiaan IV, die van 1588 tot 1648 regeerde, gaf Kopenhagen een groot deel van zijn skyline: de beurs Børsen met zijn spits van gedraaide drakenstaarten, de Ronde Toren, kasteel Rosenborg en de nieuwe wijk Christianshavn aan de overkant van de haven. Christiaan V legde Kongens Nytorv aan en liet Nyhavn graven, en in 1749 begon Frederik V aan de geplande wijk Frederiksstaden rond Amalienborg.'
+  - 'Pest en brand troffen de stad in de 18e eeuw zwaar: grote branden in 1728 en 1795 verwoestten veel van de middeleeuwse stad. In 1807 bombardeerde een Britse vloot Kopenhagen en nam de Deense marine mee. Toch werden de decennia daarna de Deense Gouden Eeuw, de tijd van Hans Christian Andersen, de filosoof Søren Kierkegaard en de beeldhouwer Bertel Thorvaldsen.'
+- title: De moderne hoofdstad
+  text:
+  - Tivoli opende in 1843, Denemarken kreeg in 1849 een grondwet, en in de decennia daarna brak de stad haar wallen af en breidde uit in nieuwe arbeiderswijken. Nazi-Duitsland bezette Denemarken van 1940 tot 1945. In oktober 1943 hielpen Denen bijna alle joden van het land te ontsnappen over de Sont naar het neutrale Zweden.
+  - In 1962 sloot de stad Strøget af voor auto’s, en vanaf toen gaf ze steeds meer van haar straten aan voetgangers en fietsers. De Sontbrug opende in 2000 en de metro in 2002, en de oude haven, ooit omzoomd met dokken en pakhuizen, is volgelopen met woningen, de Opera, fietsbruggen en havenbaden.
+timeline:
+- - '1167'
+  - Bisschop Absalon bouwt een kasteel op Slotsholmen
+- - '1417'
+  - Koning Erik van Pommeren neemt de stad van de bisschoppen over
+- - '1479'
+  - De Universiteit van Kopenhagen opent
+- - '1642'
+  - Christiaan IV voltooit de Ronde Toren
+- - '1673'
+  - Nyhavn wordt voltooid
+- - '1728'
+  - Een grote brand verwoest veel van de middeleeuwse stad
+- - '1749'
+  - Frederik V begint aan de wijk Frederiksstaden
+- - '1807'
+  - Een Britse vloot bombardeert de stad
+- - '1843'
+  - Tivoli opent
+- - '1943'
+  - Denen helpen de joden van het land te ontsnappen naar Zweden
+- - '1962'
+  - Strøget wordt een voetgangersstraat
+- - '2000'
+  - De Sontbrug verbindt Kopenhagen met Malmö
+places:
+  radhuspladsen:
+    name: Raadhuisplein
+    blurb: Het grote plein voor het rode bakstenen Raadhuis uit 1905, waar Strøget begint. Tivoli ligt aan de overkant van de boulevard.
+  tivoli:
+    name: Tivoli
+    blurb: De lusthof die in 1843 opende naast de oude stadsgracht, nu een meer erbinnen, met attracties, concerten en duizenden lichtjes in de avond.
+  stroget:
+    blurb: De keten van voetgangersstraten van het Raadhuisplein naar Kongens Nytorv. De stad sloot haar in 1962 af voor auto’s, wat haar een van de eerste lange voetgangersstraten van Europa maakte.
+  gammeltorv:
+    blurb: Het oudste plein van Kopenhagen, aan Strøget, met de Caritasfontein uit 1608. Het oude gerechtsgebouw staat aan Nytorv ernaast.
+  grabrodretorv:
+    blurb: Een klein plein met kasseien op de plek van een franciscanenklooster, de Grauwe Broeders, omzoomd met kleurrijke oude huizen en restaurantterrassen.
+  kobmagergade:
+    blurb: Een voetgangersstraat die vanaf Strøget naar het noorden loopt langs de Ronde Toren, de sterrenwacht die Christiaan IV liet bouwen met een spiraalhelling in plaats van trappen.
+  amagertorv:
+    blurb: Het breedste stuk van Strøget, met de Ooievaarsfontein, genoemd naar de boeren van Amager die hier hun producten verkochten.
+  hojbro-plads:
+    blurb: Het plein aan het einde van Strøget tegenover Slotsholmen, met een ruiterstandbeeld van bisschop Absalon, de stichter van de stad.
+  gammel-strand:
+    blurb: De oude oever aan de overkant van de gracht van Christiansborg, waar visvrouwen ooit de vangst verkochten en vanwaar nu de rondvaartboten vertrekken.
+  slotsholmen:
+    blurb: Het eiland waar Absalon zijn kasteel bouwde, nu de thuis van paleis Christiansborg en de oude beurs, Børsen.
+  kongens-nytorv:
+    blurb: Het grootste plein van de stad, aangelegd onder Christiaan V in de jaren 1670, met zijn ruiterstandbeeld in het midden en het Koninklijk Deens Theater ernaast.
+  nyhavn:
+    blurb: De gracht die in de jaren 1670 van Kongens Nytorv naar de haven werd gegraven, omzoomd met felgekleurde huizen en oude houten schepen. Hans Christian Andersen woonde in drie van zijn huizen.
+  bredgade:
+    blurb: De brede hoofdstraat van Frederiksstaden, die vanaf Kongens Nytorv naar het noorden loopt langs de Marmeren Kerk naar het Designmuseum.
+  amalienborg:
+    name: Amalienborg-plein
+    blurb: Het achthoekige plein van vier identieke paleizen, sinds 1794 de thuis van de koninklijke familie, met Frederik V te paard in het midden. De wacht wordt hier elke dag om twaalf uur afgelost.
+  christianshavns-kanal:
+    name: Christianshavnse gracht
+    blurb: De gracht door Christianshavn, de wijk aan de overkant van de haven die Christiaan IV vanaf 1619 aanlegde op teruggewonnen land, naar het voorbeeld van Amsterdam.
+links:
+- title: VisitCopenhagen
+  note: De officiële toeristische informatie van de stad
+- title: Stad Kopenhagen
+  note: De Engelse pagina’s van het stadsbestuur
+- title: Tivoli
+  note: Tickets en openingstijden
+- title: Kopenhagen op Wikipedia
+  note: Het encyclopedieartikel

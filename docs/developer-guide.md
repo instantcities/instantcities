@@ -95,13 +95,30 @@ Landmark pages, art pages and city guides are generated from data files:
 
 | Content | Data | Command |
 |---|---|---|
-| Landmarks (`/<id>/landmark/<name>/`) | `_data/landmarks/<id>.json` | `node tools/landmarks.mjs` |
+| Landmarks (`/<lang>/<city>/landmark/<name>/`) | `_data/landmarks/<id>.json` | `node tools/landmarks.mjs` |
 | Art (`/art/`) | `_data/art.json` | `node tools/art.mjs` (`photos` fetches pictures from Wikimedia Commons) |
-| City guides (`/<id>/about-the-city/`, `/<id>/places-and-landmarks/`) | `_data/about/<id>.json` | `node tools/about.mjs` |
+| City guides (`/<lang>/<city>/about-the-city/`, `/<lang>/<city>/places-and-landmarks/`) | `_data/about/<id>.json` | `node tools/about.mjs` (maps), `node tools/langpages.mjs` (pages) |
 | Map of Europe | `_data/europe.json` | `node tools/europe.mjs` |
 
 Photos must be freely licensed (CC BY, CC BY-SA, CC0 or public domain) and credited on their page.
 A museum in `art.json` whose `landmark` is a landmark id gets linked both ways with that landmark's page.
+
+## Languages
+
+The site is in English, French and Dutch, the language first in the path: `/en/`, `/fr/`, `/nl/`, English
+the default. Every page has a version per language, and its old unprefixed address (`/cities/`,
+`/ghent/`, `/ghent/about-the-city/`, `/ghent/landmark/<id>/`) is a small redirect page
+(`_layouts/lang-redirect.html`) that sends a visitor to the language they picked in the bar on top, else
+their browser's. The game stays at `/<id>/play/`; links to it from a French or Dutch page carry `?lang=`.
+
+- `_data/home.yml` lists the languages; `_data/lang/<lang>.yml` has the site's words, where each page
+  lives in that language (`urls`, `paths`), and each city's name, slug and card line.
+- A city's page words are in `_data/i18n/<lang>/<id>.yml`, its guide in `_data/i18n/<lang>/guide/<id>.yml`
+  and its landmarks in `_data/i18n/<lang>/landmarks/<id>.yml`. Anything left out falls back to the English
+  in `_data/cities.yml`, `_data/about/` and `_data/landmarks/`, so a new city or landmark works at once and
+  can be translated later.
+- `node tools/langpages.mjs` writes the city, guide and places pages for every language and
+  `node tools/landmarks.mjs` the landmark pages; run them after adding a city, a landmark, a language or a slug.
 
 ## Website preview videos
 
