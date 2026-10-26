@@ -1,16 +1,19 @@
 {%- comment -%}
   Where a city lies in its country: {% include country-map.html city=C %}, C a block of
   _data/cities.yml. The country, its neighbours, its capital (a square) and the other cities of the
-  site in it, from _data/countries.json (node tools/about.mjs).
+  site in it, from _data/countries.json (node tools/about.mjs). Its words in the page's language
+  (T, _includes/lang.html): the country as "in <country>" (T.in_country), the names of the cities and
+  capitals (T.cities, T.capitals).
 {%- endcomment -%}
 {%- assign cc = include.city -%}
 {%- assign K = site.data.countries[cc.country] -%}
-{%- if cc.country == 'United Kingdom' or cc.country == 'Netherlands' %}{% assign in_country = 'the ' | append: cc.country %}{% else %}{% assign in_country = cc.country %}{% endif -%}
+{%- assign in_country = T.in_country[cc.country] | default: T.in_country_any | replace: '%k', cc.country -%}
+{%- assign ccn = T.cities[cc.id].name | default: cc.name -%}
 {%- if K %}
-{%- assign capital = K.capital.name | default: '' %}{% assign capital_drawn = false %}{% if capital == cc.name %}{% assign capital_drawn = true %}{% endif %}
+{%- assign capital = K.capital.name | default: '' %}{% assign capital_drawn = false %}{% if capital == cc.name %}{% assign capital_drawn = true %}{% endif %}{% assign capital_n = T.capitals[capital] | default: capital %}
 <figure class="country-map">
   <svg viewBox="0 0 {{ K.width }} {{ K.height }}" role="img" aria-labelledby="country-{{ cc.id }}">
-    <title id="country-{{ cc.id }}">Where {{ cc.name }} lies in {{ in_country }}</title>
+    <title id="country-{{ cc.id }}">{{ T.country_where | replace: '%c', ccn | replace: '%k', in_country }}</title>
     <rect class="sea" width="{{ K.width }}" height="{{ K.height }}"/>
     <path class="land" d="{{ K.land }}"/>
     <path class="country" d="{{ K.country }}"/>
@@ -18,15 +21,15 @@
     {%- for o in site.data.cities %}{% if o.country == cc.country and o.id != cc.id %}{% assign at = K.cities[o.id] %}{% if at %}
     <a href="/{{ o.id }}/about-the-city/" class="other{% if at[0] > right %} left{% endif %}">
       {%- if o.name == capital %}{% assign capital_drawn = true %}<rect x="{{ at[0] | minus: 4 }}" y="{{ at[1] | minus: 4 }}" width="8" height="8"/>{% else %}<circle cx="{{ at[0] }}" cy="{{ at[1] }}" r="3.5"/>{% endif -%}
-      <text x="{% if at[0] > right %}{{ at[0] | minus: 8 }}{% else %}{{ at[0] | plus: 8 }}{% endif %}" y="{{ at[1] | plus: 4 }}">{{ o.name }}</text></a>
+      <text x="{% if at[0] > right %}{{ at[0] | minus: 8 }}{% else %}{{ at[0] | plus: 8 }}{% endif %}" y="{{ at[1] | plus: 4 }}">{{ T.cities[o.id].name | default: o.name }}</text></a>
     {%- endif %}{% endif %}{% endfor %}
     {%- unless capital_drawn %}{% assign at = K.capital.at %}
-    <g class="other{% if at[0] > right %} left{% endif %}"><rect x="{{ at[0] | minus: 4 }}" y="{{ at[1] | minus: 4 }}" width="8" height="8"/><text x="{% if at[0] > right %}{{ at[0] | minus: 8 }}{% else %}{{ at[0] | plus: 8 }}{% endif %}" y="{{ at[1] | plus: 4 }}">{{ capital }}</text></g>
+    <g class="other{% if at[0] > right %} left{% endif %}"><rect x="{{ at[0] | minus: 4 }}" y="{{ at[1] | minus: 4 }}" width="8" height="8"/><text x="{% if at[0] > right %}{{ at[0] | minus: 8 }}{% else %}{{ at[0] | plus: 8 }}{% endif %}" y="{{ at[1] | plus: 4 }}">{{ capital_n }}</text></g>
     {%- endunless %}
     {%- assign at = K.cities[cc.id] %}
     <g class="here{% if at[0] > right %} left{% endif %}"><circle class="halo" cx="{{ at[0] }}" cy="{{ at[1] }}" r="12"/><circle cx="{{ at[0] }}" cy="{{ at[1] }}" r="6"/>
-      <text x="{% if at[0] > right %}{{ at[0] | minus: 13 }}{% else %}{{ at[0] | plus: 13 }}{% endif %}" y="{{ at[1] | plus: 5 }}">{{ cc.name }}</text></g>
+      <text x="{% if at[0] > right %}{{ at[0] | minus: 13 }}{% else %}{{ at[0] | plus: 13 }}{% endif %}" y="{{ at[1] | plus: 5 }}">{{ ccn }}</text></g>
   </svg>
-  <figcaption>{{ cc.name }} in {{ in_country }}{% if capital != cc.name %}, whose capital is {{ capital }} (the square){% else %}, of which it is the capital{% endif %}.</figcaption>
+  <figcaption>{% if capital != cc.name %}{{ T.country_capital | replace: '%c', ccn | replace: '%k', in_country | replace: '%p', capital_n }}{% else %}{{ T.country_is_capital | replace: '%c', ccn | replace: '%k', in_country }}{% endif %}</figcaption>
 </figure>
 {%- endif %}

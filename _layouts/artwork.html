@@ -108,7 +108,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/art/">Famous art</a> <a href="/{{ C.id }}/">Instant {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
+    <p class="alt"><a href="/art/">Famous art</a> <a href="{% include city-url.html city=C.id %}">Instant {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

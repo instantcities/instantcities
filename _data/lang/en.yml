@@ -69,6 +69,32 @@ cities_page_description: "Every city in Instant Cities: take a virtual 3D tour o
 cities_page_tagline: "Tour the historic centres of Europe in 3D, from Bruges to Rome and Istanbul, and across the ocean New York and San Francisco."
 soon_title: "Coming soon"
 
+# A city's page (_layouts/city.html), and where it lies in its country (_includes/country-map.html)
+city_soon_title: "%c in 3D: coming soon to Instant Cities"
+city_soon_lead: "There is no game of %c yet: we are still building it. In the meantime, ride through one of these:"
+play_now: "Play now"
+city_todo: "What there is to do"
+this_is: "This is %c"
+about_city: "About the city"
+in_english: "" # after a link to a page that is only in English (a city's guide, its landmarks)
+city_landmarks: "Places, elements and landmarks"
+all_places: "All %n places and landmarks"
+city_art: "Famous art in %c"
+all_art: "All famous art ›"
+screenshots: "Screenshots"
+play_game: "Play %g"
+other_cities: "Other cities:"
+made_by: "Made by"
+country_where: "Where %c lies %k" # %k: in_country
+country_capital: "%c %k, whose capital is %p (the square)."
+country_is_capital: "%c %k, of which it is the capital."
+in_country_any: "in %k"
+in_country:
+  United Kingdom: in the United Kingdom
+  Netherlands: in the Netherlands
+  United States: in the United States
+
 # English needs no cities: or countries: here; the other languages give each city's name, country
-# and card line (cities: { <id>: { name, card } }, countries: { <English>: <name> }), and fall back
-# on _data/cities.yml's English for any they leave out.
+# and card line, and the slug of its page where it is not its id (cities: { <id>: { name, slug, card } },
+# countries: { <English>: <name> }), and fall back on _data/cities.yml's English for any they leave out.
+# The rest of a city's page in another language is in _data/i18n/<lang>/<id>.yml.

@@ -1,0 +1,4 @@
+{%- comment -%} A city's page in a language: {% include city-url.html city=c.id %} (in the page's language, L of _includes/lang.html) or lang=fr: /fr/gand/, the slug its name in _data/lang/<lang>.yml (cities: <id>: slug), else its id. {%- endcomment -%}
+{%- assign cu_l = include.lang | default: L -%}
+{%- assign cu_slug = site.data.lang[cu_l].cities[include.city].slug | default: include.city -%}
+/{{ cu_l }}/{{ cu_slug }}/

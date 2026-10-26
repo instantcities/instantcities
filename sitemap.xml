@@ -11,7 +11,9 @@ layout: null
   <url><loc>{{ site.url }}/art/{{ a.id }}/</loc></url>
 {%- endfor %}
 {%- for c in site.data.cities %}{% unless c.soon %}
-  <url><loc>{{ site.url }}/{{ c.id }}/</loc></url>
+{%- for l in site.data.home.langs %}{% assign slug = site.data.lang[l].cities[c.id].slug | default: c.id %}
+  <url><loc>{{ site.url }}/{{ l }}/{{ slug }}/</loc></url>
+{%- endfor %}
   <url><loc>{{ site.url }}/{{ c.id }}/play/</loc></url>
 {%- if site.data.about[c.id] %}
   <url><loc>{{ site.url }}/{{ c.id }}/about-the-city/</loc></url>

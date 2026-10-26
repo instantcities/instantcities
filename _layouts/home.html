@@ -21,15 +21,15 @@
         <p class="lead">{{ T.lead }}</p>
         <p class="hero-btns">
           {%- for id in H.hero_play_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
-          <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
+          <a class="play" href="/{{ c.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
           {%- endif %}{% endfor %}
           <a class="play" href="#cities">{% include icon.html name="play" %} {{ T.cities_title }}</a>
-          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.home_watch }}</a>
+          <a class="watch" href="/{{ H.live_city }}/play/?watch=cards{{ QA }}">{% include icon.html name="sparkle" %} {{ T.home_watch }}</a>
         </p>
         <p class="note">{{ T.play_note }}</p>
       </div>
       {%- assign live = site.data.cities | where: 'id', H.live_city | first %}{% assign cn = T.cities[live.id].name | default: live.name %}
-      <a class="live-caption" href="/{{ H.live_city }}/">{{ T.preview | replace: '%c', cn }}</a>
+      <a class="live-caption" href="{% include city-url.html city=H.live_city %}">{{ T.preview | replace: '%c', cn }}</a>
     </section>
 
     <section class="vibe">
@@ -41,7 +41,7 @@
       <div class="city-map-grid">
         <ul class="city-list">
           {%- for c in playable %}
-          <li><a href="/{{ c.id }}/" data-city="{{ c.id }}"><span class="city-name"><b>{{ T.cities[c.id].name | default: c.name }}</b> <small>{{ T.countries[c.country] | default: c.country }}</small></span><span class="city-line">{{ T.cities[c.id].card | default: c.card }}</span><span class="go" aria-hidden="true">{% include icon.html name="chevron" %}</span></a></li>
+          <li><a href="{% include city-url.html city=c.id %}" data-city="{{ c.id }}"><span class="city-name"><b>{{ T.cities[c.id].name | default: c.name }}</b> <small>{{ T.countries[c.country] | default: c.country }}</small></span><span class="city-line">{{ T.cities[c.id].card | default: c.card }}</span><span class="go" aria-hidden="true">{% include icon.html name="chevron" %}</span></a></li>
           {%- endfor %}
         </ul>
         <div class="city-map-side">
@@ -84,7 +84,7 @@
       <h2>{{ T.cta_title }}</h2>
       <p class="city-links centred">
         {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
-        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
+        <a class="play" href="/{{ c.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
         {%- endif %}{% endfor %}
       </p>
       <p class="note"><a href="#cities">{{ T.pick_another }}</a> · {{ T.beta }}</p>
@@ -94,7 +94,7 @@
   <footer>
     <p class="alt">{{ T.footer_cities }}
       {%- for c in playable %}
-      <a href="/{{ c.id }}/">{{ T.cities[c.id].name | default: c.name }}</a>
+      <a href="{% include city-url.html city=c.id %}">{{ T.cities[c.id].name | default: c.name }}</a>
       {%- endfor %}
       <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a>
     </p>

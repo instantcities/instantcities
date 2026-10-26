@@ -3,14 +3,14 @@
 {%- endcomment -%}
 {%- assign it = include.city -%}
         <article class="card city-card{% if it.soon %} is-soon{% endif %}">
-          <h3><a href="/{{ it.id }}/">{{ T.cities[it.id].name | default: it.name }}</a> <small>{{ T.countries[it.country] | default: it.country }}</small></h3>
+          <h3><a href="{% include city-url.html city=it.id %}">{{ T.cities[it.id].name | default: it.name }}</a> <small>{{ T.countries[it.country] | default: it.country }}</small></h3>
           <p>{{ T.cities[it.id].card | default: it.card }}</p>
           <p class="city-links">
             {%- if it.soon %}
             <span class="soon-tag">{{ T.coming_soon }}</span>
             {%- else %}
-            <a class="play small" href="/{{ it.id }}/play/">{% include icon.html name="play" %} {{ T.play }}</a>
-            <a href="/{{ it.id }}/">{{ T.about_game | replace: '%g', it.game }}</a>
+            <a class="play small" href="/{{ it.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play }}</a>
+            <a href="{% include city-url.html city=it.id %}">{{ T.about_game | replace: '%g', it.game }}</a>
             {%- endif %}
           </p>
         </article>

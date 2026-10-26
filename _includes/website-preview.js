@@ -25,8 +25,8 @@
       const city = playlist[index];
       host.querySelector('.poster').src = `/assets/previews/${city.id}.jpg`;
       caption.textContent = captionOf(city);
-      caption.href = `/${city.id}/`;
-      watch.href = `/${city.id}/play/?watch=cards`;
+      caption.href = city.page;
+      watch.href = city.watch;
       video.src = city.src;
       video.load();
       play();
@@ -35,8 +35,8 @@
       failures = 0;
       const city = playlist[index];
       caption.textContent = captionOf(city);
-      caption.href = `/${city.id}/`;
-      watch.href = `/${city.id}/play/?watch=cards`;
+      caption.href = city.page;
+      watch.href = city.watch;
       host.classList.add('ready');
     });
     function next() {

@@ -22,7 +22,7 @@
 {%- assign pics = site.data.landmarks[C.id] | where_exp: 'l', 'l.photo' %}{% assign pic = pics[1] | default: pics[0] %}
     <section class="hero home-hero guide-hero page-hero{% if pic %} photo-hero" style="--photo: url('{{ pic.photo.src }}'){% endif %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › Places and landmarks</p>
+        <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ C.name }}</a> › Places and landmarks</p>
         <h1>Places and landmarks in {{ C.name }}</h1>
         <p class="tagline">{{ all.size }} landmarks of {{ C.name }}, and the streets, squares and waterways around them, each with its story and where to find it.</p>
         <p class="hero-btns">
@@ -64,7 +64,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/about-the-city/">About {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ C.game }}</a> <a href="/{{ C.id }}/about-the-city/">About {{ C.name }}</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Map data © OpenStreetMap contributors (ODbL). Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

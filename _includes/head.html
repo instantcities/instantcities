@@ -10,9 +10,9 @@
 {%- endif %}
   <link rel="canonical" href="{{ site.url }}{{ path }}">
 {%- if page.ref %}{% for l in H.langs %}
-  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ site.data.lang[l].urls[page.ref] }}">
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{% include page-url.html lang=l %}">
 {%- endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.data.lang.en.urls[page.ref] }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{% include page-url.html lang='en' %}">
 {%- endif %}
   <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">

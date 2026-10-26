@@ -18,7 +18,7 @@
     {%- if page.ref %}
     <span class="langs" role="group" aria-label="{{ T.language }}">
       {%- for l in H.langs %}{% assign LT = site.data.lang[l] %}
-      <a href="{{ LT.urls[page.ref] }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ LT.name }}" data-lang="{{ l }}"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a>
+      <a href="{% include page-url.html lang=l %}" hreflang="{{ l }}" lang="{{ l }}" title="{{ LT.name }}" data-lang="{{ l }}"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a>
       {%- endfor %}
     </span>
     {%- endif %}

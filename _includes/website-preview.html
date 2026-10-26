@@ -4,7 +4,7 @@
   <script type="application/json" class="preview-playlist">[
     {%- for id in H.preview_cities -%}
       {%- assign city = site.data.cities | where: 'id', id | first -%}
-      {"id":{{ id | jsonify }},"name":{{ T.cities[id].name | default: city.name | jsonify }},"src":"/assets/previews/{{ id }}.mp4"}{% unless forloop.last %},{% endunless %}
+      {"id":{{ id | jsonify }},"name":{{ T.cities[id].name | default: city.name | jsonify }},"src":"/assets/previews/{{ id }}.mp4","page":"{% include city-url.html city=id %}","watch":"/{{ id }}/play/?watch=cards{{ QA }}"}{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
   ]</script>
 </div>

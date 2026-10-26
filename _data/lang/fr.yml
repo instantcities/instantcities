@@ -60,6 +60,41 @@ cities_page_description: "Toutes les villes d’Instant Cities : visitez leur ce
 cities_page_tagline: "Visitez en 3D les centres historiques d’Europe, de Bruges à Rome et Istanbul, et de l’autre côté de l’océan, New York et San Francisco."
 soon_title: "Bientôt"
 
+
+city_soon_title: "%c en 3D : bientôt sur Instant Cities"
+city_soon_lead: "Il n’y a pas encore de jeu de %c : nous sommes en train de le construire. En attendant, parcourez l’une de ces villes :"
+play_now: "Jouer"
+city_todo: "Ce qu’il y a à faire"
+this_is: "Voici %c"
+about_city: "À propos de la ville"
+in_english: " (en anglais)"
+city_landmarks: "Lieux et monuments"
+all_places: "Les %n lieux et monuments"
+city_art: "L’art célèbre à %c"
+all_art: "Tout l’art célèbre ›"
+screenshots: "Captures d’écran"
+play_game: "Jouer à %g"
+other_cities: "Autres villes :"
+made_by: "Réalisé par"
+country_where: "Où se trouve %c %k"
+country_capital: "%c %k, dont la capitale est %p (le carré)."
+country_is_capital: "%c %k, dont elle est la capitale."
+in_country_any: "en %k"
+in_country:
+  France: en France
+  Italy: en Italie
+  United Kingdom: au Royaume-Uni
+  United States: aux États-Unis
+  Spain: en Espagne
+  Turkey: en Turquie
+  Netherlands: aux Pays-Bas
+  Czechia: en Tchéquie
+  Austria: en Autriche
+  Germany: en Allemagne
+  Denmark: au Danemark
+  Belgium: en Belgique
+capitals: { London: Londres, Vienna: Vienne, Copenhagen: Copenhague, Brussels: Bruxelles }
+
 countries:
   France: France
   Italy: Italie
@@ -77,28 +112,28 @@ countries:
 cities:
   paris: { card: "L’île de la Cité et les bords de Seine, de Notre-Dame au Pont Neuf et au Louvre." }
   rome: { card: "De la Piazza Venezia par la Via del Corso jusqu’au Panthéon, avec le Forum et le Colisée tout près." }
-  london: { name: Londres, card: "De Trafalgar Square par Whitehall jusqu’à Big Ben, et retour le long de la Tamise." }
-  venice: { name: Venise, card: "De la place Saint-Marc par les Mercerie jusqu’au pont du Rialto, entre les canaux." }
-  barcelona: { name: Barcelone, card: "La Rambla jusqu’au monument à Colomb, et retour par le Quartier gothique et la cathédrale." }
+  london: { slug: londres, name: Londres, card: "De Trafalgar Square par Whitehall jusqu’à Big Ben, et retour le long de la Tamise." }
+  venice: { slug: venise, name: Venise, card: "De la place Saint-Marc par les Mercerie jusqu’au pont du Rialto, entre les canaux." }
+  barcelona: { slug: barcelone, name: Barcelone, card: "La Rambla jusqu’au monument à Colomb, et retour par le Quartier gothique et la cathédrale." }
   amsterdam: { card: "Du Dam le long du Singel jusqu’au Spui, entre les canaux et leurs maisons à pignons." }
   florence: { card: "Du Duomo à la Piazza della Signoria et au Ponte Vecchio sur l’Arno." }
   prague: { card: "De la place de la Vieille-Ville par le quartier juif jusqu’à la rivière, près du pont Charles." }
-  vienna: { name: Vienne, card: "Du Stephansdom par le Graben jusqu’à la Hofburg, et par le Ring jusqu’à l’Opéra." }
+  vienna: { slug: vienne, name: Vienne, card: "Du Stephansdom par le Graben jusqu’à la Hofburg, et par le Ring jusqu’à l’Opéra." }
   berlin: { card: "De la porte de Brandebourg par Unter den Linden jusqu’au Gendarmenmarkt." }
   madrid: { card: "De la Puerta del Sol par la Calle Mayor jusqu’au Palais royal et à la Plaza de Oriente." }
-  copenhagen: { name: Copenhague, card: "De Nyhavn devant Christiansborg jusqu’à la place de l’Hôtel-de-Ville, et retour par le Strøget." }
-  brussels: { name: Bruxelles, card: "Autour de la Grand-Place, devant la Bourse et le Manneken-Pis." }
+  copenhagen: { slug: copenhague, name: Copenhague, card: "De Nyhavn devant Christiansborg jusqu’à la place de l’Hôtel-de-Ville, et retour par le Strøget." }
+  brussels: { slug: bruxelles, name: Bruxelles, card: "Autour de la Grand-Place, devant la Bourse et le Manneken-Pis." }
   bruges: { card: "Du Markt et de son beffroi le long des canaux jusqu’à l’église Notre-Dame." }
-  antwerp: { name: Anvers, card: "De la Grand-Place au Steen sur l’Escaut, et retour devant la cathédrale." }
+  antwerp: { slug: anvers, name: Anvers, card: "De la Grand-Place au Steen sur l’Escaut, et retour devant la cathédrale." }
   avignon: { card: "La cité des papes : le palais des Papes, la place de l’Horloge et le pont sur le Rhône." }
-  salerno: { name: Salerne, card: "La ville au bord du golfe, au début de la côte amalfitaine : le Duomo, la vieille rue des marchands et les palmiers du Lungomare." }
-  siena: { name: Sienne, card: "La ville gothique de brique sur trois collines : la coquille du Campo, la Torre del Mangia et la cathédrale rayée." }
-  pisa: { name: Pise, card: "L’ancienne république maritime sur l’Arno : la tour penchée sur la Piazza dei Miracoli, les rues de l’université et les palais le long du fleuve." }
+  salerno: { slug: salerne, name: Salerne, card: "La ville au bord du golfe, au début de la côte amalfitaine : le Duomo, la vieille rue des marchands et les palmiers du Lungomare." }
+  siena: { slug: sienne, name: Sienne, card: "La ville gothique de brique sur trois collines : la coquille du Campo, la Torre del Mangia et la cathédrale rayée." }
+  pisa: { slug: pise, name: Pise, card: "L’ancienne république maritime sur l’Arno : la tour penchée sur la Piazza dei Miracoli, les rues de l’université et les palais le long du fleuve." }
   utrecht: { card: "La ville de la tour du Dom, avec ses canaux médiévaux et leurs caves de quai au bord de l’eau." }
   rotterdam: { card: "La ville portuaire qui s’est reconstruite après 1940 : le Markthal, les maisons cubes et l’Erasmusbrug sur la Meuse." }
   delft: { card: "La ville de Vermeer, faite de canaux et de pignons : le Markt, la Nieuwe Kerk de la maison d’Orange et l’Oude Kerk qui penche." }
   lecce: { card: "La vieille ville baroque des Pouilles, de Santa Croce à l’amphithéâtre romain." }
-  ghent: { name: Gand, card: "Environ 40 000 bâtiments à leur vraie hauteur, du beffroi à l’Overpoort." }
+  ghent: { slug: gand, name: Gand, card: "Environ 40 000 bâtiments à leur vraie hauteur, du beffroi à l’Overpoort." }
   new-york: { card: "La ville des gratte-ciel et des taxis jaunes : Times Square, l’Empire State Building, Grand Central et le Chrysler Building." }
   istanbul: { card: "La ville sur deux continents : Sainte-Sophie, la Mosquée bleue, le Grand Bazar et les ferries sur la Corne d’Or." }
   san-francisco: { card: "Des lanternes de Chinatown devant la Transamerica Pyramid jusqu’au Ferry Building sur la baie." }

@@ -43,7 +43,7 @@
       <h2>{{ T.cta_title }}</h2>
       <p class="city-links centred">
         {%- for id in H.cta_cities %}{% assign c = playable | where: 'id', id | first %}{% if c %}{% assign cn = T.cities[c.id].name | default: c.name %}
-        <a class="play" href="/{{ c.id }}/play/">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
+        <a class="play" href="/{{ c.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_city | replace: '%c', cn }}</a>
         {%- endif %}{% endfor %}
       </p>
       <p class="note"><a href="{{ T.urls.cities }}">{{ T.pick_another }}</a> · {{ T.beta }}</p>

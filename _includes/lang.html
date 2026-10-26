@@ -1,8 +1,11 @@
 {%- comment -%}
   Every site page starts with this: L is the page's language (its `lang`, English when it has none),
   T its words (_data/lang/<L>.yml), H what stays the same in every language (_data/home.yml). A
-  city's name in L is {{ T.cities[c.id].name | default: c.name }}, its country and card line the same.
+  city's name in L is {{ T.cities[c.id].name | default: c.name }}, its country and card line the same;
+  its page {% include city-url.html city=c.id %}. Q and QA go after a link to the game (?lang=fr,
+  &lang=fr after another parameter), so that it starts in L; nothing in English.
 {%- endcomment -%}
 {%- assign L = page.lang | default: 'en' -%}
 {%- assign T = site.data.lang[L] -%}
 {%- assign H = site.data.home -%}
+{%- if L == 'en' %}{% assign Q = '' %}{% assign QA = '' %}{% else %}{% assign Q = '?lang=' | append: L %}{% assign QA = '&lang=' | append: L %}{% endif -%}

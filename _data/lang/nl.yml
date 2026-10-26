@@ -60,6 +60,41 @@ cities_page_description: "Alle steden in Instant Cities: bezoek hun historische 
 cities_page_tagline: "Bezoek de historische centra van Europa in 3D, van Brugge tot Rome en Istanbul, en aan de overkant van de oceaan New York en San Francisco."
 soon_title: "Binnenkort"
 
+
+city_soon_title: "%c in 3D: binnenkort op Instant Cities"
+city_soon_lead: "Er is nog geen spel van %c: we bouwen er nog aan. Rijd intussen door een van deze steden:"
+play_now: "Speel nu"
+city_todo: "Wat je er kunt doen"
+this_is: "Dit is %c"
+about_city: "Over de stad"
+in_english: " (in het Engels)"
+city_landmarks: "Plekken en bezienswaardigheden"
+all_places: "Alle %n plekken en bezienswaardigheden"
+city_art: "Beroemde kunst in %c"
+all_art: "Alle beroemde kunst ›"
+screenshots: "Schermafbeeldingen"
+play_game: "Speel %g"
+other_cities: "Andere steden:"
+made_by: "Gemaakt door"
+country_where: "Waar %c ligt %k"
+country_capital: "%c %k, met als hoofdstad %p (het vierkantje)."
+country_is_capital: "%c %k, waarvan het de hoofdstad is."
+in_country_any: "in %k"
+in_country:
+  France: in Frankrijk
+  Italy: in Italië
+  United Kingdom: in het Verenigd Koninkrijk
+  United States: in de Verenigde Staten
+  Spain: in Spanje
+  Turkey: in Turkije
+  Netherlands: in Nederland
+  Czechia: in Tsjechië
+  Austria: in Oostenrijk
+  Germany: in Duitsland
+  Denmark: in Denemarken
+  Belgium: in België
+capitals: { Paris: Parijs, London: Londen, Prague: Praag, Vienna: Wenen, Berlin: Berlijn, Copenhagen: Kopenhagen, Brussels: Brussel }
+
 countries:
   France: Frankrijk
   Italy: Italië
@@ -75,21 +110,21 @@ countries:
   Belgium: België
 
 cities:
-  paris: { name: Parijs, card: "Het Île de la Cité en de oevers van de Seine, van de Notre-Dame tot de Pont Neuf en het Louvre." }
+  paris: { slug: parijs, name: Parijs, card: "Het Île de la Cité en de oevers van de Seine, van de Notre-Dame tot de Pont Neuf en het Louvre." }
   rome: { card: "Van de Piazza Venezia over de Via del Corso naar het Pantheon, met het Forum en het Colosseum aan de rand." }
-  london: { name: Londen, card: "Van Trafalgar Square door Whitehall naar de Big Ben, en terug langs de Theems." }
-  venice: { name: Venetië, card: "Van het San Marcoplein door de Mercerie naar de Rialtobrug, tussen de kanalen." }
+  london: { slug: londen, name: Londen, card: "Van Trafalgar Square door Whitehall naar de Big Ben, en terug langs de Theems." }
+  venice: { slug: venetie, name: Venetië, card: "Van het San Marcoplein door de Mercerie naar de Rialtobrug, tussen de kanalen." }
   barcelona: { card: "De Rambla af naar het Columbusmonument, en terug door de Gotische Wijk langs de kathedraal." }
   amsterdam: { card: "Van de Dam langs het Singel naar het Spui, tussen de grachten en hun gevelhuizen." }
   florence: { card: "Van de Duomo naar de Piazza della Signoria en de Ponte Vecchio over de Arno." }
-  prague: { name: Praag, card: "Van het Oudestadsplein door de Joodse wijk naar de rivier bij de Karelsbrug." }
-  vienna: { name: Wenen, card: "Van de Stephansdom over de Graben naar de Hofburg, en over de Ring naar de Opera." }
-  berlin: { name: Berlijn, card: "Van de Brandenburger Tor over Unter den Linden naar de Gendarmenmarkt." }
+  prague: { slug: praag, name: Praag, card: "Van het Oudestadsplein door de Joodse wijk naar de rivier bij de Karelsbrug." }
+  vienna: { slug: wenen, name: Wenen, card: "Van de Stephansdom over de Graben naar de Hofburg, en over de Ring naar de Opera." }
+  berlin: { slug: berlijn, name: Berlijn, card: "Van de Brandenburger Tor over Unter den Linden naar de Gendarmenmarkt." }
   madrid: { card: "Van de Puerta del Sol over de Calle Mayor naar het Koninklijk Paleis en de Plaza de Oriente." }
-  copenhagen: { name: Kopenhagen, card: "Van Nyhavn langs Christiansborg naar het Raadhuisplein, en terug over de Strøget." }
-  brussels: { name: Brussel, card: "Rond de Grote Markt, langs de Beurs en Manneken Pis." }
-  bruges: { name: Brugge, card: "Van de Markt en het Belfort langs de reien naar de Onze-Lieve-Vrouwekerk." }
-  antwerp: { name: Antwerpen, card: "Van de Grote Markt naar Het Steen aan de Schelde, en terug langs de kathedraal." }
+  copenhagen: { slug: kopenhagen, name: Kopenhagen, card: "Van Nyhavn langs Christiansborg naar het Raadhuisplein, en terug over de Strøget." }
+  brussels: { slug: brussel, name: Brussel, card: "Rond de Grote Markt, langs de Beurs en Manneken Pis." }
+  bruges: { slug: brugge, name: Brugge, card: "Van de Markt en het Belfort langs de reien naar de Onze-Lieve-Vrouwekerk." }
+  antwerp: { slug: antwerpen, name: Antwerpen, card: "Van de Grote Markt naar Het Steen aan de Schelde, en terug langs de kathedraal." }
   avignon: { card: "De stad van de pausen: het Pausenpaleis, de Place de l’Horloge en de brug over de Rhône." }
   salerno: { card: "De stad aan de golf, aan het begin van de Amalfikust: de Duomo, de oude koopmansstraat en de palmen van de Lungomare." }
   siena: { card: "De gotische bakstenen stad op drie heuvels: de schelp van de Campo, de Torre del Mangia en de gestreepte kathedraal." }
@@ -98,7 +133,7 @@ cities:
   rotterdam: { card: "De havenstad die zich na 1940 herbouwde: de Markthal, de kubuswoningen en de Erasmusbrug over de Maas." }
   delft: { card: "De stad van Vermeer, vol grachten en gevels: de Markt, de Nieuwe Kerk van het Huis van Oranje en de scheve Oude Kerk." }
   lecce: { card: "De barokke oude stad van Apulië, van Santa Croce tot het Romeinse amfitheater." }
-  ghent: { name: Gent, card: "Zo’n 40.000 gebouwen op hun echte hoogte, van het Belfort tot de Overpoort." }
+  ghent: { slug: gent, name: Gent, card: "Zo’n 40.000 gebouwen op hun echte hoogte, van het Belfort tot de Overpoort." }
   new-york: { card: "De stad van wolkenkrabbers en gele taxi’s: Times Square, het Empire State Building, Grand Central en het Chrysler Building." }
   istanbul: { card: "De stad op twee continenten: de Hagia Sophia, de Blauwe Moskee, de Grote Bazaar en de veerboten op de Gouden Hoorn." }
   san-francisco: { card: "Van de lampionnen van Chinatown langs de Transamerica Pyramid naar het Ferry Building aan de baai." }

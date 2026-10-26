@@ -1,13 +1,14 @@
 {%- comment -%}
   Links every landmark of a city and every famous piece of art in it that a text names, once each:
   {% include link-landmarks.html text=t city='paris' landmarks=list %} prints the text, list being
-  _data/landmarks/<city>.json (see link-first.html for what counts as a mention). The art is the
+  _data/landmarks/<city>.json (see link-first.html for what counts as a mention); names=, the landmarks' names in another language (_data/i18n/<lang>/<city>.yml). The art is the
   pieces of _data/art.json in the city's museums.
 {%- endcomment -%}
 {%- assign ll_text = include.text -%}
 {%- for ll in include.landmarks -%}
   {%- assign ll_url = '/' | append: include.city | append: '/landmark/' | append: ll.id | append: '/' -%}
-  {%- capture ll_text %}{% include link-first.html text=ll_text name=ll.name url=ll_url %}{% endcapture -%}
+  {%- assign ll_name = include.names[ll.id].name | default: ll.name -%}
+  {%- capture ll_text %}{% include link-first.html text=ll_text name=ll_name url=ll_url %}{% endcapture -%}
 {%- endfor -%}
 {%- assign ll_museums = site.data.art.museums | where: 'city', include.city -%}
 {%- for ll_m in ll_museums -%}

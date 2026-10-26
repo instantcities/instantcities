@@ -38,7 +38,7 @@
     <section id="{{ m.id }}" class="art-museum">
       <div class="art-museum-head">
         <div>
-          <h2>{% if lm_url %}<a href="{{ lm_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %} <small><a href="/{{ C.id }}/">{{ C.name }}</a></small></h2>
+          <h2>{% if lm_url %}<a href="{{ lm_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %} <small><a href="{% include city-url.html city=C.id %}">{{ C.name }}</a></small></h2>
           <p>{{ m.blurb }}{% if lm_url %} <a href="{{ lm_url }}">More about {{ m.name | replace_first: 'The ', 'the ' }} ›</a>{% endif %}</p>
         </div>
         {%- if m.at %}

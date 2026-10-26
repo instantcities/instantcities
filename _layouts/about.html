@@ -29,7 +29,7 @@
 {%- assign pics = site.data.landmarks[C.id] | where_exp: 'l', 'l.photo' %}{% assign pic = pics[0] | default: pics[0] %}
     <section class="hero home-hero guide-hero page-hero{% if pic %} photo-hero" style="--photo: url('{{ pic.photo.src }}'){% endif %}">
       <div class="hero-text">
-        <p class="crumbs"><a href="/{{ C.id }}/">{{ C.name }}</a> › About the city</p>
+        <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ C.name }}</a> › About the city</p>
         <h1>This is {{ C.name }}</h1>
         <p class="tagline">{{ G.intro }}</p>
         <p class="hero-btns">
@@ -151,12 +151,12 @@
     <section class="cta">
       <h2>See {{ C.name }} for yourself</h2>
       <a class="play" href="/{{ C.id }}/play/">{% include icon.html name="play" %} Play {{ C.game }}</a>
-      <p class="note"><a href="/{{ C.id }}/">Back to {{ C.game }}</a></p>
+      <p class="note"><a href="{% include city-url.html city=C.id %}">Back to {{ C.game }}</a></p>
     </section>
   </main>
 
   <footer>
-    <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="{{ T.urls.cities }}">All cities</a></p>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="{{ T.urls.cities }}">All cities</a></p>
     <p>Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
