@@ -6,8 +6,8 @@
 // Game metres, x across and z along; the door out (to Trafalgar Square) in the hall's south wall.
 import * as THREE from 'three';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, barrel, framed, bench, rope, visitors, crowd } from '../../core/js/inside/rooms.js';
-import { sunflowers, hayWain, arnolfini, temeraire, oldMaster, masterSize } from '../../core/js/inside/art.js';
+import { hall, skylight, barrel, framed, bench, rope, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
+import { sunflowers, hayWain, arnolfini, temeraire, oldMaster, masterSize, famous } from '../../core/js/inside/art.js';
 import { plaque } from '../../core/js/inside/pictures.js';
 
 const TINT = { stone: 0xe4dccc, pier: 0xd8cfbd, vault: 0xf2ecde, rib: 0xd9cfba, wall: 0xe8e0d0 };
@@ -59,6 +59,7 @@ export function makeNationalGallery() {
     let seed = 500;
     for (const [x, ry] of [[C.x0 + 0.47, Math.PI / 2], [C.x1 - 0.47, -Math.PI / 2]]) for (let z = C.z0 + 4; z < C.z1 - 3; z += 5.5) {
       if (Math.abs(z - 14.5) < 3.5) continue;
+      if (x > 0 && Math.abs(z - 26.9) < 0.1) { framed(p, famous('the-rokeby-venus', 2.2, 1.55), 2.2, 1.55, x, 3.4, z, ry); continue; } // Velázquez's Venus at her mirror
       const sd = seed++, [w, h] = masterSize(sd);
       framed(p, oldMaster(sd), w * 1.2, h * 1.2, x, 3.6, z, ry);
     }
@@ -73,7 +74,8 @@ export function makeNationalGallery() {
     skylight(p, E.x0, E.z0, E.x1, E.z1, E.h, { color: 0xe8e4dc, along: 'x', glass: 0.5 });
     framed(p, arnolfini(), 1.0, 1.2, E.x0 + 0.47, 2.4, 14, Math.PI / 2, { f: 0.18 });
     rope(p, [E.x0 + 2.4, 12], [E.x0 + 2.4, 16]);
-    for (const [z, sd] of [[E.z0 + 0.47, 0], [E.z1 - 0.47, Math.PI]]) for (let k = 0; k < 3; k++) { const n = 604 + k * 5 + (sd ? 1 : 0); framed(p, oldMaster(n), 1.4, 1.8, E.x0 + 4 + k * 5, 2.8, z, sd); }
+    for (const [z, sd] of [[E.z0 + 0.47, 0], [E.z1 - 0.47, Math.PI]]) for (let k = 0; k < 3; k++) { const n = 604 + k * 5 + (sd ? 1 : 0); if (!(sd && k === 1)) framed(p, oldMaster(n), 1.4, 1.8, E.x0 + 4 + k * 5, 2.8, z, sd); }
+    framed(p, famous('the-ambassadors', 2.6, 2.6), 2.6, 2.6, E.x0 + 9, 3.0, E.z1 - 0.47, Math.PI, { f: 0.25 }); // Holbein's Ambassadors across from it
     g.add(crowd(E.x0, 14, 5, 3.2, 5.4, Math.PI * 0.15, Math.PI * 0.85, 73));
   }
   // ---- the British room: Constable's Hay Wain and Turner's Temeraire facing each other
@@ -84,7 +86,7 @@ export function makeNationalGallery() {
     skylight(p, B.x0, B.z0, B.x1, B.z1, B.h, { color: 0xe8e4dc, along: 'x', glass: 0.5 });
     framed(p, hayWain(), 4.6, 3.1, cx, 3.2, B.z1 - 0.47, Math.PI, { f: 0.35 });
     framed(p, temeraire(), 3.0, 2.3, cx, 3.0, B.z0 + 0.47, 0, { f: 0.35 });
-    framed(p, oldMaster(611), 3.0, 2.1, B.x1 - 0.47, 3.2, 15, -Math.PI / 2);
+    framed(p, famous('whistlejacket', 2.5, 3.0), 2.5, 3.0, B.x1 - 0.47, 3.4, 15, -Math.PI / 2); // Stubbs's Whistlejacket, rearing up life size
     bench(p, cx, 15, 4, 0);
     g.add(crowd(cx, B.z1, 6, 3.2, 6, Math.PI * 0.7, Math.PI * 1.3, 79));
   }
@@ -96,11 +98,13 @@ export function makeNationalGallery() {
     skylight(p, I.x0, I.z0, I.x1, I.z1, I.h, { color: 0xe8e4dc, glass: 0.5 });
     framed(p, sunflowers(), 1.15, 1.15 * 480 / 380, 0, 2.6, I.z1 - 0.47, Math.PI, { f: 0.2 });
     framed(p, waterLilies(), 8, 2.5, I.x0 + 0.47, 3.2, 52, Math.PI / 2, { f: 0.25 });
-    for (const [x, z, n] of [[I.x1 - 0.47, 46, 652], [I.x1 - 0.47, 58, 656]]) framed(p, oldMaster(n), 2.6, 1.85, x, 3.0, z, -Math.PI / 2);
+    framed(p, famous('bathers-at-asnieres', 3.6, 2.42), 3.6, 2.42, I.x1 - 0.47, 3.0, 46, -Math.PI / 2); // Seurat's bathers
+    framed(p, famous('the-water-lily-pond', 1.5, 1.42), 1.5, 1.42, I.x1 - 0.47, 2.8, 58, -Math.PI / 2); // and Monet's own bridge over his pond
     rope(p, [-3, I.z1 - 3], [3, I.z1 - 3]);
     bench(p, 0, 50, 4, 0);
     g.add(crowd(0, I.z1, 10, 3.8, 7.5, Math.PI * 0.65, Math.PI * 1.35, 83));
   }
+  g.add(wanderers(p, 23));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: HALL.z0 + 1.6 } };
 }

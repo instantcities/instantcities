@@ -720,10 +720,12 @@ export function buildMap(data, area) {
 
   // Building parts with a height: towers, spires, the nave of a church. A building split into
   // parts is drawn from its parts, like 3D maps do.
+  // (a building or part under the ground, such as a subway station, is left out: it would stand on the street)
+  const underground = t => t.location === 'underground' || parseFloat(t.layer) < 0;
   const parts = [];
   for (const wy of ways) {
     const t = tag(wy);
-    if (!('building:part' in t) || 'building' in t || !(parseFloat(t.height) > 0)) continue;
+    if (!('building:part' in t) || 'building' in t || !(parseFloat(t.height) > 0) || underground(t)) continue;
     const ring = pts(wy);
     if (ring.length < 4 || ring[0] !== ring[ring.length - 1] || !near(centroid(ring))) continue;
     const g = ring.slice(0, -1).map(G);
@@ -903,7 +905,7 @@ export function buildMap(data, area) {
     const closed = ring.length >= 4 && ring[0] === ring[ring.length - 1];
     if (closed) ring = ring.slice(0, -1);
     if ('building' in t && closed && ring.length >= 3) {
-      if (!near(centroid(ring))) continue;
+      if (!near(centroid(ring)) || underground(t)) continue;
       const g = ring.map(G), a = polyArea(g);
       const mine = parts.filter(q => !q.parent && inside(q.c, g));
       if (mine.reduce((sum, q) => sum + q.a, 0) > 0.5 * a) {
@@ -979,8 +981,21 @@ export function buildMap(data, area) {
 
   // church parts are stone like their church; tall parts of anything else are towers too
   const STONE = new Set(['church', 'cathedral', 'chapel']);
-  for (const q of parts) {
-    if (!q.parent && parseFloat(q.t.height) < 20) continue;
+  // A part never floats: where OSM maps the top of a tower but not what holds it up (common in New
+  // York), its base comes down onto the highest part or building below it, or onto the ground.
+  const drawn = parts.filter(q => q.parent || parseFloat(q.t.height) >= 20);
+  const under = out.buildings.map(b => ({ g: Array.from({ length: b.p.length / 2 }, (_, i) => [b.p[2 * i], b.p[2 * i + 1]]), top: b.h != null ? b.h / S : b.f * 3 }));
+  for (const q of drawn) {
+    const base = parseFloat(q.t.min_height);
+    if (!(base > 0)) continue;
+    const below = [
+      ...drawn.filter(o => o !== q && !(parseFloat(o.t.min_height) >= base) && inside(q.c, o.g)).map(o => parseFloat(o.t.height)),
+      ...under.filter(o => inside(q.c, o.g)).map(o => o.top),
+    ].filter(top => top <= base + 0.5);
+    const top = Math.max(0, ...below);
+    if (top < base - 2) q.t = { ...q.t, min_height: String(top) };
+  }
+  for (const q of drawn) {
     addBuilding(q.wy, q.t, q.g, STONE.has(q.parent) || parseFloat(q.t.height) >= 20 ? 'part' : q.parent);
   }
 

@@ -7,7 +7,8 @@
 // Delights, the churches' rose windows, San Marco's gold and the Ishtar Gate's blue bricks, and any
 // number of old masters to fill the walls round them. Far too simple, and meant to be seen from a few metres
 // off, like the Lam Gods (lamgods.js). The famous ones (REAL below) get their real photo painted over
-// the drawing as soon as it has loaded (photo.js); the drawing stays where it cannot load.
+// the drawing as soon as it has loaded (photo.js); the drawing stays where it cannot load. The rest of
+// the famous ones (famous()) have no drawing of their own, only a dim canvas until their photo is in.
 import * as THREE from 'three';
 import { photo } from './photo.js';
 
@@ -457,6 +458,21 @@ export function oldMaster(seed) {
     varnish(g, w, h, 0.45);
   });
 }
+// One of the famous ones without a drawing of its own: hung w × h (game metres, its own shape), its
+// real photo painted on as soon as it has loaded (photo.js); until then, and where it cannot load, a
+// dim varnished canvas with a few soft shapes on it, from its id.
+export function famous(id, w, h) {
+  const W = w >= h ? 512 : Math.round((512 * w) / h), H = w >= h ? Math.round((512 * h) / w) : 512;
+  const tex = art(`famous:${id}`, W, H, g => {
+    const rnd = rngOf([...id].reduce((n, c) => (n * 31 + c.charCodeAt(0)) % 99991, 7));
+    sky(g, W, H, ['#5a4a32', '#3a4a5a', '#6a5a3a', '#2a2a22'][Math.floor(rnd() * 4)], ['#2a2016', '#4a3a28', '#1a1612'][Math.floor(rnd() * 3)]);
+    for (let k = 0; k < 9; k++) ellipse(g, rnd() * W, H * (0.3 + rnd() * 0.6), 20 + rnd() * W * 0.15, 20 + rnd() * H * 0.15, `rgba(${['230,200,150', '160,40,40', '60,80,140', '240,230,210'][k % 4]},${0.12 + rnd() * 0.2})`);
+    varnish(g, W, H, 0.5);
+  });
+  if (!tex.userData.real) { tex.userData.real = id; photo(tex, id); }
+  return tex;
+}
+
 // how wide and high an old master hangs, in game metres
 export const masterSize = seed => (['portrait', 'landscape', 'scene', 'still', 'madonna'][seed % 5] === 'portrait' || seed % 5 === 4 ? [1.6, 2.1] : [2.6, 1.85]);
 

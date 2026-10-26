@@ -48,8 +48,8 @@ export function makeDuomo() {
   p.picture(clockFace(), 6, 6, 0, 22, zW + 0.9, 0);
   pews(p, zW + 10, -a - 6, 6, 2);
   // Hawkwood on the north aisle wall, and his twin Niccolò da Tolentino beside him
-  framed(p, hawkwood(), 6, 9.4, -b + 0.9, 7, -a - 2.4 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false });
-  framed(p, hawkwood(false), 6, 9.4, -b + 0.9, 7, -a - 3.2 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false });
+  framed(p, hawkwood(), 6, 9.4, -b + 0.9, 7, -a - 2.4 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false, lamp: false });
+  framed(p, hawkwood(false), 6, 9.4, -b + 0.9, 7, -a - 3.2 * P, Math.PI / 2, { f: 0.3, color: 0x8a6a4a, label: false, lamp: false });
 
   // the dome: an octagon of painted vault over the crossing, the Last Judgment in rings up to the
   // lantern's eye, on its drum with the round windows

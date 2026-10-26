@@ -59,6 +59,23 @@
     - { icon: flag, title: "A race: Westminster", text: "From Charing Cross down Whitehall past Downing Street to Parliament Square and Big Ben, and back along the Thames on the Victoria Embankment." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
+- id: new-york
+  name: New York
+  country: United States
+  lat: 40.7549
+  lon: -73.984
+  game: Instant New York
+  title: "Instant New York: a free 3D game of New York, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of Midtown Manhattan in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback among the skyscrapers of Manhattan!"
+  lead: "Midtown Manhattan in 3D, round 42nd Street: Times Square, Bryant Park and the Public Library, Grand Central, the Chrysler Building, the Empire State Building and Rockefeller Center, every tower from OpenStreetMap."
+  card: "The city of skyscrapers and yellow cabs: Times Square, the Empire State Building, Grand Central and the Chrysler Building."
+  features:
+    - { icon: city, title: "The real Midtown", text: "About 6,500 buildings from OpenStreetMap, most at their real height: the Empire State Building stands 443 metres to the tip of its mast, the Chrysler Building 319. More of the city comes later." }
+    - { icon: tower, title: "Towers, a station and a library", text: "Times Square under its screens, the Empire State Building on 34th Street, the Public Library and Bryant Park on Fifth Avenue, Grand Central and the Chrysler Building on 42nd Street, and Rockefeller Center." }
+    - { icon: flag, title: "A race: Midtown Loop", text: "Down Seventh Avenue through Times Square, along 34th Street to the Empire State Building, up Fifth Avenue past the library, along 42nd Street to the Chrysler Building and back by Rockefeller Center." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
 - id: venice
   name: Venice
   country: Italy
@@ -93,6 +110,24 @@
     - { icon: flag, title: "A race: Rambla and Gothic Quarter", text: "From Plaça de Catalunya down the Rambla to the Columbus monument, through the Gothic Quarter past Plaça de Sant Jaume and the cathedral, and back up Portal de l’Àngel." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
+- id: istanbul
+  name: Istanbul
+  country: Turkey
+  lat: 41.0082
+  lon: 28.9784
+  map_label: l
+  game: Instant Istanbul
+  title: "Instant Istanbul: a free 3D game of Istanbul, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of Istanbul's old peninsula in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback between the mosques and bazaars of Istanbul!"
+  lead: "The old peninsula of Istanbul in 3D, between the Golden Horn and the Sea of Marmara: the Hagia Sophia, the Blue Mosque, the Grand Bazaar and the quays of Eminönü, every building from OpenStreetMap."
+  card: "The city on two continents: the Hagia Sophia, the Blue Mosque, the Grand Bazaar and the ferries on the Golden Horn."
+  features:
+    - { icon: city, title: "The real Istanbul", text: "About 4,100 buildings from OpenStreetMap on the old peninsula, from Sultanahmet down to the Golden Horn, with the sea round its tip. More of the city comes later." }
+    - { icon: columns, title: "Domes, bazaars and the Golden Horn", text: "The Hagia Sophia, the Blue Mosque and the Hippodrome, the Basilica Cistern, the gate of Topkapı Palace, the Grand Bazaar, Sirkeci Station, and the New Mosque and the Spice Bazaar at Eminönü." }
+    - { icon: flag, title: "A race: Sultanahmet", text: "From the Hagia Sophia along the Divan Yolu to the Column of Constantine and the Grand Bazaar, down the Ankara Caddesi to Sirkeci, and back past Gülhane Park and the gate of Topkapı Palace." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
 - id: amsterdam
   name: Amsterdam
   country: Netherlands
@@ -108,6 +143,23 @@
     - { icon: city, title: "The real Amsterdam", text: "About 7,900 buildings from OpenStreetMap, a small first piece of the centre. More of the city comes later." }
     - { icon: gables, title: "Between the canals", text: "The Dam and the Royal Palace, the Singel, the Spui and the Rokin, with the Westerkerk, the Nieuwmarkt and Centraal Station to ride to." }
     - { icon: flag, title: "A race: Dam and Singel", text: "From the Dam past the Royal Palace to the Singel, along the canal to the Spui and back up the Rokin to the Dam." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
+- id: san-francisco
+  name: San Francisco
+  country: United States
+  lat: 37.7946
+  lon: -122.405
+  game: Instant San Francisco
+  title: "Instant San Francisco: a free 3D game of San Francisco, by bike, on foot or on horseback"
+  description: "Cycle, walk or gallop through a 3D version of the centre of San Francisco in your browser. Explore the city, race or take the tour, alone or two players on one keyboard."
+  tagline: "Explore or race by bike, on foot or on horseback through San Francisco, from Chinatown to the bay!"
+  lead: "The north-east of San Francisco in 3D, by the bay: Chinatown and the Dragon Gate, the Transamerica Pyramid, the Ferry Building, Union Square and Coit Tower on Telegraph Hill, every building from OpenStreetMap."
+  card: "From Chinatown's lanterns past the Transamerica Pyramid to the Ferry Building on the bay."
+  features:
+    - { icon: city, title: "The real San Francisco", text: "About 4,100 buildings from OpenStreetMap, from the painted wooden houses of North Beach to the towers of the Financial District at their real heights, a first piece of the city by the bay. More of the city comes later." }
+    - { icon: tower, title: "Towers, cable cars and the bay", text: "The Transamerica Pyramid, Coit Tower on Telegraph Hill, the Ferry Building on the Embarcadero, Union Square and the cable car turntable on Powell Street, and Chinatown along Grant Avenue." }
+    - { icon: flag, title: "A race: Chinatown to the Bay", text: "Down Grant Avenue through Chinatown, along Bush Street through the Financial District, down Market Street to the Ferry Building, along the Embarcadero and back past the Transamerica Pyramid." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
 - id: florence
