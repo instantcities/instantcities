@@ -86,6 +86,11 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Florence | Porcellino | `florence/porcellino.js` | bump into his plinth |
 | Berlin | Brandenburger Tor | `berlin/tor.js` | go through its five passages |
 | Venice | Campanile di San Marco and the Loggetta | `venice/campanile.js` | bump into both |
+| Venice | Basilica di San Marco | `venice/basilica.js` | bump into it |
+| Venice | Palazzo Ducale | `venice/ducale.js` | bump into it |
+| Venice | Ponte di Rialto | `venice/rialto.js` | ride over it, through the portico (the map's level deck) |
+| Venice | Ponte dei Sospiri, Torre dell'Orologio, the Piazzetta's columns, the flagpoles | `venice/piazza.js` | ride through the clock tower's arch |
+| Venice | La Fenice's front | `venice/fenice.js` | ride past it |
 | Copenhagen | Rundetårn | `copenhagen/rundetaarn.js` | bump into it |
 | Prague | Prašná brána | `prague/prasna-brana.js` | ride through it along Celetná |
 | London | Elizabeth Tower (Big Ben) | `london/elizabeth-tower.js` | bump into it |

@@ -31,6 +31,20 @@ export class Kit {
     return this.add(g, hex, ...a);
   }
 
+  // a block w0 by d0 at the bottom narrowing to w1 by d1 at the top, h high, standing at (x, y, z)
+  // and turned ry: a mansard or a hipped roof (w1 or d1 0 for a ridge), a pavilion's tall roof
+  frustum(w0, d0, w1, d1, h, hex, x = 0, y = 0, z = 0, ry = 0) {
+    const b = [[-w0, -d0], [w0, -d0], [w0, d0], [-w0, d0]].map(([a, c]) => [a / 2, 0, c / 2]);
+    const t = [[-w1, -d1], [w1, -d1], [w1, d1], [-w1, d1]].map(([a, c]) => [a / 2, h, c / 2]);
+    const pos = [];
+    const quad = (p, q, r, s) => pos.push(...p, ...q, ...r, ...p, ...r, ...s);
+    for (let k = 0; k < 4; k++) quad(b[k], t[k], t[(k + 1) % 4], b[(k + 1) % 4]);
+    quad(t[0], t[3], t[2], t[1]);
+    quad(b[0], b[1], b[2], b[3]);
+    const g = new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+    return this.add(g, hex, x, y, z, 0, ry);
+  }
+
   // everything added so far as one geometry (position, normal, color)
   geometry() {
     const count = this.pieces.reduce((n, g) => n + g.attributes.position.count, 0);
