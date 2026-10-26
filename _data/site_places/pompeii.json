@@ -22,34 +22,55 @@
  },
  {
   "n": 4,
+  "id": "apollo",
+  "emoji": "☀️",
+  "name": "Temple of Apollo",
+  "text": "The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies."
+ },
+ {
+  "n": 5,
+  "id": "stepping-stones",
+  "emoji": "🪨",
+  "name": "Stepping stones",
+  "text": "Streets ran with rainwater and rubbish, so there are blocks of lava to cross on. The gaps between them are as wide as a cart’s wheels, and you can still see the ruts the carts cut in the paving."
+ },
+ {
+  "n": 6,
   "id": "stabian-baths",
   "emoji": "🛁",
   "name": "The Stabian Baths",
   "text": "The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there."
  },
  {
-  "n": 5,
+  "n": 7,
   "id": "lupanare",
   "emoji": "🏮",
   "name": "The Lupanare",
   "text": "A small two-floor brothel with ten rooms, the best known of the town’s many. Its stone beds and the pictures and graffiti on its walls are still there."
  },
  {
-  "n": 6,
+  "n": 8,
   "id": "casa-del-fauno",
   "emoji": "🗿",
   "name": "House of the Faun",
   "text": "The biggest house in Pompeii, filling a whole block, with two atria and two gardens. A small bronze faun dances in its pool. The huge mosaic of Alexander the Great in battle was found here."
  },
  {
-  "n": 7,
+  "n": 9,
   "id": "grand-theatre",
   "emoji": "🎭",
   "name": "The Great Theatre",
   "text": "A Greek-style theatre cut into the hillside in the 2nd century BC, for about 5,000 people. The smaller Odeon beside it was roofed, for concerts and readings."
  },
  {
-  "n": 8,
+  "n": 10,
+  "id": "casts",
+  "emoji": "⚱️",
+  "name": "Garden of the Fugitives",
+  "text": "Thirteen people, children among them, died in this garden under the ash. Their bodies rotted away and left hollows in the ash, which had set hard. In 1863 Giuseppe Fiorelli had plaster poured into the hollows, and the casts show the people as they lay. More are in the Forum Granaries."
+ },
+ {
+  "n": 11,
   "id": "amphitheatre",
   "emoji": "🏟️",
   "name": "The Amphitheatre",

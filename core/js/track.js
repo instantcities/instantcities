@@ -190,12 +190,12 @@ export class Track {
     // the road: no centre line along one-way stretches, and cobbles (kasseien) where the street has them
     // and across a square (this.paved) nothing: the road is the square's own stones, drawn with it
     // (sett 1), or big flat slabs (sett 2)
-    const sett = new THREE.MeshStandardMaterial({ map: settTexture(), roughness: 0.95 });
-    const slabs = new THREE.MeshStandardMaterial({ map: slabTexture(theme), roughness: 0.9 });
+    const sett = new THREE.MeshStandardMaterial({ map: theme.roman ? lavaTexture() : settTexture(), roughness: 0.95 });
+    const slabs = new THREE.MeshStandardMaterial({ map: theme.roman ? lavaTexture() : slabTexture(theme), roughness: 0.9 });
     const none = new THREE.MeshBasicMaterial({ visible: false });
     group.add(this.band(-hw, hw, y0 + 0.025, [asphalt(), asphalt({ centre: false }), sett, none, slabs].map(m => onGround(m, y0 + 0.025)), i => (this.paved?.[i] ? 3 : this.sett?.[i] === 2 ? 4 : this.sett?.[i] ? 2 : this.lineless?.[i] ? 1 : 0), 12, 1));
     // pavements, opening up into asphalt where a side street comes in
-    const pavement = new THREE.MeshStandardMaterial({ color: 0xffffff, map: pavementTexture(theme.verge), roughness: 0.95 });
+    const pavement = new THREE.MeshStandardMaterial({ color: 0xffffff, map: theme.roman ? gravelTexture(theme.verge) : pavementTexture(theme.verge), roughness: 0.95 });
     const plain = asphalt({ centre: false, edges: false });
     for (const side of [1, -1]) {
       const [a, b] = side > 0 ? [hw - 0.05, hw + pav] : [-hw - pav, -hw + 0.05];
@@ -416,6 +416,77 @@ export function settTexture(cols = 24, rows = 32, { stone, joint = '#3b3a37' } =
 // (theme.paving): the lanes of a southern old town, where nobody ever laid asphalt.
 export function slabTexture(theme = {}) {
   return settTexture(5, 14, { stone: theme.paving ?? '#c9c4ba', joint: '#8f8676' });
+}
+
+// The street of a Roman town (Pompeii's): irregular blocks of dark lava laid close, their tops worn
+// smooth and pale, with a joint of grey grit between, and the two ruts the cart wheels wore, a
+// wheel apart, running along it. Drawn for a strip 6.4 m across and 12 m long (40 px to a metre).
+export function lavaTexture() {
+  const W = 256, H = 512, cols = 7, rows = 16, rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
+  const t = canvasTexture(W, H, g => {
+    g.fillStyle = '#4f493f';
+    g.fillRect(0, 0, W, H);
+    // a lattice of corners, each moved a good way off its place: the quads between are the blocks
+    const cw = W / cols, ch = H / rows, px = [], py = [];
+    for (let j = 0; j <= rows; j++) {
+      px.push([]); py.push([]);
+      for (let i = 0; i <= cols; i++) {
+        const wrap = i === cols ? 0 : i, row = j === rows ? 0 : j; // the last corners are the first again, so the tile meets itself
+        const key = wrap * 31 + row;
+        const r1 = ((Math.sin(key * 12.9898) * 43758.5453) % 1 + 1) % 1, r2 = ((Math.sin(key * 78.233) * 12543.131) % 1 + 1) % 1;
+        px[j].push(i * cw + (r1 - 0.5) * cw * 0.45 + (j % 2) * cw * 0.2);
+        py[j].push(j * ch + (r2 - 0.5) * ch * 0.42);
+      }
+    }
+    for (let j = 0; j < rows; j++) {
+      for (let i = -1; i < cols + 1; i++) {
+        const a = Math.max(0, Math.min(cols, i)), b = Math.max(0, Math.min(cols, i + 1));
+        if (a === b) continue;
+        const v = 70 + rnd() * 34, warm = rnd() * 12, shift = i < 0 ? -W : i >= cols ? W : 0;
+        const pts = [[px[j][a], py[j][a]], [px[j][b], py[j][b]], [px[j + 1][b], py[j + 1][b]], [px[j + 1][a], py[j + 1][a]]];
+        for (const o of [0, -W]) { // (drawn again a tile over where it runs off the edge)
+          const dx = shift + o;
+          g.beginPath();
+          const cx = pts.reduce((s, p) => s + p[0], 0) / 4 + dx, cy = pts.reduce((s, p) => s + p[1], 0) / 4;
+          pts.forEach(([x, y], k) => { const X = cx + (x + dx - cx) * 0.95, Y = cy + (y - cy) * 0.95; k ? g.lineTo(X, Y) : g.moveTo(X, Y); });
+          g.closePath();
+          g.fillStyle = `rgb(${v + warm},${v + warm * 0.7},${v - 4})`;
+          g.fill();
+          g.fillStyle = 'rgba(210,200,180,0.13)'; // worn pale on top
+          g.fill();
+        }
+      }
+    }
+    // grit and fine cracks
+    for (let k = 0; k < 2600; k++) { g.fillStyle = rnd() < 0.5 ? 'rgba(0,0,0,0.12)' : 'rgba(225,215,195,0.14)'; g.fillRect(rnd() * W, rnd() * H, 1 + rnd() * 2, 1 + rnd() * 1.5); }
+    // the ruts: a smoother, paler groove each, a cart's wheel gauge apart (about 1.4 m)
+    for (const x of [W * 0.5 - 28, W * 0.5 + 28]) {
+      const rut = g.createLinearGradient(x - 11, 0, x + 11, 0);
+      rut.addColorStop(0, 'rgba(0,0,0,0)'); rut.addColorStop(0.5, 'rgba(0,0,0,0.3)'); rut.addColorStop(1, 'rgba(0,0,0,0)');
+      g.fillStyle = rut;
+      g.fillRect(x - 11, 0, 22, H);
+      g.fillStyle = 'rgba(190,180,160,0.1)';
+      g.fillRect(x - 3, 0, 6, H);
+    }
+  });
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+
+// The pavements of a Roman town: raised, laid with grit and gravel, no slabs.
+export function gravelTexture(color) {
+  const t = canvasTexture(128, 128, g => {
+    const [r, gr, b] = [color >> 16 & 255, color >> 8 & 255, color & 255];
+    g.fillStyle = `rgb(${r},${gr},${b})`;
+    g.fillRect(0, 0, 128, 128);
+    for (let k = 0; k < 900; k++) {
+      const v = (Math.random() - 0.5) * 60;
+      g.fillStyle = `rgba(${r + v},${gr + v},${b + v * 0.8},0.75)`;
+      g.fillRect(Math.random() * 128, Math.random() * 128, 1 + Math.random() * 3, 1 + Math.random() * 2.4);
+    }
+  });
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
 }
 
 function pavementTexture(color) {

@@ -24,6 +24,20 @@ export const SIGHTS = [
     },
   },
   {
+    id: 'apollo', emoji: '☀️', x: -183, z: 160, r: 50,
+    text: {
+      en: { name: 'Temple of Apollo', text: 'The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.' },
+      nl: { name: 'Apollotempel', text: 'De oudste tempel van Pompeii, uit de 6de eeuw v.Chr., in een hof met een zuilengang van 48 zuilen. Apollo was de beschermer van de stad. De beelden hier zijn kopieën.' },
+    },
+  },
+  {
+    id: 'stepping-stones', emoji: '🪨', x: -60, z: 100, r: 40,
+    text: {
+      en: { name: 'Stepping stones', text: 'Streets ran with rainwater and rubbish, so there are blocks of lava to cross on. The gaps between them are as wide as a cart’s wheels, and you can still see the ruts the carts cut in the paving.' },
+      nl: { name: 'Stapstenen', text: 'Straten stonden vol regenwater en afval, dus er liggen blokken lava om over te steken. De openingen ertussen zijn zo breed als de wielen van een kar, en je ziet nog de sporen die de karren in het plaveisel sleten.' },
+    },
+  },
+  {
     id: 'stabian-baths', emoji: '🛁', x: 148, z: 52, r: 60,
     text: {
       en: { name: 'The Stabian Baths', text: 'The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.' },
@@ -49,6 +63,13 @@ export const SIGHTS = [
     text: {
       en: { name: 'The Great Theatre', text: 'A Greek-style theatre cut into the hillside in the 2nd century BC, for about 5,000 people. The smaller Odeon beside it was roofed, for concerts and readings.' },
       nl: { name: 'Het Grote Theater', text: 'Een theater in Griekse stijl, in de 2de eeuw v.Chr. in de heuvel uitgehouwen, voor zo’n 5.000 mensen. Het kleinere Odeon ernaast had een dak, voor concerten en voordrachten.' },
+    },
+  },
+  {
+    id: 'casts', emoji: '⚱️', x: 738, z: 162, r: 45,
+    text: {
+      en: { name: 'Garden of the Fugitives', text: 'Thirteen people, children among them, died in this garden under the ash. Their bodies rotted away and left hollows in the ash, which had set hard. In 1863 Giuseppe Fiorelli had plaster poured into the hollows, and the casts show the people as they lay. More are in the Forum Granaries.' },
+      nl: { name: 'Tuin van de Vluchtelingen', text: 'Dertien mensen, onder wie kinderen, stierven in deze tuin onder de as. Hun lichamen vergingen en lieten holtes na in de as, die hard was geworden. In 1863 liet Giuseppe Fiorelli gips in de holtes gieten, en de afgietsels tonen de mensen zoals ze lagen. Meer ervan staan in de graanschuren van het Forum.' },
     },
   },
   {
