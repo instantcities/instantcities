@@ -15,6 +15,10 @@
 //   frame.js         latitude and longitude to the map's metres
 //   forum.js         the Forum's colonnades and the Temple of Jupiter
 //   amphitheatre.js  the amphitheatre
+//   public.js        the theatres, the Basilica, the Temple of Apollo and the other public buildings
+//   stones.js        the stepping stones across the streets
+//   columns.js       fluted columns, fallen drums and pedestals, for the Forum and the temples
+//   casts.js         the plaster casts of the victims: the Garden of the Fugitives and the Granaries
 //   vesuvius.js      Vesuvius on the horizon
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -23,9 +27,13 @@ export { QUESTS } from './quests.js';
 import { FORUM } from './forum.js';
 import { AMPHITHEATRE } from './amphitheatre.js';
 import { VESUVIUS } from './vesuvius.js';
+import { PUBLICS } from './public.js';
+import { STONES } from './stones.js';
+import { CASTS } from './casts.js';
 
-export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...VESUVIUS];
+export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
+export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the streets
 export { SIGHTS } from './sights.js';
 export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
@@ -45,13 +53,14 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#b8a27a', paving: '#9b9484', verge: 0x9b9484, kerb: 0xaaa392, fog: [300, 1500], weathers: ['clear'] };
+export const THEME = { ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {
   walls: [
     ['#c55a36', false], ['#d9a85a', false], ['#e8d8b0', false], ['#d98e6a', false], ['#e0c070', false],
-    ['#b8643e', false], ['#ecdcb8', false], ['#cf9a60', false],
+    ['#b8643e', false], ['#ecdcb8', false], ['#cf9a60', false], ['#c9824f', false], ['#d8c090', false],
+    ['#bf6b45', false], ['#e2cf9e', false],
   ],
   bigWalls: ['#dccaa0', '#d4b98a', '#c9a678', '#e0cfa8'],
   roofs: [0xb4623c, 0xa5563a, 0xc0704a],
@@ -62,6 +71,31 @@ export const LOOK = {
   spires: false,
   houseBlocks: true,
   style: 'roman', // the house fronts of js/roman.js
+  ruins: true, // ... drawn as what the excavation has left of them: broken walls, no roofs (js/roman.js)
+  grass: '#b1a893', // the open ground is bare dust and gravel, not grass
+};
+
+// The visitors: it is a busy day, with crowds along the main streets and round the Forum and the baths.
+export const BUSY = {
+  walkers: 320,
+  cyclists: 0,
+  streets: [
+    { street: 'Via dell\'Abbondanza', weight: 4, free: true },
+    { street: 'Via Stabiana', weight: 3, free: true },
+    { street: 'Via del Foro', weight: 4, free: true, across: 20 },
+    { street: 'Via della Fortuna', weight: 3, free: true },
+    { street: 'Via di Mercurio', weight: 2, free: true },
+    { street: 'Via dei Teatri', weight: 2, free: true },
+    { street: 'Via delle Terme', weight: 2, free: true },
+    { street: 'Via Consolare', weight: 1.5, free: true },
+    { street: 'Via Marina', weight: 1.5, free: true },
+    { street: 'Via di Nola', weight: 1.5, free: true },
+    { street: 'Via di Nocera', weight: 1.5, free: true },
+    { street: 'Vicolo di Mercurio', weight: 1, free: true },
+    { street: 'Vicolo del Lupanare', weight: 1.5, free: true },
+    { street: 'Vicolo del Fauno', weight: 1, free: true },
+    { street: 'Vicolo di Modesto', weight: 1, free: true },
+  ],
 };
 
 // Places named on the big map when riding about freely: click a name to teleport there.
@@ -73,4 +107,5 @@ export const PLACES = [
   at('Stabian Baths', 40.7510, 14.4896, 'r'),
   at('Great Theatre', 40.7481, 14.4915, 'r'),
   at('Amphitheatre', 40.7498, 14.4990, 'r'),
+  { name: 'Garden of the Fugitives', x: 738, z: 162, side: 'r' }, // where the casts of the victims lie (casts.js)
 ];
