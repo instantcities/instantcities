@@ -113,6 +113,10 @@ Built on it so far, each in its city's folder and listed in its `city.js`:
 | Paris | Palais du Louvre and the Arc du Carrousel | `paris/louvre.js` | ride into the Cour Carrée and through the Guichets |
 | Barcelona | Monument a Colom | `barcelona/colom.js` | ride round its steps |
 | Bruges | Belfort | `bruges/belfort.js` | bump into it, short of the Markt's footway |
+| Bruges | Stadhuis's front | `bruges/burg.js` | ride past it on the Burg |
+| Bruges | Heilig-Bloedbasiliek | `bruges/burg.js` | bump into it |
+| Bruges | Onze-Lieve-Vrouwekerk's and Sint-Salvator's towers | `bruges/towers.js` | bump into them |
+| Bruges | Gruuthusepaleis | `bruges/gruuthuse.js` | bump into it |
 
 The Eiffel Tower is not built on the arcade generator but of rods (`Kit.rod`): each leg a lattice
 box of four chords braced in crosses, following the tower's curve from its measured widths at each
