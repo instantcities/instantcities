@@ -44,7 +44,7 @@ export const ART = [
   {"id":"the-garden-of-earthly-delights","title":"The Garden of Earthly Delights","artist":"Hieronymus Bosch","date":"c. 1490–1510","museum":"prado","room":"The Bosch room","view":[16.95,55,16.95,62.04],"photo":true},
   {"id":"the-third-of-may-1808","title":"The Third of May 1808","artist":"Francisco de Goya","date":"1814","museum":"prado","room":"The Black Paintings","view":[16.95,20,16.95,27.53],"photo":true},
   {"id":"the-nobleman-with-his-hand-on-his-chest","title":"The Nobleman with his Hand on his Chest","artist":"El Greco","date":"c. 1580","museum":"prado","room":"The Central Gallery","view":[-2,22.9,-6.53,22.9],"photo":false},
-  {"id":"the-triumph-of-death","title":"The Triumph of Death","artist":"Pieter Bruegel the Elder","date":"c. 1562","museum":"prado","room":"The Bosch room","view":[16.95,57,16.95,52.47],"photo":false},
+  {"id":"the-triumph-of-death","title":"The Triumph of Death","artist":"Pieter Bruegel the Elder","date":"c. 1562","museum":"prado","room":"The Bosch room","view":[16.95,57,16.95,52.47],"photo":true},
   {"id":"the-descent-from-the-cross","title":"The Descent from the Cross","artist":"Rogier van der Weyden","date":"c. 1435","museum":"prado","room":"The Bosch room","view":[21,58,25.53,60],"photo":false},
   {"id":"the-tower-of-babel","title":"The Tower of Babel","artist":"Pieter Bruegel the Elder","date":"1563","museum":"kunsthistorisches","room":"The Bruegel room","view":[33,43,39.47,43],"photo":true},
   {"id":"the-hunters-in-the-snow","title":"The Hunters in the Snow","artist":"Pieter Bruegel the Elder","date":"1565","museum":"kunsthistorisches","room":"The Bruegel room","view":[26.45,47,26.45,53.47],"photo":true},
