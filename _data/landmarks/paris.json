@@ -1,5 +1,27 @@
 [
   {
+    "id": "tour-eiffel",
+    "name": "Eiffel Tower",
+    "local": "Tour Eiffel",
+    "emoji": "🗼",
+    "icon": "tower",
+    "kind": "place",
+    "lat": 48.8582,
+    "lon": 2.2945,
+    "blurb": "Gustave Eiffel’s iron tower on the Champ de Mars, built for the World’s Fair of 1889 and the symbol of Paris ever since.",
+    "text": [
+      "Gustave Eiffel’s company built the tower in two years for the World’s Fair of 1889, the centenary of the Revolution: 18,000 pieces of puddled iron held together by two and a half million rivets. At 300 metres it was the tallest structure in the world for forty years.",
+      "Many artists signed a protest against the “useless and monstrous” tower, and it was only meant to stand for twenty years. It was saved by its radio antennas and became the symbol of the city. You can climb to the first and second floors, or take the lifts to the top at 276 metres."
+    ],
+    "photo": {
+      "src": "/assets/img/photos/paris/tour-eiffel.jpg",
+      "author": "David McSpadden (Flickr)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_the_Tour_Montparnasse_3,_Paris_May_2014.jpg"
+    }
+  },
+  {
     "id": "notre-dame",
     "name": "Notre-Dame",
     "emoji": "⛪",
