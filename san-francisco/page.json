@@ -1,0 +1,12 @@
+{
+  "id": "san-francisco",
+  "name": "Instant San Francisco",
+  "title": "Instant San Francisco: a free 3D game of San Francisco, by bike, on foot or on horseback",
+  "description": "Cycle, walk or gallop through a 3D version of the centre of San Francisco in your browser, from Chinatown to the bay. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
+  "share_title": "Instant San Francisco: play through San Francisco in 3D",
+  "share_description": "Cycle, walk or gallop through San Francisco in your browser, from Chinatown to the Ferry Building. Explore or race, alone or with two. Free.",
+  "ld_description": "A free 3D browser game set in the centre of San Francisco, California: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D San Francisco in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "San Francisco",
+  "style": ":root { --paper: #f7f8fa; --accent: #c0362c; --accent-soft: #f6dcd8; --gold: #e8a33d; --sky: #e6eef5; --skyline: #7d8ea3; --glass: rgba(247, 248, 250, 0.72); } .tag { color: #8f2219; }"
+}

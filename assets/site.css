@@ -1,0 +1,448 @@
+/* The site's pages (home and one per city): black, white and greys, one plain typeface. The game has its own core/style.css. */
+:root {
+  --ink: #111;
+  --paper: #fff;
+  --soft: #f4f4f3;
+  --line: #e2e2e0;
+  --muted: #666;
+  --hover: #333;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font: 400 16px/1.55 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--ink); background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--ink); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: var(--muted); }
+.ic { width: 1.1em; height: 1.1em; flex: none; vertical-align: -0.18em; }
+
+.skip { position: absolute; left: -999px; top: 8px; background: var(--paper); padding: 8px 14px; z-index: 10; }
+.skip:focus { left: 8px; }
+
+/* The bar on top: white, a hairline under it, a light shadow once the page is scrolled */
+.top {
+  position: sticky; top: 0; z-index: 5;
+  display: flex; align-items: center; gap: 8px 28px;
+  padding: 12px max(16px, calc((100vw - 1100px) / 2));
+  background: rgba(255, 255, 255, .94); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line); transition: box-shadow .2s;
+}
+.top.scrolled { box-shadow: 0 1px 12px rgba(0, 0, 0, .06); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; letter-spacing: -.01em; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.brand img { width: 26px; height: 26px; border-radius: 6px; }
+.nav { display: flex; align-items: center; gap: 4px 24px; margin-left: auto; }
+.nav a { color: var(--muted); text-decoration: none; font-size: 15px; font-weight: 500; padding: 4px 0; border-bottom: 1px solid transparent; }
+.nav a:hover { color: var(--ink); }
+.nav a[aria-current] { color: var(--ink); border-bottom-color: var(--ink); }
+.burger { display: none; margin-left: auto; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); cursor: pointer; }
+.burger:hover { background: var(--soft); }
+.burger .ic { width: 20px; height: 20px; }
+.burger .ic:last-child, .menu-open .burger .ic:first-child { display: none; }
+.menu-open .burger .ic:last-child { display: block; }
+
+main > section { padding: 40px max(16px, calc((100vw - 1100px) / 2)); }
+h1, h2, h3 { font-weight: 700; letter-spacing: -.025em; line-height: 1.15; }
+h1 { font-size: clamp(40px, 6.5vw, 68px); letter-spacing: -.04em; margin-bottom: 18px; }
+h2 { font-size: clamp(22px, 2.6vw, 27px); margin-bottom: 16px; }
+h3 { font-size: 18px; margin-bottom: 6px; }
+.beta {
+  display: inline-block; vertical-align: .9em; margin-left: 6px; padding: 3px 7px;
+  font-size: 11px; font-weight: 600; letter-spacing: .08em; line-height: 1;
+  border: 1px solid currentColor; border-radius: 4px; color: var(--muted);
+}
+
+/* The button that starts a game */
+.play {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 24px; border-radius: 6px;
+  background: var(--ink); color: var(--paper); text-decoration: none;
+  font-size: 16px; font-weight: 600; line-height: 1; transition: background .15s;
+}
+.play:hover { background: var(--hover); color: var(--paper); }
+.play .ic { width: .85em; height: .85em; }
+.play.small { padding: 9px 16px; font-size: 14px; }
+.note { margin-top: 16px; color: var(--muted); font-size: 14px; }
+
+/* The hero: grey, the words beside the game's screenshot (or alone, centred) */
+.hero { background: var(--soft); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 48px; align-items: center; }
+.hero:not(.home-hero) h1 { font-size: clamp(36px, 4.6vw, 54px); }
+.home-hero { grid-template-columns: 1fr; text-align: center; padding-block: 96px !important; }
+.home-hero .hero-text { max-width: 720px; margin: 0 auto; }
+.tagline { font-size: 21px; font-weight: 600; line-height: 1.4; letter-spacing: -.01em; margin-bottom: 12px; }
+.lead { color: var(--muted); margin-bottom: 28px; }
+.hero-shot { position: relative; display: block; }
+.hero-shot img { border-radius: 8px; border: 1px solid var(--line); box-shadow: 0 12px 40px rgba(0, 0, 0, .12); filter: saturate(.85); transition: filter .2s; }
+.hero-shot:hover img { filter: none; }
+.play-badge {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: clamp(64px, 10vw, 84px); aspect-ratio: 1; border-radius: 50%;
+  display: grid; place-items: center; color: var(--paper); background: rgba(17, 17, 17, .8);
+  transition: background .15s;
+}
+.play-badge .ic { width: 40%; height: 40%; margin-left: 8%; }
+.hero-shot:hover .play-badge { background: var(--ink); }
+
+.vibe { padding-block: 24px !important; border-bottom: 1px solid var(--line); }
+.vibe p { max-width: 760px; margin: 0 auto; text-align: center; color: var(--muted); font-size: 15px; }
+
+/* Cards: the cities and what there is to do */
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+.card .icon { display: grid; place-items: center; width: 36px; height: 36px; margin-bottom: 10px; border-radius: 6px; background: var(--soft); color: var(--ink); }
+.card .icon .ic { width: 22px; height: 22px; }
+.card p { font-size: 15px; color: #444; }
+.cities .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.city-card { transition: border-color .15s; }
+.city-card:hover { border-color: #bbb; }
+.city-card h3 { font-size: 22px; }
+.city-card h3 a { color: var(--ink); text-decoration: none; }
+.city-card h3 small { color: var(--muted); font-weight: 500; font-size: 14px; letter-spacing: 0; margin-left: 6px; }
+.city-links { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 18px; margin-top: 18px; font-size: 14px; font-weight: 500; }
+.city-links.centred { justify-content: center; }
+.cities .more { margin-top: 24px; font-weight: 500; }
+.cities .more a { text-decoration: none; }
+/* A city still to come: greyed, its tag where the play button would be */
+.soon { border-top: 1px solid var(--line); }
+.is-soon { background: var(--soft); }
+.is-soon h3 a { color: var(--muted); }
+.soon-tag { padding: 4px 9px; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; background: var(--paper); }
+.features { border-top: 1px solid var(--line); }
+
+.screens { border-top: 1px solid var(--line); }
+.shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.shots figure { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.shots img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.shots figcaption { padding: 10px 14px; font-size: 14px; color: var(--muted); }
+
+.cta { text-align: center; border-top: 1px solid var(--line); background: var(--soft); }
+.cta h2 { margin-bottom: 24px; }
+
+footer { padding: 24px max(16px, calc((100vw - 1100px) / 2)) 32px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+footer p + p { margin-top: 8px; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--ink); }
+footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px; color: var(--muted); }
+
+/* A hero over a live tour (_includes/live.html): the flight fills it, darkened at the top and the
+   bottom, and the words are white on it. The poster (or a dark sky) shows until the tour is ready. */
+.live-hero { position: relative; overflow: hidden; isolation: isolate; min-height: min(78vh, 720px); align-content: center; background: #1f2830; color: #fff; border-bottom: 0; }
+.live { position: absolute; inset: 0; z-index: -1; }
+.live img, .live iframe, .live video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; pointer-events: none; }
+.live iframe { opacity: 0; transition: opacity 1.4s; }
+.live.ready iframe { opacity: 1; }
+.live::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(10, 14, 18, .55), rgba(10, 14, 18, .3) 40%, rgba(10, 14, 18, .6)); }
+.live-hero .tagline, .live-hero h1 { color: #fff; text-shadow: 0 2px 18px rgba(0, 0, 0, .35); }
+.live-hero .lead, .live-hero .note { color: rgba(255, 255, 255, .86); }
+.live-hero .beta { color: rgba(255, 255, 255, .8); }
+.live-hero .play { background: #fff; color: var(--ink); }
+.live-hero .play:hover { background: #e9e9e6; color: var(--ink); }
+.hero-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.watch {
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, .7); color: #fff; text-decoration: none;
+  font-size: 16px; font-weight: 600; line-height: 1; transition: background .15s;
+}
+.watch:hover { background: rgba(255, 255, 255, .14); color: #fff; }
+.watch .ic { width: .95em; height: .95em; }
+.live-caption { position: absolute; right: max(16px, calc((100vw - 1100px) / 2)); bottom: 16px; font-size: 13px; color: rgba(255, 255, 255, .8); text-decoration: none; }
+.live-caption::before { content: ''; display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 50%; background: #e5484d; vertical-align: 1px; }
+.live-caption:hover { color: #fff; }
+
+/* Over a live hero (body.over-live) the bar lies on the tour: see-through and white at the top,
+   filling in white with dark words as the page scrolls (--solid, set by _includes/topnav.js) */
+.over-live .top {
+  position: fixed; left: 0; right: 0;
+  background: rgba(255, 255, 255, calc(var(--solid, 0) * .94)); border-bottom-color: rgba(226, 226, 224, var(--solid, 0));
+  backdrop-filter: blur(calc(var(--solid, 0) * 8px));
+}
+.over-live .top.menu-open { background: rgba(255, 255, 255, .94); }
+.over-live .top:not(.solid):not(.menu-open) :is(.brand, .nav a, .nav a:hover) { color: #fff; text-shadow: 0 1px 8px rgba(0, 0, 0, .3); }
+.over-live .top:not(.solid):not(.menu-open) .nav a[aria-current] { border-bottom-color: #fff; }
+.over-live .top:not(.solid):not(.menu-open) .burger { background: transparent; color: #fff; border-color: rgba(255, 255, 255, .5); }
+.over-live .live-hero { padding-top: 120px !important; }
+.brand-city { font-weight: 500; }
+
+/* The landmarks: a card each on the city's page (_includes/landmark-card.html), and a page each
+   (_layouts/landmark.html) with its words, a map from OpenStreetMap and its dates beside them */
+.landmarks { border-top: 1px solid var(--line); }
+.landmark-card { display: flex; gap: 12px; align-items: flex-start; padding: 10px; text-decoration: none; color: var(--ink); transition: border-color .15s; }
+.landmark-card .thumb { flex: none; width: 64px; height: 64px; border-radius: 6px; object-fit: cover; background: var(--soft); }
+.landmark-card .lm-icon { display: grid; place-items: center; color: var(--ink); }
+.landmark-card .lm-icon .ic { width: 26px; height: 26px; }
+.landmark-card:hover { border-color: #bbb; color: var(--ink); }
+.landmark-card b { display: block; font-size: 15px; margin: 2px 0 3px; }
+.landmark-card small { display: block; font-size: 13.5px; line-height: 1.45; color: #555; }
+.crumbs { font-size: 14px; color: var(--muted); margin-bottom: 14px; }
+.crumbs a { color: var(--muted); }
+.landmark-hero .local { margin: -10px 0 12px; color: var(--muted); font-style: italic; }
+.hero-btns.left { justify-content: flex-start; }
+.ghost {
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 6px;
+  border: 1px solid var(--ink); color: var(--ink); text-decoration: none; font-size: 16px; font-weight: 600; line-height: 1;
+}
+.ghost:hover { background: var(--ink); color: var(--paper); }
+.ghost .ic { width: .95em; height: .95em; }
+.landmark-body { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 48px; align-items: start; }
+.prose p { margin-bottom: 1.1em; max-width: 68ch; }
+.prose h2 { margin: 1.6em 0 .6em; }
+.osm { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.osm iframe { display: block; width: 100%; aspect-ratio: 4 / 3; border: 0; }
+.osm figcaption { display: flex; flex-wrap: wrap; gap: 6px 20px; padding: 10px 14px; font-size: 14px; }
+.prose .in-3d { font-weight: 600; white-space: nowrap; }
+.dates { margin-top: 28px; }
+.dates h2 { font-size: 20px; margin-bottom: 12px; }
+.dates dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; font-size: 15px; }
+.dates dt { font-weight: 600; white-space: nowrap; }
+.dates dd { color: #444; }
+
+/* The home page's "Learn more" under each card, its few words about the project, and the page about the project (/about/): its words beside a list of its headings that stays in view */
+.card-more { margin-top: 10px; font-weight: 500; }
+.card-more a { color: var(--ink); }
+.project { border-top: 1px solid var(--line); }
+.project .prose p:last-child { margin-bottom: 0; }
+.project .hero-btns { margin-top: 22px; }
+.project-body .prose h2[id]:first-child { margin-top: 0; }
+.project-body .prose .known { max-width: 68ch; }
+.project-side { position: sticky; top: 88px; }
+.toc { border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; background: var(--soft); }
+.toc h2 { font-size: 16px; margin-bottom: 10px; }
+.toc ol { margin-left: 1.2em; font-size: 15px; }
+.toc li + li { margin-top: 6px; }
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+/* The bar of a page's sections (_includes/subnav.js): under the hero, it sticks under the top bar
+   (about 55px tall) and marks the section in view; on a narrow screen its links scroll sideways */
+.subnav {
+  position: sticky; top: 55px; z-index: 4;
+  display: flex; align-items: center; gap: 16px;
+  padding: 8px max(16px, calc((100vw - 1100px) / 2));
+  background: rgba(255, 255, 255, .94); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line); transition: box-shadow .2s;
+}
+.subnav.stuck { box-shadow: 0 1px 12px rgba(0, 0, 0, .06); }
+.subnav-links { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; }
+.subnav-links::-webkit-scrollbar { display: none; }
+.subnav-links a { flex: none; padding: 7px 12px; border-radius: 6px; font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none; white-space: nowrap; transition: background .15s, color .15s; }
+.subnav-links a:hover { color: var(--ink); background: var(--soft); }
+.subnav-links a[aria-current] { color: var(--paper); background: var(--ink); }
+.subnav-links .away { margin-left: auto; color: var(--ink); }
+.subnav .play.small { flex: none; padding: 8px 14px; }
+main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
+
+/* The home page's cities: a compact list on the left, each row a link to the city's page, beside
+   the map of Europe, which stays in view as the list scrolls by (_layouts/home.html) */
+.city-map-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 36px; align-items: start; }
+.city-list { list-style: none; border-top: 1px solid var(--line); }
+.city-list a {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: center;
+  padding: 11px 10px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; transition: background .12s;
+}
+.city-list a:hover, .city-list a.lit { background: var(--soft); color: var(--ink); }
+.city-name b { font-size: 17px; }
+.city-name small { color: var(--muted); font-size: 13px; margin-left: 4px; }
+.city-line { grid-column: 1; font-size: 14px; color: #555; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.city-list .go { grid-column: 2; grid-row: 1 / span 2; color: var(--muted); transform: rotate(-90deg); }
+.city-list a:hover .go, .city-list a.lit .go { color: var(--ink); }
+.city-map-side { position: sticky; top: 80px; }
+.europe .pin.lit circle:not(.halo) { r: 9; fill: #e5484d; }
+.europe .pin.lit text { fill: #e5484d; }
+
+/* A hero over a photo (a landmark's, from Wikimedia Commons): darkened towards the words on the
+   left, which turn white, and the photo's credit in a corner (_includes/photo-hero.html) */
+.photo-hero { position: relative; isolation: isolate; color: #fff; background: #26292d var(--photo) center / cover no-repeat; border-bottom: 0; min-height: 300px; align-content: end; }
+.photo-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(12, 14, 16, .8), rgba(12, 14, 16, .5) 55%, rgba(12, 14, 16, .2)); }
+.photo-hero :is(h1, .tagline, .lead, .local) { color: #fff; text-shadow: 0 1px 12px rgba(0, 0, 0, .35); }
+.photo-hero :is(.crumbs, .crumbs a) { color: rgba(255, 255, 255, .85); }
+.photo-hero .play { background: #fff; color: var(--ink); }
+.photo-hero .play:hover { background: #e9e9e6; color: var(--ink); }
+.photo-hero .ghost { color: #fff; border-color: rgba(255, 255, 255, .7); }
+.photo-hero .ghost:hover { background: rgba(255, 255, 255, .14); color: #fff; }
+.photo-credit { position: absolute; right: max(16px, calc((100vw - 1100px) / 2)); bottom: 8px; max-width: 60%; font-size: 11px; color: rgba(255, 255, 255, .7); text-align: right; }
+.photo-credit a { color: inherit; }
+.landmark-hero h1 .lm-icon .ic { width: .8em; height: .8em; vertical-align: -.05em; }
+
+/* A city's main landmarks on its About page: three photo tiles, the name and its line in white over
+   the bottom of the photo, above the cards of a few more (_layouts/about.html) */
+.photo-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 14px; }
+.photo-tile {
+  position: relative; display: flex; align-items: flex-end; aspect-ratio: 4 / 3; border-radius: 8px; overflow: hidden;
+  background: #26292d var(--photo) center / cover no-repeat; color: #fff; text-decoration: none;
+}
+.photo-tile::before { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(10, 12, 14, .82)); transition: background .2s; }
+.photo-tile:hover::before { background: linear-gradient(transparent 25%, rgba(10, 12, 14, .9)); }
+.photo-tile span { position: relative; padding: 14px 16px; }
+.photo-tile b { display: block; font-size: 18px; margin-bottom: 3px; }
+.photo-tile small { display: block; font-size: 13.5px; line-height: 1.45; color: rgba(255, 255, 255, .85); }
+.photo-tile:hover { color: #fff; }
+
+/* The map of Europe (_includes/europe.html): pale land with white borders, a dot and a name per city */
+.map { border-top: 1px solid var(--line); }
+.europe { border: 1px solid var(--line); border-radius: 8px; background: #f7f8f9; overflow: hidden; }
+.europe svg { display: block; width: 100%; height: auto; }
+.europe .land { fill: #e6e6e2; stroke: #fff; stroke-width: 1.2; stroke-linejoin: round; }
+.europe .pin { color: var(--ink); text-decoration: none; }
+.europe .pin circle { fill: var(--ink); stroke: #fff; stroke-width: 2; transition: r .15s; }
+.europe .pin .halo { fill: transparent; stroke: none; }
+.europe .pin text { font: 600 17px 'Inter', system-ui, sans-serif; fill: var(--ink); paint-order: stroke; stroke: #f7f8f9; stroke-width: 4px; stroke-linejoin: round; }
+.europe .side-l text { text-anchor: end; }
+.europe .side-t text, .europe .side-b text { text-anchor: middle; }
+.europe .pin:hover circle:not(.halo), .europe .pin:focus-visible circle:not(.halo) { r: 9; fill: #e5484d; }
+.europe .pin:hover text { fill: #e5484d; }
+.europe .soon circle:not(.halo) { fill: #fff; stroke: var(--muted); }
+
+/* A city's guide: "This is …" on its page, its own page (_layouts/about.html) and the page of all
+   its places (_layouts/places.html), with the country map (_includes/country-map.html) and the map
+   of the centre (_includes/city-map.html) */
+.about-city, .glance { border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 48px; align-items: center; }
+.about-text > p { max-width: 62ch; margin-bottom: 18px; font-size: 18px; }
+.known { list-style: none; display: grid; gap: 8px; margin-bottom: 24px; }
+.known li { position: relative; padding-left: 22px; color: #444; font-size: 15px; }
+.known li::before { content: ''; position: absolute; left: 4px; top: .62em; width: 7px; height: 7px; border-radius: 50%; background: #e5484d; }
+.glance h3 { margin: 28px 0 12px; }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 8px 20px; font-size: 15px; }
+.facts dt { font-weight: 600; white-space: nowrap; }
+.facts dd { color: #444; }
+.guide-hero .crumbs { margin-bottom: 18px; }
+.guide-hero .tagline { font-weight: 500; font-size: 18px; line-height: 1.5; margin-bottom: 18px; }
+/* The hero of a page inside the site (a city's About and Places pages, a landmark, the cities page,
+   a city still to come): lower than a landing page's, its words on the left */
+.page-hero { padding-block: 40px 36px !important; text-align: left; }
+.page-hero .hero-text { max-width: 760px; margin: 0; }
+.page-hero h1 { font-size: clamp(30px, 4vw, 44px) !important; margin-bottom: 10px; }
+.page-hero .tagline { font-size: 18px; margin-bottom: 18px; }
+.page-hero .lead { margin-bottom: 18px; }
+.page-hero .hero-btns { justify-content: flex-start; }
+.page-hero .crumbs { margin-bottom: 10px; }
+.page-hero .hero-shot img { max-height: 320px; object-fit: cover; }
+.page-hero .note { margin-top: 10px; }
+.guide-body { border-top: 1px solid var(--line); }
+.guide-body .prose h2:first-child { margin-top: 0; }
+.guide-body .prose h3 { margin: 1.4em 0 .5em; font-size: 20px; }
+.history { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 48px; align-items: start; }
+.history .dates { margin-top: 0; position: sticky; top: 126px; padding: 24px; background: var(--soft); border-radius: 8px; }
+.section-lead { color: var(--muted); margin: -16px 0 28px; max-width: 68ch; }
+.centre, .links { border-top: 1px solid var(--line); }
+.more { margin-top: 28px; font-weight: 500; }
+.more a:not(.ghost) { text-decoration: none; }
+.landmarks h2.sub { margin-top: 56px; }
+.link-list { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; }
+.link-list li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.link-list a { font-weight: 600; text-decoration: none; }
+.link-list .ic { width: .8em; height: .8em; color: var(--muted); }
+.link-list small { display: block; color: var(--muted); font-size: 14px; }
+
+.country-map { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #eef3f6; }
+.country-map svg { display: block; width: 100%; height: auto; max-height: 460px; }
+.country-map .sea { fill: #eef3f6; }
+.country-map .land { fill: #e4e4df; stroke: #fff; stroke-width: 1; stroke-linejoin: round; }
+.country-map .country { fill: #fff; stroke: #b9b9b2; stroke-width: 1; stroke-linejoin: round; }
+.country-map text { font: 600 12px 'Inter', system-ui, sans-serif; fill: var(--muted); paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+.country-map .other circle, .country-map .other rect { fill: var(--muted); }
+.country-map a.other:hover text { fill: var(--ink); }
+.country-map .here circle { fill: #e5484d; stroke: #fff; stroke-width: 2; }
+.country-map .here .halo { fill: rgba(229, 72, 77, .18); stroke: none; }
+.country-map .here text { font-size: 16px; font-weight: 700; fill: var(--ink); }
+.country-map .left text { text-anchor: end; }
+.country-map figcaption { padding: 10px 14px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); background: var(--paper); }
+
+.citymap { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 32px; align-items: start; }
+.citymap-draw { position: sticky; top: 126px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.citymap-frame { position: relative; background: #f1eee8; }
+.citymap-frame img, .citymap-frame svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.citymap .line { fill: none; stroke: #e5484d; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: .35; transition: opacity .15s; }
+.citymap .line.hot { opacity: .9; }
+.citymap .pin circle { fill: var(--ink); stroke: #fff; stroke-width: 4; transition: fill .15s; }
+.citymap .pin text { font: 700 23px 'Inter', system-ui, sans-serif; fill: #fff; text-anchor: middle; pointer-events: none; }
+.citymap .pin.hot circle, .citymap .pin:hover circle, .citymap .pin:focus-visible circle { fill: #e5484d; }
+.citymap-draw figcaption { padding: 10px 14px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); }
+.citymap-draw figcaption a { display: inline-flex; gap: 4px; align-items: center; margin-left: 4px; color: var(--ink); }
+.citymap-list { list-style: none; display: grid; gap: 4px; max-height: 720px; overflow-y: auto; }
+.citymap-list li { display: flex; gap: 12px; padding: 10px 12px; border-radius: 8px; scroll-margin-top: 130px; transition: background .15s; }
+.citymap-list li.hot, .citymap-list li:target { background: var(--soft); }
+.citymap-list .num { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 13px; font-weight: 700; }
+.citymap-list li.hot .num { background: #e5484d; }
+.citymap-list .num.off { background: var(--paper); color: var(--muted); border: 1px solid var(--line); }
+.citymap-list b { font-size: 16px; }
+.citymap-list b a { text-decoration-color: #bbb; }
+.citymap-list i { color: var(--muted); font-size: 14px; }
+.citymap-list .kind { margin-left: 4px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.citymap-list p { margin-top: 2px; font-size: 14px; line-height: 1.5; color: #555; }
+
+/* Famous art: the page of them all (/art/, _layouts/art.html), building by building, and a page per
+   piece (/art/<id>/, _layouts/artwork.html): the photo whole beside its words, never cropped */
+.art-index { display: flex; flex-wrap: wrap; gap: 8px; padding: 18px max(16px, calc((100vw - 1100px) / 2)); border-bottom: 1px solid var(--line); }
+.art-index a { padding: 6px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; font-weight: 500; text-decoration: none; }
+.art-index a:hover { background: var(--soft); color: var(--ink); }
+.art-index small, .art-museum h2 small { color: var(--muted); font-weight: 500; }
+.art-index small { font-size: 12.5px; margin-left: 2px; }
+.art-museum + .art-museum { border-top: 1px solid var(--line); }
+.art-museum h2 small { font-size: 15px; letter-spacing: 0; margin-left: 6px; }
+.art-museum-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; margin-bottom: 20px; }
+.art-museum-head h2 { margin-bottom: 4px; }
+.art-museum-head p { color: var(--muted); }
+.art-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.art-card { display: flex; flex-direction: column; padding: 0; overflow: hidden; text-decoration: none; color: var(--ink); transition: border-color .15s; }
+.art-card:hover { border-color: #bbb; color: var(--ink); }
+.art-thumb { position: relative; aspect-ratio: 4 / 3; background: var(--soft); }
+.art-thumb img { position: absolute; inset: 12px; width: calc(100% - 24px); height: calc(100% - 24px); object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .2)); }
+.art-name { padding: 10px 12px 12px; }
+.art-name b { display: block; font-size: 15px; line-height: 1.3; }
+.art-name small { display: block; margin-top: 3px; font-size: 13px; color: #555; }
+.artwork-hero { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); padding-block: 40px !important; }
+.artwork-hero h1 { font-size: clamp(32px, 4.2vw, 50px) !important; margin-bottom: 10px; }
+.artwork-hero .local { margin: -4px 0 10px; color: var(--muted); font-style: italic; }
+.byline { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; font-weight: 600; }
+.artwork-hero .tagline { font-size: 18px; font-weight: 500; margin-bottom: 22px; }
+.artwork-shot img { margin: 0 auto; max-height: min(70vh, 620px); width: auto; border-radius: 4px; box-shadow: 0 12px 40px rgba(0, 0, 0, .18); }
+.artwork-shot figcaption { margin-top: 10px; font-size: 12px; color: var(--muted); text-align: center; }
+.artwork-shot figcaption a { color: inherit; }
+.art-facts { margin-top: 0; padding: 24px; background: var(--soft); border-radius: 8px; }
+.art-facts small { color: var(--muted); font-size: 14px; }
+.art-go { margin-top: 18px; font-weight: 600; }
+.art-go a { display: inline-flex; align-items: center; gap: 6px; }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-city, .glance, .history, .citymap { grid-template-columns: 1fr; }
+  .citymap-draw, .history .dates { position: static; }
+  .citymap-list { max-height: none; }
+  .link-list { grid-template-columns: 1fr; }
+  .art-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .artwork-shot img { max-height: 52vh; }
+}
+@media (max-width: 680px) {
+  .grid, .cities .grid, .shots { grid-template-columns: 1fr; }
+  .grid.art-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .europe { overflow-x: auto; }
+  .landmark-body { grid-template-columns: 1fr; }
+  .project-side { position: static; order: -1; }
+  .photo-tiles { grid-template-columns: 1fr; }
+  .photo-tile { aspect-ratio: 16 / 9; }
+  .city-map-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .city-map-side { position: static; }
+  .europe svg { width: 760px; max-width: none; }
+  .live-hero { min-height: 82vh; }
+  main > section { padding-block: 44px; }
+  .home-hero { padding-block: 56px !important; }
+  .page-hero { padding-block: 28px 26px !important; }
+  .burger { display: inline-flex; }
+  .nav {
+    display: none; position: absolute; right: 16px; top: 56px;
+    flex-direction: column; align-items: stretch; gap: 2px; min-width: 200px; margin: 0; padding: 6px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 8px 24px rgba(0, 0, 0, .1);
+  }
+  .top.menu-open .nav { display: flex; }
+  .nav a { padding: 8px 12px; border: 0; border-radius: 6px; color: var(--ink); }
+  .nav a:hover { background: var(--soft); }
+  .nav a[aria-current] { background: var(--ink); color: var(--paper); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.website-preview video { opacity: 0; transition: opacity .35s; }
+.website-preview.ready video { opacity: 1; }
