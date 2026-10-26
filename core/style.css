@@ -1882,7 +1882,7 @@ body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tour
 .sight-x { border: 1px solid var(--edge); border-radius: 6px; font-weight: 600; }
 .sight-x:hover { background: #111; border-color: #111; }
 .sight.mini { border-radius: 8px; }
-.sight.mini .sight-i { font: 700 22px/1 var(--sans); }
+.sight.mini .sight-i .sight-eye { width: 26px; height: 26px; } /* folded: the card's own eye */
 .tram-head { font-family: var(--sans); font-weight: 800; letter-spacing: 0.06em; border-bottom-width: 2px; border-radius: 8px 8px 0 0; }
 .tram-badge { font-family: var(--sans); font-weight: 800; border-radius: 6px; text-shadow: none; }
 .tramcard.aboard, .tramcard.aboard.show { border-width: 0 0 2px; border-radius: 0; }
