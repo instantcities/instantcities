@@ -63,8 +63,9 @@
         </dl>
         <h3>Known for</h3>
         <ul class="known">
+          {%- assign lms = site.data.landmarks[C.id] %}
           {%- for f in G.famous %}
-          <li>{{ f }}</li>
+          <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
       </div>
@@ -156,6 +157,7 @@
   <footer>
     <p class="alt"><a href="/{{ C.id }}/">{{ C.game }}</a> <a href="/{{ C.id }}/places-and-landmarks/">Places and landmarks</a> <a href="/cities/">All cities</a></p>
     <p>Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
   </footer>
 
   <script>

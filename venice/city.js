@@ -11,16 +11,30 @@
 //                    `node tools/osm_map.mjs venice`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs venice`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs venice`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   inside.js        the buildings you can go into: St Mark's Basilica, its rooms in inside/ (hand-written)
+//   campanile.js     the Campanile di San Marco and its Loggetta, modelled by hand on core/js/arcade.js, in place of the map's pieces of them
+//   basilica.js, ducale.js, rialto.js  the Basilica, the Palazzo Ducale and the Ponte di Rialto, the same way
+//   piazza.js        the Ponte dei Sospiri, the Torre dell'Orologio, the columns and the flagpoles
+//   fenice.js        La Fenice's front, dressed on the map's block
+// No sights or fronts yet, and one monument, the Campanile: empty lists for the rest, and for what
+// only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+export { INSIDE } from './inside.js';
+import { CAMPANILE } from './campanile.js';
+import { BASILICA } from './basilica.js';
+import { DUCALE } from './ducale.js';
+import { RIALTO } from './rialto.js';
+import { PIAZZA } from './piazza.js';
+import { FENICE } from './fenice.js';
 
-export { SIGHTS } from './sights.js';
-export const MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const MONUMENTS = [...CAMPANILE, ...BASILICA, ...DUCALE, ...RIALTO, ...PIAZZA, ...FENICE];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

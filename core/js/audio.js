@@ -307,6 +307,8 @@ export class Sfx {
       this.noise(0.8, { vol: 0.25, freq: 700, to: 200, q: 0.7, pan });
     } else if (species === 'bike') {
       for (const d of [0, 0.16]) this.tone(2600, 0.25, { type: 'sine', vol: 0.12, pan, delay: d }); // ring ring
+    } else if (species === 'vespa') {
+      for (const d of [0, 0.2]) this.tone(440, 0.14, { type: 'square', vol: 0.08, pan, delay: d }); // meep meep
     } else if (species === 'foot') {
       this.voice(pan, { from: 260, peak: 420, to: 240, dur: 0.3, formant: 1000, q: 2, vol: 0.25 }); // hey!
     } else this.neigh(pan);

@@ -5,6 +5,13 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}/</loc></url>
   <url><loc>{{ site.url }}/cities/</loc></url>
+  <url><loc>{{ site.url }}/about/</loc></url>
+  <url><loc>{{ site.url }}/art/</loc></url>
+{%- for a in site.data.art.pieces %}
+  <url><loc>{{ site.url }}/art/{{ a.id }}/</loc></url>
+{%- endfor %}
+  <url><loc>{{ site.url }}/privacy/</loc></url>
+  <url><loc>{{ site.url }}/terms/</loc></url>
 {%- for c in site.data.cities %}{% unless c.soon %}
   <url><loc>{{ site.url }}/{{ c.id }}/</loc></url>
   <url><loc>{{ site.url }}/{{ c.id }}/play/</loc></url>

@@ -2,12 +2,12 @@
 
 > Still in development: expect rough edges, and saved settings may reset between versions.
 
-The historic centres of European cities in 3D in the browser (Three.js), rebuilt from
+The historic centres of European cities, and a few beyond, in 3D in the browser (Three.js), rebuilt from
 OpenStreetMap: ride a bike, walk or gallop through them, race along their streets or play quests. Alone, or two players split-screen
-on one keyboard. There are eighteen cities to play: Ghent and Lecce in full, and a small first piece
+on one keyboard. There are twenty-seven cities to play: Ghent and Lecce in full, and a small first piece
 of the centre of Rome, Paris, Amsterdam, Venice, Barcelona, London, Bruges, Antwerp, Brussels,
-Florence, Prague, Vienna, Copenhagen, Berlin, Avignon and Madrid, each with a race and a tour (see
-docs/first-maps.md).
+Florence, Prague, Vienna, Copenhagen, Berlin, Avignon, Madrid, Salerno, Siena, Pisa, Utrecht,
+Rotterdam, Delft, Istanbul, New York and San Francisco, each with a race and a tour (see docs/first-maps.md).
 The site is in English, the game in English and Dutch.
 
 Forked from [Instant Gent](https://github.com/woutersmet/instant-gent) (October 2026), which keeps
@@ -15,7 +15,8 @@ the Dutch, French and Spanish site, the game in French and Spanish, the Ghent gu
 app. The game and Ghent were last brought up to date with Instant Gent at its commit
 `67b3780` (23 October 2026): to do so again, apply its changes since then to `core/`, `ghent/`,
 `ghentinside/`, `lecce/` and `tools/` (its `<city>/index.html` are made here as `<city>/play/index.html`
-by `node tools/pages.mjs`).
+by `node tools/pages.mjs`; its `core/js/main.js` is split up here into `core/js/game/`, so a change to
+it goes into the part of the game it is about, see below).
 
 ## Run locally
 
@@ -27,10 +28,33 @@ page listing every city (`/cities/`, `_layouts/cities.html`) and a page per city
 `_layouts/city.html`, their words in `_data/cities.yml`). The old city pages at `/cities/ghent/` and
 `/cities/lecce/` send visitors on to the new ones. Screenshots are in `assets/img/`.
 
-The heroes of the home page and of every city's page play that city's tour live behind their words:
-the game in watch mode (`/<id>/play/?watch`: no menu, buttons or cards, nothing saved) in an iframe,
-`_includes/live.html`, paused while it is scrolled out of sight. `?watch=cards` is the whole tour
-with its cards, starting straight away: the pages' "Watch the tour" button. The map of Europe on the
+The home page plays **website preview tours**: separate 18-second silent MP4s, rotating Ghent →
+Rome → Paris → London → Barcelona → Ghent. It loads one video at a time, with no game engine,
+city map or WebGL on the home page. Playback pauses offscreen or in a hidden tab; reduced motion
+and data saving keep the poster. The caption and “Watch a tour” link follow the current city.
+
+Each city's `<city>/website-preview.json` is its preview edit: three six-second shots with a
+name, an `at` point on the full tour's path, `before` (metres before that point), `seconds`, and
+`speed`. Optional `cameraFrom`, `cameraTo`, and `look` ([x, y, z]) define an independent
+camera move when a wider view works better for the website. These select highlights without changing the full in-game tour. To compile the clips:
+
+```bash
+node tools/website-preview.mjs                # all five, sequentially in one Chrome window
+node tools/website-preview.mjs paris         # rebuild only Paris after map or shot changes
+```
+
+Requires Chrome, `playwright` or `playwright-core` (local or global), and `ffmpeg`. The compiler
+renders fixed steps at 960×540 / 24 fps and writes silent H.264 videos and posters to
+`assets/previews/`. Commit those outputs: normal Jekyll builds simply copy them, and visitors
+never render them themselves. Temporary frames stay in ignored `tools/cache/website-preview/`.
+Use `--headless` only if needed; the default Chrome window uses the GPU to avoid slow CPU WebGL.
+The compiler rejects previews outside 10–20 seconds. Recompile a city when its map or full tour
+path changes. Playback order lives in `_data/home.yml` (`preview_cities`).
+
+City-page heroes still play their live tour in watch mode (`/<id>/play/?watch`: no menu, buttons
+or cards, nothing saved) in an iframe, `_includes/live.html`, paused while scrolled out of sight.
+`?watch=cards` is the whole tour with its cards, starting straight away: the “Watch the tour” button.
+The map of Europe on the
 home and cities pages is `_includes/europe.html`, drawn from `_data/europe.json`, which
 `node tools/europe.mjs` makes from Natural Earth's outlines and each city's `lat` and `lon`.
 
@@ -42,6 +66,26 @@ Ghent's texts and pictures come from the sight pages of Instant Gent. Each landm
 `photo`: the file in `assets/img/photos/<id>/`, a square `-s.jpg` for its card, and its author,
 licence and source) comes from Wikimedia Commons, freely licensed (CC BY, CC BY-SA, CC0 or public
 domain) and credited on its page; a landmark's `icon` names one of `_includes/icon.html`'s.
+
+The famous art in the buildings you can go into (the Mona Lisa in the Louvre, the Night Watch in
+the Rijksmuseum, the Ghent Altarpiece in Sint-Baafs: 31 paintings, statues and treasures in 13
+buildings, and Michelangelo's David out on Florence's Piazza della Signoria) has a page of its own
+too: all of them at `/art/` and each at `/art/<id>/`, its story, its facts and a link that drops you
+right in front of it in the game (`/<id>/play/?inside=<building>&view=x,z,tx,tz`, or for one out in
+the open `?pos=x,z&yaw=`). They are in `_data/art.json`; `node tools/art.mjs`
+writes their pages (`art/`) and `node tools/art.mjs photos` fetches their photos from Wikimedia
+Commons into `assets/img/art/`, credited in `_data/art_photos.json`. In the game the paintings'
+real photos are painted over their drawings once they have loaded (`core/js/inside/photo.js`).
+
+The art, its museums and the cities link to each other. A museum in `_data/art.json` whose
+`landmark` is the id of a landmark page in `_data/landmarks/<city>.json` (`"landmark": "louvre"`) gets
+that page linked from its pieces and from `/art/`, and the landmark page lists its pieces. A piece's
+and a landmark's story link the first mention of the city, of the museum and of the pieces in it
+(`_includes/link-first.html`), and the "This is <city>" bullets link the landmarks and pieces they
+name (`_includes/link-landmarks.html`). A museum without a landmark page (give it one, then its
+`landmark`) links to its city only. A landmark's `inside` (a building's id in `<city>/inside.js`) makes
+its "See it in 3D" open the game inside the building: the British Museum, the Sistine Chapel, the
+Rijksmuseum and the Prado lie off their city's map, so they have no place on it to drop you at.
 
 Every city also has a guide: a "This is <city>" section on its page, a page about the city at
 `/<id>/about-the-city/` (what it is known for, its facts, where it lies in its country, its centre
@@ -74,6 +118,11 @@ The site lives at https://instantcities.net (GitHub Pages, `CNAME`); its address
 ```
 core/            the game, the same for every city
   js/            the engine: riders, tracks, scenery, quests, sound (no city in it)
+    main.js      the game's start: boots the parts in game/
+    game/        the game itself, a part a file: base.js (tuning), settings.js (state), scene.js,
+                 worlds.js, racers.js, hud.js, minimap.js, bigmap.js, menu.js, race.js, touring.js,
+                 control.js, indoors.js, physics.js, pickups.js, transit.js, cameras.js, loop.js,
+                 input.js, demofilm.js; base, settings and scene import none of the others
   sounds/        the recorded loops
   style.css
   game.html      the page, a template: tools/pages.mjs makes each city's play/index.html from it
@@ -209,20 +258,24 @@ the Blaarmeersen a beach full of sunbathers and runners doing laps round the Wat
 ## Going inside
 
 Some buildings can be entered: Sint-Baafs (with Het Lam Gods), the Stadhuis and the Sint-Niklaaskerk
-in Ghent, the Louvre in Paris, the Uffizi in Florence, the British Museum in London, and the
-Pantheon and the Sistine Chapel in Rome. By the door a card names the building: ride into the door,
+in Ghent; the Louvre, Notre-Dame and the Sainte-Chapelle in Paris; the Uffizi and the Duomo in
+Florence; the British Museum, Westminster Abbey and the National Gallery in London; the Pantheon and
+the Sistine Chapel in Rome; St Stephen's Cathedral and the Kunsthistorisches Museum in Vienna; St
+Vitus Cathedral in Prague; St Mark's Basilica in Venice; the Neues Museum and the Pergamon Museum
+in Berlin; the Rijksmuseum in Amsterdam; and the Prado in Madrid. By the door a card names the building: ride into the door,
 click the card or press the item key (E / Enter, Y on a gamepad) to go in. Inside everybody goes on
 foot and at a walk, and the door inside takes you back to the street on what you rode in on. The big
-map shows each door as 🚪 and its index lists the buildings under *Go inside*, so the British Museum
-and the Sistine Chapel, which lie just off their maps, are reached from there (their doors out let
-you into the city on the way to them). `/<city>/play/?inside=<id>` goes straight in. Not during a
+map shows each door as 🚪 and its index lists the buildings under *Go inside*, so the ones that lie
+just off their maps (the British Museum, the Sistine Chapel, St Vitus, the Rijksmuseum, the Prado)
+are reached from there; their doors out let you into the city on the way to them. A sight's card
+with a *Go inside* button (Ghent's) takes you in too. `/<city>/play/?inside=<id>` goes straight in. Not during a
 quest.
 
 A big museum is a few of its key rooms joined by doorways, not its real plan: the Louvre is the Hall
 Napoléon under the pyramid, the Venus de Milo, the Daru stair with the Winged Victory, the Grande
 Galerie and the Mona Lisa's room. Each room has cards for what is in it, and in the two buildings
-that are about their ceilings (the Sistine Chapel, the Pantheon) the camera looks up when you stand
-still.
+that are about their ceilings (the Sistine Chapel, the Pantheon, the Duomo, San Marco) the camera
+looks up when you stand still.
 
 How it works (`core/js/interiors.js`): a city lists its buildings in `<city>/inside.js` (`INSIDE`:
 each its rooms' builder, its size, its door in the street, its cards, its light) and builds the rooms
@@ -231,8 +284,10 @@ nobody sees it from the streets, so going in is a teleport, with nothing to load
 be one inside and one out. Their light is put on per player's view: always daylight under a roof, no
 rain. What the rooms are built from is shared, in `core/js/inside/`: `gothic.js` (walls, vaults,
 stained glass, a cruciform church from a plan), `rooms.js` (halls with doorways, skylights, painted
-vaults, frames, plinths, ropes, glass cases, visitors), `art.js` (the famous pictures, drawn after
-the real ones), `statues.js`, `props.js` and `pictures.js`.
+vaults, frames, plinths, ropes, glass cases, visitors), `church.js` (pews, altars, rose windows, the
+floor a cruciform plan covers), `art.js` (the famous pictures, drawn after the real ones),
+`statues.js`, `props.js` and `pictures.js`. Instant Gent's `ghentinside/` page is still there, but
+the game no longer links to it.
 
 ## Missions
 

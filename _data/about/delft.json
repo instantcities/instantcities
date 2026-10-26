@@ -1,0 +1,300 @@
+{
+  "intro": "Delft lies between The Hague and Rotterdam in the province of South Holland, an old town of canals, bridges and gabled houses round one long market square. It is the town of Johannes Vermeer and of Delft blue pottery, the place where William of Orange lived and was murdered, and the resting place of the House of Orange. Today it is also a university town, home to the largest technical university of the Netherlands.",
+  "famous": [
+    "Delft blue, the blue and white pottery",
+    "Johannes Vermeer and his View of Delft",
+    "The Nieuwe Kerk, where the princes of Orange are buried",
+    "The Prinsenhof, where William of Orange was shot in 1584",
+    "The leaning tower of the Oude Kerk",
+    "TU Delft, the largest technical university of the Netherlands"
+  ],
+  "facts": [
+    [
+      "Country",
+      "The Netherlands"
+    ],
+    [
+      "Province",
+      "South Holland"
+    ],
+    [
+      "Population",
+      "About 105,000 (municipality)"
+    ],
+    [
+      "Lies",
+      "Between The Hague (10 km) and Rotterdam (15 km)"
+    ],
+    [
+      "Height",
+      "About sea level, as flat as the polders round it"
+    ],
+    [
+      "Language",
+      "Dutch"
+    ],
+    [
+      "Known for",
+      "Delft blue, Vermeer, the House of Orange"
+    ],
+    [
+      "University",
+      "TU Delft, founded in 1842"
+    ]
+  ],
+  "overview": [
+    "The old town of Delft is an oval of canals, about a kilometre and a half from north to south. The Oude Delft, the canal the town was named after, runs straight through it, with the Oude Kerk on its bank, and to the east of it lies the Markt, with the Stadhuis at one end and the Nieuwe Kerk at the other. Round them a grid of smaller canals, the Voldersgracht, the Koornmarkt and the Wijnhaven, carries the boats past houses with step and neck gables.",
+    "Instant Delft takes you through the heart of it: over the Markt, along the Voldersgracht past the Vermeer Centrum, up to the Oude Kerk, down the Oude Delft past the Prinsenhof and back along the Koornmarkt. Like the real town, the game is flat."
+  ],
+  "setting": [
+    "Delft lies in the flat polder land of South Holland, between The Hague to the north-west and Rotterdam to the south-east, with the North Sea about ten kilometres away. The Schie canal links it to Rotterdam and the Maas, and the railway between The Hague and Rotterdam runs in a tunnel under the west of the old town.",
+    "The climate is mild and damp, shaped by the sea: cool summers, soft winters and rain in every season, with the wind blowing in from the west."
+  ],
+  "history": [
+    {
+      "title": "A town on a dug canal",
+      "text": [
+        "Delft grew up in the 12th century along a canal dug through the peat, the delf, and in 1246 it got its town rights from William II, Count of Holland. Its brewers and cloth makers made it rich, and the Oude Kerk and the Nieuwe Kerk rose above its roofs.",
+        "A great fire in 1536 burnt most of the town, and much of what stands today was rebuilt after it."
+      ]
+    },
+    {
+      "title": "William of Orange",
+      "text": [
+        "In 1572 William of Orange, the leader of the revolt against Spain, made Delft his home and settled in the convent of Saint Agatha, the Prinsenhof. On 10 July 1584 Balthasar Gérard shot him there on the stairs.",
+        "He was buried in the Nieuwe Kerk, and ever since then the House of Orange has buried its dead there, in the royal vault below the choir."
+      ]
+    },
+    {
+      "title": "The Golden Age",
+      "text": [
+        "In the 17th century Delft was one of the six cities of the Dutch East India Company, and its potters began to copy Chinese porcelain in blue and white earthenware: Delft blue. Painters such as Johannes Vermeer, Pieter de Hooch and Carel Fabritius worked here, and the lawyer Hugo de Groot was born here in 1583.",
+        "On 12 October 1654 the town’s gunpowder store exploded, flattening the north-east of Delft and killing Fabritius among many others."
+      ]
+    },
+    {
+      "title": "Engineers and students",
+      "text": [
+        "In 1842 King William II founded a royal academy in Delft to train engineers, which grew into today’s TU Delft. The university spread over a campus south-east of the old town, and students now make up a large part of the town.",
+        "The old centre kept its canals and its gables, and in 2015 the railway, which used to cross the town on a viaduct, went underground in a tunnel."
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "12th century",
+      "Delft grows up along a dug canal, the delf"
+    ],
+    [
+      "1246",
+      "Delft gets its town rights"
+    ],
+    [
+      "1396",
+      "Work starts on the Nieuwe Kerk"
+    ],
+    [
+      "1536",
+      "A great fire burns most of the town"
+    ],
+    [
+      "1572",
+      "William of Orange settles in the Prinsenhof"
+    ],
+    [
+      "1583",
+      "Hugo de Groot is born in Delft"
+    ],
+    [
+      "1584",
+      "William of Orange is murdered in the Prinsenhof"
+    ],
+    [
+      "1618",
+      "Fire burns the old town hall; Hendrick de Keyser builds the new one"
+    ],
+    [
+      "1632",
+      "Johannes Vermeer is born in Delft"
+    ],
+    [
+      "1653",
+      "De Porceleyne Fles is founded"
+    ],
+    [
+      "1654",
+      "The gunpowder store explodes: the Delftse Donderslag"
+    ],
+    [
+      "1675",
+      "Vermeer dies and is buried in the Oude Kerk"
+    ],
+    [
+      "1842",
+      "The royal academy for engineers, later TU Delft, is founded"
+    ],
+    [
+      "2015",
+      "The railway moves into a tunnel under the town"
+    ]
+  ],
+  "today": [
+    "Delft is a lively town of about 105,000 people, a quarter of them students. TU Delft draws engineers from all over the world, and the town’s start-ups and research labs spread out round its campus.",
+    "On Thursdays the market fills the Markt, and on Saturdays there is a flower and antiques market along the canals. Visitors come for the Nieuwe Kerk, the Prinsenhof, the Vermeer Centrum and Royal Delft, and in summer the canals fill with small boats and the cafés put their terraces on the quays."
+  ],
+  "places": [
+    {
+      "id": "markt",
+      "name": "Markt",
+      "kind": "square",
+      "lat": 52.0118,
+      "lon": 4.3595,
+      "blurb": "The long market square between the town hall and the Nieuwe Kerk.",
+      "landmark": "markt"
+    },
+    {
+      "id": "nieuwe-kerk",
+      "name": "Nieuwe Kerk",
+      "kind": "building",
+      "lat": 52.0123,
+      "lon": 4.36079,
+      "blurb": "The Gothic church on the Markt, with the tombs of the House of Orange.",
+      "landmark": "nieuwe-kerk"
+    },
+    {
+      "id": "stadhuis",
+      "name": "Stadhuis",
+      "kind": "building",
+      "lat": 52.01133,
+      "lon": 4.35836,
+      "blurb": "Hendrick de Keyser’s town hall round a medieval tower.",
+      "landmark": "stadhuis"
+    },
+    {
+      "id": "waag",
+      "name": "Waag",
+      "kind": "building",
+      "lat": 52.01125,
+      "lon": 4.35792,
+      "blurb": "The weigh house behind the town hall.",
+      "landmark": "waag"
+    },
+    {
+      "id": "vermeer-centrum",
+      "name": "Vermeer Centrum",
+      "kind": "building",
+      "lat": 52.01191,
+      "lon": 4.35903,
+      "blurb": "The centre about Vermeer on the Voldersgracht, where the painters’ guild stood.",
+      "landmark": "vermeer"
+    },
+    {
+      "id": "voldersgracht",
+      "name": "Voldersgracht",
+      "kind": "waterway",
+      "lat": 52.012,
+      "lon": 4.3592,
+      "blurb": "The narrow canal behind the north side of the Markt."
+    },
+    {
+      "id": "oude-kerk",
+      "name": "Oude Kerk",
+      "kind": "building",
+      "lat": 52.01261,
+      "lon": 4.35581,
+      "blurb": "The oldest church, with its leaning tower and Vermeer’s grave.",
+      "landmark": "oude-kerk"
+    },
+    {
+      "id": "oude-delft",
+      "name": "Oude Delft",
+      "kind": "waterway",
+      "lat": 52.0109,
+      "lon": 4.3562,
+      "blurb": "The oldest canal, which gave the town its name.",
+      "landmark": "oude-delft"
+    },
+    {
+      "id": "prinsenhof",
+      "name": "Prinsenhof",
+      "kind": "building",
+      "lat": 52.01227,
+      "lon": 4.35471,
+      "blurb": "The convent where William of Orange lived and was shot.",
+      "landmark": "prinsenhof"
+    },
+    {
+      "id": "gemeenlandshuis",
+      "name": "Gemeenlandshuis",
+      "kind": "building",
+      "lat": 52.01169,
+      "lon": 4.35514,
+      "blurb": "The Gothic house of 1505 on the Oude Delft, with its painted coats of arms."
+    },
+    {
+      "id": "wijnhaven",
+      "name": "Wijnhaven",
+      "kind": "waterway",
+      "lat": 52.0108,
+      "lon": 4.3576,
+      "blurb": "The canal behind the Waag, where the wine came in."
+    },
+    {
+      "id": "koornmarkt",
+      "name": "Koornmarkt",
+      "kind": "waterway",
+      "lat": 52.0099,
+      "lon": 4.3583,
+      "blurb": "The grain market canal, lined with terraces.",
+      "landmark": "koornmarkt"
+    },
+    {
+      "id": "beestenmarkt",
+      "name": "Beestenmarkt",
+      "kind": "square",
+      "lat": 52.01,
+      "lon": 4.3603,
+      "blurb": "The square of the old cattle market, now full of cafés under the trees."
+    },
+    {
+      "id": "oostpoort",
+      "name": "Oostpoort",
+      "kind": "gate",
+      "lat": 52.00777,
+      "lon": 4.36527,
+      "blurb": "The last town gate, with its two slim towers.",
+      "landmark": "oostpoort"
+    },
+    {
+      "id": "paardenmarkt",
+      "name": "Paardenmarkt",
+      "kind": "square",
+      "lat": 52.0164,
+      "lon": 4.3585,
+      "blurb": "The open square where the gunpowder store stood until 1654.",
+      "landmark": "donderslag"
+    }
+  ],
+  "links": [
+    {
+      "title": "Delft.com",
+      "url": "https://www.delft.com/",
+      "note": "The town’s tourist site"
+    },
+    {
+      "title": "Museum Prinsenhof Delft",
+      "url": "https://prinsenhof-delft.nl/",
+      "note": "The museum in the old convent"
+    },
+    {
+      "title": "Vermeer Centrum Delft",
+      "url": "https://www.vermeerdelft.nl/",
+      "note": "All about Vermeer, on the Voldersgracht"
+    },
+    {
+      "title": "Delft on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Delft",
+      "note": "The encyclopedia article"
+    }
+  ]
+}

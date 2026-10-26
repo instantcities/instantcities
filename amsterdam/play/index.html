@@ -60,7 +60,7 @@
     }
   </script>
   <style>:root { --accent: #c8102e; --accent-soft: #f7dde1; --sky: #dfe7ee; --skyline: #9aaab8; } .tag { color: #6e2a2a; }</style>
-  <!-- ?watch, the tour on its own for the site's pages (js/main.js): marked before anything shows -->
+  <!-- ?watch, the tour on its own for the site's pages (js/game/settings.js): marked before anything shows -->
   <script>
     const watch = new URLSearchParams(location.search).get('watch');
     if (watch != null) document.documentElement.classList.add('watch', ...(watch === 'cards' ? ['watch-cards'] : []));
@@ -135,7 +135,7 @@
         <circle cx="47" cy="-23.5" r="1.6" fill="var(--gold)"/>
       </svg>
     </div>
-    <div class="loader-title title"><span class="brandline">Instant Cities</span> <span class="cityname">Amsterdam</span> <span class="beta">BETA</span></div>
+    <div class="loader-title title"><span class="brandline">Instant Cities</span> <span class="cityname">Amsterdam</span></div>
     <ol class="loader-steps" id="loaderSteps"></ol>
     <div class="loader-build buildtag"></div>
   </div>
@@ -197,7 +197,7 @@
   <div id="streetbar" class="hidden"></div>
   <div id="mute" class="hidden"></div>
   <div id="toast" class="hidden"></div>
-  <button id="menuBtn" class="hidden" data-i18n="menu"></button>
+  <button id="menuBtn" class="hidden"><span class="ico"></span><span data-i18n="menu.word"></span></button>
 
   <!-- The tour: the street below, how far along, and a card at each stop -->
   <div id="tour" class="hidden">
@@ -231,6 +231,7 @@
       <button class="tbtn" id="tItem" aria-label="Item"><span class="ico"></span><span class="queue"></span><small data-i18n="tb.item"></small></button>
       <button class="tbtn" id="tShoot" aria-label="Shoot"><span>🔫</span><small data-i18n="tb.shoot"></small></button>
       <button class="tbtn" id="tSink" aria-label="Down"><span>⤓</span><small data-i18n="tb.down"></small></button>
+      <button class="tbtn" id="tAction" aria-label="Action"><span class="ico"></span><small></small></button>
       <button class="tbtn big" id="tJump" aria-label="Jump"><span>⤒</span><small data-i18n="tb.jump"></small></button>
     </div>
   </div>
@@ -278,6 +279,12 @@
             <div class="dd-list hidden" id="langList" role="listbox"></div>
           </div>
         </div>
+        <div class="row" data-row="city">
+          <div class="dropdown" id="cityOpts">
+            <button class="chip" id="cityBtn" aria-haspopup="listbox" aria-expanded="false"><span class="ico"></span><span data-i18n="menu.city"></span> ▾</button>
+            <div class="dd-list hidden" id="cityList" role="listbox"><a class="chip" role="option" href="../../paris/play/">Paris</a><a class="chip" role="option" href="../../rome/play/">Rome</a><a class="chip" role="option" href="../../london/play/">London</a><a class="chip" role="option" href="../../venice/play/">Venice</a><a class="chip" role="option" href="../../barcelona/play/">Barcelona</a><a class="chip on" role="option" href="../../amsterdam/play/">Amsterdam</a><a class="chip" role="option" href="../../florence/play/">Florence</a><a class="chip" role="option" href="../../prague/play/">Prague</a><a class="chip" role="option" href="../../vienna/play/">Vienna</a><a class="chip" role="option" href="../../berlin/play/">Berlin</a><a class="chip" role="option" href="../../madrid/play/">Madrid</a><a class="chip" role="option" href="../../copenhagen/play/">Copenhagen</a><a class="chip" role="option" href="../../brussels/play/">Brussels</a><a class="chip" role="option" href="../../bruges/play/">Bruges</a><a class="chip" role="option" href="../../antwerp/play/">Antwerp</a><a class="chip" role="option" href="../../avignon/play/">Avignon</a><a class="chip" role="option" href="../../salerno/play/">Salerno</a><a class="chip" role="option" href="../../siena/play/">Siena</a><a class="chip" role="option" href="../../pisa/play/">Pisa</a><a class="chip" role="option" href="../../utrecht/play/">Utrecht</a><a class="chip" role="option" href="../../rotterdam/play/">Rotterdam</a><a class="chip" role="option" href="../../delft/play/">Delft</a><a class="chip" role="option" href="../../lecce/play/">Lecce</a><a class="chip" role="option" href="../../ghent/play/">Ghent</a></div>
+          </div>
+        </div>
         <div class="row" data-row="style">
           <div class="dropdown" id="styleOpts">
             <button class="chip" id="styleBtn" aria-haspopup="listbox" aria-expanded="false"></button>
@@ -289,7 +296,7 @@
         </div>
       </div>
       <header>
-        <h1 class="title"><span class="brandline">Instant Cities</span> <span class="cityname">Amsterdam</span> <span class="beta">BETA</span></h1>
+        <h1 class="title"><span class="brandline">Instant Cities</span> <span class="cityname">Amsterdam</span></h1>
         <p class="tag" data-i18n="tag"></p>
       </header>
 
@@ -338,7 +345,7 @@
             <label class="gunmode" data-row="gun" id="gunMode"><input id="gunModeSetting" type="checkbox"><span aria-hidden="true">🚗🔫</span></label>
           </div>
           <button class="start" id="startBtn" data-row="start"></button>
-          <p class="madeby"><span data-i18n="made.by"></span> <a href="https://instantcities.net/" target="_blank" rel="noopener">Wouter</a> <span class="legal">· <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a><span class="buildtag"></span></span></p>
+          <p class="credit"><a href="https://instantcities.net/" target="_blank" rel="noopener">Instant Cities</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a></p>
         </div>
       </div>
     </div>
@@ -347,9 +354,15 @@
   <div id="pause" class="overlay hidden">
     <a class="site-link" href="../" data-site-link data-i18n="site.back"></a>
     <div class="card small" id="pauseCard">
+      <div class="pause-nav">
       <button class="chip pause-home" id="pauseTitleBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/></svg><span data-i18n="backToMenu"></span></button>
+      <div class="hidden" id="pauseSiteRow">
+        <a class="chip site-chip" id="pauseSiteBtn" href="../"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg><span class="long" data-i18n="pause.site"></span><span class="short" data-i18n="pause.siteShort"></span></a>
+      </div>
       <button class="chip pause-close" id="pauseCloseBtn" aria-label="✕">✕</button>
-      <div class="btnrow pausetools">
+      </div>
+      <p class="pause-title" data-i18n="paused"></p>
+      <div class="btnrow pausetools" id="pauseTools">
         <button class="chip" id="pauseMapBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="pause.map"></span></button>
         <button class="chip" id="pauseShareBtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span data-i18n="pause.share"></span></button>
         <button class="chip" id="pauseSettingsBtn" aria-expanded="false"><span data-i18n="pause.settings"></span> <span class="caret" aria-hidden="true">▾</span></button>

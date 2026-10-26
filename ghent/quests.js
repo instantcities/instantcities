@@ -27,7 +27,7 @@ export const QUESTS = [
     id: 'lamb', emoji: '🖼️', player: { mount: 'bike', pick: 'agent' }, kind: 'thief', time: 150, start: [226.7, 12.2], stand: [190, -7], look: [231, 38], thief: [209.5, 50.4], zigzag: 45,
     text: {
       nl: {
-        title: 'Lam Gods Gestolen',
+        title: 'Het Lam Gods is gestolen!',
         where: 'Start aan de Sint-Baafskathedraal. Vang de dief met het schilderij.',
         story: 'Oh nee, iemand heeft Het Lam Gods weer gestolen uit de Sint-Baafskathedraal! Daar loopt de dief, met het schilderij boven het hoofd. Vang de dief voor die ontsnapt.',
         hud: '🦹 Vang de dief!',
@@ -36,7 +36,7 @@ export const QUESTS = [
         lose: '🦹 De dief is ontsnapt. Het Lam Gods is weer weg…',
       },
       en: {
-        title: 'Mystic Lamb Stolen',
+        title: 'The Mystic Lamb is stolen!',
         where: 'Start at St Bavo’s Cathedral. Catch the thief with the painting.',
         story: 'Oh no, somebody stole the Adoration of the Mystic Lamb from St Bavo’s Cathedral again! There goes the thief, painting held high. Catch them before they get away.',
         hud: '🦹 Catch the thief!',
@@ -45,7 +45,7 @@ export const QUESTS = [
         lose: '🦹 The thief got away. The Mystic Lamb is gone again…',
       },
       fr: {
-        title: 'Agneau Mystique Volé',
+        title: 'L’Agneau mystique volé !',
         where: 'Départ à la cathédrale Saint-Bavon. Attrape le voleur avec le tableau.',
         story: 'Oh non, quelqu’un a encore volé l’Agneau mystique dans la cathédrale Saint-Bavon ! Voilà le voleur qui file, le tableau au-dessus de la tête. Attrape-le avant qu’il s’échappe.',
         hud: '🦹 Attrape le voleur !',
@@ -54,7 +54,7 @@ export const QUESTS = [
         lose: '🦹 Le voleur s’est échappé. L’Agneau mystique a encore disparu…',
       },
       es: {
-        title: 'Cordero Robado',
+        title: '¡Robaron el Cordero Místico!',
         where: 'Empiezas en la catedral de San Bavón. Atrapa al ladrón del cuadro.',
         story: '¡Oh no, alguien ha vuelto a robar el Cordero Místico de la catedral de San Bavón! Ahí va el ladrón, con el cuadro en alto. Atrápalo antes de que escape.',
         hud: '🦹 ¡Atrapa al ladrón!',
@@ -78,7 +78,7 @@ export const QUESTS = [
         lose: '🍫 Te laat, de pralines zijn gesmolten.',
       },
       en: {
-        title: 'Praline Courier',
+        title: 'The praline courier',
         where: 'At the Kouter. Deliver 3 boxes of pralines: Graslei, Gravensteen, Vrijdagmarkt.',
         story: 'The chocolatier on the Kouter has three boxes of pralines ready, and the customers are waiting! Cycle them round in this order: first the Graslei, then the Gravensteen and last the Vrijdagmarkt. Ride through the beam of light to hand over a box. You have 3 minutes, or they melt!',
         hud: '🍫 Deliver the pralines!',
@@ -110,7 +110,7 @@ export const QUESTS = [
     id: 'train', emoji: '🚆', player: { mount: 'horse', pick: 'karamel' }, kind: 'reach', time: 240, start: [1388, -420], goal: [-1100, 2330], radius: 22,
     text: {
       nl: {
-        title: 'Trein naar Brugge',
+        title: 'De trein naar Brugge',
         where: 'Start in Gent-Dampoort. Ren naar Gent-Sint-Pieters.',
         story: 'Oeps, je bent naar het verkeerde station gegaan! Je staat in Gent-Dampoort, maar de trein naar Brugge vertrekt in Gent-Sint-Pieters, aan de andere kant van de stad. Zo snel als je kan!',
         hud: '🚆 Naar Gent-Sint-Pieters!',
@@ -119,7 +119,7 @@ export const QUESTS = [
         lose: '🚆 De trein is vertrokken zonder jou.',
       },
       en: {
-        title: 'Train to Bruges',
+        title: 'The train to Bruges',
         where: 'Start at Gent-Dampoort. Run to Gent-Sint-Pieters.',
         story: 'Oops, you went to the wrong station! You are at Gent-Dampoort, but the train to Bruges leaves from Gent-Sint-Pieters, across town. As fast as you can!',
         hud: '🚆 To Gent-Sint-Pieters!',
@@ -128,7 +128,7 @@ export const QUESTS = [
         lose: '🚆 The train left without you.',
       },
       fr: {
-        title: 'Train pour Bruges',
+        title: 'Le train pour Bruges',
         where: 'Départ à Gent-Dampoort. Cours jusqu’à Gent-Sint-Pieters.',
         story: 'Oups, tu t’es trompé de gare ! Tu es à Gent-Dampoort, mais le train pour Bruges part de Gent-Sint-Pieters, de l’autre côté de la ville. Le plus vite possible !',
         hud: '🚆 À Gent-Sint-Pieters !',
@@ -137,7 +137,7 @@ export const QUESTS = [
         lose: '🚆 Le train est parti sans toi.',
       },
       es: {
-        title: 'Tren a Brujas',
+        title: 'El tren a Brujas',
         where: 'Empiezas en Gent-Dampoort. Corre a Gent-Sint-Pieters.',
         story: '¡Uy, fuiste a la estación equivocada! Estás en Gent-Dampoort, pero el tren a Brujas sale de Gent-Sint-Pieters, al otro lado de la ciudad. ¡Lo más rápido que puedas!',
         hud: '🚆 ¡A Gent-Sint-Pieters!',
@@ -151,7 +151,7 @@ export const QUESTS = [
     id: 'zombies', emoji: '🧟', player: { mount: 'foot', pick: 'spekkie' }, kind: 'collect', time: 180, start: [160, 1860], count: 6, zombies: 30, crowd: { street: 'Overpoortstraat', every: 5, clear: 18 }, fries: true, zombieDensity: 0.25, pukeEvery: 7.4,
     text: {
       nl: {
-        title: 'Studenten Zombies',
+        title: 'Studentenzombies',
         where: 'Zoek 6 studentenpetten in de Overpoort. Leid de zombies af met een julientje.',
         story: 'Na een cantus waggelen de studenten als zombies door de Overpoort. Zoek de 6 verloren studentenpetten binnen 3 minuten! Gooi een julientje om ze even te laten eten. Pas op voor het kotsen: na drie treffers is het gedaan!',
         hud: '🎓 Zoek de petten!',
@@ -161,7 +161,7 @@ export const QUESTS = [
         losePuke: '🤮 Drie keer ondergekotst! De missie is voorbij.',
       },
       en: {
-        title: 'Student Zombies',
+        title: 'Student zombies',
         where: 'Find 6 student caps in the Overpoort. Distract zombies with fries.',
         story: 'After a cantus, the students stagger through the Overpoort like zombies. Find the 6 lost student caps within 3 minutes! Throw a julientje to keep them busy eating. Watch out for vomit: three hits end the mission!',
         hud: '🎓 Find the caps!',
@@ -171,7 +171,7 @@ export const QUESTS = [
         losePuke: '🤮 Hit by vomit three times! The mission is over.',
       },
       fr: {
-        title: 'Zombies Étudiants',
+        title: 'Zombies étudiants',
         where: 'Trouve 6 casquettes dans l’Overpoort. Distrais les zombies avec des frites.',
         story: 'Après un cantus, les étudiants titubent dans l’Overpoort comme des zombies. Retrouve les 6 casquettes perdues en 3 minutes ! Lance un julientje pour les occuper à manger. Attention au vomi : trois coups et la mission est terminée !',
         hud: '🎓 Trouve les casquettes !',
@@ -181,7 +181,7 @@ export const QUESTS = [
         losePuke: '🤮 Touché trois fois par le vomi ! La mission est terminée.',
       },
       es: {
-        title: 'Zombis Estudiantes',
+        title: 'Zombis estudiantes',
         where: 'Encuentra 6 gorras en la Overpoort. Distrae a los zombis con patatas fritas.',
         story: 'Tras un cantus, los estudiantes se tambalean por la Overpoort como zombis. ¡Encuentra las 6 gorras perdidas en 3 minutos! Lanza un julientje para entretenerlos comiendo. ¡Cuidado con el vómito: tres impactos y termina la misión!',
         hud: '🎓 ¡Busca las gorras!',
@@ -197,7 +197,7 @@ export const QUESTS = [
     runners: { route: [[-30, 700], [-137, 38], [-151, -186], [-264, -526], [-150, -1100]], per: 1.5 },
     text: {
       nl: {
-        title: 'Stadsloop',
+        title: 'De Stadsloop',
         where: 'Start aan de Sint-Baafs. Geraak aan de Graslei zonder door de lopers te gaan.',
         story: 'Vandaag is De Stadsloop: duizenden lopers stromen van de Nederkouter over de Veldstraat en de Korenmarkt tot voorbij het Gravensteen. En jij moet dringend naar de Graslei, aan de overkant! Er dwars door gaan lukt niet: zoek een weg rond de lopers. Kijk op de kaart waar ze lopen.',
         hud: '🏃 Naar de Graslei, rond de lopers!',
@@ -207,7 +207,7 @@ export const QUESTS = [
         loseRun: '💥 Bots! Je liep dwars door De Stadsloop.',
       },
       en: {
-        title: 'City Run',
+        title: 'The City Run',
         where: 'Start at St Bavo’s. Get to the Graslei without going through the runners.',
         story: 'It’s City Run day: thousands of runners stream from the Nederkouter along the Veldstraat and the Korenmarkt to past the Gravensteen. And you urgently need to get to the Graslei, on the other side! Straight through won’t work: find a way round the runners. The map shows where they run.',
         hud: '🏃 To the Graslei, round the runners!',
@@ -217,7 +217,7 @@ export const QUESTS = [
         loseRun: '💥 Bump! You ran straight into the City Run.',
       },
       fr: {
-        title: 'City Run',
+        title: 'La City Run',
         where: 'Départ à Saint-Bavon. Rejoins le Graslei sans traverser les coureurs.',
         story: 'C’est le jour de la City Run : des milliers de coureurs déferlent du Nederkouter par la Veldstraat et le Korenmarkt jusqu’au-delà du Gravensteen. Et toi, tu dois filer au Graslei, de l’autre côté ! Passer au travers, impossible : trouve un chemin autour des coureurs. La carte montre où ils courent.',
         hud: '🏃 Au Graslei, autour des coureurs !',
@@ -227,7 +227,7 @@ export const QUESTS = [
         loseRun: '💥 Boum ! Tu as foncé dans la City Run.',
       },
       es: {
-        title: 'City Run',
+        title: 'La City Run',
         where: 'Empiezas en San Bavón. Llega al Graslei sin cruzar entre los corredores.',
         story: 'Hoy es la City Run: miles de corredores bajan del Nederkouter por la Veldstraat y el Korenmarkt hasta más allá del Gravensteen. ¡Y tú tienes que llegar ya al Graslei, al otro lado! Cruzar entre ellos no se puede: busca un camino alrededor de los corredores. El mapa muestra por dónde corren.',
         hud: '🏃 ¡Al Graslei, rodeando a los corredores!',
@@ -242,7 +242,7 @@ export const QUESTS = [
     id: 'paint', emoji: '🎨', icon: '🎨', player: { mount: 'foot', pick: 'tijgerbrood' }, kind: 'paint', time: 120, start: [-151, -186], count: 40,
     text: {
       nl: {
-        title: 'Paintball Gevecht',
+        title: 'Paintballgevecht',
         where: 'Op de Korenmarkt. Scoor 40 punten met het paintballgeweer: mensen, auto’s en trams.',
         story: 'Groot paintballgevecht in de binnenstad! Je hebt 2 minuten en een paintballgeweer: schiet met de 🔫-knop (of Enter). Een voorbijganger, iemand op een terras of aan de tramhalte raken is 1 punt, een auto of bus 2, een tram 3 (elk voertuig telt één keer). Sta je bij een auto of bus? Leen hem met 🚗 (of spatie) en rij naar het volgende doelwit. Haal 40 punten!',
         hud: '🎨 Scoor 40 punten!',
@@ -251,7 +251,7 @@ export const QUESTS = [
         lose: '🎨 De tijd is om, nog geen 40 punten.',
       },
       en: {
-        title: 'Paintball Fight',
+        title: 'Paintball fight',
         where: 'On the Korenmarkt. Score 40 points with the paintball gun: people, cars and trams.',
         story: 'A huge paintball fight in the city centre! You have 2 minutes and a paintball gun: shoot with the 🔫 button (or Enter). Hitting a passer-by, someone on a terrace or at the tram stop is 1 point, a car or bus 2, a tram 3 (each vehicle counts once). Standing by a car or bus? Borrow it with 🚗 (or space) and drive to the next target. Score 40 points!',
         hud: '🎨 Score 40 points!',
@@ -293,7 +293,7 @@ export const QUESTS = [
         lose: '🚌 Te laat, de passagiers staan nog te wachten.',
       },
       en: {
-        title: 'Bus Driver',
+        title: 'The bus driver',
         where: 'At the Koophandelsplein. The driver needs the toilet: can you drive the bus past 4 stops?',
         story: 'The bus driver at the Koophandelsplein urgently needs the toilet and runs off! The passengers are waiting. Get in the bus with 🚗 (or space) and drive it past the stops Poel, Lange Steenstraat, Ottogracht and Sint-Jacobs, in that order. At each stop, halt by the sign until the bus stands still. You have 4 minutes.',
         hud: '🚌 To the next stop!',
@@ -338,7 +338,7 @@ export const QUESTS = [
         lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
       },
       en: {
-        title: 'Heli Rescue',
+        title: 'Heli rescue',
         where: 'Start at the Blaarmeersen. Save three swimmers and fly them to the Graslei.',
         story: 'Alarm! Across the lake at the Blaarmeersen, close to the beach, a swimmer is in trouble. There is somebody else in the water at the Watersportbaan, beside the Annie Vande Wielebrug, and a third one where the Coupure begins! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly all three to the Graslei, where the ambulance is waiting. Land in the beam of light. You have 4 minutes!',
         hud: '🚁 Save the swimmers!',

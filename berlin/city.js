@@ -11,16 +11,22 @@
 //                    `node tools/osm_map.mjs berlin`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs berlin`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs berlin`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   inside.js        the buildings you can go into: the Neues Museum and the Pergamon Museum, their rooms in inside/ (hand-written)
+//   tor.js           the Brandenburger Tor, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
+// No sights or fronts yet, and one monument, the Brandenburger Tor: empty lists for the rest, and
+// for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+export { INSIDE } from './inside.js';
+import { TOR } from './tor.js';
 
-export { SIGHTS } from './sights.js';
-export const MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const MONUMENTS = [...TOR];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

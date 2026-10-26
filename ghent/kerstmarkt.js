@@ -3,7 +3,7 @@
 // roofs, round a big Christmas tree, and a few smaller trees, between the real trees on the square
 // (map.js) and clear of the camera's path (hand-written). Real metres, 1.25 to a game metre.
 //
-// TOUR_PROPS: what the tour puts in the city while it flies (core/js/main.js shows them only then):
+// TOUR_PROPS: what the tour puts in the city while it flies (core/js/game/touring.js shows them only then):
 // each { id, x, z (game metres), turn (radians, 0 = facing +z), make() }.
 import * as THREE from 'three';
 

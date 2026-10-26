@@ -1,0 +1,10 @@
+{%- comment -%}
+  A painting's or a statue's card, on the art page and on the other pieces' pages:
+  {% include art-card.html art=a %}, a: a piece of _data/art.json. Its photo whole on a grey ground
+  (assets/img/art/<id>-s.jpg), its title, and who made it when.
+{%- endcomment -%}
+{%- assign ac = include.art -%}
+        <a class="card art-card" href="/art/{{ ac.id }}/">
+          <span class="art-thumb"><img src="/assets/img/art/{{ ac.id }}-s.jpg" alt="" loading="lazy"></span>
+          <span class="art-name"><b>{{ ac.title }}</b><small>{{ ac.artist }}, {{ ac.date }}</small></span>
+        </a>

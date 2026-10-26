@@ -505,6 +505,44 @@ function rings(parts) {
   return out;
 }
 
+// The sea, as polygons in the coordinates of P: OSM draws the coast as lines (natural=coastline)
+// with the land on their left, so the water lies to the right of them. Each line that crosses the
+// box [x0, z0, x1, z1] (x east, z south) is cut to it and closed round the box's edge on its right,
+// clockwise on the map. Islands (closed lines) are left out.
+function sea(ways, P, [x0, z0, x1, z1]) {
+  const parts = ways.filter(wy => wy.tags?.natural === 'coastline').map(wy => wy.nodes.map(String).filter(i => P.has(i)));
+  // join the pieces end to start, keeping their direction
+  const lines = [];
+  while (parts.length) {
+    let line = parts.shift();
+    for (let i = 0; i < parts.length; i++) {
+      if (parts[i][0] === line[line.length - 1]) line = line.concat(parts.splice(i, 1)[0].slice(1));
+      else if (parts[i][parts[i].length - 1] === line[0]) line = parts.splice(i, 1)[0].slice(0, -1).concat(line);
+      else continue;
+      i = -1;
+    }
+    if (line[0] !== line[line.length - 1]) lines.push(line.map(i => P.get(i)));
+  }
+  const inBox = ([x, z]) => x > x0 && x < x1 && z > z0 && z < z1;
+  const clamp = ([x, z]) => [Math.min(x1, Math.max(x0, x)), Math.min(z1, Math.max(z0, z))];
+  const W = x1 - x0, H = z1 - z0;
+  // where a point on the box's edge lies along it, clockwise from the north-west corner
+  const along = ([x, z]) => (z <= z0 ? x - x0 : x >= x1 ? W + z - z0 : z >= z1 ? W + H + x1 - x : 2 * W + H + z1 - z);
+  const corners = [[x1, z0], [x1, z1], [x0, z1], [x0, z0]].map(c => [along(c) || 2 * (W + H), c]);
+  const out = [];
+  for (const line of lines) {
+    const a = line.findIndex(inBox), b = line.findLastIndex(inBox);
+    if (a < 0 || a === 0 || b === line.length - 1) continue; // it has to come in and go out again
+    const poly = [clamp(line[a - 1]), ...line.slice(a, b + 1), clamp(line[b + 1])];
+    // round the edge clockwise, from where the coast leaves the box to where it came in
+    const t0 = along(poly[poly.length - 1]), t1 = along(poly[0]), lap = 2 * (W + H);
+    const ahead = t => (t - t0 + lap) % lap;
+    corners.filter(([t]) => ahead(t) < ahead(t1)).sort((p, q) => ahead(p[0]) - ahead(q[0])).forEach(([, c]) => poly.push(c));
+    out.push(poly);
+  }
+  return out;
+}
+
 // ------------------------------------------------------------------ the map
 
 // area: { bbox: [s, w, n, e], routes: [{ id, route: [street names] }] (or one route: [street names]),
@@ -682,10 +720,12 @@ export function buildMap(data, area) {
 
   // Building parts with a height: towers, spires, the nave of a church. A building split into
   // parts is drawn from its parts, like 3D maps do.
+  // (a building or part under the ground, such as a subway station, is left out: it would stand on the street)
+  const underground = t => t.location === 'underground' || parseFloat(t.layer) < 0;
   const parts = [];
   for (const wy of ways) {
     const t = tag(wy);
-    if (!('building:part' in t) || 'building' in t || !(parseFloat(t.height) > 0)) continue;
+    if (!('building:part' in t) || 'building' in t || !(parseFloat(t.height) > 0) || underground(t)) continue;
     const ring = pts(wy);
     if (ring.length < 4 || ring[0] !== ring[ring.length - 1] || !near(centroid(ring))) continue;
     const g = ring.slice(0, -1).map(G);
@@ -865,7 +905,7 @@ export function buildMap(data, area) {
     const closed = ring.length >= 4 && ring[0] === ring[ring.length - 1];
     if (closed) ring = ring.slice(0, -1);
     if ('building' in t && closed && ring.length >= 3) {
-      if (!near(centroid(ring))) continue;
+      if (!near(centroid(ring)) || underground(t)) continue;
       const g = ring.map(G), a = polyArea(g);
       const mine = parts.filter(q => !q.parent && inside(q.c, g));
       if (mine.reduce((sum, q) => sum + q.a, 0) > 0.5 * a) {
@@ -935,11 +975,27 @@ export function buildMap(data, area) {
     else if (Object.entries(GREEN).some(([k, v]) => v.has(t[k]))) kind = WOODED.some(([k, v]) => t[k] === v) ? 'wood' : 'green';
     if (kind) out.areas.push({ k: kind, p: flat(ring.map(G)) });
   }
+  // the sea along the coast, out to a little beyond the box
+  const [bx0, bz1] = project({ lat: s, lon: w }), [bx1, bz0] = project({ lat: n, lon: e });
+  for (const poly of sea(ways, P, [bx0 - 200, bz0 - 200, bx1 + 200, bz1 + 200])) out.areas.push({ k: 'water', sea: 1, p: flat(poly.map(G)) });
 
   // church parts are stone like their church; tall parts of anything else are towers too
   const STONE = new Set(['church', 'cathedral', 'chapel']);
-  for (const q of parts) {
-    if (!q.parent && parseFloat(q.t.height) < 20) continue;
+  // A part never floats: where OSM maps the top of a tower but not what holds it up (common in New
+  // York), its base comes down onto the highest part or building below it, or onto the ground.
+  const drawn = parts.filter(q => q.parent || parseFloat(q.t.height) >= 20);
+  const under = out.buildings.map(b => ({ g: Array.from({ length: b.p.length / 2 }, (_, i) => [b.p[2 * i], b.p[2 * i + 1]]), top: b.h != null ? b.h / S : b.f * 3 }));
+  for (const q of drawn) {
+    const base = parseFloat(q.t.min_height);
+    if (!(base > 0)) continue;
+    const below = [
+      ...drawn.filter(o => o !== q && !(parseFloat(o.t.min_height) >= base) && inside(q.c, o.g)).map(o => parseFloat(o.t.height)),
+      ...under.filter(o => inside(q.c, o.g)).map(o => o.top),
+    ].filter(top => top <= base + 0.5);
+    const top = Math.max(0, ...below);
+    if (top < base - 2) q.t = { ...q.t, min_height: String(top) };
+  }
+  for (const q of drawn) {
     addBuilding(q.wy, q.t, q.g, STONE.has(q.parent) || parseFloat(q.t.height) >= 20 ? 'part' : q.parent);
   }
 

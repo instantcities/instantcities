@@ -6,7 +6,7 @@ import { AT } from './monuments.js';
 
 export const SIGHTS = [
   {
-    id: 'sint-baafs', page: 'sint-baafs-kathedraal', emoji: '🖼️', x: AT.baafs[0] + 0, z: AT.baafs[1] + -30, r: 40,
+    id: 'sint-baafs', page: '/ghent/landmark/sint-baafs-kathedraal/', emoji: '🖼️', x: AT.baafs[0] + 0, z: AT.baafs[1] + -30, r: 40,
     arrival: { x: AT.baafs[0], z: AT.baafs[1] - 55, look: [AT.baafs[0], AT.baafs[1]] },
     text: {
       nl: { name: 'Sint-Baafskathedraal', text: 'Het schip van de kathedraal is in zijn huidige vorm van de 15de en 16de eeuw. De zwart-witte marmeren vloer werd in de 18de eeuw gelegd, op de diagonaal. Rij door de zijbeuken en rond het koor naar de kapellen achteraan.' },
@@ -16,7 +16,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'sint-niklaas', page: 'sint-niklaaskerk', emoji: '⛪', x: AT.niklaas[0] + 0, z: AT.niklaas[1] + -10, r: 40,
+    id: 'sint-niklaas', page: '/ghent/landmark/sint-niklaaskerk/', emoji: '⛪', x: AT.niklaas[0] + 0, z: AT.niklaas[1] + -10, r: 40,
     arrival: { x: AT.niklaas[0], z: AT.niklaas[1] - 30, look: [AT.niklaas[0], AT.niklaas[1]] },
     text: {
       nl: { name: 'Sint-Niklaaskerk', text: 'Scheldegotiek in blauwgrijze Doornikse steen. Boven de viering staat de lantaarntoren; het schip is hoog, licht en bijna kaal. Vandaag is het ook een plek voor concerten en tentoonstellingen.' },

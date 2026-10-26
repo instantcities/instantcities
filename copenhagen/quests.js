@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-963, 309], pad: [-963, 309], radius: 16,
+    victims: [[-245, 559, 'Frederiksholms Kanal'], [626, -305, 'Nyhavn']], drop: [928, -838, 'Amalienborg'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Rådhuspladsen. Red twee zwemmers en breng ze naar het plein van Amalienborg.',
+        story: 'Alarm! Er raakt een zwemmer in nood in de gracht naast Christiansborg, en nóg iemand gaat bijna kopje-onder in Nyhavn, tussen de gekleurde huizen! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar het plein van Amalienborg, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar Christiansborg!', '🚁 Naar Nyhavn!', '🚁 Naar het plein van Amalienborg, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Rådhuspladsen. Save two swimmers and fly them to the square of Amalienborg.',
+        story: 'Alarm! A swimmer is in trouble in the canal beside Christiansborg, and a second one is about to go under in Nyhavn, between the coloured houses! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the square of Amalienborg, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To Christiansborg!', '🚁 To Nyhavn!', '🚁 To the square of Amalienborg, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

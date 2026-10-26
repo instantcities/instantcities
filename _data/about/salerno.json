@@ -1,0 +1,91 @@
+{
+  "intro": "Salerno lies on its own gulf in Campania, in the south of Italy, where the Amalfi Coast ends and the plain of Paestum begins. A Lombard capital and the home of the first medical school of medieval Europe, it climbs from a palm-lined seafront up through a medieval old town to the castle on the hill. Every winter its streets glow with the Luci d’Artista.",
+  "famous": [
+    "The Duomo, the Norman cathedral over the tomb of Saint Matthew",
+    "The Scuola Medica Salernitana, the first medical school of medieval Europe",
+    "The Lungomare, the seafront promenade looking out over the gulf",
+    "The Luci d’Artista, the light festival that fills the town every winter",
+    "The gateway to the Amalfi Coast, by boat from the Molo Manfredi"
+  ],
+  "facts": [
+    ["Country", "Italy"],
+    ["Region", "Campania"],
+    ["Province", "Salerno, of which it is the capital"],
+    ["Population", "About 127,000 (city)"],
+    ["Sea", "The Gulf of Salerno, on the Tyrrhenian Sea"],
+    ["Language", "Italian; the local dialect is close to Neapolitan"],
+    ["Patron saint", "Saint Matthew the Evangelist, feast day 21 September"],
+    ["Nickname", "The Hippocratic City (Civitas Hippocratica)"]
+  ],
+  "overview": [
+    "Salerno is squeezed between the mountains and the sea. Its medieval old town, the centro storico, climbs the slope behind the harbour in steep lanes, stairs and arches, crossed from west to east by Via dei Mercanti. Below it the 19th- and 20th-century town spreads out along the shore: the Corso Vittorio Emanuele, the Villa Comunale and the Teatro Verdi, and the long Lungomare Trieste by the sea.",
+    "Instant Salerno takes you through the heart of it: the Duomo and the lanes of the old town, the Corso out to the station, the gardens and the theatre at the west end, and the seafront with the Molo Manfredi, where Zaha Hadid’s ferry terminal stands. The town really climbs the hill, but the game keeps it flat, and the castle above lies outside the map."
+  ],
+  "setting": [
+    "Salerno is the capital of the province of Salerno in Campania, about 55 kilometres south-east of Naples. To the west the cliffs of the Amalfi Coast begin almost at the edge of town, with Vietri sul Mare, Amalfi and Positano along them; to the south the flat plain of the Sele runs to the Greek temples of Paestum and on to the Cilento.",
+    "The climate is Mediterranean, with long, hot, dry summers and mild, rainier winters. The mountains behind the town shelter it from the north, and the sea keeps the winters gentle."
+  ],
+  "history": [
+    {
+      "title": "From Roman colony to Lombard capital",
+      "text": [
+        "The Romans founded the colony of Salernum in 197 BC on a hill above the sea. After the fall of Rome the town passed to the Lombards, and in the 8th century Arechis II, the duke of Benevento, made it his second capital, strengthened the castle on the hill and built a palace by the sea.",
+        "In 849 Salerno became the capital of a Lombard principality of its own, which ruled much of southern Italy for two centuries. It traded with the whole Mediterranean, and Greek, Latin, Arabic and Jewish learning met in its streets."
+      ]
+    },
+    {
+      "title": "The Hippocratic City",
+      "text": [
+        "From the 10th century Salerno was famous for its medical school, the Scuola Medica Salernitana, the first of its kind in medieval Europe. Its doctors translated and taught from Greek and Arabic texts, women studied and taught there too, and its health rules in verse were read in every country of Europe.",
+        "In 1076 the Norman Robert Guiscard took the town and made it the capital of his lands in southern Italy. He built the Duomo, where Pope Gregory VII, who had fled Rome, lies buried."
+      ]
+    },
+    {
+      "title": "A provincial town, and briefly the capital of Italy",
+      "text": [
+        "Once the kingdom’s capital moved to Naples, Salerno became a provincial town, and its medical school slowly faded until Joachim Murat closed it in 1811. In the 19th century the town grew beyond its walls along the sea, with the Corso, the Villa Comunale and the Teatro Verdi.",
+        "On 9 September 1943 the Allies landed on the beaches south of the town, in Operation Avalanche. From February to July 1944 Salerno was the seat of the Italian government, the capital of the free part of Italy, before it moved back to Rome."
+      ]
+    }
+  ],
+  "timeline": [
+    ["197 BC", "The Romans found the colony of Salernum"],
+    ["774", "Arechis II, duke of Benevento, makes Salerno his second capital"],
+    ["849", "Salerno becomes the capital of a Lombard principality of its own"],
+    ["954", "The relics of Saint Matthew are brought to Salerno"],
+    ["10th century", "The Scuola Medica Salernitana becomes known across Europe"],
+    ["1076", "The Norman Robert Guiscard takes the town"],
+    ["1084", "Pope Gregory VII consecrates the new cathedral"],
+    ["1811", "Joachim Murat closes the medical school"],
+    ["1872", "The Teatro Verdi opens"],
+    ["1943", "The Allied landings at Salerno, Operation Avalanche"],
+    ["1944", "Salerno is the seat of the Italian government from February to July"],
+    ["2006", "The first Luci d’Artista light up the town"],
+    ["2016", "Zaha Hadid’s ferry terminal opens on the Molo Manfredi"]
+  ],
+  "today": [
+    "Salerno is a busy port and university town, the capital of its province and the gateway to the Amalfi Coast and the Cilento. Boats leave the Molo Manfredi for Amalfi, Positano and Capri, and the trains on the line from Naples to Calabria stop at its station.",
+    "In the evening the town walks the Corso and the Lungomare, and on 21 September it carries the statue of Saint Matthew through the streets for its patron’s feast. From November to January the Luci d’Artista turn the Villa Comunale, the Corso and the old town into a garden of lights."
+  ],
+  "places": [
+    { "id": "duomo", "name": "Duomo di San Matteo", "local": "Cattedrale di Salerno", "kind": "building", "lat": 40.68003, "lon": 14.76034, "blurb": "The Norman cathedral of 1084 over the tomb of Saint Matthew, with its arcaded courtyard and its bell tower.", "landmark": "duomo" },
+    { "id": "via-dei-mercanti", "name": "Via dei Mercanti", "kind": "street", "lat": 40.6797, "lon": 14.7578, "blurb": "The merchants’ street, the main lane of the medieval town, full of shops.", "landmark": "via-dei-mercanti" },
+    { "id": "portanova", "name": "Piazza Sedile di Portanova", "kind": "square", "lat": 40.67814, "lon": 14.76238, "blurb": "The square at the east end of the old town, where Via dei Mercanti meets the Corso." },
+    { "id": "corso", "name": "Corso Vittorio Emanuele", "kind": "street", "lat": 40.67756, "lon": 14.76494, "blurb": "The long shopping street, closed to cars, from the old town to the station.", "landmark": "corso-vittorio-emanuele" },
+    { "id": "via-roma", "name": "Via Roma", "kind": "street", "lat": 40.67864, "lon": 14.75712, "blurb": "The street along the foot of the old town, with the Palazzo di Città and its cafés." },
+    { "id": "lungomare", "name": "Lungomare Trieste", "kind": "street", "lat": 40.67706, "lon": 14.76017, "blurb": "The seafront promenade under the palms, looking out over the gulf.", "landmark": "lungomare" },
+    { "id": "gulf", "name": "Gulf of Salerno", "local": "Golfo di Salerno", "kind": "waterway", "lat": 40.67547, "lon": 14.75983, "blurb": "The bay between the Amalfi Coast and the Cilento, in front of the whole town." },
+    { "id": "villa-comunale", "name": "Villa Comunale", "kind": "park", "lat": 40.67839, "lon": 14.75392, "blurb": "The town’s 19th-century garden, the heart of the Luci d’Artista in winter.", "landmark": "villa-comunale" },
+    { "id": "teatro-verdi", "name": "Teatro Verdi", "kind": "building", "lat": 40.67921, "lon": 14.75267, "blurb": "The opera house of 1872, red and gold inside.", "landmark": "teatro-verdi" },
+    { "id": "piazza-della-liberta", "name": "Piazza della Libertà", "kind": "square", "lat": 40.67647, "lon": 14.75339, "blurb": "The big new square by the sea at the west end of the Lungomare, in front of the curved Crescent building." },
+    { "id": "molo-manfredi", "name": "Molo Manfredi", "kind": "building", "lat": 40.67417, "lon": 14.75203, "blurb": "The pier with Zaha Hadid’s ferry terminal, where the boats leave for the Amalfi Coast and Capri.", "landmark": "stazione-marittima" },
+    { "id": "giardino-della-minerva", "name": "Giardino della Minerva", "kind": "park", "lat": 40.68112, "lon": 14.75378, "blurb": "The medieval garden of medicinal plants, on terraces above the old town.", "landmark": "giardino-della-minerva" },
+    { "id": "acquedotto", "name": "Medieval aqueduct", "local": "Acquedotto medievale", "kind": "bridge", "lat": 40.67988, "lon": 14.76478, "blurb": "The high pointed arches that legend says the devil built in one night.", "landmark": "acquedotto" }
+  ],
+  "links": [
+    { "title": "Comune di Salerno", "url": "https://www.comune.salerno.it/", "note": "The city council (in Italian)" },
+    { "title": "Luci d’Artista", "url": "https://www.lucidartistasalerno.it/", "note": "The winter light festival" },
+    { "title": "Giardino della Minerva", "url": "https://www.giardinodellaminerva.it/", "note": "The medieval garden of medicinal plants" },
+    { "title": "Salerno on Wikipedia", "url": "https://en.wikipedia.org/wiki/Salerno", "note": "The encyclopedia article" }
+  ]
+}

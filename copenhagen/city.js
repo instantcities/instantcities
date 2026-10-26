@@ -11,16 +11,20 @@
 //                    `node tools/osm_map.mjs copenhagen`, do not edit by hand
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs copenhagen`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs copenhagen`
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   rundetaarn.js    the Rundetårn, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
+// No sights or fronts yet, and one monument, the Rundetårn: empty lists for the rest, and for what
+// only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
+import { RUNDETAARN } from './rundetaarn.js';
 
-export { SIGHTS } from './sights.js';
-export const MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const MONUMENTS = [...RUNDETAARN];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

@@ -19,8 +19,8 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 
-export { SIGHTS } from './sights.js';
-export const MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const SIGHTS = [], MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

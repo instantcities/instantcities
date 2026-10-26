@@ -2,23 +2,39 @@
 # city on them comes from _data/cities.yml.
 title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
 description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
-tagline: "The historic centres of Europe in 3D, to explore or race by bike, on foot or on horseback."
+tagline: "Explore the historic centres of Europe in 3D by bike, on foot or even on horseback."
 lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
 cities_title: "Pick a city"
-live_city: ghent # whose tour plays behind the home page's hero
-live_poster: /assets/img/ghent-tour.jpg # the tour's first shot, until it plays
-live_caption: "Live: the tour of Ghent"
+hero_play_cities: [paris, rome] # Play buttons before it in the home page's hero
+live_city: ghent # initial preview and full-tour link
+live_poster: /assets/previews/ghent.jpg # compiled preview's first frame
+live_caption: "Preview: Ghent"
 live_watch: "Watch the tour"
+home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
 soon_title: "Coming soon"
-cities_page_title: "Cities: the historic centres of Europe to play in 3D"
-cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
-cities_page_tagline: "The historic centres of Europe we have rebuilt in 3D, from Bruges to Rome."
+cities_page_title: "Cities: the historic centres of Europe, and a few beyond, to play in 3D"
+cities_page_description: "Every city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
+cities_page_tagline: "The historic centres of Europe, rebuilt in 3D, from Bruges to Rome and Istanbul, and across the ocean New York and San Francisco."
 features_title: "In every city"
-features:
-  - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals." }
-  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong." }
-  - { icon: compass, title: "Races, quests and tours", text: "Races along real streets, short missions against the clock, a tour that flies you past the sights, or just ride about and look." }
+features: # more: where on the about page (/about/) its "Learn more" link goes
+  - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals.", more: "/about/#openstreetmap" }
+  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong.", more: "/about/#the-game" }
+  - { icon: compass, title: "Races, quests and tours", text: "Races along real streets, short missions against the clock, a tour that flies you past the sights, or just ride about and look.", more: "/about/#the-game" }
+features_more: "Learn more…"
+# the home page's "About the project" section, which leads to the about page (/about/)
+project_title: "About the project"
+project_text:
+  - "Instant Cities is an open source project with one aim: to bring a city to life on your screen with as low a barrier as possible. You open a link and you are riding through its streets, with nothing to install, no account and no fast computer needed."
+  - "Every city is built from OpenStreetMap and drawn with three.js in the browser, and AI writes most of the code. The code is on GitHub for anyone to read, use and improve."
+project_more: "More about the project"
+github: "https://github.com/instantcities/instantcities"
+# the "Ready to go?" banner at the bottom of the home page: a Play button for each of these cities
+cta_title: "Ready to go?"
+cta_cities: [paris, london, rome]
 play_note: "Free · no account · works on PC, tablet and phone"
 beta: "Still in development: expect some rough edges."
 vibe: 'An experiment vibe-coded with love by <a href="https://woutersmet.com/">Wouter</a> & Julia using Claude Opus, OpenAI Sol, <a href="https://threejs.org/">three.js</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and <a href="https://www.mapillary.com/">Mapillary</a>.'
 credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
+
+# Compiled website previews, in playback order (each is 18 seconds).
+preview_cities: [ghent, rome, paris, london, barcelona]

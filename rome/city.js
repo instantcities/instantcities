@@ -12,7 +12,17 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs rome`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs rome`
 //   inside.js        the buildings you can go into: the Pantheon and the Sistine Chapel, their rooms in inside/ (hand-written)
-// No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
+//   colosseo.js      the Colosseo, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
+//   arco.js          the Arco di Costantino beside it, modelled the same way
+//   pantheon.js      the Pantheon, its porch and its dome
+//   trevi.js         the Fontana di Trevi against the Palazzo Poli
+//   colonna.js       the Colonna di Marco Aurelio on Piazza Colonna
+//   vittoriano.js    the Vittoriano on Piazza Venezia
+//   foro.js          the Foro Romano: the Curia, the arch, the temples' columns, the Basilica di Massenzio, the ruins
+//   navona.js        Piazza Navona's three fountains and Sant'Agnese in Agone
+//   argentina.js     the temples of Largo di Torre Argentina
+// No sights or fronts yet, and the monuments above modelled by hand: empty lists for the rest, and
+// for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -20,9 +30,19 @@ export { QUESTS } from './quests.js';
 export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
+import { COLOSSEO } from './colosseo.js';
+import { ARCO } from './arco.js';
+import { PANTHEON } from './pantheon.js';
+import { TREVI } from './trevi.js';
+import { COLONNA } from './colonna.js';
+import { VITTORIANO } from './vittoriano.js';
+import { FORO } from './foro.js';
+import { NAVONA } from './navona.js';
+import { ARGENTINA } from './argentina.js';
 
-export { SIGHTS } from './sights.js';
-export const MONUMENTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const MONUMENTS = [...COLOSSEO, ...ARCO, ...PANTHEON, ...TREVI, ...COLONNA, ...VITTORIANO, ...FORO, ...NAVONA, ...ARGENTINA];
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name

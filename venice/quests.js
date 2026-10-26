@@ -26,4 +26,33 @@ export const QUESTS = [
       },
     },
   },
+  {
+    id: 'heli', emoji: '🚁', icon: '🚁', player: { mount: 'foot', pick: 'bliksem' }, kind: 'rescue', heli: true, time: 180,
+    start: [-731, -176], pad: [-731, -176], radius: 16,
+    victims: [[-280, -147, 'Rialto'], [208, 503, 'Bacino di San Marco']], drop: [140, 268, 'Piazza San Marco'],
+    text: {
+      nl: {
+        title: 'Heli\u00adredding',
+        where: 'Start aan de Campo San Polo. Red twee zwemmers en breng ze naar de Piazza San Marco.',
+        story: 'Alarm! Er raakt een zwemmer in nood in het Canal Grande, bij de Rialtobrug, en nóg iemand gaat bijna kopje-onder in het Bacino di San Marco, voor het Dogenpaleis! Stijg op, vlieg door de cirkel boven elke zwemmer, niet te hoog, en de lier haalt hem meteen op; en vlieg ze dan allebei naar de Piazza San Marco, waar de ambulance wacht. Land in de lichtzuil. Je hebt 3 minuten!',
+        hud: '🚁 Red de zwemmers!',
+        legs: ['🚁 Naar de Rialto!', '🚁 Naar het Bacino di San Marco!', '🚁 Naar de Piazza San Marco, en landen!'],
+        lower: '⬇ Lager vliegen!',
+        done: 'GERED! 🚁',
+        win: '🚁 Twee zwemmers veilig bij de ambulance. Wat een redding!',
+        lose: '🚁 Te laat, de redders van de brandweer waren je voor.',
+      },
+      en: {
+        title: 'Heli rescue',
+        where: 'Start at the Campo San Polo. Save two swimmers and fly them to the Piazza San Marco.',
+        story: 'Alarm! A swimmer is in trouble in the Grand Canal, by the Rialto Bridge, and a second one is about to go under in the Bacino di San Marco, off the Doge’s Palace! Take off, fly through the circle over each swimmer, not too high, and the winch has them up at once; then fly both to the Piazza San Marco, where the ambulance is waiting. Land in the beam of light. You have 3 minutes!',
+        hud: '🚁 Save the swimmers!',
+        legs: ['🚁 To the Rialto!', '🚁 To the Bacino di San Marco!', '🚁 To the Piazza San Marco, and land!'],
+        lower: '⬇ Fly lower!',
+        done: 'RESCUED! 🚁',
+        win: '🚁 Two swimmers safe at the ambulance. What a rescue!',
+        lose: '🚁 Too late, the fire brigade’s divers beat you to it.',
+      },
+    },
+  },
 ];

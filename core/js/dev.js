@@ -5,7 +5,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { addLandmarks } from './landmarks.js';
 import { LANDMARKS, MONUMENTS, FRONTS } from './city.js';
 import { createAnimal } from './horse.js';
-import { createWalker, createCyclist } from './riders.js';
+import { createWalker, createCyclist, createScooterist } from './riders.js';
 import { STABLE, MOUNTS } from './horses.js';
 import { CAR_TYPES, carGroup } from './cars.js';
 import { ITEMS, createItemModel, createBolt } from './items.js';
@@ -44,6 +44,7 @@ const rider = (h, mount) => {
   const def = { ...h, number: STABLE.indexOf(h) + 1, labelLayer: 1 }; // the label stays off camera layer 0
   if (mount === 'foot') return createWalker(def, STABLE.indexOf(h));
   if (mount === 'bike') return createCyclist(def, STABLE.indexOf(h));
+  if (mount === 'vespa') return createScooterist(def, STABLE.indexOf(h));
   return createAnimal({ ...def, species: mount });
 };
 

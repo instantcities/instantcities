@@ -192,7 +192,7 @@ import { HOLLOWS as MEASURED_HOLLOWS } from './landmarks.js';
 import { HOLLOWS as RAMPS, MOUTH as DOK_NOORD_MOUTH } from './doknoord.js';
 import { HOLLOWS as KOUTER_RAMP, onRamp as onKouterRamp, rampRoad as kouterRampRoad, MOUTHS as KOUTER_MOUTHS } from './kouter.js';
 // The car parks under the Kouter and under Dok Noord are one: ride into a mouth of the one and you
-// come up the other's ramp (core/js/main.js); from Dok Noord, up the Kouter's way out. Each portal:
+// come up the other's ramp (core/js/game/physics.js); from Dok Noord, up the Kouter's way out. Each portal:
 // where its mouth is, and where it lets you out.
 // (The doors into Sint-Baafs, Sint-Niklaas and the Stadhuis are in inside.js: their rooms stand on
 // this map, js/interiors.js.)
@@ -242,6 +242,11 @@ export const FRONTS = [...HAND_FRONTS, ...specFronts(STREETS, HAND_FRONTS)];
 // the city's folder, and its name
 export const ID = 'ghent';
 export const NAME = { nl: 'Gent', en: 'Ghent', fr: 'Gand', es: 'Gante' };
+
+// Each sight's page on the site (ghent/landmark/<id>/): the sight's id goes after it, or its own
+// `page` where the landmark's id differs. A sight's card in the game links there (Read more); a city
+// without these pages leaves it out, and the link with it.
+export const SIGHT_PAGES = '/ghent/landmark/';
 
 // The colours of the open ground (paved, so grey) and how far the fog lets you see, in game metres.
 // A race can bring its own.

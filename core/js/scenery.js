@@ -1922,7 +1922,7 @@ function bikeDiscTexture() {
 }
 
 function osmGround(ctx, map, m) {
-  const water = waterMaterial(ctx);
+  const water = waterMaterial(ctx, LOOK?.water); // a city on the sea can have it bluer than the canals' green
   const layers = {
     water: [new Batch(), water, 0.008, 12],
     green: [new Batch(), m.park, 0.012, 6], wood: [new Batch(), mat(0xffffff, 1, { map: m.garden.map }), 0.013, 6],
@@ -2375,8 +2375,8 @@ function boatGeometry(r) {
 
 // A gondola: long, slender and black, its ends curving up, the steel ferro on its bow, two
 // passengers on red cushions and the gondolier standing at the back in a striped shirt and a straw
-// hat, his oar in the water. Its bow is +z.
-function gondolaGeometry(r) {
+// hat, his oar in the water (left out with oar false, for a gondola that strokes its own). Its bow is +z.
+function gondolaGeometry(r, oar = true) {
   const parts = [];
   const paint = (geo, hex) => {
     const g = geo.index ? geo.toNonIndexed() : geo, c = new THREE.Color(hex), n = g.attributes.position.count;
@@ -2412,9 +2412,10 @@ function gondolaGeometry(r) {
   paint(new THREE.CylinderGeometry(0.16, 0.16, 0.12, 12).translate(0, 2.1, z), 0xe8c872);
   paint(new THREE.CylinderGeometry(0.165, 0.165, 0.04, 12).translate(0, 2.06, z), 0xc62828); // its ribbon
   // the oar, from his hands down into the water on the right
-  paint(new THREE.BoxGeometry(0.06, 0.06, 4.2).rotateX(0.55).rotateY(0.25).translate(0.55, 0.8, z + 1.2), 0x8a6a48);
+  if (oar) paint(gondolaOar().translate(0.55, 0.8, z + 1.2), 0x8a6a48);
   return mergeGeometries(parts);
 }
+const gondolaOar = () => new THREE.BoxGeometry(0.06, 0.06, 4.2).rotateX(0.55).rotateY(0.25);
 
 // The name across a boat's flat stern, under the rim, where you see it from behind: the city's
 // boats' own (BOATS.name, <city>/city.js: Ghent's "Bootjes van Gent"), or none.
@@ -2443,10 +2444,32 @@ function boatName() {
 }
 
 // One tour boat on its own, its bow +z and its waterline at y = 0: the last boat of a quest, and
-// the boat you sail when you ride into the water.
+// the boat you sail when you ride into the water. In a city of gondolas (BOATS.kind, Venice) a
+// gondola instead.
 export function tourBoat() {
+  if (BOATS?.kind === 'gondola') return gondola();
   const boat = new THREE.Mesh(boatGeometry(Math.random), new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.7 }));
   boat.add(boatName());
+  return boat;
+}
+
+// A gondola on its own, its gondolier's oar a mesh of its own: its stroke(t, speed) sweeps the oar
+// to and fro through the water, faster as the gondola goes faster.
+function gondola() {
+  const material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.7 });
+  const boat = new THREE.Mesh(gondolaGeometry(Math.random, false), material);
+  const parts = [];
+  painter(parts)(gondolaOar(), 0x8a6a48);
+  // the oar turns about its top end, in the gondolier's hands
+  const top = new THREE.Vector3(0, 0, -2.1).applyEuler(new THREE.Euler(0.55, 0.25, 0, 'YXZ')), at = new THREE.Vector3(0.55, 0.8, -2.7).add(top);
+  const pivot = new THREE.Group();
+  pivot.position.copy(at);
+  pivot.add(new THREE.Mesh(mergeGeometries(parts).translate(-top.x, -top.y, -top.z), material));
+  boat.add(pivot);
+  boat.userData.stroke = (t, speed) => {
+    const go = Math.min(1, Math.abs(speed) / 6), s = Math.sin(t * (1.2 + go * 1.6));
+    pivot.rotation.set(s * 0.08 * go, s * 0.3 * go, 0);
+  };
   return boat;
 }
 

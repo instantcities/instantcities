@@ -8,7 +8,7 @@
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { Parts, floorMat } from '../../core/js/inside/gothic.js';
-import { hall, skylight, framed, plinth, bench, vitrine, roundWall, visitors, crowd } from '../../core/js/inside/rooms.js';
+import { hall, skylight, framed, plinth, bench, vitrine, roundWall, visitors, crowd, wanderers } from '../../core/js/inside/rooms.js';
 import { rosettaStone, egyptWall, frieze } from '../../core/js/inside/art.js';
 import { roman, ramesses, sarcophagus } from '../../core/js/inside/statues.js';
 import { plaque } from '../../core/js/inside/pictures.js';
@@ -97,11 +97,12 @@ export function makeBritishMuseum() {
       p.block(x, (z0 + z1) / 2, 1.5, (z1 - z0) / 2 + 0.2);
       for (let z = z0 + 1.5, q = 0; z < z1; z += 3, q++) roman(p, x, 1.2, z, 1.8 + (q % 2) * 0.3, ry, q + 7);
     }
-    for (let k = 0; k < 4; k++) framed(p, frieze(), 1.6, 1.5, P.x0 + 14 + k * 9, 9, P.z0 + 0.47, 0, { f: 0.12, color: 0xbab6aa, label: false });
+    for (let k = 0; k < 4; k++) framed(p, frieze(), 1.6, 1.5, P.x0 + 14 + k * 9, 9, P.z0 + 0.47, 0, { f: 0.12, color: 0xbab6aa, label: false, lamp: false });
     bench(p, (P.x0 + P.x1) / 2, 0, 5, Math.PI / 2);
     g.add(visitors([[60, 6, Math.PI], [64, -6, 0], [72, 7, Math.PI], [84, -5, 0.2], [88, 3, 1.6]], 57));
   }
 
+  g.add(wanderers(p, 19));
   g.add(p.mesh());
   return { group: g, foot: p.foot, door: { x: 0, z: COURT.z0 + 1.6 } };
 }

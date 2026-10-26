@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 
 // People who stand or sit still (waiting at the bus and tram stops, sitting on the terraces, on the
-// cobbles and the quays) as targets for the paintball gun (car+paintball mode, main.js). A target is
+// cobbles and the quays) as targets for the paintball gun (car+paintball mode, game/physics.js). A target is
 // { at() -> { x, y (feet), z, h (how tall), r (how wide) } in the city, down, hit(x0, z0), reset() }: hit
 // by a shot from (x0, z0), it is covered in blue and falls over, and stays down until reset (a new round).
 

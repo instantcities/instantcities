@@ -1,6 +1,7 @@
-// Paris: everything the game needs to know about the city it is set in. A first, small map of the
-// Île de la Cité and both banks of the Seine around it: the Hôtel de Ville, Notre-Dame, the
-// Sainte-Chapelle, the Pont Neuf and the Rue de Rivoli up to the Louvre. Made like Lecce (see
+// Paris: everything the game needs to know about the city it is set in. A first map of the Île de
+// la Cité and both banks of the Seine around it: the Hôtel de Ville, Notre-Dame, the Sainte-Chapelle,
+// the Pont Neuf and the Rue de Rivoli up to the Louvre, and west along the river past the Tuileries,
+// the Concorde and the Invalides to the Eiffel Tower and the Champ de Mars. Made like Lecce (see
 // docs/lecce-exercise.md), from OpenStreetMap only. The files in this folder:
 //   city.js          this file: the city's look and its named places, and the rest gathered up
 //   races.js         the race routes            (hand-written)
@@ -12,8 +13,13 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs paris`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs paris`
 //   inside.js        the buildings you can go into: the Louvre, its rooms in inside/ (hand-written)
-// No sights or fronts yet, and one monument, the Louvre's pyramid: empty lists for the rest, and for
-// what only Ghent has.
+//   saint-jacques.js the Tour Saint-Jacques, modelled by hand on core/js/arcade.js, in place of the map's block of it
+//   eiffel.js        the Eiffel Tower, modelled by hand in place of the map's stack of building parts
+//   notre-dame.js    Notre-Dame, modelled by hand in place of the map's building parts of it
+//   sainte-chapelle.js, conciergerie.js, hotel-de-ville.js, pompidou.js,
+//   pont-neuf.js, louvre.js  the same way
+// No sights or fronts yet, and three monuments, the Louvre's pyramid, the Tour Saint-Jacques and the
+// Eiffel Tower: empty lists for the rest, and for what only Ghent has.
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -22,9 +28,18 @@ export { SIGNALS, CROSSINGS } from './crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';
+import { SAINT_JACQUES } from './saint-jacques.js';
+import { EIFFEL } from './eiffel.js';
+import { NOTRE_DAME } from './notre-dame.js';
+import { SAINTE_CHAPELLE } from './sainte-chapelle.js';
+import { CONCIERGERIE } from './conciergerie.js';
+import { HOTEL_DE_VILLE } from './hotel-de-ville.js';
+import { POMPIDOU } from './pompidou.js';
+import { PONT_NEUF } from './pont-neuf.js';
+import { LOUVRE } from './louvre.js';
 
-export { SIGHTS } from './sights.js';
-export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SITE_SIGHTS } from './site-sights.js'; // the cards from the site's landmark pages (tools/landmarks.mjs)
+export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 
 // The Louvre's glass pyramid in the Cour Napoléon, in place of the box the map makes of it (its
 // corners from the map), turned the way the Louvre is: its door is the way into the museum (inside.js).
@@ -32,7 +47,7 @@ const PYRAMID = [-974, -628, -931, -612, -947, -570, -990, -585];
 export const MONUMENTS = [{
   id: 'pyramide-du-louvre', name: 'Pyramide du Louvre', x: -960.5, z: -598.8, turn: 1.214, size: 1, reach: 120,
   area: [PYRAMID], foot: [PYRAMID], make: () => pyramid(22.9, 0, 27, 0.62),
-}];
+}, ...SAINT_JACQUES, ...EIFFEL, ...NOTRE_DAME, ...SAINTE_CHAPELLE, ...CONCIERGERIE, ...HOTEL_DE_VILLE, ...POMPIDOU, ...PONT_NEUF, ...LOUVRE];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the city's folder, and its name
@@ -83,4 +98,5 @@ export const PLACES = [
   { name: 'Place Saint-Michel', x: -242, z: 467, side: 'l' },
   { name: 'Châtelet', x: 60, z: -182, side: 'r' },
   { name: 'Centre Pompidou', x: 536, z: -542, side: 'r' },
+  { name: 'Tour Eiffel', x: -4746, z: -218, side: 'l' },
 ];

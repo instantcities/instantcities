@@ -1,0 +1,12 @@
+{
+  "id": "siena",
+  "name": "Instant Siena",
+  "title": "Instant Siena: a free 3D game of Siena, by bike, on foot or on horseback",
+  "description": "Cycle, walk or gallop through a 3D version of the centre of Siena in your browser. Explore the city or race, alone or two players on one keyboard. Free, nothing to install.",
+  "share_title": "Instant Siena: play through Siena in 3D",
+  "share_description": "Cycle, walk or gallop through Siena in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free 3D browser game set in the centre of Siena, Italy: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Siena in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Siena",
+  "style": ":root { --paper: #fcf6ee; --accent: #9b3d24; --accent-soft: #f3dfd4; --gold: #d9a23a; --sky: #f4e4d2; --skyline: #c98a6a; --glass: rgba(252, 246, 238, 0.72); } .tag { color: #7a2f1c; }"
+}

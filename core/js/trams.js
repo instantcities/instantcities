@@ -8,7 +8,7 @@ import { letGo } from './facades.js';
 // bellows between them and a cab at both ends. They drive on the right, each track one way, round
 // the network (see tramnet.js): halting at the stops, keeping their distance, and at the end of the
 // line crossing over to the track back. More of them, and slower, in the city centre. Where the city
-// has its tram lines (tramlines.js) each tram keeps to one, and can be ridden (see main.js).
+// has its tram lines (tramlines.js) each tram keeps to one, and can be ridden (see game/transit.js).
 
 export const SECTION = 7.6, GAP = 0.5, SECTIONS = 5, W = 2.65;
 const LENGTH = SECTIONS * SECTION + (SECTIONS - 1) * GAP;
@@ -145,7 +145,7 @@ export function addTrams(ctx, trams, halts = [], centre = null, lines = null) {
     for (const sg of t.signs) drawSign(sg, line);
   };
   for (const t of fleet.list) { place(t); signs(t); }
-  const T = { fleet, net, LENGTH, riders: [] }; // riders: set each frame (main.js), for the trams to halt for
+  const T = { fleet, net, LENGTH, riders: [] }; // riders: set each frame (game/loop.js), for the trams to halt for
   ctx.updaters.push(dt => {
     fleet.step(dt, T.riders);
     for (const t of fleet.list) { place(t); signs(t); }
