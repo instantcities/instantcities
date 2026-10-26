@@ -30,18 +30,18 @@ preview: "Voorproefje: %c"
 europe_map: De steden op een kaart van Europa
 all_cities_soon: "Alle steden, en de %n die nog komen"
 
-title: "Instant Cities: de historische centra van Europa in 3D, met de fiets, te voet of te paard"
-description: "Gratis 3D-games in je browser, in de historische centra van Europese steden, nagebouwd uit OpenStreetMap. Fiets, wandel of galoppeer door de oude binnensteden van Parijs, Rome, Londen, Venetië, Praag en meer: verken, race of leun achterover voor een rondleiding, alleen of met twee op één toetsenbord."
-tagline: "Verken de historische centra van Europa in 3D, met de fiets, te voet of zelfs te paard."
-lead: "Oude binnensteden van Brugge tot Rome, elke straat en elk gebouw uit OpenStreetMap op zijn echte hoogte. Gratis in je browser, niets te installeren."
+title: "Instant Cities: gratis virtuele 3D-rondleidingen en games in beroemde steden"
+description: "Maak gratis een virtuele 3D-rondleiding door beroemde steden in je browser, van Parijs, Rome en Venetië tot New York, nagebouwd uit OpenStreetMap. Fiets, wandel of galoppeer daarna zelf door hun oude binnensteden: verken, race of laat je rondleiden, alleen of met twee op één toetsenbord."
+tagline: "Bezoek beroemde steden in 3D en verken ze daarna zelf, met de fiets, te voet of zelfs te paard."
+lead: "Rijd door oude binnensteden van Brugge tot Rome en Istanbul, en verder tot New York, met elke straat en elk gebouw uit OpenStreetMap op zijn echte hoogte. Speel gratis in je browser, zonder iets te installeren."
 cities_title: "Kies een stad"
 live_watch: "Bekijk de rondleiding"
 home_watch: "Bekijk een rondleiding"
 features_title: "In elke stad"
 features:
-  - { icon: city, title: "De echte oude stad", text: "Het historische centrum van elke stad nagebouwd uit OpenStreetMap, elk gebouw op zijn hoogte, met zijn pleinen, kerken en grachten.", more: openstreetmap }
-  - { icon: bike, title: "Fiets, te voet of te paard", text: "Fiets of race op de fiets, loop te voet of galoppeer op een paard. Of kies een koe, een tijger, een varken of een eenhoorn. Ze zijn allemaal even snel en sterk.", more: the-game }
-  - { icon: compass, title: "Races, opdrachten en rondleidingen", text: "Races door echte straten, korte opdrachten tegen de klok, een rondleiding die je langs de bezienswaardigheden vliegt, of gewoon wat rondrijden en kijken.", more: the-game }
+  - { icon: city, title: "De echte oude stad", text: "Verken het historische centrum van elke stad, in 3D nagebouwd uit OpenStreetMap met elk gebouw op zijn hoogte, langs zijn pleinen, kerken en grachten.", more: openstreetmap }
+  - { icon: bike, title: "Fiets, te voet of te paard", text: "Fiets of race op de fiets, loop te voet of galoppeer op een paard. Of kies een koe, een tijger, een varken of een eenhoorn: ze zijn allemaal even snel en sterk.", more: the-game }
+  - { icon: compass, title: "Races, opdrachten en rondleidingen", text: "Race door echte straten, speel korte opdrachten tegen de klok, laat je in 3D langs de bezienswaardigheden rondleiden, of rijd gewoon wat rond en kijk.", more: the-game }
 features_more: "Meer weten…"
 project_title: "Over het project"
 project_text:
@@ -55,9 +55,9 @@ vibe: 'Een experiment, met liefde gevibecodeerd door <a href="https://woutersmet
 credits: "Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Gemaakt door"
 
 cities_page_heading: Steden
-cities_page_title: "Steden: de historische centra van Europa om in 3D te spelen"
-cities_page_description: "Alle Europese steden in Instant Cities: hun historische centrum in 3D in je browser, om met de fiets, te voet of te paard te verkennen, om door te racen of om te bekijken in een rondleiding."
-cities_page_tagline: "De historische centra van Europa, nagebouwd in 3D, van Brugge tot Rome."
+cities_page_title: "Steden: virtuele 3D-rondleidingen door de historische centra van Europa, en wat verder"
+cities_page_description: "Alle steden in Instant Cities: bezoek hun historische centrum in 3D in je browser, verken het met de fiets, te voet of te paard, of race door de straten."
+cities_page_tagline: "Bezoek de historische centra van Europa in 3D, van Brugge tot Rome en Istanbul, en aan de overkant van de oceaan New York en San Francisco."
 soon_title: "Binnenkort"
 
 countries:
@@ -70,6 +70,8 @@ countries:
   Austria: Oostenrijk
   Germany: Duitsland
   Denmark: Denemarken
+  United States: Verenigde Staten
+  Turkey: Turkije
   Belgium: België
 
 cities:
@@ -97,3 +99,6 @@ cities:
   delft: { card: "De stad van Vermeer, vol grachten en gevels: de Markt, de Nieuwe Kerk van het Huis van Oranje en de scheve Oude Kerk." }
   lecce: { card: "De barokke oude stad van Apulië, van Santa Croce tot het Romeinse amfitheater." }
   ghent: { name: Gent, card: "Zo’n 40.000 gebouwen op hun echte hoogte, van het Belfort tot de Overpoort." }
+  new-york: { card: "De stad van wolkenkrabbers en gele taxi’s: Times Square, het Empire State Building, Grand Central en het Chrysler Building." }
+  istanbul: { card: "De stad op twee continenten: de Hagia Sophia, de Blauwe Moskee, de Grote Bazaar en de veerboten op de Gouden Hoorn." }
+  san-francisco: { card: "Van de lampionnen van Chinatown langs de Transamerica Pyramid naar het Ferry Building aan de baai." }

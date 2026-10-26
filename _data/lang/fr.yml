@@ -30,18 +30,18 @@ preview: "Aperçu : %c"
 europe_map: Les villes sur une carte de l’Europe
 all_cities_soon: "Toutes les villes, et les %n à venir"
 
-title: "Instant Cities : les centres historiques d’Europe en 3D, à vélo, à pied ou à cheval"
-description: "Des jeux 3D gratuits dans le navigateur, dans les centres historiques des villes d’Europe, reconstruits à partir d’OpenStreetMap. Parcourez à vélo, à pied ou au galop les vieilles villes de Paris, Rome, Londres, Venise, Prague et d’autres : explorez, faites la course ou laissez-vous guider par une visite, seul ou à deux sur un même clavier."
-tagline: "Explorez en 3D les centres historiques d’Europe, à vélo, à pied ou même à cheval."
-lead: "Des vieilles villes de Bruges à Rome, chaque rue et chaque bâtiment d’OpenStreetMap à sa vraie hauteur. Gratuit dans votre navigateur, rien à installer."
+title: "Instant Cities : visites virtuelles en 3D et jeux gratuits dans des villes célèbres"
+description: "Faites gratuitement la visite virtuelle en 3D de villes célèbres dans votre navigateur, de Paris, Rome et Venise jusqu’à New York, reconstruites à partir d’OpenStreetMap. Puis parcourez vous-même leurs vieilles villes à vélo, à pied ou au galop : explorez, faites la course ou laissez-vous guider, seul ou à deux sur un même clavier."
+tagline: "Visitez en 3D des villes célèbres, puis explorez-les vous-même à vélo, à pied ou même à cheval."
+lead: "Parcourez les vieilles villes de Bruges à Rome et Istanbul, et jusqu’à New York, avec chaque rue et chaque bâtiment d’OpenStreetMap à sa vraie hauteur. Jouez gratuitement dans votre navigateur, sans rien installer."
 cities_title: "Choisissez une ville"
 live_watch: "Voir la visite"
 home_watch: "Voir une visite"
 features_title: "Dans chaque ville"
 features:
-  - { icon: city, title: "La vraie vieille ville", text: "Le centre historique de chaque ville reconstruit à partir d’OpenStreetMap, chaque bâtiment à sa hauteur, avec ses places, ses églises et ses canaux.", more: openstreetmap }
-  - { icon: bike, title: "À vélo, à pied ou à cheval", text: "Roulez ou faites la course à vélo, courez à pied ou galopez à cheval. Ou prenez une vache, un tigre, un cochon ou une licorne. Tous sont aussi rapides et forts les uns que les autres.", more: the-game }
-  - { icon: compass, title: "Courses, missions et visites", text: "Des courses dans de vraies rues, de courtes missions contre la montre, une visite qui vous fait survoler les monuments, ou simplement flâner et regarder.", more: the-game }
+  - { icon: city, title: "La vraie vieille ville", text: "Explorez le centre historique de chaque ville, reconstruit en 3D à partir d’OpenStreetMap avec chaque bâtiment à sa hauteur, en passant par ses places, ses églises et ses canaux.", more: openstreetmap }
+  - { icon: bike, title: "À vélo, à pied ou à cheval", text: "Roulez ou faites la course à vélo, courez à pied ou galopez à cheval. Ou prenez une vache, un tigre, un cochon ou une licorne : tous sont aussi rapides et forts.", more: the-game }
+  - { icon: compass, title: "Courses, missions et visites", text: "Faites la course dans de vraies rues, relevez de courtes missions contre la montre, laissez-vous guider par une visite en 3D devant les monuments, ou baladez-vous simplement.", more: the-game }
 features_more: "En savoir plus…"
 project_title: "À propos du projet"
 project_text:
@@ -55,9 +55,9 @@ vibe: 'Une expérience vibe-codée avec amour par <a href="https://woutersmet.co
 credits: "Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Réalisé par"
 
 cities_page_heading: Villes
-cities_page_title: "Villes : les centres historiques d’Europe à parcourir en 3D"
-cities_page_description: "Toutes les villes d’Europe d’Instant Cities : leur centre historique en 3D dans votre navigateur, à parcourir à vélo, à pied ou à cheval, en course ou en visite guidée."
-cities_page_tagline: "Les centres historiques d’Europe, reconstruits en 3D, de Bruges à Rome."
+cities_page_title: "Villes : visites virtuelles en 3D des centres historiques d’Europe, et un peu au-delà"
+cities_page_description: "Toutes les villes d’Instant Cities : visitez leur centre historique en 3D dans votre navigateur, parcourez-le à vélo, à pied ou à cheval, ou faites la course dans ses rues."
+cities_page_tagline: "Visitez en 3D les centres historiques d’Europe, de Bruges à Rome et Istanbul, et de l’autre côté de l’océan, New York et San Francisco."
 soon_title: "Bientôt"
 
 countries:
@@ -70,6 +70,8 @@ countries:
   Austria: Autriche
   Germany: Allemagne
   Denmark: Danemark
+  United States: États-Unis
+  Turkey: Turquie
   Belgium: Belgique
 
 cities:
@@ -97,3 +99,6 @@ cities:
   delft: { card: "La ville de Vermeer, faite de canaux et de pignons : le Markt, la Nieuwe Kerk de la maison d’Orange et l’Oude Kerk qui penche." }
   lecce: { card: "La vieille ville baroque des Pouilles, de Santa Croce à l’amphithéâtre romain." }
   ghent: { name: Gand, card: "Environ 40 000 bâtiments à leur vraie hauteur, du beffroi à l’Overpoort." }
+  new-york: { card: "La ville des gratte-ciel et des taxis jaunes : Times Square, l’Empire State Building, Grand Central et le Chrysler Building." }
+  istanbul: { card: "La ville sur deux continents : Sainte-Sophie, la Mosquée bleue, le Grand Bazar et les ferries sur la Corne d’Or." }
+  san-francisco: { card: "Des lanternes de Chinatown devant la Transamerica Pyramid jusqu’au Ferry Building sur la baie." }

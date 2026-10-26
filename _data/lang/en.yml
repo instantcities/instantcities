@@ -37,18 +37,18 @@ europe_map: The cities on a map of Europe
 all_cities_soon: "All cities, and the %n still to come" # on the home page, when some are
 
 # The home page (_layouts/home.html)
-title: "Instant Cities: the historic centres of Europe in 3D, by bike, on foot or on horseback"
-description: "Free 3D browser games set in the historic centres of European cities, rebuilt from OpenStreetMap. Cycle, walk or gallop through the old towns of Paris, Rome, London, Venice, Prague and more: explore, race or sit back for a tour, alone or two players on one keyboard."
-tagline: "Explore the historic centres of Europe in 3D by bike, on foot or even on horseback."
-lead: "Old towns from Bruges to Rome, every street and building from OpenStreetMap at its real height. Free in your browser, nothing to install."
+title: "Instant Cities: free virtual 3D tours and games of famous cities"
+description: "Take free virtual 3D tours of famous cities in your browser, from Paris, Rome and Venice to New York, rebuilt from OpenStreetMap. Then cycle, walk or gallop through their old towns yourself: explore, race or sit back for a guided tour, alone or two players on one keyboard."
+tagline: "Take a virtual 3D tour of famous cities, then explore them yourself by bike, on foot or even on horseback."
+lead: "Ride through old towns from Bruges to Rome and Istanbul, and on to New York, with every street and building from OpenStreetMap at its real height. Play free in your browser, with nothing to install."
 cities_title: "Pick a city"
 live_watch: "Watch the tour"
 home_watch: "Watch a tour" # the same link on the home page, where the tour is of whichever city shows
 features_title: "In every city"
 features: # more: the heading of the about page its "Learn more" link goes to
-  - { icon: city, title: "The real old town", text: "Each city’s historic centre rebuilt from OpenStreetMap, every building at its height, with its squares, churches and canals.", more: openstreetmap }
-  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, tiger, pig or unicorn. Everyone is equally fast and strong.", more: the-game }
-  - { icon: compass, title: "Races, quests and tours", text: "Races along real streets, short missions against the clock, a tour that flies you past the sights, or just ride about and look.", more: the-game }
+  - { icon: city, title: "The real old town", text: "Explore each city’s historic centre, rebuilt in 3D from OpenStreetMap with every building at its height, past its squares, churches and canals.", more: openstreetmap }
+  - { icon: bike, title: "Bike, foot or horse", text: "Ride or race a bike, run on foot or gallop on a horse. Or pick a cow, a tiger, a pig or a unicorn: they are all equally fast and strong.", more: the-game }
+  - { icon: compass, title: "Races, quests and tours", text: "Race along real streets, beat short missions against the clock, sit back for a guided 3D tour past the sights, or just ride about and look around.", more: the-game }
 features_more: "Learn more…"
 # the home page's "About the project" section, which leads to the about page
 project_title: "About the project"
@@ -64,9 +64,9 @@ credits: "Map data © OpenStreetMap contributors (ODbL). Made by"
 
 # The cities page (_layouts/cities.html)
 cities_page_heading: Cities
-cities_page_title: "Cities: the historic centres of Europe to play in 3D"
-cities_page_description: "Every European city in Instant Cities: its historic centre in 3D in your browser, to ride by bike, on foot or on horseback, to race through or to watch on a tour."
-cities_page_tagline: "The historic centres of Europe, rebuilt in 3D, from Bruges to Rome."
+cities_page_title: "Cities: virtual 3D tours of the historic centres of Europe, and a few beyond"
+cities_page_description: "Every city in Instant Cities: take a virtual 3D tour of its historic centre in your browser, ride through it by bike, on foot or on horseback, or race through its streets."
+cities_page_tagline: "Tour the historic centres of Europe in 3D, from Bruges to Rome and Istanbul, and across the ocean New York and San Francisco."
 soon_title: "Coming soon"
 
 # English needs no cities: or countries: here; the other languages give each city's name, country
