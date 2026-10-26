@@ -1,0 +1,20 @@
+# san-francisco's landmarks in Dutch (_data/landmarks/san-francisco.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+transamerica-pyramid:
+  blurb: De witte piramide van het Financial District, 260 meter hoog, sinds 1972 het herkenningsteken van de skyline.
+ferry-building:
+  blurb: De veerterminal onderaan Market Street, met zijn klokkentoren naar de Giralda van Sevilla, nu een overdekte foodmarkt.
+coit-tower:
+  blurb: De slanke betonnen toren boven op Telegraph Hill, gebouwd in 1933 met het geld van Lillie Hitchcock Coit.
+dragon-gate:
+  blurb: De poort naar Chinatown op Grant Avenue bij Bush Street, met groene pannendaken, draken en twee stenen leeuwen.
+chinatown:
+  blurb: De oudste Chinatown van Noord-Amerika, langs Grant Avenue en Stockton Street, met lampionnen boven de straat.
+union-square:
+  blurb: Het plein van de grote winkels en hotels, genoemd naar de bijeenkomsten voor de Unie voor de Burgeroorlog.
+cable-cars:
+  blurb: De laatste cable cars ter wereld die nog door stadsstraten rijden, de heuvels op getrokken door een kabel onder de weg.
+washington-square:
+  blurb: Het groene hart van North Beach, de Italiaanse wijk, voor de witte kerk van Sint-Petrus-en-Paulus.
+city-lights:
+  blurb: De boekwinkel van de Beatdichters op Columbus Avenue, die in 1956 Howl van Allen Ginsberg uitgaf.

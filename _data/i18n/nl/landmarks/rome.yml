@@ -1,0 +1,24 @@
+# rome's landmarks in Dutch (_data/landmarks/rome.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+colosseo:
+  name: Colosseum
+  blurb: Het grote amfitheater van het oude Rome, in 80 n.Chr. geopend voor gladiatorengevechten voor zo’n 50.000 mensen.
+pantheon:
+  blurb: Een tempel voor alle goden, herbouwd onder Hadrianus, met de grootste koepel van ongewapend beton ter wereld.
+fontana-di-trevi:
+  name: Trevifontein
+  blurb: 'De grootste fontein van Rome: wie een munt over zijn schouder gooit, komt terug.'
+piazza-navona:
+  blurb: Een lang barok plein op de omtrek van het stadion van Domitianus, met de Vierstromenfontein van Bernini.
+foro-romano:
+  name: Forum Romanum
+  blurb: 'Het hart van het oude Rome: tempels, basilica’s en het senaatsgebouw, in een dal tussen de heuvels.'
+vittoriano:
+  blurb: Het reusachtige monument van wit marmer voor Victor Emanuel II op de Piazza Venezia, bijgenaamd de schrijfmachine.
+campo-de-fiori:
+  blurb: Een levendig plein met ’s ochtends een markt en in het midden het standbeeld van Giordano Bruno met zijn kap.
+colonna-di-marco-aurelio:
+  name: Zuil van Marcus Aurelius
+  blurb: Een marmeren zuil met de oorlogen van de keizer langs de Donau, sinds de 2e eeuw op de Piazza Colonna.
+largo-di-torre-argentina:
+  blurb: Vier tempels uit de Republiek, verzonken onder het straatniveau, naast de plek waar Julius Caesar vermoord werd.

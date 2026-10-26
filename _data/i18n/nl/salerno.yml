@@ -1,6 +1,6 @@
-# Salerno's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/salerno.json) and its landmarks' names and blurbs
-# (_data/landmarks/salerno.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# salerno's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/salerno.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/salerno.yml and its landmarks, with their pages, in landmarks/salerno.yml.
 title: 'Instant Salerno: gratis virtuele 3D-rondleiding en game van Salerno'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Salerno in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Salerno, tussen de zee en de heuvels!
@@ -19,25 +19,4 @@ famous:
 - De Lungomare, de boulevard met uitzicht over de golf
 - De Luci d’Artista, het lichtfestival dat elke winter de stad vult
 - De toegangspoort tot de Amalfikust, met de boot vanaf de Molo Manfredi
-landmarks:
-  duomo:
-    name: Duomo di San Matteo
-    blurb: De Normandische kathedraal boven het graf van de evangelist Mattheüs, met een binnenplaats met arcaden en een klokkentoren uit de 12e eeuw.
-  via-dei-mercanti:
-    blurb: De koopmansstraat van de middeleeuwse stad, een smal winkelstraatje dwars door het hele historische centrum.
-  lungomare:
-    blurb: De boulevard onder de palmen, met de Golf van Salerno ervoor en de Amalfikust aan de horizon.
-  corso-vittorio-emanuele:
-    blurb: De lange autovrije winkelstraat van Salerno, van de oude stad naar het station.
-  teatro-verdi:
-    blurb: Het operahuis van de stad uit 1872, een kleine kopie van het San Carlo in Napels, vanbinnen rood en goud.
-  villa-comunale:
-    blurb: De 19e-eeuwse stadstuin, schaduwrijk en groen, tussen het Teatro Verdi en de zee.
-  giardino-della-minerva:
-    blurb: Een tuin van geneeskrachtige planten op terrassen boven de oude stad, een van de oudste botanische tuinen van Europa.
-  acquedotto:
-    name: Middeleeuws aquaduct
-    blurb: De hoge bogen van het middeleeuwse aquaduct, dat volgens de legende in één nacht door de duivel werd gebouwd.
-  stazione-marittima:
-    blurb: De veerterminal van Zaha Hadid op de Molo Manfredi, waar de boten vertrekken naar Amalfi, Positano en Capri.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

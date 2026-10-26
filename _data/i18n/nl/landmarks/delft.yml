@@ -1,0 +1,71 @@
+# delft's landmarks in Dutch (_data/landmarks/delft.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+markt:
+  blurb: Het lange marktplein tussen het stadhuis en de Nieuwe Kerk, een van de grootste van Nederland.
+  text:
+  - De Markt loopt van het Stadhuis aan het westelijke eind naar de Nieuwe Kerk aan het oostelijke, aan beide kanten omzoomd met hoge, smalle huizen die nu cafés, winkels en pannenkoekenhuizen zijn. Elke donderdag vult de markt hem, zoals al eeuwen.
+  - In het midden staat het standbeeld van Hugo de Groot, de jurist die in Delft werd geboren, en vanaf de toren van de Nieuwe Kerk lijkt het hele plein een lang tapijt van baksteen.
+nieuwe-kerk:
+  blurb: De grote gotische kerk aan de Markt, met een toren van 108 meter, waar de prinsen van Oranje begraven liggen.
+  text:
+  - De Nieuwe Kerk werd gebouwd van 1396 tot 1496, op de plek waar een Delftenaar de Maagd Maria in een visioen zou hebben gezien. Haar stenen toren is zo’n 108 meter hoog, de op een na hoogste kerktoren van Nederland na de Dom van Utrecht, en je kunt haar 376 treden beklimmen.
+  - Willem van Oranje, de leider van de Nederlandse Opstand, werd hier begraven nadat hij in 1584 was vermoord, en sindsdien is bijna elk lid van het Huis van Oranje bijgezet in de familiegrafkelder eronder. Hendrick de Keyser maakte vanaf 1614 zijn marmeren praalgraf.
+stadhuis:
+  blurb: Het renaissancestadhuis van Delft aan de westkant van de Markt, gebouwd rond een middeleeuwse stenen toren.
+  text:
+  - Nadat een brand in 1618 het oude stadhuis had verwoest, bouwde Hendrick de Keyser het nieuwe in Hollandse renaissancestijl, met rode luiken en natuurstenen versieringen tegen de baksteen.
+  - Hij hield de 13e-eeuwse toren van het oude, Het Steen, die ooit de gevangenis van de stad was, zodat de middeleeuwse toren nu midden uit het 17e-eeuwse gebouw oprijst. De Delftse gemeenteraad vergadert hier nog altijd, en er wordt getrouwd.
+oude-kerk:
+  blurb: De oudste kerk van Delft, aan de Oude Delft, met een toren die zo’n twee meter over de gracht helt.
+  text:
+  - 'De Oude Kerk, de Sint-Hippolytuskerk, gaat terug tot de 13e eeuw. Haar bakstenen toren werd gebouwd aan de oever van een gedempte gracht, en de zachte grond liet hem bijna meteen hellen: zijn top hangt nu zo’n twee meter uit het lood, en de Delftenaren noemen hem Scheve Jan.'
+  - Johannes Vermeer ligt hier begraven, en ook de admiraals Piet Hein en Maarten Tromp, wier marmeren graven in het koor staan.
+prinsenhof:
+  blurb: Het oude klooster waar Willem van Oranje woonde en waar hij in 1584 werd doodgeschoten. De kogelgaten zitten nog in de muur.
+  text:
+  - Het Prinsenhof was tot de Reformatie het klooster van Sint-Agatha. Willem van Oranje, de prins die de Opstand tegen Spanje leidde, maakte er zijn thuis in Delft van.
+  - Op 10 juli 1584 schoot Balthasar Gerards, een katholiek die de beloning wilde die koning Filips II van Spanje op het hoofd van de prins had gezet, hem op de trap dood. De gaten die de kogels achterlieten zitten nog in de muur. Nu is het Prinsenhof een museum over de geschiedenis van Delft en zijn Gouden Eeuw.
+oude-delft:
+  blurb: De oudste gracht van de stad, die Delft haar naam gaf, met koopmanshuizen en het Gemeenlandshuis.
+  text:
+  - In de middeleeuwen werd hier een gracht gegraven, een delf, om het land te draineren en boten te dragen, en de stad die eromheen ontstond, nam er haar naam van. De Oude Delft loopt nog altijd kaarsrecht door de oude stad, met bomen aan beide kanten en elke honderd meter een brug.
+  - 'Eraan staan enkele van de mooiste huizen van Delft: het Gemeenlandshuis uit 1505, met zijn beschilderde wapenschilden, en de koopmanshuizen van de Gouden Eeuw, met de scheve toren van de Oude Kerk aan het eind van het uitzicht.'
+koornmarkt:
+  blurb: De gracht waar het graan verhandeld werd, nu met cafés, woonboten en terrassen aan het water.
+  text:
+  - De Koornmarkt loopt van het Wijnhaven naar het zuiden, langs een gracht waar schuiten ooit het graan losten dat hier werd verkocht. De hoge huizen met trap- en halsgevels kijken nog altijd uit over het water.
+  - In de zomer zetten de cafés hun terrassen op de kade en op pontons in de gracht, en de boten van de rondvaarten varen onder de bruggen door.
+oostpoort:
+  blurb: De laatste stadspoort van Delft, met twee slanke torens die in het water weerspiegelen.
+  text:
+  - 'Delft was ooit omringd door muren met poorten op elke weg en gracht. De Oostpoort is de enige poort die rest: de poort zelf dateert van omstreeks 1400, en de twee slanke achthoekige torens met hun spitse daken werden begin 16e eeuw toegevoegd.'
+  - Ze staat aan het water op de zuidoosthoek van de oude stad, met een witte ophaalbrug ernaast, en er wonen nog steeds mensen in.
+waag:
+  blurb: Het waaggebouw bij de Markt, waar goederen gewogen werden voor de belastingen van de stad.
+  text:
+  - Elke Hollandse marktstad had een waag, waar handelaars hun waren lieten wegen en belasten. Die van Delft staat aan het westeinde van de Markt, achter het stadhuis, met zijn rug naar de gracht van het Wijnhaven.
+  - Ernaast staat de Vleeshal, de oude vleeshal, met gebeeldhouwde koeien- en schapenkoppen boven de deur.
+vermeer:
+  name: Johannes Vermeer
+  blurb: De schilder van het Meisje met de parel en het Gezicht op Delft, die in Delft werd geboren, werkte en begraven werd.
+  text:
+  - Johannes Vermeer werd in 1632 in Delft geboren en bracht er zijn hele leven door. Hij schilderde langzaam, rustige kamers vol licht, een vrouw die een brief leest, een dienstmeid die melk schenkt, en slechts zo’n 37 van zijn schilderijen bleven bewaard. Hij stierf arm in 1675 en ligt begraven in de Oude Kerk.
+  - Zijn Gezicht op Delft, omstreeks 1660 geschilderd vanaf de overkant van het water bij de Schiedamse en de Rotterdamse Poort, hangt nu in het Mauritshuis in Den Haag. Het Vermeer Centrum aan de Voldersgracht staat op de plek van het Sint-Lucasgilde, het schildersgilde dat hij leidde.
+delfts-blauw:
+  name: Delfts blauw
+  blurb: Het blauw-witte aardewerk dat Delft beroemd maakte, aanvankelijk gemaakt als vervanging voor Chinees porselein.
+  text:
+  - In de 17e eeuw bracht de Verenigde Oost-Indische Compagnie Chinees porselein naar Europa, en de pottenbakkers van Delft gingen het nabootsen in aardewerk met een witte tinglazuur en beschildering in kobaltblauw. Toen de aanvoer uit China halverwege de eeuw stokte, nam Delft de markt over, en tientallen plateelbakkerijen werkten in oude brouwerijen verspreid over de stad.
+  - Van al die bakkerijen werkt alleen De Porceleyne Fles, opgericht in 1653, nog steeds, als Royal Delft. De schilders beschilderen er nog altijd tegels, borden en vazen met de hand.
+donderslag:
+  name: De Delftse Donderslag
+  blurb: De kruitexplosie van 12 oktober 1654, die een kwart van de stad platlegde.
+  text:
+  - Op de ochtend van 12 oktober 1654 ontplofte het kruitmagazijn van de stad, met tonnen kruit erin. De knal was ver buiten de stad te horen; hij verwoestte het hele noordoosten van Delft en doodde meer dan honderd mensen, onder wie de schilder Carel Fabritius, de leerling van Rembrandt.
+  - 'De wijk werd nooit herbouwd zoals ze was: waar het magazijn stond ligt tot op de dag van vandaag de Paardenmarkt, een open plein.'
+hugo-de-groot:
+  name: Hugo de Groot
+  blurb: De in Delft geboren jurist die het eerste grote boek over het recht tussen volken schreef en uit de gevangenis ontsnapte in een boekenkist.
+  text:
+  - Hugo de Groot, Grotius, werd in 1583 in Delft geboren. Als wonderkind ging hij op elf jaar naar de universiteit, en in 1625 schreef hij Over het recht van oorlog en vrede, een van de grondleggende boeken van het internationaal recht.
+  - Verstrikt in de godsdiensttwisten van de Republiek werd hij in 1619 opgesloten in slot Loevestein en ontsnapte twee jaar later in een kist die voor zijn boeken bedoeld was. Hij stierf in 1645 en ligt begraven in de Nieuwe Kerk; zijn standbeeld staat sinds 1886 op de Markt.

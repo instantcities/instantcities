@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Each city's landmark pages on the site, /<city>/landmark/<id>/, from _data/landmarks/<city>.json
-// (_layouts/landmark.html draws them): one little index.html per landmark, saying which it is and,
-// for one with a lat and lon inside the city's map, where it lies in the game (x, z), so its page can
-// drop you there (/<city>/play/?pos=x,z). Pages of landmarks no longer in the list are removed.
+// (_layouts/landmark.html draws them): one little index.html per landmark and language (/en/ghent/landmark/<id>/,
+// /fr/gand/monument/<id>/: tools/langs.mjs), saying which it is and, for one with a lat and lon inside the city's map,
+// where it lies in the game (x, z), so its page can drop you there (/<city>/play/?pos=x,z); and /<city>/landmark/<id>/,
+// which sends a visitor on to the page in their language (_layouts/lang-redirect.html), also the address the
+// game's cards and pause menu know. Pages of landmarks no longer in the list are removed.
 // For a city that has no sight card of its own for such a landmark (no `sight`), it also writes
 // <city>/site-sights.js: a card for each, with the landmark's blurb, that shows when you ride up to it
 // in the game (core/js/city.js adds them to the city's sights) and leads to its page.
@@ -20,6 +22,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { mapCoords } from './mapcoords.mjs';
+import { langs, pageDir, write, front } from './langs.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, '_data', 'landmarks');
@@ -38,13 +41,14 @@ for (const city of cities) {
     if (ids.has(l.id)) throw new Error(`${city}: landmark id "${l.id}" twice`);
     ids.add(l.id);
     if (l.inside && !fs.readFileSync(path.join(dir, 'inside.js'), 'utf8').includes(`id: '${l.inside}'`)) throw new Error(`${city}: landmark "${l.id}" has no building "${l.inside}" in ${city}/inside.js`);
-    const front = ['---', 'layout: landmark', `city: ${city}`, `landmark: ${l.id}`];
+    const at = {};
     if (onMap(l)) {
       const [x, z] = game(l.lat, l.lon);
-      front.push(`x: ${Math.round(x)}`, `z: ${Math.round(z)}`);
+      Object.assign(at, { x: Math.round(x), z: Math.round(z) });
     }
-    fs.mkdirSync(path.join(out, l.id), { recursive: true });
-    fs.writeFileSync(path.join(out, l.id, 'index.html'), front.join('\n') + '\n---\n');
+    // its page in each language (/fr/gand/monument/belfort/), and at its old address (/ghent/landmark/belfort/) a page that sends a visitor on to theirs
+    for (const lang of langs) write(`${pageDir(lang, city, 'landmark', l.id)}/index.html`, front({ layout: 'landmark', city, landmark: l.id, lang, ref: 'landmark', ...at }));
+    write(`${city}/landmark/${l.id}/index.html`, front({ layout: 'lang-redirect', ref: 'landmark', city, landmark: l.id }));
   }
   const cards = list.filter(l => onMap(l) && !l.sight).map(l => {
     const [x, z] = game(l.lat, l.lon);
@@ -56,8 +60,10 @@ for (const city of cities) {
       + '// A sight card for each landmark on the map (see js/city.js), with its page on the site.\n'
       + `export const SITE_SIGHTS = [\n${cards.map(c => `  ${JSON.stringify(c)},`).join('\n')}\n];\n`);
   } else if (fs.existsSync(file)) fs.rmSync(file);
-  for (const old of fs.existsSync(out) ? fs.readdirSync(out) : []) {
-    if (!ids.has(old)) fs.rmSync(path.join(out, old), { recursive: true });
+  for (const folder of [out, ...langs.map(lang => path.join(ROOT, pageDir(lang, city, 'landmark')))]) {
+    for (const old of fs.existsSync(folder) ? fs.readdirSync(folder) : []) {
+      if (!ids.has(old)) fs.rmSync(path.join(folder, old), { recursive: true });
+    }
   }
   console.error(`${city}: ${list.length} landmarks`);
 }

@@ -1,6 +1,6 @@
-# New York's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its landmarks' names and blurbs
-# (_data/landmarks/new-york.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# new-york's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/new-york.yml and its landmarks, with their pages, in landmarks/new-york.yml.
 title: 'Instant New York : visite virtuelle en 3D et jeu gratuits de New York'
 description: 'Faites gratuitement la visite virtuelle en 3D de Midtown Manhattan dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval parmi les gratte-ciel de Manhattan !
@@ -20,25 +20,4 @@ famous:
 - Central Park
 - Les taxis jaunes et le métro qui roule toute la nuit
 - Wall Street, et la pizza à la part
-landmarks:
-  empire-state:
-    blurb: La tour Art déco sur la Cinquième Avenue et la 34e Rue, le plus haut bâtiment du monde de 1931 à 1970.
-  times-square:
-    blurb: Le croisement de Broadway et de la Septième Avenue, sous des murs d’écrans lumineux, au cœur du quartier des théâtres.
-  chrysler:
-    blurb: La tour Art déco sur la 42e Rue et Lexington Avenue, couronnée d’arcs d’acier et d’une aiguille.
-  grand-central:
-    blurb: La grande gare de la 42e Rue, avec son hall sous un plafond étoilé et son horloge d’opale.
-  public-library:
-    name: Bibliothèque publique de New York
-    blurb: La bibliothèque de marbre sur la Cinquième Avenue, gardée par les deux lions de pierre Patience et Fortitude.
-  rockefeller-center:
-    blurb: Les tours Art déco entre la Cinquième et la Sixième Avenue, avec le Prométhée doré, la patinoire et le sapin de Noël.
-  bryant-park:
-    blurb: La pelouse derrière la bibliothèque, avec ses platanes, ses chaises vertes et, en hiver, sa patinoire.
-  st-patricks:
-    name: Cathédrale Saint-Patrick
-    blurb: La cathédrale gothique de marbre blanc sur la Cinquième Avenue, face au Rockefeller Center.
-  macys:
-    blurb: L’un des plus grands grands magasins du monde, sur la 34e Rue, où finit la parade de Thanksgiving.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

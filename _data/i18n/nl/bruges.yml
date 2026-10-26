@@ -1,6 +1,6 @@
-# Bruges's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its landmarks' names and blurbs
-# (_data/landmarks/bruges.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# bruges's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/bruges.yml and its landmarks, with their pages, in landmarks/bruges.yml.
 title: 'Instant Bruges: gratis virtuele 3D-rondleiding en game van Brugge'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Brugge in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard langs de reien van Brugge!
@@ -18,28 +18,4 @@ famous:
 - Het Belfort op de Markt, 83 meter hoog, met 366 treden tot de beiaard
 - Schilderijen van Jan van Eyck en Hans Memling, die allebei in de stad werkten
 - Kant, chocolade en de Madonna van Michelangelo in de Onze-Lieve-Vrouwekerk
-landmarks:
-  markt:
-    blurb: Het marktplein van Brugge, met het Belfort aan de zuidkant en het Provinciaal Hof aan de oostkant.
-  belfort:
-    name: Belfort
-    blurb: 'Het belfort van 83 meter boven de Markt: 366 treden tot de beiaard van 47 klokken.'
-  burg:
-    blurb: Het plein van het stadhuis, de Heilig-Bloedbasiliek en het oude Brugse Vrije.
-  stadhuis:
-    name: Stadhuis
-    blurb: Een van de oudste stadhuizen van de Nederlanden, begonnen in 1376, met een Gotische Zaal vol muurschilderingen.
-  heilig-bloedbasiliek:
-    name: Heilig-Bloedbasiliek
-    blurb: Een romaanse kapel met een gotische erboven, die een reliek van het bloed van Christus bewaart.
-  rozenhoedkaai:
-    blurb: Het meest gefotografeerde hoekje van Brugge, waar de rei draait onder het Belfort.
-  gruuthuse:
-    blurb: Het paleis van de heren van Gruuthuse, die belasting mochten heffen op gruut, de kruiden om bier te brouwen.
-  onze-lieve-vrouwekerk:
-    name: Onze-Lieve-Vrouwekerk
-    blurb: Haar bakstenen toren van 115 meter is een van de hoogste ter wereld; binnen staat de Madonna van Michelangelo.
-  sint-salvatorskathedraal:
-    name: Sint-Salvatorskathedraal
-    blurb: De oudste parochiekerk van Brugge, die in de 19e eeuw haar kathedraal werd.
 credits: 'Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Hoogtes: Digitaal Vlaanderen, DHMV II.'

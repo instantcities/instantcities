@@ -1,0 +1,22 @@
+# salerno's landmarks in Dutch (_data/landmarks/salerno.json, by id): name, blurb (the card), t (story), h (history),
+# v (going to see it) and d (dates), each as in the English where it is here; what is left out stays English.
+duomo:
+  name: Duomo di San Matteo
+  blurb: De Normandische kathedraal boven het graf van de evangelist Mattheüs, met een binnenplaats met arcaden en een klokkentoren uit de 12e eeuw.
+via-dei-mercanti:
+  blurb: De koopmansstraat van de middeleeuwse stad, een smal winkelstraatje dwars door het hele historische centrum.
+lungomare:
+  blurb: De boulevard onder de palmen, met de Golf van Salerno ervoor en de Amalfikust aan de horizon.
+corso-vittorio-emanuele:
+  blurb: De lange autovrije winkelstraat van Salerno, van de oude stad naar het station.
+teatro-verdi:
+  blurb: Het operahuis van de stad uit 1872, een kleine kopie van het San Carlo in Napels, vanbinnen rood en goud.
+villa-comunale:
+  blurb: De 19e-eeuwse stadstuin, schaduwrijk en groen, tussen het Teatro Verdi en de zee.
+giardino-della-minerva:
+  blurb: Een tuin van geneeskrachtige planten op terrassen boven de oude stad, een van de oudste botanische tuinen van Europa.
+acquedotto:
+  name: Middeleeuws aquaduct
+  blurb: De hoge bogen van het middeleeuwse aquaduct, dat volgens de legende in één nacht door de duivel werd gebouwd.
+stazione-marittima:
+  blurb: De veerterminal van Zaha Hadid op de Molo Manfredi, waar de boten vertrekken naar Amalfi, Positano en Capri.

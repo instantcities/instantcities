@@ -1,6 +1,6 @@
-# Lecce's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its landmarks' names and blurbs
-# (_data/landmarks/lecce.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# lecce's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/lecce.yml and its landmarks, with their pages, in landmarks/lecce.yml.
 title: 'Instant Lecce: gratis virtuele 3D-rondleiding en game van het barokke Lecce'
 description: 'Maak gratis een virtuele 3D-rondleiding door de barokke oude stad van Lecce in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken, race of speel opdrachten, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door het barokke Lecce!
@@ -18,25 +18,4 @@ famous:
 - Een Romeins amfitheater, half verzonken in het hoofdplein
 - Heiligen van papier-maché, de cartapesta van de werkplaatsen
 - Pasticciotto als ontbijt en caffè leccese met amandelmelk
-landmarks:
-  santa-croce:
-    blurb: Het hoogtepunt van de barok van Lecce, gebouwd tussen 1549 en 1695. De gevel gaat schuil onder leeuwen, planten, fabeldieren en heiligen, allemaal gehouwen in de zachte, honingkleurige plaatselijke kalksteen. Ernaast staat het Palazzo dei Celestini, nu de zetel van de provincie.
-  piazza-duomo:
-    blurb: Een besloten plein dat zich pas toont als je erop stapt. De kathedraal werd in 1659 herbouwd door Giuseppe Zimbalo, en haar campanile is 70 m hoog. Ook het bisschoppelijk paleis en het seminarie staan rond het plein, allemaal in dezelfde barokke steen.
-  sant-oronzo:
-    blurb: Het hart van Lecce. Het Romeinse amfitheater uit de 2e eeuw ligt half verzonken onder het plein en bood ooit plaats aan zo’n 25.000 toeschouwers. Op een zuil uit Brindisi staat Sint-Orontius, de patroon van de stad. Vlakbij staat de Sedile, het oude stadhuis uit 1592.
-  castello-carlo-v:
-    name: Kasteel van Karel V
-    blurb: Een vierkant kasteel met brede bastions, in de jaren 1530 herbouwd in opdracht van keizer Karel V om de stad tegen de Turken te verdedigen. Het was ook een gevangenis en een kazerne. Nu zijn er tentoonstellingen, en het museum van het papier-maché.
-  porta-napoli:
-    blurb: Een triomfboog uit 1548, gebouwd voor Karel V, en de grootste van de drie stadspoorten. Hij kijkt uit op de weg naar Napels, vandaar de naam. Op het plein ervoor staat een obelisk uit 1822, ter ere van koning Ferdinand I.
-  teatro-romano:
-    name: Romeins theater
-    blurb: Een klein Romeins theater uit de tijd van keizer Augustus, pas in de jaren 1930 tussen de huizen herontdekt. Het bood plaats aan zo’n 5.000 toeschouwers. Je ziet nog de halfronde tribunes en de vloermozaïeken.
-  porta-rudiae:
-    blurb: De westelijke stadspoort, in 1703 in barokstijl herbouwd. Ze is genoemd naar Rudiae, de antieke stad van de dichter Ennius net buiten Lecce. Boven de doorgang zit Sint-Orontius, tussen Sint-Dominicus en Sint-Irene.
-  porta-san-biagio:
-    blurb: De zuidelijke stadspoort, gebouwd in 1774 en gewijd aan Sint-Blasius. Ze leidt de oude stad in vanaf de weg naar Otranto en de Adriatische kust, en is de laatste van de drie poorten die nog staat.
-  villa-comunale:
-    blurb: Het stadspark Giuseppe Garibaldi, net buiten de oude muren. Een rustig plekje tussen palmen en bomen, vlak bij het kasteel en het centrum. Een goede plek om je even te verstoppen voor de zuiderse zon.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -5,8 +5,8 @@
 {%- assign M = A.museums | where: 'id', P.museum | first -%}
 {%- assign C = site.data.cities | where: 'id', M.city | first -%}
 {%- assign ph = site.data.art_photos[P.id] -%}
-{%- assign city_url = '/' | append: C.id | append: '/' -%}
-{%- if M.landmark %}{% assign LM = site.data.landmarks[C.id] | where: 'id', M.landmark | first %}{% assign lm_url = city_url | append: 'landmark/' | append: LM.id | append: '/' %}{% endif -%}
+{%- capture city_url %}{% include city-url.html city=C.id lang='en' %}{% endcapture -%}
+{%- if M.landmark %}{% assign LM = site.data.landmarks[C.id] | where: 'id', M.landmark | first %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=LM.id lang='en' %}{% endcapture %}{% endif -%}
 {%- comment -%} the story, its first mention of the museum and then of the city in a link (the paragraphs run together with a pilcrow between them, so a mention at the start of one counts) {%- endcomment -%}
 {%- assign story = P.text | join: ' ¶ ' -%}
 {%- if LM %}

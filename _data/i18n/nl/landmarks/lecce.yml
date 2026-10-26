@@ -1,0 +1,82 @@
+# lecce's landmarks in Dutch (_data/landmarks/lecce.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+santa-croce:
+  blurb: Het hoogtepunt van de barok van Lecce, gebouwd tussen 1549 en 1695. De gevel gaat schuil onder leeuwen, planten, fabeldieren en heiligen, allemaal gehouwen in de zachte, honingkleurige plaatselijke kalksteen. Ernaast staat het Palazzo dei Celestini, nu de zetel van de provincie.
+  text:
+  - De Basilica di Santa Croce is het paradepaardje van de naar de stad genoemde stijl, de barok van Lecce. Het duurde bijna 150 jaar om haar te bouwen, van 1549 tot 1695, en meerdere architecten, onder wie Gabriele Riccardi en, voor de bovengevel, Giuseppe Zimbalo en Cesare Penna.
+  - 'De voorgevel is een uitbundigheid van beeldhouwwerk in de zachte plaatselijke steen: een balkon gedragen door monsters en figuren die verslagen Turken zouden zijn, een groot roosvenster omringd met fruit en bladeren, engeltjes, leeuwen en heiligen. Ernaast huisvest de lange gevel van het Palazzo dei Celestini, ooit een klooster, nu het bestuur van de provincie.'
+piazza-duomo:
+  blurb: Een besloten plein dat zich pas toont als je erop stapt. De kathedraal werd in 1659 herbouwd door Giuseppe Zimbalo, en haar campanile is 70 m hoog. Ook het bisschoppelijk paleis en het seminarie staan rond het plein, allemaal in dezelfde barokke steen.
+  text:
+  - 'De Piazza del Duomo is aan bijna alle kanten afgesloten, dus ze opent zich pas als je door de smalle opening vanaf de Via Vittorio Emanuele binnenloopt. Dan verschijnt het hele plein in één keer: de kathedraal, haar hoge klokkentoren, het Bisschoppelijk Paleis en het Seminarie, allemaal in dezelfde gouden steen.'
+  - De kathedraal werd vanaf 1659 herbouwd door Giuseppe Zimbalo, die haar twee gevels gaf, een naar het plein en een opzichtigere naar de straat. Zijn klokkentoren rijst 70 meter op in vijf verdiepingen; vanaf de top kon je ooit op een heldere dag de zee zien.
+sant-oronzo:
+  blurb: Het hart van Lecce. Het Romeinse amfitheater uit de 2e eeuw ligt half verzonken onder het plein en bood ooit plaats aan zo’n 25.000 toeschouwers. Op een zuil uit Brindisi staat Sint-Orontius, de patroon van de stad. Vlakbij staat de Sedile, het oude stadhuis uit 1592.
+  text:
+  - 'De Piazza Sant’Oronzo is waar Lecce elkaar ontmoet: cafés, het oude stadhuis, de Sedile genoemd, uit 1592, en een gat in het midden van het plein waarin een half Romeins amfitheater ligt. In de 2e eeuw gebouwd, bood het plaats aan zo’n 25.000 mensen; de andere helft ligt nog onder de gebouwen eromheen.'
+  - De zuil op het plein kwam uit Brindisi, waar ze het einde van de Via Appia markeerde. Lecce zette Sint-Orontius erbovenop, de patroonheilige die de stad in de 17e eeuw van de pest zou hebben gered, en elk jaar in augustus vult zijn feest de straten.
+castello-carlo-v:
+  name: Kasteel van Karel V
+  blurb: Een vierkant kasteel met brede bastions, in de jaren 1530 herbouwd in opdracht van keizer Karel V om de stad tegen de Turken te verdedigen. Het was ook een gevangenis en een kazerne. Nu zijn er tentoonstellingen, en het museum van het papier-maché.
+  text:
+  - Het kasteel staat net ten oosten van de oude stad, een breed vierkant blok met pijlvormige bastions op de hoeken. Keizer Karel V liet het in de jaren 1530 herbouwen rond een ouder bergfort, onderdeel van de verdediging die hij langs de hele kust van Apulië optrok tegen aanvallen van de Ottomanen.
+  - In de loop der eeuwen diende het als gevangenis, kazerne en kantoren. Nu is het te bezoeken, met tentoonstellingen en het museum van het papier-maché, het ambacht waarvoor Lecce beroemd is.
+porta-napoli:
+  blurb: Een triomfboog uit 1548, gebouwd voor Karel V, en de grootste van de drie stadspoorten. Hij kijkt uit op de weg naar Napels, vandaar de naam. Op het plein ervoor staat een obelisk uit 1822, ter ere van koning Ferdinand I.
+  text:
+  - 'De Porta Napoli is de statigste van de drie poorten van Lecce: een triomfboog uit 1548 ter ere van Karel V, met zijn wapen boven de doorgang en zuilen aan weerszijden. Ze staat waar de weg naar Napels de stad verliet, vandaar haar naam.'
+  - Op het plein ervoor rijst een obelisk uit 1822, opgericht voor koning Ferdinand I van Beide Siciliën. In het spel rijdt de race door de boog.
+teatro-romano:
+  name: Romeins theater
+  blurb: Een klein Romeins theater uit de tijd van keizer Augustus, pas in de jaren 1930 tussen de huizen herontdekt. Het bood plaats aan zo’n 5.000 toeschouwers. Je ziet nog de halfronde tribunes en de vloermozaïeken.
+  text:
+  - Lecces Romeinse theater lag eeuwenlang verborgen tussen de tuinen en huizen van de oude stad, tot het in de jaren 1930 bij toeval werd gevonden. Het dateert uit de tijd van Augustus en bood plaats aan zo’n 5.000 mensen.
+  - Je ziet nog de gebogen rijen van de zitplaatsen en delen van het podium. Een klein museum ernaast vertelt het verhaal van het Romeinse Lupiae, zoals Lecce heette.
+porta-rudiae:
+  blurb: De westelijke stadspoort, in 1703 in barokstijl herbouwd. Ze is genoemd naar Rudiae, de antieke stad van de dichter Ennius net buiten Lecce. Boven de doorgang zit Sint-Orontius, tussen Sint-Dominicus en Sint-Irene.
+  text:
+  - De Porta Rudiae is de westelijke poort van de oude stad en haar oudste, hoewel wat je nu ziet in 1703 in barokstijl is herbouwd. Ze is genoemd naar Rudiae, de antieke stad net buiten Lecce waar de Romeinse dichter Ennius werd geboren.
+  - Bovenop staat opnieuw Sint-Orontius, de patroon van de stad, tussen Sint-Dominicus en Sint-Irene. In het spel verlaat de race de oude stad door deze poort.
+porta-san-biagio:
+  blurb: De zuidelijke stadspoort, gebouwd in 1774 en gewijd aan Sint-Blasius. Ze leidt de oude stad in vanaf de weg naar Otranto en de Adriatische kust, en is de laatste van de drie poorten die nog staat.
+  text:
+  - De Porta San Biagio, de zuidelijke poort, werd in 1774 gebouwd en gewijd aan Sint-Blasius, wiens beeld bovenop staat. Ze komt uit op de weg naar Otranto en de Adriatische kust.
+  - Net als de Porta Napoli en de Porta Rudiae staat ze op de lijn van de oude muren, die verder grotendeels verdwenen zijn, vervangen door de ring van brede lanen rond de oude stad.
+villa-comunale:
+  blurb: Het stadspark Giuseppe Garibaldi, net buiten de oude muren. Een rustig plekje tussen palmen en bomen, vlak bij het kasteel en het centrum. Een goede plek om je even te verstoppen voor de zuiderse zon.
+  text:
+  - De Villa Comunale, het Giuseppe Garibaldipark, ligt net buiten de oude stad bij het kasteel. In de 19e eeuw aangelegd, is het een groen eiland van palmen, dennen en bloemperken, met paden, banken en bustes van beroemde mensen uit Lecce.
+  - Op een hete middag in de Salento is zijn schaduw de beste plek van de stad; ’s avonds loopt het vol met gezinnen en kinderen.
+santa-chiara:
+  name: De Santa Chiarakerk
+  blurb: 'Een kleine barokke kerk uit 1687, met een achthoekige plattegrond. Binnen verbazen de rijk versierde koepel en het plafond van papier-maché: een ambacht waarvoor Lecce bekend is. Ze staat vlak bij het Romeinse theater.'
+  text:
+  - Santa Chiara is een kleine barokke kerk uit 1687, net naast de Piazza Sant’Oronzo en bij het Romeinse theater. Haar plattegrond is achthoekig, en haar gevel is een van de levendigste van de stad.
+  - 'Kijk binnen omhoog: het plafond is gemaakt van cartapesta, beschilderd papier-maché, dat eruitziet als gesneden hout of steen. Het is het ambacht waarvoor Lecce bekend is, en hier bedekt het een hele kerk.'
+pietra-leccese:
+  name: Lecce-steen
+  blurb: De zachte, honingkleurige kalksteen waaruit de hele oude stad is gebouwd en gehouwen.
+  text:
+  - Pietra leccese is een fijnkorrelige kalksteen die rond de stad wordt gedolven. Vers uit de grond is hij zo zacht dat hij bijna als hout kan worden gesneden; in de lucht verhardt hij langzaam en krijgt hij zijn warme gouden kleur.
+  - 'Dat maakte de barok van Lecce mogelijk: de steenhouwers konden hele gevels bedekken met bloemen, fruit, engeltjes en monsters. Hij wordt nog steeds gedolven en bewerkt, en in het spel is elk huis in zijn kleuren getekend.'
+pasticciotto:
+  blurb: Een klein ovaal gebakje van kruimeldeeg gevuld met warme vla, gegeten bij het ontbijt in elke bar van de Salento.
+  text:
+  - 'De pasticciotto is het gebakje van Lecce: een klein ovaal taartje van kruimeldeeg met reuzel, gevuld met vla en gebakken tot het bovenop goudbruin is. Het is het lekkerst warm, ’s ochtends, met een koffie aan de bar.'
+  - De stad Galatina, ten zuiden van Lecce, beweert hem in de 18e eeuw te hebben uitgevonden. In het spel is het wat je in een van de opdrachten verzamelt, tussen de pizzica-dansers.
+cartapesta:
+  name: Papier-maché
+  blurb: Heiligenbeelden van papier, stro en lijm, een ambacht dat Lecce al vier eeuwen beoefent.
+  text:
+  - De cartapesta-werkplaatsen van Lecce maken beelden van heiligen, Madonna’s en kribbefiguren van papier en lappen op een frame van stro en draad, afgewerkt met gips en verf, en soms met hete ijzers behandeld om de plooien van hun gewaden vast te zetten. Licht en goedkoop konden ze staan in kerken die zich geen marmer of hout konden veroorloven.
+  - Het ambacht leeft nog, met werkplaatsen in de oude stad en een museum in het kasteel. In het spel rent een dief ervandoor met een papier-maché Sint-Orontius, en jij moet hem pakken.
+pizzica:
+  blurb: De snelle, wervelende volksdans van de Salento, gespeeld op tamboerijnen door de zomernachten.
+  text:
+  - Pizzica is een vorm van tarantella uit de Salento. Ze hoorde ooit bij het tarantisme, het geloof dat vrouwen die door de tarantula gebeten waren alleen genezen konden worden door dagenlang te dansen op de muziek van tamboerijnen en violen.
+  - 'Nu is het een zomerfeestmuziek: de Notte della Taranta, een nacht pizzica in Melpignano, trekt elk jaar in augustus menigten van vele duizenden. In het spel probeert een groep dansers je in de dans mee te trekken.'
+caffe-leccese:
+  blurb: 'Een espresso over ijs en zoete amandelmelk gegoten: Lecces antwoord op de zomerhitte.'
+  text:
+  - 'Caffè leccese wordt in het glas gemaakt: ijsblokjes, een scheutje amandelsiroop of amandelmelk, en een hete espresso erover gegoten aan de bar. Hij is zoet, koud en sterk, en in de zomer maakt elke bar in de oude stad hem.'
+  - Amandelen groeien al lang in heel Apulië, en amandelmelk was de plaatselijke manier om dingen te zoeten. De koffie zou in de 20e eeuw in een bar in Lecce zijn uitgevonden en zich over de Salento hebben verspreid.

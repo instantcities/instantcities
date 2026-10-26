@@ -1,6 +1,6 @@
-# Istanbul's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/istanbul.json) and its landmarks' names and blurbs
-# (_data/landmarks/istanbul.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# istanbul's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/istanbul.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/istanbul.yml and its landmarks, with their pages, in landmarks/istanbul.yml.
 title: 'Instant Istanbul : visite virtuelle en 3D et jeu gratuits d’Istanbul'
 description: 'Faites gratuitement la visite virtuelle en 3D de la vieille péninsule d’Istanbul dans votre navigateur, puis parcourez-la vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval entre les mosquées et les bazars d’Istanbul !
@@ -20,32 +20,4 @@ famous:
 - Le Grand Bazar et le bazar aux épices
 - Les ferries qui traversent le Bosphore, entre l’Europe et l’Asie
 - Le simit, le thé turc et les loukoums
-landmarks:
-  ayasofya:
-    name: Sainte-Sophie
-    blurb: 'La grande église de Justinien, de 537, avec sa coupole à 55 mètres de haut : église, puis mosquée, musée et de nouveau mosquée.'
-  sultanahmet-camii:
-    name: Mosquée bleue
-    blurb: La mosquée du sultan Ahmed Ier, avec six minarets et quelque vingt mille carreaux bleus d’İznik à l’intérieur.
-  hipodrom:
-    name: Hippodrome
-    blurb: La longue place où Byzance organisait ses courses de chars, avec un obélisque égyptien et une colonne de bronze aux serpents toujours debout.
-  yerebatan:
-    name: Citerne Basilique
-    blurb: Le réservoir souterrain de Justinien, une forêt de 336 colonnes plantées dans l’eau.
-  topkapi:
-    name: Palais de Topkapı
-    blurb: Le palais des sultans ottomans pendant près de quatre cents ans, à la pointe de la péninsule au-dessus du Bosphore.
-  kapalicarsi:
-    name: Grand Bazar
-    blurb: L’un des plus anciens et des plus grands marchés couverts du monde, une soixantaine de rues et quatre mille boutiques sous un même toit.
-  misir-carsisi:
-    name: Bazar aux épices
-    blurb: Le marché couvert en forme de L près de la Mosquée neuve, plein d’épices, de fruits secs, de thé et de loukoums.
-  yeni-cami:
-    name: Mosquée neuve
-    blurb: La grande mosquée au bord de l’eau à Eminönü, commencée en 1597 et achevée 68 ans plus tard.
-  galata-koprusu:
-    name: Pont de Galata
-    blurb: Le pont sur la Corne d’Or d’Eminönü à Karaköy, bordé de pêcheurs en haut et de restaurants de poisson en bas.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

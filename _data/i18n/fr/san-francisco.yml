@@ -1,6 +1,6 @@
-# San Francisco's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its landmarks' names and blurbs
-# (_data/landmarks/san-francisco.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# san-francisco's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/san-francisco.yml and its landmarks, with their pages, in landmarks/san-francisco.yml.
 title: 'Instant San Francisco : visite virtuelle en 3D et jeu gratuits de San Francisco'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de San Francisco dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans San Francisco, de Chinatown à la baie !
@@ -20,23 +20,4 @@ famous:
 - Alcatraz, l’île-prison dans la baie
 - Le tremblement de terre et l’incendie de 1906
 - Les poètes de la Beat Generation à North Beach
-landmarks:
-  transamerica-pyramid:
-    blurb: La pyramide blanche du Financial District, haute de 260 mètres, emblème de la skyline de San Francisco depuis 1972.
-  ferry-building:
-    blurb: Le terminal des ferries au pied de Market Street, avec sa tour d’horloge inspirée de la Giralda de Séville, aujourd’hui une halle gourmande.
-  coit-tower:
-    blurb: La fine tour de béton au sommet de Telegraph Hill, construite en 1933 avec l’argent de Lillie Hitchcock Coit.
-  dragon-gate:
-    blurb: La porte de Chinatown sur Grant Avenue, au coin de Bush Street, avec ses toits de tuiles vertes, ses dragons et deux lions de pierre.
-  chinatown:
-    blurb: Le plus ancien Chinatown d’Amérique du Nord, le long de Grant Avenue et de Stockton Street, avec des lanternes au-dessus de la rue.
-  union-square:
-    blurb: La place des grands magasins et des hôtels, nommée d’après les rassemblements pour l’Union avant la guerre de Sécession.
-  cable-cars:
-    blurb: Les derniers cable cars du monde encore en service dans les rues d’une ville, tirés en haut des collines par un câble sous la chaussée.
-  washington-square:
-    blurb: Le cœur vert de North Beach, le quartier italien, devant l’église blanche Saints-Pierre-et-Paul.
-  city-lights:
-    blurb: La librairie des poètes de la Beat Generation sur Columbus Avenue, qui publia Howl d’Allen Ginsberg en 1956.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

@@ -1,0 +1,72 @@
+# new-york's landmarks in French (_data/landmarks/new-york.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+empire-state:
+  blurb: La tour Art déco sur la Cinquième Avenue et la 34e Rue, le plus haut bâtiment du monde de 1931 à 1970.
+  text:
+  - L’Empire State Building fut érigé en un peu plus d’un an, de mars 1930 à son ouverture le 1er mai 1931, sur le site de l’ancien hôtel Waldorf-Astoria. Il compte 102 étages, son toit est à 381 mètres et son mât atteint 443 mètres. Pendant près de quarante ans, personne ne construisit plus haut.
+  - Sa forme en gradins vient de la loi de zonage de New York, qui obligeait les grands bâtiments à reculer en montant pour que la lumière atteigne la rue. Les visiteurs montent à la terrasse ouverte du 86e étage, et chaque nuit les lumières du sommet changent de couleur pour une fête, une équipe ou une cause. Dans le film de 1933, King Kong l’escalade.
+times-square:
+  blurb: Le croisement de Broadway et de la Septième Avenue, sous des murs d’écrans lumineux, au cœur du quartier des théâtres.
+  text:
+  - Times Square s’appelait Longacre Square, un lieu de marchands de chevaux et de carrossiers, jusqu’à ce que le New York Times y construise sa tour et que la ville rebaptise la place d’après lui en 1904. Depuis, les écrans et enseignes au néon ont proliféré jusqu’à couvrir tous les murs, et restent allumés jour et nuit.
+  - Autour se trouvent les théâtres de Broadway. Depuis 2009, le tronçon de Broadway à travers la place est fermé aux voitures, et des gens s’assoient sur des gradins rouges au-dessus du guichet TKTS pour regarder la foule. Le soir du Nouvel An, environ un million de personnes se rassemblent pour voir la boule tomber de One Times Square à minuit, une coutume qui remonte à 1907.
+chrysler:
+  blurb: La tour Art déco sur la 42e Rue et Lexington Avenue, couronnée d’arcs d’acier et d’une aiguille.
+  text:
+  - Walter Chrysler, le constructeur automobile, fit bâtir cette tour par William Van Alen de 1928 à 1930. Dans une course avec le 40 Wall Street pour être le plus haut, les constructeurs assemblèrent la flèche en secret à l’intérieur de la couronne et la sortirent par le toit d’un seul coup. À 319 mètres, ce fut le plus haut bâtiment du monde, jusqu’à ce que l’Empire State Building le dépasse un an plus tard.
+  - Sa couronne d’arcs d’acier inoxydable, aux fenêtres triangulaires, brille au soleil et est éclairée la nuit. Des aigles d’acier sortent des angles du 61e étage, et plus bas les angles portent des bouchons de radiateur ailés, comme ceux des voitures de Chrysler.
+grand-central:
+  blurb: La grande gare de la 42e Rue, avec son hall sous un plafond étoilé et son horloge d’opale.
+  text:
+  - Grand Central Terminal ouvrit en 1913, avec des trains qui roulent sous terre sur deux niveaux pour que Park Avenue puisse être construite au-dessus des voies. Elle compte 44 quais, plus que n’importe quelle autre gare du monde, et des trains en partent toujours toutes les quelques minutes vers le nord de la ville et le Connecticut.
+  - Son Main Concourse est l’un des plus grands halls de New York. Le plafond vert est peint des étoiles du ciel d’hiver, et au-dessus du kiosque d’information se dresse une horloge à quatre faces. Dans les années 1960, les propriétaires voulaient lui mettre une tour dessus ; les New-Yorkais, dont Jacqueline Kennedy Onassis, se battirent pour la sauver, et en 1978 la Cour suprême jugea que la ville pouvait la protéger.
+public-library:
+  name: Bibliothèque publique de New York
+  blurb: La bibliothèque de marbre sur la Cinquième Avenue, gardée par les deux lions de pierre Patience et Fortitude.
+  text:
+  - Le Stephen A. Schwarzman Building, bâtiment principal de la bibliothèque publique de New York, ouvrit en 1911 sur le site d’un ancien réservoir. Carrère et Hastings le construisirent en marbre blanc de style Beaux-Arts, et c’était alors le plus grand bâtiment de marbre des États-Unis.
+  - Deux lions de pierre sont couchés au pied de ses marches sur la Cinquième Avenue. Dans les années 1930, le maire Fiorello La Guardia les nomma Patience et Fortitude, les qualités dont, disait-il, les New-Yorkais auraient besoin pour traverser la Dépression. À l’étage, la salle de lecture Rose, sous un plafond peint, est ouverte à quiconque veut lire.
+rockefeller-center:
+  blurb: Les tours Art déco entre la Cinquième et la Sixième Avenue, avec le Prométhée doré, la patinoire et le sapin de Noël.
+  text:
+  - 'John D. Rockefeller Jr. construisit cette ville dans la ville dans les années 1930, au milieu de la Dépression : quatorze bâtiments Art déco autour d’une place en contrebas, avec des jardins sur les toits. Le plus haut, le 30 Rockefeller Plaza, s’élève à 259 mètres, et de sa terrasse supérieure on regarde droit l’Empire State Building.'
+  - La statue dorée de Prométhée domine la place, où une patinoire ouvre chaque hiver. Les ouvriers qui construisirent le centre y dressèrent le premier sapin de Noël en 1931, et depuis 1933 un sapin géant s’élève chaque année au-dessus de la patinoire. Le Radio City Music Hall, domicile des Rockettes, se dresse au coin de la Sixième Avenue.
+bryant-park:
+  blurb: La pelouse derrière la bibliothèque, avec ses platanes, ses chaises vertes et, en hiver, sa patinoire.
+  text:
+  - Bryant Park se trouve derrière la bibliothèque publique, entre la 40e et la 42e Rue. Il porte le nom de William Cullen Bryant, poète et rédacteur de journal, et en 1853 le Crystal Palace de New York s’y dressait pour l’exposition universelle, jusqu’à ce qu’il brûle en 1858.
+  - Dans les années 1970, le parc était connu pour ses dealers, mais il fut reconstruit et rouvrit en 1992. Aujourd’hui, des employés de bureau y déjeunent sur la pelouse et sur ses chaises vertes mobiles, des films y sont projetés les soirs d’été, et en hiver la pelouse devient une patinoire parmi les stands d’un marché de Noël.
+st-patricks:
+  name: Cathédrale Saint-Patrick
+  blurb: La cathédrale gothique de marbre blanc sur la Cinquième Avenue, face au Rockefeller Center.
+  text:
+  - La cathédrale Saint-Patrick, siège de l’archevêque catholique de New York, fut bâtie de 1858 à 1878 sur les plans de James Renwick Jr., payée en partie par les petits dons des immigrants irlandais. Ses deux flèches, achevées en 1888, s’élèvent à environ 100 mètres au-dessus de la Cinquième Avenue.
+  - Quand elle fut construite, cette partie de Manhattan était encore presque vide ; aujourd’hui, la cathédrale se dresse parmi les tours, en face de l’Atlas de bronze du Rockefeller Center. Chaque mois de mars, la parade de la Saint-Patrick défile devant ses marches.
+macys:
+  blurb: L’un des plus grands grands magasins du monde, sur la 34e Rue, où finit la parade de Thanksgiving.
+  text:
+  - Macy’s s’installa à Herald Square en 1902, et son magasin de la 34e Rue remplit tout un pâté de maisons. Certains de ses escaliers mécaniques, installés à partir des années 1920, ont toujours des marches de bois.
+  - Depuis 1924, Macy’s organise chaque novembre sa parade de Thanksgiving, avec des ballons géants de personnages de dessins animés qui flottent le long des avenues jusqu’aux portes du magasin. Le film Miracle sur la 34e Rue (1947) s’y déroule, avec un Père Noël chez Macy’s qui dit être le vrai.
+statue-of-liberty:
+  name: La statue de la Liberté
+  blurb: La statue de cuivre dans la baie, cadeau de la France, qui accueillait les navires des immigrants.
+  text:
+  - La Liberté éclairant le monde, cadeau du peuple de France aux États-Unis, fut réalisée par Frédéric Auguste Bartholdi, avec une ossature de fer à l’intérieur par Gustave Eiffel. Elle fut expédiée en morceaux et inaugurée sur son île en 1886. Sa peau de cuivre est devenue verte avec l’âge.
+  - Pour les millions d’immigrants arrivés en Amérique par bateau, la statue fut la première chose qu’ils virent avant de débarquer à Ellis Island juste à côté. Elle se trouve sur Liberty Island dans la baie, au sud de Manhattan, hors de la carte du jeu ; des ferries y partent de Battery Park.
+central-park:
+  blurb: Le grand parc au milieu de Manhattan, long de quatre kilomètres, juste au nord de la carte du jeu.
+  text:
+  - 'Central Park va de la 59e à la 110e Rue, quatre kilomètres de pelouses, de lacs, de bois et de rochers entre les tours. Frederick Law Olmsted et Calvert Vaux remportèrent le concours pour le dessiner en 1858, et presque tout fut façonné à la main : des millions de charrettes de terre furent déplacées et des centaines de milliers d’arbres et d’arbustes plantés.'
+  - Les New-Yorkais y courent, y rament, y patinent et y bronzent, et environ quarante millions de personnes le visitent chaque année. Il commence à quelques pâtés de maisons au nord de la carte du jeu, en haut de la Cinquième et de la Septième Avenue.
+yellow-cab:
+  name: Les taxis jaunes
+  blurb: Les taxis jaunes de New York, que l’on hèle du trottoir d’un bras levé.
+  text:
+  - Depuis 1967, chaque taxi avec un médaillon de la ville, la licence pour charger des gens qui font signe depuis la rue, doit être peint en jaune. Il y en a environ 13 000, et à Midtown ils forment souvent la majeure partie de la circulation.
+  - Les grands taxis Checker des films furent le classique, jusqu’à la retraite du dernier en 1999. Puis vint la Ford Crown Victoria, et maintenant des voitures hybrides et des fourgonnettes. Dans le jeu aussi, la plupart des voitures de Midtown sont des taxis jaunes.
+pizza:
+  name: La pizza new-yorkaise
+  blurb: La grande pizza fine vendue à la part, à plier en deux et à manger dans la rue.
+  text:
+  - Les immigrants italiens apportèrent la pizza à New York au début du XXe siècle, et Lombardi’s, à Little Italy, aurait été la première pizzeria des États-Unis, autorisée en 1905.
+  - Une pizza new-yorkaise est large et fine, avec une croûte croustillante qui se plie. Elle est vendue à la part aux comptoirs dans toute la ville, et les New-Yorkais plient la part en deux dans le sens de la longueur pour la manger en marchant.

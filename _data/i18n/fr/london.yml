@@ -1,6 +1,6 @@
-# London's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/london.json) and its landmarks' names and blurbs
-# (_data/landmarks/london.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# london's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/london.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/london.yml and its landmarks, with their pages, in landmarks/london.yml.
 title: 'Instant London : visite virtuelle en 3D et jeu gratuits de Londres'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Londres dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Westminster !
@@ -18,26 +18,4 @@ famous:
 - Les bus rouges à impériale, les taxis noirs et le métro, le plus ancien métro du monde
 - Les cérémonies royales comme la relève de la garde et le Trooping the Colour
 - Les musées nationaux gratuits, du British Museum à la National Gallery
-landmarks:
-  big-ben:
-    blurb: La grosse cloche de la tour de l’horloge du Parlement, une tour qui s’appelle aujourd’hui Elizabeth Tower.
-  houses-of-parliament:
-    name: Parlement de Westminster
-    blurb: Le palais de Westminster sur la Tamise, rebâti en style gothique après l’incendie de 1834.
-  westminster-abbey:
-    name: Abbaye de Westminster
-    blurb: L’église où les souverains anglais puis britanniques sont couronnés depuis 1066.
-  trafalgar-square:
-    blurb: Nelson sur sa colonne, quatre lions de bronze et la National Gallery sur le côté nord.
-  national-gallery:
-    blurb: La collection britannique de peinture européenne, gratuite, sur le côté nord de Trafalgar Square.
-  downing-street:
-    blurb: Le numéro 10, résidence des Premiers ministres britanniques depuis 1735, derrière des grilles noires donnant sur Whitehall.
-  horse-guards:
-    blurb: Les cavaliers de la Household Cavalry montent la garde sur Whitehall tous les jours.
-  london-eye:
-    blurb: La grande roue d’observation de l’autre côté de la Tamise, construite pour l’an 2000.
-  westminster-bridge:
-    name: Pont de Westminster
-    blurb: Le pont vert sur la Tamise à côté de Big Ben, peint de la couleur des bancs de la Chambre des communes.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

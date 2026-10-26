@@ -1,6 +1,6 @@
-# Utrecht's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/utrecht.json) and its landmarks' names and blurbs
-# (_data/landmarks/utrecht.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# utrecht's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/utrecht.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/utrecht.yml and its landmarks, with their pages, in landmarks/utrecht.yml.
 title: 'Instant Utrecht : visite virtuelle en 3D et jeu gratuits d’Utrecht'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre d’Utrecht dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Utrecht, autour du Dom !
@@ -20,26 +20,4 @@ famous:
 - Miffy, la lapine que Dick Bruna a dessinée ici
 - La chaise rouge et bleue et la maison Schröder de Gerrit Rietveld
 - Le plus grand parking à vélos du monde, sous la gare
-landmarks:
-  domtoren:
-    name: Tour du Dom
-    blurb: Le plus haut clocher des Pays-Bas, 112 mètres de brique et de pierre gothiques, isolé depuis qu’une tempête a abattu la nef.
-  domkerk:
-    name: Église du Dom
-    blurb: 'Ce qui reste de la cathédrale gothique d’Utrecht : le chœur et le transept, séparés de leur tour depuis l’effondrement de la nef en 1674.'
-  pandhof:
-    blurb: Le paisible jardin du cloître à côté de l’église du Dom, planté des herbes d’un jardin de monastère médiéval.
-  oudegracht:
-    blurb: Le canal médiéval d’Utrecht, avec ses quais au ras de l’eau et ses vieilles caves sous la rue, aujourd’hui pleines de cafés.
-  janskerkhof:
-    blurb: La place arborée autour de la Janskerk, avec un marché aux fleurs chaque samedi.
-  pieterskerk:
-    blurb: L’une des plus anciennes églises des Pays-Bas, une église romane de 1048 avec une crypte sous son chœur.
-  speelklok:
-    name: Musée Speelklok
-    blurb: Un musée des instruments de musique mécanique, des boîtes à musique aux grands orgues de danse, dans la Buurkerk médiévale.
-  academiegebouw:
-    blurb: Le bâtiment principal de l’université d’Utrecht sur le Domplein, où l’Union d’Utrecht fut signée en 1579.
-  paushuize:
-    blurb: La maison du Kromme Nieuwegracht bâtie pour Adrien d’Utrecht, qui devint le seul pape néerlandais.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

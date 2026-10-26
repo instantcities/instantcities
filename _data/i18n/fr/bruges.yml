@@ -1,6 +1,6 @@
-# Bruges's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its landmarks' names and blurbs
-# (_data/landmarks/bruges.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# bruges's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/bruges.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/bruges.yml and its landmarks, with their pages, in landmarks/bruges.yml.
 title: 'Instant Bruges : visite virtuelle en 3D et jeu gratuits de Bruges'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Bruges dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long des canaux de Bruges !
@@ -18,28 +18,4 @@ famous:
 - Le beffroi du Markt, haut de 83 mètres, avec 366 marches jusqu’à son carillon
 - Les tableaux de Jan van Eyck et de Hans Memling, qui ont tous deux travaillé dans la ville
 - La dentelle, le chocolat et la Madone de Michel-Ange dans l’église Notre-Dame
-landmarks:
-  markt:
-    blurb: La place du marché de Bruges, avec le beffroi au sud et le palais provincial à l’est.
-  belfort:
-    name: Beffroi
-    blurb: 'Le beffroi de 83 mètres au-dessus du Markt : 366 marches jusqu’à son carillon de 47 cloches.'
-  burg:
-    blurb: La place de l’hôtel de ville, de la basilique du Saint-Sang et de l’ancienne cour de justice.
-  stadhuis:
-    name: Hôtel de ville
-    blurb: L’un des plus anciens hôtels de ville des Pays-Bas méridionaux, commencé en 1376, avec une salle gothique couverte de peintures murales.
-  heilig-bloedbasiliek:
-    name: Basilique du Saint-Sang
-    blurb: Une chapelle romane surmontée d’une chapelle gothique, qui garde une relique du sang du Christ.
-  rozenhoedkaai:
-    blurb: Le coin le plus photographié de Bruges, où le canal tourne sous le beffroi.
-  gruuthuse:
-    blurb: Le palais des seigneurs de Gruuthuse, qui pouvaient taxer le gruut, les herbes pour brasser la bière.
-  onze-lieve-vrouwekerk:
-    name: Église Notre-Dame
-    blurb: Sa tour de brique de 115 mètres est l’une des plus hautes du monde ; à l’intérieur se trouve la Madone de Michel-Ange.
-  sint-salvatorskathedraal:
-    name: Cathédrale Saint-Sauveur
-    blurb: La plus ancienne église paroissiale de Bruges, devenue sa cathédrale au XIXe siècle.
 credits: 'Données cartographiques © les contributeurs d’OpenStreetMap (ODbL). Hauteurs : Digitaal Vlaanderen, DHMV II.'

@@ -1,6 +1,6 @@
-# Rotterdam's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/rotterdam.json) and its landmarks' names and blurbs
-# (_data/landmarks/rotterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# rotterdam's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rotterdam.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/rotterdam.yml and its landmarks, with their pages, in landmarks/rotterdam.yml.
 title: 'Instant Rotterdam : visite virtuelle en 3D et jeu gratuits de Rotterdam'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Rotterdam dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Rotterdam, parmi les tours sur la Meuse !
@@ -19,28 +19,4 @@ famous:
 - Les maisons cubes de Piet Blom et l’arche d’appartements du Markthal
 - Le plus grand port d’Europe, jusqu’à la mer du Nord
 - Érasme, né à Rotterdam, et le Feyenoord
-landmarks:
-  stadhuis:
-    name: Hôtel de ville
-    blurb: L’hôtel de ville de Rotterdam, de 1920, sur le Coolsingel, l’un des rares bâtiments du centre à avoir survécu au bombardement de 1940.
-  erasmusbrug:
-    name: Pont Érasme
-    blurb: Le pont à haubans blanc sur la Meuse, surnommé le Cygne, devenu l’emblème du nouveau Rotterdam.
-  witte-huis:
-    blurb: L’immeuble de bureaux blanc de 1898 près du Vieux Port, l’un des premiers immeubles de grande hauteur d’Europe.
-  oude-haven:
-    name: Vieux Port
-    blurb: Le plus vieux port de Rotterdam, plein de vieilles péniches à voile, avec des terrasses le long des quais.
-  kubuswoningen:
-    name: Maisons cubes
-    blurb: Les maisons jaunes de Piet Blom basculées sur la pointe, une forêt de cubes sur une passerelle au-dessus du Blaak.
-  markthal:
-    blurb: Une arche en fer à cheval d’appartements au-dessus d’un marché couvert, avec la plus grande œuvre d’art des Pays-Bas au plafond.
-  laurenskerk:
-    blurb: La grande église gothique tardive de la ville, incendiée en 1940 et rebâtie, dernier bâtiment médiéval du centre.
-  schielandshuis:
-    blurb: Un palais classique du XVIIe siècle parmi les tours, qui a survécu au bombardement de 1940.
-  maritiem-museum:
-    name: Musée maritime
-    blurb: Le musée maritime sur le Leuvehaven, avec de vieilles grues, un bateau-phare et des bateaux de travail amarrés devant.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

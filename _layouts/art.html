@@ -34,7 +34,7 @@
     {%- for m in A.museums %}
     {%- assign C = site.data.cities | where: 'id', m.city | first -%}
     {%- assign list = A.pieces | where: 'museum', m.id %}
-    {%- assign lm_url = nil %}{% if m.landmark %}{% assign lm_url = '/' | append: C.id | append: '/landmark/' | append: m.landmark | append: '/' %}{% endif %}
+    {%- assign lm_url = nil %}{% if m.landmark %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=m.landmark lang='en' %}{% endcapture %}{% endif %}
     <section id="{{ m.id }}" class="art-museum">
       <div class="art-museum-head">
         <div>

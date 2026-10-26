@@ -1,6 +1,6 @@
-# Florence's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/florence.json) and its landmarks' names and blurbs
-# (_data/landmarks/florence.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# florence's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/florence.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/florence.yml and its landmarks, with their pages, in landmarks/florence.yml.
 title: 'Instant Florence : visite virtuelle en 3D et jeu gratuits de Florence'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Florence dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la Florence de la Renaissance !
@@ -18,26 +18,4 @@ famous:
 - Le David de Michel-Ange et les tableaux des Offices
 - Le Ponte Vecchio, avec les boutiques des orfèvres sur le pont
 - La bistecca alla fiorentina, le vin de Chianti et le cuir toscan
-landmarks:
-  duomo:
-    blurb: La cathédrale de Florence, couronnée par la coupole de Brunelleschi, toujours la plus grande coupole en brique jamais construite.
-  campanile-di-giotto:
-    name: Campanile de Giotto
-    blurb: Le fin clocher à côté de la cathédrale, revêtu de marbre blanc, vert et rose.
-  battistero:
-    name: Baptistère
-    blurb: Le baptistère octogonal aux portes de bronze de Ghiberti, que Michel-Ange appelait les portes du Paradis.
-  piazza-della-signoria:
-    blurb: La place du Palazzo Vecchio, avec une copie du David de Michel-Ange à sa porte.
-  palazzo-vecchio:
-    blurb: L’hôtel de ville de Florence, aux allures de forteresse, depuis 1299, avec sa haute tour sur le côté.
-  loggia-dei-lanzi:
-    blurb: Une arcade ouverte sur la place, pleine de statues, dont le Persée de Cellini avec la tête de Méduse.
-  uffizi:
-    name: Offices
-    blurb: Les bureaux des Médicis devenus l’un des grands musées du monde, avec la Naissance de Vénus de Botticelli.
-  ponte-vecchio:
-    blurb: Le pont des orfèvres sur l’Arno, le seul que les Allemands en retraite ont laissé debout en 1944.
-  piazza-della-repubblica:
-    blurb: Là où était le forum romain, aujourd’hui une place avec un manège et de vieux cafés sous un arc de triomphe.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

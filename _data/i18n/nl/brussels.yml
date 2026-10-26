@@ -1,6 +1,6 @@
-# Brussels's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/brussels.json) and its landmarks' names and blurbs
-# (_data/landmarks/brussels.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# brussels's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/brussels.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/brussels.yml and its landmarks, with their pages, in landmarks/brussels.yml.
 title: 'Instant Brussels: gratis virtuele 3D-rondleiding en game van Brussel'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Brussel in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard rond de Grote Markt van Brussel!
@@ -18,31 +18,4 @@ famous:
 - Manneken Pis, een bronzen jongetje met een garderobe van meer dan duizend kostuums
 - De Europese Commissie, het Europees Parlement en het hoofdkwartier van de NAVO
 - Frieten, wafels, chocolade, bier en strips, van Kuifje tot vandaag
-landmarks:
-  grand-place:
-    name: Grote Markt
-    blurb: Gildehuizen en een gotisch stadhuis rond een van de mooiste pleinen van Europa.
-  hotel-de-ville:
-    name: Stadhuis
-    blurb: Het gotische stadhuis met zijn toren van 96 meter, met bovenop Sint-Michiel die de draak verslaat.
-  maison-du-roi:
-    name: Broodhuis
-    blurb: Het neogotische huis tegenover het stadhuis, met het stadsmuseum en de garderobe van Manneken Pis.
-  manneken-pis:
-    blurb: Een bronzen jongetje van amper een halve meter, met een garderobe van meer dan duizend kostuums.
-  galeries-saint-hubert:
-    name: Koninklijke Sint-Hubertusgalerijen
-    blurb: Een van de eerste overdekte winkelgalerijen van Europa, geopend in 1847 onder een glazen dak.
-  bourse:
-    name: Beurs
-    blurb: De oude beurs uit 1873, aan een boulevard die sinds 2015 autovrij is.
-  cathedrale:
-    name: Sint-Michiels- en Sint-Goedelekathedraal
-    blurb: De gotische kathedraal van Brussel op de helling naar de bovenstad, waar koninklijke huwelijken worden gesloten.
-  mont-des-arts:
-    name: Kunstberg
-    blurb: De tuintrappen tussen de beneden- en de bovenstad, met uitzicht over de stad.
-  sablon:
-    name: Zavel
-    blurb: Het plein van de antiquairs en chocolatiers, onder de gotische kerk van Onze-Lieve-Vrouw-ten-Zavel.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

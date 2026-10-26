@@ -1,6 +1,6 @@
-# Lecce's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its landmarks' names and blurbs
-# (_data/landmarks/lecce.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# lecce's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/lecce.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/lecce.yml and its landmarks, with their pages, in landmarks/lecce.yml.
 title: 'Instant Lecce : visite virtuelle en 3D et jeu gratuits de Lecce la baroque'
 description: 'Faites gratuitement la visite virtuelle en 3D de la vieille ville baroque de Lecce dans votre navigateur, puis parcourez-la vous-même à vélo, à pied ou au galop : explorez, faites la course ou jouez des quêtes, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Lecce la baroque !
@@ -18,27 +18,4 @@ famous:
 - Un amphithéâtre romain à demi enfoui sous sa place principale
 - Les saints en papier mâché, la cartapesta de ses ateliers
 - Le pasticciotto au petit-déjeuner et le caffè leccese au lait d’amande
-landmarks:
-  santa-croce:
-    name: Basilique Santa Croce
-    blurb: Le sommet du baroque de Lecce, bâti entre 1549 et 1695. Sa façade disparaît sous les lions, les plantes, les bêtes fabuleuses et les saints, tous sculptés dans le calcaire local, tendre et couleur de miel. À côté se dresse le Palazzo dei Celestini, aujourd’hui siège de la province.
-  piazza-duomo:
-    name: Piazza del Duomo
-    blurb: Une place fermée qui ne se révèle qu’une fois qu’on y entre. La cathédrale a été rebâtie en 1659 par Giuseppe Zimbalo, et son campanile mesure 70 m. Le palais épiscopal et le séminaire entourent aussi la place, tous dans la même pierre baroque.
-  sant-oronzo:
-    blurb: Le cœur de Lecce. L’amphithéâtre romain du IIe siècle est à demi enfoui sous la place et accueillait jadis quelque 25 000 spectateurs. Sur une colonne venue de Brindisi se tient saint Oronce, patron de la ville. Tout près se trouve le Sedile, l’ancien hôtel de ville de 1592.
-  castello-carlo-v:
-    name: Château de Charles Quint
-    blurb: Un château au plan carré et aux larges bastions, rebâti dans les années 1530 sur ordre de l’empereur Charles Quint pour défendre la ville contre les Turcs. Il a aussi été une prison et une caserne. Il accueille aujourd’hui des expositions, et le musée du papier mâché.
-  porta-napoli:
-    blurb: Un arc de triomphe de 1548, bâti pour Charles Quint, et la plus grandiose des trois portes de la ville. Elle regarde la route de Naples, d’où son nom. Sur la place devant se dresse un obélisque de 1822, en l’honneur du roi Ferdinand Ier.
-  teatro-romano:
-    name: Théâtre romain
-    blurb: Un petit théâtre romain de l’époque d’Auguste, redécouvert seulement dans les années 1930 au milieu des maisons. Il accueillait environ 5 000 spectateurs. On voit encore ses gradins en demi-cercle et les mosaïques de son sol.
-  porta-rudiae:
-    blurb: La porte ouest de la ville, rebâtie en 1703 en style baroque. Elle doit son nom à Rudiae, la ville antique du poète Ennius juste à côté de Lecce. Au-dessus du passage trône saint Oronce, entre saint Dominique et sainte Irène.
-  porta-san-biagio:
-    blurb: La porte sud de la ville, bâtie en 1774 et dédiée à saint Blaise. Elle mène dans la vieille ville depuis la route d’Otrante et de la côte adriatique, et c’est la dernière des trois portes encore debout.
-  villa-comunale:
-    blurb: Le parc municipal Giuseppe Garibaldi, juste à l’extérieur des vieux remparts. Un coin calme parmi les palmiers et les arbres, près du château et du centre. Un bon endroit pour se cacher un moment du soleil du Sud.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

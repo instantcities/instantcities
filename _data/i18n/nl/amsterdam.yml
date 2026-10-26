@@ -1,6 +1,6 @@
-# Amsterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/amsterdam.json) and its landmarks' names and blurbs
-# (_data/landmarks/amsterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# amsterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/amsterdam.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/amsterdam.yml and its landmarks, with their pages, in landmarks/amsterdam.yml.
 title: 'Instant Amsterdam: gratis virtuele 3D-rondleiding en game van Amsterdam'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Amsterdam in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard langs de grachten!
@@ -18,27 +18,4 @@ famous:
 - Rembrandt, Van Gogh en het Rijksmuseum
 - Het Anne Frank Huis aan de Prinsengracht
 - Overal fietsen, rondvaartboten, trams en stroopwafels
-landmarks:
-  dam:
-    blurb: Het plein op de dam die in de 13e eeuw in de Amstel werd gelegd en de stad haar naam gaf.
-  koninklijk-paleis:
-    name: Koninklijk Paleis
-    blurb: Gebouwd als stadhuis van de Gouden Eeuw, in 1808 door Lodewijk Napoleon tot paleis gemaakt.
-  nieuwe-kerk:
-    blurb: De kerk op de Dam waar Nederlandse koningen en koninginnen worden ingehuldigd.
-  begijnhof:
-    blurb: Een verborgen hofje van oude huizen rond een tuin, achter een deur aan het Spui.
-  spui:
-    blurb: Een pleintje met boekwinkels en cafés, met op vrijdag een boekenmarkt.
-  bloemenmarkt:
-    name: Bloemenmarkt
-    blurb: De drijvende bloemenmarkt op het Singel, die sinds 1862 bollen en bloemen verkoopt.
-  westerkerk:
-    blurb: De kerk aan de Prinsengracht met de hoogste toren van Amsterdam, bekroond met een keizerskroon.
-  anne-frank-huis:
-    name: Anne Frank Huis
-    blurb: Het grachtenhuis waar Anne Frank en haar familie onderdoken voor de nazi’s en waar zij haar dagboek schreef.
-  grachtengordel:
-    name: Grachtengordel
-    blurb: De halve maan van 17e-eeuwse grachten rond de oude stad, op de Werelderfgoedlijst van UNESCO.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,6 +1,6 @@
-# Berlin's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/berlin.json) and its landmarks' names and blurbs
-# (_data/landmarks/berlin.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# berlin's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/berlin.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/berlin.yml and its landmarks, with their pages, in landmarks/berlin.yml.
 title: 'Instant Berlin : visite virtuelle en 3D et jeu gratuits de Berlin'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Berlin dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval au cœur de Berlin !
@@ -18,28 +18,4 @@ famous:
 - Le mur de Berlin, qui a coupé la ville de 1961 à 1989
 - L’île aux Musées, avec le musée de Pergame et le buste de Néfertiti
 - La currywurst, le döner kebab et une vie nocturne qui dure jusqu’au matin
-landmarks:
-  brandenburger-tor:
-    name: Porte de Brandebourg
-    blurb: La porte néoclassique de 1791 couronnée par le Quadrige, symbole d’une Allemagne divisée puis réunifiée.
-  reichstag:
-    blurb: Le bâtiment du Parlement de 1894, couronné depuis 1999 d’une coupole de verre où l’on peut monter.
-  unter-den-linden:
-    blurb: Le boulevard sous les tilleuls, de la porte de Brandebourg à l’île aux Musées.
-  gendarmenmarkt:
-    blurb: L’église française et l’église allemande face à face sur la place, avec la salle de concert entre les deux.
-  holocaust-mahnmal:
-    name: Mémorial de l’Holocauste
-    blurb: 'Le Mémorial aux Juifs assassinés d’Europe : 2 711 stèles de béton sur un terrain en pente.'
-  bebelplatz:
-    blurb: La place où les nazis ont brûlé des livres en 1933, marquée aujourd’hui par une bibliothèque aux rayons vides sous le sol.
-  museumsinsel:
-    name: Île aux Musées
-    blurb: Cinq grands musées sur une île de la Spree, de l’autel de Pergame à Néfertiti.
-  berliner-dom:
-    name: Cathédrale de Berlin
-    blurb: La grande cathédrale protestante à coupole sur l’île aux Musées, achevée en 1905.
-  fernsehturm:
-    name: Tour de télévision
-    blurb: La tour de télévision de Berlin-Est, haute de 368 mètres, de 1969, dont la boule renvoie une croix de lumière au soleil.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

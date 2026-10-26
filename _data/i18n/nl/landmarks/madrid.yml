@@ -1,0 +1,74 @@
+# madrid's landmarks in Dutch (_data/landmarks/madrid.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+puerta-del-sol:
+  blurb: Kilometer nul van de Spaanse wegen, waar Spanje op oudejaarsavond om middernacht zijn twaalf druiven eet.
+  text:
+  - De Puerta del Sol was ooit een poort in de muren, naar de opkomende zon gekeerd. Nu is het het drukste plein van Madrid, met de klokkentoren van de Real Casa de Correos, de zetel van de regionale regering.
+  - Een plaquette in het plaveisel markeert kilometer nul, van waaruit Spanjes hoofdwegen worden gemeten. Op oudejaarsavond eet Spanje een druif bij elk van de twaalf slagen van zijn klok, live uitgezonden op de televisie.
+oso-y-madrono:
+  name: De Beer en de Aardbeiboom
+  blurb: De bronzen beer die naar een aardbeiboom reikt, het stadswapen van Madrid, op de Puerta del Sol.
+  text:
+  - De beer en de madroño, de aardbeiboom, staan sinds de middeleeuwen in Madrids wapen. Het bronzen standbeeld op de Puerta del Sol, uit 1967, is een geliefd ontmoetingspunt.
+  - Madrilenen zeggen “tot bij de beer”.
+plaza-mayor:
+  blurb: Het plein met arcaden uit 1619, waar Madrid markten, stierengevechten en de processen van de Inquisitie hield.
+  text:
+  - De Plaza Mayor werd in 1619 onder Filips III voltooid, wiens ruiterstandbeeld in het midden staat. Haar huizen met arcaden hebben 237 balkons, van waaruit mensen markten, stierengevechten, kroningen, executies en de autodafés van de Inquisitie bekeken.
+  - De beschilderde gevel van de Casa de la Panadería, het oude gildehuis van de bakkers, is het middelpunt. Met Kerstmis vult een markt het plein.
+palacio-real:
+  name: Koninklijk Paleis
+  blurb: Met meer dan 3.000 kamers het grootste koninklijk paleis van West-Europa, nog altijd gebruikt voor staatsplechtigheden.
+  text:
+  - Nadat het oude Alcázar op kerstavond 1734 was afgebrand, beval Filips V een nieuw paleis van steen, zodat het nooit meer kon branden. Het werd in 1764 voltooid, met zo’n 3.400 kamers.
+  - De koning woont er niet meer, maar ontvangt er staatsbezoekers in zijn troonzaal. Op de eerste woensdag van de maand wordt de wacht op de binnenplaats afgelost.
+almudena:
+  name: Almudenakathedraal
+  blurb: De kathedraal van Madrid, begonnen in 1883 en pas in 1993 ingewijd, tegenover het Koninklijk Paleis.
+  text:
+  - Madrid werd pas in 1885 een bisschopszetel, en de bouw van de kathedraal duurde meer dan een eeuw. Haar buitenkant werd ontworpen om bij het paleis aan de overkant van het plein te passen; binnen zijn de plafonds in heldere moderne kleuren beschilderd.
+  - Paus Johannes Paulus II wijdde haar in 1993 in.
+plaza-de-oriente:
+  blurb: De tuinen tussen het Koninklijk Paleis en de opera, met een beroemd ruiterstandbeeld van Filips IV op een steigerend paard.
+  text:
+  - Jozef Bonaparte, Napoleons broer en koning van Spanje, liet de oude huizen voor het paleis ruimen om het plein te maken. De tuinen zijn omzoomd met standbeelden van Spaanse koningen.
+  - In het midden staat Filips IV op een steigerend paard, gegoten door Pietro Tacca in 1640; Galilei zou hebben geholpen uitvinden hoe het in evenwicht te houden.
+teatro-real:
+  blurb: Het operahuis van Madrid, aan de overkant van de Plaza de Oriente tegenover het Koninklijk Paleis.
+  text:
+  - Het Teatro Real opende in 1850 onder koningin Isabella II. Het sloot in 1925 uit angst voor instorting, werd herbouwd en opende pas in 1997 weer als operahuis.
+  - Nu is het een van de toonaangevende operahuizen van Europa.
+mercado-de-san-miguel:
+  blurb: Een markthal van ijzer en glas uit 1916, nu een overdekte foodmarkt naast de Plaza Mayor.
+  text:
+  - 'De markthal van ijzer en glas opende in 1916 naast de Plaza Mayor. In 2009 gerestaureerd, is het nu een hal met tapasbalies: oesters, ham, olijven, kroketten en vermout.'
+  - Het is het drukst ’s avonds, voor het diner, dat in Madrid laat komt.
+plaza-de-la-villa:
+  blurb: Een pleintje met drie gebouwen uit drie eeuwen, het oude hart van het stadsbestuur van Madrid.
+  text:
+  - Op dit pleintje bij de Calle Mayor staan de Casa de la Villa, het oude stadhuis uit de 17e eeuw, de Torre de los Lujanes uit de 15e, een van de oudste gebouwen van de stad, en de Casa de Cisneros uit de 16e.
+  - De gemeenteraad van Madrid vergaderde hier tot 2007.
+gran-via:
+  name: Gran Vía
+  blurb: De grote laan van 1910 tot de jaren 1950, Madrids Broadway met bioscopen, theaters en vroege wolkenkrabbers.
+  text:
+  - De Gran Vía werd vanaf 1910 door de oude stad gesneden, een etalage van de nieuwe eeuw met banken, hotels, warenhuizen en enkele van de eerste hoge gebouwen van Europa, zoals de Telefónica-toren van 1929.
+  - Bij Callao staan de bioscopen en theaters naast elkaar onder neonreclames. Aan het andere eind is de koepel van het Metrópolis-gebouw bekroond met een gevleugelde overwinning.
+prado:
+  name: Het Prado
+  blurb: 'Spanjes nationale kunstmuseum aan het Paseo del Prado, met de koninklijke verzameling: Velázquez, Goya en Bosch.'
+  text:
+  - Koning Karel III gaf Juan de Villanueva in 1785 opdracht voor het gebouw als thuis voor de natuurwetenschappen. In 1819 opende zijn kleinzoon Ferdinand VII het in plaats daarvan als museum voor de koninklijke verzameling.
+  - Het bezit Velázquez’ Las Meninas, Goya’s Zwarte Schilderijen, onder meer Saturnus verslindt zijn zoon, en Bosch’ Tuin der lusten. Het staat ten oosten van het deel van Madrid dat het spel in kaart brengt, maar je kunt toch vijf van zijn zalen binnenlopen.
+churros:
+  name: Chocolate con churros
+  blurb: Gefrituurde deegstaafjes gedoopt in dikke warme chocolade, op elk uur van de dag of nacht.
+  text:
+  - Churros zijn repen deeg die krokant worden gebakken; porras zijn hun dikkere neven. In Madrid doop je ze in een kop warme chocolade die zo dik is dat het bijna een pudding is.
+  - De Chocolatería San Ginés, in een steegje bij de Calle Mayor, serveert ze sinds 1894, tot laat in de nacht.
+bocadillo-de-calamares:
+  name: Bocadillo de calamares
+  blurb: Een broodje met gefrituurde inktvis, Madrids eigen snack, verkocht in de bars rond de Plaza Mayor.
+  text:
+  - Madrid ligt ver van de zee, maar houdt van zeevruchten. Zijn eigen snack is een knapperig broodje gevuld met ringen inktvis in beslag gefrituurd.
+  - De bars in de steegjes rond de Plaza Mayor verkopen ze voor een paar euro, met een klein biertje, een caña.

@@ -1,6 +1,6 @@
-# Madrid's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/madrid.json) and its landmarks' names and blurbs
-# (_data/landmarks/madrid.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# madrid's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/madrid.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/madrid.yml and its landmarks, with their pages, in landmarks/madrid.yml.
 title: 'Instant Madrid : visite virtuelle en 3D et jeu gratuits de Madrid'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre historique de Madrid dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans le vieux Madrid !
@@ -18,26 +18,4 @@ famous:
 - Le Palais royal, la Plaza Mayor et la Puerta del Sol
 - Le Real Madrid et l’Atlético de Madrid
 - Les dîners tardifs, les tapas, les churros au chocolat et le marché aux puces du Rastro le dimanche
-landmarks:
-  puerta-del-sol:
-    blurb: Le kilomètre zéro des routes espagnoles, où l’Espagne mange ses douze grains de raisin à minuit le soir du Nouvel An.
-  oso-y-madrono:
-    name: L’Ours et l’Arbousier
-    blurb: L’ours de bronze qui se dresse vers un arbousier, les armoiries de Madrid sur la Puerta del Sol.
-  plaza-mayor:
-    blurb: La place à arcades de 1619, où Madrid tenait ses marchés, ses corridas et les procès de l’Inquisition.
-  palacio-real:
-    name: Palais royal
-    blurb: Avec plus de 3 000 pièces, le plus grand palais royal d’Europe occidentale, toujours utilisé pour les cérémonies officielles.
-  almudena:
-    name: Cathédrale de l’Almudena
-    blurb: La cathédrale de Madrid, commencée en 1883 et consacrée seulement en 1993, face au Palais royal.
-  plaza-de-oriente:
-    blurb: Les jardins entre le Palais royal et l’opéra, avec une célèbre statue de Philippe IV sur un cheval cabré.
-  teatro-real:
-    blurb: L’opéra de Madrid, face au Palais royal de l’autre côté de la Plaza de Oriente.
-  mercado-de-san-miguel:
-    blurb: Une halle de fer et de verre de 1916, aujourd’hui une halle gourmande à côté de la Plaza Mayor.
-  plaza-de-la-villa:
-    blurb: Une petite place de trois bâtiments de trois siècles différents, l’ancien cœur du gouvernement de Madrid.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

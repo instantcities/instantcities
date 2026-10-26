@@ -1,6 +1,6 @@
-# Antwerp's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/antwerp.json) and its landmarks' names and blurbs
-# (_data/landmarks/antwerp.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# antwerp's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/antwerp.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/antwerp.yml and its landmarks, with their pages, in landmarks/antwerp.yml.
 title: 'Instant Antwerp: gratis virtuele 3D-rondleiding en game van Antwerpen'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Antwerpen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door het oude Antwerpen!
@@ -18,26 +18,4 @@ famous:
 - De Grote Markt, met het renaissancestadhuis en de Brabofontein
 - De haven, de tweede grootste van Europa, en de diamantwijk bij het Centraal Station
 - Modeontwerpers opgeleid aan de Koninklijke Academie voor Schone Kunsten, onder wie de Antwerpse Zes
-landmarks:
-  grote-markt:
-    blurb: Het plein van het stadhuis en de gildehuizen, met de Brabofontein in het midden.
-  brabofontein:
-    name: Brabofontein
-    blurb: 'De Romeinse soldaat Brabo die de hand van de reus weggooit: de legende achter de naam van de stad.'
-  stadhuis:
-    name: Stadhuis
-    blurb: Een renaissancestadhuis uit 1565, vol vlaggen en zuilen, op de Grote Markt.
-  kathedraal:
-    name: Onze-Lieve-Vrouwekathedraal
-    blurb: De grootste gotische kerk van de Nederlanden, met een toren van 123 meter en vier altaarstukken van Rubens.
-  het-steen:
-    blurb: Het oudste gebouw van Antwerpen, een middeleeuwse burcht aan de Schelde.
-  vleeshuis:
-    blurb: De gotische hal van het beenhouwersgilde, gestreept in baksteen en witte steen.
-  groenplaats:
-    blurb: Het plein aan de voet van de kathedraal, met een standbeeld van Rubens in het midden.
-  plantin-moretus:
-    blurb: Het huis en de werkplaats van een grote drukkerij, met de twee oudste drukpersen ter wereld.
-  meir:
-    blurb: De grote winkelstraat van Antwerpen, met paleizen en warenhuizen.
 credits: 'Kaartgegevens © OpenStreetMap-bijdragers (ODbL). Hoogtes: Digitaal Vlaanderen, DHMV II.'

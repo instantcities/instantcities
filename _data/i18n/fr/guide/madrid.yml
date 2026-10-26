@@ -1,0 +1,101 @@
+# madrid's guide in French (_data/about/madrid.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Espagne
+- Communauté de Madrid
+- Environ 3,4 millions d’habitants (ville), près de 7 millions (agglomération)
+- IXe siècle, comme forteresse maure de Mayrit
+- Le Manzanares
+- Espagnol
+- Villa y Corte (ville et cour)
+- Le Paseo del Prado et le parc du Buen Retiro, depuis 2021
+overview:
+- 'Madrid se trouve à environ 650 mètres d’altitude, presque au centre géographique de l’Espagne, et toutes les grandes routes du pays sont mesurées à partir d’une plaque de la Puerta del Sol. C’est une jeune capitale à l’échelle européenne : petite ville jusqu’à l’arrivée de la cour du roi au XVIe siècle, elle a grandi autour du palais en une ville de grandes avenues, de musées et de parcs.'
+- La vieille ville, la partie que vous parcourez dans Instant Madrid, est le Madrid de los Austrias, la ville des rois Habsbourg. De la Puerta del Sol, la Calle Mayor va vers l’ouest devant la Plaza Mayor et la Plaza de la Villa en direction du Palais royal et de la cathédrale sur la falaise au-dessus du fleuve. La Gran Vía traverse le nord du centre en route vers la Plaza de España, La Latina et ses tavernes se trouvent au sud, et le Barrio de las Letras, le quartier des écrivains, à l’est.
+setting:
+- Madrid se trouve au milieu de la péninsule Ibérique, sur le haut plateau de la Meseta, et est la capitale de la communauté autonome du même nom. La sierra de Guadarrama, souvent blanche de neige en hiver, s’élève à une cinquantaine de kilomètres au nord-ouest. Le Manzanares, petite rivière, coule le long du côté ouest de la vieille ville ; ses berges, où le périphérique passe désormais en tunnel, sont devenues en 2011 le long parc de Madrid Río.
+- Le climat est sec, avec des étés chauds et des hivers froids et ensoleillés. Les grands parcs, le Retiro à l’est et la Casa de Campo de l’autre côté du fleuve, donnent à la ville ses espaces verts.
+today:
+- Madrid est le siège du roi, du gouvernement et du parlement, dont la chambre basse, le Congreso de los Diputados, se dresse sur la Carrera de San Jerónimo. Beaucoup des plus grandes entreprises et banques d’Espagne y ont leur siège, et le long du Paseo del Prado les musées du Prado, de la Reina Sofía et Thyssen-Bornemisza sont à quelques pas les uns des autres.
+- Les Madrilènes mangent tard et passent leurs soirées dehors, sur les terrasses des places et dans les bars à tapas de La Latina et de Huertas. Le dimanche matin, le marché aux puces du Rastro remplit les rues au sud de La Latina, et à la mi-mai la ville fête son patron, San Isidro. Le Real Madrid joue au Santiago Bernabéu, l’Atlético de Madrid au Metropolitano.
+history:
+- title: Mayrit et la ville castillane
+  text:
+  - Au IXe siècle, Mohammed Ier, émir de Cordoue, construisit une forteresse sur la falaise au-dessus du Manzanares pour garder la route de Tolède contre les royaumes chrétiens du nord. Les Arabes appelèrent l’endroit Mayrit, d’après ses ruisseaux ; un tronçon de son mur se dresse encore sous la cathédrale, près de la Cuesta de la Vega.
+  - Alphonse VI de Castille prit Madrid en 1085, à peu près au moment où il prit Tolède. Pendant près de cinq siècles, elle resta une modeste ville castillane de paysans et d’artisans, où les rois séjournaient parfois et où le parlement, les Cortes, se réunissait parfois. Son saint patron, Isidore, était un ouvrier agricole qui travaillait les champs hors de la ville.
+- title: La cour des rois
+  text:
+  - En 1561, Philippe II transféra sa cour à Madrid, et à part quelques années à Valladolid au début du siècle suivant, elle y est restée depuis. La ville grandit vite. Au XVIIe siècle, l’âge d’or de l’Espagne, Cervantès, Lope de Vega et Quevedo écrivirent dans les rues à l’est de la Puerta del Sol, Vélasquez peignit pour le roi, et en 1619 la Plaza Mayor fut achevée.
+  - Quand l’ancien Alcázar brûla la veille de Noël 1734, le roi Bourbon Philippe V ordonna le palais de pierre qui se dresse aujourd’hui. Son fils Charles III, souvent appelé le meilleur maire de Madrid, fit paver et éclairer les rues, construisit la Puerta de Alcalá et prévit le bâtiment qui devint le Prado. Le 2 mai 1808, le peuple de Madrid se souleva contre les troupes de Napoléon, un jour que Goya peignit, et qui commença la guerre d’Espagne.
+- title: La capitale moderne
+  text:
+  - Au XIXe siècle, Madrid dépassa ses anciennes limites, et de nouveaux quartiers comme Salamanca s’élevèrent en damier au nord et à l’est. À partir de 1910, la ville perça la Gran Vía à travers la vieille ville, et en 1919 la première ligne de métro ouvrit. Pendant la guerre civile espagnole, Madrid tint pour la République à travers un siège de plus de deux ans, jusqu’à ce que les troupes de Franco y entrent en mars 1939.
+  - Après la mort de Franco en 1975, Madrid devint la capitale d’une démocratie et, dans les années 1980, la scène de la Movida, une explosion de musique, de cinéma et de vie nocturne. Le 11 mars 2004, des bombes dans des trains de banlieue tuèrent près de 200 personnes. Aujourd’hui, Madrid est le centre politique et financier de l’Espagne et l’une des plus grandes villes de l’Union européenne.
+timeline:
+- - IXe siècle
+  - L’émir Mohammed Ier construit la forteresse de Mayrit
+- - '1085'
+  - Alphonse VI de Castille prend Madrid
+- - '1561'
+  - Philippe II transfère la cour royale à Madrid
+- - '1619'
+  - La Plaza Mayor est achevée
+- - '1764'
+  - Le Palais royal est achevé après l’incendie de l’ancien Alcázar
+- - '1778'
+  - La Puerta de Alcalá est achevée
+- - '1808'
+  - Le peuple de Madrid se soulève contre les Français le 2 mai
+- - '1819'
+  - Le Prado ouvre comme musée
+- - '1910'
+  - Début des travaux de la Gran Vía
+- - '1919'
+  - Ouverture de la première ligne de métro
+- - '1939'
+  - Les troupes de Franco entrent à Madrid à la fin de la guerre civile
+- - '2021'
+  - Le Paseo del Prado et le Retiro entrent sur la liste du patrimoine mondial de l’UNESCO
+places:
+  puerta-del-sol:
+    name: Puerta del Sol
+    blurb: La place la plus fréquentée de Madrid, avec le kilomètre zéro des routes d’Espagne et l’horloge qui sonne le Nouvel An.
+  calle-preciados:
+    blurb: La rue commerçante piétonne de la Puerta del Sol à Callao, bordée de grands magasins.
+  plaza-de-callao:
+    blurb: La place de la Gran Vía aux cinémas et aux enseignes lumineuses, dont l’enseigne Schweppes sur l’immeuble Carrión.
+  gran-via:
+    blurb: La grande avenue percée à travers la vieille ville à partir de 1910, avec des banques, des théâtres, des hôtels et certains des premiers immeubles hauts d’Europe.
+  plaza-de-espana:
+    blurb: La grande place au bout de la Gran Vía, avec un monument à Cervantès et à son Don Quichotte et son Sancho Panza, rouverte en 2021 après une reconstruction qui en a donné davantage aux jardins et aux piétons.
+  calle-del-arenal:
+    blurb: La rue de la Puerta del Sol à l’opéra, nommée d’après le lit sablonneux d’un ruisseau qui la longeait autrefois.
+  plaza-de-oriente:
+    blurb: Les jardins entre le Palais royal et l’opéra, bordés de statues de rois d’Espagne.
+  calle-de-bailen:
+    blurb: La rue le long du Palais royal et de la cathédrale, nommée d’après une victoire espagnole sur l’armée de Napoléon en 1808, qui traverse la Calle de Segovia sur un viaduc.
+  calle-mayor:
+    blurb: L’ancienne grand-rue de Madrid, de la Puerta del Sol vers l’ouest en direction du palais, itinéraire des cortèges royaux.
+  plaza-de-la-villa:
+    blurb: Une petite place près de la Calle Mayor avec des bâtiments de trois siècles, où le conseil municipal siégea jusqu’en 2007.
+  plaza-mayor:
+    blurb: La place à arcades de 1619, autrefois la scène des marchés, des corridas et des procès de l’Inquisition.
+  calle-de-la-cava-baja:
+    blurb: La rue des tavernes et des bars à tapas de La Latina, qui suit le fossé hors des remparts médiévaux.
+  plaza-de-santa-ana:
+    blurb: La place de bars et de terrasses du Barrio de las Letras, devant le Teatro Español.
+  calle-de-las-huertas:
+    blurb: La rue principale du Barrio de las Letras, où vécurent Cervantès et Lope de Vega, avec des vers de leurs œuvres en lettres de bronze dans le pavé.
+  carrera-de-san-jeronimo:
+    blurb: La rue de la Puerta del Sol jusqu’au Paseo del Prado, devant le Congrès des députés et ses lions de bronze.
+links:
+- title: esMADRID
+  note: L’information touristique officielle de la ville
+- title: Ayuntamiento de Madrid
+  note: La municipalité (en espagnol)
+- title: Patrimonio Nacional
+  note: Billets et horaires du Palais royal
+- title: Paseo del Prado et Buen Retiro sur l’UNESCO
+  note: L’inscription au patrimoine mondial
+- title: Madrid sur Wikipédia
+  note: L’article de l’encyclopédie

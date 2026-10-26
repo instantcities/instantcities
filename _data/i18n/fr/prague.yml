@@ -1,6 +1,6 @@
-# Prague's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/prague.json) and its landmarks' names and blurbs
-# (_data/landmarks/prague.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# prague's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/prague.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/prague.yml and its landmarks, with their pages, in landmarks/prague.yml.
 title: 'Instant Prague : visite virtuelle en 3D et jeu gratuits de Prague'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Prague dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la vieille ville de Prague !
@@ -18,29 +18,4 @@ famous:
 - La place de la Vieille-Ville, l’église de Týn et l’horloge astronomique qui sonne les heures depuis 1410
 - La ville juive, ses synagogues et son vieux cimetière, et la ville de Franz Kafka
 - La bière tchèque, la pils servie avec une épaisse mousse, et les trams rouges sur les pavés
-landmarks:
-  staromestske-namesti:
-    name: Place de la Vieille-Ville
-    blurb: La grande place de la vieille ville, avec l’église de Týn, l’horloge astronomique et le monument à Jan Hus.
-  orloj:
-    name: Horloge astronomique
-    blurb: 'Construite en 1410 : à chaque heure, les douze apôtres défilent à ses petites fenêtres pendant que la Mort sonne sa cloche.'
-  tyn:
-    name: Église de Týn
-    blurb: L’église gothique aux deux tours pointues de 80 mètres, derrière les maisons de la place de la Vieille-Ville.
-  karluv-most:
-    name: Pont Charles
-    blurb: Le pont de pierre de 1357 sur la Vltava, bordé de trente statues de saints.
-  mostecka-vez:
-    name: Tour du pont de la Vieille-Ville
-    blurb: La tour-porte gothique au bout du pont Charles côté vieille ville, l’une des plus belles d’Europe.
-  klementinum:
-    blurb: L’immense collège jésuite à côté du pont, avec une salle de bibliothèque baroque et une tour astronomique.
-  josefov:
-    blurb: Le quartier juif de Prague, avec de vieilles synagogues et le vieux cimetière juif.
-  staronova-synagoga:
-    name: Synagogue Vieille-Nouvelle
-    blurb: Bâtie vers 1270, la plus ancienne synagogue d’Europe encore en activité.
-  rudolfinum:
-    blurb: La salle de concert néo-Renaissance au bord de la Vltava, siège de la Philharmonie tchèque.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

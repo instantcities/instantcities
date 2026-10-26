@@ -1,0 +1,99 @@
+# florence's guide in Dutch (_data/about/florence.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Toscane
+- Ongeveer 360.000 (stad), bijna 1 miljoen (metropolitane stad)
+- 59 v.Chr., als Romeinse kolonie Florentia, volgens de overlevering
+- De Arno
+- Italiaans
+- De wieg van de renaissance
+- Het historische centrum, sinds 1982
+overview:
+- Florence ligt in een brede vallei aan de Arno, omringd door heuvels met olijfgaarden, cipressen en villa’s. Het historische centrum is klein genoeg om in een half uur te voet over te steken, en toch bevat het de kathedraal met haar koepel, tientallen kerken, paleizen en musea, en enkele van de beroemdste beelden en schilderijen ter wereld. Het Florentijnse dialect werd de basis van de Italiaanse taal, vooral dankzij Dante.
+- Het centrum, het deel waar je in Instant Florence doorheen rijdt, ligt grotendeels op de noordoever van de rivier. De Via dei Calzaiuoli loopt recht van de kathedraal naar de Piazza della Signoria, met het Palazzo Vecchio en de Uffizi ernaast; Santa Maria Novella en het station liggen in het westen, Santa Croce in het oosten. Aan de overkant van de Ponte Vecchio ligt de Oltrarno, de wijk van ambachtswerkplaatsen, het Palazzo Pitti en de Boboli-tuinen.
+setting:
+- Florence ligt in Midden-Italië en is de hoofdstad van Toscane. De Arno komt van de Apennijnen, doorkruist de stad van oost naar west en stroomt verder langs Pisa naar de Tyrreense Zee, zo’n 80 kilometer verderop. Fiesole, een oudere Etruskische stad, kijkt vanaf zijn heuvel in het noorden neer op Florence, en het wijnland van de Chianti begint in het zuiden.
+- 'Omdat de stad in een kom ligt, zijn de zomers heet en benauwd, en de winters koel en vochtig. De Arno kan na zware regen snel stijgen: hij heeft de stad vele malen overstroomd, het ergst in 1966.'
+today:
+- 'Florence leeft van toerisme, van zijn universiteit en van ambacht en mode: Gucci werd hier in 1921 opgericht, Ferragamo heeft zijn hoofdkwartier in een paleis aan de Via de’ Tornabuoni, en twee keer per jaar brengt de beurs Pitti Uomo de herenmodehandel naar de stad. Lederwerkplaatsen en goudsmeden werken nog altijd in de Oltrarno en rond Santa Croce.'
+- De Florentijnen houden hun eigen tradities in stand. Op Paaszondag ontploft een wagen vol vuurwerk voor de kathedraal, de Scoppio del Carro, en in juni spelen de vier oude wijken de calcio storico, een ruw voetbalspel in kostuum, op de Piazza Santa Croce. ACF Fiorentina, in paars, speelt in het Stadio Artemio Franchi.
+history:
+- title: Romeinse kolonie en middeleeuwse stadsstaat
+  text:
+  - De Romeinen stichtten Florentia op de noordoever van de Arno, volgens de overlevering in 59 v.Chr., als stad voor gepensioneerde soldaten. Het raster van hun straten is nog te zien in het centrum, en de Piazza della Repubblica ligt op de plek van hun forum. Na de val van Rome kromp de stad, en ze groeide pas weer in de 11e en 12e eeuw, toen ze een zelfbesturende commune werd.
+  - Florence werd rijk van wol, laken en bankieren. De gilden regeerden de stad, en haar gouden munt, de florijn, voor het eerst geslagen in 1252, werd in heel Europa vertrouwd. Guelfen en Ghibellijnen, de partijen van de paus en de keizer, vochten om de macht, en in 1302 stuurden de winnaars de dichter Dante in ballingschap. De Zwarte Dood van 1348 doodde misschien de helft van de inwoners van de stad.
+- title: De Medici en de renaissance
+  text:
+  - 'In de 15e eeuw kwam de bankiersfamilie Medici de republiek vanachter de schermen te regeren, eerst Cosimo de Oudere en daarna zijn kleinzoon Lorenzo de Prachtige. Zij en andere rijke families betaalden gebouwen en kunstwerken die braken met de middeleeuwen: Brunelleschi bouwde de koepel van de kathedraal, Donatello en Masaccio bestudeerden de kunst van de Ouden, en Botticelli schilderde De geboorte van Venus.'
+  - Na Lorenzo’s dood keerde de monnik Savonarola de stad tegen de luxe, tot hij zelf in 1498 op de Piazza della Signoria werd verbrand. In 1504 werd Michelangelo’s David voor het Palazzo Vecchio neergezet. De Medici kwamen in de 16e eeuw definitief terug, en Cosimo I werd in 1569 groothertog van Toscane. Zijn architect Giorgio Vasari bouwde de Uffizi als kantoren voor de regering en de gang die ze over de Ponte Vecchio met het Palazzo Pitti verbindt.
+- title: Van groothertogdom tot Italië
+  text:
+  - 'De laatste Medici-groothertog stierf in 1737, en Toscane kwam aan het Huis Lotharingen. Zijn zus, Anna Maria Luisa, liet de kunstverzamelingen van de familie na aan Florence op voorwaarde dat ze de stad nooit zouden verlaten. In 1860 stemde Toscane voor aansluiting bij het nieuwe Koninkrijk Italië, en van 1865 tot 1871 was Florence de hoofdstad. De hoofdstad groeide snel: de stad brak haar middeleeuwse muren af en legde er brede lanen voor in de plaats, de viali.'
+  - In augustus 1944 blies het terugtrekkende Duitse leger alle bruggen over de Arno op behalve de Ponte Vecchio. Op 4 november 1966 overstroomde de rivier het centrum, waarbij tientallen mensen omkwamen en duizenden schilderijen en boeken beschadigd raakten; vrijwilligers uit de hele wereld, de modderengelen, kwamen ze redden. Nu is de stad een van de meest bezochte van Italië.
+timeline:
+- - 59 v.Chr.
+  - De Romeinen stichten Florentia, volgens de overlevering
+- - '1252'
+  - Florence slaat zijn eerste gouden florijn
+- - '1296'
+  - Begin van de bouw van de kathedraal, Santa Maria del Fiore
+- - '1302'
+  - Dante wordt uit Florence verbannen
+- - '1436'
+  - De kathedraal wordt ingewijd onder Brunelleschi’s koepel
+- - '1498'
+  - Savonarola wordt verbrand op de Piazza della Signoria
+- - '1504'
+  - Michelangelo’s David wordt voor het Palazzo Vecchio neergezet
+- - '1569'
+  - Cosimo I de’ Medici wordt groothertog van Toscane
+- - '1737'
+  - De Medici-lijn sterft uit
+- - '1865'
+  - Florence wordt de hoofdstad van Italië, tot 1871
+- - '1944'
+  - Duitse troepen blazen de bruggen over de Arno op, op de Ponte Vecchio na
+- - '1966'
+  - De Arno overstroomt de stad op 4 november
+places:
+  piazza-del-duomo:
+    blurb: Het plein rond de kathedraal, Giotto’s klokkentoren en het achthoekige Baptisterium met zijn vergulde bronzen deuren.
+  via-dei-calzaiuoli:
+    blurb: De belangrijkste voetgangersstraat van Florence, van de kathedraal naar de Piazza della Signoria langs de gildekerk Orsanmichele, genoemd naar de kousenmakers die hier ooit hun winkels hadden.
+  piazza-della-repubblica:
+    blurb: Het plein dat de stad vanaf de jaren 1880 vrijmaakte op de plek van het Romeinse forum, de oude markt en het joodse getto, met zijn triomfboog en oude cafés.
+  piazza-della-signoria:
+    blurb: Zeven eeuwen lang het politieke hart van Florence, voor het Palazzo Vecchio, met een kopie van Michelangelo’s David aan de deur.
+  piazzale-degli-uffizi:
+    blurb: De lange, smalle binnenplaats tussen de twee vleugels van de Uffizi, die Vasari vanaf 1560 bouwde als kantoren voor de Medici-regering. In de nissen staan beelden van beroemde Toscanen.
+  ponte-vecchio:
+    blurb: De brug uit 1345 met winkels erlangs, waar groothertog Ferdinando I in 1593 de slagers door goudsmeden verving.
+  arno:
+    name: De Arno
+    blurb: De rivier van Florence, tussen de stenen kades van de lungarni, overspannen door de Ponte Vecchio en een reeks andere bruggen.
+  ponte-santa-trinita:
+    blurb: Ammannati’s sierlijke brug uit 1569, in 1944 opgeblazen en in 1958 herbouwd met stenen die uit de rivier waren opgevist.
+  via-tornabuoni:
+    blurb: De statigste winkelstraat van Florence, omzoomd met modehuizen en renaissancepaleizen zoals het Palazzo Strozzi.
+  piazza-santa-maria-novella:
+    blurb: Het brede plein voor de dominicanenkerk met de zwart-witte marmeren gevel die Leon Battista Alberti voltooide.
+  piazza-santissima-annunziata:
+    blurb: Een rustig plein met arcaden, met aan een kant Brunelleschi’s loggia van het Ospedale degli Innocenti, het oude vondelingenhuis van de stad.
+  piazza-santa-croce:
+    blurb: Het plein voor de franciscanenkerk waar Michelangelo, Galilei en Machiavelli begraven liggen. In juni wordt het het speelveld voor de calcio storico.
+  piazza-pitti:
+    blurb: Het hellende plein onder het Palazzo Pitti, het paleis waar de Medici in de 16e eeuw introkken, met de Boboli-tuinen erachter.
+  piazza-santo-spirito:
+    blurb: Het dorpsplein van de Oltrarno, voor Brunelleschi’s kerk met haar kale, onvoltooide gevel, met ’s ochtends een markt en ’s avonds bars.
+links:
+- title: Feel Florence
+  note: De officiële toeristische informatie van Florence
+- title: Comune di Firenze
+  note: Het stadsbestuur (in het Italiaans)
+- title: Uffizi Galleries
+  note: Tickets en openingstijden van de Uffizi, het Palazzo Pitti en de Boboli-tuinen
+- title: Historisch centrum van Florence op UNESCO
+  note: De Werelderfgoedlijst
+- title: Florence op Wikipedia
+  note: Het encyclopedieartikel

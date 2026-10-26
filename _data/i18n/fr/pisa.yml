@@ -1,6 +1,6 @@
-# Pisa's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its landmarks' names and blurbs
-# (_data/landmarks/pisa.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# pisa's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/pisa.yml and its landmarks, with their pages, in landmarks/pisa.yml.
 title: 'Instant Pisa : visite virtuelle en 3D et jeu gratuits de Pise'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Pise dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Pise, de la tour penchée jusqu’à l’Arno !
@@ -19,27 +19,4 @@ famous:
 - Galilée, né ici, qui étudia et enseigna à l’université
 - Les Lungarni le long de la courbe de l’Arno, illuminés de 70 000 bougies pour la Luminara chaque mois de juin
 - La Scuola Normale et l’université de Pise, parmi les plus anciennes et les plus sélectives d’Italie
-landmarks:
-  torre:
-    name: Tour de Pise
-    blurb: Le clocher de la cathédrale, qui a commencé à pencher avant la fin de son troisième étage et penche depuis, de quatre degrés environ aujourd’hui.
-  duomo:
-    name: Duomo de Pise
-    blurb: La cathédrale de marbre de 1064, payée avec le butin d’un raid sur Palerme, premier grand édifice du roman pisan.
-  battistero:
-    name: Baptistère
-    blurb: Le plus grand baptistère d’Italie, rond et coiffé d’une coupole, où un gardien chante quelques notes toutes les demi-heures pour en faire entendre l’écho.
-  camposanto:
-    blurb: Le cloître de marbre d’un cimetière au nord de la place, qui reposerait sur de la terre rapportée du Golgotha.
-  santa-maria-della-spina:
-    blurb: Une minuscule église gothique au bord de l’Arno, toute en pinacles et en statues, qui gardait autrefois une épine de la couronne du Christ.
-  piazza-dei-cavalieri:
-    blurb: La place des chevaliers de Saint-Étienne, avec le palais peint de Vasari, aujourd’hui la Scuola Normale, et la tour où mourut de faim le comte Ugolin.
-  borgo-stretto:
-    blurb: La vieille rue commerçante de Pise sous les arcades, du Ponte di Mezzo vers le nord dans la ville médiévale.
-  lungarni:
-    name: Les Lungarni
-    blurb: Les rues le long des deux rives de l’Arno, bordées de palais ocre et roses, illuminées de milliers de bougies chaque 16 juin.
-  ponte-di-mezzo:
-    blurb: Le pont du milieu, où la ville traverse l’Arno depuis l’époque romaine, et où le nord et le sud de Pise s’affrontent chaque juin.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

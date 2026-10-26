@@ -1,6 +1,6 @@
-# Venice's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its landmarks' names and blurbs
-# (_data/landmarks/venice.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# venice's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/venice.yml and its landmarks, with their pages, in landmarks/venice.yml.
 title: 'Instant Venice: gratis virtuele 3D-rondleiding en game van Venetië'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Venetië in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door de calli van Venetië!
@@ -18,30 +18,4 @@ famous:
 - Het Canal Grande, de gondels en de Rialtobrug
 - Het carnaval, met zijn maskers en kostuums
 - Glas uit Murano, kant uit Burano en ’s avonds een spritz met cicchetti
-landmarks:
-  piazza-san-marco:
-    name: San Marcoplein
-    blurb: Het enige plein in Venetië dat piazza heet, omringd door arcaden en open naar de lagune.
-  basilica-di-san-marco:
-    name: San Marcobasiliek
-    blurb: Gebouwd voor de relieken van Sint-Marcus, vanbinnen bedekt met gouden mozaïeken.
-  palazzo-ducale:
-    name: Dogepaleis
-    blurb: Het roze-witte gotische paleis van waaruit de doges de Republiek Venetië bestuurden.
-  campanile:
-    name: Campanile van San Marco
-    blurb: De klokkentoren van San Marco, die in 1902 instortte en werd herbouwd “waar hij stond, zoals hij was”.
-  ponte-dei-sospiri:
-    name: Zuchtenbrug
-    blurb: De overdekte stenen brug tussen het Dogepaleis en de gevangenissen, gebouwd in 1600.
-  ponte-di-rialto:
-    name: Rialtobrug
-    blurb: De stenen brug uit 1591 over het Canal Grande, met winkeltjes langs haar boog.
-  canal-grande:
-    name: Canal Grande
-    blurb: De grote S-vormige waterweg midden door Venetië, omzoomd met paleizen.
-  mercerie:
-    blurb: De reeks smalle winkelstraatjes van San Marco naar de Rialto, de route van de race in het spel.
-  la-fenice:
-    blurb: Het operahuis van Venetië, dat meer dan eens uit zijn as herrees, zoals zijn naam belooft.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

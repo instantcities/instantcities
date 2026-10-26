@@ -1,0 +1,68 @@
+# antwerp's landmarks in Dutch (_data/landmarks/antwerp.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+grote-markt:
+  blurb: Het plein van het stadhuis en de gildehuizen, met de Brabofontein in het midden.
+  text:
+  - De Grote Markt is het hart van het oude Antwerpen, waar de gilden in de 16e eeuw hun hoge huizen met trap- en vergulde gevels bouwden. Aan de westkant staat het renaissancestadhuis.
+  - In het midden gooit Brabo de hand van de reus Antigoon in de rivier, op een fontein van Jef Lambeaux uit 1887.
+brabofontein:
+  name: Brabofontein
+  blurb: 'De Romeinse soldaat Brabo die de hand van de reus weggooit: de legende achter de naam van de stad.'
+  text:
+  - De legende zegt dat de reus Antigoon elk schip op de Schelde tol liet betalen en de hand afhakte van wie weigerde. De Romeinse soldaat Silvius Brabo doodde hem, hakte zijn hand af en gooide die in de rivier.
+  - Hand werpen, de hand gooien, werd Antwerpen, zegt het verhaal. De bronzen fontein van Jef Lambeaux uit 1887 toont Brabo op het moment dat hij werpt.
+stadhuis:
+  name: Stadhuis
+  blurb: Een renaissancestadhuis uit 1565, vol vlaggen en zuilen, op de Grote Markt.
+  text:
+  - 'Cornelis Floris de Vriendt bouwde het stadhuis tussen 1561 en 1565, toen Antwerpen de rijkste stad van Noord-Europa was. Het mengt Vlaamse en Italiaanse ideeën: een lange gevel met zuilen en een hoog versierd middendeel.'
+  - Het is werelderfgoed; de vlaggen langs de voorgevel zijn die van de landen van de Europese Unie.
+kathedraal:
+  name: Onze-Lieve-Vrouwekathedraal
+  blurb: De grootste gotische kerk van de Nederlanden, met een toren van 123 meter en vier altaarstukken van Rubens.
+  text:
+  - 'De kathedraal werd gebouwd van 1352 tot 1521, en haar noordertoren rijst 123 meter op: de hoogste kerktoren van België. De zuidertoren werd nooit voltooid.'
+  - Binnen hangen vier grote werken van Rubens, onder meer de Kruisoprichting en de Kruisafneming. In Nello en Patrasche sterft Nello met zijn hond voor deze werken met Kerstmis.
+het-steen:
+  blurb: Het oudste gebouw van Antwerpen, een middeleeuwse burcht aan de Schelde.
+  text:
+  - Het Steen is wat overblijft van het kasteel dat de stad vanaf de 13e eeuw aan de Schelde bewaakte. Onder Karel V herbouwd, diende het later als gevangenis.
+  - Aan de poort staat de reus Lange Wapper, uit de volksverhalen van de stad, die boven twee kleine figuurtjes uittorent. Nu is het het bezoekerscentrum van de stad.
+vleeshuis:
+  blurb: De gotische hal van het beenhouwersgilde, gestreept in baksteen en witte steen.
+  text:
+  - Het beenhouwersgilde bouwde het Vleeshuis rond 1503, een hoge hal met torens en trapgevels, zijn muren gestreept als spek in rode baksteen en witte steen.
+  - Nu is het een muziekmuseum, met oude klavecimbels en instrumenten die in Antwerpen werden gemaakt.
+groenplaats:
+  blurb: Het plein aan de voet van de kathedraal, met een standbeeld van Rubens in het midden.
+  text:
+  - De Groenplaats was ooit het kerkhof van de kathedraal; het werd een plein aan het eind van de 18e eeuw. Rubens staat in brons in het midden, op een standbeeld uit 1840.
+  - Vanaf hier zie je de toren van de kathedraal boven de huizen uitrijzen. In de winter is er een kerstmarkt.
+plantin-moretus:
+  blurb: Het huis en de werkplaats van een grote drukkerij, met de twee oudste drukpersen ter wereld.
+  text:
+  - Christoffel Plantijn vestigde zijn drukkerij in 1555 in Antwerpen en maakte er de grootste van Europa van. Zijn erfgenamen, de familie Moretus, dreven haar drie eeuwen lang in het huis aan de Vrijdagmarkt.
+  - Nu is het een museum en werelderfgoed, met de twee oudste bewaard gebleven drukpersen ter wereld, zijn lettergieterij en zijn bibliotheek.
+meir:
+  blurb: De grote winkelstraat van Antwerpen, met paleizen en warenhuizen.
+  text:
+  - De Meir loopt van de oude stad naar het station, omzoomd met grote huizen, onder meer het 18e-eeuwse Paleis op de Meir, waar Napoleon verbleef. Nu is het de drukste winkelstraat van België.
+  - Het Rubenshuis staat vlak ernaast.
+rubenshuis:
+  name: Rubenshuis
+  blurb: Het huis en atelier waar Peter Paul Rubens vanaf 1610 woonde en schilderde.
+  text:
+  - Rubens kocht het huis in 1610 en maakte er een palazzo in Italiaanse stijl van, met een atelier waar zijn assistenten hielpen schilderijen te maken. Een barokke portiek leidt naar de tuin.
+  - Nu is het een museum met werken van Rubens en zijn kring.
+diamant:
+  name: Diamant
+  blurb: Antwerpen handelt en slijpt diamanten sinds de 15e eeuw; de meeste ruwe diamanten ter wereld gaan er nog altijd doorheen.
+  text:
+  - De Antwerpse diamanthandel gaat terug tot de 15e eeuw. Nu behandelt de diamantwijk bij het Centraal Station, een paar straten met kantoren en werkplaatsen, de meeste ruwe diamanten ter wereld.
+  - De slijpvorm die een diamant zijn fonkeling geeft, met veel facetten, dankt veel aan de Antwerpse slijpers.
+handjes:
+  name: Antwerpse handjes
+  blurb: Koekjes en chocolaatjes in de vorm van een hand, naar de legende van Brabo.
+  text:
+  - Antwerpse handjes zijn boterkoekjes met amandelen, en ook chocolaatjes, in de vorm van de hand die Brabo in de Schelde gooide. Ze gaan terug op een bakwedstrijd van 1934, gewonnen door de Antwerpse bakker Jos Hakker.
+  - Elke bakkerij en chocoladewinkel in het centrum verkoopt ze.

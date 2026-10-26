@@ -1,6 +1,6 @@
-# Paris's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its landmarks' names and blurbs
-# (_data/landmarks/paris.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# paris's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/paris.yml and its landmarks, with their pages, in landmarks/paris.yml.
 title: 'Instant Paris: gratis virtuele 3D-rondleiding en game van Parijs'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Parijs in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard langs de Seine!
@@ -18,26 +18,4 @@ famous:
 - De Seine met haar stenen bruggen en de groene kisten van de boekenverkopers langs de kades
 - De boulevards van Haussmann, met gebouwen van lichte steen en grijze zinken daken
 - Cafés met hun terrassen op de stoep, bakkerijen, croissants en het stokbrood
-landmarks:
-  notre-dame:
-    blurb: De gotische kathedraal op het Île de la Cité, begonnen in 1163 en sinds de brand van 2019 weer open.
-  sainte-chapelle:
-    blurb: De koninklijke kapel van Lodewijk IX uit 1248, met muren die bijna helemaal uit glas-in-lood bestaan.
-  louvre:
-    blurb: Een koninklijk paleis dat het meest bezochte museum ter wereld werd, met de glazen piramide op de binnenplaats.
-  pont-neuf:
-    blurb: De “nieuwe brug”, die in feite de oudste nog bestaande brug over de Seine in Parijs is.
-  hotel-de-ville:
-    blurb: Het stadhuis van Parijs, op deze plek sinds 1357 en herbouwd nadat de Commune het in 1871 in brand stak.
-  conciergerie:
-    blurb: Een middeleeuws koninklijk paleis op het eiland, later de gevangenis waar Marie-Antoinette op de guillotine wachtte.
-  tour-saint-jacques:
-    blurb: Een eenzame gotische klokkentoren, het enige wat overblijft van een kerk op de pelgrimsroute naar Santiago.
-  centre-pompidou:
-    blurb: Het museum voor moderne kunst met zijn buizen, leidingen en roltrappen aan de buitenkant, geopend in 1977.
-  tour-eiffel:
-    name: Eiffeltoren
-    blurb: De ijzeren toren van Gustave Eiffel op het Champ de Mars, gebouwd voor de Wereldtentoonstelling van 1889 en sindsdien het symbool van Parijs.
-  bouquinistes:
-    blurb: De groene kisten van de tweedehandsboekenverkopers langs de kades van de Seine.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

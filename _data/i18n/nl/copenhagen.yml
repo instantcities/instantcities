@@ -1,6 +1,6 @@
-# Copenhagen's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its landmarks' names and blurbs
-# (_data/landmarks/copenhagen.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# copenhagen's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/copenhagen.yml and its landmarks, with their pages, in landmarks/copenhagen.yml.
 title: 'Instant Copenhagen: gratis virtuele 3D-rondleiding en game van Kopenhagen'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Kopenhagen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Kopenhagen, de fietsstad!
@@ -18,25 +18,4 @@ famous:
 - Tivoli, een van de oudste pretparken ter wereld
 - De Kleine Zeemeermin, Hans Christian Andersen en de koninklijke wacht bij Amalienborg
 - Overal fietsen, smørrebrød en de nieuwe Noordse keuken
-landmarks:
-  nyhavn:
-    blurb: De 17e-eeuwse haven met gekleurde huizen, houten schepen en caféterrassen.
-  kongens-nytorv:
-    blurb: Het Nieuwe Plein van de Koning, met het Koninklijk Deens Theater en een bronzen koning te paard.
-  christiansborg:
-    blurb: Het paleis op Slotsholmen met het parlement, het kantoor van de premier en het hooggerechtshof.
-  borsen:
-    blurb: De beurs van Christiaan IV uit 1640, met een spits van vier drakenstaarten, in 2024 uitgebrand.
-  rundetaarn:
-    name: Ronde Toren
-    blurb: De sterrenwacht van Christiaan IV uit 1642, die je beklimt via een spiraalvormige helling in plaats van trappen.
-  stroget:
-    blurb: Een van de langste autovrije winkelstraten van Europa, van het Raadhuisplein naar Kongens Nytorv.
-  radhuspladsen:
-    name: Raadhuisplein
-    blurb: Het plein voor het rode bakstenen stadhuis van Kopenhagen, met zijn toren van 105 meter.
-  tivoli:
-    blurb: Een van de oudste pretparken ter wereld, in 1843 geopend midden in de stad.
-  amalienborg:
-    blurb: Vier identieke rococopaleizen rond een achthoekig plein, het huis van de Deense koninklijke familie.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

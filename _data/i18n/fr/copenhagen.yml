@@ -1,6 +1,6 @@
-# Copenhagen's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its landmarks' names and blurbs
-# (_data/landmarks/copenhagen.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# copenhagen's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/copenhagen.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/copenhagen.yml and its landmarks, with their pages, in landmarks/copenhagen.yml.
 title: 'Instant Copenhagen : visite virtuelle en 3D et jeu gratuits de Copenhague'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Copenhague dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans Copenhague, la ville du vélo !
@@ -18,25 +18,4 @@ famous:
 - Les jardins de Tivoli, l’un des plus anciens parcs d’attractions du monde
 - La Petite Sirène, Hans Christian Andersen et la garde royale d’Amalienborg
 - Les vélos partout, le smørrebrød et la nouvelle cuisine nordique
-landmarks:
-  nyhavn:
-    blurb: Le port du XVIIe siècle aux maisons colorées, aux bateaux de bois et aux terrasses de café.
-  kongens-nytorv:
-    blurb: La nouvelle place du Roi, avec le Théâtre royal danois et un roi de bronze à cheval.
-  christiansborg:
-    blurb: Le palais de Slotsholmen qui abrite le Parlement, le bureau du Premier ministre et la Cour suprême.
-  borsen:
-    blurb: La Bourse de Christian IV, de 1640, avec une flèche de quatre queues de dragons, incendiée en 2024.
-  rundetaarn:
-    name: Tour ronde
-    blurb: L’observatoire de Christian IV, de 1642, où l’on monte par une rampe en spirale au lieu d’un escalier.
-  stroget:
-    blurb: L’une des plus longues rues commerçantes piétonnes d’Europe, de la place de l’Hôtel-de-Ville à Kongens Nytorv.
-  radhuspladsen:
-    name: Place de l’Hôtel-de-Ville
-    blurb: La place devant l’hôtel de ville de brique rouge de Copenhague, avec sa tour de 105 mètres.
-  tivoli:
-    blurb: L’un des plus anciens parcs d’attractions du monde, ouvert en 1843 au milieu de la ville.
-  amalienborg:
-    blurb: Quatre palais rococo identiques autour d’une place octogonale, résidence de la famille royale danoise.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

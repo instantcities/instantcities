@@ -1,6 +1,6 @@
-# Avignon's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/avignon.json) and its landmarks' names and blurbs
-# (_data/landmarks/avignon.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# avignon's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/avignon.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/avignon.yml and its landmarks, with their pages, in landmarks/avignon.yml.
 title: 'Instant Avignon: gratis virtuele 3D-rondleiding en game van Avignon'
 description: 'Maak gratis een virtuele 3D-rondleiding door het historische centrum van Avignon in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door de stad van de pausen!
@@ -18,26 +18,4 @@ famous:
 - De gebroken brug uit het kinderliedje Sur le pont d’Avignon
 - Het Festival d’Avignon, een van de oudste en grootste theaterfestivals ter wereld
 - De mistral, de koude noordenwind die door het Rhônedal waait
-landmarks:
-  palais-des-papes:
-    name: Pausenpaleis
-    blurb: Het grootste gotische paleis ter wereld, gebouwd toen de pausen in Avignon woonden, van 1309 tot 1377.
-  pont-saint-benezet:
-    blurb: De brug uit het liedje “Sur le pont d’Avignon”, waarvan nog maar vier bogen over zijn.
-  place-de-l-horloge:
-    blurb: Het stadsplein, genoemd naar de gotische klokkentoren achter het stadhuis, met een draaimolen en caféterrassen.
-  rocher-des-doms:
-    blurb: De rotsheuvel boven het paleis, een tuin met uitzicht over de Rhône en de brug.
-  notre-dame-des-doms:
-    blurb: De romaanse kathedraal naast het paleis, met bovenop een verguld Mariabeeld.
-  hotel-de-ville:
-    name: Stadhuis
-    blurb: Het stadhuis uit 1856 aan de Place de l’Horloge, gebouwd rond een oudere gotische toren.
-  les-halles:
-    blurb: De overdekte markt achter een levende muur van planten, met Provençaals eten onder één dak.
-  remparts:
-    name: Stadsmuren
-    blurb: De stenen muur van 4,3 kilometer die de pausen bouwden en die nog altijd de hele oude stad omringt.
-  rue-de-la-republique:
-    blurb: De brede straat van de stationspoort naar de Place de l’Horloge, in de 19e eeuw dwars door de oude stad getrokken.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

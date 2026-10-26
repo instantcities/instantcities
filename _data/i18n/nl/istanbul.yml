@@ -1,6 +1,6 @@
-# Istanbul's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/istanbul.json) and its landmarks' names and blurbs
-# (_data/landmarks/istanbul.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# istanbul's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/istanbul.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/istanbul.yml and its landmarks, with their pages, in landmarks/istanbul.yml.
 title: 'Instant Istanbul: gratis virtuele 3D-rondleiding en game van Istanbul'
 description: 'Maak gratis een virtuele 3D-rondleiding door het oude schiereiland van Istanbul in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard tussen de moskeeën en bazaars van Istanbul!
@@ -20,32 +20,4 @@ famous:
 - De Grote Bazaar en de Kruidenbazaar
 - De veerboten over de Bosporus, tussen Europa en Azië
 - Simit, Turkse thee en Turks fruit
-landmarks:
-  ayasofya:
-    name: Hagia Sophia
-    blurb: 'De grote kerk van Justinianus uit 537, met haar koepel op 55 meter hoogte: een kerk, dan een moskee, een museum en weer een moskee.'
-  sultanahmet-camii:
-    name: Blauwe Moskee
-    blurb: De moskee van sultan Ahmed I, met zes minaretten en zo’n twintigduizend blauwe tegels uit İznik vanbinnen.
-  hipodrom:
-    name: Hippodroom
-    blurb: Het lange plein waar Byzantium zijn wagenrennen hield, met een Egyptische obelisk en een bronzen slangenzuil die er nog staan.
-  yerebatan:
-    name: Basilicacisterne
-    blurb: Het ondergrondse waterreservoir van Justinianus, een woud van 336 zuilen in het water.
-  topkapi:
-    name: Topkapıpaleis
-    blurb: Bijna vierhonderd jaar het paleis van de Ottomaanse sultans, op de punt van het schiereiland boven de Bosporus.
-  kapalicarsi:
-    name: Grote Bazaar
-    blurb: Een van de oudste en grootste overdekte markten ter wereld, zo’n zestig straten en vierduizend winkels onder één dak.
-  misir-carsisi:
-    name: Kruidenbazaar
-    blurb: De L-vormige overdekte markt bij de Nieuwe Moskee, vol kruiden, gedroogd fruit, thee en Turks fruit.
-  yeni-cami:
-    name: Nieuwe Moskee
-    blurb: De grote moskee aan het water in Eminönü, begonnen in 1597 en 68 jaar later voltooid.
-  galata-koprusu:
-    name: Galatabrug
-    blurb: De brug over de Gouden Hoorn van Eminönü naar Karaköy, met bovenop vissers en onderaan visrestaurants.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

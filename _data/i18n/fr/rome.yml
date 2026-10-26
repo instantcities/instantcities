@@ -1,6 +1,6 @@
-# Rome's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/rome.json) and its landmarks' names and blurbs
-# (_data/landmarks/rome.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# rome's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rome.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/rome.yml and its landmarks, with their pages, in landmarks/rome.yml.
 title: 'Instant Rome : visite virtuelle en 3D et jeu gratuits de Rome'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Rome dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans la Rome antique !
@@ -18,28 +18,4 @@ famous:
 - Le Vatican, le plus petit pays du monde, avec Saint-Pierre et la chapelle Sixtine
 - Les places et fontaines baroques du Bernin et de Borromini, comme la Piazza Navona et la fontaine de Trevi
 - Les pâtes carbonara, le cacio e pepe et les petites fontaines vertes, les nasoni
-landmarks:
-  colosseo:
-    name: Colisée
-    blurb: Le grand amphithéâtre de la Rome antique, inauguré en 80 apr. J.-C. pour des combats de gladiateurs devant quelque 50 000 personnes.
-  pantheon:
-    name: Panthéon
-    blurb: Un temple de tous les dieux rebâti sous Hadrien, avec la plus grande coupole en béton non armé au monde.
-  fontana-di-trevi:
-    name: Fontaine de Trevi
-    blurb: 'La plus grandiose fontaine de Rome : une pièce lancée par-dessus l’épaule promet que vous reviendrez.'
-  piazza-navona:
-    blurb: Une longue place baroque sur le tracé du stade de Domitien, avec la fontaine des Quatre-Fleuves du Bernin.
-  foro-romano:
-    name: Forum romain
-    blurb: 'Le cœur de la Rome antique : temples, basiliques et Curie du Sénat, dans un vallon entre les collines.'
-  vittoriano:
-    blurb: L’immense monument de marbre blanc à Victor-Emmanuel II sur la Piazza Venezia, surnommé la machine à écrire.
-  campo-de-fiori:
-    blurb: Une place animée avec un marché le matin et, au milieu, la statue encapuchonnée de Giordano Bruno.
-  colonna-di-marco-aurelio:
-    name: Colonne de Marc Aurèle
-    blurb: Une colonne de marbre sculptée des guerres de l’empereur sur le Danube, debout sur la Piazza Colonna depuis le IIe siècle.
-  largo-di-torre-argentina:
-    blurb: Quatre temples de la République en contrebas de la rue, à côté de l’endroit où Jules César fut assassiné.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

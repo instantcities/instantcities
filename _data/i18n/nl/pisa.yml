@@ -1,6 +1,6 @@
-# Pisa's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its landmarks' names and blurbs
-# (_data/landmarks/pisa.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# pisa's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pisa.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/pisa.yml and its landmarks, with their pages, in landmarks/pisa.yml.
 title: 'Instant Pisa: gratis virtuele 3D-rondleiding en game van Pisa'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Pisa in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Pisa, van de Scheve Toren tot aan de Arno!
@@ -19,27 +19,4 @@ famous:
 - Galileo Galilei, die hier geboren werd en aan de universiteit studeerde en lesgaf
 - De Lungarni langs de bocht van de Arno, elke juni verlicht met 70.000 kaarsjes tijdens de Luminara
 - De Scuola Normale en de Universiteit van Pisa, een van de oudste en strengste van Italië
-landmarks:
-  torre:
-    name: Scheve Toren van Pisa
-    blurb: De klokkentoren van de kathedraal, die begon te hellen voor zijn derde verdieping af was en sindsdien helt, nu zo’n vier graden.
-  duomo:
-    name: Duomo di Pisa
-    blurb: De marmeren kathedraal uit 1064, betaald met de buit van een strooptocht op Palermo, het eerste grote gebouw van de Pisaanse romaanse stijl.
-  battistero:
-    name: Baptisterium
-    blurb: Het grootste baptisterium van Italië, rond en met een koepel, waar een bewaker elk half uur een paar noten zingt om je de echo te laten horen.
-  camposanto:
-    blurb: De marmeren kloostergang van een begraafplaats aan de noordkant van het plein, naar men zegt gebouwd op aarde uit Golgotha.
-  santa-maria-della-spina:
-    blurb: Een piepklein gotisch kerkje aan de oever van de Arno, vol pinakels en beelden, dat ooit een doorn uit de kroon van Christus bewaarde.
-  piazza-dei-cavalieri:
-    blurb: Het plein van de Ridders van Sint-Stefanus, met het beschilderde paleis van Vasari, nu de Scuola Normale, en de toren waar graaf Ugolino verhongerde.
-  borgo-stretto:
-    blurb: De oude winkelstraat van Pisa onder de arcaden, van de Ponte di Mezzo noordwaarts de middeleeuwse stad in.
-  lungarni:
-    name: De Lungarni
-    blurb: De straten langs beide oevers van de Arno, met palazzi in oker en roze, elk jaar op 16 juni verlicht met duizenden kaarsjes.
-  ponte-di-mezzo:
-    blurb: De middelste brug, waar de stad al sinds de Romeinen de Arno oversteekt, en waar het noorden en het zuiden van Pisa elke juni tegen elkaar strijden.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -1,6 +1,6 @@
-# Siena's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/siena.json) and its landmarks' names and blurbs
-# (_data/landmarks/siena.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# siena's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/siena.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/siena.yml and its landmarks, with their pages, in landmarks/siena.yml.
 title: 'Instant Siena: gratis virtuele 3D-rondleiding en game van Siena'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Siena in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Siena, rond de Piazza del Campo!
@@ -20,24 +20,4 @@ famous:
 - De gestreepte kathedraal met haar vloer van marmeren taferelen
 - De Monte dei Paschi, de oudste bank ter wereld die nog bestaat
 - Panforte en ricciarelli
-landmarks:
-  il-campo:
-    blurb: Het schelpvormige plein in het hart van Siena, geplaveid met rode baksteen en aflopend naar het stadhuis, waar de Palio wordt gereden.
-  palazzo-pubblico:
-    blurb: Het gotische stadhuis van baksteen en steen onderaan de Campo, met de beroemdste fresco’s over goed en slecht bestuur.
-  torre-del-mangia:
-    blurb: De slanke bakstenen toren van het stadhuis, 88 meter hoog, met de stenen kroon van zijn klokkenkamer boven de Campo.
-  fonte-gaia:
-    blurb: De marmeren fontein bovenaan de Campo, waar het water van de ondergrondse aquaducten van Siena voor het eerst het plein bereikte.
-  duomo:
-    name: Duomo di Siena
-    blurb: De kathedraal op de hoogste heuvel van de stad, gestreept in wit en donkergroen marmer, met een vloer van ingelegde marmeren taferelen.
-  facciatone:
-    blurb: De kale voorgevel van de reusachtige nieuwe kathedraal die Siena in 1339 begon en na de Zwarte Dood opgaf.
-  santa-maria-della-scala:
-    blurb: Een van de oudste ziekenhuizen van Europa, tegenover de kathedraal, dat bijna duizend jaar voor pelgrims en vondelingen zorgde.
-  loggia-della-mercanzia:
-    blurb: De 15e-eeuwse loggia van de koopmansrechtbank, op het kruispunt waar de drie hoofdstraten van Siena boven de Campo samenkomen.
-  piazza-salimbeni:
-    blurb: Het pleintje van de paleizen van de Monte dei Paschi, de oudste bank ter wereld die nog bestaat.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

@@ -76,7 +76,7 @@ play_now: "Play now"
 city_todo: "What there is to do"
 this_is: "This is %c"
 about_city: "About the city"
-in_english: "" # after a link to a page that is only in English (a city's guide, its landmarks)
+in_english: ""
 city_landmarks: "Places, elements and landmarks"
 all_places: "All %n places and landmarks"
 city_art: "Famous art in %c"
@@ -93,6 +93,65 @@ in_country:
   United Kingdom: in the United Kingdom
   Netherlands: in the Netherlands
   United States: in the United States
+
+# A city's guide, its places and landmarks, and a landmark's page (_layouts/about.html, places.html, landmark.html)
+# and the map of its centre (_includes/city-map.html). %c is the city's name, %d "of <the city>" (French has "de Gand" and "d'Avignon"), %g its game's,
+# %k its country, %n and %p numbers, %l a landmark's name.
+paths: { guide: about-the-city, places: places-and-landmarks, landmark: landmark } # the folders of those pages: /<lang>/<city>/<folder>/
+guide_title: "About %c, %k: its history, map and places · Instant Cities"
+ride_through: "Ride through %c"
+places_and_landmarks: "Places and landmarks"
+at_a_glance: "At a glance"
+guide_city: "The city"
+guide_landmarks: "Landmarks"
+guide_map: "The centre on a map"
+guide_history: "History"
+guide_today: "%c today"
+guide_read_on: "Read on"
+guide_glance: "%c at a glance"
+guide_known: "Known for"
+guide_where: "Where it lies"
+guide_places_h: "Places and landmarks"
+guide_map_lead: "The streets, squares and waterways every visitor to %c ends up in. Point at one to find it on the map."
+guide_map_all: "All places and landmarks in %c ›"
+guide_dates: "Dates"
+guide_see: "See %c for yourself"
+guide_back: "Back to %g"
+guide_footer: "Map data © OpenStreetMap contributors (ODbL); country outlines: Natural Earth."
+places_title: "Places and landmarks in %c: streets, squares and sights · Instant Cities"
+places_description: "%n landmarks and %p streets, squares and waterways of %c, each with its story and a map, and in 3D in %g."
+places_h1: "Places and landmarks in %c"
+places_tagline: "%n landmarks of %c, and the streets, squares and waterways around them, each with its story and where to find it."
+places_landmarks: "Landmarks"
+places_also: "Also part of %c"
+places_streets: "Streets, squares and waterways"
+places_lead: "The places that hold the centre of %c together. Point at one to find it on the map."
+instant_name: "Instant %c"
+about_name: "About %c" # a link to a city's guide
+places_more: "Read more about %c"
+places_footer: "Map data © OpenStreetMap contributors (ODbL)."
+landmark_title: "%l in %c · Instant Cities"
+see_in_3d: "See it in 3D"
+play_city_plain: "Play %c"
+famous_art: "Famous art"
+visit_in_3d: "Visit it in 3D ›"
+ride_in_3d: "Ride through %c in 3D ›"
+lm_history: "History"
+lm_visit: "Going to see it"
+open_osm: "Open in OpenStreetMap"
+open_3d: "Open in 3D"
+ride_in_3d_plain: "Ride through %c in 3D"
+lm_dates: "Dates"
+lm_art_here: "Famous art here"
+lm_art_all: "All famous art in 3D ›"
+lm_more_in: "More in %c"
+lm_osm_title: "%l on OpenStreetMap"
+lm_alt: "%l in Instant %c"
+map_label: "Map of the centre of %c with its key places numbered"
+map_caption: "The centre of %c, drawn from the same OpenStreetMap data as the game."
+map_osm: "The whole city on OpenStreetMap"
+fact_labels: {}
+kinds: {}
 
 # English needs no cities: or countries: here; the other languages give each city's name, country
 # and card line, and the slug of its page where it is not its id (cities: { <id>: { name, slug, card } },

@@ -1,0 +1,106 @@
+# delft's guide in French (_data/about/delft.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Pays-Bas
+- Hollande-Méridionale
+- Environ 105 000 habitants (commune)
+- Entre La Haye (10 km) et Rotterdam (15 km)
+- Environ au niveau de la mer, aussi plat que les polders qui l’entourent
+- Néerlandais
+- Le bleu de Delft, Vermeer, la maison d’Orange
+- TU Delft, fondée en 1842
+overview:
+- La vieille ville de Delft est un ovale de canaux, d’environ un kilomètre et demi du nord au sud. L’Oude Delft, le canal qui a donné son nom à la ville, la traverse en droite ligne, avec l’Oude Kerk sur sa rive, et à l’est s’étend le Markt, avec le Stadhuis à un bout et la Nieuwe Kerk à l’autre. Tout autour, un quadrillage de canaux plus petits, le Voldersgracht, le Koornmarkt et le Wijnhaven, porte les bateaux devant des maisons à pignons à redans et à pignons à cou.
+- 'Instant Delft vous emmène au cœur de la ville : à travers le Markt, le long du Voldersgracht devant le Vermeer Centrum, jusqu’à l’Oude Kerk, puis le long de l’Oude Delft devant le Prinsenhof et retour par le Koornmarkt. Comme la vraie ville, le jeu est plat.'
+setting:
+- Delft se trouve dans les polders plats de la Hollande-Méridionale, entre La Haye au nord-ouest et Rotterdam au sud-est, à une dizaine de kilomètres de la mer du Nord. Le canal de la Schie la relie à Rotterdam et à la Meuse, et la ligne de chemin de fer entre La Haye et Rotterdam passe dans un tunnel sous l’ouest de la vieille ville.
+- 'Le climat est doux et humide, modelé par la mer : étés frais, hivers doux et pluie en toute saison, avec le vent qui souffle de l’ouest.'
+today:
+- Delft est une ville animée d’environ 105 000 habitants, dont un quart d’étudiants. La TU Delft attire des ingénieurs du monde entier, et les start-ups et laboratoires de recherche de la ville essaiment autour de son campus.
+- Le jeudi, le marché remplit le Markt, et le samedi il y a un marché aux fleurs et aux antiquités le long des canaux. Les visiteurs viennent pour la Nieuwe Kerk, le Prinsenhof, le Vermeer Centrum et Royal Delft, et en été les canaux se remplissent de petits bateaux et les cafés mettent leurs terrasses sur les quais.
+history:
+- title: Une ville sur un canal creusé
+  text:
+  - Delft est née au XIIe siècle le long d’un canal creusé dans la tourbe, le delf, et en 1246 elle reçut ses droits de ville de Guillaume II, comte de Hollande. Ses brasseurs et ses drapiers l’ont enrichie, et l’Oude Kerk et la Nieuwe Kerk se sont élevées au-dessus de ses toits.
+  - Un grand incendie en 1536 a brûlé la plus grande partie de la ville, et une bonne part de ce qui se voit aujourd’hui a été rebâti après lui.
+- title: Guillaume d’Orange
+  text:
+  - En 1572, Guillaume d’Orange, le chef de la révolte contre l’Espagne, fit de Delft sa résidence et s’installa dans le couvent Sainte-Agathe, le Prinsenhof. Le 10 juillet 1584, Balthasar Gérard l’y abattit dans l’escalier.
+  - Il fut enterré dans la Nieuwe Kerk, et depuis lors la maison d’Orange y enterre ses morts, dans le caveau royal sous le chœur.
+- title: Le Siècle d’or
+  text:
+  - 'Au XVIIe siècle, Delft était l’une des six villes de la Compagnie néerlandaise des Indes orientales, et ses potiers se mirent à copier la porcelaine chinoise en faïence bleue et blanche : le bleu de Delft. Des peintres comme Johannes Vermeer, Pieter de Hooch et Carel Fabritius y ont travaillé, et le juriste Hugo de Groot y est né en 1583.'
+  - Le 12 octobre 1654, la poudrière de la ville explosa, rasant le nord-est de Delft et tuant Fabritius parmi bien d’autres.
+- title: Ingénieurs et étudiants
+  text:
+  - En 1842, le roi Guillaume II fonda à Delft une académie royale pour former des ingénieurs, devenue l’actuelle TU Delft. L’université s’est étendue sur un campus au sud-est de la vieille ville, et les étudiants forment aujourd’hui une grande part de la population.
+  - Le vieux centre a gardé ses canaux et ses pignons, et en 2015 le chemin de fer, qui traversait la ville sur un viaduc, est passé sous terre dans un tunnel.
+timeline:
+- - XIIe siècle
+  - Delft naît le long d’un canal creusé, le delf
+- - '1246'
+  - Delft reçoit ses droits de ville
+- - '1396'
+  - Début des travaux de la Nieuwe Kerk
+- - '1536'
+  - Un grand incendie brûle la plus grande partie de la ville
+- - '1572'
+  - Guillaume d’Orange s’installe au Prinsenhof
+- - '1583'
+  - Naissance de Hugo de Groot à Delft
+- - '1584'
+  - Guillaume d’Orange est assassiné au Prinsenhof
+- - '1618'
+  - Un incendie détruit l’ancien hôtel de ville ; Hendrick de Keyser construit le nouveau
+- - '1632'
+  - Naissance de Johannes Vermeer à Delft
+- - '1653'
+  - Fondation de De Porceleyne Fles
+- - '1654'
+  - 'Explosion de la poudrière : le Delftse Donderslag'
+- - '1675'
+  - Vermeer meurt et est enterré dans l’Oude Kerk
+- - '1842'
+  - Fondation de l’académie royale des ingénieurs, plus tard la TU Delft
+- - '2015'
+  - Le chemin de fer passe dans un tunnel sous la ville
+places:
+  markt:
+    blurb: La longue place du marché entre l’hôtel de ville et la Nieuwe Kerk.
+  nieuwe-kerk:
+    blurb: L’église gothique du Markt, avec les tombeaux de la maison d’Orange.
+  stadhuis:
+    blurb: L’hôtel de ville de Hendrick de Keyser autour d’une tour médiévale.
+  waag:
+    blurb: Le poids public derrière l’hôtel de ville.
+  vermeer-centrum:
+    blurb: Le centre consacré à Vermeer sur le Voldersgracht, là où se trouvait la guilde des peintres.
+  voldersgracht:
+    blurb: Le canal étroit derrière le côté nord du Markt.
+  oude-kerk:
+    blurb: La plus ancienne église, avec sa tour penchée et la tombe de Vermeer.
+  oude-delft:
+    blurb: Le plus vieux canal, qui a donné son nom à la ville.
+  prinsenhof:
+    blurb: Le couvent où vécut Guillaume d’Orange et où il fut abattu.
+  gemeenlandshuis:
+    blurb: La maison gothique de 1505 sur l’Oude Delft, avec ses armoiries peintes.
+  wijnhaven:
+    blurb: Le canal derrière le Waag, par où arrivait le vin.
+  koornmarkt:
+    blurb: Le canal du marché aux grains, bordé de terrasses.
+  beestenmarkt:
+    blurb: La place de l’ancien marché aux bestiaux, aujourd’hui pleine de cafés sous les arbres.
+  oostpoort:
+    blurb: La dernière porte de la ville, avec ses deux fines tours.
+  paardenmarkt:
+    blurb: La place dégagée où se trouvait la poudrière jusqu’en 1654.
+links:
+- title: Delft.com
+  note: Le site touristique de la ville
+- title: Museum Prinsenhof Delft
+  note: Le musée dans l’ancien couvent
+- title: Vermeer Centrum Delft
+  note: Tout sur Vermeer, sur le Voldersgracht
+- title: Delft sur Wikipédia
+  note: L’article de l’encyclopédie

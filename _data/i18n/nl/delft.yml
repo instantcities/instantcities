@@ -1,6 +1,6 @@
-# Delft's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/delft.json) and its landmarks' names and blurbs
-# (_data/landmarks/delft.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# delft's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/delft.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/delft.yml and its landmarks, with their pages, in landmarks/delft.yml.
 title: 'Instant Delft: gratis virtuele 3D-rondleiding en game van Delft'
 description: 'Maak gratis een virtuele 3D-rondleiding door de oude stad van Delft in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard langs de grachten van Delft!
@@ -20,23 +20,4 @@ famous:
 - Het Prinsenhof, waar Willem van Oranje in 1584 werd doodgeschoten
 - De scheve toren van de Oude Kerk
 - De TU Delft, de grootste technische universiteit van Nederland
-landmarks:
-  markt:
-    blurb: Het lange marktplein tussen het stadhuis en de Nieuwe Kerk, een van de grootste van Nederland.
-  nieuwe-kerk:
-    blurb: De grote gotische kerk aan de Markt, met een toren van 108 meter, waar de prinsen van Oranje begraven liggen.
-  stadhuis:
-    blurb: Het renaissancestadhuis van Delft aan de westkant van de Markt, gebouwd rond een middeleeuwse stenen toren.
-  oude-kerk:
-    blurb: De oudste kerk van Delft, aan de Oude Delft, met een toren die zo’n twee meter over de gracht helt.
-  prinsenhof:
-    blurb: Het oude klooster waar Willem van Oranje woonde en waar hij in 1584 werd doodgeschoten. De kogelgaten zitten nog in de muur.
-  oude-delft:
-    blurb: De oudste gracht van de stad, die Delft haar naam gaf, met koopmanshuizen en het Gemeenlandshuis.
-  koornmarkt:
-    blurb: De gracht waar het graan verhandeld werd, nu met cafés, woonboten en terrassen aan het water.
-  oostpoort:
-    blurb: De laatste stadspoort van Delft, met twee slanke torens die in het water weerspiegelen.
-  waag:
-    blurb: Het waaggebouw bij de Markt, waar goederen gewogen werden voor de belastingen van de stad.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

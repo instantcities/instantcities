@@ -1,6 +1,6 @@
-# Paris's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its landmarks' names and blurbs
-# (_data/landmarks/paris.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# paris's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/paris.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/paris.yml and its landmarks, with their pages, in landmarks/paris.yml.
 title: 'Instant Paris : visite virtuelle en 3D et jeu gratuits de Paris'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Paris dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval le long de la Seine !
@@ -18,26 +18,4 @@ famous:
 - La Seine, ses ponts de pierre et les boîtes vertes des bouquinistes le long des quais
 - Les boulevards d’Haussmann, bordés d’immeubles en pierre claire aux toits de zinc gris
 - Les cafés et leurs terrasses sur le trottoir, les boulangeries, les croissants et la baguette
-landmarks:
-  notre-dame:
-    blurb: La cathédrale gothique de l’île de la Cité, commencée en 1163 et rouverte depuis l’incendie de 2019.
-  sainte-chapelle:
-    blurb: La chapelle royale de Louis IX, de 1248, dont les murs sont presque entièrement en vitraux.
-  louvre:
-    blurb: Un palais royal devenu le musée le plus visité au monde, avec la pyramide de verre dans sa cour.
-  pont-neuf:
-    blurb: Le « pont neuf », qui est en fait le plus vieux pont encore debout sur la Seine à Paris.
-  hotel-de-ville:
-    blurb: La mairie de Paris, à cet endroit depuis 1357 et rebâtie après l’incendie de la Commune en 1871.
-  conciergerie:
-    blurb: Un palais royal médiéval sur l’île, devenu la prison où Marie-Antoinette attendit la guillotine.
-  tour-saint-jacques:
-    blurb: Un clocher gothique isolé, seul reste d’une église sur le chemin des pèlerins vers Saint-Jacques-de-Compostelle.
-  centre-pompidou:
-    blurb: Le musée d’art moderne aux tuyaux, gaines et escalators à l’extérieur, ouvert en 1977.
-  tour-eiffel:
-    name: Tour Eiffel
-    blurb: La tour de fer de Gustave Eiffel sur le Champ-de-Mars, construite pour l’Exposition universelle de 1889 et symbole de Paris depuis.
-  bouquinistes:
-    blurb: Les boîtes vertes des bouquinistes le long des quais de la Seine.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

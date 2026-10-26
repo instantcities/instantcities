@@ -1,0 +1,101 @@
+# paris's guide in Dutch (_data/about/paris.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Frankrijk
+- Île-de-France
+- Ongeveer 2,1 miljoen inwoners (stad), meer dan 12 miljoen (stedelijk gebied)
+- Als de Romeinse stad Lutetia, in de 1e eeuw v.Chr.
+- De Seine
+- Frans
+- De Lichtstad (la Ville Lumière)
+- De oevers van de Seine, sinds 1991
+overview:
+- 'Parijs ligt aan de Seine in het noorden van Frankrijk, in een breed, laag bekken dat de Fransen het Bassin parisien noemen. Binnen de ringweg, de Boulevard Périphérique, is de stad klein, ongeveer 105 vierkante kilometer, en dicht bebouwd: bijna elke straat wordt omzoomd door appartementsgebouwen van zes of zeven verdiepingen, met winkels en cafés op de begane grond.'
+- Instant Paris brengt je door het oudste deel van de stad. Het Île de la Cité, het eiland waar Parijs begon, draagt Notre-Dame aan de oostkant, de Sainte-Chapelle en het Palais de Justice in het midden en de Pont Neuf aan de westpunt. Op de rechteroever loopt de Rue de Rivoli langs het Louvre en het Hôtel de Ville, en het Centre Pompidou verrijst een paar straten verder naar het noorden; op de linkeroever beginnen de steegjes van het Quartier Latin achter de Place Saint-Michel.
+setting:
+- Parijs is de hoofdstad van de regio Île-de-France, waar bijna een vijfde van de Fransen woont. De Seine komt uit het zuidoosten, splitst zich in het centrum rond twee eilanden, het Île de la Cité en het Île Saint-Louis, en verlaat de stad naar het zuidwesten op weg naar het Kanaal bij Le Havre. Parijzenaars spreken van de rechteroever ten noorden van de rivier en de linkeroever ten zuiden ervan.
+- De stad is verdeeld in twintig districten, de arrondissementen, genummerd in een spiraal die bij het Louvre begint en met de wijzers van de klok mee naar buiten draait. Montmartre in het noorden is de hoogste heuvel. Parijs heeft een zacht zeeklimaat, met koele winters, warme zomers en regen verspreid over het hele jaar.
+today:
+- 'Parijs is de zetel van de Franse president, de regering en het parlement, en van internationale organen zoals UNESCO en de OESO. De regio brengt bijna een derde van de Franse welvaart voort, van de bankwereld in de torens van La Défense, net buiten de stad, tot mode, luxegoederen en toerisme. Het is een van de meest bezochte steden ter wereld, en toch blijft het centrum bewoond: Parijzenaars doen boodschappen op de straatmarkten, staan in de rij bij de bakker en vullen in elk seizoen de caféterrassen.'
+- 'De stad maakt steeds meer ruimte voor voetgangers en fietsers: de wegen langs de rivier door het centrum zijn afgesloten voor auto’s, en de Rue de Rivoli is vooral van de fietsers. Sinds de zomer van 2025 kunnen Parijzenaars op een paar plaatsen weer in de Seine zwemmen. Paris Saint-Germain, de voetbalclub van de stad, speelt in het Parc des Princes.'
+history:
+- title: Lutetia en de eerste koningen
+  text:
+  - Een Keltische stam, de Parisii, woonde op de eilanden en oevers van de Seine toen de legioenen van Julius Caesar de streek in 52 v.Chr. veroverden. De Romeinen bouwden de stad Lutetia op de linkeroever, met een forum, baden en een arena die nog steeds bestaat, de Arènes de Lutèce. In de 4e eeuw had de stad de naam van haar stam aangenomen, Parijs, en rond 508 maakte Clovis, koning van de Franken, haar tot zijn hoofdstad.
+  - In 987 werd Hugo Capet koning, en zijn nakomelingen maakten Parijs voorgoed de hoofdstad van Frankrijk. Filips II August liet de stad rond 1200 ommuren en bouwde een vesting op de rechteroever, het eerste Louvre. Bisschop Maurice de Sully begon in 1163 aan Notre-Dame, en Lodewijk IX liet de Sainte-Chapelle bouwen om de Doornenkroon te bewaren. Op de linkeroever vormden leraren en studenten een van de eerste universiteiten van Europa.
+- title: Koningen en revoluties
+  text:
+  - Hendrik IV voltooide in 1607 de Pont Neuf, de eerste brug van Parijs zonder huizen erop, en legde erachter de Place Dauphine aan. Lodewijk XIV breidde het Louvre uit maar verhuisde zijn hof in 1682 naar Versailles, en de koningen woonden de eerstvolgende honderd jaar buiten Parijs.
+  - Op 14 juli 1789 bestormde een menigte de Bastille, een koninklijke gevangenis, en begon de Franse Revolutie. De revolutionairen lieten Lodewijk XVI in 1793 executeren op wat nu de Place de la Concorde is. Napoleon kroonde zichzelf in 1804 tot keizer in Notre-Dame en begon aan de arcades van de Rue de Rivoli. In de decennia daarna kwamen de Parijzenaars in 1830 en 1848 opnieuw in opstand tegen hun heersers.
+- title: De moderne hoofdstad
+  text:
+  - Vanaf 1853 braken Napoleon III en zijn prefect, baron Haussmann, een groot deel van de overvolle middeleeuwse stad af. Hun arbeiders legden lange, rechte boulevards aan, zoals de Boulevard de Sébastopol, bouwden riolen, parken en stations en omzoomden de nieuwe straten met de stenen gebouwen die Parijs nog steeds zijn aanzien geven. Op het Île de la Cité ruimden ze de meeste oude huizen rond Notre-Dame op. Tijdens de Commune van Parijs in 1871 verwoestten branden het Hôtel de Ville en het Tuilerieënpaleis.
+  - Gustave Eiffel bouwde zijn toren voor de Wereldtentoonstelling van 1889, en in 1900 ging de eerste metrolijn open. Duitse troepen bezetten Parijs van 1940 tot de bevrijding in augustus 1944. In 2019 verwoestte een brand het dak en de spits van Notre-Dame; ambachtslieden bouwden ze weer op, en de kathedraal ging in december 2024 weer open, het jaar waarin Parijs voor de derde keer de Olympische Spelen organiseerde.
+timeline:
+- - 52 v.Chr.
+  - De Romeinen onderwerpen de Parisii; Lutetia groeit op de linkeroever
+- - ca. 508
+  - Clovis maakt Parijs de hoofdstad van de Franken
+- - '1163'
+  - Begin van de bouw van Notre-Dame
+- - '1248'
+  - De Sainte-Chapelle wordt ingewijd
+- - '1607'
+  - Hendrik IV opent de Pont Neuf
+- - '1682'
+  - Lodewijk XIV verhuist het hof naar Versailles
+- - '1789'
+  - Een menigte bestormt op 14 juli de Bastille
+- - '1853'
+  - Baron Haussmann begint de stad te herbouwen
+- - '1889'
+  - De Eiffeltoren gaat open voor de Wereldtentoonstelling
+- - '1900'
+  - De eerste metrolijn gaat open
+- - '1944'
+  - Parijs wordt in augustus bevrijd
+- - '1977'
+  - Het Centre Pompidou gaat open
+- - '2024'
+  - Notre-Dame gaat weer open, vijf jaar na de brand
+places:
+  seine:
+    name: De Seine
+    blurb: De rivier van Parijs, tussen stenen kades waar de boekverkopers, de bouquinistes, hun groene kisten hebben. De oevers door het centrum zijn werelderfgoed.
+  ile-de-la-cite:
+    blurb: Het eiland in de Seine waar Parijs begon, met Notre-Dame, de Sainte-Chapelle en het gerechtsgebouw.
+  pont-neuf:
+    blurb: Ondanks de naam is de ‘nieuwe brug’ de oudste brug van Parijs, voltooid in 1607 over de westpunt van het eiland.
+  place-dauphine:
+    blurb: Een rustige driehoek van huizen en kastanjebomen achter de Pont Neuf, aangelegd door Hendrik IV in 1607.
+  parvis-notre-dame:
+    blurb: Het open plein voor de kathedraal, waar een bronzen ster in de bestrating het punt markeert van waaruit Franse wegen hun afstand tot Parijs meten.
+  boulevard-du-palais:
+    blurb: De straat over het eiland langs het Palais de Justice, op wiens binnenplaats de Sainte-Chapelle verscholen ligt.
+  place-du-chatelet:
+    blurb: Een plein aan het eind van de Pont au Change, met een fontein en twee theaters tegenover elkaar, en de gotische Tour Saint-Jacques een paar stappen verderop.
+  place-de-l-hotel-de-ville:
+    blurb: Het plein voor het stadhuis, tot 1803 de Place de Grève genoemd en eeuwenlang de executieplaats van de stad.
+  rue-de-rivoli:
+    blurb: De lange, rechte straat van de rechteroever, begonnen onder Napoleon, met arcades langs het Louvre en de Tuilerieëntuin.
+  pont-des-arts:
+    blurb: De metalen voetgangersbrug van het Louvre naar het Institut de France, met uitzicht langs de rivier tot de punt van het eiland.
+  boulevard-de-sebastopol:
+    blurb: Een van Haussmanns eerste boulevards, in de jaren 1850 kaarsrecht naar het noorden aangelegd vanaf het Châtelet.
+  place-georges-pompidou:
+    blurb: Het hellende plein voor het Centre Pompidou, met zijn buizen en roltrappen aan de buitenkant.
+  place-saint-michel:
+    blurb: Het plein aan de voet van de Boulevard Saint-Michel, met een fontein van de aartsengel die de duivel bevecht, waar het Quartier Latin begint.
+  rue-de-la-huchette:
+    blurb: Een smal middeleeuws steegje in het Quartier Latin, vol Griekse restaurants, met een klein theater dat sinds 1957 Ionesco’s De kale zangeres speelt.
+links:
+- title: Paris je t’aime
+  note: Het officiële toeristenbureau van Parijs
+- title: Ville de Paris
+  note: Het stadsbestuur (in het Frans)
+- title: Parijs, oevers van de Seine op UNESCO
+  note: De werelderfgoedstatus
+- title: Musée du Louvre
+  note: Tickets en openingstijden van het Louvre
+- title: Parijs op Wikipedia
+  note: Het encyclopedie-artikel

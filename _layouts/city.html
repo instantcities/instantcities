@@ -6,10 +6,7 @@
   whatever that leaves out stays English. The game itself is at /<id>/play/ (with ?lang= in French
   and Dutch). A city marked `soon` has no game yet: its page says so and points to the ones there are.
 {%- endcomment -%}
-{%- assign C = site.data.cities | where: 'id', page.city | first -%}
 {%- include lang.html -%}
-{%- assign CT = site.data.i18n[L][C.id] -%}
-{%- assign CN = T.cities[C.id].name | default: C.name -%}
 {%- assign playable = site.data.cities | where_exp: 'c', 'c.soon != true' -%}
 <!doctype html>
 <html lang="{{ L }}">
@@ -101,7 +98,7 @@
         <ul class="known">
           {%- assign lms = site.data.landmarks[C.id] %}{% assign famous = CT.famous | default: G.famous %}
           {%- for f in famous %}
-          <li>{% include link-landmarks.html text=f city=C.id landmarks=lms names=CT.landmarks %}</li>
+          <li>{% include link-landmarks.html text=f city=C.id landmarks=lms %}</li>
           {%- endfor %}
         </ul>
         <p class="hero-btns left"><a class="ghost" href="/{{ C.id }}/about-the-city/"{% if L != 'en' %} hreflang="en"{% endif %}>{% include icon.html name="compass" %} {{ T.about_city }}{{ T.in_english }}</a></p>
@@ -116,7 +113,7 @@
       <h2>{{ T.city_landmarks }}</h2>
       <div class="grid">
         {%- for l in landmarks %}{% if G and forloop.index > 9 %}{% break %}{% endif %}
-        {% assign ltr = CT.landmarks[l.id] %}{% include landmark-card.html landmark=l city=C.id tr=ltr %}
+        {% include landmark-card.html landmark=l city=C.id %}
         {%- endfor %}
       </div>
       {%- if G %}

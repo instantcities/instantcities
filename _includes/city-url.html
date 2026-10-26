@@ -1,4 +1,4 @@
-{%- comment -%} A city's page in a language: {% include city-url.html city=c.id %} (in the page's language, L of _includes/lang.html) or lang=fr: /fr/gand/, the slug its name in _data/lang/<lang>.yml (cities: <id>: slug), else its id. {%- endcomment -%}
+{%- comment -%} A city's page in a language: {% include city-url.html city=c.id %} (in the page's language, L of _includes/lang.html) or lang=fr: /fr/gand/, the slug its name in _data/lang/<lang>.yml (cities: <id>: slug), else its id. page='guide', 'places' or 'landmark' (with landmark=<id>) gives its guide, its places and landmarks, or one landmark: /fr/gand/a-propos-de-la-ville/ (the folders: paths in _data/lang/<lang>.yml). {%- endcomment -%}
 {%- assign cu_l = include.lang | default: L -%}
 {%- assign cu_slug = site.data.lang[cu_l].cities[include.city].slug | default: include.city -%}
-/{{ cu_l }}/{{ cu_slug }}/
+/{{ cu_l }}/{{ cu_slug }}/{% case include.page %}{% when 'guide' %}{{ site.data.lang[cu_l].paths.guide }}/{% when 'places' %}{{ site.data.lang[cu_l].paths.places }}/{% when 'landmark' %}{{ site.data.lang[cu_l].paths.landmark }}/{{ include.landmark }}/{% endcase %}

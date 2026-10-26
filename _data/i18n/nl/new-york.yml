@@ -1,6 +1,6 @@
-# New York's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its landmarks' names and blurbs
-# (_data/landmarks/new-york.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# new-york's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/new-york.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/new-york.yml and its landmarks, with their pages, in landmarks/new-york.yml.
 title: 'Instant New York: gratis virtuele 3D-rondleiding en game van New York'
 description: 'Maak gratis een virtuele 3D-rondleiding door Midtown Manhattan in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard tussen de wolkenkrabbers van Manhattan!
@@ -20,24 +20,4 @@ famous:
 - Central Park
 - Gele taxi’s en de metro die de hele nacht rijdt
 - Wall Street, en pizza per punt
-landmarks:
-  empire-state:
-    blurb: De art-decotoren op Fifth Avenue en 34th Street, van 1931 tot 1970 het hoogste gebouw ter wereld.
-  times-square:
-    blurb: Het kruispunt van Broadway en Seventh Avenue, onder wanden van lichtschermen, in het hart van het theaterdistrict.
-  chrysler:
-    blurb: De art-decotoren op 42nd Street en Lexington Avenue, met een kroon van stalen bogen en een naald erop.
-  grand-central:
-    blurb: Het grote treinstation op 42nd Street, met zijn hal onder een sterrenhemel en zijn klok van opaal.
-  public-library:
-    name: New York Public Library
-    blurb: De marmeren bibliotheek op Fifth Avenue, bewaakt door de twee stenen leeuwen Patience en Fortitude.
-  rockefeller-center:
-    blurb: De art-decotorens tussen Fifth en Sixth Avenue, met de gouden Prometheus, de schaatsbaan en de kerstboom.
-  bryant-park:
-    blurb: Het groene gazon achter de bibliotheek, met zijn platanen, zijn groene stoelen en in de winter zijn schaatsbaan.
-  st-patricks:
-    blurb: De gotische kathedraal van wit marmer op Fifth Avenue, tegenover Rockefeller Center.
-  macys:
-    blurb: Een van de grootste warenhuizen ter wereld, op 34th Street, waar de Thanksgiving Day Parade eindigt.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

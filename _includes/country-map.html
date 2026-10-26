@@ -19,7 +19,7 @@
     <path class="country" d="{{ K.country }}"/>
     {%- assign right = K.width | times: 0.62 %}
     {%- for o in site.data.cities %}{% if o.country == cc.country and o.id != cc.id %}{% assign at = K.cities[o.id] %}{% if at %}
-    <a href="/{{ o.id }}/about-the-city/" class="other{% if at[0] > right %} left{% endif %}">
+    <a href="{% include city-url.html city=o.id page='guide' %}" class="other{% if at[0] > right %} left{% endif %}">
       {%- if o.name == capital %}{% assign capital_drawn = true %}<rect x="{{ at[0] | minus: 4 }}" y="{{ at[1] | minus: 4 }}" width="8" height="8"/>{% else %}<circle cx="{{ at[0] }}" cy="{{ at[1] }}" r="3.5"/>{% endif -%}
       <text x="{% if at[0] > right %}{{ at[0] | minus: 8 }}{% else %}{{ at[0] | plus: 8 }}{% endif %}" y="{{ at[1] | plus: 4 }}">{{ T.cities[o.id].name | default: o.name }}</text></a>
     {%- endif %}{% endif %}{% endfor %}

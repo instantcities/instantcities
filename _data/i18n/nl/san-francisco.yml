@@ -1,6 +1,6 @@
-# San Francisco's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its landmarks' names and blurbs
-# (_data/landmarks/san-francisco.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# san-francisco's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/san-francisco.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/san-francisco.yml and its landmarks, with their pages, in landmarks/san-francisco.yml.
 title: 'Instant San Francisco: gratis virtuele 3D-rondleiding en game van San Francisco'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van San Francisco in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door San Francisco, van Chinatown tot aan de baai!
@@ -20,23 +20,4 @@ famous:
 - Alcatraz, het gevangeniseiland in de baai
 - De aardbeving en de brand van 1906
 - De dichters van de Beat Generation in North Beach
-landmarks:
-  transamerica-pyramid:
-    blurb: De witte piramide van het Financial District, 260 meter hoog, sinds 1972 het herkenningsteken van de skyline.
-  ferry-building:
-    blurb: De veerterminal onderaan Market Street, met zijn klokkentoren naar de Giralda van Sevilla, nu een overdekte foodmarkt.
-  coit-tower:
-    blurb: De slanke betonnen toren boven op Telegraph Hill, gebouwd in 1933 met het geld van Lillie Hitchcock Coit.
-  dragon-gate:
-    blurb: De poort naar Chinatown op Grant Avenue bij Bush Street, met groene pannendaken, draken en twee stenen leeuwen.
-  chinatown:
-    blurb: De oudste Chinatown van Noord-Amerika, langs Grant Avenue en Stockton Street, met lampionnen boven de straat.
-  union-square:
-    blurb: Het plein van de grote winkels en hotels, genoemd naar de bijeenkomsten voor de Unie voor de Burgeroorlog.
-  cable-cars:
-    blurb: De laatste cable cars ter wereld die nog door stadsstraten rijden, de heuvels op getrokken door een kabel onder de weg.
-  washington-square:
-    blurb: Het groene hart van North Beach, de Italiaanse wijk, voor de witte kerk van Sint-Petrus-en-Paulus.
-  city-lights:
-    blurb: De boekwinkel van de Beatdichters op Columbus Avenue, die in 1956 Howl van Allen Ginsberg uitgaf.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

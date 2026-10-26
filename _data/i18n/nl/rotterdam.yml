@@ -1,6 +1,6 @@
-# Rotterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/rotterdam.json) and its landmarks' names and blurbs
-# (_data/landmarks/rotterdam.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# rotterdam's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/rotterdam.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/rotterdam.yml and its landmarks, with their pages, in landmarks/rotterdam.yml.
 title: 'Instant Rotterdam: gratis virtuele 3D-rondleiding en game van Rotterdam'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Rotterdam in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Rotterdam, tussen de torens aan de Maas!
@@ -19,27 +19,4 @@ famous:
 - De kubuswoningen van Piet Blom en de boog van woningen van de Markthal
 - De grootste haven van Europa, tot aan de Noordzee
 - Erasmus, geboren in Rotterdam, en Feyenoord
-landmarks:
-  stadhuis:
-    name: Stadhuis
-    blurb: Het stadhuis van Rotterdam uit 1920 aan de Coolsingel, een van de weinige gebouwen in het centrum die het bombardement van 1940 overleefden.
-  erasmusbrug:
-    name: Erasmusbrug
-    blurb: De witte tuibrug over de Maas, bijgenaamd de Zwaan, die het teken van het nieuwe Rotterdam werd.
-  witte-huis:
-    name: Witte Huis
-    blurb: Het witte kantoorgebouw uit 1898 bij de Oude Haven, een van de eerste hoogbouwgebouwen van Europa.
-  oude-haven:
-    blurb: De oudste haven van Rotterdam, vol oude zeilschepen, met terrassen langs de kades.
-  kubuswoningen:
-    name: Kubuswoningen
-    blurb: De gele huizen van Piet Blom, gekanteld op hun punt, een bos van kubussen op een voetgangersbrug over de Blaak.
-  markthal:
-    blurb: Een hoefijzervormige boog van woningen over een overdekte markt, met het grootste kunstwerk van Nederland op het plafond.
-  laurenskerk:
-    blurb: De grote laatgotische kerk van de stad, in 1940 uitgebrand en herbouwd, het laatste middeleeuwse gebouw van het centrum.
-  schielandshuis:
-    blurb: Een 17e-eeuws classicistisch paleis tussen de torens, dat het bombardement van 1940 overleefde.
-  maritiem-museum:
-    blurb: Het maritiem museum aan de Leuvehaven, met oude kranen, een lichtschip en werkschepen die ervoor aangemeerd liggen.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

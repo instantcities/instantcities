@@ -1,0 +1,74 @@
+# madrid's landmarks in French (_data/landmarks/madrid.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+puerta-del-sol:
+  blurb: Le kilomètre zéro des routes espagnoles, où l’Espagne mange ses douze grains de raisin à minuit le soir du Nouvel An.
+  text:
+  - La Puerta del Sol était autrefois une porte des remparts, face au soleil levant. Aujourd’hui, c’est la place la plus fréquentée de Madrid, avec la tour à horloge de la Real Casa de Correos, siège du gouvernement régional.
+  - Une plaque dans le pavé marque le kilomètre zéro, à partir duquel sont mesurées les grandes routes d’Espagne. Le soir du Nouvel An, l’Espagne mange un grain de raisin à chacun des douze coups de son horloge, diffusés en direct à la télévision.
+oso-y-madrono:
+  name: L’Ours et l’Arbousier
+  blurb: L’ours de bronze qui se dresse vers un arbousier, les armoiries de Madrid sur la Puerta del Sol.
+  text:
+  - L’ours et le madroño, l’arbousier, figurent sur les armoiries de Madrid depuis le Moyen Âge. La statue de bronze sur la Puerta del Sol, de 1967, est un point de rendez-vous favori.
+  - Les Madrilènes disent « rendez-vous à l’ours ».
+plaza-mayor:
+  blurb: La place à arcades de 1619, où Madrid tenait ses marchés, ses corridas et les procès de l’Inquisition.
+  text:
+  - La Plaza Mayor fut achevée en 1619 sous Philippe III, dont la statue équestre se dresse au milieu. Ses maisons à arcades ont 237 balcons, d’où l’on regardait marchés, corridas, couronnements, exécutions et autodafés de l’Inquisition.
+  - La façade peinte de la Casa de la Panadería, l’ancienne maison de la corporation des boulangers, en est le centre. À Noël, un marché la remplit.
+palacio-real:
+  name: Palais royal
+  blurb: Avec plus de 3 000 pièces, le plus grand palais royal d’Europe occidentale, toujours utilisé pour les cérémonies officielles.
+  text:
+  - Après l’incendie de l’ancien Alcázar la veille de Noël 1734, Philippe V ordonna un nouveau palais de pierre, pour qu’il ne puisse plus jamais brûler. Il fut achevé en 1764, avec quelque 3 400 pièces.
+  - Le roi n’y vit plus, mais reçoit les visiteurs d’État dans sa salle du trône. Le premier mercredi du mois, la garde est relevée dans la cour.
+almudena:
+  name: Cathédrale de l’Almudena
+  blurb: La cathédrale de Madrid, commencée en 1883 et consacrée seulement en 1993, face au Palais royal.
+  text:
+  - Madrid ne devint un siège épiscopal qu’en 1885, et sa cathédrale prit plus d’un siècle à construire. Son extérieur fut conçu pour s’accorder au palais de l’autre côté de la place ; à l’intérieur, ses plafonds sont peints de couleurs modernes vives.
+  - Le pape Jean-Paul II la consacra en 1993.
+plaza-de-oriente:
+  blurb: Les jardins entre le Palais royal et l’opéra, avec une célèbre statue de Philippe IV sur un cheval cabré.
+  text:
+  - Joseph Bonaparte, frère de Napoléon et roi d’Espagne, fit dégager les vieilles maisons devant le palais pour faire la place. Ses jardins sont bordés de statues de rois d’Espagne.
+  - Au milieu se dresse Philippe IV sur un cheval cabré, coulé par Pietro Tacca en 1640 ; Galilée aurait aidé à trouver comment l’équilibrer.
+teatro-real:
+  blurb: L’opéra de Madrid, face au Palais royal de l’autre côté de la Plaza de Oriente.
+  text:
+  - Le Teatro Real ouvrit en 1850 sous la reine Isabelle II. Il ferma en 1925 par crainte de l’effondrement, fut reconstruit et ne rouvrit comme opéra qu’en 1997.
+  - Aujourd’hui, c’est l’un des grands opéras d’Europe.
+mercado-de-san-miguel:
+  blurb: Une halle de fer et de verre de 1916, aujourd’hui une halle gourmande à côté de la Plaza Mayor.
+  text:
+  - 'La halle de fer et de verre ouvrit en 1916 à côté de la Plaza Mayor. Restaurée en 2009, c’est aujourd’hui une halle de comptoirs à tapas : huîtres, jambon, olives, croquettes et vermouth.'
+  - Elle est la plus animée le soir, avant le dîner, qui à Madrid vient tard.
+plaza-de-la-villa:
+  blurb: Une petite place de trois bâtiments de trois siècles différents, l’ancien cœur du gouvernement de Madrid.
+  text:
+  - Sur cette petite place près de la Calle Mayor se dressent la Casa de la Villa, l’ancien hôtel de ville du XVIIe siècle, la Torre de los Lujanes du XVe, l’un des plus vieux bâtiments de la ville, et la Casa de Cisneros du XVIe.
+  - Le conseil de Madrid s’y réunit jusqu’en 2007.
+gran-via:
+  name: La Gran Vía
+  blurb: La grande avenue de 1910 aux années 1950, le Broadway de Madrid avec ses cinémas, ses théâtres et ses premiers gratte-ciel.
+  text:
+  - La Gran Vía fut percée à travers la vieille ville à partir de 1910, une vitrine du nouveau siècle avec banques, hôtels, grands magasins et certains des premiers immeubles hauts d’Europe, comme la tour de la Telefónica de 1929.
+  - À Callao, ses cinémas et théâtres se côtoient sous des enseignes au néon. À son autre bout, le dôme de l’immeuble Metrópolis est couronné d’une victoire ailée.
+prado:
+  name: Le musée du Prado
+  blurb: 'Le musée national d’art d’Espagne sur le Paseo del Prado, avec la collection royale : Vélasquez, Goya et Bosch.'
+  text:
+  - Le roi Charles III commanda le bâtiment à Juan de Villanueva en 1785 comme demeure des sciences naturelles. En 1819, son petit-fils Ferdinand VII l’ouvrit plutôt comme musée de la collection royale.
+  - Il abrite Les Ménines de Vélasquez, les Peintures noires de Goya, dont Saturne dévorant son fils, et Le Jardin des délices de Bosch. Il se trouve à l’est de la partie de Madrid que cartographie le jeu, mais on peut tout de même entrer dans cinq de ses salles.
+churros:
+  name: Chocolat con churros
+  blurb: Des bâtons de pâte frits trempés dans du chocolat chaud épais, à toute heure du jour ou de la nuit.
+  text:
+  - Les churros sont des bandes de pâte frites croustillantes ; les porras sont leurs cousins plus épais. À Madrid, on les trempe dans une tasse de chocolat chaud si épais qu’il est presque un pudding.
+  - La Chocolatería San Ginés, dans une ruelle près de la Calle Mayor, les sert depuis 1894, jusque tard dans la nuit.
+bocadillo-de-calamares:
+  name: Le bocadillo de calamares
+  blurb: Un sandwich aux calamars frits, le casse-croûte propre à Madrid, vendu dans les bars autour de la Plaza Mayor.
+  text:
+  - Madrid est loin de la mer, mais elle adore les fruits de mer. Son propre casse-croûte est un petit pain croustillant garni d’anneaux de calamar frits en beignet.
+  - Les bars des ruelles autour de la Plaza Mayor les vendent pour quelques euros, avec une petite bière, une caña.

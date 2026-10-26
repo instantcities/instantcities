@@ -1,6 +1,6 @@
-# Venice's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its landmarks' names and blurbs
-# (_data/landmarks/venice.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# venice's page in French (_layouts/city.html, at /fr/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/venice.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/venice.yml and its landmarks, with their pages, in landmarks/venice.yml.
 title: 'Instant Venice : visite virtuelle en 3D et jeu gratuits de Venise'
 description: 'Faites gratuitement la visite virtuelle en 3D du centre de Venise dans votre navigateur, puis parcourez-le vous-même à vélo, à pied ou au galop : explorez ou faites la course, seul ou à deux sur un même clavier.'
 tagline: Explorez ou faites la course à vélo, à pied ou à cheval dans les calli de Venise !
@@ -18,30 +18,4 @@ famous:
 - Le Grand Canal, ses gondoles et le pont du Rialto
 - Le Carnaval, avec ses masques et ses costumes
 - Le verre de Murano, la dentelle de Burano et le spritz du soir avec des cicchetti
-landmarks:
-  piazza-san-marco:
-    name: Place Saint-Marc
-    blurb: La seule place de Venise appelée piazza, entourée d’arcades et ouverte sur la lagune.
-  basilica-di-san-marco:
-    name: Basilique Saint-Marc
-    blurb: Bâtie pour les reliques de saint Marc, couverte à l’intérieur de mosaïques dorées.
-  palazzo-ducale:
-    name: Palais des Doges
-    blurb: Le palais gothique rose et blanc d’où les doges gouvernaient la République de Venise.
-  campanile:
-    name: Campanile de Saint-Marc
-    blurb: Le clocher de Saint-Marc, effondré en 1902 et rebâti « là où il était, comme il était ».
-  ponte-dei-sospiri:
-    name: Pont des Soupirs
-    blurb: Le pont de pierre couvert entre le palais des Doges et les prisons, construit en 1600.
-  ponte-di-rialto:
-    name: Pont du Rialto
-    blurb: Le pont de pierre de 1591 sur le Grand Canal, avec des boutiques le long de son arche.
-  canal-grande:
-    name: Grand Canal
-    blurb: La grande voie d’eau en forme de S au milieu de Venise, bordée de palais.
-  mercerie:
-    blurb: La suite d’étroites ruelles commerçantes de Saint-Marc au Rialto, le parcours de la course dans le jeu.
-  la-fenice:
-    blurb: L’opéra de Venise, qui est plus d’une fois ressuscité de ses cendres, comme son nom le promet.
 credits: Données cartographiques © les contributeurs d’OpenStreetMap (ODbL).

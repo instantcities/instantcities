@@ -1,0 +1,69 @@
+# paris's landmarks in Dutch (_data/landmarks/paris.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+tour-eiffel:
+  name: Eiffeltoren
+  blurb: De ijzeren toren van Gustave Eiffel op het Champ de Mars, gebouwd voor de Wereldtentoonstelling van 1889 en sindsdien het symbool van Parijs.
+  text:
+  - 'Het bedrijf van Gustave Eiffel bouwde de toren in twee jaar voor de Wereldtentoonstelling van 1889, de honderdste verjaardag van de Revolutie: 18.000 stukken puddelijzer, bijeengehouden door twee en een half miljoen klinknagels. Met 300 meter was hij veertig jaar lang het hoogste bouwwerk ter wereld.'
+  - Veel kunstenaars ondertekenden een protest tegen de “nutteloze en monsterlijke” toren, die er maar twintig jaar zou blijven staan. Zijn radioantennes redden hem, en hij werd het symbool van de stad. Je kunt naar de eerste en tweede verdieping klimmen, of met de liften naar de top op 276 meter.
+notre-dame:
+  blurb: De gotische kathedraal op het Île de la Cité, begonnen in 1163 en sinds de brand van 2019 weer open.
+  text:
+  - Notre-Dame de Paris werd in 1163 begonnen en bijna twee eeuwen later voltooid, met haar twee torens, haar grote roosvensters en de luchtbogen die haar muren dragen. Victor Hugo’s roman uit 1831 maakte haar wereldberoemd en hielp haar van verval te redden.
+  - Op 15 april 2019 verwoestte een brand haar dak en haar spits. Na vijf jaar werk ging ze in december 2024 weer open, met een nieuwe spits naar het oude ontwerp.
+sainte-chapelle:
+  blurb: De koninklijke kapel van Lodewijk IX uit 1248, met muren die bijna helemaal uit glas-in-lood bestaan.
+  text:
+  - Koning Lodewijk IX liet de Sainte-Chapelle bouwen op de binnenplaats van zijn paleis om de Doornenkroon te bewaren, die hij van de keizer van Constantinopel had gekocht. Ze werd in 1248 ingewijd.
+  - De bovenkapel is beroemd om haar vijftien hoge glas-in-loodramen, die de Bijbel in meer dan duizend taferelen vertellen en de muren van gekleurd licht lijken te maken.
+louvre:
+  blurb: Een koninklijk paleis dat het meest bezochte museum ter wereld werd, met de glazen piramide op de binnenplaats.
+  text:
+  - Het Louvre begon rond 1200 als vesting, werd het paleis van de Franse koningen en na de Revolutie een museum, geopend in 1793. Het bezit de Mona Lisa, de Venus van Milo en de Nikè van Samothrake.
+  - In 1989 werd de glazen piramide van I. M. Pei de nieuwe ingang, eerst omstreden, nu zelf een van de bezienswaardigheden van Parijs.
+pont-neuf:
+  blurb: De “nieuwe brug”, die in feite de oudste nog bestaande brug over de Seine in Parijs is.
+  text:
+  - De Pont Neuf, voltooid in 1607 onder Hendrik IV, was de eerste brug van Parijs zonder huizen erop, en de eerste met trottoirs, zodat mensen konden blijven staan om naar de rivier te kijken. Hij kruist de punt van het Île de la Cité in twee armen.
+  - Op het eiland rijdt een bronzen Hendrik IV midden op de brug; achter hem steekt het kleine Square du Vert-Galant de Seine in.
+hotel-de-ville:
+  blurb: Het stadhuis van Parijs, op deze plek sinds 1357 en herbouwd nadat de Commune het in 1871 in brand stak.
+  text:
+  - Parijs wordt sinds 1357 bestuurd vanaf dit plein, toen de Place de Grève genoemd. Het renaissancistische stadhuis dat hier stond werd tijdens de Commune van 1871 in brand gestoken en in dezelfde stijl herbouwd, groter en rijker, tot 1892.
+  - Zijn gevel draagt meer dan honderd beelden van beroemde Parijzenaars. In de winter wordt het plein ervoor een ijsbaan.
+conciergerie:
+  blurb: Een middeleeuws koninklijk paleis op het eiland, later de gevangenis waar Marie-Antoinette op de guillotine wachtte.
+  text:
+  - De Conciergerie is wat overblijft van het Palais de la Cité, het paleis van de Franse koningen in de middeleeuwen, met zijn grote gotische zaal en zijn ronde torens langs de Seine.
+  - Tijdens de Revolutie was het de gevangenis van wie voor het Revolutionaire Tribunaal moest verschijnen; koningin Marie-Antoinette bracht hier in 1793 haar laatste weken door.
+tour-saint-jacques:
+  blurb: Een eenzame gotische klokkentoren, het enige wat overblijft van een kerk op de pelgrimsroute naar Santiago.
+  text:
+  - De toren is alles wat rest van de kerk Saint-Jacques-de-la-Boucherie, waar pelgrims zich verzamelden voor ze naar Santiago de Compostela vertrokken. De kerk werd na de Revolutie afgebroken; de toren, voltooid in 1523, bleef behouden.
+  - Blaise Pascal zou hier zijn experimenten met luchtdruk hebben herhaald; zijn standbeeld staat aan de voet.
+centre-pompidou:
+  blurb: Het museum voor moderne kunst met zijn buizen, leidingen en roltrappen aan de buitenkant, geopend in 1977.
+  text:
+  - 'Renzo Piano en Richard Rogers keerden een gebouw binnenstebuiten: de buizen, leidingen en roltrappen zitten aan de buitenkant, in felle kleuren geschilderd naar hun functie, blauw voor lucht, groen voor water, geel voor elektriciteit.'
+  - Binnen staat een van de grootste collecties moderne kunst ter wereld. Het hellende plein ervoor is een podium voor straatartiesten.
+bouquinistes:
+  blurb: De groene kisten van de tweedehandsboekenverkopers langs de kades van de Seine.
+  text:
+  - Sinds de 16e eeuw verkopen boekhandelaars hun waar langs de Seine. Tegenwoordig houden zo’n 200 bouquinistes hun donkergroene kisten vast aan de borstweringen van de kades, ’s ochtends geopend en ’s avonds weer op slot.
+  - Samen strekken de kisten zich uit over zo’n drie kilometer, met oude boeken, prenten, ansichtkaarten en posters. Ze maken deel uit van de oevers van de Seine die UNESCO als werelderfgoed heeft aangewezen.
+metro:
+  name: Metro-ingangen
+  blurb: De groene art-nouveau-ingangen van de Parijse metro, rond 1900 ontworpen door Hector Guimard.
+  text:
+  - 'Toen in 1900 de eerste metrolijn openging, ontwierp Hector Guimard de ingangen: gietijzeren stengels en bladeren, groen geverfd, met lampen als bloemknoppen en het woord Métropolitain in krullende letters.'
+  - Zo’n 85 ervan zijn nog in gebruik, en twee van de zeldzame met een glazen dak bestaan nog, bij Porte Dauphine en Abbesses.
+bateaux-mouches:
+  blurb: De rondvaartboten die over de Seine glijden, langs Notre-Dame en onder de bruggen door.
+  text:
+  - De eerste bateaux-mouches voeren in de 19e eeuw passagiers over de Seine; tegenwoordig dekt de naam alle rondvaartboten met glazen dak die van de Eiffeltoren tot voorbij Notre-Dame en terug varen.
+  - Vanaf het water zie je Parijs van onder zijn bruggen, en ’s nachts zijn de kades en monumenten verlicht.
+croissant:
+  blurb: De knapperige, boterige halve maan van het Parijse ontbijt, van de boulangerie op elke hoek.
+  text:
+  - De croissant kwam in de 19e eeuw uit Wenen naar Parijs, als broodje in de vorm van een halve maan; Franse bakkers maakten hem met lagen boter in het deeg gevouwen, die opzwellen tot honderden luchtige blaadjes.
+  - Met een café crème aan de bar is het het klassieke Parijse ontbijt; een croissant au beurre, alleen met boter gemaakt, heeft een rechte vorm, de andere zijn gebogen.

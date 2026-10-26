@@ -1,6 +1,6 @@
-# London's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
-# _data/cities.yml, the intro of its guide (_data/about/london.json) and its landmarks' names and blurbs
-# (_data/landmarks/london.json, by id; a name it leaves out stays as it is). What this leaves out stays English.
+# london's page in Dutch (_layouts/city.html, at /nl/<slug>/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/london.json) and its credits. What this leaves out stays English.
+# Its guide is in guide/london.yml and its landmarks, with their pages, in landmarks/london.yml.
 title: 'Instant London: gratis virtuele 3D-rondleiding en game van Londen'
 description: 'Maak gratis een virtuele 3D-rondleiding door het centrum van Londen in je browser, en fiets, wandel of galoppeer er daarna zelf door: verken of race, alleen of met twee op één toetsenbord.'
 tagline: Verken of race met de fiets, te voet of te paard door Westminster!
@@ -18,24 +18,4 @@ famous:
 - Rode dubbeldekkers, zwarte taxi’s en de Underground, de oudste metro ter wereld
 - Koninklijke ceremonies zoals de Changing of the Guard en Trooping the Colour
 - Gratis nationale musea en galerijen, van het British Museum tot de National Gallery
-landmarks:
-  big-ben:
-    blurb: De grote klok in de klokkentoren van het parlement, een toren die nu Elizabeth Tower heet.
-  houses-of-parliament:
-    name: Parlementsgebouw
-    blurb: Het Palace of Westminster aan de Theems, na de brand van 1834 in gotische stijl herbouwd.
-  westminster-abbey:
-    blurb: De kerk waar sinds 1066 de Engelse en Britse vorsten gekroond worden.
-  trafalgar-square:
-    blurb: Nelson op zijn zuil, vier bronzen leeuwen en de National Gallery aan de noordkant.
-  national-gallery:
-    blurb: De Britse verzameling Europese schilderkunst, gratis te bezoeken, aan de noordkant van Trafalgar Square.
-  downing-street:
-    blurb: Nummer 10, sinds 1735 het huis van de Britse premiers, achter zwarte hekken aan Whitehall.
-  horse-guards:
-    blurb: Ruiters van de Household Cavalry staan elke dag op wacht aan Whitehall.
-  london-eye:
-    blurb: Het reuzenrad aan de overkant van de Theems, gebouwd voor het jaar 2000.
-  westminster-bridge:
-    blurb: De groene brug over de Theems naast de Big Ben, geschilderd in de kleur van de banken van het Lagerhuis.
 credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).
