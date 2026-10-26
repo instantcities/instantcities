@@ -58,6 +58,24 @@
       </div>
     </section>
 
+    {%- assign places = site.data.site_places[S.id] %}
+    {%- if places %}
+    <section id="map" class="site-map">
+      <h2>On the map</h2>
+      <div class="site-map-body">
+        <figure>
+          <img src="/assets/maps/{{ S.id }}.svg" alt="A plan of {{ S.name }} with {{ places.size }} places marked" width="1200" height="750" loading="lazy">
+          <figcaption>The game's own map. The dashed line is the race. Map data © OpenStreetMap contributors.</figcaption>
+        </figure>
+        <ol class="site-places">
+          {%- for p in places %}
+          <li><span class="n">{{ p.n }}</span><div><h3>{{ p.emoji }} {{ p.name }}</h3><p>{{ p.text }}</p></div></li>
+          {%- endfor %}
+        </ol>
+      </div>
+    </section>
+    {%- endif %}
+
     <section id="facts" class="site-facts">
       <h2>About {{ S.name }}</h2>
       <dl>

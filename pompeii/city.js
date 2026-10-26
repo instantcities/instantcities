@@ -11,6 +11,7 @@
 //   area.json        what to download from OpenStreetMap, and the route
 //   map.js           the streets, houses and trees: made from area.json by
 //                    `node tools/osm_map.mjs pompeii`, do not edit by hand
+//   sights.js        the sights: the cards that tell you what you are looking at
 //   frame.js         latitude and longitude to the map's metres
 //   forum.js         the Forum's colonnades and the Temple of Jupiter
 //   amphitheatre.js  the amphitheatre
@@ -26,7 +27,8 @@ import { VESUVIUS } from './vesuvius.js';
 export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...VESUVIUS];
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const PARKED_BIKES = false; // no bikes parked along the streets
-export const SIGHTS = [], FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
+export { SIGHTS } from './sights.js';
+export const FRONTS = [], STOPS = [], TRAM_HALTS = [], BUS_LINES = [];
 export const LANDMARKS = [], HOLLOWS = [], FACADES = [], SQUARES = [], AREAS = [], BEACHES = [], RUNS = [];
 
 // the site's folder, and its name
