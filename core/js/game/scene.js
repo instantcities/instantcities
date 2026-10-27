@@ -7,6 +7,7 @@ import { useHills } from '../terrain.js';
 import { Particles } from '../effects.js';
 import { Weather } from '../weather.js';
 import { SLOTS, $ } from './base.js';
+import { prettyRenderer } from '../pretty.js';
 
 const canvas = $('game');
 // Phones and tablets skip the multisampling and draw fewer pixels: both cost a lot of GPU memory.
@@ -20,6 +21,7 @@ renderer.shadowMap.autoUpdate = false; // refreshed once per frame, shared by bo
 useHills(); // the city's hills, lifted in every shader (js/terrain.js)
 
 export const scene = new THREE.Scene();
+prettyRenderer(renderer, scene);
 scene.background = new THREE.Color();
 scene.fog = new THREE.Fog(0xffffff, 170, 620);
 export const hemi = new THREE.HemisphereLight();

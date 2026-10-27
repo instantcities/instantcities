@@ -8,6 +8,7 @@ import { INSIDE } from '../city.js';
 import { clearLine } from '../collide.js';
 import { WATER } from '../relief.js';
 import { HILLS, lookFrom, heightAt } from '../terrain.js';
+import { drawView } from '../pretty.js';
 import { sfx } from '../sound.js';
 import {
   MAX_SPEED, BOAT_SPEED, HELI_SPEED, SPIN_TIME, REAR_TIME, STUMBLE_TIME, PAN, clamp, approach, wrapAngle, tmp,
@@ -261,7 +262,7 @@ export function render() {
     cam.updateProjectionMatrix();
     weather.follow(cam);
     const room = aerial() ? null : INSIDE.at(from.x, from.z), outside = room && lightInside(room); // (null, not false: false?.() throws)
-    renderer.render(scene, cam);
+    drawView(renderer, scene, cam, vw, vh, vw === w && vh === h, !!room, sun);
     outside?.();
     cam.fov = fov;
   };

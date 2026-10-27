@@ -19,6 +19,7 @@ import { buildRelief } from '../relief.js';
 import { fitToHills } from '../terrain.js';
 import { squareAt } from '../squares.js';
 import { atmosphere, isNight, snowCover } from '../weather.js';
+import { goldenHour, prettyLook } from '../pretty.js';
 import { t_, SKY_FADE } from './base.js';
 import { game } from './settings.js';
 import { scene, hemi, sun, weather, headlamps } from './scene.js';
@@ -323,6 +324,7 @@ function showLook(L) {
   city.setNight(L.night); // the city's own lamps, coming on and going out as the sky fades
   weather.set(L.rain, L.snow, L.night);
   headlamps.forEach((l, p) => (l.visible = night && p < game.players));
+  prettyLook(L, hemi);
 }
 
 // The sky for game.daytime and game.weather, straight away.
@@ -351,6 +353,7 @@ export function setTrack(i) {
   world = getWorld(i);
   track = world.track;
   world.group.visible = true;
+  goldenHour(world.cfg.theme);
   applySky();
   setupMinimap();
 }

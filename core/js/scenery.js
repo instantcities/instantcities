@@ -14,6 +14,7 @@ import { addLandmarks } from './landmarks.js';
 import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
+import { prettyDome, prettyWater } from './pretty.js';
 export { drawAgain } from './facades.js';
 import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
@@ -151,6 +152,7 @@ function sky(ctx) {
     dome.updateMatrixWorld();
   };
   ctx.group.add(dome);
+  prettyDome(dome);
   return paint;
 }
 
@@ -253,23 +255,27 @@ function waterMaterial(ctx, color = 0x4f6b55) {
   });
   tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
   const drift = { value: 0 }; // the second ripple layer's scroll, against the first
+  const sheen = { value: 0.65 }; // how much of the sky's colour a low look across the water shows
   ctx.updaters.push(dt => { tex.offset.x += dt * 0.05; drift.value += dt * 0.03; });
   // the ripples also bend the surface (bumpMap), so the sun's highlight and the sky's sheen wobble
   const water = mat(color, 0.15, { metalness: 0.1, map: tex, bumpMap: tex, bumpScale: 1 });
   water.onBeforeCompile = shader => {
     shader.uniforms.drift = drift;
+    shader.uniforms.sheenK = sheen;
     shader.fragmentShader = shader.fragmentShader
       // a second, mirrored layer of ripples drifting the other way: the water shimmers, not slides
-      .replace('void main() {', 'uniform float drift;\nvoid main() {')
+      .replace('void main() {', 'uniform float drift, sheenK;\nvoid main() {')
       .replace('#include <map_fragment>', `#include <map_fragment>
       diffuseColor *= texture2D(map, vec2(-1.3 * vMapUv.x + drift, 1.3 * vMapUv.y + 0.37));`)
       // the sky's sheen at a low angle (fresnel), in the fog's colour, so it follows day, night and rain
       .replace('#include <fog_fragment>', `#ifdef USE_FOG
       float sheen = pow(1.0 - saturate(dot(normalize(vViewPosition), normal)), 4.0);
-      gl_FragColor.rgb = mix(gl_FragColor.rgb, fogColor, 0.65 * sheen);
+      gl_FragColor.rgb = mix(gl_FragColor.rgb, fogColor, sheenK * sheen);
     #endif
     #include <fog_fragment>`);
   };
+  water.userData.sheen = sheen;
+  prettyWater(water);
   return water;
 }
 
