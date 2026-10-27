@@ -1,0 +1,24 @@
+{
+  "landmarks": [
+    {"id": "gravensteen", "name": "Gravensteen", "osm": [493778720, 493778671, 493778668], "look": "stone"},
+    {"id": "stadshal", "name": "Stadshal (Schaapstal)", "osm": [134866547], "look": "slate", "source": "dhmv", "gables": 2, "under": 9, "pillar": 2.6, "apex": 0.4},
+    {"id": "belfort", "name": "Belfort", "osm": [501472628], "look": "stone"},
+    {"id": "lakenhalle", "name": "Lakenhalle", "osm": [501469592, 901641066], "look": "stone"},
+    {"id": "schouwburg", "name": "NTGent Schouwburg", "osm": [501469575], "look": "stone"},
+    {"id": "stadhuis", "name": "Stadhuis", "osm": [501469596], "look": "stone"},
+    {"id": "sint-baafs", "name": "Sint-Baafskathedraal", "osm": [105192350], "look": "stone"},
+    {"id": "sint-niklaas", "name": "Sint-Niklaaskerk", "osm": [591005766], "look": "stone"},
+    {"id": "sint-michiel", "name": "Sint-Michielskerk", "osm": [105194546], "look": "stone"},
+    {"id": "postgebouw", "name": "Postgebouw (Post Plaza)", "osm": [107539763], "look": "stone"},
+    {"id": "sint-jacobs", "name": "Sint-Jacobskerk", "osm": [105194545], "look": "stone"},
+    {"id": "groot-vleeshuis", "name": "Groot Vleeshuis", "osm": [493993761], "look": "stone"},
+    {"id": "rabot", "name": "Rabot", "osm": [452671914], "look": "stone"},
+    {"id": "vooruit", "name": "Vooruit", "osm": [313299804], "look": "stone"},
+    {"id": "sint-pietersabdij", "name": "Sint-Pietersabdij", "osm": [208518121, 208518124], "look": "stone"},
+    {"id": "oud-justitiepaleis", "name": "Oud Gerechtsgebouw", "osm": [132802750], "look": "stone"},
+    {"id": "boekentoren", "name": "Boekentoren", "osm": [218063481], "look": "stone", "source": "flat", "height": 56}
+  ],
+  "hollows": [
+    {"id": "emile-braunplein", "name": "Emile Braunplein", "box": [-36, -96, 76, -32]}
+  ]
+}

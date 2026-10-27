@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/madrid/landmark/prado/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/madrid/monument/prado/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/madrid/bezienswaardigheid/prado/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-93/en/madrid/landmark/prado/", "fr": "/preview/pr-93/fr/madrid/monument/prado/", "nl": "/preview/pr-93/nl/madrid/bezienswaardigheid/prado/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-93/en/madrid/landmark/prado/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-93/en/madrid/landmark/prado/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-93/fr/madrid/monument/prado/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-93/nl/madrid/bezienswaardigheid/prado/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
