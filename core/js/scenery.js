@@ -14,7 +14,7 @@ import { addLandmarks } from './landmarks.js';
 import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
-import { prettyDome, prettyWater } from './pretty.js';
+import { prettyDome, prettyWater, prettyBodies } from './pretty.js';
 export { drawAgain } from './facades.js';
 import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
 import { squareAt } from './squares.js';
@@ -1600,6 +1600,7 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
     }
   }
   if (!bodies.length) return;
+  prettyBodies(bodies);
   // the body of water at (x, z), or undefined on dry land (the first of them, if bodies overlap)
   const has = (x, z) => b => {
     if (b.poly) return b.in(x, z);
