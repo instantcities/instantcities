@@ -13,7 +13,7 @@ import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, sweep, archRing } from '../core/js/arcade.js';
 import { rng, shade } from '../core/js/facades.js';
-import { WallBatch, ruinWall, ruinTexture, RUIN_TILE } from '../core/js/roman.js';
+import { WallBatch, ruinWall, footShade, ruinTexture, RUIN_TILE } from '../core/js/roman.js';
 import { MAP } from './map.js';
 import { column as cols } from './columns.js';
 
@@ -45,6 +45,7 @@ function ruin(kit, pts, h, t, seed) {
     if (L < 1.5) return;
     const nx = (z2 - z) / L, nz = -(x2 - x) / L; // outward: the outline runs clockwise on the map
     ruinWall(wb, x, z, x2, z2, nx, nz, L, 0, Math.min(h, RUIN_TILE[1] - 0.5), seed + i, along / u, (along + L) / u, t);
+    footShade((kit.shades ??= new WallBatch()), x, z, x2, z2, nx, nz, L, 0, 1.6);
     along += L;
   });
 }
@@ -54,7 +55,7 @@ function build(kit) {
   const mesh = kit.mesh(kitMat(0.92));
   if (!kit.walls) return mesh;
   const group = new THREE.Group();
-  group.add(mesh, kit.walls.mesh(ruinTexture(kit.wallSeed % 5, '', kit.wallSeed)));
+  group.add(mesh, kit.walls.mesh(ruinTexture(kit.wallSeed % 5, '', kit.wallSeed)), kit.shades.shadeMesh());
   return group;
 }
 

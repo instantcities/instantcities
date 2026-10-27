@@ -23,7 +23,7 @@ import { addSitters } from './sitters.js';
 import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
-import { romanUpper, romanGround, dryGround, ruinPainter, ruinWall, RUIN_VARIANTS, RUIN_TILE } from './roman.js';
+import { romanUpper, romanGround, dryGround, ruinPainter, ruinWall, footShade, footShadeMaterial, RUIN_VARIANTS, RUIN_TILE } from './roman.js';
 
 // A city whose LOOK has style 'italian' or 'roman' draws its house fronts as plaster in the manner of
 // js/italian.js or js/roman.js, and not tinted (a texture per colour); the other cities' are Ghent's.
@@ -143,7 +143,7 @@ function sky(ctx) {
     cols.needsUpdate = true;
   };
   paint(ctx.theme.sky, ctx.theme.horizon);
-  const dome = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, depthWrite: false }));
+  const dome = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: false }));
   // round whichever camera draws it, so its edge never shows a kilometre out from the middle of the map
   dome.frustumCulled = false;
   dome.onBeforeRender = (renderer, scene, camera) => {
@@ -297,6 +297,7 @@ function earthFloor(ctx) {
       for (let k = 0; k < 40; k++) { const v = 80 + ctx.r() * 70; g.fillStyle = `rgb(${v},${v * 0.9},${v * 0.78})`; g.beginPath(); g.ellipse(ctx.r() * w, ctx.r() * h, 1.5 + ctx.r() * 4, 1 + ctx.r() * 2.6, ctx.r() * 3, 0, Math.PI * 2); g.fill(); } // lumps of fallen masonry
     });
     t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    t.userData.shared = true; // one for every tile: js/tiles.js leaves it be
     return t;
   })();
 }
@@ -1357,7 +1358,7 @@ function dropWall(key) {
 // The walls and roofs of a tile's houses, as one group.
 function buildHouses(city, houses) {
   const group = new THREE.Group(), ctx = { ...city, group };
-  const walls = new Map(), roofCaps = new Batch(), floors = new Batch(), spires = new Batch(), gables = [], lumps = [], weeds = [], pools = [], stumps = [];
+  const walls = new Map(), roofCaps = new Batch(), floors = new Batch(), spires = new Batch(), gables = [], lumps = [], weeds = [], pools = [], stumps = [], shades = new Batch();
   const batchOf = wall => {
     if (!walls.has(wall[0])) walls.set(wall[0], { batch: new Batch(wall[2]), wall });
     return walls.get(wall[0]).batch;
@@ -1385,6 +1386,7 @@ function buildHouses(city, houses) {
         along += L;
         // seen from outside the texture runs left to right
         ruinWall(wb, ax, az, bx, bz, nx, nz, L, y0, R.h, R.seed, ...(dx * nz - dz * nx < 0 ? [u1, u0] : [u0, u1]));
+        footShade(shades, ax, az, bx, bz, nx, nz, L, y0);
         if (L > longest) { longest = L; axis = [dx / L, dz / L]; }
       });
       // a cross wall between the rooms of a bigger house, and in the biggest the pool of the atrium
@@ -1450,6 +1452,7 @@ function buildHouses(city, houses) {
   group.userData.gone = () => used.forEach(dropWall);
   roofCaps.mesh(ctx, mat(LOOK?.flatRoof ?? 0x6e6c69, 0.9, { side: THREE.DoubleSide }), { shadow: true });
   if (floors.idx.length) floors.mesh(ctx, mat(0xffffff, 1, { map: earthFloor(ctx) }), { shadow: false });
+  if (shades.idx.length) shades.mesh(ctx, footShadeMaterial());
   if (lumps.length) {
     const tones = ['#9a8b74', '#b3a285', '#8a7d68', '#a2573f', '#7f776c'];
     instanced(ctx, new THREE.DodecahedronGeometry(0.5, 0).scale(1, 0.6, 0.8), mat(0xffffff, 1, { flatShading: true }), lumps, (d, l) => {

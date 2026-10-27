@@ -14,6 +14,8 @@ export const RACES = [
     seed: 7300,
     hw: 3.2,
     bikers: 0,
-    theme: { roman: true, pavement: 1.2, lampEvery: 1e9, ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, sky: 0x4a94de, horizon: 0xe2e6e4 }, // lava blocks and gravel, no street lamps, dry ground, a warmer horizon
+    theme: { roman: true, pavement: 1.2, lampEvery: 1e9, ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, sky: 0x3f86d6, horizon: 0xe3dccf, // lava blocks and gravel, no street lamps, dry ground, a hazy warm horizon
+      // late afternoon: a low warm sun from the west-south-west, long shadows, the shade cool and blue
+      sun: { color: 0xffd6a0, intensity: 3.4, pos: [-160, 95, 75] }, hemi: [0xb0c6e2, 0x8a7258, 1.35], tone: { exposure: 1.1 } },
   },
 ];
