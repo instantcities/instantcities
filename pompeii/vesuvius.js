@@ -12,7 +12,9 @@ function vesuvius() {
   const kit = new Kit();
   const cone = (pts, hex, x = 0, z = 0) => kit.add(new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r * S, y * S)), 40), hex, x * S, 0, z * S);
   // the foot, green with vineyards and woods, then the bare cone
-  cone([[7200, 0], [5200, 140], [3600, 320], [2500, 520], [1700, 760]], GREEN);
+  // (not as wide as it really spreads: drawn shrunk towards the camera, a foot reaching nearly to
+  // Pompeii would hang over the plain as a band; it starts a little under the ground instead)
+  cone([[3800, -60], [3400, 260], [2500, 520], [1700, 760]], GREEN);
   cone([[1700, 760], [1100, 980], [700, 1170], [430, 1281], [330, 1240], [250, 1180]], SLOPE);
   cone([[250, 1180], [330, 1240], [430, 1281]], ROCK);
   // Monte Somma, the older rim, round the north-east side of it

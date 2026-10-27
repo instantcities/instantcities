@@ -2,7 +2,8 @@
 // The hills under a city: how high the bare ground lies everywhere on the map, from the
 // Digitaal Hoogtemodel Vlaanderen's 5 m terrain model (DHMV I DTM, the ground without houses or
 // trees), smoothed into gentle slopes and written to <city>/terrain.js for the game. Only the hill
-// its area.json names ("hill") is kept, the rest of the city lies flat.
+// its area.json names ("hill") is kept, the rest of the city lies flat. Outside Flanders (area.json's
+// terrain: { source: 'terrarium', zoom }) the heights come from tools/terrarium.mjs instead.
 //
 //     node tools/terrain.mjs ghent
 //
@@ -17,12 +18,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lambert72, readTiff } from './dhmv.mjs';
+import { terrarium } from './terrarium.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const city = process.argv[2];
 const DIR = path.join(HERE, '..', city ?? '');
 if (!city || !fs.existsSync(path.join(DIR, 'area.json'))) {
-  console.error('usage: node tools/terrain.mjs <city>   (a city\'s folder in Flanders, e.g. ghent)');
+  console.error('usage: node tools/terrain.mjs <city>   (a city\'s folder in Flanders, e.g. ghent, or one whose area.json has terrain: { source: \'terrarium\' })');
   process.exit(1);
 }
 const area = JSON.parse(fs.readFileSync(path.join(DIR, 'area.json'), 'utf8'));
@@ -58,29 +60,37 @@ const latLon = (gx, gz) => [lat0 - (gz + shift[1]) / S / kz, lon0 + (gx + shift[
 
 // ------------------------------------------------------------------ the terrain model
 
-const corners = [[bs, bw], [bs, be], [bn, bw], [bn, be]].map(c => lambert72(...c));
-const X0 = Math.floor(Math.min(...corners.map(c => c[0])) / 5) * 5 - 500, X1 = Math.ceil(Math.max(...corners.map(c => c[0])) / 5) * 5 + 500;
-const Y0 = Math.floor(Math.min(...corners.map(c => c[1])) / 5) * 5 - 500, Y1 = Math.ceil(Math.max(...corners.map(c => c[1])) / 5) * 5 + 500;
-const cacheFile = path.join(HERE, 'cache', `${city}-dtm5.bin`);
-let dtm;
-if (fs.existsSync(cacheFile)) dtm = readTiff(fs.readFileSync(cacheFile));
+// metres above sea level at (lat, lon): from the DHMV in Flanders, from the Terrarium tiles
+// (tools/terrarium.mjs) for a city whose area.json says terrain: { source: 'terrarium', zoom }
+let aboveLatLon;
+const TERRARIUM = area.terrain?.source === 'terrarium';
+if (TERRARIUM) aboveLatLon = await terrarium([bs - 0.01, bw - 0.01, bn + 0.01, be + 0.01], area.terrain.zoom ?? 15);
 else {
-  console.error('downloading the DHMV I terrain model (5 m)');
-  const url = 'https://geo.api.vlaanderen.be/DHMV/wcs?service=WCS&version=2.0.1&request=GetCoverage&coverageId=DHMVI_DTM_5m'
-    + `&format=image/tiff&subset=x(${X0},${X1})&subset=y(${Y0},${Y1})`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`DTM: ${res.status} ${res.statusText}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  dtm = readTiff(buf);
-  fs.writeFileSync(cacheFile, buf);
-}
-if (dtm.w !== (X1 - X0) / 5 || dtm.h !== (Y1 - Y0) / 5) throw new Error(`DTM of ${dtm.w}x${dtm.h}, not ${(X1 - X0) / 5}x${(Y1 - Y0) / 5}`);
-// metres above sea level at Lambert 72 (x, y), between the 5 m samples; NaN where there is none
-function above(x, y) {
-  const c = (x - X0) / 5 - 0.5, r = (Y1 - y) / 5 - 0.5, c0 = Math.floor(c), r0 = Math.floor(r), fc = c - c0, fr = r - r0;
-  const at = (i, j) => (i < 0 || j < 0 || i >= dtm.w || j >= dtm.h ? NaN : dtm.data[j * dtm.w + i]);
-  const v = (1 - fr) * ((1 - fc) * at(c0, r0) + fc * at(c0 + 1, r0)) + fr * ((1 - fc) * at(c0, r0 + 1) + fc * at(c0 + 1, r0 + 1));
-  return v < -100 ? NaN : v;
+  const corners = [[bs, bw], [bs, be], [bn, bw], [bn, be]].map(c => lambert72(...c));
+  const X0 = Math.floor(Math.min(...corners.map(c => c[0])) / 5) * 5 - 500, X1 = Math.ceil(Math.max(...corners.map(c => c[0])) / 5) * 5 + 500;
+  const Y0 = Math.floor(Math.min(...corners.map(c => c[1])) / 5) * 5 - 500, Y1 = Math.ceil(Math.max(...corners.map(c => c[1])) / 5) * 5 + 500;
+  const cacheFile = path.join(HERE, 'cache', `${city}-dtm5.bin`);
+  let dtm;
+  if (fs.existsSync(cacheFile)) dtm = readTiff(fs.readFileSync(cacheFile));
+  else {
+    console.error('downloading the DHMV I terrain model (5 m)');
+    const url = 'https://geo.api.vlaanderen.be/DHMV/wcs?service=WCS&version=2.0.1&request=GetCoverage&coverageId=DHMVI_DTM_5m'
+      + `&format=image/tiff&subset=x(${X0},${X1})&subset=y(${Y0},${Y1})`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`DTM: ${res.status} ${res.statusText}`);
+    const buf = Buffer.from(await res.arrayBuffer());
+    dtm = readTiff(buf);
+    fs.writeFileSync(cacheFile, buf);
+  }
+  if (dtm.w !== (X1 - X0) / 5 || dtm.h !== (Y1 - Y0) / 5) throw new Error(`DTM of ${dtm.w}x${dtm.h}, not ${(X1 - X0) / 5}x${(Y1 - Y0) / 5}`);
+  // metres above sea level at Lambert 72 (x, y), between the 5 m samples; NaN where there is none
+  function above(x, y) {
+    const c = (x - X0) / 5 - 0.5, r = (Y1 - y) / 5 - 0.5, c0 = Math.floor(c), r0 = Math.floor(r), fc = c - c0, fr = r - r0;
+    const at = (i, j) => (i < 0 || j < 0 || i >= dtm.w || j >= dtm.h ? NaN : dtm.data[j * dtm.w + i]);
+    const v = (1 - fr) * ((1 - fc) * at(c0, r0) + fc * at(c0 + 1, r0)) + fr * ((1 - fc) * at(c0, r0 + 1) + fc * at(c0 + 1, r0 + 1));
+    return v < -100 ? NaN : v;
+  }
+  aboveLatLon = (la, lo) => above(...lambert72(la, lo));
 }
 
 // ------------------------------------------------------------------ sampled on the map
@@ -99,7 +109,7 @@ const h = new Float32Array(W * H);
 for (let j = 0; j < H; j++) {
   for (let i = 0; i < W; i++) {
     const [la, lo] = latLon(gx0 + i * FINE, gz0 + j * FINE);
-    h[j * W + i] = above(...lambert72(la, lo)) * S; // game metres, as the houses are
+    h[j * W + i] = aboveLatLon(la, lo) * S; // game metres, as the houses are
   }
 }
 console.error(`${W} x ${H} samples of ${FINE} m`);
@@ -209,13 +219,15 @@ for (let k = 0; k < smooth.length; k++) smooth[k] = Math.max(0, smooth[k] - (hil
 const step = CELL / FINE, out = [];
 for (let j = 0; j <= nz; j++) for (let i = 0; i <= nx; i++) out.push(smooth[j * step * W + i * step]);
 const low = out.reduce((a, v) => Math.min(a, v), Infinity), high = out.reduce((a, v) => Math.max(a, v), -Infinity);
+if (high - low > 65.5) throw new Error(`${(high - low).toFixed(1)} m from the lowest to the highest: more than the 65.5 m a uint16 of millimetres holds (lower the hill's "up")`);
 const mm = new Uint16Array(out.map(v => Math.round((v - low) * 1000)));
 const b64 = Buffer.from(mm.buffer).toString('base64');
 let steepest = 0;
 for (let j = 0; j <= nz; j++) for (let i = 0; i < nx; i++) steepest = Math.max(steepest, Math.abs(mm[j * (nx + 1) + i + 1] - mm[j * (nx + 1) + i]) / 1000 / CELL);
 console.error(`${nx} x ${nz} cells of ${CELL} m, ${(high - low).toFixed(1)} m from the lowest to the highest (game metres), steepest ${(steepest * 100).toFixed(1)}%`);
 const head = `// ${city}: generated by tools/terrain.mjs, do not edit by hand.\n`
-  + '// Heights: Digitaal Vlaanderen, Digitaal Hoogtemodel Vlaanderen I (DHMV I, DTM 5 m), open data.\n'
+  + (TERRARIUM ? '// Heights: Mapzen terrain tiles (Terrarium), from SRTM, EU-DEM and national models; see tools/terrarium.mjs.\n'
+    : '// Heights: Digitaal Vlaanderen, Digitaal Hoogtemodel Vlaanderen I (DHMV I, DTM 5 m), open data.\n')
   + `// How high the ground lies, in game millimetres above the lowest point: ${nx + 1} by ${nz + 1} corners of\n`
   + `// ${CELL} m cells from (x0, z0), row by row, as little-endian uint16 in base64. See core/js/terrain.js.\n`;
 fs.writeFileSync(path.join(DIR, 'terrain.js'), head

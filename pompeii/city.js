@@ -13,6 +13,8 @@
 //                    `node tools/osm_map.mjs pompeii`, do not edit by hand
 //   sights.js        the sights: the cards that tell you what you are looking at
 //   frame.js         latitude and longitude to the map's metres
+//   terrain.js       how high the ground lies: made by `node tools/terrain.mjs pompeii` from area.json's
+//                    terrain and hill, do not edit by hand
 //   forum.js         the Forum's colonnades and the Temple of Jupiter
 //   amphitheatre.js  the amphitheatre
 //   public.js        the theatres, the Basilica, the Temple of Apollo and the other public buildings
@@ -21,6 +23,7 @@
 //   casts.js         the plaster casts of the victims: the Garden of the Fugitives and the Granaries
 //   vesuvius.js      Vesuvius on the horizon
 export { MAP } from './map.js';
+export { TERRAIN } from './terrain.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

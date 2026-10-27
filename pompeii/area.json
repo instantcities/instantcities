@@ -110,5 +110,32 @@
     "gap": 0.3,
     "skip": 0.04,
     "clear": 0.3
+  },
+  "terrain": {
+    "source": "terrarium",
+    "zoom": 15
+  },
+  "hill": {
+    "about": "the whole site: the town lies on a spur of old lava, from the Porta Vesuvio and the Porta Ercolano (40-45 m above the sea) down past the Forum (32 m) to the Porta Stabia and the Porta Nocera (15 m), and the Via Marina climbs up to the Forum from the Porta Marina",
+    "around": [
+      [
+        40.7535,
+        14.48
+      ],
+      [
+        40.7535,
+        14.501
+      ],
+      [
+        40.7455,
+        14.501
+      ],
+      [
+        40.7455,
+        14.48
+      ]
+    ],
+    "from": 13,
+    "up": 1.6
   }
 }

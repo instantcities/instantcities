@@ -7,6 +7,8 @@
 // rain, in the fog's colour by day and by night. Further off it looms larger than it would (loom
 // times its size, LOOM_AT metres away and further), so it still reads as itself on the horizon.
 
+import { farGround } from './terrain.js';
+
 const NEAR = 850; // within the sky's dome (900 m) and the camera's reach
 const LOOM_AT = 5000;
 
@@ -25,16 +27,19 @@ export function farOff(obj, x, z, far, loom = 1) {
   return obj;
 }
 
-// the material drawn shrunk and fogged as above (flat ground: none of the hills' lift, see terrain.js)
+// the material drawn shrunk and fogged as above (flat ground: none of the hills' lift, but as much
+// lower as the camera stands up a hill, see terrain.js's farGround)
 function hazed(m, x, z, far, loom) {
   const f = v => v.toFixed(1);
   m.onBeforeCompile = sh => {
+    const drop = farGround(sh);
     sh.vertexShader = sh.vertexShader
       .replace('#include <project_vertex>', `
         vec3 farFoot = vec3( ${f(x)}, 0.0, ${f(z)} );
         float farD = distance( cameraPosition.xz, farFoot.xz );
         vec4 farWorld = modelMatrix * vec4( transformed, 1.0 );
         farWorld.xyz = farFoot + ( farWorld.xyz - farFoot ) * mix( 1.0, ${loom.toFixed(2)}, smoothstep( ${f(NEAR)}, ${f(LOOM_AT)}, farD ) );
+        ${drop}
         float farS = farD > ${f(NEAR)} ? ${f(NEAR)} / farD : 1.0;
         vec4 mvPosition = viewMatrix * vec4( cameraPosition + ( farWorld.xyz - cameraPosition ) * farS, 1.0 );
         gl_Position = projectionMatrix * mvPosition;`)
