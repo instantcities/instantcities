@@ -85,6 +85,16 @@ export function liftShader(sh) {
   Object.assign(sh.uniforms, U);
 }
 
+// For a far monument's own shader (js/skyline.js): it stands on the map's lowest ground, so from
+// up a hill it lies as much lower as the camera stands higher. Declares what it needs and returns
+// the line that lowers farWorld; nothing without hills.
+export function farGround(sh) {
+  if (!U.terrainMap.value) return '';
+  Object.assign(sh.uniforms, { terrainGrid: U.terrainGrid, terrainSize: U.terrainSize });
+  sh.vertexShader = 'uniform vec4 terrainGrid;\nuniform vec3 terrainSize;\n' + sh.vertexShader;
+  return 'farWorld.y -= terrainGrid.w * terrainSize.z;';
+}
+
 // Turns the hills on for every material from now on (the game's page calls it; the dev pages
 // stay flat).
 export function useHills() {

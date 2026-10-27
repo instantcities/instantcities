@@ -36,6 +36,11 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
 - `floors`: the most floors a building gets, for the few houses and halls that are left.
+- `terrain` and `hill`: how high the ground lies. `terrain: { source: 'terrarium', zoom: 15 }` takes the
+  heights from the Terrarium elevation tiles (`tools/terrarium.mjs`), and `hill` says which part keeps
+  them (`around`, its outline in latitude and longitude), from which height up (`from`, metres above the
+  sea) and how much higher than it is (`up`). `node tools/terrain.mjs <id>` writes `<id>/terrain.js`;
+  `city.js` exports it as `TERRAIN`. The game stays flat, only what is drawn is lifted (`core/js/terrain.js`).
 
 The map is centred on its first race route and scaled by 1.25, so a monument's position in game
 metres depends on the route. `angkor-wat/frame.js` turns OpenStreetMap's metres into the map's;
