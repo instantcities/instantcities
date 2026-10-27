@@ -15,7 +15,7 @@
 //   forecourt.js     the two halls of the forecourt south of the gate, in place of the map's blocks
 //   map.js           the streets, buildings and trees: made from area.json by
 //                    `node tools/osm_map.mjs taj-mahal`, do not edit by hand
-export { MAP } from './map.js';
+import { MAP as OSM } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
@@ -26,6 +26,13 @@ import { GARDEN } from './garden.js';
 import { FORECOURT } from './forecourt.js';
 
 export const MONUMENTS = [...TAJ, ...MOSQUES, ...GATE, ...GARDEN, ...FORECOURT];
+
+// The garden's canals and pools are filled nearly to the brim, a hand's breadth under the walks
+// (the tomb mirrors in them), not sunk between quay walls like a river; the Yamuna behind the
+// tomb (the one big area) stays at the river's level.
+const CANAL_LEVEL = -0.3;
+const span = p => Math.max(...p.filter((_, k) => k % 2 === 0)) - Math.min(...p.filter((_, k) => k % 2 === 0));
+export const MAP = { ...OSM, areas: OSM.areas.map(a => (a.k === 'water' && span(a.p) < 400 ? { ...a, level: CANAL_LEVEL } : a)) };
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the walks

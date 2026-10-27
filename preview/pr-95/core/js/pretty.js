@@ -204,17 +204,41 @@ void main() {`)
   material.needsUpdate = true;
 }
 
+// The bodies of water (scenery.js), as boxes with their level: the mirror lies at the level of the
+// one the camera looks at (a garden's pools lie higher than a river).
+const bodies = [];
+export function prettyBodies(list) {
+  if (!PRETTY) return;
+  for (const b of list) {
+    const p = b.poly ?? b.p, r = b.half ?? 0;
+    let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
+    for (let k = 0; k < p.length; k += 2) { x0 = Math.min(x0, p[k]); x1 = Math.max(x1, p[k]); z0 = Math.min(z0, p[k + 1]); z1 = Math.max(z1, p[k + 1]); }
+    bodies.push({ x0: x0 - r, x1: x1 + r, z0: z0 - r, z1: z1 + r, size: (x1 - x0 + 2 * r) * (z1 - z0 + 2 * r), level: b.level });
+  }
+}
+// (the nearest box to (x, z); of those it lies in, the smallest)
+function levelAt(x, z) {
+  let best = null, bd = Infinity;
+  for (const b of bodies) {
+    const dx = Math.max(b.x0 - x, 0, x - b.x1), dz = Math.max(b.z0 - z, 0, z - b.z1), d = dx * dx + dz * dz;
+    if (d < bd || (d === 0 && bd === 0 && b.size < best.size)) { best = b; bd = d; }
+  }
+  return best?.level ?? WATER;
+}
+
 const plane = new THREE.Plane(), clip = new THREE.Vector4(), q = new THREE.Vector4();
 const camPos = new THREE.Vector3(), look = new THREE.Vector3(), rot = new THREE.Matrix4();
 function reflect(renderer, scene, cam, w, h) {
-  const level = WATER + 0.008;
   cam.getWorldPosition(camPos);
+  rot.extractRotation(cam.matrixWorld);
+  look.set(0, 0, -1).applyMatrix4(rot);
+  const ahead = Math.hypot(look.x, look.z) || 1;
+  const level = levelAt(camPos.x + look.x / ahead * 25, camPos.z + look.z / ahead * 25) + 0.008;
   if (!waters.size || camPos.y < level + 0.2) return;
   const pr = renderer.getPixelRatio(), rw = Math.round(w * pr * 0.5), rh = Math.round(h * pr * 0.5);
   if (reflectRT.width !== rw || reflectRT.height !== rh) reflectRT.setSize(rw, rh);
   // the camera mirrored in the water's plane
-  rot.extractRotation(cam.matrixWorld);
-  look.set(0, 0, -1).applyMatrix4(rot).add(camPos);
+  look.add(camPos);
   mirrorCam.position.set(camPos.x, 2 * level - camPos.y, camPos.z);
   mirrorCam.up.set(0, 1, 0).applyMatrix4(rot);
   mirrorCam.up.y = -mirrorCam.up.y;
