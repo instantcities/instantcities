@@ -391,6 +391,14 @@ export class WallBatch {
     m.castShadow = m.receiveShadow = true;
     return m;
   }
+  // the same, as the shade at the walls' foot (footShade)
+  shadeMesh() {
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.Float32BufferAttribute(this.pos, 3));
+    geo.setAttribute('uv', new THREE.Float32BufferAttribute(this.uv, 2));
+    geo.setIndex(this.idx);
+    return new THREE.Mesh(geo, footShadeMaterial());
+  }
 }
 
 // the texture of one variant of a ruin's wall, plain or with a doorway or a shop's opening
@@ -403,4 +411,31 @@ export function ruinTexture(variant, kind = '', seed = 1) {
   t.wrapS = THREE.RepeatWrapping;
   t.anisotropy = 8;
   return t;
+}
+
+// The shade at the foot of a ruin's wall, on the ground both sides of it: a band w wide, dark against
+// the wall and fading out, so the walls sit on the ground instead of standing on it like cut-outs (the
+// light of the open sky is shut out low down beside a wall). Into sb (vert and idx, as ruinWall's).
+export function footShade(sb, ax, az, bx, bz, nx, nz, L, y0, w = 1.2) {
+  for (const side of [1, -1]) {
+    const ox = nx * w * side, oz = nz * w * side, y = y0 + 0.1;
+    const a = sb.vert(ax, y, az, 0, 1, 0, 0, 0), b = sb.vert(bx, y, bz, 0, 1, 0, L, 0);
+    const c = sb.vert(bx + ox, y, bz + oz, 0, 1, 0, L, 1), d = sb.vert(ax + ox, y, az + oz, 0, 1, 0, 0, 1);
+    sb.idx.push(a, b, c, a, c, d);
+  }
+}
+
+// its material: black, its opacity falling off across the band (v), shared by all
+let shadeMat = null;
+export function footShadeMaterial() {
+  if (shadeMat) return shadeMat;
+  const c = document.createElement('canvas');
+  c.width = 4; c.height = 64;
+  const g = c.getContext('2d');
+  for (let y = 0; y < 64; y++) { const t = y / 63; g.fillStyle = `rgba(0,0,0,${(0.42 * (1 - t) * (1 - t)).toFixed(3)})`; g.fillRect(0, y, 4, 1); }
+  const t = new THREE.CanvasTexture(c);
+  t.flipY = false; // v = 0 is the canvas's top row: against the wall
+  t.userData.shared = true; // (one for every tile: js/tiles.js leaves it be)
+  shadeMat = new THREE.MeshBasicMaterial({ map: t, transparent: true, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 });
+  return shadeMat;
 }

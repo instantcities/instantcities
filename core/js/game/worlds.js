@@ -21,7 +21,7 @@ import { squareAt } from '../squares.js';
 import { atmosphere, isNight, snowCover } from '../weather.js';
 import { t_, SKY_FADE } from './base.js';
 import { game } from './settings.js';
-import { scene, hemi, sun, weather, headlamps } from './scene.js';
+import { scene, hemi, sun, weather, headlamps, renderer } from './scene.js';
 import { setupMinimap } from './minimap.js';
 
 export const trackShapes = TRACKS.map(cfg => new Track(cfg));
@@ -280,6 +280,10 @@ function applyTheme(theme) {
   sun.color.set(theme.sun.color);
   sun.intensity = theme.sun.intensity;
   sun.position.set(...theme.sun.pos);
+  // a theme's tone (Pompeii's): filmic tone mapping, so a strong sun and the cool shade beside it
+  // both keep their colour instead of the sunlit walls going flat and pale
+  renderer.toneMapping = theme.tone ? THREE.ACESFilmicToneMapping : THREE.NoToneMapping;
+  renderer.toneMappingExposure = theme.tone?.exposure ?? 1;
   const [sx, sy] = theme.shadow;
   Object.assign(sun.shadow.camera, { left: -sx, right: sx, top: sy, bottom: -sy, near: 10, far: 600 });
   sun.shadow.camera.updateProjectionMatrix();
