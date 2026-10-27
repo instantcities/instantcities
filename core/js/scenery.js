@@ -1648,8 +1648,8 @@ function sunkenWater(ctx, map, layers, foot = () => false) {
         banks.idx.push(a, b, c, a, c, d);
         continue;
       }
-      // steps down to the water where people walk along the quay
-      if (L > 3 && foot(mx - nx * s * 3, mz - nz * s * 3)) landings.push({ x: x0, z: z0, ux: (bx - ax) / L, uz: (bz - az) / L, nx: nx * s / 0.3, nz: nz * s / 0.3 });
+      // steps down to the water where people walk along the quay (not into a pool filled nearly to the brim)
+      if (L > 3 && !(body.level > -0.6) && foot(mx - nx * s * 3, mz - nz * s * 3)) landings.push({ x: x0, z: z0, ux: (bx - ax) / L, uz: (bz - az) / L, nx: nx * s / 0.3, nz: nz * s / 0.3 });
       if (foot(mx - nx * s * 3, mz - nz * s * 3)) ctx.quays.push({ x: mx, z: mz, ux: (bx - ax) / L, uz: (bz - az) / L, nx: nx * s / 0.3, nz: nz * s / 0.3 });
       // from the ground's height on the land side (a quay lying lower than the street, js/hollows.js)
       const top = (x, z) => Math.min(0, sunk(x - nx * s * 2, z - nz * s * 2)) + 0.01;
