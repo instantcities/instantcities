@@ -1,0 +1,12 @@
+{
+  "id": "giza",
+  "name": "Instant Giza",
+  "title": "Instant Giza: a free virtual 3D tour and game",
+  "description": "Explore the pyramids and the Sphinx on the Giza plateau. Explore, race or take a guided tour in your browser.",
+  "share_title": "Instant Giza",
+  "share_description": "Explore the pyramids and the Sphinx on the Giza plateau.",
+  "ld_description": "Explore the pyramids and the Sphinx on the Giza plateau.",
+  "noscript": "<p>Turn on JavaScript to explore Giza.</p>",
+  "city_en": "Giza",
+  "style": ":root { --paper: #f7f3e9; --accent: #796543; --sky: #e5ebdf; --skyline: #c7ad7b; }"
+}

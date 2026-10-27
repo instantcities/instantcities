@@ -1,0 +1,15 @@
+{
+  "racks": [
+    { "street": "Korenmarkt", "grid": { "x": [-145, -140], "z": [-110, -102, -94, -86, -78], "turn": 1.5 } },
+    { "street": "Vrijdagmarkt", "count": 3 },
+    { "street": "Sint-Baafsplein", "count": 2 },
+    { "street": "Koningin Fabiolalaan", "count": 5 },
+    { "street": "Sint-Veerleplein", "count": 1 },
+    { "street": "Kouter", "count": 2 },
+    { "street": "Overpoortstraat", "count": 3 },
+    { "street": "Veldstraat", "count": 2 },
+    { "street": "Cederstraat", "count": 1, "clear": 2.2 },
+    { "street": "Sparrestraat", "count": 1 },
+    { "street": "Boerderijstraat", "count": 1 }
+  ]
+}
