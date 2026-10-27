@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/site.css?v=1793049929">
+  <link rel="stylesheet" href="/assets/site.css?v=1793121254">
   <!-- Google Analytics (gtag.js), only on the real site: not on localhost or the Netlify previews -->
   <script>
     if (location.hostname === 'instantcities.net') {
@@ -121,17 +121,17 @@
           <figcaption>The game's own map. The dashed line is the race. Map data © OpenStreetMap contributors.</figcaption>
         </figure>
         <ol class="site-places">
-          <li><span class="n">1</span><div><h3>🏛️ The Forum</h3><p>The square at the middle of Pompeii, 140 metres long, closed to carts. Temples, the basilica, the market and the offices of the town stood round it, and people came to trade, vote and hear the news.</p></div></li>
-          <li><span class="n">2</span><div><h3>⛩️ Temple of Jupiter</h3><p>The main temple of the town, at the north end of the Forum, built for Jupiter, Juno and Minerva. Vesuvius stands right behind it. An earthquake in AD 62 had already damaged it, and it was still being repaired in AD 79.</p></div></li>
-          <li><span class="n">3</span><div><h3>⚖️ The Basilica</h3><p>The law court and exchange, on the south-west corner of the Forum, about 150 BC. It is the oldest basilica we know of, and one of the biggest buildings in town.</p></div></li>
-          <li><span class="n">4</span><div><h3>☀️ Temple of Apollo</h3><p>The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.</p></div></li>
-          <li><span class="n">5</span><div><h3>🪨 Stepping stones</h3><p>Streets ran with rainwater and rubbish, so there are blocks of lava to cross on. The gaps between them are as wide as a cart’s wheels, and you can still see the ruts the carts cut in the paving.</p></div></li>
-          <li><span class="n">6</span><div><h3>🛁 The Stabian Baths</h3><p>The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.</p></div></li>
-          <li><span class="n">7</span><div><h3>🏮 The Lupanare</h3><p>A small two-floor brothel with ten rooms, the best known of the town’s many. Its stone beds and the pictures and graffiti on its walls are still there.</p></div></li>
-          <li><span class="n">8</span><div><h3>🗿 House of the Faun</h3><p>The biggest house in Pompeii, filling a whole block, with two atria and two gardens. A small bronze faun dances in its pool. The huge mosaic of Alexander the Great in battle was found here.</p></div></li>
-          <li><span class="n">9</span><div><h3>🎭 The Great Theatre</h3><p>A Greek-style theatre cut into the hillside in the 2nd century BC, for about 5,000 people. The smaller Odeon beside it was roofed, for concerts and readings.</p></div></li>
-          <li><span class="n">10</span><div><h3>⚱️ Garden of the Fugitives</h3><p>Thirteen people, children among them, died in this garden under the ash. Their bodies rotted away and left hollows in the ash, which had set hard. In 1863 Giuseppe Fiorelli had plaster poured into the hollows, and the casts show the people as they lay. More are in the Forum Granaries.</p></div></li>
-          <li><span class="n">11</span><div><h3>🏟️ The Amphitheatre</h3><p>Built about 70 BC, the oldest stone amphitheatre there is, for some 20,000 people. In AD 59 a fight between the fans of Pompeii and Nuceria here ended in a riot, and Rome shut the arena for ten years.</p></div></li>
+          <li id="forum"><span class="n">1</span><div><h3>🏛️ The Forum</h3><p>The square at the middle of Pompeii, 140 metres long, closed to carts. Temples, the basilica, the market and the offices of the town stood round it, and people came to trade, vote and hear the news.</p></div></li>
+          <li id="jupiter"><span class="n">2</span><div><h3>⛩️ Temple of Jupiter</h3><p>The main temple of the town, at the north end of the Forum, built for Jupiter, Juno and Minerva. Vesuvius stands right behind it. An earthquake in AD 62 had already damaged it, and it was still being repaired in AD 79.</p></div></li>
+          <li id="basilica"><span class="n">3</span><div><h3>⚖️ The Basilica</h3><p>The law court and exchange, on the south-west corner of the Forum, about 150 BC. It is the oldest basilica we know of, and one of the biggest buildings in town.</p></div></li>
+          <li id="apollo"><span class="n">4</span><div><h3>☀️ Temple of Apollo</h3><p>The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.</p></div></li>
+          <li id="stepping-stones"><span class="n">5</span><div><h3>🪨 Stepping stones</h3><p>Streets ran with rainwater and rubbish, so there are blocks of lava to cross on. The gaps between them are as wide as a cart’s wheels, and you can still see the ruts the carts cut in the paving.</p></div></li>
+          <li id="stabian-baths"><span class="n">6</span><div><h3>🛁 The Stabian Baths</h3><p>The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.</p></div></li>
+          <li id="lupanare"><span class="n">7</span><div><h3>🏮 The Lupanare</h3><p>A small two-floor brothel with ten rooms, the best known of the town’s many. Its stone beds and the pictures and graffiti on its walls are still there.</p></div></li>
+          <li id="casa-del-fauno"><span class="n">8</span><div><h3>🗿 House of the Faun</h3><p>The biggest house in Pompeii, filling a whole block, with two atria and two gardens. A small bronze faun dances in its pool. The huge mosaic of Alexander the Great in battle was found here.</p></div></li>
+          <li id="grand-theatre"><span class="n">9</span><div><h3>🎭 The Great Theatre</h3><p>A Greek-style theatre cut into the hillside in the 2nd century BC, for about 5,000 people. The smaller Odeon beside it was roofed, for concerts and readings.</p></div></li>
+          <li id="casts"><span class="n">10</span><div><h3>⚱️ Garden of the Fugitives</h3><p>Thirteen people, children among them, died in this garden under the ash. Their bodies rotted away and left hollows in the ash, which had set hard. In 1863 Giuseppe Fiorelli had plaster poured into the hollows, and the casts show the people as they lay. More are in the Forum Granaries.</p></div></li>
+          <li id="amphitheatre"><span class="n">11</span><div><h3>🏟️ The Amphitheatre</h3><p>Built about 70 BC, the oldest stone amphitheatre there is, for some 20,000 people. In AD 59 a fight between the fans of Pompeii and Nuceria here ended in a riot, and Rome shut the arena for ten years.</p></div></li>
         </ol>
       </div>
     </section>
@@ -158,6 +158,10 @@
     <p class="alt">Other sites
       <a href="/sites/taj-mahal/">Taj Mahal</a>
       <a href="/sites/angkor-wat/">Angkor Wat</a>
+      <a href="/sites/stonehenge/">Stonehenge</a>
+      <a href="/sites/giza/">Giza</a>
+      <a href="/sites/acropolis/">Acropolis</a>
+      <a href="/sites/machu-picchu/">Machu Picchu</a>
       <a href="/sites/">All sites</a>
     </p>
     <p>Map data © OpenStreetMap contributors (ODbL). Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
