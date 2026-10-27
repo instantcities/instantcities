@@ -1,6 +1,6 @@
 # Sites
 
-A site is a famous place that is not a city: the Taj Mahal, Angkor Wat. It plays like a small city
+A site is a famous place that is not a city: the Taj Mahal, Angkor Wat, Pompeii, Stonehenge, Giza, the Acropolis and Machu Picchu. It plays like a small city
 (`taj-mahal/play/`), with a race, a tour and quests, but it has no streets of houses. What is there
 is the monument, modelled by hand, and what OpenStreetMap has around it: paths, water, walls, trees.
 
@@ -50,3 +50,23 @@ puts you in the game at a point, looking that way.
 
 The game's "Back to the website" link goes to `/<id>/`. For a site that is a small page that sends
 the visitor on to `/sites/<id>/` (`<id>/index.html`, `layout: redirect`).
+
+## The four smaller archaeological maps
+
+Stonehenge, Giza, the Acropolis and Machu Picchu have visitor circuits drawn in `area.json`,
+with surrounding data downloaded from OpenStreetMap. Each circuit leg has a different name:
+the route builder joins named legs at their shared ends. One closed way with a single name
+would give a zero-length route.
+
+`frame.js` projects local real metres east and south of the origin through `MAP.geo`. Models,
+sights, quests and tour cameras share that projection, so rebuilding the map does not move
+one relative to the others. `core/js/site-model.js` supplies stone blocks, columns and rooms;
+each site's `monuments.js` supplies its own layout and collision footprints.
+
+These are simplified models. Machu Picchu's mountain is a scenic approximation; the visitor
+circuit is level. Acropolis also has a level summit circuit. They are not surveyed terrain
+reconstructions. Historical background links are in `_data/sites.yml` and on each site page.
+
+`node tools/sitecheck.mjs` briefly loads each site in one browser, checks its map and content,
+renders its monuments and starts a race. `--pictures` updates the site cards from those views.
+It needs the full site running at `http://127.0.0.1:4000`, Chrome and global Playwright.

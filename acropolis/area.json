@@ -1,0 +1,121 @@
+{
+  "city": "Athens",
+  "origin": [
+    37.9715,
+    23.7267
+  ],
+  "bbox": [
+    37.9689,
+    23.7219,
+    37.9742,
+    23.7308
+  ],
+  "zone_points": [
+    [
+      37.9742,
+      23.7219
+    ],
+    [
+      37.9742,
+      23.7308
+    ],
+    [
+      37.9689,
+      23.7308
+    ],
+    [
+      37.9689,
+      23.7219
+    ]
+  ],
+  "hw": 3,
+  "geo": true,
+  "streets": [
+    {
+      "name": "Summit walk 1",
+      "points": [
+        [
+          -180,
+          10
+        ],
+        [
+          -175,
+          65
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Summit walk 2",
+      "points": [
+        [
+          -175,
+          65
+        ],
+        [
+          85,
+          65
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Summit walk 3",
+      "points": [
+        [
+          85,
+          65
+        ],
+        [
+          105,
+          -90
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Summit walk 4",
+      "points": [
+        [
+          105,
+          -90
+        ],
+        [
+          -80,
+          -90
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Summit walk 5",
+      "points": [
+        [
+          -80,
+          -90
+        ],
+        [
+          -180,
+          10
+        ]
+      ],
+      "surface": "paving_stones"
+    }
+  ],
+  "routes": [
+    {
+      "id": "circuit",
+      "route": [
+        "Summit walk 1",
+        "Summit walk 2",
+        "Summit walk 3",
+        "Summit walk 4",
+        "Summit walk 5"
+      ]
+    }
+  ],
+  "gables": false,
+  "roofs": "flat",
+  "floors": 1,
+  "only_named_buildings": true
+}

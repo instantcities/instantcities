@@ -64,22 +64,54 @@
     - { label: "In the game", text: "The streets and houses, the Forum with its colonnades and the Temple of Jupiter, the amphitheatre and Vesuvius" }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 - id: stonehenge
-  name: Stonehenge
-  place: Wiltshire, England
-  soon: true
-  card: "The ring of standing stones on Salisbury Plain, with the midsummer sunrise over the Heel Stone."
+  name: "Stonehenge"
+  place: "Wiltshire, England"
+  game: "Instant Stonehenge"
+  title: "Instant Stonehenge: a free virtual 3D tour and game"
+  description: "Walk around the standing stones on Salisbury Plain. Explore, race or take a guided tour in your browser."
+  tagline: "Walk around the standing stones on Salisbury Plain."
+  lead: "The surviving sarsen circle, five great trilithons and smaller bluestones, with the Heel Stone beside the approach."
+  card: "The surviving sarsen circle, five great trilithons and smaller bluestones, with the Heel Stone beside the approach."
+  features: [{"icon": "castle", "title": "The monuments", "text": "The surviving sarsen circle, five great trilithons and smaller bluestones, with the Heel Stone beside the approach."}, {"icon": "flag", "title": "Around the stones", "text": "Follow the marked circuit, or leave the race to explore freely. Play alone or with two players on one keyboard."}, {"icon": "compass", "title": "A tour and a quest", "text": "Take a flight over the site with short explanations of its landmarks, or find your walking group before the tour leaves."}]
+  facts: [{"label": "Period", "text": "Built in several stages during the Neolithic and Bronze Age"}, {"label": "Stones", "text": "Large sarsens and smaller bluestones"}, {"label": "Setting", "text": "Salisbury Plain, Wiltshire"}, {"label": "In the game", "text": "A simplified model of the site. The visitor circuit is drawn by hand; surrounding map data comes from OpenStreetMap."}]
+  credits: "Map data © OpenStreetMap contributors (ODbL). Models made for Instant Cities."
+  sources: [{"title": "History and background", "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/"}]
 - id: giza
-  name: Giza
-  place: Giza, Egypt
-  soon: true
-  card: "The three great pyramids and the Sphinx on their plateau above the Nile."
+  name: "Giza"
+  place: "Giza, Egypt"
+  game: "Instant Giza"
+  title: "Instant Giza: a free virtual 3D tour and game"
+  description: "Explore the pyramids and the Sphinx on the Giza plateau. Explore, race or take a guided tour in your browser."
+  tagline: "Explore the pyramids and the Sphinx on the Giza plateau."
+  lead: "Three pyramids rise above the desert, with smaller queens’ pyramids, ruined temples and the Sphinx on the eastern side."
+  card: "Three pyramids rise above the desert, with smaller queens’ pyramids, ruined temples and the Sphinx on the eastern side."
+  features: [{"icon": "castle", "title": "The monuments", "text": "Three pyramids rise above the desert, with smaller queens’ pyramids, ruined temples and the Sphinx on the eastern side."}, {"icon": "flag", "title": "The plateau circuit", "text": "Follow the marked circuit, or leave the race to explore freely. Play alone or with two players on one keyboard."}, {"icon": "compass", "title": "A tour and a quest", "text": "Take a flight over the site with short explanations of its landmarks, or find your walking group before the tour leaves."}]
+  facts: [{"label": "Period", "text": "The Fourth Dynasty of ancient Egypt, in the third millennium BC"}, {"label": "Pyramids", "text": "Khufu, Khafre and Menkaure"}, {"label": "Setting", "text": "The desert plateau west of the Nile"}, {"label": "In the game", "text": "A simplified model of the site. The visitor circuit is drawn by hand; surrounding map data comes from OpenStreetMap."}]
+  credits: "Map data © OpenStreetMap contributors (ODbL). Models made for Instant Cities."
+  sources: [{"title": "History and background", "url": "https://whc.unesco.org/en/list/86/"}]
 - id: acropolis
-  name: Acropolis
-  place: Athens, Greece
-  soon: true
-  card: "The Parthenon and the other temples on the rock above Athens."
+  name: "Acropolis"
+  place: "Athens, Greece"
+  game: "Instant Acropolis"
+  title: "Instant Acropolis: a free virtual 3D tour and game"
+  description: "Walk among the temples on the Acropolis of Athens. Explore, race or take a guided tour in your browser."
+  tagline: "Walk among the temples on the Acropolis of Athens."
+  lead: "The Parthenon, the Erechtheion and the western gateway stand on the rocky summit above Athens."
+  card: "The Parthenon, the Erechtheion and the western gateway stand on the rocky summit above Athens."
+  features: [{"icon": "castle", "title": "The monuments", "text": "The Parthenon, the Erechtheion and the western gateway stand on the rocky summit above Athens."}, {"icon": "flag", "title": "Around the summit", "text": "Follow the marked circuit, or leave the race to explore freely. Play alone or with two players on one keyboard."}, {"icon": "compass", "title": "A tour and a quest", "text": "Take a flight over the site with short explanations of its landmarks, or find your walking group before the tour leaves."}]
+  facts: [{"label": "Period", "text": "The principal temples date from the fifth century BC"}, {"label": "Parthenon", "text": "A temple dedicated to Athena, with eight columns across each end"}, {"label": "Setting", "text": "A fortified limestone hill above Athens"}, {"label": "In the game", "text": "A simplified model of the site. The visitor circuit is drawn by hand; surrounding map data comes from OpenStreetMap."}]
+  credits: "Map data © OpenStreetMap contributors (ODbL). Models made for Instant Cities."
+  sources: [{"title": "History and background", "url": "https://whc.unesco.org/en/list/404/"}]
 - id: machu-picchu
-  name: Machu Picchu
-  place: Cusco region, Peru
-  soon: true
-  card: "The Inca town on its ridge in the Andes, with its terraces and the mountain behind."
+  name: "Machu Picchu"
+  place: "Cusco region, Peru"
+  game: "Instant Machu Picchu"
+  title: "Instant Machu Picchu: a free virtual 3D tour and game"
+  description: "Explore the Inca stone town and its terraces in the Andes. Explore, race or take a guided tour in your browser."
+  tagline: "Explore the Inca stone town and its terraces in the Andes."
+  lead: "Roofless stone houses and temples sit between grassy terraces, with the steep profile of Huayna Picchu behind them."
+  card: "Roofless stone houses and temples sit between grassy terraces, with the steep profile of Huayna Picchu behind them."
+  features: [{"icon": "castle", "title": "The monuments", "text": "Roofless stone houses and temples sit between grassy terraces, with the steep profile of Huayna Picchu behind them."}, {"icon": "flag", "title": "Through the citadel", "text": "Follow the marked circuit, or leave the race to explore freely. Play alone or with two players on one keyboard."}, {"icon": "compass", "title": "A tour and a quest", "text": "Take a flight over the site with short explanations of its landmarks, or find your walking group before the tour leaves."}]
+  facts: [{"label": "Period", "text": "Built during the fifteenth century, in the Inca Empire"}, {"label": "Altitude", "text": "About 2,430 metres above sea level"}, {"label": "Setting", "text": "A ridge between the Andes and the Amazon basin"}, {"label": "In the game", "text": "A simplified model of the site. The visitor circuit is drawn by hand; surrounding map data comes from OpenStreetMap."}]
+  credits: "Map data © OpenStreetMap contributors (ODbL). Models made for Instant Cities."
+  sources: [{"title": "History and background", "url": "https://whc.unesco.org/en/list/274/"}]
