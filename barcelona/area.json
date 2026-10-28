@@ -1,29 +1,70 @@
 {
   "city": "Barcelona",
   "bbox": [
-    41.374,
-    2.166,
-    41.389,
-    2.184
+    41.367,
+    2.158,
+    41.407,
+    2.2
   ],
   "zone_points": [
     [
+      41.374,
+      2.166
+    ],
+    [
       41.389,
       2.166
     ],
     [
+      41.3958,
+      2.1588
+    ],
+    [
+      41.3985,
+      2.162
+    ],
+    [
+      41.4065,
+      2.1738
+    ],
+    [
+      41.4062,
+      2.179
+    ],
+    [
       41.389,
-      2.184
+      2.1845
+    ],
+    [
+      41.386,
+      2.1885
+    ],
+    [
+      41.3868,
+      2.201
+    ],
+    [
+      41.3775,
+      2.1965
+    ],
+    [
+      41.37,
+      2.1935
+    ],
+    [
+      41.368,
+      2.188
+    ],
+    [
+      41.372,
+      2.178
     ],
     [
       41.374,
-      2.184
-    ],
-    [
-      41.374,
-      2.166
+      2.172
     ]
   ],
+  "zone_outline": true,
   "routes": [
     {
       "id": "rambla",
@@ -46,6 +87,41 @@
         "Carrer dels Arcs",
         "Avinguda del Portal de l'Àngel",
         "Carrer de Fontanella"
+      ]
+    },
+    {
+      "id": "gaudi",
+      "route": [
+        "Plaça de Catalunya",
+        "Passeig de Gràcia",
+        "Carrer de València",
+        "Carrer de Sardenya"
+      ],
+      "from": [
+        41.3872,
+        2.1698
+      ],
+      "to": [
+        41.4031,
+        2.1728
+      ]
+    },
+    {
+      "id": "platja",
+      "route": [
+        "Passeig de Colom",
+        "Plaça de Pau Vila",
+        "Passeig de Joan de Borbó",
+        "Plaça del Mar",
+        "Passeig Marítim de la Barceloneta - Oriol Bohigas i Guardiola"
+      ],
+      "from": [
+        41.3766,
+        2.1792
+      ],
+      "to": [
+        41.3838,
+        2.1975
       ]
     }
   ],
