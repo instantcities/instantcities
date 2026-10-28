@@ -30,3 +30,19 @@ export const MONUMENTS=[
  monument(game,'propylaea','Propylaea',-140,0,()=>temple(18,28,4,6,8),[rect(-10,-15,-4,15),rect(4,-15,10,15)]),
  monument(game,'athena-nike','Temple of Athena Nike',-153,36,()=>temple(8,5.5,4,2,4),[rect(-5,-4,5,4)]),
 ];
+// Fallen drums and squared blocks around the Parthenon, with a low fortification along the rim.
+MONUMENTS.push(monument(game,'summit-stone','Stone on the summit',0,0,()=>{
+ const k=new Kit();
+ for(const [x,z] of [[-47,24],[-43,27],[46,-26],[52,-25],[57,-23],[-38,-27]]) {
+  k.box(2.2,.8,1.4,'#c1b59c',x,.4,z,0,x*.1);
+  k.box(1.4,.5,.9,'#d1c6ad',x+.5,1.05,z+.2,0,z*.1);
+ }
+ for(const [x,z] of [[48,23],[53,27],[-48,-23]]) {
+  k.rod([x-1,1,z],[x+1,1,z],1,'#c7baa0',16);
+ }
+ for(const [ax,az,bx,bz] of [[-205,-100,115,-100],[115,-100,130,90],[130,90,-195,95],[-195,95,-205,-100]]) {
+  const len=Math.hypot(bx-ax,bz-az),n=Math.ceil(len/3),turn=Math.atan2(-(bz-az),bx-ax);
+  for(let i=0;i<n;i++) {const t=(i+.5)/n;k.box(len/n+.03,2.4,1.8,i%3?'#a69b82':'#baad90',ax+(bx-ax)*t,1.2,az+(bz-az)*t,0,turn);}
+ }
+ return k.mesh(kitMat(.98));
+},[],{reach:700}));

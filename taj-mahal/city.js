@@ -1,3 +1,4 @@
+import { dressMonuments } from '../core/js/site-style.js';
 // Taj Mahal: everything the game needs to know about the site it is set in. The Taj Mahal and its
 // garden in Agra, India: the great gate, the charbagh with its canals and pools, the tomb on its
 // platform with the four minarets, and the mosque and the Jawab on either side. A site, not a
@@ -25,7 +26,7 @@ import { GATE } from './gate.js';
 import { GARDEN } from './garden.js';
 import { FORECOURT } from './forecourt.js';
 
-export const MONUMENTS = [...TAJ, ...MOSQUES, ...GATE, ...GARDEN, ...FORECOURT];
+export const MONUMENTS = dressMonuments([...TAJ, ...MOSQUES, ...GATE, ...GARDEN, ...FORECOURT], 'taj-mahal');
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the walks
@@ -48,7 +49,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#b5a27a', paving: '#d8c8a8', verge: 0xd8c8a8, kerb: 0xe8dcc2, fog: [220, 900], weathers: ['clear'] };
+export { THEME } from './appearance.js';
 
 // How the houses around it look: low plastered houses in sand, pink and cream with flat roofs.
 export const LOOK = {
@@ -74,3 +75,31 @@ export const PLACES = [
   { name: 'The mosque', x: -264, z: -254, side: 'l' },
   { name: 'The Jawab', x: 82, z: -254, side: 'r' },
 ];
+
+// Visitors favour the main approach and the viewing paths.
+export const BUSY = {
+  "walkers": 150,
+  "cyclists": 0,
+  "streets": [
+    {
+      "street": "Central Walk",
+      "weight": 4,
+      "free": true
+    },
+    {
+      "street": "Front Walk",
+      "weight": 2,
+      "free": true
+    },
+    {
+      "street": "East Walk",
+      "weight": 2,
+      "free": true
+    },
+    {
+      "street": "South Walk",
+      "weight": 2,
+      "free": true
+    }
+  ]
+};
