@@ -17,7 +17,7 @@ const shots={
  'machu-picchu': {from:[210,170,270],look:[0,65,-110]},
  'taj-mahal': {camera:[-130,42,-65],look:[-91,32,-254]},
  'angkor-wat': {camera:[50,58,160],look:[378,45,88]},
- 'pompeii': {camera:[-220,40,310],look:[-137,6,125]},
+ 'pompeii': {camera:[-20,35,310],look:[-137,6,125]},
 };
 fs.mkdirSync('tools/cache/sitecheck',{recursive:true});
 const browser=await chromium.launch({channel:'chrome',headless:true,args:['--ignore-gpu-blocklist']});
