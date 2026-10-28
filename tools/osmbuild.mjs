@@ -530,7 +530,14 @@ function sea(ways, P, [x0, z0, x1, z1]) {
   const along = ([x, z]) => (z <= z0 ? x - x0 : x >= x1 ? W + z - z0 : z >= z1 ? W + H + x1 - x : 2 * W + H + z1 - z);
   const corners = [[x1, z0], [x1, z1], [x0, z1], [x0, z0]].map(c => [along(c) || 2 * (W + H), c]);
   const out = [];
+  // a coast that stops inside the box, where the download ended, goes on to the nearest edge
+  const toEdge = ([x, z]) => {
+    const d = [x - x0, x1 - x, z - z0, z1 - z], m = Math.min(...d);
+    return m === d[0] ? [x0, z] : m === d[1] ? [x1, z] : m === d[2] ? [x, z0] : [x, z1];
+  };
   for (const line of lines) {
+    if (inBox(line[0])) line.unshift(toEdge(line[0]));
+    if (inBox(line[line.length - 1])) line.push(toEdge(line[line.length - 1]));
     const a = line.findIndex(inBox), b = line.findLastIndex(inBox);
     if (a < 0 || a === 0 || b === line.length - 1) continue; // it has to come in and go out again
     const poly = [clamp(line[a - 1]), ...line.slice(a, b + 1), clamp(line[b + 1])];
@@ -610,7 +617,9 @@ export function buildMap(data, area) {
   if (A.zone_roads?.length) {
     zone = hull(ways.filter(wy => A.zone_roads.includes(tag(wy).name)).flatMap(pts));
   } else if (A.zone_points?.length) {
-    zone = hull(A.zone_points.map(([lat, lon]) => project({ lat, lon })));
+    // the corners in order when the zone bends (zone_outline), else the hull round them
+    const corners = A.zone_points.map(([lat, lon]) => project({ lat, lon }));
+    zone = A.zone_outline ? corners : hull(corners);
   } else {
     zone = hull(loops.flatMap(l => l.raw));
     zoneMargin = A.margin;
@@ -971,11 +980,11 @@ export function buildMap(data, area) {
     let kind = null;
     if (t.natural === 'water' || t.water || t.waterway === 'riverbank') kind = 'water';
     else if (t.leisure === 'pitch') kind = 'pitch';
-    else if (t.leisure === 'playground') kind = 'sand';
+    else if (t.leisure === 'playground' || t.natural === 'beach' || t.natural === 'sand') kind = 'sand';
     else if (t.amenity === 'parking' || (hwy === 'pedestrian' && t.area === 'yes')) kind = 'paved';
     else if (t.landuse === 'allotments') kind = 'allotments';
     else if (Object.entries(GREEN).some(([k, v]) => v.has(t[k]))) kind = WOODED.some(([k, v]) => t[k] === v) ? 'wood' : 'green';
-    if (kind) out.areas.push({ k: kind, p: flat(ring.map(G)) });
+    if (kind) out.areas.push({ k: kind, p: flat(ring.map(G)), ...(t.natural === 'beach' ? { beach: 1 } : {}) });
   }
   // the sea along the coast, out to a little beyond the box
   const [bx0, bz1] = project({ lat: s, lon: w }), [bx1, bz0] = project({ lat: n, lon: e });

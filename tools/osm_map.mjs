@@ -8,7 +8,8 @@
 // street names in riding order ({ "routes": [{ "id", "route": [...] }] }, or one "route": [...]).
 // Optional: bbox [s, w, n, e] (found from the first route and written back when missing),
 // zone_roads (the roads that enclose the neighbourhood) or zone_points (the corners of it as
-// [lat, lon]; else everything near the routes is kept), scale, hw, corner, margin, heights
+// [lat, lon]; else everything near the routes is kept; with zone_outline: true they are taken in
+// order as its outline, so the zone can bend round a corner, else the hull round them), scale, hw, corner, margin, heights
 // ("dhmv": every roof at its measured height, Flanders only, see tools/dhmv.mjs), roofs ("flat":
 // no pitched roof unless OSM gives the building a roof:shape), floors (the most storeys guessed for
 // a building OSM gives none), gables (false: old houses get no Flemish stepped gable; Ghent's and
