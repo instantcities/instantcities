@@ -1,3 +1,4 @@
+import { dressMonuments } from '../core/js/site-style.js';
 // Pompeii: everything the game needs to know about the site it is set in. The Roman town near Naples,
 // buried by Vesuvius in AD 79 and dug out again: its streets, the Forum with the Temple of Jupiter,
 // the baths, the houses and the amphitheatre. A site, not a city: the map is the excavation's own
@@ -31,7 +32,7 @@ import { PUBLICS } from './public.js';
 import { STONES } from './stones.js';
 import { CASTS } from './casts.js';
 
-export const MONUMENTS = [...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS];
+export const MONUMENTS = dressMonuments([...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS], 'pompeii');
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the streets
@@ -53,7 +54,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, roman: true, fog: [300, 1500], weathers: ['clear'] }; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
+export { THEME } from './appearance.js'; // roman: lava-block streets, gravel pavements, dry ground (js/track.js, js/scenery.js)
 
 // How the houses look: plaster in Pompeian red, ochre, yellow and cream, flat roofs of terracotta tiles.
 export const LOOK = {

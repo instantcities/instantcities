@@ -1,3 +1,4 @@
+import { THEME } from './appearance.js';
 // The race route at Angkor Wat. An open route: it runs along the walks of area.json (same id), in
 // riding order, from a START gate at the outer gopura to a FINISH gate east of the temple. seed: the
 // dice for the items and obstacles on it; anything else is passed to realTrack (js/realtrack.js).
@@ -15,6 +16,6 @@ export const RACES = [
     seed: 7200,
     hw: 4,
     bikers: 0,
-    theme: { pavement: 1.2, lampEvery: 1e9, paving: '#9a8d78', verge: 0x9a8d78 }, // stone slabs, no street lamps
+    theme: { ...THEME, pavement: 1.2, lampEvery: 1e9, paving: '#9a8d78', verge: 0x9a8d78 }, // stone slabs, no street lamps
   },
 ];

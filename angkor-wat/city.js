@@ -1,3 +1,4 @@
+import { dressMonuments } from '../core/js/site-style.js';
 // Angkor Wat: everything the game needs to know about the site it is set in. The temple in
 // Cambodia, the biggest religious building in the world: the moat, the causeway over it, the three
 // levels of galleries and the five towers. A site, not a city: the map is the temple's own piece of
@@ -21,7 +22,7 @@ import { TEMPLE } from './temple.js';
 import { CAUSEWAY } from './causeway.js';
 import { AVENUE } from './avenue.js';
 
-export const MONUMENTS = [...TEMPLE, ...CAUSEWAY, ...AVENUE];
+export const MONUMENTS = dressMonuments([...TEMPLE, ...CAUSEWAY, ...AVENUE], 'angkor-wat');
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the walks
@@ -43,7 +44,7 @@ export const WORDS = {
 
 // The colours of the open ground and the pavements, how far the fog lets you see (game metres)
 // and the weathers the site gets.
-export const THEME = { ground: '#7f9a4f', paving: '#9a8d78', verge: 0x9a8d78, kerb: 0xaaa090, fog: [260, 1400], weathers: ['clear', 'rain'] };
+export { THEME } from './appearance.js';
 
 // The few houses that stand around it: wooden, with tin and tile roofs.
 export const LOOK = {
@@ -65,3 +66,31 @@ export const PLACES = [
   { name: 'The libraries', x: -84, z: 83, side: 'l' },
   { name: 'Angkor Wat', x: 378, z: 88, side: 'r' },
 ];
+
+// Visitors favour the main approach and the viewing paths.
+export const BUSY = {
+  "walkers": 135,
+  "cyclists": 0,
+  "streets": [
+    {
+      "street": "Western Causeway",
+      "weight": 4,
+      "free": true
+    },
+    {
+      "street": "West Terrace",
+      "weight": 2,
+      "free": true
+    },
+    {
+      "street": "North Walk",
+      "weight": 2,
+      "free": true
+    },
+    {
+      "street": "East Walk",
+      "weight": 2,
+      "free": true
+    }
+  ]
+};

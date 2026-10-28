@@ -16,14 +16,22 @@ function terraces() {
  return k.mesh();
 }
 function mountain() {
- const k=new Kit(),r=rng(80);
- // A steep irregular mountain silhouette; this is scenery, not a surveyed elevation model.
- const g=new THREE.LatheGeometry([[160,0],[145,30],[120,80],[95,140],[65,205],[30,260],[0,290]].map(([x,y])=>new THREE.Vector2(x,y)),20);const p=g.attributes.position;
- const same=new Map();
- for(let i=0;i<p.count;i++) {const x=p.getX(i),y=p.getY(i),z=p.getZ(i),key=[x,y,z].map(v=>v.toFixed(3)).join(',');if(!same.has(key))same.set(key,.9+r()*.18);const jitter=same.get(key);p.setX(i,x*jitter+y*.12);p.setZ(i,z*jitter);}
- g.computeVertexNormals();k.add(g,'#536f4b',0,-6,0);
- k.add(new THREE.ConeGeometry(130,220,13,5),'#62794f',-210,80,30);
- k.add(new THREE.ConeGeometry(160,260,13,5),'#667d54',180,95,-80);
+ const k=new Kit();
+ // Shared positions at each seam keep the rock watertight. These profiles are scenery,
+ // with a rounded crown and ribs, rather than perfect cones or surveyed elevations.
+ const peak=(x,z,width,height,seed,color)=>{
+  const r=rng(seed),g=new THREE.LatheGeometry([[1,0],[.94,.12],[.79,.32],[.61,.55],[.38,.78],[.17,.94],[0,1]].map(([u,v])=>new THREE.Vector2(u*width,v*height)),24);
+  const p=g.attributes.position,same=new Map();
+  for(let i=0;i<p.count;i++) {
+   const px=p.getX(i),y=p.getY(i),pz=p.getZ(i),key=[px,y,pz].map(v=>Math.round(v*1000)).join(',');
+   if(!same.has(key))same.set(key,.9+r()*.17);
+   const jitter=same.get(key);p.setX(i,px*jitter+y*.1);p.setZ(i,pz*jitter);
+  }
+  g.computeVertexNormals();k.add(g,color,x,-6,z);
+ };
+ peak(0,0,160,290,80,'#536f4b');
+ peak(-195,30,130,190,81,'#62794f');
+ peak(180,-80,160,220,82,'#667d54');
  return k.mesh(kitMat(1));
 }
 export const MONUMENTS=[

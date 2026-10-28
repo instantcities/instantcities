@@ -63,10 +63,33 @@ sights, quests and tour cameras share that projection, so rebuilding the map doe
 one relative to the others. `core/js/site-model.js` supplies stone blocks, columns and rooms;
 each site's `monuments.js` supplies its own layout and collision footprints.
 
-These are simplified models. Machu Picchu's mountain is a scenic approximation; the visitor
-circuit is level. Acropolis also has a level summit circuit. They are not surveyed terrain
-reconstructions. Historical background links are in `_data/sites.yml` and on each site page.
+These are simplified models. The Acropolis summit and Machu Picchu ridge have stylised relief
+from `tools/site-terrain.mjs`; their visitor circuits stay on a level top. The mountains are
+scenic approximations. These are not surveyed terrain reconstructions. Historical background
+links are in `_data/sites.yml` and on each site page.
 
 `node tools/sitecheck.mjs` briefly loads each site in one browser, checks its map and content,
 renders its monuments and starts a race. `--pictures` updates the site cards from those views.
 It needs the full site running at `http://127.0.0.1:4000`, Chrome and global Playwright.
+
+## Materials, light and visitors
+
+Each site has `appearance.js`, shared by its `city.js` and any race that overrides the theme.
+Keep `...THEME` first in a race's partial theme: without it the race replaces the site's whole
+palette, fog and light with the engine defaults.
+
+`core/js/site-style.js` supplies distinct daytime skies and light and opt-in mineral textures.
+`dressMonuments` wraps the site's models, preserving their vertex colours, existing artwork,
+glass and metal. It adds metre-scale projected UVs for models built without them. Marble uses
+fine veins and a gentler bump; weathered stone uses grain, pits and hairline marks. Three small
+shared canvas textures cover the seven sites, and the existing low-power setting still reduces
+visitor counts and view distance on phones.
+
+The six quieter sites now use `BUSY` to put more visitors on their approaches and viewing walks;
+Pompeii retains its existing 320-person street crowd. Stonehenge's additional viewing path has a
+higher weight than the outer circuit. Explicit `AREAS` keep the stone circle and the two summits
+clear of generic park trees while leaving vegetation around them.
+
+Run `node tools/site-terrain.mjs` after rebuilding either hill site's map, then
+`node tools/sitemap.mjs` and `node tools/sitecheck.mjs --pictures`. A second check with `--mobile`
+exercises the lighter scene without replacing the page images.

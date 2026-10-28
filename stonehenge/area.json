@@ -114,6 +114,45 @@
         ]
       ],
       "surface": "paving_stones"
+    },
+    {
+      "name": "Stone circle viewing path",
+      "highway": "footway",
+      "surface": "compacted",
+      "points": [
+        [
+          -20,
+          30
+        ],
+        [
+          -34,
+          5
+        ],
+        [
+          -25,
+          -25
+        ],
+        [
+          0,
+          -35
+        ],
+        [
+          25,
+          -25
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          -20,
+          30
+        ]
+      ]
     }
   ],
   "routes": [

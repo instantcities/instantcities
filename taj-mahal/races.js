@@ -1,3 +1,4 @@
+import { THEME } from './appearance.js';
 // The race route at the Taj Mahal. It runs along the garden walks of area.json (same id), in riding
 // order, and closes on the first. seed: the dice for the items and obstacles on it; anything else is
 // passed to realTrack (js/realtrack.js). hw: half the walk's width, as in area.json.
@@ -14,6 +15,6 @@ export const RACES = [
     seed: 7100,
     hw: 4,
     bikers: 0,
-    theme: { pavement: 1.2, lampEvery: 1e9, paving: '#cbb892', verge: 0xcbb892 }, // a garden walk of sandstone slabs, no street lamps
+    theme: { ...THEME, pavement: 1.2, lampEvery: 1e9, paving: '#cbb892', verge: 0xcbb892 }, // a garden walk of sandstone slabs, no street lamps
   },
 ];

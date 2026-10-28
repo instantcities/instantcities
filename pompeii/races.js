@@ -1,3 +1,4 @@
+import { THEME } from './appearance.js';
 // The race route at Pompeii. It runs along the real streets of the route in area.json (same id), in
 // riding order, and closes on the first street. seed: the dice for the items and obstacles on it;
 // anything else is passed to realTrack (js/realtrack.js). hw: half the street's width, as in area.json.
@@ -14,6 +15,6 @@ export const RACES = [
     seed: 7300,
     hw: 3.2,
     bikers: 0,
-    theme: { roman: true, pavement: 1.2, lampEvery: 1e9, ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2, sky: 0x4a94de, horizon: 0xe2e6e4 }, // lava blocks and gravel, no street lamps, dry ground, a warmer horizon
+    theme: { ...THEME, roman: true, pavement: 1.2, lampEvery: 1e9, ground: '#b4ab97', paving: '#9b9484', verge: 0xa39a86, kerb: 0xb9b3a2 }, // lava blocks and gravel, no street lamps, dry ground, a warmer horizon
   },
 ];
