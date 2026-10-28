@@ -16,7 +16,6 @@ import { roomName, doorAction, putAt } from './indoors.js';
 import { paintballActive, cabOf, busQuest } from './physics.js';
 import { riding, seated, tramAction, updateDoorCard, toggleSeat, updateTramCard } from './transit.js';
 import { touch, tItem, tItemIco, tItemQueue, tFries, tFriesLabel } from './input.js';
-import { ART, MUSEUM_PAGES } from '../inside/artlist.js';
 import { ICONS } from './icons.js';
 
 // the sights' cards' icon (and the tour's): an eye, something to look at here
@@ -195,7 +194,7 @@ function updateSight(h, r) {
     }
     // a landmark's card (site-sights.js) has its page on the site; one inside a building, the page of
     // the famous piece it is about, or else of the museum
-    const href = s.secret ? '' : s.inside ? insidePage(s) : s.page ?? sightPage(s.id);
+    const href = sightPage(s.id);
     if (h.sightMore._href !== href) {
       h.sightMore._href = href;
       h.sightMore.hidden = !href;
@@ -210,19 +209,6 @@ function updateSight(h, r) {
   }
   // the pointers in the card's corner make room for it
   if (changed) h.el.style.setProperty('--sight-h', show ? `${h.sight.offsetHeight}px` : '0px');
-}
-
-// The page on the site for a card in a building's room: the famous piece it stands by (the one whose
-// view looks at a spot within its reach), or else the museum's
-function insidePage(s) {
-  const b = s.inside, x = s.x - b.x, z = s.z - b.z;
-  let best = null, bd = s.r + 3;
-  for (const a of ART) {
-    if (a.museum !== b.id) continue;
-    const d = Math.hypot(a.view[2] - x, a.view[3] - z);
-    if (d < bd) { best = a; bd = d; }
-  }
-  return best ? `/art/${best.id}/` : MUSEUM_PAGES[b.id] ?? '';
 }
 
 // While exploring, the bottom corners point the way to the sights nearby that are out of view: up

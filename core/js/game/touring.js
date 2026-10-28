@@ -14,7 +14,7 @@ import { hoopsAlong, Course, hoopMeshes } from '../dragonfly.js';
 import { t_, COMBOS, DRAGON, SOLO, clamp, wrapAngle, fmtTime, $ } from './base.js';
 import { game, WATCH, saveSettings } from './settings.js';
 import { renderer, scene, particles, menuCam, menuLook } from './scene.js';
-import { sightPage, flying, demo, report, world } from './worlds.js';
+import { tourPage, flying, demo, report, world } from './worlds.js';
 import { EYE } from './hud.js';
 import { menuEl, pauseEl, resultsEl, briefEl, setSky, startSky } from './menu.js';
 import { showRaceChrome } from './race.js';
@@ -280,7 +280,7 @@ export function showTourCard(st) {
     $('tourText').replaceChildren(ul);
   } else $('tourText').textContent = words.text;
   // the sight's own page on the site, in the game's language; a stop without one keeps its link
-  const link = (st.sight && sightPage(st.sight)) || (st.link && (st.link[getLang()] ?? st.link.en ?? st.link.nl));
+  const link = tourPage(st) || (st.link && (st.link[getLang()] ?? st.link.en ?? st.link.nl));
   $('tourMore').classList.toggle('hidden', !link);
   if (link) $('tourMore').href = link;
   $('tourNext').textContent = t_(st.end ? 'tour.again' : 'tour.next');
