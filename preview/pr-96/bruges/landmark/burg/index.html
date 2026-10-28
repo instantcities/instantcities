@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/bruges/landmark/burg/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/bruges/monument/burg/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/brugge/bezienswaardigheid/burg/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-96/en/bruges/landmark/burg/", "fr": "/preview/pr-96/fr/bruges/monument/burg/", "nl": "/preview/pr-96/nl/brugge/bezienswaardigheid/burg/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-96/en/bruges/landmark/burg/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-96/en/bruges/landmark/burg/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-96/fr/bruges/monument/burg/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-96/nl/brugge/bezienswaardigheid/burg/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
