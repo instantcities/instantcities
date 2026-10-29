@@ -1,0 +1,46 @@
+{
+  "city": "Brugge",
+  "bbox": [
+    51.2,
+    3.214,
+    51.214,
+    3.234
+  ],
+  "zone_points": [
+    [
+      51.214,
+      3.214
+    ],
+    [
+      51.214,
+      3.234
+    ],
+    [
+      51.2,
+      3.234
+    ],
+    [
+      51.2,
+      3.214
+    ]
+  ],
+  "routes": [
+    {
+      "id": "brugge",
+      "route": [
+        "Markt",
+        "Wollestraat",
+        "Rozenhoedkaai",
+        "Dijver",
+        "Gruuthusestraat",
+        "Guido Gezelleplein",
+        "Mariastraat",
+        "Simon Stevinplein",
+        "Steenstraat"
+      ]
+    }
+  ],
+  "floors": 4,
+  "hw": 3.6,
+  "heights": "dhmv"
+}

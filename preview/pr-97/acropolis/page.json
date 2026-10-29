@@ -1,0 +1,12 @@
+{
+  "id": "acropolis",
+  "name": "Instant Acropolis",
+  "title": "Instant Acropolis: a free virtual 3D tour and game",
+  "description": "Walk among the temples on the Acropolis of Athens. Explore, race or take a guided tour in your browser.",
+  "share_title": "Instant Acropolis",
+  "share_description": "Walk among the temples on the Acropolis of Athens.",
+  "ld_description": "Walk among the temples on the Acropolis of Athens.",
+  "noscript": "<p>Turn on JavaScript to explore Acropolis.</p>",
+  "city_en": "Acropolis",
+  "style": ":root { --paper: #f7f3e9; --accent: #796543; --sky: #e5ebdf; --skyline: #b5ab91; }"
+}
