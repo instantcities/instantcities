@@ -1,4 +1,6 @@
 import * as THREE from 'three';
+import { humanTorso, humanLimb, humanFace, humanHair, trouserLeg, ellipsoid } from './anatomy.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { createFigure, createStash } from './figure.js';
 import { inPolygon } from './collide.js';
 
@@ -135,7 +137,7 @@ const mat = color => new THREE.MeshStandardMaterial({ color, roughness: 0.8 });
 // parts: name -> [geometry, material, instances per walker or dog]
 function makeParts(group, people, dogs) {
   const P = (geo, n, count) => {
-    const im = new THREE.InstancedMesh(geo, mat(0xffffff), Math.max(1, count * n));
+    const im = new THREE.InstancedMesh(geo, new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8, vertexColors: !!geo.attributes.color }), Math.max(1, count * n));
     im.count = count * n; // none drawn when nobody has one
     im.castShadow = true;
     im.frustumCulled = false; // they move about
@@ -143,16 +145,21 @@ function makeParts(group, people, dogs) {
     return im;
   };
   return {
-    leg: P(new THREE.BoxGeometry(0.14, 0.82, 0.15).translate(0, -0.41, 0), 2, people),
-    torso: P(new THREE.BoxGeometry(0.42, 0.62, 0.24), 1, people),
-    arm: P(new THREE.BoxGeometry(0.1, 0.58, 0.11).translate(0, -0.29, 0), 2, people),
-    head: P(new THREE.SphereGeometry(0.15, 8, 6), 1, people),
-    hair: P(new THREE.SphereGeometry(0.16, 8, 4, 0, Math.PI * 2, 0, Math.PI / 2), 1, people),
+    leg: P(trouserLeg(), 2, people),
+    torso: P(humanTorso(), 1, people),
+    arm: P(humanLimb(0.12, 0.58), 2, people),
+    hand: P(ellipsoid(0.035, 0.055, 0.03, 10, 8).translate(0, -0.59, 0), 2, people),
+    head: P(humanFace(), 1, people),
+    hair: P(humanHair(), 1, people),
     paint: P(new THREE.BoxGeometry(0.2, 0.5, 0.27), 1, people), // blue paint on one side of the chest, once hit
-    dogBody: P(new THREE.BoxGeometry(0.26, 0.26, 0.62), 1, dogs),
-    dogHead: P(new THREE.BoxGeometry(0.22, 0.22, 0.28), 1, dogs),
-    dogLeg: P(new THREE.BoxGeometry(0.08, 0.32, 0.08).translate(0, -0.16, 0), 4, dogs),
-    tail: P(new THREE.BoxGeometry(0.05, 0.05, 0.28).translate(0, 0, -0.14), 1, dogs),
+    dogBody: P(ellipsoid(0.15, 0.16, 0.34, 12, 8), 1, dogs),
+    dogHead: P(mergeGeometries([
+      ellipsoid(0.12, 0.13, 0.14, 12, 8),
+      ellipsoid(0.075, 0.065, 0.13, 10, 8).translate(0, -0.04, 0.12),
+      ...[-1, 1].map(s => ellipsoid(0.045, 0.11, 0.055, 10, 8).rotateZ(s * 0.3).translate(s * 0.1, 0.02, -0.04)),
+    ]), 1, dogs),
+    dogLeg: P(humanLimb(0.075, 0.3), 4, dogs),
+    tail: P(new THREE.CapsuleGeometry(0.027, 0.23, 4, 8).rotateX(Math.PI / 2).translate(0, 0, -0.14), 1, dogs),
     lead: P(new THREE.BoxGeometry(0.02, 0.02, 1), 1, dogs),
   };
 }
@@ -211,6 +218,7 @@ export class People {
     let d = 0;
     this.walkers.forEach((w, i) => {
       for (const s of [0, 1]) { set(this.parts.leg, i * 2 + s, w.colors.pants); set(this.parts.arm, i * 2 + s, w.colors.shirt); }
+      for (const side of [0, 1]) set(this.parts.hand, i * 2 + side, w.colors.skin);
       set(this.parts.torso, i, w.colors.shirt);
       set(this.parts.head, i, w.colors.skin);
       set(this.parts.hair, i, w.colors.hair);
@@ -227,7 +235,7 @@ export class People {
     const none = new THREE.Matrix4().makeScale(0, 0, 0);
     this.walkers.forEach((w, i) => {
       if (!w.figure) return;
-      for (const s of [0, 1]) { this.parts.leg.setMatrixAt(i * 2 + s, none); this.parts.arm.setMatrixAt(i * 2 + s, none); }
+      for (const s of [0, 1]) { this.parts.leg.setMatrixAt(i * 2 + s, none); this.parts.arm.setMatrixAt(i * 2 + s, none); this.parts.hand.setMatrixAt(i * 2 + s, none); }
       for (const part of ['torso', 'head', 'hair']) this.parts[part].setMatrixAt(i, none);
     });
     this.m = new THREE.Matrix4();
@@ -410,8 +418,10 @@ export class People {
       if (w.paintSide) this.pose('paint', i, base, w.paintSide * 0.12, 1.16, 0.004);
       // the dog's side holds the lead; a runner's arms are bent and pump
       const arm = w.run ? -0.9 : 0;
-      this.pose('arm', i * 2, base, -0.28, 1.42, 0, w.dog ? -0.6 : arm - swing * 0.8);
-      this.pose('arm', i * 2 + 1, base, 0.28, 1.42, 0, arm + swing * 0.8);
+      this.pose('arm', i * 2, base, -0.23, 1.39, 0, w.dog ? -0.6 : arm - swing * 0.8);
+      this.pose('arm', i * 2 + 1, base, 0.23, 1.39, 0, arm + swing * 0.8);
+      this.pose('hand', i * 2, base, -0.23, 1.39, 0, w.dog ? -0.6 : arm - swing * 0.8);
+      this.pose('hand', i * 2 + 1, base, 0.23, 1.39, 0, arm + swing * 0.8);
       this.pose('head', i, base, 0, 1.63, 0);
       this.pose('hair', i, base, 0, 1.67, -0.01);
       if (!w.dog) return;

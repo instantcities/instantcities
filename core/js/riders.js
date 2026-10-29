@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { humanTorso, humanLimb, humanHead, humanFeatures, humanShoe, ellipsoid } from './anatomy.js';
 import { labelSprite, dizzyStars, cop, paintGun } from './horse.js';
 
 // The other ways to get about: on foot, or on a bike. Each character of the stable keeps its name
@@ -22,18 +23,20 @@ function limb(parent, x, y, z, w, len, material) {
   const pivot = new THREE.Group();
   pivot.position.set(x, y, z);
   parent.add(pivot);
-  part(new THREE.BoxGeometry(w, len, w * 1.1).translate(0, -len / 2, 0), material, pivot);
+  part(humanLimb(w, len), material, pivot);
   return pivot;
 }
 
 // Head with a cap, its peak forward. A cop's peak is darker, with a badge above it and a moustache below.
 function head(parent, y, z, c) {
-  part(new THREE.SphereGeometry(0.17, 12, 10), c.skin, parent, 0, y, z);
-  part(new THREE.SphereGeometry(0.18, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), c.cap, parent, 0, y + 0.03, z);
-  part(new THREE.BoxGeometry(0.24, 0.03, 0.14), c.peak ?? c.cap, parent, 0, y + 0.05, z + 0.17);
+  part(humanFeatures(0.15), mat(0x2c211b, 0.65), parent, 0, y, z);
+  part(new THREE.CylinderGeometry(0.065, 0.078, 0.14, 12), c.skin, parent, 0, y - 0.18, z - 0.01);
+  part(humanHead(0.15), c.skin, parent, 0, y, z);
+  part(new THREE.SphereGeometry(0.162, 20, 12, 0, Math.PI * 2, 0, Math.PI / 2), c.cap, parent, 0, y + 0.03, z);
+  part(ellipsoid(0.125, 0.018, 0.095), c.peak ?? c.cap, parent, 0, y + 0.05, z + 0.17);
   if (!c.badge) return;
   part(new THREE.SphereGeometry(0.035, 8, 6), c.badge, parent, 0, y + 0.13, z + 0.15);
-  part(new THREE.BoxGeometry(0.15, 0.035, 0.05), c.tache, parent, 0, y - 0.06, z + 0.16);
+  part(ellipsoid(0.07, 0.016, 0.025), c.tache, parent, 0, y - 0.06, z + 0.16);
 }
 
 function shell(def, i, labelY) {
@@ -58,16 +61,16 @@ export function createWalker(def, i) {
   const legs = [-0.12, 0.12].map(x => {
     const hip = limb(body, x, HIP, 0, 0.15, 0.5, c.pants);
     const knee = limb(hip, 0, -0.5, 0, 0.14, 0.45, c.pants);
-    part(new THREE.BoxGeometry(0.16, 0.1, 0.28), c.shoe, knee, 0, -0.47, 0.06);
+    part(humanShoe(0.16, 0.1, 0.28), c.shoe, knee, 0, -0.47, 0.06);
     return { hip, knee };
   });
   const torso = new THREE.Group();
   torso.position.y = HIP;
   body.add(torso);
-  part(new THREE.BoxGeometry(0.44, 0.62, 0.26), c.shirt, torso, 0, 0.33, 0);
+  part(humanTorso(0.44, 0.62, 0.26), c.shirt, torso, 0, 0.33, 0);
   head(torso, 0.82, 0.02, c);
-  const arms = [-0.29, 0.29].map(x => {
-    const arm = limb(torso, x, 0.6, 0, 0.11, 0.56, c.shirt);
+  const arms = [-0.24, 0.24].map(x => {
+    const arm = limb(torso, x, 0.53, 0, 0.13, 0.56, c.shirt);
     part(new THREE.SphereGeometry(0.065, 8, 6), c.skin, arm, 0, -0.58, 0);
     return arm;
   });
@@ -145,10 +148,10 @@ export function createCyclist(def, i) {
   const rider = new THREE.Group();
   rider.position.set(0, 1.0, -0.2);
   body.add(rider);
-  const torso = part(new THREE.BoxGeometry(0.42, 0.6, 0.26), c.shirt, rider, 0, 0.32, 0.12);
+  const torso = part(humanTorso(0.42, 0.6, 0.26), c.shirt, rider, 0, 0.32, 0.12);
   torso.rotation.x = 0.45;
   head(rider, 0.78, 0.4, c);
-  for (const x of [-0.21, 0.21]) part(new THREE.BoxGeometry(0.1, 0.1, 0.52), c.shirt, rider, x, 0.36, 0.42).rotation.x = 0.6;
+  for (const x of [-0.21, 0.21]) part(humanLimb(0.12, 0.52).rotateX(-Math.PI / 2).translate(0, 0, -0.52 / 2), c.shirt, rider, x, 0.36, 0.42).rotation.x = 0.6;
   const gun = paintGun(true); // car+paintball mode: in the right hand, along the handlebar and ahead
   gun.position.set(0.2, 0.2, 0.62);
   rider.add(gun);
@@ -158,7 +161,7 @@ export function createCyclist(def, i) {
   const legs = [-0.13, 0.13].map(x => {
     const hip = limb(rider, x, 0, 0.02, 0.14, 0.46, c.pants);
     const knee = limb(hip, 0, -0.46, 0, 0.13, 0.44, c.pants);
-    part(new THREE.BoxGeometry(0.15, 0.09, 0.26), c.shoe, knee, 0, -0.45, 0.06);
+    part(humanShoe(0.15, 0.09, 0.26), c.shoe, knee, 0, -0.45, 0.06);
     return { hip, knee };
   });
 
@@ -248,11 +251,11 @@ export function createScooterist(def, i) {
   const rider = new THREE.Group();
   rider.position.set(0, 0.9, -0.25);
   body.add(rider);
-  const torso = part(new THREE.BoxGeometry(0.42, 0.6, 0.26), c.shirt, rider, 0, 0.32, 0);
+  const torso = part(humanTorso(0.42, 0.6, 0.26), c.shirt, rider, 0, 0.32, 0);
   torso.rotation.x = 0.12;
   head(rider, 0.8, 0.08, c);
   for (const s of [-1, 1]) {
-    part(new THREE.BoxGeometry(0.1, 0.1, 0.72), c.shirt, rider, s * 0.25, 0.4, 0.37).rotation.x = 0.46;
+    part(humanLimb(0.12, 0.72).rotateX(-Math.PI / 2).translate(0, 0, -0.72 / 2), c.shirt, rider, s * 0.25, 0.4, 0.37).rotation.x = 0.46;
     part(new THREE.SphereGeometry(0.065, 8, 6), c.skin, rider, s * 0.3, 0.24, 0.71);
   }
   const gun = paintGun(true); // car+paintball mode: in the right hand, along the handlebar and ahead
@@ -262,7 +265,7 @@ export function createScooterist(def, i) {
   const legs = [-0.12, 0.12].map(x => {
     const hip = limb(rider, x, 0.02, 0.02, 0.14, 0.46, c.pants);
     const knee = limb(hip, 0, -0.46, 0, 0.13, 0.44, c.pants);
-    part(new THREE.BoxGeometry(0.15, 0.09, 0.26), c.shoe, knee, 0, -0.45, 0.06);
+    part(humanShoe(0.15, 0.09, 0.26), c.shoe, knee, 0, -0.45, 0.06);
     return { hip, knee };
   });
 

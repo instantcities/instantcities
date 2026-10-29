@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { humanTorso, humanLimb, humanHead, humanShoe } from './anatomy.js';
 import { stander } from './splat.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { tinted } from './cars.js';
@@ -46,9 +47,9 @@ function glassGeometry() {
 
 // Somebody standing about: legs, a body with the arms down, a head. Three parts, each tinted.
 export const PERSON = {
-  legs: new THREE.BoxGeometry(0.34, 0.82, 0.16).translate(0, 0.41, 0),
-  body: new THREE.BoxGeometry(0.5, 0.64, 0.25).translate(0, 1.14, 0),
-  head: new THREE.SphereGeometry(0.15, 8, 6).translate(0, 1.62, 0),
+  legs: mergeGeometries([-0.1, 0.1].flatMap(x => [humanLimb(0.15, 0.78).translate(x, 0.82, 0), humanShoe().translate(x, 0.045, 0.04)])),
+  body: mergeGeometries([humanTorso().translate(0, 1.14, 0), ...[-0.25, 0.25].map(x => humanLimb(0.12, 0.58).translate(x, 1.41, 0))]),
+  head: humanHead().translate(0, 1.62, 0),
 };
 
 // ctx: the city's context (group, r); stops: the city's STOPS.

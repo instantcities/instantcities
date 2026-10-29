@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // One person drawn properly, for the city's well-known characters (city.js CHARACTERS): rounded
 // limbs that bend at the knees and elbows, hands and shoes, a face with a nose, ears, eyes and
 // brows, hair, a beard, a long coat, and a crumpled plastic bag hanging from each hand. The
-// walkers (js/people.js) are boxes, cheap by the hundred; there is only ever one of these each.
+// walkers (js/people.js) use shared instanced parts; there is only ever one of these each.
 // Facing +z, feet on y = 0, about 1.8 m tall at scale 1.
 
 const std = (color, roughness = 0.85) => new THREE.MeshStandardMaterial({ color, roughness });
