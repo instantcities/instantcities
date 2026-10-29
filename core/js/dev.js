@@ -10,6 +10,8 @@ import { STABLE, MOUNTS } from './horses.js';
 import { CAR_TYPES, carGroup } from './cars.js';
 import { ITEMS, createItemModel, createBolt } from './items.js';
 import { tramPlatform } from './tramplatform.js';
+import { People } from './people.js';
+import { person } from './person.js';
 
 const $ = id => document.getElementById(id);
 const canvas = $('game');
@@ -55,6 +57,18 @@ const SECTIONS = [
     .concat(FRONTS.filter(fr => fr.name && city.getObjectByName(fr.id)).map(fr => ({ id: fr.id, label: fr.name, info: 'house front', make: () => ({ obj: city.getObjectByName(fr.id).clone() }) })))],
   ['Riders', MOUNTS.map(m => ({ id: m, label: m, make: () => { const r = rider(STABLE[0], m); return { obj: r.root, animate: r.animate }; } }))],
   ['Characters', STABLE.map(h => ({ id: h.id, label: h.name, make: () => { const r = rider(h, 'horse'); return { obj: r.root, animate: r.animate }; } }))],
+  ['People', [
+    { id: 'pedestrians', label: 'Street pedestrians', make: () => {
+      const obj = new THREE.Group();
+      let seed = 17;
+      const random = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+      const people = new People(obj, [{ points: [[-2, 0], [2, 0]], closed: false }], 4, random);
+      people.walkers.forEach((w, i) => { w.s = (i + 0.5) * w.path.length / people.walkers.length; w.dir = 1; });
+      people.update(0, 0, []);
+      return { obj, animate: (dt, speed, steer, time) => people.update(speed ? dt : 0, speed ? time : 0, []) };
+    } },
+    { id: 'visitor', label: 'Building visitor', make: () => ({ obj: person({ top: 0x638274, legs: 0x2c3e50, skin: 0xd49f7c, hair: 0x3a2418, short: true }).g }) },
+  ]],
   ['Street', [{ id: 'tram-platform', label: 'Tramperron', info: 'tramplatform.js', make: () => {
     const lines = [{ ref: '1', colour: '#e4002b', to: 'Evergem Brielken' }, { ref: '4', colour: '#009a44', to: 'Gent UZ' }];
     const obj = tramPlatform({ lines, name: 'Korenmarkt' });
@@ -109,7 +123,7 @@ function show(id) {
   controls.update();
 
   let tris = 0;
-  obj.traverse(m => { if (m.isMesh) tris += (m.geometry.index ? m.geometry.index.count : m.geometry.attributes.position.count) / 3; });
+  obj.traverse(m => { if (m.isMesh) tris += (m.geometry.index ? m.geometry.index.count : m.geometry.attributes.position.count) / 3 * (m.isInstancedMesh ? m.count : 1); });
   $('info').textContent = `${asset.label}${asset.info ? ` · ${asset.info}` : ''}\n${size.x.toFixed(1)} × ${size.y.toFixed(1)} × ${size.z.toFixed(1)} m · ${Math.round(tris).toLocaleString()} triangles`;
   document.querySelectorAll('#lists .chip').forEach(b => b.classList.toggle('on', b.dataset.id === asset.id));
   history.replaceState(null, '', `#${asset.id}`);

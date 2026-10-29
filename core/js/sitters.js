@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { humanTorso, humanLimb, humanFace, humanHair, trouserLeg, ellipsoid } from './anatomy.js';
 import { tileOf } from './tiles.js';
 import { SHIRTS, PANTS, SKINS, HAIRS } from './people.js';
 import { SQUARES, MONUMENTS, PLACES, BEACHES } from './city.js';
@@ -27,7 +28,6 @@ const SEATS = {
 const TOWELS = [0xe53935, 0x1e88e5, 0xfdd835, 0x43a047, 0xff7043, 0xf5f5f5, 0x26c6da, 0xec407a, 0x7e57c2];
 const ACTS = ['drink', 'drink', 'talk', 'talk', 'look', 'phone'];
 
-const mat = () => new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8 });
 const smooth = x => x * x * (3 - 2 * x);
 
 // the seats: { x, y (of what is sat on), z, yaw (facing), seat }
@@ -199,18 +199,19 @@ function beachSeats(ctx, out) {
 
 function makeParts(group, n, drinkers, glasses, towels) {
   const P = (geo, count, shadow = true) => {
-    const im = new THREE.InstancedMesh(geo, mat(), Math.max(1, count));
+    const im = new THREE.InstancedMesh(geo, new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8, vertexColors: !!geo.attributes.color }), Math.max(1, count));
     im.castShadow = shadow;
     group.add(im);
     return im;
   };
   return {
-    thigh: P(new THREE.BoxGeometry(0.15, 0.15, 0.46).translate(0, 0, 0.23), n * 2, false),
-    shin: P(new THREE.BoxGeometry(0.14, 0.46, 0.15).translate(0, -0.23, 0), n * 2),
-    torso: P(new THREE.BoxGeometry(0.42, 0.62, 0.24), n),
-    arm: P(new THREE.BoxGeometry(0.1, 0.58, 0.11).translate(0, -0.29, 0), n * 2),
-    head: P(new THREE.SphereGeometry(0.15, 8, 6), n),
-    hair: P(new THREE.SphereGeometry(0.16, 8, 4, 0, Math.PI * 2, 0, Math.PI / 2).translate(0, 0.04, -0.01), n, false),
+    thigh: P(humanLimb(0.17, 0.46).rotateX(-Math.PI / 2), n * 2, false),
+    shin: P(trouserLeg(0.14, 0.46), n * 2),
+    torso: P(humanTorso(), n),
+    arm: P(humanLimb(0.12, 0.58), n * 2),
+    hand: P(ellipsoid(0.035, 0.055, 0.03, 10, 8).translate(0, -0.59, 0), n * 2),
+    head: P(humanFace(), n),
+    hair: P(humanHair().translate(0, 0.04, -0.01), n, false),
     glass: P(new THREE.CylinderGeometry(0.035, 0.03, 0.12, 6), drinkers, false),
     tableGlass: P(new THREE.CylinderGeometry(0.035, 0.03, 0.12, 6).translate(0, 0.06, 0), glasses, false),
     towel: P(new THREE.BoxGeometry(0.9, 0.02, 1.9), towels, false),
@@ -245,6 +246,7 @@ class Sitters {
     const c = new THREE.Color(), set = (im, i, hex) => im.setColorAt(i, c.setHex(hex));
     seats.forEach((s, i) => {
       for (const k of [0, 1]) { set(this.parts.thigh, i * 2 + k, s.colors.pants); set(this.parts.shin, i * 2 + k, s.colors.pants); set(this.parts.arm, i * 2 + k, s.colors.shirt); }
+      for (const side of [0, 1]) set(this.parts.hand, i * 2 + side, s.colors.skin);
       set(this.parts.torso, i, s.colors.shirt);
       set(this.parts.head, i, s.colors.skin);
       set(this.parts.hair, i, s.colors.hair);
@@ -271,7 +273,7 @@ class Sitters {
   // over sideways, off a chair onto the ground)
   base(s) {
     const k = SEATS[s.seat], fall = s.hitT === undefined ? 0 : smooth(Math.min(1, Math.max(0, (s.hitT - 0.25) * 2.5)));
-    const turn = s.roll ? this.lying.set(s.roll, s.yaw, 0) : this.e.set(0, s.yaw, fall * s.fallSide * 1.35);
+    const turn = s.roll ? this.lying.set(s.roll, s.yaw, 0) : this.e.set(0, s.yaw, fall * (s.fallSide ?? 1) * 1.35);
     const drop = s.seat === 'chair' ? 0.4 * fall : 0;
     this.m.compose(this.v.set(s.x, s.y + k.hip * s.scale - drop, s.z), this.q.setFromEuler(turn), this.one.set(s.scale, s.scale, s.scale));
   }
@@ -311,7 +313,7 @@ class Sitters {
         this.parts.torso.instanceColor.needsUpdate = this.parts.arm.instanceColor.needsUpdate = true;
         this.still(s, i);
         this.move(s, i, 0);
-        for (const k of ['thigh', 'torso', 'shin', 'arm', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
+        for (const k of ['thigh', 'torso', 'shin', 'arm', 'hand', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
       },
     }]);
   }
@@ -346,15 +348,17 @@ class Sitters {
       hx = 0.45;
     } else if (s.act !== 'rest') hy = Math.sin(T * 0.35) * 0.8; // looking round
     if (s.act === 'drink') hx = -lift * 0.25; // the head tips back to drink
-    const sy = 0.57 * ca, sz = -0.57 * sa;
-    this.pose('arm', i * 2, -0.28, sy, sz, L[0], 0, L[1]);
-    this.pose('arm', i * 2 + 1, 0.28, sy, sz, R[0], 0, R[1]);
+    const sy = 0.54 * ca, sz = -0.54 * sa;
+    this.pose('arm', i * 2, -0.23, sy, sz, L[0], 0, L[1]);
+    this.pose('arm', i * 2 + 1, 0.23, sy, sz, R[0], 0, R[1]);
+    this.pose('hand', i * 2, -0.23, sy, sz, L[0], 0, L[1]);
+    this.pose('hand', i * 2 + 1, 0.23, sy, sz, R[0], 0, R[1]);
     this.pose('head', i, 0, 0.78 * ca, -0.78 * sa, hx - a, hy);
     this.pose('hair', i, 0, 0.78 * ca, -0.78 * sa, hx - a, hy);
     if (s.glass == null) return;
     // the glass in the right hand, at the end of the arm
     const cz = Math.cos(R[1]);
-    this.pose('glass', s.glass, 0.28 + 0.58 * Math.sin(R[1]), sy - 0.58 * cz * Math.cos(R[0]), sz - 0.58 * cz * Math.sin(R[0]) + 0.02);
+    this.pose('glass', s.glass, 0.23 + 0.58 * Math.sin(R[1]), sy - 0.58 * cz * Math.cos(R[0]), sz - 0.58 * cz * Math.sin(R[0]) + 0.02);
   }
 
   update(dt, t) {
@@ -368,7 +372,7 @@ class Sitters {
         this.still(s, i);
         this.move(s, i, t);
       });
-      for (const k of ['thigh', 'torso', 'shin', 'arm', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
+      for (const k of ['thigh', 'torso', 'shin', 'arm', 'hand', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
     }
     const eyes = this.eyes;
     if (!eyes.length) return; // nobody looking
@@ -381,7 +385,7 @@ class Sitters {
     });
     if (this.odd) this.eyes = [];
     if (!moved) return;
-    for (const k of ['shin', 'arm', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
+    for (const k of ['shin', 'arm', 'hand', 'head', 'hair', 'glass']) this.parts[k].instanceMatrix.needsUpdate = true;
   }
 }
 

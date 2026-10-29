@@ -1,4 +1,6 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import { ellipsoid, profile, tube, humanTorso, humanLimb, humanHead, humanFeatures, humanShoe } from './anatomy.js';
 
 const mat = (color, roughness = 0.7, extra = {}) => new THREE.MeshStandardMaterial({ color, roughness, ...extra });
 
@@ -45,7 +47,7 @@ function coatTexture(pattern, base) {
         }
         g.fill();
       }
-    } else {
+    } else if (pattern === 'stripes') {
       for (let y = 8; y < h; y += 26) {
         g.beginPath();
         g.moveTo(0, y);
@@ -53,6 +55,15 @@ function coatTexture(pattern, base) {
         for (let x = w; x >= 0; x -= 16) g.lineTo(x, y + 9 + Math.sin(x * 0.11 + y) * 4);
         g.fill();
       }
+    }
+    // Fine, low-contrast hair grain catches the light without covering the coat colour.
+    let seed = 37;
+    const random = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+    g.globalAlpha = 0.045;
+    for (let i = 0; i < 2400; i++) {
+      g.strokeStyle = i % 2 ? '#fff3dc' : '#25170f';
+      const x = random() * w, y = random() * h;
+      g.beginPath(); g.moveTo(x, y); g.lineTo(x + 1, y + 2 + random() * 3); g.stroke();
     }
   });
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
@@ -164,13 +175,14 @@ const RAINBOW = [0xe53935, 0xff9800, 0xfdd835, 0x43a047, 0x1e88e5, 0x8e24aa];
 // What a cop wears on top of the uniform: the darker peak, the gold badge, the moustache.
 export const cop = () => ({ peak: mat(0x16243d, 0.4), badge: mat(0xf2b632, 0.3, { metalness: 0.6 }), tache: mat(0x4a2c17, 0.9) });
 
-// A cartoon racing animal with a jockey. The model faces +Z and stands on y = 0.
+// A racing animal with a jockey. The model faces +Z and stands on y = 0.
 export function createAnimal(def) {
   const species = def.species ?? 'horse';
   if (def.standardCoat) def = { ...def, ...COATS[species] };
   const P = SPECIES[species];
+  const equine = species === 'horse' || species === 'unicorn';
   const pattern = species === 'cow' ? 'patches' : species === 'tiger' ? 'stripes' : null;
-  const coat = mat(0xffffff, 0.6, { map: pattern ? coatTexture(pattern, def.coat) : null, color: pattern ? 0xffffff : def.coat });
+  const coat = mat(0xffffff, 0.72, { map: coatTexture(pattern, def.coat) });
   const mane = mat(def.mane, 0.9);
   const hoof = mat(species === 'unicorn' ? 0xf2c94c : species === 'pig' ? 0x7a4a3a : 0x2b2622, 0.6);
   const silk = mat(def.silk, 0.45);
@@ -194,21 +206,32 @@ export function createAnimal(def) {
   spin.add(body);
 
   // Barrel, chest and haunches.
-  const torso = part(new THREE.CapsuleGeometry(P.bodyR, P.bodyLen, 6, 14), coat, body, 0, bodyY, 0);
+  const torso = part(equine ? profile([[0, -1.25], [0.24, -1.13], [0.46, -0.88], [0.49, -0.6], [0.44, 0.05], [0.47, 0.55], [0.4, 0.89], [0.24, 1.12], [0, 1.24]], 1.08, 28, true) : new THREE.CapsuleGeometry(P.bodyR, P.bodyLen, 8, 20), coat, body, 0, bodyY, 0);
   torso.rotation.x = Math.PI / 2;
   torso.scale.set(0.92, 1, 1.05);
-  part(new THREE.SphereGeometry(P.bodyR * 1.09, 14, 10), coat, body, 0, bodyY + 0.02, P.bodyLen * 0.58).scale.set(0.9, 1, 1);
-  part(new THREE.SphereGeometry(P.bodyR * 1.15, 14, 10), coat, body, 0, bodyY + 0.1, -P.bodyLen * 0.53).scale.set(0.95, 1, 1);
+  if (!equine) {
+    part(new THREE.SphereGeometry(P.bodyR * 1.09, 20, 14), coat, body, 0, bodyY + 0.02, P.bodyLen * 0.58).scale.set(0.84, 1.06, 0.88);
+    part(new THREE.SphereGeometry(P.bodyR * 1.15, 20, 14), coat, body, 0, bodyY + 0.1, -P.bodyLen * 0.53).scale.set(0.88, 1, 0.94);
+  } else {
+    // The barrel has one continuous surface; only the withers rise above it.
+    part(ellipsoid(0.22, 0.18, 0.42), coat, body, 0, bodyY + 0.4, 0.48);
+  }
   if (species === 'cow') part(new THREE.SphereGeometry(0.2, 10, 8), pink, body, 0, bodyY - P.bodyR * 0.95, -0.3).scale.set(1.2, 0.7, 1);
 
   // Neck and head.
   const neck = new THREE.Group();
   neck.position.set(0, bodyY + 0.25, P.bodyLen / 2 + 0.28);
   body.add(neck);
-  part(new THREE.CapsuleGeometry(0.24, P.neckLen, 4, 10), coat, neck, 0, P.neckLen * 0.6, 0).scale.set(species === 'horse' || species === 'unicorn' ? 0.82 : 1.1, 1, 1.15);
-  if (species === 'horse') part(new THREE.BoxGeometry(0.08, 0.95, 0.16), mane, neck, 0, 0.5, -0.22);
-  if (species === 'unicorn') {
-    RAINBOW.forEach((c, i) => part(new THREE.BoxGeometry(0.1, 0.2, 0.16), mat(c, 0.8), neck, 0, 0.1 + i * 0.15, -0.22));
+  part(equine ? profile([[0, -0.14], [0.23, -0.1], [0.26, 0.1], [0.22, 0.35], [0.16, 0.67], [0.13, 0.86], [0, 0.99]], 1.45, 24, true) : new THREE.CapsuleGeometry(0.24, P.neckLen, 6, 16), coat, neck, 0, equine ? 0 : P.neckLen * 0.6, 0).scale.set(equine ? 0.85 : 1.1, 1, 1.15);
+  if (equine) {
+    // The mane follows the crest and falls over one side in curved locks.
+    const locks = Array.from({ length: 24 }, (_, i) => {
+      const t = i / 23, y = 0.12 + t * 0.8, back = -0.41 + t * 0.22;
+      const fall = 0.25 + Math.sin(i * 1.7) * 0.025;
+      return tube([[0, y, back], [0.04, y - 0.05, back - 0.025], [0.13, y - 0.17, back + 0.02], [0.15, y - fall, back + 0.07]], 0.019, 8, 6);
+    });
+    if (species === 'unicorn') locks.forEach((geo, i) => part(geo, mat(RAINBOW[Math.floor(i / 4)], 0.85), neck));
+    else part(mergeGeometries(locks), mane, neck);
   }
 
   const head = new THREE.Group();
@@ -217,15 +240,23 @@ export function createAnimal(def) {
   neck.add(head);
   const eyes = (x, y, z, r = 0.045) => { for (const s of [-1, 1]) part(new THREE.SphereGeometry(r, 8, 6), dark, head, s * x, y, z); };
   if (P.head === 'long') {
-    part(new THREE.CapsuleGeometry(0.2, 0.5, 4, 10), coat, head, 0, 0.32, 0).scale.set(0.85, 1, 1.05);
-    part(new THREE.SphereGeometry(0.18, 10, 8), muzzleMat, head, 0, 0.7, 0.02).scale.set(0.9, 1, 0.9);
+    part(profile([[0, -0.08], [0.14, -0.04], [0.19, 0.1], [0.18, 0.23], [0.135, 0.48], [0.14, 0.66], [0.11, 0.77], [0, 0.8]], 1.12, 24, true), coat, head);
+    part(ellipsoid(0.155, 0.145, 0.14), muzzleMat, head, 0, 0.72, 0.01);
+    // Cheek/jaw, small inset eyes and elongated nostrils.
+    part(ellipsoid(0.16, 0.2, 0.17), coat, head, 0, 0.16, 0.055);
     for (const s of [-1, 1]) {
-      const ear = part(new THREE.ConeGeometry(0.065, 0.24, 6), coat, head, s * 0.1, 0.02, -0.2);
+      const ear = part(ellipsoid(0.057, 0.155, 0.035), coat, head, s * 0.11, -0.01, -0.2);
       ear.rotation.x = -Math.PI / 2 + 0.35;
-      part(new THREE.SphereGeometry(0.03, 6, 4), dark, head, s * 0.07, 0.86, -0.08);
+      const inner = part(ellipsoid(0.032, 0.105, 0.012), muzzleMat, head, s * 0.11, 0, -0.223);
+      inner.rotation.x = ear.rotation.x;
+      part(ellipsoid(0.013, 0.043, 0.025), dark, head, s * 0.137, 0.76, -0.04);
+      part(ellipsoid(0.017, 0.024, 0.021), dark, head, s * 0.18, 0.18, -0.045);
+      part(ellipsoid(0.004, 0.007, 0.007, 10), mat(0xfff4dc, 0.25), head, s * 0.194, 0.174, -0.054);
     }
-    eyes(0.17, 0.22, -0.08);
-    part(new THREE.BoxGeometry(0.06, 0.3, 0.1), species === 'unicorn' ? mat(0xff80ab, 0.8) : mane, head, 0, -0.02, -0.18);
+    part(mergeGeometries(Array.from({ length: 5 }, (_, i) => tube([[(i - 2) * 0.026, -0.06, -0.15], [(i - 2) * 0.033, 0.07, -0.19], [(i - 2) * 0.025, 0.2, -0.16]], 0.023, 8, 6))), mane, head);
+    // Noseband and cheek straps follow the head, so they move with every nod.
+    part(new THREE.TorusGeometry(0.15, 0.013, 6, 24).rotateX(Math.PI / 2).scale(1, 1, 0.98), leather, head, 0, 0.61, 0);
+    for (const s of [-1, 1]) part(tube([[s * 0.15, 0.61, 0.02], [s * 0.19, 0.26, 0.04], [s * 0.14, -0.05, 0.02]], 0.012, 12, 6), leather, head);
     if (species === 'unicorn') {
       const horn = part(new THREE.ConeGeometry(0.07, 0.5, 10), mat(0xf2c94c, 0.3, { metalness: 0.4 }), head, 0, 0.18, -0.32);
       horn.rotation.x = -Math.PI / 2 + 0.5;
@@ -269,8 +300,13 @@ export function createAnimal(def) {
   if (species === 'pig') {
     const curl = part(new THREE.TorusGeometry(0.1, 0.035, 6, 12, Math.PI * 1.6), pink, tail, 0, 0, -0.05);
     curl.rotation.y = Math.PI / 2;
-  } else if (species === 'unicorn') {
-    RAINBOW.forEach((c, i) => part(new THREE.CapsuleGeometry(0.05, 0.7, 3, 6), mat(c, 0.8), tail, (i - 2.5) * 0.04, -0.42, 0));
+  } else if (equine) {
+    const strands = Array.from({ length: 8 }, (_, i) => {
+      const x = (i - 3.5) * 0.024;
+      return tube([[x * 0.4, 0, 0], [x, -0.23, -0.09], [x * 1.2, -0.65, -0.14], [x * 0.6, -0.96 + Math.abs(x), -0.06]], 0.034, 14, 6);
+    });
+    if (species === 'unicorn') strands.forEach((geo, i) => part(geo, mat(RAINBOW[i % 6], 0.85), tail));
+    else part(mergeGeometries(strands), mane, tail);
   } else {
     const tailMat = species === 'tiger' ? coat : mane;
     part(new THREE.CapsuleGeometry(species === 'tiger' ? 0.08 : 0.1, P.tail, 4, 8), tailMat, tail, 0, -P.tail * 0.6, 0);
@@ -280,9 +316,9 @@ export function createAnimal(def) {
 
   // Legs: hip pivot -> knee pivot -> hoof (or paw).
   const r = P.legR;
-  const legGeoUpper = new THREE.CylinderGeometry(0.13 * r, 0.1 * r, P.upper, 8);
-  const legGeoLower = new THREE.CylinderGeometry(0.08 * r, 0.07 * r, P.lower, 8);
-  const hoofGeo = species === 'tiger' ? new THREE.SphereGeometry(0.12, 8, 6) : new THREE.CylinderGeometry(0.09 * r, 0.11 * r, 0.1, 8);
+  const legGeoUpper = humanLimb(0.25 * r, P.upper).translate(0, P.upper / 2, 0);
+  const legGeoLower = profile([[0, -P.lower / 2], [0.067 * r, -P.lower / 2], [0.062 * r, -P.lower * 0.3], [0.047 * r, P.lower * 0.16], [0.07 * r, P.lower / 2], [0, P.lower / 2]], 1.05, 16);
+  const hoofGeo = species === 'tiger' ? ellipsoid(0.12, 0.085, 0.14) : new THREE.CylinderGeometry(0.075 * r, 0.105 * r, 0.12, 16).scale(1, 1, 1.22);
   const legs = [
     [-P.legX, P.legZ, true, P.gait[0]], [P.legX, P.legZ, true, P.gait[1]],
     [-P.legX, -P.legZ, false, P.gait[2]], [P.legX, -P.legZ, false, P.gait[3]],
@@ -290,50 +326,65 @@ export function createAnimal(def) {
     const hip = new THREE.Group();
     hip.position.set(x, P.hipY, z);
     body.add(hip);
-    part(legGeoUpper, coat, hip, 0, -P.upper / 2, 0);
+    part(equine ? humanLimb(front ? 0.3 : 0.38, P.upper).translate(0, P.upper / 2, 0) : legGeoUpper, coat, hip, 0, -P.upper / 2, 0);
     const knee = new THREE.Group();
     knee.position.y = -P.upper;
     hip.add(knee);
+    part(ellipsoid(0.085 * r, 0.095 * r, 0.085 * r), coat, knee);
     part(legGeoLower, coat, knee, 0, -P.lower / 2, 0);
     part(hoofGeo, species === 'tiger' ? coat : hoof, knee, 0, -P.lower - 0.02, species === 'tiger' ? 0.04 : 0);
     return { hip, knee, front, off };
   });
 
-  // Saddle cloth with the race number, and the saddle.
-  const numberMat = new THREE.MeshStandardMaterial({ map: numberTexture(def.number, def.silk), roughness: 0.7 });
-  const cloth = new THREE.Mesh(new THREE.BoxGeometry(P.bodyR * 2 + 0.06, 0.5, 0.78), [numberMat, numberMat, silk, silk, silk, silk]);
-  cloth.position.set(0, bodyY + P.bodyR * 1.05 - 0.2, 0.05);
-  cloth.castShadow = true;
-  body.add(cloth);
-  part(new THREE.BoxGeometry(0.56, 0.1, 0.62), leather, body, 0, saddleY - 0.03, 0.05);
+  // Cloth drapes over the back instead of enclosing the horse in a rectangular box.
+  const clothGeo = new THREE.PlaneGeometry(1, 0.8, 20, 2), cp = clothGeo.attributes.position;
+  for (let i = 0; i < cp.count; i++) {
+    const angle = cp.getX(i) * Math.PI;
+    cp.setXYZ(i, Math.sin(angle) * (P.bodyR + 0.025), Math.cos(angle) * (P.bodyR + 0.025), cp.getY(i));
+  }
+  clothGeo.computeVertexNormals();
+  part(clothGeo, mat(def.silk, 0.85, { side: THREE.DoubleSide }), body, 0, bodyY, 0.05);
+  const numberMat = mat(0xffffff, 0.85, { map: numberTexture(def.number, def.silk), side: THREE.DoubleSide });
+  for (const s of [-1, 1]) {
+    part(new THREE.PlaneGeometry(0.32, 0.29), numberMat, body, s * (P.bodyR + 0.03), bodyY + 0.13, 0.05).rotation.y = s * Math.PI / 2;
+    part(tube([[s * 0.22, saddleY, 0.18], [s * (P.bodyR + 0.08), bodyY + 0.05, 0.28], [s * (P.bodyR + 0.09), bodyY - 0.1, 0.3]], 0.018, 12, 6), leather, body);
+    part(new THREE.TorusGeometry(0.095, 0.013, 6, 16).scale(0.8, 1, 1), mat(0xa9a4a0, 0.35, { metalness: 0.7 }), body, s * (P.bodyR + 0.09), bodyY - 0.16, 0.3).rotation.y = Math.PI / 2;
+  }
+  part(ellipsoid(0.28, 0.07, 0.34), leather, body, 0, saddleY - 0.03, 0.05);
+  part(ellipsoid(0.26, 0.12, 0.075), leather, body, 0, saddleY + 0.01, -0.23);
+  part(ellipsoid(0.19, 0.1, 0.065), leather, body, 0, saddleY + 0.01, 0.32);
 
   // Jockey, crouched forward.
   const jockey = new THREE.Group();
   jockey.position.set(0, jockeyY, 0.05);
   body.add(jockey);
   for (const s of [-1, 1]) {
-    const thigh = part(new THREE.BoxGeometry(0.16, 0.16, 0.5), white, jockey, s * P.bodyR * 0.6, 0.1, 0.12);
+    const thigh = part(humanLimb(0.19, 0.5).rotateX(-Math.PI / 2).translate(0, 0, -0.25), white, jockey, s * P.bodyR * 0.6, 0.1, 0.12);
     thigh.rotation.x = 0.3;
-    const shin = part(new THREE.BoxGeometry(0.14, 0.42, 0.15), boot, jockey, s * (P.bodyR * 0.6 + 0.08), -0.1, 0.3);
+    const shin = part(humanLimb(0.15, 0.42).translate(0, 0.21, 0), boot, jockey, s * (P.bodyR * 0.6 + 0.08), -0.1, 0.3);
     shin.rotation.x = -0.35;
-    const arm = part(new THREE.BoxGeometry(0.11, 0.11, 0.48), silk, jockey, s * 0.21, 0.28, 0.68);
+    part(humanShoe(0.14, 0.09, 0.25), boot, jockey, s * (P.bodyR * 0.6 + 0.08), -0.3, 0.4);
+    const arm = part(humanLimb(0.13, 0.48).rotateX(-Math.PI / 2).translate(0, 0, -0.24), silk, jockey, s * 0.21, 0.28, 0.68);
     arm.rotation.x = 0.55;
-    part(new THREE.SphereGeometry(0.06, 6, 4), white, jockey, s * 0.16, 0.14, 0.9);
+    part(ellipsoid(0.045, 0.055, 0.06), skin, jockey, s * 0.16, 0.14, 0.9);
+    part(tube([[s * 0.16, 0.14, 0.9], [s * 0.24, 0.02, 1.18], [s * 0.16, 0.15, 1.45]], 0.01, 12, 6), leather, jockey);
   }
   const gun = paintGun(true); // car+paintball mode: in the right hand, pointing ahead past the head
   gun.position.set(0.18, 0.3, 0.85);
   jockey.add(gun);
-  const torsoJ = part(new THREE.BoxGeometry(0.44, 0.62, 0.3), silk, jockey, 0, 0.26, 0.22);
+  const torsoJ = part(humanTorso(0.44, 0.62, 0.3), silk, jockey, 0, 0.26, 0.22);
   torsoJ.rotation.x = 1.15;
-  part(new THREE.SphereGeometry(0.15, 12, 10), skin, jockey, 0, 0.5, 0.62);
-  const helmet = part(new THREE.SphereGeometry(0.17, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), cap, jockey, 0, 0.53, 0.6);
+  part(new THREE.CylinderGeometry(0.065, 0.075, 0.15, 12), skin, jockey, 0, 0.41, 0.5).rotation.x = 0.6;
+  part(humanHead(0.135), skin, jockey, 0, 0.5, 0.62);
+  part(humanFeatures(0.135), dark, jockey, 0, 0.5, 0.62);
+  const helmet = part(new THREE.SphereGeometry(0.15, 20, 12, 0, Math.PI * 2, 0, Math.PI / 2), cap, jockey, 0, 0.53, 0.6);
   helmet.rotation.x = 0.35;
   if (def.cop) {
     const c = cop();
-    part(new THREE.BoxGeometry(0.22, 0.03, 0.12), c.peak, jockey, 0, 0.57, 0.78);
+    part(ellipsoid(0.11, 0.016, 0.08), c.peak, jockey, 0, 0.57, 0.78);
     part(new THREE.SphereGeometry(0.03, 8, 6), c.badge, jockey, 0, 0.63, 0.73);
-    part(new THREE.BoxGeometry(0.13, 0.03, 0.04), c.tache, jockey, 0, 0.45, 0.76);
-  } else part(new THREE.BoxGeometry(0.22, 0.03, 0.12), cap, jockey, 0, 0.57, 0.78);
+    part(ellipsoid(0.065, 0.015, 0.02), c.tache, jockey, 0, 0.45, 0.76);
+  } else part(ellipsoid(0.11, 0.016, 0.08), cap, jockey, 0, 0.57, 0.78);
 
   const stars = dizzyStars(root, jockeyY + 1.15, 0.2);
 
