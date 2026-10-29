@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { humanTorso, humanLimb, humanFace, trouserLeg } from './anatomy.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { LOW_POWER } from './device.js';
 
@@ -30,19 +31,20 @@ function createBiker(k) {
   add(lean, new THREE.BoxGeometry(0.55, 0.05, 0.05), frame, 0, 1.0, 0.42); // handlebar
   add(lean, new THREE.BoxGeometry(0.2, 0.06, 0.28), mat(0x1d1a17), 0, 0.92, -0.2); // saddle
   const jacket = mat(JACKETS[k % JACKETS.length]), skin = mat(SKINS[(k * 3) % SKINS.length]), jeans = mat(0x3949ab);
-  const body = add(lean, new THREE.BoxGeometry(0.42, 0.62, 0.26), jacket, 0, 1.3, -0.08);
+  skin.vertexColors = true;
+  const body = add(lean, humanTorso(0.42, 0.62, 0.26), jacket, 0, 1.3, -0.08);
   body.rotation.x = 0.35;
-  add(lean, new THREE.SphereGeometry(0.15, 10, 8), skin, 0, 1.72, 0.06);
-  add(lean, new THREE.SphereGeometry(0.17, 10, 6, 0, Math.PI * 2, 0, Math.PI / 2), mat(JACKETS[(k + 3) % JACKETS.length], 0.4), 0, 1.76, 0.06);
+  add(lean, humanFace(), skin, 0, 1.72, 0.06);
+  add(lean, new THREE.SphereGeometry(0.17, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2), mat(JACKETS[(k + 3) % JACKETS.length], 0.4), 0, 1.76, 0.06);
   for (const x of [-0.2, 0.2]) {
-    const arm = add(lean, new THREE.BoxGeometry(0.09, 0.09, 0.5), jacket, x, 1.28, 0.2);
+    const arm = add(lean, humanLimb(0.11, 0.5).rotateX(-Math.PI / 2).translate(0, 0, -0.25), jacket, x, 1.28, 0.2);
     arm.rotation.x = 0.5;
   }
   const legs = [-0.12, 0.12].map(x => {
     const hip = new THREE.Group();
     hip.position.set(x, 0.95, -0.18);
     lean.add(hip);
-    add(hip, new THREE.BoxGeometry(0.12, 0.6, 0.13), jeans, 0, -0.3, 0.05);
+    add(hip, humanLimb(0.14, 0.6).translate(0, 0.3, 0), jeans, 0, -0.3, 0.05);
     return hip;
   });
   root.traverse(o => { if (o.isMesh) o.receiveShadow = true; });
@@ -257,7 +259,7 @@ export class Cyclists {
     }
     const n = Math.max(1, this.list.length);
     const P = (geo, per, roughness = 0.7) => {
-      const im = new THREE.InstancedMesh(geo, mat(0xffffff, roughness), n * per);
+      const im = new THREE.InstancedMesh(geo, new THREE.MeshStandardMaterial({ color: 0xffffff, roughness, vertexColors: !!geo.attributes.color }), n * per);
       im.count = this.list.length * per;
       im.castShadow = true;
       im.frustumCulled = false; // they move about
@@ -275,12 +277,12 @@ export class Cyclists {
       wheel: P(new THREE.TorusGeometry(0.34, 0.045, 6, 14).rotateY(Math.PI / 2), 2, 0.9),
       // the body leans forward over the bars, the arms reach for them
       body: P(mergeGeometries([
-        new THREE.BoxGeometry(0.42, 0.62, 0.26).rotateX(0.35).translate(0, 1.3, -0.08),
-        ...[-0.2, 0.2].map(x => new THREE.BoxGeometry(0.09, 0.09, 0.5).rotateX(0.5).translate(x, 1.28, 0.2)),
+        humanTorso(0.42, 0.62, 0.26).rotateX(0.35).translate(0, 1.3, -0.08),
+        ...[-0.2, 0.2].map(x => humanLimb(0.11, 0.5).rotateX(-Math.PI / 2).translate(0, 0, -0.25).rotateX(0.5).translate(x, 1.28, 0.2)),
       ]), 1),
-      head: P(new THREE.SphereGeometry(0.15, 8, 6).translate(0, 1.72, 0.06), 1),
-      top: P(new THREE.SphereGeometry(0.17, 8, 4, 0, Math.PI * 2, 0, Math.PI / 2).translate(0, 1.76, 0.06), 1, 0.4),
-      leg: P(new THREE.BoxGeometry(0.12, 0.6, 0.13).translate(0, -0.3, 0.05), 2),
+      head: P(humanFace().translate(0, 1.72, 0.06), 1),
+      top: P(new THREE.SphereGeometry(0.17, 16, 8, 0, Math.PI * 2, 0, Math.PI / 2).translate(0, 1.76, 0.06), 1, 0.4),
+      leg: P(trouserLeg(0.14, 0.6).translate(0, 0, 0.05), 2),
     };
     // colours never change: set them once
     const c = new THREE.Color();

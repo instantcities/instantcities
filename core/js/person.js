@@ -2,6 +2,7 @@
 // real metres (1.25 to a game metre). Ghent's wedding party and the people of Cederstraat are made of
 // them, and the visitors in the buildings you can go into (js/inside/rooms.js).
 import * as THREE from 'three';
+import { humanTorso, humanHead, humanFeatures, humanHair, humanShoe } from './anatomy.js';
 
 export const S = 1.25; // game metres to a real metre
 export const std = (color, roughness = 0.8, extra = {}) => new THREE.MeshStandardMaterial({ color, roughness, ...extra });
@@ -16,7 +17,7 @@ export function add(parent, geo, mat, x = 0, y = 0, z = 0, rx = 0, ry = 0, rz = 
   parent.add(m);
   return m;
 }
-export const limb = (r, L) => new THREE.CapsuleGeometry(r, Math.max(0.01, L - 2 * r), 4, 10).translate(0, -L / 2, 0);
+export const limb = (r, L) => new THREE.CapsuleGeometry(r, Math.max(0.01, L - 2 * r), 6, 14).translate(0, -L / 2, 0);
 export const lathe = (pts, n = 20) => new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r, y)), n);
 
 // One person standing, facing +z, feet at y = 0, about 1.75 m: legs (or a skirt), a body, arms,
@@ -40,17 +41,17 @@ export function person(o) {
   } else {
     for (const hip of legs) add(hip, limb(0.075, 0.9), std(o.legs, 0.85));
   }
-  for (const hip of legs) add(hip, new THREE.BoxGeometry(0.1, 0.07, 0.24), shoes, 0, 0.035 - 0.94, 0.04);
+  for (const hip of legs) add(hip, humanShoe(0.11, 0.07, 0.24), shoes, 0, 0.035 - 0.94, 0.04);
   // the body, a little fuller at the chest and shoulders
-  add(g, lathe([[0.001, 0.92], [0.17, 0.92], [0.18, 1.1], [0.19, 1.3], [0.2, 1.42], [0.12, 1.5], [0.001, 1.52]]), top).scale.z = 0.7;
+  add(g, humanTorso(0.4, 0.6, 0.28).translate(0, 1.22, 0), top);
   add(g, limb(0.05, 0.12).translate(0, 0.12, 0), skin, 0, 1.47);
   const head = new THREE.Group();
   head.position.set(0, 1.66, 0);
   g.add(head);
-  add(head, new THREE.SphereGeometry(0.1, 18, 14), skin).scale.set(0.92, 1.1, 1);
-  add(head, new THREE.SphereGeometry(0.106, 18, 10, 0, Math.PI * 2, 0, Math.PI * 0.55), hair, 0, 0.01, -0.012);
+  add(head, humanHead(0.1), skin).scale.set(0.92, 1.1, 1);
+  add(head, humanHair(0.106), hair, 0, 0.01, -0.012);
   if (o.long) add(head, new THREE.CylinderGeometry(0.1, 0.12, 0.3, 14, 1, true, Math.PI * 0.6, Math.PI * 0.8), hair, 0, -0.12, -0.01);
-  for (const s of [-1, 1]) add(head, new THREE.SphereGeometry(0.009, 6, 5), std(0x16120f, 0.3), s * 0.033, 0.015, 0.093);
+  add(head, humanFeatures(0.1), std(0x241a16, 0.65));
   // the arms: hanging down, held out in front (holding something), or up in the air
   const arms = (o.arms ?? ['down', 'down']).map((pose, k) => {
     const s = k ? 1 : -1, shoulder = new THREE.Group();
@@ -61,7 +62,7 @@ export function person(o) {
       add(shoulder, limb(0.06, 0.2), top);
       add(shoulder, limb(0.045, 0.4).translate(0, -0.16, 0), skin);
     } else add(shoulder, limb(0.055, 0.56), top);
-    add(shoulder, new THREE.SphereGeometry(0.045, 10, 8), skin, 0, -0.58, 0);
+    add(shoulder, new THREE.SphereGeometry(0.04, 12, 10).scale(0.85, 1.3, 0.75), skin, 0, -0.58, 0);
     return shoulder;
   });
   g.scale.setScalar(tall);
