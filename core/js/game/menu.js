@@ -174,6 +174,8 @@ export function buildMenu() {
   $('skySelect').addEventListener('change', e => pickSky(e.target.value));
   // Language: a dropdown, only the current one shows until it is clicked or tapped.
   $('langList').innerHTML = Object.entries(LANGS).map(([code, label]) => `<button class="chip" role="option" data-lang="${code}">${label}</button>`).join('');
+  $('pauseLangSelect').innerHTML = Object.entries(LANGS).map(([code, label]) => `<option value="${code}">${label}</option>`).join('');
+  $('pauseLangSelect').addEventListener('change', e => setLanguage(e.target.value));
   $('langBtn').addEventListener('click', () => openLangList($('langList').classList.contains('hidden')));
   document.querySelectorAll('#langList button').forEach(b => b.addEventListener('click', () => { openLangList(false); setLanguage(b.dataset.lang); }));
   document.addEventListener('pointerdown', e => { if (!$('langOpts').contains(e.target)) openLangList(false); });
@@ -329,6 +331,7 @@ export function renderMenu() {
   document.querySelectorAll('#styleList button').forEach(b => b.classList.toggle('on', b.dataset.style === game.style));
   $('styleBtn').textContent = t_('style.' + game.style) + ' ▾';
   $('langBtn').textContent = LANGS[getLang()] + ' ▾';
+  $('pauseLangSelect').value = getLang();
   document.querySelectorAll('#langList button').forEach(b => b.classList.toggle('on', b.dataset.lang === getLang()));
   $('skySelect').querySelectorAll('option').forEach(o => {
     const [tm, wx] = o.value.split(':');

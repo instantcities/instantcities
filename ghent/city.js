@@ -267,6 +267,8 @@ export const CHARACTERS = [
   // coat makes him easy to spot, and his boxes and bags stand on the quay.
   // bagSize: how much bigger his bags are
   { name: 'Zakman', street: 'Korenlei', near: [-322, -140], flip: true, inset: 2, speed: 0.85, colors: { shirt: 0xf2c230, pants: 0x4a4038, skin: 0xd49f7c, hair: 0xb8b3aa }, beard: 0xcdc8bf, bags: [0xf2f2ee, 0x2f6fc0], bagSize: 1.6, cap: 0x3d4a5a, stash: 0.1 },
+  // and a second one, on the Kunstlaan (the tour meets the first)
+  { name: 'Zakman Kunstlaan', street: 'Kunstlaan', near: [80, 1720], inset: 2, speed: 0.85, colors: { shirt: 0xf2c230, pants: 0x4a4038, skin: 0xd49f7c, hair: 0xb8b3aa }, beard: 0xcdc8bf, bags: [0xf2f2ee, 0x2f6fc0], bagSize: 1.6, cap: 0x3d4a5a, stash: 0.1 },
 ];
 
 // The busy heart of the old town, where far more people walk than anywhere else and cyclists ride
