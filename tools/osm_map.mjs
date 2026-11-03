@@ -212,6 +212,23 @@ try {
   if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
   // only the buildings that are something: named, a part of one, historic or a place of worship
   if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
+  // a ruined town's buildings of today (fill.modern): those outside its walls that are not old
+  // themselves (no historic tag: the tombs and villas outside the gates stay ruins) are drawn as
+  // the houses of a town today, not as ruins (js/scenery.js), and keep their storeys
+  if (area.fill?.modern) {
+    const ring = data.ways.find(w => w.id === area.fill.wall).nodes.map(i => data.nodes[i]);
+    const inWall = (lat, lon) => { let hit = false; for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) { const a = ring[i], b = ring[j]; if ((a.lat > lat) !== (b.lat > lat) && lon < ((b.lon - a.lon) * (lat - a.lat)) / (b.lat - a.lat) + a.lon) hit = !hit; } return hit; };
+    let modern = 0;
+    for (const w of data.ways) {
+      const t = w.tags;
+      if (!t?.building || t.historic || t.ruins || t['building'] === 'ruins') continue;
+      const p = w.nodes.map(i => data.nodes[i]).filter(Boolean);
+      if (!p.length) continue;
+      const lat = p.reduce((s, q) => s + q.lat, 0) / p.length, lon = p.reduce((s, q) => s + q.lon, 0) / p.length;
+      if (!inWall(lat, lon)) { t['instant:modern'] = 'yes'; modern++; }
+    }
+    console.error(`${modern} buildings of today outside the walls`);
+  }
   const { map, info } = buildMap(data, area);
   const filled = fillBlocks(map, area, data);
   if (filled) info.buildings += filled, console.error(`${filled} houses added to fill the gaps`);

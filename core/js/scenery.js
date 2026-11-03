@@ -29,7 +29,10 @@ import { romanUpper, romanGround, dryGround, ruinPainter, ruinWall, RUIN_VARIANT
 // A city whose LOOK has style 'italian' or 'roman' draws its house fronts as plaster in the manner of
 // js/italian.js or js/roman.js, and not tinted (a texture per colour); the other cities' are Ghent's.
 const PLASTER = LOOK?.style === 'italian' || LOOK?.style === 'roman';
-const manner = LOOK?.style === 'roman' ? { upper: romanUpper, ground: romanGround } : { upper: italianUpper, ground: italianGround };
+const ITALIAN = { upper: italianUpper, ground: italianGround };
+const manner = LOOK?.style === 'roman' ? { upper: romanUpper, ground: romanGround } : ITALIAN;
+// a building of today in a Roman town (the map's m: Pompei outside the old walls) has Italian fronts
+const mannerOf = modern => (modern ? ITALIAN : manner);
 
 // Deterministic random so each course looks the same every time.
 function mulberry32(seed) {
@@ -455,11 +458,11 @@ function italianTexture(wall, floors, r, draw) {
 }
 
 // A row-house front with the given number of storeys: two windows upstairs, a window and the door below.
-function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false) {
+function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false, modern = false) {
   if (PLASTER) {
     return italianTexture(wall, floors, r, g => {
-      manner.upper(g, floors, LOOK.shutters, v, r);
-      manner.ground(g, (floors - 1) * 80, door, v);
+      mannerOf(modern).upper(g, floors, LOOK.shutters, v, r);
+      mannerOf(modern).ground(g, (floors - 1) * 80, door, v);
     });
   }
   return canvasTexture(128, 80 * floors, (g, w, h) => {
@@ -516,12 +519,12 @@ function floorsTexture(wall, brick, door, floors, r, v = 0, tint = false) {
 }
 
 // Flats, schools and workshops: bands of wide windows, no front doors.
-function blockTexture(wall, floors, r, v = 0) {
+function blockTexture(wall, floors, r, v = 0, modern = false) {
   // in an Italian town the big buildings are palazzi: the same fronts, a grander door
   if (PLASTER) {
     return italianTexture(wall, floors, r, g => {
-      manner.upper(g, floors, LOOK.shutters, v + 1, r);
-      manner.ground(g, (floors - 1) * 80, DOORS[v % DOORS.length], v);
+      mannerOf(modern).upper(g, floors, LOOK.shutters, v + 1, r);
+      mannerOf(modern).ground(g, (floors - 1) * 80, DOORS[v % DOORS.length], v);
     });
   }
   return canvasTexture(128, 64 * floors, (g, w, h) => {
@@ -929,7 +932,7 @@ const SHOP_STYLES = {
 // A house front whose ground floor is a shop: a big window full of things, the door, and a blank
 // band for the sign. The name goes on the band separately (shopSigns): a texture per shop name,
 // over a thousand of them in Ghent, ran a phone out of memory.
-function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false) {
+function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false, modern = false) {
   // in an Italian town the storeys above the shop are the houses' own (js/italian.js)
   const italian = PLASTER, k = italian ? 2 : 1;
   return canvasTexture(128 * k, 80 * floors * k, (g, cw, ch) => {
@@ -940,7 +943,7 @@ function shopTexture(wall, brick, terrace, floors, r, v = 0, tint = false) {
     g.scale(k, k);
     const w = 128;
     if (italian) {
-      manner.upper(g, floors, LOOK.shutters, v, r);
+      mannerOf(modern).upper(g, floors, LOOK.shutters, v, r);
     } else {
       const win = (x, y, ww, hh) => {
         g.fillStyle = '#f5f1e8';
@@ -1319,14 +1322,14 @@ function osmBuildings(ctx, map) {
       wall = ['stone', rr => stoneTexture(rr)];
     } else if (big || small) {
       const c = Math.floor(hv * BIG_WALLS.length), f = small ? 1 : floors;
-      wall = [`b${c}-${f}`, rr => blockTexture(BIG_WALLS[c], f, rr, c)];
+      wall = [`b${c}-${f}${b.m ? 'm' : ''}`, rr => blockTexture(BIG_WALLS[c], f, rr, c, !!b.m)];
     } else {
       const [wc, brick] = own ?? GENT_WALLS[hc], wf = even ? quarter.storeys : floors;
-      wall = [`h${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${wf}`, rr => floorsTexture(tint ? NEUTRAL : wc, brick, DOORS[hc % DOORS.length], wf, rr, hc, !!tint), !!tint];
+      wall = [`h${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${wf}${b.m ? 'm' : ''}`, rr => floorsTexture(tint ? NEUTRAL : wc, brick, DOORS[hc % DOORS.length], wf, rr, hc, !!tint, !!b.m), !!tint];
     }
     // a ruin: every wall of rubble masonry, the street front with a doorway or a shop's opening
     let ruin = null;
-    if (LOOK?.ruins) {
+    if (LOOK?.ruins && !b.m) {
       const c = Math.floor(hv * RUIN_VARIANTS), kind = hashOf(i + 21) < 0.3 ? 'shop' : 'door';
       const walls = [0, 1, 2].map(m => [`ruin${c}-${['', 'door', 'shop'][m]}`, rr => canvasTexture(512, 342, ruinPainter(c, ['', 'door', 'shop'][m], c * 3 + m))]);
       ruin = { plain: walls[0], front: kind === 'shop' ? walls[2] : walls[1], seed: i * 7 + c, h: Math.min(RUIN_TILE[1] - 0.5, b.f > 1 ? 5.4 : 3.8 + hashOf(i + 23) * 1.2) };
@@ -1348,7 +1351,7 @@ function osmBuildings(ctx, map) {
     let shopWall = null;
     if (shop) {
       const [wc, brick] = own ?? GENT_WALLS[hc];
-      shopWall = [`s${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${shopFloors}-${!!shop.terrace}`, rr => shopTexture(tint ? NEUTRAL : wc, brick, !!shop.terrace, shopFloors, rr, hc, !!tint), !!tint];
+      shopWall = [`s${tint ? `t${hc}${+brick}` : own ? wc + +brick : hc}-${shopFloors}-${!!shop.terrace}${b.m ? 'm' : ''}`, rr => shopTexture(tint ? NEUTRAL : wc, brick, !!shop.terrace, shopFloors, rr, hc, !!tint, !!b.m), !!tint];
     }
     let roof = null;
     if (!spire && b.r && (b.t != null || (!big && !small && !stone))) {

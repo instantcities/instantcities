@@ -40,6 +40,9 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   (most of Regiones I, III, IV, V and IX) `vineyards` (`{ plot: [length, width], gap, clear }`) plants
   vineyards, as on the site today: areas of kind `vineyard`, on which `js/scenery.js` draws rows of
   vines along the plot's first edge. Riders pass through the vines; they are not walls.
+  `modern: true` draws the buildings outside the town wall (`wall`) that have no historic tag (the
+  town of Pompei today, the station, the site's entrances) as the houses of an Italian town, with
+  their storeys and roofs, not as ruins; the tombs and villas outside the gates stay ruins.
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
