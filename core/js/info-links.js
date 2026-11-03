@@ -20,5 +20,7 @@ export function infoPage(city, card) {
   for (const name of [card.id, ...Object.values(card.text ?? {}).map(t => t.name)].filter(Boolean)) {
     if (pages[key(name)]) return pages[key(name)];
   }
-  return '';
+  // a card for something in a building (Pompeii's house-faun-1, the Alexander Mosaic) leads to the building's page
+  const of = /^(.+)-\d+$/.exec(card.id ?? '')?.[1];
+  return (of && pages[key(of)]) || '';
 }
