@@ -1,0 +1,50 @@
+{
+  "name": "Rome",
+  "shots": [
+    {
+      "name": "Piazza Colonna",
+      "at": [
+        209,
+        -313
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    },
+    {
+      "name": "Pantheon",
+      "at": [
+        -200,
+        39
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7,
+      "cameraFrom": [
+        -300,
+        100,
+        20
+      ],
+      "cameraTo": [
+        -275,
+        90,
+        70
+      ],
+      "look": [
+        -153,
+        20,
+        32
+      ]
+    },
+    {
+      "name": "Piazza Venezia",
+      "at": [
+        268,
+        334
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    }
+  ]
+}
