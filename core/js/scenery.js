@@ -20,6 +20,7 @@ import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
 import { addSitters } from './sitters.js';
+import { sunkenStreets, sunkenStreet, cutStencil } from './sunken.js';
 import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
@@ -2026,7 +2027,7 @@ function osmGround(ctx, map, m) {
   }
   const duals = dualCarriageways(map);
   medians(layers.green[0], duals, layers.green[2]);
-  const cut = sunkenWater(ctx, map, layers, nearFoot(map));
+  const cut = sunkenWater(ctx, map, layers, nearFoot(map)) ?? (ctx.theme.sunken ? cutStencil : null); // (and the sunken streets, js/sunken.js)
   hollowGround(ctx.group, map, layers, { pavement: m.pavement, asphalt: m.asphalt });
   for (const [k, [batch, material, y]] of Object.entries(layers)) {
     const m = batch.mesh(ctx, k === 'water' ? material : cut ? cut(onGround(material, y)) : onGround(material, y));
@@ -2037,8 +2038,10 @@ function osmGround(ctx, map, m) {
   const kerbs = new Batch(), asphalt = new Batch(), setts = new Batch(), slabs = new Batch(), foot = new Batch(), sides = new Batch(), iron = new Batch();
   const footSetts = new Batch(), footSlabs = new Batch(), bike = new Batch();
   const bikeNames = new Set((BIKE_STREETS ?? []).map(n => map.names.indexOf(n)));
+  const sunk = ctx.theme.sunken ? sunkenStreet(map) : null; // drawn sunk into the ground (js/sunken.js)
   for (const rd of map.roads) {
     const up = rd.br ? 0.03 : 0; // a bridge's deck over the ends of the streets leading onto it
+    if (sunk?.(rd)) continue;
     if (rd.foot && !rd.c) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
     else if (rd.foot) groundStrip(rd.c === 2 ? footSlabs : footSetts, rd.p, rd.w, (rd.c === 2 ? GROUND.footSlabs : GROUND.footSetts) + up, 6, rd.y);
     else {
@@ -2054,21 +2057,22 @@ function osmGround(ctx, map, m) {
     raisedSides(sides, rd, w, [0, 1.1, 0.95, 1.9][rd.br ?? 0], [0, 0.9, 0, 1.15][rd.br ?? 0]);
     if (rd.br === 2) railings(iron, rd, w);
   }
-  kerbs.mesh(ctx, onGround(m.pavement, GROUND.kerbs));
-  foot.mesh(ctx, onGround(m.pavement, GROUND.foot));
-  asphalt.mesh(ctx, onGround(m.asphalt, GROUND.asphalt));
-  bike.mesh(ctx, onGround(m.bike, GROUND.bike));
+  const onRoad = (m, y) => (cut ? cut(onGround(m, y)) : onGround(m, y)); // open over a sunken street
+  kerbs.mesh(ctx, onRoad(m.pavement, GROUND.kerbs));
+  foot.mesh(ctx, onRoad(m.pavement, GROUND.foot));
+  asphalt.mesh(ctx, onRoad(m.asphalt, GROUND.asphalt));
+  bike.mesh(ctx, onRoad(m.bike, GROUND.bike));
   const lines = new Batch();
   laneLines(lines, map, GROUND.lines);
-  lines.mesh(ctx, onGround(mat(0xf2f2ee, 0.7), GROUND.lines));
+  lines.mesh(ctx, onRoad(mat(0xf2f2ee, 0.7), GROUND.lines));
   const discs = new Batch();
   bikeDiscs(discs, map, bikeNames, GROUND.lines);
-  discs.mesh(ctx, onGround(mat(0xffffff, 0.8, { map: bikeDiscTexture(), alphaTest: 0.5 }), GROUND.lines));
+  discs.mesh(ctx, onRoad(mat(0xffffff, 0.8, { map: bikeDiscTexture(), alphaTest: 0.5 }), GROUND.lines));
   const settMat = mat(0xffffff, 0.95, { map: ctx.theme.roman ? lavaTexture() : settTexture(16, 24) }), slabMat = mat(0xffffff, 0.95, { map: ctx.theme.roman ? lavaTexture() : slabTexture(ctx.theme) });
-  setts.mesh(ctx, onGround(settMat, GROUND.setts));
-  slabs.mesh(ctx, onGround(slabMat, GROUND.slabs));
-  footSetts.mesh(ctx, onGround(settMat, GROUND.footSetts));
-  footSlabs.mesh(ctx, onGround(slabMat, GROUND.footSlabs));
+  setts.mesh(ctx, onRoad(settMat, GROUND.setts));
+  slabs.mesh(ctx, onRoad(slabMat, GROUND.slabs));
+  footSetts.mesh(ctx, onRoad(settMat, GROUND.footSetts));
+  footSlabs.mesh(ctx, onRoad(slabMat, GROUND.footSlabs));
   sides.mesh(ctx, mat(0x9b9184, 0.95, { side: THREE.DoubleSide }), { shadow: true });
   iron.mesh(ctx, mat(0x232628, 0.6, { side: THREE.DoubleSide }), { shadow: true });
   // the squares over it all, streets and kerbs included: one floor of stone wall to wall
@@ -2734,6 +2738,8 @@ export function buildCity(group, tracks, cfg) {
   ground(ctx);
   const mats = groundMats(ctx);
   osmGround(ctx, map, mats);
+  // streets lying lower than the ground the houses stand on (js/sunken.js)
+  const sunken = ctx.theme.sunken ? sunkenStreets(ctx, map, tracks, ctx.theme.sunken, ctx.theme.pavement ?? 3.4, mats.pavement, mat(0xffffff, 0.95, { map: lavaTexture() })) : null;
   bankSheep(ctx, map);
   const trams = addTrams(ctx, map.trams, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES);
   addStops(ctx, STOPS);
@@ -2749,7 +2755,7 @@ export function buildCity(group, tracks, cfg) {
   const posts = addFurniture(ctx, map);
   clouds(ctx);
   return {
-    clear: ctx.clear, update: ctx.update, traffic, trams, ledges, posts, targets: ctx.targets, setNight: furnitureNight,
+    clear: ctx.clear, update: ctx.update, traffic, trams, ledges, sunken, posts, targets: ctx.targets, setNight: furnitureNight,
     paintSky, cloudMat: ctx.cloudMat, grass: [ctx.groundPlane.material, mats.garden, mats.park], // what snow covers
   };
 }
