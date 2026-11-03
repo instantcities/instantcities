@@ -3,7 +3,9 @@ import { dressMonuments } from '../core/js/site-style.js';
 // buried by Vesuvius in AD 79 and dug out again: its streets, the Forum with the Temple of Jupiter,
 // the baths, the houses and the amphitheatre. A site, not a city: the map is the excavation's own
 // piece of OpenStreetMap (the streets are named there, and the houses are drawn as ruins, which
-// `ruins_as_buildings` in area.json turns into houses), and the main monuments are modelled by hand.
+// `ruins_as_buildings` in area.json turns into houses; the blocks it leaves empty are filled where the
+// site's own plan of the excavations shows houses, `fill.plan`, see docs/sites.md), and the main
+// monuments are modelled by hand.
 // The files in this folder:
 //   city.js          this file: the look and its named places, and the rest gathered up
 //   races.js         the race route             (hand-written)

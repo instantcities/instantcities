@@ -32,6 +32,12 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
 - `ruins_as_buildings`: `{ max, skip }`: closed ways tagged `historic=archaeological_site` or `ruins`
   (Pompeii's houses) become buildings if they are at most `max` metres across and their name does not
   match `skip`.
+- `fill`: houses for the blocks OpenStreetMap leaves empty, on a grid of lots turned to the streets
+  (see `fillBlocks` in `tools/osm_map.mjs`). Pompeii's has a `plan`: the parts of the town that are dug
+  out, taken from the Parco Archeologico's own plan of the excavations
+  (`tools/sources/pompeii/PompeiiMAP.pdf`, by `tools/pompeii-plan.py`). Only there are the blocks
+  filled, lot against lot and then with smaller lots up to the streets; the parts still buried
+  (most of Regiones I, III, IV, V and IX) stay open fields, as on the plan.
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
