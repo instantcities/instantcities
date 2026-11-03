@@ -1,0 +1,15 @@
+# pompeii's page in French (_layouts/city.html, at /fr/pompei/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pompeii.json) and its credits. What this leaves out stays English.
+title: 'Instant Pompéi : visite virtuelle 3D et jeu gratuits de Pompéi'
+description: 'Faites gratuitement une visite virtuelle en 3D de Pompéi dans votre navigateur, puis parcourez-en vous-même les rues romaines à pied, à vélo ou à cheval : explorez ou faites la course, seul ou à deux sur un seul clavier.'
+tagline: Marchez ou faites la course dans les rues romaines de Pompéi, avec le Vésuve derrière.
+lead: La ville romaine ensevelie par le Vésuve en 79 apr. J.-C., en 3D. Ses rues telles que les fouilles les dessinent, le Forum avec le temple de Jupiter, les thermes, les théâtres, dix maisons où entrer et l’amphithéâtre à l’extrémité est.
+features:
+- title: La ville, rue par rue
+  text: Environ 1 100 maisons et boutiques le long des rues des fouilles, avec la via dell’Abbondanza, la via Stabiana et la via del Foro, pavées de blocs de basalte et traversées de pierres de passage.
+- title: Dix maisons où entrer
+  text: Entrez par la porte de la maison du Faune, de la maison des Vettii, du Lupanar, d’un bar de rue et de six autres maisons, avec leurs atriums, leurs jardins, leurs fresques et leurs mosaïques. Le Forum, les théâtres, les thermes de Stabies et l’amphithéâtre sont modélisés à la main, et le Vésuve se dresse à l’horizon là où il est vraiment.
+- title: Une course autour du centre-ville
+  text: Une boucle d’environ un kilomètre depuis le Forum par la via dell’Abbondanza et retour par la via Stabiana et la via della Fortuna.
+intro: Pompéi était une ville romaine d’environ 11 000 habitants sur la baie de Naples, à dix kilomètres du Vésuve. L’éruption de 79 apr. J.-C. l’a recouverte de six mètres de cendres et de ponce, et elle est restée ainsi jusqu’au début des fouilles en 1748. Ses rues, ses maisons, ses boutiques, ses temples et ses thermes donnent l’image la plus complète que nous ayons de la vie quotidienne dans une ville romaine.
+credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL).
