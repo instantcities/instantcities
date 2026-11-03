@@ -351,29 +351,51 @@ export function ruinHeight(x, z, h, seed) {
   return Math.max(0.5, Math.round((h * (0.28 + 0.72 * smooth(f))) / 0.2) * 0.2);
 }
 
+// One face of a wall into the batch wb: four corners [x, y, z] going round, their [u, v], and the
+// way it faces (n), the triangles turned so that their front is on that side.
+function face(wb, q, uv, n) {
+  const [a, b, c] = q, e1 = [b[0] - a[0], b[1] - a[1], b[2] - a[2]], e2 = [c[0] - a[0], c[1] - a[1], c[2] - a[2]];
+  const cx = e1[1] * e2[2] - e1[2] * e2[1], cy = e1[2] * e2[0] - e1[0] * e2[2], cz = e1[0] * e2[1] - e1[1] * e2[0];
+  const k = q.map((p, i) => wb.vert(p[0], p[1], p[2], n[0], n[1], n[2], uv[i][0], uv[i][1]));
+  if (cx * n[0] + cy * n[1] + cz * n[2] >= 0) wb.idx.push(k[0], k[1], k[2], k[0], k[2], k[3]);
+  else wb.idx.push(k[0], k[2], k[1], k[0], k[3], k[2]);
+}
+
 // One wall of a ruin into the batch wb (its vert(x, y, z, nx, ny, nz, u, v) and idx): from (ax, az)
 // to (bx, bz), n its outward normal, standing y0 to at most y0 + h, in pieces of a metre or two each
-// broken off at its own height, with a cap of bare stone on every piece (the wall is thin: 40 cm).
-// u0, u1: where along the texture it starts and ends.
-export function ruinWall(wb, ax, az, bx, bz, nx, nz, L, y0, h, seed, u0, u1, thick = 0.4) {
-  const dx = (bx - ax) / L, dz = (bz - az) / L, ccw = -dz * nx + dx * nz > 0, top = RUIN_TILE[1];
-  const quad = (a, b, c, d) => (ccw ? wb.idx.push(a, b, c, a, c, d) : wb.idx.push(a, c, b, a, d, c));
+// broken off at its own height. Each piece is solid masonry `thick` metres through (50 cm unless
+// said): its outer face, its inner face, a cap of bare stone on top, and an end wherever it stands
+// higher than the piece next to it (and at both ends of the wall), so no wall is a sheet without
+// thickness seen from the side or from inside. u0, u1: where along the texture it starts and ends.
+export function ruinWall(wb, ax, az, bx, bz, nx, nz, L, y0, h, seed, u0, u1, thick = 0.5) {
+  const dx = (bx - ax) / L, dz = (bz - az) / L, top = RUIN_TILE[1], du = (thick / RUIN_TILE[0]) * Math.sign(u1 - u0 || 1);
+  const pieces = [];
   for (let s = 0, k = 0; s < L - 0.01; k++) {
     const len = Math.min(L - s, 0.8 + hash2(k, Math.round(ax * 10), seed) * 2.2), s1 = s + len;
     const mx = ax + dx * (s + len / 2), mz = az + dz * (s + len / 2);
-    const H = Math.min(top - 0.5, ruinHeight(mx, mz, h, seed));
-    const pa = [ax + dx * s, az + dz * s], pb = [ax + dx * s1, az + dz * s1];
-    const ua = u0 + (u1 - u0) * (s / L), ub = u0 + (u1 - u0) * (s1 / L), v1 = H / top;
-    const a0 = wb.vert(pa[0], y0, pa[1], nx, 0, nz, ua, 0), b0 = wb.vert(pb[0], y0, pb[1], nx, 0, nz, ub, 0);
-    const b1 = wb.vert(pb[0], y0 + H, pb[1], nx, 0, nz, ub, v1), a1 = wb.vert(pa[0], y0 + H, pa[1], nx, 0, nz, ua, v1);
-    quad(a0, b0, b1, a1);
-    // the cap: the wall's thickness, in from the outside
-    const ia = [pa[0] - nx * thick, pa[1] - nz * thick], ib = [pb[0] - nx * thick, pb[1] - nz * thick];
-    const c0 = wb.vert(pa[0], y0 + H, pa[1], 0, 1, 0, ua, RUIN_CAP), c1 = wb.vert(pb[0], y0 + H, pb[1], 0, 1, 0, ub, RUIN_CAP);
-    const c2 = wb.vert(ib[0], y0 + H, ib[1], 0, 1, 0, ub, RUIN_CAP), c3 = wb.vert(ia[0], y0 + H, ia[1], 0, 1, 0, ua, RUIN_CAP);
-    wb.idx.push(c0, c1, c2, c0, c2, c3);
+    pieces.push({ s, s1, H: Math.min(top - 0.5, ruinHeight(mx, mz, h, seed)) });
     s = s1;
   }
+  const out = s => [ax + dx * s, az + dz * s], inn = s => [ax + dx * s - nx * thick, az + dz * s - nz * thick];
+  const uAt = s => u0 + (u1 - u0) * (s / L);
+  // the end of a wall piece at s, standing from y0 + lo to y0 + hi, facing along the wall (sgn: +1 forwards)
+  const end = (s, lo, hi, sgn) => {
+    const o = out(s), i = inn(s), u = uAt(s);
+    face(wb, [[o[0], y0 + lo, o[1]], [i[0], y0 + lo, i[1]], [i[0], y0 + hi, i[1]], [o[0], y0 + hi, o[1]]],
+      [[u, lo / top], [u + du, lo / top], [u + du, hi / top], [u, hi / top]], [dx * sgn, 0, dz * sgn]);
+  };
+  pieces.forEach(({ s, s1, H }, k) => {
+    const pa = out(s), pb = out(s1), ia = inn(s), ib = inn(s1), ua = uAt(s), ub = uAt(s1), v1 = H / top, y1 = y0 + H;
+    // the outside, and the inside (the same stones, seen from the room)
+    face(wb, [[pa[0], y0, pa[1]], [pb[0], y0, pb[1]], [pb[0], y1, pb[1]], [pa[0], y1, pa[1]]], [[ua, 0], [ub, 0], [ub, v1], [ua, v1]], [nx, 0, nz]);
+    face(wb, [[ia[0], y0, ia[1]], [ib[0], y0, ib[1]], [ib[0], y1, ib[1]], [ia[0], y1, ia[1]]], [[ua + du, 0], [ub + du, 0], [ub + du, v1], [ua + du, v1]], [-nx, 0, -nz]);
+    // the cap: bare stone across the wall's thickness
+    face(wb, [[pa[0], y1, pa[1]], [pb[0], y1, pb[1]], [ib[0], y1, ib[1]], [ia[0], y1, ia[1]]], [[ua, RUIN_CAP], [ub, RUIN_CAP], [ub, RUIN_CAP], [ua, RUIN_CAP]], [0, 1, 0]);
+    // the broken ends: where this piece stands above its neighbour, and at the wall's two ends
+    const before = k ? pieces[k - 1].H : 0, after = k < pieces.length - 1 ? pieces[k + 1].H : 0;
+    if (H > before) end(s, before, H, -1);
+    if (H > after) end(s1, after, H, 1);
+  });
 }
 
 // What ruinWall draws into when there is no tile batch (the hand-modelled ruins): the vertices and
