@@ -1,0 +1,360 @@
+# pompeii's landmarks in French (_data/landmarks/pompeii.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it), dates and links (their titles, in order), each as in the English; what is left out stays English.
+forum:
+  links:
+  - Forum de Pompéi (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Le Forum
+  blurb: La longue place au milieu de Pompéi, fermée aux charrettes, avec le temple de Jupiter à son extrémité nord et le Vésuve derrière.
+  text:
+  - "Le Forum est une place d’environ 140 sur 38 mètres, pavée de dalles de pierre et fermée aux charrettes par des marches et des blocs à ses entrées. Un portique à deux étages courait sur trois côtés. Autour se dressaient les bâtiments de la ville : le temple de Jupiter, la Basilique, le temple d’Apollon, le marché couvert (le Macellum), l’édifice d’Eumachie, protectrice des marchands de laine, et trois petites salles pour le conseil municipal et ses magistrats."
+  - On venait ici pour commercer, voter, écouter les annonces et voir passer les processions. Des statues des grands hommes de la ville se dressaient sur les socles encore alignés le long du côté ouest.
+  history:
+  - La place fut aménagée au IIe siècle av. J.-C., quand Pompéi était une ville samnite, et reconstruite en pierre après être devenue colonie romaine en 80 av. J.-C. Le tremblement de terre de 62 apr. J.-C. l’endommagea gravement, et beaucoup restait à réparer quand le Vésuve entra en éruption en 79 apr. J.-C.
+  visit:
+  - Le Forum est à quelques pas de l’entrée Porta Marina des fouilles. Les moulages de victimes et les trouvailles de la ville sont conservés dans les greniers du Forum, du côté ouest, derrière une grille.
+  dates:
+  - - IIe siècle av. J.-C.
+    - La place est aménagée
+  - - 80 av. J.-C.
+    - Pompéi devient colonie romaine
+  - - 62 apr. J.-C.
+    - Un tremblement de terre endommage les bâtiments alentour
+  - - 79 apr. J.-C.
+    - Ensevelie par l’éruption du Vésuve
+temple-of-jupiter:
+  links:
+  - Temple de Jupiter (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Temple de Jupiter
+  blurb: Le principal temple de la ville, sur un haut podium à l’extrémité nord du Forum, avec le Vésuve qui s’élève juste derrière.
+  text:
+  - "Le temple se dresse sur un podium de trois mètres de haut, auquel on accède par un large escalier, à la tête du Forum. Quand Pompéi devint colonie romaine, il fut consacré aux trois dieux du Capitole de Rome : Jupiter, Junon et Minerve, dont les statues se trouvaient dans la cella."
+  - Deux arcs se dressaient de chaque côté, et celui de gauche est toujours là. Vu de l’extrémité sud du Forum, le temple s’aligne avec le sommet du Vésuve.
+  history:
+  - Il fut construit au IIe siècle av. J.-C., probablement d’abord pour Jupiter seul. Le tremblement de terre de 62 apr. J.-C. le laissa en ruines, et la ville utilisait entre-temps un temple plus petit. Il n’était pas reconstruit en 79 apr. J.-C.
+  dates:
+  - - IIe siècle av. J.-C.
+    - Construit à la tête du Forum
+  - - 80 av. J.-C.
+    - Consacré à Jupiter, Junon et Minerve
+  - - 62 apr. J.-C.
+    - Ruiné par un tremblement de terre
+  - - '1816'
+    - Fouillé
+casa-del-fauno:
+  links:
+  - Maison du Faune (Wikipédia)
+  - Mosaïque d’Alexandre (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Maison du Faune
+  blurb: La plus grande maison de Pompéi, un îlot entier, nommée d’après le faune de bronze dansant de son atrium. La mosaïque d’Alexandre y fut trouvée.
+  text:
+  - La maison occupe un îlot entier d’environ 3 000 mètres carrés sur la via della Fortuna. HAVE, « bienvenue » en latin, est incrusté dans le pavement devant la porte. Elle a deux atriums côte à côte et deux jardins entourés de colonnades, l’un derrière l’autre.
+  - "Un petit faune de bronze danse dans le bassin d’eau de pluie de l’atrium principal ; celui qui s’y trouve aujourd’hui est une copie. Entre les deux jardins, dans une salle ouverte, se trouvait la mosaïque d’Alexandre : Alexandre le Grand à cheval chargeant le roi perse Darius à la bataille d’Issos, faite d’environ un million et demi de minuscules tesselles. Le faune d’origine et la mosaïque sont au Musée archéologique national de Naples."
+  history:
+  - La maison fut construite au IIe siècle av. J.-C. pour une riche famille samnite, et était plus riche que la plupart des palais de son temps. Elle fut fouillée en 1830 et 1831. La mosaïque d’Alexandre fut déposée en 1843 et emportée à Naples.
+  visit:
+  - Une copie de la mosaïque est à sa place dans l’exèdre entre les jardins.
+  dates:
+  - - IIe siècle av. J.-C.
+    - Construite
+  - - 1830–1831
+    - Fouillée
+  - - '1843'
+    - La mosaïque d’Alexandre est transportée à Naples
+casa-dei-vettii:
+  links:
+  - Maison des Vettii (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Maison des Vettii
+  blurb: La maison de deux esclaves affranchis devenus riches par le commerce, avec les peintures murales les plus connues de Pompéi autour de son jardin.
+  text:
+  - Aulus Vettius Restitutus et Aulus Vettius Conviva étaient frères et anciens esclaves, devenus riches comme marchands. Dans l’atrium se trouvaient leurs deux coffres-forts, que chaque visiteur pouvait voir. Derrière s’étend un jardin avec colonnes, fontaines et statues, qui a été replanté tel qu’il était.
+  - Les pièces autour du jardin sont peintes dans le dernier style de Pompéi, avec des scènes de mythes. Dans la grande salle à manger, une frise de petits amours court le long des murs noirs, fabriquant du parfum, travaillant l’or, vendant du vin et faisant la course en char. Une peinture de Priape à l’entrée devait porter bonheur.
+  history:
+  - La maison fut fouillée en 1894 et 1895. Elle resta fermée de nombreuses années pour restauration et rouvrit en janvier 2023.
+  dates:
+  - - Après 62 apr. J.-C.
+    - Redécorée
+  - - 1894–1895
+    - Fouillée
+  - - '2023'
+    - Rouverte après vingt ans de restauration
+lupanare:
+  links:
+  - Lupanar (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Le Lupanar
+  blurb: "Le seul bâtiment de Pompéi construit comme maison close : un couloir de petites cellules aux lits de pierre, des peintures érotiques et plus d’une centaine de graffitis."
+  text:
+  - Le Lupanar se trouve à l’angle de deux ruelles étroites à l’est du Forum. Au rez-de-chaussée, un couloir mène à cinq petites cellules, chacune avec un lit de pierre sur lequel on posait un matelas. Au-dessus des portes, de petites peintures représentent des couples.
+  - Sur les murs, plus d’une centaine de graffitis, griffonnés par des clients et par les femmes qui travaillaient ici, avec des noms, des prix et des vantardises. À l’étage, cinq autres pièces, accessibles par leur propre escalier depuis la rue.
+  history:
+  - Pompéi avait d’autres endroits où l’on vendait du sexe, surtout des pièces isolées dans des maisons ou au-dessus de bars. Celui-ci est celui qui fut construit pour cela. Il fut fouillé en 1862 et restauré en 2006.
+  dates:
+  - - Ier siècle apr. J.-C.
+    - En usage
+  - - '1862'
+    - Fouillé
+  - - '2006'
+    - Restauré
+stabian-baths:
+  links:
+  - Thermes de Stabies (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Les thermes de Stabies
+  blurb: Les plus anciens bains publics de Pompéi, avec une cour d’exercice, une piscine et des salles d’eau froide, tiède et chaude, pour les hommes et pour les femmes.
+  text:
+  - "Les thermes tirent leur nom de la via Stabiana, au croisement avec la via dell’Abbondanza. On entre dans une grande cour où les hommes s’exerçaient, avec une piscine d’un côté. Autour s’ouvrent les salles des hommes : un vestiaire, un bain froid, une salle tiède et une salle chaude. Les femmes avaient un ensemble plus petit, chauffé par le même foyer."
+  - Les sols des salles chaudes reposaient sur de petits piliers de brique, pour que l’air chaud du foyer passe dessous et monte par les murs. Le stuc des voûtes du vestiaire est toujours là.
+  history:
+  - Les premiers bains ici datent du IVe ou IIIe siècle av. J.-C., ce qui en fait parmi les plus anciens connus du monde romain. Ils furent agrandis plusieurs fois, et étaient en réparation après le tremblement de terre de 62 apr. J.-C.
+  dates:
+  - - IVe–IIIe siècle av. J.-C.
+    - Les premiers bains
+  - - 80 av. J.-C.
+    - Reconstruits après que Pompéi devient colonie romaine
+  - - Années 1850
+    - Fouillés
+grand-theatre:
+  links:
+  - Théâtres de Pompéi (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Le Grand Théâtre
+  blurb: Un théâtre de style grec, adossé à une pente au sud de la ville, pour environ 5 000 personnes, avec le petit Odéon couvert à côté.
+  text:
+  - Les gradins s’élèvent en demi-cercle depuis l’orchestre, bâtis contre la pente naturelle du terrain. On y donnait des pièces, des mimes et des pantomimes. En été, une toile était tendue sur des mâts au-dessus des gradins ; les anneaux de pierre qui les retenaient sont toujours sur le mur du haut.
+  - À côté se dresse l’Odéon, un petit théâtre couvert d’environ 1 000 places, pour la musique et les lectures. Derrière la scène s’étend une grande cour à colonnes, où le public se promenait entre les actes, plus tard utilisée comme caserne de gladiateurs.
+  history:
+  - Le théâtre fut construit au IIe siècle av. J.-C. et agrandi à l’époque d’Auguste par les Holconii, une famille de la ville, dont les noms y figurent. Il fut fouillé à partir de 1764, parmi les premières parties de Pompéi mises au jour.
+  visit:
+  - Des concerts et des pièces sont encore donnés dans le théâtre en été.
+  dates:
+  - - IIe siècle av. J.-C.
+    - Construit
+  - - Vers 80 av. J.-C.
+    - L’Odéon est ajouté à côté
+  - - Vers 3–2 av. J.-C.
+    - Agrandi par les Holconii
+  - - '1764'
+    - Début des fouilles
+amphitheatre:
+  links:
+  - Amphithéâtre de Pompéi (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: L’Amphithéâtre
+  blurb: Le plus ancien amphithéâtre de pierre conservé, à l’extrémité est de la ville, construit vers 70 av. J.-C. pour quelque 20 000 personnes venues voir des gladiateurs.
+  text:
+  - L’amphithéâtre se dresse dans l’angle sud-est de la ville, contre les murs. Son arène fut creusée dans le sol et la terre amoncelée en talus pour les gradins, soutenus par un mur extérieur à arcades et des escaliers extérieurs. Il pouvait accueillir environ 20 000 personnes, plus que n’en comptait la ville.
+  - Des gladiateurs s’y battaient, et l’on y chassait des bêtes sauvages. En 59 apr. J.-C., une bagarre éclata pendant un spectacle entre les gens de Pompéi et ceux de Nucérie, une ville voisine. Il y eut de nombreux morts, et le Sénat romain interdit les jeux ici pendant dix ans. Une peinture de l’émeute, trouvée dans une maison de la ville, est à Naples.
+  history:
+  - Deux magistrats de la nouvelle colonie romaine, Caius Quinctius Valgus et Marcus Porcius, le financèrent vers 70 av. J.-C., comme le dit une inscription. Il mesure environ 135 mètres de long et fut fouillé en 1748 puis de nouveau en 1813–1816.
+  visit:
+  - Il se trouve à l’extrémité est des fouilles, à environ 20 minutes à pied du Forum, près de l’entrée Piazza Anfiteatro. Pink Floyd y a filmé un concert sans public en 1971.
+  dates:
+  - - Vers 70 av. J.-C.
+    - Construit
+  - - 59 apr. J.-C.
+    - Émeute entre les gens de Pompéi et de Nucérie
+  - - '1748'
+    - Première fouille
+  - - '1971'
+    - Pink Floyd y filme Live at Pompeii
+thermopolium:
+  links:
+  - Thermopolium (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Thermopolium de Vetutius Placidus
+  blurb: Un bar de rue sur la via dell’Abbondanza, avec son comptoir de marbre coloré et les jarres pour la nourriture et le vin qui y sont encastrées.
+  text:
+  - Pompéi comptait environ 150 bars comme celui-ci, où l’on achetait de la nourriture chaude et du vin à un comptoir ouvert sur la rue. La plupart des maisons n’avaient pas de cuisine. Ici, le comptoir en L est revêtu de morceaux de marbre coloré, et des jarres pour la nourriture et la boisson sont enfoncées dans son plateau.
+  - Sur le mur derrière le comptoir se trouve le laraire de la maison, peint avec les dieux Mercure, pour le profit, et Bacchus, pour le vin, et les esprits protecteurs du foyer. La famille vivait dans les pièces de derrière, autour d’un petit jardin.
+  history:
+  - Le bar appartenait à Lucius Vetutius Placidus, dont le nom était peint sur sa façade, avec son épouse Ascula. Quand il fut dégagé, une jarre du comptoir contenait un tas de pièces, la recette du dernier jour ou les économies de la famille.
+  dates:
+  - - 79 apr. J.-C.
+    - En activité le jour de l’éruption
+  - - Années 1910
+    - Fouillé le long de la via dell’Abbondanza
+garden-of-the-fugitives:
+  links:
+  - Jardin des Fugitifs (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Jardin des Fugitifs
+  blurb: Un jardin près des murs sud où treize personnes moururent sous les cendres. Des moulages en plâtre montrent où et comment elles tombèrent.
+  text:
+  - Le jardin était une vigne au sud-est de la ville, près de la porte de Nocera. Treize personnes, adultes et enfants, tentèrent de quitter la ville par ici pendant l’éruption et moururent ici, terrassées par le nuage brûlant de gaz et de cendres qui balaya Pompéi.
+  - La cendre durcit autour de leurs corps, qui se décomposèrent en laissant des creux. En 1863, l’archéologue Giuseppe Fiorelli eut l’idée de couler du plâtre dans de tels creux, et les moulages montrent les gens tels qu’ils gisaient. Les moulages du jardin sont là où on les a trouvés, sous verre.
+  history:
+  - Le jardin fut fouillé en 1961. D’autres moulages, de personnes et d’un chien, sont conservés dans les greniers du Forum et montrés dans la ville.
+  dates:
+  - - 79 apr. J.-C.
+    - Treize personnes meurent ici lors de l’éruption
+  - - '1863'
+    - Fiorelli fait les premiers moulages en plâtre à Pompéi
+  - - '1961'
+    - Le jardin est fouillé
+basilica:
+  links:
+  - Basilique (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: La Basilique
+  blurb: "Le tribunal et la bourse à l’angle sud-ouest du Forum, du IIe siècle av. J.-C. : la plus ancienne basilique conservée."
+  text:
+  - La Basilique est une longue salle d’environ 55 sur 24 mètres, s’ouvrant sur le Forum à son extrémité est. À l’intérieur, 28 colonnes épaisses de brique et de pierre se dressaient autour du milieu, et à l’extrémité ouest, surélevé, se trouvait le tribunal où siégeaient les magistrats.
+  - C’était là que les marchands se retrouvaient pour traiter leurs affaires et que l’on jugeait les causes. Ses murs étaient peints pour imiter le marbre, et les visiteurs gravaient des graffitis dans l’enduit, dont certains parmi les plus connus de Pompéi.
+  history:
+  - Elle fut construite vers 130–120 av. J.-C., avant que Pompéi ne devienne colonie romaine. Des salles de ce genre furent ensuite construites dans toutes les villes romaines, et le nom fut repris pour les premières grandes églises.
+  dates:
+  - - Vers 130–120 av. J.-C.
+    - Construite
+  - - 62 apr. J.-C.
+    - Endommagée par le tremblement de terre
+  - - 1806–1813
+    - Fouillée
+temple-of-apollo:
+  links:
+  - Temple d’Apollon (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Temple d’Apollon
+  blurb: Le plus ancien temple de Pompéi, dans une cour de 48 colonnes à côté du Forum, avec des statues de bronze d’Apollon et de Diane en archers.
+  text:
+  - Le temple se dresse sur un haut podium au milieu d’une cour, entouré d’un portique de 48 colonnes. Un autel se trouve au pied de ses marches, et à côté un cadran solaire sur une haute colonne.
+  - Le long du portique se dressent des statues de bronze d’Apollon et de sa sœur Diane, tous deux bandant un arc. Celles d’ici sont des copies ; les originaux sont au Musée archéologique national de Naples.
+  history:
+  - Apollon était vénéré à cet endroit dès le VIe siècle av. J.-C., quand les usages grecs atteignirent la ville depuis les cités de la côte. Le temple fut reconstruit au IIe siècle av. J.-C. sous la forme que l’on voit aujourd’hui, et était en réparation après le tremblement de terre de 62 apr. J.-C.
+  dates:
+  - - VIe siècle av. J.-C.
+    - Premier sanctuaire d’Apollon
+  - - IIe siècle av. J.-C.
+    - Reconstruit
+  - - 1817–1818
+    - Fouillé
+stepping-stones:
+  links:
+  - Pompéi (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Pierres de passage
+  blurb: Des blocs de lave en travers des rues, pour traverser sans marcher dans l’eau et les ordures, avec les ornières des charrettes entre eux.
+  text:
+  - Les rues de Pompéi n’avaient pas d’égouts. Eaux de pluie, boue et ordures y ruisselaient, si bien que de hauts trottoirs bordent les deux côtés et que de gros blocs de lave traversent la rue aux angles. On passait de l’un à l’autre pour traverser les pieds secs.
+  - Les espaces entre les pierres sont aussi larges que les roues d’une charrette, si bien que les charrettes pouvaient passer par-dessus. Leurs roues ont creusé de profondes ornières dans le pavage, que l’on voit encore dans de nombreuses rues. Certaines rues étaient trop étroites pour deux charrettes, et l’une devait attendre que l’autre soit passée.
+casa-del-poeta-tragico:
+  links:
+  - Maison du Poète tragique (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Maison du Poète tragique
+  blurb: Une petite maison richement peinte près du Forum, avec la mosaïque d’un chien enchaîné et CAVE CANEM, « méfie-toi du chien », à sa porte.
+  text:
+  - La maison est petite pour sa célébrité. À la porte, une mosaïque montre un chien noir à la chaîne, avec CAVE CANEM, « méfie-toi du chien », écrit dessous. À l’intérieur se trouvent un atrium, quelques pièces autour et un petit jardin au fond.
+  - Elle porte le nom d’une mosaïque d’acteurs se préparant pour une pièce, que l’on a longtemps crue représenter un poète. Ses murs avaient des peintures des récits grecs de la guerre de Troie, dont le sacrifice d’Iphigénie. Celles-ci et la mosaïque des acteurs sont à Naples.
+  history:
+  - La maison fut fouillée en 1824 et 1825. Edward Bulwer-Lytton en fit la demeure de Glaucus dans son roman Les Derniers Jours de Pompéi de 1834.
+  dates:
+  - - Ier siècle apr. J.-C.
+    - Peinte
+  - - 1824–1825
+    - Fouillée
+  - - '1834'
+    - Dans Les Derniers Jours de Pompéi
+casa-del-menandro:
+  links:
+  - Maison de Ménandre (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Maison de Ménandre
+  blurb: Une grande maison avec un jardin à colonnes, nommée d’après la peinture du poète grec Ménandre, où l’on trouva un trésor d’argenterie.
+  text:
+  - Derrière l’atrium s’étend un grand jardin entouré de colonnes. Dans une pièce qui s’y ouvre se trouve une peinture du poète grec Ménandre, qui écrivait des comédies sur des familles ordinaires, un rouleau à la main et son nom écrit dessous. La maison avait aussi un petit ensemble de bains à elle et des quartiers pour ses serviteurs et ses écuries.
+  - Dans la cave, les archéologues trouvèrent un coffre contenant 118 pièces d’argenterie de table, coupes, plats et miroirs, enveloppées dans du tissu. Elles sont au Musée archéologique national de Naples.
+  history:
+  - Amedeo Maiuri fouilla la maison de 1926 à 1932 et trouva l’argenterie en 1930. Elle a pu appartenir à la famille de Poppée Sabine, épouse de l’empereur Néron.
+  dates:
+  - - IIIe siècle av. J.-C.
+    - La première maison
+  - - 1926–1932
+    - Fouillée
+  - - '1930'
+    - Le trésor d’argenterie est trouvé
+fullonica-of-stephanus:
+  links:
+  - Foulage (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Foulonnerie de Stephanus
+  blurb: Une maison de la via dell’Abbondanza transformée en blanchisserie, avec les cuves où l’on foulait le tissu pour le nettoyer.
+  text:
+  - "Une foulonnerie lavait et apprêtait les étoffes. Stephanus installa la sienne dans une maison : le bassin de l’atrium devint un bac à laver, et de grandes cuves de rinçage se dressent au fond. Dans les petites cuves à côté, les ouvriers se tenaient debout et foulaient le tissu dans un mélange d’eau, d’argile et d’urine."
+  - L’urine était recueillie auprès des passants dans des jarres posées dans la rue. Une grande presse pour aplatir le tissu se dressait à l’avant, et le linge séchait sur le toit plat.
+  history:
+  - La foulonnerie fut fouillée en 1912, lors des travaux qui dégagèrent la via dell’Abbondanza. Son propriétaire est connu par un avis d’élection peint sur sa façade.
+  dates:
+  - - Ier siècle apr. J.-C.
+    - Une maison transformée en blanchisserie
+  - - '1912'
+    - Fouillée
+bakery-of-popidius-priscus:
+  links:
+  - Pompéi (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Boulangerie de Popidius Priscus
+  blurb: Une boulangerie avec quatre meules de lave, tournées par des ânes, et le four à dôme où l’on cuisait le pain.
+  text:
+  - "La boulangerie appartenait à Numerius Popidius Priscus. Dans sa cour se trouvent quatre moulins, chacun fait de deux blocs de lave grise : un cône en dessous et un sablier au-dessus, tournés par un âne ou par des esclaves marchant en rond. Le grain versé en haut sortait en farine en bas."
+  - Derrière les moulins se dresse un four de brique à dôme, comme un four à pizza, avec à côté des pièces pour pétrir la pâte. Le pain était rond et découpé en huit parts avant la cuisson.
+  history:
+  - Pompéi comptait plus de trente boulangeries. Celle-ci fut dégagée au début du XIXe siècle, et des pains carbonisés ont été trouvés dans les fours d’autres.
+casa-di-octavius-quartio:
+  links:
+  - Maison d’Octavius Quartio (Wikipédia)
+  - Parco Archeologico di Pompei
+  name: Maison d’Octavius Quartio
+  blurb: Une maison avec un long jardin de canaux d’eau, de pergolas et de fontaines, presque aussi long que son îlot.
+  text:
+  - "Les pièces de la maison sont peu nombreuses. Ce qui la rend célèbre, c’est le jardin derrière elles : un long canal d’eau court en son milieu sous une pergola, avec des fontaines, de petites statues et un sanctuaire le long, et un second canal le traverse en haut."
+  - À côté de l’eau se trouve un lit de table pour manger dehors, et sur les murs près de lui des peintures de Narcisse se regardant dans un bassin et des amants Pyrame et Thisbé.
+  history:
+  - La maison fut fouillée de 1916 à 1921. Elle s’appelle aussi maison de Loreius Tiburtinus, d’après un nom peint à l’extérieur ; une bague-sceau trouvée dedans porte le nom de Decimus Octavius Quartio. Le jardin a été replanté d’après les racines trouvées dans la cendre.
+  dates:
+  - - 1916–1921
+    - Fouillée
+  - - 62–79 apr. J.-C.
+    - Son jardin est refait
+casa-della-venere-in-conchiglia:
+  links:
+  - Parco Archeologico di Pompei
+  name: Maison de Vénus à la coquille
+  blurb: Une maison dont le mur du jardin est peint d’une Vénus flottant sur une coquille, avec deux amours à ses côtés.
+  text:
+  - "La maison se trouve près de l’amphithéâtre, autour d’un jardin à colonnes sur deux côtés. Son mur du fond est couvert d’une grande peinture : Vénus, la déesse de l’amour, est allongée sur une coquille rose sur la mer, avec un amour de chaque côté."
+  - De part et d’autre d’elle, le mur est peint comme un jardin derrière une clôture, avec des oiseaux et des plantes et une statue de Mars, si bien que le vrai jardin semblait se poursuivre dans le jardin peint.
+  history:
+  - Les fouilles commencèrent ici en 1933. En 1943, quand les Alliés bombardèrent la zone, une bombe frappa la maison, et le travail s’acheva en 1952, quand la peinture de Vénus vint au jour. Elle a été restaurée depuis.
+  dates:
+  - - '1933'
+    - Début des fouilles
+  - - '1943'
+    - Endommagée par une bombe
+  - - '1952'
+    - La peinture de Vénus est trouvée
+vesuvius:
+  links:
+  - Vésuve (Wikipédia)
+  - Parco Nazionale del Vesuvio
+  name: Le Vésuve
+  blurb: Le volcan à 10 kilomètres au nord de Pompéi qui ensevelit la ville en 79 apr. J.-C. Sa dernière éruption date de 1944.
+  text:
+  - Le Vésuve s’élève à 1 281 mètres au-dessus de la baie de Naples, et on le voit de toutes les rues de Pompéi. C’est un cône à l’intérieur de l’anneau d’un cône plus ancien et brisé, le mont Somma. À l’époque romaine, il était vert et planté de vignes, et personne ne savait que c’était un volcan.
+  - En 79 apr. J.-C., il projeta une colonne de cendres et de ponce à des kilomètres dans le ciel, qui retomba sur Pompéi pendant des heures, puis envoya sur ses pentes des nuées de gaz et de cendres brûlants qui tuèrent tous ceux restés dans les villes alentour. Pline le Jeune le vit de l’autre côté de la baie et le décrivit dans deux lettres ; son oncle Pline l’Ancien mourut en tentant de secourir des gens par bateau.
+  history:
+  - Le Vésuve est entré en éruption des dizaines de fois depuis. L’éruption de 1631 tua environ 4 000 personnes. La dernière, en mars 1944, détruisit plusieurs villages et les avions d’une base aérienne américaine à son pied. Environ 600 000 personnes vivent dans la zone qu’il faudrait évacuer lors d’une nouvelle éruption.
+  visit:
+  - Une route monte à un parking vers 1 000 mètres, et de là un sentier mène au bord du cratère. Le volcan et les terres alentour sont un parc national depuis 1995.
+  dates:
+  - - 79 apr. J.-C.
+    - Ensevelit Pompéi, Herculanum et Stabies
+  - - '1631'
+    - Une éruption tue environ 4 000 personnes
+  - - '1944'
+    - Sa dernière éruption
+  - - '1995'
+    - Création du parc national du Vésuve

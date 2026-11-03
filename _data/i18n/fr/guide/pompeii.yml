@@ -1,0 +1,108 @@
+# pompeii's guide in French (_data/about/pompeii.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/fr.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italie
+- Campanie, dans la ville métropolitaine de Naples
+- Par les Osques, au VIIe ou VIe siècle av. J.-C.
+- 'À partir de 80 av. J.-C. : Colonia Cornelia Veneria Pompeianorum'
+- 79 apr. J.-C., par l’éruption du Vésuve
+- Environ 11 000 au moment de l’éruption
+- 66 hectares à l’intérieur des murs, dont environ les deux tiers sont dégagés
+- Inscrit par l’UNESCO en 1997, avec Herculanum et Torre Annunziata
+overview:
+- "La ville s’étend sur une crête de vieille lave au-dessus de la plaine du fleuve Sarno, ses murs entourant un ovale d’environ trois kilomètres. Deux grandes rues la traversent : la via dell’Abbondanza d’est en ouest et la via Stabiana du nord au sud. Les autres courent entre elles en quadrillage, tracées en îlots (insulae) que les archéologues numérotent par région."
+- Les rues sont pavées de grands blocs de lave grise et bordées de trottoirs surélevés. Les eaux de pluie et les ordures y ruisselaient, d’où les pierres de passage pour traverser, et les charrettes ont creusé de profondes ornières dans le pavage. Aux angles se dressent des fontaines publiques, et sur les murs sont peints des avis d’élections et de jeux.
+setting:
+- Le Vésuve s’élève à 1 281 mètres au nord de la ville. À l’époque romaine, il était vert et planté de vignes sur ses pentes, et personne ne savait que c’était un volcan. La mer était alors plus proche qu’aujourd’hui, et Pompéi avait un port à l’embouchure du Sarno, qui faisait entrer les marchandises dans l’intérieur.
+- Le Forum est à l’extrémité ouest de la ville, sur son point le plus haut. L’amphithéâtre et le grand terrain d’exercice (la Palestre) se trouvent à l’extrémité est, contre les murs, et les théâtres au sud, sur la pente qui descend vers la porte de Stabies.
+today:
+- "Les fouilles sont gérées par le Parco Archeologico di Pompei et ouvertes tous les jours sauf quelques jours fériés. Il y a trois entrées : Porta Marina à l’ouest, Piazza Esedra à côté, et Piazza Anfiteatro à l’est. Voir les principales curiosités prend la plus grande partie d’une journée, et le site mesure environ 1,5 kilomètre d’un bout à l’autre."
+- La ville moderne de Pompei s’étend juste à l’est des ruines, avec la gare de la ligne Circumvesuviana depuis Naples et Sorrente à Pompei Scavi, en face de la Porta Marina. Beaucoup de trouvailles, dont la mosaïque d’Alexandre, sont au Musée archéologique national de Naples.
+history:
+- title: D’une ville osque à une colonie romaine
+  text:
+  - Les Osques, un peuple de la région, fondèrent la ville au VIIe ou VIe siècle av. J.-C., à un endroit où les routes se rejoignaient près du fleuve. Grecs et Étrusques y commerçaient, et au Ve siècle av. J.-C. les Samnites la prirent. Le temple d’Apollon, les plus anciennes maisons et les premiers thermes datent de ces siècles.
+  - Pompéi combattit Rome pendant la guerre sociale, et en 80 av. J.-C. le dictateur Sylla en fit une colonie pour ses vétérans. Le latin remplaça l’osque, et la nouvelle colonie construisit l’amphithéâtre, l’Odéon couvert et les thermes du Forum.
+- title: Le tremblement de terre et l’éruption
+  text:
+  - Le 5 février 62 apr. J.-C., un tremblement de terre endommagea une grande partie de la ville. Dix-sept ans plus tard, la reconstruction se poursuivait encore, dans le temple de Jupiter, sur le Forum et dans de nombreuses maisons.
+  - Le Vésuve entra en éruption en 79 apr. J.-C., le 24 août d’après les lettres de Pline le Jeune, bien que des trouvailles comme des fruits d’automne et une inscription découverte en 2018 pointent vers octobre. Pendant des heures, la ponce et les cendres tombèrent sur la ville et les toits cédèrent sous leur poids. Tôt le lendemain matin, un nuage brûlant de gaz et de cendres descendit de la montagne et tua ceux qui étaient restés. Les restes d’environ 1 150 personnes ont été retrouvés jusqu’ici.
+- title: Le dégagement de la ville
+  text:
+  - La ville resta oubliée pendant des siècles. En 1748, des ouvriers du roi Bourbon de Naples commencèrent à y creuser, à la recherche de statues et de peintures ; une inscription trouvée en 1763 montra qu’il s’agissait de Pompéi. En 1863, Giuseppe Fiorelli commença à fouiller la ville maison par maison et fit les premiers moulages en plâtre des victimes.
+  - Environ un tiers de la ville est encore sous terre. De nouvelles fouilles dans la Regio V et la Regio IX depuis 2018 ont révélé des pièces peintes, un bar, une boulangerie et d’autres victimes.
+timeline:
+- - VIIe–VIe siècle av. J.-C.
+  - Les Osques fondent la ville
+- - Ve siècle av. J.-C.
+  - Les Samnites la prennent
+- - IIe siècle av. J.-C.
+  - La maison du Faune, le Grand Théâtre et la Basilique sont construits
+- - 80 av. J.-C.
+  - Sylla fait de Pompéi une colonie romaine
+- - Vers 70 av. J.-C.
+  - L’amphithéâtre est construit
+- - 59 apr. J.-C.
+  - Émeute dans l’amphithéâtre ; jeux interdits pendant dix ans
+- - 62 apr. J.-C.
+  - Un tremblement de terre endommage la ville
+- - 79 apr. J.-C.
+  - Le Vésuve ensevelit la ville
+- - '1748'
+  - Début des fouilles
+- - '1763'
+  - Une inscription montre que la ville est Pompéi
+- - '1863'
+  - Giuseppe Fiorelli fait les premiers moulages en plâtre
+- - '1943'
+  - Des bombes alliées frappent les fouilles
+- - '1997'
+  - Inscrite au patrimoine mondial de l’UNESCO
+- - '2018'
+  - Nouvelles fouilles dans la Regio V
+places:
+  forum:
+    name: Le Forum
+    blurb: La longue place au milieu de Pompéi, fermée aux charrettes, avec le temple de Jupiter à son extrémité nord et le Vésuve derrière.
+  temple-of-jupiter:
+    name: Temple de Jupiter
+    blurb: Le principal temple de la ville, sur un haut podium à l’extrémité nord du Forum, avec le Vésuve qui s’élève juste derrière.
+  casa-del-fauno:
+    name: Maison du Faune
+    blurb: La plus grande maison de Pompéi, un îlot entier, nommée d’après le faune de bronze dansant de son atrium. La mosaïque d’Alexandre y fut trouvée.
+  casa-dei-vettii:
+    name: Maison des Vettii
+    blurb: La maison de deux esclaves affranchis devenus riches par le commerce, avec les peintures murales les plus connues de Pompéi autour de son jardin.
+  lupanare:
+    name: Le Lupanar
+    blurb: "Le seul bâtiment de Pompéi construit comme maison close : un couloir de petites cellules aux lits de pierre, des peintures érotiques et plus d’une centaine de graffitis."
+  stabian-baths:
+    name: Les thermes de Stabies
+    blurb: Les plus anciens bains publics de Pompéi, avec une cour d’exercice, une piscine et des salles d’eau froide, tiède et chaude, pour les hommes et pour les femmes.
+  grand-theatre:
+    name: Le Grand Théâtre
+    blurb: Un théâtre de style grec, adossé à une pente au sud de la ville, pour environ 5 000 personnes, avec le petit Odéon couvert à côté.
+  amphitheatre:
+    name: L’Amphithéâtre
+    blurb: Le plus ancien amphithéâtre de pierre conservé, à l’extrémité est de la ville, construit vers 70 av. J.-C. pour quelque 20 000 personnes venues voir des gladiateurs.
+  thermopolium:
+    name: Thermopolium de Vetutius Placidus
+    blurb: Un bar de rue sur la via dell’Abbondanza, avec son comptoir de marbre coloré et les jarres pour la nourriture et le vin qui y sont encastrées.
+  garden-of-the-fugitives:
+    name: Jardin des Fugitifs
+    blurb: Un jardin près des murs sud où treize personnes moururent sous les cendres. Des moulages en plâtre montrent où et comment elles tombèrent.
+  via-dell-abbondanza:
+    blurb: La grande rue d’est en ouest, du Forum à la porte de Sarno, bordée de boutiques, de bars et d’avis d’élections peints.
+  via-stabiana:
+    blurb: La rue du nord au sud qui descend la vallée à travers la ville, de la porte du Vésuve à la porte de Stabies.
+  porta-marina:
+    blurb: La porte du côté ouest, vers la mer, raide et étroite, par où la plupart des visiteurs entrent aujourd’hui.
+links:
+- title: Parco Archeologico di Pompei
+  note: "Les fouilles : horaires, billets et nouvelles des fouilles"
+- title: Museo Archeologico Nazionale di Napoli
+  note: Le musée de Naples avec la mosaïque d’Alexandre et beaucoup de fresques
+- title: Patrimoine mondial de l’UNESCO
+  note: Pompéi, Herculanum et Torre Annunziata
+- title: Pompéi sur Wikipédia
+  note: L’histoire de la ville et de sa fouille

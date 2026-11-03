@@ -1,0 +1,360 @@
+# pompeii's landmarks in Dutch (_data/landmarks/pompeii.json, by id): name (where it differs), blurb (the card), text (the story),
+# history, visit (going to see it), dates and links (their titles, in order), each as in the English; what is left out stays English.
+forum:
+  links:
+  - Forum van Pompeï (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Het Forum
+  blurb: Het lange plein in het midden van Pompeï, verboden voor karren, met de Jupitertempel aan het noordeinde en de Vesuvius erachter.
+  text:
+  - "Het Forum is een plein van zo’n 140 bij 38 meter, geplaveid met steenplaten en bij de toegangen met treden en blokken afgesloten voor karren. Aan drie zijden liep een zuilengalerij met twee verdiepingen. Eromheen stonden de gebouwen van de stad: de Jupitertempel, de Basiliek, de Apollotempel, de markthal (het Macellum), het gebouw van Eumachia, beschermvrouwe van de wolhandelaars, en drie kleine zalen voor de gemeenteraad en haar magistraten."
+  - Mensen kwamen hier om te handelen, te stemmen, aankondigingen te horen en optochten te zien. Op de sokkels die nog langs de westkant staan, stonden beelden van de vooraanstaande mannen van de stad.
+  history:
+  - Het plein werd in de 2e eeuw v.Chr. aangelegd, toen Pompeï een Samnitische stad was, en in steen herbouwd nadat ze in 80 v.Chr. een Romeinse kolonie werd. De aardbeving van 62 n.Chr. beschadigde het zwaar, en veel werd nog hersteld toen de Vesuvius in 79 n.Chr. uitbarstte.
+  visit:
+  - Het Forum ligt op korte loopafstand van de ingang Porta Marina van de opgravingen. Gipsafgietsels van slachtoffers en vondsten uit de stad worden bewaard in de graanschuren van het Forum aan de westkant, achter een hek.
+  dates:
+  - - 2e eeuw v.Chr.
+    - Het plein wordt aangelegd
+  - - 80 v.Chr.
+    - Pompeï wordt een Romeinse kolonie
+  - - 62 n.Chr.
+    - Een aardbeving beschadigt de gebouwen eromheen
+  - - 79 n.Chr.
+    - Begraven door de uitbarsting van de Vesuvius
+temple-of-jupiter:
+  links:
+  - Jupitertempel (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Jupitertempel
+  blurb: De hoofdtempel van de stad, op een hoog podium aan het noordeinde van het Forum, met de Vesuvius pal erachter.
+  text:
+  - "De tempel staat op een podium van drie meter hoog, bereikbaar via een brede trap, aan het hoofd van het Forum. Toen Pompeï een Romeinse kolonie werd, werd hij gewijd aan de drie goden van het Capitool in Rome: Jupiter, Juno en Minerva, wier beelden in de cella stonden."
+  - Aan weerszijden stond een boog, en de linker staat er nog. Vanaf het zuideinde van het Forum gezien valt de tempel samen met de top van de Vesuvius.
+  history:
+  - Hij werd in de 2e eeuw v.Chr. gebouwd, waarschijnlijk eerst alleen voor Jupiter. De aardbeving van 62 n.Chr. liet hem in puin achter, en de stad gebruikte intussen een kleinere tempel. In 79 n.Chr. was hij nog niet herbouwd.
+  dates:
+  - - 2e eeuw v.Chr.
+    - Gebouwd aan het hoofd van het Forum
+  - - 80 v.Chr.
+    - Gewijd aan Jupiter, Juno en Minerva
+  - - 62 n.Chr.
+    - Door een aardbeving verwoest
+  - - '1816'
+    - Opgegraven
+casa-del-fauno:
+  links:
+  - Huis van de Faun (Wikipedia)
+  - Alexandermozaïek (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Huis van de Faun
+  blurb: Het grootste huis van Pompeï, een heel huizenblok, genoemd naar de bronzen dansende faun in het atrium. Het Alexandermozaïek werd hier gevonden.
+  text:
+  - Het huis beslaat een heel blok van zo’n 3.000 vierkante meter aan de Via della Fortuna. HAVE, Latijn voor welkom, ligt in het plaveisel bij de deur. Het heeft twee atria naast elkaar en twee tuinen met zuilengangen eromheen, de een achter de ander.
+  - In het regenwaterbassin van het hoofdatrium danst een kleine bronzen faun; die er nu staat is een kopie. Tussen de twee tuinen, in een open kamer, lag het Alexandermozaïek, Alexander de Grote te paard die de Perzische koning Darius aanvalt bij de slag bij Issos, gemaakt van zo’n anderhalf miljoen kleine steentjes. De originele faun en het mozaïek staan in het Nationaal Archeologisch Museum in Napels.
+  history:
+  - Het huis werd in de 2e eeuw v.Chr. gebouwd voor een rijke Samnitische familie en was rijker dan de meeste paleizen van zijn tijd. Het werd in 1830 en 1831 opgegraven. Het Alexandermozaïek werd in 1843 opgetild en naar Napels gebracht.
+  visit:
+  - Een kopie van het mozaïek ligt op zijn plaats in de exedra tussen de tuinen.
+  dates:
+  - - 2e eeuw v.Chr.
+    - Gebouwd
+  - - 1830–1831
+    - Opgegraven
+  - - '1843'
+    - Het Alexandermozaïek wordt naar Napels gebracht
+casa-dei-vettii:
+  links:
+  - Huis van de Vettii (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Huis van de Vettii
+  blurb: Het huis van twee vrijgelaten slaven die rijk werden met handel, met de bekendste wandschilderingen van Pompeï rond de tuin.
+  text:
+  - Aulus Vettius Restitutus en Aulus Vettius Conviva waren broers en voormalige slaven die hun geld als kooplieden verdienden. In het atrium stonden hun twee geldkisten, waar elke bezoeker ze kon zien. Erachter ligt een tuin met zuilen, fonteinen en beelden, die is herbeplant zoals hij was.
+  - De kamers rond de tuin zijn beschilderd in de laatste stijl van Pompeï, met taferelen uit mythen. In de grote eetkamer loopt een fries van kleine cupido’s langs de zwarte wanden, die parfum maken, goud bewerken, wijn verkopen en met wagens racen. Een schildering van Priapus bij de ingang moest geluk brengen.
+  history:
+  - Het huis werd in 1894 en 1895 opgegraven. Het was jarenlang gesloten voor restauratie en heropende in januari 2023.
+  dates:
+  - - Na 62 n.Chr.
+    - Opnieuw ingericht
+  - - 1894–1895
+    - Opgegraven
+  - - '2023'
+    - Heropend na twintig jaar restauratie
+lupanare:
+  links:
+  - Lupanar (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: De Lupanare
+  blurb: "Het enige gebouw in Pompeï dat als bordeel werd gebouwd: een gang met kleine cellen met stenen bedden, erotische schilderingen en meer dan honderd graffiti."
+  text:
+  - De Lupanare staat op de hoek van twee smalle steegjes ten oosten van het Forum. Op de begane grond leidt een gang naar vijf kleine cellen, elk met een stenen bed waarop een matras lag. Boven de deuren hangen kleine schilderijen van paartjes.
+  - Op de muren staan meer dan honderd graffiti, gekrast door bezoekers en door de vrouwen die hier werkten, met namen, prijzen en grootspraak. Boven waren nog vijf kamers, bereikbaar via een eigen trap vanaf de straat.
+  history:
+  - Pompeï had andere plekken waar seks werd verkocht, meestal losse kamers in huizen of boven bars. Dit is de plek die ervoor werd gebouwd. Het werd in 1862 opgegraven en in 2006 gerestaureerd.
+  dates:
+  - - 1e eeuw n.Chr.
+    - In gebruik
+  - - '1862'
+    - Opgegraven
+  - - '2006'
+    - Gerestaureerd
+stabian-baths:
+  links:
+  - Stabiaanse baden (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: De Stabiaanse baden
+  blurb: De oudste openbare baden van Pompeï, met een oefenhof, een zwembad en ruimtes met koud, warm en heet water, voor mannen en voor vrouwen.
+  text:
+  - "De baden danken hun naam aan de Via Stabiana, bij de kruising met de Via dell’Abbondanza. Je komt binnen op een grote binnenplaats waar mannen oefenden, met aan één kant een zwembad. Daaromheen liggen de ruimtes voor mannen: een kleedkamer, een koud bad, een warme en een hete ruimte. De vrouwen hadden een kleinere eigen reeks, verwarmd vanuit dezelfde stookplaats."
+  - De vloeren van de hete ruimtes stonden op kleine bakstenen pijlers, zodat hete lucht uit de stookplaats eronderdoor en door de muren omhoog kon. Het stucwerk op de gewelven van de kleedkamer is er nog.
+  history:
+  - De eerste baden hier dateren uit de 4e of 3e eeuw v.Chr., waarmee ze tot de oudste bekende van de Romeinse wereld behoren. Ze werden meermaals vergroot en werden hersteld na de aardbeving van 62 n.Chr.
+  dates:
+  - - 4e–3e eeuw v.Chr.
+    - De eerste baden
+  - - 80 v.Chr.
+    - Herbouwd nadat Pompeï een Romeinse kolonie werd
+  - - 1850–1859
+    - Opgegraven
+grand-theatre:
+  links:
+  - Theaters van Pompeï (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Het Grote Theater
+  blurb: Een theater in Griekse stijl, in een helling in het zuiden van de stad, voor zo’n 5.000 mensen, met het kleine overdekte Odeon ernaast.
+  text:
+  - De zitplaatsen rijzen in een halve cirkel op vanaf het orkest, gebouwd tegen de natuurlijke helling. Hier werden toneelstukken, mimespelen en pantomimes opgevoerd. In de zomer werd op palen een doek over de zitplaatsen gespannen; de stenen ringen die ze vasthielden zitten nog in de bovenmuur.
+  - Ernaast staat het Odeon, een klein overdekt theater voor zo’n 1.000 mensen, voor muziek en voordrachten. Achter het toneel ligt een grote binnenplaats met zuilen, waar het publiek tussen de bedrijven wandelde, later gebruikt als kazerne voor gladiatoren.
+  history:
+  - Het theater werd in de 2e eeuw v.Chr. gebouwd en in de tijd van Augustus vergroot door de Holconii, een familie uit de stad, wier namen erop staan. Het werd vanaf 1764 opgegraven, een van de eerste delen van Pompeï die werden blootgelegd.
+  visit:
+  - In de zomer worden in het theater nog steeds concerten en toneelstukken opgevoerd.
+  dates:
+  - - 2e eeuw v.Chr.
+    - Gebouwd
+  - - Rond 80 v.Chr.
+    - Het Odeon wordt ernaast gebouwd
+  - - Rond 3–2 v.Chr.
+    - Vergroot door de Holconii
+  - - '1764'
+    - De opgraving begint
+amphitheatre:
+  links:
+  - Amfitheater van Pompeï (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Het Amfitheater
+  blurb: Het oudste stenen amfitheater dat bewaard is gebleven, aan het oosteinde van de stad, rond 70 v.Chr. gebouwd voor zo’n 20.000 mensen die naar gladiatoren kwamen kijken.
+  text:
+  - Het amfitheater staat in de zuidoosthoek van de stad, tegen de muren. De arena werd in de grond uitgegraven en de aarde opgeworpen tot wallen voor de zitplaatsen, ondersteund door een buitenmuur met bogen en buitentrappen. Er was plaats voor zo’n 20.000 mensen, meer dan er in de stad woonden.
+  - Hier vochten gladiatoren en werd op wilde dieren gejaagd. In 59 n.Chr. brak tijdens een voorstelling een gevecht uit tussen de inwoners van Pompeï en die van Nuceria, een nabijgelegen stad. Er vielen veel doden, en de Romeinse senaat verbood hier voor tien jaar spelen. Een schildering van de rel, gevonden in een huis van de stad, staat in Napels.
+  history:
+  - Twee magistraten van de nieuwe Romeinse kolonie, Gaius Quinctius Valgus en Marcus Porcius, betaalden het rond 70 v.Chr., zoals een inscriptie zegt. Het is zo’n 135 meter lang en werd in 1748 en opnieuw in 1813–1816 opgegraven.
+  visit:
+  - Het ligt helemaal aan het oosteinde van de opgravingen, zo’n 20 minuten lopen van het Forum, naast de ingang Piazza Anfiteatro. Pink Floyd filmde hier in 1971 een concert zonder publiek.
+  dates:
+  - - Rond 70 v.Chr.
+    - Gebouwd
+  - - 59 n.Chr.
+    - Rel tussen de inwoners van Pompeï en Nuceria
+  - - '1748'
+    - Voor het eerst opgegraven
+  - - '1971'
+    - Pink Floyd filmt hier Live at Pompeii
+thermopolium:
+  links:
+  - Thermopolium (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Thermopolium van Vetutius Placidus
+  blurb: Een straatbar aan de Via dell’Abbondanza, met een toonbank van gekleurd marmer en de potten voor eten en wijn erin.
+  text:
+  - Pompeï had zo’n 150 bars als deze, waar mensen warm eten en wijn kochten aan een toonbank die op straat uitkwam. De meeste huizen hadden geen eigen keuken. Hier is de L-vormige toonbank bekleed met stukken gekleurd marmer, en potten voor het eten en drinken zijn in het blad verzonken.
+  - Op de muur achter de toonbank staat het huisaltaar, beschilderd met de goden Mercurius, voor winst, en Bacchus, voor wijn, en de beschermgeesten van het huishouden. De familie woonde in de kamers erachter, rond een kleine tuin.
+  history:
+  - De bar was van Lucius Vetutius Placidus, wiens naam op de voorgevel was geschilderd, met zijn vrouw Ascula. Toen hij werd opgegraven, zat in een pot in de toonbank een stapel munten, de opbrengst van de laatste dag of de spaarpot van de familie.
+  dates:
+  - - 79 n.Chr.
+    - Open voor zaken op de dag van de uitbarsting
+  - - 1910–1919
+    - Opgegraven langs de Via dell’Abbondanza
+garden-of-the-fugitives:
+  links:
+  - Tuin van de Vluchtelingen (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Tuin van de Vluchtelingen
+  blurb: Een tuin bij de zuidmuren waar dertien mensen onder de as stierven. Gipsafgietsels tonen waar en hoe ze vielen.
+  text:
+  - De tuin was een wijngaard in het zuidoosten van de stad, bij de Porta Nocera. Dertien mensen, volwassenen en kinderen, probeerden tijdens de uitbarsting langs deze kant de stad te verlaten en stierven hier, overweldigd door de hete wolk van gas en as die over Pompeï joeg.
+  - De as werd hard rond hun lichamen, die vergingen en holtes achterlieten. In 1863 bedacht de archeoloog Giuseppe Fiorelli gips in zulke holtes te gieten, en de afgietsels tonen de mensen zoals ze lagen. De afgietsels van de tuin liggen waar ze werden gevonden, onder glas.
+  history:
+  - De tuin werd in 1961 opgegraven. Andere afgietsels, van mensen en van een hond, worden bewaard in de graanschuren van het Forum en in de stad getoond.
+  dates:
+  - - 79 n.Chr.
+    - Dertien mensen sterven hier bij de uitbarsting
+  - - '1863'
+    - Fiorelli maakt de eerste gipsafgietsels in Pompeï
+  - - '1961'
+    - De tuin wordt opgegraven
+basilica:
+  links:
+  - Basiliek (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: De Basiliek
+  blurb: "De rechtbank en beurs op de zuidwesthoek van het Forum, uit de 2e eeuw v.Chr.: de oudste basiliek die bewaard is gebleven."
+  text:
+  - De Basiliek is een lange zaal van zo’n 55 bij 24 meter, die aan haar oostkant op het Forum uitkomt. Binnen stonden 28 dikke zuilen van baksteen en steen rond het midden, en aan het westeinde, verhoogd, stond het tribunaal waar de magistraten recht spraken.
+  - Hier kwamen handelaars bijeen om zaken te doen en werden zaken behandeld. De muren waren beschilderd om op marmer te lijken, en bezoekers krasten graffiti in het pleisterwerk, waaronder enkele van de bekendste van Pompeï.
+  history:
+  - Ze werd rond 130–120 v.Chr. gebouwd, voordat Pompeï een Romeinse kolonie werd. Zalen van dit soort werden later in elke Romeinse stad gebouwd, en de naam werd overgenomen voor de eerste grote kerken.
+  dates:
+  - - Rond 130–120 v.Chr.
+    - Gebouwd
+  - - 62 n.Chr.
+    - Beschadigd door de aardbeving
+  - - 1806–1813
+    - Opgegraven
+temple-of-apollo:
+  links:
+  - Apollotempel (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Apollotempel
+  blurb: De oudste tempel van Pompeï, in een hof met 48 zuilen naast het Forum, met bronzen beelden van Apollo en Diana als boogschutters.
+  text:
+  - De tempel staat op een hoog podium midden op een binnenplaats, omringd door een zuilengalerij van 48 zuilen. Aan de voet van de trap staat een altaar, en ernaast een zonnewijzer op een hoge zuil.
+  - Langs de zuilengalerij staan bronzen beelden van Apollo en zijn zus Diana, beiden met een gespannen boog. Die hier zijn kopieën; de originelen staan in het Nationaal Archeologisch Museum in Napels.
+  history:
+  - Op deze plek werd Apollo vereerd vanaf de 6e eeuw v.Chr., toen Griekse gebruiken de stad bereikten vanuit de steden aan de kust. De tempel werd in de 2e eeuw v.Chr. herbouwd in de vorm die je nu ziet, en werd hersteld na de aardbeving van 62 n.Chr.
+  dates:
+  - - 6e eeuw v.Chr.
+    - Het eerste heiligdom voor Apollo
+  - - 2e eeuw v.Chr.
+    - Herbouwd
+  - - 1817–1818
+    - Opgegraven
+stepping-stones:
+  links:
+  - Pompeï (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Stapstenen
+  blurb: Blokken lava dwars over de straten, om over te steken zonder in water en afval te stappen, met de sporen van de karren ertussen.
+  text:
+  - De straten van Pompeï hadden geen riolering. Regenwater, modder en afval stroomden erdoorheen, dus aan weerszijden liggen hoge stoepen en op de hoeken liggen grote blokken lava dwars over de straat. Je stapte van de ene naar de andere om met droge voeten over te steken.
+  - De openingen tussen de stenen zijn zo breed als de wielen van een kar, dus karren konden eroverheen. Hun wielen sleten diepe sporen in de bestrating, die je in veel straten nog ziet. Sommige straten waren te smal voor twee karren, en een kar moest wachten tot een andere voorbij was.
+casa-del-poeta-tragico:
+  links:
+  - Huis van de Tragische Dichter (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Huis van de Tragische Dichter
+  blurb: Een klein, rijk beschilderd huis bij het Forum, met aan de deur het mozaïek van een geketende hond en CAVE CANEM, “pas op voor de hond”.
+  text:
+  - Het huis is klein voor zijn faam. Bij de deur toont een mozaïek een zwarte hond aan een ketting, met eronder CAVE CANEM, “pas op voor de hond”. Binnen liggen een atrium, een paar kamers eromheen en een kleine tuin achterin.
+  - Het is genoemd naar een mozaïek van acteurs die zich voorbereiden op een toneelstuk, waarvan men ooit dacht dat het een dichter toonde. De muren hadden schilderingen uit de Griekse verhalen over de Trojaanse oorlog, onder meer het offer van Iphigeneia. Die en het mozaïek van de acteurs staan in Napels.
+  history:
+  - Het huis werd in 1824 en 1825 opgegraven. Edward Bulwer-Lytton gebruikte het als huis van Glaucus in zijn roman De laatste dagen van Pompeji uit 1834.
+  dates:
+  - - 1e eeuw n.Chr.
+    - Beschilderd
+  - - 1824–1825
+    - Opgegraven
+  - - '1834'
+    - In De laatste dagen van Pompeji
+casa-del-menandro:
+  links:
+  - Huis van Menander (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Huis van Menander
+  blurb: Een groot huis met een tuin met zuilen, genoemd naar de schildering van de Griekse dichter Menander, waar een zilverschat werd gevonden.
+  text:
+  - Achter het atrium ligt een grote tuin met zuilen eromheen. In een kamer die erop uitkomt zit een schildering van de Griekse dichter Menander, die komedies schreef over gewone gezinnen, met een rol in zijn hand en zijn naam eronder. Het huis had ook een eigen klein badencomplex en verblijven voor zijn bedienden en zijn stallen.
+  - In de kelder vonden de archeologen een kist met 118 stukken zilveren tafelgerei, bekers, borden en spiegels, in doek gewikkeld. Ze staan in het Nationaal Archeologisch Museum in Napels.
+  history:
+  - Amedeo Maiuri groef het huis op van 1926 tot 1932 en vond het zilver in 1930. Het kan hebben toebehoord aan de familie van Poppaea Sabina, de vrouw van keizer Nero.
+  dates:
+  - - 3e eeuw v.Chr.
+    - Het eerste huis
+  - - 1926–1932
+    - Opgegraven
+  - - '1930'
+    - De zilverschat wordt gevonden
+fullonica-of-stephanus:
+  links:
+  - Vollen (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Wolwasserij van Stephanus
+  blurb: Een huis aan de Via dell’Abbondanza dat een wasserij werd, met de bakken waarin de stof schoon werd getrapt.
+  text:
+  - "Een wasserij waste en bewerkte stoffen. Stephanus richtte de zijne in een huis in: het bassin van het atrium werd een wasbak, en achterin staan grote kuipen om te spoelen. In de kleine bakken ernaast stonden de arbeiders de stof te trappen in een mengsel van water, klei en urine."
+  - De urine werd verzameld van voorbijgangers in potten die op straat stonden. Vooraan stond een grote pers om de stof plat te maken, en de was droogde op het platte dak.
+  history:
+  - De wasserij werd in 1912 opgegraven, tijdens het werk waarbij de Via dell’Abbondanza werd blootgelegd. De eigenaar is bekend van een verkiezingsaankondiging die op de voorgevel was geschilderd.
+  dates:
+  - - 1e eeuw n.Chr.
+    - Een huis wordt een wasserij
+  - - '1912'
+    - Opgegraven
+bakery-of-popidius-priscus:
+  links:
+  - Pompeï (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Bakkerij van Popidius Priscus
+  blurb: Een bakkerij met vier lavamolenstenen, gedraaid door ezels, en de koepeloven waarin het brood werd gebakken.
+  text:
+  - "De bakkerij was van Numerius Popidius Priscus. Op zijn erf staan vier molens, elk van twee blokken grijze lava: een kegel onder en een zandloper erboven, gedraaid door een ezel of door slaven die er rondliepen. Graan dat bovenin ging kwam onderaan als meel eruit."
+  - Achter de molens staat een bakstenen koepeloven, als een pizzaoven, met ernaast ruimtes om het deeg te kneden. Het brood was rond en werd voor het bakken in acht punten gesneden.
+  history:
+  - Pompeï had meer dan dertig bakkerijen. Deze werd in het begin van de 19e eeuw opgegraven, en in de ovens van andere zijn broden van verkoold brood gevonden.
+casa-di-octavius-quartio:
+  links:
+  - Huis van Octavius Quartio (Wikipedia)
+  - Parco Archeologico di Pompei
+  name: Huis van Octavius Quartio
+  blurb: Een huis met een lange tuin met waterkanalen, pergola’s en fonteinen, bijna zo lang als zijn blok.
+  text:
+  - "De kamers van het huis zijn weinig in aantal. Het is vooral bekend om de tuin erachter: een lang waterkanaal loopt door het midden onder een pergola, met fonteinen, kleine beelden en een heiligdom ernaast, en een tweede kanaal kruist het bovenaan."
+  - Naast het water staat een eetbank om buiten te eten, en op de muren daarbij zijn schilderingen van Narcissus die naar zichzelf kijkt in een vijver en van de geliefden Pyramus en Thisbe.
+  history:
+  - Het huis werd van 1916 tot 1921 opgegraven. Het heet ook het Huis van Loreius Tiburtinus, naar een buiten geschilderde naam; een zegelring die erin werd gevonden draagt de naam van Decimus Octavius Quartio. De tuin is herbeplant naar de wortels die in de as werden gevonden.
+  dates:
+  - - 1916–1921
+    - Opgegraven
+  - - 62–79 n.Chr.
+    - De tuin wordt opnieuw aangelegd
+casa-della-venere-in-conchiglia:
+  links:
+  - Parco Archeologico di Pompei
+  name: Huis van Venus in de Schelp
+  blurb: Een huis waarvan de tuinmuur is beschilderd met Venus die op een schelp drijft, met twee cupido’s naast zich.
+  text:
+  - "Het huis ligt bij het amfitheater, rond een tuin met zuilen aan twee kanten. De achtermuur is bedekt met een grote schildering: Venus, de godin van de liefde, ligt op een roze schelp op zee, met aan weerszijden een cupido."
+  - Aan weerszijden van haar is de muur beschilderd als een tuin achter een hek, met vogels en planten en een beeld van Mars, zodat de echte tuin leek door te lopen in de geschilderde.
+  history:
+  - Hier werd in 1933 begonnen met graven. In 1943, toen de geallieerden het gebied bombardeerden, trof een bom het huis, en het werk werd in 1952 afgerond, toen de schildering van Venus aan het licht kwam. Ze is sindsdien gerestaureerd.
+  dates:
+  - - '1933'
+    - De opgraving begint
+  - - '1943'
+    - Beschadigd door een bom
+  - - '1952'
+    - De schildering van Venus wordt gevonden
+vesuvius:
+  links:
+  - Vesuvius (Wikipedia)
+  - Parco Nazionale del Vesuvio
+  name: De Vesuvius
+  blurb: De vulkaan 10 kilometer ten noorden van Pompeï die de stad in 79 n.Chr. bedolf. Hij barstte voor het laatst uit in 1944.
+  text:
+  - De Vesuvius rijst 1.281 meter op boven de Golf van Napels, en je ziet hem vanuit elke straat in Pompeï. Het is een kegel binnen de ring van een oudere, gebroken kegel, de Monte Somma. In Romeinse tijd was hij groen en beplant met wijnstokken, en niemand wist dat het een vulkaan was.
+  - In 79 n.Chr. slingerde hij een kolom as en puimsteen kilometers de lucht in, die urenlang op Pompeï viel, en stuurde daarna wolken van heet gas en as langs zijn hellingen naar beneden, die iedereen doodden die in de steden eromheen was gebleven. Plinius de Jongere zag het vanaf de overkant van de baai en beschreef het in twee brieven; zijn oom Plinius de Oudere kwam om bij een poging mensen per schip te redden.
+  history:
+  - De Vesuvius is sindsdien tientallen keren uitgebarsten. De uitbarsting van 1631 doodde zo’n 4.000 mensen. De laatste, in maart 1944, verwoestte verscheidene dorpen en de vliegtuigen van een Amerikaanse luchtmachtbasis aan zijn voet. Zo’n 600.000 mensen wonen in de zone die bij een nieuwe uitbarsting moet worden geëvacueerd.
+  visit:
+  - Een weg klimt naar een parkeerplaats op zo’n 1.000 meter, en vandaar leidt een pad naar de kraterrand. De vulkaan en het land eromheen zijn sinds 1995 een nationaal park.
+  dates:
+  - - 79 n.Chr.
+    - Begraaft Pompeï, Herculaneum en Stabiae
+  - - '1631'
+    - Een uitbarsting doodt zo’n 4.000 mensen
+  - - '1944'
+    - Zijn laatste uitbarsting
+  - - '1995'
+    - Nationaal Park Vesuvius wordt opgericht

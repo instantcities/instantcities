@@ -111,7 +111,7 @@
           <h2>{{ T.lm_links }}</h2>
           <ul>
             {%- for k in LM.links %}
-            <li><a href="{{ k.url }}" rel="noopener">{{ k.title }}</a></li>
+            <li><a href="{{ k.url }}" rel="noopener">{{ LX.links[forloop.index0] | default: k.title }}</a></li>
             {%- endfor %}
           </ul>
         </div>

@@ -1,0 +1,108 @@
+# pompeii's guide in Dutch (_data/about/pompeii.json, in the same order): facts (their values; the labels are fact_labels in _data/lang/nl.yml),
+# overview, setting, history, timeline, today, places (by id: blurb and, where it differs, name) and links (title, note).
+facts:
+- Italië
+- Campanië, in de Metropolitane Stad Napels
+- Door de Osken, in de 7e of 6e eeuw v.Chr.
+- 'Vanaf 80 v.Chr.: Colonia Cornelia Veneria Pompeianorum'
+- 79 n.Chr., door de uitbarsting van de Vesuvius
+- Zo’n 11.000 ten tijde van de uitbarsting
+- 66 hectare binnen de muren, waarvan ongeveer twee derde is opgegraven
+- In 1997 op de UNESCO-lijst, samen met Herculaneum en Torre Annunziata
+overview:
+- "De stad ligt op een rug van oude lava boven de vlakte van de rivier de Sarno, met haar muren om een ovaal van zo’n drie kilometer. Twee hoofdstraten kruisen haar: de Via dell’Abbondanza van oost naar west en de Via Stabiana van noord naar zuid. De andere lopen daartussen in een raster, aangelegd in blokken (insulae) die de archeologen per regio nummeren."
+- De straten zijn bestraat met grote blokken grijze lava en hebben aan weerszijden verhoogde stoepen. Regenwater en afval stroomden erdoorheen, dus er liggen stapstenen om over te steken, en de karren hebben diepe sporen in de bestrating gesleten. Op de hoeken staan openbare fonteinen, en op de muren zijn verkiezings- en spelaankondigingen geschilderd.
+setting:
+- De Vesuvius rijst 1.281 meter op ten noorden van de stad. In Romeinse tijd was hij groen en tot hoog op de hellingen beplant met wijnstokken, en niemand wist dat het een vulkaan was. De zee lag toen dichterbij dan nu, en Pompeï had een haven aan de monding van de Sarno, die goederen het land in bracht.
+- Het Forum ligt aan de westkant van de stad, op haar hoogste grond. Het amfitheater en het grote oefenterrein (de Palaestra Grande) liggen aan de oostkant, tegen de muren, en de theaters in het zuiden, op de helling naar de Porta di Stabia.
+today:
+- "De opgraving wordt beheerd door het Parco Archeologico di Pompei en is elke dag open, behalve op een paar feestdagen. Er zijn drie ingangen: Porta Marina in het westen, Piazza Esedra ernaast, en Piazza Anfiteatro in het oosten. De belangrijkste bezienswaardigheden zien kost het grootste deel van een dag, en het terrein is zo’n 1,5 kilometer van begin tot eind."
+- De moderne stad Pompei ligt vlak ten oosten van de ruïnes, met het station van de Circumvesuviana-spoorlijn uit Napels en Sorrento bij Pompei Scavi, tegenover de Porta Marina. Veel van de vondsten, waaronder het Alexandermozaïek, staan in het Nationaal Archeologisch Museum in Napels.
+history:
+- title: Van Oskische stad tot Romeinse kolonie
+  text:
+  - De Osken, een volk uit de streek, stichtten de stad in de 7e of 6e eeuw v.Chr., op een plek waar de wegen bij de rivier samenkwamen. Grieken en Etrusken dreven hier handel, en in de 5e eeuw v.Chr. namen de Samnieten haar in. De Apollotempel, de oudste huizen en de eerste baden dateren uit die eeuwen.
+  - Pompeï streed in de Bondgenotenoorlog tegen Rome, en in 80 v.Chr. maakte de dictator Sulla er een kolonie van voor zijn veteranen. Latijn verving Oskisch, en de nieuwe kolonie bouwde het amfitheater, het overdekte Odeon en de baden van het Forum.
+- title: De aardbeving en de uitbarsting
+  text:
+  - Op 5 februari 62 n.Chr. beschadigde een aardbeving een groot deel van de stad. Zeventien jaar later was de wederopbouw nog bezig, in de Jupitertempel, op het Forum en in veel huizen.
+  - De Vesuvius barstte uit in 79 n.Chr., op 24 augustus volgens de brieven van Plinius de Jongere, al wijzen vondsten zoals herfstfruit en een in 2018 gevonden inscriptie op oktober. Urenlang vielen puimsteen en as op de stad en bezweken daken eronder. Vroeg de volgende ochtend kwam een hete wolk van gas en as de berg af en doodde wie was gebleven. De resten van zo’n 1.150 mensen zijn tot nu toe gevonden.
+- title: De stad opgraven
+  text:
+  - De stad was eeuwenlang vergeten. In 1748 begonnen arbeiders van de Bourbonse koning van Napels hier te graven, op zoek naar beelden en schilderijen; een in 1763 gevonden inscriptie liet zien dat dit Pompeï was. In 1863 begon Giuseppe Fiorelli de stad huis voor huis op te graven en maakte hij de eerste gipsafgietsels van de slachtoffers.
+  - Zo’n derde van de stad ligt nog onder de grond. Nieuwe opgravingen in Regio V en Regio IX sinds 2018 hebben beschilderde kamers, een bar, een bakkerij en meer slachtoffers opgeleverd.
+timeline:
+- - 7e–6e eeuw v.Chr.
+  - De Osken stichten de stad
+- - 5e eeuw v.Chr.
+  - De Samnieten nemen haar in
+- - 2e eeuw v.Chr.
+  - Het Huis van de Faun, het Grote Theater en de Basiliek worden gebouwd
+- - 80 v.Chr.
+  - Sulla maakt van Pompeï een Romeinse kolonie
+- - Rond 70 v.Chr.
+  - Het amfitheater wordt gebouwd
+- - 59 n.Chr.
+  - Rel in het amfitheater; spelen voor tien jaar verboden
+- - 62 n.Chr.
+  - Een aardbeving beschadigt de stad
+- - 79 n.Chr.
+  - De Vesuvius begraaft de stad
+- - '1748'
+  - De opgravingen beginnen
+- - '1763'
+  - Een inscriptie toont dat de stad Pompeï is
+- - '1863'
+  - Giuseppe Fiorelli maakt de eerste gipsafgietsels
+- - '1943'
+  - Geallieerde bommen treffen de opgravingen
+- - '1997'
+  - Op de werelderfgoedlijst van UNESCO
+- - '2018'
+  - Nieuwe opgravingen in Regio V
+places:
+  forum:
+    name: Het Forum
+    blurb: Het lange plein in het midden van Pompeï, verboden voor karren, met de Jupitertempel aan het noordeinde en de Vesuvius erachter.
+  temple-of-jupiter:
+    name: Jupitertempel
+    blurb: De hoofdtempel van de stad, op een hoog podium aan het noordeinde van het Forum, met de Vesuvius pal erachter.
+  casa-del-fauno:
+    name: Huis van de Faun
+    blurb: Het grootste huis van Pompeï, een heel huizenblok, genoemd naar de bronzen dansende faun in het atrium. Het Alexandermozaïek werd hier gevonden.
+  casa-dei-vettii:
+    name: Huis van de Vettii
+    blurb: Het huis van twee vrijgelaten slaven die rijk werden met handel, met de bekendste wandschilderingen van Pompeï rond de tuin.
+  lupanare:
+    name: De Lupanare
+    blurb: "Het enige gebouw in Pompeï dat als bordeel werd gebouwd: een gang met kleine cellen met stenen bedden, erotische schilderingen en meer dan honderd graffiti."
+  stabian-baths:
+    name: De Stabiaanse baden
+    blurb: De oudste openbare baden van Pompeï, met een oefenhof, een zwembad en ruimtes met koud, warm en heet water, voor mannen en voor vrouwen.
+  grand-theatre:
+    name: Het Grote Theater
+    blurb: Een theater in Griekse stijl, in een helling in het zuiden van de stad, voor zo’n 5.000 mensen, met het kleine overdekte Odeon ernaast.
+  amphitheatre:
+    name: Het Amfitheater
+    blurb: Het oudste stenen amfitheater dat bewaard is gebleven, aan het oosteinde van de stad, rond 70 v.Chr. gebouwd voor zo’n 20.000 mensen die naar gladiatoren kwamen kijken.
+  thermopolium:
+    name: Thermopolium van Vetutius Placidus
+    blurb: Een straatbar aan de Via dell’Abbondanza, met een toonbank van gekleurd marmer en de potten voor eten en wijn erin.
+  garden-of-the-fugitives:
+    name: Tuin van de Vluchtelingen
+    blurb: Een tuin bij de zuidmuren waar dertien mensen onder de as stierven. Gipsafgietsels tonen waar en hoe ze vielen.
+  via-dell-abbondanza:
+    blurb: De hoofdstraat van oost naar west, van het Forum naar de Porta di Sarno, met winkels, bars en geschilderde verkiezingsaankondigingen.
+  via-stabiana:
+    blurb: De straat van noord naar zuid door het dal dwars door de stad, van de Porta del Vesuvio naar de Porta di Stabia.
+  porta-marina:
+    blurb: De poort aan de westkant richting de zee, steil en smal, waar de meeste bezoekers tegenwoordig binnenkomen.
+links:
+- title: Parco Archeologico di Pompei
+  note: "De opgravingen: openingstijden, tickets en nieuws over de opgravingen"
+- title: Museo Archeologico Nazionale di Napoli
+  note: Het museum in Napels met het Alexandermozaïek en veel van de fresco’s
+- title: UNESCO-werelderfgoed
+  note: Pompeï, Herculaneum en Torre Annunziata
+- title: Pompeï op Wikipedia
+  note: De geschiedenis van de stad en haar opgraving
