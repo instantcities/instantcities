@@ -1,0 +1,46 @@
+{
+  "id": "ghent",
+  "name": "Instant Gent",
+  "title": "Instant Gent: a free virtual 3D tour and game of Ghent",
+  "description": "Take a free virtual 3D tour of Ghent in your browser, then cycle, walk or gallop through it yourself: explore, race or play quests, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Gent: a virtual 3D tour of Ghent",
+  "share_description": "Cycle, walk or gallop through Ghent in your browser. Explore, race or play quests, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in Ghent, Belgium: explore the city, race or play quests by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Ghent in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Ghent",
+  "style": ":root { --accent: #45494e; --accent-soft: #e4e5e7; --sky: #e1e3e5; --skyline: #a6abb0; }",
+  "loader_jokes": {
+    "en": [
+      "Looking for a bike that hasn't been nicked yet",
+      "Opening the umbrella, it's bound to rain",
+      "Counting cuberdons: loads, and then some more",
+      "This isn't Bruges, it takes a little while",
+      "Waiting for tram 1… another quarter of an hour",
+      "Laying the cobbles one by one",
+      "Putting the swans on the Leie",
+      "Poking the dragon on the Belfry awake",
+      "Loading Dulle Griet, just in case",
+      "Counting the Ghent Altarpiece… is a panel missing again?",
+      "Teaching the horses to stop at the zebra crossing",
+      "Shooing tourists off the cycle path",
+      "Sweeping up the last confetti of the Gentse Feesten"
+    ],
+    "nl": [
+      "Neute en pleue… 't komt seffens",
+      "Nen velo zoeken die nog nie gepikt es",
+      "De pareplu openzetten, 't zal wel regenen",
+      "Cuberdons tellen: nen hoop, en nog nen hoop",
+      "'t Es hier gien Brugge, 't duurt e bitje",
+      "Wachten op tram 1… nog e kwartierke",
+      "Allei, 't es bijna, manneken!",
+      "De kasseien één voor één leggen",
+      "De zwanen op de Leie zetten",
+      "De draak op 't Belfort wakker porren",
+      "Dulle Griet laden, voor de zekerheid",
+      "Het Lam Gods tellen… mist er weer een paneel?",
+      "De paarden leren stoppen voor 't zebrapad",
+      "Toeristen van 't fietspad schuiven",
+      "Nog wat confetti van de Gentse Feesten opvegen"
+    ]
+  }
+}

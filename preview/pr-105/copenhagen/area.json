@@ -1,0 +1,58 @@
+{
+  "city": "København",
+  "bbox": [
+    55.672,
+    12.565,
+    55.686,
+    12.595
+  ],
+  "zone_points": [
+    [
+      55.686,
+      12.565
+    ],
+    [
+      55.686,
+      12.595
+    ],
+    [
+      55.672,
+      12.595
+    ],
+    [
+      55.672,
+      12.565
+    ]
+  ],
+  "routes": [
+    {
+      "id": "stroget",
+      "route": [
+        "Kongens Nytorv",
+        "Nyhavn",
+        "Holbergsgade",
+        "Holmens Kanal",
+        "Holmens Bro",
+        "Holmens Kanal",
+        "Børsgade",
+        "Højbro Plads",
+        "Vindebrogade",
+        "Stormgade",
+        "Vester Voldgade",
+        "Farvergade",
+        "Kompagnistræde",
+        "Knabrostræde",
+        "Brolæggerstræde",
+        "Badstuestræde",
+        "Vimmelskaftet",
+        "Amagertorv",
+        "Østergade",
+        "Ny Østergade",
+        "Hovedvagtsgade"
+      ]
+    }
+  ],
+  "floors": 5,
+  "hw": 4,
+  "gables": false
+}
