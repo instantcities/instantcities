@@ -48,7 +48,7 @@
       <div class="hero-text">
         <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ CN }}</a> › <a href="{% if site.data.about[C.id] %}{% include city-url.html city=C.id page='places' %}{% else %}{% include city-url.html city=C.id %}#landmarks{% endif %}">{{ T.places_and_landmarks }}</a></p>
         <h1><span class="lm-icon" aria-hidden="true">{% include icon.html name=LM.icon %}</span> {{ lm_name }}</h1>
-        {%- if LM.local %}<p class="local">{{ LM.local }}</p>{% endif %}
+        {%- assign lm_local = LX.local | default: LM.local -%}{%- if lm_local %}<p class="local">{{ lm_local }}</p>{% endif %}
         <p class="tagline">{{ lm_blurb }}</p>
         <p class="hero-btns">
           <a class="play" href="{{ play }}">{% include icon.html name="play" %} {% if here %}{{ T.see_in_3d }}{% else %}{{ T.play_city_plain | replace: '%c', CN }}{% endif %}</a>

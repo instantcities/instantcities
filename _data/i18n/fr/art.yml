@@ -1,0 +1,613 @@
+# L'art célèbre en français (_data/art.json, par id) : musées (name, blurb) et œuvres (title, local, artist, date, medium, size,
+# room, blurb, text), comme en anglais ; ce qui manque reste en anglais.
+museums:
+  louvre:
+    name: Le Louvre
+    blurb: Cinq de ses salles les plus importantes, de la pyramide de verre à la salle de la Joconde.
+  national-gallery:
+    name: La National Gallery
+    blurb: "Sur Trafalgar Square : Van Eyck, Constable, Turner et Van Gogh."
+  british-museum:
+    name: Le British Museum
+    blurb: La Grande Cour, la galerie de sculpture égyptienne et les marbres du Parthénon.
+  uffizi:
+    name: Les Offices
+    blurb: La galerie des Médicis, avec la salle de Botticelli et la Tribune.
+  duomo:
+    name: Le Duomo de Florence
+    blurb: La cathédrale sous la coupole de Brunelleschi.
+  piazza-della-signoria:
+    name: Piazza della Signoria
+    blurb: "En plein air, devant le Palazzo Vecchio : la copie du David de Michel-Ange à sa porte."
+  sistina:
+    name: La chapelle Sixtine
+    blurb: Le plafond de Michel-Ange et son Jugement dernier, au Vatican.
+  rijksmuseum:
+    name: Le Rijksmuseum
+    blurb: La Galerie d’honneur et la Ronde de nuit à son extrémité.
+  prado:
+    name: Le musée du Prado
+    blurb: "La collection des rois d’Espagne : Velázquez, Goya et Bosch."
+  kunsthistorisches:
+    name: Le Kunsthistorisches Museum
+    blurb: La collection des Habsbourg, avec plus de Bruegel que partout ailleurs.
+  neues-museum:
+    name: Le Neues Museum
+    blurb: L’Égypte sur l’Île aux Musées, avec Néfertiti dans sa propre salle à coupole.
+  pergamon:
+    name: Le Pergamonmuseum
+    blurb: Un autel grec et la porte de Babylone, reconstruits à l’intérieur.
+  san-marco:
+    name: Basilique Saint-Marc
+    blurb: Cinq coupoles de mosaïque d’or et le retable en or.
+  sint-baafs:
+    name: Cathédrale Saint-Bavon
+    blurb: La cathédrale de Gand, où se trouve le retable des frères Van Eyck.
+pieces:
+  mona-lisa:
+    title: La Joconde
+    local: Mona Lisa · La Gioconda
+    date: vers 1503–1519
+    medium: Huile sur panneau de peuplier
+    room: Salle des États
+    blurb: Le portrait par Léonard de la femme d’un marchand de soie florentin, le tableau le plus visité du monde.
+    text:
+    - "Léonard commença vers 1503 à Florence le portrait de Lisa Gherardini, épouse du marchand de soie Francesco del Giocondo. Il ne le livra jamais : il y travailla pendant des années et l’emporta en France, où le roi François Ier l’acquit. C’est pourquoi il est à Paris, et pourquoi les Italiens l’appellent encore La Gioconda."
+    - Il ne mesure que 77 sur 53 cm. Léonard a fondu chaque contour dans une ombre douce (le sfumato), si bien que les coins de sa bouche ne se fixent jamais tout à fait en sourire, et que le paysage derrière elle ne se raccorde pas d’un côté à l’autre.
+    - Le 21 août 1911, un ouvrier, Vincenzo Peruggia, sortit du Louvre avec le tableau sous sa blouse. Il réapparut à Florence deux ans plus tard, et le vol en fit le tableau le plus célèbre du monde. Depuis 2005, il est accroché seul derrière une vitre pare-balles dans la salle des États, en face des Noces de Cana.
+  the-wedding-at-cana:
+    title: Les Noces de Cana
+    local: Le Nozze di Cana
+    date: '1563'
+    medium: Huile sur toile
+    room: Salle des États
+    blurb: Le festin vénitien de Véronèse, le plus grand tableau du Louvre, en face de la Joconde.
+    text:
+    - Véronèse le peignit pour le réfectoire du monastère bénédictin de San Giorgio Maggiore à Venise, où les moines mangeaient sous lui. Le premier miracle du Christ, changer l’eau en vin, devient un banquet vénitien du XVIe siècle avec plus de 130 convives, des serviteurs, des musiciens, des chiens et un chat.
+    - Les troupes de Napoléon l’emportèrent en 1797, en le découpant pour le rouler pendant le voyage. Quand les œuvres pillées furent rendues après 1815, le Louvre le garda et envoya à Venise un tableau de Le Brun à la place. Large de près de dix mètres, il couvre tout un mur de la salle des États.
+  the-raft-of-the-medusa:
+    title: Le Radeau de la Méduse
+    local: The Raft of the Medusa
+    medium: Huile sur toile
+    room: Grande Galerie
+    blurb: "Les survivants d’un naufrage font signe à un navire à l’horizon : un scandale de 1816, peint grandeur nature."
+    text:
+    - En juillet 1816, la frégate française Méduse s’échoua au large de l’Afrique de l’Ouest. Ses officiers prirent les canots et laissèrent environ 150 personnes sur un radeau de fortune ; après treize jours, quinze seulement étaient encore en vie quand le brick Argus les trouva.
+    - Géricault, 27 ans, interrogea des survivants, fit construire une maquette du radeau et étudia les mourants dans les hôpitaux et les morts à la morgue. Il peignit le moment où les survivants aperçoivent l’Argus, un point à l’horizon, et où un homme agite un tissu vers lui. Montré au Salon de 1819, le tableau fut lu comme une attaque contre le gouvernement, qui avait confié le navire à un capitaine incompétent.
+  liberty-leading-the-people:
+    title: La Liberté guidant le peuple
+    local: Liberty Leading the People
+    medium: Huile sur toile
+    room: Grande Galerie
+    blurb: "La Liberté gravit la barricade avec le drapeau tricolore : le tableau de Delacroix sur la révolution de juillet 1830."
+    text:
+    - "En trois jours de juillet 1830, les Parisiens se soulevèrent contre le roi Charles X et le chassèrent du trône. Delacroix, qui ne s’était pas battu, le peignit cet automne-là : la Liberté coiffée d’un bonnet phrygien enjambe les morts, le drapeau dans une main et un fusil dans l’autre, avec près d’elle un garçon armé de deux pistolets et un homme en haut-de-forme, et au loin, dans la fumée, les tours de Notre-Dame."
+    - L’État l’acheta en 1831, puis le cacha pendant des années, car trop incendiaire. Il est au Louvre depuis 1874, et sa figure de la Liberté est devenue Marianne, le visage de la République française. Une restauration en 2024 a retiré le vernis jauni et rendu le bleu, le blanc et le rouge du drapeau.
+  venus-de-milo:
+    title: Vénus de Milo
+    local: Aphrodite de Milos
+    artist: Probablement Alexandros d’Antioche
+    date: vers 150–125 av. J.-C.
+    medium: Marbre de Paros
+    size: 204 cm de haut
+    room: Salle de la Vénus de Milo
+    blurb: La déesse sans bras, trouvée par un paysan sur l’île grecque de Milos en 1820.
+    text:
+    - Un paysan qui creusait parmi des ruines sur l’île de Milos la trouva en avril 1820, en deux morceaux et déjà sans bras. Un officier de marine français la vit, l’ambassadeur de France à Constantinople l’acheta, et elle fut offerte au roi Louis XVIII, qui la donna au Louvre en 1821.
+    - "C’est probablement Aphrodite, la déesse de l’amour, sculptée vers 150–125 av. J.-C. Un morceau de son socle, aujourd’hui perdu, portait le nom du sculpteur Alexandros d’Antioche. Personne ne sait ce que faisaient ses bras : tenir une pomme, un miroir ou un bouclier sont les hypothèses habituelles."
+  winged-victory-of-samothrace:
+    title: La Victoire de Samothrace
+    local: Nikè de Samothrace
+    artist: Sculpteur grec inconnu
+    date: vers 190 av. J.-C.
+    medium: Marbre de Paros sur une proue de marbre gris
+    size: 244 cm de haut, sans la proue
+    room: Escalier Daru
+    blurb: Nikè, déesse de la victoire, se posant sur la proue d’un navire de guerre en haut du grand escalier du Louvre.
+    text:
+    - Nikè, la déesse de la victoire, se pose sur la proue d’un navire de guerre, le vent plaquant sa robe mouillée contre son corps. Elle se dressait dans le sanctuaire des Grands Dieux sur l’île de Samothrace, probablement en offrande pour une bataille navale gagnée vers 190 av. J.-C.
+    - Le consul de France Charles Champoiseau l’exhuma en 1863, en morceaux. Depuis 1884, elle se dresse sur sa proue en haut de l’escalier Daru, où on la voit dès le pied des marches. Sa tête et ses bras n’ont jamais été retrouvés ; sa main droite est réapparue à Samothrace en 1950.
+  virgin-of-the-rocks:
+    title: La Vierge aux rochers
+    local: The Virgin of the Rocks
+    medium: Huile sur bois, transposée sur toile
+    room: Grande Galerie
+    blurb: La Vierge, l’Enfant Jésus, le petit saint Jean-Baptiste et un ange dans une grotte de rochers et de fleurs.
+    text:
+    - En 1483, une confrérie de Milan demanda à Léonard de peindre le panneau central de son retable. Dans une grotte obscure, la Vierge passe le bras autour du petit saint Jean-Baptiste, qui s’agenouille devant l’Enfant Jésus ; un ange nous regarde et pointe le doigt.
+    - Les plantes qui poussent entre les rochers sont peintes avec tant d’exactitude que les botanistes savent les nommer. Une querelle sur le prix s’ensuivit, et Léonard peignit une seconde version, aujourd’hui à la National Gallery de Londres ; cette première alla aux rois de France.
+  oath-of-the-horatii:
+    title: Le Serment des Horaces
+    local: The Oath of the Horatii
+    date: '1784'
+    medium: Huile sur toile
+    room: Grande Galerie
+    blurb: Trois frères romains jurent à leur père de combattre pour Rome ou de mourir, leurs sœurs pleurant à leurs côtés.
+    text:
+    - "L’histoire vient de Tite-Live : pour mettre fin à une guerre entre Rome et Albe, trois frères de chaque cité devaient se battre. Les Horaces tendent les bras vers les épées que leur père élève, tandis que les femmes cèdent au chagrin : l’une des sœurs est fiancée à l’un des frères qu’ils vont affronter."
+    - David le peignit à Rome pour le roi Louis XVI et le montra au Salon de 1785. Sa lumière dure, ses colonnes nues et ses rares figures sévères en firent le modèle du nouveau style néoclassique, puis bientôt un appel au devoir pour la Révolution.
+  la-grande-odalisque:
+    title: La Grande Odalisque
+    medium: Huile sur toile
+    room: Grande Galerie
+    blurb: Une nue dans un harem qui regarde par-dessus son épaule, le dos incroyablement long.
+    text:
+    - "Ingres la peignit à Rome pour Caroline Murat, sœur de Napoléon et reine de Naples, qui ne la reçut jamais : les Murat tombèrent avec Napoléon l’année suivante."
+    - Au Salon de 1819, les critiques se moquèrent de la longueur de son dos, deux ou trois vertèbres de trop, disaient-ils. Ingres l’avait allongé exprès, pour la ligne, et le tableau devint l’un des plus aimés du Louvre.
+  the-coronation-of-napoleon:
+    title: Le Sacre de Napoléon
+    local: The Coronation of Napoleon
+    date: 1805–1807
+    medium: Huile sur toile
+    room: Salle des États (au Louvre, la salle Daru voisine)
+    blurb: Napoléon couronne Joséphine à Notre-Dame, le pape assis derrière lui, le 2 décembre 1804.
+    text:
+    - Napoléon avait déjà posé la couronne sur sa propre tête ; David choisit l’instant suivant, où le nouvel empereur couronne Joséphine agenouillée, tandis que le pape Pie VII lève la main derrière lui. Environ 150 personnes y figurent, la plupart d’après nature.
+    - David était le premier peintre de Napoléon et y consacra trois ans. La mère de Napoléon figure dans la tribune au centre, bien qu’elle ne fût pas à la cérémonie. Large de près de dix mètres, c’est le deuxième plus grand tableau du Louvre, après les Noces de Cana.
+  sunflowers:
+    title: Les Tournesols
+    local: Sunflowers · Zonnebloemen
+    medium: Huile sur toile
+    size: 92,1 × 73 cm
+    room: La salle des impressionnistes
+    blurb: Quinze tournesols dans un pot jaune, peints à Arles pour accueillir Gauguin.
+    text:
+    - En août 1888, Van Gogh attendait à Arles son ami Paul Gauguin, qui devait loger à la Maison jaune. Pour décorer la chambre de Gauguin, il peignit en quelques jours quatre tableaux de tournesols, travaillant vite avant que les fleurs ne se fanent. Celui-ci, jaune sur jaune, est l’un des deux qu’il jugea assez bons pour les signer, sur le vase.
+    - L’hiver suivant, il peignit des répliques de ses tournesols, aujourd’hui à Amsterdam, à Philadelphie et à Tokyo. La National Gallery acheta celui-ci en 1924.
+  the-hay-wain:
+    title: La Charrette de foin
+    local: The Hay Wain
+    medium: Huile sur toile
+    size: 130,2 × 185,4 cm
+    room: La salle britannique
+    blurb: Une charrette de foin traversant la rivière Stour dans le Suffolk, sous de grands nuages d’été.
+    text:
+    - "Constable peignit la campagne où il avait grandi : la rivière Stour à Flatford Mill, où son père avait un moulin, avec la maison de Willy Lott à gauche et une charrette de foin vide qui patauge dans les eaux basses vers les champs au-delà."
+    - "Montré à la Royal Academy en 1821 sous le titre Landscape: Noon, il ne se vendit pas. À Paris, trois ans plus tard, il reçut une médaille d’or du roi Charles X, et de jeunes peintres français comme Delacroix étudièrent ses verts frais et ses touches de blanc brisées."
+  the-arnolfini-portrait:
+    title: Les Époux Arnolfini
+    local: The Arnolfini Portrait
+    medium: Huile sur chêne
+    size: 82,2 × 60 cm
+    room: La salle de Van Eyck
+    blurb: Un marchand italien et sa femme dans leur chambre à Bruges, et Van Eyck lui-même dans le miroir.
+    text:
+    - "Giovanni Arnolfini, marchand originaire de Lucques, se tient avec sa femme dans leur maison de Bruges : une orange sur le rebord de la fenêtre, un petit chien à leurs pieds, un lustre de cuivre avec une seule bougie allumée en plein jour."
+    - "Dans le miroir rond du mur du fond, deux autres personnes se tiennent à la porte, dont l’une est probablement le peintre. Au-dessus du miroir, il écrivit « Johannes de eyck fuit hic 1434 » : Jan van Eyck était ici. La National Gallery l’acheta en 1842."
+  the-fighting-temeraire:
+    title: Le Téméraire remorqué à son dernier mouillage
+    local: The Fighting Temeraire
+    medium: Huile sur toile
+    size: 90,7 × 121,6 cm
+    room: La salle britannique
+    blurb: Un vieux navire de guerre de Trafalgar remorqué sur la Tamise pour être démoli, sous un coucher de soleil flamboyant.
+    text:
+    - Le HMS Temeraire combattit à Trafalgar en 1805, deuxième de la ligne derrière le Victory de Nelson. En 1838, un remorqueur à vapeur le tira sur la Tamise jusqu’à Rotherhithe pour être démoli pour son bois. Turner le peignit pâle comme un fantôme derrière le remorqueur noir, le soleil se couchant de l’autre côté du tableau.
+    - Il l’appelait son chéri et ne le vendit jamais ; il revint à la nation avec son legs. En 2005, les auditeurs de BBC Radio 4 l’élurent plus grand tableau de Grande-Bretagne, et depuis 2020 il figure sur le billet de 20 livres.
+
+  the-ambassadors:
+    title: Les Ambassadeurs
+    local: The Ambassadors
+    artist: Hans Holbein le Jeune
+    medium: Huile sur chêne
+    size: 207 × 209,5 cm
+    room: La salle de Van Eyck
+    blurb: Deux jeunes Français à la cour d’Henri VIII, entre eux une table de globes et d’instruments, et un crâne étiré sur le sol.
+    text:
+    - "Jean de Dinteville, ambassadeur de France à Londres, et son ami Georges de Selve, évêque, se tiennent de part et d’autre d’une étagère d’objets pour mesurer le ciel et la terre : globes, cadrans solaires, un quadrant, un luth à la corde brisée."
+    - "La tache grise en travers du sol est un crâne, peint en perspective très oblique : il ne prend forme que si l’on regarde de tout près du cadre, à droite. La mort attend derrière tout ce savoir. La National Gallery l’acheta en 1890."
+  the-rokeby-venus:
+    title: La Vénus au miroir
+    local: The Rokeby Venus
+    artist: Diego Velázquez
+    date: 1647–1651
+    medium: Huile sur toile
+    size: 122,5 × 177 cm
+    room: La salle centrale
+    blurb: Vénus allongée, le dos tourné vers nous, se regarde dans un miroir que tient Cupidon.
+    text:
+    - Le seul nu féminin de Velázquez qui subsiste, rare dans l’Espagne de l’Inquisition. Son visage dans le miroir est flou, si bien qu’elle reste n’importe qui.
+    - Il doit son nom au Rokeby Park, dans le Yorkshire, où il était accroché au XIXe siècle. Acheté pour la nation en 1906, il fut lacéré à coups de couperet en 1914 par la suffragette Mary Richardson ; les entailles ont été si bien réparées qu’elles se voient à peine.
+  whistlejacket:
+    title: Whistlejacket
+    date: vers 1762
+    medium: Huile sur toile
+    size: 292 × 246,4 cm
+    room: La salle britannique
+    blurb: Le cheval de course du marquis de Rockingham, cabré grandeur nature sur un fond vide.
+    text:
+    - Stubbs avait passé dix-huit mois à disséquer des chevaux pour apprendre comment ils sont faits, et peignit ici un étalon arabe grandeur nature, cabré, sans rien autour de lui.
+    - On discute encore pour savoir si un cavalier et un paysage devaient suivre. La National Gallery l’acheta en 1997, et il est accroché au bout d’une longue perspective, si bien que le cheval semble se dresser au-dessus des visiteurs.
+  bathers-at-asnieres:
+    title: Une baignade, Asnières
+    local: Bathers at Asnières
+    medium: Huile sur toile
+    room: Les impressionnistes
+    blurb: De jeunes ouvriers se reposent au bord de la Seine par une journée chaude, les cheminées des usines de Clichy derrière eux.
+    text:
+    - Seurat avait 24 ans quand il le peignit, son premier grand tableau, après des dizaines de petites études faites sur place. Le Salon le refusa, et il fut montré au premier Salon des Indépendants en 1884.
+    - "Quelques années plus tard, il y revint et ajouta çà et là de petits points de couleur pure, dans le chapeau du garçon par exemple : la manière de peindre, le pointillisme, qu’il allait inventer."
+  the-water-lily-pond:
+    title: Le Bassin aux nymphéas
+    local: The Water-Lily Pond
+    medium: Huile sur toile
+    size: 88,3 × 93,1 cm
+    room: Les impressionnistes
+    blurb: Le pont japonais au-dessus du bassin aux nymphéas dans le jardin de Monet à Giverny.
+    text:
+    - Monet creusa lui-même le bassin en 1893, en détournant un petit cours d’eau à travers son jardin de Giverny, et y fit jeter une passerelle de bois de style japonais.
+    - En 1899, il peignit le pont une douzaine de fois, presque du même endroit. Pour le reste de sa vie, les nymphéas de cette eau furent presque tout ce qu’il peignit.
+  rosetta-stone:
+    title: La pierre de Rosette
+    local: The Rosetta Stone
+    artist: Scribes de Ptolémée V
+    date: 196 av. J.-C.
+    medium: Granodiorite
+    room: Galerie de sculpture égyptienne
+    blurb: "Le même décret en trois écritures : la pierre qui a permis de relire les hiéroglyphes égyptiens."
+    text:
+    - "Des prêtres réunis à Memphis en 196 av. J.-C. publièrent un décret en l’honneur du jeune roi Ptolémée V, gravé trois fois dans la pierre : en hiéroglyphes, en démotique (l’écriture égyptienne courante) et en grec ancien."
+    - Des soldats français trouvèrent la dalle brisée en 1799 à Rachid, que les Européens appelaient Rosette, encastrée dans un vieux fort. Les Britanniques la prirent en vertu du traité de 1801, et elle est au British Museum depuis 1802. Comme le grec pouvait se lire, Thomas Young puis Jean-François Champollion en déduisirent les hiéroglyphes, Champollion l’annonçant en 1822.
+  younger-memnon:
+    title: Ramsès II, le jeune Memnon
+    local: Ramesses II, the Younger Memnon
+    artist: Sculpteurs égyptiens
+    date: vers 1250 av. J.-C.
+    medium: Granit
+    size: 267 cm de haut, 7,25 tonnes
+    room: Galerie de sculpture égyptienne
+    blurb: La tête et les épaules colossales de Ramsès II, transportées de Thèbes à Londres en 1816–1818.
+    text:
+    - La partie haute d’une statue assise de Ramsès II provenant de son temple funéraire de Thèbes, le Ramesseum, taillée dans un seul bloc de granit comportant une partie plus sombre et une plus claire, si bien que son visage est rose et son corps gris.
+    - En 1816, l’athlète et explorateur Giovanni Belzoni la fit traîner sur des rouleaux jusqu’au Nil et expédier à Londres ; elle arriva au British Museum en 1818. On dit que la nouvelle inspira à Shelley son sonnet Ozymandias, sur la statue brisée d’un roi des rois oublié.
+  parthenon-sculptures:
+    title: Les marbres du Parthénon
+    local: The Elgin Marbles
+    artist: Atelier de Phidias
+    date: vers 447–432 av. J.-C.
+    medium: Marbre du Pentélique
+    size: 75 m de frise, 15 métopes, 17 figures
+    room: La galerie Duveen
+    blurb: Dieux, cavaliers et centaures du Parthénon d’Athènes, et les sculptures les plus controversées du monde.
+    text:
+    - "La frise courait autour du Parthénon, le temple d’Athéna sur l’Acropole : la procession des fêtes des Panathénées, des cavaliers, des chars et des animaux pour le sacrifice, jusqu’aux dieux assis qui attendent. Ses frontons portaient les dieux eux-mêmes, et ses métopes le combat des Lapithes et des centaures."
+    - À partir de 1801, des hommes travaillant pour lord Elgin, ambassadeur britannique auprès de l’Empire ottoman, qui dominait alors Athènes, déposèrent environ la moitié de ce qui subsistait et l’expédièrent en Grande-Bretagne. Le Parlement l’acheta en 1816. La Grèce réclame les sculptures depuis 1983 et a construit le musée de l’Acropole (2009) avec une salle qui les attend.
+  the-birth-of-venus:
+    title: La Naissance de Vénus
+    local: La nascita di Venere
+    date: vers 1484–1486
+    medium: Tempera sur toile
+    room: La salle de Botticelli
+    blurb: La déesse de l’amour poussée vers le rivage sur une coquille Saint-Jacques, peinte pour les Médicis.
+    text:
+    - Vénus, née de l’écume de la mer, dérive vers le rivage sur une coquille Saint-Jacques. Les vents la soufflent depuis la gauche, des roses tombent autour d’eux, et à droite l’une des Heures, les déesses des saisons, attend avec un manteau fleuri pour la couvrir.
+    - Botticelli le peignit à Florence pour le cercle des Médicis au milieu des années 1480. C’était l’un des premiers grands tableaux depuis l’Antiquité représentant une déesse nue qui n’était pas un récit biblique, et l’un des premiers en Toscane sur toile plutôt que sur bois.
+  primavera:
+    title: Le Printemps
+    local: Primavera
+    date: vers 1480
+    medium: Tempera sur bois
+    room: La salle de Botticelli
+    blurb: Vénus dans son verger d’orangers avec les trois Grâces, Flore et les vents du printemps.
+    text:
+    - Dans un bosquet sombre d’orangers, Vénus se tient au milieu, Cupidon visant de sa flèche au-dessus de sa tête. À gauche, les trois Grâces dansent et Mercure écarte les nuages ; à droite, Zéphyr, le vent d’ouest, saisit la nymphe Chloris, qui se change en Flore, semant des fleurs sur sa robe peinte.
+    - Il était accroché dans une demeure des Médicis à Florence. Les botanistes ont compté quelque 500 plantes dans sa prairie, dont environ 190 fleurs différentes, presque toutes de celles qui fleurissent autour de Florence au printemps.
+  venus-de-medici:
+    title: La Vénus de Médicis
+    local: Venus de’ Medici
+    artist: Signée Cléoménès
+    date: Ier siècle av. J.-C.
+    medium: Marbre
+    size: 153 cm de haut
+    room: La Tribune
+    blurb: La déesse de marbre au milieu de la Tribune, autrefois la statue la plus admirée d’Europe.
+    text:
+    - Vénus se détourne comme surprise pendant son bain, un dauphin à ses pieds. Un sculpteur grec la tailla au Ier siècle av. J.-C., d’après l’Aphrodite de Cnide de Praxitèle ; le socle porte le nom de Cléoménès, fils d’Apollodoros, d’Athènes.
+    - Les Médicis la gardaient dans leur villa de Rome et la firent venir à Florence en 1677, dans l’octogone de velours rouge de la Tribune. Les voyageurs du Grand Tour venaient la voir avant tout. Napoléon l’emporta à Paris en 1802 ; elle revint en 1815.
+  the-annunciation:
+    title: L’Annonciation
+    local: Annunciazione
+    date: vers 1472–1476
+    medium: Huile et tempera sur bois
+    room: La salle de Botticelli
+    blurb: L’ange Gabriel s’agenouille dans un jardin pour annoncer à la Vierge qu’elle aura un fils.
+    text:
+    - Léonard le peignit au début de la vingtaine, encore dans l’atelier de son maître Verrocchio. Les ailes de Gabriel furent d’abord peintes d’après celles d’un vrai oiseau ; une autre main les allongea plus tard.
+    - Il entra aux Offices en 1867, venant d’un monastère près de Florence, comme un Ghirlandaio. Ce n’est qu’en 1869 que les critiques y reconnurent le jeune Léonard.
+  venus-of-urbino:
+    title: La Vénus d’Urbin
+    local: Venere di Urbino
+    artist: Titien
+    medium: Huile sur toile
+    room: La salle de Botticelli
+    blurb: Une jeune femme allongée sur un lit nous regarde droit dans les yeux, son petit chien endormi à ses pieds, deux servantes près d’un coffre derrière elle.
+    text:
+    - Titien le peignit pour Guidobaldo della Rovere, bientôt duc d’Urbin, qui l’appelait simplement la femme nue. Les servantes qui cherchent ses vêtements dans le coffre et le chien endormi en font une chambre à Venise plutôt que le bosquet d’une déesse.
+    - Mark Twain l’appela le tableau le plus ignoble du monde ; Manet lui répondit en 1863 par son Olympia, la même pose, le même regard franc.
+  medusa:
+    title: Méduse
+    local: Medusa
+    artist: Caravage
+    date: vers 1597
+    medium: Huile sur toile marouflée sur un bouclier de bois
+    room: La salle de Botticelli
+    blurb: La tête de la Gorgone au moment où Persée la tranche, hurlante, des serpents pour cheveux, sur un bouclier de parade rond.
+    text:
+    - "Le cardinal Francesco Maria del Monte le fit faire en cadeau pour Ferdinand Ier de Médicis, grand-duc de Toscane : un bouclier de cérémonie sur lequel fut peint le monstre dont le regard changeait les hommes en pierre."
+    - Le bouclier est convexe, mais Caravage l’a peint comme s’il était plat et creusé, la tête se détachant du fond, encore vivante, le sang jaillissant. On dit que c’est son propre visage.
+  sir-john-hawkwood:
+    title: Sir John Hawkwood
+    local: Monumento equestre a Giovanni Acuto
+    medium: Fresque, transposée sur toile
+    room: Nef nord
+    blurb: Un mercenaire anglais à cheval, peint pour ressembler à une statue de bronze sur le mur de la cathédrale.
+    text:
+    - John Hawkwood, fils d’un tanneur de l’Essex, se battit dans l’Italie du XIVe siècle pour qui payait le mieux et finit capitaine général de l’armée de Florence. La ville lui promit un monument de marbre dans la cathédrale ; à sa mort en 1394, il ne vint jamais.
+    - En 1436, Paolo Uccello en peignit un à la place, dans des terres verdâtres pour que le cheval et le cavalier paraissent de bronze, debout sur un socle vu d’en bas. Vingt ans plus tard, Andrea del Castagno peignit à côté un autre condottiere, Niccolò da Tolentino.
+  david:
+    title: David
+    local: Il Gigante
+    medium: Marbre de Carrare
+    size: 517 cm de haut, avec son socle
+    room: À la porte du Palazzo Vecchio, une copie (l’original est à la Galleria dell’Accademia)
+    blurb: Le jeune tueur de géant que Michel-Ange tailla dans un bloc de marbre abandonné, emblème de la République florentine.
+    text:
+    - En 1501, l’Œuvre de la cathédrale et la corporation de la laine donnèrent à Michel-Ange, 26 ans, un bloc de marbre de Carrare de plus de cinq mètres de haut qu’Agostino di Duccio avait commencé à tailler près de quarante ans plus tôt avant d’y renoncer ; les Florentins l’appelaient le Géant. Il y travailla dans la cour de l’Œuvre, à l’abri des regards, jusqu’en 1504.
+    - "Il choisit l’instant avant le combat : David a la fronde sur l’épaule gauche et la pierre dans la main droite, son poids sur une jambe, et tourne la tête pour regarder Goliath. La statue était destinée à un contrefort en hauteur sur la cathédrale, mais un comité où figuraient Léonard de Vinci et Botticelli la plaça à la porte du Palazzo Vecchio, où elle fut dévoilée en septembre 1504 : le jeune héros qui tua un géant, symbole de la République de Florence face à ses puissants ennemis."
+    - En 1527, lors d’une révolte contre les Médicis, un banc jeté d’une fenêtre du palais lui brisa le bras gauche en trois morceaux. En 1873, il fut mis à l’abri, dans une tribune construite pour lui au fond de la Galleria dell’Accademia, et en 1910 une copie en marbre prit sa place à la porte du palais, à gauche quand on lui fait face, où elle se dresse dans le jeu.
+
+  the-creation-of-adam:
+    title: La Création d’Adam
+    local: La creazione di Adamo
+    medium: Fresque
+    date: vers 1508–1512
+    room: Le plafond
+    blurb: Dieu tend la main pour donner la vie à Adam, leurs doigts se touchant presque, au plafond de la chapelle Sixtine.
+    text:
+    - "Le pape Jules II demanda à Michel-Ange, qui se considérait comme un sculpteur, de peindre le plafond de la chapelle Sixtine. De 1508 à 1512, il y peignit plus de 300 figures, debout sur un échafaudage qu’il avait conçu lui-même : les prophètes et les sibylles sur les bords, et neuf histoires de la Genèse au milieu."
+    - La Création d’Adam est la quatrième à partir de l’autel. Adam est allongé sur la terre nue, la main molle ; Dieu fond sur lui dans un manteau rouge plein d’anges, et l’espace entre leurs doigts est l’instant où la vie passe. Certains voient dans le manteau autour de Dieu la forme d’un cerveau humain.
+  the-last-judgment:
+    title: Le Jugement dernier
+    local: Il Giudizio universale
+    medium: Fresque
+    room: Le mur de l’autel
+    blurb: La vision de Michel-Ange de la fin du monde, qui couvre tout le mur de l’autel de la chapelle Sixtine.
+    text:
+    - Plus de vingt ans après le plafond, Michel-Ange revint, à environ soixante ans, peindre le mur derrière l’autel. Le Christ lève le bras au milieu, Marie à ses côtés ; les sauvés s’élèvent à gauche et les damnés tombent à droite, jusqu’à Charon qui les fait traverser le fleuve vers l’enfer. Saint Barthélemy tient sa propre peau écorchée, et le visage qui s’y trouve est celui de Michel-Ange.
+    - "Plus de 300 figures, presque toutes nues : tant de gens s’en offusquèrent qu’après la mort de Michel-Ange, Daniele da Volterra fut payé pour peindre des pagnes sur elles, et fut surnommé le faiseur de culottes. La restauration de 1990–1994 en a de nouveau retiré une partie."
+  the-delivery-of-the-keys:
+    title: La Remise des clés
+    local: Consegna delle chiavi
+    medium: Fresque
+    room: Le mur nord
+    blurb: Le Christ remet à saint Pierre les clés du ciel sur une grande place pavée, un temple à coupole et deux arcs de triomphe derrière eux.
+    text:
+    - "Le pape Sixte IV fit peindre en 1481–1482 les murs de sa nouvelle chapelle par les meilleurs peintres de l’époque, dont Botticelli, Ghirlandaio, Rosselli et le Pérugin, des décennies avant le plafond de Michel-Ange : la vie de Moïse d’un côté et celle du Christ de l’autre."
+    - Chez le Pérugin, les clés de l’Église sont remises sur une vaste place dessinée en perspective parfaite ; les arcs sont des copies de l’arc de Constantin à Rome. Son élève Raphaël lui emprunta le temple pour son Mariage de la Vierge.
+  the-night-watch:
+    title: La Ronde de nuit
+    local: De Nachtwacht
+    artist: Rembrandt van Rijn
+    medium: Huile sur toile
+    size: 379,5 × 453,5 cm
+    room: La salle de la Ronde de nuit
+    blurb: Une compagnie de la milice d’Amsterdam se met en marche, le tableau autour duquel tout le Rijksmuseum a été construit.
+    text:
+    - "La garde civique du capitaine Frans Banninck Cocq le commanda pour la salle de leur hôtel de guilde. Au lieu d’une rangée bien ordonnée de portraits, Rembrandt les peignit dans le tumulte du départ : le capitaine en noir avec une écharpe rouge donnant l’ordre, son lieutenant en jaune pâle, un tambour, des mousquets qui partent, et une fillette en or éclairée au milieu d’eux avec un poulet à la ceinture."
+    - "Ce n’est pas une scène de nuit : le vernis a noirci au fil des siècles et lui a donné son nom. En 1715, il fut rogné sur les quatre côtés pour s’adapter à un mur de l’hôtel de ville. Depuis 2019, il est restauré dans une salle de verre au musée, où les visiteurs peuvent suivre le travail."
+  the-threatened-swan:
+    title: Le Cygne menacé
+    local: De bedreigde zwaan
+    medium: Huile sur toile
+    room: La Galerie d’honneur
+    blurb: Un cygne déploie ses ailes pour défendre son nid contre un chien.
+    text:
+    - "Asselijn peignit un cygne défendant ses œufs, grandeur nature. Plus tard, quelqu’un ajouta des mots qui en firent une caricature politique : le cygne est le grand pensionnaire Johan de Witt, l’œuf la Hollande, le chien l’ennemi de l’État."
+    - En 1800, ce fut le tout premier tableau acheté par la galerie nationale d’art qui devint le Rijksmuseum ; il est accroché en premier dans la Galerie d’honneur.
+  the-little-street:
+    title: La Ruelle
+    local: Het straatje
+    medium: Huile sur toile
+    size: 54,3 × 44 cm
+    room: La Galerie d’honneur
+    blurb: Une maison de brique à Delft, une femme qui coud sur le seuil, une autre penchée sur un tonneau dans la ruelle voisine.
+    text:
+    - "L’une des deux seules vues de Delft que peignit Vermeer. En 2015, un registre de 1667 de ce que les propriétaires payaient pour le curage des canaux a montré de quelles maisons il s’agissait : dans la Vlamingstraat, où habitait sa tante, qui vendait des tripes."
+    - Henri Deterding, le pétrolier, l’offrit au Rijksmuseum en 1921.
+  the-milkmaid:
+    title: La Laitière
+    local: Het melkmeisje
+    medium: Huile sur toile
+    size: 45,5 × 41 cm
+    room: La Galerie d’honneur
+    blurb: Une servante de cuisine verse du lait dans un bol près de la fenêtre, le pain sur la table captant la lumière.
+    text:
+    - "Rien ne se passe : une servante, absorbée, verse un mince filet de lait, sans doute pour un pudding au pain. Vermeer fit scintiller la croûte du pain de points de lumière, et effaça un panier de linge qu’il avait d’abord mis contre le mur."
+    - Il est petit, à peine 45 cm de haut. L’État l’acheta pour le Rijksmuseum en 1908, après un débat au Parlement sur son prix.
+  the-jewish-bride:
+    title: La Fiancée juive
+    local: Het Joodse bruidje
+    artist: Rembrandt
+    date: vers 1665–1669
+    medium: Huile sur toile
+    size: 121,5 × 166,5 cm
+    room: La Galerie d’honneur
+    blurb: Un homme pose tendrement la main sur la poitrine d’une femme, sa main sur la sienne.
+    text:
+    - "Personne ne sait qui ils sont : peut-être un couple de l’époque de Rembrandt déguisé en Isaac et Rébecca de la Bible. Le nom ne fut donné qu’au XIXe siècle."
+    - Rembrandt a posé la peinture de la manche dorée de l’homme en épaisseur au couteau à palette. Van Gogh, en le voyant en 1885, dit qu’il donnerait dix ans de sa vie pour s’asseoir devant lui pendant quinze jours avec seulement une croûte de pain sec.
+  las-meninas:
+    title: Les Ménines
+    local: Las Meninas
+    medium: Huile sur toile
+    room: La salle de Velázquez
+    blurb: La petite infante parmi ses dames d’honneur, le peintre devant sa toile, et le roi et la reine dans le miroir.
+    text:
+    - Dans une salle du palais royal de Madrid, l’infante Marguerite, cinq ans, se tient parmi ses dames d’honneur, les ménines, avec deux nains de cour et un gros chien somnolent. À gauche, Velázquez lui-même regarde de derrière une immense toile.
+    - "Dans le miroir du fond se trouvent le roi Philippe IV et la reine Marie-Anne : ils se tiennent là où vous vous tenez, et toute la scène les regarde. La croix rouge sur la poitrine du peintre est celle de l’ordre de Santiago, qu’il reçut en 1659, trois ans après s’être peint."
+  saturn-devouring-his-son:
+    title: Saturne dévorant un de ses fils
+    local: Saturno devorando a su hijo
+    medium: Huile sur mur, transposée sur toile
+    room: Les Peintures noires
+    blurb: Le géant aux yeux fous qui dévore son enfant, l’une des Peintures noires des murs de la maison de Goya.
+    text:
+    - À plus de soixante-dix ans, sourd et désabusé, Goya peignit quatorze tableaux sombres directement sur les murs plâtrés de sa maison près de Madrid, la Quinta del Sordo. Il ne leur donna aucun titre et ne les montra à personne. Saturne, le dieu qui dévorait ses enfants de peur que l’un d’eux ne le renverse, était dans la salle à manger.
+    - Cinquante ans plus tard, un nouveau propriétaire les fit détacher des murs et transposer sur toile, et les donna au Prado en 1881.
+  the-garden-of-earthly-delights:
+    title: Le Jardin des délices
+    local: De Tuin der Lusten
+    medium: Huile sur panneaux de chêne
+    room: La salle de Bosch
+    blurb: Éden, un jardin plein de jouisseurs nus et de fruits géants, et un enfer de supplices musicaux.
+    text:
+    - "Trois panneaux : à gauche, Dieu présente Ève à Adam en Éden ; au milieu, des centaines de personnes nues jouent parmi des fraises géantes, des oiseaux et des fontaines ; à droite, un enfer de cauchemar, où un homme est crucifié sur une harpe et un monstre à tête d’oiseau avale les pécheurs. Fermés, les volets montrent le monde au troisième jour de la création, en gris."
+    - Bosch le peignit à Bois-le-Duc, peut-être pour les comtes de Nassau à Bruxelles. Le roi Philippe II d’Espagne, qui collectionnait Bosch, l’envoya en 1593 à son monastère-palais de l’Escurial, et il est au Prado depuis 1939.
+  the-third-of-may-1808:
+    title: Le 3 mai 1808
+    local: El tres de mayo de 1808 en Madrid
+    medium: Huile sur toile
+    room: Les Peintures noires
+    blurb: Des soldats français fusillent les habitants de Madrid dans la nuit, un homme en chemise blanche lançant les bras en l’air devant eux.
+    text:
+    - Le 2 mai 1808, Madrid se souleva contre l’armée de Napoléon ; cette nuit-là et le lendemain matin, les Français fusillèrent les prisonniers qu’ils avaient faits. Six ans plus tard, quand les Français furent partis, Goya peignit le soulèvement et les exécutions.
+    - Les soldats sont une rangée sans visage de dos et de fusils ; l’homme qu’ils visent, éclairé par une lanterne posée à terre, tend les bras comme le Christ en croix, une plaie dans la paume. Sa vérité sur la guerre a été suivie depuis, par Manet et par le Guernica de Picasso.
+  the-nobleman-with-his-hand-on-his-chest:
+    title: Le Gentilhomme à la main sur la poitrine
+    local: El caballero de la mano en el pecho
+    medium: Huile sur toile
+    size: 81,8 × 66,1 cm
+    room: La galerie centrale
+    blurb: Un gentilhomme de Tolède en noir avec une fraise blanche, la main sur le cœur comme pour prêter serment.
+    text:
+    - "Peint peu après l’arrivée du Greco à Tolède depuis l’Italie, c’est le gentilhomme espagnol tel qu’il voulait être vu : sobre, fier, la poignée de son épée visible, ses longs doigts écartés sur la poitrine."
+    - On ne sait pas qui il était. Un nettoyage en 1996 a retiré un vieux vernis sombre et des repeints et montré un fond gris et un visage plus clair, à la consternation de certains.
+  the-triumph-of-death:
+    title: Le Triomphe de la Mort
+    local: El triunfo de la Muerte
+    artist: Pieter Bruegel l’Ancien
+    date: vers 1562
+    medium: Huile sur bois
+    room: La salle de Bosch
+    blurb: Une armée de squelettes balaie une terre en flammes, n’épargnant personne, roi ou paysan.
+    text:
+    - "Bruegel apprit de Bosch, et ici les morts submergent les vivants : ils rassemblent des gens dans un grand cercueil, sonnent une cloche, égorgent un pèlerin, vident les tonneaux d’or du roi."
+    - Seuls les deux amoureux dans le coin, chantant au luth, n’ont encore rien remarqué, et un squelette joue derrière eux. Il est en Espagne depuis le XVIIe siècle et au Prado depuis 1827.
+  the-descent-from-the-cross:
+    title: La Descente de croix
+    local: El Descendimiento
+    medium: Huile sur panneau de chêne
+    room: La salle de Bosch
+    blurb: Le corps du Christ descendu de la croix, sa mère s’évanouissant dans la même courbe que son corps, dix figures comme sculptées dans un coffret doré.
+    text:
+    - "Van der Weyden le peignit pour la chapelle de la guilde des arbalétriers à Louvain : de minuscules arbalètes pendent aux coins du réseau doré. Les figures se serrent dans une boîte peu profonde, comme un retable sculpté devenu vivant."
+    - Marie de Hongrie l’acheta, et son neveu Philippe II l’emporta en Espagne. La Vierge s’affaisse dans une pâmoison qui répond au corps de son fils, et les larmes sur les visages sont peintes une à une.
+  the-tower-of-babel:
+    title: La Tour de Babel
+    local: De toren van Babel
+    artist: Pieter Bruegel l’Ancien
+    medium: Huile sur panneau de chêne
+    room: La salle de Bruegel
+    blurb: La tour qui devait atteindre le ciel, s’élevant en anneaux d’arcades au-dessus d’un port flamand.
+    text:
+    - Bruegel construisit sa tour comme le Colisée de Rome, qu’il avait vu, anneau sur anneau d’arcades montant en spirale dans les nuages, déjà en train de s’effriter en bas avant que le sommet ne soit achevé. Autour s’étend un port flamand animé comme celui d’Anvers, des navires déchargeant de la pierre.
+    - Dans un coin, le roi Nemrod, qui en a ordonné la construction, rend visite aux tailleurs de pierre, qui s’agenouillent devant lui. Des milliers de minuscules ouvriers grouillent dessus, avec grues, échelles et échafaudages. Une version plus petite de Bruegel est à Rotterdam.
+  the-hunters-in-the-snow:
+    title: Les Chasseurs dans la neige
+    local: De jagers in de sneeuw
+    artist: Pieter Bruegel l’Ancien
+    medium: Huile sur panneau de chêne
+    room: La salle de Bruegel
+    blurb: Trois chasseurs fatigués rentrent par la colline enneigée, le village en contrebas patine sur la glace.
+    text:
+    - Trois chasseurs et leurs chiens descendent péniblement la colline devant des arbres nus, avec un seul renard pour la journée. En dessous, les étangs gelés sont pleins de patineurs, de joueurs de curling et d’enfants avec des toupies, sous un ciel froid gris-vert.
+    - C’est l’un d’une série de six tableaux des saisons que le marchand anversois Niclaes Jongelinck commanda pour sa maison ; cinq subsistent, dont trois sont à Vienne.
+  the-peasant-wedding:
+    title: Le Repas de noce
+    local: De boerenbruiloft
+    artist: Pieter Bruegel l’Ancien
+    date: vers 1567
+    medium: Huile sur panneau de chêne
+    room: La salle de Bruegel
+    blurb: Un banquet de noces bondé dans une grange, la mariée sous sa couronne de papier.
+    text:
+    - Les invités se pressent autour d’une longue table dans une grange, la mariée assise d’un air satisfait sous une couronne de papier devant un drap vert. Deux hommes apportent des bols de bouillie sur une porte retirée de ses gonds, un joueur de cornemuse regarde la nourriture avec envie et un enfant à grand chapeau lèche une assiette.
+    - Personne n’est sûr de savoir lequel est le marié. Bruegel peignit les gens de la campagne flamande ainsi, mangeant, dansant et se battant, si souvent qu’on l’appela Bruegel le Paysan.
+  childrens-games:
+    title: Les Jeux d’enfants
+    local: Die Kinderspiele
+    artist: Pieter Bruegel l’Ancien
+    medium: Huile sur panneau de chêne
+    room: La salle de Bruegel
+    blurb: Toute une ville livrée aux enfants qui jouent, environ 80 jeux à la fois.
+    text:
+    - "Environ deux cents enfants remplissent une place et une rue : cerceaux, échasses, saute-mouton, colin-maillard, osselets, jeux de mariage et de messe. Les historiens ont compté environ quatre-vingts jeux, dont beaucoup se jouent encore."
+    - L’archiduc Ernest d’Autriche l’acheta en 1594, et il est depuis dans la collection des Habsbourg, aujourd’hui ce musée.
+  the-art-of-painting:
+    title: L’Art de la peinture
+    local: Die Malkunst
+    medium: Huile sur toile
+    room: La salle de Bruegel
+    blurb: Un peintre vu de dos peint une jeune femme en Clio, muse de l’histoire, une grande carte des Pays-Bas au mur.
+    text:
+    - Derrière un lourd rideau, nous regardons par-dessus l’épaule d’un peintre qui commence la couronne de laurier de son modèle, Clio, avec sa trompette et son livre. La carte montre les Pays-Bas encore entiers, avant leur partage.
+    - Vermeer le garda toute sa vie, et sa veuve tenta de le sauver de ses créanciers. Hitler l’acheta en 1940 pour le musée qu’il projetait à Linz ; après la guerre, il vint dans ce musée.
+  nefertiti-bust:
+    title: Buste de Néfertiti
+    local: Bust of Nefertiti
+    artist: Atelier de Thoutmôsis
+    date: vers 1345 av. J.-C.
+    medium: Calcaire et plâtre peint
+    size: 47 cm de haut
+    room: La salle de la coupole nord
+    blurb: La reine d’Égypte peinte, trouvée dans l’atelier d’un sculpteur où elle se tenait depuis 3 300 ans.
+    text:
+    - Néfertiti était la grande épouse royale du pharaon Akhénaton, qui déplaça la capitale de l’Égypte vers une ville nouvelle à Amarna. Son buste, avec sa haute couronne bleue, était probablement un modèle pour d’autres portraits d’elle, ce qui explique qu’un œil n’ait jamais été incrusté.
+    - Une expédition allemande dirigée par Ludwig Borchardt le trouva le 6 décembre 1912 dans les ruines de l’atelier du sculpteur Thoutmôsis. Il est à Berlin depuis 1913, exposé depuis 1924, et l’Égypte l’a réclamé à de nombreuses reprises.
+  pergamon-altar:
+    title: L’Autel de Pergame
+    local: The Pergamon Altar
+    artist: Sculpteurs grecs de Pergame
+    date: vers 170 av. J.-C.
+    medium: Marbre
+    size: environ 36 × 34 m, frise de 113 m de long
+    room: La salle de l’autel
+    blurb: Un autel grec entier avec son combat des dieux et des géants, reconstruit dans un musée.
+    text:
+    - Le roi Eumène II fit bâtir l’autel sur l’acropole de Pergame, dans ce qui est aujourd’hui l’ouest de la Turquie, dans la première moitié du IIe siècle av. J.-C. Autour de sa base court une frise de 113 m de long des dieux combattant les géants, des figures plus grandes que nature qui se tordent hors du marbre.
+    - L’ingénieur allemand Carl Humann l’exhuma à partir de 1878 et les morceaux partirent pour Berlin, où le musée fut construit autour. La salle est fermée pour reconstruction jusqu’en 2027 environ.
+  ishtar-gate:
+    title: La Porte d’Ishtar
+    local: The Ishtar Gate
+    artist: Bâtisseurs de Nabuchodonosor II
+    date: vers 575 av. J.-C.
+    medium: Brique émaillée
+    size: 14 m de haut tel que reconstruit
+    room: La Voie processionnelle
+    blurb: La porte de Babylone en briques émaillées bleues, avec ses lions, ses taureaux et ses dragons, au bout de la Voie processionnelle.
+    text:
+    - Le roi Nabuchodonosor II la fit construire vers 575 av. J.-C. comme huitième porte de Babylone, dédiée à la déesse Ishtar. Ses briques sont émaillées d’un bleu profond, avec des rangées de taureaux et de dragons en jaune et blanc ; les murs de la Voie processionnelle qui y mène sont bordés de lions.
+    - "L’expédition allemande de Robert Koldewey exhuma les fragments à partir de 1902 et le musée remonta la porte avec eux dans les années 1930. Seule la plus petite porte de devant est ici : la plus grande, derrière, était trop haute pour le bâtiment."
+  pala-d-oro:
+    title: La Pala d’Oro
+    local: The Pala d’Oro
+    artist: Orfèvres de Constantinople et de Venise
+    medium: Or, argent doré, émaux, perles et pierres précieuses
+    room: Derrière le maître-autel
+    blurb: Le retable d’or de Saint-Marc, fait en quatre siècles à partir d’émaux et de pierres précieuses byzantins.
+    text:
+    - Le doge Pietro Orseolo commanda le premier à Constantinople en 976. Il fut agrandi en 1105, de nouveau en 1209 avec des émaux pillés à Constantinople par les croisés en 1204, et reçut son cadre d’or gothique de l’orfèvre Giovanni Paolo Boninsegna en 1345.
+    - Environ 250 émaux du Christ, de saints et de prophètes y sont sertis parmi près de deux mille perles et pierres précieuses. Il se dresse derrière le maître-autel, au-dessus du tombeau de saint Marc lui-même, et les jours de fête on le retourne face à l’église.
+  ghent-altarpiece:
+    title: L’Agneau mystique
+    local: Het Lam Gods · Le retable de Gand
+    artist: Hubert et Jan van Eyck
+    medium: Huile sur panneaux de chêne
+    size: 375 × 520 cm ouvert
+    room: Sa propre chapelle, au fond
+    blurb: L’Adoration de l’Agneau mystique, le chef-d’œuvre des frères Van Eyck et le tableau le plus volé du monde.
+    text:
+    - Joos Vijd et sa femme Elisabeth Borluut le financèrent pour leur chapelle de l’église Saint-Jean, aujourd’hui Saint-Bavon. Le vers sur son cadre dit qu’Hubert van Eyck le commença et que son frère Jan l’acheva, et il fut dévoilé le 6 mai 1432. Ouvert, il montre Dieu, Marie et saint Jean-Baptiste en haut, Adam et Ève aux extrémités, et en dessous des foules de saints, de juges, de chevaliers, d’ermites et de pèlerins venant adorer l’Agneau sur un autel dans une prairie pleine de fleurs.
+    - Peu de tableaux ont connu plus d’aventures. Napoléon emporta les panneaux centraux au Louvre ; les volets furent vendus et accrochés à Berlin jusqu’à ce que le traité de Versailles les ramène en 1920. En 1934, le panneau des Juges intègres fut volé, et il n’a jamais été retrouvé. Les nazis emportèrent le reste dans une mine de sel en Autriche, où les Monuments Men le retrouvèrent en 1945.
+    - Une restauration depuis 2012 a retiré des siècles de repeints, et en 2020 l’Agneau a de nouveau regardé au loin avec le visage étrangement humain que lui avaient donné les Van Eyck.
+

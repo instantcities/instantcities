@@ -2,7 +2,7 @@
 # change with the language. Their words, in each language, are in _data/lang/<lang>.yml; each city
 # on them comes from _data/cities.yml.
 langs: [en, fr, nl] # the site's languages, English first: the default, and the one every other page is in
-content_langs: [en, nl] # the languages that have the art and sites pages (/en/art/, /en/sites/, /nl/kunst/, /nl/plekken/); French links to the English ones; the old /art/ and /sites/ redirect
+content_langs: [en, fr, nl] # the languages that have the art and sites pages (/en/art/, /en/sites/, /fr/art/, /fr/sites/, /nl/kunst/, /nl/plekken/); the old /art/ and /sites/ redirect
 hero_play_cities: [paris, rome] # Play buttons before it in the home page's hero
 live_city: ghent # initial preview and full-tour link
 live_poster: /assets/previews/ghent.jpg # compiled preview's first frame

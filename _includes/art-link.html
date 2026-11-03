@@ -2,12 +2,13 @@
   Links the first mention of a piece of art in a text: {% include art-link.html text=t art=a %}, a: a piece of _data/art.json,
   prints the text with its title in a link to the piece's page in the page's language (see link-first.html), or the text as
   it was. The title is the piece's in this language (_data/i18n/<lang>/art.yml) without its first word when that is an
-  article ("The Night Watch" is found as "Night Watch", "De Nachtwacht" as "Nachtwacht", also after a small "de").
+  article ("The Night Watch" is found as "Night Watch", "De Nachtwacht" as "Nachtwacht", "La Joconde" as "Joconde", also after a small "de" or "la").
 {%- endcomment -%}
 {%- assign al_a = include.art -%}
 {%- assign al_x = site.data.i18n[L].art.pieces[al_a.id] -%}
 {%- assign al_url = T.urls.art | append: al_a.id | append: '/' -%}
 {%- assign al_name = al_x.title | default: al_a.title | remove_first: 'The ' -%}
-{%- if L != 'en' %}{% assign al_name = al_name | remove_first: 'De ' | remove_first: 'Het ' %}{% endif -%}
+{%- if L != 'en' %}{% assign al_p2 = al_name | slice: 0, 2 %}{% assign al_p3 = al_name | slice: 0, 3 %}{% assign al_p4 = al_name | slice: 0, 4 %}
+{%- if al_p3 == 'De ' or al_p3 == 'Le ' or al_p3 == 'La ' %}{% assign al_name = al_name | slice: 3, 999 %}{% elsif al_p4 == 'Het ' or al_p4 == 'Les ' %}{% assign al_name = al_name | slice: 4, 999 %}{% elsif al_p2 == 'L’' %}{% assign al_name = al_name | slice: 2, 999 %}{% endif %}{% endif -%}
 {%- unless include.text contains al_name %}{% assign al_low = al_name | slice: 0 | downcase %}{% assign al_rest = al_name | slice: 1, 999 %}{% assign al_name = al_low | append: al_rest %}{% endunless -%}
 {%- include link-first.html text=include.text name=al_name url=al_url -%}

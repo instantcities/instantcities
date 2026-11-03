@@ -8,8 +8,8 @@ urls:
   about: /fr/a-propos/
   privacy: /fr/confidentialite/
   terms: /fr/conditions/
-  art: /en/art/ # not translated yet: the English pages (content_langs in home.yml)
-  sites: /en/sites/
+  art: /fr/art/
+  sites: /fr/sites/
 
 nav_home: Accueil
 nav_cities: Villes
@@ -149,6 +149,47 @@ lm_more_in: "Plus à %c"
 lm_osm_title: "%l sur OpenStreetMap"
 lm_alt: "%l dans Instant %c"
 photo_credit: "Photo : %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
+
+# Les pages d'art (_layouts/art.html, artwork.html) et celles des sites (sites.html, site.html), voir en.yml.
+number_words: [zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix]
+art_title: "L’art célèbre en 3D : la Joconde, la Ronde de nuit et plus encore · Instant Cities"
+art_description: "%n peintures, statues et trésors célèbres dans les musées, églises et places d’Instant Cities, chacun avec son histoire et un lien qui vous place devant l’œuvre dans le jeu."
+art_h1: "L’art célèbre"
+art_tagline: "%n peintures, statues et trésors dans les musées et les églises où l’on peut entrer, et dehors sur les places, de la Joconde à l’Agneau mystique."
+art_lead: "Chaque œuvre est accrochée dans le jeu là où elle l’est dans la réalité. Lisez son histoire, puis placez-vous devant elle en 3D."
+art_hero_credit: "La Ronde de nuit, Rembrandt, 1642, domaine public, via Wikimedia Commons"
+art_museums_label: "Musées"
+art_more_about: "En savoir plus sur %m ›"
+art_go_there: "Y aller"
+art_walk_in: "Entrer"
+art_photos_footer: "Photos de Wikimedia Commons, avec leurs crédits sur la page de chaque œuvre."
+artwork_title: "%t, %a · %m en 3D · Instant Cities"
+art_see_3d: "Voir en 3D"
+art_stand_before: "Se placer devant en 3D ›"
+image_credit: "Image : %a, %l, via Wikimedia Commons"
+art_by: "De"
+art_when: "Date"
+art_made_of: "Matière"
+art_size: "Dimensions"
+art_where: "Où"
+art_go: "Y aller dans %g"
+art_all_in: "Toutes les œuvres : %m ›"
+art_more_art: "Plus d’art célèbre"
+art_all_pieces: "Les %n œuvres ›"
+sites_title: "Sites célèbres en 3D : %n lieux à explorer · Instant Cities"
+sites_description: "%n lieux célèbres que l’on peut parcourir à pied ou en course dans son navigateur, chacun avec sa carte, sa course et sa visite."
+sites_h1: "Sites célèbres"
+sites_tagline: "Des lieux qui ne sont pas des villes, des temples aux tombeaux, chacun avec une course, une visite et quelques quêtes."
+sites_lead: "La carte vient d’OpenStreetMap quand il en a une, et les monuments sont modélisés à la main."
+sites_visit: "Sites à visiter"
+site_what: "Ce que l’on peut faire"
+site_on_map: "Sur la carte"
+site_map_alt: "Un plan de %s avec %n lieux repérés"
+site_map_caption: "La carte du jeu lui-même. La ligne en pointillés est la course. Données cartographiques © contributeurs d’OpenStreetMap."
+site_about: "À propos de %s"
+site_read_more: "En savoir plus :"
+site_others: "Autres sites"
+site_all: "Tous les sites"
 map_label: "Carte du centre %d avec ses principaux lieux numérotés"
 map_caption: "Le centre %d, dessiné à partir des mêmes données OpenStreetMap que le jeu."
 map_osm: "Toute la ville sur OpenStreetMap"
