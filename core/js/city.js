@@ -21,3 +21,18 @@ export const MONUMENTS = [...(C.MONUMENTS ?? []), ...INSIDE.monuments];
 const own = C.SIGHTS ?? [];
 const SITE = (C.SITE_SIGHTS ?? []).filter(s => !own.some(o => Math.hypot(o.x - s.x, o.z - s.z) < o.r));
 export const SIGHTS = [...own, ...SITE, ...INSIDE.sights];
+// Where everybody goes on foot, whatever they ride (a city's ON_FOOT: flat [x, z, ...] rings, the
+// houses of Pompeii built to walk into on their own ground), as in the buildings of INSIDE.
+const FOOT = (C.ON_FOOT ?? []).map(p => {
+  const xs = p.filter((_, k) => !(k % 2)), zs = p.filter((_, k) => k % 2);
+  return { p, box: [Math.min(...xs), Math.min(...zs), Math.max(...xs), Math.max(...zs)] };
+});
+export function onFootAt(x, z) {
+  for (const { p, box } of FOOT) {
+    if (x < box[0] || z < box[1] || x > box[2] || z > box[3]) continue;
+    let c = false;
+    for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) if ((p[i + 1] > z) !== (p[j + 1] > z) && x < ((p[j] - p[i]) * (z - p[i + 1])) / (p[j + 1] - p[i + 1]) + p[i]) c = !c;
+    if (c) return true;
+  }
+  return false;
+}
