@@ -11,8 +11,9 @@ export { WATER, WADE } from './ground.js';
 export const STEP = 0.7; // how far a rider steps up in one go: more than that is a bridge overhead
 
 // ledges: more surfaces to step onto, each [ax, az, bx, bz, height at a, at b, half its width] (the
-// tram platforms, see tramstops.js).
-export function buildRelief(map, ledges = []) {
+// tram platforms, see tramstops.js). sunken(x, z): how far below the ground a street sunk into it
+// lies there (js/sunken.js).
+export function buildRelief(map, ledges = [], sunken = null) {
   const cells = new Map();
   const add = s => {
     const half = s[6];
@@ -34,11 +35,11 @@ export function buildRelief(map, ledges = []) {
       add(s);
     }
   }
-  if (!cells.size && !HOLLOWS.length) return null;
+  if (!cells.size && !HOLLOWS.length && !sunken) return null;
   return {
     // the highest surface at (x, z) no more than STEP above `from` (Infinity: the highest of all)
     at(x, z, from = Infinity) {
-      let h = sunk(x, z);
+      let h = sunk(x, z) + (sunken ? sunken(x, z) : 0);
       for (const [ax, az, bx, bz, ha, hb, half] of cells.get(key(Math.floor(x / CELL), Math.floor(z / CELL))) ?? []) {
         const dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9;
         const t = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / L));

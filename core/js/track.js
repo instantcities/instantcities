@@ -194,6 +194,9 @@ export class Track {
     const slabs = new THREE.MeshStandardMaterial({ map: theme.roman ? lavaTexture() : slabTexture(theme), roughness: 0.9 });
     const none = new THREE.MeshBasicMaterial({ visible: false });
     group.add(this.band(-hw, hw, y0 + 0.025, [asphalt(), asphalt({ centre: false }), sett, none, slabs].map(m => onGround(m, y0 + 0.025)), i => (this.paved?.[i] ? 3 : this.sett?.[i] === 2 ? 4 : this.sett?.[i] ? 2 : this.lineless?.[i] ? 1 : 0), 12, 1));
+    // a street sunk below the ground the houses stand on (theme.sunken, Pompeii): its walls, its
+    // pavements and the hole in the ground are the city's, with the other such streets (js/sunken.js)
+    if (theme.sunken) return;
     // pavements, opening up into asphalt where a side street comes in
     const pavement = new THREE.MeshStandardMaterial({ color: 0xffffff, map: theme.roman ? gravelTexture(theme.verge) : pavementTexture(theme.verge), roughness: 0.95 });
     const plain = asphalt({ centre: false, edges: false });
@@ -424,7 +427,7 @@ export function slabTexture(theme = {}) {
 export function lavaTexture() {
   const W = 256, H = 512, cols = 7, rows = 16, rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
   const t = canvasTexture(W, H, g => {
-    g.fillStyle = '#4f493f';
+    g.fillStyle = '#5a554c'; // the joints, filled with grit
     g.fillRect(0, 0, W, H);
     // a lattice of corners, each moved a good way off its place: the quads between are the blocks
     const cw = W / cols, ch = H / rows, px = [], py = [];
@@ -442,7 +445,7 @@ export function lavaTexture() {
       for (let i = -1; i < cols + 1; i++) {
         const a = Math.max(0, Math.min(cols, i)), b = Math.max(0, Math.min(cols, i + 1));
         if (a === b) continue;
-        const v = 70 + rnd() * 34, warm = rnd() * 12, shift = i < 0 ? -W : i >= cols ? W : 0;
+        const v = 56 + rnd() * 34, warm = rnd() * 8, shift = i < 0 ? -W : i >= cols ? W : 0; // dark grey basalt
         const pts = [[px[j][a], py[j][a]], [px[j][b], py[j][b]], [px[j + 1][b], py[j + 1][b]], [px[j + 1][a], py[j + 1][a]]];
         for (const o of [0, -W]) { // (drawn again a tile over where it runs off the edge)
           const dx = shift + o;
@@ -450,9 +453,9 @@ export function lavaTexture() {
           const cx = pts.reduce((s, p) => s + p[0], 0) / 4 + dx, cy = pts.reduce((s, p) => s + p[1], 0) / 4;
           pts.forEach(([x, y], k) => { const X = cx + (x + dx - cx) * 0.95, Y = cy + (y - cy) * 0.95; k ? g.lineTo(X, Y) : g.moveTo(X, Y); });
           g.closePath();
-          g.fillStyle = `rgb(${v + warm},${v + warm * 0.7},${v - 4})`;
+          g.fillStyle = `rgb(${v + warm},${v + warm * 0.8},${v + 2})`;
           g.fill();
-          g.fillStyle = 'rgba(210,200,180,0.13)'; // worn pale on top
+          g.fillStyle = 'rgba(210,205,195,0.09)'; // worn smooth on top
           g.fill();
         }
       }
@@ -472,6 +475,35 @@ export function lavaTexture() {
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   return t;
 }
+
+// The kerbstones of a Roman street: long blocks of dark basalt (lava), each a little lighter or darker
+// than the next, rounded and worn, with a pale bloom of lichen here and there. u runs along the
+// street (a tile is 8 m), v up the face or across the top.
+export function kerbTexture() {
+  const W = 512, H = 64, rnd = (() => { let s = 11; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
+  const t = canvasTexture(W, H, g => {
+    g.fillStyle = '#2f2d2a';
+    g.fillRect(0, 0, W, H);
+    for (let x = 0; x < W;) {
+      const len = Math.min(W - x, 40 + rnd() * 60), v = 66 + rnd() * 26;
+      g.fillStyle = `rgb(${v},${v - 2},${v - 5})`;
+      g.fillRect(x + 1.5, 1, len - 3, H - 2);
+      const shade = g.createLinearGradient(0, 0, 0, H); // rounded: darker at the edges
+      shade.addColorStop(0, 'rgba(0,0,0,0.25)'); shade.addColorStop(0.3, 'rgba(0,0,0,0)'); shade.addColorStop(0.8, 'rgba(0,0,0,0)'); shade.addColorStop(1, 'rgba(0,0,0,0.3)');
+      g.fillStyle = shade;
+      g.fillRect(x + 1.5, 1, len - 3, H - 2);
+      if (rnd() < 0.45) { // lichen
+        g.fillStyle = `rgba(${150 + rnd() * 30},${160 + rnd() * 25},${130 + rnd() * 20},0.22)`;
+        g.beginPath(); g.ellipse(x + len * (0.2 + rnd() * 0.6), H * (0.3 + rnd() * 0.5), len * 0.3, H * 0.3, 0, 0, Math.PI * 2); g.fill();
+      }
+      x += len;
+    }
+    for (let k = 0; k < 1500; k++) { g.fillStyle = rnd() < 0.5 ? 'rgba(0,0,0,0.18)' : 'rgba(200,195,185,0.12)'; g.fillRect(rnd() * W, rnd() * H, 1 + rnd() * 2, 1 + rnd()); }
+  });
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+export const KERB_TILE = 8;
 
 // The pavements of a Roman town: raised, laid with grit and gravel, no slabs.
 export function gravelTexture(color) {

@@ -115,7 +115,7 @@ export function getCity() {
   tileUp(group); // before the hills: they cut each tile's piece on its own, a lot less at once
   fitToHills(group);
   packNormals(group); // (after both: a quarter of the memory for the normals)
-  return (city = { ...scenery, group, relief: buildRelief(TRACKS[0].map, scenery.ledges) });
+  return (city = { ...scenery, group, relief: buildRelief(TRACKS[0].map, scenery.ledges, scenery.sunken) });
 }
 
 function getWorld(i) {
@@ -128,6 +128,8 @@ function getWorld(i) {
   t.mouths = findMouths(t, cfg.map.roads, cfg.theme.pavement ?? 3.4);
   // bridges: the route climbs over them, and so does anyone riding about
   if (cfg.map.rise && !t.rise) t.setRise(cfg.map.rise);
+  // a street sunk below the ground the houses stand on (js/sunken.js): the route lies that much lower
+  if (cfg.theme.sunken && !t.rise) t.rise = new Float32Array(t.n).fill(-cfg.theme.sunken);
   if (cfg.map.sett && !t.sett) t.setSett(cfg.map.sett);
   // across a car-free square the road is its stones: no kerbs, no lines, nobody parked
   t.paved ??= t.points.map(p => !!squareAt(p.x, p.z));
