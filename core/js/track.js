@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { onGround } from './ground.js';
 
 const N = 2000;
+const NONE = new THREE.MeshBasicMaterial({ visible: false });
 const RUN_UP = 25; // an open route: metres from its start to the start line
 const RUN_OUT = 60; // and from the finish line to its end
 
@@ -196,6 +197,10 @@ export class Track {
     group.add(this.band(-hw, hw, y0 + 0.025, [asphalt(), asphalt({ centre: false }), sett, none, slabs].map(m => onGround(m, y0 + 0.025)), i => (this.paved?.[i] ? 3 : this.sett?.[i] === 2 ? 4 : this.sett?.[i] ? 2 : this.lineless?.[i] ? 1 : 0), 12, 1));
     // pavements, opening up into asphalt where a side street comes in
     const pavement = new THREE.MeshStandardMaterial({ color: 0xffffff, map: theme.roman ? gravelTexture(theme.verge) : pavementTexture(theme.verge), roughness: 0.95 });
+    if (theme.raised) {
+      this.raisedPavements(group, theme, pavement, open);
+      return; // no lamps along a street such as this
+    }
     const plain = asphalt({ centre: false, edges: false });
     for (const side of [1, -1]) {
       const [a, b] = side > 0 ? [hw - 0.05, hw + pav] : [-hw - pav, -hw + 0.05];
@@ -281,6 +286,75 @@ export class Track {
     this.lampHead.emissive.set(on ? 0xffd38a : 0x6b6040);
     this.lampHead.emissiveIntensity = on ? 2.2 : 1;
     this.lampGlow.visible = on;
+  }
+
+  // The pavements of a Roman street (theme.raised: how high), up on a step above the road as high as
+  // a knee, edged with long kerbstones of basalt: a kerbstone's top along the road, then the gravel,
+  // and the step's face down to the road and down to the ground behind. Where a side street comes in
+  // the pavement stops, with a face across its end. this.ledges: the pavements as surfaces to step up
+  // onto (js/relief.js), each a piece of a few samples, [ax, az, bx, bz, height at a, at b, half width].
+  raisedPavements(group, theme, pavement, open) {
+    const hw = this.hw, pav = theme.pavement ?? 3.4, H = theme.raised, y0 = theme.lift ?? 0, K = 0.36, n = this.quads;
+    const kerbMat = new THREE.MeshStandardMaterial({ map: kerbTexture(), roughness: 0.85 });
+    const top = (a, b, y, m, keep) => group.add(this.band(a, b, y, [m, NONE].map(x => x === NONE ? x : onGround(x, y)), i => (keep(i) ? 0 : 1), KERB_TILE, 1));
+    const faces = [], add = (x0, z0, x1, z1, ya, yb, u0, u1) => faces.push([x0, ya, z0, x1, ya, z1, x1, yb, z1, x0, yb, z0, u0, u1, yb - ya]);
+    this.ledges = [];
+    for (const side of [1, -1]) {
+      const keep = i => !open(this.wrap(i), side) && !(this.open && i >= this.n - 1);
+      const [a, b] = side > 0 ? [hw, hw + pav] : [-hw - pav, -hw];
+      const [ka, kb] = side > 0 ? [hw, hw + K] : [-hw - K, -hw];
+      top(ka, kb, y0 + H + 0.004, kerbMat, keep);
+      top(side > 0 ? hw + K : -hw - pav, side > 0 ? hw + pav : -hw - K, y0 + H, pavement, keep);
+      const at = (i, off) => { const p = this.points[this.wrap(i)], m = this.normals[this.wrap(i)]; return [p.x + m.x * off, p.z + m.z * off]; };
+      const inner = side * hw, outer = side * (hw + pav);
+      let run = -1;
+      for (let i = 0; i <= n; i++) {
+        const k = i < n && keep(i);
+        const h = y0 + this.riseAt(i);
+        if (k) {
+          // the faces: towards the road, and towards the ground behind
+          for (const off of [inner, outer]) {
+            const [x0, z0] = at(i, off), [x1, z1] = at(i + 1, off), u = (i * this.spacing) / KERB_TILE;
+            // wound so the face looks out: to the road for the inner, away from it for the outer
+            if ((off === inner) === side > 0) add(x0, z0, x1, z1, h - 0.05, h + H, u, u + this.spacing / KERB_TILE);
+            else add(x1, z1, x0, z0, h - 0.05, h + H, u + this.spacing / KERB_TILE, u);
+          }
+          if (run < 0) run = i;
+        }
+        // across the ends of a piece: facing back at its start, on at its end
+        const before = i > 0 ? keep(i - 1) : !this.open && keep(n - 1), after = i < n ? keep(i) : !this.open && keep(0);
+        if (before !== after) {
+          const [x0, z0] = at(i, inner), [x1, z1] = at(i, outer);
+          if ((side > 0) !== after) add(x0, z0, x1, z1, h - 0.05, h + H, 0, pav / KERB_TILE);
+          else add(x1, z1, x0, z0, h - 0.05, h + H, 0, pav / KERB_TILE);
+        }
+        if (!k && run >= 0) {
+          // in pieces of 3 samples, drawn in at the ends by half the pavement's width (as far as a
+          // ledge reaches round its ends), unless the pavement runs on round the loop
+          const pull = Math.ceil(pav / 2 / this.spacing);
+          const a = run + (run === 0 && !this.open && keep(n - 1) ? 0 : pull), b = i - (i === n && !this.open && keep(0) ? 0 : pull);
+          for (let s = a; s < b; s += 3) {
+            const e = Math.min(b, s + 3), [ax, az] = at(s, side * (hw + pav / 2)), [bx, bz] = at(e, side * (hw + pav / 2));
+            this.ledges.push([ax, az, bx, bz, y0 + H + this.riseAt(s), y0 + H + this.riseAt(e), pav / 2]);
+          }
+          run = -1;
+        }
+      }
+    }
+    // the faces as one mesh
+    const pos = new Float32Array(faces.length * 18), uv = new Float32Array(faces.length * 12);
+    faces.forEach(([x0, y0_, z0, x1, , z1, , y1], k) => {
+      const [u0, u1, tall] = faces[k].slice(12), v = tall / (KERB_TILE / 8);
+      pos.set([x0, y0_, z0, x1, y0_, z1, x1, y1, z1, x0, y0_, z0, x1, y1, z1, x0, y1, z0], k * 18);
+      uv.set([u0, 0, u1, 0, u1, v, u0, 0, u1, v, u0, v], k * 12);
+    });
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    geo.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
+    geo.computeVertexNormals();
+    const mesh = new THREE.Mesh(geo, kerbMat);
+    mesh.receiveShadow = mesh.castShadow = true;
+    group.add(mesh);
   }
 
   kerb(curve, length, material, closed) {
@@ -424,7 +498,7 @@ export function slabTexture(theme = {}) {
 export function lavaTexture() {
   const W = 256, H = 512, cols = 7, rows = 16, rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
   const t = canvasTexture(W, H, g => {
-    g.fillStyle = '#4f493f';
+    g.fillStyle = '#5a554c'; // the joints, filled with grit
     g.fillRect(0, 0, W, H);
     // a lattice of corners, each moved a good way off its place: the quads between are the blocks
     const cw = W / cols, ch = H / rows, px = [], py = [];
@@ -442,7 +516,7 @@ export function lavaTexture() {
       for (let i = -1; i < cols + 1; i++) {
         const a = Math.max(0, Math.min(cols, i)), b = Math.max(0, Math.min(cols, i + 1));
         if (a === b) continue;
-        const v = 70 + rnd() * 34, warm = rnd() * 12, shift = i < 0 ? -W : i >= cols ? W : 0;
+        const v = 56 + rnd() * 34, warm = rnd() * 8, shift = i < 0 ? -W : i >= cols ? W : 0; // dark grey basalt
         const pts = [[px[j][a], py[j][a]], [px[j][b], py[j][b]], [px[j + 1][b], py[j + 1][b]], [px[j + 1][a], py[j + 1][a]]];
         for (const o of [0, -W]) { // (drawn again a tile over where it runs off the edge)
           const dx = shift + o;
@@ -450,9 +524,9 @@ export function lavaTexture() {
           const cx = pts.reduce((s, p) => s + p[0], 0) / 4 + dx, cy = pts.reduce((s, p) => s + p[1], 0) / 4;
           pts.forEach(([x, y], k) => { const X = cx + (x + dx - cx) * 0.95, Y = cy + (y - cy) * 0.95; k ? g.lineTo(X, Y) : g.moveTo(X, Y); });
           g.closePath();
-          g.fillStyle = `rgb(${v + warm},${v + warm * 0.7},${v - 4})`;
+          g.fillStyle = `rgb(${v + warm},${v + warm * 0.8},${v + 2})`;
           g.fill();
-          g.fillStyle = 'rgba(210,200,180,0.13)'; // worn pale on top
+          g.fillStyle = 'rgba(210,205,195,0.09)'; // worn smooth on top
           g.fill();
         }
       }
@@ -472,6 +546,35 @@ export function lavaTexture() {
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   return t;
 }
+
+// The kerbstones of a Roman street: long blocks of dark basalt (lava), each a little lighter or darker
+// than the next, rounded and worn, with a pale bloom of lichen here and there. u runs along the
+// street (a tile is 8 m), v up the face or across the top.
+export function kerbTexture() {
+  const W = 512, H = 64, rnd = (() => { let s = 11; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
+  const t = canvasTexture(W, H, g => {
+    g.fillStyle = '#2f2d2a';
+    g.fillRect(0, 0, W, H);
+    for (let x = 0; x < W;) {
+      const len = Math.min(W - x, 40 + rnd() * 60), v = 66 + rnd() * 26;
+      g.fillStyle = `rgb(${v},${v - 2},${v - 5})`;
+      g.fillRect(x + 1.5, 1, len - 3, H - 2);
+      const shade = g.createLinearGradient(0, 0, 0, H); // rounded: darker at the edges
+      shade.addColorStop(0, 'rgba(0,0,0,0.25)'); shade.addColorStop(0.3, 'rgba(0,0,0,0)'); shade.addColorStop(0.8, 'rgba(0,0,0,0)'); shade.addColorStop(1, 'rgba(0,0,0,0.3)');
+      g.fillStyle = shade;
+      g.fillRect(x + 1.5, 1, len - 3, H - 2);
+      if (rnd() < 0.45) { // lichen
+        g.fillStyle = `rgba(${150 + rnd() * 30},${160 + rnd() * 25},${130 + rnd() * 20},0.22)`;
+        g.beginPath(); g.ellipse(x + len * (0.2 + rnd() * 0.6), H * (0.3 + rnd() * 0.5), len * 0.3, H * 0.3, 0, 0, Math.PI * 2); g.fill();
+      }
+      x += len;
+    }
+    for (let k = 0; k < 1500; k++) { g.fillStyle = rnd() < 0.5 ? 'rgba(0,0,0,0.18)' : 'rgba(200,195,185,0.12)'; g.fillRect(rnd() * W, rnd() * H, 1 + rnd() * 2, 1 + rnd()); }
+  });
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+export const KERB_TILE = 8;
 
 // The pavements of a Roman town: raised, laid with grit and gravel, no slabs.
 export function gravelTexture(color) {

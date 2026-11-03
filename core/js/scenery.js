@@ -20,6 +20,7 @@ import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
 import { addSitters } from './sitters.js';
+import { raisedSidewalks, sidewalkStreet } from './sidewalks.js';
 import { Kit, kitMat } from './kit.js';
 import { addFurniture, furnitureNight } from './furniture.js';
 import { italianUpper, italianGround } from './italian.js';
@@ -2037,9 +2038,10 @@ function osmGround(ctx, map, m) {
   const kerbs = new Batch(), asphalt = new Batch(), setts = new Batch(), slabs = new Batch(), foot = new Batch(), sides = new Batch(), iron = new Batch();
   const footSetts = new Batch(), footSlabs = new Batch(), bike = new Batch();
   const bikeNames = new Set((BIKE_STREETS ?? []).map(n => map.names.indexOf(n)));
+  const roman = ctx.theme.raised ? sidewalkStreet(map) : null; // a Roman street is of lava blocks, whatever the map says
   for (const rd of map.roads) {
     const up = rd.br ? 0.03 : 0; // a bridge's deck over the ends of the streets leading onto it
-    if (rd.foot && !rd.c) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
+    if (rd.foot && !rd.c && !(roman && roman(rd))) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
     else if (rd.foot) groundStrip(rd.c === 2 ? footSlabs : footSetts, rd.p, rd.w, (rd.c === 2 ? GROUND.footSlabs : GROUND.footSetts) + up, 6, rd.y);
     else {
       groundStrip(kerbs, rd.p, rd.w + (rd.bay ? 2 * BAY_WIDTH : 2.6), GROUND.kerbs + up, 3, rd.y); // a bay street has its parking bays paved either side
@@ -2734,6 +2736,8 @@ export function buildCity(group, tracks, cfg) {
   ground(ctx);
   const mats = groundMats(ctx);
   osmGround(ctx, map, mats);
+  // the Roman streets' pavements, a step above the street (js/sidewalks.js)
+  const sidewalks = ctx.theme.raised ? raisedSidewalks(ctx.group, map, ctx.theme.raised, ctx.track, ctx.theme.pavement ?? 3.4, mats.pavement) : [];
   bankSheep(ctx, map);
   const trams = addTrams(ctx, map.trams, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES);
   addStops(ctx, STOPS);
@@ -2749,7 +2753,7 @@ export function buildCity(group, tracks, cfg) {
   const posts = addFurniture(ctx, map);
   clouds(ctx);
   return {
-    clear: ctx.clear, update: ctx.update, traffic, trams, ledges, posts, targets: ctx.targets, setNight: furnitureNight,
+    clear: ctx.clear, update: ctx.update, traffic, trams, ledges: [...(ledges ?? []), ...sidewalks], posts, targets: ctx.targets, setNight: furnitureNight,
     paintSky, cloudMat: ctx.cloudMat, grass: [ctx.groundPlane.material, mats.garden, mats.park], // what snow covers
   };
 }

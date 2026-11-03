@@ -36,6 +36,8 @@ export function buildRelief(map, ledges = []) {
   }
   if (!cells.size && !HOLLOWS.length) return null;
   return {
+    // more ledges, once the city is built (the raised pavements along a race route, js/track.js)
+    add(list) { for (const s of list) add(s); },
     // the highest surface at (x, z) no more than STEP above `from` (Infinity: the highest of all)
     at(x, z, from = Infinity) {
       let h = sunk(x, z);

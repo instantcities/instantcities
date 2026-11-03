@@ -17,6 +17,7 @@ import { ID, BUSY, QUESTS, SIGHTS, THEME, RUNS, CHARACTERS, MONUMENTS, TOUR } fr
 import { infoPage } from '../info-links.js';
 import { inPolygon } from '../collide.js';
 import { buildRelief } from '../relief.js';
+import { sidewalkStreet, sidewalkWidth } from '../sidewalks.js';
 import { fitToHills } from '../terrain.js';
 import { squareAt } from '../squares.js';
 import { atmosphere, isNight, snowCover } from '../weather.js';
@@ -125,7 +126,7 @@ function getWorld(i) {
   group.visible = false;
   // one-way streets: cars along both kerbs, kept clear where something stands across the whole street
   // real streets: openings where side streets come in, and no centre line along one-way stretches
-  t.mouths = findMouths(t, cfg.map.roads, cfg.theme.pavement ?? 3.4);
+  t.mouths = findMouths(t, cfg.map.roads, cfg.theme.pavement ?? 3.4, cfg.theme.raised ? { streets: sidewalkStreet(cfg.map), walk: sidewalkWidth } : {});
   // bridges: the route climbs over them, and so does anyone riding about
   if (cfg.map.rise && !t.rise) t.setRise(cfg.map.rise);
   if (cfg.map.sett && !t.sett) t.setSett(cfg.map.sett);
@@ -137,7 +138,9 @@ function getWorld(i) {
     t.lineless = t.parking.lineless;
   }
   t.build(group, cfg.theme);
-  const arrows = t.mouths ? buildArrows(group, t, t.mouths) : null;
+  if (t.ledges && !t.ledgesIn) { relief?.add(t.ledges); t.ledgesIn = true; } // up onto its raised pavements
+  // (no arrows at the Roman side streets: there were none before they opened the pavements)
+  const arrows = t.mouths ? buildArrows(group, t, { ...t.mouths, list: t.mouths.list.filter(m => !m.foot) }) : null;
   t.setBanner(t_('banner'), t_('bannerStart'));
   const scenery = buildScenery(group, t, cfg, getCity());
   tileUp(group); // its trees and parked bikes
