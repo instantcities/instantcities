@@ -17,7 +17,6 @@ import { ID, BUSY, QUESTS, SIGHTS, THEME, RUNS, CHARACTERS, MONUMENTS, TOUR } fr
 import { infoPage } from '../info-links.js';
 import { inPolygon } from '../collide.js';
 import { buildRelief } from '../relief.js';
-import { sidewalkStreet, sidewalkWidth } from '../sidewalks.js';
 import { fitToHills } from '../terrain.js';
 import { squareAt } from '../squares.js';
 import { atmosphere, isNight, snowCover } from '../weather.js';
@@ -116,7 +115,7 @@ export function getCity() {
   tileUp(group); // before the hills: they cut each tile's piece on its own, a lot less at once
   fitToHills(group);
   packNormals(group); // (after both: a quarter of the memory for the normals)
-  return (city = { ...scenery, group, relief: buildRelief(TRACKS[0].map, scenery.ledges) });
+  return (city = { ...scenery, group, relief: buildRelief(TRACKS[0].map, scenery.ledges, scenery.sunken) });
 }
 
 function getWorld(i) {
@@ -126,9 +125,11 @@ function getWorld(i) {
   group.visible = false;
   // one-way streets: cars along both kerbs, kept clear where something stands across the whole street
   // real streets: openings where side streets come in, and no centre line along one-way stretches
-  t.mouths = findMouths(t, cfg.map.roads, cfg.theme.pavement ?? 3.4, cfg.theme.raised ? { streets: sidewalkStreet(cfg.map), walk: sidewalkWidth } : {});
+  t.mouths = findMouths(t, cfg.map.roads, cfg.theme.pavement ?? 3.4);
   // bridges: the route climbs over them, and so does anyone riding about
   if (cfg.map.rise && !t.rise) t.setRise(cfg.map.rise);
+  // a street sunk below the ground the houses stand on (js/sunken.js): the route lies that much lower
+  if (cfg.theme.sunken && !t.rise) t.rise = new Float32Array(t.n).fill(-cfg.theme.sunken);
   if (cfg.map.sett && !t.sett) t.setSett(cfg.map.sett);
   // across a car-free square the road is its stones: no kerbs, no lines, nobody parked
   t.paved ??= t.points.map(p => !!squareAt(p.x, p.z));
@@ -138,9 +139,7 @@ function getWorld(i) {
     t.lineless = t.parking.lineless;
   }
   t.build(group, cfg.theme);
-  if (t.ledges && !t.ledgesIn) { relief?.add(t.ledges); t.ledgesIn = true; } // up onto its raised pavements
-  // (no arrows at the Roman side streets: there were none before they opened the pavements)
-  const arrows = t.mouths ? buildArrows(group, t, { ...t.mouths, list: t.mouths.list.filter(m => !m.foot) }) : null;
+  const arrows = t.mouths ? buildArrows(group, t, t.mouths) : null;
   t.setBanner(t_('banner'), t_('bannerStart'));
   const scenery = buildScenery(group, t, cfg, getCity());
   tileUp(group); // its trees and parked bikes

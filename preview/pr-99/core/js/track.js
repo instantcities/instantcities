@@ -2,7 +2,6 @@ import * as THREE from 'three';
 import { onGround } from './ground.js';
 
 const N = 2000;
-const NONE = new THREE.MeshBasicMaterial({ visible: false });
 const RUN_UP = 25; // an open route: metres from its start to the start line
 const RUN_OUT = 60; // and from the finish line to its end
 
@@ -195,12 +194,11 @@ export class Track {
     const slabs = new THREE.MeshStandardMaterial({ map: theme.roman ? lavaTexture() : slabTexture(theme), roughness: 0.9 });
     const none = new THREE.MeshBasicMaterial({ visible: false });
     group.add(this.band(-hw, hw, y0 + 0.025, [asphalt(), asphalt({ centre: false }), sett, none, slabs].map(m => onGround(m, y0 + 0.025)), i => (this.paved?.[i] ? 3 : this.sett?.[i] === 2 ? 4 : this.sett?.[i] ? 2 : this.lineless?.[i] ? 1 : 0), 12, 1));
+    // a street sunk below the ground the houses stand on (theme.sunken, Pompeii): its walls, its
+    // pavements and the hole in the ground are the city's, with the other such streets (js/sunken.js)
+    if (theme.sunken) return;
     // pavements, opening up into asphalt where a side street comes in
     const pavement = new THREE.MeshStandardMaterial({ color: 0xffffff, map: theme.roman ? gravelTexture(theme.verge) : pavementTexture(theme.verge), roughness: 0.95 });
-    if (theme.raised) {
-      this.raisedPavements(group, theme, pavement, open);
-      return; // no lamps along a street such as this
-    }
     const plain = asphalt({ centre: false, edges: false });
     for (const side of [1, -1]) {
       const [a, b] = side > 0 ? [hw - 0.05, hw + pav] : [-hw - pav, -hw + 0.05];
@@ -286,75 +284,6 @@ export class Track {
     this.lampHead.emissive.set(on ? 0xffd38a : 0x6b6040);
     this.lampHead.emissiveIntensity = on ? 2.2 : 1;
     this.lampGlow.visible = on;
-  }
-
-  // The pavements of a Roman street (theme.raised: how high), up on a step above the road as high as
-  // a knee, edged with long kerbstones of basalt: a kerbstone's top along the road, then the gravel,
-  // and the step's face down to the road and down to the ground behind. Where a side street comes in
-  // the pavement stops, with a face across its end. this.ledges: the pavements as surfaces to step up
-  // onto (js/relief.js), each a piece of a few samples, [ax, az, bx, bz, height at a, at b, half width].
-  raisedPavements(group, theme, pavement, open) {
-    const hw = this.hw, pav = theme.pavement ?? 3.4, H = theme.raised, y0 = theme.lift ?? 0, K = 0.36, n = this.quads;
-    const kerbMat = new THREE.MeshStandardMaterial({ map: kerbTexture(), roughness: 0.85 });
-    const top = (a, b, y, m, keep) => group.add(this.band(a, b, y, [m, NONE].map(x => x === NONE ? x : onGround(x, y)), i => (keep(i) ? 0 : 1), KERB_TILE, 1));
-    const faces = [], add = (x0, z0, x1, z1, ya, yb, u0, u1) => faces.push([x0, ya, z0, x1, ya, z1, x1, yb, z1, x0, yb, z0, u0, u1, yb - ya]);
-    this.ledges = [];
-    for (const side of [1, -1]) {
-      const keep = i => !open(this.wrap(i), side) && !(this.open && i >= this.n - 1);
-      const [a, b] = side > 0 ? [hw, hw + pav] : [-hw - pav, -hw];
-      const [ka, kb] = side > 0 ? [hw, hw + K] : [-hw - K, -hw];
-      top(ka, kb, y0 + H + 0.004, kerbMat, keep);
-      top(side > 0 ? hw + K : -hw - pav, side > 0 ? hw + pav : -hw - K, y0 + H, pavement, keep);
-      const at = (i, off) => { const p = this.points[this.wrap(i)], m = this.normals[this.wrap(i)]; return [p.x + m.x * off, p.z + m.z * off]; };
-      const inner = side * hw, outer = side * (hw + pav);
-      let run = -1;
-      for (let i = 0; i <= n; i++) {
-        const k = i < n && keep(i);
-        const h = y0 + this.riseAt(i);
-        if (k) {
-          // the faces: towards the road, and towards the ground behind
-          for (const off of [inner, outer]) {
-            const [x0, z0] = at(i, off), [x1, z1] = at(i + 1, off), u = (i * this.spacing) / KERB_TILE;
-            // wound so the face looks out: to the road for the inner, away from it for the outer
-            if ((off === inner) === side > 0) add(x0, z0, x1, z1, h - 0.05, h + H, u, u + this.spacing / KERB_TILE);
-            else add(x1, z1, x0, z0, h - 0.05, h + H, u + this.spacing / KERB_TILE, u);
-          }
-          if (run < 0) run = i;
-        }
-        // across the ends of a piece: facing back at its start, on at its end
-        const before = i > 0 ? keep(i - 1) : !this.open && keep(n - 1), after = i < n ? keep(i) : !this.open && keep(0);
-        if (before !== after) {
-          const [x0, z0] = at(i, inner), [x1, z1] = at(i, outer);
-          if ((side > 0) !== after) add(x0, z0, x1, z1, h - 0.05, h + H, 0, pav / KERB_TILE);
-          else add(x1, z1, x0, z0, h - 0.05, h + H, 0, pav / KERB_TILE);
-        }
-        if (!k && run >= 0) {
-          // in pieces of 3 samples, drawn in at the ends by half the pavement's width (as far as a
-          // ledge reaches round its ends), unless the pavement runs on round the loop
-          const pull = Math.ceil(pav / 2 / this.spacing);
-          const a = run + (run === 0 && !this.open && keep(n - 1) ? 0 : pull), b = i - (i === n && !this.open && keep(0) ? 0 : pull);
-          for (let s = a; s < b; s += 3) {
-            const e = Math.min(b, s + 3), [ax, az] = at(s, side * (hw + pav / 2)), [bx, bz] = at(e, side * (hw + pav / 2));
-            this.ledges.push([ax, az, bx, bz, y0 + H + this.riseAt(s), y0 + H + this.riseAt(e), pav / 2]);
-          }
-          run = -1;
-        }
-      }
-    }
-    // the faces as one mesh
-    const pos = new Float32Array(faces.length * 18), uv = new Float32Array(faces.length * 12);
-    faces.forEach(([x0, y0_, z0, x1, , z1, , y1], k) => {
-      const [u0, u1, tall] = faces[k].slice(12), v = tall / (KERB_TILE / 8);
-      pos.set([x0, y0_, z0, x1, y0_, z1, x1, y1, z1, x0, y0_, z0, x1, y1, z1, x0, y1, z0], k * 18);
-      uv.set([u0, 0, u1, 0, u1, v, u0, 0, u1, v, u0, v], k * 12);
-    });
-    const geo = new THREE.BufferGeometry();
-    geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-    geo.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
-    geo.computeVertexNormals();
-    const mesh = new THREE.Mesh(geo, kerbMat);
-    mesh.receiveShadow = mesh.castShadow = true;
-    group.add(mesh);
   }
 
   kerb(curve, length, material, closed) {
