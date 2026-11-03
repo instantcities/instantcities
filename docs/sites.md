@@ -43,6 +43,13 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   `modern: true` draws the buildings outside the town wall (`wall`) that have no historic tag (the
   town of Pompei today, the station, the site's entrances) as the houses of an Italian town, with
   their storeys and roofs, not as ruins; the tombs and villas outside the gates stay ruins.
+  `town` marks the town of today round the site: `ring` (of `[lat, lon]`) is where it is (in Pompeii
+  south of Via Plinio and Via Roma, and east of the amphitheatre). Its streets are drawn as today's,
+  asphalt with concrete pavements, not lava blocks sunk into the ground; its ground is yards and
+  gardens (an area of kind `town`), its parks are green grass and its car parks paved, not the dust of
+  the dig. Its streets also get rows of houses where OpenStreetMap has none, one along the street and
+  one behind it where the block is deep: `front` and `depth` (`[least, most]` metres) are a house's
+  size, `floors` its storeys, `seed` the dice.
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).

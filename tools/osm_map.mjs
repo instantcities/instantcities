@@ -56,6 +56,14 @@ function addStreets(data, area) {
   }
 }
 
+// plane geometry for the fills below: a point in a polygon ([[x, z]]), a flat list of x, z as pairs,
+// its bounding box, a point's distance to a segment, and whether two segments cross
+const inside = (x, z, poly) => { let hit = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) hit = !hit; } return hit; };
+const pairs = p => Array.from({ length: p.length / 2 }, (_, i) => [p[2 * i], p[2 * i + 1]]);
+const box = p => { const xs = p.filter((_, i) => !(i % 2)), zs = p.filter((_, i) => i % 2); return [Math.min(...xs), Math.min(...zs), Math.max(...xs), Math.max(...zs)]; };
+const segDist = (px, pz, ax, az, bx, bz) => { const dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9, t = Math.max(0, Math.min(1, ((px - ax) * dx + (pz - az) * dz) / L)); return Math.hypot(px - ax - t * dx, pz - az - t * dz); };
+const cross = (a, b, c, d) => { const o = (p, q, r) => Math.sign((q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])); return o(a, b, c) !== o(a, b, d) && o(c, d, a) !== o(c, d, b); };
+
 // Houses to fill the gaps in a walled town whose excavated blocks OpenStreetMap maps only in part
 // (area.fill: { wall (the way id of the town wall), angle (degrees: how the town's lots are turned),
 // lot ([width, depth] metres), gap, clear (metres kept clear beside a street), skip (the share of lots left empty), seed, exclude ([[x, z, r]] in game metres: squares and gardens left
@@ -70,11 +78,6 @@ function fillBlocks(map, area, data) {
   if (!f || !g) return 0;
   const toGame = n => [(n.lon - g.lon) * g.kx * g.s - g.cx, -(n.lat - g.lat) * g.kz * g.s - g.cz];
   const wall = data.ways.find(w => w.id === f.wall).nodes.map(i => toGame(data.nodes[i]));
-  const inside = (x, z, poly) => { let hit = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) hit = !hit; } return hit; };
-  const pairs = p => Array.from({ length: p.length / 2 }, (_, i) => [p[2 * i], p[2 * i + 1]]);
-  const box = p => { const xs = p.filter((_, i) => !(i % 2)), zs = p.filter((_, i) => i % 2); return [Math.min(...xs), Math.min(...zs), Math.max(...xs), Math.max(...zs)]; };
-  const segDist = (px, pz, ax, az, bx, bz) => { const dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9, t = Math.max(0, Math.min(1, ((px - ax) * dx + (pz - az) * dz) / L)); return Math.hypot(px - ax - t * dx, pz - az - t * dz); };
-  const cross = (a, b, c, d) => { const o = (p, q, r) => Math.sign((q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])); return o(a, b, c) !== o(a, b, d) && o(c, d, a) !== o(c, d, b); };
   const roads = map.roads.map(rd => ({ p: rd.p, half: rd.w / 2 + (f.clear ?? 2.2), b: box(rd.p) }));
   // the buildings there already, by their outlines (a lot may stand in the corner a turned one leaves)
   const built = map.buildings.map(b => ({ poly: pairs(b.p), b: box(b.p) }));
@@ -170,6 +173,84 @@ function fillBlocks(map, area, data) {
   return added;
 }
 
+// The town of today round a ruined one (area.fill.town: { ring (of [lat, lon]: where it is), front
+// ([least, most] metres: how wide a house is along its street), depth ([least, most]), floors
+// ([least, most]), seed }; needs geo). Its streets, areas and ground are marked as of today (m: 1:
+// asphalt and pavements, not lava blocks and grit, js/scenery.js), the ring itself becomes an area of
+// kind 'town' (the ground between the houses, paved and with gardens, not the dust of the dig), and
+// its streets get rows of houses along them where OpenStreetMap has none, of a few storeys, side by
+// side behind the pavement, each one clear of the streets, the buildings there and the parks.
+function fillTown(map, area) {
+  const t = area.fill?.town, g = map.geo;
+  if (!t || !g) return 0;
+  const toGame = ([lat, lon]) => [(lon - g.lon) * g.kx * g.s - g.cx, -(lat - g.lat) * g.kz * g.s - g.cz];
+  const ring = t.ring.map(toGame), rb = box(ring.flat());
+  const inTown = (x, z) => x > rb[0] && x < rb[2] && z > rb[1] && z < rb[3] && inside(x, z, ring);
+  const mid = p => { const q = pairs(p); return q.reduce(([a, b], [x, z]) => [a + x / q.length, b + z / q.length], [0, 0]); };
+  // a street is of today if half its points or more are in the town
+  for (const rd of map.roads) { const q = pairs(rd.p); if (q.filter(([x, z]) => inTown(x, z)).length * 2 >= q.length) rd.m = 1; }
+  for (const a of map.areas) if (inTown(...mid(a.p))) a.m = 1;
+  map.areas.unshift({ k: 'town', p: ring.flat().map(v => Math.round(v * 10) / 10), m: 1 });
+
+  let seed = t.seed ?? 1;
+  const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+  const pick = ([a, b]) => a + (b - a) * rnd();
+  const roads = map.roads.map(rd => ({ p: rd.p, half: rd.w / 2 + (rd.foot ? 0.6 : 1.4), b: box(rd.p) }));
+  const built = map.buildings.map(b => ({ poly: pairs(b.p), b: box(b.p) }));
+  const open = map.areas.filter(a => ['green', 'wood', 'water', 'pitch', 'paved'].includes(a.k)).map(a => ({ poly: pairs(a.p), b: box(a.p) }));
+  // whether a house (four corners) stands clear of everything; side by side with a house is fine
+  const fits = pts => {
+    const bx = box(pts.flat());
+    const samples = [...pts, ...pts.map((p, i) => [(p[0] + pts[(i + 1) % 4][0]) / 2, (p[1] + pts[(i + 1) % 4][1]) / 2]), [(pts[0][0] + pts[2][0]) / 2, (pts[0][1] + pts[2][1]) / 2]];
+    if (!samples.every(([x, z]) => inTown(x, z))) return false;
+    // shrunk by 20 cm, so that it may touch the house next door but not stand in it
+    const c = samples.at(-1), shrunk = pts.map(([x, z]) => { const dx = c[0] - x, dz = c[1] - z, L = Math.hypot(dx, dz) || 1; return [x + (dx / L) * 0.3, z + (dz / L) * 0.3]; });
+    const near = bd => bd.b[0] < bx[2] && bd.b[2] > bx[0] && bd.b[1] < bx[3] && bd.b[3] > bx[1];
+    const hits = bd => near(bd) && (shrunk.some(([x, z]) => inside(x, z, bd.poly)) || bd.poly.some(([x, z]) => inside(x, z, shrunk))
+      || bd.poly.some((p, i) => shrunk.some((q, j) => cross(p, bd.poly[(i + 1) % bd.poly.length], q, shrunk[(j + 1) % 4]))));
+    if (built.some(hits) || open.some(hits)) return false;
+    for (const rd of roads) {
+      if (bx[2] < rd.b[0] - rd.half || bx[0] > rd.b[2] + rd.half || bx[3] < rd.b[1] - rd.half || bx[1] > rd.b[3] + rd.half) continue;
+      for (let k = 0; k + 3 < rd.p.length; k += 2) {
+        const a = [rd.p[k], rd.p[k + 1]], b = [rd.p[k + 2], rd.p[k + 3]];
+        if (samples.some(([x, z]) => segDist(x, z, a[0], a[1], b[0], b[1]) < rd.half) || inside(a[0], a[1], pts) || pts.some((q, j) => cross(a, b, q, pts[(j + 1) % 4]))) return false;
+      }
+    }
+    return true;
+  };
+  let added = 0;
+  // a row along each street, then where the blocks are deep a second one behind it, with more gaps
+  // in it (yards and gardens)
+  const deep = (t.depth ?? [10, 15])[1] + 3;
+  for (const [row, gaps] of [[0, 0.15], [deep, 0.4]]) for (const rd of map.roads) {
+    if (!rd.m || rd.foot || rd.w > 16) continue;
+    const back = rd.w / 2 + 1.5 + row; // the front: behind the kerb and the pavement
+    for (const side of [1, -1]) {
+      for (let k = 0; k + 3 < rd.p.length; k += 2) {
+        const ax = rd.p[k], az = rd.p[k + 1], L = Math.hypot(rd.p[k + 2] - ax, rd.p[k + 3] - az);
+        if (L < 6) continue;
+        const ux = (rd.p[k + 2] - ax) / L, uz = (rd.p[k + 3] - az) / L, nx = -uz * side, nz = ux * side;
+        for (let s = 1; s < L - 5;) {
+          const W = Math.min(pick(t.front ?? [8, 15]), L - 1 - s);
+          let ok = null;
+          for (const D of [pick(t.depth ?? [10, 15]), 8, 6]) {
+            const at = (a, b) => [ax + ux * a + nx * b, az + uz * a + nz * b];
+            const pts = [at(s, back), at(s + W, back), at(s + W, back + D), at(s, back + D)];
+            if (fits(pts)) { ok = pts; break; }
+          }
+          if (!ok) { s += 2; continue; }
+          // clockwise or not as the side has it: the same either way for the game
+          map.buildings.push({ p: ok.flat().map(v => Math.round(v * 10) / 10), f: Math.round(pick(t.floors ?? [2, 4])), r: null, k: 'yes', m: 1 });
+          built.push({ poly: ok, b: box(ok.flat()) });
+          added++;
+          s += W + (rnd() < gaps ? 2 + rnd() * 4 : 0); // now and then a gap: a gate, a drive, a yard
+        }
+      }
+    }
+  }
+  return added;
+}
+
 const dir = path.join(HERE, '..', id);
 const areaFile = path.join(dir, 'area.json');
 const area = JSON.parse(fs.readFileSync(areaFile, 'utf8'));
@@ -209,7 +290,10 @@ try {
     }
   }
   // a surface for the streets that have none tagged or only a plain one ('sett': basalt blocks, for Pompeii)
-  if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
+  // (not in the town of today round a ruined one, fill.town: there the streets are asphalt)
+  const ring = area.fill?.town?.ring, inTownLL = ring ? (lat, lon) => inside(lon, lat, ring.map(([a, b]) => [b, a])) : () => false;
+  const middle = w => { const p = w.nodes.map(i => data.nodes[i]).filter(Boolean), q = p[Math.floor(p.length / 2)]; return q ? inTownLL(q.lat, q.lon) : false; };
+  if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && !middle(w) && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
   // only the buildings that are something: named, a part of one, historic or a place of worship
   if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
   // a ruined town's buildings of today (fill.modern): those outside its walls that are not old
@@ -232,6 +316,8 @@ try {
   const { map, info } = buildMap(data, area);
   const filled = fillBlocks(map, area, data);
   if (filled) info.buildings += filled, console.error(`${filled} houses added to fill the gaps`);
+  const town = fillTown(map, area);
+  if (town) info.buildings += town, console.error(`${town} houses of today added along the streets of the town round it`);
   for (const rt of info.routes) {
     console.error(`route ${rt.id}: ${rt.length.toFixed(0)} m, one-way stretches:`, rt.oneway.map(([a, b]) => `${a.toFixed(2)}-${b.toFixed(2)}`).join(', ') || 'none');
   }
