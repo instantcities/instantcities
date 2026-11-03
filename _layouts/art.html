@@ -35,7 +35,7 @@
     {%- for m in A.museums %}
     {%- assign C = site.data.cities | where: 'id', m.city | first -%}
     {%- assign list = A.pieces | where: 'museum', m.id %}
-    {%- assign m_name = AM[m.id].name | default: m.name -%}{%- assign m_in = m_name | replace_first: 'The ', 'the ' | replace_first: 'Het ', 'het ' | replace_first: 'De ', 'de ' -%}{%- assign lm_url = nil %}{% if m.landmark %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=m.landmark %}{% endcapture %}{% endif %}
+    {%- assign m_name = AM[m.id].name | default: m.name -%}{%- assign m_in = m_name | replace_first: 'The ', 'the ' | replace_first: 'Het ', 'het ' | replace_first: 'De ', 'de ' | replace_first: 'Le ', 'le ' | replace_first: 'La ', 'la ' | replace_first: 'Les ', 'les ' -%}{%- assign lm_url = nil %}{% if m.landmark %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=m.landmark %}{% endcapture %}{% endif %}
     <section id="{{ m.id }}" class="art-museum">
       <div class="art-museum-head">
         <div>

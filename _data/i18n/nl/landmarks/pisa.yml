@@ -1,6 +1,7 @@
 # pisa's landmarks in Dutch (_data/landmarks/pisa.json, by id): name (where it differs), blurb (the card), text (the story),
-# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+# history, visit (going to see it), dates and local (its other name), each as in the English; what is left out stays English.
 torre:
+  local: Torre pendente, de Campanile
   name: Scheve Toren van Pisa
   blurb: De klokkentoren van de kathedraal, die begon te hellen voor zijn derde verdieping af was en sindsdien helt, nu zo’n vier graden.
   text:
@@ -67,6 +68,7 @@ gioco-del-ponte:
   - Het Spel van de Brug gaat terug op de gevechten van de middeleeuwen, toen de twee helften van de stad op de Ponte di Mezzo met houten schilden vochten. Tegenwoordig brengen de noordoever, Tramontana, en de zuidoever, Mezzogiorno, elk zes wijken in het veld, en hun teams duwen een zware kar over een rail die over de brug ligt.
   - De kant die de kar in de andere helft drijft, wint de ronde, en de kant die de meeste rondes wint, wint de dag. Voor het spel trekken honderden mensen in renaissancekostuums en harnassen langs de Lungarni.
 cecina:
+  local: Cecina, ook torta di ceci
   name: Cecina
   blurb: Een dun, goudbruin plat brood van kikkererwtenmeel, water en olijfolie, gebakken in een koperen pan in een houtoven en warm gegeten met peper.
   text:

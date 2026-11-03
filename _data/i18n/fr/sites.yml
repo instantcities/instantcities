@@ -1,0 +1,311 @@
+# Les sites en français (_data/sites.yml, par id) : name, place, game, title, description, tagline, lead, card, credits, features et
+# facts (title/text et label/text, dans le même ordre), sources (leurs titres, dans l'ordre) et places (la liste de
+# _data/site_places/<id>.json, par id : name, text) ; ce qui manque reste en anglais.
+taj-mahal:
+  name: Taj Mahal
+  place: Agra, Inde
+  title: 'Instant Taj Mahal : visite virtuelle 3D et jeu gratuits du Taj Mahal'
+  description: 'Faites gratuitement une visite virtuelle en 3D du Taj Mahal et de ses jardins dans votre navigateur, puis parcourez-les vous-même à pied, à vélo ou à cheval : explorez ou faites la course, seul ou à deux sur un seul clavier.'
+  tagline: Marchez ou faites la course dans les jardins du Taj Mahal, jusqu’au tombeau de marbre blanc.
+  lead: Le tombeau sur sa terrasse avec les quatre minarets, la mosquée et le Jawab de part et d’autre, le long canal, et la grande porte par où l’on entre.
+  card: Le tombeau avec son dôme et ses quatre minarets au bout du long canal, entre la mosquée et le Jawab.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL).
+  features:
+  - title: Le tombeau et son jardin
+    text: Remontez le canal depuis la grande porte jusqu’à la terrasse de marbre blanc, à travers les quatre quartiers du jardin. Le tombeau, les minarets, la mosquée et la porte sont modélisés à la main d’après leurs mesures.
+  - title: Une course autour du jardin
+    text: Courez, roulez ou galopez le long de l’allée centrale, devant la terrasse, redescendez par le côté est et revenez à la porte, sur un chemin de dalles de grès.
+  - title: D’après OpenStreetMap
+    text: Le jardin, ses murs, les canaux et le parvis au sud de la porte sont dessinés d’après OpenStreetMap, les allées du jardin étant ajoutées à la main.
+  facts:
+  - label: Construit
+    text: De 1632 à 1653, sur ordre de l’empereur moghol Shah Jahan pour son épouse Mumtaz Mahal
+  - label: Hauteur
+    text: 73 mètres du jardin à la pointe du fleuron
+  - label: Jardin
+    text: "Un charbagh : quatre quartiers autour d’un long canal, large de 300 mètres"
+  - label: Dans le jeu
+    text: Le tombeau, quatre minarets, la mosquée, le Jawab, la grande porte, le mur du jardin et le parvis
+  places:
+    great-gate:
+      name: La grande porte
+      text: Darwaza-i-Rauza, la porte de grès rouge du jardin, achevée en 1648. Les 22 petits dômes qui la surmontent représenteraient les années de la construction.
+    charbagh:
+      name: Le charbagh
+      text: "Un jardin persan : quatre quartiers autour d’un canal d’eau, large de 300 mètres. Il figure les quatre fleuves du paradis, et depuis le milieu le tombeau semble flotter au-dessus du canal."
+    taj-mahal:
+      name: Le Taj Mahal
+      text: Shah Jahan le fit bâtir pour sa femme Mumtaz Mahal, morte en 1631, et il fallut environ 20 ans. Le tombeau de marbre se dresse sur une terrasse, avec un dôme en bulbe à 73 mètres de haut. Il paraît rose à l’aube et doré au crépuscule.
+    minarets:
+      name: Les minarets
+      text: Les quatre minarets font 40 mètres de haut et penchent chacun un peu vers l’extérieur. Si l’un d’eux tombait un jour, il tomberait en s’éloignant du tombeau.
+    mosque:
+      name: La mosquée
+      text: La mosquée de grès rouge à l’ouest du tombeau, encore utilisée le vendredi. Elle a trois dômes blancs, et sa salle de prière est orientée vers La Mecque, à l’ouest.
+    jawab:
+      name: Le Jawab
+      text: "La « réponse » : une copie de la mosquée du côté est, bâtie pour que la vue du tombeau soit symétrique. Personne n’y prie, car elle n’est pas orientée vers La Mecque."
+angkor-wat:
+  name: Angkor Vat
+  place: Siem Reap, Cambodge
+  game: Instant Angkor Vat
+  title: 'Instant Angkor Vat : visite virtuelle 3D et jeu gratuits d’Angkor Vat'
+  description: 'Faites gratuitement une visite virtuelle en 3D d’Angkor Vat dans votre navigateur, puis parcourez-en vous-même la chaussée et le temple à pied, à vélo ou à cheval : explorez ou faites la course, seul ou à deux sur un seul clavier.'
+  tagline: Marchez ou faites la course sur la chaussée, le long des douves et des tours d’Angkor Vat.
+  lead: "Les douves, la longue chaussée et la porte à son extrémité, et le temple lui-même : trois niveaux de galeries s’élevant jusqu’à cinq tours."
+  card: Les douves et la chaussée, la porte extérieure, et les trois niveaux et cinq tours du temple.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL).
+  features:
+  - title: Le temple et ses douves
+    text: Traversez les douves, passez la porte ouest et suivez la route de pierre jusqu’au temple. Ses trois niveaux, ses galeries et ses cinq tours sont modélisés à la main d’après les mesures d’OpenStreetMap.
+  - title: Une course le long de la chaussée
+    text: Du bord opposé des douves, par la porte et jusqu’au temple, puis le long de son côté nord vers l’est, une seule fois, d’une porte de départ à une porte d’arrivée.
+  - title: D’après OpenStreetMap
+    text: Les douves, les chemins, les étangs et l’enceinte extérieure viennent d’OpenStreetMap.
+  facts:
+  - label: Construit
+    text: Début du XIIe siècle, pour le roi khmer Suryavarman II, d’abord temple hindou puis bouddhique
+  - label: Dimensions
+    text: Les douves font 190 mètres de large et le mur extérieur enferme environ 200 hectares
+  - label: Tours
+    text: Cinq, en quinconce ; celle du milieu fait 65 mètres de haut
+  - label: Dans le jeu
+    text: Les douves et la chaussée, le gopura ouest et les trois niveaux du temple avec leurs galeries et leurs tours
+  places:
+    moat:
+      name: Les douves
+      text: Des douves de 190 mètres de large font tout le tour du temple, 5,5 kilomètres en tout. Elles figurent l’océan autour du mont Meru, demeure des dieux, et gardaient le sol du temple humide et ferme.
+    gopura:
+      name: Le gopura ouest
+      text: La longue porte du mur extérieur, avec trois tours. Les éléphants pouvaient passer par le milieu. Derrière, une route de pierre de 350 mètres mène au temple.
+    libraries:
+      name: Les bibliothèques
+      text: "Deux petits bâtiments de chaque côté de la route, appelés bibliothèques. Personne ne sait ce qu’ils contenaient : des manuscrits, ou des objets sacrés."
+    terrace:
+      name: La terrasse d’honneur
+      text: Une terrasse en forme de croix devant le temple, où le roi aurait rencontré le peuple. Des nagas sculptés, serpents à sept têtes, gardent la route.
+    galleries:
+      name: Les galeries
+      text: "La galerie extérieure fait 800 mètres de long et est sculptée de scènes des épopées hindoues et des batailles du roi : le plus long bas-relief de pierre du monde. Deux autres galeries s’élèvent au-dessus."
+    angkor-wat:
+      name: Angkor Vat
+      text: Bâti au début du XIIe siècle pour le roi khmer Suryavarman II, d’abord temple hindou puis bouddhique. Trois niveaux s’élèvent jusqu’à cinq tours, celle du milieu haute de 65 mètres, à l’image de la montagne des dieux.
+pompeii:
+  name: Pompéi
+  place: Campanie, Italie
+  game: Instant Pompéi
+  title: 'Instant Pompéi : visite virtuelle 3D et jeu gratuits de Pompéi'
+  description: 'Faites gratuitement une visite virtuelle en 3D de Pompéi dans votre navigateur, puis parcourez-en vous-même les rues romaines à pied, à vélo ou à cheval : explorez ou faites la course, seul ou à deux sur un seul clavier.'
+  tagline: Marchez ou faites la course dans les rues romaines de Pompéi, avec le Vésuve derrière.
+  lead: Les rues de la ville telles que les fouilles les dessinent, le Forum avec le temple de Jupiter, les thermes et les maisons, et l’amphithéâtre à l’extrémité est.
+  card: "La ville romaine ensevelie par le Vésuve en 79 apr. J.-C. : ses rues pavées, le Forum et l’amphithéâtre."
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL).
+  features:
+  - title: La ville, rue par rue
+    text: Environ 1 100 maisons et boutiques le long des rues des fouilles, avec la via dell’Abbondanza, la via Stabiana et la via del Foro, pavées de blocs de basalte.
+  - title: Le Forum et l’amphithéâtre
+    text: Les deux colonnades du Forum avec le temple de Jupiter au bout, et l’amphithéâtre, le plus ancien en pierre qui existe, sont modélisés à la main. Le Vésuve se dresse à l’horizon là où il est vraiment.
+  - title: Une course autour du centre-ville
+    text: Une boucle d’environ un kilomètre depuis le Forum par la via dell’Abbondanza et retour par la via Stabiana et la via della Fortuna.
+  facts:
+  - label: Enseveli
+    text: Le 24 août 79 apr. J.-C., sous les cendres et la ponce du Vésuve ; fouillé à partir du XVIIIe siècle
+  - label: Dimensions
+    text: Environ 66 hectares à l’intérieur des murs, avec quelque 11 000 habitants
+  - label: Amphithéâtre
+    text: Bâti vers 70 av. J.-C. pour environ 20 000 personnes, le plus ancien amphithéâtre de pierre conservé
+  - label: Dans le jeu
+    text: Les rues et les maisons, le Forum avec ses colonnades et le temple de Jupiter, l’amphithéâtre et le Vésuve
+  places:
+    forum:
+      name: Le Forum
+      text: La place au milieu de Pompéi, longue de 140 mètres, interdite aux charrettes. Des temples, la basilique, le marché et les bureaux de la ville l’entouraient, et l’on y venait pour commercer, voter et apprendre les nouvelles.
+    jupiter:
+      name: Temple de Jupiter
+      text: Le principal temple de la ville, à l’extrémité nord du Forum, bâti pour Jupiter, Junon et Minerve. Le Vésuve se dresse juste derrière. Un tremblement de terre en 62 apr. J.-C. l’avait déjà endommagé, et il était encore en réparation en 79.
+    basilica:
+      name: La Basilique
+      text: Le tribunal et la bourse, à l’angle sud-ouest du Forum, vers 150 av. J.-C. C’est la plus ancienne basilique que l’on connaisse, et l’un des plus grands bâtiments de la ville.
+    apollo:
+      name: Temple d’Apollon
+      text: Le plus ancien temple de Pompéi, du VIe siècle av. J.-C., dans une cour entourée d’une colonnade de 48 colonnes. Apollon était le protecteur de la ville. Les statues ici sont des copies.
+    stepping-stones:
+      name: Pas japonais
+      text: Les rues charriaient eaux de pluie et ordures, d’où ces blocs de lave pour traverser. Les espaces entre eux sont aussi larges que les roues d’une charrette, et l’on voit encore les ornières que les charrettes ont creusées dans le pavage.
+    stabian-baths:
+      name: Les thermes de Stabies
+      text: Les plus anciens bains publics de Pompéi, avec un gymnase, une piscine et des salles de températures différentes. La plupart des citoyens y allaient presque chaque jour, et les plafonds de stuc sont toujours là.
+    lupanare:
+      name: Le Lupanar
+      text: Un petit bordel à deux étages et dix chambres, le plus connu des nombreux de la ville. Ses lits de pierre et les images et graffitis sur ses murs sont toujours là.
+    casa-del-fauno:
+      name: Maison du Faune
+      text: La plus grande maison de Pompéi, qui occupe un îlot entier, avec deux atriums et deux jardins. Un petit faune de bronze danse dans son bassin. L’immense mosaïque d’Alexandre le Grand à la bataille y fut trouvée.
+    grand-theatre:
+      name: Le Grand Théâtre
+      text: Un théâtre de style grec creusé dans la colline au IIe siècle av. J.-C., pour environ 5 000 personnes. Le plus petit Odéon voisin était couvert, pour les concerts et les lectures.
+    casts:
+      name: Jardin des Fugitifs
+      text: Treize personnes, dont des enfants, moururent dans ce jardin sous les cendres. Leurs corps se décomposèrent en laissant des creux dans la cendre durcie. En 1863, Giuseppe Fiorelli fit couler du plâtre dans les creux, et les moulages montrent les gens tels qu’ils gisaient. D’autres sont dans les greniers du Forum.
+    amphitheatre:
+      name: L’Amphithéâtre
+      text: Bâti vers 70 av. J.-C., le plus ancien amphithéâtre de pierre qui existe, pour quelque 20 000 personnes. En 59 apr. J.-C., une bagarre entre les supporters de Pompéi et de Nucérie y finit en émeute, et Rome ferma l’arène pendant dix ans.
+stonehenge:
+  name: Stonehenge
+  place: Wiltshire, Angleterre
+  title: 'Instant Stonehenge : visite virtuelle 3D et jeu gratuits'
+  description: Marchez autour des pierres dressées de la plaine de Salisbury. Explorez, faites la course ou suivez une visite guidée dans votre navigateur.
+  tagline: Marchez autour des pierres dressées de la plaine de Salisbury.
+  lead: Le cercle de sarsens conservé, cinq grands trilithes et de plus petites pierres bleues, avec la Heel Stone près de l’allée d’accès.
+  card: Le cercle de sarsens conservé, cinq grands trilithes et de plus petites pierres bleues, avec la Heel Stone près de l’allée d’accès.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL). Modèles réalisés pour Instant Cities.
+  features:
+  - title: Les monuments
+    text: Le cercle de sarsens conservé, cinq grands trilithes et de plus petites pierres bleues, avec la Heel Stone près de l’allée d’accès.
+  - title: Autour des pierres
+    text: Suivez le circuit balisé, ou quittez la course pour explorer librement. Jouez seul ou à deux sur un seul clavier.
+  - title: Une visite et une quête
+    text: Survolez le site avec de courtes explications sur ses curiosités, ou retrouvez votre groupe de marche avant le départ de la visite.
+  facts:
+  - label: Période
+    text: Construit en plusieurs étapes au Néolithique et à l’âge du bronze
+  - label: Pierres
+    text: De grands sarsens et de plus petites pierres bleues
+  - label: Cadre
+    text: La plaine de Salisbury, Wiltshire
+  - label: Dans le jeu
+    text: Un modèle simplifié du site. Le circuit des visiteurs est dessiné à la main ; les données cartographiques alentour viennent d’OpenStreetMap.
+  sources:
+  - Histoire et contexte
+  places:
+    place-0:
+      name: Cercle de pierres
+      text: Les sarsens et linteaux conservés forment une partie d’un cercle autour du fer à cheval intérieur de trilithes.
+    place-1:
+      name: Heel Stone
+      text: Ce sarsen non travaillé se dresse en dehors du cercle principal, près de l’accès par l’Avenue.
+    place-2:
+      name: Le talus
+      text: Un talus circulaire et un fossé entourent les pierres. Le talus est plus ancien que l’agencement principal des pierres.
+giza:
+  name: Gizeh
+  place: Gizeh, Égypte
+  game: Instant Gizeh
+  title: 'Instant Gizeh : visite virtuelle 3D et jeu gratuits'
+  description: Explorez les pyramides et le Sphinx sur le plateau de Gizeh. Explorez, faites la course ou suivez une visite guidée dans votre navigateur.
+  tagline: Explorez les pyramides et le Sphinx sur le plateau de Gizeh.
+  lead: Trois pyramides s’élèvent au-dessus du désert, avec de plus petites pyramides de reines, des temples en ruine et le Sphinx du côté est.
+  card: Trois pyramides s’élèvent au-dessus du désert, avec de plus petites pyramides de reines, des temples en ruine et le Sphinx du côté est.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL). Modèles réalisés pour Instant Cities.
+  features:
+  - title: Les monuments
+    text: Trois pyramides s’élèvent au-dessus du désert, avec de plus petites pyramides de reines, des temples en ruine et le Sphinx du côté est.
+  - title: Le circuit du plateau
+    text: Suivez le circuit balisé, ou quittez la course pour explorer librement. Jouez seul ou à deux sur un seul clavier.
+  - title: Une visite et une quête
+    text: Survolez le site avec de courtes explications sur ses curiosités, ou retrouvez votre groupe de marche avant le départ de la visite.
+  facts:
+  - label: Période
+    text: La IVe dynastie de l’Égypte ancienne, au IIIe millénaire av. J.-C.
+  - label: Pyramides
+    text: Khéops, Khéphren et Mykérinos
+  - label: Cadre
+    text: Le plateau désertique à l’ouest du Nil
+  - label: Dans le jeu
+    text: Un modèle simplifié du site. Le circuit des visiteurs est dessiné à la main ; les données cartographiques alentour viennent d’OpenStreetMap.
+  sources:
+  - Histoire et contexte
+  places:
+    place-0:
+      name: Grande pyramide de Khéops
+      text: La plus grande des trois pyramides principales. La plus grande partie de son revêtement extérieur lisse a disparu.
+    place-1:
+      name: Pyramide de Khéphren
+      text: La deuxième grande pyramide conserve des pierres de revêtement pâles près de son sommet.
+    place-2:
+      name: Grand Sphinx
+      text: Un lion de calcaire à tête humaine garde le côté est du plateau.
+    place-3:
+      name: Pyramide de Mykérinos
+      text: La plus petite des trois pyramides principales se dresse près de trois pyramides beaucoup plus petites.
+acropolis:
+  name: Acropole
+  place: Athènes, Grèce
+  game: Instant Acropole
+  title: 'Instant Acropole : visite virtuelle 3D et jeu gratuits'
+  description: Marchez parmi les temples de l’Acropole d’Athènes. Explorez, faites la course ou suivez une visite guidée dans votre navigateur.
+  tagline: Marchez parmi les temples de l’Acropole d’Athènes.
+  lead: Le Parthénon, l’Érechthéion et la porte occidentale se dressent sur le sommet rocheux au-dessus d’Athènes.
+  card: Le Parthénon, l’Érechthéion et la porte occidentale se dressent sur le sommet rocheux au-dessus d’Athènes.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL). Modèles réalisés pour Instant Cities.
+  features:
+  - title: Les monuments
+    text: Le Parthénon, l’Érechthéion et la porte occidentale se dressent sur le sommet rocheux au-dessus d’Athènes.
+  - title: Autour du sommet
+    text: Suivez le circuit balisé, ou quittez la course pour explorer librement. Jouez seul ou à deux sur un seul clavier.
+  - title: Une visite et une quête
+    text: Survolez le site avec de courtes explications sur ses curiosités, ou retrouvez votre groupe de marche avant le départ de la visite.
+  facts:
+  - label: Période
+    text: Les principaux temples datent du Ve siècle av. J.-C.
+  - label: Parthénon
+    text: Un temple consacré à Athéna, avec huit colonnes sur chaque façade
+  - label: Cadre
+    text: Une colline calcaire fortifiée au-dessus d’Athènes
+  - label: Dans le jeu
+    text: Un modèle simplifié du site. Le circuit des visiteurs est dessiné à la main ; les données cartographiques alentour viennent d’OpenStreetMap.
+  sources:
+  - Histoire et contexte
+  places:
+    place-0:
+      name: Parthénon
+      text: Le grand temple d’Athéna a huit colonnes à chaque extrémité et dix-sept sur chaque côté.
+    place-1:
+      name: Érechthéion
+      text: Un temple asymétrique au nord du Parthénon, connu pour son portique de six Caryatides.
+    place-2:
+      name: Propylées
+      text: La porte occidentale monumentale encadre l’accès au sommet.
+    place-3:
+      name: Temple d’Athéna Nikè
+      text: Un petit temple ionique se dresse près de l’entrée occidentale.
+machu-picchu:
+  name: Machu Picchu
+  place: Région de Cuzco, Pérou
+  title: 'Instant Machu Picchu : visite virtuelle 3D et jeu gratuits'
+  description: Explorez la cité de pierre inca et ses terrasses dans les Andes. Explorez, faites la course ou suivez une visite guidée dans votre navigateur.
+  tagline: Explorez la cité de pierre inca et ses terrasses dans les Andes.
+  lead: Des maisons et des temples de pierre sans toit s’étagent entre des terrasses herbeuses, avec le profil abrupt du Huayna Picchu derrière eux.
+  card: Des maisons et des temples de pierre sans toit s’étagent entre des terrasses herbeuses, avec le profil abrupt du Huayna Picchu derrière eux.
+  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL). Modèles réalisés pour Instant Cities.
+  features:
+  - title: Les monuments
+    text: Des maisons et des temples de pierre sans toit s’étagent entre des terrasses herbeuses, avec le profil abrupt du Huayna Picchu derrière eux.
+  - title: À travers la citadelle
+    text: Suivez le circuit balisé, ou quittez la course pour explorer librement. Jouez seul ou à deux sur un seul clavier.
+  - title: Une visite et une quête
+    text: Survolez le site avec de courtes explications sur ses curiosités, ou retrouvez votre groupe de marche avant le départ de la visite.
+  facts:
+  - label: Période
+    text: Construit au XVe siècle, dans l’Empire inca
+  - label: Altitude
+    text: Environ 2 430 mètres au-dessus du niveau de la mer
+  - label: Cadre
+    text: Une crête entre les Andes et le bassin amazonien
+  - label: Dans le jeu
+    text: Un modèle simplifié du site. Le circuit des visiteurs est dessiné à la main ; les données cartographiques alentour viennent d’OpenStreetMap.
+  sources:
+  - Histoire et contexte
+  places:
+    place-0:
+      name: Place sacrée
+      text: Des murs de pierre soigneusement ajustés enferment les bâtiments cérémoniels sur le haut de la ville.
+    place-1:
+      name: Terrasses agricoles
+      text: Des murs de soutènement divisent la pente en étroites bandes de terre cultivable.
+    place-2:
+      name: Quartier résidentiel
+      text: Des groupes de bâtiments de pierre sans toit se dressent près des espaces ouverts centraux.
+    place-3:
+      name: Huayna Picchu
+      text: La montagne abrupte s’élève au-delà de l’extrémité nord du site archéologique.

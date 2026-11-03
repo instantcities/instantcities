@@ -1,6 +1,7 @@
 # pisa's landmarks in French (_data/landmarks/pisa.json, by id): name (where it differs), blurb (the card), text (the story),
-# history, visit (going to see it) and dates, each as in the English; what is left out stays English.
+# history, visit (going to see it), dates and local (its other name), each as in the English; what is left out stays English.
 torre:
+  local: Torre pendente, le Campanile
   name: Tour de Pise
   blurb: Le clocher de la cathédrale, qui a commencé à pencher avant la fin de son troisième étage et penche depuis, de quatre degrés environ aujourd’hui.
   text:
@@ -67,6 +68,7 @@ gioco-del-ponte:
   - Le Jeu du Pont remonte aux batailles du Moyen Âge, quand les deux moitiés de la ville se battaient sur le Ponte di Mezzo avec des boucliers de bois. Aujourd’hui, la rive nord, Tramontana, et la rive sud, Mezzogiorno, alignent chacune six quartiers, et leurs équipes poussent un lourd chariot sur un rail posé en travers du pont.
   - Le camp qui chasse le chariot dans la moitié de l’autre gagne la manche, et celui qui gagne le plus de manches remporte la journée. Avant le jeu, des centaines de personnes défilent le long des Lungarni en costumes et en armures de la Renaissance.
 cecina:
+  local: Cecina, ou torta di ceci
   name: La cecina
   blurb: Une fine galette dorée de farine de pois chiches, d’eau et d’huile d’olive, cuite dans une poêle de cuivre au four à bois et mangée chaude avec du poivre.
   text:

@@ -125,11 +125,11 @@ their browser's. The game stays at `/<id>/play/`; links to it from a French or D
   and its landmarks in `_data/i18n/<lang>/landmarks/<id>.yml`. Anything left out falls back to the English
   in `_data/cities.yml`, `_data/about/` and `_data/landmarks/`, so a new city or landmark works at once and
   can be translated later.
-- The art and sites pages are in English and Dutch (`content_langs` in `_data/home.yml`; French links to the
-  English ones): `/en/art/`, `/nl/kunst/`, `/en/sites/`, `/nl/plekken/` (`urls: art, sites` in `_data/lang/<lang>.yml`).
-  Their Dutch is in `_data/i18n/nl/art.yml` (museums and pieces, by id) and `_data/i18n/nl/sites.yml` (by id).
-  `/art/` and `/sites/` only send a visitor on to their language, like `/ghent/`. To add a language, give it
-  those files and add it to `content_langs`.
+- The art and sites pages are in every language (`content_langs` in `_data/home.yml`): `/en/art/`, `/fr/art/`,
+  `/nl/kunst/`, `/en/sites/`, `/fr/sites/`, `/nl/plekken/` (`urls: art, sites` in `_data/lang/<lang>.yml`). The
+  French and Dutch are in `_data/i18n/<lang>/art.yml` (museums and pieces, by id) and `_data/i18n/<lang>/sites.yml`
+  (by id). `/art/` and `/sites/` only send a visitor on to their language, like `/ghent/`. To add a language, give
+  it those files, the art and sites words in its `_data/lang/<lang>.yml`, and add it to `content_langs`.
 - `node tools/langpages.mjs` writes the city, guide, places and sites pages for every language (`node tools/art.mjs` the art pages) and
   `node tools/landmarks.mjs` the landmark pages; run them after adding a city, a landmark, a language or a slug.
 
