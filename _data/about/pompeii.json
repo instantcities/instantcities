@@ -1,0 +1,285 @@
+{
+  "intro": "Pompeii was a Roman town of about 11,000 people on the Bay of Naples, ten kilometres from Vesuvius. The eruption of AD 79 buried it under six metres of ash and pumice, and it lay there until digging began in 1748. Its streets, houses, shops, temples and baths are the most complete picture we have of everyday life in a Roman town.",
+  "famous": [
+    "The Forum, the Temple of Jupiter and the Basilica at the middle of town",
+    "The House of the Faun and the Alexander Mosaic",
+    "The frescos of the House of the Vettii",
+    "The plaster casts of the people who died in the eruption",
+    "The amphitheatre, the oldest stone one that survives"
+  ],
+  "facts": [
+    [
+      "Country",
+      "Italy"
+    ],
+    [
+      "Region",
+      "Campania, in the Metropolitan City of Naples"
+    ],
+    [
+      "Founded",
+      "By the Oscans, in the 7th or 6th century BC"
+    ],
+    [
+      "Roman colony",
+      "From 80 BC: Colonia Cornelia Veneria Pompeianorum"
+    ],
+    [
+      "Buried",
+      "AD 79, by the eruption of Vesuvius"
+    ],
+    [
+      "People",
+      "About 11,000 at the time of the eruption"
+    ],
+    [
+      "Size",
+      "66 hectares inside the walls, of which about two-thirds is dug out"
+    ],
+    [
+      "World Heritage",
+      "Listed by UNESCO in 1997, with Herculaneum and Torre Annunziata"
+    ]
+  ],
+  "overview": [
+    "The town lies on a ridge of old lava above the plain of the river Sarno, with its walls round an oval of about three kilometres. Two main streets cross it: the Via dell'Abbondanza from east to west and the Via Stabiana from north to south. The others run between them in a grid, laid out in blocks (insulae) which the archaeologists number by region.",
+    "The streets are paved with large blocks of grey lava and have raised pavements on either side. Rainwater and rubbish ran down them, so there are stepping stones to cross on, and the carts have cut deep ruts in the paving. At the corners stand public fountains, and on the walls are painted notices for elections and games."
+  ],
+  "setting": [
+    "Vesuvius rises 1,281 metres north of the town. In Roman times it was green and planted with vines up its slopes, and nobody knew it was a volcano. The sea was then closer than it is now, and Pompeii had a harbour at the mouth of the Sarno, which took goods inland.",
+    "The Forum is at the west end of town, on its highest ground. The amphitheatre and the big exercise ground (the Palaestra Grande) lie at the east end, against the walls, and the theatres in the south, on the slope down towards the Porta di Stabia."
+  ],
+  "history": [
+    {
+      "title": "From Oscan town to Roman colony",
+      "text": [
+        "The Oscans, a people of the region, founded the town in the 7th or 6th century BC, at a place where the roads met near the river. Greeks and Etruscans traded here, and in the 5th century BC the Samnites took it. The Temple of Apollo, the oldest houses and the first baths date from those centuries.",
+        "Pompeii fought against Rome in the Social War, and in 80 BC the dictator Sulla made it a colony for his veterans. Latin replaced Oscan, and the new colony built the amphitheatre, the roofed Odeon and the Forum baths."
+      ]
+    },
+    {
+      "title": "The earthquake and the eruption",
+      "text": [
+        "On 5 February AD 62 an earthquake damaged much of the town. Seventeen years later the rebuilding was still going on, in the Temple of Jupiter, the Forum and many houses.",
+        "Vesuvius erupted in AD 79, on 24 August according to the letters of Pliny the Younger, though finds such as autumn fruit and an inscription found in 2018 point to October. For hours pumice and ash fell on the town and roofs gave way under it. Early the next morning a hot cloud of gas and ash came down the mountain and killed those who had stayed. The remains of about 1,150 people have been found so far."
+      ]
+    },
+    {
+      "title": "Digging up the town",
+      "text": [
+        "The town was forgotten for centuries. In 1748 workmen of the Bourbon king of Naples began digging here, looking for statues and paintings; an inscription found in 1763 showed that this was Pompeii. In 1863 Giuseppe Fiorelli began digging the town house by house and made the first plaster casts of the victims.",
+        "About a third of the town is still under the ground. New digs in Regio V and Regio IX since 2018 have found painted rooms, a bar, a bakery and more victims."
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "7th–6th century BC",
+      "The Oscans found the town"
+    ],
+    [
+      "5th century BC",
+      "The Samnites take it"
+    ],
+    [
+      "2nd century BC",
+      "The House of the Faun, the Great Theatre and the Basilica are built"
+    ],
+    [
+      "80 BC",
+      "Sulla makes Pompeii a Roman colony"
+    ],
+    [
+      "About 70 BC",
+      "The amphitheatre is built"
+    ],
+    [
+      "AD 59",
+      "Riot in the amphitheatre; games banned for ten years"
+    ],
+    [
+      "AD 62",
+      "An earthquake damages the town"
+    ],
+    [
+      "AD 79",
+      "Vesuvius buries the town"
+    ],
+    [
+      "1748",
+      "Excavation begins"
+    ],
+    [
+      "1763",
+      "An inscription shows the town is Pompeii"
+    ],
+    [
+      "1863",
+      "Giuseppe Fiorelli makes the first plaster casts"
+    ],
+    [
+      "1943",
+      "Allied bombs hit the excavations"
+    ],
+    [
+      "1997",
+      "On UNESCO's World Heritage list"
+    ],
+    [
+      "2018",
+      "New excavations in Regio V"
+    ]
+  ],
+  "today": [
+    "The excavations are run by the Parco Archeologico di Pompei and are open every day except a few holidays. There are three entrances: Porta Marina in the west, Piazza Esedra beside it, and Piazza Anfiteatro in the east. Seeing the main sights takes most of a day, and the site is about 1.5 kilometres from end to end.",
+    "The modern town of Pompei lies just east of the ruins, with the station of the Circumvesuviana railway from Naples and Sorrento at Pompei Scavi, opposite Porta Marina. Many of the finds, the Alexander Mosaic among them, are in the National Archaeological Museum in Naples."
+  ],
+  "places": [
+    {
+      "id": "forum",
+      "name": "The Forum",
+      "local": "Foro",
+      "kind": "square",
+      "lat": 40.74933,
+      "lon": 14.48485,
+      "blurb": "The long square at the middle of Pompeii, closed to carts, with the Temple of Jupiter at its north end and Vesuvius behind it.",
+      "landmark": "forum"
+    },
+    {
+      "id": "temple-of-jupiter",
+      "name": "Temple of Jupiter",
+      "local": "Tempio di Giove",
+      "kind": "building",
+      "lat": 40.74995,
+      "lon": 14.4845,
+      "blurb": "The main temple of the town, on a high podium at the north end of the Forum, with Vesuvius rising straight behind it.",
+      "landmark": "temple-of-jupiter"
+    },
+    {
+      "id": "casa-del-fauno",
+      "name": "House of the Faun",
+      "local": "Casa del Fauno",
+      "kind": "building",
+      "lat": 40.75134,
+      "lon": 14.48449,
+      "blurb": "The biggest house in Pompeii, a whole block, named after the bronze dancing faun in its atrium. The Alexander Mosaic was found here.",
+      "landmark": "casa-del-fauno"
+    },
+    {
+      "id": "casa-dei-vettii",
+      "name": "House of the Vettii",
+      "local": "Casa dei Vettii",
+      "kind": "building",
+      "lat": 40.75224,
+      "lon": 14.48498,
+      "blurb": "The house of two freed slaves who grew rich in trade, with the best-known wall paintings of Pompeii round its garden.",
+      "landmark": "casa-dei-vettii"
+    },
+    {
+      "id": "lupanare",
+      "name": "The Lupanare",
+      "local": "Lupanare",
+      "kind": "building",
+      "lat": 40.75033,
+      "lon": 14.48683,
+      "blurb": "The only building in Pompeii built as a brothel: a corridor of small cells with stone beds, erotic paintings and over a hundred graffiti.",
+      "landmark": "lupanare"
+    },
+    {
+      "id": "stabian-baths",
+      "name": "The Stabian Baths",
+      "local": "Terme Stabiane",
+      "kind": "building",
+      "lat": 40.74999,
+      "lon": 14.48756,
+      "blurb": "The oldest public baths of Pompeii, with an exercise court, a swimming pool and rooms of cold, warm and hot water, for men and for women.",
+      "landmark": "stabian-baths"
+    },
+    {
+      "id": "grand-theatre",
+      "name": "The Great Theatre",
+      "local": "Teatro Grande",
+      "kind": "building",
+      "lat": 40.74882,
+      "lon": 14.4884,
+      "blurb": "A theatre in the Greek style, set into a slope in the south of the town, for about 5,000 people, with the small roofed Odeon beside it.",
+      "landmark": "grand-theatre"
+    },
+    {
+      "id": "amphitheatre",
+      "name": "The Amphitheatre",
+      "local": "Anfiteatro",
+      "kind": "building",
+      "lat": 40.75128,
+      "lon": 14.49518,
+      "blurb": "The oldest stone amphitheatre that survives, at the east end of the town, built about 70 BC for some 20,000 people to watch gladiators.",
+      "landmark": "amphitheatre"
+    },
+    {
+      "id": "thermopolium",
+      "name": "Thermopolium of Vetutius Placidus",
+      "local": "Thermopolium di Vetutius Placidus",
+      "kind": "building",
+      "lat": 40.75075,
+      "lon": 14.49008,
+      "blurb": "A street bar on the Via dell'Abbondanza, with its counter of coloured marble and the jars for food and wine set into it.",
+      "landmark": "thermopolium"
+    },
+    {
+      "id": "garden-of-the-fugitives",
+      "name": "Garden of the Fugitives",
+      "local": "Orto dei Fuggiaschi",
+      "kind": "park",
+      "lat": 40.7492,
+      "lon": 14.49315,
+      "blurb": "A garden by the south walls where thirteen people died under the ash. Plaster casts show where and how they fell.",
+      "landmark": "garden-of-the-fugitives"
+    },
+    {
+      "id": "via-dell-abbondanza",
+      "name": "Via dell'Abbondanza",
+      "kind": "street",
+      "lat": 40.7504,
+      "lon": 14.489,
+      "blurb": "The main street from east to west, from the Forum to the Porta di Sarno, lined with shops, bars and painted election notices."
+    },
+    {
+      "id": "via-stabiana",
+      "name": "Via Stabiana",
+      "kind": "street",
+      "lat": 40.75005,
+      "lon": 14.4877,
+      "blurb": "The street from north to south down the valley across the town, from the Porta del Vesuvio to the Porta di Stabia."
+    },
+    {
+      "id": "porta-marina",
+      "name": "Porta Marina",
+      "kind": "gate",
+      "lat": 40.74853,
+      "lon": 14.48268,
+      "blurb": "The gate on the west side towards the sea, steep and narrow, where most visitors come in today."
+    }
+  ],
+  "links": [
+    {
+      "title": "Parco Archeologico di Pompei",
+      "url": "https://pompeiisites.org/en/",
+      "note": "The excavations: opening times, tickets and news of the digs"
+    },
+    {
+      "title": "Museo Archeologico Nazionale di Napoli",
+      "url": "https://mann-napoli.it/en/",
+      "note": "The museum in Naples with the Alexander Mosaic and many of the frescos"
+    },
+    {
+      "title": "UNESCO World Heritage",
+      "url": "https://whc.unesco.org/en/list/829/",
+      "note": "Pompeii, Herculaneum and Torre Annunziata"
+    },
+    {
+      "title": "Pompeii on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pompeii",
+      "note": "The history of the town and its excavation"
+    }
+  ]
+}

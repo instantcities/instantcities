@@ -1,6 +1,6 @@
 # Game info-card links
 
-Exploration cards, indoor exhibits and tour cards use `core/js/info-links.js` to find their website destinations. Artwork close-ups keep their artwork-page links. Archaeological-site cards link to the named place's section on `/sites/<site>/`; these places do not have separate articles.
+Exploration cards, indoor exhibits and tour cards use `core/js/info-links.js` to find their website destinations. Artwork close-ups keep their artwork-page links. Archaeological-site cards link to the named place's section on `/sites/<site>/`; these places do not have separate articles. Pompeii's cards link to its landmark pages (`/pompeii/landmark/<id>/`), each through the landmark's `sight`; a card for something inside a building (`house-faun-1`, the Alexander Mosaic) leads to the building's page. The other way, a landmark page's button opens the game at its sight (`?at=<sight>`), and a sight with an `arrival` puts you there: inside a house's front door, in the Forum, the orchestra of the theatre or the arena.
 
 The lookup is generated from `_data/landmarks/` and `_data/site_places/`. It matches ids and names, including explicit aliases for tour titles. Indoor cards use the nearest artwork or the building's page. Secret cards can link too, when a page exists.
 

@@ -1,0 +1,530 @@
+[
+  {
+    "id": "forum",
+    "name": "The Forum",
+    "local": "Foro",
+    "emoji": "🏛️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 40.74933,
+    "lon": 14.48485,
+    "sight": "forum",
+    "blurb": "The long square at the middle of Pompeii, closed to carts, with the Temple of Jupiter at its north end and Vesuvius behind it.",
+    "text": [
+      "The Forum is a square of about 140 by 38 metres, paved with stone slabs and closed to carts by steps and blocks at its entrances. A two-storey colonnade ran along three sides. Round it stood the buildings of the town: the Temple of Jupiter, the Basilica, the Temple of Apollo, the market hall (the Macellum), the building of the wool merchants' patron Eumachia, and three small halls for the town council and its magistrates.",
+      "People came here to trade, to vote, to hear announcements and to watch processions. Statues of the town's leading men stood on the bases that are still lined up along the west side."
+    ],
+    "history": [
+      "The square was laid out in the 2nd century BC, when Pompeii was a Samnite town, and rebuilt in stone after it became a Roman colony in 80 BC. The earthquake of AD 62 badly damaged it, and much was still being repaired when Vesuvius erupted in AD 79."
+    ],
+    "visit": [
+      "The Forum is a short walk from the Porta Marina entrance of the excavations. Plaster casts of victims and finds from the town are kept in the Forum Granaries on its west side, behind a grille."
+    ],
+    "dates": [
+      [
+        "2nd century BC",
+        "The square is laid out"
+      ],
+      [
+        "80 BC",
+        "Pompeii becomes a Roman colony"
+      ],
+      [
+        "AD 62",
+        "An earthquake damages the buildings round it"
+      ],
+      [
+        "AD 79",
+        "Buried by the eruption of Vesuvius"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Forum of Pompeii (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Forum_(Pompeii)"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/forum.jpg",
+      "author": "Gary Todd from Xinzheng, China",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Pompeii_Forum_%26_Mt._Vesuvius_(9809458366).jpg"
+    }
+  },
+  {
+    "id": "temple-of-jupiter",
+    "name": "Temple of Jupiter",
+    "local": "Tempio di Giove",
+    "emoji": "⛩️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 40.74995,
+    "lon": 14.4845,
+    "sight": "jupiter",
+    "blurb": "The main temple of the town, on a high podium at the north end of the Forum, with Vesuvius rising straight behind it.",
+    "text": [
+      "The temple stands on a podium three metres high, reached by a broad flight of steps, at the head of the Forum. When Pompeii became a Roman colony it was given to the three gods of the Capitol in Rome: Jupiter, Juno and Minerva, whose statues stood in the cella.",
+      "Two arches stood on either side of it, and the left one still does. Seen from the south end of the Forum, the temple lines up with the summit of Vesuvius."
+    ],
+    "history": [
+      "It was built in the 2nd century BC, probably first for Jupiter alone. The earthquake of AD 62 left it in ruins, and the town was using a smaller temple meanwhile. It had not been rebuilt by AD 79."
+    ],
+    "dates": [
+      [
+        "2nd century BC",
+        "Built at the head of the Forum"
+      ],
+      [
+        "80 BC",
+        "Dedicated to Jupiter, Juno and Minerva"
+      ],
+      [
+        "AD 62",
+        "Ruined by an earthquake"
+      ],
+      [
+        "1816",
+        "Excavated"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Temple of Jupiter (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Jupiter_(Pompeii)"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/temple-of-jupiter.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Jupiter_(Pompeii)_01.jpg"
+    }
+  },
+  {
+    "id": "casa-del-fauno",
+    "name": "House of the Faun",
+    "local": "Casa del Fauno",
+    "emoji": "🗿",
+    "icon": "statue",
+    "kind": "place",
+    "lat": 40.75134,
+    "lon": 14.48449,
+    "sight": "house-faun",
+    "blurb": "The biggest house in Pompeii, a whole block, named after the bronze dancing faun in its atrium. The Alexander Mosaic was found here.",
+    "text": [
+      "The house fills a whole block of about 3,000 square metres on the Via della Fortuna. HAVE, Latin for welcome, is set in the pavement at the door. It has two atria, side by side, and two gardens with colonnades all round them, one behind the other.",
+      "A small bronze faun dances in the rainwater pool of the main atrium; the one there now is a copy. Between the two gardens, in an open room, lay the Alexander Mosaic: Alexander the Great on horseback charging the Persian king Darius at the battle of Issus, made of about one and a half million tiny stones. The original faun and the mosaic are in the National Archaeological Museum in Naples."
+    ],
+    "history": [
+      "The house was built in the 2nd century BC for a rich Samnite family, and was richer than most palaces of its time. It was excavated in 1830 and 1831. The Alexander Mosaic was lifted in 1843 and taken to Naples."
+    ],
+    "visit": [
+      "A copy of the mosaic lies in its place in the exedra between the gardens."
+    ],
+    "dates": [
+      [
+        "2nd century BC",
+        "Built"
+      ],
+      [
+        "1830–1831",
+        "Excavated"
+      ],
+      [
+        "1843",
+        "The Alexander Mosaic is moved to Naples"
+      ]
+    ],
+    "links": [
+      {
+        "title": "House of the Faun (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/House_of_the_Faun"
+      },
+      {
+        "title": "Alexander Mosaic (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Mosaic"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/casa-del-fauno.jpg",
+      "author": "Gary Todd from Xinzheng, China",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_House_of_the_Faun_with_Copy_of_Statue_of_Dancing_Faun_(48442096817).jpg",
+      "license_url": ""
+    }
+  },
+  {
+    "id": "casa-dei-vettii",
+    "name": "House of the Vettii",
+    "local": "Casa dei Vettii",
+    "emoji": "💰",
+    "icon": "door",
+    "kind": "place",
+    "lat": 40.75224,
+    "lon": 14.48498,
+    "sight": "house-vettii",
+    "blurb": "The house of two freed slaves who grew rich in trade, with the best-known wall paintings of Pompeii round its garden.",
+    "text": [
+      "Aulus Vettius Restitutus and Aulus Vettius Conviva were brothers and former slaves who made their money as merchants. In the atrium stood their two strongboxes, where every visitor could see them. Behind it lies a garden with columns, fountains and statues, which has been replanted the way it was.",
+      "The rooms round the garden are painted in the last style of Pompeii, with scenes from myths. In the main dining room a frieze of little cupids runs along the black walls, making perfume, working gold, selling wine and racing chariots. A painting of Priapus at the entrance was meant to bring luck."
+    ],
+    "history": [
+      "The house was excavated in 1894 and 1895. It was closed for many years for restoration and reopened in January 2023."
+    ],
+    "dates": [
+      [
+        "After AD 62",
+        "Redecorated"
+      ],
+      [
+        "1894–1895",
+        "Excavated"
+      ],
+      [
+        "2023",
+        "Reopened after twenty years of restoration"
+      ]
+    ],
+    "links": [
+      {
+        "title": "House of the Vettii (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/House_of_the_Vettii"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/casa-dei-vettii.jpg",
+      "author": "Gary Todd from Xinzheng, China",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii_(Pompeii),_Peristyle_(9809081996).jpg"
+    }
+  },
+  {
+    "id": "lupanare",
+    "name": "The Lupanare",
+    "local": "Lupanare",
+    "emoji": "🏮",
+    "icon": "door",
+    "kind": "place",
+    "lat": 40.75033,
+    "lon": 14.48683,
+    "sight": "house-lupanare",
+    "blurb": "The only building in Pompeii built as a brothel: a corridor of small cells with stone beds, erotic paintings and over a hundred graffiti.",
+    "text": [
+      "The Lupanare stands at a corner of two narrow lanes east of the Forum. On the ground floor a corridor leads to five small cells, each with a bed of stone on which a mattress lay. Over the doors are small paintings of couples.",
+      "On the walls are more than a hundred graffiti, scratched by visitors and by the women who worked here, with names, prices and boasts. Upstairs were five more rooms, reached by their own stair from the street."
+    ],
+    "history": [
+      "Pompeii had other places where sex was sold, mostly single rooms in houses or above bars. This is the one built for the purpose. It was excavated in 1862 and restored in 2006."
+    ],
+    "dates": [
+      [
+        "1st century AD",
+        "In use"
+      ],
+      [
+        "1862",
+        "Excavated"
+      ],
+      [
+        "2006",
+        "Restored"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Lupanar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lupanar_(Pompeii)"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/lupanare.jpg",
+      "author": "JadeRadula",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lupanar.jpg"
+    }
+  },
+  {
+    "id": "stabian-baths",
+    "name": "The Stabian Baths",
+    "local": "Terme Stabiane",
+    "emoji": "🛁",
+    "icon": "drop",
+    "kind": "place",
+    "lat": 40.74999,
+    "lon": 14.48756,
+    "sight": "stabian-baths",
+    "blurb": "The oldest public baths of Pompeii, with an exercise court, a swimming pool and rooms of cold, warm and hot water, for men and for women.",
+    "text": [
+      "The baths take their name from the Via Stabiana, at the crossing with the Via dell'Abbondanza. You come into a large court where men exercised, with a swimming pool on one side. Off it lie the men's rooms: a changing room, a cold bath, a warm room and a hot room. The women had a smaller set of their own, heated from the same furnace.",
+      "The floors of the hot rooms stood on small brick pillars, so that hot air from the furnace could pass under them and up through the walls. The stucco on the vaults of the changing room is still there."
+    ],
+    "history": [
+      "The first baths here date from the 4th or 3rd century BC, which makes them among the oldest known in the Roman world. They were enlarged several times, and were being repaired after the earthquake of AD 62."
+    ],
+    "dates": [
+      [
+        "4th–3rd century BC",
+        "The first baths"
+      ],
+      [
+        "80 BC",
+        "Rebuilt after Pompeii becomes a Roman colony"
+      ],
+      [
+        "1850s",
+        "Excavated"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Stabian Baths (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Stabian_Baths"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/stabian-baths.jpg",
+      "author": "Mary Harrsch",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Men%27s_frigidarium_(cold_baths)_in_the_Stabian_Baths_Pompeii_Prowalk.jpg"
+    }
+  },
+  {
+    "id": "grand-theatre",
+    "name": "The Great Theatre",
+    "local": "Teatro Grande",
+    "emoji": "🎭",
+    "icon": "mask",
+    "kind": "place",
+    "lat": 40.74882,
+    "lon": 14.4884,
+    "sight": "grand-theatre",
+    "blurb": "A theatre in the Greek style, set into a slope in the south of the town, for about 5,000 people, with the small roofed Odeon beside it.",
+    "text": [
+      "The seats rise in a half circle from the orchestra, built against the natural slope of the ground. Plays, mimes and pantomimes were put on here. In summer an awning of cloth was stretched over the seats on poles; the stone rings that held them are still on the top wall.",
+      "Next to it stands the Odeon, a small theatre for about 1,000 people with a roof, for music and readings. Behind the stage lies a large court with columns, where the audience walked between the acts, later used as a barracks for gladiators."
+    ],
+    "history": [
+      "The theatre was built in the 2nd century BC and enlarged in the time of Augustus by the Holconii, a family of the town, whose names are on it. It was excavated from 1764 on, among the first parts of Pompeii to be uncovered."
+    ],
+    "visit": [
+      "Concerts and plays are still put on in the theatre in summer."
+    ],
+    "dates": [
+      [
+        "2nd century BC",
+        "Built"
+      ],
+      [
+        "About 80 BC",
+        "The Odeon is added beside it"
+      ],
+      [
+        "About 3–2 BC",
+        "Enlarged by the Holconii"
+      ],
+      [
+        "1764",
+        "Excavation begins"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Theatres of Pompeii (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Theatres_of_Pompeii"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/grand-theatre.jpg",
+      "author": "MumblerJamie",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Large_Theatre_-_Pompeii_Scavi.jpg"
+    }
+  },
+  {
+    "id": "amphitheatre",
+    "name": "The Amphitheatre",
+    "local": "Anfiteatro",
+    "emoji": "🏟️",
+    "icon": "columns",
+    "kind": "place",
+    "lat": 40.75128,
+    "lon": 14.49518,
+    "sight": "amphitheatre",
+    "blurb": "The oldest stone amphitheatre that survives, at the east end of the town, built about 70 BC for some 20,000 people to watch gladiators.",
+    "text": [
+      "The amphitheatre stands in the south-east corner of the town, against the walls. Its arena was dug down into the ground and the earth piled up into banks for the seats, held up by an outer wall with arches and outside stairs. It could seat about 20,000 people, more than lived in the town.",
+      "Gladiators fought here, and wild animals were hunted. In AD 59 a fight broke out between the people of Pompeii and those of Nuceria, a nearby town, during a show. Many died, and the Roman Senate banned games here for ten years. A painting of the riot, found in a house of the town, is in Naples."
+    ],
+    "history": [
+      "Two magistrates of the new Roman colony, Gaius Quinctius Valgus and Marcus Porcius, paid for it in about 70 BC, as an inscription says. It is about 135 metres long and was excavated in 1748 and again in 1813–1816."
+    ],
+    "visit": [
+      "It lies at the far east end of the excavations, about 20 minutes on foot from the Forum, next to the Piazza Anfiteatro entrance. Pink Floyd filmed a concert here without an audience in 1971."
+    ],
+    "dates": [
+      [
+        "About 70 BC",
+        "Built"
+      ],
+      [
+        "AD 59",
+        "Riot between the people of Pompeii and Nuceria"
+      ],
+      [
+        "1748",
+        "First excavated"
+      ],
+      [
+        "1971",
+        "Pink Floyd film Live at Pompeii here"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Amphitheatre of Pompeii (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/amphitheatre.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphitheatre_(Pompeii)_02.jpg"
+    }
+  },
+  {
+    "id": "thermopolium",
+    "name": "Thermopolium of Vetutius Placidus",
+    "local": "Thermopolium di Vetutius Placidus",
+    "emoji": "🍷",
+    "icon": "utensils",
+    "kind": "place",
+    "lat": 40.75075,
+    "lon": 14.49008,
+    "sight": "house-thermopolium",
+    "blurb": "A street bar on the Via dell'Abbondanza, with its counter of coloured marble and the jars for food and wine set into it.",
+    "text": [
+      "Pompeii had about 150 bars like this, where people bought hot food and wine at a counter open to the street. Most houses had no kitchen of their own. In this one the L-shaped counter is clad with pieces of coloured marble, and jars for the food and drink are sunk into its top.",
+      "On the wall behind the counter is the shrine of the house, painted with the gods Mercury, for profit, and Bacchus, for wine, and the guardian spirits of the household. The family lived in the rooms behind, round a small garden."
+    ],
+    "history": [
+      "The bar belonged to Lucius Vetutius Placidus, whose name was painted on its front, with his wife Ascula. When it was dug out, a jar in the counter held a pile of coins, the last day's takings or the family's savings."
+    ],
+    "dates": [
+      [
+        "AD 79",
+        "In business on the day of the eruption"
+      ],
+      [
+        "1910s",
+        "Excavated along the Via dell'Abbondanza"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Thermopolium (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Thermopolium"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/thermopolium.jpg",
+      "author": "Carole Raddato from FRANKFURT, Germany",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Marble_surfaced_counter_of_a_thermopolium,_Pompeii_(14856412618).jpg"
+    }
+  },
+  {
+    "id": "garden-of-the-fugitives",
+    "name": "Garden of the Fugitives",
+    "local": "Orto dei Fuggiaschi",
+    "emoji": "⚱️",
+    "icon": "flower",
+    "kind": "place",
+    "lat": 40.7492,
+    "lon": 14.49315,
+    "sight": "casts",
+    "blurb": "A garden by the south walls where thirteen people died under the ash. Plaster casts show where and how they fell.",
+    "text": [
+      "The garden was a vineyard in the south-east of the town, near the Porta Nocera. Thirteen people, adults and children, tried to get out of the town this way during the eruption and died here, overcome by the hot cloud of gas and ash that swept over Pompeii.",
+      "The ash set hard round their bodies, which rotted away and left hollows. In 1863 the archaeologist Giuseppe Fiorelli thought of pouring plaster into such hollows, and the casts show the people as they lay. The casts of the garden lie where they were found, under glass."
+    ],
+    "history": [
+      "The garden was excavated in 1961. Other casts, of people and of a dog, are kept in the Forum Granaries and shown in the town."
+    ],
+    "dates": [
+      [
+        "AD 79",
+        "Thirteen people die here in the eruption"
+      ],
+      [
+        "1863",
+        "Fiorelli makes the first plaster casts in Pompeii"
+      ],
+      [
+        "1961",
+        "The garden is excavated"
+      ]
+    ],
+    "links": [
+      {
+        "title": "Garden of the Fugitives (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Garden_of_the_Fugitives"
+      },
+      {
+        "title": "Parco Archeologico di Pompei",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ],
+    "photo": {
+      "src": "/assets/img/photos/pompeii/garden-of-the-fugitives.jpg",
+      "author": "Sparrow (麻雀)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pompeii_casts_07.jpg"
+    }
+  }
+]

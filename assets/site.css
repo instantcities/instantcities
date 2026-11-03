@@ -204,6 +204,9 @@ footer .alt a + a::before { content: '·'; display: inline-block; margin: 0 8px;
 .dates dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; font-size: 15px; }
 .dates dt { font-weight: 600; white-space: nowrap; }
 .dates dd { color: #444; }
+.landmark-side .links { margin-top: 28px; }
+.landmark-side .links h2 { font-size: 20px; margin-bottom: 12px; }
+.landmark-side .links ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 15px; }
 
 /* The home page's "Learn more" under each card, its few words about the project, and the page about the project (/about/): its words beside a list of its headings that stays in view */
 .card-more { margin-top: 10px; font-weight: 500; }
