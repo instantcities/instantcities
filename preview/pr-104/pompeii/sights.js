@@ -24,6 +24,7 @@ export const SIGHTS = [
   },
   {
     id: 'basilica', emoji: '⚖️', x: -176, z: 226, r: 60,
+    arrival: { x: -170, z: 226, look: [-230, 226], open: true },
     text: {
       en: { name: 'The Basilica', text: 'The law court and exchange, on the south-west corner of the Forum, about 150 BC. It is the oldest basilica we know of, and one of the biggest buildings in town.' },
       nl: { name: 'De basiliek', text: 'De rechtbank en beurs, op de zuidwesthoek van het Forum, rond 150 v.Chr. Het is de oudste basiliek die we kennen en een van de grootste gebouwen van de stad.' },
@@ -31,6 +32,7 @@ export const SIGHTS = [
   },
   {
     id: 'apollo', emoji: '☀️', x: -183, z: 160, r: 50,
+    arrival: { x: -180, z: 180, look: [-183, 150], open: true },
     text: {
       en: { name: 'Temple of Apollo', text: 'The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.' },
       nl: { name: 'Apollotempel', text: 'De oudste tempel van Pompeii, uit de 6de eeuw v.Chr., in een hof met een zuilengang van 48 zuilen. Apollo was de beschermer van de stad. De beelden hier zijn kopieën.' },
