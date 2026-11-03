@@ -844,10 +844,11 @@ export function buildMap(data, area) {
     } else {
       const h = Number((BigInt(wy.id) * 2654435761n) % 1000n) / 1000;
       floors = a > 900 ? 4 : a > 250 ? 3 : h < 0.45 ? 2 : 3;
-      if (A.floors) floors = Math.min(floors, A.floors); // a town of lower houses than Ghent's
+      if (A.floors && !t['instant:modern']) floors = Math.min(floors, A.floors); // a town of lower houses than Ghent's (but not its buildings of today)
       if (SHEDS.has(kind)) floors = 1;
     }
     const b = { p: flat(g), f: floors, r: null, k: kind };
+    if (t['instant:modern']) b.m = 1; // of today, in an old town drawn as ruins (tools/osm_map.mjs's fill.modern)
     const fr = front(g);
     const height = parseFloat(t.height), base = parseFloat(t.min_height);
     if (height >= 20 || kind === 'part') {

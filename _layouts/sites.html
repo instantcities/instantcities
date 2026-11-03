@@ -1,41 +1,43 @@
-{%- comment -%} The page of sites (/sites/): famous places that are not cities, each with a game of its own, from _data/sites.yml. English only, like the art page. {%- endcomment -%}
+{%- comment -%} The page of sites (/sites/, /nl/plekken/): famous places that are not cities, each with a game of its own, from _data/sites.yml; in another language a site's words are in _data/i18n/<lang>/sites.yml (by id), what it leaves out stays English. {%- endcomment -%}
 {%- include lang.html -%}
+{%- assign SX = site.data.i18n[L].sites -%}
 {%- assign playable = site.data.sites | where_exp: 's', 's.soon != true' -%}
 {%- assign soon = site.data.sites | where: 'soon', true -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = 'Famous sites in 3D: six places to explore · Instant Cities' -%}
-{%- capture description %}{{ playable.size }} famous places you can walk or race through in your browser, each with its own map, race and tour.{% endcapture -%}
-{%- assign path = '/sites/' -%}
+{%- assign n_words = T.number_words[playable.size] | default: playable.size -%}
+{%- assign title = T.sites_title | replace: '%n', n_words -%}
+{%- assign description = T.sites_description | replace: '%n', playable.size -%}
+{%- assign path = T.urls.sites -%}
 {%- assign image = '/og-image.jpg' -%}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
     <section class="hero home-hero page-hero">
       <div class="hero-text">
-        <p class="crumbs"><a href="{{ T.urls.home }}">Home</a> › Sites</p>
-        <h1>Famous sites</h1>
-        <p class="tagline">Places that are not cities, from temples to tombs, each with a race, a tour and a few quests.</p>
-        <p class="lead">The map comes from OpenStreetMap where it has one, and the monuments are modelled by hand.</p>
+        <p class="crumbs"><a href="{{ T.urls.home }}">{{ T.nav_home }}</a> › {{ T.nav_sites }}</p>
+        <h1>{{ T.sites_h1 }}</h1>
+        <p class="tagline">{{ T.sites_tagline }}</p>
+        <p class="lead">{{ T.sites_lead }}</p>
       </div>
     </section>
 
     <section class="cities sites">
-      <h2>Sites you can visit</h2>
+      <h2>{{ T.sites_visit }}</h2>
       <div class="grid">
-        {%- for s in playable %}
+        {%- for s in playable %}{% assign sx = SX[s.id] %}{% assign s_game = sx.game | default: s.game %}
         <article class="card city-card site-card">
-          <a class="site-thumb" href="/sites/{{ s.id }}/"><img src="/assets/img/sites/{{ s.id }}.jpg" alt="" loading="lazy" width="1440" height="810"></a>
-          <h3><a href="/sites/{{ s.id }}/">{{ s.name }}</a> <small>{{ s.place }}</small></h3>
-          <p>{{ s.card }}</p>
+          <a class="site-thumb" href="{{ T.urls.sites }}{{ s.id }}/"><img src="/assets/img/sites/{{ s.id }}.jpg" alt="" loading="lazy" width="1440" height="810"></a>
+          <h3><a href="{{ T.urls.sites }}{{ s.id }}/">{{ sx.name | default: s.name }}</a> <small>{{ sx.place | default: s.place }}</small></h3>
+          <p>{{ sx.card | default: s.card }}</p>
           <p class="city-links">
-            <a class="play small" href="/{{ s.id }}/play/">{% include icon.html name="play" %} {{ T.play }}</a>
-            <a href="/sites/{{ s.id }}/">About {{ s.game }}</a>
+            <a class="play small" href="/{{ s.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play }}</a>
+            <a href="{{ T.urls.sites }}{{ s.id }}/">{{ T.about_game | replace: '%g', s_game }}</a>
           </p>
         </article>
         {%- endfor %}
@@ -44,12 +46,12 @@
 
     {%- if soon.size > 0 %}
     <section id="soon" class="cities soon">
-      <h2>Coming soon</h2>
+      <h2>{{ T.soon_title }}</h2>
       <div class="grid">
-        {%- for s in soon %}
+        {%- for s in soon %}{% assign sx = SX[s.id] %}
         <article class="card city-card is-soon">
-          <h3>{{ s.name }} <small>{{ s.place }}</small></h3>
-          <p>{{ s.card }}</p>
+          <h3>{{ sx.name | default: s.name }} <small>{{ sx.place | default: s.place }}</small></h3>
+          <p>{{ sx.card | default: s.card }}</p>
           <p class="city-links"><span class="soon-tag">{{ T.coming_soon }}</span></p>
         </article>
         {%- endfor %}
@@ -59,7 +61,7 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="{{ T.urls.home }}">Instant Cities</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a> <a href="/art/">Art</a></p>
+    <p class="alt"><a href="{{ T.urls.home }}">Instant Cities</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a> <a href="{{ T.urls.art }}">{{ T.nav_art }}</a></p>
     <p>{{ T.credits }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>

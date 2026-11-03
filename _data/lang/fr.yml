@@ -8,6 +8,8 @@ urls:
   about: /fr/a-propos/
   privacy: /fr/confidentialite/
   terms: /fr/conditions/
+  art: /en/art/ # not translated yet: the English pages (content_langs in home.yml)
+  sites: /en/sites/
 
 nav_home: Accueil
 nav_cities: Villes
@@ -146,6 +148,7 @@ lm_art_all: "Tout l’art célèbre en 3D ›"
 lm_more_in: "Plus à %c"
 lm_osm_title: "%l sur OpenStreetMap"
 lm_alt: "%l dans Instant %c"
+photo_credit: "Photo : %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
 map_label: "Carte du centre %d avec ses principaux lieux numérotés"
 map_caption: "Le centre %d, dessiné à partir des mêmes données OpenStreetMap que le jeu."
 map_osm: "Toute la ville sur OpenStreetMap"

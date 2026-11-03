@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // The famous paintings, statues and treasures in the buildings you can go into, on the site: the
 // page of them all at /art/ (art/index.html, _layouts/art.html) and a page for each at /art/<id>/
-// (_layouts/artwork.html), from _data/art.json, and the list the game shows them full screen from
+// (_layouts/artwork.html), and the same in Dutch at /nl/kunst/ (its words in _data/i18n/nl/art.yml); the pages are in /en/art/ (English) and /nl/kunst/, and /art/ only sends on to them, from _data/art.json, and the list the game shows them full screen from
 // (core/js/inside/artlist.js). Each piece's photo comes from Wikimedia Commons (its
 // `commons` file): assets/img/art/<id>.jpg (at most 1280 pixels along its longer side, for its page
 // and to hang in the game, core/js/inside/photo.js) and <id>-s.jpg (at most 480, for the cards), its
@@ -28,10 +28,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { contentLangs, contentDir } from './langs.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, '_data', 'art.json'), CREDITS = path.join(ROOT, '_data', 'art_photos.json');
-const IMG = path.join(ROOT, 'assets', 'img', 'art'), PAGES = path.join(ROOT, 'art');
+const IMG = path.join(ROOT, 'assets', 'img', 'art');
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
 const HEADERS = { 'User-Agent': 'Instant Cities art tool (https://instantcities.net)' };
 
@@ -57,14 +58,29 @@ if (cmd === 'photos') await photos(only.length ? pieces.filter(a => only.include
 else pages();
 
 function pages() {
-  fs.mkdirSync(PAGES, { recursive: true });
-  fs.writeFileSync(path.join(PAGES, 'index.html'), '---\nlayout: art\n---\n');
-  for (const a of pieces) {
-    fs.mkdirSync(path.join(PAGES, a.id), { recursive: true });
-    fs.writeFileSync(path.join(PAGES, a.id, 'index.html'), `---\nlayout: artwork\nart: ${a.id}\n---\n`);
+  // the pages in each language that has them (content_langs in _data/home.yml): /en/art/ in English, /nl/kunst/ in Dutch
+  for (const lang of contentLangs) {
+    const dir = path.join(ROOT, contentDir(lang, 'art')), l = `lang: ${lang}\n`;
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.html'), `---\nlayout: art\n${l}ref: art\n---\n`);
+    for (const a of pieces) {
+      fs.mkdirSync(path.join(dir, a.id), { recursive: true });
+      fs.writeFileSync(path.join(dir, a.id, 'index.html'), `---\nlayout: artwork\n${l}ref: artwork\nart: ${a.id}\n---\n`);
+    }
+    for (const old of fs.readdirSync(dir)) {
+      if (old !== 'index.html' && !ids.has(old)) fs.rmSync(path.join(dir, old), { recursive: true });
+    }
   }
-  for (const old of fs.readdirSync(PAGES)) {
-    if (old !== 'index.html' && !ids.has(old)) fs.rmSync(path.join(PAGES, old), { recursive: true });
+  // the old addresses (/art/, /art/<id>/), a small page that sends a visitor on to the page in their language
+  const old = path.join(ROOT, 'art');
+  fs.mkdirSync(old, { recursive: true });
+  fs.writeFileSync(path.join(old, 'index.html'), '---\nlayout: lang-redirect\nref: art\n---\n');
+  for (const a of pieces) {
+    fs.mkdirSync(path.join(old, a.id), { recursive: true });
+    fs.writeFileSync(path.join(old, a.id, 'index.html'), `---\nlayout: lang-redirect\nref: artwork\nart: ${a.id}\n---\n`);
+  }
+  for (const gone of fs.readdirSync(old)) {
+    if (gone !== 'index.html' && !ids.has(gone)) fs.rmSync(path.join(old, gone), { recursive: true });
   }
   artList();
   const missing = pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))).map(a => a.id);

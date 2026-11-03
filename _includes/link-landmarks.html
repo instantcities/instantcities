@@ -16,9 +16,7 @@
 {%- for ll_m in ll_museums -%}
   {%- assign ll_pieces = site.data.art.pieces | where: 'museum', ll_m.id -%}
   {%- for ll_a in ll_pieces -%}
-    {%- assign ll_url = '/art/' | append: ll_a.id | append: '/' -%}
-    {%- assign ll_name = ll_a.title | remove_first: 'The ' -%}
-    {%- capture ll_text %}{% include link-first.html text=ll_text name=ll_name url=ll_url %}{% endcapture -%}
+    {%- capture ll_text %}{% include art-link.html text=ll_text art=ll_a %}{% endcapture -%}
   {%- endfor -%}
 {%- endfor -%}
 {{- ll_text -}}

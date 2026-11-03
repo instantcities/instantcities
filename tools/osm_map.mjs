@@ -59,8 +59,12 @@ function addStreets(data, area) {
 // Houses to fill the gaps in a walled town whose excavated blocks OpenStreetMap maps only in part
 // (area.fill: { wall (the way id of the town wall), angle (degrees: how the town's lots are turned),
 // lot ([width, depth] metres), gap, clear (metres kept clear beside a street), skip (the share of lots left empty), seed, exclude ([[x, z, r]] in game metres: squares and gardens left
-// open) }; needs geo). Lots on a grid turned to the streets, each one only where it stands clear of
-// the streets, the buildings already there, the map's gardens and woods, and the exclusions.
+// open), plan (a file of rings of [lat, lon]: the parts of the town that are built, even-odd; see
+// tools/pompeii-plan.py) }; needs geo). Lots on a grid turned to the streets, each one only where it
+// stands clear of the streets, the buildings already there, the map's gardens and woods, and the
+// exclusions. With a plan, only inside it, the lots side by side as in a town's blocks (gap apart,
+// none skipped), and the strips the whole lots leave along the streets and round the buildings
+// already there filled after with half and quarter ones.
 function fillBlocks(map, area, data) {
   const f = area.fill, g = map.geo;
   if (!f || !g) return 0;
@@ -70,39 +74,98 @@ function fillBlocks(map, area, data) {
   const pairs = p => Array.from({ length: p.length / 2 }, (_, i) => [p[2 * i], p[2 * i + 1]]);
   const box = p => { const xs = p.filter((_, i) => !(i % 2)), zs = p.filter((_, i) => i % 2); return [Math.min(...xs), Math.min(...zs), Math.max(...xs), Math.max(...zs)]; };
   const segDist = (px, pz, ax, az, bx, bz) => { const dx = bx - ax, dz = bz - az, L = dx * dx + dz * dz || 1e-9, t = Math.max(0, Math.min(1, ((px - ax) * dx + (pz - az) * dz) / L)); return Math.hypot(px - ax - t * dx, pz - az - t * dz); };
+  const cross = (a, b, c, d) => { const o = (p, q, r) => Math.sign((q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])); return o(a, b, c) !== o(a, b, d) && o(c, d, a) !== o(c, d, b); };
   const roads = map.roads.map(rd => ({ p: rd.p, half: rd.w / 2 + (f.clear ?? 2.2), b: box(rd.p) }));
-  const built = map.buildings.map(b => box(b.p));
+  // the buildings there already, by their outlines (a lot may stand in the corner a turned one leaves)
+  const built = map.buildings.map(b => ({ poly: pairs(b.p), b: box(b.p) }));
   const greens = map.areas.filter(a => a.k === 'green' || a.k === 'wood' || a.k === 'water').map(a => ({ poly: pairs(a.p), b: box(a.p) }));
+  // the plan: rings of [lat, lon] in a file, as game metres
+  const plan = f.plan ? JSON.parse(fs.readFileSync(path.join(HERE, '..', f.plan), 'utf8')).rings.map(r => { const poly = r.map(([lat, lon]) => toGame({ lat, lon })); return { poly, b: box(poly.flat()) }; }) : null;
+  const planned = (x, z) => plan.reduce((n, r) => n + (x > r.b[0] && x < r.b[2] && z > r.b[1] && z < r.b[3] && inside(x, z, r.poly) ? 1 : 0), 0) % 2 === 1;
   let seed = f.seed ?? 1;
   const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
   const th = (f.angle * Math.PI) / 180, c = Math.cos(th), sn = Math.sin(th);
   const [wx0, wz0, wx1, wz1] = box(wall.flat());
   const us = [], vs = [];
   for (const [x, z] of [[wx0, wz0], [wx1, wz0], [wx1, wz1], [wx0, wz1]]) { us.push(x * c + z * sn); vs.push(-x * sn + z * c); }
-  const [lw, ld] = f.lot, gap = f.gap ?? 2.2;
+  const gap = f.gap ?? 2.2;
+  // whole lots first; with a plan then half and quarter ones in what is left
+  const sizes = plan ? [[1, 1], [0.5, 1], [1, 0.5], [0.5, 0.5], [0.5, 0.25], [0.25, 0.5]] : [[1, 1]];
   let added = 0;
-  for (let u = Math.min(...us); u < Math.max(...us); u += lw + gap) {
-    for (let v = Math.min(...vs); v < Math.max(...vs); v += ld + gap) {
-      const w = lw * (0.65 + 0.35 * rnd()), d = ld * (0.6 + 0.4 * rnd()), skip = rnd() < (f.skip ?? 0.12);
-      const cu = u + w / 2, cv = v + d / 2;
-      const pts = [[0, 0], [w, 0], [w, d], [0, d]].map(([a, b]) => [(u + a) * c - (v + b) * sn, (u + a) * sn + (v + b) * c]);
-      const mid = [cu * c - cv * sn, cu * sn + cv * c];
-      if (skip || !pts.every(([x, z]) => inside(x, z, wall)) || (f.exclude ?? []).some(([x, z, r]) => Math.hypot(mid[0] - x, mid[1] - z) < r)) continue;
-      const bx = [Math.min(...pts.map(p => p[0])) - 0.5, Math.min(...pts.map(p => p[1])) - 0.5, Math.max(...pts.map(p => p[0])) + 0.5, Math.max(...pts.map(p => p[1])) + 0.5];
-      if (built.some(b => b[0] < bx[2] && b[2] > bx[0] && b[1] < bx[3] && b[3] > bx[1])) continue;
-      const samples = [...pts, mid, ...pts.map((p, i) => [(p[0] + pts[(i + 1) % 4][0]) / 2, (p[1] + pts[(i + 1) % 4][1]) / 2])];
-      if (samples.some(([x, z]) => greens.some(gr => x > gr.b[0] && x < gr.b[2] && z > gr.b[1] && z < gr.b[3] && inside(x, z, gr.poly)))) continue;
-      let clear = true;
-      for (const rd of roads) {
-        if (bx[2] < rd.b[0] - rd.half || bx[0] > rd.b[2] + rd.half || bx[3] < rd.b[1] - rd.half || bx[1] > rd.b[3] + rd.half) continue;
-        for (let k = 0; k + 3 < rd.p.length && clear; k += 2) if (samples.some(([x, z]) => segDist(x, z, rd.p[k], rd.p[k + 1], rd.p[k + 2], rd.p[k + 3]) < rd.half)) clear = false;
-        if (!clear) break;
+  for (const [fw, fd] of sizes) {
+    const lw = f.lot[0] * fw, ld = f.lot[1] * fd;
+    for (let u = Math.min(...us); u < Math.max(...us); u += lw + gap) {
+      for (let v = Math.min(...vs); v < Math.max(...vs); v += ld + gap) {
+        const w = plan ? lw : lw * (0.65 + 0.35 * rnd()), d = plan ? ld : ld * (0.6 + 0.4 * rnd()), skip = !plan && rnd() < (f.skip ?? 0.12);
+        const cu = u + w / 2, cv = v + d / 2;
+        const pts = [[0, 0], [w, 0], [w, d], [0, d]].map(([a, b]) => [(u + a) * c - (v + b) * sn, (u + a) * sn + (v + b) * c]);
+        const mid = [cu * c - cv * sn, cu * sn + cv * c];
+        if (skip || !pts.every(([x, z]) => inside(x, z, wall)) || (f.exclude ?? []).some(([x, z, r]) => Math.hypot(mid[0] - x, mid[1] - z) < r)) continue;
+        const samples = [...pts, mid, ...pts.map((p, i) => [(p[0] + pts[(i + 1) % 4][0]) / 2, (p[1] + pts[(i + 1) % 4][1]) / 2])];
+        if (plan && !samples.every(([x, z]) => planned(x, z))) continue;
+        const bx = [Math.min(...pts.map(p => p[0])) - 0.5, Math.min(...pts.map(p => p[1])) - 0.5, Math.max(...pts.map(p => p[0])) + 0.5, Math.max(...pts.map(p => p[1])) + 0.5];
+        // clear of the buildings: none of its points in one, none of theirs in it, no edges crossing
+        // (the lot grown by half a metre all round, so that houses do not touch)
+        const grown = [[-0.5, -0.5], [w + 0.5, -0.5], [w + 0.5, d + 0.5], [-0.5, d + 0.5]].map(([a, b]) => [(u + a) * c - (v + b) * sn, (u + a) * sn + (v + b) * c]);
+        const hits = bd => bd.b[0] < bx[2] && bd.b[2] > bx[0] && bd.b[1] < bx[3] && bd.b[3] > bx[1]
+          && (samples.some(([x, z]) => inside(x, z, bd.poly)) || bd.poly.some(([x, z]) => inside(x, z, grown))
+            || bd.poly.some((p, i) => grown.some((q, j) => cross(p, bd.poly[(i + 1) % bd.poly.length], q, grown[(j + 1) % 4]))));
+        if (built.some(hits)) continue;
+        if (samples.some(([x, z]) => greens.some(gr => x > gr.b[0] && x < gr.b[2] && z > gr.b[1] && z < gr.b[3] && inside(x, z, gr.poly)))) continue;
+        let clear = true;
+        for (const rd of roads) {
+          if (bx[2] < rd.b[0] - rd.half || bx[0] > rd.b[2] + rd.half || bx[3] < rd.b[1] - rd.half || bx[1] > rd.b[3] + rd.half) continue;
+          for (let k = 0; k + 3 < rd.p.length && clear; k += 2) {
+            const a = [rd.p[k], rd.p[k + 1]], b = [rd.p[k + 2], rd.p[k + 3]];
+            // near the street at one of its points, or the street running through it between them
+            if (samples.some(([x, z]) => segDist(x, z, a[0], a[1], b[0], b[1]) < rd.half) || inside(a[0], a[1], pts)
+              || pts.some((q, j) => cross(a, b, q, pts[(j + 1) % 4]))) clear = false;
+          }
+          if (!clear) break;
+        }
+        if (!clear) continue;
+        map.buildings.push({ p: pts.flat().map(v => Math.round(v * 10) / 10), f: rnd() < 0.2 ? 2 : 1, r: null, k: 'yes' });
+        built.push({ poly: pts, b: box(pts.flat()) });
+        added++;
       }
-      if (!clear) continue;
-      map.buildings.push({ p: pts.flat().map(v => Math.round(v * 10) / 10), f: rnd() < 0.2 ? 2 : 1, r: null, k: 'yes' });
-      built.push(bx);
-      added++;
     }
+  }
+  // vineyards (fill.vineyards: { plot: [length, width] metres, gap }): on the parts of the town the
+  // plan has still buried, as on the site today, in plots turned like the lots, the rows of vines
+  // along a plot's length (its first edge; js/scenery.js plants them), half plots in what is left
+  if (plan && f.vineyards) {
+    const [pl, pw] = f.vineyards.plot, vgap = f.vineyards.gap ?? 4;
+    const margin = f.vineyards.clear ?? 3, near = (x, z) => roads.some(rd => {
+      if (x < rd.b[0] - rd.half - margin || x > rd.b[2] + rd.half + margin || z < rd.b[1] - rd.half - margin || z > rd.b[3] + rd.half + margin) return false;
+      for (let k = 0; k + 3 < rd.p.length; k += 2) if (segDist(x, z, rd.p[k], rd.p[k + 1], rd.p[k + 2], rd.p[k + 3]) < rd.half + margin) return true;
+      return false;
+    });
+    let plots = 0;
+    for (const [fl, fw] of [[1, 1], [0.5, 1], [1, 0.5], [0.5, 0.5]]) {
+      const w = pl * fl, d = pw * fw;
+      for (let u = Math.min(...us); u < Math.max(...us); u += w + vgap) {
+        for (let v = Math.min(...vs); v < Math.max(...vs); v += d + vgap) {
+          const pts = [[0, 0], [w, 0], [w, d], [0, d]].map(([a, b]) => [(u + a) * c - (v + b) * sn, (u + a) * sn + (v + b) * c]);
+          const samples = [];
+          for (let i = 0; i <= 4; i++) for (let j = 0; j <= 3; j++) samples.push([(u + (w * i) / 4) * c - (v + (d * j) / 3) * sn, (u + (w * i) / 4) * sn + (v + (d * j) / 3) * c]);
+          const mid = samples[7];
+          if (!samples.every(([x, z]) => inside(x, z, wall) && !planned(x, z))) continue;
+          if ((f.exclude ?? []).some(([x, z, r]) => Math.hypot(mid[0] - x, mid[1] - z) < r + Math.hypot(w, d) / 2)) continue;
+          if (samples.some(([x, z]) => near(x, z) || greens.some(gr => x > gr.b[0] && x < gr.b[2] && z > gr.b[1] && z < gr.b[3] && inside(x, z, gr.poly)))) continue;
+          const bx = box(pts.flat()), grown = pts;
+          const hits = bd => bd.b[0] < bx[2] + 2 && bd.b[2] > bx[0] - 2 && bd.b[1] < bx[3] + 2 && bd.b[3] > bx[1] - 2
+            && (samples.some(([x, z]) => inside(x, z, bd.poly)) || bd.poly.some(([x, z]) => inside(x, z, grown))
+              || bd.poly.some((p, i) => grown.some((q, j) => cross(p, bd.poly[(i + 1) % bd.poly.length], q, grown[(j + 1) % 4]))));
+          if (built.some(hits)) continue;
+          // a road running through it between the samples
+          if (roads.some(rd => { for (let k = 0; k + 3 < rd.p.length; k += 2) { const a = [rd.p[k], rd.p[k + 1]], b = [rd.p[k + 2], rd.p[k + 3]]; if (inside(a[0], a[1], pts) || pts.some((q, j) => cross(a, b, q, pts[(j + 1) % 4]))) return true; } return false; })) continue;
+          map.areas.push({ k: 'vineyard', p: pts.flat().map(v => Math.round(v * 10) / 10) });
+          built.push({ poly: pts, b: bx });
+          plots++;
+        }
+      }
+    }
+    console.error(`${plots} vineyards planted where the town is still buried`);
   }
   return added;
 }
@@ -149,6 +212,23 @@ try {
   if (area.default_surface) for (const w of data.ways) if (w.tags?.highway && (!w.tags.surface || ['asphalt', 'paved', 'concrete', 'compacted', 'ground', 'dirt', 'gravel', 'unpaved'].includes(w.tags.surface))) w.tags.surface = area.default_surface;
   // only the buildings that are something: named, a part of one, historic or a place of worship
   if (area.only_named_buildings) data.ways = data.ways.filter(w => !w.tags?.building || w.tags.name || w.tags['name:en'] || w.tags.historic || w.tags.amenity === 'place_of_worship' || w.tags['building:part']);
+  // a ruined town's buildings of today (fill.modern): those outside its walls that are not old
+  // themselves (no historic tag: the tombs and villas outside the gates stay ruins) are drawn as
+  // the houses of a town today, not as ruins (js/scenery.js), and keep their storeys
+  if (area.fill?.modern) {
+    const ring = data.ways.find(w => w.id === area.fill.wall).nodes.map(i => data.nodes[i]);
+    const inWall = (lat, lon) => { let hit = false; for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) { const a = ring[i], b = ring[j]; if ((a.lat > lat) !== (b.lat > lat) && lon < ((b.lon - a.lon) * (lat - a.lat)) / (b.lat - a.lat) + a.lon) hit = !hit; } return hit; };
+    let modern = 0;
+    for (const w of data.ways) {
+      const t = w.tags;
+      if (!t?.building || t.historic || t.ruins || t['building'] === 'ruins') continue;
+      const p = w.nodes.map(i => data.nodes[i]).filter(Boolean);
+      if (!p.length) continue;
+      const lat = p.reduce((s, q) => s + q.lat, 0) / p.length, lon = p.reduce((s, q) => s + q.lon, 0) / p.length;
+      if (!inWall(lat, lon)) { t['instant:modern'] = 'yes'; modern++; }
+    }
+    console.error(`${modern} buildings of today outside the walls`);
+  }
   const { map, info } = buildMap(data, area);
   const filled = fillBlocks(map, area, data);
   if (filled) info.buildings += filled, console.error(`${filled} houses added to fill the gaps`);

@@ -18,9 +18,9 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   and `core/js/kit.js` the way `rome/colosseo.js` is, in real metres and scaled by 1.25 at the end.
   Each is a monument in `city.js`'s `MONUMENTS` with its `area` (the map's pieces it replaces), its
   `foot` (what riders bump into) and a `reach`, the distance it is put up from.
-- an entry in `_data/sites.yml`, a page `sites/<id>/index.html` (`layout: site`, `site: <id>`) and
-  `<id>/index.html` (see the end of this page). The
-  sites page and the site's page are in English only, like the art pages. The pictures are
+- an entry in `_data/sites.yml`, its pages (`node tools/langpages.mjs` writes `en/sites/<id>/`, `nl/plekken/<id>/` and the old
+  `sites/<id>/` that sends on to them) and `<id>/index.html` (see the end of this page). The Dutch words of the
+  site, its facts and the places on its map are in `_data/i18n/nl/sites.yml`; what it leaves out stays English. The pictures are
   `assets/img/sites/<id>.jpg` (the page's top and its card).
 
 ## The map
@@ -37,6 +37,17 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
 - `ruins_as_buildings`: `{ max, skip }`: closed ways tagged `historic=archaeological_site` or `ruins`
   (Pompeii's houses) become buildings if they are at most `max` metres across and their name does not
   match `skip`.
+- `fill`: houses for the blocks OpenStreetMap leaves empty, on a grid of lots turned to the streets
+  (see `fillBlocks` in `tools/osm_map.mjs`). Pompeii's has a `plan`: the parts of the town that are dug
+  out, taken from the Parco Archeologico's own plan of the excavations
+  (`tools/sources/pompeii/PompeiiMAP.pdf`, by `tools/pompeii-plan.py`). Only there are the blocks
+  filled, lot against lot and then with smaller lots up to the streets. On the parts still buried
+  (most of Regiones I, III, IV, V and IX) `vineyards` (`{ plot: [length, width], gap, clear }`) plants
+  vineyards, as on the site today: areas of kind `vineyard`, on which `js/scenery.js` draws rows of
+  vines along the plot's first edge. Riders pass through the vines; they are not walls.
+  `modern: true` draws the buildings outside the town wall (`wall`) that have no historic tag (the
+  town of Pompei today, the station, the site's entrances) as the houses of an Italian town, with
+  their storeys and roofs, not as ruins; the tombs and villas outside the gates stay ruins.
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
