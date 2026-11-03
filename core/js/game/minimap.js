@@ -120,7 +120,7 @@ function setupRoamMap() {
 
 // The city's map drawn into g at k pixels per metre with (x0, z0) at the top left, and of it only what
 // lies in view ([x0, z0, x1, z1] in metres; all of it when left out).
-const AREA_COLORS = { water: '#5b7d68', paved: '#8a8c8e', sand: '#e2cf9c' };
+const AREA_COLORS = { water: '#5b7d68', paved: '#8a8c8e', sand: '#e2cf9c', vineyard: '#7d7a45' };
 export function paintCity(g, k, x0, z0, view = null) {
   const map = world.cfg.map, { areas, cells } = cityPaths(map), ab = boxesOf(map.areas);
   const out = (b, o) => view && (b[o] > view[2] || b[o + 2] < view[0] || b[o + 1] > view[3] || b[o + 3] < view[1]);

@@ -109,6 +109,14 @@
     ],
     "gap": 0.3,
     "clear": 0.3,
-    "plan": "tools/sources/pompeii/excavated.json"
+    "plan": "tools/sources/pompeii/excavated.json",
+    "vineyards": {
+      "plot": [
+        36,
+        24
+      ],
+      "gap": 3,
+      "clear": 2
+    }
   }
 }

@@ -33,7 +33,7 @@ for (const id of ids) {
   const f = { x: v => (v - x0) * k, z: v => (v - z0) * k };
   const inView = p => { for (let i = 0; i < p.length; i += 2) if (p[i] > x0 - 50 && p[i] < x0 + w + 50 && p[i + 1] > z0 - 50 && p[i + 1] < z0 + h + 50) return true; return false; };
   let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" font-family="Inter, system-ui, sans-serif">\n<rect width="${W}" height="${H}" fill="#efe9dc"/>\n`;
-  const fill = { green: '#c9dcb0', wood: '#b4cc9a', water: '#a9cbe3', sea: '#a9cbe3', paved: '#ddd3bd', sand: '#e6d5a8' };
+  const fill = { green: '#c9dcb0', wood: '#b4cc9a', water: '#a9cbe3', sea: '#a9cbe3', paved: '#ddd3bd', sand: '#e6d5a8', vineyard: '#d3d0a2' };
   for (const a of MAP.areas ?? []) if (inView(a.p)) s += `<polygon points="${pts(a.p, f)}" fill="${fill[a.k] ?? '#e3dccb'}"/>\n`;
   for (const wt of MAP.water ?? []) if (inView(wt.p)) s += `<polyline points="${pts(wt.p, f)}" fill="none" stroke="#a9cbe3" stroke-width="${r1(Math.max(2, (wt.w ?? 4) * k))}" stroke-linecap="round"/>\n`;
   for (const rd of MAP.roads ?? []) if (inView(rd.p)) s += `<polyline points="${pts(rd.p, f)}" fill="none" stroke="${rd.foot ? '#d7cbb2' : '#ffffff'}" stroke-width="${r1(Math.max(1.5, rd.w * k * 1.1))}" stroke-linecap="round" stroke-linejoin="round"/>\n`;

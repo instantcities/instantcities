@@ -130,6 +130,43 @@ function fillBlocks(map, area, data) {
       }
     }
   }
+  // vineyards (fill.vineyards: { plot: [length, width] metres, gap }): on the parts of the town the
+  // plan has still buried, as on the site today, in plots turned like the lots, the rows of vines
+  // along a plot's length (its first edge; js/scenery.js plants them), half plots in what is left
+  if (plan && f.vineyards) {
+    const [pl, pw] = f.vineyards.plot, vgap = f.vineyards.gap ?? 4;
+    const margin = f.vineyards.clear ?? 3, near = (x, z) => roads.some(rd => {
+      if (x < rd.b[0] - rd.half - margin || x > rd.b[2] + rd.half + margin || z < rd.b[1] - rd.half - margin || z > rd.b[3] + rd.half + margin) return false;
+      for (let k = 0; k + 3 < rd.p.length; k += 2) if (segDist(x, z, rd.p[k], rd.p[k + 1], rd.p[k + 2], rd.p[k + 3]) < rd.half + margin) return true;
+      return false;
+    });
+    let plots = 0;
+    for (const [fl, fw] of [[1, 1], [0.5, 1], [1, 0.5], [0.5, 0.5]]) {
+      const w = pl * fl, d = pw * fw;
+      for (let u = Math.min(...us); u < Math.max(...us); u += w + vgap) {
+        for (let v = Math.min(...vs); v < Math.max(...vs); v += d + vgap) {
+          const pts = [[0, 0], [w, 0], [w, d], [0, d]].map(([a, b]) => [(u + a) * c - (v + b) * sn, (u + a) * sn + (v + b) * c]);
+          const samples = [];
+          for (let i = 0; i <= 4; i++) for (let j = 0; j <= 3; j++) samples.push([(u + (w * i) / 4) * c - (v + (d * j) / 3) * sn, (u + (w * i) / 4) * sn + (v + (d * j) / 3) * c]);
+          const mid = samples[7];
+          if (!samples.every(([x, z]) => inside(x, z, wall) && !planned(x, z))) continue;
+          if ((f.exclude ?? []).some(([x, z, r]) => Math.hypot(mid[0] - x, mid[1] - z) < r + Math.hypot(w, d) / 2)) continue;
+          if (samples.some(([x, z]) => near(x, z) || greens.some(gr => x > gr.b[0] && x < gr.b[2] && z > gr.b[1] && z < gr.b[3] && inside(x, z, gr.poly)))) continue;
+          const bx = box(pts.flat()), grown = pts;
+          const hits = bd => bd.b[0] < bx[2] + 2 && bd.b[2] > bx[0] - 2 && bd.b[1] < bx[3] + 2 && bd.b[3] > bx[1] - 2
+            && (samples.some(([x, z]) => inside(x, z, bd.poly)) || bd.poly.some(([x, z]) => inside(x, z, grown))
+              || bd.poly.some((p, i) => grown.some((q, j) => cross(p, bd.poly[(i + 1) % bd.poly.length], q, grown[(j + 1) % 4]))));
+          if (built.some(hits)) continue;
+          // a road running through it between the samples
+          if (roads.some(rd => { for (let k = 0; k + 3 < rd.p.length; k += 2) { const a = [rd.p[k], rd.p[k + 1]], b = [rd.p[k + 2], rd.p[k + 3]]; if (inside(a[0], a[1], pts) || pts.some((q, j) => cross(a, b, q, pts[(j + 1) % 4]))) return true; } return false; })) continue;
+          map.areas.push({ k: 'vineyard', p: pts.flat().map(v => Math.round(v * 10) / 10) });
+          built.push({ poly: pts, b: bx });
+          plots++;
+        }
+      }
+    }
+    console.error(`${plots} vineyards planted where the town is still buried`);
+  }
   return added;
 }
 

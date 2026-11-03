@@ -36,8 +36,10 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   (see `fillBlocks` in `tools/osm_map.mjs`). Pompeii's has a `plan`: the parts of the town that are dug
   out, taken from the Parco Archeologico's own plan of the excavations
   (`tools/sources/pompeii/PompeiiMAP.pdf`, by `tools/pompeii-plan.py`). Only there are the blocks
-  filled, lot against lot and then with smaller lots up to the streets; the parts still buried
-  (most of Regiones I, III, IV, V and IX) stay open fields, as on the plan.
+  filled, lot against lot and then with smaller lots up to the streets. On the parts still buried
+  (most of Regiones I, III, IV, V and IX) `vineyards` (`{ plot: [length, width], gap, clear }`) plants
+  vineyards, as on the site today: areas of kind `vineyard`, on which `js/scenery.js` draws rows of
+  vines along the plot's first edge. Riders pass through the vines; they are not walls.
 - `geo`: puts where the map's middle is on Earth in `map.geo`, so a monument can be placed from its
   latitude and longitude (`pompeii/frame.js`).
 - `default_surface`: the surface for streets that have none tagged or only a plain one (asphalt, gravel, ...) (`sett`: cobbles).
