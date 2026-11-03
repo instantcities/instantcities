@@ -1,9 +1,10 @@
 # One block per site: a famous place that is not a city, with a game of its own. Its card on the
-# sites page (/sites/) and its page (_layouts/site.html, at /sites/<id>/). The game is at
+# sites page (/en/sites/, /nl/plekken/) and its page (_layouts/site.html, at /en/sites/<id>/). The game is at
 # /<id>/play/ (made by tools/pages.mjs). The pictures are assets/img/sites/<id>.jpg (the hero and
-# the card) and <id>-1.jpg, <id>-2.jpg, ... (the screenshots). A new site needs a block here, a page
-# sites/<id>/index.html saying `layout: site` and `site: <id>`, and a line in sitemap.xml's loop
-# (it reads this file). English only, like the art pages.
+# the card) and <id>-1.jpg, <id>-2.jpg, ... (the screenshots). A new site needs a block here and its pages
+# (node tools/langpages.mjs writes them in each language and the old /sites/<id>/ that sends on to them; the sitemap
+# reads this file). The Dutch is in _data/i18n/nl/sites.yml (and the names of the places on its map): what it
+# leaves out stays English.
 # A site marked `soon: true` has no game yet: it shows as a card without a page or a picture under
 # "Coming soon" on the sites page, and needs only id, name, place and card.
 - id: taj-mahal

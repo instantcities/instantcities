@@ -11,7 +11,7 @@
 // Run it after adding a city to _data/cities.yml, or a language or a slug to _data/lang/.
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, langs, cityDir, pageDir, write, front } from './langs.mjs';
+import { ROOT, langs, contentLangs, contentDir, cityDir, pageDir, write, front } from './langs.mjs';
 
 const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
@@ -31,4 +31,15 @@ for (const id of ids.filter(id => fs.existsSync(path.join(ROOT, '_data', 'about'
     write(`${id}/${old}/index.html`, front({ layout: 'lang-redirect', ref: page, city: id }));
   }
 }
-console.log(`${ids.length} cities, ${langs.length} languages`);
+
+// the sites page and each playable site's page (_data/sites.yml; a `soon` one has none), in each language that has them:
+// /en/sites/ and /nl/plekken/, and at /sites/ and /sites/<id>/ a page that sends on to them (the art pages are written by tools/art.mjs)
+const sites = read('_data/sites.yml').split(/^- id: /m).slice(1).map(b => ({ id: b.match(/^(\S+)/)[1], soon: /^ {2}soon: true/m.test(b) }));
+for (const lang of contentLangs) {
+  const dir = contentDir(lang, 'sites'), l = { lang };
+  write(`${dir}/index.html`, front({ layout: 'sites', ...l, ref: 'sites' }));
+  for (const s of sites.filter(s => !s.soon)) write(`${dir}/${s.id}/index.html`, front({ layout: 'site', ...l, ref: 'site', site: s.id }));
+}
+write('sites/index.html', front({ layout: 'lang-redirect', ref: 'sites' }));
+for (const s of sites.filter(s => !s.soon)) write(`sites/${s.id}/index.html`, front({ layout: 'lang-redirect', ref: 'site', site: s.id }));
+console.log(`${ids.length} cities, ${langs.length} languages; ${sites.length} sites in ${contentLangs.length}`);

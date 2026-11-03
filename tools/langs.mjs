@@ -11,6 +11,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 export const langs = read('_data/home.yml').match(/^langs: \[(.+?)\]/m)[1].split(',').map(l => l.trim());
 
+// the languages that have the art and sites pages (content_langs in _data/home.yml) and where those pages are:
+// /nl/kunst/, /nl/plekken/ (urls: art, sites in _data/lang/<lang>.yml); English keeps /art/ and /sites/
+export const contentLangs = read('_data/home.yml').match(/^content_langs: \[(.+?)\]/m)[1].split(',').map(l => l.trim());
+export const contentDir = (lang, kind) => read(`_data/lang/${lang}.yml`).match(new RegExp(`^  ${kind}: /(\\S+?)/?$`, 'm'))[1];
+
 const slugsOf = Object.fromEntries(langs.map(lang => [lang,
   Object.fromEntries([...read(`_data/lang/${lang}.yml`).matchAll(/^ {2}([a-z-]+): \{ slug: ([a-z-]+),/gm)].map(m => [m[1], m[2]]))]));
 const pathsOf = Object.fromEntries(langs.map(lang => {

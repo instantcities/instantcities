@@ -103,7 +103,8 @@ Landmark pages, art pages and city guides are generated from data files:
 | Content | Data | Command |
 |---|---|---|
 | Landmarks (`/<lang>/<city>/landmark/<name>/`) | `_data/landmarks/<id>.json` | `node tools/landmarks.mjs` |
-| Art (`/art/`) | `_data/art.json` | `node tools/art.mjs` (`photos` fetches pictures from Wikimedia Commons) |
+| Art (`/en/art/`, `/nl/kunst/`) | `_data/art.json` | `node tools/art.mjs` (`photos` fetches pictures from Wikimedia Commons) |
+| Sites (`/en/sites/`, `/nl/plekken/`) | `_data/sites.yml`, `_data/site_places/` | `node tools/langpages.mjs` |
 | City guides (`/<lang>/<city>/about-the-city/`, `/<lang>/<city>/places-and-landmarks/`) | `_data/about/<id>.json` | `node tools/about.mjs` (maps), `node tools/langpages.mjs` (pages) |
 | Map of Europe | `_data/europe.json` | `node tools/europe.mjs` |
 
@@ -124,7 +125,12 @@ their browser's. The game stays at `/<id>/play/`; links to it from a French or D
   and its landmarks in `_data/i18n/<lang>/landmarks/<id>.yml`. Anything left out falls back to the English
   in `_data/cities.yml`, `_data/about/` and `_data/landmarks/`, so a new city or landmark works at once and
   can be translated later.
-- `node tools/langpages.mjs` writes the city, guide and places pages for every language and
+- The art and sites pages are in English and Dutch (`content_langs` in `_data/home.yml`; French links to the
+  English ones): `/en/art/`, `/nl/kunst/`, `/en/sites/`, `/nl/plekken/` (`urls: art, sites` in `_data/lang/<lang>.yml`).
+  Their Dutch is in `_data/i18n/nl/art.yml` (museums and pieces, by id) and `_data/i18n/nl/sites.yml` (by id).
+  `/art/` and `/sites/` only send a visitor on to their language, like `/ghent/`. To add a language, give it
+  those files and add it to `content_langs`.
+- `node tools/langpages.mjs` writes the city, guide, places and sites pages for every language (`node tools/art.mjs` the art pages) and
   `node tools/landmarks.mjs` the landmark pages; run them after adding a city, a landmark, a language or a slug.
 
 ## Website preview videos

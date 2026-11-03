@@ -13,9 +13,9 @@ The same files as a small city (see `docs/first-maps.md`), plus the monuments:
   and `core/js/kit.js` the way `rome/colosseo.js` is, in real metres and scaled by 1.25 at the end.
   Each is a monument in `city.js`'s `MONUMENTS` with its `area` (the map's pieces it replaces), its
   `foot` (what riders bump into) and a `reach`, the distance it is put up from.
-- an entry in `_data/sites.yml`, a page `sites/<id>/index.html` (`layout: site`, `site: <id>`) and
-  `<id>/index.html` (see the end of this page). The
-  sites page and the site's page are in English only, like the art pages. The pictures are
+- an entry in `_data/sites.yml`, its pages (`node tools/langpages.mjs` writes `en/sites/<id>/`, `nl/plekken/<id>/` and the old
+  `sites/<id>/` that sends on to them) and `<id>/index.html` (see the end of this page). The Dutch words of the
+  site, its facts and the places on its map are in `_data/i18n/nl/sites.yml`; what it leaves out stays English. The pictures are
   `assets/img/sites/<id>.jpg` (the page's top and its card).
 
 ## The map

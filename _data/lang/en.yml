@@ -12,6 +12,8 @@ urls:
   about: /en/about/
   privacy: /en/privacy/
   terms: /en/terms/
+  art: /en/art/
+  sites: /en/sites/
 
 # The bar on top (_includes/topnav.html) and the footers
 nav_home: Home
@@ -148,6 +150,49 @@ lm_art_all: "All famous art in 3D ›"
 lm_more_in: "More in %c"
 lm_osm_title: "%l on OpenStreetMap"
 lm_alt: "%l in Instant %c"
+photo_credit: "Photo: %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
+
+# The art pages (_layouts/art.html, artwork.html) and the sites pages (sites.html, site.html). %n a number, %m a
+# museum's name, %g a game's name, %s a site's name, %t a title, %a an artist or author, %l a licence.
+number_words: [zero, one, two, three, four, five, six, seven, eight, nine, ten]
+art_title: "Famous art in 3D: the Mona Lisa, the Night Watch and more · Instant Cities"
+art_description: "%n famous paintings, statues and treasures in the museums, churches and squares of Instant Cities, each with its story and a link that takes you right in front of it in the game."
+art_h1: "Famous art"
+art_tagline: "%n paintings, statues and treasures in the museums and churches you can walk into, and out on the squares, from the Mona Lisa to the Ghent Altarpiece."
+art_lead: "Each hangs in the game where it hangs in real life. Read its story, then step right in front of it in 3D."
+art_hero_credit: "The Night Watch, Rembrandt, 1642, public domain, via Wikimedia Commons"
+art_museums_label: "Museums"
+art_more_about: "More about %m ›"
+art_go_there: "Go there"
+art_walk_in: "Walk in"
+art_photos_footer: "Photos from Wikimedia Commons, credited on each piece’s page."
+artwork_title: "%t by %a · %m in 3D · Instant Cities"
+art_see_3d: "See it in 3D"
+art_stand_before: "Stand before it in 3D ›"
+image_credit: "Image: %a, %l, via Wikimedia Commons"
+art_by: "By"
+art_when: "When"
+art_made_of: "Made of"
+art_size: "Size"
+art_where: "Where"
+art_go: "Go there in %g"
+art_all_in: "All art in %m ›"
+art_more_art: "More famous art"
+art_all_pieces: "All %n pieces ›"
+sites_title: "Famous sites in 3D: %n places to explore · Instant Cities"
+sites_description: "%n famous places you can walk or race through in your browser, each with its own map, race and tour."
+sites_h1: "Famous sites"
+sites_tagline: "Places that are not cities, from temples to tombs, each with a race, a tour and a few quests."
+sites_lead: "The map comes from OpenStreetMap where it has one, and the monuments are modelled by hand."
+sites_visit: "Sites you can visit"
+site_what: "What you can do"
+site_on_map: "On the map"
+site_map_alt: "A plan of %s with %n places marked"
+site_map_caption: "The game's own map. The dashed line is the race. Map data © OpenStreetMap contributors."
+site_about: "About %s"
+site_read_more: "Read more:"
+site_others: "Other sites"
+site_all: "All sites"
 map_label: "Map of the centre of %c with its key places numbered"
 map_caption: "The centre of %c, drawn from the same OpenStreetMap data as the game."
 map_osm: "The whole city on OpenStreetMap"

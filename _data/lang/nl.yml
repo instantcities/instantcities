@@ -8,6 +8,8 @@ urls:
   about: /nl/over/
   privacy: /nl/privacy/
   terms: /nl/voorwaarden/
+  art: /nl/kunst/
+  sites: /nl/plekken/
 
 nav_home: Home
 nav_cities: Steden
@@ -145,6 +147,48 @@ lm_art_all: "Alle beroemde kunst in 3D ›"
 lm_more_in: "Meer in %c"
 lm_osm_title: "%l op OpenStreetMap"
 lm_alt: "%l in Instant %c"
+photo_credit: "Foto: %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
+
+# De kunstpagina's (_layouts/art.html, artwork.html) en de pagina's over plekken (sites.html, site.html), zie en.yml.
+number_words: [nul, een, twee, drie, vier, vijf, zes, zeven, acht, negen, tien]
+art_title: "Beroemde kunst in 3D: de Mona Lisa, de Nachtwacht en meer · Instant Cities"
+art_description: "%n beroemde schilderijen, beelden en schatten in de musea, kerken en pleinen van Instant Cities, elk met zijn verhaal en een link die je in het spel recht voor het werk brengt."
+art_h1: "Beroemde kunst"
+art_tagline: "%n schilderijen, beelden en schatten in de musea en kerken waar je binnen kunt lopen, en buiten op de pleinen, van de Mona Lisa tot het Lam Gods."
+art_lead: "Elk werk hangt in het spel waar het ook in het echt hangt. Lees zijn verhaal en loop dan in 3D recht ervoor."
+art_hero_credit: "De Nachtwacht, Rembrandt, 1642, publiek domein, via Wikimedia Commons"
+art_museums_label: "Musea"
+art_more_about: "Meer over %m ›"
+art_go_there: "Ga erheen"
+art_walk_in: "Loop naar binnen"
+art_photos_footer: "Foto’s van Wikimedia Commons, met bronvermelding op de pagina van elk werk."
+artwork_title: "%t van %a · %m in 3D · Instant Cities"
+art_see_3d: "Bekijk het in 3D"
+art_stand_before: "Sta er in 3D voor ›"
+image_credit: "Afbeelding: %a, %l, via Wikimedia Commons"
+art_by: "Door"
+art_when: "Wanneer"
+art_made_of: "Gemaakt van"
+art_size: "Formaat"
+art_where: "Waar"
+art_go: "Ga erheen in %g"
+art_all_in: "Alle kunst in %m ›"
+art_more_art: "Meer beroemde kunst"
+art_all_pieces: "Alle %n werken ›"
+sites_title: "Beroemde plekken in 3D: %n plekken om te verkennen · Instant Cities"
+sites_description: "%n beroemde plekken waar je in je browser doorheen kunt lopen of racen, elk met een eigen kaart, race en rondleiding."
+sites_h1: "Beroemde plekken"
+sites_tagline: "Plekken die geen stad zijn, van tempels tot graftombes, elk met een race, een rondleiding en een paar opdrachten."
+sites_lead: "De kaart komt uit OpenStreetMap waar die er een heeft, en de monumenten zijn met de hand nagebouwd."
+sites_visit: "Plekken die je kunt bezoeken"
+site_what: "Wat je kunt doen"
+site_on_map: "Op de kaart"
+site_map_alt: "Een plattegrond van %s met %n plekken aangegeven"
+site_map_caption: "De kaart van het spel zelf. De stippellijn is de race. Kaartgegevens © OpenStreetMap-bijdragers."
+site_about: "Over %s"
+site_read_more: "Lees meer:"
+site_others: "Andere plekken"
+site_all: "Alle plekken"
 map_label: "Kaart van het centrum van %c met zijn belangrijkste plekken genummerd"
 map_caption: "Het centrum van %c, getekend uit dezelfde OpenStreetMap-gegevens als het spel."
 map_osm: "De hele stad op OpenStreetMap"
