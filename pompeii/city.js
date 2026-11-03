@@ -5,7 +5,8 @@ import { dressMonuments } from '../core/js/site-style.js';
 // piece of OpenStreetMap (the streets are named there, and the houses are drawn as ruins, which
 // `ruins_as_buildings` in area.json turns into houses; the blocks it leaves empty are filled where the
 // site's own plan of the excavations shows houses, `fill.plan`, see docs/sites.md), and the main
-// monuments are modelled by hand.
+// monuments are modelled by hand. Round it the town of today (`fill.town`): asphalt streets, gardens
+// and houses of a few storeys, so that the dig and the town are told apart at a glance.
 // The files in this folder:
 //   city.js          this file: the look and its named places, and the rest gathered up
 //   races.js         the race route             (hand-written)

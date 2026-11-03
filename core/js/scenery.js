@@ -305,6 +305,37 @@ function earthFloor(ctx) {
   })();
 }
 
+// The ground of a town of today round a ruined one (the area of kind 'town', tools/osm_map.mjs
+// fill.town): between its houses yards of concrete and asphalt, patches of garden and grass, not the
+// dust and pebbles of the dig
+let townGround = null;
+function townSoil(ctx) {
+  return townGround ??= (() => {
+    const t = canvasTexture(512, 512, (g, w, h) => {
+      const r = ctx.r;
+      g.fillStyle = '#a19d8f';
+      g.fillRect(0, 0, w, h);
+      noise(g, w, h, r, 16, [1, 1, 0.95]);
+      // soft patches: paler concrete, darker asphalt, grass of the gardens, bare earth
+      const blot = (x, y, rad, rgb, a) => {
+        const gr = g.createRadialGradient(x, y, 0, x, y, rad);
+        gr.addColorStop(0, `rgba(${rgb},${a})`); gr.addColorStop(1, `rgba(${rgb},0)`);
+        g.fillStyle = gr;
+        for (const [ox, oy] of [[0, 0], [w, 0], [-w, 0], [0, h], [0, -h]]) { g.save(); g.translate(ox, oy); g.fillRect(x - rad, y - rad, 2 * rad, 2 * rad); g.restore(); }
+      };
+      const kinds = [['196,192,182', 0.35], ['92,94,96', 0.25], ['106,128,66', 0.45], ['124,140,80', 0.4], ['140,118,88', 0.25]];
+      for (let k = 0; k < 160; k++) { const [rgb, a] = kinds[Math.floor(r() * kinds.length)]; blot(r() * w, r() * h, 10 + r() * 45, rgb, a); }
+      for (let k = 0; k < 2500; k++) { // tufts of grass, and grit
+        g.strokeStyle = r() < 0.6 ? 'rgba(70,96,44,0.3)' : 'rgba(150,145,130,0.4)';
+        const x = r() * w, y = r() * h;
+        g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 3, y - 2 - r() * 3); g.stroke();
+      }
+    });
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    return t;
+  })();
+}
+
 // The ground of a vineyard: worked earth, a little grass growing in it
 let soil = null;
 function vineSoil(ctx) {
@@ -395,15 +426,27 @@ function groundMats(ctx) {
       g.beginPath(); g.moveTo(0, k); g.lineTo(w, k); g.stroke();
     }
   });
-  const grass = color => tex((g, w, h) => {
+  const grass = (color, dry = ctx.theme.roman) => tex((g, w, h) => {
     g.fillStyle = color;
     g.fillRect(0, 0, w, h);
     noise(g, w, h, r, 24);
-    if (ctx.theme.roman) { dryGround(g, w, h, r); return; }
+    if (dry) { dryGround(g, w, h, r); return; }
     for (let k = 0; k < 300; k++) {
       g.strokeStyle = r() < 0.5 ? 'rgba(38,92,30,0.35)' : 'rgba(160,215,110,0.3)';
       const x = r() * w, y = r() * h;
       g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 3, y - 3 - r() * 3); g.stroke();
+    }
+  });
+  // the pavements of a town of today round a ruined one (roads with m), in concrete slabs
+  const townPavement = tex((g, w, h) => {
+    g.fillStyle = '#b8b4aa';
+    g.fillRect(0, 0, w, h);
+    noise(g, w, h, r, 12, [1, 1, 1]);
+    g.strokeStyle = 'rgba(80,78,72,0.3)';
+    g.lineWidth = 2;
+    for (let k = 0; k <= w; k += 32) {
+      g.beginPath(); g.moveTo(k, 0); g.lineTo(k, h); g.stroke();
+      g.beginPath(); g.moveTo(0, k); g.lineTo(w, k); g.stroke();
     }
   });
   const gravel = tex((g, w, h) => { g.fillStyle = '#d6c39a'; g.fillRect(0, 0, w, h); noise(g, w, h, r, 40, [1, 0.9, 0.7]); });
@@ -414,6 +457,8 @@ function groundMats(ctx) {
     garden: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#5f9f45') }),
     park: mat(0xffffff, 1, { map: grass(LOOK?.grass ?? '#6bb04c') }), // (a city's LOOK.grass: dry grass for the south)
     gravel: mat(0xffffff, 1, { map: gravel }),
+    townPavement: mat(0xffffff, 0.95, { map: townPavement }),
+    townPark: mat(0xffffff, 1, { map: grass('#7f9a55', false) }), // a park of the town of today round the ruins: grass, watered
   };
 }
 
@@ -2093,10 +2138,14 @@ function osmGround(ctx, map, m) {
     allotments: [new Batch(), m.garden, 0.014, 6], pitch: [new Batch(), mat(0x5aa04a, 1), 0.016, 6],
     sand: [new Batch(), mat(0xe6c98e, 1), 0.017, 6], paved: [new Batch(), m.pavement, 0.018, 3],
     vineyard: [new Batch(), mat(0xffffff, 1, { map: vineSoil(ctx) }), 0.015, 4],
+    // a town of today round a ruined one (tools/osm_map.mjs fill.town): its ground, under its parks,
+    // and its car parks and squares paved as today's, not in grit
+    town: [new Batch(), mat(0xffffff, 1, { map: townSoil(ctx) }), 0.01, 28], townPaved: [new Batch(), m.townPavement, 0.0185, 3],
+    townGreen: [new Batch(), m.townPark, 0.0121, 6],
   };
   for (const a of map.areas) {
     if (a.k === 'water') continue;
-    const [batch, , y, tile] = layers[a.k];
+    const [batch, , y, tile] = layers[a.m && a.k === 'paved' ? 'townPaved' : a.m && a.k === 'green' ? 'townGreen' : a.k];
     flatPolygon(batch, a.p, y, tile);
   }
   const duals = dualCarriageways(map);
@@ -2111,15 +2160,16 @@ function osmGround(ctx, map, m) {
   // cobbles over a plain footpath, cobbles over asphalt, flat slabs over cobbles
   const kerbs = new Batch(), asphalt = new Batch(), setts = new Batch(), slabs = new Batch(), foot = new Batch(), sides = new Batch(), iron = new Batch();
   const footSetts = new Batch(), footSlabs = new Batch(), bike = new Batch();
+  const townKerbs = new Batch(), townFoot = new Batch(); // a town of today's round a ruined one (rd.m)
   const bikeNames = new Set((BIKE_STREETS ?? []).map(n => map.names.indexOf(n)));
   const sunk = ctx.theme.sunken ? sunkenStreet(map) : null; // drawn sunk into the ground (js/sunken.js)
   for (const rd of map.roads) {
     const up = rd.br ? 0.03 : 0; // a bridge's deck over the ends of the streets leading onto it
     if (sunk?.(rd)) continue;
-    if (rd.foot && !rd.c) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
+    if (rd.foot && !rd.c) groundStrip(rd.m ? townFoot : foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
     else if (rd.foot) groundStrip(rd.c === 2 ? footSlabs : footSetts, rd.p, rd.w, (rd.c === 2 ? GROUND.footSlabs : GROUND.footSetts) + up, 6, rd.y);
     else {
-      groundStrip(kerbs, rd.p, rd.w + (rd.bay ? 2 * BAY_WIDTH : 2.6), GROUND.kerbs + up, 3, rd.y); // a bay street has its parking bays paved either side
+      groundStrip(rd.m ? townKerbs : kerbs, rd.p, rd.w + (rd.bay ? 2 * BAY_WIDTH : 2.6), GROUND.kerbs + up, 3, rd.y); // a bay street has its parking bays paved either side
       if (!rd.c && bikeNames.has(rd.n)) groundStrip(bike, rd.p, rd.w, GROUND.bike + up, 8, rd.y); // a fietsstraat's red
       else if (!rd.c) groundStrip(asphalt, rd.p, rd.w, GROUND.asphalt + up, 8, rd.y);
       else groundStrip(rd.c === 2 ? slabs : setts, rd.p, rd.w, (rd.c === 2 ? GROUND.slabs : GROUND.setts) + up, 6, rd.y); // cobbles, or big flat slabs
@@ -2134,6 +2184,8 @@ function osmGround(ctx, map, m) {
   const onRoad = (m, y) => (cut ? cut(onGround(m, y)) : onGround(m, y)); // open over a sunken street
   kerbs.mesh(ctx, onRoad(m.pavement, GROUND.kerbs));
   foot.mesh(ctx, onRoad(m.pavement, GROUND.foot));
+  townKerbs.mesh(ctx, onRoad(m.townPavement, GROUND.kerbs));
+  townFoot.mesh(ctx, onRoad(m.townPavement, GROUND.foot));
   asphalt.mesh(ctx, onRoad(m.asphalt, GROUND.asphalt));
   bike.mesh(ctx, onRoad(m.bike, GROUND.bike));
   const lines = new Batch();

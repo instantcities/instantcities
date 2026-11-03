@@ -23,9 +23,10 @@ const PIECE = 0.25; // the walls are found in pieces this long
 const KERB = 0.32; // how wide a kerbstone's top is
 const CELL = 8;
 
-// Which of the map's roads are Roman streets: their names, and how wide they are.
+// Which of the map's roads are Roman streets: their names, and how wide they are (and not in the
+// town of today round the ruins, rd.m).
 export function sunkenStreet(map) {
-  return rd => rd.foot && rd.w >= WIDE && !rd.y && !rd.br && /^(Via|Vicolo) /.test(map.names[rd.n] ?? '');
+  return rd => rd.foot && rd.w >= WIDE && !rd.y && !rd.br && !rd.m && /^(Via|Vicolo) /.test(map.names[rd.n] ?? '');
 }
 
 // How wide the pavements of a street w wide are: in Pompeii a little over a fifth of the street each.
