@@ -1,7 +1,10 @@
 // Pompeii's sights: ride up to one while exploring and a card tells you what you are looking at.
 // Each { id, emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
 // metres), text: { <lang>: { name, text } } }. In English and Dutch; the other languages show the English.
+import { HOUSE_SIGHTS } from './houses.js';
+
 export const SIGHTS = [
+  ...HOUSE_SIGHTS, // the houses and what is in them (houses.js)
   {
     id: 'forum', emoji: '🏛️', x: -137, z: 144, r: 80,
     text: {
@@ -42,20 +45,6 @@ export const SIGHTS = [
     text: {
       en: { name: 'The Stabian Baths', text: 'The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.' },
       nl: { name: 'De Stabiaanse thermen', text: 'De oudste openbare baden van Pompeii, met een sportplein, een zwembad en zalen van verschillende temperatuur. De meeste inwoners kwamen er bijna dagelijks, en de stucplafonds zijn er nog.' },
-    },
-  },
-  {
-    id: 'lupanare', emoji: '🏮', x: 68, z: 11, r: 40,
-    text: {
-      en: { name: 'The Lupanare', text: 'A small two-floor brothel with ten rooms, the best known of the town’s many. Its stone beds and the pictures and graffiti on its walls are still there.' },
-      nl: { name: 'Het Lupanar', text: 'Een klein bordeel op twee verdiepingen met tien kamers, het bekendste van de vele in de stad. De stenen bedden en de schilderingen en graffiti op de muren zijn er nog.' },
-    },
-  },
-  {
-    id: 'casa-del-fauno', emoji: '🗿', x: -170, z: -139, r: 70,
-    text: {
-      en: { name: 'House of the Faun', text: 'The biggest house in Pompeii, filling a whole block, with two atria and two gardens. A small bronze faun dances in its pool. The huge mosaic of Alexander the Great in battle was found here.' },
-      nl: { name: 'Huis van de Faun', text: 'Het grootste huis van Pompeii, een heel bouwblok groot, met twee atria en twee tuinen. Een kleine bronzen faun danst in de vijver. Het enorme mozaïek van Alexander de Grote in de strijd werd hier gevonden.' },
     },
   },
   {

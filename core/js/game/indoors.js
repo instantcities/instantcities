@@ -1,7 +1,7 @@
 // Inside buildings: the doors, going in and out, and the light in the rooms (js/interiors.js).
 
 import { local, getLang } from '../i18n.js';
-import { NAME, INSIDE } from '../city.js';
+import { NAME, INSIDE, onFootAt } from '../city.js';
 import { sfx } from '../sound.js';
 import { LIGHT as INDOOR_LIGHT } from '../interiors.js';
 import { PAN } from './base.js';
@@ -23,12 +23,17 @@ export const INSIDE_PACE = 0.5, INSIDE_COAST = 3; // walking slower, and stoppin
 const DOOR_NEAR = 9, DOOR_REACH = 2.2; // where the card shows, and how close riding into it goes through
 export const roomName = b => (typeof b.name === 'string' ? b.name : local(b.name));
 
-// which building a rider is in, if any; walking in and out of one is on foot, whatever you ride
+// which building a rider is in, if any; walking in and out of one is on foot, whatever you ride.
+// So too in a house the city has you walk into where it stands (city ON_FOOT): its doorway gets
+// you off your horse or bike, and back on it when you come out.
 export function inRoom(r) {
-  const room = INSIDE.at(r.pos.x, r.pos.z);
-  if (room === r.room) return;
+  // (not when flying over them in the helicopter)
+  const room = INSIDE.at(r.pos.x, r.pos.z), afoot = !room && game.mounts[r.human] !== 'heli' && onFootAt(r.pos.x, r.pos.z);
+  if (afoot && r.mount !== 'foot' && r.def) r.setHorse(r.def, 'foot'); // (also after picking a mount in the pause menu)
+  if (room === r.room && afoot === !!r.afoot) return;
   r.room = room;
-  const mount = room ? 'foot' : game.mounts[r.human];
+  r.afoot = afoot;
+  const mount = room || afoot ? 'foot' : game.mounts[r.human];
   if (r.mount !== mount && r.def) r.setHorse(r.def, mount);
 }
 
