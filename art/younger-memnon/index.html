@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/younger-memnon/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/younger-memnon/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/younger-memnon/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/younger-memnon/">
   <script>
     {
-      const urls = { "en": "/en/art/younger-memnon/", "fr": "/en/art/younger-memnon/", "nl": "/nl/kunst/younger-memnon/" };
+      const urls = { "en": "/en/art/younger-memnon/", "fr": "/fr/art/younger-memnon/", "nl": "/nl/kunst/younger-memnon/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/younger-memnon/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/younger-memnon/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/younger-memnon/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/younger-memnon/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

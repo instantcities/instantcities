@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/ghent-altarpiece/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/ghent-altarpiece/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/ghent-altarpiece/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/ghent-altarpiece/">
   <script>
     {
-      const urls = { "en": "/en/art/ghent-altarpiece/", "fr": "/en/art/ghent-altarpiece/", "nl": "/nl/kunst/ghent-altarpiece/" };
+      const urls = { "en": "/en/art/ghent-altarpiece/", "fr": "/fr/art/ghent-altarpiece/", "nl": "/nl/kunst/ghent-altarpiece/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/ghent-altarpiece/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/ghent-altarpiece/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/ghent-altarpiece/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/ghent-altarpiece/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

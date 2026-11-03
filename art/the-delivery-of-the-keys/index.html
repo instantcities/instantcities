@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/the-delivery-of-the-keys/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/the-delivery-of-the-keys/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/the-delivery-of-the-keys/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/the-delivery-of-the-keys/">
   <script>
     {
-      const urls = { "en": "/en/art/the-delivery-of-the-keys/", "fr": "/en/art/the-delivery-of-the-keys/", "nl": "/nl/kunst/the-delivery-of-the-keys/" };
+      const urls = { "en": "/en/art/the-delivery-of-the-keys/", "fr": "/fr/art/the-delivery-of-the-keys/", "nl": "/nl/kunst/the-delivery-of-the-keys/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/the-delivery-of-the-keys/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/the-delivery-of-the-keys/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/the-delivery-of-the-keys/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/the-delivery-of-the-keys/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

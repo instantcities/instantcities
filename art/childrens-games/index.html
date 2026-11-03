@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/childrens-games/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/childrens-games/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/childrens-games/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/childrens-games/">
   <script>
     {
-      const urls = { "en": "/en/art/childrens-games/", "fr": "/en/art/childrens-games/", "nl": "/nl/kunst/childrens-games/" };
+      const urls = { "en": "/en/art/childrens-games/", "fr": "/fr/art/childrens-games/", "nl": "/nl/kunst/childrens-games/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/childrens-games/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/childrens-games/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/childrens-games/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/childrens-games/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/sites/giza/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/sites/giza/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/sites/giza/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/plekken/giza/">
   <script>
     {
-      const urls = { "en": "/en/sites/giza/", "fr": "/en/sites/giza/", "nl": "/nl/plekken/giza/" };
+      const urls = { "en": "/en/sites/giza/", "fr": "/fr/sites/giza/", "nl": "/nl/plekken/giza/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/sites/giza/" hreflang="en" lang="en">English</a>
-    <a href="/en/sites/giza/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/sites/giza/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/plekken/giza/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

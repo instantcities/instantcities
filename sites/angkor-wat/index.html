@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/sites/angkor-wat/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/sites/angkor-wat/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/sites/angkor-wat/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/plekken/angkor-wat/">
   <script>
     {
-      const urls = { "en": "/en/sites/angkor-wat/", "fr": "/en/sites/angkor-wat/", "nl": "/nl/plekken/angkor-wat/" };
+      const urls = { "en": "/en/sites/angkor-wat/", "fr": "/fr/sites/angkor-wat/", "nl": "/nl/plekken/angkor-wat/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/sites/angkor-wat/" hreflang="en" lang="en">English</a>
-    <a href="/en/sites/angkor-wat/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/sites/angkor-wat/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/plekken/angkor-wat/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

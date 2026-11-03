@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/medusa/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/medusa/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/medusa/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/medusa/">
   <script>
     {
-      const urls = { "en": "/en/art/medusa/", "fr": "/en/art/medusa/", "nl": "/nl/kunst/medusa/" };
+      const urls = { "en": "/en/art/medusa/", "fr": "/fr/art/medusa/", "nl": "/nl/kunst/medusa/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/medusa/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/medusa/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/medusa/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/medusa/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

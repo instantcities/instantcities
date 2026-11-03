@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/sites/stonehenge/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/sites/stonehenge/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/sites/stonehenge/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/plekken/stonehenge/">
   <script>
     {
-      const urls = { "en": "/en/sites/stonehenge/", "fr": "/en/sites/stonehenge/", "nl": "/nl/plekken/stonehenge/" };
+      const urls = { "en": "/en/sites/stonehenge/", "fr": "/fr/sites/stonehenge/", "nl": "/nl/plekken/stonehenge/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/sites/stonehenge/" hreflang="en" lang="en">English</a>
-    <a href="/en/sites/stonehenge/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/sites/stonehenge/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/plekken/stonehenge/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>

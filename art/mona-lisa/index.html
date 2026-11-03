@@ -5,11 +5,11 @@
   <title>Instant Cities</title>
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/mona-lisa/">
-  <link rel="alternate" hreflang="fr" href="https://instantcities.net/en/art/mona-lisa/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/mona-lisa/">
   <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/mona-lisa/">
   <script>
     {
-      const urls = { "en": "/en/art/mona-lisa/", "fr": "/en/art/mona-lisa/", "nl": "/nl/kunst/mona-lisa/" };
+      const urls = { "en": "/en/art/mona-lisa/", "fr": "/fr/art/mona-lisa/", "nl": "/nl/kunst/mona-lisa/" };
       let lang;
       try { lang = localStorage.getItem('site-lang'); } catch {}
       if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
@@ -21,7 +21,7 @@
 <body>
   <p>
     <a href="/en/art/mona-lisa/" hreflang="en" lang="en">English</a>
-    <a href="/en/art/mona-lisa/" hreflang="fr" lang="fr">Français</a>
+    <a href="/fr/art/mona-lisa/" hreflang="fr" lang="fr">Français</a>
     <a href="/nl/kunst/mona-lisa/" hreflang="nl" lang="nl">Nederlands</a>
   </p>
 </body>
