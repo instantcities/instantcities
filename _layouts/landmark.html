@@ -24,9 +24,7 @@
 {%- if lm_visit %}{% assign words = words | concat: lm_visit %}{% assign n_visit = lm_visit.size %}{% endif -%}
 {%- assign words = words | join: ' ¶ ' -%}
 {%- for m in art_museums %}{% assign pieces = site.data.art.pieces | where: 'museum', m.id %}{% for a in pieces %}
-{%- assign art_url = '/art/' | append: a.id | append: '/' -%}
-{%- assign art_name = a.title | remove_first: 'The ' -%}
-{%- capture words %}{% include link-first.html text=words name=art_name url=art_url %}{% endcapture -%}
+{%- capture words %}{% include art-link.html text=words art=a %}{% endcapture -%}
 {%- endfor %}{% endfor -%}
 {%- capture city_url %}{% include city-url.html city=C.id %}{% endcapture -%}
 {%- capture words %}{% include link-first.html text=words name=CN url=city_url %}{% endcapture -%}
@@ -119,7 +117,7 @@
         {% include art-card.html art=a %}
         {%- endfor %}{% endfor %}
       </div>
-      <p class="card-more"><a href="/art/#{{ art_museums[0].id }}">{{ T.lm_art_all }}</a></p>
+      <p class="card-more"><a href="{{ T.urls.art }}#{{ art_museums[0].id }}">{{ T.lm_art_all }}</a></p>
     </section>
     {%- endif %}
 

@@ -1,50 +1,51 @@
-{%- comment -%} The page of famous art (/art/): every piece in _data/art.json, building by building, each card leading to its page (_layouts/artwork.html), each building to its landmark page (m.landmark) and its city's page. tools/art.mjs writes art/index.html. {%- endcomment -%}
+{%- comment -%} The page of famous art (/art/, /nl/kunst/): every piece in _data/art.json, building by building, each card leading to its page (_layouts/artwork.html), each building to its landmark page (m.landmark) and its city's page. The words of a piece or a museum in another language are in _data/i18n/<lang>/art.yml (pieces and museums, by id), what it leaves out stays English. tools/art.mjs writes the pages. {%- endcomment -%}
 {%- include lang.html -%}
 {%- assign A = site.data.art -%}
+{%- assign AM = site.data.i18n[L].art.museums -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = 'Famous art in 3D: the Mona Lisa, the Night Watch and more · Instant Cities' -%}
-{%- capture description %}{{ A.pieces.size }} famous paintings, statues and treasures in the museums, churches and squares of Instant Cities, each with its story and a link that takes you right in front of it in the game.{% endcapture -%}
-{%- assign path = '/art/' -%}
+{%- assign title = T.art_title -%}
+{%- assign description = T.art_description | replace: '%n', A.pieces.size -%}
+{%- assign path = T.urls.art -%}
 {%- assign image = '/assets/img/art/the-night-watch.jpg' -%}
 {% include head.html %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
     <section class="hero home-hero page-hero photo-hero art-hero" style="--photo: url('/assets/img/art/the-night-watch.jpg')">
       <div class="hero-text">
-        <p class="crumbs"><a href="{{ T.urls.home }}">Home</a> › Art</p>
-        <h1>Famous art</h1>
-        <p class="tagline">{{ A.pieces.size }} paintings, statues and treasures in the museums and churches you can walk into, and out on the squares, from the Mona Lisa to the Ghent Altarpiece.</p>
-        <p class="lead">Each hangs in the game where it hangs in real life. Read its story, then step right in front of it in 3D.</p>
+        <p class="crumbs"><a href="{{ T.urls.home }}">{{ T.nav_home }}</a> › {{ T.nav_art }}</p>
+        <h1>{{ T.art_h1 }}</h1>
+        <p class="tagline">{{ T.art_tagline | replace: '%n', A.pieces.size }}</p>
+        <p class="lead">{{ T.art_lead }}</p>
       </div>
-      <p class="photo-credit">The Night Watch, Rembrandt, 1642, public domain, via Wikimedia Commons</p>
+      <p class="photo-credit">{{ T.art_hero_credit }}</p>
     </section>
 
-    <nav class="art-index" aria-label="Museums">
+    <nav class="art-index" aria-label="{{ T.art_museums_label }}">
       {%- for m in A.museums %}{% assign C = site.data.cities | where: 'id', m.city | first %}
-      <a href="#{{ m.id }}">{{ m.name }} <small>{{ C.name }}</small></a>
+      <a href="#{{ m.id }}">{{ AM[m.id].name | default: m.name }} <small>{{ T.cities[C.id].name | default: C.name }}</small></a>
       {%- endfor %}
     </nav>
 
     {%- for m in A.museums %}
     {%- assign C = site.data.cities | where: 'id', m.city | first -%}
     {%- assign list = A.pieces | where: 'museum', m.id %}
-    {%- assign lm_url = nil %}{% if m.landmark %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=m.landmark lang='en' %}{% endcapture %}{% endif %}
+    {%- assign m_name = AM[m.id].name | default: m.name -%}{%- assign m_in = m_name | replace_first: 'The ', 'the ' | replace_first: 'Het ', 'het ' | replace_first: 'De ', 'de ' -%}{%- assign lm_url = nil %}{% if m.landmark %}{% capture lm_url %}{% include city-url.html city=C.id page='landmark' landmark=m.landmark %}{% endcapture %}{% endif %}
     <section id="{{ m.id }}" class="art-museum">
       <div class="art-museum-head">
         <div>
-          <h2>{% if lm_url %}<a href="{{ lm_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %} <small><a href="{% include city-url.html city=C.id %}">{{ C.name }}</a></small></h2>
-          <p>{{ m.blurb }}{% if lm_url %} <a href="{{ lm_url }}">More about {{ m.name | replace_first: 'The ', 'the ' }} ›</a>{% endif %}</p>
+          <h2>{% if lm_url %}<a href="{{ lm_url }}">{{ m_name }}</a>{% else %}{{ m_name }}{% endif %} <small><a href="{% include city-url.html city=C.id %}">{{ T.cities[C.id].name | default: C.name }}</a></small></h2>
+          <p>{{ AM[m.id].blurb | default: m.blurb }}{% if lm_url %} <a href="{{ lm_url }}">{{ T.art_more_about | replace: '%m', m_in }}</a>{% endif %}</p>
         </div>
         {%- if m.at %}
-        <a class="ghost" href="/{{ C.id }}/play/?at={{ m.at }}">{% include icon.html name="pin" %} Go there</a>
+        <a class="ghost" href="/{{ C.id }}/play/?at={{ m.at }}{{ QA }}">{% include icon.html name="pin" %} {{ T.art_go_there }}</a>
         {%- else %}
-        <a class="ghost" href="/{{ C.id }}/play/?inside={{ m.id }}">{% include icon.html name="door" %} Walk in</a>
+        <a class="ghost" href="/{{ C.id }}/play/?inside={{ m.id }}{{ QA }}">{% include icon.html name="door" %} {{ T.art_walk_in }}</a>
         {%- endif %}
       </div>
       <div class="grid art-grid">
@@ -57,8 +58,8 @@
   </main>
 
   <footer>
-    <p class="alt"><a href="{{ T.urls.home }}">Instant Cities</a> <a href="{{ T.urls.cities }}">All cities</a></p>
-    <p>Photos from Wikimedia Commons, credited on each piece’s page. Made by <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p class="alt"><a href="{{ T.urls.home }}">Instant Cities</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
+    <p>{{ T.art_photos_footer }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

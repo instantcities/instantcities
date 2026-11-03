@@ -1,0 +1,595 @@
+# The famous art in Dutch (_data/art.json, by id): museums (name, blurb) and pieces (title, local, artist, date, medium, size,
+# room, blurb, text), each as in the English; what is left out stays English. Dates: ca. = c., v.Chr. = BC.
+museums:
+  louvre:
+    name: Het Louvre
+    blurb: Vijf van zijn belangrijkste zalen, van de glazen piramide tot de zaal van de Mona Lisa.
+  national-gallery:
+    name: De National Gallery
+    blurb: "Aan Trafalgar Square: Van Eyck, Constable, Turner en Van Gogh."
+  british-museum:
+    name: Het British Museum
+    blurb: De Great Court, de zaal met Egyptische beeldhouwkunst en de marmers van het Parthenon.
+  uffizi:
+    name: De Uffizi
+    blurb: De galerij van de Medici, met de zaal van Botticelli en de Tribuna.
+  duomo:
+    name: De Duomo van Florence
+    blurb: De kathedraal onder de koepel van Brunelleschi.
+  piazza-della-signoria:
+    name: Piazza della Signoria
+    blurb: "Buiten, voor het Palazzo Vecchio: de kopie van Michelangelo’s David bij de deur."
+  sistina:
+    name: De Sixtijnse Kapel
+    blurb: Michelangelo’s plafond en zijn Laatste Oordeel, in het Vaticaan.
+  rijksmuseum:
+    name: Het Rijksmuseum
+    blurb: De Eregalerij en de Nachtwacht aan het eind ervan.
+  prado:
+    name: Het Prado
+    blurb: "De verzameling van de Spaanse koningen: Velázquez, Goya en Bosch."
+  kunsthistorisches:
+    name: Het Kunsthistorisches Museum
+    blurb: De verzameling van de Habsburgers, met meer Bruegels dan waar ook ter wereld.
+  neues-museum:
+    name: Het Neues Museum
+    blurb: Egypte op het Museumeiland, met Nefertiti in haar eigen zaal onder een koepel.
+  pergamon:
+    name: Het Pergamonmuseum
+    blurb: Een Grieks altaar en de poort van Babylon, binnen herbouwd.
+  san-marco:
+    name: San Marcobasiliek
+    blurb: Vijf koepels van gouden mozaïek en het gouden altaarstuk.
+  sint-baafs:
+    name: Sint-Baafskathedraal
+    blurb: De kathedraal van Gent, thuis van het altaarstuk van de gebroeders Van Eyck.
+pieces:
+  mona-lisa:
+    title: Mona Lisa
+    local: La Gioconda · La Joconde
+    date: ca. 1503–1519
+    medium: Olieverf op populierenhout
+    room: Salle des États
+    blurb: Leonardo’s portret van de vrouw van een Florentijnse zijdehandelaar, het meest bezochte schilderij ter wereld.
+    text:
+    - "Leonardo begon rond 1503 in Florence aan het portret van Lisa Gherardini, de vrouw van de zijdehandelaar Francesco del Giocondo. Hij leverde het nooit af: hij werkte er jaren aan door en nam het mee naar Frankrijk, waar koning Frans I het kocht. Daarom hangt het in Parijs, en daarom noemen de Italianen het nog steeds La Gioconda."
+    - Het is maar 77 bij 53 cm. Leonardo liet elke omtrek vervagen in zachte schaduw (sfumato), zodat haar mondhoeken nooit helemaal tot een glimlach komen, en het landschap achter haar aan beide kanten niet op elkaar aansluit.
+    - Op 21 augustus 1911 liep een klusjesman, Vincenzo Peruggia, met het schilderij onder zijn kiel het Louvre uit. Twee jaar later dook het op in Florence, en door de diefstal werd het het beroemdste schilderij ter wereld. Sinds 2005 hangt het alleen achter kogelvrij glas in de Salle des États, tegenover De bruiloft te Kana.
+  the-wedding-at-cana:
+    title: De bruiloft te Kana
+    local: Le Nozze di Cana
+    date: '1563'
+    medium: Olieverf op doek
+    room: Salle des États
+    blurb: Veronese’s Venetiaanse feestmaal, het grootste schilderij van het Louvre, aan de overkant van de zaal van de Mona Lisa.
+    text:
+    - Veronese schilderde het voor de refter van het benedictijnenklooster San Giorgio Maggiore in Venetië, waar de monniken eronder aten. Het eerste wonder van Christus, water in wijn veranderen, wordt een Venetiaans banket uit de zestiende eeuw met ruim 130 gasten, bedienden, muzikanten, honden en een kat.
+    - Napoleons troepen namen het in 1797 mee en sneden het in stukken om het te kunnen oprollen voor de reis. Toen de geroofde kunst na 1815 terugging, hield het Louvre het en stuurde het Venetië in plaats daarvan een schilderij van Le Brun. Met bijna tien meter breedte beslaat het een hele wand van de Salle des États.
+  the-raft-of-the-medusa:
+    title: Het vlot van de Méduse
+    local: Le Radeau de la Méduse
+    date: 1818–1819
+    medium: Olieverf op doek
+    room: Grande Galerie
+    blurb: "Overlevenden van een scheepsramp zwaaien naar een schip aan de horizon: een schandaal van 1816, levensgroot geschilderd."
+    text:
+    - In juli 1816 liep het Franse fregat Méduse aan de grond voor de kust van West-Afrika. De officieren namen de reddingsboten en lieten zo’n 150 mensen achter op een geïmproviseerd vlot; na dertien dagen waren er nog maar vijftien in leven toen het brik Argus hen vond.
+    - Géricault, 27 jaar oud, sprak overlevenden, liet een model van het vlot bouwen en bestudeerde de stervenden in ziekenhuizen en de doden in het lijkenhuis. Hij schilderde het moment waarop de overlevenden de Argus zien, een stipje aan de horizon, en een man er met een doek naar zwaait. Op de Salon van 1819 gold het als een aanval op de regering, die het schip aan een onbekwame kapitein had gegeven.
+  liberty-leading-the-people:
+    title: De Vrijheid leidt het volk
+    local: La Liberté guidant le peuple
+    date: '1830'
+    medium: Olieverf op doek
+    room: Grande Galerie
+    blurb: "De Vrijheid beklimt de barricade met de driekleur: Delacroix’ schilderij van de revolutie van juli 1830."
+    text:
+    - "In drie dagen van juli 1830 kwamen de Parijzenaars in opstand tegen koning Karel X en verdreven ze hem van de troon. Delacroix, die zelf niet had gevochten, schilderde het die herfst: de Vrijheid met een Frygische muts stapt over de doden met de vlag in de ene hand en een geweer in de andere, met naast haar een jongen met twee pistolen en een man met hoge hoed, en ver weg in de rook de torens van Notre-Dame."
+    - De staat kocht het in 1831 en borg het daarna jarenlang op omdat het te opruiend was. Sinds 1874 hangt het in het Louvre, en haar figuur van de Vrijheid werd Marianne, het gezicht van de Franse Republiek. Een restauratie in 2024 haalde het vergeelde vernis eraf en bracht het blauw, wit en rood van de vlag terug.
+  venus-de-milo:
+    title: Venus van Milo
+    local: Aphrodite van Milos
+    artist: Waarschijnlijk Alexandros van Antiochië
+    date: ca. 150–125 v.Chr.
+    medium: Parisch marmer
+    size: 204 cm hoog
+    room: Zaal van de Venus van Milo
+    blurb: De godin zonder armen, in 1820 gevonden door een boer op het Griekse eiland Milos.
+    text:
+    - Een boer die tussen ruïnes groef op het eiland Milos vond haar in april 1820, in twee stukken en al zonder armen. Een Franse marineofficier zag haar, de Franse ambassadeur in Constantinopel kocht haar, en ze werd geschonken aan koning Lodewijk XVIII, die haar in 1821 aan het Louvre gaf.
+    - "Ze is waarschijnlijk Aphrodite, de godin van de liefde, gehouwen rond 150–125 v.Chr. Een stuk van haar sokkel, dat nu verloren is, droeg de naam van de beeldhouwer Alexandros van Antiochië. Niemand weet wat haar armen deden: een appel, een spiegel of een schild vasthouden zijn de gebruikelijke gissingen."
+  winged-victory-of-samothrace:
+    title: Nikè van Samothrake
+    local: Nikè de Samothrace
+    artist: Onbekende Griekse beeldhouwer
+    date: ca. 190 v.Chr.
+    medium: Parisch marmer op een voorsteven van grijs marmer
+    size: 244 cm hoog, zonder de voorsteven
+    room: Daru-trap
+    blurb: Nike, godin van de overwinning, die landt op de voorsteven van een oorlogsschip boven aan de grote trap van het Louvre.
+    text:
+    - Nike, de godin van de overwinning, strijkt neer op de voorsteven van een oorlogsschip, terwijl de wind haar natte gewaad tegen haar lichaam drukt. Ze stond in het heiligdom van de Grote Goden op het eiland Samothrake, waarschijnlijk als dankoffer voor een gewonnen zeeslag rond 190 v.Chr.
+    - De Franse consul Charles Champoiseau groef haar in 1863 op, in stukken. Sinds 1884 staat ze op haar voorsteven boven aan de Daru-trap, waar je haar al vanaf de onderste tree ziet. Haar hoofd en armen zijn nooit gevonden; haar rechterhand dook in 1950 op op Samothrake.
+  virgin-of-the-rocks:
+    title: Madonna in de grot
+    local: La Vierge aux rochers
+    medium: Olieverf op paneel, overgebracht op doek
+    room: Grande Galerie
+    blurb: De Maagd, het kindje Jezus, de kleine Johannes de Doper en een engel in een grot van rotsen en bloemen.
+    text:
+    - Leonardo kreeg in 1483 van een broederschap in Milaan de opdracht het middenpaneel van hun altaarstuk te schilderen. In een schemerige grot slaat de Maagd haar arm om het kleine Johannesje de Doper, dat knielt voor het kindje Jezus; een engel kijkt ons aan en wijst.
+    - De planten die uit de rotsen groeien zijn zo nauwkeurig geschilderd dat plantkundigen ze bij naam kunnen noemen. Er volgde een ruzie over de prijs, en Leonardo schilderde een tweede versie, nu in de National Gallery in Londen; deze eerste ging naar de koningen van Frankrijk.
+  oath-of-the-horatii:
+    title: De eed van de Horatii
+    local: Le Serment des Horaces
+    date: '1784'
+    medium: Olieverf op doek
+    room: Grande Galerie
+    blurb: Drie Romeinse broers zweren hun vader te vechten voor Rome of te sterven, met hun zussen huilend naast zich.
+    text:
+    - "Het verhaal komt van Livius: om een oorlog tussen Rome en Alba te beslechten zouden drie broers uit elke stad het uitvechten. De Horatii steken hun armen uit naar de zwaarden die hun vader omhoog houdt, terwijl de vrouwen aan hun verdriet toegeven: een van de zusters is verloofd met een van de broers tegen wie ze zullen vechten."
+    - David schilderde het in Rome voor koning Lodewijk XVI en toonde het op de Salon van 1785. Door het harde licht, de kale zuilen en de weinige strenge figuren werd het het voorbeeld van de nieuwe klassieke stijl, en al snel een oproep tot plichtsbesef voor de Revolutie.
+  la-grande-odalisque:
+    title: La Grande Odalisque
+    medium: Olieverf op doek
+    room: Grande Galerie
+    blurb: Een naakte vrouw in een harem die over haar schouder terugkijkt, met een onmogelijk lange rug.
+    text:
+    - "Ingres schilderde haar in Rome voor Caroline Murat, de zus van Napoleon en koningin van Napels, die het nooit kreeg: de Murats vielen het jaar daarop samen met Napoleon."
+    - Op de Salon van 1819 lachten de critici om de lengte van haar rug, twee of drie wervels te veel, zeiden ze. Ingres had hem met opzet uitgerekt, voor de lijn, en het schilderij werd een van de geliefdste van het Louvre.
+  the-coronation-of-napoleon:
+    title: De kroning van Napoleon
+    local: Le Sacre de Napoléon
+    date: 1805–1807
+    medium: Olieverf op doek
+    room: Salle des États (in het Louvre de Salle Daru ernaast)
+    blurb: Napoleon kroont Josephine in Notre-Dame, met de paus zittend achter hem, op 2 december 1804.
+    text:
+    - Napoleon had de kroon al op zijn eigen hoofd gezet; David koos het volgende moment, waarop de nieuwe keizer de knielende Josephine kroont, met paus Pius VII die achter hem zijn hand opsteekt. Er staan zo’n 150 mensen op, de meeste naar het leven getekend.
+    - David was Napoleons eerste schilder en deed er drie jaar over. Napoleons moeder zit op de galerij in het midden, hoewel ze niet bij de plechtigheid was. Met bijna tien meter breedte is het het op een na grootste schilderij van het Louvre, na De bruiloft te Kana.
+  sunflowers:
+    title: Zonnebloemen
+    local: Zonnebloemen
+    medium: Olieverf op doek
+    size: 92,1 × 73 cm
+    room: De zaal van de impressionisten
+    blurb: Vijftien zonnebloemen in een gele pot, in Arles geschilderd om Gauguin welkom te heten.
+    text:
+    - In augustus 1888 wachtte Van Gogh in Arles op zijn vriend Paul Gauguin, die in het Gele Huis zou komen logeren. Om Gauguins kamer te versieren schilderde hij in een paar dagen vier schilderijen met zonnebloemen, snel werkend voordat de bloemen verwelkten. Dit, geel op geel, is een van de twee die hij goed genoeg vond om te signeren, op de vaas.
+    - De volgende winter schilderde hij herhalingen van zijn zonnebloemen, nu in Amsterdam, Philadelphia en Tokio. De National Gallery kocht dit exemplaar in 1924.
+  the-hay-wain:
+    title: De hooiwagen
+    medium: Olieverf op doek
+    size: 130,2 × 185,4 cm
+    room: De Britse zaal
+    blurb: Een hooiwagen die de rivier de Stour in Suffolk oversteekt, onder grote zomerwolken.
+    text:
+    - "Constable schilderde het landschap waarin hij opgroeide: de rivier de Stour bij Flatford Mill, waar zijn vader een molen had, met links het huisje van Willy Lott en een lege hooiwagen die door het ondiepe water ploetert naar de velden erachter."
+    - "Het werk werd in 1821 op de Royal Academy getoond als Landscape: Noon en verkocht niet. Drie jaar later won het in Parijs een gouden medaille van koning Karel X, en jonge Franse schilders zoals Delacroix bestudeerden de frisse groentinten en de losse toetsen wit."
+  the-arnolfini-portrait:
+    title: Het Arnolfini-portret
+    medium: Olieverf op eikenhout
+    size: 82,2 × 60 cm
+    room: De zaal van Van Eyck
+    blurb: Een Italiaanse koopman en zijn vrouw in hun kamer in Brugge, en Van Eyck zelf in de spiegel.
+    text:
+    - "Giovanni Arnolfini, een koopman uit Lucca, staat met zijn vrouw in hun huis in Brugge: een sinaasappel op de vensterbank, een hondje aan hun voeten, een koperen kroonluchter met één kaars die midden op de dag brandt."
+    - "In de ronde spiegel aan de achterwand staan in de deuropening nog twee mensen, van wie een waarschijnlijk de schilder. Boven de spiegel schreef hij “Johannes de eyck fuit hic 1434”: Jan van Eyck was hier. De National Gallery kocht het in 1842."
+  the-fighting-temeraire:
+    title: The Fighting Temeraire
+    medium: Olieverf op doek
+    size: 90,7 × 121,6 cm
+    room: De Britse zaal
+    blurb: Een oud oorlogsschip van Trafalgar dat de Theems op wordt gesleept om gesloopt te worden, onder een gloeiende zonsondergang.
+    text:
+    - De HMS Temeraire vocht in 1805 bij Trafalgar, als tweede in de lijn achter Nelsons Victory. In 1838 sleepte een stoomsleper haar de Theems op naar Rotherhithe om voor het hout te worden gesloopt. Turner schilderde haar bleek als een spook achter de zwarte sleper, terwijl aan de andere kant van het schilderij de zon ondergaat.
+    - Hij noemde het zijn lieveling en verkocht het nooit; het kwam met zijn nalatenschap aan de natie. In 2005 koos het publiek van BBC Radio 4 het tot Groot-Brittanniës beste schilderij, en sinds 2020 staat het op het biljet van 20 pond.
+
+  the-ambassadors:
+    title: De ambassadeurs
+    artist: Hans Holbein de Jongere
+    medium: Olieverf op eikenhout
+    size: 207 × 209,5 cm
+    room: De zaal van Van Eyck
+    blurb: Twee jonge Fransen aan het hof van Hendrik VIII, met tussen hen een tafel vol globes en instrumenten, en een doodshoofd over de vloer.
+    text:
+    - "Jean de Dinteville, de Franse ambassadeur in Londen, en zijn vriend Georges de Selve, een bisschop, staan aan weerszijden van een plank met dingen om de hemel en de aarde mee te meten: globes, zonnewijzers, een kwadrant, een luit met een gebroken snaar."
+    - "De grijze vlek over de vloer is een doodshoofd, in steil perspectief geschilderd: het krijgt pas vorm als je van dichtbij de lijst aan de rechterkant kijkt. De dood wacht achter al die geleerdheid. De National Gallery kocht het in 1890."
+  the-rokeby-venus:
+    title: De Venus van Rokeby
+    local: Venus voor de spiegel
+    artist: Diego Velázquez
+    date: 1647–1651
+    medium: Olieverf op doek
+    size: 122,5 × 177 cm
+    room: De Centrale Hal
+    blurb: Venus ligt met haar rug naar ons toe en kijkt naar zichzelf in een spiegel die Cupido ophoudt.
+    text:
+    - Het enige vrouwelijke naakt van Velázquez dat bewaard is gebleven, zeldzaam in het Spanje van de Inquisitie. Haar gezicht in de spiegel is een waas, zodat ze niemand in het bijzonder blijft.
+    - Het dankt zijn naam aan Rokeby Park in Yorkshire, waar het in de 19e eeuw hing. In 1906 voor de natie gekocht, werd het in 1914 met een hakmes bewerkt door de suffragette Mary Richardson; de sneden zijn zo goed hersteld dat ze nauwelijks te zien zijn.
+  whistlejacket:
+    title: Whistlejacket
+    date: ca. 1762
+    medium: Olieverf op doek
+    size: 292 × 246,4 cm
+    room: De Britse zaal
+    blurb: Het renpaard van de markies van Rockingham, levensgroot steigerend voor een lege achtergrond.
+    text:
+    - Stubbs had anderhalf jaar paarden ontleed om te leren hoe ze in elkaar zitten, en schilderde hier een Arabische hengst op ware grootte, steigerend, met niets eromheen.
+    - Of er nog een ruiter en een landschap bij moesten komen, daarover wordt nog altijd gediscussieerd. De National Gallery kocht het in 1997, en het hangt aan het eind van een lang zicht, zodat het paard boven de bezoekers lijkt uit te rijzen.
+  bathers-at-asnieres:
+    title: Een baadplaats bij Asnières
+    local: Une Baignade, Asnières
+    medium: Olieverf op doek
+    room: De impressionisten
+    blurb: Jonge arbeiders rusten op een hete dag aan de oever van de Seine, met de fabrieksschoorstenen van Clichy erachter.
+    text:
+    - Seurat was 24 toen hij het schilderde, zijn eerste grote werk, na tientallen kleine studies ter plekke. De Salon wees het af, en het werd getoond op de eerste Salon des Indépendants in 1884.
+    - "Een paar jaar later pakte hij het weer op en voegde hier en daar kleine stippen zuivere kleur toe, bijvoorbeeld in de hoed van de jongen: de schildertechniek, het pointillisme, die hij zou uitvinden."
+  the-water-lily-pond:
+    title: De waterlelievijver
+    medium: Olieverf op doek
+    size: 88,3 × 93,1 cm
+    room: De impressionisten
+    blurb: De Japanse brug over de lelievijver in Monets tuin in Giverny.
+    text:
+    - Monet groef de vijver in 1893 zelf, door een riviertje door zijn tuin in Giverny te leiden, en liet er een houten voetbrug in Japanse stijl overheen leggen.
+    - In 1899 schilderde hij de brug een dozijn keer, vanaf bijna dezelfde plek. De rest van zijn leven schilderde hij bijna alleen nog de lelies op dat water.
+  rosetta-stone:
+    title: De Steen van Rosetta
+    artist: Schrijvers van Ptolemaeus V
+    date: 196 v.Chr.
+    medium: Granodioriet
+    room: Zaal met Egyptische beeldhouwkunst
+    blurb: "Hetzelfde decreet in drie schriften: de steen waardoor we Egyptische hiërogliefen weer kunnen lezen."
+    text:
+    - "Priesters die in 196 v.Chr. in Memphis bijeenkwamen vaardigden een decreet uit ter ere van de jonge koning Ptolemaeus V, dat driemaal in steen werd gehouwen: in hiërogliefen, in demotisch (het alledaagse Egyptische schrift) en in het oud-Grieks."
+    - Franse soldaten vonden de gebroken plaat in 1799 in Rashid, dat Europeanen Rosetta noemden, ingemetseld in een oud fort. De Britten namen hem mee op grond van het verdrag van 1801, en sinds 1802 staat hij in het British Museum. Omdat het Grieks te lezen was, ontcijferden Thomas Young en daarna Jean-François Champollion de hiërogliefen ermee, waarbij Champollion het in 1822 bekendmaakte.
+  younger-memnon:
+    title: Ramses II, de jongere Memnon
+    artist: Egyptische beeldhouwers
+    date: ca. 1250 v.Chr.
+    medium: Graniet
+    size: 267 cm hoog, 7,25 ton
+    room: Zaal met Egyptische beeldhouwkunst
+    blurb: Het kolossale hoofd en de schouders van Ramses II, in 1816–1818 van Thebe naar Londen gebracht.
+    text:
+    - Het bovenste deel van een zittend beeld van Ramses II uit zijn dodentempel in Thebe, het Ramesseum, uit één blok graniet gehouwen met een donkerder en een lichter deel, zodat zijn gezicht roze is en zijn lichaam grijs.
+    - In 1816 liet de krachtpatser en ontdekkingsreiziger Giovanni Belzoni het op rollen naar de Nijl slepen en naar Londen verschepen; in 1818 kwam het aan in het British Museum. Het nieuws erover zou Shelley hebben geïnspireerd tot zijn sonnet Ozymandias, over een verbrijzeld standbeeld van een vergeten koning der koningen.
+  parthenon-sculptures:
+    title: De marmers van het Parthenon
+    local: De Elgin Marbles
+    artist: Werkplaats van Phidias
+    date: ca. 447–432 v.Chr.
+    medium: Pentelisch marmer
+    size: 75 m fries, 15 metopen, 17 figuren
+    room: De Duveen Gallery
+    blurb: Goden, ruiters en centauren van het Parthenon in Athene, en de meest omstreden beeldhouwwerken ter wereld.
+    text:
+    - "De fries liep rond het Parthenon, de tempel van Athena op de Akropolis: de optocht van het Panatheense feest, ruiters, wagens en offerdieren, tot aan de goden die zittend wachten. In de frontons stonden de goden zelf, en op de metopen de strijd van de Lapithen en de centauren."
+    - Vanaf 1801 namen mannen die voor lord Elgin werkten, de Britse ambassadeur bij het Ottomaanse Rijk, dat toen over Athene heerste, ongeveer de helft van wat er over was naar beneden en verscheepten het naar Groot-Brittannië. Het parlement kocht het in 1816. Griekenland vraagt de beeldhouwwerken sinds 1983 terug en bouwde het Akropolismuseum (2009) met een zaal die op ze wacht.
+  the-birth-of-venus:
+    title: De geboorte van Venus
+    local: La nascita di Venere
+    date: ca. 1484–1486
+    medium: Tempera op doek
+    room: De zaal van Botticelli
+    blurb: De godin van de liefde, op een sint-jakobsschelp aan land geblazen, geschilderd voor de Medici.
+    text:
+    - Venus, geboren uit het zeeschuim, drijft op een sint-jakobsschelp naar de kust. De winden blazen haar van links aan, rozen vallen om hen heen, en rechts wacht een van de Horen, de godinnen van de seizoenen, met een bloemenmantel om haar te bedekken.
+    - Botticelli schilderde het halverwege de jaren 1480 in Florence voor de kring rond de Medici. Het was een van de eerste grote schilderijen sinds de oudheid van een naakte godin die niet uit de Bijbel kwam, en een van de eerste in Toscane op doek in plaats van op hout.
+  primavera:
+    title: Primavera
+    local: De lente
+    date: ca. 1480
+    medium: Tempera op paneel
+    room: De zaal van Botticelli
+    blurb: Venus in haar sinaasappelgaard, met de drie Gratiën, Flora en de winden van de lente.
+    text:
+    - In een donker bosje sinaasappelbomen staat Venus in het midden, met Cupido die zijn pijl boven haar hoofd richt. Links dansen de drie Gratiën en port Mercurius in de wolken; rechts grijpt Zephyrus, de westenwind, de nimf Chloris, die verandert in Flora, met bloemen in haar geschilderde jurk.
+    - Het hing in een huis van de Medici in Florence. Plantkundigen hebben op de weide zo’n 500 planten geteld, waarvan zo’n 190 verschillende bloemen, bijna allemaal soorten die rond Florence in de lente bloeien.
+  venus-de-medici:
+    title: Venus de’ Medici
+    artist: Gesigneerd door Kleomenes
+    date: 1e eeuw v.Chr.
+    medium: Marmer
+    size: 153 cm hoog
+    room: De Tribuna
+    blurb: De marmeren godin midden in de Tribuna, ooit het meest bewonderde beeld van Europa.
+    text:
+    - Venus draait zich om alsof ze tijdens het baden wordt verrast, met een dolfijn aan haar voeten. Een Griekse beeldhouwer hakte haar in de eerste eeuw v.Chr., naar de Aphrodite van Knidos van Praxiteles; op de sokkel staat de naam van Kleomenes, zoon van Apollodoros, uit Athene.
+    - De Medici hielden haar in hun villa in Rome en brachten haar in 1677 naar Florence, naar het achthoek met rood fluweel van de Tribuna. Reizigers op Grand Tour kwamen vooral voor haar. Napoleon nam haar in 1802 mee naar Parijs; in 1815 kwam ze terug.
+  the-annunciation:
+    title: De Annunciatie
+    local: Annunciazione
+    date: ca. 1472–1476
+    medium: Olieverf en tempera op paneel
+    room: De zaal van Botticelli
+    blurb: De engel Gabriël knielt in een tuin om de Maagd te vertellen dat ze een zoon zal baren.
+    text:
+    - Leonardo schilderde het in zijn vroege twintiger jaren, nog in het atelier van zijn meester Verrocchio. De vleugels van Gabriël werden eerst naar een echte vogel geschilderd; een andere hand maakte ze later langer.
+    - Het kwam in 1867 vanuit een klooster bij Florence in de Uffizi, als een Ghirlandaio. Pas in 1869 herkenden critici er de jonge Leonardo in.
+  venus-of-urbino:
+    title: Venus van Urbino
+    local: Venere di Urbino
+    artist: Titiaan
+    medium: Olieverf op doek
+    room: De zaal van Botticelli
+    blurb: Een jonge vrouw op een bed kijkt ons recht aan, haar hondje slaapt aan haar voeten, twee dienstmaagden staan achter haar bij een kist.
+    text:
+    - Titiaan schilderde het voor Guidobaldo della Rovere, kort daarna hertog van Urbino, die het simpelweg de naakte vrouw noemde. De dienstmaagden die in de kist naar haar kleren zoeken en de slapende hond maken er een slaapkamer in Venetië van in plaats van het bosje van een godin.
+    - Mark Twain noemde het het gemeenste schilderij ter wereld; Manet antwoordde er in 1863 op met zijn Olympia, dezelfde pose, dezelfde openhartige blik.
+  medusa:
+    title: Medusa
+    artist: Caravaggio
+    date: ca. 1597
+    medium: Olieverf op doek op een houten schild
+    room: De zaal van Botticelli
+    blurb: Het hoofd van de Gorgo op het moment dat Perseus het afhakt, gillend, met slangen als haar, op een rond paradeschild.
+    text:
+    - "Kardinaal Francesco Maria del Monte liet het maken als geschenk voor Ferdinando I de’ Medici, groothertog van Toscane: een ceremonieel schild, waarop het monster werd geschilderd wiens blik mannen in steen veranderde."
+    - Het schild is bol, maar Caravaggio schilderde het alsof het vlak en komvormig was, met het hoofd dat eruit steekt, nog levend, met spuitend bloed. Het zou zijn eigen gezicht zijn.
+  sir-john-hawkwood:
+    title: Sir John Hawkwood
+    local: Monumento equestre a Giovanni Acuto
+    medium: Fresco, op doek overgebracht
+    room: Noordelijk zijschip
+    blurb: Een Engelse huurling te paard, geschilderd als een bronzen standbeeld op de kathedraalmuur.
+    text:
+    - John Hawkwood, de zoon van een leerlooier uit Essex, vocht in het Italië van de veertiende eeuw voor wie het best betaalde en werd uiteindelijk opperbevelhebber van het leger van Florence. De stad beloofde hem een marmeren gedenkteken in de kathedraal; toen hij in 1394 stierf, kwam dat er nooit.
+    - In 1436 schilderde Paolo Uccello er in plaats daarvan een, in groenige aardkleuren zodat paard en ruiter van brons lijken, staand op een sokkel die van onderaf is gezien. Twintig jaar later schilderde Andrea del Castagno er een andere condottiere naast, Niccolò da Tolentino.
+  david:
+    title: David
+    local: Il Gigante
+    medium: Carrara-marmer
+    size: 517 cm hoog, met sokkel
+    room: Bij de deur van het Palazzo Vecchio, een kopie (het origineel staat in de Galleria dell’Accademia)
+    blurb: De jonge reuzendoder die Michelangelo uit een verlaten marmerblok hakte, het symbool van de Florentijnse Republiek.
+    text:
+    - In 1501 gaven het kathedraalbouwbedrijf en het wolgilde de 26-jarige Michelangelo een blok Carrara-marmer van meer dan vijf meter hoog, dat Agostino di Duccio bijna veertig jaar eerder had aangevangen en had opgegeven; de Florentijnen noemden het de Reus. Hij werkte eraan op de binnenplaats van het kathedraalbouwbedrijf, afgeschut van nieuwsgierige blikken, tot 1504.
+    - "Hij koos het moment vóór het gevecht: David heeft de slinger over zijn linkerschouder en de steen in zijn rechterhand, zijn gewicht op één been, en draait zijn hoofd om naar Goliath te kijken. Het beeld was bedoeld voor een steunbeer hoog op de kathedraal, maar een commissie waarin onder anderen Leonardo da Vinci en Botticelli zaten, zette het in plaats daarvan bij de deur van het Palazzo Vecchio, waar het in september 1504 werd onthuld: de jonge held die een reus doodde, als symbool van de Republiek Florence tegen haar machtige vijanden."
+    - In 1527, bij een opstand tegen de Medici, brak een bank die uit een raam van het paleis werd gegooid zijn linkerarm in drie stukken. In 1873 werd hij naar binnen gebracht, naar een tribuna die voor hem was gebouwd aan het eind van de Galleria dell’Accademia, en in 1910 nam een marmeren kopie zijn plaats in bij de paleisdeur, links als je ervoor staat, waar hij in het spel staat.
+
+  the-creation-of-adam:
+    title: De schepping van Adam
+    local: La creazione di Adamo
+    date: ca. 1508–1512
+    medium: Fresco
+    room: Het plafond
+    blurb: God steekt zijn hand uit om Adam leven te geven, hun vingers raken elkaar bijna, op het plafond van de Sixtijnse Kapel.
+    text:
+    - "Paus Julius II vroeg Michelangelo, die zichzelf als beeldhouwer zag, het plafond van de Sixtijnse Kapel te schilderen. Van 1508 tot 1512 schilderde hij er meer dan 300 figuren op, staand op een stelling die hij zelf had ontworpen: de profeten en sibillen langs de randen, en negen verhalen uit Genesis in het midden."
+    - De schepping van Adam is de vierde vanaf het altaar. Adam ligt op de kale aarde, zijn hand slap; God snelt op hem af in een rode mantel vol engelen, en de ruimte tussen hun vingers is het moment waarop het leven overgaat. Sommigen zien in de mantel om God de vorm van een menselijk brein.
+  the-last-judgment:
+    title: Het Laatste Oordeel
+    local: Il Giudizio universale
+    medium: Fresco
+    room: De altaarwand
+    blurb: Michelangelo’s visioen van het einde van de wereld, dat de hele altaarwand van de Sixtijnse Kapel beslaat.
+    text:
+    - Ruim twintig jaar na het plafond kwam Michelangelo, rond zestig jaar oud, terug om de wand achter het altaar te schilderen. Christus heft in het midden zijn arm, Maria naast hem; links stijgen de geredden op en rechts storten de verdoemden neer, tot aan Charon die hen over de rivier naar de hel zet. Sint-Bartholomeus houdt zijn eigen gevilde huid omhoog, en het gezicht erop is dat van Michelangelo.
+    - "Meer dan 300 figuren, bijna allemaal naakt: zoveel mensen maakten bezwaar dat na Michelangelo’s dood Daniele da Volterra werd betaald om lendendoeken over hen heen te schilderen, en de bijnaam kreeg van broekenmaker. De restauratie van 1990–1994 haalde een deel ervan weer weg."
+  the-delivery-of-the-keys:
+    title: De overhandiging van de sleutels
+    local: Consegna delle chiavi
+    medium: Fresco
+    room: De noordwand
+    blurb: Christus overhandigt Petrus de sleutels van de hemel op een groot geplaveid plein, met erachter een tempel met koepel en twee triomfbogen.
+    text:
+    - "Paus Sixtus IV liet de wanden van zijn nieuwe kapel in 1481–1482 beschilderen door de beste schilders van die tijd, onder wie Botticelli, Ghirlandaio, Rosselli en Perugino, tientallen jaren vóór Michelangelo’s plafond: het leven van Mozes aan de ene kant en van Christus aan de andere."
+    - Bij Perugino worden de sleutels van de Kerk overhandigd op een uitgestrekt plein, in volmaakt perspectief getekend; de bogen zijn kopieën van de Boog van Constantijn in Rome. Zijn leerling Rafaël leende de tempel voor zijn Huwelijk van Maria.
+  the-night-watch:
+    title: De Nachtwacht
+    local: De Nachtwacht
+    artist: Rembrandt van Rijn
+    medium: Olieverf op doek
+    size: 379,5 × 453,5 cm
+    room: De Nachtwachtzaal
+    blurb: Een Amsterdamse schutterij trekt uit, het schilderij waaromheen het hele Rijksmuseum is gebouwd.
+    text:
+    - "De schutterij van kapitein Frans Banninck Cocq gaf de opdracht voor de zaal van hun schuttersdoelen. In plaats van een nette rij portretten schilderde Rembrandt hen in de drukte van het vertrek: de kapitein in het zwart met een rode sjerp die het bevel geeft, zijn luitenant in lichtgoud, een tamboer, musketten die afgaan, en een meisje in goud dat tussen hen oplicht met een kip aan haar gordel."
+    - "Het is geen nachttafereel: het vernis werd in de loop der eeuwen donkerder en gaf het zijn naam. In 1715 werd het aan alle vier de zijden verkleind om op een wand van het stadhuis te passen. Sinds 2019 wordt het gerestaureerd in een glazen zaal in het museum, waar bezoekers het werk kunnen volgen."
+  the-threatened-swan:
+    title: De bedreigde zwaan
+    medium: Olieverf op doek
+    room: De Eregalerij
+    blurb: Een zwaan spreidt zijn vleugels om zijn nest tegen een hond te verdedigen.
+    text:
+    - "Asselijn schilderde een zwaan die zijn eieren verdedigt, levensgroot. Later voegde iemand woorden toe die er een politieke prent van maakten: de zwaan is raadpensionaris Johan de Witt, het ei Holland, de hond de vijand van de staat."
+    - In 1800 was het het allereerste schilderij dat werd gekocht door de nationale kunstgalerij die uitgroeide tot het Rijksmuseum; het hangt het eerst in de Eregalerij.
+  the-little-street:
+    title: Het straatje
+    medium: Olieverf op doek
+    size: 54,3 × 44 cm
+    room: De Eregalerij
+    blurb: Een bakstenen huis in Delft, een vrouw die naait in de deuropening, een andere die zich over een ton buigt in het steegje ernaast.
+    text:
+    - "Een van de slechts twee Delftse stadsgezichten die Vermeer schilderde. In 2015 liet een register uit 1667 van wat de huiseigenaren betaalden voor het baggeren van de grachten zien welke huizen het waren: aan de Vlamingstraat, waar zijn tante woonde en pensen verkocht."
+    - Henri Deterding, de oliemagnaat, schonk het in 1921 aan het Rijksmuseum.
+  the-milkmaid:
+    title: Het melkmeisje
+    medium: Olieverf op doek
+    size: 45,5 × 41 cm
+    room: De Eregalerij
+    blurb: Een keukenmeid giet bij het raam melk in een kom, het brood op tafel vangt het licht.
+    text:
+    - "Er gebeurt niets: een meid, in gedachten verzonken, giet een dun straaltje melk, waarschijnlijk voor broodpap. Vermeer liet de korst van het brood schitteren met stipjes licht, en schilderde een mand met kleren weg die hij eerst tegen de muur had gezet."
+    - Het is klein, maar 45 cm hoog. De staat kocht het in 1908 voor het Rijksmuseum, na een debat in het parlement over de prijs.
+  the-jewish-bride:
+    title: Het Joodse bruidje
+    artist: Rembrandt
+    date: ca. 1665–1669
+    medium: Olieverf op doek
+    size: 121,5 × 166,5 cm
+    room: De Eregalerij
+    blurb: Een man legt teder zijn hand op de borst van een vrouw, haar hand over de zijne.
+    text:
+    - "Niemand weet wie ze zijn: misschien een echtpaar uit Rembrandts tijd, verkleed als Isaak en Rebekka uit de Bijbel. De naam werd pas in de 19e eeuw gegeven."
+    - Rembrandt legde de verf van de gouden mouw van de man dik aan met een paletmes. Van Gogh zei in 1885, toen hij het zag, dat hij tien jaar van zijn leven zou geven om veertien dagen ervoor te mogen zitten met alleen een korst droog brood.
+  las-meninas:
+    title: Las Meninas
+    local: De hofdames
+    medium: Olieverf op doek
+    room: De Velázquez-zaal
+    blurb: De kleine infanta te midden van haar hofdames, de schilder bij zijn doek, en de koning en koningin in de spiegel.
+    text:
+    - In een zaal van het koninklijk paleis in Madrid staat de vijfjarige infanta Margarita tussen haar hofdames, de meninas, met twee hofdwergen en een grote slaperige hond. Links kijkt Velázquez zelf vanachter een enorm doek naar buiten.
+    - "In de spiegel achterin staan koning Filips IV en koningin Mariana: zij staan waar jij staat, en het hele tafereel kijkt naar hen. Het rode kruis op de borst van de schilder is dat van de Orde van Santiago, die hij in 1659 kreeg, drie jaar nadat hij zichzelf schilderde."
+  saturn-devouring-his-son:
+    title: Saturnus verslindt zijn zoon
+    local: Saturno devorando a su hijo
+    medium: Olieverf op muur, op doek overgebracht
+    room: De Zwarte Schilderijen
+    blurb: De reus met wilde ogen die zijn kind opeet, een van de Zwarte Schilderijen van de muren van Goya’s huis.
+    text:
+    - Op zijn zeventigste, doof en gedesillusioneerd, schilderde Goya veertien donkere werken rechtstreeks op de gepleisterde muren van zijn huis buiten Madrid, de Quinta del Sordo. Hij gaf ze geen titel en liet ze aan niemand zien. Saturnus, de god die zijn kinderen opat uit angst dat een van hen hem zou onttronen, hing in de eetkamer.
+    - Vijftig jaar later liet een nieuwe eigenaar ze van de muren halen en op doek overbrengen, en schonk ze in 1881 aan het Prado.
+  the-garden-of-earthly-delights:
+    title: De Tuin der Lusten
+    medium: Olieverf op eikenhouten panelen
+    room: De Bosch-zaal
+    blurb: Eden, een tuin vol naakte genotzoekers en reusachtig fruit, en een hel van muzikale marteling.
+    text:
+    - "Drie panelen: links presenteert God Eva aan Adam in Eden; in het midden spelen honderden naakte mensen tussen reusachtige aardbeien, vogels en fonteinen; rechts is een nachtmerrieachtige hel, waar een man aan een harp is gekruisigd en een monster met vogelkop zondaars verslindt. Gesloten tonen de vleugels de wereld op de derde scheppingsdag, in grijs."
+    - Bosch schilderde het in ’s-Hertogenbosch, misschien voor de graven van Nassau in Brussel. Koning Filips II van Spanje, die Bosch verzamelde, stuurde het in 1593 naar zijn kloosterpaleis El Escorial, en sinds 1939 hangt het in het Prado.
+  the-third-of-may-1808:
+    title: De derde mei 1808
+    local: El tres de mayo de 1808 en Madrid
+    medium: Olieverf op doek
+    room: De Zwarte Schilderijen
+    blurb: Franse soldaten schieten in de nacht de inwoners van Madrid neer, een man in een wit hemd gooit zijn armen omhoog voor hen.
+    text:
+    - Op 2 mei 1808 kwam Madrid in opstand tegen het leger van Napoleon; die nacht en de volgende ochtend schoten de Fransen de gevangenen neer die ze hadden gemaakt. Zes jaar later, toen de Fransen weg waren, schilderde Goya de opstand en de executies.
+    - De soldaten zijn een gezichtloze rij ruggen en geweren; de man op wie ze mikken, verlicht door een lantaarn op de grond, spreidt zijn armen als Christus aan het kruis, met een wond in zijn handpalm. Zijn waarheid over oorlog is sindsdien gevolgd, door Manet en door Picasso’s Guernica.
+  the-nobleman-with-his-hand-on-his-chest:
+    title: De edelman met zijn hand op de borst
+    local: El caballero de la mano en el pecho
+    medium: Olieverf op doek
+    size: 81,8 × 66,1 cm
+    room: De Centrale Galerij
+    blurb: Een heer uit Toledo in het zwart met een witte kraag, zijn hand op zijn hart alsof hij een eed zweert.
+    text:
+    - "Kort nadat El Greco vanuit Italië naar Toledo was gekomen geschilderd, is dit de Spaanse heer zoals hij gezien wilde worden: ingetogen, trots, met zijn degenheft zichtbaar en zijn lange vingers gespreid op zijn borst."
+    - Wie hij was is niet bekend. Een schoonmaakbeurt in 1996 haalde oud donker vernis en overschilderingen weg en toonde een grijze achtergrond en een lichter gezicht, tot ontsteltenis van sommigen.
+  the-triumph-of-death:
+    title: De triomf van de Dood
+    local: El triunfo de la Muerte
+    artist: Pieter Bruegel de Oudere
+    date: ca. 1562
+    medium: Olieverf op paneel
+    room: De Bosch-zaal
+    blurb: Een leger skeletten trekt over een brandend land en spaart niemand, koning noch boer.
+    text:
+    - "Bruegel leerde van Bosch, en hier overrompelen de doden de levenden: ze drijven mensen in een enorme doodskist, luiden een bel, snijden een pelgrim de keel door en legen de gouden vaten van de koning."
+    - Alleen de twee geliefden in de hoek, zingend bij een luit, hebben het nog niet gemerkt, en een skelet speelt achter hen mee. Het is sinds de 17e eeuw in Spanje en sinds 1827 in het Prado.
+
+  the-descent-from-the-cross:
+    title: De kruisafneming
+    local: El Descendimiento
+    medium: Olieverf op eikenhouten paneel
+    room: De Bosch-zaal
+    blurb: Het lichaam van Christus wordt van het kruis gehaald, zijn moeder valt flauw in dezelfde kromming als zijn lichaam, tien figuren als gehouwen in een verguld altaarkastje.
+    text:
+    - "Van der Weyden schilderde het voor de kapel van het handboogschuttersgilde in Leuven: kleine kruisbogen hangen in de hoeken van het gouden maaswerk. De figuren staan dicht op elkaar in een ondiepe doos, als een gesneden altaarstuk dat tot leven is gekomen."
+    - Maria van Hongarije kocht het, en haar neef Filips II nam het mee naar Spanje. De Maagd zakt weg in een flauwte die het lichaam van haar zoon weerspiegelt, en de tranen op de gezichten zijn een voor een geschilderd.
+  the-tower-of-babel:
+    title: De toren van Babel
+    artist: Pieter Bruegel de Oudere
+    medium: Olieverf op eikenhouten paneel
+    room: De Bruegel-zaal
+    blurb: De toren die tot in de hemel moest reiken, rijzend in ringen van bogen boven een Vlaamse haven.
+    text:
+    - Bruegel bouwde zijn toren als het Colosseum in Rome, dat hij had gezien, ring op ring van bogen die in spiralen de wolken in kronkelen, onderaan al afbrokkelend voordat de top klaar is. Eromheen ligt een drukke Vlaamse haven als die van Antwerpen, waar schepen steen lossen.
+    - In de hoek bezoekt koning Nimrod, die opdracht gaf tot de bouw, de steenhouwers, die voor hem knielen. Duizenden kleine arbeiders krioelen eroverheen, met kranen, ladders en steigers. Een kleinere versie van Bruegel hangt in Rotterdam.
+  the-hunters-in-the-snow:
+    title: De jagers in de sneeuw
+    artist: Pieter Bruegel de Oudere
+    medium: Olieverf op eikenhouten paneel
+    room: De Bruegel-zaal
+    blurb: Drie vermoeide jagers komen thuis over de besneeuwde heuvel, het dorp beneden schaatst op het ijs.
+    text:
+    - Drie jagers en hun honden sjokken de heuvel af langs kale bomen, met slechts één vos als buit van de dag. Onder hen zijn de bevroren vijvers vol schaatsers, curlers en kinderen met tollen, onder een koude grijsgroene hemel.
+    - Het is een van een reeks van zes schilderijen van de tijden van het jaar die de Antwerpse koopman Niclaes Jongelinck voor zijn huis bestelde; vijf zijn er bewaard, en drie ervan hangen in Wenen.
+  the-peasant-wedding:
+    title: De boerenbruiloft
+    artist: Pieter Bruegel de Oudere
+    date: ca. 1567
+    medium: Olieverf op eikenhouten paneel
+    room: De Bruegel-zaal
+    blurb: Een druk bruiloftsfeest in een schuur, de bruid onder haar papieren kroon.
+    text:
+    - De gasten dringen samen rond een lange tafel in een schuur, de bruid zit zelfvoldaan onder een papieren kroon voor een groen doek. Twee mannen dragen kommen pap binnen op een deur die uit zijn scharnieren is gehaald, een doedelzakspeler kijkt hongerig naar het eten en een kind met een grote hoed likt een bord schoon.
+    - Niemand weet zeker wie de bruidegom is. Bruegel schilderde de mensen van het Vlaamse platteland zo, etend, dansend en vechtend, zo vaak dat hij Boeren-Bruegel werd genoemd.
+  childrens-games:
+    title: Kinderspelen
+    local: Die Kinderspiele
+    artist: Pieter Bruegel de Oudere
+    medium: Olieverf op eikenhouten paneel
+    room: De Bruegel-zaal
+    blurb: Een hele stad in handen van spelende kinderen, zo’n 80 spelletjes tegelijk.
+    text:
+    - "Zo’n tweehonderd kinderen vullen een plein en een straat: hoepels, stelten, haasje-over, blindemannetje, bikkelen, bruiloftje en kerkje spelen. Historici hebben zo’n tachtig spelletjes geteld, waarvan vele nog worden gespeeld."
+    - Aartshertog Ernst van Oostenrijk kocht het in 1594, en sindsdien is het in de verzameling van de Habsburgers, nu dit museum.
+  the-art-of-painting:
+    title: De schilderkunst
+    local: Die Malkunst
+    medium: Olieverf op doek
+    room: De Bruegel-zaal
+    blurb: Een schilder, van achteren gezien, schildert een jonge vrouw als Clio, de muze van de geschiedenis, met een grote kaart van de Nederlanden aan de wand.
+    text:
+    - Achter een zwaar gordijn kijken we over de schouder van een schilder mee terwijl hij begint aan de laurierkrans van zijn model, Clio, met haar trompet en haar boek. De kaart toont de Nederlanden nog in één stuk, voordat ze uiteenvielen.
+    - Vermeer hield het zijn hele leven, en zijn weduwe probeerde het voor zijn schuldeisers te redden. Hitler kocht het in 1940 voor het museum dat hij in Linz plande; na de oorlog kwam het naar dit museum.
+  nefertiti-bust:
+    title: Buste van Nefertiti
+    artist: Werkplaats van Thoetmosis
+    date: ca. 1345 v.Chr.
+    medium: Kalksteen en beschilderd pleister
+    size: 47 cm hoog
+    room: De noordelijke koepelzaal
+    blurb: De beschilderde koningin van Egypte, gevonden in het atelier van een beeldhouwer waar ze 3.300 jaar had gestaan.
+    text:
+    - Nefertiti was de grote koninklijke vrouw van farao Echnaton, die de hoofdstad van Egypte verplaatste naar een nieuwe stad bij Amarna. Haar buste, met de hoge blauwe kroon, was waarschijnlijk een model voor andere portretten van haar, daarom is één oog nooit ingelegd.
+    - Een Duitse expeditie onder leiding van Ludwig Borchardt vond het op 6 december 1912 in de ruïnes van het atelier van de beeldhouwer Thoetmosis. Het is sinds 1913 in Berlijn, sinds 1924 te zien, en Egypte heeft er vaak om gevraagd.
+  pergamon-altar:
+    title: Het Pergamonaltaar
+    artist: Griekse beeldhouwers van Pergamon
+    date: ca. 170 v.Chr.
+    medium: Marmer
+    size: ongeveer 36 × 34 m, fries van 113 m lang
+    room: De altaarzaal
+    blurb: Een heel Grieks altaar met zijn strijd van de goden en de reuzen, herbouwd in een museum.
+    text:
+    - Koning Eumenes II liet het altaar in de eerste helft van de tweede eeuw v.Chr. bouwen op de akropolis van Pergamon, in wat nu het westen van Turkije is. Rond de voet loopt een fries van 113 m lang van de goden die tegen de reuzen vechten, figuren meer dan levensgroot die uit het marmer kronkelen.
+    - De Duitse ingenieur Carl Humann groef het vanaf 1878 op en de stukken gingen naar Berlijn, waar het museum eromheen werd gebouwd. De zaal is gesloten voor verbouwing tot ongeveer 2027.
+  ishtar-gate:
+    title: De Ishtarpoort
+    artist: Bouwers van Nebukadnessar II
+    date: ca. 575 v.Chr.
+    medium: Geglazuurde baksteen
+    size: 14 m hoog zoals herbouwd
+    room: De Processieweg
+    blurb: De blauw geglazuurde poort van Babylon, met zijn leeuwen, stieren en draken, aan het eind van de Processieweg.
+    text:
+    - Koning Nebukadnessar II liet hem rond 575 v.Chr. bouwen als de achtste poort van Babylon, gewijd aan de godin Ishtar. De bakstenen zijn diepblauw geglazuurd, met rijen stieren en draken in geel en wit; de muren van de Processieweg die ernaartoe leidt zijn bekleed met leeuwen.
+    - "De Duitse expeditie van Robert Koldewey groef de fragmenten vanaf 1902 op en het museum zette de poort in de jaren 1930 daarmee weer in elkaar. Alleen de kleinere voorpoort staat hier: de grotere erachter was te hoog voor het gebouw."
+  pala-d-oro:
+    title: De Pala d’Oro
+    artist: Goudsmeden van Constantinopel en Venetië
+    medium: Goud, verguld zilver, email, parels en edelstenen
+    room: Achter het hoogaltaar
+    blurb: Het gouden altaarstuk van San Marco, in vier eeuwen gemaakt van Byzantijns email en edelstenen.
+    text:
+    - De doge Pietro Orseolo bestelde het eerste exemplaar in 976 in Constantinopel. Het werd in 1105 vergroot, opnieuw in 1209 met email dat de kruisvaarders in 1204 uit Constantinopel hadden geroofd, en kreeg in 1345 van de goudsmid Giovanni Paolo Boninsegna zijn gotische gouden lijst.
+    - Zo’n 250 emailplaten van Christus, heiligen en profeten zitten erin tussen bijna tweeduizend parels en edelstenen. Het staat achter het hoogaltaar, boven het graf van Sint-Marcus zelf, en op feestdagen wordt het omgedraaid zodat het naar de kerk is gekeerd.
+  ghent-altarpiece:
+    title: Het Lam Gods
+    local: De aanbidding van het Lam Gods · Het Gentse Altaarstuk
+    artist: Hubert en Jan van Eyck
+    medium: Olieverf op eikenhouten panelen
+    size: 375 × 520 cm geopend
+    room: Zijn eigen kapel, achterin
+    blurb: De aanbidding van het Lam Gods, het meesterwerk van de gebroeders Van Eyck en het meest gestolen schilderij ter wereld.
+    text:
+    - Joos Vijd en zijn vrouw Elisabeth Borluut betaalden het voor hun kapel in de Sint-Janskerk, nu de Sint-Baafskathedraal. Het vers op de lijst zegt dat Hubert van Eyck eraan begon en zijn broer Jan het voltooide, en het werd op 6 mei 1432 onthuld. Geopend toont het bovenaan God, Maria en Johannes de Doper, aan de uiteinden Adam en Eva, en daaronder menigten heiligen, rechters, ridders, kluizenaars en pelgrims die komen om het Lam te aanbidden op een altaar in een weide vol bloemen.
+    - Weinig schilderijen hebben meer avonturen beleefd. Napoleon nam de middenpanelen mee naar het Louvre; de vleugels werden verkocht en hingen in Berlijn tot het Verdrag van Versailles ze in 1920 terugbracht. In 1934 werd het paneel van de Rechtvaardige Rechters gestolen, en het is nooit teruggevonden. De nazi’s voerden de rest weg naar een zoutmijn in Oostenrijk, waar de Monuments Men het in 1945 vonden.
+    - Een restauratie sinds 2012 haalde eeuwen overschildering weg, en in 2020 keek het Lam weer naar buiten met het vreemd menselijke gezicht dat de Van Eycks het gaven.
+

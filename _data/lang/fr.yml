@@ -8,6 +8,8 @@ urls:
   about: /fr/a-propos/
   privacy: /fr/confidentialite/
   terms: /fr/conditions/
+  art: /en/art/ # not translated yet: the English pages (content_langs in home.yml)
+  sites: /en/sites/
 
 nav_home: Accueil
 nav_cities: Villes

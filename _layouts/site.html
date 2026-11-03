@@ -1,56 +1,60 @@
-{%- comment -%} A site's page (/sites/<id>/): its block in _data/sites.yml, named by the page's `site`. English only, like the art page. The game is at /<id>/play/. {%- endcomment -%}
+{%- comment -%} A site's page (/sites/<id>/, /nl/plekken/<id>/): its block in _data/sites.yml, named by the page's `site`; in another language its words are in _data/i18n/<lang>/sites.yml (by id: name, place, title, description, tagline, lead, card, features, facts, credits, places: its list in _data/site_places/<id>.json by id, name and text), what it leaves out stays English. The game is at /<id>/play/. {%- endcomment -%}
 {%- include lang.html -%}
 {%- assign S = site.data.sites | where: 'id', page.site | first -%}
+{%- assign SX = site.data.i18n[L].sites[S.id] -%}
+{%- assign s_name = SX.name | default: S.name -%}{%- assign s_game = SX.game | default: S.game -%}{%- assign s_features = SX.features | default: S.features -%}{%- assign s_facts = SX.facts | default: S.facts -%}{%- assign s_desc = SX.description | default: S.description -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
-{%- assign title = S.title -%}{%- assign description = S.description -%}
-{%- assign path = '/sites/' | append: S.id | append: '/' -%}
+{%- assign title = SX.title | default: S.title -%}{%- assign description = s_desc -%}
+{%- assign path = T.urls.sites | append: S.id | append: '/' -%}
 {%- assign image = '/assets/img/sites/' | append: S.id | append: '.jpg' -%}
 {% include head.html %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "VideoGame",
-      "name": {{ S.game | jsonify }},
-      "url": "{{ site.url }}/{{ S.id }}/play/",
-      "description": {{ S.description | jsonify }},
+      "name": {{ s_game | jsonify }},
+      "url": "{{ site.url }}/{{ S.id }}/play/{{ Q }}",
+      "description": {{ s_desc | jsonify }},
+      "inLanguage": "{{ L }}",
       "genre": ["Racing", "Open world"],
       "gamePlatform": "Web browser",
       "applicationCategory": "Game",
       "operatingSystem": "Any",
       "playMode": ["SinglePlayer", "MultiPlayer"],
-      "contentLocation": { "@type": "Place", "name": {{ S.name | jsonify }} },
+      "contentLocation": { "@type": "Place", "name": {{ s_name | jsonify }} },
       "author": { "@type": "Person", "name": "Wouter Smet", "url": "https://woutersmet.com/" },
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
     }
   </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">{{ T.skip }}</a>
   {% include topnav.html %}
 
   <main id="main">
     <section class="hero home-hero page-hero photo-hero site-hero" style="--photo: url('/assets/img/sites/{{ S.id }}.jpg')">
       <div class="hero-text">
-        <p class="crumbs"><a href="{{ T.urls.home }}">Home</a> › <a href="/sites/">Sites</a></p>
-        <h1>{{ S.game }} <span class="beta">BETA</span></h1>
-        <p class="tagline">{{ S.tagline }}</p>
-        <p class="lead">{{ S.lead }}</p>
+        <p class="crumbs"><a href="{{ T.urls.home }}">{{ T.nav_home }}</a> › <a href="{{ T.urls.sites }}">{{ T.nav_sites }}</a></p>
+        <h1>{{ s_game }} <span class="beta">BETA</span></h1>
+        <p class="tagline">{{ SX.tagline | default: S.tagline }}</p>
+        <p class="lead">{{ SX.lead | default: S.lead }}</p>
         <p class="hero-btns">
-          <a class="play" href="/{{ S.id }}/play/">{% include icon.html name="play" %} {{ T.play_now }}</a>
-          <a class="watch" href="/{{ S.id }}/play/?watch=cards">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
+          <a class="play" href="/{{ S.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_now }}</a>
+          <a class="watch" href="/{{ S.id }}/play/?watch=cards{{ QA }}">{% include icon.html name="sparkle" %} {{ T.live_watch }}</a>
         </p>
         <p class="note">{{ T.play_note }}</p>
       </div>
     </section>
 
     <section id="features" class="features">
-      <h2>What you can do</h2>
+      <h2>{{ T.site_what }}</h2>
       <div class="grid">
-        {%- for f in S.features %}
+        {%- for f in s_features %}
         <article class="card">
-          <div class="icon">{% include icon.html name=f.icon %}</div>
+          {%- assign f_icon = S.features[forloop.index0].icon %}
+          <div class="icon">{% include icon.html name=f_icon %}</div>
           <h3>{{ f.title }}</h3>
           <p>{{ f.text }}</p>
         </article>
@@ -59,17 +63,18 @@
     </section>
 
     {%- assign places = site.data.site_places[S.id] %}
+    {%- assign PX = SX.places %}
     {%- if places %}
     <section id="map" class="site-map">
-      <h2>On the map</h2>
+      <h2>{{ T.site_on_map }}</h2>
       <div class="site-map-body">
         <figure>
-          <img src="/assets/maps/{{ S.id }}.svg" alt="A plan of {{ S.name }} with {{ places.size }} places marked" width="1200" height="750" loading="lazy">
-          <figcaption>The game's own map. The dashed line is the race. Map data © OpenStreetMap contributors.</figcaption>
+          <img src="/assets/maps/{{ S.id }}.svg" alt="{{ T.site_map_alt | replace: '%s', s_name | replace: '%n', places.size }}" width="1200" height="750" loading="lazy">
+          <figcaption>{{ T.site_map_caption }}</figcaption>
         </figure>
         <ol class="site-places">
           {%- for p in places %}
-          <li id="{{ p.id }}"><span class="n">{{ p.n }}</span><div><h3>{{ p.emoji }} {{ p.name }}</h3><p>{{ p.text }}</p></div></li>
+          <li id="{{ p.id }}"><span class="n">{{ p.n }}</span><div><h3>{{ p.emoji }} {{ PX[p.id].name | default: p.name }}</h3><p>{{ PX[p.id].text | default: p.text }}</p></div></li>
           {%- endfor %}
         </ol>
       </div>
@@ -77,32 +82,32 @@
     {%- endif %}
 
     <section id="facts" class="site-facts">
-      <h2>About {{ S.name }}</h2>
+      <h2>{{ T.site_about | replace: '%s', s_name }}</h2>
       <dl>
-        {%- for f in S.facts %}
+        {%- for f in s_facts %}
         <div><dt>{{ f.label }}</dt><dd>{{ f.text }}</dd></div>
         {%- endfor %}
       </dl>
       {%- if S.sources %}
-      <p class="note">Read more: {% for source in S.sources %}<a href="{{ source.url }}">{{ source.title }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
+      <p class="note">{{ T.site_read_more }} {% for source in S.sources %}<a href="{{ source.url }}">{{ SX.sources[forloop.index0] | default: source.title }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
       {%- endif %}
     </section>
 
     <section class="cta">
       <h2>{{ T.cta_title }}</h2>
-      <a class="play" href="/{{ S.id }}/play/">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', S.game }}</a>
+      <a class="play" href="/{{ S.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', s_game }}</a>
       <p class="note">{{ T.beta }}</p>
     </section>
   </main>
 
   <footer>
-    <p class="alt">Other sites
+    <p class="alt">{{ T.site_others }}
       {%- for o in site.data.sites %}{% if o.id != S.id and o.soon != true %}
-      <a href="/sites/{{ o.id }}/">{{ o.name }}</a>
+      <a href="{{ T.urls.sites }}{{ o.id }}/">{{ site.data.i18n[L].sites[o.id].name | default: o.name }}</a>
       {%- endif %}{% endfor %}
-      <a href="/sites/">All sites</a>
+      <a href="{{ T.urls.sites }}">{{ T.site_all }}</a>
     </p>
-    <p>{{ S.credits }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    <p>{{ SX.credits | default: S.credits }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
     {% include footer-links.html %}
   </footer>
 

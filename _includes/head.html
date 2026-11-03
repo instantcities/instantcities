@@ -9,7 +9,7 @@
   <meta name="robots" content="noindex">
 {%- endif %}
   <link rel="canonical" href="{{ site.url }}{{ path }}">
-{%- if page.ref %}{% for l in H.langs %}
+{%- if page.ref %}{% for l in page_langs %}
   <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{% include page-url.html lang=l %}">
 {%- endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}{% include page-url.html lang='en' %}">
@@ -23,7 +23,7 @@
   <meta property="og:description" content="{{ description }}">
   <meta property="og:image" content="{{ site.url }}{{ image }}">
   <meta property="og:locale" content="{{ T.locale }}">
-{%- if page.ref %}{% for l in H.langs %}{% unless l == L %}
+{%- if page.ref %}{% for l in page_langs %}{% unless l == L %}
   <meta property="og:locale:alternate" content="{{ site.data.lang[l].locale }}">
 {%- endunless %}{% endfor %}{% endif %}
   <meta name="twitter:card" content="summary_large_image">
