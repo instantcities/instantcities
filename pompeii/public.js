@@ -6,7 +6,7 @@
 //     the tribunal at its end
 //   the Temple of Apollo: the colonnade round its court and the temple on its podium
 //   the Macellum, the Building of Eumachia, the Temple of Vespasian, the Granaries, the Temple of
-//     Isis, the Stabian Baths and the Lupanare: their walls broken off at different heights, open
+//     Isis and the Stabian Baths: their walls broken off at different heights, open
 //     to the sky, as the excavation has them
 // Riders bump into what stands, and not into the open middle of a court.
 import * as THREE from 'three';
@@ -165,7 +165,6 @@ const JOBS = [
   { name: 'Granai', at: [-204, 101], make: (k, p) => ruin(k, p, 4, 1.3, 44) },
   { name: 'Isis', at: [223, 164], make: (k, p) => ruin(k, p, 6, 1.5, 45) },
   { name: 'Stabian Baths', at: [148, 52], make: (k, p) => ruin(k, p, 6.5, 1.6, 46) },
-  { name: 'Lupanare', at: [68, 11], make: (k, p) => ruin(k, p, 5, 1.2, 47) },
 ];
 
 const box = p => { const xs = p.filter((_, i) => !(i % 2)), zs = p.filter((_, i) => i % 2); return [Math.min(...xs) - 2, Math.min(...zs) - 2, Math.max(...xs) + 2, Math.min(...zs) - 2, Math.max(...xs) + 2, Math.max(...zs) + 2, Math.min(...xs) - 2, Math.max(...zs) + 2].map(v => Math.round(v * 10) / 10); };
