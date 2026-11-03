@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/pompeii/landmark/forum/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/pompei/monument/forum/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/pompeii/bezienswaardigheid/forum/">
+  <script>
+    {
+      const urls = { "en": "/en/pompeii/landmark/forum/", "fr": "/fr/pompei/monument/forum/", "nl": "/nl/pompeii/bezienswaardigheid/forum/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/pompeii/landmark/forum/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/pompeii/landmark/forum/" hreflang="en" lang="en">English</a>
+    <a href="/fr/pompei/monument/forum/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/pompeii/bezienswaardigheid/forum/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

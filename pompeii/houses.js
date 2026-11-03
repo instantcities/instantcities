@@ -25,6 +25,7 @@ const BRONZE = '#4f5a3a', LAVA = '#4a4640', TUFA = '#b7a585', WOOD = '#6b4526', 
 
 // the outer walls of a plot W by D, its doorways in each side (doors.s/n/w/e) and the paint inside
 function outer(d, W, D, { doors = {}, paint = {}, h = 4.5 } = {}) {
+  d.door ??= doors.s?.[0]; // the front door, [x, width]: where a link to the house puts you (HOUSE_SIGHTS' arrival)
   d.wall([0, 0], [W, 0], { h, doors: doors.s, paint: { l: paint.s } });
   d.wall([W, 0], [W, D], { h, doors: doors.e, paint: { l: paint.e } });
   d.wall([0, D], [W, D], { h, doors: doors.n, paint: { r: paint.n } });
@@ -228,6 +229,7 @@ const HOUSES = [
   {
     id: 'thermopolium', side: 'r', emoji: '🍷', name: 'Thermopolium', // (on the big map; its card has the full name)
     plot: { front: "Via dell'Abbondanza", left: 'Vicolo del Efebo', inside: [425, -45], from: 12, width: 11, depth: 16 },
+    arrive: { at: [4, 5.6], look: [3, 0] }, // behind the counter (the door is all counter), looking out over it
     card: {
       en: { name: 'Thermopolium of Vetutius Placidus', text: 'A street bar, one of about 150 in Pompeii, where people bought hot food and wine at the counter. Jars for the food are set in the counter’s top, which is clad with bits of coloured marble. On the wall behind, the shrine of the house: the god Mercury for profit, Bacchus for wine. The family lived in the rooms behind.' },
       nl: { name: 'Thermopolium van Vetutius Placidus', text: 'Een straatkroeg, een van de zo’n 150 in Pompeii, waar men aan de toog warm eten en wijn kocht. In het blad van de toog, bekleed met stukjes gekleurd marmer, zitten de potten voor het eten. Op de muur erachter het huisaltaar: de god Mercurius voor de winst, Bacchus voor de wijn. De familie woonde in de kamers erachter.' },
@@ -385,7 +387,11 @@ for (const [n, h] of HOUSES.entries()) {
     area: [area, ...overlapping(area)], paths: [area], foot: d.foot, make: () => d.build(),
   });
   const [cx, cz] = p.at(p.W / 2, p.D / 2);
-  HOUSE_SIGHTS.push({ id: 'house-' + h.id, emoji: h.emoji, x: Math.round(cx), z: Math.round(cz), r: Math.round(Math.max(p.W, p.D) / 2 + 6), text: h.card });
+  // a link to the house (?at=house-<id>, from its page on the site) puts you just inside its front door,
+  // looking in, or where the house says (arrive)
+  const at = h.arrive?.at ?? (d.door && [d.door[0], 2.5]), look = h.arrive?.look ?? (d.door && [d.door[0], 12]);
+  const [ax, az] = at ? p.at(...at) : [], arrival = at && { x: ax, z: az, look: p.at(...look) };
+  HOUSE_SIGHTS.push({ id: 'house-' + h.id, emoji: h.emoji, x: Math.round(cx), z: Math.round(cz), r: Math.round(Math.max(p.W, p.D) / 2 + 6), text: h.card, arrival });
   for (const [k, s] of (h.sights ?? []).entries()) {
     const [x, z] = p.at(...s.at);
     HOUSE_SIGHTS.push({ id: `house-${h.id}-${k}`, emoji: s.emoji, x: Math.round(x * 10) / 10, z: Math.round(z * 10) / 10, r: s.r, text: { en: s.en, nl: s.nl } });

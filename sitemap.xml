@@ -18,7 +18,6 @@
   <url><loc>https://instantcities.net/en/sites/</loc></url>
   <url><loc>https://instantcities.net/en/sites/taj-mahal/</loc></url>
   <url><loc>https://instantcities.net/en/sites/angkor-wat/</loc></url>
-  <url><loc>https://instantcities.net/en/sites/pompeii/</loc></url>
   <url><loc>https://instantcities.net/en/sites/stonehenge/</loc></url>
   <url><loc>https://instantcities.net/en/sites/giza/</loc></url>
   <url><loc>https://instantcities.net/en/sites/acropolis/</loc></url>
@@ -82,7 +81,6 @@
   <url><loc>https://instantcities.net/fr/sites/</loc></url>
   <url><loc>https://instantcities.net/fr/sites/taj-mahal/</loc></url>
   <url><loc>https://instantcities.net/fr/sites/angkor-wat/</loc></url>
-  <url><loc>https://instantcities.net/fr/sites/pompeii/</loc></url>
   <url><loc>https://instantcities.net/fr/sites/stonehenge/</loc></url>
   <url><loc>https://instantcities.net/fr/sites/giza/</loc></url>
   <url><loc>https://instantcities.net/fr/sites/acropolis/</loc></url>
@@ -146,7 +144,6 @@
   <url><loc>https://instantcities.net/nl/plekken/</loc></url>
   <url><loc>https://instantcities.net/nl/plekken/taj-mahal/</loc></url>
   <url><loc>https://instantcities.net/nl/plekken/angkor-wat/</loc></url>
-  <url><loc>https://instantcities.net/nl/plekken/pompeii/</loc></url>
   <url><loc>https://instantcities.net/nl/plekken/stonehenge/</loc></url>
   <url><loc>https://instantcities.net/nl/plekken/giza/</loc></url>
   <url><loc>https://instantcities.net/nl/plekken/acropolis/</loc></url>
@@ -209,7 +206,6 @@
   <url><loc>https://instantcities.net/nl/kunst/ghent-altarpiece/</loc></url>
   <url><loc>https://instantcities.net/taj-mahal/play/</loc></url>
   <url><loc>https://instantcities.net/angkor-wat/play/</loc></url>
-  <url><loc>https://instantcities.net/pompeii/play/</loc></url>
   <url><loc>https://instantcities.net/stonehenge/play/</loc></url>
   <url><loc>https://instantcities.net/giza/play/</loc></url>
   <url><loc>https://instantcities.net/acropolis/play/</loc></url>
@@ -1200,6 +1196,76 @@
   <url><loc>https://instantcities.net/nl/salerno/bezienswaardigheid/scuola-medica/</loc></url>
   <url><loc>https://instantcities.net/nl/salerno/bezienswaardigheid/luci-d-artista/</loc></url>
   <url><loc>https://instantcities.net/nl/salerno/bezienswaardigheid/sfogliatella/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/</loc></url>
+  <url><loc>https://instantcities.net/pompeii/play/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/about-the-city/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/places-and-landmarks/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/forum/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/temple-of-jupiter/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-del-fauno/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-dei-vettii/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/lupanare/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/stabian-baths/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/grand-theatre/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/amphitheatre/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/thermopolium/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/garden-of-the-fugitives/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/basilica/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/temple-of-apollo/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/stepping-stones/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-del-poeta-tragico/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-del-menandro/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/fullonica-of-stephanus/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/bakery-of-popidius-priscus/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-di-octavius-quartio/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/casa-della-venere-in-conchiglia/</loc></url>
+  <url><loc>https://instantcities.net/en/pompeii/landmark/vesuvius/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/a-propos-de-la-ville/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/lieux-et-monuments/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/forum/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/temple-of-jupiter/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-del-fauno/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-dei-vettii/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/lupanare/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/stabian-baths/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/grand-theatre/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/amphitheatre/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/thermopolium/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/garden-of-the-fugitives/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/basilica/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/temple-of-apollo/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/stepping-stones/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-del-poeta-tragico/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-del-menandro/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/fullonica-of-stephanus/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/bakery-of-popidius-priscus/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-di-octavius-quartio/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/casa-della-venere-in-conchiglia/</loc></url>
+  <url><loc>https://instantcities.net/fr/pompei/monument/vesuvius/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/over-de-stad/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/plekken-en-bezienswaardigheden/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/forum/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/temple-of-jupiter/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-del-fauno/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-dei-vettii/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/lupanare/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/stabian-baths/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/grand-theatre/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/amphitheatre/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/thermopolium/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/garden-of-the-fugitives/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/basilica/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/temple-of-apollo/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/stepping-stones/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-del-poeta-tragico/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-del-menandro/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/fullonica-of-stephanus/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/bakery-of-popidius-priscus/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-di-octavius-quartio/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/casa-della-venere-in-conchiglia/</loc></url>
+  <url><loc>https://instantcities.net/nl/pompeii/bezienswaardigheid/vesuvius/</loc></url>
   <url><loc>https://instantcities.net/en/siena/</loc></url>
   <url><loc>https://instantcities.net/fr/sienne/</loc></url>
   <url><loc>https://instantcities.net/nl/siena/</loc></url>

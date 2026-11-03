@@ -403,8 +403,9 @@ export function visitFromLink() {
     for (let k = 0; k < rd.p.length; k += 2) spots.push([Math.abs(Math.hypot(rd.p[k] - place.x, rd.p[k + 1] - place.z) - back), rd.p[k], rd.p[k + 1]]);
   }
   spots.sort((a, b) => a[0] - b[0]);
-  // Enclosed sights can provide a safe arrival inside their passage, looking along it.
-  const arrival = sight?.arrival && landingAt(sight.arrival.x, sight.arrival.z);
+  // Enclosed sights can provide a safe arrival inside their passage, looking along it. One that is
+  // `open` stands where the map has a building but the model leaves room (the court of a ruin, a theatre's orchestra).
+  const a = sight?.arrival, arrival = a && (a.open ? { x: a.x, z: a.z, ok: true } : landingAt(a.x, a.z));
   const pick = arrival?.ok ? arrival : spots.slice(0, 50).map(([, x, z]) => landingAt(x, z)).find(p => p.ok) ?? placeLanding(place);
   const look = arrival?.ok ? sight.arrival.look : [place.x, place.z];
   humans.forEach(r => { r.yaw = Math.atan2(look[0] - pick.x, look[1] - pick.z); });

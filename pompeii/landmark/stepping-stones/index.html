@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/pompeii/landmark/stepping-stones/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/pompei/monument/stepping-stones/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/pompeii/bezienswaardigheid/stepping-stones/">
+  <script>
+    {
+      const urls = { "en": "/en/pompeii/landmark/stepping-stones/", "fr": "/fr/pompei/monument/stepping-stones/", "nl": "/nl/pompeii/bezienswaardigheid/stepping-stones/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/pompeii/landmark/stepping-stones/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/pompeii/landmark/stepping-stones/" hreflang="en" lang="en">English</a>
+    <a href="/fr/pompei/monument/stepping-stones/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/pompeii/bezienswaardigheid/stepping-stones/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
