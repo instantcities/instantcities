@@ -1,0 +1,1942 @@
+:root {
+  --ink: #1d1a17;
+  --paper: #fff;
+  --gold: #ffd23f;
+  /* Ghent's own light blue, for buttons and whatever is picked or focused in the menus */
+  --accent: #009de0;
+  --accent-soft: #dff2fb;
+  /* the sky behind the loading screen and its skyline, and the see-through menu card: a city's
+     page can set all of these its own way (style in its page.json) */
+  --sky: #cfe8f5;
+  --skyline: #86bfe0;
+  --glass: rgba(255, 255, 255, 0.72);
+  /* the menus' hairlines, quiet text and typeface, as on the site (assets/site.css) */
+  --line: rgba(17, 17, 17, 0.14);
+  --muted: #666;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--sky);
+}
+
+body {
+  font-family: 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button { touch-action: manipulation; }
+
+#game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+
+.hidden { display: none !important; }
+
+/* ---------- first load: a bike and a walker going through Ghent until the menu is filled in ---------- */
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  /* light grey whatever the city's sky, like the site's grey sections; the skyline and road in greys too */
+  --sky: #f4f4f3;
+  --skyline: #d8d8d5;
+  background: var(--sky);
+  color: var(--ink);
+  transition: opacity 0.4s ease;
+}
+body:not(.booting) #loader { opacity: 0; pointer-events: none; }
+body.booting #menu { visibility: hidden; }
+/* The city slides by behind the bike, the road under it faster. One copy of the skyline is 320px
+   wide and the SVG holds three, so sliding it by one copy loops without a seam. */
+.loader-scene {
+  position: relative; width: 400px; max-width: 90vw; height: 132px; overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+}
+.loader-skyline { position: absolute; left: 0; bottom: 14px; width: 960px; height: 110px; color: var(--skyline); animation: slide 9s linear infinite; }
+.loader-road {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 14px;
+  background: repeating-linear-gradient(90deg, #cfcfcc 0 13px, #b9b9b6 13px 16px) 0 0 / 32px 100%,
+              #cfcfcc;
+  border-top: 3px solid #a9a9a6;
+  animation: road 0.45s linear infinite;
+}
+.loader-bike { position: absolute; left: 50%; bottom: 10px; width: 72px; height: 72px; margin-left: -70px; animation: bob 0.3s ease-in-out infinite alternate; }
+/* a wheel is about 71px round on screen, and the road goes by at about 71px a second */
+.loader-wheel { animation: spin 1s linear infinite; }
+.loader-walker { position: absolute; left: 50%; bottom: 11px; width: 48px; height: 54px; margin-left: 14px; animation: bob 0.25s ease-in-out infinite alternate; }
+.loader-leg { transform-origin: 16px 32px; animation: stride 0.5s ease-in-out infinite alternate; }
+.loader-leg.back { animation-delay: -0.5s; }
+/* The rider's legs, pedalling: the thigh turns at the hip, the shin at the knee and the foot stays level.
+   Turning parts (not a path that changes shape) keep moving while the game is busy building the city. */
+.loader-thigh { transform-origin: 31px 9px; animation: thigh 1.8s linear infinite; }
+.loader-shin { transform-origin: 36.3px 24.1px; animation: shin 1.8s linear infinite; }
+.loader-foot { transform-origin: 38px 41px; animation: foot 1.8s linear infinite; }
+.loader-thigh.near, .loader-thigh.near * { animation-delay: -0.9s; }
+.loader-crank { animation: spin 1.8s linear infinite; }
+@keyframes thigh { 0% { transform: rotate(0.0deg); } 4.17% { transform: rotate(-3.1deg); } 8.33% { transform: rotate(-6.3deg); } 12.5% { transform: rotate(-9.8deg); } 16.67% { transform: rotate(-13.7deg); } 20.83% { transform: rotate(-18.0deg); } 25% { transform: rotate(-23.1deg); } 29.17% { transform: rotate(-28.2deg); } 33.33% { transform: rotate(-34.6deg); } 37.5% { transform: rotate(-41.0deg); } 41.67% { transform: rotate(-47.9deg); } 45.83% { transform: rotate(-53.9deg); } 50% { transform: rotate(-58.4deg); } 54.17% { transform: rotate(-61.0deg); } 58.33% { transform: rotate(-60.6deg); } 62.5% { transform: rotate(-58.0deg); } 66.67% { transform: rotate(-53.9deg); } 70.83% { transform: rotate(-47.8deg); } 75% { transform: rotate(-40.7deg); } 79.17% { transform: rotate(-32.5deg); } 83.33% { transform: rotate(-24.1deg); } 87.5% { transform: rotate(-14.9deg); } 91.67% { transform: rotate(-6.1deg); } 95.83% { transform: rotate(1.1deg); } 100% { transform: rotate(0.0deg); } }
+@keyframes shin { 0% { transform: rotate(0.0deg); } 4.17% { transform: rotate(11.8deg); } 8.33% { transform: rotate(23.5deg); } 12.5% { transform: rotate(35.2deg); } 16.67% { transform: rotate(46.7deg); } 20.83% { transform: rotate(57.7deg); } 25% { transform: rotate(68.2deg); } 29.17% { transform: rotate(77.0deg); } 33.33% { transform: rotate(85.1deg); } 37.5% { transform: rotate(90.8deg); } 41.67% { transform: rotate(95.3deg); } 45.83% { transform: rotate(96.3deg); } 50% { transform: rotate(94.6deg); } 54.17% { transform: rotate(91.0deg); } 58.33% { transform: rotate(84.6deg); } 62.5% { transform: rotate(76.3deg); } 66.67% { transform: rotate(67.1deg); } 70.83% { transform: rotate(56.6deg); } 75% { transform: rotate(46.1deg); } 79.17% { transform: rotate(34.2deg); } 83.33% { transform: rotate(22.8deg); } 87.5% { transform: rotate(10.8deg); } 91.67% { transform: rotate(-0.4deg); } 95.83% { transform: rotate(-8.3deg); } 100% { transform: rotate(0.0deg); } }
+@keyframes foot { 0% { transform: rotate(-0.0deg); } 4.17% { transform: rotate(-8.8deg); } 8.33% { transform: rotate(-17.3deg); } 12.5% { transform: rotate(-25.5deg); } 16.67% { transform: rotate(-33.1deg); } 20.83% { transform: rotate(-39.7deg); } 25% { transform: rotate(-45.0deg); } 29.17% { transform: rotate(-48.8deg); } 33.33% { transform: rotate(-50.5deg); } 37.5% { transform: rotate(-49.8deg); } 41.67% { transform: rotate(-47.4deg); } 45.83% { transform: rotate(-42.3deg); } 50% { transform: rotate(-36.2deg); } 54.17% { transform: rotate(-30.0deg); } 58.33% { transform: rotate(-24.0deg); } 62.5% { transform: rotate(-18.3deg); } 66.67% { transform: rotate(-13.2deg); } 70.83% { transform: rotate(-8.8deg); } 75% { transform: rotate(-5.4deg); } 79.17% { transform: rotate(-1.7deg); } 83.33% { transform: rotate(1.3deg); } 87.5% { transform: rotate(4.1deg); } 91.67% { transform: rotate(6.5deg); } 95.83% { transform: rotate(7.1deg); } 100% { transform: rotate(-0.0deg); } }
+.loader-title { font-family: var(--sans); font-size: 34px; color: var(--ink); }
+.loader-steps { list-style: none; display: flex; flex-direction: column; gap: 6px; min-width: 280px; font-family: var(--sans); font-weight: 500; font-size: 15px; }
+.loader-steps li { display: flex; align-items: center; gap: 10px; opacity: 0.35; transition: opacity 0.2s; }
+.loader-steps li.now, .loader-steps li.done { opacity: 1; }
+.loader-steps small { margin-left: auto; padding-left: 12px; font-size: 13px; opacity: 0.6; font-variant-numeric: tabular-nums; }
+.loader-steps .mark { flex: none; width: 16px; height: 16px; border-radius: 50%; border: 2px solid currentColor; }
+.loader-steps li.now .mark { border-right-color: transparent; animation: spin 0.8s linear infinite; }
+.loader-steps li.done .mark { border: none; background: var(--ink); position: relative; }
+.loader-steps li.done .mark::after { content: '✓'; position: absolute; inset: 0; color: var(--paper); font-size: 11px; line-height: 16px; text-align: center; }
+@keyframes bob { to { transform: translateY(-1.5px); } }
+@keyframes stride { from { transform: rotate(-28deg); } to { transform: rotate(28deg); } }
+@keyframes slide { to { transform: translateX(-320px); } }
+@keyframes road { to { background-position: -32px 0, 0 0; } }
+@media (prefers-reduced-motion: reduce) { .loader-skyline, .loader-road, .loader-bike, .loader-wheel, .loader-walker, .loader-leg,
+  .loader-thigh, .loader-shin, .loader-foot, .loader-crank { animation: none; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+kbd {
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 30px;
+  padding: 3px 7px;
+  margin: 2px;
+  background: #fff;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-bottom-width: 4px;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.stroke {
+  -webkit-text-stroke: 7px var(--ink);
+  paint-order: stroke fill;
+}
+
+/* ---------- split screen chrome ---------- */
+
+#divider {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 6px;
+  margin-left: -3px;
+  background: var(--ink);
+  z-index: 4;
+}
+
+#minimap {
+  position: fixed;
+  top: calc(12px + env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(29, 26, 23, 0.55);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  z-index: 5;
+}
+
+#mute {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+/* ---------- per-player HUD ---------- */
+
+.hud {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  pointer-events: none;
+  z-index: 3;
+  overflow: hidden;
+}
+#hud0 { left: 0; }
+#hud1 { left: 50%; }
+.solo #hud0 { width: 100%; }
+.solo #hud0 .hud-top { right: calc(22px + env(safe-area-inset-right)); }
+.solo #hud1, .solo #divider { display: none !important; }
+
+
+#toast {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+  padding: 8px 18px;
+  font-weight: 900;
+  font-size: 15px;
+  color: #fff;
+  background: var(--ink);
+  border: 2px solid #fff;
+  border-radius: 999px;
+}
+
+.hud-top {
+  position: absolute;
+  top: calc(14px + env(safe-area-inset-top));
+  left: calc(22px + env(safe-area-inset-left));
+  right: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hud.right .hud-top { left: 138px; right: 22px; flex-direction: row-reverse; }
+.hud.right .placebox { text-align: right; }
+
+.place {
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 84px;
+  line-height: 0.9;
+  color: #fff;
+  -webkit-text-stroke: 8px var(--ink);
+  paint-order: stroke fill;
+}
+.place .suf { font-size: 36px; margin-left: 2px; vertical-align: top; }
+.place[data-p="1"] { color: var(--gold); }
+
+.who:empty { display: none; }
+.who {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 12px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--c);
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* The street you are in, as a white street name sign under the minimap, and the next one coming up.
+   With two players each has a sign, edged in their colour. */
+#streetbar {
+  position: fixed;
+  top: calc(142px + env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  display: flex;
+  gap: 14px;
+  pointer-events: none;
+}
+.street { max-width: 280px; text-align: center; }
+#streetbar.duo .street .now { border-color: var(--c); }
+.street .now {
+  display: inline-block;
+  padding: 3px 12px;
+  border: 3px solid var(--ink);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 22px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+.street .next {
+  margin-top: 4px;
+  font-weight: 900;
+  font-size: 15px;
+  color: #fff;
+  -webkit-text-stroke: 4px var(--ink);
+  paint-order: stroke fill;
+}
+.street .next.soon { color: var(--gold); }
+
+.stats {
+  text-align: right;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  -webkit-text-stroke: 6px var(--ink);
+  paint-order: stroke fill;
+}
+.hud.right .stats { text-align: left; }
+.lap { font-size: 34px; }
+.lap i { font-style: normal; opacity: 0.85; }
+.time { font-size: 24px; color: #fff3c4; }
+
+.hud-bottom { position: absolute; bottom: 18px; left: 22px; }
+.hud.right .hud-bottom { left: auto; right: 22px; text-align: right; }
+
+.items { display: flex; gap: 8px; }
+
+.slot {
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  font-size: 36px;
+  background: rgba(29, 26, 23, 0.45);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  transition: background 0.15s;
+}
+.slot .ico { display: inline-block; }
+.slot.full { background: var(--c); }
+.slot.next { box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--ink); }
+.hud.right .items { flex-direction: row-reverse; }
+
+.items.bump .slot.full .ico { animation: bump 0.35s ease-out; }
+@keyframes bump { 40% { transform: scale(1.45) rotate(-12deg); } }
+
+.hint {
+  margin-top: 8px;
+  font-weight: 800;
+  font-size: 13px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+.hint kbd { font-size: 11px; min-width: 0; padding: 1px 5px; border-bottom-width: 3px; }
+
+.cd {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 170px;
+  line-height: 1;
+  color: #fff;
+  -webkit-text-stroke: 12px var(--ink);
+  paint-order: stroke fill;
+  opacity: 0;
+}
+.cd.pop { animation: pop 0.95s ease-out forwards; }
+.cd.go { color: #7dd956; }
+@keyframes pop {
+  0% { transform: scale(1.8); opacity: 0; }
+  15% { transform: scale(1); opacity: 1; }
+  75% { opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0; }
+}
+
+.msg {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: clamp(28px, 3.6vw, 54px);
+  -webkit-text-stroke: 8px var(--ink);
+  paint-order: stroke fill;
+  opacity: 0;
+  padding: 0 12px;
+}
+.msg.show { animation: msg 1.6s ease-out forwards; }
+.hud.aboard .msg { top: 42%; } /* on the tram: under its bar across the top, in the middle */
+.msg.bad { color: #ff6b6b; }
+.msg.good { color: #7dd956; }
+.msg.gold { color: var(--gold); }
+.msg.blue { color: #4f8cff; }
+@keyframes msg {
+  0% { transform: translateY(20px) scale(0.6); opacity: 0; }
+  12% { transform: none; opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: translateY(-14px); opacity: 0; }
+}
+
+.alert {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  white-space: nowrap;
+  padding: 6px 18px;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 30px;
+}
+.alert.show { display: block; animation: blink 0.5s steps(2) infinite; }
+.wrong { top: 44%; background: var(--gold); color: var(--ink); }
+.incoming { bottom: 120px; background: #ff5c8a; }
+@keyframes blink { 50% { opacity: 0.4; } }
+
+.finished {
+  position: absolute;
+  top: 26%;
+  left: 0;
+  right: 0;
+  display: none;
+  text-align: center;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  line-height: 1;
+  -webkit-text-stroke: 10px var(--ink);
+  paint-order: stroke fill;
+}
+.finished.show { display: block; animation: popin 0.6s cubic-bezier(0.2, 1.6, 0.4, 1); }
+.finished .f1 { font-size: 92px; color: var(--gold); }
+.finished .f2 { font-size: 64px; margin-top: 6px; }
+.finished .f2 sup { font-size: 30px; }
+@keyframes popin { from { transform: scale(0.3); opacity: 0; } }
+
+.flash {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 140px 40px rgba(255, 40, 90, 0.75);
+  opacity: 0;
+}
+.flash.on { animation: flash 0.8s ease-out; }
+@keyframes flash { from { opacity: 1; } to { opacity: 0; } }
+
+/* ---------- overlays ---------- */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: radial-gradient(ellipse at center, rgba(20, 16, 12, 0.25), rgba(20, 16, 12, 0.7));
+}
+
+.card {
+  width: 100%;
+  max-width: 920px;
+  margin: auto;
+  padding: 26px 34px 22px;
+  text-align: center;
+  color: var(--ink);
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  border-radius: 28px;
+  box-shadow: 0 10px 0 var(--ink);
+}
+.card.small { max-width: 560px; }
+#menu .card {
+  position: relative;
+  /* See-through, so the flight over the city behind it stays visible. */
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+/* Back to the landing page: floats at the very top left of the page, above the card. */
+.site-link {
+  position: fixed; top: max(10px, env(safe-area-inset-top)); left: max(14px, env(safe-area-inset-left)); z-index: 1;
+  font: 800 15px 'Nunito', system-ui, sans-serif; text-decoration: none;
+  color: rgba(255, 255, 255, 0.85); opacity: 0.9;
+  -webkit-text-stroke: 3px rgba(29, 26, 23, 0.85); paint-order: stroke fill;
+}
+.site-link.dev-link { left: auto; right: max(14px, env(safe-area-inset-right)); }
+.site-link:hover { color: #fff; opacity: 1; text-decoration: underline; text-decoration-color: rgba(255, 255, 255, 0.9); }
+@media (max-width: 760px), (max-height: 560px) { .site-link { display: none; } }
+#menu.overlay { background: radial-gradient(ellipse at center, rgba(20, 16, 12, 0), rgba(20, 16, 12, 0.35)); }
+
+/* Music, sound and language: small, unlabelled, in the top right corner. */
+.corner { position: absolute; top: 12px; right: 14px; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; z-index: 1; }
+.corner .row { display: block; padding: 0; border-width: 2px; border-radius: 12px; }
+.corner .opts { justify-content: flex-end; gap: 4px; }
+.corner .chip { font-size: 11px; padding: 2px 8px; border-width: 2px; }
+.dropdown { position: relative; }
+.dropdown .dd-list { position: absolute; top: calc(100% + 4px); right: 0; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
+.dropdown .dd-list .chip { white-space: nowrap; }
+/* the city picker: its icon before the word, the list long enough to scroll */
+#cityBtn { display: inline-flex; align-items: center; gap: 4px; }
+#cityList { max-height: min(60vh, 420px); overflow-y: auto; padding: 2px; }
+#cityList .chip { text-decoration: none; text-align: left; }
+#cityList .chip:not(.on) { color: #111; }
+.corner.left { right: auto; left: 14px; align-items: flex-start; }
+.corner.left .opts { justify-content: flex-start; }
+.corner.left .chip { font-size: 14px; padding: 4px 12px; }
+
+/* Riders, laps, level and weapons: one unlabelled line across the whole menu. */
+.quad { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 18px; }
+.quad .row { display: block; padding: 3px 8px; }
+.quad .opts { justify-content: center; flex-wrap: nowrap; gap: 6px; }
+.quad .laps b { min-width: 0; padding: 0 6px; font-size: 20px; white-space: nowrap; }
+.quad .arrow { width: 34px; height: 34px; line-height: 24px; }
+@media (max-width: 1099px) {
+  .corner { position: static; flex-direction: row; flex-wrap: wrap; justify-content: center; margin-bottom: 6px; }
+  .quad { gap: 2px 2px; }
+  .quad .row { padding: 2px 3px; }
+  .quad .chip { font-size: 14px; padding: 4px 8px; }
+  .quad .opts { gap: 4px; }
+  .quad .laps b { font-size: 17px; padding: 0 4px; }
+  .quad .arrow { width: 30px; height: 30px; line-height: 20px; }
+}
+
+.title {
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 92px;
+  line-height: 1;
+  color: var(--accent);
+  -webkit-text-stroke: 9px var(--ink);
+  paint-order: stroke fill;
+  text-shadow: 0 7px 0 var(--ink);
+}
+.title.mid { font-size: 64px; -webkit-text-stroke-width: 7px; }
+
+.tag { margin: 12px 0 20px; font-weight: 800; font-size: 18px; color: #6b5a48; }
+
+
+.settings { display: grid; gap: 8px; margin-bottom: 18px; text-align: left; }
+.row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 12px;
+  border: 3px solid transparent;
+  border-radius: 16px;
+}
+.row.focus { border-color: var(--ink); background: var(--accent-soft); }
+.label { font-family: 'Lilita One', system-ui, sans-serif; font-size: 22px; }
+.opts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.chip {
+  font: 800 16px 'Nunito', system-ui, sans-serif;
+  cursor: pointer;
+  padding: 6px 14px;
+  color: var(--ink);
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+}
+a.chip { text-decoration: none; }
+/* the pause menu's sound, weather and map controls on one line, all as tall */
+.pausetools { align-items: stretch; }
+.pausetools .chip { line-height: 1.2; }
+#pause .chip, #pause .start { display: inline-flex; align-items: center; gap: 8px; }
+#pause .start { font-size: 18px; }
+#pause .ic { width: 1.15em; height: 1.15em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+#pause .start .ic { stroke-width: 2.5; }
+.chip.on { background: var(--accent); color: #fff; }
+.chip.site-chip { color: var(--ink); text-decoration: none; display: inline-block; } /* back to the website, for those who came straight to the game */
+.chip.copied { background: #2e9d57; color: #fff; font-size: 0.85em; } /* the pause menu's Share, once the link is copied */
+.tracks { display: flex; gap: 10px; flex-wrap: wrap; }
+.tcard {
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 6px 8px 8px;
+  color: var(--ink);
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+}
+.tcard canvas { width: 120px; height: 60px; }
+.tcard b { font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 17px; }
+.tcard small { font-weight: 800; font-size: 12px; color: #8a7a68; }
+.tcard.on { background: var(--accent); color: #fff; box-shadow: 0 4px 0 var(--ink); }
+.tcard.on small { color: var(--accent-soft); }
+.tcard { position: relative; }
+
+.laps { font-family: 'Lilita One', system-ui, sans-serif; font-size: 26px; }
+.laps b { display: inline-block; min-width: 46px; font-weight: 400; }
+.arrow {
+  font: inherit;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  cursor: pointer;
+  color: var(--ink);
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+}
+
+.start {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 26px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  background: var(--accent);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  animation: pulse 1.3s ease-in-out infinite;
+}
+.start.still { animation: none; }
+#menu .start.focus { outline: 4px solid var(--ink); outline-offset: 3px; }
+.touch #menu .start.focus { outline: none; }
+.credit { margin: 8px 0 0; font-weight: 700; font-size: 11px; color: #8a7a68; }
+.credit a { color: inherit; }
+.loader-build { position: absolute; bottom: calc(10px + env(safe-area-inset-bottom)); left: 0; right: 0; text-align: center; font: 700 11px 'Nunito', system-ui, sans-serif; opacity: 0.55; } /* build: <commit> · when */
+#pauseCard { position: relative; padding: 12px 28px 24px; }
+#pauseCard .btnrow { margin-top: 12px; }
+#pauseCard .btnrow:last-child { margin-top: 22px; }
+/* Along the top, on one line however narrow the screen: the start menu, back to the website (for who
+   came from it) and ✕ at the end; a name too long for its room ends in "…". Under it the word Paused,
+   and then the map, share and settings on one line the same way. */
+.pause-nav { display: flex; align-items: center; gap: 8px; margin: 0 -14px; }
+.pause-nav > *, #pauseSiteRow > .chip, #pauseTools > .chip { min-width: 0; }
+#pauseSiteRow { display: flex; }
+.pause-nav .chip, .pause-close { font-size: 14px; padding: 4px 12px; }
+.pause-close { flex: none; margin-left: auto; }
+#pause :is(.pause-nav, #pauseTools) .chip { max-width: 100%; overflow: hidden; white-space: nowrap; }
+#pause :is(.pause-nav, #pauseTools) .chip > span:not(.caret) { overflow: hidden; text-overflow: ellipsis; }
+#pause .caret { flex: none; }
+#pause :is(.pause-nav, #pauseTools) .chip > span:not(.caret) { min-width: 0; }
+.pause-title { margin: 14px 0 -2px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+#pauseCard #pauseTools { flex-wrap: nowrap; gap: 8px; }
+#pauseTools .chip { padding: 5px 12px; }
+/* back to the website: on a narrow screen just "← Website" */
+#pauseSiteBtn .short { display: none; }
+@media (max-width: 560px) {
+  #pauseSiteBtn .long { display: none; }
+  #pauseSiteBtn .short { display: inline; }
+}
+/* short names never shrink: back to the website and the settings give way */
+:is(#pauseTitleBtn, #pauseMapBtn, #pauseShareBtn) { flex: none; }
+@media (max-width: 760px) {
+  #pauseCard { padding-left: 16px; padding-right: 16px; }
+  .pause-nav { margin: 0 -4px; gap: 6px; }
+  .pause-nav .chip, .pause-close { padding: 4px 10px; }
+  #pauseTools .chip { padding: 5px 10px; font-size: 15px; }
+  #pause :is(.pause-nav, #pauseTools) .chip { gap: 6px; }
+}
+#pauseCard .btnrow:last-child { flex-wrap: nowrap; }
+#pauseCard .btnrow:last-child .start { flex: 1 1 0; min-width: 0; padding: 10px 12px; }
+.start.alt { color: var(--ink); background: #fff; }
+#pauseMountRow { flex-wrap: nowrap; }
+#pauseMountName { flex: 1 1 auto; text-align: center; }
+#pause .psel { outline: 4px solid var(--ink); outline-offset: 3px; }
+@keyframes pulse { 50% { transform: scale(1.05); } }
+
+.btnrow { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; margin-top: 14px; }
+
+.foot { margin-top: 14px; font-weight: 800; font-size: 13px; color: #8a7a68; }
+
+.winner { margin: 14px 0 12px; font-weight: 900; font-size: 22px; }
+.duel { margin: 12px 0 16px; font-weight: 800; color: #6b5a48; }
+
+#resultTable { width: 100%; border-collapse: separate; border-spacing: 0 6px; font-weight: 600; font-size: 18px; }
+#resultTable td { padding: 8px 12px; background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+#resultTable td:first-child { border-left: 1px solid var(--line); border-radius: 6px 0 0 6px; width: 60px; font-size: 22px; font-weight: 700; }
+#resultTable td:last-child { border-right: 1px solid var(--line); border-radius: 0 6px 6px 0; text-align: right; font-variant-numeric: tabular-nums; }
+#resultTable tr.human td { background: var(--accent-soft); }
+#resultTable td.name { text-align: left; }
+.dot { display: inline-block; width: 16px; height: 16px; margin-right: 10px; border: 2px solid var(--ink); border-radius: 50%; vertical-align: -1px; }
+
+@media (max-height: 900px) {
+  #menu .title { font-size: 64px; -webkit-text-stroke-width: 7px; text-shadow: 0 5px 0 var(--ink); }
+  #menu .tag { margin: 6px 0 12px; }
+  .card { padding: 18px 26px 16px; }
+  .settings { gap: 4px; margin-bottom: 12px; }
+}
+
+/* left of the minimap */
+#menuBtn {
+  position: fixed;
+  top: calc(16px + env(safe-area-inset-top));
+  right: calc(50% + 124px);
+  z-index: 8;
+  cursor: pointer;
+  font: 900 13px 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+#menuBtn .icon { font-size: 17px; }
+/* the street sign's icons (game/icons.js): where you are, what you are doing, before the words */
+.street .icon { display: inline-block !important; vertical-align: -0.16em; margin-right: 0.3em; opacity: 0.85; }
+
+/* Wide screens, one player: the minimap in the top left corner with the menu button beside it, which
+   leaves the middle to the street sign. Two players keep the shared minimap between their halves. */
+@media (min-width: 761px) and (min-height: 561px) {
+  .solo #minimap { left: calc(22px + env(safe-area-inset-left)); transform: none; }
+  .solo #menuBtn { right: auto; left: calc(22px + 220px + 10px + env(safe-area-inset-left)); }
+  .solo #streetbar { top: calc(16px + env(safe-area-inset-top)); }
+  .solo #hud0 .hud-top { left: calc(22px + 220px + 10px + 100px + env(safe-area-inset-left)); }
+}
+
+/* ---------- touch controls ---------- */
+
+#touch { position: fixed; inset: 0; z-index: 7; pointer-events: none; }
+#steerZone {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 72%;
+  pointer-events: auto;
+  touch-action: none;
+}
+.steer-hint {
+  position: absolute;
+  left: calc(24px + env(safe-area-inset-left));
+  bottom: calc(26px + env(safe-area-inset-bottom));
+  padding: 8px 16px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.45);
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+#steerZone.active .steer-hint { opacity: 0; }
+#steerZone.used .steer-hint { display: none !important; }
+#steerZone.used .stick.rest { bottom: calc(26px + env(safe-area-inset-bottom)); }
+.roam-hint, .roaming:not(.questing) .race-hint { display: none; }
+.roaming:not(.questing) .roam-hint { display: block; }
+.stick {
+  position: absolute;
+  display: none;
+  width: 140px;
+  height: 140px;
+  margin: -70px 0 0 -70px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: rgba(29, 26, 23, 0.25);
+}
+/* At rest the stick waits above the hint, so it's clear what to drag; a touch moves it under the thumb. */
+.stick.on, .stick.rest { display: block; }
+.stick.rest {
+  left: calc(94px + env(safe-area-inset-left));
+  top: auto;
+  bottom: calc(80px + env(safe-area-inset-bottom));
+  margin: 0 0 0 -70px;
+  opacity: 0.75;
+}
+.knob {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 62px;
+  height: 62px;
+  margin: -31px 0 0 -31px;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 50%;
+  box-shadow: 0 3px 0 var(--ink);
+}
+.tbtns {
+  position: absolute;
+  right: calc(16px + env(safe-area-inset-right));
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "fries" "item" "action" "jump";
+  justify-items: center;
+  align-items: end;
+  gap: 12px 14px;
+  pointer-events: auto;
+}
+.tbtn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 78px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--ink);
+  background: rgba(255, 250, 240, 0.9);
+  border: 3px solid var(--ink);
+  border-radius: 50%;
+  box-shadow: 0 5px 0 var(--ink);
+  touch-action: none;
+  -webkit-user-select: none;
+}
+.tbtn small { font-family: 'Nunito', system-ui, sans-serif; font-weight: 900; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin-top: 3px; }
+.tbtn.pressed { transform: translateY(4px); box-shadow: 0 1px 0 var(--ink); }
+.tbtn.big { width: 104px; height: 104px; font-size: 40px; background: var(--accent); color: #fff; }
+#tJump { grid-area: jump; }
+#tItem { grid-area: item; background: #e53935; color: #fff; font-size: 34px; }
+#tItem.empty { background: rgba(29, 26, 23, 0.45); }
+#tItem.empty .ico { opacity: 0.4; }
+#tItem .queue { position: absolute; top: -8px; right: -10px; font-size: 18px; letter-spacing: -2px; }
+/* the julientje (a bakje friet for the students), in the quests that have one: a white tray when ready */
+/* the paintball gun (car+paintball mode, in every mission): its own button above the jump button */
+#tShoot { grid-area: item; display: none; background: #1e66f5; color: #fff; font-size: 30px; }
+#tShoot small { font-size: 9px; letter-spacing: 0.5px; }
+.gunfree #tShoot { display: flex; }
+/* the helicopter (the rescue quest): the jump button climbs, this one sinks; up on top, down below */
+#tSink { grid-area: item; display: none; background: #1f4e9c; color: #fff; font-size: 34px; }
+:is(.heli, .dragonfly) #tSink { display: flex; }
+:is(.heli, .dragonfly) #tItem { display: none; }
+:is(.heli, .dragonfly) #tSink { grid-area: jump; }
+:is(.heli, .dragonfly) #tJump { grid-area: item; }
+.dragonfly :is(#tFries, #tShoot) { display: none; } /* (the tour flown yourself: up and down, nothing else) */
+#tFries { grid-area: fries; display: none; background: #fffdf2; font-size: 30px; }
+#tFries small { font-size: 9px; letter-spacing: 0.5px; }
+#tFries.charging { background: rgba(29, 26, 23, 0.45); color: #fff; }
+#tFries.charging .ico { opacity: 0.4; }
+.fries #tFries { display: flex; }
+/* the action button (game/action.js): over the jump button, while there is something to do here */
+#tAction { grid-area: action; display: none; background: #1d1a17; color: #fff; }
+#tAction.show { display: flex; }
+#tAction .icon, #menuBtn .icon, .street .icon, #cityBtn .icon { width: 1em; height: 1em; display: block; flex: none; }
+#tAction .ico { font-size: 30px; line-height: 0; }
+#artview { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: calc(12px + env(safe-area-inset-top)) 16px calc(12px + env(safe-area-inset-bottom)); background: rgba(12, 10, 8, 0.94); color: #f4efe6; cursor: zoom-out; }
+#artview.hidden { display: none; }
+#artview img { flex: 1 1 auto; min-height: 0; max-width: 100%; object-fit: contain; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6); }
+.art-cap { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 12px; text-align: center; font: 500 15px var(--sans, system-ui, sans-serif); }
+.art-cap b { font-size: 20px; font-weight: 700; }
+.art-cap span { color: #c9bfae; }
+.art-cap .chip { color: #111; background: #fff; border: 0; border-radius: 6px; padding: 5px 10px; text-decoration: none; font-size: 14px; cursor: pointer; }
+.art-x { position: absolute; top: calc(10px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); width: 40px; height: 40px; font: 600 20px/1 system-ui, sans-serif; color: #fff; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 8px; cursor: pointer; }
+
+/* ---------- touch mode: hide keyboard-only bits ---------- */
+
+/* On a phone: no player count (split screen needs a keyboard), no instructions, quests three in a row,
+   compact cards (a smaller emoji, the title in two short lines at most). */
+.touch .foot, .touch .hud-bottom, .touch .pkeys, .touch #menu [data-row="mode"] { display: none !important; }
+.touch .quests { display: grid; grid-template-columns: repeat(3, minmax(0, 116px)); gap: 7px; justify-content: center; }
+.touch .qcard { width: auto; min-width: 0; padding: 3px 4px 5px; border-radius: 12px; }
+.touch .qcard .qemoji { font-size: 26px; line-height: 1.15; }
+.touch .qcard b { font-size: 14px; line-height: 1.1; hyphens: auto; } /* a long word breaks where the language allows */
+.touch #tourCards { grid-template-columns: repeat(3, minmax(0, 132px)); } /* two tours and the trailer, with a line of explanation each */
+.touch .qcard small { font-size: 11px; line-height: 1.15; }
+.touch .row.focus { border-color: transparent; background: none; }
+.touch .incoming { bottom: auto; top: 60%; }
+
+/* ---------- small screens (phones) ---------- */
+
+@media (max-width: 760px), (max-height: 560px) {
+  .place { font-size: 54px; -webkit-text-stroke-width: 6px; }
+  .place .suf { font-size: 24px; }
+  .who { font-size: 10px; padding: 1px 8px; letter-spacing: 1px; margin-top: 4px; }
+  .street .now { font-size: 15px; padding: 1px 8px; border-width: 2px; }
+  .street .next { font-size: 12px; -webkit-text-stroke-width: 3px; }
+  .stats { -webkit-text-stroke-width: 5px; }
+  .lap { font-size: 24px; }
+  .time { font-size: 16px; }
+  .hud-top { top: calc(8px + env(safe-area-inset-top)); left: calc(12px + env(safe-area-inset-left)); }
+  .solo #hud0 .hud-top { right: calc(12px + env(safe-area-inset-right)); }
+  #minimap { top: calc(8px + env(safe-area-inset-top)); border-width: 2px; border-radius: 10px; }
+  .cd { font-size: 110px; -webkit-text-stroke-width: 9px; }
+  .msg { font-size: 30px; -webkit-text-stroke-width: 6px; }
+  .alert { font-size: 18px; padding: 4px 12px; }
+  .finished .f1 { font-size: 58px; }
+  .finished .f2 { font-size: 42px; }
+  #menuBtn { top: calc(10px + env(safe-area-inset-top)); right: calc(50% + 88px); font-size: 14px; padding: 6px 14px; }
+  #streetbar { top: calc(96px + env(safe-area-inset-top)); }
+  .card { padding: 14px 16px 14px; border-radius: 20px; box-shadow: 0 6px 0 var(--ink); }
+  #menu .title, .title { font-size: 44px; -webkit-text-stroke-width: 5px; text-shadow: 0 4px 0 var(--ink); }
+  .title.mid { font-size: 40px; }
+  #menu .tag { font-size: 13px; margin: 6px 0 10px; }
+  .settings { gap: 2px; margin-bottom: 10px; }
+  .row { grid-template-columns: 64px 1fr; gap: 8px; padding: 3px 6px; }
+  .label { font-size: 16px; }
+  .chip { font-size: 13px; padding: 5px 10px; }
+  .tracks { gap: 6px; }
+  .tcard { width: 98px; padding: 4px 4px 6px; border-radius: 12px; }
+  .tcard canvas { width: 84px; height: 42px; }
+  .tcard b { font-size: 12px; }
+  .tcard small { font-size: 9px; }
+  .laps { font-size: 20px; }
+  .arrow { width: 34px; height: 34px; line-height: 24px; }
+  .quad { gap: 2px 4px; }
+  .quad .opts { gap: 4px; }
+  .quad .chip { font-size: 12px; padding: 3px 8px; }
+  .quad .laps b { font-size: 15px; }
+  .start { font-size: 22px; padding: 8px 20px; }
+  /* phones: no picture or colours, just a narrow ‹ Paard › to change what you ride (each mission still brings its own) */
+  #menu .row.animals { margin-bottom: 8px; }
+  #menu .pcol { padding: 2px; border-width: 2px; box-shadow: 0 3px 0 var(--c, #b9b0a4); }
+  
+  #menu .phead, #menu .ppick, #menu .pcolor { display: none; }
+  #menu .pmount { display: flex; }
+  .winner { font-size: 17px; margin: 8px 0; }
+  #resultTable { font-size: 15px; }
+  #resultTable td { padding: 5px 8px; }
+  #resultTable td:first-child { font-size: 20px; width: 44px; }
+}
+
+@media (max-width: 480px) {
+  /* Narrow portrait phone: stack the buttons in one column on the right edge. */
+  .tbtns { gap: 10px; }
+  .steer-hint { font-size: 14px; padding: 6px 12px; }
+  .row { grid-template-columns: 1fr; gap: 4px; }
+  .tcard { width: 88px; }
+  .tcard canvas { width: 76px; height: 38px; }
+}
+
+/* Phone held sideways: missions or routes on the left, players and the start button on the right. */
+@media (max-height: 560px) and (orientation: landscape) {
+  .cols { display: grid; grid-template-columns: 1.5fr 1fr; gap: 14px; align-items: center; }
+  #menu .title { font-size: 32px; -webkit-text-stroke-width: 4px; text-shadow: 0 3px 0 var(--ink); }
+  .tcard { width: 92px; padding: 3px; }
+  .tcard canvas { width: 64px; height: 32px; }
+  .tcard b { font-size: 11px; white-space: nowrap; }
+  .tcard small { display: none; }
+  .row { padding-top: 1px; padding-bottom: 1px; }
+  #menu .card { max-width: 860px; }
+  #menu .tag { display: none; }
+  .settings { margin-bottom: 0; }
+  .tbtn { width: 66px; height: 66px; font-size: 22px; }
+  .tbtn.big { width: 88px; height: 88px; font-size: 34px; }
+  #tItem { font-size: 28px; }
+}
+
+/* Wide screens: missions or routes on the left, players and the start button on the right. */
+@media (min-width: 1100px) and (min-height: 680px) {
+  #menu .card { max-width: 1200px; }
+  .cols { display: grid; grid-template-columns: 1.25fr 1fr; gap: 24px; align-items: center; }
+  .settings { gap: 0; }
+  #menu .tag { margin: 4px 0 8px; }
+  .row { padding: 3px 10px; }
+  .tcard canvas { width: 100px; height: 50px; }
+  .tcard { width: 136px; padding: 4px 6px 6px; }
+}
+
+/* Pure race: no items anywhere */
+.noweapons .hud-bottom .items, .noweapons #tItem { display: none; }
+.duel { white-space: pre-line; }
+
+/* ---------- player columns ---------- */
+
+.row.animals { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 14px; }
+.row.animals > .pcols { flex: 1 1 auto; min-width: 0; }
+/* side by side and centred, so one player alone sits in the middle */
+.pcols { display: flex; justify-content: center; gap: 10px; }
+.pcols > .pcol { flex: 1 1 0; max-width: 300px; }
+.pcol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 0 8px 8px;
+  background: #fff;
+  border: 3px solid var(--c, var(--ink));
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--c, #b9b0a4);
+  overflow: hidden;
+}
+.phead {
+  align-self: stretch;
+  margin: 0 -8px 2px;
+  padding: 3px 0 4px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background: var(--c, #8a7a68);
+  -webkit-text-stroke: 3px var(--ink);
+  paint-order: stroke fill;
+}
+/* With two players the header is where each one types their name. */
+.phead input {
+  width: 9ch;
+  margin-left: 4px;
+  font: inherit;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  -webkit-text-stroke: inherit;
+  paint-order: stroke fill;
+  -webkit-user-select: text;
+  user-select: text;
+}
+.phead input:focus { outline: none; background: rgba(255, 255, 255, 0.3); border-style: solid; }
+/* the character big, with arrows to change it; below it arrows for the colours */
+.ppick, .pcolor { display: flex; align-items: center; justify-content: space-between; gap: 4px; width: 100%; padding: 2px; border-radius: 12px; }
+.ppick img { flex: 1; min-width: 0; max-width: 170px; aspect-ratio: 4 / 3; object-fit: contain; cursor: pointer; }
+.ppick .arrow { width: 34px; height: 34px; line-height: 24px; }
+.pcolor b { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 900; font-size: 14px; white-space: nowrap; }
+.pcolor i { font-style: normal; }
+.pcolor .dot { margin: 0; }
+.pcolor .arrow { width: 28px; height: 28px; line-height: 18px; }
+.ppick.focus, .pcolor.focus { background: var(--accent-soft); box-shadow: 0 0 0 2px var(--ink); }
+.pmount { display: none; align-items: center; justify-content: space-between; gap: 4px; width: 100%; }
+.pmount b { flex: 1; text-align: center; font-weight: 900; font-size: 15px; white-space: nowrap; }
+.pmount .arrow { width: 30px; height: 30px; line-height: 20px; }
+.pcol .pkeys { font-weight: 800; font-size: 12px; color: #4a3f35; text-align: center; line-height: 1.5; }
+.pkeys kbd { font-size: 11px; min-width: 0; padding: 0 5px; border-bottom-width: 3px; margin: 1px; }
+.pkeys .pad { white-space: nowrap; }
+
+@media (max-width: 760px), (max-height: 560px) {
+  .pcols { gap: 6px; }
+  .phead { font-size: 16px; }
+  .ppick img { max-width: 120px; }
+  .pkeys { font-size: 10px; }
+}
+@media (max-height: 560px) and (orientation: landscape) {
+  .ppick img { max-width: 90px; }
+  .pcol { padding-bottom: 4px; gap: 2px; }
+}
+
+/* compact player cards */
+.pcol { gap: 2px; }
+.phead { font-size: 18px; padding: 2px 0 3px; }
+.pkeys { font-size: 11px; line-height: 1.4; }
+@media (min-width: 1100px) and (min-height: 680px) {
+  #menu .card { padding-top: 14px; }
+}
+@media (min-width: 1100px) and (min-height: 680px) {
+  .start { white-space: nowrap; font-size: 24px; }
+}
+
+/* Free roam: no race, so no position or laps on the HUD */
+.roaming .place, .roaming .lap { display: none; }
+
+/* The big map, opened from the minimap: click a spot to teleport there. */
+#minimap { cursor: zoom-in; }
+#bigmap { flex-direction: column; align-items: center; justify-content: center; gap: 10px; z-index: 12; }
+#bigCanvas {
+  background: rgba(17, 17, 17, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  cursor: crosshair;
+  touch-action: none;
+}
+#bigmap .bighint { margin: 0; color: #fff; font-weight: 600; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); text-align: center; }
+#bigTop { display: contents; }
+#bigClose { position: absolute; top: max(16px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); }
+#bigAsk {
+  position: absolute;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+#bigAsk .btnrow { margin: 6px 0 0; gap: 6px; justify-content: center; }
+
+/* The big map's second tab, the places index: look a place or a street up and teleport there. */
+#bigTabs { margin: 0; gap: 8px; }
+#bigBody { display: flex; align-items: center; gap: 12px; }
+#bigCanvas.pan { cursor: grab; }
+#bigCanvas.dragging { cursor: grabbing; }
+/* + and − at the map's bottom right corner (the canvas is the last thing in #bigBody) */
+#bigBody { position: relative; }
+#bigZoom { position: absolute; right: 10px; bottom: 10px; display: flex; flex-direction: column; gap: 6px; }
+#bigmap #bigZoom .chip { width: 40px; height: 40px; padding: 0; font-size: 22px; line-height: 1; }
+#bigmap #bigZoom .chip:disabled { opacity: 0.45; }
+#bigmap.full #bigZoom { right: max(12px, env(safe-area-inset-right)); bottom: max(12px, env(safe-area-inset-bottom)); }
+#bigIndex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: min(520px, calc(100vw - 32px));
+  height: min(640px, calc(100vh - 150px));
+  box-sizing: border-box;
+  padding: 12px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+#bigSearch {
+  font: 800 16px 'Nunito', system-ui, sans-serif;
+  padding: 8px 12px;
+  color: var(--ink);
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+  outline: none;
+}
+#bigList { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+#bigList h3 { margin: 12px 10px 4px; font: 600 12px var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+#bigList h3:first-child { margin-top: 2px; }
+#bigList button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 10px;
+  font: 500 15px var(--sans);
+  text-align: left;
+  color: var(--ink);
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#bigList button:hover, #bigList button.focus { background: var(--accent-soft); }
+#bigList .listask { display: flex; align-items: center; gap: 8px; margin: 0 0 4px 34px; font: 500 14px var(--sans); }
+#bigList .listask span { flex: 1; }
+#bigList .listask button { width: 38px; justify-content: center; padding: 4px 0; font-size: 18px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+#bigList .listask .yes { color: #fff; background: var(--accent); border-color: var(--accent); }
+#bigList .none { margin: 12px 4px; font-weight: 500; color: var(--muted); }
+/* on a wide screen the index stands beside the map, as tall as it: no tabs */
+#bigmap.side #bigTabs { display: none; }
+#bigmap.side #bigIndex { width: 300px; } /* and as tall as the map (layoutBigMap) */
+
+/* Phones: the big map fills the screen, a bar along the top holding the tabs (left) and the way back (right). */
+#bigmap.full { padding: 0; gap: 0; justify-content: flex-start; align-items: stretch; background: #1d1a17; overflow: hidden; }
+#bigmap.full #bigTop { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex: none; box-sizing: border-box; padding: calc(8px + env(safe-area-inset-top)) max(10px, env(safe-area-inset-right)) 8px max(10px, env(safe-area-inset-left)); }
+#bigmap.full #bigTabs { justify-content: flex-start; flex-wrap: nowrap; }
+#bigmap.full #bigClose { position: static; white-space: nowrap; }
+#bigmap.full .chip { font-size: 14px; padding: 5px 12px; white-space: nowrap; }
+#bigmap.full #bigBody { flex: 1; min-height: 0; align-items: stretch; justify-content: center; }
+#bigmap.full #bigCanvas { border: 0; border-radius: 0; }
+#bigmap.full .bighint { display: none; }
+#bigmap.full #bigIndex { width: 100vw; height: 100%; border: 0; border-radius: 0; box-shadow: none; }
+
+/* Missions: pick one on the menu (exploring freely, or a quest), read what it is about, then the
+   HUD shows the time left and an arrow to where you have to go. */
+.questrow { display: block; text-align: center; margin: 6px 0 2px; }
+.quests { display: grid; grid-template-columns: repeat(3, 150px); gap: 10px; justify-content: center; }
+.qcard {
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 6px 8px 8px;
+  color: var(--ink);
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+}
+.qcard .qemoji { font-size: 34px; line-height: 1.2; }
+.qcard b { font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 16px; line-height: 1.15; }
+.qcard small { font-weight: 800; font-size: 12px; color: #8a7a68; }
+.qcard.on { background: var(--accent); color: #fff; box-shadow: 0 4px 0 var(--ink); }
+.qcard.on small { color: var(--accent-soft); }
+.qcard { position: relative; }
+.qcard.won { border-color: #2e9e4f; }
+.qcard.won::after {
+  content: '✓'; position: absolute; top: -8px; right: -8px; width: 24px; height: 24px; border-radius: 50%;
+  background: #2e9e4f; color: #fff; font-weight: 900; font-size: 15px; line-height: 24px; text-align: center;
+  box-shadow: 0 2px 0 var(--ink);
+}
+/* car+paintball mode: a small checkbox with a car and a gun, beside the player cards (on the ‹ Fiets › line on a phone),
+   once every mission is won */
+.gunmode { flex: none; display: flex; align-items: center; gap: 6px; padding: 6px 10px; border: 3px solid var(--ink); border-radius: 14px; background: #fff; box-shadow: 0 3px 0 var(--ink); cursor: pointer; font-size: 18px; line-height: 1; }
+.gunmode.hidden { display: none; }
+.gunmode:has(input:checked) { background: var(--accent); }
+.gunmode input { width: 20px; height: 20px; margin: 0; accent-color: var(--ink); }
+#brief { z-index: 11; }
+.brief-emoji { font-size: 64px; line-height: 1; }
+.brief-story { margin: 12px auto; max-width: 480px; font-weight: 800; font-size: 17px; line-height: 1.45; color: #4a3f35; }
+.brief-time { font-family: 'Lilita One', system-ui, sans-serif; font-size: 24px; color: var(--accent); }
+.qnav { position: absolute; top: calc(64px + env(safe-area-inset-top)); right: calc(22px + env(safe-area-inset-right)); text-align: center; }
+.hud.right .qnav { right: auto; left: calc(22px + env(safe-area-inset-left)); }
+.qarrow {
+  font-size: 54px;
+  line-height: 1;
+  color: var(--gold);
+  -webkit-text-stroke: 4px var(--ink);
+  paint-order: stroke fill;
+}
+.qinfo {
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  -webkit-text-stroke: 5px var(--ink);
+  paint-order: stroke fill;
+  white-space: nowrap;
+}
+.time.low { color: #ff6b6b; animation: blink 0.5s steps(2) infinite; }
+body:not(.questing) .qnav { display: none; }
+/* the health bar in the quests where you can get hurt: a heart, then a line per hit you can still take */
+.qhp { position: absolute; top: calc(152px + env(safe-area-inset-top)); right: calc(18px + env(safe-area-inset-right)); display: flex; align-items: center; gap: 4px; }
+.hud.right .qhp { right: auto; left: calc(18px + env(safe-area-inset-left)); }
+.qhp .heart { font-size: 30px; line-height: 1; color: #e53935; -webkit-text-stroke: 4px var(--ink); paint-order: stroke fill; margin-right: 2px; }
+.qhp i { width: 11px; height: 24px; border: 3px solid var(--ink); border-radius: 4px; background: #4a3f35; }
+.qhp i.on { background: #e53935; box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.35); }
+.qhp.hit { animation: blink 0.25s steps(2) infinite; }
+body:not(.questing) .qhp { display: none; }
+/* and below it, with a keyboard: the julientje, ready or charging */
+.qfries { position: absolute; top: calc(186px + env(safe-area-inset-top)); right: calc(18px + env(safe-area-inset-right)); font-family: 'Lilita One', system-ui, sans-serif; font-size: 18px; color: #fdd835; -webkit-text-stroke: 4px var(--ink); paint-order: stroke fill; white-space: nowrap; }
+.hud.right .qfries { right: auto; left: calc(18px + env(safe-area-inset-left)); }
+.qfries kbd { -webkit-text-stroke: 0; font-size: 13px; }
+.qfries.charging { color: #fff; opacity: 0.7; }
+body:not(.fries) .qfries, .touch .qfries { display: none; }
+.questing #minimap { cursor: default; }
+
+/* Sights: ride up to one while exploring and a card tells you what it is, in the corner the items
+   leave free (the outer one with two players; bottom left on touch, away from the buttons). */
+.sight {
+  position: absolute;
+  bottom: calc(18px + env(safe-area-inset-bottom));
+  right: calc(22px + env(safe-area-inset-right));
+  width: min(360px, calc(100% - 44px));
+  padding: 12px 14px 13px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s, transform 0.5s; /* in, and out again after a moment (SIGHT_FOR) */
+}
+.sight.show { opacity: 0.9; transform: none; pointer-events: auto; } /* the city a little through it */
+.hud.right .sight { right: auto; left: calc(22px + env(safe-area-inset-left)); }
+.touch .sight { right: auto; left: calc(12px + env(safe-area-inset-left)); bottom: calc(12px + env(safe-area-inset-bottom)); }
+.sight-head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+/* an eye: something to look at here */
+.sight-eye { flex: none; width: 30px; height: 30px; fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linejoin: round; }
+.sight b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 22px; line-height: 1.1; }
+.sight-text { font-weight: 700; font-size: 14px; line-height: 1.4; color: #4a3f35; }
+/* the three facts, as on the tour's card */
+.sight-text ul { margin: 0; padding-left: 1.15em; }
+.sight-text li { margin: 2px 0; }
+.sight-text li::marker { color: var(--accent); }
+/* The tour: the camera flies over the old town. The street below in the middle at the top, how far
+   along as a thin bar along the top edge, and at each stop a card with what is there (with a bar for
+   how long it stays on its own, on autoplay). */
+#tour { position: fixed; inset: 0; z-index: 6; pointer-events: none; }
+body.touring #menu .row.animals { display: none; } /* nobody rides on the tour */
+body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)); }
+/* the bar: one piece per phase of the tour, a gap between them; click one to go back to its start */
+:is(#tourBar, #demoBar) { position: absolute; top: 0; left: 0; right: 0; display: flex; gap: 4px; pointer-events: auto; }
+:is(#tourBar, #demoBar) button { flex: 1 1 0; height: 14px; padding: 0 0 9px; border: 0; background: none; cursor: pointer; }
+:is(#tourBar, #demoBar) button i { display: block; height: 5px; background: rgba(29, 26, 23, 0.35); transition: height 0.15s; }
+:is(#tourBar, #demoBar) button b { display: block; height: 100%; background: var(--gold); transform-origin: left; transform: scaleX(0); }
+:is(#tourBar, #demoBar) button:hover i { height: 9px; }
+:is(#tourBar, #demoBar) button { position: relative; }
+:is(#tourBar, #demoBar) button:first-child::after { left: 8px; transform: none; }
+:is(#tourBar, #demoBar) button:last-child::after { left: auto; right: 8px; transform: none; }
+:is(#tourBar, #demoBar) button::after {
+  content: attr(data-name);
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font: 800 13px 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.85);
+  border-radius: 999px;
+  padding: 4px 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+:is(#tourBar, #demoBar) button:hover::after { opacity: 1; }
+:is(#tourBar, #demoBar) button[data-name='']::after { display: none; }
+/* how fast it plays: a round button beside the menu's (js/game/touring.js puts it there) */
+#tourSpeed {
+  position: absolute;
+  top: calc(16px + env(safe-area-inset-top));
+  left: calc(96px + env(safe-area-inset-left));
+  width: 34px; height: 34px;
+  pointer-events: auto;
+  cursor: pointer;
+  font: 900 13px 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 0;
+}
+/* the music on or off: a pill saying so beside the speed's button (js/game/touring.js puts it there too) */
+#tourMusic {
+  position: absolute;
+  top: calc(16px + env(safe-area-inset-top));
+  left: calc(138px + env(safe-area-inset-left));
+  height: 34px;
+  pointer-events: auto;
+  cursor: pointer;
+  font: 900 13px 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  line-height: 1;
+  white-space: nowrap;
+  background: rgba(29, 26, 23, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 17px;
+  padding: 0 12px;
+}
+#tourMusic.off { opacity: 0.65; }
+#tourName {
+  position: absolute;
+  top: calc(16px + env(safe-area-inset-top));
+  left: 50%;
+  transform: translate(-50%, -8px);
+  padding: 4px 16px;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+#tourName.show { opacity: 1; transform: translate(-50%, 0); }
+/* the tour flown yourself: no bar or speed to play it by, and top right the hoops flown through */
+#tour.fly :is(#tourBar, #tourSpeed) { display: none; }
+#flyHud {
+  display: none;
+  position: absolute;
+  top: calc(16px + env(safe-area-inset-top));
+  right: calc(16px + env(safe-area-inset-right));
+  padding: 4px 14px;
+  font: 900 16px 'Nunito', system-ui, sans-serif;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+#tour.fly #flyHud { display: block; }
+/* the welcome as the tour sets off: big in the middle, then gone */
+#tourWelcome {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.9s, transform 1.4s ease-out;
+}
+#tourWelcome.show { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+#tourWelcome b {
+  display: block;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(40px, 9vw, 96px);
+  color: #fff;
+  -webkit-text-stroke: 8px var(--ink);
+  paint-order: stroke fill;
+  text-shadow: 0 6px 0 var(--ink);
+}
+#tourWelcome small {
+  display: block;
+  width: min(680px, 86vw);
+  margin: 12px auto 0;
+  padding: 8px 18px 10px;
+  font-weight: 800;
+  font-size: clamp(14px, 2vw, 19px);
+  line-height: 1.4;
+  white-space: normal;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.7);
+  border-radius: 18px;
+}
+#tourCard {
+  position: absolute;
+  left: calc(22px + env(safe-area-inset-left));
+  bottom: calc(22px + env(safe-area-inset-bottom));
+  width: min(420px, calc(100% - 44px));
+  padding: 14px 16px 12px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.45s, transform 0.45s;
+  overflow: hidden;
+}
+#tourCard.show { opacity: 1; transform: none; pointer-events: auto; }
+#tourCard.paused { box-shadow: 0 5px 0 var(--ink), 0 0 0 4px var(--gold); } /* waiting while it is read */
+.tour-head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+#tourEmoji { display: flex; font-size: 34px; line-height: 1; }
+#tourEmoji .sight-eye { width: 34px; height: 34px; }
+#tourLabel { display: block; font-weight: 900; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+#tourTitle { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 24px; line-height: 1.1; }
+#tourText { font-weight: 700; font-size: 15px; line-height: 1.45; color: #4a3f35; }
+#tourText ul { margin: 0; padding-left: 1.15em; }
+#tourText li { margin: 2px 0; }
+#tourText li::marker { color: var(--accent); }
+.tour-btns { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 12px; }
+.tour-btns .chip { font-size: 14px; padding: 5px 12px; }
+.tour-btns .start { font-size: 20px; padding: 6px 18px; box-shadow: 0 4px 0 var(--ink); animation: none; }
+.tour-timer { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; }
+.tour-timer i { display: block; height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(0); }
+#tour:not(.auto) .tour-timer { display: none; }
+#tour.auto #tourLabel { display: none; } /* autoplay: no "Tour 3/8" line above the title */
+@media (max-width: 760px), (max-height: 560px) {
+  #tourName { font-size: 16px; top: calc(10px + env(safe-area-inset-top)); }
+  #tourCard { left: calc(12px + env(safe-area-inset-left)); bottom: calc(12px + env(safe-area-inset-bottom)); width: min(340px, calc(100% - 24px)); padding: 10px 12px 10px; }
+  #tourEmoji { font-size: 26px; }
+  #tourEmoji .sight-eye { width: 26px; height: 26px; }
+  #tourTitle { font-size: 19px; }
+  #tourText { font-size: 11.5px; line-height: 1.3; }
+  #tourTitle { font-size: 17px; }
+  .tour-btns { margin-top: 8px; }
+  .tour-btns .start { font-size: 17px; }
+}
+
+.sight-head { padding-right: 26px; }
+.sight-x {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink);
+  font: 900 13px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+.sight-x:hover { background: var(--accent); color: #fff; }
+.sight-more {
+  /* a white pill like the tour card's "Lees meer" (a .chip), across the whole card: a big target */
+  display: block;
+  margin-top: 9px;
+  text-align: center;
+}
+.sight-more[hidden], .sight-enter[hidden] { display: none; }
+/* the two buttons side by side, or one across the card */
+.sight-btns { display: flex; gap: 8px; }
+.sight-btns .chip { flex: 1; margin-top: 9px; }
+.sight-enter { background: var(--accent); color: #fff; cursor: pointer; }
+/* folded: just a round ⓘ, which opens the card again */
+.sight-i { display: none; }
+.sight.mini { width: 44px; height: 44px; padding: 0; border-radius: 50%; transition: opacity 0.5s, transform 0.5s; cursor: pointer; }
+.sight.mini > :not(.sight-i) { display: none; }
+.sight.mini .sight-i { display: grid; place-items: center; width: 100%; height: 100%; padding: 0; border: 0; background: none; color: var(--accent); font: 400 26px/1 'Lilita One', system-ui, sans-serif; cursor: pointer; }
+/* The tram: standing at a stop it asks whether you want to wait for one, then says it is coming,
+   and on board where it goes and what the next stop is. Click or tap it to answer (or get off). */
+.tramcard {
+  position: absolute;
+  top: calc(96px + env(safe-area-inset-top));
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  width: max-content;
+  max-width: min(440px, calc(100% - 32px));
+  padding: 10px 16px 10px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  opacity: 0;
+  transform: translate(-50%, -12px);
+  transition: opacity 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+.tramcard.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.tram-badge {
+  flex: none;
+  display: grid;
+  place-items: center;
+  min-width: 46px;
+  height: 46px;
+  padding: 0 6px;
+  border-radius: 12px;
+  background: var(--line, #ffcc00);
+  color: #fff;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+.tram-badge.plain { background: #ffcc00; font-size: 26px; text-shadow: none; }
+.tramcard small { display: block; font-weight: 900; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+.tramcard b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 21px; line-height: 1.15; }
+.tramcard p { margin-top: 2px; font-weight: 700; font-size: 13px; line-height: 1.35; color: #4a3f35; }
+.tramcard kbd { padding: 0 5px; border: 2px solid var(--ink); border-radius: 5px; font: inherit; font-size: 11px; background: #fff; }
+/* By a door into a building (js/interiors.js): its name, and the key that takes you in. A click or a
+   tap on it does too. */
+.doorcard {
+  position: absolute;
+  top: calc(96px + env(safe-area-inset-top));
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  max-width: min(440px, calc(100% - 32px));
+  padding: 8px 12px 8px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 5px 0 var(--ink);
+  font: inherit;
+  text-align: left;
+  opacity: 0;
+  transform: translate(-50%, -12px);
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+  cursor: pointer;
+}
+.doorcard.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.doorcard:hover { background: #fff; }
+.door-emoji { font-size: 34px; line-height: 1; }
+.doorcard small { display: block; font-weight: 900; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+.doorcard b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: 400; font-size: 21px; line-height: 1.15; }
+.doorcard kbd { padding: 2px 7px; border: 2px solid var(--ink); border-radius: 6px; font: 900 12px/1.2 system-ui, sans-serif; background: #fff; }
+/* the big TRAM (or BUS) on top, in De Lijn's yellow, and the buttons under it: a click as well as the key */
+.tram-head {
+  margin: -10px -16px 0 -10px;
+  padding: 6px 16px 4px;
+  border-radius: 13px 13px 0 0;
+  border-bottom: 3px solid var(--ink);
+  background: #ffcc00;
+  font-family: 'Lilita One', system-ui, sans-serif;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.tram-row { display: flex; align-items: center; gap: 12px; }
+.tram-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.tram-btns .chip { flex: 1 1 auto; padding: 7px 14px; font-size: 15px; white-space: nowrap; }
+.tram-go { background: var(--accent); color: #fff; }
+.tram-go:hover { filter: brightness(1.08); }
+.tram-seat[hidden] { display: none; }
+/* On board: a bar right across the top of the player's half, in place of everything else up there. */
+.tramcard.aboard, .tramcard.aboard.show {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  max-width: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 22px;
+  padding: calc(10px + env(safe-area-inset-top)) calc(20px + env(safe-area-inset-right)) 12px calc(20px + env(safe-area-inset-left));
+  border-width: 0 0 3px;
+  border-radius: 0 0 20px 20px;
+  transform: none;
+}
+.tramcard.aboard .tram-head { margin: 0; padding: 6px 14px; border: 3px solid var(--ink); border-radius: 12px; font-size: 34px; }
+.tramcard.aboard .tram-btns { flex: 0 1 auto; }
+.hud.aboard .hud-top, .hud.aboard .sight, .hud.aboard .lm, .hud.aboard .qnav, .street.aboard { visibility: hidden; }
+.aboard #minimap, .aboard #menuBtn { visibility: hidden; }
+/* riding about freely there is no race to time */
+.roaming:not(.questing) .hud .time { display: none; }
+@media (max-width: 760px), (max-height: 560px) {
+  .tramcard, .doorcard { top: calc(70px + env(safe-area-inset-top)); gap: 6px; padding: 6px 10px 6px 6px; border-width: 2px; box-shadow: 0 3px 0 var(--ink); }
+  .doorcard b { font-size: 17px; }
+  .tram-head { margin: -6px -10px 0 -6px; font-size: 24px; border-bottom-width: 2px; }
+  .tramcard.aboard .tram-head { font-size: 24px; border-width: 2px; }
+  .tram-btns .chip { padding: 6px 10px; font-size: 13px; }
+  .tram-badge { min-width: 36px; height: 36px; font-size: 22px; }
+  .tramcard b { font-size: 17px; }
+  .tramcard p { font-size: 12px; }
+}
+@media (max-width: 760px), (max-height: 560px) {
+  .sight { width: min(300px, calc(100% - 24px)); padding: 8px 10px 9px; border-width: 2px; box-shadow: 0 3px 0 var(--ink); }
+  .sight-eye { width: 22px; height: 22px; }
+  .sight b { font-size: 17px; }
+  .sight-text { font-size: 12px; line-height: 1.35; }
+  .sight-x { top: 6px; right: 6px; width: 24px; height: 24px; font-size: 11px; }
+  .sight-more { margin-top: 6px; padding: 5px 10px; font-size: 13px; border-width: 2px; }
+}
+
+/* Pointers to the sights nearby that are out of view, quietly in the bottom corners: above the
+   items on their side, above the sight card on the other. Not on phones, where the screen is full. */
+.lm { position: absolute; display: flex; flex-direction: column; gap: 4px; transition: bottom 0.35s; }
+.lm.l { left: calc(22px + env(safe-area-inset-left)); align-items: flex-start; }
+.lm.r { right: calc(22px + env(safe-area-inset-right)); align-items: flex-end; }
+.hud .lm.l, .hud.right .lm.r { bottom: calc(118px + env(safe-area-inset-bottom)); }
+.noweapons .hud .lm.l, .noweapons .hud.right .lm.r { bottom: calc(54px + env(safe-area-inset-bottom)); }
+.hud .lm.r, .hud.right .lm.l { bottom: calc(28px + var(--sight-h, 0px) + env(safe-area-inset-bottom)); }
+.touch .lm { display: none; }
+.lmp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 10px 2px 6px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(29, 26, 23, 0.28);
+  border-radius: 999px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+  opacity: 0.85;
+}
+.lm.r .lmp { flex-direction: row-reverse; padding: 2px 6px 2px 10px; }
+.lma { display: inline-block; font-size: 13px; color: var(--gold); }
+.lme { font-size: 15px; line-height: 1; }
+.lmp b { font-weight: 800; }
+.lmp small { font-weight: 700; font-size: 11px; opacity: 0.8; }
+@media (max-width: 760px), (max-height: 560px) { .lm { display: none; } }
+
+/* ?watch (js/game/settings.js): the tour on its own, for the site's pages to show behind their words: no
+   loading screen, menu, buttons, street names or cards. (?watch=cards is the whole tour, as from the
+   menu, starting straight away.) */
+html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #tourBar, #tourSpeed, #tourMusic,
+  #tourWelcome, #tourName, #tourCard) { display: none !important; }
+/* At the wheel of a borrowed bus or bin lorry: the windscreen's frame round the view (roof, pillars,
+   a wing mirror), the dashboard along the bottom and the steering wheel in front of you. */
+.cabview { position: absolute; inset: 0; overflow: hidden; opacity: 0; transition: opacity 0.3s; pointer-events: none; --cab: #2a2f33; --cab-hi: #454c52; }
+.cabview[data-type="bins"] { --cab: #3a2a1c; --cab-hi: #c86a10; }
+.cabview.show { opacity: 1; }
+.cabview .roof { position: absolute; left: 0; right: 0; top: 0; height: 11%; background: linear-gradient(var(--cab), #1b1f22); box-shadow: 0 4px 0 var(--cab-hi), 0 8px 18px rgba(0, 0, 0, 0.45); }
+.cabview .pillar { position: absolute; top: 0; bottom: 0; width: 9%; background: linear-gradient(90deg, #1b1f22, var(--cab)); }
+.cabview .pillar.l { left: -2%; transform: skewX(6deg); transform-origin: bottom; }
+.cabview .pillar.r { right: -2%; transform: skewX(-6deg); transform-origin: bottom; background: linear-gradient(-90deg, #1b1f22, var(--cab)); }
+.cabview .mirror { position: absolute; left: 8.5%; top: 34%; width: 6%; height: 16%; border-radius: 10px; background: linear-gradient(160deg, #9fb3c0, #4d5d68); border: 5px solid #15181a; }
+.cabview .dash { position: absolute; left: -5%; right: -5%; bottom: 0; height: 20%; border-radius: 50% 50% 0 0 / 24% 24% 0 0; background: linear-gradient(var(--cab-hi), var(--cab) 18%, #15181a); box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.45); }
+.cabview .wheel {
+  position: absolute; left: 50%; bottom: -26vmin; width: 52vmin; height: 52vmin; transform: translateX(-50%);
+  border-radius: 50%; border: 3.4vmin solid #111416;
+  background: radial-gradient(circle, #111416 0 12%, transparent 12.5%), linear-gradient(transparent 46%, #111416 46% 54%, transparent 54%);
+  box-shadow: inset 0 0 0 1px #2d3236, 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+/* Sitting inside a tram or a bus: the camera is by a window on the right, and over the view the
+   window's frame, its dark glass, the wall round it (the tram card sits on the wall above, like the
+   screen with the next stop), a grab pole and the seat in front. */
+.seatview { position: absolute; inset: 0; overflow: hidden; opacity: 0; transition: opacity 0.4s; }
+.seatview.show { opacity: 1; }
+.seatview .pane {
+  position: absolute;
+  inset: 34% 5% 13% 5%;
+  border-radius: 26px;
+  background:
+    linear-gradient(112deg, transparent 0 14%, rgba(255, 255, 255, 0.07) 14% 24%, transparent 24% 29%, rgba(255, 255, 255, 0.05) 29% 32%, transparent 32%),
+    rgba(6, 16, 22, 0.42);
+  box-shadow: 0 0 0 200vmax #2c3236, inset 0 0 0 9px #555c62, inset 0 0 0 12px #23282b, inset 0 0 60px rgba(0, 0, 0, 0.55);
+}
+.seatview .sill { position: absolute; left: 3%; right: 3%; bottom: calc(13% - 18px); height: 22px; border-radius: 6px; background: linear-gradient(#8a9197, #5f666b); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); }
+.seatview .pole { position: absolute; top: 0; bottom: 0; left: 82%; width: max(10px, 1.4%); background: linear-gradient(90deg, #a88400, #ffd84d 45%, #c9a100); box-shadow: 4px 0 10px rgba(0, 0, 0, 0.35); }
+.seatview .seatback {
+  position: absolute;
+  left: -3%;
+  bottom: -16%;
+  width: 34%;
+  height: 30%;
+  border-radius: 46% 46% 0 0 / 60% 60% 0 0;
+  background: repeating-linear-gradient(45deg, #1d3557 0 6px, #24426b 6px 12px);
+  box-shadow: inset 0 10px 0 #2f527f, 0 -4px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* Phones, one player: down the left third of the top the menu button, the minimap under it (as wide
+   as that third, js/game/minimap.js sets --mm-w and --mm-h) and under that the street sign with the mission.
+   Beside them, top right in the other two thirds, the one card for where you are: a sight nearby, or
+   the tram's in its place. The rest of the screen stays free for the thumbs. */
+@media (max-width: 760px), (max-height: 560px) {
+  .solo #menuBtn { top: calc(10px + env(safe-area-inset-top)); right: auto; left: calc(12px + env(safe-area-inset-left)); }
+  .solo #minimap { top: calc(52px + env(safe-area-inset-top)); left: calc(12px + env(safe-area-inset-left)); transform: none; }
+  .solo #streetbar { top: calc(60px + var(--mm-h, 79px) + env(safe-area-inset-top)); left: calc(12px + env(safe-area-inset-left)); transform: none; }
+  .solo .street { width: var(--mm-w, 150px); max-width: none; text-align: center; }
+  .solo .street .now { display: block; width: 100%; padding: 4px 8px; border-width: 3px; border-radius: 14px; font-size: 14px; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .solo #menuBtn { width: var(--mm-w, 150px); text-align: center; padding: 5px 8px; border: 3px solid var(--ink); border-radius: 14px; background: rgba(29, 26, 23, 0.55); }
+  .solo .hud .sight, .solo .tramcard:not(.aboard) {
+    top: calc(10px + env(safe-area-inset-top));
+    bottom: auto;
+    left: auto;
+    right: calc(12px + env(safe-area-inset-right));
+    width: auto;
+    max-width: min(380px, calc(100% - var(--mm-w, 150px) - 34px));
+    transform: translateY(-12px);
+  }
+  .solo .hud .sight { width: min(380px, calc(100% - var(--mm-w, 150px) - 34px)); }
+  .solo .hud .sight.show, .solo .tramcard.show:not(.aboard) { transform: none; }
+}
+/* one card at a time: the tram's takes the sight's place */
+.hud.tramnear .sight.show { opacity: 0; pointer-events: none; }
+/* Tablets: the same one card for where you are, top right, away from the thumbs. */
+@media (min-width: 761px) and (min-height: 561px) {
+  .touch.solo .hud .sight, .touch.solo .tramcard:not(.aboard) {
+    top: calc(16px + env(safe-area-inset-top));
+    bottom: auto;
+    left: auto;
+    right: calc(22px + env(safe-area-inset-right));
+    width: min(380px, calc(100% - 44px));
+    transform: translateY(-12px);
+  }
+  .touch.solo .hud .sight.show, .touch.solo .tramcard.show:not(.aboard) { transform: none; }
+}
+
+/* folded to its ⓘ the card is a small round button, whatever the layouts above make of its width */
+.hud .sight.mini, .solo .hud .sight.mini, .touch.solo .hud .sight.mini { width: 44px; height: 44px; max-width: none; }
+
+/* one player: no colour to tell apart, so the player card is black on white */
+.solo #menu .pcol { --c: var(--ink); border-color: var(--ink); box-shadow: 0 5px 0 var(--ink); }
+@media (max-width: 760px), (max-height: 560px) { .solo #menu .pcol { box-shadow: 0 3px 0 var(--ink); } }
+
+/* Local fries tray and tequila glass, shared by the touch controls and keyboard HUD. */
+#tFries img { width: 48px; height: 36px; display: block; }
+.qfries img { width: 32px; height: 24px; vertical-align: middle; }
+.tequila #tJump { background: #e8bd55; }
+.tequila #tJump img { width: 42px; height: 42px; display: block; }
+.tequila #tJump small { font-size: 9px; max-width: 88px; line-height: 1.15; }
+.tequila #tJump.charging { background: rgba(29, 26, 23, 0.45); color: #fff; }
+.tequila #tJump.charging img { opacity: 0.4; }
+
+/* Advanced audio settings, opened by holding the sound button. */
+#soundBtn, #pauseSoundBtn { -webkit-touch-callout: none; user-select: none; }
+#musicSettings, #gunInfo {
+  margin: auto;
+  color: var(--ink);
+  background: var(--paper, #fff8ed);
+  font-family: var(--sans);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 24px;
+  width: min(420px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  box-shadow: 0 12px 40px #0005;
+}
+#musicSettings::backdrop, #gunInfo::backdrop { background: #0008; }
+/* what car+paintball mode does, shown each time it is turned on */
+#gunInfo h2 { margin: 0 0 12px; font-weight: 700; letter-spacing: -0.02em; }
+#gunInfo ul { margin: 0 0 18px; padding-left: 20px; font-weight: 400; line-height: 1.5; }
+#gunInfo li + li { margin-top: 8px; }
+#gunInfo .start { width: 100%; }
+#musicSettings h2 { margin: 20px 0; }
+#musicSettings label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 0;
+  font-weight: 600;
+}
+#musicSettings input { width: 24px; height: 24px; accent-color: var(--ink); }
+
+#musicSettings label small { display: block; margin-top: 4px; font-size: 12px; font-weight: 400; color: var(--muted); }
+
+/* the demo (?demo, core/js/demo.js): the film's words over the shot and the black between shots,
+   over everything; none of the game's own buttons */
+#demo { position: fixed; inset: 0; z-index: 1000; pointer-events: none; }
+#demo .black { position: absolute; inset: 0; background: #000; opacity: 1; }
+#demo .words {
+  position: absolute; left: 6vw; top: 14vh; color: #fff; opacity: 0; transform: translateY(var(--rise, 0px));
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55), 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#demo .words b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: normal; font-size: clamp(36px, 7vw, 96px); line-height: 1; }
+#demo .words small { display: block; margin-top: 8px; font-size: clamp(18px, 2.4vw, 34px); font-weight: 800; }
+#demo .brand {
+  position: absolute; right: calc(20px + env(safe-area-inset-right)); bottom: calc(16px + env(safe-area-inset-bottom));
+  text-align: right; color: #fff; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#demo .brand b { display: block; font-family: 'Lilita One', system-ui, sans-serif; font-weight: normal; font-size: clamp(20px, 2.6vw, 34px); line-height: 1; }
+#demo .brand small { display: block; font-size: clamp(12px, 1.3vw, 17px); font-weight: 800; }
+#demo :is(.hl), #tourWelcome .hl { color: #7fd0ff; } /* the accent in the demo's words: Instant *Gent* */
+#demo .words em:empty { display: none; }
+/* a card (the film's last shot): the words big and bold in the middle, the picture darkened round
+   them, and a button-like call to play it; the corner's name not needed then */
+#demo .shade { position: absolute; inset: 0; opacity: 0; background: radial-gradient(ellipse at 50% 48%, rgba(10, 14, 24, 0.35) 0%, rgba(10, 14, 24, 0.78) 75%); }
+#demo.bigcard .words { left: 50%; top: 47%; width: 92vw; text-align: center; transform: translate(-50%, calc(-50% + var(--rise, 0px))); text-shadow: none; }
+#demo.bigcard .words b { font-size: clamp(56px, 13vw, 190px); -webkit-text-stroke: 10px var(--ink); paint-order: stroke fill; text-shadow: 0 8px 0 var(--ink); }
+#demo.bigcard .words small { margin-top: 18px; font-size: clamp(18px, 2.6vw, 38px); text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); }
+#demo.bigcard .words em {
+  display: inline-block; margin-top: 30px; padding: 0.45em 1.1em 0.5em; border-radius: 999px;
+  font-style: normal; font-family: 'Lilita One', system-ui, sans-serif; font-size: clamp(22px, 3.4vw, 50px); line-height: 1;
+  background: var(--gold); color: var(--ink); border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink);
+}
+#demo.bigcard .words em .hl { color: #1f6fa8; }
+#demo.bigcard .brand, body.demo:has(#demo.bigcard) :is(#tourName, #tourCard) { display: none; }
+#tourWelcome.now { transition: none; }
+#demo .close {
+  position: absolute; top: calc(24px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right));
+  pointer-events: auto; width: 40px; height: 40px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.7);
+  background: rgba(29, 26, 23, 0.55); color: #fff; font-size: 18px; cursor: pointer; opacity: 0.6;
+}
+#demo .close:hover { opacity: 1; }
+body.demo .hud .sight, body.demo #menuBtn, body.demo #tourSpeed, body.demo #tourMusic, body.demo #tourBar, body.demo #mute, body.demo #toast { display: none !important; }
+
+/* ---------- the menus: black, white and greys like the site (assets/site.css), one plain typeface,
+   thin borders and small corners. What is picked is black, the accent is dark grey in every city
+   (the city's own colour stays for the HUD), and the emoji stay grey until picked. The HUD over the
+   game in the same look, below. ---------- */
+
+.overlay, #musicSettings, #gunInfo { --accent: #2b2b2b; --accent-soft: #f2f2f1; }
+.overlay { --edge: rgba(17, 17, 17, 0.18); --soft: #f2f2f1; font-family: var(--sans); -webkit-font-smoothing: antialiased; background: rgba(17, 17, 17, 0.45); }
+#menu.overlay { background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45)); }
+.overlay :is(.title, .label, .chip, .start, .arrow, .laps, .tcard b, .qcard b, .phead, .phead input, .brief-time, .site-link, .madeby, .foot, kbd) { font-family: var(--sans); }
+.overlay .card { color: var(--ink); background: #fff; border: 2px solid var(--ink); border-radius: 10px; box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3); }
+#menu .card { background: rgba(255, 255, 255, 0.9); }
+
+.overlay .title, #loader .title { font-family: var(--sans); font-weight: 800; letter-spacing: -0.04em; }
+.overlay .title, #menu .title, #loader .title { color: #111; -webkit-text-stroke: 0; text-shadow: none; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; }
+/* "Instant Cities" small above the city's name */
+.title .brandline { display: block; margin-bottom: 0.15em; font-size: max(13px, 0.26em); font-weight: 600; letter-spacing: 0; color: var(--muted); }
+.overlay .title.mid { font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.03em; }
+.overlay .tag { font-weight: 500; font-size: 16px; color: var(--muted); }
+
+.overlay .row { border-width: 2px; border-radius: 8px; }
+.overlay .row.focus { border-color: #111; background: none; }
+.overlay .label { font-weight: 600; font-size: 15px; }
+.overlay .chip { font-weight: 500; color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 6px; transition: border-color 0.15s; }
+.overlay .chip:hover { border-color: #111; }
+.overlay .chip.on { color: #fff; background: #111; border-color: #111; }
+.overlay .chip.copied { color: #fff; background: #111; border-color: #111; }
+.overlay .arrow { line-height: 1; font-weight: 500; color: #111; border: 2px solid var(--edge); border-radius: 6px; }
+.overlay .arrow:hover { border-color: #111; }
+.overlay .laps, .overlay .laps b { font-weight: 600; }
+/* the emoji in the chips and cards grey, in colour once picked */
+.overlay :is(.chip, .tcard, .qcard):not(.on) { filter: grayscale(1); }
+
+.overlay :is(.tcard, .qcard) { color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 8px; transition: border-color 0.15s; }
+.overlay :is(.tcard, .qcard):hover { border-color: #111; }
+.overlay :is(.tcard, .qcard).on { color: #fff; background: #111; border-color: #111; box-shadow: none; }
+.overlay :is(.tcard, .qcard) b { font-weight: 600; letter-spacing: -0.01em; }
+.overlay :is(.tcard, .qcard) small { font-weight: 500; color: var(--muted); }
+.overlay :is(.tcard, .qcard).on small { color: rgba(255, 255, 255, 0.7); }
+.overlay .qcard.won { border-color: var(--edge); }
+.overlay .qcard.won::after { top: -7px; right: -7px; width: 20px; height: 20px; font-size: 12px; line-height: 20px; background: var(--accent); box-shadow: none; }
+.overlay .gunmode { border: 2px solid var(--edge); border-radius: 6px; box-shadow: none; }
+.overlay .gunmode:has(input:checked) { background: var(--soft); border-color: #111; }
+
+/* the start button in the accent */
+.overlay .start { font-weight: 600; letter-spacing: -0.01em; color: #fff; background: var(--accent); border: 2px solid var(--accent); border-radius: 6px; box-shadow: none; animation: none; transition: filter 0.15s; }
+.overlay .start:hover { filter: brightness(0.9); }
+.overlay .start.alt { color: #111; background: #fff; border-color: var(--edge); }
+.overlay .start.alt:hover { filter: none; border-color: #111; }
+#menu .start.focus, #pause .psel { outline: 2px solid #111; outline-offset: 2px; }
+/* the menu's own Start on a phone: one word, big and wide */
+.touch .overlay #startBtn { width: min(100%, 280px); padding: 12px 24px; font-size: 30px; font-weight: 700; }
+
+/* the player cards: black header and border; with two players a bar in each player's colour under the header */
+#menu .pcol, .solo #menu .pcol { border: 2px solid #111; border-radius: 8px; box-shadow: none; }
+.overlay .phead { padding: 5px 0; font-weight: 600; font-size: 14px; letter-spacing: 0.01em; color: #fff; background: #111; -webkit-text-stroke: 0; box-shadow: inset 0 -4px 0 var(--c, #111); }
+.solo .overlay .phead { box-shadow: none; }
+.overlay .phead input { font-weight: 600; border-width: 1px; border-radius: 4px; }
+.overlay :is(.ppick, .pcolor) { border-radius: 6px; }
+.overlay :is(.ppick, .pcolor).focus { background: var(--soft); box-shadow: 0 0 0 2px #111; }
+.overlay :is(.pcolor b, .pmount b) { font-weight: 600; }
+.overlay .pcol .pkeys { font-weight: 500; color: var(--muted); }
+.overlay .dot { border-width: 1px; }
+.overlay kbd { font-weight: 600; border-width: 1px; border-bottom-width: 2px; border-radius: 4px; }
+
+.overlay :is(.madeby, .foot), .overlay .madeby .legal { font-weight: 500; color: var(--muted); }
+.overlay .site-link { font-weight: 500; color: #fff; -webkit-text-stroke: 0; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
+.overlay .brief-story { font-weight: 400; color: #444; }
+.overlay .brief-time { font-weight: 700; letter-spacing: -0.01em; color: #111; }
+.overlay .winner { font-weight: 700; }
+.overlay .duel { font-weight: 500; color: var(--muted); }
+.overlay #resultTable tr.human td { background: var(--soft); }
+.overlay #bigList button:hover, .overlay #bigList button.focus { background: var(--soft); }
+.overlay #bigList .listask .yes { background: #111; border-color: #111; }
+
+/* ---------- the HUD over the game, as the menus: one plain typeface, white with thin borders, small
+   corners and soft shadows instead of thick black outlines, pills and the cartoon letters. The
+   city's colour stays on the jump button and the go buttons. ---------- */
+
+:is(#menuBtn, #mute, #toast, #minimap, #streetbar, .hud, #touch, #tour) { --edge: rgba(17, 17, 17, 0.18); --lift: 0 2px 10px rgba(0, 0, 0, 0.28); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+/* the buttons and labels over the view: white, dark letters */
+#menuBtn, .solo #menuBtn, #tourSpeed, #tourMusic, #flyHud, #tourName {
+  font: 600 13px var(--sans); color: #111; background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--edge); border-radius: 6px; box-shadow: var(--lift);
+}
+#tourName { font-size: 17px; letter-spacing: -0.01em; padding: 4px 14px; }
+#flyHud { font-size: 15px; }
+#mute, #toast { font: 600 14px var(--sans); color: #fff; background: rgba(17, 17, 17, 0.88); border: 0; border-radius: 6px; box-shadow: var(--lift); }
+:is(#tourBar, #demoBar) button::after { font: 600 12px var(--sans); border-radius: 4px; }
+#minimap, .solo #minimap { border: 2px solid #fff; border-radius: 6px; box-shadow: var(--lift); }
+/* the street sign under the minimap, and under it what you are doing */
+.street .now { font: 600 18px var(--sans); letter-spacing: -0.01em; color: #111; border: 1px solid var(--edge); border-radius: 6px; box-shadow: var(--lift); }
+#streetbar.duo .street .now { border: 2px solid var(--c); }
+.street .next { font-weight: 600; font-size: 13px; -webkit-text-stroke: 0; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75); }
+.who { font-weight: 700; font-size: 12px; letter-spacing: 0.08em; border-width: 1px; border-radius: 4px; }
+
+/* the big words of a race: place, laps, time, the countdown and what just happened, heavy and plain
+   with a soft shadow for the sky behind them */
+:is(.place, .stats, .cd, .msg, .qinfo, .qfries, #tourWelcome b) { font-family: var(--sans); font-weight: 800; letter-spacing: -0.03em; -webkit-text-stroke: 0; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55); }
+.qarrow, .qhp .heart { -webkit-text-stroke: 0; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); }
+.place .suf { font-weight: 700; }
+.slot { border: 2px solid rgba(17, 17, 17, 0.8); border-radius: 8px; }
+.slot.next { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #111; }
+.qhp i { border-width: 2px; border-radius: 2px; }
+.lmp { font-weight: 600; border-radius: 4px; }
+.lmp b { font-weight: 700; }
+
+/* the cards: the sight, the tour's, the tram's and the door's */
+:is(.sight, #tourCard, .tramcard, .doorcard) { border: 2px solid #111; border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
+#tourCard.paused { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 0 3px var(--gold); }
+:is(.sight, #tourCard, .tramcard, .doorcard) b, #tourTitle { font-family: var(--sans); font-weight: 700; letter-spacing: -0.02em; }
+:is(.sight-text, #tourText, .tramcard p) { font-weight: 400; color: #444; }
+:is(#tourLabel, .tramcard small, .doorcard small) { font-weight: 600; letter-spacing: 0.08em; }
+.sight-x { border: 1px solid var(--edge); border-radius: 6px; font-weight: 600; }
+.sight-x:hover { background: #111; border-color: #111; }
+.sight.mini { border-radius: 8px; }
+.sight.mini .sight-i .sight-eye { width: 26px; height: 26px; } /* folded: the card's own eye */
+.tram-head { font-family: var(--sans); font-weight: 800; letter-spacing: 0.06em; border-bottom-width: 2px; border-radius: 8px 8px 0 0; }
+.tram-badge { font-family: var(--sans); font-weight: 800; border-radius: 6px; text-shadow: none; }
+.tramcard.aboard, .tramcard.aboard.show { border-width: 0 0 2px; border-radius: 0; }
+.tramcard.aboard .tram-head { border-width: 2px; border-radius: 6px; }
+.doorcard kbd, .tramcard kbd { border-width: 1px; border-bottom-width: 2px; border-radius: 4px; font-family: var(--sans); font-weight: 600; }
+/* their buttons as the menus' */
+:is(.hud, #tour) .chip { font: 500 15px var(--sans); color: #111; background: #fff; border: 2px solid var(--edge); border-radius: 6px; }
+:is(.hud, #tour) .chip:hover { border-color: #111; }
+:is(.hud, #tour) :is(.tram-go, .sight-enter) { color: #fff; background: var(--accent); border-color: var(--accent); }
+#tour .start { font: 600 18px var(--sans); letter-spacing: -0.01em; border: 2px solid var(--accent); border-radius: 6px; box-shadow: none; }
+#tourWelcome small { font-weight: 500; border-radius: 8px; }
+
+/* touch: the stick a thin ring with a white knob, the buttons squares with rounded corners */
+.stick { border: 2px solid rgba(255, 255, 255, 0.65); }
+.knob { border: 0; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35); }
+.steer-hint { font: 500 14px var(--sans); background: rgba(17, 17, 17, 0.55); border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 6px; }
+.tbtn { font-family: var(--sans); font-weight: 700; border: 0; border-radius: 14px; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35); }
+.tbtn.big { border-radius: 18px; }
+.tbtn small { font: 600 10px var(--sans); letter-spacing: 0.08em; }
+.tbtn.pressed { transform: scale(0.95); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35); }
+
+/* phones: the menu button, minimap and street sign down the left keep the corners small too */
+@media (max-width: 760px), (max-height: 560px) {
+  .solo #menuBtn { padding: 5px 8px; border: 1px solid var(--edge); border-radius: 6px; background: rgba(255, 255, 255, 0.94); }
+  .solo .street .now { padding: 4px 8px; border-width: 1px; border-radius: 6px; font-size: 14px; }
+  :is(.sight, .tramcard, .doorcard) { border-width: 2px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); }
+}
+
+/* ---------- professional style (the menu's style choice): mostly white and navy, a serious serif ---------- */
+
+body.pro {
+  --ink: #0b2545;
+  --paper: #fff;
+  --accent: #13315c;
+  --accent-soft: #e6edf6;
+  --glass: rgba(255, 255, 255, 0.9);
+}
+body.pro .title, body.pro .label, body.pro .tcard b, body.pro .laps, body.pro .start, body.pro .qcard b,
+body.pro .phead, body.pro .brief-time, body.pro .qinfo, body.pro #bigList h3, body.pro #gunInfo h2 {
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+}
+body.pro .chip, body.pro .arrow { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
+body.pro .title, body.pro #menu .title { -webkit-text-stroke-width: 0; text-shadow: none; color: var(--accent); letter-spacing: -0.01em; }
+body.pro .tag, body.pro .credit, body.pro .foot { color: #4a5b74; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; }
+body.pro .card { border-width: 2px; border-radius: 6px; box-shadow: 0 8px 28px rgba(11, 37, 69, 0.28); }
+body.pro .chip { border-width: 2px; border-radius: 4px; }
+body.pro .arrow, body.pro .tcard { border-width: 2px; border-radius: 4px; }
+body.pro .start { border-radius: 4px; border-width: 2px; box-shadow: none; animation: none; font-size: 24px; letter-spacing: 0.02em; }
+body.pro .start.alt { color: var(--accent); }
+body.pro .row { border-radius: 6px; }
+body.pro .tcard.on { box-shadow: none; }
+body.pro #menu.overlay { background: linear-gradient(rgba(11, 37, 69, 0.08), rgba(11, 37, 69, 0.4)); }
+body.pro .site-link { -webkit-text-stroke: 3px rgba(11, 37, 69, 0.85); }

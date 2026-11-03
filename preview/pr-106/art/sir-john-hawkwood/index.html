@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/sir-john-hawkwood/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/sir-john-hawkwood/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/sir-john-hawkwood/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-106/en/art/sir-john-hawkwood/", "fr": "/preview/pr-106/fr/art/sir-john-hawkwood/", "nl": "/preview/pr-106/nl/kunst/sir-john-hawkwood/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-106/en/art/sir-john-hawkwood/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-106/en/art/sir-john-hawkwood/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-106/fr/art/sir-john-hawkwood/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-106/nl/kunst/sir-john-hawkwood/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

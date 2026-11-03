@@ -1,0 +1,121 @@
+{
+  "city": "Machu Picchu",
+  "origin": [
+    -13.1631,
+    -72.545
+  ],
+  "bbox": [
+    -13.168,
+    -72.5495,
+    -13.158,
+    -72.5405
+  ],
+  "zone_points": [
+    [
+      -13.158,
+      -72.5495
+    ],
+    [
+      -13.158,
+      -72.5405
+    ],
+    [
+      -13.168,
+      -72.5405
+    ],
+    [
+      -13.168,
+      -72.5495
+    ]
+  ],
+  "hw": 2.7,
+  "geo": true,
+  "streets": [
+    {
+      "name": "Citadel walk 1",
+      "points": [
+        [
+          70,
+          140
+        ],
+        [
+          70,
+          -150
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Citadel walk 2",
+      "points": [
+        [
+          70,
+          -150
+        ],
+        [
+          0,
+          -185
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Citadel walk 3",
+      "points": [
+        [
+          0,
+          -185
+        ],
+        [
+          -70,
+          -110
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Citadel walk 4",
+      "points": [
+        [
+          -70,
+          -110
+        ],
+        [
+          -70,
+          140
+        ]
+      ],
+      "surface": "paving_stones"
+    },
+    {
+      "name": "Citadel walk 5",
+      "points": [
+        [
+          -70,
+          140
+        ],
+        [
+          70,
+          140
+        ]
+      ],
+      "surface": "paving_stones"
+    }
+  ],
+  "routes": [
+    {
+      "id": "circuit",
+      "route": [
+        "Citadel walk 1",
+        "Citadel walk 2",
+        "Citadel walk 3",
+        "Citadel walk 4",
+        "Citadel walk 5"
+      ]
+    }
+  ],
+  "gables": false,
+  "roofs": "flat",
+  "floors": 1,
+  "only_named_buildings": true
+}
