@@ -23,6 +23,10 @@ import { dressMonuments } from '../core/js/site-style.js';
 //   columns.js       fluted columns, fallen drums and pedestals, for the Forum and the temples
 //   casts.js         the plaster casts of the victims: the Garden of the Fugitives and the Granaries
 //   vesuvius.js      Vesuvius on the horizon
+//   houses.js        ten houses and shops built to walk into: the House of the Faun, the Lupanare...
+//   plots.js         where they stand: each on its block, between its streets
+//   domus.js         what they are built from: walls, floors, columns, pools, gardens
+//   frescos.js       their paintings and mosaics, drawn on canvases
 export { MAP } from './map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
@@ -33,8 +37,11 @@ import { VESUVIUS } from './vesuvius.js';
 import { PUBLICS } from './public.js';
 import { STONES } from './stones.js';
 import { CASTS } from './casts.js';
+import { HOUSE_MONUMENTS, HOUSE_PLACES, HOUSE_GROUNDS } from './houses.js';
 
-export const MONUMENTS = dressMonuments([...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS], 'pompeii');
+// inside the houses everybody goes on foot (js/city.js onFootAt)
+export const ON_FOOT = HOUSE_GROUNDS;
+export const MONUMENTS = dressMonuments([...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS, ...HOUSE_MONUMENTS], 'pompeii');
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins
 export const PARKED_BIKES = false; // no bikes parked along the streets
@@ -111,4 +118,5 @@ export const PLACES = [
   at('Great Theatre', 40.7481, 14.4915, 'r'),
   at('Amphitheatre', 40.7498, 14.4990, 'r'),
   { name: 'Garden of the Fugitives', x: 738, z: 162, side: 'r' }, // where the casts of the victims lie (casts.js)
+  ...HOUSE_PLACES, // the houses built to walk into (houses.js)
 ];
