@@ -148,6 +148,7 @@ lm_art_all: "All famous art in 3D ›"
 lm_more_in: "More in %c"
 lm_osm_title: "%l on OpenStreetMap"
 lm_alt: "%l in Instant %c"
+photo_credit: "Photo: %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
 map_label: "Map of the centre of %c with its key places numbered"
 map_caption: "The centre of %c, drawn from the same OpenStreetMap data as the game."
 map_osm: "The whole city on OpenStreetMap"
