@@ -302,6 +302,76 @@ function earthFloor(ctx) {
   })();
 }
 
+// The ground of a vineyard: worked earth, a little grass growing in it
+let soil = null;
+function vineSoil(ctx) {
+  return soil ??= (() => {
+    const t = canvasTexture(128, 128, (g, w, h) => {
+      g.fillStyle = '#93754f';
+      g.fillRect(0, 0, w, h);
+      noise(g, w, h, ctx.r, 30, [1, 0.85, 0.65]);
+      for (let k = 0; k < 120; k++) { g.fillStyle = `rgba(${90 + ctx.r() * 40},${110 + ctx.r() * 40},${50 + ctx.r() * 20},0.55)`; g.fillRect(ctx.r() * w, ctx.r() * h, 1 + ctx.r() * 2, 1 + ctx.r() * 3); }
+    });
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    return t;
+  })();
+}
+
+// The map's vineyards (areas of kind 'vineyard', four corners each: tools/osm_map.mjs plants them where
+// Pompeii is still buried): rows of vines 2.4 m apart along the plot's first edge, each a hedge of
+// leaves on a low trunk, broken every few metres, with a post at each end of a row.
+function vineyards(ctx, map) {
+  const plots = map.areas.filter(a => a.k === 'vineyard' && a.p.length === 8);
+  if (!plots.length) return;
+  const leaves = new Batch(), wood = new Batch(), { r } = ctx;
+  // a box from (ax, az) to (bx, bz), half as wide as hw, from y0 up to y1: its top and four sides
+  const box = (b, ax, az, bx, bz, hw, y0, y1) => {
+    const L = Math.hypot(bx - ax, bz - az), dx = (bx - ax) / L, dz = (bz - az) / L, nx = -dz * hw, nz = dx * hw;
+    const c = [[ax + nx, az + nz], [bx + nx, bz + nz], [bx - nx, bz - nz], [ax - nx, az - nz]];
+    const side = (p, q, n) => {
+      const u = Math.hypot(q[0] - p[0], q[1] - p[1]) / 1.5;
+      const k = [b.vert(p[0], y0, p[1], n[0], 0, n[1], 0, y0), b.vert(q[0], y0, q[1], n[0], 0, n[1], u, y0), b.vert(q[0], y1, q[1], n[0], 0, n[1], u, y1), b.vert(p[0], y1, p[1], n[0], 0, n[1], 0, y1)];
+      // corners p, q, q's top face (-(q - p).z, (q - p).x): the right way round when that is along n
+      if ((q[0] - p[0]) * n[1] - (q[1] - p[1]) * n[0] >= 0) b.idx.push(k[0], k[1], k[2], k[0], k[2], k[3]);
+      else b.idx.push(k[0], k[2], k[1], k[0], k[3], k[2]);
+    };
+    side(c[0], c[1], [-dz, dx]); side(c[2], c[3], [dz, -dx]); side(c[1], c[2], [dx, dz]); side(c[3], c[0], [-dx, -dz]);
+    const t = c.map(([x, z]) => b.vert(x, y1, z, 0, 1, 0, x / 1.5, z / 1.5));
+    b.up(t[0], t[1], t[2]); b.up(t[0], t[2], t[3]);
+  };
+  const step = LOW_POWER ? 3.6 : 2.4;
+  for (const { p } of plots) {
+    const [x0, z0, x1, z1, , , x3, z3] = p;
+    const L = Math.hypot(x1 - x0, z1 - z0), W = Math.hypot(x3 - x0, z3 - z0);
+    const ux = (x1 - x0) / L, uz = (z1 - z0) / L, vx = (x3 - x0) / W, vz = (z3 - z0) / W;
+    for (let t = 1.4; t < W - 1; t += step) {
+      const at = s => [x0 + ux * s + vx * t, z0 + uz * s + vz * t];
+      for (let s = 1.2; s < L - 2; ) {
+        const len = Math.min(L - 1.2 - s, 4 + r() * 4);
+        const [ax, az] = at(s), [bx, bz] = at(s + len);
+        box(leaves, ax, az, bx, bz, 0.32 + r() * 0.08, 0.55, 1.35 + r() * 0.3);
+        box(wood, ax, az, bx, bz, 0.05, 0, 0.6); // the trunks, as one dark line under the leaves
+        s += len + 0.5 + r() * 0.6;
+      }
+      for (const s of [0.8, L - 0.8]) { const [px, pz] = at(s); box(wood, px - ux * 0.06, pz - uz * 0.06, px + ux * 0.06, pz + uz * 0.06, 0.06, 0, 1.8); }
+    }
+  }
+  // the leaves: a green tile of overlapping leaves, lighter ones in the sun and gaps of shadow
+  const foliage = canvasTexture(64, 64, (g, w, h) => {
+    g.fillStyle = '#3f5a22';
+    g.fillRect(0, 0, w, h);
+    for (let k = 0; k < 140; k++) {
+      const l = 0.28 + r() * 0.22;
+      g.fillStyle = `hsl(${85 + r() * 25}, ${40 + r() * 20}%, ${l * 100}%)`;
+      g.beginPath(); g.ellipse(r() * w, r() * h, 2 + r() * 3, 1.5 + r() * 2, r() * 3, 0, Math.PI * 2); g.fill();
+    }
+    noise(g, w, h, r, 18);
+  });
+  foliage.wrapS = foliage.wrapT = THREE.RepeatWrapping;
+  leaves.mesh(ctx, mat(0xffffff, 0.9, { map: foliage }), { shadow: true });
+  wood.mesh(ctx, mat(0x5a4330, 0.95), { shadow: false });
+}
+
 function groundMats(ctx) {
   const { r } = ctx;
   const tex = (draw, size = 128) => {
@@ -2019,6 +2089,7 @@ function osmGround(ctx, map, m) {
     green: [new Batch(), m.park, 0.012, 6], wood: [new Batch(), mat(0xffffff, 1, { map: m.garden.map }), 0.013, 6],
     allotments: [new Batch(), m.garden, 0.014, 6], pitch: [new Batch(), mat(0x5aa04a, 1), 0.016, 6],
     sand: [new Batch(), mat(0xe6c98e, 1), 0.017, 6], paved: [new Batch(), m.pavement, 0.018, 3],
+    vineyard: [new Batch(), mat(0xffffff, 1, { map: vineSoil(ctx) }), 0.015, 4],
   };
   for (const a of map.areas) {
     if (a.k === 'water') continue;
@@ -2738,6 +2809,7 @@ export function buildCity(group, tracks, cfg) {
   ground(ctx);
   const mats = groundMats(ctx);
   osmGround(ctx, map, mats);
+  vineyards(ctx, map);
   // streets lying lower than the ground the houses stand on (js/sunken.js)
   const sunken = ctx.theme.sunken ? sunkenStreets(ctx, map, tracks, ctx.theme.sunken, ctx.theme.pavement ?? 3.4, mats.pavement, mat(0xffffff, 0.95, { map: lavaTexture() })) : null;
   bankSheep(ctx, map);
