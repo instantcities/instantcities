@@ -106,6 +106,16 @@
           </dl>
         </div>
         {%- endif %}
+        {%- if LM.links %}
+        <div class="links">
+          <h2>{{ T.lm_links }}</h2>
+          <ul>
+            {%- for k in LM.links %}
+            <li><a href="{{ k.url }}" rel="noopener">{{ k.title }}</a></li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
       </aside>
     </section>
 

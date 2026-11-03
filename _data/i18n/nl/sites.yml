@@ -89,66 +89,6 @@ angkor-wat:
     angkor-wat:
       name: Angkor Wat
       text: Begin 12e eeuw gebouwd voor de Khmerkoning Suryavarman II, eerst als hindoetempel en later als boeddhistische. Drie niveaus rijzen op tot vijf torens, de middelste 65 meter hoog, in de vorm van de berg van de goden.
-pompeii:
-  name: Pompeï
-  place: Campanië, Italië
-  game: Instant Pompeï
-  title: 'Instant Pompeï: gratis virtuele 3D-rondleiding en game van Pompeï'
-  description: 'Maak gratis een virtuele 3D-rondleiding door Pompeï in je browser, en loop, fiets of rijd er daarna zelf door de Romeinse straten: verken of race, alleen of met twee op één toetsenbord.'
-  tagline: Loop of race door de Romeinse straten van Pompeï, met de Vesuvius erachter.
-  lead: De straten van de stad zoals de opgraving ze in kaart brengt, het Forum met de Jupitertempel, de baden en de huizen, en het amfitheater aan het oostelijke eind.
-  card: "De Romeinse stad die in 79 n.Chr. door de Vesuvius werd begraven: haar geplaveide straten, het Forum en het amfitheater."
-  credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).
-  features:
-  - title: De stad, straat voor straat
-    text: Zo’n 1.100 huizen en winkels langs de straten van de opgraving, met de Via dell’Abbondanza, de Via Stabiana en de Via del Foro, geplaveid met basaltblokken.
-  - title: Het Forum en het amfitheater
-    text: De twee zuilengalerijen van het Forum met de Jupitertempel aan het eind, en het amfitheater, het oudste stenen dat er is, zijn met de hand nagebouwd. De Vesuvius staat aan de horizon waar hij echt staat.
-  - title: Een race door het midden van de stad
-    text: Een ronde van ongeveer een kilometer vanaf het Forum langs de Via dell’Abbondanza en terug via de Via Stabiana en de Via della Fortuna.
-  facts:
-  - label: Begraven
-    text: 24 augustus 79 n.Chr., onder as en puimsteen van de Vesuvius; vanaf de 18e eeuw opgegraven
-  - label: Afmetingen
-    text: Zo’n 66 hectare binnen de muren, met ongeveer 11.000 inwoners
-  - label: Amfitheater
-    text: Rond 70 v.Chr. gebouwd voor zo’n 20.000 mensen, het oudste stenen amfitheater dat bewaard is gebleven
-  - label: In het spel
-    text: De straten en huizen, het Forum met zijn zuilengalerijen en de Jupitertempel, het amfitheater en de Vesuvius
-  places:
-    forum:
-      name: Het Forum
-      text: Het plein in het midden van Pompeï, 140 meter lang, verboden voor karren. Tempels, de basiliek, de markt en de kantoren van de stad stonden eromheen, en mensen kwamen er om te handelen, te stemmen en het nieuws te horen.
-    jupiter:
-      name: Jupitertempel
-      text: De hoofdtempel van de stad, aan de noordkant van het Forum, gebouwd voor Jupiter, Juno en Minerva. De Vesuvius staat er vlak achter. Een aardbeving in 62 n.Chr. had hem al beschadigd, en in 79 n.Chr. werd hij nog hersteld.
-    basilica:
-      name: De Basiliek
-      text: De rechtbank en beurs, op de zuidwesthoek van het Forum, rond 150 v.Chr. De oudste basiliek die we kennen, en een van de grootste gebouwen van de stad.
-    apollo:
-      name: Apollotempel
-      text: De oudste tempel van Pompeï, uit de 6e eeuw v.Chr., in een hof met een zuilengalerij van 48 zuilen. Apollo was de beschermer van de stad. De beelden hier zijn kopieën.
-    stepping-stones:
-      name: Stapstenen
-      text: Straten stonden vol regenwater en afval, dus er liggen blokken lava om over te steken. De openingen ertussen zijn zo breed als de wielen van een kar, en je ziet nog de sporen die de karren in de bestrating sleten.
-    stabian-baths:
-      name: De Stabiaanse baden
-      text: De oudste openbare baden van Pompeï, met een gymnasium, een zwembad en ruimtes met verschillende temperaturen. De meeste burgers gingen er bijna elke dag heen, en de stucplafonds zijn er nog.
-    lupanare:
-      name: De Lupanare
-      text: Een klein bordeel met twee verdiepingen en tien kamers, het bekendste van de vele in de stad. De stenen bedden en de afbeeldingen en graffiti op de muren zijn er nog.
-    casa-del-fauno:
-      name: Huis van de Faun
-      text: Het grootste huis van Pompeï, dat een heel huizenblok vult, met twee atria en twee tuinen. Een klein bronzen faunbeeld danst in het bassin. Het enorme mozaïek van Alexander de Grote in de strijd werd hier gevonden.
-    grand-theatre:
-      name: Het Grote Theater
-      text: Een theater in Griekse stijl, in de 2e eeuw v.Chr. in de heuvel uitgehouwen, voor zo’n 5.000 mensen. Het kleinere Odeon ernaast was overdekt, voor concerten en voordrachten.
-    casts:
-      name: Tuin van de Vluchtelingen
-      text: Dertien mensen, onder wie kinderen, stierven in deze tuin onder de as. Hun lichamen vergingen en lieten holtes achter in de as, die hard was geworden. In 1863 liet Giuseppe Fiorelli gips in de holtes gieten, en de afgietsels tonen de mensen zoals ze lagen. Meer staan er in de graanschuren van het Forum.
-    amphitheatre:
-      name: Het Amfitheater
-      text: Rond 70 v.Chr. gebouwd, het oudste stenen amfitheater dat er is, voor zo’n 20.000 mensen. In 59 n.Chr. liep hier een gevecht tussen de supporters van Pompeï en Nuceria uit op een rel, en Rome sloot de arena voor tien jaar.
 stonehenge:
   name: Stonehenge
   place: Wiltshire, Engeland

@@ -1,0 +1,15 @@
+# pompeii's page in Dutch (_layouts/city.html, at /nl/pompeii/): the words of its block in
+# _data/cities.yml, the intro of its guide (_data/about/pompeii.json) and its credits. What this leaves out stays English.
+title: 'Instant Pompeï: gratis virtuele 3D-rondleiding en game van Pompeï'
+description: 'Maak gratis een virtuele 3D-rondleiding door Pompeï in je browser, en loop, fiets of rijd er daarna zelf door de Romeinse straten: verken of race, alleen of met twee op één toetsenbord.'
+tagline: Loop of race door de Romeinse straten van Pompeï, met de Vesuvius erachter.
+lead: De Romeinse stad die de Vesuvius in 79 n.Chr. bedolf, in 3D. De straten zoals de opgraving ze in kaart brengt, het Forum met de Jupitertempel, de baden, de theaters, tien huizen om binnen te lopen en het amfitheater aan het oostelijke eind.
+features:
+- title: De stad, straat voor straat
+  text: Zo’n 1.100 huizen en winkels langs de straten van de opgraving, met de Via dell’Abbondanza, de Via Stabiana en de Via del Foro, geplaveid met basaltblokken en met stapstenen om over te steken.
+- title: Tien huizen om binnen te lopen
+  text: Ga binnen door de deur van het Huis van de Faun, het Huis van de Vettii, de Lupanare, een straatkroeg en zes andere huizen, met hun atria, tuinen, fresco’s en mozaïeken. Het Forum, de theaters, de Stabiaanse baden en het amfitheater zijn met de hand nagebouwd, en de Vesuvius staat aan de horizon waar hij echt staat.
+- title: Een race door het midden van de stad
+  text: Een ronde van ongeveer een kilometer vanaf het Forum langs de Via dell’Abbondanza en terug via de Via Stabiana en de Via della Fortuna.
+intro: Pompeï was een Romeinse stad van zo’n 11.000 inwoners aan de Golf van Napels, tien kilometer van de Vesuvius. De uitbarsting van 79 n.Chr. bedekte haar met zes meter as en puimsteen, en zo bleef ze liggen tot de opgravingen in 1748 begonnen. Haar straten, huizen, winkels, tempels en baden geven het meest volledige beeld dat we hebben van het dagelijks leven in een Romeinse stad.
+credits: Kaartgegevens © OpenStreetMap-bijdragers (ODbL).

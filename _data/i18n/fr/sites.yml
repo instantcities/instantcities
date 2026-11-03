@@ -90,66 +90,6 @@ angkor-wat:
     angkor-wat:
       name: Angkor Vat
       text: Bâti au début du XIIe siècle pour le roi khmer Suryavarman II, d’abord temple hindou puis bouddhique. Trois niveaux s’élèvent jusqu’à cinq tours, celle du milieu haute de 65 mètres, à l’image de la montagne des dieux.
-pompeii:
-  name: Pompéi
-  place: Campanie, Italie
-  game: Instant Pompéi
-  title: 'Instant Pompéi : visite virtuelle 3D et jeu gratuits de Pompéi'
-  description: 'Faites gratuitement une visite virtuelle en 3D de Pompéi dans votre navigateur, puis parcourez-en vous-même les rues romaines à pied, à vélo ou à cheval : explorez ou faites la course, seul ou à deux sur un seul clavier.'
-  tagline: Marchez ou faites la course dans les rues romaines de Pompéi, avec le Vésuve derrière.
-  lead: Les rues de la ville telles que les fouilles les dessinent, le Forum avec le temple de Jupiter, les thermes et les maisons, et l’amphithéâtre à l’extrémité est.
-  card: "La ville romaine ensevelie par le Vésuve en 79 apr. J.-C. : ses rues pavées, le Forum et l’amphithéâtre."
-  credits: Données cartographiques © contributeurs d’OpenStreetMap (ODbL).
-  features:
-  - title: La ville, rue par rue
-    text: Environ 1 100 maisons et boutiques le long des rues des fouilles, avec la via dell’Abbondanza, la via Stabiana et la via del Foro, pavées de blocs de basalte.
-  - title: Le Forum et l’amphithéâtre
-    text: Les deux colonnades du Forum avec le temple de Jupiter au bout, et l’amphithéâtre, le plus ancien en pierre qui existe, sont modélisés à la main. Le Vésuve se dresse à l’horizon là où il est vraiment.
-  - title: Une course autour du centre-ville
-    text: Une boucle d’environ un kilomètre depuis le Forum par la via dell’Abbondanza et retour par la via Stabiana et la via della Fortuna.
-  facts:
-  - label: Enseveli
-    text: Le 24 août 79 apr. J.-C., sous les cendres et la ponce du Vésuve ; fouillé à partir du XVIIIe siècle
-  - label: Dimensions
-    text: Environ 66 hectares à l’intérieur des murs, avec quelque 11 000 habitants
-  - label: Amphithéâtre
-    text: Bâti vers 70 av. J.-C. pour environ 20 000 personnes, le plus ancien amphithéâtre de pierre conservé
-  - label: Dans le jeu
-    text: Les rues et les maisons, le Forum avec ses colonnades et le temple de Jupiter, l’amphithéâtre et le Vésuve
-  places:
-    forum:
-      name: Le Forum
-      text: La place au milieu de Pompéi, longue de 140 mètres, interdite aux charrettes. Des temples, la basilique, le marché et les bureaux de la ville l’entouraient, et l’on y venait pour commercer, voter et apprendre les nouvelles.
-    jupiter:
-      name: Temple de Jupiter
-      text: Le principal temple de la ville, à l’extrémité nord du Forum, bâti pour Jupiter, Junon et Minerve. Le Vésuve se dresse juste derrière. Un tremblement de terre en 62 apr. J.-C. l’avait déjà endommagé, et il était encore en réparation en 79.
-    basilica:
-      name: La Basilique
-      text: Le tribunal et la bourse, à l’angle sud-ouest du Forum, vers 150 av. J.-C. C’est la plus ancienne basilique que l’on connaisse, et l’un des plus grands bâtiments de la ville.
-    apollo:
-      name: Temple d’Apollon
-      text: Le plus ancien temple de Pompéi, du VIe siècle av. J.-C., dans une cour entourée d’une colonnade de 48 colonnes. Apollon était le protecteur de la ville. Les statues ici sont des copies.
-    stepping-stones:
-      name: Pas japonais
-      text: Les rues charriaient eaux de pluie et ordures, d’où ces blocs de lave pour traverser. Les espaces entre eux sont aussi larges que les roues d’une charrette, et l’on voit encore les ornières que les charrettes ont creusées dans le pavage.
-    stabian-baths:
-      name: Les thermes de Stabies
-      text: Les plus anciens bains publics de Pompéi, avec un gymnase, une piscine et des salles de températures différentes. La plupart des citoyens y allaient presque chaque jour, et les plafonds de stuc sont toujours là.
-    lupanare:
-      name: Le Lupanar
-      text: Un petit bordel à deux étages et dix chambres, le plus connu des nombreux de la ville. Ses lits de pierre et les images et graffitis sur ses murs sont toujours là.
-    casa-del-fauno:
-      name: Maison du Faune
-      text: La plus grande maison de Pompéi, qui occupe un îlot entier, avec deux atriums et deux jardins. Un petit faune de bronze danse dans son bassin. L’immense mosaïque d’Alexandre le Grand à la bataille y fut trouvée.
-    grand-theatre:
-      name: Le Grand Théâtre
-      text: Un théâtre de style grec creusé dans la colline au IIe siècle av. J.-C., pour environ 5 000 personnes. Le plus petit Odéon voisin était couvert, pour les concerts et les lectures.
-    casts:
-      name: Jardin des Fugitifs
-      text: Treize personnes, dont des enfants, moururent dans ce jardin sous les cendres. Leurs corps se décomposèrent en laissant des creux dans la cendre durcie. En 1863, Giuseppe Fiorelli fit couler du plâtre dans les creux, et les moulages montrent les gens tels qu’ils gisaient. D’autres sont dans les greniers du Forum.
-    amphitheatre:
-      name: L’Amphithéâtre
-      text: Bâti vers 70 av. J.-C., le plus ancien amphithéâtre de pierre qui existe, pour quelque 20 000 personnes. En 59 apr. J.-C., une bagarre entre les supporters de Pompéi et de Nucérie y finit en émeute, et Rome ferma l’arène pendant dix ans.
 stonehenge:
   name: Stonehenge
   place: Wiltshire, Angleterre

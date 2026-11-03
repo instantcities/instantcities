@@ -352,6 +352,24 @@
     - { icon: flag, title: "A race: Duomo and Lungomare", text: "Race from below the Duomo through Via dei Mercanti and along the Corso, down to the sea, under the palms of the Lungomare and back along Via Roma." }
   credits: "Map data © OpenStreetMap contributors (ODbL)."
 
+- id: pompeii
+  name: Pompeii
+  country: Italy
+  lat: 40.7491
+  lon: 14.4848
+  game: Instant Pompeii
+  title: "Instant Pompeii: a free virtual 3D tour and game of Pompeii"
+  description: "Take a free virtual 3D tour of Pompeii in your browser, then walk, cycle or ride through its Roman streets yourself: explore or race, alone or two players on one keyboard."
+  tagline: "Walk or race through the Roman streets of Pompeii, with Vesuvius behind."
+  lead: "The Roman town buried by Vesuvius in AD 79, in 3D: its streets as the excavation maps them, the Forum with the Temple of Jupiter, the baths, the theatres, ten houses you can walk into and the amphitheatre at the east end."
+  card: "The Roman town buried by Vesuvius in AD 79: its paved streets, the Forum, its houses and the amphitheatre."
+  image: pompeii
+  features:
+    - { icon: city, title: "The town, street by street", text: "About 1,100 houses and shops along the streets of the excavation, with the Via dell'Abbondanza, the Via Stabiana and the Via del Foro, paved with basalt blocks and crossed by stepping stones." }
+    - { icon: door, title: "Ten houses to walk into", text: "Go in at the door of the House of the Faun, the House of the Vettii, the Lupanare, a street bar and six more, with their atria, gardens, frescos and mosaics. The Forum, the theatres, the Stabian Baths and the amphitheatre are modelled by hand, and Vesuvius stands on the horizon where it really is." }
+    - { icon: flag, title: "A race round the middle of town", text: "A loop of about a kilometre from the Forum along the Via dell'Abbondanza and back by the Via Stabiana and the Via della Fortuna." }
+  credits: "Map data © OpenStreetMap contributors (ODbL)."
+
 - id: siena
   name: Siena
   country: Italy

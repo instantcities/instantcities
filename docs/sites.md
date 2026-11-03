@@ -1,8 +1,13 @@
 # Sites
 
-A site is a famous place that is not a city: the Taj Mahal, Angkor Wat, Pompeii, Stonehenge, Giza, the Acropolis and Machu Picchu. It plays like a small city
+A site is a famous place that is not a city: the Taj Mahal, Angkor Wat, Stonehenge, Giza, the Acropolis and Machu Picchu. It plays like a small city
 (`taj-mahal/play/`), with a race, a tour and quests, but it has no streets of houses. What is there
 is the monument, modelled by hand, and what OpenStreetMap has around it: paths, water, walls, trees.
+
+Pompeii began as a site and is now a city (`_data/cities.yml`), with a guide (`_data/about/pompeii.json`)
+and a page for each of its best-known places (`_data/landmarks/pompeii.json`). Its game is still made the
+way a site's is, so the notes below about its map and its monuments still hold. `/sites/pompeii/` sends a
+visitor on to `/pompeii/`.
 
 ## What a site has
 
@@ -93,7 +98,7 @@ palette, fog and light with the engine defaults.
 `dressMonuments` wraps the site's models, preserving their vertex colours, existing artwork,
 glass and metal. It adds metre-scale projected UVs for models built without them. Marble uses
 fine veins and a gentler bump; weathered stone uses grain, pits and hairline marks. Three small
-shared canvas textures cover the seven sites, and the existing low-power setting still reduces
+shared canvas textures cover the sites and Pompeii, and the existing low-power setting still reduces
 visitor counts and view distance on phones.
 
 The six quieter sites now use `BUSY` to put more visitors on their approaches and viewing walks;

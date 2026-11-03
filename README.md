@@ -10,9 +10,10 @@ Play it at [instantcities.net](https://instantcities.net).
 
 You move through real streets and buildings. One player, or two on the same keyboard with a split screen.
 
-- 27 cities. Ghent and Lecce in full; a first piece of Rome, Paris, Amsterdam, Venice,
-  Barcelona, London, Bruges, Antwerp, Brussels, Florence, Prague, Vienna, Copenhagen, Berlin and more.
-- 7 sites that are not cities: the Taj Mahal, Angkor Wat, Pompeii, Stonehenge, Giza, the Acropolis and Machu Picchu,
+- 28 cities. Ghent and Lecce in full; a first piece of Rome, Paris, Amsterdam, Venice,
+  Barcelona, London, Bruges, Antwerp, Brussels, Florence, Prague, Vienna, Copenhagen, Berlin and more,
+  and Roman Pompeii, with ten of its houses to walk into.
+- 6 sites that are not cities: the Taj Mahal, Angkor Wat, Stonehenge, Giza, the Acropolis and Machu Picchu,
   with the monuments modelled by hand.
 - **Race** along the streets, pick up items (bunnies, hedgehogs, rain clouds) and watch out for roadworks.
 - **Roam freely**, take a **guided tour**, or play short **quests** against the clock.

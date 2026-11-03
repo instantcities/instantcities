@@ -142,6 +142,7 @@ open_osm: "Openen in OpenStreetMap"
 open_3d: "Openen in 3D"
 ride_in_3d_plain: "Rijd door %c in 3D"
 lm_dates: "Data"
+lm_links: "Meer lezen"
 lm_art_here: "Beroemde kunst hier"
 lm_art_all: "Alle beroemde kunst in 3D ›"
 lm_more_in: "Meer in %c"
@@ -227,6 +228,7 @@ cities:
   antwerp: { slug: antwerpen, name: Antwerpen, card: "Van de Grote Markt naar Het Steen aan de Schelde, en terug langs de kathedraal." }
   avignon: { card: "De stad van de pausen: het Pausenpaleis, de Place de l’Horloge en de brug over de Rhône." }
   salerno: { card: "De stad aan de golf, aan het begin van de Amalfikust: de Duomo, de oude koopmansstraat en de palmen van de Lungomare." }
+  pompeii: { name: Pompeï, card: "De Romeinse stad die de Vesuvius in 79 n.Chr. bedolf: de geplaveide straten, het Forum, de huizen en het amfitheater." }
   siena: { card: "De gotische bakstenen stad op drie heuvels: de schelp van de Campo, de Torre del Mangia en de gestreepte kathedraal." }
   pisa: { card: "De oude zeerepubliek aan de Arno: de Scheve Toren op de Piazza dei Miracoli, de universiteitsstraten en de palazzi langs de rivier." }
   utrecht: { card: "De stad van de Domtoren, met haar middeleeuwse grachten en de werfkelders aan het water." }
