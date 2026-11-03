@@ -189,6 +189,7 @@ stonehenge:
 giza:
   name: Gizeh
   place: Gizeh, Egypte
+  game: Instant Gizeh
   title: 'Instant Gizeh: gratis virtuele 3D-rondleiding en game'
   description: Verken de piramides en de Sfinx op het plateau van Gizeh. Verken, race of volg een rondleiding in je browser.
   tagline: Verken de piramides en de Sfinx op het plateau van Gizeh.
@@ -229,6 +230,7 @@ giza:
 acropolis:
   name: Akropolis
   place: Athene, Griekenland
+  game: Instant Akropolis
   title: 'Instant Akropolis: gratis virtuele 3D-rondleiding en game'
   description: Loop tussen de tempels op de Akropolis van Athene. Verken, race of volg een rondleiding in je browser.
   tagline: Loop tussen de tempels op de Akropolis van Athene.
