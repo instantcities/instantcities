@@ -5,18 +5,14 @@ import * as THREE from 'three';
 // (the rail along the raced street still keeps the riders in).
 
 // Every opening along the raced street: the sample range it spans and on which side (+1 = left).
-// streets(rd): which pedestrian streets count as streets too, their middle
-// (all but a pavement of walk(width) metres either side) opening the raced street's pavement (the Roman
-// streets of Pompeii, raised pavements either side of the carriageway, see js/sidewalks.js).
-export function findMouths(track, roads, pavement, { streets = () => false, walk = () => 0 } = {}) {
+export function findMouths(track, roads, pavement) {
   const hw = track.hw, out = [];
   const edgeLat = (x, z, hint) => {
     const i = track.nearest(x, z, hint);
     return { i, lat: track.lateral(x, z, i) };
   };
   for (const rd of roads) {
-    const foot = rd.foot && streets(rd);
-    if (rd.foot && !foot) continue;
+    if (rd.foot) continue;
     const p = rd.p, n = p.length / 2;
     for (let k = 0; k < n; k++) {
       const x = p[k * 2], z = p[k * 2 + 1];
@@ -37,8 +33,8 @@ export function findMouths(track, roads, pavement, { streets = () => false, walk
         }
         if (!hit) continue; // this piece runs along the route itself
         const t = track.tangents[hit.i], across = Math.abs(dx * t.z - dz * t.x);
-        const half = foot ? rd.w / 2 - walk(rd.w) : rd.w / 2 + 1.3; // its asphalt plus a pavement on each side
-        out.push({ idx: hit.i, side: Math.sign(hit.lat), along: Math.min(14, half / Math.max(0.35, across)), ...(foot && { foot }) });
+        const half = rd.w / 2 + 1.3; // its asphalt plus a pavement on each side
+        out.push({ idx: hit.i, side: Math.sign(hit.lat), along: Math.min(14, half / Math.max(0.35, across)) });
       }
     }
   }
