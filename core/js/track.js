@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { SHARP } from './device.js';
 import { onGround } from './ground.js';
 
 const N = 2000;
@@ -426,7 +427,8 @@ export function slabTexture(theme = {}) {
 // wheel apart, running along it. Drawn for a strip 6.4 m across and 12 m long (40 px to a metre).
 export function lavaTexture() {
   const W = 256, H = 512, cols = 7, rows = 16, rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
-  const t = canvasTexture(W, H, g => {
+  const t = canvasTexture(W * SHARP, H * SHARP, g => {
+    g.scale(SHARP, SHARP); // (drawn in its W by H frame, finer on a computer: device.js SHARP)
     g.fillStyle = '#5a554c'; // the joints, filled with grit
     g.fillRect(0, 0, W, H);
     // a lattice of corners, each moved a good way off its place: the quads between are the blocks
@@ -493,7 +495,8 @@ export function lavaTexture() {
 // street (a tile is 8 m), v up the face or across the top.
 export function kerbTexture() {
   const W = 512, H = 64, rnd = (() => { let s = 11; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
-  const t = canvasTexture(W, H, g => {
+  const t = canvasTexture(W * SHARP, H * SHARP, g => {
+    g.scale(SHARP, SHARP); // (drawn in its W by H frame, finer on a computer: device.js SHARP)
     g.fillStyle = '#2f2d2a';
     g.fillRect(0, 0, W, H);
     for (let x = 0; x < W;) {

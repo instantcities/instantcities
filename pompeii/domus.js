@@ -158,8 +158,8 @@ export class Domus {
     const k = this.kit, top = broken ? h * (0.4 + this.r() * 0.4) : h;
     k.box(r * 2.6, 0.25, r * 2.6, MARBLE, x, 0.12, z);
     const red = Math.min(top, h * 0.33);
-    k.add(new THREE.CylinderGeometry(r, r * 1.04, red, 14), RED, x, 0.25 + red / 2, z);
-    if (top > red) k.add(new THREE.CylinderGeometry(r * 0.88, r, top - red - 0.25, 14), STUCCO, x, 0.25 + red + (top - red - 0.25) / 2, z);
+    k.add(new THREE.CylinderGeometry(r, r * 1.04, red, 28), RED, x, 0.25 + red / 2, z);
+    if (top > red) k.add(new THREE.CylinderGeometry(r * 0.88, r, top - red - 0.25, 28), STUCCO, x, 0.25 + red + (top - red - 0.25) / 2, z);
     if (!broken) k.box(r * 2.8, 0.35, r * 2.8, STUCCO, x, h + 0.1, z);
     this.ringAlong([x - r, z], [x + r, z], r * 2);
   }

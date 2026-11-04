@@ -7,6 +7,7 @@
 // and 80 a storey, like js/italian.js's; v picks the variant, so neighbours differ.
 
 import * as THREE from 'three';
+import { SHARP } from './device.js';
 
 const STONE = 'rgba(255,248,232,0.5)', SHADOW = 'rgba(40,28,16,0.35)';
 const DADOS = ['rgba(120,28,18,0.55)', 'rgba(40,22,18,0.5)', 'rgba(150,50,28,0.5)'];
@@ -214,7 +215,7 @@ const RUIN_WALLS = [
   { plaster: '#d4c39a', dado: '#6a4a38', cover: 0.12, fields: ['#b0703a'], net: true },
 ];
 export const RUIN_VARIANTS = RUIN_WALLS.length;
-export const RUIN_TILE = [9, 6]; // metres across and up that a ruin texture covers: 512 by 342 px, 57 px to a metre
+export const RUIN_TILE = [9, 6]; // metres across and up that a ruin texture covers: 512 by 342 px, 57 px to a metre (times SHARP)
 export const RUIN_CAP = 0.985; // the v of a wall's broken top: a strip of bare stone at the top of the texture
 const STONES = ['#8f7d66', '#7d6f5c', '#a08a6c', '#6f6558', '#8a8278', '#9b6a50', '#5e5650', '#b09878', '#847159'];
 
@@ -479,8 +480,10 @@ export class WallBatch {
 // the texture of one variant of a ruin's wall, plain or with a doorway or a shop's opening
 export function ruinTexture(variant, kind = '', seed = 1) {
   const c = document.createElement('canvas');
-  c.width = 512; c.height = 342;
-  ruinPainter(variant, kind, seed)(c.getContext('2d'));
+  c.width = 512 * SHARP; c.height = 342 * SHARP; // drawn in a 512 by 342 frame, finer on a computer
+  const g = c.getContext('2d');
+  g.scale(SHARP, SHARP);
+  ruinPainter(variant, kind, seed)(g);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.wrapS = THREE.RepeatWrapping;
