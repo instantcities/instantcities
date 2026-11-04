@@ -23,10 +23,11 @@
 {%- endfor -%}
 {%- capture story %}{% include link-first.html text=story name=c_name url=city_url %}{% endcapture -%}
 {%- assign paras = story | split: ' ¶ ' -%}
-{%- comment -%} in a building: ?inside=<it>&view=; out in the open: ?pos=x,z(&yaw=) or its square's ?at=<sight> {%- endcomment -%}
+{%- comment -%} in a building: ?inside=<it>&view=; out in the open: ?pos=x,z(&yaw=), its own card's ?at=<sight>, or its square's {%- endcomment -%}
 {%- if P.view %}{% assign play = '/' | append: C.id | append: '/play/?inside=' | append: M.id | append: '&view=' | append: P.view[0] | append: ',' | append: P.view[1] | append: ',' | append: P.view[2] | append: ',' | append: P.view[3] -%}
 {%- elsif P.pos %}{% assign n = p_title | url_encode %}{% assign play = '/' | append: C.id | append: '/play/?pos=' | append: P.pos[0] | append: ',' | append: P.pos[1] -%}
 {%- if P.pos.size > 2 %}{% assign play = play | append: '&yaw=' | append: P.pos[2] %}{% endif %}{% assign play = play | append: '&n=' | append: n -%}
+{%- elsif P.at %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: P.at -%}
 {%- else %}{% assign play = '/' | append: C.id | append: '/play/?at=' | append: M.at -%}{% endif -%}
 {%- assign play = play | append: '&from=art:' | append: P.id | append: QA -%}
 {%- case P.kind %}{% when 'painting' %}{% assign kind_icon = 'frame' %}{% when 'fresco' %}{% assign kind_icon = 'palette' %}{% when 'sculpture' %}{% assign kind_icon = 'statue' %}{% else %}{% assign kind_icon = 'gem' %}{% endcase -%}
@@ -82,7 +83,8 @@
             <dt>{{ T.art_by }}</dt><dd>{{ p_artist }}</dd>
             <dt>{{ T.art_when }}</dt><dd>{{ p_date }}</dd>
             <dt>{{ T.art_made_of }}</dt><dd>{{ AX.medium | default: P.medium }}</dd>
-            <dt>{{ T.art_size }}</dt><dd>{{ AX.size | default: P.size }}</dd>
+            {%- assign p_size = AX.size | default: P.size %}{% if p_size %}
+            <dt>{{ T.art_size }}</dt><dd>{{ p_size }}</dd>{% endif %}
             <dt>{{ T.art_where }}</dt><dd>{% if LM %}<a href="{{ lm_url }}">{{ m_name }}</a>{% else %}{{ m_name }}{% endif %}, <a href="{{ city_url }}">{{ c_name }}</a><br><small>{{ AX.room | default: P.room }}</small></dd>
           </dl>
           <p class="art-go"><a href="{{ play }}">{% include icon.html name="play" %} {{ T.art_go | replace: '%g', game_name }}</a></p>

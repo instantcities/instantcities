@@ -25,7 +25,7 @@ import { dressMonuments } from '../core/js/site-style.js';
 //   vesuvius.js      Vesuvius on the horizon
 //   houses.js        ten houses and shops built to walk into: the House of the Faun, the Lupanare...
 //   plots.js         where they stand: each on its block, between its streets
-//   domus.js         what they are built from: walls, floors, columns, pools, gardens
+//   domus.js         what they are built from: walls, floors, columns, pools, gardens, roofs, furniture
 //   frescos.js       their paintings and mosaics, drawn on canvases
 export { MAP } from './map.js';
 export { RACES } from './races.js';
@@ -37,10 +37,12 @@ import { VESUVIUS } from './vesuvius.js';
 import { PUBLICS } from './public.js';
 import { STONES } from './stones.js';
 import { CASTS } from './casts.js';
-import { HOUSE_MONUMENTS, HOUSE_PLACES, HOUSE_GROUNDS } from './houses.js';
+import { HOUSE_MONUMENTS, HOUSE_PLACES, HOUSE_GROUNDS, HOUSE_ART } from './houses.js';
 
 // inside the houses everybody goes on foot (js/city.js onFootAt)
 export const ON_FOOT = HOUSE_GROUNDS;
+// their famous frescos and mosaics, to see full screen when you stand before one (game/artview.js)
+export const ART_SPOTS = HOUSE_ART;
 export const MONUMENTS = dressMonuments([...FORUM, ...AMPHITHEATRE, ...PUBLICS, ...STONES, ...CASTS, ...VESUVIUS, ...HOUSE_MONUMENTS], 'pompeii');
 export const SIGNALS = [], CROSSINGS = [], FURNITURE = {};
 export const STREET_FURNITURE = false; // no street lamps, benches or bins

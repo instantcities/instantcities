@@ -78,6 +78,8 @@ Other map tools:
 - `tools/gent3d.mjs` takes a few Ghent landmarks from Stad Gent's "Gent in 3D" models (needs `dwg2dxf`). Run it again after rebuilding the map.
 - `tools/terrain.mjs ghent` makes the hill by the Blandijn from Digitaal Vlaanderen's terrain model. A city without a `terrain.js` is flat.
 - `tools/photos.mjs` and `tools/street.mjs` fetch photos (Wikimedia Commons, Mapillary) to draw house fronts from. Mapillary needs a token in `MAPILLARY_TOKEN`.
+- `tools/gallery.mjs` puts photos from Wikimedia Commons between the paragraphs of a landmark's page (`gallery` in `_data/landmarks/<city>.json`): `find` makes a numbered sheet of the candidates in a Commons category, `add` fetches the chosen files with their credits.
+- `tools/houseshots.mjs` takes pictures at eye height inside Pompeii's houses (`pompeii/houses.js`), to check them.
 - `tools/facadinator.mjs` colours a street's fronts from those photos. See the `facadinator` skill.
 
 Buildings are drawn in three levels: landmarks by hand (`landmarks.json`, `facades.js`), important
