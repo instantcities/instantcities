@@ -236,6 +236,31 @@ function graffitiWall(g, w, h, r) {
   age(g, w, h, r, { flakes: 12, fade: 0.1 });
 }
 
+// bare masonry, where no plaster is left: rubble stones of lava and limestone in rough courses, a band
+// of brick every so often, on a canvas RUBBLE_M metres square (repeated)
+export const RUBBLE_M = 3;
+export function rubbleTexture() {
+  return texture('rubble', 512, 512, (g, w, h, r) => {
+    const STONES = ['#8f7d66', '#7d6f5c', '#a08a6c', '#6f6558', '#8a8278', '#9b6a50', '#5e5650', '#b09878', '#847159'], BR = ['#a65d44', '#b3694d', '#94533d', '#9c6a50'];
+    g.fillStyle = '#6a5d4c'; g.fillRect(0, 0, w, h);
+    let y = 0, row = 0;
+    while (y < h) {
+      const brick = row % 9 === 7, rh = brick ? 9 : 14 + r() * 10;
+      for (let x = -r() * 30; x < w; ) {
+        const sw = brick ? 34 + r() * 8 : 22 + r() * 36;
+        g.fillStyle = brick ? BR[Math.floor(r() * BR.length)] : STONES[Math.floor(r() * STONES.length)];
+        g.beginPath(); g.roundRect(x + 1, y + 1, sw - 2, rh - 2, brick ? 1 : 4); g.fill();
+        const d = (r() - 0.5) * 18; g.fillStyle = d > 0 ? `rgba(255,240,215,${d / 90})` : `rgba(0,0,0,${-d / 90})`; g.fill();
+        g.fillStyle = 'rgba(255,245,225,0.14)'; g.fillRect(x + 2, y + 1.5, sw - 4, 2);
+        x += sw;
+      }
+      y += rh; row++;
+    }
+    // (rows of the same height top and bottom, so it repeats up the wall without a seam)
+    for (let k = 0; k < 1500; k++) { g.fillStyle = r() < 0.5 ? 'rgba(0,0,0,0.08)' : 'rgba(255,245,225,0.07)'; g.fillRect(r() * w, r() * h, 1 + r() * 3, 1 + r() * 2); }
+  });
+}
+
 function gardenWall(g, w, h, r) {
   const sky = g.createLinearGradient(0, 0, 0, h);
   sky.addColorStop(0, '#bcd4d0'); sky.addColorStop(0.7, '#d9e3d2'); sky.addColorStop(1, '#a7b88e');

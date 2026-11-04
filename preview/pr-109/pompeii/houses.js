@@ -525,7 +525,8 @@ for (const [n, h] of HOUSES.entries()) {
   // looking in, or where the house says (arrive)
   const at = h.arrive?.at ?? (d.door && [d.door[0], 2.5]), look = h.arrive?.look ?? (d.door && [d.door[0], 12]);
   const [ax, az] = at ? p.at(...at) : [], arrival = at && { x: ax, z: az, look: p.at(...look) };
-  HOUSE_SIGHTS.push({ id: 'house-' + h.id, emoji: h.emoji, x: Math.round(cx), z: Math.round(cz), r: Math.round(Math.max(p.W, p.D) / 2 + 6), text: h.card, arrival });
+  // its card has a Go inside button (goIn), shown while you are not on its ground
+  HOUSE_SIGHTS.push({ id: 'house-' + h.id, emoji: h.emoji, x: Math.round(cx), z: Math.round(cz), r: Math.round(Math.max(p.W, p.D) / 2 + 6), text: h.card, arrival, goIn: !!arrival, ground: HOUSE_GROUNDS.at(-1) });
   for (const [k, s] of (h.sights ?? []).entries()) {
     const [x, z] = p.at(...s.at);
     // a card for a piece (art) brings you, from its page on the site (?at=house-<id>-<k>), to where you see it

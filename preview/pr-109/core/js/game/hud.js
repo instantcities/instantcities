@@ -50,9 +50,18 @@ huds.forEach(h => {
 });
 huds.forEach((h, p) => h.sightEnter.addEventListener('click', e => {
   e.preventDefault();
-  const room = h.sightRoom;
-  if (room && game.state === 'race') { putAt(humans[p], room.inside.x, room.inside.z, room.inside.yaw); hudMsg(p, `${room.emoji} ${roomName(room)}`); }
+  const room = h.sightRoom, door = h.sightDoor;
+  if (game.state !== 'race') return;
+  if (room) { putAt(humans[p], room.inside.x, room.inside.z, room.inside.yaw); hudMsg(p, `${room.emoji} ${roomName(room)}`); }
+  else if (door) putAt(humans[p], door.x, door.z, Math.atan2(door.look[0] - door.x, door.look[1] - door.z));
 }));
+
+// whether (x, z) lies in a ring [x, z, x, z, ...]
+function inRing(x, z, p) {
+  let c = false;
+  for (let i = 0, j = p.length - 2; i < p.length; j = i, i += 2) if ((p[i + 1] > z) !== (p[j + 1] > z) && x < ((p[j] - p[i]) * (z - p[i + 1])) / (p[j + 1] - p[i + 1]) + p[i]) c = !c;
+  return c;
+}
 
 function buildHud(p) {
   const el = document.createElement('div');
@@ -204,7 +213,11 @@ function updateSight(h, r) {
     setText(h.sightMore, t_('sight.more'));
     // a building you can go into (<city>/inside.js) has a button for that, which takes you in
     h.sightRoom = (s.enter && INSIDE.list.find(b => b.id === s.enter)) || null;
-    h.sightEnter.hidden = !h.sightRoom;
+    // a place you walk into where it stands (goIn: Pompeii's houses, a theatre, the baths) has one
+    // that puts you at its arrival, inside the door, while you are not in it yet (its ground, or near it)
+    const a = !h.sightRoom && s.goIn && s.arrival;
+    h.sightDoor = a && !(s.ground ? inRing(r.pos.x, r.pos.z, s.ground) : Math.hypot(r.pos.x - a.x, r.pos.z - a.z) < 12) ? a : null;
+    h.sightEnter.hidden = !h.sightRoom && !h.sightDoor;
     setText(h.sightEnter, t_('sight.enter'));
   }
   // the pointers in the card's corner make room for it

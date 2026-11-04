@@ -19,7 +19,7 @@
 // city.js ART_SPOTS, game/artview.js).
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
-import { wallTexture, pictureTexture, floorTexture, mosaicTexture, artTexture, PICTURE_DRAW, MOSAIC_DRAW, PANEL, TILE } from './frescos.js';
+import { wallTexture, pictureTexture, floorTexture, mosaicTexture, artTexture, rubbleTexture, PICTURE_DRAW, MOSAIC_DRAW, PANEL, TILE, RUBBLE_M } from './frescos.js';
 
 const BRONZE = '#5a5236', TERRACOTTA = '#b0643a', WOOD = '#6b4526';
 const RUBBLE = ['#8f7f68', '#9a8a70', '#857560', '#a08c72'], BRICK = '#9a5a40', MARBLE = '#e8e2d2', RED = '#9b2b1f', STUCCO = '#ece4d0';
@@ -79,6 +79,15 @@ export class Domus {
       const top = Math.min(ph, sh - 0.15);
       for (const [side, s] of [['l', 1], ['r', -1]]) {
         const style = paint[side];
+        // the bare masonry: all of a face without plaster, or what is above the plaster
+        const from = style ? top : 0;
+        if (sh - from > 0.1) {
+          const o = (t / 2 + 0.008) * s, [x0, z0] = at(u0), [x1, z1] = at(u1);
+          const c = [[x0 + nx * o, from, z0 + nz * o], [x1 + nx * o, from, z1 + nz * o], [x1 + nx * o, sh, z1 + nz * o], [x0 + nx * o, sh, z0 + nz * o]];
+          const uv = [[u0 / RUBBLE_M, from / RUBBLE_M], [u1 / RUBBLE_M, from / RUBBLE_M], [u1 / RUBBLE_M, sh / RUBBLE_M], [u0 / RUBBLE_M, sh / RUBBLE_M]];
+          if (s < 0) { c.reverse(); uv.reverse(); }
+          this.quad('rubble', rubbleTexture, c, uv);
+        }
         if (!style) continue;
         const o = (t / 2 + 0.015) * s, [x0, z0] = at(u0 + 0.6), [x1, z1] = at(u1 - 0.6);
         const p0 = [x0 + nx * o, z0 + nz * o], p1 = [x1 + nx * o, z1 + nz * o];
