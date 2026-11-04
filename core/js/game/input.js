@@ -15,7 +15,7 @@ import {
 } from './bigmap.js';
 import {
   pauseEl, navRows, menuRow, setMenuRow, TOUR_MODES, setTourMode, renderMenu, setLanguage, setMode, setKind,
-  missionPlayer, selectMission, selectTrack, toggleSound,
+  missionPlayer, selectMission, selectTrack, toggleSound, cityListOpen, openCityList,
 } from './menu.js';
 import { beginQuest, startRace, toMenu, pauseBtns, pauseSel, selectPause, setPaused } from './race.js';
 import { tourNext } from './touring.js';
@@ -112,6 +112,7 @@ function onPress(code) {
   if (code === 'KeyM') return toggleSound();
   switch (game.state) {
     case 'menu': {
+      if (cityListOpen()) { if (code === 'Escape' || code === 'Backspace') openCityList(false); break; }
       const up = code === 'KeyW' || code === 'ArrowUp', down = code === 'KeyS' || code === 'ArrowDown';
       const left = code === 'KeyA' || code === 'ArrowLeft', right = code === 'KeyD' || code === 'ArrowRight';
       const rows = navRows();
