@@ -1,4 +1,4 @@
-{%- comment -%} A landmark's page, in each language (/en/ghent/landmark/belfort/, /fr/gand/monument/belfort/: tools/landmarks.mjs writes the pages, with x and z: where it lies in the game; /<city>/landmark/<id>/ only sends a visitor on): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark`; in French and Dutch its words (the name, the blurb, the story, history, visit and dates) are those of _data/i18n/<lang>/landmarks/<city>.yml where it has them. Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. A building with famous art in it (a museum of _data/art.json whose `landmark` is this one) lists its pieces, and the first mention of the city and of each piece in its words is a link. {%- endcomment -%}
+{%- comment -%} A landmark's page, in each language (/en/ghent/landmark/belfort/, /fr/gand/monument/belfort/: tools/landmarks.mjs writes the pages, with x and z: where it lies in the game; /<city>/landmark/<id>/ only sends a visitor on): its block in _data/landmarks/<city>.json, named by the page's `city` and `landmark`; in French and Dutch its words (the name, the blurb, the story, history, visit and dates) are those of _data/i18n/<lang>/landmarks/<city>.yml where it has them. Its words, a map from OpenStreetMap where it has a place, a way into the game right there, and the city's other landmarks. Photos (its `gallery`, tools/gallery.mjs) between its paragraphs. A building with famous art in it (a museum of _data/art.json whose `landmark` is this one) lists its pieces, and the first mention of the city and of each piece in its words is a link. {%- endcomment -%}
 {%- include lang.html -%}
 {%- assign all = site.data.landmarks[page.city] -%}
 {%- assign LM = all | where: 'id', page.landmark | first -%}
@@ -71,17 +71,20 @@
       <div class="prose">
         {%- for p in words limit: lm_text.size %}
         <p>{{ p }}{% if forloop.last %} <a class="in-3d" href="{{ play }}">{% if here %}{{ T.visit_in_3d }}{% else %}{{ T.ride_in_3d | replace: '%c', CN }}{% endif %}</a>{% endif %}</p>
+        {%- if LM.gallery %}{% include lm-gallery.html gallery=LM.gallery at=forloop.index0 total=words.size %}{% endif %}
         {%- endfor %}
         {%- if lm_history %}
         <h2>{{ T.lm_history }}</h2>
         {%- for p in words offset: lm_text.size limit: n_history %}
         <p>{{ p }}</p>
+        {%- if LM.gallery %}{% assign gi = forloop.index0 | plus: lm_text.size %}{% include lm-gallery.html gallery=LM.gallery at=gi total=words.size %}{% endif %}
         {%- endfor %}
         {%- endif %}
         {%- if lm_visit %}
         <h2>{{ T.lm_visit }}</h2>
         {%- for p in words offset: visit_from limit: n_visit %}
         <p>{{ p }}</p>
+        {%- if LM.gallery %}{% assign gi = forloop.index0 | plus: visit_from %}{% include lm-gallery.html gallery=LM.gallery at=gi total=words.size %}{% endif %}
         {%- endfor %}
         {%- endif %}
       </div>

@@ -1,0 +1,18 @@
+{%- comment -%}
+  The photos among a landmark's words (its `gallery` in _data/landmarks/<city>.json, from tools/gallery.mjs):
+  {% include lm-gallery.html gallery=LM.gallery at=i total=n %} after paragraph i (0 from the first) of
+  the n on its page puts there those of the photos that fall after it, spread evenly through the words:
+  photo k (1 from the first) of g after paragraph k n / g - 1, the last after the last paragraph.
+{%- endcomment -%}
+{%- assign gl = include.gallery -%}{%- assign gn = gl.size -%}
+{%- for ph in gl -%}
+{%- assign after = forloop.index | times: include.total | divided_by: gn | minus: 1 -%}{%- if after < 0 %}{% assign after = 0 %}{% endif -%}
+{%- if after == include.at %}
+        <figure class="lm-photo">
+          <a href="{{ ph.source }}" rel="noopener"><img src="{{ ph.src }}" width="{{ ph.w }}" height="{{ ph.h }}" alt="{{ ph.caption | escape }}" loading="lazy"></a>
+          {%- capture author -%}<a href="{{ ph.source }}" rel="noopener">{{ ph.author | truncate: 60 }}</a>{%- endcapture -%}
+          {%- capture licence -%}{% if ph.license_url != '' %}<a href="{{ ph.license_url }}" rel="noopener license">{{ ph.license }}</a>{% else %}{{ ph.license }}{% endif %}{%- endcapture %}
+          <figcaption>{{ ph.caption }} <span class="credit">{{ T.photo_credit | replace: '%a', author | replace: '%l', licence }}</span></figcaption>
+        </figure>
+{%- endif -%}
+{%- endfor -%}
