@@ -546,7 +546,7 @@ function sea(ways, P, [x0, z0, x1, z1]) {
 // ------------------------------------------------------------------ the map
 
 // area: { bbox: [s, w, n, e], routes: [{ id, route: [street names] }] (or one route: [street names]),
-// zone_roads? or zone_points: [[lat, lon]], shop_streets?, scale?, hw?, corner?, ... }
+// zone_roads? or zone_points: [[lat, lon]] (zone_hull: false: as drawn, not their hull), shop_streets?, scale?, hw?, corner?, ... }
 // One map holds every race route through it; everything is centred on the first.
 // Returns { map, info } where info has each route's length and counts, for a report.
 export function buildMap(data, area) {
@@ -610,7 +610,9 @@ export function buildMap(data, area) {
   if (A.zone_roads?.length) {
     zone = hull(ways.filter(wy => A.zone_roads.includes(tag(wy).name)).flatMap(pts));
   } else if (A.zone_points?.length) {
-    zone = hull(A.zone_points.map(([lat, lon]) => project({ lat, lon })));
+    // zone_hull: false keeps the points as drawn, so the edge can follow a street that bends
+    const ring = A.zone_points.map(([lat, lon]) => project({ lat, lon }));
+    zone = A.zone_hull === false ? ring : hull(ring);
   } else {
     zone = hull(loops.flatMap(l => l.raw));
     zoneMargin = A.margin;
@@ -922,7 +924,26 @@ export function buildMap(data, area) {
     const hwy = t.highway;
     if (hwy in ROAD_WIDTH && t.area !== 'yes') {
       const ns = wy.nodes.map(String).filter(i => P.has(i));
-      const bridge = bridgeType(t, A.bridges), prof = ns.length >= 2 ? profile(ns, bridge, t.name) : [];
+      const bridge = bridgeType(t, A.bridges);
+      let prof = ns.length >= 2 ? profile(ns, bridge, t.name) : [];
+      // with a zone as drawn (zone_hull: false), a street that runs out of it is cut a point past
+      // its edge, not kept whole: the longest stretch of it inside
+      if (A.zone_hull === false && prof.length >= 2) {
+        const ok = prof.map(v => near([v[0], v[1]]));
+        let best = null;
+        for (let i = 0; i < ok.length; i++) {
+          if (!ok[i] || (i && ok[i - 1])) continue;
+          let j = i; while (j + 1 < ok.length && ok[j + 1]) j++;
+          if (!best || j - i > best[1] - best[0]) best = [i, j];
+        }
+        // the step out of it ends where it leaves the zone
+        const edge = (a, b) => { let lo = 0, hi = 1; for (let k = 0; k < 12; k++) { const m = (lo + hi) / 2; if (near([a[0] + (b[0] - a[0]) * m, a[1] + (b[1] - a[1]) * m])) lo = m; else hi = m; } return a.map((v, k) => v + (b[k] - v) * lo); };
+        if (!best) prof = [];
+        else {
+          const [i, j] = best;
+          prof = [...(i > 0 ? [edge(prof[i], prof[i - 1])] : []), ...prof.slice(i, j + 1), ...(j + 1 < prof.length ? [edge(prof[j], prof[j + 1])] : [])];
+        }
+      }
       const q = prof.map(G);
       if (q.length >= 2 && q.some(([x, z]) => near([(x + cx) / S, (z + cz) / S]))) {
         const road = { w: r1((bridge?.width ?? ROAD_WIDTH[hwy]) * S), foot: PAVED_FOOT.has(hwy), p: flat(q) };
