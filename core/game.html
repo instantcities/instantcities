@@ -217,19 +217,12 @@
         <div class="row" data-row="audio">
           <div class="opts">
             <a class="chip site-chip" href="../" data-site-link data-i18n="site.chip"></a>
-            <button class="chip" id="soundBtn"></button>
           </div>
         </div>
         <div class="row" data-row="lang">
           <div class="dropdown" id="langOpts">
             <button class="chip" id="langBtn" aria-haspopup="listbox" aria-expanded="false"></button>
             <div class="dd-list hidden" id="langList" role="listbox"></div>
-          </div>
-        </div>
-        <div class="row" data-row="city">
-          <div class="dropdown" id="cityOpts">
-            <button class="chip" id="cityBtn" aria-haspopup="listbox" aria-expanded="false"><span class="ico"></span><span data-i18n="menu.city"></span> ▾</button>
-            <div class="dd-list hidden" id="cityList" role="listbox">{{city_links}}</div>
           </div>
         </div>
         <div class="row" data-row="style">
@@ -242,8 +235,12 @@
           </div>
         </div>
       </div>
+      <div class="citydlg hidden" id="cityDlg" role="dialog" aria-modal="true" aria-labelledby="cityDlgTitle">
+        <div class="cityhead"><button class="arrow" id="cityBack">‹</button><h2 id="cityDlgTitle" data-i18n="menu.city"></h2></div>
+        <div class="citylist" id="cityList">{{city_links}}</div>
+      </div>
       <header>
-        <h1 class="title"><span class="brandline">Instant Cities</span> <span class="cityname">{{city}}</span></h1>
+        <h1 class="title"><span class="brandline">Instant Cities</span> <span class="cityline"><span class="cityname">{{city}}</span><button class="citybtn" id="cityBtn" aria-haspopup="dialog" aria-expanded="false"><span class="ico"></span>▾</button></span></h1>
         <p class="tag" data-i18n="tag"></p>
       </header>
 

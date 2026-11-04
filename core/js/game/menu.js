@@ -31,7 +31,7 @@ import { playDemo } from './demofilm.js';
 import { ICONS } from './icons.js';
 
 export const menuEl = $('menu'), pauseEl = $('pause'), resultsEl = $('results'), briefEl = $('brief');
-const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'city', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest', ...(paintballUnlocked() ? ['gun'] : [])] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'city', 'start'];
+const menuRows = () => touring() ? ['kind', 'tour', 'audio', 'lang', 'start'] : ['mode', 'kind', ...(roaming() ? [] : [...(TRACKS[game.trackIdx].open ? [] : ['laps']), 'weapons']), ...(roaming() ? ['quest', ...(paintballUnlocked() ? ['gun'] : [])] : []), 'ride', 'animals', ...(roaming() ? [] : ['track']), 'audio', 'lang', 'start'];
 // The arrows only go from Missions / Race / Tour to the missions, the routes or the ways to take the
 // tour, and on to the start button; everything else on the menu is for the mouse.
 export const navRows = () => ['kind', touring() ? 'tour' : roaming() ? 'quest' : 'track', 'start'];
@@ -180,8 +180,8 @@ export function buildMenu() {
   // the city picker: straight to another city's game
   $('cityBtn').querySelector('.ico').innerHTML = ICONS.city;
   $('menuBtn').querySelector('.ico').innerHTML = ICONS.menu;
-  $('cityBtn').addEventListener('click', () => openCityList($('cityList').classList.contains('hidden')));
-  document.addEventListener('pointerdown', e => { if (!$('cityOpts').contains(e.target)) openCityList(false); });
+  $('cityBtn').addEventListener('click', () => { sfx.ui(); openCityList(true); });
+  $('cityBack').addEventListener('click', () => { sfx.ui(); openCityList(false); });
   $('styleBtn').addEventListener('click', () => openStyleList($('styleList').classList.contains('hidden')));
   document.querySelectorAll('#styleList button').forEach(b => b.addEventListener('click', () => { openStyleList(false); game.style = b.dataset.style; sfx.ui(); saveSettings(); renderMenu(); }));
   document.addEventListener('pointerdown', e => { if (!$('styleOpts').contains(e.target)) openStyleList(false); });
@@ -194,7 +194,6 @@ export function buildMenu() {
     setKind(b.dataset.k);
   }));
   document.querySelectorAll('#weaponOpts button').forEach(b => b.addEventListener('click', () => setWeapons(b.dataset.w === '1')));
-  bindSoundButton($('soundBtn'));
   $('startBtn').addEventListener('click', () => startRace());
   $('briefBtn').addEventListener('click', () => beginQuest());
   $('briefMenuBtn').addEventListener('click', () => toMenu());
@@ -356,10 +355,10 @@ export function renderMenu() {
   $('playerCols').dataset.n = game.players;
   $('lapCount').textContent = game.laps === 1 ? t_('laps1') : t_('lapsN', { n: game.laps });
   const soundOn = soundEnabled();
-  for (const id of ['soundBtn', 'pauseSoundBtn']) {
-    $(id).title = t_('audio.hold');
-    $(id).setAttribute('aria-haspopup', 'dialog');
-  }
+  $('pauseSoundBtn').title = t_('audio.hold');
+  $('pauseSoundBtn').setAttribute('aria-haspopup', 'dialog');
+  $('cityBtn').title = t_('menu.city');
+  $('cityBtn').setAttribute('aria-label', t_('menu.city'));
   $('soundEffectsSetting').checked = sfx.sfxOn;
   $('backgroundMusicSetting').checked = game.gameMusic && sfx.musicOn;
   $('paintballSetting').checked = game.paintballUnlocked;
@@ -367,8 +366,6 @@ export function renderMenu() {
   $('gunModeSetting').checked = game.paintball && paintballUnlocked();
   $('gunMode').title = t_('menu.gunMode');
   $('gunModeSetting').setAttribute('aria-label', t_('menu.gunMode'));
-  $('soundBtn').textContent = t_(soundOn ? 'sound.on' : 'sound.off');
-  $('soundBtn').classList.toggle('on', soundOn);
   // the pause menu: plain line icons, no emoji
   const plain = k => t_(k).replace(/^[^\p{L}]+/u, '');
   const icon = d => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
@@ -383,9 +380,14 @@ export function renderMenu() {
   $('startBtn').textContent = t_(touch.on ? 'start.btn' : 'start.keys' + (touring() ? 'Tour' : questing() ? 'Quest' : roaming() ? 'Roam' : ''));
 }
 
-function openCityList(open) {
-  $('cityList').classList.toggle('hidden', !open);
+// The city picker: a page of its own over the menu, with a back arrow (and Esc, see input.js).
+export const cityListOpen = () => !$('cityDlg').classList.contains('hidden');
+export function openCityList(open) {
+  $('cityDlg').classList.toggle('hidden', !open);
+  $('menu').classList.toggle('picking', open);
   $('cityBtn').setAttribute('aria-expanded', String(open));
+  const on = $('cityList').querySelector('.on');
+  if (open && on) $('cityList').scrollTop = on.offsetTop - ($('cityList').clientHeight - on.offsetHeight) / 2;
 }
 
 function openLangList(open) {

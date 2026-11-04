@@ -37,7 +37,7 @@ const fill = (html, page, file) => html
 const listed = file => [...fs.readFileSync(path.join(ROOT, '_data', file), 'utf8').matchAll(/^- id: (\S+)\n {2}name: (.+)$/gm)]
   .map(([, id, name]) => ({ id, name: name.replace(/^["']|["']$/g, '') }));
 const playable = [...listed('cities.yml'), ...listed('sites.yml')].filter(c => fs.existsSync(path.join(ROOT, c.id, 'page.json')));
-const cityLinks = id => playable.map(c => `<a class="chip${c.id === id ? ' on' : ''}" role="option" href="../../${c.id}/play/">${c.name}</a>`).join('');
+const cityLinks = id => playable.map(c => `<a class="chip${c.id === id ? ' on' : ''}" href="../../${c.id}/play/">${c.name}</a>`).join('');
 
 for (const id of cities) {
   const dir = path.join(ROOT, id), play = path.join(dir, 'play');
