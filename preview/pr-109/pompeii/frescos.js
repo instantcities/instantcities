@@ -10,8 +10,9 @@
 //   masonry: the First Style of the House of the Faun, older: plaster modelled into blocks and
 //     painted like coloured marble, under a cornice of little teeth
 //   graffiti: the white walls of the Lupanare, scratched all over with names and tallies
-// Every wall is drawn at twice the size it is laid out in (1024 pixels a bay), so the thin lines of
-// its candelabra, garlands and borders stay sharp up close.
+// The walls, the bare masonry and the floors are drawn in a frame of 512 (256 a floor tile) on a canvas
+// SHARP times that (core/js/device.js: twice on a computer, as is on a phone), so the thin lines of
+// their candelabra, garlands and borders stay sharp up close.
 // Pictures, one each, spread over a stretch of wall (u 0..1 across it):
 //   menander: the poet Menander in his chair reading, on blue (House of Menander)
 //   venus: Venus lying in a pink shell on the sea, with two cupids (House of Venus in the Shell)
@@ -33,6 +34,7 @@
 //   alexander: the Alexander Mosaic, Alexander charging Darius in his chariot (House of the Faun)
 import * as THREE from 'three';
 import { photo } from '../core/js/inside/photo.js';
+import { SHARP } from '../core/js/device.js';
 
 export const PANEL = 3; // metres of wall a bay of painting covers
 export const TILE = 2; // metres of floor a tile of pattern covers
@@ -53,6 +55,9 @@ const texture = (key, w, h, draw, repeat = true) => {
   cache.set(key, t);
   return t;
 };
+
+// a drawing in its own frame, on a canvas SHARP times that
+const sharp = draw => (g, w, h, r) => { g.scale(SHARP, SHARP); draw(g, w / SHARP, h / SHARP, r); };
 
 // age: the plaster fading and come off here and there, showing the rubble behind
 function age(g, w, h, r, { flakes = 10, fade = 0.12 } = {}) {
@@ -99,12 +104,11 @@ function bird(g, x, y, s, c) {
 const FIELDS = { red: '#9b2b1f', yellow: '#d49a2e', black: '#1f1b17', white: '#e6dcc6', cupids: '#1f1b17' };
 
 export function wallTexture(style) {
-  // drawn in a 512 frame on a canvas twice that: finer lines, the same layout
-  const big = draw => (g, w, h, r) => { g.scale(2, 2); draw(g, w / 2, h / 2, r); };
-  if (style === 'garden') return texture('garden', 1024, 1024, big(gardenWall));
-  if (style === 'masonry') return texture('wall-masonry', 1024, 1024, big(masonryWall));
-  if (style === 'graffiti') return texture('wall-graffiti', 1024, 1024, big(graffitiWall));
-  return texture('wall-' + style, 1024, 1024, big((g, w, h, r) => {
+    const S = 512 * SHARP;
+  if (style === 'garden') return texture('garden', S, S, sharp(gardenWall));
+  if (style === 'masonry') return texture('wall-masonry', S, S, sharp(masonryWall));
+  if (style === 'graffiti') return texture('wall-graffiti', S, S, sharp(graffitiWall));
+  return texture('wall-' + style, S, S, sharp((g, w, h, r) => {
     const field = FIELDS[style], dark = style === 'black' || style === 'cupids' ? '#7d2218' : '#1f1b17';
     const socle = h * 0.8, frieze = h * 0.18; // canvas y: 0 at the top
     g.fillStyle = field; g.fillRect(0, 0, w, h);
@@ -240,7 +244,7 @@ function graffitiWall(g, w, h, r) {
 // of brick every so often, on a canvas RUBBLE_M metres square (repeated)
 export const RUBBLE_M = 3;
 export function rubbleTexture() {
-  return texture('rubble', 512, 512, (g, w, h, r) => {
+  return texture('rubble', 512 * SHARP, 512 * SHARP, sharp((g, w, h, r) => {
     const STONES = ['#8f7d66', '#7d6f5c', '#a08a6c', '#6f6558', '#8a8278', '#9b6a50', '#5e5650', '#b09878', '#847159'], BR = ['#a65d44', '#b3694d', '#94533d', '#9c6a50'];
     g.fillStyle = '#6a5d4c'; g.fillRect(0, 0, w, h);
     let y = 0, row = 0;
@@ -258,7 +262,7 @@ export function rubbleTexture() {
     }
     // (rows of the same height top and bottom, so it repeats up the wall without a seam)
     for (let k = 0; k < 1500; k++) { g.fillStyle = r() < 0.5 ? 'rgba(0,0,0,0.08)' : 'rgba(255,245,225,0.07)'; g.fillRect(r() * w, r() * h, 1 + r() * 3, 1 + r() * 2); }
-  });
+  }));
 }
 
 function gardenWall(g, w, h, r) {
@@ -382,7 +386,7 @@ const PICTURES = {
 // ------------------------------------------------------------------ floors
 
 export function floorTexture(kind) {
-  return texture('floor-' + kind, 256, 256, (g, w, h, r) => FLOORS[kind](g, w, h, r));
+  return texture('floor-' + kind, 256 * SHARP, 256 * SHARP, sharp((g, w, h, r) => FLOORS[kind](g, w, h, r)));
 }
 
 // tesserae a few pixels each, in one colour give or take
