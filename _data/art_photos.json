@@ -1,9 +1,21 @@
 {
+  "alexander-mosaic": {
+    "author": "Lucas",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_(6000_x_3730).jpg"
+  },
   "bathers-at-asnieres": {
     "author": "Georges Seurat",
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Baigneurs_a_Asnieres.jpg"
+  },
+  "cave-canem": {
+    "author": "Argo Navis",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cave_canem_mosaic,_House_of_the_Tragic_Poet,_Pompeii_20230623.jpg"
   },
   "childrens-games": {
     "author": "Pieter Bruegel the Elder",
@@ -11,11 +23,29 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg"
   },
+  "cupids-of-the-vettii": {
+    "author": "MentNFG",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa_dei_Vettii_WLM_25_002.jpg"
+  },
+  "dancing-faun": {
+    "author": "Unknown Hellenistic bronze-caster",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bronze_Statuette_of_Dancing_Faun,_c._49-1_BC,_from_House_of_the_Faun,_Pompeii_(48451568781).jpg"
+  },
   "david": {
     "author": "Jörg Bittner Unna",
     "license": "CC BY 3.0",
     "license_url": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg"
+  },
+  "death-of-pentheus": {
+    "author": "Unknown Roman painter",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pompeii_-_Casa_dei_Vettii_-_Pentheus.jpg"
   },
   "ghent-altarpiece": {
     "author": "Hubert and Jan van Eyck",
@@ -35,6 +65,12 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg"
   },
+  "lararium-of-vetutius-placidus": {
+    "author": "Chfono",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pompeji_Thermopolium_Vetutius_Placidus_2_FoNo.jpg"
+  },
   "las-meninas": {
     "author": "Diego Velázquez",
     "license": "Public domain",
@@ -53,11 +89,23 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
   },
+  "menander": {
+    "author": "Jebulon",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Menander_fresco_Pompeii_Italy.jpg"
+  },
   "mona-lisa": {
     "author": "Leonardo da Vinci",
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg"
+  },
+  "narcissus": {
+    "author": "Benjamín Núñez González",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa_di_Ottavio_Quartione,_Pompeya,_Italia,_2016_18.jpg"
   },
   "nefertiti-bust": {
     "author": "Philip Pikart",
@@ -95,11 +143,23 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Botticelli-primavera.jpg"
   },
+  "pyramus-and-thisbe": {
+    "author": "Yair Haklai",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_fresco_in_Casa_di_Ottavio_Quartione_(Pompeii).jpg"
+  },
   "rosetta-stone": {
     "author": "Hans Hillewaert",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG"
+  },
+  "sacrifice-of-iphigenia": {
+    "author": "Unknown Roman painter, after a Greek painting",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:MANNapoli_9112_Sacrifice_Iphigenia_painting.jpg"
   },
   "saturn-devouring-his-son": {
     "author": "Francisco de Goya",
@@ -298,6 +358,12 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Front_views_of_the_Venus_de_Milo.jpg"
+  },
+  "venus-in-the-shell": {
+    "author": "Tyler Bell",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Venus_in_the_Shell,_Fresco_(43004752122).jpg"
   },
   "venus-of-urbino": {
     "author": "Titian",

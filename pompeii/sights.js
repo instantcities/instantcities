@@ -1,7 +1,8 @@
 // Pompeii's sights: ride up to one while exploring and a card tells you what you are looking at.
 // Each { id, emoji, x, z (game metres, where the card counts from), r (how close you have to be, game
 // metres), text: { <lang>: { name, text } }, arrival? ({ x, z, look: [x, z] }: where a link to it, ?at=<id>,
-// from its page on the site, puts you, looking at look; open: stand there even where the map has a building) }. In English and Dutch; the other languages show the English.
+// from its page on the site, puts you, looking at look; open: stand there even where the map has a building), goIn? (its
+// card has a Go inside button that takes you to its arrival: a place with walls round it) }. In English and Dutch; the other languages show the English.
 import { HOUSE_SIGHTS } from './houses.js';
 
 export const SIGHTS = [
@@ -23,7 +24,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'basilica', emoji: '⚖️', x: -176, z: 226, r: 60,
+    id: 'basilica', goIn: true, emoji: '⚖️', x: -176, z: 226, r: 60,
     arrival: { x: -170, z: 226, look: [-230, 226], open: true },
     text: {
       en: { name: 'The Basilica', text: 'The law court and exchange, on the south-west corner of the Forum, about 150 BC. It is the oldest basilica we know of, and one of the biggest buildings in town.' },
@@ -31,7 +32,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'apollo', emoji: '☀️', x: -183, z: 160, r: 50,
+    id: 'apollo', goIn: true, emoji: '☀️', x: -183, z: 160, r: 50,
     arrival: { x: -180, z: 180, look: [-183, 150], open: true },
     text: {
       en: { name: 'Temple of Apollo', text: 'The oldest temple in Pompeii, from the 6th century BC, standing in a court with a colonnade of 48 columns. Apollo was the town’s protector. The statues here are copies.' },
@@ -46,7 +47,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'stabian-baths', emoji: '🛁', x: 148, z: 52, r: 60,
+    id: 'stabian-baths', goIn: true, emoji: '🛁', x: 148, z: 52, r: 60,
     arrival: { x: 148, z: 52, look: [148, 0], open: true },
     text: {
       en: { name: 'The Stabian Baths', text: 'The oldest public baths in Pompeii, with a gymnasium, a swimming pool and rooms of different heat. Most citizens went most days, and the stucco ceilings are still there.' },
@@ -54,7 +55,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'grand-theatre', emoji: '🎭', x: 237, z: 214, r: 70,
+    id: 'grand-theatre', goIn: true, emoji: '🎭', x: 237, z: 214, r: 70,
     arrival: { x: 243, z: 224, look: [220, 183], open: true },
     text: {
       en: { name: 'The Great Theatre', text: 'A Greek-style theatre cut into the hillside in the 2nd century BC, for about 5,000 people. The smaller Odeon beside it was roofed, for concerts and readings.' },
@@ -70,7 +71,7 @@ export const SIGHTS = [
     },
   },
   {
-    id: 'amphitheatre', emoji: '🏟️', x: 952, z: -126, r: 120,
+    id: 'amphitheatre', goIn: true, emoji: '🏟️', x: 952, z: -126, r: 120,
     arrival: { x: 952, z: -126, look: [952, -200], open: true },
     text: {
       en: { name: 'The Amphitheatre', text: 'Built about 70 BC, the oldest stone amphitheatre there is, for some 20,000 people. In AD 59 a fight between the fans of Pompeii and Nuceria here ended in a riot, and Rome shut the arena for ten years.' },

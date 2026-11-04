@@ -7,6 +7,7 @@
 // and 80 a storey, like js/italian.js's; v picks the variant, so neighbours differ.
 
 import * as THREE from 'three';
+import { SHARP } from './device.js';
 
 const STONE = 'rgba(255,248,232,0.5)', SHADOW = 'rgba(40,28,16,0.35)';
 const DADOS = ['rgba(120,28,18,0.55)', 'rgba(40,22,18,0.5)', 'rgba(150,50,28,0.5)'];
@@ -203,16 +204,18 @@ export function dryGround(g, w, h, r) {
 
 // plaster and dado colours of the wall variants: cream, ochre, Pompeian red, yellow, grey-white, and
 // one that has lost nearly all of it
+// one that has lost nearly all of it; fields: the colours of the painted fields; net: a stretch of
+// opus reticulatum in the masonry
 const RUIN_WALLS = [
-  { plaster: '#d9c9a2', dado: '#8e2f22', cover: 0.62 },
-  { plaster: '#cf9d52', dado: '#4b2f25', cover: 0.55 },
-  { plaster: '#a8402c', dado: '#58301f', cover: 0.5 },
-  { plaster: '#e0cd8a', dado: '#9a4a30', cover: 0.6 },
-  { plaster: '#d2c9b4', dado: '#6a3a30', cover: 0.4 },
-  { plaster: '#d4c39a', dado: '#6a4a38', cover: 0.12 },
+  { plaster: '#d9c9a2', dado: '#8e2f22', cover: 0.62, fields: ['#9b2b1f', '#c99a3e'] },
+  { plaster: '#cf9d52', dado: '#4b2f25', cover: 0.55, fields: ['#c9923a', '#2a2420'], net: true },
+  { plaster: '#a8402c', dado: '#58301f', cover: 0.5, fields: ['#9b2b1f', '#2a2420'] },
+  { plaster: '#e0cd8a', dado: '#9a4a30', cover: 0.6, fields: ['#d49a2e', '#e6dcc6'] },
+  { plaster: '#d2c9b4', dado: '#6a3a30', cover: 0.4, fields: ['#e6dcc6', '#9b2b1f'], net: true },
+  { plaster: '#d4c39a', dado: '#6a4a38', cover: 0.12, fields: ['#b0703a'], net: true },
 ];
 export const RUIN_VARIANTS = RUIN_WALLS.length;
-export const RUIN_TILE = [9, 6]; // metres across and up that a ruin texture covers: 512 by 342 px, 57 px to a metre
+export const RUIN_TILE = [9, 6]; // metres across and up that a ruin texture covers: 512 by 342 px, 57 px to a metre (times SHARP)
 export const RUIN_CAP = 0.985; // the v of a wall's broken top: a strip of bare stone at the top of the texture
 const STONES = ['#8f7d66', '#7d6f5c', '#a08a6c', '#6f6558', '#8a8278', '#9b6a50', '#5e5650', '#b09878', '#847159'];
 
@@ -227,9 +230,10 @@ function blob(g, cx, cy, rx, ry, rnd) {
   g.closePath();
 }
 
-// How one variant of ruined wall is drawn on a 512 by 288 canvas: bare masonry all over, plaster
-// where it has held, and with `door` a doorway between brick pilasters (or `shop`: the wide opening
-// of a shop with its counter) in the middle of it.
+// How one variant of ruined wall is drawn on a 512 by 342 canvas: bare masonry all over (rubble with
+// bands of brick, here and there a net of tufa blocks), plaster where it has held, painted in fields
+// of colour, and with `door` a doorway between brick pilasters (or `shop`: the wide opening of a
+// shop with its counter) in the middle of it, election notices painted beside it.
 export function ruinPainter(variant, kind, seed) {
   const V = RUIN_WALLS[variant % RUIN_WALLS.length], rnd = lcg(seed * 7919 + variant * 101 + (kind === 'door' ? 3 : kind === 'shop' ? 5 : 0));
   return g => {
@@ -253,6 +257,20 @@ export function ruinPainter(variant, kind, seed) {
         x += sw;
       }
       y += rh; row++;
+    }
+    // on some walls a stretch of opus reticulatum: square tufa blocks set on the diagonal, in a net,
+    // between quoins of brick
+    if (V.net) {
+      const x0 = rnd() * W * 0.4, x1 = x0 + W * (0.3 + rnd() * 0.3), y0 = 40 + rnd() * 40, s = 11;
+      g.save(); g.beginPath(); g.rect(x0, y0, x1 - x0, H - y0); g.clip();
+      g.fillStyle = '#6a5d4c'; g.fillRect(x0, y0, x1 - x0, H - y0);
+      for (let yy = y0 - s; yy < H + s; yy += s / 2) for (let xx = x0 - s + ((Math.round((yy - y0) / (s / 2)) % 2) * s) / 2; xx < x1 + s; xx += s) {
+        const v = (rnd() - 0.5) * 26;
+        g.fillStyle = `rgb(${168 + v},${150 + v},${118 + v * 0.8})`;
+        g.beginPath(); g.moveTo(xx, yy - s / 2 + 1); g.lineTo(xx + s / 2 - 1, yy); g.lineTo(xx, yy + s / 2 - 1); g.lineTo(xx - s / 2 + 1, yy); g.closePath(); g.fill();
+      }
+      g.restore();
+      for (const x of [x0, x1 - 16]) for (let yy = y0; yy < H; yy += 6) { g.fillStyle = BRICKS[Math.floor(rnd() * 4)]; g.fillRect(x + ((yy / 6) % 2 ? 0 : 4), yy, 12, 5); }
     }
     // the plaster: blobs, a clip of their union, painted inside
     g.save();
@@ -278,8 +296,36 @@ export function ruinPainter(variant, kind, seed) {
     g.globalAlpha = 1;
     g.fillStyle = 'rgba(255,245,225,0.35)';
     g.fillRect(0, H * 0.8 - 2, W, 3);
-    g.strokeStyle = 'rgba(255,248,232,0.4)'; g.lineWidth = 2;
-    for (let px = 14 + rnd() * 30; px < W - 40; px += 110 + rnd() * 40) g.strokeRect(px, H * 0.3, 90 + rnd() * 16, H * 0.42);
+    // what is left of the painting: big fields of colour between narrow bands, each band with a thin
+    // candelabrum, each field with its border and, now and then, a small picture or a bird in it;
+    // a pale frieze over them with a line of painted architecture
+    const field = V.fields, top = H * 0.26, bottom = H * 0.78;
+    g.fillStyle = 'rgba(240,228,200,0.55)'; g.fillRect(0, top - 22, W, 20);
+    g.strokeStyle = 'rgba(125,34,24,0.55)'; g.lineWidth = 1;
+    for (let x = 6; x < W; x += 26) { g.strokeRect(x, top - 18, 12, 12); g.beginPath(); g.moveTo(x + 6, top - 18); g.lineTo(x + 6, top - 22); g.stroke(); }
+    for (let px = rnd() * 20; px < W; ) {
+      const fw = 84 + rnd() * 30;
+      g.fillStyle = field[Math.floor(rnd() * field.length)];
+      g.globalAlpha = 0.8; g.fillRect(px, top, fw, bottom - top); g.globalAlpha = 1;
+      g.strokeStyle = 'rgba(245,232,196,0.6)'; g.lineWidth = 1.5; g.strokeRect(px + 7, top + 7, fw - 14, bottom - top - 14);
+      g.strokeStyle = 'rgba(245,232,196,0.35)'; g.lineWidth = 0.8; g.strokeRect(px + 11, top + 11, fw - 22, bottom - top - 22);
+      const cx = px + fw / 2, cy = (top + bottom) / 2, pick = rnd();
+      if (pick < 0.3) { // a small picture: a pale square with a figure
+        g.fillStyle = 'rgba(232,220,190,0.85)'; g.fillRect(cx - 13, cy - 15, 26, 30);
+        g.fillStyle = ['#5a7a9a', '#9b2b1f', '#6a8a5a'][Math.floor(rnd() * 3)]; g.fillRect(cx - 3, cy - 4, 6, 14);
+        g.fillStyle = '#c98a5e'; g.beginPath(); g.arc(cx, cy - 7, 3, 0, Math.PI * 2); g.fill();
+      } else if (pick < 0.55) { // a bird on a twig, or a flying figure
+        g.fillStyle = 'rgba(238,228,205,0.8)'; g.beginPath(); g.ellipse(cx, cy, 6, 3.5, -0.3, 0, Math.PI * 2); g.fill();
+        g.beginPath(); g.arc(cx + 5, cy - 3, 2.4, 0, Math.PI * 2); g.fill();
+      }
+      // the narrow dark band after the field, with its candelabrum
+      const bw = 12 + rnd() * 6, bx = px + fw;
+      g.fillStyle = 'rgba(31,27,23,0.75)'; g.fillRect(bx, top, bw, bottom - top);
+      g.strokeStyle = 'rgba(212,176,96,0.7)'; g.lineWidth = 1;
+      g.beginPath(); g.moveTo(bx + bw / 2, top + 8); g.lineTo(bx + bw / 2, bottom - 6); g.stroke();
+      for (let yy = top + 16; yy < bottom - 10; yy += 20) { g.beginPath(); g.ellipse(bx + bw / 2, yy, 4, 1.5, 0, 0, Math.PI * 2); g.stroke(); }
+      px = bx + bw;
+    }
     g.fillStyle = 'rgba(0,0,0,0.12)'; // dirt along the foot, and damp
     g.fillRect(0, H * 0.93, W, H);
     for (let k = 0; k < 120; k++) { // chips where the plaster has come away: bare stone showing through
@@ -316,6 +362,22 @@ export function ruinPainter(variant, kind, seed) {
       }
       g.fillStyle = '#9b9283';
       g.fillRect(left - 10, H - 4, dw + 20, 4); // the threshold
+      // beside the door, painted on a whitewashed patch in red capitals, an election notice: a name and
+      // the office, and who asks you to vote for him (the town's walls are full of them)
+      const NAMES = ['C IVLIVM POLYBIVM', 'CN HELVIVM SABINVM', 'M EPIDIVM SABINVM', 'A VETTIVM FIRMVM', 'L CEIVM SECVNDVM', 'M HOLCONIVM PRISCVM', 'Q POSTVMIVM MODESTVM'];
+      const OFFICE = ['AED', 'IIVIR I D', 'AED D R P'], ASK = ['O V F', 'ROGAT', 'FACITE', 'VICINI ROGANT'];
+      for (const side of [-1, 1]) {
+        if (rnd() < 0.35) continue;
+        const nw = 120 + rnd() * 30, nx = side < 0 ? left - 24 - nw : left + dw + 24, ny = H * (0.3 + rnd() * 0.22);
+        if (nx < 4 || nx + nw > W - 4) continue;
+        g.fillStyle = 'rgba(236,228,206,0.82)'; g.fillRect(nx, ny, nw, 40);
+        g.fillStyle = 'rgba(150,32,22,0.88)'; g.textAlign = 'center'; g.textBaseline = 'middle';
+        g.font = 'bold 12px serif'; g.fillText(NAMES[Math.floor(rnd() * NAMES.length)], nx + nw / 2, ny + 12, nw - 8);
+        g.font = '10px serif'; g.fillText(`${OFFICE[Math.floor(rnd() * OFFICE.length)]} · ${ASK[Math.floor(rnd() * ASK.length)]}`, nx + nw / 2, ny + 29, nw - 8);
+      }
+      // and scratched lower down, by passers-by
+      g.strokeStyle = 'rgba(40,30,20,0.45)'; g.lineWidth = 0.7; g.font = '9px serif'; g.fillStyle = 'rgba(40,30,20,0.5)';
+      for (let k = 0; k < 4; k++) g.fillText(['VALE', 'FELIX', 'SALVE', 'HIC FVI', 'IIII'][Math.floor(rnd() * 5)], left - 40 + rnd() * (dw + 80), H * (0.62 + rnd() * 0.12));
     }
     // the top: a strip of bare stone (the broken top of a wall is the one row of it, so it varies along, not up)
     for (let x = 0; x < W; ) {
@@ -418,8 +480,10 @@ export class WallBatch {
 // the texture of one variant of a ruin's wall, plain or with a doorway or a shop's opening
 export function ruinTexture(variant, kind = '', seed = 1) {
   const c = document.createElement('canvas');
-  c.width = 512; c.height = 342;
-  ruinPainter(variant, kind, seed)(c.getContext('2d'));
+  c.width = 512 * SHARP; c.height = 342 * SHARP; // drawn in a 512 by 342 frame, finer on a computer
+  const g = c.getContext('2d');
+  g.scale(SHARP, SHARP);
+  ruinPainter(variant, kind, seed)(g);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.wrapS = THREE.RepeatWrapping;

@@ -43,6 +43,27 @@ museums:
   sint-baafs:
     name: Cathédrale Saint-Bavon
     blurb: La cathédrale de Gand, où se trouve le retable des frères Van Eyck.
+  casa-del-fauno:
+    name: La Maison du Faune
+    blurb: 'La plus grande maison de Pompéi : le faune de bronze dans l’atrium, la mosaïque d’Alexandre entre les jardins.'
+  casa-dei-vettii:
+    name: La Maison des Vettii
+    blurb: La maison de deux affranchis, peinte de haut en bas dans les dernières années de la ville.
+  casa-del-poeta-tragico:
+    name: La Maison du Poète tragique
+    blurb: Une maison moyenne, le chien à sa porte et des peintures de mythes grecs autour de l’atrium.
+  casa-del-menandro:
+    name: La Maison de Ménandre
+    blurb: L’une des plus belles maisons de la ville, qui doit son nom au poète peint dans son jardin.
+  thermopolium:
+    name: Le thermopolium de Vetutius Placidus
+    blurb: Un bar de rue sur la Via dell’Abbondanza, son autel peint derrière le comptoir.
+  casa-di-octavius-quartio:
+    name: La Maison d’Octavius Quartio
+    blurb: Un long jardin traversé d’un canal, et deux histoires d’amour peintes près du lit de table en haut.
+  casa-della-venere-in-conchiglia:
+    name: La Maison de Vénus à la coquille
+    blurb: Vénus peinte sur le mur du jardin, aussi grande que le mur.
 pieces:
   mona-lisa:
     title: La Joconde
@@ -611,3 +632,115 @@ pieces:
     - Peu de tableaux ont connu plus d’aventures. Napoléon emporta les panneaux centraux au Louvre ; les volets furent vendus et accrochés à Berlin jusqu’à ce que le traité de Versailles les ramène en 1920. En 1934, le panneau des Juges intègres fut volé, et il n’a jamais été retrouvé. Les nazis emportèrent le reste dans une mine de sel en Autriche, où les Monuments Men le retrouvèrent en 1945.
     - Une restauration depuis 2012 a retiré des siècles de repeints, et en 2020 l’Agneau a de nouveau regardé au loin avec le visage étrangement humain que lui avaient donné les Van Eyck.
 
+  alexander-mosaic:
+    title: La mosaïque d’Alexandre
+    artist: Mosaïste inconnu, d’après une peinture grecque
+    date: v. 100 av. J.-C.
+    medium: Mosaïque d’environ un million et demi de tesselles
+    room: L’exèdre entre les deux jardins (une copie ; l’original est au Musée archéologique national de Naples)
+    blurb: Alexandre le Grand chargeant le roi perse Darius à la bataille d’Issos, en un million et demi de petites pierres.
+    text:
+    - Alexandre arrive à gauche sur son cheval Bucéphale, tête nue, et transperce de sa lance un cavalier perse. Au milieu, Darius, sur son char, tend la main vers lui tandis que son cocher fouette les chevaux pour fuir. C’est la bataille d’Issos, en 333 av. J.-C., ou celle de Gaugamèles deux ans plus tard.
+    - La mosaïque copie une peinture grecque perdue, avec environ un million et demi de pierres, certaines de quelques millimètres, en quatre couleurs seulement. Elle couvrait le sol d’une salle ouverte entre les deux jardins de la maison. Elle fut levée en 1843 et portée à Naples ; une copie est posée à sa place dans la maison.
+  dancing-faun:
+    title: Le Faune dansant
+    artist: Bronzier hellénistique inconnu
+    date: IIe siècle av. J.-C.
+    medium: Bronze
+    size: 71 cm de haut
+    room: Dans le bassin de l’atrium principal (une copie ; l’original est au Musée archéologique national de Naples)
+    blurb: Un petit satyre de bronze qui danse les bras levés, et qui a donné son nom à la maison.
+    text:
+    - Un faune, satyre des bois à queue de chèvre et oreilles pointues, danse sur la pointe des pieds, les bras levés, la tête renversée, en claquant des doigts. Il se dressait au bord du bassin de l’atrium principal, où tous ceux qui entraient de la rue le voyaient en premier.
+    - Il a été trouvé en 1830, et la maison porte son nom depuis. Le bronze est à Naples ; une copie se dresse dans le bassin.
+  cupids-of-the-vettii:
+    title: Les Amours au travail
+    artist: Peintres romains inconnus
+    date: v. 62–79 apr. J.-C.
+    medium: Fresque
+    room: La salle à manger noire donnant sur le jardin
+    blurb: 'De petits Amours ailés qui font les métiers de la ville : parfum, or, vin, drap, et une course de chars.'
+    text:
+    - Autour des murs noirs de la salle à manger court une étroite bande rouge, où de petits Amours ailés, avec quelques Psychés aux ailes de papillon, font le travail de la ville. Ils cueillent des fleurs pour en presser du parfum, battent et pèsent l’or, foulent le raisin et vendent le vin, lavent le drap dans une foulerie et font la course sur des chars tirés par des antilopes.
+    - La peinture date des dernières années de Pompéi, quand les frères Vettius firent refaire la maison après le séisme de 62. Elle est toujours au mur, sous le toit remis sur la salle.
+  death-of-pentheus:
+    title: La Mort de Penthée
+    artist: Peintre romain inconnu
+    date: v. 62–79 apr. J.-C.
+    medium: Fresque
+    room: La chambre de Penthée, donnant sur le jardin
+    blurb: Le roi Penthée de Thèbes mis en pièces par les femmes qui suivaient Bacchus, sa propre mère parmi elles.
+    text:
+    - Penthée, roi de Thèbes, avait interdit le culte du nouveau dieu Bacchus et monta sur la montagne épier les femmes qui dansaient pour lui. Elles le trouvèrent. Sur la peinture, il est tombé à genoux au milieu et les femmes se jettent sur lui des deux côtés ; celle qui le tire par les cheveux est sa mère Agavé, qui dans sa folie l’a pris pour un lion.
+    - 'C’est l’un des trois grands tableaux d’une petite chambre sur le jardin, tous de mythes cruels : à côté, Hercule enfant étrangle les serpents envoyés pour le tuer, et Dircé est attachée à un taureau.'
+  cave-canem:
+    title: Cave canem
+    local: Attention au chien
+    artist: Mosaïste romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Mosaïque de pierres noires et blanches
+    room: À la porte d’entrée, dans le sol du vestibule
+    blurb: 'Un chien noir à la chaîne, crocs dehors, et les mots CAVE CANEM : attention au chien.'
+    text:
+    - Un chien noir au collier rouge tire sur sa chaîne sur un fond blanc, crocs dehors, oreilles couchées. Dessous est écrit CAVE CANEM, attention au chien. Les invités l’enjambaient en entrant de la rue ; c’était un avertissement et une plaisanterie à la fois.
+    - Il est toujours en place à la porte de la maison, derrière une vitre. D’autres maisons de Pompéi avaient aussi un chien à leur porte, et le moulage d’un vrai, enchaîné dans la maison d’Orphée, fut fait en 1874.
+  sacrifice-of-iphigenia:
+    title: Le Sacrifice d’Iphigénie
+    artist: Peintre romain inconnu, d’après une peinture grecque
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Le jardin à l’arrière (déposée au Musée archéologique national de Naples ; accrochée ici comme elle était)
+    blurb: La fille du roi Agamemnon portée à l’autel, pour que le vent mène la flotte grecque à Troie.
+    text:
+    - 'La flotte grecque ne pouvait partir pour Troie : la déesse Artémis retenait le vent tant que le roi Agamemnon n’aurait pas sacrifié sa fille Iphigénie. Deux hommes la portent à l’autel, les bras levés au ciel. À droite le prêtre Calchas tient le couteau ; à gauche Agamemnon se détourne et se cache le visage dans son manteau. En haut, Artémis envoie déjà une biche mourir à sa place.'
+    - La peinture ornait le mur du petit jardin à l’arrière de la maison, face à l’autel domestique. Elle copierait un célèbre tableau grec de Timanthe, loué dans l’Antiquité pour avoir caché la douleur du père au lieu de la peindre. Elle fut portée à Naples peu après la fouille de la maison en 1824.
+  menander:
+    title: Ménandre
+    artist: Peintre romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Une exèdre au fond du jardin
+    blurb: Le poète comique grec Ménandre dans son fauteuil, lisant, son nom écrit sous lui.
+    text:
+    - Le poète grec Ménandre, qui écrivait à Athènes vers 300 av. J.-C. des comédies sur des familles ordinaires, des amoureux, des esclaves et des avares, est assis dans un fauteuil à haut dossier, en robe claire, une couronne de lierre sur la tête, un rouleau ouvert sur les genoux. Sur la bande sous lui est écrit son nom, avec la mention qu’il fut le premier à écrire la Comédie nouvelle.
+    - Il est peint au fond d’une petite pièce ouverte au bout du jardin, face au portique, peut-être à côté du portrait perdu d’un autre poète. La maison a pris son nom quand Amedeo Maiuri la fouilla à partir de 1926.
+  lararium-of-vetutius-placidus:
+    title: L’autel du thermopolium
+    artist: Peintre romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Sur le mur derrière le comptoir
+    blurb: 'L’autel domestique d’un bar de rue : Mercure pour le profit, Bacchus pour le vin, le génie de la maison et deux serpents.'
+    text:
+    - Chaque maison romaine avait un autel pour ses esprits protecteurs, les lares, et ici il est peint comme un petit temple à fronton sur le mur derrière le comptoir. Au milieu, le génie du maître de maison verse une offrande, entre deux lares dansants tenant des cornes à boire. À gauche se tient Mercure, dieu du commerce et du profit, avec sa bourse ; à droite Bacchus, dieu du vin, avec sa panthère. En bas, deux serpents, protecteurs de la maison, glissent vers un autel.
+    - Lucius Vetutius Placidus, à qui était le bar, le voyait de là où il servait. Il est toujours sur le mur où il a été peint.
+  pyramus-and-thisbe:
+    title: Pyrame et Thisbé
+    artist: Peintre romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Près du lit de table en plein air, en haut du jardin
+    blurb: 'Deux jeunes amants de Babylone morts près d’une source, chacun croyant l’autre mort : Roméo et Juliette, seize siècles plus tôt.'
+    text:
+    - 'Pyrame et Thisbé s’aimaient à travers une fente du mur entre les maisons de leurs parents, et se donnèrent rendez-vous la nuit près d’un tombeau hors de Babylone. Thisbé arriva la première, vit une lionne et s’enfuit, perdant son voile. Pyrame trouva le voile déchiré et sanglant, la crut morte et se perça de son épée. Sur la peinture, Thisbé est revenue : Pyrame se meurt, et elle lève l’épée pour le suivre.'
+    - Le poète romain Ovide raconta l’histoire dans ses Métamorphoses, quelques décennies avant qu’elle soit peinte ici, près du lit où la famille mangeait dehors l’été. De l’autre côté du lit se trouve Narcisse.
+  narcissus:
+    title: Narcisse
+    artist: Peintre romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Près du lit de table en plein air, en haut du jardin
+    blurb: Le beau jeune chasseur tombé amoureux de son propre visage dans une source.
+    text:
+    - Narcisse était si beau que tous tombaient amoureux de lui, et il les repoussait tous, entre autres la nymphe Écho, qui dépérit jusqu’à n’être plus qu’une voix. Pour le punir, il fut condamné à s’éprendre de son reflet dans une source, et il resta à le regarder jusqu’à sa mort ; une fleur poussa là où il était.
+    - 'Ici il est assis sur un rocher, sa lance de chasse en main, les yeux dans l’eau. Le tableau fait face à Pyrame et Thisbé de l’autre côté du lit de table : deux histoires d’amour qui finissent mal, à regarder en dînant, avec le long canal du jardin en contrebas.'
+  venus-in-the-shell:
+    title: Vénus à la coquille
+    artist: Peintre romain inconnu
+    date: Ier siècle apr. J.-C.
+    medium: Fresque
+    room: Le mur du fond du jardin
+    blurb: Vénus, déesse protectrice de Pompéi, couchée dans une coquille rose sur une mer bleue, entre deux Amours.
+    text:
+    - Vénus est couchée nue sur le côté dans une grande coquille rose qui flotte sur la mer, son manteau rouge gonflé derrière elle comme une voile, un éventail à la main et des bijoux d’or aux bras et au cou. De chaque côté vole un Amour. Vénus était la déesse protectrice de Pompéi, dont le nom romain complet était Colonia Cornelia Veneria Pompeianorum.
+    - La peinture couvre le mur du fond du jardin, entre des jardins peints avec des oiseaux, des fontaines et une statue de Mars, si bien que le vrai jardin semblait se prolonger dans le jardin peint et dans la mer. La maison fut découverte en 1952, endommagée par les bombes alliées tombées sur Pompéi en 1943.

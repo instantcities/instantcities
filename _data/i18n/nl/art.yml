@@ -43,6 +43,27 @@ museums:
   sint-baafs:
     name: Sint-Baafskathedraal
     blurb: De kathedraal van Gent, thuis van het altaarstuk van de gebroeders Van Eyck.
+  casa-del-fauno:
+    name: Het Huis van de Faun
+    blurb: 'Het grootste huis van Pompeii: de bronzen faun in het atrium, het Alexandermozaïek tussen de tuinen.'
+  casa-dei-vettii:
+    name: Het Huis van de Vettii
+    blurb: Het huis van twee vrijgelaten slaven, in de laatste jaren van de stad helemaal beschilderd.
+  casa-del-poeta-tragico:
+    name: Het Huis van de Tragische Dichter
+    blurb: Een middelgroot huis met de hond aan de deur en schilderingen van Griekse mythen rond het atrium.
+  casa-del-menandro:
+    name: Het Huis van Menander
+    blurb: Een van de deftigste huizen van de stad, genoemd naar de dichter die in de tuin geschilderd staat.
+  thermopolium:
+    name: Het Thermopolium van Vetutius Placidus
+    blurb: Een straatkroeg aan de Via dell’Abbondanza, met het huisaltaar achter de toog geschilderd.
+  casa-di-octavius-quartio:
+    name: Het Huis van Octavius Quartio
+    blurb: Een lange tuin met een kanaal, en twee liefdesverhalen geschilderd bij het ligbed bovenaan.
+  casa-della-venere-in-conchiglia:
+    name: Het Huis van de Venus in de Schelp
+    blurb: Venus, zo groot als de muur, geschilderd op de tuinmuur.
 pieces:
   mona-lisa:
     title: Mona Lisa
@@ -593,3 +614,115 @@ pieces:
     - Weinig schilderijen hebben meer avonturen beleefd. Napoleon nam de middenpanelen mee naar het Louvre; de vleugels werden verkocht en hingen in Berlijn tot het Verdrag van Versailles ze in 1920 terugbracht. In 1934 werd het paneel van de Rechtvaardige Rechters gestolen, en het is nooit teruggevonden. De nazi’s voerden de rest weg naar een zoutmijn in Oostenrijk, waar de Monuments Men het in 1945 vonden.
     - Een restauratie sinds 2012 haalde eeuwen overschildering weg, en in 2020 keek het Lam weer naar buiten met het vreemd menselijke gezicht dat de Van Eycks het gaven.
 
+  alexander-mosaic:
+    title: Het Alexandermozaïek
+    artist: Onbekende mozaïekmaker, naar een Grieks schilderij
+    date: ca. 100 v.Chr.
+    medium: Mozaïek van zo’n anderhalf miljoen steentjes
+    room: De exedra tussen de twee tuinen (een kopie; het origineel is in het Archeologisch Museum van Napels)
+    blurb: Alexander de Grote die de Perzische koning Darius aanvalt in de slag bij Issus, in anderhalf miljoen steentjes.
+    text:
+    - Alexander komt van links aangereden op zijn paard Bucephalus, blootshoofds, en spietst een Perzische ruiter aan zijn speer. In het midden strekt Darius in zijn strijdwagen zijn hand naar hem uit, terwijl zijn wagenmenner de paarden omzweept om te vluchten. Het is de slag bij Issus van 333 v.Chr., of die bij Gaugamela twee jaar later.
+    - Het mozaïek is een kopie van een verloren Grieks schilderij, gelegd met zo’n anderhalf miljoen steentjes van soms maar een paar millimeter, in vier kleuren. Het lag op de vloer van een open zaal tussen de twee tuinen van het huis. In 1843 werd het opgetild en naar Napels gebracht; in het huis ligt nu een kopie.
+  dancing-faun:
+    title: De dansende faun
+    artist: Onbekende Hellenistische bronsgieter
+    date: 2e eeuw v.Chr.
+    medium: Brons
+    size: 71 cm hoog
+    room: In het bassin van het grote atrium (een kopie; het origineel is in het Archeologisch Museum van Napels)
+    blurb: Een kleine bronzen sater die danst met zijn armen omhoog, en die het huis zijn naam gaf.
+    text:
+    - Een faun, een bossater met een geitenstaartje en puntoren, danst op zijn tenen, armen omhoog, hoofd achterover, knippend met zijn vingers. Hij stond aan de rand van het regenwaterbassin in het grote atrium, waar iedereen die van de straat binnenkwam hem eerst zag.
+    - Hij werd gevonden in 1830, en sindsdien heet het huis naar hem. Het brons staat in Napels; in het bassin staat een kopie.
+  cupids-of-the-vettii:
+    title: De cupido’s aan het werk
+    artist: Onbekende Romeinse schilders
+    date: ca. 62–79 n.Chr.
+    medium: Fresco
+    room: De zwarte eetzaal aan de tuin
+    blurb: 'Kleine gevleugelde cupido’s die de ambachten van de stad uitoefenen: parfum, goud, wijn, laken, en een wagenrace.'
+    text:
+    - Rond de zwarte wanden van de eetzaal loopt een smalle rode band, en daarin doen kleine gevleugelde cupido’s, met een paar psychen met vlindervleugels, het werk van de stad. Ze plukken bloemen en persen er parfum van, kloppen en wegen goud, treden druiven en verkopen de wijn, wassen laken in een wasserij en rijden een race in wagens getrokken door antilopen.
+    - De schildering komt uit de laatste jaren van Pompeii, toen de broers Vettius het huis na de aardbeving van 62 lieten opknappen. Ze zit nog op de muur, onder het dak dat weer over de zaal is gelegd.
+  death-of-pentheus:
+    title: De dood van Pentheus
+    artist: Onbekende Romeinse schilder
+    date: ca. 62–79 n.Chr.
+    medium: Fresco
+    room: De kamer van Pentheus, aan de tuin
+    blurb: Koning Pentheus van Thebe, verscheurd door de vrouwen die Bacchus volgden, onder wie zijn eigen moeder.
+    text:
+    - Pentheus, koning van Thebe, verbood de verering van de nieuwe god Bacchus en klom de berg op om de vrouwen te bespieden die voor hem dansten. Ze vonden hem. Op de schildering is hij in het midden op zijn knieën gevallen en komen de vrouwen van twee kanten op hem af; die aan zijn haar trekt is zijn moeder Agave, die hem in haar razernij voor een leeuw hield.
+    - 'Het is een van drie grote taferelen op de wanden van een kleine kamer aan de tuin, alle drie wrede mythen: ernaast wurgt de kleine Hercules de slangen die hem moesten doden, en wordt Dirce aan een stier gebonden.'
+  cave-canem:
+    title: Cave canem
+    local: Pas op voor de hond
+    artist: Onbekende Romeinse mozaïekmaker
+    date: 1e eeuw n.Chr.
+    medium: Mozaïek van zwarte en witte steentjes
+    room: Bij de voordeur, in de vloer van de ingang
+    blurb: 'Een zwarte hond aan een ketting, tanden bloot, en de woorden CAVE CANEM: pas op voor de hond.'
+    text:
+    - Een zwarte hond met een rode halsband trekt aan zijn ketting op een witte grond, tanden bloot, oren plat. Eronder staat CAVE CANEM, pas op voor de hond. Gasten stapten over hem heen als ze van de straat binnenkwamen; het was een waarschuwing en een grap tegelijk.
+    - Hij ligt nog op zijn plaats bij de deur van het huis, achter een glazen scherm. Ook andere huizen in Pompeii hadden een hond aan de deur, en de gipsafgietsel van een echte, aan de ketting in het Huis van Orpheus, werd in 1874 gemaakt.
+  sacrifice-of-iphigenia:
+    title: Het offer van Iphigeneia
+    artist: Onbekende Romeinse schilder, naar een Grieks schilderij
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: De tuin achteraan (overgebracht naar het Archeologisch Museum van Napels; hier gehangen zoals het was)
+    blurb: De dochter van koning Agamemnon, naar het altaar gedragen opdat de wind de Griekse vloot naar Troje zou brengen.
+    text:
+    - 'De Griekse vloot kon niet naar Troje uitvaren: de godin Artemis hield de wind tegen tot koning Agamemnon zijn dochter Iphigeneia zou offeren. Twee mannen dragen haar naar het altaar, haar armen naar de hemel. Rechts staat de priester Kalchas met het mes; links keert Agamemnon zich af en verbergt zijn gezicht in zijn mantel. Boven stuurt Artemis al een hinde om in haar plaats te sterven.'
+    - De schildering stond op de muur van de kleine tuin achter het huis, tegenover het huisaltaar. Ze zou een beroemd Grieks schilderij van Timanthes kopiëren, dat in de oudheid geprezen werd omdat het het verdriet van de vader verborg in plaats van het te schilderen. Ze werd naar Napels gebracht kort nadat het huis in 1824 werd opgegraven.
+  menander:
+    title: Menander
+    artist: Onbekende Romeinse schilder
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: Een exedra achteraan in de tuin
+    blurb: De Griekse blijspeldichter Menander in zijn stoel, lezend, met zijn naam eronder.
+    text:
+    - De Griekse dichter Menander, die rond 300 v.Chr. in Athene blijspelen schreef over gewone families, verliefden, slaven en vrekken, zit in een stoel met hoge rug, in een lichte mantel en met een krans van klimop op zijn hoofd, een open boekrol op zijn knieën. Op de band onder hem staat zijn naam, met erbij dat hij de eerste was die de Nieuwe Komedie schreef.
+    - Hij is geschilderd op de achterwand van een kleine open kamer helemaal achter in de tuin, tegenover de zuilengang, misschien naast een verloren portret van een andere dichter. Het huis werd naar hem genoemd toen Amedeo Maiuri het vanaf 1926 opgroef.
+  lararium-of-vetutius-placidus:
+    title: Het huisaltaar van het thermopolium
+    artist: Onbekende Romeinse schilder
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: Op de muur achter de toog
+    blurb: 'Het huisaltaar van een straatkroeg: Mercurius voor de winst, Bacchus voor de wijn, de genius van het huis en twee slangen.'
+    text:
+    - Elk Romeins huis had een altaar voor zijn beschermgeesten, de lares, en hier is het als een tempeltje met een fronton op de muur achter de toog geschilderd. In het midden brengt de genius van de heer des huizes een plengoffer, tussen twee dansende lares met drinkhoorns. Links staat Mercurius, de god van de handel en de winst, met zijn geldbuidel; rechts Bacchus, de god van de wijn, met zijn panter. Onderaan kruipen twee slangen, de beschermers van het huis, naar een altaar.
+    - Lucius Vetutius Placidus, van wie de kroeg was, zag het vanwaar hij bediende. Het zit nog op de muur waar het geschilderd werd.
+  pyramus-and-thisbe:
+    title: Pyramus en Thisbe
+    artist: Onbekende Romeinse schilder
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: Bij het ligbed om buiten te eten, bovenaan in de tuin
+    blurb: 'Twee jonge geliefden uit Babylon die bij een bron stierven, elk denkend dat de ander dood was: Romeo en Julia, zestien eeuwen vroeger.'
+    text:
+    - 'Pyramus en Thisbe hielden van elkaar door een spleet in de muur tussen de huizen van hun ouders, en spraken af om ’s nachts bij een graf buiten Babylon af te spreken. Thisbe kwam eerst, zag een leeuwin en vluchtte, en verloor haar sluier. Pyramus vond de sluier, gescheurd en bebloed, dacht dat ze dood was en doorstak zichzelf. Op de schildering is Thisbe teruggekomen: Pyramus ligt stervend, en zij heft het zwaard om hem te volgen.'
+    - De Romeinse dichter Ovidius vertelde het verhaal in zijn Metamorfosen, een paar decennia voor het hier geschilderd werd, bij het ligbed waar de familie ’s zomers buiten at. Aan de andere kant van het ligbed staat Narcissus.
+  narcissus:
+    title: Narcissus
+    artist: Onbekende Romeinse schilder
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: Bij het ligbed om buiten te eten, bovenaan in de tuin
+    blurb: De mooie jonge jager die verliefd werd op zijn eigen gezicht in een vijver.
+    text:
+    - Narcissus was zo mooi dat iedereen verliefd op hem werd, en hij wees ze allemaal af, ook de nimf Echo, die wegkwijnde tot alleen haar stem nog over was. Als straf moest hij verliefd worden op zijn eigen spiegelbeeld in een bron, en hij bleef ernaar kijken tot hij stierf, en waar hij gezeten had groeide een bloem.
+    - 'Hier zit hij op een rots met zijn jachtspeer en kijkt in het water. De schildering staat tegenover Pyramus en Thisbe, aan de andere kant van het ligbed: twee verhalen over liefde die slecht afloopt, om naar te kijken bij het eten, met het lange kanaal van de tuin eronder.'
+  venus-in-the-shell:
+    title: Venus in de schelp
+    artist: Onbekende Romeinse schilder
+    date: 1e eeuw n.Chr.
+    medium: Fresco
+    room: De achtermuur van de tuin
+    blurb: Venus, de beschermgodin van Pompeii, liggend in een roze schelp op een blauwe zee, tussen twee cupido’s.
+    text:
+    - Venus ligt naakt op haar zij in een grote roze schelp die op zee drijft, haar rode mantel bolt als een zeil achter haar op, een waaier in haar hand en gouden juwelen om haar armen en hals. Aan elke kant vliegt een cupido. Venus was de beschermgodin van Pompeii, dat voluit Colonia Cornelia Veneria Pompeianorum heette.
+    - De schildering vult de achtermuur van de tuin, tussen geschilderde tuinen met vogels, fonteinen en een beeld van Mars, zodat de echte tuin in de geschilderde en in de zee leek over te lopen. Het huis werd gevonden in 1952, beschadigd door de geallieerde bommen die in 1943 op Pompeii vielen.

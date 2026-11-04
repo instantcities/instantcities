@@ -19,7 +19,8 @@
 // museum has `at`) has no view but pos: [x, z, yaw?] in the city's game metres, the game's
 // ?pos=x,z&yaw=: with yaw, where you stand and the way you face (radians, 0: +z); without, where the
 // piece stands, and the game puts you on a street a little way off, looking at it. With no pos
-// either, the link is its museum's ?at=.
+// either, the link is its own card's ?at= (at: a sight's id, such as Pompeii's house-faun-1, whose
+// arrival stands you before it), or else its museum's.
 // A museum: { id, city, name, blurb, landmark? (its page, an id in _data/landmarks/<city>.json: the
 // pieces link to it and it lists them), at? (a sight's id in <city>/site-sights.js: not a building
 // you go into but a square, its link ?at=<sight>) }. A museum without a landmark page links to its
@@ -51,7 +52,10 @@ for (const a of pieces) {
 }
 for (const m of museums) {
   if (m.landmark && !JSON.parse(fs.readFileSync(path.join(ROOT, '_data', 'landmarks', m.city + '.json'), 'utf8')).some(l => l.id === m.landmark)) throw new Error(`${m.id}: no landmark "${m.landmark}" in _data/landmarks/${m.city}.json`);
-  if (m.at && !fs.readFileSync(path.join(ROOT, m.city, 'site-sights.js'), 'utf8').includes(`"id":"${m.at}"`)) throw new Error(`${m.id}: no sight "${m.at}" in ${m.city}/site-sights.js`);
+  // its sight: a card in <city>/site-sights.js, or the game's own card of its landmark (the landmark's `sight`)
+  const sights = path.join(ROOT, m.city, 'site-sights.js');
+  const own = m.landmark && JSON.parse(fs.readFileSync(path.join(ROOT, '_data', 'landmarks', m.city + '.json'), 'utf8')).find(l => l.id === m.landmark)?.sight === m.at;
+  if (m.at && !own && !(fs.existsSync(sights) && fs.readFileSync(sights, 'utf8').includes(`"id":"${m.at}"`))) throw new Error(`${m.id}: no sight "${m.at}" in ${m.city}/site-sights.js, nor is it its landmark's sight`);
 }
 
 if (cmd === 'photos') await photos(only.length ? pieces.filter(a => only.includes(a.id)) : pieces.filter(a => !fs.existsSync(path.join(IMG, a.id + '.jpg'))));
@@ -90,12 +94,15 @@ function pages() {
 // What the game needs of them (core/js/inside/artlist.js): the pieces in the buildings, where they
 // hang, and whether they have a photo yet, to show it full screen when you stand before one
 // (game/artview.js); the museums' pages on the site, for the Read more of the cards in their rooms.
+// A piece out in the open (its museum has `at`) is listed without a view: the city's own model says
+// where it is, when it is built (its `spot`, artview.js placeArt), as Pompeii's houses do.
 function artList() {
-  const list = pieces.filter(a => a.view)
+  const open = new Set(museums.filter(m => m.at).map(m => m.id));
+  const list = pieces.filter(a => a.view || open.has(a.museum))
     .map(({ id, title, artist, date, museum, room, view }) => ({ id, title, artist, date, museum, room, view, photo: fs.existsSync(path.join(IMG, id + '.jpg')) }));
   const pages = Object.fromEntries(museums.filter(m => m.landmark).map(m => [m.id, `/${m.city}/landmark/${m.landmark}/`]));
   fs.writeFileSync(path.join(ROOT, 'core', 'js', 'inside', 'artlist.js'), '// Made by tools/art.mjs from _data/art.json: the famous pieces in the buildings (photo: whether its\n'
-    + '// photo is in, to show full screen: game/artview.js) and the museums\' pages on the site. view: [x, z,\n// tx, tz], where you stand and what you look at, in its building\'s own metres.\n'
+    + '// photo is in, to show full screen: game/artview.js) and the museums\' pages on the site. view: [x, z,\n// tx, tz], where you stand and what you look at, in its building\'s own metres; a piece out in the open\n// has none, and gets its spot from the city\'s model (artview.js placeArt).\n'
     + `export const ART = [\n${list.map(a => `  ${JSON.stringify(a)},`).join('\n')}\n];\n`
     + `export const MUSEUM_PAGES = ${JSON.stringify(pages)};\n`);
 }
