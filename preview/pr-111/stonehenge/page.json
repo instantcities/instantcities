@@ -1,0 +1,12 @@
+{
+  "id": "stonehenge",
+  "name": "Instant Stonehenge",
+  "title": "Instant Stonehenge: a free virtual 3D tour and game",
+  "description": "Walk around the standing stones on Salisbury Plain. Explore, race or take a guided tour in your browser.",
+  "share_title": "Instant Stonehenge",
+  "share_description": "Walk around the standing stones on Salisbury Plain.",
+  "ld_description": "Walk around the standing stones on Salisbury Plain.",
+  "noscript": "<p>Turn on JavaScript to explore Stonehenge.</p>",
+  "city_en": "Stonehenge",
+  "style": ":root { --paper: #f7f3e9; --accent: #796543; --sky: #e5ebdf; --skyline: #8b9e62; }"
+}
