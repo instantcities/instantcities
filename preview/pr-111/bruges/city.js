@@ -18,7 +18,7 @@
 //   gruuthuse.js     the Gruuthusepaleis, in place of the map's block of it
 // No sights or fronts yet, and one monument, the Belfort: empty lists for the rest, and for what
 // only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/bruges/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

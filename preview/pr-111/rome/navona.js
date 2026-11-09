@@ -17,7 +17,7 @@ import { Kit, kitMat } from '../core/js/kit.js';
 import { sweep, wall, archRing, onMap, rect } from '../core/js/arcade.js';
 import { rng, shade } from '../core/js/facades.js';
 import { polyPath } from './trevi.js';
-import { MAP } from './map.js';
+import { MAP } from '/rome/map.js';
 
 const TRAV = '#e2d6ba', TRAV2 = '#d4c7a8', MARBLE = '#f1ede3', ROCK = ['#cfc3a3', '#c2b594', '#d8ccae', '#b9ab8b'], GRANITE = '#b08a7a', LEAD = '#8d908f';
 const TURN = 0.06; // the square's long axis turned from north

@@ -14,7 +14,7 @@
 //   inside.js        the buildings you can go into: the Rijksmuseum, its rooms in inside/ (hand-written)
 //   westertoren.js   the Westertoren, modelled by hand in place of the map's stack of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/amsterdam/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -12,7 +12,7 @@
 //   crossings.js     the traffic lights and crossings: `node tools/crossings.mjs brussels`, do not edit by hand
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs brussels`
 // No sights, monuments or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/brussels/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -14,7 +14,7 @@
 //   inside.js        the buildings you can go into: St Stephen's Cathedral and the Kunsthistorisches Museum, their rooms in inside/ (hand-written)
 //   pestsaeule.js    the Pestsäule on the Graben, modelled by hand
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/vienna/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

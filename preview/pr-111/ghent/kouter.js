@@ -8,7 +8,7 @@
 //    of the square down to the car park's mouth (as at Dok Noord, ghent/doknoord.js): the way out
 //    east of the bandstand, the way in from the Kouter's west side. Nobody parks on them.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { lineHollow } from '../core/js/hollows.js';
 

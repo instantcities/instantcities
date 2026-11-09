@@ -18,7 +18,7 @@
 //   coit-tower.js    Coit Tower on Telegraph Hill, in place of the map's tower and base
 //   dragon-gate.js   the Dragon Gate across Grant Avenue at Bush Street
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/san-francisco/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

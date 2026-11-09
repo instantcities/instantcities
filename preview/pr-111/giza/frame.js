@@ -1,5 +1,5 @@
 // Local real metres east and south of the site's origin; the map builder centres the race.
-import { MAP } from './map.js';
+import { MAP } from '/giza/map.js';
 export const S = 1.25;
 const ORIGIN = [29.9792, 31.1342];
 export function game(x, z) {

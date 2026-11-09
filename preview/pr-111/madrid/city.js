@@ -16,7 +16,7 @@
 //   oso.js           the bear and the strawberry tree at the Puerta del Sol, modelled by hand
 //   felipe.js        Philip III on horseback in the Plaza Mayor, modelled by hand
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/madrid/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -6,7 +6,7 @@
 // It joins the statues (ghent/monuments.js) in place of the map's box, which the map draws as a
 // Gothic tower for lack of a better kind (OpenStreetMap has it as a building:part).
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { inside } from './blocks.js';
 
 const FLOORS = 14, GROUND = 6, ROOF = 1.1; // storeys, the ground floor's height, the roof's parapet

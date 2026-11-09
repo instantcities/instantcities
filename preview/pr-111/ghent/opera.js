@@ -8,7 +8,7 @@
 // windows over the rusticated base. A flat zinc roof. It joins the statues (ghent/monuments.js) in
 // place of the map's boxes, which made it a beige office block.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { ashlar, roundArch, stringCourse, balustrade, pilaster, shade } from '../core/js/facades.js';
 import { slab, tiled, mat, mesh, inside } from './blocks.js';
 

@@ -5,7 +5,7 @@
 // ribs, a ring of columns round it and a lantern on top.
 import * as THREE from 'three';
 import { linePath, ellipsePath, column, wall, sweep, archRing } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/berlin/map.js';
 
 // the middle of a flat [x, z, ...] ring
 export const mid = p => { let x = 0, z = 0; for (let k = 0; k < p.length; k += 2) { x += p[k]; z += p[k + 1]; } return [(2 * x) / p.length, (2 * z) / p.length]; };

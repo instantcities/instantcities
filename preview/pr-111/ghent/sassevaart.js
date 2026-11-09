@@ -7,7 +7,7 @@
 //    brick over round-arched shop windows, a glass floor set back on top, DOK NOORD on its front,
 //    and on its side to the ramp a glass bay and the car park's blue signs
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { elevation, brick, rng, letGo } from '../core/js/facades.js';
 import { walls, slab } from './blocks.js';
 import { Kit, kitMat } from '../core/js/kit.js';

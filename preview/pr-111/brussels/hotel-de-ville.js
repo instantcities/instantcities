@@ -11,7 +11,7 @@
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, pointedRing, archRing, polygon } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/brussels/map.js';
 
 const X = 70, Z = 12;
 const F0 = [55.3 - X, -19.1 - Z], F1 = [102.6 - X, 39 - Z], TOWER = [70.3 - X, 11.7 - Z];

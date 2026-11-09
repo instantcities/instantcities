@@ -4,7 +4,7 @@
 // under it, and round every floor a gallery of bronze steel louvres, three bands a storey on
 // slender fins. It joins the statues (ghent/monuments.js) in place of the map's box.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { S, walls, slab, grow, mat, mesh } from './blocks.js';
 

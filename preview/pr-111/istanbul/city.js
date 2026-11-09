@@ -20,7 +20,7 @@
 //   hipodrom.js      the Egyptian Obelisk, the Serpent Column and the Walled Obelisk on the Hippodrome
 //   cemberlitas.js   the Column of Constantine on the Divan Yolu, in place of the map's tower of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/istanbul/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

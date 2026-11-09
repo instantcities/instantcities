@@ -5,7 +5,7 @@
 // at its own height down in the hollow (chair.y).
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
-import { HOLLOWS } from './landmarks.js';
+import { HOLLOWS } from '/ghent/landmarks.js';
 
 // the Stadshal's long side runs at this angle (game radians, as a statue's turn), and the glass
 // front of the cellar along its north-west edge, facing the forecourt (local +z)

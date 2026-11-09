@@ -9,7 +9,7 @@
 // A plot has its own frame: x along the front from its left corner, z into the block, so a house is
 // drawn as if its door were in the south wall. at(x, z) gives the map's metres of a point; turn and
 // the left corner are how the house's model is put on the map (js/landmarks.js).
-import { MAP } from './map.js';
+import { MAP } from '/pompeii/map.js';
 
 const segments = name => MAP.roads.filter(rd => MAP.names[rd.n] === name).flatMap(rd => {
   const out = [];

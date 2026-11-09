@@ -1,5 +1,5 @@
 // Giza: a playable site with its own map, monuments, race, tour and quest.
-export { MAP } from './map.js';
+export { MAP } from '/giza/map.js';
 import { MONUMENTS as MODELS } from './monuments.js';
 import { dressMonuments } from '../core/js/site-style.js';
 export const MONUMENTS = dressMonuments(MODELS, 'giza');

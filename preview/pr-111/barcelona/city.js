@@ -14,7 +14,7 @@
 //   colom.js         the Monument a Colom, modelled by hand on core/js/arcade.js, in place of the map's rings of it
 // No sights or fronts yet, and one monument, the Monument a Colom: empty lists for the rest, and
 // for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/barcelona/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -23,7 +23,7 @@
 // rebuilt and roofed again (whole: their walls at full height, roofs over atrium and colonnades).
 import * as THREE from 'three';
 import { plot } from './plots.js';
-import { MAP } from './map.js';
+import { MAP } from '/pompeii/map.js';
 import { Domus } from './domus.js';
 
 const BRONZE = '#4f5a3a', LAVA = '#4a4640', TUFA = '#b7a585', WOOD = '#6b4526', MARBLE = '#e8e2d2';

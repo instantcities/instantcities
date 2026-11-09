@@ -20,7 +20,7 @@
 //   camposanto.js    the Camposanto, its blind walls round the cloister and its lawn
 //   spina.js         Santa Maria della Spina, the little Gothic oratory on the Lungarno
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/pisa/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

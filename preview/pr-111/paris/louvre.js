@@ -16,7 +16,7 @@
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { onMap, rect } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/paris/map.js';
 
 const X = -960.5, Z = -598.8, TURN = -0.437; // the pyramid's middle, and the axis turned from east
 const STONE = '#e3d7bc', STONE2 = '#d0c3a6', SLATE = '#59626b', LEAD = '#6b737a', DARK = '#33363a', GOLD = '#cda748', MARBLE = '#c88f8a';

@@ -20,11 +20,11 @@
 //   pont-neuf.js, louvre.js  the same way
 // No sights or fronts yet, and three monuments, the Louvre's pyramid, the Tour Saint-Jacques and the
 // Eiffel Tower: empty lists for the rest, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/paris/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
-export { SIGNALS, CROSSINGS } from './crossings.js';
+export { SIGNALS, CROSSINGS } from '/paris/crossings.js';
 export { FURNITURE } from './furniture.js';
 export { INSIDE } from './inside.js';
 import { pyramid } from './inside/louvre.js';

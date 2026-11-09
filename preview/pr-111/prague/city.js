@@ -21,7 +21,7 @@
 //   staronova.js     the Old-New Synagogue, modelled by hand in place of the map's block of it
 //   outline.js       the parts the Rudolfinum and the synagogue share: map outlines, blocks and roofs on them
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/prague/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -25,7 +25,7 @@
 //   national-gallery.js the National Gallery's front, portico and dome
 //   nelson.js        Nelson's Column and its lions on Trafalgar Square
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/london/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -19,7 +19,7 @@
 //   library.js       the Public Library on Fifth Avenue and its lions, in place of the map's parts of it
 //   st-patricks.js   St Patrick's Cathedral and its spires, in place of the map's blocks of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/new-york/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

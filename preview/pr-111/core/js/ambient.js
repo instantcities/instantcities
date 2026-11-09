@@ -27,8 +27,8 @@ export class Ambient {
     this.bikes = Array.from({ length: BIKE.voices }, () => this.bikeVoice(ctx));
     this.sirens = Array.from({ length: SIREN.voices }, () => this.bikeVoice(ctx));
     this.scooters = Array.from({ length: SCOOTER.voices }, () => this.scooterVoice(ctx));
-    this.loadLoop(ctx, new URL('../sounds/bike.wav', import.meta.url).href, this.bikes); // core/sounds, whichever city's page
-    this.loadLoop(ctx, new URL('../sounds/siren.wav', import.meta.url).href, this.sirens);
+    this.loadLoop(ctx, new URL('/core/sounds/bike.wav', import.meta.url).href, this.bikes); // core/sounds, whichever city's page
+    this.loadLoop(ctx, new URL('/core/sounds/siren.wav', import.meta.url).href, this.sirens);
   }
 
   noise(ctx) {

@@ -16,7 +16,7 @@
 import * as THREE from 'three';
 import { elevation, ashlar, lancet, stringCourse, balustrade, clock, archPath, shade, crossWindow, roundArch, pilaster, rose, niche, brick, rng } from '../core/js/facades.js';
 import { gravensteen, CASTLE_WALL, CASTLE_STONE } from './gravensteen.js';
-import { LANDMARKS } from './landmarks.js';
+import { LANDMARKS } from '/ghent/landmarks.js';
 import { standing } from '../core/js/tour.js';
 
 const BELFORT_STONE = '#b4ad9e';

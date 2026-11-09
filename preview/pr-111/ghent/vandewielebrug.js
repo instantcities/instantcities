@@ -5,7 +5,7 @@
 // It joins the statues (ghent/monuments.js) along the map's deck (OpenStreetMap's bridge, lifted as
 // an arched one by area.json), with no foot of its own: riders ride over the map's deck.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 
 const BLUE = 0xb2e0f0, PALE = 0xd2eef6;

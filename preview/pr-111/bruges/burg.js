@@ -13,7 +13,7 @@
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, pointedRing, archRing } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/bruges/map.js';
 
 const STONE = '#d9d1bf', STONE2 = '#c7bea9', SLATE = '#4c535b', DARK = '#2e2f33', GOLD = '#cfa847', GLASS = '#3b4352';
 

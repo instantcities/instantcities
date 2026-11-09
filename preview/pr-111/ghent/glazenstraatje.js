@@ -8,7 +8,7 @@
 // Schepenenvijverstraat, the Belgradostraat and the open end of the doorgang, get lit windows on
 // their ground floors. Hand-written, game metres.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { elevation, rng, shade, letGo } from '../core/js/facades.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 

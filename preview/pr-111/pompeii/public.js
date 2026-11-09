@@ -14,7 +14,7 @@ import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, sweep, archRing } from '../core/js/arcade.js';
 import { rng, shade } from '../core/js/facades.js';
 import { WallBatch, ruinWall, ruinTexture, RUIN_TILE } from '../core/js/roman.js';
-import { MAP } from './map.js';
+import { MAP } from '/pompeii/map.js';
 import { column as cols } from './columns.js';
 
 const rnd0 = rng(3);

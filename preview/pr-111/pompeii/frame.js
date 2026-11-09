@@ -1,7 +1,7 @@
 // Where things are. The map is centred on its race route and scaled up 1.25 from real metres to
 // game metres (tools/osmbuild.mjs); map.geo says where its middle is, so a place can be given by its
 // latitude and longitude, and `game` turns that into the map's metres.
-import { MAP } from './map.js';
+import { MAP } from '/pompeii/map.js';
 
 const G = MAP.geo;
 export const game = (lat, lon) => [

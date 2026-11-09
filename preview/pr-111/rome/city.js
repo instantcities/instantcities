@@ -23,7 +23,7 @@
 //   argentina.js     the temples of Largo di Torre Argentina
 // No sights or fronts yet, and the monuments above modelled by hand: empty lists for the rest, and
 // for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/rome/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

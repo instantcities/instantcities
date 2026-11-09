@@ -18,7 +18,7 @@
 //   fenice.js        La Fenice's front, dressed on the map's block
 // No sights or fronts yet, and one monument, the Campanile: empty lists for the rest, and for what
 // only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/venice/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

@@ -3,7 +3,7 @@
 // and what the town threw out. One every 80 m or so along the race route, which is the middle of the
 // town's main streets. In game metres, on the route in map.js. Visual only: riders ride over them.
 import { Kit, kitMat } from '../core/js/kit.js';
-import { MAP } from './map.js';
+import { MAP } from '/pompeii/map.js';
 import { THEME } from './appearance.js';
 
 export function stones() {

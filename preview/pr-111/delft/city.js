@@ -16,7 +16,7 @@
 //   stadhuis.js      the Stadhuis with Het Steen behind it, in place of the map's blocks of them
 //   oude-kerk.js     the Oude Kerk's leaning tower, in place of the map's blocks of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/delft/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

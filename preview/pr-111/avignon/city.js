@@ -16,7 +16,7 @@
 //   doms.js          Notre-Dame des Doms, its bell tower and the gilded Virgin on top
 //   horloge.js       the Hôtel de Ville and the Tour du Jacquemart on the Place de l'Horloge
 // No sights or fronts yet, and three monuments: empty lists for the rest, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/avignon/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

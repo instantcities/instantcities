@@ -2,7 +2,7 @@
 // OSM's centreline is useful, but the generic road width and missing courtyard walls leave it open.
 // Keep the downloaded map intact: the city applies this width and these walls at runtime.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { elevation, ashlar, rng, letGo } from '../core/js/facades.js';
 
 export const ALLEY_NAME = 'Werregarenstraat';

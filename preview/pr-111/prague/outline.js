@@ -3,7 +3,7 @@
 // roof from one ring up to a smaller one.
 import * as THREE from 'three';
 import { linePath } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/prague/map.js';
 
 // the middle of a flat [x, z, ...] ring
 export const mid = p => { let x = 0, z = 0; for (let k = 0; k < p.length; k += 2) { x += p[k]; z += p[k + 1]; } return [(2 * x) / p.length, (2 * z) / p.length]; };

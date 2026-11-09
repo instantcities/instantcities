@@ -7,7 +7,7 @@
 // with flags and PROVINCIEHUIS in big white letters. It joins the statues (ghent/monuments.js) in
 // place of the map's boxes.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { brick, crossWindow, roundArch, stringCourse, ashlar, shade, rng } from '../core/js/facades.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { walls, slab, along, ribbon, tiled, mat, mesh } from './blocks.js';

@@ -138,7 +138,7 @@ const PREPARED = Object.fromEntries(Object.entries(SONGS).map(([k, s]) => [k, s.
 // Recorded music, played as it is and once instead of a tune: its file in core/sounds, and
 // how loud. The tour's: "Epic Piano" by Nastelbom (Pixabay, free to use), from 0:15 on.
 const RECORDINGS = {
-  tour: { url: new URL('../sounds/tour.mp3', import.meta.url).href, vol: 0.45 },
+  tour: { url: new URL('/core/sounds/tour.mp3', import.meta.url).href, vol: 0.45 },
 };
 
 export class Music {

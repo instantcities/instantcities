@@ -21,7 +21,7 @@
 //   mercanzia.js     the Loggia della Mercanzia at the Croce del Travaglio
 // No sights or fronts yet: empty lists for those, and for what only Ghent has. The town climbs and
 // falls on every street, but the map is flat, like every city's outside Flanders.
-export { MAP } from './map.js';
+export { MAP } from '/siena/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

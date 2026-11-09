@@ -65,11 +65,11 @@
 //   buskers.js       buskers along the Belfortstraat, there only on the tour (hand-written)
 //   demo.js          the film about the game: shots from the tour and the quests, played with ?demo (hand-written)
 //   furniture.js     the bollards, post boxes, benches and bins OpenStreetMap has: made by `node tools/furniture.mjs ghent`
-import { MAP as OSM } from './map.js';
+import { MAP as OSM } from '/ghent/map.js';
 import { TOUR_PROPS as KERSTMARKT } from './kerstmarkt.js';
 import { STROPPEN } from './stroppen.js';
 import { BUSKERS } from './buskers.js';
-import { TRAM_TRACKS, TRAM_MOVED } from './tramlines.js';
+import { TRAM_TRACKS, TRAM_MOVED } from '/ghent/tramlines.js';
 import { PATHS as SABBE_PATHS, GROVES as SABBE_GROVES } from './sabbeberg.js';
 import { GROVES as BLAARMEERSEN_GROVES } from './blaarmeersen.js';
 import { CLEARINGS } from './strand.js';
@@ -188,7 +188,7 @@ export { MOUNDS } from './sabbeberg.js';
 // where it is wooded, more thickly than the map's parks get (core/js/scenery.js): the Karel
 // Sabbeberg's slopes, then the rest of the Blaarmeersen round it, clear of Le Beach House (strand.js)
 export const GROVES = [...SABBE_GROVES, ...BLAARMEERSEN_GROVES.map(g => ({ ...g, keep: [...(g.keep ?? []), ...CLEARINGS] }))];
-import { HOLLOWS as MEASURED_HOLLOWS } from './landmarks.js';
+import { HOLLOWS as MEASURED_HOLLOWS } from '/ghent/landmarks.js';
 import { HOLLOWS as RAMPS, MOUTH as DOK_NOORD_MOUTH } from './doknoord.js';
 import { HOLLOWS as KOUTER_RAMP, onRamp as onKouterRamp, rampRoad as kouterRampRoad, MOUTHS as KOUTER_MOUTHS } from './kouter.js';
 // The car parks under the Kouter and under Dok Noord are one: ride into a mouth of the one and you
@@ -200,7 +200,7 @@ export const PORTALS = [
   ...KOUTER_MOUTHS.map(m => ({ ...m, to: DOK_NOORD_MOUTH, name: 'Parking Dok Noord' })),
   { ...DOK_NOORD_MOUTH, to: KOUTER_MOUTHS[0], name: 'Parking Kouter' },
 ];
-export { LANDMARKS } from './landmarks.js';
+export { LANDMARKS } from '/ghent/landmarks.js';
 // the squares lower than their streets (measured, landmarks.js), the ramps down to Dok Noord's and
 // the Kouter's car parks (doknoord.js, kouter.js), the trenches the paths go down under a bridge in
 // (underpasses.js) and the quays lying lower than their street (lowquays.js)
@@ -214,16 +214,16 @@ import { STREETS } from './streets.js';
 export { STREETS }; // for the facade lab (facade-lab.html)
 import { specFronts } from '../core/js/facade-spec.js';
 export { SQUARES } from './squares.js';
-export { SIGNALS, CROSSINGS } from './crossings.js';
-export { STOPS, TRAM_HALTS, BUS_LINES } from './transit.js';
-export { TRAM_LINES, TRAM_STOPS } from './tramlines.js';
+export { SIGNALS, CROSSINGS } from '/ghent/crossings.js';
+export { STOPS, TRAM_HALTS, BUS_LINES } from '/ghent/transit.js';
+export { TRAM_LINES, TRAM_STOPS } from '/ghent/tramlines.js';
 export { FURNITURE } from './furniture.js';
 export { RACES } from './races.js';
 export { QUESTS } from './quests.js';
 export { SIGHTS } from './sights.js';
 export { INSIDE } from './inside.js';
 export { AREAS, BEACHES, RUNS, ROWING } from './blaarmeersen.js';
-export { TERRAIN } from './terrain.js';
+export { TERRAIN } from '/ghent/terrain.js';
 export { FAMOUS } from './famous.js';
 import { TOUR as TOUR_PATH } from './tour.js';
 import { flyingDragon, livingArtevelde, riddenDragon } from './tourcast.js';
@@ -233,7 +233,7 @@ export { DEMO } from './demo.js'; // the film about the game (?demo)
 export const TOUR_PROPS = [...KERSTMARKT, ...STROPPEN, BUSKERS]; // the Christmas market, the Stroppendragers (on the Belfortstraat and the Sint-Baafsplein) and the buskers
 export { FULL_PARKING, PARKED_CARS } from './cederstraat.js';
 // the wall colours read off the photos of whole streets (tools/looks.mjs), of every street at once
-import { LOOKS as STREET_LOOKS } from './looks.js';
+import { LOOKS as STREET_LOOKS } from '/ghent/looks.js';
 export const LOOKS = Object.assign({}, ...Object.values(STREET_LOOKS));
 
 // the hand-drawn fronts, then the fronts the streets' specs make for the buildings they left

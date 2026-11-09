@@ -16,7 +16,7 @@
 //   pandhof.js       the Pandhof, the Dom's cloister and its garden, in place of the map's block of it
 // No sights or fronts yet: empty lists for those, and for what only Ghent has. The wharves of
 // the Oudegracht lie low at the water in real life; here the canal is the game's usual one.
-export { MAP } from './map.js';
+export { MAP } from '/utrecht/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

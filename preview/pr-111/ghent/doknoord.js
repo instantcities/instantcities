@@ -8,7 +8,7 @@
 //  - the ramp down to the car park under Dok Noord's square, in the passage between that hall and
 //    the Dok Noord building: a hollow (core/js/hollows.js) sloping down to the car park's mouth.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { elevation, brick, rng, shade, letGo } from '../core/js/facades.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 

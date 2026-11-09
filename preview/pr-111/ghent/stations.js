@@ -13,7 +13,7 @@
 // The tracks, platforms and platform roofs are OpenStreetMap's (ghent/railways.js, made by
 // tools/railways.mjs); the station buildings' outlines the map's own.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { RAILWAYS } from './railways.js';
 import { brick, crossWindow, roundArch, stringCourse, clock, shade, rng } from '../core/js/facades.js';
 import { Kit, kitMat } from '../core/js/kit.js';

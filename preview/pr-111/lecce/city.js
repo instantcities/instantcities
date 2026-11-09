@@ -20,7 +20,7 @@
 //   fronts.js        the Celestini's front drawn by hand onto the map's outline (hand-written)
 // Ghent has more (3D landmarks and their facades, the hollow squares); Lecce exports empty lists
 // for what it lacks.
-import { MAP as OSM } from './map.js';
+import { MAP as OSM } from '/lecce/map.js';
 // its only water, the basins of a few fountains, lies just under the street, not down at the
 // canals' level (core/js/ground.js WATER)
 export const MAP = { ...OSM, areas: OSM.areas.map(a => (a.k === 'water' ? { ...a, level: -1 } : a)) };

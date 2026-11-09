@@ -26,7 +26,7 @@ import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, archRing, onMap, rect } from '../core/js/arcade.js';
 import { rng, shade } from '../core/js/facades.js';
-import { MAP } from './map.js';
+import { MAP } from '/rome/map.js';
 
 const MARBLE = '#e6e0d1', MARBLE2 = '#d6cebb', TRAV = '#d3c6a8', TUFF = '#9b8e77', CORE = '#8f8371', BRICK = '#a06e52', BRICK2 = '#93644b', BRONZE = '#4f4a3a';
 

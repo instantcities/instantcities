@@ -20,7 +20,7 @@
 //   marittima.js     Zaha Hadid's Stazione Marittima on the Molo Manfredi
 // No sights or fronts yet, and three monuments: empty lists for the rest, and for what only Ghent has. The town
 // climbs the hill behind the sea, but the map is flat, like every city's outside Flanders.
-export { MAP } from './map.js';
+export { MAP } from '/salerno/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

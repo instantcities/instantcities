@@ -14,7 +14,7 @@
 //   furniture.js     the bollards, post boxes, benches and bins: `node tools/furniture.mjs antwerp`
 //   brabo.js         the Brabo fountain on the Grote Markt, modelled by hand
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/antwerp/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

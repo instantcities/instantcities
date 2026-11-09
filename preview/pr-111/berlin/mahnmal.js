@@ -8,7 +8,7 @@
 // Riders walk in between them along the ways, as before; the stelae stop them.
 import { Kit, kitMat } from '../core/js/kit.js';
 import { rng, shade } from '../core/js/facades.js';
-import { MAP } from './map.js';
+import { MAP } from '/berlin/map.js';
 import { mid } from './outline.js';
 
 const X = -574, Z = 132;

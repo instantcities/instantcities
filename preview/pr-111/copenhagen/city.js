@@ -14,7 +14,7 @@
 //   rundetaarn.js    the Rundetårn, modelled by hand on core/js/arcade.js, in place of the map's pieces of it
 // No sights or fronts yet, and one monument, the Rundetårn: empty lists for the rest, and for what
 // only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/copenhagen/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

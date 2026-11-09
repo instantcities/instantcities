@@ -19,7 +19,7 @@
 //                    Staatsoper, altes-museum.js the Altes Museum, mahnmal.js the Holocaust Memorial's
 //                    field of stelae: all modelled by hand on the map's outlines (outline.js), in place of them
 // No sights or fronts yet: empty lists for those, and for what only Ghent has.
-export { MAP } from './map.js';
+export { MAP } from '/berlin/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';

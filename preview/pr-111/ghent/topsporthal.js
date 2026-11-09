@@ -5,7 +5,7 @@
 // water and the Annie Vande Wielebrug, the blue swoosh and TOPSPORTHAL in big dark blue letters.
 // It joins the statues (ghent/monuments.js) in place of the map's box.
 import * as THREE from 'three';
-import { MAP } from './map.js';
+import { MAP } from '/ghent/map.js';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { walls, slab, tiled, mat, mesh } from './blocks.js';
 

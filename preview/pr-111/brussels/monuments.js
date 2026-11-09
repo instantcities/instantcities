@@ -14,7 +14,7 @@
 import * as THREE from 'three';
 import { Kit, kitMat } from '../core/js/kit.js';
 import { linePath, wall, pointedRing, archRing, onMap, rect } from '../core/js/arcade.js';
-import { MAP } from './map.js';
+import { MAP } from '/brussels/map.js';
 
 const STONE = '#ddd6c6', STONE2 = '#cac1ad', SLATE = '#4f565d', DARK = '#2f3033', GOLD = '#d3ac47', BRONZE = '#4d4232';
 const mid = p => { let x = 0, z = 0; for (let k = 0; k < p.length; k += 2) { x += p[k]; z += p[k + 1]; } return [(2 * x) / p.length, (2 * z) / p.length]; };

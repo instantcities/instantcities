@@ -27,7 +27,7 @@ import { dressMonuments } from '../core/js/site-style.js';
 //   plots.js         where they stand: each on its block, between its streets
 //   domus.js         what they are built from: walls, floors, columns, pools, gardens, roofs, furniture
 //   frescos.js       their paintings and mosaics, drawn on canvases
-export { MAP } from './map.js';
+export { MAP } from '/pompeii/map.js';
 export { RACES } from './races.js';
 export { TOUR } from './tour.js';
 export { QUESTS } from './quests.js';
