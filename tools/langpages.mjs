@@ -32,6 +32,14 @@ for (const id of ids.filter(id => fs.existsSync(path.join(ROOT, '_data', 'about'
   }
 }
 
+// a city's vehicles, the game's models next to photos of the real ones (_data/vehicles.json, tools/vehicles.mjs), in
+// each language (/nl/gent/models/), and at /<id>/models/ a page that sends a visitor on to theirs
+const fleets = JSON.parse(read('_data/vehicles.json')).cities ?? {};
+for (const id of ids.filter(id => fleets[id]?.length)) {
+  for (const lang of langs) write(`${cityDir(lang, id)}/models/index.html`, front({ layout: 'models', city: id, lang, ref: 'models' }));
+  write(`${id}/models/index.html`, front({ layout: 'lang-redirect', ref: 'models', city: id }));
+}
+
 // the sites page and each playable site's page (_data/sites.yml; a `soon` one has none), in each language that has them:
 // /en/sites/ and /nl/plekken/, and at /sites/ and /sites/<id>/ a page that sends on to them (the art pages are written by tools/art.mjs)
 const sites = read('_data/sites.yml').split(/^- id: /m).slice(1).map(b => ({ id: b.match(/^(\S+)/)[1], soon: /^ {2}soon: true/m.test(b) }));

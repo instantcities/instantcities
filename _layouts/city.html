@@ -122,6 +122,21 @@
     </section>
     {%- endif %}
 
+    {%- comment -%} three of its vehicles, the game's model next to a photo of the real one, and a link to all of them (_layouts/models.html) {%- endcomment -%}
+    {%- assign vids = site.data.vehicles.cities[C.id] %}
+    {%- if vids.size > 0 %}
+    <section id="vehicles" class="vehicles-home">
+      <h2>{{ T.city_models }}</h2>
+      <p class="section-lead">{{ T.city_models_lead | replace: '%c', CN | replace: '%d', DE }}</p>
+      <div class="vehicles vehicles-three">
+        {%- for id in vids limit: 3 %}{% assign vm = site.data.vehicles.models | where: 'id', id | first %}
+        {% include vehicle-card.html model=vm %}
+        {%- endfor %}
+      </div>
+      <p class="more"><a class="ghost" href="{% include city-url.html city=C.id page='models' %}">{% include icon.html name="sparkle" %} {{ T.all_models | replace: '%n', vids.size }}</a></p>
+    </section>
+    {%- endif %}
+
     {%- comment -%} the art in its museums (_data/art.json), each card leading to the piece's page, which leads back to the museum's landmark page above {%- endcomment -%}
     {%- assign art_museums = site.data.art.museums | where: 'city', C.id %}
     {%- if art_museums.size > 0 %}

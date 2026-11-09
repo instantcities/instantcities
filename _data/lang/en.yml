@@ -153,6 +153,20 @@ lm_osm_title: "%l on OpenStreetMap"
 lm_alt: "%l in Instant %c"
 photo_credit: "Photo: %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
 
+# A city's vehicles (_layouts/models.html, and three of them on the city's page): %c the city, %d "of %c", %g its game, %n a number
+city_models: "Its vehicles in the game"
+city_models_lead: "The police car, trams and buses in the game take the colours of the real ones in %c. Each one next to a photo."
+all_models: "All %n vehicles"
+models_crumb: "Vehicles"
+models_title: "Vehicles of %c in the game, next to photos · Instant Cities"
+models_description: "The police car, trams, buses and other vehicles of %c in %g, each next to a photo of the real one."
+models_h1: "Vehicles of %c"
+models_tagline: "The vehicles you meet in %g, each as a photo of the real one and as the model in the game. Drag a model to turn it."
+models_photo: "Photo"
+models_game: "In the game"
+models_credit: "%a, %l, via Wikimedia Commons"
+models_footer: "The photos are from Wikimedia Commons."
+
 # The art pages (_layouts/art.html, artwork.html) and the sites pages (sites.html, site.html). %n a number, %m a
 # museum's name, %g a game's name, %s a site's name, %t a title, %a an artist or author, %l a licence.
 number_words: [zero, one, two, three, four, five, six, seven, eight, nine, ten]

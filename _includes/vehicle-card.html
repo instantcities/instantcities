@@ -1,0 +1,25 @@
+{%- comment -%}
+  One of a city's vehicles (a block of _data/vehicles.json's models, include.model): a photo of the real one
+  next to the model in the game. include.live: the model drawn in 3D, to turn (js/models.js, on the models
+  page), else its picture (<id>-model.webp, tools/vehicles.mjs shots).
+{%- endcomment -%}
+{%- assign vm = include.model -%}{%- assign vn = vm.name[L] | default: vm.name.en -%}{%- assign ph = vm.photo -%}
+        <article class="vehicle" id="{{ vm.id }}">
+          <h3>{{ vn }}</h3>
+          <div class="vehicle-pair">
+            <figure>
+              <img src="{{ ph.src | replace: '.jpg', '-s.jpg' }}" srcset="{{ ph.src | replace: '.jpg', '-s.jpg' }} 640w, {{ ph.src }} 1024w" sizes="(max-width: 680px) 100vw, 540px" alt="{{ vn }}" width="{{ ph.w }}" height="{{ ph.h }}" loading="lazy">
+              {%- capture author -%}<a href="{{ ph.source }}" rel="noopener">{{ ph.author | truncate: 50 }}</a>{%- endcapture -%}
+              {%- capture licence -%}{% if ph.license_url != '' %}<a href="{{ ph.license_url }}" rel="noopener license">{{ ph.license }}</a>{% else %}{{ ph.license }}{% endif %}{%- endcapture %}
+              <figcaption>{{ T.models_photo }}: {{ T.models_credit | replace: '%a', author | replace: '%l', licence }}</figcaption>
+            </figure>
+            <figure class="vehicle-game">
+              {%- if include.live %}
+              <canvas data-model="{{ vm.id }}" style="background-image: url('/assets/img/vehicles/{{ vm.id }}-model.webp')" aria-label="{{ vn }}, {{ T.models_game | downcase }}"></canvas>
+              {%- else %}
+              <img src="/assets/img/vehicles/{{ vm.id }}-model.webp" alt="{{ vn }}, {{ T.models_game | downcase }}" loading="lazy">
+              {%- endif %}
+              <figcaption>{{ T.models_game }}</figcaption>
+            </figure>
+          </div>
+        </article>

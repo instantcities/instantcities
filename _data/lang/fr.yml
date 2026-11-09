@@ -150,6 +150,20 @@ lm_osm_title: "%l sur OpenStreetMap"
 lm_alt: "%l dans Instant %c"
 photo_credit: "Photo : %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
 
+# A city's vehicles (_layouts/models.html, and three of them on the city's page): %c the city, %d "of %c", %g its game, %n a number
+city_models: "Ses véhicules dans le jeu"
+city_models_lead: "La voiture de police, les trams et les bus du jeu ont les couleurs des vrais %d. Chacun à côté d’une photo."
+all_models: "Les %n véhicules"
+models_crumb: "Véhicules"
+models_title: "Les véhicules %d dans le jeu, à côté de photos · Instant Cities"
+models_description: "La voiture de police, les trams, les bus et les autres véhicules %d dans %g, chacun à côté d’une photo du vrai."
+models_h1: "Véhicules %d"
+models_tagline: "Les véhicules que vous croisez dans %g, chacun en photo du vrai et en modèle du jeu. Faites tourner un modèle en le glissant."
+models_photo: "Photo"
+models_game: "Dans le jeu"
+models_credit: "%a, %l, via Wikimedia Commons"
+models_footer: "Les photos viennent de Wikimedia Commons."
+
 # Les pages d'art (_layouts/art.html, artwork.html) et celles des sites (sites.html, site.html), voir en.yml.
 number_words: [zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix]
 art_title: "L’art célèbre en 3D : la Joconde, la Ronde de nuit et plus encore · Instant Cities"

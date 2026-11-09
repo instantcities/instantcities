@@ -1,0 +1,55 @@
+{%- comment -%}
+  A city's vehicles, in each language (/en/ghent/models/, /nl/gent/models/: tools/langpages.mjs writes the pages for
+  each city in _data/vehicles.json's `cities`; /<id>/models/ only sends a visitor on): each of its police car, trams,
+  buses and other vehicles in the game as a 3D model to turn (core/js/models.js), next to a photo of the real one
+  from Wikimedia Commons (tools/vehicles.mjs). The city's page shows the first three and links here.
+{%- endcomment -%}
+{%- include lang.html -%}
+{%- assign V = site.data.vehicles -%}{%- assign ids = V.cities[C.id] -%}
+<!doctype html>
+<html lang="{{ L }}">
+<head>
+{%- assign title = T.models_title | replace: '%c', CN | replace: '%d', DE -%}
+{%- assign description = T.models_description | replace: '%c', CN | replace: '%d', DE | replace: '%g', C.game -%}
+{%- assign path = page.url -%}
+{%- assign first = V.models | where: 'id', ids[0] | first -%}{%- assign image = first.photo.src -%}
+{% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">{{ T.skip }}</a>
+  {% include topnav.html %}
+
+  <main id="main">
+    <section class="vehicles-head">
+      <p class="crumbs"><a href="{% include city-url.html city=C.id %}">{{ CN }}</a> › {{ T.models_crumb }}</p>
+      <h1>{{ T.models_h1 | replace: '%c', CN | replace: '%d', DE }}</h1>
+      <p class="section-lead">{{ T.models_tagline | replace: '%g', C.game }}</p>
+    </section>
+
+    <section class="vehicles">
+      {%- for id in ids %}{% assign vm = V.models | where: 'id', id | first %}{% if vm.photo %}
+      {% include vehicle-card.html model=vm live=true %}
+      {%- endif %}{% endfor %}
+    </section>
+
+    <section class="cta">
+      <h2>{{ T.cta_title }}</h2>
+      <a class="play" href="/{{ C.id }}/play/{{ Q }}">{% include icon.html name="play" %} {{ T.play_game | replace: '%g', C.game }}</a>
+    </section>
+  </main>
+
+  <footer>
+    <p class="alt"><a href="{% include city-url.html city=C.id %}">{{ C.game }}</a> <a href="{{ T.urls.cities }}">{{ T.all_cities }}</a></p>
+    <p>{{ T.models_footer }} {{ T.made_by }} <a href="https://woutersmet.com/">Wouter Smet</a>.</p>
+    {% include footer-links.html %}
+  </footer>
+
+  <script>
+    {% include topnav.js %}
+  </script>
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/", "city": "/core/js/nocity.js" } }
+  </script>
+  <script type="module" src="/core/js/models.js"></script>
+</body>
+</html>
