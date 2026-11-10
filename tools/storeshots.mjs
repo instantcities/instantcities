@@ -24,14 +24,15 @@ const DEVICES = {
   ipad: { viewport: { width: 1032, height: 1376 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true },
 };
 // play: seconds of game time to step through before the picture (headless, the game runs slow)
+// go: hold the throttle while it plays
 // what: 'menu' the menu over the city, 'ride' riding (after "Tap to ride"), 'tour' the tour flying past the sights
 const SHOTS = [
   { city: 'paris', what: 'tour', play: 45 },
-  { city: 'venice', what: 'ride', play: 4 },
+  { city: 'venice', what: 'ride', play: 4, go: true },
   { city: 'rome', what: 'menu' },
-  { city: 'amsterdam', what: 'ride', play: 4 },
-  { city: 'ghent', what: 'tour', play: 70 },
-  { city: 'new-york', what: 'ride', play: 4 },
+  { city: 'amsterdam', what: 'ride', play: 1 },
+  { city: 'ghent', what: 'tour', play: 30 },
+  { city: 'new-york', what: 'ride', play: 1 },
 ];
 
 const require = createRequire(import.meta.url);
@@ -81,7 +82,9 @@ try {
       await page.goto(`${base}/${s.city}/play/?lang=${lang}${s.what === 'tour' ? '&tour=auto' : ''}`, { waitUntil: 'load' });
       await page.waitForFunction(() => !document.body.classList.contains('booting'), null, { timeout: 240000 });
       await page.evaluate(() => document.fonts.ready);
-      if (s.what === 'ride') { await page.tap('#startBtn'); await page.keyboard.down('ArrowUp'); }
+      await page.evaluate(() => window.ghent3d.setTouchMode(true)); // a phone's buttons, not the keyboard's hints
+      if (s.what === 'ride') await page.tap('#startBtn');
+      if (s.go) await page.keyboard.down('ArrowUp');
       await page.evaluate(sec => { for (let t = 0; t < sec; t += 0.05) window.ghent3d.step(0.05); }, s.play ?? 0);
       await page.waitForTimeout(3000); // a few frames drawn
       const file = path.join(dir, `${String(s.n).padStart(2, '0')}-${s.city}-${s.what}.png`);
