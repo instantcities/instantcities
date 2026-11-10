@@ -18,7 +18,7 @@ FONT = '/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf'
 # per shot number: the line on top, and the gradient (top colour, bottom colour)
 LINES = {
     1: {'en': 'Fly over Paris', 'nl': 'Vlieg over Parijs'},
-    2: {'en': 'Cycle across San Marco', 'nl': 'Fiets over het San Marcoplein'},
+    2: {'en': 'Cycle across San Marco', 'nl': 'Fiets over San Marco'},
     3: {'en': 'Pick a mission, race or tour', 'nl': 'Kies een missie, race of tour'},
     4: {'en': 'Ride through Amsterdam', 'nl': 'Fiets door Amsterdam'},
     5: {'en': 'See Ghent from above', 'nl': 'Bekijk Gent van boven'},
@@ -56,7 +56,7 @@ for src in sorted(glob.glob(os.path.join(SRC, '*', '*', '*.png'))):
     img = gradient(W, H, *COLOURS[(n - 1) % len(COLOURS)])
     draw = ImageDraw.Draw(img)
     # the line: about 7% of the width high, one or two lines, centred in the top part
-    size = round(W * (0.085 if device == 'iphone' else 0.06))
+    size = round(W * (0.075 if device == 'iphone' else 0.06))
     font = ImageFont.truetype(FONT, size)
     lines = wrap(draw, LINES[n][lang], font, W * 0.86)
     top = round(H * 0.075)

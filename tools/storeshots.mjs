@@ -84,7 +84,7 @@ try {
       await page.evaluate(() => document.fonts.ready);
       await page.evaluate(() => window.ghent3d.setTouchMode(true)); // a phone's buttons, not the keyboard's hints
       if (s.what === 'ride') await page.tap('#startBtn');
-      if (s.go) await page.keyboard.down('ArrowUp');
+      if (s.go) { await page.keyboard.down('ArrowUp'); await page.evaluate(() => window.ghent3d.setTouchMode(true)); } // (a key turns the touch buttons off)
       await page.evaluate(sec => { for (let t = 0; t < sec; t += 0.05) window.ghent3d.step(0.05); }, s.play ?? 0);
       await page.waitForTimeout(3000); // a few frames drawn
       const file = path.join(dir, `${String(s.n).padStart(2, '0')}-${s.city}-${s.what}.png`);
