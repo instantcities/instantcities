@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Screenshots for the App Store: the game in a phone- or iPad-sized headless browser, at the sizes
-// App Store Connect takes, in app/app-store-assets/screenshots/<lang>/<device>/NN-<city>-<what>.png.
+// App Store Connect takes, in app/app-store-assets/screenshots/<lang>/<device>/NN-<city>-<what>.jpg.
 //
 //     node tools/storeshots.mjs                      # every shot, nl and en, iphone and ipad
 //     node tools/storeshots.mjs --lang nl --device iphone --only 1
@@ -87,8 +87,8 @@ try {
       if (s.go) { await page.keyboard.down('ArrowUp'); await page.evaluate(() => window.ghent3d.setTouchMode(true)); } // (a key turns the touch buttons off)
       await page.evaluate(sec => { for (let t = 0; t < sec; t += 0.05) window.ghent3d.step(0.05); }, s.play ?? 0);
       await page.waitForTimeout(3000); // a few frames drawn
-      const file = path.join(dir, `${String(s.n).padStart(2, '0')}-${s.city}-${s.what}.png`);
-      await page.screenshot({ path: file, timeout: 240000 });
+      const file = path.join(dir, `${String(s.n).padStart(2, '0')}-${s.city}-${s.what}.jpg`);
+      await page.screenshot({ path: file, type: 'jpeg', quality: 95, timeout: 240000 });
       console.log(path.relative(ROOT, file));
       await ctx.close();
     }

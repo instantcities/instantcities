@@ -44,7 +44,7 @@ First build. Try a few cities: does each one load, and does the Cities button br
 
 ### Screenshots
 
-Upload `framed/<lang>/<device>/` (a gradient, a line on top, the game below), in numbered order.
+Upload the JPEGs in `framed/<lang>/<device>/` (a gradient, a line on top, the game below), in numbered order.
 The raw game pictures are in `screenshots/`. Make them again with `node tools/storeshots.mjs`
 (the game in a headless browser, about 25 minutes), then `python3 tools/storeframes.py` (the
 frames, and the lines on top).

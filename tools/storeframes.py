@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """The App Store screenshots in a frame: a colour gradient, a short line on top, the screenshot
-below it with rounded corners. Reads app/app-store-assets/screenshots/<lang>/<device>/NN-*.png
+below it with rounded corners. Reads app/app-store-assets/screenshots/<lang>/<device>/NN-*.jpg
 (made by tools/storeshots.mjs), writes the same names to app/app-store-assets/framed/, at the
 same size, so they upload to the same place.
 
@@ -48,7 +48,7 @@ def wrap(draw, text, font, width):
     return lines + [line]
 
 
-for src in sorted(glob.glob(os.path.join(SRC, '*', '*', '*.png'))):
+for src in sorted(glob.glob(os.path.join(SRC, '*', '*', '*.jpg'))):
     lang, device, name = src.split(os.sep)[-3:]
     n = int(name[:2])
     shot = Image.open(src).convert('RGB')
@@ -77,5 +77,5 @@ for src in sorted(glob.glob(os.path.join(SRC, '*', '*', '*.png'))):
     img.paste(small, (x0, y0), mask)
     out = os.path.join(OUT, lang, device, name)
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    img.save(out, optimize=True)
+    img.save(out, quality=92)
     print(os.path.relpath(out, ROOT))
