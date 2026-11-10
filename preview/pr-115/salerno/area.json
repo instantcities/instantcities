@@ -1,0 +1,45 @@
+{
+  "city": "Salerno",
+  "bbox": [
+    40.6715,
+    14.7495,
+    40.6835,
+    14.7745
+  ],
+  "zone_points": [
+    [
+      40.6835,
+      14.7495
+    ],
+    [
+      40.6835,
+      14.7745
+    ],
+    [
+      40.6715,
+      14.7745
+    ],
+    [
+      40.6715,
+      14.7495
+    ]
+  ],
+  "routes": [
+    {
+      "id": "salerno",
+      "route": [
+        "Via Duomo",
+        "Via dei Mercanti",
+        "Piazza Sedile di Portanova",
+        "Corso Vittorio Emanuele",
+        "Via Velia",
+        "Lungomare Trieste",
+        "Traversa Giuseppe Verdi",
+        "Via Roma"
+      ]
+    }
+  ],
+  "floors": 5,
+  "hw": 3.6,
+  "gables": false
+}

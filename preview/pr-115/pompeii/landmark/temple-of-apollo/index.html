@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/pompeii/landmark/temple-of-apollo/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/pompei/monument/temple-of-apollo/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/pompeii/bezienswaardigheid/temple-of-apollo/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-115/en/pompeii/landmark/temple-of-apollo/", "fr": "/preview/pr-115/fr/pompei/monument/temple-of-apollo/", "nl": "/preview/pr-115/nl/pompeii/bezienswaardigheid/temple-of-apollo/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-115/en/pompeii/landmark/temple-of-apollo/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-115/en/pompeii/landmark/temple-of-apollo/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-115/fr/pompei/monument/temple-of-apollo/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-115/nl/pompeii/bezienswaardigheid/temple-of-apollo/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

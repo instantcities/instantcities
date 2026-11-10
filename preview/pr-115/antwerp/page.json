@@ -1,0 +1,12 @@
+{
+  "id": "antwerp",
+  "name": "Instant Antwerp",
+  "title": "Instant Antwerp: a free virtual 3D tour and game of Antwerp",
+  "description": "Take a free virtual 3D tour of the centre of Antwerp in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Antwerp: a virtual 3D tour of Antwerp",
+  "share_description": "Cycle, walk or gallop through Antwerp in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Antwerp, Belgium: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Antwerp in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Antwerp",
+  "style": ":root { --accent: #c1272d; --accent-soft: #f7dcdd; --sky: #e0e6ec; --skyline: #9eabb8; } .tag { color: #6a2226; }"
+}
