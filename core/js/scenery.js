@@ -15,7 +15,7 @@ import { later, TILE } from './tiles.js';
 import { elevation, shade, letGo } from './facades.js';
 import { liftShader } from './terrain.js';
 export { drawAgain } from './facades.js';
-import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS } from './city.js';
+import { SQUARES, SIGNALS, CROSSINGS, STOPS, TRAM_HALTS, TRAM_CENTRE, TRAM_LINES, TRAM_STOPS, OLD_TOWN, BUS_LINES, LOOK, TWO_LANES, BIKE_STREETS, SHEEP, GROVES, AREAS, QUARTERS, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, LOOKS, BOATS, STREET_PAVING } from './city.js';
 import { squareAt } from './squares.js';
 import { sunk, hollowGround } from './hollows.js';
 import { onGround, GROUND } from './ground.js';
@@ -748,6 +748,35 @@ function flatPolygon(batch, p, y, tile) {
 }
 
 // A polyline painted on the ground w wide, with round joints. ys: a height for each point (bridges).
+// A street's own floor (STREET_PAVING): a strip like groundStrip's, but with its texture laid along
+// the street, u across it and v the metres along it, so the courses of slabs run across the street
+// however it turns. Each point gets a disc too, so the bends have no gaps.
+function streetStrip(batch, p, w, y, tile, ys = null) {
+  let s = 0;
+  for (let k = 0; k + 3 < p.length; k += 2) {
+    const ax = p[k], az = p[k + 1], bx = p[k + 2], bz = p[k + 3];
+    const L = Math.hypot(bx - ax, bz - az);
+    if (L < 0.01) continue;
+    const nx = (-(bz - az) / L) * w / 2, nz = ((bx - ax) / L) * w / 2;
+    const ya = y + (ys ? ys[k / 2] : 0), yb = y + (ys ? ys[k / 2 + 1] : 0);
+    const a = batch.vert(ax + nx, ya, az + nz, 0, 1, 0, 0, s / tile), b = batch.vert(ax - nx, ya, az - nz, 0, 1, 0, w / tile, s / tile);
+    const c = batch.vert(bx - nx, yb, bz - nz, 0, 1, 0, w / tile, (s + L) / tile), d = batch.vert(bx + nx, yb, bz + nz, 0, 1, 0, 0, (s + L) / tile);
+    batch.up(a, b, c);
+    batch.up(a, c, d);
+    s += L;
+  }
+  for (let k = 2; k + 2 < p.length; k += 2) { // the joints at the bends, as a disc of the same stone
+    const x = p[k], z = p[k + 1], yy = y - 0.0005 + (ys ? ys[k / 2] : 0), c = batch.vert(x, yy, z, 0, 1, 0, x / tile, z / tile);
+    let prev = null;
+    for (let i = 0; i <= 12; i++) {
+      const t = (i / 12) * Math.PI * 2, px = x + Math.cos(t) * w / 2, pz = z + Math.sin(t) * w / 2;
+      const q = batch.vert(px, yy, pz, 0, 1, 0, px / tile, pz / tile);
+      if (prev !== null) batch.up(c, q, prev);
+      prev = q;
+    }
+  }
+}
+
 function groundStrip(batch, p, w, y, tile, ys = null) {
   const v = (x, z, k) => batch.vert(x, y + (ys ? ys[k / 2] : 0), z, 0, 1, 0, x / tile, z / tile);
   for (let k = 0; k + 3 < p.length; k += 2) {
@@ -2113,9 +2142,17 @@ function osmGround(ctx, map, m) {
   const footSetts = new Batch(), footSlabs = new Batch(), bike = new Batch();
   const bikeNames = new Set((BIKE_STREETS ?? []).map(n => map.names.indexOf(n)));
   const sunk = ctx.theme.sunken ? sunkenStreet(map) : null; // drawn sunk into the ground (js/sunken.js)
+  // the streets the city has paved as they are (STREET_PAVING): one floor of their own stone, wall to
+  // wall over the kerbs, in courses across the street wherever it turns
+  const paved = new Map(Object.entries(STREET_PAVING ?? {}).map(([name, paving]) => [map.names.indexOf(name), { paving, batch: new Batch() }]));
   for (const rd of map.roads) {
     const up = rd.br ? 0.03 : 0; // a bridge's deck over the ends of the streets leading onto it
     if (sunk?.(rd)) continue;
+    const own = paved.get(rd.n);
+    if (own && rd.n >= 0) {
+      streetStrip(own.batch, rd.p, rd.foot ? rd.w : rd.w + 2.6, GROUND.slabs + up, PAVING_TILE, rd.y);
+      continue;
+    }
     if (rd.foot && !rd.c) groundStrip(foot, rd.p, rd.w, GROUND.foot + up, 3, rd.y);
     else if (rd.foot) groundStrip(rd.c === 2 ? footSlabs : footSetts, rd.p, rd.w, (rd.c === 2 ? GROUND.footSlabs : GROUND.footSetts) + up, 6, rd.y);
     else {
@@ -2147,6 +2184,7 @@ function osmGround(ctx, map, m) {
   slabs.mesh(ctx, onRoad(slabMat, GROUND.slabs));
   footSetts.mesh(ctx, onRoad(settMat, GROUND.footSetts));
   footSlabs.mesh(ctx, onRoad(slabMat, GROUND.footSlabs));
+  for (const { paving, batch } of paved.values()) batch.mesh(ctx, onRoad(mat(0xffffff, 0.92, { map: pavingTexture(paving, ctx.r) }), GROUND.slabs));
   sides.mesh(ctx, mat(0x9b9184, 0.95, { side: THREE.DoubleSide }), { shadow: true });
   iron.mesh(ctx, mat(0x232628, 0.6, { side: THREE.DoubleSide }), { shadow: true });
   // the squares over it all, streets and kerbs included: one floor of stone wall to wall
