@@ -12,7 +12,7 @@ import { buzz } from '../haptics.js';
 import { Quest } from '../quests.js';
 import { resetSplats } from '../splat.js';
 import { t_, qt, GRID_LANES, PAN, hex, clamp, fmtTime, $ } from './base.js';
-import { game, saveSettings, lastSpot } from './settings.js';
+import { game, saveSettings, lastSpot, WATCH } from './settings.js';
 import { scene, particles, camYaw, menuLook } from './scene.js';
 import {
   roaming, questing, exploring, touring, quest, setQuest, demo, report, lapsToRide, world, city, track, getCity,
@@ -244,6 +244,7 @@ export function selectPause(i) {
 
 export function setPaused(on, menu = true) {
   if (demo && on) return; // the demo plays on, whatever happens
+  if (WATCH === '' && on) return; // so does the tour behind a site page (it only stops while out of sight, main.js)
   if (on && (game.state === 'race' || game.state === 'countdown' || game.state === 'tour')) {
     game.resumeState = game.state;
     game.state = 'paused';
