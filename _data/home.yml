@@ -3,12 +3,12 @@
 # on them comes from _data/cities.yml.
 langs: [en, fr, nl] # the site's languages, English first: the default, and the one every other page is in
 content_langs: [en, fr, nl] # the languages that have the art and sites pages (/en/art/, /en/sites/, /fr/art/, /fr/sites/, /nl/kunst/, /nl/plekken/); the old /art/ and /sites/ redirect
-hero_play_cities: [paris, rome] # Play buttons before it in the home page's hero
+hero_play_cities: [paris, rome, ghent] # Play buttons before it in the home page's hero
 live_city: ghent # initial preview and full-tour link
 live_poster: /assets/previews/ghent.jpg # compiled preview's first frame
 github: "https://github.com/instantcities/instantcities"
 # the "Ready to go?" banner at the bottom of the home page: a Play button for each of these cities
-cta_cities: [paris, london, rome]
+cta_cities: [paris, london, rome, ghent]
 
 # Compiled website previews, in playback order (each is 18 seconds).
 preview_cities: [ghent, rome, paris, london, barcelona]
