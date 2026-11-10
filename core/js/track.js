@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { SHARP } from './device.js';
 import { onGround } from './ground.js';
 
 const N = 2000;
@@ -426,7 +427,8 @@ export function slabTexture(theme = {}) {
 // wheel apart, running along it. Drawn for a strip 6.4 m across and 12 m long (40 px to a metre).
 export function lavaTexture() {
   const W = 256, H = 512, cols = 7, rows = 16, rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
-  const t = canvasTexture(W, H, g => {
+  const t = canvasTexture(W * SHARP, H * SHARP, g => {
+    g.scale(SHARP, SHARP); // (drawn in its W by H frame, finer on a computer: device.js SHARP)
     g.fillStyle = '#5a554c'; // the joints, filled with grit
     g.fillRect(0, 0, W, H);
     // a lattice of corners, each moved a good way off its place: the quads between are the blocks
@@ -460,6 +462,18 @@ export function lavaTexture() {
         }
       }
     }
+    // little white stones set in the joints here and there, to catch the light of the moon and the
+    // lamps; dust in the joints, a few blocks darker, the edges worn round and paler
+    for (let j = 1; j < rows; j++) for (let i = 0; i < cols; i++) {
+      if (rnd() < 0.82) continue;
+      const x = px[j][i], y = py[j][i];
+      g.fillStyle = 'rgba(236,232,220,0.9)'; g.beginPath(); g.ellipse(x, y, 2.4 + rnd() * 1.5, 1.8 + rnd(), rnd() * 3, 0, Math.PI * 2); g.fill();
+    }
+    for (let j = 0; j <= rows; j++) for (let i = 0; i < cols; i++) {
+      g.strokeStyle = 'rgba(150,138,110,0.25)'; g.lineWidth = 2;
+      g.beginPath(); g.moveTo(px[j][i], py[j][i]); g.lineTo(px[j][i + 1], py[j][i + 1]); g.stroke();
+    }
+    for (let k = 0; k < 40; k++) { const x = rnd() * W, y = rnd() * H; g.fillStyle = rnd() < 0.5 ? 'rgba(30,28,26,0.18)' : 'rgba(120,110,95,0.12)'; g.beginPath(); g.ellipse(x, y, 8 + rnd() * 14, 6 + rnd() * 10, rnd() * 3, 0, Math.PI * 2); g.fill(); }
     // grit and fine cracks
     for (let k = 0; k < 2600; k++) { g.fillStyle = rnd() < 0.5 ? 'rgba(0,0,0,0.12)' : 'rgba(225,215,195,0.14)'; g.fillRect(rnd() * W, rnd() * H, 1 + rnd() * 2, 1 + rnd() * 1.5); }
     // the ruts: a smoother, paler groove each, a cart's wheel gauge apart (about 1.4 m)
@@ -481,7 +495,8 @@ export function lavaTexture() {
 // street (a tile is 8 m), v up the face or across the top.
 export function kerbTexture() {
   const W = 512, H = 64, rnd = (() => { let s = 11; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
-  const t = canvasTexture(W, H, g => {
+  const t = canvasTexture(W * SHARP, H * SHARP, g => {
+    g.scale(SHARP, SHARP); // (drawn in its W by H frame, finer on a computer: device.js SHARP)
     g.fillStyle = '#2f2d2a';
     g.fillRect(0, 0, W, H);
     for (let x = 0; x < W;) {

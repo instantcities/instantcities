@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/lararium-of-vetutius-placidus/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/lararium-of-vetutius-placidus/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/lararium-of-vetutius-placidus/">
+  <script>
+    {
+      const urls = { "en": "/en/art/lararium-of-vetutius-placidus/", "fr": "/fr/art/lararium-of-vetutius-placidus/", "nl": "/nl/kunst/lararium-of-vetutius-placidus/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/art/lararium-of-vetutius-placidus/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/art/lararium-of-vetutius-placidus/" hreflang="en" lang="en">English</a>
+    <a href="/fr/art/lararium-of-vetutius-placidus/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/kunst/lararium-of-vetutius-placidus/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

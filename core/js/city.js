@@ -10,6 +10,7 @@ export const {
   BUS_LINES, FURNITURE, RACES, QUESTS, NAME, THEME, PLACES, LOOK, WORDS, STREETS, AREAS, BEACHES, RUNS, ROWING,
   TERRAIN, FAMOUS, TWO_LANES, TRAM_LINES, TRAM_STOPS, CHARACTERS, SIGHT_PAGES, MOUNDS, GROVES, TOUR, TOUR_PROPS, FREE_START, BUSY, QUARTERS,
   BIKE_STREETS, SHEEP, FULL_PARKING, PARKED_CARS, PARKED_BIKES, MAP_TREES, STREET_FURNITURE, TRAFFIC, BOATS, LOOKS, PORTALS, DEMO,
+  ART_SPOTS, // famous pieces out in the open, where the city's models put them: [{ id, spot }] (game/artview.js)
 } = C;
 
 // The buildings to go into (<city>/inside.js, js/interiors.js): their rooms stand on the map as

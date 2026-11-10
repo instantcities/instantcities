@@ -7,7 +7,7 @@ import { addSignals } from './signals.js';
 import { addStops } from './stops.js';
 import { addTramStops } from './tramstops.js';
 import { addParkedBikes } from './bikers.js';
-import { LOW_POWER, PARKED } from './device.js';
+import { LOW_POWER, PARKED, SHARP } from './device.js';
 import { WATER } from './relief.js';
 import { settTexture, slabTexture, lavaTexture, gravelTexture } from './track.js';
 import { addLandmarks } from './landmarks.js';
@@ -1331,7 +1331,7 @@ function osmBuildings(ctx, map) {
     let ruin = null;
     if (LOOK?.ruins && !b.m) {
       const c = Math.floor(hv * RUIN_VARIANTS), kind = hashOf(i + 21) < 0.3 ? 'shop' : 'door';
-      const walls = [0, 1, 2].map(m => [`ruin${c}-${['', 'door', 'shop'][m]}`, rr => canvasTexture(512, 342, ruinPainter(c, ['', 'door', 'shop'][m], c * 3 + m))]);
+      const walls = [0, 1, 2].map(m => [`ruin${c}-${['', 'door', 'shop'][m]}`, rr => canvasTexture(512 * SHARP, 342 * SHARP, g => { g.scale(SHARP, SHARP); ruinPainter(c, ['', 'door', 'shop'][m], c * 3 + m)(g); })]);
       ruin = { plain: walls[0], front: kind === 'shop' ? walls[2] : walls[1], seed: i * 7 + c, h: Math.min(RUIN_TILE[1] - 0.5, b.f > 1 ? 5.4 : 3.8 + hashOf(i + 23) * 1.2) };
     }
     // on a shopping street, about half the fronts get a shop on the ground floor

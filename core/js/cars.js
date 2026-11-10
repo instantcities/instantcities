@@ -2,7 +2,8 @@ import * as THREE from 'three';
 import { SIGHT } from './device.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { liftShader } from './terrain.js';
-import { TRAFFIC } from './city.js';
+import { TRAFFIC, ID } from './city.js';
+import { FLEETS, POLICE, BUSES } from './fleets.js';
 
 // Vehicle models. Each is drawn as side profiles (a rounded outline in the length/height plane,
 // wheel arches cut out of it) pulled out across the vehicle's width, so bonnets slope, windscreens
@@ -26,31 +27,45 @@ const car = (len, w, wheel, axles, lights, body, glass, roof, pillars, extra = {
   ...extra,
 });
 
-// The word LIJN in grey, as boxes, h high with its bottom at y: on both sides (side: the half-width
-// it stands out at, centred at z), each reading from the nose's end or the tail's as you face it,
-// or on the nose (front: its z, centred at x).
-const LIJN = [ // each letter's strokes [u0, u1, v0, v1] for letters 1 high, and its width
-  [[[0, 0.2, 0, 1], [0, 0.62, 0, 0.2]], 0.62],
-  [[[0, 0.2, 0, 1]], 0.2],
-  [[[0.42, 0.62, 0, 1], [0, 0.62, 0, 0.2], [0, 0.2, 0, 0.45]], 0.62],
-  [[[0, 0.2, 0, 1], [0.5, 0.7, 0, 1], ...[0, 1, 2, 3, 4].map(i => [0.14 + 0.06 * i, 0.28 + 0.06 * i, 0.8 - 0.2 * i, 1 - 0.2 * i])], 0.7],
-];
-function lijn({ side, front, z = 0, x = 0, y, h }) {
+// Words in block letters, as boxes h high with their bottom at y: on both sides (side: the half-width
+// they stand out at, centred at z), each reading from the nose's end or the tail's as you face it,
+// or on the nose (front: its z, centred at x). Each letter's strokes [u0, u1, v0, v1] for letters 1
+// high, and its width.
+const FONT = {
+  A: [[[0, 0.2, 0, 1], [0.4, 0.6, 0, 1], [0, 0.6, 0.8, 1], [0, 0.6, 0.4, 0.6]], 0.6],
+  C: [[[0, 0.2, 0, 1], [0, 0.6, 0, 0.2], [0, 0.6, 0.8, 1]], 0.6],
+  D: [[[0, 0.2, 0, 1], [0, 0.45, 0.8, 1], [0, 0.45, 0, 0.2], [0.4, 0.6, 0.15, 0.85]], 0.6],
+  E: [[[0, 0.2, 0, 1], [0, 0.6, 0, 0.2], [0, 0.6, 0.8, 1], [0, 0.5, 0.4, 0.6]], 0.6],
+  I: [[[0, 0.2, 0, 1]], 0.2],
+  J: [[[0.42, 0.62, 0, 1], [0, 0.62, 0, 0.2], [0, 0.2, 0, 0.45]], 0.62],
+  L: [[[0, 0.2, 0, 1], [0, 0.62, 0, 0.2]], 0.62],
+  N: [[[0, 0.2, 0, 1], [0.5, 0.7, 0, 1], ...[0, 1, 2, 3, 4].map(i => [0.14 + 0.06 * i, 0.28 + 0.06 * i, 0.8 - 0.2 * i, 1 - 0.2 * i])], 0.7],
+  O: [[[0, 0.2, 0, 1], [0.4, 0.6, 0, 1], [0, 0.6, 0, 0.2], [0, 0.6, 0.8, 1]], 0.6],
+  P: [[[0, 0.2, 0, 1], [0, 0.6, 0.8, 1], [0, 0.6, 0.4, 0.6], [0.4, 0.6, 0.4, 1]], 0.6],
+  S: [[[0, 0.6, 0.8, 1], [0, 0.2, 0.5, 1], [0, 0.6, 0.4, 0.6], [0.4, 0.6, 0, 0.5], [0, 0.6, 0, 0.2]], 0.6],
+  T: [[[0, 0.6, 0.8, 1], [0.2, 0.4, 0, 1]], 0.6],
+  Y: [[[0, 0.2, 0.5, 1], [0.4, 0.6, 0.5, 1], [0, 0.6, 0.4, 0.6], [0.2, 0.4, 0, 0.5]], 0.6],
+  Z: [[[0, 0.6, 0.8, 1], [0, 0.6, 0, 0.2], [0.4, 0.6, 0.6, 0.8], [0.2, 0.4, 0.4, 0.6], [0, 0.2, 0.2, 0.4]], 0.6],
+};
+function lettering(word, { side, front, z = 0, x = 0, y, h, colour = 0x6b7378 }) {
   const rects = [];
   let u = 0;
-  for (const [strokes, gw] of LIJN) {
+  for (const ch of word) {
+    const [strokes, gw] = FONT[ch] ?? [[], 0.4];
     for (const [u0, u1, v0, v1] of strokes) rects.push([u + u0, u + u1, v0, v1]);
     u += gw + 0.2;
   }
-  const half = (u - 0.2) / 2, out = [], GREY = 0x6b7378;
+  const half = (u - 0.2) / 2, out = [];
   for (const [u0, u1, v0, v1] of rects) {
     const a = (u0 - half) * h, b = (u1 - half) * h, y0 = y + v0 * h, y1 = y + v1 * h;
-    if (front != null) out.push([b - a, y0, y1, front - 0.04, front, GREY, x + (a + b) / 2]);
+    if (front != null) out.push([b - a, y0, y1, front - 0.04, front, colour, x + (a + b) / 2]);
     // facing the right side (+x) you read towards the tail, facing the left towards the nose
-    else for (const s of [-1, 1]) out.push([0.012, y0, y1, Math.min(z - s * a, z - s * b), Math.max(z - s * a, z - s * b), GREY, s * (side - 0.005)]);
+    else for (const s of [-1, 1]) out.push([0.012, y0, y1, Math.min(z - s * a, z - s * b), Math.max(z - s * a, z - s * b), colour, s * (side - 0.005)]);
   }
   return out;
 }
+// De Lijn's LIJN in grey
+const lijn = o => lettering('LIJN', o);
 
 export const CAR_TYPES = {
   hatch: car(3.9, 1.76, 0.33, [-1.25, 1.22], [0.66, 1.98, 0.82, -1.98],
@@ -78,22 +93,6 @@ export const CAR_TYPES = {
     ],
     boxes: [[1.98, 1.25, 1.85, -2.2, -0.6, 'glass']],
   },
-  // a Belgian police estate: white, with the blue and fluorescent yellow band and a light bar
-  police: {
-    len: 4.7, w: 1.84, wheel: 0.34, axles: [-1.5, 1.5], lights: [0.64, 2.39, 0.86, -2.38], livery: true,
-    parts: [
-      { p: [[2.35, 0.3, 0.12], [2.37, 0.62, 0.14], [2.1, 0.84, 0.3], [1.0, 0.96, 0.1], [-2.25, 0.98, 0.1], [-2.36, 0.82, 0.1], [-2.35, 0.3, 0.1]], w: 1.84, m: 0xf5f5f5, arches: true, top: true },
-      { p: [[1.05, 0.92, 0], [0.35, 1.45, 0.1], [-2.0, 1.48, 0.1], [-2.25, 0.92, 0]], w: 1.64, m: 'glass', top: true },
-      { p: [[0.4, 1.41, 0], [0.3, 1.53, 0.05], [-2.02, 1.55, 0.06], [-2.15, 1.41, 0]], w: 1.7, m: 0xf5f5f5, top: true },
-    ],
-    boxes: [
-      [1.67, 0.92, 1.53, -0.26, -0.14, 0xf5f5f5], [1.67, 0.92, 1.53, -1.46, -1.34, 0xf5f5f5],
-      [1.87, 0.5, 0.68, -2.2, 1.95, 0x0d47a1], [1.87, 0.68, 0.76, -2.2, 1.95, 0xd4e000], // the band
-      [1.2, 1.55, 1.6, -0.75, -0.45, 0x263238], // the light bar
-      [0.5, 1.6, 1.72, -0.72, -0.48, 'blue', -0.36], [0.5, 1.6, 1.72, -0.72, -0.48, 'blue', 0.36],
-      [0.12, 1.6, 1.68, -0.72, -0.48, 0xeceff1],
-    ],
-  },
   // an orange bin lorry: a cab up front, the rubbish body behind it, three axles
   bins: {
     len: 8.6, w: 2.45, wheel: 0.52, axles: [-3.05, -1.8, 3.1], lights: [0.85, 4.37, 1.1, -4.32], tall: true, livery: true,
@@ -110,33 +109,93 @@ export const CAR_TYPES = {
       [0.35, 2.95, 3.12, 2.9, 3.2, 'amber', -0.7], [0.35, 2.95, 3.12, 2.9, 3.2, 'amber', 0.7],
     ],
   },
-  // a De Lijn city bus: white, yellow panels below the windows here and there, LIJN in grey on its
-  // sides and nose, dark glass all along and at the back, the line's number lit over the
-  // windscreen, two axles
-  bus: {
-    len: 12, w: 2.55, wheel: 0.5, axles: [-3.4, 3.2], lights: [0.75, 6.02, 0.95, -5.98], tall: true,
+};
+// The police car: an estate in the colours of the city's police (fleets.js, POLICE): its body,
+// stripes, squares and words on its sides, a light bar on the roof.
+const ESTATE = { axles: [-1.5, 1.5], R: 0.41, top: 0.76 };
+// a stripe along the side from z0 to z1, broken off round the wheel arches where it runs low
+function band(y0, y1, colour, z0 = -2.2, z1 = 2.1, w = 1.87) {
+  const out = [], { axles, R, top } = ESTATE;
+  let cuts = [[z0, z1]];
+  if (y0 < top) for (const a of axles) cuts = cuts.flatMap(([p, q]) => (q <= a - R || p >= a + R ? [[p, q]] : [[p, a - R], [a + R, q]].filter(([u, v]) => v - u > 0.02)));
+  for (const [p, q] of cuts) out.push([w, y0, y1, p, q, colour]);
+  if (y0 < top && y1 > top) for (const a of axles) if (a + R > z0 && a - R < z1) out.push([w, top, y1, Math.max(z0, a - R), Math.min(z1, a + R), colour]);
+  return out;
+}
+const slant = (zb, zt, y0, y1, w, colour) => ({ p: [[zb + w / 2, y0, 0], [zt + w / 2, y1, 0], [zt - w / 2, y1, 0], [zb - w / 2, y0, 0]], w: 1.88, m: colour });
+export function policeCar(L) {
+  const body = L.body, roof = L.roof ?? body, parts = [], boxes = [];
+  for (const [y0, y1, c, z0, z1] of L.bands ?? []) boxes.push(...band(y0, y1, c, z0, z1));
+  for (const [y0, y1, rows, n, ca, cb] of L.checks ?? []) {
+    const len = 4.15 / n, h = (y1 - y0) / rows;
+    for (let r = 0; r < rows; r++) for (let i = 0; i < n; i++) boxes.push(...band(y0 + r * h, y0 + (r + 1) * h, (i + r) % 2 ? cb : ca, -2.2 + i * len, -2.2 + (i + 1) * len, 1.875));
+  }
+  for (const [zb, zt, y0, y1, w, c] of L.slants ?? []) parts.push(slant(zb, zt, y0, y1, w, c));
+  for (const [z, y, reach, rise, w, c] of L.chevrons ?? []) parts.push(slant(z, z + reach, y, y + rise, w, c), slant(z, z + reach, y, y - rise, w, c));
+  if (L.word) { const [text, z, y, h, colour] = L.word; boxes.push(...lettering(text, { side: 0.95, z, y, h, colour })); }
+  const [b1, b2] = L.beacons ?? ['blue', 'blue'];
+  return {
+    len: 4.7, w: 1.84, wheel: 0.34, axles: ESTATE.axles, lights: [0.64, 2.39, 0.86, -2.38], livery: true,
     parts: [
-      { p: [[5.98, 0.32, 0.1], [6.04, 2.95, 0.3], [5.85, 3.12, 0.15], [-5.85, 3.12, 0.15], [-6, 2.9, 0.15], [-6, 0.32, 0.1]], w: 2.55, m: 0xf4f4f2, arches: true, top: true },
+      { p: [[2.35, 0.3, 0.12], [2.37, 0.62, 0.14], [2.1, 0.84, 0.3], [1.0, 0.96, 0.1], [-2.25, 0.98, 0.1], [-2.36, 0.82, 0.1], [-2.35, 0.3, 0.1]], w: 1.84, m: body, arches: true, top: true },
+      { p: [[1.05, 0.92, 0], [0.35, 1.45, 0.1], [-2.0, 1.48, 0.1], [-2.25, 0.92, 0]], w: 1.64, m: 'glass', top: true },
+      { p: [[0.4, 1.41, 0], [0.3, 1.53, 0.05], [-2.02, 1.55, 0.06], [-2.15, 1.41, 0]], w: 1.7, m: roof, top: true },
+      ...parts,
+    ],
+    boxes: [
+      [1.67, 0.92, 1.53, -0.26, -0.14, roof], [1.67, 0.92, 1.53, -1.46, -1.34, roof], // the pillars
+      ...boxes,
+      [1.2, 1.55, 1.6, -0.75, -0.45, 0x263238], // the light bar
+      [0.5, 1.6, 1.72, -0.72, -0.48, b1, -0.36], [0.5, 1.6, 1.72, -0.72, -0.48, b2, 0.36],
+      [0.12, 1.6, 1.68, -0.72, -0.48, 0xeceff1],
+    ],
+  };
+}
+
+// The city bus, twelve metres long, in its operator's colours (fleets.js, BUSES): dark glass all
+// along and at the back, the line's number lit over the windscreen, two axles. De Lijn's is white
+// with yellow panels below the windows here and there and LIJN in grey on its sides and nose.
+export function cityBus(L) {
+  const extra = [];
+  const R = 0.57, axles = [-3.4, 3.2];
+  for (const [y0, y1, c] of L.bands ?? []) {
+    let cuts = [[-5.97, 5.97]];
+    if (y0 < 1.07) for (const a of axles) cuts = cuts.flatMap(([p, q]) => (q <= a - R || p >= a + R ? [[p, q]] : [[p, a - R], [a + R, q]]));
+    for (const [p, q] of cuts) extra.push([2.575, y0, y1, p, q, c]);
+    if (y0 < 1.07 && y1 > 1.07) for (const a of axles) extra.push([2.575, 1.07, y1, a - R, a + R, c]);
+  }
+  if (L.delijn) extra.push(
+    [2.58, 0.5, 1.2, 5.2, 5.97, 0xffc400],            // the yellow panels: by the nose,
+    [2.58, 0.5, 1.2, -2.75, -1.55, 0xffc400],         // ahead of the back wheels
+    [2.58, 0.5, 1.2, -5.95, -4.6, 0xffc400],          // and at the back corner
+    [0.4, 0.35, 0.95, 5.95, 6.035, 0xffc400, 0.4],    // and one on the nose
+    ...lijn({ side: 1.3, z: 1.6, y: 0.68, h: 0.36 }), // between the middle door and the front wheels
+    ...lijn({ side: 1.3, z: -5.27, y: 0.68, h: 0.36 }), // on the back corner's yellow
+    ...lijn({ front: 6.04, x: -0.25, y: 0.6, h: 0.22 }),
+  );
+  return {
+    len: 12, w: 2.55, wheel: 0.5, axles, lights: [0.75, 6.02, 0.95, -5.98], tall: true,
+    parts: [
+      { p: [[5.98, 0.32, 0.1], [6.04, 2.95, 0.3], [5.85, 3.12, 0.15], [-5.85, 3.12, 0.15], [-6, 2.9, 0.15], [-6, 0.32, 0.1]], w: 2.55, m: L.body, arches: true, top: true },
       { p: [[6.07, 0.95, 0], [6.07, 2.7, 0], [5.4, 2.7, 0], [5.4, 0.95, 0]], w: 2.42, m: 'glass' },
     ],
     boxes: [
-      [2.57, 1.2, 2.7, -5.5, 5.0, 'glass'],             // the windows all along
+      [2.57, L.windowsFrom ?? 1.2, 2.7, -5.5, 5.0, 'glass'], // the windows all along
       [2.1, 1.3, 2.65, -6.07, -5.98, 'glass'],          // the back window
-      [2.58, 0.5, 1.2, 5.2, 5.97, 0xffc400],            // the yellow panels: by the nose,
-      [2.58, 0.5, 1.2, -2.75, -1.55, 0xffc400],         // ahead of the back wheels
-      [2.58, 0.5, 1.2, -5.95, -4.6, 0xffc400],          // and at the back corner
-      [0.4, 0.35, 0.95, 5.95, 6.035, 0xffc400, 0.4],    // and one on the nose
-      [2.56, 0.3, 0.5, -5.95, 5.97, 0x4a4f54],          // the skirt
+      ...extra,
+      [2.56, 0.3, 0.5, -5.95, 5.97, L.skirt],           // the skirt
       [1.9, 2.74, 2.98, 5.98, 6.08, 0x1c1c1c],          // the destination display
       [1.3, 2.79, 2.93, 6.05, 6.09, 0xffa000],          // its lit letters
       [2.6, 0.35, 2.7, 4.3, 5.2, 0x5d666d], [2.6, 0.35, 2.7, -0.6, 0.6, 0x5d666d], // the doors
-      [1.9, 3.1, 3.42, -3.2, 0.4, 0xe2e2e0],            // the roof box
-      ...lijn({ side: 1.3, z: 1.6, y: 0.68, h: 0.36 }), // between the middle door and the front wheels
-      ...lijn({ side: 1.3, z: -5.27, y: 0.68, h: 0.36 }), // on the back corner's yellow
-      ...lijn({ front: 6.04, x: -0.25, y: 0.6, h: 0.22 }),
+      [1.9, 3.1, 3.42, -3.2, 0.4, L.roofBox],           // the roof box
     ],
-  },
-};
+  };
+}
+
+// this city's (Ghent's where it has none of its own)
+const FLEET = FLEETS[ID] ?? FLEETS.ghent;
+CAR_TYPES.police = policeCar(POLICE[FLEET.police]);
+CAR_TYPES.bus = cityBus(BUSES[FLEET.bus] ?? BUSES.delijn);
 // a taxi: the saloon with a lit sign on its roof (only driving about, never parked)
 CAR_TYPES.taxi = { ...CAR_TYPES.sedan, boxes: [...CAR_TYPES.sedan.boxes, [0.62, 1.46, 1.64, -0.5, -0.2, 0xffe36e]] };
 
@@ -196,8 +255,19 @@ CAR_TYPES.deuxcv = car(3.83, 1.48, 0.33, [-1.2, 1.18], [0.78, 1.9, 0.72, -1.9],
   [[0.75, 0.98, 0], [0.45, 1.48, 0.12], [-0.95, 1.52, 0.25], [-1.45, 0.98, 0]],
   [[0.48, 1.44, 0], [0.38, 1.58, 0.12], [-0.9, 1.6, 0.3], [-1.2, 1.3, 0]], [-0.25],
   { colors: [0x5d4037, 0xf5f0e1, 0x90a4ae, 0xd32f2f, 0xffca28, 0x1e3a5f] });
-for (const t of Object.values(CAR_TYPES)) {
-  t.h = Math.max(...t.parts.flatMap(p => p.p.map(q => q[1])), ...t.boxes.map(b => b[2]));
+const measure = t => { t.h = Math.max(...t.parts.flatMap(p => p.p.map(q => q[1])), ...t.boxes.map(b => b[2])); };
+for (const t of Object.values(CAR_TYPES)) measure(t);
+
+// A model on a city's models page (_data/vehicles.json): police-<key>, bus-<key> (fleets.js) or one
+// of CAR_TYPES; the type to build it as (carGroup), and the paint it gets.
+export function modelType(id) {
+  const [kind, key] = id.split(/-(.+)/);
+  if (!CAR_TYPES[id] && (kind === 'police' || kind === 'bus')) measure(CAR_TYPES[id] = kind === 'police' ? policeCar(POLICE[key]) : cityBus(BUSES[key]));
+  if (id === 'taxi-ny') return { type: 'taxi', paint: 0xf7b500 };
+  const t = CAR_TYPES[id];
+  // in the paint of the one in its photo
+  const PHOTO = { trabant: 0xf5f5f5, deuxcv: 0x90a4ae, cinquecento: 0x90caf9 };
+  return t ? { type: id, paint: PHOTO[id] ?? t.colors?.[0] ?? 0xffffff } : null;
 }
 
 // the usual mix of vehicles, and what the city adds to it (its TRAFFIC.mix: [type, weight], e.g.
@@ -292,7 +362,7 @@ CAR_MAT.onBeforeCompile = sh => {
 };
 // the flashing lights on police cars and bin lorries, in their own colours
 const BEACON_MAT = new THREE.MeshBasicMaterial({ vertexColors: true });
-const GLASS = 0x1f2b38, BEACONS = { blue: 0x2a4bff, amber: 0xffa000 };
+const GLASS = 0x1f2b38, BEACONS = { blue: 0x2a4bff, red: 0xff2020, amber: 0xffa000 };
 
 // Call it every frame, for the flashing lights.
 export function flashBeacons() {

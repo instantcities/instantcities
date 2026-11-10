@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/avignon/models/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/avignon/models/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/avignon/models/">
+  <script>
+    {
+      const urls = { "en": "/en/avignon/models/", "fr": "/fr/avignon/models/", "nl": "/nl/avignon/models/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/avignon/models/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/avignon/models/" hreflang="en" lang="en">English</a>
+    <a href="/fr/avignon/models/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/avignon/models/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

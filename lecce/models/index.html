@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/lecce/models/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/lecce/models/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/lecce/models/">
+  <script>
+    {
+      const urls = { "en": "/en/lecce/models/", "fr": "/fr/lecce/models/", "nl": "/nl/lecce/models/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/lecce/models/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/lecce/models/" hreflang="en" lang="en">English</a>
+    <a href="/fr/lecce/models/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/lecce/models/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>

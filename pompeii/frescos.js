@@ -7,6 +7,12 @@
 //   red, yellow, black, white: the field's colour
 //   cupids: the black room of the House of the Vettii, its frieze of little cupids at work
 //   garden: a painted garden, plants and birds behind a low trellis, on a garden's walls
+//   masonry: the First Style of the House of the Faun, older: plaster modelled into blocks and
+//     painted like coloured marble, under a cornice of little teeth
+//   graffiti: the white walls of the Lupanare, scratched all over with names and tallies
+// The walls, the bare masonry and the floors are drawn in a frame of 512 (256 a floor tile) on a canvas
+// SHARP times that (core/js/device.js: twice on a computer, as is on a phone), so the thin lines of
+// their candelabra, garlands and borders stay sharp up close.
 // Pictures, one each, spread over a stretch of wall (u 0..1 across it):
 //   menander: the poet Menander in his chair reading, on blue (House of Menander)
 //   venus: Venus lying in a pink shell on the sea, with two cupids (House of Venus in the Shell)
@@ -14,15 +20,21 @@
 //     genius between two lares, and two snakes below
 //   pyramus: Pyramus and Thisbe by the spring, the lioness behind (House of Octavius Quartio)
 //   couples: the small pictures over the cells of the Lupanare: a couple on a bed (here, dressed)
+// The real ones: artTexture(id) puts the photo of a piece of _data/art.json (assets/img/art/<id>.jpg,
+// the alexander-mosaic, the venus-in-the-shell...) over the drawing of it, once it has loaded
+// (core/js/inside/photo.js); offline the drawing stays.
 // Floors, tiled every TILE metres (u, v = metres / TILE):
 //   tesserae (white with a black band), black (black with white crosses), signinum (red-brown
 //   cement with white tesserae set in it), sectile (cubes in three tones: the House of the Faun),
-//   marble (bits of coloured marble set in the counter of a thermopolium)
+//   marble (bits of coloured marble set in the counter of a thermopolium), tiles (a roof's
+//   terracotta, flat tiles with rounded ones over their joints, seen from below or above)
 // Mosaics, one each, over their own rectangle (u, v 0..1):
 //   cave: the black dog on a chain with CAVE CANEM, at the door of the House of the Tragic Poet
 //   have: HAVE (welcome), in the pavement before the House of the Faun
 //   alexander: the Alexander Mosaic, Alexander charging Darius in his chariot (House of the Faun)
 import * as THREE from 'three';
+import { photo } from '../core/js/inside/photo.js';
+import { SHARP } from '../core/js/device.js';
 
 export const PANEL = 3; // metres of wall a bay of painting covers
 export const TILE = 2; // metres of floor a tile of pattern covers
@@ -43,6 +55,9 @@ const texture = (key, w, h, draw, repeat = true) => {
   cache.set(key, t);
   return t;
 };
+
+// a drawing in its own frame, on a canvas SHARP times that
+const sharp = draw => (g, w, h, r) => { g.scale(SHARP, SHARP); draw(g, w / SHARP, h / SHARP, r); };
 
 // age: the plaster fading and come off here and there, showing the rubble behind
 function age(g, w, h, r, { flakes = 10, fade = 0.12 } = {}) {
@@ -89,8 +104,11 @@ function bird(g, x, y, s, c) {
 const FIELDS = { red: '#9b2b1f', yellow: '#d49a2e', black: '#1f1b17', white: '#e6dcc6', cupids: '#1f1b17' };
 
 export function wallTexture(style) {
-  if (style === 'garden') return texture('garden', 512, 512, gardenWall);
-  return texture('wall-' + style, 512, 512, (g, w, h, r) => {
+    const S = 512 * SHARP;
+  if (style === 'garden') return texture('garden', S, S, sharp(gardenWall));
+  if (style === 'masonry') return texture('wall-masonry', S, S, sharp(masonryWall));
+  if (style === 'graffiti') return texture('wall-graffiti', S, S, sharp(graffitiWall));
+  return texture('wall-' + style, S, S, sharp((g, w, h, r) => {
     const field = FIELDS[style], dark = style === 'black' || style === 'cupids' ? '#7d2218' : '#1f1b17';
     const socle = h * 0.8, frieze = h * 0.18; // canvas y: 0 at the top
     g.fillStyle = field; g.fillRect(0, 0, w, h);
@@ -120,6 +138,10 @@ export function wallTexture(style) {
       const fw = w / 2 - band - 28;
       g.strokeRect(x0, frieze + 18, fw, socle - frieze - 36);
       const cx = x0 + fw / 2, cy = (frieze + socle) / 2;
+      // a fine dotted line just inside the border, and a garland hung across the top of the field
+      g.save(); g.strokeStyle = style === 'white' ? 'rgba(155,43,31,0.7)' : 'rgba(240,225,180,0.55)'; g.lineWidth = 0.8; g.setLineDash([1.5, 2.5]);
+      g.strokeRect(x0 + 6, frieze + 24, fw - 12, socle - frieze - 48); g.restore();
+      garland(g, x0 + 10, x0 + fw - 10, frieze + 30, 22, r);
       if (style === 'cupids') continue;
       if (r() < 0.5) bird(g, cx, cy, 9, style === 'white' ? '#5a7a4a' : '#e6dcc6');
       else {
@@ -138,8 +160,109 @@ export function wallTexture(style) {
         g.fillRect(x + 8, socle - 24, 14, 12); // what each works at: an anvil, a jar, a garland
       }
     }
+    // little rosettes where the candelabra cross the frieze and the socle
+    for (const cx of [0, w / 2, w]) for (const y of [frieze + 10, socle + 6]) rosette(g, cx, y, 5, '#d4b060');
     age(g, w, h, r);
-  });
+  }));
+}
+
+// a garland of leaves sagging between x0 and x1 from y, `sag` deep, with ribbons at its ends
+function garland(g, x0, x1, y, sag, r) {
+  const n = 26;
+  for (let k = 0; k <= n; k++) {
+    const t = k / n, x = x0 + (x1 - x0) * t, yy = y + Math.sin(Math.PI * t) * sag;
+    g.fillStyle = ['#4f6e3a', '#6a8a4a', '#3f5e33'][k % 3];
+    g.beginPath(); g.ellipse(x, yy, 3.4, 2.2, (t - 0.5) * 1.4 + (r() - 0.5), 0, Math.PI * 2); g.fill();
+    if (k % 6 === 3) { g.fillStyle = '#c0392b'; g.beginPath(); g.arc(x, yy + 1.5, 1.6, 0, Math.PI * 2); g.fill(); }
+  }
+  g.strokeStyle = '#c0392b'; g.lineWidth = 1;
+  for (const x of [x0, x1]) { g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + 3, y + 10, x - 2, y + 18); g.stroke(); }
+}
+
+function rosette(g, x, y, s, c) {
+  g.fillStyle = c;
+  for (let a = 0; a < 6; a++) { const t = (a / 6) * Math.PI * 2; g.beginPath(); g.ellipse(x + Math.cos(t) * s * 0.55, y + Math.sin(t) * s * 0.55, s * 0.45, s * 0.25, t, 0, Math.PI * 2); g.fill(); }
+  g.fillStyle = '#7d2218'; g.beginPath(); g.arc(x, y, s * 0.25, 0, Math.PI * 2); g.fill();
+}
+
+// the First Style: courses of blocks in relief, each painted like a coloured stone, a tall dado of
+// upright slabs below, a cornice of dentils along the top; light falls from above on each block
+function masonryWall(g, w, h, r) {
+  // mostly white and ochre, a red, purple or dark green block here and there, all faded
+  const STONES = [['#ddd2bb', '#c4b79c'], ['#ddd2bb', '#c4b79c'], ['#c9ad74', '#a8875a'], ['#c9ad74', '#a8875a'], ['#8e3b2c', '#74301f'], ['#6a4e5e', '#523b48'], ['#4a5a4a', '#3a4a3a']];
+  g.fillStyle = '#e6dcc6'; g.fillRect(0, 0, w, h);
+  const vein = (x, y, bw, bh, c) => {
+    g.strokeStyle = c; g.lineWidth = 0.8;
+    for (let k = 0; k < 5; k++) { g.beginPath(); let px = x + r() * bw, py = y + r() * bh; g.moveTo(px, py); for (let i = 0; i < 4; i++) { px += (r() - 0.3) * bw * 0.3; py += (r() - 0.5) * bh * 0.4; g.lineTo(Math.min(x + bw, Math.max(x, px)), Math.min(y + bh, Math.max(y, py))); } g.stroke(); }
+  };
+  const block = (x, y, bw, bh, [c, d]) => {
+    g.fillStyle = d; g.fillRect(x, y, bw, bh);
+    g.fillStyle = c; g.fillRect(x + 2, y + 2, bw - 5, bh - 5);
+    vein(x + 2, y + 2, bw - 5, bh - 5, 'rgba(255,250,235,0.35)'); vein(x + 2, y + 2, bw - 5, bh - 5, 'rgba(0,0,0,0.18)');
+    g.fillStyle = 'rgba(255,255,255,0.35)'; g.fillRect(x + 2, y + 2, bw - 5, 2); // lit from above
+    g.fillStyle = 'rgba(0,0,0,0.3)'; g.fillRect(x + 2, y + bh - 4, bw - 5, 2);
+  };
+  // the cornice: a band of dentils
+  g.fillStyle = '#efe7d4'; g.fillRect(0, 0, w, 36);
+  for (let x = 2; x < w; x += 12) { g.fillStyle = '#d8cbb0'; g.fillRect(x, 18, 8, 12); g.fillStyle = 'rgba(0,0,0,0.25)'; g.fillRect(x + 7, 18, 1.5, 12); }
+  g.fillStyle = '#c8b898'; g.fillRect(0, 32, w, 4);
+  // courses of blocks, each course offset by half a block
+  const top = 40, dado = h * 0.62, ch = (dado - top) / 4;
+  for (let row = 0; row < 4; row++) {
+    const bw = w / 3, off = row % 2 ? -bw / 2 : 0;
+    for (let x = off; x < w; x += bw) block(x, top + row * ch, bw, ch, STONES[Math.floor(r() * STONES.length)]);
+  }
+  // the dado of tall slabs, and the plinth
+  g.fillStyle = '#cbbd9e'; g.fillRect(0, dado, w, 6);
+  for (let x = 0; x < w; x += w / 4) block(x, dado + 6, w / 4, h * 0.3, STONES[[1, 3, 2, 0][Math.floor(x / (w / 4)) % 4]]);
+  g.fillStyle = '#3a3430'; g.fillRect(0, h * 0.93, w, h * 0.07);
+  age(g, w, h, r, { flakes: 7, fade: 0.2 });
+}
+
+// the Lupanare's white walls: a red band at the socle, and scratched into the plaster, names, tallies,
+// boasts, as visitors left them
+function graffitiWall(g, w, h, r) {
+  g.fillStyle = '#e6dcc6'; g.fillRect(0, 0, w, h);
+  g.fillStyle = '#9b2b1f'; g.fillRect(0, h * 0.82, w, h * 0.18);
+  g.fillStyle = '#7d2218'; g.fillRect(0, h * 0.8, w, 5);
+  const words = ['FELIX', 'HIC', 'BENE', 'MVRTIS', 'FORTVNATA', 'VICTOR', 'ATTICE', 'SALVE', 'CRESCENS', 'IIII', 'XII', 'PRIMA', 'SVCCESSVS', 'AMPLIATVS', 'VALE', 'SABINA'];
+  g.textBaseline = 'middle';
+  for (let k = 0; k < 34; k++) {
+    const x = r() * w * 0.9, y = h * (0.12 + r() * 0.62), s = 9 + r() * 9;
+    g.save(); g.translate(x, y); g.rotate((r() - 0.5) * 0.35);
+    g.font = `${s}px serif`;
+    g.fillStyle = 'rgba(70,55,45,0.55)'; g.fillText(words[Math.floor(r() * words.length)], 0, 0);
+    g.restore();
+  }
+  // tally marks and a few drawn lines
+  g.strokeStyle = 'rgba(70,55,45,0.5)'; g.lineWidth = 0.8;
+  for (let k = 0; k < 10; k++) { const x = r() * w, y = h * (0.2 + r() * 0.55); for (let i = 0; i < 5; i++) { g.beginPath(); g.moveTo(x + i * 3, y); g.lineTo(x + i * 3 + 1, y + 10); g.stroke(); } }
+  age(g, w, h, r, { flakes: 12, fade: 0.1 });
+}
+
+// bare masonry, where no plaster is left: rubble stones of lava and limestone in rough courses, a band
+// of brick every so often, on a canvas RUBBLE_M metres square (repeated)
+export const RUBBLE_M = 3;
+export function rubbleTexture() {
+  return texture('rubble', 512 * SHARP, 512 * SHARP, sharp((g, w, h, r) => {
+    const STONES = ['#8f7d66', '#7d6f5c', '#a08a6c', '#6f6558', '#8a8278', '#9b6a50', '#5e5650', '#b09878', '#847159'], BR = ['#a65d44', '#b3694d', '#94533d', '#9c6a50'];
+    g.fillStyle = '#6a5d4c'; g.fillRect(0, 0, w, h);
+    let y = 0, row = 0;
+    while (y < h) {
+      const brick = row % 9 === 7, rh = brick ? 9 : 14 + r() * 10;
+      for (let x = -r() * 30; x < w; ) {
+        const sw = brick ? 34 + r() * 8 : 22 + r() * 36;
+        g.fillStyle = brick ? BR[Math.floor(r() * BR.length)] : STONES[Math.floor(r() * STONES.length)];
+        g.beginPath(); g.roundRect(x + 1, y + 1, sw - 2, rh - 2, brick ? 1 : 4); g.fill();
+        const d = (r() - 0.5) * 18; g.fillStyle = d > 0 ? `rgba(255,240,215,${d / 90})` : `rgba(0,0,0,${-d / 90})`; g.fill();
+        g.fillStyle = 'rgba(255,245,225,0.14)'; g.fillRect(x + 2, y + 1.5, sw - 4, 2);
+        x += sw;
+      }
+      y += rh; row++;
+    }
+    // (rows of the same height top and bottom, so it repeats up the wall without a seam)
+    for (let k = 0; k < 1500; k++) { g.fillStyle = r() < 0.5 ? 'rgba(0,0,0,0.08)' : 'rgba(255,245,225,0.07)'; g.fillRect(r() * w, r() * h, 1 + r() * 3, 1 + r() * 2); }
+  }));
 }
 
 function gardenWall(g, w, h, r) {
@@ -161,6 +284,17 @@ function gardenWall(g, w, h, r) {
 }
 
 // ------------------------------------------------------------------ pictures on a wall
+
+// The photo of a famous piece (aspect: the width of the place it fills over its height), over the
+// drawing `draw` makes (one of PICTURES or MOSAICS) until it has loaded, and for good offline.
+export function artTexture(id, aspect = 1, draw = null) {
+  const key = 'art-' + id;
+  if (cache.has(key)) return cache.get(key);
+  const W = 512, H = Math.max(64, Math.round(512 / aspect));
+  return photo(texture(key, W, H, (g, w, h, r) => { if (draw) draw(g, w, h, r); else { g.fillStyle = '#8a6a4a'; g.fillRect(0, 0, w, h); } }, false), id);
+}
+export const PICTURE_DRAW = name => (g, w, h, r) => PICTURES[name](g, w, h, r);
+export const MOSAIC_DRAW = name => (g, w, h, r) => MOSAICS[name](g, w, h, r);
 
 export function pictureTexture(name) {
   return texture('pic-' + name, 1024, 512, (g, w, h, r) => PICTURES[name](g, w, h, r), false);
@@ -252,7 +386,7 @@ const PICTURES = {
 // ------------------------------------------------------------------ floors
 
 export function floorTexture(kind) {
-  return texture('floor-' + kind, 256, 256, (g, w, h, r) => FLOORS[kind](g, w, h, r));
+  return texture('floor-' + kind, 256 * SHARP, 256 * SHARP, sharp((g, w, h, r) => FLOORS[kind](g, w, h, r)));
 }
 
 // tesserae a few pixels each, in one colour give or take
@@ -309,6 +443,23 @@ const FLOORS = {
     g.fillStyle = '#4a4640'; g.fillRect(0, 0, w, h);
     for (let y = 0; y < h; y += 40) for (let x = (y / 40) % 2 ? 20 : 0; x < w + 40; x += 50 + r() * 20) {
       const v = 70 + r() * 30; g.fillStyle = `rgb(${v},${v - 3},${v - 6})`; g.fillRect(x + 2, y + 2, 44 + r() * 10, 36);
+    }
+  },
+  planks(g, w, h, r) {
+    // the boards of a ceiling, seen from below, along u
+    for (let y = 0; y < h; y += 32) { const v = (r() - 0.5) * 20; g.fillStyle = `rgb(${120 + v},${84 + v * 0.7},${52 + v * 0.5})`; g.fillRect(0, y, w, 31); g.fillStyle = 'rgba(0,0,0,0.3)'; g.fillRect(0, y + 30, w, 2); }
+    for (let k = 0; k < 300; k++) { g.fillStyle = 'rgba(60,35,20,0.15)'; g.fillRect(r() * w, r() * h, 10 + r() * 30, 1); }
+  },
+  tiles(g, w, h, r) {
+    // flat tiles (tegulae) in rows, a rounded tile (imbrex) over each joint, along v
+    g.fillStyle = '#8a4a2e'; g.fillRect(0, 0, w, h);
+    for (let x = 0; x < w; x += 32) for (let y = 0; y < h; y += 48) {
+      const v = (r() - 0.5) * 24; g.fillStyle = `rgb(${172 + v},${92 + v * 0.6},${58 + v * 0.4})`; g.fillRect(x + 1, y + 1, 30, 46);
+      g.fillStyle = 'rgba(0,0,0,0.18)'; g.fillRect(x + 1, y + 40, 30, 7);
+    }
+    for (let x = 0; x < w; x += 32) {
+      const grd = g.createLinearGradient(x - 6, 0, x + 6, 0); grd.addColorStop(0, '#6a3420'); grd.addColorStop(0.5, '#c0704a'); grd.addColorStop(1, '#6a3420');
+      g.fillStyle = grd; g.fillRect(x - 6, 0, 12, h);
     }
   },
   soil(g, w, h, r) {

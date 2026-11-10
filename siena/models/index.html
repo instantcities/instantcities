@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/siena/models/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/sienne/models/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/siena/models/">
+  <script>
+    {
+      const urls = { "en": "/en/siena/models/", "fr": "/fr/sienne/models/", "nl": "/nl/siena/models/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/en/siena/models/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/en/siena/models/" hreflang="en" lang="en">English</a>
+    <a href="/fr/sienne/models/" hreflang="fr" lang="fr">Français</a>
+    <a href="/nl/siena/models/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
