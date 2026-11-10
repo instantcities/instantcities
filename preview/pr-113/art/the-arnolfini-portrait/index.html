@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Instant Cities</title>
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="en" href="https://instantcities.net/en/art/the-arnolfini-portrait/">
+  <link rel="alternate" hreflang="fr" href="https://instantcities.net/fr/art/the-arnolfini-portrait/">
+  <link rel="alternate" hreflang="nl" href="https://instantcities.net/nl/kunst/the-arnolfini-portrait/">
+  <script>
+    {
+      const urls = { "en": "/preview/pr-113/en/art/the-arnolfini-portrait/", "fr": "/preview/pr-113/fr/art/the-arnolfini-portrait/", "nl": "/preview/pr-113/nl/kunst/the-arnolfini-portrait/" };
+      let lang;
+      try { lang = localStorage.getItem('site-lang'); } catch {}
+      if (!urls[lang]) lang = (navigator.languages || [navigator.language]).map(l => String(l).slice(0, 2).toLowerCase()).find(l => urls[l]) || 'en';
+      location.replace(urls[lang] + location.search + location.hash);
+    }
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/preview/pr-113/en/art/the-arnolfini-portrait/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="/preview/pr-113/en/art/the-arnolfini-portrait/" hreflang="en" lang="en">English</a>
+    <a href="/preview/pr-113/fr/art/the-arnolfini-portrait/" hreflang="fr" lang="fr">Français</a>
+    <a href="/preview/pr-113/nl/kunst/the-arnolfini-portrait/" hreflang="nl" lang="nl">Nederlands</a>
+  </p>
+</body>
+</html>
