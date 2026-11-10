@@ -3,7 +3,7 @@ name: PR Preview
 # Builds every pull request and publishes it to the gh-pages branch under /preview/pr-<n>/
 # (https://instantcities.net/preview/pr-<n>/); the link comes as a comment on the PR, and the
 # preview goes again when the PR closes. tools/preview.mjs moves the site's root paths under that
-# folder and leaves the assets the PR does not change to production.
+# folder and leaves the assets and the big files the PR does not change to production.
 # PRs from forks get a read-only token and no preview.
 
 on:
@@ -37,14 +37,17 @@ jobs:
           bundler-cache: true
       - if: github.event.action != 'closed'
         run: bundle exec jekyll build
-      # Production's assets, to leave out the ones the PR does not change.
+      # Production's files (not the other previews), to leave out the ones the PR does not change.
       - uses: actions/checkout@v4
         if: github.event.action != 'closed'
         continue-on-error: true # no gh-pages branch yet
         with:
           ref: gh-pages
           path: _production
-          sparse-checkout: assets
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/preview/
       - if: github.event.action != 'closed'
         run: node tools/preview.mjs _site /preview/pr-${{ github.event.number }} _production
       - uses: rossjrw/pr-preview-action@v1

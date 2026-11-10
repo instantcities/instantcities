@@ -1,0 +1,821 @@
+{
+  "models": [
+    {
+      "id": "police-be",
+      "kind": "police",
+      "name": {
+        "en": "Belgian police car",
+        "nl": "Belgische politiewagen",
+        "fr": "Voiture de police belge"
+      },
+      "category": "Federal police automobiles of Belgium|Police automobiles in Belgium",
+      "photo": {
+        "src": "/assets/img/vehicles/police-be.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "HJ Mitchell",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Police_vehicles_in_Brussels_06.jpg"
+      }
+    },
+    {
+      "id": "police-nl",
+      "kind": "police",
+      "name": {
+        "en": "Dutch police car",
+        "nl": "Nederlandse politieauto",
+        "fr": "Voiture de police néerlandaise"
+      },
+      "category": "Police automobiles in Amsterdam|Police automobiles in the Netherlands",
+      "photo": {
+        "src": "/assets/img/vehicles/police-nl.jpg",
+        "w": 1024,
+        "h": 576,
+        "author": "S5A-0043",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:(NLD-North_Holland)_National_Police_Corps_Mercedes-Benz_B_200_d_P-523-GX_2025-06-03.jpg"
+      }
+    },
+    {
+      "id": "police-fr",
+      "kind": "police",
+      "name": {
+        "en": "Police nationale car",
+        "nl": "Auto van de Police nationale",
+        "fr": "Voiture de la Police nationale"
+      },
+      "category": "Police automobiles in France",
+      "search": "Police nationale voiture",
+      "photo": {
+        "src": "/assets/img/vehicles/police-fr.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "HJ Mitchell",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Police_car_outside_headquarters.jpg"
+      }
+    },
+    {
+      "id": "police-uk",
+      "kind": "police",
+      "name": {
+        "en": "Metropolitan Police car",
+        "nl": "Auto van de Metropolitan Police",
+        "fr": "Voiture de la Metropolitan Police"
+      },
+      "category": "Police automobiles in the United Kingdom",
+      "search": "Metropolitan Police car London",
+      "photo": {
+        "src": "/assets/img/vehicles/police-uk.jpg",
+        "w": 1024,
+        "h": 683,
+        "author": "Hullian OneEleven",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Humberside_Police_IRV_EN23_NYV.jpg"
+      }
+    },
+    {
+      "id": "police-de",
+      "kind": "police",
+      "name": {
+        "en": "Berlin police car",
+        "nl": "Berlijnse politieauto",
+        "fr": "Voiture de police berlinoise"
+      },
+      "category": "Police automobiles of Berlin",
+      "photo": {
+        "src": "/assets/img/vehicles/police-de.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Geoprofi Lars",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2021-07-19_Polizeiwagen_am_Alexanderplatz_Berlin_04.jpg"
+      }
+    },
+    {
+      "id": "police-it",
+      "kind": "police",
+      "name": {
+        "en": "Polizia di Stato car",
+        "nl": "Auto van de Polizia di Stato",
+        "fr": "Voiture de la Polizia di Stato"
+      },
+      "category": "Polizia di Stato automobiles",
+      "photo": {
+        "src": "/assets/img/vehicles/police-it.jpg",
+        "w": 1024,
+        "h": 698,
+        "author": "Wilfredor",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Italian_Polizia_patrol_car_at_St_Peter%E2%80%99s_Square,_Vatican_City.jpg"
+      }
+    },
+    {
+      "id": "police-es",
+      "kind": "police",
+      "name": {
+        "en": "Policía Nacional car",
+        "nl": "Auto van de Policía Nacional",
+        "fr": "Voiture de la Policía Nacional"
+      },
+      "category": "Cuerpo Nacional de Policía automobiles",
+      "photo": {
+        "src": "/assets/img/vehicles/police-es.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Polic%C3%ADa_Nacional_-_Cupra_Le%C3%B3n.jpg"
+      }
+    },
+    {
+      "id": "police-cat",
+      "kind": "police",
+      "name": {
+        "en": "Mossos d'Esquadra car",
+        "nl": "Auto van de Mossos d'Esquadra",
+        "fr": "Voiture des Mossos d'Esquadra"
+      },
+      "category": "Police automobiles of Mossos d'Esquadra",
+      "photo": {
+        "src": "/assets/img/vehicles/police-cat.jpg",
+        "w": 1024,
+        "h": 654,
+        "author": "Jordi Roca",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Seat_Ateca_dels_Mossos_02.jpg"
+      }
+    },
+    {
+      "id": "police-cz",
+      "kind": "police",
+      "name": {
+        "en": "Czech police car",
+        "nl": "Tsjechische politieauto",
+        "fr": "Voiture de police tchèque"
+      },
+      "category": "Škoda Octavia in Czech police service",
+      "search": "Policie ČR Škoda Octavia",
+      "photo": {
+        "src": "/assets/img/vehicles/police-cz.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Jarda 75",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Policie_%C4%8CR,_%C5%A0koda_Octavia_II.JPG"
+      }
+    },
+    {
+      "id": "police-at",
+      "kind": "police",
+      "name": {
+        "en": "Austrian police car",
+        "nl": "Oostenrijkse politieauto",
+        "fr": "Voiture de police autrichienne"
+      },
+      "category": "Automobiles of the federal police of Austria|Police automobiles in Austria",
+      "photo": {
+        "src": "/assets/img/vehicles/police-at.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Johannes Maximilian",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Audi_A6_4K_2024-08-01_JM_5D413545.jpg"
+      }
+    },
+    {
+      "id": "police-dk",
+      "kind": "police",
+      "name": {
+        "en": "Danish police car",
+        "nl": "Deense politieauto",
+        "fr": "Voiture de police danoise"
+      },
+      "category": "Police automobiles in Denmark",
+      "photo": {
+        "src": "/assets/img/vehicles/police-dk.jpg",
+        "w": 1024,
+        "h": 703,
+        "author": "Johan Wessman / News Oresund",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20170710_Politi_i_Fredericia_01_(35867022950).jpg"
+      }
+    },
+    {
+      "id": "police-tr",
+      "kind": "police",
+      "name": {
+        "en": "Turkish police car",
+        "nl": "Turkse politieauto",
+        "fr": "Voiture de police turque"
+      },
+      "category": "Police automobiles in Turkey",
+      "photo": {
+        "src": "/assets/img/vehicles/police-tr.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Upwinxp",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Audi_Trafik_Polisi.jpg"
+      }
+    },
+    {
+      "id": "police-nypd",
+      "kind": "police",
+      "name": {
+        "en": "NYPD car",
+        "nl": "Auto van de NYPD",
+        "fr": "Voiture du NYPD"
+      },
+      "category": "Automobiles of the New York City Police Department",
+      "photo": {
+        "src": "/assets/img/vehicles/police-nypd.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Tdorante10",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coney_Is_Av_Caton_Pl_td_(2019-01-27)_07_-_NYPD_Brooklyn_South.jpg"
+      }
+    },
+    {
+      "id": "police-sfpd",
+      "kind": "police",
+      "name": {
+        "en": "SFPD car",
+        "nl": "Auto van de SFPD",
+        "fr": "Voiture du SFPD"
+      },
+      "category": "San Francisco Police Department automobiles",
+      "photo": {
+        "src": "/assets/img/vehicles/police-sfpd.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Mike Kelner",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Francisco_Police_Department_Ford_CVPI_No._120_outside_of_Central_Police_Station.jpg"
+      }
+    },
+    {
+      "id": "bus-delijn",
+      "kind": "bus",
+      "name": {
+        "en": "De Lijn bus",
+        "nl": "Bus van De Lijn",
+        "fr": "Bus De Lijn"
+      },
+      "category": "Van Hool buses operated by De Lijn",
+      "search": "De Lijn bus Gent",
+      "photo": {
+        "src": "/assets/img/vehicles/bus-delijn.jpg",
+        "w": 1024,
+        "h": 611,
+        "author": "Robbie Klinkenberg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:De_Lijn_Van_Hool_A330_4895_05-03-2025_(2).jpg"
+      }
+    },
+    {
+      "id": "bus-lecce",
+      "kind": "bus",
+      "name": {
+        "en": "Lecce city bus",
+        "nl": "Stadsbus van Lecce",
+        "fr": "Bus urbain de Lecce"
+      },
+      "category": "Buses in Lecce",
+      "photo": {
+        "src": "/assets/img/vehicles/bus-lecce.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Chabe01",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bus_SGM_Ligne_R7_Viale_Venticinque_Luglio_-_Lecce_(IT75)_-_2026-10-26_-_1.jpg"
+      }
+    },
+    {
+      "id": "double",
+      "kind": "bus",
+      "name": {
+        "en": "London double-decker",
+        "nl": "Londense dubbeldekker",
+        "fr": "Bus à impériale londonien"
+      },
+      "search": "London bus double decker red route",
+      "photo": {
+        "src": "/assets/img/vehicles/double.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Aubrey Morandarte from Guildford or Coventry, England",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:London_General_E276_on_Route_231,_Enfield_Town_(18363817346).jpg"
+      }
+    },
+    {
+      "id": "tram-delijn",
+      "kind": "tram",
+      "name": {
+        "en": "De Lijn tram",
+        "nl": "Tram van De Lijn",
+        "fr": "Tram De Lijn"
+      },
+      "category": "Bombardier Flexity 2 (Ghent)|Albatros Trams in Ghent",
+      "search": "De Lijn tram Gent Flexity",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-delijn.jpg",
+        "w": 1024,
+        "h": 640,
+        "author": "Oleksandr Dede",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gent,_Bombardier_Flexity_2_%C4%8D._6365.jpg"
+      }
+    },
+    {
+      "id": "tram-stib",
+      "kind": "tram",
+      "name": {
+        "en": "STIB tram",
+        "nl": "Tram van de MIVB",
+        "fr": "Tram de la STIB"
+      },
+      "category": "STIB/MIVB T3000",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-stib.jpg",
+        "w": 1024,
+        "h": 731,
+        "author": "Nitroxine",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Arr%C3%AAt_exposition_-_STIB.jpg"
+      }
+    },
+    {
+      "id": "tram-gvb",
+      "kind": "tram",
+      "name": {
+        "en": "GVB tram",
+        "nl": "Tram van het GVB",
+        "fr": "Tram du GVB"
+      },
+      "category": "15G trams in Amsterdam",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-gvb.jpg",
+        "w": 1024,
+        "h": 763,
+        "author": "Ayush Amstelveen",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gvb_Lijn_5_Amstelveen.jpg"
+      }
+    },
+    {
+      "id": "tram-bvg",
+      "kind": "tram",
+      "name": {
+        "en": "BVG tram",
+        "nl": "Tram van de BVG",
+        "fr": "Tram de la BVG"
+      },
+      "category": "F8Z (Bombardier Flexity Berlin)",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-bvg.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "NutzerAusBerlin",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_20260413_64.jpg"
+      }
+    },
+    {
+      "id": "tram-wl",
+      "kind": "tram",
+      "name": {
+        "en": "Wiener Linien tram",
+        "nl": "Tram van de Wiener Linien",
+        "fr": "Tram des Wiener Linien"
+      },
+      "category": "Vienna tram type D",
+      "search": "Wien Straßenbahn Flexity Typ D",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-wl.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Armin Ademovic",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Linien_Flexity_310_beim_Zentralfriedhof_1._Tor.jpg"
+      }
+    },
+    {
+      "id": "tram-dpp",
+      "kind": "tram",
+      "name": {
+        "en": "Prague tram",
+        "nl": "Praagse tram",
+        "fr": "Tram de Prague"
+      },
+      "category": "Škoda 15T in Prague",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-dpp.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "01x07x2022000",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Z%C3%A1cvik_nov%C3%A9ho_%C5%99idi%C4%8De_N%C3%A1m%C4%9Bst%C3%AD_Bohumila_Hrabala_IMG_0949.JPG"
+      }
+    },
+    {
+      "id": "tram-atac",
+      "kind": "tram",
+      "name": {
+        "en": "Rome tram",
+        "nl": "Romeinse tram",
+        "fr": "Tram de Rome"
+      },
+      "category": "Trams in Rome",
+      "search": "ATAC tram Roma",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-atac.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Peter Clarke",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tram_for_Argentina.JPG"
+      }
+    },
+    {
+      "id": "tram-firenze",
+      "kind": "tram",
+      "name": {
+        "en": "Florence tram",
+        "nl": "Florentijnse tram",
+        "fr": "Tram de Florence"
+      },
+      "category": "Trams on line 1 in Florence|Trams on line 2 in Florence|Trams in Florence",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-firenze.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Moliva",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GEST_2032_Piazza_San_Marco_20261010.jpg"
+      }
+    },
+    {
+      "id": "tram-istanbul",
+      "kind": "tram",
+      "name": {
+        "en": "Istanbul tram",
+        "nl": "Istanbulse tram",
+        "fr": "Tram d'Istanbul"
+      },
+      "category": "Istanbul Tramway line T1",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-istanbul.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Zach1055",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alstom_Citadis_X04_near_G%C3%BClhane,_Istanbul_Turkey_2024.jpg"
+      }
+    },
+    {
+      "id": "tram-ret",
+      "kind": "tram",
+      "name": {
+        "en": "RET tram",
+        "nl": "Tram van de RET",
+        "fr": "Tram de la RET"
+      },
+      "category": "Citadis 302 trams in Rotterdam",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-ret.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Smiley.toerist",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tramhalte_Prinses_Beatrixlaan_in_Schiedam_2026.jpg"
+      }
+    },
+    {
+      "id": "tram-htm",
+      "kind": "tram",
+      "name": {
+        "en": "HTM tram",
+        "nl": "Tram van de HTM",
+        "fr": "Tram de la HTM"
+      },
+      "category": "Avenio trams in The Hague",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-htm.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Sneeuwvlakte",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Delft_-_Tram_op_de_Campus_(2026-10-23).jpg"
+      }
+    },
+    {
+      "id": "tram-avignon",
+      "kind": "tram",
+      "name": {
+        "en": "Avignon tram",
+        "nl": "Tram van Avignon",
+        "fr": "Tram d'Avignon"
+      },
+      "category": "Avignon Tramway|Avignon Tramway Line 1",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-avignon.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "MattMoissa",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tramway_avignon_rame_essais_avril_2019.jpg"
+      }
+    },
+    {
+      "id": "tram-muni",
+      "kind": "tram",
+      "name": {
+        "en": "Muni light rail car",
+        "nl": "Tram van Muni",
+        "fr": "Tram de Muni"
+      },
+      "category": "Siemens S200 SF of the San Francisco Municipal Railway",
+      "photo": {
+        "src": "/assets/img/vehicles/tram-muni.jpg",
+        "w": 1024,
+        "h": 769,
+        "author": "Pi.1415926535",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Outbound_train_at_Church_and_18th_Street,_January_2026.JPG"
+      }
+    },
+    {
+      "id": "cab",
+      "kind": "car",
+      "name": {
+        "en": "London black cab",
+        "nl": "Londense black cab",
+        "fr": "Black cab londonien"
+      },
+      "category": "LTI TX4 in London",
+      "search": "London black cab taxi",
+      "photo": {
+        "src": "/assets/img/vehicles/cab.jpg",
+        "w": 1024,
+        "h": 768,
+        "author": "Oleg Yunakov",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2016_LTI_TX4_London_black_cab.jpg"
+      }
+    },
+    {
+      "id": "taxi-ny",
+      "kind": "car",
+      "name": {
+        "en": "New York yellow cab",
+        "nl": "Gele taxi van New York",
+        "fr": "Taxi jaune de New York"
+      },
+      "category": "Yellow taxis in New York City",
+      "photo": {
+        "src": "/assets/img/vehicles/taxi-ny.jpg",
+        "w": 1024,
+        "h": 572,
+        "author": "Sergiy Galyonkin from Raleigh, USA",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_v_New_York_City_taxicab_in_motion_(52030181010).jpg"
+      }
+    },
+    {
+      "id": "trabant",
+      "kind": "car",
+      "name": {
+        "en": "Trabant",
+        "nl": "Trabant",
+        "fr": "Trabant"
+      },
+      "category": "Trabant 601",
+      "photo": {
+        "src": "/assets/img/vehicles/trabant.jpg",
+        "w": 1024,
+        "h": 671,
+        "author": "Aad van der Drift",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:0503_1989_BERLIN_Ost_(april)_(14285504936).jpg"
+      }
+    },
+    {
+      "id": "deuxcv",
+      "kind": "car",
+      "name": {
+        "en": "Citroën 2CV",
+        "nl": "Citroën 2CV",
+        "fr": "Citroën 2CV"
+      },
+      "category": "Citroën 2CV",
+      "photo": {
+        "src": "/assets/img/vehicles/deuxcv.jpg",
+        "w": 1024,
+        "h": 812,
+        "author": "Mic from Reading - Berkshire, United Kingdom",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_2CV_in_snow_at_Tilehurst,_Berkshire,_England.jpg"
+      }
+    },
+    {
+      "id": "vespa",
+      "kind": "car",
+      "name": {
+        "en": "Vespa",
+        "nl": "Vespa",
+        "fr": "Vespa"
+      },
+      "search": "Vespa scooter Roma street",
+      "photo": {
+        "src": "/assets/img/vehicles/vespa.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Txemari (Argazki).",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Vespa_125N_(1953).jpg"
+      }
+    },
+    {
+      "id": "cinquecento",
+      "kind": "car",
+      "name": {
+        "en": "Fiat 500",
+        "nl": "Fiat 500",
+        "fr": "Fiat 500"
+      },
+      "category": "Fiat 500 (1957-1975)",
+      "photo": {
+        "src": "/assets/img/vehicles/cinquecento.jpg",
+        "w": 1024,
+        "h": 682,
+        "author": "Phyrexian",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pianopoli_-_Fontana_Santa_Croce_0826.JPG"
+      }
+    }
+  ],
+  "cities": {
+    "paris": [
+      "police-fr",
+      "deuxcv",
+      "vespa"
+    ],
+    "rome": [
+      "tram-atac",
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "london": [
+      "double",
+      "police-uk",
+      "cab"
+    ],
+    "new-york": [
+      "police-nypd",
+      "taxi-ny"
+    ],
+    "venice": [
+      "police-it"
+    ],
+    "barcelona": [
+      "police-cat",
+      "vespa"
+    ],
+    "istanbul": [
+      "tram-istanbul",
+      "police-tr",
+      "vespa"
+    ],
+    "amsterdam": [
+      "tram-gvb",
+      "police-nl"
+    ],
+    "san-francisco": [
+      "tram-muni",
+      "police-sfpd"
+    ],
+    "florence": [
+      "tram-firenze",
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "prague": [
+      "tram-dpp",
+      "police-cz"
+    ],
+    "vienna": [
+      "tram-wl",
+      "police-at"
+    ],
+    "berlin": [
+      "tram-bvg",
+      "police-de",
+      "trabant"
+    ],
+    "madrid": [
+      "police-es",
+      "vespa"
+    ],
+    "copenhagen": [
+      "police-dk"
+    ],
+    "brussels": [
+      "tram-stib",
+      "police-be"
+    ],
+    "bruges": [
+      "police-be"
+    ],
+    "antwerp": [
+      "tram-delijn",
+      "police-be"
+    ],
+    "avignon": [
+      "tram-avignon",
+      "police-fr",
+      "deuxcv",
+      "vespa"
+    ],
+    "salerno": [
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "pompeii": [
+      "police-it"
+    ],
+    "siena": [
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "pisa": [
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "utrecht": [
+      "police-nl"
+    ],
+    "rotterdam": [
+      "tram-ret",
+      "police-nl"
+    ],
+    "delft": [
+      "tram-htm",
+      "police-nl"
+    ],
+    "lecce": [
+      "bus-lecce",
+      "police-it",
+      "vespa",
+      "cinquecento"
+    ],
+    "ghent": [
+      "tram-delijn",
+      "bus-delijn",
+      "police-be"
+    ]
+  }
+}

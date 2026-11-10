@@ -485,3 +485,24 @@ main > section[id], main [id].sub, main h2[id] { scroll-margin-top: 120px; }
 
 .website-preview video { opacity: 0; transition: opacity .35s; }
 .website-preview.ready video { opacity: 1; }
+
+/* A city's vehicles (_layouts/models.html, and three on the city's page): a photo of the real one
+   next to the game's model, which on the models page turns (core/js/models.js) */
+.vehicles-home { border-top: 1px solid var(--line); }
+.vehicles-head { padding-bottom: 0; }
+.vehicles-head h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.1; margin-bottom: 28px; }
+.vehicles { display: grid; gap: 28px; }
+.vehicle h3 { font-size: 18px; margin-bottom: 10px; }
+.vehicle-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.vehicle figure { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--soft); }
+.vehicle figure img, .vehicle canvas { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; }
+.vehicle-game img, .vehicle canvas { object-fit: contain; padding: 12px; background: linear-gradient(#f4f4f3, #e6e6e3); }
+.vehicle canvas { padding: 0; background-size: contain; background-repeat: no-repeat; background-position: center; cursor: grab; touch-action: pan-y; }
+.vehicle canvas.drawn { background-image: none !important; }
+.vehicle canvas:active { cursor: grabbing; }
+.vehicle figcaption { padding: 8px 12px; font-size: 13px; color: var(--muted); }
+.vehicle figcaption a { color: inherit; }
+.vehicles-three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.vehicles-three .vehicle-pair { grid-template-columns: 1fr; gap: 8px; }
+@media (max-width: 900px) { .vehicles-three { grid-template-columns: 1fr; } .vehicles-three .vehicle-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px) { .vehicle-pair, .vehicles-three .vehicle-pair { grid-template-columns: 1fr; } }

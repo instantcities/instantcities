@@ -150,6 +150,20 @@ lm_osm_title: "%l op OpenStreetMap"
 lm_alt: "%l in Instant %c"
 photo_credit: "Foto: %a, %l, via Wikimedia Commons" # a hero photo's credit: %a the author, %l the licence
 
+# A city's vehicles (_layouts/models.html, and three of them on the city's page): %c the city, %d "of %c", %g its game, %n a number
+city_models: "De voertuigen in het spel"
+city_models_lead: "De politieauto, trams en bussen in het spel hebben de kleuren van de echte in %c. Elk naast een foto."
+all_models: "Alle %n voertuigen"
+models_crumb: "Voertuigen"
+models_title: "Voertuigen van %c in het spel, naast foto's · Instant Cities"
+models_description: "De politieauto, trams, bussen en andere voertuigen van %c in %g, elk naast een foto van het echte."
+models_h1: "Voertuigen van %c"
+models_tagline: "De voertuigen die je tegenkomt in %g, elk als foto van het echte en als model in het spel. Sleep een model om het te draaien."
+models_photo: "Foto"
+models_game: "In het spel"
+models_credit: "%a, %l, via Wikimedia Commons"
+models_footer: "De foto's komen van Wikimedia Commons."
+
 # De kunstpagina's (_layouts/art.html, artwork.html) en de pagina's over plekken (sites.html, site.html), zie en.yml.
 number_words: [nul, een, twee, drie, vier, vijf, zes, zeven, acht, negen, tien]
 art_title: "Beroemde kunst in 3D: de Mona Lisa, de Nachtwacht en meer · Instant Cities"

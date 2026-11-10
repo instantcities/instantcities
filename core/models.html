@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Model</title>
+  <!-- One of the game's vehicles standing still, for tools/vehicles.mjs to take its picture: ?model=police-nl -->
+  <style>html, body { margin: 0; background: transparent; } canvas { display: block; width: 960px; height: 540px; }</style>
+</head>
+<body data-still>
+  <canvas id="c"></canvas>
+  <script>document.getElementById('c').dataset.model = new URLSearchParams(location.search).get('model');</script>
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/", "city": "./js/nocity.js" } }
+  </script>
+  <script type="module" src="js/models.js"></script>
+</body>
+</html>
