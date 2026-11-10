@@ -61,6 +61,8 @@ export const THEME = { ground: '#a59d8f', paving: '#cfc4ae', verge: 0xcfc4ae, ke
 
 // What drives here besides the usual cars (js/cars.js): Vespas, old Fiat 500s, and white taxis.
 export const TRAFFIC = { mix: [['vespa', 0.3], ['cinquecento', 0.12]], taxis: 0.3, taxi: { type: 'taxi', colors: [0xf5f5f5] } };
+// What you ride about on when exploring freely and behind the tour's menu, in place of the red horse.
+export const FREE_MOUNT = 'vespa';
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): the honey-coloured
 // pietra leccese the whole old town is built of, a few houses plastered white or ochre, green and

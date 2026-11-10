@@ -63,6 +63,8 @@ export const THEME = { ground: '#a39a8c', paving: '#c9bda6', verge: 0xc9bda6, ke
 
 // What drives here besides the usual cars (js/cars.js): Vespas everywhere, old Fiat 500s, and white taxis.
 export const TRAFFIC = { mix: [['vespa', 0.45], ['cinquecento', 0.12]], taxis: 0.25, taxi: { type: 'taxi', colors: [0xf5f5f5] } };
+// What you ride about on when exploring freely and behind the tour's menu, in place of the red horse.
+export const FREE_MOUNT = 'vespa';
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): plaster in
 // ochre, terracotta, sienna and cream, green and brown shutters, low roofs of terracotta tiles,
