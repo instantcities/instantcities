@@ -1,0 +1,12 @@
+{
+  "id": "prague",
+  "name": "Instant Prague",
+  "title": "Instant Prague: a free virtual 3D tour and game of Prague",
+  "description": "Take a free virtual 3D tour of the centre of Prague in your browser, then cycle, walk or gallop through it yourself: explore or race, alone or two players on one keyboard. Nothing to install.",
+  "share_title": "Instant Prague: a virtual 3D tour of Prague",
+  "share_description": "Cycle, walk or gallop through Prague in your browser. Explore or race, alone or with two. Free.",
+  "ld_description": "A free virtual 3D tour and browser game set in the centre of Prague, Czechia: explore the city or race by bike, on foot or on horseback, alone or two players split-screen.",
+  "noscript": "    <p>Ride a bike, walk or gallop through a 3D Prague in your browser. Turn on JavaScript to play.</p>",
+  "city_en": "Prague",
+  "style": ":root { --accent: #b0302a; --accent-soft: #f5dcda; --gold: #e8b23a; --sky: #ece6dc; --skyline: #b9a99a; } .tag { color: #6e2a26; }"
+}

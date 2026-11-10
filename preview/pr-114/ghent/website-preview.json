@@ -1,0 +1,35 @@
+{
+  "name": "Ghent",
+  "shots": [
+    {
+      "name": "Sint-Michielsbrug",
+      "at": [
+        -245,
+        -70
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    },
+    {
+      "name": "Belfort",
+      "at": [
+        67,
+        -30
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    },
+    {
+      "name": "Graslei",
+      "at": [
+        -289,
+        -200
+      ],
+      "before": 35,
+      "seconds": 6,
+      "speed": 0.7
+    }
+  ]
+}
