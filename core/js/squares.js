@@ -1,10 +1,27 @@
 // The city's car-free squares (<city>/squares.js): one floor of stone wall to wall, where
 // the map only knows the streets across them.
-import { SQUARES } from './city.js';
+import { SQUARES, STREET_PAVING, MAP } from './city.js';
 import { inPolygon } from './collide.js';
 
 // the square (x, z) is on, if any
 export const squareAt = (x, z) => SQUARES.find(sq => inPolygon(x, z, sq.p));
+
+// Whether (x, z) is on a street the city has paved wall to wall (STREET_PAVING, drawn by js/scenery.js
+// with its kerbs): a race route along it leaves it its own stones, as across a square.
+const PAVED = (() => {
+  const names = new Set(Object.keys(STREET_PAVING ?? {}).map(n => MAP?.names?.indexOf(n)));
+  return (MAP?.roads ?? []).filter(rd => names.has(rd.n) && rd.n >= 0).map(rd => ({ p: rd.p, r: (rd.foot ? rd.w : rd.w + 2.6) / 2 }));
+})();
+export function pavedStreetAt(x, z) {
+  for (const { p, r } of PAVED) {
+    for (let k = 0; k + 3 < p.length; k += 2) {
+      const ax = p[k], az = p[k + 1], dx = p[k + 2] - ax, dz = p[k + 3] - az;
+      const f = Math.max(0, Math.min(1, ((x - ax) * dx + (z - az) * dz) / (dx * dx + dz * dz || 1)));
+      if (Math.hypot(ax + dx * f - x, az + dz * f - z) < r) return true;
+    }
+  }
+  return false;
+}
 
 function centre(p) {
   let x = 0, z = 0;
