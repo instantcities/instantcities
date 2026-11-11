@@ -117,7 +117,7 @@
         {%- endfor %}
       </div>
       {%- if G %}
-      <p class="more"><a class="ghost" href="/{{ C.id }}/places-and-landmarks/"{% if L != 'en' %} hreflang="en"{% endif %}>{% include icon.html name="pin" %} {{ T.all_places | replace: '%n', landmarks.size }}{{ T.in_english }}</a></p>
+      <p class="card-more"><a href="/{{ C.id }}/places-and-landmarks/"{% if L != 'en' %} hreflang="en"{% endif %}>{{ T.all_places | replace: '%n', landmarks.size }}{{ T.in_english }} ›</a></p>
       {%- endif %}
     </section>
     {%- endif %}
@@ -133,7 +133,7 @@
         {% include vehicle-card.html model=vm %}
         {%- endfor %}
       </div>
-      <p class="more"><a class="ghost" href="{% include city-url.html city=C.id page='models' %}">{% include icon.html name="sparkle" %} {{ T.all_models | replace: '%n', vids.size }}</a></p>
+      <p class="card-more"><a href="{% include city-url.html city=C.id page='models' %}">{{ T.all_models | replace: '%n', vids.size }} ›</a></p>
     </section>
     {%- endif %}
 

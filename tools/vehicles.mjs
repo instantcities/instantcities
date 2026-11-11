@@ -143,14 +143,14 @@ if (cmd === 'find' && id) {
   const ids = rest.length > 1 ? rest.slice(1) : data.models.map(m => m.id);
   const browser = await chromium.launch({ args: ['--use-gl=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
   try {
-    const page = await browser.newPage({ viewport: { width: 960, height: 540 } });
+    const page = await browser.newPage({ viewport: { width: 960, height: 600 } });
     page.on('pageerror', e => console.log('pageerror', e.message.slice(0, 300)));
     for (const m of ids) {
       await page.goto(`http://localhost:8321/core/models.html?model=${m}`);
       await page.waitForFunction(() => document.body.dataset.ready, null, { timeout: 60000 });
       const png = path.join(ROOT, 'tools', 'cache', 'vehicles', `${m}-model.png`), out = path.join(ROOT, 'assets', 'img', 'vehicles', `${m}-model.webp`);
-      await page.locator('canvas').screenshot({ path: png, omitBackground: true });
-      execFileSync('convert', [png, '-trim', '+repage', '-resize', '720x400>', '-quality', '82', out]);
+      await page.locator('canvas').screenshot({ path: png });
+      execFileSync('convert', [png, '-resize', '720x450', '-quality', '80', out]);
       console.log(`${m}: ${path.relative(ROOT, out)}`);
     }
   } finally { await browser.close(); }
