@@ -462,11 +462,6 @@ kbd {
 .dropdown { position: relative; }
 .dropdown .dd-list { position: absolute; top: calc(100% + 4px); right: 0; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
 .dropdown .dd-list .chip { white-space: nowrap; }
-/* the city picker: its icon before the word, the list long enough to scroll */
-#cityBtn { display: inline-flex; align-items: center; gap: 4px; }
-#cityList { max-height: min(60vh, 420px); overflow-y: auto; padding: 2px; }
-#cityList .chip { text-decoration: none; text-align: left; }
-#cityList .chip:not(.on) { color: #111; }
 .corner.left { right: auto; left: 14px; align-items: flex-start; }
 .corner.left .opts { justify-content: flex-start; }
 .corner.left .chip { font-size: 14px; padding: 4px 12px; }
@@ -803,7 +798,7 @@ a.chip { text-decoration: none; }
 /* the action button (game/action.js): over the jump button, while there is something to do here */
 #tAction { grid-area: action; display: none; background: #1d1a17; color: #fff; }
 #tAction.show { display: flex; }
-#tAction .icon, #menuBtn .icon, .street .icon, #cityBtn .icon { width: 1em; height: 1em; display: block; flex: none; }
+#tAction .icon, #menuBtn .icon, .street .icon { width: 1em; height: 1em; display: block; flex: none; }
 #tAction .ico { font-size: 30px; line-height: 0; }
 #artview { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: calc(12px + env(safe-area-inset-top)) 16px calc(12px + env(safe-area-inset-bottom)); background: rgba(12, 10, 8, 0.94); color: #f4efe6; cursor: zoom-out; }
 #artview.hidden { display: none; }
@@ -1940,3 +1935,40 @@ body.pro .row { border-radius: 6px; }
 body.pro .tcard.on { box-shadow: none; }
 body.pro #menu.overlay { background: linear-gradient(rgba(11, 37, 69, 0.08), rgba(11, 37, 69, 0.4)); }
 body.pro .site-link { -webkit-text-stroke: 3px rgba(11, 37, 69, 0.85); }
+
+/* ---------- Missions / race / tour: light tabs, a line under the one that is picked, not buttons. */
+#menu .row[data-row="kind"] { padding: 0; border: 0; border-bottom: 1px solid var(--edge, rgba(17, 17, 17, 0.18)); border-radius: 0; background: none; }
+#menu #kindOpts { gap: 0; flex-wrap: nowrap; }
+#menu #kindOpts .chip {
+  margin-bottom: -1px; padding: 6px 14px 8px; font-size: 15px; font-weight: 500;
+  color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent; border-radius: 0; box-shadow: none;
+}
+#menu #kindOpts .chip:hover { color: var(--ink); }
+#menu #kindOpts .chip.on { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
+#menu .quad:has(> .row[data-row="kind"]) { margin-bottom: 10px; }
+
+/* ---------- The city picker: a small ▾ by the city's name, which opens a page of its own over the menu. */
+.title .cityline { display: inline-flex; align-items: center; gap: 0.12em; }
+.citybtn {
+  display: inline-flex; align-items: center; gap: 2px; padding: 4px 6px; margin-left: 0.1em;
+  font: 500 16px var(--sans); color: var(--muted); background: none; border: 1px solid transparent; border-radius: 6px; cursor: pointer;
+  -webkit-text-stroke: 0; text-shadow: none; letter-spacing: 0;
+}
+.citybtn:hover { color: var(--ink); border-color: var(--edge, rgba(17, 17, 17, 0.18)); }
+.citybtn .ico .icon, .citybtn .ico svg { width: 18px; height: 18px; display: block; }
+.citydlg {
+  position: absolute; inset: 0; z-index: 5; display: flex; flex-direction: column;
+  padding: 14px 16px; background: #fff; border-radius: inherit; text-align: left;
+}
+.citydlg.hidden { display: none; }
+.cityhead { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.cityhead h2 { margin: 0; font: 700 22px var(--sans); color: var(--ink); }
+.cityhead .arrow { width: 36px; height: 36px; font-size: 22px; flex: none; }
+.citylist {
+  position: relative; flex: 1 1 auto; min-height: 0; overflow-y: auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; align-content: start;
+}
+.citylist .chip { display: block; padding: 8px 12px; font-size: 15px; text-decoration: none; text-align: left; }
+.citylist .chip:not(.on) { color: #111; }
+/* the card keeps at least the height to show a good part of the list */
+#menu.picking .card { min-height: min(80vh, 560px); }
