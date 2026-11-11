@@ -38,7 +38,7 @@ import { FACTS } from './tourfacts.js';
 import { STATUE_FOOT, CLIMB_TIME } from './tourcast-config.js';
 
 export const TOUR = {
-  from: [-323, -66], // on the Sint-Michielshelling: the Graslei, the Leie, the bridge and St Nicholas’ Church right ahead
+  from: [-338, -64], // on the Sint-Michielshelling, on its way up the bridge: the Graslei, the Leie and St Nicholas’ Church right ahead
   path: [
     [-425, -54, 5], [-395, -59], [-355, -63], [-318, -66, 6.5], [-292, -68, 7.5], [-262, -69, 7], [-245, -70, 6],
     [-215, -70, 5.5], [-190, -71, 5], [-172, -70, 7], [-160, -67, 12], [-140, -63, 24], [-118, -58, 30], [-93, -50],

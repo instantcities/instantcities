@@ -9,6 +9,7 @@ const CHORDS = {
   D7: { root: 50, notes: [60, 62, 66] },
   Dm: { root: 50, notes: [62, 65, 69] },
   D: { root: 50, notes: [62, 66, 69] },
+  E7: { root: 40, notes: [59, 62, 68] },
   Em: { root: 40, notes: [59, 64, 67] },
   F: { root: 41, notes: [60, 65, 69] },
   G: { root: 43, notes: [59, 62, 67] },
@@ -106,14 +107,41 @@ const TUNES = {
       ['Am', []],
     ],
   },
+
+  // Sous le ciel de Paris (Hubert Giraud), a musette waltz in A minor, from memory.
+  paris: {
+    meter: 6, tempo: 1.15,
+    bars: [
+      ['Am', [[69, 2], [72, 2], [76, 2]]],
+      ['Am', [[76, 3], [74, 1], [72, 1], [71, 1]]],
+      ['Dm', [[69, 2], [72, 2], [74, 2]]],
+      ['E7', [[71, 6]]],
+      ['Am', [[69, 2], [72, 2], [76, 2]]],
+      ['Am', [[77, 3], [76, 1], [74, 1], [72, 1]]],
+      ['Dm', [[74, 2], [72, 2], [69, 2]]],
+      ['E7/Am', [[68, 3], [69, 3]]],
+      ['Am', [[76, 2], [76, 2], [76, 2]]],
+      ['Dm', [[77, 3], [76, 1], [74, 1], [72, 1]]],
+      ['E7', [[74, 2], [72, 2], [71, 2]]],
+      ['Am', [[69, 6]]],
+      ['Dm', [[72, 2], [74, 2], [77, 2]]],
+      ['G7', [[76, 3], [74, 1], [72, 1], [71, 1]]],
+      ['C', [[72, 2], [76, 2], [79, 2]]],
+      ['E7/Am', [[71, 3], [69, 3]]],
+    ],
+  },
 };
+
+// The title screen plays one tune, its city's (the city is the page's first folder, /paris/play/).
+const MENU_TUNES = { ghent: 'vliegerke', paris: 'paris' };
+const MENU_TUNE = MENU_TUNES[location.pathname.split('/')[1]] ?? 'vliegerke';
 
 // Each song cycles through its tunes, one full pass each, in its own arrangement.
 const SONGS = {
   // The original gameplay arrangement, restored from before October 4, 2026.
   race: { bpm: 150, style: 'galop', leadType: 'square', leadVol: 0.1, transpose: 0, tunes: ['vliegerke', 'klokke', 'kernkraft'] },
   // Title screen: straight, at 100 bpm, with an echoing triangle lead.
-  menu: { bpm: 100, leadType: 'triangle', leadVol: 0.2, transpose: -12, echo: true, tunes: ['vliegerke', 'klokke', 'kernkraft'] },
+  menu: { bpm: 100, leadType: 'triangle', leadVol: 0.2, transpose: -12, echo: true, tunes: [MENU_TUNE] },
 };
 
 const hz = m => 440 * Math.pow(2, (m - 69) / 12);
@@ -265,6 +293,11 @@ export class Music {
       if (!race && s === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
       if (race && (s === 2 || s === 6)) a.noise(0.1, { vol: 0.16, freq: 1800, q: 0.8, at, bus });
       if (s % 2 === 0 && (race || s % 4)) a.noise(0.03, { vol: race ? (s % 4 ? 0.06 : 0.035) : 0.03, freq: race ? 8000 : 6000, type: 'highpass', at, bus });
+    } else if (song.meter === 6) {
+      // Waltz: bass on the first beat, chords on the other two.
+      if (s === 0) a.tone(hz(ch.root), dur * 5, { type: 'triangle', vol: 0.4, at, bus });
+      if (s === 2 || s === 4) for (const n of ch.notes) a.tone(hz(n), dur * 1.6, { type: 'triangle', vol: 0.05, at, bus });
+      if (s === 0) a.tone(120, 0.12, { to: 50, vol: 0.25, at, bus });
     } else if (s % song.div === 0) {
       // 4/4: patterns on the eighths, also when the tune is counted in sixteenths.
       const q = s / song.div, e = dur * song.div;
