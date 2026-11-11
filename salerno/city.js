@@ -53,6 +53,16 @@ export const THEME = { ground: '#a59c8c', paving: '#cbbfa8', verge: 0xcbbfa8, ke
 
 // What drives here besides the usual cars (js/cars.js): Vespas, old Fiat 500s, and white taxis.
 export const TRAFFIC = { mix: [['vespa', 0.45], ['cinquecento', 0.12]], taxis: 0.25, taxi: { type: 'taxi', colors: [0xf5f5f5] } };
+// The streets paved as they are, wall to wall (js/scenery.js), from photos: Via dei Mercanti in the
+// dark grey basoli of lava stone of the old town, the Corso, a pedestrian street, in light grey slabs
+// laid in courses across it. slab: [across, along] in metres.
+export const STREET_PAVING = {
+  'Via dei Mercanti': { stone: '#76757a', joint: '#4c4b4a', slab: [0.75, 0.5] },
+  'Corso Vittorio Emanuele': { stone: '#b3b4b4', joint: '#8a8b8c', slab: [0.6, 0.4] },
+};
+
+// What you ride about on when exploring freely and behind the tour's menu, in place of the red horse.
+export const FREE_MOUNT = 'vespa';
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): the plaster of
 // the Campanian coast in warm ochre, salmon pink, pale yellow and cream, the grey tufa of the

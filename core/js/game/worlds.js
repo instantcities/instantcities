@@ -18,7 +18,7 @@ import { infoPage } from '../info-links.js';
 import { inPolygon } from '../collide.js';
 import { buildRelief } from '../relief.js';
 import { fitToHills } from '../terrain.js';
-import { squareAt } from '../squares.js';
+import { squareAt, pavedStreetAt } from '../squares.js';
 import { atmosphere, isNight, snowCover } from '../weather.js';
 import { t_, SKY_FADE } from './base.js';
 import { game } from './settings.js';
@@ -131,8 +131,9 @@ function getWorld(i) {
   // a street sunk below the ground the houses stand on (js/sunken.js): the route lies that much lower
   if (cfg.theme.sunken && !t.rise) t.rise = new Float32Array(t.n).fill(-cfg.theme.sunken);
   if (cfg.map.sett && !t.sett) t.setSett(cfg.map.sett);
-  // across a car-free square the road is its stones: no kerbs, no lines, nobody parked
-  t.paved ??= t.points.map(p => !!squareAt(p.x, p.z));
+  // across a car-free square the road is its stones: no kerbs, no lines, nobody parked (and so along
+  // a street the city paved wall to wall, STREET_PAVING)
+  t.paved ??= t.points.map(p => !!squareAt(p.x, p.z) || pavedStreetAt(p.x, p.z));
   const relief = getCity().relief;
   if (cfg.map.oneway) {
     t.parking = parkingRows(t, cfg.control, cfg.map.oneway, cfg.obstacles.filter(o => !o.lat).map(o => o.at), t.mouths, cfg.map.free);

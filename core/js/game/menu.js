@@ -5,7 +5,7 @@ import { TRACKS } from '../tracks.js';
 import { STABLE, MOUNTS, MOUNT_COLORS, PLAYER_COLORS, ITALIAN } from '../horses.js';
 import { LANGS, local, applyStatic, setLang, getLang } from '../i18n.js';
 import { helicopter } from '../heli.js';
-import { QUESTS, THEME, TOUR, DEMO } from '../city.js';
+import { QUESTS, THEME, TOUR, DEMO, FREE_MOUNT } from '../city.js';
 import { hillsOn } from '../terrain.js';
 import { sfx, music } from '../sound.js';
 import {
@@ -554,9 +554,10 @@ function switchMount(d) {
   saveSettings();
 }
 
-// Each mission has player 1 start out as someone: free exploring on a red horse, the quests as their
-// city's quests.js says. Picking a mission puts that back, whatever was chosen for the one before.
-const FREE_PLAYER = { mount: 'horse', pick: 'hagelslag' };
+// Each mission has player 1 start out as someone: free exploring on a red horse (or what the city's
+// FREE_MOUNT says: a Vespa in Italy), the quests as their city's quests.js says. Picking a mission puts
+// that back, whatever was chosen for the one before.
+const FREE_PLAYER = { mount: MOUNTS.includes(FREE_MOUNT) ? FREE_MOUNT : 'horse', pick: 'hagelslag' };
 export function missionPlayer() {
   const { mount, pick } = QUESTS[game.mission - 1]?.player ?? FREE_PLAYER;
   game.mounts[0] = mount;

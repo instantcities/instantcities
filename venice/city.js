@@ -55,6 +55,8 @@ export const THEME = { ground: '#a19a90', paving: '#b9b2a6', verge: 0xb9b2a6, ke
 
 // No cars in Venice: gondolas on the canals instead of tour boats (js/scenery.js).
 export const BOATS = { kind: 'gondola' };
+// What you ride about on when exploring freely and behind the tour's menu, in place of the red horse.
+export const FREE_MOUNT = 'vespa';
 
 // How the houses look (js/scenery.js; Ghent's brick and slate when a city has none): plaster in
 // Venetian red, rose, ochre and cream over brick, white Istrian stone round the windows, green
