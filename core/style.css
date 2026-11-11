@@ -1597,7 +1597,7 @@ body.touring #menuBtn { right: auto; left: calc(16px + env(safe-area-inset-left)
    loading screen, menu, buttons, street names or cards. (?watch=cards is the whole tour, as from the
    menu, starting straight away.) */
 html.watch:not(.watch-cards) :is(#loader, #menu, #menuBtn, #touch, #minimap, #tourBar, #tourSpeed, #tourMusic,
-  #tourWelcome, #tourName, #tourCard) { display: none !important; }
+  #tourWelcome, #tourName, #tourCard, #pause) { display: none !important; }
 /* At the wheel of a borrowed bus or bin lorry: the windscreen's frame round the view (roof, pillars,
    a wing mirror), the dashboard along the bottom and the steering wheel in front of you. */
 .cabview { position: absolute; inset: 0; overflow: hidden; opacity: 0; transition: opacity 0.3s; pointer-events: none; --cab: #2a2f33; --cab-hi: #454c52; }
