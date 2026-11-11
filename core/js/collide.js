@@ -122,8 +122,9 @@ export function collide(col, r, R) {
   for (let pass = 0; pass < 2; pass++) {
     const rails = col.rails.near(r.pos.x, r.pos.z).filter(s => Math.abs((r.base ?? 0) + r.y - s[4]) < 0.8);
     // a hollow's walls: jumped clear over the railing on top, already dropping down into it, or up
-    // on a bridge across it
-    const over = (r.base ?? 0) + r.y > RAIL - 0.25 || r.baseV < 0 || (r.base ?? 0) > 0.1;
+    // on a bridge across it, or afloat: a boat in the water below a quay lying lower (the Graslei)
+    // has to be able to come up onto it
+    const over = (r.base ?? 0) + r.y > RAIL - 0.25 || r.baseV < 0 || (r.base ?? 0) > 0.1 || r.afloat;
     for (const s of [...col.walls.near(r.pos.x, r.pos.z), ...(over ? [] : col.ledges.near(r.pos.x, r.pos.z)), ...rails]) {
       const { d, cx, cz } = segDist(r.pos.x, r.pos.z, s[0], s[1], s[2], s[3]);
       if (d >= R || d < 1e-6) continue;
